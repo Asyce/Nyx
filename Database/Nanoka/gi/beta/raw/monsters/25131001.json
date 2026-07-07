@@ -1,11 +1,11 @@
 {
-  "name": "Volkodlak Thrower",
-  "desc": "Among the many Volkodlaks of Snezhnaya, these are the relatively sturdy ones.\\nPossessing the strength of a beast and a humanoid body, their powerful upper limbs grant their throws greater power and make them more precise. Volkodlaks may not be proficient in the art of crafting Clotting Ice or the use of Elemental power, but when it comes to the mastery of physical strength, they rank among the top across the many fairy tribes.",
+  "name": "Volkodlak Lobber",
+  "desc": "A relatively large and powerfully built type of Volkodlak found among the many that roam Snezhnaya.\\nWith the strength of beasts and humanoid bodies, their powerful upper bodies allow them to throw with greater force and precision. Volkodlak may not excel at shaping Prime Ice or wielding elemental power, but among the many fae lineages, few can match their command over physical strength.",
   "icon": "UI_MonsterIcon_Vukodlak_Strong_NoWeapon",
   "codex": "BEAST",
-  "title": "Volkodlak Thug",
+  "title": "Volkodlak Brute",
   "special_names": [
-    "Thrower"
+    "Lobber"
   ],
   "reward": [
     {
@@ -211,6 +211,7 @@
         {},
         {}
       ],
+      "kill_drop_id": 0,
       "prop": [
         {
           "grow_curve": "GROW_CURVE_HP_2",
@@ -251,6 +252,7 @@
         {},
         {}
       ],
+      "kill_drop_id": 0,
       "prop": [
         {
           "grow_curve": "GROW_CURVE_HP_2",

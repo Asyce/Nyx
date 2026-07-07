@@ -754,10 +754,10 @@
           "ja": "翠緑の影"
         },
         "desc": {
-          "en": "Increases Swirl and Star Swirl DMG by 60%. Decreases opponent's Elemental RES to the element infused in the Swirl by 40% for 10s.",
-          "ko": "확산, 별 확산 반응이 주는 피해가 60% 증가한다. 확산되는 원소 타입에 따라 피해 범위 내 적의 해당 원소의 내성이 40% 감소한다. 지속 시간: 10초",
+          "en": "Increases Swirl and Stellar Swirl reaction DMG by 60%. Decreases opponent's Elemental RES to the element infused in the Swirl by 40% for 10s.",
+          "ko": "확산, 별 확산 반응으로 주는 피해가 60% 증가한다. 확산되는 원소 타입에 따라 피해 범위 내 적의 해당 원소의 내성이 40% 감소한다. 지속 시간: 10초",
           "zh": "扩散、星扩散反应造成的伤害提升60%。根据扩散的元素类型，降低受到影响的敌人40%的对应元素抗性，持续10秒。",
-          "ja": "拡散、星拡散反応によるダメージ+60%。拡散された元素タイプを基準に、影響を受けた敵の元素耐性-40%、継続時間10秒。JP3A"
+          "ja": "拡散、星拡散反応によるダメージ+60%。拡散された元素タイプを基準に、影響を受けた敵の元素耐性-40%、継続時間10秒。"
         }
       }
     }
@@ -2390,8 +2390,10 @@
     "set": {
       "2150470": {
         "name": {
-          "en": "Crimson Proof",
-          "zh": "血红之证"
+          "en": "Scarlet Proof",
+          "ko": "핏빛 증표",
+          "zh": "血红之证",
+          "ja": "紅血の証JP0D"
         },
         "desc": {
           "en": "ATK +18%.",
@@ -2402,8 +2404,10 @@
       },
       "2150471": {
         "name": {
-          "en": "Proof of the Blood-Red",
-          "zh": "血红之证"
+          "en": "Scarlet Proof",
+          "ko": "핏빛 증표",
+          "zh": "血红之证",
+          "ja": "紅血の証JP0D"
         },
         "desc": {
           "en": "Triggering a Stellar Swirl reaction increases the character's ATK by 16% and Stellar Swirl DMG by 40% for 10s.",
@@ -2423,7 +2427,9 @@
     ],
     "set": {
       "2150480": {
-        "name": {},
+        "name": {
+          "zh": "炉火融炼之心"
+        },
         "desc": {
           "en": "ATK +18%.",
           "ko": "공격력+18%",
@@ -2432,7 +2438,9 @@
         }
       },
       "2150481": {
-        "name": {},
+        "name": {
+          "zh": "炉火融炼之心"
+        },
         "desc": {
           "en": "When you trigger Stellar-Conduct, Stellar Swirl, or directly deal reaction DMG of the above types, your ATK increases by 12% and nearby party members gain a buff that increases their Stellar-Conduct and Stellar Swirl DMG by 50% for 12s. This effect is unique and cannot stack. Can be triggered even when the character is not on the field.",
           "ko": "자신이 별 초전도, 별 확산을 발동하거나 직접 해당 반응 피해를 줄 때, 자신의 공격력이 12% 증가하고 주변에 있는 파티 내 캐릭터에게 별 초전도 및 별 확산 피해 50% 증가 버프를 제공한다, 지속 시간: 12초. 해당 효과 여러 세트를 장착해도 중첩되지 않으며 한 번만 발동할 수 있다. 캐릭터가 대기 상태일 때도 효과가 발동된다",

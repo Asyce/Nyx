@@ -1,9 +1,9 @@
 {
-  "name": "Electro Crystal",
+  "name": "Frag Crystal - Electro",
   "desc": "",
   "weapon_type": "ITEM_TPS_WEAPON",
   "rarity": 4,
-  "icon": "Sword_Template",
+  "icon": "UI_EquipIcon_Grenade_Electric",
   "skill": 999006,
   "tps": true
 }

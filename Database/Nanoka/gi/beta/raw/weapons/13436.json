@@ -1,6 +1,6 @@
 {
-  "name": "Forgeable Weapon",
-  "desc": "A spear that once stood watch for the crowd, now plays an important role in children's make-believe games.",
+  "name": "Song of the Vigil",
+  "desc": "A long spear that once stood guard over all. Today, it has found a new purpose with children and their games of make-believe.",
   "weapon_type": "WEAPON_POLE",
   "weapon_prop": [
     {
@@ -416,19 +416,19 @@
     "1": {
       "mats": [
         {
-          "name": "Resurrection of the Frost Sovereign",
+          "name": "The Frost Emperor's Revival",
           "id": 114093,
           "count": 3,
           "rank": 2
         },
         {
-          "name": "Aether-Life Root",
+          "name": "Hollow Root of Life",
           "id": 112155,
           "count": 3,
           "rank": 2
         },
         {
-          "name": "Phantasmagorical Dust",
+          "name": "Ethereal Glimmershard",
           "id": 112146,
           "count": 2,
           "rank": 1
@@ -439,19 +439,19 @@
     "2": {
       "mats": [
         {
-          "name": "Ceremonial of the Frost Sovereign",
+          "name": "The Frost Emperor's Ceremony",
           "id": 114094,
           "count": 3,
           "rank": 3
         },
         {
-          "name": "Aether-Life Root",
+          "name": "Hollow Root of Life",
           "id": 112155,
           "count": 12,
           "rank": 2
         },
         {
-          "name": "Phantasmagorical Dust",
+          "name": "Ethereal Glimmershard",
           "id": 112146,
           "count": 8,
           "rank": 1
@@ -462,19 +462,19 @@
     "3": {
       "mats": [
         {
-          "name": "Ceremonial of the Frost Sovereign",
+          "name": "The Frost Emperor's Ceremony",
           "id": 114094,
           "count": 6,
           "rank": 3
         },
         {
-          "name": "Crystalline Sprout",
+          "name": "Sprout Node of Life",
           "id": 112156,
           "count": 6,
           "rank": 3
         },
         {
-          "name": "Phantasm Crystal",
+          "name": "Ethereal Crystal",
           "id": 112147,
           "count": 6,
           "rank": 2
@@ -485,19 +485,19 @@
     "4": {
       "mats": [
         {
-          "name": "Lament of the Frost-Veiled Emperor",
+          "name": "The Frost Emperor's Lament",
           "id": 114095,
           "count": 3,
           "rank": 4
         },
         {
-          "name": "Crystalline Sprout",
+          "name": "Sprout Node of Life",
           "id": 112156,
           "count": 12,
           "rank": 3
         },
         {
-          "name": "Phantasm Crystal",
+          "name": "Ethereal Crystal",
           "id": 112147,
           "count": 9,
           "rank": 2
@@ -508,19 +508,19 @@
     "5": {
       "mats": [
         {
-          "name": "Lament of the Frost-Veiled Emperor",
+          "name": "The Frost Emperor's Lament",
           "id": 114095,
           "count": 6,
           "rank": 4
         },
         {
-          "name": "Everliving Branch of the Heart",
+          "name": "Coiled Core of Life",
           "id": 112157,
           "count": 9,
           "rank": 4
         },
         {
-          "name": "Dreamy Crystal Koku",
+          "name": "Ethereal Crystalscale Stone",
           "id": 112148,
           "count": 6,
           "rank": 3
@@ -531,19 +531,19 @@
     "6": {
       "mats": [
         {
-          "name": "Gash of the Frost-Blade Emperor",
+          "name": "The Frost Emperor's Farewell",
           "id": 114096,
           "count": 4,
           "rank": 5
         },
         {
-          "name": "Everliving Branch of the Heart",
+          "name": "Coiled Core of Life",
           "id": 112157,
           "count": 18,
           "rank": 4
         },
         {
-          "name": "Dreamy Crystal Koku",
+          "name": "Ethereal Crystalscale Stone",
           "id": 112148,
           "count": 12,
           "rank": 3

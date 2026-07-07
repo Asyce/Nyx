@@ -1,11 +1,11 @@
 {
-  "name": "Halberd Winged Knight",
-  "desc": "Vila, born with wings and capable of flight.\\nAccording to records, the Vila experienced numerous periods of turmoil in the century following the Tsaritsa's ascension. During this time, it is said that certain fae, dissatisfied with the Tsaritsa's policies regarding fae nobility, instigated a small-scale rebellion.\\nThe rebellion was quickly quelled, but because the instigators were descendants of former Vila nobility, the incident caused a large-scale division within the Vila for a time.",
+  "name": "Winged Halberd-Knight",
+  "desc": "A winged Vila capable of flight.\\nRecords show that in the century after the Tsaritsa ascended the throne, the Vila went through many turbulent periods. Among them were fae who launched small-scale rebellions out of dissatisfaction with the Tsaritsa's policies toward the fae nobility.\\nThe rebellions were soon suppressed, but the fact that their leaders were descendants of the old Vila nobility once led to a major split within the Vila people.",
   "icon": "UI_MonsterIcon_Human_Girl_Vila_Glaive",
   "codex": "BEAST",
-  "title": "Spirit-Winged Vila",
+  "title": "Vila of the Dancing Wings",
   "special_names": [
-    "Halberd Winged Knight"
+    "Winged Halberd-Knight"
   ],
   "reward": [
     {
@@ -79,6 +79,7 @@
         {},
         {}
       ],
+      "kill_drop_id": 0,
       "prop": [
         {
           "grow_curve": "GROW_CURVE_HP_2",
@@ -119,6 +120,7 @@
         {},
         {}
       ],
+      "kill_drop_id": 0,
       "prop": [
         {
           "grow_curve": "GROW_CURVE_HP_2",

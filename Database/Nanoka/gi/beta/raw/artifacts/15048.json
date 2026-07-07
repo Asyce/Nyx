@@ -17,14 +17,18 @@
           "value": 0.18
         },
         {
-          "prop_type": "FIGHT_PROP_NONE"
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
         },
         {
-          "prop_type": "FIGHT_PROP_NONE"
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
         }
       ],
       "affix_id": 2150480,
       "id": 215048,
+      "level": 0,
+      "open_config": "",
       "param_list": [
         0.18,
         0,
@@ -41,13 +45,16 @@
     {
       "add_props": [
         {
-          "prop_type": "FIGHT_PROP_NONE"
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
         },
         {
-          "prop_type": "FIGHT_PROP_NONE"
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
         },
         {
-          "prop_type": "FIGHT_PROP_NONE"
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
         }
       ],
       "affix_id": 2150481,
@@ -73,31 +80,66 @@
       "icon": "UI_RelicIcon_15048_1",
       "name": "0",
       "desc": "",
-      "story": {}
+      "story": {
+        "285481": {
+          "zh": "ART/UI/Readable/CHS/Relic15048_1",
+          "en": "ART/UI/Readable/EN/Relic15048_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic15048_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic15048_1_KR"
+        }
+      }
     },
     "equip_necklace": {
       "icon": "UI_RelicIcon_15048_2",
       "name": "0",
       "desc": "",
-      "story": {}
+      "story": {
+        "285482": {
+          "zh": "ART/UI/Readable/CHS/Relic15048_2",
+          "en": "ART/UI/Readable/EN/Relic15048_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic15048_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic15048_2_KR"
+        }
+      }
     },
     "equip_dress": {
       "icon": "UI_RelicIcon_15048_3",
       "name": "0",
       "desc": "",
-      "story": {}
+      "story": {
+        "285483": {
+          "zh": "ART/UI/Readable/CHS/Relic15048_3",
+          "en": "ART/UI/Readable/EN/Relic15048_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic15048_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic15048_3_KR"
+        }
+      }
     },
     "equip_bracer": {
       "icon": "UI_RelicIcon_15048_4",
       "name": "0",
       "desc": "",
-      "story": {}
+      "story": {
+        "285484": {
+          "zh": "ART/UI/Readable/CHS/Relic15048_4",
+          "en": "ART/UI/Readable/EN/Relic15048_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic15048_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic15048_4_KR"
+        }
+      }
     },
     "equip_shoes": {
       "icon": "UI_RelicIcon_15048_5",
       "name": "0",
       "desc": "",
-      "story": {}
+      "story": {
+        "285485": {
+          "zh": "ART/UI/Readable/CHS/Relic15048_5",
+          "en": "ART/UI/Readable/EN/Relic15048_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic15048_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic15048_5_KR"
+        }
+      }
     }
   }
 }

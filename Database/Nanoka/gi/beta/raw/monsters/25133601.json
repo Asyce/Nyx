@@ -1,11 +1,11 @@
 {
-  "name": "The Fang Berserker",
-  "desc": "A Volkodlak that has grown extremely powerful by inheriting more of the mighty power in its bloodline.\\nAmong the many different Volkodlaks, those resembling giant elephants or mammoths possess one of the most noble bloodlines. In the past, their clans produced many remarkable warriors, many of whom were even loyal attendants to the King of Beasts.\\nHowever, the greater their individual strength and the longer their lifespans, the harder it is for such fairies to form a community. Compared to other Volkodlaks, this kind is much rarer in present-day Snezhnaya.",
+  "name": "Fanged Zealot",
+  "desc": "A Volkodlak that has become extremely powerful after inheriting more of the mighty power in its bloodline.\\nAmong the many different Volkodlaks, those resembling giant elephants or mammoths possess some of the noblest bloodlines. Their clan once produced many formidable war leaders, many of whom even served as close retainers to the King of Beasts.\\nYet the greater an individual fae's power and the longer its life, the harder it becomes for such beings to form a clan. Compared with other Volkodlaks, this type is now far rarer in Snezhnaya.",
   "icon": "UI_MonsterIcon_Volkodlak_Mammoth",
   "codex": "BEAST",
-  "title": "Mighty Mystic Beast",
+  "title": "Enchanted Beast of Unrivaled Might",
   "special_names": [
-    "The Fang Beast Fanatic"
+    "Fanged Zealot"
   ],
   "reward": [
     {
@@ -135,6 +135,7 @@
         {},
         {}
       ],
+      "kill_drop_id": 0,
       "prop": [
         {
           "grow_curve": "GROW_CURVE_HP_2",
@@ -175,6 +176,7 @@
         {},
         {}
       ],
+      "kill_drop_id": 0,
       "prop": [
         {
           "grow_curve": "GROW_CURVE_HP_2",

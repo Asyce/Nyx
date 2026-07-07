@@ -1,11 +1,11 @@
 {
-  "name": "Undying Derivative Construct",
-  "desc": "A byproduct created by the alchemist named Koshchei during the creation of an entity named the Pyro Bird.\\nPerhaps it was a habit of this gloomy alchemist: once a certain experimental subject in the same batch was a success, the rest would be discarded or casually disposed of.\\nAnd this derivative creation, which was supposed to fuse with a certain power to become a complete entity, can now only wander the mountain gorges endlessly as an incomplete and mindless beast.",
+  "name": "Immortal Construct",
+  "desc": "A byproduct created by the alchemist Koshchei during his creation of the individual known as the Firebird.\\nPerhaps this was the gloomy alchemist's habit: whenever one experimental subject from a batch succeeded, all the others would be abandoned or disposed of as he pleased.\\nThis derivative creation should have fused with some form of power and reached completion. Now, however, it can only wander endlessly through the mountain gorges as an incomplete, mindless beast.",
   "icon": "UI_MonsterIcon_Zharptitsa_02",
   "codex": "BEAST",
-  "title": "Remnant-Crafted Beast",
+  "title": "Immortal Construct",
   "special_names": [
-    "Chimeric Armored Beast"
+    "The Remnant Body of the Eternal Flamefeather"
   ],
   "reward": [
     {

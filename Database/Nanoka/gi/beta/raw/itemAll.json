@@ -1482,15 +1482,15 @@
     "type": ""
   },
   "197": {
-    "name": "Competitive Points",
-    "desc": "Points obtained based on performance in each challenge during the first \"Adventurer's Arena Tournament\". At the end of the competition, the Adventurer with the most accumulated points will be crowned the champion...\\nIn the \"Perilous Conqueror's Tournament\", it can be used to unlock various rewards...",
+    "name": "Tournament Points",
+    "desc": "Points awarded based on performance in each challenge during the first \"Adventurers' Tournament.\" At the end of the tournament, the adventurer who has accumulated the most Competition Points will be crowned the champion...\\nIn the Great Expeditionist Challenge, these points can also be used to unlock a variety of rewards...",
     "rank": 3,
     "icon": "UI_ItemIcon_197",
     "item_type": "ITEM_VIRTUAL",
     "material_type": "MATERIAL_NONE",
     "jump_descs": [],
     "source_list": [
-      "Obtained from the \"Perilous Expedition\" event"
+      "Obtained from the \"Great Expeditionist Challenge\""
     ],
     "title": "",
     "effect": "",
@@ -1498,15 +1498,15 @@
     "type": ""
   },
   "198": {
-    "name": "Passion Ticket",
-    "desc": "A ticket used by both the \"Enhance Mutual Aid Network\" and adventurers alike, which can be used to draw event-exclusive \"Ms. Katheryne\" statue components. Perhaps Katheryne's popularity among adventurers and the general public is actually quite staggering?",
+    "name": "Fervor Coupon",
+    "desc": "A type of coupon widely circulated among both the adventurers and the Mutual Aid Advancement Network. They can be exchanged to draw for limited-edition \"Lady Katheryne\" statue parts. Come to think of it... is Katheryne's popularity among adventurers and civilians actually completely off the charts?",
     "rank": 3,
     "icon": "UI_ItemIcon_ADVTicket",
     "item_type": "ITEM_VIRTUAL",
     "material_type": "MATERIAL_NONE",
     "jump_descs": [],
     "source_list": [
-      "Obtained from the \"New Buds\" Event - First Exploration of the Snowy Fields"
+      "Obtained from \"Aid from the Sprout: Into the Snowland\""
     ],
     "title": "",
     "effect": "",
@@ -1514,8 +1514,8 @@
     "type": ""
   },
   "199": {
-    "name": "Cryo Measurement",
-    "desc": "The True Ice stored within the \"Gray-Eyed\" chassis can be used to manifest various mechanisms and constructs from the blueprints.",
+    "name": "Prime Ice Resource",
+    "desc": "Stored within the internal reservoir of the Eye of Graeae, it can be utilized to build the various mechanisms and constructs detailed in the blueprints.",
     "rank": 3,
     "icon": "UI_ItemIcon_199",
     "item_type": "ITEM_VIRTUAL",
@@ -2169,8 +2169,8 @@
     "type": ""
   },
   "403": {
-    "name": "Travel Notes",
-    "desc": "Insights gained from exploring specific Wonderland stages; accumulating them seems to unlock gifts in response from the Wonderland...",
+    "name": "Expedition Insights",
+    "desc": "Insights gained from exploring featured Wonderland stages. Collect enough of them, and it seems they can unlock gifts bestowed in response by the Wonderland itself...",
     "rank": 3,
     "icon": "UI_ItemIcon_403",
     "item_type": "ITEM_VIRTUAL",
@@ -6430,7 +6430,7 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "Character Unlock"
+    "type": "Unlocks the associated character"
   },
   "4150": {
     "name": "Odette",
@@ -6974,7 +6974,7 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "Constellation Activation"
+    "type": "Activates Constellation"
   },
   "5150": {
     "name": "Odette's Stella Fortuna",
@@ -6990,7 +6990,7 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "Constellation Activation"
+    "type": "Activates Constellation"
   },
   "6002": {
     "name": "Kamisato Ayaka's Stella Fortuna",
@@ -8894,7 +8894,7 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "Constellation Activation"
+    "type": "Activates Constellation"
   },
   "6150": {
     "name": "Odette's Stella Fortuna",
@@ -8910,7 +8910,7 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "Constellation Activation"
+    "type": "Activates Constellation"
   },
   "100001": {
     "name": "Apple",
@@ -22154,7 +22154,7 @@
     "material_type": "MATERIAL_EXCHANGE",
     "jump_descs": [],
     "source_list": [
-      "Natlan, Nod-Krai, and Snezhnaya Trounce Domain Challenge Rewards"
+      "Natlan, Nod-Krai, and Snezhnaya Trounce Domain Challenge Reward"
     ],
     "title": "",
     "effect": "",
@@ -22170,7 +22170,7 @@
     "material_type": "MATERIAL_EXCHANGE",
     "jump_descs": [],
     "source_list": [
-      "Natlan, Nod-Krai, and Snezhnaya Trounce Domain Challenge Rewards"
+      "Natlan, Nod-Krai, and Snezhnaya Trounce Domain Challenge Reward"
     ],
     "title": "",
     "effect": "",
@@ -22186,7 +22186,7 @@
     "material_type": "MATERIAL_EXCHANGE",
     "jump_descs": [],
     "source_list": [
-      "Natlan, Nod-Krai, and Snezhnaya Trounce Domain Challenge Rewards"
+      "Natlan, Nod-Krai, and Snezhnaya Trounce Domain Challenge Reward"
     ],
     "title": "",
     "effect": "",
@@ -22202,7 +22202,7 @@
     "material_type": "MATERIAL_EXCHANGE",
     "jump_descs": [],
     "source_list": [
-      "Natlan, Nod-Krai, and Snezhnaya Trounce Domain Challenge Rewards"
+      "Natlan, Nod-Krai, and Snezhnaya Trounce Domain Challenge Reward"
     ],
     "title": "",
     "effect": "",
@@ -22218,7 +22218,7 @@
     "material_type": "MATERIAL_EXCHANGE",
     "jump_descs": [],
     "source_list": [
-      "Natlan, Nod-Krai, and Snezhnaya Trounce Domain Challenge Rewards"
+      "Natlan, Nod-Krai, and Snezhnaya Trounce Domain Challenge Reward"
     ],
     "title": "",
     "effect": "",
@@ -23430,7 +23430,7 @@
   },
   "101275": {
     "name": "Frostfairy Flower",
-    "desc": "A holy flower that blooms no matter how harsh the wind and snow may be, always emitting a faint, alluring light.",
+    "desc": "A sacred flower that blooms no matter how harsh the wind and snow. It always radiates a faint, mesmerizing glow that draws the hearts of all who see it.",
     "rank": 0,
     "icon": "UI_ItemIcon_101275",
     "item_type": "ITEM_MATERIAL",
@@ -23438,7 +23438,9 @@
     "jump_descs": [
       "Go to collect"
     ],
-    "source_list": [],
+    "source_list": [
+      "Recommendation: Found in Snezhnaya"
+    ],
     "title": "",
     "effect": "",
     "special": "",
@@ -23446,7 +23448,7 @@
   },
   "101276": {
     "name": "Flockingweed",
-    "desc": "Once suspected to be a miraculous hybrid of plant and animal, it was later proven to be nothing more than a plant that simply grows hair similar to animal fur.",
+    "desc": "A peculiar plant once suspected to be a hybrid of plant and animal, though it was later proven to be nothing more than an ordinary plant covered in a coat of animal-like fuzz.",
     "rank": 0,
     "icon": "UI_ItemIcon_101276",
     "item_type": "ITEM_MATERIAL",
@@ -23454,7 +23456,9 @@
     "jump_descs": [
       "Go to collect"
     ],
-    "source_list": [],
+    "source_list": [
+      "Recommendation: Found in Snezhnaya"
+    ],
     "title": "",
     "effect": "",
     "special": "",
@@ -23462,7 +23466,7 @@
   },
   "101277": {
     "name": "Golden Fern",
-    "desc": "A fern with edges that glow with a faint golden light. It is said that once stewed, it develops a truly marvelous flavor.",
+    "desc": "A fern whose edges radiate a faint golden shimmer. It is said to take on a remarkably unique flavor when stewed.",
     "rank": 0,
     "icon": "UI_ItemIcon_101277",
     "item_type": "ITEM_MATERIAL",
@@ -23470,7 +23474,9 @@
     "jump_descs": [
       "Go to collect"
     ],
-    "source_list": [],
+    "source_list": [
+      "Recommendation: Found in Snezhnaya"
+    ],
     "title": "",
     "effect": "",
     "special": "",
@@ -23478,13 +23484,15 @@
   },
   "101278": {
     "name": "Red Beet",
-    "desc": "A herbaceous plant that can grow even in cold permafrost. To survive in such a harsh environment, it has developed enlarged, fleshy roots.",
+    "desc": "A hardy herbaceous plant capable of thriving even in frozen soil. To survive such an unforgiving environment, it develops a thick, succulent root.",
     "rank": 0,
     "icon": "UI_ItemIcon_101278",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_EXCHANGE",
     "jump_descs": [],
-    "source_list": [],
+    "source_list": [
+      "Recommendation: Found in Snezhnaya"
+    ],
     "title": "",
     "effect": "",
     "special": "",
@@ -23492,13 +23500,15 @@
   },
   "101279": {
     "name": "Glaciafruit",
-    "desc": "A star-shaped fruit that grows from True Ice in frozen lands under special conditions. Once the branch it grows on is removed, the fruit will fall onto the snow.",
+    "desc": "A star-shaped fruit born from Prime Ice that has undergone a peculiar transformation in the permafrost. Once the branch it grows upon is removed, the fruit falls naturally onto the snow.",
     "rank": 0,
     "icon": "UI_ItemIcon_101279",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_EXCHANGE",
     "jump_descs": [],
-    "source_list": [],
+    "source_list": [
+      "Recommendation: Found in Snezhnaya"
+    ],
     "title": "",
     "effect": "",
     "special": "",
@@ -23506,13 +23516,15 @@
   },
   "101280": {
     "name": "Snowball Flower",
-    "desc": "A cute flower with a nearly spherical inflorescence. When snow falls on its petals, the whole bloom looks just like a snowball.",
+    "desc": "A charming flower with a spherical cluster of petals. When snow settles upon it, the entire bloom looks just like a tiny snowball.",
     "rank": 0,
     "icon": "UI_ItemIcon_101280",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_EXCHANGE",
     "jump_descs": [],
-    "source_list": [],
+    "source_list": [
+      "Recommendation: Found in Snezhnaya"
+    ],
     "title": "",
     "effect": "",
     "special": "",
@@ -23520,27 +23532,31 @@
   },
   "101281": {
     "name": "Rimecurrant",
-    "desc": "A berry with rich flavor that grows from frost-laden, icy branches.",
+    "desc": "A richly flavored berry that sprouts from frost-rimed, icy branches.",
     "rank": 0,
     "icon": "UI_ItemIcon_101281",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_EXCHANGE",
     "jump_descs": [],
-    "source_list": [],
+    "source_list": [
+      "Recommendation: Found in Snezhnaya"
+    ],
     "title": "",
     "effect": "",
     "special": "",
     "type": "Cooking Ingredient"
   },
   "101282": {
-    "name": "Glimmering Fluorite",
-    "desc": "A strange fluorite formed by the influence of the Ei-domain's power.",
+    "name": "Lumifluorite",
+    "desc": "A strange fluorite formed under the influence of the powers of the Shadow Realm.",
     "rank": 0,
     "icon": "UI_ItemIcon_101282",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_EXCHANGE",
     "jump_descs": [],
-    "source_list": [],
+    "source_list": [
+      "Recommendation: Found in Snezhnaya"
+    ],
     "title": "",
     "effect": "",
     "special": "",
@@ -33112,8 +33128,8 @@
     "week": 2
   },
   "104365": {
-    "name": "Philosophies of \"Mercy\"",
-    "desc": "Talent Level-Up Material.\\n\"Charity\" is the salvation of the land of Cryo.\\nCharity is the love and watchfulness between mortals. Across the vast lands, people rely on it to withstand the cold brought by the frost and to soothe the scars etched into their memories.",
+    "name": "Teachings of Charity",
+    "desc": "Talent Level-Up material.\\nCharity is the salvation of the frozen realm.\\nIt is the love and vigilant care shared among mortals. Across this vast and boundless land, it is the warmth by which the people withstand the biting frost, soothing the deep-seated scars etched into their memories.",
     "rank": 2,
     "icon": "UI_ItemIcon_104365",
     "item_type": "ITEM_MATERIAL",
@@ -33125,11 +33141,12 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "Character Talent Material"
+    "type": "Character Talent Material",
+    "week": 0
   },
   "104366": {
-    "name": "Guide to \"Charity\"",
-    "desc": "Talent Level-Up Material.\\n\"Kindness\" is the salvation of the land of Cryo.\\nKindness fosters compassion for others. In the land of blizzards, those who truly repent for the sins of their souls may receive forgiveness in the name of kindness.",
+    "name": "Guide to Charity",
+    "desc": "Talent Level-Up material.\\nCharity is the salvation of the frozen realm.\\nIt breeds mercy for others. In the realm of wind and snow, whosoever sincerely repents for the sins of their soul shall find absolution in the name of Charity.",
     "rank": 3,
     "icon": "UI_ItemIcon_104366",
     "item_type": "ITEM_MATERIAL",
@@ -33141,11 +33158,12 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "Character Talent Material"
+    "type": "Character Talent Material",
+    "week": 0
   },
   "104367": {
-    "name": "Philosophy of \"Kindness\"",
-    "desc": "Talent Level-Up Material.\\n\"Charity\" is the salvation of the Land of Cryo.\\nCharity is care for all living things; it erases distinctions between high and low, noble and base, and transcends bloodlines and nations. The gaze of charity is fixed upon all alike, offering protection to the unfortunate and promising eternal liberation to the masses.",
+    "name": "Philosophies of Charity",
+    "desc": "Talent Level-Up material.\\nCharity is the salvation of the frozen realm.\\nIt is a boundless grace extended to all living things. It collapses the divide between the highborn and the low, transcending both bloodline and nation. Its watchful gaze beholds all of humanity, offering sanctuary to the unfortunate and promising eternal liberation unto all.",
     "rank": 4,
     "icon": "UI_ItemIcon_104367",
     "item_type": "ITEM_MATERIAL",
@@ -33157,11 +33175,12 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "Character Talent Material"
+    "type": "Character Talent Material",
+    "week": 0
   },
   "104368": {
-    "name": "Guide to Diligence",
-    "desc": "Talent Level-Up Material.\\n\"Diligence\" is the character of the land of Cryo.\\nDiligence stems from a desire for survival. Even if not sown in fertile soil, a weak seed can still rely on this desire to strike deep roots beneath the tundra.",
+    "name": "Teachings of Fortitude",
+    "desc": "Talent Level-Up material.\\nFortitude is the defining character of the frozen realm.\\nIt stems from a raw yearning for survival. Even if scattered far from fertile soil, a fragile seed can rely on this desperate longing to drive its roots deep beneath the frozen tundra.",
     "rank": 2,
     "icon": "UI_ItemIcon_104368",
     "item_type": "ITEM_MATERIAL",
@@ -33173,11 +33192,12 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "Character Talent Material"
+    "type": "Character Talent Material",
+    "week": 1
   },
   "104369": {
-    "name": "Guide to Diligence",
-    "desc": "Character Talent Material.\\nEndurance is the hallmark of the land of Cryo.\\nEndurance brings the will to grow. Even when crushed by the bitter cold, the weak seed may still use this will to break through the soil and sprout anew upon the frozen earth.",
+    "name": "Guide to Fortitude",
+    "desc": "Talent Level-Up material.\\nFortitude is the defining character of the frozen realm.\\nIt brings forth the will to grow. Though shattered by the bitter cold, a fragile seed can still harness this will to break through the frozen earth, pushing forth fresh sprouts to life across a landscape blanketed in wind and snow.",
     "rank": 3,
     "icon": "UI_ItemIcon_104369",
     "item_type": "ITEM_MATERIAL",
@@ -33189,11 +33209,12 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "Character Talent Material"
+    "type": "Character Talent Material",
+    "week": 1
   },
   "104370": {
-    "name": "Philosophies of Endurance",
-    "desc": "Talent Level-Up Material.\\n\"Admonition\" is the character of the land of Cryo.\\nPersistence leads to the prosperity of life. Mankind has never bowed to the bitter cold, much like how frail seeds insist on blooming amidst the wind and snow; civilization flourishes through hardship, much like the Frostbearing Flower blooming year after year in the freezing winter.",
+    "name": "Philosophies of Fortitude",
+    "desc": "Talent Level-Up material.\\nFortitude is the defining character of the frozen realm.\\nIt breeds the prosperity of life itself. The people here have never bowed to the biting cold, just as a fragile seed defiantly chooses to bloom amidst the blizzards. This civilization has witnessed centuries of bitter winter, yet remains vibrant much like the Frostfairy Flower that flourishes season after season.",
     "rank": 4,
     "icon": "UI_ItemIcon_104370",
     "item_type": "ITEM_MATERIAL",
@@ -33205,11 +33226,12 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "Character Talent Material"
+    "type": "Character Talent Material",
+    "week": 1
   },
   "104371": {
     "name": "Teachings of Glory",
-    "desc": "Talent Level-Up Material.\\n\"Praxis\" is the faith of the land of Cryo.\\nIt is a kindling buried deep beneath the frozen earth. To depict its form is to gain the courage to face the Sheer Cold.",
+    "desc": "Talent Level-Up Material\\nGlory is the sacred faith of the frozen realm.\\nIt is a spark buried deep beneath the frozen soil; if one can but trace its true form, they shall grant themselves the courage to stand against the biting cold.",
     "rank": 2,
     "icon": "UI_ItemIcon_104371",
     "item_type": "ITEM_MATERIAL",
@@ -33221,11 +33243,12 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "Character Talent Material"
+    "type": "Character Talent Material",
+    "week": 2
   },
   "104372": {
-    "name": "Guide to \"Prosperity\"",
-    "desc": "Talent Level-Up Material.\\n\"Glory\" is the faith of the Land of Cryo.\\nGlory is the flickering flame in the Long Night, and all those who trek across the snowfields keep their eyes fixed on its direction. Just as they believe the blizzard will cease and the Dawn will come, they are certain that they remain on the path they are meant to walk.",
+    "name": "Guide to Glory",
+    "desc": "Talent Level-Up Material\\nGlory is the sacred faith of the frozen realm.\\nIt is an ember flickering in the deep night, a beacon upon which all who trek across the snowfields fix their gaze. Just as they are certain the blizzards will wane and the dawn will break, they are certain that the path they tread remains the true one.",
     "rank": 3,
     "icon": "UI_ItemIcon_104372",
     "item_type": "ITEM_MATERIAL",
@@ -33237,11 +33260,12 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "Character Talent Material"
+    "type": "Character Talent Material",
+    "week": 2
   },
   "104373": {
     "name": "Philosophies of Glory",
-    "desc": "Talent Level-Up Material.\\n\"Glory\" is the belief of the Land of Cryo.\\nGlory is the flame that never dies upon the torchstand, now surviving alongside the land of snow and wind. The flame ignites noble passion, and to maintain its eternal burning, the people are willing to sacrifice everything they have.",
+    "desc": "Talent Level-Up Material\\nGlory is the sacred faith of the frozen realm.\\nIt is the undying flame upon the beacon hearth, bound now to live or die with the frozen realm. The flame ignites a noble passion, and to sustain its eternal burn, the people would gladly offer up their all.",
     "rank": 4,
     "icon": "UI_ItemIcon_104373",
     "item_type": "ITEM_MATERIAL",
@@ -33253,7 +33277,8 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "Character Talent Material"
+    "type": "Character Talent Material",
+    "week": 2
   },
   "105001": {
     "name": "Sanctifying Droplet",
@@ -33861,7 +33886,7 @@
   },
   "107035": {
     "name": "Cyroculus",
-    "desc": "",
+    "desc": "A substance that has accumulated intense Cryo energy. Offer it to the Statue and help reinstate the power it has lost over the years.",
     "rank": 0,
     "icon": "UI_ItemIcon_107035",
     "item_type": "ITEM_MATERIAL",
@@ -33874,8 +33899,8 @@
     "type": "Adventure Item"
   },
   "107036": {
-    "name": "Ei Wingdrop",
-    "desc": "A strange liquid substance formed from a creature born in the Ei domain.",
+    "name": "Shadow Wingdrop",
+    "desc": "A strange, liquefied substance left behind by a creature born within the Shadow Realm.",
     "rank": 0,
     "icon": "UI_ItemIcon_107036",
     "item_type": "ITEM_MATERIAL",
@@ -57829,14 +57854,14 @@
     "type": "Character and Weapon Enhancement Material"
   },
   "112146": {
-    "name": "Phantasmagorical Dust",
-    "desc": "A remnant left behind by a Snezhnayan beast after battle.\\nTiny shards that grew upon the creature's body, losing their color once they fell off, much like the scales of a moth.",
+    "name": "Ethereal Glimmershard",
+    "desc": "The remains of a Snezhnayan fae left behind after battle.\\nThese shards once coated the creature's body like crystalline scales. Upon falling away, they stripped themselves of all colors, shifting into something akin to the dusty dross of a moth's wings.",
     "rank": 1,
     "icon": "UI_ItemIcon_112146",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_AVATAR_MATERIAL",
     "jump_descs": [
-      "Drop from Flesh-Crystal Fairy",
+      "Dropped by Fae of Crystalline Flesh",
       "Stardust Exchange"
     ],
     "source_list": [],
@@ -57846,14 +57871,14 @@
     "type": "Character and Weapon Enhancement Material"
   },
   "112147": {
-    "name": "Phantasm Crystal",
-    "desc": "A remnant left behind by a Snezhnayan Fairy after battle.\\nFragments of crystal that grow on the surface of a Fairy's body. Though they are now hollow, one can still sense the unique power that once resided within them.",
+    "name": "Ethereal Crystal",
+    "desc": "The remains of a Snezhnayan fae left behind after battle.\\nA shattered fragment of the crystalline scales that once grew upon the fae's body. Though it is now a mere empty shell, one can still sense the echo of the unique power that once dwelt within.",
     "rank": 2,
     "icon": "UI_ItemIcon_112147",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_AVATAR_MATERIAL",
     "jump_descs": [
-      "Drops from Fairies level 40 or above that carry muscle crystals.",
+      "Dropped by Lv. 40+ Fae of Crystalline Flesh",
       "Stardust Exchange",
       "Placeholder - Craftable Amount: {0}"
     ],
@@ -57864,14 +57889,14 @@
     "type": "Character and Weapon Enhancement Material"
   },
   "112148": {
-    "name": "Dreamy Crystal Koku",
-    "desc": "Residue left behind by a Snezhnayan Fae after battle.\\nElemental Shards that grow upon the surface of a Fae's body. It is said that Fae with more shards on their bodies are able to command greater power. However, no one knows if that power resides within their bodies and is merely radiated by these crystal chunks, or if the crystal chunks themselves are the vessels for that power.",
+    "name": "Ethereal Crystalscale Stone",
+    "desc": "The remains of a Snezhnayan fae left behind after battle.\\nA crystalline scale that once grew upon the fae's body. It is said that fae possessing a greater abundance of these scales command far greater power. Yet, none can say whether this magic truly originates from within their forms — merely channeled outward through the crystal chunks — or if the chunks themselves are the very vessels of their power.",
     "rank": 3,
     "icon": "UI_ItemIcon_112148",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_AVATAR_MATERIAL",
     "jump_descs": [
-      "Drops from Fairies level 60+ (Miyusei Crystal)",
+      "Dropped by Lv. 60+ Fae of Crystalline Flesh",
       "Stardust Exchange: Craft after exchanging",
       "Placeholder - Craftable Amount: {0}"
     ],
@@ -57882,14 +57907,14 @@
     "type": "Character and Weapon Enhancement Material"
   },
   "112149": {
-    "name": "Chimera",
-    "desc": "The core from within a chimera beast.\\nA basic core that grows inside a chimera beast. Even the most basic core contains the blueprint for the growth of all craft creations.",
+    "name": "Chimeric Core",
+    "desc": "The internal core harvested from aberrant man-made monsters.\\nThis is the most fundamental core grown within a man-made monster. Yet, simple as it may be, it contains the primordial design for the growth of all man-made creations.",
     "rank": 1,
     "icon": "UI_ItemIcon_112149",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_AVATAR_MATERIAL",
     "jump_descs": [
-      "Mutant Synthetic Beast Drop",
+      "Dropped by Aberrant Chimeric Monsters",
       "Stardust Exchange"
     ],
     "source_list": [],
@@ -57899,14 +57924,14 @@
     "type": "Character and Weapon Enhancement Material"
   },
   "112150": {
-    "name": "Symbiotic Chimera Cell",
-    "desc": "The core from within a chimera beast.\\nA relatively complex core found inside a chimera beast. A conjoint core implies that it is meant to drive the life cycles of two different entities to form a single organism.",
+    "name": "Symbiotic Chimeric Nucleus",
+    "desc": "The internal core harvested from aberrant man-made monsters.\\nA relatively complex core harvested from a man-made monster. This symbiotic nucleus is engineered to sustain the biological cycles of two distinct life-forms, seamlessly weaving them into a single organism.",
     "rank": 2,
     "icon": "UI_ItemIcon_112150",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_AVATAR_MATERIAL",
     "jump_descs": [
-      "Dropped by level 40+ Xenomorph synthesis beasts",
+      "Dropped by Lv. 40+ Aberrant Chimeric Monsters",
       "Stardust Exchange",
       "Placeholder - Craftable Amount: {0}"
     ],
@@ -57917,14 +57942,14 @@
     "type": "Character and Weapon Enhancement Material"
   },
   "112151": {
-    "name": "Primordial Chimera",
-    "desc": "The core within a xenogenic chimera.\\nIt is the most complex core that a chimera can withstand—a seed of life that has been artificially planned yet is perfect. Perhaps the person who created it has already grasped how life itself is shaped.",
+    "name": "Genesis Chimeric Nexus",
+    "desc": "The internal core harvested from aberrant man-made monsters.\\nThe most complex core a man-made monster can possibly sustain, serving as an artificially engineered yet flawless seed of life. Whoever brought this creation into life has surely unlocked the very secrets of how life itself is shaped.",
     "rank": 3,
     "icon": "UI_ItemIcon_112151",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_AVATAR_MATERIAL",
     "jump_descs": [
-      "Dropped by Lv. 60+ Mutant Crafted Monsters",
+      "Dropped by Lv. 60+ Aberrant Chimeric Monsters",
       "Stardust Exchange: Craft after exchanging",
       "Placeholder - Craftable Amount: {0}"
     ],
@@ -57935,14 +57960,14 @@
     "type": "Character and Weapon Enhancement Material"
   },
   "112152": {
-    "name": "Sediment Fragment",
-    "desc": "Sedimentary residue formed by powerful Volkodlak.\\nInitially clinging to internal organs or bones, this residue may eventually grow to completely cover an entire body part or organ as its power increases.",
+    "name": "Accreted Fragment",
+    "desc": "An accretion formed by powerful Volkodlak.\\nAn accretion that has only just begun to attach to an internal organ or bone. As the Volkodlak's power grows, it may eventually cover an entire region of the body, or a whole organ.",
     "rank": 2,
     "icon": "UI_ItemIcon_112152",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_AVATAR_MATERIAL",
     "jump_descs": [
-      "Volkodlak Thug Drop",
+      "Dropped by Volkodlak Brutes",
       "Stardust Exchange"
     ],
     "source_list": [],
@@ -57952,14 +57977,14 @@
     "type": "Character and Weapon Enhancement Material"
   },
   "112153": {
-    "name": "Sediment Clot",
-    "desc": "Residue formed by powerful Volkodlak.\\nResidue that has long since adhered to internal organs or bones. Once extracted, these remnants are considered symbols of power and are carefully preserved by the descendants of the clan.",
+    "name": "Accreted Mass",
+    "desc": "An accretion formed by powerful Volkodlak.\\nAn accretion that has clung to an internal organ or bone for a long time. Once removed, such accretions are regarded as symbols of power and carefully preserved by the creature's descendants.",
     "rank": 3,
     "icon": "UI_ItemIcon_112153",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_AVATAR_MATERIAL",
     "jump_descs": [
-      "Dropped by Lv. 40+ Volkodlak Berserkers",
+      "Dropped by Lv. 40+ Volkodlak Brutes",
       "Stardust Exchange",
       "Placeholder - Craftable Amount: {0}"
     ],
@@ -57970,14 +57995,14 @@
     "type": "Character and Weapon Enhancement Material"
   },
   "112154": {
-    "name": "Crystalline Cyst",
-    "desc": "Sedimentary residue formed by powerful Volkodlaks.\\nResidue that still retains attached organs or bones; it can even be said that new bones or organs have proliferated at the nodes of its power cycle. Only Volkodlaks with long lifespans and unceasing cultivation can form such accretions within their bodies.",
+    "name": "Accreted Growth",
+    "desc": "An accretion formed by powerful Volkodlak.\\nAn accretion that has fully fused with an organ or bone. One could even say it's a newly grown bone or organ at the nodes of the Volkodlak's power circulation. Only long-lived Volkodlaks who have ceaselessly honed their strength can form such growths within their bodies.",
     "rank": 4,
     "icon": "UI_ItemIcon_112154",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_AVATAR_MATERIAL",
     "jump_descs": [
-      "Dropped by Lv. 60+ Volkodlak Thugs",
+      "Dropped by Lv. 60+ Volkodlak Brutes",
       "Stardust Exchange: Craft after exchanging",
       "Placeholder - Craftable Amount: {0}"
     ],
@@ -57988,14 +58013,14 @@
     "type": "Character and Weapon Enhancement Material"
   },
   "112155": {
-    "name": "Aether-Life Root",
-    "desc": "A branch dropped by a Leshy before it returned to silence.\\nA branch without many crystals grown on it, a branch with weak power, emitting a faint glow.",
+    "name": "Hollow Root of Life",
+    "desc": "A branch dropped by a Leshy before it returned to silence.\\nWith only a few crystals grown upon it, this branch holds little power and gives off a faint glow.",
     "rank": 2,
     "icon": "UI_ItemIcon_112155",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_AVATAR_MATERIAL",
     "jump_descs": [
-      "Wild Leshy Drop",
+      "Dropped by Wildwood Leshies",
       "Stardust Exchange"
     ],
     "source_list": [],
@@ -58005,14 +58030,14 @@
     "type": "Character and Weapon Enhancement Material"
   },
   "112156": {
-    "name": "Crystalline Sprout",
-    "desc": "A branch dropped by a Leshy before it fell silent.\\nThis heavy branch has sprouted crystals, and you can still feel the lingering life force that persists even after it has left the main body of the Leshy.",
+    "name": "Sprout Node of Life",
+    "desc": "A branch dropped by a Leshy before it returned to silence.\\nA branch bearing a fair number of crystals. It feels heavy in the hand, and traces of vitality can still be felt within it even after it has broken away from the Leshy's body.",
     "rank": 3,
     "icon": "UI_ItemIcon_112156",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_AVATAR_MATERIAL",
     "jump_descs": [
-      "Dropped by Lv. 40+ Wasteland Leshy",
+      "Dropped by Lv. 40+ Wildwood Leshies",
       "Stardust Exchange",
       "Placeholder - Craftable Amount: {0}"
     ],
@@ -58023,14 +58048,14 @@
     "type": "Character and Weapon Enhancement Material"
   },
   "112157": {
-    "name": "Everliving Branch of the Heart",
-    "desc": "A branch dropped by a Leshy before it returned to silence.\\nThis branch has grown a complete crystal core, containing a vitality that will not easily fade. If one were to bury it in the earth now, it would likely grow into a new Leshy in no time.",
+    "name": "Coiled Core of Life",
+    "desc": "A branch dropped by a Leshy before it returned to silence.\\nA branch with a fully formed crystal core. It contains vitality that will not easily fade. If buried in the soil, it would likely grow into a new Leshy before long.",
     "rank": 4,
     "icon": "UI_ItemIcon_112157",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_AVATAR_MATERIAL",
     "jump_descs": [
-      "Dropped by Lv. 60+ Wasteland Leshy",
+      "Dropped by Lv. 60+ Wildwood Leshies",
       "Stardust Exchange: Craft after exchanging",
       "Placeholder - Craftable Amount: {0}"
     ],
@@ -59507,14 +59532,14 @@
     "type": "Character Level-Up Material"
   },
   "113090": {
-    "name": "Ever-Flame Seed",
-    "desc": "An ever-burning flower branch taken from a synthetic beast created by someone for selfish reasons, which will not wither in flames.\\nBefore the somber alchemist discovered and put into practice a method to achieve eternal life, he would stroke the shell of the synthetic beast he had created, whose leaves were like red feathers. He imagined the scene of his undying synthetic creature welcoming the long-awaited friend from the flames; perhaps he should pluck an eternal flower from his creation's body as a gift to celebrate the friend's escape from the realm of shadows.",
+    "name": "Unscorched Blossom Branch",
+    "desc": "A blossom branch taken from a monster created by someone to serve their selfish desires. It won't wither or burn in flame.\\nBefore the gloomy alchemist found a way to grant life eternity and put it into practice, he once ran his hand gently over the body of his creation — a monster whose leaves resembled crimson feathers. He imagined the undying creature greeting the friend he had awaited for so long from within the flames. Perhaps he should pluck a flower from his creation's body as a gift to mark that friend's escape from the realm of shadows.",
     "rank": 4,
     "icon": "UI_ItemIcon_113090",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_AVATAR_MATERIAL",
     "jump_descs": [
-      "Drops from Immortal Derivative Creatures Lv. 30+"
+      "Dropped by Lv. 30+ Immortal Constructs"
     ],
     "source_list": [],
     "title": "",
@@ -59523,14 +59548,14 @@
     "type": "Character Level-Up Material"
   },
   "113091": {
-    "name": "Broken Tail of the Aether-Drifter",
-    "desc": "A tail feather from a powerful Crafted beast.\\nPerhaps even a Crafted beast deserves to seek its own destiny, so as not to find itself discarded in a bitter plight. Driven by this thought, those who shape these monsters often favor adding wings to their creations. Yet, while many creatures in this world possess wings, only a small few truly learn how to fly. Perhaps that is what they call \"fate.\"",
+    "name": "Severed Tail of the Sky-Roamer",
+    "desc": "The tail feather of a powerful chimeric monster.\\nPerhaps even a created monster ought to seek out its own destiny, lest it be cast into suffering by another's hand. With such thoughts in mind, the one who made these monsters was fond of giving his creations wings. Yet there are many winged creatures in this world, and only a small few ever truly learn to fly. Perhaps that, too, is what they call providence.",
     "rank": 4,
     "icon": "UI_ItemIcon_113091",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_AVATAR_MATERIAL",
     "jump_descs": [
-      "Dropped by Chimera Griffons level 30 or higher"
+      "Dropped by Lv. 30+ Chimeric Winged Lions"
     ],
     "source_list": [],
     "title": "",
@@ -60979,8 +61004,8 @@
     "week": 2
   },
   "114085": {
-    "name": "The Stirring of the Pale Star Host",
-    "desc": "Material used for Weapon Ascension.\\nIn the frozen lands of the east, the arrogant monster born within the winged mountains is but a vile peddler of malt and minerals.\\nThe Vilas that serve him are merely weaklings with insect wings, and the Domovoy cannot even lift weapons with their stubby arms.\\nWho would ever heed the clamor of such a rabble, and what power do they have to halt the advance of the Beast Lords?",
+    "name": "Rise of the Pale Star Army",
+    "desc": "Weapon Ascension Material.\\nIn the east of the tundra, that arrogant monster born within the wing-like mountain is nothing more than a lowly peddler of malt and minerals.\\nThe Vila under his command are but weaklings with insect wings, while the Domovoy cannot even lift weapons with their stunted arms.\\nWho would heed the clamor of such rabble? What strength could they possibly have to stand against the onslaught of the kings of Volkodlak?",
     "rank": 2,
     "icon": "UI_ItemIcon_114085",
     "item_type": "ITEM_MATERIAL",
@@ -60992,11 +61017,12 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "Weapon Ascension Material"
+    "type": "Weapon Ascension Material",
+    "week": 0
   },
   "114086": {
-    "name": "The Gathering of the Pale Star Host",
-    "desc": "A material used to grant weapons the power to Ascend.\\n\"Those ridiculous, arrogant fools who occupy the canyon by mere luck are nothing but a spent force, a gust of wind losing its strength.\"\\n\"They can barely hold back our forces with all their might, and soon they shall show signs of defeat.\"\\n\"Soldiers, keep advancing! For the Beast King's decree has spoken, and victory in this entire campaign shall be ours with ease!\"",
+    "name": "Muster of the Pale Star Army",
+    "desc": "Weapon Ascension Material.\\n\"They seized the canyon by sheer luck. That laughably arrogant fool is no more than a spent bolt, a fading gale.\"\\n\"Even with all their strength, they can barely hold back a fraction of our forces. Soon enough, their defeat will be plain to see.\"\\n\"Soldiers, march onward! For our king has already foretold, for this entire campaign shall end in effortless victory!\"",
     "rank": 3,
     "icon": "UI_ItemIcon_114086",
     "item_type": "ITEM_MATERIAL",
@@ -61008,11 +61034,12 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "Weapon Ascension Material"
+    "type": "Weapon Ascension Material",
+    "week": 0
   },
   "114087": {
-    "name": "Command of the Pale Star's Host",
-    "desc": "A material used for Weapon Ascension.\\n\"Our foe, Monomakh, has built his palace beyond the valley, which means he is fully confident in his ability to contend with us.\"\\n\"It now appears that he deserves our utmost caution; talk of a swift victory is no longer appropriate.\"\\n\"But it does not matter. The King who leads the spirits with wisdom shall surely unite with all clans to overcome every hardship and march toward a glorious new era!\"",
+    "name": "Clarion of the Pale Star Army",
+    "desc": "Weapon Ascension Material.\\n\"Our enemy Monomakh has built his palace beyond the valley, a sign that he is fully confident in his ability to contend with us.\"\\n\"As matters stand, he deserves our utmost caution. Any talk of a swift victory should now be set aside.\"\\n\"But it matters not. With wisdom to guide us all, the King shall stand with the clans to overcome every hardship and usher in a glorious new era!\"",
     "rank": 4,
     "icon": "UI_ItemIcon_114087",
     "item_type": "ITEM_MATERIAL",
@@ -61024,11 +61051,12 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "Weapon Ascension Material"
+    "type": "Weapon Ascension Material",
+    "week": 0
   },
   "114088": {
-    "name": "Conquest of the Pale Star Host",
-    "desc": "A material used to unlock a weapon's potential.\\n\"All-protector of all Fae, bearer of the Pale Star, our Emperor born of sacred blood, the Belyi Tsar!\"\\n\"Praise be, for the entire frozen plain is now unified under the radiance of the Pole Star.\"\\n\"Praise be, for the Tsar who slew the false king has embraced all the Fae—what benevolence, what mercy!\"",
+    "name": "Triumph of the Pale Star Army",
+    "desc": "Weapon Ascension Material.\\n\"All hail the Tsar, Protector of all fae, Heir to the Pale Star, sovereign born of sacred blood!\"\\n\"Praise be, for the entire tundra now stands as one beneath the brilliance of the Polestar!\"\\n\"Praise be, for His Majesty has slain the false king and embraced all fae. Such is his benevolence, such is his mercy!\"",
     "rank": 5,
     "icon": "UI_ItemIcon_114088",
     "item_type": "ITEM_MATERIAL",
@@ -61040,11 +61068,12 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "Weapon Ascension Material"
+    "type": "Weapon Ascension Material",
+    "week": 0
   },
   "114089": {
-    "name": "Deliberation of the Cellar Nectar",
-    "desc": "Material used for Weapon Ascension.\\nA light that once shimmered like an aurora across the northern sky was extinguished upon encountering a gaze from the highest heavens.\\nThe calamity of extreme cold and black crystals nearly destroyed the very foundations of life.\\nOnly the many fairies, who feared not the cold, emerged from the ice and snow to rule over a realm where no human life remained.",
+    "name": "Measured Pour of the Cellared Spiritual Nectar",
+    "desc": "Weapon Ascension Material.\\nThe radiance that once gleamed like the aurora in the northernmost sky was extinguished when it met the gaze from high above.\\nThe calamity of bitter cold and black crystal nearly destroyed the foundations upon which all life endured.\\nOnly the fae, unafraid of the cold, were able to emerge from the ice and snow to rule over the deserted realm.",
     "rank": 2,
     "icon": "UI_ItemIcon_114089",
     "item_type": "ITEM_MATERIAL",
@@ -61056,11 +61085,12 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "Weapon Ascension Material"
+    "type": "Weapon Ascension Material",
+    "week": 1
   },
   "114090": {
-    "name": "Drunkard's Spirit of the Cellar",
-    "desc": "A material used to grant weapons the power to ascend.\\nWhile elsewhere it is but a celebration of a bountiful harvest, for those who tread through the Sheer Cold, it is a necessity for survival.\\nIt is said that the Domovoy, whose brewing techniques were the finest, once relied on this craft to amass riches in the treasuries of the kings they served.\\nThus, the fey brew flowed through the trade between clans like poisoned honey, spreading across the entire frozen land.",
+    "name": "Intoxication of the Cellared Spiritual Nectar",
+    "desc": "Weapon Ascension Material.\\nWhat others enjoy as a festive indulgence after a bountiful grain harvest is a necessity of survival for the clans who walk through the bitter cold.\\nIt is said that the Domovoy, whose mastery of brewing was without equal, once relied on this art to enrich the treasury of the king they served.\\nAnd so, passed from clan to clan through trade, the fae's brew flowed across the frozen lands like honey laced with poison.",
     "rank": 3,
     "icon": "UI_ItemIcon_114090",
     "item_type": "ITEM_MATERIAL",
@@ -61072,11 +61102,12 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "Weapon Ascension Material"
+    "type": "Weapon Ascension Material",
+    "week": 1
   },
   "114091": {
-    "name": "Exhilaration of the Cellar Elixir",
-    "desc": "A material used for Weapon Ascension.\\nIt is said that in the past, countless flagons of fine spirits were poured into the Frozen Lake.\\nSome say it was a supply of wine for war that had to be destroyed due to a blunder, while others claim a Domovoy Archduke lost a wager with the Lord of the Water Imps.\\nIt was not until a blue, inextinguishable flame erupted upon the lake's surface, and the enemies beneath the waves churned in the suffocating currents, that they realized: in the hands of those who understand the flux of the world, water can also be Pyro, and elixirs can be deadly poison.",
+    "name": "Exhilaration of the Cellared Spiritual Nectar",
+    "desc": "Weapon Ascension Material.\\nLegend has it that long ago, countless casks of fine wine were poured into a frozen lake.\\nSome say the wine was intended as wartime provisions, had to be destroyed after some mishap. had to be destroyed after something went awry. Others say a certain Grand Duke of the Domovoy had lost a bet to the Lord of the Water Imp.\\nOnly when unquenchable azure hellflame spread across the lake, and the foes below writhed in choking waves, did they come to understand:\\nIn the hands of the people well versed in the turning of the world, water itself could burn, and even the sweetest nectar could prove deadlier than poison.",
     "rank": 4,
     "icon": "UI_ItemIcon_114091",
     "item_type": "ITEM_MATERIAL",
@@ -61088,11 +61119,12 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "Weapon Ascension Material"
+    "type": "Weapon Ascension Material",
+    "week": 1
   },
   "114092": {
-    "name": "Libation of the Cellar-Lord's Whim",
-    "desc": "A material used to aid in Weapon Ascension.\\nFor the Archduke of the Domovoy, who oversees crystal mining and the development of the frozen lands, carving out an oasis in the polar regions is a mere trifle, as is the transplanting of superior rye from elsewhere.\\nAmong the many fae nobles that have persisted in Snezhnaya to this day, his status is unparalleled.\\nYet, the fire of a growing ambition burns down his throat, and like the greed of ancient fae, it grows with the passing years, knowing no bounds.",
+    "name": "Revelry of the Cellared Spiritual Nectar",
+    "desc": "Weapon Ascension Material.\\nThe Grand Duke of the Domovoy commanded the crystal mines and the development of the frozen lands. To him, carving an oasis out of the polar wastes was a mere trifle, and importing rye of better quality was no difficult task either.\\nEven among the many fae nobles who had endured in Snezhnaya to this day, none could rival the splendor of his status.\\nYet the flame of ambition burned ever brighter, licking its way down his throat, while the ancient fae's greed swelled with the years and knew no end.",
     "rank": 5,
     "icon": "UI_ItemIcon_114092",
     "item_type": "ITEM_MATERIAL",
@@ -61104,11 +61136,12 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "Weapon Ascension Material"
+    "type": "Weapon Ascension Material",
+    "week": 1
   },
   "114093": {
-    "name": "Resurrection of the Frost Sovereign",
-    "desc": "Material used for Weapon Ascension.\\nBefore he became the master of the entire snowfield, the hero who emerged from the frozen wastes already had a habit of confiding too much in those around him.\\nThus, he was deeply surprised when he received a gift from an elemental spirit of frost that had yet to take on a human form.\\nTo him, he could not recall ever telling that being of his birth from an egg of frost, high among the peaks where the wings of birds could barely reach, nor had he ever mentioned the date of that day.",
+    "name": "The Frost Emperor's Revival",
+    "desc": "Weapon Ascension Material.\\nThe hero emerged from the snowfields had yet to become the ruler of that frozen realm, but even then, he already shown a habit of confiding far too much to those around him.\\nSo he was all the more surprised when he received a gift from the fae of snow, who at the time had not yet taken their human form.\\nAs far as he knew, he never told them that he was born from an egg as pale as ice deep within the wing-like mountains, nor did he ever mention the date of his birth.",
     "rank": 2,
     "icon": "UI_ItemIcon_114093",
     "item_type": "ITEM_MATERIAL",
@@ -61120,11 +61153,12 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "Weapon Ascension Material"
+    "type": "Weapon Ascension Material",
+    "week": 2
   },
   "114094": {
-    "name": "Ceremonial of the Frost Sovereign",
-    "desc": "A material used to unleash the strength of weapons.\\nThe fairies of the court did not understand why a gift presented to the Tsar was crafted into such a shape; they merely heaped craftsmanship onto accessories like jewels.\\nOnly the Tsar upon the throne and the spirit of Cryo knew the meaning behind this accessory.\\nWhat mattered was never the ceremony, but the ancient verity held within it.",
+    "name": "The Frost Emperor's Ceremony",
+    "desc": "Weapon Ascension Material.\\nThe fae of the court didn't understand why a gift meant for the Tsar must be made in such shape. They knew only to lavish their craft upon ornaments bright as jewels.\\nOnly the Tsar seated upon the throne and the fae of snow understood the meaning behind it.\\nFor what mattered was never the ceremony, but the ancient truth it preserved.",
     "rank": 3,
     "icon": "UI_ItemIcon_114094",
     "item_type": "ITEM_MATERIAL",
@@ -61136,11 +61170,12 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "Weapon Ascension Material"
+    "type": "Weapon Ascension Material",
+    "week": 2
   },
   "114095": {
-    "name": "Lament of the Frost-Veiled Emperor",
-    "desc": "Material used to increase the power of a weapon's ascension.\\nOn a night when the truth began to ripple like bitter water, she, no longer who she once was, prepared this gift for a friend upon the throne.\\nBoth felt that it would be the last time they would ever speak in such a way.\\nFor after that, the path they had walked together would fall apart, severed by the weakness of one and the wrath of the other.",
+    "name": "The Frost Emperor's Lament",
+    "desc": "Weapon Ascension Material.\\nIt was a gift she prepared for her friend upon the throne, on the night when the truth stirred like bitter waters, though she was no longer what she had once been.\\nThey both seemed to understand that they might never speak to each other like this again.\\n",
     "rank": 4,
     "icon": "UI_ItemIcon_114095",
     "item_type": "ITEM_MATERIAL",
@@ -61152,11 +61187,12 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "Weapon Ascension Material"
+    "type": "Weapon Ascension Material",
+    "week": 2
   },
   "114096": {
-    "name": "Gash of the Frost-Blade Emperor",
-    "desc": "A material used to grant a weapon the power to ascend.\\nOn the eve of war, it appeared upon the table, though no one knew when or how.\\nHe knew it was crafted by the hands of a friend he had not seen in a long, long time.\\nAs the heavens and earth remained unchanged, it was only then that he realized: this was the beginning of all calamities, the bitter fruit of all desires, and the omen of all destruction.",
+    "name": "The Frost Emperor's Farewell",
+    "desc": "Weapon Ascension Material.\\nAn object that appeared upon the table on the eve of war, though none knew when or how it'd come to be there.\\nHe recognized it for the handiwork of the friend he hadn't seen for many long years.\\nOnly then did he realize, that this was the beginning of every calamity, the bitter fruit of every desire, and the omen of every destruction.",
     "rank": 5,
     "icon": "UI_ItemIcon_114096",
     "item_type": "ITEM_MATERIAL",
@@ -61168,7 +61204,8 @@
     "title": "",
     "effect": "",
     "special": "",
-    "type": "Weapon Ascension Material"
+    "type": "Weapon Ascension Material",
+    "week": 2
   },
   "115001": {
     "name": "(test)新手礼包",
@@ -84689,7 +84726,7 @@
     "type": "Quest Item"
   },
   "121593": {
-    "name": "Izmaylov Guard's Journal",
+    "name": "Izmaylo Guard's Journal",
     "desc": "",
     "rank": 0,
     "icon": "UI_ItemIcon_101633",
@@ -85117,8 +85154,8 @@
     "type": "Quest Item"
   },
   "121627": {
-    "name": "纹路精巧的纽扣",
-    "desc": "",
+    "name": "Intricately Patterned Button",
+    "desc": "A button beloved by the Jack Frost. Perhaps they love buttons so much because their round little hands cannot make anything so fine and light. Can be exchanged for goodies at the Jack Frosts' Goodies Shop.",
     "rank": 0,
     "icon": "UI_ItemIcon_121627",
     "item_type": "ITEM_MATERIAL",
@@ -85159,8 +85196,8 @@
     "type": "Quest Item"
   },
   "121631": {
-    "name": "Winner's Trophy of the First Adventurer's Gala",
-    "desc": "A trophy issued by the Snezhnaya Adventurers' Guild headquarters, serving as proof of the excellence you and Paimon have achieved in the field of adventuring.\\nBecause discussions at the \"Adventurers' Guild Development Conference\" did not go smoothly, the \"First Adventurers' Tournament,\" originally intended to foster friendly exchanges between adventurers from all nations, turned into an arena for deciding who would hold the most sway...\\nYou and Paimon, as key figures in breaking the deadlock, joined the competition midway and saw your results skyrocket, eventually claiming the championship title and steering the direction of the conference to finalize several critical resolutions...\\nAlthough these resolutions may not show powerful effects immediately, they will surely enable the Guild to move with the times and allow more adventurers to benefit profoundly...",
+    "name": "Champion's Trophy of the First Adventurers' Tournament",
+    "desc": "A trophy awarded by the headquarters of the Adventurers' Guild in Snezhnaya. It stands as proof of the outstanding feats you and Paimon have achieved in the field of adventure.\\nAs discussions at the Adventurers' Guild Development Conference failed to progress smoothly, the First Adventurers' Tournament, originally meant to promote friendly exchange between adventurers of different nations, became an arena for deciding who would have the final say...\\nAs key figures in breaking the deadlock, you and Paimon joined the competition midway through and quickly rose through the ranks, ultimately claiming the championship, steering the course of the conference, and finalizing several key resolutions...\\nThough these resolutions may not have an immediate impact, they are sure to help the Guild keep pace with the times and bring greater benefits to more adventurers...",
     "rank": 3,
     "icon": "UI_ItemIcon_121631",
     "item_type": "ITEM_MATERIAL",
@@ -85189,7 +85226,7 @@
   "121633": {
     "name": "???",
     "desc": "???",
-    "rank": 0,
+    "rank": 3,
     "icon": "UI_ItemIcon_121633",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_QUEST",
@@ -85203,7 +85240,7 @@
   "121634": {
     "name": "???",
     "desc": "???",
-    "rank": 0,
+    "rank": 3,
     "icon": "UI_ItemIcon_121634",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_QUEST",
@@ -85217,7 +85254,7 @@
   "121635": {
     "name": "???",
     "desc": "???",
-    "rank": 0,
+    "rank": 3,
     "icon": "UI_ItemIcon_121635",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_QUEST",
@@ -85231,7 +85268,7 @@
   "121636": {
     "name": "???",
     "desc": "???",
-    "rank": 0,
+    "rank": 3,
     "icon": "UI_ItemIcon_121636",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_QUEST",
@@ -85245,7 +85282,7 @@
   "121637": {
     "name": "???",
     "desc": "???",
-    "rank": 0,
+    "rank": 3,
     "icon": "UI_ItemIcon_121637",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_QUEST",
@@ -85259,7 +85296,7 @@
   "121638": {
     "name": "???",
     "desc": "???",
-    "rank": 0,
+    "rank": 3,
     "icon": "UI_ItemIcon_121638",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_QUEST",
@@ -85273,7 +85310,7 @@
   "121639": {
     "name": "???",
     "desc": "???",
-    "rank": 0,
+    "rank": 3,
     "icon": "UI_ItemIcon_121639",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_QUEST",
@@ -85287,7 +85324,7 @@
   "121640": {
     "name": "???",
     "desc": "???",
-    "rank": 0,
+    "rank": 3,
     "icon": "UI_ItemIcon_121640",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_QUEST",
@@ -85301,7 +85338,7 @@
   "121641": {
     "name": "???",
     "desc": "???",
-    "rank": 0,
+    "rank": 3,
     "icon": "UI_ItemIcon_121641",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_QUEST",
@@ -85315,7 +85352,7 @@
   "121642": {
     "name": "???",
     "desc": "???",
-    "rank": 0,
+    "rank": 3,
     "icon": "UI_ItemIcon_121642",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_QUEST",
@@ -85329,7 +85366,7 @@
   "121643": {
     "name": "???",
     "desc": "???",
-    "rank": 0,
+    "rank": 3,
     "icon": "UI_ItemIcon_121643",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_QUEST",
@@ -85425,7 +85462,7 @@
     "type": "Quest Item"
   },
   "121650": {
-    "name": "Order Diagram",
+    "name": "Order Illustration",
     "desc": "",
     "rank": 0,
     "icon": "UI_ItemIcon_121630",
@@ -85439,7 +85476,7 @@
     "type": "Quest Item"
   },
   "121651": {
-    "name": "Order Diagram",
+    "name": "Order Illustration",
     "desc": "",
     "rank": 0,
     "icon": "UI_ItemIcon_121630",
@@ -85528,7 +85565,7 @@
     "rank": 4,
     "icon": "UI_ItemIcon_121657",
     "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_QUEST",
+    "material_type": "MATERIAL_CONSUME",
     "jump_descs": [],
     "source_list": [],
     "title": "",
@@ -85537,15 +85574,15 @@
     "type": "Very Special Item"
   },
   "121659": {
-    "name": "Scent Trail of the Snow-Buried Ground",
-    "desc": "Collect three Snow-Buried Scent Guides to open the Relic Vault in the White Birch Snow-Buried Land.\\nIt is said that in the past, expedition platoons would occasionally find that the treasures they discovered could not be removed from the Ei realms, so they would leave behind a specific \"scent trail\" at that location. Only by using the complete Scent Guide can one locate those Ei relic positions.",
+    "name": "Remnant Incense Guide - Snowgrave",
+    "desc": "Gathering three pieces of the Remnant Incense Guide - Snowgrave allows you to unseal the vault of Shadow Realm at the White Birch Snowgrave.\\nLegend has it that early squads exploring the Shadow Realm would occasionally find themselves unable to retrieve the treasures they discovered. In such cases, they would leave a specific \"scent trail\" behind. Only by piecing together the incense trail can one track down the locations of these long-lost relics.",
     "rank": 4,
     "icon": "UI_ItemIcon_121659",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_CONSUME",
     "jump_descs": [],
     "source_list": [
-      "Birch Snowfield Expedition Rewards"
+      "White Birch Snowgrave Exploration Reward"
     ],
     "title": "",
     "effect": "",
@@ -85553,15 +85590,15 @@
     "type": "Adventure Item"
   },
   "121660": {
-    "name": "Scent Guide of the Frost-Shattered Peak",
-    "desc": "Once you have collected three remnants of the Frost-Bitten Peak's Scent, you can open the Shadow Realm Relic Vault at the White Birch Snow Burial Ground.\\nIt is said that expeditions to the Shadow Realm in the past occasionally found that the treasures they discovered could not be removed from the realm, so they would leave specific \"scent trails\" behind. Only by using the complete scent trail can you locate the whereabouts of those Shadow Realm relics.",
+    "name": "Remnant Incense Guide - Fellfrost Peak",
+    "desc": "Gathering three pieces of the Remnant Incense Guide - Fellfrost Peak allows you to unseal the vault of Shadow Realm at the Fellfrost Peak.\\nLegend has it that early squads exploring the Shadow Realm would occasionally find themselves unable to retrieve the treasures they discovered. In such cases, they would leave a specific \"scent trail\" behind. Only by piecing together the incense trail can one track down the locations of these long-lost relics.",
     "rank": 4,
     "icon": "UI_ItemIcon_121660",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_CONSUME",
     "jump_descs": [],
     "source_list": [
-      "Frost-Ender Peak Expedition Reward"
+      "Fellfrost Peak Exploration Reward"
     ],
     "title": "",
     "effect": "",
@@ -85569,15 +85606,15 @@
     "type": "Adventure Item"
   },
   "121661": {
-    "name": "Lure of Lingering Coagulating Frost",
-    "desc": "Collect three Coagulating Permafrost Scent-Guides to open the Shadow Domain Relic Vault in the Birch Snow-Burial Ground.\\nIt is said that in the past, exploration platoons in the Shadow Domain would occasionally find treasures they had discovered could not be brought out, so they would leave specific \"scents\" at the location. Only by using the complete Scent-Guide can one find the position of those Shadow Domain relics.",
+    "name": "Remnant Incense Guide - Everfrozen Earth",
+    "desc": "Gathering three pieces of the Remnant Incense Guide - Everfrozen Earth allows you to unseal the vault of Shadow Realm at the Everfrozen Earth.\\nLegend has it that early squads exploring the Shadow Realm would occasionally find themselves unable to retrieve the treasures they discovered. In such cases, they would leave a specific \"scent trail\" behind. Only by piecing together the incense trail can one track down the locations of these long-lost relics.",
     "rank": 4,
     "icon": "UI_ItemIcon_121661",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_CONSUME",
     "jump_descs": [],
     "source_list": [
-      "Permafrost Expedition Rewards"
+      "Everfrozen Earth Exploration Reward"
     ],
     "title": "",
     "effect": "",
@@ -85683,21 +85720,21 @@
     "type": "Quest Item"
   },
   "121671": {
-    "name": "Keshnick Energy",
-    "desc": "The energy required to operate the \"Grey Eye\".\\nKeshnick Energy can be restored within the range of a Heat Source powered by Keshnick Crystals in Snezhnaya, or by collecting Keshnick Crystals during Expeditions.",
+    "name": "Kresnik Energy",
+    "desc": "Energy required to operate the Eye of Graeae.\\nKresnik Energy can be restored either by entering the range of heat sources powered by Kresnik Kristall in Snezhnaya, or by collecting Kresnik Kristall during exploration.",
     "rank": 3,
     "icon": "UI_ItemIcon_121671",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_QUEST",
     "jump_descs": [],
     "source_list": [
-      "Interact with specific Heat Sources in Snezhnaya",
-      "Obtained by gathering Keshnick Crystals"
+      "Interact with specific heat sources in Snezhnaya",
+      "Obtained from collecting Kresnik Kristall"
     ],
     "title": "",
     "effect": "",
     "special": "",
-    "type": "Expedition Resource"
+    "type": "Exploration Resources"
   },
   "121672": {
     "name": "奇怪的试剂样品",
@@ -85712,6 +85749,20 @@
     "effect": "",
     "special": "",
     "type": "任务道具"
+  },
+  "121674": {
+    "name": "(test)TPS爬塔角色外观奖励纪念品",
+    "desc": "",
+    "rank": 4,
+    "icon": "UI_ItemIcon_121657",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_CONSUME",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "Very Special Item"
   },
   "129001": {
     "name": "Tears Among the Stars",
@@ -90587,7 +90638,7 @@
   },
   "141291": {
     "name": "Radiant Spincrystal 189",
-    "desc": "A wondrous crystal that contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found scattered throughout the continent or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya.",
+    "desc": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya.",
     "rank": 4,
     "icon": "UI_ItemIcon_BGM_Common",
     "item_type": "ITEM_MATERIAL",
@@ -90601,7 +90652,7 @@
   },
   "141292": {
     "name": "Radiant Spincrystal 190",
-    "desc": "A wondrous crystal containing a certain rhythm, much like a beautiful gem woven from delicate silk. These items can be found scattered throughout the mainland or in the hands of merchants who collect curios. The tune held within this crystal can be restored in your Serenitea Pot using either \"Euphonium Unbound: Soaring\" or \"Euphonium Unbound: Winding.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya.",
+    "desc": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya.",
     "rank": 4,
     "icon": "UI_ItemIcon_BGM_Common",
     "item_type": "ITEM_MATERIAL",
@@ -90629,7 +90680,7 @@
   },
   "141294": {
     "name": "Radiant Spincrystal 192",
-    "desc": "A wondrous crystal containing a certain rhythm, as if made of a beautiful, delicate silk. These items are scattered across the continent, or found in the hands of merchants who collect such curios. The melody held within this crystal can be restored using \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring\" within the \"Serenitea Pot.\" This \"Radiant Spincrystal\" currently contains a mysterious melody from Snezhnaya.",
+    "desc": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya.",
     "rank": 4,
     "icon": "UI_ItemIcon_BGM_Common",
     "item_type": "ITEM_MATERIAL",
@@ -90643,7 +90694,7 @@
   },
   "141295": {
     "name": "Radiant Spincrystal 193",
-    "desc": "A wondrous crystal that contains a certain rhythm, like a piece of fine jade woven from delicate silk. These items can be found scattered across the continent or in the hands of merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya.",
+    "desc": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya.",
     "rank": 4,
     "icon": "UI_ItemIcon_BGM_Common",
     "item_type": "ITEM_MATERIAL",
@@ -90657,7 +90708,7 @@
   },
   "141296": {
     "name": "Radiant Spincrystal 194",
-    "desc": "A wondrous crystal that contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found scattered throughout the mainland, or in the hands of merchants who search for curiosities. The tune held within this crystal can be restored in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya.",
+    "desc": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya.",
     "rank": 4,
     "icon": "UI_ItemIcon_BGM_Common",
     "item_type": "ITEM_MATERIAL",
@@ -90671,7 +90722,7 @@
   },
   "141297": {
     "name": "Radiant Spincrystal 195",
-    "desc": "A wondrous crystal that contains a certain rhythm, appearing as beautiful as jade woven from delicate silk. These items are scattered throughout the continent or can be found in the hands of merchants who collect curios. The tune held within this crystal can be restored in your Serenitea Pot using either \"Euphonium Unbound: Soaring\" or \"Euphonium Unbound: Winding.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya.",
+    "desc": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya.",
     "rank": 4,
     "icon": "UI_ItemIcon_BGM_Common",
     "item_type": "ITEM_MATERIAL",
@@ -90699,7 +90750,7 @@
   },
   "141299": {
     "name": "Radiant Spincrystal 197",
-    "desc": "A wondrous crystal that contains a certain rhythm, appearing like beautiful jade woven from delicate silk. These items can be found scattered throughout the mainland or obtained from merchants who collect curios. The tune held within this crystal can be restored in your Serenitea Pot using either \"Euphonium Unbound: Soaring\" or \"Euphonium Unbound: Winding.\" The melody contained within this Radiant Spincrystal is from Snezhnaya.",
+    "desc": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya.",
     "rank": 4,
     "icon": "UI_ItemIcon_BGM_Common",
     "item_type": "ITEM_MATERIAL",
@@ -90727,7 +90778,7 @@
   },
   "141301": {
     "name": "Radiant Spincrystal 199",
-    "desc": "A wondrous crystal that contains a certain rhythm, like a beautiful gem woven from delicate silk. These items can be found scattered throughout the land or in the hands of merchants who search for curios. The tune held within this crystal can be restored in your \"Serenitea Pot\" using either \"Euphonium Unbound: Soaring\" or \"Euphonium Unbound: Winding.\" The tune contained within this \"Radiant Spincrystal\" is a mysterious melody from Snezhnaya.",
+    "desc": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya.",
     "rank": 4,
     "icon": "UI_ItemIcon_BGM_Common",
     "item_type": "ITEM_MATERIAL",
@@ -90741,7 +90792,7 @@
   },
   "141302": {
     "name": "Radiant Spincrystal 200",
-    "desc": "A wondrous crystal containing a certain rhythm, like a beautiful gem woven from delicate silk. These items are scattered throughout the continent or can be found in the hands of merchants who collect curios. The tune held within this crystal can be restored in your Serenitea Pot using either \"Euphonium Unbound: Soaring\" or \"Euphonium Unbound: Winding.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya.",
+    "desc": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya.",
     "rank": 4,
     "icon": "UI_ItemIcon_BGM_Common",
     "item_type": "ITEM_MATERIAL",
@@ -96884,7 +96935,7 @@
     "name": "???",
     "desc": "???",
     "rank": 4,
-    "icon": "UI_NameCardIcon_Bp52",
+    "icon": "UI_NameCardIcon_Shadow",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_NAMECARD",
     "jump_descs": [],
@@ -96893,7 +96944,21 @@
     ],
     "title": "",
     "effect": "",
-    "special": "\"???\" Namecard Style",
+    "special": "",
+    "type": ""
+  },
+  "210294": {
+    "name": "纪行·霜游",
+    "desc": "",
+    "rank": 4,
+    "icon": "UI_NameCardIcon_Bp52",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_NAMECARD",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
     "type": ""
   },
   "215001": {
@@ -97250,7 +97315,7 @@
   },
   "215023": {
     "name": "Echo: Vigilant Yaksha",
-    "desc": "Xiao's Envisaged Echo.",
+    "desc": "Xiao's Envisaged Echo",
     "rank": 4,
     "icon": "UI_TraceEffectIcon_Xiao",
     "item_type": "ITEM_MATERIAL",
@@ -97372,7 +97437,7 @@
   },
   "216008": {
     "name": "First Snow",
-    "desc": "The countless snowflakes falling alongside the morning light are drifting fragments of a crumbling firmament.",
+    "desc": "The endless snow falling with the light of dawn is nothing but drifting debris as the firmament breaks apart.",
     "rank": 2,
     "icon": "UI_AvatarFrameIcon_Snezhnaya_001",
     "item_type": "ITEM_MATERIAL",
@@ -97387,8 +97452,8 @@
     "type": "Avatar Frame"
   },
   "216009": {
-    "name": "Frost-Ling",
-    "desc": "The north wind brings with it the scent of early frost, the eternal song of the King of Winter Icelea's handmaidens. Let the world pause at this very moment! Only such a wish has been granted.",
+    "name": "Crystalline Frost",
+    "desc": "The north wind carries the breath of the first freeze, the eternal singing of the King of Winter Icelea's maidens. Let the world be held still in this moment forever! Only that wish was ever granted.",
     "rank": 3,
     "icon": "UI_AvatarFrameIcon_Snezhnaya_002",
     "item_type": "ITEM_MATERIAL",
@@ -97403,8 +97468,8 @@
     "type": "Avatar Frame"
   },
   "216010": {
-    "name": "Snow-Covered",
-    "desc": "Cold, desolate streets and shrines, layered corridors and palaces, all buried under ice that refuses to melt. Under the rule of the King of Winter Icelea, the frozen earth silently awaits a never-ending finality.",
+    "name": "Snowbound",
+    "desc": "Cold, silent streets and temples, layered corridors and palace halls, lie buried beneath a seal of ice that never melts. Under the reign of the King of Winter Icelea, the ever-frozen land quietly welcomes its end without end.",
     "rank": 4,
     "icon": "UI_AvatarFrameIcon_Snezhnaya_003",
     "item_type": "ITEM_MATERIAL",
@@ -97419,8 +97484,8 @@
     "type": "Avatar Frame"
   },
   "216011": {
-    "name": "Eternal Winter",
-    "desc": "The once-grand and solemn ancient capital has been transformed into a playground for the Jack Frosts. Everything in the world lies sealed beneath a blanket of pristine snow, as if in eternity. Only the cunning Jack Frosts know that when winter reaches its end, the earth shall once again welcome the rebirth of Haru.",
+    "name": "Everwinter",
+    "desc": "The once grand and solemn ancient capital became a playground for the Jack Frost. All things lay sealed beneath the vast snow, as if for eternity. Only the sly Jack Frost knew that, when winter reaches its end, spring will return to the earth once more.",
     "rank": 5,
     "icon": "UI_AvatarFrameIcon_Snezhnaya_004",
     "item_type": "ITEM_MATERIAL",
@@ -99264,7 +99329,7 @@
   },
   "220133": {
     "name": "Eye of Graeae",
-    "desc": "A strange mechanism found in the abandoned station, often appearing in the form of a monocle.\\nIt possesses many convenient functions, such as recording Cryo creation blueprints, crafting Cryo, summoning the train...\\nPerhaps it was originally created for the very purpose of providing these numerous convenient functions.",
+    "desc": "A strange mechanism you encountered in an abandoned station. It often appears in the form of a monocle.\\nIt offers many convenient functions, such as recording blueprints for Prime Ice constructs, creating Prime Ice, calling trains...\\nPerhaps it was built for the very purpose of providing all these conveniences.",
     "rank": 4,
     "icon": "UI_ItemIcon_220133",
     "item_type": "ITEM_MATERIAL",
@@ -99291,8 +99356,8 @@
     "type": "Gadget"
   },
   "220135": {
-    "name": "Mutual Aid Enhancement Kamera",
-    "desc": "A special Kamera provided by Chichikova, and one of the special pieces of equipment for the \"Mutual Aid Network.\" Once you use it to photograph specified targets as required by the \"Expedition Plan,\" the images within will become specialized intelligence, helping newcomers in the future...",
+    "name": "MAAN-Kamera",
+    "desc": "A specialized Kamera provided by Krejcikova, serving as a special equipment for the Mutual Aid Advancement Network. Once a designated target is captured in accordance with the exploration plan, the captured image is processed into vital intelligence, lighting the way for the rookies who follow in their footsteps...",
     "rank": 4,
     "icon": "UI_ItemIcon_220094",
     "item_type": "ITEM_MATERIAL",
@@ -99983,8 +100048,8 @@
     "type": "Forging Blueprint"
   },
   "221052": {
-    "name": "Blueprint: Source of Ignition",
-    "desc": "A weapon forging blueprint restored by Kuzmichev based on legendary records. Once mastered, it allows you to craft the sword \"Source of Ignition\".",
+    "name": "Diagram: Emberwell",
+    "desc": "A blueprint recreated by Kuzmichev based on records of old legends. Learn it and you can restore Emberwell (Sword).",
     "rank": 4,
     "icon": "UI_ItemIcon_221003",
     "item_type": "ITEM_MATERIAL",
@@ -99997,8 +100062,8 @@
     "type": "Forging Blueprint"
   },
   "221053": {
-    "name": "Diagram: Frost-Snow Pledge",
-    "desc": "A weapon forging blueprint restored by Kuzmichev based on legendary records. Once mastered, it allows for the crafting of the Bow: \"Frost-Snow Vow\".",
+    "name": "Diagram: Covenant of Frost and Snow",
+    "desc": "A blueprint recreated by Kuzmichev based on records of old legends. Learn it and you can restore Covenant of Frost and Snow (Bow).",
     "rank": 4,
     "icon": "UI_ItemIcon_221003",
     "item_type": "ITEM_MATERIAL",
@@ -100011,8 +100076,8 @@
     "type": "Forging Blueprint"
   },
   "221054": {
-    "name": "Blueprint: Redeemer's Slash",
-    "desc": "A weapon forging blueprint restored by Kuzmichev based on legendary records. Once mastered, it allows for the crafting of the claymore, \"Redemptive Slash.\"",
+    "name": "Diagram: Blade of Atonement",
+    "desc": "A blueprint recreated by Kuzmichev based on records of old legends. Learn it and you can restore Blade of Atonement (Claymore).",
     "rank": 4,
     "icon": "UI_ItemIcon_221003",
     "item_type": "ITEM_MATERIAL",
@@ -100025,8 +100090,8 @@
     "type": "Forging Blueprint"
   },
   "221055": {
-    "name": "Blueprint: Echoing Heart",
-    "desc": "A weapon forging blueprint restored by Kuzmichev based on legendary records. Once learned, you can forge the Catalyst \"Echoes of Heart's Rest\".",
+    "name": "Diagram: Echoes of the Heart",
+    "desc": "A blueprint recreated by Kuzmichev based on records of old legends. Learn it and you can restore Echoes of the Heart (Catalyst).",
     "rank": 4,
     "icon": "UI_ItemIcon_221003",
     "item_type": "ITEM_MATERIAL",
@@ -100039,8 +100104,8 @@
     "type": "Forging Blueprint"
   },
   "221056": {
-    "name": "Blueprint: Ballad of the Sentinel",
-    "desc": "A weapon forging blueprint restored by Kuzmichev based on legendary records. Once mastered, it allows for the replication of the Polearm \"Ballad of the Watcher.\"",
+    "name": "Diagram: Song of the Vigil",
+    "desc": "A blueprint recreated by Kuzmichev based on records of old legends. Learn it and you can restore Song of the Vigil (Polearm).",
     "rank": 4,
     "icon": "UI_ItemIcon_221003",
     "item_type": "ITEM_MATERIAL",
@@ -100575,7 +100640,7 @@
     "type": "Fireworks"
   },
   "223111": {
-    "name": "\"Muzzle\" of \"Shatanaya's Frostsilver\"",
+    "name": "Shatanaya's Frostsilver: Muzzle",
     "desc": "",
     "rank": 4,
     "icon": "UI_EquipIcon_AssaultRifle_Glacia_Part03",
@@ -100583,7 +100648,7 @@
     "material_type": "MATERIAL_NONE",
     "jump_descs": [],
     "source_list": [
-      "Head to the \"Meeting Point: Hunted Cabin\" to unlock."
+      "Go to \"Meeting Point: Huntsman's Cabin\" to unlock"
     ],
     "title": "",
     "effect": "",
@@ -100591,7 +100656,7 @@
     "type": "(test)枪械配件材料描述"
   },
   "223112": {
-    "name": "\"Ammo Feed\" of \"Shatanaya's Frostsilver\"",
+    "name": "Shatanaya's Frostsilver: Ammo",
     "desc": "",
     "rank": 4,
     "icon": "UI_EquipIcon_AssaultRifle_Glacia_Part01",
@@ -100599,7 +100664,7 @@
     "material_type": "MATERIAL_NONE",
     "jump_descs": [],
     "source_list": [
-      "Unlocked with Ei Domain Vault Lv. 2 Clearance"
+      "Unlocked at Shadow Realm Vault Level 2 Access"
     ],
     "title": "",
     "effect": "",
@@ -100607,7 +100672,7 @@
     "type": "(test)枪械配件材料描述"
   },
   "223113": {
-    "name": "\"Muzzle\" of \"Shatanaya's Frostsilver\"",
+    "name": "Shatanaya's Frostsilver: Tip",
     "desc": "",
     "rank": 4,
     "icon": "UI_EquipIcon_AssaultRifle_Glacia_Part04",
@@ -100615,7 +100680,7 @@
     "material_type": "MATERIAL_NONE",
     "jump_descs": [],
     "source_list": [
-      "Complete an Expedition to Flamefeather Valley to unlock"
+      "Go to Flamefeather Valley and explore to unlock"
     ],
     "title": "",
     "effect": "",
@@ -100623,7 +100688,7 @@
     "type": "(test)枪械配件材料描述"
   },
   "223114": {
-    "name": "\"Sight\" of \"Shatanaya's Frostsilver\"",
+    "name": "Shatanaya's Frostsilver: Sight",
     "desc": "",
     "rank": 4,
     "icon": "UI_EquipIcon_AssaultRifle_Glacia_Part02",
@@ -100631,7 +100696,7 @@
     "material_type": "MATERIAL_NONE",
     "jump_descs": [],
     "source_list": [
-      "Explore White Birch Snowgrave to unlock"
+      "Go to White Birch Snowgrave and explore to unlock"
     ],
     "title": "",
     "effect": "",
@@ -100639,7 +100704,7 @@
     "type": "(test)枪械配件材料描述"
   },
   "223121": {
-    "name": "\"Muzzle\" of \"Balsag's Sunwheel\"",
+    "name": "Balsag's Sunwheel: Muzzle",
     "desc": "",
     "rank": 4,
     "icon": "UI_EquipIcon_GrenadeLauncher_Ignis_Part03",
@@ -100647,7 +100712,7 @@
     "material_type": "MATERIAL_NONE",
     "jump_descs": [],
     "source_list": [
-      "Explore White Birch Snowgrave to unlock"
+      "Go to White Birch Snowgrave and explore to unlock"
     ],
     "title": "",
     "effect": "",
@@ -100655,7 +100720,7 @@
     "type": "(test)枪械配件材料描述"
   },
   "223122": {
-    "name": "\"Ammo Feed\" of \"Balsag's Sunwheel\"",
+    "name": "Balsag's Sunwheel: Ammo",
     "desc": "",
     "rank": 4,
     "icon": "UI_EquipIcon_GrenadeLauncher_Ignis_Part01",
@@ -100663,7 +100728,7 @@
     "material_type": "MATERIAL_NONE",
     "jump_descs": [],
     "source_list": [
-      "Complete the Dire Challenge to unlock"
+      "Unlocked from Edge of Survival challenges"
     ],
     "title": "",
     "effect": "",
@@ -100671,7 +100736,7 @@
     "type": "(test)枪械配件材料描述"
   },
   "223123": {
-    "name": "\"Barrel\" of \"Balsag's Sunwheel\"",
+    "name": "Balsag's Sunwheel: Tip",
     "desc": "",
     "rank": 4,
     "icon": "UI_EquipIcon_GrenadeLauncher_Ignis_Part04",
@@ -100679,7 +100744,7 @@
     "material_type": "MATERIAL_NONE",
     "jump_descs": [],
     "source_list": [
-      "Complete the Dire Siege Challenge to unlock"
+      "Unlocked from Edge of Survival challenges"
     ],
     "title": "",
     "effect": "",
@@ -100687,7 +100752,7 @@
     "type": "(test)枪械配件材料描述"
   },
   "223124": {
-    "name": "\"Sight\" of \"Balsag's Sunwheel\"",
+    "name": "Balsag's Sunwheel: Sight",
     "desc": "",
     "rank": 4,
     "icon": "UI_EquipIcon_GrenadeLauncher_Ignis_Part02",
@@ -100695,7 +100760,7 @@
     "material_type": "MATERIAL_NONE",
     "jump_descs": [],
     "source_list": [
-      "Complete the Dire Assault challenge to unlock"
+      "Unlocked from Edge of Survival challenges"
     ],
     "title": "",
     "effect": "",
@@ -100703,7 +100768,7 @@
     "type": "(test)枪械配件材料描述"
   },
   "223131": {
-    "name": "\"Muzzle\" of \"Ashamez's Thousand Lights\"",
+    "name": "Ashamez's Thunder: Muzzle",
     "desc": "",
     "rank": 4,
     "icon": "UI_EquipIcon_AssaultRifle_Fulmen_Part03",
@@ -100711,7 +100776,7 @@
     "material_type": "MATERIAL_NONE",
     "jump_descs": [],
     "source_list": [
-      "Unlocked at Ei Vault Access Level 4"
+      "Unlocked at Shadow Realm Vault Level 4 Access"
     ],
     "title": "",
     "effect": "",
@@ -100719,7 +100784,7 @@
     "type": "(test)枪械配件材料描述"
   },
   "223132": {
-    "name": "\"Ammo Feed\" of \"Ashamez's Thousand Lights\"",
+    "name": "Ashamez's Thunder: Ammo",
     "desc": "",
     "rank": 4,
     "icon": "UI_EquipIcon_AssaultRifle_Fulmen_Part01",
@@ -100727,7 +100792,7 @@
     "material_type": "MATERIAL_NONE",
     "jump_descs": [],
     "source_list": [
-      "Requires Level 6 Access to Ei-Vault"
+      "Unlocked at Shadow Realm Vault Level 6 Access"
     ],
     "title": "",
     "effect": "",
@@ -100735,7 +100800,7 @@
     "type": "(test)枪械配件材料描述"
   },
   "223133": {
-    "name": "\"Muzzle\" of \"Ashamez's Thunder\"",
+    "name": "Ashamez's Thunder: Tip",
     "desc": "",
     "rank": 4,
     "icon": "UI_EquipIcon_AssaultRifle_Fulmen_Part04",
@@ -100743,7 +100808,7 @@
     "material_type": "MATERIAL_NONE",
     "jump_descs": [],
     "source_list": [
-      "Complete the Dire Trial challenge to unlock"
+      "Unlocked from Edge of Survival challenges"
     ],
     "title": "",
     "effect": "",
@@ -100751,7 +100816,7 @@
     "type": "(test)枪械配件材料描述"
   },
   "223134": {
-    "name": "\"Sight\" of \"Ashamez's Thunder\"",
+    "name": "Ashamez's Thunder: Sight",
     "desc": "",
     "rank": 4,
     "icon": "UI_EquipIcon_AssaultRifle_Fulmen_Part02",
@@ -100759,7 +100824,7 @@
     "material_type": "MATERIAL_NONE",
     "jump_descs": [],
     "source_list": [
-      "Unlocked at Ei-Domain Vault Level 5 Clearance"
+      "Unlocked at Shadow Realm Vault Level 5 Access"
     ],
     "title": "",
     "effect": "",
@@ -100767,10 +100832,10 @@
     "type": "(test)枪械配件材料描述"
   },
   "223301": {
-    "name": "Construct Skin: Jack Frost",
-    "desc": "Cryo Construct Appearance: Cube.\\nJack Frost seems obsessed with creating all sorts of strange Cryo constructs in its own image. Even with the simplest of cubes, it goes to great lengths to incorporate elements of the Jack Frost likeness.",
+    "name": "Construct Appearance: Jack Frost",
+    "desc": "An appearance variant for the \"Prime Ice Construct: Cube.\"\\nJack Frost appears utterly obsessed with fashioning bizarre icy creations in their own image. Even with a structure as simple as a cube, they have poured immense effort into incorporating their own distinct features.",
     "rank": 3,
-    "icon": "UI_Icon_Icemake_InflateCube_02",
+    "icon": "UI_ItemIcon_223301",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_NONE",
     "jump_descs": [],
@@ -100781,10 +100846,10 @@
     "type": "臻冰造物外观"
   },
   "223302": {
-    "name": "Construct Appearance: Polar Bear",
-    "desc": "Appearance for the Construct: Polar Bear.\\nThere is a saying among Hunters that goes: \"Anything that can be held in a bear's embrace must be a good thing.\"\\nThough it feels a bit daunting to snatch something from the hands of an actual Polar Bear, it should be fine if it's just a storage device, right...?",
+    "name": "Construct Appearance: Polyarbear",
+    "desc": "Appearance of the Prime Ice Construct: Storage Device.\\nThere is an old saying among hunters that goes: \"If a bear holds it close, you know it's a treasure.\"\\nWhile the idea of wresting anything away from a real Polyarbear sounds terrifying, a mere storage unit modeled after one shouldn't pose much of a threat... right?",
     "rank": 3,
-    "icon": "UI_Icon_Icemake_IcemakeStorage_02",
+    "icon": "UI_ItemIcon_223302",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_NONE",
     "jump_descs": [],
@@ -100795,10 +100860,10 @@
     "type": "臻冰造物外观"
   },
   "223303": {
-    "name": "Construct Appearance: Dancer",
-    "desc": "Appearance of the \"Cryo Construct: Festive Cheer Pillar\".\\nWhen watching a performance, my mood always fluctuates with every movement of the ballet dancer. Every time I watch, I draw a great deal of strength from their dancing. \\nIt seems this design for the Cryo construct was inspired by that very sentiment.",
+    "name": "Construct Appearance: The Ballerina",
+    "desc": "An appearance variant for the \"Prime Ice Construct: Ambient Bollard.\"\\nWhen watching a performance, one's emotions naturally ebb and flow with every graceful movement of the ballet dancer. Each viewing instills a profound sense of inner strength.\\nPerhaps it was born from this very sentiment that this particular Prime Ice Construct appearance was designed.",
     "rank": 3,
-    "icon": "UI_Icon_Icemake_IcemakeDecorate_02",
+    "icon": "UI_ItemIcon_223303",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_NONE",
     "jump_descs": [],
@@ -100809,10 +100874,10 @@
     "type": "臻冰造物外观"
   },
   "223304": {
-    "name": "Construct Appearance: Hound",
-    "desc": "Appearance of the \"Cryo Construct: Festive Cheer Stake\".\\nIt is not just Festive Cheer Stakes that provide a constant stream of buffs, but also the companions by your side. Sometimes, a companion's presence can provide strength far beyond any buff... though it would be nice if the stakes could follow me around just like a companion.",
+    "name": "Construct Appearance: The Hound",
+    "desc": "An appearance variant for the \"Prime Ice Construct: Ambient Bollard.\"\\nContinuous buffs come not only from ambient bollards, but from the companions by our side. Sometimes, their mere presence provides a strength that far surpasses any magical enhancement... That being said, it would be wonderful if these bollards could follow us around just like a real companion.",
     "rank": 3,
-    "icon": "UI_Icon_Icemake_IcemakeDecorate_03",
+    "icon": "UI_ItemIcon_223304",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_NONE",
     "jump_descs": [],
@@ -100823,10 +100888,10 @@
     "type": "臻冰造物外观"
   },
   "223305": {
-    "name": "Construct Appearance: Chaoxi",
-    "desc": "Appearance of the \"Cryo Construction: Festive Cheer Pole\".\\nIt is said that one can sometimes hear the faint sound of Chaoxi around a Festive Cheer Pole designed like this. However, the pole itself does not emit any sound; what you hear is actually a projection of your own heart and imagination. Just like a song from the depths of your memory that might suddenly come to mind on a quiet night.",
+    "name": "Construct Appearance: The Tides",
+    "desc": "An appearance variant for the \"Prime Ice Construct: Ambient Bollard.\"\\nThey say that if you stand near a bollard crafted in this likeness, you can sometimes hear the faint murmur of the tides. Yet, the structure itself makes no sound; the melody belongs entirely to your mind and imagination, just like a song that suddenly echoes in your heart on a quiet night.",
     "rank": 3,
-    "icon": "UI_Icon_Icemake_IcemakeDecorate_04",
+    "icon": "UI_ItemIcon_223305",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_NONE",
     "jump_descs": [],
@@ -103469,7 +103534,7 @@
     "type": ""
   },
   "318197": {
-    "name": "Prepare for Battle with Lantern in Hand",
+    "name": "Lantern Up, Weapons Ready",
     "desc": "",
     "rank": 3,
     "icon": "UI_ItemIcon_223018",
@@ -103497,7 +103562,7 @@
     "type": ""
   },
   "318199": {
-    "name": "Please collect your delivery.",
+    "name": "Collect Your Delivery",
     "desc": "",
     "rank": 3,
     "icon": "UI_ItemIcon_223018",
@@ -103539,7 +103604,7 @@
     "type": ""
   },
   "318202": {
-    "name": "Kuuhenki's Company",
+    "name": "By the Kuuhenki's Side",
     "desc": "",
     "rank": 3,
     "icon": "UI_ItemIcon_223018",
@@ -103553,7 +103618,7 @@
     "type": ""
   },
   "318203": {
-    "name": "Joyful Moments",
+    "name": "Happy Days",
     "desc": "",
     "rank": 3,
     "icon": "UI_ItemIcon_223018",
@@ -103567,7 +103632,7 @@
     "type": ""
   },
   "318204": {
-    "name": "Lampbearer's Vigil",
+    "name": "Keeping Watch by Lantern Light",
     "desc": "",
     "rank": 3,
     "icon": "UI_ItemIcon_223018",
@@ -108023,7 +108088,7 @@
     "type": ""
   },
   "326644": {
-    "name": "Treacherous Surge",
+    "name": "Treacherous Torrent",
     "desc": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
     "rank": 4,
     "icon": "UI_Gcg_CardFace_Modify_Talent_EffigyWater_Platinum",
@@ -108037,7 +108102,7 @@
     "type": ""
   },
   "326645": {
-    "name": "Principle of Heavenly Steps",
+    "name": "Genesis of Starsigns",
     "desc": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
     "rank": 4,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Modao_Mona_Platinum",
@@ -108051,7 +108116,7 @@
     "type": ""
   },
   "326646": {
-    "name": "Pyro Magic",
+    "name": "Sparkborne Magic",
     "desc": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
     "rank": 4,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Modao_Klee_Platinum",
@@ -108065,7 +108130,7 @@
     "type": ""
   },
   "326647": {
-    "name": "Dance of Resonant Wills",
+    "name": "Phantasmal Nocturne",
     "desc": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
     "rank": 4,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Modao_Fischl_Platinum",
@@ -108079,7 +108144,7 @@
     "type": ""
   },
   "326648": {
-    "name": "Wind of Hymn",
+    "name": "Temporal Wind's Eulogy",
     "desc": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
     "rank": 4,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Modao_Venti_Platinum",
@@ -112615,7 +112680,7 @@
     "type": ""
   },
   "329119": {
-    "name": "\"Witch's Homework\"",
+    "name": "Witch's Homework",
     "desc": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
     "rank": 4,
     "icon": "UI_Gcg_CardFace_Event_Event_Modao_Platinum",
@@ -112629,7 +112694,7 @@
     "type": ""
   },
   "329120": {
-    "name": "Gathering",
+    "name": "Feasting in a Shared Toast",
     "desc": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
     "rank": 4,
     "icon": "UI_Gcg_CardFace_Event_Event_XumiFriend_Platinum",
@@ -114660,7 +114725,7 @@
   },
   "330144": {
     "name": "Hydro Hypostasis",
-    "desc": "Cards from the \"Genius Invokation TCG\" tabletop game. They have a tough texture, and the exquisite illustrations on the face of the cards seem to have been printed with some special method.",
+    "desc": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
     "rank": 3,
     "icon": "UI_Gcg_CardFace_Char_Monster_EffigyWater",
     "item_type": "ITEM_MATERIAL",
@@ -116662,7 +116727,7 @@
   },
   "330642": {
     "name": "Adamah's Redemption",
-    "desc": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+    "desc": "Cards from the \"Genius Invokation TCG\" tabletop game. They have a tough texture, and the exquisite illustrations on the face of the cards seem to have been printed with some special method.",
     "rank": 3,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Durin",
     "item_type": "ITEM_MATERIAL",
@@ -116689,7 +116754,7 @@
     "type": ""
   },
   "330644": {
-    "name": "Treacherous Tides",
+    "name": "Treacherous Torrent",
     "desc": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
     "rank": 3,
     "icon": "UI_Gcg_CardFace_Modify_Talent_EffigyWater",
@@ -116703,7 +116768,7 @@
     "type": ""
   },
   "330645": {
-    "name": "Amaterasu's Step",
+    "name": "Genesis of Starsigns",
     "desc": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
     "rank": 3,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Modao_Mona",
@@ -116717,7 +116782,7 @@
     "type": ""
   },
   "330646": {
-    "name": "Pyro Magic",
+    "name": "Sparkborne Magic",
     "desc": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
     "rank": 3,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Modao_Klee",
@@ -116731,7 +116796,7 @@
     "type": ""
   },
   "330647": {
-    "name": "Fantasia of the Evening World",
+    "name": "Phantasmal Nocturne",
     "desc": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
     "rank": 3,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Modao_Fischl",
@@ -116745,7 +116810,7 @@
     "type": ""
   },
   "330648": {
-    "name": "Wind-Swept Verse",
+    "name": "Temporal Wind's Eulogy",
     "desc": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
     "rank": 3,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Modao_Venti",
@@ -121281,8 +121346,8 @@
     "type": ""
   },
   "333119": {
-    "name": "\"Witch's Homework\"",
-    "desc": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+    "name": "Witch's Homework",
+    "desc": "Cards from the \"Genius Invokation TCG\" tabletop game. They have a tough texture, and the exquisite illustrations on the face of the cards seem to have been printed with some special method.",
     "rank": 3,
     "icon": "UI_Gcg_CardFace_Event_Event_Modao",
     "item_type": "ITEM_MATERIAL",
@@ -121295,8 +121360,8 @@
     "type": ""
   },
   "333120": {
-    "name": "Gathering Gourmet",
-    "desc": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+    "name": "Feasting in a Shared Toast",
+    "desc": "Cards from the \"Genius Invokation TCG\" tabletop game. They have a tough texture, and the exquisite illustrations on the face of the cards seem to have been printed with some special method.",
     "rank": 3,
     "icon": "UI_Gcg_CardFace_Event_Event_XumiFriend",
     "item_type": "ITEM_MATERIAL",
@@ -125355,7 +125420,7 @@
     "type": ""
   },
   "334644": {
-    "name": "Treacherous Tides",
+    "name": "Treacherous Torrent",
     "desc": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
     "rank": 4,
     "icon": "UI_Gcg_CardFace_Modify_Talent_EffigyWater_Golden",
@@ -125369,7 +125434,7 @@
     "type": ""
   },
   "334645": {
-    "name": "Heavenly Step of Makoto",
+    "name": "Genesis of Starsigns",
     "desc": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
     "rank": 4,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Modao_Mona_Golden",
@@ -125383,7 +125448,7 @@
     "type": ""
   },
   "334646": {
-    "name": "Pyro Spark",
+    "name": "Sparkborne Magic",
     "desc": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
     "rank": 4,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Modao_Klee_Golden",
@@ -125397,7 +125462,7 @@
     "type": ""
   },
   "334647": {
-    "name": "Phantasm of Night",
+    "name": "Phantasmal Nocturne",
     "desc": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
     "rank": 4,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Modao_Fischl_Golden",
@@ -125411,7 +125476,7 @@
     "type": ""
   },
   "334648": {
-    "name": "Anemo's Grace",
+    "name": "Temporal Wind's Eulogy",
     "desc": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
     "rank": 4,
     "icon": "UI_Gcg_CardFace_Modify_Talent_Modao_Venti_Golden",
@@ -129947,7 +130012,7 @@
     "type": ""
   },
   "337119": {
-    "name": "\"Witch's Homework\"",
+    "name": "Witch's Homework",
     "desc": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
     "rank": 4,
     "icon": "UI_Gcg_CardFace_Event_Event_Modao_Golden",
@@ -129961,7 +130026,7 @@
     "type": ""
   },
   "337120": {
-    "name": "Gathering of Gourmets",
+    "name": "Feasting in a Shared Toast",
     "desc": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
     "rank": 4,
     "icon": "UI_Gcg_CardFace_Event_Event_XumiFriend_Golden",
@@ -134256,6 +134321,20 @@
     "special": "",
     "type": "Furnishing Blueprint"
   },
+  "380484": {
+    "name": "至冬路灯2",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "摆设图纸"
+  },
   "380504": {
     "name": "Efflorescent Illumination",
     "desc": "A detailed step-by-step blueprint for making Efflorescent Illumination.\\nAfter using this item, you can view it in the Creation Screen.",
@@ -134661,6 +134740,34 @@
     "effect": "",
     "special": "",
     "type": "Furnishing Blueprint"
+  },
+  "381126": {
+    "name": "旅馆衣柜-「加大容量」",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "摆设图纸"
+  },
+  "381127": {
+    "name": "立柜",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "摆设图纸"
   },
   "381201": {
     "name": "Two-Tier Library Bookshelf",
@@ -135572,6 +135679,20 @@
     "special": "",
     "type": "Furnishing Blueprint"
   },
+  "381350": {
+    "name": "至冬高脚桌",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "摆设图纸"
+  },
   "381401": {
     "name": "Breeze-Blessed Bed",
     "desc": "A detailed step-by-step blueprint for making a Breeze-Blessed Bed.\\nAfter using this item, you can view it in the Creation Screen.",
@@ -135767,6 +135888,20 @@
     "effect": "",
     "special": "",
     "type": "Furnishing Blueprint"
+  },
+  "381415": {
+    "name": "至冬床",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "摆设图纸"
   },
   "381501": {
     "name": "Pine Reception Counter",
@@ -136369,6 +136504,34 @@
     "effect": "",
     "special": "",
     "type": "Furnishing Blueprint"
+  },
+  "382136": {
+    "name": "至冬长椅",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "摆设图纸"
+  },
+  "382137": {
+    "name": "至冬室内椅",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "摆设图纸"
   },
   "382201": {
     "name": "Northern Stone Hearth",
@@ -137644,6 +137807,34 @@
     "special": "",
     "type": "Furnishing Blueprint"
   },
+  "382325": {
+    "name": "至冬地毯1",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "摆设图纸"
+  },
+  "382326": {
+    "name": "至冬地毯2",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "摆设图纸"
+  },
   "382401": {
     "name": "Vibrant Pot: Born in Flames",
     "desc": "A detailed step-by-step blueprint for making a Vibrant Pot: Born in Flames.\\nAfter using this item, you can view it in the Creation Screen.",
@@ -137727,6 +137918,20 @@
     "effect": "",
     "special": "",
     "type": "Furnishing Blueprint"
+  },
+  "382408": {
+    "name": "至冬室内胡桃夹子",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "摆设图纸"
   },
   "383101": {
     "name": "Trusty Portable Lamp",
@@ -137979,6 +138184,34 @@
     "effect": "",
     "special": "",
     "type": "Furnishing Blueprint"
+  },
+  "383121": {
+    "name": "至冬室内灯1",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "摆设图纸"
+  },
+  "383122": {
+    "name": "至冬室内灯2",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "摆设图纸"
   },
   "383201": {
     "name": "Flower Arrangement: Baby Blue Tranquility",
@@ -138764,6 +138997,34 @@
     "special": "",
     "type": "Furnishing Blueprint"
   },
+  "383399": {
+    "name": "钓鱼家具",
+    "desc": "",
+    "rank": 4,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "摆设图纸"
+  },
+  "383400": {
+    "name": "小火车车模",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "摆设图纸"
+  },
   "383401": {
     "name": "Teahouse Tool: Miniscule Misses Make a Mile",
     "desc": "A detailed step-by-step blueprint for making a Teahouse Tool: Miniscule Misses Make a Mile.\\nAfter using this item, you can view it in the Creation Screen.",
@@ -138988,6 +139249,48 @@
     "special": "",
     "type": "Furnishing Blueprint"
   },
+  "383441": {
+    "name": "至冬茶杯",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "摆设图纸"
+  },
+  "383442": {
+    "name": "至冬室内烛台",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "摆设图纸"
+  },
+  "383443": {
+    "name": "烛台",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "摆设图纸"
+  },
   "383501": {
     "name": "\"Realizations from the Land of Wisdom\"",
     "desc": "A detailed step-by-step blueprint for making a \"Realizations from the Land of Wisdom.\"\\nAfter using this item, you can view it in the Creation Screen.",
@@ -139141,6 +139444,34 @@
     "effect": "",
     "special": "",
     "type": "Furnishing Blueprint"
+  },
+  "383513": {
+    "name": "至冬室内花瓶",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "摆设图纸"
+  },
+  "383514": {
+    "name": "至冬室内花坛",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "摆设图纸"
   },
   "384101": {
     "name": "Landscape Painting: Country Home",
@@ -139701,6 +140032,34 @@
     "effect": "",
     "special": "",
     "type": "Furnishing Blueprint"
+  },
+  "384524": {
+    "name": "至冬室内挂画",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "摆设图纸"
+  },
+  "384525": {
+    "name": "???",
+    "desc": "???",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "摆设图纸"
   },
   "390101": {
     "name": "Straw Hut",
@@ -143509,6 +143868,104 @@
     "effect": "",
     "special": "",
     "type": "Furnishing Blueprint"
+  },
+  "391050": {
+    "name": "乌贼工坊塔吊",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "摆设图纸"
+  },
+  "391051": {
+    "name": "乌贼工坊民居",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "摆设图纸"
+  },
+  "391052": {
+    "name": "雪屋-大",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "摆设图纸"
+  },
+  "391053": {
+    "name": "启程车站-等车台",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "摆设图纸"
+  },
+  "391054": {
+    "name": "高级民居",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "摆设图纸"
+  },
+  "391055": {
+    "name": "高级民居-塔楼",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "摆设图纸"
+  },
+  "391056": {
+    "name": "高级民居2",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "摆设图纸"
   },
   "391101": {
     "name": "Bird and Blossom Design Fountain",
@@ -149194,6 +149651,48 @@
     "special": "",
     "type": "Furnishing Blueprint"
   },
+  "393942": {
+    "name": "雪钻",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "摆设图纸"
+  },
+  "393943": {
+    "name": "冰柜",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "摆设图纸"
+  },
+  "393944": {
+    "name": "雪人",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "摆设图纸"
+  },
   "394101": {
     "name": "Weathered Bamboo Fence",
     "desc": "A detailed step-by-step blueprint for making a Weathered Bamboo Fence.\\nAfter using this item, you can view it in the Creation Screen.",
@@ -149936,6 +150435,34 @@
     "special": "",
     "type": "Furnishing Blueprint"
   },
+  "394224": {
+    "name": "车站长椅",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "摆设图纸"
+  },
+  "394225": {
+    "name": "至冬室外椅",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "摆设图纸"
+  },
   "394301": {
     "name": "Two-Story Hilichurl Sentry Tower",
     "desc": "A detailed step-by-step blueprint for making a Two-Story Hilichurl Sentry Tower.\\nAfter using this item, you can view it in the Creation Screen.",
@@ -150369,6 +150896,20 @@
     "effect": "",
     "special": "",
     "type": "Furnishing Blueprint"
+  },
+  "394334": {
+    "name": "至冬室外桌",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "摆设图纸"
   },
   "394401": {
     "name": "Wine Shop Display Counter: To Your Heart's Content",
@@ -151224,6 +151765,90 @@
     "special": "",
     "type": "Furnishing Blueprint"
   },
+  "394661": {
+    "name": "运输车",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "摆设图纸"
+  },
+  "394662": {
+    "name": "乌贼工坊帐篷",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "摆设图纸"
+  },
+  "394663": {
+    "name": "采冰镇-货车",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "摆设图纸"
+  },
+  "394664": {
+    "name": "小型暖炉",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "摆设图纸"
+  },
+  "394665": {
+    "name": "采冰镇-建材冰",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "摆设图纸"
+  },
+  "394666": {
+    "name": "采冰镇-控制台",
+    "desc": "",
+    "rank": 3,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "",
+    "type": "摆设图纸"
+  },
   "394800": {
     "name": "Sir Capy of the Long Incisors",
     "desc": "A detailed step-by-step blueprint for making a \"Sir Capy of the Long Incisors.\"\\nAfter using this item, you can view it in the Creation Screen.",
@@ -151405,6 +152030,20 @@
     "effect": "",
     "special": "Moon Envoy of Silver Radiance",
     "type": "Furnishing Blueprint"
+  },
+  "394847": {
+    "name": "???",
+    "desc": "???",
+    "rank": 4,
+    "icon": "UI_ItemIcon_Home_Common",
+    "item_type": "ITEM_MATERIAL",
+    "material_type": "MATERIAL_FURNITURE_FORMULA",
+    "jump_descs": [],
+    "source_list": [],
+    "title": "",
+    "effect": "",
+    "special": "???",
+    "type": "摆设图纸"
   },
   "1080001": {
     "name": "Suspicious Rimecurrant Ice Creams",

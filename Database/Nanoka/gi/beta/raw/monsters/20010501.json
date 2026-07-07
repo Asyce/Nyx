@@ -82,6 +82,7 @@
         {},
         {}
       ],
+      "kill_drop_id": 0,
       "prop": [
         {
           "grow_curve": "GROW_CURVE_HP",
@@ -122,6 +123,7 @@
         {},
         {}
       ],
+      "kill_drop_id": 0,
       "prop": [
         {
           "grow_curve": "GROW_CURVE_HP",
@@ -162,6 +164,7 @@
         {},
         {}
       ],
+      "kill_drop_id": 0,
       "prop": [
         {
           "grow_curve": "GROW_CURVE_HP",
@@ -202,6 +205,7 @@
         {},
         {}
       ],
+      "kill_drop_id": 0,
       "prop": [
         {
           "grow_curve": "GROW_CURVE_HP",
@@ -242,6 +246,7 @@
         {},
         {}
       ],
+      "kill_drop_id": 0,
       "prop": [
         {
           "grow_curve": "GROW_CURVE_HP",
@@ -370,6 +375,7 @@
         {},
         {}
       ],
+      "kill_drop_id": 0,
       "prop": [
         {
           "grow_curve": "GROW_CURVE_HP_2",
@@ -410,6 +416,7 @@
         {},
         {}
       ],
+      "kill_drop_id": 0,
       "prop": [
         {
           "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -450,6 +457,7 @@
         {},
         {}
       ],
+      "kill_drop_id": 0,
       "prop": [
         {
           "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",

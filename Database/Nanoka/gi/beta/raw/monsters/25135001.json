@@ -1,11 +1,11 @@
 {
-  "name": "Frostbite Arcane Mage",
-  "desc": "Snegovik, born for love amidst the Cryo and snow.\\nThe females among the Snegovik are called Snegurochka, and most of them are born as Mages capable of freely wielding the power of Cryo and snow. Legend has it that Snegovik were created with incomplete souls, and must fall in love with a human to become Perfect.\\nBut do Snegovik still need love after becoming Perfect? Perhaps the answer is no.\\nThis is perhaps the reason why so many Stories of Snegovik and humans falling in love ultimately end in tragedy.",
+  "name": "Glaciomancer",
+  "desc": "A Snegovik born of love amid the snow and ice.\\nFemale Snegovik are known as Snegurochka, and most are born as mages capable of freely wielding the power of ice and snow. It's said that when Snegovik were first created, their souls were incomplete, and only by falling in love with humans could they make themselves whole.\\nYet once a Snegovik has attained wholeness, does it still need love? Perhaps not.\\nMaybe this is why so many stories of love between Snegovik and human end in tragedy.",
   "icon": "UI_MonsterIcon_Human_Female_Staff_Snegurochka",
   "codex": "BEAST",
-  "title": "Snegovik forged from Frostbite",
+  "title": "Snegovik Created From Ice",
   "special_names": [
-    "Frostbite Arcane Mage"
+    "Glaciomancer"
   ],
   "reward": [
     {
@@ -120,6 +120,7 @@
         {},
         {}
       ],
+      "kill_drop_id": 0,
       "prop": [
         {
           "grow_curve": "GROW_CURVE_HP_2",
@@ -160,6 +161,7 @@
         {},
         {}
       ],
+      "kill_drop_id": 0,
       "prop": [
         {
           "grow_curve": "GROW_CURVE_HP_2",

@@ -18,14 +18,18 @@
           "value": 0.15
         },
         {
-          "prop_type": "FIGHT_PROP_NONE"
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
         },
         {
-          "prop_type": "FIGHT_PROP_NONE"
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
         }
       ],
       "affix_id": 2150020,
       "id": 215002,
+      "level": 0,
+      "open_config": "",
       "param_list": [
         0,
         0,
@@ -42,13 +46,16 @@
     {
       "add_props": [
         {
-          "prop_type": "FIGHT_PROP_NONE"
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
         },
         {
-          "prop_type": "FIGHT_PROP_NONE"
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
         },
         {
-          "prop_type": "FIGHT_PROP_NONE"
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
         }
       ],
       "affix_id": 2150021,
@@ -66,7 +73,7 @@
         0
       ],
       "name": "Viridescent Venerer",
-      "desc": "Increases Swirl and Star Swirl DMG by 60%. Decreases opponent's Elemental RES to the element infused in the Swirl by 40% for 10s."
+      "desc": "Increases Swirl and Stellar Swirl reaction DMG by 60%. Decreases opponent's Elemental RES to the element infused in the Swirl by 40% for 10s."
     }
   ],
   "parts": {

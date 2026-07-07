@@ -1,11 +1,11 @@
 {
-  "name": "Lion Mastiff Guard",
-  "desc": "A Volkodlak of the canine clan that typically appears somewhat lazy.\\nAmong the many different Volkodlak clans, the canine clan tends to have a better reputation. They are loyal, friendly, and mostly docile in nature. However, when someone they have sworn loyalty to or a close friend is in danger, they will strike down those deemed as enemies in a berserk rage.\\nIt is said that in a past war, their clan resisted His Majesty the Tsar to the very end for the sake of their king, and because of this, earned the favor of His Majesty the Tsar.",
+  "name": "Leomastiff Guard",
+  "desc": "A Volkodlak of the canine clans that usually appears somewhat lazy.\\nAmong the many Volkodlak clans, the canine clans have always enjoyed a better reputation. Loyal, friendly, and usually mild-mannered. Though they will turn ferocious when those they have sworn to serve, or friends they know well, are placed in danger, striking down anyone they deem enemies.\\nIt is said that during a war long ago, their clan fought His Majesty the Tsar to the last in defense of their own king, and for this, earned His Majesty's favor.",
   "icon": "UI_MonsterIcon_Volkodlak_Sheepdog",
   "codex": "BEAST",
-  "title": "Volkodlak Thug",
+  "title": "Volkodlak Brute",
   "special_names": [
-    "Lion Mastiff Guard"
+    "Leomastiff Guard"
   ],
   "reward": [
     {

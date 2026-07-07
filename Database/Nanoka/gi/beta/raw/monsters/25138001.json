@@ -1,11 +1,11 @@
 {
-  "name": "Young Segmented Tree",
-  "desc": "Leshy that grow in the forests and wilds.\\nAmong the many fairies of Snezhnaya, the Leshy is an exceptionally unique kind, almost never appearing in cities. Among all fairies, the Leshy is perhaps the most long-lived; few other Changsheng races have witnessed the entire lifespan of a Leshy. However, most people probably cannot even distinguish one Leshy from another.",
+  "name": "Juvenile Tree Segment",
+  "desc": "A Leshy that grows in forests and wilds.\\nAmong the many fae of Snezhnaya, Leshies are a very unusual kind, rarely appearing in cities. They may well be the longest-lived among all fae, and few members of other long-lived races have ever witnessed a Leshy's life from beginning to end. Of course, most people would likely struggle even to distinguish one Leshy from another.",
   "icon": "UI_MonsterIcon_Leshy_Normal_01",
   "codex": "BEAST",
-  "title": "Leshy born in the Spirit Wilds",
+  "title": "Leshy Born of the Mystic Wilds",
   "special_names": [
-    "Ancient Wood Spirit Elder"
+    "Rugged Elder Leshy"
   ],
   "reward": [
     {
@@ -129,6 +129,7 @@
         {},
         {}
       ],
+      "kill_drop_id": 0,
       "prop": [
         {
           "grow_curve": "GROW_CURVE_HP_2",
@@ -169,6 +170,7 @@
         {},
         {}
       ],
+      "kill_drop_id": 0,
       "prop": [
         {
           "grow_curve": "GROW_CURVE_HP_2",
@@ -209,6 +211,7 @@
         {},
         {}
       ],
+      "kill_drop_id": 0,
       "prop": [
         {
           "grow_curve": "GROW_CURVE_HP_2",

@@ -1865,7 +1865,7 @@
     "en": "TPS Traveler",
     "desc": "",
     "ko": "TPS 여행자",
-    "zh": "TPS旅行者",
+    "zh": "旅行者",
     "ja": "旅人"
   },
   "10000135": {
@@ -1878,7 +1878,7 @@
     "en": "TPS Traveler",
     "desc": "",
     "ko": "TPS 여행자",
-    "zh": "TPS旅行者",
+    "zh": "旅行者",
     "ja": "旅人"
   },
   "10000148": {
@@ -2138,7 +2138,10 @@
     "ja": "旅人"
   },
   "10000117-2": {
-    "birth": [],
+    "birth": [
+      0,
+      0
+    ],
     "release": "2025-10-21 00:00:00",
     "icon": "UI_AvatarIcon_MannequinBoy",
     "rank": "QUALITY_ORANGE_SP",
@@ -2151,7 +2154,10 @@
     "ja": "ドール（男）"
   },
   "10000117-3": {
-    "birth": [],
+    "birth": [
+      0,
+      0
+    ],
     "release": "2025-10-21 00:00:00",
     "icon": "UI_AvatarIcon_MannequinBoy",
     "rank": "QUALITY_ORANGE_SP",
@@ -2164,7 +2170,10 @@
     "ja": "ドール（男）"
   },
   "10000117-4": {
-    "birth": [],
+    "birth": [
+      0,
+      0
+    ],
     "release": "2025-10-21 00:00:00",
     "icon": "UI_AvatarIcon_MannequinBoy",
     "rank": "QUALITY_ORANGE_SP",
@@ -2177,7 +2186,10 @@
     "ja": "ドール（男）"
   },
   "10000117-5": {
-    "birth": [],
+    "birth": [
+      0,
+      0
+    ],
     "release": "2025-10-21 00:00:00",
     "icon": "UI_AvatarIcon_MannequinBoy",
     "rank": "QUALITY_ORANGE_SP",
@@ -2190,7 +2202,10 @@
     "ja": "ドール（男）"
   },
   "10000117-6": {
-    "birth": [],
+    "birth": [
+      0,
+      0
+    ],
     "release": "2025-10-21 00:00:00",
     "icon": "UI_AvatarIcon_MannequinBoy",
     "rank": "QUALITY_ORANGE_SP",
@@ -2203,7 +2218,10 @@
     "ja": "ドール（男）"
   },
   "10000117-7": {
-    "birth": [],
+    "birth": [
+      0,
+      0
+    ],
     "release": "2025-10-21 00:00:00",
     "icon": "UI_AvatarIcon_MannequinBoy",
     "rank": "QUALITY_ORANGE_SP",
@@ -2216,7 +2234,10 @@
     "ja": "ドール（男）"
   },
   "10000117-8": {
-    "birth": [],
+    "birth": [
+      0,
+      0
+    ],
     "release": "2025-10-21 00:00:00",
     "icon": "UI_AvatarIcon_MannequinBoy",
     "rank": "QUALITY_ORANGE_SP",
@@ -2229,7 +2250,10 @@
     "ja": "ドール（男）"
   },
   "10000118-2": {
-    "birth": [],
+    "birth": [
+      0,
+      0
+    ],
     "release": "2025-10-21 00:00:00",
     "icon": "UI_AvatarIcon_MannequinGirl",
     "rank": "QUALITY_ORANGE_SP",
@@ -2242,7 +2266,10 @@
     "ja": "ドール（女）"
   },
   "10000118-3": {
-    "birth": [],
+    "birth": [
+      0,
+      0
+    ],
     "release": "2025-10-21 00:00:00",
     "icon": "UI_AvatarIcon_MannequinGirl",
     "rank": "QUALITY_ORANGE_SP",
@@ -2255,7 +2282,10 @@
     "ja": "ドール（女）"
   },
   "10000118-4": {
-    "birth": [],
+    "birth": [
+      0,
+      0
+    ],
     "release": "2025-10-21 00:00:00",
     "icon": "UI_AvatarIcon_MannequinGirl",
     "rank": "QUALITY_ORANGE_SP",
@@ -2268,7 +2298,10 @@
     "ja": "ドール（女）"
   },
   "10000118-5": {
-    "birth": [],
+    "birth": [
+      0,
+      0
+    ],
     "release": "2025-10-21 00:00:00",
     "icon": "UI_AvatarIcon_MannequinGirl",
     "rank": "QUALITY_ORANGE_SP",
@@ -2281,7 +2314,10 @@
     "ja": "ドール（女）"
   },
   "10000118-6": {
-    "birth": [],
+    "birth": [
+      0,
+      0
+    ],
     "release": "2025-10-21 00:00:00",
     "icon": "UI_AvatarIcon_MannequinGirl",
     "rank": "QUALITY_ORANGE_SP",
@@ -2294,7 +2330,10 @@
     "ja": "ドール（女）"
   },
   "10000118-7": {
-    "birth": [],
+    "birth": [
+      0,
+      0
+    ],
     "release": "2025-10-21 00:00:00",
     "icon": "UI_AvatarIcon_MannequinGirl",
     "rank": "QUALITY_ORANGE_SP",
@@ -2307,7 +2346,10 @@
     "ja": "ドール（女）"
   },
   "10000118-8": {
-    "birth": [],
+    "birth": [
+      0,
+      0
+    ],
     "release": "2025-10-21 00:00:00",
     "icon": "UI_AvatarIcon_MannequinGirl",
     "rank": "QUALITY_ORANGE_SP",

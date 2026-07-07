@@ -343,7 +343,7 @@
   "refinement": {
     "1": {
       "name": "Snow Swan's Finale",
-      "desc": "The prelude plays when the equipping character deals Elemental Skill DMG to the opponent, giving the character the \"Prelude\" effect, which increases their ATK by <color=#99FFFFFF>8%</color> for 8s. This effect can stack once every 0.1s, max 3 stacks. When the Prelude stack count reaches 3, the performance will reach its climax, giving the equipping character the \"Closing\" effect, increasing CRIT DMG dealt with Stellar reactions by <color=#99FFFFFF>40%</color>. During this time, the equipping character also gains <color=#99FFFFFF>4</color> Elemental Energy whenever they trigger a Stellar reaction or deal Stellar reaction DMG. This can trigger once every 3.5s, and can still trigger even if the equipping character is not on the field.",
+      "desc": "When an opponent is hit with an Elemental Skill, the equipping character gains the \"Prelude\" effect, which increases their ATK by <color=#99FFFFFF>8%</color> for 8s. This effect can stack once every 0.1s, max 3 stacks. When the Prelude stack count reaches 3, the performance will reach its climax, giving the equipping character the \"Closing\" effect, increasing CRIT DMG dealt with Stellar reactions by <color=#99FFFFFF>40%</color>. During this time, the equipping character also gains <color=#99FFFFFF>4</color> Elemental Energy whenever they trigger a Stellar reaction or deal Stellar reaction DMG. This can trigger once every 3.5s, and can still trigger even if the equipping character is not on the field.",
       "param_list": [
         4,
         0.08,
@@ -357,7 +357,7 @@
     },
     "2": {
       "name": "Snow Swan's Finale",
-      "desc": "The prelude plays when the equipping character deals Elemental Skill DMG to the opponent, giving the character the \"Prelude\" effect, which increases their ATK by <color=#99FFFFFF>10%</color> for 8s. This effect can stack once every 0.1s, max 3 stacks. When the Prelude stack count reaches 3, the performance will reach its climax, giving the equipping character the \"Closing\" effect, increasing CRIT DMG dealt with Stellar reactions by <color=#99FFFFFF>50%</color>. During this time, the equipping character also gains <color=#99FFFFFF>5</color> Elemental Energy whenever they trigger a Stellar reaction or deal Stellar reaction DMG. This can trigger once every 3.5s, and can still trigger even if the equipping character is not on the field.",
+      "desc": "When an opponent is hit with an Elemental Skill, the equipping character gains the \"Prelude\" effect, which increases their ATK by <color=#99FFFFFF>10%</color> for 8s. This effect can stack once every 0.1s, max 3 stacks. When the Prelude stack count reaches 3, the performance will reach its climax, giving the equipping character the \"Closing\" effect, increasing CRIT DMG dealt with Stellar reactions by <color=#99FFFFFF>50%</color>. During this time, the equipping character also gains <color=#99FFFFFF>5</color> Elemental Energy whenever they trigger a Stellar reaction or deal Stellar reaction DMG. This can trigger once every 3.5s, and can still trigger even if the equipping character is not on the field.",
       "param_list": [
         5,
         0.1,
@@ -371,7 +371,7 @@
     },
     "3": {
       "name": "Snow Swan's Finale",
-      "desc": "The prelude plays when the equipping character deals Elemental Skill DMG to the opponent, giving the character the \"Prelude\" effect, which increases their ATK by <color=#99FFFFFF>12%</color> for 8s. This effect can stack once every 0.1s, max 3 stacks. When the Prelude stack count reaches 3, the performance will reach its climax, giving the equipping character the \"Closing\" effect, increasing CRIT DMG dealt with Stellar reactions by <color=#99FFFFFF>60%</color>. During this time, the equipping character also gains <color=#99FFFFFF>6</color> Elemental Energy whenever they trigger a Stellar reaction or deal Stellar reaction DMG. This can trigger once every 3.5s, and can still trigger even if the equipping character is not on the field.",
+      "desc": "When an opponent is hit with an Elemental Skill, the equipping character gains the \"Prelude\" effect, which increases their ATK by <color=#99FFFFFF>12%</color> for 8s. This effect can stack once every 0.1s, max 3 stacks. When the Prelude stack count reaches 3, the performance will reach its climax, giving the equipping character the \"Closing\" effect, increasing CRIT DMG dealt with Stellar reactions by <color=#99FFFFFF>60%</color>. During this time, the equipping character also gains <color=#99FFFFFF>6</color> Elemental Energy whenever they trigger a Stellar reaction or deal Stellar reaction DMG. This can trigger once every 3.5s, and can still trigger even if the equipping character is not on the field.",
       "param_list": [
         6,
         0.12,
@@ -385,7 +385,7 @@
     },
     "4": {
       "name": "Snow Swan's Finale",
-      "desc": "The prelude plays when the equipping character deals Elemental Skill DMG to the opponent, giving the character the \"Prelude\" effect, which increases their ATK by <color=#99FFFFFF>14%</color> for 8s. This effect can stack once every 0.1s, max 3 stacks. When the Prelude stack count reaches 3, the performance will reach its climax, giving the equipping character the \"Closing\" effect, increasing CRIT DMG dealt with Stellar reactions by <color=#99FFFFFF>70%</color>. During this time, the equipping character also gains <color=#99FFFFFF>7</color> Elemental Energy whenever they trigger a Stellar reaction or deal Stellar reaction DMG. This can trigger once every 3.5s, and can still trigger even if the equipping character is not on the field.",
+      "desc": "When an opponent is hit with an Elemental Skill, the equipping character gains the \"Prelude\" effect, which increases their ATK by <color=#99FFFFFF>14%</color> for 8s. This effect can stack once every 0.1s, max 3 stacks. When the Prelude stack count reaches 3, the performance will reach its climax, giving the equipping character the \"Closing\" effect, increasing CRIT DMG dealt with Stellar reactions by <color=#99FFFFFF>70%</color>. During this time, the equipping character also gains <color=#99FFFFFF>7</color> Elemental Energy whenever they trigger a Stellar reaction or deal Stellar reaction DMG. This can trigger once every 3.5s, and can still trigger even if the equipping character is not on the field.",
       "param_list": [
         7,
         0.14,
@@ -399,7 +399,7 @@
     },
     "5": {
       "name": "Snow Swan's Finale",
-      "desc": "The prelude plays when the equipping character deals Elemental Skill DMG to the opponent, giving the character the \"Prelude\" effect, which increases their ATK by <color=#99FFFFFF>16%</color> for 8s. This effect can stack once every 0.1s, max 3 stacks. When the Prelude stack count reaches 3, the performance will reach its climax, giving the equipping character the \"Closing\" effect, increasing CRIT DMG dealt with Stellar reactions by <color=#99FFFFFF>80%</color>. During this time, the equipping character also gains <color=#99FFFFFF>8</color> Elemental Energy whenever they trigger a Stellar reaction or deal Stellar reaction DMG. This can trigger once every 3.5s, and can still trigger even if the equipping character is not on the field.",
+      "desc": "When an opponent is hit with an Elemental Skill, the equipping character gains the \"Prelude\" effect, which increases their ATK by <color=#99FFFFFF>16%</color> for 8s. This effect can stack once every 0.1s, max 3 stacks. When the Prelude stack count reaches 3, the performance will reach its climax, giving the equipping character the \"Closing\" effect, increasing CRIT DMG dealt with Stellar reactions by <color=#99FFFFFF>80%</color>. During this time, the equipping character also gains <color=#99FFFFFF>8</color> Elemental Energy whenever they trigger a Stellar reaction or deal Stellar reaction DMG. This can trigger once every 3.5s, and can still trigger even if the equipping character is not on the field.",
       "param_list": [
         8,
         0.16,
@@ -416,19 +416,19 @@
     "1": {
       "mats": [
         {
-          "name": "Deliberation of the Cellar Nectar",
+          "name": "Measured Pour of the Cellared Spiritual Nectar",
           "id": 114089,
           "count": 5,
           "rank": 2
         },
         {
-          "name": "Aether-Life Root",
+          "name": "Hollow Root of Life",
           "id": 112155,
           "count": 5,
           "rank": 2
         },
         {
-          "name": "Chimera",
+          "name": "Chimeric Core",
           "id": 112149,
           "count": 3,
           "rank": 1
@@ -439,19 +439,19 @@
     "2": {
       "mats": [
         {
-          "name": "Drunkard's Spirit of the Cellar",
+          "name": "Intoxication of the Cellared Spiritual Nectar",
           "id": 114090,
           "count": 5,
           "rank": 3
         },
         {
-          "name": "Aether-Life Root",
+          "name": "Hollow Root of Life",
           "id": 112155,
           "count": 18,
           "rank": 2
         },
         {
-          "name": "Chimera",
+          "name": "Chimeric Core",
           "id": 112149,
           "count": 12,
           "rank": 1
@@ -462,19 +462,19 @@
     "3": {
       "mats": [
         {
-          "name": "Drunkard's Spirit of the Cellar",
+          "name": "Intoxication of the Cellared Spiritual Nectar",
           "id": 114090,
           "count": 9,
           "rank": 3
         },
         {
-          "name": "Crystalline Sprout",
+          "name": "Sprout Node of Life",
           "id": 112156,
           "count": 9,
           "rank": 3
         },
         {
-          "name": "Symbiotic Chimera Cell",
+          "name": "Symbiotic Chimeric Nucleus",
           "id": 112150,
           "count": 9,
           "rank": 2
@@ -485,19 +485,19 @@
     "4": {
       "mats": [
         {
-          "name": "Exhilaration of the Cellar Elixir",
+          "name": "Exhilaration of the Cellared Spiritual Nectar",
           "id": 114091,
           "count": 5,
           "rank": 4
         },
         {
-          "name": "Crystalline Sprout",
+          "name": "Sprout Node of Life",
           "id": 112156,
           "count": 18,
           "rank": 3
         },
         {
-          "name": "Symbiotic Chimera Cell",
+          "name": "Symbiotic Chimeric Nucleus",
           "id": 112150,
           "count": 14,
           "rank": 2
@@ -508,19 +508,19 @@
     "5": {
       "mats": [
         {
-          "name": "Exhilaration of the Cellar Elixir",
+          "name": "Exhilaration of the Cellared Spiritual Nectar",
           "id": 114091,
           "count": 9,
           "rank": 4
         },
         {
-          "name": "Everliving Branch of the Heart",
+          "name": "Coiled Core of Life",
           "id": 112157,
           "count": 14,
           "rank": 4
         },
         {
-          "name": "Primordial Chimera",
+          "name": "Genesis Chimeric Nexus",
           "id": 112151,
           "count": 9,
           "rank": 3
@@ -531,19 +531,19 @@
     "6": {
       "mats": [
         {
-          "name": "Libation of the Cellar-Lord's Whim",
+          "name": "Revelry of the Cellared Spiritual Nectar",
           "id": 114092,
           "count": 6,
           "rank": 5
         },
         {
-          "name": "Everliving Branch of the Heart",
+          "name": "Coiled Core of Life",
           "id": 112157,
           "count": 27,
           "rank": 4
         },
         {
-          "name": "Primordial Chimera",
+          "name": "Genesis Chimeric Nexus",
           "id": 112151,
           "count": 18,
           "rank": 3

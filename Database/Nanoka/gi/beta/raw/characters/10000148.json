@@ -10,7 +10,7 @@
     "vision": "Electro",
     "vision_special_type_before": "",
     "vision_special_type_after": "",
-    "constellation": "Canes Venatici",
+    "constellation": "Canis Borzoides",
     "region": "ASSOC_TYPE_SNEZHNAYA",
     "title": "???",
     "native": "???",
@@ -907,7 +907,7 @@
     {
       "id": 11481,
       "name": "Skirmishing Spear",
-      "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 consecutive spear strikes, and applies the {LINK#N11500004}<color=#FFD780FF>Hunter's Mark</color>{/LINK} to the last opponent hit.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to perform a spinning attack.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 consecutive spear strikes, and applies the {LINK#N11500004}<color=#FFD780FF>Hunter's Mark</color>{/LINK} to the opponent hit by the final strike.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to perform a spinning attack.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "promote": {
         "0": {
           "level": 1,
@@ -1634,7 +1634,7 @@
     {
       "id": 11482,
       "name": "Thunderbolt Ambush",
-      "desc": "Follows her hunter's instincts. Tap or hold to produce different effects as well as apply to the opponent the {LINK#N11500004}<color=#FFD780FF>Hunter's Mark</color>{/LINK} effect.\\n\\n<color=#FFD780FF>Tapping</color>\\nFires at opponents in front of her, dealing <color=#FFACFFFF>AoE Electro DMG</color>.\\n\\n<color=#FFD780FF>Holding</color>\\nGoes into aiming mode, then targets opponents within a certain area in front of her. Alyosha's Interruption RES is enhanced when in this mode.\\nAt the end of the button hold, she deals <color=#FFACFFFF>Electro DMG</color> to the targeted opponents.\\n\\n<i>The reckless hunter once reached for the spear's edge, and it was only after they survived a lesson paid in blood that they came to understand the harsh truths of survival on the frozen plains.</i>",
+      "desc": "Follows his hunter's instincts. Tap or hold to produce different effects as well as apply to the opponent the {LINK#N11500004}<color=#FFD780FF>Hunter's Mark</color>{/LINK} effect.\\n\\n<color=#FFD780FF>Tapping</color>\\nFires at opponents in front of him, dealing <color=#FFACFFFF>AoE Electro DMG</color>.\\n\\n<color=#FFD780FF>Holding</color>\\nGoes into aiming mode, then targets opponents within a certain area in front of him. Alyosha's Interruption RES is enhanced when in this mode.\\nAt the end of the button hold, he deals <color=#FFACFFFF>Electro DMG</color> to the targeted opponents.\\n\\n<i>The reckless hunter once reached for the spear's edge, and it was only after they survived a lesson paid in blood that they came to understand the harsh truths of survival on the frozen plains.</i>",
       "promote": {
         "0": {
           "level": 1,
@@ -1644,7 +1644,7 @@
             "Hold DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Hunter's Mark Duration|{param4:F1}s",
-            "Hunter's Precision ATK Bonus|{param5:P}",
+            "Hunter's Precision ATK Bonus|{param5:F1P}",
             "Hunter's Precision Duration|{param6:F1}s",
             "",
             "",
@@ -1692,7 +1692,7 @@
             "Hold DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Hunter's Mark Duration|{param4:F1}s",
-            "Hunter's Precision ATK Bonus|{param5:P}",
+            "Hunter's Precision ATK Bonus|{param5:F1P}",
             "Hunter's Precision Duration|{param6:F1}s",
             "",
             "",
@@ -1740,7 +1740,7 @@
             "Hold DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Hunter's Mark Duration|{param4:F1}s",
-            "Hunter's Precision ATK Bonus|{param5:P}",
+            "Hunter's Precision ATK Bonus|{param5:F1P}",
             "Hunter's Precision Duration|{param6:F1}s",
             "",
             "",
@@ -1788,7 +1788,7 @@
             "Hold DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Hunter's Mark Duration|{param4:F1}s",
-            "Hunter's Precision ATK Bonus|{param5:P}",
+            "Hunter's Precision ATK Bonus|{param5:F1P}",
             "Hunter's Precision Duration|{param6:F1}s",
             "",
             "",
@@ -1836,7 +1836,7 @@
             "Hold DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Hunter's Mark Duration|{param4:F1}s",
-            "Hunter's Precision ATK Bonus|{param5:P}",
+            "Hunter's Precision ATK Bonus|{param5:F1P}",
             "Hunter's Precision Duration|{param6:F1}s",
             "",
             "",
@@ -1884,7 +1884,7 @@
             "Hold DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Hunter's Mark Duration|{param4:F1}s",
-            "Hunter's Precision ATK Bonus|{param5:P}",
+            "Hunter's Precision ATK Bonus|{param5:F1P}",
             "Hunter's Precision Duration|{param6:F1}s",
             "",
             "",
@@ -1932,7 +1932,7 @@
             "Hold DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Hunter's Mark Duration|{param4:F1}s",
-            "Hunter's Precision ATK Bonus|{param5:P}",
+            "Hunter's Precision ATK Bonus|{param5:F1P}",
             "Hunter's Precision Duration|{param6:F1}s",
             "",
             "",
@@ -1980,7 +1980,7 @@
             "Hold DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Hunter's Mark Duration|{param4:F1}s",
-            "Hunter's Precision ATK Bonus|{param5:P}",
+            "Hunter's Precision ATK Bonus|{param5:F1P}",
             "Hunter's Precision Duration|{param6:F1}s",
             "",
             "",
@@ -2028,7 +2028,7 @@
             "Hold DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Hunter's Mark Duration|{param4:F1}s",
-            "Hunter's Precision ATK Bonus|{param5:P}",
+            "Hunter's Precision ATK Bonus|{param5:F1P}",
             "Hunter's Precision Duration|{param6:F1}s",
             "",
             "",
@@ -2076,7 +2076,7 @@
             "Hold DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Hunter's Mark Duration|{param4:F1}s",
-            "Hunter's Precision ATK Bonus|{param5:P}",
+            "Hunter's Precision ATK Bonus|{param5:F1P}",
             "Hunter's Precision Duration|{param6:F1}s",
             "",
             "",
@@ -2124,7 +2124,7 @@
             "Hold DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Hunter's Mark Duration|{param4:F1}s",
-            "Hunter's Precision ATK Bonus|{param5:P}",
+            "Hunter's Precision ATK Bonus|{param5:F1P}",
             "Hunter's Precision Duration|{param6:F1}s",
             "",
             "",
@@ -2172,7 +2172,7 @@
             "Hold DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Hunter's Mark Duration|{param4:F1}s",
-            "Hunter's Precision ATK Bonus|{param5:P}",
+            "Hunter's Precision ATK Bonus|{param5:F1P}",
             "Hunter's Precision Duration|{param6:F1}s",
             "",
             "",
@@ -2220,7 +2220,7 @@
             "Hold DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Hunter's Mark Duration|{param4:F1}s",
-            "Hunter's Precision ATK Bonus|{param5:P}",
+            "Hunter's Precision ATK Bonus|{param5:F1P}",
             "Hunter's Precision Duration|{param6:F1}s",
             "",
             "",
@@ -2268,7 +2268,7 @@
             "Hold DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Hunter's Mark Duration|{param4:F1}s",
-            "Hunter's Precision ATK Bonus|{param5:P}",
+            "Hunter's Precision ATK Bonus|{param5:F1P}",
             "Hunter's Precision Duration|{param6:F1}s",
             "",
             "",
@@ -2316,7 +2316,7 @@
             "Hold DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Hunter's Mark Duration|{param4:F1}s",
-            "Hunter's Precision ATK Bonus|{param5:P}",
+            "Hunter's Precision ATK Bonus|{param5:F1P}",
             "Hunter's Precision Duration|{param6:F1}s",
             "",
             "",
@@ -2361,7 +2361,7 @@
     {
       "id": 11485,
       "name": "Hunter's Advance",
-      "desc": "Summons her trusted companion {LINK#N11500005}<color=#FFD780FF>Tugarin</color>{/LINK} to fight alongside her on the field. This also turns an area in front of her into a <color=#FFD780FF>Fulgurite Hunting Field</color> for a short time.\\n\\n<color=#FFD780FF>Fulgurite Hunting Field</color>\\n· Continuously taunts nearby opponents to incite them to attack.\\n· Every 2s, deals an instance of <color=#FFACFFFF>AoE Electro DMG</color> to any opponent that has wandered into the field.\\n\\n<i>Wait. Keep waiting until the impatience fades. That's when the red-bellied plover shall sweep across the birch grove and present itself before one's arrow.</i>",
+      "desc": "Summons his trusted companion {LINK#N11500005}<color=#FFD780FF>Tugarin</color>{/LINK} to fight alongside him on the field. This also turns an area in front of him into a <color=#FFD780FF>Fulgurite Hunting Field</color> for a short time.\\n\\n<color=#FFD780FF>Fulgurite Hunting Field</color>\\n· Continuously taunts nearby opponents to incite them to attack.\\n· Every 2s, deals an instance of <color=#FFACFFFF>AoE Electro DMG</color> to any opponent that has wandered into the field.\\n\\n<i>Wait. Keep waiting until the impatience fades. That's when the red-bellied plover shall sweep across the birch grove and present itself before one's arrow.</i>",
       "promote": {
         "0": {
           "level": 1,
@@ -3119,7 +3119,7 @@
     {
       "id": 1482201,
       "name": "Farewell, Winter Wheat",
-      "desc": "Increases the DMG Alyosha deals with her Elemental Skill and Elemental Burst by 0.35% for every 1% of her Energy Recharge. Up to a 70% increase can be obtained in this way.",
+      "desc": "Increases the DMG Alyosha deals with his Elemental Skill and Elemental Burst by 0.35% for every 1% of his Energy Recharge. Up to a 70% increase can be obtained in this way.",
       "icon": "UI_Talent_S_Alyosha_06",
       "unlock": 4,
       "param_list": [
@@ -3316,11 +3316,11 @@
             "name": "Flockingweed",
             "id": 101276,
             "count": 3,
-            "rank": 1
+            "rank": 0
           },
           {
-            "name": "Phantasmagorical Dust",
-            "id": 112146,
+            "name": "Chimeric Core",
+            "id": 112149,
             "count": 3,
             "rank": 1
           }
@@ -3336,7 +3336,7 @@
             "rank": 3
           },
           {
-            "name": "Broken Tail of the Aether-Drifter",
+            "name": "Severed Tail of the Sky-Roamer",
             "id": 113091,
             "count": 2,
             "rank": 4
@@ -3345,11 +3345,11 @@
             "name": "Flockingweed",
             "id": 101276,
             "count": 10,
-            "rank": 1
+            "rank": 0
           },
           {
-            "name": "Phantasmagorical Dust",
-            "id": 112146,
+            "name": "Chimeric Core",
+            "id": 112149,
             "count": 15,
             "rank": 1
           }
@@ -3365,7 +3365,7 @@
             "rank": 3
           },
           {
-            "name": "Broken Tail of the Aether-Drifter",
+            "name": "Severed Tail of the Sky-Roamer",
             "id": 113091,
             "count": 4,
             "rank": 4
@@ -3374,11 +3374,11 @@
             "name": "Flockingweed",
             "id": 101276,
             "count": 20,
-            "rank": 1
+            "rank": 0
           },
           {
-            "name": "Phantasm Crystal",
-            "id": 112147,
+            "name": "Symbiotic Chimeric Nucleus",
+            "id": 112150,
             "count": 12,
             "rank": 2
           }
@@ -3394,7 +3394,7 @@
             "rank": 4
           },
           {
-            "name": "Broken Tail of the Aether-Drifter",
+            "name": "Severed Tail of the Sky-Roamer",
             "id": 113091,
             "count": 8,
             "rank": 4
@@ -3403,11 +3403,11 @@
             "name": "Flockingweed",
             "id": 101276,
             "count": 30,
-            "rank": 1
+            "rank": 0
           },
           {
-            "name": "Phantasm Crystal",
-            "id": 112147,
+            "name": "Symbiotic Chimeric Nucleus",
+            "id": 112150,
             "count": 18,
             "rank": 2
           }
@@ -3423,7 +3423,7 @@
             "rank": 4
           },
           {
-            "name": "Broken Tail of the Aether-Drifter",
+            "name": "Severed Tail of the Sky-Roamer",
             "id": 113091,
             "count": 12,
             "rank": 4
@@ -3432,11 +3432,11 @@
             "name": "Flockingweed",
             "id": 101276,
             "count": 45,
-            "rank": 1
+            "rank": 0
           },
           {
-            "name": "Dreamy Crystal Koku",
-            "id": 112148,
+            "name": "Genesis Chimeric Nexus",
+            "id": 112151,
             "count": 12,
             "rank": 3
           }
@@ -3452,7 +3452,7 @@
             "rank": 5
           },
           {
-            "name": "Broken Tail of the Aether-Drifter",
+            "name": "Severed Tail of the Sky-Roamer",
             "id": 113091,
             "count": 20,
             "rank": 4
@@ -3461,11 +3461,11 @@
             "name": "Flockingweed",
             "id": 101276,
             "count": 60,
-            "rank": 1
+            "rank": 0
           },
           {
-            "name": "Dreamy Crystal Koku",
-            "id": 112148,
+            "name": "Genesis Chimeric Nexus",
+            "id": 112151,
             "count": 24,
             "rank": 3
           }
@@ -3478,14 +3478,14 @@
         {
           "mats": [
             {
-              "name": "Teachings of Glory",
-              "id": 104371,
+              "name": "Teachings of Fortitude",
+              "id": 104368,
               "count": 3,
               "rank": 2
             },
             {
-              "name": "Phantasmagorical Dust",
-              "id": 112146,
+              "name": "Chimeric Core",
+              "id": 112149,
               "count": 6,
               "rank": 1
             }
@@ -3495,14 +3495,14 @@
         {
           "mats": [
             {
-              "name": "Guide to \"Prosperity\"",
-              "id": 104372,
+              "name": "Guide to Fortitude",
+              "id": 104369,
               "count": 2,
               "rank": 3
             },
             {
-              "name": "Phantasm Crystal",
-              "id": 112147,
+              "name": "Symbiotic Chimeric Nucleus",
+              "id": 112150,
               "count": 3,
               "rank": 2
             }
@@ -3512,14 +3512,14 @@
         {
           "mats": [
             {
-              "name": "Guide to \"Prosperity\"",
-              "id": 104372,
+              "name": "Guide to Fortitude",
+              "id": 104369,
               "count": 4,
               "rank": 3
             },
             {
-              "name": "Phantasm Crystal",
-              "id": 112147,
+              "name": "Symbiotic Chimeric Nucleus",
+              "id": 112150,
               "count": 4,
               "rank": 2
             }
@@ -3529,14 +3529,14 @@
         {
           "mats": [
             {
-              "name": "Guide to \"Prosperity\"",
-              "id": 104372,
+              "name": "Guide to Fortitude",
+              "id": 104369,
               "count": 6,
               "rank": 3
             },
             {
-              "name": "Phantasm Crystal",
-              "id": 112147,
+              "name": "Symbiotic Chimeric Nucleus",
+              "id": 112150,
               "count": 6,
               "rank": 2
             }
@@ -3546,14 +3546,14 @@
         {
           "mats": [
             {
-              "name": "Guide to \"Prosperity\"",
-              "id": 104372,
+              "name": "Guide to Fortitude",
+              "id": 104369,
               "count": 9,
               "rank": 3
             },
             {
-              "name": "Phantasm Crystal",
-              "id": 112147,
+              "name": "Symbiotic Chimeric Nucleus",
+              "id": 112150,
               "count": 9,
               "rank": 2
             }
@@ -3563,14 +3563,14 @@
         {
           "mats": [
             {
-              "name": "Philosophies of Glory",
-              "id": 104373,
+              "name": "Philosophies of Fortitude",
+              "id": 104370,
               "count": 4,
               "rank": 4
             },
             {
-              "name": "Dreamy Crystal Koku",
-              "id": 112148,
+              "name": "Genesis Chimeric Nexus",
+              "id": 112151,
               "count": 4,
               "rank": 3
             },
@@ -3586,14 +3586,14 @@
         {
           "mats": [
             {
-              "name": "Philosophies of Glory",
-              "id": 104373,
+              "name": "Philosophies of Fortitude",
+              "id": 104370,
               "count": 6,
               "rank": 4
             },
             {
-              "name": "Dreamy Crystal Koku",
-              "id": 112148,
+              "name": "Genesis Chimeric Nexus",
+              "id": 112151,
               "count": 6,
               "rank": 3
             },
@@ -3609,14 +3609,14 @@
         {
           "mats": [
             {
-              "name": "Philosophies of Glory",
-              "id": 104373,
+              "name": "Philosophies of Fortitude",
+              "id": 104370,
               "count": 12,
               "rank": 4
             },
             {
-              "name": "Dreamy Crystal Koku",
-              "id": 112148,
+              "name": "Genesis Chimeric Nexus",
+              "id": 112151,
               "count": 9,
               "rank": 3
             },
@@ -3632,14 +3632,14 @@
         {
           "mats": [
             {
-              "name": "Philosophies of Glory",
-              "id": 104373,
+              "name": "Philosophies of Fortitude",
+              "id": 104370,
               "count": 16,
               "rank": 4
             },
             {
-              "name": "Dreamy Crystal Koku",
-              "id": 112148,
+              "name": "Genesis Chimeric Nexus",
+              "id": 112151,
               "count": 12,
               "rank": 3
             },
@@ -3663,14 +3663,14 @@
         {
           "mats": [
             {
-              "name": "Teachings of Glory",
-              "id": 104371,
+              "name": "Teachings of Fortitude",
+              "id": 104368,
               "count": 3,
               "rank": 2
             },
             {
-              "name": "Phantasmagorical Dust",
-              "id": 112146,
+              "name": "Chimeric Core",
+              "id": 112149,
               "count": 6,
               "rank": 1
             }
@@ -3680,14 +3680,14 @@
         {
           "mats": [
             {
-              "name": "Guide to \"Prosperity\"",
-              "id": 104372,
+              "name": "Guide to Fortitude",
+              "id": 104369,
               "count": 2,
               "rank": 3
             },
             {
-              "name": "Phantasm Crystal",
-              "id": 112147,
+              "name": "Symbiotic Chimeric Nucleus",
+              "id": 112150,
               "count": 3,
               "rank": 2
             }
@@ -3697,14 +3697,14 @@
         {
           "mats": [
             {
-              "name": "Guide to \"Prosperity\"",
-              "id": 104372,
+              "name": "Guide to Fortitude",
+              "id": 104369,
               "count": 4,
               "rank": 3
             },
             {
-              "name": "Phantasm Crystal",
-              "id": 112147,
+              "name": "Symbiotic Chimeric Nucleus",
+              "id": 112150,
               "count": 4,
               "rank": 2
             }
@@ -3714,14 +3714,14 @@
         {
           "mats": [
             {
-              "name": "Guide to \"Prosperity\"",
-              "id": 104372,
+              "name": "Guide to Fortitude",
+              "id": 104369,
               "count": 6,
               "rank": 3
             },
             {
-              "name": "Phantasm Crystal",
-              "id": 112147,
+              "name": "Symbiotic Chimeric Nucleus",
+              "id": 112150,
               "count": 6,
               "rank": 2
             }
@@ -3731,14 +3731,14 @@
         {
           "mats": [
             {
-              "name": "Guide to \"Prosperity\"",
-              "id": 104372,
+              "name": "Guide to Fortitude",
+              "id": 104369,
               "count": 9,
               "rank": 3
             },
             {
-              "name": "Phantasm Crystal",
-              "id": 112147,
+              "name": "Symbiotic Chimeric Nucleus",
+              "id": 112150,
               "count": 9,
               "rank": 2
             }
@@ -3748,14 +3748,14 @@
         {
           "mats": [
             {
-              "name": "Philosophies of Glory",
-              "id": 104373,
+              "name": "Philosophies of Fortitude",
+              "id": 104370,
               "count": 4,
               "rank": 4
             },
             {
-              "name": "Dreamy Crystal Koku",
-              "id": 112148,
+              "name": "Genesis Chimeric Nexus",
+              "id": 112151,
               "count": 4,
               "rank": 3
             },
@@ -3771,14 +3771,14 @@
         {
           "mats": [
             {
-              "name": "Philosophies of Glory",
-              "id": 104373,
+              "name": "Philosophies of Fortitude",
+              "id": 104370,
               "count": 6,
               "rank": 4
             },
             {
-              "name": "Dreamy Crystal Koku",
-              "id": 112148,
+              "name": "Genesis Chimeric Nexus",
+              "id": 112151,
               "count": 6,
               "rank": 3
             },
@@ -3794,14 +3794,14 @@
         {
           "mats": [
             {
-              "name": "Philosophies of Glory",
-              "id": 104373,
+              "name": "Philosophies of Fortitude",
+              "id": 104370,
               "count": 12,
               "rank": 4
             },
             {
-              "name": "Dreamy Crystal Koku",
-              "id": 112148,
+              "name": "Genesis Chimeric Nexus",
+              "id": 112151,
               "count": 9,
               "rank": 3
             },
@@ -3817,14 +3817,14 @@
         {
           "mats": [
             {
-              "name": "Philosophies of Glory",
-              "id": 104373,
+              "name": "Philosophies of Fortitude",
+              "id": 104370,
               "count": 16,
               "rank": 4
             },
             {
-              "name": "Dreamy Crystal Koku",
-              "id": 112148,
+              "name": "Genesis Chimeric Nexus",
+              "id": 112151,
               "count": 12,
               "rank": 3
             },
@@ -3848,14 +3848,14 @@
         {
           "mats": [
             {
-              "name": "Teachings of Glory",
-              "id": 104371,
+              "name": "Teachings of Fortitude",
+              "id": 104368,
               "count": 3,
               "rank": 2
             },
             {
-              "name": "Phantasmagorical Dust",
-              "id": 112146,
+              "name": "Chimeric Core",
+              "id": 112149,
               "count": 6,
               "rank": 1
             }
@@ -3865,14 +3865,14 @@
         {
           "mats": [
             {
-              "name": "Guide to \"Prosperity\"",
-              "id": 104372,
+              "name": "Guide to Fortitude",
+              "id": 104369,
               "count": 2,
               "rank": 3
             },
             {
-              "name": "Phantasm Crystal",
-              "id": 112147,
+              "name": "Symbiotic Chimeric Nucleus",
+              "id": 112150,
               "count": 3,
               "rank": 2
             }
@@ -3882,14 +3882,14 @@
         {
           "mats": [
             {
-              "name": "Guide to \"Prosperity\"",
-              "id": 104372,
+              "name": "Guide to Fortitude",
+              "id": 104369,
               "count": 4,
               "rank": 3
             },
             {
-              "name": "Phantasm Crystal",
-              "id": 112147,
+              "name": "Symbiotic Chimeric Nucleus",
+              "id": 112150,
               "count": 4,
               "rank": 2
             }
@@ -3899,14 +3899,14 @@
         {
           "mats": [
             {
-              "name": "Guide to \"Prosperity\"",
-              "id": 104372,
+              "name": "Guide to Fortitude",
+              "id": 104369,
               "count": 6,
               "rank": 3
             },
             {
-              "name": "Phantasm Crystal",
-              "id": 112147,
+              "name": "Symbiotic Chimeric Nucleus",
+              "id": 112150,
               "count": 6,
               "rank": 2
             }
@@ -3916,14 +3916,14 @@
         {
           "mats": [
             {
-              "name": "Guide to \"Prosperity\"",
-              "id": 104372,
+              "name": "Guide to Fortitude",
+              "id": 104369,
               "count": 9,
               "rank": 3
             },
             {
-              "name": "Phantasm Crystal",
-              "id": 112147,
+              "name": "Symbiotic Chimeric Nucleus",
+              "id": 112150,
               "count": 9,
               "rank": 2
             }
@@ -3933,14 +3933,14 @@
         {
           "mats": [
             {
-              "name": "Philosophies of Glory",
-              "id": 104373,
+              "name": "Philosophies of Fortitude",
+              "id": 104370,
               "count": 4,
               "rank": 4
             },
             {
-              "name": "Dreamy Crystal Koku",
-              "id": 112148,
+              "name": "Genesis Chimeric Nexus",
+              "id": 112151,
               "count": 4,
               "rank": 3
             },
@@ -3956,14 +3956,14 @@
         {
           "mats": [
             {
-              "name": "Philosophies of Glory",
-              "id": 104373,
+              "name": "Philosophies of Fortitude",
+              "id": 104370,
               "count": 6,
               "rank": 4
             },
             {
-              "name": "Dreamy Crystal Koku",
-              "id": 112148,
+              "name": "Genesis Chimeric Nexus",
+              "id": 112151,
               "count": 6,
               "rank": 3
             },
@@ -3979,14 +3979,14 @@
         {
           "mats": [
             {
-              "name": "Philosophies of Glory",
-              "id": 104373,
+              "name": "Philosophies of Fortitude",
+              "id": 104370,
               "count": 12,
               "rank": 4
             },
             {
-              "name": "Dreamy Crystal Koku",
-              "id": 112148,
+              "name": "Genesis Chimeric Nexus",
+              "id": 112151,
               "count": 9,
               "rank": 3
             },
@@ -4002,14 +4002,14 @@
         {
           "mats": [
             {
-              "name": "Philosophies of Glory",
-              "id": 104373,
+              "name": "Philosophies of Fortitude",
+              "id": 104370,
               "count": 16,
               "rank": 4
             },
             {
-              "name": "Dreamy Crystal Koku",
-              "id": 112148,
+              "name": "Genesis Chimeric Nexus",
+              "id": 112151,
               "count": 12,
               "rank": 3
             },

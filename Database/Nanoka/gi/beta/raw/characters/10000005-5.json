@@ -4507,7 +4507,7 @@
             "name": "Windwheel Aster",
             "id": 100024,
             "count": 3,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Damaged Mask",
@@ -4530,7 +4530,7 @@
             "name": "Windwheel Aster",
             "id": 100024,
             "count": 10,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Damaged Mask",
@@ -4553,7 +4553,7 @@
             "name": "Windwheel Aster",
             "id": 100024,
             "count": 20,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Stained Mask",
@@ -4576,7 +4576,7 @@
             "name": "Windwheel Aster",
             "id": 100024,
             "count": 30,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Stained Mask",
@@ -4599,7 +4599,7 @@
             "name": "Windwheel Aster",
             "id": 100024,
             "count": 45,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Ominous Mask",
@@ -4622,7 +4622,7 @@
             "name": "Windwheel Aster",
             "id": 100024,
             "count": 60,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Ominous Mask",
@@ -4639,14 +4639,14 @@
         {
           "mats": [
             {
-              "name": "Philosophies of \"Mercy\"",
+              "name": "Teachings of Charity",
               "id": 104365,
               "count": 3,
               "rank": 2
             },
             {
-              "name": "Phantasmagorical Dust",
-              "id": 112146,
+              "name": "Chimeric Core",
+              "id": 112149,
               "count": 6,
               "rank": 1
             }
@@ -4656,14 +4656,14 @@
         {
           "mats": [
             {
-              "name": "Guide to Diligence",
+              "name": "Guide to Fortitude",
               "id": 104369,
               "count": 2,
               "rank": 3
             },
             {
-              "name": "Phantasm Crystal",
-              "id": 112147,
+              "name": "Symbiotic Chimeric Nucleus",
+              "id": 112150,
               "count": 3,
               "rank": 2
             }
@@ -4673,14 +4673,14 @@
         {
           "mats": [
             {
-              "name": "Guide to \"Prosperity\"",
+              "name": "Guide to Glory",
               "id": 104372,
               "count": 4,
               "rank": 3
             },
             {
-              "name": "Phantasm Crystal",
-              "id": 112147,
+              "name": "Symbiotic Chimeric Nucleus",
+              "id": 112150,
               "count": 4,
               "rank": 2
             }
@@ -4690,14 +4690,14 @@
         {
           "mats": [
             {
-              "name": "Guide to \"Charity\"",
+              "name": "Guide to Charity",
               "id": 104366,
               "count": 6,
               "rank": 3
             },
             {
-              "name": "Phantasm Crystal",
-              "id": 112147,
+              "name": "Symbiotic Chimeric Nucleus",
+              "id": 112150,
               "count": 6,
               "rank": 2
             }
@@ -4707,14 +4707,14 @@
         {
           "mats": [
             {
-              "name": "Guide to Diligence",
+              "name": "Guide to Fortitude",
               "id": 104369,
               "count": 9,
               "rank": 3
             },
             {
-              "name": "Phantasm Crystal",
-              "id": 112147,
+              "name": "Symbiotic Chimeric Nucleus",
+              "id": 112150,
               "count": 9,
               "rank": 2
             }
@@ -4730,8 +4730,8 @@
               "rank": 4
             },
             {
-              "name": "Dreamy Crystal Koku",
-              "id": 112148,
+              "name": "Genesis Chimeric Nexus",
+              "id": 112151,
               "count": 4,
               "rank": 3
             },
@@ -4747,14 +4747,14 @@
         {
           "mats": [
             {
-              "name": "Philosophy of \"Kindness\"",
+              "name": "Philosophies of Charity",
               "id": 104367,
               "count": 6,
               "rank": 4
             },
             {
-              "name": "Dreamy Crystal Koku",
-              "id": 112148,
+              "name": "Genesis Chimeric Nexus",
+              "id": 112151,
               "count": 6,
               "rank": 3
             },
@@ -4770,14 +4770,14 @@
         {
           "mats": [
             {
-              "name": "Philosophies of Endurance",
+              "name": "Philosophies of Fortitude",
               "id": 104370,
               "count": 12,
               "rank": 4
             },
             {
-              "name": "Dreamy Crystal Koku",
-              "id": 112148,
+              "name": "Genesis Chimeric Nexus",
+              "id": 112151,
               "count": 9,
               "rank": 3
             },
@@ -4799,8 +4799,8 @@
               "rank": 4
             },
             {
-              "name": "Dreamy Crystal Koku",
-              "id": 112148,
+              "name": "Genesis Chimeric Nexus",
+              "id": 112151,
               "count": 12,
               "rank": 3
             },
@@ -4824,14 +4824,14 @@
         {
           "mats": [
             {
-              "name": "Philosophies of \"Mercy\"",
+              "name": "Teachings of Charity",
               "id": 104365,
               "count": 3,
               "rank": 2
             },
             {
-              "name": "Phantasmagorical Dust",
-              "id": 112146,
+              "name": "Chimeric Core",
+              "id": 112149,
               "count": 6,
               "rank": 1
             }
@@ -4841,14 +4841,14 @@
         {
           "mats": [
             {
-              "name": "Guide to Diligence",
+              "name": "Guide to Fortitude",
               "id": 104369,
               "count": 2,
               "rank": 3
             },
             {
-              "name": "Phantasm Crystal",
-              "id": 112147,
+              "name": "Symbiotic Chimeric Nucleus",
+              "id": 112150,
               "count": 3,
               "rank": 2
             }
@@ -4858,14 +4858,14 @@
         {
           "mats": [
             {
-              "name": "Guide to \"Prosperity\"",
+              "name": "Guide to Glory",
               "id": 104372,
               "count": 4,
               "rank": 3
             },
             {
-              "name": "Phantasm Crystal",
-              "id": 112147,
+              "name": "Symbiotic Chimeric Nucleus",
+              "id": 112150,
               "count": 4,
               "rank": 2
             }
@@ -4875,14 +4875,14 @@
         {
           "mats": [
             {
-              "name": "Guide to \"Charity\"",
+              "name": "Guide to Charity",
               "id": 104366,
               "count": 6,
               "rank": 3
             },
             {
-              "name": "Phantasm Crystal",
-              "id": 112147,
+              "name": "Symbiotic Chimeric Nucleus",
+              "id": 112150,
               "count": 6,
               "rank": 2
             }
@@ -4892,14 +4892,14 @@
         {
           "mats": [
             {
-              "name": "Guide to Diligence",
+              "name": "Guide to Fortitude",
               "id": 104369,
               "count": 9,
               "rank": 3
             },
             {
-              "name": "Phantasm Crystal",
-              "id": 112147,
+              "name": "Symbiotic Chimeric Nucleus",
+              "id": 112150,
               "count": 9,
               "rank": 2
             }
@@ -4915,8 +4915,8 @@
               "rank": 4
             },
             {
-              "name": "Dreamy Crystal Koku",
-              "id": 112148,
+              "name": "Genesis Chimeric Nexus",
+              "id": 112151,
               "count": 4,
               "rank": 3
             },
@@ -4932,14 +4932,14 @@
         {
           "mats": [
             {
-              "name": "Philosophy of \"Kindness\"",
+              "name": "Philosophies of Charity",
               "id": 104367,
               "count": 6,
               "rank": 4
             },
             {
-              "name": "Dreamy Crystal Koku",
-              "id": 112148,
+              "name": "Genesis Chimeric Nexus",
+              "id": 112151,
               "count": 6,
               "rank": 3
             },
@@ -4955,14 +4955,14 @@
         {
           "mats": [
             {
-              "name": "Philosophies of Endurance",
+              "name": "Philosophies of Fortitude",
               "id": 104370,
               "count": 12,
               "rank": 4
             },
             {
-              "name": "Dreamy Crystal Koku",
-              "id": 112148,
+              "name": "Genesis Chimeric Nexus",
+              "id": 112151,
               "count": 9,
               "rank": 3
             },
@@ -4984,8 +4984,8 @@
               "rank": 4
             },
             {
-              "name": "Dreamy Crystal Koku",
-              "id": 112148,
+              "name": "Genesis Chimeric Nexus",
+              "id": 112151,
               "count": 12,
               "rank": 3
             },
@@ -5009,14 +5009,14 @@
         {
           "mats": [
             {
-              "name": "Philosophies of \"Mercy\"",
+              "name": "Teachings of Charity",
               "id": 104365,
               "count": 3,
               "rank": 2
             },
             {
-              "name": "Phantasmagorical Dust",
-              "id": 112146,
+              "name": "Chimeric Core",
+              "id": 112149,
               "count": 6,
               "rank": 1
             }
@@ -5026,14 +5026,14 @@
         {
           "mats": [
             {
-              "name": "Guide to Diligence",
+              "name": "Guide to Fortitude",
               "id": 104369,
               "count": 2,
               "rank": 3
             },
             {
-              "name": "Phantasm Crystal",
-              "id": 112147,
+              "name": "Symbiotic Chimeric Nucleus",
+              "id": 112150,
               "count": 3,
               "rank": 2
             }
@@ -5043,14 +5043,14 @@
         {
           "mats": [
             {
-              "name": "Guide to \"Prosperity\"",
+              "name": "Guide to Glory",
               "id": 104372,
               "count": 4,
               "rank": 3
             },
             {
-              "name": "Phantasm Crystal",
-              "id": 112147,
+              "name": "Symbiotic Chimeric Nucleus",
+              "id": 112150,
               "count": 4,
               "rank": 2
             }
@@ -5060,14 +5060,14 @@
         {
           "mats": [
             {
-              "name": "Guide to \"Charity\"",
+              "name": "Guide to Charity",
               "id": 104366,
               "count": 6,
               "rank": 3
             },
             {
-              "name": "Phantasm Crystal",
-              "id": 112147,
+              "name": "Symbiotic Chimeric Nucleus",
+              "id": 112150,
               "count": 6,
               "rank": 2
             }
@@ -5077,14 +5077,14 @@
         {
           "mats": [
             {
-              "name": "Guide to Diligence",
+              "name": "Guide to Fortitude",
               "id": 104369,
               "count": 9,
               "rank": 3
             },
             {
-              "name": "Phantasm Crystal",
-              "id": 112147,
+              "name": "Symbiotic Chimeric Nucleus",
+              "id": 112150,
               "count": 9,
               "rank": 2
             }
@@ -5100,8 +5100,8 @@
               "rank": 4
             },
             {
-              "name": "Dreamy Crystal Koku",
-              "id": 112148,
+              "name": "Genesis Chimeric Nexus",
+              "id": 112151,
               "count": 4,
               "rank": 3
             },
@@ -5117,14 +5117,14 @@
         {
           "mats": [
             {
-              "name": "Philosophy of \"Kindness\"",
+              "name": "Philosophies of Charity",
               "id": 104367,
               "count": 6,
               "rank": 4
             },
             {
-              "name": "Dreamy Crystal Koku",
-              "id": 112148,
+              "name": "Genesis Chimeric Nexus",
+              "id": 112151,
               "count": 6,
               "rank": 3
             },
@@ -5140,14 +5140,14 @@
         {
           "mats": [
             {
-              "name": "Philosophies of Endurance",
+              "name": "Philosophies of Fortitude",
               "id": 104370,
               "count": 12,
               "rank": 4
             },
             {
-              "name": "Dreamy Crystal Koku",
-              "id": 112148,
+              "name": "Genesis Chimeric Nexus",
+              "id": 112151,
               "count": 9,
               "rank": 3
             },
@@ -5169,8 +5169,8 @@
               "rank": 4
             },
             {
-              "name": "Dreamy Crystal Koku",
-              "id": 112148,
+              "name": "Genesis Chimeric Nexus",
+              "id": 112151,
               "count": 12,
               "rank": 3
             },

@@ -3202,7 +3202,7 @@
     {
       "id": 472201,
       "name": "Poetics of Fuubutsu",
-      "desc": "Upon triggering a Swirl or Star Swirl reaction, Kaedehara Kazuha will grant all party members a 0.04% Elemental DMG Bonus to the corresponding Element for every point of Elemental Mastery he has for 8s. Bonuses for different elements obtained through this method can co-exist.",
+      "desc": "Upon triggering a Swirl or Stellar Swirl reaction, Kaedehara Kazuha will grant all party members a 0.04% Elemental DMG Bonus to the element absorbed by Swirl for every point of Elemental Mastery he has for 8s. Bonuses for different elements obtained through this method can co-exist.",
       "icon": "UI_Talent_S_Kazuha_06",
       "unlock": 4,
       "param_list": [
@@ -3370,7 +3370,7 @@
             "name": "Sea Ganoderma",
             "id": 101206,
             "count": 3,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Treasure Hoarder Insignia",
@@ -3399,7 +3399,7 @@
             "name": "Sea Ganoderma",
             "id": 101206,
             "count": 10,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Treasure Hoarder Insignia",
@@ -3428,7 +3428,7 @@
             "name": "Sea Ganoderma",
             "id": 101206,
             "count": 20,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Silver Raven Insignia",
@@ -3457,7 +3457,7 @@
             "name": "Sea Ganoderma",
             "id": 101206,
             "count": 30,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Silver Raven Insignia",
@@ -3486,7 +3486,7 @@
             "name": "Sea Ganoderma",
             "id": 101206,
             "count": 45,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Golden Raven Insignia",
@@ -3515,7 +3515,7 @@
             "name": "Sea Ganoderma",
             "id": 101206,
             "count": 60,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Golden Raven Insignia",

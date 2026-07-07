@@ -476,7 +476,7 @@
       },
       {
         "title": "About Prune",
-        "text": "Last time, she sat under a tree with a book, but fell asleep shortly after. Her brow was tightly furrowed while she slept, as if she were still arguing with someone in her dreams. Master once said that everyone has weaknesses they don't want others to see. As a friend, it's enough to just offer her a shoulder to lean on when she's tired. So, I sat down next to her, and she slept so soundly.",
+        "text": "This one time, I saw Prune fall asleep while reading under a tree. Her forehead was all scrunched up, like she was arguing with someone in her dreams. Master once said that everyone has weaknesses they don't want others to see. As a friend, I felt like I should offer her a shoulder to rest on, so I sat down beside her. She seemed to sleep much better after that.",
         "unlocked": [
           "Unlocks at Friendship Lv. 4"
         ]
@@ -3361,7 +3361,7 @@
             "name": "Jueyun Chili",
             "id": 100027,
             "count": 3,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Slime Condensate",
@@ -3390,7 +3390,7 @@
             "name": "Jueyun Chili",
             "id": 100027,
             "count": 10,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Slime Condensate",
@@ -3419,7 +3419,7 @@
             "name": "Jueyun Chili",
             "id": 100027,
             "count": 20,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Slime Secretions",
@@ -3448,7 +3448,7 @@
             "name": "Jueyun Chili",
             "id": 100027,
             "count": 30,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Slime Secretions",
@@ -3477,7 +3477,7 @@
             "name": "Jueyun Chili",
             "id": 100027,
             "count": 45,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Slime Concentrate",
@@ -3506,7 +3506,7 @@
             "name": "Jueyun Chili",
             "id": 100027,
             "count": 60,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Slime Concentrate",

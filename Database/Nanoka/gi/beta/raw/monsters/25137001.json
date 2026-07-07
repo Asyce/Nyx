@@ -1,11 +1,11 @@
 {
-  "name": "Ancient Wood Spirit Elder",
-  "desc": "A Leshy growing in the wild.\\nPossessing only incomplete sentience and unable to speak, the Leshy appears to be the result of early experiments by craftsmen of the Kingdom of Citrinitas. However, the exact opposite is true: according to records, they only created this race of fairies after almost completely mastering the authority of life.\\nPerhaps this contains a Verity that present-day fairies and humans cannot comprehend.",
+  "name": "Rugged Elder Leshy",
+  "desc": "A Leshy that grows in forests and wilds.\\nWith only fragmentary sentience and no ability to speak, Leshies may appear to be the result of the Golden Realm's early experiments. Yet according to records, the truth is the opposite. Only after its artisans had almost fully mastered the authority over life did they create this race of fae.\\nPerhaps there is some true purpose within this that neither the fae nor humans of the present can fully understand.",
   "icon": "UI_MonsterIcon_Leshy_Mature_01",
   "codex": "BEAST",
-  "title": "Leshy born in the Spirit Wilds",
+  "title": "Leshy Born of the Mystic Wilds",
   "special_names": [
-    "Young Segmented Tree"
+    "Juvenile Tree Segment"
   ],
   "reward": [
     {
@@ -135,6 +135,7 @@
         {},
         {}
       ],
+      "kill_drop_id": 0,
       "prop": [
         {
           "grow_curve": "GROW_CURVE_HP_2",
@@ -175,6 +176,7 @@
         {},
         {}
       ],
+      "kill_drop_id": 0,
       "prop": [
         {
           "grow_curve": "GROW_CURVE_HP_2",
@@ -215,6 +217,7 @@
         {},
         {}
       ],
+      "kill_drop_id": 0,
       "prop": [
         {
           "grow_curve": "GROW_CURVE_HP_2",
@@ -255,6 +258,7 @@
         {},
         {}
       ],
+      "kill_drop_id": 0,
       "prop": [
         {
           "grow_curve": "GROW_CURVE_HP_2",
@@ -295,6 +299,7 @@
         {},
         {}
       ],
+      "kill_drop_id": 0,
       "prop": [
         {
           "grow_curve": "GROW_CURVE_HP_2",

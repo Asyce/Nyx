@@ -1,9 +1,9 @@
 {
-  "name": "Hydro Crystal",
+  "name": "Frag Crystal - Hydro",
   "desc": "",
   "weapon_type": "ITEM_TPS_WEAPON",
   "rarity": 4,
-  "icon": "Sword_Template",
+  "icon": "UI_EquipIcon_Grenade_Water",
   "skill": 999005,
   "tps": true
 }

@@ -3210,7 +3210,7 @@
         0
       ],
       "special": true,
-      "special_desc": "When Qiqi hits opponents with her Normal and Charged Attacks, she has a 50% chance to apply a Fortune-Preserving Talisman to them for 6s. This effect can only occur once every 30s.\\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: The effect now has a 100% chance to trigger, and cooldown time is reduced to 15s."
+      "special_desc": "When Qiqi hits opponents with her Normal and Charged Attacks, she has a 50% chance to apply a Fortune-Preserving Talisman to them for 6s. This effect can only occur once every 30s.\\n<color=#FFD780FF>Radiance: Stellar Glimmer</color>: The effect now has a 100% chance to trigger, and cooldown time is reduced to 15s."
     },
     {
       "id": 352301,
@@ -3293,7 +3293,7 @@
         0
       ],
       "special": true,
-      "special_desc": "Qiqi regenerates 2 Energy when the Herald of Frost hits an opponent marked by a Fortune-Preserving Talisman.\\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: Qiqi also regenerates 6 Elemental Energy when the Herald of Frost's attacks and coordinated attacks hit opponents. This effect can trigger once every 6s."
+      "special_desc": "Qiqi regenerates 2 Energy when the Herald of Frost hits an opponent marked by a Fortune-Preserving Talisman.\\n<color=#FFD780FF>Radiance: Stellar Glimmer</color>: Qiqi also regenerates 6 Elemental Energy when the Herald of Frost's attacks and coordinated attacks hit opponents. This effect can trigger once every 6s."
     },
     {
       "id": 352,
@@ -3311,7 +3311,7 @@
         0
       ],
       "special": true,
-      "special_desc": "Qiqi's Normal and Charged Attack DMG against opponents affected by <color=#99FFFFFF>Cryo</color> is increased by 15%.\\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: Qiqi's ATK is increased by 50%."
+      "special_desc": "Qiqi's Normal and Charged Attack DMG against opponents affected by <color=#99FFFFFF>Cryo</color> is increased by 15%.\\n<color=#FFD780FF>Radiance: Stellar Glimmer</color>: Qiqi's ATK is increased by 50%."
     },
     {
       "id": 353,
@@ -3396,7 +3396,7 @@
             "name": "Violetgrass",
             "id": 100034,
             "count": 3,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Divining Scroll",
@@ -3425,7 +3425,7 @@
             "name": "Violetgrass",
             "id": 100034,
             "count": 10,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Divining Scroll",
@@ -3454,7 +3454,7 @@
             "name": "Violetgrass",
             "id": 100034,
             "count": 20,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Sealed Scroll",
@@ -3483,7 +3483,7 @@
             "name": "Violetgrass",
             "id": 100034,
             "count": 30,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Sealed Scroll",
@@ -3512,7 +3512,7 @@
             "name": "Violetgrass",
             "id": 100034,
             "count": 45,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Forbidden Curse Scroll",
@@ -3541,7 +3541,7 @@
             "name": "Violetgrass",
             "id": 100034,
             "count": 60,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Forbidden Curse Scroll",

@@ -1,11 +1,11 @@
 {
-  "name": "Volkodlak Smasher",
-  "desc": "A relatively muscular type among the many Volkodlaks of Snezhnaya.\\nPossessing the strength of a beast and a humanoid body, they have a natural, wild instinct for harnessing their own power. If an untrained human were to confront this kind of Volkodlak with a weapon, the victor would undoubtedly be the latter.",
+  "name": "Volkodlak Basher",
+  "desc": "A relatively large and powerfully built type of Volkodlak found among the many that roam Snezhnaya.\\nWith the strength of beasts and humanoid bodies, they possess a feral instinct for bringing their own power to bear. Should an untrained human face such a Volkodlak with weapons in hand, victory would undoubtedly belong to the latter.",
   "icon": "UI_MonsterIcon_Vukodlak_Strong_Sword",
   "codex": "BEAST",
-  "title": "Volkodlak Thug",
+  "title": "Volkodlak Brute",
   "special_names": [
-    "Striker"
+    "Basher"
   ],
   "reward": [
     {
@@ -211,6 +211,7 @@
         {},
         {}
       ],
+      "kill_drop_id": 0,
       "prop": [
         {
           "grow_curve": "GROW_CURVE_HP_2",
@@ -251,6 +252,7 @@
         {},
         {}
       ],
+      "kill_drop_id": 0,
       "prop": [
         {
           "grow_curve": "GROW_CURVE_HP_2",

@@ -1419,43 +1419,43 @@
   {
     "id": "197",
     "contentStatus": "beta",
-    "name": "Competitive Points",
+    "name": "Tournament Points",
     "rarity": 3,
     "type": "ITEM_VIRTUAL",
-    "description": "Points obtained based on performance in each challenge during the first \"Adventurer's Arena Tournament\". At the end of the competition, the Adventurer with the most accumulated points will be crowned the champion...\\nIn the \"Perilous Conqueror's Tournament\", it can be used to unlock various rewards...",
+    "description": "Points awarded based on performance in each challenge during the first \"Adventurers' Tournament.\" At the end of the tournament, the adventurer who has accumulated the most Competition Points will be crowned the champion...\\nIn the Great Expeditionist Challenge, these points can also be used to unlock a variety of rewards...",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_197.webp"
     },
     "liveComparison": {
-      "currentHash": "8938e964a238c5f4ab0ea13e0b31dd4de5bf518783feb08b4c2bb43f705f0dfe"
+      "currentHash": "8d16473b87f83cf97bf6deb921ff670aee695c14afaec68162647fd944d28991"
     }
   },
   {
     "id": "198",
     "contentStatus": "beta",
-    "name": "Passion Ticket",
+    "name": "Fervor Coupon",
     "rarity": 3,
     "type": "ITEM_VIRTUAL",
-    "description": "A ticket used by both the \"Enhance Mutual Aid Network\" and adventurers alike, which can be used to draw event-exclusive \"Ms. Katheryne\" statue components. Perhaps Katheryne's popularity among adventurers and the general public is actually quite staggering?",
+    "description": "A type of coupon widely circulated among both the adventurers and the Mutual Aid Advancement Network. They can be exchanged to draw for limited-edition \"Lady Katheryne\" statue parts. Come to think of it... is Katheryne's popularity among adventurers and civilians actually completely off the charts?",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_ADVTicket.webp"
     },
     "liveComparison": {
-      "currentHash": "303b5dfcf377e1bc9be398a990924fdc406d30043c86cd0fadccb37c8ff2610c"
+      "currentHash": "192e2202898814ac0bc44462cf012c1451f06b8ae3bd14fa5e2813aee66fe598"
     }
   },
   {
     "id": "199",
     "contentStatus": "beta",
-    "name": "Cryo Measurement",
+    "name": "Prime Ice Resource",
     "rarity": 3,
     "type": "ITEM_VIRTUAL",
-    "description": "The True Ice stored within the \"Gray-Eyed\" chassis can be used to manifest various mechanisms and constructs from the blueprints.",
+    "description": "Stored within the internal reservoir of the Eye of Graeae, it can be utilized to build the various mechanisms and constructs detailed in the blueprints.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_199.webp"
     },
     "liveComparison": {
-      "currentHash": "6af42f54e110728cbc00e880421036ecaa844627bcc9c4823277f43077a7c460"
+      "currentHash": "f0c58c1243266f121a2832bf9a44462f5b850aaa1712c72dffc6cb6729b53921"
     }
   },
   {
@@ -2118,15 +2118,15 @@
   {
     "id": "403",
     "contentStatus": "beta",
-    "name": "Travel Notes",
+    "name": "Expedition Insights",
     "rarity": 3,
     "type": "ITEM_VIRTUAL",
-    "description": "Insights gained from exploring specific Wonderland stages; accumulating them seems to unlock gifts in response from the Wonderland...",
+    "description": "Insights gained from exploring featured Wonderland stages. Collect enough of them, and it seems they can unlock gifts bestowed in response by the Wonderland itself...",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_403.webp"
     },
     "liveComparison": {
-      "currentHash": "c26bf5335c2e26368b7ffccd97dc97f68af5446758af61dc7e8e7c0bd72b9e80"
+      "currentHash": "94dbdec17fa55ba9992fb5991e9ef01cca0cbe20e81b0f020a57b342d3362480"
     }
   },
   {
@@ -6164,12 +6164,12 @@
     "contentStatus": "beta",
     "name": "Alyosha",
     "rarity": 4,
-    "type": "Character Unlock",
+    "type": "Unlocks the associated character",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_AvatarIcon_Alyosha_Card.webp"
     },
     "liveComparison": {
-      "currentHash": "f3b3d7afc53365c2913cc065b65254cdad4471da74218dc9785b255c39623110"
+      "currentHash": "e3a96f22283f0c9b1916195de7c7b9c44ae389c2c47614b667f5d7c5cea298ad"
     }
   },
   {
@@ -6670,13 +6670,13 @@
     "contentStatus": "beta",
     "name": "Alyosha's Stella Fortuna",
     "rarity": 4,
-    "type": "Constellation Activation",
+    "type": "Activates Constellation",
     "description": "Alyosha's Constellation Activation Material",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_1103.webp"
     },
     "liveComparison": {
-      "currentHash": "2b5614c2c02c2d9a5e6c5419568bab522f1524a006cbc734d76283c754bd429f"
+      "currentHash": "1f19c57cc42e554553cfedd6b0c3fb64247e3fce43e1d9b235780fc34f7604ef"
     }
   },
   {
@@ -6684,13 +6684,13 @@
     "contentStatus": "beta",
     "name": "Odette's Stella Fortuna",
     "rarity": 5,
-    "type": "Constellation Activation",
+    "type": "Activates Constellation",
     "description": "Odette's Constellation Activation Material",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_1102.webp"
     },
     "liveComparison": {
-      "currentHash": "513fb6dc93ad7592d9a895c5e81dfc9c66022d25fc73fcf643322ed88ad60582"
+      "currentHash": "eeb53fbfbf4d4c09fbd48cc7ea238bdac71167b67ae284f003ff3bcddcdebc70"
     }
   },
   {
@@ -8468,13 +8468,13 @@
     "contentStatus": "beta",
     "name": "Alyosha's Stella Fortuna",
     "rarity": 4,
-    "type": "Constellation Activation",
+    "type": "Activates Constellation",
     "description": "Alyosha's Constellation Activation Material",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_1103.webp"
     },
     "liveComparison": {
-      "currentHash": "60892535d8bc19d94286adfed4606ceed9d94d7435262880ee9b082c7d0d5085"
+      "currentHash": "592c1bdd8f98ed8181a2856d97adcb23c8132930b56d0db4ab20eff8c757f800"
     }
   },
   {
@@ -8482,13 +8482,13 @@
     "contentStatus": "beta",
     "name": "Odette's Stella Fortuna",
     "rarity": 5,
-    "type": "Constellation Activation",
+    "type": "Activates Constellation",
     "description": "Odette's Constellation Activation Material",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_1102.webp"
     },
     "liveComparison": {
-      "currentHash": "e0a942af78802ff84f1953d23e00b327f79a16ef753bf99cb785fce77601265c"
+      "currentHash": "a24fcbd88c4b4c2f311a2ef2cefa8089872b526fe00258884b1fabf427f065dc"
     }
   },
   {
@@ -23397,12 +23397,12 @@
     "name": "Frostfairy Flower",
     "rarity": 0,
     "type": "Local Specialty (Snezhnaya)",
-    "description": "A holy flower that blooms no matter how harsh the wind and snow may be, always emitting a faint, alluring light.",
+    "description": "A sacred flower that blooms no matter how harsh the wind and snow. It always radiates a faint, mesmerizing glow that draws the hearts of all who see it.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_101275.webp"
     },
     "liveComparison": {
-      "currentHash": "e21d5c8a1cf3c9b187bc3dbb380f78bb4b803f092e492d4078e74b91f59870c4"
+      "currentHash": "5d684ed7830b7c253cd0da96fcaa5e6981802f98dfdf453d40850fd9da782c63"
     }
   },
   {
@@ -23411,12 +23411,12 @@
     "name": "Flockingweed",
     "rarity": 0,
     "type": "Local Specialty (Snezhnaya)",
-    "description": "Once suspected to be a miraculous hybrid of plant and animal, it was later proven to be nothing more than a plant that simply grows hair similar to animal fur.",
+    "description": "A peculiar plant once suspected to be a hybrid of plant and animal, though it was later proven to be nothing more than an ordinary plant covered in a coat of animal-like fuzz.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_101276.webp"
     },
     "liveComparison": {
-      "currentHash": "eefe4ad4760ce9c111a879e0037e3e6a887fbe8fdbd150ce222f182a835746be"
+      "currentHash": "cd211653e765394b1a4d9b4dd86c89b4ce026c3a099a12e7f8d6b5208b275826"
     }
   },
   {
@@ -23425,12 +23425,12 @@
     "name": "Golden Fern",
     "rarity": 0,
     "type": "Local Specialty (Snezhnaya)",
-    "description": "A fern with edges that glow with a faint golden light. It is said that once stewed, it develops a truly marvelous flavor.",
+    "description": "A fern whose edges radiate a faint golden shimmer. It is said to take on a remarkably unique flavor when stewed.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_101277.webp"
     },
     "liveComparison": {
-      "currentHash": "58679cfbd6400855ca0316f7d397bd74e881acc8ceebdcbd068826143e334e2d"
+      "currentHash": "b03c260175ae0aa793fe2e1d05fb594360531d3287fb2f0eb5217b16013772aa"
     }
   },
   {
@@ -23439,12 +23439,12 @@
     "name": "Red Beet",
     "rarity": 0,
     "type": "Cooking Ingredient",
-    "description": "A herbaceous plant that can grow even in cold permafrost. To survive in such a harsh environment, it has developed enlarged, fleshy roots.",
+    "description": "A hardy herbaceous plant capable of thriving even in frozen soil. To survive such an unforgiving environment, it develops a thick, succulent root.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_101278.webp"
     },
     "liveComparison": {
-      "currentHash": "96e9801a10f9adcc6d4370fe71c8b6e64d3174dcdf9ea8982613ec9f477e06d0"
+      "currentHash": "525b91def1289074f19b4ae4a4da2c1308b7a789f5cdf61c4d6a3e55ffc52651"
     }
   },
   {
@@ -23453,12 +23453,12 @@
     "name": "Glaciafruit",
     "rarity": 0,
     "type": "Cooking Ingredient",
-    "description": "A star-shaped fruit that grows from True Ice in frozen lands under special conditions. Once the branch it grows on is removed, the fruit will fall onto the snow.",
+    "description": "A star-shaped fruit born from Prime Ice that has undergone a peculiar transformation in the permafrost. Once the branch it grows upon is removed, the fruit falls naturally onto the snow.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_101279.webp"
     },
     "liveComparison": {
-      "currentHash": "9a6ba30426a012ed23e164f491c5f89a1f4278223dfcf09c48330d2bdb3ec22b"
+      "currentHash": "afd279fe5c35354230fc775c60ea7b506f59fbed0add7d09a28457d0f68ecd9d"
     }
   },
   {
@@ -23467,12 +23467,12 @@
     "name": "Snowball Flower",
     "rarity": 0,
     "type": "Cooking Ingredient",
-    "description": "A cute flower with a nearly spherical inflorescence. When snow falls on its petals, the whole bloom looks just like a snowball.",
+    "description": "A charming flower with a spherical cluster of petals. When snow settles upon it, the entire bloom looks just like a tiny snowball.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_101280.webp"
     },
     "liveComparison": {
-      "currentHash": "252a80b9148be83c6c594fc272ffcd88af6cbb332ab13a165112362b623034e0"
+      "currentHash": "216cfa10d3583590b2ec3276cb4fa17cae834ae377b8e2b83b19b828bbe60abe"
     }
   },
   {
@@ -23481,26 +23481,26 @@
     "name": "Rimecurrant",
     "rarity": 0,
     "type": "Cooking Ingredient",
-    "description": "A berry with rich flavor that grows from frost-laden, icy branches.",
+    "description": "A richly flavored berry that sprouts from frost-rimed, icy branches.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_101281.webp"
     },
     "liveComparison": {
-      "currentHash": "b7ca5aef4407b2beb9f4b6ab59f0221ab9c2b070cfc18eb6af2a81427e67caff"
+      "currentHash": "1c3b6e087a4862c7edb43ff9510ca753909f524902b4a64a62d1b1c17fba63c5"
     }
   },
   {
     "id": "101282",
     "contentStatus": "beta",
-    "name": "Glimmering Fluorite",
+    "name": "Lumifluorite",
     "rarity": 0,
     "type": "Material",
-    "description": "A strange fluorite formed by the influence of the Ei-domain's power.",
+    "description": "A strange fluorite formed under the influence of the powers of the Shadow Realm.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_101282.webp"
     },
     "liveComparison": {
-      "currentHash": "d14d6f8fedb45309c5a92f362aaea2613c1c3226dd2a8b72c0adf32f0ab925b5"
+      "currentHash": "7d20f3bb77e9bf994fb8c736e04a4a51a4f2999cea8e29c94c18fd3bcf30bcc4"
     }
   },
   {
@@ -33133,85 +33133,85 @@
   {
     "id": "104365",
     "contentStatus": "beta",
-    "name": "Philosophies of \"Mercy\"",
+    "name": "Teachings of Charity",
     "rarity": 2,
     "type": "Character Talent Material",
-    "description": "Talent Level-Up Material.\\n\"Charity\" is the salvation of the land of Cryo.\\nCharity is the love and watchfulness between mortals. Across the vast lands, people rely on it to withstand the cold brought by the frost and to soothe the scars etched into their memories.",
+    "description": "Talent Level-Up material.\\nCharity is the salvation of the frozen realm.\\nIt is the love and vigilant care shared among mortals. Across this vast and boundless land, it is the warmth by which the people withstand the biting frost, soothing the deep-seated scars etched into their memories.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_104365.webp"
     },
     "liveComparison": {
-      "currentHash": "c9c09365aff15ddc42a2ae3d2ffbae5bfd5cef382a7af5d5800f3e4db1b4cc57"
+      "currentHash": "9ab56e50f6afcf34d438ba29e1e0e34ba9cf96ea8418651b94c5ba98c2d9db9f"
     }
   },
   {
     "id": "104366",
     "contentStatus": "beta",
-    "name": "Guide to \"Charity\"",
+    "name": "Guide to Charity",
     "rarity": 3,
     "type": "Character Talent Material",
-    "description": "Talent Level-Up Material.\\n\"Kindness\" is the salvation of the land of Cryo.\\nKindness fosters compassion for others. In the land of blizzards, those who truly repent for the sins of their souls may receive forgiveness in the name of kindness.",
+    "description": "Talent Level-Up material.\\nCharity is the salvation of the frozen realm.\\nIt breeds mercy for others. In the realm of wind and snow, whosoever sincerely repents for the sins of their soul shall find absolution in the name of Charity.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_104366.webp"
     },
     "liveComparison": {
-      "currentHash": "385c3e8c7c5d1525ed29962729c5ed0846f178c0af783bb3b7f88066970a0cf6"
+      "currentHash": "c3fbc827b864715741a278a2ec16bde92ae6e20441bc292c40efe400974c6238"
     }
   },
   {
     "id": "104367",
     "contentStatus": "beta",
-    "name": "Philosophy of \"Kindness\"",
+    "name": "Philosophies of Charity",
     "rarity": 4,
     "type": "Character Talent Material",
-    "description": "Talent Level-Up Material.\\n\"Charity\" is the salvation of the Land of Cryo.\\nCharity is care for all living things; it erases distinctions between high and low, noble and base, and transcends bloodlines and nations. The gaze of charity is fixed upon all alike, offering protection to the unfortunate and promising eternal liberation to the masses.",
+    "description": "Talent Level-Up material.\\nCharity is the salvation of the frozen realm.\\nIt is a boundless grace extended to all living things. It collapses the divide between the highborn and the low, transcending both bloodline and nation. Its watchful gaze beholds all of humanity, offering sanctuary to the unfortunate and promising eternal liberation unto all.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_104367.webp"
     },
     "liveComparison": {
-      "currentHash": "901605fdd27830537a96b780f244445242cc75ebe628056940b3dab111a1aea8"
+      "currentHash": "a9af2f648471bbdbffd25443349473a2a062855015d3bec103a905c567c8ec64"
     }
   },
   {
     "id": "104368",
     "contentStatus": "beta",
-    "name": "Guide to Diligence",
+    "name": "Teachings of Fortitude",
     "rarity": 2,
     "type": "Character Talent Material",
-    "description": "Talent Level-Up Material.\\n\"Diligence\" is the character of the land of Cryo.\\nDiligence stems from a desire for survival. Even if not sown in fertile soil, a weak seed can still rely on this desire to strike deep roots beneath the tundra.",
+    "description": "Talent Level-Up material.\\nFortitude is the defining character of the frozen realm.\\nIt stems from a raw yearning for survival. Even if scattered far from fertile soil, a fragile seed can rely on this desperate longing to drive its roots deep beneath the frozen tundra.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_104368.webp"
     },
     "liveComparison": {
-      "currentHash": "c5d8096bd0468238e44ee98af80e5bdee75bb2e68b9010a97861685e7db429fa"
+      "currentHash": "426da0c226d5fe3a014e5c856b72fecee598e38872cbd28f2bee5839d164c5b9"
     }
   },
   {
     "id": "104369",
     "contentStatus": "beta",
-    "name": "Guide to Diligence",
+    "name": "Guide to Fortitude",
     "rarity": 3,
     "type": "Character Talent Material",
-    "description": "Character Talent Material.\\nEndurance is the hallmark of the land of Cryo.\\nEndurance brings the will to grow. Even when crushed by the bitter cold, the weak seed may still use this will to break through the soil and sprout anew upon the frozen earth.",
+    "description": "Talent Level-Up material.\\nFortitude is the defining character of the frozen realm.\\nIt brings forth the will to grow. Though shattered by the bitter cold, a fragile seed can still harness this will to break through the frozen earth, pushing forth fresh sprouts to life across a landscape blanketed in wind and snow.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_104369.webp"
     },
     "liveComparison": {
-      "currentHash": "4eb81a51925842e9faa00b79620f56a2c62e1d2e5d8818fa6f85f3d694ecfad3"
+      "currentHash": "0d1fddf492dfe2a7b729159c96f343e04a97927f4a5dc18dfb273966583cd37e"
     }
   },
   {
     "id": "104370",
     "contentStatus": "beta",
-    "name": "Philosophies of Endurance",
+    "name": "Philosophies of Fortitude",
     "rarity": 4,
     "type": "Character Talent Material",
-    "description": "Talent Level-Up Material.\\n\"Admonition\" is the character of the land of Cryo.\\nPersistence leads to the prosperity of life. Mankind has never bowed to the bitter cold, much like how frail seeds insist on blooming amidst the wind and snow; civilization flourishes through hardship, much like the Frostbearing Flower blooming year after year in the freezing winter.",
+    "description": "Talent Level-Up material.\\nFortitude is the defining character of the frozen realm.\\nIt breeds the prosperity of life itself. The people here have never bowed to the biting cold, just as a fragile seed defiantly chooses to bloom amidst the blizzards. This civilization has witnessed centuries of bitter winter, yet remains vibrant much like the Frostfairy Flower that flourishes season after season.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_104370.webp"
     },
     "liveComparison": {
-      "currentHash": "7058beef86f3ae0e5bc4ad7aebc2736fd23772c5cbcfc798b5beb18198d9a64d"
+      "currentHash": "7cb67e85b6ae51ac8815f2170337884a1fd992c3d52535c15cb3763b115e69f9"
     }
   },
   {
@@ -33220,26 +33220,26 @@
     "name": "Teachings of Glory",
     "rarity": 2,
     "type": "Character Talent Material",
-    "description": "Talent Level-Up Material.\\n\"Praxis\" is the faith of the land of Cryo.\\nIt is a kindling buried deep beneath the frozen earth. To depict its form is to gain the courage to face the Sheer Cold.",
+    "description": "Talent Level-Up Material\\nGlory is the sacred faith of the frozen realm.\\nIt is a spark buried deep beneath the frozen soil; if one can but trace its true form, they shall grant themselves the courage to stand against the biting cold.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_104371.webp"
     },
     "liveComparison": {
-      "currentHash": "1cf292073a9e7672ec391588da535d83ab7a9a064802150b697508da8b777c82"
+      "currentHash": "3b6408c8d2d485dd999e88e3ced33d3091a222e78d9b25dfd2aa459c74373f21"
     }
   },
   {
     "id": "104372",
     "contentStatus": "beta",
-    "name": "Guide to \"Prosperity\"",
+    "name": "Guide to Glory",
     "rarity": 3,
     "type": "Character Talent Material",
-    "description": "Talent Level-Up Material.\\n\"Glory\" is the faith of the Land of Cryo.\\nGlory is the flickering flame in the Long Night, and all those who trek across the snowfields keep their eyes fixed on its direction. Just as they believe the blizzard will cease and the Dawn will come, they are certain that they remain on the path they are meant to walk.",
+    "description": "Talent Level-Up Material\\nGlory is the sacred faith of the frozen realm.\\nIt is an ember flickering in the deep night, a beacon upon which all who trek across the snowfields fix their gaze. Just as they are certain the blizzards will wane and the dawn will break, they are certain that the path they tread remains the true one.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_104372.webp"
     },
     "liveComparison": {
-      "currentHash": "d7e6ce849ccb3b6049f894321685946002288a127280cef6ababe4b7ddfed002"
+      "currentHash": "04f5b2c2769230709f008fe42d4e2fe59e0f2dc5b8a76ca6d96696c425bda428"
     }
   },
   {
@@ -33248,12 +33248,12 @@
     "name": "Philosophies of Glory",
     "rarity": 4,
     "type": "Character Talent Material",
-    "description": "Talent Level-Up Material.\\n\"Glory\" is the belief of the Land of Cryo.\\nGlory is the flame that never dies upon the torchstand, now surviving alongside the land of snow and wind. The flame ignites noble passion, and to maintain its eternal burning, the people are willing to sacrifice everything they have.",
+    "description": "Talent Level-Up Material\\nGlory is the sacred faith of the frozen realm.\\nIt is the undying flame upon the beacon hearth, bound now to live or die with the frozen realm. The flame ignites a noble passion, and to sustain its eternal burn, the people would gladly offer up their all.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_104373.webp"
     },
     "liveComparison": {
-      "currentHash": "9502fd7b1ee5a59326ec0e0d2d9d6001e9a31e61004f7b0b5f8d8e30ab16520c"
+      "currentHash": "ace1c6539548c1d626dbd9ea1f7095558cc778abb4221388b5fe2144a2c0ca41"
     }
   },
   {
@@ -33885,25 +33885,26 @@
     "name": "Cyroculus",
     "rarity": 0,
     "type": "Adventure Item",
+    "description": "A substance that has accumulated intense Cryo energy. Offer it to the Statue and help reinstate the power it has lost over the years.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_107035.webp"
     },
     "liveComparison": {
-      "currentHash": "de80b32c3616645fbf404b1db9bbae752b50ed39d6dbb543be13610182ab6b78"
+      "currentHash": "0479d43142da9d6c068d740f7ac00a1b554c5cc7e63a19e99f417969bc9b1636"
     }
   },
   {
     "id": "107036",
     "contentStatus": "beta",
-    "name": "Ei Wingdrop",
+    "name": "Shadow Wingdrop",
     "rarity": 0,
     "type": "Adventure Item",
-    "description": "A strange liquid substance formed from a creature born in the Ei domain.",
+    "description": "A strange, liquefied substance left behind by a creature born within the Shadow Realm.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_107036.webp"
     },
     "liveComparison": {
-      "currentHash": "f34808e3df0c1bade4497344c90dbfcd460abbb1aea396189f9f11a5c1e97fe4"
+      "currentHash": "3f7961e2e06f350aa26ea125dbfa815046aa968352d10df3b538e2e9130ab62a"
     }
   },
   {
@@ -56804,169 +56805,169 @@
   {
     "id": "112146",
     "contentStatus": "beta",
-    "name": "Phantasmagorical Dust",
+    "name": "Ethereal Glimmershard",
     "rarity": 1,
     "type": "Character and Weapon Enhancement Material",
-    "description": "A remnant left behind by a Snezhnayan beast after battle.\\nTiny shards that grew upon the creature's body, losing their color once they fell off, much like the scales of a moth.",
+    "description": "The remains of a Snezhnayan fae left behind after battle.\\nThese shards once coated the creature's body like crystalline scales. Upon falling away, they stripped themselves of all colors, shifting into something akin to the dusty dross of a moth's wings.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112146.webp"
     },
     "liveComparison": {
-      "currentHash": "8db1fc91ce0b0cb843c5de6342e0fffc9d106f2975881ea850101093e195a947"
+      "currentHash": "7ab2c50986361cb449407d0ea76b55329ceeb50ac88658ac82e8b6cdcb620b35"
     }
   },
   {
     "id": "112147",
     "contentStatus": "beta",
-    "name": "Phantasm Crystal",
+    "name": "Ethereal Crystal",
     "rarity": 2,
     "type": "Character and Weapon Enhancement Material",
-    "description": "A remnant left behind by a Snezhnayan Fairy after battle.\\nFragments of crystal that grow on the surface of a Fairy's body. Though they are now hollow, one can still sense the unique power that once resided within them.",
+    "description": "The remains of a Snezhnayan fae left behind after battle.\\nA shattered fragment of the crystalline scales that once grew upon the fae's body. Though it is now a mere empty shell, one can still sense the echo of the unique power that once dwelt within.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112147.webp"
     },
     "liveComparison": {
-      "currentHash": "4343c4f1560a6ffe50e3524d789c749b075f013d25f64d47f31317231fc19c78"
+      "currentHash": "300a812ffc8fc2d06dfb42baa478267fbd96851a1e432af27082b8fb4815339f"
     }
   },
   {
     "id": "112148",
     "contentStatus": "beta",
-    "name": "Dreamy Crystal Koku",
+    "name": "Ethereal Crystalscale Stone",
     "rarity": 3,
     "type": "Character and Weapon Enhancement Material",
-    "description": "Residue left behind by a Snezhnayan Fae after battle.\\nElemental Shards that grow upon the surface of a Fae's body. It is said that Fae with more shards on their bodies are able to command greater power. However, no one knows if that power resides within their bodies and is merely radiated by these crystal chunks, or if the crystal chunks themselves are the vessels for that power.",
+    "description": "The remains of a Snezhnayan fae left behind after battle.\\nA crystalline scale that once grew upon the fae's body. It is said that fae possessing a greater abundance of these scales command far greater power. Yet, none can say whether this magic truly originates from within their forms — merely channeled outward through the crystal chunks — or if the chunks themselves are the very vessels of their power.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112148.webp"
     },
     "liveComparison": {
-      "currentHash": "cb33613ec805a77b8bbef858d3da8a5c568b8786a41a42f36a1a62183554c096"
+      "currentHash": "5092d102576bd9de0e6246dfa14c427f586995bcc5deb5d24f7c0edebaeeeb4b"
     }
   },
   {
     "id": "112149",
     "contentStatus": "beta",
-    "name": "Chimera",
+    "name": "Chimeric Core",
     "rarity": 1,
     "type": "Character and Weapon Enhancement Material",
-    "description": "The core from within a chimera beast.\\nA basic core that grows inside a chimera beast. Even the most basic core contains the blueprint for the growth of all craft creations.",
+    "description": "The internal core harvested from aberrant man-made monsters.\\nThis is the most fundamental core grown within a man-made monster. Yet, simple as it may be, it contains the primordial design for the growth of all man-made creations.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112149.webp"
     },
     "liveComparison": {
-      "currentHash": "f60a125e0ba18f15159bfb1aac44a87dc96f52f6afc8b74d78f9ba9259b69eea"
+      "currentHash": "f4f60cbc2e8c409449e0f7cd96ce4c17fe75d41d39e42e7418ec15bc8113fd18"
     }
   },
   {
     "id": "112150",
     "contentStatus": "beta",
-    "name": "Symbiotic Chimera Cell",
+    "name": "Symbiotic Chimeric Nucleus",
     "rarity": 2,
     "type": "Character and Weapon Enhancement Material",
-    "description": "The core from within a chimera beast.\\nA relatively complex core found inside a chimera beast. A conjoint core implies that it is meant to drive the life cycles of two different entities to form a single organism.",
+    "description": "The internal core harvested from aberrant man-made monsters.\\nA relatively complex core harvested from a man-made monster. This symbiotic nucleus is engineered to sustain the biological cycles of two distinct life-forms, seamlessly weaving them into a single organism.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112150.webp"
     },
     "liveComparison": {
-      "currentHash": "4cacae54d7a013d1b75070eb6ba585116c6fd5503613b09528b98b52755e9af2"
+      "currentHash": "cde0a24dccd09e1ad45cb0230c0dbf86cdb5d12da2da48c83059873bbbba97d1"
     }
   },
   {
     "id": "112151",
     "contentStatus": "beta",
-    "name": "Primordial Chimera",
+    "name": "Genesis Chimeric Nexus",
     "rarity": 3,
     "type": "Character and Weapon Enhancement Material",
-    "description": "The core within a xenogenic chimera.\\nIt is the most complex core that a chimera can withstand—a seed of life that has been artificially planned yet is perfect. Perhaps the person who created it has already grasped how life itself is shaped.",
+    "description": "The internal core harvested from aberrant man-made monsters.\\nThe most complex core a man-made monster can possibly sustain, serving as an artificially engineered yet flawless seed of life. Whoever brought this creation into life has surely unlocked the very secrets of how life itself is shaped.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112151.webp"
     },
     "liveComparison": {
-      "currentHash": "706a5cf904fc4a11a49b920a6dd00a10c196296d241d75348372a0bdc748df37"
+      "currentHash": "141d06a1443ee3a49a840296b357e9e06b8549d73092149447b8e204db08e3f1"
     }
   },
   {
     "id": "112152",
     "contentStatus": "beta",
-    "name": "Sediment Fragment",
+    "name": "Accreted Fragment",
     "rarity": 2,
     "type": "Character and Weapon Enhancement Material",
-    "description": "Sedimentary residue formed by powerful Volkodlak.\\nInitially clinging to internal organs or bones, this residue may eventually grow to completely cover an entire body part or organ as its power increases.",
+    "description": "An accretion formed by powerful Volkodlak.\\nAn accretion that has only just begun to attach to an internal organ or bone. As the Volkodlak's power grows, it may eventually cover an entire region of the body, or a whole organ.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112152.webp"
     },
     "liveComparison": {
-      "currentHash": "7799a7b7343c248cd0935088e7a6f202f6711eedfb21c2f3d28e1c82b73a6cab"
+      "currentHash": "66213ca6c15149288612ed886dee4783db263002ed0d8967ed0ff9b5319f5554"
     }
   },
   {
     "id": "112153",
     "contentStatus": "beta",
-    "name": "Sediment Clot",
+    "name": "Accreted Mass",
     "rarity": 3,
     "type": "Character and Weapon Enhancement Material",
-    "description": "Residue formed by powerful Volkodlak.\\nResidue that has long since adhered to internal organs or bones. Once extracted, these remnants are considered symbols of power and are carefully preserved by the descendants of the clan.",
+    "description": "An accretion formed by powerful Volkodlak.\\nAn accretion that has clung to an internal organ or bone for a long time. Once removed, such accretions are regarded as symbols of power and carefully preserved by the creature's descendants.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112153.webp"
     },
     "liveComparison": {
-      "currentHash": "7024f30d53356ab63c0f7ebf54623b4432817016623cf7c93553be50c691f955"
+      "currentHash": "daeed7decbdb4e5a00dbd4c939e555fad62d043c70f482011bf27efc050d3154"
     }
   },
   {
     "id": "112154",
     "contentStatus": "beta",
-    "name": "Crystalline Cyst",
+    "name": "Accreted Growth",
     "rarity": 4,
     "type": "Character and Weapon Enhancement Material",
-    "description": "Sedimentary residue formed by powerful Volkodlaks.\\nResidue that still retains attached organs or bones; it can even be said that new bones or organs have proliferated at the nodes of its power cycle. Only Volkodlaks with long lifespans and unceasing cultivation can form such accretions within their bodies.",
+    "description": "An accretion formed by powerful Volkodlak.\\nAn accretion that has fully fused with an organ or bone. One could even say it's a newly grown bone or organ at the nodes of the Volkodlak's power circulation. Only long-lived Volkodlaks who have ceaselessly honed their strength can form such growths within their bodies.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112154.webp"
     },
     "liveComparison": {
-      "currentHash": "d1cd7b4553ef0d0af50c189ac843d4df21ab395b037ef8e6caf7b9618a423433"
+      "currentHash": "4ec838c32d48421e043ca3a2499dd3e969d8c23139353086cbdea030174bc2db"
     }
   },
   {
     "id": "112155",
     "contentStatus": "beta",
-    "name": "Aether-Life Root",
+    "name": "Hollow Root of Life",
     "rarity": 2,
     "type": "Character and Weapon Enhancement Material",
-    "description": "A branch dropped by a Leshy before it returned to silence.\\nA branch without many crystals grown on it, a branch with weak power, emitting a faint glow.",
+    "description": "A branch dropped by a Leshy before it returned to silence.\\nWith only a few crystals grown upon it, this branch holds little power and gives off a faint glow.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112155.webp"
     },
     "liveComparison": {
-      "currentHash": "526799b9ce2c3df9cb8b8184ee705c4e342f8ece5ccb63edb85fafe22df1d175"
+      "currentHash": "1a759a5e3bb78829693db27a59f6e11c9ebac4146f72c2c277744d3138be82ab"
     }
   },
   {
     "id": "112156",
     "contentStatus": "beta",
-    "name": "Crystalline Sprout",
+    "name": "Sprout Node of Life",
     "rarity": 3,
     "type": "Character and Weapon Enhancement Material",
-    "description": "A branch dropped by a Leshy before it fell silent.\\nThis heavy branch has sprouted crystals, and you can still feel the lingering life force that persists even after it has left the main body of the Leshy.",
+    "description": "A branch dropped by a Leshy before it returned to silence.\\nA branch bearing a fair number of crystals. It feels heavy in the hand, and traces of vitality can still be felt within it even after it has broken away from the Leshy's body.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112156.webp"
     },
     "liveComparison": {
-      "currentHash": "f277482d033ab513aba8800879878a1e635d709ec95f31a70132f3fff7fbd765"
+      "currentHash": "f473f1c6ba48425fd2b1c9de66aeb3832e4d26e1e37857973e95306e949665a1"
     }
   },
   {
     "id": "112157",
     "contentStatus": "beta",
-    "name": "Everliving Branch of the Heart",
+    "name": "Coiled Core of Life",
     "rarity": 4,
     "type": "Character and Weapon Enhancement Material",
-    "description": "A branch dropped by a Leshy before it returned to silence.\\nThis branch has grown a complete crystal core, containing a vitality that will not easily fade. If one were to bury it in the earth now, it would likely grow into a new Leshy in no time.",
+    "description": "A branch dropped by a Leshy before it returned to silence.\\nA branch with a fully formed crystal core. It contains vitality that will not easily fade. If buried in the soil, it would likely grow into a new Leshy before long.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112157.webp"
     },
     "liveComparison": {
-      "currentHash": "d497270c7a1e75aa98af1d355d16db679e8c97688c4410fde09b89292dea341f"
+      "currentHash": "8a32409510c640fb35d116cae7497be38cc664e6595d7944244d99450f4b7951"
     }
   },
   {
@@ -58307,29 +58308,29 @@
   {
     "id": "113090",
     "contentStatus": "beta",
-    "name": "Ever-Flame Seed",
+    "name": "Unscorched Blossom Branch",
     "rarity": 4,
     "type": "Character Level-Up Material",
-    "description": "An ever-burning flower branch taken from a synthetic beast created by someone for selfish reasons, which will not wither in flames.\\nBefore the somber alchemist discovered and put into practice a method to achieve eternal life, he would stroke the shell of the synthetic beast he had created, whose leaves were like red feathers. He imagined the scene of his undying synthetic creature welcoming the long-awaited friend from the flames; perhaps he should pluck an eternal flower from his creation's body as a gift to celebrate the friend's escape from the realm of shadows.",
+    "description": "A blossom branch taken from a monster created by someone to serve their selfish desires. It won't wither or burn in flame.\\nBefore the gloomy alchemist found a way to grant life eternity and put it into practice, he once ran his hand gently over the body of his creation — a monster whose leaves resembled crimson feathers. He imagined the undying creature greeting the friend he had awaited for so long from within the flames. Perhaps he should pluck a flower from his creation's body as a gift to mark that friend's escape from the realm of shadows.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_113090.webp"
     },
     "liveComparison": {
-      "currentHash": "73312e14e782501a6903d3925a5b2f60dfa6d9a8d653c1a61115ef34a526779d"
+      "currentHash": "b25c81216d33ba43cfc36c4d883d0a8373425254f712be53a82c1075977ee39a"
     }
   },
   {
     "id": "113091",
     "contentStatus": "beta",
-    "name": "Broken Tail of the Aether-Drifter",
+    "name": "Severed Tail of the Sky-Roamer",
     "rarity": 4,
     "type": "Character Level-Up Material",
-    "description": "A tail feather from a powerful Crafted beast.\\nPerhaps even a Crafted beast deserves to seek its own destiny, so as not to find itself discarded in a bitter plight. Driven by this thought, those who shape these monsters often favor adding wings to their creations. Yet, while many creatures in this world possess wings, only a small few truly learn how to fly. Perhaps that is what they call \"fate.\"",
+    "description": "The tail feather of a powerful chimeric monster.\\nPerhaps even a created monster ought to seek out its own destiny, lest it be cast into suffering by another's hand. With such thoughts in mind, the one who made these monsters was fond of giving his creations wings. Yet there are many winged creatures in this world, and only a small few ever truly learn to fly. Perhaps that, too, is what they call providence.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_113091.webp"
     },
     "liveComparison": {
-      "currentHash": "ee0a9aa17e9be0b1aca2a370b11c8ab0330d4003b366ad8f117fdff4e6233fc8"
+      "currentHash": "743cd43273f5430935dbeedc23eebb6475ecf37594a55f1527a37bdf950ff656"
     }
   },
   {
@@ -59595,169 +59596,169 @@
   {
     "id": "114085",
     "contentStatus": "beta",
-    "name": "The Stirring of the Pale Star Host",
+    "name": "Rise of the Pale Star Army",
     "rarity": 2,
     "type": "Weapon Ascension Material",
-    "description": "Material used for Weapon Ascension.\\nIn the frozen lands of the east, the arrogant monster born within the winged mountains is but a vile peddler of malt and minerals.\\nThe Vilas that serve him are merely weaklings with insect wings, and the Domovoy cannot even lift weapons with their stubby arms.\\nWho would ever heed the clamor of such a rabble, and what power do they have to halt the advance of the Beast Lords?",
+    "description": "Weapon Ascension Material.\\nIn the east of the tundra, that arrogant monster born within the wing-like mountain is nothing more than a lowly peddler of malt and minerals.\\nThe Vila under his command are but weaklings with insect wings, while the Domovoy cannot even lift weapons with their stunted arms.\\nWho would heed the clamor of such rabble? What strength could they possibly have to stand against the onslaught of the kings of Volkodlak?",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_114085.webp"
     },
     "liveComparison": {
-      "currentHash": "48e23f0650ab763d8fadd465e4a6b52afbaeaf013f2cc271d030c52a7ec87049"
+      "currentHash": "8209840df69dd28c5b414bd3d71138207f3e137ff1bae9e2994115ec4bf2e050"
     }
   },
   {
     "id": "114086",
     "contentStatus": "beta",
-    "name": "The Gathering of the Pale Star Host",
+    "name": "Muster of the Pale Star Army",
     "rarity": 3,
     "type": "Weapon Ascension Material",
-    "description": "A material used to grant weapons the power to Ascend.\\n\"Those ridiculous, arrogant fools who occupy the canyon by mere luck are nothing but a spent force, a gust of wind losing its strength.\"\\n\"They can barely hold back our forces with all their might, and soon they shall show signs of defeat.\"\\n\"Soldiers, keep advancing! For the Beast King's decree has spoken, and victory in this entire campaign shall be ours with ease!\"",
+    "description": "Weapon Ascension Material.\\n\"They seized the canyon by sheer luck. That laughably arrogant fool is no more than a spent bolt, a fading gale.\"\\n\"Even with all their strength, they can barely hold back a fraction of our forces. Soon enough, their defeat will be plain to see.\"\\n\"Soldiers, march onward! For our king has already foretold, for this entire campaign shall end in effortless victory!\"",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_114086.webp"
     },
     "liveComparison": {
-      "currentHash": "747458b353baaa3312fee15816a3c728d565b70b4c79110e5e3d81f45708a06d"
+      "currentHash": "335ff8c28da7822b7867cb6d9eeb7739cf8570b9e0e07647f5a396ebf309bc98"
     }
   },
   {
     "id": "114087",
     "contentStatus": "beta",
-    "name": "Command of the Pale Star's Host",
+    "name": "Clarion of the Pale Star Army",
     "rarity": 4,
     "type": "Weapon Ascension Material",
-    "description": "A material used for Weapon Ascension.\\n\"Our foe, Monomakh, has built his palace beyond the valley, which means he is fully confident in his ability to contend with us.\"\\n\"It now appears that he deserves our utmost caution; talk of a swift victory is no longer appropriate.\"\\n\"But it does not matter. The King who leads the spirits with wisdom shall surely unite with all clans to overcome every hardship and march toward a glorious new era!\"",
+    "description": "Weapon Ascension Material.\\n\"Our enemy Monomakh has built his palace beyond the valley, a sign that he is fully confident in his ability to contend with us.\"\\n\"As matters stand, he deserves our utmost caution. Any talk of a swift victory should now be set aside.\"\\n\"But it matters not. With wisdom to guide us all, the King shall stand with the clans to overcome every hardship and usher in a glorious new era!\"",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_114087.webp"
     },
     "liveComparison": {
-      "currentHash": "fdf94d7f2103863765890454f0ceac224a0583ca66d43fd8bd724186fab104fc"
+      "currentHash": "104fb91ddfd5dc1ac1c9a224af99bd328d8616dd40ef56f9dbcd9d7cb13bb44f"
     }
   },
   {
     "id": "114088",
     "contentStatus": "beta",
-    "name": "Conquest of the Pale Star Host",
+    "name": "Triumph of the Pale Star Army",
     "rarity": 5,
     "type": "Weapon Ascension Material",
-    "description": "A material used to unlock a weapon's potential.\\n\"All-protector of all Fae, bearer of the Pale Star, our Emperor born of sacred blood, the Belyi Tsar!\"\\n\"Praise be, for the entire frozen plain is now unified under the radiance of the Pole Star.\"\\n\"Praise be, for the Tsar who slew the false king has embraced all the Fae—what benevolence, what mercy!\"",
+    "description": "Weapon Ascension Material.\\n\"All hail the Tsar, Protector of all fae, Heir to the Pale Star, sovereign born of sacred blood!\"\\n\"Praise be, for the entire tundra now stands as one beneath the brilliance of the Polestar!\"\\n\"Praise be, for His Majesty has slain the false king and embraced all fae. Such is his benevolence, such is his mercy!\"",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_114088.webp"
     },
     "liveComparison": {
-      "currentHash": "be335c52249c8ef1d364a53d104cbb50f7903baf2a5257e79c5d81ff02faf805"
+      "currentHash": "1c0bcbdf7eee751f1c59c6191d200d0ebd423d688e084fbb4db89b20d76643e6"
     }
   },
   {
     "id": "114089",
     "contentStatus": "beta",
-    "name": "Deliberation of the Cellar Nectar",
+    "name": "Measured Pour of the Cellared Spiritual Nectar",
     "rarity": 2,
     "type": "Weapon Ascension Material",
-    "description": "Material used for Weapon Ascension.\\nA light that once shimmered like an aurora across the northern sky was extinguished upon encountering a gaze from the highest heavens.\\nThe calamity of extreme cold and black crystals nearly destroyed the very foundations of life.\\nOnly the many fairies, who feared not the cold, emerged from the ice and snow to rule over a realm where no human life remained.",
+    "description": "Weapon Ascension Material.\\nThe radiance that once gleamed like the aurora in the northernmost sky was extinguished when it met the gaze from high above.\\nThe calamity of bitter cold and black crystal nearly destroyed the foundations upon which all life endured.\\nOnly the fae, unafraid of the cold, were able to emerge from the ice and snow to rule over the deserted realm.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_114089.webp"
     },
     "liveComparison": {
-      "currentHash": "a9877882a4acbec1bde827dccc99d5a61ecf6c772292ee59dc2218e1d6f24217"
+      "currentHash": "177a0edc20d583911e546adfbb8409a00bc7b6f4f96c25157afdcb9f23ec6262"
     }
   },
   {
     "id": "114090",
     "contentStatus": "beta",
-    "name": "Drunkard's Spirit of the Cellar",
+    "name": "Intoxication of the Cellared Spiritual Nectar",
     "rarity": 3,
     "type": "Weapon Ascension Material",
-    "description": "A material used to grant weapons the power to ascend.\\nWhile elsewhere it is but a celebration of a bountiful harvest, for those who tread through the Sheer Cold, it is a necessity for survival.\\nIt is said that the Domovoy, whose brewing techniques were the finest, once relied on this craft to amass riches in the treasuries of the kings they served.\\nThus, the fey brew flowed through the trade between clans like poisoned honey, spreading across the entire frozen land.",
+    "description": "Weapon Ascension Material.\\nWhat others enjoy as a festive indulgence after a bountiful grain harvest is a necessity of survival for the clans who walk through the bitter cold.\\nIt is said that the Domovoy, whose mastery of brewing was without equal, once relied on this art to enrich the treasury of the king they served.\\nAnd so, passed from clan to clan through trade, the fae's brew flowed across the frozen lands like honey laced with poison.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_114090.webp"
     },
     "liveComparison": {
-      "currentHash": "35682927e46681f417a2e3bc7c4da9d10e15fa7f6aa63b658f2a1dafe951e650"
+      "currentHash": "d089749b197b22ad8166fd3eb1623063110bd435271ea5937bbaa97864f1be9e"
     }
   },
   {
     "id": "114091",
     "contentStatus": "beta",
-    "name": "Exhilaration of the Cellar Elixir",
+    "name": "Exhilaration of the Cellared Spiritual Nectar",
     "rarity": 4,
     "type": "Weapon Ascension Material",
-    "description": "A material used for Weapon Ascension.\\nIt is said that in the past, countless flagons of fine spirits were poured into the Frozen Lake.\\nSome say it was a supply of wine for war that had to be destroyed due to a blunder, while others claim a Domovoy Archduke lost a wager with the Lord of the Water Imps.\\nIt was not until a blue, inextinguishable flame erupted upon the lake's surface, and the enemies beneath the waves churned in the suffocating currents, that they realized: in the hands of those who understand the flux of the world, water can also be Pyro, and elixirs can be deadly poison.",
+    "description": "Weapon Ascension Material.\\nLegend has it that long ago, countless casks of fine wine were poured into a frozen lake.\\nSome say the wine was intended as wartime provisions, had to be destroyed after some mishap. had to be destroyed after something went awry. Others say a certain Grand Duke of the Domovoy had lost a bet to the Lord of the Water Imp.\\nOnly when unquenchable azure hellflame spread across the lake, and the foes below writhed in choking waves, did they come to understand:\\nIn the hands of the people well versed in the turning of the world, water itself could burn, and even the sweetest nectar could prove deadlier than poison.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_114091.webp"
     },
     "liveComparison": {
-      "currentHash": "6e5b9e9393a3e6a73fab6923948c7d934ea1a2c45fb2a666808dcc6c425c8b7a"
+      "currentHash": "afd5a890723fc6c82edb1fe6fa3ae5d9f0174e575306b6786bc5d57d0991bd7b"
     }
   },
   {
     "id": "114092",
     "contentStatus": "beta",
-    "name": "Libation of the Cellar-Lord's Whim",
+    "name": "Revelry of the Cellared Spiritual Nectar",
     "rarity": 5,
     "type": "Weapon Ascension Material",
-    "description": "A material used to aid in Weapon Ascension.\\nFor the Archduke of the Domovoy, who oversees crystal mining and the development of the frozen lands, carving out an oasis in the polar regions is a mere trifle, as is the transplanting of superior rye from elsewhere.\\nAmong the many fae nobles that have persisted in Snezhnaya to this day, his status is unparalleled.\\nYet, the fire of a growing ambition burns down his throat, and like the greed of ancient fae, it grows with the passing years, knowing no bounds.",
+    "description": "Weapon Ascension Material.\\nThe Grand Duke of the Domovoy commanded the crystal mines and the development of the frozen lands. To him, carving an oasis out of the polar wastes was a mere trifle, and importing rye of better quality was no difficult task either.\\nEven among the many fae nobles who had endured in Snezhnaya to this day, none could rival the splendor of his status.\\nYet the flame of ambition burned ever brighter, licking its way down his throat, while the ancient fae's greed swelled with the years and knew no end.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_114092.webp"
     },
     "liveComparison": {
-      "currentHash": "42168b9d94bee5a3021de74a2a4ca3b6d4858428ab4c8d17de00cb947dad41d8"
+      "currentHash": "c8f436baaa33430e48c1bdc36bc37ff557405c5a6ae988bbe01a071e50306e2b"
     }
   },
   {
     "id": "114093",
     "contentStatus": "beta",
-    "name": "Resurrection of the Frost Sovereign",
+    "name": "The Frost Emperor's Revival",
     "rarity": 2,
     "type": "Weapon Ascension Material",
-    "description": "Material used for Weapon Ascension.\\nBefore he became the master of the entire snowfield, the hero who emerged from the frozen wastes already had a habit of confiding too much in those around him.\\nThus, he was deeply surprised when he received a gift from an elemental spirit of frost that had yet to take on a human form.\\nTo him, he could not recall ever telling that being of his birth from an egg of frost, high among the peaks where the wings of birds could barely reach, nor had he ever mentioned the date of that day.",
+    "description": "Weapon Ascension Material.\\nThe hero emerged from the snowfields had yet to become the ruler of that frozen realm, but even then, he already shown a habit of confiding far too much to those around him.\\nSo he was all the more surprised when he received a gift from the fae of snow, who at the time had not yet taken their human form.\\nAs far as he knew, he never told them that he was born from an egg as pale as ice deep within the wing-like mountains, nor did he ever mention the date of his birth.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_114093.webp"
     },
     "liveComparison": {
-      "currentHash": "e06f8a2ad99fd29b1e230bb23900e929dcb598dd65e3cf833a6fba49046dec28"
+      "currentHash": "f1a33c758fe6f02a7597b20ece3d001b7132d9f8b212f2a17361d38989311211"
     }
   },
   {
     "id": "114094",
     "contentStatus": "beta",
-    "name": "Ceremonial of the Frost Sovereign",
+    "name": "The Frost Emperor's Ceremony",
     "rarity": 3,
     "type": "Weapon Ascension Material",
-    "description": "A material used to unleash the strength of weapons.\\nThe fairies of the court did not understand why a gift presented to the Tsar was crafted into such a shape; they merely heaped craftsmanship onto accessories like jewels.\\nOnly the Tsar upon the throne and the spirit of Cryo knew the meaning behind this accessory.\\nWhat mattered was never the ceremony, but the ancient verity held within it.",
+    "description": "Weapon Ascension Material.\\nThe fae of the court didn't understand why a gift meant for the Tsar must be made in such shape. They knew only to lavish their craft upon ornaments bright as jewels.\\nOnly the Tsar seated upon the throne and the fae of snow understood the meaning behind it.\\nFor what mattered was never the ceremony, but the ancient truth it preserved.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_114094.webp"
     },
     "liveComparison": {
-      "currentHash": "ae14b0fbe87a9b6a6dda343f0bd0920a45ab9d5aaa01b6eaa7948f62ac321707"
+      "currentHash": "488285096acfd83ad5fb9b0623ebc3257a1dfdb74d3522341590cbf3e8de2fc1"
     }
   },
   {
     "id": "114095",
     "contentStatus": "beta",
-    "name": "Lament of the Frost-Veiled Emperor",
+    "name": "The Frost Emperor's Lament",
     "rarity": 4,
     "type": "Weapon Ascension Material",
-    "description": "Material used to increase the power of a weapon's ascension.\\nOn a night when the truth began to ripple like bitter water, she, no longer who she once was, prepared this gift for a friend upon the throne.\\nBoth felt that it would be the last time they would ever speak in such a way.\\nFor after that, the path they had walked together would fall apart, severed by the weakness of one and the wrath of the other.",
+    "description": "Weapon Ascension Material.\\nIt was a gift she prepared for her friend upon the throne, on the night when the truth stirred like bitter waters, though she was no longer what she had once been.\\nThey both seemed to understand that they might never speak to each other like this again.\\n",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_114095.webp"
     },
     "liveComparison": {
-      "currentHash": "55b6f9e2f167ffe2ec6baa63c978d4e7c5100a4f50b3b1e122c34d4112d91ca2"
+      "currentHash": "14bb8ac9ec0a4c59fbdf4855af1bf7d1871a333e05635c33bb1040d3789eb48c"
     }
   },
   {
     "id": "114096",
     "contentStatus": "beta",
-    "name": "Gash of the Frost-Blade Emperor",
+    "name": "The Frost Emperor's Farewell",
     "rarity": 5,
     "type": "Weapon Ascension Material",
-    "description": "A material used to grant a weapon the power to ascend.\\nOn the eve of war, it appeared upon the table, though no one knew when or how.\\nHe knew it was crafted by the hands of a friend he had not seen in a long, long time.\\nAs the heavens and earth remained unchanged, it was only then that he realized: this was the beginning of all calamities, the bitter fruit of all desires, and the omen of all destruction.",
+    "description": "Weapon Ascension Material.\\nAn object that appeared upon the table on the eve of war, though none knew when or how it'd come to be there.\\nHe recognized it for the handiwork of the friend he hadn't seen for many long years.\\nOnly then did he realize, that this was the beginning of every calamity, the bitter fruit of every desire, and the omen of every destruction.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_114096.webp"
     },
     "liveComparison": {
-      "currentHash": "2504b20b22b9113c8085d6e636e5c0d2e7731417f75e3da0a787166ff232c7f2"
+      "currentHash": "cb17ec7037ecf1e4b8523dfafd22f3d911d01d57f73b388033f6d57365c552cc"
     }
   },
   {
@@ -84402,14 +84403,14 @@
   {
     "id": "121593",
     "contentStatus": "beta",
-    "name": "Izmaylov Guard's Journal",
+    "name": "Izmaylo Guard's Journal",
     "rarity": 0,
     "type": "Quest Item",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_101633.webp"
     },
     "liveComparison": {
-      "currentHash": "78eb63a3ca077464faab07826144550ba6f85a93141c3d2c76ee85986cb42e04"
+      "currentHash": "e2ebe4b95371bb6cdc6c2daa51e0e9688e5681c863bbc1a1ea9aaa1657c61944"
     }
   },
   {
@@ -84815,14 +84816,15 @@
   {
     "id": "121627",
     "contentStatus": "beta",
-    "name": "纹路精巧的纽扣",
+    "name": "Intricately Patterned Button",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "A button beloved by the Jack Frost. Perhaps they love buttons so much because their round little hands cannot make anything so fine and light. Can be exchanged for goodies at the Jack Frosts' Goodies Shop.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121627.webp"
     },
     "liveComparison": {
-      "currentHash": "e211597acbe980eae87dcb3eaee8ed7d2243a72f9e7f6cd5c7923cd4936c6563"
+      "currentHash": "edc721929d26be00c80180313cd444f3bac1bffd332af3c912333adc2a3c9c81"
     }
   },
   {
@@ -84854,15 +84856,15 @@
   {
     "id": "121631",
     "contentStatus": "beta",
-    "name": "Winner's Trophy of the First Adventurer's Gala",
+    "name": "Champion's Trophy of the First Adventurers' Tournament",
     "rarity": 3,
     "type": "Quest Item",
-    "description": "A trophy issued by the Snezhnaya Adventurers' Guild headquarters, serving as proof of the excellence you and Paimon have achieved in the field of adventuring.\\nBecause discussions at the \"Adventurers' Guild Development Conference\" did not go smoothly, the \"First Adventurers' Tournament,\" originally intended to foster friendly exchanges between adventurers from all nations, turned into an arena for deciding who would hold the most sway...\\nYou and Paimon, as key figures in breaking the deadlock, joined the competition midway and saw your results skyrocket, eventually claiming the championship title and steering the direction of the conference to finalize several critical resolutions...\\nAlthough these resolutions may not show powerful effects immediately, they will surely enable the Guild to move with the times and allow more adventurers to benefit profoundly...",
+    "description": "A trophy awarded by the headquarters of the Adventurers' Guild in Snezhnaya. It stands as proof of the outstanding feats you and Paimon have achieved in the field of adventure.\\nAs discussions at the Adventurers' Guild Development Conference failed to progress smoothly, the First Adventurers' Tournament, originally meant to promote friendly exchange between adventurers of different nations, became an arena for deciding who would have the final say...\\nAs key figures in breaking the deadlock, you and Paimon joined the competition midway through and quickly rose through the ranks, ultimately claiming the championship, steering the course of the conference, and finalizing several key resolutions...\\nThough these resolutions may not have an immediate impact, they are sure to help the Guild keep pace with the times and bring greater benefits to more adventurers...",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121631.webp"
     },
     "liveComparison": {
-      "currentHash": "5d608f4bda082dece234d5a6415e773b699cd540bd9c7cf2bb874fa7991a5847"
+      "currentHash": "67b5fa6c93adafc8b75fb60a69e03ec3e68fa26b169efbcdf49103ee90e4737f"
     }
   },
   {
@@ -84882,154 +84884,154 @@
     "id": "121633",
     "contentStatus": "beta",
     "name": "???",
-    "rarity": 0,
+    "rarity": 3,
     "type": "Quest Item",
     "description": "???",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121633.webp"
     },
     "liveComparison": {
-      "currentHash": "b20ead359795a191f23284f89b6cbd30cfb669a5f7ddad2de20604d86dfddf43"
+      "currentHash": "51900eab87a134a552246860a31218260dcac71eab8e56be25ccc16d84e80b08"
     }
   },
   {
     "id": "121634",
     "contentStatus": "beta",
     "name": "???",
-    "rarity": 0,
+    "rarity": 3,
     "type": "Quest Item",
     "description": "???",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121634.webp"
     },
     "liveComparison": {
-      "currentHash": "7d91c4626ae2cd7c337949ac18bf5c50dc54f11ddbaa14499051b8575776ba3c"
+      "currentHash": "c0b59913700315d914dc23d3325bebfc48afc02fa0a712db5a3a64f1c05fbb56"
     }
   },
   {
     "id": "121635",
     "contentStatus": "beta",
     "name": "???",
-    "rarity": 0,
+    "rarity": 3,
     "type": "Quest Item",
     "description": "???",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121635.webp"
     },
     "liveComparison": {
-      "currentHash": "e92b15fe5c3ae727b99f937437f2ffa5f1272af9270bf2f61080245f3ec32c78"
+      "currentHash": "4601d6e5cceb4c6777c7c0c9d3e247bf51116830b057fcf211c93c4b2b8f13e2"
     }
   },
   {
     "id": "121636",
     "contentStatus": "beta",
     "name": "???",
-    "rarity": 0,
+    "rarity": 3,
     "type": "Quest Item",
     "description": "???",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121636.webp"
     },
     "liveComparison": {
-      "currentHash": "8357b9e1077e1ec174b08f94179ab46c144e84ce4230d7081f6877db14d3e168"
+      "currentHash": "3c432bf26cd5f809cc08313ac63e44bf500fdc7a4132e3ed8f2866cbf930bc97"
     }
   },
   {
     "id": "121637",
     "contentStatus": "beta",
     "name": "???",
-    "rarity": 0,
+    "rarity": 3,
     "type": "Quest Item",
     "description": "???",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121637.webp"
     },
     "liveComparison": {
-      "currentHash": "742243c9e5061423104080805a83944ef39b432794f06cc0b6256148c9633ff3"
+      "currentHash": "e04a885ddf62657f09e1dd1654744a0d7f3354423014fbf453c5ac9a45a8dd98"
     }
   },
   {
     "id": "121638",
     "contentStatus": "beta",
     "name": "???",
-    "rarity": 0,
+    "rarity": 3,
     "type": "Quest Item",
     "description": "???",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121638.webp"
     },
     "liveComparison": {
-      "currentHash": "e4f66789e6d0eaa3d05ab08a051c6ac3995a0eda14ecc83a8a673aced6fe139e"
+      "currentHash": "b3090bd0cf145a548a2f9e11946bfe089c426ae600ed2b6672ed710c4f021d48"
     }
   },
   {
     "id": "121639",
     "contentStatus": "beta",
     "name": "???",
-    "rarity": 0,
+    "rarity": 3,
     "type": "Quest Item",
     "description": "???",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121639.webp"
     },
     "liveComparison": {
-      "currentHash": "c12dc05be7a9bd4fdfb9d4e410234aae7814ae9000b6337f04852562683cafd7"
+      "currentHash": "9c55e04ada599226fa40872d0ee0b80b5c9869d6a2aba577d5a305fcf606cdd4"
     }
   },
   {
     "id": "121640",
     "contentStatus": "beta",
     "name": "???",
-    "rarity": 0,
+    "rarity": 3,
     "type": "Quest Item",
     "description": "???",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121640.webp"
     },
     "liveComparison": {
-      "currentHash": "be40d23e7ce0a60828d45d6306c3dc44b45398945c9a032800f4e56af8a9ecc6"
+      "currentHash": "495aea36ab9efef27e7bb1bcbdd07a962a8716cd210c66e8ad4cb6bd95fd3d75"
     }
   },
   {
     "id": "121641",
     "contentStatus": "beta",
     "name": "???",
-    "rarity": 0,
+    "rarity": 3,
     "type": "Quest Item",
     "description": "???",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121641.webp"
     },
     "liveComparison": {
-      "currentHash": "fe2e97e57794521ec07a5b68ef1536521ba5ace03e8fb03fddc33312fa6888e2"
+      "currentHash": "d8c0cd4f45bed02c589fedc4e45c6595dedcd2739780e97f78f94682a89622bb"
     }
   },
   {
     "id": "121642",
     "contentStatus": "beta",
     "name": "???",
-    "rarity": 0,
+    "rarity": 3,
     "type": "Quest Item",
     "description": "???",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121642.webp"
     },
     "liveComparison": {
-      "currentHash": "67f3a2d90a5deeeccd83e52726aa3dc68e42a7958a6487d41de373a0813a46aa"
+      "currentHash": "fd7d28ddcfd0e0ac5dcac5f4cd824e842a7a952cc92bc6341b5049188dc01eb6"
     }
   },
   {
     "id": "121643",
     "contentStatus": "beta",
     "name": "???",
-    "rarity": 0,
+    "rarity": 3,
     "type": "Quest Item",
     "description": "???",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121643.webp"
     },
     "liveComparison": {
-      "currentHash": "80c7daf21dee8ef431828e8a67e9a42da59bc0e2f7c7844d21a75587867f2b86"
+      "currentHash": "545f481080c5f22b074c5f044af4ffe98787848052b6921702050d03b584fa0d"
     }
   },
   {
@@ -85113,27 +85115,27 @@
   {
     "id": "121650",
     "contentStatus": "beta",
-    "name": "Order Diagram",
+    "name": "Order Illustration",
     "rarity": 0,
     "type": "Quest Item",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121630.webp"
     },
     "liveComparison": {
-      "currentHash": "df19e518d53549a202239ae0489790c6246fd86b1f9319d04524c6f7cb196f25"
+      "currentHash": "d2c83bd7c6e204d01a1bb23c1e2788d8c33d2960b3c1b77d0dfe5bd1f93fdb3e"
     }
   },
   {
     "id": "121651",
     "contentStatus": "beta",
-    "name": "Order Diagram",
+    "name": "Order Illustration",
     "rarity": 0,
     "type": "Quest Item",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121630.webp"
     },
     "liveComparison": {
-      "currentHash": "b2205f50781fa38559db8a927a144a94387790c3eca520454d8e3ec17168d487"
+      "currentHash": "4dc1935154fab0b5ed7e7152f79d0409fcc9787477e2a305c83931c0fdee3197"
     }
   },
   {
@@ -85222,43 +85224,43 @@
   {
     "id": "121659",
     "contentStatus": "beta",
-    "name": "Scent Trail of the Snow-Buried Ground",
+    "name": "Remnant Incense Guide - Snowgrave",
     "rarity": 4,
     "type": "Adventure Item",
-    "description": "Collect three Snow-Buried Scent Guides to open the Relic Vault in the White Birch Snow-Buried Land.\\nIt is said that in the past, expedition platoons would occasionally find that the treasures they discovered could not be removed from the Ei realms, so they would leave behind a specific \"scent trail\" at that location. Only by using the complete Scent Guide can one locate those Ei relic positions.",
+    "description": "Gathering three pieces of the Remnant Incense Guide - Snowgrave allows you to unseal the vault of Shadow Realm at the White Birch Snowgrave.\\nLegend has it that early squads exploring the Shadow Realm would occasionally find themselves unable to retrieve the treasures they discovered. In such cases, they would leave a specific \"scent trail\" behind. Only by piecing together the incense trail can one track down the locations of these long-lost relics.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121659.webp"
     },
     "liveComparison": {
-      "currentHash": "3a9fa5ecd19e5582ea11503bd98a31202435dd51949f5be293f0b5972d7623a6"
+      "currentHash": "fa712d666044b6434fa1eaaa5c2447073e974240661c2bad81359254b4424e48"
     }
   },
   {
     "id": "121660",
     "contentStatus": "beta",
-    "name": "Scent Guide of the Frost-Shattered Peak",
+    "name": "Remnant Incense Guide - Fellfrost Peak",
     "rarity": 4,
     "type": "Adventure Item",
-    "description": "Once you have collected three remnants of the Frost-Bitten Peak's Scent, you can open the Shadow Realm Relic Vault at the White Birch Snow Burial Ground.\\nIt is said that expeditions to the Shadow Realm in the past occasionally found that the treasures they discovered could not be removed from the realm, so they would leave specific \"scent trails\" behind. Only by using the complete scent trail can you locate the whereabouts of those Shadow Realm relics.",
+    "description": "Gathering three pieces of the Remnant Incense Guide - Fellfrost Peak allows you to unseal the vault of Shadow Realm at the Fellfrost Peak.\\nLegend has it that early squads exploring the Shadow Realm would occasionally find themselves unable to retrieve the treasures they discovered. In such cases, they would leave a specific \"scent trail\" behind. Only by piecing together the incense trail can one track down the locations of these long-lost relics.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121660.webp"
     },
     "liveComparison": {
-      "currentHash": "12b87028db7c73c28be9549cee6e89247d45cdb4909b7951598818f68e62b029"
+      "currentHash": "434b78df268ece128ff157ea869f9f7ac5a1a50a5126ecc7db3cd8d4138615a8"
     }
   },
   {
     "id": "121661",
     "contentStatus": "beta",
-    "name": "Lure of Lingering Coagulating Frost",
+    "name": "Remnant Incense Guide - Everfrozen Earth",
     "rarity": 4,
     "type": "Adventure Item",
-    "description": "Collect three Coagulating Permafrost Scent-Guides to open the Shadow Domain Relic Vault in the Birch Snow-Burial Ground.\\nIt is said that in the past, exploration platoons in the Shadow Domain would occasionally find treasures they had discovered could not be brought out, so they would leave specific \"scents\" at the location. Only by using the complete Scent-Guide can one find the position of those Shadow Domain relics.",
+    "description": "Gathering three pieces of the Remnant Incense Guide - Everfrozen Earth allows you to unseal the vault of Shadow Realm at the Everfrozen Earth.\\nLegend has it that early squads exploring the Shadow Realm would occasionally find themselves unable to retrieve the treasures they discovered. In such cases, they would leave a specific \"scent trail\" behind. Only by piecing together the incense trail can one track down the locations of these long-lost relics.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121661.webp"
     },
     "liveComparison": {
-      "currentHash": "2938b06a5563b4a3cd8b297df499b40dfdfd04134f254f873af80a0cf312b371"
+      "currentHash": "a804934048c00013fecf74a26fb5ee310a73831234df72e36c36b2f495f0942b"
     }
   },
   {
@@ -85356,15 +85358,15 @@
   {
     "id": "121671",
     "contentStatus": "beta",
-    "name": "Keshnick Energy",
+    "name": "Kresnik Energy",
     "rarity": 3,
-    "type": "Expedition Resource",
-    "description": "The energy required to operate the \"Grey Eye\".\\nKeshnick Energy can be restored within the range of a Heat Source powered by Keshnick Crystals in Snezhnaya, or by collecting Keshnick Crystals during Expeditions.",
+    "type": "Exploration Resources",
+    "description": "Energy required to operate the Eye of Graeae.\\nKresnik Energy can be restored either by entering the range of heat sources powered by Kresnik Kristall in Snezhnaya, or by collecting Kresnik Kristall during exploration.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121671.webp"
     },
     "liveComparison": {
-      "currentHash": "615875654fa38c6874e8685a2cd390e4ae61363ddf04b741485433862cd6d2dd"
+      "currentHash": "a33d1e9e1134ae644c8b536f2706e6c1e90a0e03001d5031873bdf09ef43b9d2"
     }
   },
   {
@@ -85378,6 +85380,19 @@
     },
     "liveComparison": {
       "currentHash": "65fbb70a226181a2a060930ff39dbf85a156a8b976a0c7c87b0ac31bbe0d51ab"
+    }
+  },
+  {
+    "id": "121674",
+    "contentStatus": "beta",
+    "name": "(test)TPS爬塔角色外观奖励纪念品",
+    "rarity": 4,
+    "type": "Very Special Item",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121657.webp"
+    },
+    "liveComparison": {
+      "currentHash": "73f87a9007f972d59a2c482d71d4f71b216ecc6e2d961cc87c7926caac0e13de"
     }
   },
   {
@@ -90423,12 +90438,12 @@
     "name": "Radiant Spincrystal 189",
     "rarity": 4,
     "type": "Adventure Item",
-    "description": "A wondrous crystal that contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found scattered throughout the continent or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya.",
+    "description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_BGM_Common.webp"
     },
     "liveComparison": {
-      "currentHash": "d5742096cea06b858993f75841a22c189665e670d81ecc8ce51934dfe519be70"
+      "currentHash": "0c04b0c1dc6bc55faab3f43defd0abf2b54c7cf219f9e04b0e88c777ef3d3478"
     }
   },
   {
@@ -90437,12 +90452,12 @@
     "name": "Radiant Spincrystal 190",
     "rarity": 4,
     "type": "Adventure Item",
-    "description": "A wondrous crystal containing a certain rhythm, much like a beautiful gem woven from delicate silk. These items can be found scattered throughout the mainland or in the hands of merchants who collect curios. The tune held within this crystal can be restored in your Serenitea Pot using either \"Euphonium Unbound: Soaring\" or \"Euphonium Unbound: Winding.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya.",
+    "description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_BGM_Common.webp"
     },
     "liveComparison": {
-      "currentHash": "57ec55ca257709ebf0e7e95bc1f69c4447d702506411fbf7a17f68d56a7018f4"
+      "currentHash": "070901fb9b7723be32d89f6a4ef8676157ee9e3d89df9cfd88229c6423bbb1b2"
     }
   },
   {
@@ -90465,12 +90480,12 @@
     "name": "Radiant Spincrystal 192",
     "rarity": 4,
     "type": "Adventure Item",
-    "description": "A wondrous crystal containing a certain rhythm, as if made of a beautiful, delicate silk. These items are scattered across the continent, or found in the hands of merchants who collect such curios. The melody held within this crystal can be restored using \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring\" within the \"Serenitea Pot.\" This \"Radiant Spincrystal\" currently contains a mysterious melody from Snezhnaya.",
+    "description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_BGM_Common.webp"
     },
     "liveComparison": {
-      "currentHash": "73d6d95d6a5e7bf208aa571cc777ee346f5aac15d67dc80450a4ff98ee3a9b39"
+      "currentHash": "bfb313c74ae0a3013a9873333c9611f0bf893d52e1858654f61c9269c6dff79e"
     }
   },
   {
@@ -90479,12 +90494,12 @@
     "name": "Radiant Spincrystal 193",
     "rarity": 4,
     "type": "Adventure Item",
-    "description": "A wondrous crystal that contains a certain rhythm, like a piece of fine jade woven from delicate silk. These items can be found scattered across the continent or in the hands of merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya.",
+    "description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_BGM_Common.webp"
     },
     "liveComparison": {
-      "currentHash": "09bc9cb29398dd82c105cd7e8096c379e4f500ebfa9520426ea3362641ccdc11"
+      "currentHash": "70287e29b15b73fa288b56ae7edd3ec6d07ba50bc5b797995a4aee3cd0eb618b"
     }
   },
   {
@@ -90493,12 +90508,12 @@
     "name": "Radiant Spincrystal 194",
     "rarity": 4,
     "type": "Adventure Item",
-    "description": "A wondrous crystal that contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found scattered throughout the mainland, or in the hands of merchants who search for curiosities. The tune held within this crystal can be restored in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya.",
+    "description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_BGM_Common.webp"
     },
     "liveComparison": {
-      "currentHash": "78f51eac6a053b7135534279c2adf2eb48c5ea126b939fbd2d6d590ecf54f103"
+      "currentHash": "9a1911ffb58fadb9a3e52ac368787796913e9e1252fe4595058cb07825301631"
     }
   },
   {
@@ -90507,12 +90522,12 @@
     "name": "Radiant Spincrystal 195",
     "rarity": 4,
     "type": "Adventure Item",
-    "description": "A wondrous crystal that contains a certain rhythm, appearing as beautiful as jade woven from delicate silk. These items are scattered throughout the continent or can be found in the hands of merchants who collect curios. The tune held within this crystal can be restored in your Serenitea Pot using either \"Euphonium Unbound: Soaring\" or \"Euphonium Unbound: Winding.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya.",
+    "description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_BGM_Common.webp"
     },
     "liveComparison": {
-      "currentHash": "5e61883e5543a546803dbc11a80ded4d7df263b3677d35c498e6d2df399c780f"
+      "currentHash": "5950b7c844b49fdbdf6a3c61f3415a23400c0f8693e5284a86698afb9027bd49"
     }
   },
   {
@@ -90535,12 +90550,12 @@
     "name": "Radiant Spincrystal 197",
     "rarity": 4,
     "type": "Adventure Item",
-    "description": "A wondrous crystal that contains a certain rhythm, appearing like beautiful jade woven from delicate silk. These items can be found scattered throughout the mainland or obtained from merchants who collect curios. The tune held within this crystal can be restored in your Serenitea Pot using either \"Euphonium Unbound: Soaring\" or \"Euphonium Unbound: Winding.\" The melody contained within this Radiant Spincrystal is from Snezhnaya.",
+    "description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_BGM_Common.webp"
     },
     "liveComparison": {
-      "currentHash": "f4ccbc2ef0b5d50ebc9a2da29db581d56387ad1b8203db2be28937078da86dd6"
+      "currentHash": "a332130b3989b8ec0dacd9976cd0044be87b31be19ac719fd4070f1190c92705"
     }
   },
   {
@@ -90563,12 +90578,12 @@
     "name": "Radiant Spincrystal 199",
     "rarity": 4,
     "type": "Adventure Item",
-    "description": "A wondrous crystal that contains a certain rhythm, like a beautiful gem woven from delicate silk. These items can be found scattered throughout the land or in the hands of merchants who search for curios. The tune held within this crystal can be restored in your \"Serenitea Pot\" using either \"Euphonium Unbound: Soaring\" or \"Euphonium Unbound: Winding.\" The tune contained within this \"Radiant Spincrystal\" is a mysterious melody from Snezhnaya.",
+    "description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_BGM_Common.webp"
     },
     "liveComparison": {
-      "currentHash": "a4c5dd8020878098dc71c85a846e8606bc2a96c5efe820cc53ec858592630112"
+      "currentHash": "4d32b35f28677d12ee070f742ad447342be03a624b19db49280c06b1fb1bbb22"
     }
   },
   {
@@ -90577,12 +90592,12 @@
     "name": "Radiant Spincrystal 200",
     "rarity": 4,
     "type": "Adventure Item",
-    "description": "A wondrous crystal containing a certain rhythm, like a beautiful gem woven from delicate silk. These items are scattered throughout the continent or can be found in the hands of merchants who collect curios. The tune held within this crystal can be restored in your Serenitea Pot using either \"Euphonium Unbound: Soaring\" or \"Euphonium Unbound: Winding.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya.",
+    "description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\" The tune contained within this Radiant Spincrystal is a mysterious melody from Snezhnaya.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_BGM_Common.webp"
     },
     "liveComparison": {
-      "currentHash": "cf2f286e2a4ba30b1eb42b2063b929e351e4e8ee86c7e587c3a2fcfa6a47ea0a"
+      "currentHash": "39df39370a4ee30d6fe24cc0622dcce26ee73a5109385cfdf1be8975bf0c73e2"
     }
   },
   {
@@ -96510,10 +96525,23 @@
     "type": "ITEM_MATERIAL",
     "description": "???",
     "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_NameCardIcon_Shadow.webp"
+    },
+    "liveComparison": {
+      "currentHash": "c7e1d07abccd51a481a3a29068f58c4aa2140d0daa192baa95c9ad532a0dc1c4"
+    }
+  },
+  {
+    "id": "210294",
+    "contentStatus": "beta",
+    "name": "纪行·霜游",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "assets": {
       "icon": "Nanoka/gi/assets/items/UI_NameCardIcon_Bp52.webp"
     },
     "liveComparison": {
-      "currentHash": "a1230151d4146ae3c4c157887b4170a9c002368756a9acb67cff296b2e310eef"
+      "currentHash": "cd67cf409cf649ca6c14ffb191ddbaf6aeee3fbf513358448ea58d06f0fe3084"
     }
   },
   {
@@ -96851,12 +96879,12 @@
     "name": "Echo: Vigilant Yaksha",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
-    "description": "Xiao's Envisaged Echo.",
+    "description": "Xiao's Envisaged Echo",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_TraceEffectIcon_Xiao.webp"
     },
     "liveComparison": {
-      "currentHash": "207572e23f2629e4b43a9b66291d1e17b9f7038cc391c8125ec05c1340f75cc5"
+      "currentHash": "df687eff95751557b27849a6dc9c001296c65fa0b3988b3b7982df24c5298ad7"
     }
   },
   {
@@ -96964,54 +96992,54 @@
     "name": "First Snow",
     "rarity": 2,
     "type": "Avatar Frame",
-    "description": "The countless snowflakes falling alongside the morning light are drifting fragments of a crumbling firmament.",
+    "description": "The endless snow falling with the light of dawn is nothing but drifting debris as the firmament breaks apart.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_AvatarFrameIcon_Snezhnaya_001.webp"
     },
     "liveComparison": {
-      "currentHash": "c63ffcfcd096cbc5d4deb7bc943195afef88e0c7b8ddf7853c49b69c1ecfeecc"
+      "currentHash": "b187821a47a429ff951b5ece9f946915fe0cfce64eb244ac7271c8e9bfc13380"
     }
   },
   {
     "id": "216009",
     "contentStatus": "beta",
-    "name": "Frost-Ling",
+    "name": "Crystalline Frost",
     "rarity": 3,
     "type": "Avatar Frame",
-    "description": "The north wind brings with it the scent of early frost, the eternal song of the King of Winter Icelea's handmaidens. Let the world pause at this very moment! Only such a wish has been granted.",
+    "description": "The north wind carries the breath of the first freeze, the eternal singing of the King of Winter Icelea's maidens. Let the world be held still in this moment forever! Only that wish was ever granted.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_AvatarFrameIcon_Snezhnaya_002.webp"
     },
     "liveComparison": {
-      "currentHash": "1fa11d2f0fb5b6e6eec75f32465a84e9f9d20991001573b916270dc4dd926df6"
+      "currentHash": "746292af816b9ee64a5a0dbefb954b5d7aa5fda975f27f999ba48d3236a883ce"
     }
   },
   {
     "id": "216010",
     "contentStatus": "beta",
-    "name": "Snow-Covered",
+    "name": "Snowbound",
     "rarity": 4,
     "type": "Avatar Frame",
-    "description": "Cold, desolate streets and shrines, layered corridors and palaces, all buried under ice that refuses to melt. Under the rule of the King of Winter Icelea, the frozen earth silently awaits a never-ending finality.",
+    "description": "Cold, silent streets and temples, layered corridors and palace halls, lie buried beneath a seal of ice that never melts. Under the reign of the King of Winter Icelea, the ever-frozen land quietly welcomes its end without end.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_AvatarFrameIcon_Snezhnaya_003.webp"
     },
     "liveComparison": {
-      "currentHash": "c1522f99fe558b24177fe471144c10e7ae53d686434cac350c2d952e157cec4c"
+      "currentHash": "dab08d52ffa06378c1f5a7cc6903fa1888295c03deb913b4f3f81dd077b8235e"
     }
   },
   {
     "id": "216011",
     "contentStatus": "beta",
-    "name": "Eternal Winter",
+    "name": "Everwinter",
     "rarity": 5,
     "type": "Avatar Frame",
-    "description": "The once-grand and solemn ancient capital has been transformed into a playground for the Jack Frosts. Everything in the world lies sealed beneath a blanket of pristine snow, as if in eternity. Only the cunning Jack Frosts know that when winter reaches its end, the earth shall once again welcome the rebirth of Haru.",
+    "description": "The once grand and solemn ancient capital became a playground for the Jack Frost. All things lay sealed beneath the vast snow, as if for eternity. Only the sly Jack Frost knew that, when winter reaches its end, spring will return to the earth once more.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_AvatarFrameIcon_Snezhnaya_004.webp"
     },
     "liveComparison": {
-      "currentHash": "5bd1b60df446a56ab8cb0828c2c38352ddbf8838eae6d2cba40c3b5a7e1c1956"
+      "currentHash": "f0e34eed17631efb2097a28a089c3025c9b89a0f1af745df422ab7da1e3ee4e5"
     }
   },
   {
@@ -98936,12 +98964,12 @@
     "name": "Eye of Graeae",
     "rarity": 4,
     "type": "Gadget",
-    "description": "A strange mechanism found in the abandoned station, often appearing in the form of a monocle.\\nIt possesses many convenient functions, such as recording Cryo creation blueprints, crafting Cryo, summoning the train...\\nPerhaps it was originally created for the very purpose of providing these numerous convenient functions.",
+    "description": "A strange mechanism you encountered in an abandoned station. It often appears in the form of a monocle.\\nIt offers many convenient functions, such as recording blueprints for Prime Ice constructs, creating Prime Ice, calling trains...\\nPerhaps it was built for the very purpose of providing all these conveniences.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_220133.webp"
     },
     "liveComparison": {
-      "currentHash": "b37fc0d09d500e9ee5ff4eb369a9e8ab748a121ec1fba616203ecc05fe380bb1"
+      "currentHash": "9f3d98a932fa1d59f6f06b464ab0b72a3696d1edfc667ade9593b51b7c9f1a33"
     }
   },
   {
@@ -98962,15 +98990,15 @@
   {
     "id": "220135",
     "contentStatus": "beta",
-    "name": "Mutual Aid Enhancement Kamera",
+    "name": "MAAN-Kamera",
     "rarity": 4,
     "type": "Gadget",
-    "description": "A special Kamera provided by Chichikova, and one of the special pieces of equipment for the \"Mutual Aid Network.\" Once you use it to photograph specified targets as required by the \"Expedition Plan,\" the images within will become specialized intelligence, helping newcomers in the future...",
+    "description": "A specialized Kamera provided by Krejcikova, serving as a special equipment for the Mutual Aid Advancement Network. Once a designated target is captured in accordance with the exploration plan, the captured image is processed into vital intelligence, lighting the way for the rookies who follow in their footsteps...",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_220094.webp"
     },
     "liveComparison": {
-      "currentHash": "5df9ab215a9fd9bf679e297ec3c166cfab8c0193eb1c779d8d68162857394cec"
+      "currentHash": "19fddb9ba7244a17896b2a4c9daebe8bef46e1a7131599b7f6dae4686977c70c"
     }
   },
   {
@@ -99695,71 +99723,71 @@
   {
     "id": "221052",
     "contentStatus": "beta",
-    "name": "Blueprint: Source of Ignition",
+    "name": "Diagram: Emberwell",
     "rarity": 4,
     "type": "Forging Blueprint",
-    "description": "A weapon forging blueprint restored by Kuzmichev based on legendary records. Once mastered, it allows you to craft the sword \"Source of Ignition\".",
+    "description": "A blueprint recreated by Kuzmichev based on records of old legends. Learn it and you can restore Emberwell (Sword).",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_221003.webp"
     },
     "liveComparison": {
-      "currentHash": "be95eba9fe8090fd3acdd7cf0abb8d2df9275d7198bb5f035d034de0c9dbad8e"
+      "currentHash": "86bb909548d53298078054c2d593b9c52434ca82d007649fe93fe9b39fc4b61b"
     }
   },
   {
     "id": "221053",
     "contentStatus": "beta",
-    "name": "Diagram: Frost-Snow Pledge",
+    "name": "Diagram: Covenant of Frost and Snow",
     "rarity": 4,
     "type": "Forging Blueprint",
-    "description": "A weapon forging blueprint restored by Kuzmichev based on legendary records. Once mastered, it allows for the crafting of the Bow: \"Frost-Snow Vow\".",
+    "description": "A blueprint recreated by Kuzmichev based on records of old legends. Learn it and you can restore Covenant of Frost and Snow (Bow).",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_221003.webp"
     },
     "liveComparison": {
-      "currentHash": "9fd7110224b5a760f2466a5b2648738a226eb8a547a582f9227681fa88913a2c"
+      "currentHash": "0f5b7260897fed7ba0a0f33b9a672d9bd147be7db794dcb4cab7bfad2e598419"
     }
   },
   {
     "id": "221054",
     "contentStatus": "beta",
-    "name": "Blueprint: Redeemer's Slash",
+    "name": "Diagram: Blade of Atonement",
     "rarity": 4,
     "type": "Forging Blueprint",
-    "description": "A weapon forging blueprint restored by Kuzmichev based on legendary records. Once mastered, it allows for the crafting of the claymore, \"Redemptive Slash.\"",
+    "description": "A blueprint recreated by Kuzmichev based on records of old legends. Learn it and you can restore Blade of Atonement (Claymore).",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_221003.webp"
     },
     "liveComparison": {
-      "currentHash": "1e2b7ad37fb30d4b6622b087a74dfd787dfa2941059c4c61232951e04191da08"
+      "currentHash": "6de01dd8dc96d7c2ac08ecd1e41fef54e0da45b1bf0585489840e4627b2ebef6"
     }
   },
   {
     "id": "221055",
     "contentStatus": "beta",
-    "name": "Blueprint: Echoing Heart",
+    "name": "Diagram: Echoes of the Heart",
     "rarity": 4,
     "type": "Forging Blueprint",
-    "description": "A weapon forging blueprint restored by Kuzmichev based on legendary records. Once learned, you can forge the Catalyst \"Echoes of Heart's Rest\".",
+    "description": "A blueprint recreated by Kuzmichev based on records of old legends. Learn it and you can restore Echoes of the Heart (Catalyst).",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_221003.webp"
     },
     "liveComparison": {
-      "currentHash": "f400c2a00c4df503c0b767514a6220c9c37a57d1db143fc56087c6589978ac60"
+      "currentHash": "92431039b140b4cf933c8bd8c25292d97ea905dc4b3993fc16fcceb6edba6c89"
     }
   },
   {
     "id": "221056",
     "contentStatus": "beta",
-    "name": "Blueprint: Ballad of the Sentinel",
+    "name": "Diagram: Song of the Vigil",
     "rarity": 4,
     "type": "Forging Blueprint",
-    "description": "A weapon forging blueprint restored by Kuzmichev based on legendary records. Once mastered, it allows for the replication of the Polearm \"Ballad of the Watcher.\"",
+    "description": "A blueprint recreated by Kuzmichev based on records of old legends. Learn it and you can restore Song of the Vigil (Polearm).",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_221003.webp"
     },
     "liveComparison": {
-      "currentHash": "cf193c221959dc112b0f852983a5175f5f9ba3edeb7659e30681d3485d05fdd3"
+      "currentHash": "4deee5860a91d92f2387ac666fe1f6f7fb3e2fde556f448bcc6eb1592c3c2c28"
     }
   },
   {
@@ -100318,227 +100346,227 @@
   {
     "id": "223111",
     "contentStatus": "beta",
-    "name": "\"Muzzle\" of \"Shatanaya's Frostsilver\"",
+    "name": "Shatanaya's Frostsilver: Muzzle",
     "rarity": 4,
     "type": "(test)枪械配件材料描述",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_EquipIcon_AssaultRifle_Glacia_Part03.webp"
     },
     "liveComparison": {
-      "currentHash": "9d2230da6a5b30856960d09b59e81cf141c64ad6d2936a42a06e34773c474500"
+      "currentHash": "99e95c102ddaba4217ebd6af08621fd7740dbbc835e8569be1cc7f1b38bd8e6d"
     }
   },
   {
     "id": "223112",
     "contentStatus": "beta",
-    "name": "\"Ammo Feed\" of \"Shatanaya's Frostsilver\"",
+    "name": "Shatanaya's Frostsilver: Ammo",
     "rarity": 4,
     "type": "(test)枪械配件材料描述",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_EquipIcon_AssaultRifle_Glacia_Part01.webp"
     },
     "liveComparison": {
-      "currentHash": "b20577f9654c61388ccbe849a3c76a490a288c957cad72f6b98b2d68bf1bcd7c"
+      "currentHash": "95699a3e9ee5f347d53a3940242a8306b7171d3ca470bdf90d1745fb4790c95d"
     }
   },
   {
     "id": "223113",
     "contentStatus": "beta",
-    "name": "\"Muzzle\" of \"Shatanaya's Frostsilver\"",
+    "name": "Shatanaya's Frostsilver: Tip",
     "rarity": 4,
     "type": "(test)枪械配件材料描述",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_EquipIcon_AssaultRifle_Glacia_Part04.webp"
     },
     "liveComparison": {
-      "currentHash": "322f9af63c7d378c76f3fc4e616de344d822f8a6fe9af0a032c00baba0b010b3"
+      "currentHash": "753701cc80e3d56329dea9ab3f619462704274145ad32795b9d5f4e4acb8959d"
     }
   },
   {
     "id": "223114",
     "contentStatus": "beta",
-    "name": "\"Sight\" of \"Shatanaya's Frostsilver\"",
+    "name": "Shatanaya's Frostsilver: Sight",
     "rarity": 4,
     "type": "(test)枪械配件材料描述",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_EquipIcon_AssaultRifle_Glacia_Part02.webp"
     },
     "liveComparison": {
-      "currentHash": "52171a3fd67d5dbc4f94153091a4358abf78d3762b41acddd49ac8254d230588"
+      "currentHash": "e7be65b409f22188759b9547a3ab40e54f8713a7efe916016d89425c6836804b"
     }
   },
   {
     "id": "223121",
     "contentStatus": "beta",
-    "name": "\"Muzzle\" of \"Balsag's Sunwheel\"",
+    "name": "Balsag's Sunwheel: Muzzle",
     "rarity": 4,
     "type": "(test)枪械配件材料描述",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_EquipIcon_GrenadeLauncher_Ignis_Part03.webp"
     },
     "liveComparison": {
-      "currentHash": "9cf63a86bedb07daa1428e24a4ded5c20a4d124a110047b9d4d71a995b68b0e0"
+      "currentHash": "3e554c3c6f2bc1b790402333f3ea9ff0378f8676e5ec0fce1443606de8c5b9d1"
     }
   },
   {
     "id": "223122",
     "contentStatus": "beta",
-    "name": "\"Ammo Feed\" of \"Balsag's Sunwheel\"",
+    "name": "Balsag's Sunwheel: Ammo",
     "rarity": 4,
     "type": "(test)枪械配件材料描述",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_EquipIcon_GrenadeLauncher_Ignis_Part01.webp"
     },
     "liveComparison": {
-      "currentHash": "1336fa3c49a6498da38cb2ed1b8005ace0e28daf8e65b1b6385e4ff438c97165"
+      "currentHash": "55a0683e262a7921b45d9a28d8c4770a850b08270084c45f801c66e9f8af1ccd"
     }
   },
   {
     "id": "223123",
     "contentStatus": "beta",
-    "name": "\"Barrel\" of \"Balsag's Sunwheel\"",
+    "name": "Balsag's Sunwheel: Tip",
     "rarity": 4,
     "type": "(test)枪械配件材料描述",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_EquipIcon_GrenadeLauncher_Ignis_Part04.webp"
     },
     "liveComparison": {
-      "currentHash": "1bdae82a33389ba8aa145b161ebb406a9de710ea3af1a67fc8408a8c439626b8"
+      "currentHash": "8ea9d6b9b4ef92b1e6df779b9dc83632729830a88c275d756fe2c52b5e2a8235"
     }
   },
   {
     "id": "223124",
     "contentStatus": "beta",
-    "name": "\"Sight\" of \"Balsag's Sunwheel\"",
+    "name": "Balsag's Sunwheel: Sight",
     "rarity": 4,
     "type": "(test)枪械配件材料描述",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_EquipIcon_GrenadeLauncher_Ignis_Part02.webp"
     },
     "liveComparison": {
-      "currentHash": "ed57fcccdd4ee69e96ade1fbb7ae73d15f2401a20f224a4b2a7b45b732207c42"
+      "currentHash": "adba157eee12c8c73b9c0fe09889e6ca51bee298dc9015908c5eada4cbc1a0f6"
     }
   },
   {
     "id": "223131",
     "contentStatus": "beta",
-    "name": "\"Muzzle\" of \"Ashamez's Thousand Lights\"",
+    "name": "Ashamez's Thunder: Muzzle",
     "rarity": 4,
     "type": "(test)枪械配件材料描述",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_EquipIcon_AssaultRifle_Fulmen_Part03.webp"
     },
     "liveComparison": {
-      "currentHash": "419af0722bc8870b9d0ca351fa8238dcc89ec86d169bef4e68abc8d2f73aa431"
+      "currentHash": "376750454f7a8c2d7852245106233e3a9a3073783d8cba7031c00258aaa1d474"
     }
   },
   {
     "id": "223132",
     "contentStatus": "beta",
-    "name": "\"Ammo Feed\" of \"Ashamez's Thousand Lights\"",
+    "name": "Ashamez's Thunder: Ammo",
     "rarity": 4,
     "type": "(test)枪械配件材料描述",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_EquipIcon_AssaultRifle_Fulmen_Part01.webp"
     },
     "liveComparison": {
-      "currentHash": "5f0f53e4d57fde0024e67f14620877d5358890ce8ec146c1da9e4c9f467869ba"
+      "currentHash": "8108d5041adf30e0dcd5a6b56508ddee77b5f3e04ea6cae9be97bd64d7d9e9de"
     }
   },
   {
     "id": "223133",
     "contentStatus": "beta",
-    "name": "\"Muzzle\" of \"Ashamez's Thunder\"",
+    "name": "Ashamez's Thunder: Tip",
     "rarity": 4,
     "type": "(test)枪械配件材料描述",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_EquipIcon_AssaultRifle_Fulmen_Part04.webp"
     },
     "liveComparison": {
-      "currentHash": "6c623852c723635e4e81d3600d23491a460501123ad52622b6826b9a8a4f58ca"
+      "currentHash": "de1138bd206c6399fd5883185171cc4adfcaabda941ff8215426cea30ba2d185"
     }
   },
   {
     "id": "223134",
     "contentStatus": "beta",
-    "name": "\"Sight\" of \"Ashamez's Thunder\"",
+    "name": "Ashamez's Thunder: Sight",
     "rarity": 4,
     "type": "(test)枪械配件材料描述",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_EquipIcon_AssaultRifle_Fulmen_Part02.webp"
     },
     "liveComparison": {
-      "currentHash": "15a19e32d43d0c16868bd92bf9bae36f6c89a062073118ed575bff8f46ab69ea"
+      "currentHash": "e872969ad05e72e3a11916470929cba02ea131fc5f5806905c034e5e87d4f800"
     }
   },
   {
     "id": "223301",
     "contentStatus": "beta",
-    "name": "Construct Skin: Jack Frost",
+    "name": "Construct Appearance: Jack Frost",
     "rarity": 3,
     "type": "臻冰造物外观",
-    "description": "Cryo Construct Appearance: Cube.\\nJack Frost seems obsessed with creating all sorts of strange Cryo constructs in its own image. Even with the simplest of cubes, it goes to great lengths to incorporate elements of the Jack Frost likeness.",
+    "description": "An appearance variant for the \"Prime Ice Construct: Cube.\"\\nJack Frost appears utterly obsessed with fashioning bizarre icy creations in their own image. Even with a structure as simple as a cube, they have poured immense effort into incorporating their own distinct features.",
     "assets": {
-      "icon": "Nanoka/gi/assets/items/UI_Icon_Icemake_InflateCube_02.webp"
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_223301.webp"
     },
     "liveComparison": {
-      "currentHash": "7b63d53ff5b310bd4d6ba3909b8438eea34de9b69a9002377f69bc093040b1ad"
+      "currentHash": "1c2e40dc728d6b13d4745bb1f99f9ec7f06e0994d3e07c33da3e23c5adcb4cfb"
     }
   },
   {
     "id": "223302",
     "contentStatus": "beta",
-    "name": "Construct Appearance: Polar Bear",
+    "name": "Construct Appearance: Polyarbear",
     "rarity": 3,
     "type": "臻冰造物外观",
-    "description": "Appearance for the Construct: Polar Bear.\\nThere is a saying among Hunters that goes: \"Anything that can be held in a bear's embrace must be a good thing.\"\\nThough it feels a bit daunting to snatch something from the hands of an actual Polar Bear, it should be fine if it's just a storage device, right...?",
+    "description": "Appearance of the Prime Ice Construct: Storage Device.\\nThere is an old saying among hunters that goes: \"If a bear holds it close, you know it's a treasure.\"\\nWhile the idea of wresting anything away from a real Polyarbear sounds terrifying, a mere storage unit modeled after one shouldn't pose much of a threat... right?",
     "assets": {
-      "icon": "Nanoka/gi/assets/items/UI_Icon_Icemake_IcemakeStorage_02.webp"
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_223302.webp"
     },
     "liveComparison": {
-      "currentHash": "1d079164c01411ae1ab57b230fe10002e3fc9bd7b14c16c30e3671eebcf7df4f"
+      "currentHash": "b06650738903c7f0bc5ac55495f1769aa2a3fdc92c4adb17dc1dd95f47ab0555"
     }
   },
   {
     "id": "223303",
     "contentStatus": "beta",
-    "name": "Construct Appearance: Dancer",
+    "name": "Construct Appearance: The Ballerina",
     "rarity": 3,
     "type": "臻冰造物外观",
-    "description": "Appearance of the \"Cryo Construct: Festive Cheer Pillar\".\\nWhen watching a performance, my mood always fluctuates with every movement of the ballet dancer. Every time I watch, I draw a great deal of strength from their dancing. \\nIt seems this design for the Cryo construct was inspired by that very sentiment.",
+    "description": "An appearance variant for the \"Prime Ice Construct: Ambient Bollard.\"\\nWhen watching a performance, one's emotions naturally ebb and flow with every graceful movement of the ballet dancer. Each viewing instills a profound sense of inner strength.\\nPerhaps it was born from this very sentiment that this particular Prime Ice Construct appearance was designed.",
     "assets": {
-      "icon": "Nanoka/gi/assets/items/UI_Icon_Icemake_IcemakeDecorate_02.webp"
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_223303.webp"
     },
     "liveComparison": {
-      "currentHash": "bd25c6ed527c9c02ca9732a1794a0fbc3b551f7e53fbbaf100a11d9a3cf8b2e6"
+      "currentHash": "4eebe84bcd30780945cbe075f6c458af7f9b45cd0a2bd706e86be10fbb4b69e4"
     }
   },
   {
     "id": "223304",
     "contentStatus": "beta",
-    "name": "Construct Appearance: Hound",
+    "name": "Construct Appearance: The Hound",
     "rarity": 3,
     "type": "臻冰造物外观",
-    "description": "Appearance of the \"Cryo Construct: Festive Cheer Stake\".\\nIt is not just Festive Cheer Stakes that provide a constant stream of buffs, but also the companions by your side. Sometimes, a companion's presence can provide strength far beyond any buff... though it would be nice if the stakes could follow me around just like a companion.",
+    "description": "An appearance variant for the \"Prime Ice Construct: Ambient Bollard.\"\\nContinuous buffs come not only from ambient bollards, but from the companions by our side. Sometimes, their mere presence provides a strength that far surpasses any magical enhancement... That being said, it would be wonderful if these bollards could follow us around just like a real companion.",
     "assets": {
-      "icon": "Nanoka/gi/assets/items/UI_Icon_Icemake_IcemakeDecorate_03.webp"
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_223304.webp"
     },
     "liveComparison": {
-      "currentHash": "ad86b4f1e4b52866f78e82ae5ba1886db7e74262823752547ebaa91daeaf7c75"
+      "currentHash": "dc2926026445dd339af58399c31c6420026eca4469c476341ea12a7d823d637d"
     }
   },
   {
     "id": "223305",
     "contentStatus": "beta",
-    "name": "Construct Appearance: Chaoxi",
+    "name": "Construct Appearance: The Tides",
     "rarity": 3,
     "type": "臻冰造物外观",
-    "description": "Appearance of the \"Cryo Construction: Festive Cheer Pole\".\\nIt is said that one can sometimes hear the faint sound of Chaoxi around a Festive Cheer Pole designed like this. However, the pole itself does not emit any sound; what you hear is actually a projection of your own heart and imagination. Just like a song from the depths of your memory that might suddenly come to mind on a quiet night.",
+    "description": "An appearance variant for the \"Prime Ice Construct: Ambient Bollard.\"\\nThey say that if you stand near a bollard crafted in this likeness, you can sometimes hear the faint murmur of the tides. Yet, the structure itself makes no sound; the melody belongs entirely to your mind and imagination, just like a song that suddenly echoes in your heart on a quiet night.",
     "assets": {
-      "icon": "Nanoka/gi/assets/items/UI_Icon_Icemake_IcemakeDecorate_04.webp"
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_223305.webp"
     },
     "liveComparison": {
-      "currentHash": "6c431e525c3847aeddffce79f26de2ca75c8ecd79d35be5bbbf492a4a13f4ba0"
+      "currentHash": "c73f7aed04f7de330673d38fb2d88df8acf4e1844bb58e109b57075cdbc4fc4c"
     }
   },
   {
@@ -103176,14 +103204,14 @@
   {
     "id": "318197",
     "contentStatus": "beta",
-    "name": "Prepare for Battle with Lantern in Hand",
+    "name": "Lantern Up, Weapons Ready",
     "rarity": 3,
     "type": "ITEM_MATERIAL",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_223018.webp"
     },
     "liveComparison": {
-      "currentHash": "b713397ebbd103b72d7d6fc09b9970c861147a90195f6ba5d7e24ea53a15faba"
+      "currentHash": "b0f03ac1035a2d48cddc62cd4f237c90a482de171db184d98cbb0cd25dd9cd06"
     }
   },
   {
@@ -103202,14 +103230,14 @@
   {
     "id": "318199",
     "contentStatus": "beta",
-    "name": "Please collect your delivery.",
+    "name": "Collect Your Delivery",
     "rarity": 3,
     "type": "ITEM_MATERIAL",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_223018.webp"
     },
     "liveComparison": {
-      "currentHash": "d5792eb764aac2af0ccf10c0ab72be63546d5f4c64ee28a4440c23a1b8f8a92d"
+      "currentHash": "2d17829d5eb851f72319269069328a52372c155c76404698c5581cebf67ad062"
     }
   },
   {
@@ -103241,40 +103269,40 @@
   {
     "id": "318202",
     "contentStatus": "beta",
-    "name": "Kuuhenki's Company",
+    "name": "By the Kuuhenki's Side",
     "rarity": 3,
     "type": "ITEM_MATERIAL",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_223018.webp"
     },
     "liveComparison": {
-      "currentHash": "9314c32c87f62eae99b25b782072a5323a9bee22d6b8c1df4abf6aa562f95cde"
+      "currentHash": "e60dee4db5c56ac4502f0cd849d69dae97fa3947d45a984530a66227c117119c"
     }
   },
   {
     "id": "318203",
     "contentStatus": "beta",
-    "name": "Joyful Moments",
+    "name": "Happy Days",
     "rarity": 3,
     "type": "ITEM_MATERIAL",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_223018.webp"
     },
     "liveComparison": {
-      "currentHash": "a3ed31181ce6608e9c522e923b25864540a34cc94435e2d6e26b29527b3f5a37"
+      "currentHash": "2907a4b53c396f046fe3a48a1645762d7fe0522fb626db291349dfb818325fc5"
     }
   },
   {
     "id": "318204",
     "contentStatus": "beta",
-    "name": "Lampbearer's Vigil",
+    "name": "Keeping Watch by Lantern Light",
     "rarity": 3,
     "type": "ITEM_MATERIAL",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_223018.webp"
     },
     "liveComparison": {
-      "currentHash": "0c24581e47ff49d0b20f139f6f86ec3bad74085cabcdee0f792b5fb7154c02c9"
+      "currentHash": "3fc93ee122f7d16525fec29b33d6d920c262b6e1815cfea78e20316a73825181"
     }
   },
   {
@@ -108004,7 +108032,7 @@
   {
     "id": "326644",
     "contentStatus": "beta",
-    "name": "Treacherous Surge",
+    "name": "Treacherous Torrent",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
     "description": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
@@ -108012,13 +108040,13 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_EffigyWater_Platinum.webp"
     },
     "liveComparison": {
-      "currentHash": "fc305308e1e452cb8beccaf503d1e0c193f2eda7d883593f9d4521512f94f532"
+      "currentHash": "941b1fdfef4cceeac3b1ee5cebfa15b6fb52d19e2deaa00b7ce10807a05648c4"
     }
   },
   {
     "id": "326645",
     "contentStatus": "beta",
-    "name": "Principle of Heavenly Steps",
+    "name": "Genesis of Starsigns",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
     "description": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
@@ -108026,13 +108054,13 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Modao_Mona_Platinum.webp"
     },
     "liveComparison": {
-      "currentHash": "7b69f283a57ad6c0d39cdb0d03313f2ca2d4ddd72ad90e9a173c04db87b75265"
+      "currentHash": "fc3327b3c882d373203634de793bbe39dd4d4f040e6e506b8f82c119b3164c7b"
     }
   },
   {
     "id": "326646",
     "contentStatus": "beta",
-    "name": "Pyro Magic",
+    "name": "Sparkborne Magic",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
     "description": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
@@ -108040,13 +108068,13 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Modao_Klee_Platinum.webp"
     },
     "liveComparison": {
-      "currentHash": "8da41e4776d60c7e0fb8108946c479590410ec7f356791f71f9b86c05d8174e6"
+      "currentHash": "578e27a74a1a4b3cd6967a3fba02bcd089bbe0131c4925d8939ee50a2d1bc9a0"
     }
   },
   {
     "id": "326647",
     "contentStatus": "beta",
-    "name": "Dance of Resonant Wills",
+    "name": "Phantasmal Nocturne",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
     "description": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
@@ -108054,13 +108082,13 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Modao_Fischl_Platinum.webp"
     },
     "liveComparison": {
-      "currentHash": "1d2efeb6a979b8d8fa56446d2e6bed9aeded146ef016030a0d836526073ad5a9"
+      "currentHash": "081646e8a0f82955fbd3c24f4bbb3bd397b12f31f296ddd754a10a869e504c72"
     }
   },
   {
     "id": "326648",
     "contentStatus": "beta",
-    "name": "Wind of Hymn",
+    "name": "Temporal Wind's Eulogy",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
     "description": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
@@ -108068,7 +108096,7 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Modao_Venti_Platinum.webp"
     },
     "liveComparison": {
-      "currentHash": "42d8aaef0ac2594b83f22ae3bac0285c56ec8d916941c33b9aa34cbf53df74bf"
+      "currentHash": "f48be93f4ea0a6710f49c84ec52e12385ff1d404789155710d8ba5036e4c9eca"
     }
   },
   {
@@ -112919,7 +112947,7 @@
   {
     "id": "329119",
     "contentStatus": "beta",
-    "name": "\"Witch's Homework\"",
+    "name": "Witch's Homework",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
     "description": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
@@ -112927,13 +112955,13 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Event_Modao_Platinum.webp"
     },
     "liveComparison": {
-      "currentHash": "54207d0606c2491783d820955ae0dcc1aa820406cb2055df1fd5359a02cb09e4"
+      "currentHash": "c3888a5227b41518acbf5ed03fe3ff473b15154d08dabd5f4bc5577f6fcc3770"
     }
   },
   {
     "id": "329120",
     "contentStatus": "beta",
-    "name": "Gathering",
+    "name": "Feasting in a Shared Toast",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
     "description": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
@@ -112941,7 +112969,7 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Event_XumiFriend_Platinum.webp"
     },
     "liveComparison": {
-      "currentHash": "31978862782ac67d4125520f78721209e2b7af6a3917808e401cacdbf9d15c65"
+      "currentHash": "1dd9da0dca12a8dd0aed9875f8913377df9b1968c221f7f9d97a3f040a5948a5"
     }
   },
   {
@@ -115108,12 +115136,12 @@
     "name": "Hydro Hypostasis",
     "rarity": 3,
     "type": "ITEM_MATERIAL",
-    "description": "Cards from the \"Genius Invokation TCG\" tabletop game. They have a tough texture, and the exquisite illustrations on the face of the cards seem to have been printed with some special method.",
+    "description": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Char_Monster_EffigyWater.webp"
     },
     "liveComparison": {
-      "currentHash": "20b12545b08e37e9c8ece72d49781f33ee0ee4995bb91df8a2ad5e88ed030ce2"
+      "currentHash": "6cf0223811555817378ab7b92b85215da66a349bd8e90d12ec45f4c37d6e73ad"
     }
   },
   {
@@ -117252,12 +117280,12 @@
     "name": "Adamah's Redemption",
     "rarity": 3,
     "type": "ITEM_MATERIAL",
-    "description": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+    "description": "Cards from the \"Genius Invokation TCG\" tabletop game. They have a tough texture, and the exquisite illustrations on the face of the cards seem to have been printed with some special method.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Durin.webp"
     },
     "liveComparison": {
-      "currentHash": "b4ef4944c4de7462014d97325d11cb1ef932c69935734055e7aa3d3ec6ac5363"
+      "currentHash": "604060dbde9a491343c708ec84274734faf8eeed3ef36624e7f2b8a1daa5ac76"
     }
   },
   {
@@ -117277,7 +117305,7 @@
   {
     "id": "330644",
     "contentStatus": "beta",
-    "name": "Treacherous Tides",
+    "name": "Treacherous Torrent",
     "rarity": 3,
     "type": "ITEM_MATERIAL",
     "description": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
@@ -117285,13 +117313,13 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_EffigyWater.webp"
     },
     "liveComparison": {
-      "currentHash": "3f9e5c374fb25bdca5122cfe26160015a53c919730735b017783125f9b432e6b"
+      "currentHash": "1f4db3d83a9620fbfcf4e8c011ab76f13075c038d2dd4ee5896580f123612e6d"
     }
   },
   {
     "id": "330645",
     "contentStatus": "beta",
-    "name": "Amaterasu's Step",
+    "name": "Genesis of Starsigns",
     "rarity": 3,
     "type": "ITEM_MATERIAL",
     "description": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
@@ -117299,13 +117327,13 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Modao_Mona.webp"
     },
     "liveComparison": {
-      "currentHash": "50eee3a44ee20dbec0982a83446967cd66d6f36126f5604c86def7443a9c517b"
+      "currentHash": "d6bb48bc3b0611f64b09ecc80374134657fd2c7de86a6367e2732ba5f452a7e7"
     }
   },
   {
     "id": "330646",
     "contentStatus": "beta",
-    "name": "Pyro Magic",
+    "name": "Sparkborne Magic",
     "rarity": 3,
     "type": "ITEM_MATERIAL",
     "description": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
@@ -117313,13 +117341,13 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Modao_Klee.webp"
     },
     "liveComparison": {
-      "currentHash": "93f78592b8d6b481c2045170f5caa56d147e9529d7579c24c66991c3ba64685c"
+      "currentHash": "e92fef35bb4fbdf253738e0c484a3dcbbca2ffdcb9a2be892e6ba56075c0c7e6"
     }
   },
   {
     "id": "330647",
     "contentStatus": "beta",
-    "name": "Fantasia of the Evening World",
+    "name": "Phantasmal Nocturne",
     "rarity": 3,
     "type": "ITEM_MATERIAL",
     "description": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
@@ -117327,13 +117355,13 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Modao_Fischl.webp"
     },
     "liveComparison": {
-      "currentHash": "ce12bc338565d4bc1594a834493120c2417a250739c13ad333f0455dab5ef6cc"
+      "currentHash": "e7a9a66e41ad349a52635bd14088c9aac24fe776c12b077b4a91f3302f5e4cdd"
     }
   },
   {
     "id": "330648",
     "contentStatus": "beta",
-    "name": "Wind-Swept Verse",
+    "name": "Temporal Wind's Eulogy",
     "rarity": 3,
     "type": "ITEM_MATERIAL",
     "description": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
@@ -117341,7 +117369,7 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Modao_Venti.webp"
     },
     "liveComparison": {
-      "currentHash": "d0fdf3a7bb8e00e27cf0ed24b1f3d704d1095abe060dcf460902dd38b85d5a5f"
+      "currentHash": "3660804c94d9ab4f2eef07f11197fe93f10b302158efff8ae82e18f3beeba539"
     }
   },
   {
@@ -122192,29 +122220,29 @@
   {
     "id": "333119",
     "contentStatus": "beta",
-    "name": "\"Witch's Homework\"",
+    "name": "Witch's Homework",
     "rarity": 3,
     "type": "ITEM_MATERIAL",
-    "description": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+    "description": "Cards from the \"Genius Invokation TCG\" tabletop game. They have a tough texture, and the exquisite illustrations on the face of the cards seem to have been printed with some special method.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Event_Modao.webp"
     },
     "liveComparison": {
-      "currentHash": "9189062f7642638644c6d1eaa8984f878c1eabbd6ed0cd84c05391a2ab5a2325"
+      "currentHash": "109e6413e062254cffaaaa3147307f7d97636547741f99544a30a5db4a4ca2b9"
     }
   },
   {
     "id": "333120",
     "contentStatus": "beta",
-    "name": "Gathering Gourmet",
+    "name": "Feasting in a Shared Toast",
     "rarity": 3,
     "type": "ITEM_MATERIAL",
-    "description": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+    "description": "Cards from the \"Genius Invokation TCG\" tabletop game. They have a tough texture, and the exquisite illustrations on the face of the cards seem to have been printed with some special method.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Event_XumiFriend.webp"
     },
     "liveComparison": {
-      "currentHash": "ab87ff45d231e3a118e94bfd71f63a5f183fa9e05d70c286797caa4672727b8f"
+      "currentHash": "5b6efc80f004a8d93f5a1fa641f03174ed6e6cd19e7837f9530f445ebf55e290"
     }
   },
   {
@@ -126550,7 +126578,7 @@
   {
     "id": "334644",
     "contentStatus": "beta",
-    "name": "Treacherous Tides",
+    "name": "Treacherous Torrent",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
     "description": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
@@ -126558,13 +126586,13 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_EffigyWater_Golden.webp"
     },
     "liveComparison": {
-      "currentHash": "1e918d638216bb01f360eed3b45b56237ddad20789d2649931ec407676f258ab"
+      "currentHash": "dc610de098530bd804273695f634e9fa144f8ff150c9813a502b298f2c732a01"
     }
   },
   {
     "id": "334645",
     "contentStatus": "beta",
-    "name": "Heavenly Step of Makoto",
+    "name": "Genesis of Starsigns",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
     "description": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
@@ -126572,13 +126600,13 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Modao_Mona_Golden.webp"
     },
     "liveComparison": {
-      "currentHash": "a92613585b4d8a266333ccfffb95efa5016cf261b864aa256802d811a58c7a9e"
+      "currentHash": "5be88155f233fa344c9cdb835264bbf6ea4a231a59ac18c13760b7db53e93f96"
     }
   },
   {
     "id": "334646",
     "contentStatus": "beta",
-    "name": "Pyro Spark",
+    "name": "Sparkborne Magic",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
     "description": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
@@ -126586,13 +126614,13 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Modao_Klee_Golden.webp"
     },
     "liveComparison": {
-      "currentHash": "e8d210a5e12d57d162327f2d5f198bd8ea66d7528a24ef0c2c0725cda356ba42"
+      "currentHash": "f4b022bfef9f3776e1289472529f9bffd8bca8fa18a0bbe5c61c6dad1b0d31d5"
     }
   },
   {
     "id": "334647",
     "contentStatus": "beta",
-    "name": "Phantasm of Night",
+    "name": "Phantasmal Nocturne",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
     "description": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
@@ -126600,13 +126628,13 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Modao_Fischl_Golden.webp"
     },
     "liveComparison": {
-      "currentHash": "3819445fa1385870efab96905ac46c8515689e4d179cb243e20ec4d1ef638b56"
+      "currentHash": "ed01b6a009b7240323b4a750c743ddfe61c29773a0e989fa92c95e645181bc8f"
     }
   },
   {
     "id": "334648",
     "contentStatus": "beta",
-    "name": "Anemo's Grace",
+    "name": "Temporal Wind's Eulogy",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
     "description": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
@@ -126614,7 +126642,7 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Modao_Venti_Golden.webp"
     },
     "liveComparison": {
-      "currentHash": "fcb7b46e458d974b08f0eac54cba350e340ef0e8e3515a96a871ad2453cd2ff9"
+      "currentHash": "9b07d18874131349ed887a36e024dfd937ebfb2ae785901da611cb70c1a3ee93"
     }
   },
   {
@@ -131465,7 +131493,7 @@
   {
     "id": "337119",
     "contentStatus": "beta",
-    "name": "\"Witch's Homework\"",
+    "name": "Witch's Homework",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
     "description": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
@@ -131473,13 +131501,13 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Event_Modao_Golden.webp"
     },
     "liveComparison": {
-      "currentHash": "7f47a11b62532e6c78f68324930dc9c68ba2e139750febd47a64fea957a1a98b"
+      "currentHash": "76f7218de86544480125b36152d28e2bedc62149ec6139133dec0cb2092db85e"
     }
   },
   {
     "id": "337120",
     "contentStatus": "beta",
-    "name": "Gathering of Gourmets",
+    "name": "Feasting in a Shared Toast",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
     "description": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
@@ -131487,7 +131515,7 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Event_XumiFriend_Golden.webp"
     },
     "liveComparison": {
-      "currentHash": "42cc97a41d6a89b8f4fb83a793bbf4ee1b39d58da54b23767e70b317554fa499"
+      "currentHash": "f6aff72de19cdd48eb1d5ffe4ac246ecd121ebcc8660a99f4a5e0bd75e47a7a7"
     }
   },
   {
@@ -135988,6 +136016,19 @@
     }
   },
   {
+    "id": "380484",
+    "contentStatus": "beta",
+    "name": "至冬路灯2",
+    "rarity": 3,
+    "type": "摆设图纸",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "7ee76cf4385639038bb87b251812f5e8eca3d5bbd5b717390e1c16d8b4e3b4d5"
+    }
+  },
+  {
     "id": "380504",
     "contentStatus": "live",
     "name": "Efflorescent Illumination",
@@ -136420,6 +136461,32 @@
     "liveComparison": {
       "liveHash": "a19a531e91bdd1c2ab9f0bb1d70f7ae773f9254593b7b27387cb92192403b0d7",
       "currentHash": "a19a531e91bdd1c2ab9f0bb1d70f7ae773f9254593b7b27387cb92192403b0d7"
+    }
+  },
+  {
+    "id": "381126",
+    "contentStatus": "beta",
+    "name": "旅馆衣柜-「加大容量」",
+    "rarity": 3,
+    "type": "摆设图纸",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "ef60ea71f44e5d26523a308e26e53975b307ff80239c85740d576024ea8c4538"
+    }
+  },
+  {
+    "id": "381127",
+    "contentStatus": "beta",
+    "name": "立柜",
+    "rarity": 3,
+    "type": "摆设图纸",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "cb0a72b2bcb749b74b3952579dd164d228715a761c1d7c8bae2a3a80361d224a"
     }
   },
   {
@@ -137398,6 +137465,19 @@
     }
   },
   {
+    "id": "381350",
+    "contentStatus": "beta",
+    "name": "至冬高脚桌",
+    "rarity": 3,
+    "type": "摆设图纸",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "1df09869eab29a6c70f7d1935dba039eb41fed4e02ef94cb0445b9494fc545ca"
+    }
+  },
+  {
     "id": "381401",
     "contentStatus": "live",
     "name": "Breeze-Blessed Bed",
@@ -137605,6 +137685,19 @@
     "liveComparison": {
       "liveHash": "28aacb04d3dac9d03af223f709f9e40fd63cdfb52a6a174284a4b68fde63d309",
       "currentHash": "28aacb04d3dac9d03af223f709f9e40fd63cdfb52a6a174284a4b68fde63d309"
+    }
+  },
+  {
+    "id": "381415",
+    "contentStatus": "beta",
+    "name": "至冬床",
+    "rarity": 3,
+    "type": "摆设图纸",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "38c01f3bcb8f3ba7d3e4f03c9a6217e997bcc2f162b189e9e5a26d967ef6fbdd"
     }
   },
   {
@@ -138250,6 +138343,32 @@
     "liveComparison": {
       "liveHash": "36b80be17d26fa3fca4089e9ac3a90a6c0e6e442fc923c1667b229d963cc9d51",
       "currentHash": "36b80be17d26fa3fca4089e9ac3a90a6c0e6e442fc923c1667b229d963cc9d51"
+    }
+  },
+  {
+    "id": "382136",
+    "contentStatus": "beta",
+    "name": "至冬长椅",
+    "rarity": 3,
+    "type": "摆设图纸",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "0ca19072038981b4e4334b2ae3679d8ad9d125b6f13b299ac3cc7d481380ff59"
+    }
+  },
+  {
+    "id": "382137",
+    "contentStatus": "beta",
+    "name": "至冬室内椅",
+    "rarity": 3,
+    "type": "摆设图纸",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "f26d51f90d1f7ef9a7084e17a422af0c4e895a2446ec6650cab220ae334c7001"
     }
   },
   {
@@ -139618,6 +139737,32 @@
     }
   },
   {
+    "id": "382325",
+    "contentStatus": "beta",
+    "name": "至冬地毯1",
+    "rarity": 3,
+    "type": "摆设图纸",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "306ec28bdd74b47c08dd03d6ade11c463bd8dcc961ba791197ed9896bf001134"
+    }
+  },
+  {
+    "id": "382326",
+    "contentStatus": "beta",
+    "name": "至冬地毯2",
+    "rarity": 3,
+    "type": "摆设图纸",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "8f73603fe5b2012c8f6e57ca9e8f291548f78864ac25b95894a07bb41d03c555"
+    }
+  },
+  {
     "id": "382401",
     "contentStatus": "live",
     "name": "Vibrant Pot: Born in Flames",
@@ -139705,6 +139850,19 @@
     "liveComparison": {
       "liveHash": "96302a565670a411a768f1c964d04202c02be54305203d9eb9042cc7cde63b16",
       "currentHash": "96302a565670a411a768f1c964d04202c02be54305203d9eb9042cc7cde63b16"
+    }
+  },
+  {
+    "id": "382408",
+    "contentStatus": "beta",
+    "name": "至冬室内胡桃夹子",
+    "rarity": 3,
+    "type": "摆设图纸",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "62653cbb3ed39d588a705aaf27502ebaf394a319671c7b7f179645b72b17b814"
     }
   },
   {
@@ -139975,6 +140133,32 @@
     "liveComparison": {
       "liveHash": "345d2bcd3777be49578400d04f13ed3dad1d59d10b3280f46c04d2a1342842ef",
       "currentHash": "345d2bcd3777be49578400d04f13ed3dad1d59d10b3280f46c04d2a1342842ef"
+    }
+  },
+  {
+    "id": "383121",
+    "contentStatus": "beta",
+    "name": "至冬室内灯1",
+    "rarity": 3,
+    "type": "摆设图纸",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "59bf198b7452d9316cf64a084d082f40f6e9ea564720e8a2a63120d75cca46b0"
+    }
+  },
+  {
+    "id": "383122",
+    "contentStatus": "beta",
+    "name": "至冬室内灯2",
+    "rarity": 3,
+    "type": "摆设图纸",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "a900a83a5ab5dc5edc6ecbc4bcfe23ab0e865342526b6089309facf8f648173d"
     }
   },
   {
@@ -140818,6 +141002,32 @@
     }
   },
   {
+    "id": "383399",
+    "contentStatus": "beta",
+    "name": "钓鱼家具",
+    "rarity": 4,
+    "type": "摆设图纸",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "101736f6a9fd1e56ee6e17caf3ffc80584438d7ab54f9a4f089573f4b4b91515"
+    }
+  },
+  {
+    "id": "383400",
+    "contentStatus": "beta",
+    "name": "小火车车模",
+    "rarity": 3,
+    "type": "摆设图纸",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "97bbd1c24a61ab92aecc2dd79da9feaca5905a125d24073d158d31f144ddb6ee"
+    }
+  },
+  {
     "id": "383401",
     "contentStatus": "live",
     "name": "Teahouse Tool: Miniscule Misses Make a Mile",
@@ -141058,6 +141268,45 @@
     }
   },
   {
+    "id": "383441",
+    "contentStatus": "beta",
+    "name": "至冬茶杯",
+    "rarity": 3,
+    "type": "摆设图纸",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "0d0c2d82404b8bff64c9616f1a0ebaaef0ffc946d9eeee100e373954dd86dcae"
+    }
+  },
+  {
+    "id": "383442",
+    "contentStatus": "beta",
+    "name": "至冬室内烛台",
+    "rarity": 3,
+    "type": "摆设图纸",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "5951647de444e70bbecf1b0ae857485cdda208ad5cdf22b650eca5b2af5fb212"
+    }
+  },
+  {
+    "id": "383443",
+    "contentStatus": "beta",
+    "name": "烛台",
+    "rarity": 3,
+    "type": "摆设图纸",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "88ff2a3f69f52b570356993f80fb5b4595f4ce55c9a73d4aeb6f6674559d43e1"
+    }
+  },
+  {
     "id": "383501",
     "contentStatus": "live",
     "name": "\"Realizations from the Land of Wisdom\"",
@@ -141220,6 +141469,32 @@
     "liveComparison": {
       "liveHash": "a2690a329c0ddd024a6221c8664511de207adfc1fd34e2e8ef513d68c3aa172b",
       "currentHash": "a2690a329c0ddd024a6221c8664511de207adfc1fd34e2e8ef513d68c3aa172b"
+    }
+  },
+  {
+    "id": "383513",
+    "contentStatus": "beta",
+    "name": "至冬室内花瓶",
+    "rarity": 3,
+    "type": "摆设图纸",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "e588cf3dff582d05cafc6323404c55df18d507ad94b1da2faae19d6ad85f70b1"
+    }
+  },
+  {
+    "id": "383514",
+    "contentStatus": "beta",
+    "name": "至冬室内花坛",
+    "rarity": 3,
+    "type": "摆设图纸",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "d36ae6338ac65574d0e51d0418bb32e2f63e7f6679ca347fedd89edeb98bbee9"
     }
   },
   {
@@ -141820,6 +142095,33 @@
     "liveComparison": {
       "liveHash": "414ff0bff48592f356a87b722f08226d28998e54ff7cdf70a31b0fadb5c89984",
       "currentHash": "414ff0bff48592f356a87b722f08226d28998e54ff7cdf70a31b0fadb5c89984"
+    }
+  },
+  {
+    "id": "384524",
+    "contentStatus": "beta",
+    "name": "至冬室内挂画",
+    "rarity": 3,
+    "type": "摆设图纸",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "171213778fa41c90d70cbafe65e485a2e1ff77b0df4278a7ec9ca7c921213025"
+    }
+  },
+  {
+    "id": "384525",
+    "contentStatus": "beta",
+    "name": "???",
+    "rarity": 3,
+    "type": "摆设图纸",
+    "description": "???",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "9d93d026133476472d2c626067c21f918971e12bc3e41a8ddfb9ab74a1e592d4"
     }
   },
   {
@@ -145900,6 +146202,97 @@
     "liveComparison": {
       "liveHash": "9df8c932daf342196388e48517ca4cf97af436046b0a8a536a5ffb2373780bf4",
       "currentHash": "9df8c932daf342196388e48517ca4cf97af436046b0a8a536a5ffb2373780bf4"
+    }
+  },
+  {
+    "id": "391050",
+    "contentStatus": "beta",
+    "name": "乌贼工坊塔吊",
+    "rarity": 3,
+    "type": "摆设图纸",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "7256dff8a9bbc4428c566dba9a9335045622b82975ba9cc90dad0e53fe87a4d0"
+    }
+  },
+  {
+    "id": "391051",
+    "contentStatus": "beta",
+    "name": "乌贼工坊民居",
+    "rarity": 3,
+    "type": "摆设图纸",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "14ab9e6e70501650a0468f4f2c49a567695b7cb7e6784b3a68feefca7765320c"
+    }
+  },
+  {
+    "id": "391052",
+    "contentStatus": "beta",
+    "name": "雪屋-大",
+    "rarity": 3,
+    "type": "摆设图纸",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "2d7191b72db0af0334ec7635d18c113623e9bc0e457ad304aca50568ce66c082"
+    }
+  },
+  {
+    "id": "391053",
+    "contentStatus": "beta",
+    "name": "启程车站-等车台",
+    "rarity": 3,
+    "type": "摆设图纸",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "3037e6c1aa8f3bb3a91ec1ff4c4aae5c66e94507a40c4ff11d4b66804472f2d1"
+    }
+  },
+  {
+    "id": "391054",
+    "contentStatus": "beta",
+    "name": "高级民居",
+    "rarity": 3,
+    "type": "摆设图纸",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "e9e51e38e17e2d60da0395fe0154bb450b1d82285377b103b2e7add656e9f07b"
+    }
+  },
+  {
+    "id": "391055",
+    "contentStatus": "beta",
+    "name": "高级民居-塔楼",
+    "rarity": 3,
+    "type": "摆设图纸",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "cf064b06377915bbbe0f3e179a53ca507faf1beb8af68d16df35aae3c8825bee"
+    }
+  },
+  {
+    "id": "391056",
+    "contentStatus": "beta",
+    "name": "高级民居2",
+    "rarity": 3,
+    "type": "摆设图纸",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "60eeba4bcad6550280b030f2b013b0b64e50f1bff11afa7a2577a831785b3b0a"
     }
   },
   {
@@ -151993,6 +152386,45 @@
     }
   },
   {
+    "id": "393942",
+    "contentStatus": "beta",
+    "name": "雪钻",
+    "rarity": 3,
+    "type": "摆设图纸",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "415e3b59fdcb92c89c990d2d40759a5735a3526f47788ebfd360e8a24a4a5e02"
+    }
+  },
+  {
+    "id": "393943",
+    "contentStatus": "beta",
+    "name": "冰柜",
+    "rarity": 3,
+    "type": "摆设图纸",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "c4a9d959dfa9cdaeca24c605a86bb2b21a7165fdb5ef533d69a6beeb537a0db9"
+    }
+  },
+  {
+    "id": "393944",
+    "contentStatus": "beta",
+    "name": "雪人",
+    "rarity": 3,
+    "type": "摆设图纸",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "75e4a1ad7d59733ac935deb2a734bdcc82e11ead64e30721c269f7f4fa7bd2bd"
+    }
+  },
+  {
     "id": "394101",
     "contentStatus": "live",
     "name": "Weathered Bamboo Fence",
@@ -152788,6 +153220,32 @@
     }
   },
   {
+    "id": "394224",
+    "contentStatus": "beta",
+    "name": "车站长椅",
+    "rarity": 3,
+    "type": "摆设图纸",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "3e74d63975ed5373945a74128fb4c5ac72eb143bd93a39538fd8feafb6f94235"
+    }
+  },
+  {
+    "id": "394225",
+    "contentStatus": "beta",
+    "name": "至冬室外椅",
+    "rarity": 3,
+    "type": "摆设图纸",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "0024aec1e45b3b887fbd96e48728aef313afe17247aa3db6f213293c35818fdd"
+    }
+  },
+  {
     "id": "394301",
     "contentStatus": "live",
     "name": "Two-Story Hilichurl Sentry Tower",
@@ -153250,6 +153708,19 @@
     "liveComparison": {
       "liveHash": "8b899ee6682966df8f6be025a326e0d51e37e0a8b34f6a4b4361a7d5ad46a886",
       "currentHash": "8b899ee6682966df8f6be025a326e0d51e37e0a8b34f6a4b4361a7d5ad46a886"
+    }
+  },
+  {
+    "id": "394334",
+    "contentStatus": "beta",
+    "name": "至冬室外桌",
+    "rarity": 3,
+    "type": "摆设图纸",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "dd485a11f1d0ef67be3396719e4e6dbf53f9d5b201477f90a96129ea13246b20"
     }
   },
   {
@@ -154168,6 +154639,84 @@
     }
   },
   {
+    "id": "394661",
+    "contentStatus": "beta",
+    "name": "运输车",
+    "rarity": 3,
+    "type": "摆设图纸",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "aaca8adf0d7d02d6139bd913f6ee2bb3037cdbd59a11381511a8f358cede553a"
+    }
+  },
+  {
+    "id": "394662",
+    "contentStatus": "beta",
+    "name": "乌贼工坊帐篷",
+    "rarity": 3,
+    "type": "摆设图纸",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "c9c77ac4d5d9c8d9a80b725c775fd218e4ff52510d44c8e241a7ab597ec240d1"
+    }
+  },
+  {
+    "id": "394663",
+    "contentStatus": "beta",
+    "name": "采冰镇-货车",
+    "rarity": 3,
+    "type": "摆设图纸",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "41f0f68923911468462fe17725660947a1a50d5027b3b5cbfbd0484fb6f4a2a7"
+    }
+  },
+  {
+    "id": "394664",
+    "contentStatus": "beta",
+    "name": "小型暖炉",
+    "rarity": 3,
+    "type": "摆设图纸",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "28135f4eed5e6d699231e1d500e6d1bc691de82b2677abafc7253bf0f5887bc3"
+    }
+  },
+  {
+    "id": "394665",
+    "contentStatus": "beta",
+    "name": "采冰镇-建材冰",
+    "rarity": 3,
+    "type": "摆设图纸",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "415bd8cce8f20235b9d25ddb48159f3af8938d6392c692eff82c7b533c81264a"
+    }
+  },
+  {
+    "id": "394666",
+    "contentStatus": "beta",
+    "name": "采冰镇-控制台",
+    "rarity": 3,
+    "type": "摆设图纸",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "5abd637bbcb3f8317add6ef841f7055a94bd76d367fd142db228951535e402d0"
+    }
+  },
+  {
     "id": "394800",
     "contentStatus": "live",
     "name": "Sir Capy of the Long Incisors",
@@ -154360,6 +154909,20 @@
     "liveComparison": {
       "liveHash": "fc672a9af03588b7cb88978931dbda71659be17a8bd8844184b05d6f26734ac7",
       "currentHash": "fc672a9af03588b7cb88978931dbda71659be17a8bd8844184b05d6f26734ac7"
+    }
+  },
+  {
+    "id": "394847",
+    "contentStatus": "beta",
+    "name": "???",
+    "rarity": 4,
+    "type": "摆设图纸",
+    "description": "???",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "currentHash": "5fcef5925d962d977941d9aa67bfc1b76163226be1c47f3ebc0094bf1bd8ff94"
     }
   },
   {

@@ -2,7 +2,7 @@
   "provider": "EndfieldWiki",
   "game": "endfield",
   "gameName": "Arknights: Endfield",
-  "scrapedAt": "2026-07-06T09:19:38.349Z",
+  "scrapedAt": "2026-07-07T08:52:39.095Z",
   "source": {
     "site": "endfield.wiki.gg",
     "api": "MediaWiki API + Cargo Operators table",

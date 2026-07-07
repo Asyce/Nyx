@@ -1,5 +1,5 @@
 {
-  "name": "BP Weapon",
+  "name": "",
   "desc": "",
   "weapon_type": "WEAPON_POLE",
   "weapon_prop": [
@@ -416,19 +416,19 @@
     "1": {
       "mats": [
         {
-          "name": "Deliberation of the Cellar Nectar",
+          "name": "Measured Pour of the Cellared Spiritual Nectar",
           "id": 114089,
           "count": 3,
           "rank": 2
         },
         {
-          "name": "Sediment Fragment",
+          "name": "Accreted Fragment",
           "id": 112152,
           "count": 3,
           "rank": 2
         },
         {
-          "name": "Chimera",
+          "name": "Chimeric Core",
           "id": 112149,
           "count": 2,
           "rank": 1
@@ -439,19 +439,19 @@
     "2": {
       "mats": [
         {
-          "name": "Drunkard's Spirit of the Cellar",
+          "name": "Intoxication of the Cellared Spiritual Nectar",
           "id": 114090,
           "count": 3,
           "rank": 3
         },
         {
-          "name": "Sediment Fragment",
+          "name": "Accreted Fragment",
           "id": 112152,
           "count": 12,
           "rank": 2
         },
         {
-          "name": "Chimera",
+          "name": "Chimeric Core",
           "id": 112149,
           "count": 8,
           "rank": 1
@@ -462,19 +462,19 @@
     "3": {
       "mats": [
         {
-          "name": "Drunkard's Spirit of the Cellar",
+          "name": "Intoxication of the Cellared Spiritual Nectar",
           "id": 114090,
           "count": 6,
           "rank": 3
         },
         {
-          "name": "Sediment Clot",
+          "name": "Accreted Mass",
           "id": 112153,
           "count": 6,
           "rank": 3
         },
         {
-          "name": "Symbiotic Chimera Cell",
+          "name": "Symbiotic Chimeric Nucleus",
           "id": 112150,
           "count": 6,
           "rank": 2
@@ -485,19 +485,19 @@
     "4": {
       "mats": [
         {
-          "name": "Exhilaration of the Cellar Elixir",
+          "name": "Exhilaration of the Cellared Spiritual Nectar",
           "id": 114091,
           "count": 3,
           "rank": 4
         },
         {
-          "name": "Sediment Clot",
+          "name": "Accreted Mass",
           "id": 112153,
           "count": 12,
           "rank": 3
         },
         {
-          "name": "Symbiotic Chimera Cell",
+          "name": "Symbiotic Chimeric Nucleus",
           "id": 112150,
           "count": 9,
           "rank": 2
@@ -508,19 +508,19 @@
     "5": {
       "mats": [
         {
-          "name": "Exhilaration of the Cellar Elixir",
+          "name": "Exhilaration of the Cellared Spiritual Nectar",
           "id": 114091,
           "count": 6,
           "rank": 4
         },
         {
-          "name": "Crystalline Cyst",
+          "name": "Accreted Growth",
           "id": 112154,
           "count": 9,
           "rank": 4
         },
         {
-          "name": "Primordial Chimera",
+          "name": "Genesis Chimeric Nexus",
           "id": 112151,
           "count": 6,
           "rank": 3
@@ -531,19 +531,19 @@
     "6": {
       "mats": [
         {
-          "name": "Libation of the Cellar-Lord's Whim",
+          "name": "Revelry of the Cellared Spiritual Nectar",
           "id": 114092,
           "count": 4,
           "rank": 5
         },
         {
-          "name": "Crystalline Cyst",
+          "name": "Accreted Growth",
           "id": 112154,
           "count": 18,
           "rank": 4
         },
         {
-          "name": "Primordial Chimera",
+          "name": "Genesis Chimeric Nexus",
           "id": 112151,
           "count": 12,
           "rank": 3

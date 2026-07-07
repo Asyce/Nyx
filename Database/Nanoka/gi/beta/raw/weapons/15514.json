@@ -343,7 +343,7 @@
   "refinement": {
     "1": {
       "name": "The Moonring Sighted",
-      "desc": "For 12s after triggering a Swirl or Star Swirl reaction, ATK increases by <color=#99FFFFFF>24%</color>. In addition, when 1/2 or more characters in the party are of a different Elemental Type from the equipping character, the DMG dealt by the equipping character's Charged Attacks is increased by <color=#99FFFFFF>20%/48%</color> and Elemental Burst DMG dealt is increased by <color=#99FFFFFF>10%/24%</color>.",
+      "desc": "For 12s after triggering a Swirl or Stellar Swirl reaction, ATK increases by <color=#99FFFFFF>24%</color>. In addition, when 1/2 or more characters in the party are of a different Elemental Type from the equipping character, the DMG dealt by the equipping character's Charged Attacks is increased by <color=#99FFFFFF>20%/48%</color>, and Elemental Burst DMG dealt is increased by <color=#99FFFFFF>10%/24%</color>.",
       "param_list": [
         0.24,
         12,
@@ -357,7 +357,7 @@
     },
     "2": {
       "name": "The Moonring Sighted",
-      "desc": "For 12s after triggering a Swirl or Stellar Swirl reaction, ATK increases by <color=#99FFFFFF>30%</color>. In addition, when 1/2 or more characters in the party are of a different Elemental Type from the equipping character, the DMG dealt by the equipping character's Charged Attacks is increased by <color=#99FFFFFF>25%/60%</color> and Elemental Burst DMG dealt is increased by <color=#99FFFFFF>12.5%/30%</color>.",
+      "desc": "For 12s after triggering a Swirl or Stellar Swirl reaction, ATK increases by <color=#99FFFFFF>30%</color>. In addition, when 1/2 or more characters in the party are of a different Elemental Type from the equipping character, the DMG dealt by the equipping character's Charged Attacks is increased by <color=#99FFFFFF>25%/60%</color>, and Elemental Burst DMG dealt is increased by <color=#99FFFFFF>12.5%/30%</color>.",
       "param_list": [
         0.3,
         12,
@@ -371,7 +371,7 @@
     },
     "3": {
       "name": "The Moonring Sighted",
-      "desc": "For 12s after triggering a Swirl or Star Swirl reaction, ATK increases by <color=#99FFFFFF>36%</color>. In addition, when 1/2 or more characters in the party are of a different Elemental Type from the equipping character, the DMG dealt by the equipping character's Charged Attacks is increased by <color=#99FFFFFF>30%/72%</color> and Elemental Burst DMG dealt is increased by <color=#99FFFFFF>15%/36%</color>.",
+      "desc": "For 12s after triggering a Swirl or Stellar Swirl reaction, ATK increases by <color=#99FFFFFF>36%</color>. In addition, when 1/2 or more characters in the party are of a different Elemental Type from the equipping character, the DMG dealt by the equipping character's Charged Attacks is increased by <color=#99FFFFFF>30%/72%</color>, and Elemental Burst DMG dealt is increased by <color=#99FFFFFF>15%/36%</color>.",
       "param_list": [
         0.36,
         12,
@@ -385,7 +385,7 @@
     },
     "4": {
       "name": "The Moonring Sighted",
-      "desc": "For 12s after triggering a Swirl or Astral Swirl reaction, ATK increases by <color=#99FFFFFF>42%</color>. In addition, when 1/2 or more characters in the party are of a different Elemental Type from the equipping character, the DMG dealt by the equipping character's Charged Attacks is increased by <color=#99FFFFFF>35%/84%</color> and Elemental Burst DMG dealt is increased by <color=#99FFFFFF>17.5%/42%</color>.",
+      "desc": "For 12s after triggering a Swirl or Stellar Swirl reaction, ATK increases by <color=#99FFFFFF>42%</color>. In addition, when 1/2 or more characters in the party are of a different Elemental Type from the equipping character, the DMG dealt by the equipping character's Charged Attacks is increased by <color=#99FFFFFF>35%/84%</color>, and Elemental Burst DMG dealt is increased by <color=#99FFFFFF>17.5%/42%</color>.",
       "param_list": [
         0.42,
         12,
@@ -399,7 +399,7 @@
     },
     "5": {
       "name": "The Moonring Sighted",
-      "desc": "For 12s after triggering a Swirl or Star Swirl reaction, ATK increases by <color=#99FFFFFF>48%</color>. In addition, when 1/2 or more characters in the party are of a different Elemental Type from the equipping character, the DMG dealt by the equipping character's Charged Attacks is increased by <color=#99FFFFFF>40%/96%</color> and Elemental Burst DMG dealt is increased by <color=#99FFFFFF>20%/48%</color>.",
+      "desc": "For 12s after triggering a Swirl or Stellar Swirl reaction, ATK increases by <color=#99FFFFFF>48%</color>. In addition, when 1/2 or more characters in the party are of a different Elemental Type from the equipping character, the DMG dealt by the equipping character's Charged Attacks is increased by <color=#99FFFFFF>40%/96%</color>, and Elemental Burst DMG dealt is increased by <color=#99FFFFFF>20%/48%</color>.",
       "param_list": [
         0.48,
         12,

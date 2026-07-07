@@ -1138,7 +1138,7 @@
     "type": "Cooking Ingredient"
   },
   "101282": {
-    "name": "Glimmering Fluorite",
+    "name": "Lumifluorite",
     "rank": 0,
     "icon": "UI_ItemIcon_101282",
     "type": "Material"
@@ -2059,58 +2059,67 @@
     "week": 2
   },
   "104365": {
-    "name": "Philosophies of \"Mercy\"",
+    "name": "Teachings of Charity",
     "rank": 2,
     "icon": "UI_ItemIcon_104365",
-    "type": "Character Talent Material"
+    "type": "Character Talent Material",
+    "week": 0
   },
   "104366": {
-    "name": "Guide to \"Charity\"",
+    "name": "Guide to Charity",
     "rank": 3,
     "icon": "UI_ItemIcon_104366",
-    "type": "Character Talent Material"
+    "type": "Character Talent Material",
+    "week": 0
   },
   "104367": {
-    "name": "Philosophy of \"Kindness\"",
+    "name": "Philosophies of Charity",
     "rank": 4,
     "icon": "UI_ItemIcon_104367",
-    "type": "Character Talent Material"
+    "type": "Character Talent Material",
+    "week": 0
   },
   "104368": {
-    "name": "Guide to Diligence",
+    "name": "Teachings of Fortitude",
     "rank": 2,
     "icon": "UI_ItemIcon_104368",
-    "type": "Character Talent Material"
+    "type": "Character Talent Material",
+    "week": 1
   },
   "104369": {
-    "name": "Guide to Diligence",
+    "name": "Guide to Fortitude",
     "rank": 3,
     "icon": "UI_ItemIcon_104369",
-    "type": "Character Talent Material"
+    "type": "Character Talent Material",
+    "week": 1
   },
   "104370": {
-    "name": "Philosophies of Endurance",
+    "name": "Philosophies of Fortitude",
     "rank": 4,
     "icon": "UI_ItemIcon_104370",
-    "type": "Character Talent Material"
+    "type": "Character Talent Material",
+    "week": 1
   },
   "104371": {
     "name": "Teachings of Glory",
     "rank": 2,
     "icon": "UI_ItemIcon_104371",
-    "type": "Character Talent Material"
+    "type": "Character Talent Material",
+    "week": 2
   },
   "104372": {
-    "name": "Guide to \"Prosperity\"",
+    "name": "Guide to Glory",
     "rank": 3,
     "icon": "UI_ItemIcon_104372",
-    "type": "Character Talent Material"
+    "type": "Character Talent Material",
+    "week": 2
   },
   "104373": {
     "name": "Philosophies of Glory",
     "rank": 4,
     "icon": "UI_ItemIcon_104373",
-    "type": "Character Talent Material"
+    "type": "Character Talent Material",
+    "week": 2
   },
   "105002": {
     "name": "Sanctifying Unction",
@@ -2275,7 +2284,7 @@
     "type": "Adventure Item"
   },
   "107036": {
-    "name": "Ei Wingdrop",
+    "name": "Shadow Wingdrop",
     "rank": 0,
     "icon": "UI_ItemIcon_107036",
     "type": "Adventure Item"
@@ -10171,73 +10180,73 @@
     "type": "Character and Weapon Enhancement Material"
   },
   "112146": {
-    "name": "Phantasmagorical Dust",
+    "name": "Ethereal Glimmershard",
     "rank": 1,
     "icon": "UI_ItemIcon_112146",
     "type": "Character and Weapon Enhancement Material"
   },
   "112147": {
-    "name": "Phantasm Crystal",
+    "name": "Ethereal Crystal",
     "rank": 2,
     "icon": "UI_ItemIcon_112147",
     "type": "Character and Weapon Enhancement Material"
   },
   "112148": {
-    "name": "Dreamy Crystal Koku",
+    "name": "Ethereal Crystalscale Stone",
     "rank": 3,
     "icon": "UI_ItemIcon_112148",
     "type": "Character and Weapon Enhancement Material"
   },
   "112149": {
-    "name": "Chimera",
+    "name": "Chimeric Core",
     "rank": 1,
     "icon": "UI_ItemIcon_112149",
     "type": "Character and Weapon Enhancement Material"
   },
   "112150": {
-    "name": "Symbiotic Chimera Cell",
+    "name": "Symbiotic Chimeric Nucleus",
     "rank": 2,
     "icon": "UI_ItemIcon_112150",
     "type": "Character and Weapon Enhancement Material"
   },
   "112151": {
-    "name": "Primordial Chimera",
+    "name": "Genesis Chimeric Nexus",
     "rank": 3,
     "icon": "UI_ItemIcon_112151",
     "type": "Character and Weapon Enhancement Material"
   },
   "112152": {
-    "name": "Sediment Fragment",
+    "name": "Accreted Fragment",
     "rank": 2,
     "icon": "UI_ItemIcon_112152",
     "type": "Character and Weapon Enhancement Material"
   },
   "112153": {
-    "name": "Sediment Clot",
+    "name": "Accreted Mass",
     "rank": 3,
     "icon": "UI_ItemIcon_112153",
     "type": "Character and Weapon Enhancement Material"
   },
   "112154": {
-    "name": "Crystalline Cyst",
+    "name": "Accreted Growth",
     "rank": 4,
     "icon": "UI_ItemIcon_112154",
     "type": "Character and Weapon Enhancement Material"
   },
   "112155": {
-    "name": "Aether-Life Root",
+    "name": "Hollow Root of Life",
     "rank": 2,
     "icon": "UI_ItemIcon_112155",
     "type": "Character and Weapon Enhancement Material"
   },
   "112156": {
-    "name": "Crystalline Sprout",
+    "name": "Sprout Node of Life",
     "rank": 3,
     "icon": "UI_ItemIcon_112156",
     "type": "Character and Weapon Enhancement Material"
   },
   "112157": {
-    "name": "Everliving Branch of the Heart",
+    "name": "Coiled Core of Life",
     "rank": 4,
     "icon": "UI_ItemIcon_112157",
     "type": "Character and Weapon Enhancement Material"
@@ -10771,13 +10780,13 @@
     "type": "Character Level-Up Material"
   },
   "113090": {
-    "name": "Ever-Flame Seed",
+    "name": "Unscorched Blossom Branch",
     "rank": 4,
     "icon": "UI_ItemIcon_113090",
     "type": "Character Level-Up Material"
   },
   "113091": {
-    "name": "Broken Tail of the Aether-Drifter",
+    "name": "Severed Tail of the Sky-Roamer",
     "rank": 4,
     "icon": "UI_ItemIcon_113091",
     "type": "Character Level-Up Material"
@@ -11371,76 +11380,88 @@
     "week": 2
   },
   "114085": {
-    "name": "The Stirring of the Pale Star Host",
+    "name": "Rise of the Pale Star Army",
     "rank": 2,
     "icon": "UI_ItemIcon_114085",
-    "type": "Weapon Ascension Material"
+    "type": "Weapon Ascension Material",
+    "week": 0
   },
   "114086": {
-    "name": "The Gathering of the Pale Star Host",
+    "name": "Muster of the Pale Star Army",
     "rank": 3,
     "icon": "UI_ItemIcon_114086",
-    "type": "Weapon Ascension Material"
+    "type": "Weapon Ascension Material",
+    "week": 0
   },
   "114087": {
-    "name": "Command of the Pale Star's Host",
+    "name": "Clarion of the Pale Star Army",
     "rank": 4,
     "icon": "UI_ItemIcon_114087",
-    "type": "Weapon Ascension Material"
+    "type": "Weapon Ascension Material",
+    "week": 0
   },
   "114088": {
-    "name": "Conquest of the Pale Star Host",
+    "name": "Triumph of the Pale Star Army",
     "rank": 5,
     "icon": "UI_ItemIcon_114088",
-    "type": "Weapon Ascension Material"
+    "type": "Weapon Ascension Material",
+    "week": 0
   },
   "114089": {
-    "name": "Deliberation of the Cellar Nectar",
+    "name": "Measured Pour of the Cellared Spiritual Nectar",
     "rank": 2,
     "icon": "UI_ItemIcon_114089",
-    "type": "Weapon Ascension Material"
+    "type": "Weapon Ascension Material",
+    "week": 1
   },
   "114090": {
-    "name": "Drunkard's Spirit of the Cellar",
+    "name": "Intoxication of the Cellared Spiritual Nectar",
     "rank": 3,
     "icon": "UI_ItemIcon_114090",
-    "type": "Weapon Ascension Material"
+    "type": "Weapon Ascension Material",
+    "week": 1
   },
   "114091": {
-    "name": "Exhilaration of the Cellar Elixir",
+    "name": "Exhilaration of the Cellared Spiritual Nectar",
     "rank": 4,
     "icon": "UI_ItemIcon_114091",
-    "type": "Weapon Ascension Material"
+    "type": "Weapon Ascension Material",
+    "week": 1
   },
   "114092": {
-    "name": "Libation of the Cellar-Lord's Whim",
+    "name": "Revelry of the Cellared Spiritual Nectar",
     "rank": 5,
     "icon": "UI_ItemIcon_114092",
-    "type": "Weapon Ascension Material"
+    "type": "Weapon Ascension Material",
+    "week": 1
   },
   "114093": {
-    "name": "Resurrection of the Frost Sovereign",
+    "name": "The Frost Emperor's Revival",
     "rank": 2,
     "icon": "UI_ItemIcon_114093",
-    "type": "Weapon Ascension Material"
+    "type": "Weapon Ascension Material",
+    "week": 2
   },
   "114094": {
-    "name": "Ceremonial of the Frost Sovereign",
+    "name": "The Frost Emperor's Ceremony",
     "rank": 3,
     "icon": "UI_ItemIcon_114094",
-    "type": "Weapon Ascension Material"
+    "type": "Weapon Ascension Material",
+    "week": 2
   },
   "114095": {
-    "name": "Lament of the Frost-Veiled Emperor",
+    "name": "The Frost Emperor's Lament",
     "rank": 4,
     "icon": "UI_ItemIcon_114095",
-    "type": "Weapon Ascension Material"
+    "type": "Weapon Ascension Material",
+    "week": 2
   },
   "114096": {
-    "name": "Gash of the Frost-Blade Emperor",
+    "name": "The Frost Emperor's Farewell",
     "rank": 5,
     "icon": "UI_ItemIcon_114096",
-    "type": "Weapon Ascension Material"
+    "type": "Weapon Ascension Material",
+    "week": 2
   },
   "118001": {
     "name": "Cake for Traveler",
@@ -11701,22 +11722,28 @@
     "type": "Very Special Item"
   },
   "121659": {
-    "name": "Scent Trail of the Snow-Buried Ground",
+    "name": "Remnant Incense Guide - Snowgrave",
     "rank": 4,
     "icon": "UI_ItemIcon_121659",
     "type": "Adventure Item"
   },
   "121660": {
-    "name": "Scent Guide of the Frost-Shattered Peak",
+    "name": "Remnant Incense Guide - Fellfrost Peak",
     "rank": 4,
     "icon": "UI_ItemIcon_121660",
     "type": "Adventure Item"
   },
   "121661": {
-    "name": "Lure of Lingering Coagulating Frost",
+    "name": "Remnant Incense Guide - Everfrozen Earth",
     "rank": 4,
     "icon": "UI_ItemIcon_121661",
     "type": "Adventure Item"
+  },
+  "121674": {
+    "name": "(test)TPS爬塔角色外观奖励纪念品",
+    "rank": 4,
+    "icon": "UI_ItemIcon_121657",
+    "type": "Very Special Item"
   },
   "130001": {
     "name": "Silk Flower Seed",
@@ -13285,7 +13312,7 @@
     "type": "Gadget"
   },
   "220135": {
-    "name": "Mutual Aid Enhancement Kamera",
+    "name": "MAAN-Kamera",
     "rank": 4,
     "icon": "UI_ItemIcon_220094",
     "type": "Gadget"

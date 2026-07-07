@@ -18,14 +18,18 @@
           "value": 0.35
         },
         {
-          "prop_type": "FIGHT_PROP_NONE"
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
         },
         {
-          "prop_type": "FIGHT_PROP_NONE"
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
         }
       ],
       "affix_id": 2150150,
       "id": 215015,
+      "level": 0,
+      "open_config": "",
       "param_list": [
         0,
         0,
@@ -42,13 +46,16 @@
     {
       "add_props": [
         {
-          "prop_type": "FIGHT_PROP_NONE"
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
         },
         {
-          "prop_type": "FIGHT_PROP_NONE"
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
         },
         {
-          "prop_type": "FIGHT_PROP_NONE"
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
         }
       ],
       "affix_id": 2150151,

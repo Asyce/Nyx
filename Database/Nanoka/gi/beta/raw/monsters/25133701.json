@@ -1,11 +1,11 @@
 {
-  "name": "Howling Wolf Pursuer",
-  "desc": "Volkodlaks that have become exceptionally powerful by inheriting a greater share of the mighty power within their bloodlines.\\nTheir clans once prospered to the point of forming an independent army under the command of the King of Beasts. However, after the Belyi Tsar unified the frozen expanses as the master of the Pale Star Court, these clans—having suffered no great losses in the war—were distrusted and fell into a gradual decline, leaving the center of power in Snezhnaya around the time the Tsaritsa ascended to the throne. Today, the Volkodlaks of the wolf packs mostly dwell in snowfields and mountain forests.",
+  "name": "Voywolf Hunter",
+  "desc": "A Volkodlak that has become extremely powerful after inheriting more of the mighty power in its bloodline.\\nTheir clan once prospered to the point that they could serve as an independent army under the King of Beasts. Yet after the Belyi Tsar, master of the Pale Star's royal court, unified the frozen lands, the clan's relatively small losses in the war caused them to fall under suspicion. They gradually declined, and by the time the Tsaritsa ascended the throne, they had withdrawn from the center of power in Snezhnaya. Today, most wolf-pack Volkodlak make their homes in the snowy plains and mountain forests.",
   "icon": "UI_MonsterIcon_Volkodlak_Greyhound",
   "codex": "BEAST",
-  "title": "Mighty Mystic Beast",
+  "title": "Enchanted Beast of Unrivaled Might",
   "special_names": [
-    "Howling Wolf Stalker"
+    "Voywolf Hunter"
   ],
   "reward": [
     {
@@ -132,6 +132,7 @@
         {},
         {}
       ],
+      "kill_drop_id": 0,
       "prop": [
         {
           "grow_curve": "GROW_CURVE_HP_2",

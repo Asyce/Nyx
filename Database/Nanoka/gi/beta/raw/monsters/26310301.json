@@ -1,11 +1,11 @@
 {
-  "name": "Chimeric Winged Elephant Beast",
-  "desc": "A product of Bio-Alchemy once prevalent upon the frozen earth, a cross-species crafted magical beast.\\nWinged short-legged elephants could presumably migrate without geographical restrictions, while also satisfying the need to pluck fruits from higher places.\\nSolely for this purpose, the creator crafted such a magical beast. In the subsequent war against the Onslaught of Dark Beasts, the Chimeric Winged Elephant conducted intelligence work together with the Vila, ensuring the unimpeded flow of military orders during the Belyi Tsar's advance.",
+  "name": "Chimeric Winged Elephant",
+  "desc": "A product of bio-alchemy that was once widespread across the frozen lands, an aberrant chimeric monster.\\nA short-legged elephant with wings could likely migrate without being restricted by terrain, and would also be able to reach fruit growing in higher places.\\nFor that purpose alone, its creator brought such a beast into being. Later, during the war against the dark tide, Chimeric Winged Elephants worked alongside the Vila in intelligence and communications, ensuring that the Belyi Tsar's commands could pass smoothly and swiftly as his army advanced.",
   "icon": "UI_MonsterIcon_Chimera_ElephantBird",
   "codex": "BEAST",
-  "title": "Remnant-Crafted Beast",
+  "title": "Patchwork Beast",
   "special_names": [
-    "Chimeric Winged Elephant Beast"
+    "Chimeric Winged Elephant"
   ],
   "reward": [
     {
@@ -79,6 +79,7 @@
         {},
         {}
       ],
+      "kill_drop_id": 0,
       "prop": [
         {
           "grow_curve": "GROW_CURVE_HP_2",

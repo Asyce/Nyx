@@ -1,11 +1,11 @@
 {
-  "name": "Frostbite Sentinel",
-  "desc": "The Snegovik, born amidst Cryo and snow for love.\\nThe males among the Snegovik are natural knights, most of whom are born with the ability to freely manipulate Cryo and snow to forge their own Weapons.\\nLegendary tales state that during the battle in which the Belyi Tsar resisted the pitch-black tide of Athame Artis, a Snegovik serving as his guard unleashed a power not belonging to its kind, its form growing to a considerably massive size.\\nAlthough its ultimate fate remains unknown, breaking a taboo surely could not have resulted in a good outcome.",
+  "name": "Glacial Warden",
+  "desc": "A Snegovik born of love amid the snow and ice.\\nMale Snegovik are natural-born knights, and most are born able to freely forge weapons from ice and snow.\\nLegend tells that during the Belyi Tsar's campaign against the dark tide, a Snegovik serving as his guard unleashed a power that didn't belong to his kind, transforming into a towering giant.\\nThough his final fate remains unknown, one who violated such a taboo surely could not have met with a happy end.",
   "icon": "UI_MonsterIcon_Snegurochka_Male",
   "codex": "BEAST",
-  "title": "Snegovik forged from Frostbite",
+  "title": "Snegovik Created From Ice",
   "special_names": [
-    "Frostbite Guard"
+    "Glacial Warden"
   ],
   "reward": [
     {
@@ -85,6 +85,7 @@
         {},
         {}
       ],
+      "kill_drop_id": 0,
       "prop": [
         {
           "grow_curve": "GROW_CURVE_HP_2",
@@ -172,6 +173,7 @@
         {},
         {}
       ],
+      "kill_drop_id": 0,
       "prop": [
         {
           "grow_curve": "GROW_CURVE_HP_2",
@@ -212,6 +214,7 @@
         {},
         {}
       ],
+      "kill_drop_id": 0,
       "prop": [
         {
           "grow_curve": "GROW_CURVE_HP_2",
@@ -299,6 +302,7 @@
         {},
         {}
       ],
+      "kill_drop_id": 0,
       "prop": [
         {
           "grow_curve": "GROW_CURVE_HP_2",

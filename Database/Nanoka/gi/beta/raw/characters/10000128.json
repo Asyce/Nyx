@@ -3319,7 +3319,7 @@
     {
       "id": 1282201,
       "name": "Wind's Vanguard",
-      "desc": "When nearby party members trigger Swirl or Astral Swirl reaction(s), Varka gains one stack of <color=#FFD780FF>Azure Fang's Oath</color>, increasing the DMG dealt by his Normal Attacks, Charged Attacks, special Charged Attack <color=#FFD780FF>Azure Devour</color> and special Elemental Skill {LINK#N11280002}<color=#FFD780FF>Four Winds' Ascension</color>{/LINK} by 7.5% for 8s. Max 4 stacks. Each character can grant Varka with 1 stack of <color=#FFD780FF>Azure Fang's Oath</color> every second this way.",
+      "desc": "When nearby party members trigger a Swirl or Stellar Swirl reaction, Varka gains 1 stack of <color=#FFD780FF>Azure Fang's Oath</color>, increasing the DMG dealt by his Normal Attacks, Charged Attacks, special Charged Attack <color=#FFD780FF>Azure Devour</color> and special Elemental Skill {LINK#N11280002}<color=#FFD780FF>Four Winds' Ascension</color>{/LINK} by 7.5% for 8s. Max 4 stacks. Each character can grant Varka with 1 stack of <color=#FFD780FF>Azure Fang's Oath</color> every second this way.",
       "icon": "UI_Talent_S_Varka_05",
       "unlock": 4,
       "param_list": [
@@ -3461,7 +3461,7 @@
     {
       "id": 1284,
       "name": "\"For None May Take From Us Our Freedom of Song\"",
-      "desc": "When Varka triggers a Swirl or Astral Swirl reaction, based on the Elemental Types involved in the reaction, all nearby party members gain a 20% <color=#80FFD7FF>Anemo DMG Bonus</color> and the corresponding Elemental DMG Bonus for 10s.",
+      "desc": "When Varka triggers a Swirl or Stellar Swirl reaction, based on the Elemental Types involved in the reaction, all nearby party members gain a 20% <color=#80FFD7FF>Anemo DMG Bonus</color> and the corresponding Elemental DMG Bonus for 10s.",
       "icon": "UI_Talent_S_Varka_03",
       "param_list": [
         0.2,
@@ -3521,7 +3521,7 @@
             "name": "Wolfhook",
             "id": 100021,
             "count": 3,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Broken Drive Shaft",
@@ -3550,7 +3550,7 @@
             "name": "Wolfhook",
             "id": 100021,
             "count": 10,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Broken Drive Shaft",
@@ -3579,7 +3579,7 @@
             "name": "Wolfhook",
             "id": 100021,
             "count": 20,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Reinforced Drive Shaft",
@@ -3608,7 +3608,7 @@
             "name": "Wolfhook",
             "id": 100021,
             "count": 30,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Reinforced Drive Shaft",
@@ -3637,7 +3637,7 @@
             "name": "Wolfhook",
             "id": 100021,
             "count": 45,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Precision Drive Shaft",
@@ -3666,7 +3666,7 @@
             "name": "Wolfhook",
             "id": 100021,
             "count": 60,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Precision Drive Shaft",

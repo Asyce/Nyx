@@ -1,11 +1,11 @@
 {
-  "name": "Chimera Horned Bear",
-  "desc": "A product of Bio-Alchemy, a Crafted magical beast that took shape in a highly unusual manner.\\nInstead of following artificial designs, this Crafted monster was formed through the self-assembly of life Segments, which even granted it the mystical trait of being able to freely Use the power of the Elements.\\nEven when life is shattered to the point where almost nothing but Segments remain, is there still some will and mighty power that compels them to Grow according to a mysterious plan?\\nToday, perhaps None know the answer to this anymore.",
+  "name": "Chimeric Horned Bear",
+  "desc": "A product of bio-alchemy, a man-made monster with an exceptionally unusual formation.\\nA man-made monster not formed according to its creator's design, but through the spontaneous assembly of life segments. As a result, it came to possess certain wondrous traits, including the ability to freely wield elemental power.\\nEven if life is broken down until almost nothing remains but segments, could some will or power still guide them to grow according to a mysterious plan?\\nPerhaps no one knows the answer to that by now.",
   "icon": "UI_MonsterIcon_Chimera_BearDeer",
   "codex": "BEAST",
-  "title": "",
+  "title": "Manmade Wildwood Spirit",
   "special_names": [
-    "Chimera Horned Bear"
+    "Chimeric Horned Bear"
   ],
   "reward": [
     {
@@ -36,12 +36,9 @@
       "hp_drops": [
         {
           "drop_id": 22010011,
-          "hp_percent": 66
+          "hp_percent": 60
         },
-        {
-          "drop_id": 22010011,
-          "hp_percent": 33
-        },
+        {},
         {}
       ],
       "kill_drop_id": 22010011,
@@ -85,6 +82,7 @@
         {},
         {}
       ],
+      "kill_drop_id": 0,
       "prop": [
         {
           "grow_curve": "GROW_CURVE_HP_2",

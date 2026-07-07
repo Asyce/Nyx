@@ -10,9 +10,9 @@
     "vision": "Cryo",
     "vision_special_type_before": "Stellar Linchpin",
     "vision_special_type_after": "",
-    "constellation": "Cygni",
+    "constellation": "Cygnus Olor",
     "region": "ASSOC_TYPE_SNEZHNAYA_STAR",
-    "title": "Soaring Winds and Swirling Snow",
+    "title": "Swirling Snow",
     "native": "???",
     "detail": "???",
     "va": {
@@ -3346,11 +3346,11 @@
             "name": "Frostfairy Flower",
             "id": 101275,
             "count": 3,
-            "rank": 1
+            "rank": 0
           },
           {
-            "name": "Chimera",
-            "id": 112149,
+            "name": "Ethereal Glimmershard",
+            "id": 112146,
             "count": 3,
             "rank": 1
           }
@@ -3366,7 +3366,7 @@
             "rank": 3
           },
           {
-            "name": "Ever-Flame Seed",
+            "name": "Unscorched Blossom Branch",
             "id": 113090,
             "count": 2,
             "rank": 4
@@ -3375,11 +3375,11 @@
             "name": "Frostfairy Flower",
             "id": 101275,
             "count": 10,
-            "rank": 1
+            "rank": 0
           },
           {
-            "name": "Chimera",
-            "id": 112149,
+            "name": "Ethereal Glimmershard",
+            "id": 112146,
             "count": 15,
             "rank": 1
           }
@@ -3395,7 +3395,7 @@
             "rank": 3
           },
           {
-            "name": "Ever-Flame Seed",
+            "name": "Unscorched Blossom Branch",
             "id": 113090,
             "count": 4,
             "rank": 4
@@ -3404,11 +3404,11 @@
             "name": "Frostfairy Flower",
             "id": 101275,
             "count": 20,
-            "rank": 1
+            "rank": 0
           },
           {
-            "name": "Symbiotic Chimera Cell",
-            "id": 112150,
+            "name": "Ethereal Crystal",
+            "id": 112147,
             "count": 12,
             "rank": 2
           }
@@ -3424,7 +3424,7 @@
             "rank": 4
           },
           {
-            "name": "Ever-Flame Seed",
+            "name": "Unscorched Blossom Branch",
             "id": 113090,
             "count": 8,
             "rank": 4
@@ -3433,11 +3433,11 @@
             "name": "Frostfairy Flower",
             "id": 101275,
             "count": 30,
-            "rank": 1
+            "rank": 0
           },
           {
-            "name": "Symbiotic Chimera Cell",
-            "id": 112150,
+            "name": "Ethereal Crystal",
+            "id": 112147,
             "count": 18,
             "rank": 2
           }
@@ -3453,7 +3453,7 @@
             "rank": 4
           },
           {
-            "name": "Ever-Flame Seed",
+            "name": "Unscorched Blossom Branch",
             "id": 113090,
             "count": 12,
             "rank": 4
@@ -3462,11 +3462,11 @@
             "name": "Frostfairy Flower",
             "id": 101275,
             "count": 45,
-            "rank": 1
+            "rank": 0
           },
           {
-            "name": "Primordial Chimera",
-            "id": 112151,
+            "name": "Ethereal Crystalscale Stone",
+            "id": 112148,
             "count": 12,
             "rank": 3
           }
@@ -3482,7 +3482,7 @@
             "rank": 5
           },
           {
-            "name": "Ever-Flame Seed",
+            "name": "Unscorched Blossom Branch",
             "id": 113090,
             "count": 20,
             "rank": 4
@@ -3491,11 +3491,11 @@
             "name": "Frostfairy Flower",
             "id": 101275,
             "count": 60,
-            "rank": 1
+            "rank": 0
           },
           {
-            "name": "Primordial Chimera",
-            "id": 112151,
+            "name": "Ethereal Crystalscale Stone",
+            "id": 112148,
             "count": 24,
             "rank": 3
           }
@@ -3508,14 +3508,14 @@
         {
           "mats": [
             {
-              "name": "Philosophies of \"Mercy\"",
+              "name": "Teachings of Charity",
               "id": 104365,
               "count": 3,
               "rank": 2
             },
             {
-              "name": "Chimera",
-              "id": 112149,
+              "name": "Ethereal Glimmershard",
+              "id": 112146,
               "count": 6,
               "rank": 1
             }
@@ -3525,14 +3525,14 @@
         {
           "mats": [
             {
-              "name": "Guide to \"Charity\"",
+              "name": "Guide to Charity",
               "id": 104366,
               "count": 2,
               "rank": 3
             },
             {
-              "name": "Symbiotic Chimera Cell",
-              "id": 112150,
+              "name": "Ethereal Crystal",
+              "id": 112147,
               "count": 3,
               "rank": 2
             }
@@ -3542,14 +3542,14 @@
         {
           "mats": [
             {
-              "name": "Guide to \"Charity\"",
+              "name": "Guide to Charity",
               "id": 104366,
               "count": 4,
               "rank": 3
             },
             {
-              "name": "Symbiotic Chimera Cell",
-              "id": 112150,
+              "name": "Ethereal Crystal",
+              "id": 112147,
               "count": 4,
               "rank": 2
             }
@@ -3559,14 +3559,14 @@
         {
           "mats": [
             {
-              "name": "Guide to \"Charity\"",
+              "name": "Guide to Charity",
               "id": 104366,
               "count": 6,
               "rank": 3
             },
             {
-              "name": "Symbiotic Chimera Cell",
-              "id": 112150,
+              "name": "Ethereal Crystal",
+              "id": 112147,
               "count": 6,
               "rank": 2
             }
@@ -3576,14 +3576,14 @@
         {
           "mats": [
             {
-              "name": "Guide to \"Charity\"",
+              "name": "Guide to Charity",
               "id": 104366,
               "count": 9,
               "rank": 3
             },
             {
-              "name": "Symbiotic Chimera Cell",
-              "id": 112150,
+              "name": "Ethereal Crystal",
+              "id": 112147,
               "count": 9,
               "rank": 2
             }
@@ -3593,14 +3593,14 @@
         {
           "mats": [
             {
-              "name": "Philosophy of \"Kindness\"",
+              "name": "Philosophies of Charity",
               "id": 104367,
               "count": 4,
               "rank": 4
             },
             {
-              "name": "Primordial Chimera",
-              "id": 112151,
+              "name": "Ethereal Crystalscale Stone",
+              "id": 112148,
               "count": 4,
               "rank": 3
             },
@@ -3616,14 +3616,14 @@
         {
           "mats": [
             {
-              "name": "Philosophy of \"Kindness\"",
+              "name": "Philosophies of Charity",
               "id": 104367,
               "count": 6,
               "rank": 4
             },
             {
-              "name": "Primordial Chimera",
-              "id": 112151,
+              "name": "Ethereal Crystalscale Stone",
+              "id": 112148,
               "count": 6,
               "rank": 3
             },
@@ -3639,14 +3639,14 @@
         {
           "mats": [
             {
-              "name": "Philosophy of \"Kindness\"",
+              "name": "Philosophies of Charity",
               "id": 104367,
               "count": 12,
               "rank": 4
             },
             {
-              "name": "Primordial Chimera",
-              "id": 112151,
+              "name": "Ethereal Crystalscale Stone",
+              "id": 112148,
               "count": 9,
               "rank": 3
             },
@@ -3662,14 +3662,14 @@
         {
           "mats": [
             {
-              "name": "Philosophy of \"Kindness\"",
+              "name": "Philosophies of Charity",
               "id": 104367,
               "count": 16,
               "rank": 4
             },
             {
-              "name": "Primordial Chimera",
-              "id": 112151,
+              "name": "Ethereal Crystalscale Stone",
+              "id": 112148,
               "count": 12,
               "rank": 3
             },
@@ -3693,14 +3693,14 @@
         {
           "mats": [
             {
-              "name": "Philosophies of \"Mercy\"",
+              "name": "Teachings of Charity",
               "id": 104365,
               "count": 3,
               "rank": 2
             },
             {
-              "name": "Chimera",
-              "id": 112149,
+              "name": "Ethereal Glimmershard",
+              "id": 112146,
               "count": 6,
               "rank": 1
             }
@@ -3710,14 +3710,14 @@
         {
           "mats": [
             {
-              "name": "Guide to \"Charity\"",
+              "name": "Guide to Charity",
               "id": 104366,
               "count": 2,
               "rank": 3
             },
             {
-              "name": "Symbiotic Chimera Cell",
-              "id": 112150,
+              "name": "Ethereal Crystal",
+              "id": 112147,
               "count": 3,
               "rank": 2
             }
@@ -3727,14 +3727,14 @@
         {
           "mats": [
             {
-              "name": "Guide to \"Charity\"",
+              "name": "Guide to Charity",
               "id": 104366,
               "count": 4,
               "rank": 3
             },
             {
-              "name": "Symbiotic Chimera Cell",
-              "id": 112150,
+              "name": "Ethereal Crystal",
+              "id": 112147,
               "count": 4,
               "rank": 2
             }
@@ -3744,14 +3744,14 @@
         {
           "mats": [
             {
-              "name": "Guide to \"Charity\"",
+              "name": "Guide to Charity",
               "id": 104366,
               "count": 6,
               "rank": 3
             },
             {
-              "name": "Symbiotic Chimera Cell",
-              "id": 112150,
+              "name": "Ethereal Crystal",
+              "id": 112147,
               "count": 6,
               "rank": 2
             }
@@ -3761,14 +3761,14 @@
         {
           "mats": [
             {
-              "name": "Guide to \"Charity\"",
+              "name": "Guide to Charity",
               "id": 104366,
               "count": 9,
               "rank": 3
             },
             {
-              "name": "Symbiotic Chimera Cell",
-              "id": 112150,
+              "name": "Ethereal Crystal",
+              "id": 112147,
               "count": 9,
               "rank": 2
             }
@@ -3778,14 +3778,14 @@
         {
           "mats": [
             {
-              "name": "Philosophy of \"Kindness\"",
+              "name": "Philosophies of Charity",
               "id": 104367,
               "count": 4,
               "rank": 4
             },
             {
-              "name": "Primordial Chimera",
-              "id": 112151,
+              "name": "Ethereal Crystalscale Stone",
+              "id": 112148,
               "count": 4,
               "rank": 3
             },
@@ -3801,14 +3801,14 @@
         {
           "mats": [
             {
-              "name": "Philosophy of \"Kindness\"",
+              "name": "Philosophies of Charity",
               "id": 104367,
               "count": 6,
               "rank": 4
             },
             {
-              "name": "Primordial Chimera",
-              "id": 112151,
+              "name": "Ethereal Crystalscale Stone",
+              "id": 112148,
               "count": 6,
               "rank": 3
             },
@@ -3824,14 +3824,14 @@
         {
           "mats": [
             {
-              "name": "Philosophy of \"Kindness\"",
+              "name": "Philosophies of Charity",
               "id": 104367,
               "count": 12,
               "rank": 4
             },
             {
-              "name": "Primordial Chimera",
-              "id": 112151,
+              "name": "Ethereal Crystalscale Stone",
+              "id": 112148,
               "count": 9,
               "rank": 3
             },
@@ -3847,14 +3847,14 @@
         {
           "mats": [
             {
-              "name": "Philosophy of \"Kindness\"",
+              "name": "Philosophies of Charity",
               "id": 104367,
               "count": 16,
               "rank": 4
             },
             {
-              "name": "Primordial Chimera",
-              "id": 112151,
+              "name": "Ethereal Crystalscale Stone",
+              "id": 112148,
               "count": 12,
               "rank": 3
             },
@@ -3878,14 +3878,14 @@
         {
           "mats": [
             {
-              "name": "Philosophies of \"Mercy\"",
+              "name": "Teachings of Charity",
               "id": 104365,
               "count": 3,
               "rank": 2
             },
             {
-              "name": "Chimera",
-              "id": 112149,
+              "name": "Ethereal Glimmershard",
+              "id": 112146,
               "count": 6,
               "rank": 1
             }
@@ -3895,14 +3895,14 @@
         {
           "mats": [
             {
-              "name": "Guide to \"Charity\"",
+              "name": "Guide to Charity",
               "id": 104366,
               "count": 2,
               "rank": 3
             },
             {
-              "name": "Symbiotic Chimera Cell",
-              "id": 112150,
+              "name": "Ethereal Crystal",
+              "id": 112147,
               "count": 3,
               "rank": 2
             }
@@ -3912,14 +3912,14 @@
         {
           "mats": [
             {
-              "name": "Guide to \"Charity\"",
+              "name": "Guide to Charity",
               "id": 104366,
               "count": 4,
               "rank": 3
             },
             {
-              "name": "Symbiotic Chimera Cell",
-              "id": 112150,
+              "name": "Ethereal Crystal",
+              "id": 112147,
               "count": 4,
               "rank": 2
             }
@@ -3929,14 +3929,14 @@
         {
           "mats": [
             {
-              "name": "Guide to \"Charity\"",
+              "name": "Guide to Charity",
               "id": 104366,
               "count": 6,
               "rank": 3
             },
             {
-              "name": "Symbiotic Chimera Cell",
-              "id": 112150,
+              "name": "Ethereal Crystal",
+              "id": 112147,
               "count": 6,
               "rank": 2
             }
@@ -3946,14 +3946,14 @@
         {
           "mats": [
             {
-              "name": "Guide to \"Charity\"",
+              "name": "Guide to Charity",
               "id": 104366,
               "count": 9,
               "rank": 3
             },
             {
-              "name": "Symbiotic Chimera Cell",
-              "id": 112150,
+              "name": "Ethereal Crystal",
+              "id": 112147,
               "count": 9,
               "rank": 2
             }
@@ -3963,14 +3963,14 @@
         {
           "mats": [
             {
-              "name": "Philosophy of \"Kindness\"",
+              "name": "Philosophies of Charity",
               "id": 104367,
               "count": 4,
               "rank": 4
             },
             {
-              "name": "Primordial Chimera",
-              "id": 112151,
+              "name": "Ethereal Crystalscale Stone",
+              "id": 112148,
               "count": 4,
               "rank": 3
             },
@@ -3986,14 +3986,14 @@
         {
           "mats": [
             {
-              "name": "Philosophy of \"Kindness\"",
+              "name": "Philosophies of Charity",
               "id": 104367,
               "count": 6,
               "rank": 4
             },
             {
-              "name": "Primordial Chimera",
-              "id": 112151,
+              "name": "Ethereal Crystalscale Stone",
+              "id": 112148,
               "count": 6,
               "rank": 3
             },
@@ -4009,14 +4009,14 @@
         {
           "mats": [
             {
-              "name": "Philosophy of \"Kindness\"",
+              "name": "Philosophies of Charity",
               "id": 104367,
               "count": 12,
               "rank": 4
             },
             {
-              "name": "Primordial Chimera",
-              "id": 112151,
+              "name": "Ethereal Crystalscale Stone",
+              "id": 112148,
               "count": 9,
               "rank": 3
             },
@@ -4032,14 +4032,14 @@
         {
           "mats": [
             {
-              "name": "Philosophy of \"Kindness\"",
+              "name": "Philosophies of Charity",
               "id": 104367,
               "count": 16,
               "rank": 4
             },
             {
-              "name": "Primordial Chimera",
-              "id": 112151,
+              "name": "Ethereal Crystalscale Stone",
+              "id": 112148,
               "count": 12,
               "rank": 3
             },

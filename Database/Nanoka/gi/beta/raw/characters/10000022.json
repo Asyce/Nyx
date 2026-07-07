@@ -3297,7 +3297,7 @@
     {
       "id": 225101,
       "name": "Witch's Eve Rite: Temporal Wind's Eulogy",
-      "desc": "After completing <color=#FFD780FF>Witch's Homework: Of the Waking of Wind</color>, Venti will become a <color=#FFD780FF>Hexerei</color> character. When the party includes at least 2 Hexerei characters, you will gain the <color=#FFD780FF>Hexerei: Secret Rite</color> effect, which enhances Hexerei characters.\\n\\n<color=#FFD780FF>Hexerei: Secret Rite</color>\\nWhile the Stormeye created by the Elemental Burst <color=#FFD780FF>Wind's Grand Ode</color> is active, for 4s after a nearby active character triggers a Swirl or Astral Swirl reaction, that character's DMG is increased by 50%, and Venti's Stormeye deals 135% of its original DMG.",
+      "desc": "After completing <color=#FFD780FF>Witch's Homework: Of the Waking of Wind</color>, Venti will become a <color=#FFD780FF>Hexerei</color> character. When the party includes at least 2 Hexerei characters, you will gain the <color=#FFD780FF>Hexerei: Secret Rite</color> effect, which enhances Hexerei characters.\\n\\n<color=#FFD780FF>Hexerei: Secret Rite</color>\\nWhile the Stormeye created by the Elemental Burst <color=#FFD780FF>Wind's Grand Ode</color> is active, for 4s after a nearby active character triggers a Swirl or Stellar Swirl reaction, that character's DMG is increased by 50%, and Venti's Stormeye deals 135% of its original DMG.",
       "icon": "UI_Talent_S_Venti_07",
       "param_list": [
         0.5,
@@ -3449,7 +3449,7 @@
             "name": "Cecilia",
             "id": 100023,
             "count": 3,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Slime Condensate",
@@ -3478,7 +3478,7 @@
             "name": "Cecilia",
             "id": 100023,
             "count": 10,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Slime Condensate",
@@ -3507,7 +3507,7 @@
             "name": "Cecilia",
             "id": 100023,
             "count": 20,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Slime Secretions",
@@ -3536,7 +3536,7 @@
             "name": "Cecilia",
             "id": 100023,
             "count": 30,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Slime Secretions",
@@ -3565,7 +3565,7 @@
             "name": "Cecilia",
             "id": 100023,
             "count": 45,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Slime Concentrate",
@@ -3594,7 +3594,7 @@
             "name": "Cecilia",
             "id": 100023,
             "count": 60,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Slime Concentrate",

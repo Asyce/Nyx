@@ -1,11 +1,11 @@
 {
-  "name": "Chimeric Burrowing Beast",
-  "desc": "A product of Bio-Alchemy once prevalent across the frozen tundra, the heterogeneous crafted magical beast.\\nIf monsters that travel through earth, Cryo, and snow possessed the vision to see everything clearly in the shadows, would they become even more formidable predators?\\nThe results of the experiment were an extraordinary Success. These Burrowing Beasts shuttle beneath the surface at night, digging traps in the dark or hiding in the shadows to hunt.\\nAccording to a report in the Pioneers Herald, workers living in Rainbow Cryo Town once saw a giant Burrowing Beast almost as tall as two people... but that is probably None other than nonsense.",
+  "name": "Chimeric Burrowbeast",
+  "desc": "A product of bio-alchemy that was once widespread across the frozen lands, an aberrant chimeric monster.\\nIf a monster that burrows and moves through earth and snow were granted vision that could see all within the shadows, could it become an even stronger predator?\\nThe experiment proved astonishingly successful. These Burrowbeast move beneath the surface at night, digging traps in the dark or hiding in the shadows to hunt.\\nAccording to a report in Pioneers, a worker living in Svetloledovka once saw a giant Burrowbeast nearly as tall as two people... though that is probably nothing more than a wild rumor.",
   "icon": "UI_MonsterIcon_Chimera_OwlPangolin",
   "codex": "BEAST",
-  "title": "Remnant-Crafted Beast",
+  "title": "Patchwork Beast",
   "special_names": [
-    "Chimeric Burrowing Beast"
+    "Chimeric Burrowbeast"
   ],
   "reward": [
     {

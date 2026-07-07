@@ -1,9 +1,9 @@
 {
   "name": "Volkodlak Raider",
-  "desc": "Among the many Volkodlaks of Snezhnaya, they are the relatively small and agile type.\\nPrecisely because of their agile movements and five senses that are more keen than those of humans, they can rely on instinct to dodge many attacks in battle, making them quite troublesome opponents in close-quarters combat.",
+  "desc": "A relatively small and agile type of Volkodlak found among the many that roam Snezhnaya.\\nWith their swift movements and senses keener than a human's, they can evade many attacks in battle by instinct alone, making them quite troublesome opponents in close-quarters combat.",
   "icon": "UI_MonsterIcon_Vukodlak_Thin_Sword",
   "codex": "BEAST",
-  "title": "Volkodlak Thug",
+  "title": "Volkodlak Brute",
   "special_names": [
     "Raider"
   ],

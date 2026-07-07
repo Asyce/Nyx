@@ -1,9 +1,9 @@
 {
   "name": "Channel Contact",
-  "desc": "A cunning Volkodlak that disguises its hand cannon as a tree trunk.\\nBecause it excels at disguising the weapons and goods it carries, it is often commissioned for work such as transporting cargo or passing on intelligence.\\nIts hand cannon was likely crafted during its spare time. Sometimes, it also uses the hand cannon to fire signal flares disguised as fireworks.\\nDo not be deceived by its appearance; it is actually a highly shrewd and cunning sprite.",
+  "desc": "A cunning Volkodlak that disguises its hand cannon as a tree trunk.\\nSkilled at disguising the weapons and cargo they carry, they are often entrusted with transporting goods or relaying intelligence.\\nThe hand cannon they carry was likely something they made in their spare time. At times, they also use it to fire signal rounds disguised as fireworks.\\nDon't be fooled by their appearance. These fae are far more shrewd and cunning than they seem.",
   "icon": "UI_MonsterIcon_Volkodlak_Beaver",
   "codex": "BEAST",
-  "title": "Volkodlak Thug",
+  "title": "Volkodlak Brute",
   "special_names": [
     "Channel Contact"
   ],
@@ -129,6 +129,48 @@
         {},
         {}
       ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 12.801292,
+        "atk": 45.058296,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25132803": {
+      "monster_name": "Volkodlak_Beaver_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
       "prop": [
         {
           "grow_curve": "GROW_CURVE_HP_2",

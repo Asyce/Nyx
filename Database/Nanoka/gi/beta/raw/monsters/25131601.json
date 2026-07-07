@@ -1,11 +1,11 @@
 {
-  "name": "Volkodlak Marksman",
-  "desc": "Among the many Volkodlaks of Snezhnaya, these belong to the relatively small and agile variety.\\nThey possess senses more keen than those of humans. Whether it is their perception of Anemo currents and wind speed, or their vision in specific environments, these traits have become their unique advantages, allowing them to achieve a hit rate far higher than ordinary people when firing a Bow, crossbow, or Pyro artillery from long distances.",
+  "name": "Volkodlak Sharpshooter",
+  "desc": "A relatively small and agile type of Volkodlak found among the many that roam Snezhnaya.\\nThey possess senses keener than those of humans. Whether in their perception of wind speed or their vision under certain conditions, these traits give them unique advantages, allowing them to achieve far greater accuracy than ordinary people when firing bows, crossbows, or cannons from long range.",
   "icon": "UI_MonsterIcon_Vukodlak_Thin_Pistol",
   "codex": "BEAST",
-  "title": "Volkodlak Thug",
+  "title": "Volkodlak Brute",
   "special_names": [
-    "Marksman"
+    "Sharpshooter"
   ],
   "reward": [
     {

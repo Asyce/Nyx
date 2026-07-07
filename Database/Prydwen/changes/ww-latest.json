@@ -1,13 +1,13 @@
 {
   "provider": "Prydwen",
   "game": "ww",
-  "generatedAt": "2026-07-06T09:17:39.801Z",
+  "generatedAt": "2026-07-07T08:50:41.385Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 3,
-      "unchanged": 60
+      "changed": 1,
+      "unchanged": 62
     }
   },
   "sections": {
@@ -16,25 +16,13 @@
       "removed": [],
       "changed": [
         {
-          "id": "characters:ciaccona",
-          "name": "Ciaccona",
-          "previousHash": "818d472e5146423f90c67fca41a848934583e349220dcbd0ee2a70239b2479a8",
-          "currentHash": "84e8d1190f26220c365d474e0e233b7ef7332bb96ec13b36303687b77908e409"
-        },
-        {
           "id": "characters:encore",
           "name": "Encore",
-          "previousHash": "3d71c79ec7515fab87a7a587ffcec4e8be4bfe25c2c76d16cbfb5dbebdb50447",
-          "currentHash": "d950630e6924b746f04ce4ac339a9a1a71259c94fb7bdaf2720b7c3265e49c32"
-        },
-        {
-          "id": "characters:zhezhi",
-          "name": "Zhezhi",
-          "previousHash": "abf85a67e122c5af534fbf2a07eb3f7531e6eea7b4fc897e6ec2a4e9fc06c383",
-          "currentHash": "aeabb02d7f69708736f38d4c567c974a6a3fb728ff62aee176f9582b299f7db9"
+          "previousHash": "d950630e6924b746f04ce4ac339a9a1a71259c94fb7bdaf2720b7c3265e49c32",
+          "currentHash": "3d71c79ec7515fab87a7a587ffcec4e8be4bfe25c2c76d16cbfb5dbebdb50447"
         }
       ],
-      "unchanged": 60,
+      "unchanged": 62,
       "totals": {
         "previous": 63,
         "current": 63

@@ -1,7 +1,7 @@
 [
   {
     "id": "11101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Dull Blade",
     "rarity": 1,
     "type": "WEAPON_SWORD_ONE_HAND",
@@ -19,6 +19,7 @@
         "type": "GROW_CURVE_ATTACK_101"
       },
       {
+        "init_value": 0,
         "prop_type": "FIGHT_PROP_NONE",
         "type": "GROW_CURVE_CRITICAL_101"
       }
@@ -493,12 +494,12 @@
     },
     "liveComparison": {
       "liveHash": "309018b84994eb51c23f81878891878ccd269f13fc2b46d6dee0ca84afa4cf9c",
-      "currentHash": "93860d989bc7a767f253fde377612c7d220f0aae41bfb3fbebc7e2df01b73b29"
+      "currentHash": "309018b84994eb51c23f81878891878ccd269f13fc2b46d6dee0ca84afa4cf9c"
     }
   },
   {
     "id": "11201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Silver Sword",
     "rarity": 2,
     "type": "WEAPON_SWORD_ONE_HAND",
@@ -516,6 +517,7 @@
         "type": "GROW_CURVE_ATTACK_101"
       },
       {
+        "init_value": 0,
         "prop_type": "FIGHT_PROP_NONE",
         "type": "GROW_CURVE_CRITICAL_101"
       }
@@ -990,7 +992,7 @@
     },
     "liveComparison": {
       "liveHash": "b81775bda0ea1d82255fe25d7bd401b741b5a896f6b49fe4e5d6266253015365",
-      "currentHash": "f9c86d00ec6f2b20944125bb9bb5a5b9ca46ea148f8ce5c95d0b1fb548f53d0f"
+      "currentHash": "b81775bda0ea1d82255fe25d7bd401b741b5a896f6b49fe4e5d6266253015365"
     }
   },
   {
@@ -22848,7 +22850,7 @@
   {
     "id": "11435",
     "contentStatus": "beta",
-    "name": "BP Weapon",
+    "name": "11435",
     "rarity": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
     "attack": 454,
@@ -23486,16 +23488,16 @@
       }
     },
     "liveComparison": {
-      "currentHash": "8638cb415a2d372c913e56542eb0e656a754112a60f058b19a9937fef5ba810a"
+      "currentHash": "7ca45c6cf84321dfda6db9b4da5ccebc6c8dbc0f0e62700b9baaf96b400e2ef5"
     }
   },
   {
     "id": "11436",
     "contentStatus": "beta",
-    "name": "Forgeable Weapon",
+    "name": "Emberwell",
     "rarity": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
-    "description": "A longsword crafted with a gemstone blade; it is said to have been forged for the path of justice, and when unsheathed, it glimmers with an aura of blue Pyro flames.",
+    "description": "A longsword that is entirely gemstone, said to be crafted for the path of righteousness. When unsheathed, it glows with the luster of blue flame.",
     "attack": 510,
     "subStat": "FIGHT_PROP_ELEMENT_MASTERY",
     "assets": {
@@ -23917,7 +23919,7 @@
           {
             "itemId": "114085",
             "quantity": 3,
-            "name": "The Stirring of the Pale Star Host",
+            "name": "Rise of the Pale Star Army",
             "rarity": 2,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -23927,7 +23929,7 @@
           {
             "itemId": "112152",
             "quantity": 3,
-            "name": "Sediment Fragment",
+            "name": "Accreted Fragment",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -23937,7 +23939,7 @@
           {
             "itemId": "112146",
             "quantity": 2,
-            "name": "Phantasmagorical Dust",
+            "name": "Ethereal Glimmershard",
             "rarity": 1,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -23952,7 +23954,7 @@
           {
             "itemId": "114086",
             "quantity": 3,
-            "name": "The Gathering of the Pale Star Host",
+            "name": "Muster of the Pale Star Army",
             "rarity": 3,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -23962,7 +23964,7 @@
           {
             "itemId": "112152",
             "quantity": 12,
-            "name": "Sediment Fragment",
+            "name": "Accreted Fragment",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -23972,7 +23974,7 @@
           {
             "itemId": "112146",
             "quantity": 8,
-            "name": "Phantasmagorical Dust",
+            "name": "Ethereal Glimmershard",
             "rarity": 1,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -23987,7 +23989,7 @@
           {
             "itemId": "114086",
             "quantity": 6,
-            "name": "The Gathering of the Pale Star Host",
+            "name": "Muster of the Pale Star Army",
             "rarity": 3,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -23997,7 +23999,7 @@
           {
             "itemId": "112153",
             "quantity": 6,
-            "name": "Sediment Clot",
+            "name": "Accreted Mass",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -24007,7 +24009,7 @@
           {
             "itemId": "112147",
             "quantity": 6,
-            "name": "Phantasm Crystal",
+            "name": "Ethereal Crystal",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -24022,7 +24024,7 @@
           {
             "itemId": "114087",
             "quantity": 3,
-            "name": "Command of the Pale Star's Host",
+            "name": "Clarion of the Pale Star Army",
             "rarity": 4,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -24032,7 +24034,7 @@
           {
             "itemId": "112153",
             "quantity": 12,
-            "name": "Sediment Clot",
+            "name": "Accreted Mass",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -24042,7 +24044,7 @@
           {
             "itemId": "112147",
             "quantity": 9,
-            "name": "Phantasm Crystal",
+            "name": "Ethereal Crystal",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -24057,7 +24059,7 @@
           {
             "itemId": "114087",
             "quantity": 6,
-            "name": "Command of the Pale Star's Host",
+            "name": "Clarion of the Pale Star Army",
             "rarity": 4,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -24067,7 +24069,7 @@
           {
             "itemId": "112154",
             "quantity": 9,
-            "name": "Crystalline Cyst",
+            "name": "Accreted Growth",
             "rarity": 4,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -24077,7 +24079,7 @@
           {
             "itemId": "112148",
             "quantity": 6,
-            "name": "Dreamy Crystal Koku",
+            "name": "Ethereal Crystalscale Stone",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -24092,7 +24094,7 @@
           {
             "itemId": "114088",
             "quantity": 4,
-            "name": "Conquest of the Pale Star Host",
+            "name": "Triumph of the Pale Star Army",
             "rarity": 5,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -24102,7 +24104,7 @@
           {
             "itemId": "112154",
             "quantity": 18,
-            "name": "Crystalline Cyst",
+            "name": "Accreted Growth",
             "rarity": 4,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -24112,7 +24114,7 @@
           {
             "itemId": "112148",
             "quantity": 12,
-            "name": "Dreamy Crystal Koku",
+            "name": "Ethereal Crystalscale Stone",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -24131,7 +24133,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "37506f4d52d7879e57d31ae66894ad4d97292cd20809d3bc1d60f07445a6f646"
+      "currentHash": "a081a2bea5af762b19d162b3269ccc3f0fb8857261e317765a4d54445cacdc7d"
     }
   },
   {
@@ -34827,7 +34829,7 @@
     "refinements": {
       "1": {
         "name": "Snow Swan's Finale",
-        "desc": "The prelude plays when the equipping character deals Elemental Skill DMG to the opponent, giving the character the \"Prelude\" effect, which increases their ATK by <color=#99FFFFFF>8%</color> for 8s. This effect can stack once every 0.1s, max 3 stacks. When the Prelude stack count reaches 3, the performance will reach its climax, giving the equipping character the \"Closing\" effect, increasing CRIT DMG dealt with Stellar reactions by <color=#99FFFFFF>40%</color>. During this time, the equipping character also gains <color=#99FFFFFF>4</color> Elemental Energy whenever they trigger a Stellar reaction or deal Stellar reaction DMG. This can trigger once every 3.5s, and can still trigger even if the equipping character is not on the field.",
+        "desc": "When an opponent is hit with an Elemental Skill, the equipping character gains the \"Prelude\" effect, which increases their ATK by <color=#99FFFFFF>8%</color> for 8s. This effect can stack once every 0.1s, max 3 stacks. When the Prelude stack count reaches 3, the performance will reach its climax, giving the equipping character the \"Closing\" effect, increasing CRIT DMG dealt with Stellar reactions by <color=#99FFFFFF>40%</color>. During this time, the equipping character also gains <color=#99FFFFFF>4</color> Elemental Energy whenever they trigger a Stellar reaction or deal Stellar reaction DMG. This can trigger once every 3.5s, and can still trigger even if the equipping character is not on the field.",
         "param_list": [
           4,
           0.08,
@@ -34841,7 +34843,7 @@
       },
       "2": {
         "name": "Snow Swan's Finale",
-        "desc": "The prelude plays when the equipping character deals Elemental Skill DMG to the opponent, giving the character the \"Prelude\" effect, which increases their ATK by <color=#99FFFFFF>10%</color> for 8s. This effect can stack once every 0.1s, max 3 stacks. When the Prelude stack count reaches 3, the performance will reach its climax, giving the equipping character the \"Closing\" effect, increasing CRIT DMG dealt with Stellar reactions by <color=#99FFFFFF>50%</color>. During this time, the equipping character also gains <color=#99FFFFFF>5</color> Elemental Energy whenever they trigger a Stellar reaction or deal Stellar reaction DMG. This can trigger once every 3.5s, and can still trigger even if the equipping character is not on the field.",
+        "desc": "When an opponent is hit with an Elemental Skill, the equipping character gains the \"Prelude\" effect, which increases their ATK by <color=#99FFFFFF>10%</color> for 8s. This effect can stack once every 0.1s, max 3 stacks. When the Prelude stack count reaches 3, the performance will reach its climax, giving the equipping character the \"Closing\" effect, increasing CRIT DMG dealt with Stellar reactions by <color=#99FFFFFF>50%</color>. During this time, the equipping character also gains <color=#99FFFFFF>5</color> Elemental Energy whenever they trigger a Stellar reaction or deal Stellar reaction DMG. This can trigger once every 3.5s, and can still trigger even if the equipping character is not on the field.",
         "param_list": [
           5,
           0.1,
@@ -34855,7 +34857,7 @@
       },
       "3": {
         "name": "Snow Swan's Finale",
-        "desc": "The prelude plays when the equipping character deals Elemental Skill DMG to the opponent, giving the character the \"Prelude\" effect, which increases their ATK by <color=#99FFFFFF>12%</color> for 8s. This effect can stack once every 0.1s, max 3 stacks. When the Prelude stack count reaches 3, the performance will reach its climax, giving the equipping character the \"Closing\" effect, increasing CRIT DMG dealt with Stellar reactions by <color=#99FFFFFF>60%</color>. During this time, the equipping character also gains <color=#99FFFFFF>6</color> Elemental Energy whenever they trigger a Stellar reaction or deal Stellar reaction DMG. This can trigger once every 3.5s, and can still trigger even if the equipping character is not on the field.",
+        "desc": "When an opponent is hit with an Elemental Skill, the equipping character gains the \"Prelude\" effect, which increases their ATK by <color=#99FFFFFF>12%</color> for 8s. This effect can stack once every 0.1s, max 3 stacks. When the Prelude stack count reaches 3, the performance will reach its climax, giving the equipping character the \"Closing\" effect, increasing CRIT DMG dealt with Stellar reactions by <color=#99FFFFFF>60%</color>. During this time, the equipping character also gains <color=#99FFFFFF>6</color> Elemental Energy whenever they trigger a Stellar reaction or deal Stellar reaction DMG. This can trigger once every 3.5s, and can still trigger even if the equipping character is not on the field.",
         "param_list": [
           6,
           0.12,
@@ -34869,7 +34871,7 @@
       },
       "4": {
         "name": "Snow Swan's Finale",
-        "desc": "The prelude plays when the equipping character deals Elemental Skill DMG to the opponent, giving the character the \"Prelude\" effect, which increases their ATK by <color=#99FFFFFF>14%</color> for 8s. This effect can stack once every 0.1s, max 3 stacks. When the Prelude stack count reaches 3, the performance will reach its climax, giving the equipping character the \"Closing\" effect, increasing CRIT DMG dealt with Stellar reactions by <color=#99FFFFFF>70%</color>. During this time, the equipping character also gains <color=#99FFFFFF>7</color> Elemental Energy whenever they trigger a Stellar reaction or deal Stellar reaction DMG. This can trigger once every 3.5s, and can still trigger even if the equipping character is not on the field.",
+        "desc": "When an opponent is hit with an Elemental Skill, the equipping character gains the \"Prelude\" effect, which increases their ATK by <color=#99FFFFFF>14%</color> for 8s. This effect can stack once every 0.1s, max 3 stacks. When the Prelude stack count reaches 3, the performance will reach its climax, giving the equipping character the \"Closing\" effect, increasing CRIT DMG dealt with Stellar reactions by <color=#99FFFFFF>70%</color>. During this time, the equipping character also gains <color=#99FFFFFF>7</color> Elemental Energy whenever they trigger a Stellar reaction or deal Stellar reaction DMG. This can trigger once every 3.5s, and can still trigger even if the equipping character is not on the field.",
         "param_list": [
           7,
           0.14,
@@ -34883,7 +34885,7 @@
       },
       "5": {
         "name": "Snow Swan's Finale",
-        "desc": "The prelude plays when the equipping character deals Elemental Skill DMG to the opponent, giving the character the \"Prelude\" effect, which increases their ATK by <color=#99FFFFFF>16%</color> for 8s. This effect can stack once every 0.1s, max 3 stacks. When the Prelude stack count reaches 3, the performance will reach its climax, giving the equipping character the \"Closing\" effect, increasing CRIT DMG dealt with Stellar reactions by <color=#99FFFFFF>80%</color>. During this time, the equipping character also gains <color=#99FFFFFF>8</color> Elemental Energy whenever they trigger a Stellar reaction or deal Stellar reaction DMG. This can trigger once every 3.5s, and can still trigger even if the equipping character is not on the field.",
+        "desc": "When an opponent is hit with an Elemental Skill, the equipping character gains the \"Prelude\" effect, which increases their ATK by <color=#99FFFFFF>16%</color> for 8s. This effect can stack once every 0.1s, max 3 stacks. When the Prelude stack count reaches 3, the performance will reach its climax, giving the equipping character the \"Closing\" effect, increasing CRIT DMG dealt with Stellar reactions by <color=#99FFFFFF>80%</color>. During this time, the equipping character also gains <color=#99FFFFFF>8</color> Elemental Energy whenever they trigger a Stellar reaction or deal Stellar reaction DMG. This can trigger once every 3.5s, and can still trigger even if the equipping character is not on the field.",
         "param_list": [
           8,
           0.16,
@@ -34903,7 +34905,7 @@
           {
             "itemId": "114089",
             "quantity": 5,
-            "name": "Deliberation of the Cellar Nectar",
+            "name": "Measured Pour of the Cellared Spiritual Nectar",
             "rarity": 2,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -34913,7 +34915,7 @@
           {
             "itemId": "112155",
             "quantity": 5,
-            "name": "Aether-Life Root",
+            "name": "Hollow Root of Life",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -34923,7 +34925,7 @@
           {
             "itemId": "112149",
             "quantity": 3,
-            "name": "Chimera",
+            "name": "Chimeric Core",
             "rarity": 1,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -34938,7 +34940,7 @@
           {
             "itemId": "114090",
             "quantity": 5,
-            "name": "Drunkard's Spirit of the Cellar",
+            "name": "Intoxication of the Cellared Spiritual Nectar",
             "rarity": 3,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -34948,7 +34950,7 @@
           {
             "itemId": "112155",
             "quantity": 18,
-            "name": "Aether-Life Root",
+            "name": "Hollow Root of Life",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -34958,7 +34960,7 @@
           {
             "itemId": "112149",
             "quantity": 12,
-            "name": "Chimera",
+            "name": "Chimeric Core",
             "rarity": 1,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -34973,7 +34975,7 @@
           {
             "itemId": "114090",
             "quantity": 9,
-            "name": "Drunkard's Spirit of the Cellar",
+            "name": "Intoxication of the Cellared Spiritual Nectar",
             "rarity": 3,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -34983,7 +34985,7 @@
           {
             "itemId": "112156",
             "quantity": 9,
-            "name": "Crystalline Sprout",
+            "name": "Sprout Node of Life",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -34993,7 +34995,7 @@
           {
             "itemId": "112150",
             "quantity": 9,
-            "name": "Symbiotic Chimera Cell",
+            "name": "Symbiotic Chimeric Nucleus",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -35008,7 +35010,7 @@
           {
             "itemId": "114091",
             "quantity": 5,
-            "name": "Exhilaration of the Cellar Elixir",
+            "name": "Exhilaration of the Cellared Spiritual Nectar",
             "rarity": 4,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -35018,7 +35020,7 @@
           {
             "itemId": "112156",
             "quantity": 18,
-            "name": "Crystalline Sprout",
+            "name": "Sprout Node of Life",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -35028,7 +35030,7 @@
           {
             "itemId": "112150",
             "quantity": 14,
-            "name": "Symbiotic Chimera Cell",
+            "name": "Symbiotic Chimeric Nucleus",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -35043,7 +35045,7 @@
           {
             "itemId": "114091",
             "quantity": 9,
-            "name": "Exhilaration of the Cellar Elixir",
+            "name": "Exhilaration of the Cellared Spiritual Nectar",
             "rarity": 4,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -35053,7 +35055,7 @@
           {
             "itemId": "112157",
             "quantity": 14,
-            "name": "Everliving Branch of the Heart",
+            "name": "Coiled Core of Life",
             "rarity": 4,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -35063,7 +35065,7 @@
           {
             "itemId": "112151",
             "quantity": 9,
-            "name": "Primordial Chimera",
+            "name": "Genesis Chimeric Nexus",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -35078,7 +35080,7 @@
           {
             "itemId": "114092",
             "quantity": 6,
-            "name": "Libation of the Cellar-Lord's Whim",
+            "name": "Revelry of the Cellared Spiritual Nectar",
             "rarity": 5,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -35088,7 +35090,7 @@
           {
             "itemId": "112157",
             "quantity": 27,
-            "name": "Everliving Branch of the Heart",
+            "name": "Coiled Core of Life",
             "rarity": 4,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -35098,7 +35100,7 @@
           {
             "itemId": "112151",
             "quantity": 18,
-            "name": "Primordial Chimera",
+            "name": "Genesis Chimeric Nexus",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -35117,13 +35119,13 @@
       }
     },
     "liveComparison": {
-      "currentHash": "06b88fac7d5730f75bdd085111612be82186cf0efc2cd5ec56444a82cf991b69"
+      "currentHash": "40ef4bf06bb1a2e08cd10e594229616cf0459fb7381819f70bd1282393b9aab0"
     }
   },
   {
     "id": "11521",
     "contentStatus": "beta",
-    "name": "Staredge Saber",
+    "name": "Exaiphanes Blade",
     "rarity": 5,
     "type": "WEAPON_SWORD_ONE_HAND",
     "attack": 608,
@@ -35547,7 +35549,7 @@
           {
             "itemId": "114093",
             "quantity": 5,
-            "name": "Resurrection of the Frost Sovereign",
+            "name": "The Frost Emperor's Revival",
             "rarity": 2,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -35557,7 +35559,7 @@
           {
             "itemId": "112152",
             "quantity": 5,
-            "name": "Sediment Fragment",
+            "name": "Accreted Fragment",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -35567,7 +35569,7 @@
           {
             "itemId": "112146",
             "quantity": 3,
-            "name": "Phantasmagorical Dust",
+            "name": "Ethereal Glimmershard",
             "rarity": 1,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -35582,7 +35584,7 @@
           {
             "itemId": "114094",
             "quantity": 5,
-            "name": "Ceremonial of the Frost Sovereign",
+            "name": "The Frost Emperor's Ceremony",
             "rarity": 3,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -35592,7 +35594,7 @@
           {
             "itemId": "112152",
             "quantity": 18,
-            "name": "Sediment Fragment",
+            "name": "Accreted Fragment",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -35602,7 +35604,7 @@
           {
             "itemId": "112146",
             "quantity": 12,
-            "name": "Phantasmagorical Dust",
+            "name": "Ethereal Glimmershard",
             "rarity": 1,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -35617,7 +35619,7 @@
           {
             "itemId": "114094",
             "quantity": 9,
-            "name": "Ceremonial of the Frost Sovereign",
+            "name": "The Frost Emperor's Ceremony",
             "rarity": 3,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -35627,7 +35629,7 @@
           {
             "itemId": "112153",
             "quantity": 9,
-            "name": "Sediment Clot",
+            "name": "Accreted Mass",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -35637,7 +35639,7 @@
           {
             "itemId": "112147",
             "quantity": 9,
-            "name": "Phantasm Crystal",
+            "name": "Ethereal Crystal",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -35652,7 +35654,7 @@
           {
             "itemId": "114095",
             "quantity": 5,
-            "name": "Lament of the Frost-Veiled Emperor",
+            "name": "The Frost Emperor's Lament",
             "rarity": 4,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -35662,7 +35664,7 @@
           {
             "itemId": "112153",
             "quantity": 18,
-            "name": "Sediment Clot",
+            "name": "Accreted Mass",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -35672,7 +35674,7 @@
           {
             "itemId": "112147",
             "quantity": 14,
-            "name": "Phantasm Crystal",
+            "name": "Ethereal Crystal",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -35687,7 +35689,7 @@
           {
             "itemId": "114095",
             "quantity": 9,
-            "name": "Lament of the Frost-Veiled Emperor",
+            "name": "The Frost Emperor's Lament",
             "rarity": 4,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -35697,7 +35699,7 @@
           {
             "itemId": "112154",
             "quantity": 14,
-            "name": "Crystalline Cyst",
+            "name": "Accreted Growth",
             "rarity": 4,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -35707,7 +35709,7 @@
           {
             "itemId": "112148",
             "quantity": 9,
-            "name": "Dreamy Crystal Koku",
+            "name": "Ethereal Crystalscale Stone",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -35722,7 +35724,7 @@
           {
             "itemId": "114096",
             "quantity": 6,
-            "name": "Gash of the Frost-Blade Emperor",
+            "name": "The Frost Emperor's Farewell",
             "rarity": 5,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -35732,7 +35734,7 @@
           {
             "itemId": "112154",
             "quantity": 27,
-            "name": "Crystalline Cyst",
+            "name": "Accreted Growth",
             "rarity": 4,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -35742,7 +35744,7 @@
           {
             "itemId": "112148",
             "quantity": 18,
-            "name": "Dreamy Crystal Koku",
+            "name": "Ethereal Crystalscale Stone",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -35761,12 +35763,12 @@
       }
     },
     "liveComparison": {
-      "currentHash": "b343188ce55ada73ab939f8bef292b984742b0b84ad3a88487fb7f61ef9da256"
+      "currentHash": "7b5f6f55ac70d20bc20615b0f57e1cc865c04a958867d539d1840b5003d6be71"
     }
   },
   {
     "id": "12101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Waster Greatsword",
     "rarity": 1,
     "type": "WEAPON_CLAYMORE",
@@ -35784,6 +35786,7 @@
         "type": "GROW_CURVE_ATTACK_101"
       },
       {
+        "init_value": 0,
         "prop_type": "FIGHT_PROP_NONE",
         "type": "GROW_CURVE_CRITICAL_101"
       }
@@ -36258,12 +36261,12 @@
     },
     "liveComparison": {
       "liveHash": "5028bd0959c298a14e383580d7a65da34295290be25979d8c659065e9ff7dff4",
-      "currentHash": "a682e30a741170db3cd3915faddfede0d36756a95e217e1d18ea602a910cb314"
+      "currentHash": "5028bd0959c298a14e383580d7a65da34295290be25979d8c659065e9ff7dff4"
     }
   },
   {
     "id": "12201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Old Merc's Pal",
     "rarity": 2,
     "type": "WEAPON_CLAYMORE",
@@ -36281,6 +36284,7 @@
         "type": "GROW_CURVE_ATTACK_101"
       },
       {
+        "init_value": 0,
         "prop_type": "FIGHT_PROP_NONE",
         "type": "GROW_CURVE_CRITICAL_101"
       }
@@ -36755,7 +36759,7 @@
     },
     "liveComparison": {
       "liveHash": "1d7334aa765658b1b738ddaf6b4167622817a01ae7c0d90ee21fbbedc7592629",
-      "currentHash": "ffab1d7b0530d8ff45cf6d8bde55cc92ab8d6885e29fc1bc968f5bb0a75b7e5c"
+      "currentHash": "1d7334aa765658b1b738ddaf6b4167622817a01ae7c0d90ee21fbbedc7592629"
     }
   },
   {
@@ -56141,7 +56145,7 @@
   {
     "id": "12435",
     "contentStatus": "beta",
-    "name": "BP Weapon",
+    "name": "12435",
     "rarity": 4,
     "type": "WEAPON_CLAYMORE",
     "attack": 454,
@@ -56489,7 +56493,7 @@
     "refinements": {
       "1": {
         "name": "",
-        "desc": "Precision Instrument: Grants one of the following buffs in the following order every 10s: +<color=#99FFFFFF>20%</color> ATK/+<color=#99FFFFFF>120</color> Elemental Mastery/+<color=#99FFFFFF>32%</color> Stellar-Conduct and Stellar Swirl DMG for 10s. If the character has triggered the Stellar-Conduct or Stellar Swirl reactions, the current buff will be retained and extended by 12s. This effect can trigger once every 12s.",
+        "desc": "Precision Instrument: Grants a buff in the following order every 10s: <color=#99FFFFFF>+20%</color> ATK > <color=#99FFFFFF>+120</color> Elemental Mastery > <color=#99FFFFFF>+32%</color> Stellar-Conduct and Stellar Swirl reaction DMG for 10s. If the character has triggered the Stellar-Conduct or Stellar Swirl reactions, the current buff will also be retained and extended by 12s. This effect can trigger once every 12s.",
         "param_list": [
           0.2,
           120,
@@ -56503,7 +56507,7 @@
       },
       "2": {
         "name": "",
-        "desc": "Precision Instrument: Grants one of the following buffs in the following order every 10s: +<color=#99FFFFFF>25%</color> ATK/+<color=#99FFFFFF>150</color> Elemental Mastery/+<color=#99FFFFFF>40%</color> Stellar-Conduct and Stellar Swirl DMG for 10s. If the character triggers the Stellar-Conduct or Stellar Swirl reactions, the current buff will be retained and extended by 12s. This effect can trigger once every 12s.",
+        "desc": "Precision Instrument: Grants a buff in the following order every 10s: <color=#99FFFFFF>+25%</color> ATK > <color=#99FFFFFF>+150</color> Elemental Mastery > <color=#99FFFFFF>+40%</color> Stellar-Conduct and Stellar Swirl reaction DMG for 10s. If the character has triggered the Stellar-Conduct or Stellar Swirl reactions, the current buff will also be retained and extended by 12s. This effect can trigger once every 12s.",
         "param_list": [
           0.25,
           150,
@@ -56517,7 +56521,7 @@
       },
       "3": {
         "name": "",
-        "desc": "Precision Instrument: Switches between the following buffs in the following order every 10s: +<color=#99FFFFFF>30%</color> ATK/+<color=#99FFFFFF>180</color> Elemental Mastery/+<color=#99FFFFFF>48%</color> Stellar-Conduct and Stellar Swirl DMG for 10s. If the character has triggered the Stellar-Conduct or Stellar Swirl reactions, the current buff will be retained and extended by 12s. This effect can trigger once every 12s.",
+        "desc": "Precision Instrument: Grants a buff in the following order every 10s: <color=#99FFFFFF>+30%</color> ATK > <color=#99FFFFFF>+180</color> Elemental Mastery > <color=#99FFFFFF>+48%</color> Stellar-Conduct and Stellar Swirl reaction DMG for 10s. If the character has triggered the Stellar-Conduct or Stellar Swirl reactions, the current buff will also be retained and extended by 12s. This effect can trigger once every 12s.",
         "param_list": [
           0.3,
           180,
@@ -56531,7 +56535,7 @@
       },
       "4": {
         "name": "",
-        "desc": "Precision Instrument: Obtains one of the following buffs in the following order every 10s: +<color=#99FFFFFF>35%</color> ATK/+<color=#99FFFFFF>210</color> Elemental Mastery/+<color=#99FFFFFF>56%</color> Stellar-Conduct and Stellar Swirl DMG for 10s. If the character has triggered the Stellar-Conduct or Stellar Swirl reactions, the current buff will be retained and extended by 12s. This effect can trigger once every 12s.",
+        "desc": "Precision Instrument: Grants a buff in the following order every 10s: <color=#99FFFFFF>+35%</color> ATK > <color=#99FFFFFF>+210</color> Elemental Mastery > <color=#99FFFFFF>+56%</color> Stellar-Conduct and Stellar Swirl reaction DMG for 10s. If the character has triggered the Stellar-Conduct or Stellar Swirl reactions, the current buff will also be retained and extended by 12s. This effect can trigger once every 12s.",
         "param_list": [
           0.35,
           210,
@@ -56545,7 +56549,7 @@
       },
       "5": {
         "name": "",
-        "desc": "Precision Instrument: Grants the following buffs in the following order every 10s: +<color=#99FFFFFF>40%</color> ATK/+<color=#99FFFFFF>240</color> Elemental Mastery/+<color=#99FFFFFF>64%</color> Stellar-Conduct and Stellar Swirl DMG for 10s. If the character has triggered the Stellar-Conduct or Stellar Swirl reactions, the current buff will be retained and extended by 12s. This effect can trigger once every 12s.",
+        "desc": "Precision Instrument: Grants a buff in the following order every 10s: <color=#99FFFFFF>+40%</color> ATK > <color=#99FFFFFF>+240</color> Elemental Mastery > <color=#99FFFFFF>+64%</color> Stellar-Conduct and Stellar Swirl reaction DMG for 10s. If the character has triggered the Stellar-Conduct or Stellar Swirl reactions, the current buff will also be retained and extended by 12s. This effect can trigger once every 12s.",
         "param_list": [
           0.4,
           240,
@@ -56779,16 +56783,16 @@
       }
     },
     "liveComparison": {
-      "currentHash": "c312fbb909472e08495bf0a54a96c5c2c1774fbf4e5c2b1a2d8b00fe84c1e759"
+      "currentHash": "e7999461ddc9425138bd34efc60bf577e096d925b269dd35a831da5e2aa8d847"
     }
   },
   {
     "id": "12436",
     "contentStatus": "beta",
-    "name": "Forgeable Weapon",
+    "name": "Blade of Atonement",
     "rarity": 4,
     "type": "WEAPON_CLAYMORE",
-    "description": "A greatsword of the Rucci ember heritage, said to be wielded only by the most valiant of warriors.",
+    "description": "A greatsword passed down by the Luchkin. It is said that only the bravest warrior is qualified to wield it.",
     "attack": 565,
     "subStat": "FIGHT_PROP_ATTACK_PERCENT",
     "assets": {
@@ -57210,7 +57214,7 @@
           {
             "itemId": "114085",
             "quantity": 3,
-            "name": "The Stirring of the Pale Star Host",
+            "name": "Rise of the Pale Star Army",
             "rarity": 2,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -57220,7 +57224,7 @@
           {
             "itemId": "112155",
             "quantity": 3,
-            "name": "Aether-Life Root",
+            "name": "Hollow Root of Life",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -57230,7 +57234,7 @@
           {
             "itemId": "112149",
             "quantity": 2,
-            "name": "Chimera",
+            "name": "Chimeric Core",
             "rarity": 1,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -57245,7 +57249,7 @@
           {
             "itemId": "114086",
             "quantity": 3,
-            "name": "The Gathering of the Pale Star Host",
+            "name": "Muster of the Pale Star Army",
             "rarity": 3,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -57255,7 +57259,7 @@
           {
             "itemId": "112155",
             "quantity": 12,
-            "name": "Aether-Life Root",
+            "name": "Hollow Root of Life",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -57265,7 +57269,7 @@
           {
             "itemId": "112149",
             "quantity": 8,
-            "name": "Chimera",
+            "name": "Chimeric Core",
             "rarity": 1,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -57280,7 +57284,7 @@
           {
             "itemId": "114086",
             "quantity": 6,
-            "name": "The Gathering of the Pale Star Host",
+            "name": "Muster of the Pale Star Army",
             "rarity": 3,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -57290,7 +57294,7 @@
           {
             "itemId": "112156",
             "quantity": 6,
-            "name": "Crystalline Sprout",
+            "name": "Sprout Node of Life",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -57300,7 +57304,7 @@
           {
             "itemId": "112150",
             "quantity": 6,
-            "name": "Symbiotic Chimera Cell",
+            "name": "Symbiotic Chimeric Nucleus",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -57315,7 +57319,7 @@
           {
             "itemId": "114087",
             "quantity": 3,
-            "name": "Command of the Pale Star's Host",
+            "name": "Clarion of the Pale Star Army",
             "rarity": 4,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -57325,7 +57329,7 @@
           {
             "itemId": "112156",
             "quantity": 12,
-            "name": "Crystalline Sprout",
+            "name": "Sprout Node of Life",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -57335,7 +57339,7 @@
           {
             "itemId": "112150",
             "quantity": 9,
-            "name": "Symbiotic Chimera Cell",
+            "name": "Symbiotic Chimeric Nucleus",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -57350,7 +57354,7 @@
           {
             "itemId": "114087",
             "quantity": 6,
-            "name": "Command of the Pale Star's Host",
+            "name": "Clarion of the Pale Star Army",
             "rarity": 4,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -57360,7 +57364,7 @@
           {
             "itemId": "112157",
             "quantity": 9,
-            "name": "Everliving Branch of the Heart",
+            "name": "Coiled Core of Life",
             "rarity": 4,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -57370,7 +57374,7 @@
           {
             "itemId": "112151",
             "quantity": 6,
-            "name": "Primordial Chimera",
+            "name": "Genesis Chimeric Nexus",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -57385,7 +57389,7 @@
           {
             "itemId": "114088",
             "quantity": 4,
-            "name": "Conquest of the Pale Star Host",
+            "name": "Triumph of the Pale Star Army",
             "rarity": 5,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -57395,7 +57399,7 @@
           {
             "itemId": "112157",
             "quantity": 18,
-            "name": "Everliving Branch of the Heart",
+            "name": "Coiled Core of Life",
             "rarity": 4,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -57405,7 +57409,7 @@
           {
             "itemId": "112151",
             "quantity": 12,
-            "name": "Primordial Chimera",
+            "name": "Genesis Chimeric Nexus",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -57424,7 +57428,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "fd89c1727a0d7837c69a3acb1bb4435db3f66bef6cff93a99798d938f44ce243"
+      "currentHash": "238c3bd098475283fcebeea45b74a96d540d7e749e2a6704a96e67940f6dfa8d"
     }
   },
   {
@@ -64535,7 +64539,7 @@
   },
   {
     "id": "13101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Beginner's Protector",
     "rarity": 1,
     "type": "WEAPON_POLE",
@@ -64553,6 +64557,7 @@
         "type": "GROW_CURVE_ATTACK_101"
       },
       {
+        "init_value": 0,
         "prop_type": "FIGHT_PROP_NONE",
         "type": "GROW_CURVE_CRITICAL_101"
       }
@@ -65027,12 +65032,12 @@
     },
     "liveComparison": {
       "liveHash": "4eaca7d2c0b461de43a720aa544eba87a206eb5de36113ee4755dc17322c7cd2",
-      "currentHash": "571e11cf917c028cd5ea69f9d2ce268fddc16f57846991783afb0928d9dc8b82"
+      "currentHash": "4eaca7d2c0b461de43a720aa544eba87a206eb5de36113ee4755dc17322c7cd2"
     }
   },
   {
     "id": "13201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Iron Point",
     "rarity": 2,
     "type": "WEAPON_POLE",
@@ -65050,6 +65055,7 @@
         "type": "GROW_CURVE_ATTACK_101"
       },
       {
+        "init_value": 0,
         "prop_type": "FIGHT_PROP_NONE",
         "type": "GROW_CURVE_CRITICAL_101"
       }
@@ -65524,7 +65530,7 @@
     },
     "liveComparison": {
       "liveHash": "d5ed3e6622c09e77ef23962d01cbc56715e91114fe0e67cc9479c9893b805fb4",
-      "currentHash": "d7f96bac9ec4f8ab39b6933e711a5f57034993d14c5a280992842acfa0b6babf"
+      "currentHash": "d5ed3e6622c09e77ef23962d01cbc56715e91114fe0e67cc9479c9893b805fb4"
     }
   },
   {
@@ -82326,7 +82332,7 @@
   {
     "id": "13435",
     "contentStatus": "beta",
-    "name": "BP Weapon",
+    "name": "13435",
     "rarity": 4,
     "type": "WEAPON_POLE",
     "attack": 510,
@@ -82750,7 +82756,7 @@
           {
             "itemId": "114089",
             "quantity": 3,
-            "name": "Deliberation of the Cellar Nectar",
+            "name": "Measured Pour of the Cellared Spiritual Nectar",
             "rarity": 2,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -82760,7 +82766,7 @@
           {
             "itemId": "112152",
             "quantity": 3,
-            "name": "Sediment Fragment",
+            "name": "Accreted Fragment",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -82770,7 +82776,7 @@
           {
             "itemId": "112149",
             "quantity": 2,
-            "name": "Chimera",
+            "name": "Chimeric Core",
             "rarity": 1,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -82785,7 +82791,7 @@
           {
             "itemId": "114090",
             "quantity": 3,
-            "name": "Drunkard's Spirit of the Cellar",
+            "name": "Intoxication of the Cellared Spiritual Nectar",
             "rarity": 3,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -82795,7 +82801,7 @@
           {
             "itemId": "112152",
             "quantity": 12,
-            "name": "Sediment Fragment",
+            "name": "Accreted Fragment",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -82805,7 +82811,7 @@
           {
             "itemId": "112149",
             "quantity": 8,
-            "name": "Chimera",
+            "name": "Chimeric Core",
             "rarity": 1,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -82820,7 +82826,7 @@
           {
             "itemId": "114090",
             "quantity": 6,
-            "name": "Drunkard's Spirit of the Cellar",
+            "name": "Intoxication of the Cellared Spiritual Nectar",
             "rarity": 3,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -82830,7 +82836,7 @@
           {
             "itemId": "112153",
             "quantity": 6,
-            "name": "Sediment Clot",
+            "name": "Accreted Mass",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -82840,7 +82846,7 @@
           {
             "itemId": "112150",
             "quantity": 6,
-            "name": "Symbiotic Chimera Cell",
+            "name": "Symbiotic Chimeric Nucleus",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -82855,7 +82861,7 @@
           {
             "itemId": "114091",
             "quantity": 3,
-            "name": "Exhilaration of the Cellar Elixir",
+            "name": "Exhilaration of the Cellared Spiritual Nectar",
             "rarity": 4,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -82865,7 +82871,7 @@
           {
             "itemId": "112153",
             "quantity": 12,
-            "name": "Sediment Clot",
+            "name": "Accreted Mass",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -82875,7 +82881,7 @@
           {
             "itemId": "112150",
             "quantity": 9,
-            "name": "Symbiotic Chimera Cell",
+            "name": "Symbiotic Chimeric Nucleus",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -82890,7 +82896,7 @@
           {
             "itemId": "114091",
             "quantity": 6,
-            "name": "Exhilaration of the Cellar Elixir",
+            "name": "Exhilaration of the Cellared Spiritual Nectar",
             "rarity": 4,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -82900,7 +82906,7 @@
           {
             "itemId": "112154",
             "quantity": 9,
-            "name": "Crystalline Cyst",
+            "name": "Accreted Growth",
             "rarity": 4,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -82910,7 +82916,7 @@
           {
             "itemId": "112151",
             "quantity": 6,
-            "name": "Primordial Chimera",
+            "name": "Genesis Chimeric Nexus",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -82925,7 +82931,7 @@
           {
             "itemId": "114092",
             "quantity": 4,
-            "name": "Libation of the Cellar-Lord's Whim",
+            "name": "Revelry of the Cellared Spiritual Nectar",
             "rarity": 5,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -82935,7 +82941,7 @@
           {
             "itemId": "112154",
             "quantity": 18,
-            "name": "Crystalline Cyst",
+            "name": "Accreted Growth",
             "rarity": 4,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -82945,7 +82951,7 @@
           {
             "itemId": "112151",
             "quantity": 12,
-            "name": "Primordial Chimera",
+            "name": "Genesis Chimeric Nexus",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -82964,16 +82970,16 @@
       }
     },
     "liveComparison": {
-      "currentHash": "4934abcdf37f58f791ed7966af040b27689e9e7006477a15c41486e13dc43ba9"
+      "currentHash": "cc983582fe773b1fd7eb7056b5ddcc26dccb9d7e0566bdc23788fa72bdbeb247"
     }
   },
   {
     "id": "13436",
     "contentStatus": "beta",
-    "name": "Forgeable Weapon",
+    "name": "Song of the Vigil",
     "rarity": 4,
     "type": "WEAPON_POLE",
-    "description": "A spear that once stood watch for the crowd, now plays an important role in children's make-believe games.",
+    "description": "A long spear that once stood guard over all. Today, it has found a new purpose with children and their games of make-believe.",
     "attack": 565,
     "subStat": "FIGHT_PROP_ELEMENT_MASTERY",
     "assets": {
@@ -83395,7 +83401,7 @@
           {
             "itemId": "114093",
             "quantity": 3,
-            "name": "Resurrection of the Frost Sovereign",
+            "name": "The Frost Emperor's Revival",
             "rarity": 2,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -83405,7 +83411,7 @@
           {
             "itemId": "112155",
             "quantity": 3,
-            "name": "Aether-Life Root",
+            "name": "Hollow Root of Life",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -83415,7 +83421,7 @@
           {
             "itemId": "112146",
             "quantity": 2,
-            "name": "Phantasmagorical Dust",
+            "name": "Ethereal Glimmershard",
             "rarity": 1,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -83430,7 +83436,7 @@
           {
             "itemId": "114094",
             "quantity": 3,
-            "name": "Ceremonial of the Frost Sovereign",
+            "name": "The Frost Emperor's Ceremony",
             "rarity": 3,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -83440,7 +83446,7 @@
           {
             "itemId": "112155",
             "quantity": 12,
-            "name": "Aether-Life Root",
+            "name": "Hollow Root of Life",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -83450,7 +83456,7 @@
           {
             "itemId": "112146",
             "quantity": 8,
-            "name": "Phantasmagorical Dust",
+            "name": "Ethereal Glimmershard",
             "rarity": 1,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -83465,7 +83471,7 @@
           {
             "itemId": "114094",
             "quantity": 6,
-            "name": "Ceremonial of the Frost Sovereign",
+            "name": "The Frost Emperor's Ceremony",
             "rarity": 3,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -83475,7 +83481,7 @@
           {
             "itemId": "112156",
             "quantity": 6,
-            "name": "Crystalline Sprout",
+            "name": "Sprout Node of Life",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -83485,7 +83491,7 @@
           {
             "itemId": "112147",
             "quantity": 6,
-            "name": "Phantasm Crystal",
+            "name": "Ethereal Crystal",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -83500,7 +83506,7 @@
           {
             "itemId": "114095",
             "quantity": 3,
-            "name": "Lament of the Frost-Veiled Emperor",
+            "name": "The Frost Emperor's Lament",
             "rarity": 4,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -83510,7 +83516,7 @@
           {
             "itemId": "112156",
             "quantity": 12,
-            "name": "Crystalline Sprout",
+            "name": "Sprout Node of Life",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -83520,7 +83526,7 @@
           {
             "itemId": "112147",
             "quantity": 9,
-            "name": "Phantasm Crystal",
+            "name": "Ethereal Crystal",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -83535,7 +83541,7 @@
           {
             "itemId": "114095",
             "quantity": 6,
-            "name": "Lament of the Frost-Veiled Emperor",
+            "name": "The Frost Emperor's Lament",
             "rarity": 4,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -83545,7 +83551,7 @@
           {
             "itemId": "112157",
             "quantity": 9,
-            "name": "Everliving Branch of the Heart",
+            "name": "Coiled Core of Life",
             "rarity": 4,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -83555,7 +83561,7 @@
           {
             "itemId": "112148",
             "quantity": 6,
-            "name": "Dreamy Crystal Koku",
+            "name": "Ethereal Crystalscale Stone",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -83570,7 +83576,7 @@
           {
             "itemId": "114096",
             "quantity": 4,
-            "name": "Gash of the Frost-Blade Emperor",
+            "name": "The Frost Emperor's Farewell",
             "rarity": 5,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -83580,7 +83586,7 @@
           {
             "itemId": "112157",
             "quantity": 18,
-            "name": "Everliving Branch of the Heart",
+            "name": "Coiled Core of Life",
             "rarity": 4,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -83590,7 +83596,7 @@
           {
             "itemId": "112148",
             "quantity": 12,
-            "name": "Dreamy Crystal Koku",
+            "name": "Ethereal Crystalscale Stone",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -83609,7 +83615,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "e64b54394257bd1b7eff16c8f494fe5c12879579938da2583deaa1a720332344"
+      "currentHash": "e83df85f521c9149c15a94ff6d950586814f296cb3113ed220606edcae3775cd"
     }
   },
   {
@@ -92012,7 +92018,7 @@
   },
   {
     "id": "14101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Apprentice's Notes",
     "rarity": 1,
     "type": "WEAPON_CATALYST",
@@ -92030,6 +92036,7 @@
         "type": "GROW_CURVE_ATTACK_101"
       },
       {
+        "init_value": 0,
         "prop_type": "FIGHT_PROP_NONE",
         "type": "GROW_CURVE_CRITICAL_101"
       }
@@ -92504,12 +92511,12 @@
     },
     "liveComparison": {
       "liveHash": "ee7e73152ed7dd9e1d6374bf2d29575bcc3df08c3f55443eef49e7e39a7657e8",
-      "currentHash": "d5bf3c4b00ce45fd1b921a86146bc3651992cb339e15b4e1f02160fc72b9daa7"
+      "currentHash": "ee7e73152ed7dd9e1d6374bf2d29575bcc3df08c3f55443eef49e7e39a7657e8"
     }
   },
   {
     "id": "14201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Pocket Grimoire",
     "rarity": 2,
     "type": "WEAPON_CATALYST",
@@ -92527,6 +92534,7 @@
         "type": "GROW_CURVE_ATTACK_101"
       },
       {
+        "init_value": 0,
         "prop_type": "FIGHT_PROP_NONE",
         "type": "GROW_CURVE_CRITICAL_101"
       }
@@ -93001,7 +93009,7 @@
     },
     "liveComparison": {
       "liveHash": "5e9aecf7c7adb3e4dc484975855aedcb724e7968e16b5c72f73718e2c2cdad90",
-      "currentHash": "7711a41cdc1686c209f2fc5eeff044fdce3d50775c43bc2e33f4b7dca44df345"
+      "currentHash": "5e9aecf7c7adb3e4dc484975855aedcb724e7968e16b5c72f73718e2c2cdad90"
     }
   },
   {
@@ -112387,7 +112395,7 @@
   {
     "id": "14435",
     "contentStatus": "beta",
-    "name": "BP Weapon",
+    "name": "14435",
     "rarity": 4,
     "type": "WEAPON_CATALYST",
     "attack": 454,
@@ -113025,16 +113033,16 @@
       }
     },
     "liveComparison": {
-      "currentHash": "99179cdfa250761eeb735b682a69b21a2bded3dd732dc783b2cd4c345ae57b03"
+      "currentHash": "540116825d9bebe068b3a15a6c189128ce2c0b263b4071390488c4132be7d5d2"
     }
   },
   {
     "id": "14436",
     "contentStatus": "beta",
-    "name": "Forgeable Weapon",
+    "name": "Echoes of the Heart",
     "rarity": 4,
     "type": "WEAPON_CATALYST",
-    "description": "The Catalyst used to solidify sounds seems to still seal away a vow of loyalty and a forgotten heart.",
+    "description": "A Catalyst said to crystallize voice. Within it lies a sealed oath of loyalty, as well as a heart long since forgotten by mankind.",
     "attack": 565,
     "subStat": "FIGHT_PROP_ATTACK_PERCENT",
     "assets": {
@@ -113456,7 +113464,7 @@
           {
             "itemId": "114085",
             "quantity": 3,
-            "name": "The Stirring of the Pale Star Host",
+            "name": "Rise of the Pale Star Army",
             "rarity": 2,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -113466,7 +113474,7 @@
           {
             "itemId": "112152",
             "quantity": 3,
-            "name": "Sediment Fragment",
+            "name": "Accreted Fragment",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -113476,7 +113484,7 @@
           {
             "itemId": "112146",
             "quantity": 2,
-            "name": "Phantasmagorical Dust",
+            "name": "Ethereal Glimmershard",
             "rarity": 1,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -113491,7 +113499,7 @@
           {
             "itemId": "114086",
             "quantity": 3,
-            "name": "The Gathering of the Pale Star Host",
+            "name": "Muster of the Pale Star Army",
             "rarity": 3,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -113501,7 +113509,7 @@
           {
             "itemId": "112152",
             "quantity": 12,
-            "name": "Sediment Fragment",
+            "name": "Accreted Fragment",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -113511,7 +113519,7 @@
           {
             "itemId": "112146",
             "quantity": 8,
-            "name": "Phantasmagorical Dust",
+            "name": "Ethereal Glimmershard",
             "rarity": 1,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -113526,7 +113534,7 @@
           {
             "itemId": "114086",
             "quantity": 6,
-            "name": "The Gathering of the Pale Star Host",
+            "name": "Muster of the Pale Star Army",
             "rarity": 3,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -113536,7 +113544,7 @@
           {
             "itemId": "112153",
             "quantity": 6,
-            "name": "Sediment Clot",
+            "name": "Accreted Mass",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -113546,7 +113554,7 @@
           {
             "itemId": "112147",
             "quantity": 6,
-            "name": "Phantasm Crystal",
+            "name": "Ethereal Crystal",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -113561,7 +113569,7 @@
           {
             "itemId": "114087",
             "quantity": 3,
-            "name": "Command of the Pale Star's Host",
+            "name": "Clarion of the Pale Star Army",
             "rarity": 4,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -113571,7 +113579,7 @@
           {
             "itemId": "112153",
             "quantity": 12,
-            "name": "Sediment Clot",
+            "name": "Accreted Mass",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -113581,7 +113589,7 @@
           {
             "itemId": "112147",
             "quantity": 9,
-            "name": "Phantasm Crystal",
+            "name": "Ethereal Crystal",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -113596,7 +113604,7 @@
           {
             "itemId": "114087",
             "quantity": 6,
-            "name": "Command of the Pale Star's Host",
+            "name": "Clarion of the Pale Star Army",
             "rarity": 4,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -113606,7 +113614,7 @@
           {
             "itemId": "112154",
             "quantity": 9,
-            "name": "Crystalline Cyst",
+            "name": "Accreted Growth",
             "rarity": 4,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -113616,7 +113624,7 @@
           {
             "itemId": "112148",
             "quantity": 6,
-            "name": "Dreamy Crystal Koku",
+            "name": "Ethereal Crystalscale Stone",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -113631,7 +113639,7 @@
           {
             "itemId": "114088",
             "quantity": 4,
-            "name": "Conquest of the Pale Star Host",
+            "name": "Triumph of the Pale Star Army",
             "rarity": 5,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -113641,7 +113649,7 @@
           {
             "itemId": "112154",
             "quantity": 18,
-            "name": "Crystalline Cyst",
+            "name": "Accreted Growth",
             "rarity": 4,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -113651,7 +113659,7 @@
           {
             "itemId": "112148",
             "quantity": 12,
-            "name": "Dreamy Crystal Koku",
+            "name": "Ethereal Crystalscale Stone",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -113670,7 +113678,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "79ab0130985a1d27ffbbb2493928e97605279ce61fbd80a2daeebdf7d1c07868"
+      "currentHash": "d8d36c8664be1d39f3a8fd6405c6619ee11f2cc5299deee7080cead08e661eb9"
     }
   },
   {
@@ -125949,7 +125957,7 @@
   },
   {
     "id": "15101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Hunter's Bow",
     "rarity": 1,
     "type": "WEAPON_BOW",
@@ -125967,6 +125975,7 @@
         "type": "GROW_CURVE_ATTACK_101"
       },
       {
+        "init_value": 0,
         "prop_type": "FIGHT_PROP_NONE",
         "type": "GROW_CURVE_CRITICAL_101"
       }
@@ -126441,12 +126450,12 @@
     },
     "liveComparison": {
       "liveHash": "f1370ad1d28e85234b5d3b545ca4f04c5861cb00c80ae387a06319ec7393a67c",
-      "currentHash": "2880a53ec16546c5d0ae9048234a450e1e95b4fa6a723002f460b14598d1cb56"
+      "currentHash": "f1370ad1d28e85234b5d3b545ca4f04c5861cb00c80ae387a06319ec7393a67c"
     }
   },
   {
     "id": "15201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Seasoned Hunter's Bow",
     "rarity": 2,
     "type": "WEAPON_BOW",
@@ -126464,6 +126473,7 @@
         "type": "GROW_CURVE_ATTACK_101"
       },
       {
+        "init_value": 0,
         "prop_type": "FIGHT_PROP_NONE",
         "type": "GROW_CURVE_CRITICAL_101"
       }
@@ -126938,7 +126948,7 @@
     },
     "liveComparison": {
       "liveHash": "a4a772224df8ff96b44695aba8fbfdc149411678a490b687c3e9d87f13d34464",
-      "currentHash": "dd02c2cd22dc2a794734b8925d5ec7e7319724b9f488d75c10e7dca603dbaeb6"
+      "currentHash": "a4a772224df8ff96b44695aba8fbfdc149411678a490b687c3e9d87f13d34464"
     }
   },
   {
@@ -148206,7 +148216,7 @@
   {
     "id": "15435",
     "contentStatus": "beta",
-    "name": "BP Weapon",
+    "name": "15435",
     "rarity": 4,
     "type": "WEAPON_BOW",
     "attack": 454,
@@ -148844,16 +148854,16 @@
       }
     },
     "liveComparison": {
-      "currentHash": "9f30ee0d58389027a129d0f3bfd935c0ac150ce5ea87d9058f841b76f80d48b0"
+      "currentHash": "d546c59c79b84d5d9bd345e455bd77f52254bea4114384c9a6a1173fd75e052f"
     }
   },
   {
     "id": "15436",
     "contentStatus": "beta",
-    "name": "Forgeable Weapon",
+    "name": "Covenant of Frost and Snow",
     "rarity": 4,
     "type": "WEAPON_BOW",
-    "description": "A longbow crafted to maintain order, its luster as cold and impartial as the most just of laws.",
+    "description": "A longbow crafted to preserve order. Its cold radiance perfectly emanates the ideals of absolute fairness and justice.",
     "attack": 510,
     "subStat": "FIGHT_PROP_DEFENSE_PERCENT",
     "assets": {
@@ -149275,7 +149285,7 @@
           {
             "itemId": "114085",
             "quantity": 3,
-            "name": "The Stirring of the Pale Star Host",
+            "name": "Rise of the Pale Star Army",
             "rarity": 2,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -149285,7 +149295,7 @@
           {
             "itemId": "112155",
             "quantity": 3,
-            "name": "Aether-Life Root",
+            "name": "Hollow Root of Life",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -149295,7 +149305,7 @@
           {
             "itemId": "112149",
             "quantity": 2,
-            "name": "Chimera",
+            "name": "Chimeric Core",
             "rarity": 1,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -149310,7 +149320,7 @@
           {
             "itemId": "114086",
             "quantity": 3,
-            "name": "The Gathering of the Pale Star Host",
+            "name": "Muster of the Pale Star Army",
             "rarity": 3,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -149320,7 +149330,7 @@
           {
             "itemId": "112155",
             "quantity": 12,
-            "name": "Aether-Life Root",
+            "name": "Hollow Root of Life",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -149330,7 +149340,7 @@
           {
             "itemId": "112149",
             "quantity": 8,
-            "name": "Chimera",
+            "name": "Chimeric Core",
             "rarity": 1,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -149345,7 +149355,7 @@
           {
             "itemId": "114086",
             "quantity": 6,
-            "name": "The Gathering of the Pale Star Host",
+            "name": "Muster of the Pale Star Army",
             "rarity": 3,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -149355,7 +149365,7 @@
           {
             "itemId": "112156",
             "quantity": 6,
-            "name": "Crystalline Sprout",
+            "name": "Sprout Node of Life",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -149365,7 +149375,7 @@
           {
             "itemId": "112150",
             "quantity": 6,
-            "name": "Symbiotic Chimera Cell",
+            "name": "Symbiotic Chimeric Nucleus",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -149380,7 +149390,7 @@
           {
             "itemId": "114087",
             "quantity": 3,
-            "name": "Command of the Pale Star's Host",
+            "name": "Clarion of the Pale Star Army",
             "rarity": 4,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -149390,7 +149400,7 @@
           {
             "itemId": "112156",
             "quantity": 12,
-            "name": "Crystalline Sprout",
+            "name": "Sprout Node of Life",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -149400,7 +149410,7 @@
           {
             "itemId": "112150",
             "quantity": 9,
-            "name": "Symbiotic Chimera Cell",
+            "name": "Symbiotic Chimeric Nucleus",
             "rarity": 2,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -149415,7 +149425,7 @@
           {
             "itemId": "114087",
             "quantity": 6,
-            "name": "Command of the Pale Star's Host",
+            "name": "Clarion of the Pale Star Army",
             "rarity": 4,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -149425,7 +149435,7 @@
           {
             "itemId": "112157",
             "quantity": 9,
-            "name": "Everliving Branch of the Heart",
+            "name": "Coiled Core of Life",
             "rarity": 4,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -149435,7 +149445,7 @@
           {
             "itemId": "112151",
             "quantity": 6,
-            "name": "Primordial Chimera",
+            "name": "Genesis Chimeric Nexus",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -149450,7 +149460,7 @@
           {
             "itemId": "114088",
             "quantity": 4,
-            "name": "Conquest of the Pale Star Host",
+            "name": "Triumph of the Pale Star Army",
             "rarity": 5,
             "type": "Weapon Ascension Material",
             "assets": {
@@ -149460,7 +149470,7 @@
           {
             "itemId": "112157",
             "quantity": 18,
-            "name": "Everliving Branch of the Heart",
+            "name": "Coiled Core of Life",
             "rarity": 4,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -149470,7 +149480,7 @@
           {
             "itemId": "112151",
             "quantity": 12,
-            "name": "Primordial Chimera",
+            "name": "Genesis Chimeric Nexus",
             "rarity": 3,
             "type": "Character and Weapon Enhancement Material",
             "assets": {
@@ -149489,7 +149499,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "d1cfb003fcd28509f3ef8892ba5a3446d6c03682d5d8a147023431157cffb1e9"
+      "currentHash": "6363772ca0a688f6b2f3f5ec45cc19e3cfbde533455b2e87a26e21091b9eb1de"
     }
   },
   {
@@ -155658,7 +155668,7 @@
     "refinements": {
       "1": {
         "name": "The Moonring Sighted",
-        "desc": "For 12s after triggering a Swirl or Star Swirl reaction, ATK increases by <color=#99FFFFFF>24%</color>. In addition, when 1/2 or more characters in the party are of a different Elemental Type from the equipping character, the DMG dealt by the equipping character's Charged Attacks is increased by <color=#99FFFFFF>20%/48%</color> and Elemental Burst DMG dealt is increased by <color=#99FFFFFF>10%/24%</color>.",
+        "desc": "For 12s after triggering a Swirl or Stellar Swirl reaction, ATK increases by <color=#99FFFFFF>24%</color>. In addition, when 1/2 or more characters in the party are of a different Elemental Type from the equipping character, the DMG dealt by the equipping character's Charged Attacks is increased by <color=#99FFFFFF>20%/48%</color>, and Elemental Burst DMG dealt is increased by <color=#99FFFFFF>10%/24%</color>.",
         "param_list": [
           0.24,
           12,
@@ -155672,7 +155682,7 @@
       },
       "2": {
         "name": "The Moonring Sighted",
-        "desc": "For 12s after triggering a Swirl or Stellar Swirl reaction, ATK increases by <color=#99FFFFFF>30%</color>. In addition, when 1/2 or more characters in the party are of a different Elemental Type from the equipping character, the DMG dealt by the equipping character's Charged Attacks is increased by <color=#99FFFFFF>25%/60%</color> and Elemental Burst DMG dealt is increased by <color=#99FFFFFF>12.5%/30%</color>.",
+        "desc": "For 12s after triggering a Swirl or Stellar Swirl reaction, ATK increases by <color=#99FFFFFF>30%</color>. In addition, when 1/2 or more characters in the party are of a different Elemental Type from the equipping character, the DMG dealt by the equipping character's Charged Attacks is increased by <color=#99FFFFFF>25%/60%</color>, and Elemental Burst DMG dealt is increased by <color=#99FFFFFF>12.5%/30%</color>.",
         "param_list": [
           0.3,
           12,
@@ -155686,7 +155696,7 @@
       },
       "3": {
         "name": "The Moonring Sighted",
-        "desc": "For 12s after triggering a Swirl or Star Swirl reaction, ATK increases by <color=#99FFFFFF>36%</color>. In addition, when 1/2 or more characters in the party are of a different Elemental Type from the equipping character, the DMG dealt by the equipping character's Charged Attacks is increased by <color=#99FFFFFF>30%/72%</color> and Elemental Burst DMG dealt is increased by <color=#99FFFFFF>15%/36%</color>.",
+        "desc": "For 12s after triggering a Swirl or Stellar Swirl reaction, ATK increases by <color=#99FFFFFF>36%</color>. In addition, when 1/2 or more characters in the party are of a different Elemental Type from the equipping character, the DMG dealt by the equipping character's Charged Attacks is increased by <color=#99FFFFFF>30%/72%</color>, and Elemental Burst DMG dealt is increased by <color=#99FFFFFF>15%/36%</color>.",
         "param_list": [
           0.36,
           12,
@@ -155700,7 +155710,7 @@
       },
       "4": {
         "name": "The Moonring Sighted",
-        "desc": "For 12s after triggering a Swirl or Astral Swirl reaction, ATK increases by <color=#99FFFFFF>42%</color>. In addition, when 1/2 or more characters in the party are of a different Elemental Type from the equipping character, the DMG dealt by the equipping character's Charged Attacks is increased by <color=#99FFFFFF>35%/84%</color> and Elemental Burst DMG dealt is increased by <color=#99FFFFFF>17.5%/42%</color>.",
+        "desc": "For 12s after triggering a Swirl or Stellar Swirl reaction, ATK increases by <color=#99FFFFFF>42%</color>. In addition, when 1/2 or more characters in the party are of a different Elemental Type from the equipping character, the DMG dealt by the equipping character's Charged Attacks is increased by <color=#99FFFFFF>35%/84%</color>, and Elemental Burst DMG dealt is increased by <color=#99FFFFFF>17.5%/42%</color>.",
         "param_list": [
           0.42,
           12,
@@ -155714,7 +155724,7 @@
       },
       "5": {
         "name": "The Moonring Sighted",
-        "desc": "For 12s after triggering a Swirl or Star Swirl reaction, ATK increases by <color=#99FFFFFF>48%</color>. In addition, when 1/2 or more characters in the party are of a different Elemental Type from the equipping character, the DMG dealt by the equipping character's Charged Attacks is increased by <color=#99FFFFFF>40%/96%</color> and Elemental Burst DMG dealt is increased by <color=#99FFFFFF>20%/48%</color>.",
+        "desc": "For 12s after triggering a Swirl or Stellar Swirl reaction, ATK increases by <color=#99FFFFFF>48%</color>. In addition, when 1/2 or more characters in the party are of a different Elemental Type from the equipping character, the DMG dealt by the equipping character's Charged Attacks is increased by <color=#99FFFFFF>40%/96%</color>, and Elemental Burst DMG dealt is increased by <color=#99FFFFFF>20%/48%</color>.",
         "param_list": [
           0.48,
           12,
@@ -155949,7 +155959,7 @@
     },
     "liveComparison": {
       "liveHash": "803a21ef8cd99cba11dec68197749f7d4da5f07c6f5d0a60e2c8c48f32966f2f",
-      "currentHash": "f206239335a55cd7152b8ea23f9c35667fae8fd94927f227aee67c87ee1c79bd"
+      "currentHash": "480be5fa77c6c6f9df81bc2ac3979410186ecfa3dc501dd7e3dc41068a91b46b"
     }
   },
   {
@@ -157247,7 +157257,7 @@
   {
     "id": "224001",
     "contentStatus": "beta",
-    "name": "Shathanaya's Pale Silver",
+    "name": "Shatanaya's Frostsilver",
     "rarity": 4,
     "type": "ITEM_TPS_WEAPON",
     "assets": {
@@ -157256,13 +157266,13 @@
     },
     "properties": [],
     "liveComparison": {
-      "currentHash": "7d572e4e65bd14ec89310b38146fa818d89cdc1fd33a41541c126a8744418fcd"
+      "currentHash": "006522ad01a61ecfc0063a3b5e33a5730c0643bd565c331837954769ac291464"
     }
   },
   {
     "id": "224002",
     "contentStatus": "beta",
-    "name": "Asha's Thousand Lights",
+    "name": "Ashamez's Thunder",
     "rarity": 4,
     "type": "ITEM_TPS_WEAPON",
     "assets": {
@@ -157271,13 +157281,13 @@
     },
     "properties": [],
     "liveComparison": {
-      "currentHash": "24c3288334d1d7dbe6e25455617f28661f1de6322b0ca345163f5f31d8712950"
+      "currentHash": "90066ecda1c0c6aa74e7abaae835c143412bd674a4e0ec86ca9a1f2da5dcdfa5"
     }
   },
   {
     "id": "224003",
     "contentStatus": "beta",
-    "name": "Sun of Valsag",
+    "name": "Balsag's Sunwheel",
     "rarity": 4,
     "type": "ITEM_TPS_WEAPON",
     "assets": {
@@ -157286,73 +157296,73 @@
     },
     "properties": [],
     "liveComparison": {
-      "currentHash": "d882b76dd38f93cee6692b7dfee63c9dfb4f6f679c1cfae32358c6bdc00868d3"
+      "currentHash": "c1a101fae680109eb240d1b4ef4335e46cafae134553da5e793961ef76bc608c"
     }
   },
   {
     "id": "224004",
     "contentStatus": "beta",
-    "name": "Pomegranate Crystal Pyro",
+    "name": "Frag Crystal - Pyro",
     "rarity": 4,
     "type": "ITEM_TPS_WEAPON",
     "assets": {
-      "icon": "Nanoka/gi/assets/weapons/icons/Sword_Template.webp",
-      "gacha": "Nanoka/gi/assets/weapons/gacha/Sword_Template.webp"
+      "icon": "Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Grenade_Fire.webp",
+      "gacha": "Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Grenade_Fire.webp"
     },
     "properties": [],
     "liveComparison": {
-      "currentHash": "f74fc1011865b3a30cc60637dd24ede3c1cec1d9a797efa8bebef5d48673a53f"
+      "currentHash": "0386b83522b45b636e26edbef4c673c6464fa2700d869d38973a5ea6d7f9d6a6"
     }
   },
   {
     "id": "224005",
     "contentStatus": "beta",
-    "name": "Hydro Crystal",
+    "name": "Frag Crystal - Hydro",
     "rarity": 4,
     "type": "ITEM_TPS_WEAPON",
     "assets": {
-      "icon": "Nanoka/gi/assets/weapons/icons/Sword_Template.webp",
-      "gacha": "Nanoka/gi/assets/weapons/gacha/Sword_Template.webp"
+      "icon": "Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Grenade_Water.webp",
+      "gacha": "Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Grenade_Water.webp"
     },
     "properties": [],
     "liveComparison": {
-      "currentHash": "bc8c11b58cbaf1d6a9b2874cd0d1753216214691a51d01dd97e09313ca86d055"
+      "currentHash": "08e77b67c30bfed62459e4faff7cf71cc2c1bdace44e5ec6071941e386992516"
     }
   },
   {
     "id": "224006",
     "contentStatus": "beta",
-    "name": "Electro Crystal",
+    "name": "Frag Crystal - Electro",
     "rarity": 4,
     "type": "ITEM_TPS_WEAPON",
     "assets": {
-      "icon": "Nanoka/gi/assets/weapons/icons/Sword_Template.webp",
-      "gacha": "Nanoka/gi/assets/weapons/gacha/Sword_Template.webp"
+      "icon": "Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Grenade_Electric.webp",
+      "gacha": "Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Grenade_Electric.webp"
     },
     "properties": [],
     "liveComparison": {
-      "currentHash": "64947da46ee945771acfdbc73c1db51af17c98c3b4071780f5e4ac47ca80f4fa"
+      "currentHash": "475f2d8143a6ef379b5f4b2264ea93d762ee24631d7070d232d13a5bb4fdd0f3"
     }
   },
   {
     "id": "224007",
     "contentStatus": "beta",
-    "name": "Garnet Cryo",
+    "name": "Frag Crystal - Cryo",
     "rarity": 4,
     "type": "ITEM_TPS_WEAPON",
     "assets": {
-      "icon": "Nanoka/gi/assets/weapons/icons/Sword_Template.webp",
-      "gacha": "Nanoka/gi/assets/weapons/gacha/Sword_Template.webp"
+      "icon": "Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Grenade_Ice.webp",
+      "gacha": "Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Grenade_Ice.webp"
     },
     "properties": [],
     "liveComparison": {
-      "currentHash": "93d827e5c75ab259de6f57402487cd03b18007221afc1b35a5ba2dc8be8ca8dd"
+      "currentHash": "e080028841b21652830848fd691bab79206fde8d8341fdde97cc55b5747a6384"
     }
   },
   {
     "id": "224008",
     "contentStatus": "beta",
-    "name": "224008",
+    "name": "(test) Shadow Realm Grenade",
     "rarity": 4,
     "type": "ITEM_TPS_WEAPON",
     "assets": {
@@ -157361,7 +157371,7 @@
     },
     "properties": [],
     "liveComparison": {
-      "currentHash": "813e6f7e17164bb780b3ffb6b8f040bb34bbd1c56a4bab9f3ff48db302385ac0"
+      "currentHash": "9c6997f636c8ed6d5aacfed16090eb45bd78ae10e9cc712eaa62f63248f7d16c"
     }
   },
   {

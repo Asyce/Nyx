@@ -1,6 +1,6 @@
 {
-  "name": "Forgeable Weapon",
-  "desc": "A longsword crafted with a gemstone blade; it is said to have been forged for the path of justice, and when unsheathed, it glimmers with an aura of blue Pyro flames.",
+  "name": "Emberwell",
+  "desc": "A longsword that is entirely gemstone, said to be crafted for the path of righteousness. When unsheathed, it glows with the luster of blue flame.",
   "weapon_type": "WEAPON_SWORD_ONE_HAND",
   "weapon_prop": [
     {
@@ -416,19 +416,19 @@
     "1": {
       "mats": [
         {
-          "name": "The Stirring of the Pale Star Host",
+          "name": "Rise of the Pale Star Army",
           "id": 114085,
           "count": 3,
           "rank": 2
         },
         {
-          "name": "Sediment Fragment",
+          "name": "Accreted Fragment",
           "id": 112152,
           "count": 3,
           "rank": 2
         },
         {
-          "name": "Phantasmagorical Dust",
+          "name": "Ethereal Glimmershard",
           "id": 112146,
           "count": 2,
           "rank": 1
@@ -439,19 +439,19 @@
     "2": {
       "mats": [
         {
-          "name": "The Gathering of the Pale Star Host",
+          "name": "Muster of the Pale Star Army",
           "id": 114086,
           "count": 3,
           "rank": 3
         },
         {
-          "name": "Sediment Fragment",
+          "name": "Accreted Fragment",
           "id": 112152,
           "count": 12,
           "rank": 2
         },
         {
-          "name": "Phantasmagorical Dust",
+          "name": "Ethereal Glimmershard",
           "id": 112146,
           "count": 8,
           "rank": 1
@@ -462,19 +462,19 @@
     "3": {
       "mats": [
         {
-          "name": "The Gathering of the Pale Star Host",
+          "name": "Muster of the Pale Star Army",
           "id": 114086,
           "count": 6,
           "rank": 3
         },
         {
-          "name": "Sediment Clot",
+          "name": "Accreted Mass",
           "id": 112153,
           "count": 6,
           "rank": 3
         },
         {
-          "name": "Phantasm Crystal",
+          "name": "Ethereal Crystal",
           "id": 112147,
           "count": 6,
           "rank": 2
@@ -485,19 +485,19 @@
     "4": {
       "mats": [
         {
-          "name": "Command of the Pale Star's Host",
+          "name": "Clarion of the Pale Star Army",
           "id": 114087,
           "count": 3,
           "rank": 4
         },
         {
-          "name": "Sediment Clot",
+          "name": "Accreted Mass",
           "id": 112153,
           "count": 12,
           "rank": 3
         },
         {
-          "name": "Phantasm Crystal",
+          "name": "Ethereal Crystal",
           "id": 112147,
           "count": 9,
           "rank": 2
@@ -508,19 +508,19 @@
     "5": {
       "mats": [
         {
-          "name": "Command of the Pale Star's Host",
+          "name": "Clarion of the Pale Star Army",
           "id": 114087,
           "count": 6,
           "rank": 4
         },
         {
-          "name": "Crystalline Cyst",
+          "name": "Accreted Growth",
           "id": 112154,
           "count": 9,
           "rank": 4
         },
         {
-          "name": "Dreamy Crystal Koku",
+          "name": "Ethereal Crystalscale Stone",
           "id": 112148,
           "count": 6,
           "rank": 3
@@ -531,19 +531,19 @@
     "6": {
       "mats": [
         {
-          "name": "Conquest of the Pale Star Host",
+          "name": "Triumph of the Pale Star Army",
           "id": 114088,
           "count": 4,
           "rank": 5
         },
         {
-          "name": "Crystalline Cyst",
+          "name": "Accreted Growth",
           "id": 112154,
           "count": 18,
           "rank": 4
         },
         {
-          "name": "Dreamy Crystal Koku",
+          "name": "Ethereal Crystalscale Stone",
           "id": 112148,
           "count": 12,
           "rank": 3

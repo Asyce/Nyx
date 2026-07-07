@@ -17,14 +17,18 @@
           "value": 0.18
         },
         {
-          "prop_type": "FIGHT_PROP_NONE"
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
         },
         {
-          "prop_type": "FIGHT_PROP_NONE"
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
         }
       ],
       "affix_id": 2150470,
       "id": 215047,
+      "level": 0,
+      "open_config": "",
       "param_list": [
         0.18,
         0,
@@ -35,19 +39,22 @@
         0,
         0
       ],
-      "name": "Crimson Proof",
+      "name": "Scarlet Proof",
       "desc": "ATK +18%."
     },
     {
       "add_props": [
         {
-          "prop_type": "FIGHT_PROP_NONE"
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
         },
         {
-          "prop_type": "FIGHT_PROP_NONE"
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
         },
         {
-          "prop_type": "FIGHT_PROP_NONE"
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
         }
       ],
       "affix_id": 2150471,
@@ -64,40 +71,75 @@
         0,
         0
       ],
-      "name": "Proof of the Blood-Red",
+      "name": "Scarlet Proof",
       "desc": "Triggering a Stellar Swirl reaction increases the character's ATK by 16% and Stellar Swirl DMG by 40% for 10s."
     }
   ],
   "parts": {
     "equip_ring": {
       "icon": "UI_RelicIcon_15047_1",
-      "name": "Drink deep of your blood and tears",
+      "name": "Chalice of Your Blood and Sorrow",
       "desc": "",
-      "story": {}
+      "story": {
+        "285471": {
+          "zh": "ART/UI/Readable/CHS/Relic15047_1",
+          "en": "ART/UI/Readable/EN/Relic15047_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic15047_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic15047_1_KR"
+        }
+      }
     },
     "equip_necklace": {
       "icon": "UI_RelicIcon_15047_2",
-      "name": "Remember your glorious deeds",
+      "name": "Glory to Your Legacy",
       "desc": "",
-      "story": {}
+      "story": {
+        "285472": {
+          "zh": "ART/UI/Readable/CHS/Relic15047_2",
+          "en": "ART/UI/Readable/EN/Relic15047_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic15047_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic15047_2_KR"
+        }
+      }
     },
     "equip_dress": {
       "icon": "UI_RelicIcon_15047_3",
-      "name": "Honor your faith",
+      "name": "Testament to Your Faith",
       "desc": "",
-      "story": {}
+      "story": {
+        "285473": {
+          "zh": "ART/UI/Readable/CHS/Relic15047_3",
+          "en": "ART/UI/Readable/EN/Relic15047_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic15047_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic15047_3_KR"
+        }
+      }
     },
     "equip_bracer": {
       "icon": "UI_RelicIcon_15047_4",
-      "name": "Thank you for your devotion",
+      "name": "Honor to Your Devotion",
       "desc": "",
-      "story": {}
+      "story": {
+        "285474": {
+          "zh": "ART/UI/Readable/CHS/Relic15047_4",
+          "en": "ART/UI/Readable/EN/Relic15047_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic15047_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic15047_4_KR"
+        }
+      }
     },
     "equip_shoes": {
       "icon": "UI_RelicIcon_15047_5",
-      "name": "Grant you the years",
+      "name": "Time Gifted Unto You",
       "desc": "",
-      "story": {}
+      "story": {
+        "285475": {
+          "zh": "ART/UI/Readable/CHS/Relic15047_5",
+          "en": "ART/UI/Readable/EN/Relic15047_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic15047_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic15047_5_KR"
+        }
+      }
     }
   }
 }

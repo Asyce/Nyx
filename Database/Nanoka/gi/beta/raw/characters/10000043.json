@@ -3147,7 +3147,7 @@
     {
       "id": 432101,
       "name": "Catalyst Conversion",
-      "desc": "When Sucrose triggers a Swirl or Star Swirl reaction, all characters in the party with the matching element (excluding Sucrose) have their Elemental Mastery increased by 50 for 8s.",
+      "desc": "When Sucrose triggers a Swirl or Stellar Swirl reaction, all characters in the party with the matching element (excluding Sucrose) have their Elemental Mastery increased by 50 for 8s.",
       "icon": "UI_Talent_S_Sucrose_05",
       "unlock": 1,
       "param_list": [
@@ -3380,7 +3380,7 @@
             "name": "Windwheel Aster",
             "id": 100024,
             "count": 3,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Whopperflower Nectar",
@@ -3409,7 +3409,7 @@
             "name": "Windwheel Aster",
             "id": 100024,
             "count": 10,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Whopperflower Nectar",
@@ -3438,7 +3438,7 @@
             "name": "Windwheel Aster",
             "id": 100024,
             "count": 20,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Shimmering Nectar",
@@ -3467,7 +3467,7 @@
             "name": "Windwheel Aster",
             "id": 100024,
             "count": 30,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Shimmering Nectar",
@@ -3496,7 +3496,7 @@
             "name": "Windwheel Aster",
             "id": 100024,
             "count": 45,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Energy Nectar",
@@ -3525,7 +3525,7 @@
             "name": "Windwheel Aster",
             "id": 100024,
             "count": 60,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Energy Nectar",

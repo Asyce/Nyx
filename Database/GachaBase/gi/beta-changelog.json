@@ -3,7 +3,7 @@
   "label": "Genshin Impact",
   "source": "GachaBase beta changelog",
   "sourceUrl": "https://gi.gachabase.net/changelog/beta?lang=en",
-  "scrapedAt": "2026-07-06T09:19:38.149Z",
+  "scrapedAt": "2026-07-07T08:52:38.854Z",
   "title": "Changelog - v6.7.5X | Genshin Impact | Gachabase",
   "categoryLinks": [
     {
@@ -128,17 +128,147 @@
     }
   ],
   "counts": {
-    "entries": 18,
+    "entries": 28,
     "byType": {
-      "weapons": 16,
-      "artifacts": 2
+      "weapons": 24,
+      "artifacts": 4
     },
     "byStatus": {
-      "new": 13,
-      "updated": 5
+      "updated": 15,
+      "new": 13
     }
   },
   "entries": [
+    {
+      "game": "gi",
+      "type": "weapons",
+      "id": "11436",
+      "rarity": 4,
+      "name": "Emberwell",
+      "iconHash": "e820cb9eb6c82d50758f8d2782587ed6",
+      "status": "updated",
+      "href": "https://gi.gachabase.net/weapons/11436/emberwell/beta/6.7.51/46271828",
+      "diff": "https://gi.gachabase.net/diff/weapons/11436/emberwell?prev=beta_6.7.50_46258770&cur=beta_6.7.51_46271828",
+      "betaVersion": "6.7.51",
+      "revision": "46271828"
+    },
+    {
+      "game": "gi",
+      "type": "weapons",
+      "id": "11520",
+      "rarity": 5,
+      "name": "Whitelake Frostfeather",
+      "iconHash": "a10b7853cb47513dafe98bbc3c068057",
+      "status": "updated",
+      "href": "https://gi.gachabase.net/weapons/11520/whitelake-frostfeather/beta/6.7.51/46271828",
+      "diff": "https://gi.gachabase.net/diff/weapons/11520/whitelake-frostfeather?prev=beta_6.7.50_46258770&cur=beta_6.7.51_46271828",
+      "betaVersion": "6.7.51",
+      "revision": "46271828"
+    },
+    {
+      "game": "gi",
+      "type": "weapons",
+      "id": "11521",
+      "rarity": 5,
+      "name": "Exaiphanes Blade",
+      "iconHash": "7065f048eaf4d97e231a2bcd66295a76",
+      "status": "updated",
+      "href": "https://gi.gachabase.net/weapons/11521/exaiphanes-blade/beta/6.7.51/46271828",
+      "diff": "https://gi.gachabase.net/diff/weapons/11521/exaiphanes-blade?prev=beta_6.7.50_46258770&cur=beta_6.7.51_46271828",
+      "betaVersion": "6.7.51",
+      "revision": "46271828"
+    },
+    {
+      "game": "gi",
+      "type": "weapons",
+      "id": "12436",
+      "rarity": 4,
+      "name": "Blade of Atonement",
+      "iconHash": "31d2fb8798db034f22ee52b19d0694bb",
+      "status": "updated",
+      "href": "https://gi.gachabase.net/weapons/12436/blade-of-atonement/beta/6.7.51/46271828",
+      "diff": "https://gi.gachabase.net/diff/weapons/12436/blade-of-atonement?prev=beta_6.7.50_46258770&cur=beta_6.7.51_46271828",
+      "betaVersion": "6.7.51",
+      "revision": "46271828"
+    },
+    {
+      "game": "gi",
+      "type": "weapons",
+      "id": "13436",
+      "rarity": 4,
+      "name": "Song of the Vigil",
+      "iconHash": "b8f4d1e1fb059610e0bc3379363334d5",
+      "status": "updated",
+      "href": "https://gi.gachabase.net/weapons/13436/song-of-the-vigil/beta/6.7.51/46271828",
+      "diff": "https://gi.gachabase.net/diff/weapons/13436/song-of-the-vigil?prev=beta_6.7.50_46258770&cur=beta_6.7.51_46271828",
+      "betaVersion": "6.7.51",
+      "revision": "46271828"
+    },
+    {
+      "game": "gi",
+      "type": "weapons",
+      "id": "14436",
+      "rarity": 4,
+      "name": "Echoes of the Heart",
+      "iconHash": "ae50d2370dc7126dc4375c5c7ec07a97",
+      "status": "updated",
+      "href": "https://gi.gachabase.net/weapons/14436/echoes-of-the-heart/beta/6.7.51/46271828",
+      "diff": "https://gi.gachabase.net/diff/weapons/14436/echoes-of-the-heart?prev=beta_6.7.50_46258770&cur=beta_6.7.51_46271828",
+      "betaVersion": "6.7.51",
+      "revision": "46271828"
+    },
+    {
+      "game": "gi",
+      "type": "weapons",
+      "id": "15436",
+      "rarity": 4,
+      "name": "Covenant of Frost and Snow",
+      "iconHash": "363986b0ead4ab67687a3949320d06d2",
+      "status": "updated",
+      "href": "https://gi.gachabase.net/weapons/15436/covenant-of-frost-and-snow/beta/6.7.51/46271828",
+      "diff": "https://gi.gachabase.net/diff/weapons/15436/covenant-of-frost-and-snow?prev=beta_6.7.50_46258770&cur=beta_6.7.51_46271828",
+      "betaVersion": "6.7.51",
+      "revision": "46271828"
+    },
+    {
+      "game": "gi",
+      "type": "weapons",
+      "id": "15514",
+      "rarity": 5,
+      "name": "Astral Vulture's Crimson Plumage",
+      "iconHash": "43b315af31d8b31d91113201fe8b2736",
+      "status": "updated",
+      "href": "https://gi.gachabase.net/weapons/15514/astral-vultures-crimson-plumage/beta/6.7.51/46271828",
+      "diff": "https://gi.gachabase.net/diff/weapons/15514/astral-vultures-crimson-plumage?prev=beta_6.7.50_46258770&cur=beta_6.7.51_46271828",
+      "betaVersion": "6.7.51",
+      "revision": "46271828"
+    },
+    {
+      "game": "gi",
+      "type": "artifacts",
+      "id": "15002",
+      "rarity": null,
+      "name": "Viridescent Venerer",
+      "iconHash": "e94a73209189301beeda0406b9c1d99b",
+      "status": "updated",
+      "href": "https://gi.gachabase.net/artifacts/15002/viridescent-venerer/beta/6.7.51/46271828",
+      "diff": "https://gi.gachabase.net/diff/artifacts/15002/viridescent-venerer?prev=beta_6.7.50_46258770&cur=beta_6.7.51_46271828",
+      "betaVersion": "6.7.51",
+      "revision": "46271828"
+    },
+    {
+      "game": "gi",
+      "type": "artifacts",
+      "id": "15047",
+      "rarity": null,
+      "name": "Scarlet Proof",
+      "iconHash": "bbde45c6d9db62bb2d277a7812ed0941",
+      "status": "updated",
+      "href": "https://gi.gachabase.net/artifacts/15047/scarlet-proof/beta/6.7.51/46271828",
+      "diff": "https://gi.gachabase.net/diff/artifacts/15047/scarlet-proof?prev=beta_6.7.50_46258770&cur=beta_6.7.51_46271828",
+      "betaVersion": "6.7.51",
+      "revision": "46271828"
+    },
     {
       "game": "gi",
       "type": "weapons",

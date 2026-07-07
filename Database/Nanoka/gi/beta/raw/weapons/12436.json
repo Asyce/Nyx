@@ -1,6 +1,6 @@
 {
-  "name": "Forgeable Weapon",
-  "desc": "A greatsword of the Rucci ember heritage, said to be wielded only by the most valiant of warriors.",
+  "name": "Blade of Atonement",
+  "desc": "A greatsword passed down by the Luchkin. It is said that only the bravest warrior is qualified to wield it.",
   "weapon_type": "WEAPON_CLAYMORE",
   "weapon_prop": [
     {
@@ -416,19 +416,19 @@
     "1": {
       "mats": [
         {
-          "name": "The Stirring of the Pale Star Host",
+          "name": "Rise of the Pale Star Army",
           "id": 114085,
           "count": 3,
           "rank": 2
         },
         {
-          "name": "Aether-Life Root",
+          "name": "Hollow Root of Life",
           "id": 112155,
           "count": 3,
           "rank": 2
         },
         {
-          "name": "Chimera",
+          "name": "Chimeric Core",
           "id": 112149,
           "count": 2,
           "rank": 1
@@ -439,19 +439,19 @@
     "2": {
       "mats": [
         {
-          "name": "The Gathering of the Pale Star Host",
+          "name": "Muster of the Pale Star Army",
           "id": 114086,
           "count": 3,
           "rank": 3
         },
         {
-          "name": "Aether-Life Root",
+          "name": "Hollow Root of Life",
           "id": 112155,
           "count": 12,
           "rank": 2
         },
         {
-          "name": "Chimera",
+          "name": "Chimeric Core",
           "id": 112149,
           "count": 8,
           "rank": 1
@@ -462,19 +462,19 @@
     "3": {
       "mats": [
         {
-          "name": "The Gathering of the Pale Star Host",
+          "name": "Muster of the Pale Star Army",
           "id": 114086,
           "count": 6,
           "rank": 3
         },
         {
-          "name": "Crystalline Sprout",
+          "name": "Sprout Node of Life",
           "id": 112156,
           "count": 6,
           "rank": 3
         },
         {
-          "name": "Symbiotic Chimera Cell",
+          "name": "Symbiotic Chimeric Nucleus",
           "id": 112150,
           "count": 6,
           "rank": 2
@@ -485,19 +485,19 @@
     "4": {
       "mats": [
         {
-          "name": "Command of the Pale Star's Host",
+          "name": "Clarion of the Pale Star Army",
           "id": 114087,
           "count": 3,
           "rank": 4
         },
         {
-          "name": "Crystalline Sprout",
+          "name": "Sprout Node of Life",
           "id": 112156,
           "count": 12,
           "rank": 3
         },
         {
-          "name": "Symbiotic Chimera Cell",
+          "name": "Symbiotic Chimeric Nucleus",
           "id": 112150,
           "count": 9,
           "rank": 2
@@ -508,19 +508,19 @@
     "5": {
       "mats": [
         {
-          "name": "Command of the Pale Star's Host",
+          "name": "Clarion of the Pale Star Army",
           "id": 114087,
           "count": 6,
           "rank": 4
         },
         {
-          "name": "Everliving Branch of the Heart",
+          "name": "Coiled Core of Life",
           "id": 112157,
           "count": 9,
           "rank": 4
         },
         {
-          "name": "Primordial Chimera",
+          "name": "Genesis Chimeric Nexus",
           "id": 112151,
           "count": 6,
           "rank": 3
@@ -531,19 +531,19 @@
     "6": {
       "mats": [
         {
-          "name": "Conquest of the Pale Star Host",
+          "name": "Triumph of the Pale Star Army",
           "id": 114088,
           "count": 4,
           "rank": 5
         },
         {
-          "name": "Everliving Branch of the Heart",
+          "name": "Coiled Core of Life",
           "id": 112157,
           "count": 18,
           "rank": 4
         },
         {
-          "name": "Primordial Chimera",
+          "name": "Genesis Chimeric Nexus",
           "id": 112151,
           "count": 12,
           "rank": 3

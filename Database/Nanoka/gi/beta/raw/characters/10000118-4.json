@@ -3,7 +3,10 @@
   "desc": "A Manekin gifted to you and Paimon by a witch who uses the pseudonym \"Octavia.\" They are gifted at exploring the mysteries sealed within the Miliastra Wonderland.",
   "chara_info": {
     "release_date": "2025-10-21 00:00:00",
-    "birth": [],
+    "birth": [
+      0,
+      0
+    ],
     "vision": "None",
     "vision_special_type_before": "",
     "vision_special_type_after": "",

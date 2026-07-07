@@ -1,9 +1,9 @@
 {
   "name": "Chimeric Armored Beast",
-  "desc": "A product of Bio-Alchemy, which was once prevalent across the frozen tundra — a hybrid crafted monster.\\nIf a four-legged beast possessed a carapace and horn like an Onikabuto, it might just serve as a shock troop to break through enemy ranks.\\nLogically, crafted monsters that pursue a single function rarely survive in the natural world. Most would perish for violating the laws of nature once they lose their designated battlefield, but clearly, the Helm-Armored Beast is an exception.\\nNowadays, on the frozen tundra of Snezhnaya, one can often see Helm-Armored Beasts hunting in packs.",
+  "desc": "A product of bio-alchemy that was once widespread across the frozen lands, an aberrant chimeric monster.\\nIf a four-legged beast were given a carapace and charging horn like those of an Onikabuto, it might well become a shock force capable of breaking through enemy formations.\\nIn theory, man-made monsters designed around a single function rarely survive in the wild. Once they lose the place or purpose for which they were made, most perish for having defied the laws of nature. Clearly, however, the Armored Beast is not one of them.\\nToday, on the frozen lands of Snezhnaya, Armored Beasts can often be seen hunting in packs.",
   "icon": "UI_MonsterIcon_Chimera_BeetleLion",
   "codex": "BEAST",
-  "title": "Remnant-Crafted Beast",
+  "title": "Patchwork Beast",
   "special_names": [
     "Chimeric Armored Beast"
   ],
@@ -79,6 +79,7 @@
         {},
         {}
       ],
+      "kill_drop_id": 0,
       "prop": [
         {
           "grow_curve": "GROW_CURVE_HP_2",

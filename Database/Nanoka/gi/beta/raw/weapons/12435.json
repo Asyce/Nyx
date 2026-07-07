@@ -1,5 +1,5 @@
 {
-  "name": "BP Weapon",
+  "name": "",
   "desc": "",
   "weapon_type": "WEAPON_CLAYMORE",
   "weapon_prop": [
@@ -343,7 +343,7 @@
   "refinement": {
     "1": {
       "name": "",
-      "desc": "Precision Instrument: Grants one of the following buffs in the following order every 10s: +<color=#99FFFFFF>20%</color> ATK/+<color=#99FFFFFF>120</color> Elemental Mastery/+<color=#99FFFFFF>32%</color> Stellar-Conduct and Stellar Swirl DMG for 10s. If the character has triggered the Stellar-Conduct or Stellar Swirl reactions, the current buff will be retained and extended by 12s. This effect can trigger once every 12s.",
+      "desc": "Precision Instrument: Grants a buff in the following order every 10s: <color=#99FFFFFF>+20%</color> ATK > <color=#99FFFFFF>+120</color> Elemental Mastery > <color=#99FFFFFF>+32%</color> Stellar-Conduct and Stellar Swirl reaction DMG for 10s. If the character has triggered the Stellar-Conduct or Stellar Swirl reactions, the current buff will also be retained and extended by 12s. This effect can trigger once every 12s.",
       "param_list": [
         0.2,
         120,
@@ -357,7 +357,7 @@
     },
     "2": {
       "name": "",
-      "desc": "Precision Instrument: Grants one of the following buffs in the following order every 10s: +<color=#99FFFFFF>25%</color> ATK/+<color=#99FFFFFF>150</color> Elemental Mastery/+<color=#99FFFFFF>40%</color> Stellar-Conduct and Stellar Swirl DMG for 10s. If the character triggers the Stellar-Conduct or Stellar Swirl reactions, the current buff will be retained and extended by 12s. This effect can trigger once every 12s.",
+      "desc": "Precision Instrument: Grants a buff in the following order every 10s: <color=#99FFFFFF>+25%</color> ATK > <color=#99FFFFFF>+150</color> Elemental Mastery > <color=#99FFFFFF>+40%</color> Stellar-Conduct and Stellar Swirl reaction DMG for 10s. If the character has triggered the Stellar-Conduct or Stellar Swirl reactions, the current buff will also be retained and extended by 12s. This effect can trigger once every 12s.",
       "param_list": [
         0.25,
         150,
@@ -371,7 +371,7 @@
     },
     "3": {
       "name": "",
-      "desc": "Precision Instrument: Switches between the following buffs in the following order every 10s: +<color=#99FFFFFF>30%</color> ATK/+<color=#99FFFFFF>180</color> Elemental Mastery/+<color=#99FFFFFF>48%</color> Stellar-Conduct and Stellar Swirl DMG for 10s. If the character has triggered the Stellar-Conduct or Stellar Swirl reactions, the current buff will be retained and extended by 12s. This effect can trigger once every 12s.",
+      "desc": "Precision Instrument: Grants a buff in the following order every 10s: <color=#99FFFFFF>+30%</color> ATK > <color=#99FFFFFF>+180</color> Elemental Mastery > <color=#99FFFFFF>+48%</color> Stellar-Conduct and Stellar Swirl reaction DMG for 10s. If the character has triggered the Stellar-Conduct or Stellar Swirl reactions, the current buff will also be retained and extended by 12s. This effect can trigger once every 12s.",
       "param_list": [
         0.3,
         180,
@@ -385,7 +385,7 @@
     },
     "4": {
       "name": "",
-      "desc": "Precision Instrument: Obtains one of the following buffs in the following order every 10s: +<color=#99FFFFFF>35%</color> ATK/+<color=#99FFFFFF>210</color> Elemental Mastery/+<color=#99FFFFFF>56%</color> Stellar-Conduct and Stellar Swirl DMG for 10s. If the character has triggered the Stellar-Conduct or Stellar Swirl reactions, the current buff will be retained and extended by 12s. This effect can trigger once every 12s.",
+      "desc": "Precision Instrument: Grants a buff in the following order every 10s: <color=#99FFFFFF>+35%</color> ATK > <color=#99FFFFFF>+210</color> Elemental Mastery > <color=#99FFFFFF>+56%</color> Stellar-Conduct and Stellar Swirl reaction DMG for 10s. If the character has triggered the Stellar-Conduct or Stellar Swirl reactions, the current buff will also be retained and extended by 12s. This effect can trigger once every 12s.",
       "param_list": [
         0.35,
         210,
@@ -399,7 +399,7 @@
     },
     "5": {
       "name": "",
-      "desc": "Precision Instrument: Grants the following buffs in the following order every 10s: +<color=#99FFFFFF>40%</color> ATK/+<color=#99FFFFFF>240</color> Elemental Mastery/+<color=#99FFFFFF>64%</color> Stellar-Conduct and Stellar Swirl DMG for 10s. If the character has triggered the Stellar-Conduct or Stellar Swirl reactions, the current buff will be retained and extended by 12s. This effect can trigger once every 12s.",
+      "desc": "Precision Instrument: Grants a buff in the following order every 10s: <color=#99FFFFFF>+40%</color> ATK > <color=#99FFFFFF>+240</color> Elemental Mastery > <color=#99FFFFFF>+64%</color> Stellar-Conduct and Stellar Swirl reaction DMG for 10s. If the character has triggered the Stellar-Conduct or Stellar Swirl reactions, the current buff will also be retained and extended by 12s. This effect can trigger once every 12s.",
       "param_list": [
         0.4,
         240,

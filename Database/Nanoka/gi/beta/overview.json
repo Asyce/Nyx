@@ -3,27 +3,28 @@
   "game": "gi",
   "gameName": "Genshin Impact",
   "channel": "beta",
-  "version": "6.7.50",
+  "version": "6.7.51",
   "liveVersion": "6.7",
-  "betaVersion": "6.7.50",
+  "betaVersion": "6.7.51",
   "availableVersions": [
     "6.7",
-    "6.7.50"
+    "6.7.50",
+    "6.7.51"
   ],
-  "scrapedAt": "2026-07-06T09:16:54.947Z",
+  "scrapedAt": "2026-07-07T08:49:42.084Z",
   "counts": {
     "characters": 148,
     "weapons": 268,
     "artifacts": 65,
     "monsters": 584,
-    "items": 10323
+    "items": 10366
   },
   "sourceCounts": {
     "characters": 148,
     "weapons": 268,
     "artifacts": 65,
     "monsters": 584,
-    "items": 10323
+    "items": 10366
   },
   "newInManifest": {
     "character": [
@@ -405,6 +406,6 @@
     "items": "Nanoka/gi/beta/items.json",
     "raw": "Nanoka/gi/beta/raw"
   },
-  "assetsPlanned": 8524,
+  "assetsPlanned": 8533,
   "contentStatus": "Beta records are compared to Live and marked live, beta, or beta_changed."
 }

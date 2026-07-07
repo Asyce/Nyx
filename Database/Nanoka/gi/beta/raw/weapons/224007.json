@@ -1,9 +1,9 @@
 {
-  "name": "Garnet Cryo",
+  "name": "Frag Crystal - Cryo",
   "desc": "",
   "weapon_type": "ITEM_TPS_WEAPON",
   "rarity": 4,
-  "icon": "Sword_Template",
+  "icon": "UI_EquipIcon_Grenade_Ice",
   "skill": 999007,
   "tps": true
 }

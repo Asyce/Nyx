@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-06T11:22:06.684Z",
-  "startedAt": "2026-07-06T11:21:38.097Z",
+  "generatedAt": "2026-07-07T10:18:53.393Z",
+  "startedAt": "2026-07-07T10:18:20.036Z",
   "dryRun": false,
   "source": "GameWith character build pages + web consensus fallback",
   "sourcePage": "https://gamewith.net/genshin-impact/article/show/22357",
@@ -77,6 +77,14 @@
           "domain": "beebom.com",
           "query": "source-template",
           "searchProvider": "source-template",
+          "status": "no-match"
+        },
+        {
+          "title": "Alyosha Release Date and Details | Genshin Impact｜Game8",
+          "url": "https://game8.co/games/Genshin-Impact/archives/606884",
+          "domain": "game8.co",
+          "query": "Alyosha Genshin Impact signature weapon",
+          "searchProvider": "bing-rss",
           "status": "no-match"
         }
       ],

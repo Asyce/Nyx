@@ -2298,7 +2298,7 @@ function BetaDataPanel({ gameKey }){
 
 function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, characterCustomize, setCharacterCustomize, materialSelection, setMaterialSelection, onSelectMaterialCharacter, onCloseMaterialCharacter }){
   const fns = cfg.fns || ['Character Materials','Database','Wish Tracker'];
-  const visibleFns = fns.filter((f) => !/^database$/i.test(f));
+  const visibleFns = fns.filter((f) => !/^database$/i.test(f) || settings?.showDatabase === true);
   const [cmChannel, setCmChannel] = React.useState(() => (typeof cmLoadChannel === 'function' ? cmLoadChannel(cfg.key) : 'live'));
   React.useEffect(() => {
     setCmChannel(typeof cmLoadChannel === 'function' ? cmLoadChannel(cfg.key) : 'live');
@@ -2654,6 +2654,7 @@ const NYX_PENGO_DEFAULTS = {
   language: NYX_LANGUAGE_DEFAULTS,
   specialUnits: NYX_SPECIAL_UNIT_DEFAULTS,
   alwaysBeta: false,
+  showDatabase: false,
   lapis: false,
   energy: 35,
   spawn: 1,
@@ -2941,6 +2942,7 @@ function PengoMenu({ settings, setSettings, inline }){
     animation: NYX_PENGO_DEFAULTS.animation,
     khaenriah: NYX_PENGO_DEFAULTS.khaenriah,
     alwaysBeta: NYX_PENGO_DEFAULTS.alwaysBeta,
+    showDatabase: NYX_PENGO_DEFAULTS.showDatabase,
   });
   const resetOpus = () => update({
     lapis: NYX_PENGO_DEFAULTS.lapis,
@@ -3015,6 +3017,10 @@ function PengoMenu({ settings, setSettings, inline }){
           <button type="button" className="pm-row" data-tip="Change all fonts to the Ancient(Khaenri'ahn) Script"
                   onClick={() => update({ khaenriah:!settings.khaenriah })}>
             <span>Welcome to Khaenri'ah</span><b className="pm-state">{settings.khaenriah ? 'On' : 'Off'}</b>
+          </button>
+          <button type="button" className="pm-row" data-tip="Show the Database Library section in game menus"
+                  onClick={() => update({ showDatabase:!settings.showDatabase })}>
+            <span>Database Library</span><b className="pm-state">{settings.showDatabase ? 'On' : 'Off'}</b>
           </button>
           <button type="button" className="pm-row" data-tip="Always show beta data where a beta channel exists"
                   onClick={() => update({ alwaysBeta:!settings.alwaysBeta })}>

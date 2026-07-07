@@ -12,6 +12,13 @@ Use this as the first reference when Codex, Claude, or another coding agent work
 
 Read these before implementing review-driven work:
 
+0. `docs/nyx-fable-review-2026-07-07.md`
+   - Newest full-project review: verifies which earlier findings are done at HEAD,
+     live-tested findings (banner art fallback, tracker overflow, mobile Pengo menu,
+     unreviewed TCG/Pot/Timers surfaces), product suggestions, and the current
+     execution queue (`.agents/queue.json` nyx-0004…0013).
+   - Note: the React-18-UMD prohibition below is stale — React 19 + esbuild bundling
+     landed; see queue item nyx-0012 (doc drift).
 1. `docs/report-feedback-decisions-2026-06-30.md`
    - Supersedes parts of the earlier review after user feedback.
    - Current decisions on quick PowerShell vs verified script, banner accuracy, deploy artifact meaning, mobile scope, sample data, account direction, Worker allowlist/no-Origin, React, and GitHub assets.

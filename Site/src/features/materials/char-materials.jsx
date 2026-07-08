@@ -935,10 +935,6 @@ function cmCharKey(prefix, ch, i){
   return prefix + '-' + (ch.id || ch.n) + '-' + i;
 }
 
-function cmReqTotal(items){
-  return (items || []).reduce((sum, item) => sum + Number(item.qty || 0), 0);
-}
-
 function cmCombineReqItems(...groups){
   const by = new Map();
   groups.flat().filter(Boolean).forEach((mat) => cmMergeMat(by, mat));

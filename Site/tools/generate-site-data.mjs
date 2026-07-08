@@ -3170,35 +3170,6 @@ function buildEndfieldKit(ch) {
   } : null;
 }
 
-function buildEndfieldItemGroups(roster, fields, fallbackTitle) {
-  const source = cmRosterSource(roster);
-  const groups = new Map();
-  for (const ch of source) {
-    for (const field of fields) {
-      for (const mat of ch[field] || []) {
-        if (!mat.icon) continue;
-        const key = mat.id || mat.name || mat.n;
-        if (!key) continue;
-        if (!groups.has(key)) {
-          groups.set(key, {
-            region: mat.type || fallbackTitle,
-            title: mat.name || mat.n,
-            mats: [{ ...mat }],
-            chars: [],
-          });
-        }
-        pushUnique(groups.get(key).chars, ch.n);
-      }
-    }
-  }
-  return [...groups.values()]
-    .map((group) => ({
-      ...group,
-      chars: group.chars.sort((a, b) => a.localeCompare(b)),
-    }))
-    .sort((a, b) => String(a.region || '').localeCompare(String(b.region || '')) || String(a.title || '').localeCompare(String(b.title || '')));
-}
-
 function endfieldMaterialGroupLabel(mat, fallbackTitle) {
   if (mat?.kind === 'currency') return 'Currency';
   if (mat?.kind === 'gem') return 'Promotion Materials';

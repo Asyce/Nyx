@@ -2623,12 +2623,6 @@ function routeTitleFor(key, tab, selection){
   return label ? 'Nyx \u2014 ' + label + ' \u2014 ' + name : 'Nyx \u2014 ' + name;
 }
 
-function keyFromLocation(){
-  try {
-    return routeFromLocation().key;
-  } catch (e) { return undefined; }
-}
-
 function validTabsForKey(key){
   if (key === 'gi') return ['overview','mats','char-customize','library','tracker','tcg','pot','beta','settings'];
   return key === 'nyx' ? ['overview','pulls','codes','banners','settings'] : ['overview','mats','char-customize','library','tracker','beta','settings'];

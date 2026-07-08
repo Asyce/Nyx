@@ -80,29 +80,6 @@ function gtCurrentBannerPeriod(gameKey, bannerKey){
   return next || periods[periods.length - 1];
 }
 
-function gtFeatureList(gameKey, bannerKey, fallbackFives){
-  const period = gtCurrentBannerPeriod(gameKey, bannerKey);
-  const names = period && period.featured5 && period.featured5.length
-    ? period.featured5
-    : (fallbackFives || []).slice().reverse().slice(0, 2).map((f) => f.name);
-  return names.slice(0, 2).map((name) => {
-    const meta = gtRosterMeta(gameKey, name) || {};
-    return {
-      name: meta.name || gtTitleName(name),
-      icon: meta.icon || '',
-      art: meta.art || meta.icon || '',
-      element: meta.element || '',
-      version: period && period.version,
-      start: period && period.start,
-      end: period && period.end,
-      fourStars: period && period.featured4 ? period.featured4.map((n) => {
-        const four = gtRosterMeta(gameKey, n) || {};
-        return four.name || gtTitleName(n);
-      }) : [],
-    };
-  });
-}
-
 function gtBannerPeriodForTime(gameKey, type, timeMs){
   const hist = (window.NYX_BANNERS && window.NYX_BANNERS[gameKey]) || [];
   if (!hist.length || !timeMs) return null;
@@ -296,14 +273,6 @@ function gtSortArchive(list, sort){
   });
 }
 
-function gtPityBands(fives, soft, hard){
-  const bands = [
-    { key:'early', label:'Before soft pity', range:'1-' + Math.max(1, soft - 1), test:(p) => p < soft },
-    { key:'soft', label:'At / beyond soft pity', range:String(soft) + '-' + hard, test:(p) => p >= soft },
-  ];
-  return bands.map((band) => Object.assign({}, band, { count:(fives || []).filter((f) => band.test(f.pity || 0)).length }));
-}
-
 function gtPullOutcome(five, banner, gameKey){
   if (banner && banner.ff) {
     if (five.ff) return five.won ? '50:50 win' : '50:50 loss';
@@ -342,19 +311,6 @@ function gtPityDotClass(five, banner){
   return parts.join(' ');
 }
 
-function gtHistoryRows(active, filter){
-  const rows = (active.history && active.history.length
-    ? active.history
-    : (active.fives || []).slice().reverse().map((f) => Object.assign({ rank:5, pity5:f.pity, time:f.time || 0 }, f))
-  ).slice();
-  return rows.filter((row) => {
-    if (filter === '5') return row.rank === 5;
-    if (filter === '4') return row.rank === 4;
-    if (filter === 'weapon') return row.isWeapon;
-    return true;
-  });
-}
-
 function gtRealUid(value){
   const s = String(value || '').trim();
   return /^\d{6,}$/.test(s) ? s : '';
@@ -374,32 +330,6 @@ function gtAccountLabel(data, uid, adapterLabel, fallbackName){
     else name = adapterLabel ? (adapterLabel + ' account') : (fallbackName || 'Local history');
   }
   return id ? (name + ' · UID ' + id) : name;
-}
-
-function gtSourceBannerLabel(gameKey, row){
-  const sourceKey = row.banner || row.bannerKey || '';
-  const sourceType = gtBannerTimelineType(sourceKey);
-  const source = String(row.sourceBanner || '').trim();
-  if (sourceType === 'weapon') return source || row.bannerLabel || 'Weapon banner';
-  if (sourceType === 'standard' || sourceKey === 'beginner') return source || row.bannerLabel || gtBannerKindLabel(sourceKey, row.bannerLabel);
-
-  const period = gtPeriodForBannerKey(gameKey, sourceKey, row.time || 0);
-  if (period && Array.isArray(period.featured5) && period.featured5.length) {
-    const pulledName = gtNormName(row.name);
-    const featured = period.featured5 || [];
-    const pulledFeatured = featured.find((name) => gtNormName(name) === pulledName);
-    if (pulledFeatured) {
-      const meta = gtRosterMeta(gameKey, pulledFeatured) || {};
-      return meta.name || gtTitleName(pulledFeatured);
-    }
-    if (sourceKey === 'character' || sourceKey === 'character2') {
-      const raw = featured[sourceKey === 'character2' ? 1 : 0] || featured[0];
-      const meta = gtRosterMeta(gameKey, raw) || {};
-      return meta.name || gtTitleName(raw);
-    }
-    return period.name || gtBannerPeriodLabel(gameKey, period);
-  }
-  return source || row.bannerLabel || gtBannerKindLabel(sourceKey, row.bannerLabel);
 }
 
 function gtHeroCardGroup(card, bannerGroups){

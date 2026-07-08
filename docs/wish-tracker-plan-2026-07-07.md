@@ -70,5 +70,9 @@ Handoff's "Verification Checklist For Tracker Work", plus: `npm --prefix Site ru
 - Don't add account/sync UI here (separate workstream).
 - No from-scratch visual reskin; this rides the existing `gt-*` system + the Phase-1 deco primitives from nyx-0010 when they land.
 
-## One open question for the user (decide before Phase 1 build)
-The hero could either (a) **replace** the current small `gt-tab-status` line and `gt-current-limited` card, or (b) **sit above** them as an additional band. (a) is cleaner and matches "don't duplicate the banner overview"; (b) is lower-risk. Recommend (a). Confirm before building Phase 1.
+## Hero placement — DECIDED 2026-07-07: (a) REPLACE
+The hero **replaces** the small `gt-tab-status` line and the `gt-current-limited` card
+(user decision). The pity/guarantee state and the "your pulls on the current banners"
+content move into the hero; the old status line and current-limited card are removed to
+avoid duplicating the standalone banner overview. Migrate their useful bits (account label,
+"since last 5★") into the hero rather than leaving them as separate strips.

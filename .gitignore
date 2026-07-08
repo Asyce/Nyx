@@ -44,3 +44,7 @@ Database/Nanoka/changes/
 # Local codebase-intelligence index + project MCP config
 .repowise/
 .mcp.json
+
+# Temp real-data fixtures for tracker QA (never commit)
+Site/_pm.xlsx
+Site/_pm_names.json

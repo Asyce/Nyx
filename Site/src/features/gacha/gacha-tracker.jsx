@@ -470,8 +470,8 @@ function gtRenderResultsView(ctx){
   const {
     banners, gameKey, bannerByKey, characterView, allFives, totalAll, eventFives, eventWins, eventLosses,
     avgPity, currentState, weaponView, currentLimited, bannerGroups, pityBanners, archiveRows, characterArchive,
-    weaponArchive, archiveSort, archiveFilter, viewMode, expandedSource, pityFilter, setArchiveSort,
-    setArchiveFilter, setViewMode, setExpandedSource, setPityFilter, fmt, PULLS, CUR, COST, accountLabel,
+    weaponArchive, archiveSort, archiveFilter, viewMode, expandedSource, pityFilter, historyFilter, setArchiveSort,
+    setArchiveFilter, setViewMode, setExpandedSource, setPityFilter, setHistoryFilter, fmt, PULLS, CUR, COST, accountLabel,
     sourceLabel, importedAt,
   } = ctx;
   const sinceLastFive = characterView ? (characterView.currentPity || 0) : 0;
@@ -518,6 +518,15 @@ function gtRenderResultsView(ctx){
       });
     }
   }
+  // Phase 2: full chronological pull history (all rarities), filterable.
+  const historyAll = (banners || []).flatMap((b) => (b.items || []).map((it) => Object.assign({}, it, { _bk:b.key, _bl:b.label })))
+    .sort((a, b) => (b.time || 0) - (a.time || 0) || (b.idx || 0) - (a.idx || 0));
+  const historyRows = historyAll.filter((p) => (
+    historyFilter === 'five' ? p.rank === 5 :
+    historyFilter === 'four' ? p.rank === 4 :
+    historyFilter === 'weapon' ? p.isWeapon : true
+  ));
+  const HISTORY_CAP = 80;
   return (
     <div className="gt-results">
       <div className="gt-results-top">
@@ -601,24 +610,32 @@ function gtRenderResultsView(ctx){
           </section>
 
           <section className="gt-panel-box gt-recent-pulls">
-            <div className="gt-box-head"><b>5-Star pulls</b><span>All banners</span></div>
+            <div className="gt-box-head"><b>Pull history</b><span>{fmt(historyRows.length)} {historyFilter === 'all' ? PULLS.toLowerCase() : 'shown'}</span></div>
+            <div className="gt-filter-pills" role="group" aria-label="Pull history filter">
+              {[['all', 'All'], ['five', '5★'], ['four', '4★'], ['weapon', 'Weapons']].map((pair) => (
+                <button key={pair[0]} type="button" className={historyFilter === pair[0] ? 'on' : ''} onClick={() => setHistoryFilter(pair[0])}>{pair[1]}</button>
+              ))}
+            </div>
             <div className="gt-recent-five-list">
-              {allFives.map((row) => {
-                const b = bannerByKey[row.bannerKey] || { key:row.bannerKey, label:row.bannerLabel, soft:row.bannerSoft, hard:row.bannerHard, ff:row.bannerFf };
-                const bannerName = gtSourceBannerLabel(gameKey, row);
+              {historyRows.slice(0, HISTORY_CAP).map((row) => {
+                const b = bannerByKey[row._bk] || { key:row._bk, label:row._bl };
+                const isFive = row.rank === 5;
                 return (
-                  <div key={(row.id || row.idx) + ':' + row.bannerKey + ':' + row.name} className="gt-recent-five-row">
+                  <div key={(row.id || row.idx) + ':' + row._bk + ':' + row.name} className="gt-recent-five-row">
                     {(row.icon || row.art) ? <img src={row.icon || row.art} alt="" loading="lazy" /> : <span className="gt-img-fallback"></span>}
                     <div>
                       <b>{row.name}</b>
-                      <span>Banner: {bannerName} · {gtFmtDate(row.time)}</span>
+                      <span>{gtBannerKindLabel(row._bk, row._bl)} · {gtFmtDate(row.time)}</span>
                     </div>
-                    <em className={gtPullOutcomeClass(row, b).replace(/\s+/g, '-')}>{gtPullOutcome(row, b, gameKey)}</em>
-                    <i>Pity {row.pity || row.pity5 || '-'}</i>
+                    {isFive
+                      ? <em className={gtPullOutcomeClass(row, b).replace(/\s+/g, '-')}>{gtPullOutcome(row, b, gameKey)}</em>
+                      : <em className="rank">{row.rank || '-'}{'★'}</em>}
+                    <i>Pity {row.pity || row.pity5 || row.pity4 || '-'}</i>
                   </div>
                 );
               })}
-              {allFives.length === 0 && <div className="gt-empty-row">No 5-star pulls recorded yet.</div>}
+              {historyRows.length === 0 && <div className="gt-empty-row">No {historyFilter === 'all' ? '' : historyFilter === 'weapon' ? 'weapon ' : historyFilter + '★ '}pulls recorded yet.</div>}
+              {historyRows.length > HISTORY_CAP && <div className="gt-empty-row">Showing {HISTORY_CAP} of {fmt(historyRows.length)} — Archive tab has full totals.</div>}
             </div>
           </section>
 
@@ -1096,6 +1113,7 @@ function GachaTracker({ open, onClose, cfg, inline }){
             avgPity, currentState, weaponView, currentLimited, bannerGroups, pityBanners, archiveRows, characterArchive,
             weaponArchive, archiveSort, archiveFilter, viewMode, expandedSource, pityFilter, setArchiveSort,
             setArchiveFilter, setViewMode, setExpandedSource, setPityFilter, fmt, PULLS, CUR, COST, accountLabel,
+            historyFilter, setHistoryFilter,
             sourceLabel:data.sourceLabel || 'Saved local import', importedAt:data.importedAt || 0,
           });
         })()}

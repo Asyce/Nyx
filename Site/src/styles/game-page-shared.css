@@ -3697,6 +3697,8 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .gt-recent-five-row em.guaranteed, .gt-banner-history-detail em.guaranteed{ color:#efe7ff; background:rgba(126,96,217,.35); box-shadow:inset 0 0 0 1px rgba(193,173,255,.3); }
 .gt-recent-five-row em.fifty-win, .gt-banner-history-detail em.fifty-win{ color:#a7f1d1; background:rgba(46,118,90,.3); box-shadow:inset 0 0 0 1px rgba(112,214,177,.28); }
 .gt-recent-five-row em.fifty-loss, .gt-banner-history-detail em.fifty-loss{ color:#ffafc0; background:rgba(126,49,73,.32); box-shadow:inset 0 0 0 1px rgba(234,120,148,.28); }
+.gt-recent-five-row em.rank{ color:#8f84b7; background:rgba(76,62,124,.16); box-shadow:none; font-size:10px; }
+.gt-recent-pulls .gt-filter-pills{ margin:2px 0 9px; }
 .gt-recent-five-row i{ color:#c7bfff; font-style:normal; font-size:10.5px; text-align:right; white-space:nowrap; }
 
 .gt-banner-history-list{ display:grid; grid-auto-rows:auto; gap:8px; max-height:392px; overflow:auto; padding-right:4px; }

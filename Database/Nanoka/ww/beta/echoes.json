@@ -152,7 +152,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_Z_B3_UI.webp"
     },
     "skill": {
-      "desc": "Transform into Tempest Mephis to perform tail swing attacks followed by a claw attack. The lightning strike summoned by the tail swing deals {0} Electro DMG each time, while the claw attack deals {1} Electro DMG.\r\n\r\nAfter the claw hit, increase the current character's Electro DMG by {2} and Heavy Attack DMG by {3} for {4}s.\r\n\r\nCD: {5}s",
+      "desc": "Transform into Tempest Mephis to perform tail swing attacks followed by a claw attack. The lightning strike summoned by the tail swing deals {0} Electro DMG each time, while the claw attack deals {1} Electro DMG.\n\nAfter the claw hit, increase the current character's Electro DMG by {2} and Heavy Attack DMG by {3} for {4}s.\n\nCD: {5}s",
       "simple_desc": "Transform into Tempest Mephis to continuously attack enemies, dealing Electro damage. Increase current character's Electro DMG & Heavy Attack DMG.",
       "param": [
         [
@@ -236,8 +236,8 @@
     },
     "monsterInfo": 330000010,
     "liveComparison": {
-      "liveHash": "8b1123f21f270cdec680069c6a51194e28c57b803f66c62455379e33ade6b04c",
-      "currentHash": "8b1123f21f270cdec680069c6a51194e28c57b803f66c62455379e33ade6b04c"
+      "liveHash": "cadefcbf2cf5e1b314ef7228b57c68d0279de8f599c21a8025453ddb5fc3de67",
+      "currentHash": "cadefcbf2cf5e1b314ef7228b57c68d0279de8f599c21a8025453ddb5fc3de67"
     }
   },
   {
@@ -659,7 +659,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_Mstskil_996_UI.webp"
     },
     "skill": {
-      "desc": "Transform into Feilian Beringal to perform a powerful kick. If the kick lands on an enemy, immediately perform a follow-up strike. The kick deals {0} Aero DMG, and the follow-up strike deals {1} Aero DMG.\r\n\r\nAfter the follow-up strike hits, the current character's Aero DMG increases by {2}, and the Heavy Attack DMG increases by {3} for {4}s\r\n\r\nCD: {5}s",
+      "desc": "Transform into Feilian Beringal to perform a powerful kick. If the kick lands on an enemy, immediately perform a follow-up strike. The kick deals {0} Aero DMG, and the follow-up strike deals {1} Aero DMG.\n\nAfter the follow-up strike hits, the current character's Aero DMG increases by {2}, and the Heavy Attack DMG increases by {3} for {4}s\n\nCD: {5}s",
       "simple_desc": "Transform into Feilian Beringal to continuously attack enemies, dealing Aero DMG. Increase current character's Aero DMG and Heavy Attack DMG.",
       "param": [
         [
@@ -743,8 +743,8 @@
     },
     "monsterInfo": 330000050,
     "liveComparison": {
-      "liveHash": "4f7229fa4ef4a589d0d78eea29b1e29b2e053aeb491e26f532149296b6604a6b",
-      "currentHash": "4f7229fa4ef4a589d0d78eea29b1e29b2e053aeb491e26f532149296b6604a6b"
+      "liveHash": "cf3eede7b402a3b6cfdc52b73d11ca559a47958c717cb82d4fc705197a28d9e3",
+      "currentHash": "cf3eede7b402a3b6cfdc52b73d11ca559a47958c717cb82d4fc705197a28d9e3"
     }
   },
   {
@@ -1226,7 +1226,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_971_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Chirpuff that self-inflates and blasts a powerful gust of wind forward {0} times. Each blast inflicts {1} Aero DMG and pushes enemies backwards.\r\n\r\nCD: {2}s",
+      "desc": "Summon a Chirpuff that self-inflates and blasts a powerful gust of wind forward {0} times. Each blast inflicts {1} Aero DMG and pushes enemies backwards.\n\nCD: {2}s",
       "simple_desc": "Summon a Chirpuff to blast a powerful gust of wind. Deals Aero DMG and knocks enemies back.",
       "param": [
         [
@@ -1278,8 +1278,8 @@
     },
     "monsterInfo": 310000130,
     "liveComparison": {
-      "liveHash": "3ac3b0007fdd0a972efdcf38565448b191118dcfc489a2fee554f8d28387f8b2",
-      "currentHash": "3ac3b0007fdd0a972efdcf38565448b191118dcfc489a2fee554f8d28387f8b2"
+      "liveHash": "409d1dfe57ebc354111f936eef199438035a29c29af44f19d3307ae08b3ef3c0",
+      "currentHash": "409d1dfe57ebc354111f936eef199438035a29c29af44f19d3307ae08b3ef3c0"
     }
   },
   {
@@ -1489,7 +1489,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_1000_UI.webp"
     },
     "skill": {
-      "desc": "Transform into Autopuppet Scout, dealing {0} Glacio DMG to the surroundings, and generate up to 3 Ice Walls to block off the enemies.\r\n\r\nCD: {1}s",
+      "desc": "Transform into Autopuppet Scout, dealing {0} Glacio DMG to the surroundings, and generate up to 3 Ice Walls to block off the enemies.\n\nCD: {1}s",
       "simple_desc": "Transform into Autopuppet Scout to Glacio DMG to enemies nearby and generate Ice Walls.",
       "param": [
         [
@@ -1536,8 +1536,8 @@
     },
     "monsterInfo": 320000180,
     "liveComparison": {
-      "liveHash": "3864020fe97e2dc6d0b54911892e0c9b8a3aa08881848aa3d013341a0cd6eec5",
-      "currentHash": "3864020fe97e2dc6d0b54911892e0c9b8a3aa08881848aa3d013341a0cd6eec5"
+      "liveHash": "93f5866eb793c5fe10e28252228748de661400d02f2f5f3f83b6d73c3d1c0ae6",
+      "currentHash": "93f5866eb793c5fe10e28252228748de661400d02f2f5f3f83b6d73c3d1c0ae6"
     }
   },
   {
@@ -1619,7 +1619,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_999_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Traffic Illuminator, immobilizing enemies for up to {0}s. The immobilization will be lifted once the enemy is hit.\r\n\r\nCD: {1}s",
+      "desc": "Summon a Traffic Illuminator, immobilizing enemies for up to {0}s. The immobilization will be lifted once the enemy is hit.\n\nCD: {1}s",
       "simple_desc": "Summon a Traffic Illuminator to immobilize the enemies.",
       "param": [
         [
@@ -1648,8 +1648,8 @@
     },
     "monsterInfo": 310000330,
     "liveComparison": {
-      "liveHash": "efa6c6187bbf185467853566bdcf578fed4f0c3f88a67ce835c520e5986fcff2",
-      "currentHash": "efa6c6187bbf185467853566bdcf578fed4f0c3f88a67ce835c520e5986fcff2"
+      "liveHash": "4106960586a398fcf0e77ce3034d29196b3788d4eb14ed89d6cecd168057fd6b",
+      "currentHash": "4106960586a398fcf0e77ce3034d29196b3788d4eb14ed89d6cecd168057fd6b"
     }
   },
   {
@@ -11023,7 +11023,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_Z_Z1_UI.webp"
     },
     "skill": {
-      "desc": "Summon an Electro Predator to shoot the enemy 5 times. The first 4 shots deals {0} Electro DMG, and the last deals {1} Electro DMG.\r\n\r\nCD: {2}s",
+      "desc": "Summon an Electro Predator to shoot the enemy 5 times. The first 4 shots deals {0} Electro DMG, and the last deals {1} Electro DMG.\n\nCD: {2}s",
       "simple_desc": "Summon an Electro Predator to fire a rain of arrows, dealing Electro DMG.",
       "param": [
         [
@@ -11092,8 +11092,8 @@
     },
     "monsterInfo": 310000650,
     "liveComparison": {
-      "liveHash": "f033a0c55f29fbe4568c8e24fd607198d1f670d39983ec3f1dc2615a6da1bd98",
-      "currentHash": "f033a0c55f29fbe4568c8e24fd607198d1f670d39983ec3f1dc2615a6da1bd98"
+      "liveHash": "a17c880f5567f0fdf033010f037a263fc02bfd667494a7741c7567c38e2f182a",
+      "currentHash": "a17c880f5567f0fdf033010f037a263fc02bfd667494a7741c7567c38e2f182a"
     }
   },
   {
@@ -11219,7 +11219,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_115_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Gulpuff that blows bubbles {0} times, each time dealing {1} Glacio DMG.\r\n\r\nCD: {2}s",
+      "desc": "Summon a Gulpuff that blows bubbles {0} times, each time dealing {1} Glacio DMG.\n\nCD: {2}s",
       "simple_desc": "Summon a Gulpuff to blow bubbles and deal Glacio DMG.",
       "param": [
         [
@@ -11271,8 +11271,8 @@
     },
     "monsterInfo": 310000670,
     "liveComparison": {
-      "liveHash": "8f8129f8643e79bdfe538d6677c84d8ee2c831feba454bda674775f77cdd9dc2",
-      "currentHash": "8f8129f8643e79bdfe538d6677c84d8ee2c831feba454bda674775f77cdd9dc2"
+      "liveHash": "147a71914cd7a3cc322212880a5bf717849bd061361583d09accac98a9514a10",
+      "currentHash": "147a71914cd7a3cc322212880a5bf717849bd061361583d09accac98a9514a10"
     }
   },
   {
@@ -11311,7 +11311,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_971_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Chirpuff that self-inflates and blasts a powerful gust of wind forward {0} times. Each blast inflicts {1} Aero DMG and pushes enemies backwards.\r\n\r\nCD: {2}s",
+      "desc": "Summon a Chirpuff that self-inflates and blasts a powerful gust of wind forward {0} times. Each blast inflicts {1} Aero DMG and pushes enemies backwards.\n\nCD: {2}s",
       "simple_desc": "Summon a Chirpuff to blast a powerful gust of wind. Deals Aero DMG and knocks enemies back.",
       "param": [
         [
@@ -11363,8 +11363,8 @@
     },
     "monsterInfo": 310000680,
     "liveComparison": {
-      "liveHash": "9096dc1fe00ece77c53b01e85536f561a3eaae9e91b63b60b8d920cd5c60faed",
-      "currentHash": "9096dc1fe00ece77c53b01e85536f561a3eaae9e91b63b60b8d920cd5c60faed"
+      "liveHash": "2368285134e93a47156e58b99beb12b427c49296ec62f69a84faa33bfd24a474",
+      "currentHash": "2368285134e93a47156e58b99beb12b427c49296ec62f69a84faa33bfd24a474"
     }
   },
   {
@@ -11543,7 +11543,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_295_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Viridblaze Saurian to continuously spit fire, dealing {0} Fusion DMG 10 times.\r\n\r\nCD: {1}s",
+      "desc": "Summon a Viridblaze Saurian to continuously spit fire, dealing {0} Fusion DMG 10 times.\n\nCD: {1}s",
       "simple_desc": "Summon a Viridblaze Saurian to continuously spit fire, dealing Fusion DMG.",
       "param": [
         [
@@ -11590,8 +11590,8 @@
     },
     "monsterInfo": 320000470,
     "liveComparison": {
-      "liveHash": "f48ae31fca72f1efc0739e5ad4a0408b4b890fe4512d53ceb6136377384fe67a",
-      "currentHash": "f48ae31fca72f1efc0739e5ad4a0408b4b890fe4512d53ceb6136377384fe67a"
+      "liveHash": "70d35483e7f680a9c207a9ca63831eb977e23089b1f9b151043de0d9ae0b5398",
+      "currentHash": "70d35483e7f680a9c207a9ca63831eb977e23089b1f9b151043de0d9ae0b5398"
     }
   },
   {
@@ -11789,7 +11789,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_Mstskil_095_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Tick Tack that charges and bites the enemy. The charge from Tick Tack will deal {0} Havoc DMG to the enemy, and the bite will deal {1} Havoc DMG to the enemy. Reduces enemy Vibration Strength by up to {3} during {2}s.\r\n\r\nCD: {4}s",
+      "desc": "Summon a Tick Tack that charges and bites the enemy. The charge from Tick Tack will deal {0} Havoc DMG to the enemy, and the bite will deal {1} Havoc DMG to the enemy. Reduces enemy Vibration Strength by up to {3} during {2}s.\n\nCD: {4}s",
       "simple_desc": "Summon a Tick Tack that deals Havoc DMG and reduces enemy Vibration Strength.",
       "param": [
         [
@@ -11868,8 +11868,8 @@
     },
     "monsterInfo": 310000750,
     "liveComparison": {
-      "liveHash": "6ec9d9e52b3cd0e0ef4d6a310de5a1ec6e9c1aeadc1f9b455419e6b99b1cc99f",
-      "currentHash": "6ec9d9e52b3cd0e0ef4d6a310de5a1ec6e9c1aeadc1f9b455419e6b99b1cc99f"
+      "liveHash": "0db4489e335b541ffc36ee55deef38c3d02b68d912b562586a6f0cf810b8c57a",
+      "currentHash": "0db4489e335b541ffc36ee55deef38c3d02b68d912b562586a6f0cf810b8c57a"
     }
   },
   {
@@ -16046,9 +16046,9 @@
   },
   {
     "id": "6000202",
-    "contentStatus": "beta",
-    "name": "Stay tuned",
-    "code": "T01-",
+    "contentStatus": "live",
+    "name": "Smiter",
+    "code": "W40-",
     "rarity": [
       2,
       3,
@@ -16085,7 +16085,7 @@
     },
     "assets": {
       "icon": "Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31090_UI.webp",
-      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
+      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_31090_UI.webp"
     },
     "skill": {
       "desc": "Use Echo Skill to summon a Smiter to jab at enemies, dealing 7 instances of {0} Spectro DMG, and finish with an uppercut, dealing {1} Spectro DMG.\n\nCD: {2}s",
@@ -16117,7 +16117,7 @@
           "15"
         ]
       ],
-      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.T_MstSkil_34020_UI",
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31090_UI.T_MstSkil_31090_UI",
       "damage": {
         "20013501": {
           "element": 5,
@@ -16157,14 +16157,15 @@
     },
     "monsterInfo": 310000900,
     "liveComparison": {
-      "currentHash": "cd4d82380e7aeb0a5a103e074dd4e4ef24431eef0ac70fe1d16ff07b693eb162"
+      "liveHash": "f8c2b7a07693f3a5b0fca3033b2517f55a3372f87931d6592c4203ae8c3a28b0",
+      "currentHash": "f8c2b7a07693f3a5b0fca3033b2517f55a3372f87931d6592c4203ae8c3a28b0"
     }
   },
   {
     "id": "6000203",
-    "contentStatus": "beta",
-    "name": "Stay tuned",
-    "code": "T01-",
+    "contentStatus": "live",
+    "name": "Porcelain Picket",
+    "code": "R13-",
     "rarity": [
       2,
       3,
@@ -16199,7 +16200,7 @@
     },
     "assets": {
       "icon": "Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31091_UI.webp",
-      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
+      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_31091_UI.webp"
     },
     "skill": {
       "desc": "Use Echo Skill to summon a Porcelain Picket to slash forward, dealing 2 instances of {0} Aero DMG and 7 instances of {1} Aero DMG to enemies along the path.\n\nCD: {2}s",
@@ -16231,7 +16232,7 @@
           "8"
         ]
       ],
-      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.T_MstSkil_34020_UI",
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31091_UI.T_MstSkil_31091_UI",
       "damage": {
         "20013601": {
           "element": 4,
@@ -16271,14 +16272,15 @@
     },
     "monsterInfo": 310000910,
     "liveComparison": {
-      "currentHash": "98fa1fffd56e40416d56de0f50268b05897bb65a6467ebae8c9e630f0b63570a"
+      "liveHash": "a01301d9e3cbc167ad7cb9d7d56f78437f1a024a4ec266e4bd08d16cc2da3f2a",
+      "currentHash": "a01301d9e3cbc167ad7cb9d7d56f78437f1a024a4ec266e4bd08d16cc2da3f2a"
     }
   },
   {
     "id": "6000204",
-    "contentStatus": "beta",
-    "name": "Stay tuned",
-    "code": "T01-",
+    "contentStatus": "live",
+    "name": "Stone Picket",
+    "code": "R14-",
     "rarity": [
       2,
       3,
@@ -16313,7 +16315,7 @@
     },
     "assets": {
       "icon": "Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31092_UI.webp",
-      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
+      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_31092_UI.webp"
     },
     "skill": {
       "desc": "Use Echo Skill to summon a Stone Picket, dealing {0} Aero DMG.\n\nCD: {1}s",
@@ -16340,7 +16342,7 @@
           "8"
         ]
       ],
-      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.T_MstSkil_34020_UI",
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31092_UI.T_MstSkil_31092_UI",
       "damage": {
         "20013701": {
           "element": 4,
@@ -16363,14 +16365,15 @@
     },
     "monsterInfo": 310000920,
     "liveComparison": {
-      "currentHash": "958b3946025561ee2ea544c15712431f95c791407f14fe9ee9d017037a54afb6"
+      "liveHash": "a45af2116130a7fc14ebc4568496d634bf506dc3f3f9cbf816d6d2236cad6952",
+      "currentHash": "a45af2116130a7fc14ebc4568496d634bf506dc3f3f9cbf816d6d2236cad6952"
     }
   },
   {
     "id": "6000205",
-    "contentStatus": "beta",
-    "name": "Stay tuned",
-    "code": "T01-",
+    "contentStatus": "live",
+    "name": "Aureate Picket",
+    "code": "R15-",
     "rarity": [
       2,
       3,
@@ -16403,7 +16406,7 @@
     },
     "assets": {
       "icon": "Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31093_UI.webp",
-      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
+      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_31093_UI.webp"
     },
     "skill": {
       "desc": "Use Echo Skill to transform into an Aureate Picket, immediately recover {1} HP times plus an additional instance of {2} points of HP, then bash into enemies and deal {0} Aero DMG.\n\nCD: {3}s",
@@ -16440,7 +16443,7 @@
           "8"
         ]
       ],
-      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.T_MstSkil_34020_UI",
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31093_UI.T_MstSkil_31093_UI",
       "damage": {
         "20013801": {
           "element": 4,
@@ -16480,14 +16483,15 @@
     },
     "monsterInfo": 310000930,
     "liveComparison": {
-      "currentHash": "086ee7af5bea425c834091b5d706691ab71ebac008cf0080423bc558ddedca07"
+      "liveHash": "843e189e88398e93dc3671a08f1593da1602de63bee648e42b0a1edd7e1022ce",
+      "currentHash": "843e189e88398e93dc3671a08f1593da1602de63bee648e42b0a1edd7e1022ce"
     }
   },
   {
     "id": "6000206",
-    "contentStatus": "beta",
-    "name": "Stay tuned",
-    "code": "T01-",
+    "contentStatus": "live",
+    "name": "Kernel Puppet: Joy",
+    "code": "R16-",
     "rarity": [
       2,
       3,
@@ -16524,7 +16528,7 @@
     },
     "assets": {
       "icon": "Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31094_UI.webp",
-      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
+      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_31094_UI.webp"
     },
     "skill": {
       "desc": "Use Echo Skill to summon Kernel Puppet: Joy to attack enemies, dealing {0} Physical DMG.\n\nCD: {1}s",
@@ -16551,7 +16555,7 @@
           "8"
         ]
       ],
-      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.T_MstSkil_34020_UI",
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31094_UI.T_MstSkil_31094_UI",
       "damage": {
         "20013901": {
           "element": 0,
@@ -16574,14 +16578,15 @@
     },
     "monsterInfo": 310000940,
     "liveComparison": {
-      "currentHash": "3dd29b20739df2b049fc2fe87ab8f0d6741fe250562aafdf3300f68cc61ed5a2"
+      "liveHash": "012be9a86180bcf8a0f7361cdfff0ebce915f6b4dd628d6d1f13225e05e6afdb",
+      "currentHash": "012be9a86180bcf8a0f7361cdfff0ebce915f6b4dd628d6d1f13225e05e6afdb"
     }
   },
   {
     "id": "6000207",
-    "contentStatus": "beta",
-    "name": "Stay tuned",
-    "code": "T01-",
+    "contentStatus": "live",
+    "name": "Kernel Puppet: Anger",
+    "code": "R17-",
     "rarity": [
       2,
       3,
@@ -16614,7 +16619,7 @@
     },
     "assets": {
       "icon": "Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31095_UI.webp",
-      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
+      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_31095_UI.webp"
     },
     "skill": {
       "desc": "Use Echo Skill to summon Kernel Puppet: Worry to attack enemies, dealing {0} Fusion DMG.\n\nCD: {1}s",
@@ -16641,7 +16646,7 @@
           "8"
         ]
       ],
-      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.T_MstSkil_34020_UI",
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31095_UI.T_MstSkil_31095_UI",
       "damage": {
         "20014001": {
           "element": 2,
@@ -16664,14 +16669,15 @@
     },
     "monsterInfo": 310000950,
     "liveComparison": {
-      "currentHash": "a6d4f8dd2c1a94e4517b6e036122253092ca8c58e7ab6a9006e5b97b2e5e16ba"
+      "liveHash": "46abf415bdc8e9a572ae1fabe70f3827f86f620840bb0c97a0ad8905620067e6",
+      "currentHash": "46abf415bdc8e9a572ae1fabe70f3827f86f620840bb0c97a0ad8905620067e6"
     }
   },
   {
     "id": "6000208",
-    "contentStatus": "beta",
-    "name": "Stay tuned",
-    "code": "T01-",
+    "contentStatus": "live",
+    "name": "Kernel Puppet: Worry",
+    "code": "R18-",
     "rarity": [
       2,
       3,
@@ -16704,7 +16710,7 @@
     },
     "assets": {
       "icon": "Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31096_UI.webp",
-      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
+      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_31096_UI.webp"
     },
     "skill": {
       "desc": "Use Echo Skill to summon Kernel Puppet: Worry to attack enemies, dealing {0} Glacio DMG.\n\nCD: {1}s",
@@ -16731,7 +16737,7 @@
           "8"
         ]
       ],
-      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.T_MstSkil_34020_UI",
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31096_UI.T_MstSkil_31096_UI",
       "damage": {
         "20014101": {
           "element": 1,
@@ -16771,14 +16777,15 @@
     },
     "monsterInfo": 310000960,
     "liveComparison": {
-      "currentHash": "60ae5dd7611e51395e9514f29858f66c76297d46c5e810da3fe1b99d7957a7e1"
+      "liveHash": "e4e10196ba85739cb029a67ee7631e8f4e46e897f2c08001bcfaaa8e552ad3cd",
+      "currentHash": "e4e10196ba85739cb029a67ee7631e8f4e46e897f2c08001bcfaaa8e552ad3cd"
     }
   },
   {
     "id": "6000209",
-    "contentStatus": "beta",
-    "name": "Stay tuned",
-    "code": "T01-",
+    "contentStatus": "live",
+    "name": "Kernel Puppet: Reflection",
+    "code": "R19-",
     "rarity": [
       2,
       3,
@@ -16811,34 +16818,34 @@
     },
     "assets": {
       "icon": "Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31097_UI.webp",
-      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
+      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_31097_UI.webp"
     },
     "skill": {
       "desc": "Use Echo Skill to summon Kernel Puppet: Reflection to attack enemies, dealing {0} Electro DMG.\n\nCD: {1}s",
       "simple_desc": "Summon Kernel Puppet: Reflection to attack enemies, dealing Electro DMG.",
       "param": [
         [
-          "72.00%",
+          "36.00%",
           "8"
         ],
         [
-          "86.40%",
+          "43.20%",
           "8"
         ],
         [
-          "100.80%",
+          "50.40%",
           "8"
         ],
         [
-          "115.20%",
+          "57.60%",
           "8"
         ],
         [
-          "129.60%",
+          "64.80%",
           "8"
         ]
       ],
-      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.T_MstSkil_34020_UI",
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31097_UI.T_MstSkil_31097_UI",
       "damage": {
         "20014201": {
           "element": 3,
@@ -16861,14 +16868,15 @@
     },
     "monsterInfo": 310000970,
     "liveComparison": {
-      "currentHash": "2491b14b3caffc6ba8e72232701036967f3b35efb7b258e19c014124ba409bd6"
+      "liveHash": "58a99ba37fa3412869585f25e18b836561a2bd974a2fb222a1dcd0b02129470b",
+      "currentHash": "58a99ba37fa3412869585f25e18b836561a2bd974a2fb222a1dcd0b02129470b"
     }
   },
   {
     "id": "6000210",
-    "contentStatus": "beta",
-    "name": "Stay tuned",
-    "code": "T01-",
+    "contentStatus": "live",
+    "name": "Kernel Puppet: Grief",
+    "code": "R20-",
     "rarity": [
       2,
       3,
@@ -16903,7 +16911,7 @@
     },
     "assets": {
       "icon": "Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31098_UI.webp",
-      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
+      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_31098_UI.webp"
     },
     "skill": {
       "desc": "Use Echo Skill to summon Kernel Puppet: Grief to attack enemies, dealing {0} Spectro DMG.\n\nCD: {1}s",
@@ -16930,7 +16938,7 @@
           "8"
         ]
       ],
-      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.T_MstSkil_34020_UI",
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31098_UI.T_MstSkil_31098_UI",
       "damage": {
         "20014301": {
           "element": 5,
@@ -16953,14 +16961,15 @@
     },
     "monsterInfo": 310000980,
     "liveComparison": {
-      "currentHash": "3ee6fe394075e1d567b56b2e7798981ab8bff2f24089534b572f044df952e661"
+      "liveHash": "31501c6f6d3fbfccada0c26914ab535a453e916f21f3d11fa23aa12547a184bd",
+      "currentHash": "31501c6f6d3fbfccada0c26914ab535a453e916f21f3d11fa23aa12547a184bd"
     }
   },
   {
     "id": "6000211",
-    "contentStatus": "beta",
-    "name": "Stay tuned",
-    "code": "T01-",
+    "contentStatus": "live",
+    "name": "Kernel Puppet: Fright",
+    "code": "R21-",
     "rarity": [
       2,
       3,
@@ -16995,7 +17004,7 @@
     },
     "assets": {
       "icon": "Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31099_UI.webp",
-      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
+      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_31099_UI.webp"
     },
     "skill": {
       "desc": "Use Echo Skill to summon Kernel Puppet: Fright to attack enemies, dealing an instance of {0} Havoc DMG and an instance of {1} Havoc DMG.\n\nCD: {2}s",
@@ -17027,7 +17036,7 @@
           "8"
         ]
       ],
-      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.T_MstSkil_34020_UI",
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31099_UI.T_MstSkil_31099_UI",
       "damage": {
         "20014401": {
           "element": 6,
@@ -17067,14 +17076,15 @@
     },
     "monsterInfo": 310000990,
     "liveComparison": {
-      "currentHash": "f12b4a4ac83e221c030cd46c5722645df825bb5bc17783e3b6bc79239fc6a53e"
+      "liveHash": "3f7098df44ff62b8dce24857d71fe332e28a08738008547e19b5e5d844017b67",
+      "currentHash": "3f7098df44ff62b8dce24857d71fe332e28a08738008547e19b5e5d844017b67"
     }
   },
   {
     "id": "6000212",
-    "contentStatus": "beta",
-    "name": "Stay tuned",
-    "code": "T01-",
+    "contentStatus": "live",
+    "name": "Fog Lionarch: Body",
+    "code": "R22-",
     "rarity": [
       2,
       3,
@@ -17111,7 +17121,7 @@
     },
     "assets": {
       "icon": "Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31100_UI.webp",
-      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
+      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_31100_UI.webp"
     },
     "skill": {
       "desc": "Use Echo Skill to summon Fog Lionarch: Body to ram into enemies, dealing {0} Fusion DMG.\n\nCD: {1}s",
@@ -17138,7 +17148,7 @@
           "15"
         ]
       ],
-      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.T_MstSkil_34020_UI",
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31100_UI.T_MstSkil_31100_UI",
       "damage": {
         "20014502": {
           "element": 2,
@@ -17161,14 +17171,15 @@
     },
     "monsterInfo": 310001000,
     "liveComparison": {
-      "currentHash": "4dce55f2ac2d8500b86792dbeeb7155dfcb80e29562a78d4fcac5920a3795d58"
+      "liveHash": "ed3d3bb7038ffaa88de22bfe7270d5fec3699b6b3fe67b89c61232485529ddc2",
+      "currentHash": "ed3d3bb7038ffaa88de22bfe7270d5fec3699b6b3fe67b89c61232485529ddc2"
     }
   },
   {
     "id": "6000213",
-    "contentStatus": "beta",
-    "name": "Stay tuned",
-    "code": "T01-",
+    "contentStatus": "live",
+    "name": "Fog Lionarch: Head",
+    "code": "R23-",
     "rarity": [
       2,
       3,
@@ -17205,7 +17216,7 @@
     },
     "assets": {
       "icon": "Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31101_UI.webp",
-      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
+      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_31101_UI.webp"
     },
     "skill": {
       "desc": "Use Echo Skill to summon Fog Lionarch: Head to dart toward enemies, dealing {0} Fusion DMG.\n\nCD: {1}s",
@@ -17232,7 +17243,7 @@
           "8"
         ]
       ],
-      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.T_MstSkil_34020_UI",
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31101_UI.T_MstSkil_31101_UI",
       "damage": {
         "20014601": {
           "element": 2,
@@ -17255,14 +17266,15 @@
     },
     "monsterInfo": 310001010,
     "liveComparison": {
-      "currentHash": "6c2dacc852be8f8a8178bd7c2959afa8770c78e2a51bf81580560ee563c5953e"
+      "liveHash": "3d669f8c46e34e3fabea5c1731786b4dda9398570cbf2e3fe323d6dc3cbb2a52",
+      "currentHash": "3d669f8c46e34e3fabea5c1731786b4dda9398570cbf2e3fe323d6dc3cbb2a52"
     }
   },
   {
     "id": "6000214",
-    "contentStatus": "beta",
-    "name": "Stay tuned",
-    "code": "T01-",
+    "contentStatus": "live",
+    "name": "Smolder",
+    "code": "W41-",
     "rarity": [
       2,
       3,
@@ -17299,10 +17311,10 @@
     },
     "assets": {
       "icon": "Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31102_UI.webp",
-      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
+      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_31102_UI.webp"
     },
     "skill": {
-      "desc": "Use Echo Skill to summon Smolder to hurl fireballs toward enemies, dealing {0} Fusion DMG.\n\nCD: {1}s",
+      "desc": "Use Echo Skill to summon Smolder to hurl fireballs toward enemies, dealing {0} Fusion DMG. If the fireball hits the ground, it explodes to deal {0} Fusion DMG to all enemies within the range.\n\nCD: {1}s",
       "simple_desc": "Summon Smolder to attack enemies, dealing Fusion DMG.",
       "param": [
         [
@@ -17326,7 +17338,7 @@
           "15"
         ]
       ],
-      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.T_MstSkil_34020_UI",
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31102_UI.T_MstSkil_31102_UI",
       "damage": {
         "20014701": {
           "element": 2,
@@ -17349,14 +17361,15 @@
     },
     "monsterInfo": 310001020,
     "liveComparison": {
-      "currentHash": "28ce9fdef60ee9cb0eb8fa3b51d03a920a76250236cb2167ffaa4948c04408d1"
+      "liveHash": "2b127762cfa9696146ded92b3f98028ba40e66a9155dcb3187de76c6abb5c4de",
+      "currentHash": "2b127762cfa9696146ded92b3f98028ba40e66a9155dcb3187de76c6abb5c4de"
     }
   },
   {
     "id": "6000215",
-    "contentStatus": "beta",
-    "name": "Stay tuned",
-    "code": "T01-",
+    "contentStatus": "live",
+    "name": "Fog Lionarch",
+    "code": "R69-",
     "rarity": [
       2,
       3,
@@ -17440,7 +17453,7 @@
     },
     "assets": {
       "icon": "Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32067_UI.webp",
-      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
+      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_32067_UI.webp"
     },
     "skill": {
       "desc": "Use Echo Skill to summon Fog Lionarch to spit fire toward enemies, dealing 7 stages of {0} Fusion DMG.\n\nCD: {1}s",
@@ -17467,7 +17480,7 @@
           "20"
         ]
       ],
-      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.T_MstSkil_34020_UI",
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_32067_UI.T_MstSkil_32067_UI",
       "damage": {
         "20014801": {
           "element": 2,
@@ -17490,14 +17503,15 @@
     },
     "monsterInfo": 320000670,
     "liveComparison": {
-      "currentHash": "3993c4d84b96340bf7e88a68c9d3cbbf05b7257945ffea0cb7a1a9a21ab2b530"
+      "liveHash": "c6bce9eb36fd4d48e8d76157006bbde18781f951a376f41c58d1ec0c70f78e7e",
+      "currentHash": "c6bce9eb36fd4d48e8d76157006bbde18781f951a376f41c58d1ec0c70f78e7e"
     }
   },
   {
     "id": "6000216",
-    "contentStatus": "beta",
-    "name": "Stay tuned",
-    "code": "T01-",
+    "contentStatus": "live",
+    "name": "Forbidden Bastion",
+    "code": "R70-",
     "rarity": [
       2,
       3,
@@ -17581,7 +17595,7 @@
     },
     "assets": {
       "icon": "Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32068_UI.webp",
-      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
+      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_32068_UI.webp"
     },
     "skill": {
       "desc": "Use Echo Skill to summon Forbidden Bastion to bash over enemies, dealing {0} Glacio DMG.\n\nResonators with this Echo equipped in the main slot gain {2} Healing Bonus.\n\nCD: {1}s",
@@ -17613,7 +17627,7 @@
           "10.00%"
         ]
       ],
-      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.T_MstSkil_34020_UI",
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_32068_UI.T_MstSkil_32068_UI",
       "damage": {
         "20014901": {
           "element": 1,
@@ -17636,14 +17650,15 @@
     },
     "monsterInfo": 320000680,
     "liveComparison": {
-      "currentHash": "fe7075c899e581bdfb5dfa1e04fcb8f2ec32756ac23c920d86384ec8df4dc6cc"
+      "liveHash": "19cd00d74e6979580177e7103dbed38730d17d84bbf699cbc10def9183c7b2dd",
+      "currentHash": "19cd00d74e6979580177e7103dbed38730d17d84bbf699cbc10def9183c7b2dd"
     }
   },
   {
     "id": "6000217",
-    "contentStatus": "beta",
-    "name": "Stay tuned",
-    "code": "T01-",
+    "contentStatus": "live",
+    "name": "Myriad Snare: Rustfire Chassis",
+    "code": "R71-",
     "rarity": [
       2,
       3,
@@ -17701,74 +17716,102 @@
     },
     "assets": {
       "icon": "Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34030_UI.webp",
-      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
+      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34030_UI.webp"
     },
     "skill": {
       "desc": "Summon Myriad Snare: Rustfire Chassis, dealing Fusion DMG equal to {0} of the Max HP on initial impact. During its duration, it repeatedly crushes enemies along its path up to {5} times, dealing Fusion DMG equal to {1} of the Max HP each time.\n\nResonators with this Echo equipped in the main slot gain {2} Fusion DMG Bonus and {3} Heavy Attack DMG Bonus.\n\nCD: {4}s",
       "simple_desc": "Summon Myriad Snare: Rustfire Chassis to attack enemies, dealing Fusion DMG.\nResonators with this Echo equipped in the main slot deal higher Fusion and Heavy Attack DMG.",
       "param": [
         [
-          "2.30%",
+          "5.67%",
+          "0.20%",
           "12.00%",
           "12.00%",
-          "20"
+          "20",
+          "19"
         ],
         [
-          "2.76%",
+          "6.80%",
+          "0.24%",
           "12.00%",
           "12.00%",
-          "20"
+          "20",
+          "19"
         ],
         [
-          "3.22%",
+          "7.93%",
+          "0.29%",
           "12.00%",
           "12.00%",
-          "20"
+          "20",
+          "19"
         ],
         [
-          "3.68%",
+          "9.07%",
+          "0.33%",
           "12.00%",
           "12.00%",
-          "20"
+          "20",
+          "19"
         ],
         [
-          "4.14%",
+          "10.20%",
+          "0.37%",
           "12.00%",
           "12.00%",
-          "20"
+          "20",
+          "19"
         ]
       ],
-      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.T_MstSkil_34020_UI",
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34030_UI.T_MstSkil_34030_UI",
       "damage": {
         "28004201": {
           "element": 2,
           "related_property": "HP",
           "type": 5,
           "rate_lv": [
-            230,
-            276,
-            322,
-            368,
-            414
+            567,
+            680,
+            793,
+            907,
+            1020
           ],
-          "energy": 126,
+          "energy": 380,
           "element_power": 0,
           "hardness_lv": 10000,
-          "tough_lv": 230,
+          "tough_lv": 567,
+          "weakness_lvl": 0
+        },
+        "28004202": {
+          "element": 2,
+          "related_property": "HP",
+          "type": 5,
+          "rate_lv": [
+            20,
+            24,
+            29,
+            33,
+            37
+          ],
+          "energy": 0,
+          "element_power": 0,
+          "hardness_lv": 10000,
+          "tough_lv": 20,
           "weakness_lvl": 0
         }
       }
     },
     "monsterInfo": 340000300,
     "liveComparison": {
-      "currentHash": "3115bd3934f60af56f6c1a1f73c80cdf954a96c730071ed912595a92051f3b8a"
+      "liveHash": "aae380f141c10ac4b8267ef0978efaf0391ce6f391e6f63e5f7311509286d9fa",
+      "currentHash": "aae380f141c10ac4b8267ef0978efaf0391ce6f391e6f63e5f7311509286d9fa"
     }
   },
   {
     "id": "6000218",
-    "contentStatus": "beta",
-    "name": "Stay tuned",
-    "code": "T01-",
+    "contentStatus": "live",
+    "name": "Thousand-Puppet Pavilion",
+    "code": "N91-",
     "rarity": [
       2,
       3,
@@ -17806,7 +17849,7 @@
     },
     "assets": {
       "icon": "Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34031_UI.webp",
-      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
+      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34031_UI.webp"
     },
     "skill": {
       "desc": "Use Echo Skill to attack nearby enemies, dealing {1} Havoc DMG and summoning 4 Blades of Thousand Memories that last {5}s.\n\nWhile Blades of Thousand Memories last, when the Resonator inflicts Havoc Bane, consume 1 Blade of Thousand Memories to deal {0} Havoc DMG once to the target. This effect can be triggered once every {6}s.\n\nResonators with this Echo equipped in the main slot gain {2} Havoc DMG and {3} Heavy Attack DMG.\n\nCD: {4}s",
@@ -17858,7 +17901,7 @@
           "1"
         ]
       ],
-      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.T_MstSkil_34020_UI",
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34031_UI.T_MstSkil_34031_UI",
       "damage": {
         "28004301": {
           "element": 6,
@@ -17898,7 +17941,8 @@
     },
     "monsterInfo": 340000310,
     "liveComparison": {
-      "currentHash": "6751c9d8dea1c589a8387eeed51f162282909ebb0171380105cd23da2a773fe3"
+      "liveHash": "c1e4f012f1d656f160e5113e53292d0203e7513c8526866155ffc77c342615b8",
+      "currentHash": "c1e4f012f1d656f160e5113e53292d0203e7513c8526866155ffc77c342615b8"
     }
   },
   {
@@ -17987,7 +18031,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_Z_Z2_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Vanguard Junrock that charges forward, dealing {0} Physical DMG to enemies in its path.\r\n\r\nCD: {1}s",
+      "desc": "Summon a Vanguard Junrock that charges forward, dealing {0} Physical DMG to enemies in its path.\n\nCD: {1}s",
       "simple_desc": "Summon a Vanguard Junrock that charges forward, dealing Physical DMG to enemies in its path.",
       "param": [
         [
@@ -18030,8 +18074,8 @@
     },
     "monsterInfo": 310000010,
     "liveComparison": {
-      "liveHash": "9bba7a942ae36c1d7d39e2fdcad51e25749edd794c818617fb90673a1c9a2487",
-      "currentHash": "9bba7a942ae36c1d7d39e2fdcad51e25749edd794c818617fb90673a1c9a2487"
+      "liveHash": "d123e9608487950019f1bb56e56b604833843686958be512399d2e102b087428",
+      "currentHash": "d123e9608487950019f1bb56e56b604833843686958be512399d2e102b087428"
     }
   },
   {
@@ -18227,7 +18271,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_Z_Z1_UI.webp"
     },
     "skill": {
-      "desc": "Summon an Electro Predator to shoot the enemy 5 times. The first 4 shots deals {0} Electro DMG, and the last deals {1} Electro DMG.\r\n\r\nCD: {2}s",
+      "desc": "Summon an Electro Predator to shoot the enemy 5 times. The first 4 shots deals {0} Electro DMG, and the last deals {1} Electro DMG.\n\nCD: {2}s",
       "simple_desc": "Summon an Electro Predator to fire a rain of arrows, dealing Electro DMG.",
       "param": [
         [
@@ -18296,8 +18340,8 @@
     },
     "monsterInfo": 310000030,
     "liveComparison": {
-      "liveHash": "5b30f46256bfd0711185cd1d64cbcf7c274f816cc1c6420537e88c3709c585f7",
-      "currentHash": "5b30f46256bfd0711185cd1d64cbcf7c274f816cc1c6420537e88c3709c585f7"
+      "liveHash": "61abfb4e9a0eac29e447bac0ba4fa7f83d9f78b00922bbd113b0b281159d0483",
+      "currentHash": "61abfb4e9a0eac29e447bac0ba4fa7f83d9f78b00922bbd113b0b281159d0483"
     }
   },
   {
@@ -18671,7 +18715,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_Z_Z11_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Snip Snap that throws fireballs at the enemy, dealing {0} Fusion DMG on-hit.\r\n\r\nCD: {1}s",
+      "desc": "Summon a Snip Snap that throws fireballs at the enemy, dealing {0} Fusion DMG on-hit.\n\nCD: {1}s",
       "simple_desc": "Summon a Snip Snap that throws fireballs, dealing Fusion DMG.",
       "param": [
         [
@@ -18714,8 +18758,8 @@
     },
     "monsterInfo": 310000080,
     "liveComparison": {
-      "liveHash": "6bed24790500e0719a5cbe0f10c02f7a996580b44acf8e36bb9dce48c471d3a5",
-      "currentHash": "6bed24790500e0719a5cbe0f10c02f7a996580b44acf8e36bb9dce48c471d3a5"
+      "liveHash": "34db42ebf02cc735660fd446e711547e51a387cdc358f5eb47aa4bfa3b7e0f94",
+      "currentHash": "34db42ebf02cc735660fd446e711547e51a387cdc358f5eb47aa4bfa3b7e0f94"
     }
   },
   {
@@ -18933,7 +18977,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_Z_Z12_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Whiff Whaff that triggers an air explosion, dealing {0} Aero DMG and produce a Low-pressure Zone. The Low-pressure Zone continuously pulls enemies nearby towards the center for {1}s, dealing {2} Aero DMG up to 6 times.\r\n\r\nCD: {3}s",
+      "desc": "Summon a Whiff Whaff that triggers an air explosion, dealing {0} Aero DMG and produce a Low-pressure Zone. The Low-pressure Zone continuously pulls enemies nearby towards the center for {1}s, dealing {2} Aero DMG up to 6 times.\n\nCD: {3}s",
       "simple_desc": "Summon a Whiff Whaff that deals Aero DMG and produces a Low-pressure Zone.",
       "param": [
         [
@@ -19007,8 +19051,8 @@
     },
     "monsterInfo": 310000100,
     "liveComparison": {
-      "liveHash": "041703b606a251a6cc40192737900a848e01e949c0d46f6207529d522d9ed98f",
-      "currentHash": "041703b606a251a6cc40192737900a848e01e949c0d46f6207529d522d9ed98f"
+      "liveHash": "c163b13ac6b155ab8eb630a5752695656a5db3c9b5dce0153ed604a75edaa703",
+      "currentHash": "c163b13ac6b155ab8eb630a5752695656a5db3c9b5dce0153ed604a75edaa703"
     }
   },
   {
@@ -19098,7 +19142,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_Mstskil_095_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Tick Tack that charges and bites the enemy. The charge from Tick Tack will deal {0} Havoc DMG to the enemy, and the bite will deal {1} Havoc DMG to the enemy. Reduces enemy Vibration Strength by up to {3} during {2}s.\r\n\r\nCD: {4}s",
+      "desc": "Summon a Tick Tack that charges and bites the enemy. The charge from Tick Tack will deal {0} Havoc DMG to the enemy, and the bite will deal {1} Havoc DMG to the enemy. Reduces enemy Vibration Strength by up to {3} during {2}s.\n\nCD: {4}s",
       "simple_desc": "Summon a Tick Tack that deals Havoc DMG and reduces enemy Vibration Strength.",
       "param": [
         [
@@ -19177,8 +19221,8 @@
     },
     "monsterInfo": 310000110,
     "liveComparison": {
-      "liveHash": "59336c1aabf64ea85edb0d1038c58e6b09852d911d8309bf0ab3806b71284458",
-      "currentHash": "59336c1aabf64ea85edb0d1038c58e6b09852d911d8309bf0ab3806b71284458"
+      "liveHash": "792a8374cc6a489d447170eace26a96bba8db52ad65f2a445b6dd60e14c8e106",
+      "currentHash": "792a8374cc6a489d447170eace26a96bba8db52ad65f2a445b6dd60e14c8e106"
     }
   },
   {
@@ -19534,7 +19578,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_255_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Cruisewing that restores HP for all current team characters by {0} of their Max HPs plus an additional {1} points of HP, up to 4 times.\r\n\r\nCD: {2}s",
+      "desc": "Summon a Cruisewing that restores HP for all current team characters by {0} of their Max HPs plus an additional {1} points of HP, up to 4 times.\n\nCD: {2}s",
       "simple_desc": "Summon a Cruisewing to heal friendly units.",
       "param": [
         [
@@ -19586,8 +19630,8 @@
     },
     "monsterInfo": 310000180,
     "liveComparison": {
-      "liveHash": "d48da052fc8264e846ac11c793dd0a2ca73bc1d7475db8d885c3bdba32131194",
-      "currentHash": "d48da052fc8264e846ac11c793dd0a2ca73bc1d7475db8d885c3bdba32131194"
+      "liveHash": "cf6897c2a5437f6ac277a104a23f1f5ac8f22cf2331265a9c2fb51c005d43bc0",
+      "currentHash": "cf6897c2a5437f6ac277a104a23f1f5ac8f22cf2331265a9c2fb51c005d43bc0"
     }
   },
   {
@@ -19673,7 +19717,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_265_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Sabyr Boar to headbutt the enemy into the air, dealing {0} Physical DMG.\r\n\r\nCD: {1}s",
+      "desc": "Summon a Sabyr Boar to headbutt the enemy into the air, dealing {0} Physical DMG.\n\nCD: {1}s",
       "simple_desc": "Summon a Sabyr Boar to charge and deal Physical DMG.",
       "param": [
         [
@@ -19716,8 +19760,8 @@
     },
     "monsterInfo": 310000190,
     "liveComparison": {
-      "liveHash": "ad7a3295562ff8052e2c7cace3ddc15de8b42c59fd29adeb01011d22d4c5079c",
-      "currentHash": "ad7a3295562ff8052e2c7cace3ddc15de8b42c59fd29adeb01011d22d4c5079c"
+      "liveHash": "921795775494ce8a88e87a399d2dfd1381dbee1bba8bb4721d2311a9ca811e96",
+      "currentHash": "921795775494ce8a88e87a399d2dfd1381dbee1bba8bb4721d2311a9ca811e96"
     }
   },
   {
@@ -19782,7 +19826,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_115_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Gulpuff that blows bubbles {0} times, each time dealing {1} Glacio DMG.\r\n\r\nCD: {2}s",
+      "desc": "Summon a Gulpuff that blows bubbles {0} times, each time dealing {1} Glacio DMG.\n\nCD: {2}s",
       "simple_desc": "Summon a Gulpuff to blow bubbles and deal Glacio DMG.",
       "param": [
         [
@@ -19834,8 +19878,8 @@
     },
     "monsterInfo": 310000120,
     "liveComparison": {
-      "liveHash": "58c0c43c70bbc41bdc9e7064e3932b035a5640ddd31e7ee2e4611e8b39c8e612",
-      "currentHash": "58c0c43c70bbc41bdc9e7064e3932b035a5640ddd31e7ee2e4611e8b39c8e612"
+      "liveHash": "00c40301289f054cc206a1bf9839afffae091c3cd2d683b5a302bd1708e456ed",
+      "currentHash": "00c40301289f054cc206a1bf9839afffae091c3cd2d683b5a302bd1708e456ed"
     }
   },
   {
@@ -20229,7 +20273,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_980_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Fusion Dreadmane that fiercely strikes the enemy, dealing {0} Fusion DMG.\r\n\r\nCD: {1}s",
+      "desc": "Summon a Fusion Dreadmane that fiercely strikes the enemy, dealing {0} Fusion DMG.\n\nCD: {1}s",
       "simple_desc": "Summon a Fusion Dreadmane to fiercely strike the enemies, dealing Fusion DMG.",
       "param": [
         [
@@ -20272,8 +20316,8 @@
     },
     "monsterInfo": 310000280,
     "liveComparison": {
-      "liveHash": "5ea258bbbf523f5a0edb1bd4c42030dd97440df9daebe260b6cb8a7093f29ac4",
-      "currentHash": "5ea258bbbf523f5a0edb1bd4c42030dd97440df9daebe260b6cb8a7093f29ac4"
+      "liveHash": "fedbb3e5bf53858de2a6fdde522d22b46ff4917b734f607190c524257961f3fe",
+      "currentHash": "fedbb3e5bf53858de2a6fdde522d22b46ff4917b734f607190c524257961f3fe"
     }
   },
   {
@@ -20681,7 +20725,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_Z_Z6_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Fusion Prism to fire a crystal shard, dealing {0} Fusion DMG.\r\n\r\nCD: {1}s",
+      "desc": "Summon a Fusion Prism to fire a crystal shard, dealing {0} Fusion DMG.\n\nCD: {1}s",
       "simple_desc": "Summon a Fusion Prism that deals Fusion DMG with crystal shards.",
       "param": [
         [
@@ -20724,8 +20768,8 @@
     },
     "monsterInfo": 310000150,
     "liveComparison": {
-      "liveHash": "3314aef10156b0cccf5b3fcabc9578e9951de2a1c4051d9cddac5a397d20d8b3",
-      "currentHash": "3314aef10156b0cccf5b3fcabc9578e9951de2a1c4051d9cddac5a397d20d8b3"
+      "liveHash": "f3fff54f984d96b2c66fed0f9959c13cd41ddaf0473e4a8113b01567a2aae74f",
+      "currentHash": "f3fff54f984d96b2c66fed0f9959c13cd41ddaf0473e4a8113b01567a2aae74f"
     }
   },
   {
@@ -20946,7 +20990,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_Z_Z7_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Spectro Prism to emit a laser that hits the enemy up to {0} times, dealing {1} Spectro DMG each time.\r\n\r\nCD: {2}s",
+      "desc": "Summon a Spectro Prism to emit a laser that hits the enemy up to {0} times, dealing {1} Spectro DMG each time.\n\nCD: {2}s",
       "simple_desc": "Summon a Spectro Prism that deals Spectro DMG with laser.",
       "param": [
         [
@@ -20998,8 +21042,8 @@
     },
     "monsterInfo": 310000160,
     "liveComparison": {
-      "liveHash": "c91dee87e9d5cbcda2e27e2a4047c94d6daf90d1ead507614d7b5bc67b2b8b5c",
-      "currentHash": "c91dee87e9d5cbcda2e27e2a4047c94d6daf90d1ead507614d7b5bc67b2b8b5c"
+      "liveHash": "1deae5ba8d11c648eaca09a97228ea278dc27b77af4c888f3234d061f7057431",
+      "currentHash": "1deae5ba8d11c648eaca09a97228ea278dc27b77af4c888f3234d061f7057431"
     }
   },
   {
@@ -21086,7 +21130,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_Z_Z4_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Havoc Prism to fire five crystal shards, each dealing {0} Havoc DMG.\r\n\r\nCD: {1}s",
+      "desc": "Summon a Havoc Prism to fire five crystal shards, each dealing {0} Havoc DMG.\n\nCD: {1}s",
       "simple_desc": "Summon a Havoc Prism that deals Havoc DMG with crystal shards.",
       "param": [
         [
@@ -21133,8 +21177,8 @@
     },
     "monsterInfo": 310000170,
     "liveComparison": {
-      "liveHash": "7da59edd3c9b22dea9153d349af65252d04a3dbebadb7e0efeb6c1a59e672cbe",
-      "currentHash": "7da59edd3c9b22dea9153d349af65252d04a3dbebadb7e0efeb6c1a59e672cbe"
+      "liveHash": "879f68af38a3b6edeb06a48265f4e556e9e2ca68860268b1e9a890258236ece6",
+      "currentHash": "879f68af38a3b6edeb06a48265f4e556e9e2ca68860268b1e9a890258236ece6"
     }
   },
   {
@@ -21348,7 +21392,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_Z_B6_UI.webp"
     },
     "skill": {
-      "desc": "Transform into Flautist, continuously emitting Electro lasers, dealing {0} Electro DMG for a total of 10 times. Gain {1} Concerto Energy every time a hit lands.\r\n\r\nCD: {2}s",
+      "desc": "Transform into Flautist, continuously emitting Electro lasers, dealing {0} Electro DMG for a total of 10 times. Gain {1} Concerto Energy every time a hit lands.\n\nCD: {2}s",
       "simple_desc": "Transform into Flautist to deal Electro DMG and recover Concerto Energy on hit.",
       "param": [
         [
@@ -21400,8 +21444,8 @@
     },
     "monsterInfo": 320000040,
     "liveComparison": {
-      "liveHash": "6eacfdb272a139d71084282bbac5b8ccc7566f8d8b4419d0ab29a08becb3ce78",
-      "currentHash": "6eacfdb272a139d71084282bbac5b8ccc7566f8d8b4419d0ab29a08becb3ce78"
+      "liveHash": "04f9e43498cf3760340298866ab2d28a055eff2fc6aeb396e9cd1dfb9e7a2b93",
+      "currentHash": "04f9e43498cf3760340298866ab2d28a055eff2fc6aeb396e9cd1dfb9e7a2b93"
     }
   },
   {
@@ -21758,7 +21802,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_Z_B9_UI.webp"
     },
     "skill": {
-      "desc": "Transform into Chasm Guardian to perform a Leap Strike that deals {0} Havoc DMG on hit. Current character loses {1} HP after the hit lands. Periodically restore current character's HP after {2}s for up to {3} of their Max HP.\r\n\r\nCD: {4}s",
+      "desc": "Transform into Chasm Guardian to perform a Leap Strike that deals {0} Havoc DMG on hit. Current character loses {1} HP after the hit lands. Periodically restore current character's HP after {2}s for up to {3} of their Max HP.\n\nCD: {4}s",
       "simple_desc": "Transform into Chasm Guardian to perform a powerful strike that deals Havoc DMG. Lose some HP on hit and then recover HP over time.",
       "param": [
         [
@@ -21846,8 +21890,8 @@
     },
     "monsterInfo": 320000070,
     "liveComparison": {
-      "liveHash": "ad302670e131558eedd51b0b3c5b6003bcedf0d5cbb98234c3d8d600fe1c78f1",
-      "currentHash": "ad302670e131558eedd51b0b3c5b6003bcedf0d5cbb98234c3d8d600fe1c78f1"
+      "liveHash": "8ec5d76be09453f84061f47b277f967092e2409afdc68b935e57772169ad8c0a",
+      "currentHash": "8ec5d76be09453f84061f47b277f967092e2409afdc68b935e57772169ad8c0a"
     }
   },
   {
@@ -21912,7 +21956,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_295_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Viridblaze Saurian to continuously spit fire, dealing {0} Fusion DMG 10 times.\r\n\r\nCD: {1}s",
+      "desc": "Summon a Viridblaze Saurian to continuously spit fire, dealing {0} Fusion DMG 10 times.\n\nCD: {1}s",
       "simple_desc": "Summon a Viridblaze Saurian to continuously spit fire, dealing Fusion DMG.",
       "param": [
         [
@@ -21959,8 +22003,8 @@
     },
     "monsterInfo": 320000080,
     "liveComparison": {
-      "liveHash": "1896bc4afa0c748b55ce7754cc74135db2faa3593243cd143a6aee0a13de09ca",
-      "currentHash": "1896bc4afa0c748b55ce7754cc74135db2faa3593243cd143a6aee0a13de09ca"
+      "liveHash": "a4381b6558941ecfeae8b6e8c682b0688002224d9db102e79a151164e186e804",
+      "currentHash": "a4381b6558941ecfeae8b6e8c682b0688002224d9db102e79a151164e186e804"
     }
   },
   {
@@ -22318,7 +22362,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_986_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Spearback to perform 5 consecutive attacks. The first 4 attacks deal {0} Physical DMG, and the last deals {1} Physical DMG.\r\n\r\nCD: {2}s",
+      "desc": "Summon a Spearback to perform 5 consecutive attacks. The first 4 attacks deal {0} Physical DMG, and the last deals {1} Physical DMG.\n\nCD: {2}s",
       "simple_desc": "Summon a Spearback to perform continuous claw strikes, dealing Physical DMG.",
       "param": [
         [
@@ -22387,8 +22431,8 @@
     },
     "monsterInfo": 320000120,
     "liveComparison": {
-      "liveHash": "2cca7acb0c37f4eaa7dfc350849a81d584ad544bdf7c00e3f1ab6dfce0c60e28",
-      "currentHash": "2cca7acb0c37f4eaa7dfc350849a81d584ad544bdf7c00e3f1ab6dfce0c60e28"
+      "liveHash": "849aae169d3bd73b9c8c03c09ba2fac505d871a161f29af376231e95305e5521",
+      "currentHash": "849aae169d3bd73b9c8c03c09ba2fac505d871a161f29af376231e95305e5521"
     }
   },
   {

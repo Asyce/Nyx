@@ -563,6 +563,18 @@
     "zh": "风流的寓言诗",
     "ja": "風刺のファブリオー"
   },
+  "21020096": {
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon21020096_UI.T_IconWeapon21020096_UI",
+    "rank": 5,
+    "type": 2,
+    "en": "Azure Oath",
+    "desc": "Forged of flowing wind, sheathed in the azure sky. Once the blade is drawn, all sound falls still.\nThat never-fading azure is her resolve, her vow, and her ideal.",
+    "atk": 588,
+    "sub": "Crit. Rate",
+    "ko": "아득히 푸른 하늘",
+    "zh": "天之苍苍",
+    "ja": "天つ蒼淵"
+  },
   "21020104": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon21020104_UI.T_IconWeapon21020104_UI",
     "rank": 4,
@@ -1402,6 +1414,18 @@
     "ko": "허위의 왈츠",
     "zh": "虚饰的华尔兹",
     "ja": "虚飾のワルツ"
+  },
+  "21050096": {
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon21050096_UI.T_IconWeapon21050096_UI",
+    "rank": 5,
+    "type": 5,
+    "en": "Firstlight's Herald",
+    "desc": "Dawn's glow my paper, morning dew my ink, with brush in hand, a scroll of ceaseless landscapes I paint.\nSo the legend goes: when the divine bird lowers its gaze, the mountains hush and the rivers still.\nYet, when it raises its head again to loose a piercing cry, the slumbering sun shall rise from beyond the sea of clouds.",
+    "atk": 412,
+    "sub": "Energy Regen",
+    "ko": "노을에 깃든 이슬",
+    "zh": "栖霞饮露",
+    "ja": "夕霞の飲露"
   },
   "21050104": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon21050104_UI.T_IconWeapon21050104_UI",

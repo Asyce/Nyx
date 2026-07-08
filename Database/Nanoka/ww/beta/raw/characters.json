@@ -111,7 +111,7 @@
     "element": 1,
     "en": "Suisui",
     "nickname": "Carlotta",
-    "desc": "",
+    "desc": "Born into a noble family of Mingting, she is the brilliant young director of the Zhaoming Commerce Guild. Wielding a water fan, she weaves business deals into a grand tapestry of trade. Though she knows no swordplay, her financial mastery stitches together a lasting peace for the world.",
     "ko": "수수",
     "zh": "穗穗",
     "ja": "穂穂"
@@ -356,12 +356,12 @@
     "rank": 5,
     "weapon": 2,
     "element": 3,
-    "en": "",
+    "en": "Rover: Electro",
     "nickname": "Rover: Aero",
     "desc": "A mysterious Resonator with the power to absorb all sounds. Currently journeying to find their lost memories.",
-    "ko": "",
-    "zh": "",
-    "ja": ""
+    "ko": "방랑자 · 전도",
+    "zh": "漂泊者·导电",
+    "ja": "漂泊者・電導"
   },
   "1310": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_5_UI.T_IconRoleHead256_5_UI",
@@ -369,12 +369,12 @@
     "rank": 5,
     "weapon": 2,
     "element": 3,
-    "en": "",
+    "en": "Rover: Electro",
     "nickname": "Rover: Aero",
     "desc": "A mysterious Resonator with the power to absorb all sounds. Currently journeying to find their lost memories.",
-    "ko": "",
-    "zh": "",
-    "ja": ""
+    "ko": "방랑자 · 전도",
+    "zh": "漂泊者·导电",
+    "ja": "漂泊者・電導"
   },
   "1402": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_1_UI.T_IconRoleHead256_1_UI",
@@ -774,7 +774,7 @@
     "element": 6,
     "en": "Yangyang: Xuanling",
     "nickname": "Breath of Winds",
-    "desc": "",
+    "desc": "Born the second daughter of a renowned musical family in Mingting, she is gentle yet strong, pure of heart and romantic, a lady who draws her sword in the name of justice. As a \"Votary of the Voice,\" she can commune with the Streams. Once an Outrider of the Midnight Rangers in Jinzhou, she now serves as an acting Xuan Watcher of Xuanfang Hold. Free as a breeze, bold in her chivalry, her life and her blade exist only to protect.",
     "ko": "양양 · 현령",
     "zh": "秧秧·玄翎",
     "ja": "秧秧・玄翎"

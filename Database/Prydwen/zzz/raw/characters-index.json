@@ -3,7 +3,7 @@
   "game": "zzz",
   "collection": "characters",
   "sourcePath": "/zenless/characters",
-  "scrapedAt": "2026-07-07T08:50:41.385Z",
+  "scrapedAt": "2026-07-08T07:46:33.795Z",
   "detailPagesTotal": 64,
   "detailPagesScraped": 64,
   "staleDetailPagesRemoved": 0,
@@ -277,11 +277,11 @@
     {
       "id": "norma",
       "slug": "norma",
-      "name": "Norma 3.0",
+      "name": "Norma New",
       "sourcePath": "/zenless/characters/norma",
-      "contentStatus": "beta",
+      "contentStatus": "live",
       "statusLabels": [
-        "3.0"
+        "New"
       ]
     },
     {
@@ -337,12 +337,10 @@
     {
       "id": "pyrois",
       "slug": "pyrois",
-      "name": "Pyrois New",
+      "name": "Pyrois",
       "sourcePath": "/zenless/characters/pyrois",
       "contentStatus": "live",
-      "statusLabels": [
-        "New"
-      ]
+      "statusLabels": []
     },
     {
       "id": "qingyi",
@@ -471,12 +469,10 @@
     {
       "id": "velina",
       "slug": "velina",
-      "name": "Velina New",
+      "name": "Velina",
       "sourcePath": "/zenless/characters/velina",
       "contentStatus": "live",
-      "statusLabels": [
-        "New"
-      ]
+      "statusLabels": []
     },
     {
       "id": "vivian",

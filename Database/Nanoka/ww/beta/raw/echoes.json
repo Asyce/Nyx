@@ -2415,7 +2415,7 @@
   },
   "6000202": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31090_UI.T_IconMonsterHead_31090_UI",
-    "code": "T01-",
+    "code": "W40-",
     "rank": [
       2,
       3,
@@ -2425,16 +2425,16 @@
     "group": [
       33
     ],
-    "en": "Stay tuned",
+    "en": "Smiter",
     "intensity": 0,
     "phantom": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_31090_UI.T_IconMonsterGoods_SG_31090_UI",
-    "ko": "Stay tuned",
-    "zh": "敬请期待",
-    "ja": "Stay tuned"
+    "ko": "분해된 전사",
+    "zh": "融躯战士",
+    "ja": "融躯の戦士"
   },
   "6000203": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31091_UI.T_IconMonsterHead_31091_UI",
-    "code": "T01-",
+    "code": "R13-",
     "rank": [
       2,
       3,
@@ -2444,15 +2444,15 @@
     "group": [
       35
     ],
-    "en": "Stay tuned",
+    "en": "Porcelain Picket",
     "intensity": 0,
-    "ko": "Stay tuned",
-    "zh": "敬请期待",
-    "ja": "Stay tuned"
+    "ko": "자정후",
+    "zh": "瓷庭候",
+    "ja": "磁器の庭候"
   },
   "6000204": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31092_UI.T_IconMonsterHead_31092_UI",
-    "code": "T01-",
+    "code": "R14-",
     "rank": [
       2,
       3,
@@ -2462,15 +2462,15 @@
     "group": [
       35
     ],
-    "en": "Stay tuned",
+    "en": "Stone Picket",
     "intensity": 0,
-    "ko": "Stay tuned",
-    "zh": "敬请期待",
-    "ja": "Stay tuned"
+    "ko": "석정후",
+    "zh": "石庭候",
+    "ja": "石の庭候"
   },
   "6000205": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31093_UI.T_IconMonsterHead_31093_UI",
-    "code": "T01-",
+    "code": "R15-",
     "rank": [
       2,
       3,
@@ -2480,15 +2480,15 @@
     "group": [
       34
     ],
-    "en": "Stay tuned",
+    "en": "Aureate Picket",
     "intensity": 0,
-    "ko": "Stay tuned",
-    "zh": "敬请期待",
-    "ja": "Stay tuned"
+    "ko": "금정후",
+    "zh": "金庭候",
+    "ja": "金鉄の庭候"
   },
   "6000206": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31094_UI.T_IconMonsterHead_31094_UI",
-    "code": "T01-",
+    "code": "R16-",
     "rank": [
       2,
       3,
@@ -2498,15 +2498,15 @@
     "group": [
       33
     ],
-    "en": "Stay tuned",
+    "en": "Kernel Puppet: Joy",
     "intensity": 0,
-    "ko": "Stay tuned",
-    "zh": "敬请期待",
-    "ja": "Stay tuned"
+    "ko": "심월 인형 · 희(喜)",
+    "zh": "心傀·喜",
+    "ja": "心傀・喜"
   },
   "6000207": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31095_UI.T_IconMonsterHead_31095_UI",
-    "code": "T01-",
+    "code": "R17-",
     "rank": [
       2,
       3,
@@ -2516,15 +2516,15 @@
     "group": [
       34
     ],
-    "en": "Stay tuned",
+    "en": "Kernel Puppet: Anger",
     "intensity": 0,
-    "ko": "Stay tuned",
-    "zh": "敬请期待",
-    "ja": "Stay tuned"
+    "ko": "심월 인형 · 노(怒)",
+    "zh": "心傀·怒",
+    "ja": "心傀・怒"
   },
   "6000208": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31096_UI.T_IconMonsterHead_31096_UI",
-    "code": "T01-",
+    "code": "R18-",
     "rank": [
       2,
       3,
@@ -2534,15 +2534,15 @@
     "group": [
       34
     ],
-    "en": "Stay tuned",
+    "en": "Kernel Puppet: Worry",
     "intensity": 0,
-    "ko": "Stay tuned",
-    "zh": "敬请期待",
-    "ja": "Stay tuned"
+    "ko": "심월 인형 · 우(憂)",
+    "zh": "心傀·忧",
+    "ja": "心傀・憂"
   },
   "6000209": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31097_UI.T_IconMonsterHead_31097_UI",
-    "code": "T01-",
+    "code": "R19-",
     "rank": [
       2,
       3,
@@ -2552,15 +2552,15 @@
     "group": [
       34
     ],
-    "en": "Stay tuned",
+    "en": "Kernel Puppet: Reflection",
     "intensity": 0,
-    "ko": "Stay tuned",
-    "zh": "敬请期待",
-    "ja": "Stay tuned"
+    "ko": "심월 인형 · 사(思)",
+    "zh": "心傀·思",
+    "ja": "心傀・思"
   },
   "6000210": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31098_UI.T_IconMonsterHead_31098_UI",
-    "code": "T01-",
+    "code": "R20-",
     "rank": [
       2,
       3,
@@ -2570,15 +2570,15 @@
     "group": [
       35
     ],
-    "en": "Stay tuned",
+    "en": "Kernel Puppet: Grief",
     "intensity": 0,
-    "ko": "Stay tuned",
-    "zh": "敬请期待",
-    "ja": "Stay tuned"
+    "ko": "심월 인형 · 비(悲)",
+    "zh": "心傀·悲",
+    "ja": "心傀・悲"
   },
   "6000211": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31099_UI.T_IconMonsterHead_31099_UI",
-    "code": "T01-",
+    "code": "R21-",
     "rank": [
       2,
       3,
@@ -2588,15 +2588,15 @@
     "group": [
       35
     ],
-    "en": "Stay tuned",
+    "en": "Kernel Puppet: Fright",
     "intensity": 0,
-    "ko": "Stay tuned",
-    "zh": "敬请期待",
-    "ja": "Stay tuned"
+    "ko": "심월 인형 · 공(恐)",
+    "zh": "心傀·恐",
+    "ja": "心傀・恐"
   },
   "6000212": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31100_UI.T_IconMonsterHead_31100_UI",
-    "code": "T01-",
+    "code": "R22-",
     "rank": [
       2,
       3,
@@ -2606,15 +2606,15 @@
     "group": [
       33
     ],
-    "en": "Stay tuned",
+    "en": "Fog Lionarch: Body",
     "intensity": 0,
-    "ko": "Stay tuned",
-    "zh": "敬请期待",
-    "ja": "Stay tuned"
+    "ko": "안개 수존 · 몸",
+    "zh": "霁息兽尊·身",
+    "ja": "霽息の獣尊・胴"
   },
   "6000213": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31101_UI.T_IconMonsterHead_31101_UI",
-    "code": "T01-",
+    "code": "R23-",
     "rank": [
       2,
       3,
@@ -2624,15 +2624,15 @@
     "group": [
       33
     ],
-    "en": "Stay tuned",
+    "en": "Fog Lionarch: Head",
     "intensity": 0,
-    "ko": "Stay tuned",
-    "zh": "敬请期待",
-    "ja": "Stay tuned"
+    "ko": "안개 수존 · 머리",
+    "zh": "霁息兽尊·首",
+    "ja": "霽息の獣尊・首"
   },
   "6000214": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31102_UI.T_IconMonsterHead_31102_UI",
-    "code": "T01-",
+    "code": "W41-",
     "rank": [
       2,
       3,
@@ -2642,15 +2642,15 @@
     "group": [
       33
     ],
-    "en": "Stay tuned",
+    "en": "Smolder",
     "intensity": 0,
-    "ko": "Stay tuned",
-    "zh": "敬请期待",
-    "ja": "Stay tuned"
+    "ko": "불씨의 사냥꾼",
+    "zh": "不熄猎手",
+    "ja": "熄えぬ狩人"
   },
   "6000215": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32067_UI.T_IconMonsterHead_32067_UI",
-    "code": "T01-",
+    "code": "R69-",
     "rank": [
       2,
       3,
@@ -2662,15 +2662,15 @@
       34,
       35
     ],
-    "en": "Stay tuned",
+    "en": "Fog Lionarch",
     "intensity": 1,
-    "ko": "Stay tuned",
-    "zh": "敬请期待",
-    "ja": "Stay tuned"
+    "ko": "안개 수존",
+    "zh": "霁息兽尊",
+    "ja": "霽息の獣尊"
   },
   "6000216": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32068_UI.T_IconMonsterHead_32068_UI",
-    "code": "T01-",
+    "code": "R70-",
     "rank": [
       2,
       3,
@@ -2682,16 +2682,16 @@
       34,
       35
     ],
-    "en": "Stay tuned",
+    "en": "Forbidden Bastion",
     "intensity": 1,
     "phantom": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_32068_UI.T_IconMonsterGoods_SG_32068_UI",
-    "ko": "Stay tuned",
-    "zh": "敬请期待",
-    "ja": "Stay tuned"
+    "ko": "봉정계유",
+    "zh": "封庭械囿",
+    "ja": "封庭の械囿"
   },
   "6000217": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34030_UI.T_IconMonsterHead_34030_UI",
-    "code": "T01-",
+    "code": "R71-",
     "rank": [
       2,
       3,
@@ -2702,15 +2702,15 @@
       34,
       35
     ],
-    "en": "Stay tuned",
+    "en": "Myriad Snare: Rustfire Chassis",
     "intensity": 2,
-    "ko": "Stay tuned",
-    "zh": "敬请期待",
-    "ja": "Stay tuned"
+    "ko": "만와뢰 · 잔해",
+    "zh": "万囮牢·朽躯",
+    "ja": "万囮の檻・朽躯"
   },
   "6000218": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34031_UI.T_IconMonsterHead_34031_UI",
-    "code": "T01-",
+    "code": "N91-",
     "rank": [
       2,
       3,
@@ -2720,11 +2720,11 @@
     "group": [
       33
     ],
-    "en": "Stay tuned",
+    "en": "Thousand-Puppet Pavilion",
     "intensity": 3,
-    "ko": "Stay tuned",
-    "zh": "敬请期待",
-    "ja": "Stay tuned"
+    "ko": "천괴중루",
+    "zh": "千傀重楼",
+    "ja": "千傀の重楼"
   },
   "390070051": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_011_UI.T_IconMonsterGoods_011_UI",

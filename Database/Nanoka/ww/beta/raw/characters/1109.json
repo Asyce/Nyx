@@ -302,30 +302,6 @@
     },
     {
       "type": 2,
-      "title": "Resonance Liberation: IV",
-      "content": "I protect…",
-      "voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luosela_atk_atk03_pro_a_01.play_favor_word_luosela_atk_atk03_pro_a_01"
-    },
-    {
-      "type": 2,
-      "title": "Resonance Liberation: V",
-      "content": "I inscribe...",
-      "voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luosela_atk_atk03_pro_a_02.play_favor_word_luosela_atk_atk03_pro_a_02"
-    },
-    {
-      "type": 2,
-      "title": "Resonance Liberation: VII",
-      "content": "All that I have!",
-      "voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luosela_atk_atk03_pro_b_01.play_favor_word_luosela_atk_atk03_pro_b_01"
-    },
-    {
-      "type": 2,
-      "title": "Resonance Liberation: VIII",
-      "content": "Every edge!",
-      "voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luosela_atk_atk03_pro_b_02.play_favor_word_luosela_atk_atk03_pro_b_02"
-    },
-    {
-      "type": 2,
       "title": "Resonance Skill: I",
       "content": "C'mon, get in the shot.",
       "voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luosela_skill_skill01_start_01.play_favor_word_luosela_skill_skill01_start_01"
@@ -371,6 +347,42 @@
       "title": "Resonance Liberation: III",
       "content": "Scattered memories... Take shape!",
       "voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luosela_burst_burst01_03.play_favor_word_luosela_burst_burst01_03"
+    },
+    {
+      "type": 2,
+      "title": "Resonance Liberation: IV",
+      "content": "I protect…",
+      "voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luosela_atk_atk03_pro_a_01.play_favor_word_luosela_atk_atk03_pro_a_01"
+    },
+    {
+      "type": 2,
+      "title": "Resonance Liberation: V",
+      "content": "I inscribe...",
+      "voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luosela_atk_atk03_pro_a_02.play_favor_word_luosela_atk_atk03_pro_a_02"
+    },
+    {
+      "type": 2,
+      "title": "Resonance Liberation: VI",
+      "content": "I witness...",
+      "voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luosela_atk_atk03_pro_a_03.play_favor_word_luosela_atk_atk03_pro_a_03"
+    },
+    {
+      "type": 2,
+      "title": "Resonance Liberation: VII",
+      "content": "All that I have!",
+      "voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luosela_atk_atk03_pro_b_01.play_favor_word_luosela_atk_atk03_pro_b_01"
+    },
+    {
+      "type": 2,
+      "title": "Resonance Liberation: VIII",
+      "content": "Every edge!",
+      "voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luosela_atk_atk03_pro_b_02.play_favor_word_luosela_atk_atk03_pro_b_02"
+    },
+    {
+      "type": 2,
+      "title": "Resonance Liberation: IX",
+      "content": "Every instant!",
+      "voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_luosela_atk_atk03_pro_b_03.play_favor_word_luosela_atk_atk03_pro_b_03"
     },
     {
       "type": 2,

@@ -75012,11 +75012,11 @@
   },
   {
     "id": "21020096",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Azure Oath",
     "rarity": 5,
     "type": 2,
-    "description": "Stay tuned",
+    "description": "Forged of flowing wind, sheathed in the azure sky. Once the blade is drawn, all sound falls still.\nThat never-fading azure is her resolve, her vow, and her ideal.",
     "attack": 588,
     "subStat": "Crit. Rate",
     "assets": {
@@ -76384,7 +76384,7 @@
     },
     "effect": {
       "name": "Unbending",
-      "description": "Grants {0} All-Attribute DMG Bonus. Upon inflicting Havoc Bane, the wielder gains {1} Heavy Attack DMG Amplification and their Heavy Attack DMG ignores {2} of the target's DEF, lasting for {3}s.",
+      "description": "Grants {0} All-Attribute DMG Bonus. After inflicting Havoc Bane, the wielder gains {1} Heavy Attack DMG Amplification and their Heavy Attack DMG ignores {2} of the target's DEF, lasting for {3}s.",
       "params": [
         [
           "12%",
@@ -76606,7 +76606,8 @@
       ]
     },
     "liveComparison": {
-      "currentHash": "a54489b65499a292b46684a8ebda30e973d5eb41dd97fb65dceb8a499fed15d1"
+      "liveHash": "05b51a6d0af93c18711d84fffaade5999e0fc92d8ab435054e05bef5c264110c",
+      "currentHash": "05b51a6d0af93c18711d84fffaade5999e0fc92d8ab435054e05bef5c264110c"
     }
   },
   {
@@ -188260,11 +188261,11 @@
   },
   {
     "id": "21050096",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Firstlight's Herald",
     "rarity": 5,
     "type": 5,
-    "description": "Stay tuned",
+    "description": "Dawn's glow my paper, morning dew my ink, with brush in hand, a scroll of ceaseless landscapes I paint.\nSo the legend goes: when the divine bird lowers its gaze, the mountains hush and the rivers still.\nYet, when it raises its head again to loose a piercing cry, the slumbering sun shall rise from beyond the sea of clouds.",
     "attack": 412,
     "subStat": "Energy Regen",
     "assets": {
@@ -189847,7 +189848,8 @@
       ]
     },
     "liveComparison": {
-      "currentHash": "72584ca7b32c803aaa778874ad8d687d78c7540288f28d79880caf8f835c2aea"
+      "liveHash": "e641806345958185ed705f46fb84b41db6ce68536f7c2c793d200e3c2ec870d2",
+      "currentHash": "e641806345958185ed705f46fb84b41db6ce68536f7c2c793d200e3c2ec870d2"
     }
   },
   {

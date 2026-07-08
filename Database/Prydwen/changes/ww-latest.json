@@ -1,7 +1,7 @@
 {
   "provider": "Prydwen",
   "game": "ww",
-  "generatedAt": "2026-07-07T08:50:41.385Z",
+  "generatedAt": "2026-07-08T07:46:33.795Z",
   "summary": {
     "records": {
       "added": 0,
@@ -16,10 +16,10 @@
       "removed": [],
       "changed": [
         {
-          "id": "characters:encore",
-          "name": "Encore",
-          "previousHash": "d950630e6924b746f04ce4ac339a9a1a71259c94fb7bdaf2720b7c3265e49c32",
-          "currentHash": "3d71c79ec7515fab87a7a587ffcec4e8be4bfe25c2c76d16cbfb5dbebdb50447"
+          "id": "characters:jianxin",
+          "name": "Jianxin",
+          "previousHash": "c1134b9c4b7d1b5d8463c28b1a55fecfd47ce51ea13ff068941e007691360fe3",
+          "currentHash": "3a48f0378d68547de52e7c4062703911593719603db16c7b6b9c24e833056710"
         }
       ],
       "unchanged": 62,

@@ -148,7 +148,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_Z_B3_UI.webp"
     },
     "skill": {
-      "desc": "Transform into Tempest Mephis to perform tail swing attacks followed by a claw attack. The lightning strike summoned by the tail swing deals {0} Electro DMG each time, while the claw attack deals {1} Electro DMG.\r\n\r\nAfter the claw hit, increase the current character's Electro DMG by {2} and Heavy Attack DMG by {3} for {4}s.\r\n\r\nCD: {5}s",
+      "desc": "Transform into Tempest Mephis to perform tail swing attacks followed by a claw attack. The lightning strike summoned by the tail swing deals {0} Electro DMG each time, while the claw attack deals {1} Electro DMG.\n\nAfter the claw hit, increase the current character's Electro DMG by {2} and Heavy Attack DMG by {3} for {4}s.\n\nCD: {5}s",
       "simple_desc": "Transform into Tempest Mephis to continuously attack enemies, dealing Electro damage. Increase current character's Electro DMG & Heavy Attack DMG.",
       "param": [
         [
@@ -639,7 +639,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_Mstskil_996_UI.webp"
     },
     "skill": {
-      "desc": "Transform into Feilian Beringal to perform a powerful kick. If the kick lands on an enemy, immediately perform a follow-up strike. The kick deals {0} Aero DMG, and the follow-up strike deals {1} Aero DMG.\r\n\r\nAfter the follow-up strike hits, the current character's Aero DMG increases by {2}, and the Heavy Attack DMG increases by {3} for {4}s\r\n\r\nCD: {5}s",
+      "desc": "Transform into Feilian Beringal to perform a powerful kick. If the kick lands on an enemy, immediately perform a follow-up strike. The kick deals {0} Aero DMG, and the follow-up strike deals {1} Aero DMG.\n\nAfter the follow-up strike hits, the current character's Aero DMG increases by {2}, and the Heavy Attack DMG increases by {3} for {4}s\n\nCD: {5}s",
       "simple_desc": "Transform into Feilian Beringal to continuously attack enemies, dealing Aero DMG. Increase current character's Aero DMG and Heavy Attack DMG.",
       "param": [
         [
@@ -1190,7 +1190,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_971_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Chirpuff that self-inflates and blasts a powerful gust of wind forward {0} times. Each blast inflicts {1} Aero DMG and pushes enemies backwards.\r\n\r\nCD: {2}s",
+      "desc": "Summon a Chirpuff that self-inflates and blasts a powerful gust of wind forward {0} times. Each blast inflicts {1} Aero DMG and pushes enemies backwards.\n\nCD: {2}s",
       "simple_desc": "Summon a Chirpuff to blast a powerful gust of wind. Deals Aero DMG and knocks enemies back.",
       "param": [
         [
@@ -1445,7 +1445,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_1000_UI.webp"
     },
     "skill": {
-      "desc": "Transform into Autopuppet Scout, dealing {0} Glacio DMG to the surroundings, and generate up to 3 Ice Walls to block off the enemies.\r\n\r\nCD: {1}s",
+      "desc": "Transform into Autopuppet Scout, dealing {0} Glacio DMG to the surroundings, and generate up to 3 Ice Walls to block off the enemies.\n\nCD: {1}s",
       "simple_desc": "Transform into Autopuppet Scout to Glacio DMG to enemies nearby and generate Ice Walls.",
       "param": [
         [
@@ -1571,7 +1571,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_999_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Traffic Illuminator, immobilizing enemies for up to {0}s. The immobilization will be lifted once the enemy is hit.\r\n\r\nCD: {1}s",
+      "desc": "Summon a Traffic Illuminator, immobilizing enemies for up to {0}s. The immobilization will be lifted once the enemy is hit.\n\nCD: {1}s",
       "simple_desc": "Summon a Traffic Illuminator to immobilize the enemies.",
       "param": [
         [
@@ -10675,7 +10675,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_Z_Z1_UI.webp"
     },
     "skill": {
-      "desc": "Summon an Electro Predator to shoot the enemy 5 times. The first 4 shots deals {0} Electro DMG, and the last deals {1} Electro DMG.\r\n\r\nCD: {2}s",
+      "desc": "Summon an Electro Predator to shoot the enemy 5 times. The first 4 shots deals {0} Electro DMG, and the last deals {1} Electro DMG.\n\nCD: {2}s",
       "simple_desc": "Summon an Electro Predator to fire a rain of arrows, dealing Electro DMG.",
       "param": [
         [
@@ -10863,7 +10863,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_115_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Gulpuff that blows bubbles {0} times, each time dealing {1} Glacio DMG.\r\n\r\nCD: {2}s",
+      "desc": "Summon a Gulpuff that blows bubbles {0} times, each time dealing {1} Glacio DMG.\n\nCD: {2}s",
       "simple_desc": "Summon a Gulpuff to blow bubbles and deal Glacio DMG.",
       "param": [
         [
@@ -10951,7 +10951,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_971_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Chirpuff that self-inflates and blasts a powerful gust of wind forward {0} times. Each blast inflicts {1} Aero DMG and pushes enemies backwards.\r\n\r\nCD: {2}s",
+      "desc": "Summon a Chirpuff that self-inflates and blasts a powerful gust of wind forward {0} times. Each blast inflicts {1} Aero DMG and pushes enemies backwards.\n\nCD: {2}s",
       "simple_desc": "Summon a Chirpuff to blast a powerful gust of wind. Deals Aero DMG and knocks enemies back.",
       "param": [
         [
@@ -11175,7 +11175,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_295_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Viridblaze Saurian to continuously spit fire, dealing {0} Fusion DMG 10 times.\r\n\r\nCD: {1}s",
+      "desc": "Summon a Viridblaze Saurian to continuously spit fire, dealing {0} Fusion DMG 10 times.\n\nCD: {1}s",
       "simple_desc": "Summon a Viridblaze Saurian to continuously spit fire, dealing Fusion DMG.",
       "param": [
         [
@@ -11409,7 +11409,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_Mstskil_095_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Tick Tack that charges and bites the enemy. The charge from Tick Tack will deal {0} Havoc DMG to the enemy, and the bite will deal {1} Havoc DMG to the enemy. Reduces enemy Vibration Strength by up to {3} during {2}s.\r\n\r\nCD: {4}s",
+      "desc": "Summon a Tick Tack that charges and bites the enemy. The charge from Tick Tack will deal {0} Havoc DMG to the enemy, and the bite will deal {1} Havoc DMG to the enemy. Reduces enemy Vibration Strength by up to {3} during {2}s.\n\nCD: {4}s",
       "simple_desc": "Summon a Tick Tack that deals Havoc DMG and reduces enemy Vibration Strength.",
       "param": [
         [
@@ -15541,6 +15541,1839 @@
     "monsterInfo": 340000291
   },
   {
+    "id": "6000202",
+    "contentStatus": "live",
+    "name": "Smiter",
+    "code": "W40-",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "group": {
+      "33": {
+        "id": 33,
+        "name": "Song of Feathered Trace",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriYangyang.T_IconElementAttriYangyang",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "Energy Regen + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Upon inflicting Havoc Bane, gain Xuanling's Feather, which grants a {0} increase in Crit. Rate and {1} increase in Heavy Attack DMG Bonus to the Resonator, lasting {2}s.\nUpon inflicting Glacio Chafe, gain Chongming's Feather, which grants a {4} increase in ATK to Resonators in the team for every {3} of the Resonator's Energy Regen, up to {5}, lasting {6}s.",
+            "param": [
+              "20%",
+              "35%",
+              "15",
+              "1%",
+              "0.1%",
+              "25%",
+              "10"
+            ]
+          }
+        }
+      }
+    },
+    "assets": {
+      "icon": "Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31090_UI.webp",
+      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_31090_UI.webp"
+    },
+    "skill": {
+      "desc": "Use Echo Skill to summon a Smiter to jab at enemies, dealing 7 instances of {0} Spectro DMG, and finish with an uppercut, dealing {1} Spectro DMG.\n\nCD: {2}s",
+      "simple_desc": "Summon Smiter to deal Spectro DMG.",
+      "param": [
+        [
+          "10.70%",
+          "32.10%",
+          "15"
+        ],
+        [
+          "12.84%",
+          "38.52%",
+          "15"
+        ],
+        [
+          "14.98%",
+          "44.94%",
+          "15"
+        ],
+        [
+          "17.12%",
+          "51.36%",
+          "15"
+        ],
+        [
+          "19.26%",
+          "57.78%",
+          "15"
+        ]
+      ],
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31090_UI.T_MstSkil_31090_UI",
+      "damage": {
+        "20013501": {
+          "element": 5,
+          "related_property": "ATK",
+          "type": 5,
+          "rate_lv": [
+            1070,
+            1284,
+            1498,
+            1712,
+            1926
+          ],
+          "energy": 26,
+          "element_power": 0,
+          "hardness_lv": 10000,
+          "tough_lv": 1070,
+          "weakness_lvl": 0
+        },
+        "20013502": {
+          "element": 5,
+          "related_property": "ATK",
+          "type": 5,
+          "rate_lv": [
+            3210,
+            3852,
+            4494,
+            5136,
+            5778
+          ],
+          "energy": 80,
+          "element_power": 0,
+          "hardness_lv": 10000,
+          "tough_lv": 3210,
+          "weakness_lvl": 0
+        }
+      }
+    },
+    "monsterInfo": 310000900
+  },
+  {
+    "id": "6000203",
+    "contentStatus": "live",
+    "name": "Porcelain Picket",
+    "code": "R13-",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "group": {
+      "35": {
+        "id": 35,
+        "name": "Lamp of Nether Road",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriJingran.T_IconElementAttriJingran",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "HP + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Upon gaining a Shield, gain {0} increase in Crit. Rate for {2}s, max {1} stacks. This effect can be triggered every {3}s. At max stacks, gain {4} Fusion DMG Bonus.",
+            "param": [
+              "5%",
+              "4",
+              "5",
+              "0.5",
+              "15%"
+            ]
+          }
+        }
+      }
+    },
+    "assets": {
+      "icon": "Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31091_UI.webp",
+      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_31091_UI.webp"
+    },
+    "skill": {
+      "desc": "Use Echo Skill to summon a Porcelain Picket to slash forward, dealing 2 instances of {0} Aero DMG and 7 instances of {1} Aero DMG to enemies along the path.\n\nCD: {2}s",
+      "simple_desc": "Summon Porcelain Picket to deal Aero DMG.",
+      "param": [
+        [
+          "10.80%",
+          "7.20%",
+          "8"
+        ],
+        [
+          "12.96%",
+          "8.64%",
+          "8"
+        ],
+        [
+          "15.12%",
+          "10.08%",
+          "8"
+        ],
+        [
+          "17.28%",
+          "11.52%",
+          "8"
+        ],
+        [
+          "19.44%",
+          "12.96%",
+          "8"
+        ]
+      ],
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31091_UI.T_MstSkil_31091_UI",
+      "damage": {
+        "20013601": {
+          "element": 4,
+          "related_property": "ATK",
+          "type": 5,
+          "rate_lv": [
+            1080,
+            1296,
+            1512,
+            1728,
+            1944
+          ],
+          "energy": 27,
+          "element_power": 0,
+          "hardness_lv": 10000,
+          "tough_lv": 1080,
+          "weakness_lvl": 0
+        },
+        "20013602": {
+          "element": 4,
+          "related_property": "ATK",
+          "type": 5,
+          "rate_lv": [
+            720,
+            864,
+            1008,
+            1152,
+            1296
+          ],
+          "energy": 18,
+          "element_power": 0,
+          "hardness_lv": 10000,
+          "tough_lv": 720,
+          "weakness_lvl": 0
+        }
+      }
+    },
+    "monsterInfo": 310000910
+  },
+  {
+    "id": "6000204",
+    "contentStatus": "live",
+    "name": "Stone Picket",
+    "code": "R14-",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "group": {
+      "35": {
+        "id": 35,
+        "name": "Lamp of Nether Road",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriJingran.T_IconElementAttriJingran",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "HP + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Upon gaining a Shield, gain {0} increase in Crit. Rate for {2}s, max {1} stacks. This effect can be triggered every {3}s. At max stacks, gain {4} Fusion DMG Bonus.",
+            "param": [
+              "5%",
+              "4",
+              "5",
+              "0.5",
+              "15%"
+            ]
+          }
+        }
+      }
+    },
+    "assets": {
+      "icon": "Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31092_UI.webp",
+      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_31092_UI.webp"
+    },
+    "skill": {
+      "desc": "Use Echo Skill to summon a Stone Picket, dealing {0} Aero DMG.\n\nCD: {1}s",
+      "simple_desc": "Summon Stone Picket to deal Aero DMG.",
+      "param": [
+        [
+          "72.00%",
+          "8"
+        ],
+        [
+          "86.40%",
+          "8"
+        ],
+        [
+          "100.80%",
+          "8"
+        ],
+        [
+          "115.20%",
+          "8"
+        ],
+        [
+          "129.60%",
+          "8"
+        ]
+      ],
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31092_UI.T_MstSkil_31092_UI",
+      "damage": {
+        "20013701": {
+          "element": 4,
+          "related_property": "ATK",
+          "type": 5,
+          "rate_lv": [
+            7200,
+            8640,
+            10080,
+            11520,
+            12960
+          ],
+          "energy": 180,
+          "element_power": 0,
+          "hardness_lv": 10000,
+          "tough_lv": 7200,
+          "weakness_lvl": 0
+        }
+      }
+    },
+    "monsterInfo": 310000920
+  },
+  {
+    "id": "6000205",
+    "contentStatus": "live",
+    "name": "Aureate Picket",
+    "code": "R15-",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "group": {
+      "34": {
+        "id": 34,
+        "name": "Heart of Evil's Purge",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriQingxiao.T_IconElementAttriQingxiao",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "Aero DMG + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Inflicting Tune Strain - Shifting increases Crit. DMG by {0} and Aero DMG Bonus {1} for {2}s.",
+            "param": [
+              "20%",
+              "30%",
+              "15"
+            ]
+          }
+        }
+      }
+    },
+    "assets": {
+      "icon": "Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31093_UI.webp",
+      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_31093_UI.webp"
+    },
+    "skill": {
+      "desc": "Use Echo Skill to transform into an Aureate Picket, immediately recover {1} HP times plus an additional instance of {2} points of HP, then bash into enemies and deal {0} Aero DMG.\n\nCD: {3}s",
+      "simple_desc": "Transform into an Aureate Picket, immediately recover HP, then deal Aero DMG.",
+      "param": [
+        [
+          "85.50%",
+          "0.31%",
+          "24",
+          "8"
+        ],
+        [
+          "102.60%",
+          "0.37%",
+          "24",
+          "8"
+        ],
+        [
+          "119.70%",
+          "0.43%",
+          "24",
+          "8"
+        ],
+        [
+          "136.80%",
+          "0.49%",
+          "24",
+          "8"
+        ],
+        [
+          "153.90%",
+          "0.55%",
+          "24",
+          "8"
+        ]
+      ],
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31093_UI.T_MstSkil_31093_UI",
+      "damage": {
+        "20013801": {
+          "element": 4,
+          "related_property": "ATK",
+          "type": 5,
+          "rate_lv": [
+            8550,
+            10260,
+            11970,
+            13680,
+            15390
+          ],
+          "energy": 213,
+          "element_power": 0,
+          "hardness_lv": 10000,
+          "tough_lv": 8550,
+          "weakness_lvl": 0
+        },
+        "20013802": {
+          "element": 0,
+          "related_property": "HP",
+          "type": 5,
+          "rate_lv": [
+            31,
+            37,
+            43,
+            49,
+            55
+          ],
+          "energy": 0,
+          "element_power": 0,
+          "hardness_lv": 0,
+          "tough_lv": 0,
+          "weakness_lvl": 0
+        }
+      }
+    },
+    "monsterInfo": 310000930
+  },
+  {
+    "id": "6000206",
+    "contentStatus": "live",
+    "name": "Kernel Puppet: Joy",
+    "code": "R16-",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "group": {
+      "33": {
+        "id": 33,
+        "name": "Song of Feathered Trace",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriYangyang.T_IconElementAttriYangyang",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "Energy Regen + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Upon inflicting Havoc Bane, gain Xuanling's Feather, which grants a {0} increase in Crit. Rate and {1} increase in Heavy Attack DMG Bonus to the Resonator, lasting {2}s.\nUpon inflicting Glacio Chafe, gain Chongming's Feather, which grants a {4} increase in ATK to Resonators in the team for every {3} of the Resonator's Energy Regen, up to {5}, lasting {6}s.",
+            "param": [
+              "20%",
+              "35%",
+              "15",
+              "1%",
+              "0.1%",
+              "25%",
+              "10"
+            ]
+          }
+        }
+      }
+    },
+    "assets": {
+      "icon": "Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31094_UI.webp",
+      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_31094_UI.webp"
+    },
+    "skill": {
+      "desc": "Use Echo Skill to summon Kernel Puppet: Joy to attack enemies, dealing {0} Physical DMG.\n\nCD: {1}s",
+      "simple_desc": "Summon Kernel Puppet: Joy to attack enemies, dealing Physical DMG.",
+      "param": [
+        [
+          "72.00%",
+          "8"
+        ],
+        [
+          "86.40%",
+          "8"
+        ],
+        [
+          "100.80%",
+          "8"
+        ],
+        [
+          "115.20%",
+          "8"
+        ],
+        [
+          "129.60%",
+          "8"
+        ]
+      ],
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31094_UI.T_MstSkil_31094_UI",
+      "damage": {
+        "20013901": {
+          "element": 0,
+          "related_property": "ATK",
+          "type": 5,
+          "rate_lv": [
+            7200,
+            8640,
+            10080,
+            11520,
+            12960
+          ],
+          "energy": 180,
+          "element_power": 0,
+          "hardness_lv": 10000,
+          "tough_lv": 7200,
+          "weakness_lvl": 0
+        }
+      }
+    },
+    "monsterInfo": 310000940
+  },
+  {
+    "id": "6000207",
+    "contentStatus": "live",
+    "name": "Kernel Puppet: Anger",
+    "code": "R17-",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "group": {
+      "34": {
+        "id": 34,
+        "name": "Heart of Evil's Purge",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriQingxiao.T_IconElementAttriQingxiao",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "Aero DMG + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Inflicting Tune Strain - Shifting increases Crit. DMG by {0} and Aero DMG Bonus {1} for {2}s.",
+            "param": [
+              "20%",
+              "30%",
+              "15"
+            ]
+          }
+        }
+      }
+    },
+    "assets": {
+      "icon": "Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31095_UI.webp",
+      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_31095_UI.webp"
+    },
+    "skill": {
+      "desc": "Use Echo Skill to summon Kernel Puppet: Worry to attack enemies, dealing {0} Fusion DMG.\n\nCD: {1}s",
+      "simple_desc": "Summon Kernel Puppet: Anger to attack enemies, dealing Fusion DMG.",
+      "param": [
+        [
+          "72.00%",
+          "8"
+        ],
+        [
+          "86.40%",
+          "8"
+        ],
+        [
+          "100.80%",
+          "8"
+        ],
+        [
+          "115.20%",
+          "8"
+        ],
+        [
+          "129.60%",
+          "8"
+        ]
+      ],
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31095_UI.T_MstSkil_31095_UI",
+      "damage": {
+        "20014001": {
+          "element": 2,
+          "related_property": "ATK",
+          "type": 5,
+          "rate_lv": [
+            7200,
+            8640,
+            10080,
+            11520,
+            12960
+          ],
+          "energy": 180,
+          "element_power": 0,
+          "hardness_lv": 10000,
+          "tough_lv": 7200,
+          "weakness_lvl": 0
+        }
+      }
+    },
+    "monsterInfo": 310000950
+  },
+  {
+    "id": "6000208",
+    "contentStatus": "live",
+    "name": "Kernel Puppet: Worry",
+    "code": "R18-",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "group": {
+      "34": {
+        "id": 34,
+        "name": "Heart of Evil's Purge",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriQingxiao.T_IconElementAttriQingxiao",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "Aero DMG + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Inflicting Tune Strain - Shifting increases Crit. DMG by {0} and Aero DMG Bonus {1} for {2}s.",
+            "param": [
+              "20%",
+              "30%",
+              "15"
+            ]
+          }
+        }
+      }
+    },
+    "assets": {
+      "icon": "Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31096_UI.webp",
+      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_31096_UI.webp"
+    },
+    "skill": {
+      "desc": "Use Echo Skill to summon Kernel Puppet: Worry to attack enemies, dealing {0} Glacio DMG.\n\nCD: {1}s",
+      "simple_desc": "Summon Kernel Puppet: Worry to attack enemies, dealing Glacio DMG.",
+      "param": [
+        [
+          "36.00%",
+          "8"
+        ],
+        [
+          "43.20%",
+          "8"
+        ],
+        [
+          "50.40%",
+          "8"
+        ],
+        [
+          "57.60%",
+          "8"
+        ],
+        [
+          "64.80%",
+          "8"
+        ]
+      ],
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31096_UI.T_MstSkil_31096_UI",
+      "damage": {
+        "20014101": {
+          "element": 1,
+          "related_property": "ATK",
+          "type": 5,
+          "rate_lv": [
+            3600,
+            4320,
+            5040,
+            5760,
+            6480
+          ],
+          "energy": 90,
+          "element_power": 0,
+          "hardness_lv": 10000,
+          "tough_lv": 3600,
+          "weakness_lvl": 0
+        },
+        "20014102": {
+          "element": 1,
+          "related_property": "ATK",
+          "type": 5,
+          "rate_lv": [
+            3600,
+            4320,
+            5040,
+            5760,
+            6480
+          ],
+          "energy": 90,
+          "element_power": 0,
+          "hardness_lv": 10000,
+          "tough_lv": 3600,
+          "weakness_lvl": 0
+        }
+      }
+    },
+    "monsterInfo": 310000960
+  },
+  {
+    "id": "6000209",
+    "contentStatus": "live",
+    "name": "Kernel Puppet: Reflection",
+    "code": "R19-",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "group": {
+      "34": {
+        "id": 34,
+        "name": "Heart of Evil's Purge",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriQingxiao.T_IconElementAttriQingxiao",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "Aero DMG + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Inflicting Tune Strain - Shifting increases Crit. DMG by {0} and Aero DMG Bonus {1} for {2}s.",
+            "param": [
+              "20%",
+              "30%",
+              "15"
+            ]
+          }
+        }
+      }
+    },
+    "assets": {
+      "icon": "Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31097_UI.webp",
+      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_31097_UI.webp"
+    },
+    "skill": {
+      "desc": "Use Echo Skill to summon Kernel Puppet: Reflection to attack enemies, dealing {0} Electro DMG.\n\nCD: {1}s",
+      "simple_desc": "Summon Kernel Puppet: Reflection to attack enemies, dealing Electro DMG.",
+      "param": [
+        [
+          "36.00%",
+          "8"
+        ],
+        [
+          "43.20%",
+          "8"
+        ],
+        [
+          "50.40%",
+          "8"
+        ],
+        [
+          "57.60%",
+          "8"
+        ],
+        [
+          "64.80%",
+          "8"
+        ]
+      ],
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31097_UI.T_MstSkil_31097_UI",
+      "damage": {
+        "20014201": {
+          "element": 3,
+          "related_property": "ATK",
+          "type": 5,
+          "rate_lv": [
+            3600,
+            4320,
+            5040,
+            5760,
+            6480
+          ],
+          "energy": 90,
+          "element_power": 0,
+          "hardness_lv": 10000,
+          "tough_lv": 3600,
+          "weakness_lvl": 0
+        }
+      }
+    },
+    "monsterInfo": 310000970
+  },
+  {
+    "id": "6000210",
+    "contentStatus": "live",
+    "name": "Kernel Puppet: Grief",
+    "code": "R20-",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "group": {
+      "35": {
+        "id": 35,
+        "name": "Lamp of Nether Road",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriJingran.T_IconElementAttriJingran",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "HP + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Upon gaining a Shield, gain {0} increase in Crit. Rate for {2}s, max {1} stacks. This effect can be triggered every {3}s. At max stacks, gain {4} Fusion DMG Bonus.",
+            "param": [
+              "5%",
+              "4",
+              "5",
+              "0.5",
+              "15%"
+            ]
+          }
+        }
+      }
+    },
+    "assets": {
+      "icon": "Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31098_UI.webp",
+      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_31098_UI.webp"
+    },
+    "skill": {
+      "desc": "Use Echo Skill to summon Kernel Puppet: Grief to attack enemies, dealing {0} Spectro DMG.\n\nCD: {1}s",
+      "simple_desc": "Summon Kernel Puppet: Grief to attack enemies, dealing Spectro DMG.",
+      "param": [
+        [
+          "72.00%",
+          "8"
+        ],
+        [
+          "86.40%",
+          "8"
+        ],
+        [
+          "100.80%",
+          "8"
+        ],
+        [
+          "115.20%",
+          "8"
+        ],
+        [
+          "129.60%",
+          "8"
+        ]
+      ],
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31098_UI.T_MstSkil_31098_UI",
+      "damage": {
+        "20014301": {
+          "element": 5,
+          "related_property": "ATK",
+          "type": 5,
+          "rate_lv": [
+            7200,
+            8640,
+            10080,
+            11520,
+            12960
+          ],
+          "energy": 180,
+          "element_power": 0,
+          "hardness_lv": 10000,
+          "tough_lv": 7200,
+          "weakness_lvl": 0
+        }
+      }
+    },
+    "monsterInfo": 310000980
+  },
+  {
+    "id": "6000211",
+    "contentStatus": "live",
+    "name": "Kernel Puppet: Fright",
+    "code": "R21-",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "group": {
+      "35": {
+        "id": 35,
+        "name": "Lamp of Nether Road",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriJingran.T_IconElementAttriJingran",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "HP + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Upon gaining a Shield, gain {0} increase in Crit. Rate for {2}s, max {1} stacks. This effect can be triggered every {3}s. At max stacks, gain {4} Fusion DMG Bonus.",
+            "param": [
+              "5%",
+              "4",
+              "5",
+              "0.5",
+              "15%"
+            ]
+          }
+        }
+      }
+    },
+    "assets": {
+      "icon": "Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31099_UI.webp",
+      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_31099_UI.webp"
+    },
+    "skill": {
+      "desc": "Use Echo Skill to summon Kernel Puppet: Fright to attack enemies, dealing an instance of {0} Havoc DMG and an instance of {1} Havoc DMG.\n\nCD: {2}s",
+      "simple_desc": "Summon Kernel Puppet: Fright to attack enemies, dealing Havoc DMG.",
+      "param": [
+        [
+          "28.80%",
+          "43.20%",
+          "8"
+        ],
+        [
+          "34.56%",
+          "51.84%",
+          "8"
+        ],
+        [
+          "40.32%",
+          "60.48%",
+          "8"
+        ],
+        [
+          "46.08%",
+          "69.12%",
+          "8"
+        ],
+        [
+          "51.84%",
+          "77.76%",
+          "8"
+        ]
+      ],
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31099_UI.T_MstSkil_31099_UI",
+      "damage": {
+        "20014401": {
+          "element": 6,
+          "related_property": "ATK",
+          "type": 5,
+          "rate_lv": [
+            2880,
+            3456,
+            4032,
+            4608,
+            5184
+          ],
+          "energy": 72,
+          "element_power": 0,
+          "hardness_lv": 10000,
+          "tough_lv": 2880,
+          "weakness_lvl": 0
+        },
+        "20014402": {
+          "element": 6,
+          "related_property": "ATK",
+          "type": 5,
+          "rate_lv": [
+            4320,
+            5184,
+            6048,
+            6912,
+            7776
+          ],
+          "energy": 108,
+          "element_power": 0,
+          "hardness_lv": 10000,
+          "tough_lv": 4320,
+          "weakness_lvl": 0
+        }
+      }
+    },
+    "monsterInfo": 310000990
+  },
+  {
+    "id": "6000212",
+    "contentStatus": "live",
+    "name": "Fog Lionarch: Body",
+    "code": "R22-",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "group": {
+      "33": {
+        "id": 33,
+        "name": "Song of Feathered Trace",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriYangyang.T_IconElementAttriYangyang",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "Energy Regen + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Upon inflicting Havoc Bane, gain Xuanling's Feather, which grants a {0} increase in Crit. Rate and {1} increase in Heavy Attack DMG Bonus to the Resonator, lasting {2}s.\nUpon inflicting Glacio Chafe, gain Chongming's Feather, which grants a {4} increase in ATK to Resonators in the team for every {3} of the Resonator's Energy Regen, up to {5}, lasting {6}s.",
+            "param": [
+              "20%",
+              "35%",
+              "15",
+              "1%",
+              "0.1%",
+              "25%",
+              "10"
+            ]
+          }
+        }
+      }
+    },
+    "assets": {
+      "icon": "Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31100_UI.webp",
+      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_31100_UI.webp"
+    },
+    "skill": {
+      "desc": "Use Echo Skill to summon Fog Lionarch: Body to ram into enemies, dealing {0} Fusion DMG.\n\nCD: {1}s",
+      "simple_desc": "Summon Fog Lionarch: Body to attack enemies, dealing Fusion DMG.",
+      "param": [
+        [
+          "107.00%",
+          "15"
+        ],
+        [
+          "128.40%",
+          "15"
+        ],
+        [
+          "149.80%",
+          "15"
+        ],
+        [
+          "171.20%",
+          "15"
+        ],
+        [
+          "192.60%",
+          "15"
+        ]
+      ],
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31100_UI.T_MstSkil_31100_UI",
+      "damage": {
+        "20014502": {
+          "element": 2,
+          "related_property": "ATK",
+          "type": 5,
+          "rate_lv": [
+            10700,
+            12840,
+            14980,
+            17120,
+            19260
+          ],
+          "energy": 267,
+          "element_power": 0,
+          "hardness_lv": 10000,
+          "tough_lv": 10700,
+          "weakness_lvl": 0
+        }
+      }
+    },
+    "monsterInfo": 310001000
+  },
+  {
+    "id": "6000213",
+    "contentStatus": "live",
+    "name": "Fog Lionarch: Head",
+    "code": "R23-",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "group": {
+      "33": {
+        "id": 33,
+        "name": "Song of Feathered Trace",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriYangyang.T_IconElementAttriYangyang",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "Energy Regen + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Upon inflicting Havoc Bane, gain Xuanling's Feather, which grants a {0} increase in Crit. Rate and {1} increase in Heavy Attack DMG Bonus to the Resonator, lasting {2}s.\nUpon inflicting Glacio Chafe, gain Chongming's Feather, which grants a {4} increase in ATK to Resonators in the team for every {3} of the Resonator's Energy Regen, up to {5}, lasting {6}s.",
+            "param": [
+              "20%",
+              "35%",
+              "15",
+              "1%",
+              "0.1%",
+              "25%",
+              "10"
+            ]
+          }
+        }
+      }
+    },
+    "assets": {
+      "icon": "Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31101_UI.webp",
+      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_31101_UI.webp"
+    },
+    "skill": {
+      "desc": "Use Echo Skill to summon Fog Lionarch: Head to dart toward enemies, dealing {0} Fusion DMG.\n\nCD: {1}s",
+      "simple_desc": "Summon Fog Lionarch: Head to attack enemies, dealing Fusion DMG.",
+      "param": [
+        [
+          "72.00%",
+          "8"
+        ],
+        [
+          "86.40%",
+          "8"
+        ],
+        [
+          "100.80%",
+          "8"
+        ],
+        [
+          "115.20%",
+          "8"
+        ],
+        [
+          "129.60%",
+          "8"
+        ]
+      ],
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31101_UI.T_MstSkil_31101_UI",
+      "damage": {
+        "20014601": {
+          "element": 2,
+          "related_property": "ATK",
+          "type": 5,
+          "rate_lv": [
+            7200,
+            8640,
+            10080,
+            11520,
+            12960
+          ],
+          "energy": 180,
+          "element_power": 0,
+          "hardness_lv": 10000,
+          "tough_lv": 7200,
+          "weakness_lvl": 0
+        }
+      }
+    },
+    "monsterInfo": 310001010
+  },
+  {
+    "id": "6000214",
+    "contentStatus": "live",
+    "name": "Smolder",
+    "code": "W41-",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "group": {
+      "33": {
+        "id": 33,
+        "name": "Song of Feathered Trace",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriYangyang.T_IconElementAttriYangyang",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "Energy Regen + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Upon inflicting Havoc Bane, gain Xuanling's Feather, which grants a {0} increase in Crit. Rate and {1} increase in Heavy Attack DMG Bonus to the Resonator, lasting {2}s.\nUpon inflicting Glacio Chafe, gain Chongming's Feather, which grants a {4} increase in ATK to Resonators in the team for every {3} of the Resonator's Energy Regen, up to {5}, lasting {6}s.",
+            "param": [
+              "20%",
+              "35%",
+              "15",
+              "1%",
+              "0.1%",
+              "25%",
+              "10"
+            ]
+          }
+        }
+      }
+    },
+    "assets": {
+      "icon": "Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31102_UI.webp",
+      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_31102_UI.webp"
+    },
+    "skill": {
+      "desc": "Use Echo Skill to summon Smolder to hurl fireballs toward enemies, dealing {0} Fusion DMG. If the fireball hits the ground, it explodes to deal {0} Fusion DMG to all enemies within the range.\n\nCD: {1}s",
+      "simple_desc": "Summon Smolder to attack enemies, dealing Fusion DMG.",
+      "param": [
+        [
+          "107.00%",
+          "15"
+        ],
+        [
+          "128.40%",
+          "15"
+        ],
+        [
+          "149.80%",
+          "15"
+        ],
+        [
+          "171.20%",
+          "15"
+        ],
+        [
+          "192.60%",
+          "15"
+        ]
+      ],
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31102_UI.T_MstSkil_31102_UI",
+      "damage": {
+        "20014701": {
+          "element": 2,
+          "related_property": "ATK",
+          "type": 5,
+          "rate_lv": [
+            10700,
+            12840,
+            14980,
+            17120,
+            19260
+          ],
+          "energy": 267,
+          "element_power": 0,
+          "hardness_lv": 10000,
+          "tough_lv": 10700,
+          "weakness_lvl": 0
+        }
+      }
+    },
+    "monsterInfo": 310001020
+  },
+  {
+    "id": "6000215",
+    "contentStatus": "live",
+    "name": "Fog Lionarch",
+    "code": "R69-",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intensity": 1,
+    "group": {
+      "33": {
+        "id": 33,
+        "name": "Song of Feathered Trace",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriYangyang.T_IconElementAttriYangyang",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "Energy Regen + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Upon inflicting Havoc Bane, gain Xuanling's Feather, which grants a {0} increase in Crit. Rate and {1} increase in Heavy Attack DMG Bonus to the Resonator, lasting {2}s.\nUpon inflicting Glacio Chafe, gain Chongming's Feather, which grants a {4} increase in ATK to Resonators in the team for every {3} of the Resonator's Energy Regen, up to {5}, lasting {6}s.",
+            "param": [
+              "20%",
+              "35%",
+              "15",
+              "1%",
+              "0.1%",
+              "25%",
+              "10"
+            ]
+          }
+        }
+      },
+      "34": {
+        "id": 34,
+        "name": "Heart of Evil's Purge",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriQingxiao.T_IconElementAttriQingxiao",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "Aero DMG + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Inflicting Tune Strain - Shifting increases Crit. DMG by {0} and Aero DMG Bonus {1} for {2}s.",
+            "param": [
+              "20%",
+              "30%",
+              "15"
+            ]
+          }
+        }
+      },
+      "35": {
+        "id": 35,
+        "name": "Lamp of Nether Road",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriJingran.T_IconElementAttriJingran",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "HP + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Upon gaining a Shield, gain {0} increase in Crit. Rate for {2}s, max {1} stacks. This effect can be triggered every {3}s. At max stacks, gain {4} Fusion DMG Bonus.",
+            "param": [
+              "5%",
+              "4",
+              "5",
+              "0.5",
+              "15%"
+            ]
+          }
+        }
+      }
+    },
+    "assets": {
+      "icon": "Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32067_UI.webp",
+      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_32067_UI.webp"
+    },
+    "skill": {
+      "desc": "Use Echo Skill to summon Fog Lionarch to spit fire toward enemies, dealing 7 stages of {0} Fusion DMG.\n\nCD: {1}s",
+      "simple_desc": "Summon Fog Lionarch to attack enemies, dealing Fusion DMG.",
+      "param": [
+        [
+          "18.85%",
+          "20"
+        ],
+        [
+          "22.62%",
+          "20"
+        ],
+        [
+          "26.39%",
+          "20"
+        ],
+        [
+          "30.16%",
+          "20"
+        ],
+        [
+          "33.93%",
+          "20"
+        ]
+      ],
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_32067_UI.T_MstSkil_32067_UI",
+      "damage": {
+        "20014801": {
+          "element": 2,
+          "related_property": "ATK",
+          "type": 5,
+          "rate_lv": [
+            1885,
+            2262,
+            2639,
+            3016,
+            3393
+          ],
+          "energy": 47,
+          "element_power": 0,
+          "hardness_lv": 10000,
+          "tough_lv": 1885,
+          "weakness_lvl": 0
+        }
+      }
+    },
+    "monsterInfo": 320000670
+  },
+  {
+    "id": "6000216",
+    "contentStatus": "live",
+    "name": "Forbidden Bastion",
+    "code": "R70-",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intensity": 1,
+    "group": {
+      "33": {
+        "id": 33,
+        "name": "Song of Feathered Trace",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriYangyang.T_IconElementAttriYangyang",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "Energy Regen + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Upon inflicting Havoc Bane, gain Xuanling's Feather, which grants a {0} increase in Crit. Rate and {1} increase in Heavy Attack DMG Bonus to the Resonator, lasting {2}s.\nUpon inflicting Glacio Chafe, gain Chongming's Feather, which grants a {4} increase in ATK to Resonators in the team for every {3} of the Resonator's Energy Regen, up to {5}, lasting {6}s.",
+            "param": [
+              "20%",
+              "35%",
+              "15",
+              "1%",
+              "0.1%",
+              "25%",
+              "10"
+            ]
+          }
+        }
+      },
+      "34": {
+        "id": 34,
+        "name": "Heart of Evil's Purge",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriQingxiao.T_IconElementAttriQingxiao",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "Aero DMG + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Inflicting Tune Strain - Shifting increases Crit. DMG by {0} and Aero DMG Bonus {1} for {2}s.",
+            "param": [
+              "20%",
+              "30%",
+              "15"
+            ]
+          }
+        }
+      },
+      "35": {
+        "id": 35,
+        "name": "Lamp of Nether Road",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriJingran.T_IconElementAttriJingran",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "HP + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Upon gaining a Shield, gain {0} increase in Crit. Rate for {2}s, max {1} stacks. This effect can be triggered every {3}s. At max stacks, gain {4} Fusion DMG Bonus.",
+            "param": [
+              "5%",
+              "4",
+              "5",
+              "0.5",
+              "15%"
+            ]
+          }
+        }
+      }
+    },
+    "assets": {
+      "icon": "Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32068_UI.webp",
+      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_32068_UI.webp"
+    },
+    "skill": {
+      "desc": "Use Echo Skill to summon Forbidden Bastion to bash over enemies, dealing {0} Glacio DMG.\n\nResonators with this Echo equipped in the main slot gain {2} Healing Bonus.\n\nCD: {1}s",
+      "simple_desc": "Summon Forbidden Bastion to attack enemies, dealing Glacio DMG.\nResonators with this Echo equipped in the main slot gain Healing Bonus.",
+      "param": [
+        [
+          "132.00%",
+          "20",
+          "10.00%"
+        ],
+        [
+          "158.40%",
+          "20",
+          "10.00%"
+        ],
+        [
+          "184.80%",
+          "20",
+          "10.00%"
+        ],
+        [
+          "211.20%",
+          "20",
+          "10.00%"
+        ],
+        [
+          "237.60%",
+          "20",
+          "10.00%"
+        ]
+      ],
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_32068_UI.T_MstSkil_32068_UI",
+      "damage": {
+        "20014901": {
+          "element": 1,
+          "related_property": "ATK",
+          "type": 5,
+          "rate_lv": [
+            13200,
+            15840,
+            18480,
+            21120,
+            23760
+          ],
+          "energy": 330,
+          "element_power": 0,
+          "hardness_lv": 10000,
+          "tough_lv": 13200,
+          "weakness_lvl": 0
+        }
+      }
+    },
+    "monsterInfo": 320000680
+  },
+  {
+    "id": "6000217",
+    "contentStatus": "live",
+    "name": "Myriad Snare: Rustfire Chassis",
+    "code": "R71-",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intensity": 2,
+    "group": {
+      "34": {
+        "id": 34,
+        "name": "Heart of Evil's Purge",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriQingxiao.T_IconElementAttriQingxiao",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "Aero DMG + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Inflicting Tune Strain - Shifting increases Crit. DMG by {0} and Aero DMG Bonus {1} for {2}s.",
+            "param": [
+              "20%",
+              "30%",
+              "15"
+            ]
+          }
+        }
+      },
+      "35": {
+        "id": 35,
+        "name": "Lamp of Nether Road",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriJingran.T_IconElementAttriJingran",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "HP + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Upon gaining a Shield, gain {0} increase in Crit. Rate for {2}s, max {1} stacks. This effect can be triggered every {3}s. At max stacks, gain {4} Fusion DMG Bonus.",
+            "param": [
+              "5%",
+              "4",
+              "5",
+              "0.5",
+              "15%"
+            ]
+          }
+        }
+      }
+    },
+    "assets": {
+      "icon": "Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34030_UI.webp",
+      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34030_UI.webp"
+    },
+    "skill": {
+      "desc": "Summon Myriad Snare: Rustfire Chassis, dealing Fusion DMG equal to {0} of the Max HP on initial impact. During its duration, it repeatedly crushes enemies along its path up to {5} times, dealing Fusion DMG equal to {1} of the Max HP each time.\n\nResonators with this Echo equipped in the main slot gain {2} Fusion DMG Bonus and {3} Heavy Attack DMG Bonus.\n\nCD: {4}s",
+      "simple_desc": "Summon Myriad Snare: Rustfire Chassis to attack enemies, dealing Fusion DMG.\nResonators with this Echo equipped in the main slot deal higher Fusion and Heavy Attack DMG.",
+      "param": [
+        [
+          "5.67%",
+          "0.20%",
+          "12.00%",
+          "12.00%",
+          "20",
+          "19"
+        ],
+        [
+          "6.80%",
+          "0.24%",
+          "12.00%",
+          "12.00%",
+          "20",
+          "19"
+        ],
+        [
+          "7.93%",
+          "0.29%",
+          "12.00%",
+          "12.00%",
+          "20",
+          "19"
+        ],
+        [
+          "9.07%",
+          "0.33%",
+          "12.00%",
+          "12.00%",
+          "20",
+          "19"
+        ],
+        [
+          "10.20%",
+          "0.37%",
+          "12.00%",
+          "12.00%",
+          "20",
+          "19"
+        ]
+      ],
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34030_UI.T_MstSkil_34030_UI",
+      "damage": {
+        "28004201": {
+          "element": 2,
+          "related_property": "HP",
+          "type": 5,
+          "rate_lv": [
+            567,
+            680,
+            793,
+            907,
+            1020
+          ],
+          "energy": 380,
+          "element_power": 0,
+          "hardness_lv": 10000,
+          "tough_lv": 567,
+          "weakness_lvl": 0
+        },
+        "28004202": {
+          "element": 2,
+          "related_property": "HP",
+          "type": 5,
+          "rate_lv": [
+            20,
+            24,
+            29,
+            33,
+            37
+          ],
+          "energy": 0,
+          "element_power": 0,
+          "hardness_lv": 10000,
+          "tough_lv": 20,
+          "weakness_lvl": 0
+        }
+      }
+    },
+    "monsterInfo": 340000300
+  },
+  {
+    "id": "6000218",
+    "contentStatus": "live",
+    "name": "Thousand-Puppet Pavilion",
+    "code": "N91-",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intensity": 3,
+    "group": {
+      "33": {
+        "id": 33,
+        "name": "Song of Feathered Trace",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriYangyang.T_IconElementAttriYangyang",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "Energy Regen + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Upon inflicting Havoc Bane, gain Xuanling's Feather, which grants a {0} increase in Crit. Rate and {1} increase in Heavy Attack DMG Bonus to the Resonator, lasting {2}s.\nUpon inflicting Glacio Chafe, gain Chongming's Feather, which grants a {4} increase in ATK to Resonators in the team for every {3} of the Resonator's Energy Regen, up to {5}, lasting {6}s.",
+            "param": [
+              "20%",
+              "35%",
+              "15",
+              "1%",
+              "0.1%",
+              "25%",
+              "10"
+            ]
+          }
+        }
+      }
+    },
+    "assets": {
+      "icon": "Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34031_UI.webp",
+      "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34031_UI.webp"
+    },
+    "skill": {
+      "desc": "Use Echo Skill to attack nearby enemies, dealing {1} Havoc DMG and summoning 4 Blades of Thousand Memories that last {5}s.\n\nWhile Blades of Thousand Memories last, when the Resonator inflicts Havoc Bane, consume 1 Blade of Thousand Memories to deal {0} Havoc DMG once to the target. This effect can be triggered once every {6}s.\n\nResonators with this Echo equipped in the main slot gain {2} Havoc DMG and {3} Heavy Attack DMG.\n\nCD: {4}s",
+      "simple_desc": "Deal Havoc DMG to nearby targets and summon Blades of Thousand Memories. When inflicting Havoc Bane, consume a Blade of Thousand Memories to deal Havoc DMG.",
+      "param": [
+        [
+          "22.80%",
+          "60.80%",
+          "12.00%",
+          "12.00%",
+          "20",
+          "15",
+          "1"
+        ],
+        [
+          "27.36%",
+          "72.96%",
+          "12.00%",
+          "12.00%",
+          "20",
+          "15",
+          "1"
+        ],
+        [
+          "31.92%",
+          "85.12%",
+          "12.00%",
+          "12.00%",
+          "20",
+          "15",
+          "1"
+        ],
+        [
+          "36.48%",
+          "97.28%",
+          "12.00%",
+          "12.00%",
+          "20",
+          "15",
+          "1"
+        ],
+        [
+          "41.04%",
+          "109.44%",
+          "12.00%",
+          "12.00%",
+          "20",
+          "15",
+          "1"
+        ]
+      ],
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34031_UI.T_MstSkil_34031_UI",
+      "damage": {
+        "28004301": {
+          "element": 6,
+          "related_property": "ATK",
+          "type": 5,
+          "rate_lv": [
+            2280,
+            2736,
+            3192,
+            3648,
+            4104
+          ],
+          "energy": 57,
+          "element_power": 0,
+          "hardness_lv": 10000,
+          "tough_lv": 2280,
+          "weakness_lvl": 0
+        },
+        "28004303": {
+          "element": 6,
+          "related_property": "ATK",
+          "type": 5,
+          "rate_lv": [
+            6080,
+            7296,
+            8512,
+            9728,
+            10944
+          ],
+          "energy": 152,
+          "element_power": 0,
+          "hardness_lv": 10000,
+          "tough_lv": 6080,
+          "weakness_lvl": 0
+        }
+      }
+    },
+    "monsterInfo": 340000310
+  },
+  {
     "id": "390070051",
     "contentStatus": "live",
     "name": "Vanguard Junrock",
@@ -15626,7 +17459,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_Z_Z2_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Vanguard Junrock that charges forward, dealing {0} Physical DMG to enemies in its path.\r\n\r\nCD: {1}s",
+      "desc": "Summon a Vanguard Junrock that charges forward, dealing {0} Physical DMG to enemies in its path.\n\nCD: {1}s",
       "simple_desc": "Summon a Vanguard Junrock that charges forward, dealing Physical DMG to enemies in its path.",
       "param": [
         [
@@ -15858,7 +17691,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_Z_Z1_UI.webp"
     },
     "skill": {
-      "desc": "Summon an Electro Predator to shoot the enemy 5 times. The first 4 shots deals {0} Electro DMG, and the last deals {1} Electro DMG.\r\n\r\nCD: {2}s",
+      "desc": "Summon an Electro Predator to shoot the enemy 5 times. The first 4 shots deals {0} Electro DMG, and the last deals {1} Electro DMG.\n\nCD: {2}s",
       "simple_desc": "Summon an Electro Predator to fire a rain of arrows, dealing Electro DMG.",
       "param": [
         [
@@ -16290,7 +18123,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_Z_Z11_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Snip Snap that throws fireballs at the enemy, dealing {0} Fusion DMG on-hit.\r\n\r\nCD: {1}s",
+      "desc": "Summon a Snip Snap that throws fireballs at the enemy, dealing {0} Fusion DMG on-hit.\n\nCD: {1}s",
       "simple_desc": "Summon a Snip Snap that throws fireballs, dealing Fusion DMG.",
       "param": [
         [
@@ -16544,7 +18377,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_Z_Z12_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Whiff Whaff that triggers an air explosion, dealing {0} Aero DMG and produce a Low-pressure Zone. The Low-pressure Zone continuously pulls enemies nearby towards the center for {1}s, dealing {2} Aero DMG up to 6 times.\r\n\r\nCD: {3}s",
+      "desc": "Summon a Whiff Whaff that triggers an air explosion, dealing {0} Aero DMG and produce a Low-pressure Zone. The Low-pressure Zone continuously pulls enemies nearby towards the center for {1}s, dealing {2} Aero DMG up to 6 times.\n\nCD: {3}s",
       "simple_desc": "Summon a Whiff Whaff that deals Aero DMG and produces a Low-pressure Zone.",
       "param": [
         [
@@ -16705,7 +18538,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_Mstskil_095_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Tick Tack that charges and bites the enemy. The charge from Tick Tack will deal {0} Havoc DMG to the enemy, and the bite will deal {1} Havoc DMG to the enemy. Reduces enemy Vibration Strength by up to {3} during {2}s.\r\n\r\nCD: {4}s",
+      "desc": "Summon a Tick Tack that charges and bites the enemy. The charge from Tick Tack will deal {0} Havoc DMG to the enemy, and the bite will deal {1} Havoc DMG to the enemy. Reduces enemy Vibration Strength by up to {3} during {2}s.\n\nCD: {4}s",
       "simple_desc": "Summon a Tick Tack that deals Havoc DMG and reduces enemy Vibration Strength.",
       "param": [
         [
@@ -17129,7 +18962,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_255_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Cruisewing that restores HP for all current team characters by {0} of their Max HPs plus an additional {1} points of HP, up to 4 times.\r\n\r\nCD: {2}s",
+      "desc": "Summon a Cruisewing that restores HP for all current team characters by {0} of their Max HPs plus an additional {1} points of HP, up to 4 times.\n\nCD: {2}s",
       "simple_desc": "Summon a Cruisewing to heal friendly units.",
       "param": [
         [
@@ -17264,7 +19097,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_265_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Sabyr Boar to headbutt the enemy into the air, dealing {0} Physical DMG.\r\n\r\nCD: {1}s",
+      "desc": "Summon a Sabyr Boar to headbutt the enemy into the air, dealing {0} Physical DMG.\n\nCD: {1}s",
       "simple_desc": "Summon a Sabyr Boar to charge and deal Physical DMG.",
       "param": [
         [
@@ -17369,7 +19202,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_115_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Gulpuff that blows bubbles {0} times, each time dealing {1} Glacio DMG.\r\n\r\nCD: {2}s",
+      "desc": "Summon a Gulpuff that blows bubbles {0} times, each time dealing {1} Glacio DMG.\n\nCD: {2}s",
       "simple_desc": "Summon a Gulpuff to blow bubbles and deal Glacio DMG.",
       "param": [
         [
@@ -17800,7 +19633,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_980_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Fusion Dreadmane that fiercely strikes the enemy, dealing {0} Fusion DMG.\r\n\r\nCD: {1}s",
+      "desc": "Summon a Fusion Dreadmane that fiercely strikes the enemy, dealing {0} Fusion DMG.\n\nCD: {1}s",
       "simple_desc": "Summon a Fusion Dreadmane to fiercely strike the enemies, dealing Fusion DMG.",
       "param": [
         [
@@ -18236,7 +20069,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_Z_Z6_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Fusion Prism to fire a crystal shard, dealing {0} Fusion DMG.\r\n\r\nCD: {1}s",
+      "desc": "Summon a Fusion Prism to fire a crystal shard, dealing {0} Fusion DMG.\n\nCD: {1}s",
       "simple_desc": "Summon a Fusion Prism that deals Fusion DMG with crystal shards.",
       "param": [
         [
@@ -18493,7 +20326,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_Z_Z7_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Spectro Prism to emit a laser that hits the enemy up to {0} times, dealing {1} Spectro DMG each time.\r\n\r\nCD: {2}s",
+      "desc": "Summon a Spectro Prism to emit a laser that hits the enemy up to {0} times, dealing {1} Spectro DMG each time.\n\nCD: {2}s",
       "simple_desc": "Summon a Spectro Prism that deals Spectro DMG with laser.",
       "param": [
         [
@@ -18629,7 +20462,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_Z_Z4_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Havoc Prism to fire five crystal shards, each dealing {0} Havoc DMG.\r\n\r\nCD: {1}s",
+      "desc": "Summon a Havoc Prism to fire five crystal shards, each dealing {0} Havoc DMG.\n\nCD: {1}s",
       "simple_desc": "Summon a Havoc Prism that deals Havoc DMG with crystal shards.",
       "param": [
         [
@@ -18883,7 +20716,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_Z_B6_UI.webp"
     },
     "skill": {
-      "desc": "Transform into Flautist, continuously emitting Electro lasers, dealing {0} Electro DMG for a total of 10 times. Gain {1} Concerto Energy every time a hit lands.\r\n\r\nCD: {2}s",
+      "desc": "Transform into Flautist, continuously emitting Electro lasers, dealing {0} Electro DMG for a total of 10 times. Gain {1} Concerto Energy every time a hit lands.\n\nCD: {2}s",
       "simple_desc": "Transform into Flautist to deal Electro DMG and recover Concerto Energy on hit.",
       "param": [
         [
@@ -19281,7 +21114,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_Z_B9_UI.webp"
     },
     "skill": {
-      "desc": "Transform into Chasm Guardian to perform a Leap Strike that deals {0} Havoc DMG on hit. Current character loses {1} HP after the hit lands. Periodically restore current character's HP after {2}s for up to {3} of their Max HP.\r\n\r\nCD: {4}s",
+      "desc": "Transform into Chasm Guardian to perform a Leap Strike that deals {0} Havoc DMG on hit. Current character loses {1} HP after the hit lands. Periodically restore current character's HP after {2}s for up to {3} of their Max HP.\n\nCD: {4}s",
       "simple_desc": "Transform into Chasm Guardian to perform a powerful strike that deals Havoc DMG. Lose some HP on hit and then recover HP over time.",
       "param": [
         [
@@ -19431,7 +21264,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_295_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Viridblaze Saurian to continuously spit fire, dealing {0} Fusion DMG 10 times.\r\n\r\nCD: {1}s",
+      "desc": "Summon a Viridblaze Saurian to continuously spit fire, dealing {0} Fusion DMG 10 times.\n\nCD: {1}s",
       "simple_desc": "Summon a Viridblaze Saurian to continuously spit fire, dealing Fusion DMG.",
       "param": [
         [
@@ -19825,7 +21658,7 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_986_UI.webp"
     },
     "skill": {
-      "desc": "Summon a Spearback to perform 5 consecutive attacks. The first 4 attacks deal {0} Physical DMG, and the last deals {1} Physical DMG.\r\n\r\nCD: {2}s",
+      "desc": "Summon a Spearback to perform 5 consecutive attacks. The first 4 attacks deal {0} Physical DMG, and the last deals {1} Physical DMG.\n\nCD: {2}s",
       "simple_desc": "Summon a Spearback to perform continuous claw strikes, dealing Physical DMG.",
       "param": [
         [

@@ -285,12 +285,6 @@
     {
       "type": 2,
       "title": "Heavy Attack: I",
-      "content": "RAAAAH! AHAHAHA!",
-      "voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_libeika_atk_heavyatk01_01.play_favor_word_libeika_atk_heavyatk01_01"
-    },
-    {
-      "type": 2,
-      "title": "Heavy Attack: I",
       "content": "Do your worst, leadhead!",
       "voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_libeika_atk_heavyatk01_sp_01.play_favor_word_libeika_atk_heavyatk01_sp_01"
     },

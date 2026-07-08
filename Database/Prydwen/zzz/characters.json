@@ -93,7 +93,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 46
+    "assetCount": 47
   },
   {
     "id": "anton",
@@ -188,7 +188,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 56
+    "assetCount": 59
   },
   {
     "id": "banyue",
@@ -220,7 +220,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 41
+    "assetCount": 42
   },
   {
     "id": "ben",
@@ -316,7 +316,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 49
+    "assetCount": 50
   },
   {
     "id": "burnice",
@@ -380,7 +380,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 60
+    "assetCount": 59
   },
   {
     "id": "cissia",
@@ -412,7 +412,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 46
+    "assetCount": 47
   },
   {
     "id": "claret",
@@ -472,7 +472,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 44
+    "assetCount": 45
   },
   {
     "id": "dialyn",
@@ -568,7 +568,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 43
+    "assetCount": 44
   },
   {
     "id": "grace-howard",
@@ -696,7 +696,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 48
+    "assetCount": 50
   },
   {
     "id": "ju-fufu",
@@ -728,7 +728,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 54
+    "assetCount": 53
   },
   {
     "id": "koleda",
@@ -760,7 +760,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 45
+    "assetCount": 47
   },
   {
     "id": "lighter",
@@ -792,7 +792,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 49
+    "assetCount": 50
   },
   {
     "id": "lucia",
@@ -824,7 +824,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 41
+    "assetCount": 40
   },
   {
     "id": "lucy",
@@ -1016,7 +1016,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 44
+    "assetCount": 45
   },
   {
     "id": "nicole-demara",
@@ -1048,7 +1048,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 60
+    "assetCount": 58
   },
   {
     "id": "norma",
@@ -1057,11 +1057,11 @@
     "name": "Norma",
     "slug": "norma",
     "sourcePath": "/zenless/characters/norma",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "statusLabels": [
-      "3.0"
+      "New"
     ],
-    "updatedText": "07/June/2026",
+    "updatedText": "08/July/2026",
     "facts": {
       "attribute": "Fire",
       "specialty": "Stun",
@@ -1074,11 +1074,15 @@
     },
     "pageFile": "Prydwen/zzz/pages/characters/norma.json",
     "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
       "skill-priority",
       "synergy",
       "teams"
     ],
-    "assetCount": 4
+    "assetCount": 45
   },
   {
     "id": "orphie-and-magus",
@@ -1110,7 +1114,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 50
+    "assetCount": 51
   },
   {
     "id": "pan-yinhu",
@@ -1234,7 +1238,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 43
+    "assetCount": 45
   },
   {
     "id": "pulchra",
@@ -1265,7 +1269,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 54
+    "assetCount": 53
   },
   {
     "id": "pyrois",
@@ -1275,10 +1279,8 @@
     "slug": "pyrois",
     "sourcePath": "/zenless/characters/pyrois",
     "contentStatus": "live",
-    "statusLabels": [
-      "New"
-    ],
-    "updatedText": "17/June/2026",
+    "statusLabels": [],
+    "updatedText": "08/July/2026",
     "facts": {
       "attribute": "Ether",
       "specialty": "Attack",
@@ -1299,7 +1301,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 34
+    "assetCount": 33
   },
   {
     "id": "qingyi",
@@ -1331,7 +1333,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 49
+    "assetCount": 48
   },
   {
     "id": "remielle",
@@ -1663,7 +1665,7 @@
       "skill-priority",
       "synergy"
     ],
-    "assetCount": 50
+    "assetCount": 49
   },
   {
     "id": "the-storyteller",
@@ -1733,10 +1735,8 @@
     "slug": "velina",
     "sourcePath": "/zenless/characters/velina",
     "contentStatus": "live",
-    "statusLabels": [
-      "New"
-    ],
-    "updatedText": "17/June/2026",
+    "statusLabels": [],
+    "updatedText": "08/July/2026",
     "facts": {
       "attribute": "Wind",
       "specialty": "Anomaly",
@@ -1757,7 +1757,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 35
+    "assetCount": 34
   },
   {
     "id": "vivian",
@@ -1885,7 +1885,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 42
+    "assetCount": 41
   },
   {
     "id": "yixuan",
@@ -2012,6 +2012,6 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 45
+    "assetCount": 44
   }
 ]

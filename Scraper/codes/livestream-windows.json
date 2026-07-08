@@ -1,15 +1,6 @@
 {
   "windows": [
     {
-      "game": "hsr",
-      "startsAt": "2026-06-29T04:00:13Z",
-      "endsAt": "2026-07-06T18:37:01Z",
-      "mode": "deep",
-      "note": "Honkai: Star Rail Version 4.4 \"In Ravages Does the Whistle Sound\" Special Program",
-      "source": "youtube",
-      "sourceUrl": "https://www.youtube.com/watch?v=FxO3eKc1z4U"
-    },
-    {
       "game": "endfield",
       "startsAt": "2026-07-03T08:32:05Z",
       "endsAt": "2026-07-06T20:32:05Z",

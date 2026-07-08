@@ -835,6 +835,27 @@
     ]
   },
   {
+    "name": "Suisui",
+    "pageTitle": "Suisui",
+    "aliases": [
+      "Suisui",
+      "1110"
+    ],
+    "releaseDate": null,
+    "releasePatch": "3.5",
+    "voiceActors": {
+      "english": "|voiceCN =",
+      "chinese": "|voiceJP = Misato Fukuen|Fukuen Misato (ja=福圓 美里)",
+      "japanese": "Misato Fukuen|Fukuen Misato (ja=福圓 美里)",
+      "korean": "}}"
+    },
+    "categories": [
+      "Category:Introduced in Version 1.0",
+      "Category:Released in Version 3.5",
+      "Category:Version"
+    ]
+  },
+  {
     "name": "Taoqi",
     "pageTitle": "Taoqi",
     "aliases": [
@@ -912,6 +933,26 @@
     },
     "categories": [
       "Category:Released in Version 1.0",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Yangyang: Xuanling",
+    "pageTitle": "Yangyang: Xuanling",
+    "aliases": [
+      "Yangyang: Xuanling",
+      "1610"
+    ],
+    "releaseDate": "2026-07-10",
+    "releasePatch": "3.5",
+    "voiceActors": {
+      "english": "imdb:nm5476333|Rebecca Yeo",
+      "chinese": "https://zh.moegirl.org.cn/虫虫|Chongchong (zh=虫虫)",
+      "japanese": "Yui Ishikawa|Ishikawa Yui (ja=石川由依)",
+      "korean": "https://namu.wiki/w/이유리(성우)|Lee Yu-ri (ko=이유리)"
+    },
+    "categories": [
+      "Category:Released in Version 3.5",
       "Category:Version"
     ]
   },

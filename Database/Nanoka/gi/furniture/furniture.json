@@ -75,7 +75,6 @@
     "icon": "UI_Homeworld_Interior_Md_Room_A_Wall_01_Vo",
     "localizedNames": {
       "en": "Dark Wood Arch Wall",
-      "zh": "深色木制拱券墙",
       "ja": "ダーク色のアーチ形木質壁",
       "ko": "짙은색 나무 아치벽"
     },
@@ -665,6 +664,7 @@
     "localizedNames": {
       "en": "Maple Wood Square Ceiling",
       "zh": "枫木方格天花板",
+      "ja": "楓の格子柄天井",
       "ko": "단풍나무 격자천장"
     },
     "localAsset": "Nanoka/gi/furniture/assets/360303.webp"
@@ -1729,6 +1729,7 @@
     "localizedNames": {
       "en": "Perennial Illumination",
       "zh": "「依常之光」",
+      "ja": "「尋常の光」",
       "ko": "「늘 밝은 빛」"
     },
     "localAsset": "Nanoka/gi/furniture/assets/360423.webp"
@@ -2187,6 +2188,7 @@
     "localizedNames": {
       "en": "Meka Luminaire: Radiant Countryside",
       "zh": "机枢灯具-「旷亮郊野」",
+      "ja": "枢機の照明-「明るい郊外」",
       "ko": "핵심 조명-「빛나는 교외」"
     },
     "localAsset": "Nanoka/gi/furniture/assets/360435.webp"
@@ -2894,7 +2896,6 @@
     "icon": "UI_Homeworld_Exterior_Nt_Lamp_Light_YLLLudeng_01_Lod0",
     "localizedNames": {
       "en": "White Chestnut Oak Wood \"Harpoon\" Street Lamp",
-      "zh": "白栗栎木「鱼叉」路灯",
       "ja": "ホワイトオーク材「金突き」街灯",
       "ko": "하얀참나무 「작살」 가로등"
     },
@@ -3669,7 +3670,6 @@
     "icon": "UI_Homeworld_Ani_Exterior_Ly_Lamp_Light_Xiaodeng_05_Vo",
     "localizedNames": {
       "en": "Vibrant Xiao Lantern: \"A Beautiful Start to Spring\"",
-      "zh": "明彩霄灯-「瑞燕迎春」",
       "ja": "明彩霄灯-「春を迎える瑞燕」",
       "ko": "빛나는 소등-「봄을 알리는 제비」"
     },
@@ -3699,7 +3699,6 @@
     "icon": "UI_Homeworld_Ani_Exterior_Ly_Lamp_Light_Xiaodeng_06_Vo",
     "localizedNames": {
       "en": "Vibrant Xiao Lantern: \"Sweet Scents in the Wind\"",
-      "zh": "明彩霄灯-「和风凝香」",
       "ja": "明彩霄灯-「そよ風運ぶ香り」",
       "ko": "빛나는 소등-「향기로운 바람」"
     },
@@ -3950,6 +3949,40 @@
       "ko": "입식 가로등-「안개 속 길잡이」"
     },
     "localAsset": "Nanoka/gi/furniture/assets/360483.webp"
+  },
+  {
+    "id": "360484",
+    "name": "360484",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Lighting"
+    ],
+    "cost": 85,
+    "comfort": 30,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101001",
+          "count": 8
+        },
+        {
+          "id": "101002",
+          "count": 4
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Lamp_Light_ZCludeng_01_Lod0",
+    "localizedNames": {
+      "zh": "至冬路灯2"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/360484.webp"
   },
   {
     "id": "360504",
@@ -4993,7 +5026,6 @@
     "icon": "UI_Homeworld_Interior_Ndkl_Cabinet_Prop_DJguizi_01_Vo",
     "localizedNames": {
       "en": "Towering Cabinet",
-      "zh": "「高高塔楼」",
       "ja": "「タワーキャビネット」",
       "ko": "「높이높이 수납장」"
     },
@@ -5037,6 +5069,74 @@
       "ko": "여관 옷장-「대용량」"
     },
     "localAsset": "Nanoka/gi/furniture/assets/361125.webp"
+  },
+  {
+    "id": "361126",
+    "name": "361126",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Large Furnishing"
+    ],
+    "type2": [
+      "Cabinet"
+    ],
+    "cost": 254,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101001",
+          "count": 6
+        },
+        {
+          "id": "101002",
+          "count": 6
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Interior_Zd_Cabinet_Prop_CTguizi_01_Vo",
+    "localizedNames": {
+      "zh": "旅馆衣柜-「加大容量」"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/361126.webp"
+  },
+  {
+    "id": "361127",
+    "name": "361127",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Large Furnishing"
+    ],
+    "type2": [
+      "Cabinet"
+    ],
+    "cost": 254,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101001",
+          "count": 2
+        },
+        {
+          "id": "101002",
+          "count": 6
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Interior_Zd_Cabinet_Prop_XNGcwg_01_01_Lods",
+    "localizedNames": {
+      "zh": "立柜"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/361127.webp"
   },
   {
     "id": "361201",
@@ -5786,6 +5886,7 @@
     "localizedNames": {
       "en": "\"A Thousand Texts in the Central Hub\"",
       "zh": "「中枢的浩繁卷宗」",
+      "ja": "「中央部の無数の書類」",
       "ko": "「중추의 방대한 공문」"
     },
     "localAsset": "Nanoka/gi/furniture/assets/361220.webp"
@@ -5854,7 +5955,6 @@
     "icon": "UI_Homeworld_Interior_Md_Table_Table_04_Vo",
     "localizedNames": {
       "en": "Favonius Office Table",
-      "zh": "骑士团的办公桌",
       "ja": "騎士団の書斎机",
       "ko": "기사단 사무용 책상"
     },
@@ -6037,7 +6137,6 @@
     "icon": "UI_Homeworld_Interior_Md_Table_Table_20_Vo",
     "localizedNames": {
       "en": "Multi-Seat Round Pine Table",
-      "zh": "多重餐位松木圆桌",
       "ja": "松の座席付き円卓",
       "ko": "다인용 소나무 원탁"
     },
@@ -6224,7 +6323,6 @@
     "icon": "UI_Homeworld_Interior_Dq_Thing_InazumaStove_01_Lod0",
     "localizedNames": {
       "en": "Common Cast Iron Stove",
-      "zh": "铸铁泛用炉具",
       "ja": "鋳鉄汎用焜炉",
       "ko": "무쇠 범용 노구"
     },
@@ -7025,7 +7123,6 @@
     "icon": "UI_Homeworld_Interior_Cyg_Table_Prop_Baishezu_01_Lod0",
     "localizedNames": {
       "en": "Teahouse Tool: Qualitea Review",
-      "zh": "茶坊用具-「审质度叶」",
       "ja": "茶房の道具-「茶葉の仕分け」",
       "ko": "차 공방의 도구-「품질 심사」"
     },
@@ -7581,6 +7678,38 @@
     "localAsset": "Nanoka/gi/furniture/assets/361349.webp"
   },
   {
+    "id": "361350",
+    "name": "361350",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Large Furnishing"
+    ],
+    "type2": [
+      "Table"
+    ],
+    "cost": 592,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101001",
+          "count": 6
+        },
+        {
+          "id": "101002",
+          "count": 6
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Interior_Zd_Cabinet_Prop_CTguizi_02_Vo",
+    "localizedNames": {},
+    "localAsset": "Nanoka/gi/furniture/assets/361350.webp"
+  },
+  {
     "id": "361401",
     "name": "Breeze-Blessed Bed",
     "description": "A style of bed that has been much loved in Mondstadt of late. The Knights of Favonius also adopted it as their standard issue dormitory bed.\\nIt was once rumored that these beds were made using unique fabrics that had the blessing of the gentle winds, which allowed people to sleep more easily.\\nHowever, the Knights were forced to switch out the stuffings of the mattresses and pillows on account of the number of knights who showed up late.",
@@ -8105,7 +8234,6 @@
     "icon": "UI_Homeworld_Interior_Ndkl_Bed_Prop_DJchuang_01_Vo",
     "localizedNames": {
       "en": "Bestest Little Nest",
-      "zh": "「最最好小窝」",
       "ja": "「とっておきの小さなベッド」",
       "ko": "「제일 좋은 보금자리」"
     },
@@ -8153,6 +8281,40 @@
       "ko": "서리달 돌침대-「스며드는 한기」"
     },
     "localAsset": "Nanoka/gi/furniture/assets/361414.webp"
+  },
+  {
+    "id": "361415",
+    "name": "361415",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Large Furnishing"
+    ],
+    "type2": [
+      "Bed"
+    ],
+    "cost": 85,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101001",
+          "count": 8
+        },
+        {
+          "id": "101002",
+          "count": 4
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_XNGchuang_01_Lod0",
+    "localizedNames": {
+      "zh": "至冬床"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/361415.webp"
   },
   {
     "id": "361501",
@@ -8995,7 +9157,6 @@
     "icon": "UI_Homeworld_Interior_Common_Chair_Prop_KdSofa_01_Vo",
     "localizedNames": {
       "en": "A Seat of Sophisticated Luxury",
-      "zh": "「豪重琱丽的坐席」",
       "ja": "「贅沢で華やかなソファ」",
       "ko": "「호화로운 의자」"
     },
@@ -9686,7 +9847,6 @@
     "icon": "UI_Homeworld_Interior_Ndkl_Chair_Prop_WSWshafa_01_Lod0",
     "localizedNames": {
       "en": "Quiet and Cozy",
-      "zh": "「静谧与温馨」",
       "ja": "「静寂と温もり」",
       "ko": "「고요함과 아늑함」"
     },
@@ -9890,6 +10050,70 @@
       "ko": "티타임 의자-「크림슨 골드」"
     },
     "localAsset": "Nanoka/gi/furniture/assets/362135.webp"
+  },
+  {
+    "id": "362136",
+    "name": "362136",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Small Furnishing"
+    ],
+    "type2": [
+      "Seating"
+    ],
+    "cost": 85,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101001",
+          "count": 2
+        },
+        {
+          "id": "101002",
+          "count": 6
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Interior_Zd_Chair_Prop_XNGyizi_01_Lod0",
+    "localizedNames": {
+      "zh": "至冬长椅"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/362136.webp"
+  },
+  {
+    "id": "362137",
+    "name": "362137",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Small Furnishing"
+    ],
+    "type2": [
+      "Seating"
+    ],
+    "cost": 85,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101329",
+          "count": 8
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Interior_Zd_Chair_Prop_YHyizi_01_Vo",
+    "localizedNames": {
+      "zh": "至冬室内椅"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/362137.webp"
   },
   {
     "id": "362201",
@@ -10773,7 +10997,6 @@
     "icon": "UI_Homeworld_Interior_Xm_Decoration_Prop_Bottles_02_Lod0",
     "localizedNames": {
       "en": "Hued Vase: Malachite",
-      "zh": "妙彩宝瓶-「藤绿」",
       "ja": "妙々たる宝瓶-「藤緑」",
       "ko": "영롱한 보물병-「덩굴 녹색」"
     },
@@ -11182,6 +11405,7 @@
     "localizedNames": {
       "en": "Forest Ranger's Provisions",
       "zh": "「巡林员的战备」",
+      "ja": "「レンジャーの装備」",
       "ko": "「숲의 순찰자의 준비」"
     },
     "localAsset": "Nanoka/gi/furniture/assets/362234.webp"
@@ -11531,7 +11755,6 @@
     "icon": "UI_Homeworld_Interior_Xm_Thing_Prop_CafeStove_01_Lod0",
     "localizedNames": {
       "en": "\"Pure Heat\"",
-      "zh": "「纯粹的热烈」",
       "ja": "「純粋な熱烈」",
       "ko": "「순수한 열정」"
     },
@@ -11725,7 +11948,6 @@
     "icon": "UI_Homeworld_Interior_Md_Decoration_Prop_Catnest_02_Vo",
     "localizedNames": {
       "en": "\"Diona's Mini Sofa\"",
-      "zh": "「迪奥娜的小沙发」",
       "ja": "「ディオナのソファ」",
       "ko": "「디오나의 작은 소파」"
     },
@@ -12457,7 +12679,6 @@
     "icon": "UI_Homeworld_Interior_Nt_Decoration_Prop_JJCShicaijia_01_Lod0",
     "localizedNames": {
       "en": "Fair's Fresh Vegetables",
-      "zh": "「市集的时鲜肴蔬」",
       "ja": "「市場の旬」",
       "ko": "「시장의 제철 식자재」"
     },
@@ -12886,7 +13107,6 @@
     "icon": "UI_Homeworld_Interior_Md_Carpet_Carpet_02_Vo",
     "localizedNames": {
       "en": "Mondstadt Rug: Tireless Search",
-      "zh": "蒙德地毯-「不倦的寻索」",
       "ja": "モンドカーペット-「倦まない探究」",
       "ko": "몬드풍 카펫-「지치지 않는 탐색」"
     },
@@ -13219,6 +13439,7 @@
     "localizedNames": {
       "en": "Pure Like Wheat Sprouts",
       "zh": "「麦苗般纯净之纹」",
+      "ja": "「麦の苗のように純粋な模様」",
       "ko": "「밀의 모종처럼 맑은 무늬」"
     },
     "localAsset": "Nanoka/gi/furniture/assets/362310.webp"
@@ -13412,7 +13633,6 @@
     "icon": "UI_Homeworld_Interior_Fd_Carpet_Prop_Redditan_01_Vo",
     "localizedNames": {
       "en": "Fontainian Carpet: \"Fair and Square\"",
-      "zh": "枫丹地毯-「平允方正」",
       "ja": "フォンテーヌのカーペット-「公平方正」",
       "ko": "폰타인 카펫-「네모반듯」"
     },
@@ -13571,7 +13791,6 @@
     "icon": "UI_Homeworld_Interior_Nt_Carpet_Prop_JJCyuan_01_Vo",
     "localizedNames": {
       "en": "Fair Carpet: Warmth and Passion",
-      "zh": "市集地毯-「热情与温暖」",
       "ja": "市場カーペット-「情熱と温もり」",
       "ko": "시장 카펫-「열정과 온기」"
     },
@@ -13693,6 +13912,7 @@
     "localizedNames": {
       "en": "Frost Moon Carpet: Limpid Hue",
       "zh": "霜月地毯-「明澄一色」",
+      "ja": "霜月の絨毯-「明澄一色」",
       "ko": "서리달 카펫-「맑고 고른 빛」"
     },
     "localAsset": "Nanoka/gi/furniture/assets/362322.webp"
@@ -13774,6 +13994,74 @@
       "ko": "티타임 카펫-「부드러운 질감」"
     },
     "localAsset": "Nanoka/gi/furniture/assets/362324.webp"
+  },
+  {
+    "id": "362325",
+    "name": "362325",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Small Furnishing"
+    ],
+    "type2": [
+      "Carpet"
+    ],
+    "cost": 85,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101401",
+          "count": 4
+        },
+        {
+          "id": "101403",
+          "count": 4
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Interior_Zd_Carpet_Prop_XNGditan_01_Vo",
+    "localizedNames": {
+      "zh": "至冬地毯1"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/362325.webp"
+  },
+  {
+    "id": "362326",
+    "name": "362326",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Small Furnishing"
+    ],
+    "type2": [
+      "Carpet"
+    ],
+    "cost": 85,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 90,
+      "time": 57600,
+      "items": [
+        {
+          "id": "101001",
+          "count": 12
+        },
+        {
+          "id": "101002",
+          "count": 18
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Interior_Zd_Carpet_Prop_YHditan_01_Vo",
+    "localizedNames": {
+      "zh": "至冬地毯2"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/362326.webp"
   },
   {
     "id": "362401",
@@ -14030,6 +14318,40 @@
       "ko": "「심야의 연주」"
     },
     "localAsset": "Nanoka/gi/furniture/assets/362407.webp"
+  },
+  {
+    "id": "362408",
+    "name": "362408",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Small Furnishing"
+    ],
+    "type2": [
+      "Craftwork"
+    ],
+    "cost": 190,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101001",
+          "count": 8
+        },
+        {
+          "id": "101002",
+          "count": 4
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_HTJZ_01_Lod0",
+    "localizedNames": {
+      "zh": "至冬室内胡桃夹子"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/362408.webp"
   },
   {
     "id": "363101",
@@ -14746,6 +15068,74 @@
     "localAsset": "Nanoka/gi/furniture/assets/363120.webp"
   },
   {
+    "id": "363121",
+    "name": "363121",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Ornaments"
+    ],
+    "type2": [
+      "Lighting"
+    ],
+    "cost": 305,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101001",
+          "count": 6
+        },
+        {
+          "id": "101002",
+          "count": 6
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Interior_Zd_Lamp_Light_YHtaideng_01_Vo",
+    "localizedNames": {
+      "zh": "至冬室内灯1"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/363121.webp"
+  },
+  {
+    "id": "363122",
+    "name": "363122",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Ornaments"
+    ],
+    "type2": [
+      "Lighting"
+    ],
+    "cost": 305,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101001",
+          "count": 6
+        },
+        {
+          "id": "101002",
+          "count": 6
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Interior_Zd_Lamp_Light_YHtaideng_02_Vo",
+    "localizedNames": {
+      "zh": "至冬室内灯2"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/363122.webp"
+  },
+  {
     "id": "363201",
     "name": "Flower Arrangement: Baby Blue Tranquility",
     "description": "Blue decorative flowers that are quite hardy. By contrast, it is the vase that is fragile.",
@@ -15301,6 +15691,7 @@
     "localizedNames": {
       "en": "Alchemic Component: Burden of Dust",
       "zh": "炼金器件-「尘埃的重量」",
+      "ja": "錬金器具-「塵埃の重み」",
       "ko": "연금 부품-「먼지의 무게」"
     },
     "localAsset": "Nanoka/gi/furniture/assets/363307.webp"
@@ -15895,6 +16286,7 @@
     "localizedNames": {
       "en": "Cauldron of Herbs",
       "zh": "「清馨良药的悬釜」",
+      "ja": "「清香良薬の吊り釜」",
       "ko": "「향긋한 영약의 솥」"
     },
     "localAsset": "Nanoka/gi/furniture/assets/363323.webp"
@@ -16595,7 +16987,6 @@
     "icon": "UI_Homeworld_Interior_Xm_Decoration_Prop_SmGrebottle_01_Vo",
     "localizedNames": {
       "en": "Hued Vase: Eventide",
-      "zh": "妙彩宝瓶-「晚潮」",
       "ja": "妙々たる宝瓶-「夕潮」",
       "ko": "영롱한 보물병-「밤의 파도」"
     },
@@ -17147,7 +17538,6 @@
     "icon": "UI_Homeworld_Interior_Fd_Decoration_Prop_Fengshan_01_Vo",
     "localizedNames": {
       "en": "Compact Air Supply Device",
-      "zh": "紧凑型送风装置",
       "ja": "コンパクト型送風装置",
       "ko": "소형 송풍 장치"
     },
@@ -17186,7 +17576,6 @@
     "icon": "UI_Homeworld_Interior_Fd_Decoration_Prop_SXiangzi_01_Vo",
     "localizedNames": {
       "en": "\"Passage's Stable Storage\"",
-      "zh": "「回廊的稳便贮藏」",
       "ja": "「回廊の穏便貯蔵」",
       "ko": "「회랑의 간편한 저장소」"
     },
@@ -17264,7 +17653,6 @@
     "icon": "UI_Homeworld_Interior_Fd_Decoration_Prop_Bianqian_01_Vo",
     "localizedNames": {
       "en": "Common-Use Note Holder",
-      "zh": "通用型便签架",
       "ja": "汎用型メモラック",
       "ko": "범용형 메모 걸이"
     },
@@ -17594,7 +17982,6 @@
     "icon": "UI_Homeworld_Interior_Ly_Decoration_Prop_Meizhi_01_Lod0",
     "localizedNames": {
       "en": "Plum Branch Arrangement: \"Boundless Spring\"",
-      "zh": "梅枝插花-「万里春」",
       "ja": "梅枝の生け花-「万里の春」",
       "ko": "매화 가지 꽃꽂이-「매화향」"
     },
@@ -18088,7 +18475,6 @@
     "icon": "UI_Homeworld_Interior_Md_Decoration_Prop_CLTT_01_Vo",
     "localizedNames": {
       "en": "Iron Wolf",
-      "zh": "「狼与铁」",
       "ja": "「狼と鉄」",
       "ko": "「늑대와 강철」"
     },
@@ -18372,6 +18758,77 @@
       "ko": "「기계의 메아리」"
     },
     "localAsset": "Nanoka/gi/furniture/assets/363398.webp"
+  },
+  {
+    "id": "363399",
+    "name": "363399",
+    "description": null,
+    "rank": 4,
+    "type": [
+      "Ornaments"
+    ],
+    "type2": [
+      "Memento"
+    ],
+    "cost": 1300,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101001",
+          "count": 4
+        },
+        {
+          "id": "101002",
+          "count": 4
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Ani_Interior_Zd_Decoration_Prop_XHYFS_01",
+    "localizedNames": {
+      "zh": "钓鱼家具"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/363399.webp"
+  },
+  {
+    "id": "363400",
+    "name": "???",
+    "description": "???",
+    "rank": 3,
+    "type": [
+      "Ornaments"
+    ],
+    "type2": [
+      "Memento"
+    ],
+    "cost": 1300,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101001",
+          "count": 2
+        },
+        {
+          "id": "101002",
+          "count": 6
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_HCCM_01_Vo",
+    "localizedNames": {
+      "en": "???",
+      "zh": "？？？",
+      "ja": "？？？",
+      "ko": "???"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/363400.webp"
   },
   {
     "id": "363401",
@@ -19670,6 +20127,106 @@
     "localAsset": "Nanoka/gi/furniture/assets/363440.webp"
   },
   {
+    "id": "363441",
+    "name": "363441",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Ornaments"
+    ],
+    "type2": [
+      "Utensil"
+    ],
+    "cost": 676,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101001",
+          "count": 4
+        },
+        {
+          "id": "101002",
+          "count": 4
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_YHchabei_01_Vo",
+    "localizedNames": {
+      "zh": "至冬茶杯"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/363441.webp"
+  },
+  {
+    "id": "363442",
+    "name": "363442",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Ornaments"
+    ],
+    "type2": [
+      "Utensil"
+    ],
+    "cost": 676,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101001",
+          "count": 4
+        },
+        {
+          "id": "101002",
+          "count": 4
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_CTzhutai_02_Vo",
+    "localizedNames": {},
+    "localAsset": "Nanoka/gi/furniture/assets/363442.webp"
+  },
+  {
+    "id": "363443",
+    "name": "363443",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Ornaments"
+    ],
+    "type2": [
+      "Utensil"
+    ],
+    "cost": 676,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 90,
+      "time": 57600,
+      "items": [
+        {
+          "id": "101001",
+          "count": 6
+        },
+        {
+          "id": "101002",
+          "count": 12
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Interior_Zd_Lamp_Light_XNGlatai_01_Lod0",
+    "localizedNames": {
+      "zh": "烛台"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/363443.webp"
+  },
+  {
     "id": "363501",
     "name": "\"Realizations from the Land of Wisdom\"",
     "description": "A flower pot from the House of Daena with a humble-looking luminescent plant inside. Its appearance is not exactly attractive, and it doesn't give off nice scents or possess any medicinal properties. To people passing by, it may be easy to ignore and seem at odds with the solemn atmosphere in the House of Daena.\\nHowever, it is said that the scholar who proposed the installation of these plants specifically selected them because of how common they looked. According to that scholar, these plants can serve as a reminder to all students that despite the plants' ordinary appearance, they still had a place in the halls of the House of Daena, and the same applies to the students — as such, there is no need to dwell too much on their ancestry or wealth. The most important thing is that everyone is here to immerse themselves in academic study.",
@@ -19734,6 +20291,7 @@
     "localizedNames": {
       "en": "Restorative Fragrance",
       "zh": "「疗渴的芳香」",
+      "ja": "「渇きを癒す芳香」",
       "ko": "「갈증을 해소하는 향」"
     },
     "localAsset": "Nanoka/gi/furniture/assets/363502.webp"
@@ -20084,6 +20642,74 @@
       "ko": "경관 분재-「책에 핀 꽃」"
     },
     "localAsset": "Nanoka/gi/furniture/assets/363512.webp"
+  },
+  {
+    "id": "363513",
+    "name": "363513",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Ornaments"
+    ],
+    "type2": [
+      "Potted Plant"
+    ],
+    "cost": 180,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101001",
+          "count": 8
+        },
+        {
+          "id": "101002",
+          "count": 4
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_ZDhuaping_01_01_Lods",
+    "localizedNames": {
+      "zh": "至冬室内花瓶"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/363513.webp"
+  },
+  {
+    "id": "363514",
+    "name": "363514",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Ornaments"
+    ],
+    "type2": [
+      "Potted Plant"
+    ],
+    "cost": 180,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101001",
+          "count": 4
+        },
+        {
+          "id": "101002",
+          "count": 4
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_YHhuapen_01_01_Lods",
+    "localizedNames": {
+      "zh": "至冬室内花坛"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/363514.webp"
   },
   {
     "id": "364101",
@@ -20807,7 +21433,6 @@
     "icon": "UI_Homeworld_Interior_Md_Walldecoration_Ornaments_01_Vo",
     "localizedNames": {
       "en": "Favonius Coat of Arms",
-      "zh": "骑士团剑盾徽章",
       "ja": "騎士団の紋章",
       "ko": "기사단 검과 방패 휘장"
     },
@@ -21031,7 +21656,6 @@
     "icon": "UI_Homeworld_Interior_Xm_Walldecoration_Prop_Curtains_01_Vo",
     "localizedNames": {
       "en": "Desert Wall-Drapes: Sunset",
-      "zh": "沙域墙饰-「垂霞」",
       "ja": "砂域の壁飾り-「霞垂れ」",
       "ko": "사막 벽장식-「노을」"
     },
@@ -21261,7 +21885,6 @@
     "icon": "UI_Homeworld_Interior_Nt_Walldecoration_Light_JJCBideng_01_Vo",
     "localizedNames": {
       "en": "Phlogiston Hanging Lamp: Road Guide",
-      "zh": "燃素挂灯-「路引」",
       "ja": "燃素ライト-「道しるべ」",
       "ko": "열소 조명-「길잡이」"
     },
@@ -22351,7 +22974,6 @@
     "icon": "UI_Homeworld_Interior_Nt_Walldecoration_Prop_Konglong_01_Vo",
     "localizedNames": {
       "en": "\"Mighty Meaty Fireball\"",
-      "zh": "「大炖肉火焰」",
       "ja": "「ミートシチュー·ブレイズ」",
       "ko": "「대화염 스튜의 불」"
     },
@@ -22502,6 +23124,7 @@
     "localizedNames": {
       "en": "\"Parting is the beginning of a new reunion\"",
       "zh": "「离别亦是下一次重逢的开始」",
+      "ja": "「別れは次なる再会の始まり」",
       "ko": "「이별은 새로운 재회의 시작」"
     },
     "localAsset": "Nanoka/gi/furniture/assets/364515.webp"
@@ -22745,6 +23368,77 @@
       "ko": "「윙갈레트의 깃발」"
     },
     "localAsset": "Nanoka/gi/furniture/assets/364523.webp"
+  },
+  {
+    "id": "364524",
+    "name": "364524",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Wall Decor"
+    ],
+    "type2": [
+      "Picture Frame"
+    ],
+    "cost": 169,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101001",
+          "count": 4
+        },
+        {
+          "id": "101002",
+          "count": 8
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Interior_Zd_Walldecoration_Prop_CTbihua_01_Vo",
+    "localizedNames": {
+      "zh": "至冬室内挂画"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/364524.webp"
+  },
+  {
+    "id": "364525",
+    "name": "???",
+    "description": "???",
+    "rank": 3,
+    "type": [
+      "Wall Decor"
+    ],
+    "type2": [
+      "Picture Frame"
+    ],
+    "cost": 169,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101001",
+          "count": 6
+        },
+        {
+          "id": "101002",
+          "count": 2
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Interior_Zd_Walldecoration_Prop_XNGguahua_01_Vo",
+    "localizedNames": {
+      "en": "???",
+      "zh": "？？？",
+      "ja": "？？？",
+      "ko": "???"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/364525.webp"
   },
   {
     "id": "364601",
@@ -23862,7 +24556,6 @@
     "icon": null,
     "localizedNames": {
       "en": "Zhongli",
-      "zh": "钟离",
       "ja": "鍾離",
       "ko": "종려"
     },
@@ -25022,7 +25715,6 @@
     "icon": null,
     "localizedNames": {
       "en": "Nahida",
-      "zh": "纳西妲",
       "ja": "ナヒーダ",
       "ko": "나히다"
     },
@@ -25631,7 +26323,6 @@
     "icon": null,
     "localizedNames": {
       "en": "Xianyun",
-      "zh": "闲云",
       "ja": "閑雲",
       "ko": "한운"
     },
@@ -25805,7 +26496,6 @@
     "icon": null,
     "localizedNames": {
       "en": "Emilie",
-      "zh": "艾梅莉埃",
       "ja": "エミリエ",
       "ko": "에밀리"
     },
@@ -26183,6 +26873,7 @@
     "localizedNames": {
       "en": "Escoffier",
       "zh": "爱可菲",
+      "ja": "エスコフィエ",
       "ko": "에스코피에"
     },
     "localAsset": null
@@ -26761,7 +27452,9 @@
     "icon": null,
     "localizedNames": {
       "en": "Odette",
-      "zh": "奥黛塔"
+      "zh": "奥黛塔",
+      "ja": "オデット",
+      "ko": "오데트"
     },
     "localAsset": null
   },
@@ -26788,7 +27481,9 @@
     "icon": null,
     "localizedNames": {
       "en": "Alyosha",
-      "zh": "阿罗夏"
+      "zh": "阿罗夏",
+      "ja": "アリョーシャ",
+      "ko": "알료샤"
     },
     "localAsset": null
   },
@@ -26894,6 +27589,7 @@
     "localizedNames": {
       "en": "Forest Boar",
       "zh": "野林猪",
+      "ja": "イノシシ",
       "ko": "숲멧돼지"
     },
     "localAsset": "Nanoka/gi/furniture/assets/369103.webp"
@@ -26990,6 +27686,7 @@
     "localizedNames": {
       "en": "Shiba",
       "zh": "柴犬",
+      "ja": "柴犬",
       "ko": "시바견"
     },
     "localAsset": "Nanoka/gi/furniture/assets/369106.webp"
@@ -27323,7 +28020,6 @@
     "icon": "UI_AnimalIcon_Crab_05",
     "localizedNames": {
       "en": "Pale Red Crab",
-      "zh": "薄红蟹",
       "ja": "薄紅ガニ",
       "ko": "연홍게"
     },
@@ -27626,6 +28322,7 @@
     "localizedNames": {
       "en": "Violet Ibis",
       "zh": "菫鹮",
+      "ja": "スミレトキ",
       "ko": "보랏빛 따오기"
     },
     "localAsset": "Nanoka/gi/furniture/assets/369127.webp"
@@ -27685,6 +28382,7 @@
     "localizedNames": {
       "en": "Geo Crystalfly",
       "zh": "岩晶蝶",
+      "ja": "岩晶蝶",
       "ko": "바위수정 나비"
     },
     "localAsset": "Nanoka/gi/furniture/assets/369129.webp"
@@ -27713,7 +28411,6 @@
     "icon": "UI_AnimalIcon_Wisp_Ice_01",
     "localizedNames": {
       "en": "Cryo Crystalfly",
-      "zh": "冰晶蝶",
       "ja": "氷晶蝶",
       "ko": "얼음수정 나비"
     },
@@ -29877,7 +30574,6 @@
     "icon": "UI_AnimalIcon_Odocoileus_01",
     "localizedNames": {
       "en": "Brown Deer",
-      "zh": "棕鹿",
       "ja": "ブラウンディア",
       "ko": "갈색 사슴"
     },
@@ -29998,6 +30694,7 @@
     "localizedNames": {
       "en": "Ancient Scarlet-Plume Finch",
       "zh": "朱羽古团雀",
+      "ja": "朱羽ヤマガラ・古種",
       "ko": "고대 불꽃 참새"
     },
     "localAsset": "Nanoka/gi/furniture/assets/369206.webp"
@@ -30387,6 +31084,7 @@
     "localizedNames": {
       "en": "Cobaltbrand Dusky Goat",
       "zh": "苍纹暮暮羊",
+      "ja": "黄昏ヤギ・蒼紋",
       "ko": "푸른 문양 황혼 산양"
     },
     "localAsset": "Nanoka/gi/furniture/assets/369219.webp"
@@ -30685,7 +31383,6 @@
     "icon": "UI_AnimalIcon_Salamander_01_Alter",
     "localizedNames": {
       "en": "Special Golden Loach",
-      "zh": "特别的金鳅鳅",
       "ja": "特別な金サンショウウオ",
       "ko": "특별한 황금 추추어"
     },
@@ -30744,7 +31441,7 @@
     },
     "icon": "UI_AnimalIcon_Bear_01",
     "localizedNames": {
-      "zh": "（test）至冬熊"
+      "zh": "极地熊"
     },
     "localAsset": "Nanoka/gi/furniture/assets/369231.webp"
   },
@@ -30771,7 +31468,7 @@
     },
     "icon": "UI_AnimalIcon_Hedgehog_01",
     "localizedNames": {
-      "zh": "（test）刺猬"
+      "zh": "软猬兽"
     },
     "localAsset": "Nanoka/gi/furniture/assets/369232.webp"
   },
@@ -30798,7 +31495,7 @@
     },
     "icon": "UI_AnimalIcon_Owl_01",
     "localizedNames": {
-      "zh": "（test）至冬猫头鹰"
+      "zh": "夜角鸮"
     },
     "localAsset": "Nanoka/gi/furniture/assets/369233.webp"
   },
@@ -30825,7 +31522,7 @@
     },
     "icon": "UI_AnimalIcon_SledDog_01",
     "localizedNames": {
-      "zh": "（test）雪橇犬"
+      "zh": "雪地犬"
     },
     "localAsset": "Nanoka/gi/furniture/assets/369234.webp"
   },
@@ -30852,7 +31549,7 @@
     },
     "icon": "UI_AnimalIcon_Bird_Small_Snezhnaya_01",
     "localizedNames": {
-      "zh": "（test）至冬小鸟"
+      "zh": "赤腹兰鸻"
     },
     "localAsset": "Nanoka/gi/furniture/assets/369235.webp"
   },
@@ -30879,7 +31576,7 @@
     },
     "icon": "UI_AnimalIcon_Reindeer_03",
     "localizedNames": {
-      "zh": "（test）至冬鹿"
+      "zh": "雪驼鹿"
     },
     "localAsset": "Nanoka/gi/furniture/assets/369236.webp"
   },
@@ -30906,7 +31603,7 @@
     },
     "icon": "UI_AnimalIcon_Wolverine_04",
     "localizedNames": {
-      "zh": "（test）至冬狼獾"
+      "zh": "茸茸獾"
     },
     "localAsset": "Nanoka/gi/furniture/assets/369237.webp"
   },
@@ -31435,7 +32132,6 @@
     "icon": "UI_Homeworld_Interior_Dq_Cabinet_Cabinet_04_Vo",
     "localizedNames": {
       "en": "Aralia \"Fusen\" Cupboard",
-      "zh": "孔雀木「不染」橱柜",
       "ja": "孔雀の「不染」棚",
       "ko": "공작나무 「물들지 않는」 주방 조리대"
     },
@@ -32551,7 +33247,6 @@
     "icon": "UI_Homeworld_Exterior_Md_Build_Store_02_Lod0",
     "localizedNames": {
       "en": "Profitable Fruit Stand",
-      "zh": "生意平稳的水果摊位",
       "ja": "儲かっている果物露店",
       "ko": "그럭저럭 무난한 과일 노점"
     },
@@ -33613,6 +34308,7 @@
     "localizedNames": {
       "en": "Passage's Plentiful Produce",
       "zh": "「回廊的本价丰甘」",
+      "ja": "「回廊·お得な果物」",
       "ko": "「회랑의 염가 판매」"
     },
     "localAsset": "Nanoka/gi/furniture/assets/370329.webp"
@@ -33689,7 +34385,6 @@
     "icon": "UI_Homeworld_Exterior_Fd_Build_Prop_BszPengzi_01_Lod0",
     "localizedNames": {
       "en": "\"Quick Temporary Workshed\"",
-      "zh": "「快速临时工棚」",
       "ja": "「急ごしらえの仮設作業場」",
       "ko": "「빠른 작업용 임시 천막」"
     },
@@ -35884,7 +36579,6 @@
     "icon": "UI_Homeworld_Exterior_Dq_Build_House_19_Lod0",
     "localizedNames": {
       "en": "Inazuman Home: Irreplaceable Foresight",
-      "zh": "稻妻民居-「长瞩无替」",
       "ja": "稲妻民居-「長眺無替」",
       "ko": "이나즈마 민가-「밤낮의 감독」"
     },
@@ -36589,7 +37283,6 @@
     "icon": "UI_Homeworld_Exterior_Xm_Build_Forest_02_Lod0",
     "localizedNames": {
       "en": "Deepwood Dweller's Estimation",
-      "zh": "「林居之人的恰切」",
       "ja": "「森の民の剴切」",
       "ko": "「숲 주민의 안락」"
     },
@@ -37375,7 +38068,6 @@
     "icon": "UI_Homeworld_Exterior_Xm_Build_Tingyuan_01_Lod0",
     "localizedNames": {
       "en": "Shade in the Tranquil Court",
-      "zh": "「澄寂宫园的荫凉」",
       "ja": "「静寂な宮殿の日陰」",
       "ko": "「맑고 고요한 궁중 정원의 그늘」"
     },
@@ -38399,6 +39091,7 @@
     "localizedNames": {
       "en": "Court of Justice's Green Grocers",
       "zh": "「正义之廷的鲜甜」",
+      "ja": "「正義の都の新鮮」",
       "ko": "「정의의 성의 단맛」"
     },
     "localAsset": "Nanoka/gi/furniture/assets/370811.webp"
@@ -38585,6 +39278,7 @@
     "localizedNames": {
       "en": "Distributed Forward Supply Depot",
       "zh": "分布式前进补给站",
+      "ja": "分散型前衛補給基地",
       "ko": "분산식 전진 보급소"
     },
     "localAsset": "Nanoka/gi/furniture/assets/370816.webp"
@@ -38622,7 +39316,6 @@
     "icon": "UI_Homeworld_Exterior_Fd_Build_House_01_Lod0",
     "localizedNames": {
       "en": "Courtyard Pavilion: Amidst the Rivers",
-      "zh": "院墅凉亭-「万水丛中」",
       "ja": "別荘のガゼボ-「万水に包まれて」",
       "ko": "별장 정자-「모든 물속」"
     },
@@ -38922,7 +39615,6 @@
     "icon": "UI_Homeworld_Exterior_Fd_Build_BszPochuan_02_Lod0",
     "localizedNames": {
       "en": "\"A Simple Residence in Poisson\"",
-      "zh": "「白淞街镇的简居」",
       "ja": "「ポワソン町の簡素な家」",
       "ko": "「푸아송 마을의 간소한 거처」"
     },
@@ -39936,7 +40628,6 @@
     "icon": "UI_Homeworld_Exterior_Nt_Build_LslHouse_01_Lod0",
     "localizedNames": {
       "en": "Night-Wind Architecture: Needs of Exchange",
-      "zh": "烟谜奇筑-「往来之需」",
       "ja": "謎煙奇楼-「往来の需要」",
       "ko": "연기 주인의 건물-「교류의 장」"
     },
@@ -40595,7 +41286,6 @@
     "icon": "UI_Homeworld_Exterior_Tyd_Build_Maotou_01_Lod0",
     "localizedNames": {
       "en": "Easy-Breezy Guest House",
-      "zh": "「悠悠假日的客居」",
       "ja": "「のびのびホリデーの仮住まい」",
       "ko": "「느긋한 휴일의 숙소」"
     },
@@ -41857,6 +42547,298 @@
     "localAsset": "Nanoka/gi/furniture/assets/371029.webp"
   },
   {
+    "id": "371050",
+    "name": "371050",
+    "description": null,
+    "rank": 3,
+    "type": [
+      ""
+    ],
+    "type2": [
+      ""
+    ],
+    "cost": 65,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101001",
+          "count": 2
+        },
+        {
+          "id": "101002",
+          "count": 6
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Build_WZtadiao_01_01_Lods",
+    "localizedNames": {
+      "zh": "乌贼工坊塔吊"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/371050.webp"
+  },
+  {
+    "id": "371051",
+    "name": "371051",
+    "description": null,
+    "rank": 3,
+    "type": [
+      ""
+    ],
+    "type2": [
+      ""
+    ],
+    "cost": 65,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101001",
+          "count": 6
+        },
+        {
+          "id": "101002",
+          "count": 6
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Build_WZxiaowu_01_01_Lods",
+    "localizedNames": {
+      "zh": "乌贼工坊民居"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/371051.webp"
+  },
+  {
+    "id": "371052",
+    "name": "371052",
+    "description": null,
+    "rank": 3,
+    "type": [
+      ""
+    ],
+    "type2": [
+      ""
+    ],
+    "cost": 65,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101001",
+          "count": 2
+        },
+        {
+          "id": "101002",
+          "count": 6
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Build_SJfangwu_01_01_Lods",
+    "localizedNames": {
+      "zh": "雪屋-大"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/371052.webp"
+  },
+  {
+    "id": "371053",
+    "name": "371053",
+    "description": null,
+    "rank": 3,
+    "type": [
+      ""
+    ],
+    "type2": [
+      ""
+    ],
+    "cost": 65,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 90,
+      "time": 57600,
+      "items": [
+        {
+          "id": "101001",
+          "count": 10
+        },
+        {
+          "id": "101002",
+          "count": 8
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Build_QCCZdct_01_01_Lods",
+    "localizedNames": {
+      "zh": "启程车站-等车台"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/371053.webp"
+  },
+  {
+    "id": "371054",
+    "name": "371054",
+    "description": null,
+    "rank": 3,
+    "type": [
+      ""
+    ],
+    "type2": [
+      ""
+    ],
+    "cost": 65,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101001",
+          "count": 2
+        },
+        {
+          "id": "101002",
+          "count": 6
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Build_ZCminju_01_01_Lods",
+    "localizedNames": {},
+    "localAsset": "Nanoka/gi/furniture/assets/371054.webp"
+  },
+  {
+    "id": "371055",
+    "name": "371055",
+    "description": null,
+    "rank": 3,
+    "type": [
+      ""
+    ],
+    "type2": [
+      ""
+    ],
+    "cost": 65,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101301",
+          "count": 6
+        },
+        {
+          "id": "101002",
+          "count": 2
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Build_ZCtalou_01_01_Lods",
+    "localizedNames": {
+      "zh": "高级民居-塔楼"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/371055.webp"
+  },
+  {
+    "id": "371056",
+    "name": "371056",
+    "description": null,
+    "rank": 3,
+    "type": [
+      ""
+    ],
+    "type2": [
+      ""
+    ],
+    "cost": 65,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101001",
+          "count": 2
+        },
+        {
+          "id": "101002",
+          "count": 6
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Build_ZCminju_02_01_Lods",
+    "localizedNames": {
+      "zh": "高级民居2"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/371056.webp"
+  },
+  {
+    "id": "371057",
+    "name": "???",
+    "description": "???",
+    "rank": 4,
+    "type": [
+      ""
+    ],
+    "type2": [
+      ""
+    ],
+    "cost": 65,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": null,
+      "time": null,
+      "items": []
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Build_ZJCdwt_01_01_Lods",
+    "localizedNames": {
+      "en": "???",
+      "zh": "？？？",
+      "ja": "？？？",
+      "ko": "???"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/371057.webp"
+  },
+  {
+    "id": "371058",
+    "name": "???",
+    "description": "???",
+    "rank": 4,
+    "type": [
+      ""
+    ],
+    "type2": [
+      ""
+    ],
+    "cost": 65,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": null,
+      "time": null,
+      "items": []
+    },
+    "icon": "UI_Homeworld_Ani_Exterior_Zd_Build_ZJCdadeng_01",
+    "localizedNames": {
+      "en": "???",
+      "zh": "？？？",
+      "ja": "？？？",
+      "ko": "???"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/371058.webp"
+  },
+  {
     "id": "371101",
     "name": "Bird and Blossom Design Fountain",
     "description": "A lovely-looking fountain that can often be found in city squares and gardens.\\nSome people believe in the legend of the fountain fairy and will throw Mora into the fountain to make a wish.",
@@ -42342,7 +43324,6 @@
     "icon": "UI_Homeworld_Exterior_Common_Build_Decoration_Greenfountain_01_Lod0",
     "localizedNames": {
       "en": "Of Fields Green: Clear Spring Fountain",
-      "zh": "绿野碧茵-「冰澈泉瀑」",
       "ja": "青々とした緑-「澄みわたる泉」",
       "ko": "푸른빛 싱그러움-「맑고 차가운 샘물」"
     },
@@ -42839,6 +43820,7 @@
     "localizedNames": {
       "en": "Composite Timber Long-Distance Hand Cart",
       "zh": "复合木材长途货车",
+      "ja": "複合材の長距離貨物車",
       "ko": "복합 목재 장거리 화물차"
     },
     "localAsset": "Nanoka/gi/furniture/assets/371130.webp"
@@ -44450,6 +45432,7 @@
     "localizedNames": {
       "en": "Encampment Fence: Honing Goad",
       "zh": "阵屋桩木-「苦刺」",
+      "ja": "陣屋の杭-「苦刺」",
       "ko": "병영 말뚝-「가시」"
     },
     "localAsset": "Nanoka/gi/furniture/assets/371220.webp"
@@ -47313,7 +48296,6 @@
     "icon": "UI_Homeworld_Exterior_Common_Stone_Stone_15_Lod0",
     "localizedNames": {
       "en": "Sartorial Stone",
-      "zh": "布衣石",
       "ja": "布地石",
       "ko": "보의석"
     },
@@ -47913,7 +48895,6 @@
     "icon": "UI_Homeworld_Exterior_Nt_Stone_Prop_Kuangshi_01_Vo",
     "localizedNames": {
       "en": "Tepetlisaur Traces",
-      "zh": "「如嵴锋的行踪」",
       "ja": "「テペトルの歩み」",
       "ko": "「산룡의 흔적」"
     },
@@ -48333,7 +49314,6 @@
     "icon": "UI_Homeworld_Exterior_Common_Plant_Tree_08_Lod0",
     "localizedNames": {
       "en": "Birch Sapling",
-      "zh": "初成的桦树",
       "ja": "若い樺の木",
       "ko": "갓 자란 자작나무"
     },
@@ -48513,7 +49493,6 @@
     "icon": "UI_Homeworld_Exterior_Common_Plant_Tree_14_Lod0",
     "localizedNames": {
       "en": "Green Irontrunk Tree",
-      "zh": "青叶剑骨树",
       "ja": "緑葉の剣骨の木",
       "ko": "청엽 검골나무"
     },
@@ -49900,6 +50879,31 @@
     "localAsset": "Nanoka/gi/furniture/assets/372362.webp"
   },
   {
+    "id": "372363",
+    "name": "372363",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Landform"
+    ],
+    "type2": [
+      "Tree"
+    ],
+    "cost": 65,
+    "comfort": 30,
+    "source": [],
+    "recipe": {
+      "exp": null,
+      "time": null,
+      "items": []
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Plant_Tree_HNHshu_01_Lod0",
+    "localizedNames": {
+      "zh": "火鸟壑_树木1"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/372363.webp"
+  },
+  {
     "id": "372401",
     "name": "Fragrant Cedar Vegetable Rack",
     "description": "A tall stack of shelves built from Fragrant Cedar. This shelf rack can store a great number of items, and is typically found in the kitchens of busy inns and restaurants as well as the estates of wealthy families.\\nEach shelf can bear a good amount of weight, but firsthand user experience suggests it is not wise to put large items on the very top shelf. Especially not, say, a full-bellied Guoba.",
@@ -50105,7 +51109,6 @@
     "icon": "UI_Homeworld_Exterior_Common_Plant_Grass_05_Lod0",
     "localizedNames": {
       "en": "\"Kindletree\"",
-      "zh": "「暖叶篝火树」",
       "ja": "「篝火の木」",
       "ko": "「따뜻한 모닥불 나무」"
     },
@@ -50481,6 +51484,7 @@
     "localizedNames": {
       "en": "Green Pearlroot Tree",
       "zh": "青叶珍枝树",
+      "ja": "緑葉の珍枝の木",
       "ko": "청엽 진주나무"
     },
     "localAsset": "Nanoka/gi/furniture/assets/372418.webp"
@@ -50659,7 +51663,6 @@
     "icon": "UI_Homeworld_Exterior_Common_Plant_Grass_23_Lod0",
     "localizedNames": {
       "en": "Vivacious Awlking",
-      "zh": "郁生蝶绿",
       "ja": "茂生蝶緑",
       "ko": "울창한 접록"
     },
@@ -50749,7 +51752,6 @@
     "icon": "UI_Homeworld_Exterior_Common_Plant_Grass_26_Lod0",
     "localizedNames": {
       "en": "Meadow Bloom",
-      "zh": "梧枝锦簇",
       "ja": "梧枝花錦",
       "ko": "오동의 가지"
     },
@@ -52759,7 +53761,6 @@
     "icon": "UI_Homeworld_Exterior_Fd_Plant_Grass_ZiHuacong_01_Lod0",
     "localizedNames": {
       "en": "Bellflower Haze",
-      "zh": "「桔梗轻烟」",
       "ja": "「桔梗の霞」",
       "ko": "「도라지 안개」"
     },
@@ -53240,6 +54241,7 @@
     "localizedNames": {
       "en": "Softglow Stamen",
       "zh": "「熠熠烟蕊」",
+      "ja": "「きらめく花蕊」",
       "ko": "「반짝이는 꽃술」"
     },
     "localAsset": "Nanoka/gi/furniture/assets/372518.webp"
@@ -53363,6 +54365,56 @@
       "ko": "「현상금 사냥꾼」"
     },
     "localAsset": "Nanoka/gi/furniture/assets/372524.webp"
+  },
+  {
+    "id": "372525",
+    "name": "372525",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Landform"
+    ],
+    "type2": [
+      "Small Shrub"
+    ],
+    "cost": 35,
+    "comfort": 30,
+    "source": [],
+    "recipe": {
+      "exp": null,
+      "time": null,
+      "items": []
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Plant_Grass_HNHguanmu_01_Lod0",
+    "localizedNames": {
+      "zh": "火鸟壑_灌木1"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/372525.webp"
+  },
+  {
+    "id": "372526",
+    "name": "372526",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Landform"
+    ],
+    "type2": [
+      "Small Shrub"
+    ],
+    "cost": 35,
+    "comfort": 30,
+    "source": [],
+    "recipe": {
+      "exp": null,
+      "time": null,
+      "items": []
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Plant_Grass_HNHguanmu_02_Lod0",
+    "localizedNames": {
+      "zh": "火鸟壑_灌木2"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/372526.webp"
   },
   {
     "id": "372600",
@@ -54212,7 +55264,6 @@
     "icon": "UI_Homeworld_Exterior_Common_Decoration_Vase_07_Lod0",
     "localizedNames": {
       "en": "Fruit Seller's Caution",
-      "zh": "果蔬商贩的谨慎",
       "ja": "青果商人の慎重",
       "ko": "과채 장사꾼의 신중함"
     },
@@ -54531,7 +55582,6 @@
     "icon": "UI_Homeworld_Exterior_Common_Thing_Match_01_Lod0",
     "localizedNames": {
       "en": "Wood Bundle",
-      "zh": "成捆的木材",
       "ja": "束ねられた木材",
       "ko": "목재 다발"
     },
@@ -54757,6 +55807,7 @@
     "localizedNames": {
       "en": "Training Ground Support Stakes",
       "zh": "练兵场木桩支架",
+      "ja": "練兵場の木製スタンド",
       "ko": "훈련장 통나무 말뚝"
     },
     "localAsset": "Nanoka/gi/furniture/assets/373123.webp"
@@ -55178,6 +56229,7 @@
     "localizedNames": {
       "en": "Mountain of Festive Gifts",
       "zh": "「庆节嘉趣礼如山」",
+      "ja": "「山の如く奉呈で佳節を祝す」",
       "ko": "「산처럼 쌓인 선물」"
     },
     "localAsset": "Nanoka/gi/furniture/assets/373134.webp"
@@ -55341,6 +56393,7 @@
     "localizedNames": {
       "en": "Pear Orchard Snare Drum: A Quartet Chorus",
       "zh": "梨园弦鼓-「一唱三叹」",
+      "ja": "梨園弦鼓-「一唱三嘆」",
       "ko": "이원 선율-「일창삼탄」"
     },
     "localAsset": "Nanoka/gi/furniture/assets/373139.webp"
@@ -55443,7 +56496,6 @@
     "icon": "UI_Homeworld_Exterior_Xm_Decoration_Prop_FishFrame_01_Lod0",
     "localizedNames": {
       "en": "Fisherman's Catch",
-      "zh": "「渔采的丰获之声」",
       "ja": "「漁労の豊漁の声」",
       "ko": "「어부의 대어를 낚는 소리」"
     },
@@ -56281,7 +57333,6 @@
     "icon": "UI_Homeworld_Ani_Exterior_Xm_Thing_Prop_MachineButterfly_01",
     "localizedNames": {
       "en": "\"Spiraling Duet\"",
-      "zh": "「迅旋径迹二重奏」",
       "ja": "「迅旋の二重奏」",
       "ko": "「교차 회전 이중주」"
     },
@@ -56350,7 +57401,6 @@
     "icon": "UI_Homeworld_Exterior_Common_Thing_Prop_AyuanBlow_01_Vo",
     "localizedNames": {
       "en": "Leisure Device: Puffy Tubby",
-      "zh": "闲趣机关-「圆圆呼呼」",
       "ja": "遊戯装置-「マルマルふーふー」",
       "ko": "오락 장치-「후후 포롱이」"
     },
@@ -58045,7 +59095,6 @@
     "icon": "UI_Homeworld_Exterior_Fd_Decoration_Prop_PtlkHuapen_02_Lod0",
     "localizedNames": {
       "en": "\"Salubrious Fragrance\"",
-      "zh": "「健疗的醇芳」",
       "ja": "「癒しの芳香」",
       "ko": "「치유의 향」"
     },
@@ -59492,6 +60541,7 @@
     "localizedNames": {
       "en": "Glowstone Parasol",
       "zh": "「朽石荧伞」",
+      "ja": "「古き石の蛍傘」",
       "ko": "「형광 바위 우산」"
     },
     "localAsset": "Nanoka/gi/furniture/assets/373326.webp"
@@ -59976,7 +61026,6 @@
     "icon": "UI_Homeworld_Exterior_Ly_Thing_Ecloth_LanternRite_01_Lod0",
     "localizedNames": {
       "en": "Gold-Inscribed Evil-Cleansing Banner",
-      "zh": "金纹羽节除祟丹帜",
       "ja": "金紋羽旄の邪気祓い赤旗",
       "ko": "금빛 무늬 액막이 깃발"
     },
@@ -60484,7 +61533,6 @@
     "icon": "UI_Homeworld_Exterior_Md_Thing_Prop_KleeShelf_01_Lod0",
     "localizedNames": {
       "en": "Dodoco's Collection Cupboard",
-      "zh": "「嘟嘟可的收藏橱柜」",
       "ja": "「ドドコのコレクション棚」",
       "ko": "「도도코의 소장용 찬장」"
     },
@@ -61007,7 +62055,6 @@
     "icon": "UI_Homeworld_Exterior_Ly_Decoration_Prop_DoubleScreen_01_Vo",
     "localizedNames": {
       "en": "Propitious Screen: Fog Gathering on Smoky Mountains",
-      "zh": "吉庆画屏-「雾聚烟山」",
       "ja": "慶賀屏風-「霧に集いし煙山」",
       "ko": "축하용 병풍-「안개 낀 산」"
     },
@@ -61721,7 +62768,6 @@
     "icon": "UI_Homeworld_Exterior_Xm_Decoration_Ecloth_Xyjqizi_04_Vo",
     "localizedNames": {
       "en": "\"Amurta Flag\"",
-      "zh": "「阿弥利多之旗」",
       "ja": "「アムリタの旗」",
       "ko": "「아무르타 깃발」"
     },
@@ -63696,7 +64742,6 @@
     "icon": "UI_Homeworld_Ani_Exterior_Ly_Decoration_Prop_HdjWushi_02",
     "localizedNames": {
       "en": "Wushou Dance Doll: Sleepy Suanni",
-      "zh": "舞兽玩偶-「懒懒困猊」",
       "ja": "獣舞玩具-「ものぐさ猊獣」",
       "ko": "짐승춤 인형-「나른한 산예」"
     },
@@ -65043,7 +66088,6 @@
     "icon": "UI_Homeworld_Exterior_Dq_Decoration_Prop_Schjjiaju_01_Vo",
     "localizedNames": {
       "en": "Festive Showcase: Akitsu Harpastum",
-      "zh": "游艺展板-「秋津羽球」",
       "ja": "遊芸展示パネル-「秋津バドルドー」",
       "ko": "놀이 홍보판-「아키츠 하르파스툼」"
     },
@@ -65430,7 +66474,6 @@
     "icon": "UI_Homeworld_Exterior_Ndkl_Decoration_Prop_Jiaozhonggu_01_Vo",
     "localizedNames": {
       "en": "Heavy Hooffall",
-      "zh": "「鹿踏沉沉」",
       "ja": "「鹿の足踏み」",
       "ko": "「사슴의 묵직한 발소리」"
     },
@@ -65617,7 +66660,6 @@
     "icon": "UI_Homeworld_Exterior_Ndkl_Decoration_Prop_SYRpf_01_Vo",
     "localizedNames": {
       "en": "Camp Barrier: Treatment Area",
-      "zh": "营地屏障-「诊疗区域」",
       "ja": "拠点の仕切り-「診療エリア」",
       "ko": "야영지 가림막-「진료 구역」"
     },
@@ -67102,7 +68144,6 @@
     "icon": "UI_Homeworld_General_Common_Thing_Prop_Irodori_MainFlower_09_Vo",
     "localizedNames": {
       "en": "Sunset Shadows",
-      "zh": "晚霞的姿影",
       "ja": "夕焼けの影",
       "ko": "노을의 자태"
     },
@@ -68024,6 +69065,7 @@
     "localizedNames": {
       "en": "Fixed Torch: Pursuit of Victory",
       "zh": "固定火炬-「求胜」",
+      "ja": "固定型松明-「勝利を求める者」",
       "ko": "고정식 횃불-「승부욕」"
     },
     "localAsset": "Nanoka/gi/furniture/assets/373926.webp"
@@ -68447,7 +69489,6 @@
     "icon": "UI_Homeworld_Exterior_Ndkl_Decoration_Prop_Lajixiaojiqiren_01_Vo",
     "localizedNames": {
       "en": "Ice Cream Cutie",
-      "zh": "「冰淇淋甜心」",
       "ja": "「アイスクリームハニー」",
       "ko": "「아이스크림 달콤이」"
     },
@@ -68487,6 +69528,7 @@
     "localizedNames": {
       "en": "Small Cargo Container: Safe Stowage",
       "zh": "小型货箱-「妥善安置」",
+      "ja": "小型貨物ボックス-「完璧な配置」",
       "ko": "소형 화물 상자-「적절한 배치」"
     },
     "localAsset": "Nanoka/gi/furniture/assets/373938.webp"
@@ -68607,6 +69649,108 @@
       "ko": "「활용할 수 없는 유물」"
     },
     "localAsset": "Nanoka/gi/furniture/assets/373941.webp"
+  },
+  {
+    "id": "373942",
+    "name": "373942",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Small Object"
+    ],
+    "cost": 35,
+    "comfort": 30,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101320",
+          "count": 2
+        },
+        {
+          "id": "101401",
+          "count": 4
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_CBZzuantou_01_Lod0",
+    "localizedNames": {
+      "zh": "雪钻"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/373942.webp"
+  },
+  {
+    "id": "373943",
+    "name": "373943",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Small Object"
+    ],
+    "cost": 35,
+    "comfort": 30,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101401",
+          "count": 8
+        },
+        {
+          "id": "101402",
+          "count": 4
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_SJguizi_01_Vo",
+    "localizedNames": {
+      "zh": "冰柜"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/373943.webp"
+  },
+  {
+    "id": "373944",
+    "name": "373944",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Small Object"
+    ],
+    "cost": 35,
+    "comfort": 30,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101001",
+          "count": 4
+        },
+        {
+          "id": "101401",
+          "count": 4
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_SJxuren_01_Lod0",
+    "localizedNames": {
+      "zh": "雪人"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/373944.webp"
   },
   {
     "id": "374001",
@@ -68753,6 +69897,7 @@
     "localizedNames": {
       "en": "Snowman Head: Catsclamation",
       "zh": "雪人脑袋-「猫猫惊叹」",
+      "ja": "雪だるまの頭-「猫の驚嘆」",
       "ko": "눈사람 머리-「놀랐다냥」"
     },
     "localAsset": "Nanoka/gi/furniture/assets/374005.webp"
@@ -68872,6 +70017,7 @@
     "localizedNames": {
       "en": "Snowman Hands: Chivalrous Cleanup",
       "zh": "雪人双手-「清洁骑士」",
+      "ja": "雪だるまの両手-「クリーンナイト」",
       "ko": "눈사람 손-「청소 기사」"
     },
     "localAsset": "Nanoka/gi/furniture/assets/374009.webp"
@@ -69440,7 +70586,6 @@
     "icon": "UI_Homeworld_Exterior_Common_Prop_Thing_SnowmanNose_04_Vo",
     "localizedNames": {
       "en": "Snowman Nose: Apple Bomb",
-      "zh": "雪人鼻子-「苹果炸弹」",
       "ja": "雪だるまの鼻-「アップルボム」",
       "ko": "눈사람 코-「사과 폭탄」"
     },
@@ -69890,7 +71035,6 @@
     "icon": "UI_Homeworld_Ani_Exterior_Common_Decoration_Prop_WoodAranaraHeadC1_03_Vo",
     "localizedNames": {
       "en": "Wooden Head: Hmph",
-      "zh": "木色脑袋-「哼哼」",
       "ja": "木色頭-「ふふん」",
       "ko": "나무색 머리-「낄낄」"
     },
@@ -69920,7 +71064,6 @@
     "icon": "UI_Homeworld_Ani_Exterior_Common_Decoration_Prop_WoodAranaraHeadC1_04_Vo",
     "localizedNames": {
       "en": "Wooden Head: Boohoo",
-      "zh": "木色脑袋-「呜呜」",
       "ja": "木色頭-「しくしく」",
       "ko": "나무색 머리-「흑흑」"
     },
@@ -70071,6 +71214,7 @@
     "localizedNames": {
       "en": "Blue Head: Ho Ho",
       "zh": "水色脑袋-「嚯嚯」",
+      "ja": "水色頭-「ほほぉ」",
       "ko": "물색 머리-「허허」"
     },
     "localAsset": "Nanoka/gi/furniture/assets/374059.webp"
@@ -70729,7 +71873,6 @@
     "icon": "UI_Homeworld_Exterior_Common_Plant_Hedge_01_Lod0",
     "localizedNames": {
       "en": "Newly Grown Grapevines",
-      "zh": "初成的葡萄藤",
       "ja": "芽生えたブドウ藤",
       "ko": "어린 포도 넝쿨"
     },
@@ -71970,7 +73113,6 @@
     "icon": "UI_Homeworld_Exterior_Fd_Chair_Prop_CafeYi_01_Vo",
     "localizedNames": {
       "en": "Passage's Languid Lifestyle",
-      "zh": "「回廊的悠然时光」",
       "ja": "「回廊·のどかなひと時」",
       "ko": "「회랑의 편안한 시간」"
     },
@@ -72493,6 +73635,74 @@
       "ko": "「고요한 메아리」"
     },
     "localAsset": "Nanoka/gi/furniture/assets/374223.webp"
+  },
+  {
+    "id": "374224",
+    "name": "374224",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Outdoor Furnishing"
+    ],
+    "type2": [
+      "Seating"
+    ],
+    "cost": 35,
+    "comfort": 30,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101001",
+          "count": 6
+        },
+        {
+          "id": "101002",
+          "count": 6
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Chair_Prop_QCCZyizi_01_Vo",
+    "localizedNames": {
+      "zh": "车站长椅"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/374224.webp"
+  },
+  {
+    "id": "374225",
+    "name": "374225",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Outdoor Furnishing"
+    ],
+    "type2": [
+      "Seating"
+    ],
+    "cost": 35,
+    "comfort": 30,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101001",
+          "count": 10
+        },
+        {
+          "id": "101002",
+          "count": 4
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Chair_Prop_ZCyizi_01_Vo",
+    "localizedNames": {
+      "zh": "至冬室外椅"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/374225.webp"
   },
   {
     "id": "374301",
@@ -73080,6 +74290,7 @@
     "localizedNames": {
       "en": "Pear Orchard Accessory: Attend and Listen",
       "zh": "梨园砌末-「且听分解」",
+      "ja": "梨園装飾-「お楽しみに」",
       "ko": "이원 소품-「경청」"
     },
     "localAsset": "Nanoka/gi/furniture/assets/374316.webp"
@@ -73717,6 +74928,40 @@
       "ko": "작전 모형판-「사전 모의」"
     },
     "localAsset": "Nanoka/gi/furniture/assets/374333.webp"
+  },
+  {
+    "id": "374334",
+    "name": "374334",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Outdoor Furnishing"
+    ],
+    "type2": [
+      "Table"
+    ],
+    "cost": 65,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101301",
+          "count": 6
+        },
+        {
+          "id": "101002",
+          "count": 2
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Table_Prop_ZCzhuozi_01_Vo",
+    "localizedNames": {
+      "zh": "至冬室外桌"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/374334.webp"
   },
   {
     "id": "374401",
@@ -74653,7 +75898,6 @@
     "icon": "UI_Homeworld_Exterior_Nt_Build_JJCwuqijia_01_Lod0",
     "localizedNames": {
       "en": "Our Destination",
-      "zh": "「我们的归宿」",
       "ja": "「我らの帰着」",
       "ko": "「우리의 귀착지」"
     },
@@ -75113,7 +76357,6 @@
     "icon": "UI_Homeworld_Exterior_Nt_Thing_Prop_DinoPopcornMachine_01_Vo",
     "localizedNames": {
       "en": "Grainfruit Puffer",
-      "zh": "「粒果膨膨机」",
       "ja": "「グレインポンポンマシーン」",
       "ko": "「알갱이 열매 뻥튀기 기계」"
     },
@@ -75506,7 +76749,6 @@
     "icon": "UI_Homeworld_Exterior_Ndkl_Decoration_Prop_LJjixie_01_Vo",
     "localizedNames": {
       "en": "One-Sec Whiz",
-      "zh": "「一秒钟快快」",
       "ja": "「一秒でも早くっ！」",
       "ko": "「1초 컷」"
     },
@@ -75887,7 +77129,6 @@
     "icon": "UI_Homeworld_Exterior_Md_Decoration_Prop_JFGKanban_01_Vo",
     "localizedNames": {
       "en": "Town Noticeboard: \"Odds, Ends, and Everything Between\"",
-      "zh": "城镇告示-「杂事闲谈」",
       "ja": "町の告知板-「よもやま話」",
       "ko": "마을 게시판-「잡담」"
     },
@@ -76290,6 +77531,210 @@
       "ko": "「신호 없는 탑」"
     },
     "localAsset": "Nanoka/gi/furniture/assets/374660.webp"
+  },
+  {
+    "id": "374661",
+    "name": "374661",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Large Object"
+    ],
+    "cost": 50,
+    "comfort": 30,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101001",
+          "count": 4
+        },
+        {
+          "id": "101002",
+          "count": 4
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_YKZche_01_Lod0",
+    "localizedNames": {
+      "zh": "运输车"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/374661.webp"
+  },
+  {
+    "id": "374662",
+    "name": "374662",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Large Object"
+    ],
+    "cost": 50,
+    "comfort": 30,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101001",
+          "count": 2
+        },
+        {
+          "id": "101002",
+          "count": 6
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_WZzhangpeng_01_Vo",
+    "localizedNames": {
+      "zh": "乌贼工坊帐篷"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/374662.webp"
+  },
+  {
+    "id": "374663",
+    "name": "374663",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Large Object"
+    ],
+    "cost": 50,
+    "comfort": 30,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101001",
+          "count": 2
+        },
+        {
+          "id": "101002",
+          "count": 6
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_YKZkuangche_01_Lod0",
+    "localizedNames": {
+      "zh": "采冰镇-货车"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/374663.webp"
+  },
+  {
+    "id": "374664",
+    "name": "374664",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Large Object"
+    ],
+    "cost": 50,
+    "comfort": 30,
+    "source": [],
+    "recipe": {
+      "exp": 90,
+      "time": 57600,
+      "items": [
+        {
+          "id": "101001",
+          "count": 6
+        },
+        {
+          "id": "101002",
+          "count": 12
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_YKZnuanlu_01_Lod0",
+    "localizedNames": {
+      "zh": "小型暖炉"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/374664.webp"
+  },
+  {
+    "id": "374665",
+    "name": "374665",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Large Object"
+    ],
+    "cost": 50,
+    "comfort": 30,
+    "source": [],
+    "recipe": {
+      "exp": 90,
+      "time": 57600,
+      "items": [
+        {
+          "id": "101320",
+          "count": 8
+        },
+        {
+          "id": "101001",
+          "count": 4
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_CBZbingkuai_01_Vo",
+    "localizedNames": {
+      "zh": "采冰镇-建材冰"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/374665.webp"
+  },
+  {
+    "id": "374666",
+    "name": "374666",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Large Object"
+    ],
+    "cost": 50,
+    "comfort": 30,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101001",
+          "count": 2
+        },
+        {
+          "id": "101002",
+          "count": 6
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_CBZkzt_01_Lod0",
+    "localizedNames": {
+      "zh": "采冰镇-控制台"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/374666.webp"
   },
   {
     "id": "374700",
@@ -77965,7 +79410,6 @@
     "icon": "UI_Homeworld_Exterior_Common_Prop_Thing_FairyTalesCapsuleToys_30",
     "localizedNames": {
       "en": "Fairytale Figurine: Sure Thing",
-      "zh": "童话巧像-「一定会有」",
       "ja": "童話の模型-「百パーセント」",
       "ko": "동화 모형-「반드시 있음」"
     },
@@ -78115,7 +79559,6 @@
     "icon": "UI_Homeworld_Exterior_Common_Prop_Thing_FairyTalesCapsuleToys_35",
     "localizedNames": {
       "en": "Fairytale Figurine: The Power of Wisdom",
-      "zh": "童话巧像-「智慧之力」",
       "ja": "童話の模型-「知恵の力」",
       "ko": "동화 모형-「지혜의 힘」"
     },
@@ -79715,7 +81158,7 @@
       "time": null,
       "items": []
     },
-    "icon": null,
+    "icon": "UI_Homeworld_Exterior_Common_Decoration_Prop_BJLC_01_Lod0",
     "localizedNames": {
       "en": "???",
       "zh": "？？？",
@@ -79723,6 +81166,150 @@
       "ko": "???"
     },
     "localAsset": null
+  },
+  {
+    "id": "374845",
+    "name": "???",
+    "description": "???",
+    "rank": 3,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Special Object"
+    ],
+    "cost": 95,
+    "comfort": 30,
+    "source": [],
+    "recipe": {
+      "exp": null,
+      "time": null,
+      "items": []
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_JSTW_01_Vo",
+    "localizedNames": {
+      "en": "???",
+      "zh": "？？？",
+      "ja": "？？？",
+      "ko": "???"
+    },
+    "localAsset": null
+  },
+  {
+    "id": "374846",
+    "name": "???",
+    "description": "???",
+    "rank": 3,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Special Object"
+    ],
+    "cost": 95,
+    "comfort": 30,
+    "source": [],
+    "recipe": {
+      "exp": null,
+      "time": null,
+      "items": []
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_JSTW_02_Vo",
+    "localizedNames": {
+      "en": "???",
+      "zh": "？？？",
+      "ja": "？？？",
+      "ko": "???"
+    },
+    "localAsset": null
+  },
+  {
+    "id": "374847",
+    "name": "???",
+    "description": "???",
+    "rank": 4,
+    "type": [
+      "Landscape",
+      "Small Furnishing"
+    ],
+    "type2": [
+      "Special Object",
+      "Craftwork"
+    ],
+    "cost": 95,
+    "comfort": 30,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101329",
+          "count": 12
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Ani_General_Zd_Decoration_Prop_BYH_01",
+    "localizedNames": {
+      "en": "???",
+      "zh": "？？？",
+      "ja": "？？？",
+      "ko": "???"
+    },
+    "localAsset": null
+  },
+  {
+    "id": "374848",
+    "name": "???",
+    "description": "???",
+    "rank": 4,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Special Object"
+    ],
+    "cost": 95,
+    "comfort": 30,
+    "source": [],
+    "recipe": {
+      "exp": null,
+      "time": null,
+      "items": []
+    },
+    "icon": "UI_Homeworld_Ani_Interior_Zd_Decoration_Prop_ZJCbayinhe_01",
+    "localizedNames": {
+      "en": "???",
+      "zh": "？？？",
+      "ja": "？？？",
+      "ko": "???"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/374848.webp"
+  },
+  {
+    "id": "374849",
+    "name": "374849",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Special Object"
+    ],
+    "cost": 95,
+    "comfort": 30,
+    "source": [],
+    "recipe": {
+      "exp": null,
+      "time": null,
+      "items": []
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_ZDqqq_01_Vo",
+    "localizedNames": {
+      "zh": "雀雀球家具"
+    },
+    "localAsset": "Nanoka/gi/furniture/assets/374849.webp"
   },
   {
     "id": "375101",
@@ -79810,6 +81397,7 @@
     "localizedNames": {
       "en": "Sumeru Mansion: Meditative Retreat",
       "zh": "须弥穹居-「静虑寓所」",
+      "ja": "スメール住居-「静かな住まい」",
       "ko": "수메르 나무집-「고요한 사색의 거처」"
     },
     "localAsset": "Nanoka/gi/furniture/assets/375104.webp"

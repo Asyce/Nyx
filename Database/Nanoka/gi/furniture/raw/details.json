@@ -3078,6 +3078,35 @@
       ]
     }
   },
+  "360484": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Lamp_Light_ZCludeng_01_Lod0",
+    "rank": 3,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Lighting"
+    ],
+    "cost": 85,
+    "comfort": 30,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 8,
+          "id": 101001
+        },
+        {
+          "count": 4,
+          "id": 101002
+        }
+      ]
+    }
+  },
   "360504": {
     "name": "Efflorescent Illumination",
     "desc": "A hanging light with fabric stretched over Brightwood frames underneath leaves blooming in the shape of petals. The light is decorated with Sumeru-style colored paintings, while the wick uses extracts from bioluminescent plants that have been mixed with a small amount of dye and distilled several times to arrive at the most optimal concentration. Its light is gentle and elegant, sufficient to illuminate a wide indoor space.",
@@ -3924,6 +3953,64 @@
       "items": [
         {
           "count": 6,
+          "id": 101001
+        },
+        {
+          "count": 6,
+          "id": 101002
+        }
+      ]
+    }
+  },
+  "361126": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Interior_Zd_Cabinet_Prop_CTguizi_01_Vo",
+    "rank": 3,
+    "type": [
+      "Large Furnishing"
+    ],
+    "type2": [
+      "Cabinet"
+    ],
+    "cost": 254,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 6,
+          "id": 101001
+        },
+        {
+          "count": 6,
+          "id": 101002
+        }
+      ]
+    }
+  },
+  "361127": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Interior_Zd_Cabinet_Prop_XNGcwg_01_01_Lods",
+    "rank": 3,
+    "type": [
+      "Large Furnishing"
+    ],
+    "type2": [
+      "Cabinet"
+    ],
+    "cost": 254,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 2,
           "id": 101001
         },
         {
@@ -5920,6 +6007,35 @@
     ],
     "recipe": {}
   },
+  "361350": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Interior_Zd_Cabinet_Prop_CTguizi_02_Vo",
+    "rank": 3,
+    "type": [
+      "Large Furnishing"
+    ],
+    "type2": [
+      "Table"
+    ],
+    "cost": 592,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 6,
+          "id": 101001
+        },
+        {
+          "count": 6,
+          "id": 101002
+        }
+      ]
+    }
+  },
   "361401": {
     "name": "Breeze-Blessed Bed",
     "desc": "A style of bed that has been much loved in Mondstadt of late. The Knights of Favonius also adopted it as their standard issue dormitory bed.\\nIt was once rumored that these beds were made using unique fabrics that had the blessing of the gentle winds, which allowed people to sleep more easily.\\nHowever, the Knights were forced to switch out the stuffings of the mattresses and pillows on account of the number of knights who showed up late.",
@@ -6378,6 +6494,35 @@
         {
           "count": 4,
           "id": 101404
+        }
+      ]
+    }
+  },
+  "361415": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_XNGchuang_01_Lod0",
+    "rank": 3,
+    "type": [
+      "Large Furnishing"
+    ],
+    "type2": [
+      "Bed"
+    ],
+    "cost": 85,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 8,
+          "id": 101001
+        },
+        {
+          "count": 4,
+          "id": 101002
         }
       ]
     }
@@ -7747,6 +7892,60 @@
         {
           "count": 4,
           "id": 101401
+        }
+      ]
+    }
+  },
+  "362136": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Interior_Zd_Chair_Prop_XNGyizi_01_Lod0",
+    "rank": 3,
+    "type": [
+      "Small Furnishing"
+    ],
+    "type2": [
+      "Seating"
+    ],
+    "cost": 85,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 2,
+          "id": 101001
+        },
+        {
+          "count": 6,
+          "id": 101002
+        }
+      ]
+    }
+  },
+  "362137": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Interior_Zd_Chair_Prop_YHyizi_01_Vo",
+    "rank": 3,
+    "type": [
+      "Small Furnishing"
+    ],
+    "type2": [
+      "Seating"
+    ],
+    "cost": 85,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 8,
+          "id": 101329
         }
       ]
     }
@@ -10802,6 +11001,64 @@
       ]
     }
   },
+  "362325": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Interior_Zd_Carpet_Prop_XNGditan_01_Vo",
+    "rank": 3,
+    "type": [
+      "Small Furnishing"
+    ],
+    "type2": [
+      "Carpet"
+    ],
+    "cost": 85,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 4,
+          "id": 101401
+        },
+        {
+          "count": 4,
+          "id": 101403
+        }
+      ]
+    }
+  },
+  "362326": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Interior_Zd_Carpet_Prop_YHditan_01_Vo",
+    "rank": 3,
+    "type": [
+      "Small Furnishing"
+    ],
+    "type2": [
+      "Carpet"
+    ],
+    "cost": 85,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 90,
+      "time": 57600,
+      "items": [
+        {
+          "count": 12,
+          "id": 101001
+        },
+        {
+          "count": 18,
+          "id": 101002
+        }
+      ]
+    }
+  },
   "362401": {
     "name": "Vibrant Pot: Born in Flames",
     "desc": "A clay pot that can be found within the Stadium of the Sacred Flame. Its clean, white main form is paired with dark-red patterns. Some say that artisans from Natlan use volcanic ash as one of their source materials when making clay. Some riddles will even use \"born of fire\" or \"children of lava\" as metaphors for pottery.",
@@ -10997,6 +11254,35 @@
       "Obtained from Story Quest"
     ],
     "recipe": {}
+  },
+  "362408": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_HTJZ_01_Lod0",
+    "rank": 3,
+    "type": [
+      "Small Furnishing"
+    ],
+    "type2": [
+      "Craftwork"
+    ],
+    "cost": 190,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 8,
+          "id": 101001
+        },
+        {
+          "count": 4,
+          "id": 101002
+        }
+      ]
+    }
   },
   "363101": {
     "name": "Trusty Portable Lamp",
@@ -11551,6 +11837,64 @@
         },
         {
           "count": 2,
+          "id": 101002
+        }
+      ]
+    }
+  },
+  "363121": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Interior_Zd_Lamp_Light_YHtaideng_01_Vo",
+    "rank": 3,
+    "type": [
+      "Ornaments"
+    ],
+    "type2": [
+      "Lighting"
+    ],
+    "cost": 305,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 6,
+          "id": 101001
+        },
+        {
+          "count": 6,
+          "id": 101002
+        }
+      ]
+    }
+  },
+  "363122": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Interior_Zd_Lamp_Light_YHtaideng_02_Vo",
+    "rank": 3,
+    "type": [
+      "Ornaments"
+    ],
+    "type2": [
+      "Lighting"
+    ],
+    "cost": 305,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 6,
+          "id": 101001
+        },
+        {
+          "count": 6,
           "id": 101002
         }
       ]
@@ -14150,6 +14494,64 @@
     ],
     "recipe": {}
   },
+  "363399": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Ani_Interior_Zd_Decoration_Prop_XHYFS_01",
+    "rank": 4,
+    "type": [
+      "Ornaments"
+    ],
+    "type2": [
+      "Memento"
+    ],
+    "cost": 1300,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 4,
+          "id": 101001
+        },
+        {
+          "count": 4,
+          "id": 101002
+        }
+      ]
+    }
+  },
+  "363400": {
+    "name": "???",
+    "desc": "???",
+    "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_HCCM_01_Vo",
+    "rank": 3,
+    "type": [
+      "Ornaments"
+    ],
+    "type2": [
+      "Memento"
+    ],
+    "cost": 1300,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 2,
+          "id": 101001
+        },
+        {
+          "count": 6,
+          "id": 101002
+        }
+      ]
+    }
+  },
   "363401": {
     "name": "Teahouse Tool: Miniscule Misses Make a Mile",
     "desc": "This sophisticated instrument is used in Chenyu Vale for the weighing of tea leaves. Its structure is simple enough, but it has incredible precision, to the point where the weight of even just a few tea leaves can be measured.\\nThey say that the high unit price of tea leaves makes merchants who come and go extremely sensitive to the weight of goods. To dispel such concerns, Chunming Teaworks will deliberately weigh the weight of each batch of tea leaves before and after drying and roasting, recording it on storage labels for easy verification. Aside from the experienced tea craftsmen who have been roasting tea for many years, not many can derive much information from such records. Still, the detailed data is symbolic of a rigorous attitude and an important process that cannot be neglected, as it leaves customers who purchase tea leaves doubly reassured.",
@@ -15078,6 +15480,93 @@
     ],
     "recipe": {}
   },
+  "363441": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_YHchabei_01_Vo",
+    "rank": 3,
+    "type": [
+      "Ornaments"
+    ],
+    "type2": [
+      "Utensil"
+    ],
+    "cost": 676,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 4,
+          "id": 101001
+        },
+        {
+          "count": 4,
+          "id": 101002
+        }
+      ]
+    }
+  },
+  "363442": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_CTzhutai_02_Vo",
+    "rank": 3,
+    "type": [
+      "Ornaments"
+    ],
+    "type2": [
+      "Utensil"
+    ],
+    "cost": 676,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 4,
+          "id": 101001
+        },
+        {
+          "count": 4,
+          "id": 101002
+        }
+      ]
+    }
+  },
+  "363443": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Interior_Zd_Lamp_Light_XNGlatai_01_Lod0",
+    "rank": 3,
+    "type": [
+      "Ornaments"
+    ],
+    "type2": [
+      "Utensil"
+    ],
+    "cost": 676,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 90,
+      "time": 57600,
+      "items": [
+        {
+          "count": 6,
+          "id": 101001
+        },
+        {
+          "count": 12,
+          "id": 101002
+        }
+      ]
+    }
+  },
   "363501": {
     "name": "\"Realizations from the Land of Wisdom\"",
     "desc": "A flower pot from the House of Daena with a humble-looking luminescent plant inside. Its appearance is not exactly attractive, and it doesn't give off nice scents or possess any medicinal properties. To people passing by, it may be easy to ignore and seem at odds with the solemn atmosphere in the House of Daena.\\nHowever, it is said that the scholar who proposed the installation of these plants specifically selected them because of how common they looked. According to that scholar, these plants can serve as a reminder to all students that despite the plants' ordinary appearance, they still had a place in the halls of the House of Daena, and the same applies to the students — as such, there is no need to dwell too much on their ancestry or wealth. The most important thing is that everyone is here to immerse themselves in academic study.",
@@ -15403,6 +15892,64 @@
         {
           "count": 4,
           "id": 101403
+        }
+      ]
+    }
+  },
+  "363513": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_ZDhuaping_01_01_Lods",
+    "rank": 3,
+    "type": [
+      "Ornaments"
+    ],
+    "type2": [
+      "Potted Plant"
+    ],
+    "cost": 180,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 8,
+          "id": 101001
+        },
+        {
+          "count": 4,
+          "id": 101002
+        }
+      ]
+    }
+  },
+  "363514": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_YHhuapen_01_01_Lods",
+    "rank": 3,
+    "type": [
+      "Ornaments"
+    ],
+    "type2": [
+      "Potted Plant"
+    ],
+    "cost": 180,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 4,
+          "id": 101001
+        },
+        {
+          "count": 4,
+          "id": 101002
         }
       ]
     }
@@ -17308,6 +17855,64 @@
       "Obtained from Limited-Time Event"
     ],
     "recipe": {}
+  },
+  "364524": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Interior_Zd_Walldecoration_Prop_CTbihua_01_Vo",
+    "rank": 3,
+    "type": [
+      "Wall Decor"
+    ],
+    "type2": [
+      "Picture Frame"
+    ],
+    "cost": 169,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 4,
+          "id": 101001
+        },
+        {
+          "count": 8,
+          "id": 101002
+        }
+      ]
+    }
+  },
+  "364525": {
+    "name": "???",
+    "desc": "???",
+    "icon": "UI_Homeworld_Interior_Zd_Walldecoration_Prop_XNGguahua_01_Vo",
+    "rank": 3,
+    "type": [
+      "Wall Decor"
+    ],
+    "type2": [
+      "Picture Frame"
+    ],
+    "cost": 169,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 6,
+          "id": 101001
+        },
+        {
+          "count": 2,
+          "id": 101002
+        }
+      ]
+    }
   },
   "364601": {
     "name": "Mirrorpool Horned Owl: Turning",
@@ -30850,6 +31455,241 @@
       ]
     }
   },
+  "371050": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Build_WZtadiao_01_01_Lods",
+    "rank": 3,
+    "type": [
+      ""
+    ],
+    "type2": [
+      ""
+    ],
+    "cost": 65,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 2,
+          "id": 101001
+        },
+        {
+          "count": 6,
+          "id": 101002
+        }
+      ]
+    }
+  },
+  "371051": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Build_WZxiaowu_01_01_Lods",
+    "rank": 3,
+    "type": [
+      ""
+    ],
+    "type2": [
+      ""
+    ],
+    "cost": 65,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 6,
+          "id": 101001
+        },
+        {
+          "count": 6,
+          "id": 101002
+        }
+      ]
+    }
+  },
+  "371052": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Build_SJfangwu_01_01_Lods",
+    "rank": 3,
+    "type": [
+      ""
+    ],
+    "type2": [
+      ""
+    ],
+    "cost": 65,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 2,
+          "id": 101001
+        },
+        {
+          "count": 6,
+          "id": 101002
+        }
+      ]
+    }
+  },
+  "371053": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Build_QCCZdct_01_01_Lods",
+    "rank": 3,
+    "type": [
+      ""
+    ],
+    "type2": [
+      ""
+    ],
+    "cost": 65,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 90,
+      "time": 57600,
+      "items": [
+        {
+          "count": 10,
+          "id": 101001
+        },
+        {
+          "count": 8,
+          "id": 101002
+        }
+      ]
+    }
+  },
+  "371054": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Build_ZCminju_01_01_Lods",
+    "rank": 3,
+    "type": [
+      ""
+    ],
+    "type2": [
+      ""
+    ],
+    "cost": 65,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 2,
+          "id": 101001
+        },
+        {
+          "count": 6,
+          "id": 101002
+        }
+      ]
+    }
+  },
+  "371055": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Build_ZCtalou_01_01_Lods",
+    "rank": 3,
+    "type": [
+      ""
+    ],
+    "type2": [
+      ""
+    ],
+    "cost": 65,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 6,
+          "id": 101301
+        },
+        {
+          "count": 2,
+          "id": 101002
+        }
+      ]
+    }
+  },
+  "371056": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Build_ZCminju_02_01_Lods",
+    "rank": 3,
+    "type": [
+      ""
+    ],
+    "type2": [
+      ""
+    ],
+    "cost": 65,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 2,
+          "id": 101001
+        },
+        {
+          "count": 6,
+          "id": 101002
+        }
+      ]
+    }
+  },
+  "371057": {
+    "name": "???",
+    "desc": "???",
+    "icon": "UI_Homeworld_Exterior_Zd_Build_ZJCdwt_01_01_Lods",
+    "rank": 4,
+    "type": [
+      ""
+    ],
+    "type2": [
+      ""
+    ],
+    "cost": 65,
+    "comfort": 60,
+    "source": [],
+    "recipe": {}
+  },
+  "371058": {
+    "name": "???",
+    "desc": "???",
+    "icon": "UI_Homeworld_Ani_Exterior_Zd_Build_ZJCdadeng_01",
+    "rank": 4,
+    "type": [
+      ""
+    ],
+    "type2": [
+      ""
+    ],
+    "cost": 65,
+    "comfort": 60,
+    "source": [],
+    "recipe": {}
+  },
   "371101": {
     "name": "Bird and Blossom Design Fountain",
     "desc": "A lovely-looking fountain that can often be found in city squares and gardens.\\nSome people believe in the legend of the fountain fairy and will throw Mora into the fountain to make a wish.",
@@ -36587,6 +37427,22 @@
     ],
     "recipe": {}
   },
+  "372363": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Plant_Tree_HNHshu_01_Lod0",
+    "rank": 3,
+    "type": [
+      "Landform"
+    ],
+    "type2": [
+      "Tree"
+    ],
+    "cost": 65,
+    "comfort": 30,
+    "source": [],
+    "recipe": {}
+  },
   "372401": {
     "name": "Fragrant Cedar Vegetable Rack",
     "desc": "A tall stack of shelves built from Fragrant Cedar. This shelf rack can store a great number of items, and is typically found in the kitchens of busy inns and restaurants as well as the estates of wealthy families.\\nEach shelf can bear a good amount of weight, but firsthand user experience suggests it is not wise to put large items on the very top shelf. Especially not, say, a full-bellied Guoba.",
@@ -38720,6 +39576,38 @@
     "source": [
       "Purchased from Realm Depot: Furnishings"
     ],
+    "recipe": {}
+  },
+  "372525": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Plant_Grass_HNHguanmu_01_Lod0",
+    "rank": 3,
+    "type": [
+      "Landform"
+    ],
+    "type2": [
+      "Small Shrub"
+    ],
+    "cost": 35,
+    "comfort": 30,
+    "source": [],
+    "recipe": {}
+  },
+  "372526": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Plant_Grass_HNHguanmu_02_Lod0",
+    "rank": 3,
+    "type": [
+      "Landform"
+    ],
+    "type2": [
+      "Small Shrub"
+    ],
+    "cost": 35,
+    "comfort": 30,
+    "source": [],
     "recipe": {}
   },
   "372600": {
@@ -50056,6 +50944,93 @@
       ]
     }
   },
+  "373942": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_CBZzuantou_01_Lod0",
+    "rank": 3,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Small Object"
+    ],
+    "cost": 35,
+    "comfort": 30,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 2,
+          "id": 101320
+        },
+        {
+          "count": 4,
+          "id": 101401
+        }
+      ]
+    }
+  },
+  "373943": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_SJguizi_01_Vo",
+    "rank": 3,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Small Object"
+    ],
+    "cost": 35,
+    "comfort": 30,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 8,
+          "id": 101401
+        },
+        {
+          "count": 4,
+          "id": 101402
+        }
+      ]
+    }
+  },
+  "373944": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_SJxuren_01_Lod0",
+    "rank": 3,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Small Object"
+    ],
+    "cost": 35,
+    "comfort": 30,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 4,
+          "id": 101001
+        },
+        {
+          "count": 4,
+          "id": 101401
+        }
+      ]
+    }
+  },
   "374001": {
     "name": "Snowman Torso: Sitting Pretty",
     "desc": "A snowman torso with standard proportions that can be used to build a Puffy Snowman.\\nThis sort of snowman mimics a sitting position. Though its legs are quite long, it looks quite cute indeed, and reminds people not at all of the terrifying snow monsters of legend.",
@@ -52741,6 +53716,64 @@
       ]
     }
   },
+  "374224": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Chair_Prop_QCCZyizi_01_Vo",
+    "rank": 3,
+    "type": [
+      "Outdoor Furnishing"
+    ],
+    "type2": [
+      "Seating"
+    ],
+    "cost": 35,
+    "comfort": 30,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 6,
+          "id": 101001
+        },
+        {
+          "count": 6,
+          "id": 101002
+        }
+      ]
+    }
+  },
+  "374225": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Chair_Prop_ZCyizi_01_Vo",
+    "rank": 3,
+    "type": [
+      "Outdoor Furnishing"
+    ],
+    "type2": [
+      "Seating"
+    ],
+    "cost": 35,
+    "comfort": 30,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 10,
+          "id": 101001
+        },
+        {
+          "count": 4,
+          "id": 101002
+        }
+      ]
+    }
+  },
   "374301": {
     "name": "Two-Story Hilichurl Sentry Tower",
     "desc": "A hilichurl sentry tower with two stories. It looks non-threatening by itself until you realize that a total of six archers may man it to repel any invaders.\\nWhy not seven, you ask? Why, a seventh shooter would get bumped around all over the shop by their fellows, which would result in unnecessary infighting.",
@@ -53693,6 +54726,35 @@
       "Joint Meeting Point Construction: Meeting Point Level Reward"
     ],
     "recipe": {}
+  },
+  "374334": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Table_Prop_ZCzhuozi_01_Vo",
+    "rank": 3,
+    "type": [
+      "Outdoor Furnishing"
+    ],
+    "type2": [
+      "Table"
+    ],
+    "cost": 65,
+    "comfort": 60,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 6,
+          "id": 101301
+        },
+        {
+          "count": 2,
+          "id": 101002
+        }
+      ]
+    }
   },
   "374401": {
     "name": "Wine Shop Display Counter: To Your Heart's Content",
@@ -55678,6 +56740,180 @@
         },
         {
           "count": 4,
+          "id": 101002
+        }
+      ]
+    }
+  },
+  "374661": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_YKZche_01_Lod0",
+    "rank": 3,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Large Object"
+    ],
+    "cost": 50,
+    "comfort": 30,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 4,
+          "id": 101001
+        },
+        {
+          "count": 4,
+          "id": 101002
+        }
+      ]
+    }
+  },
+  "374662": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_WZzhangpeng_01_Vo",
+    "rank": 3,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Large Object"
+    ],
+    "cost": 50,
+    "comfort": 30,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 2,
+          "id": 101001
+        },
+        {
+          "count": 6,
+          "id": 101002
+        }
+      ]
+    }
+  },
+  "374663": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_YKZkuangche_01_Lod0",
+    "rank": 3,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Large Object"
+    ],
+    "cost": 50,
+    "comfort": 30,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 2,
+          "id": 101001
+        },
+        {
+          "count": 6,
+          "id": 101002
+        }
+      ]
+    }
+  },
+  "374664": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_YKZnuanlu_01_Lod0",
+    "rank": 3,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Large Object"
+    ],
+    "cost": 50,
+    "comfort": 30,
+    "source": [],
+    "recipe": {
+      "exp": 90,
+      "time": 57600,
+      "items": [
+        {
+          "count": 6,
+          "id": 101001
+        },
+        {
+          "count": 12,
+          "id": 101002
+        }
+      ]
+    }
+  },
+  "374665": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_CBZbingkuai_01_Vo",
+    "rank": 3,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Large Object"
+    ],
+    "cost": 50,
+    "comfort": 30,
+    "source": [],
+    "recipe": {
+      "exp": 90,
+      "time": 57600,
+      "items": [
+        {
+          "count": 8,
+          "id": 101320
+        },
+        {
+          "count": 4,
+          "id": 101001
+        }
+      ]
+    }
+  },
+  "374666": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_CBZkzt_01_Lod0",
+    "rank": 3,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Large Object"
+    ],
+    "cost": 50,
+    "comfort": 30,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 2,
+          "id": 101001
+        },
+        {
+          "count": 6,
           "id": 101002
         }
       ]
@@ -57835,8 +59071,99 @@
   "374844": {
     "name": "???",
     "desc": "???",
-    "icon": "",
+    "icon": "UI_Homeworld_Exterior_Common_Decoration_Prop_BJLC_01_Lod0",
     "rank": 4,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Special Object"
+    ],
+    "cost": 95,
+    "comfort": 30,
+    "source": [],
+    "recipe": {}
+  },
+  "374845": {
+    "name": "???",
+    "desc": "???",
+    "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_JSTW_01_Vo",
+    "rank": 3,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Special Object"
+    ],
+    "cost": 95,
+    "comfort": 30,
+    "source": [],
+    "recipe": {}
+  },
+  "374846": {
+    "name": "???",
+    "desc": "???",
+    "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_JSTW_02_Vo",
+    "rank": 3,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Special Object"
+    ],
+    "cost": 95,
+    "comfort": 30,
+    "source": [],
+    "recipe": {}
+  },
+  "374847": {
+    "name": "???",
+    "desc": "???",
+    "icon": "UI_Homeworld_Ani_General_Zd_Decoration_Prop_BYH_01",
+    "rank": 4,
+    "type": [
+      "Landscape",
+      "Small Furnishing"
+    ],
+    "type2": [
+      "Special Object",
+      "Craftwork"
+    ],
+    "cost": 95,
+    "comfort": 30,
+    "source": [],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 12,
+          "id": 101329
+        }
+      ]
+    }
+  },
+  "374848": {
+    "name": "???",
+    "desc": "???",
+    "icon": "UI_Homeworld_Ani_Interior_Zd_Decoration_Prop_ZJCbayinhe_01",
+    "rank": 4,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Special Object"
+    ],
+    "cost": 95,
+    "comfort": 30,
+    "source": [],
+    "recipe": {}
+  },
+  "374849": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_ZDqqq_01_Vo",
+    "rank": 3,
     "type": [
       "Landscape"
     ],

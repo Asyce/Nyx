@@ -961,7 +961,7 @@ function GachaTracker({ open, onClose, cfg, inline }){
           <span className="gt-dia"></span>
           <div className="gt-ttl">
             {phase === 'results'
-              ? <button type="button" className="gt-title-import" onClick={showImport}>Manage import</button>
+              ? <div className="gt-ttl-results"><div className="t">{TITLE}</div><button type="button" className="gt-title-import" onClick={showImport}>Manage import</button></div>
               : <div className="t">Import history</div>}
           </div>
           <button type="button" className="gt-x" title="Close" onClick={onClose} style={{ display:inline ? 'none' : undefined }}>{'\u2715'}</button>

@@ -3699,6 +3699,9 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .gt-recent-five-row em.fifty-loss, .gt-banner-history-detail em.fifty-loss{ color:#ffafc0; background:rgba(126,49,73,.32); box-shadow:inset 0 0 0 1px rgba(234,120,148,.28); }
 .gt-recent-five-row em.rank{ color:#8f84b7; background:rgba(76,62,124,.16); box-shadow:none; font-size:10px; }
 .gt-recent-pulls .gt-filter-pills{ margin:2px 0 9px; }
+@media (max-width: 760px){
+  .gt-filter-pills button, .gt-mode-tabs button, .gt-pity-filters button{ min-height:36px; padding-top:8px; padding-bottom:8px; }
+}
 .gt-recent-five-row i{ color:#c7bfff; font-style:normal; font-size:10.5px; text-align:right; white-space:nowrap; }
 
 .gt-banner-history-list{ display:grid; grid-auto-rows:auto; gap:8px; max-height:392px; overflow:auto; padding-right:4px; }
@@ -4034,19 +4037,23 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .gt-empty-row{ color:#82799d; }
 
 /* Gacha tracker: 2026-06-30 layout pass */
+.gt-ttl-results{ display:flex; align-items:baseline; gap:12px; flex-wrap:wrap; min-width:0; }
 .gt-title-import{
   border:0;
-  padding:0;
+  padding:5px 11px;
   cursor:pointer;
-  color:#f6f3ff;
-  background:transparent;
-  font-family:'GI',serif;
-  font-size:28px;
+  color:#c9c0e8;
+  background:rgba(139,123,255,.12);
+  box-shadow:inset 0 0 0 1px rgba(183,170,255,.22);
+  border-radius:999px;
+  font-family:'HSR',sans-serif;
+  font-size:11px;
+  letter-spacing:.08em;
+  text-transform:uppercase;
   line-height:1;
-  font-weight:400;
   text-align:left;
 }
-.gt-title-import:hover{ color:#fff; text-shadow:0 0 12px rgba(183,170,255,.28); }
+.gt-title-import:hover{ color:#fff; background:rgba(139,123,255,.22); text-shadow:0 0 12px rgba(183,170,255,.28); }
 .gt-title-import:focus-visible{ outline:2px solid rgba(183,170,255,.75); outline-offset:4px; border-radius:5px; }
 .gt-results-top{
   position:sticky;

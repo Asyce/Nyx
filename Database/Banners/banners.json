@@ -1,16 +1,15 @@
 {
-  "checkedAt": "2026-07-08T07:48:24.724Z",
-  "updated": "2026-07-07T08:52:50.738Z",
+  "checkedAt": "2026-07-08T08:43:54.439Z",
+  "updated": "2026-07-08T08:43:54.439Z",
   "games": [
     {
       "id": "hsr",
       "name": "Honkai: Star Rail",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-07-08T07:48:24.724Z",
-        "lastSuccessfulFetch": "2026-07-07T08:52:50.738Z",
-        "source": "game8",
-        "message": "This game failed to scrape during the latest banner check; preserved previous data."
+        "checkedAt": "2026-07-08T08:43:54.439Z",
+        "lastSuccessfulFetch": "2026-07-08T08:43:54.439Z",
+        "source": "game8"
       },
       "current": {
         "phase": "4.3",
@@ -54,10 +53,9 @@
       "name": "Genshin Impact",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-07-08T07:48:24.724Z",
-        "lastSuccessfulFetch": "2026-07-07T08:52:50.738Z",
-        "source": "game8",
-        "message": "This game failed to scrape during the latest banner check; preserved previous data."
+        "checkedAt": "2026-07-08T08:43:54.439Z",
+        "lastSuccessfulFetch": "2026-07-08T08:43:54.439Z",
+        "source": "game8"
       },
       "current": {
         "phase": "6.7 Phase 1",
@@ -99,10 +97,9 @@
       "name": "Wuthering Waves",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-07-08T07:48:24.724Z",
-        "lastSuccessfulFetch": "2026-07-07T08:52:50.738Z",
-        "source": "game8",
-        "message": "This game failed to scrape during the latest banner check; preserved previous data."
+        "checkedAt": "2026-07-08T08:43:54.439Z",
+        "lastSuccessfulFetch": "2026-07-08T08:43:54.439Z",
+        "source": "game8"
       },
       "current": {
         "phase": null,
@@ -219,33 +216,11 @@
       "name": "Zenless Zone Zero",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-07-08T07:48:24.724Z",
-        "lastSuccessfulFetch": "2026-07-07T08:52:50.738Z",
-        "source": "game8",
-        "message": "This game failed to scrape during the latest banner check; preserved previous data."
-      },
-      "current": {
-        "phase": null,
-        "characters": [
-          {
-            "name": "Velina",
-            "image": "https://static.nanoka.cc/assets/zzz/IconRoleCircle64.webp",
-            "imageFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect64.webp",
-            "imageFallbackZoom": true,
-            "rarity": 4
-          },
-          {
-            "name": "Ye Shunguang",
-            "image": "https://static.nanoka.cc/assets/zzz/IconRoleCircle55.webp",
-            "imageFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect55.webp",
-            "imageFallbackZoom": true,
-            "rarity": 4
-          }
-        ],
-        "end": "2026-07-08T10:00:00.000Z",
+        "checkedAt": "2026-07-08T08:43:54.439Z",
+        "lastSuccessfulFetch": "2026-07-08T08:43:54.439Z",
         "source": "game8"
       },
-      "next": {
+      "current": {
         "phase": null,
         "characters": [
           {
@@ -254,37 +229,43 @@
             "imageFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect65.webp",
             "imageFallbackZoom": true,
             "rarity": 4
+          },
+          {
+            "name": "Sunna",
+            "image": "https://static.nanoka.cc/assets/zzz/IconRoleCircle58.webp",
+            "imageFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect58.webp",
+            "imageFallbackZoom": true,
+            "rarity": 4
           }
         ],
-        "start": "2026-07-08T10:00:00.000Z",
         "end": "2026-07-28T10:00:00.000Z",
         "source": "game8"
       },
-      "upcoming": [
-        {
-          "characters": [
-            {
-              "name": "Sunna",
-              "image": "https://static.nanoka.cc/assets/zzz/IconRoleCircle58.webp",
-              "imageFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect58.webp",
-              "imageFallbackZoom": true,
-              "rarity": 4
-            }
-          ],
-          "start": "2026-07-08T10:00:00.000Z",
-          "end": "2026-07-28T10:00:00.000Z"
-        }
-      ]
+      "next": {
+        "phase": "3.1",
+        "characters": [
+          {
+            "name": "Remielle",
+            "image": "https://static.nanoka.cc/assets/zzz/IconRoleCircle67.webp",
+            "imageFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect67.webp",
+            "imageFallbackZoom": true,
+            "rarity": 4
+          }
+        ],
+        "start": "2026-07-08T10:00:00.000Z",
+        "end": "2026-07-29T10:00:00.000Z",
+        "source": "game8"
+      },
+      "upcoming": []
     },
     {
       "id": "endfield",
       "name": "Arknights: Endfield",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-07-08T07:48:24.724Z",
-        "lastSuccessfulFetch": "2026-07-07T08:52:50.738Z",
-        "source": "game8",
-        "message": "This game failed to scrape during the latest banner check; preserved previous data."
+        "checkedAt": "2026-07-08T08:43:54.439Z",
+        "lastSuccessfulFetch": "2026-07-08T08:43:54.439Z",
+        "source": "game8"
       },
       "current": {
         "phase": "1.3 Phase 2",

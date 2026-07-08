@@ -402,6 +402,23 @@ function gtSourceBannerLabel(gameKey, row){
   return source || row.bannerLabel || gtBannerKindLabel(sourceKey, row.bannerLabel);
 }
 
+function gtHeroCardGroup(card, bannerGroups){
+  if (!card) return null;
+  const groups = (bannerGroups || []).filter((g) => g.bannerKey === 'character' || g.bannerKey === 'character2');
+  if (!groups.length) return null;
+  if (card.start) {
+    // Card came from a real banner period (gtCurrentLimitedFeatures) — only the
+    // source group for THAT exact period counts as "pulls on this banner". Do
+    // not fall back to an older period just because the character's name
+    // matches there too; that would mislabel a past rerun's pulls as current.
+    return groups.find((g) => g.periodStart && Math.abs((g.periodStart || 0) - card.start) < 60 * 60 * 1000) || null;
+  }
+  // No period metadata (fallback-fives path, no NYX_BANNERS history for this game) —
+  // best effort: the most recent source group the user actually pulled this name on.
+  const norm = gtNormName(card.name);
+  return groups.find((g) => (g.fives || []).some((f) => gtNormName(f.name) === norm)) || null;
+}
+
 function gtRenderPityPanel({ gameKey, pityBanners, pityFilter, setPityFilter, standalone }){
   return (
     <section className={'gt-panel-box gt-pity-observatory' + (standalone ? ' gt-pity-wide' : '')}>
@@ -457,8 +474,50 @@ function gtRenderResultsView(ctx){
     setArchiveFilter, setViewMode, setExpandedSource, setPityFilter, fmt, PULLS, CUR, COST, accountLabel,
     sourceLabel, importedAt,
   } = ctx;
-  const nextState = currentState === 'Guaranteed' ? 'Next: Guaranteed' : (currentState === '50:50' ? 'Next: 50:50' : 'Next: ' + currentState);
   const sinceLastFive = characterView ? (characterView.currentPity || 0) : 0;
+  const heroHard = (characterView && characterView.hard) || 90;
+  const heroSoft = (characterView && characterView.soft) || 74;
+  const heroPct = Math.max(0, Math.min(100, (sinceLastFive / heroHard) * 100));
+  const heroSoftPct = Math.max(0, Math.min(100, (heroSoft / heroHard) * 100));
+  const heroChipClass = currentState === 'Guaranteed' ? 'guaranteed' : (currentState === '50:50' ? 'fifty' : 'pool');
+  const heroChipLabel = 'Next 5★: ' + currentState;
+  // Prefer the notable pulls (4★+ "highlights") over raw recent, so the card tells
+  // the "what did I actually get" story instead of a list of 3★ weapon filler
+  // (handoff: "if 4 characters happened, show 4"). Falls back to raw recent only
+  // when a banner produced no 4★+ at all.
+  const gtHeroPulls = (group) => {
+    if (!group) return [];
+    const notable = (group.highlights || []).slice(0, 6);
+    return notable.length ? notable : (group.recent || []).slice(0, 6);
+  };
+  let heroCards = (currentLimited || []).slice(0, 2).map((card) => {
+    const group = gtHeroCardGroup(card, bannerGroups);
+    const groupBanner = group ? (bannerByKey[group.bannerKey] || { label:group.bannerLabel, ff:false }) : null;
+    return { card, group, groupBanner, pulls: gtHeroPulls(group) };
+  });
+  // If the user hasn't pulled on the current banner(s) yet, fall back to the last
+  // character banner(s) they actually pulled on (handoff: "pulls done on the last
+  // banner"). bannerGroups is pre-sorted by lastTime desc; reuse already-resolved
+  // pull rows/art so no new resolution logic is needed.
+  const heroBannersMode = heroCards.some((h) => h.pulls.length > 0) ? 'current' : 'last';
+  if (heroBannersMode === 'last') {
+    const lastGroups = (bannerGroups || [])
+      .filter((g) => (g.bannerKey === 'character' || g.bannerKey === 'character2') && (g.recent || []).length)
+      .slice(0, 2);
+    if (lastGroups.length) {
+      heroCards = lastGroups.map((group) => {
+        const topFive = (group.fives || [])[0];
+        const art = (topFive && (topFive.art || topFive.icon))
+          || (group.recent[0] && (group.recent[0].art || group.recent[0].icon)) || '';
+        return {
+          card: { name:group.displayName || group.label, art, icon:art, start:group.periodStart || group.lastTime },
+          group,
+          groupBanner: bannerByKey[group.bannerKey] || { label:group.label, ff:false },
+          pulls: gtHeroPulls(group),
+        };
+      });
+    }
+  }
   return (
     <div className="gt-results">
       <div className="gt-results-top">
@@ -467,7 +526,6 @@ function gtRenderResultsView(ctx){
           <button type="button" className={viewMode === 'pity' ? 'on' : ''} onClick={() => setViewMode('pity')}>Pity Observatory</button>
           <button type="button" className={viewMode === 'archive' ? 'on' : ''} onClick={() => setViewMode('archive')}>Archive</button>
         </div>
-        <div className="gt-tab-status"><b>{nextState}</b><span>{fmt(sinceLastFive)} since last 5{'\u2605'}</span></div>
         <div className="gt-account">
           <b>{accountLabel}</b>
           <span>{sourceLabel || 'Saved local import'}{importedAt ? ' / ' + gtFmtDate(importedAt) : ''}</span>
@@ -475,7 +533,61 @@ function gtRenderResultsView(ctx){
       </div>
 
       {viewMode === 'overview' ? (
-        <div className="gt-overview-grid">
+        <div className="gt-overview">
+          <section className="gt-hero">
+            <div className="gt-hero-pity gt-panel-box">
+              <div className="gt-box-head"><b>Pity to next 5{'\u2605'}</b><span>{(characterView && characterView.label) || 'Character banner'}</span></div>
+              <div className="gt-hero-pity-number"><b>{fmt(sinceLastFive)}</b><i>/ {heroHard}</i></div>
+              <div className="gt-hero-pity-caption">{fmt(sinceLastFive)} {PULLS.toLowerCase()} since last 5{'\u2605'}</div>
+              <div className="gt-hero-pity-bar">
+                <div className="gt-hero-pity-fill" style={{ width:heroPct + '%' }}></div>
+                <mark style={{ left:heroSoftPct + '%' }}></mark>
+              </div>
+              <div className="gt-hero-pity-scale"><span>Soft {heroSoft}</span><span>Hard {heroHard}</span></div>
+              <div className={'gt-hero-chip ' + heroChipClass}>{heroChipLabel}</div>
+            </div>
+
+            <div className="gt-hero-banners">
+              <div className="gt-hero-banners-head">{heroBannersMode === 'current' ? 'Current banners' : 'Your last banner pulls'}</div>
+              {heroCards.map(({ card, group, groupBanner, pulls }) => (
+                <article key={card.name} className="gt-hero-banner-card">
+                  <div className="gt-hero-banner-art" style={(card.art || card.icon) ? gtBg(card.art || card.icon) : undefined}>
+                    <div className="gt-hero-banner-fade"></div>
+                    <div className="gt-hero-banner-copy">
+                      <b>{card.name}</b>
+                      <span>{card.version ? 'Version ' + card.version : gtFmtDate(card.start)}</span>
+                    </div>
+                  </div>
+                  <div className="gt-hero-banner-pulls">
+                    <div className="gt-hero-banner-pulls-head">Notable pulls</div>
+                    {pulls.length > 0 ? pulls.map((p, idx) => {
+                      const isFive = p.rank === 5;
+                      return (
+                        <div key={(p.id || p.idx || idx) + ':' + p.name} className="gt-hero-pull-row">
+                          {(p.icon || p.art) ? <img src={p.icon || p.art} alt="" loading="lazy" /> : <span className="gt-img-fallback"></span>}
+                          <div>
+                            <b>{p.name}</b>
+                            <span>{gtFmtDate(p.time)}</span>
+                          </div>
+                          {isFive
+                            ? <em className={gtPullOutcomeClass(p, groupBanner).replace(/\s+/g, '-')}>{gtPullOutcome(p, groupBanner, gameKey)}</em>
+                            : <i>{p.rank || '-'}{'\u2605'}</i>}
+                        </div>
+                      );
+                    }) : <div className="gt-empty-row">No pulls yet on this banner.</div>}
+                  </div>
+                  {group && group.pairedWeapons && group.pairedWeapons.length > 0 && (
+                    <div className="gt-paired-weapon">
+                      {group.pairedWeapons.map((wg) => <span key={wg.key}>Weapon pair: {wg.displayName || wg.label} ({fmt(wg.total || 0)} {PULLS})</span>)}
+                    </div>
+                  )}
+                </article>
+              ))}
+              {heroCards.length === 0 && <div className="gt-empty-row gt-panel-box">No current limited banner metadata found.</div>}
+            </div>
+          </section>
+
+          <div className="gt-overview-grid">
           <section className="gt-panel-box gt-summary-card">
             <div className="gt-box-head"><b>Account summary</b><span>{fmt(allFives.length)} total 5{'\u2605'}</span></div>
             <div className="gt-summary-grid">
@@ -485,25 +597,6 @@ function gtRenderResultsView(ctx){
               <div><b>{fmt(totalAll * COST)}</b><span>{CUR} spent</span></div>
               <div><b>{eventWins}/{eventLosses}</b><span>50:50 W / L</span></div>
               <div><b>{avgPity || '--'}</b><span>Avg pity</span></div>
-            </div>
-          </section>
-
-          <section className="gt-panel-box gt-current-limited">
-            <div className="gt-box-head"><b>Current limited banners</b><span>{currentLimited.length || 0} active</span></div>
-            <div className="gt-limited-grid">
-              {currentLimited.map((card) => (
-                <article key={card.name} className="gt-limited-card" style={(card.art || card.icon) ? gtBg(card.art || card.icon) : undefined}>
-                  <div className="gt-limited-fade"></div>
-                  <div className="gt-limited-copy">
-                    <b>{card.name}</b>
-                    <span>{card.version ? 'Version ' + card.version : gtFmtDate(card.start)}</span>
-                  </div>
-                  <div className="gt-limited-rateups">
-                    {(card.fourStars || []).slice(0, 3).map((four) => <i key={four.name}>{four.name}</i>)}
-                  </div>
-                </article>
-              ))}
-              {currentLimited.length === 0 && <div className="gt-empty-row">No current limited banner metadata found.</div>}
             </div>
           </section>
 
@@ -577,6 +670,7 @@ function gtRenderResultsView(ctx){
               {bannerGroups.length === 0 && <div className="gt-empty-row">No banner history rows yet.</div>}
             </div>
           </section>
+          </div>
         </div>
       ) : viewMode === 'pity' ? (
         <div className="gt-pity-view">

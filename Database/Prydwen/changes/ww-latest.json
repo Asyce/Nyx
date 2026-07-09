@@ -1,13 +1,13 @@
 {
   "provider": "Prydwen",
   "game": "ww",
-  "generatedAt": "2026-07-08T07:46:33.795Z",
+  "generatedAt": "2026-07-09T08:53:35.209Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 1,
-      "unchanged": 62
+      "changed": 6,
+      "unchanged": 57
     }
   },
   "sections": {
@@ -18,11 +18,41 @@
         {
           "id": "characters:jianxin",
           "name": "Jianxin",
-          "previousHash": "c1134b9c4b7d1b5d8463c28b1a55fecfd47ce51ea13ff068941e007691360fe3",
-          "currentHash": "3a48f0378d68547de52e7c4062703911593719603db16c7b6b9c24e833056710"
+          "previousHash": "3a48f0378d68547de52e7c4062703911593719603db16c7b6b9c24e833056710",
+          "currentHash": "c1134b9c4b7d1b5d8463c28b1a55fecfd47ce51ea13ff068941e007691360fe3"
+        },
+        {
+          "id": "characters:lucilla",
+          "name": "Lucilla",
+          "previousHash": "ed24a0474541769d6a1cfd7f90be2abda27e335f83c61afdcf75841aec58b568",
+          "currentHash": "5a0c89f88666a0a29a143fbcf017fcf138126ecf7b60dfd39986271e7b0df4a5"
+        },
+        {
+          "id": "characters:lucy",
+          "name": "Lucy",
+          "previousHash": "e74e5944793acceef69ec4a16bdecccf231b1dcba81a40484055fb2382ec359c",
+          "currentHash": "4dfd0ef56a8a0b2eafdaf4c343d3c4df9795b1788bdf2252003535d8fe4285eb"
+        },
+        {
+          "id": "characters:rebecca",
+          "name": "Rebecca",
+          "previousHash": "29e754e9920eb4cf742ea65e9106f5055fe8e2aa942cd9e920b315f255762499",
+          "currentHash": "c81629f736e381077d1fd5ef291ffc4e31cb8fd8e491b1bd4aa3c632788f3a68"
+        },
+        {
+          "id": "collection:characters",
+          "name": "Wuthering Waves Characters Build Guides",
+          "previousHash": "76a90dc38b939f973ea6893da08b38ad34181e6eaf3cf074a2d0983ed0bac8b4",
+          "currentHash": "a444c4aeb5b3ab453d3475f72d0f92cb974ac60195bdd126586254c08edd5003"
+        },
+        {
+          "id": "collection:weapons",
+          "name": "Wuthering Waves Weapons",
+          "previousHash": "b7b080872ffb7e6f1be138307139b127dddadd0df5a636dd59f5f95159130adb",
+          "currentHash": "0d965641fe1379353b0f369603f355493213c8676d8b683aad5106462b225491"
         }
       ],
-      "unchanged": 62,
+      "unchanged": 57,
       "totals": {
         "previous": 63,
         "current": 63

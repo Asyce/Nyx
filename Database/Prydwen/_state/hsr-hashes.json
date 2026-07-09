@@ -1,13 +1,13 @@
 {
   "game": "hsr",
-  "updatedAt": "2026-07-08T07:46:33.795Z",
+  "updatedAt": "2026-07-09T08:53:35.209Z",
   "hashes": {
     "records": {
       "characters:acheron": "abd953055aca2791939469f04b2a411b3102a3f04b5e9d9cc333f662c0356009",
       "characters:aglaea": "a0f94ad36f0c2e0faefbddacde57b8453992b0a5cec718ffc0c32e653d44cb26",
       "characters:anaxa": "1a10bfb3cb0035f748462b8f4d799f56f2ca410f9d80ff5bab45a5eff82ace15",
       "characters:archer": "012d913b0c2d3c7a0bf8b36d173199b40f7ef12bcf83a95f9bd6b393e4ad755c",
-      "characters:argenti": "d227ab9325f15816a0b48b1787c0c9704bdb3df07742f19fb208515f177b206a",
+      "characters:argenti": "bc401becbbd8b6d92930c57751abac9888a4bd3dd25e332a3dca44ec006d9a2b",
       "characters:arlan": "d44dbc6b8d1d2f9771f4889b2b893c1430703e84cf25ab9d6344bacb91984fe5",
       "characters:ashveil": "475c11d19be858eec135f1a17687e2fb63d3849ca8417038b833d2984a7c7ce0",
       "characters:asta": "aa0223a585e9115903ecb72fe796e4c767b6f4bdf61f3ce563e5c3ef9f21f1ef",
@@ -38,7 +38,7 @@
       "characters:hanya": "41eac9f64f51b242d59ed6aaafba78d8cd1664c94bd5da3e62cec01163abdf49",
       "characters:herta": "8896efd9d03b0d92281ae356edd10278e8844d2680f329b401d33925f01f1201",
       "characters:himeko": "e2bbd600fdb0b7c880cdcb7e0b344277a9644d6b982046ae7094d7de895604d4",
-      "characters:himeko-nova": "33799b2095df08d238d5d65b9381f0e33994495a18a8ad5377c24d25a6a5a233",
+      "characters:himeko-nova": "871ec954b401a2321ad37ff992c41a6aa2a87be9a537bfa0d009e1099458f3d0",
       "characters:hook": "d51a0beaa83a4621e57a65d567644ea894f1bb816ccb782a34c0548064a63e62",
       "characters:huohuo": "23e4a779c0fb6a2393ab262846b57e68420db90a350bfc1a95749a4ed6469aff",
       "characters:hyacine": "566783236147b8dbef6d0624875a491dcee4a8f538f21644bbfd4a33e5dc2aff",
@@ -96,7 +96,7 @@
       "characters:yukong": "63ccce158c18e7176524cda819c91e3a275872eade083d38be376fefabe9abce",
       "characters:yunli": "317c0b586323052089e7f02681a3e443429e763be4fae056229f7a2a1c84bf96",
       "collection:characters": "62e7b1c17f24ff09cf65ad5d2f4ee75fa07d8ff4e819dc550b8009c3e26a6469",
-      "collection:light-cones": "0107d4724a6778dd163c6eae78983848f2741797367dff5fd5574e4397f7d0b0",
+      "collection:light-cones": "c0bc38e2a734cb7bdb950590a268085db785e333e7022ae39ba7dc1ed8ccd263",
       "collection:relic-sets": "697e0c2526a166d1c10fc82ddf73e84d50a91047533e8ba4299e516412cb36cd"
     }
   }

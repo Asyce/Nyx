@@ -13,7 +13,7 @@
   "statusLabels": [
     "4.4"
   ],
-  "scrapedAt": "2026-07-08T07:46:33.795Z",
+  "scrapedAt": "2026-07-09T08:53:35.209Z",
   "updatedText": "08/July/2026",
   "meta": {
     "title": "Himeko Nova Best Build Guide | Honkai: Star Rail",
@@ -34,6 +34,116 @@
       "path": "Prydwen/hsr/assets/characters/himeko-nova-2a8de327b90f.webp",
       "width": 640,
       "height": 800
+    },
+    {
+      "id": "dc6aec4a7776",
+      "sourceHash": "dc6aec4a7776",
+      "kind": "icons",
+      "name": "ATK",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "af5b8acc8f63",
+      "sourceHash": "af5b8acc8f63",
+      "kind": "icons",
+      "name": "CRIT Rate",
+      "fileStem": "stat-critrate",
+      "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "83d3d255b767",
+      "sourceHash": "83d3d255b767",
+      "kind": "icons",
+      "name": "Fire DMG",
+      "fileStem": "stat-firedmg",
+      "path": "Prydwen/hsr/assets/icons/fire-dmg-83d3d255b767.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "96654253a4f7",
+      "sourceHash": "96654253a4f7",
+      "kind": "icons",
+      "name": "HP",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "a6be649090ba",
+      "sourceHash": "a6be649090ba",
+      "kind": "icons",
+      "name": "DEF",
+      "fileStem": "stat-def",
+      "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "087f2dec68b6",
+      "sourceHash": "087f2dec68b6",
+      "kind": "icons",
+      "name": "Speed",
+      "fileStem": "stat-speed",
+      "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "50d0e755383a",
+      "sourceHash": "50d0e755383a",
+      "kind": "items",
+      "name": "Credit",
+      "fileStem": "credit",
+      "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "151a3c83ba98",
+      "sourceHash": "151a3c83ba98",
+      "kind": "items",
+      "name": "Whimsy Wax",
+      "fileStem": "whimsy-wax",
+      "path": "Prydwen/hsr/assets/items/whimsy-wax-151a3c83ba98.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "ca4f0541afae",
+      "sourceHash": "ca4f0541afae",
+      "kind": "items",
+      "name": "Dreamweave Steel",
+      "fileStem": "dreamweave-steel",
+      "path": "Prydwen/hsr/assets/items/dreamweave-steel-ca4f0541afae.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "16678a5c4aa3",
+      "sourceHash": "16678a5c4aa3",
+      "kind": "items",
+      "name": "Radiant Prominence",
+      "fileStem": "radiant-prominence",
+      "path": "Prydwen/hsr/assets/items/radiant-prominence-16678a5c4aa3.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "1a9a49c21124",
+      "sourceHash": "1a9a49c21124",
+      "kind": "items",
+      "name": "Lucid Awl",
+      "fileStem": "lucid-awl",
+      "path": "Prydwen/hsr/assets/items/lucid-awl-1a9a49c21124.webp",
+      "width": 35,
+      "height": 35
     },
     {
       "id": "4191fdac6ee2",
@@ -90,46 +200,183 @@
       "id": "skills-8",
       "level": 2,
       "heading": "Skills",
-      "text": "Himeko Nova skills aren't available yet. They will be added when the character is released.",
+      "text": "Basic ATK\n Enkindle the First Lodestar\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Fire DMG equal to #1[i]% of Himeko • Nova's ATK to one enemy.\n\n Skill\n Upraise the Vanward Cresset\n Support\n\n Lv. 1\n\n Energy gain: 30\n Break: -\n\n After using Skill, immediately regains all uses of Assist Skill and Himeko • Nova gains Navigator's Semaphore, lasting for 3 turn(s). At the start of each of Himeko • Nova's turn, the duration is reduced by 1. When Himeko • Nova has Navigator's Semaphore, DMG dealt by all allies increases by #1[i]%. At the start of every turn, immediately regains 1 use of Assist Skill.\n\n Ultimate\n We, Too, Stride the Stars\n AoE | 150 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: 16\n\n Immediately takes control of Starblazer. Starblazer can launch Hyperluminal Particle Beam against enemies 6 times, or consume Source Energy to launch Orbital Annihilation Pulse, dealing Fire DMG up to #1[i]% of Himeko • Nova's ATK to one designated enemy, and Fire DMG up to #2[i]% of Himeko • Nova's ATK to other targets.\nWhen the uses of Hyperluminal Particle Beam are depleted, automatically launches Orbital Annihilation Pulse, followed by Final Hit, dealing 3 instance(s) of DMG, with each instance dealing Fire DMG equal to #3[i]% of Himeko • Nova's ATK to one random enemy.\nWhen Hyperluminal Particle Beam or Orbital Annihilation Pulse deals fatal damage to all enemies on the field, or when enemy HP can no longer be reduced, immediately launches Final Hit.\n Ultimate\n Enhanced Ultimates\n AoE | 150 energy cost\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n Orbital Annihilation Pulse\nConsumes 1 point of Source Energy to deal Fire DMG equal to #1[i]% of Himeko • Nova's ATK to all enemies. When current Source Energy is more than 1 point, for every 1 point(s) of Source Energy consumed, additionally deals 1 instance of Fire DMG equal to #2[i]% of Himeko • Nova's ATK to one random enemy.\n\nHyperluminal Particle Beam\nDeals Fire DMG equal to #3[i]% of Himeko • Nova's ATK to all enemies and gains 1 point(s) of Source Energy. A maximum of 3 Source Energy can be held.\n\n Talent\n Of Fire and Far Faring\n Enhance\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n While Himeko • Nova is on the field, immediately deploys the Territory Starblazer Visioscape, causing a Starblazer to appear on the field and granting all ally characters 1 Assist Skill usage. Ally characters can use the Assist Skill to command the Starblazer to attack enemies.\nUsing the Assist Skill is considered as Himeko • Nova using her Skill. Himeko • Nova's All-Type RES PEN increases by #1[i]% and CRIT DMG increases by #2[i]%. Attacks can ignore Weakness Types to reduce enemy Toughness. When Weakness is Broken, triggers the Fire Weakness Break effect.\nWhen an ally character other than Himeko • Nova uses the Assist Skill, they regenerate 4 Energy.\n\n Technique\n Starcharter Cruise\n Enhance\n\n Energy gain: 0\n Break: -\n\n When Himeko • Nova is in the team, increases max Technique Points by 3.\nAfter using the Technique, she enters the Cruise state, lasting for 30 seconds. Actively using the Technique consumes 2 Technique Points and immediately attacks all enemies within a certain range. After entering combat, immediately uses Skill 1 time at the start of each wave.\nIf attacking a Normal Enemy, immediately defeats them without entering combat. No Technique Points are consumed if no enemies are hit.",
       "assets": []
     },
     {
       "id": "major-traces-9",
       "level": 2,
       "heading": "Major Traces",
-      "text": "Himeko Nova traces aren't available yet. They will be added when the character is released.",
+      "text": "Ascension 2 Major trace\n Whither, the Last and First Men?\n\n When Himeko Nova uses her Assist Skill, it does not consume Assist Skill uses. At the start of the turn, if the current Assist Skill uses equal the current maximum limit, Himeko Nova additionally regenerates 5 Energy.\n\n Ascension 4 Major trace\n Hark! The Express's Pulse Roars\n\n When a Trailblaze Companions character other than Himeko Nova uses an Assist Skill, that character immediately gains 1 extra turn during which they can use their Ultimate. An extra turn gained from an Assist Skill will not repeatedly trigger this Trace effect.\n\n Ascension 6 Major trace\n The Silver Rail, Hushed in Antiquity\n\n When using Ultimate, immediately gains 3 point(s) of \"Source Energy.\" If current \"Source Energy\" is 3 point(s) or more, when using the \"Orbital Annihilation Pulse\" attack, the DMG multiplier of \"Orbital Annihilation Pulse\" against random single enemies increases by 30%.",
       "assets": []
     },
     {
       "id": "minor-traces-total-10",
       "level": 2,
       "heading": "Minor Traces (total)",
-      "text": "Himeko Nova traces aren't available yet. They will be added when the character is released.",
-      "assets": []
+      "text": "ATK\n + 28%\n\n CRIT Rate\n + 12%\n\n Fire DMG\n + 8%",
+      "assets": [
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "af5b8acc8f63",
+          "sourceHash": "af5b8acc8f63",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-critrate",
+          "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "83d3d255b767",
+          "sourceHash": "83d3d255b767",
+          "kind": "icons",
+          "name": "Fire DMG",
+          "fileStem": "stat-firedmg",
+          "path": "Prydwen/hsr/assets/icons/fire-dmg-83d3d255b767.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
     },
     {
       "id": "eidolons-11",
       "level": 2,
       "heading": "Eidolons",
-      "text": "E 1\n\n Eidolon 1",
+      "text": "E 1\n That Which We Stride Is the Trailblaze\n Eidolon 1\n\n Increases the number of times the Talent triggers the extra Assist Skill effect by 1 . When in the \"Companion Protocol: Verdict\" state, the number of Ultimate uses required to launch the Assist Skill is reduced by 1 . When in the \"Companion Protocol: Decimation\" state, the Charge required to launch the Assist Skill is reduced by 3 . When Himeko • Nova launches the Assist Skill, the number of times the extra DMG effect is triggered increases by 1 .\n\n E 2\n The Colors We Never Strike\n Eidolon 2\n\n Max uses of Himeko • Nova's Assist Skill increase to 2 , and DMG dealt by Ultimate and Assist Skill becomes 130% of their original DMG. At the start of each turn in the \"Navigator's Semaphore\" state, immediately recovers 1 extra Assist Skill use. Trace \"Hark! The Express's Pulse Roars\" effect: When characters other than Trailblaze Companions use Assist Skill, they also gain 1 extra turn.\n\n E 3\n We Who Are Starborn Muse Starward\n Eidolon 3\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15.\n Basic ATK Lv. +1 , up to a maximum of Lv. 10.\n\n E 4\n Let No Skyward Hand Stay Unheld\n Eidolon 4\n\n When using the Assist Skill from Talent \"Of Fire and Far Faring,\" the All-Type RES PEN increase effect applies to all allies. When Himeko • Nova gains this effect, her All-Type RES PEN increases by an additional 10% .\n\n E 5\n To Cross the Cosmos and Beyond\n Eidolon 5\n\n Skill Lv. +2 , up to a maximum of Lv. 15.\n Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 6\n Ours Is the Oath to Sail Starward\n Eidolon 6\n\n Himeko Nova's Fire Type RES PEN increases by 20% . Max \"Source Energy\" increases to 6 point(s), and when an ally uses or triggers an Assist Skill, DMG dealt by the Assist Skill increases by 75% , and Himeko Nova gains 1 point of \"Source Energy\". When launching a \"Hyperluminal Particle Beam\" attack during Ultimate, additionally gains 1 point of \"Source Energy\". When launching \"Orbital Annihilation Pulse,\" if the current \"Source Energy\" is 6 point(s) or more, additionally deals Fire DMG equal to 160% of Himeko Nova's ATK to all enemies 1 time.",
       "assets": []
     },
     {
       "id": "stats-and-materials-12",
       "level": 2,
       "heading": "Stats and materials",
-      "text": "Himeko Nova Stats and Materials aren't available yet. They will be added when the character is released.",
+      "text": "Enable Ascension",
       "assets": []
     },
     {
-      "id": "cv-13",
+      "id": "level-80-stats-13",
+      "level": 5,
+      "heading": "Level 80 stats",
+      "text": "HP\n\n 1124\n\n ATK\n\n 756\n\n DEF\n\n 485\n\n Speed\n\n 98",
+      "assets": [
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "level-1-80-ascension-materials-14",
+      "level": 5,
+      "heading": "Level 1 → 80 Ascension Materials",
+      "text": "Credit\n\n x 308000\n\n Whimsy Wax\n\n x 15\n\n Dreamweave Steel\n\n x 15\n\n Radiant Prominence\n\n x 65\n\n Lucid Awl\n\n x 15",
+      "assets": [
+        {
+          "id": "50d0e755383a",
+          "sourceHash": "50d0e755383a",
+          "kind": "items",
+          "name": "Credit",
+          "fileStem": "credit",
+          "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "151a3c83ba98",
+          "sourceHash": "151a3c83ba98",
+          "kind": "items",
+          "name": "Whimsy Wax",
+          "fileStem": "whimsy-wax",
+          "path": "Prydwen/hsr/assets/items/whimsy-wax-151a3c83ba98.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "ca4f0541afae",
+          "sourceHash": "ca4f0541afae",
+          "kind": "items",
+          "name": "Dreamweave Steel",
+          "fileStem": "dreamweave-steel",
+          "path": "Prydwen/hsr/assets/items/dreamweave-steel-ca4f0541afae.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "16678a5c4aa3",
+          "sourceHash": "16678a5c4aa3",
+          "kind": "items",
+          "name": "Radiant Prominence",
+          "fileStem": "radiant-prominence",
+          "path": "Prydwen/hsr/assets/items/radiant-prominence-16678a5c4aa3.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "1a9a49c21124",
+          "sourceHash": "1a9a49c21124",
+          "kind": "items",
+          "name": "Lucid Awl",
+          "fileStem": "lucid-awl",
+          "path": "Prydwen/hsr/assets/items/lucid-awl-1a9a49c21124.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "cv-15",
       "level": 2,
       "heading": "CV",
       "text": "ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -",
       "assets": []
     },
     {
-      "id": "gallery-14",
+      "id": "gallery-16",
       "level": 2,
       "heading": "Gallery",
       "text": "Review",
@@ -147,14 +394,14 @@
       ]
     },
     {
-      "id": "review-15",
+      "id": "review-17",
       "level": 2,
       "heading": "Review",
       "text": "Review for Himeko Nova is not available yet. It will be added when the character is released.\n\n Build and teams",
       "assets": []
     },
     {
-      "id": "build-and-teams-16",
+      "id": "build-and-teams-18",
       "level": 2,
       "heading": "Build and teams",
       "text": "Build recommendations and team compositions for Himeko Nova are not available yet. They will be added when the character is released.\n\n MoC/PF/AS Statistics",
@@ -174,5 +421,5 @@
     }
   },
   "tables": [],
-  "text": "Himeko Nova Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Himeko Nova\n Himeko Nova Best Build Guide\n Last updated: 08/July/2026\n\n Introduction\n Best guide and build for Himeko Nova from HSR (Honkai: Star Rail). Himeko Nova is a 5 ★ character from the Fire element who follows the Path of Erudition .\n\n To learn more about Himeko Nova check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n Himeko Nova has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n To learn more about Himeko Nova check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Himeko Nova skills aren't available yet. They will be added when the character is released.\n\n Major Traces\n Himeko Nova traces aren't available yet. They will be added when the character is released.\n\n Minor Traces (total)\n Himeko Nova traces aren't available yet. They will be added when the character is released.\n\n Eidolons\n E 1\n\n Eidolon 1\n\n Stats and materials\n Himeko Nova Stats and Materials aren't available yet. They will be added when the character is released.\n\n CV\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Review\n Review for Himeko Nova is not available yet. It will be added when the character is released.\n\n Build and teams\n\n Build and teams\n Build recommendations and team compositions for Himeko Nova are not available yet. They will be added when the character is released.\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
+  "text": "Himeko Nova Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Himeko Nova\n Himeko Nova Best Build Guide\n Last updated: 08/July/2026\n\n Introduction\n Best guide and build for Himeko Nova from HSR (Honkai: Star Rail). Himeko Nova is a 5 ★ character from the Fire element who follows the Path of Erudition .\n\n To learn more about Himeko Nova check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n Himeko Nova has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n To learn more about Himeko Nova check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Basic ATK\n Enkindle the First Lodestar\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Fire DMG equal to #1[i]% of Himeko • Nova's ATK to one enemy.\n\n Skill\n Upraise the Vanward Cresset\n Support\n\n Lv. 1\n\n Energy gain: 30\n Break: -\n\n After using Skill, immediately regains all uses of Assist Skill and Himeko • Nova gains Navigator's Semaphore, lasting for 3 turn(s). At the start of each of Himeko • Nova's turn, the duration is reduced by 1. When Himeko • Nova has Navigator's Semaphore, DMG dealt by all allies increases by #1[i]%. At the start of every turn, immediately regains 1 use of Assist Skill.\n\n Ultimate\n We, Too, Stride the Stars\n AoE | 150 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: 16\n\n Immediately takes control of Starblazer. Starblazer can launch Hyperluminal Particle Beam against enemies 6 times, or consume Source Energy to launch Orbital Annihilation Pulse, dealing Fire DMG up to #1[i]% of Himeko • Nova's ATK to one designated enemy, and Fire DMG up to #2[i]% of Himeko • Nova's ATK to other targets.\nWhen the uses of Hyperluminal Particle Beam are depleted, automatically launches Orbital Annihilation Pulse, followed by Final Hit, dealing 3 instance(s) of DMG, with each instance dealing Fire DMG equal to #3[i]% of Himeko • Nova's ATK to one random enemy.\nWhen Hyperluminal Particle Beam or Orbital Annihilation Pulse deals fatal damage to all enemies on the field, or when enemy HP can no longer be reduced, immediately launches Final Hit.\n Ultimate\n Enhanced Ultimates\n AoE | 150 energy cost\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n Orbital Annihilation Pulse\nConsumes 1 point of Source Energy to deal Fire DMG equal to #1[i]% of Himeko • Nova's ATK to all enemies. When current Source Energy is more than 1 point, for every 1 point(s) of Source Energy consumed, additionally deals 1 instance of Fire DMG equal to #2[i]% of Himeko • Nova's ATK to one random enemy.\n\nHyperluminal Particle Beam\nDeals Fire DMG equal to #3[i]% of Himeko • Nova's ATK to all enemies and gains 1 point(s) of Source Energy. A maximum of 3 Source Energy can be held.\n\n Talent\n Of Fire and Far Faring\n Enhance\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n While Himeko • Nova is on the field, immediately deploys the Territory Starblazer Visioscape, causing a Starblazer to appear on the field and granting all ally characters 1 Assist Skill usage. Ally characters can use the Assist Skill to command the Starblazer to attack enemies.\nUsing the Assist Skill is considered as Himeko • Nova using her Skill. Himeko • Nova's All-Type RES PEN increases by #1[i]% and CRIT DMG increases by #2[i]%. Attacks can ignore Weakness Types to reduce enemy Toughness. When Weakness is Broken, triggers the Fire Weakness Break effect.\nWhen an ally character other than Himeko • Nova uses the Assist Skill, they regenerate 4 Energy.\n\n Technique\n Starcharter Cruise\n Enhance\n\n Energy gain: 0\n Break: -\n\n When Himeko • Nova is in the team, increases max Technique Points by 3.\nAfter using the Technique, she enters the Cruise state, lasting for 30 seconds. Actively using the Technique consumes 2 Technique Points and immediately attacks all enemies within a certain range. After entering combat, immediately uses Skill 1 time at the start of each wave.\nIf attacking a Normal Enemy, immediately defeats them without entering combat. No Technique Points are consumed if no enemies are hit.\n\n Major Traces\n Ascension 2 Major trace\n Whither, the Last and First Men?\n\n When Himeko Nova uses her Assist Skill, it does not consume Assist Skill uses. At the start of the turn, if the current Assist Skill uses equal the current maximum limit, Himeko Nova additionally regenerates 5 Energy.\n\n Ascension 4 Major trace\n Hark! The Express's Pulse Roars\n\n When a Trailblaze Companions character other than Himeko Nova uses an Assist Skill, that character immediately gains 1 extra turn during which they can use their Ultimate. An extra turn gained from an Assist Skill will not repeatedly trigger this Trace effect.\n\n Ascension 6 Major trace\n The Silver Rail, Hushed in Antiquity\n\n When using Ultimate, immediately gains 3 point(s) of \"Source Energy.\" If current \"Source Energy\" is 3 point(s) or more, when using the \"Orbital Annihilation Pulse\" attack, the DMG multiplier of \"Orbital Annihilation Pulse\" against random single enemies increases by 30%.\n\n Minor Traces (total)\n ATK\n + 28%\n\n CRIT Rate\n + 12%\n\n Fire DMG\n + 8%\n\n Eidolons\n E 1\n That Which We Stride Is the Trailblaze\n Eidolon 1\n\n Increases the number of times the Talent triggers the extra Assist Skill effect by 1 . When in the \"Companion Protocol: Verdict\" state, the number of Ultimate uses required to launch the Assist Skill is reduced by 1 . When in the \"Companion Protocol: Decimation\" state, the Charge required to launch the Assist Skill is reduced by 3 . When Himeko • Nova launches the Assist Skill, the number of times the extra DMG effect is triggered increases by 1 .\n\n E 2\n The Colors We Never Strike\n Eidolon 2\n\n Max uses of Himeko • Nova's Assist Skill increase to 2 , and DMG dealt by Ultimate and Assist Skill becomes 130% of their original DMG. At the start of each turn in the \"Navigator's Semaphore\" state, immediately recovers 1 extra Assist Skill use. Trace \"Hark! The Express's Pulse Roars\" effect: When characters other than Trailblaze Companions use Assist Skill, they also gain 1 extra turn.\n\n E 3\n We Who Are Starborn Muse Starward\n Eidolon 3\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15.\n Basic ATK Lv. +1 , up to a maximum of Lv. 10.\n\n E 4\n Let No Skyward Hand Stay Unheld\n Eidolon 4\n\n When using the Assist Skill from Talent \"Of Fire and Far Faring,\" the All-Type RES PEN increase effect applies to all allies. When Himeko • Nova gains this effect, her All-Type RES PEN increases by an additional 10% .\n\n E 5\n To Cross the Cosmos and Beyond\n Eidolon 5\n\n Skill Lv. +2 , up to a maximum of Lv. 15.\n Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 6\n Ours Is the Oath to Sail Starward\n Eidolon 6\n\n Himeko Nova's Fire Type RES PEN increases by 20% . Max \"Source Energy\" increases to 6 point(s), and when an ally uses or triggers an Assist Skill, DMG dealt by the Assist Skill increases by 75% , and Himeko Nova gains 1 point of \"Source Energy\". When launching a \"Hyperluminal Particle Beam\" attack during Ultimate, additionally gains 1 point of \"Source Energy\". When launching \"Orbital Annihilation Pulse,\" if the current \"Source Energy\" is 6 point(s) or more, additionally deals Fire DMG equal to 160% of Himeko Nova's ATK to all enemies 1 time.\n\n Stats and materials\n\nEnable Ascension\n\n Level 80 stats\n HP\n\n 1124\n\n ATK\n\n 756\n\n DEF\n\n 485\n\n Speed\n\n 98\n\n Level 1 → 80 Ascension Materials\n\n Credit\n\n x 308000\n\n Whimsy Wax\n\n x 15\n\n Dreamweave Steel\n\n x 15\n\n Radiant Prominence\n\n x 65\n\n Lucid Awl\n\n x 15\n\n CV\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Review\n Review for Himeko Nova is not available yet. It will be added when the character is released.\n\n Build and teams\n\n Build and teams\n Build recommendations and team compositions for Himeko Nova are not available yet. They will be added when the character is released.\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
 }

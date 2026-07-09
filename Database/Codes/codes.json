@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T08:34:47.638Z",
+  "generatedAt": "2026-07-09T08:55:55.316Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -47,16 +47,6 @@
           "premium100": false,
           "cwSeen": true,
           "firstSeen": "2026-07-05T17:19:20.440Z"
-        },
-        {
-          "code": "LCXGEA5SX65L",
-          "rewards": "10k Mora, Ten Adventurer S Experience, Five Fine Enhancement Ore, Five Jueyun Chili Chicken, and Five Stir Fried Fish Noodles",
-          "added": "2026-06-12",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LCXGEA5SX65L",
-          "premium": false,
-          "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-07-09T05:00:18.237Z"
         }
       ]
     },
@@ -256,28 +246,7 @@
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
       "lastSuccessfulFetch": "2026-07-09T05:00:17.895Z",
-      "codes": [
-        {
-          "code": "ALLFIELD",
-          "rewards": "",
-          "added": "2026-06-28",
-          "sourceUrl": "https://nexus-codes.app/copy/?code=ALLFIELD",
-          "premium": false,
-          "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-07-08T09:31:05.820Z"
-        },
-        {
-          "code": "RETURNOFALL",
-          "rewards": "",
-          "added": "2026-06-28",
-          "sourceUrl": "https://nexus-codes.app/copy/?code=RETURNOFALL",
-          "premium": false,
-          "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-07-08T09:31:05.820Z"
-        }
-      ]
+      "codes": []
     }
   ]
 }

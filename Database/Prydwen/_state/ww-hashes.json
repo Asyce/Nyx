@@ -1,6 +1,6 @@
 {
   "game": "ww",
-  "updatedAt": "2026-07-08T07:46:33.795Z",
+  "updatedAt": "2026-07-09T08:53:35.209Z",
   "hashes": {
     "records": {
       "characters:aalto": "7f8907f7c103473121c21bc558625fb4b95d478f9e560ffa747c1005b228fa9b",
@@ -25,13 +25,13 @@
       "characters:hiyuki": "5fbd574295fdd9e85e46bd26f938238289bc4c8e15b85ce4190ab2452b77e0ff",
       "characters:hsin": "8016eaf24fcc6af3c88dfae7ca7049fe913f53747a75d5f4898729fcc4a5a44f",
       "characters:iuno": "e23660d1299d261c88d3090601204721b6832d956c57e52ffe27482c14c40c9a",
-      "characters:jianxin": "3a48f0378d68547de52e7c4062703911593719603db16c7b6b9c24e833056710",
+      "characters:jianxin": "c1134b9c4b7d1b5d8463c28b1a55fecfd47ce51ea13ff068941e007691360fe3",
       "characters:jingran": "86cd15a87f5e12384eb32d05632e42cb55d60a70562d14eec3b06fdf856fb6d6",
       "characters:jinhsi": "227ec690a8232abcdb8a629c7d092cd39b4ea19981bed98cfc83abb622fffc44",
       "characters:jiyan": "5ecee163d15e5e5ed9467c3dcdd5a4c027f2a2fe6881b21b75c638f275d2a65b",
       "characters:lingyang": "6ba49bde0f758dae583e827ac8172db3ab4bcdd38f3956d0323ca353a98c5895",
-      "characters:lucilla": "ed24a0474541769d6a1cfd7f90be2abda27e335f83c61afdcf75841aec58b568",
-      "characters:lucy": "e74e5944793acceef69ec4a16bdecccf231b1dcba81a40484055fb2382ec359c",
+      "characters:lucilla": "5a0c89f88666a0a29a143fbcf017fcf138126ecf7b60dfd39986271e7b0df4a5",
+      "characters:lucy": "4dfd0ef56a8a0b2eafdaf4c343d3c4df9795b1788bdf2252003535d8fe4285eb",
       "characters:lumi": "ea0a6c4394258bde6013a859d0bdd1aed7ab6440b95c16572774ed8c87587b77",
       "characters:lupa": "1b6977e144be2897a9de8d42231f073cfb1faa88b385ce46ef2abfcd89ebcd54",
       "characters:luuk-herssen": "aa22c7c2cf45f504c35fbdf1733ded69763d44095728b1d059f2542501ac56b4",
@@ -42,7 +42,7 @@
       "characters:phrolova": "3ae7a446ed3f994ab5c3067df58cca9de8d8b6bbba754d2279247de0dbf85491",
       "characters:qingxiao": "f6f904db7d805461023a2878565725f6fb84c1f2cad8336fdb048b404422eee8",
       "characters:qiuyuan": "6ccd8267485daacf5d7e169ebfee79e44941ae634f4abfbff9b7bb171eb0ca25",
-      "characters:rebecca": "29e754e9920eb4cf742ea65e9106f5055fe8e2aa942cd9e920b315f255762499",
+      "characters:rebecca": "c81629f736e381077d1fd5ef291ffc4e31cb8fd8e491b1bd4aa3c632788f3a68",
       "characters:roccia": "a3e97217b4c82b5d6fe059319ae8b115c2a456269a7939479cfbff459bf19d15",
       "characters:rover-aero": "199953d3d21d2d2f53b67983b561fde50c5c1120c056a27ee27d6f79ef8c5a02",
       "characters:rover-electro": "8d1f0070f5429fee82afa3688af01cb470c910afaeaba1a87395779430ed43e9",
@@ -63,9 +63,9 @@
       "characters:yuanwu": "db4020c37b398f79738a84884162ded42ebce86dcfda6df00698ba42c18868b0",
       "characters:zani": "ce713a55d56f4cff55b303d52ed6b487305e1cac6c6027676ddbd606a855fa42",
       "characters:zhezhi": "aeabb02d7f69708736f38d4c567c974a6a3fb728ff62aee176f9582b299f7db9",
-      "collection:characters": "76a90dc38b939f973ea6893da08b38ad34181e6eaf3cf074a2d0983ed0bac8b4",
+      "collection:characters": "a444c4aeb5b3ab453d3475f72d0f92cb974ac60195bdd126586254c08edd5003",
       "collection:echoes": "a19b72baa70c6c60df0c6864ac2fbaca01de15f931a473fe260575296b0d0816",
-      "collection:weapons": "b7b080872ffb7e6f1be138307139b127dddadd0df5a636dd59f5f95159130adb"
+      "collection:weapons": "0d965641fe1379353b0f369603f355493213c8676d8b683aad5106462b225491"
     }
   }
 }

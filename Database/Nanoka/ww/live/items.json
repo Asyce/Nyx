@@ -5112,7 +5112,7 @@
       "Material"
     ],
     "description": "Touch to collect or use Grapple to hook and quickly approach the Unclaimed Rafter Kites.",
-    "background": "Rafter Kites are letters in a unique shape, and within each unclaimed Rafter Kite lies an undelivered message from a century ago.\nBring these messages to Qiuhong or Chiwen, and they will use them to learn about Xuanfang Hold's past and better plan how to protect its future.",
+    "background": "Rafter Kites carry letters, and each Unclaimed Rafter Kite holds a message undelivered for over a century. \nDeliver these to Qiuhong or Chiwen, and they will use them to learn more about Xuanfang Hold's past and better plan how to protect its future.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconMst/T_IconMst_011_UI.webp"
@@ -10398,7 +10398,6 @@
     "description": "A material used for Cooking.",
     "background": "The Land of Xuanfang is rich in jade. Locals see the Jadeplume Eagle as a spiritual creature bound to the jade, and guard it closely. If a fallen Jade Egg is found, they will try to return it to its nest. Only those confirmed abandoned are treated as a gift from the wild and used with care. Once the chicks hatch, the remaining jade‑calcified shells become even more precious. They are carved into ornaments for children, carrying the blessing: \"May you spread your wings and soar.\"",
     "source": [
-      "Collection Spots",
       "Overworld Collection",
       "Huaxu Apothecary"
     ],
@@ -10418,7 +10417,6 @@
     "description": "A material used for Cooking.",
     "background": "Once Climber Shoots emerge from the ground, they gradually take on the straight appearance of ordinary bamboo shoots, their color shifting from black to green. Locals associate them with a wondrous artifact in Huanglong legends capable of connecting people's hearts, viewing the shoots as an auspicious ingredient that blesses children with sharp senses and deep empathy.",
     "source": [
-      "Collection Spots",
       "Overworld Collection",
       "Huaxu Apothecary"
     ],
@@ -10438,7 +10436,6 @@
     "description": "A material used for Cooking.",
     "background": "Hard and dense, the Jade Hexahedron is a superb energy-conducting medium, frequently mined for use in mechanics and residential construction. When selecting a site for a Autopuppet factory, the builders will specifically choose an area rich in Jade Hexahedron veins to meet the immense power demands of its automated operations.",
     "source": [
-      "Collection Spots",
       "Overworld Collection",
       "Huaxu Apothecary"
     ],
@@ -10458,7 +10455,6 @@
     "description": "A material used for Cooking.",
     "background": "The White Jade Beauty is difficult to preserve. Once touched or bruised, the damaged area rapidly oozes a striking cyan-blue hue, resembling a clouded jewel or a cracked jade plate. \nThough delicious, it is mildly toxic. Eating it raw causes dizziness and vomiting, so it must be fully cooked before consumption. To ensure safety, eateries often take diners' utensils away while the mushrooms are cooking to prevent them from sneaking a premature bite.",
     "source": [
-      "Collection Spots",
       "Overworld Collection",
       "Huaxu Apothecary"
     ],
@@ -10478,7 +10474,6 @@
     "description": "A material used for Cooking.",
     "background": "Every Opus Stone is made thanks to the rigorous selection process of Opus Otters. Uncut stones with dull acoustics or messy textures are discarded along the water's edge, becoming \"Otter Castaways\" occasionally found by travelers.\nThe people of Mengzhou carefully polish Opus Stones of varying pitches, crafting them into lithophones and wind chimes hung beneath eaves or by the water. Whenever the chimes ring, nearby Opus Otters often pause their work to listen closely. If the mood strikes them, they will even knock on their own stones in harmony, as if jamming a song with a kindred spirit.",
     "source": [
-      "Collection Spots",
       "Overworld Collection",
       "Huaxu Apothecary"
     ],
@@ -10498,7 +10493,6 @@
     "description": "A material used for Synthesis.",
     "background": "The Leafweaver has a delicate frame and a pale golden hue. As a \"professional weaver,\" it cuts leaves or petals to construct intricately designed, spiral tower-like nests. On sunny afternoons in the Land of Xuanfang, one can often spot busy Leafweavers fluttering through the air, carrying leaves several times larger than their own bodies.",
     "source": [
-      "Collection Spots",
       "Overworld Collection",
       "Huaxu Apothecary"
     ],
@@ -10518,7 +10512,6 @@
     "description": "A material used for Synthesis.",
     "background": "The Floral Crest Jade is encased in a shell of dense, incredibly hard black jade. Twistscales grind away at this outer layer using their own scales, polishing it over and over until the surface gleams like a mirror. Eventually the shell flakes off in one smooth piece, revealing the \"jade chrysanthemum\" beneath—fully intact and vivid with color.\nCherishing the stone's delicate veining, the people of Mengzhou have long taken to displaying these Twistscale-polished jades in their homes, where they sit upon desks as quiet, elegant treasures.",
     "source": [
-      "Collection Spots",
       "Overworld Collection",
       "Huaxu Apothecary"
     ],
@@ -26540,7 +26533,7 @@
       "Quest Item"
     ],
     "description": "A parcel to be delivered.",
-    "background": "Inside is a well-worn set of ring puzzles and a half-opened letter. Left behind by a daughter for her father, these tokens are as quiet as she was—a silent proof of her unspoken care.",
+    "background": "Inside is a well-worn Nine Linked Rings puzzle, and a half-opened letter. Left behind by a daughter for her father, these tokens are as quiet as she was—a silent proof of her unspoken care.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconTask/T_IconTask_Task_239_UI.webp"
@@ -26556,7 +26549,7 @@
       "Quest Item"
     ],
     "description": "An inventory and a parcel.",
-    "background": "An inventory listing the belongings of the fallen Xuanfang Wardens, accompanied by a parcel containing the ring puzzles and the letter you just retrieved.",
+    "background": "An inventory listing the belongings of the fallen Xuanfang Wardens, accompanied by a parcel containing the Nine Linked Rings puzzle and the letter you just retrieved.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconTask/T_IconTask_Task_239_UI.webp"
@@ -36829,7 +36822,7 @@
     "tag": [
       "Consumable"
     ],
-    "description": "A small token resembling a coin. Can be used to exchange for supplies at the Yard Exchange.",
+    "description": "A small token resembling ancient currency. Can be used to exchange for supplies at the Yard Exchange.",
     "background": "An official token issued to Constables. It functions as currency to trade for supplies at Shaftpost Yard, but is barred from circulation within the Hold. These tokens are generally distributed as a stipend upon the successful resolution of a case.",
     "source": [],
     "assets": {

@@ -1,13 +1,13 @@
 {
   "provider": "Prydwen",
   "game": "hsr",
-  "generatedAt": "2026-07-08T07:46:33.795Z",
+  "generatedAt": "2026-07-09T08:53:35.209Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 26,
-      "unchanged": 69
+      "changed": 3,
+      "unchanged": 92
     }
   },
   "sections": {
@@ -16,163 +16,25 @@
       "removed": [],
       "changed": [
         {
-          "id": "characters:anaxa",
-          "name": "Anaxa",
-          "previousHash": "9420f6b5001e811a67e0d36ca99328f9ff29a565efa9f7b44a8032cc1803ea8a",
-          "currentHash": "1a10bfb3cb0035f748462b8f4d799f56f2ca410f9d80ff5bab45a5eff82ace15"
-        },
-        {
           "id": "characters:argenti",
           "name": "Argenti",
-          "previousHash": "75a10b0e1c36cf5db1b3af1bd46aa05bfe2168cd1afe5d80812ece5b4052bd05",
-          "currentHash": "d227ab9325f15816a0b48b1787c0c9704bdb3df07742f19fb208515f177b206a"
-        },
-        {
-          "id": "characters:asta",
-          "name": "Asta",
-          "previousHash": "862073437a3f931e96a8c032f3485cd04495a2b0a25e30e59ad070b3ee939bcc",
-          "currentHash": "aa0223a585e9115903ecb72fe796e4c767b6f4bdf61f3ce563e5c3ef9f21f1ef"
-        },
-        {
-          "id": "characters:blade",
-          "name": "Blade",
-          "previousHash": "9b2500aa84c094fc5b587044d0c5bfaf1167ff3d78b904368fe9c13d517f5be8",
-          "currentHash": "612f714af6db5db2efb11856e094046d402a4e4ffe0ac56c2572e32110a322b8"
-        },
-        {
-          "id": "characters:bronya",
-          "name": "Bronya",
-          "previousHash": "ed1684de77954e54ab972cc22d7eeed641d99870f519d244bd66237b8f069095",
-          "currentHash": "e82a35e9f99ac9ee1f1d272a15fc3948d41bf2b27292cf20a85ded5da5dabe0f"
-        },
-        {
-          "id": "characters:feixiao",
-          "name": "Feixiao",
-          "previousHash": "c2ab44d432166a6a92616fe388f9e0a659d2d3d165790e709a73ebc22059bba9",
-          "currentHash": "94ca57de46e799f79d5755b1ebd6fe31bda66d33d23c4e756914f00a2d2a3ac2"
-        },
-        {
-          "id": "characters:firefly",
-          "name": "Firefly",
-          "previousHash": "53adc41b6fd21980932f184ffea953b787149487d68858b89b3bfe797a39167f",
-          "currentHash": "623257b996bfb4637f9680ab0882f020d15182cc6ef4bee992def18e7a0c4c9f"
-        },
-        {
-          "id": "characters:fu-xuan",
-          "name": "Fu Xuan",
-          "previousHash": "78f01a8a82a79254ea9e1f1eb2f281bb52b7cc9d8e81a826e131075ec63cca19",
-          "currentHash": "3effe5a96d674224c1a715c8c0f74ffaf20210af5cbac19f598eb1454871f1e8"
-        },
-        {
-          "id": "characters:gallagher",
-          "name": "Gallagher",
-          "previousHash": "3bc61ca35423dd5bb6fc9702bb4448b559a8c46b9243df9e3d83a3ac544ee412",
-          "currentHash": "0c55408822502f3704253abf8167a4669aef9c9537ea7815263eabeb81d7ac62"
-        },
-        {
-          "id": "characters:herta",
-          "name": "Herta",
-          "previousHash": "3e348ccb24702ca7b26055b1cfde2daf07067ed46c3f235d47c626e361983ca1",
-          "currentHash": "8896efd9d03b0d92281ae356edd10278e8844d2680f329b401d33925f01f1201"
-        },
-        {
-          "id": "characters:himeko",
-          "name": "Himeko",
-          "previousHash": "2e4777a1862034b3dd50046422fe4ca48513e36972bdb3a56bf0c62b2ea387a6",
-          "currentHash": "e2bbd600fdb0b7c880cdcb7e0b344277a9644d6b982046ae7094d7de895604d4"
+          "previousHash": "d227ab9325f15816a0b48b1787c0c9704bdb3df07742f19fb208515f177b206a",
+          "currentHash": "bc401becbbd8b6d92930c57751abac9888a4bd3dd25e332a3dca44ec006d9a2b"
         },
         {
           "id": "characters:himeko-nova",
           "name": "Himeko Nova",
-          "previousHash": "eb0e2ef3bf6d1d781566043f8dc1c69f94a30ee824df13a6aebe4c658087bdb1",
-          "currentHash": "33799b2095df08d238d5d65b9381f0e33994495a18a8ad5377c24d25a6a5a233"
+          "previousHash": "33799b2095df08d238d5d65b9381f0e33994495a18a8ad5377c24d25a6a5a233",
+          "currentHash": "871ec954b401a2321ad37ff992c41a6aa2a87be9a537bfa0d009e1099458f3d0"
         },
         {
-          "id": "characters:huohuo",
-          "name": "Huohuo",
-          "previousHash": "a485397d4b44b4d65763394ef468c03aad47e26c371dcaa96c7853984918067b",
-          "currentHash": "23e4a779c0fb6a2393ab262846b57e68420db90a350bfc1a95749a4ed6469aff"
-        },
-        {
-          "id": "characters:jade",
-          "name": "Jade",
-          "previousHash": "aa8876a05380c3d9adcdc861afbb2f2f06d00a0b6ef6a7302d695464897f8e1e",
-          "currentHash": "8852bbe85b00748cbb7b65fbcbd2f6c44dab589c40e63d5110a63805ce90dbf4"
-        },
-        {
-          "id": "characters:lingsha",
-          "name": "Lingsha",
-          "previousHash": "65b8471703f7afa41f3da5e6f615847ae78604b884abb37e511689a28df02b75",
-          "currentHash": "480f628852bb3d9a44e8b4973fdbc1b10c59a699d998632c815e3c8910bcba38"
-        },
-        {
-          "id": "characters:mydei",
-          "name": "Mydei",
-          "previousHash": "827ad736efdcd2e2f3238cac14762826b4bd61f375170336c138d2fddeb7beb2",
-          "currentHash": "ff1ecd7b0cfa38e11c185cacce05c91ddbe1e6ab7a2a5f5823e352b1f62a46c7"
-        },
-        {
-          "id": "characters:phainon",
-          "name": "Phainon",
-          "previousHash": "a247290fa7f5d7f632077ceff69aa1bb9e0804e0b95a729b0ed0e0f03016d5a1",
-          "currentHash": "4c87cc6754c7204bdcd78358ea9b69aae6a650825460c0ea0b344b503ec31c5a"
-        },
-        {
-          "id": "characters:rappa",
-          "name": "Rappa",
-          "previousHash": "b3c3e76c5c834eef5c19f9fd941fc0b9e729342f6508aea573bd88f2138dd115",
-          "currentHash": "5302cf81ba06a39647e9f90c3bca0df15fca12c6d1be847b30bf2b441c66cda9"
-        },
-        {
-          "id": "characters:robin",
-          "name": "Robin",
-          "previousHash": "1db5f90418ba36d721dec0c62bf3959582ab3016d77744497fc3ec39fc32b77f",
-          "currentHash": "11f578de8dec5b5668edb96bc3b158762d4106cf210a20b07ef5a3fec38e34a2"
-        },
-        {
-          "id": "characters:serval",
-          "name": "Serval",
-          "previousHash": "e2e9b6bc155cb7469b25f84b8cc1a0a7388650dd766d2bbf4f8e381810b0b23b",
-          "currentHash": "a57e24e4487cd586c450e9a53308b01225be76903a9eb84a2aefc10d160f2bb4"
-        },
-        {
-          "id": "characters:sparxie",
-          "name": "Sparxie",
-          "previousHash": "e44074491eaf9ec98372217c1eaaa9c82494f44be60ceebdbf825c58e9c82217",
-          "currentHash": "e74840f9ee29a325f9a3d9cbc93e7756a4829ea127942a76eee1ea736d2b4735"
-        },
-        {
-          "id": "characters:the-dahlia",
-          "name": "The Dahlia",
-          "previousHash": "3a472f7f7b292c13406d273b584e38313b4867d173ae01d341d96c72869d334a",
-          "currentHash": "19b39b6980a3ab30b13e0121ecb9bfa61b51926c58d83d802e2b2d39f6e78c56"
-        },
-        {
-          "id": "characters:the-herta",
-          "name": "The Herta",
-          "previousHash": "2a31eead5119ab93f275ec007581ae16ad707321b6e6c1f15b4c6e8f55f69acd",
-          "currentHash": "e5289c1a847a693dc11c041239ef5d6c3f17c91520ebedca48058d28a8c65329"
-        },
-        {
-          "id": "characters:welt",
-          "name": "Welt",
-          "previousHash": "8a0c4e85d0d842e58cea6161302591a51c72192a1c599f2167214e08dc52c8f1",
-          "currentHash": "c15777e453ac36455ca832b537caf8d666a1a6ee1ba8fe0bd5f8e717ee80b424"
-        },
-        {
-          "id": "characters:yunli",
-          "name": "Yunli",
-          "previousHash": "9cc95864cc8b0e9cce823e3ad303c17e14b6fb496821f2604806eef4f4a0e236",
-          "currentHash": "317c0b586323052089e7f02681a3e443429e763be4fae056229f7a2a1c84bf96"
-        },
-        {
-          "id": "collection:characters",
-          "name": "Honkai Star Rail Characters & Build Guides",
-          "previousHash": "53a2b3bd7daead43a09d1b7e4e8fbc2dddddf100c8feda85998adc31d8ccc3ef",
-          "currentHash": "62e7b1c17f24ff09cf65ad5d2f4ee75fa07d8ff4e819dc550b8009c3e26a6469"
+          "id": "collection:light-cones",
+          "name": "Honkai: Star Rail Light Cones",
+          "previousHash": "0107d4724a6778dd163c6eae78983848f2741797367dff5fd5574e4397f7d0b0",
+          "currentHash": "c0bc38e2a734cb7bdb950590a268085db785e333e7022ae39ba7dc1ed8ccd263"
         }
       ],
-      "unchanged": 69,
+      "unchanged": 92,
       "totals": {
         "previous": 95,
         "current": 95

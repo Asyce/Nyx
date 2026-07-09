@@ -3,7 +3,7 @@
   "game": "hsr",
   "collection": "light-cones",
   "sourcePath": "/star-rail/light-cones",
-  "scrapedAt": "2026-07-08T07:46:33.795Z",
+  "scrapedAt": "2026-07-09T08:53:35.209Z",
   "detailPagesTotal": 0,
   "detailPagesScraped": 0,
   "staleDetailPagesRemoved": 0,
@@ -54,15 +54,25 @@
       "id": "a-star-that-lights-the-night",
       "name": "A Star That Lights the Night",
       "kind": "light-cones",
+      "art": "Prydwen/hsr/assets/light-cones/a-star-that-lights-the-night-e5ff09788002.webp",
+      "assetId": "e5ff09788002",
+      "contentStatus": "live"
+    },
+    {
+      "id": "a-star-that-lights-the-night-new",
+      "name": "A Star That Lights the Night New",
+      "kind": "light-cones",
       "contentStatus": "live",
-      "statusLabels": [],
-      "art": "Prydwen/hsr/assets/light-cones/a-star-that-lights-the-night-72107b8eb630.webp",
-      "assetId": "72107b8eb630",
+      "statusLabels": [
+        "New"
+      ],
+      "art": "Prydwen/hsr/assets/light-cones/a-star-that-lights-the-night-e5ff09788002.webp",
+      "assetId": "e5ff09788002",
       "fields": {
         "rarity": "5 ★",
         "path": "Erudition"
       },
-      "text": "A Star That Lights the Night\nRarity: 5 ★\nPath: Erudition\nUnknown\nStats for this Light Cone aren't available yet."
+      "text": "A Star That Lights the Night New\nRarity: 5 ★\nPath: Erudition\nThe wearer ignores 32/36/40/44/48% of the target's DEF when dealing DMG. When the wearer uses an Assist Skill, they regenerate 6 Energy and gain \"Sail,\" lasting for 2 turns and stacking up to 3 time(s). Each stack of \"Sail\" increases Assist Skill DMG by 20/25/30/35/40% . When \"Sail\" reaches 3 stacks, each stack of \"Sail\" increases Ultimate DMG by 20/25/30/35/40% .\nHP\n+ 847\nATK\n+ 635\nDEF\n+ 529"
     },
     {
       "id": "a-thankless-coronation",

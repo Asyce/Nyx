@@ -928,14 +928,14 @@
       ],
       "skill": {
         "name": "Deterrence",
-        "desc": "<size=40><color=Title>Basic Attack</color></size>\nPerform up to {0} consecutive attacks, dealing <color=Thunder>Electro DMG</color>.\n<size=10></size>\n<size=40><color=Title>Parry Stance</color></size>\nHold <color=Highlight>Normal Attack</color> to enter <color=Highlight>Parry Stance</color> at the cost of STA. \nWhile active, Rover is immune to interruptions, takes {1}% less DMG, and continuously consumes STA. Release <color=Highlight>Normal Attack</color> to exit <color=Highlight>Parry Stance</color> and perform <color=Highlight>Basic Attack - Riposte Strike</color>, dealing <color=Thunder>Electro DMG</color>.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} Normal Attack shortly after casting <color=Highlight>Basic Attack - Riposte Strike</color> to neutralize this attack and Stagnate the target before performing <color=Highlight>Basic Attack - Riposte Strike: Crumble</color>, dealing <color=Thunder>Electro DMG</color>.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} <color=Highlight>Normal Attack</color> shortly after casting <color=Highlight>Basic Attack - Riposte Strike</color> to cast <color=Highlight>Basic Attack Stage {3}</color>.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} <color=Highlight>Normal Attack</color> shortly after casting <color=Highlight>Basic Attack - Riposte Strike: Crumble</color> to cast <color=Highlight>Mid-air Attack - Havoc</color>\nWhile in <color=Highlight><te href=130903>Apex Resonance</te></color>, {Cus:Ipt,Touch=tap PC=press Gamepad=press} <color=Highlight>Normal Attack</color> shortly after casting <color=Highlight>Basic Attack - Riposte Strike: Crumble</color> to cast <color=Highlight>Thrum of All Sounds: Havoc Mid-air Attack</color>, which can be chained into <color=Highlight>Thrum of All Sounds: Aero Mid-air Attack</color>.\nIn <color=Highlight>Parry Stance</color>, use Dodge to consume STA to perform <color=Highlight>Dodge: Flicker</color>, which can trigger successful <color=Highlight>Dodges </color> during the action of this skill shortly after it's cast.\n<size=10></size>\n<size=40><color=Title>Mid-air Attack</color></size>\nConsume STA to perform a Plunging Attack in the air, dealing <color=Thunder>Electro DMG</color>.\n<size=10></size>\n<size=40><color=Title>Mid-air Attack - Havoc</color></size>\nPerform up to {4} consecutive strikes, dealing <color=Dark>Havoc DMG</color>. {Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} <color=Highlight>Normal Attack</color> shortly after casting this skill to perform <color=Highlight>Basic Attack Stage {5}</color>.\n<size=10></size>\n<size=40><color=Title>Dodge Counter</color></size>\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} <color=Highlight>Normal Attack</color> right after a successful <color=Highlight>Dodge</color> to attack the target, dealing <color=Thunder>Electro DMG</color>.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} <color=Highlight>Normal Attack</color> shortly after to perform <color=Highlight>Basic Attack Stage {6}</color>.",
+        "desc": "<size=40><color=Title>Basic Attack</color></size>\nPerform up to {0} consecutive attacks, dealing <color=Thunder>Electro DMG</color>.\n<size=10></size>\n<size=40><color=Title>Parry Stance</color></size>\nHold <color=Highlight>Normal Attack</color> to enter <color=Highlight>Parry Stance</color> at the cost of STA. \nWhile active, Rover is immune to interruptions, takes {1}% less DMG, and continuously consumes STA. Release <color=Highlight>Normal Attack</color> to exit <color=Highlight>Parry Stance</color> and perform <color=Highlight>Basic Attack - Riposte Strike</color>, dealing <color=Thunder>Electro DMG</color>.\nIf an attack hits Rover during a certain period of <color=Highlight>Basic Attack - Riposte Strike</color>, neutralize this attack and temporarily Stagnate the target before performing <color=Highlight>Basic Attack - Riposte Strike: Crumble</color>, dealing <color=Thunder>Electro DMG</color>.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} <color=Highlight>Normal Attack</color> shortly after casting <color=Highlight>Basic Attack - Riposte Strike</color> to cast <color=Highlight>Basic Attack Stage {3}</color>.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} <color=Highlight>Normal Attack</color> shortly after casting <color=Highlight>Basic Attack - Riposte Strike: Crumble</color> to cast <color=Highlight>Mid-air Attack - Havoc</color>\nIn <color=Highlight>Parry Stance</color>, use Dodge to consume STA to perform <color=Highlight>Dodge: Flicker</color>, which can trigger successful <color=Highlight>Dodges</color> during the action of this skill shortly after it's cast.\n<size=10></size>\n<size=40><color=Title>Mid-air Attack</color></size>\nConsume STA to perform a Plunging Attack from mid-air, dealing <color=Thunder>Electro DMG</color>.\n<size=10></size>\n<size=40><color=Title>Mid-air Attack - Havoc</color></size>\nPerform up to {4} consecutive strikes, dealing <color=Dark>Havoc DMG</color>. {Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} <color=Highlight>Normal Attack</color> shortly after casting Stage {5} of this skill to perform <color=Highlight>Basic Attack Stage {6}</color>.\n<size=10></size>\n<size=40><color=Title>Dodge Counter</color></size>\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} <color=Highlight>Normal Attack</color> right after a successful <color=Highlight>Dodge</color> to attack the target, dealing <color=Thunder>Electro DMG</color>.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} <color=Highlight>Normal Attack</color> shortly after to perform <color=Highlight>Basic Attack Stage {7}</color>.\n<size=10></size>\n<size=40><color=Title>Mid-air Dodge Counter</color></size>\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} <color=Highlight>Normal Attack</color> right after a successful <color=Highlight>Dodge</color> in mid-air to perform Plunging Attack at the cost of STA, dealing <color=Thunder>Electro DMG</color>.",
         "param": [
           "4",
           "60",
           "100",
           "2",
           "3",
-          "1",
+          "3",
           "4",
           "3"
         ],
@@ -1053,7 +1053,7 @@
             ]
           },
           "5": {
-            "name": "Riposte Strike DMG",
+            "name": "Basic Attack - Riposte Strike DMG",
             "param": [
               [
                 "28.14%",
@@ -1080,7 +1080,7 @@
             ]
           },
           "6": {
-            "name": "Riposte Strike: Crumble DMG",
+            "name": "Basic Attack - Riposte Strike: Crumble DMG",
             "param": [
               [
                 "29.89%",
@@ -1188,7 +1188,7 @@
             ]
           },
           "10": {
-            "name": "Plunging Attack DMG",
+            "name": "Mid-air Attack DMG",
             "param": [
               [
                 "52.78%",
@@ -1242,7 +1242,7 @@
             ]
           },
           "12": {
-            "name": "Plunging Attack STA Cost",
+            "name": "Mid-air Attack STA Cost",
             "param": [
               [
                 "30",
@@ -1350,7 +1350,7 @@
             ]
           },
           "17": {
-            "name": "",
+            "name": "Mid-air Dodge Counter STA Cost",
             "param": [
               [
                 "30",
@@ -1377,7 +1377,7 @@
             ]
           },
           "12_2": {
-            "name": "",
+            "name": "Mid-air Dodge Counter DMG",
             "param": [
               [
                 "94.78%",
@@ -1895,7 +1895,7 @@
       ],
       "skill": {
         "name": "Thunderclap",
-        "desc": "Launch the Cloudrift Bolt and grapple towards the target, dealing <color=Thunder>Electro DMG</color>. {Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} <color=Highlight>Normal Attack</color> shortly after to cast <color=Highlight>Basic Attack - Repel</color>, dealing Electro DMG, considered Basic Attack DMG.",
+        "desc": "Launch the Cloudrift Bolt and grapple towards the target, dealing <color=Thunder>Electro DMG</color>. {Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} <color=Highlight>Normal Attack</color> shortly after to cast <color=Highlight>Basic Attack - Repel</color>, dealing <color=Thunder>Electro DMG</color>, considered <color=Highlight>Basic Attack DMG</color>.",
         "param": [],
         "simple_desc": "Pull yourself toward the target, dealing <color=Thunder>Electro DMG</color>.",
         "simple_param": [],
@@ -1982,7 +1982,7 @@
                 "10"
               ]
             ],
-            "format": ""
+            "format": "{0}s"
           }
         },
         "consume": {
@@ -2312,7 +2312,7 @@
                 "25"
               ]
             ],
-            "format": ""
+            "format": "{0}s"
           },
           "3": {
             "name": "Resonance Cost",
@@ -2610,7 +2610,7 @@
         "param": [
           "10"
         ],
-        "simple_desc": "The last Stage of Resonance Skill <color=Highlight>Overshock</color> inflicts <color=Highlight><te href=850013>Electro Flare</te></color> on the target hit when it deals damage.",
+        "simple_desc": "Resonance Skill <color=Highlight>Overshock</color> inflicts <color=Highlight>Electro Flare</color> on the target it damages.",
         "simple_param": [],
         "icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconThunderzhu/SP_IconThunderzhuD1.SP_IconThunderzhuD1",
         "type": "Inherent Skill",
@@ -2982,7 +2982,7 @@
       ],
       "skill": {
         "name": "Myriad Omens' Mandate",
-        "desc": "<size=40><color=Title>Overshock</color></size>\nAt max <color=Highlight><te href=130901>Electric Surge</te></color>, <color=Highlight>Resonance Skill</color> is replaced with Resonance Skill <color=Highlight>Overshock</color>, dealing <color=Thunder>Electro DMG</color>. This skill is immune to interruptions while being cast and can be cast in mid-air.\nIf Resonance Skill <color=Highlight>Overshock</color> is cast by {Cus:Ipt,Touch=tapping PC=pressing Gamepad=pressing} the button, clear all <color=Highlight><te href=130901>Electric Surge</te></color> to grant Resonators in the team {0}% ATK Bonus for {1}s.\nIf Resonance Skill <color=Highlight>Overshock</color> is cast by holding down the button, clear all <color=Highlight><te href=130901>Electric Surge</te></color> and enter <color=Highlight><te href=130903>Apex Resonance</te></color> at the cost of <SapTag=2>{2}</SapTag> {Cus:Sap,S=point P=points SapTag=2} of Concerto Energy.\n<size=10></size>\n<size=40><color=Title>Apex Resonance</color></size>\nWhile in <color=Highlight><te href=130903>Apex Resonance</te></color>, Resonance Skill <color=Highlight>Thrum of All Sounds</color> is unlocked, which consumes {3}% <color=Highlight><te href=130902>Thunder Rage</te></color> per second:\nWhile on the ground, {Cus:Ipt,Touch=tap PC=press Gamepad=press} <color=Highlight>Resonance Skill</color> to launch up to {4} consecutive attacks:\n- The first <SapTag=5>{5}</SapTag> {Cus:Sap,S=stage P=stages SapTag=5}: <color=Highlight>Thrum of All Sounds: Spectro</color>, dealing <color=Light>Spectro DMG</color>.\n- The next <SapTag=6>{6}</SapTag> {Cus:Sap,S=stage P=stages SapTag=6}: <color=Highlight>Thrum of All Sounds: Havoc</color>, dealing <color=Dark>Havoc DMG</color>.\n- The last <SapTag=7>{7}</SapTag> {Cus:Sap,S=stage P=stages SapTag=7}: <color=Highlight>Thrum of All Sounds: Silencing Blade</color>, dealing <color=Wind>Aero DMG</color>.\nWhile on the ground, hold <color=Highlight>Resonance Skill</color> to cast <color=Highlight>Thrum of All Sounds: Aero</color>, dealing <color=Wind>Aero DMG</color> and leap into the air.\nWhile airborne, {Cus:Ipt,Touch=tap PC=press Gamepad=press} <color=Highlight>Resonance Skill</color> to perform up to {8} stages of Mid-air Attacks:\n- The first <SapTag=9>{9}</SapTag> {Cus:Sap,S=stage P=stages SapTag=9}: <color=Highlight>Thrum of All Sounds: Havoc Mid-air Attack</color>, dealing <color=Dark>Havoc DMG</color>.\n- The next <SapTag=A>{10}</SapTag> {Cus:Sap,S=stage P=stages SapTag=A}: <color=Highlight>Thrum of All Sounds: Aero Mid-air Attack</color>, dealing <color=Wind>Aero DMG</color>.\n- The last <SapTag=B>{11}</SapTag> {Cus:Sap,S=stage P=stages SapTag=B}: <color=Highlight>Thrum of All Sounds: Havoc Mid-air AttackThrum of All Sounds: Havoc Mid-air AttackThrum of All Sounds: Aero Plunging Attack</color>, dealing <color=Wind>Aero DMG</color>. {Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} <color=Highlight>Resonance Skill</color> shortly after landing to cast <color=Highlight>Thrum of All Sounds: Silencing Blade</color>.\nHold <color=Highlight>Resonance Skill</color> in the air to cast <color=Highlight>Thrum of All Sounds: Aero Mid-air Attack</color>.\nEac\nIf the target is far when <color=Highlight>Thrum of All Sounds</color> is cast on the ground, perform only <color=Highlight>Thrum of All Sounds: Spectro Hunt</color> instead, dealing <color=Light>Spectro DMG</color>.\n<color=Highlight>Thrum of All Sounds: Aero Plunging Attack</color> can also be peformed by holding <color=Highlight>Resonance Skill</color> in mid-air.\nAll <color=Highlight>Thrum of All Sounds</color> skills trigger <color=Highlight>Thunder Bane</color>, dealing <color=Thunder>Electro DMG</color> to the target within range.\nWhile in <color=Highlight><te href=130903>Apex Resonance</te></color>, {Cus:Ipt,Touch=tap PC=press Gamepad=press} Resonance Skill shortly after casting a Basic Attack to chain into a <color=Highlight>Thrum of All Sounds</color> skill based on the different Basic Attack Stages.\n<size=10></size>\n<size=40><color=Title>Electric Surge</color></size>\nRover can hold up to {12} points of <color=Highlight><te href=130901>Electric Surge</te></color>.\n<color=Highlight><te href=130901>Electric Surge</te></color> is restored when <color=Highlight>Intro Skill - Thunderous Fury</color>, <color=Highlight>Normal Attack - Deterrence</color>, <color=Highlight>Resonance Skill - Thunderclap</color>, or <color=Highlight>Basic Attack - Repel</color> deals damage.\n<size=10></size>\n<size=40><color=Title>Thunder Rage</color></size>\nRover can hold up to {13} points of <color=Highlight><te href=130902>Thunder Rage</te></color>.\nEntering <color=Highlight><te href=130903>Apex Resonance</te></color> restores <color=Highlight><te href=130902>Thunder Rage</te></color> to the max limit.\n<color=Highlight><te href=130902>Thunder Rage</te></color> is restored when <color=Highlight>Thrum of All Sounds</color> deals damage.",
+        "desc": "<size=40><color=Title>Overshock</color></size>\nAt max <color=Highlight><te href=130901>Electric Surge</te></color>, <color=Highlight>Resonance Skill</color> is replaced with Resonance Skill <color=Highlight>Overshock</color>, dealing <color=Thunder>Electro DMG</color>.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} <color=Highlight>Normal Attack</color> shortly after casting this skill to perform <color=Highlight>Normal Attack Stage {0}</color>.\nThis skill can be cast in mid-air.\nIf Resonance Skill <color=Highlight>Overshock</color> is cast by {Cus:Ipt,Touch=tapping PC=pressing Gamepad=pressing} the button, clear all <color=Highlight><te href=130901>Electric Surge</te></color> to grant Resonators in the team {1}% ATK Bonus for {2}s.\nIf Resonance Skill <color=Highlight>Overshock</color> is cast by holding down the button, consume <SapTag=3>{3}</SapTag> {Cus:Sap,S=point P=points SapTag=3} of Concerto Energy to deal damage, then clear all <color=Highlight><te href=130901>Electric Surge</te></color> to enter <color=Highlight><te href=130903>Apex Resonance</te></color>.\n<size=10></size>\n<size=40><color=Title>Apex Resonance</color></size>\nWhile in <color=Highlight><te href=130903>Apex Resonance</te></color>, Resonance Skill <color=Highlight>Thrum of All Sounds</color> is unlocked, which consumes {4}% <color=Highlight><te href=130902>Thunder Rage</te></color> per second:\nWhile on the ground, {Cus:Ipt,Touch=tap PC=press Gamepad=press} <color=Highlight>Resonance Skill</color> to launch up to {5} consecutive attacks:\n- The first <SapTag=5>{6}</SapTag> {Cus:Sap,S=stage P=stages SapTag=5}: <color=Highlight>Thrum of All Sounds: Spectro</color>, dealing <color=Light>Spectro DMG</color>.\n- The next <SapTag=6>{7}</SapTag> {Cus:Sap,S=stage P=stages SapTag=6}: <color=Highlight>Thrum of All Sounds: Havoc</color>, dealing <color=Dark>Havoc DMG</color>.\n- The last <SapTag=7>{8}</SapTag> {Cus:Sap,S=stage P=stages SapTag=7}: <color=Highlight>Thrum of All Sounds: Silencing Blade</color>, dealing <color=Wind>Aero DMG</color>.\nWhile on the ground, hold <color=Highlight>Resonance Skill</color> to cast <color=Highlight>Thrum of All Sounds: Aero</color>, dealing <color=Wind>Aero DMG</color> and leaping into the air.\nWhile airborne, {Cus:Ipt,Touch=tap PC=press Gamepad=press} <color=Highlight>Resonance Skill</color> to perform up to {9} stages of Mid-air Attacks:\n- The first <SapTag=9>{10}</SapTag> {Cus:Sap,S=stage P=stages SapTag=9}: <color=Highlight>Thrum of All Sounds: Havoc Mid-air Attack</color>, dealing <color=Dark>Havoc DMG</color>.\n- The next <SapTag=A>{11}</SapTag> {Cus:Sap,S=stage P=stages SapTag=A}: <color=Highlight>Thrum of All Sounds: Aero Mid-air Attack</color>, dealing <color=Wind>Aero DMG</color> and healing all nearby Resonators in the team.\n- The last <SapTag=B>{12}</SapTag> {Cus:Sap,S=stage P=stages SapTag=B}: <color=Highlight>Thrum of All Sounds: Aero Plunging Attack</color>, dealing <color=Wind>Aero DMG</color>. {Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} <color=Highlight>Resonance Skill</color> shortly after landing to cast <color=Highlight>Thrum of All Sounds: Silencing Blade</color>.\nHold <color=Highlight>Resonance Skill</color> in mid-air to cast <color=Highlight>Thrum of All Sounds: Aero Plunging Attack</color>.\nEach time <color=Highlight>Thrum of All Sounds</color> deals DMG, <color=Highlight>Thunder Bane</color> is triggered, dealing <color=Thunder>Electro DMG</color> to the target within range, considered <color=Highlight>Resonance Skill DMG</color>.\nWhile in <color=Highlight><te href=130903>Apex Resonance</te></color>, {Cus:Ipt,Touch=tap PC=press Gamepad=press} <color=Highlight>Resonance Skill</color> shortly after casting a Basic Attack to chain into a specific <color=Highlight>Thrum of All Sounds</color> skill based on the different Basic Attack Stages.\n<size=10></size>\n<size=40><color=Title>Electric Surge</color></size>\nRover can hold up to {13} points of <color=Highlight><te href=130901>Electric Surge</te></color>.\n<color=Highlight><te href=130901>Electric Surge</te></color> is restored when <color=Highlight>Intro Skill - Thunderous Fury</color>, <color=Highlight>Normal Attack - Deterrence</color>, <color=Highlight>Resonance Skill - Thunderclap</color>, or <color=Highlight>Basic Attack - Repel</color> deals damage.\n<size=10></size>\n<size=40><color=Title>Thunder Rage</color></size>\nRover can hold up to {14} points of <color=Highlight><te href=130902>Thunder Rage</te></color>.\nEntering <color=Highlight><te href=130903>Apex Resonance</te></color> restores <color=Highlight><te href=130902>Thunder Rage</te></color> to the max limit.\n<color=Highlight><te href=130902>Thunder Rage</te></color> is restored when <color=Highlight>Thrum of All Sounds</color> deals damage.",
         "param": [
           "4",
           "10",
@@ -3000,7 +3000,7 @@
           "120",
           "100"
         ],
-        "simple_desc": "<size=40><color=Title>Overshock</color></size>\nAt max <color=Highlight><te href=130901>Electric Surge</te></color>, <color=Highlight>Resonance Skill</color> is replaced with Resonance Skill <color=Highlight>Overshock</color>.\nIf Resonance Skill <color=Highlight>Overshock</color> is cast by {Cus:Ipt,Touch=tapping PC=pressing Gamepad=pressing} the button, clear all <color=Highlight><te href=130901>Electric Surge</te></color> to grant Resonators in the team additional ATK.\nIf Resonance Skill <color=Highlight>Overshock</color> is cast by holding down the button, clear all <color=Highlight><te href=130901>Electric Surge</te></color> and enter <color=Highlight><te href=130903>Apex Resonance</te></color>.\n<size=10></size>\n<size=40><color=Title>Apex Resonance</color></size>\nWhile in <color=Highlight><te href=130903>Apex Resonance</te></color>, Resonance Skill <color=Highlight>Thrum of All Sounds</color> is unlocked. <color=Highlight><te href=130902>Thunder Rage</te></color> is consumed each second in this state during combat.",
+        "simple_desc": "<size=40><color=Title>Overshock</color></size>\nAt max <color=Highlight>Electric Surge</color>, <color=Highlight>Resonance Skill</color> is replaced with Resonance Skill <color=Highlight>Overshock</color>.\nIf Resonance Skill <color=Highlight>Overshock</color> is cast by {Cus:Ipt,Touch=tapping PC=pressing Gamepad=pressing} the button, clear all <color=Highlight>Electric Surge</color> to grant Resonators in the team additional ATK.\nIf Resonance Skill <color=Highlight>Overshock</color> is cast by holding down the button, consume Concerto Energy to deal damage, then clear all <color=Highlight>Electric Surge</color> to enter <color=Highlight>Apex Resonance</color>.\n<size=10></size>\n<size=40><color=Title>Apex Resonance</color></size>\nWhile in <color=Highlight>Apex Resonance</color>, Resonance Skill <color=Highlight>Thrum of All Sounds</color> is unlocked. <color=Highlight>Thunder Rage</color> is consumed each second in this state during combat.",
         "simple_param": [],
         "icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconThunderzhu/SP_IconThunderzhuY1.SP_IconThunderzhuY1",
         "type": "Forte Circuit",
@@ -3409,7 +3409,7 @@
                 "1144+42.16%"
               ]
             ],
-            "format": ""
+            "format": "{0} of ATK"
           },
           "16": {
             "name": "Thrum of All Sounds: Aero Plunging Attack DMG",
@@ -3491,7 +3491,7 @@
                 "25"
               ]
             ],
-            "format": ""
+            "format": "{0}s"
           }
         },
         "consume": {
@@ -5873,13 +5873,13 @@
       ],
       "skill": {
         "name": "Rumbling Thunders",
-        "desc": "The incoming Resonator gains <color=Highlight>Electro Core</color> for {0}s or until the Resonator is switched out. When Resonators with <color=Highlight>Electro Core</color> inflict Negative Statuses, their <color=Highlight>Electro Core</color> is consumed and they gain {1}% All DMG Amplification for {2}s. Switching to another Resonator ends the effect.\nCasting Outro Skill ends the <color=Highlight><te href=130903>Apex Resonance</te></color> state and clears all <color=Highlight><te href=130902>Thunder Rage</te></color>.",
+        "desc": "The incoming Resonator gains <color=Highlight>Electro Core</color> for {0}s or until the Resonator is switched out. After Resonators with <color=Highlight>Electro Core</color> inflict Negative Statuses, their <color=Highlight>Electro Core</color> is consumed, and they gain {1}% All DMG Amplification for {2}s. Switching to another Resonator ends the effect.\nCasting Outro Skill ends the <color=Highlight><te href=130903>Apex Resonance</te></color> state and clears all <color=Highlight><te href=130902>Thunder Rage</te></color>.",
         "param": [
           "20",
           "25",
           "14"
         ],
-        "simple_desc": "The incoming Resonator gains <color=Highlight>Electro Core</color>. When Resonators with <color=Highlight>Electro Core</color> inflict Negative Statuses, consume <color=Highlight>Electro Core</color> to gain All DMG Amplification.",
+        "simple_desc": "The incoming Resonator gains <color=Highlight>Electro Core</color>. After Resonators with <color=Highlight>Electro Core</color> inflict Negative Statuses, consume <color=Highlight>Electro Core</color> to grant All DMG Amplification.",
         "simple_param": [],
         "icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconThunderzhu/SP_IconThunderzhuT.SP_IconThunderzhuT",
         "type": "Outro Skill",
@@ -6176,7 +6176,7 @@
       ],
       "skill": {
         "name": "Tune Break - Sword",
-        "desc": "When the target's <color=Highlight>Off-Tune Level</color> is full, the Resonator may cast <color=Highlight><te href=100001>Tune Break</te></color>.",
+        "desc": "When the target's <color=Highlight>Off-Tune Level</color> is full, the Resonator may cast <color=Highlight><te href=100001>Tune Break</te></color> on the target.",
         "param": [],
         "simple_desc": "When the target's Off-Tune Level is full, the Resonator may cast Tune Break on the target.",
         "simple_param": [],

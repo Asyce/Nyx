@@ -884,7 +884,7 @@
     "statusLabels": [
       "New"
     ],
-    "updatedText": "20/June/2026",
+    "updatedText": "08/July/2026",
     "facts": {
       "rarity": 5,
       "element": "Glacio",
@@ -906,7 +906,7 @@
       "synergies",
       "example-teams"
     ],
-    "assetCount": 36
+    "assetCount": 44
   },
   {
     "id": "lucy",
@@ -919,7 +919,7 @@
     "statusLabels": [
       "New"
     ],
-    "updatedText": "19/June/2026",
+    "updatedText": "08/July/2026",
     "facts": {
       "rarity": 5,
       "element": "Spectro",
@@ -941,7 +941,7 @@
       "synergies",
       "example-teams"
     ],
-    "assetCount": 33
+    "assetCount": 41
   },
   {
     "id": "lumi",
@@ -1279,7 +1279,7 @@
     "statusLabels": [
       "New"
     ],
-    "updatedText": "19/June/2026",
+    "updatedText": "08/July/2026",
     "facts": {
       "rarity": 5,
       "element": "Electro",
@@ -1301,7 +1301,7 @@
       "synergies",
       "example-teams"
     ],
-    "assetCount": 38
+    "assetCount": 46
   },
   {
     "id": "roccia",

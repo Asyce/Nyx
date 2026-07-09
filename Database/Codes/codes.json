@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T09:56:52.719Z",
+  "generatedAt": "2026-07-09T12:12:34.743Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -69,6 +69,17 @@
           "premium100": false,
           "cwSeen": false,
           "firstSeen": "2026-07-05T17:19:05.883Z"
+        },
+        {
+          "code": "5S6ZHRWTDNJB",
+          "rewards": "60 stellar jade",
+          "added": "2026-07-09",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
+          "hoyoVerified": true,
+          "premium": true,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-07-09T12:12:34.426Z"
         },
         {
           "code": "BLADEFITCHECK",

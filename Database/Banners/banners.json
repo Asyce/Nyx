@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-07-09T09:56:40.184Z",
-  "updated": "2026-07-09T09:56:40.184Z",
+  "checkedAt": "2026-07-09T15:32:56.426Z",
+  "updated": "2026-07-09T15:32:56.426Z",
   "games": [
     {
       "id": "hsr",
       "name": "Honkai: Star Rail",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-07-09T09:56:40.184Z",
-        "lastSuccessfulFetch": "2026-07-09T09:56:40.184Z",
+        "checkedAt": "2026-07-09T15:32:56.426Z",
+        "lastSuccessfulFetch": "2026-07-09T15:32:56.426Z",
         "source": "game8"
       },
       "current": {
@@ -53,8 +53,8 @@
       "name": "Genshin Impact",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-07-09T09:56:40.184Z",
-        "lastSuccessfulFetch": "2026-07-09T09:56:40.184Z",
+        "checkedAt": "2026-07-09T15:32:56.426Z",
+        "lastSuccessfulFetch": "2026-07-09T15:32:56.426Z",
         "source": "game8"
       },
       "current": {
@@ -96,9 +96,9 @@
       "id": "wuwa",
       "name": "Wuthering Waves",
       "freshness": {
-        "status": "fresh",
-        "checkedAt": "2026-07-09T09:56:40.184Z",
-        "lastSuccessfulFetch": "2026-07-09T09:56:40.184Z",
+        "status": "transition",
+        "checkedAt": "2026-07-09T15:32:56.426Z",
+        "lastSuccessfulFetch": "2026-07-09T15:32:56.426Z",
         "source": "game8"
       },
       "current": {
@@ -115,14 +115,9 @@
             "rarity": 5
           },
           {
-            "name": "Lucilla",
-            "image": "https://static.nanoka.cc/assets/ww/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_66_UI.webp",
-            "rarity": 5
-          },
-          {
-            "name": "Cartethyia",
-            "image": "https://static.nanoka.cc/assets/ww/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_40_UI.webp",
-            "rarity": 5
+            "name": "Taoqi",
+            "image": "https://static.nanoka.cc/assets/ww/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_9_UI.webp",
+            "rarity": 4
           }
         ],
         "end": "2026-07-09T10:00:00.000Z",
@@ -216,8 +211,8 @@
       "name": "Zenless Zone Zero",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-07-09T09:56:40.184Z",
-        "lastSuccessfulFetch": "2026-07-09T09:56:40.184Z",
+        "checkedAt": "2026-07-09T15:32:56.426Z",
+        "lastSuccessfulFetch": "2026-07-09T15:32:56.426Z",
         "source": "game8"
       },
       "current": {
@@ -263,8 +258,8 @@
       "name": "Arknights: Endfield",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-07-09T09:56:40.184Z",
-        "lastSuccessfulFetch": "2026-07-09T09:56:40.184Z",
+        "checkedAt": "2026-07-09T15:32:56.426Z",
+        "lastSuccessfulFetch": "2026-07-09T15:32:56.426Z",
         "source": "game8"
       },
       "current": {

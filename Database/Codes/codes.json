@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T20:03:34.358Z",
+  "generatedAt": "2026-07-09T21:36:12.810Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-07-09T05:00:18.237Z",
+      "lastSuccessfulFetch": "2026-07-09T21:36:12.799Z",
       "codes": [
         {
           "code": "PFY1S40I88T9",
@@ -24,12 +24,9 @@
         },
         {
           "code": "EZSB8889C2BZ",
-          "rewards": "10000 Mora, 10 Adventurer's Experience, 5 Fine Enhancement Ore, 5 Jueyun Chili Chicken, 5 Stir-Fried Fish Noodles",
-          "added": "2026-07-01",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
-          "regionLocked": null,
-          "expires": null,
-          "variants": [],
+          "rewards": "10k Mora, Ten Adventurer S Experience, Five Fine Enhancement Ore, Five Jueyun Chili Chicken, and Five Stir Fried Fish Noodles",
+          "added": "2026-07-03",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=EZSB8889C2BZ",
           "premium": false,
           "premium100": false,
           "cwSeen": true,
@@ -37,16 +34,23 @@
         },
         {
           "code": "LEGEDILJKSGM",
-          "rewards": "60 Primogem, 5 Adventurer's Experience",
-          "added": "2026-06-21",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
-          "regionLocked": null,
-          "expires": null,
-          "variants": [],
+          "rewards": "60 Primogems and Five Adventurer S Experience",
+          "added": "2026-06-25",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM",
           "premium": true,
           "premium100": false,
           "cwSeen": true,
           "firstSeen": "2026-07-05T17:19:20.440Z"
+        },
+        {
+          "code": "LCXGEA5SX65L",
+          "rewards": "10k Mora, Ten Adventurer S Experience, Five Fine Enhancement Ore, Five Jueyun Chili Chicken, and Five Stir Fried Fish Noodles",
+          "added": "2026-06-12",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LCXGEA5SX65L",
+          "premium": false,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-07-09T21:36:12.799Z"
         }
       ]
     },
@@ -57,7 +61,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-07-09T05:00:18.313Z",
+      "lastSuccessfulFetch": "2026-07-09T21:36:12.810Z",
       "codes": [
         {
           "code": "4TKSX77Y58QK",
@@ -167,19 +171,8 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-07-09T05:00:17.836Z",
+      "lastSuccessfulFetch": "2026-07-09T21:36:12.805Z",
       "codes": [
-        {
-          "code": "ROSCAELIFER0617",
-          "rewards": "Polychrome x 30",
-          "added": "2026-07-09",
-          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617",
-          "hoyoVerified": true,
-          "premium": true,
-          "premium100": false,
-          "cwSeen": true,
-          "firstSeen": "2026-07-05T17:19:07.479Z"
-        },
         {
           "code": "ZENLESSGIFT",
           "rewards": "50 polychrome, two official investigator logs, three w-engine power supplies, and one bangboo algorithm module",
@@ -192,11 +185,20 @@
           "firstSeen": "2026-07-05T17:19:07.479Z"
         },
         {
+          "code": "ROSCAELIFER0617",
+          "rewards": "30 Polychrome",
+          "added": "2026-06-11",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617",
+          "premium": true,
+          "premium100": false,
+          "cwSeen": true,
+          "firstSeen": "2026-07-05T17:19:07.479Z"
+        },
+        {
           "code": "ZZZ30BANGBOO",
-          "rewards": "Polychrome x 60, Denny x 6,666",
-          "added": "2026-07-09",
+          "rewards": "60 Polychrome",
+          "added": "2026-06-11",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO",
-          "hoyoVerified": true,
           "premium": true,
           "premium100": false,
           "cwSeen": true,
@@ -204,10 +206,9 @@
         },
         {
           "code": "ZZZSEASON3",
-          "rewards": "Polychrome x 50",
-          "added": "2026-07-09",
+          "rewards": "50 Polychrome",
+          "added": "2026-06-11",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3",
-          "hoyoVerified": true,
           "premium": true,
           "premium100": false,
           "cwSeen": true,
@@ -215,12 +216,9 @@
         },
         {
           "code": "ZZZSTEAM",
-          "rewards": "60 Polychrome, 2 Senior Investigator Log, 2 W-Engine Energy Module, 6666 Denny",
+          "rewards": "60 Polychrome, Two W Engine Energy Modules, Two Senior Investigator Logs, and 6,666 Denny",
           "added": "2026-06-11",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Zenless_Zone_Zero",
-          "regionLocked": null,
-          "expires": null,
-          "variants": [],
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM",
           "premium": true,
           "premium100": false,
           "cwSeen": true,
@@ -235,7 +233,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-07-09T05:00:17.856Z",
+      "lastSuccessfulFetch": "2026-07-09T21:36:12.719Z",
       "codes": []
     },
     {
@@ -245,8 +243,59 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-07-09T05:00:17.895Z",
-      "codes": []
+      "lastSuccessfulFetch": "2026-07-09T21:36:12.789Z",
+      "codes": [
+        {
+          "code": "ALLFIELD",
+          "rewards": "",
+          "added": "2026-06-28",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=ALLFIELD",
+          "premium": false,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-07-09T21:36:12.789Z"
+        },
+        {
+          "code": "RETURNOFALL",
+          "rewards": "",
+          "added": "2026-06-28",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=RETURNOFALL",
+          "premium": false,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-07-09T21:36:12.789Z"
+        },
+        {
+          "code": "ZAU2SYXHWX5L4ZH",
+          "rewards": "5k T Creds and Ten Arms Insp Kits",
+          "added": "2026-05-05",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=ZAU2SYXHWX5L4ZH",
+          "premium": false,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-07-09T21:36:12.789Z"
+        },
+        {
+          "code": "ENDFIELD4PC",
+          "rewards": "Two Advanced Combat Records, Two Arms Insp Kits, and 13k T Creds Pc Only",
+          "added": "2026-05-03",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELD4PC",
+          "premium": false,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-07-09T21:36:12.789Z"
+        },
+        {
+          "code": "ENDFIELDGIFT",
+          "rewards": "150 Oroberyl, 20 Intermediate Combat Records, 20 Arms Insp Kits, and 10k T Creds",
+          "added": "2026-05-03",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELDGIFT",
+          "premium": true,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-07-09T21:36:12.789Z"
+        }
+      ]
     }
   ]
 }

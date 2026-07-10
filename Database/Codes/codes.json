@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T16:02:27.894Z",
+  "generatedAt": "2026-07-10T17:04:01.993Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-07-10T16:01:55.350Z",
+      "lastSuccessfulFetch": "2026-07-10T17:03:28.268Z",
       "codes": [
         {
           "code": "PFY1S40I88T9",
@@ -61,7 +61,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-07-10T16:01:55.369Z",
+      "lastSuccessfulFetch": "2026-07-10T17:03:27.905Z",
       "codes": [
         {
           "code": "4TKSX77Y58QK",
@@ -171,7 +171,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-07-10T16:01:55.372Z",
+      "lastSuccessfulFetch": "2026-07-10T17:03:27.921Z",
       "codes": [
         {
           "code": "ROSCAELIFER0617",
@@ -237,7 +237,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-07-10T16:01:55.335Z",
+      "lastSuccessfulFetch": "2026-07-10T17:03:27.842Z",
       "codes": []
     },
     {
@@ -247,20 +247,22 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-07-10T16:02:27.894Z",
+      "lastSuccessfulFetch": "2026-07-10T17:04:01.993Z",
       "codes": [],
       "review": {
-        "reason": "6 Arknights: Endfield code(s) held for review: possible referral/invite flood (6 first seen in 24h, threshold 5). Confirm legit ones in REVIEWED_CODES to publish.",
-        "detectedAt": "2026-07-10T16:02:27.894Z",
+        "reason": "6 Arknights: Endfield code(s) held for review: possible referral/invite flood (6 first seen in 24h, threshold 5); 1 unconfirmed Reddit-only code(s). Confirm legit ones in REVIEWED_CODES to publish.",
+        "detectedAt": "2026-07-10T17:04:01.992Z",
         "codes": [
           {
             "code": "ENDFIELDRENEW",
-            "rewards": "Sticker: Safety Helmet x1 T-Creds x71600",
+            "rewards": "",
             "added": "2026-07-10",
-            "sourceUrl": "https://game8.co/games/Arknights-Endfield/archives/571509",
+            "sourceUrl": "https://www.reddit.com/r/Endfield/comments/1usmvuy/14_stream_summary_homecoming/",
+            "mentions": 2,
             "premium": false,
             "premium100": false,
             "cwSeen": false,
+            "reviewReason": "unconfirmed Reddit-only code (no real reward)",
             "firstSeen": "2026-07-10T16:02:27.894Z"
           },
           {

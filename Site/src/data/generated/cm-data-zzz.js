@@ -2876,6 +2876,8043 @@
   ],
   "roster": [
     {
+      "id": "zzz-norma",
+      "n": "Norma",
+      "localizedNames": {
+        "en": "Norma",
+        "zh": "\u8bfa\u59c6",
+        "ja": "\u30ce\u30eb\u30e0\u30fc",
+        "ko": "\ub178\ub974\ub9c8"
+      },
+      "title": "En-Nah Time",
+      "slug": "norma",
+      "releasePatch": "2.5",
+      "updated": 1783461600000,
+      "sourceOrder": 0,
+      "voiceActors": {
+        "english": "imdb:nm9332106|Madeline Dorroh",
+        "japanese": "F\u016bka Izumi|Izumi F\u016bka (\u548c\u6cc9 \u98a8\u82b1)",
+        "chinese": "https://zh.moegirl.org.cn/\u738b\u6653\u5f64|Wang Xiaotong (\u738b\u6653\u5f64)",
+        "korean": "ko:\uae40\uc724\ucc44|Kim Yun-chae (\uae40\uc724\ucc44)"
+      },
+      "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1571.webp",
+      "iconZoom": 1.24,
+      "art": "../../Database/Prydwen/zzz/assets/characters/norma-f4dbe2ca9e48.webp",
+      "card": "../../Database/Prydwen/zzz/assets/characters/norma-37b562dcffd6.webp",
+      "signatureWeapon": {
+        "id": "14157",
+        "name": "Chief Sidekick",
+        "type": "Stun",
+        "educated": false
+      },
+      "signatureWeaponId": "14157",
+      "signatureWeaponName": "Chief Sidekick",
+      "status": "live",
+      "labels": [
+        "New"
+      ],
+      "r": "S",
+      "el": "Fire",
+      "spec": "Stun",
+      "tag": "External Strategy Department",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Engineering Insurance",
+                "type": "Basic",
+                "desc": "Press to activate:\nPerforms up to four attacks forward, dealing Fire DMG.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1st-Hit DMG Multiplier",
+                        "values": [
+                          "26.1%",
+                          "28.5%",
+                          "30.9%",
+                          "33.3%",
+                          "35.7%",
+                          "38.1%",
+                          "40.5%",
+                          "42.9%",
+                          "45.3%",
+                          "47.7%",
+                          "50.1%",
+                          "52.5%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit DMG Multiplier",
+                        "values": [
+                          "37.8%",
+                          "41.3%",
+                          "44.8%",
+                          "48.3%",
+                          "51.8%",
+                          "55.3%",
+                          "58.8%",
+                          "62.3%",
+                          "65.8%",
+                          "69.3%",
+                          "72.8%",
+                          "76.3%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit DMG Multiplier",
+                        "values": [
+                          "73.3%",
+                          "80%",
+                          "86.7%",
+                          "93.4%",
+                          "100.1%",
+                          "106.8%",
+                          "113.5%",
+                          "120.2%",
+                          "126.9%",
+                          "133.6%",
+                          "140.3%",
+                          "147%"
+                        ]
+                      },
+                      {
+                        "label": "4th-Hit DMG Multiplier",
+                        "values": [
+                          "140.9%",
+                          "153.8%",
+                          "166.7%",
+                          "179.6%",
+                          "192.5%",
+                          "205.4%",
+                          "218.3%",
+                          "231.2%",
+                          "244.1%",
+                          "257%",
+                          "269.9%",
+                          "282.8%"
+                        ]
+                      },
+                      {
+                        "label": "1st-Hit Daze Multiplier",
+                        "values": [
+                          "15.6%",
+                          "16.4%",
+                          "17.2%",
+                          "18%",
+                          "18.8%",
+                          "19.6%",
+                          "20.4%",
+                          "21.2%",
+                          "22%",
+                          "22.8%",
+                          "23.6%",
+                          "24.4%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit Daze Multiplier",
+                        "values": [
+                          "20.3%",
+                          "21.3%",
+                          "22.3%",
+                          "23.3%",
+                          "24.3%",
+                          "25.3%",
+                          "26.3%",
+                          "27.3%",
+                          "28.3%",
+                          "29.3%",
+                          "30.3%",
+                          "31.3%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit Daze Multiplier",
+                        "values": [
+                          "37.8%",
+                          "39.6%",
+                          "41.4%",
+                          "43.2%",
+                          "45%",
+                          "46.8%",
+                          "48.6%",
+                          "50.4%",
+                          "52.2%",
+                          "54%",
+                          "55.8%",
+                          "57.6%"
+                        ]
+                      },
+                      {
+                        "label": "4th-Hit Daze Multiplier",
+                        "values": [
+                          "88.3%",
+                          "92.4%",
+                          "96.5%",
+                          "100.6%",
+                          "104.7%",
+                          "108.8%",
+                          "112.9%",
+                          "117%",
+                          "121.1%",
+                          "125.2%",
+                          "129.3%",
+                          "133.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Basic Attack: Hat Trick",
+                "type": "Basic",
+                "desc": "When Norma is the active character and is in combat, she gains 1.5% Preheated Chamber per second.\nWhen Top Hat Companion is on her head, hold to activate:\nAfter firing, Norma throws out Top Hat Companion, ordering it to unleash a round of aerial fire, dealing Fire DMG and storing the current Preheated Chamber.\nWhen the skill hits an enemy, it triggers the previous character's Quick Assist. This effect can trigger once every 5s.\nOnce Top Hat Companion has been thrown out, it will accumulate and retain Preheated Chamber at the same speed on behalf of Norma. Norma does not need to stay on the field during this period.\nAfter Norma retrieves the Top Hat Companion, she immediately gains the stored Preheated Chamber.\nWhen holding , the Top Hat Companion will accelerate toward Norma.\nIf retrieving the Top Hat Companion would raise Preheated Chamber to 80% or higher, the Top Hat Companion will automatically accelerate toward Norma.\nWhen Norma switches from on field to off field while in combat, if Preheated Chamber is not full, Top Hat Companion automatically enters the battlefield.\nAnti-Interrupt level is increased while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "56.9%",
+                          "62.1%",
+                          "67.3%",
+                          "72.5%",
+                          "77.7%",
+                          "82.9%",
+                          "88.1%",
+                          "93.3%",
+                          "98.5%",
+                          "103.7%",
+                          "108.9%",
+                          "114.1%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "34%",
+                          "35.6%",
+                          "37.2%",
+                          "38.8%",
+                          "40.4%",
+                          "42%",
+                          "43.6%",
+                          "45.2%",
+                          "46.8%",
+                          "48.4%",
+                          "50%",
+                          "51.6%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Dodge: Development Protocols",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Deadline Rush",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nSpins while firing at nearby enemies, dealing Fire DMG.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "82.3%",
+                          "89.8%",
+                          "97.3%",
+                          "104.8%",
+                          "112.3%",
+                          "119.8%",
+                          "127.3%",
+                          "134.8%",
+                          "142.3%",
+                          "149.8%",
+                          "157.3%",
+                          "164.8%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "34.9%",
+                          "36.5%",
+                          "38.1%",
+                          "39.7%",
+                          "41.3%",
+                          "42.9%",
+                          "44.5%",
+                          "46.1%",
+                          "47.7%",
+                          "49.3%",
+                          "50.9%",
+                          "52.5%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Dodge Counter: Compliance Testing",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nCommands the Rumble Drill to continuously drill the target, dealing Fire DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "313.1%",
+                          "341.6%",
+                          "370.1%",
+                          "398.6%",
+                          "427.1%",
+                          "455.6%",
+                          "484.1%",
+                          "512.6%",
+                          "541.1%",
+                          "569.6%",
+                          "598.1%",
+                          "626.6%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "229.2%",
+                          "239.7%",
+                          "250.2%",
+                          "260.7%",
+                          "271.2%",
+                          "281.7%",
+                          "292.2%",
+                          "302.7%",
+                          "313.2%",
+                          "323.7%",
+                          "334.2%",
+                          "344.7%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Quick Assist: Roaring Backup",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nCommands the Rumble Drill to continuously attack the target, dealing Fire DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "70.5%",
+                          "77%",
+                          "83.5%",
+                          "90%",
+                          "96.5%",
+                          "103%",
+                          "109.5%",
+                          "116%",
+                          "122.5%",
+                          "129%",
+                          "135.5%",
+                          "142%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "59.6%",
+                          "62.4%",
+                          "65.2%",
+                          "68%",
+                          "70.8%",
+                          "73.6%",
+                          "76.4%",
+                          "79.2%",
+                          "82%",
+                          "84.8%",
+                          "87.6%",
+                          "90.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Defensive Assist: Technological Bastion",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of Assist Points when the character is under intense attacks.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Light Defensive Daze Multiplier",
+                        "values": [
+                          "271.3%",
+                          "283.7%",
+                          "296.1%",
+                          "308.5%",
+                          "320.9%",
+                          "333.3%",
+                          "345.7%",
+                          "358.1%",
+                          "370.5%",
+                          "382.9%",
+                          "395.3%",
+                          "407.7%"
+                        ]
+                      },
+                      {
+                        "label": "Heavy Defensive Daze Multiplier",
+                        "values": [
+                          "342.8%",
+                          "358.4%",
+                          "374%",
+                          "389.6%",
+                          "405.2%",
+                          "420.8%",
+                          "436.4%",
+                          "452%",
+                          "467.6%",
+                          "483.2%",
+                          "498.8%",
+                          "514.4%"
+                        ]
+                      },
+                      {
+                        "label": "Chain Defensive Daze Multiplier",
+                        "values": [
+                          "166.8%",
+                          "174.4%",
+                          "182%",
+                          "189.6%",
+                          "197.2%",
+                          "204.8%",
+                          "212.4%",
+                          "220%",
+                          "227.6%",
+                          "235.2%",
+                          "242.8%",
+                          "250.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Assist Follow-Up: Technological Suppression",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nUnleashes a series of attacks, dealing Fire DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "450.8%",
+                          "491.8%",
+                          "532.8%",
+                          "573.8%",
+                          "614.8%",
+                          "655.8%",
+                          "696.8%",
+                          "737.8%",
+                          "778.8%",
+                          "819.8%",
+                          "860.8%",
+                          "901.8%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "332.4%",
+                          "347.6%",
+                          "362.8%",
+                          "378%",
+                          "393.2%",
+                          "408.4%",
+                          "423.6%",
+                          "438.8%",
+                          "454%",
+                          "469.2%",
+                          "484.4%",
+                          "499.6%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Special Attack: Thermal Shutdown",
+                "type": "Special",
+                "desc": "Press to activate:\nBombards enemies, dealing Fire DMG.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "15%",
+                          "16.4%",
+                          "17.8%",
+                          "19.2%",
+                          "20.6%",
+                          "22%",
+                          "23.4%",
+                          "24.8%",
+                          "26.2%",
+                          "27.6%",
+                          "29%",
+                          "30.4%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "16.9%",
+                          "17.7%",
+                          "18.5%",
+                          "19.3%",
+                          "20.1%",
+                          "20.9%",
+                          "21.7%",
+                          "22.5%",
+                          "23.3%",
+                          "24.1%",
+                          "24.9%",
+                          "25.7%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "EX Special Attack: En-Nah Barrage",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nOperates the turret to fire continuously and launch different types of missiles based on the target's state:\nWhen the primary target is not Stunned, launches an Armor-Piercing Warhead, dealing Fire DMG and inflicting a large amount of Daze.\nWhen the primary target is Stunned, launches a High-Explosive Warhead, dealing greater Fire DMG.\nAfter using this skill, Norma gains 16% and enters the En-Nah Barrage state for 32s. While En-Nah Barrage is active, Norma deploys two En-Nah Turrets to join the battle.\nContinuing to hold extends the firing time by up to 2s, continuously consuming energy. For each 1 point of energy consumed while holding, Norma gains an additional 0.4% Preheated Chamber, and this round of En-Nah Barrage lasts 0.8s longer, up to a maximum additional duration of {CAL:2*20*0.8,1,2}s.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Shot DMG Multiplier",
+                        "values": [
+                          "205.4%",
+                          "224.1%",
+                          "242.8%",
+                          "261.5%",
+                          "280.2%",
+                          "298.9%",
+                          "317.6%",
+                          "336.3%",
+                          "355%",
+                          "373.7%",
+                          "392.4%",
+                          "411.1%"
+                        ]
+                      },
+                      {
+                        "label": "Shot Daze Multiplier",
+                        "values": [
+                          "143.9%",
+                          "150.5%",
+                          "157.1%",
+                          "163.7%",
+                          "170.3%",
+                          "176.9%",
+                          "183.5%",
+                          "190.1%",
+                          "196.7%",
+                          "203.3%",
+                          "209.9%",
+                          "216.5%"
+                        ]
+                      },
+                      {
+                        "label": "Armor-Piercing Warhead DMG Multiplier",
+                        "values": [
+                          "308%",
+                          "336%",
+                          "364%",
+                          "392%",
+                          "420%",
+                          "448%",
+                          "476%",
+                          "504%",
+                          "532%",
+                          "560%",
+                          "588%",
+                          "616%"
+                        ]
+                      },
+                      {
+                        "label": "Armor-Piercing Warhead Daze Multiplier",
+                        "values": [
+                          "215.8%",
+                          "225.7%",
+                          "235.6%",
+                          "245.5%",
+                          "255.4%",
+                          "265.3%",
+                          "275.2%",
+                          "285.1%",
+                          "295%",
+                          "304.9%",
+                          "314.8%",
+                          "324.7%"
+                        ]
+                      },
+                      {
+                        "label": "High-Explosive Warhead DMG Multiplier",
+                        "values": [
+                          "341.4%",
+                          "372.5%",
+                          "403.6%",
+                          "434.7%",
+                          "465.8%",
+                          "496.9%",
+                          "528%",
+                          "559.1%",
+                          "590.2%",
+                          "621.3%",
+                          "652.4%",
+                          "683.5%"
+                        ]
+                      },
+                      {
+                        "label": "High-Explosive Warhead Daze Multiplier",
+                        "values": [
+                          "172.7%",
+                          "180.6%",
+                          "188.5%",
+                          "196.4%",
+                          "204.3%",
+                          "212.2%",
+                          "220.1%",
+                          "228%",
+                          "235.9%",
+                          "243.8%",
+                          "251.7%",
+                          "259.6%"
+                        ]
+                      },
+                      {
+                        "label": "Extended Shot DMG Multiplier Per Sec",
+                        "values": [
+                          "130.6%",
+                          "142.5%",
+                          "154.4%",
+                          "166.3%",
+                          "178.2%",
+                          "190.1%",
+                          "202%",
+                          "213.9%",
+                          "225.8%",
+                          "237.7%",
+                          "249.6%",
+                          "261.5%"
+                        ]
+                      },
+                      {
+                        "label": "Extended Shot Daze Multiplier Per Sec",
+                        "values": [
+                          "93.9%",
+                          "98.2%",
+                          "102.5%",
+                          "106.8%",
+                          "111.1%",
+                          "115.4%",
+                          "119.7%",
+                          "124%",
+                          "128.3%",
+                          "132.6%",
+                          "136.9%",
+                          "141.2%"
+                        ]
+                      },
+                      {
+                        "label": "Extended Shot Armor-Piercing Warhead DMG Multiplier Per Sec",
+                        "values": [
+                          "195.9%",
+                          "213.8%",
+                          "231.7%",
+                          "249.6%",
+                          "267.5%",
+                          "285.4%",
+                          "303.3%",
+                          "321.2%",
+                          "339.1%",
+                          "357%",
+                          "374.9%",
+                          "392.8%"
+                        ]
+                      },
+                      {
+                        "label": "Extended Shot Armor-Piercing Warhead Daze Multiplier Per Sec",
+                        "values": [
+                          "140.9%",
+                          "147.4%",
+                          "153.9%",
+                          "160.4%",
+                          "166.9%",
+                          "173.4%",
+                          "179.9%",
+                          "186.4%",
+                          "192.9%",
+                          "199.4%",
+                          "205.9%",
+                          "212.4%"
+                        ]
+                      },
+                      {
+                        "label": "Extended Shot High-Explosive Warhead DMG Multiplier Per Sec",
+                        "values": [
+                          "216.7%",
+                          "236.4%",
+                          "256.1%",
+                          "275.8%",
+                          "295.5%",
+                          "315.2%",
+                          "334.9%",
+                          "354.6%",
+                          "374.3%",
+                          "394%",
+                          "413.7%",
+                          "433.4%"
+                        ]
+                      },
+                      {
+                        "label": "Extended Shot High-Explosive Warhead Daze Multiplier Per Sec",
+                        "values": [
+                          "112.7%",
+                          "117.9%",
+                          "123.1%",
+                          "128.3%",
+                          "133.5%",
+                          "138.7%",
+                          "143.9%",
+                          "149.1%",
+                          "154.3%",
+                          "159.5%",
+                          "164.7%",
+                          "169.9%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Special Attack: Target Practice",
+                "type": "Special",
+                "desc": "During battle, automatically attacks enemies, dealing Fire DMG.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "195%",
+                          "212.8%",
+                          "230.6%",
+                          "248.4%",
+                          "266.2%",
+                          "284%",
+                          "301.8%",
+                          "319.6%",
+                          "337.4%",
+                          "355.2%",
+                          "373%",
+                          "390.8%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "151.3%",
+                          "158.2%",
+                          "165.1%",
+                          "172%",
+                          "178.9%",
+                          "185.8%",
+                          "192.7%",
+                          "199.6%",
+                          "206.5%",
+                          "213.4%",
+                          "220.3%",
+                          "227.2%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "EX Special Attack: Explosive Experiment",
+                "type": "Special",
+                "desc": "When any squad member Stuns an enemy, or when Norma consumes to trigger a Chain Attack, deploys its missile bay for 8s. Repeated triggers reset the duration.\nDuring this time, En-Nah Turrets automatically attack more frequently. When performing automatic attacks, they launch different missiles based on the enemy's state:\nWhen the primary target is not Stunned, launch an Armor-Piercing Warhead, dealing Fire DMG and inflicting a large amount of Daze.\nWhen the primary target is Stunned, launch a High-Explosive Warhead, dealing greater Fire DMG.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Additional Armor-Piercing Warhead DMG Multiplier",
+                        "values": [
+                          "82.8%",
+                          "90.4%",
+                          "98%",
+                          "105.6%",
+                          "113.2%",
+                          "120.8%",
+                          "128.4%",
+                          "136%",
+                          "143.6%",
+                          "151.2%",
+                          "158.8%",
+                          "166.4%"
+                        ]
+                      },
+                      {
+                        "label": "Additional Armor-Piercing Warhead Daze Multiplier",
+                        "values": [
+                          "35%",
+                          "36.6%",
+                          "38.2%",
+                          "39.8%",
+                          "41.4%",
+                          "43%",
+                          "44.6%",
+                          "46.2%",
+                          "47.8%",
+                          "49.4%",
+                          "51%",
+                          "52.6%"
+                        ]
+                      },
+                      {
+                        "label": "Additional High-Explosive Warhead DMG Multiplier",
+                        "values": [
+                          "92.3%",
+                          "100.7%",
+                          "109.1%",
+                          "117.5%",
+                          "125.9%",
+                          "134.3%",
+                          "142.7%",
+                          "151.1%",
+                          "159.5%",
+                          "167.9%",
+                          "176.3%",
+                          "184.7%"
+                        ]
+                      },
+                      {
+                        "label": "Additional High-Explosive Warhead Daze Multiplier",
+                        "values": [
+                          "28%",
+                          "29.3%",
+                          "30.6%",
+                          "31.9%",
+                          "33.2%",
+                          "34.5%",
+                          "35.8%",
+                          "37.1%",
+                          "38.4%",
+                          "39.7%",
+                          "41%",
+                          "42.3%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Chain Attack: Impact Drill",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nCommands a swarm of Rumble Drills to deal multiple hits, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "752.7%",
+                          "821.2%",
+                          "889.7%",
+                          "958.2%",
+                          "1026.7%",
+                          "1095.2%",
+                          "1163.7%",
+                          "1232.2%",
+                          "1300.7%",
+                          "1369.2%",
+                          "1437.7%",
+                          "1506.2%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "198%",
+                          "207%",
+                          "216%",
+                          "225%",
+                          "234%",
+                          "243%",
+                          "252%",
+                          "261%",
+                          "270%",
+                          "279%",
+                          "288%",
+                          "297%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ultimate: Doctrine of Superior Firepower",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nCalls in tactical artillery to bombard enemies ahead, dealing massive Fire DMG.\nUpon activation, immediately gains 30% .\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "1936.5%",
+                          "2112.6%",
+                          "2288.7%",
+                          "2464.8%",
+                          "2640.9%",
+                          "2817%",
+                          "2993.1%",
+                          "3169.2%",
+                          "3345.3%",
+                          "3521.4%",
+                          "3697.5%",
+                          "3873.6%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "792.5%",
+                          "828.6%",
+                          "864.7%",
+                          "900.8%",
+                          "936.9%",
+                          "973%",
+                          "1009.1%",
+                          "1045.2%",
+                          "1081.3%",
+                          "1117.4%",
+                          "1153.5%",
+                          "1189.6%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Precise Guidance",
+                "type": "Core Passive",
+                "desc": "When initial CRIT Rate exceeds 50%, every additional 1% increases her CRIT DMG by 1.7%, up to a maximum increase of 85%.\nWhen initial CRIT Rate exceeds 50%, every additional 1% increases the Daze dealt by her EX Special Attack, Special Attack, and Ultimate by 0.8% when they hit an enemy, up to a maximum increase of 40%.\nNorma gains additional ATK based on her Sheer Force. Every 1 point of Sheer Force increases her ATK by 1.25, up to a maximum increase of 1,200 ATK.\nUpon entering the battlefield, Norma immediately gains 60% . In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen Preheated Chamber is at least 80%, the next Basic Attack: Hat Trick can trigger a Quick Assist regardless of cooldown, and consumes 80% Preheated Chamber to replace the Quick Assist with a Chain Attack.",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "When initial CRIT Rate exceeds 50%, every additional 1% increases her CRIT DMG by 0.86%, up to a maximum increase of 43%.\nWhen initial CRIT Rate exceeds 50%, every additional 1% increases the Daze dealt by her EX Special Attack, Special Attack, and Ultimate by 0.44% when they hit an enemy, up to a maximum increase of 22%.\nNorma gains additional ATK based on her Sheer Force. Every 1 point of Sheer Force increases her ATK by 1.25, up to a maximum increase of 1,200 ATK.\nUpon entering the battlefield, Norma immediately gains 60% . In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen Preheated Chamber is at least 80%, the next Basic Attack: Hat Trick can trigger a Quick Assist regardless of cooldown, and consumes 80% Preheated Chamber to replace the Quick Assist with a Chain Attack."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "When initial CRIT Rate exceeds 50%, every additional 1% increases her CRIT DMG by 1%, up to a maximum increase of 50%.\nWhen initial CRIT Rate exceeds 50%, every additional 1% increases the Daze dealt by her EX Special Attack, Special Attack, and Ultimate by 0.5% when they hit an enemy, up to a maximum increase of 25%.\nNorma gains additional ATK based on her Sheer Force. Every 1 point of Sheer Force increases her ATK by 1.25, up to a maximum increase of 1,200 ATK.\nUpon entering the battlefield, Norma immediately gains 60% . In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen Preheated Chamber is at least 80%, the next Basic Attack: Hat Trick can trigger a Quick Assist regardless of cooldown, and consumes 80% Preheated Chamber to replace the Quick Assist with a Chain Attack."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "When initial CRIT Rate exceeds 50%, every additional 1% increases her CRIT DMG by 1.14%, up to a maximum increase of 57%.\nWhen initial CRIT Rate exceeds 50%, every additional 1% increases the Daze dealt by her EX Special Attack, Special Attack, and Ultimate by 0.56% when they hit an enemy, up to a maximum increase of 28%.\nNorma gains additional ATK based on her Sheer Force. Every 1 point of Sheer Force increases her ATK by 1.25, up to a maximum increase of 1,200 ATK.\nUpon entering the battlefield, Norma immediately gains 60% . In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen Preheated Chamber is at least 80%, the next Basic Attack: Hat Trick can trigger a Quick Assist regardless of cooldown, and consumes 80% Preheated Chamber to replace the Quick Assist with a Chain Attack."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "When initial CRIT Rate exceeds 50%, every additional 1% increases her CRIT DMG by 1.28%, up to a maximum increase of 64%.\nWhen initial CRIT Rate exceeds 50%, every additional 1% increases the Daze dealt by her EX Special Attack, Special Attack, and Ultimate by 0.62% when they hit an enemy, up to a maximum increase of 31%.\nNorma gains additional ATK based on her Sheer Force. Every 1 point of Sheer Force increases her ATK by 1.25, up to a maximum increase of 1,200 ATK.\nUpon entering the battlefield, Norma immediately gains 60% . In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen Preheated Chamber is at least 80%, the next Basic Attack: Hat Trick can trigger a Quick Assist regardless of cooldown, and consumes 80% Preheated Chamber to replace the Quick Assist with a Chain Attack."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "When initial CRIT Rate exceeds 50%, every additional 1% increases her CRIT DMG by 1.42%, up to a maximum increase of 71%.\nWhen initial CRIT Rate exceeds 50%, every additional 1% increases the Daze dealt by her EX Special Attack, Special Attack, and Ultimate by 0.68% when they hit an enemy, up to a maximum increase of 34%.\nNorma gains additional ATK based on her Sheer Force. Every 1 point of Sheer Force increases her ATK by 1.25, up to a maximum increase of 1,200 ATK.\nUpon entering the battlefield, Norma immediately gains 60% . In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen Preheated Chamber is at least 80%, the next Basic Attack: Hat Trick can trigger a Quick Assist regardless of cooldown, and consumes 80% Preheated Chamber to replace the Quick Assist with a Chain Attack."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "When initial CRIT Rate exceeds 50%, every additional 1% increases her CRIT DMG by 1.56%, up to a maximum increase of 78%.\nWhen initial CRIT Rate exceeds 50%, every additional 1% increases the Daze dealt by her EX Special Attack, Special Attack, and Ultimate by 0.74% when they hit an enemy, up to a maximum increase of 37%.\nNorma gains additional ATK based on her Sheer Force. Every 1 point of Sheer Force increases her ATK by 1.25, up to a maximum increase of 1,200 ATK.\nUpon entering the battlefield, Norma immediately gains 60% . In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen Preheated Chamber is at least 80%, the next Basic Attack: Hat Trick can trigger a Quick Assist regardless of cooldown, and consumes 80% Preheated Chamber to replace the Quick Assist with a Chain Attack."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "When initial CRIT Rate exceeds 50%, every additional 1% increases her CRIT DMG by 1.7%, up to a maximum increase of 85%.\nWhen initial CRIT Rate exceeds 50%, every additional 1% increases the Daze dealt by her EX Special Attack, Special Attack, and Ultimate by 0.8% when they hit an enemy, up to a maximum increase of 40%.\nNorma gains additional ATK based on her Sheer Force. Every 1 point of Sheer Force increases her ATK by 1.25, up to a maximum increase of 1,200 ATK.\nUpon entering the battlefield, Norma immediately gains 60% . In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen Preheated Chamber is at least 80%, the next Basic Attack: Hat Trick can trigger a Quick Assist regardless of cooldown, and consumes 80% Preheated Chamber to replace the Quick Assist with a Chain Attack."
+                  }
+                ]
+              },
+              {
+                "name": "Additional Ability: Advantage in Numbers",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is an Attack or Rupture character, or shares the same Faction:\nWhen Norma, her creations, or Combat Bangboo hit an enemy, they apply 1 stack of Tech Divide. Each stack of Tech Divide increases the target's Stun DMG Multiplier by 3%, stacking up to 10 times. This effect can stack once every 0.5s.\nEnemies with Tech Divide stacks have their Stun duration increased by 2s upon becoming Stunned. This Stun duration increase cannot stack with similar effects. When an enemy affected by Tech Divide recovers from Stun, the Tech Divide effect ends.\nWhile is active, Norma's ATK increases by 44. This effect scales with character level, increasing by 14 per level, up to a maximum increase of 870.\nWhile En-Nah Barrage is active, DMG dealt by all squad members increases by 20%.",
+                "levels": []
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Visionary Extremism",
+                "type": "Mindscape 1",
+                "desc": "The duration of the En-Nah Turret's missile bay deployed by EX Special Attack: Explosive Experiment increases to 12s. When an Armor-Piercing Warhead or High-Explosive Warhead from any skill hits an enemy, the target's All-Attribute RES is reduced by 15% for 15s."
+              },
+              {
+                "name": "Axiom of Universal Unity",
+                "type": "Mindscape 2",
+                "desc": "The Stun DMG Multiplier granted by each stack of Tech Divide in Norma's Additional Ability: Advantage in Numbers is increased to 6%. When Norma uses Basic Attack: Hat Trick while in combat, she gains 25 Energy. This effect can trigger once every 20s."
+              },
+              {
+                "name": "Natural-Born Villain Paradox",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Bangboo Superiority Theory",
+                "type": "Mindscape 4",
+                "desc": "When Norma consumes Preheated Chamber to trigger a Chain Attack, both Norma and the corresponding Agent gain 200 Decibels."
+              },
+              {
+                "name": "En-Nah Big Bang",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "The Primary Cause of Genius",
+                "type": "Mindscape 6",
+                "desc": "After any squad member Stuns an enemy, Norma will continuously summon missiles to bombard random enemies on the field for 6s. A missile is launched every 0.75s, dealing Fire DMG equal to 200% of Norma's ATK to enemies within the area. This DMG is considered Ultimate DMG. Repeated triggers reset the duration. This effect can trigger once every 30s. The Daze inflicted by Armor-Piercing Warhead increases by 30%, and the DMG dealt by High-Explosive Warhead increases by 30%."
+              }
+            ]
+          }
+        ]
+      },
+      "req": {
+        "ascension": [
+          {
+            "id": "100212",
+            "name": "Basic Stun Certification Seal",
+            "qty": 4,
+            "rar": 1,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankStun01.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100222",
+            "name": "Advanced Stun Certification Seal",
+            "qty": 32,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankStun02.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100232",
+            "name": "Buster Certification Seal",
+            "qty": 30,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankStun03.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          }
+        ],
+        "talents": [
+          {
+            "id": "100111",
+            "name": "Basic Burn Chip",
+            "qty": 25,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100121",
+            "name": "Advanced Burn Chip",
+            "qty": 75,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100131",
+            "name": "Specialized Burn Chip",
+            "qty": 250,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100941",
+            "name": "Hamster Cage Pass",
+            "qty": 5,
+            "rar": 5,
+            "kind": "crown",
+            "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+            "source": "Event / New Eridu City Fund",
+            "sourceDetails": [
+              {
+                "name": "Event / New Eridu City Fund"
+              }
+            ]
+          },
+          {
+            "id": "110010",
+            "name": "Timeworn Husk",
+            "qty": 9,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+            "source": "Girtablullu",
+            "sourceDetails": [
+              {
+                "name": "Girtablullu",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
+              }
+            ]
+          },
+          {
+            "id": "110515",
+            "name": "Higher Dimensional Data: Deep Erosion Circuit",
+            "qty": 60,
+            "rar": 4,
+            "kind": "boss",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+            "source": "the Airspace Sentinel / Expert Challenge",
+            "sourceDetails": [
+              {
+                "name": "Airspace Sentinel",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
+              },
+              {
+                "name": "Expert Challenge"
+              }
+            ]
+          }
+        ],
+        "talentStages": [
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100111",
+                  "name": "Basic Burn Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100111",
+                  "name": "Basic Burn Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100111",
+                  "name": "Basic Burn Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100111",
+                  "name": "Basic Burn Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100111",
+                  "name": "Basic Burn Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100111",
+                  "name": "Basic Burn Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100111",
+                  "name": "Basic Burn Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100111",
+                  "name": "Basic Burn Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100111",
+                  "name": "Basic Burn Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100111",
+                  "name": "Basic Burn Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 5000,
+              "items": []
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "110515",
+                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "source": "the Airspace Sentinel / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Airspace Sentinel",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 28000,
+              "items": [
+                {
+                  "id": "110515",
+                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "source": "the Airspace Sentinel / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Airspace Sentinel",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 60000,
+              "items": [
+                {
+                  "id": "110010",
+                  "name": "Timeworn Husk",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+                  "source": "Girtablullu",
+                  "sourceDetails": [
+                    {
+                      "name": "Girtablullu",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110515",
+                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
+                  "qty": 9,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "source": "the Airspace Sentinel / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Airspace Sentinel",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 100000,
+              "items": [
+                {
+                  "id": "110010",
+                  "name": "Timeworn Husk",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+                  "source": "Girtablullu",
+                  "sourceDetails": [
+                    {
+                      "name": "Girtablullu",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110515",
+                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "source": "the Airspace Sentinel / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Airspace Sentinel",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 200000,
+              "items": [
+                {
+                  "id": "110010",
+                  "name": "Timeworn Husk",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+                  "source": "Girtablullu",
+                  "sourceDetails": [
+                    {
+                      "name": "Girtablullu",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110515",
+                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
+                  "qty": 30,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "source": "the Airspace Sentinel / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Airspace Sentinel",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        ],
+        "ascCost": 800000,
+        "talentCost": 2905000,
+        "currency": 4105000,
+        "weapon": {
+          "name": "Chief Sidekick",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1571.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1571.webp",
+          "items": [
+            {
+              "id": "101011",
+              "name": "Stun Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun01.webp"
+            },
+            {
+              "id": "101021",
+              "name": "Reinforced Stun Component",
+              "qty": 32,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun02.webp"
+            },
+            {
+              "id": "101031",
+              "name": "Specialized Stun Component",
+              "qty": 30,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankStun03.webp"
+            }
+          ],
+          "cost": 400000
+        }
+      },
+      "recent": 1
+    },
+    {
+      "id": "zzz-pyrois",
+      "n": "Pyrois",
+      "localizedNames": {
+        "en": "Pyrois",
+        "zh": "\u4f69\u6d1b\u4f0a\u65af",
+        "ja": "\u30d4\u30e5\u30ed\u30a4\u30b9",
+        "ko": "\ud53c\ub85c\uc774\uc2a4"
+      },
+      "slug": "pyrois",
+      "release": 1781654400000,
+      "releasePatch": "3.0",
+      "updated": 1783461600000,
+      "sourceOrder": 0,
+      "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1551.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/pyrois-4c5bdf76ba79.webp",
+      "card": "../../Database/Prydwen/zzz/assets/characters/pyrois-4b8909998042.webp",
+      "signatureWeapon": {
+        "id": "14155",
+        "name": "Sol Exuvia",
+        "type": "Attack",
+        "educated": false
+      },
+      "signatureWeaponId": "14155",
+      "signatureWeaponName": "Sol Exuvia",
+      "status": "live",
+      "labels": [],
+      "r": "S",
+      "el": "Ether",
+      "spec": "Attack",
+      "tag": "Unknown",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Emberglow",
+                "type": "Basic",
+                "desc": "Press to activate:\nPerforms up to three attacks forward, dealing Ether DMG.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1st-Hit DMG Multiplier",
+                        "values": [
+                          "45.6%",
+                          "49.8%",
+                          "54%",
+                          "58.2%",
+                          "62.4%",
+                          "66.6%",
+                          "70.8%",
+                          "75%",
+                          "79.2%",
+                          "83.4%",
+                          "87.6%",
+                          "91.8%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit DMG Multiplier",
+                        "values": [
+                          "64.1%",
+                          "70%",
+                          "75.9%",
+                          "81.8%",
+                          "87.7%",
+                          "93.6%",
+                          "99.5%",
+                          "105.4%",
+                          "111.3%",
+                          "117.2%",
+                          "123.1%",
+                          "129%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit DMG Multiplier",
+                        "values": [
+                          "276.3%",
+                          "301.5%",
+                          "326.7%",
+                          "351.9%",
+                          "377.1%",
+                          "402.3%",
+                          "427.5%",
+                          "452.7%",
+                          "477.9%",
+                          "503.1%",
+                          "528.3%",
+                          "553.5%"
+                        ]
+                      },
+                      {
+                        "label": "1st-Hit Daze Multiplier",
+                        "values": [
+                          "30.9%",
+                          "32.4%",
+                          "33.9%",
+                          "35.4%",
+                          "36.9%",
+                          "38.4%",
+                          "39.9%",
+                          "41.4%",
+                          "42.9%",
+                          "44.4%",
+                          "45.9%",
+                          "47.4%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit Daze Multiplier",
+                        "values": [
+                          "41.8%",
+                          "43.7%",
+                          "45.6%",
+                          "47.5%",
+                          "49.4%",
+                          "51.3%",
+                          "53.2%",
+                          "55.1%",
+                          "57%",
+                          "58.9%",
+                          "60.8%",
+                          "62.7%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit Daze Multiplier",
+                        "values": [
+                          "178.6%",
+                          "186.8%",
+                          "195%",
+                          "203.2%",
+                          "211.4%",
+                          "219.6%",
+                          "227.8%",
+                          "236%",
+                          "244.2%",
+                          "252.4%",
+                          "260.6%",
+                          "268.8%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Basic Attack: Celestial Light",
+                "type": "Basic",
+                "desc": "With 30 or more , hold to activate:\nUnleashes up to four attacks forward, dealing massive Ether DMG.\nIf another character is switched in during the 3rd hit, Pyrois automatically performs the 4th hit off-field.\nEach hit consumes a certain amount of Solar Prominence.\nCharacter is invulnerable during the 3rd and 4th hits.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1st-Hit DMG Multiplier",
+                        "values": [
+                          "107%",
+                          "116.8%",
+                          "126.6%",
+                          "136.4%",
+                          "146.2%",
+                          "156%",
+                          "165.8%",
+                          "175.6%",
+                          "185.4%",
+                          "195.2%",
+                          "205%",
+                          "214.8%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit DMG Multiplier",
+                        "values": [
+                          "143.8%",
+                          "156.9%",
+                          "170%",
+                          "183.1%",
+                          "196.2%",
+                          "209.3%",
+                          "222.4%",
+                          "235.5%",
+                          "248.6%",
+                          "261.7%",
+                          "274.8%",
+                          "287.9%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit DMG Multiplier",
+                        "values": [
+                          "549%",
+                          "599%",
+                          "649%",
+                          "699%",
+                          "749%",
+                          "799%",
+                          "849%",
+                          "899%",
+                          "949%",
+                          "999%",
+                          "1049%",
+                          "1099%"
+                        ]
+                      },
+                      {
+                        "label": "4th-Hit DMG Multiplier",
+                        "values": [
+                          "641%",
+                          "699.3%",
+                          "757.6%",
+                          "815.9%",
+                          "874.2%",
+                          "932.5%",
+                          "990.8%",
+                          "1049.1%",
+                          "1107.4%",
+                          "1165.7%",
+                          "1224%",
+                          "1282.3%"
+                        ]
+                      },
+                      {
+                        "label": "1st-Hit Daze Multiplier",
+                        "values": [
+                          "52.3%",
+                          "54.7%",
+                          "57.1%",
+                          "59.5%",
+                          "61.9%",
+                          "64.3%",
+                          "66.7%",
+                          "69.1%",
+                          "71.5%",
+                          "73.9%",
+                          "76.3%",
+                          "78.7%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit Daze Multiplier",
+                        "values": [
+                          "86.5%",
+                          "90.5%",
+                          "94.5%",
+                          "98.5%",
+                          "102.5%",
+                          "106.5%",
+                          "110.5%",
+                          "114.5%",
+                          "118.5%",
+                          "122.5%",
+                          "126.5%",
+                          "130.5%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit Daze Multiplier",
+                        "values": [
+                          "187%",
+                          "195.5%",
+                          "204%",
+                          "212.5%",
+                          "221%",
+                          "229.5%",
+                          "238%",
+                          "246.5%",
+                          "255%",
+                          "263.5%",
+                          "272%",
+                          "280.5%"
+                        ]
+                      },
+                      {
+                        "label": "4th-Hit Daze Multiplier",
+                        "values": [
+                          "138.2%",
+                          "144.5%",
+                          "150.8%",
+                          "157.1%",
+                          "163.4%",
+                          "169.7%",
+                          "176%",
+                          "182.3%",
+                          "188.6%",
+                          "194.9%",
+                          "201.2%",
+                          "207.5%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Dodge: Twilight",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Sunrise",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nDelivers a quick slash forward, dealing Ether DMG.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "95.3%",
+                          "104%",
+                          "112.7%",
+                          "121.4%",
+                          "130.1%",
+                          "138.8%",
+                          "147.5%",
+                          "156.2%",
+                          "164.9%",
+                          "173.6%",
+                          "182.3%",
+                          "191%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "40.4%",
+                          "42.3%",
+                          "44.2%",
+                          "46.1%",
+                          "48%",
+                          "49.9%",
+                          "51.8%",
+                          "53.7%",
+                          "55.6%",
+                          "57.5%",
+                          "59.4%",
+                          "61.3%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Dodge Counter: First Light",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nPerforms a forward spinning slash, dealing Ether DMG.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "228.7%",
+                          "249.5%",
+                          "270.3%",
+                          "291.1%",
+                          "311.9%",
+                          "332.7%",
+                          "353.5%",
+                          "374.3%",
+                          "395.1%",
+                          "415.9%",
+                          "436.7%",
+                          "457.5%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "174.3%",
+                          "182.3%",
+                          "190.3%",
+                          "198.3%",
+                          "206.3%",
+                          "214.3%",
+                          "222.3%",
+                          "230.3%",
+                          "238.3%",
+                          "246.3%",
+                          "254.3%",
+                          "262.3%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Quick Assist: Duskguard",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nLaunches a series of attacks against the target, dealing Ether DMG.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "41.2%",
+                          "45%",
+                          "48.8%",
+                          "52.6%",
+                          "56.4%",
+                          "60.2%",
+                          "64%",
+                          "67.8%",
+                          "71.6%",
+                          "75.4%",
+                          "79.2%",
+                          "83%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "34.9%",
+                          "36.5%",
+                          "38.1%",
+                          "39.7%",
+                          "41.3%",
+                          "42.9%",
+                          "44.5%",
+                          "46.1%",
+                          "47.7%",
+                          "49.3%",
+                          "50.9%",
+                          "52.5%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Defensive Assist: Ironhide Behemoth",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Light Defensive Daze Multiplier",
+                        "values": [
+                          "271.3%",
+                          "283.7%",
+                          "296.1%",
+                          "308.5%",
+                          "320.9%",
+                          "333.3%",
+                          "345.7%",
+                          "358.1%",
+                          "370.5%",
+                          "382.9%",
+                          "395.3%",
+                          "407.7%"
+                        ]
+                      },
+                      {
+                        "label": "Heavy Defensive Daze Multiplier",
+                        "values": [
+                          "342.8%",
+                          "358.4%",
+                          "374%",
+                          "389.6%",
+                          "405.2%",
+                          "420.8%",
+                          "436.4%",
+                          "452%",
+                          "467.6%",
+                          "483.2%",
+                          "498.8%",
+                          "514.4%"
+                        ]
+                      },
+                      {
+                        "label": "Chain Defensive Daze Multiplier",
+                        "values": [
+                          "166.8%",
+                          "174.4%",
+                          "182%",
+                          "189.6%",
+                          "197.2%",
+                          "204.8%",
+                          "212.4%",
+                          "220%",
+                          "227.6%",
+                          "235.2%",
+                          "242.8%",
+                          "250.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Assist Follow-Up: Return to Daylight",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nPerforms a forward thrust attack, dealing Ether DMG.\nAfter using the skill and with 30 or more , press or hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "338.6%",
+                          "369.4%",
+                          "400.2%",
+                          "431%",
+                          "461.8%",
+                          "492.6%",
+                          "523.4%",
+                          "554.2%",
+                          "585%",
+                          "615.8%",
+                          "646.6%",
+                          "677.4%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "244.2%",
+                          "255.3%",
+                          "266.4%",
+                          "277.5%",
+                          "288.6%",
+                          "299.7%",
+                          "310.8%",
+                          "321.9%",
+                          "333%",
+                          "344.1%",
+                          "355.2%",
+                          "366.3%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Special Attack: Fading Rays",
+                "type": "Special",
+                "desc": "Press to activate:\nPerforms a rush attack, dealing Ether DMG.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "52.1%",
+                          "56.9%",
+                          "61.7%",
+                          "66.5%",
+                          "71.3%",
+                          "76.1%",
+                          "80.9%",
+                          "85.7%",
+                          "90.5%",
+                          "95.3%",
+                          "100.1%",
+                          "104.9%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "44.1%",
+                          "46.2%",
+                          "48.3%",
+                          "50.4%",
+                          "52.5%",
+                          "54.6%",
+                          "56.7%",
+                          "58.8%",
+                          "60.9%",
+                          "63%",
+                          "65.1%",
+                          "67.2%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "EX Special Attack: Sun's Halo",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nQuickly charges forward and performs a series of consecutive attacks, dealing massive Ether DMG.\nIf hit by an enemy attack during the charge, triggers a Perfect Block effect, nullifying the damage and increasing the move's Interrupt Level to that of a Heavy Defensive Assist.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "737.4%",
+                          "804.5%",
+                          "871.6%",
+                          "938.7%",
+                          "1005.8%",
+                          "1072.9%",
+                          "1140%",
+                          "1207.1%",
+                          "1274.2%",
+                          "1341.3%",
+                          "1408.4%",
+                          "1475.5%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "433.6%",
+                          "453.4%",
+                          "473.2%",
+                          "493%",
+                          "512.8%",
+                          "532.6%",
+                          "552.4%",
+                          "572.2%",
+                          "592%",
+                          "611.8%",
+                          "631.6%",
+                          "651.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Special Attack: Assault Directive",
+                "type": "Special",
+                "desc": "When an Ultimate or EX Special Attack: Sun's Halo is used, Phaethon performs an assist attack, dealing Ether DMG. This effect can trigger once every 2.5s, and is guaranteed to trigger when using an Ultimate.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "82.8%",
+                          "90.4%",
+                          "98%",
+                          "105.6%",
+                          "113.2%",
+                          "120.8%",
+                          "128.4%",
+                          "136%",
+                          "143.6%",
+                          "151.2%",
+                          "158.8%",
+                          "166.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Chain Attack: Ceremonial March",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nPerforms a coordinated attack with Phaethon, dealing massive Ether DMG.\nAfter using the skill and with 30 or more , press or hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "1058.3%",
+                          "1154.6%",
+                          "1250.9%",
+                          "1347.2%",
+                          "1443.5%",
+                          "1539.8%",
+                          "1636.1%",
+                          "1732.4%",
+                          "1828.7%",
+                          "1925%",
+                          "2021.3%",
+                          "2117.6%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "291.6%",
+                          "304.9%",
+                          "318.2%",
+                          "331.5%",
+                          "344.8%",
+                          "358.1%",
+                          "371.4%",
+                          "384.7%",
+                          "398%",
+                          "411.3%",
+                          "424.6%",
+                          "437.9%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ultimate: Total Annihilation",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at or above Blasting, press and select the upper branch to activate:\nAfter charging, performs a downward slash, dealing massive Ether DMG.\nAfter using the skill and with 30 or more , press or hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "866.2%",
+                          "945%",
+                          "1023.8%",
+                          "1102.6%",
+                          "1181.4%",
+                          "1260.2%",
+                          "1339%",
+                          "1417.8%",
+                          "1496.6%",
+                          "1575.4%",
+                          "1654.2%",
+                          "1733%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "267.7%",
+                          "279.9%",
+                          "292.1%",
+                          "304.3%",
+                          "316.5%",
+                          "328.7%",
+                          "340.9%",
+                          "353.1%",
+                          "365.3%",
+                          "377.5%",
+                          "389.7%",
+                          "401.9%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ultimate: Triumphant Return",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at or above Blasting, press and select the lower branch to activate:\nReleases an energy burst in the surrounding area, dealing massive Ether DMG.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "535.7%",
+                          "584.4%",
+                          "633.1%",
+                          "681.8%",
+                          "730.5%",
+                          "779.2%",
+                          "827.9%",
+                          "876.6%",
+                          "925.3%",
+                          "974%",
+                          "1022.7%",
+                          "1071.4%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "126.6%",
+                          "132.4%",
+                          "138.2%",
+                          "144%",
+                          "149.8%",
+                          "155.6%",
+                          "161.4%",
+                          "167.2%",
+                          "173%",
+                          "178.8%",
+                          "184.6%",
+                          "190.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ultimate: Unbound Swordstorm",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at or above Blasting, press and select the left branch to activate:\nUnleashes consecutive attacks forward, dealing massive Ether DMG.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "973.3%",
+                          "1061.8%",
+                          "1150.3%",
+                          "1238.8%",
+                          "1327.3%",
+                          "1415.8%",
+                          "1504.3%",
+                          "1592.8%",
+                          "1681.3%",
+                          "1769.8%",
+                          "1858.3%",
+                          "1946.8%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "337.3%",
+                          "352.7%",
+                          "368.1%",
+                          "383.5%",
+                          "398.9%",
+                          "414.3%",
+                          "429.7%",
+                          "445.1%",
+                          "460.5%",
+                          "475.9%",
+                          "491.3%",
+                          "506.7%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ultimate: Eternal Imprisonment",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at or above Blasting, press and select the right branch to activate:\nGathers energy ahead before unleashing a Finishing Move, dealing massive Ether DMG.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "997%",
+                          "1087.7%",
+                          "1178.4%",
+                          "1269.1%",
+                          "1359.8%",
+                          "1450.5%",
+                          "1541.2%",
+                          "1631.9%",
+                          "1722.6%",
+                          "1813.3%",
+                          "1904%",
+                          "1994.7%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "251.3%",
+                          "262.8%",
+                          "274.3%",
+                          "285.8%",
+                          "297.3%",
+                          "308.8%",
+                          "320.3%",
+                          "331.8%",
+                          "343.3%",
+                          "354.8%",
+                          "366.3%",
+                          "377.8%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Radiant Chariot",
+                "type": "Core Passive",
+                "desc": "Upon entering battle, Pyrois gains 30 . This effect can trigger once every 180s in Investigation Zone mode. Landing different attacks on enemies grants a certain amount of Solar Prominence, and Pyrois also gains 0.5 Solar Prominence every second while in combat, up to a max of 60.\nWhen Pyrois uses different Ultimates, they gain the following effects:\nUpper Branch - Ultimate: Total Annihilation: Gain 30 Solar Prominence and enter the state. While in the Mirage state, Pyrois' Ultimate deals 40% increased CRIT DMG against Stunned enemies, and with 30 or more Solar Prominence hold during the 4th hit of Basic Attack: Celestial Light to immediately follow up with the 3rd hit of Basic Attack: Celestial Light. This effect lasts 21s. Repeated triggers reset the duration.\nLower Branch - Ultimate: Triumphant Return: Enter the state. While in the Sunflare state, Energy Generation Rate increases by 15%, and DMG dealt increases by 40%, and triggering a Perfect Block with an EX Special Attack grants 10 Solar Prominence. This effect lasts 200s. Repeated triggers reset the duration.\nLeft Branch - Ultimate: Unbound Swordstorm: Heavy attacks that hit enemies in the Contamination state deal 900% of ATK as additional DMG.\nRight Branch - Ultimate: Eternal Imprisonment: Heavy attacks that hit Stunned enemies trigger the effect, dealing 2,250% of ATK as additional DMG. Upon activating this skill, the Stun duration of all currently Stunned enemies is extended by 3s. When the Finishing Move hits, the enemy's Stun state ends.",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Upon entering battle, Pyrois gains 30 . This effect can trigger once every 180s in Investigation Zone mode. Landing different attacks on enemies grants a certain amount of Solar Prominence, and Pyrois also gains 0.5 Solar Prominence every second while in combat, up to a max of 60.\nWhen Pyrois uses different Ultimates, they gain the following effects:\nUpper Branch - Ultimate: Total Annihilation: Gain 30 Solar Prominence and enter the state. While in the Mirage state, Pyrois' Ultimate deals 40% increased CRIT DMG against Stunned enemies, and with 30 or more Solar Prominence hold during the 4th hit of Basic Attack: Celestial Light to immediately follow up with the 3rd hit of Basic Attack: Celestial Light. This effect lasts 21s. Repeated triggers reset the duration.\nLower Branch - Ultimate: Triumphant Return: Enter the state. While in the Sunflare state, Energy Generation Rate increases by 15%, and DMG dealt increases by 20%, and triggering a Perfect Block with an EX Special Attack grants 10 Solar Prominence. This effect lasts 200s. Repeated triggers reset the duration.\nLeft Branch - Ultimate: Unbound Swordstorm: Heavy attacks that hit enemies in the Contamination state deal 450% of ATK as additional DMG.\nRight Branch - Ultimate: Eternal Imprisonment: Heavy attacks that hit Stunned enemies trigger the effect, dealing 1,125% of ATK as additional DMG. Upon activating this skill, the Stun duration of all currently Stunned enemies is extended by 3s. When the Finishing Move hits, the enemy's Stun state ends."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Upon entering battle, Pyrois gains 30 . This effect can trigger once every 180s in Investigation Zone mode. Landing different attacks on enemies grants a certain amount of Solar Prominence, and Pyrois also gains 0.5 Solar Prominence every second while in combat, up to a max of 60.\nWhen Pyrois uses different Ultimates, they gain the following effects:\nUpper Branch - Ultimate: Total Annihilation: Gain 30 Solar Prominence and enter the state. While in the Mirage state, Pyrois' Ultimate deals 40% increased CRIT DMG against Stunned enemies, and with 30 or more Solar Prominence hold during the 4th hit of Basic Attack: Celestial Light to immediately follow up with the 3rd hit of Basic Attack: Celestial Light. This effect lasts 21s. Repeated triggers reset the duration.\nLower Branch - Ultimate: Triumphant Return: Enter the state. While in the Sunflare state, Energy Generation Rate increases by 15%, and DMG dealt increases by 23.4%, and triggering a Perfect Block with an EX Special Attack grants 10 Solar Prominence. This effect lasts 200s. Repeated triggers reset the duration.\nLeft Branch - Ultimate: Unbound Swordstorm: Heavy attacks that hit enemies in the Contamination state deal 525% of ATK as additional DMG.\nRight Branch - Ultimate: Eternal Imprisonment: Heavy attacks that hit Stunned enemies trigger the effect, dealing 1,312% of ATK as additional DMG. Upon activating this skill, the Stun duration of all currently Stunned enemies is extended by 3s. When the Finishing Move hits, the enemy's Stun state ends."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Upon entering battle, Pyrois gains 30 . This effect can trigger once every 180s in Investigation Zone mode. Landing different attacks on enemies grants a certain amount of Solar Prominence, and Pyrois also gains 0.5 Solar Prominence every second while in combat, up to a max of 60.\nWhen Pyrois uses different Ultimates, they gain the following effects:\nUpper Branch - Ultimate: Total Annihilation: Gain 30 Solar Prominence and enter the state. While in the Mirage state, Pyrois' Ultimate deals 40% increased CRIT DMG against Stunned enemies, and with 30 or more Solar Prominence hold during the 4th hit of Basic Attack: Celestial Light to immediately follow up with the 3rd hit of Basic Attack: Celestial Light. This effect lasts 21s. Repeated triggers reset the duration.\nLower Branch - Ultimate: Triumphant Return: Enter the state. While in the Sunflare state, Energy Generation Rate increases by 15%, and DMG dealt increases by 26.8%, and triggering a Perfect Block with an EX Special Attack grants 10 Solar Prominence. This effect lasts 200s. Repeated triggers reset the duration.\nLeft Branch - Ultimate: Unbound Swordstorm: Heavy attacks that hit enemies in the Contamination state deal 600% of ATK as additional DMG.\nRight Branch - Ultimate: Eternal Imprisonment: Heavy attacks that hit Stunned enemies trigger the effect, dealing 1,499% of ATK as additional DMG. Upon activating this skill, the Stun duration of all currently Stunned enemies is extended by 3s. When the Finishing Move hits, the enemy's Stun state ends."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Upon entering battle, Pyrois gains 30 . This effect can trigger once every 180s in Investigation Zone mode. Landing different attacks on enemies grants a certain amount of Solar Prominence, and Pyrois also gains 0.5 Solar Prominence every second while in combat, up to a max of 60.\nWhen Pyrois uses different Ultimates, they gain the following effects:\nUpper Branch - Ultimate: Total Annihilation: Gain 30 Solar Prominence and enter the state. While in the Mirage state, Pyrois' Ultimate deals 40% increased CRIT DMG against Stunned enemies, and with 30 or more Solar Prominence hold during the 4th hit of Basic Attack: Celestial Light to immediately follow up with the 3rd hit of Basic Attack: Celestial Light. This effect lasts 21s. Repeated triggers reset the duration.\nLower Branch - Ultimate: Triumphant Return: Enter the state. While in the Sunflare state, Energy Generation Rate increases by 15%, and DMG dealt increases by 30.2%, and triggering a Perfect Block with an EX Special Attack grants 10 Solar Prominence. This effect lasts 200s. Repeated triggers reset the duration.\nLeft Branch - Ultimate: Unbound Swordstorm: Heavy attacks that hit enemies in the Contamination state deal 675% of ATK as additional DMG.\nRight Branch - Ultimate: Eternal Imprisonment: Heavy attacks that hit Stunned enemies trigger the effect, dealing 1,686% of ATK as additional DMG. Upon activating this skill, the Stun duration of all currently Stunned enemies is extended by 3s. When the Finishing Move hits, the enemy's Stun state ends."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Upon entering battle, Pyrois gains 30 . This effect can trigger once every 180s in Investigation Zone mode. Landing different attacks on enemies grants a certain amount of Solar Prominence, and Pyrois also gains 0.5 Solar Prominence every second while in combat, up to a max of 60.\nWhen Pyrois uses different Ultimates, they gain the following effects:\nUpper Branch - Ultimate: Total Annihilation: Gain 30 Solar Prominence and enter the state. While in the Mirage state, Pyrois' Ultimate deals 40% increased CRIT DMG against Stunned enemies, and with 30 or more Solar Prominence hold during the 4th hit of Basic Attack: Celestial Light to immediately follow up with the 3rd hit of Basic Attack: Celestial Light. This effect lasts 21s. Repeated triggers reset the duration.\nLower Branch - Ultimate: Triumphant Return: Enter the state. While in the Sunflare state, Energy Generation Rate increases by 15%, and DMG dealt increases by 33.6%, and triggering a Perfect Block with an EX Special Attack grants 10 Solar Prominence. This effect lasts 200s. Repeated triggers reset the duration.\nLeft Branch - Ultimate: Unbound Swordstorm: Heavy attacks that hit enemies in the Contamination state deal 750% of ATK as additional DMG.\nRight Branch - Ultimate: Eternal Imprisonment: Heavy attacks that hit Stunned enemies trigger the effect, dealing 1,873% of ATK as additional DMG. Upon activating this skill, the Stun duration of all currently Stunned enemies is extended by 3s. When the Finishing Move hits, the enemy's Stun state ends."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Upon entering battle, Pyrois gains 30 . This effect can trigger once every 180s in Investigation Zone mode. Landing different attacks on enemies grants a certain amount of Solar Prominence, and Pyrois also gains 0.5 Solar Prominence every second while in combat, up to a max of 60.\nWhen Pyrois uses different Ultimates, they gain the following effects:\nUpper Branch - Ultimate: Total Annihilation: Gain 30 Solar Prominence and enter the state. While in the Mirage state, Pyrois' Ultimate deals 40% increased CRIT DMG against Stunned enemies, and with 30 or more Solar Prominence hold during the 4th hit of Basic Attack: Celestial Light to immediately follow up with the 3rd hit of Basic Attack: Celestial Light. This effect lasts 21s. Repeated triggers reset the duration.\nLower Branch - Ultimate: Triumphant Return: Enter the state. While in the Sunflare state, Energy Generation Rate increases by 15%, and DMG dealt increases by 37%, and triggering a Perfect Block with an EX Special Attack grants 10 Solar Prominence. This effect lasts 200s. Repeated triggers reset the duration.\nLeft Branch - Ultimate: Unbound Swordstorm: Heavy attacks that hit enemies in the Contamination state deal 825% of ATK as additional DMG.\nRight Branch - Ultimate: Eternal Imprisonment: Heavy attacks that hit Stunned enemies trigger the effect, dealing 2,060% of ATK as additional DMG. Upon activating this skill, the Stun duration of all currently Stunned enemies is extended by 3s. When the Finishing Move hits, the enemy's Stun state ends."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Upon entering battle, Pyrois gains 30 . This effect can trigger once every 180s in Investigation Zone mode. Landing different attacks on enemies grants a certain amount of Solar Prominence, and Pyrois also gains 0.5 Solar Prominence every second while in combat, up to a max of 60.\nWhen Pyrois uses different Ultimates, they gain the following effects:\nUpper Branch - Ultimate: Total Annihilation: Gain 30 Solar Prominence and enter the state. While in the Mirage state, Pyrois' Ultimate deals 40% increased CRIT DMG against Stunned enemies, and with 30 or more Solar Prominence hold during the 4th hit of Basic Attack: Celestial Light to immediately follow up with the 3rd hit of Basic Attack: Celestial Light. This effect lasts 21s. Repeated triggers reset the duration.\nLower Branch - Ultimate: Triumphant Return: Enter the state. While in the Sunflare state, Energy Generation Rate increases by 15%, and DMG dealt increases by 40%, and triggering a Perfect Block with an EX Special Attack grants 10 Solar Prominence. This effect lasts 200s. Repeated triggers reset the duration.\nLeft Branch - Ultimate: Unbound Swordstorm: Heavy attacks that hit enemies in the Contamination state deal 900% of ATK as additional DMG.\nRight Branch - Ultimate: Eternal Imprisonment: Heavy attacks that hit Stunned enemies trigger the effect, dealing 2,250% of ATK as additional DMG. Upon activating this skill, the Stun duration of all currently Stunned enemies is extended by 3s. When the Finishing Move hits, the enemy's Stun state ends."
+                  }
+                ]
+              },
+              {
+                "name": "Additional Ability: Glorious Legion",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is a Stun or Support character:\nPyrois' CRIT DMG increases by 40%.\nUsing a Chain Attack grants 300 Decibels.",
+                "levels": []
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Shadows of Twilight Past",
+                "type": "Mindscape 1",
+                "desc": "Upon entering the battlefield, Pyrois gains 1,000 Decibels. This effect can trigger once every 180s in Investigation Zone mode. CRIT Rate increases by 8%."
+              },
+              {
+                "name": "Blazing Cavalry",
+                "type": "Mindscape 2",
+                "desc": "Using Ultimate: Triumphant Return grants 1,500 Decibels. This effect can trigger once every 180s. Pyrois's Decibel limit increases by 1,000."
+              },
+              {
+                "name": "Chains of Fate",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Balefire Horizon",
+                "type": "Mindscape 4",
+                "desc": "Mindscape Effect Hidden"
+              },
+              {
+                "name": "Youthful Guardian",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Morning Star at Dawn",
+                "type": "Mindscape 6",
+                "desc": "Mindscape Effect Hidden"
+              }
+            ]
+          }
+        ]
+      },
+      "req": {
+        "ascension": [
+          {
+            "id": "100211",
+            "name": "Basic Attack Certification Seal",
+            "qty": 4,
+            "rar": 1,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankDamage01.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100221",
+            "name": "Advanced Attack Certification Seal",
+            "qty": 32,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankDamage02.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100231",
+            "name": "Pioneer's Certification Seal",
+            "qty": 30,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankDamage03.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          }
+        ],
+        "talents": [
+          {
+            "id": "100115",
+            "name": "Basic Ether Chip",
+            "qty": 25,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100125",
+            "name": "Advanced Ether Chip",
+            "qty": 75,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100135",
+            "name": "Specialized Ether Chip",
+            "qty": 250,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100941",
+            "name": "Hamster Cage Pass",
+            "qty": 5,
+            "rar": 5,
+            "kind": "crown",
+            "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+            "source": "Event / New Eridu City Fund",
+            "sourceDetails": [
+              {
+                "name": "Event / New Eridu City Fund"
+              }
+            ]
+          },
+          {
+            "id": "110010",
+            "name": "Timeworn Husk",
+            "qty": 9,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+            "source": "Girtablullu",
+            "sourceDetails": [
+              {
+                "name": "Girtablullu",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
+              }
+            ]
+          },
+          {
+            "id": "110515",
+            "name": "Higher Dimensional Data: Deep Erosion Circuit",
+            "qty": 60,
+            "rar": 4,
+            "kind": "boss",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+            "source": "the Airspace Sentinel / Expert Challenge",
+            "sourceDetails": [
+              {
+                "name": "Airspace Sentinel",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
+              },
+              {
+                "name": "Expert Challenge"
+              }
+            ]
+          }
+        ],
+        "talentStages": [
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100115",
+                  "name": "Basic Ether Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100115",
+                  "name": "Basic Ether Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100115",
+                  "name": "Basic Ether Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100115",
+                  "name": "Basic Ether Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100115",
+                  "name": "Basic Ether Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100115",
+                  "name": "Basic Ether Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100115",
+                  "name": "Basic Ether Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100115",
+                  "name": "Basic Ether Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100115",
+                  "name": "Basic Ether Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100115",
+                  "name": "Basic Ether Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100125",
+                  "name": "Advanced Ether Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100135",
+                  "name": "Specialized Ether Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 5000,
+              "items": []
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "110515",
+                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "source": "the Airspace Sentinel / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Airspace Sentinel",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 28000,
+              "items": [
+                {
+                  "id": "110515",
+                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "source": "the Airspace Sentinel / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Airspace Sentinel",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 60000,
+              "items": [
+                {
+                  "id": "110010",
+                  "name": "Timeworn Husk",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+                  "source": "Girtablullu",
+                  "sourceDetails": [
+                    {
+                      "name": "Girtablullu",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110515",
+                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
+                  "qty": 9,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "source": "the Airspace Sentinel / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Airspace Sentinel",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 100000,
+              "items": [
+                {
+                  "id": "110010",
+                  "name": "Timeworn Husk",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+                  "source": "Girtablullu",
+                  "sourceDetails": [
+                    {
+                      "name": "Girtablullu",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110515",
+                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "source": "the Airspace Sentinel / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Airspace Sentinel",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 200000,
+              "items": [
+                {
+                  "id": "110010",
+                  "name": "Timeworn Husk",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+                  "source": "Girtablullu",
+                  "sourceDetails": [
+                    {
+                      "name": "Girtablullu",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110515",
+                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
+                  "qty": 30,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "source": "the Airspace Sentinel / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Airspace Sentinel",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        ],
+        "ascCost": 800000,
+        "talentCost": 2905000,
+        "currency": 4105000,
+        "weapon": {
+          "name": "Sol Exuvia",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_Common_04.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_Common_04.webp",
+          "items": [
+            {
+              "id": "101010",
+              "name": "Attack Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
+            },
+            {
+              "id": "101020",
+              "name": "Reinforced Attack Component",
+              "qty": 32,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
+            },
+            {
+              "id": "101030",
+              "name": "Specialized Attack Component",
+              "qty": 30,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
+            }
+          ],
+          "cost": 400000
+        }
+      },
+      "recent": 1
+    },
+    {
+      "id": "zzz-velina",
+      "n": "Velina",
+      "localizedNames": {
+        "en": "Velina",
+        "zh": "\u7ef4\u7433\u5a1c",
+        "ja": "\u30f4\u30a7\u30ea\u30ca",
+        "ko": "\ubca8\ub9ac\ub098"
+      },
+      "title": "Beyond Etiquette",
+      "slug": "velina",
+      "release": 1781654400000,
+      "releasePatch": "3.0",
+      "updated": 1783461600000,
+      "sourceOrder": 0,
+      "voiceActors": {
+        "english": "imdb:nm5966262|Rhiannon Moushall",
+        "japanese": "Chiwa Sait\u014d|Sait\u014d Chiwa (\u658e\u85e4 \u5343\u548c)",
+        "chinese": "https://zh.moegirl.org.cn/\u5f20\u5b89\u742a|Zhang Anqi (\u5f20\u5b89\u742a)",
+        "korean": "ko:\uc2e0\uc628\uc720|Shin On-yu (\uc2e0\uc628\uc720)"
+      },
+      "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1561.webp",
+      "iconZoom": 1.24,
+      "art": "../../Database/Prydwen/zzz/assets/characters/velina-542b0a87d52a.webp",
+      "card": "../../Database/Prydwen/zzz/assets/characters/velina-4d32c038d75f.webp",
+      "signatureWeapon": {
+        "id": "14156",
+        "name": "Joyau Dore",
+        "type": "Anomaly",
+        "educated": false
+      },
+      "signatureWeaponId": "14156",
+      "signatureWeaponName": "Joyau Dore",
+      "status": "live",
+      "labels": [],
+      "r": "S",
+      "el": "Wind",
+      "spec": "Anomaly",
+      "tag": "External Strategy Department",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Dancing Fans",
+                "type": "Basic",
+                "desc": "Press to activate:\nLaunches up to five attacks against enemies ahead, dealing Wind DMG.\nDuring the 5th attack, Velina's Anti-Interrupt Level increases, and DMG taken is reduced by 40%.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1st-Hit DMG Multiplier",
+                        "values": [
+                          "51.7%",
+                          "56.4%",
+                          "61.1%",
+                          "65.8%",
+                          "70.5%",
+                          "75.2%",
+                          "79.9%",
+                          "84.6%",
+                          "89.3%",
+                          "94%",
+                          "98.7%",
+                          "103.4%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit DMG Multiplier",
+                        "values": [
+                          "48.9%",
+                          "53.4%",
+                          "57.9%",
+                          "62.4%",
+                          "66.9%",
+                          "71.4%",
+                          "75.9%",
+                          "80.4%",
+                          "84.9%",
+                          "89.4%",
+                          "93.9%",
+                          "98.4%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit DMG Multiplier",
+                        "values": [
+                          "169.1%",
+                          "184.5%",
+                          "199.9%",
+                          "215.3%",
+                          "230.7%",
+                          "246.1%",
+                          "261.5%",
+                          "276.9%",
+                          "292.3%",
+                          "307.7%",
+                          "323.1%",
+                          "338.5%"
+                        ]
+                      },
+                      {
+                        "label": "4th-Hit DMG Multiplier",
+                        "values": [
+                          "125.6%",
+                          "137.1%",
+                          "148.6%",
+                          "160.1%",
+                          "171.6%",
+                          "183.1%",
+                          "194.6%",
+                          "206.1%",
+                          "217.6%",
+                          "229.1%",
+                          "240.6%",
+                          "252.1%"
+                        ]
+                      },
+                      {
+                        "label": "5th-Hit DMG Multiplier",
+                        "values": [
+                          "229.6%",
+                          "250.5%",
+                          "271.4%",
+                          "292.3%",
+                          "313.2%",
+                          "334.1%",
+                          "355%",
+                          "375.9%",
+                          "396.8%",
+                          "417.7%",
+                          "438.6%",
+                          "459.5%"
+                        ]
+                      },
+                      {
+                        "label": "1st-Hit Daze Multiplier",
+                        "values": [
+                          "23.6%",
+                          "24.7%",
+                          "25.8%",
+                          "26.9%",
+                          "28%",
+                          "29.1%",
+                          "30.2%",
+                          "31.3%",
+                          "32.4%",
+                          "33.5%",
+                          "34.6%",
+                          "35.7%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit Daze Multiplier",
+                        "values": [
+                          "23.5%",
+                          "24.6%",
+                          "25.7%",
+                          "26.8%",
+                          "27.9%",
+                          "29%",
+                          "30.1%",
+                          "31.2%",
+                          "32.3%",
+                          "33.4%",
+                          "34.5%",
+                          "35.6%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit Daze Multiplier",
+                        "values": [
+                          "80.5%",
+                          "84.2%",
+                          "87.9%",
+                          "91.6%",
+                          "95.3%",
+                          "99%",
+                          "102.7%",
+                          "106.4%",
+                          "110.1%",
+                          "113.8%",
+                          "117.5%",
+                          "121.2%"
+                        ]
+                      },
+                      {
+                        "label": "4th-Hit Daze Multiplier",
+                        "values": [
+                          "62.9%",
+                          "65.8%",
+                          "68.7%",
+                          "71.6%",
+                          "74.5%",
+                          "77.4%",
+                          "80.3%",
+                          "83.2%",
+                          "86.1%",
+                          "89%",
+                          "91.9%",
+                          "94.8%"
+                        ]
+                      },
+                      {
+                        "label": "5th-Hit Daze Multiplier",
+                        "values": [
+                          "112.7%",
+                          "117.9%",
+                          "123.1%",
+                          "128.3%",
+                          "133.5%",
+                          "138.7%",
+                          "143.9%",
+                          "149.1%",
+                          "154.3%",
+                          "159.5%",
+                          "164.7%",
+                          "169.9%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Dodge: Windward Sweep",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Gale Step",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nDelivers a quick attack forward, dealing Wind DMG.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "99.7%",
+                          "108.8%",
+                          "117.9%",
+                          "127%",
+                          "136.1%",
+                          "145.2%",
+                          "154.3%",
+                          "163.4%",
+                          "172.5%",
+                          "181.6%",
+                          "190.7%",
+                          "199.8%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "42.2%",
+                          "44.2%",
+                          "46.2%",
+                          "48.2%",
+                          "50.2%",
+                          "52.2%",
+                          "54.2%",
+                          "56.2%",
+                          "58.2%",
+                          "60.2%",
+                          "62.2%",
+                          "64.2%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Dodge Counter: Cloudrend",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nLaunches a series of attacks on the target, dealing Wind DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "394.9%",
+                          "430.8%",
+                          "466.7%",
+                          "502.6%",
+                          "538.5%",
+                          "574.4%",
+                          "610.3%",
+                          "646.2%",
+                          "682.1%",
+                          "718%",
+                          "753.9%",
+                          "789.8%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "282.4%",
+                          "295.3%",
+                          "308.2%",
+                          "321.1%",
+                          "334%",
+                          "346.9%",
+                          "359.8%",
+                          "372.7%",
+                          "385.6%",
+                          "398.5%",
+                          "411.4%",
+                          "424.3%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Quick Assist: Emergency Protocol",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nUnleashes consecutive attacks against the target, dealing Wind DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "203.8%",
+                          "222.4%",
+                          "241%",
+                          "259.6%",
+                          "278.2%",
+                          "296.8%",
+                          "315.4%",
+                          "334%",
+                          "352.6%",
+                          "371.2%",
+                          "389.8%",
+                          "408.4%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "86.2%",
+                          "90.2%",
+                          "94.2%",
+                          "98.2%",
+                          "102.2%",
+                          "106.2%",
+                          "110.2%",
+                          "114.2%",
+                          "118.2%",
+                          "122.2%",
+                          "126.2%",
+                          "130.2%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Defensive Assist: Judicious Intervention",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Light Defensive Daze Multiplier",
+                        "values": [
+                          "271.3%",
+                          "283.7%",
+                          "296.1%",
+                          "308.5%",
+                          "320.9%",
+                          "333.3%",
+                          "345.7%",
+                          "358.1%",
+                          "370.5%",
+                          "382.9%",
+                          "395.3%",
+                          "407.7%"
+                        ]
+                      },
+                      {
+                        "label": "Heavy Defensive Daze Multiplier",
+                        "values": [
+                          "342.8%",
+                          "358.4%",
+                          "374%",
+                          "389.6%",
+                          "405.2%",
+                          "420.8%",
+                          "436.4%",
+                          "452%",
+                          "467.6%",
+                          "483.2%",
+                          "498.8%",
+                          "514.4%"
+                        ]
+                      },
+                      {
+                        "label": "Chain Defensive Daze Multiplier",
+                        "values": [
+                          "166.8%",
+                          "174.4%",
+                          "182%",
+                          "189.6%",
+                          "197.2%",
+                          "204.8%",
+                          "212.4%",
+                          "220%",
+                          "227.6%",
+                          "235.2%",
+                          "242.8%",
+                          "250.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Assist Follow-Up: Negotiation Techniques",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nUnleashes a series of attacks, dealing Wind DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "532.7%",
+                          "581.2%",
+                          "629.7%",
+                          "678.2%",
+                          "726.7%",
+                          "775.2%",
+                          "823.7%",
+                          "872.2%",
+                          "920.7%",
+                          "969.2%",
+                          "1017.7%",
+                          "1066.2%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "396.7%",
+                          "414.8%",
+                          "432.9%",
+                          "451%",
+                          "469.1%",
+                          "487.2%",
+                          "505.3%",
+                          "523.4%",
+                          "541.5%",
+                          "559.6%",
+                          "577.7%",
+                          "595.8%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Special Attack: Wind Shear - Purging Surge",
+                "type": "Special",
+                "desc": "Press to activate:\nUnleashes a sweeping gust forward, dealing Wind DMG.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "58.6%",
+                          "64%",
+                          "69.4%",
+                          "74.8%",
+                          "80.2%",
+                          "85.6%",
+                          "91%",
+                          "96.4%",
+                          "101.8%",
+                          "107.2%",
+                          "112.6%",
+                          "118%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "49.6%",
+                          "51.9%",
+                          "54.2%",
+                          "56.5%",
+                          "58.8%",
+                          "61.1%",
+                          "63.4%",
+                          "65.7%",
+                          "68%",
+                          "70.3%",
+                          "72.6%",
+                          "74.9%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "EX Special Attack: Wind Shear - Purifying Rise",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nDodges backward, then unleashes a massive wind blast to attack enemies, dealing Wind DMG.\nDuring the backward dodge, a dodge effect is active. Successfully dodging an enemy attack triggers Vital View.\nAfter using this skill, press to chain into the 5th hit of the Basic Attack.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "440.5%",
+                          "480.6%",
+                          "520.7%",
+                          "560.8%",
+                          "600.9%",
+                          "641%",
+                          "681.1%",
+                          "721.2%",
+                          "761.3%",
+                          "801.4%",
+                          "841.5%",
+                          "881.6%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "302.5%",
+                          "316.3%",
+                          "330.1%",
+                          "343.9%",
+                          "357.7%",
+                          "371.5%",
+                          "385.3%",
+                          "399.1%",
+                          "412.9%",
+                          "426.7%",
+                          "440.5%",
+                          "454.3%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "EX Special Attack: Wind Shear - Triple Deathblow",
+                "type": "Special",
+                "desc": "With enough energy and after using EX Special Attack: Wind Shear - Purifying Rise, press or hold to activate:\nContinuously swings the fan, dealing Wind DMG.\nAfter using this skill, press to chain into the 5th hit of the Basic Attack.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "725.2%",
+                          "791.2%",
+                          "857.2%",
+                          "923.2%",
+                          "989.2%",
+                          "1055.2%",
+                          "1121.2%",
+                          "1187.2%",
+                          "1253.2%",
+                          "1319.2%",
+                          "1385.2%",
+                          "1451.2%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "515.2%",
+                          "538.7%",
+                          "562.2%",
+                          "585.7%",
+                          "609.2%",
+                          "632.7%",
+                          "656.2%",
+                          "679.7%",
+                          "703.2%",
+                          "726.7%",
+                          "750.2%",
+                          "773.7%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "EX Special Attack: Wind Shear - Eye of the Storm",
+                "type": "Special",
+                "desc": "With 90 or more , hold or to activate:\nVelina channels a whirlwind and summons a to continuously attack enemies and triggers the previous character's Quick Assist.\nSweeping Cyclone lasts for 5s and deals Wind DMG to nearby enemies once every 0.5s.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "216.7%",
+                          "236.4%",
+                          "256.1%",
+                          "275.8%",
+                          "295.5%",
+                          "315.2%",
+                          "334.9%",
+                          "354.6%",
+                          "374.3%",
+                          "394%",
+                          "413.7%",
+                          "433.4%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "183.4%",
+                          "191.8%",
+                          "200.2%",
+                          "208.6%",
+                          "217%",
+                          "225.4%",
+                          "233.8%",
+                          "242.2%",
+                          "250.6%",
+                          "259%",
+                          "267.4%",
+                          "275.8%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Sweeping Cyclone",
+                "type": "Special",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Sweeping Cyclone Wind Attribute Single-Hit DMG Multiplier",
+                        "values": [
+                          "39%",
+                          "42.6%",
+                          "46.2%",
+                          "49.8%",
+                          "53.4%",
+                          "57%",
+                          "60.6%",
+                          "64.2%",
+                          "67.8%",
+                          "71.4%",
+                          "75%",
+                          "78.6%"
+                        ]
+                      },
+                      {
+                        "label": "Sweeping Cyclone Wind Attribute Single-Hit Daze Multiplier",
+                        "values": [
+                          "82.5%",
+                          "86.3%",
+                          "90.1%",
+                          "93.9%",
+                          "97.7%",
+                          "101.5%",
+                          "105.3%",
+                          "109.1%",
+                          "112.9%",
+                          "116.7%",
+                          "120.5%",
+                          "124.3%"
+                        ]
+                      },
+                      {
+                        "label": "Sweeping Cyclone Attribute-Converted Single-Hit DMG Multiplier",
+                        "values": [
+                          "97.5%",
+                          "106.4%",
+                          "115.3%",
+                          "124.2%",
+                          "133.1%",
+                          "142%",
+                          "150.9%",
+                          "159.8%",
+                          "168.7%",
+                          "177.6%",
+                          "186.5%",
+                          "195.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Condensed Cyclone",
+                "type": "Special",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "32.5%",
+                          "35.5%",
+                          "38.5%",
+                          "41.5%",
+                          "44.5%",
+                          "47.5%",
+                          "50.5%",
+                          "53.5%",
+                          "56.5%",
+                          "59.5%",
+                          "62.5%",
+                          "65.5%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "137.5%",
+                          "143.8%",
+                          "150.1%",
+                          "156.4%",
+                          "162.7%",
+                          "169%",
+                          "175.3%",
+                          "181.6%",
+                          "187.9%",
+                          "194.2%",
+                          "200.5%",
+                          "206.8%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Chain Attack: Thousandfold Spiral",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nTransforms into a hurricane to unleash multiple attacks against enemies, followed by a Finishing Move, dealing massive Wind DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "800.4%",
+                          "873.2%",
+                          "946%",
+                          "1018.8%",
+                          "1091.6%",
+                          "1164.4%",
+                          "1237.2%",
+                          "1310%",
+                          "1382.8%",
+                          "1455.6%",
+                          "1528.4%",
+                          "1601.2%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "238.4%",
+                          "249.3%",
+                          "260.2%",
+                          "271.1%",
+                          "282%",
+                          "292.9%",
+                          "303.8%",
+                          "314.7%",
+                          "325.6%",
+                          "336.5%",
+                          "347.4%",
+                          "358.3%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ultimate: Heed the Tempest",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nUnleashes multiple attacks against enemies ahead, dealing massive Wind DMG.\nAfter using this skill, the previous character's Quick Assist is triggered.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "2188.3%",
+                          "2387.3%",
+                          "2586.3%",
+                          "2785.3%",
+                          "2984.3%",
+                          "3183.3%",
+                          "3382.3%",
+                          "3581.3%",
+                          "3780.3%",
+                          "3979.3%",
+                          "4178.3%",
+                          "4377.3%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "381.3%",
+                          "398.7%",
+                          "416.1%",
+                          "433.5%",
+                          "450.9%",
+                          "468.3%",
+                          "485.7%",
+                          "503.1%",
+                          "520.5%",
+                          "537.9%",
+                          "555.3%",
+                          "572.7%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Breeze in Bloom",
+                "type": "Core Passive",
+                "desc": "When Velina's initial Energy Regen exceeds 1.2, every additional 0.01 increases DMG dealt by 0.21%, up to a maximum increase of 35%, and increases Anomaly Mastery by 0.5, up to a maximum increase of 84.\nWhen Velina enters the battlefield, she gains 45 . In Investigation Zone mode, this effect can trigger once every 180s. Using EX Special Attack: Wind Shear - Purifying Rise or EX Special Attack: Wind Shear - Triple Deathblow grants 45 Windbloom, up to a maximum of 135 Windbloom.\nWhen Velina triggers Vortex, she gains 1 point of and summons a , dealing Wind DMG. This effect can trigger once every 3s. When Velina has 2 points of Windbite, the next time she triggers Vortex, 2 points of Windbite are consumed to increase that Vortex's DMG Multiplier by 150%. In addition, a is summoned instead of a Condensed Cyclone, which does not grant Windbite.\nWhen Velina's summoned Sweeping Cyclone hits an enemy suffering Contamination for the first time, it triggers , converting it into a Sweeping Cyclone of the corresponding attribute, dealing the corresponding attribute's DMG. When Sweeping Cyclone hits an enemy, the enemy's Wind Anomaly Buildup RES is reduced by 7% for 35s. Repeated triggers reset the duration. If a Sweeping Cyclone enhanced by Chromatic Tint hits an enemy, the enemy's corresponding Attribute Anomaly Buildup RES is also reduced by 7% for 35s. Repeated triggers reset the duration.\nWhen an enemy affected by Sweeping Cyclone is defeated, the duration of that Sweeping Cyclone is extended by 5s. This effect can only trigger once for the same Sweeping Cyclone, and only one Sweeping Cyclone can exist at a time.\nCondensed Cyclone and Sweeping Cyclone trigger an explosion when they dissipate. If this explosion hits an enemy suffering a Wind Anomaly, it triggers one instance of Abloom DMG against the target: resolves an additional instance of Attribute Anomaly DMG, dealing a fixed 145% and 255% multiplier Wind Anomaly DMG respectively.",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "When Velina's initial Energy Regen exceeds 1.2, every additional 0.01 increases DMG dealt by 0.21%, up to a maximum increase of 35%, and increases Anomaly Mastery by 0.5, up to a maximum increase of 84.\nWhen Velina enters the battlefield, she gains 45 . In Investigation Zone mode, this effect can trigger once every 180s. Using EX Special Attack: Wind Shear - Purifying Rise or EX Special Attack: Wind Shear - Triple Deathblow grants 45 Windbloom, up to a maximum of 135 Windbloom.\nWhen Velina triggers Vortex, she gains 1 point of and summons a , dealing Wind DMG. This effect can trigger once every 3s. When Velina has 2 points of Windbite, the next time she triggers Vortex, 2 points of Windbite are consumed to increase that Vortex's DMG Multiplier by 90%. In addition, a is summoned instead of a Condensed Cyclone, which does not grant Windbite.\nWhen Velina's summoned Sweeping Cyclone hits an enemy suffering Contamination for the first time, it triggers , converting it into a Sweeping Cyclone of the corresponding attribute, dealing the corresponding attribute's DMG. When Sweeping Cyclone hits an enemy, the enemy's Wind Anomaly Buildup RES is reduced by 7% for 35s. Repeated triggers reset the duration. If a Sweeping Cyclone enhanced by Chromatic Tint hits an enemy, the enemy's corresponding Attribute Anomaly Buildup RES is also reduced by 7% for 35s. Repeated triggers reset the duration.\nWhen an enemy affected by Sweeping Cyclone is defeated, the duration of that Sweeping Cyclone is extended by 5s. This effect can only trigger once for the same Sweeping Cyclone, and only one Sweeping Cyclone can exist at a time.\nCondensed Cyclone and Sweeping Cyclone trigger an explosion when they dissipate. If this explosion hits an enemy suffering a Wind Anomaly, it triggers one instance of Abloom DMG against the target: resolves an additional instance of Attribute Anomaly DMG, dealing a fixed 85% and 135% multiplier Wind Anomaly DMG respectively."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "When Velina's initial Energy Regen exceeds 1.2, every additional 0.01 increases DMG dealt by 0.21%, up to a maximum increase of 35%, and increases Anomaly Mastery by 0.5, up to a maximum increase of 84.\nWhen Velina enters the battlefield, she gains 45 . In Investigation Zone mode, this effect can trigger once every 180s. Using EX Special Attack: Wind Shear - Purifying Rise or EX Special Attack: Wind Shear - Triple Deathblow grants 45 Windbloom, up to a maximum of 135 Windbloom.\nWhen Velina triggers Vortex, she gains 1 point of and summons a , dealing Wind DMG. This effect can trigger once every 3s. When Velina has 2 points of Windbite, the next time she triggers Vortex, 2 points of Windbite are consumed to increase that Vortex's DMG Multiplier by 100%. In addition, a is summoned instead of a Condensed Cyclone, which does not grant Windbite.\nWhen Velina's summoned Sweeping Cyclone hits an enemy suffering Contamination for the first time, it triggers , converting it into a Sweeping Cyclone of the corresponding attribute, dealing the corresponding attribute's DMG. When Sweeping Cyclone hits an enemy, the enemy's Wind Anomaly Buildup RES is reduced by 7% for 35s. Repeated triggers reset the duration. If a Sweeping Cyclone enhanced by Chromatic Tint hits an enemy, the enemy's corresponding Attribute Anomaly Buildup RES is also reduced by 7% for 35s. Repeated triggers reset the duration.\nWhen an enemy affected by Sweeping Cyclone is defeated, the duration of that Sweeping Cyclone is extended by 5s. This effect can only trigger once for the same Sweeping Cyclone, and only one Sweeping Cyclone can exist at a time.\nCondensed Cyclone and Sweeping Cyclone trigger an explosion when they dissipate. If this explosion hits an enemy suffering a Wind Anomaly, it triggers one instance of Abloom DMG against the target: resolves an additional instance of Attribute Anomaly DMG, dealing a fixed 95% and 155% multiplier Wind Anomaly DMG respectively."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "When Velina's initial Energy Regen exceeds 1.2, every additional 0.01 increases DMG dealt by 0.21%, up to a maximum increase of 35%, and increases Anomaly Mastery by 0.5, up to a maximum increase of 84.\nWhen Velina enters the battlefield, she gains 45 . In Investigation Zone mode, this effect can trigger once every 180s. Using EX Special Attack: Wind Shear - Purifying Rise or EX Special Attack: Wind Shear - Triple Deathblow grants 45 Windbloom, up to a maximum of 135 Windbloom.\nWhen Velina triggers Vortex, she gains 1 point of and summons a , dealing Wind DMG. This effect can trigger once every 3s. When Velina has 2 points of Windbite, the next time she triggers Vortex, 2 points of Windbite are consumed to increase that Vortex's DMG Multiplier by 110%. In addition, a is summoned instead of a Condensed Cyclone, which does not grant Windbite.\nWhen Velina's summoned Sweeping Cyclone hits an enemy suffering Contamination for the first time, it triggers , converting it into a Sweeping Cyclone of the corresponding attribute, dealing the corresponding attribute's DMG. When Sweeping Cyclone hits an enemy, the enemy's Wind Anomaly Buildup RES is reduced by 7% for 35s. Repeated triggers reset the duration. If a Sweeping Cyclone enhanced by Chromatic Tint hits an enemy, the enemy's corresponding Attribute Anomaly Buildup RES is also reduced by 7% for 35s. Repeated triggers reset the duration.\nWhen an enemy affected by Sweeping Cyclone is defeated, the duration of that Sweeping Cyclone is extended by 5s. This effect can only trigger once for the same Sweeping Cyclone, and only one Sweeping Cyclone can exist at a time.\nCondensed Cyclone and Sweeping Cyclone trigger an explosion when they dissipate. If this explosion hits an enemy suffering a Wind Anomaly, it triggers one instance of Abloom DMG against the target: resolves an additional instance of Attribute Anomaly DMG, dealing a fixed 105% and 175% multiplier Wind Anomaly DMG respectively."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "When Velina's initial Energy Regen exceeds 1.2, every additional 0.01 increases DMG dealt by 0.21%, up to a maximum increase of 35%, and increases Anomaly Mastery by 0.5, up to a maximum increase of 84.\nWhen Velina enters the battlefield, she gains 45 . In Investigation Zone mode, this effect can trigger once every 180s. Using EX Special Attack: Wind Shear - Purifying Rise or EX Special Attack: Wind Shear - Triple Deathblow grants 45 Windbloom, up to a maximum of 135 Windbloom.\nWhen Velina triggers Vortex, she gains 1 point of and summons a , dealing Wind DMG. This effect can trigger once every 3s. When Velina has 2 points of Windbite, the next time she triggers Vortex, 2 points of Windbite are consumed to increase that Vortex's DMG Multiplier by 120%. In addition, a is summoned instead of a Condensed Cyclone, which does not grant Windbite.\nWhen Velina's summoned Sweeping Cyclone hits an enemy suffering Contamination for the first time, it triggers , converting it into a Sweeping Cyclone of the corresponding attribute, dealing the corresponding attribute's DMG. When Sweeping Cyclone hits an enemy, the enemy's Wind Anomaly Buildup RES is reduced by 7% for 35s. Repeated triggers reset the duration. If a Sweeping Cyclone enhanced by Chromatic Tint hits an enemy, the enemy's corresponding Attribute Anomaly Buildup RES is also reduced by 7% for 35s. Repeated triggers reset the duration.\nWhen an enemy affected by Sweeping Cyclone is defeated, the duration of that Sweeping Cyclone is extended by 5s. This effect can only trigger once for the same Sweeping Cyclone, and only one Sweeping Cyclone can exist at a time.\nCondensed Cyclone and Sweeping Cyclone trigger an explosion when they dissipate. If this explosion hits an enemy suffering a Wind Anomaly, it triggers one instance of Abloom DMG against the target: resolves an additional instance of Attribute Anomaly DMG, dealing a fixed 115% and 195% multiplier Wind Anomaly DMG respectively."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "When Velina's initial Energy Regen exceeds 1.2, every additional 0.01 increases DMG dealt by 0.21%, up to a maximum increase of 35%, and increases Anomaly Mastery by 0.5, up to a maximum increase of 84.\nWhen Velina enters the battlefield, she gains 45 . In Investigation Zone mode, this effect can trigger once every 180s. Using EX Special Attack: Wind Shear - Purifying Rise or EX Special Attack: Wind Shear - Triple Deathblow grants 45 Windbloom, up to a maximum of 135 Windbloom.\nWhen Velina triggers Vortex, she gains 1 point of and summons a , dealing Wind DMG. This effect can trigger once every 3s. When Velina has 2 points of Windbite, the next time she triggers Vortex, 2 points of Windbite are consumed to increase that Vortex's DMG Multiplier by 130%. In addition, a is summoned instead of a Condensed Cyclone, which does not grant Windbite.\nWhen Velina's summoned Sweeping Cyclone hits an enemy suffering Contamination for the first time, it triggers , converting it into a Sweeping Cyclone of the corresponding attribute, dealing the corresponding attribute's DMG. When Sweeping Cyclone hits an enemy, the enemy's Wind Anomaly Buildup RES is reduced by 7% for 35s. Repeated triggers reset the duration. If a Sweeping Cyclone enhanced by Chromatic Tint hits an enemy, the enemy's corresponding Attribute Anomaly Buildup RES is also reduced by 7% for 35s. Repeated triggers reset the duration.\nWhen an enemy affected by Sweeping Cyclone is defeated, the duration of that Sweeping Cyclone is extended by 5s. This effect can only trigger once for the same Sweeping Cyclone, and only one Sweeping Cyclone can exist at a time.\nCondensed Cyclone and Sweeping Cyclone trigger an explosion when they dissipate. If this explosion hits an enemy suffering a Wind Anomaly, it triggers one instance of Abloom DMG against the target: resolves an additional instance of Attribute Anomaly DMG, dealing a fixed 125% and 215% multiplier Wind Anomaly DMG respectively."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "When Velina's initial Energy Regen exceeds 1.2, every additional 0.01 increases DMG dealt by 0.21%, up to a maximum increase of 35%, and increases Anomaly Mastery by 0.5, up to a maximum increase of 84.\nWhen Velina enters the battlefield, she gains 45 . In Investigation Zone mode, this effect can trigger once every 180s. Using EX Special Attack: Wind Shear - Purifying Rise or EX Special Attack: Wind Shear - Triple Deathblow grants 45 Windbloom, up to a maximum of 135 Windbloom.\nWhen Velina triggers Vortex, she gains 1 point of and summons a , dealing Wind DMG. This effect can trigger once every 3s. When Velina has 2 points of Windbite, the next time she triggers Vortex, 2 points of Windbite are consumed to increase that Vortex's DMG Multiplier by 140%. In addition, a is summoned instead of a Condensed Cyclone, which does not grant Windbite.\nWhen Velina's summoned Sweeping Cyclone hits an enemy suffering Contamination for the first time, it triggers , converting it into a Sweeping Cyclone of the corresponding attribute, dealing the corresponding attribute's DMG. When Sweeping Cyclone hits an enemy, the enemy's Wind Anomaly Buildup RES is reduced by 7% for 35s. Repeated triggers reset the duration. If a Sweeping Cyclone enhanced by Chromatic Tint hits an enemy, the enemy's corresponding Attribute Anomaly Buildup RES is also reduced by 7% for 35s. Repeated triggers reset the duration.\nWhen an enemy affected by Sweeping Cyclone is defeated, the duration of that Sweeping Cyclone is extended by 5s. This effect can only trigger once for the same Sweeping Cyclone, and only one Sweeping Cyclone can exist at a time.\nCondensed Cyclone and Sweeping Cyclone trigger an explosion when they dissipate. If this explosion hits an enemy suffering a Wind Anomaly, it triggers one instance of Abloom DMG against the target: resolves an additional instance of Attribute Anomaly DMG, dealing a fixed 135% and 235% multiplier Wind Anomaly DMG respectively."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "When Velina's initial Energy Regen exceeds 1.2, every additional 0.01 increases DMG dealt by 0.21%, up to a maximum increase of 35%, and increases Anomaly Mastery by 0.5, up to a maximum increase of 84.\nWhen Velina enters the battlefield, she gains 45 . In Investigation Zone mode, this effect can trigger once every 180s. Using EX Special Attack: Wind Shear - Purifying Rise or EX Special Attack: Wind Shear - Triple Deathblow grants 45 Windbloom, up to a maximum of 135 Windbloom.\nWhen Velina triggers Vortex, she gains 1 point of and summons a , dealing Wind DMG. This effect can trigger once every 3s. When Velina has 2 points of Windbite, the next time she triggers Vortex, 2 points of Windbite are consumed to increase that Vortex's DMG Multiplier by 150%. In addition, a is summoned instead of a Condensed Cyclone, which does not grant Windbite.\nWhen Velina's summoned Sweeping Cyclone hits an enemy suffering Contamination for the first time, it triggers , converting it into a Sweeping Cyclone of the corresponding attribute, dealing the corresponding attribute's DMG. When Sweeping Cyclone hits an enemy, the enemy's Wind Anomaly Buildup RES is reduced by 7% for 35s. Repeated triggers reset the duration. If a Sweeping Cyclone enhanced by Chromatic Tint hits an enemy, the enemy's corresponding Attribute Anomaly Buildup RES is also reduced by 7% for 35s. Repeated triggers reset the duration.\nWhen an enemy affected by Sweeping Cyclone is defeated, the duration of that Sweeping Cyclone is extended by 5s. This effect can only trigger once for the same Sweeping Cyclone, and only one Sweeping Cyclone can exist at a time.\nCondensed Cyclone and Sweeping Cyclone trigger an explosion when they dissipate. If this explosion hits an enemy suffering a Wind Anomaly, it triggers one instance of Abloom DMG against the target: resolves an additional instance of Attribute Anomaly DMG, dealing a fixed 145% and 255% multiplier Wind Anomaly DMG respectively."
+                  }
+                ]
+              },
+              {
+                "name": "Additional Ability: Tea Party Etiquette",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad is an Anomaly character or shares the same attribute:\nVelina's Windswept and Vortex DMG increases by 10%. When the heavy attack from an Ultimate hits an enemy suffering a Wind Attribute Anomaly, it triggers an instance of Abloom DMG against the target: resolves one additional instance of Attribute Anomaly DMG, fixed at 680% of Wind Attribute Anomaly DMG.\nFor Core Passive: Breeze in Bloom, the Attribute Anomaly Buildup RES reduction from is further increased by 7%, while Daze inflicted increases by 30%, and accumulated Attribute Anomaly Buildup increases by 15%.",
+                "levels": []
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Orderly Elegance",
+                "type": "Mindscape 1",
+                "desc": "Sweeping Cyclone from Additional Ability: Tea Party Etiquette deals an additional 20% Daze. When Velina triggers Vortex, she ignores 20% of the target's All-Attribute RES. When squad members deal Windswept DMG, 20% of the target's Wind RES is ignored."
+              },
+              {
+                "name": "Saturation Project",
+                "type": "Mindscape 2",
+                "desc": "When Velina triggers Windswept, she can also gain 1 point of Windbite. This effect can trigger once every 5s. After Sweeping Cyclone triggers the Chromatic Tint effect, it can accumulate the corresponding attribute's Anomaly Buildup. The buildup accumulated by this attack is excluded from Anomaly DMG calculations. The DMG increase effects of Velina's Windswept and Vortex from Additional Ability: Tea Party Etiquette are further increased by 15%."
+              },
+              {
+                "name": "Conquest by Etiquette",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Tea Party Tribunal",
+                "type": "Mindscape 4",
+                "desc": "When Velina uses an EX Special Attack, her ATK increases by 15% for 40s. Repeated triggers reset the duration."
+              },
+              {
+                "name": "Death Witch",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Chief Angel",
+                "type": "Mindscape 6",
+                "desc": "When Velina consumes 2 points of Windbite to increase the DMG Multiplier of Vortex, she gains 1 point of Windbite. This effect can trigger once every 6s. When Velina hits an enemy suffering a Wind Attribute Anomaly, the Wind Attribute Anomaly Buildup she inflicts increases by 20%. When Velina inflicts Windswept on an enemy already affected by Windswept, the new Windswept's DMG increases based on the remaining duration of the previous. Each remaining second increases the DMG by 2.5%, up to a maximum increase of 40%."
+              }
+            ]
+          }
+        ]
+      },
+      "req": {
+        "ascension": [
+          {
+            "id": "100213",
+            "name": "Basic Anomaly Certification Seal",
+            "qty": 4,
+            "rar": 1,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff01.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100223",
+            "name": "Advanced Anomaly Certification Seal",
+            "qty": 32,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff02.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100233",
+            "name": "Controller Certification Seal",
+            "qty": 30,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff03.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          }
+        ],
+        "talents": [
+          {
+            "id": "100116",
+            "name": "Basic Windbite Chip",
+            "qty": 25,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100126",
+            "name": "Advanced Windbite Chip",
+            "qty": 75,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100136",
+            "name": "Specialized Windbite Chip",
+            "qty": 250,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100941",
+            "name": "Hamster Cage Pass",
+            "qty": 5,
+            "rar": 5,
+            "kind": "crown",
+            "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+            "source": "Event / New Eridu City Fund",
+            "sourceDetails": [
+              {
+                "name": "Event / New Eridu City Fund"
+              }
+            ]
+          },
+          {
+            "id": "110010",
+            "name": "Timeworn Husk",
+            "qty": 9,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+            "source": "Girtablullu",
+            "sourceDetails": [
+              {
+                "name": "Girtablullu",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
+              }
+            ]
+          },
+          {
+            "id": "110515",
+            "name": "Higher Dimensional Data: Deep Erosion Circuit",
+            "qty": 60,
+            "rar": 4,
+            "kind": "boss",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+            "source": "the Airspace Sentinel / Expert Challenge",
+            "sourceDetails": [
+              {
+                "name": "Airspace Sentinel",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
+              },
+              {
+                "name": "Expert Challenge"
+              }
+            ]
+          }
+        ],
+        "talentStages": [
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100116",
+                  "name": "Basic Windbite Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100116",
+                  "name": "Basic Windbite Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100126",
+                  "name": "Advanced Windbite Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100126",
+                  "name": "Advanced Windbite Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100126",
+                  "name": "Advanced Windbite Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100126",
+                  "name": "Advanced Windbite Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100116",
+                  "name": "Basic Windbite Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100116",
+                  "name": "Basic Windbite Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100126",
+                  "name": "Advanced Windbite Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100126",
+                  "name": "Advanced Windbite Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100126",
+                  "name": "Advanced Windbite Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100126",
+                  "name": "Advanced Windbite Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100116",
+                  "name": "Basic Windbite Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100116",
+                  "name": "Basic Windbite Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100126",
+                  "name": "Advanced Windbite Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100126",
+                  "name": "Advanced Windbite Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100126",
+                  "name": "Advanced Windbite Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100126",
+                  "name": "Advanced Windbite Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100116",
+                  "name": "Basic Windbite Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100116",
+                  "name": "Basic Windbite Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100126",
+                  "name": "Advanced Windbite Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100126",
+                  "name": "Advanced Windbite Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100126",
+                  "name": "Advanced Windbite Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100126",
+                  "name": "Advanced Windbite Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100116",
+                  "name": "Basic Windbite Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100116",
+                  "name": "Basic Windbite Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100126",
+                  "name": "Advanced Windbite Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100126",
+                  "name": "Advanced Windbite Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100126",
+                  "name": "Advanced Windbite Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100126",
+                  "name": "Advanced Windbite Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100136",
+                  "name": "Specialized Windbite Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 5000,
+              "items": []
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "110515",
+                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "source": "the Airspace Sentinel / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Airspace Sentinel",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 28000,
+              "items": [
+                {
+                  "id": "110515",
+                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "source": "the Airspace Sentinel / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Airspace Sentinel",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 60000,
+              "items": [
+                {
+                  "id": "110010",
+                  "name": "Timeworn Husk",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+                  "source": "Girtablullu",
+                  "sourceDetails": [
+                    {
+                      "name": "Girtablullu",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110515",
+                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
+                  "qty": 9,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "source": "the Airspace Sentinel / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Airspace Sentinel",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 100000,
+              "items": [
+                {
+                  "id": "110010",
+                  "name": "Timeworn Husk",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+                  "source": "Girtablullu",
+                  "sourceDetails": [
+                    {
+                      "name": "Girtablullu",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110515",
+                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "source": "the Airspace Sentinel / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Airspace Sentinel",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 200000,
+              "items": [
+                {
+                  "id": "110010",
+                  "name": "Timeworn Husk",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+                  "source": "Girtablullu",
+                  "sourceDetails": [
+                    {
+                      "name": "Girtablullu",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110515",
+                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
+                  "qty": 30,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+                  "source": "the Airspace Sentinel / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Airspace Sentinel",
+                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        ],
+        "ascCost": 800000,
+        "talentCost": 2905000,
+        "currency": 4105000,
+        "weapon": {
+          "name": "Joyau Dore",
+          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1561.webp",
+          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1561.webp",
+          "items": [
+            {
+              "id": "101012",
+              "name": "Anomaly Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff01.webp"
+            },
+            {
+              "id": "101022",
+              "name": "Reinforced Anomaly Component",
+              "qty": 32,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff02.webp"
+            },
+            {
+              "id": "101032",
+              "name": "Specialized Anomaly Component",
+              "qty": 30,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
+            }
+          ],
+          "cost": 400000
+        }
+      },
+      "recent": 1
+    },
+    {
       "id": "zzz-aria",
       "n": "Aria",
       "localizedNames": {
@@ -18414,5322 +26451,6 @@
               "rar": 4,
               "kind": "mob",
               "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
-            }
-          ],
-          "cost": 400000
-        }
-      },
-      "recent": 1
-    },
-    {
-      "id": "zzz-pyrois",
-      "n": "Pyrois",
-      "localizedNames": {
-        "en": "Pyrois",
-        "zh": "\u4f69\u6d1b\u4f0a\u65af",
-        "ja": "\u30d4\u30e5\u30ed\u30a4\u30b9",
-        "ko": "\ud53c\ub85c\uc774\uc2a4"
-      },
-      "slug": "pyrois",
-      "release": 1781654400000,
-      "releasePatch": "3.0",
-      "updated": 1781647200000,
-      "sourceOrder": 0,
-      "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1551.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/pyrois-4c5bdf76ba79.webp",
-      "card": "../../Database/Prydwen/zzz/assets/characters/pyrois-4b8909998042.webp",
-      "signatureWeapon": {
-        "id": "14155",
-        "name": "Sol Exuvia",
-        "type": "Attack",
-        "educated": false
-      },
-      "signatureWeaponId": "14155",
-      "signatureWeaponName": "Sol Exuvia",
-      "status": "live",
-      "labels": [
-        "New"
-      ],
-      "r": "S",
-      "el": "Ether",
-      "spec": "Attack",
-      "tag": "Unknown",
-      "skillIcons": [
-        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
-        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
-        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
-        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
-        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
-      ],
-      "kit": {
-        "source": "Nanoka",
-        "channel": "live",
-        "version": "3.0",
-        "sections": [
-          {
-            "title": "Skills",
-            "entries": [
-              {
-                "name": "Basic Attack: Emberglow",
-                "type": "Basic",
-                "desc": "Press to activate:\nPerforms up to three attacks forward, dealing Ether DMG.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "1st-Hit DMG Multiplier",
-                        "values": [
-                          "45.6%",
-                          "49.8%",
-                          "54%",
-                          "58.2%",
-                          "62.4%",
-                          "66.6%",
-                          "70.8%",
-                          "75%",
-                          "79.2%",
-                          "83.4%",
-                          "87.6%",
-                          "91.8%"
-                        ]
-                      },
-                      {
-                        "label": "2nd-Hit DMG Multiplier",
-                        "values": [
-                          "64.1%",
-                          "70%",
-                          "75.9%",
-                          "81.8%",
-                          "87.7%",
-                          "93.6%",
-                          "99.5%",
-                          "105.4%",
-                          "111.3%",
-                          "117.2%",
-                          "123.1%",
-                          "129%"
-                        ]
-                      },
-                      {
-                        "label": "3rd-Hit DMG Multiplier",
-                        "values": [
-                          "276.3%",
-                          "301.5%",
-                          "326.7%",
-                          "351.9%",
-                          "377.1%",
-                          "402.3%",
-                          "427.5%",
-                          "452.7%",
-                          "477.9%",
-                          "503.1%",
-                          "528.3%",
-                          "553.5%"
-                        ]
-                      },
-                      {
-                        "label": "1st-Hit Daze Multiplier",
-                        "values": [
-                          "30.9%",
-                          "32.4%",
-                          "33.9%",
-                          "35.4%",
-                          "36.9%",
-                          "38.4%",
-                          "39.9%",
-                          "41.4%",
-                          "42.9%",
-                          "44.4%",
-                          "45.9%",
-                          "47.4%"
-                        ]
-                      },
-                      {
-                        "label": "2nd-Hit Daze Multiplier",
-                        "values": [
-                          "41.8%",
-                          "43.7%",
-                          "45.6%",
-                          "47.5%",
-                          "49.4%",
-                          "51.3%",
-                          "53.2%",
-                          "55.1%",
-                          "57%",
-                          "58.9%",
-                          "60.8%",
-                          "62.7%"
-                        ]
-                      },
-                      {
-                        "label": "3rd-Hit Daze Multiplier",
-                        "values": [
-                          "178.6%",
-                          "186.8%",
-                          "195%",
-                          "203.2%",
-                          "211.4%",
-                          "219.6%",
-                          "227.8%",
-                          "236%",
-                          "244.2%",
-                          "252.4%",
-                          "260.6%",
-                          "268.8%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Basic Attack: Celestial Light",
-                "type": "Basic",
-                "desc": "With 30 or more , hold to activate:\nUnleashes up to four attacks forward, dealing massive Ether DMG.\nIf another character is switched in during the 3rd hit, Pyrois automatically performs the 4th hit off-field.\nEach hit consumes a certain amount of Solar Prominence.\nCharacter is invulnerable during the 3rd and 4th hits.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "1st-Hit DMG Multiplier",
-                        "values": [
-                          "107%",
-                          "116.8%",
-                          "126.6%",
-                          "136.4%",
-                          "146.2%",
-                          "156%",
-                          "165.8%",
-                          "175.6%",
-                          "185.4%",
-                          "195.2%",
-                          "205%",
-                          "214.8%"
-                        ]
-                      },
-                      {
-                        "label": "2nd-Hit DMG Multiplier",
-                        "values": [
-                          "143.8%",
-                          "156.9%",
-                          "170%",
-                          "183.1%",
-                          "196.2%",
-                          "209.3%",
-                          "222.4%",
-                          "235.5%",
-                          "248.6%",
-                          "261.7%",
-                          "274.8%",
-                          "287.9%"
-                        ]
-                      },
-                      {
-                        "label": "3rd-Hit DMG Multiplier",
-                        "values": [
-                          "549%",
-                          "599%",
-                          "649%",
-                          "699%",
-                          "749%",
-                          "799%",
-                          "849%",
-                          "899%",
-                          "949%",
-                          "999%",
-                          "1049%",
-                          "1099%"
-                        ]
-                      },
-                      {
-                        "label": "4th-Hit DMG Multiplier",
-                        "values": [
-                          "641%",
-                          "699.3%",
-                          "757.6%",
-                          "815.9%",
-                          "874.2%",
-                          "932.5%",
-                          "990.8%",
-                          "1049.1%",
-                          "1107.4%",
-                          "1165.7%",
-                          "1224%",
-                          "1282.3%"
-                        ]
-                      },
-                      {
-                        "label": "1st-Hit Daze Multiplier",
-                        "values": [
-                          "52.3%",
-                          "54.7%",
-                          "57.1%",
-                          "59.5%",
-                          "61.9%",
-                          "64.3%",
-                          "66.7%",
-                          "69.1%",
-                          "71.5%",
-                          "73.9%",
-                          "76.3%",
-                          "78.7%"
-                        ]
-                      },
-                      {
-                        "label": "2nd-Hit Daze Multiplier",
-                        "values": [
-                          "86.5%",
-                          "90.5%",
-                          "94.5%",
-                          "98.5%",
-                          "102.5%",
-                          "106.5%",
-                          "110.5%",
-                          "114.5%",
-                          "118.5%",
-                          "122.5%",
-                          "126.5%",
-                          "130.5%"
-                        ]
-                      },
-                      {
-                        "label": "3rd-Hit Daze Multiplier",
-                        "values": [
-                          "187%",
-                          "195.5%",
-                          "204%",
-                          "212.5%",
-                          "221%",
-                          "229.5%",
-                          "238%",
-                          "246.5%",
-                          "255%",
-                          "263.5%",
-                          "272%",
-                          "280.5%"
-                        ]
-                      },
-                      {
-                        "label": "4th-Hit Daze Multiplier",
-                        "values": [
-                          "138.2%",
-                          "144.5%",
-                          "150.8%",
-                          "157.1%",
-                          "163.4%",
-                          "169.7%",
-                          "176%",
-                          "182.3%",
-                          "188.6%",
-                          "194.9%",
-                          "201.2%",
-                          "207.5%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Dodge: Twilight",
-                "type": "Dodge",
-                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
-              },
-              {
-                "name": "Dash Attack: Sunrise",
-                "type": "Dodge",
-                "desc": "Press during a dodge to activate:\nDelivers a quick slash forward, dealing Ether DMG.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "95.3%",
-                          "104%",
-                          "112.7%",
-                          "121.4%",
-                          "130.1%",
-                          "138.8%",
-                          "147.5%",
-                          "156.2%",
-                          "164.9%",
-                          "173.6%",
-                          "182.3%",
-                          "191%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "40.4%",
-                          "42.3%",
-                          "44.2%",
-                          "46.1%",
-                          "48%",
-                          "49.9%",
-                          "51.8%",
-                          "53.7%",
-                          "55.6%",
-                          "57.5%",
-                          "59.4%",
-                          "61.3%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Dodge Counter: First Light",
-                "type": "Dodge",
-                "desc": "Press during a Perfect Dodge to activate:\nPerforms a forward spinning slash, dealing Ether DMG.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "228.7%",
-                          "249.5%",
-                          "270.3%",
-                          "291.1%",
-                          "311.9%",
-                          "332.7%",
-                          "353.5%",
-                          "374.3%",
-                          "395.1%",
-                          "415.9%",
-                          "436.7%",
-                          "457.5%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "174.3%",
-                          "182.3%",
-                          "190.3%",
-                          "198.3%",
-                          "206.3%",
-                          "214.3%",
-                          "222.3%",
-                          "230.3%",
-                          "238.3%",
-                          "246.3%",
-                          "254.3%",
-                          "262.3%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Quick Assist: Duskguard",
-                "type": "Assist",
-                "desc": "When the active character is launched, press to activate:\nLaunches a series of attacks against the target, dealing Ether DMG.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "41.2%",
-                          "45%",
-                          "48.8%",
-                          "52.6%",
-                          "56.4%",
-                          "60.2%",
-                          "64%",
-                          "67.8%",
-                          "71.6%",
-                          "75.4%",
-                          "79.2%",
-                          "83%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "34.9%",
-                          "36.5%",
-                          "38.1%",
-                          "39.7%",
-                          "41.3%",
-                          "42.9%",
-                          "44.5%",
-                          "46.1%",
-                          "47.7%",
-                          "49.3%",
-                          "50.9%",
-                          "52.5%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Defensive Assist: Ironhide Behemoth",
-                "type": "Assist",
-                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "Light Defensive Daze Multiplier",
-                        "values": [
-                          "271.3%",
-                          "283.7%",
-                          "296.1%",
-                          "308.5%",
-                          "320.9%",
-                          "333.3%",
-                          "345.7%",
-                          "358.1%",
-                          "370.5%",
-                          "382.9%",
-                          "395.3%",
-                          "407.7%"
-                        ]
-                      },
-                      {
-                        "label": "Heavy Defensive Daze Multiplier",
-                        "values": [
-                          "342.8%",
-                          "358.4%",
-                          "374%",
-                          "389.6%",
-                          "405.2%",
-                          "420.8%",
-                          "436.4%",
-                          "452%",
-                          "467.6%",
-                          "483.2%",
-                          "498.8%",
-                          "514.4%"
-                        ]
-                      },
-                      {
-                        "label": "Chain Defensive Daze Multiplier",
-                        "values": [
-                          "166.8%",
-                          "174.4%",
-                          "182%",
-                          "189.6%",
-                          "197.2%",
-                          "204.8%",
-                          "212.4%",
-                          "220%",
-                          "227.6%",
-                          "235.2%",
-                          "242.8%",
-                          "250.4%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Assist Follow-Up: Return to Daylight",
-                "type": "Assist",
-                "desc": "Press after a Defensive Assist to activate:\nPerforms a forward thrust attack, dealing Ether DMG.\nAfter using the skill and with 30 or more , press or hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "338.6%",
-                          "369.4%",
-                          "400.2%",
-                          "431%",
-                          "461.8%",
-                          "492.6%",
-                          "523.4%",
-                          "554.2%",
-                          "585%",
-                          "615.8%",
-                          "646.6%",
-                          "677.4%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "244.2%",
-                          "255.3%",
-                          "266.4%",
-                          "277.5%",
-                          "288.6%",
-                          "299.7%",
-                          "310.8%",
-                          "321.9%",
-                          "333%",
-                          "344.1%",
-                          "355.2%",
-                          "366.3%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Special Attack: Fading Rays",
-                "type": "Special",
-                "desc": "Press to activate:\nPerforms a rush attack, dealing Ether DMG.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "52.1%",
-                          "56.9%",
-                          "61.7%",
-                          "66.5%",
-                          "71.3%",
-                          "76.1%",
-                          "80.9%",
-                          "85.7%",
-                          "90.5%",
-                          "95.3%",
-                          "100.1%",
-                          "104.9%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "44.1%",
-                          "46.2%",
-                          "48.3%",
-                          "50.4%",
-                          "52.5%",
-                          "54.6%",
-                          "56.7%",
-                          "58.8%",
-                          "60.9%",
-                          "63%",
-                          "65.1%",
-                          "67.2%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "EX Special Attack: Sun's Halo",
-                "type": "Special",
-                "desc": "With enough Energy, press to activate:\nQuickly charges forward and performs a series of consecutive attacks, dealing massive Ether DMG.\nIf hit by an enemy attack during the charge, triggers a Perfect Block effect, nullifying the damage and increasing the move's Interrupt Level to that of a Heavy Defensive Assist.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "737.4%",
-                          "804.5%",
-                          "871.6%",
-                          "938.7%",
-                          "1005.8%",
-                          "1072.9%",
-                          "1140%",
-                          "1207.1%",
-                          "1274.2%",
-                          "1341.3%",
-                          "1408.4%",
-                          "1475.5%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "433.6%",
-                          "453.4%",
-                          "473.2%",
-                          "493%",
-                          "512.8%",
-                          "532.6%",
-                          "552.4%",
-                          "572.2%",
-                          "592%",
-                          "611.8%",
-                          "631.6%",
-                          "651.4%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Special Attack: Assault Directive",
-                "type": "Special",
-                "desc": "When an Ultimate or EX Special Attack: Sun's Halo is used, Phaethon performs an assist attack, dealing Ether DMG. This effect can trigger once every 2.5s, and is guaranteed to trigger when using an Ultimate.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "82.8%",
-                          "90.4%",
-                          "98%",
-                          "105.6%",
-                          "113.2%",
-                          "120.8%",
-                          "128.4%",
-                          "136%",
-                          "143.6%",
-                          "151.2%",
-                          "158.8%",
-                          "166.4%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Chain Attack: Ceremonial March",
-                "type": "Chain",
-                "desc": "When a Chain Attack is triggered, select the character to activate:\nPerforms a coordinated attack with Phaethon, dealing massive Ether DMG.\nAfter using the skill and with 30 or more , press or hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "1058.3%",
-                          "1154.6%",
-                          "1250.9%",
-                          "1347.2%",
-                          "1443.5%",
-                          "1539.8%",
-                          "1636.1%",
-                          "1732.4%",
-                          "1828.7%",
-                          "1925%",
-                          "2021.3%",
-                          "2117.6%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "291.6%",
-                          "304.9%",
-                          "318.2%",
-                          "331.5%",
-                          "344.8%",
-                          "358.1%",
-                          "371.4%",
-                          "384.7%",
-                          "398%",
-                          "411.3%",
-                          "424.6%",
-                          "437.9%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Ultimate: Total Annihilation",
-                "type": "Chain",
-                "desc": "When Decibel Rating is at or above Blasting, press and select the upper branch to activate:\nAfter charging, performs a downward slash, dealing massive Ether DMG.\nAfter using the skill and with 30 or more , press or hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "866.2%",
-                          "945%",
-                          "1023.8%",
-                          "1102.6%",
-                          "1181.4%",
-                          "1260.2%",
-                          "1339%",
-                          "1417.8%",
-                          "1496.6%",
-                          "1575.4%",
-                          "1654.2%",
-                          "1733%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "267.7%",
-                          "279.9%",
-                          "292.1%",
-                          "304.3%",
-                          "316.5%",
-                          "328.7%",
-                          "340.9%",
-                          "353.1%",
-                          "365.3%",
-                          "377.5%",
-                          "389.7%",
-                          "401.9%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Ultimate: Triumphant Return",
-                "type": "Chain",
-                "desc": "When Decibel Rating is at or above Blasting, press and select the lower branch to activate:\nReleases an energy burst in the surrounding area, dealing massive Ether DMG.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "535.7%",
-                          "584.4%",
-                          "633.1%",
-                          "681.8%",
-                          "730.5%",
-                          "779.2%",
-                          "827.9%",
-                          "876.6%",
-                          "925.3%",
-                          "974%",
-                          "1022.7%",
-                          "1071.4%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "126.6%",
-                          "132.4%",
-                          "138.2%",
-                          "144%",
-                          "149.8%",
-                          "155.6%",
-                          "161.4%",
-                          "167.2%",
-                          "173%",
-                          "178.8%",
-                          "184.6%",
-                          "190.4%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Ultimate: Unbound Swordstorm",
-                "type": "Chain",
-                "desc": "When Decibel Rating is at or above Blasting, press and select the left branch to activate:\nUnleashes consecutive attacks forward, dealing massive Ether DMG.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "973.3%",
-                          "1061.8%",
-                          "1150.3%",
-                          "1238.8%",
-                          "1327.3%",
-                          "1415.8%",
-                          "1504.3%",
-                          "1592.8%",
-                          "1681.3%",
-                          "1769.8%",
-                          "1858.3%",
-                          "1946.8%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "337.3%",
-                          "352.7%",
-                          "368.1%",
-                          "383.5%",
-                          "398.9%",
-                          "414.3%",
-                          "429.7%",
-                          "445.1%",
-                          "460.5%",
-                          "475.9%",
-                          "491.3%",
-                          "506.7%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Ultimate: Eternal Imprisonment",
-                "type": "Chain",
-                "desc": "When Decibel Rating is at or above Blasting, press and select the right branch to activate:\nGathers energy ahead before unleashing a Finishing Move, dealing massive Ether DMG.\nAfter using the skill and with 30 or more , hold to immediately follow up with the 3rd hit of Basic Attack: Celestial Light.\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "997%",
-                          "1087.7%",
-                          "1178.4%",
-                          "1269.1%",
-                          "1359.8%",
-                          "1450.5%",
-                          "1541.2%",
-                          "1631.9%",
-                          "1722.6%",
-                          "1813.3%",
-                          "1904%",
-                          "1994.7%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "251.3%",
-                          "262.8%",
-                          "274.3%",
-                          "285.8%",
-                          "297.3%",
-                          "308.8%",
-                          "320.3%",
-                          "331.8%",
-                          "343.3%",
-                          "354.8%",
-                          "366.3%",
-                          "377.8%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Core Skill",
-            "entries": [
-              {
-                "name": "Core Passive: Radiant Chariot",
-                "type": "Core Passive",
-                "desc": "Upon entering battle, Pyrois gains 30 . This effect can trigger once every 180s in Investigation Zone mode. Landing different attacks on enemies grants a certain amount of Solar Prominence, and Pyrois also gains 0.5 Solar Prominence every second while in combat, up to a max of 60.\nWhen Pyrois uses different Ultimates, they gain the following effects:\nUpper Branch - Ultimate: Total Annihilation: Gain 30 Solar Prominence and enter the state. While in the Mirage state, Pyrois' Ultimate deals 40% increased CRIT DMG against Stunned enemies, and with 30 or more Solar Prominence hold during the 4th hit of Basic Attack: Celestial Light to immediately follow up with the 3rd hit of Basic Attack: Celestial Light. This effect lasts 21s. Repeated triggers reset the duration.\nLower Branch - Ultimate: Triumphant Return: Enter the state. While in the Sunflare state, Energy Generation Rate increases by 15%, and DMG dealt increases by 40%, and triggering a Perfect Block with an EX Special Attack grants 10 Solar Prominence. This effect lasts 200s. Repeated triggers reset the duration.\nLeft Branch - Ultimate: Unbound Swordstorm: Heavy attacks that hit enemies in the Contamination state deal 900% of ATK as additional DMG.\nRight Branch - Ultimate: Eternal Imprisonment: Heavy attacks that hit Stunned enemies trigger the effect, dealing 2,250% of ATK as additional DMG. Upon activating this skill, the Stun duration of all currently Stunned enemies is extended by 3s. When the Finishing Move hits, the enemy's Stun state ends.",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "Upon entering battle, Pyrois gains 30 . This effect can trigger once every 180s in Investigation Zone mode. Landing different attacks on enemies grants a certain amount of Solar Prominence, and Pyrois also gains 0.5 Solar Prominence every second while in combat, up to a max of 60.\nWhen Pyrois uses different Ultimates, they gain the following effects:\nUpper Branch - Ultimate: Total Annihilation: Gain 30 Solar Prominence and enter the state. While in the Mirage state, Pyrois' Ultimate deals 40% increased CRIT DMG against Stunned enemies, and with 30 or more Solar Prominence hold during the 4th hit of Basic Attack: Celestial Light to immediately follow up with the 3rd hit of Basic Attack: Celestial Light. This effect lasts 21s. Repeated triggers reset the duration.\nLower Branch - Ultimate: Triumphant Return: Enter the state. While in the Sunflare state, Energy Generation Rate increases by 15%, and DMG dealt increases by 20%, and triggering a Perfect Block with an EX Special Attack grants 10 Solar Prominence. This effect lasts 200s. Repeated triggers reset the duration.\nLeft Branch - Ultimate: Unbound Swordstorm: Heavy attacks that hit enemies in the Contamination state deal 450% of ATK as additional DMG.\nRight Branch - Ultimate: Eternal Imprisonment: Heavy attacks that hit Stunned enemies trigger the effect, dealing 1,125% of ATK as additional DMG. Upon activating this skill, the Stun duration of all currently Stunned enemies is extended by 3s. When the Finishing Move hits, the enemy's Stun state ends."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "Upon entering battle, Pyrois gains 30 . This effect can trigger once every 180s in Investigation Zone mode. Landing different attacks on enemies grants a certain amount of Solar Prominence, and Pyrois also gains 0.5 Solar Prominence every second while in combat, up to a max of 60.\nWhen Pyrois uses different Ultimates, they gain the following effects:\nUpper Branch - Ultimate: Total Annihilation: Gain 30 Solar Prominence and enter the state. While in the Mirage state, Pyrois' Ultimate deals 40% increased CRIT DMG against Stunned enemies, and with 30 or more Solar Prominence hold during the 4th hit of Basic Attack: Celestial Light to immediately follow up with the 3rd hit of Basic Attack: Celestial Light. This effect lasts 21s. Repeated triggers reset the duration.\nLower Branch - Ultimate: Triumphant Return: Enter the state. While in the Sunflare state, Energy Generation Rate increases by 15%, and DMG dealt increases by 23.4%, and triggering a Perfect Block with an EX Special Attack grants 10 Solar Prominence. This effect lasts 200s. Repeated triggers reset the duration.\nLeft Branch - Ultimate: Unbound Swordstorm: Heavy attacks that hit enemies in the Contamination state deal 525% of ATK as additional DMG.\nRight Branch - Ultimate: Eternal Imprisonment: Heavy attacks that hit Stunned enemies trigger the effect, dealing 1,312% of ATK as additional DMG. Upon activating this skill, the Stun duration of all currently Stunned enemies is extended by 3s. When the Finishing Move hits, the enemy's Stun state ends."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "Upon entering battle, Pyrois gains 30 . This effect can trigger once every 180s in Investigation Zone mode. Landing different attacks on enemies grants a certain amount of Solar Prominence, and Pyrois also gains 0.5 Solar Prominence every second while in combat, up to a max of 60.\nWhen Pyrois uses different Ultimates, they gain the following effects:\nUpper Branch - Ultimate: Total Annihilation: Gain 30 Solar Prominence and enter the state. While in the Mirage state, Pyrois' Ultimate deals 40% increased CRIT DMG against Stunned enemies, and with 30 or more Solar Prominence hold during the 4th hit of Basic Attack: Celestial Light to immediately follow up with the 3rd hit of Basic Attack: Celestial Light. This effect lasts 21s. Repeated triggers reset the duration.\nLower Branch - Ultimate: Triumphant Return: Enter the state. While in the Sunflare state, Energy Generation Rate increases by 15%, and DMG dealt increases by 26.8%, and triggering a Perfect Block with an EX Special Attack grants 10 Solar Prominence. This effect lasts 200s. Repeated triggers reset the duration.\nLeft Branch - Ultimate: Unbound Swordstorm: Heavy attacks that hit enemies in the Contamination state deal 600% of ATK as additional DMG.\nRight Branch - Ultimate: Eternal Imprisonment: Heavy attacks that hit Stunned enemies trigger the effect, dealing 1,499% of ATK as additional DMG. Upon activating this skill, the Stun duration of all currently Stunned enemies is extended by 3s. When the Finishing Move hits, the enemy's Stun state ends."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "Upon entering battle, Pyrois gains 30 . This effect can trigger once every 180s in Investigation Zone mode. Landing different attacks on enemies grants a certain amount of Solar Prominence, and Pyrois also gains 0.5 Solar Prominence every second while in combat, up to a max of 60.\nWhen Pyrois uses different Ultimates, they gain the following effects:\nUpper Branch - Ultimate: Total Annihilation: Gain 30 Solar Prominence and enter the state. While in the Mirage state, Pyrois' Ultimate deals 40% increased CRIT DMG against Stunned enemies, and with 30 or more Solar Prominence hold during the 4th hit of Basic Attack: Celestial Light to immediately follow up with the 3rd hit of Basic Attack: Celestial Light. This effect lasts 21s. Repeated triggers reset the duration.\nLower Branch - Ultimate: Triumphant Return: Enter the state. While in the Sunflare state, Energy Generation Rate increases by 15%, and DMG dealt increases by 30.2%, and triggering a Perfect Block with an EX Special Attack grants 10 Solar Prominence. This effect lasts 200s. Repeated triggers reset the duration.\nLeft Branch - Ultimate: Unbound Swordstorm: Heavy attacks that hit enemies in the Contamination state deal 675% of ATK as additional DMG.\nRight Branch - Ultimate: Eternal Imprisonment: Heavy attacks that hit Stunned enemies trigger the effect, dealing 1,686% of ATK as additional DMG. Upon activating this skill, the Stun duration of all currently Stunned enemies is extended by 3s. When the Finishing Move hits, the enemy's Stun state ends."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "Upon entering battle, Pyrois gains 30 . This effect can trigger once every 180s in Investigation Zone mode. Landing different attacks on enemies grants a certain amount of Solar Prominence, and Pyrois also gains 0.5 Solar Prominence every second while in combat, up to a max of 60.\nWhen Pyrois uses different Ultimates, they gain the following effects:\nUpper Branch - Ultimate: Total Annihilation: Gain 30 Solar Prominence and enter the state. While in the Mirage state, Pyrois' Ultimate deals 40% increased CRIT DMG against Stunned enemies, and with 30 or more Solar Prominence hold during the 4th hit of Basic Attack: Celestial Light to immediately follow up with the 3rd hit of Basic Attack: Celestial Light. This effect lasts 21s. Repeated triggers reset the duration.\nLower Branch - Ultimate: Triumphant Return: Enter the state. While in the Sunflare state, Energy Generation Rate increases by 15%, and DMG dealt increases by 33.6%, and triggering a Perfect Block with an EX Special Attack grants 10 Solar Prominence. This effect lasts 200s. Repeated triggers reset the duration.\nLeft Branch - Ultimate: Unbound Swordstorm: Heavy attacks that hit enemies in the Contamination state deal 750% of ATK as additional DMG.\nRight Branch - Ultimate: Eternal Imprisonment: Heavy attacks that hit Stunned enemies trigger the effect, dealing 1,873% of ATK as additional DMG. Upon activating this skill, the Stun duration of all currently Stunned enemies is extended by 3s. When the Finishing Move hits, the enemy's Stun state ends."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "Upon entering battle, Pyrois gains 30 . This effect can trigger once every 180s in Investigation Zone mode. Landing different attacks on enemies grants a certain amount of Solar Prominence, and Pyrois also gains 0.5 Solar Prominence every second while in combat, up to a max of 60.\nWhen Pyrois uses different Ultimates, they gain the following effects:\nUpper Branch - Ultimate: Total Annihilation: Gain 30 Solar Prominence and enter the state. While in the Mirage state, Pyrois' Ultimate deals 40% increased CRIT DMG against Stunned enemies, and with 30 or more Solar Prominence hold during the 4th hit of Basic Attack: Celestial Light to immediately follow up with the 3rd hit of Basic Attack: Celestial Light. This effect lasts 21s. Repeated triggers reset the duration.\nLower Branch - Ultimate: Triumphant Return: Enter the state. While in the Sunflare state, Energy Generation Rate increases by 15%, and DMG dealt increases by 37%, and triggering a Perfect Block with an EX Special Attack grants 10 Solar Prominence. This effect lasts 200s. Repeated triggers reset the duration.\nLeft Branch - Ultimate: Unbound Swordstorm: Heavy attacks that hit enemies in the Contamination state deal 825% of ATK as additional DMG.\nRight Branch - Ultimate: Eternal Imprisonment: Heavy attacks that hit Stunned enemies trigger the effect, dealing 2,060% of ATK as additional DMG. Upon activating this skill, the Stun duration of all currently Stunned enemies is extended by 3s. When the Finishing Move hits, the enemy's Stun state ends."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "Upon entering battle, Pyrois gains 30 . This effect can trigger once every 180s in Investigation Zone mode. Landing different attacks on enemies grants a certain amount of Solar Prominence, and Pyrois also gains 0.5 Solar Prominence every second while in combat, up to a max of 60.\nWhen Pyrois uses different Ultimates, they gain the following effects:\nUpper Branch - Ultimate: Total Annihilation: Gain 30 Solar Prominence and enter the state. While in the Mirage state, Pyrois' Ultimate deals 40% increased CRIT DMG against Stunned enemies, and with 30 or more Solar Prominence hold during the 4th hit of Basic Attack: Celestial Light to immediately follow up with the 3rd hit of Basic Attack: Celestial Light. This effect lasts 21s. Repeated triggers reset the duration.\nLower Branch - Ultimate: Triumphant Return: Enter the state. While in the Sunflare state, Energy Generation Rate increases by 15%, and DMG dealt increases by 40%, and triggering a Perfect Block with an EX Special Attack grants 10 Solar Prominence. This effect lasts 200s. Repeated triggers reset the duration.\nLeft Branch - Ultimate: Unbound Swordstorm: Heavy attacks that hit enemies in the Contamination state deal 900% of ATK as additional DMG.\nRight Branch - Ultimate: Eternal Imprisonment: Heavy attacks that hit Stunned enemies trigger the effect, dealing 2,250% of ATK as additional DMG. Upon activating this skill, the Stun duration of all currently Stunned enemies is extended by 3s. When the Finishing Move hits, the enemy's Stun state ends."
-                  }
-                ]
-              },
-              {
-                "name": "Additional Ability: Glorious Legion",
-                "type": "Additional Ability",
-                "desc": "When another character in your squad is a Stun or Support character:\nPyrois' CRIT DMG increases by 40%.\nUsing a Chain Attack grants 300 Decibels.",
-                "levels": []
-              }
-            ]
-          },
-          {
-            "title": "Mindscape Cinema",
-            "entries": [
-              {
-                "name": "Shadows of Twilight Past",
-                "type": "Mindscape 1",
-                "desc": "Upon entering the battlefield, Pyrois gains 1,000 Decibels. This effect can trigger once every 180s in Investigation Zone mode. CRIT Rate increases by 8%."
-              },
-              {
-                "name": "Blazing Cavalry",
-                "type": "Mindscape 2",
-                "desc": "Using Ultimate: Triumphant Return grants 1,500 Decibels. This effect can trigger once every 180s. Pyrois's Decibel limit increases by 1,000."
-              },
-              {
-                "name": "Chains of Fate",
-                "type": "Mindscape 3",
-                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
-              },
-              {
-                "name": "Balefire Horizon",
-                "type": "Mindscape 4",
-                "desc": "Mindscape Effect Hidden"
-              },
-              {
-                "name": "Youthful Guardian",
-                "type": "Mindscape 5",
-                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
-              },
-              {
-                "name": "Morning Star at Dawn",
-                "type": "Mindscape 6",
-                "desc": "Mindscape Effect Hidden"
-              }
-            ]
-          }
-        ]
-      },
-      "req": {
-        "ascension": [
-          {
-            "id": "100211",
-            "name": "Basic Attack Certification Seal",
-            "qty": 4,
-            "rar": 1,
-            "kind": "gem",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankDamage01.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          },
-          {
-            "id": "100221",
-            "name": "Advanced Attack Certification Seal",
-            "qty": 32,
-            "rar": 3,
-            "kind": "gem",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankDamage02.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          },
-          {
-            "id": "100231",
-            "name": "Pioneer's Certification Seal",
-            "qty": 30,
-            "rar": 4,
-            "kind": "gem",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankDamage03.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          }
-        ],
-        "talents": [
-          {
-            "id": "100115",
-            "name": "Basic Ether Chip",
-            "qty": 25,
-            "rar": 1,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100125",
-            "name": "Advanced Ether Chip",
-            "qty": 75,
-            "rar": 3,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100135",
-            "name": "Specialized Ether Chip",
-            "qty": 250,
-            "rar": 4,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100941",
-            "name": "Hamster Cage Pass",
-            "qty": 5,
-            "rar": 5,
-            "kind": "crown",
-            "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
-            "source": "Event / New Eridu City Fund",
-            "sourceDetails": [
-              {
-                "name": "Event / New Eridu City Fund"
-              }
-            ]
-          },
-          {
-            "id": "110010",
-            "name": "Timeworn Husk",
-            "qty": 9,
-            "rar": 5,
-            "kind": "weekly",
-            "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
-            "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
-            "source": "Girtablullu",
-            "sourceDetails": [
-              {
-                "name": "Girtablullu",
-                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
-              }
-            ]
-          },
-          {
-            "id": "110515",
-            "name": "Higher Dimensional Data: Deep Erosion Circuit",
-            "qty": 60,
-            "rar": 4,
-            "kind": "boss",
-            "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
-            "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
-            "source": "the Airspace Sentinel / Expert Challenge",
-            "sourceDetails": [
-              {
-                "name": "Airspace Sentinel",
-                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
-              },
-              {
-                "name": "Expert Challenge"
-              }
-            ]
-          }
-        ],
-        "talentStages": [
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "100115",
-                  "name": "Basic Ether Chip",
-                  "qty": 2,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 3000,
-              "items": [
-                {
-                  "id": "100115",
-                  "name": "Basic Ether Chip",
-                  "qty": 3,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 6000,
-              "items": [
-                {
-                  "id": "100125",
-                  "name": "Advanced Ether Chip",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 9000,
-              "items": [
-                {
-                  "id": "100125",
-                  "name": "Advanced Ether Chip",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "100125",
-                  "name": "Advanced Ether Chip",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 18000,
-              "items": [
-                {
-                  "id": "100125",
-                  "name": "Advanced Ether Chip",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "100135",
-                  "name": "Specialized Ether Chip",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 67500,
-              "items": [
-                {
-                  "id": "100135",
-                  "name": "Specialized Ether Chip",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 90000,
-              "items": [
-                {
-                  "id": "100135",
-                  "name": "Specialized Ether Chip",
-                  "qty": 10,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 112500,
-              "items": [
-                {
-                  "id": "100135",
-                  "name": "Specialized Ether Chip",
-                  "qty": 12,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 135000,
-              "items": [
-                {
-                  "id": "100135",
-                  "name": "Specialized Ether Chip",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                },
-                {
-                  "id": "100941",
-                  "name": "Hamster Cage Pass",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "crown",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
-                  "source": "Event / New Eridu City Fund",
-                  "sourceDetails": [
-                    {
-                      "name": "Event / New Eridu City Fund"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "100115",
-                  "name": "Basic Ether Chip",
-                  "qty": 2,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 3000,
-              "items": [
-                {
-                  "id": "100115",
-                  "name": "Basic Ether Chip",
-                  "qty": 3,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 6000,
-              "items": [
-                {
-                  "id": "100125",
-                  "name": "Advanced Ether Chip",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 9000,
-              "items": [
-                {
-                  "id": "100125",
-                  "name": "Advanced Ether Chip",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "100125",
-                  "name": "Advanced Ether Chip",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 18000,
-              "items": [
-                {
-                  "id": "100125",
-                  "name": "Advanced Ether Chip",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "100135",
-                  "name": "Specialized Ether Chip",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 67500,
-              "items": [
-                {
-                  "id": "100135",
-                  "name": "Specialized Ether Chip",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 90000,
-              "items": [
-                {
-                  "id": "100135",
-                  "name": "Specialized Ether Chip",
-                  "qty": 10,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 112500,
-              "items": [
-                {
-                  "id": "100135",
-                  "name": "Specialized Ether Chip",
-                  "qty": 12,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 135000,
-              "items": [
-                {
-                  "id": "100135",
-                  "name": "Specialized Ether Chip",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                },
-                {
-                  "id": "100941",
-                  "name": "Hamster Cage Pass",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "crown",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
-                  "source": "Event / New Eridu City Fund",
-                  "sourceDetails": [
-                    {
-                      "name": "Event / New Eridu City Fund"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "100115",
-                  "name": "Basic Ether Chip",
-                  "qty": 2,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 3000,
-              "items": [
-                {
-                  "id": "100115",
-                  "name": "Basic Ether Chip",
-                  "qty": 3,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 6000,
-              "items": [
-                {
-                  "id": "100125",
-                  "name": "Advanced Ether Chip",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 9000,
-              "items": [
-                {
-                  "id": "100125",
-                  "name": "Advanced Ether Chip",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "100125",
-                  "name": "Advanced Ether Chip",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 18000,
-              "items": [
-                {
-                  "id": "100125",
-                  "name": "Advanced Ether Chip",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "100135",
-                  "name": "Specialized Ether Chip",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 67500,
-              "items": [
-                {
-                  "id": "100135",
-                  "name": "Specialized Ether Chip",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 90000,
-              "items": [
-                {
-                  "id": "100135",
-                  "name": "Specialized Ether Chip",
-                  "qty": 10,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 112500,
-              "items": [
-                {
-                  "id": "100135",
-                  "name": "Specialized Ether Chip",
-                  "qty": 12,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 135000,
-              "items": [
-                {
-                  "id": "100135",
-                  "name": "Specialized Ether Chip",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                },
-                {
-                  "id": "100941",
-                  "name": "Hamster Cage Pass",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "crown",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
-                  "source": "Event / New Eridu City Fund",
-                  "sourceDetails": [
-                    {
-                      "name": "Event / New Eridu City Fund"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "100115",
-                  "name": "Basic Ether Chip",
-                  "qty": 2,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 3000,
-              "items": [
-                {
-                  "id": "100115",
-                  "name": "Basic Ether Chip",
-                  "qty": 3,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 6000,
-              "items": [
-                {
-                  "id": "100125",
-                  "name": "Advanced Ether Chip",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 9000,
-              "items": [
-                {
-                  "id": "100125",
-                  "name": "Advanced Ether Chip",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "100125",
-                  "name": "Advanced Ether Chip",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 18000,
-              "items": [
-                {
-                  "id": "100125",
-                  "name": "Advanced Ether Chip",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "100135",
-                  "name": "Specialized Ether Chip",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 67500,
-              "items": [
-                {
-                  "id": "100135",
-                  "name": "Specialized Ether Chip",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 90000,
-              "items": [
-                {
-                  "id": "100135",
-                  "name": "Specialized Ether Chip",
-                  "qty": 10,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 112500,
-              "items": [
-                {
-                  "id": "100135",
-                  "name": "Specialized Ether Chip",
-                  "qty": 12,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 135000,
-              "items": [
-                {
-                  "id": "100135",
-                  "name": "Specialized Ether Chip",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                },
-                {
-                  "id": "100941",
-                  "name": "Hamster Cage Pass",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "crown",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
-                  "source": "Event / New Eridu City Fund",
-                  "sourceDetails": [
-                    {
-                      "name": "Event / New Eridu City Fund"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "100115",
-                  "name": "Basic Ether Chip",
-                  "qty": 2,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 3000,
-              "items": [
-                {
-                  "id": "100115",
-                  "name": "Basic Ether Chip",
-                  "qty": 3,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 6000,
-              "items": [
-                {
-                  "id": "100125",
-                  "name": "Advanced Ether Chip",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 9000,
-              "items": [
-                {
-                  "id": "100125",
-                  "name": "Advanced Ether Chip",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "100125",
-                  "name": "Advanced Ether Chip",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 18000,
-              "items": [
-                {
-                  "id": "100125",
-                  "name": "Advanced Ether Chip",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "100135",
-                  "name": "Specialized Ether Chip",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 67500,
-              "items": [
-                {
-                  "id": "100135",
-                  "name": "Specialized Ether Chip",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 90000,
-              "items": [
-                {
-                  "id": "100135",
-                  "name": "Specialized Ether Chip",
-                  "qty": 10,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 112500,
-              "items": [
-                {
-                  "id": "100135",
-                  "name": "Specialized Ether Chip",
-                  "qty": 12,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 135000,
-              "items": [
-                {
-                  "id": "100135",
-                  "name": "Specialized Ether Chip",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                },
-                {
-                  "id": "100941",
-                  "name": "Hamster Cage Pass",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "crown",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
-                  "source": "Event / New Eridu City Fund",
-                  "sourceDetails": [
-                    {
-                      "name": "Event / New Eridu City Fund"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 5000,
-              "items": []
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "110515",
-                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
-                  "qty": 2,
-                  "rar": 4,
-                  "kind": "boss",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
-                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
-                  "source": "the Airspace Sentinel / Expert Challenge",
-                  "sourceDetails": [
-                    {
-                      "name": "Airspace Sentinel",
-                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
-                    },
-                    {
-                      "name": "Expert Challenge"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 28000,
-              "items": [
-                {
-                  "id": "110515",
-                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
-                  "qty": 4,
-                  "rar": 4,
-                  "kind": "boss",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
-                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
-                  "source": "the Airspace Sentinel / Expert Challenge",
-                  "sourceDetails": [
-                    {
-                      "name": "Airspace Sentinel",
-                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
-                    },
-                    {
-                      "name": "Expert Challenge"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 60000,
-              "items": [
-                {
-                  "id": "110010",
-                  "name": "Timeworn Husk",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
-                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
-                  "source": "Girtablullu",
-                  "sourceDetails": [
-                    {
-                      "name": "Girtablullu",
-                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
-                    }
-                  ]
-                },
-                {
-                  "id": "110515",
-                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
-                  "qty": 9,
-                  "rar": 4,
-                  "kind": "boss",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
-                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
-                  "source": "the Airspace Sentinel / Expert Challenge",
-                  "sourceDetails": [
-                    {
-                      "name": "Airspace Sentinel",
-                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
-                    },
-                    {
-                      "name": "Expert Challenge"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 100000,
-              "items": [
-                {
-                  "id": "110010",
-                  "name": "Timeworn Husk",
-                  "qty": 3,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
-                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
-                  "source": "Girtablullu",
-                  "sourceDetails": [
-                    {
-                      "name": "Girtablullu",
-                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
-                    }
-                  ]
-                },
-                {
-                  "id": "110515",
-                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "boss",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
-                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
-                  "source": "the Airspace Sentinel / Expert Challenge",
-                  "sourceDetails": [
-                    {
-                      "name": "Airspace Sentinel",
-                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
-                    },
-                    {
-                      "name": "Expert Challenge"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 200000,
-              "items": [
-                {
-                  "id": "110010",
-                  "name": "Timeworn Husk",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
-                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
-                  "source": "Girtablullu",
-                  "sourceDetails": [
-                    {
-                      "name": "Girtablullu",
-                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
-                    }
-                  ]
-                },
-                {
-                  "id": "110515",
-                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
-                  "qty": 30,
-                  "rar": 4,
-                  "kind": "boss",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
-                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
-                  "source": "the Airspace Sentinel / Expert Challenge",
-                  "sourceDetails": [
-                    {
-                      "name": "Airspace Sentinel",
-                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
-                    },
-                    {
-                      "name": "Expert Challenge"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        ],
-        "ascCost": 800000,
-        "talentCost": 2905000,
-        "currency": 4105000,
-        "weapon": {
-          "name": "Sol Exuvia",
-          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_Common_04.webp",
-          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_Common_04.webp",
-          "items": [
-            {
-              "id": "101010",
-              "name": "Attack Component",
-              "qty": 4,
-              "rar": 1,
-              "kind": "mob",
-              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage01.webp"
-            },
-            {
-              "id": "101020",
-              "name": "Reinforced Attack Component",
-              "qty": 32,
-              "rar": 3,
-              "kind": "mob",
-              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage02.webp"
-            },
-            {
-              "id": "101030",
-              "name": "Specialized Attack Component",
-              "qty": 30,
-              "rar": 4,
-              "kind": "mob",
-              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
-            }
-          ],
-          "cost": 400000
-        }
-      },
-      "recent": 1
-    },
-    {
-      "id": "zzz-velina",
-      "n": "Velina",
-      "localizedNames": {
-        "en": "Velina",
-        "zh": "\u7ef4\u7433\u5a1c",
-        "ja": "\u30f4\u30a7\u30ea\u30ca",
-        "ko": "\ubca8\ub9ac\ub098"
-      },
-      "title": "Beyond Etiquette",
-      "slug": "velina",
-      "release": 1781654400000,
-      "releasePatch": "3.0",
-      "updated": 1781647200000,
-      "sourceOrder": 0,
-      "voiceActors": {
-        "english": "imdb:nm5966262|Rhiannon Moushall",
-        "japanese": "Chiwa Sait\u014d|Sait\u014d Chiwa (\u658e\u85e4 \u5343\u548c)",
-        "chinese": "https://zh.moegirl.org.cn/\u5f20\u5b89\u742a|Zhang Anqi (\u5f20\u5b89\u742a)",
-        "korean": "ko:\uc2e0\uc628\uc720|Shin On-yu (\uc2e0\uc628\uc720)"
-      },
-      "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1561.webp",
-      "iconZoom": 1.24,
-      "art": "../../Database/Prydwen/zzz/assets/characters/velina-542b0a87d52a.webp",
-      "card": "../../Database/Prydwen/zzz/assets/characters/velina-4d32c038d75f.webp",
-      "signatureWeapon": {
-        "id": "14156",
-        "name": "Joyau Dore",
-        "type": "Anomaly",
-        "educated": false
-      },
-      "signatureWeaponId": "14156",
-      "signatureWeaponName": "Joyau Dore",
-      "status": "live",
-      "labels": [
-        "New"
-      ],
-      "r": "S",
-      "el": "Wind",
-      "spec": "Anomaly",
-      "tag": "External Strategy Department",
-      "skillIcons": [
-        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
-        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
-        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
-        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
-        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
-      ],
-      "kit": {
-        "source": "Nanoka",
-        "channel": "live",
-        "version": "3.0",
-        "sections": [
-          {
-            "title": "Skills",
-            "entries": [
-              {
-                "name": "Basic Attack: Dancing Fans",
-                "type": "Basic",
-                "desc": "Press to activate:\nLaunches up to five attacks against enemies ahead, dealing Wind DMG.\nDuring the 5th attack, Velina's Anti-Interrupt Level increases, and DMG taken is reduced by 40%.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "1st-Hit DMG Multiplier",
-                        "values": [
-                          "51.7%",
-                          "56.4%",
-                          "61.1%",
-                          "65.8%",
-                          "70.5%",
-                          "75.2%",
-                          "79.9%",
-                          "84.6%",
-                          "89.3%",
-                          "94%",
-                          "98.7%",
-                          "103.4%"
-                        ]
-                      },
-                      {
-                        "label": "2nd-Hit DMG Multiplier",
-                        "values": [
-                          "48.9%",
-                          "53.4%",
-                          "57.9%",
-                          "62.4%",
-                          "66.9%",
-                          "71.4%",
-                          "75.9%",
-                          "80.4%",
-                          "84.9%",
-                          "89.4%",
-                          "93.9%",
-                          "98.4%"
-                        ]
-                      },
-                      {
-                        "label": "3rd-Hit DMG Multiplier",
-                        "values": [
-                          "169.1%",
-                          "184.5%",
-                          "199.9%",
-                          "215.3%",
-                          "230.7%",
-                          "246.1%",
-                          "261.5%",
-                          "276.9%",
-                          "292.3%",
-                          "307.7%",
-                          "323.1%",
-                          "338.5%"
-                        ]
-                      },
-                      {
-                        "label": "4th-Hit DMG Multiplier",
-                        "values": [
-                          "125.6%",
-                          "137.1%",
-                          "148.6%",
-                          "160.1%",
-                          "171.6%",
-                          "183.1%",
-                          "194.6%",
-                          "206.1%",
-                          "217.6%",
-                          "229.1%",
-                          "240.6%",
-                          "252.1%"
-                        ]
-                      },
-                      {
-                        "label": "5th-Hit DMG Multiplier",
-                        "values": [
-                          "229.6%",
-                          "250.5%",
-                          "271.4%",
-                          "292.3%",
-                          "313.2%",
-                          "334.1%",
-                          "355%",
-                          "375.9%",
-                          "396.8%",
-                          "417.7%",
-                          "438.6%",
-                          "459.5%"
-                        ]
-                      },
-                      {
-                        "label": "1st-Hit Daze Multiplier",
-                        "values": [
-                          "23.6%",
-                          "24.7%",
-                          "25.8%",
-                          "26.9%",
-                          "28%",
-                          "29.1%",
-                          "30.2%",
-                          "31.3%",
-                          "32.4%",
-                          "33.5%",
-                          "34.6%",
-                          "35.7%"
-                        ]
-                      },
-                      {
-                        "label": "2nd-Hit Daze Multiplier",
-                        "values": [
-                          "23.5%",
-                          "24.6%",
-                          "25.7%",
-                          "26.8%",
-                          "27.9%",
-                          "29%",
-                          "30.1%",
-                          "31.2%",
-                          "32.3%",
-                          "33.4%",
-                          "34.5%",
-                          "35.6%"
-                        ]
-                      },
-                      {
-                        "label": "3rd-Hit Daze Multiplier",
-                        "values": [
-                          "80.5%",
-                          "84.2%",
-                          "87.9%",
-                          "91.6%",
-                          "95.3%",
-                          "99%",
-                          "102.7%",
-                          "106.4%",
-                          "110.1%",
-                          "113.8%",
-                          "117.5%",
-                          "121.2%"
-                        ]
-                      },
-                      {
-                        "label": "4th-Hit Daze Multiplier",
-                        "values": [
-                          "62.9%",
-                          "65.8%",
-                          "68.7%",
-                          "71.6%",
-                          "74.5%",
-                          "77.4%",
-                          "80.3%",
-                          "83.2%",
-                          "86.1%",
-                          "89%",
-                          "91.9%",
-                          "94.8%"
-                        ]
-                      },
-                      {
-                        "label": "5th-Hit Daze Multiplier",
-                        "values": [
-                          "112.7%",
-                          "117.9%",
-                          "123.1%",
-                          "128.3%",
-                          "133.5%",
-                          "138.7%",
-                          "143.9%",
-                          "149.1%",
-                          "154.3%",
-                          "159.5%",
-                          "164.7%",
-                          "169.9%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Dodge: Windward Sweep",
-                "type": "Dodge",
-                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
-              },
-              {
-                "name": "Dash Attack: Gale Step",
-                "type": "Dodge",
-                "desc": "Press during a dodge to activate:\nDelivers a quick attack forward, dealing Wind DMG.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "99.7%",
-                          "108.8%",
-                          "117.9%",
-                          "127%",
-                          "136.1%",
-                          "145.2%",
-                          "154.3%",
-                          "163.4%",
-                          "172.5%",
-                          "181.6%",
-                          "190.7%",
-                          "199.8%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "42.2%",
-                          "44.2%",
-                          "46.2%",
-                          "48.2%",
-                          "50.2%",
-                          "52.2%",
-                          "54.2%",
-                          "56.2%",
-                          "58.2%",
-                          "60.2%",
-                          "62.2%",
-                          "64.2%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Dodge Counter: Cloudrend",
-                "type": "Dodge",
-                "desc": "Press during a Perfect Dodge to activate:\nLaunches a series of attacks on the target, dealing Wind DMG.\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "394.9%",
-                          "430.8%",
-                          "466.7%",
-                          "502.6%",
-                          "538.5%",
-                          "574.4%",
-                          "610.3%",
-                          "646.2%",
-                          "682.1%",
-                          "718%",
-                          "753.9%",
-                          "789.8%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "282.4%",
-                          "295.3%",
-                          "308.2%",
-                          "321.1%",
-                          "334%",
-                          "346.9%",
-                          "359.8%",
-                          "372.7%",
-                          "385.6%",
-                          "398.5%",
-                          "411.4%",
-                          "424.3%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Quick Assist: Emergency Protocol",
-                "type": "Assist",
-                "desc": "When the active character is launched, press to activate:\nUnleashes consecutive attacks against the target, dealing Wind DMG.\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "203.8%",
-                          "222.4%",
-                          "241%",
-                          "259.6%",
-                          "278.2%",
-                          "296.8%",
-                          "315.4%",
-                          "334%",
-                          "352.6%",
-                          "371.2%",
-                          "389.8%",
-                          "408.4%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "86.2%",
-                          "90.2%",
-                          "94.2%",
-                          "98.2%",
-                          "102.2%",
-                          "106.2%",
-                          "110.2%",
-                          "114.2%",
-                          "118.2%",
-                          "122.2%",
-                          "126.2%",
-                          "130.2%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Defensive Assist: Judicious Intervention",
-                "type": "Assist",
-                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "Light Defensive Daze Multiplier",
-                        "values": [
-                          "271.3%",
-                          "283.7%",
-                          "296.1%",
-                          "308.5%",
-                          "320.9%",
-                          "333.3%",
-                          "345.7%",
-                          "358.1%",
-                          "370.5%",
-                          "382.9%",
-                          "395.3%",
-                          "407.7%"
-                        ]
-                      },
-                      {
-                        "label": "Heavy Defensive Daze Multiplier",
-                        "values": [
-                          "342.8%",
-                          "358.4%",
-                          "374%",
-                          "389.6%",
-                          "405.2%",
-                          "420.8%",
-                          "436.4%",
-                          "452%",
-                          "467.6%",
-                          "483.2%",
-                          "498.8%",
-                          "514.4%"
-                        ]
-                      },
-                      {
-                        "label": "Chain Defensive Daze Multiplier",
-                        "values": [
-                          "166.8%",
-                          "174.4%",
-                          "182%",
-                          "189.6%",
-                          "197.2%",
-                          "204.8%",
-                          "212.4%",
-                          "220%",
-                          "227.6%",
-                          "235.2%",
-                          "242.8%",
-                          "250.4%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Assist Follow-Up: Negotiation Techniques",
-                "type": "Assist",
-                "desc": "Press after a Defensive Assist to activate:\nUnleashes a series of attacks, dealing Wind DMG.\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "532.7%",
-                          "581.2%",
-                          "629.7%",
-                          "678.2%",
-                          "726.7%",
-                          "775.2%",
-                          "823.7%",
-                          "872.2%",
-                          "920.7%",
-                          "969.2%",
-                          "1017.7%",
-                          "1066.2%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "396.7%",
-                          "414.8%",
-                          "432.9%",
-                          "451%",
-                          "469.1%",
-                          "487.2%",
-                          "505.3%",
-                          "523.4%",
-                          "541.5%",
-                          "559.6%",
-                          "577.7%",
-                          "595.8%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Special Attack: Wind Shear - Purging Surge",
-                "type": "Special",
-                "desc": "Press to activate:\nUnleashes a sweeping gust forward, dealing Wind DMG.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "58.6%",
-                          "64%",
-                          "69.4%",
-                          "74.8%",
-                          "80.2%",
-                          "85.6%",
-                          "91%",
-                          "96.4%",
-                          "101.8%",
-                          "107.2%",
-                          "112.6%",
-                          "118%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "49.6%",
-                          "51.9%",
-                          "54.2%",
-                          "56.5%",
-                          "58.8%",
-                          "61.1%",
-                          "63.4%",
-                          "65.7%",
-                          "68%",
-                          "70.3%",
-                          "72.6%",
-                          "74.9%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "EX Special Attack: Wind Shear - Purifying Rise",
-                "type": "Special",
-                "desc": "With enough Energy, press to activate:\nDodges backward, then unleashes a massive wind blast to attack enemies, dealing Wind DMG.\nDuring the backward dodge, a dodge effect is active. Successfully dodging an enemy attack triggers Vital View.\nAfter using this skill, press to chain into the 5th hit of the Basic Attack.\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "440.5%",
-                          "480.6%",
-                          "520.7%",
-                          "560.8%",
-                          "600.9%",
-                          "641%",
-                          "681.1%",
-                          "721.2%",
-                          "761.3%",
-                          "801.4%",
-                          "841.5%",
-                          "881.6%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "302.5%",
-                          "316.3%",
-                          "330.1%",
-                          "343.9%",
-                          "357.7%",
-                          "371.5%",
-                          "385.3%",
-                          "399.1%",
-                          "412.9%",
-                          "426.7%",
-                          "440.5%",
-                          "454.3%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "EX Special Attack: Wind Shear - Triple Deathblow",
-                "type": "Special",
-                "desc": "With enough energy and after using EX Special Attack: Wind Shear - Purifying Rise, press or hold to activate:\nContinuously swings the fan, dealing Wind DMG.\nAfter using this skill, press to chain into the 5th hit of the Basic Attack.\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "725.2%",
-                          "791.2%",
-                          "857.2%",
-                          "923.2%",
-                          "989.2%",
-                          "1055.2%",
-                          "1121.2%",
-                          "1187.2%",
-                          "1253.2%",
-                          "1319.2%",
-                          "1385.2%",
-                          "1451.2%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "515.2%",
-                          "538.7%",
-                          "562.2%",
-                          "585.7%",
-                          "609.2%",
-                          "632.7%",
-                          "656.2%",
-                          "679.7%",
-                          "703.2%",
-                          "726.7%",
-                          "750.2%",
-                          "773.7%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "EX Special Attack: Wind Shear - Eye of the Storm",
-                "type": "Special",
-                "desc": "With 90 or more , hold or to activate:\nVelina channels a whirlwind and summons a to continuously attack enemies and triggers the previous character's Quick Assist.\nSweeping Cyclone lasts for 5s and deals Wind DMG to nearby enemies once every 0.5s.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "216.7%",
-                          "236.4%",
-                          "256.1%",
-                          "275.8%",
-                          "295.5%",
-                          "315.2%",
-                          "334.9%",
-                          "354.6%",
-                          "374.3%",
-                          "394%",
-                          "413.7%",
-                          "433.4%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "183.4%",
-                          "191.8%",
-                          "200.2%",
-                          "208.6%",
-                          "217%",
-                          "225.4%",
-                          "233.8%",
-                          "242.2%",
-                          "250.6%",
-                          "259%",
-                          "267.4%",
-                          "275.8%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Sweeping Cyclone",
-                "type": "Special",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "Sweeping Cyclone Wind Attribute Single-Hit DMG Multiplier",
-                        "values": [
-                          "39%",
-                          "42.6%",
-                          "46.2%",
-                          "49.8%",
-                          "53.4%",
-                          "57%",
-                          "60.6%",
-                          "64.2%",
-                          "67.8%",
-                          "71.4%",
-                          "75%",
-                          "78.6%"
-                        ]
-                      },
-                      {
-                        "label": "Sweeping Cyclone Wind Attribute Single-Hit Daze Multiplier",
-                        "values": [
-                          "82.5%",
-                          "86.3%",
-                          "90.1%",
-                          "93.9%",
-                          "97.7%",
-                          "101.5%",
-                          "105.3%",
-                          "109.1%",
-                          "112.9%",
-                          "116.7%",
-                          "120.5%",
-                          "124.3%"
-                        ]
-                      },
-                      {
-                        "label": "Sweeping Cyclone Attribute-Converted Single-Hit DMG Multiplier",
-                        "values": [
-                          "97.5%",
-                          "106.4%",
-                          "115.3%",
-                          "124.2%",
-                          "133.1%",
-                          "142%",
-                          "150.9%",
-                          "159.8%",
-                          "168.7%",
-                          "177.6%",
-                          "186.5%",
-                          "195.4%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Condensed Cyclone",
-                "type": "Special",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "32.5%",
-                          "35.5%",
-                          "38.5%",
-                          "41.5%",
-                          "44.5%",
-                          "47.5%",
-                          "50.5%",
-                          "53.5%",
-                          "56.5%",
-                          "59.5%",
-                          "62.5%",
-                          "65.5%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "137.5%",
-                          "143.8%",
-                          "150.1%",
-                          "156.4%",
-                          "162.7%",
-                          "169%",
-                          "175.3%",
-                          "181.6%",
-                          "187.9%",
-                          "194.2%",
-                          "200.5%",
-                          "206.8%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Chain Attack: Thousandfold Spiral",
-                "type": "Chain",
-                "desc": "When a Chain Attack is triggered, select the character to activate:\nTransforms into a hurricane to unleash multiple attacks against enemies, followed by a Finishing Move, dealing massive Wind DMG.\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "800.4%",
-                          "873.2%",
-                          "946%",
-                          "1018.8%",
-                          "1091.6%",
-                          "1164.4%",
-                          "1237.2%",
-                          "1310%",
-                          "1382.8%",
-                          "1455.6%",
-                          "1528.4%",
-                          "1601.2%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "238.4%",
-                          "249.3%",
-                          "260.2%",
-                          "271.1%",
-                          "282%",
-                          "292.9%",
-                          "303.8%",
-                          "314.7%",
-                          "325.6%",
-                          "336.5%",
-                          "347.4%",
-                          "358.3%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Ultimate: Heed the Tempest",
-                "type": "Chain",
-                "desc": "When Decibel Rating is at Maximum, press to activate:\nUnleashes multiple attacks against enemies ahead, dealing massive Wind DMG.\nAfter using this skill, the previous character's Quick Assist is triggered.\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "2188.3%",
-                          "2387.3%",
-                          "2586.3%",
-                          "2785.3%",
-                          "2984.3%",
-                          "3183.3%",
-                          "3382.3%",
-                          "3581.3%",
-                          "3780.3%",
-                          "3979.3%",
-                          "4178.3%",
-                          "4377.3%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "381.3%",
-                          "398.7%",
-                          "416.1%",
-                          "433.5%",
-                          "450.9%",
-                          "468.3%",
-                          "485.7%",
-                          "503.1%",
-                          "520.5%",
-                          "537.9%",
-                          "555.3%",
-                          "572.7%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Core Skill",
-            "entries": [
-              {
-                "name": "Core Passive: Breeze in Bloom",
-                "type": "Core Passive",
-                "desc": "When Velina's initial Energy Regen exceeds 1.2, every additional 0.01 increases DMG dealt by 0.21%, up to a maximum increase of 35%, and increases Anomaly Mastery by 0.5, up to a maximum increase of 84.\nWhen Velina enters the battlefield, she gains 45 . In Investigation Zone mode, this effect can trigger once every 180s. Using EX Special Attack: Wind Shear - Purifying Rise or EX Special Attack: Wind Shear - Triple Deathblow grants 45 Windbloom, up to a maximum of 135 Windbloom.\nWhen Velina triggers Vortex, she gains 1 point of and summons a , dealing Wind DMG. This effect can trigger once every 3s. When Velina has 2 points of Windbite, the next time she triggers Vortex, 2 points of Windbite are consumed to increase that Vortex's DMG Multiplier by 150%. In addition, a is summoned instead of a Condensed Cyclone, which does not grant Windbite.\nWhen Velina's summoned Sweeping Cyclone hits an enemy suffering Contamination for the first time, it triggers , converting it into a Sweeping Cyclone of the corresponding attribute, dealing the corresponding attribute's DMG. When Sweeping Cyclone hits an enemy, the enemy's Wind Anomaly Buildup RES is reduced by 7% for 35s. Repeated triggers reset the duration. If a Sweeping Cyclone enhanced by Chromatic Tint hits an enemy, the enemy's corresponding Attribute Anomaly Buildup RES is also reduced by 7% for 35s. Repeated triggers reset the duration.\nWhen an enemy affected by Sweeping Cyclone is defeated, the duration of that Sweeping Cyclone is extended by 5s. This effect can only trigger once for the same Sweeping Cyclone, and only one Sweeping Cyclone can exist at a time.\nCondensed Cyclone and Sweeping Cyclone trigger an explosion when they dissipate. If this explosion hits an enemy suffering a Wind Anomaly, it triggers one instance of Abloom DMG against the target: resolves an additional instance of Attribute Anomaly DMG, dealing a fixed 145% and 255% multiplier Wind Anomaly DMG respectively.",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "When Velina's initial Energy Regen exceeds 1.2, every additional 0.01 increases DMG dealt by 0.21%, up to a maximum increase of 35%, and increases Anomaly Mastery by 0.5, up to a maximum increase of 84.\nWhen Velina enters the battlefield, she gains 45 . In Investigation Zone mode, this effect can trigger once every 180s. Using EX Special Attack: Wind Shear - Purifying Rise or EX Special Attack: Wind Shear - Triple Deathblow grants 45 Windbloom, up to a maximum of 135 Windbloom.\nWhen Velina triggers Vortex, she gains 1 point of and summons a , dealing Wind DMG. This effect can trigger once every 3s. When Velina has 2 points of Windbite, the next time she triggers Vortex, 2 points of Windbite are consumed to increase that Vortex's DMG Multiplier by 90%. In addition, a is summoned instead of a Condensed Cyclone, which does not grant Windbite.\nWhen Velina's summoned Sweeping Cyclone hits an enemy suffering Contamination for the first time, it triggers , converting it into a Sweeping Cyclone of the corresponding attribute, dealing the corresponding attribute's DMG. When Sweeping Cyclone hits an enemy, the enemy's Wind Anomaly Buildup RES is reduced by 7% for 35s. Repeated triggers reset the duration. If a Sweeping Cyclone enhanced by Chromatic Tint hits an enemy, the enemy's corresponding Attribute Anomaly Buildup RES is also reduced by 7% for 35s. Repeated triggers reset the duration.\nWhen an enemy affected by Sweeping Cyclone is defeated, the duration of that Sweeping Cyclone is extended by 5s. This effect can only trigger once for the same Sweeping Cyclone, and only one Sweeping Cyclone can exist at a time.\nCondensed Cyclone and Sweeping Cyclone trigger an explosion when they dissipate. If this explosion hits an enemy suffering a Wind Anomaly, it triggers one instance of Abloom DMG against the target: resolves an additional instance of Attribute Anomaly DMG, dealing a fixed 85% and 135% multiplier Wind Anomaly DMG respectively."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "When Velina's initial Energy Regen exceeds 1.2, every additional 0.01 increases DMG dealt by 0.21%, up to a maximum increase of 35%, and increases Anomaly Mastery by 0.5, up to a maximum increase of 84.\nWhen Velina enters the battlefield, she gains 45 . In Investigation Zone mode, this effect can trigger once every 180s. Using EX Special Attack: Wind Shear - Purifying Rise or EX Special Attack: Wind Shear - Triple Deathblow grants 45 Windbloom, up to a maximum of 135 Windbloom.\nWhen Velina triggers Vortex, she gains 1 point of and summons a , dealing Wind DMG. This effect can trigger once every 3s. When Velina has 2 points of Windbite, the next time she triggers Vortex, 2 points of Windbite are consumed to increase that Vortex's DMG Multiplier by 100%. In addition, a is summoned instead of a Condensed Cyclone, which does not grant Windbite.\nWhen Velina's summoned Sweeping Cyclone hits an enemy suffering Contamination for the first time, it triggers , converting it into a Sweeping Cyclone of the corresponding attribute, dealing the corresponding attribute's DMG. When Sweeping Cyclone hits an enemy, the enemy's Wind Anomaly Buildup RES is reduced by 7% for 35s. Repeated triggers reset the duration. If a Sweeping Cyclone enhanced by Chromatic Tint hits an enemy, the enemy's corresponding Attribute Anomaly Buildup RES is also reduced by 7% for 35s. Repeated triggers reset the duration.\nWhen an enemy affected by Sweeping Cyclone is defeated, the duration of that Sweeping Cyclone is extended by 5s. This effect can only trigger once for the same Sweeping Cyclone, and only one Sweeping Cyclone can exist at a time.\nCondensed Cyclone and Sweeping Cyclone trigger an explosion when they dissipate. If this explosion hits an enemy suffering a Wind Anomaly, it triggers one instance of Abloom DMG against the target: resolves an additional instance of Attribute Anomaly DMG, dealing a fixed 95% and 155% multiplier Wind Anomaly DMG respectively."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "When Velina's initial Energy Regen exceeds 1.2, every additional 0.01 increases DMG dealt by 0.21%, up to a maximum increase of 35%, and increases Anomaly Mastery by 0.5, up to a maximum increase of 84.\nWhen Velina enters the battlefield, she gains 45 . In Investigation Zone mode, this effect can trigger once every 180s. Using EX Special Attack: Wind Shear - Purifying Rise or EX Special Attack: Wind Shear - Triple Deathblow grants 45 Windbloom, up to a maximum of 135 Windbloom.\nWhen Velina triggers Vortex, she gains 1 point of and summons a , dealing Wind DMG. This effect can trigger once every 3s. When Velina has 2 points of Windbite, the next time she triggers Vortex, 2 points of Windbite are consumed to increase that Vortex's DMG Multiplier by 110%. In addition, a is summoned instead of a Condensed Cyclone, which does not grant Windbite.\nWhen Velina's summoned Sweeping Cyclone hits an enemy suffering Contamination for the first time, it triggers , converting it into a Sweeping Cyclone of the corresponding attribute, dealing the corresponding attribute's DMG. When Sweeping Cyclone hits an enemy, the enemy's Wind Anomaly Buildup RES is reduced by 7% for 35s. Repeated triggers reset the duration. If a Sweeping Cyclone enhanced by Chromatic Tint hits an enemy, the enemy's corresponding Attribute Anomaly Buildup RES is also reduced by 7% for 35s. Repeated triggers reset the duration.\nWhen an enemy affected by Sweeping Cyclone is defeated, the duration of that Sweeping Cyclone is extended by 5s. This effect can only trigger once for the same Sweeping Cyclone, and only one Sweeping Cyclone can exist at a time.\nCondensed Cyclone and Sweeping Cyclone trigger an explosion when they dissipate. If this explosion hits an enemy suffering a Wind Anomaly, it triggers one instance of Abloom DMG against the target: resolves an additional instance of Attribute Anomaly DMG, dealing a fixed 105% and 175% multiplier Wind Anomaly DMG respectively."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "When Velina's initial Energy Regen exceeds 1.2, every additional 0.01 increases DMG dealt by 0.21%, up to a maximum increase of 35%, and increases Anomaly Mastery by 0.5, up to a maximum increase of 84.\nWhen Velina enters the battlefield, she gains 45 . In Investigation Zone mode, this effect can trigger once every 180s. Using EX Special Attack: Wind Shear - Purifying Rise or EX Special Attack: Wind Shear - Triple Deathblow grants 45 Windbloom, up to a maximum of 135 Windbloom.\nWhen Velina triggers Vortex, she gains 1 point of and summons a , dealing Wind DMG. This effect can trigger once every 3s. When Velina has 2 points of Windbite, the next time she triggers Vortex, 2 points of Windbite are consumed to increase that Vortex's DMG Multiplier by 120%. In addition, a is summoned instead of a Condensed Cyclone, which does not grant Windbite.\nWhen Velina's summoned Sweeping Cyclone hits an enemy suffering Contamination for the first time, it triggers , converting it into a Sweeping Cyclone of the corresponding attribute, dealing the corresponding attribute's DMG. When Sweeping Cyclone hits an enemy, the enemy's Wind Anomaly Buildup RES is reduced by 7% for 35s. Repeated triggers reset the duration. If a Sweeping Cyclone enhanced by Chromatic Tint hits an enemy, the enemy's corresponding Attribute Anomaly Buildup RES is also reduced by 7% for 35s. Repeated triggers reset the duration.\nWhen an enemy affected by Sweeping Cyclone is defeated, the duration of that Sweeping Cyclone is extended by 5s. This effect can only trigger once for the same Sweeping Cyclone, and only one Sweeping Cyclone can exist at a time.\nCondensed Cyclone and Sweeping Cyclone trigger an explosion when they dissipate. If this explosion hits an enemy suffering a Wind Anomaly, it triggers one instance of Abloom DMG against the target: resolves an additional instance of Attribute Anomaly DMG, dealing a fixed 115% and 195% multiplier Wind Anomaly DMG respectively."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "When Velina's initial Energy Regen exceeds 1.2, every additional 0.01 increases DMG dealt by 0.21%, up to a maximum increase of 35%, and increases Anomaly Mastery by 0.5, up to a maximum increase of 84.\nWhen Velina enters the battlefield, she gains 45 . In Investigation Zone mode, this effect can trigger once every 180s. Using EX Special Attack: Wind Shear - Purifying Rise or EX Special Attack: Wind Shear - Triple Deathblow grants 45 Windbloom, up to a maximum of 135 Windbloom.\nWhen Velina triggers Vortex, she gains 1 point of and summons a , dealing Wind DMG. This effect can trigger once every 3s. When Velina has 2 points of Windbite, the next time she triggers Vortex, 2 points of Windbite are consumed to increase that Vortex's DMG Multiplier by 130%. In addition, a is summoned instead of a Condensed Cyclone, which does not grant Windbite.\nWhen Velina's summoned Sweeping Cyclone hits an enemy suffering Contamination for the first time, it triggers , converting it into a Sweeping Cyclone of the corresponding attribute, dealing the corresponding attribute's DMG. When Sweeping Cyclone hits an enemy, the enemy's Wind Anomaly Buildup RES is reduced by 7% for 35s. Repeated triggers reset the duration. If a Sweeping Cyclone enhanced by Chromatic Tint hits an enemy, the enemy's corresponding Attribute Anomaly Buildup RES is also reduced by 7% for 35s. Repeated triggers reset the duration.\nWhen an enemy affected by Sweeping Cyclone is defeated, the duration of that Sweeping Cyclone is extended by 5s. This effect can only trigger once for the same Sweeping Cyclone, and only one Sweeping Cyclone can exist at a time.\nCondensed Cyclone and Sweeping Cyclone trigger an explosion when they dissipate. If this explosion hits an enemy suffering a Wind Anomaly, it triggers one instance of Abloom DMG against the target: resolves an additional instance of Attribute Anomaly DMG, dealing a fixed 125% and 215% multiplier Wind Anomaly DMG respectively."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "When Velina's initial Energy Regen exceeds 1.2, every additional 0.01 increases DMG dealt by 0.21%, up to a maximum increase of 35%, and increases Anomaly Mastery by 0.5, up to a maximum increase of 84.\nWhen Velina enters the battlefield, she gains 45 . In Investigation Zone mode, this effect can trigger once every 180s. Using EX Special Attack: Wind Shear - Purifying Rise or EX Special Attack: Wind Shear - Triple Deathblow grants 45 Windbloom, up to a maximum of 135 Windbloom.\nWhen Velina triggers Vortex, she gains 1 point of and summons a , dealing Wind DMG. This effect can trigger once every 3s. When Velina has 2 points of Windbite, the next time she triggers Vortex, 2 points of Windbite are consumed to increase that Vortex's DMG Multiplier by 140%. In addition, a is summoned instead of a Condensed Cyclone, which does not grant Windbite.\nWhen Velina's summoned Sweeping Cyclone hits an enemy suffering Contamination for the first time, it triggers , converting it into a Sweeping Cyclone of the corresponding attribute, dealing the corresponding attribute's DMG. When Sweeping Cyclone hits an enemy, the enemy's Wind Anomaly Buildup RES is reduced by 7% for 35s. Repeated triggers reset the duration. If a Sweeping Cyclone enhanced by Chromatic Tint hits an enemy, the enemy's corresponding Attribute Anomaly Buildup RES is also reduced by 7% for 35s. Repeated triggers reset the duration.\nWhen an enemy affected by Sweeping Cyclone is defeated, the duration of that Sweeping Cyclone is extended by 5s. This effect can only trigger once for the same Sweeping Cyclone, and only one Sweeping Cyclone can exist at a time.\nCondensed Cyclone and Sweeping Cyclone trigger an explosion when they dissipate. If this explosion hits an enemy suffering a Wind Anomaly, it triggers one instance of Abloom DMG against the target: resolves an additional instance of Attribute Anomaly DMG, dealing a fixed 135% and 235% multiplier Wind Anomaly DMG respectively."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "When Velina's initial Energy Regen exceeds 1.2, every additional 0.01 increases DMG dealt by 0.21%, up to a maximum increase of 35%, and increases Anomaly Mastery by 0.5, up to a maximum increase of 84.\nWhen Velina enters the battlefield, she gains 45 . In Investigation Zone mode, this effect can trigger once every 180s. Using EX Special Attack: Wind Shear - Purifying Rise or EX Special Attack: Wind Shear - Triple Deathblow grants 45 Windbloom, up to a maximum of 135 Windbloom.\nWhen Velina triggers Vortex, she gains 1 point of and summons a , dealing Wind DMG. This effect can trigger once every 3s. When Velina has 2 points of Windbite, the next time she triggers Vortex, 2 points of Windbite are consumed to increase that Vortex's DMG Multiplier by 150%. In addition, a is summoned instead of a Condensed Cyclone, which does not grant Windbite.\nWhen Velina's summoned Sweeping Cyclone hits an enemy suffering Contamination for the first time, it triggers , converting it into a Sweeping Cyclone of the corresponding attribute, dealing the corresponding attribute's DMG. When Sweeping Cyclone hits an enemy, the enemy's Wind Anomaly Buildup RES is reduced by 7% for 35s. Repeated triggers reset the duration. If a Sweeping Cyclone enhanced by Chromatic Tint hits an enemy, the enemy's corresponding Attribute Anomaly Buildup RES is also reduced by 7% for 35s. Repeated triggers reset the duration.\nWhen an enemy affected by Sweeping Cyclone is defeated, the duration of that Sweeping Cyclone is extended by 5s. This effect can only trigger once for the same Sweeping Cyclone, and only one Sweeping Cyclone can exist at a time.\nCondensed Cyclone and Sweeping Cyclone trigger an explosion when they dissipate. If this explosion hits an enemy suffering a Wind Anomaly, it triggers one instance of Abloom DMG against the target: resolves an additional instance of Attribute Anomaly DMG, dealing a fixed 145% and 255% multiplier Wind Anomaly DMG respectively."
-                  }
-                ]
-              },
-              {
-                "name": "Additional Ability: Tea Party Etiquette",
-                "type": "Additional Ability",
-                "desc": "When another character in your squad is an Anomaly character or shares the same attribute:\nVelina's Windswept and Vortex DMG increases by 10%. When the heavy attack from an Ultimate hits an enemy suffering a Wind Attribute Anomaly, it triggers an instance of Abloom DMG against the target: resolves one additional instance of Attribute Anomaly DMG, fixed at 680% of Wind Attribute Anomaly DMG.\nFor Core Passive: Breeze in Bloom, the Attribute Anomaly Buildup RES reduction from is further increased by 7%, while Daze inflicted increases by 30%, and accumulated Attribute Anomaly Buildup increases by 15%.",
-                "levels": []
-              }
-            ]
-          },
-          {
-            "title": "Mindscape Cinema",
-            "entries": [
-              {
-                "name": "Orderly Elegance",
-                "type": "Mindscape 1",
-                "desc": "Sweeping Cyclone from Additional Ability: Tea Party Etiquette deals an additional 20% Daze. When Velina triggers Vortex, she ignores 20% of the target's All-Attribute RES. When squad members deal Windswept DMG, 20% of the target's Wind RES is ignored."
-              },
-              {
-                "name": "Saturation Project",
-                "type": "Mindscape 2",
-                "desc": "When Velina triggers Windswept, she can also gain 1 point of Windbite. This effect can trigger once every 5s. After Sweeping Cyclone triggers the Chromatic Tint effect, it can accumulate the corresponding attribute's Anomaly Buildup. The buildup accumulated by this attack is excluded from Anomaly DMG calculations. The DMG increase effects of Velina's Windswept and Vortex from Additional Ability: Tea Party Etiquette are further increased by 15%."
-              },
-              {
-                "name": "Conquest by Etiquette",
-                "type": "Mindscape 3",
-                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
-              },
-              {
-                "name": "Tea Party Tribunal",
-                "type": "Mindscape 4",
-                "desc": "When Velina uses an EX Special Attack, her ATK increases by 15% for 40s. Repeated triggers reset the duration."
-              },
-              {
-                "name": "Death Witch",
-                "type": "Mindscape 5",
-                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
-              },
-              {
-                "name": "Chief Angel",
-                "type": "Mindscape 6",
-                "desc": "When Velina consumes 2 points of Windbite to increase the DMG Multiplier of Vortex, she gains 1 point of Windbite. This effect can trigger once every 6s. When Velina hits an enemy suffering a Wind Attribute Anomaly, the Wind Attribute Anomaly Buildup she inflicts increases by 20%. When Velina inflicts Windswept on an enemy already affected by Windswept, the new Windswept's DMG increases based on the remaining duration of the previous. Each remaining second increases the DMG by 2.5%, up to a maximum increase of 40%."
-              }
-            ]
-          }
-        ]
-      },
-      "req": {
-        "ascension": [
-          {
-            "id": "100213",
-            "name": "Basic Anomaly Certification Seal",
-            "qty": 4,
-            "rar": 1,
-            "kind": "gem",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff01.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          },
-          {
-            "id": "100223",
-            "name": "Advanced Anomaly Certification Seal",
-            "qty": 32,
-            "rar": 3,
-            "kind": "gem",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff02.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          },
-          {
-            "id": "100233",
-            "name": "Controller Certification Seal",
-            "qty": 30,
-            "rar": 4,
-            "kind": "gem",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff03.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          }
-        ],
-        "talents": [
-          {
-            "id": "100116",
-            "name": "Basic Windbite Chip",
-            "qty": 25,
-            "rar": 1,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind01.webp",
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100126",
-            "name": "Advanced Windbite Chip",
-            "qty": 75,
-            "rar": 3,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100136",
-            "name": "Specialized Windbite Chip",
-            "qty": 250,
-            "rar": 4,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100941",
-            "name": "Hamster Cage Pass",
-            "qty": 5,
-            "rar": 5,
-            "kind": "crown",
-            "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
-            "source": "Event / New Eridu City Fund",
-            "sourceDetails": [
-              {
-                "name": "Event / New Eridu City Fund"
-              }
-            ]
-          },
-          {
-            "id": "110010",
-            "name": "Timeworn Husk",
-            "qty": 9,
-            "rar": 5,
-            "kind": "weekly",
-            "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
-            "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
-            "source": "Girtablullu",
-            "sourceDetails": [
-              {
-                "name": "Girtablullu",
-                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
-              }
-            ]
-          },
-          {
-            "id": "110515",
-            "name": "Higher Dimensional Data: Deep Erosion Circuit",
-            "qty": 60,
-            "rar": 4,
-            "kind": "boss",
-            "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
-            "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
-            "source": "the Airspace Sentinel / Expert Challenge",
-            "sourceDetails": [
-              {
-                "name": "Airspace Sentinel",
-                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
-              },
-              {
-                "name": "Expert Challenge"
-              }
-            ]
-          }
-        ],
-        "talentStages": [
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "100116",
-                  "name": "Basic Windbite Chip",
-                  "qty": 2,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 3000,
-              "items": [
-                {
-                  "id": "100116",
-                  "name": "Basic Windbite Chip",
-                  "qty": 3,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 6000,
-              "items": [
-                {
-                  "id": "100126",
-                  "name": "Advanced Windbite Chip",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 9000,
-              "items": [
-                {
-                  "id": "100126",
-                  "name": "Advanced Windbite Chip",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "100126",
-                  "name": "Advanced Windbite Chip",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 18000,
-              "items": [
-                {
-                  "id": "100126",
-                  "name": "Advanced Windbite Chip",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "100136",
-                  "name": "Specialized Windbite Chip",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 67500,
-              "items": [
-                {
-                  "id": "100136",
-                  "name": "Specialized Windbite Chip",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 90000,
-              "items": [
-                {
-                  "id": "100136",
-                  "name": "Specialized Windbite Chip",
-                  "qty": 10,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 112500,
-              "items": [
-                {
-                  "id": "100136",
-                  "name": "Specialized Windbite Chip",
-                  "qty": 12,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 135000,
-              "items": [
-                {
-                  "id": "100136",
-                  "name": "Specialized Windbite Chip",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                },
-                {
-                  "id": "100941",
-                  "name": "Hamster Cage Pass",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "crown",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
-                  "source": "Event / New Eridu City Fund",
-                  "sourceDetails": [
-                    {
-                      "name": "Event / New Eridu City Fund"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "100116",
-                  "name": "Basic Windbite Chip",
-                  "qty": 2,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 3000,
-              "items": [
-                {
-                  "id": "100116",
-                  "name": "Basic Windbite Chip",
-                  "qty": 3,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 6000,
-              "items": [
-                {
-                  "id": "100126",
-                  "name": "Advanced Windbite Chip",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 9000,
-              "items": [
-                {
-                  "id": "100126",
-                  "name": "Advanced Windbite Chip",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "100126",
-                  "name": "Advanced Windbite Chip",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 18000,
-              "items": [
-                {
-                  "id": "100126",
-                  "name": "Advanced Windbite Chip",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "100136",
-                  "name": "Specialized Windbite Chip",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 67500,
-              "items": [
-                {
-                  "id": "100136",
-                  "name": "Specialized Windbite Chip",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 90000,
-              "items": [
-                {
-                  "id": "100136",
-                  "name": "Specialized Windbite Chip",
-                  "qty": 10,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 112500,
-              "items": [
-                {
-                  "id": "100136",
-                  "name": "Specialized Windbite Chip",
-                  "qty": 12,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 135000,
-              "items": [
-                {
-                  "id": "100136",
-                  "name": "Specialized Windbite Chip",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                },
-                {
-                  "id": "100941",
-                  "name": "Hamster Cage Pass",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "crown",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
-                  "source": "Event / New Eridu City Fund",
-                  "sourceDetails": [
-                    {
-                      "name": "Event / New Eridu City Fund"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "100116",
-                  "name": "Basic Windbite Chip",
-                  "qty": 2,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 3000,
-              "items": [
-                {
-                  "id": "100116",
-                  "name": "Basic Windbite Chip",
-                  "qty": 3,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 6000,
-              "items": [
-                {
-                  "id": "100126",
-                  "name": "Advanced Windbite Chip",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 9000,
-              "items": [
-                {
-                  "id": "100126",
-                  "name": "Advanced Windbite Chip",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "100126",
-                  "name": "Advanced Windbite Chip",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 18000,
-              "items": [
-                {
-                  "id": "100126",
-                  "name": "Advanced Windbite Chip",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "100136",
-                  "name": "Specialized Windbite Chip",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 67500,
-              "items": [
-                {
-                  "id": "100136",
-                  "name": "Specialized Windbite Chip",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 90000,
-              "items": [
-                {
-                  "id": "100136",
-                  "name": "Specialized Windbite Chip",
-                  "qty": 10,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 112500,
-              "items": [
-                {
-                  "id": "100136",
-                  "name": "Specialized Windbite Chip",
-                  "qty": 12,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 135000,
-              "items": [
-                {
-                  "id": "100136",
-                  "name": "Specialized Windbite Chip",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                },
-                {
-                  "id": "100941",
-                  "name": "Hamster Cage Pass",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "crown",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
-                  "source": "Event / New Eridu City Fund",
-                  "sourceDetails": [
-                    {
-                      "name": "Event / New Eridu City Fund"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "100116",
-                  "name": "Basic Windbite Chip",
-                  "qty": 2,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 3000,
-              "items": [
-                {
-                  "id": "100116",
-                  "name": "Basic Windbite Chip",
-                  "qty": 3,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 6000,
-              "items": [
-                {
-                  "id": "100126",
-                  "name": "Advanced Windbite Chip",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 9000,
-              "items": [
-                {
-                  "id": "100126",
-                  "name": "Advanced Windbite Chip",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "100126",
-                  "name": "Advanced Windbite Chip",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 18000,
-              "items": [
-                {
-                  "id": "100126",
-                  "name": "Advanced Windbite Chip",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "100136",
-                  "name": "Specialized Windbite Chip",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 67500,
-              "items": [
-                {
-                  "id": "100136",
-                  "name": "Specialized Windbite Chip",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 90000,
-              "items": [
-                {
-                  "id": "100136",
-                  "name": "Specialized Windbite Chip",
-                  "qty": 10,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 112500,
-              "items": [
-                {
-                  "id": "100136",
-                  "name": "Specialized Windbite Chip",
-                  "qty": 12,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 135000,
-              "items": [
-                {
-                  "id": "100136",
-                  "name": "Specialized Windbite Chip",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                },
-                {
-                  "id": "100941",
-                  "name": "Hamster Cage Pass",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "crown",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
-                  "source": "Event / New Eridu City Fund",
-                  "sourceDetails": [
-                    {
-                      "name": "Event / New Eridu City Fund"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "100116",
-                  "name": "Basic Windbite Chip",
-                  "qty": 2,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 3000,
-              "items": [
-                {
-                  "id": "100116",
-                  "name": "Basic Windbite Chip",
-                  "qty": 3,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 6000,
-              "items": [
-                {
-                  "id": "100126",
-                  "name": "Advanced Windbite Chip",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 9000,
-              "items": [
-                {
-                  "id": "100126",
-                  "name": "Advanced Windbite Chip",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "100126",
-                  "name": "Advanced Windbite Chip",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 18000,
-              "items": [
-                {
-                  "id": "100126",
-                  "name": "Advanced Windbite Chip",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "100136",
-                  "name": "Specialized Windbite Chip",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 67500,
-              "items": [
-                {
-                  "id": "100136",
-                  "name": "Specialized Windbite Chip",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 90000,
-              "items": [
-                {
-                  "id": "100136",
-                  "name": "Specialized Windbite Chip",
-                  "qty": 10,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 112500,
-              "items": [
-                {
-                  "id": "100136",
-                  "name": "Specialized Windbite Chip",
-                  "qty": 12,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 135000,
-              "items": [
-                {
-                  "id": "100136",
-                  "name": "Specialized Windbite Chip",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                },
-                {
-                  "id": "100941",
-                  "name": "Hamster Cage Pass",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "crown",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
-                  "source": "Event / New Eridu City Fund",
-                  "sourceDetails": [
-                    {
-                      "name": "Event / New Eridu City Fund"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 5000,
-              "items": []
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "110515",
-                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
-                  "qty": 2,
-                  "rar": 4,
-                  "kind": "boss",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
-                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
-                  "source": "the Airspace Sentinel / Expert Challenge",
-                  "sourceDetails": [
-                    {
-                      "name": "Airspace Sentinel",
-                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
-                    },
-                    {
-                      "name": "Expert Challenge"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 28000,
-              "items": [
-                {
-                  "id": "110515",
-                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
-                  "qty": 4,
-                  "rar": 4,
-                  "kind": "boss",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
-                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
-                  "source": "the Airspace Sentinel / Expert Challenge",
-                  "sourceDetails": [
-                    {
-                      "name": "Airspace Sentinel",
-                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
-                    },
-                    {
-                      "name": "Expert Challenge"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 60000,
-              "items": [
-                {
-                  "id": "110010",
-                  "name": "Timeworn Husk",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
-                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
-                  "source": "Girtablullu",
-                  "sourceDetails": [
-                    {
-                      "name": "Girtablullu",
-                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
-                    }
-                  ]
-                },
-                {
-                  "id": "110515",
-                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
-                  "qty": 9,
-                  "rar": 4,
-                  "kind": "boss",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
-                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
-                  "source": "the Airspace Sentinel / Expert Challenge",
-                  "sourceDetails": [
-                    {
-                      "name": "Airspace Sentinel",
-                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
-                    },
-                    {
-                      "name": "Expert Challenge"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 100000,
-              "items": [
-                {
-                  "id": "110010",
-                  "name": "Timeworn Husk",
-                  "qty": 3,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
-                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
-                  "source": "Girtablullu",
-                  "sourceDetails": [
-                    {
-                      "name": "Girtablullu",
-                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
-                    }
-                  ]
-                },
-                {
-                  "id": "110515",
-                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "boss",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
-                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
-                  "source": "the Airspace Sentinel / Expert Challenge",
-                  "sourceDetails": [
-                    {
-                      "name": "Airspace Sentinel",
-                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
-                    },
-                    {
-                      "name": "Expert Challenge"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 200000,
-              "items": [
-                {
-                  "id": "110010",
-                  "name": "Timeworn Husk",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
-                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
-                  "source": "Girtablullu",
-                  "sourceDetails": [
-                    {
-                      "name": "Girtablullu",
-                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
-                    }
-                  ]
-                },
-                {
-                  "id": "110515",
-                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
-                  "qty": 30,
-                  "rar": 4,
-                  "kind": "boss",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
-                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
-                  "source": "the Airspace Sentinel / Expert Challenge",
-                  "sourceDetails": [
-                    {
-                      "name": "Airspace Sentinel",
-                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
-                    },
-                    {
-                      "name": "Expert Challenge"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        ],
-        "ascCost": 800000,
-        "talentCost": 2905000,
-        "currency": 4105000,
-        "weapon": {
-          "name": "Joyau Dore",
-          "icon": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1561.webp",
-          "art": "../../Database/Nanoka/zzz/assets/w-engines/Weapon_S_1561.webp",
-          "items": [
-            {
-              "id": "101012",
-              "name": "Anomaly Component",
-              "qty": 4,
-              "rar": 1,
-              "kind": "mob",
-              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff01.webp"
-            },
-            {
-              "id": "101022",
-              "name": "Reinforced Anomaly Component",
-              "qty": 32,
-              "rar": 3,
-              "kind": "mob",
-              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff02.webp"
-            },
-            {
-              "id": "101032",
-              "name": "Specialized Anomaly Component",
-              "qty": 30,
-              "rar": 4,
-              "kind": "mob",
-              "icon": "../../Database/Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
             }
           ],
           "cost": 400000
@@ -139791,2690 +142512,6 @@
           "cost": 320000
         }
       }
-    },
-    {
-      "id": "zzz-norma",
-      "n": "Norma",
-      "localizedNames": {
-        "en": "Norma",
-        "zh": "\u8bfa\u59c6",
-        "ja": "\u30ce\u30eb\u30e0\u30fc",
-        "ko": "\ub178\ub974\ub9c8"
-      },
-      "slug": "norma",
-      "releasePatch": "2.5",
-      "updated": 1780783200000,
-      "sourceOrder": 0,
-      "voiceActors": {
-        "english": "imdb:nm9332106|Madeline Dorroh",
-        "japanese": "F\u016bka Izumi|Izumi F\u016bka (\u548c\u6cc9 \u98a8\u82b1)",
-        "chinese": "https://zh.moegirl.org.cn/\u738b\u6653\u5f64|Wang Xiaotong (\u738b\u6653\u5f64)",
-        "korean": "ko:\uae40\uc724\ucc44|Kim Yun-chae (\uae40\uc724\ucc44)"
-      },
-      "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1571.webp",
-      "iconZoom": 1.24,
-      "art": "../../Database/Prydwen/zzz/assets/characters/norma-f4dbe2ca9e48.webp",
-      "card": "../../Database/Prydwen/zzz/assets/characters/norma-37b562dcffd6.webp",
-      "status": "beta",
-      "labels": [
-        "3.0"
-      ],
-      "r": "S",
-      "el": "Fire",
-      "spec": "Stun",
-      "tag": "External Strategy Department",
-      "skillIcons": [
-        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
-        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
-        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
-        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
-        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
-      ],
-      "kit": {
-        "source": "Nanoka",
-        "channel": "live",
-        "version": "3.0",
-        "sections": [
-          {
-            "title": "Skills",
-            "entries": [
-              {
-                "name": "Basic Attack: Engineering Insurance",
-                "type": "Basic",
-                "desc": "Press to activate:\nPerforms up to four attacks forward, dealing Fire DMG.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "1st-Hit DMG Multiplier",
-                        "values": [
-                          "26.1%",
-                          "28.5%",
-                          "30.9%",
-                          "33.3%",
-                          "35.7%",
-                          "38.1%",
-                          "40.5%",
-                          "42.9%",
-                          "45.3%",
-                          "47.7%",
-                          "50.1%",
-                          "52.5%"
-                        ]
-                      },
-                      {
-                        "label": "2nd-Hit DMG Multiplier",
-                        "values": [
-                          "37.8%",
-                          "41.3%",
-                          "44.8%",
-                          "48.3%",
-                          "51.8%",
-                          "55.3%",
-                          "58.8%",
-                          "62.3%",
-                          "65.8%",
-                          "69.3%",
-                          "72.8%",
-                          "76.3%"
-                        ]
-                      },
-                      {
-                        "label": "3rd-Hit DMG Multiplier",
-                        "values": [
-                          "73.3%",
-                          "80%",
-                          "86.7%",
-                          "93.4%",
-                          "100.1%",
-                          "106.8%",
-                          "113.5%",
-                          "120.2%",
-                          "126.9%",
-                          "133.6%",
-                          "140.3%",
-                          "147%"
-                        ]
-                      },
-                      {
-                        "label": "4th-Hit DMG Multiplier",
-                        "values": [
-                          "140.9%",
-                          "153.8%",
-                          "166.7%",
-                          "179.6%",
-                          "192.5%",
-                          "205.4%",
-                          "218.3%",
-                          "231.2%",
-                          "244.1%",
-                          "257%",
-                          "269.9%",
-                          "282.8%"
-                        ]
-                      },
-                      {
-                        "label": "1st-Hit Daze Multiplier",
-                        "values": [
-                          "15.6%",
-                          "16.4%",
-                          "17.2%",
-                          "18%",
-                          "18.8%",
-                          "19.6%",
-                          "20.4%",
-                          "21.2%",
-                          "22%",
-                          "22.8%",
-                          "23.6%",
-                          "24.4%"
-                        ]
-                      },
-                      {
-                        "label": "2nd-Hit Daze Multiplier",
-                        "values": [
-                          "20.3%",
-                          "21.3%",
-                          "22.3%",
-                          "23.3%",
-                          "24.3%",
-                          "25.3%",
-                          "26.3%",
-                          "27.3%",
-                          "28.3%",
-                          "29.3%",
-                          "30.3%",
-                          "31.3%"
-                        ]
-                      },
-                      {
-                        "label": "3rd-Hit Daze Multiplier",
-                        "values": [
-                          "37.8%",
-                          "39.6%",
-                          "41.4%",
-                          "43.2%",
-                          "45%",
-                          "46.8%",
-                          "48.6%",
-                          "50.4%",
-                          "52.2%",
-                          "54%",
-                          "55.8%",
-                          "57.6%"
-                        ]
-                      },
-                      {
-                        "label": "4th-Hit Daze Multiplier",
-                        "values": [
-                          "88.3%",
-                          "92.4%",
-                          "96.5%",
-                          "100.6%",
-                          "104.7%",
-                          "108.8%",
-                          "112.9%",
-                          "117%",
-                          "121.1%",
-                          "125.2%",
-                          "129.3%",
-                          "133.4%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Basic Attack: Hat Trick",
-                "type": "Basic",
-                "desc": "When Norma is the active character and is in combat, she gains 1.5% Preheated Chamber per second.\nWhen Top Hat Companion is on her head, hold to activate:\nAfter firing, Norma throws out Top Hat Companion, ordering it to unleash a round of aerial fire, dealing Fire DMG and storing the current Preheated Chamber.\nWhen the skill hits an enemy, it triggers the previous character's Quick Assist. This effect can trigger once every 5s.\nOnce Top Hat Companion has been thrown out, it will accumulate and retain Preheated Chamber at the same speed on behalf of Norma. Norma does not need to stay on the field during this period.\nAfter Norma retrieves the Top Hat Companion, she immediately gains the stored Preheated Chamber.\nWhen holding , the Top Hat Companion will accelerate toward Norma.\nIf retrieving the Top Hat Companion would raise Preheated Chamber to 80% or higher, the Top Hat Companion will automatically accelerate toward Norma.\nWhen Norma switches from on field to off field while in combat, if Preheated Chamber is not full, Top Hat Companion automatically enters the battlefield.\nAnti-Interrupt level is increased while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "56.9%",
-                          "62.1%",
-                          "67.3%",
-                          "72.5%",
-                          "77.7%",
-                          "82.9%",
-                          "88.1%",
-                          "93.3%",
-                          "98.5%",
-                          "103.7%",
-                          "108.9%",
-                          "114.1%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "34%",
-                          "35.6%",
-                          "37.2%",
-                          "38.8%",
-                          "40.4%",
-                          "42%",
-                          "43.6%",
-                          "45.2%",
-                          "46.8%",
-                          "48.4%",
-                          "50%",
-                          "51.6%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Dodge: Development Protocols",
-                "type": "Dodge",
-                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
-              },
-              {
-                "name": "Dash Attack: Deadline Rush",
-                "type": "Dodge",
-                "desc": "Press during a dodge to activate:\nSpins while firing at nearby enemies, dealing Fire DMG.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "82.3%",
-                          "89.8%",
-                          "97.3%",
-                          "104.8%",
-                          "112.3%",
-                          "119.8%",
-                          "127.3%",
-                          "134.8%",
-                          "142.3%",
-                          "149.8%",
-                          "157.3%",
-                          "164.8%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "34.9%",
-                          "36.5%",
-                          "38.1%",
-                          "39.7%",
-                          "41.3%",
-                          "42.9%",
-                          "44.5%",
-                          "46.1%",
-                          "47.7%",
-                          "49.3%",
-                          "50.9%",
-                          "52.5%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Dodge Counter: Compliance Testing",
-                "type": "Dodge",
-                "desc": "Press during a Perfect Dodge to activate:\nCommands the Rumble Drill to continuously drill the target, dealing Fire DMG.\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "313.1%",
-                          "341.6%",
-                          "370.1%",
-                          "398.6%",
-                          "427.1%",
-                          "455.6%",
-                          "484.1%",
-                          "512.6%",
-                          "541.1%",
-                          "569.6%",
-                          "598.1%",
-                          "626.6%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "229.2%",
-                          "239.7%",
-                          "250.2%",
-                          "260.7%",
-                          "271.2%",
-                          "281.7%",
-                          "292.2%",
-                          "302.7%",
-                          "313.2%",
-                          "323.7%",
-                          "334.2%",
-                          "344.7%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Quick Assist: Roaring Backup",
-                "type": "Assist",
-                "desc": "When the active character is launched, press to activate:\nCommands the Rumble Drill to continuously attack the target, dealing Fire DMG.\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "70.5%",
-                          "77%",
-                          "83.5%",
-                          "90%",
-                          "96.5%",
-                          "103%",
-                          "109.5%",
-                          "116%",
-                          "122.5%",
-                          "129%",
-                          "135.5%",
-                          "142%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "59.6%",
-                          "62.4%",
-                          "65.2%",
-                          "68%",
-                          "70.8%",
-                          "73.6%",
-                          "76.4%",
-                          "79.2%",
-                          "82%",
-                          "84.8%",
-                          "87.6%",
-                          "90.4%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Defensive Assist: Technological Bastion",
-                "type": "Assist",
-                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of Assist Points when the character is under intense attacks.\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "Light Defensive Daze Multiplier",
-                        "values": [
-                          "271.3%",
-                          "283.7%",
-                          "296.1%",
-                          "308.5%",
-                          "320.9%",
-                          "333.3%",
-                          "345.7%",
-                          "358.1%",
-                          "370.5%",
-                          "382.9%",
-                          "395.3%",
-                          "407.7%"
-                        ]
-                      },
-                      {
-                        "label": "Heavy Defensive Daze Multiplier",
-                        "values": [
-                          "342.8%",
-                          "358.4%",
-                          "374%",
-                          "389.6%",
-                          "405.2%",
-                          "420.8%",
-                          "436.4%",
-                          "452%",
-                          "467.6%",
-                          "483.2%",
-                          "498.8%",
-                          "514.4%"
-                        ]
-                      },
-                      {
-                        "label": "Chain Defensive Daze Multiplier",
-                        "values": [
-                          "166.8%",
-                          "174.4%",
-                          "182%",
-                          "189.6%",
-                          "197.2%",
-                          "204.8%",
-                          "212.4%",
-                          "220%",
-                          "227.6%",
-                          "235.2%",
-                          "242.8%",
-                          "250.4%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Assist Follow-Up: Technological Suppression",
-                "type": "Assist",
-                "desc": "Press after a Defensive Assist to activate:\nUnleashes a series of attacks, dealing Fire DMG.\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "450.8%",
-                          "491.8%",
-                          "532.8%",
-                          "573.8%",
-                          "614.8%",
-                          "655.8%",
-                          "696.8%",
-                          "737.8%",
-                          "778.8%",
-                          "819.8%",
-                          "860.8%",
-                          "901.8%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "332.4%",
-                          "347.6%",
-                          "362.8%",
-                          "378%",
-                          "393.2%",
-                          "408.4%",
-                          "423.6%",
-                          "438.8%",
-                          "454%",
-                          "469.2%",
-                          "484.4%",
-                          "499.6%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Special Attack: Thermal Shutdown",
-                "type": "Special",
-                "desc": "Press to activate:\nBombards enemies, dealing Fire DMG.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "15%",
-                          "16.4%",
-                          "17.8%",
-                          "19.2%",
-                          "20.6%",
-                          "22%",
-                          "23.4%",
-                          "24.8%",
-                          "26.2%",
-                          "27.6%",
-                          "29%",
-                          "30.4%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "16.9%",
-                          "17.7%",
-                          "18.5%",
-                          "19.3%",
-                          "20.1%",
-                          "20.9%",
-                          "21.7%",
-                          "22.5%",
-                          "23.3%",
-                          "24.1%",
-                          "24.9%",
-                          "25.7%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "EX Special Attack: En-Nah Barrage",
-                "type": "Special",
-                "desc": "With enough Energy, press to activate:\nOperates the turret to fire continuously and launch different types of missiles based on the target's state:\nWhen the primary target is not Stunned, launches an Armor-Piercing Warhead, dealing Fire DMG and inflicting a large amount of Daze.\nWhen the primary target is Stunned, launches a High-Explosive Warhead, dealing greater Fire DMG.\nAfter using this skill, Norma gains 16% and enters the En-Nah Barrage state for 32s. While En-Nah Barrage is active, Norma deploys two En-Nah Turrets to join the battle.\nContinuing to hold extends the firing time by up to 2s, continuously consuming energy. For each 1 point of energy consumed while holding, Norma gains an additional 0.4% Preheated Chamber, and this round of En-Nah Barrage lasts 0.8s longer, up to a maximum additional duration of {CAL:2*20*0.8,1,2}s.\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "Shot DMG Multiplier",
-                        "values": [
-                          "205.4%",
-                          "224.1%",
-                          "242.8%",
-                          "261.5%",
-                          "280.2%",
-                          "298.9%",
-                          "317.6%",
-                          "336.3%",
-                          "355%",
-                          "373.7%",
-                          "392.4%",
-                          "411.1%"
-                        ]
-                      },
-                      {
-                        "label": "Shot Daze Multiplier",
-                        "values": [
-                          "143.9%",
-                          "150.5%",
-                          "157.1%",
-                          "163.7%",
-                          "170.3%",
-                          "176.9%",
-                          "183.5%",
-                          "190.1%",
-                          "196.7%",
-                          "203.3%",
-                          "209.9%",
-                          "216.5%"
-                        ]
-                      },
-                      {
-                        "label": "Armor-Piercing Warhead DMG Multiplier",
-                        "values": [
-                          "308%",
-                          "336%",
-                          "364%",
-                          "392%",
-                          "420%",
-                          "448%",
-                          "476%",
-                          "504%",
-                          "532%",
-                          "560%",
-                          "588%",
-                          "616%"
-                        ]
-                      },
-                      {
-                        "label": "Armor-Piercing Warhead Daze Multiplier",
-                        "values": [
-                          "215.8%",
-                          "225.7%",
-                          "235.6%",
-                          "245.5%",
-                          "255.4%",
-                          "265.3%",
-                          "275.2%",
-                          "285.1%",
-                          "295%",
-                          "304.9%",
-                          "314.8%",
-                          "324.7%"
-                        ]
-                      },
-                      {
-                        "label": "High-Explosive Warhead DMG Multiplier",
-                        "values": [
-                          "341.4%",
-                          "372.5%",
-                          "403.6%",
-                          "434.7%",
-                          "465.8%",
-                          "496.9%",
-                          "528%",
-                          "559.1%",
-                          "590.2%",
-                          "621.3%",
-                          "652.4%",
-                          "683.5%"
-                        ]
-                      },
-                      {
-                        "label": "High-Explosive Warhead Daze Multiplier",
-                        "values": [
-                          "172.7%",
-                          "180.6%",
-                          "188.5%",
-                          "196.4%",
-                          "204.3%",
-                          "212.2%",
-                          "220.1%",
-                          "228%",
-                          "235.9%",
-                          "243.8%",
-                          "251.7%",
-                          "259.6%"
-                        ]
-                      },
-                      {
-                        "label": "Extended Shot DMG Multiplier Per Sec",
-                        "values": [
-                          "130.6%",
-                          "142.5%",
-                          "154.4%",
-                          "166.3%",
-                          "178.2%",
-                          "190.1%",
-                          "202%",
-                          "213.9%",
-                          "225.8%",
-                          "237.7%",
-                          "249.6%",
-                          "261.5%"
-                        ]
-                      },
-                      {
-                        "label": "Extended Shot Daze Multiplier Per Sec",
-                        "values": [
-                          "93.9%",
-                          "98.2%",
-                          "102.5%",
-                          "106.8%",
-                          "111.1%",
-                          "115.4%",
-                          "119.7%",
-                          "124%",
-                          "128.3%",
-                          "132.6%",
-                          "136.9%",
-                          "141.2%"
-                        ]
-                      },
-                      {
-                        "label": "Extended Shot Armor-Piercing Warhead DMG Multiplier Per Sec",
-                        "values": [
-                          "195.9%",
-                          "213.8%",
-                          "231.7%",
-                          "249.6%",
-                          "267.5%",
-                          "285.4%",
-                          "303.3%",
-                          "321.2%",
-                          "339.1%",
-                          "357%",
-                          "374.9%",
-                          "392.8%"
-                        ]
-                      },
-                      {
-                        "label": "Extended Shot Armor-Piercing Warhead Daze Multiplier Per Sec",
-                        "values": [
-                          "140.9%",
-                          "147.4%",
-                          "153.9%",
-                          "160.4%",
-                          "166.9%",
-                          "173.4%",
-                          "179.9%",
-                          "186.4%",
-                          "192.9%",
-                          "199.4%",
-                          "205.9%",
-                          "212.4%"
-                        ]
-                      },
-                      {
-                        "label": "Extended Shot High-Explosive Warhead DMG Multiplier Per Sec",
-                        "values": [
-                          "216.7%",
-                          "236.4%",
-                          "256.1%",
-                          "275.8%",
-                          "295.5%",
-                          "315.2%",
-                          "334.9%",
-                          "354.6%",
-                          "374.3%",
-                          "394%",
-                          "413.7%",
-                          "433.4%"
-                        ]
-                      },
-                      {
-                        "label": "Extended Shot High-Explosive Warhead Daze Multiplier Per Sec",
-                        "values": [
-                          "112.7%",
-                          "117.9%",
-                          "123.1%",
-                          "128.3%",
-                          "133.5%",
-                          "138.7%",
-                          "143.9%",
-                          "149.1%",
-                          "154.3%",
-                          "159.5%",
-                          "164.7%",
-                          "169.9%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Special Attack: Target Practice",
-                "type": "Special",
-                "desc": "During battle, automatically attacks enemies, dealing Fire DMG.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "195%",
-                          "212.8%",
-                          "230.6%",
-                          "248.4%",
-                          "266.2%",
-                          "284%",
-                          "301.8%",
-                          "319.6%",
-                          "337.4%",
-                          "355.2%",
-                          "373%",
-                          "390.8%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "151.3%",
-                          "158.2%",
-                          "165.1%",
-                          "172%",
-                          "178.9%",
-                          "185.8%",
-                          "192.7%",
-                          "199.6%",
-                          "206.5%",
-                          "213.4%",
-                          "220.3%",
-                          "227.2%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "EX Special Attack: Explosive Experiment",
-                "type": "Special",
-                "desc": "When any squad member Stuns an enemy, or when Norma consumes to trigger a Chain Attack, deploys its missile bay for 8s. Repeated triggers reset the duration.\nDuring this time, En-Nah Turrets automatically attack more frequently. When performing automatic attacks, they launch different missiles based on the enemy's state:\nWhen the primary target is not Stunned, launch an Armor-Piercing Warhead, dealing Fire DMG and inflicting a large amount of Daze.\nWhen the primary target is Stunned, launch a High-Explosive Warhead, dealing greater Fire DMG.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "Additional Armor-Piercing Warhead DMG Multiplier",
-                        "values": [
-                          "82.8%",
-                          "90.4%",
-                          "98%",
-                          "105.6%",
-                          "113.2%",
-                          "120.8%",
-                          "128.4%",
-                          "136%",
-                          "143.6%",
-                          "151.2%",
-                          "158.8%",
-                          "166.4%"
-                        ]
-                      },
-                      {
-                        "label": "Additional Armor-Piercing Warhead Daze Multiplier",
-                        "values": [
-                          "35%",
-                          "36.6%",
-                          "38.2%",
-                          "39.8%",
-                          "41.4%",
-                          "43%",
-                          "44.6%",
-                          "46.2%",
-                          "47.8%",
-                          "49.4%",
-                          "51%",
-                          "52.6%"
-                        ]
-                      },
-                      {
-                        "label": "Additional High-Explosive Warhead DMG Multiplier",
-                        "values": [
-                          "92.3%",
-                          "100.7%",
-                          "109.1%",
-                          "117.5%",
-                          "125.9%",
-                          "134.3%",
-                          "142.7%",
-                          "151.1%",
-                          "159.5%",
-                          "167.9%",
-                          "176.3%",
-                          "184.7%"
-                        ]
-                      },
-                      {
-                        "label": "Additional High-Explosive Warhead Daze Multiplier",
-                        "values": [
-                          "28%",
-                          "29.3%",
-                          "30.6%",
-                          "31.9%",
-                          "33.2%",
-                          "34.5%",
-                          "35.8%",
-                          "37.1%",
-                          "38.4%",
-                          "39.7%",
-                          "41%",
-                          "42.3%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Chain Attack: Impact Drill",
-                "type": "Chain",
-                "desc": "When a Chain Attack is triggered, select the character to activate:\nCommands a swarm of Rumble Drills to deal multiple hits, dealing massive Fire DMG.\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "752.7%",
-                          "821.2%",
-                          "889.7%",
-                          "958.2%",
-                          "1026.7%",
-                          "1095.2%",
-                          "1163.7%",
-                          "1232.2%",
-                          "1300.7%",
-                          "1369.2%",
-                          "1437.7%",
-                          "1506.2%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "198%",
-                          "207%",
-                          "216%",
-                          "225%",
-                          "234%",
-                          "243%",
-                          "252%",
-                          "261%",
-                          "270%",
-                          "279%",
-                          "288%",
-                          "297%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Ultimate: Doctrine of Superior Firepower",
-                "type": "Chain",
-                "desc": "When Decibel Rating is at Maximum, press to activate:\nCalls in tactical artillery to bombard enemies ahead, dealing massive Fire DMG.\nUpon activation, immediately gains 30% .\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "1936.5%",
-                          "2112.6%",
-                          "2288.7%",
-                          "2464.8%",
-                          "2640.9%",
-                          "2817%",
-                          "2993.1%",
-                          "3169.2%",
-                          "3345.3%",
-                          "3521.4%",
-                          "3697.5%",
-                          "3873.6%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "792.5%",
-                          "828.6%",
-                          "864.7%",
-                          "900.8%",
-                          "936.9%",
-                          "973%",
-                          "1009.1%",
-                          "1045.2%",
-                          "1081.3%",
-                          "1117.4%",
-                          "1153.5%",
-                          "1189.6%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Core Skill",
-            "entries": [
-              {
-                "name": "Core Passive: Precise Guidance",
-                "type": "Core Passive",
-                "desc": "When initial CRIT Rate exceeds 50%, every additional 1% increases her CRIT DMG by 1.7%, up to a maximum increase of 85%.\nWhen initial CRIT Rate exceeds 50%, every additional 1% increases the Daze dealt by her EX Special Attack, Special Attack, and Ultimate by 0.8% when they hit an enemy, up to a maximum increase of 40%.\nNorma gains additional ATK based on her Sheer Force. Every 1 point of Sheer Force increases her ATK by 1.25, up to a maximum increase of 1,200 ATK.\nUpon entering the battlefield, Norma immediately gains 60% . In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen Preheated Chamber is at least 80%, the next Basic Attack: Hat Trick can trigger a Quick Assist regardless of cooldown, and consumes 80% Preheated Chamber to replace the Quick Assist with a Chain Attack.",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "When initial CRIT Rate exceeds 50%, every additional 1% increases her CRIT DMG by 0.86%, up to a maximum increase of 43%.\nWhen initial CRIT Rate exceeds 50%, every additional 1% increases the Daze dealt by her EX Special Attack, Special Attack, and Ultimate by 0.44% when they hit an enemy, up to a maximum increase of 22%.\nNorma gains additional ATK based on her Sheer Force. Every 1 point of Sheer Force increases her ATK by 1.25, up to a maximum increase of 1,200 ATK.\nUpon entering the battlefield, Norma immediately gains 60% . In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen Preheated Chamber is at least 80%, the next Basic Attack: Hat Trick can trigger a Quick Assist regardless of cooldown, and consumes 80% Preheated Chamber to replace the Quick Assist with a Chain Attack."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "When initial CRIT Rate exceeds 50%, every additional 1% increases her CRIT DMG by 1%, up to a maximum increase of 50%.\nWhen initial CRIT Rate exceeds 50%, every additional 1% increases the Daze dealt by her EX Special Attack, Special Attack, and Ultimate by 0.5% when they hit an enemy, up to a maximum increase of 25%.\nNorma gains additional ATK based on her Sheer Force. Every 1 point of Sheer Force increases her ATK by 1.25, up to a maximum increase of 1,200 ATK.\nUpon entering the battlefield, Norma immediately gains 60% . In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen Preheated Chamber is at least 80%, the next Basic Attack: Hat Trick can trigger a Quick Assist regardless of cooldown, and consumes 80% Preheated Chamber to replace the Quick Assist with a Chain Attack."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "When initial CRIT Rate exceeds 50%, every additional 1% increases her CRIT DMG by 1.14%, up to a maximum increase of 57%.\nWhen initial CRIT Rate exceeds 50%, every additional 1% increases the Daze dealt by her EX Special Attack, Special Attack, and Ultimate by 0.56% when they hit an enemy, up to a maximum increase of 28%.\nNorma gains additional ATK based on her Sheer Force. Every 1 point of Sheer Force increases her ATK by 1.25, up to a maximum increase of 1,200 ATK.\nUpon entering the battlefield, Norma immediately gains 60% . In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen Preheated Chamber is at least 80%, the next Basic Attack: Hat Trick can trigger a Quick Assist regardless of cooldown, and consumes 80% Preheated Chamber to replace the Quick Assist with a Chain Attack."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "When initial CRIT Rate exceeds 50%, every additional 1% increases her CRIT DMG by 1.28%, up to a maximum increase of 64%.\nWhen initial CRIT Rate exceeds 50%, every additional 1% increases the Daze dealt by her EX Special Attack, Special Attack, and Ultimate by 0.62% when they hit an enemy, up to a maximum increase of 31%.\nNorma gains additional ATK based on her Sheer Force. Every 1 point of Sheer Force increases her ATK by 1.25, up to a maximum increase of 1,200 ATK.\nUpon entering the battlefield, Norma immediately gains 60% . In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen Preheated Chamber is at least 80%, the next Basic Attack: Hat Trick can trigger a Quick Assist regardless of cooldown, and consumes 80% Preheated Chamber to replace the Quick Assist with a Chain Attack."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "When initial CRIT Rate exceeds 50%, every additional 1% increases her CRIT DMG by 1.42%, up to a maximum increase of 71%.\nWhen initial CRIT Rate exceeds 50%, every additional 1% increases the Daze dealt by her EX Special Attack, Special Attack, and Ultimate by 0.68% when they hit an enemy, up to a maximum increase of 34%.\nNorma gains additional ATK based on her Sheer Force. Every 1 point of Sheer Force increases her ATK by 1.25, up to a maximum increase of 1,200 ATK.\nUpon entering the battlefield, Norma immediately gains 60% . In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen Preheated Chamber is at least 80%, the next Basic Attack: Hat Trick can trigger a Quick Assist regardless of cooldown, and consumes 80% Preheated Chamber to replace the Quick Assist with a Chain Attack."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "When initial CRIT Rate exceeds 50%, every additional 1% increases her CRIT DMG by 1.56%, up to a maximum increase of 78%.\nWhen initial CRIT Rate exceeds 50%, every additional 1% increases the Daze dealt by her EX Special Attack, Special Attack, and Ultimate by 0.74% when they hit an enemy, up to a maximum increase of 37%.\nNorma gains additional ATK based on her Sheer Force. Every 1 point of Sheer Force increases her ATK by 1.25, up to a maximum increase of 1,200 ATK.\nUpon entering the battlefield, Norma immediately gains 60% . In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen Preheated Chamber is at least 80%, the next Basic Attack: Hat Trick can trigger a Quick Assist regardless of cooldown, and consumes 80% Preheated Chamber to replace the Quick Assist with a Chain Attack."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "When initial CRIT Rate exceeds 50%, every additional 1% increases her CRIT DMG by 1.7%, up to a maximum increase of 85%.\nWhen initial CRIT Rate exceeds 50%, every additional 1% increases the Daze dealt by her EX Special Attack, Special Attack, and Ultimate by 0.8% when they hit an enemy, up to a maximum increase of 40%.\nNorma gains additional ATK based on her Sheer Force. Every 1 point of Sheer Force increases her ATK by 1.25, up to a maximum increase of 1,200 ATK.\nUpon entering the battlefield, Norma immediately gains 60% . In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen Preheated Chamber is at least 80%, the next Basic Attack: Hat Trick can trigger a Quick Assist regardless of cooldown, and consumes 80% Preheated Chamber to replace the Quick Assist with a Chain Attack."
-                  }
-                ]
-              },
-              {
-                "name": "Additional Ability: Advantage in Numbers",
-                "type": "Additional Ability",
-                "desc": "When another character in your squad is an Attack or Rupture character, or shares the same Faction:\nWhen Norma, her creations, or Combat Bangboo hit an enemy, they apply 1 stack of Tech Divide. Each stack of Tech Divide increases the target's Stun DMG Multiplier by 3%, stacking up to 10 times. This effect can stack once every 0.5s.\nEnemies with Tech Divide stacks have their Stun duration increased by 2s upon becoming Stunned. This Stun duration increase cannot stack with similar effects. When an enemy affected by Tech Divide recovers from Stun, the Tech Divide effect ends.\nWhile is active, Norma's ATK increases by 44. This effect scales with character level, increasing by 14 per level, up to a maximum increase of 870.\nWhile En-Nah Barrage is active, DMG dealt by all squad members increases by 20%.",
-                "levels": []
-              }
-            ]
-          },
-          {
-            "title": "Mindscape Cinema",
-            "entries": [
-              {
-                "name": "Visionary Extremism",
-                "type": "Mindscape 1",
-                "desc": "The duration of the En-Nah Turret's missile bay deployed by EX Special Attack: Explosive Experiment increases to 12s. When an Armor-Piercing Warhead or High-Explosive Warhead from any skill hits an enemy, the target's All-Attribute RES is reduced by 15% for 15s."
-              },
-              {
-                "name": "Axiom of Universal Unity",
-                "type": "Mindscape 2",
-                "desc": "The Stun DMG Multiplier granted by each stack of Tech Divide in Norma's Additional Ability: Advantage in Numbers is increased to 6%. When Norma uses Basic Attack: Hat Trick while in combat, she gains 25 Energy. This effect can trigger once every 20s."
-              },
-              {
-                "name": "Natural-Born Villain Paradox",
-                "type": "Mindscape 3",
-                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
-              },
-              {
-                "name": "Bangboo Superiority Theory",
-                "type": "Mindscape 4",
-                "desc": "When Norma consumes Preheated Chamber to trigger a Chain Attack, both Norma and the corresponding Agent gain 200 Decibels."
-              },
-              {
-                "name": "En-Nah Big Bang",
-                "type": "Mindscape 5",
-                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
-              },
-              {
-                "name": "The Primary Cause of Genius",
-                "type": "Mindscape 6",
-                "desc": "After any squad member Stuns an enemy, Norma will continuously summon missiles to bombard random enemies on the field for 6s. A missile is launched every 0.75s, dealing Fire DMG equal to 200% of Norma's ATK to enemies within the area. This DMG is considered Ultimate DMG. Repeated triggers reset the duration. This effect can trigger once every 30s. The Daze inflicted by Armor-Piercing Warhead increases by 30%, and the DMG dealt by High-Explosive Warhead increases by 30%."
-              }
-            ]
-          }
-        ]
-      },
-      "req": {
-        "ascension": [
-          {
-            "id": "100212",
-            "name": "Basic Stun Certification Seal",
-            "qty": 4,
-            "rar": 1,
-            "kind": "gem",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankStun01.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          },
-          {
-            "id": "100222",
-            "name": "Advanced Stun Certification Seal",
-            "qty": 32,
-            "rar": 3,
-            "kind": "gem",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankStun02.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          },
-          {
-            "id": "100232",
-            "name": "Buster Certification Seal",
-            "qty": 30,
-            "rar": 4,
-            "kind": "gem",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankStun03.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          }
-        ],
-        "talents": [
-          {
-            "id": "100111",
-            "name": "Basic Burn Chip",
-            "qty": 25,
-            "rar": 1,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire01.webp",
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100121",
-            "name": "Advanced Burn Chip",
-            "qty": 75,
-            "rar": 3,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100131",
-            "name": "Specialized Burn Chip",
-            "qty": 250,
-            "rar": 4,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100941",
-            "name": "Hamster Cage Pass",
-            "qty": 5,
-            "rar": 5,
-            "kind": "crown",
-            "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
-            "source": "Event / New Eridu City Fund",
-            "sourceDetails": [
-              {
-                "name": "Event / New Eridu City Fund"
-              }
-            ]
-          },
-          {
-            "id": "110010",
-            "name": "Timeworn Husk",
-            "qty": 9,
-            "rar": 5,
-            "kind": "weekly",
-            "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
-            "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
-            "source": "Girtablullu",
-            "sourceDetails": [
-              {
-                "name": "Girtablullu",
-                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
-              }
-            ]
-          },
-          {
-            "id": "110515",
-            "name": "Higher Dimensional Data: Deep Erosion Circuit",
-            "qty": 60,
-            "rar": 4,
-            "kind": "boss",
-            "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
-            "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
-            "source": "the Airspace Sentinel / Expert Challenge",
-            "sourceDetails": [
-              {
-                "name": "Airspace Sentinel",
-                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
-              },
-              {
-                "name": "Expert Challenge"
-              }
-            ]
-          }
-        ],
-        "talentStages": [
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "100111",
-                  "name": "Basic Burn Chip",
-                  "qty": 2,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 3000,
-              "items": [
-                {
-                  "id": "100111",
-                  "name": "Basic Burn Chip",
-                  "qty": 3,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 6000,
-              "items": [
-                {
-                  "id": "100121",
-                  "name": "Advanced Burn Chip",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 9000,
-              "items": [
-                {
-                  "id": "100121",
-                  "name": "Advanced Burn Chip",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "100121",
-                  "name": "Advanced Burn Chip",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 18000,
-              "items": [
-                {
-                  "id": "100121",
-                  "name": "Advanced Burn Chip",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 67500,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 90000,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 10,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 112500,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 12,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 135000,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                },
-                {
-                  "id": "100941",
-                  "name": "Hamster Cage Pass",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "crown",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
-                  "source": "Event / New Eridu City Fund",
-                  "sourceDetails": [
-                    {
-                      "name": "Event / New Eridu City Fund"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "100111",
-                  "name": "Basic Burn Chip",
-                  "qty": 2,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 3000,
-              "items": [
-                {
-                  "id": "100111",
-                  "name": "Basic Burn Chip",
-                  "qty": 3,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 6000,
-              "items": [
-                {
-                  "id": "100121",
-                  "name": "Advanced Burn Chip",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 9000,
-              "items": [
-                {
-                  "id": "100121",
-                  "name": "Advanced Burn Chip",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "100121",
-                  "name": "Advanced Burn Chip",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 18000,
-              "items": [
-                {
-                  "id": "100121",
-                  "name": "Advanced Burn Chip",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 67500,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 90000,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 10,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 112500,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 12,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 135000,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                },
-                {
-                  "id": "100941",
-                  "name": "Hamster Cage Pass",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "crown",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
-                  "source": "Event / New Eridu City Fund",
-                  "sourceDetails": [
-                    {
-                      "name": "Event / New Eridu City Fund"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "100111",
-                  "name": "Basic Burn Chip",
-                  "qty": 2,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 3000,
-              "items": [
-                {
-                  "id": "100111",
-                  "name": "Basic Burn Chip",
-                  "qty": 3,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 6000,
-              "items": [
-                {
-                  "id": "100121",
-                  "name": "Advanced Burn Chip",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 9000,
-              "items": [
-                {
-                  "id": "100121",
-                  "name": "Advanced Burn Chip",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "100121",
-                  "name": "Advanced Burn Chip",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 18000,
-              "items": [
-                {
-                  "id": "100121",
-                  "name": "Advanced Burn Chip",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 67500,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 90000,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 10,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 112500,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 12,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 135000,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                },
-                {
-                  "id": "100941",
-                  "name": "Hamster Cage Pass",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "crown",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
-                  "source": "Event / New Eridu City Fund",
-                  "sourceDetails": [
-                    {
-                      "name": "Event / New Eridu City Fund"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "100111",
-                  "name": "Basic Burn Chip",
-                  "qty": 2,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 3000,
-              "items": [
-                {
-                  "id": "100111",
-                  "name": "Basic Burn Chip",
-                  "qty": 3,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 6000,
-              "items": [
-                {
-                  "id": "100121",
-                  "name": "Advanced Burn Chip",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 9000,
-              "items": [
-                {
-                  "id": "100121",
-                  "name": "Advanced Burn Chip",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "100121",
-                  "name": "Advanced Burn Chip",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 18000,
-              "items": [
-                {
-                  "id": "100121",
-                  "name": "Advanced Burn Chip",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 67500,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 90000,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 10,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 112500,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 12,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 135000,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                },
-                {
-                  "id": "100941",
-                  "name": "Hamster Cage Pass",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "crown",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
-                  "source": "Event / New Eridu City Fund",
-                  "sourceDetails": [
-                    {
-                      "name": "Event / New Eridu City Fund"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "100111",
-                  "name": "Basic Burn Chip",
-                  "qty": 2,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 3000,
-              "items": [
-                {
-                  "id": "100111",
-                  "name": "Basic Burn Chip",
-                  "qty": 3,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 6000,
-              "items": [
-                {
-                  "id": "100121",
-                  "name": "Advanced Burn Chip",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 9000,
-              "items": [
-                {
-                  "id": "100121",
-                  "name": "Advanced Burn Chip",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "100121",
-                  "name": "Advanced Burn Chip",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 18000,
-              "items": [
-                {
-                  "id": "100121",
-                  "name": "Advanced Burn Chip",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 67500,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 90000,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 10,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 112500,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 12,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 135000,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                },
-                {
-                  "id": "100941",
-                  "name": "Hamster Cage Pass",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "crown",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
-                  "source": "Event / New Eridu City Fund",
-                  "sourceDetails": [
-                    {
-                      "name": "Event / New Eridu City Fund"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 5000,
-              "items": []
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "110515",
-                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
-                  "qty": 2,
-                  "rar": 4,
-                  "kind": "boss",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
-                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
-                  "source": "the Airspace Sentinel / Expert Challenge",
-                  "sourceDetails": [
-                    {
-                      "name": "Airspace Sentinel",
-                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
-                    },
-                    {
-                      "name": "Expert Challenge"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 28000,
-              "items": [
-                {
-                  "id": "110515",
-                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
-                  "qty": 4,
-                  "rar": 4,
-                  "kind": "boss",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
-                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
-                  "source": "the Airspace Sentinel / Expert Challenge",
-                  "sourceDetails": [
-                    {
-                      "name": "Airspace Sentinel",
-                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
-                    },
-                    {
-                      "name": "Expert Challenge"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 60000,
-              "items": [
-                {
-                  "id": "110010",
-                  "name": "Timeworn Husk",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
-                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
-                  "source": "Girtablullu",
-                  "sourceDetails": [
-                    {
-                      "name": "Girtablullu",
-                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
-                    }
-                  ]
-                },
-                {
-                  "id": "110515",
-                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
-                  "qty": 9,
-                  "rar": 4,
-                  "kind": "boss",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
-                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
-                  "source": "the Airspace Sentinel / Expert Challenge",
-                  "sourceDetails": [
-                    {
-                      "name": "Airspace Sentinel",
-                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
-                    },
-                    {
-                      "name": "Expert Challenge"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 100000,
-              "items": [
-                {
-                  "id": "110010",
-                  "name": "Timeworn Husk",
-                  "qty": 3,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
-                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
-                  "source": "Girtablullu",
-                  "sourceDetails": [
-                    {
-                      "name": "Girtablullu",
-                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
-                    }
-                  ]
-                },
-                {
-                  "id": "110515",
-                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "boss",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
-                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
-                  "source": "the Airspace Sentinel / Expert Challenge",
-                  "sourceDetails": [
-                    {
-                      "name": "Airspace Sentinel",
-                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
-                    },
-                    {
-                      "name": "Expert Challenge"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 200000,
-              "items": [
-                {
-                  "id": "110010",
-                  "name": "Timeworn Husk",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
-                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
-                  "source": "Girtablullu",
-                  "sourceDetails": [
-                    {
-                      "name": "Girtablullu",
-                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
-                    }
-                  ]
-                },
-                {
-                  "id": "110515",
-                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
-                  "qty": 30,
-                  "rar": 4,
-                  "kind": "boss",
-                  "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
-                  "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
-                  "source": "the Airspace Sentinel / Expert Challenge",
-                  "sourceDetails": [
-                    {
-                      "name": "Airspace Sentinel",
-                      "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
-                    },
-                    {
-                      "name": "Expert Challenge"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        ],
-        "ascCost": 800000,
-        "talentCost": 2905000,
-        "currency": 3705000
-      },
-      "recent": 1
     }
   ],
   "midGroups": [

@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-07-05T23:22:14.961Z",
+  "generatedAt": "2026-07-08T20:47:40.576Z",
   "codes": {
-    "updated": "2026-07-05T20:39:50.279Z",
+    "updated": "2026-07-08T20:26:25.131Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -19,7 +19,7 @@ var NYX_DB = {
             "needle": "primogem",
             "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
           },
-          "added": "2026-07-05",
+          "added": "2026-07-08",
           "firstSeen": "2026-07-05T17:19:20.440Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9"
@@ -62,7 +62,7 @@ var NYX_DB = {
             "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
           },
           "added": "2026-06-12",
-          "firstSeen": "2026-07-05T20:39:31.207Z",
+          "firstSeen": "2026-07-08T20:26:25.131Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LCXGEA5SX65L",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=LCXGEA5SX65L"
         }
@@ -77,7 +77,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-05",
+          "added": "2026-07-08",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK"
@@ -91,8 +91,8 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-05",
-          "firstSeen": "2026-07-05T20:39:50.279Z",
+          "added": "2026-07-08",
+          "firstSeen": "2026-07-08T09:31:05.758Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB"
         },
@@ -105,7 +105,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-05",
+          "added": "2026-07-08",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH"
@@ -119,7 +119,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-05",
+          "added": "2026-07-08",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL"
@@ -133,7 +133,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-05",
+          "added": "2026-07-08",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS"
@@ -147,7 +147,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-05",
+          "added": "2026-07-08",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA"
@@ -161,24 +161,10 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-05",
+          "added": "2026-07-08",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT"
-        },
-        {
-          "code": "BladeFitCheck",
-          "reward": "Three Traveler S Guides and Two Cold Jokes",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Stellar Jade",
-            "needle": "stellar jade",
-            "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
-          },
-          "added": "2026-06-08",
-          "firstSeen": "2026-07-05T17:19:05.883Z",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=BladeFitCheck",
-          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=BladeFitCheck"
         }
       ],
       "zzz": [
@@ -191,7 +177,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/Nanoka/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-05",
+          "added": "2026-07-08",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT"
@@ -310,17 +296,18 @@ var NYX_DB = {
     }
   },
   "banners": {
-    "updated": "2026-07-05T19:41:35.231Z",
-    "checkedAt": "2026-07-05T19:41:35.231Z",
+    "updated": "2026-07-08T08:43:54.439Z",
+    "checkedAt": "2026-07-08T19:54:38.539Z",
     "games": {
       "hsr": {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-05T19:41:35.231Z",
-          "lastSuccessfulFetch": "2026-07-05T19:41:35.231Z",
-          "lastValidUpdate": "2026-07-05T19:41:35.231Z",
-          "source": "game8"
+          "checkedAt": "2026-07-08T19:54:38.539Z",
+          "lastSuccessfulFetch": "2026-07-08T08:43:54.439Z",
+          "lastValidUpdate": "2026-07-08T08:43:54.439Z",
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "4.3",
@@ -380,10 +367,11 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-05T19:41:35.231Z",
-          "lastSuccessfulFetch": "2026-07-05T19:41:35.231Z",
-          "lastValidUpdate": "2026-07-05T19:41:35.231Z",
-          "source": "game8"
+          "checkedAt": "2026-07-08T19:54:38.539Z",
+          "lastSuccessfulFetch": "2026-07-08T08:43:54.439Z",
+          "lastValidUpdate": "2026-07-08T08:43:54.439Z",
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "6.7 Phase 1",
@@ -434,10 +422,11 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-05T19:41:35.231Z",
-          "lastSuccessfulFetch": "2026-07-05T19:41:35.231Z",
-          "lastValidUpdate": "2026-07-05T19:41:35.231Z",
-          "source": "game8"
+          "checkedAt": "2026-07-08T19:54:38.539Z",
+          "lastSuccessfulFetch": "2026-07-08T08:43:54.439Z",
+          "lastValidUpdate": "2026-07-08T08:43:54.439Z",
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": null,
@@ -622,40 +611,15 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-05T19:41:35.231Z",
-          "lastSuccessfulFetch": "2026-07-05T19:41:35.231Z",
-          "lastValidUpdate": "2026-07-05T19:41:35.231Z",
-          "source": "game8"
+          "checkedAt": "2026-07-08T19:54:38.539Z",
+          "lastSuccessfulFetch": "2026-07-08T08:43:54.439Z",
+          "lastValidUpdate": "2026-07-08T08:43:54.439Z",
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": null,
           "start": null,
-          "end": "2026-07-08T10:00:00.000Z",
-          "characters": [
-            {
-              "name": "Velina",
-              "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1561.webp",
-              "iconFallback": "../../Database/Nanoka/zzz/assets/IconRoleSelect64.webp",
-              "iconZoom": true,
-              "art": "../../Database/Prydwen/zzz/assets/characters/velina-542b0a87d52a.webp",
-              "namecard": null,
-              "rarity": "S"
-            },
-            {
-              "name": "Ye Shunguang",
-              "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1431.webp",
-              "iconFallback": "../../Database/Nanoka/zzz/assets/IconRoleSelect55.webp",
-              "iconZoom": true,
-              "art": "../../Database/Prydwen/zzz/assets/characters/ye-shunguang-bdd0b5faf96c.webp",
-              "namecard": null,
-              "rarity": "S"
-            }
-          ],
-          "subBanners": []
-        },
-        "next": {
-          "phase": null,
-          "start": "2026-07-08T10:00:00.000Z",
           "end": "2026-07-28T10:00:00.000Z",
           "characters": [
             {
@@ -679,16 +643,18 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
+        "next": null,
         "upcoming": []
       },
       "ae": {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-05T19:41:35.231Z",
-          "lastSuccessfulFetch": "2026-07-05T19:41:35.231Z",
-          "lastValidUpdate": "2026-07-05T19:41:35.231Z",
-          "source": "game8"
+          "checkedAt": "2026-07-08T19:54:38.539Z",
+          "lastSuccessfulFetch": "2026-07-08T08:43:54.439Z",
+          "lastValidUpdate": "2026-07-08T08:43:54.439Z",
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "1.3 Phase 2",
@@ -4389,7 +4355,7 @@ var NYX_DB = {
             "needle": "primogem",
             "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
           },
-          "added": "2026-07-05",
+          "added": "2026-07-08",
           "firstSeen": "2026-07-05T17:19:20.440Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9"
@@ -4432,7 +4398,7 @@ var NYX_DB = {
             "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
           },
           "added": "2026-06-12",
-          "firstSeen": "2026-07-05T20:39:31.207Z",
+          "firstSeen": "2026-07-08T20:26:25.131Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LCXGEA5SX65L",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=LCXGEA5SX65L"
         }
@@ -4441,10 +4407,11 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-05T19:41:35.231Z",
-          "lastSuccessfulFetch": "2026-07-05T19:41:35.231Z",
-          "lastValidUpdate": "2026-07-05T19:41:35.231Z",
-          "source": "game8"
+          "checkedAt": "2026-07-08T19:54:38.539Z",
+          "lastSuccessfulFetch": "2026-07-08T08:43:54.439Z",
+          "lastValidUpdate": "2026-07-08T08:43:54.439Z",
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "6.7 Phase 1",
@@ -4492,7 +4459,7 @@ var NYX_DB = {
         "upcoming": []
       },
       "tcg": {
-        "updated": "2026-07-05T17:12:35.038Z",
+        "updated": "2026-07-08T09:20:01.521Z",
         "counts": {
           "characterCards": 106,
           "otherCards": 513
@@ -9784,7 +9751,7 @@ var NYX_DB = {
             "talent": {
               "13171": {
                 "name": "Radiant Wingslash",
-                "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT] DMG.",
+                "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
                 "child": {
                   "d_key_damage": 2,
                   "d_key_element": "GCG_ELEMENT_VOID"
@@ -9809,7 +9776,7 @@ var NYX_DB = {
               },
               "13173": {
                 "name": "Principle of Purity: As the Light Shifts",
-                "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], creates 1 <color=#FFFFFFFF>$[C113171]</color>.",
+                "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT] and create <color=#FFFFFFFF>$[C113171]</color>.",
                 "child": {
                   "d_key_damage": 1,
                   "d_key_element": "GCG_ELEMENT_PYRO",
@@ -9836,7 +9803,7 @@ var NYX_DB = {
               },
               "13175": {
                 "name": "Light Manifest of the Divine Calculus",
-                "desc": "[Passive] <color=#FFFFFFFF>After you use a Normal Attack:</color> Switch your Elemental Burst to <color=#FFFFFFFF>$[S13174]</color>.\\n<color=#FFFFFFFF>After you use an Elemental Skill:</color> Switch your Elemental Burst to <color=#FFFFFFFF>$[S13173]</color>.",
+                "desc": "(Passive) <color=#FFFFFFFF>After this character uses a Normal Attack:</color> Switches their Elemental Burst to <color=#FFFFFFFF>$[S13174]</color>.\\n<color=#FFFFFFFF>After this character uses an Elemental Skill:</color> Switches their Elemental Burst to<color=#FFFFFFFF>$[S13173]</color>.",
                 "child": {
                   "s13174": "S13174",
                   "s13173": "S13173"
@@ -13371,7 +13338,7 @@ var NYX_DB = {
             "name": "Jahoda",
             "title": "\"Windthreading Shadow\" Jahoda",
             "description": "Persistent thought brings light to even the deepest secrets.",
-            "sourceText": "Reward for inviting Jahoda to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
+            "sourceText": "Reward for inviting Jahoda to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
             "localizedNames": {
               "en": "Jahoda",
               "zh": "\u96c5\u73c2\u8fbe",
@@ -13402,7 +13369,7 @@ var NYX_DB = {
               },
               "15162": {
                 "name": "Savvy Strategy: Splitting the Spoils",
-                "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], creates 1 layer of <color=#FFFFFFFF>$[C170]</color>, and switches to your next character. If you do not have <color=#FFFFFFFF>$[C115161]</color> of any element in your Hand, create 1 <color=#FFFFFFFF>$[C115161]</color> in your Hand; otherwise, grant $[K3005] to all <color=#FFFFFFFF>$[C115161]</color> in your Hand.",
+                "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], creates 1 stack of <color=#FFFFFFFF>$[C170]</color>, and switch to your next character. If you do not have <color=#FFFFFFFF>$[C115161]</color> of any element in your Hand, create 1 <color=#FFFFFFFF>$[C115161]</color> in your Hand. Otherwise, grant $[K3005] to all <color=#FFFFFFFF>$[C115161]</color> in your Hand.",
                 "child": {
                   "d_key_damage": 2,
                   "d_key_element": "GCG_ELEMENT_ANEMO",
@@ -13422,7 +13389,7 @@ var NYX_DB = {
                   },
                   "c115161": {
                     "name": "Purr-loined Treasure Flask",
-                    "desc": "<color=#FFFFFFFF>When $[A1516] switches to become the active character:</color> If the opponent's active character is affected by Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element.\\n$[K1]: Deal 2 <color=#FFFFFFFF>$[K105]</color> to the opponent's active character. Repeat once.",
+                    "desc": "<color=#FFFFFFFF>When $[A1516] switches to become the active character:</color> If the opponent active character is affected by Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element.\\n$[K1]: Deal 2 <color=#FFFFFFFF>$[K105]</color> to the opponent's active character. Repeat once.",
                     "child": {
                       "a1516": "Jahoda",
                       "k1": {
@@ -13452,8 +13419,8 @@ var NYX_DB = {
                   "d_key_damage": 3,
                   "d_key_element": "GCG_ELEMENT_ANEMO",
                   "c115166": {
-                    "name": "Purrsonal Coordinated Assistance Robot",
-                    "desc": "<color=#FFFFFFFF>End Phase:</color> Deal 1 Elemental DMG of the same type as your active character (if the character is Dendro or Geo, deal Anemo DMG), and heal your character with the lowest HP for 2 points.\\n<color=#FFFFFFFF>$[K3]: 2</color>",
+                    "name": "Purrsonal Coordinated Assistance Robots",
+                    "desc": "<color=#FFFFFFFF>End Phase:</color> Deals 1 Anemo DMG if your active character is Dendro or Geo; otherwise, deals 1 DMG of that character's Elemental Type. Heal the character on your team that has taken the most damage for 2 HP.\\n<color=#FFFFFFFF>$[K3]: 2</color>",
                     "child": {
                       "k3": {
                         "name": "<color=#FFFFFFFF>Usage(s)</color>",
@@ -13470,11 +13437,11 @@ var NYX_DB = {
               },
               "15164": {
                 "name": "Moonsign Benediction: Rooftop Dash",
-                "desc": "[Passive] When the battle begins, create <color=#FFFFFFFF>$[C115161]</color> in your hand.\\nAfter your side triggers a Lunar or Swirl reaction, grant all <color=#FFFFFFFF>$[C115161]</color> in your hand $[K3005]. (Max 2 times per round)",
+                "desc": "(Passive)  When battle begins, create 1 <color=#FFFFFFFF>$[C115161]</color> in your Hand.\\nAfter you trigger a Lunar Reaction or Swirl Reaction, attach $[K3005] to all <color=#FFFFFFFF>$[C115161]</color> in your Hand. (Twice per Round)",
                 "child": {
                   "c115161": {
                     "name": "Purr-loined Treasure Flask",
-                    "desc": "<color=#FFFFFFFF>When $[A1516] switches to become the active character:</color> If the opponent's active character is affected by Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element.\\n$[K1]: Deal 2 <color=#FFFFFFFF>$[K105]</color> to the opponent's active character. Repeat once.",
+                    "desc": "<color=#FFFFFFFF>When $[A1516] switches to become the active character:</color> If the opponent active character is affected by Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element.\\n$[K1]: Deal 2 <color=#FFFFFFFF>$[K105]</color> to the opponent's active character. Repeat once.",
                     "child": {
                       "a1516": "Jahoda",
                       "k1": {
@@ -13497,11 +13464,11 @@ var NYX_DB = {
               },
               "15165": {
                 "name": "Moonsign Benediction: Rooftop Dash",
-                "desc": "[Passive] At the start of combat, create $[C115161] in your Hand.\\nAfter our side triggers a Lunar or Swirl reaction, grant all $[C115161] in your Hand $[K3005]. (Max 2 times per round)",
+                "desc": "(Passive)  When battle begins, create 1 <color=#FFFFFFFF>$[C115161]</color> in your Hand.\\nAfter you trigger a Lunar Reaction or Swirl Reaction, attach $[K3005] to all <color=#FFFFFFFF>$[C115161]</color> in your Hand. (Twice per Round)",
                 "child": {
                   "c115161": {
                     "name": "Purr-loined Treasure Flask",
-                    "desc": "<color=#FFFFFFFF>When $[A1516] switches to become the active character:</color> If the opponent's active character is affected by Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element.\\n$[K1]: Deal 2 <color=#FFFFFFFF>$[K105]</color> to the opponent's active character. Repeat once.",
+                    "desc": "<color=#FFFFFFFF>When $[A1516] switches to become the active character:</color> If the opponent active character is affected by Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element.\\n$[K1]: Deal 2 <color=#FFFFFFFF>$[K105]</color> to the opponent's active character. Repeat once.",
                     "child": {
                       "a1516": "Jahoda",
                       "k1": {
@@ -16819,46 +16786,6 @@ var NYX_DB = {
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311308-_Ultimate Overlord's Mega Magic Sword_.webp"
           },
           {
-            "id": "332065",
-            "name": "\"Witch's Homework\"",
-            "title": "\"Witch's Homework\"",
-            "description": "\"Rather than having a deus ex machina jump in at the very end of the story, it's much easier to accept if the foreshadowing is laid out early on...\"",
-            "sourceText": null,
-            "localizedNames": {
-              "en": "\"Witch's Homework\"",
-              "zh": "\u300c\u9b54\u5973\u7684\u8bfe\u4e1a\u300d",
-              "ja": "\u300c\u9b54\u5973\u306e\u8ab2\u984c\u300d"
-            },
-            "type": "Action",
-            "cost": [
-              {
-                "cost_type": "GCG_COST_DICE_SAME",
-                "count": 1
-              },
-              {
-                "cost_type": "GCG_COST_INVALID"
-              }
-            ],
-            "hp": 0,
-            "tags": [],
-            "talent": {
-              "name": "\u300cWitch's Homework\u300d",
-              "desc": "Draw 1 {SPRITE_PRESET#3006} Talent card. If your deck initially contains at least 3 {SPRITE_PRESET#3006} Talent cards, grant $[K3005] to the {SPRITE_PRESET#3006} Talent card with the highest <color=#FFFFFFFF>$[K3002]</color> in your Hand.",
-              "child": {
-                "k3005": {
-                  "name": "<color=#FFFFFFFF>Cost Reduction</color>",
-                  "desc": ""
-                },
-                "k3002": {
-                  "name": "<color=#FFFFFFFF>Current Elemental Dice Cost</color>",
-                  "desc": "If a <color=#FFFFFFFF>Cost Increase</color> or <color=#FFFFFFFF>Cost Reduction</color> is attached to an Action Card, its current Elemental Dice cost will be adjusted accordingly.\\n(Effects that reduce the Elemental Dice cost when playing the card do not affect this cost.)"
-                }
-              }
-            },
-            "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332065-_Witch's Homework_.webp"
-          },
-          {
             "id": "215081",
             "name": "A Cold Blade Like a Shadow",
             "title": "Lynette: A Cold Blade Like a Shadow",
@@ -17718,12 +17645,13 @@ var NYX_DB = {
             "id": "213171",
             "name": "Adamah's Redemption",
             "title": "Durin: Adamah's Redemption",
-            "description": "A turning point in fate.",
+            "description": "\"A turning point in fate.\"",
             "sourceText": "Reward for inviting Durin to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
             "localizedNames": {
               "en": "Adamah's Redemption",
               "zh": "\u7ea2\u571f\u4e4b\u9006",
-              "ja": "\u8d64\u571f\u306e\u9006\u7406"
+              "ja": "\u8d64\u571f\u306e\u9006\u7406",
+              "ko": "\uc801\ud1a0\uc758 \uc5ed\uc804"
             },
             "type": "Action",
             "cost": [
@@ -17743,14 +17671,29 @@ var NYX_DB = {
             ],
             "talent": {
               "name": "Adamah's Redemption",
-              "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1317]</color>, equip this card.\\nAfter $[A1317] equips this card, immediately use <color=#FFD780FF>$[S13173]</color> once.\\n<color=#FFFFFFFF>When the character to which this is attached uses $[C13173]:</color> Your next 3 instances of DMG gain +1.\\n<color=#FFFFFFFF>When the character to which this is attached uses $[C13174]:</color> This character and your <color=#FFFFFFFF>$[C13172]</color> deal +1 DMG.\\n(You must have $[A1317] in your deck to add this card to your deck.)",
+              "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1317]</color>, equip this card.\\nAfter $[A1317] equips this card, immediately use <color=#FFD780FF>$[S13173]</color> or <color=#FFD780FF>$[S13174]</color>once based on the character's current Elemental Burst.\\n<color=#FFFFFFFF>When the character to which this is attached uses $[S13173]:</color> Your next 3 instances of DMG gain +1.\\n<color=#FFFFFFFF>When the character to which this is attached uses $[S13174]:</color> This character and your <color=#FFFFFFFF>$[C113172]</color> deal +1 DMG.\\n(You must have $[A1317] in your deck to add this card to your deck.)",
               "child": {
                 "k1": {
                   "name": "<color=#FFFFFFFF>Combat Action</color>",
                   "desc": "After you finish 1 Combat Action, it will be your opponent's turn.\\n<color=#FFFFFFFF>Playing a card from your Hand with this rule is also a Combat Action rather than a Fast Action</color>."
                 },
                 "a1317": "Adamah's Redemption",
-                "s13173": "S13173"
+                "s13173": "S13173",
+                "s13174": "S13174",
+                "c113172": {
+                  "name": "Denial of Darkness",
+                  "desc": "<color=#FFFFFFFF>When you declare the end of your Round:</color> Deals 3 $[K103].\\n<color=#FFFFFFFF>$[K3]: 1</color>",
+                  "child": {
+                    "k103": {
+                      "name": "{SPRITE_PRESET#2103}<color=#FF9999FF>Pyro DMG</color>",
+                      "desc": "Applies {SPRITE_PRESET#2103}Pyro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Melt</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Overloaded</color>: DMG +2 for this instance, the target is forcibly switched to the next character\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Burning</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Burning Flame</color>] that will deal 1 Pyro DMG at the end of the Round (Takes effect once, max 2 stacks)"
+                    },
+                    "k3": {
+                      "name": "<color=#FFFFFFFF>Usage(s)</color>",
+                      "desc": "After this card's effect is triggered, 1 <color=#FFFFFFFF>Usage</color> of it will be consumed.\\nThis card will be discarded immediately once it has 0 <color=#FFFFFFFF>Usages</color> remaining."
+                    }
+                  }
+                }
               }
             },
             "playableCharacter": null,
@@ -18124,54 +18067,6 @@ var NYX_DB = {
             },
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/2204-All-Devouring Narwhal.webp"
-          },
-          {
-            "id": "212032",
-            "name": "Amaterasu's Step",
-            "title": "Mona: Celestial Fate",
-            "description": "\"If the fortune teller in the story ever took on an apprentice, I doubt she'd subject them to such an absurd test. Yeah, probably not.\"",
-            "sourceText": null,
-            "localizedNames": {
-              "en": "Amaterasu's Step",
-              "zh": "\u5929\u6b65\u771f\u539f",
-              "ja": "\u661f\u5ea7\u306e\u59cb\u307e\u308a"
-            },
-            "type": "Action",
-            "cost": [
-              {
-                "cost_type": "GCG_COST_DICE_HYDRO",
-                "count": 1
-              },
-              {
-                "cost_type": "GCG_COST_DICE_VOID",
-                "count": 2
-              }
-            ],
-            "hp": 0,
-            "tags": [
-              "Talent",
-              "Combat Action",
-              "Hexerei"
-            ],
-            "talent": {
-              "name": "Makoto of the Heaven Steps",
-              "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1203]</color>, equip this card.\\nAfter $[A1203] equips this card, generate <color=#FFFFFFFF>$[C212033]</color> and immediately use <color=#FFD780FF>$[S12031]</color> once.\\nWhen <color=#FFFFFFFF>$[A1203]</color> uses a Normal Attack, spend 1 fewer <color=#FFFFFFFF>{SPRITE_PRESET#1109}Unaligned Element</color>. After the Normal Attack, generate <color=#FFFFFFFF>$[C212033]</color>.\\n(You must have $[A1203] in your deck to add this card to your deck.)",
-              "child": {
-                "k1": {
-                  "name": "<color=#FFFFFFFF>Combat Action</color>",
-                  "desc": "After you finish 1 Combat Action, it will be your opponent's turn.\\n<color=#FFFFFFFF>Playing a card from your Hand with this rule is also a Combat Action rather than a Fast Action</color>."
-                },
-                "a1203": "Amaterasu's Step",
-                "c212033": {
-                  "name": "Amaterasu's Originality (Active)",
-                  "desc": "Your next Vaporize Reaction deals +2 DMG.",
-                  "child": {}
-                },
-                "s12031": "S12031"
-              }
-            },
-            "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212032-Amaterasu's Step.webp"
           },
           {
             "id": "312027",
@@ -18726,13 +18621,14 @@ var NYX_DB = {
           {
             "id": "215161",
             "name": "Backstreet Guile",
-            "title": "Jahoda's Backstreet Guile",
-            "description": "All mine!",
+            "title": "Jahoda: Backstreet Guile",
+            "description": "\"Finders keepers!\"",
             "sourceText": "Reward for inviting Jahoda to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
             "localizedNames": {
               "en": "Backstreet Guile",
               "zh": "\u6697\u5df7\u7684\u9ee0\u6167",
-              "ja": "\u30a2\u30f3\u30c0\u30fc\u30b0\u30e9\u30a6\u30f3\u30c9\u306e\u60aa\u77e5\u6075"
+              "ja": "\u30a2\u30f3\u30c0\u30fc\u30b0\u30e9\u30a6\u30f3\u30c9\u306e\u60aa\u77e5\u6075",
+              "ko": "\ub4b7\uace8\ubaa9\uc758 \uc9c0\ud61c"
             },
             "type": "Action",
             "cost": [
@@ -18751,7 +18647,7 @@ var NYX_DB = {
             ],
             "talent": {
               "name": "Backstreet Guile",
-              "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1516]</color>, equip this card.\\nAfter $[A1516] equips this card, immediately use <color=#FFD780FF>$[S15162]</color> once.\\nWhen <color=#FFFFFFFF>$[K1516]</color> switches to the active character, if the number of cards in your opponent's Hand is greater than or equal to the number of cards in your Hand, randomly copy 2 cards from their Hand.\\n(You must have $[A1516] in your deck to add this card to your deck.)",
+              "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1516]</color>, equip this card.\\nAfter $[A1516] equips this card, immediately use <color=#FFD780FF>$[S15162]</color> once.\\nWhen <color=#FFFFFFFF>$[A1516]</color> switches to the active character, if the number of cards in your opponent's Hand is greater than or equal to yours, randomly copy 2 cards from their Hand.\\n(You must have $[A1516] in your deck to add this card to your deck.)",
               "child": {
                 "k1": {
                   "name": "<color=#FFFFFFFF>Combat Action</color>",
@@ -24719,64 +24615,6 @@ var NYX_DB = {
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332026-Falls and Fortune.webp"
           },
           {
-            "id": "214012",
-            "name": "Fantasia of the Evening World",
-            "title": "Fischl: Nightraven",
-            "description": "\"However, while all of these assignments were unexpected, some were far more unexpected than others. For instance, some little witches simply had to figure out how to use the primordial light to create their own material world, while others were tasked with breathing 'soul' into lifeforms that previously existed only in the imagination...\"",
-            "sourceText": null,
-            "localizedNames": {
-              "en": "Fantasia of the Evening World",
-              "zh": "\u5bb5\u4e16\u5e7b\u594f",
-              "ja": "\u7d42\u5bb5\u306e\u5e7b\u594f"
-            },
-            "type": "Action",
-            "cost": [
-              {
-                "cost_type": "GCG_COST_DICE_ELECTRO",
-                "count": 2
-              },
-              {
-                "cost_type": "GCG_COST_INVALID"
-              }
-            ],
-            "hp": 0,
-            "tags": [
-              "Talent",
-              "Hexerei"
-            ],
-            "talent": {
-              "name": "Phantasm of Night",
-              "desc": "$[K2]: Equip this to your <color=#FFFFFFFF>$[A1401]</color>.\\nSummon <color=#FFFFFFFF>$[C114011]</color>.\\nWhile the <color=#FFFFFFFF>$[C114011]</color> is on the field, your $[K214] deals +1 DMG.\\n(You must have $[A1401] in your deck to add this card to your deck.)",
-              "child": {
-                "k2": {
-                  "name": "<color=#FFFFFFFF>Fast Action</color>",
-                  "desc": "You can continue with other actions after conducting 1 Fast Action.\\nOnly after conducting 1 Combat Action will the turn pass over to your opponent."
-                },
-                "a1401": "Fantasia of the Evening World",
-                "c114011": {
-                  "name": "Oz",
-                  "desc": "<color=#FFFFFFFF>End Phase:</color> Deal 1 $[K104].\\n<color=#FFFFFFFF>$[K3]: 2</color>",
-                  "child": {
-                    "k104": {
-                      "name": "{SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color>",
-                      "desc": "Applies {SPRITE_PRESET#2104}Electro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Overloaded</color>: DMG +2 for this instance, the target is forcibly switched to the next character\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Superconduct</color>: DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Electro-Charged</color>: DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Quicken</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Catalyzing Field</color>] that grants +1 DMG to the next 2 instances of Dendro or Electro DMG\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usage: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)"
-                    },
-                    "k3": {
-                      "name": "<color=#FFFFFFFF>Usage(s)</color>",
-                      "desc": "After this card's effect is triggered, 1 <color=#FFFFFFFF>Usage</color> of it will be consumed.\\nThis card will be discarded immediately once it has 0 <color=#FFFFFFFF>Usages</color> remaining."
-                    }
-                  }
-                },
-                "k214": {
-                  "name": "<color=#FFACFFFF>{SPRITE_PRESET#2104}Electro-Related Reactions</color>",
-                  "desc": "{SPRITE_PRESET#2104}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Overloaded</color>: DMG +2 for this instance, the target is forcibly switched to the next character\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Superconduct</color>: DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Electro-Charged</color>: DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Quicken</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Catalyzing Field</color>] that grants +1 DMG to the next 2 instances of Dendro or Electro DMG\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Swirl</color>: Deal 1 Electro DMG to all opposing characters except the target\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usage: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)"
-                }
-              }
-            },
-            "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214012-Fantasia of the Evening World.webp"
-          },
-          {
             "id": "211161",
             "name": "Far to Fall",
             "title": "Skirk: Far to Fall",
@@ -25333,6 +25171,36 @@ var NYX_DB = {
             },
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311505-Favonius Sword.webp"
+          },
+          {
+            "id": "332066",
+            "name": "Feasting in a Shared Toast",
+            "title": "Feasting in a Shared Toast",
+            "description": "Always the last one, as usual! Grab a seat, we've been waiting ages for you!",
+            "sourceText": null,
+            "localizedNames": {
+              "en": "Feasting in a Shared Toast",
+              "zh": "\u9f50\u805a\u5171\u996e",
+              "ko": "\uc18c\ubaa8\uc784"
+            },
+            "type": "Action",
+            "cost": [
+              {
+                "cost_type": "GCG_COST_INVALID"
+              },
+              {
+                "cost_type": "GCG_COST_INVALID"
+              }
+            ],
+            "hp": 0,
+            "tags": [],
+            "talent": {
+              "name": "Feasting in a Shared Toast",
+              "desc": "<color=#FFFFFFFF>When the next Round begins:</color> Both sides draw 2 cards and gain 2 random Elemental Dice.",
+              "child": {}
+            },
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332066-Feasting in a Shared Toast.webp"
           },
           {
             "id": "214041",
@@ -26844,35 +26712,6 @@ var NYX_DB = {
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/321014-Gandharva Ville.webp"
           },
           {
-            "id": "332066",
-            "name": "Gathering Gourmet",
-            "title": "Gather and drink together",
-            "description": "\"You again? You're always the last one here. Sit down already, we've been waiting for you!\"",
-            "sourceText": null,
-            "localizedNames": {
-              "en": "Gathering Gourmet",
-              "zh": "\u9f50\u805a\u5171\u996e"
-            },
-            "type": "Action",
-            "cost": [
-              {
-                "cost_type": "GCG_COST_INVALID"
-              },
-              {
-                "cost_type": "GCG_COST_INVALID"
-              }
-            ],
-            "hp": 0,
-            "tags": [],
-            "talent": {
-              "name": "Gather for a Drink",
-              "desc": "<color=#FFFFFFFF>When the next Round begins:</color> Both sides draw 2 cards and gain 2 random Elemental Dice.",
-              "child": {}
-            },
-            "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332066-Gathering Gourmet.webp"
-          },
-          {
             "id": "312009",
             "name": "General's Ancient Helm",
             "title": "Ironclad Promise: General's Ancient Helm",
@@ -26920,6 +26759,55 @@ var NYX_DB = {
             },
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/312009-General's Ancient Helm.webp"
+          },
+          {
+            "id": "212032",
+            "name": "Genesis of Starsigns",
+            "title": "Mona: Genesis of Starsigns",
+            "description": "If the fortune teller in the story truly takes on an apprentice in the future, surely she wouldn't test her in such bizarre, nonsensical ways... Right? Yes, presumably not.",
+            "sourceText": null,
+            "localizedNames": {
+              "en": "Genesis of Starsigns",
+              "zh": "\u5929\u6b65\u771f\u539f",
+              "ja": "\u661f\u5ea7\u306e\u59cb\u307e\u308a",
+              "ko": "\ucc9c\uccb4 \uc6b4\ud589\ub860"
+            },
+            "type": "Action",
+            "cost": [
+              {
+                "cost_type": "GCG_COST_DICE_HYDRO",
+                "count": 1
+              },
+              {
+                "cost_type": "GCG_COST_DICE_VOID",
+                "count": 2
+              }
+            ],
+            "hp": 0,
+            "tags": [
+              "Talent",
+              "Combat Action",
+              "Hexerei"
+            ],
+            "talent": {
+              "name": "Genesis of Starsigns",
+              "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1203]</color>, equip this card.\\nAfter $[A1203] equips this card, generate <color=#FFFFFFFF>$[C212033]</color> and immediately use <color=#FFD780FF>$[S12031]</color> once.\\nWhen <color=#FFFFFFFF>$[A1203]</color> uses a Normal Attack, spend 1 fewer <color=#FFFFFFFF>{SPRITE_PRESET#1109}Unaligned Element</color>. After the Normal Attack, generate <color=#FFFFFFFF>$[C212033]</color>.\\n(You must have $[A1203] in your deck to add this card to your deck.)",
+              "child": {
+                "k1": {
+                  "name": "<color=#FFFFFFFF>Combat Action</color>",
+                  "desc": "After you finish 1 Combat Action, it will be your opponent's turn.\\n<color=#FFFFFFFF>Playing a card from your Hand with this rule is also a Combat Action rather than a Fast Action</color>."
+                },
+                "a1203": "Genesis of Starsigns",
+                "c212033": {
+                  "name": "Genesis of Starsigns (In Effect)",
+                  "desc": "Your next Vaporize Reaction deals +2 DMG.",
+                  "child": {}
+                },
+                "s12031": "S12031"
+              }
+            },
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/212032-Genesis of Starsigns.webp"
           },
           {
             "id": "332060",
@@ -28491,9 +28379,9 @@ var NYX_DB = {
           {
             "id": "2208",
             "name": "Hydro Hypostasis",
-            "title": "He - Hydro Hypostasis",
-            "description": "A powerful high-level Hydro Elemental Lifeform code-named \"He,\" it possesses a strong instinct for exclusion and will mercilessly drive away anyone who dares to probe it.",
-            "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with the Hydro Hypostasis",
+            "title": "Hydro Hypostasis: He",
+            "description": "Code Name: He. A high-purity Hydro entity. They have strong rejection properties, and will mercilessly expel any that test them.",
+            "sourceText": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with Hydro Hypostasis",
             "localizedNames": {
               "en": "Hydro Hypostasis",
               "zh": "\u65e0\u76f8\u4e4b\u6c34",
@@ -28510,7 +28398,7 @@ var NYX_DB = {
             ],
             "talent": {
               "22081": {
-                "name": "Hydro Diffusion",
+                "name": "Droplet Diffusion",
                 "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
                 "child": {
                   "d_key_damage": 1,
@@ -28523,7 +28411,7 @@ var NYX_DB = {
                 }
               },
               "22082": {
-                "name": "Surging Torrent",
+                "name": "Surging Tides",
                 "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], then performs \"$[K53]\" for <color=#FFFFFFFF>$[S22085]</color>.",
                 "child": {
                   "d_key_damage": 2,
@@ -28540,13 +28428,13 @@ var NYX_DB = {
                 }
               },
               "22083": {
-                "name": "Tide of Calamity",
+                "name": "Calamitous Tides",
                 "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT] and summons <color=#FFFFFFFF>$[C122082]</color>.",
                 "child": {
                   "d_key_damage": 3,
                   "d_key_element": "GCG_ELEMENT_HYDRO",
                   "c122082": {
-                    "name": "Water Droplets",
+                    "name": "Water Droplet",
                     "desc": "<color=#FFFFFFFF>End Phase:</color> If your <color=#FFFFFFFF>$[A2208]</color> does not have <color=#FFFFFFFF>$[C122081]</color> attached, attach <color=#FFFFFFFF>$[C122081]</color> to this character. Otherwise, deal 2 $[K102].\\n<color=#FFFFFFFF>$[K3]: 2</color>",
                     "child": {
                       "a2208": "Hydro Hypostasis",
@@ -28578,8 +28466,8 @@ var NYX_DB = {
                 }
               },
               "22084": {
-                "name": "Crystal Core",
-                "desc": "[Passive] At the start of battle, gain <color=#FFFFFFFF>$[C122081]</color> initially. If <color=#FFFFFFFF>$[C122082]</color> is present on the field, re-attach <color=#FFFFFFFF>$[C122081]</color> upon consumption, and reduce the usable charges of <color=#FFFFFFFF>$[C122082]</color> by 1.",
+                "name": "Hydro Crystal Core",
+                "desc": "(Passive) When the battle begins, this character starts with <color=#FFFFFFFF>$[C122081]</color> attached. If <color=#FFFFFFFF>$[C122082]</color> is on the field when <color=#FFFFFFFF>$[C122081]</color> is consumed: Reattach <color=#FFFFFFFF>$[C122081]</color>, and decreases the Usage(s) of <color=#FFFFFFFF>$[C122082]</color> by 1.",
                 "child": {
                   "c122081": {
                     "name": "Hydro Crystal Core",
@@ -28592,7 +28480,7 @@ var NYX_DB = {
                     }
                   },
                   "c122082": {
-                    "name": "Water Droplets",
+                    "name": "Water Droplet",
                     "desc": "<color=#FFFFFFFF>End Phase:</color> If your <color=#FFFFFFFF>$[A2208]</color> does not have <color=#FFFFFFFF>$[C122081]</color> attached, attach <color=#FFFFFFFF>$[C122081]</color> to this character. Otherwise, deal 2 $[K102].\\n<color=#FFFFFFFF>$[K3]: 2</color>",
                     "child": {
                       "a2208": "Hydro Hypostasis",
@@ -28611,7 +28499,7 @@ var NYX_DB = {
                 "cost": {}
               },
               "22085": {
-                "name": "Surge",
+                "name": "Overflow",
                 "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
                 "child": {
                   "d_key_damage": 1,
@@ -28622,7 +28510,7 @@ var NYX_DB = {
               },
               "22086": {
                 "name": "Hydro Crystal Core",
-                "desc": "[Passive] At the start of combat, initially attach <color=#FFFFFFFF>$[C122081]</color>. If <color=#FFFFFFFF>$[C122082]</color> is on the field, when <color=#FFFFFFFF>$[C122081]</color> is consumed, re-attach <color=#FFFFFFFF>$[C122081]</color> and reduce the usage count of <color=#FFFFFFFF>$[C122082]</color> by 1.",
+                "desc": "(Passive) When the battle begins, this character starts with <color=#FFFFFFFF>$[C122081]</color> attached. If <color=#FFFFFFFF>$[C122082]</color> is on the field when <color=#FFFFFFFF>$[C122081]</color> is consumed: Reattach <color=#FFFFFFFF>$[C122081]</color>, and decreases the Usage(s) of <color=#FFFFFFFF>$[C122082]</color> by 1.",
                 "child": {
                   "c122081": {
                     "name": "Hydro Crystal Core",
@@ -28635,7 +28523,7 @@ var NYX_DB = {
                     }
                   },
                   "c122082": {
-                    "name": "Water Droplets",
+                    "name": "Water Droplet",
                     "desc": "<color=#FFFFFFFF>End Phase:</color> If your <color=#FFFFFFFF>$[A2208]</color> does not have <color=#FFFFFFFF>$[C122081]</color> attached, attach <color=#FFFFFFFF>$[C122081]</color> to this character. Otherwise, deal 2 $[K102].\\n<color=#FFFFFFFF>$[K3]: 2</color>",
                     "child": {
                       "a2208": "Hydro Hypostasis",
@@ -33275,6 +33163,65 @@ var NYX_DB = {
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/224031-Pearl Solidification.webp"
           },
           {
+            "id": "214012",
+            "name": "Phantasmal Nocturne",
+            "title": "Fischl: Phantasmal Nocturne",
+            "description": "\"Still, while every question is unexpected, some are definitely more unexpected than others. For instance, one little witch might be asked to use the primordial light to create her own material world. Meanwhile, another might be told to grant a 'soul' to a being that only exists in the imagination.\"",
+            "sourceText": null,
+            "localizedNames": {
+              "en": "Phantasmal Nocturne",
+              "zh": "\u5bb5\u4e16\u5e7b\u594f",
+              "ja": "\u7d42\u5bb5\u306e\u5e7b\u594f",
+              "ko": "\uc720\uc57c\uc758 \ud658\uc0c1\uace1"
+            },
+            "type": "Action",
+            "cost": [
+              {
+                "cost_type": "GCG_COST_DICE_ELECTRO",
+                "count": 2
+              },
+              {
+                "cost_type": "GCG_COST_INVALID"
+              }
+            ],
+            "hp": 0,
+            "tags": [
+              "Talent",
+              "Hexerei"
+            ],
+            "talent": {
+              "name": "Phantasmal Nocturne",
+              "desc": "$[K2]: Equip this to your <color=#FFFFFFFF>$[A1401]</color>.\\nSummon <color=#FFFFFFFF>$[C114011]</color>.\\nWhile the <color=#FFFFFFFF>$[C114011]</color> is on the field, your $[K214] deals +1 DMG.\\n(You must have $[A1401] in your deck to add this card to your deck.)",
+              "child": {
+                "k2": {
+                  "name": "<color=#FFFFFFFF>Fast Action</color>",
+                  "desc": "You can continue with other actions after conducting 1 Fast Action.\\nOnly after conducting 1 Combat Action will the turn pass over to your opponent."
+                },
+                "a1401": "Phantasmal Nocturne",
+                "c114011": {
+                  "name": "Oz",
+                  "desc": "<color=#FFFFFFFF>End Phase:</color> Deal 1 $[K104].\\n<color=#FFFFFFFF>$[K3]: 2</color>",
+                  "child": {
+                    "k104": {
+                      "name": "{SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color>",
+                      "desc": "Applies {SPRITE_PRESET#2104}Electro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Overloaded</color>: DMG +2 for this instance, the target is forcibly switched to the next character\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Superconduct</color>: DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Electro-Charged</color>: DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Quicken</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Catalyzing Field</color>] that grants +1 DMG to the next 2 instances of Dendro or Electro DMG\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usage: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)"
+                    },
+                    "k3": {
+                      "name": "<color=#FFFFFFFF>Usage(s)</color>",
+                      "desc": "After this card's effect is triggered, 1 <color=#FFFFFFFF>Usage</color> of it will be consumed.\\nThis card will be discarded immediately once it has 0 <color=#FFFFFFFF>Usages</color> remaining."
+                    }
+                  }
+                },
+                "k214": {
+                  "name": "<color=#FFACFFFF>{SPRITE_PRESET#2104}Electro-Related Reactions</color>",
+                  "desc": "{SPRITE_PRESET#2104}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Overloaded</color>: DMG +2 for this instance, the target is forcibly switched to the next character\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Superconduct</color>: DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Electro-Charged</color>: DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Quicken</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Catalyzing Field</color>] that grants +1 DMG to the next 2 instances of Dendro or Electro DMG\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Swirl</color>: Deal 1 Electro DMG to all opposing characters except the target\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usage: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)"
+                }
+              }
+            },
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214012-Phantasmal Nocturne.webp"
+          },
+          {
             "id": "330010",
             "name": "Pilgrimage of the Return of the Sacred Flame",
             "title": "Pilgrimage of the Return of the Sacred Flame",
@@ -33837,72 +33784,6 @@ var NYX_DB = {
             },
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214131-Pylon of the Sojourning Sun Temple.webp"
-          },
-          {
-            "id": "213062",
-            "name": "Pyro Magic",
-            "title": "Klee's Pyro Magic",
-            "description": "\"And just like that, the cutest little Dodo-Sorcerer passed her qualification exam with the help of her friends. Now she's a real, full-fledged Dodo-Sorcerer! Congratulations!\"\\n\"Wait, weren't we supposed to be writing commentary? What does any of this have to do with the little witch!?\"",
-            "sourceText": null,
-            "localizedNames": {
-              "en": "Pyro Magic",
-              "zh": "\u706b\u82b1\u9b54\u6cd5",
-              "ja": "\u706b\u82b1\u306e\u9b54\u6cd5"
-            },
-            "type": "Action",
-            "cost": [
-              {
-                "cost_type": "GCG_COST_INVALID"
-              },
-              {
-                "cost_type": "GCG_COST_INVALID"
-              }
-            ],
-            "hp": 0,
-            "tags": [
-              "Talent",
-              "Hexerei"
-            ],
-            "talent": {
-              "name": "Spark Magic",
-              "desc": "$[K2]: Equip to your <color=#FFFFFFFF>$[A1306]</color>.\\n$[A1306] attaches <color=#FFFFFFFF>$[C113061]</color>.\\n<color=#FFFFFFFF>After the attached character performs a $[K51]:</color> Attach 1 stack of <color=#FFFFFFFF>$[C210]</color>.\\n(Must have $[A1306] in deck to add to deck.)",
-              "child": {
-                "k2": {
-                  "name": "<color=#FFFFFFFF>Fast Action</color>",
-                  "desc": "You can continue with other actions after conducting 1 Fast Action.\\nOnly after conducting 1 Combat Action will the turn pass over to your opponent."
-                },
-                "a1306": "Pyro Magic",
-                "c113061": {
-                  "name": "Explosive Spark",
-                  "desc": "<color=#FFFFFFFF>When the character to which this is attached uses a $[K51]: </color>Spend 1 less <color=#FF9999FF>$[K303]</color> and deal +1 DMG.\\n<color=#FFFFFFFF>$[K3]: 1</color>",
-                  "child": {
-                    "k51": {
-                      "name": "<color=#FFFFFFFF>Charged Attack</color>",
-                      "desc": "Before your Action Phase, should the total number of your Elemental Dice be even, your Normal Attack will be considered a Charged Attack."
-                    },
-                    "k303": {
-                      "name": "{SPRITE_PRESET#1103}Pyro",
-                      "desc": "Spend the <color=#FF9999FF>{SPRITE_PRESET#1103}Pyro</color> Dice you have rolled to pay for this cost.\\n({SPRITE_PRESET#1111}Omni Dice may also be used to pay for this.)"
-                    },
-                    "k3": {
-                      "name": "<color=#FFFFFFFF>Usage(s)</color>",
-                      "desc": "After this card's effect is triggered, 1 <color=#FFFFFFFF>Usage</color> of it will be consumed.\\nThis card will be discarded immediately once it has 0 <color=#FFFFFFFF>Usages</color> remaining."
-                    }
-                  }
-                },
-                "k51": {
-                  "name": "<color=#FFFFFFFF>Charged Attack</color>",
-                  "desc": "Before your Action Phase, should the total number of your Elemental Dice be even, your Normal Attack will be considered a Charged Attack."
-                },
-                "c210": {
-                  "name": "RES",
-                  "desc": "<color=#FFFFFFFF>When the character to which this is attached takes DMG:</color> Decrease DMG taken by 1. (Can stack, no stack limit)",
-                  "child": {}
-                }
-              }
-            },
-            "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213062-Pyro Magic.webp"
           },
           {
             "id": "313006",
@@ -36175,6 +36056,73 @@ var NYX_DB = {
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/311209-Snare Hook.webp"
           },
           {
+            "id": "213062",
+            "name": "Sparkborne Magic",
+            "title": "Klee: Sparkborne Magic",
+            "description": "\"And just like that, the cutest little Dodo-Sorcerer passed her qualification exam with the help of her friends. Now she's a real, full-fledged Dodo-Sorcerer! Congratulations!\"\\n\"Wait, weren't we supposed to be writing commentary? What does any of this have to do with the little witch!?\"",
+            "sourceText": null,
+            "localizedNames": {
+              "en": "Sparkborne Magic",
+              "zh": "\u706b\u82b1\u9b54\u6cd5",
+              "ja": "\u706b\u82b1\u306e\u9b54\u6cd5",
+              "ko": "\ubd88\uaf43 \ub9c8\ubc95"
+            },
+            "type": "Action",
+            "cost": [
+              {
+                "cost_type": "GCG_COST_INVALID"
+              },
+              {
+                "cost_type": "GCG_COST_INVALID"
+              }
+            ],
+            "hp": 0,
+            "tags": [
+              "Talent",
+              "Hexerei"
+            ],
+            "talent": {
+              "name": "Sparkborne Magic",
+              "desc": "$[K2]: Equip this to your <color=#FFFFFFFF>$[A1306]</color>.\\nAttach <color=#FFFFFFFF>$[C113061]</color> to $[A1306].\\n<color=#FFFFFFFF>When the attached character uses a $[K51]:</color> Attach 1 stack of <color=#FFFFFFFF>$[C210]</color>.\\n(You must have $[A1306] in your deck to add this card to your deck.)",
+              "child": {
+                "k2": {
+                  "name": "<color=#FFFFFFFF>Fast Action</color>",
+                  "desc": "You can continue with other actions after conducting 1 Fast Action.\\nOnly after conducting 1 Combat Action will the turn pass over to your opponent."
+                },
+                "a1306": "Sparkborne Magic",
+                "c113061": {
+                  "name": "Explosive Spark",
+                  "desc": "<color=#FFFFFFFF>When the character to which this is attached uses a $[K51]: </color>Spend 1 less <color=#FF9999FF>$[K303]</color> and deal +1 DMG.\\n<color=#FFFFFFFF>$[K3]: 1</color>",
+                  "child": {
+                    "k51": {
+                      "name": "<color=#FFFFFFFF>Charged Attack</color>",
+                      "desc": "Before your Action Phase, should the total number of your Elemental Dice be even, your Normal Attack will be considered a Charged Attack."
+                    },
+                    "k303": {
+                      "name": "{SPRITE_PRESET#1103}Pyro",
+                      "desc": "Spend the <color=#FF9999FF>{SPRITE_PRESET#1103}Pyro</color> Dice you have rolled to pay for this cost.\\n({SPRITE_PRESET#1111}Omni Dice may also be used to pay for this.)"
+                    },
+                    "k3": {
+                      "name": "<color=#FFFFFFFF>Usage(s)</color>",
+                      "desc": "After this card's effect is triggered, 1 <color=#FFFFFFFF>Usage</color> of it will be consumed.\\nThis card will be discarded immediately once it has 0 <color=#FFFFFFFF>Usages</color> remaining."
+                    }
+                  }
+                },
+                "k51": {
+                  "name": "<color=#FFFFFFFF>Charged Attack</color>",
+                  "desc": "Before your Action Phase, should the total number of your Elemental Dice be even, your Normal Attack will be considered a Charged Attack."
+                },
+                "c210": {
+                  "name": "RES",
+                  "desc": "<color=#FFFFFFFF>When the character to which this is attached takes DMG:</color> Decrease DMG taken by 1. (Can stack, no stack limit)",
+                  "child": {}
+                }
+              }
+            },
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/213062-Sparkborne Magic.webp"
+          },
+          {
             "id": "227031",
             "name": "Spirit Serpent's Swirl",
             "title": "Floral Ring-Dancer: Spirit Serpent's Swirl",
@@ -37633,6 +37581,73 @@ var NYX_DB = {
             },
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214141-Teachings of the Collective of Plenty.webp"
+          },
+          {
+            "id": "215032",
+            "name": "Temporal Wind's Eulogy",
+            "title": "Venti: Temporal Wind's Eulogy",
+            "description": "\"Therefore, the so-called 'Unrevealed' can mean only two things: a future not anchored by the stars, or one deliberately obscured by those with ill intentions. The latter is truly infuriating. I do hope the little witch in the story never becomes someone like that.\"",
+            "sourceText": null,
+            "localizedNames": {
+              "en": "Temporal Wind's Eulogy",
+              "zh": "\u9882\u65f6\u98ce\u82e5",
+              "ja": "\u98a8\u3092\u8b83\u3048\u3066",
+              "ko": "\uc2dc\uac04\uacfc \ubc14\ub78c"
+            },
+            "type": "Action",
+            "cost": [
+              {
+                "cost_type": "GCG_COST_DICE_ANEMO",
+                "count": 3
+              },
+              {
+                "cost_type": "GCG_COST_INVALID"
+              }
+            ],
+            "hp": 0,
+            "tags": [
+              "Talent",
+              "Hexerei"
+            ],
+            "talent": {
+              "name": "Temporal Wind's Eulogy",
+              "desc": "$[K2]: When equip this to your <color=#FFFFFFFF>$[A1503]</color>, equip this card.\\nSummon <color=#FFFFFFFF>$[C115034]</color>.\\nAfter you summon <color=#FFFFFFFF>$[C115034]</color>, the attached character's $[K100] is converted to $[K105] for their next two <color=#FFFFFFFF>Normal Attacks</color> during this Round, and these attacks cost 2 fewer <color=#FFFFFFFF>{SPRITE_PRESET#1109}Unaligned Element</color>.\\n(You must have $[A1503] in your deck to add this card to your deck.)",
+              "child": {
+                "k2": {
+                  "name": "<color=#FFFFFFFF>Fast Action</color>",
+                  "desc": "You can continue with other actions after conducting 1 Fast Action.\\nOnly after conducting 1 Combat Action will the turn pass over to your opponent."
+                },
+                "a1503": "Temporal Wind's Eulogy",
+                "c115034": {
+                  "name": "Stormeye",
+                  "desc": "<color=#FFFFFFFF>End Phase:</color> Deal 2 $[K105]. Your opponent switches to: $[K7].\\n<color=#FFFFFFFF>$[K3]: 2</color>\\n\\n<color=#FFFFFFFF>After your character or Summon triggers a Swirl reaction:</color> Convert the Elemental Type of this card and change its DMG dealt to the element Swirled. (Can only be converted once before leaving the field)",
+                  "child": {
+                    "k105": {
+                      "name": "{SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo DMG</color>",
+                      "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Swirl</color>: Deals 1 Cryo DMG to all opposing characters except the target\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Swirl</color>: Deals 1 Hydro DMG to all opposing characters except the target\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Swirl</color>: Deals 1 Pyro DMG to all opposing characters except the target\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Swirl</color>: Deals 1 Electro DMG to all opposing characters except the target"
+                    },
+                    "k7": {
+                      "name": "<color=#FFFFFFFF>Character Closest to Your Current Active Character</color>",
+                      "desc": "The opposing \"character closest to your current active character\" is the opposing character whose position is closest to that of your active character.\\nIf multiple such characters exist, the one with the foremost position will be viewed as being \"closest.\""
+                    },
+                    "k3": {
+                      "name": "<color=#FFFFFFFF>Usage(s)</color>",
+                      "desc": "After this card's effect is triggered, 1 <color=#FFFFFFFF>Usage</color> of it will be consumed.\\nThis card will be discarded immediately once it has 0 <color=#FFFFFFFF>Usages</color> remaining."
+                    }
+                  }
+                },
+                "k100": {
+                  "name": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>",
+                  "desc": "Physical DMG will not apply any Elements, nor can it engage in Elemental Reactions."
+                },
+                "k105": {
+                  "name": "{SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo DMG</color>",
+                  "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Swirl</color>: Deals 1 Cryo DMG to all opposing characters except the target\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Swirl</color>: Deals 1 Hydro DMG to all opposing characters except the target\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Swirl</color>: Deals 1 Pyro DMG to all opposing characters except the target\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Swirl</color>: Deals 1 Electro DMG to all opposing characters except the target"
+                }
+              }
+            },
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215032-Temporal Wind's Eulogy.webp"
           },
           {
             "id": "312010",
@@ -39589,13 +39604,14 @@ var NYX_DB = {
           },
           {
             "id": "222081",
-            "name": "Treacherous Tides",
-            "title": "Hydro Hypostasis: Treacherous Waves",
-            "description": "Beneath the treacherous waves of the silent gathering, a calamity of vicious tides gathers in silence...",
+            "name": "Treacherous Torrent",
+            "title": "Hydro Hypostasis: Treacherous Torrent",
+            "description": "Beneath the stealthily swelling waters, a catastrophic wave silently builds its strength...",
             "sourceText": "Reward for accepting the Tavern Challenge against the Hydro Hypostasis at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
             "localizedNames": {
-              "en": "Treacherous Tides",
-              "zh": "\u8be1\u8c32\u6076\u6d6a"
+              "en": "Treacherous Torrent",
+              "zh": "\u8be1\u8c32\u6076\u6d6a",
+              "ko": "\uae30\uc774\ud55c \ud30c\ub3c4"
             },
             "type": "Action",
             "cost": [
@@ -39612,19 +39628,19 @@ var NYX_DB = {
               "Talent"
             ],
             "talent": {
-              "name": "Treacherous Tides",
-              "desc": "$[K2]: Equip this to your <color=#FFFFFFFF>$[A2208]</color>.\\nAfter your <color=#FFFFFFFF>$[A2208]</color> or <color=#FFFFFFFF>$[C122082]</color> deals Damage, heal the most damaged Monster on your side for 1 HP. (3 times per Round)\\n(You must have $[A2208] in your deck to add this card to your deck.)",
+              "name": "Treacherous Torrent",
+              "desc": "$[K2]: Equip this to your <color=#FFFFFFFF>$[A2208]</color>.\\nAfter your <color=#FFFFFFFF>$[A2208]</color> or <color=#FFFFFFFF>$[C122082]</color> deals DMG, heal the most damaged Monster on your side for 1 HP. (3 times per Round)\\n(You must have $[A2208] in your deck to add this card to your deck.)",
               "child": {
                 "k2": {
                   "name": "<color=#FFFFFFFF>Fast Action</color>",
                   "desc": "You can continue with other actions after conducting 1 Fast Action.\\nOnly after conducting 1 Combat Action will the turn pass over to your opponent."
                 },
-                "a2208": "Treacherous Tides",
+                "a2208": "Treacherous Torrent",
                 "c122082": {
-                  "name": "Water Droplets",
+                  "name": "Water Droplet",
                   "desc": "<color=#FFFFFFFF>End Phase:</color> If your <color=#FFFFFFFF>$[A2208]</color> does not have <color=#FFFFFFFF>$[C122081]</color> attached, attach <color=#FFFFFFFF>$[C122081]</color> to this character. Otherwise, deal 2 $[K102].\\n<color=#FFFFFFFF>$[K3]: 2</color>",
                   "child": {
-                    "a2208": "Treacherous Tides",
+                    "a2208": "Treacherous Torrent",
                     "c122081": {
                       "name": "Hydro Crystal Core",
                       "desc": "<color=#FFFFFFFF>When the character to which this is attached would be defeated:</color> Remove this effect, ensure the character $[K54|s1], and heal them to 1 HP.",
@@ -39648,7 +39664,7 @@ var NYX_DB = {
               }
             },
             "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/222081-Treacherous Tides.webp"
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/222081-Treacherous Torrent.webp"
           },
           {
             "id": "323004",
@@ -41049,72 +41065,6 @@ var NYX_DB = {
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/331801-Wind and Freedom.webp"
           },
           {
-            "id": "215032",
-            "name": "Wind-Swept Verse",
-            "title": "Venti, Song of the Wind",
-            "description": "\"Therefore, in principle, there are only two types of 'unrevealed' things: the Mirai of those who are not anchored by the stars, and the Mirai of those who proactively interfere with divination for some purpose. The latter is truly infuriating; I hope the little witch in the story never becomes that kind of person.\"",
-            "sourceText": null,
-            "localizedNames": {
-              "en": "Wind-Swept Verse",
-              "zh": "\u9882\u65f6\u98ce\u82e5",
-              "ja": "\u98a8\u3092\u8b83\u3048\u3066"
-            },
-            "type": "Action",
-            "cost": [
-              {
-                "cost_type": "GCG_COST_DICE_ANEMO",
-                "count": 3
-              },
-              {
-                "cost_type": "GCG_COST_INVALID"
-              }
-            ],
-            "hp": 0,
-            "tags": [
-              "Talent",
-              "Hexerei"
-            ],
-            "talent": {
-              "name": "Wind-Swept Feathers",
-              "desc": "$[K2]: When equipping to your <color=#FFFFFFFF>$[A1503]</color>, equip this card.\\nSummon <color=#FFFFFFFF>$[C115034]</color>.\\nAfter you summon <color=#FFFFFFFF>$[C115034]</color>, the attached character's $[K100] is converted to $[K105] for their next two <color=#FFFFFFFF>Normal Attacks</color> during this Round, and these attacks cost 2 fewer <color=#FFFFFFFF>{SPRITE_PRESET#1109}Unaligned Element</color>.\\n(You must have $[A1503] in your deck to add this card to your deck.)",
-              "child": {
-                "k2": {
-                  "name": "<color=#FFFFFFFF>Fast Action</color>",
-                  "desc": "You can continue with other actions after conducting 1 Fast Action.\\nOnly after conducting 1 Combat Action will the turn pass over to your opponent."
-                },
-                "a1503": "Wind-Swept Verse",
-                "c115034": {
-                  "name": "Stormeye",
-                  "desc": "<color=#FFFFFFFF>End Phase:</color> Deal 2 $[K105]. Your opponent switches to: $[K7].\\n<color=#FFFFFFFF>$[K3]: 2</color>\\n\\n<color=#FFFFFFFF>After your character or Summon triggers a Swirl reaction:</color> Convert the Elemental Type of this card and change its DMG dealt to the element Swirled. (Can only be converted once before leaving the field)",
-                  "child": {
-                    "k105": {
-                      "name": "{SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo DMG</color>",
-                      "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Swirl</color>: Deals 1 Cryo DMG to all opposing characters except the target\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Swirl</color>: Deals 1 Hydro DMG to all opposing characters except the target\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Swirl</color>: Deals 1 Pyro DMG to all opposing characters except the target\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Swirl</color>: Deals 1 Electro DMG to all opposing characters except the target"
-                    },
-                    "k7": {
-                      "name": "<color=#FFFFFFFF>Character Closest to Your Current Active Character</color>",
-                      "desc": "The opposing \"character closest to your current active character\" is the opposing character whose position is closest to that of your active character.\\nIf multiple such characters exist, the one with the foremost position will be viewed as being \"closest.\""
-                    },
-                    "k3": {
-                      "name": "<color=#FFFFFFFF>Usage(s)</color>",
-                      "desc": "After this card's effect is triggered, 1 <color=#FFFFFFFF>Usage</color> of it will be consumed.\\nThis card will be discarded immediately once it has 0 <color=#FFFFFFFF>Usages</color> remaining."
-                    }
-                  }
-                },
-                "k100": {
-                  "name": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>",
-                  "desc": "Physical DMG will not apply any Elements, nor can it engage in Elemental Reactions."
-                },
-                "k105": {
-                  "name": "{SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo DMG</color>",
-                  "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Swirl</color>: Deals 1 Cryo DMG to all opposing characters except the target\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Swirl</color>: Deals 1 Hydro DMG to all opposing characters except the target\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Swirl</color>: Deals 1 Pyro DMG to all opposing characters except the target\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Swirl</color>: Deals 1 Electro DMG to all opposing characters except the target"
-                }
-              }
-            },
-            "playableCharacter": null,
-            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/215032-Wind-Swept Verse.webp"
-          },
-          {
             "id": "312201",
             "name": "Wine-Stained Tricorne",
             "title": "Sunken Dreams of Yore: Wine-Stained Tricorne",
@@ -41190,6 +41140,47 @@ var NYX_DB = {
             },
             "playableCharacter": null,
             "art": "../../Database/Nanoka/gi/gcg/other cards/assets/214071-Wishes Unnumbered.webp"
+          },
+          {
+            "id": "332065",
+            "name": "Witch's Homework",
+            "title": "Witch's Homework",
+            "description": "\"Rather than a scenario where we jump in and save the day out of nowhere, it makes more sense to lay the groundwork over time...\"",
+            "sourceText": null,
+            "localizedNames": {
+              "en": "Witch's Homework",
+              "zh": "\u300c\u9b54\u5973\u7684\u8bfe\u4e1a\u300d",
+              "ja": "\u300c\u9b54\u5973\u306e\u8ab2\u984c\u300d",
+              "ko": "\u300c\ub9c8\ub140\uc758 \uacfc\uc81c\u300d"
+            },
+            "type": "Action",
+            "cost": [
+              {
+                "cost_type": "GCG_COST_DICE_SAME",
+                "count": 1
+              },
+              {
+                "cost_type": "GCG_COST_INVALID"
+              }
+            ],
+            "hp": 0,
+            "tags": [],
+            "talent": {
+              "name": "Witch's Homework",
+              "desc": "Draw 1 {SPRITE_PRESET#3006} Talent card. If your deck initially contains at least 3 {SPRITE_PRESET#3006} Talent cards, grant $[K3005] to the {SPRITE_PRESET#3006} Talent card with the highest <color=#FFFFFFFF>$[K3002]</color> in your Hand.",
+              "child": {
+                "k3005": {
+                  "name": "<color=#FFFFFFFF>Cost Reduction</color>",
+                  "desc": ""
+                },
+                "k3002": {
+                  "name": "<color=#FFFFFFFF>Current Elemental Dice Cost</color>",
+                  "desc": "If a <color=#FFFFFFFF>Cost Increase</color> or <color=#FFFFFFFF>Cost Reduction</color> is attached to an Action Card, its current Elemental Dice cost will be adjusted accordingly.\\n(Effects that reduce the Elemental Dice cost when playing the card do not affect this cost.)"
+                }
+              }
+            },
+            "playableCharacter": null,
+            "art": "../../Database/Nanoka/gi/gcg/other cards/assets/332065-Witch's Homework.webp"
           },
           {
             "id": "312301",
@@ -41601,16 +41592,16 @@ var NYX_DB = {
         ]
       },
       "furniture": {
-        "updated": "2026-07-05T17:16:02.394Z",
-        "version": "6.7.50",
+        "updated": "2026-07-08T09:20:30.353Z",
+        "version": "6.7.51",
         "counts": {
-          "items": 2300,
-          "craftable": 1348
+          "items": 2342,
+          "craftable": 1386
         },
         "categories": [
           {
             "key": "Landscape",
-            "count": 734
+            "count": 745
           },
           {
             "key": "Building",
@@ -41618,15 +41609,15 @@ var NYX_DB = {
           },
           {
             "key": "Landform",
-            "count": 244
+            "count": 247
           },
           {
             "key": "Ornaments",
-            "count": 162
+            "count": 170
           },
           {
             "key": "Small Furnishing",
-            "count": 145
+            "count": 150
           },
           {
             "key": "Animal",
@@ -41634,7 +41625,7 @@ var NYX_DB = {
           },
           {
             "key": "Large Furnishing",
-            "count": 125
+            "count": 129
           },
           {
             "key": "Courtyard",
@@ -41642,7 +41633,7 @@ var NYX_DB = {
           },
           {
             "key": "Outdoor Furnishing",
-            "count": 121
+            "count": 124
           },
           {
             "key": "Companion",
@@ -41650,7 +41641,7 @@ var NYX_DB = {
           },
           {
             "key": "Wall Decor",
-            "count": 62
+            "count": 63
           },
           {
             "key": "Decoration",
@@ -41658,6 +41649,10 @@ var NYX_DB = {
           },
           {
             "key": "Main Building",
+            "count": 7
+          },
+          {
+            "key": "Other",
             "count": 7
           }
         ],
@@ -51331,6 +51326,665 @@ var NYX_DB = {
             "art": null
           },
           {
+            "id": "360484",
+            "name": "360484",
+            "description": null,
+            "rarity": 3,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Lighting"
+            ],
+            "comfort": 30,
+            "cost": 85,
+            "source": [],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 8,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/Nanoka/gi/furniture/assets/360484.webp"
+          },
+          {
+            "id": "361126",
+            "name": "361126",
+            "description": null,
+            "rarity": 3,
+            "category": "Large Furnishing",
+            "types": [
+              "Large Furnishing"
+            ],
+            "subtypes": [
+              "Cabinet"
+            ],
+            "comfort": 60,
+            "cost": 254,
+            "source": [],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 6,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 6,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/Nanoka/gi/furniture/assets/361126.webp"
+          },
+          {
+            "id": "361127",
+            "name": "361127",
+            "description": null,
+            "rarity": 3,
+            "category": "Large Furnishing",
+            "types": [
+              "Large Furnishing"
+            ],
+            "subtypes": [
+              "Cabinet"
+            ],
+            "comfort": 60,
+            "cost": 254,
+            "source": [],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 2,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 6,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/Nanoka/gi/furniture/assets/361127.webp"
+          },
+          {
+            "id": "361350",
+            "name": "361350",
+            "description": null,
+            "rarity": 3,
+            "category": "Large Furnishing",
+            "types": [
+              "Large Furnishing"
+            ],
+            "subtypes": [
+              "Table"
+            ],
+            "comfort": 60,
+            "cost": 592,
+            "source": [],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 6,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 6,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/Nanoka/gi/furniture/assets/361350.webp"
+          },
+          {
+            "id": "361415",
+            "name": "361415",
+            "description": null,
+            "rarity": 3,
+            "category": "Large Furnishing",
+            "types": [
+              "Large Furnishing"
+            ],
+            "subtypes": [
+              "Bed"
+            ],
+            "comfort": 60,
+            "cost": 85,
+            "source": [],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 8,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/Nanoka/gi/furniture/assets/361415.webp"
+          },
+          {
+            "id": "362136",
+            "name": "362136",
+            "description": null,
+            "rarity": 3,
+            "category": "Small Furnishing",
+            "types": [
+              "Small Furnishing"
+            ],
+            "subtypes": [
+              "Seating"
+            ],
+            "comfort": 60,
+            "cost": 85,
+            "source": [],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 2,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 6,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/Nanoka/gi/furniture/assets/362136.webp"
+          },
+          {
+            "id": "362137",
+            "name": "362137",
+            "description": null,
+            "rarity": 3,
+            "category": "Small Furnishing",
+            "types": [
+              "Small Furnishing"
+            ],
+            "subtypes": [
+              "Seating"
+            ],
+            "comfort": 60,
+            "cost": 85,
+            "source": [],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101329",
+                  "name": "Pedunculate Oak Wood",
+                  "count": 8,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101329.webp"
+                }
+              ]
+            },
+            "art": "../../Database/Nanoka/gi/furniture/assets/362137.webp"
+          },
+          {
+            "id": "362325",
+            "name": "362325",
+            "description": null,
+            "rarity": 3,
+            "category": "Small Furnishing",
+            "types": [
+              "Small Furnishing"
+            ],
+            "subtypes": [
+              "Carpet"
+            ],
+            "comfort": 60,
+            "cost": 85,
+            "source": [],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101401",
+                  "name": "Fabric",
+                  "count": 4,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101401.webp"
+                },
+                {
+                  "id": "101403",
+                  "name": "Yellow Dye",
+                  "count": 4,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101403.webp"
+                }
+              ]
+            },
+            "art": "../../Database/Nanoka/gi/furniture/assets/362325.webp"
+          },
+          {
+            "id": "362326",
+            "name": "362326",
+            "description": null,
+            "rarity": 3,
+            "category": "Small Furnishing",
+            "types": [
+              "Small Furnishing"
+            ],
+            "subtypes": [
+              "Carpet"
+            ],
+            "comfort": 60,
+            "cost": 85,
+            "source": [],
+            "recipe": {
+              "time": 57600,
+              "exp": 90,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 12,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 18,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/Nanoka/gi/furniture/assets/362326.webp"
+          },
+          {
+            "id": "362408",
+            "name": "362408",
+            "description": null,
+            "rarity": 3,
+            "category": "Small Furnishing",
+            "types": [
+              "Small Furnishing"
+            ],
+            "subtypes": [
+              "Craftwork"
+            ],
+            "comfort": 60,
+            "cost": 190,
+            "source": [],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 8,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/Nanoka/gi/furniture/assets/362408.webp"
+          },
+          {
+            "id": "363121",
+            "name": "363121",
+            "description": null,
+            "rarity": 3,
+            "category": "Ornaments",
+            "types": [
+              "Ornaments"
+            ],
+            "subtypes": [
+              "Lighting"
+            ],
+            "comfort": 60,
+            "cost": 305,
+            "source": [],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 6,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 6,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/Nanoka/gi/furniture/assets/363121.webp"
+          },
+          {
+            "id": "363122",
+            "name": "363122",
+            "description": null,
+            "rarity": 3,
+            "category": "Ornaments",
+            "types": [
+              "Ornaments"
+            ],
+            "subtypes": [
+              "Lighting"
+            ],
+            "comfort": 60,
+            "cost": 305,
+            "source": [],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 6,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 6,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/Nanoka/gi/furniture/assets/363122.webp"
+          },
+          {
+            "id": "363399",
+            "name": "363399",
+            "description": null,
+            "rarity": 4,
+            "category": "Ornaments",
+            "types": [
+              "Ornaments"
+            ],
+            "subtypes": [
+              "Memento"
+            ],
+            "comfort": 60,
+            "cost": 1300,
+            "source": [],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/Nanoka/gi/furniture/assets/363399.webp"
+          },
+          {
+            "id": "363441",
+            "name": "363441",
+            "description": null,
+            "rarity": 3,
+            "category": "Ornaments",
+            "types": [
+              "Ornaments"
+            ],
+            "subtypes": [
+              "Utensil"
+            ],
+            "comfort": 60,
+            "cost": 676,
+            "source": [],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/Nanoka/gi/furniture/assets/363441.webp"
+          },
+          {
+            "id": "363442",
+            "name": "363442",
+            "description": null,
+            "rarity": 3,
+            "category": "Ornaments",
+            "types": [
+              "Ornaments"
+            ],
+            "subtypes": [
+              "Utensil"
+            ],
+            "comfort": 60,
+            "cost": 676,
+            "source": [],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/Nanoka/gi/furniture/assets/363442.webp"
+          },
+          {
+            "id": "363443",
+            "name": "363443",
+            "description": null,
+            "rarity": 3,
+            "category": "Ornaments",
+            "types": [
+              "Ornaments"
+            ],
+            "subtypes": [
+              "Utensil"
+            ],
+            "comfort": 60,
+            "cost": 676,
+            "source": [],
+            "recipe": {
+              "time": 57600,
+              "exp": 90,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 6,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 12,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/Nanoka/gi/furniture/assets/363443.webp"
+          },
+          {
+            "id": "363513",
+            "name": "363513",
+            "description": null,
+            "rarity": 3,
+            "category": "Ornaments",
+            "types": [
+              "Ornaments"
+            ],
+            "subtypes": [
+              "Potted Plant"
+            ],
+            "comfort": 60,
+            "cost": 180,
+            "source": [],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 8,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/Nanoka/gi/furniture/assets/363513.webp"
+          },
+          {
+            "id": "363514",
+            "name": "363514",
+            "description": null,
+            "rarity": 3,
+            "category": "Ornaments",
+            "types": [
+              "Ornaments"
+            ],
+            "subtypes": [
+              "Potted Plant"
+            ],
+            "comfort": 60,
+            "cost": 180,
+            "source": [],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/Nanoka/gi/furniture/assets/363514.webp"
+          },
+          {
+            "id": "364524",
+            "name": "364524",
+            "description": null,
+            "rarity": 3,
+            "category": "Wall Decor",
+            "types": [
+              "Wall Decor"
+            ],
+            "subtypes": [
+              "Picture Frame"
+            ],
+            "comfort": 60,
+            "cost": 169,
+            "source": [],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 8,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/Nanoka/gi/furniture/assets/364524.webp"
+          },
+          {
             "id": "369231",
             "name": "369231",
             "description": null,
@@ -51469,6 +52123,743 @@ var NYX_DB = {
             ],
             "recipe": null,
             "art": "../../Database/Nanoka/gi/furniture/assets/369237.webp"
+          },
+          {
+            "id": "371050",
+            "name": "371050",
+            "description": null,
+            "rarity": 3,
+            "category": "Other",
+            "types": [
+              ""
+            ],
+            "subtypes": [
+              ""
+            ],
+            "comfort": 60,
+            "cost": 65,
+            "source": [],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 2,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 6,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/Nanoka/gi/furniture/assets/371050.webp"
+          },
+          {
+            "id": "371051",
+            "name": "371051",
+            "description": null,
+            "rarity": 3,
+            "category": "Other",
+            "types": [
+              ""
+            ],
+            "subtypes": [
+              ""
+            ],
+            "comfort": 60,
+            "cost": 65,
+            "source": [],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 6,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 6,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/Nanoka/gi/furniture/assets/371051.webp"
+          },
+          {
+            "id": "371052",
+            "name": "371052",
+            "description": null,
+            "rarity": 3,
+            "category": "Other",
+            "types": [
+              ""
+            ],
+            "subtypes": [
+              ""
+            ],
+            "comfort": 60,
+            "cost": 65,
+            "source": [],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 2,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 6,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/Nanoka/gi/furniture/assets/371052.webp"
+          },
+          {
+            "id": "371053",
+            "name": "371053",
+            "description": null,
+            "rarity": 3,
+            "category": "Other",
+            "types": [
+              ""
+            ],
+            "subtypes": [
+              ""
+            ],
+            "comfort": 60,
+            "cost": 65,
+            "source": [],
+            "recipe": {
+              "time": 57600,
+              "exp": 90,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 10,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 8,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/Nanoka/gi/furniture/assets/371053.webp"
+          },
+          {
+            "id": "371054",
+            "name": "371054",
+            "description": null,
+            "rarity": 3,
+            "category": "Other",
+            "types": [
+              ""
+            ],
+            "subtypes": [
+              ""
+            ],
+            "comfort": 60,
+            "cost": 65,
+            "source": [],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 2,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 6,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/Nanoka/gi/furniture/assets/371054.webp"
+          },
+          {
+            "id": "371055",
+            "name": "371055",
+            "description": null,
+            "rarity": 3,
+            "category": "Other",
+            "types": [
+              ""
+            ],
+            "subtypes": [
+              ""
+            ],
+            "comfort": 60,
+            "cost": 65,
+            "source": [],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101301",
+                  "name": "Birch Wood",
+                  "count": 6,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101301.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 2,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/Nanoka/gi/furniture/assets/371055.webp"
+          },
+          {
+            "id": "371056",
+            "name": "371056",
+            "description": null,
+            "rarity": 3,
+            "category": "Other",
+            "types": [
+              ""
+            ],
+            "subtypes": [
+              ""
+            ],
+            "comfort": 60,
+            "cost": 65,
+            "source": [],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 2,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 6,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/Nanoka/gi/furniture/assets/371056.webp"
+          },
+          {
+            "id": "372363",
+            "name": "372363",
+            "description": null,
+            "rarity": 3,
+            "category": "Landform",
+            "types": [
+              "Landform"
+            ],
+            "subtypes": [
+              "Tree"
+            ],
+            "comfort": 30,
+            "cost": 65,
+            "source": [],
+            "recipe": null,
+            "art": "../../Database/Nanoka/gi/furniture/assets/372363.webp"
+          },
+          {
+            "id": "372525",
+            "name": "372525",
+            "description": null,
+            "rarity": 3,
+            "category": "Landform",
+            "types": [
+              "Landform"
+            ],
+            "subtypes": [
+              "Small Shrub"
+            ],
+            "comfort": 30,
+            "cost": 35,
+            "source": [],
+            "recipe": null,
+            "art": "../../Database/Nanoka/gi/furniture/assets/372525.webp"
+          },
+          {
+            "id": "372526",
+            "name": "372526",
+            "description": null,
+            "rarity": 3,
+            "category": "Landform",
+            "types": [
+              "Landform"
+            ],
+            "subtypes": [
+              "Small Shrub"
+            ],
+            "comfort": 30,
+            "cost": 35,
+            "source": [],
+            "recipe": null,
+            "art": "../../Database/Nanoka/gi/furniture/assets/372526.webp"
+          },
+          {
+            "id": "373942",
+            "name": "373942",
+            "description": null,
+            "rarity": 3,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Small Object"
+            ],
+            "comfort": 30,
+            "cost": 35,
+            "source": [],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101320",
+                  "name": "Ash Wood",
+                  "count": 2,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101320.webp"
+                },
+                {
+                  "id": "101401",
+                  "name": "Fabric",
+                  "count": 4,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101401.webp"
+                }
+              ]
+            },
+            "art": "../../Database/Nanoka/gi/furniture/assets/373942.webp"
+          },
+          {
+            "id": "373943",
+            "name": "373943",
+            "description": null,
+            "rarity": 3,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Small Object"
+            ],
+            "comfort": 30,
+            "cost": 35,
+            "source": [],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101401",
+                  "name": "Fabric",
+                  "count": 8,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101401.webp"
+                },
+                {
+                  "id": "101402",
+                  "name": "Red Dye",
+                  "count": 4,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101402.webp"
+                }
+              ]
+            },
+            "art": "../../Database/Nanoka/gi/furniture/assets/373943.webp"
+          },
+          {
+            "id": "373944",
+            "name": "373944",
+            "description": null,
+            "rarity": 3,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Small Object"
+            ],
+            "comfort": 30,
+            "cost": 35,
+            "source": [],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101401",
+                  "name": "Fabric",
+                  "count": 4,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101401.webp"
+                }
+              ]
+            },
+            "art": "../../Database/Nanoka/gi/furniture/assets/373944.webp"
+          },
+          {
+            "id": "374224",
+            "name": "374224",
+            "description": null,
+            "rarity": 3,
+            "category": "Outdoor Furnishing",
+            "types": [
+              "Outdoor Furnishing"
+            ],
+            "subtypes": [
+              "Seating"
+            ],
+            "comfort": 30,
+            "cost": 35,
+            "source": [],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 6,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 6,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/Nanoka/gi/furniture/assets/374224.webp"
+          },
+          {
+            "id": "374225",
+            "name": "374225",
+            "description": null,
+            "rarity": 3,
+            "category": "Outdoor Furnishing",
+            "types": [
+              "Outdoor Furnishing"
+            ],
+            "subtypes": [
+              "Seating"
+            ],
+            "comfort": 30,
+            "cost": 35,
+            "source": [],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 10,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/Nanoka/gi/furniture/assets/374225.webp"
+          },
+          {
+            "id": "374334",
+            "name": "374334",
+            "description": null,
+            "rarity": 3,
+            "category": "Outdoor Furnishing",
+            "types": [
+              "Outdoor Furnishing"
+            ],
+            "subtypes": [
+              "Table"
+            ],
+            "comfort": 60,
+            "cost": 65,
+            "source": [],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101301",
+                  "name": "Birch Wood",
+                  "count": 6,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101301.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 2,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/Nanoka/gi/furniture/assets/374334.webp"
+          },
+          {
+            "id": "374661",
+            "name": "374661",
+            "description": null,
+            "rarity": 3,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Large Object"
+            ],
+            "comfort": 30,
+            "cost": 50,
+            "source": [],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/Nanoka/gi/furniture/assets/374661.webp"
+          },
+          {
+            "id": "374662",
+            "name": "374662",
+            "description": null,
+            "rarity": 3,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Large Object"
+            ],
+            "comfort": 30,
+            "cost": 50,
+            "source": [],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 2,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 6,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/Nanoka/gi/furniture/assets/374662.webp"
+          },
+          {
+            "id": "374663",
+            "name": "374663",
+            "description": null,
+            "rarity": 3,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Large Object"
+            ],
+            "comfort": 30,
+            "cost": 50,
+            "source": [],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 2,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 6,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/Nanoka/gi/furniture/assets/374663.webp"
+          },
+          {
+            "id": "374664",
+            "name": "374664",
+            "description": null,
+            "rarity": 3,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Large Object"
+            ],
+            "comfort": 30,
+            "cost": 50,
+            "source": [],
+            "recipe": {
+              "time": 57600,
+              "exp": 90,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 6,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 12,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/Nanoka/gi/furniture/assets/374664.webp"
+          },
+          {
+            "id": "374665",
+            "name": "374665",
+            "description": null,
+            "rarity": 3,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Large Object"
+            ],
+            "comfort": 30,
+            "cost": 50,
+            "source": [],
+            "recipe": {
+              "time": 57600,
+              "exp": 90,
+              "materials": [
+                {
+                  "id": "101320",
+                  "name": "Ash Wood",
+                  "count": 8,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101320.webp"
+                },
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 4,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101001.webp"
+                }
+              ]
+            },
+            "art": "../../Database/Nanoka/gi/furniture/assets/374665.webp"
+          },
+          {
+            "id": "374666",
+            "name": "374666",
+            "description": null,
+            "rarity": 3,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Large Object"
+            ],
+            "comfort": 30,
+            "cost": 50,
+            "source": [],
+            "recipe": {
+              "time": 50400,
+              "exp": 60,
+              "materials": [
+                {
+                  "id": "101001",
+                  "name": "Iron Chunk",
+                  "count": 2,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101001.webp"
+                },
+                {
+                  "id": "101002",
+                  "name": "White Iron Chunk",
+                  "count": 6,
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101002.webp"
+                }
+              ]
+            },
+            "art": "../../Database/Nanoka/gi/furniture/assets/374666.webp"
+          },
+          {
+            "id": "374849",
+            "name": "374849",
+            "description": null,
+            "rarity": 3,
+            "category": "Landscape",
+            "types": [
+              "Landscape"
+            ],
+            "subtypes": [
+              "Special Object"
+            ],
+            "comfort": 30,
+            "cost": 95,
+            "source": [],
+            "recipe": null,
+            "art": "../../Database/Nanoka/gi/furniture/assets/374849.webp"
           },
           {
             "id": "361319",
@@ -114670,7 +116061,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-05",
+          "added": "2026-07-08",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK"
@@ -114684,8 +116075,8 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-05",
-          "firstSeen": "2026-07-05T20:39:50.279Z",
+          "added": "2026-07-08",
+          "firstSeen": "2026-07-08T09:31:05.758Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB"
         },
@@ -114698,7 +116089,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-05",
+          "added": "2026-07-08",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH"
@@ -114712,7 +116103,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-05",
+          "added": "2026-07-08",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL"
@@ -114726,7 +116117,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-05",
+          "added": "2026-07-08",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS"
@@ -114740,7 +116131,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-05",
+          "added": "2026-07-08",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA"
@@ -114754,34 +116145,21 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-05",
+          "added": "2026-07-08",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT"
-        },
-        {
-          "code": "BladeFitCheck",
-          "reward": "Three Traveler S Guides and Two Cold Jokes",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Stellar Jade",
-            "needle": "stellar jade",
-            "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
-          },
-          "added": "2026-06-08",
-          "firstSeen": "2026-07-05T17:19:05.883Z",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=BladeFitCheck",
-          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=BladeFitCheck"
         }
       ],
       "banners": {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-05T19:41:35.231Z",
-          "lastSuccessfulFetch": "2026-07-05T19:41:35.231Z",
-          "lastValidUpdate": "2026-07-05T19:41:35.231Z",
-          "source": "game8"
+          "checkedAt": "2026-07-08T19:54:38.539Z",
+          "lastSuccessfulFetch": "2026-07-08T08:43:54.439Z",
+          "lastValidUpdate": "2026-07-08T08:43:54.439Z",
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "4.3",
@@ -114839,6 +116217,18 @@ var NYX_DB = {
       },
       "roster": [
         {
+          "id": "hsr-himeko-nova",
+          "name": "Himeko Nova",
+          "aliases": [],
+          "title": "Ad Astra Nova",
+          "rarity": 5,
+          "element": "Fire",
+          "role": "Erudition",
+          "icon": "../../Database/Nanoka/hsr/assets/characters/round/1510.webp",
+          "art": "../../Database/Prydwen/hsr/assets/characters/himeko-nova-4191fdac6ee2.webp",
+          "forms": []
+        },
+        {
           "id": "hsr-aventurine-waveflair",
           "name": "Aventurine Waveflair",
           "aliases": [],
@@ -114874,18 +116264,6 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/Nanoka/hsr/assets/lightcones/full/23058.webp"
           ],
-          "forms": []
-        },
-        {
-          "id": "hsr-himeko-nova",
-          "name": "Himeko Nova",
-          "aliases": [],
-          "title": "Ad Astra Nova",
-          "rarity": 5,
-          "element": "Fire",
-          "role": "Erudition",
-          "icon": "../../Database/Nanoka/hsr/assets/characters/round/1510.webp",
-          "art": "../../Database/Prydwen/hsr/assets/characters/himeko-nova-4191fdac6ee2.webp",
           "forms": []
         },
         {
@@ -118463,7 +119841,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/Nanoka/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-05",
+          "added": "2026-07-08",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT"
@@ -118529,40 +119907,15 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-05T19:41:35.231Z",
-          "lastSuccessfulFetch": "2026-07-05T19:41:35.231Z",
-          "lastValidUpdate": "2026-07-05T19:41:35.231Z",
-          "source": "game8"
+          "checkedAt": "2026-07-08T19:54:38.539Z",
+          "lastSuccessfulFetch": "2026-07-08T08:43:54.439Z",
+          "lastValidUpdate": "2026-07-08T08:43:54.439Z",
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": null,
           "start": null,
-          "end": "2026-07-08T10:00:00.000Z",
-          "characters": [
-            {
-              "name": "Velina",
-              "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1561.webp",
-              "iconFallback": "../../Database/Nanoka/zzz/assets/IconRoleSelect64.webp",
-              "iconZoom": true,
-              "art": "../../Database/Prydwen/zzz/assets/characters/velina-542b0a87d52a.webp",
-              "namecard": null,
-              "rarity": "S"
-            },
-            {
-              "name": "Ye Shunguang",
-              "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1431.webp",
-              "iconFallback": "../../Database/Nanoka/zzz/assets/IconRoleSelect55.webp",
-              "iconZoom": true,
-              "art": "../../Database/Prydwen/zzz/assets/characters/ye-shunguang-bdd0b5faf96c.webp",
-              "namecard": null,
-              "rarity": "S"
-            }
-          ],
-          "subBanners": []
-        },
-        "next": {
-          "phase": null,
-          "start": "2026-07-08T10:00:00.000Z",
           "end": "2026-07-28T10:00:00.000Z",
           "characters": [
             {
@@ -118586,9 +119939,45 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
+        "next": null,
         "upcoming": []
       },
       "roster": [
+        {
+          "id": "zzz-norma",
+          "name": "Norma",
+          "aliases": [],
+          "title": "En-Nah Time",
+          "rarity": "S",
+          "element": "Fire",
+          "role": "Stun",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1571.webp",
+          "art": "../../Database/Prydwen/zzz/assets/characters/norma-f4dbe2ca9e48.webp",
+          "forms": []
+        },
+        {
+          "id": "zzz-pyrois",
+          "name": "Pyrois",
+          "aliases": [],
+          "rarity": "S",
+          "element": "Ether",
+          "role": "Attack",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1551.webp",
+          "art": "../../Database/Prydwen/zzz/assets/characters/pyrois-4c5bdf76ba79.webp",
+          "forms": []
+        },
+        {
+          "id": "zzz-velina",
+          "name": "Velina",
+          "aliases": [],
+          "title": "Beyond Etiquette",
+          "rarity": "S",
+          "element": "Wind",
+          "role": "Anomaly",
+          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1561.webp",
+          "art": "../../Database/Prydwen/zzz/assets/characters/velina-542b0a87d52a.webp",
+          "forms": []
+        },
         {
           "id": "zzz-aria",
           "name": "Aria",
@@ -118659,29 +120048,6 @@ var NYX_DB = {
           "role": "Attack",
           "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1301.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/orphie-magus-e44aeea91ef9.webp",
-          "forms": []
-        },
-        {
-          "id": "zzz-pyrois",
-          "name": "Pyrois",
-          "aliases": [],
-          "rarity": "S",
-          "element": "Ether",
-          "role": "Attack",
-          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1551.webp",
-          "art": "../../Database/Prydwen/zzz/assets/characters/pyrois-4c5bdf76ba79.webp",
-          "forms": []
-        },
-        {
-          "id": "zzz-velina",
-          "name": "Velina",
-          "aliases": [],
-          "title": "Beyond Etiquette",
-          "rarity": "S",
-          "element": "Wind",
-          "role": "Anomaly",
-          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1561.webp",
-          "art": "../../Database/Prydwen/zzz/assets/characters/velina-542b0a87d52a.webp",
           "forms": []
         },
         {
@@ -119210,17 +120576,6 @@ var NYX_DB = {
           "role": "Support",
           "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1131.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/soukaku-b11bd2e95ae9.webp",
-          "forms": []
-        },
-        {
-          "id": "zzz-norma",
-          "name": "Norma",
-          "aliases": [],
-          "rarity": "S",
-          "element": "Fire",
-          "role": "Stun",
-          "icon": "../../Database/Nanoka/zzz/assets/items/CardDailyUse1571.webp",
-          "art": "../../Database/Prydwen/zzz/assets/characters/norma-f4dbe2ca9e48.webp",
           "forms": []
         }
       ]
@@ -120996,7 +122351,7 @@ var NYX_DB = {
           "key": "echoes",
           "title": "Echoes",
           "source": "Nanoka",
-          "count": 163,
+          "count": 180,
           "items": [
             {
               "id": "ww-echo-6000038",
@@ -122349,6 +123704,180 @@ var NYX_DB = {
               "text": "340000291"
             },
             {
+              "id": "ww-echo-6000202",
+              "name": "Smiter",
+              "kind": "echo",
+              "art": "../../Database/Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31090_UI.webp",
+              "fields": {
+                "rarity": "2-3-4-5"
+              },
+              "text": "310000900"
+            },
+            {
+              "id": "ww-echo-6000203",
+              "name": "Porcelain Picket",
+              "kind": "echo",
+              "art": "../../Database/Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31091_UI.webp",
+              "fields": {
+                "rarity": "2-3-4-5"
+              },
+              "text": "310000910"
+            },
+            {
+              "id": "ww-echo-6000204",
+              "name": "Stone Picket",
+              "kind": "echo",
+              "art": "../../Database/Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31092_UI.webp",
+              "fields": {
+                "rarity": "2-3-4-5"
+              },
+              "text": "310000920"
+            },
+            {
+              "id": "ww-echo-6000205",
+              "name": "Aureate Picket",
+              "kind": "echo",
+              "art": "../../Database/Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31093_UI.webp",
+              "fields": {
+                "rarity": "2-3-4-5"
+              },
+              "text": "310000930"
+            },
+            {
+              "id": "ww-echo-6000206",
+              "name": "Kernel Puppet: Joy",
+              "kind": "echo",
+              "art": "../../Database/Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31094_UI.webp",
+              "fields": {
+                "rarity": "2-3-4-5"
+              },
+              "text": "310000940"
+            },
+            {
+              "id": "ww-echo-6000207",
+              "name": "Kernel Puppet: Anger",
+              "kind": "echo",
+              "art": "../../Database/Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31095_UI.webp",
+              "fields": {
+                "rarity": "2-3-4-5"
+              },
+              "text": "310000950"
+            },
+            {
+              "id": "ww-echo-6000208",
+              "name": "Kernel Puppet: Worry",
+              "kind": "echo",
+              "art": "../../Database/Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31096_UI.webp",
+              "fields": {
+                "rarity": "2-3-4-5"
+              },
+              "text": "310000960"
+            },
+            {
+              "id": "ww-echo-6000209",
+              "name": "Kernel Puppet: Reflection",
+              "kind": "echo",
+              "art": "../../Database/Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31097_UI.webp",
+              "fields": {
+                "rarity": "2-3-4-5"
+              },
+              "text": "310000970"
+            },
+            {
+              "id": "ww-echo-6000210",
+              "name": "Kernel Puppet: Grief",
+              "kind": "echo",
+              "art": "../../Database/Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31098_UI.webp",
+              "fields": {
+                "rarity": "2-3-4-5"
+              },
+              "text": "310000980"
+            },
+            {
+              "id": "ww-echo-6000211",
+              "name": "Kernel Puppet: Fright",
+              "kind": "echo",
+              "art": "../../Database/Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31099_UI.webp",
+              "fields": {
+                "rarity": "2-3-4-5"
+              },
+              "text": "310000990"
+            },
+            {
+              "id": "ww-echo-6000212",
+              "name": "Fog Lionarch: Body",
+              "kind": "echo",
+              "art": "../../Database/Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31100_UI.webp",
+              "fields": {
+                "rarity": "2-3-4-5"
+              },
+              "text": "310001000"
+            },
+            {
+              "id": "ww-echo-6000213",
+              "name": "Fog Lionarch: Head",
+              "kind": "echo",
+              "art": "../../Database/Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31101_UI.webp",
+              "fields": {
+                "rarity": "2-3-4-5"
+              },
+              "text": "310001010"
+            },
+            {
+              "id": "ww-echo-6000214",
+              "name": "Smolder",
+              "kind": "echo",
+              "art": "../../Database/Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31102_UI.webp",
+              "fields": {
+                "rarity": "2-3-4-5"
+              },
+              "text": "310001020"
+            },
+            {
+              "id": "ww-echo-6000215",
+              "name": "Fog Lionarch",
+              "kind": "echo",
+              "art": "../../Database/Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32067_UI.webp",
+              "fields": {
+                "rarity": "2-3-4-5",
+                "cost": 1
+              },
+              "text": "320000670"
+            },
+            {
+              "id": "ww-echo-6000216",
+              "name": "Forbidden Bastion",
+              "kind": "echo",
+              "art": "../../Database/Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32068_UI.webp",
+              "fields": {
+                "rarity": "2-3-4-5",
+                "cost": 1
+              },
+              "text": "320000680"
+            },
+            {
+              "id": "ww-echo-6000217",
+              "name": "Myriad Snare: Rustfire Chassis",
+              "kind": "echo",
+              "art": "../../Database/Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34030_UI.webp",
+              "fields": {
+                "rarity": "2-3-4-5",
+                "cost": 2
+              },
+              "text": "340000300"
+            },
+            {
+              "id": "ww-echo-6000218",
+              "name": "Thousand-Puppet Pavilion",
+              "kind": "echo",
+              "art": "../../Database/Nanoka/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34031_UI.webp",
+              "fields": {
+                "rarity": "2-3-4-5",
+                "cost": 3
+              },
+              "text": "340000310"
+            },
+            {
               "id": "ww-echo-390070051",
               "name": "Vanguard Junrock",
               "kind": "echo",
@@ -122800,10 +124329,11 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-05T19:41:35.231Z",
-          "lastSuccessfulFetch": "2026-07-05T19:41:35.231Z",
-          "lastValidUpdate": "2026-07-05T19:41:35.231Z",
-          "source": "game8"
+          "checkedAt": "2026-07-08T19:54:38.539Z",
+          "lastSuccessfulFetch": "2026-07-08T08:43:54.439Z",
+          "lastValidUpdate": "2026-07-08T08:43:54.439Z",
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": null,
@@ -123080,7 +124610,8 @@ var NYX_DB = {
               "gender": null,
               "element": "Electro",
               "role": "Sword",
-              "icon": null
+              "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_4_UI.webp",
+              "art": "../../Database/Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zhujuenan_UI.webp"
             }
           ]
         },
@@ -127189,10 +128720,11 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-05T19:41:35.231Z",
-          "lastSuccessfulFetch": "2026-07-05T19:41:35.231Z",
-          "lastValidUpdate": "2026-07-05T19:41:35.231Z",
-          "source": "game8"
+          "checkedAt": "2026-07-08T19:54:38.539Z",
+          "lastSuccessfulFetch": "2026-07-08T08:43:54.439Z",
+          "lastValidUpdate": "2026-07-08T08:43:54.439Z",
+          "source": "game8",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "1.3 Phase 2",

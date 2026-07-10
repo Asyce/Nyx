@@ -9792,6 +9792,34 @@
   ],
   "roster": [
     {
+      "id": "hsr-himeko-nova",
+      "n": "Himeko Nova",
+      "localizedNames": {
+        "en": "Himeko \u2022 Nova",
+        "zh": "\u59ec\u5b50\u2022\u542f\u884c",
+        "ja": "\u59eb\u5b50\u30fb\u65c5\u7acb\u3061",
+        "ko": "\ud788\uba54\ucf54\u2022\ub178\ubc14"
+      },
+      "title": "Ad Astra Nova",
+      "slug": "himeko-nova",
+      "updated": 1783461600000,
+      "sourceOrder": 0,
+      "icon": "../../Database/Nanoka/hsr/assets/characters/round/1510.webp",
+      "art": "../../Database/Prydwen/hsr/assets/characters/himeko-nova-4191fdac6ee2.webp",
+      "card": "../../Database/Prydwen/hsr/assets/characters/himeko-nova-2a8de327b90f.webp",
+      "status": "beta",
+      "labels": [
+        "4.4"
+      ],
+      "r": 5,
+      "el": "Fire",
+      "path": "Erudition",
+      "upcoming": true,
+      "reliableData": false,
+      "noReliableInfo": true,
+      "recent": false
+    },
+    {
       "id": "hsr-aventurine-waveflair",
       "n": "Aventurine Waveflair",
       "localizedNames": {
@@ -11260,34 +11288,6 @@
         }
       },
       "recent": 1
-    },
-    {
-      "id": "hsr-himeko-nova",
-      "n": "Himeko Nova",
-      "localizedNames": {
-        "en": "Himeko \u2022 Nova",
-        "zh": "\u59ec\u5b50\u2022\u542f\u884c",
-        "ja": "\u59eb\u5b50\u30fb\u65c5\u7acb\u3061",
-        "ko": "\ud788\uba54\ucf54\u2022\ub178\ubc14"
-      },
-      "title": "Ad Astra Nova",
-      "slug": "himeko-nova",
-      "updated": 1782252000000,
-      "sourceOrder": 0,
-      "icon": "../../Database/Nanoka/hsr/assets/characters/round/1510.webp",
-      "art": "../../Database/Prydwen/hsr/assets/characters/himeko-nova-4191fdac6ee2.webp",
-      "card": "../../Database/Prydwen/hsr/assets/characters/himeko-nova-2a8de327b90f.webp",
-      "status": "beta",
-      "labels": [
-        "4.4"
-      ],
-      "r": 5,
-      "el": "Fire",
-      "path": "Erudition",
-      "upcoming": true,
-      "reliableData": false,
-      "noReliableInfo": true,
-      "recent": false
     },
     {
       "id": "hsr-yao-guang",

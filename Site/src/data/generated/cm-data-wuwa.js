@@ -590,8 +590,11 @@
           "rar": 2,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_1_UI.webp",
-          "source": "Forgery Challenge: Corroded Remnants",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Corroded Remnants"
             }
@@ -604,8 +607,11 @@
           "rar": 3,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_2_UI.webp",
-          "source": "Forgery Challenge: Corroded Remnants",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Corroded Remnants"
             }
@@ -618,8 +624,11 @@
           "rar": 4,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_3_UI.webp",
-          "source": "Forgery Challenge: Corroded Remnants",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Corroded Remnants"
             }
@@ -632,8 +641,11 @@
           "rar": 5,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_4_UI.webp",
-          "source": "Forgery Challenge: Corroded Remnants",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Corroded Remnants"
             }
@@ -720,8 +732,11 @@
           "rar": 2,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_1_UI.webp",
-          "source": "Forgery Challenge: Corroded Remnants",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Corroded Remnants"
             }
@@ -734,8 +749,11 @@
           "rar": 3,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_2_UI.webp",
-          "source": "Forgery Challenge: Corroded Remnants",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Corroded Remnants"
             }
@@ -748,8 +766,11 @@
           "rar": 4,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_3_UI.webp",
-          "source": "Forgery Challenge: Corroded Remnants",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Corroded Remnants"
             }
@@ -762,8 +783,11 @@
           "rar": 5,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_4_UI.webp",
-          "source": "Forgery Challenge: Corroded Remnants",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Corroded Remnants"
             }
@@ -1575,8 +1599,11 @@
           "rar": 2,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_1_UI.webp",
-          "source": "Forgery Challenge: Lesson in Void",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Void",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Void"
             }
@@ -1589,8 +1616,11 @@
           "rar": 3,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_2_UI.webp",
-          "source": "Forgery Challenge: Lesson in Void",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Void",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Void"
             }
@@ -1603,8 +1633,11 @@
           "rar": 4,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_3_UI.webp",
-          "source": "Forgery Challenge: Lesson in Void",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Void",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Void"
             }
@@ -1617,8 +1650,11 @@
           "rar": 5,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_4_UI.webp",
-          "source": "Forgery Challenge: Lesson in Void",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Void",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Void"
             }
@@ -1850,8 +1886,11 @@
           "rar": 2,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_1_UI.webp",
-          "source": "Forgery Challenge: Lesson in Void",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Void",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Void"
             }
@@ -1864,8 +1903,11 @@
           "rar": 3,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_2_UI.webp",
-          "source": "Forgery Challenge: Lesson in Void",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Void",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Void"
             }
@@ -1878,8 +1920,11 @@
           "rar": 4,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_3_UI.webp",
-          "source": "Forgery Challenge: Lesson in Void",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Void",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Void"
             }
@@ -1892,8 +1937,11 @@
           "rar": 5,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_4_UI.webp",
-          "source": "Forgery Challenge: Lesson in Void",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Void",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Void"
             }
@@ -1980,8 +2028,11 @@
           "rar": 2,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_1_UI.webp",
-          "source": "Forgery Challenge: Lesson in Void",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Void",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Void"
             }
@@ -1994,8 +2045,11 @@
           "rar": 3,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_2_UI.webp",
-          "source": "Forgery Challenge: Lesson in Void",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Void",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Void"
             }
@@ -2008,8 +2062,11 @@
           "rar": 4,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_3_UI.webp",
-          "source": "Forgery Challenge: Lesson in Void",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Void",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Void"
             }
@@ -2022,8 +2079,11 @@
           "rar": 5,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_4_UI.webp",
-          "source": "Forgery Challenge: Lesson in Void",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Void",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Void"
             }
@@ -2549,8 +2609,11 @@
           "rar": 2,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_1_UI.webp",
-          "source": "Forgery Challenge: Lesson in Embers",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Embers"
             }
@@ -2563,8 +2626,11 @@
           "rar": 3,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_2_UI.webp",
-          "source": "Forgery Challenge: Lesson in Embers",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Embers"
             }
@@ -2577,8 +2643,11 @@
           "rar": 4,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_3_UI.webp",
-          "source": "Forgery Challenge: Lesson in Embers",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Embers"
             }
@@ -2591,8 +2660,11 @@
           "rar": 5,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_4_UI.webp",
-          "source": "Forgery Challenge: Lesson in Embers",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Embers"
             }
@@ -2679,8 +2751,11 @@
           "rar": 2,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_1_UI.webp",
-          "source": "Forgery Challenge: Lesson in Embers",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Embers"
             }
@@ -2693,8 +2768,11 @@
           "rar": 3,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_2_UI.webp",
-          "source": "Forgery Challenge: Lesson in Embers",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Embers"
             }
@@ -2707,8 +2785,11 @@
           "rar": 4,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_3_UI.webp",
-          "source": "Forgery Challenge: Lesson in Embers",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Embers"
             }
@@ -2721,8 +2802,11 @@
           "rar": 5,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_4_UI.webp",
-          "source": "Forgery Challenge: Lesson in Embers",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Embers"
             }
@@ -2809,8 +2893,11 @@
           "rar": 2,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_1_UI.webp",
-          "source": "Forgery Challenge: Lesson in Embers",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Embers"
             }
@@ -2823,8 +2910,11 @@
           "rar": 3,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_2_UI.webp",
-          "source": "Forgery Challenge: Lesson in Embers",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Embers"
             }
@@ -2837,8 +2927,11 @@
           "rar": 4,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_3_UI.webp",
-          "source": "Forgery Challenge: Lesson in Embers",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Embers"
             }
@@ -2851,8 +2944,11 @@
           "rar": 5,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_4_UI.webp",
-          "source": "Forgery Challenge: Lesson in Embers",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Embers"
             }
@@ -2939,8 +3035,11 @@
           "rar": 2,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_1_UI.webp",
-          "source": "Forgery Challenge: Lesson in Embers",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Embers"
             }
@@ -2953,8 +3052,11 @@
           "rar": 3,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_2_UI.webp",
-          "source": "Forgery Challenge: Lesson in Embers",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Embers"
             }
@@ -2967,8 +3069,11 @@
           "rar": 4,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_3_UI.webp",
-          "source": "Forgery Challenge: Lesson in Embers",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Embers"
             }
@@ -2981,8 +3086,11 @@
           "rar": 5,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_4_UI.webp",
-          "source": "Forgery Challenge: Lesson in Embers",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Embers"
             }
@@ -3516,8 +3624,11 @@
           "rar": 2,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_1_UI.webp",
-          "source": "Forgery Challenge: Lesson in Sunset",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Sunset"
             }
@@ -3530,8 +3641,11 @@
           "rar": 3,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_2_UI.webp",
-          "source": "Forgery Challenge: Lesson in Sunset",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Sunset"
             }
@@ -3544,8 +3658,11 @@
           "rar": 4,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_3_UI.webp",
-          "source": "Forgery Challenge: Lesson in Sunset",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Sunset"
             }
@@ -3558,8 +3675,11 @@
           "rar": 5,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_4_UI.webp",
-          "source": "Forgery Challenge: Lesson in Sunset",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Sunset"
             }
@@ -3718,6 +3838,148 @@
       "cost": 330000
     },
     {
+      "id": "21050096",
+      "name": "Firstlight's Herald",
+      "rarity": 5,
+      "weaponType": "Rectifier",
+      "type": "Rectifier",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050096_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050096_UI.webp",
+      "items": [
+        {
+          "id": "41100061",
+          "name": "LF Exoswarm Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_021_UI.webp",
+          "source": "Exoswarm / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exoswarm"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100062",
+          "name": "MF Exoswarm Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_022_UI.webp",
+          "source": "Exoswarm / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Exoswarm"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100063",
+          "name": "HF Exoswarm Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_023_UI.webp",
+          "source": "Exoswarm",
+          "sourceDetails": [
+            {
+              "name": "Exoswarm"
+            }
+          ]
+        },
+        {
+          "id": "41100064",
+          "name": "FF Exoswarm Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_024_UI.webp",
+          "source": "Exoswarm",
+          "sourceDetails": [
+            {
+              "name": "Exoswarm"
+            }
+          ]
+        },
+        {
+          "id": "43021031",
+          "name": "Spliced String",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_1_UI.webp",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Sunset"
+            }
+          ]
+        },
+        {
+          "id": "43021032",
+          "name": "Broken String",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_2_UI.webp",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Sunset"
+            }
+          ]
+        },
+        {
+          "id": "43021033",
+          "name": "Solidified String",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_3_UI.webp",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Sunset"
+            }
+          ]
+        },
+        {
+          "id": "43021034",
+          "name": "Melodic String",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_4_UI.webp",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
+            {
+              "name": "Forgery Challenge: Lesson in Sunset"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
       "id": "21050076",
       "name": "Forged Dwarf Star",
       "rarity": 5,
@@ -3795,8 +4057,11 @@
           "rar": 2,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_1_UI.webp",
-          "source": "Forgery Challenge: Lesson in Sunset",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Sunset"
             }
@@ -3809,8 +4074,11 @@
           "rar": 3,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_2_UI.webp",
-          "source": "Forgery Challenge: Lesson in Sunset",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Sunset"
             }
@@ -3823,8 +4091,11 @@
           "rar": 4,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_3_UI.webp",
-          "source": "Forgery Challenge: Lesson in Sunset",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Sunset"
             }
@@ -3837,8 +4108,11 @@
           "rar": 5,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_4_UI.webp",
-          "source": "Forgery Challenge: Lesson in Sunset",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Sunset"
             }
@@ -3925,8 +4199,11 @@
           "rar": 2,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_1_UI.webp",
-          "source": "Forgery Challenge: Lesson in Sunset",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Sunset"
             }
@@ -3939,8 +4216,11 @@
           "rar": 3,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_2_UI.webp",
-          "source": "Forgery Challenge: Lesson in Sunset",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Sunset"
             }
@@ -3953,8 +4233,11 @@
           "rar": 4,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_3_UI.webp",
-          "source": "Forgery Challenge: Lesson in Sunset",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Sunset"
             }
@@ -3967,8 +4250,11 @@
           "rar": 5,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_4_UI.webp",
-          "source": "Forgery Challenge: Lesson in Sunset",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Sunset"
             }
@@ -4872,6 +5158,148 @@
       "cost": 330000
     },
     {
+      "id": "21020096",
+      "name": "Azure Oath",
+      "rarity": 5,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020096_UI.webp",
+      "art": "../../Database/Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020096_UI.webp",
+      "items": [
+        {
+          "id": "41100071",
+          "name": "LF Mech Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_025_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100072",
+          "name": "MF Mech Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_026_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100073",
+          "name": "HF Mech Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_027_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            }
+          ]
+        },
+        {
+          "id": "41100074",
+          "name": "FF Mech Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_028_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            }
+          ]
+        },
+        {
+          "id": "43021011",
+          "name": "Broken Wing Polarizer",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_1_UI.webp",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
+            {
+              "name": "Forgery Challenge: Forsaken Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021012",
+          "name": "Monowing Polarizer",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_2_UI.webp",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
+            {
+              "name": "Forgery Challenge: Forsaken Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021013",
+          "name": "Polywing Polarizer",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_3_UI.webp",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
+            {
+              "name": "Forgery Challenge: Forsaken Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021014",
+          "name": "Layered Wing Polarizer",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_4_UI.webp",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
+            {
+              "name": "Forgery Challenge: Forsaken Remnants"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
       "id": "21020016",
       "name": "Blazing Brilliance",
       "rarity": 5,
@@ -5674,8 +6102,11 @@
           "rar": 2,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_1_UI.webp",
-          "source": "Forgery Challenge: Forsaken Remnants",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Forsaken Remnants"
             }
@@ -5688,8 +6119,11 @@
           "rar": 3,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_2_UI.webp",
-          "source": "Forgery Challenge: Forsaken Remnants",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Forsaken Remnants"
             }
@@ -5702,8 +6136,11 @@
           "rar": 4,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_3_UI.webp",
-          "source": "Forgery Challenge: Forsaken Remnants",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Forsaken Remnants"
             }
@@ -5716,8 +6153,11 @@
           "rar": 5,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_4_UI.webp",
-          "source": "Forgery Challenge: Forsaken Remnants",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Forsaken Remnants"
             }
@@ -5804,8 +6244,11 @@
           "rar": 2,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_1_UI.webp",
-          "source": "Forgery Challenge: Forsaken Remnants",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Forsaken Remnants"
             }
@@ -5818,8 +6261,11 @@
           "rar": 3,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_2_UI.webp",
-          "source": "Forgery Challenge: Forsaken Remnants",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Forsaken Remnants"
             }
@@ -5832,8 +6278,11 @@
           "rar": 4,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_3_UI.webp",
-          "source": "Forgery Challenge: Forsaken Remnants",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Forsaken Remnants"
             }
@@ -5846,8 +6295,11 @@
           "rar": 5,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_4_UI.webp",
-          "source": "Forgery Challenge: Forsaken Remnants",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Forsaken Remnants"
             }
@@ -5934,8 +6386,11 @@
           "rar": 2,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_1_UI.webp",
-          "source": "Forgery Challenge: Forsaken Remnants",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Forsaken Remnants"
             }
@@ -5948,8 +6403,11 @@
           "rar": 3,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_2_UI.webp",
-          "source": "Forgery Challenge: Forsaken Remnants",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Forsaken Remnants"
             }
@@ -5962,8 +6420,11 @@
           "rar": 4,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_3_UI.webp",
-          "source": "Forgery Challenge: Forsaken Remnants",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Forsaken Remnants"
             }
@@ -5976,8 +6437,11 @@
           "rar": 5,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_4_UI.webp",
-          "source": "Forgery Challenge: Forsaken Remnants",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Forsaken Remnants"
             }
@@ -15750,8 +16214,16 @@
       },
       "title": "Voices of Azure Plume",
       "slug": "yangyang-xuanling",
+      "release": 1783641600000,
+      "releasePatch": "3.5",
       "updated": 1781733600000,
       "sourceOrder": 1610,
+      "voiceActors": {
+        "english": "imdb:nm5476333|Rebecca Yeo",
+        "japanese": "Yui Ishikawa|Ishikawa Yui (ja=\u77f3\u5ddd\u7531\u4f9d)",
+        "chinese": "https://zh.moegirl.org.cn/\u866b\u866b|Chongchong (zh=\u866b\u866b)",
+        "korean": "https://namu.wiki/w/\uc774\uc720\ub9ac(\uc131\uc6b0)|Lee Yu-ri (ko=\uc774\uc720\ub9ac)"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_70_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/yangyang-xuanling-47cdc9f48f22.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/yangyang-xuanling-184e6fda4c3c.webp",
@@ -15762,10 +16234,1472 @@
       "r": 5,
       "el": "Havoc",
       "w": "Sword",
-      "upcoming": true,
-      "reliableData": false,
-      "noReliableInfo": true,
-      "recent": false
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXuanLing/SP_IconXuanLingB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXuanLing/SP_IconXuanLingC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXuanLing/SP_IconXuanLingY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXuanLing/SP_IconXuanLingQTE.webp"
+      ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.5",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Succor and Smite",
+                "type": "Normal Attack",
+                "desc": "Basic Attack - Azure Sword Stance\n Normal Attack repeatedly or hold it down to consume Melody and perform up to 4 consecutive attacks, dealing Havoc DMG. While Melody is not depleted, the Energy Regen of Basic Attack - Azure Sword Stance is increased by {0}.\nBasic Attack - Azure Sword Stance Stage 4 applies 1 stack of Havoc Bane to the targets hit.\n\nBasic Attack - Feather Sword Stance\n Normal Attack repeatedly or hold it down to consume Melody and perform up to 4 consecutive attacks, dealing Havoc DMG. While Melody is not depleted, the Energy Regen of Basic Attack - Feather Sword Stance is increased by {1}.\nBasic Attack - Feather Sword Stance Stage 4 applies 1 stack of Havoc Bane to the targets hit.\n\nMid-air Attack - Azure Sword Stance\nConsume STA to perform a Plunging Attack, consuming Melody and dealing Havoc DMG.\n Normal Attack within a short time after casting this skill triggers Basic Attack - Azure Sword Stance Stage 2.\n\nMid-air Attack - Feather Sword Stance\nConsume STA to perform a Plunging Attack, consuming Melody and dealing Havoc DMG.\n Normal Attack within a short time after casting this skill triggers Basic Attack - Feather Sword Stance Stage 2.\n\nDodge Counter - Azure Sword Stance\n Normal Attack within a short time after a successful Dodge consumes Melody to attack the target, dealing Havoc DMG.\n Normal Attack within a short time after casting this skill triggers Basic Attack - Azure Sword Stance Stage 3.\nCasting Dodge Counter - Azure Sword Stance counts as casting Basic Attack - Azure Sword Stance Stage 2.\n\nDodge Counter - Feather Sword Stance\n Normal Attack within a short time after a successful Dodge consumes Melody to attack the target, dealing Havoc DMG.\n Normal Attack within a short time after casting this skill triggers Basic Attack - Feather Sword Stance Stage 3.\nCasting Dodge Counter - Feather Sword Stance counts as casting Basic Attack - Feather Sword Stance Stage 2.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.webp",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15",
+                      "Lv. 16",
+                      "Lv. 17",
+                      "Lv. 18",
+                      "Lv. 19",
+                      "Lv. 20"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Basic Attack - Azure Sword Stance Stage 1 DMG",
+                        "values": [
+                          "24.00%",
+                          "25.97%",
+                          "27.94%",
+                          "30.70%",
+                          "32.66%",
+                          "34.93%",
+                          "38.08%",
+                          "41.22%",
+                          "44.37%",
+                          "47.72%",
+                          "51.66%",
+                          "55.59%",
+                          "59.53%",
+                          "63.46%",
+                          "67.40%",
+                          "71.34%",
+                          "75.27%",
+                          "79.21%",
+                          "83.14%",
+                          "87.08%"
+                        ]
+                      },
+                      {
+                        "label": "Basic Attack - Azure Sword Stance Stage 2 DMG",
+                        "values": [
+                          "10.13%+10.13%+30.39%",
+                          "10.96%+10.96%+32.88%",
+                          "11.79%+11.79%+35.37%",
+                          "12.96%+12.96%+38.86%",
+                          "13.79%+13.79%+41.35%",
+                          "14.74%+14.74%+44.22%",
+                          "16.07%+16.07%+48.20%",
+                          "17.40%+17.40%+52.19%",
+                          "18.73%+18.73%+56.18%",
+                          "20.14%+20.14%+60.41%",
+                          "21.80%+21.80%+65.39%",
+                          "23.46%+23.46%+70.38%",
+                          "25.12%+25.12%+75.36%",
+                          "26.78%+26.78%+80.34%",
+                          "28.45%+28.45%+85.33%",
+                          "30.11%+30.11%+90.31%",
+                          "31.77%+31.77%+95.29%",
+                          "33.43%+33.43%+100.28%",
+                          "35.09%+35.09%+105.26%",
+                          "36.75%+36.75%+110.24%"
+                        ]
+                      },
+                      {
+                        "label": "Basic Attack - Azure Sword Stance Stage 3 DMG",
+                        "values": [
+                          "15.20%+35.45%",
+                          "16.44%+38.36%",
+                          "17.69%+41.27%",
+                          "19.43%+45.34%",
+                          "20.68%+48.24%",
+                          "22.11%+51.59%",
+                          "24.10%+56.24%",
+                          "26.10%+60.89%",
+                          "28.09%+65.54%",
+                          "30.21%+70.48%",
+                          "32.70%+76.29%",
+                          "35.19%+82.11%",
+                          "37.68%+87.92%",
+                          "40.17%+93.73%",
+                          "42.67%+99.55%",
+                          "45.16%+105.36%",
+                          "47.65%+111.17%",
+                          "50.14%+116.99%",
+                          "52.63%+122.80%",
+                          "55.12%+128.61%"
+                        ]
+                      },
+                      {
+                        "label": "Basic Attack - Azure Sword Stance Stage 4 DMG",
+                        "values": [
+                          "9.34%+9.34%+74.69%",
+                          "10.11%+10.11%+80.82%",
+                          "10.87%+10.87%+86.94%",
+                          "11.94%+11.94%+95.52%",
+                          "12.71%+12.71%+101.64%",
+                          "13.59%+13.59%+108.68%",
+                          "14.81%+14.81%+118.48%",
+                          "16.04%+16.04%+128.28%",
+                          "17.26%+17.26%+138.08%",
+                          "18.57%+18.57%+148.49%",
+                          "20.10%+20.10%+160.74%",
+                          "21.63%+21.63%+172.99%",
+                          "23.16%+23.16%+185.24%",
+                          "24.69%+24.69%+197.49%",
+                          "26.22%+26.22%+209.74%",
+                          "27.75%+27.75%+221.99%",
+                          "29.28%+29.28%+234.23%",
+                          "30.81%+30.81%+246.48%",
+                          "32.35%+32.35%+258.73%",
+                          "33.88%+33.88%+270.98%"
+                        ]
+                      },
+                      {
+                        "label": "Basic Attack - Feather Sword Stance Stage 1 DMG",
+                        "values": [
+                          "20.00%+20.00%",
+                          "21.64%+21.64%",
+                          "23.28%+23.28%",
+                          "25.58%+25.58%",
+                          "27.22%+27.22%",
+                          "29.11%+29.11%",
+                          "31.73%+31.73%",
+                          "34.35%+34.35%",
+                          "36.98%+36.98%",
+                          "39.77%+39.77%",
+                          "43.05%+43.05%",
+                          "46.33%+46.33%",
+                          "49.61%+49.61%",
+                          "52.89%+52.89%",
+                          "56.17%+56.17%",
+                          "59.45%+59.45%",
+                          "62.73%+62.73%",
+                          "66.01%+66.01%",
+                          "69.29%+69.29%",
+                          "72.57%+72.57%"
+                        ]
+                      },
+                      {
+                        "label": "Basic Attack - Feather Sword Stance Stage 2 DMG",
+                        "values": [
+                          "16.88%*3",
+                          "18.27%*3",
+                          "19.65%*3",
+                          "21.59%*3",
+                          "22.98%*3",
+                          "24.57%*3",
+                          "26.78%*3",
+                          "29.00%*3",
+                          "31.21%*3",
+                          "33.56%*3",
+                          "36.33%*3",
+                          "39.10%*3",
+                          "41.87%*3",
+                          "44.64%*3",
+                          "47.41%*3",
+                          "50.17%*3",
+                          "52.94%*3",
+                          "55.71%*3",
+                          "58.48%*3",
+                          "61.25%*3"
+                        ]
+                      },
+                      {
+                        "label": "Basic Attack - Feather Sword Stance Stage 3 DMG",
+                        "values": [
+                          "7.48%+3.74%*3+18.68%",
+                          "8.09%+4.05%*3+20.22%",
+                          "8.70%+4.35%*3+21.75%",
+                          "9.56%+4.78%*3+23.89%",
+                          "10.17%+5.09%*3+25.42%",
+                          "10.88%+5.44%*3+27.19%",
+                          "11.86%+5.93%*3+29.64%",
+                          "12.84%+6.42%*3+32.09%",
+                          "13.82%+6.91%*3+34.54%",
+                          "14.86%+7.43%*3+37.14%",
+                          "16.09%+8.05%*3+40.21%",
+                          "17.31%+8.66%*3+43.27%",
+                          "18.54%+9.27%*3+46.33%",
+                          "19.76%+9.88%*3+49.40%",
+                          "20.99%+10.50%*3+52.46%",
+                          "22.21%+11.11%*3+55.52%",
+                          "23.44%+11.72%*3+58.59%",
+                          "24.66%+12.33%*3+61.65%",
+                          "25.89%+12.95%*3+64.71%",
+                          "27.11%+13.56%*3+67.78%"
+                        ]
+                      },
+                      {
+                        "label": "Basic Attack - Feather Sword Stance Stage 4 DMG",
+                        "values": [
+                          "36.00%+36.00%+48.00%",
+                          "38.96%+38.96%+51.94%",
+                          "41.91%+41.91%+55.88%",
+                          "46.04%+46.04%+61.39%",
+                          "48.99%+48.99%+65.32%",
+                          "52.39%+52.39%+69.85%",
+                          "57.11%+57.11%+76.15%",
+                          "61.83%+61.83%+82.44%",
+                          "66.56%+66.56%+88.74%",
+                          "71.58%+71.58%+95.43%",
+                          "77.48%+77.48%+103.31%",
+                          "83.38%+83.38%+111.18%",
+                          "89.29%+89.29%+119.05%",
+                          "95.19%+95.19%+126.92%",
+                          "101.10%+101.10%+134.79%",
+                          "107.00%+107.00%+142.67%",
+                          "112.90%+112.90%+150.54%",
+                          "118.81%+118.81%+158.41%",
+                          "124.71%+124.71%+166.28%",
+                          "130.62%+130.62%+174.15%"
+                        ]
+                      },
+                      {
+                        "label": "Mid-air Attack - Azure Sword Stance DMG",
+                        "values": [
+                          "49.60%",
+                          "53.67%",
+                          "57.74%",
+                          "63.43%",
+                          "67.50%",
+                          "72.18%",
+                          "78.69%",
+                          "85.19%",
+                          "91.70%",
+                          "98.61%",
+                          "106.75%",
+                          "114.88%",
+                          "123.02%",
+                          "131.15%",
+                          "139.29%",
+                          "147.42%",
+                          "155.56%",
+                          "163.69%",
+                          "171.82%",
+                          "179.96%"
+                        ]
+                      },
+                      {
+                        "label": "Mid-air Attack - Feather Sword Stance DMG",
+                        "values": [
+                          "49.60%",
+                          "53.67%",
+                          "57.74%",
+                          "63.43%",
+                          "67.50%",
+                          "72.18%",
+                          "78.69%",
+                          "85.19%",
+                          "91.70%",
+                          "98.61%",
+                          "106.75%",
+                          "114.88%",
+                          "123.02%",
+                          "131.15%",
+                          "139.29%",
+                          "147.42%",
+                          "155.56%",
+                          "163.69%",
+                          "171.82%",
+                          "179.96%"
+                        ]
+                      },
+                      {
+                        "label": "Dodge Counter - Azure Sword Stance DMG",
+                        "values": [
+                          "19.73%+19.73%+59.19%",
+                          "21.35%+21.35%+64.04%",
+                          "22.97%+22.97%+68.90%",
+                          "25.23%+25.23%+75.69%",
+                          "26.85%+26.85%+80.54%",
+                          "28.71%+28.71%+86.12%",
+                          "31.30%+31.30%+93.89%",
+                          "33.89%+33.89%+101.65%",
+                          "36.48%+36.48%+109.42%",
+                          "39.23%+39.23%+117.67%",
+                          "42.46%+42.46%+127.37%",
+                          "45.70%+45.70%+137.08%",
+                          "48.93%+48.93%+146.79%",
+                          "52.17%+52.17%+156.49%",
+                          "55.40%+55.40%+166.20%",
+                          "58.64%+58.64%+175.91%",
+                          "61.87%+61.87%+185.61%",
+                          "65.11%+65.11%+195.32%",
+                          "68.34%+68.34%+205.02%",
+                          "71.58%+71.58%+214.73%"
+                        ]
+                      },
+                      {
+                        "label": "Dodge Counter - Feather Sword Stance DMG",
+                        "values": [
+                          "32.88%*3",
+                          "35.58%*3",
+                          "38.28%*3",
+                          "42.05%*3",
+                          "44.75%*3",
+                          "47.85%*3",
+                          "52.16%*3",
+                          "56.48%*3",
+                          "60.79%*3",
+                          "65.37%*3",
+                          "70.77%*3",
+                          "76.16%*3",
+                          "81.55%*3",
+                          "86.94%*3",
+                          "92.34%*3",
+                          "97.73%*3",
+                          "103.12%*3",
+                          "108.51%*3",
+                          "113.90%*3",
+                          "119.30%*3"
+                        ]
+                      },
+                      {
+                        "label": "Mid-air Attack - Azure Sword Stance STA Cost",
+                        "values": [
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30"
+                        ]
+                      },
+                      {
+                        "label": "Mid-air Attack - Feather Sword Stance STA Cost",
+                        "values": [
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Feather's Edge",
+                "type": "Resonance Skill",
+                "desc": "Sword Stance Switch\nWhile in Azure Sword Stance, Resonance Skill to switch to Feather Sword Stance and perform Basic Attack - Feather Sword Stance Stage 1, dealing Havoc DMG.\n\nWhile in Feather Sword Stance, Resonance Skill to switch to Azure Sword Stance and perform Basic Attack - Azure Sword Stance Stage 1, dealing Havoc DMG.\n\nSword Stance Switch: Azure\n Resonance Skill within a short time after casting Basic Attack - Feather Sword Stance to switch to Azure Sword Stance and cast Sword Stance Switch: Azure, dealing Havoc DMG, considered Heavy Attack DMG.\nA successful Dodge can be triggered within a short time into the action of this skill, which consumes {0} Melody.\nAfter casting this skill, the Basic Attack cycle will not reset for a short time.\n\nSword Stance Switch: Feather\n Resonance Skill within a short time after casting Basic Attack - Azure Sword Stance to swtich to Feather Sword Stance and cast Sword Stance Switch: Feather, dealing Havoc DMG, considered Heavy Attack DMG.\nA successful Dodge can be triggered within a short time into the action of this skill, which consumes {1} Melody.\nAfter casting this skill, the Basic Attack cycle will not reset for a short time.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXuanLing/SP_IconXuanLingB1.webp",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15",
+                      "Lv. 16",
+                      "Lv. 17",
+                      "Lv. 18",
+                      "Lv. 19",
+                      "Lv. 20"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Sword Stance Switch: Azure DMG",
+                        "values": [
+                          "35.19%+7.82%*3",
+                          "38.07%+8.46%*3",
+                          "40.96%+9.11%*3",
+                          "45.00%+10.00%*3",
+                          "47.88%+10.64%*3",
+                          "51.20%+11.38%*3",
+                          "55.82%+12.41%*3",
+                          "60.43%+13.43%*3",
+                          "65.05%+14.46%*3",
+                          "69.95%+15.55%*3",
+                          "75.72%+16.83%*3",
+                          "81.49%+18.11%*3",
+                          "87.26%+19.40%*3",
+                          "93.04%+20.68%*3",
+                          "98.81%+21.96%*3",
+                          "104.58%+23.24%*3",
+                          "110.35%+24.53%*3",
+                          "116.12%+25.81%*3",
+                          "121.89%+27.09%*3",
+                          "127.66%+28.37%*3"
+                        ]
+                      },
+                      {
+                        "label": "Sword Stance Switch: Feather DMG",
+                        "values": [
+                          "16.88%*3",
+                          "18.27%*3",
+                          "19.65%*3",
+                          "21.59%*3",
+                          "22.98%*3",
+                          "24.57%*3",
+                          "26.78%*3",
+                          "29.00%*3",
+                          "31.21%*3",
+                          "33.56%*3",
+                          "36.33%*3",
+                          "39.10%*3",
+                          "41.87%*3",
+                          "44.64%*3",
+                          "47.41%*3",
+                          "50.17%*3",
+                          "52.94%*3",
+                          "55.71%*3",
+                          "58.48%*3",
+                          "61.25%*3"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Hush of a Thousand Voices",
+                "type": "Resonance Liberation",
+                "desc": "Hush of a Thousand Voices\nConsume all Melody to deal Havoc DMG and restore {0} Azure Plume. This DMG is considered Heavy Attack DMG.\n\nUpon casting this skill, obtain Voice upon Voice. When casting Resonance Skill - Sword Stance Flow: Azure or Resonance Skill - Sword Stance Flow: Feather, summon Shadow of Xuanling to attack the target, dealing Havoc DMG, considered Heavy Attack DMG.\nVoice upon Voice cannot stack. Once Shadow of Xuanling is summoned, the Voice upon Voice state is removed.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXuanLing/SP_IconXuanLingC1.webp",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15",
+                      "Lv. 16",
+                      "Lv. 17",
+                      "Lv. 18",
+                      "Lv. 19",
+                      "Lv. 20"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Hush of a Thousand Voices DMG",
+                        "values": [
+                          "1000.00%",
+                          "1082.00%",
+                          "1164.00%",
+                          "1278.80%",
+                          "1360.80%",
+                          "1455.10%",
+                          "1586.30%",
+                          "1717.50%",
+                          "1848.70%",
+                          "1988.10%",
+                          "2152.10%",
+                          "2316.10%",
+                          "2480.10%",
+                          "2644.10%",
+                          "2808.10%",
+                          "2972.10%",
+                          "3136.10%",
+                          "3300.10%",
+                          "3464.10%",
+                          "3628.10%"
+                        ]
+                      },
+                      {
+                        "label": "Shadow of Xuanling DMG",
+                        "values": [
+                          "170.00%",
+                          "183.94%",
+                          "197.88%",
+                          "217.40%",
+                          "231.34%",
+                          "247.37%",
+                          "269.68%",
+                          "291.98%",
+                          "314.28%",
+                          "337.98%",
+                          "365.86%",
+                          "393.74%",
+                          "421.62%",
+                          "449.50%",
+                          "477.38%",
+                          "505.26%",
+                          "533.14%",
+                          "561.02%",
+                          "588.90%",
+                          "616.78%"
+                        ]
+                      },
+                      {
+                        "label": "Hush of a Thousand Voices Resonance Cost",
+                        "values": [
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125"
+                        ]
+                      },
+                      {
+                        "label": "Hush of a Thousand Voices Concerto Regen",
+                        "values": [
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20"
+                        ]
+                      },
+                      {
+                        "label": "Hush of a Thousand Voices Cooldown",
+                        "values": [
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "The Way of Ten Thousand Voices",
+                "type": "Forte Circuit",
+                "desc": "Resonance Skill - Sword Stance Flow: Azure\nYangyang: Xuanling is in Azure Sword Stance by default. When Melody is depleted while in Feather Sword Stance, Resonance Skill - Feather's Edge is replaced by Resonance Skill - Sword Stance Flow: Azure.\n Resonance Skill to switch to Azure Sword Stance and cast Resonance Skill - Sword Stance Flow: Azure, dealing Havoc DMG and restoring {0} {Cus:Sap,S=point P=points SapTag=0} of Melody and {1} {Cus:Sap,S=point P=points SapTag=1} of Azure Plume. This DMG is considered Heavy Attack DMG.\nWhen Resonance Skill - Sword Stance Flow: Azure hits the target, consume {2} {Cus:Sap,S=stack P=stacks SapTag=2} of Havoc Bane on the target.\nThe Basic Attack - Feather Sword Stance cycle is not reset within a short time after casting Resonance Skill - Sword Stance Flow: Azure. If casting Resonance Skill - Sword Stance Flow: Azure resets the cycle, summon a Wraith of Sound to finish the current attack and deal a fixed instance of Havoc DMG, considered Basic Attack DMG, which is not affected by any DMG Bonus effects and does not inflict Havoc Bane.\nSuccessful Dodge can be triggered within a short time into the action of this skill, which consumes {3} {Cus:Sap,S=point P=points SapTag=3} of Melody.\n\nResonance Skill - Sword Stance Flow: Feather\nWhen Melody is depleted while in Azure Sword Stance, Resonance Skill - Feather's Edge is replaced by Resonance Skill - Sword Stance Flow: Feather.\n Resonance Skill switch to Feather Sword Stance and cast Resonance Skill - Sword Stance Flow: Feather, switching to Feather Sword Stance and dealing Havoc DMG, restoring {4} {Cus:Sap,S=point P=points SapTag=4} of Melody and {5} {Cus:Sap,S=point P=points SapTag=5} of Azure Plume. This instance of DMG is considered Heavy Attack DMG.\nWhen Resonance Skill - Sword Stance Flow: Feather hits, consume {6} {Cus:Sap,S=stack P=stacks SapTag=6} of Havoc Bane on the target.\nThe Basic Attack - Azure Sword Stance cycle is not reset within a short time after casting Resonance Skill - Sword Stance Flow: Feather. If casting Resonance Skill - Sword Stance Flow: Feather resets the cycle, summon a Wraith of Sound to finish the current attack and deal a fixed instance of Havoc DMG, considered Basic Attack DMG, which is not affected by any DMG Bonus effects and does not inflict Havoc Bane.\nSuccessful Dodge can be triggered within a short time into the action of this skill, which consumes {7} {Cus:Sap,S=point P=points SapTag=7} of Melody.\n\nHeavy Attack - Azure Sword Stance\nWhen Azure Plume is restored to its maximum while in Azure Sword Stance, hold Normal Attack to consume ST",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXuanLing/SP_IconXuanLingY.webp",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15",
+                      "Lv. 16",
+                      "Lv. 17",
+                      "Lv. 18",
+                      "Lv. 19",
+                      "Lv. 20"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Resonance Skill - Sword Stance Flow: Azure DMG",
+                        "values": [
+                          "35.19%+7.82%*3",
+                          "38.07%+8.46%*3",
+                          "40.96%+9.11%*3",
+                          "45.00%+10.00%*3",
+                          "47.88%+10.64%*3",
+                          "51.20%+11.38%*3",
+                          "55.82%+12.41%*3",
+                          "60.43%+13.43%*3",
+                          "65.05%+14.46%*3",
+                          "69.95%+15.55%*3",
+                          "75.72%+16.83%*3",
+                          "81.49%+18.11%*3",
+                          "87.26%+19.40%*3",
+                          "93.04%+20.68%*3",
+                          "98.81%+21.96%*3",
+                          "104.58%+23.24%*3",
+                          "110.35%+24.53%*3",
+                          "116.12%+25.81%*3",
+                          "121.89%+27.09%*3",
+                          "127.66%+28.37%*3"
+                        ]
+                      },
+                      {
+                        "label": "Resonance Skill - Sword Stance Flow: Feather DMG",
+                        "values": [
+                          "16.88%*3",
+                          "18.27%*3",
+                          "19.65%*3",
+                          "21.59%*3",
+                          "22.98%*3",
+                          "24.57%*3",
+                          "26.78%*3",
+                          "29.00%*3",
+                          "31.21%*3",
+                          "33.56%*3",
+                          "36.33%*3",
+                          "39.10%*3",
+                          "41.87%*3",
+                          "44.64%*3",
+                          "47.41%*3",
+                          "50.17%*3",
+                          "52.94%*3",
+                          "55.71%*3",
+                          "58.48%*3",
+                          "61.25%*3"
+                        ]
+                      },
+                      {
+                        "label": "Heavy Attack - Azure Sword Stance DMG",
+                        "values": [
+                          "67.99%+67.99%+90.65%",
+                          "73.56%+73.56%+98.08%",
+                          "79.14%+79.14%+105.51%",
+                          "86.94%+86.94%+115.92%",
+                          "92.52%+92.52%+123.35%",
+                          "98.93%+98.93%+131.90%",
+                          "107.85%+107.85%+143.79%",
+                          "116.77%+116.77%+155.69%",
+                          "125.69%+125.69%+167.58%",
+                          "135.16%+135.16%+180.21%",
+                          "146.31%+146.31%+195.08%",
+                          "157.46%+157.46%+209.95%",
+                          "168.61%+168.61%+224.81%",
+                          "179.76%+179.76%+239.68%",
+                          "190.91%+190.91%+254.54%",
+                          "202.06%+202.06%+269.41%",
+                          "213.21%+213.21%+284.27%",
+                          "224.36%+224.36%+299.14%",
+                          "235.50%+235.50%+314.00%",
+                          "246.65%+246.65%+328.87%"
+                        ]
+                      },
+                      {
+                        "label": "Heavy Attack - Feather Sword Stance DMG",
+                        "values": [
+                          "10.92%+98.26%",
+                          "11.82%+106.31%",
+                          "12.71%+114.37%",
+                          "13.97%+125.65%",
+                          "14.86%+133.71%",
+                          "15.89%+142.97%",
+                          "17.32%+155.86%",
+                          "18.75%+168.75%",
+                          "20.19%+181.65%",
+                          "21.71%+195.34%",
+                          "23.50%+211.46%",
+                          "25.29%+227.57%",
+                          "27.08%+243.68%",
+                          "28.87%+259.80%",
+                          "30.66%+275.91%",
+                          "32.45%+292.02%",
+                          "34.24%+308.14%",
+                          "36.03%+324.25%",
+                          "37.82%+340.36%",
+                          "39.61%+356.48%"
+                        ]
+                      },
+                      {
+                        "label": "Mid-air Attack - Feather Sword Stance: Feather Fall DMG",
+                        "values": [
+                          "7.44%*3+33.48%",
+                          "8.06%*3+36.23%",
+                          "8.67%*3+38.98%",
+                          "9.52%*3+42.82%",
+                          "10.13%*3+45.56%",
+                          "10.83%*3+48.72%",
+                          "11.81%*3+53.11%",
+                          "12.78%*3+57.51%",
+                          "13.76%*3+61.90%",
+                          "14.80%*3+66.57%",
+                          "16.02%*3+72.06%",
+                          "17.24%*3+77.55%",
+                          "18.46%*3+83.04%",
+                          "19.68%*3+88.53%",
+                          "20.90%*3+94.02%",
+                          "22.12%*3+99.51%",
+                          "23.34%*3+105.00%",
+                          "24.56%*3+110.49%",
+                          "25.78%*3+115.98%",
+                          "27.00%*3+121.47%"
+                        ]
+                      },
+                      {
+                        "label": "Basic Attack - Havoc in Bloom Stage 1 DMG",
+                        "values": [
+                          "20.01%*3",
+                          "21.66%*3",
+                          "23.30%*3",
+                          "25.59%*3",
+                          "27.23%*3",
+                          "29.12%*3",
+                          "31.75%*3",
+                          "34.37%*3",
+                          "37.00%*3",
+                          "39.79%*3",
+                          "43.07%*3",
+                          "46.35%*3",
+                          "49.63%*3",
+                          "52.91%*3",
+                          "56.20%*3",
+                          "59.48%*3",
+                          "62.76%*3",
+                          "66.04%*3",
+                          "69.32%*3",
+                          "72.60%*3"
+                        ]
+                      },
+                      {
+                        "label": "Basic Attack - Havoc in Bloom Stage 2 DMG",
+                        "values": [
+                          "44.90%+33.67%+33.67%",
+                          "48.58%+36.43%+36.43%",
+                          "52.26%+39.20%+39.20%",
+                          "57.41%+43.06%+43.06%",
+                          "61.09%+45.82%+45.82%",
+                          "65.33%+49.00%+49.00%",
+                          "71.22%+53.41%+53.41%",
+                          "77.11%+57.83%+57.83%",
+                          "83.00%+62.25%+62.25%",
+                          "89.25%+66.94%+66.94%",
+                          "96.62%+72.46%+72.46%",
+                          "103.98%+77.99%+77.99%",
+                          "111.34%+83.51%+83.51%",
+                          "118.70%+89.03%+89.03%",
+                          "126.07%+94.55%+94.55%",
+                          "133.43%+100.07%+100.07%",
+                          "140.79%+105.59%+105.59%",
+                          "148.15%+111.12%+111.12%",
+                          "155.52%+116.64%+116.64%",
+                          "162.88%+122.16%+122.16%"
+                        ]
+                      },
+                      {
+                        "label": "Basic Attack - Havoc in Bloom Stage 3 DMG",
+                        "values": [
+                          "12.06%*5+140.68%",
+                          "13.05%*5+152.22%",
+                          "14.04%*5+163.76%",
+                          "15.43%*5+179.91%",
+                          "16.41%*5+191.44%",
+                          "17.55%*5+204.71%",
+                          "19.13%*5+223.16%",
+                          "20.71%*5+241.62%",
+                          "22.30%*5+260.08%",
+                          "23.98%*5+279.69%",
+                          "25.96%*5+302.76%",
+                          "27.93%*5+325.83%",
+                          "29.91%*5+348.90%",
+                          "31.89%*5+371.97%",
+                          "33.87%*5+395.05%",
+                          "35.84%*5+418.12%",
+                          "37.82%*5+441.19%",
+                          "39.80%*5+464.26%",
+                          "41.78%*5+487.33%",
+                          "43.75%*5+510.40%"
+                        ]
+                      },
+                      {
+                        "label": "Dodge Counter - Havoc in Bloom Stage 1 DMG",
+                        "values": [
+                          "20.01%*3",
+                          "21.66%*3",
+                          "23.30%*3",
+                          "25.59%*3",
+                          "27.23%*3",
+                          "29.12%*3",
+                          "31.75%*3",
+                          "34.37%*3",
+                          "37.00%*3",
+                          "39.79%*3",
+                          "43.07%*3",
+                          "46.35%*3",
+                          "49.63%*3",
+                          "52.91%*3",
+                          "56.20%*3",
+                          "59.48%*3",
+                          "62.76%*3",
+                          "66.04%*3",
+                          "69.32%*3",
+                          "72.60%*3"
+                        ]
+                      },
+                      {
+                        "label": "Dodge Counter - Havoc in Bloom Stage 2 DMG",
+                        "values": [
+                          "44.90%+33.67%+33.67%",
+                          "48.58%+36.43%+36.43%",
+                          "52.26%+39.20%+39.20%",
+                          "57.41%+43.06%+43.06%",
+                          "61.09%+45.82%+45.82%",
+                          "65.33%+49.00%+49.00%",
+                          "71.22%+53.41%+53.41%",
+                          "77.11%+57.83%+57.83%",
+                          "83.00%+62.25%+62.25%",
+                          "89.25%+66.94%+66.94%",
+                          "96.62%+72.46%+72.46%",
+                          "103.98%+77.99%+77.99%",
+                          "111.34%+83.51%+83.51%",
+                          "118.70%+89.03%+89.03%",
+                          "126.07%+94.55%+94.55%",
+                          "133.43%+100.07%+100.07%",
+                          "140.79%+105.59%+105.59%",
+                          "148.15%+111.12%+111.12%",
+                          "155.52%+116.64%+116.64%",
+                          "162.88%+122.16%+122.16%"
+                        ]
+                      },
+                      {
+                        "label": "Dodge Counter - Havoc in Bloom Stage 3 DMG",
+                        "values": [
+                          "12.06%*5+140.68%",
+                          "13.05%*5+152.22%",
+                          "14.04%*5+163.76%",
+                          "15.43%*5+179.91%",
+                          "16.41%*5+191.44%",
+                          "17.55%*5+204.71%",
+                          "19.13%*5+223.16%",
+                          "20.71%*5+241.62%",
+                          "22.30%*5+260.08%",
+                          "23.98%*5+279.69%",
+                          "25.96%*5+302.76%",
+                          "27.93%*5+325.83%",
+                          "29.91%*5+348.90%",
+                          "31.89%*5+371.97%",
+                          "33.87%*5+395.05%",
+                          "35.84%*5+418.12%",
+                          "37.82%*5+441.19%",
+                          "39.80%*5+464.26%",
+                          "41.78%*5+487.33%",
+                          "43.75%*5+510.40%"
+                        ]
+                      },
+                      {
+                        "label": "Wraith of Sound DMG",
+                        "values": [
+                          "523",
+                          "523",
+                          "523",
+                          "523",
+                          "523",
+                          "523",
+                          "523",
+                          "523",
+                          "523",
+                          "523",
+                          "523",
+                          "523",
+                          "523",
+                          "523",
+                          "523",
+                          "523",
+                          "523",
+                          "523",
+                          "523",
+                          "523"
+                        ]
+                      },
+                      {
+                        "label": "Heavy Attack - Azure Sword Stance STA Cost",
+                        "values": [
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10"
+                        ]
+                      },
+                      {
+                        "label": "Heavy Attack - Feather Sword Stance STA Cost",
+                        "values": [
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10"
+                        ]
+                      },
+                      {
+                        "label": "Mid-air Attack - Feather Sword Stance: Feather Fall STA Cost",
+                        "values": [
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Skybound Feather",
+                "type": "Intro Skill",
+                "desc": "Deal Havoc DMG and restore {0} {Cus:Sap,S=point P=points SapTag=0} of Azure Plume.\nWhen Intro Skill - Skybound Feather deals damage, it applies 1 stack of Havoc Bane on the target.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXuanLing/SP_IconXuanLingQTE.webp",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15",
+                      "Lv. 16",
+                      "Lv. 17",
+                      "Lv. 18",
+                      "Lv. 19",
+                      "Lv. 20"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Skybound Feather DMG",
+                        "values": [
+                          "58.64%",
+                          "63.45%",
+                          "68.26%",
+                          "74.99%",
+                          "79.80%",
+                          "85.33%",
+                          "93.03%",
+                          "100.72%",
+                          "108.41%",
+                          "116.59%",
+                          "126.20%",
+                          "135.82%",
+                          "145.44%",
+                          "155.06%",
+                          "164.67%",
+                          "174.29%",
+                          "183.91%",
+                          "193.52%",
+                          "203.14%",
+                          "212.76%"
+                        ]
+                      },
+                      {
+                        "label": "Skybound Feather Concerto Regen",
+                        "values": [
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "As the Wind Wills",
+                "type": "Outro Skill",
+                "desc": "Attacks the target, dealing Havoc DMG equal to {0} of Yangyang: Xuanling's ATK.\nAll Resonators in the team other than Yangyang: Xuanling gains Tonal Switch for {1}s. After a Resonator with Tonal Switch inflicts Havoc Bane, that Resonator's Havoc DMG is Amplified by {2}.\nThis effect is reset upon casting this skill again.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXuanLing/SP_IconXuanLingT.webp"
+              },
+              {
+                "name": "ATK+",
+                "desc": "ATK increased by {0}.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.webp"
+              },
+              {
+                "name": "Crit. Rate+",
+                "desc": "Crit. Rate increased by {0}.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.webp"
+              },
+              {
+                "name": "Tune Break - Sword",
+                "type": "Tune Break",
+                "desc": "When the target's Off-Tune Level is full, the Resonator may cast Tune Break on the target.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakKnife.webp"
+              },
+              {
+                "name": "Unbroken Vow",
+                "type": "Inherent Skill",
+                "desc": "When a target has 1 to 3 stacks of Havoc Bane, each stack of Havoc Bane Amplifies the DMG from Yangyang: Xuanling by {0}, up to {1}.\n\nWhen a target has 4 to 6 stacks of Havoc Bane, each stack of Havoc Bane Amplifies the DMG from Yangyang: Xuanling by {2}, up to {3}.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXuanLing/SP_IconXuanLing1D1.webp"
+              }
+            ]
+          },
+          {
+            "title": "Resonance Chain",
+            "entries": [
+              {
+                "name": "At the wind's breath, the blossoms wake",
+                "type": "Sequence 1",
+                "desc": "Casting Resonance Skill - Sword Stance Flow: Azure or Resonance Skill - Sword Stance Flow: Feather summons a Shadow of Xuanling: Unfaltering to attack the target, dealing Havoc DMG equal to {0} of Yangyang: Xuanling's ATK. This DMG is considered Heavy Attack DMG.\nCasting Resonance Skill - Sword Stance Flow: Azure or Resonance Skill - Sword Stance Flow: Feather Stagnates nearby enemies.\n\nHeavy Attack - Azure Sword Stance, Basic Attack - Havoc in Bloom and Dodge Counter - Havoc in Bloom are immune to interruption."
+              },
+              {
+                "name": "River carries her song away",
+                "type": "Sequence 2",
+                "desc": "The DMG dealt by Heavy Attack - Azure Sword Stance, Heavy Attack - Feather Sword Stance, Mid-air Attack - Feather Fall, Basic Attack - Havoc in Bloom, and Dodge Counterk - Havoc in Bloom is increased by {0}.\n\nEvery time when Yangyang: Xuanling remains out of combat for more than 4s after she leaves the combat state or regains consciousness, she gains the following effects once:\n- Gain Strung Notes, up to 1 stack. Casting Basic Attack - Azure Sword Stance or Basic Attack - Feather Sword Stance summons Shadow of Xuanling: Strung Notes to attack the target, dealing Havoc DMG equal to {1} of Yangyang: Xuanling's ATK, considered Heavy Attack DMG. Strung Notes is removed after Shadow of Xuanling: Strung Notes is summoned.\n- Restore 2 points of Azure Plume.\n- Reset the Cooldown of gaining Bated Breath and Streaming Storm."
+              },
+              {
+                "name": "My grief follows you into the clouds",
+                "type": "Sequence 3",
+                "desc": "The DMG dealt via Resonance Liberation Hush of a Thousand Voices is Amplified by {0}.\n\nAfter casting Intro Skill - Skybound Feather, Resonance Skill - Sword Stance Flow: Azure, or Resonance Skill - Sword Stance Flow: Feather, increase the maximum Havoc Bane stacks of targets within a certain range by {1}, lasting {2}s. This effect does not stack.\n\nBasic Attack - Azure Sword Stance Stage 4, Basic Attack - Feather Sword Stance Stage 4, Heavy Attack - Azure Sword Stance, and Heavy Attack - Feather Sword Stance apply 1 additional stack of Havoc Bane to the target."
+              },
+              {
+                "name": "Across the miles, a letter and my longing",
+                "type": "Sequence 4",
+                "desc": "When casting Intro Skill - Skybound Feather, Resonance Skill - Sword Stance Switch: Azure, Resonance Skill - Sword Stance Switch: Feather, Resonance Skill - Sword Stance Flow: Azure, or Resonance Skill - Sword Stance Flow: Feather, the ATK of Resonators in the team is increased by {0} for {1}s."
+              },
+              {
+                "name": "Take wing. Take wing.",
+                "type": "Sequence 5",
+                "desc": "When Yangyang: Xuanling takes a fatal blow, she will not be downed, but instead recover HP equal to {0} of her Max HP while becoming immune to DMG and interruption for {1}s. This effect can be triggered once every {2} min."
+              },
+              {
+                "name": "Let the azure keep its light",
+                "type": "Sequence 6",
+                "desc": "When Yangyang: Xuanling applies Havoc Bane to a target, gain Voice Flux for {0}s. While Voice Flux is active, the Heavy Attack DMG from Yangyang: Xuanling is increased by {1}.\n\nAfter casting Resonance Skill - Sword Stance Flow: Azure or Resonance Skill - Sword Stance Flow: Feather, gain Still as Withered Wood for {2}s. While Still as Withered Wood is active, if Yangyang: Xuanling is on the field, then when nearby Resonators in the team inflict Glacio Chafe, Fusion Burst, Electro Flare, Aero Erosion, Spectro Frazzle, or Havoc Bane, Yangyang: Xuanling summons Shadow of Xuanling: Still as Withered Wood to attack the target, dealing Havoc DMG equal to {3} of Yangyang: Xuanling's ATK. The DMG of Shadow of Xuanling: Still as Withered Wood is considered Heavy Attack DMG and is guranteed to be a critical hit.\n\nShadow of Xuanling: Still as Withered Wood can be summoned once every {4}s and expires after being summoned {5} times. When Still as Withered Wood expires or is removed, reset the available summon charges of Shadow of Xuanling: Still as Withered Wood. Still as Withered Wood has a Cooldown of {6}s."
+              }
+            ]
+          }
+        ]
+      },
+      "req": {
+        "ascension": [
+          {
+            "id": "41100091",
+            "name": "LF Autopuppet Kernel",
+            "qty": 4,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_1_UI.webp",
+            "source": "Autopuppets / Forgery Challenge",
+            "sourceDetails": [
+              {
+                "name": "Autopuppet Scout",
+                "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+              },
+              {
+                "name": "Forgery Challenge"
+              }
+            ]
+          },
+          {
+            "id": "41100092",
+            "name": "MF Autopuppet Kernel",
+            "qty": 12,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_2_UI.webp",
+            "source": "Autopuppets / Forgery Challenge",
+            "sourceDetails": [
+              {
+                "name": "Autopuppet Scout",
+                "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+              },
+              {
+                "name": "Forgery Challenge"
+              }
+            ]
+          },
+          {
+            "id": "41100093",
+            "name": "HF Autopuppet Kernel",
+            "qty": 12,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_3_UI.webp",
+            "source": "Autopuppets",
+            "sourceDetails": [
+              {
+                "name": "Autopuppet Scout",
+                "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+              }
+            ]
+          },
+          {
+            "id": "41100094",
+            "name": "FF Autopuppet Kernel",
+            "qty": 4,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_4_UI.webp",
+            "source": "Autopuppets",
+            "sourceDetails": [
+              {
+                "name": "Autopuppet Scout",
+                "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+              }
+            ]
+          },
+          {
+            "id": "41400334",
+            "name": "Solidarity's Loneflame",
+            "qty": 46,
+            "rar": 4,
+            "kind": "boss",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_029_UI.webp",
+            "source": "Myriad Snare: Rustfire Chassis / Myriad Snare: Rustfire Chassis - Early Access",
+            "sourceDetails": [
+              {
+                "name": "Myriad Snare: Rustfire Chassis",
+                "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34030_UI.webp"
+              }
+            ]
+          },
+          {
+            "id": "42601600",
+            "name": "Cloudperch Seed",
+            "qty": 60,
+            "rar": 1,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_083_UI.webp",
+            "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
+            "sourceDetails": [
+              {
+                "name": "Collection Spots"
+              },
+              {
+                "name": "Overworld Collection"
+              },
+              {
+                "name": "Huaxu Apothecary"
+              }
+            ]
+          }
+        ],
+        "talents": [
+          {
+            "id": "41100091",
+            "name": "LF Autopuppet Kernel",
+            "qty": 25,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_1_UI.webp",
+            "source": "Autopuppets / Forgery Challenge",
+            "sourceDetails": [
+              {
+                "name": "Autopuppet Scout",
+                "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+              },
+              {
+                "name": "Forgery Challenge"
+              }
+            ]
+          },
+          {
+            "id": "41100092",
+            "name": "MF Autopuppet Kernel",
+            "qty": 28,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_2_UI.webp",
+            "source": "Autopuppets / Forgery Challenge",
+            "sourceDetails": [
+              {
+                "name": "Autopuppet Scout",
+                "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+              },
+              {
+                "name": "Forgery Challenge"
+              }
+            ]
+          },
+          {
+            "id": "41100093",
+            "name": "HF Autopuppet Kernel",
+            "qty": 40,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_3_UI.webp",
+            "source": "Autopuppets",
+            "sourceDetails": [
+              {
+                "name": "Autopuppet Scout",
+                "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+              }
+            ]
+          },
+          {
+            "id": "41100094",
+            "name": "FF Autopuppet Kernel",
+            "qty": 57,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_4_UI.webp",
+            "source": "Autopuppets",
+            "sourceDetails": [
+              {
+                "name": "Autopuppet Scout",
+                "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+              }
+            ]
+          },
+          {
+            "id": "41400324",
+            "name": "Skyward Glazed Heart",
+            "qty": 26,
+            "rar": 4,
+            "kind": "boss",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_028_UI.webp",
+            "source": "Thousand-Puppet Pavilion / Thousand-Puppet Pavilion - Early Access",
+            "sourceDetails": [
+              {
+                "name": "Thousand-Puppet Pavilion",
+                "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34031_UI.webp"
+              }
+            ]
+          },
+          {
+            "id": "43021011",
+            "name": "Broken Wing Polarizer",
+            "qty": 25,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_1_UI.webp",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
+            "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
+              {
+                "name": "Forgery Challenge: Forsaken Remnants"
+              }
+            ]
+          },
+          {
+            "id": "43021012",
+            "name": "Monowing Polarizer",
+            "qty": 28,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_2_UI.webp",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
+            "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
+              {
+                "name": "Forgery Challenge: Forsaken Remnants"
+              }
+            ]
+          },
+          {
+            "id": "43021013",
+            "name": "Polywing Polarizer",
+            "qty": 55,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_3_UI.webp",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
+            "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
+              {
+                "name": "Forgery Challenge: Forsaken Remnants"
+              }
+            ]
+          },
+          {
+            "id": "43021014",
+            "name": "Layered Wing Polarizer",
+            "qty": 67,
+            "rar": 5,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_4_UI.webp",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
+            "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
+              {
+                "name": "Forgery Challenge: Forsaken Remnants"
+              }
+            ]
+          }
+        ],
+        "ascCost": 170000,
+        "talentCost": 2030000,
+        "currency": 2200000
+      }
     },
     {
       "id": "ww-phrolova",
@@ -15814,7 +17748,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -17248,7 +19182,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -18904,7 +20838,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -20228,7 +22162,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -21606,7 +23540,7 @@
           "kit": {
             "source": "Nanoka",
             "channel": "live",
-            "version": "3.4",
+            "version": "3.5",
             "sections": [
               {
                 "title": "Skills",
@@ -22983,7 +24917,7 @@
           "kit": {
             "source": "Nanoka",
             "channel": "live",
-            "version": "3.4",
+            "version": "3.5",
             "sections": [
               {
                 "title": "Skills",
@@ -24532,7 +26466,7 @@
           "kit": {
             "source": "Nanoka",
             "channel": "live",
-            "version": "3.4",
+            "version": "3.5",
             "sections": [
               {
                 "title": "Skills",
@@ -25940,10 +27874,18 @@
         {
           "id": "ww-rover-electro",
           "n": "Rover",
+          "localizedNames": {
+            "en": "Rover: Electro",
+            "zh": "\u6f02\u6cca\u8005\u00b7\u5bfc\u7535",
+            "ja": "\u6f02\u6cca\u8005\u30fb\u96fb\u5c0e",
+            "ko": "\ubc29\ub791\uc790 \u00b7 \uc804\ub3c4"
+          },
           "slug": "rover-electro",
           "updated": 1782511200000,
-          "sourceOrder": 0,
-          "icon": null,
+          "sourceOrder": 1309,
+          "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_4_UI.webp",
+          "art": "../../Database/Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zhujuenan_UI.webp",
+          "card": "../../Database/Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zhujuenan_UI.webp",
           "status": "beta",
           "labels": [
             "3.5"
@@ -25951,10 +27893,1570 @@
           "r": 5,
           "el": "Electro",
           "w": "Sword",
-          "upcoming": true,
-          "reliableData": false,
-          "noReliableInfo": true,
-          "recent": false,
+          "skillIcons": [
+            "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.webp",
+            "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconThunderzhu/SP_IconThunderzhuA1.webp",
+            "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconThunderzhu/SP_IconThunderzhuC1.webp",
+            "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconThunderzhu/SP_IconThunderzhuY1.webp",
+            "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconThunderzhu/SP_IconThunderzhuQTE.webp"
+          ],
+          "kit": {
+            "source": "Nanoka",
+            "channel": "live",
+            "version": "3.5",
+            "sections": [
+              {
+                "title": "Skills",
+                "entries": [
+                  {
+                    "name": "Deterrence",
+                    "type": "Normal Attack",
+                    "desc": "Basic Attack\nPerform up to {0} consecutive attacks, dealing Electro DMG.\n\nParry Stance\nHold Normal Attack to enter Parry Stance at the cost of STA.\nWhile active, Rover is immune to interruptions, takes {1}% less DMG, and continuously consumes STA. Release Normal Attack to exit Parry Stance and perform Basic Attack - Riposte Strike, dealing Electro DMG.\n Normal Attack shortly after casting Basic Attack - Riposte Strike to neutralize this attack and Stagnate the target before performing Basic Attack - Riposte Strike: Crumble, dealing Electro DMG.\n Normal Attack shortly after casting Basic Attack - Riposte Strike to cast Basic Attack Stage {3}.\n Normal Attack shortly after casting Basic Attack - Riposte Strike: Crumble to cast Mid-air Attack - Havoc\nWhile in Apex Resonance, Normal Attack shortly after casting Basic Attack - Riposte Strike: Crumble to cast Thrum of All Sounds: Havoc Mid-air Attack, which can be chained into Thrum of All Sounds: Aero Mid-air Attack.\nIn Parry Stance, use Dodge to consume STA to perform Dodge: Flicker, which can trigger successful Dodges during the action of this skill shortly after it's cast.\n\nMid-air Attack\nConsume STA to perform a Plunging Attack in the air, dealing Electro DMG.\n\nMid-air Attack - Havoc\nPerform up to {4} consecutive strikes, dealing Havoc DMG. Normal Attack shortly after casting this skill to perform Basic Attack Stage {5}.\n\nDodge Counter\n Normal Attack right after a successful Dodge to attack the target, dealing Electro DMG.\n Normal Attack shortly after to perform Basic Attack Stage {6}.",
+                    "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.webp",
+                    "scaling": [
+                      {
+                        "title": "Skill Level Scaling",
+                        "columns": [
+                          "Lv. 1",
+                          "Lv. 2",
+                          "Lv. 3",
+                          "Lv. 4",
+                          "Lv. 5",
+                          "Lv. 6",
+                          "Lv. 7",
+                          "Lv. 8",
+                          "Lv. 9",
+                          "Lv. 10",
+                          "Lv. 11",
+                          "Lv. 12",
+                          "Lv. 13",
+                          "Lv. 14",
+                          "Lv. 15",
+                          "Lv. 16",
+                          "Lv. 17",
+                          "Lv. 18",
+                          "Lv. 19",
+                          "Lv. 20"
+                        ],
+                        "rows": [
+                          {
+                            "label": "Basic Attack Stage 1 DMG",
+                            "values": [
+                              "25.69%",
+                              "27.80%",
+                              "29.91%",
+                              "32.86%",
+                              "34.96%",
+                              "37.39%",
+                              "40.76%",
+                              "44.13%",
+                              "47.50%",
+                              "51.08%",
+                              "55.29%",
+                              "59.51%",
+                              "63.72%",
+                              "67.93%",
+                              "72.15%",
+                              "76.36%",
+                              "80.57%",
+                              "84.78%",
+                              "89.00%",
+                              "93.21%"
+                            ]
+                          },
+                          {
+                            "label": "Basic Attack Stage 2 DMG",
+                            "values": [
+                              "13.08%+19.62%",
+                              "14.15%+21.23%",
+                              "15.23%+22.84%",
+                              "16.73%+25.09%",
+                              "17.80%+26.70%",
+                              "19.03%+28.55%",
+                              "20.75%+31.12%",
+                              "22.46%+33.69%",
+                              "24.18%+36.27%",
+                              "26.00%+39.00%",
+                              "28.15%+42.22%",
+                              "30.29%+45.43%",
+                              "32.43%+48.65%",
+                              "34.58%+51.87%",
+                              "36.72%+55.08%",
+                              "38.87%+58.30%",
+                              "41.01%+61.52%",
+                              "43.16%+64.73%",
+                              "45.30%+67.95%",
+                              "47.45%+71.17%"
+                            ]
+                          },
+                          {
+                            "label": "Basic Attack Stage 3 DMG",
+                            "values": [
+                              "7.79%*6",
+                              "8.42%*6",
+                              "9.06%*6",
+                              "9.96%*6",
+                              "10.59%*6",
+                              "11.33%*6",
+                              "12.35%*6",
+                              "13.37%*6",
+                              "14.39%*6",
+                              "15.48%*6",
+                              "16.75%*6",
+                              "18.03%*6",
+                              "19.30%*6",
+                              "20.58%*6",
+                              "21.86%*6",
+                              "23.13%*6",
+                              "24.41%*6",
+                              "25.69%*6",
+                              "26.96%*6",
+                              "28.24%*6"
+                            ]
+                          },
+                          {
+                            "label": "Basic Attack Stage 4 DMG",
+                            "values": [
+                              "36.63%+54.94%",
+                              "39.63%+59.45%",
+                              "42.64%+63.95%",
+                              "46.84%+70.26%",
+                              "49.84%+74.76%",
+                              "53.30%+79.94%",
+                              "58.10%+87.15%",
+                              "62.91%+94.36%",
+                              "67.71%+101.57%",
+                              "72.82%+109.22%",
+                              "78.82%+118.23%",
+                              "84.83%+127.24%",
+                              "90.84%+136.25%",
+                              "96.84%+145.26%",
+                              "102.85%+154.27%",
+                              "108.86%+163.28%",
+                              "114.86%+172.29%",
+                              "120.87%+181.30%",
+                              "126.87%+190.31%",
+                              "132.88%+199.32%"
+                            ]
+                          },
+                          {
+                            "label": "Riposte Strike DMG",
+                            "values": [
+                              "28.14%",
+                              "30.45%",
+                              "32.76%",
+                              "35.99%",
+                              "38.30%",
+                              "40.95%",
+                              "44.64%",
+                              "48.34%",
+                              "52.03%",
+                              "55.95%",
+                              "60.57%",
+                              "65.18%",
+                              "69.80%",
+                              "74.41%",
+                              "79.02%",
+                              "83.64%",
+                              "88.25%",
+                              "92.87%",
+                              "97.48%",
+                              "102.10%"
+                            ]
+                          },
+                          {
+                            "label": "Riposte Strike: Crumble DMG",
+                            "values": [
+                              "29.89%",
+                              "32.35%",
+                              "34.80%",
+                              "38.23%",
+                              "40.68%",
+                              "43.50%",
+                              "47.42%",
+                              "51.34%",
+                              "55.26%",
+                              "59.43%",
+                              "64.33%",
+                              "69.23%",
+                              "74.14%",
+                              "79.04%",
+                              "83.94%",
+                              "88.84%",
+                              "93.74%",
+                              "98.64%",
+                              "103.55%",
+                              "108.45%"
+                            ]
+                          },
+                          {
+                            "label": "Mid-air Attack - Havoc Stage 1 DMG",
+                            "values": [
+                              "16.31%",
+                              "17.65%",
+                              "18.99%",
+                              "20.86%",
+                              "22.20%",
+                              "23.74%",
+                              "25.88%",
+                              "28.02%",
+                              "30.16%",
+                              "32.43%",
+                              "35.11%",
+                              "37.78%",
+                              "40.46%",
+                              "43.13%",
+                              "45.81%",
+                              "48.48%",
+                              "51.15%",
+                              "53.83%",
+                              "56.50%",
+                              "59.18%"
+                            ]
+                          },
+                          {
+                            "label": "Mid-air Attack - Havoc Stage 2 DMG",
+                            "values": [
+                              "18.69%",
+                              "20.23%",
+                              "21.76%",
+                              "23.91%",
+                              "25.44%",
+                              "27.20%",
+                              "29.65%",
+                              "32.11%",
+                              "34.56%",
+                              "37.16%",
+                              "40.23%",
+                              "43.29%",
+                              "46.36%",
+                              "49.42%",
+                              "52.49%",
+                              "55.55%",
+                              "58.62%",
+                              "61.68%",
+                              "64.75%",
+                              "67.81%"
+                            ]
+                          },
+                          {
+                            "label": "Mid-air Attack - Havoc Stage 3 DMG",
+                            "values": [
+                              "18.88%+18.88%+19.46%",
+                              "20.43%+20.43%+21.05%",
+                              "21.98%+21.98%+22.65%",
+                              "24.15%+24.15%+24.88%",
+                              "25.70%+25.70%+26.47%",
+                              "27.48%+27.48%+28.31%",
+                              "29.95%+29.95%+30.86%",
+                              "32.43%+32.43%+33.41%",
+                              "34.91%+34.91%+35.97%",
+                              "37.54%+37.54%+38.68%",
+                              "40.64%+40.64%+41.87%",
+                              "43.73%+43.73%+45.06%",
+                              "46.83%+46.83%+48.25%",
+                              "49.92%+49.92%+51.44%",
+                              "53.02%+53.02%+54.63%",
+                              "56.12%+56.12%+57.82%",
+                              "59.21%+59.21%+61.01%",
+                              "62.31%+62.31%+64.20%",
+                              "65.41%+65.41%+67.39%",
+                              "68.50%+68.50%+70.58%"
+                            ]
+                          },
+                          {
+                            "label": "Plunging Attack DMG",
+                            "values": [
+                              "52.78%",
+                              "57.11%",
+                              "61.44%",
+                              "67.50%",
+                              "71.83%",
+                              "76.81%",
+                              "83.73%",
+                              "90.65%",
+                              "97.58%",
+                              "104.94%",
+                              "113.59%",
+                              "122.25%",
+                              "130.90%",
+                              "139.56%",
+                              "148.22%",
+                              "156.87%",
+                              "165.53%",
+                              "174.18%",
+                              "182.84%",
+                              "191.50%"
+                            ]
+                          },
+                          {
+                            "label": "Dodge Counter DMG",
+                            "values": [
+                              "37.35%+37.35%",
+                              "40.41%+40.41%",
+                              "43.47%+43.47%",
+                              "47.76%+47.76%",
+                              "50.82%+50.82%",
+                              "54.35%+54.35%",
+                              "59.25%+59.25%",
+                              "64.15%+64.15%",
+                              "69.04%+69.04%",
+                              "74.25%+74.25%",
+                              "80.38%+80.38%",
+                              "86.50%+86.50%",
+                              "92.62%+92.62%",
+                              "98.75%+98.75%",
+                              "104.87%+104.87%",
+                              "111.00%+111.00%",
+                              "117.12%+117.12%",
+                              "123.25%+123.25%",
+                              "129.37%+129.37%",
+                              "135.50%+135.50%"
+                            ]
+                          },
+                          {
+                            "label": "Plunging Attack STA Cost",
+                            "values": [
+                              "30",
+                              "30",
+                              "30",
+                              "30",
+                              "30",
+                              "30",
+                              "30",
+                              "30",
+                              "30",
+                              "30",
+                              "30",
+                              "30",
+                              "30",
+                              "30",
+                              "30",
+                              "30",
+                              "30",
+                              "30",
+                              "30",
+                              "30"
+                            ]
+                          },
+                          {
+                            "label": "Parry Stance Activation STA Cost",
+                            "values": [
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20"
+                            ]
+                          },
+                          {
+                            "label": "Parry Stance STA Cost per Second",
+                            "values": [
+                              "30",
+                              "30",
+                              "30",
+                              "30",
+                              "30",
+                              "30",
+                              "30",
+                              "30",
+                              "30",
+                              "30",
+                              "30",
+                              "30",
+                              "30",
+                              "30",
+                              "30",
+                              "30",
+                              "30",
+                              "30",
+                              "30",
+                              "30"
+                            ]
+                          },
+                          {
+                            "label": "Dodge: Flicker STA Cost",
+                            "values": [
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thunderclap",
+                    "type": "Resonance Skill",
+                    "desc": "Launch the Cloudrift Bolt and grapple towards the target, dealing Electro DMG. Normal Attack shortly after to cast Basic Attack - Repel, dealing Electro DMG, considered Basic Attack DMG.",
+                    "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconThunderzhu/SP_IconThunderzhuA1.webp",
+                    "scaling": [
+                      {
+                        "title": "Skill Level Scaling",
+                        "columns": [
+                          "Lv. 1",
+                          "Lv. 2",
+                          "Lv. 3",
+                          "Lv. 4",
+                          "Lv. 5",
+                          "Lv. 6",
+                          "Lv. 7",
+                          "Lv. 8",
+                          "Lv. 9",
+                          "Lv. 10",
+                          "Lv. 11",
+                          "Lv. 12",
+                          "Lv. 13",
+                          "Lv. 14",
+                          "Lv. 15",
+                          "Lv. 16",
+                          "Lv. 17",
+                          "Lv. 18",
+                          "Lv. 19",
+                          "Lv. 20"
+                        ],
+                        "rows": [
+                          {
+                            "label": "Skill DMG",
+                            "values": [
+                              "50.40%*2",
+                              "54.53%*2",
+                              "58.67%*2",
+                              "64.45%*2",
+                              "68.59%*2",
+                              "73.34%*2",
+                              "79.95%*2",
+                              "86.56%*2",
+                              "93.17%*2",
+                              "100.20%*2",
+                              "108.46%*2",
+                              "116.73%*2",
+                              "124.99%*2",
+                              "133.26%*2",
+                              "141.52%*2",
+                              "149.79%*2",
+                              "158.05%*2",
+                              "166.32%*2",
+                              "174.58%*2",
+                              "182.85%*2"
+                            ]
+                          },
+                          {
+                            "label": "Basic Attack - Repel DMG",
+                            "values": [
+                              "28.23%+42.34%",
+                              "30.54%+45.81%",
+                              "32.86%+49.28%",
+                              "36.10%+54.14%",
+                              "38.41%+57.62%",
+                              "41.07%+61.61%",
+                              "44.78%+67.16%",
+                              "48.48%+72.72%",
+                              "52.18%+78.27%",
+                              "56.12%+84.17%",
+                              "60.75%+91.12%",
+                              "65.37%+98.06%",
+                              "70.00%+105.00%",
+                              "74.63%+111.95%",
+                              "79.26%+118.89%",
+                              "83.89%+125.83%",
+                              "88.52%+132.77%",
+                              "93.15%+139.72%",
+                              "97.78%+146.66%",
+                              "102.40%+153.60%"
+                            ]
+                          },
+                          {
+                            "label": "Cooldown",
+                            "values": [
+                              "10",
+                              "10",
+                              "10",
+                              "10",
+                              "10",
+                              "10",
+                              "10",
+                              "10",
+                              "10",
+                              "10",
+                              "10",
+                              "10",
+                              "10",
+                              "10",
+                              "10",
+                              "10",
+                              "10",
+                              "10",
+                              "10",
+                              "10"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Ultimate Tactics",
+                    "type": "Resonance Liberation",
+                    "desc": "Launch the Thunder Quietus, dealing Electro DMG.",
+                    "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconThunderzhu/SP_IconThunderzhuC1.webp",
+                    "scaling": [
+                      {
+                        "title": "Skill Level Scaling",
+                        "columns": [
+                          "Lv. 1",
+                          "Lv. 2",
+                          "Lv. 3",
+                          "Lv. 4",
+                          "Lv. 5",
+                          "Lv. 6",
+                          "Lv. 7",
+                          "Lv. 8",
+                          "Lv. 9",
+                          "Lv. 10",
+                          "Lv. 11",
+                          "Lv. 12",
+                          "Lv. 13",
+                          "Lv. 14",
+                          "Lv. 15",
+                          "Lv. 16",
+                          "Lv. 17",
+                          "Lv. 18",
+                          "Lv. 19",
+                          "Lv. 20"
+                        ],
+                        "rows": [
+                          {
+                            "label": "Skill DMG",
+                            "values": [
+                              "600.00%",
+                              "649.20%",
+                              "698.40%",
+                              "767.28%",
+                              "816.48%",
+                              "873.06%",
+                              "951.78%",
+                              "1030.50%",
+                              "1109.22%",
+                              "1192.86%",
+                              "1291.26%",
+                              "1389.66%",
+                              "1488.06%",
+                              "1586.46%",
+                              "1684.86%",
+                              "1783.26%",
+                              "1881.66%",
+                              "1980.06%",
+                              "2078.46%",
+                              "2176.86%"
+                            ]
+                          },
+                          {
+                            "label": "Cooldown",
+                            "values": [
+                              "25",
+                              "25",
+                              "25",
+                              "25",
+                              "25",
+                              "25",
+                              "25",
+                              "25",
+                              "25",
+                              "25",
+                              "25",
+                              "25",
+                              "25",
+                              "25",
+                              "25",
+                              "25",
+                              "25",
+                              "25",
+                              "25",
+                              "25"
+                            ]
+                          },
+                          {
+                            "label": "Resonance Cost",
+                            "values": [
+                              "125",
+                              "125",
+                              "125",
+                              "125",
+                              "125",
+                              "125",
+                              "125",
+                              "125",
+                              "125",
+                              "125",
+                              "125",
+                              "125",
+                              "125",
+                              "125",
+                              "125",
+                              "125",
+                              "125",
+                              "125",
+                              "125",
+                              "125"
+                            ]
+                          },
+                          {
+                            "label": "Concerto Regen",
+                            "values": [
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20",
+                              "20"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Myriad Omens' Mandate",
+                    "type": "Forte Circuit",
+                    "desc": "Overshock\nAt max Electric Surge, Resonance Skill is replaced with Resonance Skill Overshock, dealing Electro DMG. This skill is immune to interruptions while being cast and can be cast in mid-air.\nIf Resonance Skill Overshock is cast by the button, clear all Electric Surge to grant Resonators in the team {0}% ATK Bonus for {1}s.\nIf Resonance Skill Overshock is cast by holding down the button, clear all Electric Surge and enter Apex Resonance at the cost of {2} {Cus:Sap,S=point P=points SapTag=2} of Concerto Energy.\n\nApex Resonance\nWhile in Apex Resonance, Resonance Skill Thrum of All Sounds is unlocked, which consumes {3}% Thunder Rage per second:\nWhile on the ground, Resonance Skill to launch up to {4} consecutive attacks:\n- The first {5} {Cus:Sap,S=stage P=stages SapTag=5}: Thrum of All Sounds: Spectro, dealing Spectro DMG.\n- The next {6} {Cus:Sap,S=stage P=stages SapTag=6}: Thrum of All Sounds: Havoc, dealing Havoc DMG.\n- The last {7} {Cus:Sap,S=stage P=stages SapTag=7}: Thrum of All Sounds: Silencing Blade, dealing Aero DMG.\nWhile on the ground, hold Resonance Skill to cast Thrum of All Sounds: Aero, dealing Aero DMG and leap into the air.\nWhile airborne, Resonance Skill to perform up to {8} stages of Mid-air Attacks:\n- The first {9} {Cus:Sap,S=stage P=stages SapTag=9}: Thrum of All Sounds: Havoc Mid-air Attack, dealing Havoc DMG.\n- The next {10} {Cus:Sap,S=stage P=stages SapTag=A}: Thrum of All Sounds: Aero Mid-air Attack, dealing Aero DMG.\n- The last {11} {Cus:Sap,S=stage P=stages SapTag=B}: Thrum of All Sounds: Havoc Mid-air AttackThrum of All Sounds: Havoc Mid-air AttackThrum of All Sounds: Aero Plunging Attack, dealing Aero DMG. Resonance Skill shortly after landing to cast Thrum of All Sounds: Silencing Blade.\nHold Resonance Skill in the air to cast Thrum of All Sounds: Aero Mid-air Attack.\nEac\nIf the target is far when Thrum of All Sounds is cast on the ground, perform only Thrum of All Sounds: Spectro Hunt instead, dealing Spectro DMG.\nThrum of All Sounds: Aero Plunging Attack can also be peformed by holding Resonance Skill in mid-air.\nAll Thrum of All Sounds skills trigger Thunder Bane, dealing Electro DMG to the target within range.\nWhile in Apex Resonance, Resonance Skill shortly after casting a Basic Attack to chain into a Thrum of All Sounds skill based on the different Basic Attack Stages.\n\nElectric Surge\nRover can hold up to {12} points of Electric Surge.\nElectric Surge is restored when Intro Skill - Thunderous Fury, Normal Attack - Deterrence, Resonance Skill - Thunderclap, or Basic Attack - Repel deals damage.\n\nThunder Rage\nRover can",
+                    "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconThunderzhu/SP_IconThunderzhuY1.webp",
+                    "scaling": [
+                      {
+                        "title": "Skill Level Scaling",
+                        "columns": [
+                          "Lv. 1",
+                          "Lv. 2",
+                          "Lv. 3",
+                          "Lv. 4",
+                          "Lv. 5",
+                          "Lv. 6",
+                          "Lv. 7",
+                          "Lv. 8",
+                          "Lv. 9",
+                          "Lv. 10",
+                          "Lv. 11",
+                          "Lv. 12",
+                          "Lv. 13",
+                          "Lv. 14",
+                          "Lv. 15",
+                          "Lv. 16",
+                          "Lv. 17",
+                          "Lv. 18",
+                          "Lv. 19",
+                          "Lv. 20"
+                        ],
+                        "rows": [
+                          {
+                            "label": "Overshock DMG",
+                            "values": [
+                              "71.05%+71.05%+71.05%+71.05%+213.15%+213.15%",
+                              "76.88%+76.88%+76.88%+76.88%+230.63%+230.63%",
+                              "82.71%+82.71%+82.71%+82.71%+248.11%+248.11%",
+                              "90.86%+90.86%+90.86%+90.86%+272.58%+272.58%",
+                              "96.69%+96.69%+96.69%+96.69%+290.06%+290.06%",
+                              "103.39%+103.39%+103.39%+103.39%+310.16%+310.16%",
+                              "112.71%+112.71%+112.71%+112.71%+338.12%+338.12%",
+                              "122.03%+122.03%+122.03%+122.03%+366.09%+366.09%",
+                              "131.36%+131.36%+131.36%+131.36%+394.06%+394.06%",
+                              "141.26%+141.26%+141.26%+141.26%+423.77%+423.77%",
+                              "152.91%+152.91%+152.91%+152.91%+458.73%+458.73%",
+                              "164.56%+164.56%+164.56%+164.56%+493.68%+493.68%",
+                              "176.22%+176.22%+176.22%+176.22%+528.64%+528.64%",
+                              "187.87%+187.87%+187.87%+187.87%+563.59%+563.59%",
+                              "199.52%+199.52%+199.52%+199.52%+598.55%+598.55%",
+                              "211.17%+211.17%+211.17%+211.17%+633.51%+633.51%",
+                              "222.82%+222.82%+222.82%+222.82%+668.46%+668.46%",
+                              "234.48%+234.48%+234.48%+234.48%+703.42%+703.42%",
+                              "246.13%+246.13%+246.13%+246.13%+738.38%+738.38%",
+                              "257.78%+257.78%+257.78%+257.78%+773.33%+773.33%"
+                            ]
+                          },
+                          {
+                            "label": "Thrum of All Sounds: Spectro Stage 1 DMG",
+                            "values": [
+                              "49.86%",
+                              "53.95%",
+                              "58.04%",
+                              "63.76%",
+                              "67.85%",
+                              "72.55%",
+                              "79.09%",
+                              "85.63%",
+                              "92.17%",
+                              "99.12%",
+                              "107.30%",
+                              "115.47%",
+                              "123.65%",
+                              "131.83%",
+                              "140.00%",
+                              "148.18%",
+                              "156.35%",
+                              "164.53%",
+                              "172.71%",
+                              "180.88%"
+                            ]
+                          },
+                          {
+                            "label": "Thrum of All Sounds: Spectro Stage 2 DMG",
+                            "values": [
+                              "24.68%+24.68%+32.90%",
+                              "26.70%+26.70%+35.60%",
+                              "28.73%+28.73%+38.30%",
+                              "31.56%+31.56%+42.08%",
+                              "33.58%+33.58%+44.77%",
+                              "35.91%+35.91%+47.88%",
+                              "39.15%+39.15%+52.19%",
+                              "42.38%+42.38%+56.51%",
+                              "45.62%+45.62%+60.82%",
+                              "49.06%+49.06%+65.41%",
+                              "53.11%+53.11%+70.81%",
+                              "57.15%+57.15%+76.20%",
+                              "61.20%+61.20%+81.60%",
+                              "65.25%+65.25%+86.99%",
+                              "69.29%+69.29%+92.39%",
+                              "73.34%+73.34%+97.78%",
+                              "77.38%+77.38%+103.18%",
+                              "81.43%+81.43%+108.57%",
+                              "85.48%+85.48%+113.97%",
+                              "89.52%+89.52%+119.36%"
+                            ]
+                          },
+                          {
+                            "label": "Thrum of All Sounds: Spectro Stage 3 DMG",
+                            "values": [
+                              "51.34%+77.00%",
+                              "55.54%+83.31%",
+                              "59.75%+89.63%",
+                              "65.65%+98.47%",
+                              "69.86%+104.78%",
+                              "74.70%+112.04%",
+                              "81.43%+122.14%",
+                              "88.17%+132.25%",
+                              "94.90%+142.35%",
+                              "102.06%+153.08%",
+                              "110.47%+165.71%",
+                              "118.89%+178.34%",
+                              "127.31%+190.96%",
+                              "135.73%+203.59%",
+                              "144.15%+216.22%",
+                              "152.56%+228.84%",
+                              "160.98%+241.47%",
+                              "169.40%+254.10%",
+                              "177.82%+266.73%",
+                              "186.24%+279.35%"
+                            ]
+                          },
+                          {
+                            "label": "Thrum of All Sounds: Havoc Stage 1 DMG",
+                            "values": [
+                              "7.54%*3+52.73%",
+                              "8.15%*3+57.05%",
+                              "8.77%*3+61.38%",
+                              "9.64%*3+67.43%",
+                              "10.25%*3+71.75%",
+                              "10.96%*3+76.72%",
+                              "11.95%*3+83.64%",
+                              "12.94%*3+90.56%",
+                              "13.93%*3+97.48%",
+                              "14.98%*3+104.82%",
+                              "16.21%*3+113.47%",
+                              "17.45%*3+122.12%",
+                              "18.68%*3+130.76%",
+                              "19.92%*3+139.41%",
+                              "21.16%*3+148.06%",
+                              "22.39%*3+156.70%",
+                              "23.63%*3+165.35%",
+                              "24.86%*3+174.00%",
+                              "26.10%*3+182.64%",
+                              "27.33%*3+191.29%"
+                            ]
+                          },
+                          {
+                            "label": "Thrum of All Sounds: Havoc Stage 2 DMG",
+                            "values": [
+                              "6.96%*4+41.74%",
+                              "7.53%*4+45.17%",
+                              "8.10%*4+48.59%",
+                              "8.90%*4+53.38%",
+                              "9.47%*4+56.80%",
+                              "10.13%*4+60.74%",
+                              "11.04%*4+66.21%",
+                              "11.95%*4+71.69%",
+                              "12.87%*4+77.17%",
+                              "13.83%*4+82.98%",
+                              "14.98%*4+89.83%",
+                              "16.12%*4+96.67%",
+                              "17.26%*4+103.52%",
+                              "18.40%*4+110.36%",
+                              "19.54%*4+117.21%",
+                              "20.68%*4+124.06%",
+                              "21.82%*4+130.90%",
+                              "22.96%*4+137.75%",
+                              "24.10%*4+144.59%",
+                              "25.24%*4+151.44%"
+                            ]
+                          },
+                          {
+                            "label": "Thrum of All Sounds: Havoc Stage 3 DMG",
+                            "values": [
+                              "31.45%+31.45%+10.49%+10.49%+10.49%+10.49%",
+                              "34.02%+34.02%+11.34%+11.34%+11.34%+11.34%",
+                              "36.60%+36.60%+12.20%+12.20%+12.20%+12.20%",
+                              "40.21%+40.21%+13.41%+13.41%+13.41%+13.41%",
+                              "42.79%+42.79%+14.27%+14.27%+14.27%+14.27%",
+                              "45.75%+45.75%+15.25%+15.25%+15.25%+15.25%",
+                              "49.88%+49.88%+16.63%+16.63%+16.63%+16.63%",
+                              "54.01%+54.01%+18.01%+18.01%+18.01%+18.01%",
+                              "58.13%+58.13%+19.38%+19.38%+19.38%+19.38%",
+                              "62.51%+62.51%+20.84%+20.84%+20.84%+20.84%",
+                              "67.67%+67.67%+22.56%+22.56%+22.56%+22.56%",
+                              "72.83%+72.83%+24.28%+24.28%+24.28%+24.28%",
+                              "77.98%+77.98%+26.00%+26.00%+26.00%+26.00%",
+                              "83.14%+83.14%+27.72%+27.72%+27.72%+27.72%",
+                              "88.29%+88.29%+29.43%+29.43%+29.43%+29.43%",
+                              "93.45%+93.45%+31.15%+31.15%+31.15%+31.15%",
+                              "98.61%+98.61%+32.87%+32.87%+32.87%+32.87%",
+                              "103.76%+103.76%+34.59%+34.59%+34.59%+34.59%",
+                              "108.92%+108.92%+36.31%+36.31%+36.31%+36.31%",
+                              "114.08%+114.08%+38.03%+38.03%+38.03%+38.03%"
+                            ]
+                          },
+                          {
+                            "label": "Thrum of All Sounds: Silencing Blade DMG",
+                            "values": [
+                              "23.68%*5+118.37%",
+                              "25.62%*5+128.08%",
+                              "27.56%*5+137.79%",
+                              "30.28%*5+151.37%",
+                              "32.22%*5+161.08%",
+                              "34.45%*5+172.24%",
+                              "37.56%*5+187.77%",
+                              "40.66%*5+203.30%",
+                              "43.77%*5+218.83%",
+                              "47.07%*5+235.33%",
+                              "50.95%*5+254.75%",
+                              "54.84%*5+274.16%",
+                              "58.72%*5+293.57%",
+                              "62.60%*5+312.98%",
+                              "66.48%*5+332.40%",
+                              "70.37%*5+351.81%",
+                              "74.25%*5+371.22%",
+                              "78.13%*5+390.63%",
+                              "82.01%*5+410.05%",
+                              "85.90%*5+429.46%"
+                            ]
+                          },
+                          {
+                            "label": "Thrum of All Sounds: Aero DMG",
+                            "values": [
+                              "79.52%",
+                              "86.04%",
+                              "92.56%",
+                              "101.69%",
+                              "108.21%",
+                              "115.71%",
+                              "126.14%",
+                              "136.57%",
+                              "147.00%",
+                              "158.09%",
+                              "171.13%",
+                              "184.17%",
+                              "197.21%",
+                              "210.25%",
+                              "223.29%",
+                              "236.33%",
+                              "249.37%",
+                              "262.41%",
+                              "275.45%",
+                              "288.49%"
+                            ]
+                          },
+                          {
+                            "label": "Thrum of All Sounds: Havoc Mid-air Attack Stage 1 DMG",
+                            "values": [
+                              "25.47%",
+                              "27.56%",
+                              "29.65%",
+                              "32.57%",
+                              "34.66%",
+                              "37.06%",
+                              "40.40%",
+                              "43.74%",
+                              "47.08%",
+                              "50.63%",
+                              "54.81%",
+                              "58.98%",
+                              "63.16%",
+                              "67.33%",
+                              "71.51%",
+                              "75.69%",
+                              "79.86%",
+                              "84.04%",
+                              "88.22%",
+                              "92.39%"
+                            ]
+                          },
+                          {
+                            "label": "Thrum of All Sounds: Havoc Mid-air Attack Stage 2 DMG",
+                            "values": [
+                              "32.10%",
+                              "34.74%",
+                              "37.37%",
+                              "41.05%",
+                              "43.68%",
+                              "46.71%",
+                              "50.92%",
+                              "55.13%",
+                              "59.35%",
+                              "63.82%",
+                              "69.08%",
+                              "74.35%",
+                              "79.61%",
+                              "84.88%",
+                              "90.14%",
+                              "95.40%",
+                              "100.67%",
+                              "105.93%",
+                              "111.20%",
+                              "116.46%"
+                            ]
+                          },
+                          {
+                            "label": "Thrum of All Sounds: Havoc Mid-air Attack Stage 3 DMG",
+                            "values": [
+                              "46.03%+46.03%+47.43%",
+                              "49.81%+49.81%+51.32%",
+                              "53.58%+53.58%+55.20%",
+                              "58.86%+58.86%+60.65%",
+                              "62.64%+62.64%+64.54%",
+                              "66.98%+66.98%+69.01%",
+                              "73.02%+73.02%+75.23%",
+                              "79.06%+79.06%+81.45%",
+                              "85.10%+85.10%+87.67%",
+                              "91.51%+91.51%+94.28%",
+                              "99.06%+99.06%+102.06%",
+                              "106.61%+106.61%+109.84%",
+                              "114.16%+114.16%+117.62%",
+                              "121.70%+121.70%+125.39%",
+                              "129.25%+129.25%+133.17%",
+                              "136.80%+136.80%+140.95%",
+                              "144.35%+144.35%+148.72%",
+                              "151.90%+151.90%+156.50%",
+                              "159.45%+159.45%+164.28%",
+                              "167.00%+167.00%+172.06%"
+                            ]
+                          },
+                          {
+                            "label": "Thrum of All Sounds: Aero Mid-air Attack Stage 1 DMG",
+                            "values": [
+                              "42.56%",
+                              "46.05%",
+                              "49.54%",
+                              "54.43%",
+                              "57.92%",
+                              "61.93%",
+                              "67.51%",
+                              "73.10%",
+                              "78.68%",
+                              "84.61%",
+                              "91.59%",
+                              "98.57%",
+                              "105.55%",
+                              "112.53%",
+                              "119.51%",
+                              "126.49%",
+                              "133.47%",
+                              "140.45%",
+                              "147.43%",
+                              "154.41%"
+                            ]
+                          },
+                          {
+                            "label": "Thrum of All Sounds: Aero Mid-air Attack Stage 2 DMG",
+                            "values": [
+                              "49.00%",
+                              "53.02%",
+                              "57.04%",
+                              "62.66%",
+                              "66.68%",
+                              "71.30%",
+                              "77.73%",
+                              "84.16%",
+                              "90.58%",
+                              "97.41%",
+                              "105.45%",
+                              "113.49%",
+                              "121.52%",
+                              "129.56%",
+                              "137.59%",
+                              "145.63%",
+                              "153.66%",
+                              "161.70%",
+                              "169.73%",
+                              "177.77%"
+                            ]
+                          },
+                          {
+                            "label": "Thrum of All Sounds: Aero Mid-air Attack Healing",
+                            "values": [
+                              "330+11.00%",
+                              "369+11.44%",
+                              "412+11.88%",
+                              "462+12.54%",
+                              "521+13.42%",
+                              "577+14.30%",
+                              "587+15.95%",
+                              "600+17.82%",
+                              "610+19.80%",
+                              "627+23.10%",
+                              "678+25.01%",
+                              "730+26.91%",
+                              "782+28.82%",
+                              "833+30.72%",
+                              "885+32.63%",
+                              "937+34.53%",
+                              "989+36.44%",
+                              "1040+38.34%",
+                              "1092+40.25%",
+                              "1144+42.16%"
+                            ]
+                          },
+                          {
+                            "label": "Thrum of All Sounds: Aero Plunging Attack DMG",
+                            "values": [
+                              "142.09%",
+                              "153.74%",
+                              "165.39%",
+                              "181.70%",
+                              "193.35%",
+                              "206.75%",
+                              "225.39%",
+                              "244.03%",
+                              "262.67%",
+                              "282.48%",
+                              "305.78%",
+                              "329.08%",
+                              "352.38%",
+                              "375.68%",
+                              "398.98%",
+                              "422.28%",
+                              "445.58%",
+                              "468.89%",
+                              "492.19%",
+                              "515.49%"
+                            ]
+                          },
+                          {
+                            "label": "Thunder Bane DMG",
+                            "values": [
+                              "20.00%",
+                              "21.64%",
+                              "23.28%",
+                              "25.58%",
+                              "27.22%",
+                              "29.11%",
+                              "31.73%",
+                              "34.35%",
+                              "36.98%",
+                              "39.77%",
+                              "43.05%",
+                              "46.33%",
+                              "49.61%",
+                              "52.89%",
+                              "56.17%",
+                              "59.45%",
+                              "62.73%",
+                              "66.01%",
+                              "69.29%",
+                              "72.57%"
+                            ]
+                          },
+                          {
+                            "label": "Overshock Cooldown",
+                            "values": [
+                              "25",
+                              "25",
+                              "25",
+                              "25",
+                              "25",
+                              "25",
+                              "25",
+                              "25",
+                              "25",
+                              "25",
+                              "25",
+                              "25",
+                              "25",
+                              "25",
+                              "25",
+                              "25",
+                              "25",
+                              "25",
+                              "25",
+                              "25"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thunderous Fury",
+                    "type": "Intro Skill",
+                    "desc": "Attack the target, dealing Electro DMG.",
+                    "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconThunderzhu/SP_IconThunderzhuQTE.webp",
+                    "scaling": [
+                      {
+                        "title": "Skill Level Scaling",
+                        "columns": [
+                          "Lv. 1",
+                          "Lv. 2",
+                          "Lv. 3",
+                          "Lv. 4",
+                          "Lv. 5",
+                          "Lv. 6",
+                          "Lv. 7",
+                          "Lv. 8",
+                          "Lv. 9",
+                          "Lv. 10",
+                          "Lv. 11",
+                          "Lv. 12",
+                          "Lv. 13",
+                          "Lv. 14",
+                          "Lv. 15",
+                          "Lv. 16",
+                          "Lv. 17",
+                          "Lv. 18",
+                          "Lv. 19",
+                          "Lv. 20"
+                        ],
+                        "rows": [
+                          {
+                            "label": "Skill DMG",
+                            "values": [
+                              "16.80%*2+50.40%",
+                              "18.18%*2+54.54%",
+                              "19.56%*2+58.67%",
+                              "21.49%*2+64.46%",
+                              "22.87%*2+68.59%",
+                              "24.45%*2+73.34%",
+                              "26.65%*2+79.95%",
+                              "28.86%*2+86.57%",
+                              "31.06%*2+93.18%",
+                              "33.41%*2+100.21%",
+                              "36.16%*2+108.47%",
+                              "38.92%*2+116.74%",
+                              "41.67%*2+125.00%",
+                              "44.43%*2+133.27%",
+                              "47.18%*2+141.53%",
+                              "49.94%*2+149.80%",
+                              "52.69%*2+158.06%",
+                              "55.45%*2+166.33%",
+                              "58.20%*2+174.60%",
+                              "60.96%*2+182.86%"
+                            ]
+                          },
+                          {
+                            "label": "Concerto Regen",
+                            "values": [
+                              "10",
+                              "10",
+                              "10",
+                              "10",
+                              "10",
+                              "10",
+                              "10",
+                              "10",
+                              "10",
+                              "10",
+                              "10",
+                              "10",
+                              "10",
+                              "10",
+                              "10",
+                              "10",
+                              "10",
+                              "10",
+                              "10",
+                              "10"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Rumbling Thunders",
+                    "type": "Outro Skill",
+                    "desc": "The incoming Resonator gains Electro Core for {0}s or until the Resonator is switched out. When Resonators with Electro Core inflict Negative Statuses, their Electro Core is consumed and they gain {1}% All DMG Amplification for {2}s. Switching to another Resonator ends the effect.\nCasting Outro Skill ends the Apex Resonance state and clears all Thunder Rage.",
+                    "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconThunderzhu/SP_IconThunderzhuT.webp"
+                  },
+                  {
+                    "name": "ATK+",
+                    "desc": "ATK increased by {0}.",
+                    "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.webp"
+                  },
+                  {
+                    "name": "Crit. Rate+",
+                    "desc": "Crit. Rate increased by {0}.",
+                    "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.webp"
+                  },
+                  {
+                    "name": "Decipher",
+                    "type": "Inherent Skill",
+                    "desc": "Resonance Skill Overshock inflicts {0} {Cus:Sap,S=stack P=stacks SapTag=0} of Electro Flare on the target it damages.",
+                    "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconThunderzhu/SP_IconThunderzhuD1.webp"
+                  },
+                  {
+                    "name": "Tune Break - Sword",
+                    "type": "Tune Break",
+                    "desc": "When the target's Off-Tune Level is full, the Resonator may cast Tune Break.",
+                    "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakKnife.webp"
+                  }
+                ]
+              },
+              {
+                "title": "Resonance Chain",
+                "entries": [
+                  {
+                    "name": "Celestial Ingenuity",
+                    "type": "Sequence 1",
+                    "desc": "While casting Normal Attack and Resonance Skill Thrum of All Sounds, gain increased resistance to interruption for {0}s."
+                  },
+                  {
+                    "name": "Thousandfold Artifice",
+                    "type": "Sequence 2",
+                    "desc": "Inflict {0} {Cus:Sap,S=stack P=stacks SapTag=0} of Electro Flare on the targets hit after Resonance Liberation Ultimate Tactics deals damage."
+                  },
+                  {
+                    "name": "Alchemy of Wonders",
+                    "type": "Sequence 3",
+                    "desc": "The DMG Multiplier of Resonance Skill Overshock is increased by {0}."
+                  },
+                  {
+                    "name": "Earthquaking Rumble",
+                    "type": "Sequence 4",
+                    "desc": "The DMG Multiplier of Resonance Liberation Ultimate Tactics is increased by {0}."
+                  },
+                  {
+                    "name": "Principle of Change",
+                    "type": "Sequence 5",
+                    "desc": "Crit. DMG is increased by {0} while in Apex Resonance."
+                  },
+                  {
+                    "name": "Mind's Depths in a Casket",
+                    "type": "Sequence 6",
+                    "desc": "The DMG Multiplier of Resonance Skill Thrum of All Sounds and Thunder Bane is increased by {0}."
+                  }
+                ]
+              }
+            ]
+          },
+          "req": {
+            "ascension": [
+              {
+                "id": "41100011",
+                "name": "LF Whisperin Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41100012",
+                "name": "MF Whisperin Core",
+                "qty": 12,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41100013",
+                "name": "HF Whisperin Core",
+                "qty": 12,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41100014",
+                "name": "FF Whisperin Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41300005",
+                "name": "Mysterious Code",
+                "qty": 5,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_002_1_UI.webp",
+                "source": "Casket Delivery / Quests",
+                "sourceDetails": [
+                  {
+                    "name": "Casket Delivery"
+                  },
+                  {
+                    "name": "Quests"
+                  }
+                ]
+              },
+              {
+                "id": "42300060",
+                "name": "Pecok Flower",
+                "qty": 60,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Taoyuan Vale"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "talents": [
+              {
+                "id": "41100011",
+                "name": "LF Whisperin Core",
+                "qty": 25,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41100012",
+                "name": "MF Whisperin Core",
+                "qty": 28,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41100013",
+                "name": "HF Whisperin Core",
+                "qty": 40,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41100014",
+                "name": "FF Whisperin Core",
+                "qty": 57,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400304",
+                "name": "We Who Question",
+                "qty": 26,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_026_UI.webp",
+                "source": "Denia / Denia - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Denia",
+                    "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34028_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "43021011",
+                "name": "Broken Wing Polarizer",
+                "qty": 25,
+                "rar": 2,
+                "kind": "book",
+                "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_1_UI.webp",
+                "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
+                "sourceDetails": [
+                  {
+                    "name": "Forgery Challenge: Cloudfall Chasm"
+                  },
+                  {
+                    "name": "Forgery Challenge: Forsaken Remnants"
+                  }
+                ]
+              },
+              {
+                "id": "43021012",
+                "name": "Monowing Polarizer",
+                "qty": 28,
+                "rar": 3,
+                "kind": "book",
+                "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_2_UI.webp",
+                "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
+                "sourceDetails": [
+                  {
+                    "name": "Forgery Challenge: Cloudfall Chasm"
+                  },
+                  {
+                    "name": "Forgery Challenge: Forsaken Remnants"
+                  }
+                ]
+              },
+              {
+                "id": "43021013",
+                "name": "Polywing Polarizer",
+                "qty": 55,
+                "rar": 4,
+                "kind": "book",
+                "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_3_UI.webp",
+                "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
+                "sourceDetails": [
+                  {
+                    "name": "Forgery Challenge: Cloudfall Chasm"
+                  },
+                  {
+                    "name": "Forgery Challenge: Forsaken Remnants"
+                  }
+                ]
+              },
+              {
+                "id": "43021014",
+                "name": "Layered Wing Polarizer",
+                "qty": 67,
+                "rar": 5,
+                "kind": "book",
+                "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_4_UI.webp",
+                "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
+                "sourceDetails": [
+                  {
+                    "name": "Forgery Challenge: Cloudfall Chasm"
+                  },
+                  {
+                    "name": "Forgery Challenge: Forsaken Remnants"
+                  }
+                ]
+              }
+            ],
+            "ascCost": 170000,
+            "talentCost": 2030000,
+            "currency": 2200000
+          },
+          "recent": 1,
           "rawName": "Rover (Electro)",
           "baseName": "Rover",
           "variantValue": "Electro",
@@ -26012,7 +29514,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -27650,7 +31152,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -29076,7 +32578,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -30496,7 +33998,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -32053,8 +35555,11 @@
             "rar": 2,
             "kind": "book",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_1_UI.webp",
-            "source": "Forgery Challenge: Lesson in Embers",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
             "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
               {
                 "name": "Forgery Challenge: Lesson in Embers"
               }
@@ -32067,8 +35572,11 @@
             "rar": 3,
             "kind": "book",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_2_UI.webp",
-            "source": "Forgery Challenge: Lesson in Embers",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
             "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
               {
                 "name": "Forgery Challenge: Lesson in Embers"
               }
@@ -32081,8 +35589,11 @@
             "rar": 4,
             "kind": "book",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_3_UI.webp",
-            "source": "Forgery Challenge: Lesson in Embers",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
             "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
               {
                 "name": "Forgery Challenge: Lesson in Embers"
               }
@@ -32095,8 +35606,11 @@
             "rar": 5,
             "kind": "book",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_4_UI.webp",
-            "source": "Forgery Challenge: Lesson in Embers",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
             "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
               {
                 "name": "Forgery Challenge: Lesson in Embers"
               }
@@ -32180,8 +35694,11 @@
               "rar": 2,
               "kind": "book",
               "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_1_UI.webp",
-              "source": "Forgery Challenge: Lesson in Embers",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
               "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
                 {
                   "name": "Forgery Challenge: Lesson in Embers"
                 }
@@ -32194,8 +35711,11 @@
               "rar": 3,
               "kind": "book",
               "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_2_UI.webp",
-              "source": "Forgery Challenge: Lesson in Embers",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
               "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
                 {
                   "name": "Forgery Challenge: Lesson in Embers"
                 }
@@ -32208,8 +35728,11 @@
               "rar": 4,
               "kind": "book",
               "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_3_UI.webp",
-              "source": "Forgery Challenge: Lesson in Embers",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
               "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
                 {
                   "name": "Forgery Challenge: Lesson in Embers"
                 }
@@ -32222,8 +35745,11 @@
               "rar": 5,
               "kind": "book",
               "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_4_UI.webp",
-              "source": "Forgery Challenge: Lesson in Embers",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
               "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
                 {
                   "name": "Forgery Challenge: Lesson in Embers"
                 }
@@ -32282,7 +35808,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -33539,8 +37065,11 @@
             "rar": 2,
             "kind": "book",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_1_UI.webp",
-            "source": "Forgery Challenge: Lesson in Void",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Void",
             "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
               {
                 "name": "Forgery Challenge: Lesson in Void"
               }
@@ -33553,8 +37082,11 @@
             "rar": 3,
             "kind": "book",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_2_UI.webp",
-            "source": "Forgery Challenge: Lesson in Void",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Void",
             "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
               {
                 "name": "Forgery Challenge: Lesson in Void"
               }
@@ -33567,8 +37099,11 @@
             "rar": 4,
             "kind": "book",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_3_UI.webp",
-            "source": "Forgery Challenge: Lesson in Void",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Void",
             "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
               {
                 "name": "Forgery Challenge: Lesson in Void"
               }
@@ -33581,8 +37116,11 @@
             "rar": 5,
             "kind": "book",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_4_UI.webp",
-            "source": "Forgery Challenge: Lesson in Void",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Void",
             "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
               {
                 "name": "Forgery Challenge: Lesson in Void"
               }
@@ -33666,8 +37204,11 @@
               "rar": 2,
               "kind": "book",
               "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_1_UI.webp",
-              "source": "Forgery Challenge: Lesson in Void",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Void",
               "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
                 {
                   "name": "Forgery Challenge: Lesson in Void"
                 }
@@ -33680,8 +37221,11 @@
               "rar": 3,
               "kind": "book",
               "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_2_UI.webp",
-              "source": "Forgery Challenge: Lesson in Void",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Void",
               "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
                 {
                   "name": "Forgery Challenge: Lesson in Void"
                 }
@@ -33694,8 +37238,11 @@
               "rar": 4,
               "kind": "book",
               "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_3_UI.webp",
-              "source": "Forgery Challenge: Lesson in Void",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Void",
               "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
                 {
                   "name": "Forgery Challenge: Lesson in Void"
                 }
@@ -33708,8 +37255,11 @@
               "rar": 5,
               "kind": "book",
               "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_4_UI.webp",
-              "source": "Forgery Challenge: Lesson in Void",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Void",
               "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
                 {
                   "name": "Forgery Challenge: Lesson in Void"
                 }
@@ -33768,7 +37318,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -35279,8 +38829,11 @@
             "rar": 2,
             "kind": "book",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_1_UI.webp",
-            "source": "Forgery Challenge: Lesson in Embers",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
             "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
               {
                 "name": "Forgery Challenge: Lesson in Embers"
               }
@@ -35293,8 +38846,11 @@
             "rar": 3,
             "kind": "book",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_2_UI.webp",
-            "source": "Forgery Challenge: Lesson in Embers",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
             "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
               {
                 "name": "Forgery Challenge: Lesson in Embers"
               }
@@ -35307,8 +38863,11 @@
             "rar": 4,
             "kind": "book",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_3_UI.webp",
-            "source": "Forgery Challenge: Lesson in Embers",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
             "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
               {
                 "name": "Forgery Challenge: Lesson in Embers"
               }
@@ -35321,8 +38880,11 @@
             "rar": 5,
             "kind": "book",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_4_UI.webp",
-            "source": "Forgery Challenge: Lesson in Embers",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
             "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
               {
                 "name": "Forgery Challenge: Lesson in Embers"
               }
@@ -35406,8 +38968,11 @@
               "rar": 2,
               "kind": "book",
               "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_1_UI.webp",
-              "source": "Forgery Challenge: Lesson in Embers",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
               "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
                 {
                   "name": "Forgery Challenge: Lesson in Embers"
                 }
@@ -35420,8 +38985,11 @@
               "rar": 3,
               "kind": "book",
               "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_2_UI.webp",
-              "source": "Forgery Challenge: Lesson in Embers",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
               "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
                 {
                   "name": "Forgery Challenge: Lesson in Embers"
                 }
@@ -35434,8 +39002,11 @@
               "rar": 4,
               "kind": "book",
               "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_3_UI.webp",
-              "source": "Forgery Challenge: Lesson in Embers",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
               "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
                 {
                   "name": "Forgery Challenge: Lesson in Embers"
                 }
@@ -35448,8 +39019,11 @@
               "rar": 5,
               "kind": "book",
               "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_4_UI.webp",
-              "source": "Forgery Challenge: Lesson in Embers",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
               "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
                 {
                   "name": "Forgery Challenge: Lesson in Embers"
                 }
@@ -35507,7 +39081,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -37232,7 +40806,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -38859,7 +42433,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -40253,7 +43827,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -41719,7 +45293,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -43215,7 +46789,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -44737,7 +48311,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -45919,8 +49493,11 @@
             "rar": 2,
             "kind": "book",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_1_UI.webp",
-            "source": "Forgery Challenge: Lesson in Void",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Void",
             "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
               {
                 "name": "Forgery Challenge: Lesson in Void"
               }
@@ -45933,8 +49510,11 @@
             "rar": 3,
             "kind": "book",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_2_UI.webp",
-            "source": "Forgery Challenge: Lesson in Void",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Void",
             "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
               {
                 "name": "Forgery Challenge: Lesson in Void"
               }
@@ -45947,8 +49527,11 @@
             "rar": 4,
             "kind": "book",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_3_UI.webp",
-            "source": "Forgery Challenge: Lesson in Void",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Void",
             "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
               {
                 "name": "Forgery Challenge: Lesson in Void"
               }
@@ -45961,8 +49544,11 @@
             "rar": 5,
             "kind": "book",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_4_UI.webp",
-            "source": "Forgery Challenge: Lesson in Void",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Void",
             "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
               {
                 "name": "Forgery Challenge: Lesson in Void"
               }
@@ -46046,8 +49632,11 @@
               "rar": 2,
               "kind": "book",
               "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_1_UI.webp",
-              "source": "Forgery Challenge: Lesson in Void",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Void",
               "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
                 {
                   "name": "Forgery Challenge: Lesson in Void"
                 }
@@ -46060,8 +49649,11 @@
               "rar": 3,
               "kind": "book",
               "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_2_UI.webp",
-              "source": "Forgery Challenge: Lesson in Void",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Void",
               "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
                 {
                   "name": "Forgery Challenge: Lesson in Void"
                 }
@@ -46074,8 +49666,11 @@
               "rar": 4,
               "kind": "book",
               "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_3_UI.webp",
-              "source": "Forgery Challenge: Lesson in Void",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Void",
               "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
                 {
                   "name": "Forgery Challenge: Lesson in Void"
                 }
@@ -46088,8 +49683,11 @@
               "rar": 5,
               "kind": "book",
               "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_4_UI.webp",
-              "source": "Forgery Challenge: Lesson in Void",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Void",
               "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
                 {
                   "name": "Forgery Challenge: Lesson in Void"
                 }
@@ -46148,7 +49746,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -47492,7 +51090,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -49519,7 +53117,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -51420,7 +55018,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -52776,7 +56374,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -54462,7 +58060,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -55830,7 +59428,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -57127,7 +60725,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -58383,7 +61981,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -59840,8 +63438,11 @@
             "rar": 2,
             "kind": "book",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_1_UI.webp",
-            "source": "Forgery Challenge: Lesson in Embers",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
             "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
               {
                 "name": "Forgery Challenge: Lesson in Embers"
               }
@@ -59854,8 +63455,11 @@
             "rar": 3,
             "kind": "book",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_2_UI.webp",
-            "source": "Forgery Challenge: Lesson in Embers",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
             "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
               {
                 "name": "Forgery Challenge: Lesson in Embers"
               }
@@ -59868,8 +63472,11 @@
             "rar": 4,
             "kind": "book",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_3_UI.webp",
-            "source": "Forgery Challenge: Lesson in Embers",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
             "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
               {
                 "name": "Forgery Challenge: Lesson in Embers"
               }
@@ -59882,8 +63489,11 @@
             "rar": 5,
             "kind": "book",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_4_UI.webp",
-            "source": "Forgery Challenge: Lesson in Embers",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
             "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
               {
                 "name": "Forgery Challenge: Lesson in Embers"
               }
@@ -59967,8 +63577,11 @@
               "rar": 2,
               "kind": "book",
               "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_1_UI.webp",
-              "source": "Forgery Challenge: Lesson in Embers",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
               "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
                 {
                   "name": "Forgery Challenge: Lesson in Embers"
                 }
@@ -59981,8 +63594,11 @@
               "rar": 3,
               "kind": "book",
               "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_2_UI.webp",
-              "source": "Forgery Challenge: Lesson in Embers",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
               "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
                 {
                   "name": "Forgery Challenge: Lesson in Embers"
                 }
@@ -59995,8 +63611,11 @@
               "rar": 4,
               "kind": "book",
               "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_3_UI.webp",
-              "source": "Forgery Challenge: Lesson in Embers",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
               "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
                 {
                   "name": "Forgery Challenge: Lesson in Embers"
                 }
@@ -60009,8 +63628,11 @@
               "rar": 5,
               "kind": "book",
               "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_4_UI.webp",
-              "source": "Forgery Challenge: Lesson in Embers",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
               "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
                 {
                   "name": "Forgery Challenge: Lesson in Embers"
                 }
@@ -60069,7 +63691,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -61592,7 +65214,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -63244,7 +66866,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -64793,7 +68415,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -66394,7 +70016,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -67976,7 +71598,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -69301,7 +72923,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -70901,7 +74523,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -72383,8 +76005,11 @@
             "rar": 2,
             "kind": "book",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_1_UI.webp",
-            "source": "Forgery Challenge: Lesson in Sunset",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
             "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
               {
                 "name": "Forgery Challenge: Lesson in Sunset"
               }
@@ -72397,8 +76022,11 @@
             "rar": 3,
             "kind": "book",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_2_UI.webp",
-            "source": "Forgery Challenge: Lesson in Sunset",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
             "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
               {
                 "name": "Forgery Challenge: Lesson in Sunset"
               }
@@ -72411,8 +76039,11 @@
             "rar": 4,
             "kind": "book",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_3_UI.webp",
-            "source": "Forgery Challenge: Lesson in Sunset",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
             "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
               {
                 "name": "Forgery Challenge: Lesson in Sunset"
               }
@@ -72425,8 +76056,11 @@
             "rar": 5,
             "kind": "book",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_4_UI.webp",
-            "source": "Forgery Challenge: Lesson in Sunset",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
             "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
               {
                 "name": "Forgery Challenge: Lesson in Sunset"
               }
@@ -72510,8 +76144,11 @@
               "rar": 2,
               "kind": "book",
               "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_1_UI.webp",
-              "source": "Forgery Challenge: Lesson in Sunset",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
               "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
                 {
                   "name": "Forgery Challenge: Lesson in Sunset"
                 }
@@ -72524,8 +76161,11 @@
               "rar": 3,
               "kind": "book",
               "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_2_UI.webp",
-              "source": "Forgery Challenge: Lesson in Sunset",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
               "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
                 {
                   "name": "Forgery Challenge: Lesson in Sunset"
                 }
@@ -72538,8 +76178,11 @@
               "rar": 4,
               "kind": "book",
               "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_3_UI.webp",
-              "source": "Forgery Challenge: Lesson in Sunset",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
               "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
                 {
                   "name": "Forgery Challenge: Lesson in Sunset"
                 }
@@ -72552,8 +76195,11 @@
               "rar": 5,
               "kind": "book",
               "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_4_UI.webp",
-              "source": "Forgery Challenge: Lesson in Sunset",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
               "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
                 {
                   "name": "Forgery Challenge: Lesson in Sunset"
                 }
@@ -72612,7 +76258,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -73994,8 +77640,11 @@
             "rar": 2,
             "kind": "book",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_1_UI.webp",
-            "source": "Forgery Challenge: Forsaken Remnants",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
             "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
               {
                 "name": "Forgery Challenge: Forsaken Remnants"
               }
@@ -74008,8 +77657,11 @@
             "rar": 3,
             "kind": "book",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_2_UI.webp",
-            "source": "Forgery Challenge: Forsaken Remnants",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
             "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
               {
                 "name": "Forgery Challenge: Forsaken Remnants"
               }
@@ -74022,8 +77674,11 @@
             "rar": 4,
             "kind": "book",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_3_UI.webp",
-            "source": "Forgery Challenge: Forsaken Remnants",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
             "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
               {
                 "name": "Forgery Challenge: Forsaken Remnants"
               }
@@ -74036,8 +77691,11 @@
             "rar": 5,
             "kind": "book",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_4_UI.webp",
-            "source": "Forgery Challenge: Forsaken Remnants",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
             "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
               {
                 "name": "Forgery Challenge: Forsaken Remnants"
               }
@@ -74121,8 +77779,11 @@
               "rar": 2,
               "kind": "book",
               "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_1_UI.webp",
-              "source": "Forgery Challenge: Forsaken Remnants",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
               "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
                 {
                   "name": "Forgery Challenge: Forsaken Remnants"
                 }
@@ -74135,8 +77796,11 @@
               "rar": 3,
               "kind": "book",
               "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_2_UI.webp",
-              "source": "Forgery Challenge: Forsaken Remnants",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
               "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
                 {
                   "name": "Forgery Challenge: Forsaken Remnants"
                 }
@@ -74149,8 +77813,11 @@
               "rar": 4,
               "kind": "book",
               "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_3_UI.webp",
-              "source": "Forgery Challenge: Forsaken Remnants",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
               "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
                 {
                   "name": "Forgery Challenge: Forsaken Remnants"
                 }
@@ -74163,8 +77830,11 @@
               "rar": 5,
               "kind": "book",
               "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_4_UI.webp",
-              "source": "Forgery Challenge: Forsaken Remnants",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
               "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
                 {
                   "name": "Forgery Challenge: Forsaken Remnants"
                 }
@@ -74223,7 +77893,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -75455,8 +79125,11 @@
             "rar": 2,
             "kind": "book",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_1_UI.webp",
-            "source": "Forgery Challenge: Corroded Remnants",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
             "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
               {
                 "name": "Forgery Challenge: Corroded Remnants"
               }
@@ -75469,8 +79142,11 @@
             "rar": 3,
             "kind": "book",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_2_UI.webp",
-            "source": "Forgery Challenge: Corroded Remnants",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
             "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
               {
                 "name": "Forgery Challenge: Corroded Remnants"
               }
@@ -75483,8 +79159,11 @@
             "rar": 4,
             "kind": "book",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_3_UI.webp",
-            "source": "Forgery Challenge: Corroded Remnants",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
             "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
               {
                 "name": "Forgery Challenge: Corroded Remnants"
               }
@@ -75497,8 +79176,11 @@
             "rar": 5,
             "kind": "book",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_4_UI.webp",
-            "source": "Forgery Challenge: Corroded Remnants",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
             "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
               {
                 "name": "Forgery Challenge: Corroded Remnants"
               }
@@ -75582,8 +79264,11 @@
               "rar": 2,
               "kind": "book",
               "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_1_UI.webp",
-              "source": "Forgery Challenge: Corroded Remnants",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
               "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
                 {
                   "name": "Forgery Challenge: Corroded Remnants"
                 }
@@ -75596,8 +79281,11 @@
               "rar": 3,
               "kind": "book",
               "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_2_UI.webp",
-              "source": "Forgery Challenge: Corroded Remnants",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
               "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
                 {
                   "name": "Forgery Challenge: Corroded Remnants"
                 }
@@ -75610,8 +79298,11 @@
               "rar": 4,
               "kind": "book",
               "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_3_UI.webp",
-              "source": "Forgery Challenge: Corroded Remnants",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
               "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
                 {
                   "name": "Forgery Challenge: Corroded Remnants"
                 }
@@ -75624,8 +79315,11 @@
               "rar": 5,
               "kind": "book",
               "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_4_UI.webp",
-              "source": "Forgery Challenge: Corroded Remnants",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
               "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
                 {
                   "name": "Forgery Challenge: Corroded Remnants"
                 }
@@ -75683,7 +79377,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -77592,7 +81286,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -79182,7 +82876,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -80859,7 +84553,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -82261,7 +85955,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -83536,7 +87230,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -85086,7 +88780,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -86297,8 +89991,15 @@
       },
       "title": "Host of Harmony",
       "slug": "suisui",
+      "releasePatch": "3.5",
       "updated": 1781733600000,
       "sourceOrder": 1110,
+      "voiceActors": {
+        "english": "|voiceCN =",
+        "japanese": "Misato Fukuen|Fukuen Misato (ja=\u798f\u5713 \u7f8e\u91cc)",
+        "chinese": "|voiceJP = Misato Fukuen|Fukuen Misato (ja=\u798f\u5713 \u7f8e\u91cc)",
+        "korean": "}}"
+      },
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_71_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/suisui-d7e1ee5a66d1.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/suisui-6c2f0381f367.webp",
@@ -86309,10 +90010,1271 @@
       "r": 5,
       "el": "Glacio",
       "w": "Rectifier",
-      "upcoming": true,
-      "reliableData": false,
-      "noReliableInfo": true,
-      "recent": false
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorMagic.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiC1.webp",
+        null,
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiQTE.webp"
+      ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "live",
+        "version": "3.5",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Unraveled Spring",
+                "type": "Normal Attack",
+                "desc": "Basic Attack - Zephyr Stance\n repeatedly or hold Normal Attack to perform up to 4 consecutive attacks, dealing Glacio DMG and restoring Cloud Breath on hit.\n\nMid-air Attack - Zephyr Stance\nConsume STA to perform Plunging Attack, dealing Glacio DMG.\n\nDodge Counter - Zephyr Stance\n Normal Attack shortly after a successful Dodge to attack the target, dealing Glacio DMG and restoring Cloud Breath on hit.\n Normal Attack shortly after casting this skill to perform Basic Attack - Zephyr Stance Stage 4.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorMagic.webp",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15",
+                      "Lv. 16",
+                      "Lv. 17",
+                      "Lv. 18",
+                      "Lv. 19",
+                      "Lv. 20"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Basic Attack - Zephyr Stance Stage 1 DMG",
+                        "values": [
+                          "31.76%",
+                          "34.37%",
+                          "36.97%",
+                          "40.62%",
+                          "43.22%",
+                          "46.22%",
+                          "50.39%",
+                          "54.55%",
+                          "58.72%",
+                          "63.15%",
+                          "68.36%",
+                          "73.56%",
+                          "78.77%",
+                          "83.98%",
+                          "89.19%",
+                          "94.40%",
+                          "99.61%",
+                          "104.82%",
+                          "110.02%",
+                          "115.23%"
+                        ]
+                      },
+                      {
+                        "label": "Basic Attack - Zephyr StanceStage 2 DMG",
+                        "values": [
+                          "30.68%+30.68%",
+                          "33.20%+33.20%",
+                          "35.72%+35.72%",
+                          "39.24%+39.24%",
+                          "41.75%+41.75%",
+                          "44.65%+44.65%",
+                          "48.67%+48.67%",
+                          "52.70%+52.70%",
+                          "56.72%+56.72%",
+                          "61.00%+61.00%",
+                          "66.03%+66.03%",
+                          "71.06%+71.06%",
+                          "76.09%+76.09%",
+                          "81.13%+81.13%",
+                          "86.16%+86.16%",
+                          "91.19%+91.19%",
+                          "96.22%+96.22%",
+                          "101.25%+101.25%",
+                          "106.28%+106.28%",
+                          "111.32%+111.32%"
+                        ]
+                      },
+                      {
+                        "label": "Basic Attack - Zephyr Stance Stage 3 DMG",
+                        "values": [
+                          "21.03%+21.03%+28.04%",
+                          "22.75%+22.75%+30.34%",
+                          "24.48%+24.48%+32.63%",
+                          "26.89%+26.89%+35.85%",
+                          "28.61%+28.61%+38.15%",
+                          "30.60%+30.60%+40.79%",
+                          "33.36%+33.36%+44.47%",
+                          "36.11%+36.11%+48.15%",
+                          "38.87%+38.87%+51.83%",
+                          "41.80%+41.80%+55.74%",
+                          "45.25%+45.25%+60.33%",
+                          "48.70%+48.70%+64.93%",
+                          "52.15%+52.15%+69.53%",
+                          "55.59%+55.59%+74.12%",
+                          "59.04%+59.04%+78.72%",
+                          "62.49%+62.49%+83.32%",
+                          "65.94%+65.94%+87.92%",
+                          "69.39%+69.39%+92.51%",
+                          "72.83%+72.83%+97.11%",
+                          "76.28%+76.28%+101.71%"
+                        ]
+                      },
+                      {
+                        "label": "Basic Attack - Zephyr Stance Stage 4 DMG",
+                        "values": [
+                          "40.00%+8.00%*5",
+                          "43.28%+8.66%*5",
+                          "46.56%+9.32%*5",
+                          "51.16%+10.24%*5",
+                          "54.44%+10.89%*5",
+                          "58.21%+11.65%*5",
+                          "63.46%+12.70%*5",
+                          "68.70%+13.74%*5",
+                          "73.95%+14.79%*5",
+                          "79.53%+15.91%*5",
+                          "86.09%+17.22%*5",
+                          "92.65%+18.53%*5",
+                          "99.21%+19.85%*5",
+                          "105.77%+21.16%*5",
+                          "112.33%+22.47%*5",
+                          "118.89%+23.78%*5",
+                          "125.45%+25.09%*5",
+                          "132.01%+26.41%*5",
+                          "138.57%+27.72%*5",
+                          "145.13%+29.03%*5"
+                        ]
+                      },
+                      {
+                        "label": "Mid-air Attack - Zephyr Stance DMG",
+                        "values": [
+                          "35.57%",
+                          "38.49%",
+                          "41.41%",
+                          "45.49%",
+                          "48.41%",
+                          "51.76%",
+                          "56.43%",
+                          "61.09%",
+                          "65.76%",
+                          "70.72%",
+                          "76.55%",
+                          "82.38%",
+                          "88.22%",
+                          "94.05%",
+                          "99.88%",
+                          "105.72%",
+                          "111.55%",
+                          "117.38%",
+                          "123.22%",
+                          "129.05%"
+                        ]
+                      },
+                      {
+                        "label": "Dodge Counter - Zephyr Stance DMG",
+                        "values": [
+                          "25.76%+25.76%+34.34%",
+                          "27.87%+27.87%+37.16%",
+                          "29.98%+29.98%+39.97%",
+                          "32.94%+32.94%+43.91%",
+                          "35.05%+35.05%+46.73%",
+                          "37.48%+37.48%+49.97%",
+                          "40.86%+40.86%+54.47%",
+                          "44.23%+44.23%+58.98%",
+                          "47.61%+47.61%+63.48%",
+                          "51.20%+51.20%+68.27%",
+                          "55.43%+55.43%+73.90%",
+                          "59.65%+59.65%+79.53%",
+                          "63.87%+63.87%+85.16%",
+                          "68.10%+68.10%+90.79%",
+                          "72.32%+72.32%+96.42%",
+                          "76.54%+76.54%+102.06%",
+                          "80.77%+80.77%+107.69%",
+                          "84.99%+84.99%+113.32%",
+                          "89.21%+89.21%+118.95%",
+                          "93.44%+93.44%+124.58%"
+                        ]
+                      },
+                      {
+                        "label": "Mid-air Attack - Zephyr Stance STA Cost",
+                        "values": [
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Vernal Screen",
+                "type": "Resonance Skill",
+                "desc": "Resonance Skill - Zephyr Stance\nWhile in Zephyr Stance and Cloud Breath is not full, Resonance Skill to have Suisui thrust forward, dealing Glacio DMG. If Suisui is the active Resonator while casting the skill, restore Cloud Breath.\nCan be cast in mid-air close to the ground\nThis skill shares a Cooldown with Resonance Skill - Drizzle Stance.\n\nAwakening Spring\nWhile in Zephyr Stance and at full Cloud Breath, Resonance Skill - Zephyr Stance is replaced with Awakening Spring. Casting this skill consumes all Cloud Breath, pulls in nearby targets, and sends Suisui into Drizzle Stance, dealing Glacio DMG and inflicting Glacio Chafe on the target 1 time on hit.\n\nEnrichment\nCasting Awakening Spring or Intro Skill - Tinkling Jade grants all nearby Resonators in the team 1 stack of Enrichment. This effect can be triggered once every 25s. Incoming Resonators receive healing from Suisui at the cost of Enrichment.\n\nResonance Skill - Drizzle Stance\nWhile in Drizzle Stance, Resonance Skill - Zephyr Stance is replaced with Resonance Skill - Drizzle Stance.\n Resonance Skill to have Suisui thrust forward, dealing Glacio DMG. If Suisui is the active Resonator while casting the skill, restore Floral Epistle.\nCan be cast in mid-air close to the ground\nThis skill shares a Cooldown with Resonance Skill - Zephyr Stance.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiB1.webp",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15",
+                      "Lv. 16",
+                      "Lv. 17",
+                      "Lv. 18",
+                      "Lv. 19",
+                      "Lv. 20"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Resonance Skill - Zephyr Stance DMG",
+                        "values": [
+                          "12.00%*6",
+                          "12.99%*6",
+                          "13.97%*6",
+                          "15.35%*6",
+                          "16.33%*6",
+                          "17.47%*6",
+                          "19.04%*6",
+                          "20.61%*6",
+                          "22.19%*6",
+                          "23.86%*6",
+                          "25.83%*6",
+                          "27.80%*6",
+                          "29.77%*6",
+                          "31.73%*6",
+                          "33.70%*6",
+                          "35.67%*6",
+                          "37.64%*6",
+                          "39.61%*6",
+                          "41.57%*6",
+                          "43.54%*6"
+                        ]
+                      },
+                      {
+                        "label": "Awakening Spring DMG",
+                        "values": [
+                          "14.40%",
+                          "15.59%",
+                          "16.77%",
+                          "18.42%",
+                          "19.60%",
+                          "20.96%",
+                          "22.85%",
+                          "24.74%",
+                          "26.63%",
+                          "28.63%",
+                          "31.00%",
+                          "33.36%",
+                          "35.72%",
+                          "38.08%",
+                          "40.44%",
+                          "42.80%",
+                          "45.16%",
+                          "47.53%",
+                          "49.89%",
+                          "52.25%"
+                        ]
+                      },
+                      {
+                        "label": "Resonance Skill - Drizzle Stance DMG",
+                        "values": [
+                          "6.00%*6+36.00%",
+                          "6.50%*6+38.96%",
+                          "6.99%*6+41.91%",
+                          "7.68%*6+46.04%",
+                          "8.17%*6+48.99%",
+                          "8.74%*6+52.39%",
+                          "9.52%*6+57.11%",
+                          "10.31%*6+61.83%",
+                          "11.10%*6+66.56%",
+                          "11.93%*6+71.58%",
+                          "12.92%*6+77.48%",
+                          "13.90%*6+83.38%",
+                          "14.89%*6+89.29%",
+                          "15.87%*6+95.19%",
+                          "16.85%*6+101.10%",
+                          "17.84%*6+107.00%",
+                          "18.82%*6+112.90%",
+                          "19.81%*6+118.81%",
+                          "20.79%*6+124.71%",
+                          "21.77%*6+130.62%"
+                        ]
+                      },
+                      {
+                        "label": "Enrichment Healing",
+                        "values": [
+                          "330+1.62%",
+                          "369+1.69%",
+                          "412+1.75%",
+                          "462+1.85%",
+                          "521+1.98%",
+                          "577+2.11%",
+                          "587+2.36%",
+                          "600+2.63%",
+                          "610+2.93%",
+                          "627+3.42%",
+                          "678+3.70%",
+                          "730+3.98%",
+                          "782+4.26%",
+                          "834+4.55%",
+                          "885+4.83%",
+                          "937+5.11%",
+                          "989+5.39%",
+                          "1041+5.68%",
+                          "1092+5.96%",
+                          "1144+6.24%"
+                        ]
+                      },
+                      {
+                        "label": "Resonance Skill - Zephyr Stance/Resonance Skill - Drizzle Stance Cooldown",
+                        "values": [
+                          "6",
+                          "6",
+                          "6",
+                          "6",
+                          "6",
+                          "6",
+                          "6",
+                          "6",
+                          "6",
+                          "6",
+                          "6",
+                          "6",
+                          "6",
+                          "6",
+                          "6",
+                          "6",
+                          "6",
+                          "6",
+                          "6",
+                          "6"
+                        ]
+                      },
+                      {
+                        "label": "Awakening Spring Cooldown",
+                        "values": [
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Song of Thoroughfare",
+                "type": "Resonance Liberation",
+                "desc": "Casting the skill deploys Ceaseless Landscape that lasts for 30s. When Ceaseless Landscape is active, Suisui enters the Roaming Transcendent state when casting Outro Skill - Rippling Waters.\nCeaseless Landscape grants all nearby Resonators in the team the following enhancements:\n- Inflicting a target with Spectro Frazzle, Fusion Burst, Glacio Chafe, and Aero Erosion, or dealing the corresponding Negative Status DMG increases the max stack limit of Negative Status the target can receive by 3 for {0}s. This effect does not stack.\n- Inflicting a target with Electro Flare or dealing the corresponding Negative Status DMG increases the max stack limits of Electro Flare and Electro Rage the target can receive by 3 for {1}s. This effect does not stack.\n- Consuming Havoc Bane stacks on the target after landing a skill allows the Resonator's Havoc DMG to ignore the target's DEF by {2} and Havoc RES by {3} for {4}s. This effect does not stack.\nCan be cast in mid-air close to the ground.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiC1.webp",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15",
+                      "Lv. 16",
+                      "Lv. 17",
+                      "Lv. 18",
+                      "Lv. 19",
+                      "Lv. 20"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Cooldown",
+                        "values": [
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25"
+                        ]
+                      },
+                      {
+                        "label": "Resonance Cost",
+                        "values": [
+                          "175",
+                          "175",
+                          "175",
+                          "175",
+                          "175",
+                          "175",
+                          "175",
+                          "175",
+                          "175",
+                          "175",
+                          "175",
+                          "175",
+                          "175",
+                          "175",
+                          "175",
+                          "175",
+                          "175",
+                          "175",
+                          "175",
+                          "175"
+                        ]
+                      },
+                      {
+                        "label": "Concerto Regen",
+                        "values": [
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20"
+                        ]
+                      },
+                      {
+                        "label": "Healing per Plume Step",
+                        "values": [
+                          "550+2.71%",
+                          "616+2.82%",
+                          "687+2.93%",
+                          "770+3.09%",
+                          "869+3.31%",
+                          "962+3.53%",
+                          "979+3.93%",
+                          "1001+4.39%",
+                          "1017+4.88%",
+                          "1045+5.70%",
+                          "1131+6.17%",
+                          "1217+6.64%",
+                          "1303+7.11%",
+                          "1390+7.58%",
+                          "1476+8.05%",
+                          "1562+8.52%",
+                          "1648+8.99%",
+                          "1735+9.46%",
+                          "1821+9.93%",
+                          "1907+10.40%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Lambent Gold",
+                "type": "Forte Circuit",
+                "desc": "Zephyr Stance\nSuisui is in Zephyr Stance by default. When in Zephyr Stance, Suisui can obtain Cloud Breath through certain skills.\n\nDrizzle Stance\nEntering Drizzle Stance clears all Floral Epistle.\nDuring Drizzle Stance:\n- Suisui unlocks new combat moves and restores Floral Epistle through certain skills.\n-Suisui gains increased resistance to interruption.\n- Normal Attack within a certain time after triggering a successful Dodge via Dodge skills to cast Basic Attack - Drizzle Stance Stage 1.\nAfter entering Drizzle Stance for 15s, Suisui ends Drizzle Stance and clears all Floral Epistle upon exiting the state.\n\nDodge - Parting Mist\nWhile performing attacks on the ground, Dodge to cast Dodge - Parting Mist at the cost of STA.\nWhen in Zephyr Stance, triggering a successful Dodge while casting Dodge - Parting Mist restores Cloud Breath. Normal Attack shortly after triggering the Dodge to cast Dodge Counter - Zephyr Stance.\n- When in Drizzle Stance, triggering a successful Dodge while casting Dodge - Parting Mist restores Floral Epistle, and does not reset the cycle of Basic Attack - Drizzle Stance within a certain period.\n\nBasic Attack - Drizzle Stance\nWhen in Drizzle Stance, Basic Attack - Zephyr Stance is replaced with Basic Attack - Drizzle Stance.\n Normal Attack repeatedly to perform up to 4 consequtive attacks, dealing Glacio DMG and restoring Floral Epistle on hit.\nWhen casting Basic Attack - Drizzle Stance Stage 3, continuously pull in nearby targets.\nBasic Attack - Drizzle Stance Stage 4 inflicts Glacio Chafe 1 time on the target on hit.\n\nHeavy Attack - Drizzle Stance\nConsume STA to attack the target, dealing Glacio DMG, and restoring Floral Epistle on hit.\n\nIlluminating Dew\nWhen in Drizzle Stance, keep holding Normal Attack after casting Heavy Attack - Drizzle Stance to cast this skill.\nConsume STA to perform Plunging Attack, dealing Glacio DMG.\n\nSwallow's Cut\nWhen in Drizzle Stance, cast this skill one of the following ways:\n- Release the Normal Attack button while casting Heavy Attack - Drizzle Stance.\n- Normal Attack while Suisui is mid-air.\nConsume STA to perform Plunging Attack, dealing Glacio DMG.\n\nCloud Breath\nMax {0} points.\nWhen in Zephyr Stance:\n- Basic Attack - Zephyr Stance and Dodge Counter - Zephyr Stance restores Cloud Breath on hit.\n- Casting Resonance Skill - Zephyr Stance restores {1} {Cus:Sap,S=point P=points SapTag=1} of Cloud Breath when Suisui is the active Resonator in the team.\n- Triggering a successful Dodge while casting Dodge - Parting Mist restores {2} {Cus:Sap,S=point P=points SapTag=2} of Cloud Breath.\n\nFloral Epistle\nM",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15",
+                      "Lv. 16",
+                      "Lv. 17",
+                      "Lv. 18",
+                      "Lv. 19",
+                      "Lv. 20"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Basic Attack - Drizzle Stance Stage 1 DMG",
+                        "values": [
+                          "9.84%*2+9.84%*2",
+                          "10.65%*2+10.65%*2",
+                          "11.46%*2+11.46%*2",
+                          "12.59%*2+12.59%*2",
+                          "13.40%*2+13.40%*2",
+                          "14.32%*2+14.32%*2",
+                          "15.61%*2+15.61%*2",
+                          "16.91%*2+16.91%*2",
+                          "18.20%*2+18.20%*2",
+                          "19.57%*2+19.57%*2",
+                          "21.18%*2+21.18%*2",
+                          "22.80%*2+22.80%*2",
+                          "24.41%*2+24.41%*2",
+                          "26.02%*2+26.02%*2",
+                          "27.64%*2+27.64%*2",
+                          "29.25%*2+29.25%*2",
+                          "30.86%*2+30.86%*2",
+                          "32.48%*2+32.48%*2",
+                          "34.09%*2+34.09%*2",
+                          "35.71%*2+35.71%*2"
+                        ]
+                      },
+                      {
+                        "label": "Basic Attack - Drizzle Stance Stage 2 DMG",
+                        "values": [
+                          "16.00%+8.00%*2+8.00%*2+16.00%+16.00%",
+                          "17.32%+8.66%*2+8.66%*2+17.32%+17.32%",
+                          "18.63%+9.32%*2+9.32%*2+18.63%+18.63%",
+                          "20.47%+10.24%*2+10.24%*2+20.47%+20.47%",
+                          "21.78%+10.89%*2+10.89%*2+21.78%+21.78%",
+                          "23.29%+11.65%*2+11.65%*2+23.29%+23.29%",
+                          "25.39%+12.70%*2+12.70%*2+25.39%+25.39%",
+                          "27.48%+13.74%*2+13.74%*2+27.48%+27.48%",
+                          "29.58%+14.79%*2+14.79%*2+29.58%+29.58%",
+                          "31.81%+15.91%*2+15.91%*2+31.81%+31.81%",
+                          "34.44%+17.22%*2+17.22%*2+34.44%+34.44%",
+                          "37.06%+18.53%*2+18.53%*2+37.06%+37.06%",
+                          "39.69%+19.85%*2+19.85%*2+39.69%+39.69%",
+                          "42.31%+21.16%*2+21.16%*2+42.31%+42.31%",
+                          "44.93%+22.47%*2+22.47%*2+44.93%+44.93%",
+                          "47.56%+23.78%*2+23.78%*2+47.56%+47.56%",
+                          "50.18%+25.09%*2+25.09%*2+50.18%+50.18%",
+                          "52.81%+26.41%*2+26.41%*2+52.81%+52.81%",
+                          "55.43%+27.72%*2+27.72%*2+55.43%+55.43%",
+                          "58.05%+29.03%*2+29.03%*2+58.05%+58.05%"
+                        ]
+                      },
+                      {
+                        "label": "Basic Attack - Drizzle Stance Stage 3 DMG",
+                        "values": [
+                          "6.92%*3+6.92%*3+6.92%*3+6.92%*3",
+                          "7.49%*3+7.49%*3+7.49%*3+7.49%*3",
+                          "8.06%*3+8.06%*3+8.06%*3+8.06%*3",
+                          "8.85%*3+8.85%*3+8.85%*3+8.85%*3",
+                          "9.42%*3+9.42%*3+9.42%*3+9.42%*3",
+                          "10.07%*3+10.07%*3+10.07%*3+10.07%*3",
+                          "10.98%*3+10.98%*3+10.98%*3+10.98%*3",
+                          "11.89%*3+11.89%*3+11.89%*3+11.89%*3",
+                          "12.80%*3+12.80%*3+12.80%*3+12.80%*3",
+                          "13.76%*3+13.76%*3+13.76%*3+13.76%*3",
+                          "14.90%*3+14.90%*3+14.90%*3+14.90%*3",
+                          "16.03%*3+16.03%*3+16.03%*3+16.03%*3",
+                          "17.17%*3+17.17%*3+17.17%*3+17.17%*3",
+                          "18.30%*3+18.30%*3+18.30%*3+18.30%*3",
+                          "19.44%*3+19.44%*3+19.44%*3+19.44%*3",
+                          "20.57%*3+20.57%*3+20.57%*3+20.57%*3",
+                          "21.71%*3+21.71%*3+21.71%*3+21.71%*3",
+                          "22.84%*3+22.84%*3+22.84%*3+22.84%*3",
+                          "23.98%*3+23.98%*3+23.98%*3+23.98%*3",
+                          "25.11%*3+25.11%*3+25.11%*3+25.11%*3"
+                        ]
+                      },
+                      {
+                        "label": "Basic Attack - Drizzle Stance Stage 4 DMG",
+                        "values": [
+                          "80.00%",
+                          "86.56%",
+                          "93.12%",
+                          "102.31%",
+                          "108.87%",
+                          "116.41%",
+                          "126.91%",
+                          "137.40%",
+                          "147.90%",
+                          "159.05%",
+                          "172.17%",
+                          "185.29%",
+                          "198.41%",
+                          "211.53%",
+                          "224.65%",
+                          "237.77%",
+                          "250.89%",
+                          "264.01%",
+                          "277.13%",
+                          "290.25%"
+                        ]
+                      },
+                      {
+                        "label": "Heavy Attack - Drizzle Stance",
+                        "values": [
+                          "6.00%*10+60.00%",
+                          "6.50%*10+64.92%",
+                          "6.99%*10+69.84%",
+                          "7.68%*10+76.73%",
+                          "8.17%*10+81.65%",
+                          "8.74%*10+87.31%",
+                          "9.52%*10+95.18%",
+                          "10.31%*10+103.05%",
+                          "11.10%*10+110.93%",
+                          "11.93%*10+119.29%",
+                          "12.92%*10+129.13%",
+                          "13.90%*10+138.97%",
+                          "14.89%*10+148.81%",
+                          "15.87%*10+158.65%",
+                          "16.85%*10+168.49%",
+                          "17.84%*10+178.33%",
+                          "18.82%*10+188.17%",
+                          "19.81%*10+198.01%",
+                          "20.79%*10+207.85%",
+                          "21.77%*10+217.69%"
+                        ]
+                      },
+                      {
+                        "label": "Illuminating Dew DMG",
+                        "values": [
+                          "52.80%",
+                          "57.13%",
+                          "61.46%",
+                          "67.53%",
+                          "71.86%",
+                          "76.83%",
+                          "83.76%",
+                          "90.69%",
+                          "97.62%",
+                          "104.98%",
+                          "113.64%",
+                          "122.30%",
+                          "130.95%",
+                          "139.61%",
+                          "148.27%",
+                          "156.93%",
+                          "165.59%",
+                          "174.25%",
+                          "182.91%",
+                          "191.57%"
+                        ]
+                      },
+                      {
+                        "label": "Swallow's Cut DMG",
+                        "values": [
+                          "54.15%",
+                          "58.59%",
+                          "63.03%",
+                          "69.24%",
+                          "73.68%",
+                          "78.79%",
+                          "85.89%",
+                          "93.00%",
+                          "100.10%",
+                          "107.65%",
+                          "116.53%",
+                          "125.41%",
+                          "134.29%",
+                          "143.17%",
+                          "152.05%",
+                          "160.93%",
+                          "169.81%",
+                          "178.69%",
+                          "187.57%",
+                          "196.44%"
+                        ]
+                      },
+                      {
+                        "label": "Dodge - Parting Mist STA Cost",
+                        "values": [
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20"
+                        ]
+                      },
+                      {
+                        "label": "Heavy Attack - Drizzle Stance STA Cost",
+                        "values": [
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20"
+                        ]
+                      },
+                      {
+                        "label": "Illuminating Dew STA Cost",
+                        "values": [
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30"
+                        ]
+                      },
+                      {
+                        "label": "Swallow's Cut STA Cost",
+                        "values": [
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Tinkling Jade",
+                "type": "Intro Skill",
+                "desc": "Attack the target, dealing Glacio DMG, and inflict Glacio Chafe 1 time on the target.\nWhile casting this skill, consume all Cloud Breath to pull in nearby targets and enter Drizzle Stance.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiQTE.webp",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15",
+                      "Lv. 16",
+                      "Lv. 17",
+                      "Lv. 18",
+                      "Lv. 19",
+                      "Lv. 20"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Skill DMG",
+                        "values": [
+                          "14.40%",
+                          "15.59%",
+                          "16.77%",
+                          "18.42%",
+                          "19.60%",
+                          "20.96%",
+                          "22.85%",
+                          "24.74%",
+                          "26.63%",
+                          "28.63%",
+                          "31.00%",
+                          "33.36%",
+                          "35.72%",
+                          "38.08%",
+                          "40.44%",
+                          "42.80%",
+                          "45.16%",
+                          "47.53%",
+                          "49.89%",
+                          "52.25%"
+                        ]
+                      },
+                      {
+                        "label": "Concerto Regen",
+                        "values": [
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Rippling Waters",
+                "type": "Outro Skill",
+                "desc": "Resonators in the team gain {0} All DMG Amplification for 30s.\n\nSuisui enters Roaming Transcendent when Ceaseless Landscape is active.\nSuisui exits Drizzle Stance and consumes all Floral Epistle and unlocks the following effects based on the amount of Floral Epistle consumed:\n\n0 Floral Epistle consumed:\n- All nearby Resonators in the team gain Reflecting Shadows for 6s. Resonators with Reflecting Shadows have increased resistance to interruption.\n\nAt least 200 Floral Epistle consumed:\n- If Ceaseless Landscape is active, Suisui may perform Plume Step for the first time 6s into her Transcendent Dance while in Roaming Transcendent.\n\nAt least 400 Floral Epistle consumed:\n- During this Roaming Transcendent state, the active Resonator within theCeaseless Landscape deals more DMG if they have Reflecting Shadows. For every {2} of Suisui's Energy Regen over {1}, the Resonator's DMG dealt is increased by {3}, up to {4}.\n- If Ceaseless Landscape is active, Suisui may perform the second Plume Step 12s into her Transcendent Dance while in Roaming Transcendent.\n\nAt least 600 Floral Epistle consumed:\n- When Suisui performs the first Plume Step, all nearby active Resonators in the team within theCeaseless Landscape gain the following effects for 24s:\nCasting Outro Skill grants the incoming Resonator Undulating Mist. When Resonators with Undulating Mist consume Negative Status or Electro Rage stacks on the target, they gain an ATK increase: For every {6} of Suisui's Energy Regen over {5}, the Resonator's ATK is increased by {7} for {9}s, up to {8}. Undulating Mist lasts for 14s or until the Resonator is switched off the field. When Undulating Mist is removed, the ATK increase effect is also removed.\n- If Ceaseless Landscape is active, Suisui may perform the third Plume Step 18s into her Transcendent Dance while in Roaming Transcendent.\n\nRoaming Transcendent\nLasts for {10}s.\nDuring Roaming Transcendent, Suisui will merge with Ceaseless Landscape and start a Transcendent Dance, during which she will perform Plume Steps at interval based on the amount of Floral Epistle consumed when Outro Skill - Rippling Waters is cast.\nWhen Suisui is the active Resonator in the team, she stops the Transcendent Dance.\nWhen Ceaseless Landscape isn't active, she will exit the Roaming Transcendent state.\n\nPlume Step\nPerforming Plume Step grants Reflecting Shadows to all nearby Resonators in the team for 6s, inflicts 1 stack of Glacio Chafe on all enemies within the Ceaseless Landscape, and heals the nearby active Resonators in the team within the Ceaseless Landscape.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiT.webp"
+              },
+              {
+                "name": "Healing Bonus+",
+                "desc": "Healing Bonus increased by {0}.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertygreencure_UI.webp"
+              },
+              {
+                "name": "HP+",
+                "desc": "HP increased by {0}.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertygreenlife_UI.webp"
+              },
+              {
+                "name": "Sky Over Water",
+                "type": "Inherent Skill",
+                "desc": "Consuming Enrichment grants the Resonator {0} {Cus:Sap,S=stack P=stacks SapTag=0} of Spring's Birth, up to {1} stacks. When the Resonator with Spring's Birth is not at full HP, restore their HP by {3} + {4} of Suisui's Max HP at the cost of 1 stack of Spring's Birth every {2}s.\n\nWhen Resonance Skill - Awakening Spring and Intro Skill - Tinkling Jade hit a target, they additionally restore {5} points of Concerto Energy and {6} points of Resonance Energy, and increase the attack's Crit. Rate by {7} and Glacio DMG by {8}. This effect can be triggered up to once every 25s.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiD1.webp"
+              },
+              {
+                "name": "Tune Break: Rectifier",
+                "type": "Tune Break",
+                "desc": "When the target's Off-Tune Level is full, the Resonator may cast Tune Break on the target.",
+                "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakFist.webp"
+              }
+            ]
+          },
+          {
+            "title": "Resonance Chain",
+            "entries": [
+              {
+                "name": "Mountains Washed Into Paintings",
+                "type": "Sequence 1",
+                "desc": "Resonators with Undulating Mist also gain ATK increase after inflicting Negative Status or dealing Negative Status DMG.\nThe duration of Reflecting Shadows obtained through the third Plume Step is extended by {1}.\nBasic Attack - Drizzle Stance, Heavy Attack - Drizzle Stance, and Enhanced Plunging Attack- Enhanced State are immune to interruption."
+              },
+              {
+                "name": "Clouds Pour Like Molten Gold",
+                "type": "Sequence 2",
+                "desc": "All nearby Resonators in the team within the Ceaseless Landscape have their Crit. DMG increased by {0} for 30s after performing the following actions:\n- Inflicting Spectro Frazzle, Fusion Burst, Glacio Chafe, Aero Erosion, and Electro Flare, or dealing the corresponding Negative Status DMG.\n- Consuming Havoc Bane stacks on the target.\nWhen the active Resonator is not in the Ceaseless Landscape, this Crit. DMG bonus effect is disabled."
+              },
+              {
+                "name": "Sparse Curtains Invite Evening Glow",
+                "type": "Sequence 3",
+                "desc": "Normal Attack shortly after casting Resonance Skill - Drizzle Stance to cast Basic Attack - Drizzle Stance Stage 4.\n\nCasting Resonance Skill - Drizzle Stance grants Kingfisher. Switching to another Resonator ends this effect. Casting Basic Attack - Drizzle Stance Stage 4 consumes Kingfisher to restore {0} points of Concerto Energy and {1} points of Floral Epistle. Kingfisher can be consumed up to once every {2}s."
+              },
+              {
+                "name": "Autumn Mountains in Choir Sing",
+                "type": "Sequence 4",
+                "desc": "Healing provided by Enrichment and Spring's Birth are increased by {0}."
+              },
+              {
+                "name": "I Long To Ride The Eastern Wind",
+                "type": "Sequence 5",
+                "desc": "The DMG Multipliers of Basic Attack - Drizzle Stance and Heavy Attack - Drizzle Stance are increased by {0}."
+              },
+              {
+                "name": "Staying True To This Splendid Realm",
+                "type": "Sequence 6",
+                "desc": "The Crit. DMG of Intro Skill - Tinkling Jade and Resonance Skill - Awakening Spring are increased by {0}."
+              }
+            ]
+          }
+        ]
+      },
+      "req": {
+        "ascension": [
+          {
+            "id": "41100091",
+            "name": "LF Autopuppet Kernel",
+            "qty": 4,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_1_UI.webp",
+            "source": "Autopuppets / Forgery Challenge",
+            "sourceDetails": [
+              {
+                "name": "Autopuppet Scout",
+                "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+              },
+              {
+                "name": "Forgery Challenge"
+              }
+            ]
+          },
+          {
+            "id": "41100092",
+            "name": "MF Autopuppet Kernel",
+            "qty": 12,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_2_UI.webp",
+            "source": "Autopuppets / Forgery Challenge",
+            "sourceDetails": [
+              {
+                "name": "Autopuppet Scout",
+                "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+              },
+              {
+                "name": "Forgery Challenge"
+              }
+            ]
+          },
+          {
+            "id": "41100093",
+            "name": "HF Autopuppet Kernel",
+            "qty": 12,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_3_UI.webp",
+            "source": "Autopuppets",
+            "sourceDetails": [
+              {
+                "name": "Autopuppet Scout",
+                "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+              }
+            ]
+          },
+          {
+            "id": "41100094",
+            "name": "FF Autopuppet Kernel",
+            "qty": 4,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_4_UI.webp",
+            "source": "Autopuppets",
+            "sourceDetails": [
+              {
+                "name": "Autopuppet Scout",
+                "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+              }
+            ]
+          },
+          {
+            "id": "41400334",
+            "name": "Solidarity's Loneflame",
+            "qty": 46,
+            "rar": 4,
+            "kind": "boss",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_029_UI.webp",
+            "source": "Myriad Snare: Rustfire Chassis / Myriad Snare: Rustfire Chassis - Early Access",
+            "sourceDetails": [
+              {
+                "name": "Myriad Snare: Rustfire Chassis",
+                "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34030_UI.webp"
+              }
+            ]
+          },
+          {
+            "id": "42601610",
+            "name": "Flowborne Dream",
+            "qty": 60,
+            "rar": 1,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_087_UI.webp",
+            "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
+            "sourceDetails": [
+              {
+                "name": "Collection Spots"
+              },
+              {
+                "name": "Overworld Collection"
+              },
+              {
+                "name": "Huaxu Apothecary"
+              }
+            ]
+          }
+        ],
+        "talents": [
+          {
+            "id": "41100091",
+            "name": "LF Autopuppet Kernel",
+            "qty": 25,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_1_UI.webp",
+            "source": "Autopuppets / Forgery Challenge",
+            "sourceDetails": [
+              {
+                "name": "Autopuppet Scout",
+                "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+              },
+              {
+                "name": "Forgery Challenge"
+              }
+            ]
+          },
+          {
+            "id": "41100092",
+            "name": "MF Autopuppet Kernel",
+            "qty": 28,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_2_UI.webp",
+            "source": "Autopuppets / Forgery Challenge",
+            "sourceDetails": [
+              {
+                "name": "Autopuppet Scout",
+                "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+              },
+              {
+                "name": "Forgery Challenge"
+              }
+            ]
+          },
+          {
+            "id": "41100093",
+            "name": "HF Autopuppet Kernel",
+            "qty": 40,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_3_UI.webp",
+            "source": "Autopuppets",
+            "sourceDetails": [
+              {
+                "name": "Autopuppet Scout",
+                "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+              }
+            ]
+          },
+          {
+            "id": "41100094",
+            "name": "FF Autopuppet Kernel",
+            "qty": 57,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_4_UI.webp",
+            "source": "Autopuppets",
+            "sourceDetails": [
+              {
+                "name": "Autopuppet Scout",
+                "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+              }
+            ]
+          },
+          {
+            "id": "41400324",
+            "name": "Skyward Glazed Heart",
+            "qty": 26,
+            "rar": 4,
+            "kind": "boss",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_028_UI.webp",
+            "source": "Thousand-Puppet Pavilion / Thousand-Puppet Pavilion - Early Access",
+            "sourceDetails": [
+              {
+                "name": "Thousand-Puppet Pavilion",
+                "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34031_UI.webp"
+              }
+            ]
+          },
+          {
+            "id": "43021031",
+            "name": "Spliced String",
+            "qty": 25,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_1_UI.webp",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
+            "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
+              {
+                "name": "Forgery Challenge: Lesson in Sunset"
+              }
+            ]
+          },
+          {
+            "id": "43021032",
+            "name": "Broken String",
+            "qty": 28,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_2_UI.webp",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
+            "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
+              {
+                "name": "Forgery Challenge: Lesson in Sunset"
+              }
+            ]
+          },
+          {
+            "id": "43021033",
+            "name": "Solidified String",
+            "qty": 55,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_3_UI.webp",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
+            "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
+              {
+                "name": "Forgery Challenge: Lesson in Sunset"
+              }
+            ]
+          },
+          {
+            "id": "43021034",
+            "name": "Melodic String",
+            "qty": 67,
+            "rar": 5,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_4_UI.webp",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
+            "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
+              {
+                "name": "Forgery Challenge: Lesson in Sunset"
+              }
+            ]
+          }
+        ],
+        "ascCost": 170000,
+        "talentCost": 2030000,
+        "currency": 2200000
+      }
     },
     {
       "id": "ww-lucilla",
@@ -86363,7 +91325,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -86716,7 +91678,7 @@
               {
                 "name": "Clear As Day",
                 "type": "Resonance Liberation",
-                "desc": "Lucilla's holds up to 0 Resonance Energy. Clear As Day consumes no Resonance Energy.\nClear As Day unlocks when Lucilla holds all 3 Photos.\n\nClear As Day\nDeal Glacio DMG and enter Reminiscence:\n- When in Resonance Mode - Glacio Chafe, the DMG dealt is considered Basic Attack DMG. Casting this skill grants Lucilla {0} Basic Attack DMG Bonus for {1}s.\n- When in Resonance Mode - Echo, the DMG dealt is considered Echo Skill DMG. Casting this skill grants Lucilla {0} Echo Skill DMG Bonus for {1}s.\nWhen in Reminiscence, Lucilla's resistance to interruption is increased, and she cannot cast Resonance Skill and Resonance Liberation. Her Basic Attack, Dodge Counter, Mid-air Attack, and Intro Skill - Clip It are replaced with Basic Attack - Tracing Forms, Dodge Counter - Reminiscence, Mid-air Attack - Reminiscence, and Intro Skill - Clip It: Hard Cut respectively.\nCan be performed in mid-air close to the ground.\n\nBasic Attack - Tracing Forms\nPerform up to 3 consecutive attacks, dealing Glacio DMG, considered Basic Attack DMG.\nHold Normal Attack to cast Basic Attack - Tracing Forms Stage 1, 2, & 3 consecutively.\nWhile casting Basic Attack - Tracing Forms Stage 3, consecutively or hold Normal Attack to continuously attack the target.\nWhile casting Basic Attack - Tracing Forms Stage 3, release the Normal Attack button or finish the whole Basic Attack - Tracing Forms Stage 3 to automatically perform Letting It Go.\n\nLetting It Go\nDeal Glacio DMG to targets within the range. When in Resonance Mode - Glacio Chafe/Resonance Mode - Echo, DMG dealt is considered Basic Attack DMG/Echo Skill DMG.\nLucilla is immune to interruption and damage during Letting It Go, and Resonator switching is disabled while casting.\nWhile casting Letting It Go, Lucilla additionally restores {2} points of Concerto Energy.\nCasting Letting It Go ends Reminiscence.\n\nMid-air Attack - Reminiscence\nConsume STA to perform Plunging Attack, dealing Glacio DMG, considered Basic Attack DMG.\n Normal Attack shortly after casting this skill to cast Basic Attack - Tracing Forms Stage 2.\n\nDodge Counter - Reminiscence\n Normal Attack shortly after a successful Dodge to attack the target, dealing Glacio DMG, considered Basic Attack DMG.\n Normal Attack shortly after casting this skill to perform Basic Attack - Tracing Forms Stage 3.",
+                "desc": "Lucilla holds up to 0 Resonance Energy. Clear As Day consumes no Resonance Energy.\nClear As Day unlocks when Lucilla holds all 3 Photos.\n\nClear As Day\nDeal Glacio DMG and enter Reminiscence:\n- When in Resonance Mode - Glacio Chafe, the DMG dealt is considered Basic Attack DMG. Casting this skill grants Lucilla {0} Basic Attack DMG Bonus for {1}s.\n- When in Resonance Mode - Echo, the DMG dealt is considered Echo Skill DMG. Casting this skill grants Lucilla {0} Echo Skill DMG Bonus for {1}s.\nWhen in Reminiscence, Lucilla's resistance to interruption is increased, and she cannot cast Resonance Skill and Resonance Liberation. Her Basic Attack, Dodge Counter, Mid-air Attack, and Intro Skill - Clip It are replaced with Basic Attack - Tracing Forms, Dodge Counter - Reminiscence, Mid-air Attack - Reminiscence, and Intro Skill - Clip It: Hard Cut respectively.\nCan be performed in mid-air close to the ground.\n\nBasic Attack - Tracing Forms\nPerform up to 3 consecutive attacks, dealing Glacio DMG, considered Basic Attack DMG.\nHold Normal Attack to cast Basic Attack - Tracing Forms Stage 1, 2, & 3 consecutively.\nWhile casting Basic Attack - Tracing Forms Stage 3, consecutively or hold Normal Attack to continuously attack the target.\nWhile casting Basic Attack - Tracing Forms Stage 3, release the Normal Attack button or finish the whole Basic Attack - Tracing Forms Stage 3 to automatically perform Letting It Go.\n\nLetting It Go\nDeal Glacio DMG to targets within the range. When in Resonance Mode - Glacio Chafe/Resonance Mode - Echo, DMG dealt is considered Basic Attack DMG/Echo Skill DMG.\nLucilla is immune to interruption and damage during Letting It Go, and Resonator switching is disabled while casting.\nWhile casting Letting It Go, Lucilla additionally restores {2} points of Concerto Energy.\nCasting Letting It Go ends Reminiscence.\n\nMid-air Attack - Reminiscence\nConsume STA to perform Plunging Attack, dealing Glacio DMG, considered Basic Attack DMG.\n Normal Attack shortly after casting this skill to cast Basic Attack - Tracing Forms Stage 2.\n\nDodge Counter - Reminiscence\n Normal Attack shortly after a successful Dodge to attack the target, dealing Glacio DMG, considered Basic Attack DMG.\n Normal Attack shortly after casting this skill to perform Basic Attack - Tracing Forms Stage 3.",
                 "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLuosela/SP_SkillIconLuoselaC1.webp",
                 "scaling": [
                   {
@@ -87001,7 +91963,7 @@
               {
                 "name": "Memory Palace",
                 "type": "Forte Circuit",
-                "desc": "D\u00e9j\u00e0 Vu\nWhile casting Resonance Liberation - Clear As Day, Lucilla grants the following enhancements based on her Resonance Mode:\n- When in Resonance Mode - Glacio Chafe, gain {0} {Cus:Sap,S=stack P=stacks SapTag=0} of Film Roll for {1}s, stacking up {2} times. All stacks are removed when the duration ends.\n- When in Resonance Mode - Echo, gain {6} {Cus:Sap,S=stack P=stacks SapTag=6} of Zoom for {7}s. Max {8} stack, which is removed when the duration ends.\nThe above effects end early when Lucilla switches Resonance Mode.\n\nFilm Roll\nWhen an active Resonator in the team other than Lucilla inflicts Glacio Chafe onto the target, Lucilla consumes {3} {Cus:Sap,S=stack P=stacks SapTag=3} of Film Roll to inflict Glacio Chafe {4} {Cus:Sap,S=time P=time SapTag=4} on nearby targets. This effect can be triggered once every {5}s.\n\nZoom\nEach stack of Zoom increases the Crit. DMG of the active Resonator's Echo Skill by {9}.\n\nOblivion\nDuring Basic Attack - Tracing Forms Stage 3, Lucilla consumes 1 Photo intermittently to perform Oblivion, dealing 1 instance of Glacio DMG:\n- When in Resonance Mode - Glacio Chafe, this instance of DMG is considered Basic Attack DMG. The skill inflicts {11} {Cus:Sap,S=stack P=stacks SapTag=B} of Glacio Chafe on the target.\n- When in Resonance Mode - Echo, this instance of DMG is considered Echo Skill DMG. Each cast of Oblivion is considered as casting a different Echo Skill.\n\nQuick Glance\n Aim to enter the camera mode. During this mode, Reverberations, environmental collectibles, and special collectibles within a certain range of Lucilla's shot will be marked. the shutter button to capture the moment, and the marked items will be gathered.\n\nTrace\nLucilla can hold up to {12} points of Trace.\nRestore {13} {Cus:Sap,S=point P=points SapTag=C} of Trace while casting Intro Skill - Clip It.\nRestore {14} {Cus:Sap,S=point P=points SapTag=D} of Trace while casting Resonance Skill - Spotlight.\nRestore {14} {Cus:Sap,S=point P=points SapTag=D} of Trace while casting Basic Attack Stage 3 - Commendable.\nRestore {15} {Cus:Sap,S=point P=points SapTag=E} of Trace while casting Resonance Skill - Compensate or Basic Attack Stage 3 - Unremarkable.\n\nPhotos\nLucilla can hold up to {16} Photos.\nEvery {17} {Cus:Sap,S=point P=points SapTag=F} of Trace restored generates 1 Photo.",
+                "desc": "D\u00e9j\u00e0 Vu\nWhile casting Resonance Liberation - Clear As Day, Lucilla grants the following enhancements based on her Resonance Mode:\n- When in Resonance Mode - Glacio Chafe, gain {0} {Cus:Sap,S=stack P=stacks SapTag=0} of Film Roll for {1}s, stacking up to {2} times. All stacks are removed when the duration ends.\n- When in Resonance Mode - Echo, gain {6} {Cus:Sap,S=stack P=stacks SapTag=6} of Zoom for {7}s. Max {8} stack, which is removed when the duration ends.\nThe above effects end early when Lucilla switches Resonance Mode.\n\nFilm Roll\nWhen an active Resonator in the team other than Lucilla inflicts Glacio Chafe onto the target, Lucilla consumes {3} {Cus:Sap,S=stack P=stacks SapTag=3} of Film Roll to inflict Glacio Chafe {4} {Cus:Sap,S=time P=times SapTag=4} on nearby targets. This effect can be triggered once every {5}s.\n\nZoom\nEach stack of Zoom increases the Crit. DMG of the active Resonator's Echo Skill by {9}.\n\nOblivion\nDuring Basic Attack - Tracing Forms Stage 3, Lucilla consumes 1 Photo intermittently to perform Oblivion, dealing 1 instance of Glacio DMG:\n- When in Resonance Mode - Glacio Chafe, this instance of DMG is considered Basic Attack DMG. The skill inflicts {11} {Cus:Sap,S=stack P=stacks SapTag=B} of Glacio Chafe on the target.\n- When in Resonance Mode - Echo, this instance of DMG is considered Echo Skill DMG. Each cast of Oblivion is considered as casting a different Echo Skill.\n\nQuick Glance\n Aim to enter the camera mode. During this mode, Reverberations, environmental collectibles, and special collectibles within a certain range of Lucilla's shot will be marked. the shutter button to capture the moment, and the marked items will be gathered.\n\nTrace\nLucilla can hold up to {12} points of Trace.\nRestore {13} {Cus:Sap,S=point P=points SapTag=C} of Trace while casting Intro Skill - Clip It.\nRestore {14} {Cus:Sap,S=point P=points SapTag=D} of Trace while casting Resonance Skill - Spotlight.\nRestore {14} {Cus:Sap,S=point P=points SapTag=D} of Trace while casting Basic Attack Stage 3 - Commendable.\nRestore {15} {Cus:Sap,S=point P=points SapTag=E} of Trace while casting Resonance Skill - Compensate or Basic Attack Stage 3 - Unremarkable.\n\nPhotos\nLucilla can hold up to {16} Photos.\nEvery {17} {Cus:Sap,S=point P=points SapTag=F} of Trace restored generates 1 Photo.",
                 "icon": "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLuosela/SP_SkillIconLuoselaY.webp",
                 "scaling": [
                   {
@@ -87234,7 +92196,7 @@
               {
                 "name": "Slumbering Moonlight",
                 "type": "Sequence 2",
-                "desc": "While casting Resonance Liberation - Clear As Day, Lucilla grants the following enhancements based on her Resonance Mode:\n- When in Resonance Mode - Glacio Chafe, Glacio Chafe DMG against targets within a certain range around the active Resonator is Amplified by {0}.\n- When in Resonance Mode - Echo, grant {1} Echo Skill DMG Amplification to Resonators in the team.\nThese enhancements last as long as Reminiscence is active and remain effective for {2}s after Reminiscence ends.\nThese effects end when Lucilla switches Resonance Modes."
+                "desc": "While casting Resonance Liberation - Clear As Day, Lucilla grants the following enhancements based on her Resonance Mode:\n- When in Resonance Mode - Glacio Chafe, Glacio Chafe DMG against targets within a certain range around the active Resonator is Amplified by {0}.\n- When in Resonance Mode - Echo, grant {1} Echo Skill DMG Bonus to Resonators in the team.\nThese enhancements last as long as Reminiscence is active and remain effective for {2}s after Reminiscence ends.\nThese effects end when Lucilla switches Resonance Modes."
               },
               {
                 "name": "Days Fade Unheard",
@@ -87445,8 +92407,11 @@
             "rar": 2,
             "kind": "book",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_1_UI.webp",
-            "source": "Forgery Challenge: Lesson in Sunset",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
             "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
               {
                 "name": "Forgery Challenge: Lesson in Sunset"
               }
@@ -87459,8 +92424,11 @@
             "rar": 3,
             "kind": "book",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_2_UI.webp",
-            "source": "Forgery Challenge: Lesson in Sunset",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
             "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
               {
                 "name": "Forgery Challenge: Lesson in Sunset"
               }
@@ -87473,8 +92441,11 @@
             "rar": 4,
             "kind": "book",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_3_UI.webp",
-            "source": "Forgery Challenge: Lesson in Sunset",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
             "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
               {
                 "name": "Forgery Challenge: Lesson in Sunset"
               }
@@ -87487,8 +92458,11 @@
             "rar": 5,
             "kind": "book",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_4_UI.webp",
-            "source": "Forgery Challenge: Lesson in Sunset",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
             "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
               {
                 "name": "Forgery Challenge: Lesson in Sunset"
               }
@@ -87572,8 +92546,11 @@
               "rar": 2,
               "kind": "book",
               "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_1_UI.webp",
-              "source": "Forgery Challenge: Lesson in Sunset",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
               "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
                 {
                   "name": "Forgery Challenge: Lesson in Sunset"
                 }
@@ -87586,8 +92563,11 @@
               "rar": 3,
               "kind": "book",
               "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_2_UI.webp",
-              "source": "Forgery Challenge: Lesson in Sunset",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
               "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
                 {
                   "name": "Forgery Challenge: Lesson in Sunset"
                 }
@@ -87600,8 +92580,11 @@
               "rar": 4,
               "kind": "book",
               "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_3_UI.webp",
-              "source": "Forgery Challenge: Lesson in Sunset",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
               "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
                 {
                   "name": "Forgery Challenge: Lesson in Sunset"
                 }
@@ -87614,8 +92597,11 @@
               "rar": 5,
               "kind": "book",
               "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_4_UI.webp",
-              "source": "Forgery Challenge: Lesson in Sunset",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
               "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
                 {
                   "name": "Forgery Challenge: Lesson in Sunset"
                 }
@@ -87674,7 +92660,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -89181,8 +94167,11 @@
             "rar": 2,
             "kind": "book",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_1_UI.webp",
-            "source": "Forgery Challenge: Forsaken Remnants",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
             "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
               {
                 "name": "Forgery Challenge: Forsaken Remnants"
               }
@@ -89195,8 +94184,11 @@
             "rar": 3,
             "kind": "book",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_2_UI.webp",
-            "source": "Forgery Challenge: Forsaken Remnants",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
             "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
               {
                 "name": "Forgery Challenge: Forsaken Remnants"
               }
@@ -89209,8 +94201,11 @@
             "rar": 4,
             "kind": "book",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_3_UI.webp",
-            "source": "Forgery Challenge: Forsaken Remnants",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
             "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
               {
                 "name": "Forgery Challenge: Forsaken Remnants"
               }
@@ -89223,8 +94218,11 @@
             "rar": 5,
             "kind": "book",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_4_UI.webp",
-            "source": "Forgery Challenge: Forsaken Remnants",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
             "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
               {
                 "name": "Forgery Challenge: Forsaken Remnants"
               }
@@ -89308,8 +94306,11 @@
               "rar": 2,
               "kind": "book",
               "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_1_UI.webp",
-              "source": "Forgery Challenge: Forsaken Remnants",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
               "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
                 {
                   "name": "Forgery Challenge: Forsaken Remnants"
                 }
@@ -89322,8 +94323,11 @@
               "rar": 3,
               "kind": "book",
               "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_2_UI.webp",
-              "source": "Forgery Challenge: Forsaken Remnants",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
               "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
                 {
                   "name": "Forgery Challenge: Forsaken Remnants"
                 }
@@ -89336,8 +94340,11 @@
               "rar": 4,
               "kind": "book",
               "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_3_UI.webp",
-              "source": "Forgery Challenge: Forsaken Remnants",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
               "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
                 {
                   "name": "Forgery Challenge: Forsaken Remnants"
                 }
@@ -89350,8 +94357,11 @@
               "rar": 5,
               "kind": "book",
               "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_4_UI.webp",
-              "source": "Forgery Challenge: Forsaken Remnants",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
               "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
                 {
                   "name": "Forgery Challenge: Forsaken Remnants"
                 }
@@ -89410,7 +94420,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -90966,7 +95976,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -92420,7 +97430,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -93793,7 +98803,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -95192,7 +100202,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -96539,7 +101549,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "live",
-        "version": "3.4",
+        "version": "3.5",
         "sections": [
           {
             "title": "Skills",
@@ -98121,8 +103131,11 @@
           "rar": 2,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_1_UI.webp",
-          "source": "Forgery Challenge: Corroded Remnants",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Corroded Remnants"
             }
@@ -98135,8 +103148,11 @@
           "rar": 3,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_2_UI.webp",
-          "source": "Forgery Challenge: Corroded Remnants",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Corroded Remnants"
             }
@@ -98149,8 +103165,11 @@
           "rar": 4,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_3_UI.webp",
-          "source": "Forgery Challenge: Corroded Remnants",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Corroded Remnants"
             }
@@ -98163,8 +103182,11 @@
           "rar": 5,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_4_UI.webp",
-          "source": "Forgery Challenge: Corroded Remnants",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Corroded Remnants"
             }
@@ -98185,8 +103207,11 @@
           "rar": 2,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_1_UI.webp",
-          "source": "Forgery Challenge: Lesson in Embers",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Embers"
             }
@@ -98199,8 +103224,11 @@
           "rar": 3,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_2_UI.webp",
-          "source": "Forgery Challenge: Lesson in Embers",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Embers"
             }
@@ -98213,8 +103241,11 @@
           "rar": 4,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_3_UI.webp",
-          "source": "Forgery Challenge: Lesson in Embers",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Embers"
             }
@@ -98227,8 +103258,11 @@
           "rar": 5,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_009_4_UI.webp",
-          "source": "Forgery Challenge: Lesson in Embers",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Embers",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Embers"
             }
@@ -98510,8 +103544,11 @@
           "rar": 2,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_1_UI.webp",
-          "source": "Forgery Challenge: Lesson in Sunset",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Sunset"
             }
@@ -98524,8 +103561,11 @@
           "rar": 3,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_2_UI.webp",
-          "source": "Forgery Challenge: Lesson in Sunset",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Sunset"
             }
@@ -98538,8 +103578,11 @@
           "rar": 4,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_3_UI.webp",
-          "source": "Forgery Challenge: Lesson in Sunset",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Sunset"
             }
@@ -98552,8 +103595,11 @@
           "rar": 5,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_4_UI.webp",
-          "source": "Forgery Challenge: Lesson in Sunset",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Sunset"
             }
@@ -98562,7 +103608,8 @@
       ],
       "chars": [
         "Denia",
-        "Lucilla"
+        "Lucilla",
+        "Suisui"
       ]
     },
     {
@@ -98661,8 +103708,11 @@
           "rar": 2,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_1_UI.webp",
-          "source": "Forgery Challenge: Lesson in Void",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Void",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Void"
             }
@@ -98675,8 +103725,11 @@
           "rar": 3,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_2_UI.webp",
-          "source": "Forgery Challenge: Lesson in Void",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Void",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Void"
             }
@@ -98689,8 +103742,11 @@
           "rar": 4,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_3_UI.webp",
-          "source": "Forgery Challenge: Lesson in Void",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Void",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Void"
             }
@@ -98703,8 +103759,11 @@
           "rar": 5,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_008_4_UI.webp",
-          "source": "Forgery Challenge: Lesson in Void",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Void",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Lesson in Void"
             }
@@ -98726,8 +103785,11 @@
           "rar": 2,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_1_UI.webp",
-          "source": "Forgery Challenge: Forsaken Remnants",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Forsaken Remnants"
             }
@@ -98740,8 +103802,11 @@
           "rar": 3,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_2_UI.webp",
-          "source": "Forgery Challenge: Forsaken Remnants",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Forsaken Remnants"
             }
@@ -98754,8 +103819,11 @@
           "rar": 4,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_3_UI.webp",
-          "source": "Forgery Challenge: Forsaken Remnants",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Forsaken Remnants"
             }
@@ -98768,8 +103836,11 @@
           "rar": 5,
           "kind": "book",
           "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_4_UI.webp",
-          "source": "Forgery Challenge: Forsaken Remnants",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
           "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
             {
               "name": "Forgery Challenge: Forsaken Remnants"
             }
@@ -98778,7 +103849,9 @@
       ],
       "chars": [
         "Aemeath",
-        "Hiyuki"
+        "Hiyuki",
+        "Rover",
+        "Yangyang Xuanling"
       ]
     }
   ],

@@ -13,1429 +13,6 @@
   "changedCount": 18,
   "roster": [
     {
-      "id": "hsr-evanescia",
-      "n": "Evanescia",
-      "localizedNames": {
-        "en": "Evanescia",
-        "zh": "\u7eef\u82f1",
-        "ja": "\u7dcb\u82f1",
-        "ko": "\uc5d0\ubc14\ub124\uc2dc\uc544"
-      },
-      "title": "The Demoiselle in Charge",
-      "slug": "evanescia",
-      "release": 1778662800000,
-      "releasePatch": "4.2",
-      "updated": 1782252000000,
-      "sourceOrder": 0,
-      "voiceActors": {
-        "english": "imdb:nm11116720|Nathalie Ferare",
-        "japanese": "Ayane Sakura|Sakura Ayane (\u4f50\u5009 \u7dbe\u97f3)",
-        "chinese": "https://zh.moegirl.org.cn/\u6eaf\u6d54|Suxun (\u6eaf\u6d54)",
-        "korean": "https://namu.wiki/w/\ubb38\uc720\uc815|Moon Yoo-jeong (\ubb38\uc720\uc815)"
-      },
-      "icon": "../../Database/Nanoka/hsr/assets/characters/round/1505.webp",
-      "art": "../../Database/Prydwen/hsr/assets/characters/evanescia-67e58c4745c7.webp",
-      "card": "../../Database/Prydwen/hsr/assets/characters/evanescia-7567d1297c5d.webp",
-      "signatureLightCone": {
-        "id": "23058",
-        "name": "Until the Flowers Bloom Again",
-        "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/23058.webp",
-        "art": "../../Database/Nanoka/hsr/assets/lightcones/full/23058.webp",
-        "path": "Elation"
-      },
-      "signatureWeapon": {
-        "id": "23058",
-        "name": "Until the Flowers Bloom Again",
-        "path": "Elation",
-        "educated": false
-      },
-      "signatureWeaponId": "23058",
-      "signatureWeaponName": "Until the Flowers Bloom Again",
-      "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/23058.webp",
-      "overviewArtPool": [
-        "../../Database/Nanoka/hsr/assets/lightcones/full/23058.webp"
-      ],
-      "status": "live",
-      "labels": [],
-      "r": 5,
-      "el": "Physical",
-      "path": "Elation",
-      "skillIcons": [
-        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Normal.webp",
-        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_BP.webp",
-        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Ultra.webp",
-        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Passive.webp"
-      ],
-      "kit": {
-        "source": "Nanoka",
-        "channel": "beta",
-        "version": "4.3.56",
-        "sections": [
-          {
-            "title": "Skills",
-            "entries": [
-              {
-                "name": "Syllabus: Pop Quiz",
-                "type": "Basic ATK",
-                "desc": "Deals Physical DMG equal to 140% of Evanescia's ATK to one designated enemy.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Normal.webp",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "Deals Physical DMG equal to 50% of Evanescia's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "Deals Physical DMG equal to 60% of Evanescia's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "Deals Physical DMG equal to 70% of Evanescia's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "Deals Physical DMG equal to 80% of Evanescia's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "Deals Physical DMG equal to 90% of Evanescia's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "Deals Physical DMG equal to 100% of Evanescia's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "Deals Physical DMG equal to 110% of Evanescia's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 8",
-                    "text": "Deals Physical DMG equal to 120% of Evanescia's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 9",
-                    "text": "Deals Physical DMG equal to 130% of Evanescia's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 10",
-                    "text": "Deals Physical DMG equal to 140% of Evanescia's ATK to one designated enemy."
-                  }
-                ]
-              },
-              {
-                "name": "Discipline: Final Verdict",
-                "type": "Skill",
-                "desc": "Deals Physical DMG equal to 375% of Evanescia's ATK to one designated enemy and Physical DMG equal to 188% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_BP.webp",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "Deals Physical DMG equal to 150% of Evanescia's ATK to one designated enemy and Physical DMG equal to 75% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "Deals Physical DMG equal to 165% of Evanescia's ATK to one designated enemy and Physical DMG equal to 82.5% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "Deals Physical DMG equal to 180% of Evanescia's ATK to one designated enemy and Physical DMG equal to 90% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "Deals Physical DMG equal to 195% of Evanescia's ATK to one designated enemy and Physical DMG equal to 97.5% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "Deals Physical DMG equal to 210% of Evanescia's ATK to one designated enemy and Physical DMG equal to 105% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "Deals Physical DMG equal to 225% of Evanescia's ATK to one designated enemy and Physical DMG equal to 113% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "Deals Physical DMG equal to 244% of Evanescia's ATK to one designated enemy and Physical DMG equal to 122% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
-                  },
-                  {
-                    "label": "Lv. 8",
-                    "text": "Deals Physical DMG equal to 263% of Evanescia's ATK to one designated enemy and Physical DMG equal to 131% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
-                  },
-                  {
-                    "label": "Lv. 9",
-                    "text": "Deals Physical DMG equal to 281% of Evanescia's ATK to one designated enemy and Physical DMG equal to 141% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
-                  },
-                  {
-                    "label": "Lv. 10",
-                    "text": "Deals Physical DMG equal to 300% of Evanescia's ATK to one designated enemy and Physical DMG equal to 150% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
-                  },
-                  {
-                    "label": "Lv. 11",
-                    "text": "Deals Physical DMG equal to 315% of Evanescia's ATK to one designated enemy and Physical DMG equal to 158% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
-                  },
-                  {
-                    "label": "Lv. 12",
-                    "text": "Deals Physical DMG equal to 330% of Evanescia's ATK to one designated enemy and Physical DMG equal to 165% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
-                  },
-                  {
-                    "label": "Lv. 13",
-                    "text": "Deals Physical DMG equal to 345% of Evanescia's ATK to one designated enemy and Physical DMG equal to 173% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
-                  },
-                  {
-                    "label": "Lv. 14",
-                    "text": "Deals Physical DMG equal to 360% of Evanescia's ATK to one designated enemy and Physical DMG equal to 180% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
-                  },
-                  {
-                    "label": "Lv. 15",
-                    "text": "Deals Physical DMG equal to 375% of Evanescia's ATK to one designated enemy and Physical DMG equal to 188% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
-                  }
-                ]
-              },
-              {
-                "name": "Swordsong: Absolution Denied",
-                "type": "Ultimate",
-                "desc": "Deals Physical DMG equal to 200% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 144% of Evanescia's ATK to one random enemy.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Ultra.webp",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "Deals Physical DMG equal to 80% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 72% of Evanescia's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "Deals Physical DMG equal to 88% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 76.8% of Evanescia's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "Deals Physical DMG equal to 96% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 81.6% of Evanescia's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "Deals Physical DMG equal to 104% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 86.4% of Evanescia's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "Deals Physical DMG equal to 112% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 91.2% of Evanescia's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "Deals Physical DMG equal to 120% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 96% of Evanescia's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "Deals Physical DMG equal to 130% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 102% of Evanescia's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 8",
-                    "text": "Deals Physical DMG equal to 140% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 108% of Evanescia's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 9",
-                    "text": "Deals Physical DMG equal to 150% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 114% of Evanescia's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 10",
-                    "text": "Deals Physical DMG equal to 160% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 120% of Evanescia's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 11",
-                    "text": "Deals Physical DMG equal to 168% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 125% of Evanescia's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 12",
-                    "text": "Deals Physical DMG equal to 176% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 130% of Evanescia's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 13",
-                    "text": "Deals Physical DMG equal to 184% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 134% of Evanescia's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 14",
-                    "text": "Deals Physical DMG equal to 192% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 139% of Evanescia's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 15",
-                    "text": "Deals Physical DMG equal to 200% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 144% of Evanescia's ATK to one random enemy."
-                  }
-                ]
-              },
-              {
-                "name": "Petalfall: Floral Reminiscence",
-                "type": "Technique Attack",
-                "desc": "Immediately attacks all enemies within a certain range. After entering combat, deals Physical DMG equal to 100% of Evanescia's ATK to all enemies and gains 20 point(s) of \"Certified Banger.\"",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Maze.webp"
-              },
-              {
-                "name": "Attack",
-                "type": "Technique Attack",
-                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
-              },
-              {
-                "name": "Youth: Halcyon Evermore",
-                "type": "Talent",
-                "desc": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 125% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 20% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 30% Physical Elation DMG to all enemies and also deals 35% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 31.3% Physical Elation DMG to all enemies.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Passive.webp",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 50% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 8% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 12% Physical Elation DMG to all enemies and also deals 14% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 12.5% Physical Elation DMG to all enemies."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 55% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 8.8% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 13.2% Physical Elation DMG to all enemies and also deals 15.4% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 13.8% Physical Elation DMG to all enemies."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 60% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 9.6% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 14.4% Physical Elation DMG to all enemies and also deals 16.8% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 15% Physical Elation DMG to all enemies."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 65% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 10.4% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 15.6% Physical Elation DMG to all enemies and also deals 18.2% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 16.3% Physical Elation DMG to all enemies."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 70% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 11.2% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 16.8% Physical Elation DMG to all enemies and also deals 19.6% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 17.5% Physical Elation DMG to all enemies."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 75% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 12% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 18% Physical Elation DMG to all enemies and also deals 21% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 18.8% Physical Elation DMG to all enemies."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 81.3% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 13% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 19.5% Physical Elation DMG to all enemies and also deals 22.8% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 20.3% Physical Elation DMG to all enemies."
-                  },
-                  {
-                    "label": "Lv. 8",
-                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 87.5% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 14% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 21% Physical Elation DMG to all enemies and also deals 24.5% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 21.9% Physical Elation DMG to all enemies."
-                  },
-                  {
-                    "label": "Lv. 9",
-                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 93.8% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 15% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 22.5% Physical Elation DMG to all enemies and also deals 26.3% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 23.4% Physical Elation DMG to all enemies."
-                  },
-                  {
-                    "label": "Lv. 10",
-                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 100% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 16% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 24% Physical Elation DMG to all enemies and also deals 28% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 25% Physical Elation DMG to all enemies."
-                  },
-                  {
-                    "label": "Lv. 11",
-                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 105% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 16.8% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 25.2% Physical Elation DMG to all enemies and also deals 29.4% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 26.3% Physical Elation DMG to all enemies."
-                  },
-                  {
-                    "label": "Lv. 12",
-                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 110% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 17.6% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 26.4% Physical Elation DMG to all enemies and also deals 30.8% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 27.5% Physical Elation DMG to all enemies."
-                  },
-                  {
-                    "label": "Lv. 13",
-                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 115% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 18.4% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 27.6% Physical Elation DMG to all enemies and also deals 32.2% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 28.7% Physical Elation DMG to all enemies."
-                  },
-                  {
-                    "label": "Lv. 14",
-                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 120% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 19.2% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 28.8% Physical Elation DMG to all enemies and also deals 33.6% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 30% Physical Elation DMG to all enemies."
-                  },
-                  {
-                    "label": "Lv. 15",
-                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 125% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 20% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 30% Physical Elation DMG to all enemies and also deals 35% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 31.3% Physical Elation DMG to all enemies."
-                  }
-                ]
-              },
-              {
-                "name": "Scarlet: Elation or Execution",
-                "type": "Elation Skill",
-                "desc": "Deals 138% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\".",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Elation.webp",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "Deals 55% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "Deals 60.5% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "Deals 66% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "Deals 71.5% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "Deals 77% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "Deals 82.5% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "Deals 89.4% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
-                  },
-                  {
-                    "label": "Lv. 8",
-                    "text": "Deals 96.3% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
-                  },
-                  {
-                    "label": "Lv. 9",
-                    "text": "Deals 103% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
-                  },
-                  {
-                    "label": "Lv. 10",
-                    "text": "Deals 110% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
-                  },
-                  {
-                    "label": "Lv. 11",
-                    "text": "Deals 116% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
-                  },
-                  {
-                    "label": "Lv. 12",
-                    "text": "Deals 121% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
-                  },
-                  {
-                    "label": "Lv. 13",
-                    "text": "Deals 126% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
-                  },
-                  {
-                    "label": "Lv. 14",
-                    "text": "Deals 132% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
-                  },
-                  {
-                    "label": "Lv. 15",
-                    "text": "Deals 138% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Major Traces",
-            "entries": [
-              {
-                "name": "Watch All Revels",
-                "type": "Major Trace",
-                "desc": "Increases Evanescia's CRIT Rate by 30%. When there are (\u22653)/2/1 enemy target(s) on the field, the Ultimate's bounce count increases by 1/2/4. When a teammate with an Elation Skill Participant ID lower than Evanescia's gains \"Certified Banger,\" Evanescia converts 50% of it into her own \"Certified Banger.\"",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_SkillTree1.webp"
-              },
-              {
-                "name": "Weigh All Truths",
-                "type": "Major Trace",
-                "desc": "When \"Master Fox\" uses an attack, it additionally inflicts Vulnerability on the target, increasing the DMG they take by 12% for 3 turn(s).",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_SkillTree2.webp"
-              },
-              {
-                "name": "Best All Blooms",
-                "type": "Major Trace",
-                "desc": "When a teammate's \"Certified Banger\" ends, Evanescia converts 50% of it into her own \"Certified Banger.\"",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_SkillTree3.webp"
-              }
-            ]
-          },
-          {
-            "title": "Eidolons",
-            "entries": [
-              {
-                "name": "Home: A Prayer in Dance",
-                "type": "Eidolon 1",
-                "desc": "Increases All-Type RES PEN by 20%. After \"Master Fox\" uses an attack, additionally triggers 1 instance of Elation Skill. Elation Skill additionally grants this unit 10 \"Certified Banger\" point(s).",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Rank1.webp"
-              },
-              {
-                "name": "Voyage: A Wish for Everbloom",
-                "type": "Eidolon 2",
-                "desc": "CRIT DMG increases by 36%. When triggering the Certified Banger gain effect from the Trace \"Watch All Revels\"/\"Best All Blooms\", additionally gains \"Certified Banger\" equal to 50%/100% of the \"Certified Banger\" gained this time.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Rank2.webp"
-              },
-              {
-                "name": "Blade: A Feast on Evils",
-                "type": "Eidolon 3",
-                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\\nElation Skill Lv. +1, up to a maximum of Lv. 15.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Ultra.webp"
-              },
-              {
-                "name": "Meadow: A Ruin by Vice",
-                "type": "Eidolon 4",
-                "desc": "Evanescia's DMG dealt ignores 15% of the enemy targets' DEF.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Rank4.webp"
-              },
-              {
-                "name": "Arcadia: A Glimpse of Fates",
-                "type": "Eidolon 5",
-                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.\\nElation Skill Lv. +1, up to a maximum of Lv. 15.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_BP.webp"
-              },
-              {
-                "name": "Maiden: A Step into Dreams",
-                "type": "Eidolon 6",
-                "desc": "The duration of Evanescia's \"Certified Banger\" increases by 1 turn(s). The Elation DMG dealt by Evanescia merrymakes by 15%. For every 100 points of \"Certified Banger\" held, it additionally merrymakes by 2%. Up to 1000 points of \"Certified Banger\" can be taken into account. After using Ultimate for the first time upon entering combat, regenerates a fixed amount of 120 Energy for Evanescia. This effect can trigger 1 time for every 4 more instances of Ultimate used.",
-                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Rank6.webp"
-              }
-            ]
-          }
-        ]
-      },
-      "req": {
-        "ascension": [
-          {
-            "id": "110431",
-            "name": "Invasive Clot",
-            "qty": 65,
-            "rar": 5,
-            "kind": "boss",
-            "icon": "../../Database/Nanoka/hsr/assets/items/110431.webp"
-          },
-          {
-            "id": "116001",
-            "name": "Whimsy Wax",
-            "qty": 15,
-            "rar": 2,
-            "kind": "mob",
-            "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
-          },
-          {
-            "id": "116002",
-            "name": "Dreamweave Steel",
-            "qty": 15,
-            "rar": 3,
-            "kind": "mob",
-            "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-          },
-          {
-            "id": "116003",
-            "name": "Lucid Awl",
-            "qty": 15,
-            "rar": 5,
-            "kind": "mob",
-            "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
-          }
-        ],
-        "talents": [
-          {
-            "id": "116001",
-            "name": "Whimsy Wax",
-            "qty": 41,
-            "rar": 2,
-            "kind": "mob",
-            "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
-          },
-          {
-            "id": "116002",
-            "name": "Dreamweave Steel",
-            "qty": 56,
-            "rar": 3,
-            "kind": "mob",
-            "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-          },
-          {
-            "id": "116003",
-            "name": "Lucid Awl",
-            "qty": 58,
-            "rar": 5,
-            "kind": "mob",
-            "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
-          },
-          {
-            "id": "241",
-            "name": "Tracks of Destiny",
-            "qty": 8,
-            "rar": 4,
-            "kind": "mob",
-            "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
-          },
-          {
-            "id": "110261",
-            "name": "The Fluffy Hand-drawn Storyboards",
-            "qty": 18,
-            "rar": 2,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
-          },
-          {
-            "id": "110262",
-            "name": "The Fluffy Serialization Memorial Issue",
-            "qty": 69,
-            "rar": 3,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-          },
-          {
-            "id": "110263",
-            "name": "The Fluffy Collector's Edition",
-            "qty": 139,
-            "rar": 5,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-          },
-          {
-            "id": "110508",
-            "name": "...",
-            "qty": 12,
-            "rar": 5,
-            "kind": "weekly",
-            "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
-          }
-        ],
-        "talentStages": [
-          [
-            {
-              "cost": 4000,
-              "items": [
-                {
-                  "id": "110261",
-                  "name": "The Fluffy Hand-drawn Storyboards",
-                  "qty": 2,
-                  "rar": 2,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
-                },
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 5,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 8000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 16000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 32000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 3,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 120000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 5,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 2,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 4000,
-              "items": [
-                {
-                  "id": "110261",
-                  "name": "The Fluffy Hand-drawn Storyboards",
-                  "qty": 3,
-                  "rar": 2,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
-                },
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 5,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 8000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 15000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 24000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 5,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 32000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 65000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "...",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 120000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 6,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "...",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
-                }
-              ]
-            },
-            {
-              "cost": 250000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 12,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "...",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 2,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 4000,
-              "items": [
-                {
-                  "id": "110261",
-                  "name": "The Fluffy Hand-drawn Storyboards",
-                  "qty": 3,
-                  "rar": 2,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
-                },
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 5,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 8000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 15000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 24000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 5,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 32000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 65000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "...",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 120000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 6,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "...",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
-                }
-              ]
-            },
-            {
-              "cost": 250000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 12,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "...",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 2,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 4000,
-              "items": [
-                {
-                  "id": "110261",
-                  "name": "The Fluffy Hand-drawn Storyboards",
-                  "qty": 3,
-                  "rar": 2,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
-                },
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 5,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 8000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 15000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 24000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 5,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 32000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 65000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "...",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 120000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 6,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "...",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
-                }
-              ]
-            },
-            {
-              "cost": 250000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 12,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "...",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
-                }
-              ]
-            }
-          ]
-        ],
-        "talentBase": [
-          {
-            "id": "116001",
-            "name": "Whimsy Wax",
-            "qty": 15,
-            "rar": 2,
-            "kind": "mob",
-            "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
-          },
-          {
-            "id": "116002",
-            "name": "Dreamweave Steel",
-            "qty": 18,
-            "rar": 3,
-            "kind": "mob",
-            "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-          },
-          {
-            "id": "116003",
-            "name": "Lucid Awl",
-            "qty": 36,
-            "rar": 5,
-            "kind": "mob",
-            "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
-          },
-          {
-            "id": "241",
-            "name": "Tracks of Destiny",
-            "qty": 2,
-            "rar": 4,
-            "kind": "mob",
-            "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
-          },
-          {
-            "id": "110261",
-            "name": "The Fluffy Hand-drawn Storyboards",
-            "qty": 7,
-            "rar": 2,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
-          },
-          {
-            "id": "110262",
-            "name": "The Fluffy Serialization Memorial Issue",
-            "qty": 28,
-            "rar": 3,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-          },
-          {
-            "id": "110263",
-            "name": "The Fluffy Collector's Edition",
-            "qty": 59,
-            "rar": 5,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-          },
-          {
-            "id": "110508",
-            "name": "...",
-            "qty": 3,
-            "rar": 5,
-            "kind": "weekly",
-            "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
-          }
-        ],
-        "talentBaseCost": 1260000,
-        "ascCost": 308000,
-        "talentCost": 3000000,
-        "currency": 3693000,
-        "weapon": {
-          "name": "Until the Flowers Bloom Again",
-          "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/23058.webp",
-          "art": "../../Database/Nanoka/hsr/assets/lightcones/full/23058.webp",
-          "path": "Elation",
-          "items": [
-            {
-              "id": "116001",
-              "name": "Whimsy Wax",
-              "qty": 20,
-              "rar": 2,
-              "kind": "mob",
-              "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
-            },
-            {
-              "id": "116002",
-              "name": "Dreamweave Steel",
-              "qty": 20,
-              "rar": 3,
-              "kind": "mob",
-              "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-            },
-            {
-              "id": "116003",
-              "name": "Lucid Awl",
-              "qty": 14,
-              "rar": 5,
-              "kind": "mob",
-              "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
-            },
-            {
-              "id": "110261",
-              "name": "The Fluffy Hand-drawn Storyboards",
-              "qty": 4,
-              "rar": 2,
-              "kind": "book",
-              "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
-            },
-            {
-              "id": "110262",
-              "name": "The Fluffy Serialization Memorial Issue",
-              "qty": 12,
-              "rar": 3,
-              "kind": "book",
-              "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-            },
-            {
-              "id": "110263",
-              "name": "The Fluffy Collector's Edition",
-              "qty": 15,
-              "rar": 5,
-              "kind": "book",
-              "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-            }
-          ],
-          "cost": 385000
-        }
-      },
-      "recent": 1,
-      "betaStatus": "changed"
-    },
-    {
       "id": "hsr-himeko-nova",
       "n": "Himeko Nova",
       "localizedNames": {
@@ -1446,7 +23,7 @@
       },
       "title": "Ad Astra Nova",
       "slug": "himeko-nova",
-      "updated": 1782252000000,
+      "updated": 1783461600000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1510.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/himeko-nova-4191fdac6ee2.webp",
@@ -3117,6 +1694,1429 @@
               "rar": 5,
               "kind": "mob",
               "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+            }
+          ],
+          "cost": 385000
+        }
+      },
+      "recent": 1,
+      "betaStatus": "changed"
+    },
+    {
+      "id": "hsr-evanescia",
+      "n": "Evanescia",
+      "localizedNames": {
+        "en": "Evanescia",
+        "zh": "\u7eef\u82f1",
+        "ja": "\u7dcb\u82f1",
+        "ko": "\uc5d0\ubc14\ub124\uc2dc\uc544"
+      },
+      "title": "The Demoiselle in Charge",
+      "slug": "evanescia",
+      "release": 1778662800000,
+      "releasePatch": "4.2",
+      "updated": 1782252000000,
+      "sourceOrder": 0,
+      "voiceActors": {
+        "english": "imdb:nm11116720|Nathalie Ferare",
+        "japanese": "Ayane Sakura|Sakura Ayane (\u4f50\u5009 \u7dbe\u97f3)",
+        "chinese": "https://zh.moegirl.org.cn/\u6eaf\u6d54|Suxun (\u6eaf\u6d54)",
+        "korean": "https://namu.wiki/w/\ubb38\uc720\uc815|Moon Yoo-jeong (\ubb38\uc720\uc815)"
+      },
+      "icon": "../../Database/Nanoka/hsr/assets/characters/round/1505.webp",
+      "art": "../../Database/Prydwen/hsr/assets/characters/evanescia-67e58c4745c7.webp",
+      "card": "../../Database/Prydwen/hsr/assets/characters/evanescia-7567d1297c5d.webp",
+      "signatureLightCone": {
+        "id": "23058",
+        "name": "Until the Flowers Bloom Again",
+        "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/23058.webp",
+        "art": "../../Database/Nanoka/hsr/assets/lightcones/full/23058.webp",
+        "path": "Elation"
+      },
+      "signatureWeapon": {
+        "id": "23058",
+        "name": "Until the Flowers Bloom Again",
+        "path": "Elation",
+        "educated": false
+      },
+      "signatureWeaponId": "23058",
+      "signatureWeaponName": "Until the Flowers Bloom Again",
+      "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/23058.webp",
+      "overviewArtPool": [
+        "../../Database/Nanoka/hsr/assets/lightcones/full/23058.webp"
+      ],
+      "status": "live",
+      "labels": [],
+      "r": 5,
+      "el": "Physical",
+      "path": "Elation",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Passive.webp"
+      ],
+      "kit": {
+        "source": "Nanoka",
+        "channel": "beta",
+        "version": "4.3.56",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Syllabus: Pop Quiz",
+                "type": "Basic ATK",
+                "desc": "Deals Physical DMG equal to 140% of Evanescia's ATK to one designated enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Normal.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Physical DMG equal to 50% of Evanescia's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Physical DMG equal to 60% of Evanescia's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Physical DMG equal to 70% of Evanescia's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Physical DMG equal to 80% of Evanescia's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Physical DMG equal to 90% of Evanescia's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Physical DMG equal to 100% of Evanescia's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Physical DMG equal to 110% of Evanescia's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Physical DMG equal to 120% of Evanescia's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Physical DMG equal to 130% of Evanescia's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Physical DMG equal to 140% of Evanescia's ATK to one designated enemy."
+                  }
+                ]
+              },
+              {
+                "name": "Discipline: Final Verdict",
+                "type": "Skill",
+                "desc": "Deals Physical DMG equal to 375% of Evanescia's ATK to one designated enemy and Physical DMG equal to 188% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_BP.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Physical DMG equal to 150% of Evanescia's ATK to one designated enemy and Physical DMG equal to 75% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Physical DMG equal to 165% of Evanescia's ATK to one designated enemy and Physical DMG equal to 82.5% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Physical DMG equal to 180% of Evanescia's ATK to one designated enemy and Physical DMG equal to 90% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Physical DMG equal to 195% of Evanescia's ATK to one designated enemy and Physical DMG equal to 97.5% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Physical DMG equal to 210% of Evanescia's ATK to one designated enemy and Physical DMG equal to 105% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Physical DMG equal to 225% of Evanescia's ATK to one designated enemy and Physical DMG equal to 113% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Physical DMG equal to 244% of Evanescia's ATK to one designated enemy and Physical DMG equal to 122% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Physical DMG equal to 263% of Evanescia's ATK to one designated enemy and Physical DMG equal to 131% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Physical DMG equal to 281% of Evanescia's ATK to one designated enemy and Physical DMG equal to 141% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Physical DMG equal to 300% of Evanescia's ATK to one designated enemy and Physical DMG equal to 150% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Deals Physical DMG equal to 315% of Evanescia's ATK to one designated enemy and Physical DMG equal to 158% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Deals Physical DMG equal to 330% of Evanescia's ATK to one designated enemy and Physical DMG equal to 165% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Deals Physical DMG equal to 345% of Evanescia's ATK to one designated enemy and Physical DMG equal to 173% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Deals Physical DMG equal to 360% of Evanescia's ATK to one designated enemy and Physical DMG equal to 180% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Deals Physical DMG equal to 375% of Evanescia's ATK to one designated enemy and Physical DMG equal to 188% of Evanescia's ATK to adjacent targets. Additionally gains 10 Punchline."
+                  }
+                ]
+              },
+              {
+                "name": "Swordsong: Absolution Denied",
+                "type": "Ultimate",
+                "desc": "Deals Physical DMG equal to 200% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 144% of Evanescia's ATK to one random enemy.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Ultra.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Physical DMG equal to 80% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 72% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Physical DMG equal to 88% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 76.8% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Physical DMG equal to 96% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 81.6% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Physical DMG equal to 104% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 86.4% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Physical DMG equal to 112% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 91.2% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Physical DMG equal to 120% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 96% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Physical DMG equal to 130% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 102% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Physical DMG equal to 140% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 108% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Physical DMG equal to 150% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 114% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Physical DMG equal to 160% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 120% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Deals Physical DMG equal to 168% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 125% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Deals Physical DMG equal to 176% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 130% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Deals Physical DMG equal to 184% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 134% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Deals Physical DMG equal to 192% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 139% of Evanescia's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Deals Physical DMG equal to 200% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to 144% of Evanescia's ATK to one random enemy."
+                  }
+                ]
+              },
+              {
+                "name": "Petalfall: Floral Reminiscence",
+                "type": "Technique Attack",
+                "desc": "Immediately attacks all enemies within a certain range. After entering combat, deals Physical DMG equal to 100% of Evanescia's ATK to all enemies and gains 20 point(s) of \"Certified Banger.\"",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "Technique Attack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Youth: Halcyon Evermore",
+                "type": "Talent",
+                "desc": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 125% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 20% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 30% Physical Elation DMG to all enemies and also deals 35% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 31.3% Physical Elation DMG to all enemies.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 50% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 8% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 12% Physical Elation DMG to all enemies and also deals 14% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 12.5% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 55% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 8.8% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 13.2% Physical Elation DMG to all enemies and also deals 15.4% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 13.8% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 60% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 9.6% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 14.4% Physical Elation DMG to all enemies and also deals 16.8% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 15% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 65% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 10.4% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 15.6% Physical Elation DMG to all enemies and also deals 18.2% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 16.3% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 70% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 11.2% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 16.8% Physical Elation DMG to all enemies and also deals 19.6% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 17.5% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 75% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 12% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 18% Physical Elation DMG to all enemies and also deals 21% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 18.8% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 81.3% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 13% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 19.5% Physical Elation DMG to all enemies and also deals 22.8% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 20.3% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 87.5% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 14% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 21% Physical Elation DMG to all enemies and also deals 24.5% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 21.9% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 93.8% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 15% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 22.5% Physical Elation DMG to all enemies and also deals 26.3% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 23.4% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 100% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 16% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 24% Physical Elation DMG to all enemies and also deals 28% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 25% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 105% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 16.8% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 25.2% Physical Elation DMG to all enemies and also deals 29.4% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 26.3% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 110% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 17.6% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 26.4% Physical Elation DMG to all enemies and also deals 30.8% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 27.5% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 115% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 18.4% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 27.6% Physical Elation DMG to all enemies and also deals 32.2% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 28.7% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 120% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 19.2% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 28.8% Physical Elation DMG to all enemies and also deals 33.6% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 30% Physical Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Evanescia gains Elation equal to 20% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\\nAfter accumulating 240 Energy, she consumes this accumulation of 240, and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to 125% of Evanescia's ATK to all enemies, and regenerates 10 Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of 240. While Evanescia holds \"Certified Banger\":\\nUsing Skill can deal 20% Physical Elation DMG to the attacked enemy targets.\\nUsing Ultimate can deal 30% Physical Elation DMG to all enemies and also deals 35% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\\nMaster Fox's Follow-Up ATK deals 31.3% Physical Elation DMG to all enemies."
+                  }
+                ]
+              },
+              {
+                "name": "Scarlet: Elation or Execution",
+                "type": "Elation Skill",
+                "desc": "Deals 138% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\".",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Elation.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals 55% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals 60.5% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals 66% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals 71.5% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals 77% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals 82.5% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals 89.4% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals 96.3% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals 103% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals 110% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Deals 116% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Deals 121% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Deals 126% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Deals 132% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Deals 138% Physical Elation DMG to all enemies and additionally gains 5 point(s) of \"Certified Banger\"."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Watch All Revels",
+                "type": "Major Trace",
+                "desc": "Increases Evanescia's CRIT Rate by 30%. When there are (\u22653)/2/1 enemy target(s) on the field, the Ultimate's bounce count increases by 1/2/4. When a teammate with an Elation Skill Participant ID lower than Evanescia's gains \"Certified Banger,\" Evanescia converts 50% of it into her own \"Certified Banger.\"",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_SkillTree1.webp"
+              },
+              {
+                "name": "Weigh All Truths",
+                "type": "Major Trace",
+                "desc": "When \"Master Fox\" uses an attack, it additionally inflicts Vulnerability on the target, increasing the DMG they take by 12% for 3 turn(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_SkillTree2.webp"
+              },
+              {
+                "name": "Best All Blooms",
+                "type": "Major Trace",
+                "desc": "When a teammate's \"Certified Banger\" ends, Evanescia converts 50% of it into her own \"Certified Banger.\"",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Home: A Prayer in Dance",
+                "type": "Eidolon 1",
+                "desc": "Increases All-Type RES PEN by 20%. After \"Master Fox\" uses an attack, additionally triggers 1 instance of Elation Skill. Elation Skill additionally grants this unit 10 \"Certified Banger\" point(s).",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Rank1.webp"
+              },
+              {
+                "name": "Voyage: A Wish for Everbloom",
+                "type": "Eidolon 2",
+                "desc": "CRIT DMG increases by 36%. When triggering the Certified Banger gain effect from the Trace \"Watch All Revels\"/\"Best All Blooms\", additionally gains \"Certified Banger\" equal to 50%/100% of the \"Certified Banger\" gained this time.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Rank2.webp"
+              },
+              {
+                "name": "Blade: A Feast on Evils",
+                "type": "Eidolon 3",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\\nElation Skill Lv. +1, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Ultra.webp"
+              },
+              {
+                "name": "Meadow: A Ruin by Vice",
+                "type": "Eidolon 4",
+                "desc": "Evanescia's DMG dealt ignores 15% of the enemy targets' DEF.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Rank4.webp"
+              },
+              {
+                "name": "Arcadia: A Glimpse of Fates",
+                "type": "Eidolon 5",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\\nTalent Lv. +2, up to a maximum of Lv. 15.\\nElation Skill Lv. +1, up to a maximum of Lv. 15.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_BP.webp"
+              },
+              {
+                "name": "Maiden: A Step into Dreams",
+                "type": "Eidolon 6",
+                "desc": "The duration of Evanescia's \"Certified Banger\" increases by 1 turn(s). The Elation DMG dealt by Evanescia merrymakes by 15%. For every 100 points of \"Certified Banger\" held, it additionally merrymakes by 2%. Up to 1000 points of \"Certified Banger\" can be taken into account. After using Ultimate for the first time upon entering combat, regenerates a fixed amount of 120 Energy for Evanescia. This effect can trigger 1 time for every 4 more instances of Ultimate used.",
+                "icon": "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
+      "req": {
+        "ascension": [
+          {
+            "id": "110431",
+            "name": "Invasive Clot",
+            "qty": 65,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110431.webp"
+          },
+          {
+            "id": "116001",
+            "name": "Whimsy Wax",
+            "qty": 15,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+          },
+          {
+            "id": "116002",
+            "name": "Dreamweave Steel",
+            "qty": 15,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+          },
+          {
+            "id": "116003",
+            "name": "Lucid Awl",
+            "qty": 15,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+          }
+        ],
+        "talents": [
+          {
+            "id": "116001",
+            "name": "Whimsy Wax",
+            "qty": 41,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+          },
+          {
+            "id": "116002",
+            "name": "Dreamweave Steel",
+            "qty": 56,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+          },
+          {
+            "id": "116003",
+            "name": "Lucid Awl",
+            "qty": 58,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+          },
+          {
+            "id": "241",
+            "name": "Tracks of Destiny",
+            "qty": 8,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
+          },
+          {
+            "id": "110261",
+            "name": "The Fluffy Hand-drawn Storyboards",
+            "qty": 18,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
+          },
+          {
+            "id": "110262",
+            "name": "The Fluffy Serialization Memorial Issue",
+            "qty": 69,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+          },
+          {
+            "id": "110263",
+            "name": "The Fluffy Collector's Edition",
+            "qty": 139,
+            "rar": 5,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+          },
+          {
+            "id": "110508",
+            "name": "...",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+          }
+        ],
+        "talentStages": [
+          [
+            {
+              "cost": 4000,
+              "items": [
+                {
+                  "id": "110261",
+                  "name": "The Fluffy Hand-drawn Storyboards",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
+                },
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 5,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 8000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 16000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 32000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 120000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 5,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 4000,
+              "items": [
+                {
+                  "id": "110261",
+                  "name": "The Fluffy Hand-drawn Storyboards",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
+                },
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 5,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 8000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 15000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 24000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 32000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 65000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 120000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 6,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+                }
+              ]
+            },
+            {
+              "cost": 250000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 12,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 4000,
+              "items": [
+                {
+                  "id": "110261",
+                  "name": "The Fluffy Hand-drawn Storyboards",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
+                },
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 5,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 8000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 15000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 24000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 32000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 65000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 120000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 6,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+                }
+              ]
+            },
+            {
+              "cost": 250000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 12,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 4000,
+              "items": [
+                {
+                  "id": "110261",
+                  "name": "The Fluffy Hand-drawn Storyboards",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
+                },
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 5,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 8000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 15000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 24000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 32000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 65000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 120000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 6,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+                }
+              ]
+            },
+            {
+              "cost": 250000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 12,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+                }
+              ]
+            }
+          ]
+        ],
+        "talentBase": [
+          {
+            "id": "116001",
+            "name": "Whimsy Wax",
+            "qty": 15,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+          },
+          {
+            "id": "116002",
+            "name": "Dreamweave Steel",
+            "qty": 18,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+          },
+          {
+            "id": "116003",
+            "name": "Lucid Awl",
+            "qty": 36,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+          },
+          {
+            "id": "241",
+            "name": "Tracks of Destiny",
+            "qty": 2,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
+          },
+          {
+            "id": "110261",
+            "name": "The Fluffy Hand-drawn Storyboards",
+            "qty": 7,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
+          },
+          {
+            "id": "110262",
+            "name": "The Fluffy Serialization Memorial Issue",
+            "qty": 28,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+          },
+          {
+            "id": "110263",
+            "name": "The Fluffy Collector's Edition",
+            "qty": 59,
+            "rar": 5,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+          },
+          {
+            "id": "110508",
+            "name": "...",
+            "qty": 3,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+          }
+        ],
+        "talentBaseCost": 1260000,
+        "ascCost": 308000,
+        "talentCost": 3000000,
+        "currency": 3693000,
+        "weapon": {
+          "name": "Until the Flowers Bloom Again",
+          "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/23058.webp",
+          "art": "../../Database/Nanoka/hsr/assets/lightcones/full/23058.webp",
+          "path": "Elation",
+          "items": [
+            {
+              "id": "116001",
+              "name": "Whimsy Wax",
+              "qty": 20,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+            },
+            {
+              "id": "116002",
+              "name": "Dreamweave Steel",
+              "qty": 20,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+            },
+            {
+              "id": "116003",
+              "name": "Lucid Awl",
+              "qty": 14,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+            },
+            {
+              "id": "110261",
+              "name": "The Fluffy Hand-drawn Storyboards",
+              "qty": 4,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
+            },
+            {
+              "id": "110262",
+              "name": "The Fluffy Serialization Memorial Issue",
+              "qty": 12,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+            },
+            {
+              "id": "110263",
+              "name": "The Fluffy Collector's Edition",
+              "qty": 15,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
             }
           ],
           "cost": 385000
@@ -6027,7 +6027,6 @@
           "cost": 385000
         }
       },
-      "recent": 1,
       "betaStatus": "changed"
     },
     {

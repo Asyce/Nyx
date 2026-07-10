@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T23:22:14.657Z",
+  "generatedAt": "2026-07-08T20:47:39.909Z",
   "note": "Generic shops, crafting, exchanges, and event rewards are intentionally filtered. Rows here need scraper/wiki-specific source data.",
   "count": 206,
   "missing": [
@@ -1321,14 +1321,14 @@
     },
     {
       "game": "zzz",
-      "context": "Aria weapon",
+      "context": "Velina weapon",
       "id": "101012",
       "name": "Anomaly Component",
       "kind": "mob"
     },
     {
       "game": "zzz",
-      "context": "Orphie & Magus weapon",
+      "context": "Pyrois weapon",
       "id": "101010",
       "name": "Attack Component",
       "kind": "mob"
@@ -1342,14 +1342,14 @@
     },
     {
       "game": "zzz",
-      "context": "Aria weapon",
+      "context": "Velina weapon",
       "id": "101022",
       "name": "Reinforced Anomaly Component",
       "kind": "mob"
     },
     {
       "game": "zzz",
-      "context": "Orphie & Magus weapon",
+      "context": "Pyrois weapon",
       "id": "101020",
       "name": "Reinforced Attack Component",
       "kind": "mob"
@@ -1370,7 +1370,7 @@
     },
     {
       "game": "zzz",
-      "context": "Nangong Yu weapon",
+      "context": "Norma weapon",
       "id": "101021",
       "name": "Reinforced Stun Component",
       "kind": "mob"
@@ -1391,14 +1391,14 @@
     },
     {
       "game": "zzz",
-      "context": "Aria weapon",
+      "context": "Velina weapon",
       "id": "101032",
       "name": "Specialized Anomaly Component",
       "kind": "mob"
     },
     {
       "game": "zzz",
-      "context": "Orphie & Magus weapon",
+      "context": "Pyrois weapon",
       "id": "101030",
       "name": "Specialized Attack Component",
       "kind": "mob"
@@ -1419,7 +1419,7 @@
     },
     {
       "game": "zzz",
-      "context": "Nangong Yu weapon",
+      "context": "Norma weapon",
       "id": "101031",
       "name": "Specialized Stun Component",
       "kind": "mob"
@@ -1433,7 +1433,7 @@
     },
     {
       "game": "zzz",
-      "context": "Nangong Yu weapon",
+      "context": "Norma weapon",
       "id": "101011",
       "name": "Stun Component",
       "kind": "mob"

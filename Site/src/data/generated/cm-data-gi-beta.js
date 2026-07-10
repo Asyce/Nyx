@@ -7,7 +7,7 @@
 (function(){
   window.CM_CFG_BETA = window.CM_CFG_BETA || {};
   window.CM_CFG_BETA["gi"] = {
-  "version": "6.7.50",
+  "version": "6.7.51",
   "liveVersion": "6.7",
   "newCount": 4,
   "changedCount": 12,
@@ -41,7 +41,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "beta",
-        "version": "6.7.50",
+        "version": "6.7.51",
         "sections": [
           {
             "title": "Talents",
@@ -2720,7 +2720,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "beta",
-        "version": "6.7.50",
+        "version": "6.7.51",
         "sections": [
           {
             "title": "Talents",
@@ -2898,7 +2898,7 @@
               {
                 "name": "Ring-A-Ding-Ding! Hexhunter Chime",
                 "type": "Talent",
-                "desc": "Unleash the wind's might to defeat the evil witch and save Descartes! Prune strikes the Witchlure Bell with her Banehunter Oathhammer, dealing Anemo DMG.\\nIf Prune triggers Swirl or Star Swirl on an opponent using this attack, Ring-A-Ding-Ding! Hexhunter Chime will be changed to Clang Clang! Witch-tribution Comes! for the next 6s.\\n\\nClang Clang! Witch-tribution Comes!\\nPrune's hammer is now enshrouded by the element involved in the previous Swirl reaction, causing Banehunter Oathhammer to undergo Elemental Conversion. When activated with a Press, Prune will leap up and kick the Banehunter Oathhammer forward, dealing Elemental DMG of the corresponding type to opponents in front of her.",
+                "desc": "Determined to take down the \"evil\" witch and save her beloved Descartes, Prune unleashes the power of the wind! She strikes at the Witchlure Bell using her Banehunter Oathhammer, dealing Anemo DMG.\\nIf Prune triggers a Swirl or Stellar Swirl reaction in the opponent with this attack, her Ring-A-Ding-Ding! Hexhunter Chime is changed to Clang Clang! Witch-tribution Comes! for the next 6s.\\n\\nClang Clang! Witch-tribution Comes!\\nEnsconces the Banehunter Oathhammer in the element involved in the earlier Swirl reaction. After tapping to unleash, Prune will launch a midair kick at the Banehunter Oathhammer, dealing DMG to opponents in front of her of the corresponding elemental type.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Prune_01.webp",
                 "scaling": [
                   {
@@ -3123,7 +3123,7 @@
               {
                 "name": "Verdict and Punishment",
                 "type": "Passive Talent",
-                "desc": "During the Elemental Burst The Bell Tolls! The Hunt Is On!, after the Witchlure Bell in Hunter-Seeker mode deals DMG to an opponent, if this DMG triggers Swirl or Astral Swirl on an opponent, it will also summon a Banehunter Oathhammer that will deal 150% of Prune's ATK as DMG to them, with the DMG Type matching the Elemental Conversion from the Swirl. This DMG is considered Elemental Burst DMG."
+                "desc": "During the Elemental Burst The Bell Tolls! The Hunt Is On!, after the Witchlure Bell in Hunter-Seeker mode deals DMG to an opponent, if this DMG triggers Swirl or Stellar Swirl in an opponent, it will also summon a Banehunter Oathhammer that will deal 150% of Prune's ATK as DMG to them, with the DMG Type matching the Elemental Conversion from the Swirl. This DMG is considered Elemental Burst DMG."
               },
               {
                 "name": "Tolling Synchronicity",
@@ -3138,7 +3138,7 @@
               {
                 "name": "Witch's Eve Rite: Witchseeker's Vow",
                 "type": "Passive Talent",
-                "desc": "After completing Witch's Homework: Of What Is Contested, Prune becomes a Hexerei character. When the party includes at least 2 Hexerei characters, you gain the Hexerei: Secret Rite effect, which enhances Hexerei characters.\\n\\nHexerei: Secret Rite\\nAfter a Hexerei character in the party affected by the Tolling Rally effect triggers an Elemental Reaction on an opponent, Prune's ATK is increased by 60% for 5s. If the Elemental Reaction triggered is a Swirl or Astraswirl Reaction, the triggering character's ATK will additionally be increased by 30% for 5s."
+                "desc": "After completing Witch's Homework: Of What Is Contested, Prune becomes a Hexerei character. When the party includes at least 2 Hexerei characters, you gain the Hexerei: Secret Rite effect, which enhances Hexerei characters.\\n\\nHexerei: Secret Rite\\nAfter a Hexerei character in the party affected by the Tolling Rally effect triggers an Elemental Reaction on an opponent, Prune's ATK is increased by 60% for 5s. If the Elemental Reaction triggered is a Swirl or Stellar Swirl reaction, the triggering character's ATK will additionally be increased by 30% for 5s."
               }
             ]
           },
@@ -5299,7 +5299,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "beta",
-        "version": "6.7.50",
+        "version": "6.7.51",
         "sections": [
           {
             "title": "Talents",
@@ -5927,7 +5927,7 @@
               {
                 "name": "Wind's Vanguard",
                 "type": "Passive Talent",
-                "desc": "When nearby party members trigger Swirl or Astral Swirl reaction(s), Varka gains one stack of Azure Fang's Oath, increasing the DMG dealt by his Normal Attacks, Charged Attacks, special Charged Attack Azure Devour and special Elemental Skill Four Winds' Ascension by 7.5% for 8s. Max 4 stacks. Each character can grant Varka with 1 stack of Azure Fang's Oath every second this way."
+                "desc": "When nearby party members trigger a Swirl or Stellar Swirl reaction, Varka gains 1 stack of Azure Fang's Oath, increasing the DMG dealt by his Normal Attacks, Charged Attacks, special Charged Attack Azure Devour and special Elemental Skill Four Winds' Ascension by 7.5% for 8s. Max 4 stacks. Each character can grant Varka with 1 stack of Azure Fang's Oath every second this way."
               },
               {
                 "name": "Homebound Wind's Paean",
@@ -5962,7 +5962,7 @@
               {
                 "name": "\"For None May Take From Us Our Freedom of Song\"",
                 "type": "Constellation 4",
-                "desc": "When Varka triggers a Swirl or Astral Swirl reaction, based on the Elemental Types involved in the reaction, all nearby party members gain a 20% Anemo DMG Bonus and the corresponding Elemental DMG Bonus for 10s."
+                "desc": "When Varka triggers a Swirl or Stellar Swirl reaction, based on the Elemental Types involved in the reaction, all nearby party members gain a 20% Anemo DMG Bonus and the corresponding Elemental DMG Bonus for 10s."
               },
               {
                 "name": "\"Fill High the Cup With Fine Wine, for Tyrants Come and Go\"",
@@ -8101,7 +8101,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "beta",
-        "version": "6.7.50",
+        "version": "6.7.51",
         "sections": [
           {
             "title": "Talents",
@@ -8724,7 +8724,7 @@
               {
                 "name": "Reason Beyond Reason",
                 "type": "Passive Talent",
-                "desc": "When nearby party members trigger Frozen, Superconduct, Stellar-Conduct, Cryo Swirl, Stellar-Swirl, or Cryo Crystallize reactions against opponents, a Void Rift will be created near this opponent. This effect can be triggered once every 2.5s. 3 Void Rifts created by Skirk herself can exist on the field at once.\\n\\nSkirk can use the following methods to absorb nearby Void Rifts:\\n\u00b7 When she hits an opponent with a Charged Attack in her Seven-Phase Flash mode.\\n\u00b7 When she uses the special Elemental Burst Havoc: Extinction while in Seven-Phase Flash mode.\\n\u00b7 When she Holds her Elemental Skill Havoc: Warp to engage in rapid movement.\\n\\nEach Rift absorbed will grant her 8 Serpent's Subtlety points."
+                "desc": "When nearby party members trigger Frozen, Superconduct, Stellar-Conduct, Cryo Swirl, Stellar Swirl, or Cryo Crystallize reactions against opponents, a Void Rift will be created near this opponent. This effect can be triggered once every 2.5s. 3 Void Rifts created by Skirk herself can exist on the field at once.\\n\\nSkirk can use the following methods to absorb nearby Void Rifts:\\n\u00b7 When she hits an opponent with a Charged Attack in her Seven-Phase Flash mode.\\n\u00b7 When she uses the special Elemental Burst Havoc: Extinction while in Seven-Phase Flash mode.\\n\u00b7 When she Holds her Elemental Skill Havoc: Warp to engage in rapid movement.\\n\\nEach Rift absorbed will grant her 8 Serpent's Subtlety points."
               },
               {
                 "name": "Return to Oblivion",
@@ -10243,7 +10243,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "beta",
-        "version": "6.7.50",
+        "version": "6.7.51",
         "sections": [
           {
             "title": "Talents",
@@ -12781,7 +12781,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "beta",
-        "version": "6.7.50",
+        "version": "6.7.51",
         "sections": [
           {
             "title": "Talents",
@@ -14775,7 +14775,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "beta",
-        "version": "6.7.50",
+        "version": "6.7.51",
         "sections": [
           {
             "title": "Talents",
@@ -15358,7 +15358,7 @@
               {
                 "name": "Someone More Capable",
                 "type": "Passive Talent",
-                "desc": "When Sayu triggers a Swirl or Astral Swirl reaction while active, she heals all your characters and nearby allies for 300 HP. She will also heal an additional 1.2 HP for every point of Elemental Mastery she has.\\nThis effect can be triggered once every 2s."
+                "desc": "When Sayu triggers a Swirl or Stellar Swirl reaction while active, she heals all your characters and nearby allies for 300 HP. She will also heal an additional 1.2 HP for every point of Elemental Mastery she has.\\nThis effect can be triggered once every 2s."
               },
               {
                 "name": "No Work Today!",
@@ -15393,7 +15393,7 @@
               {
                 "name": "Skiving: New and Improved",
                 "type": "Constellation 4",
-                "desc": "Sayu recovers 1.2 Elemental Energy when she triggers a Swirl or Star Swirl reaction.\\nThis effect occurs once every 2s."
+                "desc": "Sayu recovers 1.2 Energy when she triggers a Swirl or Stellar Swirl reaction while on-field.\\nThis effect occurs once every 2s."
               },
               {
                 "name": "Speed Comes First",
@@ -17148,7 +17148,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "beta",
-        "version": "6.7.50",
+        "version": "6.7.51",
         "sections": [
           {
             "title": "Talents",
@@ -17636,7 +17636,7 @@
               {
                 "name": "Poetics of Fuubutsu",
                 "type": "Passive Talent",
-                "desc": "Upon triggering a Swirl or Star Swirl reaction, Kaedehara Kazuha will grant all party members a 0.04% Elemental DMG Bonus to the corresponding Element for every point of Elemental Mastery he has for 8s. Bonuses for different elements obtained through this method can co-exist."
+                "desc": "Upon triggering a Swirl or Stellar Swirl reaction, Kaedehara Kazuha will grant all party members a 0.04% Elemental DMG Bonus to the element absorbed by Swirl for every point of Elemental Mastery he has for 8s. Bonuses for different elements obtained through this method can co-exist."
               },
               {
                 "name": "Cloud Strider",
@@ -19819,7 +19819,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "beta",
-        "version": "6.7.50",
+        "version": "6.7.51",
         "sections": [
           {
             "title": "Talents",
@@ -22251,7 +22251,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "beta",
-        "version": "6.7.50",
+        "version": "6.7.51",
         "sections": [
           {
             "title": "Talents",
@@ -25015,7 +25015,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "beta",
-        "version": "6.7.50",
+        "version": "6.7.51",
         "sections": [
           {
             "title": "Talents",
@@ -25533,7 +25533,7 @@
               {
                 "name": "Witch's Eve Rite: Temporal Wind's Eulogy",
                 "type": "Passive Talent",
-                "desc": "After completing Witch's Homework: Of the Waking of Wind, Venti will become a Hexerei character. When the party includes at least 2 Hexerei characters, you will gain the Hexerei: Secret Rite effect, which enhances Hexerei characters.\\n\\nHexerei: Secret Rite\\nWhile the Stormeye created by the Elemental Burst Wind's Grand Ode is active, for 4s after a nearby active character triggers a Swirl or Astral Swirl reaction, that character's DMG is increased by 50%, and Venti's Stormeye deals 135% of its original DMG."
+                "desc": "After completing Witch's Homework: Of the Waking of Wind, Venti will become a Hexerei character. When the party includes at least 2 Hexerei characters, you will gain the Hexerei: Secret Rite effect, which enhances Hexerei characters.\\n\\nHexerei: Secret Rite\\nWhile the Stormeye created by the Elemental Burst Wind's Grand Ode is active, for 4s after a nearby active character triggers a Swirl or Stellar Swirl reaction, that character's DMG is increased by 50%, and Venti's Stormeye deals 135% of its original DMG."
               }
             ]
           },
@@ -27699,7 +27699,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "beta",
-        "version": "6.7.50",
+        "version": "6.7.51",
         "sections": [
           {
             "title": "Talents",
@@ -28102,7 +28102,7 @@
               {
                 "name": "Catalyst Conversion",
                 "type": "Passive Talent",
-                "desc": "When Sucrose triggers a Swirl or Star Swirl reaction, all characters in the party with the matching element (excluding Sucrose) have their Elemental Mastery increased by 50 for 8s."
+                "desc": "When Sucrose triggers a Swirl or Stellar Swirl reaction, all characters in the party with the matching element (excluding Sucrose) have their Elemental Mastery increased by 50 for 8s."
               },
               {
                 "name": "Mollis Favonius",
@@ -29849,7 +29849,7 @@
       "localizedNames": {
         "en": "Odette"
       },
-      "title": "Soaring Winds and Swirling Snow",
+      "title": "Swirling Snow",
       "r": 5,
       "el": "Cryo",
       "w": "Sword",
@@ -29871,7 +29871,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "beta",
-        "version": "6.7.50",
+        "version": "6.7.51",
         "sections": [
           {
             "title": "Talents",
@@ -30550,7 +30550,7 @@
           }
         ]
       },
-      "book": "\"Mercy\"",
+      "book": "Charity",
       "signatureWeapon": {
         "id": "11520",
         "name": "Whitelake Frostfeather",
@@ -30705,66 +30705,66 @@
             "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101275.webp"
           },
           {
-            "id": "112149",
-            "name": "Chimera",
+            "id": "112146",
+            "name": "Ethereal Glimmershard",
             "qty": 18,
             "rar": 1,
             "kind": "mob",
-            "icon": null
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112146.webp"
           },
           {
             "id": "113090",
-            "name": "Ever-Flame Seed",
+            "name": "Unscorched Blossom Branch",
             "qty": 46,
             "rar": 4,
             "kind": "mob",
-            "icon": null
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_113090.webp"
           },
           {
-            "id": "112150",
-            "name": "Symbiotic Chimera Cell",
+            "id": "112147",
+            "name": "Ethereal Crystal",
             "qty": 30,
             "rar": 2,
             "kind": "mob",
-            "icon": null
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112147.webp"
           },
           {
-            "id": "112151",
-            "name": "Primordial Chimera",
+            "id": "112148",
+            "name": "Ethereal Crystalscale Stone",
             "qty": 36,
             "rar": 3,
             "kind": "mob",
-            "icon": null
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112148.webp"
           }
         ],
         "talents": [
           {
-            "id": "112149",
-            "name": "Chimera",
+            "id": "112146",
+            "name": "Ethereal Glimmershard",
             "qty": 18,
             "rar": 1,
             "kind": "mob",
-            "icon": null
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112146.webp"
           },
           {
-            "id": "112150",
-            "name": "Symbiotic Chimera Cell",
+            "id": "112147",
+            "name": "Ethereal Crystal",
             "qty": 66,
             "rar": 2,
             "kind": "mob",
-            "icon": null
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112147.webp"
           },
           {
-            "id": "112151",
-            "name": "Primordial Chimera",
+            "id": "112148",
+            "name": "Ethereal Crystalscale Stone",
             "qty": 93,
             "rar": 3,
             "kind": "mob",
-            "icon": null
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112148.webp"
           },
           {
             "id": "104365",
-            "name": "Philosophies of \"Mercy\"",
+            "name": "Teachings of Charity",
             "qty": 9,
             "rar": 2,
             "kind": "book",
@@ -30772,7 +30772,7 @@
           },
           {
             "id": "104366",
-            "name": "Guide to \"Charity\"",
+            "name": "Guide to Charity",
             "qty": 63,
             "rar": 3,
             "kind": "book",
@@ -30780,7 +30780,7 @@
           },
           {
             "id": "104367",
-            "name": "Philosophy of \"Kindness\"",
+            "name": "Philosophies of Charity",
             "qty": 114,
             "rar": 4,
             "kind": "book",
@@ -30814,16 +30814,16 @@
             {
               "items": [
                 {
-                  "id": "112149",
-                  "name": "Chimera",
+                  "id": "112146",
+                  "name": "Ethereal Glimmershard",
                   "qty": 6,
                   "rar": 1,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112146.webp"
                 },
                 {
                   "id": "104365",
-                  "name": "Philosophies of \"Mercy\"",
+                  "name": "Teachings of Charity",
                   "qty": 3,
                   "rar": 2,
                   "kind": "book",
@@ -30835,16 +30835,16 @@
             {
               "items": [
                 {
-                  "id": "112150",
-                  "name": "Symbiotic Chimera Cell",
+                  "id": "112147",
+                  "name": "Ethereal Crystal",
                   "qty": 3,
                   "rar": 2,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112147.webp"
                 },
                 {
                   "id": "104366",
-                  "name": "Guide to \"Charity\"",
+                  "name": "Guide to Charity",
                   "qty": 2,
                   "rar": 3,
                   "kind": "book",
@@ -30856,16 +30856,16 @@
             {
               "items": [
                 {
-                  "id": "112150",
-                  "name": "Symbiotic Chimera Cell",
+                  "id": "112147",
+                  "name": "Ethereal Crystal",
                   "qty": 4,
                   "rar": 2,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112147.webp"
                 },
                 {
                   "id": "104366",
-                  "name": "Guide to \"Charity\"",
+                  "name": "Guide to Charity",
                   "qty": 4,
                   "rar": 3,
                   "kind": "book",
@@ -30877,16 +30877,16 @@
             {
               "items": [
                 {
-                  "id": "112150",
-                  "name": "Symbiotic Chimera Cell",
+                  "id": "112147",
+                  "name": "Ethereal Crystal",
                   "qty": 6,
                   "rar": 2,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112147.webp"
                 },
                 {
                   "id": "104366",
-                  "name": "Guide to \"Charity\"",
+                  "name": "Guide to Charity",
                   "qty": 6,
                   "rar": 3,
                   "kind": "book",
@@ -30898,16 +30898,16 @@
             {
               "items": [
                 {
-                  "id": "112150",
-                  "name": "Symbiotic Chimera Cell",
+                  "id": "112147",
+                  "name": "Ethereal Crystal",
                   "qty": 9,
                   "rar": 2,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112147.webp"
                 },
                 {
                   "id": "104366",
-                  "name": "Guide to \"Charity\"",
+                  "name": "Guide to Charity",
                   "qty": 9,
                   "rar": 3,
                   "kind": "book",
@@ -30919,16 +30919,16 @@
             {
               "items": [
                 {
-                  "id": "112151",
-                  "name": "Primordial Chimera",
+                  "id": "112148",
+                  "name": "Ethereal Crystalscale Stone",
                   "qty": 4,
                   "rar": 3,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112148.webp"
                 },
                 {
                   "id": "104367",
-                  "name": "Philosophy of \"Kindness\"",
+                  "name": "Philosophies of Charity",
                   "qty": 4,
                   "rar": 4,
                   "kind": "book",
@@ -30954,16 +30954,16 @@
             {
               "items": [
                 {
-                  "id": "112151",
-                  "name": "Primordial Chimera",
+                  "id": "112148",
+                  "name": "Ethereal Crystalscale Stone",
                   "qty": 6,
                   "rar": 3,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112148.webp"
                 },
                 {
                   "id": "104367",
-                  "name": "Philosophy of \"Kindness\"",
+                  "name": "Philosophies of Charity",
                   "qty": 6,
                   "rar": 4,
                   "kind": "book",
@@ -30989,16 +30989,16 @@
             {
               "items": [
                 {
-                  "id": "112151",
-                  "name": "Primordial Chimera",
+                  "id": "112148",
+                  "name": "Ethereal Crystalscale Stone",
                   "qty": 9,
                   "rar": 3,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112148.webp"
                 },
                 {
                   "id": "104367",
-                  "name": "Philosophy of \"Kindness\"",
+                  "name": "Philosophies of Charity",
                   "qty": 12,
                   "rar": 4,
                   "kind": "book",
@@ -31024,16 +31024,16 @@
             {
               "items": [
                 {
-                  "id": "112151",
-                  "name": "Primordial Chimera",
+                  "id": "112148",
+                  "name": "Ethereal Crystalscale Stone",
                   "qty": 12,
                   "rar": 3,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112148.webp"
                 },
                 {
                   "id": "104367",
-                  "name": "Philosophy of \"Kindness\"",
+                  "name": "Philosophies of Charity",
                   "qty": 16,
                   "rar": 4,
                   "kind": "book",
@@ -31069,16 +31069,16 @@
             {
               "items": [
                 {
-                  "id": "112149",
-                  "name": "Chimera",
+                  "id": "112146",
+                  "name": "Ethereal Glimmershard",
                   "qty": 6,
                   "rar": 1,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112146.webp"
                 },
                 {
                   "id": "104365",
-                  "name": "Philosophies of \"Mercy\"",
+                  "name": "Teachings of Charity",
                   "qty": 3,
                   "rar": 2,
                   "kind": "book",
@@ -31090,16 +31090,16 @@
             {
               "items": [
                 {
-                  "id": "112150",
-                  "name": "Symbiotic Chimera Cell",
+                  "id": "112147",
+                  "name": "Ethereal Crystal",
                   "qty": 3,
                   "rar": 2,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112147.webp"
                 },
                 {
                   "id": "104366",
-                  "name": "Guide to \"Charity\"",
+                  "name": "Guide to Charity",
                   "qty": 2,
                   "rar": 3,
                   "kind": "book",
@@ -31111,16 +31111,16 @@
             {
               "items": [
                 {
-                  "id": "112150",
-                  "name": "Symbiotic Chimera Cell",
+                  "id": "112147",
+                  "name": "Ethereal Crystal",
                   "qty": 4,
                   "rar": 2,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112147.webp"
                 },
                 {
                   "id": "104366",
-                  "name": "Guide to \"Charity\"",
+                  "name": "Guide to Charity",
                   "qty": 4,
                   "rar": 3,
                   "kind": "book",
@@ -31132,16 +31132,16 @@
             {
               "items": [
                 {
-                  "id": "112150",
-                  "name": "Symbiotic Chimera Cell",
+                  "id": "112147",
+                  "name": "Ethereal Crystal",
                   "qty": 6,
                   "rar": 2,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112147.webp"
                 },
                 {
                   "id": "104366",
-                  "name": "Guide to \"Charity\"",
+                  "name": "Guide to Charity",
                   "qty": 6,
                   "rar": 3,
                   "kind": "book",
@@ -31153,16 +31153,16 @@
             {
               "items": [
                 {
-                  "id": "112150",
-                  "name": "Symbiotic Chimera Cell",
+                  "id": "112147",
+                  "name": "Ethereal Crystal",
                   "qty": 9,
                   "rar": 2,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112147.webp"
                 },
                 {
                   "id": "104366",
-                  "name": "Guide to \"Charity\"",
+                  "name": "Guide to Charity",
                   "qty": 9,
                   "rar": 3,
                   "kind": "book",
@@ -31174,16 +31174,16 @@
             {
               "items": [
                 {
-                  "id": "112151",
-                  "name": "Primordial Chimera",
+                  "id": "112148",
+                  "name": "Ethereal Crystalscale Stone",
                   "qty": 4,
                   "rar": 3,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112148.webp"
                 },
                 {
                   "id": "104367",
-                  "name": "Philosophy of \"Kindness\"",
+                  "name": "Philosophies of Charity",
                   "qty": 4,
                   "rar": 4,
                   "kind": "book",
@@ -31209,16 +31209,16 @@
             {
               "items": [
                 {
-                  "id": "112151",
-                  "name": "Primordial Chimera",
+                  "id": "112148",
+                  "name": "Ethereal Crystalscale Stone",
                   "qty": 6,
                   "rar": 3,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112148.webp"
                 },
                 {
                   "id": "104367",
-                  "name": "Philosophy of \"Kindness\"",
+                  "name": "Philosophies of Charity",
                   "qty": 6,
                   "rar": 4,
                   "kind": "book",
@@ -31244,16 +31244,16 @@
             {
               "items": [
                 {
-                  "id": "112151",
-                  "name": "Primordial Chimera",
+                  "id": "112148",
+                  "name": "Ethereal Crystalscale Stone",
                   "qty": 9,
                   "rar": 3,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112148.webp"
                 },
                 {
                   "id": "104367",
-                  "name": "Philosophy of \"Kindness\"",
+                  "name": "Philosophies of Charity",
                   "qty": 12,
                   "rar": 4,
                   "kind": "book",
@@ -31279,16 +31279,16 @@
             {
               "items": [
                 {
-                  "id": "112151",
-                  "name": "Primordial Chimera",
+                  "id": "112148",
+                  "name": "Ethereal Crystalscale Stone",
                   "qty": 12,
                   "rar": 3,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112148.webp"
                 },
                 {
                   "id": "104367",
-                  "name": "Philosophy of \"Kindness\"",
+                  "name": "Philosophies of Charity",
                   "qty": 16,
                   "rar": 4,
                   "kind": "book",
@@ -31324,16 +31324,16 @@
             {
               "items": [
                 {
-                  "id": "112149",
-                  "name": "Chimera",
+                  "id": "112146",
+                  "name": "Ethereal Glimmershard",
                   "qty": 6,
                   "rar": 1,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112146.webp"
                 },
                 {
                   "id": "104365",
-                  "name": "Philosophies of \"Mercy\"",
+                  "name": "Teachings of Charity",
                   "qty": 3,
                   "rar": 2,
                   "kind": "book",
@@ -31345,16 +31345,16 @@
             {
               "items": [
                 {
-                  "id": "112150",
-                  "name": "Symbiotic Chimera Cell",
+                  "id": "112147",
+                  "name": "Ethereal Crystal",
                   "qty": 3,
                   "rar": 2,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112147.webp"
                 },
                 {
                   "id": "104366",
-                  "name": "Guide to \"Charity\"",
+                  "name": "Guide to Charity",
                   "qty": 2,
                   "rar": 3,
                   "kind": "book",
@@ -31366,16 +31366,16 @@
             {
               "items": [
                 {
-                  "id": "112150",
-                  "name": "Symbiotic Chimera Cell",
+                  "id": "112147",
+                  "name": "Ethereal Crystal",
                   "qty": 4,
                   "rar": 2,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112147.webp"
                 },
                 {
                   "id": "104366",
-                  "name": "Guide to \"Charity\"",
+                  "name": "Guide to Charity",
                   "qty": 4,
                   "rar": 3,
                   "kind": "book",
@@ -31387,16 +31387,16 @@
             {
               "items": [
                 {
-                  "id": "112150",
-                  "name": "Symbiotic Chimera Cell",
+                  "id": "112147",
+                  "name": "Ethereal Crystal",
                   "qty": 6,
                   "rar": 2,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112147.webp"
                 },
                 {
                   "id": "104366",
-                  "name": "Guide to \"Charity\"",
+                  "name": "Guide to Charity",
                   "qty": 6,
                   "rar": 3,
                   "kind": "book",
@@ -31408,16 +31408,16 @@
             {
               "items": [
                 {
-                  "id": "112150",
-                  "name": "Symbiotic Chimera Cell",
+                  "id": "112147",
+                  "name": "Ethereal Crystal",
                   "qty": 9,
                   "rar": 2,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112147.webp"
                 },
                 {
                   "id": "104366",
-                  "name": "Guide to \"Charity\"",
+                  "name": "Guide to Charity",
                   "qty": 9,
                   "rar": 3,
                   "kind": "book",
@@ -31429,16 +31429,16 @@
             {
               "items": [
                 {
-                  "id": "112151",
-                  "name": "Primordial Chimera",
+                  "id": "112148",
+                  "name": "Ethereal Crystalscale Stone",
                   "qty": 4,
                   "rar": 3,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112148.webp"
                 },
                 {
                   "id": "104367",
-                  "name": "Philosophy of \"Kindness\"",
+                  "name": "Philosophies of Charity",
                   "qty": 4,
                   "rar": 4,
                   "kind": "book",
@@ -31464,16 +31464,16 @@
             {
               "items": [
                 {
-                  "id": "112151",
-                  "name": "Primordial Chimera",
+                  "id": "112148",
+                  "name": "Ethereal Crystalscale Stone",
                   "qty": 6,
                   "rar": 3,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112148.webp"
                 },
                 {
                   "id": "104367",
-                  "name": "Philosophy of \"Kindness\"",
+                  "name": "Philosophies of Charity",
                   "qty": 6,
                   "rar": 4,
                   "kind": "book",
@@ -31499,16 +31499,16 @@
             {
               "items": [
                 {
-                  "id": "112151",
-                  "name": "Primordial Chimera",
+                  "id": "112148",
+                  "name": "Ethereal Crystalscale Stone",
                   "qty": 9,
                   "rar": 3,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112148.webp"
                 },
                 {
                   "id": "104367",
-                  "name": "Philosophy of \"Kindness\"",
+                  "name": "Philosophies of Charity",
                   "qty": 12,
                   "rar": 4,
                   "kind": "book",
@@ -31534,16 +31534,16 @@
             {
               "items": [
                 {
-                  "id": "112151",
-                  "name": "Primordial Chimera",
+                  "id": "112148",
+                  "name": "Ethereal Crystalscale Stone",
                   "qty": 12,
                   "rar": 3,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112148.webp"
                 },
                 {
                   "id": "104367",
-                  "name": "Philosophy of \"Kindness\"",
+                  "name": "Philosophies of Charity",
                   "qty": 16,
                   "rar": 4,
                   "kind": "book",
@@ -31656,7 +31656,7 @@
       "kit": {
         "source": "Nanoka",
         "channel": "beta",
-        "version": "6.7.50",
+        "version": "6.7.51",
         "sections": [
           {
             "title": "Talents",
@@ -31664,7 +31664,7 @@
               {
                 "name": "Skirmishing Spear",
                 "type": "Talent",
-                "desc": "Normal Attack\\nPerforms up to 4 consecutive spear strikes, and applies the Hunter's Mark to the last opponent hit.\\n\\nCharged Attack\\nConsumes a certain amount of Stamina to perform a spinning attack.\\n\\nPlunging Attack\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+                "desc": "Normal Attack\\nPerforms up to 4 consecutive spear strikes, and applies the Hunter's Mark to the opponent hit by the final strike.\\n\\nCharged Attack\\nConsumes a certain amount of Stamina to perform a spinning attack.\\n\\nPlunging Attack\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_A_03.webp",
                 "scaling": [
                   {
@@ -31854,7 +31854,7 @@
               {
                 "name": "Thunderbolt Ambush",
                 "type": "Talent",
-                "desc": "Follows her hunter's instincts. Tap or hold to produce different effects as well as apply to the opponent the Hunter's Mark effect.\\n\\nTapping\\nFires at opponents in front of her, dealing AoE Electro DMG.\\n\\nHolding\\nGoes into aiming mode, then targets opponents within a certain area in front of her. Alyosha's Interruption RES is enhanced when in this mode.\\nAt the end of the button hold, she deals Electro DMG to the targeted opponents.\\n\\nThe reckless hunter once reached for the spear's edge, and it was only after they survived a lesson paid in blood that they came to understand the harsh truths of survival on the frozen plains.",
+                "desc": "Follows his hunter's instincts. Tap or hold to produce different effects as well as apply to the opponent the Hunter's Mark effect.\\n\\nTapping\\nFires at opponents in front of him, dealing AoE Electro DMG.\\n\\nHolding\\nGoes into aiming mode, then targets opponents within a certain area in front of him. Alyosha's Interruption RES is enhanced when in this mode.\\nAt the end of the button hold, he deals Electro DMG to the targeted opponents.\\n\\nThe reckless hunter once reached for the spear's edge, and it was only after they survived a lesson paid in blood that they came to understand the harsh truths of survival on the frozen plains.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_S_Alyosha_01.webp",
                 "scaling": [
                   {
@@ -32004,7 +32004,7 @@
               {
                 "name": "Hunter's Advance",
                 "type": "Talent",
-                "desc": "Summons her trusted companion Tugarin to fight alongside her on the field. This also turns an area in front of her into a Fulgurite Hunting Field for a short time.\\n\\nFulgurite Hunting Field\\n\u00b7 Continuously taunts nearby opponents to incite them to attack.\\n\u00b7 Every 2s, deals an instance of AoE Electro DMG to any opponent that has wandered into the field.\\n\\nWait. Keep waiting until the impatience fades. That's when the red-bellied plover shall sweep across the birch grove and present itself before one's arrow.",
+                "desc": "Summons his trusted companion Tugarin to fight alongside him on the field. This also turns an area in front of him into a Fulgurite Hunting Field for a short time.\\n\\nFulgurite Hunting Field\\n\u00b7 Continuously taunts nearby opponents to incite them to attack.\\n\u00b7 Every 2s, deals an instance of AoE Electro DMG to any opponent that has wandered into the field.\\n\\nWait. Keep waiting until the impatience fades. That's when the red-bellied plover shall sweep across the birch grove and present itself before one's arrow.",
                 "icon": "../../Database/Nanoka/gi/assets/skills/Skill_E_Alyosha_01.webp",
                 "scaling": [
                   {
@@ -32144,7 +32144,7 @@
               {
                 "name": "Farewell, Winter Wheat",
                 "type": "Passive Talent",
-                "desc": "Increases the DMG Alyosha deals with her Elemental Skill and Elemental Burst by 0.35% for every 1% of her Energy Recharge. Up to a 70% increase can be obtained in this way."
+                "desc": "Increases the DMG Alyosha deals with his Elemental Skill and Elemental Burst by 0.35% for every 1% of his Energy Recharge. Up to a 70% increase can be obtained in this way."
               },
               {
                 "name": "Into the Fray",
@@ -32195,7 +32195,7 @@
           }
         ]
       },
-      "book": "Glory",
+      "book": "Fortitude",
       "req": {
         "ascension": [
           {
@@ -32343,86 +32343,86 @@
             "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101276.webp"
           },
           {
-            "id": "112146",
-            "name": "Phantasmagorical Dust",
+            "id": "112149",
+            "name": "Chimeric Core",
             "qty": 18,
             "rar": 1,
             "kind": "mob",
-            "icon": null
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112149.webp"
           },
           {
             "id": "113091",
-            "name": "Broken Tail of the Aether-Drifter",
+            "name": "Severed Tail of the Sky-Roamer",
             "qty": 46,
             "rar": 4,
             "kind": "mob",
-            "icon": null
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_113091.webp"
           },
           {
-            "id": "112147",
-            "name": "Phantasm Crystal",
+            "id": "112150",
+            "name": "Symbiotic Chimeric Nucleus",
             "qty": 30,
             "rar": 2,
             "kind": "mob",
-            "icon": null
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112150.webp"
           },
           {
-            "id": "112148",
-            "name": "Dreamy Crystal Koku",
+            "id": "112151",
+            "name": "Genesis Chimeric Nexus",
             "qty": 36,
             "rar": 3,
             "kind": "mob",
-            "icon": null
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112151.webp"
           }
         ],
         "talents": [
           {
-            "id": "112146",
-            "name": "Phantasmagorical Dust",
+            "id": "112149",
+            "name": "Chimeric Core",
             "qty": 18,
             "rar": 1,
             "kind": "mob",
-            "icon": null
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112149.webp"
           },
           {
-            "id": "112147",
-            "name": "Phantasm Crystal",
+            "id": "112150",
+            "name": "Symbiotic Chimeric Nucleus",
             "qty": 66,
             "rar": 2,
             "kind": "mob",
-            "icon": null
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112150.webp"
           },
           {
-            "id": "112148",
-            "name": "Dreamy Crystal Koku",
+            "id": "112151",
+            "name": "Genesis Chimeric Nexus",
             "qty": 93,
             "rar": 3,
             "kind": "mob",
-            "icon": null
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112151.webp"
           },
           {
-            "id": "104371",
-            "name": "Teachings of Glory",
+            "id": "104368",
+            "name": "Teachings of Fortitude",
             "qty": 9,
             "rar": 2,
             "kind": "book",
-            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104371.webp"
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104368.webp"
           },
           {
-            "id": "104372",
-            "name": "Guide to \"Prosperity\"",
+            "id": "104369",
+            "name": "Guide to Fortitude",
             "qty": 63,
             "rar": 3,
             "kind": "book",
-            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104372.webp"
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104369.webp"
           },
           {
-            "id": "104373",
-            "name": "Philosophies of Glory",
+            "id": "104370",
+            "name": "Philosophies of Fortitude",
             "qty": 114,
             "rar": 4,
             "kind": "book",
-            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104373.webp"
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104370.webp"
           },
           {
             "id": "113083",
@@ -32453,20 +32453,20 @@
             {
               "items": [
                 {
-                  "id": "112146",
-                  "name": "Phantasmagorical Dust",
+                  "id": "112149",
+                  "name": "Chimeric Core",
                   "qty": 6,
                   "rar": 1,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112149.webp"
                 },
                 {
-                  "id": "104371",
-                  "name": "Teachings of Glory",
+                  "id": "104368",
+                  "name": "Teachings of Fortitude",
                   "qty": 3,
                   "rar": 2,
                   "kind": "book",
-                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104371.webp"
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104368.webp"
                 }
               ],
               "cost": 12500
@@ -32474,20 +32474,20 @@
             {
               "items": [
                 {
-                  "id": "112147",
-                  "name": "Phantasm Crystal",
+                  "id": "112150",
+                  "name": "Symbiotic Chimeric Nucleus",
                   "qty": 3,
                   "rar": 2,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112150.webp"
                 },
                 {
-                  "id": "104372",
-                  "name": "Guide to \"Prosperity\"",
+                  "id": "104369",
+                  "name": "Guide to Fortitude",
                   "qty": 2,
                   "rar": 3,
                   "kind": "book",
-                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104372.webp"
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104369.webp"
                 }
               ],
               "cost": 17500
@@ -32495,20 +32495,20 @@
             {
               "items": [
                 {
-                  "id": "112147",
-                  "name": "Phantasm Crystal",
+                  "id": "112150",
+                  "name": "Symbiotic Chimeric Nucleus",
                   "qty": 4,
                   "rar": 2,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112150.webp"
                 },
                 {
-                  "id": "104372",
-                  "name": "Guide to \"Prosperity\"",
+                  "id": "104369",
+                  "name": "Guide to Fortitude",
                   "qty": 4,
                   "rar": 3,
                   "kind": "book",
-                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104372.webp"
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104369.webp"
                 }
               ],
               "cost": 25000
@@ -32516,20 +32516,20 @@
             {
               "items": [
                 {
-                  "id": "112147",
-                  "name": "Phantasm Crystal",
+                  "id": "112150",
+                  "name": "Symbiotic Chimeric Nucleus",
                   "qty": 6,
                   "rar": 2,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112150.webp"
                 },
                 {
-                  "id": "104372",
-                  "name": "Guide to \"Prosperity\"",
+                  "id": "104369",
+                  "name": "Guide to Fortitude",
                   "qty": 6,
                   "rar": 3,
                   "kind": "book",
-                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104372.webp"
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104369.webp"
                 }
               ],
               "cost": 30000
@@ -32537,20 +32537,20 @@
             {
               "items": [
                 {
-                  "id": "112147",
-                  "name": "Phantasm Crystal",
+                  "id": "112150",
+                  "name": "Symbiotic Chimeric Nucleus",
                   "qty": 9,
                   "rar": 2,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112150.webp"
                 },
                 {
-                  "id": "104372",
-                  "name": "Guide to \"Prosperity\"",
+                  "id": "104369",
+                  "name": "Guide to Fortitude",
                   "qty": 9,
                   "rar": 3,
                   "kind": "book",
-                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104372.webp"
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104369.webp"
                 }
               ],
               "cost": 37500
@@ -32558,20 +32558,20 @@
             {
               "items": [
                 {
-                  "id": "112148",
-                  "name": "Dreamy Crystal Koku",
+                  "id": "112151",
+                  "name": "Genesis Chimeric Nexus",
                   "qty": 4,
                   "rar": 3,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112151.webp"
                 },
                 {
-                  "id": "104373",
-                  "name": "Philosophies of Glory",
+                  "id": "104370",
+                  "name": "Philosophies of Fortitude",
                   "qty": 4,
                   "rar": 4,
                   "kind": "book",
-                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104373.webp"
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104370.webp"
                 },
                 {
                   "id": "113083",
@@ -32594,20 +32594,20 @@
             {
               "items": [
                 {
-                  "id": "112148",
-                  "name": "Dreamy Crystal Koku",
+                  "id": "112151",
+                  "name": "Genesis Chimeric Nexus",
                   "qty": 6,
                   "rar": 3,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112151.webp"
                 },
                 {
-                  "id": "104373",
-                  "name": "Philosophies of Glory",
+                  "id": "104370",
+                  "name": "Philosophies of Fortitude",
                   "qty": 6,
                   "rar": 4,
                   "kind": "book",
-                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104373.webp"
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104370.webp"
                 },
                 {
                   "id": "113083",
@@ -32630,20 +32630,20 @@
             {
               "items": [
                 {
-                  "id": "112148",
-                  "name": "Dreamy Crystal Koku",
+                  "id": "112151",
+                  "name": "Genesis Chimeric Nexus",
                   "qty": 9,
                   "rar": 3,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112151.webp"
                 },
                 {
-                  "id": "104373",
-                  "name": "Philosophies of Glory",
+                  "id": "104370",
+                  "name": "Philosophies of Fortitude",
                   "qty": 12,
                   "rar": 4,
                   "kind": "book",
-                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104373.webp"
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104370.webp"
                 },
                 {
                   "id": "113083",
@@ -32666,20 +32666,20 @@
             {
               "items": [
                 {
-                  "id": "112148",
-                  "name": "Dreamy Crystal Koku",
+                  "id": "112151",
+                  "name": "Genesis Chimeric Nexus",
                   "qty": 12,
                   "rar": 3,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112151.webp"
                 },
                 {
-                  "id": "104373",
-                  "name": "Philosophies of Glory",
+                  "id": "104370",
+                  "name": "Philosophies of Fortitude",
                   "qty": 16,
                   "rar": 4,
                   "kind": "book",
-                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104373.webp"
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104370.webp"
                 },
                 {
                   "id": "113083",
@@ -32712,20 +32712,20 @@
             {
               "items": [
                 {
-                  "id": "112146",
-                  "name": "Phantasmagorical Dust",
+                  "id": "112149",
+                  "name": "Chimeric Core",
                   "qty": 6,
                   "rar": 1,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112149.webp"
                 },
                 {
-                  "id": "104371",
-                  "name": "Teachings of Glory",
+                  "id": "104368",
+                  "name": "Teachings of Fortitude",
                   "qty": 3,
                   "rar": 2,
                   "kind": "book",
-                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104371.webp"
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104368.webp"
                 }
               ],
               "cost": 12500
@@ -32733,20 +32733,20 @@
             {
               "items": [
                 {
-                  "id": "112147",
-                  "name": "Phantasm Crystal",
+                  "id": "112150",
+                  "name": "Symbiotic Chimeric Nucleus",
                   "qty": 3,
                   "rar": 2,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112150.webp"
                 },
                 {
-                  "id": "104372",
-                  "name": "Guide to \"Prosperity\"",
+                  "id": "104369",
+                  "name": "Guide to Fortitude",
                   "qty": 2,
                   "rar": 3,
                   "kind": "book",
-                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104372.webp"
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104369.webp"
                 }
               ],
               "cost": 17500
@@ -32754,20 +32754,20 @@
             {
               "items": [
                 {
-                  "id": "112147",
-                  "name": "Phantasm Crystal",
+                  "id": "112150",
+                  "name": "Symbiotic Chimeric Nucleus",
                   "qty": 4,
                   "rar": 2,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112150.webp"
                 },
                 {
-                  "id": "104372",
-                  "name": "Guide to \"Prosperity\"",
+                  "id": "104369",
+                  "name": "Guide to Fortitude",
                   "qty": 4,
                   "rar": 3,
                   "kind": "book",
-                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104372.webp"
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104369.webp"
                 }
               ],
               "cost": 25000
@@ -32775,20 +32775,20 @@
             {
               "items": [
                 {
-                  "id": "112147",
-                  "name": "Phantasm Crystal",
+                  "id": "112150",
+                  "name": "Symbiotic Chimeric Nucleus",
                   "qty": 6,
                   "rar": 2,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112150.webp"
                 },
                 {
-                  "id": "104372",
-                  "name": "Guide to \"Prosperity\"",
+                  "id": "104369",
+                  "name": "Guide to Fortitude",
                   "qty": 6,
                   "rar": 3,
                   "kind": "book",
-                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104372.webp"
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104369.webp"
                 }
               ],
               "cost": 30000
@@ -32796,20 +32796,20 @@
             {
               "items": [
                 {
-                  "id": "112147",
-                  "name": "Phantasm Crystal",
+                  "id": "112150",
+                  "name": "Symbiotic Chimeric Nucleus",
                   "qty": 9,
                   "rar": 2,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112150.webp"
                 },
                 {
-                  "id": "104372",
-                  "name": "Guide to \"Prosperity\"",
+                  "id": "104369",
+                  "name": "Guide to Fortitude",
                   "qty": 9,
                   "rar": 3,
                   "kind": "book",
-                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104372.webp"
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104369.webp"
                 }
               ],
               "cost": 37500
@@ -32817,20 +32817,20 @@
             {
               "items": [
                 {
-                  "id": "112148",
-                  "name": "Dreamy Crystal Koku",
+                  "id": "112151",
+                  "name": "Genesis Chimeric Nexus",
                   "qty": 4,
                   "rar": 3,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112151.webp"
                 },
                 {
-                  "id": "104373",
-                  "name": "Philosophies of Glory",
+                  "id": "104370",
+                  "name": "Philosophies of Fortitude",
                   "qty": 4,
                   "rar": 4,
                   "kind": "book",
-                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104373.webp"
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104370.webp"
                 },
                 {
                   "id": "113083",
@@ -32853,20 +32853,20 @@
             {
               "items": [
                 {
-                  "id": "112148",
-                  "name": "Dreamy Crystal Koku",
+                  "id": "112151",
+                  "name": "Genesis Chimeric Nexus",
                   "qty": 6,
                   "rar": 3,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112151.webp"
                 },
                 {
-                  "id": "104373",
-                  "name": "Philosophies of Glory",
+                  "id": "104370",
+                  "name": "Philosophies of Fortitude",
                   "qty": 6,
                   "rar": 4,
                   "kind": "book",
-                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104373.webp"
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104370.webp"
                 },
                 {
                   "id": "113083",
@@ -32889,20 +32889,20 @@
             {
               "items": [
                 {
-                  "id": "112148",
-                  "name": "Dreamy Crystal Koku",
+                  "id": "112151",
+                  "name": "Genesis Chimeric Nexus",
                   "qty": 9,
                   "rar": 3,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112151.webp"
                 },
                 {
-                  "id": "104373",
-                  "name": "Philosophies of Glory",
+                  "id": "104370",
+                  "name": "Philosophies of Fortitude",
                   "qty": 12,
                   "rar": 4,
                   "kind": "book",
-                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104373.webp"
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104370.webp"
                 },
                 {
                   "id": "113083",
@@ -32925,20 +32925,20 @@
             {
               "items": [
                 {
-                  "id": "112148",
-                  "name": "Dreamy Crystal Koku",
+                  "id": "112151",
+                  "name": "Genesis Chimeric Nexus",
                   "qty": 12,
                   "rar": 3,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112151.webp"
                 },
                 {
-                  "id": "104373",
-                  "name": "Philosophies of Glory",
+                  "id": "104370",
+                  "name": "Philosophies of Fortitude",
                   "qty": 16,
                   "rar": 4,
                   "kind": "book",
-                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104373.webp"
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104370.webp"
                 },
                 {
                   "id": "113083",
@@ -32971,20 +32971,20 @@
             {
               "items": [
                 {
-                  "id": "112146",
-                  "name": "Phantasmagorical Dust",
+                  "id": "112149",
+                  "name": "Chimeric Core",
                   "qty": 6,
                   "rar": 1,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112149.webp"
                 },
                 {
-                  "id": "104371",
-                  "name": "Teachings of Glory",
+                  "id": "104368",
+                  "name": "Teachings of Fortitude",
                   "qty": 3,
                   "rar": 2,
                   "kind": "book",
-                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104371.webp"
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104368.webp"
                 }
               ],
               "cost": 12500
@@ -32992,20 +32992,20 @@
             {
               "items": [
                 {
-                  "id": "112147",
-                  "name": "Phantasm Crystal",
+                  "id": "112150",
+                  "name": "Symbiotic Chimeric Nucleus",
                   "qty": 3,
                   "rar": 2,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112150.webp"
                 },
                 {
-                  "id": "104372",
-                  "name": "Guide to \"Prosperity\"",
+                  "id": "104369",
+                  "name": "Guide to Fortitude",
                   "qty": 2,
                   "rar": 3,
                   "kind": "book",
-                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104372.webp"
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104369.webp"
                 }
               ],
               "cost": 17500
@@ -33013,20 +33013,20 @@
             {
               "items": [
                 {
-                  "id": "112147",
-                  "name": "Phantasm Crystal",
+                  "id": "112150",
+                  "name": "Symbiotic Chimeric Nucleus",
                   "qty": 4,
                   "rar": 2,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112150.webp"
                 },
                 {
-                  "id": "104372",
-                  "name": "Guide to \"Prosperity\"",
+                  "id": "104369",
+                  "name": "Guide to Fortitude",
                   "qty": 4,
                   "rar": 3,
                   "kind": "book",
-                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104372.webp"
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104369.webp"
                 }
               ],
               "cost": 25000
@@ -33034,20 +33034,20 @@
             {
               "items": [
                 {
-                  "id": "112147",
-                  "name": "Phantasm Crystal",
+                  "id": "112150",
+                  "name": "Symbiotic Chimeric Nucleus",
                   "qty": 6,
                   "rar": 2,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112150.webp"
                 },
                 {
-                  "id": "104372",
-                  "name": "Guide to \"Prosperity\"",
+                  "id": "104369",
+                  "name": "Guide to Fortitude",
                   "qty": 6,
                   "rar": 3,
                   "kind": "book",
-                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104372.webp"
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104369.webp"
                 }
               ],
               "cost": 30000
@@ -33055,20 +33055,20 @@
             {
               "items": [
                 {
-                  "id": "112147",
-                  "name": "Phantasm Crystal",
+                  "id": "112150",
+                  "name": "Symbiotic Chimeric Nucleus",
                   "qty": 9,
                   "rar": 2,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112150.webp"
                 },
                 {
-                  "id": "104372",
-                  "name": "Guide to \"Prosperity\"",
+                  "id": "104369",
+                  "name": "Guide to Fortitude",
                   "qty": 9,
                   "rar": 3,
                   "kind": "book",
-                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104372.webp"
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104369.webp"
                 }
               ],
               "cost": 37500
@@ -33076,20 +33076,20 @@
             {
               "items": [
                 {
-                  "id": "112148",
-                  "name": "Dreamy Crystal Koku",
+                  "id": "112151",
+                  "name": "Genesis Chimeric Nexus",
                   "qty": 4,
                   "rar": 3,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112151.webp"
                 },
                 {
-                  "id": "104373",
-                  "name": "Philosophies of Glory",
+                  "id": "104370",
+                  "name": "Philosophies of Fortitude",
                   "qty": 4,
                   "rar": 4,
                   "kind": "book",
-                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104373.webp"
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104370.webp"
                 },
                 {
                   "id": "113083",
@@ -33112,20 +33112,20 @@
             {
               "items": [
                 {
-                  "id": "112148",
-                  "name": "Dreamy Crystal Koku",
+                  "id": "112151",
+                  "name": "Genesis Chimeric Nexus",
                   "qty": 6,
                   "rar": 3,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112151.webp"
                 },
                 {
-                  "id": "104373",
-                  "name": "Philosophies of Glory",
+                  "id": "104370",
+                  "name": "Philosophies of Fortitude",
                   "qty": 6,
                   "rar": 4,
                   "kind": "book",
-                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104373.webp"
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104370.webp"
                 },
                 {
                   "id": "113083",
@@ -33148,20 +33148,20 @@
             {
               "items": [
                 {
-                  "id": "112148",
-                  "name": "Dreamy Crystal Koku",
+                  "id": "112151",
+                  "name": "Genesis Chimeric Nexus",
                   "qty": 9,
                   "rar": 3,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112151.webp"
                 },
                 {
-                  "id": "104373",
-                  "name": "Philosophies of Glory",
+                  "id": "104370",
+                  "name": "Philosophies of Fortitude",
                   "qty": 12,
                   "rar": 4,
                   "kind": "book",
-                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104373.webp"
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104370.webp"
                 },
                 {
                   "id": "113083",
@@ -33184,20 +33184,20 @@
             {
               "items": [
                 {
-                  "id": "112148",
-                  "name": "Dreamy Crystal Koku",
+                  "id": "112151",
+                  "name": "Genesis Chimeric Nexus",
                   "qty": 12,
                   "rar": 3,
                   "kind": "mob",
-                  "icon": null
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112151.webp"
                 },
                 {
-                  "id": "104373",
-                  "name": "Philosophies of Glory",
+                  "id": "104370",
+                  "name": "Philosophies of Fortitude",
                   "qty": 16,
                   "rar": 4,
                   "kind": "book",
-                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104373.webp"
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104370.webp"
                 },
                 {
                   "id": "113083",
@@ -33237,7 +33237,7 @@
   "weapons": [
     {
       "id": "11521",
-      "name": "Staredge Saber",
+      "name": "Exaiphanes Blade",
       "rarity": 5,
       "weaponType": "Sword",
       "type": "Sword",
@@ -33246,55 +33246,55 @@
       "items": [
         {
           "id": "112146",
-          "name": "Phantasmagorical Dust",
+          "name": "Ethereal Glimmershard",
           "qty": 15,
           "rar": 1,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112146.webp"
         },
         {
           "id": "112147",
-          "name": "Phantasm Crystal",
+          "name": "Ethereal Crystal",
           "qty": 23,
           "rar": 2,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112147.webp"
         },
         {
           "id": "112148",
-          "name": "Dreamy Crystal Koku",
+          "name": "Ethereal Crystalscale Stone",
           "qty": 27,
           "rar": 3,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112148.webp"
         },
         {
           "id": "112152",
-          "name": "Sediment Fragment",
+          "name": "Accreted Fragment",
           "qty": 23,
           "rar": 2,
           "kind": "gem",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112152.webp"
         },
         {
           "id": "112153",
-          "name": "Sediment Clot",
+          "name": "Accreted Mass",
           "qty": 27,
           "rar": 3,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112153.webp"
         },
         {
           "id": "112154",
-          "name": "Crystalline Cyst",
+          "name": "Accreted Growth",
           "qty": 41,
           "rar": 4,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112154.webp"
         },
         {
           "id": "114093",
-          "name": "Resurrection of the Frost Sovereign",
+          "name": "The Frost Emperor's Revival",
           "qty": 5,
           "rar": 2,
           "kind": "weapon",
@@ -33302,7 +33302,7 @@
         },
         {
           "id": "114094",
-          "name": "Ceremonial of the Frost Sovereign",
+          "name": "The Frost Emperor's Ceremony",
           "qty": 14,
           "rar": 3,
           "kind": "weapon",
@@ -33310,7 +33310,7 @@
         },
         {
           "id": "114095",
-          "name": "Lament of the Frost-Veiled Emperor",
+          "name": "The Frost Emperor's Lament",
           "qty": 14,
           "rar": 4,
           "kind": "weapon",
@@ -33318,7 +33318,7 @@
         },
         {
           "id": "114096",
-          "name": "Gash of the Frost-Blade Emperor",
+          "name": "The Frost Emperor's Farewell",
           "qty": 6,
           "rar": 5,
           "kind": "weapon",
@@ -33338,55 +33338,55 @@
       "items": [
         {
           "id": "112149",
-          "name": "Chimera",
+          "name": "Chimeric Core",
           "qty": 15,
           "rar": 1,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112149.webp"
         },
         {
           "id": "112150",
-          "name": "Symbiotic Chimera Cell",
+          "name": "Symbiotic Chimeric Nucleus",
           "qty": 23,
           "rar": 2,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112150.webp"
         },
         {
           "id": "112151",
-          "name": "Primordial Chimera",
+          "name": "Genesis Chimeric Nexus",
           "qty": 27,
           "rar": 3,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112151.webp"
         },
         {
           "id": "112155",
-          "name": "Aether-Life Root",
+          "name": "Hollow Root of Life",
           "qty": 23,
           "rar": 2,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112155.webp"
         },
         {
           "id": "112156",
-          "name": "Crystalline Sprout",
+          "name": "Sprout Node of Life",
           "qty": 27,
           "rar": 3,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112156.webp"
         },
         {
           "id": "112157",
-          "name": "Everliving Branch of the Heart",
+          "name": "Coiled Core of Life",
           "qty": 41,
           "rar": 4,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112157.webp"
         },
         {
           "id": "114089",
-          "name": "Deliberation of the Cellar Nectar",
+          "name": "Measured Pour of the Cellared Spiritual Nectar",
           "qty": 5,
           "rar": 2,
           "kind": "weapon",
@@ -33394,7 +33394,7 @@
         },
         {
           "id": "114090",
-          "name": "Drunkard's Spirit of the Cellar",
+          "name": "Intoxication of the Cellared Spiritual Nectar",
           "qty": 14,
           "rar": 3,
           "kind": "weapon",
@@ -33402,7 +33402,7 @@
         },
         {
           "id": "114091",
-          "name": "Exhilaration of the Cellar Elixir",
+          "name": "Exhilaration of the Cellared Spiritual Nectar",
           "qty": 14,
           "rar": 4,
           "kind": "weapon",
@@ -33410,7 +33410,7 @@
         },
         {
           "id": "114092",
-          "name": "Libation of the Cellar-Lord's Whim",
+          "name": "Revelry of the Cellared Spiritual Nectar",
           "qty": 6,
           "rar": 5,
           "kind": "weapon",
@@ -33421,7 +33421,7 @@
     },
     {
       "id": "15435",
-      "name": "BP Weapon",
+      "name": "15435",
       "rarity": 4,
       "weaponType": "Bow",
       "type": "Bow",
@@ -33657,7 +33657,7 @@
     },
     {
       "id": "15436",
-      "name": "Forgeable Weapon",
+      "name": "Covenant of Frost and Snow",
       "rarity": 4,
       "weaponType": "Bow",
       "type": "Bow",
@@ -33666,55 +33666,55 @@
       "items": [
         {
           "id": "112149",
-          "name": "Chimera",
+          "name": "Chimeric Core",
           "qty": 10,
           "rar": 1,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112149.webp"
         },
         {
           "id": "112150",
-          "name": "Symbiotic Chimera Cell",
+          "name": "Symbiotic Chimeric Nucleus",
           "qty": 15,
           "rar": 2,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112150.webp"
         },
         {
           "id": "112151",
-          "name": "Primordial Chimera",
+          "name": "Genesis Chimeric Nexus",
           "qty": 18,
           "rar": 3,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112151.webp"
         },
         {
           "id": "112155",
-          "name": "Aether-Life Root",
+          "name": "Hollow Root of Life",
           "qty": 15,
           "rar": 2,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112155.webp"
         },
         {
           "id": "112156",
-          "name": "Crystalline Sprout",
+          "name": "Sprout Node of Life",
           "qty": 18,
           "rar": 3,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112156.webp"
         },
         {
           "id": "112157",
-          "name": "Everliving Branch of the Heart",
+          "name": "Coiled Core of Life",
           "qty": 27,
           "rar": 4,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112157.webp"
         },
         {
           "id": "114085",
-          "name": "The Stirring of the Pale Star Host",
+          "name": "Rise of the Pale Star Army",
           "qty": 3,
           "rar": 2,
           "kind": "weapon",
@@ -33722,7 +33722,7 @@
         },
         {
           "id": "114086",
-          "name": "The Gathering of the Pale Star Host",
+          "name": "Muster of the Pale Star Army",
           "qty": 9,
           "rar": 3,
           "kind": "weapon",
@@ -33730,7 +33730,7 @@
         },
         {
           "id": "114087",
-          "name": "Command of the Pale Star's Host",
+          "name": "Clarion of the Pale Star Army",
           "qty": 9,
           "rar": 4,
           "kind": "weapon",
@@ -33738,7 +33738,7 @@
         },
         {
           "id": "114088",
-          "name": "Conquest of the Pale Star Host",
+          "name": "Triumph of the Pale Star Army",
           "qty": 4,
           "rar": 5,
           "kind": "weapon",
@@ -33749,7 +33749,7 @@
     },
     {
       "id": "14435",
-      "name": "BP Weapon",
+      "name": "14435",
       "rarity": 4,
       "weaponType": "Catalyst",
       "type": "Catalyst",
@@ -33985,7 +33985,7 @@
     },
     {
       "id": "14436",
-      "name": "Forgeable Weapon",
+      "name": "Echoes of the Heart",
       "rarity": 4,
       "weaponType": "Catalyst",
       "type": "Catalyst",
@@ -33994,55 +33994,55 @@
       "items": [
         {
           "id": "112146",
-          "name": "Phantasmagorical Dust",
+          "name": "Ethereal Glimmershard",
           "qty": 10,
           "rar": 1,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112146.webp"
         },
         {
           "id": "112147",
-          "name": "Phantasm Crystal",
+          "name": "Ethereal Crystal",
           "qty": 15,
           "rar": 2,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112147.webp"
         },
         {
           "id": "112148",
-          "name": "Dreamy Crystal Koku",
+          "name": "Ethereal Crystalscale Stone",
           "qty": 18,
           "rar": 3,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112148.webp"
         },
         {
           "id": "112152",
-          "name": "Sediment Fragment",
+          "name": "Accreted Fragment",
           "qty": 15,
           "rar": 2,
           "kind": "gem",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112152.webp"
         },
         {
           "id": "112153",
-          "name": "Sediment Clot",
+          "name": "Accreted Mass",
           "qty": 18,
           "rar": 3,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112153.webp"
         },
         {
           "id": "112154",
-          "name": "Crystalline Cyst",
+          "name": "Accreted Growth",
           "qty": 27,
           "rar": 4,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112154.webp"
         },
         {
           "id": "114085",
-          "name": "The Stirring of the Pale Star Host",
+          "name": "Rise of the Pale Star Army",
           "qty": 3,
           "rar": 2,
           "kind": "weapon",
@@ -34050,7 +34050,7 @@
         },
         {
           "id": "114086",
-          "name": "The Gathering of the Pale Star Host",
+          "name": "Muster of the Pale Star Army",
           "qty": 9,
           "rar": 3,
           "kind": "weapon",
@@ -34058,7 +34058,7 @@
         },
         {
           "id": "114087",
-          "name": "Command of the Pale Star's Host",
+          "name": "Clarion of the Pale Star Army",
           "qty": 9,
           "rar": 4,
           "kind": "weapon",
@@ -34066,7 +34066,7 @@
         },
         {
           "id": "114088",
-          "name": "Conquest of the Pale Star Host",
+          "name": "Triumph of the Pale Star Army",
           "qty": 4,
           "rar": 5,
           "kind": "weapon",
@@ -34077,7 +34077,7 @@
     },
     {
       "id": "12435",
-      "name": "BP Weapon",
+      "name": "12435",
       "rarity": 4,
       "weaponType": "Claymore",
       "type": "Claymore",
@@ -34289,7 +34289,7 @@
     },
     {
       "id": "12436",
-      "name": "Forgeable Weapon",
+      "name": "Blade of Atonement",
       "rarity": 4,
       "weaponType": "Claymore",
       "type": "Claymore",
@@ -34298,55 +34298,55 @@
       "items": [
         {
           "id": "112149",
-          "name": "Chimera",
+          "name": "Chimeric Core",
           "qty": 10,
           "rar": 1,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112149.webp"
         },
         {
           "id": "112150",
-          "name": "Symbiotic Chimera Cell",
+          "name": "Symbiotic Chimeric Nucleus",
           "qty": 15,
           "rar": 2,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112150.webp"
         },
         {
           "id": "112151",
-          "name": "Primordial Chimera",
+          "name": "Genesis Chimeric Nexus",
           "qty": 18,
           "rar": 3,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112151.webp"
         },
         {
           "id": "112155",
-          "name": "Aether-Life Root",
+          "name": "Hollow Root of Life",
           "qty": 15,
           "rar": 2,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112155.webp"
         },
         {
           "id": "112156",
-          "name": "Crystalline Sprout",
+          "name": "Sprout Node of Life",
           "qty": 18,
           "rar": 3,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112156.webp"
         },
         {
           "id": "112157",
-          "name": "Everliving Branch of the Heart",
+          "name": "Coiled Core of Life",
           "qty": 27,
           "rar": 4,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112157.webp"
         },
         {
           "id": "114085",
-          "name": "The Stirring of the Pale Star Host",
+          "name": "Rise of the Pale Star Army",
           "qty": 3,
           "rar": 2,
           "kind": "weapon",
@@ -34354,7 +34354,7 @@
         },
         {
           "id": "114086",
-          "name": "The Gathering of the Pale Star Host",
+          "name": "Muster of the Pale Star Army",
           "qty": 9,
           "rar": 3,
           "kind": "weapon",
@@ -34362,7 +34362,7 @@
         },
         {
           "id": "114087",
-          "name": "Command of the Pale Star's Host",
+          "name": "Clarion of the Pale Star Army",
           "qty": 9,
           "rar": 4,
           "kind": "weapon",
@@ -34370,7 +34370,7 @@
         },
         {
           "id": "114088",
-          "name": "Conquest of the Pale Star Host",
+          "name": "Triumph of the Pale Star Army",
           "qty": 4,
           "rar": 5,
           "kind": "weapon",
@@ -34381,7 +34381,7 @@
     },
     {
       "id": "224008",
-      "name": "224008",
+      "name": "(test) Shadow Realm Grenade",
       "rarity": 4,
       "weaponType": "ITEM_TPS_WEAPON",
       "type": "ITEM_TPS_WEAPON",
@@ -34392,7 +34392,7 @@
     },
     {
       "id": "224002",
-      "name": "Asha's Thousand Lights",
+      "name": "Ashamez's Thunder",
       "rarity": 4,
       "weaponType": "ITEM_TPS_WEAPON",
       "type": "ITEM_TPS_WEAPON",
@@ -34402,8 +34402,19 @@
       "cost": 0
     },
     {
-      "id": "224006",
-      "name": "Electro Crystal",
+      "id": "224003",
+      "name": "Balsag's Sunwheel",
+      "rarity": 4,
+      "weaponType": "ITEM_TPS_WEAPON",
+      "type": "ITEM_TPS_WEAPON",
+      "icon": "../../Database/Nanoka/gi/assets/weapons/icons/UI_EquipIcon_GrenadeLauncher_Ignis.webp",
+      "art": null,
+      "items": [],
+      "cost": 0
+    },
+    {
+      "id": "224007",
+      "name": "Frag Crystal - Cryo",
       "rarity": 4,
       "weaponType": "ITEM_TPS_WEAPON",
       "type": "ITEM_TPS_WEAPON",
@@ -34413,8 +34424,8 @@
       "cost": 0
     },
     {
-      "id": "224007",
-      "name": "Garnet Cryo",
+      "id": "224006",
+      "name": "Frag Crystal - Electro",
       "rarity": 4,
       "weaponType": "ITEM_TPS_WEAPON",
       "type": "ITEM_TPS_WEAPON",
@@ -34425,7 +34436,7 @@
     },
     {
       "id": "224005",
-      "name": "Hydro Crystal",
+      "name": "Frag Crystal - Hydro",
       "rarity": 4,
       "weaponType": "ITEM_TPS_WEAPON",
       "type": "ITEM_TPS_WEAPON",
@@ -34436,7 +34447,7 @@
     },
     {
       "id": "224004",
-      "name": "Pomegranate Crystal Pyro",
+      "name": "Frag Crystal - Pyro",
       "rarity": 4,
       "weaponType": "ITEM_TPS_WEAPON",
       "type": "ITEM_TPS_WEAPON",
@@ -34447,7 +34458,7 @@
     },
     {
       "id": "224001",
-      "name": "Shathanaya's Pale Silver",
+      "name": "Shatanaya's Frostsilver",
       "rarity": 4,
       "weaponType": "ITEM_TPS_WEAPON",
       "type": "ITEM_TPS_WEAPON",
@@ -34457,19 +34468,8 @@
       "cost": 0
     },
     {
-      "id": "224003",
-      "name": "Sun of Valsag",
-      "rarity": 4,
-      "weaponType": "ITEM_TPS_WEAPON",
-      "type": "ITEM_TPS_WEAPON",
-      "icon": "../../Database/Nanoka/gi/assets/weapons/icons/UI_EquipIcon_GrenadeLauncher_Ignis.webp",
-      "art": null,
-      "items": [],
-      "cost": 0
-    },
-    {
       "id": "13435",
-      "name": "BP Weapon",
+      "name": "13435",
       "rarity": 4,
       "weaponType": "Polearm",
       "type": "Polearm",
@@ -34478,55 +34478,55 @@
       "items": [
         {
           "id": "112149",
-          "name": "Chimera",
+          "name": "Chimeric Core",
           "qty": 10,
           "rar": 1,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112149.webp"
         },
         {
           "id": "112150",
-          "name": "Symbiotic Chimera Cell",
+          "name": "Symbiotic Chimeric Nucleus",
           "qty": 15,
           "rar": 2,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112150.webp"
         },
         {
           "id": "112151",
-          "name": "Primordial Chimera",
+          "name": "Genesis Chimeric Nexus",
           "qty": 18,
           "rar": 3,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112151.webp"
         },
         {
           "id": "112152",
-          "name": "Sediment Fragment",
+          "name": "Accreted Fragment",
           "qty": 15,
           "rar": 2,
           "kind": "gem",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112152.webp"
         },
         {
           "id": "112153",
-          "name": "Sediment Clot",
+          "name": "Accreted Mass",
           "qty": 18,
           "rar": 3,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112153.webp"
         },
         {
           "id": "112154",
-          "name": "Crystalline Cyst",
+          "name": "Accreted Growth",
           "qty": 27,
           "rar": 4,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112154.webp"
         },
         {
           "id": "114089",
-          "name": "Deliberation of the Cellar Nectar",
+          "name": "Measured Pour of the Cellared Spiritual Nectar",
           "qty": 3,
           "rar": 2,
           "kind": "weapon",
@@ -34534,7 +34534,7 @@
         },
         {
           "id": "114090",
-          "name": "Drunkard's Spirit of the Cellar",
+          "name": "Intoxication of the Cellared Spiritual Nectar",
           "qty": 9,
           "rar": 3,
           "kind": "weapon",
@@ -34542,7 +34542,7 @@
         },
         {
           "id": "114091",
-          "name": "Exhilaration of the Cellar Elixir",
+          "name": "Exhilaration of the Cellared Spiritual Nectar",
           "qty": 9,
           "rar": 4,
           "kind": "weapon",
@@ -34550,7 +34550,7 @@
         },
         {
           "id": "114092",
-          "name": "Libation of the Cellar-Lord's Whim",
+          "name": "Revelry of the Cellared Spiritual Nectar",
           "qty": 4,
           "rar": 5,
           "kind": "weapon",
@@ -34561,7 +34561,7 @@
     },
     {
       "id": "13436",
-      "name": "Forgeable Weapon",
+      "name": "Song of the Vigil",
       "rarity": 4,
       "weaponType": "Polearm",
       "type": "Polearm",
@@ -34570,55 +34570,55 @@
       "items": [
         {
           "id": "112146",
-          "name": "Phantasmagorical Dust",
+          "name": "Ethereal Glimmershard",
           "qty": 10,
           "rar": 1,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112146.webp"
         },
         {
           "id": "112147",
-          "name": "Phantasm Crystal",
+          "name": "Ethereal Crystal",
           "qty": 15,
           "rar": 2,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112147.webp"
         },
         {
           "id": "112148",
-          "name": "Dreamy Crystal Koku",
+          "name": "Ethereal Crystalscale Stone",
           "qty": 18,
           "rar": 3,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112148.webp"
         },
         {
           "id": "112155",
-          "name": "Aether-Life Root",
+          "name": "Hollow Root of Life",
           "qty": 15,
           "rar": 2,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112155.webp"
         },
         {
           "id": "112156",
-          "name": "Crystalline Sprout",
+          "name": "Sprout Node of Life",
           "qty": 18,
           "rar": 3,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112156.webp"
         },
         {
           "id": "112157",
-          "name": "Everliving Branch of the Heart",
+          "name": "Coiled Core of Life",
           "qty": 27,
           "rar": 4,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112157.webp"
         },
         {
           "id": "114093",
-          "name": "Resurrection of the Frost Sovereign",
+          "name": "The Frost Emperor's Revival",
           "qty": 3,
           "rar": 2,
           "kind": "weapon",
@@ -34626,7 +34626,7 @@
         },
         {
           "id": "114094",
-          "name": "Ceremonial of the Frost Sovereign",
+          "name": "The Frost Emperor's Ceremony",
           "qty": 9,
           "rar": 3,
           "kind": "weapon",
@@ -34634,7 +34634,7 @@
         },
         {
           "id": "114095",
-          "name": "Lament of the Frost-Veiled Emperor",
+          "name": "The Frost Emperor's Lament",
           "qty": 9,
           "rar": 4,
           "kind": "weapon",
@@ -34642,7 +34642,7 @@
         },
         {
           "id": "114096",
-          "name": "Gash of the Frost-Blade Emperor",
+          "name": "The Frost Emperor's Farewell",
           "qty": 4,
           "rar": 5,
           "kind": "weapon",
@@ -34652,19 +34652,8 @@
       "cost": 150000
     },
     {
-      "id": "380003",
-      "name": "380003",
-      "rarity": 4,
-      "weaponType": "Sword",
-      "type": "Sword",
-      "icon": "../../Database/Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Sword_Icecream.webp",
-      "art": "../../Database/Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Sword_Icecream.webp",
-      "items": [],
-      "cost": 0
-    },
-    {
       "id": "11435",
-      "name": "BP Weapon",
+      "name": "11435",
       "rarity": 4,
       "weaponType": "Sword",
       "type": "Sword",
@@ -34875,8 +34864,19 @@
       "cost": 150000
     },
     {
+      "id": "380003",
+      "name": "380003",
+      "rarity": 4,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Sword_Icecream.webp",
+      "art": "../../Database/Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Sword_Icecream.webp",
+      "items": [],
+      "cost": 0
+    },
+    {
       "id": "11436",
-      "name": "Forgeable Weapon",
+      "name": "Emberwell",
       "rarity": 4,
       "weaponType": "Sword",
       "type": "Sword",
@@ -34885,55 +34885,55 @@
       "items": [
         {
           "id": "112146",
-          "name": "Phantasmagorical Dust",
+          "name": "Ethereal Glimmershard",
           "qty": 10,
           "rar": 1,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112146.webp"
         },
         {
           "id": "112147",
-          "name": "Phantasm Crystal",
+          "name": "Ethereal Crystal",
           "qty": 15,
           "rar": 2,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112147.webp"
         },
         {
           "id": "112148",
-          "name": "Dreamy Crystal Koku",
+          "name": "Ethereal Crystalscale Stone",
           "qty": 18,
           "rar": 3,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112148.webp"
         },
         {
           "id": "112152",
-          "name": "Sediment Fragment",
+          "name": "Accreted Fragment",
           "qty": 15,
           "rar": 2,
           "kind": "gem",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112152.webp"
         },
         {
           "id": "112153",
-          "name": "Sediment Clot",
+          "name": "Accreted Mass",
           "qty": 18,
           "rar": 3,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112153.webp"
         },
         {
           "id": "112154",
-          "name": "Crystalline Cyst",
+          "name": "Accreted Growth",
           "qty": 27,
           "rar": 4,
           "kind": "mob",
-          "icon": null
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112154.webp"
         },
         {
           "id": "114085",
-          "name": "The Stirring of the Pale Star Host",
+          "name": "Rise of the Pale Star Army",
           "qty": 3,
           "rar": 2,
           "kind": "weapon",
@@ -34941,7 +34941,7 @@
         },
         {
           "id": "114086",
-          "name": "The Gathering of the Pale Star Host",
+          "name": "Muster of the Pale Star Army",
           "qty": 9,
           "rar": 3,
           "kind": "weapon",
@@ -34949,7 +34949,7 @@
         },
         {
           "id": "114087",
-          "name": "Command of the Pale Star's Host",
+          "name": "Clarion of the Pale Star Army",
           "qty": 9,
           "rar": 4,
           "kind": "weapon",
@@ -34957,7 +34957,7 @@
         },
         {
           "id": "114088",
-          "name": "Conquest of the Pale Star Host",
+          "name": "Triumph of the Pale Star Army",
           "qty": 4,
           "rar": 5,
           "kind": "weapon",

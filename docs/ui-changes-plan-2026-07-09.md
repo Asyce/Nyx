@@ -379,12 +379,22 @@ favourites move out of the Overview (L1): the timeline takes that space.
 
 ### Look
 
-- Full-width panel on the game Overview where favourites used to sit; game accent
-  color drives the now-line, version ribbons, and current-block glow; dark theme
-  consistent with the existing card language (rounded blocks, soft borders).
-- Toolbar (one row): search field · lane toggles · zoom −/+ · Today · add-marker.
-- Density: blocks ~48–56px tall so a character icon + name fit; lanes stack
-  compactly; empty lanes collapse.
+- APPROVED REFERENCE MOCK (2026-07-10): `docs/mockups/banner-timeline-v4.html` —
+  open in a browser; implementation matches its look, with site fonts/tokens
+  replacing the mock's. Mock refinements adopted over the original spec:
+  - Lane toggles live in a **Layers** popover (Character banners / Activities /
+    Custom planning) + a **"Hide past banners"** toggle.
+  - A persistent **detail bar** below the timeline shows the selected banner
+    (live phase dates + duration, paired weapon, featured list, "View character")
+    instead of an anchored popup card.
+  - **Weapons are merged into the character banner cards** ("paired weapon" line
+    + detail bar) rather than a separate weapons lane — pending user confirmation;
+    if declined, add the separate Weapons lane back per original spec.
+  - "Updated <date, time>" chip top-right (feeds from banner freshness data).
+  - Banner cards carry art thumbnails, LIVE NOW / UP NEXT / RERUN tags, phase
+    labels ("5.7 Phase 1"); past cards desaturate; now-line has a diamond marker.
+- Game accent color drives the now-line, version ribbons, and current-block glow;
+  dark theme consistent with the existing card language.
 
 ### M2 — Custom time markers (item 18)
 

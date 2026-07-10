@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T08:55:33.728Z",
+  "generatedAt": "2026-07-10T08:51:16.179Z",
   "source": "GachaBase beta changelog",
   "games": {
     "zzz": {
@@ -7,7 +7,7 @@
       "label": "Zenless Zone Zero",
       "source": "GachaBase beta changelog",
       "sourceUrl": "https://zzz.gachabase.net/changelog/beta?lang=en",
-      "scrapedAt": "2026-07-09T08:55:33.131Z",
+      "scrapedAt": "2026-07-10T08:51:15.449Z",
       "title": "Changelog - v3.1.X | Zenless Zone Zero | Gachabase",
       "categoryLinks": [
         {
@@ -1289,7 +1289,7 @@
       "label": "Honkai: Star Rail",
       "source": "GachaBase beta changelog",
       "sourceUrl": "https://hsr.gachabase.net/changelog/beta?lang=en",
-      "scrapedAt": "2026-07-09T08:55:33.430Z",
+      "scrapedAt": "2026-07-10T08:51:15.824Z",
       "title": "Changelog - v4.3.5X | Honkai: Star Rail | Gachabase",
       "categoryLinks": [
         {
@@ -2179,7 +2179,7 @@
       "label": "Genshin Impact",
       "source": "GachaBase beta changelog",
       "sourceUrl": "https://gi.gachabase.net/changelog/beta?lang=en",
-      "scrapedAt": "2026-07-09T08:55:33.547Z",
+      "scrapedAt": "2026-07-10T08:51:15.950Z",
       "title": "Changelog - v6.7.5X | Genshin Impact | Gachabase",
       "categoryLinks": [
         {

@@ -1,13 +1,13 @@
 {
   "provider": "Prydwen",
   "game": "ww",
-  "generatedAt": "2026-07-09T08:53:35.209Z",
+  "generatedAt": "2026-07-10T08:49:31.188Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 6,
-      "unchanged": 57
+      "changed": 58,
+      "unchanged": 5
     }
   },
   "sections": {
@@ -16,43 +16,355 @@
       "removed": [],
       "changed": [
         {
+          "id": "characters:aalto",
+          "name": "Aalto",
+          "previousHash": "7f8907f7c103473121c21bc558625fb4b95d478f9e560ffa747c1005b228fa9b",
+          "currentHash": "9015cce5588d22ad992c952b99a786724640bc12b511612714e6449bfbf9cac8"
+        },
+        {
+          "id": "characters:aemeath",
+          "name": "Aemeath",
+          "previousHash": "93d1ba5c450052cb137929446629624796d0266dc9b2f826b0a0d931fbd01088",
+          "currentHash": "cb8224ee026880863291b3c0008529652a68696a5406e966302fceefd3e3622c"
+        },
+        {
+          "id": "characters:augusta",
+          "name": "Augusta",
+          "previousHash": "fabc23f9b51040838a8e35be6c316005a8df2e077e08db4b22a9d9fdc930980d",
+          "currentHash": "cb56dea0aea5cb42a708f9cdee75546df468fd5aa531422ad74cb459fc087b15"
+        },
+        {
+          "id": "characters:baizhi",
+          "name": "Baizhi",
+          "previousHash": "0698fffa299b5d4a377b44feeb54c8a78b8fdbb48d9c3eb1944df28aa6da32f8",
+          "currentHash": "555d28bcd7e122b2d1b1e175f6c6d6e8d712edf056ce85b13ad446a280a995bb"
+        },
+        {
+          "id": "characters:brant",
+          "name": "Brant",
+          "previousHash": "cedd0e9dd32ce8d8ea1347be1b4700ee54be8d4f3f5c73acaaa950d0440aafad",
+          "currentHash": "32c8fd6b90bbbcba6fc499b422cf28a57574cfd5e743ead0ffc55410f479adb0"
+        },
+        {
+          "id": "characters:buling",
+          "name": "Buling",
+          "previousHash": "f017306395b1f128ff3b90860a0df6119d351299ca1f11056e3ffbf3c7fbfeb6",
+          "currentHash": "0fa5cc7a2af8001e7cd2420c7ea304ffd636bda76ca0df864ddc07b28a7a45c5"
+        },
+        {
+          "id": "characters:calcharo",
+          "name": "Calcharo",
+          "previousHash": "4a13ca3315af7d901f7e3cd1c177e7f2cefe3bf1701eea67ba6595871f9badc3",
+          "currentHash": "d2aaf5002e4b0c380b25dbc4374c91f3669b73f6bac8f54a46d10881eb507040"
+        },
+        {
+          "id": "characters:camellya",
+          "name": "Camellya",
+          "previousHash": "77c0139d534b8f69bb2b309373188bf0831f01f9f6fdebf203f263dad05b6614",
+          "currentHash": "4651e8630e6bfa7fafb89451d743400f6d33f269df546f205e531ae256a3541b"
+        },
+        {
+          "id": "characters:cantarella",
+          "name": "Cantarella",
+          "previousHash": "e16ff36ec097352f86ba69d533927eeb5adbdf01d07815156ea90d07a92f7bcd",
+          "currentHash": "cbcf5d9fcf3c8f9fffd3eadf6331f1320326ae60840ad4039fe17ace34f793a8"
+        },
+        {
+          "id": "characters:carlotta",
+          "name": "Carlotta",
+          "previousHash": "03a89df1ae3b0d085cf445d75b938576feb64fe4111e235672772f0688d846dd",
+          "currentHash": "ada480e82545d1c085efda6be087bc659c70c9cef58903bbdedb63ffb4f8b8c5"
+        },
+        {
+          "id": "characters:cartethyia",
+          "name": "Cartethyia",
+          "previousHash": "1bbfe4ce3405c197942ecabba390bd50895e6b1c9f4ffda43b80af35e3440970",
+          "currentHash": "a85581ea492897c40923063316abd8cd60ec924dd6e818cda52eee3a8d6e627b"
+        },
+        {
+          "id": "characters:changli",
+          "name": "Changli",
+          "previousHash": "adafecaecfe3f35b6103a2b624892bd6b3d6cb1b6f1c5452e443718c4b50c0b5",
+          "currentHash": "4506dd8bed9a956fec8aa767511529798a2abb5c8877fdc11c7c1c339f2d8c3b"
+        },
+        {
+          "id": "characters:chisa",
+          "name": "Chisa",
+          "previousHash": "56a568be11c90d75f32d124f1e45f4f1bafbd288abbf11ea36a5c3e24fa3a359",
+          "currentHash": "2abaaa25184291f73ce97355699769bc53f67c9eec2a892019b7ee16c34067b1"
+        },
+        {
+          "id": "characters:chixia",
+          "name": "Chixia",
+          "previousHash": "c61a38bd584283abfd3c7cad1f82b70158538f4125a830a39d809624a0398234",
+          "currentHash": "87c519a2b7db59ba2891443e5c41bebb51d9d77f3fdc87629639c4cd16aec10c"
+        },
+        {
+          "id": "characters:ciaccona",
+          "name": "Ciaccona",
+          "previousHash": "84e8d1190f26220c365d474e0e233b7ef7332bb96ec13b36303687b77908e409",
+          "currentHash": "4845a8d53863d20d49f4f50335eb334ddb6147b1be6e2a0ed471c249314d90b4"
+        },
+        {
+          "id": "characters:danjin",
+          "name": "Danjin",
+          "previousHash": "e558e4b24f03711dc4b9146961d411be1509eff2db185a9e52e99a0c8ca4a774",
+          "currentHash": "661dc1f7fe810c25a2a21869051d61234cd9ddb407c525c9125dec3e43d24214"
+        },
+        {
+          "id": "characters:denia",
+          "name": "Denia",
+          "previousHash": "22120e2a5ff08708e5a514f4a94835141d47590d2f53a28dbfe32da01d246c35",
+          "currentHash": "dd57c17b986f86af2131f2663beff580371b4e58bbad4636a971565e209a407e"
+        },
+        {
+          "id": "characters:encore",
+          "name": "Encore",
+          "previousHash": "3d71c79ec7515fab87a7a587ffcec4e8be4bfe25c2c76d16cbfb5dbebdb50447",
+          "currentHash": "f0812afca68de9e02b5432872b75102afd01d826d2f73439ffeeb8935eca54b6"
+        },
+        {
+          "id": "characters:galbrena",
+          "name": "Galbrena",
+          "previousHash": "ca30f2151412f3bb2f5de2618b5bead063281e2f45d231f4f5d465cb3a385335",
+          "currentHash": "0c11c91a8c0a00ffbfc047c507f4bd8eb28165a0a1c5b5e3a964e2db9297f1ab"
+        },
+        {
+          "id": "characters:hiyuki",
+          "name": "Hiyuki",
+          "previousHash": "5fbd574295fdd9e85e46bd26f938238289bc4c8e15b85ce4190ab2452b77e0ff",
+          "currentHash": "1e20b02711c64e563230dbfa21b00ab98e00f68ad7ffe7034d8874d8b82f1777"
+        },
+        {
+          "id": "characters:iuno",
+          "name": "Iuno",
+          "previousHash": "e23660d1299d261c88d3090601204721b6832d956c57e52ffe27482c14c40c9a",
+          "currentHash": "1b0b59cb5e8e5730bca5ee8877d86f44459bcd256713901b440d42e637ab7f30"
+        },
+        {
           "id": "characters:jianxin",
           "name": "Jianxin",
-          "previousHash": "3a48f0378d68547de52e7c4062703911593719603db16c7b6b9c24e833056710",
-          "currentHash": "c1134b9c4b7d1b5d8463c28b1a55fecfd47ce51ea13ff068941e007691360fe3"
+          "previousHash": "c1134b9c4b7d1b5d8463c28b1a55fecfd47ce51ea13ff068941e007691360fe3",
+          "currentHash": "a53761ed46088564cae51a4b1734379a5d37fbc9745ffc45c69410d0b6a0c3d2"
+        },
+        {
+          "id": "characters:jinhsi",
+          "name": "Jinhsi",
+          "previousHash": "227ec690a8232abcdb8a629c7d092cd39b4ea19981bed98cfc83abb622fffc44",
+          "currentHash": "a0f56a90a0e792b7fbe1608eaed57cec05d341e213d1da7931ccff6ac678601e"
+        },
+        {
+          "id": "characters:jiyan",
+          "name": "Jiyan",
+          "previousHash": "5ecee163d15e5e5ed9467c3dcdd5a4c027f2a2fe6881b21b75c638f275d2a65b",
+          "currentHash": "982a955af89d5b24a5367105a1feef48faeec7a098f27b71b6eea414c807ba44"
+        },
+        {
+          "id": "characters:lingyang",
+          "name": "Lingyang",
+          "previousHash": "6ba49bde0f758dae583e827ac8172db3ab4bcdd38f3956d0323ca353a98c5895",
+          "currentHash": "0ef9a12aad7dfa6747bac48df119c0b003ee1db37345b625ce3258de65fa9ee0"
         },
         {
           "id": "characters:lucilla",
           "name": "Lucilla",
-          "previousHash": "ed24a0474541769d6a1cfd7f90be2abda27e335f83c61afdcf75841aec58b568",
-          "currentHash": "5a0c89f88666a0a29a143fbcf017fcf138126ecf7b60dfd39986271e7b0df4a5"
+          "previousHash": "5a0c89f88666a0a29a143fbcf017fcf138126ecf7b60dfd39986271e7b0df4a5",
+          "currentHash": "c29cadefec3ca9de3a682ede8269f5bd4ea16c972d9adac234be4137491de221"
         },
         {
           "id": "characters:lucy",
           "name": "Lucy",
-          "previousHash": "e74e5944793acceef69ec4a16bdecccf231b1dcba81a40484055fb2382ec359c",
-          "currentHash": "4dfd0ef56a8a0b2eafdaf4c343d3c4df9795b1788bdf2252003535d8fe4285eb"
+          "previousHash": "4dfd0ef56a8a0b2eafdaf4c343d3c4df9795b1788bdf2252003535d8fe4285eb",
+          "currentHash": "4131335286425527652a6d782d16533239bf355a9f960d96f063ee5e0824e632"
+        },
+        {
+          "id": "characters:lumi",
+          "name": "Lumi",
+          "previousHash": "ea0a6c4394258bde6013a859d0bdd1aed7ab6440b95c16572774ed8c87587b77",
+          "currentHash": "df915ceb1664bceb2a125b0070e057685dd9eb6556d5b3ed0baaad97f9f1814b"
+        },
+        {
+          "id": "characters:lupa",
+          "name": "Lupa",
+          "previousHash": "1b6977e144be2897a9de8d42231f073cfb1faa88b385ce46ef2abfcd89ebcd54",
+          "currentHash": "c62fb6d6fd71b5b8eb3a3622f33e70445067203024c03e2eb94c11b6575fcd3a"
+        },
+        {
+          "id": "characters:luuk-herssen",
+          "name": "Luuk Herssen",
+          "previousHash": "aa22c7c2cf45f504c35fbdf1733ded69763d44095728b1d059f2542501ac56b4",
+          "currentHash": "c61364ddc13eb434d33de9aea6e6e91f9c9cdd5ce8d0ca4f7ea19bc89ce0e81a"
+        },
+        {
+          "id": "characters:lynae",
+          "name": "Lynae",
+          "previousHash": "16267d3238c9fe2b6771e75b0667f48fa198aeb207e3cf593fe9140f3f24db16",
+          "currentHash": "d55bb8fd3e0672279b502b80718768a52903ac295f97145098d7b5e79be642b4"
+        },
+        {
+          "id": "characters:mornye",
+          "name": "Mornye",
+          "previousHash": "ee5efb88f118d607ac01ca5428cff2a4a487bf859dae29b88d96b5fcb07d30db",
+          "currentHash": "78d1526dc0ba63f5df6b30253c80ce607c484cc5e914592ea8a3597ac877ada6"
+        },
+        {
+          "id": "characters:mortefi",
+          "name": "Mortefi",
+          "previousHash": "50d1b7691d3a890b56bab17e96f8290837dbe59e88dd8f6265bf1347d3da22f3",
+          "currentHash": "9b0b08eb03efcedf24106f8d88fc13caf41c339a02fa8b092e3d599c874114ed"
+        },
+        {
+          "id": "characters:phoebe",
+          "name": "Phoebe",
+          "previousHash": "9680d24933039fefc178ab080ec9ab947f49e1aadbcd877214cccdd06b74397e",
+          "currentHash": "cc5dac4c5b66552af84138d4018b9c52cc0e23575daa2fdf0978b6eb9ccb00c6"
+        },
+        {
+          "id": "characters:phrolova",
+          "name": "Phrolova",
+          "previousHash": "3ae7a446ed3f994ab5c3067df58cca9de8d8b6bbba754d2279247de0dbf85491",
+          "currentHash": "b0f3bd482895b5f769efa27af88a60f995318edb89f8a954f9165b7641d3dd7b"
+        },
+        {
+          "id": "characters:qiuyuan",
+          "name": "Qiuyuan",
+          "previousHash": "6ccd8267485daacf5d7e169ebfee79e44941ae634f4abfbff9b7bb171eb0ca25",
+          "currentHash": "c8df03b370015c3b7a00a0c08da71d543ded0f108069cd560ab62a782bd4e703"
         },
         {
           "id": "characters:rebecca",
           "name": "Rebecca",
-          "previousHash": "29e754e9920eb4cf742ea65e9106f5055fe8e2aa942cd9e920b315f255762499",
-          "currentHash": "c81629f736e381077d1fd5ef291ffc4e31cb8fd8e491b1bd4aa3c632788f3a68"
+          "previousHash": "c81629f736e381077d1fd5ef291ffc4e31cb8fd8e491b1bd4aa3c632788f3a68",
+          "currentHash": "90df21b183c638f301854a518ee83c00f40944e207f267e207a9fc4cd9c2d2b7"
+        },
+        {
+          "id": "characters:roccia",
+          "name": "Roccia",
+          "previousHash": "a3e97217b4c82b5d6fe059319ae8b115c2a456269a7939479cfbff459bf19d15",
+          "currentHash": "43913bf2c1ba5c84eb2ca344e43b86b506a227223492e286690f4d71a3e5c443"
+        },
+        {
+          "id": "characters:rover-aero",
+          "name": "Rover (Aero)",
+          "previousHash": "199953d3d21d2d2f53b67983b561fde50c5c1120c056a27ee27d6f79ef8c5a02",
+          "currentHash": "fda713118bf4f17469d93b6a10d14a3d4efadd60e7ca6cdfa0ce79b2db3c936a"
+        },
+        {
+          "id": "characters:rover-electro",
+          "name": "Rover (Electro)",
+          "previousHash": "8d1f0070f5429fee82afa3688af01cb470c910afaeaba1a87395779430ed43e9",
+          "currentHash": "fc1bd619ec2c823d455d750ed977fc13fb35647db5957578d1d8353afb38b74e"
+        },
+        {
+          "id": "characters:rover-havoc",
+          "name": "Rover (Havoc)",
+          "previousHash": "9d09c443139ea4598b3f83046a00d21fde28d0fccbd4a36701253671e74acaa6",
+          "currentHash": "9958e157357d6fa70d071a06618f77ca5a97fb2cabd38ab3000fae87733dd186"
+        },
+        {
+          "id": "characters:rover-spectro",
+          "name": "Rover (Spectro)",
+          "previousHash": "745dacb1823d4bb590b81ac98fe261d31e4f4f5c4e63f7c45615738fe0e8257c",
+          "currentHash": "7acae751f71606063914203dacac2e4141a9a18d2b174cafc49456685fa6ac0e"
+        },
+        {
+          "id": "characters:sanhua",
+          "name": "Sanhua",
+          "previousHash": "0887ae656b2e5009e33564a7bab01c5d1227df7f17b3668766f9ec1121313806",
+          "currentHash": "912ffdd945b37a5bfd3d8ec6b57a46862fd0871e7d1630de6b63179ba8fed592"
+        },
+        {
+          "id": "characters:sigrika",
+          "name": "Sigrika",
+          "previousHash": "c9397cfec3d42f6405fdec6b9354a97c724e09addaf0c4f0c709121ed71732c3",
+          "currentHash": "bdfdd0ec22d3bea3cc2bb6730cf0cb77ddf3258acaa5097f5561372fab805cf1"
+        },
+        {
+          "id": "characters:taoqi",
+          "name": "Taoqi",
+          "previousHash": "75080d5a24a4672eb295c6694578c993c6d45cef68257b93d49ae6179ce255e5",
+          "currentHash": "7d261eb89dfed2bc5a12b9a02fa5e6234c12d7df20d61251c895349d7140f7d3"
+        },
+        {
+          "id": "characters:the-shorekeeper",
+          "name": "The Shorekeeper",
+          "previousHash": "aa3cd5b1edad768e0578ea8395383487da70696f73a44067350045796a8dd46a",
+          "currentHash": "ad91e60b1c5f1c91c9896994df02e5f79d75e76ad7962b7c47a7aee4eb56d977"
+        },
+        {
+          "id": "characters:verina",
+          "name": "Verina",
+          "previousHash": "af497bbcefb98a843f4d38c1ab672d7b3e7b3d39d4707450a136bec18703dd04",
+          "currentHash": "62e075328cd693e953895a2e1cdbc854800db6488749907fceaaeee5df23213a"
+        },
+        {
+          "id": "characters:xiangli-yao",
+          "name": "Xiangli Yao",
+          "previousHash": "37a3213f6d0c77ff09c3f759c80d29bf651abcd36e9e8a80fa1f353121c0a447",
+          "currentHash": "ee89b84dd6ca3afa444f2eabe8274c5afe9c08a1ed8822e2c8e860abb11ab511"
+        },
+        {
+          "id": "characters:yangyang",
+          "name": "Yangyang",
+          "previousHash": "574a6c57d44bd07776b116bde7e2fade69dbb732af765a2d829859261d942711",
+          "currentHash": "c9a82ccac5cbd4da7e17527673a04c0dcd503ca2a665231e01f43b3ce1225289"
+        },
+        {
+          "id": "characters:yangyang-xuanling",
+          "name": "Yangyang Xuanling",
+          "previousHash": "749fa4b96b2a6466ac958dfec8cc54fdabfcaa1fda3d0e5237be280cf8cd4a79",
+          "currentHash": "fdf153ec9f9c4df1c5f55928b4180d51af00d115cd38ad9a4d923f2007c6047e"
+        },
+        {
+          "id": "characters:yinlin",
+          "name": "Yinlin",
+          "previousHash": "c3d2984121a6a52fb85ebaff9de0847f93f242e659ceae9f8b530e088614b077",
+          "currentHash": "4dab191f1b158f2bef9cc112e8a112babdd50e3484a22bc7fe0420b42d8b84b1"
+        },
+        {
+          "id": "characters:youhu",
+          "name": "Youhu",
+          "previousHash": "f012794f8d35ae66cadeb79b53450f01f7773fe25123921188be64752bc4a720",
+          "currentHash": "a08980dbc1c1b4218ad6b8295f0c1fdd1183b511aee843e6b1dee0e94979aeaf"
+        },
+        {
+          "id": "characters:yuanwu",
+          "name": "Yuanwu",
+          "previousHash": "db4020c37b398f79738a84884162ded42ebce86dcfda6df00698ba42c18868b0",
+          "currentHash": "a6563d57b9148123e30724a3ac047a0b4696464150122e667f7eb56bdf540010"
+        },
+        {
+          "id": "characters:zani",
+          "name": "Zani",
+          "previousHash": "ce713a55d56f4cff55b303d52ed6b487305e1cac6c6027676ddbd606a855fa42",
+          "currentHash": "abf56940d2629fdc8e869637f3f438a17265e5526d7d0f9d3071c59ff7cba396"
+        },
+        {
+          "id": "characters:zhezhi",
+          "name": "Zhezhi",
+          "previousHash": "aeabb02d7f69708736f38d4c567c974a6a3fb728ff62aee176f9582b299f7db9",
+          "currentHash": "6181b9994aebcae61d34fac61711d998baf10aff096bb20a62569d11fc41bf11"
         },
         {
           "id": "collection:characters",
           "name": "Wuthering Waves Characters Build Guides",
-          "previousHash": "76a90dc38b939f973ea6893da08b38ad34181e6eaf3cf074a2d0983ed0bac8b4",
-          "currentHash": "a444c4aeb5b3ab453d3475f72d0f92cb974ac60195bdd126586254c08edd5003"
+          "previousHash": "a444c4aeb5b3ab453d3475f72d0f92cb974ac60195bdd126586254c08edd5003",
+          "currentHash": "d7e70d4f9a1d1dd4a3191be7d5d6312175731c6f4d6333a335edd4faaf5bf6ad"
+        },
+        {
+          "id": "collection:echoes",
+          "name": "Wuthering Waves Echoes",
+          "previousHash": "a19b72baa70c6c60df0c6864ac2fbaca01de15f931a473fe260575296b0d0816",
+          "currentHash": "2bbc841003cd905d189e8ba303fcc566b43d9d60c27861f7504e422d1a38a33d"
         },
         {
           "id": "collection:weapons",
           "name": "Wuthering Waves Weapons",
-          "previousHash": "b7b080872ffb7e6f1be138307139b127dddadd0df5a636dd59f5f95159130adb",
-          "currentHash": "0d965641fe1379353b0f369603f355493213c8676d8b683aad5106462b225491"
+          "previousHash": "0d965641fe1379353b0f369603f355493213c8676d8b683aad5106462b225491",
+          "currentHash": "9860a4386d53fa1aed219599cf1a6b2fd806a75cfc8aab784240240edffaff66"
         }
       ],
-      "unchanged": 57,
+      "unchanged": 5,
       "totals": {
         "previous": 63,
         "current": 63

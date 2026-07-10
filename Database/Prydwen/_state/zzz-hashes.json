@@ -1,6 +1,6 @@
 {
   "game": "zzz",
-  "updatedAt": "2026-07-09T08:53:35.209Z",
+  "updatedAt": "2026-07-10T08:49:31.188Z",
   "hashes": {
     "records": {
       "characters:alice": "596a1e43d603147aa1717812a136adbed9a08d167b9f07e71427610eb166636a",
@@ -29,14 +29,14 @@
       "characters:koleda": "1c77d89ac9a0fd5017891f81ebee36cce2d220d0fd2ac9d3085434046efb5bdf",
       "characters:lighter": "1e2f6f3877ee849eec1ce331571e97b20759d3354d134226a23212e879089d2a",
       "characters:lucia": "6af91fa76054200c24f0aad09e9993346a77f3e76766e7fe470e1dccd2304649",
-      "characters:lucy": "c007773d4353478b44bf9c6c27b45e4b294495f8ba181a4683a147894c18401f",
+      "characters:lucy": "8391be17c659a64ecd179abc29364ced8b2b7bc19a153678d7b6e2ac49f4da48",
       "characters:lycaon": "f07707978b769f2e67180d007c070389da68ed647e5277615563106120ed40f0",
       "characters:manato": "60ced103fdba1f85d0c97aad3cb4ff73c25584a9c29b056d19d9e847076fd34b",
       "characters:miyabi": "666aec960825f9ce58475fab9d908c8d69859bb0910f83bebe12dd67240fade7",
       "characters:nangong-yu": "6c7738e124a69e2e4de2b61e4b202b53b13486f9f3f217962f9175de410c9a53",
       "characters:nekomata": "730c33490d3657d0a51a8e517dfbf5d95f52296a7d535b03bd6f573bdf08cbac",
       "characters:nicole-demara": "3d0084b188c755d3aab937dd7ed15e1c9973914bbb6176bf4fea550c151487ab",
-      "characters:norma": "7b3efb9d03a4889394809a339fa617574bdee60e273e6b5b5e41bf0eff7a014d",
+      "characters:norma": "1fc3d4a5c1f7657e6f3acd316ca8b7550033ee6f90a62c14e9eeefaf40ac5243",
       "characters:orphie-and-magus": "9c93d788203897e212d9c8b6ebe7429cc31bb5d53e057289ef5bbc834deab1ac",
       "characters:pan-yinhu": "168f1fea17849100e8ab6bbc0b6de83a41f0ba10a81f49fe711c2e21682ced04",
       "characters:phoenix": "6e894d246a4c2cb3138425aa2d69a6c576a6eb8baab19705cadf7db5741f7b84",
@@ -68,7 +68,7 @@
       "characters:zhao": "5534e181de91b505553c12d5a5e69f1d337dd97a20d1afd8008716b5e803bf03",
       "characters:zhu-yuan": "6cf0ff4a1bdf8d0ac5446c2f536adb3b5d33dceb7aa7d22c09b8e5521bb49ea0",
       "collection:bangboo": "e68ab0346b2ec87bf0e89fb2f7e04a19aaa14e6564393c79c52c7a5a44399a14",
-      "collection:characters": "11a2a3950ad7a670be6c652c3ed9a67fc5ba908a18945609f544db89f88269fc",
+      "collection:characters": "11add481a66ec38aeed56dcfbd5a9d59de5feb8801d594a2ba9ab4e861641b64",
       "collection:disk-drives": "dbc0e92e1725c0c66802454e78d9887394b3cab005723631aeac2c8efd12dab3",
       "collection:w-engines": "a944dd9186a29ce282b63ab9e84a2ea468600bf0e67ea8677ae5b2f111836fc8"
     }

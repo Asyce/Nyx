@@ -2525,15 +2525,15 @@
     "tag": [
       "Pioneer Podcast"
     ],
-    "description": "Unlocks the Insider Channel of the Pioneer Podcast.\n\nComplete the Podcast Tasks for various rewards.",
+    "description": "Unlocks the Insider Channel of the Pioneer Podcast.\r\n\r\nComplete the Podcast Tasks for various rewards.",
     "background": "Start listening to the Pioneer Podcast now to gain valuable insights for your outdoor adventures!",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_cdtq_UI.webp"
     },
     "liveComparison": {
-      "liveHash": "d0bf0fe1cbd36078473172b9c91ebe4d6223de6c82ac523eeb70d8971ad0379d",
-      "currentHash": "d0bf0fe1cbd36078473172b9c91ebe4d6223de6c82ac523eeb70d8971ad0379d"
+      "liveHash": "0621f3c35421845195a42bd23091bc598716649ff7fed6c90a74d8e82f4184ca",
+      "currentHash": "0621f3c35421845195a42bd23091bc598716649ff7fed6c90a74d8e82f4184ca"
     }
   },
   {
@@ -2545,15 +2545,15 @@
     "tag": [
       "Pioneer Podcast"
     ],
-    "description": "Unlocks the Insider Channel of the Pioneer Podcast.\n\nComplete the Podcast Tasks for various rewards.",
+    "description": "Unlocks the Insider Channel of the Pioneer Podcast.\r\n\r\nComplete the Podcast Tasks for various rewards.",
     "background": "Standard physical key issued by the Pioneer Association for the Insider Channel.\n\"Welcome to the Insider Channel! Coming up next is the morning news express...\"",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_zl_02_UI.webp"
     },
     "liveComparison": {
-      "liveHash": "690bc6b16a604254eb3d31a25321a664985b2e31d4e0eb35de0de7c3929f6d12",
-      "currentHash": "690bc6b16a604254eb3d31a25321a664985b2e31d4e0eb35de0de7c3929f6d12"
+      "liveHash": "1d3a088a43f995093462a53c1587b1cad1cad33b72fefafd50fde29596be3aac",
+      "currentHash": "1d3a088a43f995093462a53c1587b1cad1cad33b72fefafd50fde29596be3aac"
     }
   },
   {
@@ -2565,15 +2565,15 @@
     "tag": [
       "Pioneer Podcast"
     ],
-    "description": "Unlocks the Insider Channel of the Pioneer Podcast and get additional privilege rewards.\n\nComplete the Podcast Tasks for various rewards.",
+    "description": "Unlocks the Insider Channel of the Pioneer Podcast and get additional privilege rewards.\r\n\r\nComplete the Podcast Tasks for various rewards.",
     "background": "Special Deluxe Keycode for the Pioneer Podcast's Connoisseur Channel.\n\"Start listening to the Pioneer Podcast now to gain valuable insights for your outdoor adventures!\"",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_zl_03_UI.webp"
     },
     "liveComparison": {
-      "liveHash": "ed5d96fff7cfb77d6dd999c64e32208ed30e989ff6d1280d3fb3d4efb7461ed4",
-      "currentHash": "ed5d96fff7cfb77d6dd999c64e32208ed30e989ff6d1280d3fb3d4efb7461ed4"
+      "liveHash": "67ca650a8e527de1c2d52c5854c93fef702d249b64d4be692c76375db8f349c3",
+      "currentHash": "67ca650a8e527de1c2d52c5854c93fef702d249b64d4be692c76375db8f349c3"
     }
   },
   {
@@ -15677,15 +15677,15 @@
       "Random Echo Item",
       "Supply Chest"
     ],
-    "description": "Open to obtain a random Echo of the following Sonata Effect: Freezing Frost.\n2pcs Set: Glacio DMG + 10%.\n5pcs Set: Glacio DMG + 10% after releasing Basic Attack or Heavy Attack. This effect stacks up to 3 times, each stack lasts 15s.",
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Freezing Frost.\r\n2pcs Set: Glacio DMG + 10%.\r\n5pcs Set: Glacio DMG + 10% after releasing Basic Attack or Heavy Attack. This effect stacks up to 3 times, each stack lasts 15s.",
     "background": "Chills are emanating from the crevice...",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_05_UI.webp"
     },
     "liveComparison": {
-      "liveHash": "30d629ab9e3f98e398cdf849b4e4cbdaf616caf6adffb47edea6567f5ef67397",
-      "currentHash": "30d629ab9e3f98e398cdf849b4e4cbdaf616caf6adffb47edea6567f5ef67397"
+      "liveHash": "c2373ab00d72e386f43ba97739d41d8276f4c6dcb7ae27f4e741dd4670439ccc",
+      "currentHash": "c2373ab00d72e386f43ba97739d41d8276f4c6dcb7ae27f4e741dd4670439ccc"
     }
   },
   {
@@ -15698,15 +15698,15 @@
       "Random Echo Item",
       "Supply Chest"
     ],
-    "description": "Open to obtain a random Echo of the following Sonata Effect: Molten Rift.\n2pcs Set: Fusion DMG + 10%.\n5pcs Set: Fusion DMG + 30% for 15s after releasing Resonance Skill.",
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Molten Rift.\r\n2pcs Set: Fusion DMG + 10%.\r\n5pcs Set: Fusion DMG + 30% for 15s after releasing Resonance Skill.",
     "background": "Flames are flickering and rising in the crevice...",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_06_UI.webp"
     },
     "liveComparison": {
-      "liveHash": "a7ba552cd88c32c620077c5a20ea08ab70eb3133d73352b44b30df7b9d8151d2",
-      "currentHash": "a7ba552cd88c32c620077c5a20ea08ab70eb3133d73352b44b30df7b9d8151d2"
+      "liveHash": "ce10ffe074b6d4eab3c62e0727ff9e9e85e188012422a708d4da9fc1066a3138",
+      "currentHash": "ce10ffe074b6d4eab3c62e0727ff9e9e85e188012422a708d4da9fc1066a3138"
     }
   },
   {
@@ -15719,15 +15719,15 @@
       "Random Echo Item",
       "Supply Chest"
     ],
-    "description": "Open to obtain a random Echo of the following Sonata Effect: Void Thunder.\n2pcs Set: Electro DMG + 10%.\n5pcs Set: Electro DMG + 15% after releasing Heavy Attack or Resonance Skill. This effect stacks up to 2 times, each stack lasts 15s.",
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Void Thunder.\r\n2pcs Set: Electro DMG + 10%.\r\n5pcs Set: Electro DMG + 15% after releasing Heavy Attack or Resonance Skill. This effect stacks up to 2 times, each stack lasts 15s.",
     "background": "Thunder is rumbling in the crevice...",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_07_UI.webp"
     },
     "liveComparison": {
-      "liveHash": "6486202c89d305b3e6ae5d7c6857e21d8db65ff606ad85ea9f257e0357d6eb4d",
-      "currentHash": "6486202c89d305b3e6ae5d7c6857e21d8db65ff606ad85ea9f257e0357d6eb4d"
+      "liveHash": "37cf922f57c914b907bc671016441a541c0e51cfb39ac261e020e1980be6d4fe",
+      "currentHash": "37cf922f57c914b907bc671016441a541c0e51cfb39ac261e020e1980be6d4fe"
     }
   },
   {
@@ -15740,15 +15740,15 @@
       "Random Echo Item",
       "Supply Chest"
     ],
-    "description": "Open to obtain a random Echo of the following Sonata Effect: Sierra Gale.\n2pcs Set: Aero DMG + 10%.\n5pcs Set: Aero DMG + 30% for 15s after releasing Intro Skill.",
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Sierra Gale.\r\n2pcs Set: Aero DMG + 10%.\r\n5pcs Set: Aero DMG + 30% for 15s after releasing Intro Skill.",
     "background": "A gust of wind is howling through the crevice...",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_08_UI.webp"
     },
     "liveComparison": {
-      "liveHash": "18a615ff28dcc03146176e6d096c33beb4cae4205b772dd9b8f7735c3c687bad",
-      "currentHash": "18a615ff28dcc03146176e6d096c33beb4cae4205b772dd9b8f7735c3c687bad"
+      "liveHash": "6c3a490b2a65f467a8cd4410e8f99b8b5775bd9643411480ca677aa1dd250929",
+      "currentHash": "6c3a490b2a65f467a8cd4410e8f99b8b5775bd9643411480ca677aa1dd250929"
     }
   },
   {
@@ -15761,15 +15761,15 @@
       "Random Echo Item",
       "Supply Chest"
     ],
-    "description": "Open to obtain a random Echo of the following Sonata Effect: Celestial Light.\n2pcs Set: Spectro DMG + 10%.\n5pcs Set: Spectro DMG + 30% for 15s after releasing Intro Skill.",
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Celestial Light.\r\n2pcs Set: Spectro DMG + 10%.\r\n5pcs Set: Spectro DMG + 30% for 15s after releasing Intro Skill.",
     "background": "Dazzling rays of light are emanating from the crevice...",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_09_UI.webp"
     },
     "liveComparison": {
-      "liveHash": "011dd0b1329eb9d169f1c7e46564a33984cbcfb777a22002c6cce7cb8bd818ba",
-      "currentHash": "011dd0b1329eb9d169f1c7e46564a33984cbcfb777a22002c6cce7cb8bd818ba"
+      "liveHash": "f370f788918e0ceea07c9af66f74197638362058d531e29973479b10892e6acf",
+      "currentHash": "f370f788918e0ceea07c9af66f74197638362058d531e29973479b10892e6acf"
     }
   },
   {
@@ -15782,15 +15782,15 @@
       "Random Echo Item",
       "Supply Chest"
     ],
-    "description": "Open to obtain a random Echo of the following Sonata Effect: Havoc Eclipse.\n2pcs Set: Havoc DMG + 10%.\n5pcs Set: Havoc DMG + 7.5% after releasing Basic Attack or Heavy Attack. This effect stacks up to 4 times, each stack lasts 15s.",
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Havoc Eclipse.\r\n2pcs Set: Havoc DMG + 10%.\r\n5pcs Set: Havoc DMG + 7.5% after releasing Basic Attack or Heavy Attack. This effect stacks up to 4 times, each stack lasts 15s.",
     "background": "The chaos seems to devour everything in the crevice...",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_10_UI.webp"
     },
     "liveComparison": {
-      "liveHash": "04e3c64e2ee8fe4e55b10572c65930d2d5f0e76e1a6119a1a61f85a5bbfff3fe",
-      "currentHash": "04e3c64e2ee8fe4e55b10572c65930d2d5f0e76e1a6119a1a61f85a5bbfff3fe"
+      "liveHash": "e2cecaaef1fa2288814d0a17ca840a86e38dbbe484d642993ff4ad76e43b2178",
+      "currentHash": "e2cecaaef1fa2288814d0a17ca840a86e38dbbe484d642993ff4ad76e43b2178"
     }
   },
   {
@@ -15824,15 +15824,15 @@
       "Random Echo Item",
       "Supply Chest"
     ],
-    "description": "Open to obtain a random Echo of the following Sonata Effect: Moonlit Clouds.\n2pcs Set: Energy Regen + 10%.\n5pcs Set: After using Outro Skill, increases the ATK of the next Resonator by 22.5% for 15s.",
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Moonlit Clouds.\r\n2pcs Set: Energy Regen + 10%.\r\n5pcs Set: After using Outro Skill, increases the ATK of the next Resonator by 22.5% for 15s.",
     "background": "A bright moon seems to hide in the crevice...",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_12_UI.webp"
     },
     "liveComparison": {
-      "liveHash": "59b874d88cc781959dfaa84aaf08b16749b5a3bbb34c3f40e2be4212d51bcee7",
-      "currentHash": "59b874d88cc781959dfaa84aaf08b16749b5a3bbb34c3f40e2be4212d51bcee7"
+      "liveHash": "21198b29b39365f31b990f17071df88db31e3b77dd2d05f308b7accf7fba35ee",
+      "currentHash": "21198b29b39365f31b990f17071df88db31e3b77dd2d05f308b7accf7fba35ee"
     }
   },
   {
@@ -15866,15 +15866,15 @@
       "Random Echo Item",
       "Supply Chest"
     ],
-    "description": "Open to obtain a random Echo of the following Sonata Effect: Freezing Frost.\n2pcs Set: Glacio DMG + 10%.\n5pcs Set: Glacio DMG + 10% after releasing Basic Attack or Heavy Attack. This effect stacks up to 3 times, each stack lasts 15s.",
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Freezing Frost.\r\n2pcs Set: Glacio DMG + 10%.\r\n5pcs Set: Glacio DMG + 10% after releasing Basic Attack or Heavy Attack. This effect stacks up to 3 times, each stack lasts 15s.",
     "background": "Chills are emanating from the crevice...",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_05_UI.webp"
     },
     "liveComparison": {
-      "liveHash": "90e4ada2938a0c77c6a77ec90ec79313c4e8cdbf7bbb9c87cb907593daa7b8e2",
-      "currentHash": "90e4ada2938a0c77c6a77ec90ec79313c4e8cdbf7bbb9c87cb907593daa7b8e2"
+      "liveHash": "4c2695faf76295355e8b2e179eaea508f47e18b38a3219e54c886b405d037184",
+      "currentHash": "4c2695faf76295355e8b2e179eaea508f47e18b38a3219e54c886b405d037184"
     }
   },
   {
@@ -15887,15 +15887,15 @@
       "Random Echo Item",
       "Supply Chest"
     ],
-    "description": "Open to obtain a random Echo of the following Sonata Effect: Molten Rift.\n2pcs Set: Fusion DMG + 10%.\n5pcs Set: Fusion DMG + 30% for 15s after releasing Resonance Skill.",
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Molten Rift.\r\n2pcs Set: Fusion DMG + 10%.\r\n5pcs Set: Fusion DMG + 30% for 15s after releasing Resonance Skill.",
     "background": "Flames are flickering and rising in the crevice...",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_06_UI.webp"
     },
     "liveComparison": {
-      "liveHash": "a2a86212a1d2e65c2f403733230b82cc81f8e050b3af1a5a231f54f8d4794cba",
-      "currentHash": "a2a86212a1d2e65c2f403733230b82cc81f8e050b3af1a5a231f54f8d4794cba"
+      "liveHash": "e49c8fc337e8c4ddf86d6f62e4bcc8aa41070b98c1a177a3c1b5856c3464b655",
+      "currentHash": "e49c8fc337e8c4ddf86d6f62e4bcc8aa41070b98c1a177a3c1b5856c3464b655"
     }
   },
   {
@@ -15908,15 +15908,15 @@
       "Random Echo Item",
       "Supply Chest"
     ],
-    "description": "Open to obtain a random Echo of the following Sonata Effect: Void Thunder.\n2pcs Set: Electro DMG + 10%.\n5pcs Set: Electro DMG + 15% after releasing Heavy Attack or Resonance Skill. This effect stacks up to 2 times, each stack lasts 15s.",
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Void Thunder.\r\n2pcs Set: Electro DMG + 10%.\r\n5pcs Set: Electro DMG + 15% after releasing Heavy Attack or Resonance Skill. This effect stacks up to 2 times, each stack lasts 15s.",
     "background": "Thunder is rumbling in the crevice...",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_07_UI.webp"
     },
     "liveComparison": {
-      "liveHash": "c51346abfb8f5860574d72303b8db3a15d84193510f06808b51f231cdc2bfb80",
-      "currentHash": "c51346abfb8f5860574d72303b8db3a15d84193510f06808b51f231cdc2bfb80"
+      "liveHash": "19c59e412164c6035240b0bd4bba3f19947ba17b683b71c88e6ed86422371745",
+      "currentHash": "19c59e412164c6035240b0bd4bba3f19947ba17b683b71c88e6ed86422371745"
     }
   },
   {
@@ -15929,15 +15929,15 @@
       "Random Echo Item",
       "Supply Chest"
     ],
-    "description": "Open to obtain a random Echo of the following Sonata Effect: Sierra Gale.\n2pcs Set: Aero DMG + 10%.\n5pcs Set: Aero DMG + 30% for 15s after releasing Intro Skill.",
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Sierra Gale.\r\n2pcs Set: Aero DMG + 10%.\r\n5pcs Set: Aero DMG + 30% for 15s after releasing Intro Skill.",
     "background": "A gust of wind is howling through the crevice...",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_08_UI.webp"
     },
     "liveComparison": {
-      "liveHash": "492a35084d9e8cba1a3ecdd1917ed77e44176330fe4017e30ad5f15ee8b1d5dd",
-      "currentHash": "492a35084d9e8cba1a3ecdd1917ed77e44176330fe4017e30ad5f15ee8b1d5dd"
+      "liveHash": "c8cf3f3954fdd54ad21496c17d82fe18c62d3615fbd70cc97278a39793a50f74",
+      "currentHash": "c8cf3f3954fdd54ad21496c17d82fe18c62d3615fbd70cc97278a39793a50f74"
     }
   },
   {
@@ -15950,15 +15950,15 @@
       "Random Echo Item",
       "Supply Chest"
     ],
-    "description": "Open to obtain a random Echo of the following Sonata Effect: Celestial Light.\n2pcs Set: Spectro DMG + 10%.\n5pcs Set: Spectro DMG + 30% for 15s after releasing Intro Skill.",
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Celestial Light.\r\n2pcs Set: Spectro DMG + 10%.\r\n5pcs Set: Spectro DMG + 30% for 15s after releasing Intro Skill.",
     "background": "Dazzling rays of light are emanating from the crevice...",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_09_UI.webp"
     },
     "liveComparison": {
-      "liveHash": "947e1c0d54e1e54062903db13cc142cf7a5a91ffab4a32870726ac722e3aca30",
-      "currentHash": "947e1c0d54e1e54062903db13cc142cf7a5a91ffab4a32870726ac722e3aca30"
+      "liveHash": "54f7154ce896ad72234a5e12e4bfdb52caddcf6f04cf3438e0096048c8d59b63",
+      "currentHash": "54f7154ce896ad72234a5e12e4bfdb52caddcf6f04cf3438e0096048c8d59b63"
     }
   },
   {
@@ -15971,15 +15971,15 @@
       "Random Echo Item",
       "Supply Chest"
     ],
-    "description": "Open to obtain a random Echo of the following Sonata Effect: Havoc Eclipse.\n2pcs Set: Havoc DMG + 10%.\n5pcs Set: Havoc DMG + 7.5% after releasing Basic Attack or Heavy Attack. This effect stacks up to 4 times, each stack lasts 15s.",
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Havoc Eclipse.\r\n2pcs Set: Havoc DMG + 10%.\r\n5pcs Set: Havoc DMG + 7.5% after releasing Basic Attack or Heavy Attack. This effect stacks up to 4 times, each stack lasts 15s.",
     "background": "The chaos seems to devour everything in the crevice...",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_10_UI.webp"
     },
     "liveComparison": {
-      "liveHash": "e1307a202705306c3606f09c0e2952e66bb51281bb26ac3ccdf6ad32975fb617",
-      "currentHash": "e1307a202705306c3606f09c0e2952e66bb51281bb26ac3ccdf6ad32975fb617"
+      "liveHash": "660a5f57634bda719c3f4787327e1f261784f6430483087bf1ad31ca784063b0",
+      "currentHash": "660a5f57634bda719c3f4787327e1f261784f6430483087bf1ad31ca784063b0"
     }
   },
   {
@@ -16013,15 +16013,15 @@
       "Random Echo Item",
       "Supply Chest"
     ],
-    "description": "Open to obtain a random Echo of the following Sonata Effect: Moonlit Clouds.\n2pcs Set: Energy Regen + 10%.\n5pcs Set: After using Outro Skill, increases the ATK of the next Resonator by 22.5% for 15s.",
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Moonlit Clouds.\r\n2pcs Set: Energy Regen + 10%.\r\n5pcs Set: After using Outro Skill, increases the ATK of the next Resonator by 22.5% for 15s.",
     "background": "A bright moon seems to hide in the crevice...",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_12_UI.webp"
     },
     "liveComparison": {
-      "liveHash": "e0edc6da6e5c8077ee147bb58d3e6fec39b39f9e7a46e5d4df925aecf6529600",
-      "currentHash": "e0edc6da6e5c8077ee147bb58d3e6fec39b39f9e7a46e5d4df925aecf6529600"
+      "liveHash": "5229a0c3cb94c8ae76bd8c7cd21d8b51a48f96480f44fe6bba4c8e43936d302d",
+      "currentHash": "5229a0c3cb94c8ae76bd8c7cd21d8b51a48f96480f44fe6bba4c8e43936d302d"
     }
   },
   {
@@ -18739,15 +18739,15 @@
       "Random Echo Item",
       "Supply Chest"
     ],
-    "description": "Open to obtain a random Echo of the following Sonata Effect: Molten Rift.\n2pcs Set: Fusion DMG + 10%.\n5pcs Set: Fusion DMG + 30% for 15s after releasing Resonance Skill.",
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Molten Rift.\r\n2pcs Set: Fusion DMG + 10%.\r\n5pcs Set: Fusion DMG + 30% for 15s after releasing Resonance Skill.",
     "background": "Flames are flickering and rising in the crevice...",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_06_UI.webp"
     },
     "liveComparison": {
-      "liveHash": "8992e0512cd8f2904bab289b1b8192bae20886eb70f3a8069199d6934d98d99b",
-      "currentHash": "8992e0512cd8f2904bab289b1b8192bae20886eb70f3a8069199d6934d98d99b"
+      "liveHash": "14d3baeb546f5c7162e5bc37c737ccd06dc131e9a5040fbff892bd403503742e",
+      "currentHash": "14d3baeb546f5c7162e5bc37c737ccd06dc131e9a5040fbff892bd403503742e"
     }
   },
   {
@@ -18760,15 +18760,15 @@
       "Random Echo Item",
       "Supply Chest"
     ],
-    "description": "Open to obtain a random Echo of the following Sonata Effect: Void Thunder.\n2pcs Set: Electro DMG + 10%.\n5pcs Set: Electro DMG + 15% after releasing Heavy Attack or Resonance Skill. This effect stacks up to 2 times, each stack lasts 15s.",
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Void Thunder.\r\n2pcs Set: Electro DMG + 10%.\r\n5pcs Set: Electro DMG + 15% after releasing Heavy Attack or Resonance Skill. This effect stacks up to 2 times, each stack lasts 15s.",
     "background": "Thunder is rumbling in the crevice...",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_07_UI.webp"
     },
     "liveComparison": {
-      "liveHash": "3734f26efa85fe60cbad13c7c2425f621ab7bd7de445c41db2802e979f5ec1c8",
-      "currentHash": "3734f26efa85fe60cbad13c7c2425f621ab7bd7de445c41db2802e979f5ec1c8"
+      "liveHash": "c61ce3275d11a0abbd0fdb872157c7bd8d4168757ce5a037a6c395baf983a7bf",
+      "currentHash": "c61ce3275d11a0abbd0fdb872157c7bd8d4168757ce5a037a6c395baf983a7bf"
     }
   },
   {
@@ -18781,15 +18781,15 @@
       "Random Echo Item",
       "Supply Chest"
     ],
-    "description": "Open to obtain a random Echo of the following Sonata Effect: Sierra Gale.\n2pcs Set: Aero DMG + 10%.\n5pcs Set: Aero DMG + 30% for 15s after releasing Intro Skill.",
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Sierra Gale.\r\n2pcs Set: Aero DMG + 10%.\r\n5pcs Set: Aero DMG + 30% for 15s after releasing Intro Skill.",
     "background": "A gust of wind is howling through the crevice...",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_08_UI.webp"
     },
     "liveComparison": {
-      "liveHash": "60c0b00512008ab087f31153cf22fe1ee8c2790b006ee54ae0cb704fbf5e0a9e",
-      "currentHash": "60c0b00512008ab087f31153cf22fe1ee8c2790b006ee54ae0cb704fbf5e0a9e"
+      "liveHash": "52b1f47d7b0a635a7066bc40d4cf04e1148721131ac0ee48e023500b9f93c49a",
+      "currentHash": "52b1f47d7b0a635a7066bc40d4cf04e1148721131ac0ee48e023500b9f93c49a"
     }
   },
   {
@@ -18802,15 +18802,15 @@
       "Random Echo Item",
       "Supply Chest"
     ],
-    "description": "Open to obtain a random Echo of the following Sonata Effect: Celestial Light.\n2pcs Set: Spectro DMG + 10%.\n5pcs Set: Spectro DMG + 30% for 15s after releasing Intro Skill.",
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Celestial Light.\r\n2pcs Set: Spectro DMG + 10%.\r\n5pcs Set: Spectro DMG + 30% for 15s after releasing Intro Skill.",
     "background": "Dazzling rays of light are emanating from the crevice...",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_09_UI.webp"
     },
     "liveComparison": {
-      "liveHash": "66aee0a29fc4034f2e583967eb27b13dd84fc0e4f6d05b507017d75be612d0bd",
-      "currentHash": "66aee0a29fc4034f2e583967eb27b13dd84fc0e4f6d05b507017d75be612d0bd"
+      "liveHash": "94180ffa06fef6afb4a236e25559a2a8305877413f0cbe4ee2f328ea485f67a3",
+      "currentHash": "94180ffa06fef6afb4a236e25559a2a8305877413f0cbe4ee2f328ea485f67a3"
     }
   },
   {
@@ -18823,15 +18823,15 @@
       "Random Echo Item",
       "Supply Chest"
     ],
-    "description": "Open to obtain a random Echo of the following Sonata Effect: Havoc Eclipse.\n2pcs Set: Havoc DMG + 10%.\n5pcs Set: Havoc DMG + 7.5% after releasing Basic Attack or Heavy Attack. This effect stacks up to 4 times, each stack lasts 15s.",
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Havoc Eclipse.\r\n2pcs Set: Havoc DMG + 10%.\r\n5pcs Set: Havoc DMG + 7.5% after releasing Basic Attack or Heavy Attack. This effect stacks up to 4 times, each stack lasts 15s.",
     "background": "The chaos seems to devour everything in the crevice...",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_10_UI.webp"
     },
     "liveComparison": {
-      "liveHash": "dcf850936011479c317181b5c5a5572a374ff33a6737290837d719134db60afe",
-      "currentHash": "dcf850936011479c317181b5c5a5572a374ff33a6737290837d719134db60afe"
+      "liveHash": "ce4c34c9e8f66845e22d9bee6e64220ae113ffe151341d7aa1004d7ddf022198",
+      "currentHash": "ce4c34c9e8f66845e22d9bee6e64220ae113ffe151341d7aa1004d7ddf022198"
     }
   },
   {
@@ -18865,15 +18865,15 @@
       "Random Echo Item",
       "Supply Chest"
     ],
-    "description": "Open to obtain a random Echo of the following Sonata Effect: Moonlit Clouds.\n2pcs Set: Energy Regen + 10%.\n5pcs Set: After using Outro Skill, increases the ATK of the next Resonator by 22.5% for 15s.",
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Moonlit Clouds.\r\n2pcs Set: Energy Regen + 10%.\r\n5pcs Set: After using Outro Skill, increases the ATK of the next Resonator by 22.5% for 15s.",
     "background": "A bright moon seems to hide in the crevice...",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_12_UI.webp"
     },
     "liveComparison": {
-      "liveHash": "555fa52f7e39aa3754d3efd76cf7b25add225593eff866fa7c4263efb6be2931",
-      "currentHash": "555fa52f7e39aa3754d3efd76cf7b25add225593eff866fa7c4263efb6be2931"
+      "liveHash": "b474047d48f6e68ff3d20ce157df52e70933af0a27a7bcccd05b6d8fc31a413d",
+      "currentHash": "b474047d48f6e68ff3d20ce157df52e70933af0a27a7bcccd05b6d8fc31a413d"
     }
   },
   {
@@ -44588,14 +44588,14 @@
       "Consumable"
     ],
     "description": "Virtual operation currency issued by the Black Shores to be used in various simulations.",
-    "background": "Simulation data gathered from scenarios of varying severity helps guide our future personnel assignments when responding to Waveworn Phenomena.",
+    "background": "To ensure the simulation models the reality as close as possible, the Black Shores issues these virtual tokens that can be exchanged for supplies to be used in various scenarios.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_80400001_UI.webp"
     },
     "liveComparison": {
-      "liveHash": "21ecc5b42bd138318b80c512d99a39c69b70986166cbd15bbc7cc453605cef85",
-      "currentHash": "21ecc5b42bd138318b80c512d99a39c69b70986166cbd15bbc7cc453605cef85"
+      "liveHash": "e6cb9a443ac7b6ba3d2ce1c0137ffea8b87b76b4d518e135c68802d86ad7cf7b",
+      "currentHash": "e6cb9a443ac7b6ba3d2ce1c0137ffea8b87b76b4d518e135c68802d86ad7cf7b"
     }
   },
   {

@@ -9,12 +9,12 @@
   "name": "Yangyang Xuanling",
   "title": "Yangyang Xuanling Best Build Guide",
   "sourcePath": "/wuthering-waves/characters/yangyang-xuanling",
-  "contentStatus": "beta",
+  "contentStatus": "live",
   "statusLabels": [
-    "3.5"
+    "New"
   ],
-  "scrapedAt": "2026-07-09T08:53:35.209Z",
-  "updatedText": "18/June/2026",
+  "scrapedAt": "2026-07-10T08:49:31.188Z",
+  "updatedText": "10/July/2026",
   "meta": {
     "title": "Yangyang Xuanling Best Build Guide | Wuthering Waves (WuWa)",
     "description": ""
@@ -46,6 +46,26 @@
       "height": 20
     },
     {
+      "id": "39094c227806",
+      "sourceHash": "39094c227806",
+      "kind": "icons",
+      "name": "CRIT Rate",
+      "fileStem": "stat-crit",
+      "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "1e70b3adc860",
+      "sourceHash": "1e70b3adc860",
+      "kind": "icons",
+      "name": "ATK%",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
       "id": "47cdc9f48f22",
       "sourceHash": "47cdc9f48f22",
       "kind": "characters",
@@ -54,6 +74,246 @@
       "path": "Prydwen/ww/assets/characters/yangyang-xuanling-47cdc9f48f22.webp",
       "width": 600,
       "height": 750
+    },
+    {
+      "id": "e366b96f341c",
+      "sourceHash": "e366b96f341c",
+      "kind": "characters",
+      "name": "Lynae",
+      "fileStem": "lynae-icon",
+      "path": "Prydwen/ww/assets/characters/lynae-e366b96f341c.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "9def9d81ed3a",
+      "sourceHash": "9def9d81ed3a",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-24",
+      "path": "Prydwen/ww/assets/icons/set-24-9def9d81ed3a.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "a204c02c6e12",
+      "sourceHash": "a204c02c6e12",
+      "kind": "misc",
+      "name": "Hyvatia",
+      "fileStem": "6000189",
+      "path": "Prydwen/ww/assets/misc/hyvatia-a204c02c6e12.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "0e96075575d8",
+      "sourceHash": "0e96075575d8",
+      "kind": "characters",
+      "name": "Chisa",
+      "fileStem": "chisa-icon",
+      "path": "Prydwen/ww/assets/characters/chisa-0e96075575d8.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "9116b6b3061f",
+      "sourceHash": "9116b6b3061f",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-7",
+      "path": "Prydwen/ww/assets/icons/set-7-9116b6b3061f.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "963f47d9c985",
+      "sourceHash": "963f47d9c985",
+      "kind": "misc",
+      "name": "Fallacy of No Return",
+      "fileStem": "6000060",
+      "path": "Prydwen/ww/assets/misc/fallacy-of-no-return-963f47d9c985.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "029aca9cad8c",
+      "sourceHash": "029aca9cad8c",
+      "kind": "weapons",
+      "name": "Azure Oath",
+      "fileStem": "21020096",
+      "path": "Prydwen/ww/assets/weapons/azure-oath-029aca9cad8c.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "67b3675ba5a5",
+      "sourceHash": "67b3675ba5a5",
+      "kind": "weapons",
+      "name": "Emerald Sentence",
+      "fileStem": "21020066",
+      "path": "Prydwen/ww/assets/weapons/emerald-sentence-67b3675ba5a5.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "0191cff521e2",
+      "sourceHash": "0191cff521e2",
+      "kind": "weapons",
+      "name": "Red Spring",
+      "fileStem": "21020026",
+      "path": "Prydwen/ww/assets/weapons/red-spring-0191cff521e2.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "d0384e178d37",
+      "sourceHash": "d0384e178d37",
+      "kind": "weapons",
+      "name": "Everbright Polestar",
+      "fileStem": "21020076",
+      "path": "Prydwen/ww/assets/weapons/everbright-polestar-d0384e178d37.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "0a476c2be498",
+      "sourceHash": "0a476c2be498",
+      "kind": "weapons",
+      "name": "Frostburn",
+      "fileStem": "21020086",
+      "path": "Prydwen/ww/assets/weapons/frostburn-0a476c2be498.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "1ee53622240c",
+      "sourceHash": "1ee53622240c",
+      "kind": "weapons",
+      "name": "Emerald of Genesis",
+      "fileStem": "21020015",
+      "path": "Prydwen/ww/assets/weapons/emerald-of-genesis-1ee53622240c.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "125c53e53fdd",
+      "sourceHash": "125c53e53fdd",
+      "kind": "weapons",
+      "name": "Blazing Brilliance",
+      "fileStem": "21020016",
+      "path": "Prydwen/ww/assets/weapons/blazing-brilliance-125c53e53fdd.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "5257981ba208",
+      "sourceHash": "5257981ba208",
+      "kind": "weapons",
+      "name": "Lumingloss",
+      "fileStem": "21020074",
+      "path": "Prydwen/ww/assets/weapons/lumingloss-5257981ba208.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "c115f8c39381",
+      "sourceHash": "c115f8c39381",
+      "kind": "weapons",
+      "name": "Fables of Wisdom",
+      "fileStem": "21020094",
+      "path": "Prydwen/ww/assets/weapons/fables-of-wisdom-c115f8c39381.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "fb383356cac2",
+      "sourceHash": "fb383356cac2",
+      "kind": "echoes",
+      "name": "Set",
+      "fileStem": "song-of-feathered-trace",
+      "path": "Prydwen/ww/assets/echoes/song-of-feathered-trace-fb383356cac2.webp",
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "d61110006e53",
+      "sourceHash": "d61110006e53",
+      "kind": "misc",
+      "name": "Thousand-Puppet Pavilion",
+      "fileStem": "6000218",
+      "path": "Prydwen/ww/assets/misc/thousand-puppet-pavilion-d61110006e53.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "59d02501284b",
+      "sourceHash": "59d02501284b",
+      "kind": "characters",
+      "name": "Rebecca",
+      "fileStem": "rebecca-icon",
+      "path": "Prydwen/ww/assets/characters/rebecca-59d02501284b.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "8367f1df0e13",
+      "sourceHash": "8367f1df0e13",
+      "kind": "characters",
+      "name": "Phrolova",
+      "fileStem": "phrolova-icon",
+      "path": "Prydwen/ww/assets/characters/phrolova-8367f1df0e13.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "e6913cb7353a",
+      "sourceHash": "e6913cb7353a",
+      "kind": "characters",
+      "name": "Iuno",
+      "fileStem": "iuno-icon",
+      "path": "Prydwen/ww/assets/characters/iuno-e6913cb7353a.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "4910396b5955",
+      "sourceHash": "4910396b5955",
+      "kind": "characters",
+      "name": "Mortefi",
+      "fileStem": "mortefi-icon",
+      "path": "Prydwen/ww/assets/characters/mortefi-4910396b5955.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "40d7023b51fa",
+      "sourceHash": "40d7023b51fa",
+      "kind": "characters",
+      "name": "Mornye",
+      "fileStem": "mornye-icon",
+      "path": "Prydwen/ww/assets/characters/mornye-40d7023b51fa.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "1b2a8f336e3d",
+      "sourceHash": "1b2a8f336e3d",
+      "kind": "characters",
+      "name": "Verina",
+      "fileStem": "verina-icon",
+      "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "2313f26b8992",
+      "sourceHash": "2313f26b8992",
+      "kind": "characters",
+      "name": "Yangyang Xuanling",
+      "fileStem": "yangyang-xuanling-icon",
+      "path": "Prydwen/ww/assets/characters/yangyang-xuanling-2313f26b8992.webp",
+      "width": 120,
+      "height": 120
     }
   ],
   "sections": [
@@ -61,7 +321,7 @@
       "id": "yangyang-xuanling-best-build-guide-0",
       "level": 1,
       "heading": "Yangyang Xuanling Best Build Guide",
-      "text": "Last updated: 18/June/2026",
+      "text": "Last updated: 10/July/2026",
       "assets": [
         {
           "id": "184e6fda4c3c",
@@ -97,60 +357,228 @@
       "id": "video-guide-2",
       "level": 2,
       "heading": "Video guide",
-      "text": "This character has no video guide yet.\n\n To learn more about Yangyang Xuanling check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "text": "Yangyang Xuanling has at least one video guide available:",
       "assets": []
     },
     {
-      "id": "calculations-7",
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 3.5\n\n Last major build/calcs update\n Patch 3.5\n\n Last profile update*\n 10/July/2026\n\n *Profile update means smaller edits to echoes, stats, synergies or teams that don't require new calculations.\n To learn more about Yangyang Xuanling check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
       "level": 2,
       "heading": "Calculations",
       "text": "Profile",
       "assets": []
     },
     {
-      "id": "skills-8",
+      "id": "skills-9",
       "level": 2,
       "heading": "Skills",
-      "text": "Yangyang Xuanling skills aren't available yet. They will be added soon!",
+      "text": "Active skills\n Passive skills\n Concerto skills\n\n Basic Attack\n Succor and Smite",
       "assets": []
     },
     {
-      "id": "resonance-chain-dupes-9",
+      "id": "basic-attack-azure-sword-stance-10",
+      "level": 6,
+      "heading": "Basic Attack - Azure Sword Stance",
+      "text": "Press Normal Attack repeatedly or hold it down to consume Melody and perform up to 4 consecutive attacks, dealing Havoc DMG . While Melody is not depleted, the Energy Regen is increased by 20% when Basic Attack - Azure Sword Stance deals damage.\n\n Basic Attack - Azure Sword Stance Stage 4 applies 1 stack of Havoc Bane to the targets hit.",
+      "assets": []
+    },
+    {
+      "id": "basic-attack-feather-sword-stance-11",
+      "level": 6,
+      "heading": "Basic Attack - Feather Sword Stance",
+      "text": "Press Normal Attack repeatedly or hold it down to consume Melody and perform up to 4 consecutive attacks, dealing Havoc DMG . While Melody is not depleted, the Energy Regen is increased by 20% when Basic Attack - Feather Sword Stance deals damage.\n\n Basic Attack - Feather Sword Stance Stage 4 applies 1 stack of Havoc Bane to the targets hit.",
+      "assets": []
+    },
+    {
+      "id": "mid-air-attack-azure-sword-stance-12",
+      "level": 6,
+      "heading": "Mid-air Attack - Azure Sword Stance",
+      "text": "Consume STA to perform a Plunging Attack, consuming Melody and dealing Havoc DMG .\n\n Pressing Normal Attack within a short time after casting this skill triggers Basic Attack - Azure Sword Stance Stage 2.",
+      "assets": []
+    },
+    {
+      "id": "mid-air-attack-feather-sword-stance-13",
+      "level": 6,
+      "heading": "Mid-air Attack - Feather Sword Stance",
+      "text": "Consume STA to perform a Plunging Attack, consuming Melody and dealing Havoc DMG .\n\n Pressing Normal Attack within a short time after casting this skill triggers Basic Attack - Feather Sword Stance Stage 2.",
+      "assets": []
+    },
+    {
+      "id": "dodge-counter-azure-sword-stance-14",
+      "level": 6,
+      "heading": "Dodge Counter - Azure Sword Stance",
+      "text": "Pressing Normal Attack within a short time after a successful Dodge consumes Melody to attack the target, dealing Havoc DMG .\n\n Pressing Normal Attack within a short time after casting this skill triggers Basic Attack - Azure Sword Stance Stage 3.\n\n Casting Dodge Counter - Azure Sword Stance counts as casting Basic Attack - Azure Sword Stance Stage 2.",
+      "assets": []
+    },
+    {
+      "id": "dodge-counter-feather-sword-stance-15",
+      "level": 6,
+      "heading": "Dodge Counter - Feather Sword Stance",
+      "text": "Pressing Normal Attack within a short time after a successful Dodge consumes Melody to attack the target, dealing Havoc DMG .\n\n Pressing Normal Attack within a short time after casting this skill triggers Basic Attack - Feather Sword Stance Stage 3.\n\n Casting Dodge Counter - Feather Sword Stance counts as casting Basic Attack - Feather Sword Stance Stage 2.\n\n Multipliers\n\n Resonance Skill\n Feather's Edge",
+      "assets": []
+    },
+    {
+      "id": "sword-stance-switch-16",
+      "level": 6,
+      "heading": "Sword Stance Switch",
+      "text": "While in Azure Sword Stance, press Resonance Skill to switch to Feather Sword Stance and perform Basic Attack - Feather Sword Stance Stage 1, dealing Havoc DMG .\n\n While in Feather Sword Stance, press Resonance Skill to switch to Azure Sword Stance and perform Basic Attack - Azure Sword Stance Stage 1, dealing Havoc DMG .",
+      "assets": []
+    },
+    {
+      "id": "sword-stance-switch-azure-17",
+      "level": 6,
+      "heading": "Sword Stance Switch: Azure",
+      "text": "Press Resonance Skill within a short time after casting Basic Attack - Feather Sword Stance to switch to Azure Sword Stance and cast Sword Stance Switch: Azure, dealing Havoc DMG , considered Heavy Attack DMG.\nA successful Dodge can be triggered within a short time into the action of this skill, which consumes 50 Melody.\n\n After casting this skill, the Basic Attack cycle will not reset for a short time.",
+      "assets": []
+    },
+    {
+      "id": "sword-stance-switch-feather-18",
+      "level": 6,
+      "heading": "Sword Stance Switch: Feather",
+      "text": "Press Resonance Skill within a short time after casting Basic Attack - Azure Sword Stance to switch to Feather Sword Stance and cast Sword Stance Switch: Feather, dealing Havoc DMG , considered Heavy Attack DMG.\n\n A successful Dodge can be triggered within a short time into the action of this skill, which consumes 50 Melody.\n\n After casting this skill, the Basic Attack cycle will not reset for a short time.\n\n Multipliers\n\n Resonance Liberation\n Hush of a Thousand Voices",
+      "assets": []
+    },
+    {
+      "id": "hush-of-a-thousand-voices-19",
+      "level": 6,
+      "heading": "Hush of a Thousand Voices",
+      "text": "Consume all Melody to deal Havoc DMG and restore 1 point of Azure Plume. This DMG is considered Heavy Attack DMG.\n\n Upon casting this skill, obtain Voice upon Voice. When casting Resonance Skill - Sword Stance Flow: Azure or Resonance Skill - Sword Stance Flow: Feather, summon Shadow of Xuanling to attack the target, dealing Havoc DMG , considered Heavy Attack DMG.\n\n Voice upon Voice cannot stack. Once Shadow of Xuanling is summoned, the Voice upon Voice state is removed.\n\n Multipliers\n\n Forte Circuit\n The Way of Ten Thousand Voices",
+      "assets": []
+    },
+    {
+      "id": "resonance-skill-sword-stance-flow-azure-20",
+      "level": 6,
+      "heading": "Resonance Skill - Sword Stance Flow: Azure",
+      "text": "Yangyang: Xuanling is in Azure Sword Stance by default. When Melody is depleted while in Feather Sword Stance, Resonance Skill - Feather's Edge is replaced by Resonance Skill - Sword Stance Flow: Azure.\n\n Press Resonance Skill to switch to Azure Sword Stance and cast Resonance Skill - Sword Stance Flow: Azure, dealing Havoc DMG and restoring 100 points of Melody and 1 point of Azure Plume. This instance of DMG is considered Heavy Attack DMG.\n\n When Resonance Skill - Sword Stance Flow: Azure hits the target, consume 1 stack of Havoc Bane on the target.\n\n The Basic Attack - Feather Sword Stance cycle is not reset within a short time after casting Resonance Skill - Sword Stance Flow: Azure. If casting Resonance Skill - Sword Stance Flow: Azure resets the cycle, summon a Wraith of Sound to finish the current attack and deal a fixed instance of Havoc DMG , considered Basic Attack DMG, which is not affected by any DMG Bonus effects and does not inflict Havoc Bane.\n\n Successful Dodge can be triggered within a short time into the action of this skill, which consumes 50 points of Melody.",
+      "assets": []
+    },
+    {
+      "id": "resonance-skill-sword-stance-flow-feather-21",
+      "level": 6,
+      "heading": "Resonance Skill - Sword Stance Flow: Feather",
+      "text": "When Melody is depleted while in Azure Sword Stance, Resonance Skill - Feather's Edge is replaced by Resonance Skill - Sword Stance Flow: Feather.\n\n Press Resonance Skill to switch to Feather Sword Stance and cast Resonance Skill - Sword Stance Flow: Feather, dealing Havoc DMG and restoring 100 points of Melody and 1 point of Azure Plume. This instance of DMG is considered Heavy Attack DMG.\n\n When Resonance Skill - Sword Stance Flow: Feather hits, consume 1 stack of Havoc Bane on the target.\n\n The Basic Attack - Azure Sword Stance cycle is not reset within a short time after casting Resonance Skill - Sword Stance Flow: Feather. If casting Resonance Skill - Sword Stance Flow: Feather resets the cycle, summon a Wraith of Sound to finish the current attack and deal a fixed instance of Havoc DMG , considered Basic Attack DMG, which is not affected by any DMG Bonus effects and does not inflict Havoc Bane.\nSuccessful Dodge can be triggered within a short time into the action of this skill, which consumes 50 points of Melody.",
+      "assets": []
+    },
+    {
+      "id": "heavy-attack-azure-sword-stance-22",
+      "level": 6,
+      "heading": "Heavy Attack - Azure Sword Stance",
+      "text": "When Azure Plume is restored to its maximum while in Azure Sword Stance, hold Normal Attack to consume STA and all Azure Plume to cast Heavy Attack - Azure Sword Stance, generating a massive cyclone that strikes the area in front, dealing Havoc DMG , considered Heavy Attack DMG.\n\n When casting Heavy Attack - Azure Sword Stance, gain Bated Breath: If Yangyang: Xuanling is the active Resonator in the field, the Crit. DMG of this Heavy Attack - Azure Sword Stance increases by 160% . When Heavy Attack - Azure Sword Stance ends, Bated Breath is removed. Bated Breath can be gained up to once every 25s .\n\n Heavy Attack - Azure Sword Stance applies 2 stacks of Havoc Bane to the targets hit.",
+      "assets": []
+    },
+    {
+      "id": "heavy-attack-feather-sword-stance-23",
+      "level": 6,
+      "heading": "Heavy Attack - Feather Sword Stance",
+      "text": "When Azure Plume is restored to its maximum while in Feather Sword Stance, if Yangyang: Xuanling is on the ground and not in a Basic Attack - Havoc in Bloom cycle, hold Normal Attack to consume STA and cast Heavy Attack - Feather Sword Stance, dealing Havoc DMG . After it hits a target, Mid-air Attack - Feather Fall is automatically cast.\n\n When casting Heavy Attack - Feather Sword Stance, gain Streaming Storm, which lasts 15s . While Yangyang: Xuanling is the active Resonator in the team, the Crit. DMG of this Heavy Attack - Feather Sword Stance or the next Mid-air Attack - Feather Fall, Basic Attack - Havoc in Bloom, or Dodge Counter - Havoc in Bloom is increased by 160% . Streaming Storm is removed when Basic Attack - Havoc in Bloom Stage 3 or Dodge Counter - Havoc in Bloom Stage 3 ends. Streaming Storm can be gained up to once every 25s .\n\n Heavy Attack - Feather Sword Stance applies 2 stacks of Havoc Bane to the targets hit.",
+      "assets": []
+    },
+    {
+      "id": "mid-air-attack-feather-fall-24",
+      "level": 6,
+      "heading": "Mid-air Attack - Feather Fall",
+      "text": "When Azure Plume is restored to its maximum while in Feather Sword Stance and airborne, Mid-air Attack - Feather Sword Stance is replaced by Mid-air Attack - Feather Fall.\n\n Press or hold Normal Attack to consume STA and all Azure Plume to cast Mid-air Attack - Feather Fall, dealing Havoc DMG . Casting Mid-air Attack - Feather Fall enters Hark the Wind for 12s .",
+      "assets": []
+    },
+    {
+      "id": "hark-the-wind-25",
+      "level": 6,
+      "heading": "Hark the Wind",
+      "text": "While in Feather Sword Stance, Basic Attack - Feather Sword Stance is replaced by Basic Attack - Havoc in Bloom, which performs up to 3 consecutive attacks, dealing Havoc DMG , considered Heavy Attack DMG.\n\n Basic Attack - Havoc in Bloom Stage 2 and Stage 3 can be cast in mid-air close to the ground. Casting Stage 3 ends Basic Attack - Havoc in Bloom. This attack cycle cannot be reset.\n\n During Hark the Wind, a Dodge Counter counts towards the Basic Attack - Havoc in Bloom cycle.",
+      "assets": []
+    },
+    {
+      "id": "feathered-oath-26",
+      "level": 6,
+      "heading": "Feathered Oath",
+      "text": "When nearby Resonators in the team inflict Havoc Bane on a target, Yangyang: Xuanling gains 1 stack of Feathered Oath for 4s . Feathered Oath can be gained once every 1s , stacking up to 6 times. While Yangyang: Xuanling is the active Resonator in the team, each stack increases the Crit. DMG of Heavy Attack - Azure Sword Stance, Heavy Attack - Feather Sword Stance, Mid-air Attack - Feather Fall, Basic Attack - Havoc in Bloom, and Dodge Counter - Havoc in Bloom by 25% , up to 150% .",
+      "assets": []
+    },
+    {
+      "id": "refrain-27",
+      "level": 6,
+      "heading": "Refrain",
+      "text": "Before Yangyang: Xuanling's Basic Attack - Azure Sword Stance Stage 4, Basic Attack - Feather Sword Stance Stage 4, Heavy Attack - Azure Sword Stance, or Heavy Attack - Feather Sword Stance hits a target, record and propagate the highest stack count of Havoc Bane on targets within a certain range to all targets within range.",
+      "assets": []
+    },
+    {
+      "id": "melody-28",
+      "level": 6,
+      "heading": "Melody",
+      "text": "Melody has a maximum of 100 points.\n\n Casting Resonance Skill - Sword Stance Flow: Azure or Resonance Skill - Sword Stance Flow: Feather restores 100 points of Melody.\n\n Casting Resonance Liberation Hush of a Thousand Voices consumes all Melody.\n\n Normal Attacks consumes Melody upon dealing damage.\n\n Successful Dodge can be triggered during the action of Resonance Skill - Sword Stance Switch: Azure, Resonance Skill - Sword Stance Switch: Feather, Resonance Skill - Sword Stance Flow: Azure, or Resonance Skill - Sword Stance Flow: Feather within a certain time of casting these skills, which consumes 50 points of Melody.",
+      "assets": []
+    },
+    {
+      "id": "azure-plume-29",
+      "level": 6,
+      "heading": "Azure Plume",
+      "text": "Azure Plume has a maximum of 2 points.\n\n Casting Resonance Skill - Sword Stance Flow: Azure, Resonance Skill - Sword Stance Flow: Feather, or Intro Skill - Skybound Feather restores 1 points of Azure Plume.\n\n Casting Resonance Liberation - Hush of a Thousand Voices restores 1 point of Azure Plume.\n\n Casting Heavy Attack - Azure Sword Stance or Mid-air Attack - Feather Fall consumes all Azure Plume.\n\n Multipliers\n\n Forte Circuit\n Tune Break - Sword\n\n When the target's Off-Tune Level is full, the Resonator may cast Tune Break on the target.\n\n Inherent Skill\n Unbroken Vow\n\n When a target has 1 to 3 stacks of Havoc Bane, each stack of Havoc Bane Amplifies the DMG from Yangyang: Xuanling by 10% , up to 30% .\n When a target has 4 to 6 stacks of Havoc Bane, each stack of Havoc Bane Amplifies the DMG from Yangyang: Xuanling by 12% , up to 36% .\n\n Inherent Skill\n One Life, One Blade\n\n Resonance Liberation Hush of a Thousand Voices raises the Havoc Bane stacks on the targets to the maximum on hit.\n When nearby Resonators in the team inflict Havoc Bane, Yangyang: Xuanling gains 1 stack of Windbound. Windbound can be gained once every 1s , stacking up to 6 times.\n When Windbound reaches 6 stacks, Yangyang: Xuanling removes all Windbound and gains One with the Wind.\n While One with the Wind lasts, when Yangyang: Xuanling casts Resonance Skill - Sword Stance Flow: Azure or Resonance Skill - Sword Stance Flow: Feather, she summons Feather Release: Xuanling to attack the target, applying 6 stacks of Havoc Bane to the target.\n Windbound cannot be obtained while One with the Wind lasts.\n Once Feather Release: Xuanling is summoned, the One with the Wind state is removed.\n\n Intro Skill\n Skybound Feather\n\n Deal Havoc DMG and restore 1 point of Azure Plume.\n When Intro Skill - Skybound Feather deals damage, it applies 1 stack of Havoc Bane on the target.\n\n Multipliers\n\n Outro Skill\n As the Wind Wills\n\n Attacks the target, dealing Havoc DMG equal to 300% of Yangyang: Xuanling's ATK.All Resonators in the team other than Yangyang: Xuanling gains Tonal Switch for 20s . After a Resonator with Tonal Switch inflicts Havoc Bane, that Resonator's Havoc DMG is Amplified by 20% .\n This effect is reset upon casting this skill again.",
+      "assets": []
+    },
+    {
+      "id": "resonance-chain-dupes-30",
       "level": 2,
       "heading": "Resonance Chain (Dupes)",
-      "text": "Yangyang Xuanling dupes information aren't available yet. They will be added soon!",
+      "text": "S 1\n At the Wind's Breath, the Blossoms Wake\n\n Casting Resonance Skill - Sword Stance Flow: Azure or Resonance Skill - Sword Stance Flow: Feather summons a Shadow of Xuanling: Unfaltering to attack the target, dealing Havoc DMG equal to 337.98% of Yangyang: Xuanling's ATK. This DMG is considered Heavy Attack DMG.\n Casting Resonance Skill - Sword Stance Flow: Azure or Resonance Skill - Sword Stance Flow: Feather Stagnates nearby enemies.\n Heavy Attack - Azure Sword Stance, Basic Attack - Havoc in Bloom and Dodge Counter - Havoc in Bloom are immune to interruption.\n\n S 2\n River Carries Her Song Away\n\n The DMG dealt by Heavy Attack - Azure Sword Stance, Heavy Attack - Feather Sword Stance, Mid-air Attack - Feather Fall, Basic Attack - Havoc in Bloom, and Dodge Counter - Havoc in Bloom is increased by 100% .\n Every time Yangyang: Xuanling remains out of combat for more than 4s after she leaves the combat state or revives, she gains the following effects once:\n Gain Strung Notes, up to 1 stack. Casting Basic Attack - Azure Sword Stance or Basic Attack - Feather Sword Stance summons Shadow of Xuanling: Strung Notes to attack the target, dealing Havoc DMG equal to 337.98% of Yangyang: Xuanling's ATK, considered Heavy Attack DMG. Strung Notes is removed after Shadow of Xuanling: Strung Notes is summoned.\n\n Restore 2 points of Azure Plume.\n\n Reset the Cooldown of gaining Bated Breath and Streaming Storm.\n\n S 3\n My Grief Follows You into the Clouds\n\n The DMG dealt via Resonance Liberation Hush of a Thousand Voices is Amplified by 175% .\n After casting Intro Skill - Skybound Feather, Resonance Skill - Sword Stance Flow: Azure, or Resonance Skill - Sword Stance Flow: Feather, increase the maximum Havoc Bane stacks on targets within a certain range by 3 , lasting 20s . This effect does not stack.\n Basic Attack - Azure Sword Stance Stage 4, Basic Attack - Feather Sword Stance Stage 4, Heavy Attack - Azure Sword Stance, and Heavy Attack - Feather Sword Stance inflict 1 additional stack of Havoc Bane on the target.\n\n S 4\n Across the Miles, a Letter and My Longing\n\n When casting Intro Skill - Skybound Feather, Resonance Skill - Sword Stance Switch: Azure, Resonance Skill - Sword Stance Switch: Feather, Resonance Skill - Sword Stance Flow: Azure, or Resonance Skill - Sword Stance Flow: Feather, the ATK of Resonators in the team is increased by 20% for 20s .\n\n S 5\n Take Wing. Take Wing.\n\n When Yangyang: Xuanling takes a fatal blow, she will not be downed, but instead recover HP equal to 50% of her Max HP while becoming immune to DMG and interruption for 3s . This effect can be triggered once every 10 min.\n\n S 6\n Let the Azure Keep Its Light\n\n After Yangyang: Xuanling inflicts Havoc Bane on a target, gain Voice Flux for 30s . While Voice Flux is active, the Heavy Attack DMG from Yangyang: Xuanling is increased by 40% .\n Casting Resonance Skill - Sword Stance Flow: Azure or Resonance Skill - Sword Stance Flow: Feather grants Still as Withered Wood for 30s . While Still as Withered Wood is active, if Yangyang: Xuanling is on the field, then after nearby Resonators in the team inflict Glacio Chafe, Fusion Burst, Electro Flare, Aero Erosion, Spectro Frazzle, or Havoc Bane, Yangyang: Xuanling summons Shadow of Xuanling: Still as Withered Wood to attack the target, dealing Havoc DMG equal to 337.98% of Yangyang: Xuanling's ATK. The DMG of Shadow of Xuanling: Still as Withered Wood is considered Heavy Attack DMG and is guaranteed to be a critical hit.\n Shadow of Xuanling: Still as Withered Wood can be summoned once every 1s , and Still as Withered Wood expires after it is summoned 5 times. When Still as Withered Wood expires or is removed, reset the available summon charges of Shadow of Xuanling: Still as Withered Wood. Still as Withered Wood has a Cooldown of 25s .",
       "assets": []
     },
     {
-      "id": "minor-fortes-total-10",
+      "id": "minor-fortes-total-31",
       "level": 2,
       "heading": "Minor Fortes (Total)",
-      "text": "Yangyang Xuanling Minor Fortes information aren't available yet.",
-      "assets": []
+      "text": "CRIT Rate\n + 8 %\n\n ATK%\n + 12 %",
+      "assets": [
+        {
+          "id": "39094c227806",
+          "sourceHash": "39094c227806",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-crit",
+          "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "1e70b3adc860",
+          "sourceHash": "1e70b3adc860",
+          "kind": "icons",
+          "name": "ATK%",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
     },
     {
-      "id": "stats-11",
+      "id": "stats-32",
       "level": 2,
       "heading": "Stats",
-      "text": "Yangyang Xuanling stats aren't available yet.",
+      "text": "Include minor fortes\n\n Lv. 90\n\n Stats data not available for this character.",
       "assets": []
     },
     {
-      "id": "upgrade-materials-12",
+      "id": "upgrade-materials-33",
       "level": 2,
       "heading": "Upgrade Materials",
       "text": "Yangyang Xuanling upgrade material information aren't available yet.",
       "assets": []
     },
     {
-      "id": "voice-actors-13",
+      "id": "voice-actors-34",
       "level": 2,
       "heading": "Voice Actors",
       "text": "ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -",
       "assets": []
     },
     {
-      "id": "gallery-14",
+      "id": "gallery-35",
       "level": 2,
       "heading": "Gallery",
       "text": "Review",
@@ -168,60 +596,481 @@
       ]
     },
     {
-      "id": "ratings-15",
+      "id": "ratings-36",
       "level": 2,
       "heading": "Ratings",
-      "text": "Please keep in mind Wuthering Waves is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Wuthering Waves is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Yangyang Xuanling ratings aren't available yet.",
+      "text": "Please keep in mind Wuthering Waves is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Wuthering Waves is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.",
       "assets": []
     },
     {
-      "id": "pros-cons-16",
-      "level": 2,
-      "heading": "Pros & Cons",
-      "text": "Yangyang Xuanling pros & cons aren't available yet.",
+      "id": "dps-37",
+      "level": 5,
+      "heading": "DPS",
+      "text": "T0\n Tower of Adversity\n\n T0\n Whimpering Wastes",
       "assets": []
     },
     {
-      "id": "review-17",
+      "id": "dps-39",
+      "level": 5,
+      "heading": "DPS",
+      "text": "T0\n Tower of Adversity (Value)\n\n T0\n Whimpering Wastes (Value)",
+      "assets": []
+    },
+    {
+      "id": "pros-41",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Top-tier damage ceiling with a focus on mid-air combat and animations that are generally hard to interrupt.\n\n Excels in all endgame content, not just single-target bossing - Havoc Bane is applied by herself very often and constantly spreads across multiple waves.\n\n Energy Regen requirements are super easy to meet.\n\n Has a ton of accessible team compositions, F2P and Premium alike. F2P-friendly while also being improvable for cheap, likely some of her premium characters are already present on your account as well.\n\n Has a short rotation compared to most Main DPS while still dealing ludicrous damage.\n\n Looks like Selena from Punishing: Gray Raven (we like Selena from Punishing: Gray Raven).",
+      "assets": []
+    },
+    {
+      "id": "cons-42",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Self-buffs CRIT stats by so much that Shorekeeper is rendered practically useless; she is hence more limited in premium 3rd slot options than most (Mornye only with Lynae, or Chisa are your only upgrade paths from Verina).\n\n Somewhat limited in Swap Cancelling; currently plays best with Outro buffers, her damage is spread evenly across her rotation, preventing buffing key abilities, and a lot of her self-buffs only apply if she’s the active character on the field.",
+      "assets": []
+    },
+    {
+      "id": "review-43",
       "level": 2,
       "heading": "Review",
-      "text": "Yangyang Xuanling mini-review isn't available yet.",
+      "text": "Yangyang: Xuanling (who we will just shorten to YY:XL throughout this review) is a 5-star Havoc Sword Main DPS character who relies on Havoc Bane and Heavy Attack damage to execute pretty fast & most importantly really strong rotations that will, with enough investment, decimate her enemies, as she is one of the top DPS characters in the game by a landslide.",
       "assets": []
     },
     {
-      "id": "video-guides-18",
+      "id": "key-mechanics-rotation-44",
+      "level": 6,
+      "heading": "Key Mechanics & Rotation",
+      "text": "YY:XL applies Havoc Bane constantly with most of the attacks in her rotation, upkeeping max stacks on all enemies at all times (even in multi-wave content) is something she can handle easily. Havoc Bane constantly applies DEF Shred to affected enemies, as well as Havoc DMG Amplification to Yangyang via one of her passives (up to 6 stacks).\n Her rotation relies on switching between Azure and Feather stance. By default, she starts her rotations in Azure stance. She can switch freely between both forms via her Skill, however she can do so using enhanced skills if her Melody Forte gauge is depleted fully (via Perfect Dodges or Basic Attacks). This restores her other Forte resource, Azure Plume, which enhances her Mid-Air Attack and Azure Heavy Attack. In short, her rotation has her consuming her melody bar once, switching between both of her forms and casting her key attacks consecutively until she switches out.\n YY:XL additionally self-buffs her CRIT DMG throughout her rotation, as executing it will enhance the CRIT DMG of her key attacks by massive amounts (she reaches above 500% total CRIT DMG with a standard build and team, which leads to as bonkers of a damage ceiling as you’d expect).\n Finally, her Outro buffs the Havoc DMG of other Havoc Bane appliers than herself in the team on top of dealing a small amount of damage (right now, only Chisa can use this).\n YY:XL’s kit is very wordy but boils down to the self-buffs we detailed above, as well as ensuring that Havoc Bane is constantly applied on enemies up to max stacks at all times, even in multi-wave content, so that’s really all we have to say on her kit before we conclude.",
+      "assets": []
+    },
+    {
+      "id": "meta-position-conclusion-45",
+      "level": 6,
+      "heading": "Meta Position & Conclusion",
+      "text": "In the meta, YY:XL is a pretty imposing presence, to say the least. The nature of her kit makes her excel in all situations - AoE, single-target, single-wave, multi-wave, F2P or premium; you name it - she does it. In spite of her Signature weapon granting her a good increase over Emerald of Genesis, she still winds up one of the most F2P-friendly characters in the game, thanks to one of her best supports, Rebecca, being free, as well as her base damage simply being super high.\n Her ability to work with proven AoE powerhouses like Phrolova, and generally applicable as well as accessible Supports like Lynae, Rebecca or even Mortefi, makes her a powerhouse with extremely few flaws, that we honestly had trouble coming up with during this review (finding cons to YY:XL’s pros is genuinely a difficult task). Overall, she is one of the most meta releases, if not the most meta DPS to ever release. F2P-friendly, and one of the highest ceilings for scoring across all endgames. Those 2 combined traits are simply things we have never seen before. Luuk got close, but struggles hard in Whimpering Wastes. YY:XL doesn’t.\n In conclusion, YY:XL is one of the best DPS characters in Wuthering Waves overall. She only has room to grow post-release thanks to her ability to benefit from a wide variety of buffs paired alongside a ridiculously high base level of damage. Definitely one of the most imposing meta releases to date, YY:XL basically cannot disappoint on practically any Wuthering Waves account. If you were hesitant to pick her up and the determining factor was her meta position, rest assured - she’s top tier, no doubt.",
+      "assets": []
+    },
+    {
+      "id": "video-guides-46",
       "level": 2,
       "heading": "Video guides",
-      "text": "Yangyang Xuanling guide videos aren't available yet.\n\n Build",
+      "text": "Build",
       "assets": []
     },
     {
-      "id": "best-build-19",
+      "id": "best-weapons-47",
       "level": 2,
-      "heading": "Best build",
-      "text": "Yangyang Xuanling build information aren't available yet.\n\n Gameplay and teams",
-      "assets": []
+      "heading": "Best Weapons",
+      "text": "The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n Yangyang Xuanling calculations were done using added buffs from the following teammates:\n Lynae + Spectrum Blaster +\n Pact of Neonlight Leap\n\n +\n Hyvatia\n\n Chisa + Kumokiri +\n Rejuvenating Glow\n\n +\n Fallacy of No Return\n\n 100.00%\n\n Azure Oath (R 1 )\n\n Yangyang's Signature weapon provides CRIT Rate and Heavy DMG Amplification/DEF Ignore - since she scales excessively on most other stats, this blend of personal damage increases makes it her best weapon by a landslide.\n 87.80%\n\n Emerald Sentence (R 1 )\n\n Provides the same base stats as her Signature, however replaces the passive by a boost to team-wide Echo DMG and Heavy DMG, making it her second best in slot (still behind her Signature even with Phrolova being buffable with this weapon on her team).\n 80.80%\n\n Red Spring (R 1 )\n\n Mostly an ATK and CRIT Rate stat-stick for Yangyang, granting her a negligible Basic DMG Bonus increase.\n 80.50%\n\n Everbright Polestar (R 1 )\n\n ATK, DMG Bonus and CRIT Rate stat-stick for Yangyang, who does not benefit from this weapon's Tune Rupture/Fusion Burst-oriented effects.\n 80.30%\n\n Frostburn (R 1 )\n\n ATK and CRIT Rate stat-stick for Yangyang, who does not benefit from this weapon's Glacio Chafe-oriented effects.\n 80.30%\n\n Emerald of Genesis (R 1 )\n\n Mostly an ATK and CRIT Rate stat-stick for Yangyang, best permanent option that grants a negligible Energy Regen increase (as Yangyang already gets 10% from her Echo set) and a ramp-up ATK bonus when casting Skills.\n 79.90%\n\n Blazing Brilliance (R 1 )\n\n ATK and CRIT DMG stat-stick for Yangyang, who does not benefit from this weapon's Skill DMG-oriented effects (CRIT DMG scales noticeably worse on her than CRIT Rate).\n 73.70%\n\n Lumingloss (R 5 )\n\n Best 4-star option, this Battle Pass exclusive grants Yangyang some Heavy DMG Bonus and a good amount of ATK. Still pales in comparison to any 5-star though.\n 70.40%\n\n Fables of Wisdom (R 5 )\n\n Best no-gacha option, granting a lot of ATK to Yangyang but no other stats to speak of.",
+      "assets": [
+        {
+          "id": "e366b96f341c",
+          "sourceHash": "e366b96f341c",
+          "kind": "characters",
+          "name": "Lynae",
+          "fileStem": "lynae-icon",
+          "path": "Prydwen/ww/assets/characters/lynae-e366b96f341c.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "9def9d81ed3a",
+          "sourceHash": "9def9d81ed3a",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-24",
+          "path": "Prydwen/ww/assets/icons/set-24-9def9d81ed3a.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a204c02c6e12",
+          "sourceHash": "a204c02c6e12",
+          "kind": "misc",
+          "name": "Hyvatia",
+          "fileStem": "6000189",
+          "path": "Prydwen/ww/assets/misc/hyvatia-a204c02c6e12.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "0e96075575d8",
+          "sourceHash": "0e96075575d8",
+          "kind": "characters",
+          "name": "Chisa",
+          "fileStem": "chisa-icon",
+          "path": "Prydwen/ww/assets/characters/chisa-0e96075575d8.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "9116b6b3061f",
+          "sourceHash": "9116b6b3061f",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-7",
+          "path": "Prydwen/ww/assets/icons/set-7-9116b6b3061f.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "963f47d9c985",
+          "sourceHash": "963f47d9c985",
+          "kind": "misc",
+          "name": "Fallacy of No Return",
+          "fileStem": "6000060",
+          "path": "Prydwen/ww/assets/misc/fallacy-of-no-return-963f47d9c985.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "029aca9cad8c",
+          "sourceHash": "029aca9cad8c",
+          "kind": "weapons",
+          "name": "Azure Oath",
+          "fileStem": "21020096",
+          "path": "Prydwen/ww/assets/weapons/azure-oath-029aca9cad8c.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "67b3675ba5a5",
+          "sourceHash": "67b3675ba5a5",
+          "kind": "weapons",
+          "name": "Emerald Sentence",
+          "fileStem": "21020066",
+          "path": "Prydwen/ww/assets/weapons/emerald-sentence-67b3675ba5a5.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "0191cff521e2",
+          "sourceHash": "0191cff521e2",
+          "kind": "weapons",
+          "name": "Red Spring",
+          "fileStem": "21020026",
+          "path": "Prydwen/ww/assets/weapons/red-spring-0191cff521e2.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d0384e178d37",
+          "sourceHash": "d0384e178d37",
+          "kind": "weapons",
+          "name": "Everbright Polestar",
+          "fileStem": "21020076",
+          "path": "Prydwen/ww/assets/weapons/everbright-polestar-d0384e178d37.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "0a476c2be498",
+          "sourceHash": "0a476c2be498",
+          "kind": "weapons",
+          "name": "Frostburn",
+          "fileStem": "21020086",
+          "path": "Prydwen/ww/assets/weapons/frostburn-0a476c2be498.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1ee53622240c",
+          "sourceHash": "1ee53622240c",
+          "kind": "weapons",
+          "name": "Emerald of Genesis",
+          "fileStem": "21020015",
+          "path": "Prydwen/ww/assets/weapons/emerald-of-genesis-1ee53622240c.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "125c53e53fdd",
+          "sourceHash": "125c53e53fdd",
+          "kind": "weapons",
+          "name": "Blazing Brilliance",
+          "fileStem": "21020016",
+          "path": "Prydwen/ww/assets/weapons/blazing-brilliance-125c53e53fdd.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "5257981ba208",
+          "sourceHash": "5257981ba208",
+          "kind": "weapons",
+          "name": "Lumingloss",
+          "fileStem": "21020074",
+          "path": "Prydwen/ww/assets/weapons/lumingloss-5257981ba208.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "c115f8c39381",
+          "sourceHash": "c115f8c39381",
+          "kind": "weapons",
+          "name": "Fables of Wisdom",
+          "fileStem": "21020094",
+          "path": "Prydwen/ww/assets/weapons/fables-of-wisdom-c115f8c39381.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
     },
     {
-      "id": "rotation-20",
+      "id": "best-echo-sets-49",
+      "level": 6,
+      "heading": "Best Echo Sets",
+      "text": "100.00%\n\nSong of Feathered Trace\n\n Grants 10% unconditional Energy Regen on the 2P, a nice boost to ease Energy requirements. However, much more importantly, Havoc Bane appliers gain an extra 20% CRIT Rate and 35% Heavy DMG Bonus on the 5P, granting a very significant increase to Yangyang's stats, making it her perfect DPS set.\n Below you can find Main Echo options:\n\n Thousand-Puppet Pavilion\n\n - Gives 12% Havoc and 12% Heavy DMG Bonus when equipped in the Main Slot. A simple Summon Echo that gives Yangyang the best damage increases for her set.",
+      "assets": [
+        {
+          "id": "fb383356cac2",
+          "sourceHash": "fb383356cac2",
+          "kind": "echoes",
+          "name": "Set",
+          "fileStem": "song-of-feathered-trace",
+          "path": "Prydwen/ww/assets/echoes/song-of-feathered-trace-fb383356cac2.webp",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "d61110006e53",
+          "sourceHash": "d61110006e53",
+          "kind": "misc",
+          "name": "Thousand-Puppet Pavilion",
+          "fileStem": "6000218",
+          "path": "Prydwen/ww/assets/misc/thousand-puppet-pavilion-d61110006e53.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "best-echo-stats-50",
       "level": 2,
-      "heading": "Rotation",
-      "text": "Yangyang Xuanling rotation information aren't available yet.",
+      "heading": "Best Echo Stats",
+      "text": "4 cost\n CRIT Rate / CRIT DMG\n\n 3 cost\n Havoc DMG\n\n 3 cost\n ATK% = Havoc DMG\n\n 1 cost\n ATK%\n\n 1 cost\n ATK%\n\n Substats: Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% = Heavy DMG% ATK",
       "assets": []
     },
     {
-      "id": "synergies-21",
+      "id": "best-endgame-stats-level-90-51",
+      "level": 2,
+      "heading": "Best Endgame Stats (Level 90)",
+      "text": "All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n HP: 15500+\n\n DEF: 1100+\n\n ATK: 2100-2300+\n\n CRIT Rate: 65%+ (Before set bonuses)\n\n CRIT DMG: 255-300%+\n\n Energy Regen: 107%-119%\n Lower end estimated with Rebecca+Chisa, higher end estimated with Chisa+Verina. In any case, should be very easy to meet due to her 2P Echo set giving 10% ER already.\n\n Havoc DMG Bonus: 30-60%+",
+      "assets": []
+    },
+    {
+      "id": "skill-priority-52",
+      "level": 2,
+      "heading": "Skill Priority",
+      "text": "Below you can find the order of leveling the abilities for Yangyang Xuanling .\n Forte Circuit\n\n Res. Liberation\n\n Basic Attack\n\n Intro Skill\n\n Res. Skill\n\n Skill can be completely skipped as it is useless to yangyang-xuanling's practical rotation. Basic and Intro can be skipped when levelling to save on resources at a minimal damage loss.\n\n Gameplay and teams",
+      "assets": []
+    },
+    {
+      "id": "rotation-gameplay-54",
+      "level": 5,
+      "heading": "Rotation & Gameplay",
+      "text": "The focus of YY:XL’s rotation is generating Azure Plume 4 times total in order to execute several enhanced attacks in quick succession. To do so the quickest while ensuring she is on-field for her most damaging attacks, her rotation can occur in this manner:\n 💡 Tip",
+      "assets": []
+    },
+    {
+      "id": "echo-timing-55",
+      "level": 6,
+      "heading": "Echo Timing",
+      "text": "Since she uses a Summon Echo that deals damage periodically as Havoc Bane is applied (throughout her rotation), using it immediately as her rotation starts is recommended.",
+      "assets": []
+    },
+    {
+      "id": "standard-rotation-56",
+      "level": 6,
+      "heading": "Standard Rotation",
+      "text": "Intro\n\n Basic: Azure 1\n\n Basic: Azure 2\n\n Basic: Azure 3\n\n Basic: Azure 4\n\n Skill (Switch to Feather stance)\n\n Heavy: Feather\n\n Basic: Mid-air Attack: Feather Fall\n\n Basic: Havoc in Bloom 1\n\n Basic: Havoc in Bloom 2\n\n Basic: Havoc in Bloom 3 (Cancel animation endlag via Ultimate)\n\n Ultimate\n\n Skill (Switch to Azure stance)\n\n Heavy: Azure\n\n Outro",
+      "assets": []
+    },
+    {
+      "id": "synergies-57",
       "level": 2,
       "heading": "Synergies",
-      "text": "Yangyang Xuanling synergies are currently missing.",
-      "assets": []
+      "text": "Lynae Rebecca Phrolova Iuno Mortefi - Yangyang's best partners currently are general or Heavy Attack buffers. Lynae provides a very strong mix of good personal damage, decent rotation time and strong general buffs. Generally, she's the best pick by a small margin. Rebecca is however nearly equal to her thanks to her many buffs, some more tailored towards Heavy Attacks, in spite of her longer rotation; Phrolova has access to the best Crowd Control utility in the game in the form of Hecate as well as 45% DMG Amplification on her Outro, making her excellent for Whimpering Wastes; finally, Iuno and Mortefi serve as replacement Heavy Attack buffers if those 3 aren't available (although Iuno can prove slightly better than Phrolova in single-target).\n Chisa Mornye Verina - Yangyang is quite limited in viable 3rd slot options, since Shorekeeper doesn't interact well with her due to a saturation of CRIT stats. As such, Chisa is the best pick generally thanks to her ability to apply additional Havoc Bane for Yangyang as well as good buffs to Negative Status characters; Mornye works well, but at S0 this is exclusively on a team with Lynae where her full buffs can be activated; finally, Verina is the last resort option for players who have access to neither. Upgrading from Verina is recommended, but she is serviceable still.",
+      "assets": [
+        {
+          "id": "e366b96f341c",
+          "sourceHash": "e366b96f341c",
+          "kind": "characters",
+          "name": "Lynae",
+          "fileStem": "lynae-icon",
+          "path": "Prydwen/ww/assets/characters/lynae-e366b96f341c.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "59d02501284b",
+          "sourceHash": "59d02501284b",
+          "kind": "characters",
+          "name": "Rebecca",
+          "fileStem": "rebecca-icon",
+          "path": "Prydwen/ww/assets/characters/rebecca-59d02501284b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "8367f1df0e13",
+          "sourceHash": "8367f1df0e13",
+          "kind": "characters",
+          "name": "Phrolova",
+          "fileStem": "phrolova-icon",
+          "path": "Prydwen/ww/assets/characters/phrolova-8367f1df0e13.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e6913cb7353a",
+          "sourceHash": "e6913cb7353a",
+          "kind": "characters",
+          "name": "Iuno",
+          "fileStem": "iuno-icon",
+          "path": "Prydwen/ww/assets/characters/iuno-e6913cb7353a.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "4910396b5955",
+          "sourceHash": "4910396b5955",
+          "kind": "characters",
+          "name": "Mortefi",
+          "fileStem": "mortefi-icon",
+          "path": "Prydwen/ww/assets/characters/mortefi-4910396b5955.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "0e96075575d8",
+          "sourceHash": "0e96075575d8",
+          "kind": "characters",
+          "name": "Chisa",
+          "fileStem": "chisa-icon",
+          "path": "Prydwen/ww/assets/characters/chisa-0e96075575d8.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "40d7023b51fa",
+          "sourceHash": "40d7023b51fa",
+          "kind": "characters",
+          "name": "Mornye",
+          "fileStem": "mornye-icon",
+          "path": "Prydwen/ww/assets/characters/mornye-40d7023b51fa.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1b2a8f336e3d",
+          "sourceHash": "1b2a8f336e3d",
+          "kind": "characters",
+          "name": "Verina",
+          "fileStem": "verina-icon",
+          "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
     },
     {
-      "id": "example-teams-22",
+      "id": "example-teams-58",
       "level": 2,
       "heading": "Example Teams",
-      "text": "Yangyang Xuanling teams are currently missing.\n\n Calculations",
-      "assets": []
+      "text": "Best Team\n\n Ideally only run Mornye with Lynae on the team, as an alternative to Chisa.\n\n F2P Team\n\n Calculations",
+      "assets": [
+        {
+          "id": "2313f26b8992",
+          "sourceHash": "2313f26b8992",
+          "kind": "characters",
+          "name": "Yangyang Xuanling",
+          "fileStem": "yangyang-xuanling-icon",
+          "path": "Prydwen/ww/assets/characters/yangyang-xuanling-2313f26b8992.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "e366b96f341c",
+          "sourceHash": "e366b96f341c",
+          "kind": "characters",
+          "name": "Lynae",
+          "fileStem": "lynae-icon",
+          "path": "Prydwen/ww/assets/characters/lynae-e366b96f341c.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "59d02501284b",
+          "sourceHash": "59d02501284b",
+          "kind": "characters",
+          "name": "Rebecca",
+          "fileStem": "rebecca-icon",
+          "path": "Prydwen/ww/assets/characters/rebecca-59d02501284b.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "e6913cb7353a",
+          "sourceHash": "e6913cb7353a",
+          "kind": "characters",
+          "name": "Iuno",
+          "fileStem": "iuno-icon",
+          "path": "Prydwen/ww/assets/characters/iuno-e6913cb7353a.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "8367f1df0e13",
+          "sourceHash": "8367f1df0e13",
+          "kind": "characters",
+          "name": "Phrolova",
+          "fileStem": "phrolova-icon",
+          "path": "Prydwen/ww/assets/characters/phrolova-8367f1df0e13.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "0e96075575d8",
+          "sourceHash": "0e96075575d8",
+          "kind": "characters",
+          "name": "Chisa",
+          "fileStem": "chisa-icon",
+          "path": "Prydwen/ww/assets/characters/chisa-0e96075575d8.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "40d7023b51fa",
+          "sourceHash": "40d7023b51fa",
+          "kind": "characters",
+          "name": "Mornye",
+          "fileStem": "mornye-icon",
+          "path": "Prydwen/ww/assets/characters/mornye-40d7023b51fa.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "4910396b5955",
+          "sourceHash": "4910396b5955",
+          "kind": "characters",
+          "name": "Mortefi",
+          "fileStem": "mortefi-icon",
+          "path": "Prydwen/ww/assets/characters/mortefi-4910396b5955.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "1b2a8f336e3d",
+          "sourceHash": "1b2a8f336e3d",
+          "kind": "characters",
+          "name": "Verina",
+          "fileStem": "verina-icon",
+          "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+          "width": 120,
+          "height": 120
+        }
+      ]
     }
   ],
   "recommendations": {
@@ -230,7 +1079,12 @@
       "sections": [
         {
           "heading": "Stats",
-          "text": "Yangyang Xuanling stats aren't available yet.",
+          "text": "Include minor fortes\n\n Lv. 90\n\n Stats data not available for this character.",
+          "assets": []
+        },
+        {
+          "heading": "Best Echo Stats",
+          "text": "4 cost\n CRIT Rate / CRIT DMG\n\n 3 cost\n Havoc DMG\n\n 3 cost\n ATK% = Havoc DMG\n\n 1 cost\n ATK%\n\n 1 cost\n ATK%\n\n Substats: Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% = Heavy DMG% ATK",
           "assets": []
         }
       ]
@@ -239,8 +1093,230 @@
       "label": "Rotation",
       "sections": [
         {
-          "heading": "Rotation",
-          "text": "Yangyang Xuanling rotation information aren't available yet.",
+          "heading": "Key Mechanics & Rotation",
+          "text": "YY:XL applies Havoc Bane constantly with most of the attacks in her rotation, upkeeping max stacks on all enemies at all times (even in multi-wave content) is something she can handle easily. Havoc Bane constantly applies DEF Shred to affected enemies, as well as Havoc DMG Amplification to Yangyang via one of her passives (up to 6 stacks).\n Her rotation relies on switching between Azure and Feather stance. By default, she starts her rotations in Azure stance. She can switch freely between both forms via her Skill, however she can do so using enhanced skills if her Melody Forte gauge is depleted fully (via Perfect Dodges or Basic Attacks). This restores her other Forte resource, Azure Plume, which enhances her Mid-Air Attack and Azure Heavy Attack. In short, her rotation has her consuming her melody bar once, switching between both of her forms and casting her key attacks consecutively until she switches out.\n YY:XL additionally self-buffs her CRIT DMG throughout her rotation, as executing it will enhance the CRIT DMG of her key attacks by massive amounts (she reaches above 500% total CRIT DMG with a standard build and team, which leads to as bonkers of a damage ceiling as you’d expect).\n Finally, her Outro buffs the Havoc DMG of other Havoc Bane appliers than herself in the team on top of dealing a small amount of damage (right now, only Chisa can use this).\n YY:XL’s kit is very wordy but boils down to the self-buffs we detailed above, as well as ensuring that Havoc Bane is constantly applied on enemies up to max stacks at all times, even in multi-wave content, so that’s really all we have to say on her kit before we conclude.",
+          "assets": []
+        },
+        {
+          "heading": "Rotation & Gameplay",
+          "text": "The focus of YY:XL’s rotation is generating Azure Plume 4 times total in order to execute several enhanced attacks in quick succession. To do so the quickest while ensuring she is on-field for her most damaging attacks, her rotation can occur in this manner:\n 💡 Tip",
+          "assets": []
+        },
+        {
+          "heading": "Standard Rotation",
+          "text": "Intro\n\n Basic: Azure 1\n\n Basic: Azure 2\n\n Basic: Azure 3\n\n Basic: Azure 4\n\n Skill (Switch to Feather stance)\n\n Heavy: Feather\n\n Basic: Mid-air Attack: Feather Fall\n\n Basic: Havoc in Bloom 1\n\n Basic: Havoc in Bloom 2\n\n Basic: Havoc in Bloom 3 (Cancel animation endlag via Ultimate)\n\n Ultimate\n\n Skill (Switch to Azure stance)\n\n Heavy: Azure\n\n Outro",
+          "assets": []
+        }
+      ]
+    },
+    "best-weapons": {
+      "label": "Best Weapons",
+      "sections": [
+        {
+          "heading": "Best Weapons",
+          "text": "The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n Yangyang Xuanling calculations were done using added buffs from the following teammates:\n Lynae + Spectrum Blaster +\n Pact of Neonlight Leap\n\n +\n Hyvatia\n\n Chisa + Kumokiri +\n Rejuvenating Glow\n\n +\n Fallacy of No Return\n\n 100.00%\n\n Azure Oath (R 1 )\n\n Yangyang's Signature weapon provides CRIT Rate and Heavy DMG Amplification/DEF Ignore - since she scales excessively on most other stats, this blend of personal damage increases makes it her best weapon by a landslide.\n 87.80%\n\n Emerald Sentence (R 1 )\n\n Provides the same base stats as her Signature, however replaces the passive by a boost to team-wide Echo DMG and Heavy DMG, making it her second best in slot (still behind her Signature even with Phrolova being buffable with this weapon on her team).\n 80.80%\n\n Red Spring (R 1 )\n\n Mostly an ATK and CRIT Rate stat-stick for Yangyang, granting her a negligible Basic DMG Bonus increase.\n 80.50%\n\n Everbright Polestar (R 1 )\n\n ATK, DMG Bonus and CRIT Rate stat-stick for Yangyang, who does not benefit from this weapon's Tune Rupture/Fusion Burst-oriented effects.\n 80.30%\n\n Frostburn (R 1 )\n\n ATK and CRIT Rate stat-stick for Yangyang, who does not benefit from this weapon's Glacio Chafe-oriented effects.\n 80.30%\n\n Emerald of Genesis (R 1 )\n\n Mostly an ATK and CRIT Rate stat-stick for Yangyang, best permanent option that grants a negligible Energy Regen increase (as Yangyang already gets 10% from her Echo set) and a ramp-up ATK bonus when casting Skills.\n 79.90%\n\n Blazing Brilliance (R 1 )\n\n ATK and CRIT DMG stat-stick for Yangyang, who does not benefit from this weapon's Skill DMG-oriented effects (CRIT DMG scales noticeably worse on her than CRIT Rate).\n 73.70%\n\n Lumingloss (R 5 )\n\n Best 4-star option, this Battle Pass exclusive grants Yangyang some Heavy DMG Bonus and a good amount of ATK. Still pales in comparison to any 5-star though.\n 70.40%\n\n Fables of Wisdom (R 5 )\n\n Best no-gacha option, granting a lot of ATK to Yangyang but no other stats to speak of.",
+          "assets": [
+            {
+              "id": "e366b96f341c",
+              "sourceHash": "e366b96f341c",
+              "kind": "characters",
+              "name": "Lynae",
+              "fileStem": "lynae-icon",
+              "path": "Prydwen/ww/assets/characters/lynae-e366b96f341c.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "9def9d81ed3a",
+              "sourceHash": "9def9d81ed3a",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-24",
+              "path": "Prydwen/ww/assets/icons/set-24-9def9d81ed3a.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "a204c02c6e12",
+              "sourceHash": "a204c02c6e12",
+              "kind": "misc",
+              "name": "Hyvatia",
+              "fileStem": "6000189",
+              "path": "Prydwen/ww/assets/misc/hyvatia-a204c02c6e12.webp",
+              "width": 35,
+              "height": 35
+            },
+            {
+              "id": "0e96075575d8",
+              "sourceHash": "0e96075575d8",
+              "kind": "characters",
+              "name": "Chisa",
+              "fileStem": "chisa-icon",
+              "path": "Prydwen/ww/assets/characters/chisa-0e96075575d8.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "9116b6b3061f",
+              "sourceHash": "9116b6b3061f",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-7",
+              "path": "Prydwen/ww/assets/icons/set-7-9116b6b3061f.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "963f47d9c985",
+              "sourceHash": "963f47d9c985",
+              "kind": "misc",
+              "name": "Fallacy of No Return",
+              "fileStem": "6000060",
+              "path": "Prydwen/ww/assets/misc/fallacy-of-no-return-963f47d9c985.webp",
+              "width": 35,
+              "height": 35
+            },
+            {
+              "id": "029aca9cad8c",
+              "sourceHash": "029aca9cad8c",
+              "kind": "weapons",
+              "name": "Azure Oath",
+              "fileStem": "21020096",
+              "path": "Prydwen/ww/assets/weapons/azure-oath-029aca9cad8c.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "67b3675ba5a5",
+              "sourceHash": "67b3675ba5a5",
+              "kind": "weapons",
+              "name": "Emerald Sentence",
+              "fileStem": "21020066",
+              "path": "Prydwen/ww/assets/weapons/emerald-sentence-67b3675ba5a5.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "0191cff521e2",
+              "sourceHash": "0191cff521e2",
+              "kind": "weapons",
+              "name": "Red Spring",
+              "fileStem": "21020026",
+              "path": "Prydwen/ww/assets/weapons/red-spring-0191cff521e2.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "d0384e178d37",
+              "sourceHash": "d0384e178d37",
+              "kind": "weapons",
+              "name": "Everbright Polestar",
+              "fileStem": "21020076",
+              "path": "Prydwen/ww/assets/weapons/everbright-polestar-d0384e178d37.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "0a476c2be498",
+              "sourceHash": "0a476c2be498",
+              "kind": "weapons",
+              "name": "Frostburn",
+              "fileStem": "21020086",
+              "path": "Prydwen/ww/assets/weapons/frostburn-0a476c2be498.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "1ee53622240c",
+              "sourceHash": "1ee53622240c",
+              "kind": "weapons",
+              "name": "Emerald of Genesis",
+              "fileStem": "21020015",
+              "path": "Prydwen/ww/assets/weapons/emerald-of-genesis-1ee53622240c.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "125c53e53fdd",
+              "sourceHash": "125c53e53fdd",
+              "kind": "weapons",
+              "name": "Blazing Brilliance",
+              "fileStem": "21020016",
+              "path": "Prydwen/ww/assets/weapons/blazing-brilliance-125c53e53fdd.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "5257981ba208",
+              "sourceHash": "5257981ba208",
+              "kind": "weapons",
+              "name": "Lumingloss",
+              "fileStem": "21020074",
+              "path": "Prydwen/ww/assets/weapons/lumingloss-5257981ba208.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "c115f8c39381",
+              "sourceHash": "c115f8c39381",
+              "kind": "weapons",
+              "name": "Fables of Wisdom",
+              "fileStem": "21020094",
+              "path": "Prydwen/ww/assets/weapons/fables-of-wisdom-c115f8c39381.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    },
+    "best-echo-sets": {
+      "label": "Best Echo Sets",
+      "sections": [
+        {
+          "heading": "Best Echo Sets",
+          "text": "100.00%\n\nSong of Feathered Trace\n\n Grants 10% unconditional Energy Regen on the 2P, a nice boost to ease Energy requirements. However, much more importantly, Havoc Bane appliers gain an extra 20% CRIT Rate and 35% Heavy DMG Bonus on the 5P, granting a very significant increase to Yangyang's stats, making it her perfect DPS set.\n Below you can find Main Echo options:\n\n Thousand-Puppet Pavilion\n\n - Gives 12% Havoc and 12% Heavy DMG Bonus when equipped in the Main Slot. A simple Summon Echo that gives Yangyang the best damage increases for her set.",
+          "assets": [
+            {
+              "id": "fb383356cac2",
+              "sourceHash": "fb383356cac2",
+              "kind": "echoes",
+              "name": "Set",
+              "fileStem": "song-of-feathered-trace",
+              "path": "Prydwen/ww/assets/echoes/song-of-feathered-trace-fb383356cac2.webp",
+              "width": 50,
+              "height": 50
+            },
+            {
+              "id": "d61110006e53",
+              "sourceHash": "d61110006e53",
+              "kind": "misc",
+              "name": "Thousand-Puppet Pavilion",
+              "fileStem": "6000218",
+              "path": "Prydwen/ww/assets/misc/thousand-puppet-pavilion-d61110006e53.webp",
+              "width": 35,
+              "height": 35
+            }
+          ]
+        }
+      ]
+    },
+    "best-endgame-stats": {
+      "label": "Best Endgame Stats",
+      "sections": [
+        {
+          "heading": "Best Endgame Stats (Level 90)",
+          "text": "All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n HP: 15500+\n\n DEF: 1100+\n\n ATK: 2100-2300+\n\n CRIT Rate: 65%+ (Before set bonuses)\n\n CRIT DMG: 255-300%+\n\n Energy Regen: 107%-119%\n Lower end estimated with Rebecca+Chisa, higher end estimated with Chisa+Verina. In any case, should be very easy to meet due to her 2P Echo set giving 10% ER already.\n\n Havoc DMG Bonus: 30-60%+",
+          "assets": []
+        }
+      ]
+    },
+    "skill-priority": {
+      "label": "Skill Priority",
+      "sections": [
+        {
+          "heading": "Skill Priority",
+          "text": "Below you can find the order of leveling the abilities for Yangyang Xuanling .\n Forte Circuit\n\n Res. Liberation\n\n Basic Attack\n\n Intro Skill\n\n Res. Skill\n\n Skill can be completely skipped as it is useless to yangyang-xuanling's practical rotation. Basic and Intro can be skipped when levelling to save on resources at a minimal damage loss.\n\n Gameplay and teams",
           "assets": []
         }
       ]
@@ -250,8 +1326,89 @@
       "sections": [
         {
           "heading": "Synergies",
-          "text": "Yangyang Xuanling synergies are currently missing.",
-          "assets": []
+          "text": "Lynae Rebecca Phrolova Iuno Mortefi - Yangyang's best partners currently are general or Heavy Attack buffers. Lynae provides a very strong mix of good personal damage, decent rotation time and strong general buffs. Generally, she's the best pick by a small margin. Rebecca is however nearly equal to her thanks to her many buffs, some more tailored towards Heavy Attacks, in spite of her longer rotation; Phrolova has access to the best Crowd Control utility in the game in the form of Hecate as well as 45% DMG Amplification on her Outro, making her excellent for Whimpering Wastes; finally, Iuno and Mortefi serve as replacement Heavy Attack buffers if those 3 aren't available (although Iuno can prove slightly better than Phrolova in single-target).\n Chisa Mornye Verina - Yangyang is quite limited in viable 3rd slot options, since Shorekeeper doesn't interact well with her due to a saturation of CRIT stats. As such, Chisa is the best pick generally thanks to her ability to apply additional Havoc Bane for Yangyang as well as good buffs to Negative Status characters; Mornye works well, but at S0 this is exclusively on a team with Lynae where her full buffs can be activated; finally, Verina is the last resort option for players who have access to neither. Upgrading from Verina is recommended, but she is serviceable still.",
+          "assets": [
+            {
+              "id": "e366b96f341c",
+              "sourceHash": "e366b96f341c",
+              "kind": "characters",
+              "name": "Lynae",
+              "fileStem": "lynae-icon",
+              "path": "Prydwen/ww/assets/characters/lynae-e366b96f341c.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "59d02501284b",
+              "sourceHash": "59d02501284b",
+              "kind": "characters",
+              "name": "Rebecca",
+              "fileStem": "rebecca-icon",
+              "path": "Prydwen/ww/assets/characters/rebecca-59d02501284b.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "8367f1df0e13",
+              "sourceHash": "8367f1df0e13",
+              "kind": "characters",
+              "name": "Phrolova",
+              "fileStem": "phrolova-icon",
+              "path": "Prydwen/ww/assets/characters/phrolova-8367f1df0e13.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "e6913cb7353a",
+              "sourceHash": "e6913cb7353a",
+              "kind": "characters",
+              "name": "Iuno",
+              "fileStem": "iuno-icon",
+              "path": "Prydwen/ww/assets/characters/iuno-e6913cb7353a.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "4910396b5955",
+              "sourceHash": "4910396b5955",
+              "kind": "characters",
+              "name": "Mortefi",
+              "fileStem": "mortefi-icon",
+              "path": "Prydwen/ww/assets/characters/mortefi-4910396b5955.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "0e96075575d8",
+              "sourceHash": "0e96075575d8",
+              "kind": "characters",
+              "name": "Chisa",
+              "fileStem": "chisa-icon",
+              "path": "Prydwen/ww/assets/characters/chisa-0e96075575d8.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "40d7023b51fa",
+              "sourceHash": "40d7023b51fa",
+              "kind": "characters",
+              "name": "Mornye",
+              "fileStem": "mornye-icon",
+              "path": "Prydwen/ww/assets/characters/mornye-40d7023b51fa.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "1b2a8f336e3d",
+              "sourceHash": "1b2a8f336e3d",
+              "kind": "characters",
+              "name": "Verina",
+              "fileStem": "verina-icon",
+              "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
         }
       ]
     },
@@ -260,12 +1417,103 @@
       "sections": [
         {
           "heading": "Example Teams",
-          "text": "Yangyang Xuanling teams are currently missing.\n\n Calculations",
-          "assets": []
+          "text": "Best Team\n\n Ideally only run Mornye with Lynae on the team, as an alternative to Chisa.\n\n F2P Team\n\n Calculations",
+          "assets": [
+            {
+              "id": "2313f26b8992",
+              "sourceHash": "2313f26b8992",
+              "kind": "characters",
+              "name": "Yangyang Xuanling",
+              "fileStem": "yangyang-xuanling-icon",
+              "path": "Prydwen/ww/assets/characters/yangyang-xuanling-2313f26b8992.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "e366b96f341c",
+              "sourceHash": "e366b96f341c",
+              "kind": "characters",
+              "name": "Lynae",
+              "fileStem": "lynae-icon",
+              "path": "Prydwen/ww/assets/characters/lynae-e366b96f341c.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "59d02501284b",
+              "sourceHash": "59d02501284b",
+              "kind": "characters",
+              "name": "Rebecca",
+              "fileStem": "rebecca-icon",
+              "path": "Prydwen/ww/assets/characters/rebecca-59d02501284b.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "e6913cb7353a",
+              "sourceHash": "e6913cb7353a",
+              "kind": "characters",
+              "name": "Iuno",
+              "fileStem": "iuno-icon",
+              "path": "Prydwen/ww/assets/characters/iuno-e6913cb7353a.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "8367f1df0e13",
+              "sourceHash": "8367f1df0e13",
+              "kind": "characters",
+              "name": "Phrolova",
+              "fileStem": "phrolova-icon",
+              "path": "Prydwen/ww/assets/characters/phrolova-8367f1df0e13.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "0e96075575d8",
+              "sourceHash": "0e96075575d8",
+              "kind": "characters",
+              "name": "Chisa",
+              "fileStem": "chisa-icon",
+              "path": "Prydwen/ww/assets/characters/chisa-0e96075575d8.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "40d7023b51fa",
+              "sourceHash": "40d7023b51fa",
+              "kind": "characters",
+              "name": "Mornye",
+              "fileStem": "mornye-icon",
+              "path": "Prydwen/ww/assets/characters/mornye-40d7023b51fa.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "4910396b5955",
+              "sourceHash": "4910396b5955",
+              "kind": "characters",
+              "name": "Mortefi",
+              "fileStem": "mortefi-icon",
+              "path": "Prydwen/ww/assets/characters/mortefi-4910396b5955.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "1b2a8f336e3d",
+              "sourceHash": "1b2a8f336e3d",
+              "kind": "characters",
+              "name": "Verina",
+              "fileStem": "verina-icon",
+              "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+              "width": 120,
+              "height": 120
+            }
+          ]
         }
       ]
     }
   },
   "tables": [],
-  "text": "Yangyang Xuanling Best Build Guide | Wuthering Waves (WuWa)\n \n\n Wuthering Waves\n Home Database Characters Weapons Echoes Banners\n Tier Lists Tier List Team Tier List Value Tier List\n Guides Guides\n Resources Map News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Wuthering Waves\n /\n Characters\n /\n Yangyang Xuanling\n Yangyang Xuanling Best Build Guide\n Last updated: 18/June/2026\n\n Introduction\n Best guide and build for Yangyang Xuanling from WW (Wuthering Waves). Yangyang Xuanling is a 5 ★ rarity character from the Havoc element who uses the Sword type weapon.\n\n To learn more about Yangyang Xuanling check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n This character has no video guide yet.\n\n To learn more about Yangyang Xuanling check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Kit\n\n Review\n\n Build\n\n Gameplay and teams\n\n Calculations\n\n Profile\n\n Skills\n Yangyang Xuanling skills aren't available yet. They will be added soon!\n\n Resonance Chain (Dupes)\n Yangyang Xuanling dupes information aren't available yet. They will be added soon!\n\n Minor Fortes (Total)\n Yangyang Xuanling Minor Fortes information aren't available yet.\n\n Stats\n Yangyang Xuanling stats aren't available yet.\n\n Upgrade Materials\n Yangyang Xuanling upgrade material information aren't available yet.\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n Please keep in mind Wuthering Waves is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Wuthering Waves is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Yangyang Xuanling ratings aren't available yet.\n\n Pros & Cons\n Yangyang Xuanling pros & cons aren't available yet.\n\n Review\n Yangyang Xuanling mini-review isn't available yet.\n\n Video guides\n Yangyang Xuanling guide videos aren't available yet.\n\n Build\n\n Best build\n Yangyang Xuanling build information aren't available yet.\n\n Gameplay and teams\n\n Rotation\n Yangyang Xuanling rotation information aren't available yet.\n\n Synergies\n Yangyang Xuanling synergies are currently missing.\n\n Example Teams\n Yangyang Xuanling teams are currently missing.\n\n Calculations"
+  "text": "Yangyang Xuanling Best Build Guide | Wuthering Waves (WuWa)\n \n\n Wuthering Waves\n Home Database Characters Weapons Echoes Banners\n Tier Lists Tier List Team Tier List Value Tier List\n Guides Guides\n Resources Map News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Wuthering Waves\n /\n Characters\n /\n Yangyang Xuanling\n Yangyang Xuanling Best Build Guide\n Last updated: 10/July/2026\n\n Introduction\n Best guide and build for Yangyang Xuanling from WW (Wuthering Waves). Yangyang Xuanling is a 5 ★ rarity character from the Havoc element who uses the Sword type weapon.\n\n To learn more about Yangyang Xuanling check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Yangyang Xuanling has at least one video guide available:\n\n Update tracker\n Last review update\n Patch 3.5\n\n Last major build/calcs update\n Patch 3.5\n\n Last profile update*\n 10/July/2026\n\n *Profile update means smaller edits to echoes, stats, synergies or teams that don't require new calculations.\n To learn more about Yangyang Xuanling check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Kit\n\n Review\n\n Build\n\n Gameplay and teams\n\n Calculations\n\n Profile\n\n Skills\n Active skills\n Passive skills\n Concerto skills\n\n Basic Attack\n Succor and Smite\n\n Basic Attack - Azure Sword Stance\n Press Normal Attack repeatedly or hold it down to consume Melody and perform up to 4 consecutive attacks, dealing Havoc DMG . While Melody is not depleted, the Energy Regen is increased by 20% when Basic Attack - Azure Sword Stance deals damage.\n\n Basic Attack - Azure Sword Stance Stage 4 applies 1 stack of Havoc Bane to the targets hit.\n\n Basic Attack - Feather Sword Stance\n Press Normal Attack repeatedly or hold it down to consume Melody and perform up to 4 consecutive attacks, dealing Havoc DMG . While Melody is not depleted, the Energy Regen is increased by 20% when Basic Attack - Feather Sword Stance deals damage.\n\n Basic Attack - Feather Sword Stance Stage 4 applies 1 stack of Havoc Bane to the targets hit.\n\n Mid-air Attack - Azure Sword Stance\n Consume STA to perform a Plunging Attack, consuming Melody and dealing Havoc DMG .\n\n Pressing Normal Attack within a short time after casting this skill triggers Basic Attack - Azure Sword Stance Stage 2.\n\n Mid-air Attack - Feather Sword Stance\n Consume STA to perform a Plunging Attack, consuming Melody and dealing Havoc DMG .\n\n Pressing Normal Attack within a short time after casting this skill triggers Basic Attack - Feather Sword Stance Stage 2.\n\n Dodge Counter - Azure Sword Stance\n Pressing Normal Attack within a short time after a successful Dodge consumes Melody to attack the target, dealing Havoc DMG .\n\n Pressing Normal Attack within a short time after casting this skill triggers Basic Attack - Azure Sword Stance Stage 3.\n\n Casting Dodge Counter - Azure Sword Stance counts as casting Basic Attack - Azure Sword Stance Stage 2.\n\n Dodge Counter - Feather Sword Stance\n Pressing Normal Attack within a short time after a successful Dodge consumes Melody to attack the target, dealing Havoc DMG .\n\n Pressing Normal Attack within a short time after casting this skill triggers Basic Attack - Feather Sword Stance Stage 3.\n\n Casting Dodge Counter - Feather Sword Stance counts as casting Basic Attack - Feather Sword Stance Stage 2.\n\n Multipliers\n\n Resonance Skill\n Feather's Edge\n\n Sword Stance Switch\n While in Azure Sword Stance, press Resonance Skill to switch to Feather Sword Stance and perform Basic Attack - Feather Sword Stance Stage 1, dealing Havoc DMG .\n\n While in Feather Sword Stance, press Resonance Skill to switch to Azure Sword Stance and perform Basic Attack - Azure Sword Stance Stage 1, dealing Havoc DMG .\n\n Sword Stance Switch: Azure\n Press Resonance Skill within a short time after casting Basic Attack - Feather Sword Stance to switch to Azure Sword Stance and cast Sword Stance Switch: Azure, dealing Havoc DMG , considered Heavy Attack DMG.\nA successful Dodge can be triggered within a short time into the action of this skill, which consumes 50 Melody.\n\n After casting this skill, the Basic Attack cycle will not reset for a short time.\n\n Sword Stance Switch: Feather\n Press Resonance Skill within a short time after casting Basic Attack - Azure Sword Stance to switch to Feather Sword Stance and cast Sword Stance Switch: Feather, dealing Havoc DMG , considered Heavy Attack DMG.\n\n A successful Dodge can be triggered within a short time into the action of this skill, which consumes 50 Melody.\n\n After casting this skill, the Basic Attack cycle will not reset for a short time.\n\n Multipliers\n\n Resonance Liberation\n Hush of a Thousand Voices\n\n Hush of a Thousand Voices\n Consume all Melody to deal Havoc DMG and restore 1 point of Azure Plume. This DMG is considered Heavy Attack DMG.\n\n Upon casting this skill, obtain Voice upon Voice. When casting Resonance Skill - Sword Stance Flow: Azure or Resonance Skill - Sword Stance Flow: Feather, summon Shadow of Xuanling to attack the target, dealing Havoc DMG , considered Heavy Attack DMG.\n\n Voice upon Voice cannot stack. Once Shadow of Xuanling is summoned, the Voice upon Voice state is removed.\n\n Multipliers\n\n Forte Circuit\n The Way of Ten Thousand Voices\n\n Resonance Skill - Sword Stance Flow: Azure\n Yangyang: Xuanling is in Azure Sword Stance by default. When Melody is depleted while in Feather Sword Stance, Resonance Skill - Feather's Edge is replaced by Resonance Skill - Sword Stance Flow: Azure.\n\n Press Resonance Skill to switch to Azure Sword Stance and cast Resonance Skill - Sword Stance Flow: Azure, dealing Havoc DMG and restoring 100 points of Melody and 1 point of Azure Plume. This instance of DMG is considered Heavy Attack DMG.\n\n When Resonance Skill - Sword Stance Flow: Azure hits the target, consume 1 stack of Havoc Bane on the target.\n\n The Basic Attack - Feather Sword Stance cycle is not reset within a short time after casting Resonance Skill - Sword Stance Flow: Azure. If casting Resonance Skill - Sword Stance Flow: Azure resets the cycle, summon a Wraith of Sound to finish the current attack and deal a fixed instance of Havoc DMG , considered Basic Attack DMG, which is not affected by any DMG Bonus effects and does not inflict Havoc Bane.\n\n Successful Dodge can be triggered within a short time into the action of this skill, which consumes 50 points of Melody.\n\n Resonance Skill - Sword Stance Flow: Feather\n When Melody is depleted while in Azure Sword Stance, Resonance Skill - Feather's Edge is replaced by Resonance Skill - Sword Stance Flow: Feather.\n\n Press Resonance Skill to switch to Feather Sword Stance and cast Resonance Skill - Sword Stance Flow: Feather, dealing Havoc DMG and restoring 100 points of Melody and 1 point of Azure Plume. This instance of DMG is considered Heavy Attack DMG.\n\n When Resonance Skill - Sword Stance Flow: Feather hits, consume 1 stack of Havoc Bane on the target.\n\n The Basic Attack - Azure Sword Stance cycle is not reset within a short time after casting Resonance Skill - Sword Stance Flow: Feather. If casting Resonance Skill - Sword Stance Flow: Feather resets the cycle, summon a Wraith of Sound to finish the current attack and deal a fixed instance of Havoc DMG , considered Basic Attack DMG, which is not affected by any DMG Bonus effects and does not inflict Havoc Bane.\nSuccessful Dodge can be triggered within a short time into the action of this skill, which consumes 50 points of Melody.\n\n Heavy Attack - Azure Sword Stance\n When Azure Plume is restored to its maximum while in Azure Sword Stance, hold Normal Attack to consume STA and all Azure Plume to cast Heavy Attack - Azure Sword Stance, generating a massive cyclone that strikes the area in front, dealing Havoc DMG , considered Heavy Attack DMG.\n\n When casting Heavy Attack - Azure Sword Stance, gain Bated Breath: If Yangyang: Xuanling is the active Resonator in the field, the Crit. DMG of this Heavy Attack - Azure Sword Stance increases by 160% . When Heavy Attack - Azure Sword Stance ends, Bated Breath is removed. Bated Breath can be gained up to once every 25s .\n\n Heavy Attack - Azure Sword Stance applies 2 stacks of Havoc Bane to the targets hit.\n\n Heavy Attack - Feather Sword Stance\n When Azure Plume is restored to its maximum while in Feather Sword Stance, if Yangyang: Xuanling is on the ground and not in a Basic Attack - Havoc in Bloom cycle, hold Normal Attack to consume STA and cast Heavy Attack - Feather Sword Stance, dealing Havoc DMG . After it hits a target, Mid-air Attack - Feather Fall is automatically cast.\n\n When casting Heavy Attack - Feather Sword Stance, gain Streaming Storm, which lasts 15s . While Yangyang: Xuanling is the active Resonator in the team, the Crit. DMG of this Heavy Attack - Feather Sword Stance or the next Mid-air Attack - Feather Fall, Basic Attack - Havoc in Bloom, or Dodge Counter - Havoc in Bloom is increased by 160% . Streaming Storm is removed when Basic Attack - Havoc in Bloom Stage 3 or Dodge Counter - Havoc in Bloom Stage 3 ends. Streaming Storm can be gained up to once every 25s .\n\n Heavy Attack - Feather Sword Stance applies 2 stacks of Havoc Bane to the targets hit.\n\n Mid-air Attack - Feather Fall\n When Azure Plume is restored to its maximum while in Feather Sword Stance and airborne, Mid-air Attack - Feather Sword Stance is replaced by Mid-air Attack - Feather Fall.\n\n Press or hold Normal Attack to consume STA and all Azure Plume to cast Mid-air Attack - Feather Fall, dealing Havoc DMG . Casting Mid-air Attack - Feather Fall enters Hark the Wind for 12s .\n\n Hark the Wind\n While in Feather Sword Stance, Basic Attack - Feather Sword Stance is replaced by Basic Attack - Havoc in Bloom, which performs up to 3 consecutive attacks, dealing Havoc DMG , considered Heavy Attack DMG.\n\n Basic Attack - Havoc in Bloom Stage 2 and Stage 3 can be cast in mid-air close to the ground. Casting Stage 3 ends Basic Attack - Havoc in Bloom. This attack cycle cannot be reset.\n\n During Hark the Wind, a Dodge Counter counts towards the Basic Attack - Havoc in Bloom cycle.\n\n Feathered Oath\n When nearby Resonators in the team inflict Havoc Bane on a target, Yangyang: Xuanling gains 1 stack of Feathered Oath for 4s . Feathered Oath can be gained once every 1s , stacking up to 6 times. While Yangyang: Xuanling is the active Resonator in the team, each stack increases the Crit. DMG of Heavy Attack - Azure Sword Stance, Heavy Attack - Feather Sword Stance, Mid-air Attack - Feather Fall, Basic Attack - Havoc in Bloom, and Dodge Counter - Havoc in Bloom by 25% , up to 150% .\n\n Refrain\n Before Yangyang: Xuanling's Basic Attack - Azure Sword Stance Stage 4, Basic Attack - Feather Sword Stance Stage 4, Heavy Attack - Azure Sword Stance, or Heavy Attack - Feather Sword Stance hits a target, record and propagate the highest stack count of Havoc Bane on targets within a certain range to all targets within range.\n\n Melody\n Melody has a maximum of 100 points.\n\n Casting Resonance Skill - Sword Stance Flow: Azure or Resonance Skill - Sword Stance Flow: Feather restores 100 points of Melody.\n\n Casting Resonance Liberation Hush of a Thousand Voices consumes all Melody.\n\n Normal Attacks consumes Melody upon dealing damage.\n\n Successful Dodge can be triggered during the action of Resonance Skill - Sword Stance Switch: Azure, Resonance Skill - Sword Stance Switch: Feather, Resonance Skill - Sword Stance Flow: Azure, or Resonance Skill - Sword Stance Flow: Feather within a certain time of casting these skills, which consumes 50 points of Melody.\n\n Azure Plume\n Azure Plume has a maximum of 2 points.\n\n Casting Resonance Skill - Sword Stance Flow: Azure, Resonance Skill - Sword Stance Flow: Feather, or Intro Skill - Skybound Feather restores 1 points of Azure Plume.\n\n Casting Resonance Liberation - Hush of a Thousand Voices restores 1 point of Azure Plume.\n\n Casting Heavy Attack - Azure Sword Stance or Mid-air Attack - Feather Fall consumes all Azure Plume.\n\n Multipliers\n\n Forte Circuit\n Tune Break - Sword\n\n When the target's Off-Tune Level is full, the Resonator may cast Tune Break on the target.\n\n Inherent Skill\n Unbroken Vow\n\n When a target has 1 to 3 stacks of Havoc Bane, each stack of Havoc Bane Amplifies the DMG from Yangyang: Xuanling by 10% , up to 30% .\n When a target has 4 to 6 stacks of Havoc Bane, each stack of Havoc Bane Amplifies the DMG from Yangyang: Xuanling by 12% , up to 36% .\n\n Inherent Skill\n One Life, One Blade\n\n Resonance Liberation Hush of a Thousand Voices raises the Havoc Bane stacks on the targets to the maximum on hit.\n When nearby Resonators in the team inflict Havoc Bane, Yangyang: Xuanling gains 1 stack of Windbound. Windbound can be gained once every 1s , stacking up to 6 times.\n When Windbound reaches 6 stacks, Yangyang: Xuanling removes all Windbound and gains One with the Wind.\n While One with the Wind lasts, when Yangyang: Xuanling casts Resonance Skill - Sword Stance Flow: Azure or Resonance Skill - Sword Stance Flow: Feather, she summons Feather Release: Xuanling to attack the target, applying 6 stacks of Havoc Bane to the target.\n Windbound cannot be obtained while One with the Wind lasts.\n Once Feather Release: Xuanling is summoned, the One with the Wind state is removed.\n\n Intro Skill\n Skybound Feather\n\n Deal Havoc DMG and restore 1 point of Azure Plume.\n When Intro Skill - Skybound Feather deals damage, it applies 1 stack of Havoc Bane on the target.\n\n Multipliers\n\n Outro Skill\n As the Wind Wills\n\n Attacks the target, dealing Havoc DMG equal to 300% of Yangyang: Xuanling's ATK.All Resonators in the team other than Yangyang: Xuanling gains Tonal Switch for 20s . After a Resonator with Tonal Switch inflicts Havoc Bane, that Resonator's Havoc DMG is Amplified by 20% .\n This effect is reset upon casting this skill again.\n\n Resonance Chain (Dupes)\n S 1\n At the Wind's Breath, the Blossoms Wake\n\n Casting Resonance Skill - Sword Stance Flow: Azure or Resonance Skill - Sword Stance Flow: Feather summons a Shadow of Xuanling: Unfaltering to attack the target, dealing Havoc DMG equal to 337.98% of Yangyang: Xuanling's ATK. This DMG is considered Heavy Attack DMG.\n Casting Resonance Skill - Sword Stance Flow: Azure or Resonance Skill - Sword Stance Flow: Feather Stagnates nearby enemies.\n Heavy Attack - Azure Sword Stance, Basic Attack - Havoc in Bloom and Dodge Counter - Havoc in Bloom are immune to interruption.\n\n S 2\n River Carries Her Song Away\n\n The DMG dealt by Heavy Attack - Azure Sword Stance, Heavy Attack - Feather Sword Stance, Mid-air Attack - Feather Fall, Basic Attack - Havoc in Bloom, and Dodge Counter - Havoc in Bloom is increased by 100% .\n Every time Yangyang: Xuanling remains out of combat for more than 4s after she leaves the combat state or revives, she gains the following effects once:\n Gain Strung Notes, up to 1 stack. Casting Basic Attack - Azure Sword Stance or Basic Attack - Feather Sword Stance summons Shadow of Xuanling: Strung Notes to attack the target, dealing Havoc DMG equal to 337.98% of Yangyang: Xuanling's ATK, considered Heavy Attack DMG. Strung Notes is removed after Shadow of Xuanling: Strung Notes is summoned.\n\n Restore 2 points of Azure Plume.\n\n Reset the Cooldown of gaining Bated Breath and Streaming Storm.\n\n S 3\n My Grief Follows You into the Clouds\n\n The DMG dealt via Resonance Liberation Hush of a Thousand Voices is Amplified by 175% .\n After casting Intro Skill - Skybound Feather, Resonance Skill - Sword Stance Flow: Azure, or Resonance Skill - Sword Stance Flow: Feather, increase the maximum Havoc Bane stacks on targets within a certain range by 3 , lasting 20s . This effect does not stack.\n Basic Attack - Azure Sword Stance Stage 4, Basic Attack - Feather Sword Stance Stage 4, Heavy Attack - Azure Sword Stance, and Heavy Attack - Feather Sword Stance inflict 1 additional stack of Havoc Bane on the target.\n\n S 4\n Across the Miles, a Letter and My Longing\n\n When casting Intro Skill - Skybound Feather, Resonance Skill - Sword Stance Switch: Azure, Resonance Skill - Sword Stance Switch: Feather, Resonance Skill - Sword Stance Flow: Azure, or Resonance Skill - Sword Stance Flow: Feather, the ATK of Resonators in the team is increased by 20% for 20s .\n\n S 5\n Take Wing. Take Wing.\n\n When Yangyang: Xuanling takes a fatal blow, she will not be downed, but instead recover HP equal to 50% of her Max HP while becoming immune to DMG and interruption for 3s . This effect can be triggered once every 10 min.\n\n S 6\n Let the Azure Keep Its Light\n\n After Yangyang: Xuanling inflicts Havoc Bane on a target, gain Voice Flux for 30s . While Voice Flux is active, the Heavy Attack DMG from Yangyang: Xuanling is increased by 40% .\n Casting Resonance Skill - Sword Stance Flow: Azure or Resonance Skill - Sword Stance Flow: Feather grants Still as Withered Wood for 30s . While Still as Withered Wood is active, if Yangyang: Xuanling is on the field, then after nearby Resonators in the team inflict Glacio Chafe, Fusion Burst, Electro Flare, Aero Erosion, Spectro Frazzle, or Havoc Bane, Yangyang: Xuanling summons Shadow of Xuanling: Still as Withered Wood to attack the target, dealing Havoc DMG equal to 337.98% of Yangyang: Xuanling's ATK. The DMG of Shadow of Xuanling: Still as Withered Wood is considered Heavy Attack DMG and is guaranteed to be a critical hit.\n Shadow of Xuanling: Still as Withered Wood can be summoned once every 1s , and Still as Withered Wood expires after it is summoned 5 times. When Still as Withered Wood expires or is removed, reset the available summon charges of Shadow of Xuanling: Still as Withered Wood. Still as Withered Wood has a Cooldown of 25s .\n\n Minor Fortes (Total)\n CRIT Rate\n + 8 %\n\n ATK%\n + 12 %\n\n Stats\n\nInclude minor fortes\n\n Lv. 90\n\n Stats data not available for this character.\n\n Upgrade Materials\n Yangyang Xuanling upgrade material information aren't available yet.\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n Please keep in mind Wuthering Waves is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Wuthering Waves is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n DPS\n T0\n Tower of Adversity\n\n T0\n Whimpering Wastes\n\n Value Tier List\n DPS\n T0\n Tower of Adversity (Value)\n\n T0\n Whimpering Wastes (Value)\n\n Pros & Cons\n Pros\n Top-tier damage ceiling with a focus on mid-air combat and animations that are generally hard to interrupt.\n\n Excels in all endgame content, not just single-target bossing - Havoc Bane is applied by herself very often and constantly spreads across multiple waves.\n\n Energy Regen requirements are super easy to meet.\n\n Has a ton of accessible team compositions, F2P and Premium alike. F2P-friendly while also being improvable for cheap, likely some of her premium characters are already present on your account as well.\n\n Has a short rotation compared to most Main DPS while still dealing ludicrous damage.\n\n Looks like Selena from Punishing: Gray Raven (we like Selena from Punishing: Gray Raven).\n\n Cons\n Self-buffs CRIT stats by so much that Shorekeeper is rendered practically useless; she is hence more limited in premium 3rd slot options than most (Mornye only with Lynae, or Chisa are your only upgrade paths from Verina).\n\n Somewhat limited in Swap Cancelling; currently plays best with Outro buffers, her damage is spread evenly across her rotation, preventing buffing key abilities, and a lot of her self-buffs only apply if she’s the active character on the field.\n\n Review\n Yangyang: Xuanling (who we will just shorten to YY:XL throughout this review) is a 5-star Havoc Sword Main DPS character who relies on Havoc Bane and Heavy Attack damage to execute pretty fast & most importantly really strong rotations that will, with enough investment, decimate her enemies, as she is one of the top DPS characters in the game by a landslide.\n Key Mechanics & Rotation\n YY:XL applies Havoc Bane constantly with most of the attacks in her rotation, upkeeping max stacks on all enemies at all times (even in multi-wave content) is something she can handle easily. Havoc Bane constantly applies DEF Shred to affected enemies, as well as Havoc DMG Amplification to Yangyang via one of her passives (up to 6 stacks).\n Her rotation relies on switching between Azure and Feather stance. By default, she starts her rotations in Azure stance. She can switch freely between both forms via her Skill, however she can do so using enhanced skills if her Melody Forte gauge is depleted fully (via Perfect Dodges or Basic Attacks). This restores her other Forte resource, Azure Plume, which enhances her Mid-Air Attack and Azure Heavy Attack. In short, her rotation has her consuming her melody bar once, switching between both of her forms and casting her key attacks consecutively until she switches out.\n YY:XL additionally self-buffs her CRIT DMG throughout her rotation, as executing it will enhance the CRIT DMG of her key attacks by massive amounts (she reaches above 500% total CRIT DMG with a standard build and team, which leads to as bonkers of a damage ceiling as you’d expect).\n Finally, her Outro buffs the Havoc DMG of other Havoc Bane appliers than herself in the team on top of dealing a small amount of damage (right now, only Chisa can use this).\n YY:XL’s kit is very wordy but boils down to the self-buffs we detailed above, as well as ensuring that Havoc Bane is constantly applied on enemies up to max stacks at all times, even in multi-wave content, so that’s really all we have to say on her kit before we conclude.\n Meta Position & Conclusion\n In the meta, YY:XL is a pretty imposing presence, to say the least. The nature of her kit makes her excel in all situations - AoE, single-target, single-wave, multi-wave, F2P or premium; you name it - she does it. In spite of her Signature weapon granting her a good increase over Emerald of Genesis, she still winds up one of the most F2P-friendly characters in the game, thanks to one of her best supports, Rebecca, being free, as well as her base damage simply being super high.\n Her ability to work with proven AoE powerhouses like Phrolova, and generally applicable as well as accessible Supports like Lynae, Rebecca or even Mortefi, makes her a powerhouse with extremely few flaws, that we honestly had trouble coming up with during this review (finding cons to YY:XL’s pros is genuinely a difficult task). Overall, she is one of the most meta releases, if not the most meta DPS to ever release. F2P-friendly, and one of the highest ceilings for scoring across all endgames. Those 2 combined traits are simply things we have never seen before. Luuk got close, but struggles hard in Whimpering Wastes. YY:XL doesn’t.\n In conclusion, YY:XL is one of the best DPS characters in Wuthering Waves overall. She only has room to grow post-release thanks to her ability to benefit from a wide variety of buffs paired alongside a ridiculously high base level of damage. Definitely one of the most imposing meta releases to date, YY:XL basically cannot disappoint on practically any Wuthering Waves account. If you were hesitant to pick her up and the determining factor was her meta position, rest assured - she’s top tier, no doubt.\n\n Video guides\n\n Build\n\n Best Weapons\n The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n Yangyang Xuanling calculations were done using added buffs from the following teammates:\n Lynae + Spectrum Blaster +\n Pact of Neonlight Leap\n\n +\n Hyvatia\n\n Chisa + Kumokiri +\n Rejuvenating Glow\n\n +\n Fallacy of No Return\n\n 100.00%\n\n Azure Oath (R 1 )\n\n Yangyang's Signature weapon provides CRIT Rate and Heavy DMG Amplification/DEF Ignore - since she scales excessively on most other stats, this blend of personal damage increases makes it her best weapon by a landslide.\n 87.80%\n\n Emerald Sentence (R 1 )\n\n Provides the same base stats as her Signature, however replaces the passive by a boost to team-wide Echo DMG and Heavy DMG, making it her second best in slot (still behind her Signature even with Phrolova being buffable with this weapon on her team).\n 80.80%\n\n Red Spring (R 1 )\n\n Mostly an ATK and CRIT Rate stat-stick for Yangyang, granting her a negligible Basic DMG Bonus increase.\n 80.50%\n\n Everbright Polestar (R 1 )\n\n ATK, DMG Bonus and CRIT Rate stat-stick for Yangyang, who does not benefit from this weapon's Tune Rupture/Fusion Burst-oriented effects.\n 80.30%\n\n Frostburn (R 1 )\n\n ATK and CRIT Rate stat-stick for Yangyang, who does not benefit from this weapon's Glacio Chafe-oriented effects.\n 80.30%\n\n Emerald of Genesis (R 1 )\n\n Mostly an ATK and CRIT Rate stat-stick for Yangyang, best permanent option that grants a negligible Energy Regen increase (as Yangyang already gets 10% from her Echo set) and a ramp-up ATK bonus when casting Skills.\n 79.90%\n\n Blazing Brilliance (R 1 )\n\n ATK and CRIT DMG stat-stick for Yangyang, who does not benefit from this weapon's Skill DMG-oriented effects (CRIT DMG scales noticeably worse on her than CRIT Rate).\n 73.70%\n\n Lumingloss (R 5 )\n\n Best 4-star option, this Battle Pass exclusive grants Yangyang some Heavy DMG Bonus and a good amount of ATK. Still pales in comparison to any 5-star though.\n 70.40%\n\n Fables of Wisdom (R 5 )\n\n Best no-gacha option, granting a lot of ATK to Yangyang but no other stats to speak of.\n\n Best Echo Sets\n Best Echo Sets\n 100.00%\n\nSong of Feathered Trace\n\n Grants 10% unconditional Energy Regen on the 2P, a nice boost to ease Energy requirements. However, much more importantly, Havoc Bane appliers gain an extra 20% CRIT Rate and 35% Heavy DMG Bonus on the 5P, granting a very significant increase to Yangyang's stats, making it her perfect DPS set.\n Below you can find Main Echo options:\n\n Thousand-Puppet Pavilion\n\n - Gives 12% Havoc and 12% Heavy DMG Bonus when equipped in the Main Slot. A simple Summon Echo that gives Yangyang the best damage increases for her set.\n\n Best Echo Stats\n 4 cost\n CRIT Rate / CRIT DMG\n\n 3 cost\n Havoc DMG\n\n 3 cost\n ATK% = Havoc DMG\n\n 1 cost\n ATK%\n\n 1 cost\n ATK%\n\n Substats: Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% = Heavy DMG% ATK\n\n Best Endgame Stats (Level 90)\n All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n HP: 15500+\n\n DEF: 1100+\n\n ATK: 2100-2300+\n\n CRIT Rate: 65%+ (Before set bonuses)\n\n CRIT DMG: 255-300%+\n\n Energy Regen: 107%-119%\n Lower end estimated with Rebecca+Chisa, higher end estimated with Chisa+Verina. In any case, should be very easy to meet due to her 2P Echo set giving 10% ER already.\n\n Havoc DMG Bonus: 30-60%+\n\n Skill Priority\n Below you can find the order of leveling the abilities for Yangyang Xuanling .\n Forte Circuit\n\n Res. Liberation\n\n Basic Attack\n\n Intro Skill\n\n Res. Skill\n\n Skill can be completely skipped as it is useless to yangyang-xuanling's practical rotation. Basic and Intro can be skipped when levelling to save on resources at a minimal damage loss.\n\n Gameplay and teams\n\n Rotation\n Rotation & Gameplay\n The focus of YY:XL’s rotation is generating Azure Plume 4 times total in order to execute several enhanced attacks in quick succession. To do so the quickest while ensuring she is on-field for her most damaging attacks, her rotation can occur in this manner:\n 💡 Tip\n\n Echo Timing\n Since she uses a Summon Echo that deals damage periodically as Havoc Bane is applied (throughout her rotation), using it immediately as her rotation starts is recommended.\n\n Standard Rotation\n Intro\n\n Basic: Azure 1\n\n Basic: Azure 2\n\n Basic: Azure 3\n\n Basic: Azure 4\n\n Skill (Switch to Feather stance)\n\n Heavy: Feather\n\n Basic: Mid-air Attack: Feather Fall\n\n Basic: Havoc in Bloom 1\n\n Basic: Havoc in Bloom 2\n\n Basic: Havoc in Bloom 3 (Cancel animation endlag via Ultimate)\n\n Ultimate\n\n Skill (Switch to Azure stance)\n\n Heavy: Azure\n\n Outro\n\n Synergies\n Lynae Rebecca Phrolova Iuno Mortefi - Yangyang's best partners currently are general or Heavy Attack buffers. Lynae provides a very strong mix of good personal damage, decent rotation time and strong general buffs. Generally, she's the best pick by a small margin. Rebecca is however nearly equal to her thanks to her many buffs, some more tailored towards Heavy Attacks, in spite of her longer rotation; Phrolova has access to the best Crowd Control utility in the game in the form of Hecate as well as 45% DMG Amplification on her Outro, making her excellent for Whimpering Wastes; finally, Iuno and Mortefi serve as replacement Heavy Attack buffers if those 3 aren't available (although Iuno can prove slightly better than Phrolova in single-target).\n Chisa Mornye Verina - Yangyang is quite limited in viable 3rd slot options, since Shorekeeper doesn't interact well with her due to a saturation of CRIT stats. As such, Chisa is the best pick generally thanks to her ability to apply additional Havoc Bane for Yangyang as well as good buffs to Negative Status characters; Mornye works well, but at S0 this is exclusively on a team with Lynae where her full buffs can be activated; finally, Verina is the last resort option for players who have access to neither. Upgrading from Verina is recommended, but she is serviceable still.\n Example Teams\n Best Team\n\n Ideally only run Mornye with Lynae on the team, as an alternative to Chisa.\n\n F2P Team\n\n Calculations"
 }

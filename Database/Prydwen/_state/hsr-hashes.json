@@ -1,13 +1,13 @@
 {
   "game": "hsr",
-  "updatedAt": "2026-07-09T08:53:35.209Z",
+  "updatedAt": "2026-07-10T08:49:31.188Z",
   "hashes": {
     "records": {
       "characters:acheron": "abd953055aca2791939469f04b2a411b3102a3f04b5e9d9cc333f662c0356009",
       "characters:aglaea": "a0f94ad36f0c2e0faefbddacde57b8453992b0a5cec718ffc0c32e653d44cb26",
       "characters:anaxa": "1a10bfb3cb0035f748462b8f4d799f56f2ca410f9d80ff5bab45a5eff82ace15",
       "characters:archer": "012d913b0c2d3c7a0bf8b36d173199b40f7ef12bcf83a95f9bd6b393e4ad755c",
-      "characters:argenti": "bc401becbbd8b6d92930c57751abac9888a4bd3dd25e332a3dca44ec006d9a2b",
+      "characters:argenti": "d227ab9325f15816a0b48b1787c0c9704bdb3df07742f19fb208515f177b206a",
       "characters:arlan": "d44dbc6b8d1d2f9771f4889b2b893c1430703e84cf25ab9d6344bacb91984fe5",
       "characters:ashveil": "475c11d19be858eec135f1a17687e2fb63d3849ca8417038b833d2984a7c7ce0",
       "characters:asta": "aa0223a585e9115903ecb72fe796e4c767b6f4bdf61f3ce563e5c3ef9f21f1ef",
@@ -52,7 +52,7 @@
       "characters:lingsha": "480f628852bb3d9a44e8b4973fdbc1b10c59a699d998632c815e3c8910bcba38",
       "characters:luka": "8412ed48b10e6837a02b95c9cf6ac455679148547e0867a6902768f1f57442b4",
       "characters:luocha": "6d8bff28fb78011910ff1e91c78f7b1d37accb463f9c3d47b220a9d18294aea2",
-      "characters:lynx": "40f3a9308dac2f30066e3cba936c78942cccaaee276db2375459ec8fce481c98",
+      "characters:lynx": "00f931b4796c8599588c1bf55d7d70715e29cc4e9fcfa384fd4d7af753460d86",
       "characters:march-7th": "001dbec77456ab0eb6773ebcf29e1ce59bd45322876497300441f9e60b4792b1",
       "characters:march-7th-evernight": "9174246f141d62b1381287040864fd8a1ce218bd4e5fb721a1e0a844e590d4de",
       "characters:march-7th-swordmaster": "4e53588476b843d6b8da14b516ef06e5d70600571bbbc699def56dc871b466ad",

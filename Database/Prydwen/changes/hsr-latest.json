@@ -1,13 +1,13 @@
 {
   "provider": "Prydwen",
   "game": "hsr",
-  "generatedAt": "2026-07-09T08:53:35.209Z",
+  "generatedAt": "2026-07-10T08:49:31.188Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 3,
-      "unchanged": 92
+      "changed": 2,
+      "unchanged": 93
     }
   },
   "sections": {
@@ -18,23 +18,17 @@
         {
           "id": "characters:argenti",
           "name": "Argenti",
-          "previousHash": "d227ab9325f15816a0b48b1787c0c9704bdb3df07742f19fb208515f177b206a",
-          "currentHash": "bc401becbbd8b6d92930c57751abac9888a4bd3dd25e332a3dca44ec006d9a2b"
+          "previousHash": "bc401becbbd8b6d92930c57751abac9888a4bd3dd25e332a3dca44ec006d9a2b",
+          "currentHash": "d227ab9325f15816a0b48b1787c0c9704bdb3df07742f19fb208515f177b206a"
         },
         {
-          "id": "characters:himeko-nova",
-          "name": "Himeko Nova",
-          "previousHash": "33799b2095df08d238d5d65b9381f0e33994495a18a8ad5377c24d25a6a5a233",
-          "currentHash": "871ec954b401a2321ad37ff992c41a6aa2a87be9a537bfa0d009e1099458f3d0"
-        },
-        {
-          "id": "collection:light-cones",
-          "name": "Honkai: Star Rail Light Cones",
-          "previousHash": "0107d4724a6778dd163c6eae78983848f2741797367dff5fd5574e4397f7d0b0",
-          "currentHash": "c0bc38e2a734cb7bdb950590a268085db785e333e7022ae39ba7dc1ed8ccd263"
+          "id": "characters:lynx",
+          "name": "Lynx",
+          "previousHash": "40f3a9308dac2f30066e3cba936c78942cccaaee276db2375459ec8fce481c98",
+          "currentHash": "00f931b4796c8599588c1bf55d7d70715e29cc4e9fcfa384fd4d7af753460d86"
         }
       ],
-      "unchanged": 92,
+      "unchanged": 93,
       "totals": {
         "previous": 95,
         "current": 95

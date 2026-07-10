@@ -2025,7 +2025,7 @@
     "tag": [
       "Pioneer Podcast"
     ],
-    "description": "Unlocks the Insider Channel of the Pioneer Podcast.\n\nComplete the Podcast Tasks for various rewards.",
+    "description": "Unlocks the Insider Channel of the Pioneer Podcast.\r\n\r\nComplete the Podcast Tasks for various rewards.",
     "background": "Start listening to the Pioneer Podcast now to gain valuable insights for your outdoor adventures!",
     "source": [],
     "assets": {
@@ -2041,7 +2041,7 @@
     "tag": [
       "Pioneer Podcast"
     ],
-    "description": "Unlocks the Insider Channel of the Pioneer Podcast.\n\nComplete the Podcast Tasks for various rewards.",
+    "description": "Unlocks the Insider Channel of the Pioneer Podcast.\r\n\r\nComplete the Podcast Tasks for various rewards.",
     "background": "Standard physical key issued by the Pioneer Association for the Insider Channel.\n\"Welcome to the Insider Channel! Coming up next is the morning news express...\"",
     "source": [],
     "assets": {
@@ -2057,7 +2057,7 @@
     "tag": [
       "Pioneer Podcast"
     ],
-    "description": "Unlocks the Insider Channel of the Pioneer Podcast and get additional privilege rewards.\n\nComplete the Podcast Tasks for various rewards.",
+    "description": "Unlocks the Insider Channel of the Pioneer Podcast and get additional privilege rewards.\r\n\r\nComplete the Podcast Tasks for various rewards.",
     "background": "Special Deluxe Keycode for the Pioneer Podcast's Connoisseur Channel.\n\"Start listening to the Pioneer Podcast now to gain valuable insights for your outdoor adventures!\"",
     "source": [],
     "assets": {
@@ -12833,7 +12833,7 @@
       "Random Echo Item",
       "Supply Chest"
     ],
-    "description": "Open to obtain a random Echo of the following Sonata Effect: Freezing Frost.\n2pcs Set: Glacio DMG + 10%.\n5pcs Set: Glacio DMG + 10% after releasing Basic Attack or Heavy Attack. This effect stacks up to 3 times, each stack lasts 15s.",
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Freezing Frost.\r\n2pcs Set: Glacio DMG + 10%.\r\n5pcs Set: Glacio DMG + 10% after releasing Basic Attack or Heavy Attack. This effect stacks up to 3 times, each stack lasts 15s.",
     "background": "Chills are emanating from the crevice...",
     "source": [],
     "assets": {
@@ -12850,7 +12850,7 @@
       "Random Echo Item",
       "Supply Chest"
     ],
-    "description": "Open to obtain a random Echo of the following Sonata Effect: Molten Rift.\n2pcs Set: Fusion DMG + 10%.\n5pcs Set: Fusion DMG + 30% for 15s after releasing Resonance Skill.",
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Molten Rift.\r\n2pcs Set: Fusion DMG + 10%.\r\n5pcs Set: Fusion DMG + 30% for 15s after releasing Resonance Skill.",
     "background": "Flames are flickering and rising in the crevice...",
     "source": [],
     "assets": {
@@ -12867,7 +12867,7 @@
       "Random Echo Item",
       "Supply Chest"
     ],
-    "description": "Open to obtain a random Echo of the following Sonata Effect: Void Thunder.\n2pcs Set: Electro DMG + 10%.\n5pcs Set: Electro DMG + 15% after releasing Heavy Attack or Resonance Skill. This effect stacks up to 2 times, each stack lasts 15s.",
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Void Thunder.\r\n2pcs Set: Electro DMG + 10%.\r\n5pcs Set: Electro DMG + 15% after releasing Heavy Attack or Resonance Skill. This effect stacks up to 2 times, each stack lasts 15s.",
     "background": "Thunder is rumbling in the crevice...",
     "source": [],
     "assets": {
@@ -12884,7 +12884,7 @@
       "Random Echo Item",
       "Supply Chest"
     ],
-    "description": "Open to obtain a random Echo of the following Sonata Effect: Sierra Gale.\n2pcs Set: Aero DMG + 10%.\n5pcs Set: Aero DMG + 30% for 15s after releasing Intro Skill.",
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Sierra Gale.\r\n2pcs Set: Aero DMG + 10%.\r\n5pcs Set: Aero DMG + 30% for 15s after releasing Intro Skill.",
     "background": "A gust of wind is howling through the crevice...",
     "source": [],
     "assets": {
@@ -12901,7 +12901,7 @@
       "Random Echo Item",
       "Supply Chest"
     ],
-    "description": "Open to obtain a random Echo of the following Sonata Effect: Celestial Light.\n2pcs Set: Spectro DMG + 10%.\n5pcs Set: Spectro DMG + 30% for 15s after releasing Intro Skill.",
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Celestial Light.\r\n2pcs Set: Spectro DMG + 10%.\r\n5pcs Set: Spectro DMG + 30% for 15s after releasing Intro Skill.",
     "background": "Dazzling rays of light are emanating from the crevice...",
     "source": [],
     "assets": {
@@ -12918,7 +12918,7 @@
       "Random Echo Item",
       "Supply Chest"
     ],
-    "description": "Open to obtain a random Echo of the following Sonata Effect: Havoc Eclipse.\n2pcs Set: Havoc DMG + 10%.\n5pcs Set: Havoc DMG + 7.5% after releasing Basic Attack or Heavy Attack. This effect stacks up to 4 times, each stack lasts 15s.",
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Havoc Eclipse.\r\n2pcs Set: Havoc DMG + 10%.\r\n5pcs Set: Havoc DMG + 7.5% after releasing Basic Attack or Heavy Attack. This effect stacks up to 4 times, each stack lasts 15s.",
     "background": "The chaos seems to devour everything in the crevice...",
     "source": [],
     "assets": {
@@ -12952,7 +12952,7 @@
       "Random Echo Item",
       "Supply Chest"
     ],
-    "description": "Open to obtain a random Echo of the following Sonata Effect: Moonlit Clouds.\n2pcs Set: Energy Regen + 10%.\n5pcs Set: After using Outro Skill, increases the ATK of the next Resonator by 22.5% for 15s.",
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Moonlit Clouds.\r\n2pcs Set: Energy Regen + 10%.\r\n5pcs Set: After using Outro Skill, increases the ATK of the next Resonator by 22.5% for 15s.",
     "background": "A bright moon seems to hide in the crevice...",
     "source": [],
     "assets": {
@@ -12986,7 +12986,7 @@
       "Random Echo Item",
       "Supply Chest"
     ],
-    "description": "Open to obtain a random Echo of the following Sonata Effect: Freezing Frost.\n2pcs Set: Glacio DMG + 10%.\n5pcs Set: Glacio DMG + 10% after releasing Basic Attack or Heavy Attack. This effect stacks up to 3 times, each stack lasts 15s.",
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Freezing Frost.\r\n2pcs Set: Glacio DMG + 10%.\r\n5pcs Set: Glacio DMG + 10% after releasing Basic Attack or Heavy Attack. This effect stacks up to 3 times, each stack lasts 15s.",
     "background": "Chills are emanating from the crevice...",
     "source": [],
     "assets": {
@@ -13003,7 +13003,7 @@
       "Random Echo Item",
       "Supply Chest"
     ],
-    "description": "Open to obtain a random Echo of the following Sonata Effect: Molten Rift.\n2pcs Set: Fusion DMG + 10%.\n5pcs Set: Fusion DMG + 30% for 15s after releasing Resonance Skill.",
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Molten Rift.\r\n2pcs Set: Fusion DMG + 10%.\r\n5pcs Set: Fusion DMG + 30% for 15s after releasing Resonance Skill.",
     "background": "Flames are flickering and rising in the crevice...",
     "source": [],
     "assets": {
@@ -13020,7 +13020,7 @@
       "Random Echo Item",
       "Supply Chest"
     ],
-    "description": "Open to obtain a random Echo of the following Sonata Effect: Void Thunder.\n2pcs Set: Electro DMG + 10%.\n5pcs Set: Electro DMG + 15% after releasing Heavy Attack or Resonance Skill. This effect stacks up to 2 times, each stack lasts 15s.",
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Void Thunder.\r\n2pcs Set: Electro DMG + 10%.\r\n5pcs Set: Electro DMG + 15% after releasing Heavy Attack or Resonance Skill. This effect stacks up to 2 times, each stack lasts 15s.",
     "background": "Thunder is rumbling in the crevice...",
     "source": [],
     "assets": {
@@ -13037,7 +13037,7 @@
       "Random Echo Item",
       "Supply Chest"
     ],
-    "description": "Open to obtain a random Echo of the following Sonata Effect: Sierra Gale.\n2pcs Set: Aero DMG + 10%.\n5pcs Set: Aero DMG + 30% for 15s after releasing Intro Skill.",
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Sierra Gale.\r\n2pcs Set: Aero DMG + 10%.\r\n5pcs Set: Aero DMG + 30% for 15s after releasing Intro Skill.",
     "background": "A gust of wind is howling through the crevice...",
     "source": [],
     "assets": {
@@ -13054,7 +13054,7 @@
       "Random Echo Item",
       "Supply Chest"
     ],
-    "description": "Open to obtain a random Echo of the following Sonata Effect: Celestial Light.\n2pcs Set: Spectro DMG + 10%.\n5pcs Set: Spectro DMG + 30% for 15s after releasing Intro Skill.",
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Celestial Light.\r\n2pcs Set: Spectro DMG + 10%.\r\n5pcs Set: Spectro DMG + 30% for 15s after releasing Intro Skill.",
     "background": "Dazzling rays of light are emanating from the crevice...",
     "source": [],
     "assets": {
@@ -13071,7 +13071,7 @@
       "Random Echo Item",
       "Supply Chest"
     ],
-    "description": "Open to obtain a random Echo of the following Sonata Effect: Havoc Eclipse.\n2pcs Set: Havoc DMG + 10%.\n5pcs Set: Havoc DMG + 7.5% after releasing Basic Attack or Heavy Attack. This effect stacks up to 4 times, each stack lasts 15s.",
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Havoc Eclipse.\r\n2pcs Set: Havoc DMG + 10%.\r\n5pcs Set: Havoc DMG + 7.5% after releasing Basic Attack or Heavy Attack. This effect stacks up to 4 times, each stack lasts 15s.",
     "background": "The chaos seems to devour everything in the crevice...",
     "source": [],
     "assets": {
@@ -13105,7 +13105,7 @@
       "Random Echo Item",
       "Supply Chest"
     ],
-    "description": "Open to obtain a random Echo of the following Sonata Effect: Moonlit Clouds.\n2pcs Set: Energy Regen + 10%.\n5pcs Set: After using Outro Skill, increases the ATK of the next Resonator by 22.5% for 15s.",
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Moonlit Clouds.\r\n2pcs Set: Energy Regen + 10%.\r\n5pcs Set: After using Outro Skill, increases the ATK of the next Resonator by 22.5% for 15s.",
     "background": "A bright moon seems to hide in the crevice...",
     "source": [],
     "assets": {
@@ -15295,7 +15295,7 @@
       "Random Echo Item",
       "Supply Chest"
     ],
-    "description": "Open to obtain a random Echo of the following Sonata Effect: Molten Rift.\n2pcs Set: Fusion DMG + 10%.\n5pcs Set: Fusion DMG + 30% for 15s after releasing Resonance Skill.",
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Molten Rift.\r\n2pcs Set: Fusion DMG + 10%.\r\n5pcs Set: Fusion DMG + 30% for 15s after releasing Resonance Skill.",
     "background": "Flames are flickering and rising in the crevice...",
     "source": [],
     "assets": {
@@ -15312,7 +15312,7 @@
       "Random Echo Item",
       "Supply Chest"
     ],
-    "description": "Open to obtain a random Echo of the following Sonata Effect: Void Thunder.\n2pcs Set: Electro DMG + 10%.\n5pcs Set: Electro DMG + 15% after releasing Heavy Attack or Resonance Skill. This effect stacks up to 2 times, each stack lasts 15s.",
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Void Thunder.\r\n2pcs Set: Electro DMG + 10%.\r\n5pcs Set: Electro DMG + 15% after releasing Heavy Attack or Resonance Skill. This effect stacks up to 2 times, each stack lasts 15s.",
     "background": "Thunder is rumbling in the crevice...",
     "source": [],
     "assets": {
@@ -15329,7 +15329,7 @@
       "Random Echo Item",
       "Supply Chest"
     ],
-    "description": "Open to obtain a random Echo of the following Sonata Effect: Sierra Gale.\n2pcs Set: Aero DMG + 10%.\n5pcs Set: Aero DMG + 30% for 15s after releasing Intro Skill.",
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Sierra Gale.\r\n2pcs Set: Aero DMG + 10%.\r\n5pcs Set: Aero DMG + 30% for 15s after releasing Intro Skill.",
     "background": "A gust of wind is howling through the crevice...",
     "source": [],
     "assets": {
@@ -15346,7 +15346,7 @@
       "Random Echo Item",
       "Supply Chest"
     ],
-    "description": "Open to obtain a random Echo of the following Sonata Effect: Celestial Light.\n2pcs Set: Spectro DMG + 10%.\n5pcs Set: Spectro DMG + 30% for 15s after releasing Intro Skill.",
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Celestial Light.\r\n2pcs Set: Spectro DMG + 10%.\r\n5pcs Set: Spectro DMG + 30% for 15s after releasing Intro Skill.",
     "background": "Dazzling rays of light are emanating from the crevice...",
     "source": [],
     "assets": {
@@ -15363,7 +15363,7 @@
       "Random Echo Item",
       "Supply Chest"
     ],
-    "description": "Open to obtain a random Echo of the following Sonata Effect: Havoc Eclipse.\n2pcs Set: Havoc DMG + 10%.\n5pcs Set: Havoc DMG + 7.5% after releasing Basic Attack or Heavy Attack. This effect stacks up to 4 times, each stack lasts 15s.",
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Havoc Eclipse.\r\n2pcs Set: Havoc DMG + 10%.\r\n5pcs Set: Havoc DMG + 7.5% after releasing Basic Attack or Heavy Attack. This effect stacks up to 4 times, each stack lasts 15s.",
     "background": "The chaos seems to devour everything in the crevice...",
     "source": [],
     "assets": {
@@ -15397,7 +15397,7 @@
       "Random Echo Item",
       "Supply Chest"
     ],
-    "description": "Open to obtain a random Echo of the following Sonata Effect: Moonlit Clouds.\n2pcs Set: Energy Regen + 10%.\n5pcs Set: After using Outro Skill, increases the ATK of the next Resonator by 22.5% for 15s.",
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Moonlit Clouds.\r\n2pcs Set: Energy Regen + 10%.\r\n5pcs Set: After using Outro Skill, increases the ATK of the next Resonator by 22.5% for 15s.",
     "background": "A bright moon seems to hide in the crevice...",
     "source": [],
     "assets": {
@@ -36080,7 +36080,7 @@
       "Consumable"
     ],
     "description": "Virtual operation currency issued by the Black Shores to be used in various simulations.",
-    "background": "Simulation data gathered from scenarios of varying severity helps guide our future personnel assignments when responding to Waveworn Phenomena.",
+    "background": "To ensure the simulation models the reality as close as possible, the Black Shores issues these virtual tokens that can be exchanged for supplies to be used in various scenarios.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_80400001_UI.webp"

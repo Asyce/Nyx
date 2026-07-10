@@ -11,8 +11,8 @@
   "sourcePath": "/wuthering-waves/echoes",
   "contentStatus": "live",
   "statusLabels": [],
-  "scrapedAt": "2026-07-09T08:53:35.209Z",
-  "updatedText": "19/June/2026",
+  "scrapedAt": "2026-07-10T08:49:31.188Z",
+  "updatedText": "10/July/2026",
   "meta": {
     "title": "Echoes | Wuthering Waves (WuWa)",
     "description": ""
@@ -340,6 +340,36 @@
       "height": 40
     },
     {
+      "id": "fb383356cac2",
+      "sourceHash": "fb383356cac2",
+      "kind": "echoes",
+      "name": "Song of Feathered Trace",
+      "fileStem": "song-of-feathered-trace",
+      "path": "Prydwen/ww/assets/echoes/song-of-feathered-trace-fb383356cac2.webp",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "941f2661edbc",
+      "sourceHash": "941f2661edbc",
+      "kind": "echoes",
+      "name": "Heart of Evil's Purge",
+      "fileStem": "heart-of-evil-s-purge",
+      "path": "Prydwen/ww/assets/echoes/heart-of-evils-purge-941f2661edbc.webp",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "bbe705c2d324",
+      "sourceHash": "bbe705c2d324",
+      "kind": "echoes",
+      "name": "Lamp of Nether Road",
+      "fileStem": "lamp-of-nether-road",
+      "path": "Prydwen/ww/assets/echoes/lamp-of-nether-road-bbe705c2d324.webp",
+      "width": 40,
+      "height": 40
+    },
+    {
       "id": "2acfd4bfd79d",
       "sourceHash": "2acfd4bfd79d",
       "kind": "misc",
@@ -458,6 +488,26 @@
       "path": "Prydwen/ww/assets/misc/sigillum-eaf8b906f0ec.webp",
       "width": 80,
       "height": 80
+    },
+    {
+      "id": "d61110006e53",
+      "sourceHash": "d61110006e53",
+      "kind": "misc",
+      "name": "Thousand-Puppet Pavilion",
+      "fileStem": "6000218",
+      "path": "Prydwen/ww/assets/misc/thousand-puppet-pavilion-d61110006e53.webp",
+      "width": 80,
+      "height": 80
+    },
+    {
+      "id": "53d93beb30ce",
+      "sourceHash": "53d93beb30ce",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-32",
+      "path": "Prydwen/ww/assets/icons/set-32-53d93beb30ce.webp",
+      "width": 28,
+      "height": 28
     },
     {
       "id": "85304da33415",
@@ -1985,14 +2035,14 @@
       "id": "wuthering-waves-echoes-0",
       "level": 1,
       "heading": "Wuthering Waves Echoes",
-      "text": "List of all Echoes available in Wuthering Waves.\n Last updated: 19/June/2026",
+      "text": "List of all Echoes available in Wuthering Waves.\n Last updated: 10/July/2026",
       "assets": []
     },
     {
       "id": "echoes-1",
       "level": 2,
       "heading": "Echoes",
-      "text": "Showing 163 echo es\n Please select the Rank of the echo (2-5).\n\n Lv. 2",
+      "text": "Showing 164 echo es\n Please select the Rank of the echo (2-5).\n\n Lv. 2",
       "assets": []
     },
     {
@@ -2557,6 +2607,60 @@
       "id": "shadow-of-shattered-dreams-33",
       "level": 6,
       "heading": "Shadow of Shattered Dreams",
+      "text": "",
+      "assets": [
+        {
+          "id": "fb383356cac2",
+          "sourceHash": "fb383356cac2",
+          "kind": "echoes",
+          "name": "Song of Feathered Trace",
+          "fileStem": "song-of-feathered-trace",
+          "path": "Prydwen/ww/assets/echoes/song-of-feathered-trace-fb383356cac2.webp",
+          "width": 40,
+          "height": 40
+        }
+      ]
+    },
+    {
+      "id": "song-of-feathered-trace-34",
+      "level": 6,
+      "heading": "Song of Feathered Trace",
+      "text": "",
+      "assets": [
+        {
+          "id": "941f2661edbc",
+          "sourceHash": "941f2661edbc",
+          "kind": "echoes",
+          "name": "Heart of Evil's Purge",
+          "fileStem": "heart-of-evil-s-purge",
+          "path": "Prydwen/ww/assets/echoes/heart-of-evils-purge-941f2661edbc.webp",
+          "width": 40,
+          "height": 40
+        }
+      ]
+    },
+    {
+      "id": "heart-of-evils-purge-35",
+      "level": 6,
+      "heading": "Heart of Evil's Purge",
+      "text": "",
+      "assets": [
+        {
+          "id": "bbe705c2d324",
+          "sourceHash": "bbe705c2d324",
+          "kind": "echoes",
+          "name": "Lamp of Nether Road",
+          "fileStem": "lamp-of-nether-road",
+          "path": "Prydwen/ww/assets/echoes/lamp-of-nether-road-bbe705c2d324.webp",
+          "width": 40,
+          "height": 40
+        }
+      ]
+    },
+    {
+      "id": "lamp-of-nether-road-36",
+      "level": 6,
+      "heading": "Lamp of Nether Road",
       "text": "Select a set to reveal its 2 and 5 piece bonuses.",
       "assets": [
         {
@@ -2572,7 +2676,7 @@
       ]
     },
     {
-      "id": "bell-borne-geochelone-34",
+      "id": "bell-borne-geochelone-37",
       "level": 4,
       "heading": "Bell-Borne Geochelone",
       "text": "Class: Calamity\n Cost: 4\n\n Sets:",
@@ -2610,7 +2714,7 @@
       ]
     },
     {
-      "id": "dreamless-35",
+      "id": "dreamless-38",
       "level": 4,
       "heading": "Dreamless",
       "text": "Class: Calamity\n Cost: 4\n\n Sets:",
@@ -2638,7 +2742,7 @@
       ]
     },
     {
-      "id": "hecate-36",
+      "id": "hecate-39",
       "level": 4,
       "heading": "Hecate",
       "text": "Class: Calamity\n Cost: 4\n\n Sets:",
@@ -2726,7 +2830,7 @@
       ]
     },
     {
-      "id": "jue-37",
+      "id": "jue-40",
       "level": 4,
       "heading": "Jué",
       "text": "Class: Calamity\n Cost: 4\n\n Sets:",
@@ -2754,7 +2858,7 @@
       ]
     },
     {
-      "id": "nightmare-hecate-38",
+      "id": "nightmare-hecate-41",
       "level": 4,
       "heading": "Nightmare: Hecate",
       "text": "Class: Calamity\n Cost: 4\n\n Sets:",
@@ -2782,7 +2886,7 @@
       ]
     },
     {
-      "id": "reminiscence-nightmare-adam-smasher-39",
+      "id": "reminiscence-nightmare-adam-smasher-42",
       "level": 4,
       "heading": "Reminiscence - Nightmare: Adam Smasher",
       "text": "Class: Calamity\n Cost: 4\n\n Sets:",
@@ -2810,7 +2914,7 @@
       ]
     },
     {
-      "id": "reminiscence-denia-40",
+      "id": "reminiscence-denia-43",
       "level": 4,
       "heading": "Reminiscence: Denia",
       "text": "Class: Calamity\n Cost: 4\n\n Sets:",
@@ -2838,7 +2942,7 @@
       ]
     },
     {
-      "id": "reminiscence-fleurdelys-41",
+      "id": "reminiscence-fleurdelys-44",
       "level": 4,
       "heading": "Reminiscence: Fleurdelys",
       "text": "Class: Calamity\n Cost: 4\n\n Sets:",
@@ -2876,7 +2980,7 @@
       ]
     },
     {
-      "id": "reminiscence-threnodian-leviathan-42",
+      "id": "reminiscence-threnodian-leviathan-45",
       "level": 4,
       "heading": "Reminiscence: Threnodian - Leviathan",
       "text": "Class: Calamity\n Cost: 4\n\n Sets:",
@@ -2914,7 +3018,7 @@
       ]
     },
     {
-      "id": "reminiscence-threnodian-voidborne-construct-43",
+      "id": "reminiscence-threnodian-voidborne-construct-46",
       "level": 4,
       "heading": "Reminiscence: Threnodian - Voidborne Construct",
       "text": "Class: Calamity\n Cost: 4\n\n Sets:",
@@ -2942,7 +3046,7 @@
       ]
     },
     {
-      "id": "sigillum-44",
+      "id": "sigillum-47",
       "level": 4,
       "heading": "Sigillum",
       "text": "Class: Calamity\n Cost: 4\n\n Sets:",
@@ -2954,6 +3058,34 @@
           "name": "Set",
           "fileStem": "set-26",
           "path": "Prydwen/ww/assets/icons/set-26-8f38edf3cef5.webp",
+          "width": 28,
+          "height": 28
+        },
+        {
+          "id": "d61110006e53",
+          "sourceHash": "d61110006e53",
+          "kind": "misc",
+          "name": "Thousand-Puppet Pavilion",
+          "fileStem": "6000218",
+          "path": "Prydwen/ww/assets/misc/thousand-puppet-pavilion-d61110006e53.webp",
+          "width": 80,
+          "height": 80
+        }
+      ]
+    },
+    {
+      "id": "thousand-puppet-pavilion-48",
+      "level": 4,
+      "heading": "Thousand-Puppet Pavilion",
+      "text": "Class: Calamity\n Cost: 4\n\n Sets:",
+      "assets": [
+        {
+          "id": "53d93beb30ce",
+          "sourceHash": "53d93beb30ce",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-32",
+          "path": "Prydwen/ww/assets/icons/set-32-53d93beb30ce.webp",
           "width": 28,
           "height": 28
         },
@@ -2970,7 +3102,7 @@
       ]
     },
     {
-      "id": "crownless-45",
+      "id": "crownless-49",
       "level": 4,
       "heading": "Crownless",
       "text": "Class: Overlord\n Cost: 4\n\n Sets:",
@@ -2998,7 +3130,7 @@
       ]
     },
     {
-      "id": "dragon-of-dirge-46",
+      "id": "dragon-of-dirge-50",
       "level": 4,
       "heading": "Dragon of Dirge",
       "text": "Class: Overlord\n Cost: 4\n\n Sets:",
@@ -3026,7 +3158,7 @@
       ]
     },
     {
-      "id": "fallacy-of-no-return-47",
+      "id": "fallacy-of-no-return-51",
       "level": 4,
       "heading": "Fallacy of No Return",
       "text": "Class: Overlord\n Cost: 4\n\n Sets:",
@@ -3054,7 +3186,7 @@
       ]
     },
     {
-      "id": "feilian-beringal-48",
+      "id": "feilian-beringal-52",
       "level": 4,
       "heading": "Feilian Beringal",
       "text": "Class: Overlord\n Cost: 4\n\n Sets:",
@@ -3082,7 +3214,7 @@
       ]
     },
     {
-      "id": "hyvatia-49",
+      "id": "hyvatia-53",
       "level": 4,
       "heading": "Hyvatia",
       "text": "Class: Overlord\n Cost: 4\n\n Sets:",
@@ -3120,7 +3252,7 @@
       ]
     },
     {
-      "id": "impermanence-heron-50",
+      "id": "impermanence-heron-54",
       "level": 4,
       "heading": "Impermanence Heron",
       "text": "Class: Overlord\n Cost: 4\n\n Sets:",
@@ -3148,7 +3280,7 @@
       ]
     },
     {
-      "id": "inferno-rider-51",
+      "id": "inferno-rider-55",
       "level": 4,
       "heading": "Inferno Rider",
       "text": "Class: Overlord\n Cost: 4\n\n Sets:",
@@ -3176,7 +3308,7 @@
       ]
     },
     {
-      "id": "lady-of-the-sea-52",
+      "id": "lady-of-the-sea-56",
       "level": 4,
       "heading": "Lady of the Sea",
       "text": "Class: Overlord\n Cost: 4\n\n Sets:",
@@ -3204,7 +3336,7 @@
       ]
     },
     {
-      "id": "lampylumen-myriad-53",
+      "id": "lampylumen-myriad-57",
       "level": 4,
       "heading": "Lampylumen Myriad",
       "text": "Class: Overlord\n Cost: 4\n\n Sets:",
@@ -3232,7 +3364,7 @@
       ]
     },
     {
-      "id": "lioness-of-glory-54",
+      "id": "lioness-of-glory-58",
       "level": 4,
       "heading": "Lioness of Glory",
       "text": "Class: Overlord\n Cost: 4\n\n Sets:",
@@ -3260,7 +3392,7 @@
       ]
     },
     {
-      "id": "lorelei-55",
+      "id": "lorelei-59",
       "level": 4,
       "heading": "Lorelei",
       "text": "Class: Overlord\n Cost: 4\n\n Sets:",
@@ -3288,7 +3420,7 @@
       ]
     },
     {
-      "id": "mech-abomination-56",
+      "id": "mech-abomination-60",
       "level": 4,
       "heading": "Mech Abomination",
       "text": "Class: Overlord\n Cost: 4\n\n Sets:",
@@ -3316,7 +3448,7 @@
       ]
     },
     {
-      "id": "mourning-aix-57",
+      "id": "mourning-aix-61",
       "level": 4,
       "heading": "Mourning Aix",
       "text": "Class: Overlord\n Cost: 4\n\n Sets:",
@@ -3344,7 +3476,7 @@
       ]
     },
     {
-      "id": "nameless-explorer-58",
+      "id": "nameless-explorer-62",
       "level": 4,
       "heading": "Nameless Explorer",
       "text": "Class: Overlord\n Cost: 4\n\n Sets:",
@@ -3382,7 +3514,7 @@
       ]
     },
     {
-      "id": "nightmare-crownless-59",
+      "id": "nightmare-crownless-63",
       "level": 4,
       "heading": "Nightmare: Crownless",
       "text": "Class: Overlord\n Cost: 4\n\n Sets:",
@@ -3410,7 +3542,7 @@
       ]
     },
     {
-      "id": "nightmare-feilian-beringal-60",
+      "id": "nightmare-feilian-beringal-64",
       "level": 4,
       "heading": "Nightmare: Feilian Beringal",
       "text": "Class: Overlord\n Cost: 4\n\n Sets:",
@@ -3438,7 +3570,7 @@
       ]
     },
     {
-      "id": "nightmare-impermanence-heron-61",
+      "id": "nightmare-impermanence-heron-65",
       "level": 4,
       "heading": "Nightmare: Impermanence Heron",
       "text": "Class: Overlord\n Cost: 4\n\n Sets:",
@@ -3466,7 +3598,7 @@
       ]
     },
     {
-      "id": "nightmare-inferno-rider-62",
+      "id": "nightmare-inferno-rider-66",
       "level": 4,
       "heading": "Nightmare: Inferno Rider",
       "text": "Class: Overlord\n Cost: 4\n\n Sets:",
@@ -3494,7 +3626,7 @@
       ]
     },
     {
-      "id": "nightmare-kelpie-63",
+      "id": "nightmare-kelpie-67",
       "level": 4,
       "heading": "Nightmare: Kelpie",
       "text": "Class: Overlord\n Cost: 4\n\n Sets:",
@@ -3532,7 +3664,7 @@
       ]
     },
     {
-      "id": "nightmare-lampylumen-myriad-64",
+      "id": "nightmare-lampylumen-myriad-68",
       "level": 4,
       "heading": "Nightmare: Lampylumen Myriad",
       "text": "Class: Overlord\n Cost: 4\n\n Sets:",
@@ -3570,7 +3702,7 @@
       ]
     },
     {
-      "id": "nightmare-mourning-aix-65",
+      "id": "nightmare-mourning-aix-69",
       "level": 4,
       "heading": "Nightmare: Mourning Aix",
       "text": "Class: Overlord\n Cost: 4\n\n Sets:",
@@ -3598,7 +3730,7 @@
       ]
     },
     {
-      "id": "nightmare-tempest-mephis-66",
+      "id": "nightmare-tempest-mephis-70",
       "level": 4,
       "heading": "Nightmare: Tempest Mephis",
       "text": "Class: Overlord\n Cost: 4\n\n Sets:",
@@ -3636,7 +3768,7 @@
       ]
     },
     {
-      "id": "nightmare-thundering-mephis-67",
+      "id": "nightmare-thundering-mephis-71",
       "level": 4,
       "heading": "Nightmare: Thundering Mephis",
       "text": "Class: Overlord\n Cost: 4\n\n Sets:",
@@ -3664,7 +3796,7 @@
       ]
     },
     {
-      "id": "reactor-husk-68",
+      "id": "reactor-husk-72",
       "level": 4,
       "heading": "Reactor Husk",
       "text": "Class: Overlord\n Cost: 4\n\n Sets:",
@@ -3702,7 +3834,7 @@
       ]
     },
     {
-      "id": "reminiscence-fenrico-69",
+      "id": "reminiscence-fenrico-73",
       "level": 4,
       "heading": "Reminiscence: Fenrico",
       "text": "Class: Overlord\n Cost: 4\n\n Sets:",
@@ -3740,7 +3872,7 @@
       ]
     },
     {
-      "id": "sentry-construct-70",
+      "id": "sentry-construct-74",
       "level": 4,
       "heading": "Sentry Construct",
       "text": "Class: Overlord\n Cost: 4\n\n Sets:",
@@ -3768,7 +3900,7 @@
       ]
     },
     {
-      "id": "tempest-mephis-71",
+      "id": "tempest-mephis-75",
       "level": 4,
       "heading": "Tempest Mephis",
       "text": "Class: Overlord\n Cost: 4\n\n Sets:",
@@ -3796,7 +3928,7 @@
       ]
     },
     {
-      "id": "the-false-sovereign-72",
+      "id": "the-false-sovereign-76",
       "level": 4,
       "heading": "The False Sovereign",
       "text": "Class: Overlord\n Cost: 4\n\n Sets:",
@@ -3824,7 +3956,7 @@
       ]
     },
     {
-      "id": "thundering-mephis-73",
+      "id": "thundering-mephis-77",
       "level": 4,
       "heading": "Thundering Mephis",
       "text": "Class: Overlord\n Cost: 4\n\n Sets:",
@@ -3852,7 +3984,7 @@
       ]
     },
     {
-      "id": "abyssal-gladius-74",
+      "id": "abyssal-gladius-78",
       "level": 4,
       "heading": "Abyssal Gladius",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -3900,7 +4032,7 @@
       ]
     },
     {
-      "id": "abyssal-mercator-75",
+      "id": "abyssal-mercator-79",
       "level": 4,
       "heading": "Abyssal Mercator",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -3938,7 +4070,7 @@
       ]
     },
     {
-      "id": "abyssal-patricius-76",
+      "id": "abyssal-patricius-80",
       "level": 4,
       "heading": "Abyssal Patricius",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -3976,7 +4108,7 @@
       ]
     },
     {
-      "id": "aero-drake-77",
+      "id": "aero-drake-81",
       "level": 4,
       "heading": "Aero Drake",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -4024,7 +4156,7 @@
       ]
     },
     {
-      "id": "aero-predator-78",
+      "id": "aero-predator-82",
       "level": 4,
       "heading": "Aero Predator",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -4062,7 +4194,7 @@
       ]
     },
     {
-      "id": "aero-prism-79",
+      "id": "aero-prism-83",
       "level": 4,
       "heading": "Aero Prism",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -4100,7 +4232,7 @@
       ]
     },
     {
-      "id": "autopuppet-scout-80",
+      "id": "autopuppet-scout-84",
       "level": 4,
       "heading": "Autopuppet Scout",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -4138,7 +4270,7 @@
       ]
     },
     {
-      "id": "baby-viridblaze-saurian-81",
+      "id": "baby-viridblaze-saurian-85",
       "level": 4,
       "heading": "Baby Viridblaze Saurian",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -4186,7 +4318,7 @@
       ]
     },
     {
-      "id": "calcified-junrock-82",
+      "id": "calcified-junrock-86",
       "level": 4,
       "heading": "Calcified Junrock",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -4234,7 +4366,7 @@
       ]
     },
     {
-      "id": "capitaneus-83",
+      "id": "capitaneus-87",
       "level": 4,
       "heading": "Capitaneus",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -4292,7 +4424,7 @@
       ]
     },
     {
-      "id": "carapace-84",
+      "id": "carapace-88",
       "level": 4,
       "heading": "Carapace",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -4330,7 +4462,7 @@
       ]
     },
     {
-      "id": "chasm-guardian-85",
+      "id": "chasm-guardian-89",
       "level": 4,
       "heading": "Chasm Guardian",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -4368,7 +4500,7 @@
       ]
     },
     {
-      "id": "chest-mimic-86",
+      "id": "chest-mimic-90",
       "level": 4,
       "heading": "Chest Mimic",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -4416,7 +4548,7 @@
       ]
     },
     {
-      "id": "chirpuff-87",
+      "id": "chirpuff-91",
       "level": 4,
       "heading": "Chirpuff",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -4454,7 +4586,7 @@
       ]
     },
     {
-      "id": "chop-chop-88",
+      "id": "chop-chop-92",
       "level": 4,
       "heading": "Chop Chop",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -4502,7 +4634,7 @@
       ]
     },
     {
-      "id": "chop-chop-headless-89",
+      "id": "chop-chop-headless-93",
       "level": 4,
       "heading": "Chop Chop: Headless",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -4540,7 +4672,7 @@
       ]
     },
     {
-      "id": "chop-chop-leftless-90",
+      "id": "chop-chop-leftless-94",
       "level": 4,
       "heading": "Chop Chop: Leftless",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -4578,7 +4710,7 @@
       ]
     },
     {
-      "id": "chop-chop-rightless-91",
+      "id": "chop-chop-rightless-95",
       "level": 4,
       "heading": "Chop Chop: Rightless",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -4616,7 +4748,7 @@
       ]
     },
     {
-      "id": "clang-bang-92",
+      "id": "clang-bang-96",
       "level": 4,
       "heading": "Clang Bang",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -4654,7 +4786,7 @@
       ]
     },
     {
-      "id": "corrosaurus-93",
+      "id": "corrosaurus-97",
       "level": 4,
       "heading": "Corrosaurus",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -4692,7 +4824,7 @@
       ]
     },
     {
-      "id": "cruisewing-94",
+      "id": "cruisewing-98",
       "level": 4,
       "heading": "Cruisewing",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -4740,7 +4872,7 @@
       ]
     },
     {
-      "id": "cuddle-wuddle-95",
+      "id": "cuddle-wuddle-99",
       "level": 4,
       "heading": "Cuddle Wuddle",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -4778,7 +4910,7 @@
       ]
     },
     {
-      "id": "cyan-feathered-heron-96",
+      "id": "cyan-feathered-heron-100",
       "level": 4,
       "heading": "Cyan-Feathered Heron",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -4816,7 +4948,7 @@
       ]
     },
     {
-      "id": "devotees-flesh-97",
+      "id": "devotees-flesh-101",
       "level": 4,
       "heading": "Devotee's Flesh",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -4864,7 +4996,7 @@
       ]
     },
     {
-      "id": "diamondclaw-98",
+      "id": "diamondclaw-102",
       "level": 4,
       "heading": "Diamondclaw",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -4902,7 +5034,7 @@
       ]
     },
     {
-      "id": "diggy-duggy-99",
+      "id": "diggy-duggy-103",
       "level": 4,
       "heading": "Diggy Duggy",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -4940,7 +5072,7 @@
       ]
     },
     {
-      "id": "diurnus-knight-100",
+      "id": "diurnus-knight-104",
       "level": 4,
       "heading": "Diurnus Knight",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -4978,7 +5110,7 @@
       ]
     },
     {
-      "id": "dwarf-cassowary-101",
+      "id": "dwarf-cassowary-105",
       "level": 4,
       "heading": "Dwarf Cassowary",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -5016,7 +5148,7 @@
       ]
     },
     {
-      "id": "electro-drake-102",
+      "id": "electro-drake-106",
       "level": 4,
       "heading": "Electro Drake",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -5064,7 +5196,7 @@
       ]
     },
     {
-      "id": "electro-predator-103",
+      "id": "electro-predator-107",
       "level": 4,
       "heading": "Electro Predator",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -5102,7 +5234,7 @@
       ]
     },
     {
-      "id": "excarat-104",
+      "id": "excarat-108",
       "level": 4,
       "heading": "Excarat",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -5140,7 +5272,7 @@
       ]
     },
     {
-      "id": "fae-ignis-105",
+      "id": "fae-ignis-109",
       "level": 4,
       "heading": "Fae Ignis",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -5188,7 +5320,7 @@
       ]
     },
     {
-      "id": "fission-junrock-106",
+      "id": "fission-junrock-110",
       "level": 4,
       "heading": "Fission Junrock",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -5236,7 +5368,7 @@
       ]
     },
     {
-      "id": "flautist-107",
+      "id": "flautist-111",
       "level": 4,
       "heading": "Flautist",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -5274,7 +5406,7 @@
       ]
     },
     {
-      "id": "flora-drone-108",
+      "id": "flora-drone-112",
       "level": 4,
       "heading": "Flora Drone",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -5332,7 +5464,7 @@
       ]
     },
     {
-      "id": "flora-reindeer-109",
+      "id": "flora-reindeer-113",
       "level": 4,
       "heading": "Flora Reindeer",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -5370,7 +5502,7 @@
       ]
     },
     {
-      "id": "frostbite-coleoid-110",
+      "id": "frostbite-coleoid-114",
       "level": 4,
       "heading": "Frostbite Coleoid",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -5408,7 +5540,7 @@
       ]
     },
     {
-      "id": "frostscourge-stalker-111",
+      "id": "frostscourge-stalker-115",
       "level": 4,
       "heading": "Frostscourge Stalker",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -5446,7 +5578,7 @@
       ]
     },
     {
-      "id": "fusion-drake-112",
+      "id": "fusion-drake-116",
       "level": 4,
       "heading": "Fusion Drake",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -5484,7 +5616,7 @@
       ]
     },
     {
-      "id": "fusion-dreamane-113",
+      "id": "fusion-dreamane-117",
       "level": 4,
       "heading": "Fusion Dreamane",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -5522,7 +5654,7 @@
       ]
     },
     {
-      "id": "fusion-prism-114",
+      "id": "fusion-prism-118",
       "level": 4,
       "heading": "Fusion Prism",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -5570,7 +5702,7 @@
       ]
     },
     {
-      "id": "fusion-warrior-115",
+      "id": "fusion-warrior-119",
       "level": 4,
       "heading": "Fusion Warrior",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -5618,7 +5750,7 @@
       ]
     },
     {
-      "id": "galescourge-stalker-116",
+      "id": "galescourge-stalker-120",
       "level": 4,
       "heading": "Galescourge Stalker",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -5656,7 +5788,7 @@
       ]
     },
     {
-      "id": "geospider-s4-117",
+      "id": "geospider-s4-121",
       "level": 4,
       "heading": "Geospider S4",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -5704,7 +5836,7 @@
       ]
     },
     {
-      "id": "glacio-drake-118",
+      "id": "glacio-drake-122",
       "level": 4,
       "heading": "Glacio Drake",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -5742,7 +5874,7 @@
       ]
     },
     {
-      "id": "glacio-dreadmane-119",
+      "id": "glacio-dreadmane-123",
       "level": 4,
       "heading": "Glacio Dreadmane",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -5780,7 +5912,7 @@
       ]
     },
     {
-      "id": "glacio-predator-120",
+      "id": "glacio-predator-124",
       "level": 4,
       "heading": "Glacio Predator",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -5818,7 +5950,7 @@
       ]
     },
     {
-      "id": "glacio-prism-121",
+      "id": "glacio-prism-125",
       "level": 4,
       "heading": "Glacio Prism",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -5866,7 +5998,7 @@
       ]
     },
     {
-      "id": "glommoth-122",
+      "id": "glommoth-126",
       "level": 4,
       "heading": "Glommoth",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -5904,7 +6036,7 @@
       ]
     },
     {
-      "id": "golden-junrock-123",
+      "id": "golden-junrock-127",
       "level": 4,
       "heading": "Golden Junrock",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -5952,7 +6084,7 @@
       ]
     },
     {
-      "id": "gulpuff-124",
+      "id": "gulpuff-128",
       "level": 4,
       "heading": "Gulpuff",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -5990,7 +6122,7 @@
       ]
     },
     {
-      "id": "havoc-drake-125",
+      "id": "havoc-drake-129",
       "level": 4,
       "heading": "Havoc Drake",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -6038,7 +6170,7 @@
       ]
     },
     {
-      "id": "havoc-dreadmane-126",
+      "id": "havoc-dreadmane-130",
       "level": 4,
       "heading": "Havoc Dreadmane",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -6076,7 +6208,7 @@
       ]
     },
     {
-      "id": "havoc-prism-127",
+      "id": "havoc-prism-131",
       "level": 4,
       "heading": "Havoc Prism",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -6124,7 +6256,7 @@
       ]
     },
     {
-      "id": "havoc-warrior-128",
+      "id": "havoc-warrior-132",
       "level": 4,
       "heading": "Havoc Warrior",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -6162,7 +6294,7 @@
       ]
     },
     {
-      "id": "hoartoise-129",
+      "id": "hoartoise-133",
       "level": 4,
       "heading": "Hoartoise",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -6200,7 +6332,7 @@
       ]
     },
     {
-      "id": "hocus-pocus-130",
+      "id": "hocus-pocus-134",
       "level": 4,
       "heading": "Hocus Pocus",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -6238,7 +6370,7 @@
       ]
     },
     {
-      "id": "hoochief-131",
+      "id": "hoochief-135",
       "level": 4,
       "heading": "Hoochief",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -6276,7 +6408,7 @@
       ]
     },
     {
-      "id": "hooscamp-132",
+      "id": "hooscamp-136",
       "level": 4,
       "heading": "Hooscamp",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -6314,7 +6446,7 @@
       ]
     },
     {
-      "id": "hurriclaw-133",
+      "id": "hurriclaw-137",
       "level": 4,
       "heading": "Hurriclaw",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -6362,7 +6494,7 @@
       ]
     },
     {
-      "id": "iceglint-dancer-134",
+      "id": "iceglint-dancer-138",
       "level": 4,
       "heading": "Iceglint Dancer",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -6410,7 +6542,7 @@
       ]
     },
     {
-      "id": "ironhoof-135",
+      "id": "ironhoof-139",
       "level": 4,
       "heading": "Ironhoof",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -6458,7 +6590,7 @@
       ]
     },
     {
-      "id": "kerasaur-136",
+      "id": "kerasaur-140",
       "level": 4,
       "heading": "Kerasaur",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -6506,7 +6638,7 @@
       ]
     },
     {
-      "id": "kronablight-137",
+      "id": "kronablight-141",
       "level": 4,
       "heading": "Kronablight",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -6544,7 +6676,7 @@
       ]
     },
     {
-      "id": "la-guardia-138",
+      "id": "la-guardia-142",
       "level": 4,
       "heading": "La Guardia",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -6592,7 +6724,7 @@
       ]
     },
     {
-      "id": "lava-larva-139",
+      "id": "lava-larva-143",
       "level": 4,
       "heading": "Lava Larva",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -6630,7 +6762,7 @@
       ]
     },
     {
-      "id": "lightcrusher-140",
+      "id": "lightcrusher-144",
       "level": 4,
       "heading": "Lightcrusher",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -6658,7 +6790,7 @@
       ]
     },
     {
-      "id": "lottie-lost-141",
+      "id": "lottie-lost-145",
       "level": 4,
       "heading": "Lottie Lost",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -6696,7 +6828,7 @@
       ]
     },
     {
-      "id": "lumiscale-construct-142",
+      "id": "lumiscale-construct-146",
       "level": 4,
       "heading": "Lumiscale Construct",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -6734,7 +6866,7 @@
       ]
     },
     {
-      "id": "mining-drone-143",
+      "id": "mining-drone-147",
       "level": 4,
       "heading": "Mining Drone",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -6792,7 +6924,7 @@
       ]
     },
     {
-      "id": "mining-reindeer-144",
+      "id": "mining-reindeer-148",
       "level": 4,
       "heading": "Mining Reindeer",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -6830,7 +6962,7 @@
       ]
     },
     {
-      "id": "nightmare-aero-predator-145",
+      "id": "nightmare-aero-predator-149",
       "level": 4,
       "heading": "Nightmare: Aero Predator",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -6858,7 +6990,7 @@
       ]
     },
     {
-      "id": "nightmare-baby-roseshroom-146",
+      "id": "nightmare-baby-roseshroom-150",
       "level": 4,
       "heading": "Nightmare: Baby Roseshroom",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -6886,7 +7018,7 @@
       ]
     },
     {
-      "id": "nightmare-baby-viridblaze-saurian-147",
+      "id": "nightmare-baby-viridblaze-saurian-151",
       "level": 4,
       "heading": "Nightmare: Baby Viridblaze Saurian",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -6914,7 +7046,7 @@
       ]
     },
     {
-      "id": "nightmare-chirpuff-148",
+      "id": "nightmare-chirpuff-152",
       "level": 4,
       "heading": "Nightmare: Chirpuff",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -6942,7 +7074,7 @@
       ]
     },
     {
-      "id": "nightmare-cyan-feathered-heron-149",
+      "id": "nightmare-cyan-feathered-heron-153",
       "level": 4,
       "heading": "Nightmare: Cyan-Feathered Heron",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -6970,7 +7102,7 @@
       ]
     },
     {
-      "id": "nightmare-dwarf-cassowary-150",
+      "id": "nightmare-dwarf-cassowary-154",
       "level": 4,
       "heading": "Nightmare: Dwarf Cassowary",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -6998,7 +7130,7 @@
       ]
     },
     {
-      "id": "nightmare-electro-predator-151",
+      "id": "nightmare-electro-predator-155",
       "level": 4,
       "heading": "Nightmare: Electro Predator",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -7026,7 +7158,7 @@
       ]
     },
     {
-      "id": "nightmare-glacio-predator-152",
+      "id": "nightmare-glacio-predator-156",
       "level": 4,
       "heading": "Nightmare: Glacio Predator",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -7054,7 +7186,7 @@
       ]
     },
     {
-      "id": "nightmare-gulpuff-153",
+      "id": "nightmare-gulpuff-157",
       "level": 4,
       "heading": "Nightmare: Gulpuff",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -7082,7 +7214,7 @@
       ]
     },
     {
-      "id": "nightmare-havoc-warrior-154",
+      "id": "nightmare-havoc-warrior-158",
       "level": 4,
       "heading": "Nightmare: Havoc Warrior",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -7110,7 +7242,7 @@
       ]
     },
     {
-      "id": "nightmare-roseshroom-155",
+      "id": "nightmare-roseshroom-159",
       "level": 4,
       "heading": "Nightmare: Roseshroom",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -7138,7 +7270,7 @@
       ]
     },
     {
-      "id": "nightmare-tambourinist-156",
+      "id": "nightmare-tambourinist-160",
       "level": 4,
       "heading": "Nightmare: Tambourinist",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -7166,7 +7298,7 @@
       ]
     },
     {
-      "id": "nightmare-tick-tack-157",
+      "id": "nightmare-tick-tack-161",
       "level": 4,
       "heading": "Nightmare: Tick Tack",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -7194,7 +7326,7 @@
       ]
     },
     {
-      "id": "nightmare-violet-feathered-heron-158",
+      "id": "nightmare-violet-feathered-heron-162",
       "level": 4,
       "heading": "Nightmare: Violet-Feathered Heron",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -7222,7 +7354,7 @@
       ]
     },
     {
-      "id": "nightmare-viridblaze-saurian-159",
+      "id": "nightmare-viridblaze-saurian-163",
       "level": 4,
       "heading": "Nightmare: Viridblaze Saurian",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -7250,7 +7382,7 @@
       ]
     },
     {
-      "id": "nimbus-wraith-160",
+      "id": "nimbus-wraith-164",
       "level": 4,
       "heading": "Nimbus Wraith",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -7298,7 +7430,7 @@
       ]
     },
     {
-      "id": "nocturnus-knight-161",
+      "id": "nocturnus-knight-165",
       "level": 4,
       "heading": "Nocturnus Knight",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -7336,7 +7468,7 @@
       ]
     },
     {
-      "id": "pilgrims-shell-162",
+      "id": "pilgrims-shell-166",
       "level": 4,
       "heading": "Pilgrim's Shell",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -7374,7 +7506,7 @@
       ]
     },
     {
-      "id": "questless-knight-163",
+      "id": "questless-knight-167",
       "level": 4,
       "heading": "Questless Knight",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -7412,7 +7544,7 @@
       ]
     },
     {
-      "id": "rage-against-the-statue-164",
+      "id": "rage-against-the-statue-168",
       "level": 4,
       "heading": "Rage Against the Statue",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -7460,7 +7592,7 @@
       ]
     },
     {
-      "id": "reminiscence-kronaclaw-165",
+      "id": "reminiscence-kronaclaw-169",
       "level": 4,
       "heading": "Reminiscence: Kronaclaw",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -7498,7 +7630,7 @@
       ]
     },
     {
-      "id": "rocksteady-guardian-166",
+      "id": "rocksteady-guardian-170",
       "level": 4,
       "heading": "Rocksteady Guardian",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -7536,7 +7668,7 @@
       ]
     },
     {
-      "id": "roseshroom-167",
+      "id": "roseshroom-171",
       "level": 4,
       "heading": "Roseshroom",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -7574,7 +7706,7 @@
       ]
     },
     {
-      "id": "sabercat-prowler-168",
+      "id": "sabercat-prowler-172",
       "level": 4,
       "heading": "Sabercat Prowler",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -7622,7 +7754,7 @@
       ]
     },
     {
-      "id": "sabercat-reaver-169",
+      "id": "sabercat-reaver-173",
       "level": 4,
       "heading": "Sabercat Reaver",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -7670,7 +7802,7 @@
       ]
     },
     {
-      "id": "sabyr-boar-170",
+      "id": "sabyr-boar-174",
       "level": 4,
       "heading": "Sabyr Boar",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -7718,7 +7850,7 @@
       ]
     },
     {
-      "id": "sacerdos-171",
+      "id": "sacerdos-175",
       "level": 4,
       "heading": "Sacerdos",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -7766,7 +7898,7 @@
       ]
     },
     {
-      "id": "sagittario-172",
+      "id": "sagittario-176",
       "level": 4,
       "heading": "Sagittario",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -7814,7 +7946,7 @@
       ]
     },
     {
-      "id": "shadow-stepper-173",
+      "id": "shadow-stepper-177",
       "level": 4,
       "heading": "Shadow Stepper",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -7862,7 +7994,7 @@
       ]
     },
     {
-      "id": "snip-snap-174",
+      "id": "snip-snap-178",
       "level": 4,
       "heading": "Snip Snap",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -7910,7 +8042,7 @@
       ]
     },
     {
-      "id": "spacetrek-explorer-175",
+      "id": "spacetrek-explorer-179",
       "level": 4,
       "heading": "Spacetrek Explorer",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -7958,7 +8090,7 @@
       ]
     },
     {
-      "id": "spearback-176",
+      "id": "spearback-180",
       "level": 4,
       "heading": "Spearback",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -7996,7 +8128,7 @@
       ]
     },
     {
-      "id": "spectro-drake-177",
+      "id": "spectro-drake-181",
       "level": 4,
       "heading": "Spectro Drake",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -8034,7 +8166,7 @@
       ]
     },
     {
-      "id": "spectro-prism-178",
+      "id": "spectro-prism-182",
       "level": 4,
       "heading": "Spectro Prism",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -8082,7 +8214,7 @@
       ]
     },
     {
-      "id": "stonewall-bracer-179",
+      "id": "stonewall-bracer-183",
       "level": 4,
       "heading": "Stonewall Bracer",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -8120,7 +8252,7 @@
       ]
     },
     {
-      "id": "tambourinist-180",
+      "id": "tambourinist-184",
       "level": 4,
       "heading": "Tambourinist",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -8158,7 +8290,7 @@
       ]
     },
     {
-      "id": "tick-tack-181",
+      "id": "tick-tack-185",
       "level": 4,
       "heading": "Tick Tack",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -8206,7 +8338,7 @@
       ]
     },
     {
-      "id": "traffic-illuminator-182",
+      "id": "traffic-illuminator-186",
       "level": 4,
       "heading": "Traffic Illuminator",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -8254,7 +8386,7 @@
       ]
     },
     {
-      "id": "tremor-warrior-183",
+      "id": "tremor-warrior-187",
       "level": 4,
       "heading": "Tremor Warrior",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -8302,7 +8434,7 @@
       ]
     },
     {
-      "id": "twin-nova-collapsar-blade-184",
+      "id": "twin-nova-collapsar-blade-188",
       "level": 4,
       "heading": "Twin Nova: Collapsar Blade",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -8350,7 +8482,7 @@
       ]
     },
     {
-      "id": "twin-nova-nebulous-cannon-185",
+      "id": "twin-nova-nebulous-cannon-189",
       "level": 4,
       "heading": "Twin Nova: Nebulous Cannon",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -8388,7 +8520,7 @@
       ]
     },
     {
-      "id": "vanguard-junrock-186",
+      "id": "vanguard-junrock-190",
       "level": 4,
       "heading": "Vanguard Junrock",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -8436,7 +8568,7 @@
       ]
     },
     {
-      "id": "violet-feathered-heron-187",
+      "id": "violet-feathered-heron-191",
       "level": 4,
       "heading": "Violet-Feathered Heron",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -8474,7 +8606,7 @@
       ]
     },
     {
-      "id": "viridblaze-saurian-188",
+      "id": "viridblaze-saurian-192",
       "level": 4,
       "heading": "Viridblaze Saurian",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -8512,7 +8644,7 @@
       ]
     },
     {
-      "id": "vitreum-dancer-189",
+      "id": "vitreum-dancer-193",
       "level": 4,
       "heading": "Vitreum Dancer",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -8550,7 +8682,7 @@
       ]
     },
     {
-      "id": "voidwing-moth-190",
+      "id": "voidwing-moth-194",
       "level": 4,
       "heading": "Voidwing Moth",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -8578,7 +8710,7 @@
       ]
     },
     {
-      "id": "voltscourge-stalker-191",
+      "id": "voltscourge-stalker-195",
       "level": 4,
       "heading": "Voltscourge Stalker",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -8616,7 +8748,7 @@
       ]
     },
     {
-      "id": "whiff-whaff-192",
+      "id": "whiff-whaff-196",
       "level": 4,
       "heading": "Whiff Whaff",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -8664,7 +8796,7 @@
       ]
     },
     {
-      "id": "windlash-coleoid-193",
+      "id": "windlash-coleoid-197",
       "level": 4,
       "heading": "Windlash Coleoid",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -8702,7 +8834,7 @@
       ]
     },
     {
-      "id": "young-roseshroom-194",
+      "id": "young-roseshroom-198",
       "level": 4,
       "heading": "Young Roseshroom",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -8740,7 +8872,7 @@
       ]
     },
     {
-      "id": "zig-zag-195",
+      "id": "zig-zag-199",
       "level": 4,
       "heading": "Zig Zag",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -8788,7 +8920,7 @@
       ]
     },
     {
-      "id": "zip-zap-196",
+      "id": "zip-zap-200",
       "level": 4,
       "heading": "Zip Zap",
       "text": "Class: Elite\n Cost: 3\n\n Sets:",
@@ -8838,7 +8970,7 @@
   ],
   "recommendations": {},
   "tables": [],
-  "text": "Echoes | Wuthering Waves (WuWa)\n \n\n Wuthering Waves\n Home Database Characters Weapons Echoes Banners\n Tier Lists Tier List Team Tier List Value Tier List\n Guides Guides\n Resources Map News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Wuthering Waves\n /\n Echoes\n\n Wuthering Waves Echoes\n List of all Echoes available in Wuthering Waves.\n Last updated: 19/June/2026\n\n Echoes\n Showing 163 echo es\n Please select the Rank of the echo (2-5).\n\n Lv. 2\n\n All echo sets\n\n Freezing Frost\n\n Molten Rift\n\n Void Thunder\n\n Sierra Gale\n\n Celestial Light\n\n Havoc Eclipse\n\n Rejuvenating Glow\n\n Moonlit Clouds\n\n Endless Resonance\n\n Frosty Resolve\n\n Eternal Radiance\n\n Midnight Veil\n\n Empyrean Anthem\n\n Tidebreaking Courage\n\n Gusts of Welkin\n\n Flaming Clawprint\n\n Windward Pilgrimage\n\n Dream of the Lost\n\n Crown of Valor\n\n Law of Harmony\n\n Flamewing's Shadow\n\n Thread of Severed Fate\n\n Halo of Starry Radiance\n\n Pact of Neonlight Leap\n\n Rite of Gilded Revelation\n\n Trailblazing Star\n\n Chromatic Foam\n\n Sound of True Name\n\n Reel of Spliced Memories\n\n Wishes of Quiet Snowfall\n\n Shadow of Shattered Dreams\n\n Select a set to reveal its 2 and 5 piece bonuses.\n\n Bell-Borne Geochelone\n Class: Calamity\n Cost: 4\n\n Sets:\n\n Dreamless\n Class: Calamity\n Cost: 4\n\n Sets:\n\n Hecate\n Class: Calamity\n Cost: 4\n\n Sets:\n\n Jué\n Class: Calamity\n Cost: 4\n\n Sets:\n\n Nightmare: Hecate\n Class: Calamity\n Cost: 4\n\n Sets:\n\n Reminiscence - Nightmare: Adam Smasher\n Class: Calamity\n Cost: 4\n\n Sets:\n\n Reminiscence: Denia\n Class: Calamity\n Cost: 4\n\n Sets:\n\n Reminiscence: Fleurdelys\n Class: Calamity\n Cost: 4\n\n Sets:\n\n Reminiscence: Threnodian - Leviathan\n Class: Calamity\n Cost: 4\n\n Sets:\n\n Reminiscence: Threnodian - Voidborne Construct\n Class: Calamity\n Cost: 4\n\n Sets:\n\n Sigillum\n Class: Calamity\n Cost: 4\n\n Sets:\n\n Crownless\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Dragon of Dirge\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Fallacy of No Return\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Feilian Beringal\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Hyvatia\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Impermanence Heron\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Inferno Rider\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Lady of the Sea\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Lampylumen Myriad\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Lioness of Glory\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Lorelei\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Mech Abomination\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Mourning Aix\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Nameless Explorer\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Nightmare: Crownless\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Nightmare: Feilian Beringal\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Nightmare: Impermanence Heron\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Nightmare: Inferno Rider\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Nightmare: Kelpie\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Nightmare: Lampylumen Myriad\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Nightmare: Mourning Aix\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Nightmare: Tempest Mephis\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Nightmare: Thundering Mephis\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Reactor Husk\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Reminiscence: Fenrico\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Sentry Construct\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Tempest Mephis\n Class: Overlord\n Cost: 4\n\n Sets:\n\n The False Sovereign\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Thundering Mephis\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Abyssal Gladius\n Class: Elite\n Cost: 3\n\n Sets:\n\n Abyssal Mercator\n Class: Elite\n Cost: 3\n\n Sets:\n\n Abyssal Patricius\n Class: Elite\n Cost: 3\n\n Sets:\n\n Aero Drake\n Class: Elite\n Cost: 3\n\n Sets:\n\n Aero Predator\n Class: Elite\n Cost: 3\n\n Sets:\n\n Aero Prism\n Class: Elite\n Cost: 3\n\n Sets:\n\n Autopuppet Scout\n Class: Elite\n Cost: 3\n\n Sets:\n\n Baby Viridblaze Saurian\n Class: Elite\n Cost: 3\n\n Sets:\n\n Calcified Junrock\n Class: Elite\n Cost: 3\n\n Sets:\n\n Capitaneus\n Class: Elite\n Cost: 3\n\n Sets:\n\n Carapace\n Class: Elite\n Cost: 3\n\n Sets:\n\n Chasm Guardian\n Class: Elite\n Cost: 3\n\n Sets:\n\n Chest Mimic\n Class: Elite\n Cost: 3\n\n Sets:\n\n Chirpuff\n Class: Elite\n Cost: 3\n\n Sets:\n\n Chop Chop\n Class: Elite\n Cost: 3\n\n Sets:\n\n Chop Chop: Headless\n Class: Elite\n Cost: 3\n\n Sets:\n\n Chop Chop: Leftless\n Class: Elite\n Cost: 3\n\n Sets:\n\n Chop Chop: Rightless\n Class: Elite\n Cost: 3\n\n Sets:\n\n Clang Bang\n Class: Elite\n Cost: 3\n\n Sets:\n\n Corrosaurus\n Class: Elite\n Cost: 3\n\n Sets:\n\n Cruisewing\n Class: Elite\n Cost: 3\n\n Sets:\n\n Cuddle Wuddle\n Class: Elite\n Cost: 3\n\n Sets:\n\n Cyan-Feathered Heron\n Class: Elite\n Cost: 3\n\n Sets:\n\n Devotee's Flesh\n Class: Elite\n Cost: 3\n\n Sets:\n\n Diamondclaw\n Class: Elite\n Cost: 3\n\n Sets:\n\n Diggy Duggy\n Class: Elite\n Cost: 3\n\n Sets:\n\n Diurnus Knight\n Class: Elite\n Cost: 3\n\n Sets:\n\n Dwarf Cassowary\n Class: Elite\n Cost: 3\n\n Sets:\n\n Electro Drake\n Class: Elite\n Cost: 3\n\n Sets:\n\n Electro Predator\n Class: Elite\n Cost: 3\n\n Sets:\n\n Excarat\n Class: Elite\n Cost: 3\n\n Sets:\n\n Fae Ignis\n Class: Elite\n Cost: 3\n\n Sets:\n\n Fission Junrock\n Class: Elite\n Cost: 3\n\n Sets:\n\n Flautist\n Class: Elite\n Cost: 3\n\n Sets:\n\n Flora Drone\n Class: Elite\n Cost: 3\n\n Sets:\n\n Flora Reindeer\n Class: Elite\n Cost: 3\n\n Sets:\n\n Frostbite Coleoid\n Class: Elite\n Cost: 3\n\n Sets:\n\n Frostscourge Stalker\n Class: Elite\n Cost: 3\n\n Sets:\n\n Fusion Drake\n Class: Elite\n Cost: 3\n\n Sets:\n\n Fusion Dreamane\n Class: Elite\n Cost: 3\n\n Sets:\n\n Fusion Prism\n Class: Elite\n Cost: 3\n\n Sets:\n\n Fusion Warrior\n Class: Elite\n Cost: 3\n\n Sets:\n\n Galescourge Stalker\n Class: Elite\n Cost: 3\n\n Sets:\n\n Geospider S4\n Class: Elite\n Cost: 3\n\n Sets:\n\n Glacio Drake\n Class: Elite\n Cost: 3\n\n Sets:\n\n Glacio Dreadmane\n Class: Elite\n Cost: 3\n\n Sets:\n\n Glacio Predator\n Class: Elite\n Cost: 3\n\n Sets:\n\n Glacio Prism\n Class: Elite\n Cost: 3\n\n Sets:\n\n Glommoth\n Class: Elite\n Cost: 3\n\n Sets:\n\n Golden Junrock\n Class: Elite\n Cost: 3\n\n Sets:\n\n Gulpuff\n Class: Elite\n Cost: 3\n\n Sets:\n\n Havoc Drake\n Class: Elite\n Cost: 3\n\n Sets:\n\n Havoc Dreadmane\n Class: Elite\n Cost: 3\n\n Sets:\n\n Havoc Prism\n Class: Elite\n Cost: 3\n\n Sets:\n\n Havoc Warrior\n Class: Elite\n Cost: 3\n\n Sets:\n\n Hoartoise\n Class: Elite\n Cost: 3\n\n Sets:\n\n Hocus Pocus\n Class: Elite\n Cost: 3\n\n Sets:\n\n Hoochief\n Class: Elite\n Cost: 3\n\n Sets:\n\n Hooscamp\n Class: Elite\n Cost: 3\n\n Sets:\n\n Hurriclaw\n Class: Elite\n Cost: 3\n\n Sets:\n\n Iceglint Dancer\n Class: Elite\n Cost: 3\n\n Sets:\n\n Ironhoof\n Class: Elite\n Cost: 3\n\n Sets:\n\n Kerasaur\n Class: Elite\n Cost: 3\n\n Sets:\n\n Kronablight\n Class: Elite\n Cost: 3\n\n Sets:\n\n La Guardia\n Class: Elite\n Cost: 3\n\n Sets:\n\n Lava Larva\n Class: Elite\n Cost: 3\n\n Sets:\n\n Lightcrusher\n Class: Elite\n Cost: 3\n\n Sets:\n\n Lottie Lost\n Class: Elite\n Cost: 3\n\n Sets:\n\n Lumiscale Construct\n Class: Elite\n Cost: 3\n\n Sets:\n\n Mining Drone\n Class: Elite\n Cost: 3\n\n Sets:\n\n Mining Reindeer\n Class: Elite\n Cost: 3\n\n Sets:\n\n Nightmare: Aero Predator\n Class: Elite\n Cost: 3\n\n Sets:\n\n Nightmare: Baby Roseshroom\n Class: Elite\n Cost: 3\n\n Sets:\n\n Nightmare: Baby Viridblaze Saurian\n Class: Elite\n Cost: 3\n\n Sets:\n\n Nightmare: Chirpuff\n Class: Elite\n Cost: 3\n\n Sets:\n\n Nightmare: Cyan-Feathered Heron\n Class: Elite\n Cost: 3\n\n Sets:\n\n Nightmare: Dwarf Cassowary\n Class: Elite\n Cost: 3\n\n Sets:\n\n Nightmare: Electro Predator\n Class: Elite\n Cost: 3\n\n Sets:\n\n Nightmare: Glacio Predator\n Class: Elite\n Cost: 3\n\n Sets:\n\n Nightmare: Gulpuff\n Class: Elite\n Cost: 3\n\n Sets:\n\n Nightmare: Havoc Warrior\n Class: Elite\n Cost: 3\n\n Sets:\n\n Nightmare: Roseshroom\n Class: Elite\n Cost: 3\n\n Sets:\n\n Nightmare: Tambourinist\n Class: Elite\n Cost: 3\n\n Sets:\n\n Nightmare: Tick Tack\n Class: Elite\n Cost: 3\n\n Sets:\n\n Nightmare: Violet-Feathered Heron\n Class: Elite\n Cost: 3\n\n Sets:\n\n Nightmare: Viridblaze Saurian\n Class: Elite\n Cost: 3\n\n Sets:\n\n Nimbus Wraith\n Class: Elite\n Cost: 3\n\n Sets:\n\n Nocturnus Knight\n Class: Elite\n Cost: 3\n\n Sets:\n\n Pilgrim's Shell\n Class: Elite\n Cost: 3\n\n Sets:\n\n Questless Knight\n Class: Elite\n Cost: 3\n\n Sets:\n\n Rage Against the Statue\n Class: Elite\n Cost: 3\n\n Sets:\n\n Reminiscence: Kronaclaw\n Class: Elite\n Cost: 3\n\n Sets:\n\n Rocksteady Guardian\n Class: Elite\n Cost: 3\n\n Sets:\n\n Roseshroom\n Class: Elite\n Cost: 3\n\n Sets:\n\n Sabercat Prowler\n Class: Elite\n Cost: 3\n\n Sets:\n\n Sabercat Reaver\n Class: Elite\n Cost: 3\n\n Sets:\n\n Sabyr Boar\n Class: Elite\n Cost: 3\n\n Sets:\n\n Sacerdos\n Class: Elite\n Cost: 3\n\n Sets:\n\n Sagittario\n Class: Elite\n Cost: 3\n\n Sets:\n\n Shadow Stepper\n Class: Elite\n Cost: 3\n\n Sets:\n\n Snip Snap\n Class: Elite\n Cost: 3\n\n Sets:\n\n Spacetrek Explorer\n Class: Elite\n Cost: 3\n\n Sets:\n\n Spearback\n Class: Elite\n Cost: 3\n\n Sets:\n\n Spectro Drake\n Class: Elite\n Cost: 3\n\n Sets:\n\n Spectro Prism\n Class: Elite\n Cost: 3\n\n Sets:\n\n Stonewall Bracer\n Class: Elite\n Cost: 3\n\n Sets:\n\n Tambourinist\n Class: Elite\n Cost: 3\n\n Sets:\n\n Tick Tack\n Class: Elite\n Cost: 3\n\n Sets:\n\n Traffic Illuminator\n Class: Elite\n Cost: 3\n\n Sets:\n\n Tremor Warrior\n Class: Elite\n Cost: 3\n\n Sets:\n\n Twin Nova: Collapsar Blade\n Class: Elite\n Cost: 3\n\n Sets:\n\n Twin Nova: Nebulous Cannon\n Class: Elite\n Cost: 3\n\n Sets:\n\n Vanguard Junrock\n Class: Elite\n Cost: 3\n\n Sets:\n\n Violet-Feathered Heron\n Class: Elite\n Cost: 3\n\n Sets:\n\n Viridblaze Saurian\n Class: Elite\n Cost: 3\n\n Sets:\n\n Vitreum Dancer\n Class: Elite\n Cost: 3\n\n Sets:\n\n Voidwing Moth\n Class: Elite\n Cost: 3\n\n Sets:\n\n Voltscourge Stalker\n Class: Elite\n Cost: 3\n\n Sets:\n\n Whiff Whaff\n Class: Elite\n Cost: 3\n\n Sets:\n\n Windlash Coleoid\n Class: Elite\n Cost: 3\n\n Sets:\n\n Young Roseshroom\n Class: Elite\n Cost: 3\n\n Sets:\n\n Zig Zag\n Class: Elite\n Cost: 3\n\n Sets:\n\n Zip Zap\n Class: Elite\n Cost: 3\n\n Sets:",
+  "text": "Echoes | Wuthering Waves (WuWa)\n \n\n Wuthering Waves\n Home Database Characters Weapons Echoes Banners\n Tier Lists Tier List Team Tier List Value Tier List\n Guides Guides\n Resources Map News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Wuthering Waves\n /\n Echoes\n\n Wuthering Waves Echoes\n List of all Echoes available in Wuthering Waves.\n Last updated: 10/July/2026\n\n Echoes\n Showing 164 echo es\n Please select the Rank of the echo (2-5).\n\n Lv. 2\n\n All echo sets\n\n Freezing Frost\n\n Molten Rift\n\n Void Thunder\n\n Sierra Gale\n\n Celestial Light\n\n Havoc Eclipse\n\n Rejuvenating Glow\n\n Moonlit Clouds\n\n Endless Resonance\n\n Frosty Resolve\n\n Eternal Radiance\n\n Midnight Veil\n\n Empyrean Anthem\n\n Tidebreaking Courage\n\n Gusts of Welkin\n\n Flaming Clawprint\n\n Windward Pilgrimage\n\n Dream of the Lost\n\n Crown of Valor\n\n Law of Harmony\n\n Flamewing's Shadow\n\n Thread of Severed Fate\n\n Halo of Starry Radiance\n\n Pact of Neonlight Leap\n\n Rite of Gilded Revelation\n\n Trailblazing Star\n\n Chromatic Foam\n\n Sound of True Name\n\n Reel of Spliced Memories\n\n Wishes of Quiet Snowfall\n\n Shadow of Shattered Dreams\n\n Song of Feathered Trace\n\n Heart of Evil's Purge\n\n Lamp of Nether Road\n\n Select a set to reveal its 2 and 5 piece bonuses.\n\n Bell-Borne Geochelone\n Class: Calamity\n Cost: 4\n\n Sets:\n\n Dreamless\n Class: Calamity\n Cost: 4\n\n Sets:\n\n Hecate\n Class: Calamity\n Cost: 4\n\n Sets:\n\n Jué\n Class: Calamity\n Cost: 4\n\n Sets:\n\n Nightmare: Hecate\n Class: Calamity\n Cost: 4\n\n Sets:\n\n Reminiscence - Nightmare: Adam Smasher\n Class: Calamity\n Cost: 4\n\n Sets:\n\n Reminiscence: Denia\n Class: Calamity\n Cost: 4\n\n Sets:\n\n Reminiscence: Fleurdelys\n Class: Calamity\n Cost: 4\n\n Sets:\n\n Reminiscence: Threnodian - Leviathan\n Class: Calamity\n Cost: 4\n\n Sets:\n\n Reminiscence: Threnodian - Voidborne Construct\n Class: Calamity\n Cost: 4\n\n Sets:\n\n Sigillum\n Class: Calamity\n Cost: 4\n\n Sets:\n\n Thousand-Puppet Pavilion\n Class: Calamity\n Cost: 4\n\n Sets:\n\n Crownless\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Dragon of Dirge\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Fallacy of No Return\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Feilian Beringal\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Hyvatia\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Impermanence Heron\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Inferno Rider\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Lady of the Sea\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Lampylumen Myriad\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Lioness of Glory\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Lorelei\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Mech Abomination\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Mourning Aix\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Nameless Explorer\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Nightmare: Crownless\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Nightmare: Feilian Beringal\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Nightmare: Impermanence Heron\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Nightmare: Inferno Rider\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Nightmare: Kelpie\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Nightmare: Lampylumen Myriad\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Nightmare: Mourning Aix\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Nightmare: Tempest Mephis\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Nightmare: Thundering Mephis\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Reactor Husk\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Reminiscence: Fenrico\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Sentry Construct\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Tempest Mephis\n Class: Overlord\n Cost: 4\n\n Sets:\n\n The False Sovereign\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Thundering Mephis\n Class: Overlord\n Cost: 4\n\n Sets:\n\n Abyssal Gladius\n Class: Elite\n Cost: 3\n\n Sets:\n\n Abyssal Mercator\n Class: Elite\n Cost: 3\n\n Sets:\n\n Abyssal Patricius\n Class: Elite\n Cost: 3\n\n Sets:\n\n Aero Drake\n Class: Elite\n Cost: 3\n\n Sets:\n\n Aero Predator\n Class: Elite\n Cost: 3\n\n Sets:\n\n Aero Prism\n Class: Elite\n Cost: 3\n\n Sets:\n\n Autopuppet Scout\n Class: Elite\n Cost: 3\n\n Sets:\n\n Baby Viridblaze Saurian\n Class: Elite\n Cost: 3\n\n Sets:\n\n Calcified Junrock\n Class: Elite\n Cost: 3\n\n Sets:\n\n Capitaneus\n Class: Elite\n Cost: 3\n\n Sets:\n\n Carapace\n Class: Elite\n Cost: 3\n\n Sets:\n\n Chasm Guardian\n Class: Elite\n Cost: 3\n\n Sets:\n\n Chest Mimic\n Class: Elite\n Cost: 3\n\n Sets:\n\n Chirpuff\n Class: Elite\n Cost: 3\n\n Sets:\n\n Chop Chop\n Class: Elite\n Cost: 3\n\n Sets:\n\n Chop Chop: Headless\n Class: Elite\n Cost: 3\n\n Sets:\n\n Chop Chop: Leftless\n Class: Elite\n Cost: 3\n\n Sets:\n\n Chop Chop: Rightless\n Class: Elite\n Cost: 3\n\n Sets:\n\n Clang Bang\n Class: Elite\n Cost: 3\n\n Sets:\n\n Corrosaurus\n Class: Elite\n Cost: 3\n\n Sets:\n\n Cruisewing\n Class: Elite\n Cost: 3\n\n Sets:\n\n Cuddle Wuddle\n Class: Elite\n Cost: 3\n\n Sets:\n\n Cyan-Feathered Heron\n Class: Elite\n Cost: 3\n\n Sets:\n\n Devotee's Flesh\n Class: Elite\n Cost: 3\n\n Sets:\n\n Diamondclaw\n Class: Elite\n Cost: 3\n\n Sets:\n\n Diggy Duggy\n Class: Elite\n Cost: 3\n\n Sets:\n\n Diurnus Knight\n Class: Elite\n Cost: 3\n\n Sets:\n\n Dwarf Cassowary\n Class: Elite\n Cost: 3\n\n Sets:\n\n Electro Drake\n Class: Elite\n Cost: 3\n\n Sets:\n\n Electro Predator\n Class: Elite\n Cost: 3\n\n Sets:\n\n Excarat\n Class: Elite\n Cost: 3\n\n Sets:\n\n Fae Ignis\n Class: Elite\n Cost: 3\n\n Sets:\n\n Fission Junrock\n Class: Elite\n Cost: 3\n\n Sets:\n\n Flautist\n Class: Elite\n Cost: 3\n\n Sets:\n\n Flora Drone\n Class: Elite\n Cost: 3\n\n Sets:\n\n Flora Reindeer\n Class: Elite\n Cost: 3\n\n Sets:\n\n Frostbite Coleoid\n Class: Elite\n Cost: 3\n\n Sets:\n\n Frostscourge Stalker\n Class: Elite\n Cost: 3\n\n Sets:\n\n Fusion Drake\n Class: Elite\n Cost: 3\n\n Sets:\n\n Fusion Dreamane\n Class: Elite\n Cost: 3\n\n Sets:\n\n Fusion Prism\n Class: Elite\n Cost: 3\n\n Sets:\n\n Fusion Warrior\n Class: Elite\n Cost: 3\n\n Sets:\n\n Galescourge Stalker\n Class: Elite\n Cost: 3\n\n Sets:\n\n Geospider S4\n Class: Elite\n Cost: 3\n\n Sets:\n\n Glacio Drake\n Class: Elite\n Cost: 3\n\n Sets:\n\n Glacio Dreadmane\n Class: Elite\n Cost: 3\n\n Sets:\n\n Glacio Predator\n Class: Elite\n Cost: 3\n\n Sets:\n\n Glacio Prism\n Class: Elite\n Cost: 3\n\n Sets:\n\n Glommoth\n Class: Elite\n Cost: 3\n\n Sets:\n\n Golden Junrock\n Class: Elite\n Cost: 3\n\n Sets:\n\n Gulpuff\n Class: Elite\n Cost: 3\n\n Sets:\n\n Havoc Drake\n Class: Elite\n Cost: 3\n\n Sets:\n\n Havoc Dreadmane\n Class: Elite\n Cost: 3\n\n Sets:\n\n Havoc Prism\n Class: Elite\n Cost: 3\n\n Sets:\n\n Havoc Warrior\n Class: Elite\n Cost: 3\n\n Sets:\n\n Hoartoise\n Class: Elite\n Cost: 3\n\n Sets:\n\n Hocus Pocus\n Class: Elite\n Cost: 3\n\n Sets:\n\n Hoochief\n Class: Elite\n Cost: 3\n\n Sets:\n\n Hooscamp\n Class: Elite\n Cost: 3\n\n Sets:\n\n Hurriclaw\n Class: Elite\n Cost: 3\n\n Sets:\n\n Iceglint Dancer\n Class: Elite\n Cost: 3\n\n Sets:\n\n Ironhoof\n Class: Elite\n Cost: 3\n\n Sets:\n\n Kerasaur\n Class: Elite\n Cost: 3\n\n Sets:\n\n Kronablight\n Class: Elite\n Cost: 3\n\n Sets:\n\n La Guardia\n Class: Elite\n Cost: 3\n\n Sets:\n\n Lava Larva\n Class: Elite\n Cost: 3\n\n Sets:\n\n Lightcrusher\n Class: Elite\n Cost: 3\n\n Sets:\n\n Lottie Lost\n Class: Elite\n Cost: 3\n\n Sets:\n\n Lumiscale Construct\n Class: Elite\n Cost: 3\n\n Sets:\n\n Mining Drone\n Class: Elite\n Cost: 3\n\n Sets:\n\n Mining Reindeer\n Class: Elite\n Cost: 3\n\n Sets:\n\n Nightmare: Aero Predator\n Class: Elite\n Cost: 3\n\n Sets:\n\n Nightmare: Baby Roseshroom\n Class: Elite\n Cost: 3\n\n Sets:\n\n Nightmare: Baby Viridblaze Saurian\n Class: Elite\n Cost: 3\n\n Sets:\n\n Nightmare: Chirpuff\n Class: Elite\n Cost: 3\n\n Sets:\n\n Nightmare: Cyan-Feathered Heron\n Class: Elite\n Cost: 3\n\n Sets:\n\n Nightmare: Dwarf Cassowary\n Class: Elite\n Cost: 3\n\n Sets:\n\n Nightmare: Electro Predator\n Class: Elite\n Cost: 3\n\n Sets:\n\n Nightmare: Glacio Predator\n Class: Elite\n Cost: 3\n\n Sets:\n\n Nightmare: Gulpuff\n Class: Elite\n Cost: 3\n\n Sets:\n\n Nightmare: Havoc Warrior\n Class: Elite\n Cost: 3\n\n Sets:\n\n Nightmare: Roseshroom\n Class: Elite\n Cost: 3\n\n Sets:\n\n Nightmare: Tambourinist\n Class: Elite\n Cost: 3\n\n Sets:\n\n Nightmare: Tick Tack\n Class: Elite\n Cost: 3\n\n Sets:\n\n Nightmare: Violet-Feathered Heron\n Class: Elite\n Cost: 3\n\n Sets:\n\n Nightmare: Viridblaze Saurian\n Class: Elite\n Cost: 3\n\n Sets:\n\n Nimbus Wraith\n Class: Elite\n Cost: 3\n\n Sets:\n\n Nocturnus Knight\n Class: Elite\n Cost: 3\n\n Sets:\n\n Pilgrim's Shell\n Class: Elite\n Cost: 3\n\n Sets:\n\n Questless Knight\n Class: Elite\n Cost: 3\n\n Sets:\n\n Rage Against the Statue\n Class: Elite\n Cost: 3\n\n Sets:\n\n Reminiscence: Kronaclaw\n Class: Elite\n Cost: 3\n\n Sets:\n\n Rocksteady Guardian\n Class: Elite\n Cost: 3\n\n Sets:\n\n Roseshroom\n Class: Elite\n Cost: 3\n\n Sets:\n\n Sabercat Prowler\n Class: Elite\n Cost: 3\n\n Sets:\n\n Sabercat Reaver\n Class: Elite\n Cost: 3\n\n Sets:\n\n Sabyr Boar\n Class: Elite\n Cost: 3\n\n Sets:\n\n Sacerdos\n Class: Elite\n Cost: 3\n\n Sets:\n\n Sagittario\n Class: Elite\n Cost: 3\n\n Sets:\n\n Shadow Stepper\n Class: Elite\n Cost: 3\n\n Sets:\n\n Snip Snap\n Class: Elite\n Cost: 3\n\n Sets:\n\n Spacetrek Explorer\n Class: Elite\n Cost: 3\n\n Sets:\n\n Spearback\n Class: Elite\n Cost: 3\n\n Sets:\n\n Spectro Drake\n Class: Elite\n Cost: 3\n\n Sets:\n\n Spectro Prism\n Class: Elite\n Cost: 3\n\n Sets:\n\n Stonewall Bracer\n Class: Elite\n Cost: 3\n\n Sets:\n\n Tambourinist\n Class: Elite\n Cost: 3\n\n Sets:\n\n Tick Tack\n Class: Elite\n Cost: 3\n\n Sets:\n\n Traffic Illuminator\n Class: Elite\n Cost: 3\n\n Sets:\n\n Tremor Warrior\n Class: Elite\n Cost: 3\n\n Sets:\n\n Twin Nova: Collapsar Blade\n Class: Elite\n Cost: 3\n\n Sets:\n\n Twin Nova: Nebulous Cannon\n Class: Elite\n Cost: 3\n\n Sets:\n\n Vanguard Junrock\n Class: Elite\n Cost: 3\n\n Sets:\n\n Violet-Feathered Heron\n Class: Elite\n Cost: 3\n\n Sets:\n\n Viridblaze Saurian\n Class: Elite\n Cost: 3\n\n Sets:\n\n Vitreum Dancer\n Class: Elite\n Cost: 3\n\n Sets:\n\n Voidwing Moth\n Class: Elite\n Cost: 3\n\n Sets:\n\n Voltscourge Stalker\n Class: Elite\n Cost: 3\n\n Sets:\n\n Whiff Whaff\n Class: Elite\n Cost: 3\n\n Sets:\n\n Windlash Coleoid\n Class: Elite\n Cost: 3\n\n Sets:\n\n Young Roseshroom\n Class: Elite\n Cost: 3\n\n Sets:\n\n Zig Zag\n Class: Elite\n Cost: 3\n\n Sets:\n\n Zip Zap\n Class: Elite\n Cost: 3\n\n Sets:",
   "entries": [
     {
       "id": "abyssal-gladius",
@@ -9296,8 +9428,8 @@
       "kind": "echoes",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": null,
-      "assetId": null,
+      "art": "Prydwen/ww/assets/echoes/song-of-feathered-trace-fb383356cac2.webp",
+      "assetId": "fb383356cac2",
       "fields": {
         "class": "Calamity",
         "cost": "4",
@@ -9756,13 +9888,21 @@
       "text": "Havoc Warrior\nClass: Elite\nCost: 3\nSets:"
     },
     {
+      "id": "heart-of-evils-purge",
+      "name": "Heart of Evil's Purge",
+      "kind": "echoes",
+      "art": "Prydwen/ww/assets/echoes/heart-of-evils-purge-941f2661edbc.webp",
+      "assetId": "941f2661edbc",
+      "contentStatus": "live"
+    },
+    {
       "id": "hecate",
       "name": "Hecate",
       "kind": "echoes",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": null,
-      "assetId": null,
+      "art": "Prydwen/ww/assets/echoes/heart-of-evils-purge-941f2661edbc.webp",
+      "assetId": "941f2661edbc",
       "fields": {
         "class": "Calamity",
         "cost": "4",
@@ -9926,8 +10066,8 @@
       "kind": "echoes",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": null,
-      "assetId": null,
+      "art": "Prydwen/ww/assets/echoes/lamp-of-nether-road-bbe705c2d324.webp",
+      "assetId": "bbe705c2d324",
       "fields": {
         "class": "Calamity",
         "cost": "4",
@@ -9994,6 +10134,14 @@
         "sets": ""
       },
       "text": "Lady of the Sea\nClass: Overlord\nCost: 4\nSets:"
+    },
+    {
+      "id": "lamp-of-nether-road",
+      "name": "Lamp of Nether Road",
+      "kind": "echoes",
+      "art": "Prydwen/ww/assets/echoes/lamp-of-nether-road-bbe705c2d324.webp",
+      "assetId": "bbe705c2d324",
+      "contentStatus": "live"
     },
     {
       "id": "lampylumen-myriad",
@@ -10919,6 +11067,14 @@
       "text": "Snip Snap\nClass: Elite\nCost: 3\nSets:"
     },
     {
+      "id": "song-of-feathered-trace",
+      "name": "Song of Feathered Trace",
+      "kind": "echoes",
+      "art": "Prydwen/ww/assets/echoes/song-of-feathered-trace-fb383356cac2.webp",
+      "assetId": "fb383356cac2",
+      "contentStatus": "live"
+    },
+    {
       "id": "spacetrek-explorer",
       "name": "Spacetrek Explorer",
       "kind": "echoes",
@@ -11037,6 +11193,21 @@
         "sets": ""
       },
       "text": "The False Sovereign\nClass: Overlord\nCost: 4\nSets:"
+    },
+    {
+      "id": "thousand-puppet-pavilion",
+      "name": "Thousand-Puppet Pavilion",
+      "kind": "echoes",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "class": "Calamity",
+        "cost": "4",
+        "sets": ""
+      },
+      "text": "Thousand-Puppet Pavilion\nClass: Calamity\nCost: 4\nSets:"
     },
     {
       "id": "thundering-mephis",

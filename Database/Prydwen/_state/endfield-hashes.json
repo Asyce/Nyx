@@ -1,9 +1,9 @@
 {
   "game": "endfield",
-  "updatedAt": "2026-07-09T08:53:35.209Z",
+  "updatedAt": "2026-07-10T08:49:31.188Z",
   "hashes": {
     "records": {
-      "characters:akekuri": "d1b3f1ae8765949a6a9c52b452d7b27b2513c1ed35339d523d2b48f47df17570",
+      "characters:akekuri": "3431d95fef4eac522e24e2cef042e923081eb9bd8fcab2eff9ac65e3d6bbddd5",
       "characters:alesh": "66f9bb764d93da5ed65bdf3ad641d90051becb691ecc48070d01399882fe48a0",
       "characters:antal": "adbe0c859da619289e2562b807de9d6427cef784dd5f218e79826eeb40c95d43",
       "characters:arclight": "a8381e581b09b38a9c421ec737d040bf4e2fda1833dac71b4b5095d99592d691",
@@ -13,12 +13,12 @@
       "characters:catcher": "c492426c625a35cb5a2e62b7c76e5550e1fb2a7b42e7f62e325b82672901f51f",
       "characters:chen-qianyu": "d650519ee11173bb6d5edc9032c1421a272a9f14123d62369dbdf8dc21958f95",
       "characters:da-pan": "22d6dd4979f776b21d719f583e33d776ce38adf1915722ffda6e43a474f1d63d",
-      "characters:ember": "4506f333f4600909a5f771dd552ce120b339e10fd161fe856bb569a741c6d5c3",
+      "characters:ember": "cc67fa676ef1a92bf0274c7c59bf002fa090bf9163c7cad501f172f726d100c3",
       "characters:endministrator": "cd06e5f8c9c2ab72c291b7463bef57111757c8e27a10fe05d16331416867b643",
       "characters:estella": "989c884cdbd8ea0eae7e83db766e5c874214768c4fe5b0956a4b7f81e549c4a5",
       "characters:fluorite": "3b11bf5d7a14f469dfae7fad75346aceadcbb06e8c9f3952635a3e822fd9e632",
       "characters:gilberta": "55b22b6c5cc9c95b634c12450e4d43a8a547190b14a50f4af68934dc16c388e0",
-      "characters:laevatain": "722fa25eefa27b574bc4c2a31ee000eaca68c5db5fef5241ebb96d105b4095da",
+      "characters:laevatain": "a6a2ebbade14253107e1518d4e2135cf3772343a84f86825c16a21be7b5f37a8",
       "characters:last-rite": "89efdde61cd83b9ca8557cb7eb8a70f4553307d164d0fbc97e4dbeb170730a10",
       "characters:lifeng": "9862e55b9959fab9f7502b6799aa301b72fafd55a6548fc616325fb4fc531497",
       "characters:mi-fu": "3b71209f84bed4818495346a14a1a3ff64d39d0afbfddea4facc52f234fe2f4b",

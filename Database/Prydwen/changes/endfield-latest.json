@@ -1,13 +1,13 @@
 {
   "provider": "Prydwen",
   "game": "endfield",
-  "generatedAt": "2026-07-09T08:53:35.209Z",
+  "generatedAt": "2026-07-10T08:49:31.188Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 2,
-      "unchanged": 29
+      "changed": 3,
+      "unchanged": 28
     }
   },
   "sections": {
@@ -16,19 +16,25 @@
       "removed": [],
       "changed": [
         {
+          "id": "characters:akekuri",
+          "name": "Akekuri",
+          "previousHash": "d1b3f1ae8765949a6a9c52b452d7b27b2513c1ed35339d523d2b48f47df17570",
+          "currentHash": "3431d95fef4eac522e24e2cef042e923081eb9bd8fcab2eff9ac65e3d6bbddd5"
+        },
+        {
           "id": "characters:ember",
           "name": "Ember",
-          "previousHash": "cc67fa676ef1a92bf0274c7c59bf002fa090bf9163c7cad501f172f726d100c3",
-          "currentHash": "4506f333f4600909a5f771dd552ce120b339e10fd161fe856bb569a741c6d5c3"
+          "previousHash": "4506f333f4600909a5f771dd552ce120b339e10fd161fe856bb569a741c6d5c3",
+          "currentHash": "cc67fa676ef1a92bf0274c7c59bf002fa090bf9163c7cad501f172f726d100c3"
         },
         {
           "id": "characters:laevatain",
           "name": "Laevatain",
-          "previousHash": "a6a2ebbade14253107e1518d4e2135cf3772343a84f86825c16a21be7b5f37a8",
-          "currentHash": "722fa25eefa27b574bc4c2a31ee000eaca68c5db5fef5241ebb96d105b4095da"
+          "previousHash": "722fa25eefa27b574bc4c2a31ee000eaca68c5db5fef5241ebb96d105b4095da",
+          "currentHash": "a6a2ebbade14253107e1518d4e2135cf3772343a84f86825c16a21be7b5f37a8"
         }
       ],
-      "unchanged": 29,
+      "unchanged": 28,
       "totals": {
         "previous": 31,
         "current": 31

@@ -3,7 +3,7 @@
   "game": "ww",
   "collection": "echoes",
   "sourcePath": "/wuthering-waves/echoes",
-  "scrapedAt": "2026-07-09T08:53:35.209Z",
+  "scrapedAt": "2026-07-10T08:49:31.188Z",
   "detailPagesTotal": 0,
   "detailPagesScraped": 0,
   "staleDetailPagesRemoved": 0,
@@ -464,8 +464,8 @@
       "kind": "echoes",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": null,
-      "assetId": null,
+      "art": "Prydwen/ww/assets/echoes/song-of-feathered-trace-fb383356cac2.webp",
+      "assetId": "fb383356cac2",
       "fields": {
         "class": "Calamity",
         "cost": "4",
@@ -924,13 +924,21 @@
       "text": "Havoc Warrior\nClass: Elite\nCost: 3\nSets:"
     },
     {
+      "id": "heart-of-evils-purge",
+      "name": "Heart of Evil's Purge",
+      "kind": "echoes",
+      "art": "Prydwen/ww/assets/echoes/heart-of-evils-purge-941f2661edbc.webp",
+      "assetId": "941f2661edbc",
+      "contentStatus": "live"
+    },
+    {
       "id": "hecate",
       "name": "Hecate",
       "kind": "echoes",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": null,
-      "assetId": null,
+      "art": "Prydwen/ww/assets/echoes/heart-of-evils-purge-941f2661edbc.webp",
+      "assetId": "941f2661edbc",
       "fields": {
         "class": "Calamity",
         "cost": "4",
@@ -1094,8 +1102,8 @@
       "kind": "echoes",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": null,
-      "assetId": null,
+      "art": "Prydwen/ww/assets/echoes/lamp-of-nether-road-bbe705c2d324.webp",
+      "assetId": "bbe705c2d324",
       "fields": {
         "class": "Calamity",
         "cost": "4",
@@ -1162,6 +1170,14 @@
         "sets": ""
       },
       "text": "Lady of the Sea\nClass: Overlord\nCost: 4\nSets:"
+    },
+    {
+      "id": "lamp-of-nether-road",
+      "name": "Lamp of Nether Road",
+      "kind": "echoes",
+      "art": "Prydwen/ww/assets/echoes/lamp-of-nether-road-bbe705c2d324.webp",
+      "assetId": "bbe705c2d324",
+      "contentStatus": "live"
     },
     {
       "id": "lampylumen-myriad",
@@ -2087,6 +2103,14 @@
       "text": "Snip Snap\nClass: Elite\nCost: 3\nSets:"
     },
     {
+      "id": "song-of-feathered-trace",
+      "name": "Song of Feathered Trace",
+      "kind": "echoes",
+      "art": "Prydwen/ww/assets/echoes/song-of-feathered-trace-fb383356cac2.webp",
+      "assetId": "fb383356cac2",
+      "contentStatus": "live"
+    },
+    {
       "id": "spacetrek-explorer",
       "name": "Spacetrek Explorer",
       "kind": "echoes",
@@ -2205,6 +2229,21 @@
         "sets": ""
       },
       "text": "The False Sovereign\nClass: Overlord\nCost: 4\nSets:"
+    },
+    {
+      "id": "thousand-puppet-pavilion",
+      "name": "Thousand-Puppet Pavilion",
+      "kind": "echoes",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "class": "Calamity",
+        "cost": "4",
+        "sets": ""
+      },
+      "text": "Thousand-Puppet Pavilion\nClass: Calamity\nCost: 4\nSets:"
     },
     {
       "id": "thundering-mephis",

@@ -3,7 +3,7 @@
   "game": "ww",
   "collection": "characters",
   "sourcePath": "/wuthering-waves/characters",
-  "scrapedAt": "2026-07-09T08:53:35.209Z",
+  "scrapedAt": "2026-07-10T08:49:31.188Z",
   "detailPagesTotal": 60,
   "detailPagesScraped": 60,
   "staleDetailPagesRemoved": 0,
@@ -231,22 +231,18 @@
     {
       "id": "lucilla",
       "slug": "lucilla",
-      "name": "Lucilla New",
+      "name": "Lucilla",
       "sourcePath": "/wuthering-waves/characters/lucilla",
       "contentStatus": "live",
-      "statusLabels": [
-        "New"
-      ]
+      "statusLabels": []
     },
     {
       "id": "lucy",
       "slug": "lucy",
-      "name": "Lucy New",
+      "name": "Lucy",
       "sourcePath": "/wuthering-waves/characters/lucy",
       "contentStatus": "live",
-      "statusLabels": [
-        "New"
-      ]
+      "statusLabels": []
     },
     {
       "id": "lumi",
@@ -333,12 +329,10 @@
     {
       "id": "rebecca",
       "slug": "rebecca",
-      "name": "Rebecca New",
+      "name": "Rebecca",
       "sourcePath": "/wuthering-waves/characters/rebecca",
       "contentStatus": "live",
-      "statusLabels": [
-        "New"
-      ]
+      "statusLabels": []
     },
     {
       "id": "roccia",
@@ -359,11 +353,11 @@
     {
       "id": "rover-electro",
       "slug": "rover-electro",
-      "name": "Rover (Electro) 3.5",
+      "name": "Rover (Electro) New",
       "sourcePath": "/wuthering-waves/characters/rover-electro",
-      "contentStatus": "beta",
+      "contentStatus": "live",
       "statusLabels": [
-        "3.5"
+        "New"
       ]
     },
     {
@@ -461,11 +455,11 @@
     {
       "id": "yangyang-xuanling",
       "slug": "yangyang-xuanling",
-      "name": "Yangyang Xuanling 3.5",
+      "name": "Yangyang Xuanling New",
       "sourcePath": "/wuthering-waves/characters/yangyang-xuanling",
-      "contentStatus": "beta",
+      "contentStatus": "live",
       "statusLabels": [
-        "3.5"
+        "New"
       ]
     },
     {

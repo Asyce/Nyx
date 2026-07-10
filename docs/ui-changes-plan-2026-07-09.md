@@ -1,10 +1,9 @@
 # UI Changes Plan — 2026-07-09 (from "UI Changes Proposal.docx")
 
-Status: EXPANDING — workstreams A–K approved and self-reviewed 2026-07-09 (Codex
-review waived); workstreams L–P added 2026-07-10 (favourites/Characters tab,
-banner timeline, events pipeline, kit profile stats, birthday calendar). Pending:
-user confirms scope is complete → final self-review pass over L–P → mark FINAL.
-Do not start implementation until the plan is marked final.
+Status: **FINAL** (2026-07-10) — all decisions resolved, three full review passes
+complete, timeline mock approved. Queue tasks nyx-0016…0031 are `ready`.
+Implementation may begin with Batch 1; per-batch gate at the end of the
+Sequencing section applies. No production deploys without an explicit user ask.
 Source: user proposal doc (12 items, workstreams A–G) + scope additions H–P from
 follow-up sessions 2026-07-09/10. All items grounded against HEAD (branch `main`).
 Reviewed: self-review of A–K 2026-07-09; full-plan review of A–P 2026-07-10
@@ -187,7 +186,7 @@ checklist is part of the gate (all 5 game pages, mats/mid/boss tabs, live + beta
 - New scraper following the furniture/gcg pattern; output
   `Database/<renamed>/gi/beyond/{costumes,items,suits}.json` + localized icon assets
   (webp, like the existing icon-localize flow). NOTE: this batch runs AFTER the
-  source-name full rename (Batch 7), so the scraper file, output folder, and all
+  source-name full rename (Batch 9), so the scraper file, output folder, and all
   paths use the new neutral names from the start — do not create anything named
   after the source site.
 - Automation: wire into `.github/workflows/side-data-sync.yml` (it already runs the
@@ -244,6 +243,9 @@ checklist is part of the gate (all 5 game pages, mats/mid/boss tabs, live + beta
   - Rename repo-facing names: `Scraper/nanoka/` dir, `Site/tools/scrape-nanoka-*.mjs`,
     `localize-nanoka-icons.mjs`, `.github/workflows/nanoka-asset-sync.yml` (and its
     workflow name/commit messages).
+  - Update the agent docs in the same batch — `AGENTS.md` and `docs/agent-index.md`
+    reference the old scraper/Database paths — and reindex repowise afterwards so
+    future sessions don't get stale paths.
   - Unavoidable remainder: the actual source URLs (gi.nanoka.cc / static.nanoka.cc)
     must stay inside scraper source code — that's where the data comes from. They
     never reach the browser.
@@ -333,6 +335,11 @@ favourites move out of the Overview (L1): the timeline takes that space.
   (`Scraper/banner-history/{hsr,zzz,wuwa}.mjs`, wiki/game8 sources), normalized to
   the same schema. "As far back as we can provide" = GI complete on day one; other
   games fill in as their scrapers land (timeline renders whatever exists).
+- Data honesty rule (user decision 2026-07-10): only real scraped information goes
+  in — if a field (date, featured list, version) isn't in the source, it stays
+  blank/absent and the UI omits it. NO filler, NO inferred values presented as
+  fact (the only inference allowed is "Expected" positioning, which is visibly
+  marked as a guess).
 - Featured slugs resolve to roster icons/names via existing roster data.
 - Payload: history stays OUT of the main bundle — lazy-load per game when the user
   first scrolls into the past or searches (same on-demand pattern as beta packs).
@@ -346,11 +353,13 @@ favourites move out of the Overview (L1): the timeline takes that space.
   next/upcoming to the right, history stretching left.
 - **Lanes (rows):**
   1. Character banners (splits into parallel sub-lanes when runs overlap, e.g.
-     double banners/phases),
-  2. Weapon banners,
+     double banners/phases) — each card carries its paired weapon as a line on
+     the card + in the detail bar (user decision 2026-07-10: NO separate weapons
+     lane; search still matches weapon names and highlights the carrying card),
+  2. Events (Workstream N),
   3. Activities (Workstream M3),
   4. Custom markers (Workstream M2).
-  Lane toggles in the toolbar show/hide each lane.
+  Lane toggles live in the Layers popover (per approved mock).
 - **Blocks:** each banner run is a block spanning start→end showing at minimum the
   featured character icon(s) + name (item requirement), rarity-colored edge.
   Current run: live countdown chip + subtle pulse. Past: slightly desaturated.
@@ -363,6 +372,12 @@ favourites move out of the Overview (L1): the timeline takes that space.
   (levels ~ week ↔ phase ↔ patch ↔ year); "Today" button recenters; version
   ribbons ("5.7", "6.0") run along the top edge as a secondary scale; date-jump
   picker.
+- **Share view (user-approved 2026-07-10):** a "copy link" button encodes the
+  current view (date position + zoom) into the URL hash, so a pasted link opens
+  the timeline at that exact window.
+- **Architecture (user-approved 2026-07-10):** the timeline is built as its own
+  module — `Site/src/features/timeline/` (component + lane/scale/marker logic) —
+  NOT added to nyx-app.jsx, which is already ~3,500 lines. nyx-app only mounts it.
 - **Search (item requirement):** toolbar search matches featured character (and
   weapon) names across the full history: matching blocks stay lit while the rest
   dims, plus a compact result list ("Venti — 6 runs") whose entries scroll the
@@ -388,8 +403,8 @@ favourites move out of the Overview (L1): the timeline takes that space.
     (live phase dates + duration, paired weapon, featured list, "View character")
     instead of an anchored popup card.
   - **Weapons are merged into the character banner cards** ("paired weapon" line
-    + detail bar) rather than a separate weapons lane — pending user confirmation;
-    if declined, add the separate Weapons lane back per original spec.
+    + detail bar) rather than a separate weapons lane — CONFIRMED by user
+    2026-07-10.
   - "Updated <date, time>" chip top-right (feeds from banner freshness data).
   - Banner cards carry art thumbnails, LIVE NOW / UP NEXT / RERUN tags, phase
     labels ("5.7 Phase 1"); past cards desaturate; now-line has a diamond marker.
@@ -418,7 +433,8 @@ favourites move out of the Overview (L1): the timeline takes that space.
   (nyx-app.jsx:855–899, resetTimerRows: Abyss, Imaginarium, weekly, daily).
 - Per-game activity sets (initial): GI Spiral Abyss + Imaginarium Theater;
   HSR Memory of Chaos + Pure Fiction + Apocalyptic Shadow; ZZZ Shiyu Defense +
-  Deadly Assault; WuWa Tower of Adversity cycles. Cadences encoded as rules (all
+  Deadly Assault; WuWa Tower of Adversity cycles. Endfield: none initially (cycle
+  rules not yet established — add when known). Cadences encoded as rules (all
   are fixed-period resets), each toggleable; dated event scraping can layer in
   later without changing the timeline.
 - Activities render past + future occurrences generated on the fly from the rules —
@@ -461,10 +477,11 @@ events, etc.). Source strategy adapted from the user's research doc
   detection/titles/links. Caveat: article BODIES are embedded external docs
   (Feishu), not parseable HTML — so event dates come from:
   1. the in-game notice endpoints (`aki-game.net` — unreachable from a local
-     machine, likely geo/CDN-gated; probe from the GitHub Actions runner at
-     implementation time), else
-  2. the WuWa fandom wiki event pages (structured date tables; we already run
-     fandom scrapers), diffed against Game8.
+     machine, likely geo/CDN-gated; probe once from the GitHub Actions runner), and
+  2. if they still refuse from CI: SETTLED (user decision 2026-07-10) on the
+     fandom wiki event pages (structured date tables; we already run fandom
+     scrapers) + the official ArticleMenu feed for detection/titles/links,
+     diffed against Game8. No further endpoint hunting.
 - **Truth layer — Endfield (verified 2026-07-10):** the official news site embeds
   the full article list as structured data in the page payload (id `cid`, `tab`
   news|notices, title, epoch `displayTime`, cover, brief — verified), and article
@@ -576,8 +593,10 @@ char-materials.jsx:2007) showing base stats and identity facts.
   fandom Birthdays page can serve as a one-time cross-check of the data.
 - UI: month-grid calendar, navigable by month, today highlighted. Characters
   appear as icon chips on their day (game-colored ring; multiple birthdays stack).
-  Clicking a chip opens that character's page on their game. A compact "next
-  birthdays" strip above the grid lists the soonest 3–5 across enabled games.
+  Clicking a chip opens that character's page on their game — reuse the
+  select-character deep-link mechanism built for F2 (beta click-through), just
+  cross-page (game page URL + character preselect). A compact "next birthdays"
+  strip above the grid lists the soonest 3–5 across enabled games.
 - Toggles persist in localStorage. Data comes from the generated payloads —
   no extra requests.
 - Optional later tie-in (not in scope now): birthdays as a toggleable marker lane
@@ -601,6 +620,9 @@ Phase 2 — app shell cluster (nyx-app.jsx):
 6. **Batch 6:** F1 + F2 (beta inspector — now client-side diff, no generator work).
 7. **Batch 7:** L (favourites move + Characters rename + modes + star/unfav flow;
    touches both files but centered here) — must land before the timeline (M).
+   Interim state note: between Batch 7 and Batch 13 the game Overview has no
+   favourites; the existing banner cards stay there until the timeline replaces
+   them — expected, not a regression.
 8. **Batch 8:** P (hub birthday calendar — uses Batch 4's facts data).
 
 Phase 3 — repo-wide:
@@ -669,3 +691,13 @@ and The Library (K) so new code is born with the neutral paths.
     approved before Batch 13 (prompt: docs/timeline-mockup-prompt.md).
 18. Batches queued as `.agents/queue.json` nyx-0016 … nyx-0031, state `planned`;
     flip to `ready` when this plan is marked FINAL.
+19. Timeline mock APPROVED (docs/mockups/banner-timeline-v4.html) with its
+    refinements adopted (Layers popover, detail bar, hide-past toggle, updated
+    chip). Weapons merged into character cards — CONFIRMED (no separate lane).
+20. Timeline is its own module (`Site/src/features/timeline/`), not part of
+    nyx-app.jsx; nyx-app only mounts it.
+21. "Copy link to this view" share button on the timeline (date + zoom in URL).
+22. WuWa events: if in-game endpoints refuse from CI, settle on wiki dates +
+    official article feed — no further endpoint hunting.
+23. Banner history (all games): real scraped info only; missing fields stay
+    blank — no filler or invented values.

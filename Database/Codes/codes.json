@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:56:47.860Z",
+  "generatedAt": "2026-07-10T14:50:35.015Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-07-10T12:56:22.397Z",
+      "lastSuccessfulFetch": "2026-07-10T14:50:27.154Z",
       "codes": [
         {
           "code": "PFY1S40I88T9",
@@ -41,16 +41,6 @@
           "premium100": false,
           "cwSeen": true,
           "firstSeen": "2026-07-05T17:19:20.440Z"
-        },
-        {
-          "code": "LCXGEA5SX65L",
-          "rewards": "10k Mora, Ten Adventurer S Experience, Five Fine Enhancement Ore, Five Jueyun Chili Chicken, and Five Stir Fried Fish Noodles",
-          "added": "2026-06-12",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LCXGEA5SX65L",
-          "premium": false,
-          "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-07-10T11:13:22.433Z"
         }
       ]
     },
@@ -61,7 +51,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-07-10T12:56:22.346Z",
+      "lastSuccessfulFetch": "2026-07-10T14:50:31.023Z",
       "codes": [
         {
           "code": "4TKSX77Y58QK",
@@ -171,7 +161,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-07-10T12:56:22.366Z",
+      "lastSuccessfulFetch": "2026-07-10T14:50:32.616Z",
       "codes": [
         {
           "code": "ROSCAELIFER0617",
@@ -237,7 +227,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-07-10T12:56:21.972Z",
+      "lastSuccessfulFetch": "2026-07-10T14:50:33.414Z",
       "codes": []
     },
     {
@@ -247,76 +237,59 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-07-10T12:56:47.860Z",
-      "codes": [],
-      "review": {
-        "reason": "6 Arknights: Endfield code(s) held for review: possible referral/invite flood (6 first seen in 24h, threshold 5); 1 unconfirmed Reddit-only code(s). Confirm legit ones in REVIEWED_CODES to publish.",
-        "detectedAt": "2026-07-10T12:56:47.860Z",
-        "codes": [
-          {
-            "code": "ENDFIELDRENEW",
-            "rewards": "",
-            "added": "2026-07-10",
-            "sourceUrl": "https://www.reddit.com/r/Endfield/comments/1usmvuy/14_stream_summary_homecoming/",
-            "mentions": 2,
-            "premium": false,
-            "premium100": false,
-            "cwSeen": false,
-            "reviewReason": "unconfirmed Reddit-only code (no real reward)",
-            "firstSeen": "2026-07-10T12:56:47.860Z"
-          },
-          {
-            "code": "ALLFIELD",
-            "rewards": "",
-            "added": "2026-06-28",
-            "sourceUrl": "https://nexus-codes.app/copy/?code=ALLFIELD",
-            "premium": false,
-            "premium100": false,
-            "cwSeen": false,
-            "firstSeen": "2026-07-10T09:52:37.681Z"
-          },
-          {
-            "code": "RETURNOFALL",
-            "rewards": "",
-            "added": "2026-06-28",
-            "sourceUrl": "https://nexus-codes.app/copy/?code=RETURNOFALL",
-            "premium": false,
-            "premium100": false,
-            "cwSeen": false,
-            "firstSeen": "2026-07-10T09:52:37.681Z"
-          },
-          {
-            "code": "ZAU2SYXHWX5L4ZH",
-            "rewards": "5k T Creds and Ten Arms Insp Kits",
-            "added": "2026-05-05",
-            "sourceUrl": "https://nexus-codes.app/copy/?code=ZAU2SYXHWX5L4ZH",
-            "premium": false,
-            "premium100": false,
-            "cwSeen": false,
-            "firstSeen": "2026-07-09T21:36:12.789Z"
-          },
-          {
-            "code": "ENDFIELD4PC",
-            "rewards": "Two Advanced Combat Records, Two Arms Insp Kits, and 13k T Creds Pc Only",
-            "added": "2026-05-03",
-            "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELD4PC",
-            "premium": false,
-            "premium100": false,
-            "cwSeen": false,
-            "firstSeen": "2026-07-09T21:36:12.789Z"
-          },
-          {
-            "code": "ENDFIELDGIFT",
-            "rewards": "150 Oroberyl, 20 Intermediate Combat Records, 20 Arms Insp Kits, and 10k T Creds",
-            "added": "2026-05-03",
-            "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELDGIFT",
-            "premium": true,
-            "premium100": false,
-            "cwSeen": false,
-            "firstSeen": "2026-07-09T21:36:12.789Z"
-          }
-        ]
-      }
+      "lastSuccessfulFetch": "2026-07-10T14:50:35.015Z",
+      "codes": [
+        {
+          "code": "ALLFIELD",
+          "rewards": "",
+          "added": "2026-06-28",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=ALLFIELD",
+          "premium": false,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-07-10T09:52:37.681Z"
+        },
+        {
+          "code": "RETURNOFALL",
+          "rewards": "",
+          "added": "2026-06-28",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=RETURNOFALL",
+          "premium": false,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-07-10T09:52:37.681Z"
+        },
+        {
+          "code": "ZAU2SYXHWX5L4ZH",
+          "rewards": "5k T Creds and Ten Arms Insp Kits",
+          "added": "2026-05-05",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=ZAU2SYXHWX5L4ZH",
+          "premium": false,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-07-09T21:36:12.789Z"
+        },
+        {
+          "code": "ENDFIELD4PC",
+          "rewards": "Two Advanced Combat Records, Two Arms Insp Kits, and 13k T Creds Pc Only",
+          "added": "2026-05-03",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELD4PC",
+          "premium": false,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-07-09T21:36:12.789Z"
+        },
+        {
+          "code": "ENDFIELDGIFT",
+          "rewards": "150 Oroberyl, 20 Intermediate Combat Records, 20 Arms Insp Kits, and 10k T Creds",
+          "added": "2026-05-03",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELDGIFT",
+          "premium": true,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-07-09T21:36:12.789Z"
+        }
+      ]
     }
   ]
 }

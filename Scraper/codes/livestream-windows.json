@@ -1,3 +1,13 @@
 {
-  "windows": []
+  "windows": [
+    {
+      "game": "endfield",
+      "startsAt": "2026-07-10T06:47:38Z",
+      "endsAt": "2026-07-13T18:47:38Z",
+      "mode": "deep",
+      "note": "Arknights: Endfield Companionship Celebration & [Homecoming] Version Preview Special Program",
+      "source": "youtube",
+      "sourceUrl": "https://www.youtube.com/watch?v=2G3Qm_CV0Eo"
+    }
+  ]
 }

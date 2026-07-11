@@ -109,7 +109,7 @@ jobs:
             git lfs pull && break
             echo "git lfs pull attempt $i failed; retrying" && sleep 5
           done
-          for f in Database/Nanoka/hsr/live/characters.json Database/Nanoka/gi/live/characters.json; do
+          for f in Database/GameData/hsr/live/characters.json Database/GameData/gi/live/characters.json; do
             if head -c 40 "$f" | grep -q 'git-lfs'; then
               echo "::error::$f is still an LFS pointer after git lfs pull"; exit 1
             fi

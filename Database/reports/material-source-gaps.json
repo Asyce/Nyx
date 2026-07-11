@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-08T20:47:39.909Z",
+  "generatedAt": "2026-07-11T00:52:42.426Z",
   "note": "Generic shops, crafting, exchanges, and event rewards are intentionally filtered. Rows here need scraper/wiki-specific source data.",
-  "count": 206,
+  "count": 207,
   "missing": [
     {
       "game": "gi",
@@ -744,6 +744,13 @@
       "id": "110141",
       "name": "Endurance of Bronze",
       "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Trailblazer ascension",
+      "id": "110400",
+      "name": "Enigmatic Ectostella",
+      "kind": "boss"
     },
     {
       "game": "hsr",

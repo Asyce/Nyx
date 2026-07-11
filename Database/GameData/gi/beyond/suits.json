@@ -1,0 +1,2784 @@
+[
+  {
+    "id": "265018",
+    "name": "Astral Beacon",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0007",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0007.webp"
+  },
+  {
+    "id": "265019",
+    "name": "Astral Beacon",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0007",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0007.webp"
+  },
+  {
+    "id": "265219",
+    "name": "Autumn Academia",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0110",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Blue",
+      "Brown"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0110.webp"
+  },
+  {
+    "id": "265220",
+    "name": "Autumn Academia",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0110",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Blue",
+      "Brown"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0110.webp"
+  },
+  {
+    "id": "265115",
+    "name": "Autumn Veins",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0038",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Green",
+      "Brown"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0038.webp"
+  },
+  {
+    "id": "265116",
+    "name": "Autumn Veins",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0038",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Green",
+      "Brown"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0038.webp"
+  },
+  {
+    "id": "265062",
+    "name": "Blazing Ambition",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0113",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Red",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0113.webp"
+  },
+  {
+    "id": "265063",
+    "name": "Blazing Ambition",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0113",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Blue",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0113.webp"
+  },
+  {
+    "id": "265143",
+    "name": "Boundless Resolve",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0073",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Orange"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0073.webp"
+  },
+  {
+    "id": "265144",
+    "name": "Boundless Resolve",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0073",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Yellow"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0073.webp"
+  },
+  {
+    "id": "265394",
+    "name": "Butterfly Resplendence",
+    "rank": "Orange",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0121",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Purple"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0121.webp"
+  },
+  {
+    "id": "265395",
+    "name": "Butterfly Resplendence",
+    "rank": "Orange",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0121",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Purple"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0121.webp"
+  },
+  {
+    "id": "265396",
+    "name": "Butterfly Resplendence: Indigo Mist",
+    "rank": "Orange",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0122",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Blue",
+      "Purple"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0122.webp"
+  },
+  {
+    "id": "265397",
+    "name": "Butterfly Resplendence: Indigo Mist",
+    "rank": "Orange",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0122",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Blue",
+      "Purple"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0122.webp"
+  },
+  {
+    "id": "265044",
+    "name": "Candlelit Revelry",
+    "rank": "Orange",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0059",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Purple"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0059.webp"
+  },
+  {
+    "id": "265045",
+    "name": "Candlelit Revelry",
+    "rank": "Orange",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0059",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Purple"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0059.webp"
+  },
+  {
+    "id": "265046",
+    "name": "Candlelit Revelry: Pumpkin Candy",
+    "rank": "Orange",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0061",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Blue",
+      "Orange"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0061.webp"
+  },
+  {
+    "id": "265047",
+    "name": "Candlelit Revelry: Pumpkin Candy",
+    "rank": "Orange",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0061",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Blue",
+      "Orange"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0061.webp"
+  },
+  {
+    "id": "265194",
+    "name": "Cerulean Tidestrike",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0098",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Yellow",
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0098.webp"
+  },
+  {
+    "id": "265195",
+    "name": "Cerulean Tidestrike",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0098",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Yellow",
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0098.webp"
+  },
+  {
+    "id": "265060",
+    "name": "Cheerful Playmate",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0114",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Yellow"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0114.webp"
+  },
+  {
+    "id": "265061",
+    "name": "Cheerful Playmate",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0114",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Yellow"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0114.webp"
+  },
+  {
+    "id": "265382",
+    "name": "Cherry Blossom Driftwind",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0124",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Red",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0124.webp"
+  },
+  {
+    "id": "265383",
+    "name": "Cherry Blossom Driftwind",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0124",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Blue",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0124.webp"
+  },
+  {
+    "id": "265034",
+    "name": "Chromatic Artisan",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0062",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Multi"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0062.webp"
+  },
+  {
+    "id": "265035",
+    "name": "Chromatic Artisan",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0062",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Multi"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0062.webp"
+  },
+  {
+    "id": "265358",
+    "name": "Chromatic Fatebound Sea",
+    "rank": "Orange",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0017",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Red",
+      "Yellow",
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0017.webp"
+  },
+  {
+    "id": "265359",
+    "name": "Chromatic Fatebound Sea",
+    "rank": "Orange",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0017",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Red",
+      "Yellow",
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0017.webp"
+  },
+  {
+    "id": "265360",
+    "name": "Chromatic Fatebound Sea: Twilight",
+    "rank": "Orange",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0018",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Purple"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0018.webp"
+  },
+  {
+    "id": "265361",
+    "name": "Chromatic Fatebound Sea: Twilight",
+    "rank": "Orange",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0018",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Purple"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0018.webp"
+  },
+  {
+    "id": "265250",
+    "name": "Chromatic Mist",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0112",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Multi"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0112.webp"
+  },
+  {
+    "id": "265251",
+    "name": "Chromatic Mist",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0112",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Multi"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0112.webp"
+  },
+  {
+    "id": "265239",
+    "name": "Cloud Edge's Glory",
+    "rank": "Orange",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0100",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Blue",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0100.webp"
+  },
+  {
+    "id": "265240",
+    "name": "Cloud Edge's Glory",
+    "rank": "Orange",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0100",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Blue",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0100.webp"
+  },
+  {
+    "id": "265241",
+    "name": "Cloud Edge's Glory: Blazing Radiance",
+    "rank": "Orange",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0101",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Red",
+      "Yellow"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0101.webp"
+  },
+  {
+    "id": "265242",
+    "name": "Cloud Edge's Glory: Blazing Radiance",
+    "rank": "Orange",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0101",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Red",
+      "Yellow"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0101.webp"
+  },
+  {
+    "id": "265225",
+    "name": "Comedy Performance",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0103",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Red",
+      "Blue",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0103.webp"
+  },
+  {
+    "id": "265226",
+    "name": "Comedy Performance",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0103",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Red",
+      "White",
+      "Black"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0103.webp"
+  },
+  {
+    "id": "265099",
+    "name": "Courage Unbroken",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0089",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Brown"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0089.webp"
+  },
+  {
+    "id": "265100",
+    "name": "Courage Unbroken",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0089",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Brown"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0089.webp"
+  },
+  {
+    "id": "265024",
+    "name": "Dawn's Visionary",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0025",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0025.webp"
+  },
+  {
+    "id": "265025",
+    "name": "Dawn's Visionary",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0025",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0025.webp"
+  },
+  {
+    "id": "265135",
+    "name": "Divine Providence",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0070",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Red",
+      "Black",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0070.webp"
+  },
+  {
+    "id": "265136",
+    "name": "Divine Providence",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0070",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Red",
+      "Black"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0070.webp"
+  },
+  {
+    "id": "265344",
+    "name": "Dreamy Summer Leisure",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0143",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Purple",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0143.webp"
+  },
+  {
+    "id": "265345",
+    "name": "Dreamy Summer Leisure",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0143",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Purple",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0143.webp"
+  },
+  {
+    "id": "265237",
+    "name": "Drip-Drop Ribbit",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0104",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Green"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0104.webp"
+  },
+  {
+    "id": "265238",
+    "name": "Drip-Drop Ribbit",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0104",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Green"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0104.webp"
+  },
+  {
+    "id": "265340",
+    "name": "Dusksea Sojourner",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0146",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Red",
+      "Gray"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0146.webp"
+  },
+  {
+    "id": "265341",
+    "name": "Dusksea Sojourner",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0146",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Red",
+      "Gray"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0146.webp"
+  },
+  {
+    "id": "265048",
+    "name": "Evening Seabreeze",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0119",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Gray"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0119.webp"
+  },
+  {
+    "id": "265049",
+    "name": "Evening Seabreeze",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0119",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Gray"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0119.webp"
+  },
+  {
+    "id": "265032",
+    "name": "Fairyland Prom",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0034",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0034.webp"
+  },
+  {
+    "id": "265033",
+    "name": "Fairyland Prom",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0034",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Red",
+      "Brown"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0034.webp"
+  },
+  {
+    "id": "265028",
+    "name": "Fervent Fighter",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0030",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Yellow",
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0030.webp"
+  },
+  {
+    "id": "265029",
+    "name": "Fervent Fighter",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0030",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Yellow",
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0030.webp"
+  },
+  {
+    "id": "265007",
+    "name": "Fleeting Shadow",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0021",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Gray"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0021.webp"
+  },
+  {
+    "id": "265008",
+    "name": "Fleeting Shadow",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0021",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Gray"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0021.webp"
+  },
+  {
+    "id": "265101",
+    "name": "Fluffy Snowball",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0088",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Red",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0088.webp"
+  },
+  {
+    "id": "265102",
+    "name": "Fluffy Snowball",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0088",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Red",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0088.webp"
+  },
+  {
+    "id": "265078",
+    "name": "Fluffy Tanuki: Indigo Blue",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0035",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Brown",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0035.webp"
+  },
+  {
+    "id": "265009",
+    "name": "Fluffy Tanuki: Yellow-Green",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0035",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Brown",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0035.webp"
+  },
+  {
+    "id": "265125",
+    "name": "Free Silver Star",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0075",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0075.webp"
+  },
+  {
+    "id": "265126",
+    "name": "Free Silver Star",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0075",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0075.webp"
+  },
+  {
+    "id": "265119",
+    "name": "Frosty Plume",
+    "rank": "Orange",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0080",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Blue",
+      "Gray"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0080.webp"
+  },
+  {
+    "id": "265120",
+    "name": "Frosty Plume",
+    "rank": "Orange",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0080",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Blue",
+      "Gray"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0080.webp"
+  },
+  {
+    "id": "265121",
+    "name": "Frosty Plume: Shadowed Verse",
+    "rank": "Orange",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0081",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Purple"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0081.webp"
+  },
+  {
+    "id": "265122",
+    "name": "Frosty Plume: Shadowed Verse",
+    "rank": "Orange",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0081",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Purple"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0081.webp"
+  },
+  {
+    "id": "265054",
+    "name": "Frosty Roar",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0117",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0117.webp"
+  },
+  {
+    "id": "265229",
+    "name": "Galaxy Wanderer",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0102",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Blue",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0102.webp"
+  },
+  {
+    "id": "265230",
+    "name": "Galaxy Wanderer",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0102",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Blue",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0102.webp"
+  },
+  {
+    "id": "265005",
+    "name": "Gentle Currents",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0020",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0020.webp"
+  },
+  {
+    "id": "265006",
+    "name": "Gentle Currents",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0020",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0020.webp"
+  },
+  {
+    "id": "265312",
+    "name": "Gilded Skies",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0136",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Blue",
+      "Orange"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0136.webp"
+  },
+  {
+    "id": "265313",
+    "name": "Gilded Skies",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0136",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Blue",
+      "Orange"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0136.webp"
+  },
+  {
+    "id": "265003",
+    "name": "Golden Fruit",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0019",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Yellow"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0019.webp"
+  },
+  {
+    "id": "265004",
+    "name": "Golden Fruit",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0019",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Yellow"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0019.webp"
+  },
+  {
+    "id": "265196",
+    "name": "Grace in Motion",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0097",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Purple"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0097.webp"
+  },
+  {
+    "id": "265197",
+    "name": "Grace in Motion",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0097",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Purple"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0097.webp"
+  },
+  {
+    "id": "265139",
+    "name": "Grand Slam Passion",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0071",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Red",
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0071.webp"
+  },
+  {
+    "id": "265140",
+    "name": "Grand Slam Passion",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0071",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Red",
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0071.webp"
+  },
+  {
+    "id": "265109",
+    "name": "Healing Heart",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0092",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Blue",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0092.webp"
+  },
+  {
+    "id": "265110",
+    "name": "Healing Heart",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0092",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Blue",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0092.webp"
+  },
+  {
+    "id": "265352",
+    "name": "Ink-Tinged Sprout",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0144",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Green",
+      "Brown"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0144.webp"
+  },
+  {
+    "id": "265353",
+    "name": "Ink-Tinged Sprout",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0144",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Green",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0144.webp"
+  },
+  {
+    "id": "265437",
+    "name": "Invigorating Chill",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0191",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0191.webp"
+  },
+  {
+    "id": "265438",
+    "name": "Invigorating Chill",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0191",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0191.webp"
+  },
+  {
+    "id": "265133",
+    "name": "Lazurite Sword",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0029",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0029.webp"
+  },
+  {
+    "id": "265134",
+    "name": "Lazurite Sword",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0029",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0029.webp"
+  },
+  {
+    "id": "265310",
+    "name": "Leisurely Holiday",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0137",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "White",
+      "Green"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0137.webp"
+  },
+  {
+    "id": "265311",
+    "name": "Leisurely Holiday",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0137",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "White",
+      "Green"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0137.webp"
+  },
+  {
+    "id": "265052",
+    "name": "Leisurely Wisteria",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0120",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Purple",
+      "Black"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0120.webp"
+  },
+  {
+    "id": "265053",
+    "name": "Leisurely Wisteria",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0120",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Purple",
+      "Black"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0120.webp"
+  },
+  {
+    "id": "265326",
+    "name": "Letter's Afterglow",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0131",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Brown",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0131.webp"
+  },
+  {
+    "id": "265327",
+    "name": "Letter's Afterglow",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0131",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Red",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0131.webp"
+  },
+  {
+    "id": "265342",
+    "name": "Loafing Shark",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0054",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0054.webp"
+  },
+  {
+    "id": "265343",
+    "name": "Loafing Shark",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0054",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0054.webp"
+  },
+  {
+    "id": "265182",
+    "name": "Loyal Companion",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0023",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Orange",
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0023.webp"
+  },
+  {
+    "id": "265183",
+    "name": "Loyal Companion",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0023",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Blue",
+      "Black"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0023.webp"
+  },
+  {
+    "id": "265189",
+    "name": "Lucky Gallop",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0099",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Brown"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0099.webp"
+  },
+  {
+    "id": "265043",
+    "name": "Maverick Meowster: Glacial",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0055",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0055.webp"
+  },
+  {
+    "id": "265042",
+    "name": "Maverick Meowster: Magenta",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0055",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Purple"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0055.webp"
+  },
+  {
+    "id": "265328",
+    "name": "Melody of Petals",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0133",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Purple",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0133.webp"
+  },
+  {
+    "id": "265329",
+    "name": "Melody of Petals",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0133",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Purple",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0133.webp"
+  },
+  {
+    "id": "265374",
+    "name": "Morning's Ascent",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0160",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Blue",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0160.webp"
+  },
+  {
+    "id": "265375",
+    "name": "Morning's Ascent",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0160",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Blue",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0160.webp"
+  },
+  {
+    "id": "265201",
+    "name": "Morning's Dawn and Dew",
+    "rank": "Orange",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0094",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Red",
+      "Yellow",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0094.webp"
+  },
+  {
+    "id": "265202",
+    "name": "Morning's Dawn and Dew",
+    "rank": "Orange",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0094",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Red",
+      "Yellow",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0094.webp"
+  },
+  {
+    "id": "265203",
+    "name": "Morning's Dawn and Dew: Inked Eclipse",
+    "rank": "Orange",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0095",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Red",
+      "Blue",
+      "Black"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0095.webp"
+  },
+  {
+    "id": "265204",
+    "name": "Morning's Dawn and Dew: Inked Eclipse",
+    "rank": "Orange",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0095",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Red",
+      "Blue",
+      "Black"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0095.webp"
+  },
+  {
+    "id": "265040",
+    "name": "Mystic Forest",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0051",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Green"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0051.webp"
+  },
+  {
+    "id": "265041",
+    "name": "Mystic Forest",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0051",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Green"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0051.webp"
+  },
+  {
+    "id": "265127",
+    "name": "Nightveil Peach",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0076",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Multi"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0076.webp"
+  },
+  {
+    "id": "265128",
+    "name": "Nightveil Peach",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0076",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Multi"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0076.webp"
+  },
+  {
+    "id": "265131",
+    "name": "Noble Grace",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0072",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Blue",
+      "Black",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0072.webp"
+  },
+  {
+    "id": "265132",
+    "name": "Noble Grace",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0072",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Blue",
+      "Black",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0072.webp"
+  },
+  {
+    "id": "265016",
+    "name": "Offbeat District",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0006",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Black"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0006.webp"
+  },
+  {
+    "id": "265017",
+    "name": "Offbeat District",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0006",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Purple",
+      "Black"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0006.webp"
+  },
+  {
+    "id": "265038",
+    "name": "Orange Passion",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0047",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Orange"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0047.webp"
+  },
+  {
+    "id": "265039",
+    "name": "Orange Passion",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0047",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Orange"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0047.webp"
+  },
+  {
+    "id": "265233",
+    "name": "Owl Envoy",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0105",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Brown"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0105.webp"
+  },
+  {
+    "id": "265234",
+    "name": "Owl Envoy",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0105",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Brown"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0105.webp"
+  },
+  {
+    "id": "265022",
+    "name": "Painted Skies",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0024",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "White",
+      "Red"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0024.webp"
+  },
+  {
+    "id": "265023",
+    "name": "Painted Skies",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0024",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Yellow",
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0024.webp"
+  },
+  {
+    "id": "265001",
+    "name": "Parade",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0060",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Orange"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0060.webp"
+  },
+  {
+    "id": "265002",
+    "name": "Parade",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0060",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Orange"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0060.webp"
+  },
+  {
+    "id": "265141",
+    "name": "Peaceful Warm Night",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0068",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0068.webp"
+  },
+  {
+    "id": "265142",
+    "name": "Peaceful Warm Night",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0068",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0068.webp"
+  },
+  {
+    "id": "265014",
+    "name": "Phantom Night",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0058",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Purple"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0058.webp"
+  },
+  {
+    "id": "265015",
+    "name": "Phantom Night",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0058",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Purple"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0058.webp"
+  },
+  {
+    "id": "265322",
+    "name": "Phantom Prowl",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0130",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Red",
+      "Black"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0130.webp"
+  },
+  {
+    "id": "265323",
+    "name": "Phantom Prowl",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0130",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Red",
+      "Black"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0130.webp"
+  },
+  {
+    "id": "265103",
+    "name": "Prelude to Spring",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0086",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Red",
+      "Brown"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0086.webp"
+  },
+  {
+    "id": "265104",
+    "name": "Prelude to Spring",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0086",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Red",
+      "Brown"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0086.webp"
+  },
+  {
+    "id": "265320",
+    "name": "Propitious Breeze",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0129",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Green",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0129.webp"
+  },
+  {
+    "id": "265321",
+    "name": "Propitious Breeze",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0129",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Green",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0129.webp"
+  },
+  {
+    "id": "265113",
+    "name": "Radiant Melody",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0085",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Red",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0085.webp"
+  },
+  {
+    "id": "265114",
+    "name": "Radiant Melody",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0085",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Red",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0085.webp"
+  },
+  {
+    "id": "265050",
+    "name": "Resolute Spirit",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0118",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Green"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0118.webp"
+  },
+  {
+    "id": "265051",
+    "name": "Resolute Spirit",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0118",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Green"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0118.webp"
+  },
+  {
+    "id": "265030",
+    "name": "Rose's Lament",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0033",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Red",
+      "Gray"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0033.webp"
+  },
+  {
+    "id": "265031",
+    "name": "Rose's Lament",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0033",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Red",
+      "Gray"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0033.webp"
+  },
+  {
+    "id": "265348",
+    "name": "Salted Lemon Fizz",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0016",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Yellow",
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0016.webp"
+  },
+  {
+    "id": "265349",
+    "name": "Salted Lemon Fizz",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0016",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Yellow",
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0016.webp"
+  },
+  {
+    "id": "265356",
+    "name": "Savannah Dappled Flash",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0140",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Yellow",
+      "Brown",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0140.webp"
+  },
+  {
+    "id": "265357",
+    "name": "Savannah Dappled Flash",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0140",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Yellow",
+      "Brown",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0140.webp"
+  },
+  {
+    "id": "265145",
+    "name": "Scaleblade Chronicles",
+    "rank": "Orange",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0056",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Red",
+      "Black"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0056.webp"
+  },
+  {
+    "id": "265146",
+    "name": "Scaleblade Chronicles",
+    "rank": "Orange",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0056",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Red",
+      "Black"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0056.webp"
+  },
+  {
+    "id": "265147",
+    "name": "Scaleblade Chronicles: Dark Flame",
+    "rank": "Orange",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0057",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Purple"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0057.webp"
+  },
+  {
+    "id": "265148",
+    "name": "Scaleblade Chronicles: Dark Flame",
+    "rank": "Orange",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0066",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Purple"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0066.webp"
+  },
+  {
+    "id": "265192",
+    "name": "Scarlet Cloudfall",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0096",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Red"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0096.webp"
+  },
+  {
+    "id": "265193",
+    "name": "Scarlet Cloudfall",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0096",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Red"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0096.webp"
+  },
+  {
+    "id": "265026",
+    "name": "Scarlet Shade",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0027",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Red",
+      "Black"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0027.webp"
+  },
+  {
+    "id": "265027",
+    "name": "Scarlet Shade",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0027",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Red",
+      "Black"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0027.webp"
+  },
+  {
+    "id": "265055",
+    "name": "Scorching Roar",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0117",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Red"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0117.webp"
+  },
+  {
+    "id": "265097",
+    "name": "Serene Sky",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0022",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Red"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0022.webp"
+  },
+  {
+    "id": "265098",
+    "name": "Serene Sky",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0022",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Brown"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0022.webp"
+  },
+  {
+    "id": "265350",
+    "name": "Sharp-Fanged Overlord",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0142",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Multi"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0142.webp"
+  },
+  {
+    "id": "265351",
+    "name": "Sharp-Fanged Overlord",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0142",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Multi"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0142.webp"
+  },
+  {
+    "id": "265058",
+    "name": "Sleek Sprint",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0115",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Multi"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0115.webp"
+  },
+  {
+    "id": "265059",
+    "name": "Sleek Sprint",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0115",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Multi"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0115.webp"
+  },
+  {
+    "id": "265020",
+    "name": "Sonic Ruins",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0014",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Purple",
+      "Black"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0014.webp"
+  },
+  {
+    "id": "265021",
+    "name": "Sonic Ruins",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0014",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Purple",
+      "Black"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0014.webp"
+  },
+  {
+    "id": "265221",
+    "name": "Sophisticated Elegance",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0109",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Red",
+      "Black"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0109.webp"
+  },
+  {
+    "id": "265222",
+    "name": "Sophisticated Elegance",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0109",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Red",
+      "Black"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0109.webp"
+  },
+  {
+    "id": "265415",
+    "name": "Spiritvessel Tzitzimitl",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0190",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Blue",
+      "Purple",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0190.webp"
+  },
+  {
+    "id": "265416",
+    "name": "Spiritvessel Tzitzimitl",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0190",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Blue",
+      "Purple",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0190.webp"
+  },
+  {
+    "id": "265324",
+    "name": "Splatter Artist",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0132",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Yellow",
+      "Green",
+      "Orange"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0132.webp"
+  },
+  {
+    "id": "265325",
+    "name": "Splatter Artist",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0132",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Yellow",
+      "Green",
+      "Orange"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0132.webp"
+  },
+  {
+    "id": "265036",
+    "name": "Steamwave Chronicles",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0046",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Brown"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0046.webp"
+  },
+  {
+    "id": "265037",
+    "name": "Steamwave Chronicles",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0046",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Brown"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0046.webp"
+  },
+  {
+    "id": "265010",
+    "name": "Street Grooves",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0048",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0048.webp"
+  },
+  {
+    "id": "265011",
+    "name": "Street Grooves",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0048",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0048.webp"
+  },
+  {
+    "id": "265380",
+    "name": "Sun-Veiled Stealth",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0156",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Black",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0156.webp"
+  },
+  {
+    "id": "265381",
+    "name": "Sun-Veiled Stealth",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0156",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Black",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0156.webp"
+  },
+  {
+    "id": "265123",
+    "name": "Sunlit Fieldscape",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0077",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Green"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0077.webp"
+  },
+  {
+    "id": "265124",
+    "name": "Sunlit Fieldscape",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0077",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Green"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0077.webp"
+  },
+  {
+    "id": "265117",
+    "name": "Sunwarmed Malt",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0050",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Brown"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0050.webp"
+  },
+  {
+    "id": "265118",
+    "name": "Sunwarmed Malt",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0050",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Brown"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0050.webp"
+  },
+  {
+    "id": "265217",
+    "name": "Sweet Purple Melon",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0108",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Purple"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0108.webp"
+  },
+  {
+    "id": "265218",
+    "name": "Sweet Purple Melon",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0108",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Purple"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0108.webp"
+  },
+  {
+    "id": "265419",
+    "name": "Sweet Recipe",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0174",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Orange",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0174.webp"
+  },
+  {
+    "id": "265420",
+    "name": "Sweet Recipe",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0174",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Orange",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0174.webp"
+  },
+  {
+    "id": "265235",
+    "name": "Tart Berry Muse",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0106",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Red",
+      "Green"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0106.webp"
+  },
+  {
+    "id": "265236",
+    "name": "Tart Berry Muse",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0106",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Red",
+      "Green"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0106.webp"
+  },
+  {
+    "id": "265056",
+    "name": "Timeless Echo",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0116",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Blue",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0116.webp"
+  },
+  {
+    "id": "265057",
+    "name": "Timeless Echo",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0116",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Blue",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0116.webp"
+  },
+  {
+    "id": "265223",
+    "name": "Triumphal Golden Apple",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0107",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Blue",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0107.webp"
+  },
+  {
+    "id": "265224",
+    "name": "Triumphal Golden Apple",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0107",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Blue",
+      "Gray"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0107.webp"
+  },
+  {
+    "id": "265315",
+    "name": "Verdant Chase",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0175",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Orange",
+      "Black",
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0175.webp"
+  },
+  {
+    "id": "265336",
+    "name": "Verdant Chase",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0175",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Orange",
+      "Black",
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0175.webp"
+  },
+  {
+    "id": "265338",
+    "name": "Wasteland Strider",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0147",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Blue",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0147.webp"
+  },
+  {
+    "id": "265339",
+    "name": "Wasteland Strider",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0147",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Blue",
+      "White"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0147.webp"
+  },
+  {
+    "id": "265012",
+    "name": "Weather Waddler",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0049",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Yellow"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0049.webp"
+  },
+  {
+    "id": "265013",
+    "name": "Weather Waddler",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0049",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Yellow"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0049.webp"
+  },
+  {
+    "id": "265105",
+    "name": "White Flash",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0082",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0082.webp"
+  },
+  {
+    "id": "265106",
+    "name": "White Flash",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0082",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0082.webp"
+  },
+  {
+    "id": "265260",
+    "name": "Wicked Warlock",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0111",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0111.webp"
+  },
+  {
+    "id": "265261",
+    "name": "Wicked Warlock",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0111",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Red"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0111.webp"
+  },
+  {
+    "id": "265111",
+    "name": "Wildpeak Echoes",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0084",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Brown"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0084.webp"
+  },
+  {
+    "id": "265112",
+    "name": "Wildpeak Echoes",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0084",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Brown",
+      "Blue"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0084.webp"
+  },
+  {
+    "id": "265171",
+    "name": "Winter's Warmth",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0093",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Red",
+      "Green"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0093.webp"
+  },
+  {
+    "id": "265172",
+    "name": "Winter's Warmth",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0093",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Red",
+      "Green"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0093.webp"
+  },
+  {
+    "id": "265188",
+    "name": "Witty Gallop",
+    "rank": "Blue",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0099",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Brown"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0099.webp"
+  }
+]

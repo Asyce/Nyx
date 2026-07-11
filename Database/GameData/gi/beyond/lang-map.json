@@ -1,0 +1,41 @@
+{
+  "slot": {
+    "none": "Voice-Overs",
+    "upper_cloth": "Top",
+    "lower_cloth": "Bottom",
+    "shoes": "Footwear",
+    "headwear": "Headwear",
+    "bracelet": "Wrist Accessory",
+    "leglet": "Leg Accessory",
+    "earrings": "Earrings",
+    "eyewear": "Eye Accessory",
+    "mask": "Face Accessory",
+    "necklace": "Neck Accessory",
+    "backpiece": "Back Accessory",
+    "waist_acc1": "Pendant 1",
+    "waist_acc2": "Pendant 2",
+    "tail": "Tail Accessory",
+    "hairstyle": "Hairstyle",
+    "eyebrows": "Eyebrows",
+    "eye_socket": "Eye Shape",
+    "pupil": "Iris",
+    "eye_shadow": "Eye Makeup",
+    "lipstick": "Lipstick",
+    "facial_makeup": "Facial Makeup",
+    "skin_tone": "Skin Tone",
+    "all": "All"
+  },
+  "color": {
+    "red": "Red",
+    "orange": "Orange",
+    "yellow": "Yellow",
+    "green": "Green",
+    "blue": "Blue",
+    "purple": "Purple",
+    "brown": "Brown",
+    "black": "Black",
+    "white": "White",
+    "gray": "Gray",
+    "multi": "Multi-Colored"
+  }
+}

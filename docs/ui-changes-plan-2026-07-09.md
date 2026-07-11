@@ -1,9 +1,9 @@
 # UI Changes Plan — 2026-07-09 (from "UI Changes Proposal.docx")
 
-Status: **FINAL** (2026-07-10) — all decisions resolved, three full review passes
-complete, timeline mock approved. Queue tasks nyx-0016…0031 are `ready`.
-Implementation may begin with Batch 1; per-batch gate at the end of the
-Sequencing section applies. No production deploys without an explicit user ask.
+Status: **FINAL** (2026-07-10, review follow-up applied) — decisions resolved,
+timeline mock approved. Only queue task nyx-0016 is `ready`; nyx-0017…0031 stay
+`planned` and are promoted one at a time after the preceding batch passes its
+gate. No production deploys without an explicit user ask.
 Source: user proposal doc (12 items, workstreams A–G) + scope additions H–P from
 follow-up sessions 2026-07-09/10. All items grounded against HEAD (branch `main`).
 Reviewed: self-review of A–K 2026-07-09; full-plan review of A–P 2026-07-10
@@ -17,6 +17,28 @@ tabs live in `Site/src/app/nyx-app.jsx`. Generated data comes from
 `Site/tools/generate-site-data.mjs` (regen required for data-side changes).
 So "apply across all games" (item 4) is mostly free: fix the shared component once,
 then verify per game (gi, hsr, zzz, wuwa, ae).
+
+### Shared runtime-data delivery (review follow-up 2026-07-10)
+
+Lazy JSON cannot be fetched from `Database/` in production today:
+`Site/tools/build-deploy.mjs` only discovers referenced image/font assets. Add a
+single allowlisted publisher, `Site/tools/publish-runtime-data.mjs`, called by
+`build-deploy.mjs`, which copies only these datasets into the deploy artifact:
+
+- `Database/BannerHistory/*.json` → `/data/banner-history/*.json`
+- `Database/Activities/*.json` → `/data/activities/*.json`
+- `Database/Library/**/{index,*.json}` → `/data/library/**`
+- `Database/Events/*.json` → `/data/events/*.json`
+
+The publisher also writes `/data/runtime-manifest.json` with each file's relative
+URL, byte size, SHA-256, and data timestamp. It rejects path traversal, unexpected
+extensions, missing required indexes, invalid JSON, and any single file above the
+agreed size ceiling. `smoke:deploy` must parse the manifest and every listed JSON
+file from `.deploy/pengo`; browser live-checks must fetch one history file, one
+activity file, and one per-book file through their final `/data/...` URLs. Activity
+files become required when Batch 13 lands. This publisher lands with the first
+lazy-data consumer (Batch 12) and is reused, not reimplemented, by Batches 13 and
+15.
 
 ## Workstream A — Materials layout polish (items 1, 2, 3, 4)
 
@@ -270,8 +292,20 @@ checklist is part of the gate (all 5 game pages, mats/mid/boss tabs, live + beta
   (volume selector for multi-volume books, clean typography). Other games don't get
   the section. Distinct route key (`books`) to avoid the old `library` hash.
 - Automation: add to the scheduled side-data sync.
-- No user-facing attribution (user decision 2026-07-09 — content is in-game text).
-  Source URLs stay inside the scraper data for maintenance purposes only.
+- No user-facing attribution (user decision 2026-07-09, reaffirmed 2026-07-10).
+  The user has directed the implementation to treat these as copied in-game
+  texts/assets rather than Fandom-authored material; the earlier license review
+  concern is explicitly out of scope. Source URLs stay inside scraper records for
+  maintenance only.
+- Runtime delivery uses the shared `/data/library/...` publisher above; no direct
+  browser fetches from `Database/`.
+- Security boundary: never render fetched wiki HTML directly. Convert source
+  wikitext/HTML into a small structured document model during scraping. Allow only
+  headings, paragraphs, line breaks, emphasis, lists, tables needed by the readable,
+  and local image references. Strip scripts, styles, iframes/embeds, forms, inline
+  event attributes, remote media, tracking parameters, and `javascript:`/unsafe
+  `data:` URLs. Reject a book whose sanitized output still contains a disallowed
+  element/attribute. Tests include hostile fixture markup and prove it is removed.
 
 ## Workstream L — Favourites & Characters tab (items 14–16, added 2026-07-10)
 
@@ -323,28 +357,93 @@ checklist is part of the gate (all 5 game pages, mats/mid/boss tabs, live + beta
 Replaces the current banner display on each game page. This is the reason
 favourites move out of the Overview (L1): the timeline takes that space.
 
-### Data
+### Data — complete automated banner record pipeline
 
-- **Now/next/upcoming:** already scraped 6-hourly — `Database/Banners/banners.json`
-  has `current` / `next` / `upcoming` per game with featured characters + icons and
-  end timestamps (source: game8), plus freshness state the UI already understands
-  (nyx-app.jsx:466–488).
-- **History:** `Database/BannerHistory/gi.json` — 102 entries back to GI 1.0 with
-  `{type, version, name, start, end, featured5[], featured4[]}` (Scraper/banner-history/gi.mjs).
-  HSR/ZZZ/WuWa have NO history yet → new history scrapers per game
-  (`Scraper/banner-history/{hsr,zzz,wuwa}.mjs`, wiki/game8 sources), normalized to
-  the same schema. "As far back as we can provide" = GI complete on day one; other
-  games fill in as their scrapers land (timeline renders whatever exists).
-- Data honesty rule (user decision 2026-07-10): only real scraped information goes
-  in — if a field (date, featured list, version) isn't in the source, it stays
-  blank/absent and the UI omits it. NO filler, NO inferred values presented as
-  fact (the only inference allowed is "Expected" positioning, which is visibly
-  marked as a guess).
-- Featured slugs resolve to roster icons/names via existing roster data.
-- Payload: history stays OUT of the main bundle — lazy-load per game when the user
-  first scrolls into the past or searches (same on-demand pattern as beta packs).
-- Automation: history refresh joins the scheduled data workflows (weekly is enough;
-  the 6-hourly current-banner scrape already exists).
+Batch 13 lands the data pipeline before any timeline UI. "All banner records"
+means every released limited, rerun, special, collaboration, anniversary,
+chronicled, character/operator and weapon/light-cone/W-Engine/Arsenal banner for
+all five games. Permanent/novice banners are ingested too with `permanent:true`,
+but hidden from the time-axis by default because they have no finite span.
+
+**Maintained full-history sources (machine-scraped through MediaWiki APIs):**
+
+- GI: `genshin-impact.fandom.com/wiki/Wish/List` plus each linked wish page.
+  Covers Character Event, Weapon Event, Chronicled and Lightrace wishes with
+  version/date grouping. The existing Paimon.moe `banners.js` remains a diff
+  source during migration, not the sole canonical source.
+- HSR: `honkai-star-rail.fandom.com/wiki/Warp/List` plus linked warp pages.
+  Covers Character Event, Light Cone Event and collaboration warps.
+- ZZZ: `zenless-zone-zero.fandom.com/wiki/Exclusive_Channel/History` and
+  `W-Engine_Channel/History`, plus linked run pages for exact featured S/A lists
+  and server dates.
+- WuWa: `wutheringwaves.fandom.com/wiki/Convene/List`, plus linked convene pages.
+  Covers featured/anniversary/collaboration Resonator and Weapon Convenes.
+- Endfield: `endfield.wiki.gg/wiki/Headhunting/Banners` for Operators and
+  `endfield.wiki.gg/wiki/Arsenal_Exchange/Issues` plus yearly issue pages for
+  Weapons. The game launched in 2026, so the 2026 pages are the complete initial
+  backfill; yearly discovery must automatically include future pages.
+
+Use `api.php?action=parse&prop=wikitext|revid&format=json` rather than scraping
+rendered page layout where the host supports MediaWiki. Follow linked run pages
+only when the list page lacks featured entries or regional timestamps. Keep raw
+response snapshots under the scraper's ignored temp/cache directory for parser
+tests; do not commit unlimited raw history.
+
+**Latest-truth sources:** official announcement/news sources already verified in
+Workstream N override wiki rows for current/upcoming records: HoYo `sg-` announcement
+JSON for GI/HSR/ZZZ, Kuro's official `ArticleMenu.json` plus notices for WuWa, and
+Endfield's official embedded news payload. Batch 13 implements the banner-only
+deterministic extractors for these sources immediately; Batch 15 later reuses the
+same fetch/parse helpers for the wider events pipeline. `Database/Banners/banners.json`
+and Game8 remain display continuity/diff inputs, not authority for missing start
+times or weapon pairings.
+
+**Canonical schema:** one record per actual banner run:
+`{id, game, bannerType, category, name, version, phase, windowsByRegion,
+permanent, featured:[{entityType,name,rarity,primary}], pairedBannerIds[],
+source:{url,kind,revision}, fetchedAt, confirmed}`. `windowsByRegion` is
+`{global?|asia?|europe?|america?:{start,end,timezone,sourceUrl}}`; use `global`
+only when every server truly shares the same instant. `bannerType` is
+`character|weapon|mixed`; `featured` is generic so Endfield's 6★/5★ ranks are not
+forced into GI's old `featured5/featured4` shape. Pair character and weapon records
+only when the source groups them or their confirmed timestamps match exactly in the
+same region; never infer a signature pairing from character ownership. The timeline
+uses the user's existing server-region setting, then `global`. If neither exists,
+show date-only/"time unavailable" rather than silently borrowing another region.
+Tests cover different Asia/Europe/America boundaries and region-specific pairing.
+
+The scraper writes `Database/BannerHistory/{gi,hsr,zzz,wuwa,ae}.json` and a summary
+manifest. It performs a full initial backfill and then an incremental merge. A
+source outage, parse error, empty result, unexpected count drop, duplicate ID, end
+before start, or removal of a previously confirmed record fails validation and
+preserves last-known-good data; removals become `needs_review`, never automatic
+deletes. Fixtures cover at least one character and weapon record per source.
+Keep generating `Site/src/features/gacha/pulls-banners-gi.js` as a compatibility
+view derived from normalized GI character records so the pull tracker's exact
+50/50 logic does not regress; add a test that compares its banner count/date range
+to the canonical GI output.
+
+**Automation:** add `npm run banners:history` to `Scraper/package.json` and a
+dedicated `.github/workflows/banner-history-refresh.yml` scheduled at
+`45 */6 * * *` UTC (30 minutes after the existing fast refresh). Do NOT put this
+inside `data-refresh.yml`: a wiki/API format change must never block redemption
+codes or current-banner updates. The new workflow uses the shared `pengo-deploy`
+concurrency group so deploys remain serialized, plus conditional requests/revision
+IDs and bounded retry/backoff. Remove the old GI-only history step from
+`side-data-sync.yml` to avoid duplicate writers.
+
+The dedicated workflow runs banner-history unit tests and validation, commits all
+five normalized files only on a semantic change, builds, and smoke-checks published
+`/data/banner-history/*.json` plus `/data/activities/*.json`. On invalid/empty/
+shrinking input it keeps last-known-good files, emits a clear workflow error, and
+makes no commit or deploy; only this history workflow fails. The existing
+`data-refresh.yml` continues updating codes/current banners independently. The
+timeline lazy-loads deploy URLs, never `Database/` paths.
+
+Data honesty rule: only real scraped information goes in. Missing fields remain
+absent and the UI omits them. The only permitted inference is a visibly dashed
+`Expected` placement. Featured names resolve to local roster/weapon icons where
+available; unresolved names stay text-only and raise a validation warning.
 
 ### Function
 
@@ -421,24 +520,41 @@ favourites move out of the Overview (L1): the timeline takes that space.
   - optional end date for recurrences.
 - Renders in the Custom lane: points as pins, ranges as blocks, recurrences as
   repeating ghosts; each marker individually toggleable, edit/delete on click.
-- Storage: extend the existing custom-timer store
-  (`nyx:custom-reset-timers:<game>:v1`, nyx-app.jsx:912–929, already has
-  label/target/recur sanitizing) rather than inventing a second store — the
-  existing Timers card and the timeline read the same data.
+- Storage: move both the existing Timers card and timeline onto one shared helper
+  and a new `nyx:custom-reset-timers:<game>:v2` schema. On first read, migrate each
+  valid v1 timer to v2 (`type:'recurring'` when `recur` exists, otherwise
+  `type:'point'`; preserve target/recur/id/label; add default color and
+  `enabled:true`). Then validate, write v2, read it back, normalize it, and compare
+  it to the intended migrated value.
+  Only after that verification succeeds, automatically call
+  `localStorage.removeItem(v1Key)` — no user action or later cleanup task. If any
+  step fails, leave v1 untouched and continue using the in-memory migrated copy;
+  retry on the next load. Whenever a valid v2 store loads and the v1 key still
+  exists, retry the automatic v1 removal, so cleanup eventually completes without
+  user action. Migration is idempotent and tests cover success+deletion, failed
+  write/readback/removal with v1 preserved then retried, corrupt rows skipped,
+  ranges, recurrences, colors and enabled state.
 
 ### M3 — Game activities on the timeline (item 19)
 
-- Recurring in-game cycles rendered as spans in the Activities lane, computed from
-  cycle rules — the semi-monthly/monthly/weekly reset math already exists
-  (nyx-app.jsx:855–899, resetTimerRows: Abyss, Imaginarium, weekly, daily).
-- Per-game activity sets (initial): GI Spiral Abyss + Imaginarium Theater;
-  HSR Memory of Chaos + Pure Fiction + Apocalyptic Shadow; ZZZ Shiyu Defense +
-  Deadly Assault; WuWa Tower of Adversity cycles. Endfield: none initially (cycle
-  rules not yet established — add when known). Cadences encoded as rules (all
-  are fixed-period resets), each toggleable; dated event scraping can layer in
-  later without changing the timeline.
-- Activities render past + future occurrences generated on the fly from the rules —
-  no stored data needed for cycles.
+- Do not treat every activity as a generic monthly/semi-monthly reset. Add a
+  source-backed activity definition per game:
+  `{id,label,mode,anchorStart,intervalDays,durationDays,resetHour,timezoneMode,
+  exceptions[],sourceUrl,verifiedAt}` where `mode` is `fixed` or `dated`.
+- `fixed` is allowed only when an official rule gives a stable cadence. It requires
+  a confirmed anchor, interval, duration and server reset timezone. `dated` stores
+  explicit windows extracted from official notices/events and is used for rotating
+  or irregular schedules. Missing source/anchor/duration means no block is drawn.
+- Initial sets: GI Spiral Abyss + Imaginarium Theater; HSR Memory of Chaos + Pure
+  Fiction + Apocalyptic Shadow; ZZZ Shiyu Defense + Deadly Assault; WuWa Tower of
+  Adversity. Endfield remains absent until a sourced schedule exists.
+- Store definitions/overrides in `Database/Activities/<game>.json`; Batch 13 seeds
+  the confirmed initial definitions, while Workstream N's announcement scraper
+  appends dated exceptions/new windows. Never extrapolate through a known exception.
+- Unit tests cover the anchor occurrence, past and future expansion, month/year
+  boundaries, leap years, regional reset offsets, DST-insensitive server time,
+  exceptions and an invalid/missing-anchor rejection. Timeline acceptance requires
+  checking one displayed span per supported game against its saved source URL.
 
 ### M4 — Hub cross-game timelines (user decision 2026-07-10)
 
@@ -620,7 +736,7 @@ Phase 2 — app shell cluster (nyx-app.jsx):
 6. **Batch 6:** F1 + F2 (beta inspector — now client-side diff, no generator work).
 7. **Batch 7:** L (favourites move + Characters rename + modes + star/unfav flow;
    touches both files but centered here) — must land before the timeline (M).
-   Interim state note: between Batch 7 and Batch 13 the game Overview has no
+   Interim state note: between Batch 7 and Batch 14 the game Overview has no
    favourites; the existing banner cards stay there until the timeline replaces
    them — expected, not a regression.
 8. **Batch 8:** P (hub birthday calendar — uses Batch 4's facts data).
@@ -640,18 +756,23 @@ Phase 5 — new content page:
 
 12. **Batch 12:** K (The Library tab on GI/HSR — new scraper + reader).
 
-Phase 6 — timeline (biggest; mock approved before Batch 13 starts):
+Phase 6 — timeline (biggest; data before UI):
 
-13. **Batch 13:** M core (timeline: current/next/upcoming + GI history + search +
-    activities + custom markers).
-14. **Batch 14:** M history scrapers for HSR/ZZZ/WuWa (each deepens the past view
-    as it lands).
+13. **Batch 13:** M data foundation — complete character + weapon banner records
+    for GI/HSR/ZZZ/WuWa/Endfield, six-hour GitHub scraper, validation, lazy runtime
+    publishing, and sourced activity definitions. No timeline UI yet.
+14. **Batch 14:** M core UI — timeline over the complete normalized data: merged
+    paired-weapon cards, search, activities, custom markers, virtualization and
+    approved mock behavior.
 15. **Batch 15:** N (events pipeline → events lane).
 16. **Batch 16:** M4 (hub cross-game banner + events timelines) — last.
 
 Each batch: implement → build → live-check affected surfaces per game → gate per
 `docs/agent-index.md` (Scraper `npm test`, `npm run validate:strict`, Site
 `npm run build:deploy`, `npm run smoke:deploy`). No deploy without explicit ask.
+Only the next batch may be `ready`. After a batch is `done` and its gate evidence is
+recorded, promote exactly the following batch from `planned` to `ready`; do not skip
+ahead or claim multiple overlapping batches.
 
 ## User decisions (2026-07-09)
 
@@ -688,7 +809,7 @@ and The Library (K) so new code is born with the neutral paths.
 15. "Expected" timeline blocks get an "educated guess" hover tooltip.
 16. Endfield IS in the birthday calendar; HSR is not.
 17. Batches clustered by edited files (Phases 1–6); timeline mock must be
-    approved before Batch 13 (prompt: docs/timeline-mockup-prompt.md).
+    approved before the timeline UI in Batch 14 (prompt: docs/timeline-mockup-prompt.md).
 18. Batches queued as `.agents/queue.json` nyx-0016 … nyx-0031, state `planned`;
     flip to `ready` when this plan is marked FINAL.
 19. Timeline mock APPROVED (docs/mockups/banner-timeline-v4.html) with its
@@ -701,3 +822,25 @@ and The Library (K) so new code is born with the neutral paths.
     official article feed — no further endpoint hunting.
 23. Banner history (all games): real scraped info only; missing fields stay
     blank — no filler or invented values.
+24. Library/Fandom license objection is explicitly ignored per user direction;
+    no attribution line is added.
+25. Lazy Database JSON is published through one allowlisted `/data/...` deploy
+    pipeline with manifest + smoke verification.
+26. Banner data expands to all character/operator and weapon records for all five
+    games, scraped automatically every six hours through GitHub Actions.
+27. Banner records use official announcements as latest truth and maintained wiki
+    history pages for complete backfill; destructive source shrinkage is blocked.
+28. Queue execution is serial: nyx-0016 ready, nyx-0017…0031 planned, promote one
+    after each preceding batch passes.
+29. Activity spans require sourced anchors/durations or explicit dated windows;
+    generic reset math alone is not accepted.
+30. Activity JSON is published at `/data/activities/*.json` and covered by deploy
+    smoke tests.
+31. Banner history uses its own six-hour GitHub workflow so its failures never
+    block codes/current-banner refreshes.
+32. Banner times are stored per server region; the UI never substitutes a different
+    region's time silently.
+33. Library source content is converted through a strict safe-content allowlist;
+    fetched HTML is never rendered directly.
+34. Custom timers migrate v1→v2 automatically; v1 is deleted only after verified
+    v2 write+readback succeeds, and is retained on any failure.

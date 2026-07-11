@@ -1,5 +1,5 @@
 // Generate id-indexed weapon art/metadata for the pull tracker from the
-// local Nanoka mirror — no network. Output is a small browser global
+// local GameData mirror — no network. Output is a small browser global
 // (window.NYX_WEAPONS[game]) that the resolver reads alongside the
 // character roster (window.CM_CFG). Only weapons whose icon actually
 // exists on disk are emitted, so the UI never shows a broken image.
@@ -24,10 +24,10 @@ const GI_WEAPON_TYPES = {
 
 // Per-game source config. Extend with hsr/zzz/wuwa as their adapters land.
 const GAMES = {
-  gi:  { src: 'Nanoka/gi/live/weapons.json',     types: GI_WEAPON_TYPES },
-  hsr: { src: 'Nanoka/hsr/live/lightcones.json', types: {} }, // Light Cones
-  zzz: { src: 'Nanoka/zzz/live/w-engines.json',  types: {} }, // W-Engines
-  wuwa: { src: 'Nanoka/ww/live/weapons.json',    types: {} }, // Nyx key is 'wuwa'
+  gi:  { src: 'GameData/gi/live/weapons.json',     types: GI_WEAPON_TYPES },
+  hsr: { src: 'GameData/hsr/live/lightcones.json', types: {} }, // Light Cones
+  zzz: { src: 'GameData/zzz/live/w-engines.json',  types: {} }, // W-Engines
+  wuwa: { src: 'GameData/ww/live/weapons.json',    types: {} }, // Nyx key is 'wuwa'
 };
 
 // Asset field names vary per game/category (weapons, light cones,

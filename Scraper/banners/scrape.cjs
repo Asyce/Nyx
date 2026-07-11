@@ -197,7 +197,7 @@ function isLikelyCharName(text) {
 }
 
 // ---------------------------------------------------------------------------
-// Nanoka character-icon enrichment
+// GameData character-icon enrichment
 // ---------------------------------------------------------------------------
 //
 // Per-game pipeline:
@@ -209,9 +209,9 @@ function isLikelyCharName(text) {
 // URL builders were reverse-engineered from the SvelteKit chunks of each
 // nanoka.cc subdomain (see prior session notes).
 
-const NANOKA_MANIFEST = 'https://static.nanoka.cc/manifest.json';
+const GAMEDATA_MANIFEST = 'https://static.nanoka.cc/manifest.json';
 
-const NANOKA_GAMES = {
+const GAMEDATA_GAMES = {
   hsr: {
     manifestKey: 'hsr',
     charJsonPath: (v) => `https://static.nanoka.cc/hsr/${v}/character.json`,
@@ -256,7 +256,7 @@ const NANOKA_GAMES = {
   },
 };
 
-// Strip XML-like tags from a string (nanoka uses tags like
+// Strip XML-like tags from a string (gamedata uses tags like
 // `<unbreak>999</unbreak>` and `{RUBY_B#…}…{RUBY_E#}` inside the `en` field).
 function stripTags(s) {
   if (!s) return '';
@@ -272,8 +272,8 @@ function normName(name) {
   return stripTags(name || '').toLowerCase().normalize('NFKD').replace(/[^a-z0-9]/g, '');
 }
 
-// Manual aliases for character names that differ between game8/prydwen and nanoka.
-// Map normName(scraped) → normName(nanoka).
+// Manual aliases for character names that differ between game8/prydwen and gamedata.
+// Map normName(scraped) → normName(gamedata).
 const NAME_ALIASES = {
   // Trailblazer / MC variants land on whatever Trailblazer entries exist.
   // We don't currently target a specific Trailblazer path — leave to direct match.
@@ -281,18 +281,18 @@ const NAME_ALIASES = {
   mar7: 'march7th',
 };
 
-let NANOKA_MANIFEST_CACHE = null;
-async function fetchNanokaManifest() {
-  if (NANOKA_MANIFEST_CACHE) return NANOKA_MANIFEST_CACHE;
-  const res = await fetch(NANOKA_MANIFEST, { headers: FETCH_HEADERS, signal: AbortSignal.timeout(FETCH_TIMEOUT_MS) });
-  if (!res.ok) throw new Error(`nanoka manifest HTTP ${res.status}`);
-  NANOKA_MANIFEST_CACHE = await res.json();
-  return NANOKA_MANIFEST_CACHE;
+let GAMEDATA_MANIFEST_CACHE = null;
+async function fetchGameDataManifest() {
+  if (GAMEDATA_MANIFEST_CACHE) return GAMEDATA_MANIFEST_CACHE;
+  const res = await fetch(GAMEDATA_MANIFEST, { headers: FETCH_HEADERS, signal: AbortSignal.timeout(FETCH_TIMEOUT_MS) });
+  if (!res.ok) throw new Error(`gamedata manifest HTTP ${res.status}`);
+  GAMEDATA_MANIFEST_CACHE = await res.json();
+  return GAMEDATA_MANIFEST_CACHE;
 }
 
 const CHAR_MAP_CACHE = {};
 
-// Build a Map<normName, {name, image, imageFallback?}> for a nanoka game.
+// Build a Map<normName, {name, image, imageFallback?}> for a gamedata game.
 // `image` = preferred render (e.g. transparent Circle for GI/ZZZ).
 // `imageFallback` = lower-priority render the frontend can swap to on 404
 // (some characters lack the Circle variant).
@@ -300,12 +300,12 @@ const CHAR_MAP_CACHE = {};
 // We also tag each entry with `isRecent` — true for the top N highest
 // numeric IDs in the roster. Newer characters get higher IDs, so this
 // is a cheap proxy for "just added" that doesn't depend on release-date
-// metadata (which is mostly null in nanoka). Used by the banner-filter
+// metadata (which is mostly null in gamedata). Used by the banner-filter
 // to keep new 4-star debuts visible even when the min-rank is set to 5.
 const RECENT_COHORT_SIZE = 12;
-async function loadNanokaMap(gameId) {
-  const cfg = NANOKA_GAMES[gameId];
-  const manifest = await fetchNanokaManifest();
+async function loadGameDataMap(gameId) {
+  const cfg = GAMEDATA_GAMES[gameId];
+  const manifest = await fetchGameDataManifest();
   const version = manifest?.[cfg.manifestKey]?.latest;
   if (!version) throw new Error(`no version in manifest for key "${cfg.manifestKey}"`);
   const url = cfg.charJsonPath(version);
@@ -362,7 +362,7 @@ async function loadNanokaMap(gameId) {
       addEntry(normName(rec.code), entry);
     }
   }
-  console.log(`[${gameId}] nanoka: loaded ${map.size} entries from version ${version}`);
+  console.log(`[${gameId}] gamedata: loaded ${map.size} entries from version ${version}`);
   return { map, version };
 }
 
@@ -424,8 +424,8 @@ async function fetchCharacterMap(gameId) {
   try {
     if (gameId === 'endfield') {
       CHAR_MAP_CACHE[gameId] = await loadEndfieldMap();
-    } else if (NANOKA_GAMES[gameId]) {
-      CHAR_MAP_CACHE[gameId] = await loadNanokaMap(gameId);
+    } else if (GAMEDATA_GAMES[gameId]) {
+      CHAR_MAP_CACHE[gameId] = await loadGameDataMap(gameId);
     } else {
       CHAR_MAP_CACHE[gameId] = null;
     }
@@ -460,17 +460,17 @@ function findCharacterEntry(charMap, scrapedName) {
 // list 4-stars next to the headline rate-ups (especially noisy for WuWa
 // where the table includes weapon names too); anything below this gets
 // dropped instead of leaking onto the page as an iconless tile.
-const MIN_BANNER_RANK = { hsr: 5, genshin: 5, zzz: null /* S = 4 in nanoka */, wuwa: 5, endfield: null };
+const MIN_BANNER_RANK = { hsr: 5, genshin: 5, zzz: null /* S = 4 in gamedata */, wuwa: 5, endfield: null };
 
 // Resolve a single character name → record, or `null` if the name has no
-// match in the nanoka roster (= weapon / light cone / typo) or is below
+// match in the gamedata roster (= weapon / light cone / typo) or is below
 // the min rank for this game.
 async function resolveCharacterIcon(gameId, name) {
   const data = await fetchCharacterMap(gameId);
   if (!data) return { name, image: null };
   const found = findCharacterEntry(data.map, name);
   if (!found) {
-    console.warn(`[${gameId}] dropping "${name}" — no nanoka match (weapon or typo)`);
+    console.warn(`[${gameId}] dropping "${name}" — no gamedata match (weapon or typo)`);
     return null;
   }
   const minRank = MIN_BANNER_RANK[gameId];
@@ -478,9 +478,9 @@ async function resolveCharacterIcon(gameId, name) {
     // Whitelist: new characters get through even below the min rank.
     // Covers WuWa's occasional 4-star event debut and similar edge cases
     // — without this, a brand-new 4★ headlining a special banner would
-    // get silently dropped. `isRecent` is computed in loadNanokaMap as
+    // get silently dropped. `isRecent` is computed in loadGameDataMap as
     // "in the top N highest IDs", which is a roster-position proxy for
-    // "just added to nanoka".
+    // "just added to gamedata".
     if (!found.isRecent) {
       console.warn(`[${gameId}] dropping "${name}" — rank ${found.rank} below min ${minRank}`);
       return null;
@@ -571,7 +571,7 @@ function splitCandidates(cell) {
 //
 // Note: we deliberately keep "Lv.X" suffixes intact because some characters use them
 // as part of their name (e.g. HSR's "Silver Wolf Lv.999" is a distinct character
-// from "Silver Wolf"). The nanoka match logic normalizes both sides anyway.
+// from "Silver Wolf"). The gamedata match logic normalizes both sides anyway.
 function prefixedAlts($, td) {
   return $(td).find('img[alt]')
     .map((_, img) => {
@@ -766,7 +766,7 @@ function extractFromElements($, els) {
     // sections whose own heading is a banner *name* (Fest of Brilliance),
     // not a character. The roster shows up in the body paragraph as
     // "Featured in the banner are Pogranichnik, Gilberta, Laevatain, and
-    // Ardelia." — scan paragraphs for that wording. Downstream nanoka
+    // Ardelia." — scan paragraphs for that wording. Downstream gamedata
     // enrichment drops any candidate that isn't a known character, so
     // false positives from a loose regex get filtered automatically.
     const PROSE_RE = /(?:featured\s+(?:in\s+the\s+banner\s+)?(?:are|is)|rate[- ]?up\s+(?:6★|5★|6\*|5\*|6\s*Star|5\s*Star|operators?|characters?)\s*:)\s+([^.\n]+?)(?=\s*\.|$)/gi;
@@ -1151,7 +1151,7 @@ async function main() {
     const oldCurrent = old?.current ?? {};
     const oldNext    = old?.next    ?? {};
 
-    // Enrich each character name with a nanoka icon URL (when available).
+    // Enrich each character name with a gamedata icon URL (when available).
     const currentChars = await enrichCharactersWithIcons(game.id, result.current.characters);
     let nextChars      = await enrichCharactersWithIcons(game.id, result.next.characters);
     let upcomingEnriched = (await Promise.all(
@@ -1163,7 +1163,7 @@ async function main() {
     )).filter((u) => u.characters.length > 0);
     // Endfield: enrich each sub-banner the same way + drop any that
     // ended up with zero matched characters after enrichment (heuristic
-    // false positives upstream of the nanoka filter).
+    // false positives upstream of the gamedata filter).
     const currentSubBanners = result.current.subBanners
       ? (await Promise.all(
           result.current.subBanners.map(async (sb) => ({

@@ -308,7 +308,7 @@ async function scrapeGame(cfg, options, databaseDir, scrapedAt) {
     assets: withoutMissingList(assetSummary),
     errors,
     notes: [
-      'Prydwen does not expose Nanoka-style game version switching; preview/beta status is inferred from index labels such as Soon or future-version badges.',
+      'Prydwen does not expose GameData-style game version switching; preview/beta status is inferred from index labels such as Soon or future-version badges.',
       'Normalized JSON stores local database-relative asset paths and source paths only, not remote URLs.'
     ]
   };

@@ -79,7 +79,7 @@ const report = {
   attempts,
   count:cards.length,
   note:cards.length
-    ? 'AMBR GCG cards scraped successfully. Nanoka remains the primary local art source.'
+    ? 'AMBR GCG cards scraped successfully. GameData remains the primary local art source.'
     : 'AMBR endpoint was unavailable or did not return a recognized GCG card payload. This scraper is optional and safe to rerun.',
 };
 

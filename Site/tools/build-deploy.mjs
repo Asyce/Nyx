@@ -9,6 +9,8 @@ const siteDir = path.resolve(__dirname, '..');
 const root = path.resolve(siteDir, '..');
 const deployDir = path.resolve(root, '.deploy', 'pengo');
 const execFileAsync = promisify(execFile);
+const CLOUDFLARE_ASSET_FILE_LIMIT = 20_000;
+const POST_BUILD_FILE_RESERVE = 10; // SEO/sitemap injection runs after this step.
 
 const runtimeDirs = [
   ['assets', path.resolve(siteDir, 'assets')],
@@ -153,6 +155,9 @@ if (await exists(publicDir)) {
 const databaseAssets = await copyReferencedDatabaseAssets();
 await writeVersionFile();
 const files = await listFiles(deployDir);
+if (files.length > CLOUDFLARE_ASSET_FILE_LIMIT - POST_BUILD_FILE_RESERVE) {
+  throw new Error(`Deploy contains ${files.length} files before SEO injection; the conservative limit is ${CLOUDFLARE_ASSET_FILE_LIMIT - POST_BUILD_FILE_RESERVE} (${POST_BUILD_FILE_RESERVE} files reserved under Cloudflare's ${CLOUDFLARE_ASSET_FILE_LIMIT}-file asset limit)`);
+}
 const totalBytes = (await Promise.all(files.map(async (file) => (await fs.stat(file)).size)))
   .reduce((sum, size) => sum + size, 0);
 

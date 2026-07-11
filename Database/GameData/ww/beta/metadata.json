@@ -1,0 +1,503 @@
+{
+  "provider": "gamedata",
+  "game": "ww",
+  "gameName": "Wuthering Waves",
+  "channel": "beta",
+  "version": "3.5",
+  "liveVersion": "3.5",
+  "betaVersion": "3.5",
+  "availableVersions": [
+    "3.4",
+    "3.5",
+    "3.5.0",
+    "3.5.1",
+    "3.5.2",
+    "3.5.3",
+    "3.5.4",
+    "3.5.5",
+    "3.5.6"
+  ],
+  "scrapedAt": "2026-07-10T17:08:20.538Z",
+  "counts": {
+    "characters": 60,
+    "weapons": 128,
+    "echoes": 180,
+    "monsters": 288,
+    "items": 2303
+  },
+  "sourceCounts": {
+    "characters": 60,
+    "weapons": 128,
+    "echoes": 180,
+    "monsters": 288,
+    "items": 2303
+  },
+  "newInManifest": {
+    "character": [
+      1110,
+      1309,
+      1310,
+      1610
+    ],
+    "weapon": [
+      21020096,
+      21050096
+    ],
+    "echo": [
+      6000202,
+      6000203,
+      6000204,
+      6000205,
+      6000206,
+      6000207,
+      6000208,
+      6000209,
+      6000210,
+      6000211,
+      6000212,
+      6000213,
+      6000214,
+      6000215,
+      6000216,
+      6000217,
+      6000218
+    ],
+    "monster": [
+      310000900,
+      310000910,
+      310000920,
+      310000930,
+      310000940,
+      310000950,
+      310000960,
+      310000970,
+      310000980,
+      310000990,
+      310001000,
+      310001010,
+      310001020,
+      320000670,
+      320000680,
+      340000300,
+      340000310,
+      350000410,
+      350000420
+    ],
+    "item": [
+      77,
+      81,
+      82,
+      83,
+      84,
+      10821,
+      10822,
+      50025,
+      51052,
+      51053,
+      51054,
+      51055,
+      51056,
+      51057,
+      52014,
+      52017,
+      52018,
+      52019,
+      53009,
+      53010,
+      54010,
+      55003,
+      55004,
+      40040008,
+      41100091,
+      41100092,
+      41100093,
+      41100094,
+      41400324,
+      41400334,
+      42601530,
+      42601540,
+      42601550,
+      42601560,
+      42601570,
+      42601580,
+      42601590,
+      42601600,
+      42601610,
+      42601620,
+      44010061,
+      44010062,
+      50000118,
+      50000119,
+      50000131,
+      50000132,
+      50000133,
+      50000215,
+      50000216,
+      50000420,
+      50000421,
+      50000422,
+      50000423,
+      50000430,
+      50000431,
+      50000432,
+      50000433,
+      70050201,
+      70050202,
+      70050203,
+      70050204,
+      70050205,
+      70050206,
+      70050207,
+      70050208,
+      70050209,
+      70050210,
+      70050211,
+      70050212,
+      70050213,
+      70050214,
+      70050215,
+      70050216,
+      70050217,
+      70050218,
+      70050219,
+      70050220,
+      70050221,
+      70050222,
+      70050223,
+      70050224,
+      71300001,
+      71300002,
+      71300003,
+      71300004,
+      71300005,
+      71300006,
+      71300007,
+      71300100,
+      71300500,
+      71300501,
+      71300503,
+      71300504,
+      71300505,
+      71300506,
+      71300507,
+      71300508,
+      71300509,
+      71300510,
+      71300511,
+      71300512,
+      71300513,
+      71500094,
+      71500095,
+      71500096,
+      71500097,
+      72630001,
+      72630002,
+      72630003,
+      80000087,
+      80000088,
+      80000089,
+      80000090,
+      80000091,
+      80000092,
+      80000093,
+      80000094,
+      80000095,
+      80000096,
+      80000097,
+      80001087,
+      80001096,
+      80110527,
+      80110528,
+      80110529,
+      80110530,
+      80110531,
+      80110532,
+      80110533,
+      80110534,
+      80110535,
+      80110536,
+      80110537,
+      80110538,
+      80130063,
+      80130064,
+      80130065,
+      80131012,
+      80131013,
+      80400004,
+      80700014,
+      89103059,
+      89103060,
+      89103061,
+      89103062,
+      89103063,
+      89103064,
+      89400004,
+      89400005
+    ],
+    "hotfix": "3.5.5"
+  },
+  "files": {
+    "characters": "GameData/ww/beta/characters.json",
+    "weapons": "GameData/ww/beta/weapons.json",
+    "echoes": "GameData/ww/beta/echoes.json",
+    "monsters": "GameData/ww/beta/monsters.json",
+    "items": "GameData/ww/beta/items.json",
+    "raw": "GameData/ww/beta/raw"
+  },
+  "assetsPlanned": 2962,
+  "contentStatus": "Beta records are compared to Live and marked live, beta, or beta_changed.",
+  "assets": {
+    "requested": 2962,
+    "downloaded": 0,
+    "cached": 2901,
+    "missing": 61,
+    "missingAssets": [
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodySanhua.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodySanhua.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyBaizhi.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyBaizhi.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyZhezhi.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyZhezhi.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityHalfBodyYouhu.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityHalfBodyYouhu.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyKelaita.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyKelaita.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyFeiXue.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyFeiXue.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyLuoSeLa.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyLuoSeLa.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodySuiSui.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodySuiSui.webp"
+      },
+      {
+        "path": "GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiY.webp",
+        "gamedataAssetPath": "UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiY.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyZhixia.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyZhixia.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyMofeite.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyMofeite.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyChangli.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyChangli.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyBulante.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyBulante.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyLupa.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyLupa.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyJiabeilina.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyJiabeilina.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyMoning.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyMoning.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityHalfBodyAimisi.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityHalfBodyAimisi.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyDaNiYa.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyDaNiYa.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyYinlin.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyYinlin.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyYuanwu.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyYuanwu.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyJinxi.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyJinxi.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyXiangliyao.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyXiangliyao.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyAogusita.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyAogusita.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyBuling.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyBuling.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyLiBeiKa.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyLiBeiKa.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyYangyang.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyYangyang.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyQiushui.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyQiushui.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityHalfBodyJiyan.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityHalfBodyJiyan.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyXiakong.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyXiakong.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyKatixiya.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyKatixiya.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyYounuo.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyYounuo.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyQiuyuan.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyQiuyuan.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityHalfBodyXigelika.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityHalfBodyXigelika.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyDengdeng.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyDengdeng.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityHalfBodyShouanren.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityHalfBodyShouanren.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyFeibi.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyFeibi.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyZanni.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyZanni.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyQianxiao.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyQianxiao.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyLinnai.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyLinnai.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityHalfBodyLuhesi.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityHalfBodyLuhesi.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyLuXi.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyLuXi.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyTaoqi.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyTaoqi.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyDanjin.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyDanjin.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyChun.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyChun.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyLuokeke.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyLuokeke.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyKanteleila.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyKanteleila.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyFuluoluo.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyFuluoluo.webp"
+      },
+      {
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyXuanLing.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyXuanLing.webp"
+      },
+      {
+        "path": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_31092_UI.webp",
+        "gamedataAssetPath": "UIResources/Common/Image/MstSkill/T_MstSkil_31092_UI.webp"
+      },
+      {
+        "path": "GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_SG_33022_UI.webp",
+        "gamedataAssetPath": "UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_SG_33022_UI.webp"
+      },
+      {
+        "path": "GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_SG_32068_UI.webp",
+        "gamedataAssetPath": "UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_SG_32068_UI.webp"
+      },
+      {
+        "path": "GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_SG_31090_UI.webp",
+        "gamedataAssetPath": "UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_SG_31090_UI.webp"
+      },
+      {
+        "path": "GameData/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_27_UI.webp",
+        "gamedataAssetPath": "UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_27_UI.webp"
+      },
+      {
+        "path": "GameData/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_28_UI.webp",
+        "gamedataAssetPath": "UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_28_UI.webp"
+      },
+      {
+        "path": "GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_Part_1627_UI.webp",
+        "gamedataAssetPath": "UIResources/Common/Image/IconRup/T_IconRup_Part_1627_UI.webp"
+      },
+      {
+        "path": "GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_Part_1300_UI.webp",
+        "gamedataAssetPath": "UIResources/Common/Image/IconRup/T_IconRup_Part_1300_UI.webp"
+      },
+      {
+        "path": "GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_Part_1628_UI.webp",
+        "gamedataAssetPath": "UIResources/Common/Image/IconRup/T_IconRup_Part_1628_UI.webp"
+      },
+      {
+        "path": "GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_38_UI.webp",
+        "gamedataAssetPath": "UIResources/Common/Image/IconA/T_IconA_shlb_38_UI.webp"
+      },
+      {
+        "path": "GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_40_UI.webp",
+        "gamedataAssetPath": "UIResources/Common/Image/IconA/T_IconA_shlb_40_UI.webp"
+      },
+      {
+        "path": "GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_39_UI.webp",
+        "gamedataAssetPath": "UIResources/Common/Image/IconA/T_IconA_shlb_39_UI.webp"
+      },
+      {
+        "path": "GameData/ww/assets/items/UIResources/Common/Image/IconCook/T_IconCook_105_UI.webp",
+        "gamedataAssetPath": "UIResources/Common/Image/IconCook/T_IconCook_105_UI.webp"
+      }
+    ]
+  },
+  "changeReport": "GameData/changes/ww-beta-latest.json",
+  "missingAssetReport": "GameData/ww/beta/missing-assets.json"
+}

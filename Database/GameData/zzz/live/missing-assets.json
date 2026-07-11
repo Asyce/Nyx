@@ -1,0 +1,94 @@
+[
+  {
+    "path": "GameData/zzz/assets/monsters/Monster_UVARaven.webp",
+    "gamedataAssetPath": "Monster_UVARaven.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/monsters/Monster_MazingerGoldenBomb.webp",
+    "gamedataAssetPath": "Monster_MazingerGoldenBomb.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/monsters/Monster_HeavySoldierPro.webp",
+    "gamedataAssetPath": "Monster_HeavySoldierPro.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/monsters/Monster_MeleeSoldierPro.webp",
+    "gamedataAssetPath": "Monster_MeleeSoldierPro.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/monsters/Monster_RangeSoldierPro.webp",
+    "gamedataAssetPath": "Monster_RangeSoldierPro.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/monsters/Monster_UVARavenPro.webp",
+    "gamedataAssetPath": "Monster_UVARavenPro.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/Analeptic.webp",
+    "gamedataAssetPath": "Analeptic.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/TrapTest.webp",
+    "gamedataAssetPath": "TrapTest.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/BuffRandom.webp",
+    "gamedataAssetPath": "BuffRandom.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/SuitFool01.webp",
+    "gamedataAssetPath": "SuitFool01.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/SuitMagician01.webp",
+    "gamedataAssetPath": "SuitMagician01.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/SuitHighPriestess01.webp",
+    "gamedataAssetPath": "SuitHighPriestess01.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/SuitEmpress01.webp",
+    "gamedataAssetPath": "SuitEmpress01.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/SuitEmperor01.webp",
+    "gamedataAssetPath": "SuitEmperor01.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/SuitPope01.webp",
+    "gamedataAssetPath": "SuitPope01.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/HallowBuff02.webp",
+    "gamedataAssetPath": "HallowBuff02.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/CardDailyUse1601.webp",
+    "gamedataAssetPath": "CardDailyUse1601.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/CardDailyUse1611.webp",
+    "gamedataAssetPath": "CardDailyUse1611.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/CardDailyUse1621.webp",
+    "gamedataAssetPath": "CardDailyUse1621.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/CardDailyUse1631.webp",
+    "gamedataAssetPath": "CardDailyUse1631.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/CardDailyUse1641.webp",
+    "gamedataAssetPath": "CardDailyUse1641.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/CardDailyUse1651.webp",
+    "gamedataAssetPath": "CardDailyUse1651.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/icon_Wise_Back_WaistOrnament_Default.webp",
+    "gamedataAssetPath": "icon_Wise_Back_WaistOrnament_Default.webp"
+  }
+]

@@ -158,14 +158,14 @@ function selectGames(value) {
 
 async function loadRoster(cfg, databaseDir) {
   if (cfg.id === 'gi') {
-    const rows = await readJson(path.join(databaseDir, 'Nanoka', 'gi', 'live', 'characters.json'), []);
+    const rows = await readJson(path.join(databaseDir, 'GameData', 'gi', 'live', 'characters.json'), []);
     return rows
       .filter((ch) => ch?.name && (ch.rarity === 4 || ch.rarity === 5))
       .map((ch) => ({
         id: String(ch.id),
         name: ch.name,
         candidates: titleCandidates(ch.name),
-        source: 'Nanoka'
+        source: 'GameData'
       }));
   }
 

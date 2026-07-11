@@ -2,38 +2,38 @@
 
 Local data scrapers for the Nyxarium database.
 
-## Nanoka
+## GameData
 
-The Nanoka scraper writes versioned Live and Beta data into `../Database/Nanoka`.
+The GameData scraper writes versioned Live and Beta data into `../Database/GameData`.
 
 ```powershell
-npm run nanoka:hsr
-npm run nanoka:gi
-npm run nanoka:ww
-npm run nanoka:zzz
-npm run nanoka -- --game all
+npm run gamedata:hsr
+npm run gamedata:gi
+npm run gamedata:ww
+npm run gamedata:zzz
+npm run gamedata -- --game all
 ```
 
 Useful flags:
 
 ```powershell
-npm run nanoka:gi -- --channel live
-npm run nanoka:zzz -- --channel beta
-npm run nanoka:ww -- --sample 3
-npm run nanoka -- --game all --skip-assets
-npm run nanoka:hsr -- --force-assets
-npm run nanoka:hsr -- --debug          # include the raw upstream sourceSnapshot blob
-npm run nanoka:gi -- --allow-empty     # override the empty-section guard
+npm run gamedata:gi -- --channel live
+npm run gamedata:zzz -- --channel beta
+npm run gamedata:ww -- --sample 3
+npm run gamedata -- --game all --skip-assets
+npm run gamedata:hsr -- --force-assets
+npm run gamedata:hsr -- --debug          # include the raw upstream sourceSnapshot blob
+npm run gamedata:gi -- --allow-empty     # override the empty-section guard
 ```
 
 Output layout:
 
-- `../Database/Nanoka/manifest.json`
-- `../Database/Nanoka/<game>/live`
-- `../Database/Nanoka/<game>/beta`
-- `../Database/Nanoka/<game>/assets`
-- `../Database/Nanoka/_state`
-- `../Database/Nanoka/changes`
+- `../Database/GameData/manifest.json`
+- `../Database/GameData/<game>/live`
+- `../Database/GameData/<game>/beta`
+- `../Database/GameData/<game>/assets`
+- `../Database/GameData/_state`
+- `../Database/GameData/changes`
 - `../Database/_httpcache` (conditional-GET cache; safe to delete)
 
 The normalized files only use local database-relative asset paths. Change reports compare the current scrape against the previous local state, and Beta records are marked as `live`, `beta`, or `beta_changed` by comparing them to the Live channel.
@@ -99,7 +99,7 @@ Output layout:
 - `../Database/Prydwen/_state`
 - `../Database/Prydwen/changes`
 
-Character detail pages keep the full visible page text, section text, tables when present, local asset references, and game-specific recommendation buckets such as light cones, relics, teams, weapons, echoes, disk drives, or gear. Catalog pages keep parsed entries plus the full page text. Prydwen does not expose Nanoka-style version channels, so records default to `live`; pages labeled as future or soon content are marked `beta`.
+Character detail pages keep the full visible page text, section text, tables when present, local asset references, and game-specific recommendation buckets such as light cones, relics, teams, weapons, echoes, disk drives, or gear. Catalog pages keep parsed entries plus the full page text. Prydwen does not expose GameData-style version channels, so records default to `live`; pages labeled as future or soon content are marked `beta`.
 
 ## GachaBase Beta
 
@@ -141,7 +141,7 @@ Output layout:
 
 - `../Database/WikiTitles/character-titles.json`
 
-The scraper batches exact page lookups first, then uses MediaWiki search for page-name mismatches such as shortened roster names. New characters are picked up automatically as soon as the local Nanoka/Prydwen roster files include them.
+The scraper batches exact page lookups first, then uses MediaWiki search for page-name mismatches such as shortened roster names. New characters are picked up automatically as soon as the local GameData/Prydwen roster files include them.
 
 Source fields by game:
 

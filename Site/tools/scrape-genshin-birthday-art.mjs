@@ -72,7 +72,7 @@ function wikiPageName(name) {
 
 function playableCharacters() {
   const byName = new Map();
-  for (const ch of readJson('Nanoka/gi/live/characters.json')) {
+  for (const ch of readJson('GameData/gi/live/characters.json')) {
     if (!ch?.name || (ch.rarity !== 4 && ch.rarity !== 5)) continue;
     if (!byName.has(ch.name)) byName.set(ch.name, ch);
   }

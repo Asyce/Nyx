@@ -60,8 +60,8 @@ const CM_IDENTITY_ASSETS = {
     phaethon:{ label:'Phaethon', icon:'../assets/icon/phaethon-emblem.png', iconZoom:1.05, iconPosition:'50% 50%' },
   },
   wuwa:{
-    male:{ label:'Male Rover', icon:'../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_RoverSkinMale.webp', iconZoom:1.08, iconPosition:'50% 35%' },
-    female:{ label:'Female Rover', icon:'../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_RoverSkinFemale.webp', iconZoom:1.08, iconPosition:'50% 35%' },
+    male:{ label:'Male Rover', icon:'../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_RoverSkinMale.webp', iconZoom:1.08, iconPosition:'50% 35%' },
+    female:{ label:'Female Rover', icon:'../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_RoverSkinFemale.webp', iconZoom:1.08, iconPosition:'50% 35%' },
     abby:{ label:'Abby', icon:'../assets/icon/abby-rover.png', iconZoom:1.03, iconPosition:'50% 24%' },
   },
   ae:{
@@ -621,7 +621,7 @@ function cmCleanSourceName(name){
   if (/^go to collect$/i.test(s)) return '';
   s = s.replace(/^\s*recommendation\s*:\s*/i, '');
   s = s.replace(/\brecommendations?\b/ig, '');
-  s = s.replace(/\b(prydwen|nanoka|hoyolab|hoyowiki|honey\s*impact|honeyhunter|ambr(?:\.top)?|paimon\.?moe|game8|fandom|wiki)\b/ig, '');
+  s = s.replace(/\b(prydwen|gamedata|hoyolab|hoyowiki|honey\s*impact|honeyhunter|ambr(?:\.top)?|paimon\.?moe|game8|fandom|wiki)\b/ig, '');
   s = s.replace(/\s{2,}/g, ' ').replace(/^[\s:·\-\/]+|[\s:·\-\/]+$/g, '').trim();
   return s;
 }
@@ -891,6 +891,64 @@ function ZzzSpriteIcon({ icon, sprite, alt }){
     <span className={'zzz-sprite' + (animated ? ' is-animated' : '')}>
       {icon && <img src={icon} alt={alt || ''} draggable="false" />}
       <canvas ref={canvasRef} aria-hidden="true"></canvas>
+    </span>
+  );
+}
+
+/* C: shared numeric field for the material calculator — select-all on focus,
+   free typing while focused (no clamping mid-keystroke), clamp + commit on
+   blur/Enter, Escape reverts, small -/+ steppers. */
+function CMNumberInput({ value, min = 1, max = 99, onCommit, ariaLabel, title, className = '' }){
+  const [draft, _setDraft] = React.useState(null); // null = not editing (show committed value)
+  const draftRef = React.useRef(null); // blur fires synchronously after Enter/Escape — read the ref, not stale state
+  const setDraft = (v) => { draftRef.current = v; _setDraft(v); };
+  const clampNum = (n) => Math.max(min, Math.min(max, Math.round(n)));
+  const commit = () => {
+    const raw = draftRef.current;
+    if (raw === null) return;
+    const text = String(raw).trim();
+    const n = Number(text);
+    setDraft(null);
+    if (text === '' || !Number.isFinite(n)) return; // empty/garbage reverts
+    // always fire, even when unchanged — committing the shown max must still
+    // flip HSR/ZZZ out of "Max" mode (their setter carries that side-effect)
+    onCommit(clampNum(n));
+  };
+  const stepBy = (delta) => {
+    const raw = draftRef.current;
+    const text = raw === null ? '' : String(raw).trim();
+    const n = Number(text);
+    const base = text !== '' && Number.isFinite(n) ? n : Number(value);
+    setDraft(null);
+    const v = clampNum(base + delta);
+    if (v !== Number(value)) onCommit(v);
+  };
+  return (
+    <span className={('cm-numfield ' + className).trim()}>
+      <input
+        type="number" min={min} max={max} inputMode="numeric"
+        aria-label={ariaLabel} title={title}
+        value={draft === null ? value : draft}
+        onFocus={(e) => e.target.select()}
+        onChange={(e) => setDraft(e.target.value)}
+        onBlur={commit}
+        onKeyDown={(e) => {
+          if (e.key === 'Enter'){ e.preventDefault(); commit(); e.target.blur(); }
+          else if (e.key === 'Escape'){
+            e.preventDefault();
+            // an active edit: first Escape only reverts the field (don't let the
+            // popup's own Escape-to-close see it); a second Escape closes as usual
+            if (draftRef.current !== null){ e.stopPropagation(); setDraft(null); }
+            e.target.blur();
+          }
+        }}
+      />
+      <span className="cm-num-steps">
+        <button type="button" className="cm-num-step" aria-label={(ariaLabel || 'value') + ': increase'} tabIndex={-1}
+                onMouseDown={(e) => e.preventDefault()} onClick={() => stepBy(1)}>{'▴'}</button>
+        <button type="button" className="cm-num-step" aria-label={(ariaLabel || 'value') + ': decrease'} tabIndex={-1}
+                onMouseDown={(e) => e.preventDefault()} onClick={() => stepBy(-1)}>{'▾'}</button>
+      </span>
     </span>
   );
 }
@@ -1625,22 +1683,39 @@ function NyxImageEditor({ label, aspect = 1, outputWidth = 512, outputHeight = 5
 
 function NyxImageChoiceControl({ label, active, choices, aspect, outputWidth, outputHeight, shape, onPick }){
   const [editing, setEditing] = React.useState(false);
+  // D2: clicking a thumbnail previews the choice; only Apply commits it.
+  const [previewSrc, setPreviewSrc] = React.useState(null);
   const visible = nyxDedupeImageChoices(choices).slice(0, 48);
+  const preview = previewSrc ? visible.find((row) => row.src === previewSrc) || null : null;
   return (
     <div className="nyx-img-choice">
       <div className="nyx-img-choice-head">
         <b>{label}</b>
         <button type="button" onClick={() => setEditing((v) => !v)}>{editing ? 'Close Upload' : 'Upload Local'}</button>
-        <button type="button" onClick={() => onPick(null)}>Reset</button>
+        <button type="button" onClick={() => { setPreviewSrc(null); onPick(null); }}>Reset</button>
       </div>
       {visible.length > 0 && (
         <div className="nyx-img-choice-row">
           {visible.map((row) => (
-            <button type="button" key={row.src} className={active === row.src ? 'on' : ''} title={(row.group ? row.group + ': ' : '') + row.label} onClick={() => onPick(row.src)}>
+            <button type="button" key={row.src}
+                    className={(active === row.src ? 'on' : '') + (previewSrc === row.src ? ' previewing' : '')}
+                    title={(row.group ? row.group + ': ' : '') + row.label}
+                    onClick={() => setPreviewSrc(row.src)}>
               <img src={row.src} alt="" draggable="false" />
               <span>{row.label}</span>
             </button>
           ))}
+        </div>
+      )}
+      {preview && (
+        <div className={'nyx-img-pickpreview shape-' + (shape || 'wide')}>
+          <div className="nyx-img-pickpreview-frame"><img src={preview.src} alt="" draggable="false" /></div>
+          <div className="nyx-img-pickpreview-actions">
+            <em>{(preview.group ? preview.group + ': ' : '') + preview.label}</em>
+            <button type="button" className="apply" disabled={active === preview.src}
+                    onClick={() => onPick(preview.src)}>{active === preview.src ? 'Applied' : 'Apply'}</button>
+            <button type="button" onClick={() => setPreviewSrc(null)}>Close</button>
+          </div>
         </div>
       )}
       {editing && (
@@ -1709,34 +1784,6 @@ function cmNewestChar(chars){
     if (ch && (!best || cmCharRelease(ch) > cmCharRelease(best))) best = ch;
   }
   return best;
-}
-
-function cmBirthdayArtPool(ch){
-  return Array.isArray(ch?.birthdayArtPool) ? ch.birthdayArtPool.filter(Boolean) : [];
-}
-
-function cmHolidayArtPool(ch){
-  return Array.isArray(ch?.holidayArtPool) ? ch.holidayArtPool.filter(Boolean) : [];
-}
-
-function cmSpecialArtPool(gameKey, ch){
-  if (gameKey === 'gi') return cmBirthdayArtPool(ch);
-  if (gameKey === 'hsr') return cmHolidayArtPool(ch);
-  return [];
-}
-
-function cmSpecialArtClass(gameKey, base, view){
-  const hasPool = cmSpecialArtPool(gameKey, base).length > 0 || cmSpecialArtPool(gameKey, view).length > 0;
-  if (!hasPool) return '';
-  if (gameKey === 'gi') return ' birthday';
-  if (gameKey === 'hsr') return ' holiday';
-  return ' special';
-}
-
-function cmPopupArtFor(gameKey, base, view, cycleIndex){
-  const pool = cmSpecialArtPool(gameKey, base).length ? cmSpecialArtPool(gameKey, base) : cmSpecialArtPool(gameKey, view);
-  if (pool.length) return pool[Math.abs(Number(cycleIndex || 0)) % pool.length];
-  return cmArtFor(view);
 }
 
 function cmFormOptions(ch){
@@ -1985,35 +2032,142 @@ function cmSearchExtra(ch){
   ].filter(Boolean).join(' ');
 }
 
+function CMUnfavouriteConfirm({ character, onCancel, onConfirm }){
+  const characterName = character.n || character.name || 'this character';
+  const [suppress, setSuppress] = React.useState(false);
+  const [duration, setDuration] = React.useState('24h');
+  const cancelRef = React.useRef(null);
+  const cardRef = React.useRef(null);
+  React.useEffect(() => {
+    const onKey = (event) => {
+      if (event.key === 'Escape') { event.preventDefault(); onCancel(); return; }
+      if (event.key !== 'Tab') return;
+      const focusable = Array.from(cardRef.current?.querySelectorAll('button,input') || []).filter((node) => !node.disabled && node.offsetParent !== null);
+      if (!focusable.length) return;
+      const first = focusable[0], last = focusable[focusable.length - 1];
+      if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+      else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+    };
+    window.addEventListener('keydown', onKey);
+    cancelRef.current?.focus();
+    return () => window.removeEventListener('keydown', onKey);
+  }, [onCancel]);
+  const modal = (
+    <div className="cm-unfav-overlay" role="dialog" aria-modal="true" aria-labelledby="cm-unfav-title"
+         onMouseDown={(event) => { if (event.target === event.currentTarget) onCancel(); }}>
+      <div className="cm-unfav-card" ref={cardRef}>
+        <h2 id="cm-unfav-title">Unfavourite {characterName}?</h2>
+        <p>This removes the character from your pinned list.</p>
+        <label className="cm-unfav-suppress"><input type="checkbox" checked={suppress} onChange={(event) => setSuppress(event.target.checked)} /> <span>Don't show this again</span></label>
+        {suppress && <fieldset><legend>Hide confirmations</legend>
+          <label><input type="radio" name="cm-unfav-duration" checked={duration === '24h'} onChange={() => setDuration('24h')} /> For 24 hours</label>
+          <label><input type="radio" name="cm-unfav-duration" checked={duration === 'forever'} onChange={() => setDuration('forever')} /> Forever</label>
+        </fieldset>}
+        <div className="cm-unfav-actions">
+          <button type="button" ref={cancelRef} onClick={onCancel}>Keep favourite</button>
+          <button type="button" className="danger" onClick={() => onConfirm(suppress ? duration : null)}>Unfavourite</button>
+        </div>
+      </div>
+    </div>
+  );
+  return ReactDOM.createPortal ? ReactDOM.createPortal(modal, document.body) : modal;
+}
+
 /* a roster cell */
-function CMCell({ ch, onClick, hideMode, hidden, onToggleHidden }){
+function CMCell({ ch, onClick, hideMode, hidden, onToggleHidden, pinned, onTogglePinned }){
   return (
-    <button
-      type="button"
-      className={'cm-cell' + (hideMode ? ' hide-mode' : '') + (hidden ? ' hidden' : '')}
-      title={hideMode ? (hidden ? 'Unhide ' : 'Hide ') + ch.n : ch.n}
-      aria-pressed={hideMode ? !!hidden : undefined}
-      onClick={() => { if (hideMode && onToggleHidden) onToggleHidden(ch); else if (onClick) onClick(); }}
-    >
+    <div className={'cm-cell' + (hideMode ? ' hide-mode' : '') + (hidden ? ' hidden' : '')}
+         style={{ '--el':CM_ELEM[ch.el] || '#b7aaff' }}>
+      <button type="button" className="cm-cell-open"
+        title={hideMode ? (hidden ? 'Unhide ' : 'Hide ') + ch.n : ch.n}
+        aria-pressed={hideMode ? !!hidden : undefined}
+        onClick={() => { if (hideMode && onToggleHidden) onToggleHidden(ch); else if (onClick) onClick(); }}>
       <CMAvatar ch={ch} />
       <span className="cn">{ch.n}</span>
       {ch.__betaNew && <span className="cm-beta-tag" title="Beta (latest) data — upcoming, not yet released">Beta</span>}
       {cmIsUpcomingOnly(ch) && !ch.__betaNew && <span className="cm-beta-tag upcoming" title="Upcoming unit - currently no reliable material data">Upcoming</span>}
       {hideMode && <span className="hm">{hidden ? 'Hidden' : 'Hide'}</span>}
-    </button>
+      </button>
+      {!hideMode && <button type="button" className={'cm-favourite-star' + (pinned ? ' on' : '')}
+                           aria-label={(pinned ? 'Unfavourite ' : 'Favourite ') + ch.n} aria-pressed={!!pinned}
+                           title={(pinned ? 'Unfavourite ' : 'Favourite ') + ch.n}
+                           onClick={(event) => { event.stopPropagation(); onTogglePinned?.(ch); }}>{pinned ? '\u2605' : '\u2606'}</button>}
+    </div>
   );
 }
 
-function CharacterKitPanel({ kit, emptyText }){
+const CM_PROFILE_STATS = [
+  ['hp', 'HP'], ['atk', 'ATK'], ['def', 'DEF'], ['speed', 'SPD'],
+  ['critRate', 'CRIT Rate'], ['critDmg', 'CRIT DMG'], ['energyRecharge', 'Energy Recharge'],
+  ['elementalMastery', 'Elemental Mastery'], ['impact', 'Impact'],
+  ['anomalyProficiency', 'Anomaly Proficiency'], ['anomalyMastery', 'Anomaly Mastery'],
+];
+
+const CM_PROFILE_FACTS = {
+  gi: [['title', 'Title'], ['affiliation', 'Affiliation'], ['constellation', 'Constellation'], ['birthday', 'Birthday'], ['nation', 'Nation']],
+  hsr: [['title', 'Title'], ['camp', 'Camp']],
+  zzz: [['fullName', 'Full Name'], ['title', 'Title'], ['faction', 'Faction'], ['birthday', 'Birthday']],
+  wuwa: [['title', 'Title'], ['influence', 'Influence'], ['nation', 'Nation'], ['birthday', 'Birthday']],
+  ae: [['faction', 'Faction'], ['birthday', 'Birthday']],
+};
+
+function cmProfileValue(key, value){
+  const n = Number(value);
+  if (!Number.isFinite(n)) return '—';
+  if (key === 'critRate' || key === 'critDmg' || key === 'energyRecharge') return `${Number((n * 100).toFixed(1))}%`;
+  return Number(n.toFixed(1)).toLocaleString();
+}
+
+function cmHasProfile(baseStats, facts){
+  const hasStats = Object.keys(baseStats?.level1 || {}).some((key) => key !== 'level' && Number.isFinite(Number(baseStats.level1[key])));
+  const hasFacts = Object.values(facts || {}).some((value) => value !== undefined && value !== null && String(value).trim());
+  return hasStats || hasFacts;
+}
+
+function CharacterProfile({ gameKey, baseStats, facts }){
+  const level1 = baseStats?.level1 || {};
+  const max = baseStats?.max || {};
+  const statRows = CM_PROFILE_STATS.filter(([key]) => Number.isFinite(Number(level1[key])) || Number.isFinite(Number(max[key])));
+  const factRows = (CM_PROFILE_FACTS[gameKey] || CM_PROFILE_FACTS.ae)
+    .map(([key, label]) => ({ key, label, value:facts?.[key] }))
+    .filter((row) => row.value !== undefined && row.value !== null && String(row.value).trim());
+  if (!statRows.length && !factRows.length) return null;
+  return (
+    <section className="cm-kit-profile" aria-labelledby="cm-profile-title">
+      <div className="cm-kit-section-title" id="cm-profile-title">Profile</div>
+      {factRows.length > 0 && (
+        <div className="cm-profile-facts">
+          {factRows.map((row) => <span key={row.key}><b>{row.label}</b><em>{row.value}</em></span>)}
+        </div>
+      )}
+      {statRows.length > 0 && (
+        <div className="cm-profile-stat-grid" role="table" aria-label="Base stats">
+          <div className="cm-profile-stat-head" role="row">
+            <b role="columnheader">Base Stat</b><span role="columnheader">Lv.1</span><span role="columnheader">Lv.{max.level || 'Max'}</span>
+          </div>
+          {statRows.map(([key, label]) => (
+            <div className="cm-profile-stat-row" role="row" key={key}>
+              <b role="rowheader">{label}</b><span role="cell">{cmProfileValue(key, level1[key])}</span><span role="cell">{cmProfileValue(key, max[key])}</span>
+            </div>
+          ))}
+        </div>
+      )}
+    </section>
+  );
+}
+
+function CharacterKitPanel({ kit, baseStats, facts, gameKey, emptyText }){
   const sections = (kit?.sections || []).filter((section) => (section?.entries || []).length);
-  if (!sections.length) return <div className="cm-empty">{emptyText || 'No character kit data available yet.'}</div>;
-  const versionParts = [
+  const hasProfile = cmHasProfile(baseStats, facts);
+  if (!sections.length && !hasProfile) return <div className="cm-empty">{emptyText || 'No character kit data available yet.'}</div>;
+  const versionParts = kit ? [
     kit.source || 'Source',
     kit.version ? `Version ${kit.version}` : '',
     kit.channel ? `Channel ${kit.channel}` : '',
-  ].filter(Boolean);
+  ].filter(Boolean) : [];
   return (
     <div className="cm-kit-panel">
+      <CharacterProfile gameKey={gameKey} baseStats={baseStats} facts={facts} />
       {versionParts.length > 0 && <div className="cm-kit-source">{versionParts.join(' / ')}</div>}
       {sections.map((section, si) => (
         <div className="cm-kit-section" key={section.title || si}>
@@ -2086,6 +2240,7 @@ function CharacterKitPanel({ kit, emptyText }){
           ))}
         </div>
       ))}
+      {!sections.length && <div className="cm-empty">{emptyText || 'No character kit data available yet.'}</div>}
     </div>
   );
 }
@@ -2164,9 +2319,6 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
   const [zzzMax, setZzzMax] = React.useState(true);
   const [activeVariant, setActiveVariant] = React.useState(null);
   const [activeGender, setActiveGender] = React.useState(null);
-  const [activeArtIndex, setActiveArtIndex] = React.useState(0);
-  const [artCycle, setArtCycle] = React.useState({});
-  const artCycleRef = React.useRef({});
   const [weaponPickByChar, setWeaponPickByChar] = React.useState({});
   const [weaponPickerOpen, setWeaponPickerOpen] = React.useState(false);
   const [weaponSearch, setWeaponSearch] = React.useState('');
@@ -2178,6 +2330,8 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
   const [unitPrefs, setUnitPrefs] = React.useState(cmLoadSpecialUnitPrefs);
   const [languagePrefs, setLanguagePrefs] = React.useState(cmLoadLanguagePrefs);
   const [characterImagePrefs, setCharacterImagePrefs] = useNyxCharacterImagePrefs();
+  const [pinnedIds, setPinnedIds] = React.useState(() => nyxLoadPinnedIds(game || 'gi') || []);
+  const [pendingUnfavourite, setPendingUnfavourite] = React.useState(null);
   const searchInputRef = React.useRef(null);
 
   const betaAvailable = cmHasBeta(gk);
@@ -2192,25 +2346,12 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
     setSel(null);
   }, [gk]);
 
-  React.useEffect(() => {
-    artCycleRef.current = artCycle;
-  }, [artCycle]);
-
   const openCharacter = React.useCallback((ch, opts) => {
     if (!ch) return;
-    const key = cmHiddenKey(ch);
-    const pool = cmSpecialArtPool(gk, ch);
-    const idx = pool.length > 1 ? (artCycleRef.current[key] || 0) : 0;
-    setActiveArtIndex(idx);
     setDetailTab('materials');
     setSel(ch);
     if (onSelectCharacter && !(opts && opts.silent)) onSelectCharacter(ch);
-    if (pool.length > 1) {
-      const nextIdx = (idx + 1) % pool.length;
-      artCycleRef.current = { ...artCycleRef.current, [key]:nextIdx };
-      setArtCycle((prev) => ({ ...prev, [key]:nextIdx }));
-    }
-  }, [gk, onSelectCharacter]);
+  }, [onSelectCharacter]);
 
   React.useEffect(() => {
     const onIdentity = (event) => {
@@ -2220,6 +2361,16 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
     window.addEventListener('nyx:identity-changed', onIdentity);
     return () => window.removeEventListener('nyx:identity-changed', onIdentity);
   }, []);
+
+  React.useEffect(() => {
+    setPinnedIds(nyxLoadPinnedIds(gk) || []);
+    setPendingUnfavourite(null);
+    const onPinned = (event) => {
+      if (event.detail?.gameKey === gk) setPinnedIds(Array.isArray(event.detail.ids) ? event.detail.ids : (nyxLoadPinnedIds(gk) || []));
+    };
+    window.addEventListener(NYX_PINNED_CHANGED_EVENT, onPinned);
+    return () => window.removeEventListener(NYX_PINNED_CHANGED_EVENT, onPinned);
+  }, [gk]);
 
   React.useEffect(() => {
     const onSettings = (event) => {
@@ -2407,10 +2558,10 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
   if (!cfg) {
     const gameName = (window.CM_GAME_LABELS && window.CM_GAME_LABELS[gk]) || gk.toUpperCase();
     const loader = (
-      <div className="cm-panel cm-loading" data-screen-label="Character Materials loading">
+      <div className="cm-panel cm-loading" data-screen-label="Characters loading">
         <div className="cm-load-eye"></div>
         <div className="cm-ttl">
-          <div className="t">Character Materials</div>
+          <div className="t">Characters</div>
           <div className="s">Loading {gameName}</div>
         </div>
       </div>
@@ -2494,6 +2645,27 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
       return { ...base, [bucket]:perGame };
     });
   };
+  const removePinnedCharacter = (ch) => {
+    const id = cmHiddenKey(ch);
+    nyxSavePinnedIds(gk, pinnedIds.filter((row) => String(row) !== id));
+  };
+  const togglePinnedCharacter = (ch) => {
+    const id = cmHiddenKey(ch);
+    if (!id) return;
+    const pinned = pinnedIds.some((row) => String(row) === id);
+    if (!pinned) {
+      nyxSavePinnedIds(gk, nyxAddPinnedId(pinnedIds, id, nyxLoadFavouriteMode(gk)));
+      return;
+    }
+    if (nyxUnfavouriteConfirmSuppressed(gk)) removePinnedCharacter(ch);
+    else setPendingUnfavourite(ch);
+  };
+  const confirmUnfavourite = (duration) => {
+    if (!pendingUnfavourite) return;
+    if (duration) nyxSaveUnfavouriteConfirm(gk, duration);
+    removePinnedCharacter(pendingUnfavourite);
+    setPendingUnfavourite(null);
+  };
   const renderCell = (prefix, c, i) => (
     <CMCell
       key={cmCharKey(prefix, c, i)}
@@ -2502,6 +2674,8 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
       hidden={isHidden(c)}
       onToggleHidden={toggleHidden}
       onClick={() => openCharacter(c)}
+      pinned={pinnedIds.some((row) => String(row) === cmHiddenKey(c))}
+      onTogglePinned={togglePinnedCharacter}
     />
   );
 
@@ -2605,12 +2779,15 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
   const hasAscData = !!(req && Array.isArray(req.ascension) && req.ascension.length > 0);
   const hasTalentData = !!(req && ((Array.isArray(req.talents) && req.talents.length > 0)
     || (Array.isArray(req.talentStages) && req.talentStages.some((s) => s.length))));
-  const selArt = view ? (view.customBackground || cmPopupArtFor(gk, sel, view, activeArtIndex)) : null;
-  const specialArtClass = view && !view.customBackground ? cmSpecialArtClass(gk, sel, view) : '';
+  // D1: character pages always default to the character's splash art — no
+  // birthday/holiday rotation here (special art lives on favourite cards only;
+  // the pools stay available as manual picks in Customize Visuals).
+  const selArt = view ? (view.customBackground || cmArtFor(view)) : null;
   const metaChips = view ? cmMetaChips(gk, view) : [];
   const releaseText = view ? cmCharacterReleaseText(view) : '';
   const voiceRows = view ? cmVoiceRows(view, gk) : [];
-  const hasKit = !!(view?.kit?.sections || []).some((section) => (section?.entries || []).length);
+  const hasKit = !!(view?.kit?.sections || []).some((section) => (section?.entries || []).length)
+    || cmHasProfile(view?.baseStats, view?.facts);
   const kitEmptyText = noReliableInfo
     ? 'Currently no reliable information available for this unit. The kit will update automatically when a trusted source has data.'
     : 'No character kit data available yet.';
@@ -2713,14 +2890,15 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
   return (
     <div className={inline ? 'cm-inline' + (sel ? ' has-detail-page' : '') : 'cm-overlay'}
          onMouseDown={inline ? undefined : (e) => { if (e.target === e.currentTarget) onClose(); }}>
-      {!modalOnly && !(inline && sel) && <div className="cm-panel" data-screen-label="Character Materials">
+      {pendingUnfavourite && <CMUnfavouriteConfirm character={pendingUnfavourite} onCancel={() => setPendingUnfavourite(null)} onConfirm={confirmUnfavourite} />}
+      {!modalOnly && !(inline && sel) && <div className="cm-panel" data-screen-label="Characters">
 
         {/* The "Character Materials" header box is removed on the game page (sections
             are switched from the left nav); the standalone panel keeps a plain title. */}
         {!(sections && onPageTab) && (
           <div className="cm-head">
             <span className="cm-dia"></span>
-            <div className="cm-ttl"><div className="t">Character Materials</div></div>
+            <div className="cm-ttl"><div className="t">Characters</div></div>
             <button type="button" className="cm-x" title="Close" onClick={onClose} style={{ display:inline ? 'none' : undefined }}>{'✕'}</button>
           </div>
         )}
@@ -2819,7 +2997,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
               )}
               {upcoming.length > 0 && (
                 <div className="cm-group cm-upcoming-group">
-                  <div className="cm-ghd" title="Upcoming units without reliable Nanoka/wiki material data yet"><span className="t">Upcoming</span></div>
+                  <div className="cm-ghd" title="Upcoming units without reliable material data yet"><span className="t">Upcoming</span></div>
                   <div className="cm-grid cm-grid-recent">{upcoming.map((c, i) => renderCell('upcoming', c, i))}</div>
                 </div>
               )}
@@ -2842,7 +3020,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                     <div className={'cm-mgroup cm-domain' + (block.art ? ' has-bg' : '')} key={'domain-' + bi} style={cmBlockArtStyle(block.art)}>
                       <div className="cm-mgroup-hd">
                         <span className="t">{block.domain.name}</span>
-                        <span className="sub">{qq ? 'search results' : day === 6 ? 'Sunday - all books' : CM_DAYS[day]}</span>
+                        {qq && <span className="sub">search results</span>}
                       </div>
                       {block.rows.map((row) => (
                         <div className="cm-mrow cm-domain-row" key={row.key}>
@@ -2962,7 +3140,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
               {inline && (
                 <div className="cm-detail-nav">
                   <button type="button" className="cm-detail-back" onClick={closePop}>
-                    <span>{'\u2039'}</span><b>{selectedFrom === 'overview' ? 'Back to Overview' : 'Back to Character Materials'}</b>
+                    <span>{'\u2039'}</span><b>Back to Characters</b>
                   </button>
                 </div>
               )}
@@ -3036,7 +3214,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                     />
                   </div>
                 ) : detailTab === 'kit' ? (
-                  <CharacterKitPanel kit={view?.kit} emptyText={kitEmptyText} />
+                  <CharacterKitPanel kit={view?.kit} baseStats={view?.baseStats} facts={view?.facts} gameKey={gk} emptyText={kitEmptyText} />
                 ) : (
                   <React.Fragment>
                 {(formOptions.length > 1 || genderOptions.length > 1) && (
@@ -3079,18 +3257,17 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                 )}
 
                 <div className="cm-ledger-rows">
-                  {selArt && <div className={'cm-ledger-art' + specialArtClass} aria-hidden="true"><img src={selArt} alt="" draggable="false" /></div>}
+                  {selArt && <div className="cm-ledger-art" aria-hidden="true"><img src={selArt} alt="" draggable="false" /></div>}
                   {hasAscData && (
                     <div className="cm-ledger-row">
                       <div className="cm-ledger-label"><b>ASCENSION</b>
                         {gk === 'gi'
                           ? <label className="cm-asc-level" title="Type a target level (1-90)"><span className="lv">Lv</span>
-                              <input
-                                type="number" min="1" max="90" inputMode="numeric"
-                                aria-label="Ascension target level"
+                              <CMNumberInput
+                                min={1} max={90}
+                                ariaLabel="Ascension target level"
                                 value={giAscLevel}
-                                onChange={(e) => setGiAscLevel(Math.max(1, Math.min(90, Math.round(Number(e.target.value)) || 1)))}
-                                onFocus={(e) => e.target.select()}
+                                onCommit={(v) => setGiAscLevel(v)}
                               />
                             </label>
                           : <span>Lv.{CM_GAME_MAX_LEVEL[gk] || 90}</span>}
@@ -3152,13 +3329,12 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                                       <span className="cm-talent-icon">
                                         {icon ? <img src={icon} alt="" draggable="false" /> : <em>{tcfg.short[index]}</em>}
                                       </span>
-                                      <input
-                                        type="number" min="1" max={max} inputMode="numeric"
-                                        className="cm-talent-num"
-                                        aria-label={`${label} target level`}
+                                      <CMNumberInput
+                                        min={1} max={max}
+                                        className="cm-talent-numfield"
+                                        ariaLabel={`${label} target level`}
                                         value={value}
-                                        onChange={(e) => setTalent(index, e.target.value)}
-                                        onFocus={(e) => e.target.select()}
+                                        onCommit={(v) => setTalent(index, v)}
                                       />
                                     </label>
                                   );

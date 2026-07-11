@@ -198,6 +198,7 @@ function makeRoster(cfg, settings, characterImagePrefs){
       overviewArtPool:ch.overviewArtPool,
       overviewArtZoom:ch.overviewArtZoom,
       icon:ch.icon || ch.circle || ch.card || cfg.benchIcon,
+      el:ch.el || ch.element,
       rarity:ch.r,
       forms:ch.forms || [],
     };
@@ -346,10 +347,10 @@ function RewardChips({ reward, limit = 2, full = false }){
 }
 
 const PREMIUM_CODE_META = {
-  gi:{ name:'Primogems', icon:'../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp' },
-  hsr:{ name:'Stellar Jade', icon:'../../Database/Nanoka/hsr/assets/items/900001.webp' },
-  zzz:{ name:'Polychrome', icon:'../../Database/Nanoka/zzz/assets/items/IconCurrency.webp' },
-  wuwa:{ name:'Astrite', icon:'../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_zcpq_UI.webp' },
+  gi:{ name:'Primogems', icon:'../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp' },
+  hsr:{ name:'Stellar Jade', icon:'../../Database/GameData/hsr/assets/items/900001.webp' },
+  zzz:{ name:'Polychrome', icon:'../../Database/GameData/zzz/assets/items/IconCurrency.webp' },
+  wuwa:{ name:'Astrite', icon:'../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_zcpq_UI.webp' },
   ae:{ name:'Originium', icon:null },
   nyx:{ name:'Premium currency', icon:null },
 };
@@ -366,7 +367,7 @@ const GAME_REGISTRY = {
     key:'gi', name:'Genshin Impact', charName:'Skirk',
     art:'../assets/char/skirk.jpg', benchIcon:'../assets/char/skirk_icon.png',
     pageBg:'../assets/bg/backgroundnyx.png', bgPos:'42% 38%', bgSize:'138% auto', bgTransform:'scale(1.04) rotate(-2deg)',
-    fns:['Character Materials','Database','Wish Tracker'],
+    fns:['Characters','Database','Wish Tracker'],
     track:{ pull:'Wish', pulls:'Wishes', title:'Wish Tracker', currency:'Primogems', cost:160,
       fives:['Skirk','Mavuika','Neuvillette','Arlecchino','Furina'], fours:['Bennett','Xiangling','Fischl','Sucrose','Rosaria'] },
     codes:[
@@ -382,7 +383,7 @@ const GAME_REGISTRY = {
     key:'hsr', name:'Honkai: Star Rail', charName:'Castorice',
     art:'../assets/bg/hsrbg.png', benchIcon:'../assets/bg/hsrbg.png',
     pageBg:'../assets/bg/backgroundnyx.png', bgPos:'63% 31%', bgSize:'152% auto', bgTransform:'scaleX(-1) scale(1.07) rotate(2.5deg)',
-    fns:['Character Materials','Database','Warp Tracker'],
+    fns:['Characters','Database','Warp Tracker'],
     track:{ pull:'Warp', pulls:'Warps', title:'Warp Tracker', currency:'Stellar Jade', cost:160,
       fives:['Castorice','Firefly','Acheron','Robin','Aglaea'], fours:['Asta','March 7th','Herta','Tingyun','Pela'] },
     codes:[
@@ -396,7 +397,7 @@ const GAME_REGISTRY = {
     key:'zzz', name:'Zenless Zone Zero', charName:'Yixuan',
     art:'../assets/bg/zzzbg3.png', benchIcon:'../assets/bg/zzzbg3.png',
     pageBg:'../assets/bg/backgroundnyx.png', bgPos:'30% 55%', bgSize:'165% auto', bgTransform:'scale(1.08) rotate(4deg)',
-    fns:['Character Materials','Database','Signal Tracker'],
+    fns:['Characters','Database','Signal Tracker'],
     track:{ pull:'Signal', pulls:'Signals', title:'Signal Tracker', currency:'Polychrome', cost:160,
       fives:['Yixuan','Miyabi','Zhu Yuan','Evelyn','Astra Yao'], fours:['Nicole','Anby','Billy','Corin','Ben'] },
     codes:[
@@ -409,7 +410,7 @@ const GAME_REGISTRY = {
     key:'wuwa', name:'Wuthering Waves', charName:'Carlotta',
     art:'../assets/bg/wuwabg2.png', benchIcon:'../assets/bg/wuwabg2.png',
     pageBg:'../assets/bg/backgroundnyx.png', bgPos:'74% 45%', bgSize:'148% auto', bgTransform:'scaleX(-1) scale(1.06) rotate(-3deg)',
-    fns:['Character Materials','Database','Convene Tracker'],
+    fns:['Characters','Database','Convene Tracker'],
     track:{ pull:'Convene', pulls:'Convenes', title:'Convene Tracker', currency:'Astrite', cost:160,
       fives:['Carlotta','Jinhsi','Changli','Camellya','Zani'], fours:['Yangyang','Baizhi','Chixia','Sanhua','Taoqi'] },
     codes:[
@@ -422,7 +423,7 @@ const GAME_REGISTRY = {
     key:'ae', name:'Arknights: Endfield', charName:'Perlica',
     art:'../assets/bg/aebg.png', benchIcon:'../assets/bg/aebg.png',
     pageBg:'../assets/bg/backgroundnyx.png', bgPos:'52% 68%', bgSize:'158% auto', bgTransform:'scale(1.08) rotate(1.5deg)',
-    fns:['Character Materials','Database','Headhunting Tracker'],
+    fns:['Characters','Database','Headhunting Tracker'],
     track:{ pull:'Headhunt', pulls:'Headhunts', title:'Headhunting Tracker', currency:'Originium', cost:120,
       fives:['Perlica','Laevatain','Chen Qianyu','Ember','Wulfgard'], fours:['Xaihi','Endmin','Da Pan','Gilberta','Snowshine'] },
     codes:[
@@ -1219,10 +1220,6 @@ const PINNED_DEFAULTS = {
   nyx:['Skirk','Castorice','Yixuan','Carlotta','Perlica'],
 };
 
-function pinnedStorageKey(key){
-  return 'nyx:pinned-favourites:' + key + ':v1';
-}
-
 function favsCollapsedStorageKey(key){
   return 'nyx:pinned-favourites-collapsed:' + key + ':v1';
 }
@@ -1235,17 +1232,22 @@ function pinnedSeed(cfg, roster){
 }
 
 function loadPinnedCards(cfg, roster){
-  try {
-    const ids = JSON.parse(localStorage.getItem(pinnedStorageKey(cfg.key)) || '[]');
-    const byId = new Map(roster.map((ch) => [ch.id, ch]));
-    const saved = Array.isArray(ids) ? ids.map((id) => byId.get(id)).filter(Boolean) : [];
-    if (saved.length) return saved.slice(0, 5);
-  } catch (e) {}
-  return pinnedSeed(cfg, roster);
+  const ids = nyxLoadPinnedIds(cfg.key);
+  if (ids !== null) {
+    const byId = new Map();
+    roster.forEach((ch) => {
+      byId.set(nyxPinnedCharacterId(cfg.key, ch), ch);
+      if (cfg.key === 'nyx' && !byId.has(String(ch.id))) byId.set(String(ch.id), ch);
+    });
+    return ids.map((id) => byId.get(String(id))).filter(Boolean);
+  }
+  const seeded = pinnedSeed(cfg, roster);
+  if (seeded.length) savePinnedCards(cfg, seeded);
+  return seeded;
 }
 
 function savePinnedCards(cfg, cards){
-  try { localStorage.setItem(pinnedStorageKey(cfg.key), JSON.stringify(cards.map((ch) => ch.id))); } catch (e) {}
+  nyxSavePinnedIds(cfg.key, cards.map((ch) => nyxPinnedCharacterId(cfg.key, ch)));
 }
 
 function Favourites({ cfg, onOpenMaterial, settings }){
@@ -1255,8 +1257,10 @@ function Favourites({ cfg, onOpenMaterial, settings }){
   const customKey = JSON.stringify(characterImagePrefs || {});
   const roster = React.useMemo(() => makeRoster(cfg, settings, characterImagePrefs), [cfg.key, cmVersion, specialKey, customKey]);
   const [cards, setCards] = React.useState(() => loadPinnedCards(cfg, roster));
+  const [mode, setMode] = React.useState(() => nyxLoadFavouriteMode(cfg.key));
   const [hov, setHov] = React.useState(null);
   const [manage, setManage] = React.useState(false);
+  const [pendingUnfavourite, setPendingUnfavourite] = React.useState(null);
   const [collapsed, setCollapsed] = React.useState(() => {
     try { return localStorage.getItem(favsCollapsedStorageKey(cfg.key)) === '1'; } catch (e) { return false; }
   });
@@ -1268,8 +1272,18 @@ function Favourites({ cfg, onOpenMaterial, settings }){
     setCards(loadPinnedCards(cfg, roster));
     setHov(null);
     setManage(false);
+    setPendingUnfavourite(null);
     setQ('');
+    setMode(nyxLoadFavouriteMode(cfg.key));
     try { setCollapsed(localStorage.getItem(favsCollapsedStorageKey(cfg.key)) === '1'); } catch (e) { setCollapsed(false); }
+  }, [cfg.key, roster]);
+
+  React.useEffect(() => {
+    const onPinned = (event) => {
+      if (event.detail?.gameKey === cfg.key) setCards(loadPinnedCards(cfg, roster));
+    };
+    window.addEventListener(NYX_PINNED_CHANGED_EVENT, onPinned);
+    return () => window.removeEventListener(NYX_PINNED_CHANGED_EVENT, onPinned);
   }, [cfg.key, roster]);
 
   React.useEffect(() => {
@@ -1281,7 +1295,7 @@ function Favourites({ cfg, onOpenMaterial, settings }){
 
   const commitCards = (fn) => {
     setCards((prev) => {
-      const next = fn(prev).slice(0, 5);
+      const next = fn(prev);
       savePinnedCards(cfg, next);
       return next;
     });
@@ -1294,14 +1308,32 @@ function Favourites({ cfg, onOpenMaterial, settings }){
       return next;
     });
   };
+  const requestUnpin = (idx) => {
+    const ch = cards[idx];
+    if (!ch) return;
+    if (nyxUnfavouriteConfirmSuppressed(cfg.key)) commitCards((rows) => rows.filter((row) => nyxPinnedCharacterId(cfg.key, row) !== nyxPinnedCharacterId(cfg.key, ch)));
+    else setPendingUnfavourite(ch);
+  };
+  const confirmUnpin = (duration) => {
+    const ch = pendingUnfavourite;
+    if (!ch) return;
+    if (duration) nyxSaveUnfavouriteConfirm(cfg.key, duration);
+    commitCards((rows) => rows.filter((row) => nyxPinnedCharacterId(cfg.key, row) !== nyxPinnedCharacterId(cfg.key, ch)));
+    setPendingUnfavourite(null);
+  };
+  const selectMode = (next) => {
+    setMode(nyxSaveFavouriteMode(cfg.key, next));
+  };
 
   const GAP = 16, ADDW = 72;
-  const n = cards.length;
+  const visibleCards = nyxFavouriteVisibleCards(cards, mode);
+  const overflowCount = Math.max(0, cards.length - NYX_FAVOURITE_CARD_LIMIT);
+  const n = visibleCards.length;
   const qq = q.trim().toLowerCase();
   const match = (ch) => appMatchesSearch(ch, qq);
-  const pinnedIds = new Set(cards.map((ch) => ch.id));
-  const candidates = roster.filter((ch) => !pinnedIds.has(ch.id) && match(ch)).slice(0, qq ? 24 : 12);
-  const isFull = cards.length >= 5;
+  const pinnedIds = new Set(cards.map((ch) => nyxPinnedCharacterId(cfg.key, ch)));
+  const candidates = roster.filter((ch) => !pinnedIds.has(nyxPinnedCharacterId(cfg.key, ch)) && match(ch)).slice(0, qq ? 24 : 12);
+  const isFull = mode === 'card' && cards.length >= NYX_FAVOURITE_CARD_LIMIT;
   const hasAdd = manage && !collapsed && candidates.length > 0 && !isFull;
   const fixed = (hasAdd ? ADDW + GAP : 0) + (n > 1 ? (n - 1) * GAP : 0);
   let cardW = n > 0 ? Math.floor((w - fixed) / n) : 0;
@@ -1315,7 +1347,7 @@ function Favourites({ cfg, onOpenMaterial, settings }){
     leave: (zone, idx) => setHov(p => (p && p.zone === zone && p.idx === idx) ? null : p),
     end: () => { GP_DRAG = null; setHov(null); },
     hide: (idx) => commitCards((cs) => cs.filter((_, i) => i !== idx)),
-    remove: (idx) => commitCards((cs) => cs.filter((_, i) => i !== idx)),
+    remove: requestUnpin,
     add: () => { if (!candidates.length) return; commitCards((cs) => [...cs, candidates[0]]); },
     open: (ch) => {
       if (!onOpenMaterial || !ch?.name) return;
@@ -1338,14 +1370,11 @@ function Favourites({ cfg, onOpenMaterial, settings }){
   };
 
   const isDt = (zone, idx) => hov && hov.zone === zone && hov.idx === idx;
-  const addCandidate = (ch) => commitCards((cs) => {
-    if (cs.some((c) => c.id === ch.id)) return cs;
-    if (cs.length < 5) return [...cs, ch];
-    return [...cs.slice(0, 4), ch];
-  });
+  const addCandidate = (ch) => commitCards((cs) => nyxAddFavourite(cs, ch, mode, cfg.key));
 
   return (
     <div ref={ref} className={'gp-favs game-' + cfg.key + (manage ? ' manage' : '') + (collapsed ? ' collapsed' : '')} style={{ width:'100%' }}>
+      {pendingUnfavourite && <CMUnfavouriteConfirm character={pendingUnfavourite} onCancel={() => setPendingUnfavourite(null)} onConfirm={confirmUnpin} />}
       <div style={{ display:'flex', alignItems:'center', gap:'16px' }}>
         <GPSec title="Pinned Favourites" icon="../assets/decor/orbit_burst.png" style={{ flex:1, minWidth:0 }} />
         {manage && !collapsed && <div className="gp-search-wrap">
@@ -1356,6 +1385,10 @@ function Favourites({ cfg, onOpenMaterial, settings }){
             {q !== '' && <button type="button" className="x" title="Clear" onClick={() => setQ('')}>{'\u2715'}</button>}
           </div>
         </div>}
+        <div className="gp-fav-modes" aria-label="Favourite display mode">
+          <button type="button" className={mode === 'card' ? 'on' : ''} aria-pressed={mode === 'card'} onClick={() => selectMode('card')}>Card</button>
+          <button type="button" className={mode === 'icon' ? 'on' : ''} aria-pressed={mode === 'icon'} onClick={() => selectMode('icon')}>Icon</button>
+        </div>
         <GPHex small fixw on={!collapsed} onClick={toggleCollapsed}>
           <span>{collapsed ? 'Show' : 'Hide'}</span>
         </GPHex>
@@ -1364,20 +1397,37 @@ function Favourites({ cfg, onOpenMaterial, settings }){
         </GPHex>
       </div>
       {!collapsed && (
-        <div className={'gp-cardrow' + (scroll ? ' scroll' : '')}
-             style={{ justifyContent: scroll ? 'flex-start' : 'center' }}>
-          {cards.map((c, i) => (
-            <FavCardI key={c.id} ch={c} idx={i} w={cardW} hgt={cardH} dt={isDt('card', i)} faded={!match(c)} h={h} art={cfg.art} manage={manage} count={cards.length} />
-          ))}
-          {hasAdd && <AddSlot hgt={cardH} dt={isDt('add', 0)} h={h} />}
-        </div>
+        mode === 'card' ? (
+          <div className={'gp-cardrow' + (scroll ? ' scroll' : '')}
+               style={{ justifyContent: scroll ? 'flex-start' : 'center' }}>
+            {visibleCards.map((c, i) => (
+              <FavCardI key={nyxPinnedCharacterId(cfg.key, c)} ch={c} idx={i} w={cardW} hgt={cardH} dt={isDt('card', i)} faded={!match(c)} h={h} art={cfg.art} manage={manage} count={visibleCards.length} />
+            ))}
+            {overflowCount > 0 && <button type="button" className="gp-fav-more" onClick={() => selectMode('icon')}>+{overflowCount} more</button>}
+            {hasAdd && <AddSlot hgt={cardH} dt={isDt('add', 0)} h={h} />}
+          </div>
+        ) : (
+          <div className="gp-fav-icon-grid">
+            {visibleCards.map((ch, i) => (
+              <div key={nyxPinnedCharacterId(cfg.key, ch)} className={'gp-fav-icon' + (!match(ch) ? ' faded' : '')}
+                   style={{ '--el':CM_ELEM[ch.element || ch.el] || '#b7aaff' }}>
+                <button type="button" className="gp-fav-icon-open" onClick={() => h.open(ch)} aria-label={ch.name}>
+                  <span><img src={ch.icon || cfg.benchIcon} alt="" draggable="false" /></span>
+                  <b>{ch.name}</b>
+                </button>
+                {manage && <button type="button" className="gp-fav-icon-star" aria-label={'Unpin ' + ch.name}
+                                   onClick={(event) => { event.stopPropagation(); h.remove(i); }}>{'\u2605'}</button>}
+              </div>
+            ))}
+          </div>
+        )
       )}
       {manage && !collapsed && (
         <div className="gp-fav-picker">
           {candidates.map((ch) => (
             <button
               type="button"
-              key={ch.id}
+              key={nyxPinnedCharacterId(cfg.key, ch)}
               className={isFull ? 'replace' : ''}
               title={isFull ? 'Replace last pinned card' : 'Pin character'}
               onClick={() => addCandidate(ch)}
@@ -1674,28 +1724,142 @@ function AllBannersView(){
   );
 }
 
-function CollectionLibrary({ game }){
+/* J: Monsters/Items ship as lazy per-game packs; loaded when the Database tab
+   opens (same script-injection pattern as the beta packs). */
+const NYX_DB_EXTRA_FILES = {
+  gi:'../dist/db-data-gi.js',
+  hsr:'../dist/db-data-hsr.js',
+  zzz:'../dist/db-data-zzz.js',
+  wuwa:'../dist/db-data-wuwa.js',
+};
+const NYX_DB_EXTRA_LOADS = {};
+function loadNyxDbExtra(key){
+  const src = NYX_DB_EXTRA_FILES[key];
+  if (!src) return Promise.resolve(null);
+  window.NYX_DB_EXTRA = window.NYX_DB_EXTRA || {};
+  if (window.NYX_DB_EXTRA[key]) return Promise.resolve(window.NYX_DB_EXTRA[key]);
+  if (NYX_DB_EXTRA_LOADS[key]) return NYX_DB_EXTRA_LOADS[key];
+  NYX_DB_EXTRA_LOADS[key] = new Promise((resolve, reject) => {
+    const script = document.createElement('script');
+    let settled = false;
+    script.src = src;
+    script.async = true;
+    script.dataset.dbExtra = key;
+    const fail = () => {
+      if (settled) return;
+      settled = true;
+      clearTimeout(timer);
+      delete NYX_DB_EXTRA_LOADS[key];
+      script.remove();
+      reject(new Error('Failed to load ' + src));
+    };
+    script.onload = () => {
+      if (!window.NYX_DB_EXTRA[key]) return fail();
+      if (settled) return;
+      settled = true;
+      clearTimeout(timer);
+      resolve(window.NYX_DB_EXTRA[key]);
+    };
+    script.onerror = fail;
+    const timer = setTimeout(fail, 20_000);
+    document.head.appendChild(script);
+  });
+  return NYX_DB_EXTRA_LOADS[key];
+}
+
+const DB_FACET_KEYS = ['type', 'rarity', 'element', 'family', 'purpose'];
+const DB_GRID_CAP = 400;
+
+function dbCollectionFacets(cur){
+  if (!cur) return [];
+  const out = [];
+  for (const key of DB_FACET_KEYS){
+    const values = new Map();
+    for (const item of cur.items || []){
+      const raw = item.fields && item.fields[key];
+      if (raw === undefined || raw === null || raw === '') continue;
+      if (typeof raw === 'object') continue;
+      const value = String(raw).trim();
+      if (!value || /^\[object Object\]$/i.test(value)) continue;
+      values.set(value, (values.get(value) || 0) + 1);
+    }
+    if (values.size >= 2 && values.size <= 24){
+      out.push({ key, values: [...values.entries()].sort((a, b) => b[1] - a[1]).map(([value]) => value) });
+    }
+  }
+  return out;
+}
+
+function CollectionLibrary({ game, view, onViewChange }){
   const gameData = (window.NYX_DB && window.NYX_DB.games && window.NYX_DB.games[game]) || null;
-  const collections = (gameData && gameData.collections) || [];
+  const inline = (gameData && gameData.collections) || [];
+  const [extraTick, setExtraTick] = React.useState(0);
+  const [extraState, setExtraState] = React.useState(NYX_DB_EXTRA_FILES[game] ? 'loading' : 'ready');
+  const extra = (window.NYX_DB_EXTRA && window.NYX_DB_EXTRA[game] && window.NYX_DB_EXTRA[game].collections) || [];
+  const collections = [...inline, ...extra];
+  const specialViews = game === 'gi' ? [{ key:'tcg', title:'TCG' }, { key:'pot', title:'Serenitea Pot' }, { key:'wonderland', title:'Miliastra Wonderland' }] : [];
   const [active, setActive] = React.useState(collections[0] ? collections[0].key : '');
   const [q, setQ] = React.useState('');
+  const [filters, setFilters] = React.useState({});
+  const [detailItem, setDetailItem] = React.useState(null);
+  const restoreFocusRef = React.useRef(null);
+  const specialActive = view === 'tcg' || view === 'pot' || view === 'wonderland';
 
   React.useEffect(() => {
-    setActive(collections[0] ? collections[0].key : '');
+    const gameInline = ((window.NYX_DB && window.NYX_DB.games && window.NYX_DB.games[game]) || {}).collections || [];
+    setActive(gameInline[0] ? gameInline[0].key : '');
     setQ('');
+    setFilters({});
+    setDetailItem(null);
+    let live = true;
+    setExtraState(NYX_DB_EXTRA_FILES[game] ? 'loading' : 'ready');
+    loadNyxDbExtra(game)
+      .then(() => { if (live) { setExtraState('ready'); setExtraTick((v) => v + 1); } })
+      .catch(() => { if (live) setExtraState('error'); });
+    return () => { live = false; };
   }, [game]);
 
-  const cur = collections.find(c => c.key === active) || collections[0];
-  const qq = q.trim().toLowerCase();
-  const items = cur ? cur.items.filter(item => {
-    const hay = [item.name, item.kind, item.text, ...Object.values(item.fields || {})].join(' ').toLowerCase();
-    return !qq || hay.includes(qq);
-  }) : [];
+  const retryExtra = () => {
+    setExtraState('loading');
+    loadNyxDbExtra(game)
+      .then(() => { setExtraState('ready'); setExtraTick((v) => v + 1); })
+      .catch(() => setExtraState('error'));
+  };
 
-  if (!cur) {
+  const cur = collections.find(c => c.key === active) || collections[0];
+  const facets = React.useMemo(() => dbCollectionFacets(cur), [game, cur && cur.key, extraTick]);
+  const qq = q.trim().toLowerCase();
+  const matches = cur ? cur.items.filter(item => {
+    for (const [key, value] of Object.entries(filters)){
+      if (value && String((item.fields || {})[key] ?? '') !== value) return false;
+    }
+    if (!qq) return true;
+    const hay = dbSearchText([item.name, item.kind, item.text, item.fields, item.skills]).toLowerCase();
+    return hay.includes(qq);
+  }) : [];
+  const items = matches.slice(0, DB_GRID_CAP);
+  const pickCollection = (key) => {
+    if (specialActive && onViewChange) onViewChange('database');
+    setActive(key);
+    setFilters({});
+    setDetailItem(null);
+  };
+  const toggleFilter = (key, value) => setFilters((prev) => ({ ...prev, [key]: prev[key] === value ? undefined : value }));
+  const openDetail = (item) => {
+    restoreFocusRef.current = document.activeElement;
+    setDetailItem(item);
+  };
+  const closeDetail = React.useCallback(() => {
+    setDetailItem(null);
+    const restore = restoreFocusRef.current;
+    restoreFocusRef.current = null;
+    if (restore && typeof restore.focus === 'function') requestAnimationFrame(() => restore.focus());
+  }, []);
+
+  if (!cur && !specialViews.length) {
     return (
       <div className="db-lib">
-        <GPSec title="Database Library" />
+        <GPSec title="Database" />
         <div className="db-empty">No database collections found.</div>
       </div>
     );
@@ -1704,48 +1868,320 @@ function CollectionLibrary({ game }){
   return (
     <div className="db-lib">
       <div className="db-lib-head">
-        <GPSec title="Database Library" style={{ flex:1, minWidth:0 }} />
-        <div className="gp-search">
-          <span className="ic"></span>
-          <input value={q} placeholder="Search Database" spellCheck="false" onChange={(e) => setQ(e.target.value)} />
-          {q !== '' && <button type="button" className="x" title="Clear" onClick={() => setQ('')}>{'\u2715'}</button>}
-        </div>
+        <GPSec title="Database" style={{ flex:1, minWidth:0 }} />
+        {!specialActive && (
+          <div className="gp-search">
+            <span className="ic"></span>
+            <input value={q} placeholder="Search Database" spellCheck="false" onChange={(e) => setQ(e.target.value)} />
+            {q !== '' && <button type="button" className="x" title="Clear" onClick={() => setQ('')}>{'\u2715'}</button>}
+          </div>
+        )}
       </div>
       <div className="db-tabs">
         {collections.map(c => (
-          <button type="button" key={c.key} className={c.key === cur.key ? 'on' : ''} onClick={() => setActive(c.key)}>
+          <button type="button" key={c.key} className={!specialActive && cur && c.key === cur.key ? 'on' : ''} onClick={() => pickCollection(c.key)}>
             <span>{c.title}</span><b>{c.count}</b>
           </button>
         ))}
+        {specialViews.map(s => (
+          <button type="button" key={s.key} className={view === s.key ? 'on' : ''} onClick={() => onViewChange && onViewChange(s.key)}>
+            <span>{s.title}</span>
+          </button>
+        ))}
       </div>
-      <div className="db-grid">
-        {items.map(item => <CollectionCard key={item.id || item.name} item={item} />)}
-      </div>
-      {items.length === 0 && <div className="db-empty">No records match your search.</div>}
+      {!specialActive && extraState === 'loading' && (
+        <div className="db-load-state" role="status" aria-live="polite">
+          <span className="db-load-spinner" aria-hidden="true"></span>
+          Loading Monsters and Items…
+        </div>
+      )}
+      {!specialActive && extraState === 'error' && (
+        <div className="db-load-state error" role="alert">
+          <span>Monsters and Items could not be loaded.</span>
+          <button type="button" onClick={retryExtra}>Retry</button>
+        </div>
+      )}
+      {specialActive
+        ? (view === 'tcg' ? <GenshinTcgView /> : (view === 'pot' ? <GenshinPotView /> : <GenshinWonderlandView />))
+        : (
+          <React.Fragment>
+            {facets.length > 0 && (
+              <div className="db-filters">
+                {facets.map((facet) => (
+                  <div className="db-filter-row" key={facet.key} role="group" aria-label={'Filter by ' + dbFieldLabel(facet.key)}>
+                    <b>{dbFieldLabel(facet.key)}</b>
+                    {facet.values.map((value) => (
+                      <button type="button" key={value} className={filters[facet.key] === value ? 'on' : ''}
+                              aria-pressed={filters[facet.key] === value}
+                              onClick={() => toggleFilter(facet.key, value)}>{value}</button>
+                    ))}
+                  </div>
+                ))}
+              </div>
+            )}
+            <div className="db-grid">
+              {items.map(item => <CollectionCard key={item.id || item.name} item={item} onOpen={openDetail} />)}
+            </div>
+            {matches.length > DB_GRID_CAP && (
+              <div className="db-cap-note">Showing {DB_GRID_CAP} of {matches.length} \u2014 refine the search or filters to narrow it down.</div>
+            )}
+            {matches.length === 0 && <div className="db-empty">No records match your search.</div>}
+            {detailItem && <CollectionDetailModal item={detailItem} onClose={closeDetail} />}
+          </React.Fragment>
+        )}
     </div>
   );
 }
 
-function CollectionCard({ item }){
-  const fields = Object.entries(item.fields || {}).filter(([, v]) => {
-    if (v === undefined || v === null || v === '') return false;
-    return !(Array.isArray(v) && v.length === 0);
-  }).slice(0, 4);
+function dbHasValue(value){
+  if (value === undefined || value === null || value === '') return false;
+  if (Array.isArray(value)) return value.some(dbHasValue);
+  if (typeof value === 'object') return Object.values(value).some(dbHasValue);
+  return true;
+}
+
+function dbSearchText(value){
+  if (!dbHasValue(value)) return '';
+  if (Array.isArray(value)) return value.map(dbSearchText).join(' ');
+  if (typeof value === 'object') return Object.entries(value).map(([key, row]) => key + ' ' + dbSearchText(row)).join(' ');
+  return String(value);
+}
+
+function dbFieldLabel(value){
+  return String(value || '')
+    .replace(/[_-]+/g, ' ')
+    .replace(/([a-z0-9])([A-Z])/g, '$1 $2')
+    .replace(/\b\w/g, (letter) => letter.toUpperCase());
+}
+
+function dbFieldValue(value){
+  if (Array.isArray(value)) return value.map(dbFieldValue).filter(Boolean).join(' / ');
+  if (value && typeof value === 'object') {
+    return Object.entries(value)
+      .filter(([, row]) => dbHasValue(row))
+      .map(([key, row]) => dbFieldLabel(key) + ': ' + dbFieldValue(row))
+      .join(' / ');
+  }
+  return String(value);
+}
+
+function CollectionCard({ item, onOpen }){
   return (
-    <article className="db-card" title={item.name}>
-      <div className="db-art">
+    <button type="button" className="db-card" title={'View ' + item.name} aria-label={'View details for ' + item.name} onClick={() => onOpen(item)}>
+      <span className="db-art">
         {item.art ? <img src={item.art} alt="" draggable="false" /> : <span>{simInitials(item.name)}</span>}
+      </span>
+      <span className="db-name">{item.name}</span>
+    </button>
+  );
+}
+
+function CollectionDetailModal({ item, onClose }){
+  const closeRef = React.useRef(null);
+  const cardRef = React.useRef(null);
+  const fields = Object.entries(item.fields || {}).filter(([, value]) => dbHasValue(value));
+  const skills = Array.isArray(item.skills) ? item.skills.filter((skill) => dbHasValue(skill)) : [];
+
+  React.useEffect(() => {
+    const onKeyDown = (event) => {
+      if (event.key === 'Escape') {
+        event.preventDefault();
+        onClose();
+      } else if (event.key === 'Tab') {
+        const focusable = Array.from(cardRef.current?.querySelectorAll('button:not([disabled]), summary, [href], [tabindex]:not([tabindex="-1"])') || []);
+        if (!focusable.length) {
+          event.preventDefault();
+          cardRef.current?.focus();
+          return;
+        }
+        const first = focusable[0];
+        const last = focusable[focusable.length - 1];
+        if (event.shiftKey && (document.activeElement === first || !cardRef.current?.contains(document.activeElement))) {
+          event.preventDefault();
+          last.focus();
+        } else if (!event.shiftKey && (document.activeElement === last || !cardRef.current?.contains(document.activeElement))) {
+          event.preventDefault();
+          first.focus();
+        }
+      }
+    };
+    document.addEventListener('keydown', onKeyDown);
+    closeRef.current?.focus();
+    return () => document.removeEventListener('keydown', onKeyDown);
+  }, [onClose]);
+
+  const modal = (
+    <div className="db-modal" role="dialog" aria-modal="true" aria-label={item.name + ' details'}
+         onMouseDown={(event) => { if (event.target === event.currentTarget) onClose(); }}>
+      <article ref={cardRef} tabIndex={-1} className="db-modal-card">
+        <button type="button" ref={closeRef} className="db-modal-close" aria-label={'Close ' + item.name + ' details'} onClick={onClose}>{'\u2715'}</button>
+        <div className="db-modal-media">
+          {item.art ? <img src={item.art} alt="" draggable="false" /> : <span>{simInitials(item.name)}</span>}
+        </div>
+        <div className="db-modal-copy">
+          <span className="db-modal-kind">{dbFieldLabel(item.kind || 'Database record')}</span>
+          <h2>{item.name}</h2>
+          {item.text && <p className="db-modal-description">{item.text}</p>}
+          {fields.length > 0 && (
+            <dl className="db-modal-fields">
+              {fields.map(([key, value]) => (
+                <div key={key}><dt>{dbFieldLabel(key)}</dt><dd>{dbFieldValue(value)}</dd></div>
+              ))}
+            </dl>
+          )}
+          {skills.length > 0 && (
+            <section className="db-modal-skills" aria-label={item.kind === 'bangboo' ? 'Bangboo skills' : 'Skills'}>
+              <h3>{item.kind === 'bangboo' ? 'Bangboo Skills' : 'Skills'}</h3>
+              {skills.map((skill, index) => (
+                <article key={skill.key || skill.name || index}>
+                  {skill.type && <span>{skill.type}</span>}
+                  <h4>{skill.name || 'Skill ' + (index + 1)}</h4>
+                  {skill.description && <p>{skill.description}</p>}
+                  {Array.isArray(skill.properties) && skill.properties.length > 0 && (
+                    <div>{skill.properties.map((property) => <em key={property}>{property}</em>)}</div>
+                  )}
+                </article>
+              ))}
+            </section>
+          )}
+        </div>
+      </article>
+    </div>
+  );
+  return ReactDOM.createPortal ? ReactDOM.createPortal(modal, document.body) : modal;
+}
+
+function wonderValues(items, key){
+  const counts = new Map();
+  for (const item of items){
+    const values = Array.isArray(item[key]) ? item[key] : (item[key] ? [item[key]] : []);
+    for (const value of values) counts.set(value, (counts.get(value) || 0) + 1);
+  }
+  return [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+}
+
+function GenshinWonderlandView(){
+  const wonderland = dbGame('gi')?.wonderland || {};
+  const sections = [
+    { key:'costumes', label:'Costumes', items:wonderland.costumes || [] },
+    { key:'suits', label:'Sets', items:wonderland.suits || [] },
+    { key:'items', label:'Inventory', items:wonderland.items || [] },
+  ];
+  const [section, setSection] = React.useState('costumes');
+  const [q, setQ] = React.useState('');
+  const [filters, setFilters] = React.useState({});
+  const [detail, setDetail] = React.useState(null);
+  const backRef = React.useRef(null);
+  const restoreFocusRef = React.useRef(null);
+  const active = sections.find((row) => row.key === section) || sections[0];
+  const facetKeys = section === 'costumes' ? ['slot','color','body','rank']
+    : section === 'suits' ? ['color','body','rank'] : ['type','rank'];
+  const facets = facetKeys.map((key) => ({ key, values:wonderValues(active.items, key) })).filter((row) => row.values.length > 1);
+  const query = q.trim().toLowerCase();
+  const visible = active.items.filter((item) => {
+    for (const [key, selected] of Object.entries(filters)){
+      if (!selected) continue;
+      const values = Array.isArray(item[key]) ? item[key] : [item[key]];
+      if (!values.includes(selected)) return false;
+    }
+    if (!query) return true;
+    return dbSearchText([item.name, item.kind, item.rank, item.type, item.body, item.color, item.slot]).toLowerCase().includes(query);
+  });
+  const selectSection = (key) => {
+    setSection(key);
+    setFilters({});
+    setDetail(null);
+  };
+  const toggle = (key, value) => setFilters((previous) => ({ ...previous, [key]:previous[key] === value ? undefined : value }));
+  const openDetail = (item) => {
+    restoreFocusRef.current = document.activeElement;
+    setDetail(item);
+  };
+  const closeDetail = () => {
+    setDetail(null);
+    const restore = restoreFocusRef.current;
+    restoreFocusRef.current = null;
+    if (restore && typeof restore.focus === 'function') requestAnimationFrame(() => restore.focus());
+  };
+  React.useEffect(() => {
+    if (detail) backRef.current?.focus();
+  }, [detail]);
+
+  if (!sections.some((row) => row.items.length)) {
+    return <div className="wonder-view"><div className="db-empty">Wonderland data has not been generated yet.</div></div>;
+  }
+  if (detail) {
+    const stats = [
+      ['ID', detail.id],
+      ['Type', detail.kind],
+      ['Rank', detail.rank],
+      ['Slot', (detail.slot || []).join(' / ')],
+      ['Color', (detail.color || []).join(' / ')],
+      ['Body Type', (detail.body || []).join(' / ')],
+      ['Item Type', detail.type],
+    ].filter(([, value]) => dbHasValue(value));
+    return (
+      <div className="wonder-view wonder-detail-page" data-screen-label="Miliastra Wonderland detail page">
+        <button type="button" ref={backRef} className="wonder-back" onClick={closeDetail}><span>{'\u2039'}</span><b>Back to {active.label}</b></button>
+        <div className="wonder-detail-scroll">
+          <article className="wonder-detail-panel">
+            {detail.art
+              ? <img className="wonder-detail-image" src={detail.art} alt="" draggable="false" />
+              : <span className="wonder-detail-fallback">{simInitials(detail.name)}</span>}
+            <div className="wonder-detail-copy">
+              <span>{detail.kind}</span>
+              <h2>{detail.name}</h2>
+              <dl>
+                {stats.map(([label, value]) => <div key={label}><dt>{label}</dt><dd>{value}</dd></div>)}
+              </dl>
+            </div>
+          </article>
+        </div>
       </div>
-      <div className="db-meta">
-        <div className="db-name">{item.name}</div>
-        <div className="db-fields">
-          {fields.map(([k, v]) => (
-            <span key={k}>{String(Array.isArray(v) ? v.join(' / ') : v)}</span>
+    );
+  }
+  return (
+    <div className="wonder-view">
+      <div className="wonder-head">
+        <GPSec title="Miliastra Wonderland" style={{ flex:1, minWidth:0 }} />
+        <div className="gp-search">
+          <span className="ic"></span>
+          <input aria-label="Search Miliastra Wonderland" value={q} placeholder={'Search ' + active.label} spellCheck="false" onChange={(event) => setQ(event.target.value)} />
+          {q !== '' && <button type="button" className="x" title="Clear search" onClick={() => setQ('')}>{'\u2715'}</button>}
+        </div>
+      </div>
+      <div className="wonder-tabs" role="tablist" aria-label="Wonderland collections">
+        {sections.map((row) => (
+          <button type="button" role="tab" key={row.key} aria-selected={section === row.key} className={section === row.key ? 'on' : ''} onClick={() => selectSection(row.key)}>
+            <span>{row.label}</span><b>{row.items.length}</b>
+          </button>
+        ))}
+      </div>
+      {facets.length > 0 && (
+        <div className="wonder-filters">
+          {facets.map((facet) => (
+            <div className="wonder-filter-row" key={facet.key} role="group" aria-label={'Filter by ' + dbFieldLabel(facet.key)}>
+              <b>{facet.key === 'body' ? 'Body Type' : dbFieldLabel(facet.key)}</b>
+              {facet.values.map(([value, count]) => (
+                <button type="button" key={value} className={filters[facet.key] === value ? 'on' : ''} aria-pressed={filters[facet.key] === value} onClick={() => toggle(facet.key, value)}>
+                  <span>{value}</span><em>{count}</em>
+                </button>
+              ))}
+            </div>
           ))}
         </div>
-        {item.text && <p>{item.text}</p>}
+      )}
+      <div className="wonder-grid" aria-live="polite">
+        {visible.slice(0, DB_GRID_CAP).map((item) => (
+          <button type="button" className="wonder-card" key={item.id} aria-label={'View details for ' + item.name} onClick={() => openDetail(item)}>
+            <span>{item.art ? <img src={item.art} alt="" loading="lazy" draggable="false" /> : simInitials(item.name)}</span>
+            <b>{item.name}</b>
+          </button>
+        ))}
       </div>
-    </article>
+      {visible.length > DB_GRID_CAP && <div className="db-cap-note">Showing {DB_GRID_CAP} of {visible.length} — refine the search or filters to narrow it down.</div>}
+      {visible.length === 0 && <div className="db-empty">No Wonderland records match your search.</div>}
+    </div>
   );
 }
 
@@ -1954,7 +2390,9 @@ function GenshinTcgView(){
         </div>
         <div className="tcg-detail-scroll">
           <article className="tcg-detail-panel">
-            <div className="tcg-detail-art">{activeCard.art ? <img src={activeCard.art} alt="" draggable="false" /> : <span>{simInitials(activeCard.name)}</span>}</div>
+            {activeCard.art
+              ? <img className="tcg-detail-image" src={activeCard.art} alt="" draggable="false" />
+              : <span className="tcg-detail-fallback">{simInitials(activeCard.name)}</span>}
             <div className="tcg-detail-copy">
               <b>{activeCard.name}</b>
               {activeCard.title && <em>{activeCard.title}</em>}
@@ -2153,7 +2591,9 @@ function GenshinPotView(){
         </div>
         <div className="pot-detail-scroll">
           <article className="pot-detail-panel">
-            <div className="pot-detail-art">{activeItem.art ? <img src={activeItem.art} alt="" draggable="false" /> : <span>{simInitials(activeItem.name)}</span>}</div>
+            {activeItem.art
+              ? <img className="pot-detail-image" src={activeItem.art} alt="" draggable="false" />
+              : <span className="pot-detail-fallback">{simInitials(activeItem.name)}</span>}
             <div className="pot-detail-copy">
               <b>{activeItem.name}</b>
               <div className="pot-stat-grid">
@@ -2255,8 +2695,242 @@ function navKeyDown(fn){
   return (e) => { if (e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar') { e.preventDefault(); fn(); } };
 }
 
-function BetaDataPanel({ gameKey }){
+const BETA_DIFF_STATS = [
+  ['hp', 'HP'], ['atk', 'ATK'], ['def', 'DEF'], ['speed', 'Speed'],
+  ['critRate', 'CRIT Rate'], ['critDmg', 'CRIT DMG'], ['energyRecharge', 'Energy Recharge'],
+  ['elementalMastery', 'Elemental Mastery'], ['impact', 'Impact'],
+  ['anomalyProficiency', 'Anomaly Proficiency'], ['anomalyMastery', 'Anomaly Mastery'],
+];
+
+const BETA_DIFF_MATERIAL_FIELDS = [
+  ['ascension', 'Ascension materials'], ['talents', 'Talent materials'],
+  ['talentStages', 'Talent stages'], ['talentBase', 'Talent base'],
+  ['talentBaseCost', 'Talent base cost'], ['ascCost', 'Ascension total cost'],
+  ['talentCost', 'Talent total cost'], ['currency', 'Currency'], ['weapon', 'Weapon materials'],
+];
+
+function betaRoundNumber(value){
+  if (!Number.isFinite(value)) return value;
+  return Number(value.toFixed(6));
+}
+
+function betaNormalizeString(value){
+  return String(value || '').replace(/\r\n?/g, '\n').trim();
+}
+
+function betaStableValue(value){
+  if (value === undefined || value === null || value === '') return null;
+  if (typeof value === 'number') return betaRoundNumber(value);
+  if (typeof value === 'string') return betaNormalizeString(value).replace(/\s+/g, ' ');
+  if (typeof value === 'boolean') return value;
+  if (Array.isArray(value)) {
+    return value.map(betaStableValue).filter((row) => row !== null)
+      .sort((a, b) => JSON.stringify(a).localeCompare(JSON.stringify(b)));
+  }
+  if (typeof value === 'object') {
+    return Object.keys(value).sort().reduce((out, key) => {
+      const row = betaStableValue(value[key]);
+      if (row !== null) out[key] = row;
+      return out;
+    }, {});
+  }
+  return String(value);
+}
+
+function betaMaterialValue(value){
+  if (Array.isArray(value)) return value.map(betaMaterialValue).filter((row) => row !== null);
+  if (!value || typeof value !== 'object') return value;
+  const allowed = ['id', 'name', 'qty', 'rar', 'kind', 'cost', 'items'];
+  return allowed.reduce((out, key) => {
+    if (value[key] !== undefined && value[key] !== null && value[key] !== '') out[key] = betaMaterialValue(value[key]);
+    return out;
+  }, {});
+}
+
+function betaSkillValue(value){
+  if (Array.isArray(value)) return value.map(betaSkillValue).filter((row) => row !== null);
+  if (!value || typeof value !== 'object') return value;
+  const allowed = ['label', 'text', 'title', 'columns', 'rows', 'values'];
+  return allowed.reduce((out, key) => {
+    if (value[key] !== undefined && value[key] !== null && value[key] !== '') out[key] = betaSkillValue(value[key]);
+    return out;
+  }, {});
+}
+
+function betaFieldValue(value){
+  if (value === undefined || value === null || value === '') return 'Not provided';
+  if (typeof value === 'string') return betaNormalizeString(value) || 'Not provided';
+  if (typeof value === 'number') return String(betaRoundNumber(value));
+  if (typeof value === 'boolean') return value ? 'Yes' : 'No';
+  return JSON.stringify(betaStableValue(value), null, 2) || 'Not provided';
+}
+
+function betaPairRows(beforeRows, afterRows, keyFns){
+  const before = Array.isArray(beforeRows) ? beforeRows : [];
+  const after = Array.isArray(afterRows) ? afterRows : [];
+  const unused = new Set(before.map((_, index) => index));
+  const pairs = after.map((afterRow, afterIndex) => {
+    let beforeIndex = -1;
+    for (const getKey of keyFns) {
+      const afterKey = betaNormalizeString(getKey(afterRow) || '').toLowerCase();
+      if (!afterKey) continue;
+      beforeIndex = before.findIndex((beforeRow, index) => (
+        unused.has(index) && betaNormalizeString(getKey(beforeRow) || '').toLowerCase() === afterKey
+      ));
+      if (beforeIndex >= 0) break;
+    }
+    if (beforeIndex < 0 && unused.has(afterIndex)) beforeIndex = afterIndex;
+    if (beforeIndex < 0) beforeIndex = [...unused][0] ?? -1;
+    if (beforeIndex >= 0) unused.delete(beforeIndex);
+    return { before:beforeIndex >= 0 ? before[beforeIndex] : {}, after:afterRow || {} };
+  });
+  for (const beforeIndex of unused) pairs.push({ before:before[beforeIndex] || {}, after:{} });
+  return pairs;
+}
+
+function betaDiffRows(live, beta){
+  if (!live || !beta) return [];
+  const rows = [];
+  const add = (group, label, before, after) => {
+    if (JSON.stringify(betaStableValue(before)) === JSON.stringify(betaStableValue(after))) return;
+    rows.push({ group, label, before, after });
+  };
+  add('Identity', 'Name', live.n, beta.n);
+  add('Identity', 'Title', live.title, beta.title);
+  add('Identity', 'Rarity', live.r, beta.r);
+
+  for (const [key, label] of BETA_DIFF_STATS) {
+    add('Base stats', `${label} (Level 1)`, live.baseStats?.level1?.[key], beta.baseStats?.level1?.[key]);
+    add('Base stats', `${label} (Max)`, live.baseStats?.max?.[key], beta.baseStats?.max?.[key]);
+  }
+  add('Base stats', 'Maximum level', live.baseStats?.max?.level, beta.baseStats?.max?.level);
+
+  for (const [key, label] of BETA_DIFF_MATERIAL_FIELDS) {
+    add('Materials', label, betaMaterialValue(live.req?.[key]), betaMaterialValue(beta.req?.[key]));
+  }
+
+  const liveSections = Array.isArray(live.kit?.sections) ? live.kit.sections : [];
+  const betaSections = Array.isArray(beta.kit?.sections) ? beta.kit.sections : [];
+  const sectionPairs = betaPairRows(liveSections, betaSections, [(section) => section?.title]);
+  for (let sectionIndex = 0; sectionIndex < sectionPairs.length; sectionIndex += 1) {
+    const beforeSection = sectionPairs[sectionIndex].before;
+    const afterSection = sectionPairs[sectionIndex].after;
+    const sectionName = afterSection.title || beforeSection.title || `Section ${sectionIndex + 1}`;
+    add('Skills and talents', `${sectionName} / Section name`, beforeSection.title, afterSection.title);
+    const beforeEntries = Array.isArray(beforeSection.entries) ? beforeSection.entries : [];
+    const afterEntries = Array.isArray(afterSection.entries) ? afterSection.entries : [];
+    const entryPairs = betaPairRows(beforeEntries, afterEntries, [
+      (entry) => `${entry?.name || ''}|${entry?.type || ''}`,
+      (entry) => entry?.name,
+      (entry) => entry?.type,
+    ]);
+    for (let entryIndex = 0; entryIndex < entryPairs.length; entryIndex += 1) {
+      const beforeEntry = entryPairs[entryIndex].before;
+      const afterEntry = entryPairs[entryIndex].after;
+      const entryName = afterEntry.name || beforeEntry.name || `Entry ${entryIndex + 1}`;
+      const prefix = `${sectionName} / ${entryName}`;
+      add('Skills and talents', `${prefix} / Name`, beforeEntry.name, afterEntry.name);
+      add('Skills and talents', `${prefix} / Type`, beforeEntry.type, afterEntry.type);
+      add('Skills and talents', `${prefix} / Description`, beforeEntry.desc, afterEntry.desc);
+      add('Skills and talents', `${prefix} / Levels`, betaSkillValue(beforeEntry.levels), betaSkillValue(afterEntry.levels));
+      add('Skills and talents', `${prefix} / Scaling`, betaSkillValue(beforeEntry.scaling), betaSkillValue(afterEntry.scaling));
+    }
+  }
+  return rows;
+}
+
+function BetaDiffValue({ value, compact }){
+  const text = betaFieldValue(value);
+  const isLong = text.length > (compact ? 120 : 260) || text.split('\n').length > (compact ? 3 : 7);
+  if (!isLong) return <pre>{text}</pre>;
+  return (
+    <details className="beta-diff-long">
+      <summary>{compact ? 'Show value' : 'Show full value'}</summary>
+      <pre>{text}</pre>
+    </details>
+  );
+}
+
+function BetaDiffModal({ character, liveCharacter, onClose }){
+  const [compact, setCompact] = React.useState(false);
+  const closeRef = React.useRef(null);
+  const cardRef = React.useRef(null);
+  const rows = React.useMemo(() => betaDiffRows(liveCharacter, character), [liveCharacter, character]);
+  React.useEffect(() => {
+    const onKeyDown = (event) => {
+      if (event.key === 'Escape') {
+        event.preventDefault();
+        onClose();
+      } else if (event.key === 'Tab') {
+        const focusable = Array.from(cardRef.current?.querySelectorAll('button:not([disabled]), summary, [href], [tabindex]:not([tabindex="-1"])') || []);
+        if (!focusable.length) {
+          event.preventDefault();
+          cardRef.current?.focus();
+          return;
+        }
+        const first = focusable[0];
+        const last = focusable[focusable.length - 1];
+        if (event.shiftKey && (document.activeElement === first || !cardRef.current?.contains(document.activeElement))) {
+          event.preventDefault();
+          last.focus();
+        } else if (!event.shiftKey && (document.activeElement === last || !cardRef.current?.contains(document.activeElement))) {
+          event.preventDefault();
+          first.focus();
+        }
+      }
+    };
+    document.addEventListener('keydown', onKeyDown);
+    closeRef.current?.focus();
+    return () => document.removeEventListener('keydown', onKeyDown);
+  }, [onClose]);
+  const modal = (
+    <div className="beta-diff-modal" role="dialog" aria-modal="true" aria-labelledby="beta-diff-title"
+         onMouseDown={(event) => { if (event.target === event.currentTarget) onClose(); }}>
+      <article ref={cardRef} tabIndex={-1} className={'beta-diff-card' + (compact ? ' compact' : '')}>
+        <header>
+          <div>
+            <span>Live vs Beta</span>
+            <h2 id="beta-diff-title">{character.n}</h2>
+            <em>{rows.length} trusted field {rows.length === 1 ? 'change' : 'changes'}</em>
+          </div>
+          <div className="beta-diff-actions">
+            <button type="button" aria-pressed={compact} onClick={() => setCompact((value) => !value)}>{compact ? 'Side by side' : 'Compact'}</button>
+            <button type="button" ref={closeRef} aria-label={`Close ${character.n} changes`} onClick={onClose}>{'\u2715'}</button>
+          </div>
+        </header>
+        {rows.length === 0 ? (
+          <p className="beta-diff-empty">This record is marked changed, but its trusted display fields match after normalization.</p>
+        ) : compact ? (
+          <div className="beta-diff-compact-list">
+            {rows.map((row, index) => (
+              <section key={`${row.group}-${row.label}-${index}`}>
+                <span>{row.group}</span><b>{row.label}</b>
+                <div><BetaDiffValue value={row.before} compact /><i aria-hidden="true">{'\u2192'}</i><BetaDiffValue value={row.after} compact /></div>
+              </section>
+            ))}
+          </div>
+        ) : (
+          <div className="beta-diff-table" role="table" aria-label={`${character.n} live and beta changes`}>
+            <div className="beta-diff-table-head" role="row"><span role="columnheader">Field</span><b role="columnheader">Live</b><b role="columnheader">Beta</b></div>
+            {rows.map((row, index) => (
+              <div className="beta-diff-row" role="row" key={`${row.group}-${row.label}-${index}`}>
+                <div role="rowheader"><span>{row.group}</span><b>{row.label}</b></div>
+                <div role="cell"><BetaDiffValue value={row.before} /></div>
+                <div role="cell"><BetaDiffValue value={row.after} /></div>
+              </div>
+            ))}
+          </div>
+        )}
+      </article>
+    </div>
+  );
+  return ReactDOM.createPortal ? ReactDOM.createPortal(modal, document.body) : modal;
+}
+
+function BetaDataPanel({ gameKey, onOpenCharacter }){
   const [, setTick] = React.useState(0);
+  const [inspecting, setInspecting] = React.useState(null);
+  const restoreFocusRef = React.useRef(null);
   React.useEffect(() => {
     let live = true;
     const onBeta = (event) => {
@@ -2268,11 +2942,27 @@ function BetaDataPanel({ gameKey }){
     return () => { live = false; window.removeEventListener('nyx:cm-beta-loaded', onBeta); };
   }, [gameKey]);
 
+  React.useEffect(() => setInspecting(null), [gameKey]);
+
   const pack = (window.CM_CFG_BETA || {})[gameKey] || null;
   const liveCfg = (window.CM_CFG || {})[gameKey] || null;
   const characters = (pack?.roster || []).slice().sort((a, b) => (a.betaStatus === 'new' ? 0 : 1) - (b.betaStatus === 'new' ? 0 : 1) || String(a.n || '').localeCompare(String(b.n || '')));
   const weapons = (pack?.weapons || []).slice().sort((a, b) => String(a.name || '').localeCompare(String(b.name || '')));
   const hasAny = characters.length || weapons.length;
+  const findLiveCharacter = (character) => (liveCfg?.roster || []).find((row) => String(row.id) === String(character.id))
+    || (liveCfg?.roster || []).find((row) => String(row.n || '').toLowerCase() === String(character.n || '').toLowerCase())
+    || null;
+  const openInspector = (character, event) => {
+    if (character.betaStatus !== 'changed') return;
+    restoreFocusRef.current = event?.currentTarget || document.activeElement;
+    setInspecting({ character, liveCharacter:findLiveCharacter(character) });
+  };
+  const closeInspector = React.useCallback(() => {
+    setInspecting(null);
+    const restore = restoreFocusRef.current;
+    restoreFocusRef.current = null;
+    if (restore && typeof restore.focus === 'function') requestAnimationFrame(() => restore.focus());
+  }, []);
   return (
     <main className="gp-main-pane fill beta-pane">
       <div className="beta-pane-head">
@@ -2286,12 +2976,20 @@ function BetaDataPanel({ gameKey }){
         <section className="beta-section">
           <div className="beta-section-title">Characters</div>
           <div className="beta-grid">
-            {characters.map((ch) => (
-              <article className="beta-card" key={ch.id}>
-                {ch.icon && <img src={ch.icon} alt="" draggable="false" />}
-                <div><b>{ch.n}</b><span>{ch.betaStatus === 'new' ? 'New' : 'Changed'}{ch.reliableData === false ? ' / No reliable data' : ''}</span></div>
-              </article>
-            ))}
+            {characters.map((ch) => {
+              const changed = ch.betaStatus === 'changed';
+              return (
+                <article className={'beta-card beta-character-card' + (changed ? ' inspectable' : '')} key={ch.id}>
+                  <button type="button" className="beta-card-main" disabled={!changed}
+                          aria-label={changed ? `Inspect live and beta changes for ${ch.n}` : `${ch.n} is new in beta`}
+                          onClick={(event) => openInspector(ch, event)}>
+                    {ch.icon && <img src={ch.icon} alt="" draggable="false" />}
+                    <span><b>{ch.n}</b><em>{ch.betaStatus === 'new' ? 'New' : 'Changed'}{ch.reliableData === false ? ' / No reliable data' : ''}</em></span>
+                  </button>
+                  <button type="button" className="beta-card-open" aria-label={`View ${ch.n} character`} onClick={() => onOpenCharacter(ch)}>View character</button>
+                </article>
+              );
+            })}
           </div>
         </section>
       )}
@@ -2309,13 +3007,16 @@ function BetaDataPanel({ gameKey }){
         </section>
       )}
       {!hasAny && <div className="db-empty">No beta datasets are available for this game right now.</div>}
+      {inspecting && (
+        <BetaDiffModal character={inspecting.character} liveCharacter={inspecting.liveCharacter} onClose={closeInspector} />
+      )}
     </main>
   );
 }
 
 function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, characterCustomize, setCharacterCustomize, materialSelection, setMaterialSelection, onSelectMaterialCharacter, onCloseMaterialCharacter }){
-  const fns = cfg.fns || ['Character Materials','Database','Wish Tracker'];
-  const visibleFns = fns.filter((f) => !/^database$/i.test(f) || settings?.showDatabase === true);
+  const fns = cfg.fns || ['Characters','Database','Wish Tracker'];
+  const visibleFns = fns; // J: Database is always visible (gating + settings toggle removed)
   const [cmChannel, setCmChannel] = React.useState(() => (typeof cmLoadChannel === 'function' ? cmLoadChannel(cfg.key) : 'live'));
   React.useEffect(() => {
     setCmChannel(typeof cmLoadChannel === 'function' ? cmLoadChannel(cfg.key) : 'live');
@@ -2342,6 +3043,15 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
     setCharacterCustomize(Object.assign({ game:cfg.key, restoreScroll:0 }, payload || {}));
     setTab('char-customize');
   };
+  const openBetaCharacter = (character) => {
+    if (!character) return;
+    cmSaveChannel(cfg.key, 'beta');
+    try { window.dispatchEvent(new CustomEvent('nyx:cm-channel-changed', { detail:{ key:cfg.key, channel:'beta' } })); } catch (e) {}
+    setTab('mats');
+    // routeTab clears the prior page selection while changing tabs, so enqueue
+    // the beta character after it; the materials panel then opens this name.
+    if (setMaterialSelection) setMaterialSelection({ game:cfg.key, name:character.n, from:'beta' });
+  };
   const backFromCharacterCustomize = () => {
     const restore = Number(characterCustomize?.restoreScroll || 0);
     setTab('mats');
@@ -2350,9 +3060,9 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
       if (scroller) scroller.scrollTop = restore;
     }, 40);
   };
-  // G13: the section list the Character-Materials header icon-dropdown switches between.
-  const sectionKey = (f) => /tracker$/i.test(f) ? 'tracker' : /^character materials$/i.test(f) ? 'mats' : 'library';
-  const sections = [{ key:'overview', label:'Overview' }, ...visibleFns.map((f) => ({ key:sectionKey(f), label:f })), ...(hasTcg ? [{ key:'tcg', label:'TCG' }, { key:'pot', label:'Serenitea Pot' }] : []), ...(betaActive ? [{ key:'beta', label:'Beta' }] : []), { key:'settings', label:'Settings' }];
+  // G13: the section list the Characters header icon-dropdown switches between.
+  const sectionKey = (f) => /tracker$/i.test(f) ? 'tracker' : /^(characters|character materials)$/i.test(f) ? 'mats' : 'database';
+  const sections = [{ key:'overview', label:'Overview' }, ...visibleFns.map((f) => ({ key:sectionKey(f), label:f })), ...(betaActive ? [{ key:'beta', label:'Beta' }] : []), { key:'settings', label:'Settings' }];
   return (
     <div className={'gp-layout' + (tab === 'overview' ? ' has-aside' : '')}>
       <nav className="gp-side-nav" aria-label="Tools">
@@ -2363,30 +3073,19 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
         </div>
         {visibleFns.map(f => {
           const isTracker = /tracker$/i.test(f);
-          const isMats = /^character materials$/i.test(f);
-          const key = isTracker ? 'tracker' : isMats ? 'mats' : 'library';
+          const isMats = /^(characters|character materials)$/i.test(f);
+          const key = isTracker ? 'tracker' : isMats ? 'mats' : 'database';
+          // TCG + Serenitea Pot live INSIDE Database now \u2014 their tabs keep the
+          // Database nav row lit.
+          const isOn = tab === key || (key === 'database' && (tab === 'tcg' || tab === 'pot'));
           return (
-            <div key={f} className={'gp-fn-row click' + (tab === key ? ' on' : '')}
-                 role="button" tabIndex={0} aria-current={tab === key ? 'page' : undefined}
+            <div key={f} className={'gp-fn-row click' + (isOn ? ' on' : '')}
+                 role="button" tabIndex={0} aria-current={isOn ? 'page' : undefined}
                  onClick={() => setTab(key)} onKeyDown={navKeyDown(() => setTab(key))}>
               <span className="dia" aria-hidden="true"></span><span>{f}</span><span className="go">{'\u203A'}</span>
             </div>
           );
         })}
-        {hasTcg && (
-          <div className={'gp-fn-row click' + (tab === 'tcg' ? ' on' : '')}
-               role="button" tabIndex={0} aria-current={tab === 'tcg' ? 'page' : undefined}
-               onClick={() => setTab('tcg')} onKeyDown={navKeyDown(() => setTab('tcg'))}>
-            <span className="dia" aria-hidden="true"></span><span>TCG</span><span className="go">{'\u203A'}</span>
-          </div>
-        )}
-        {hasTcg && (
-          <div className={'gp-fn-row click' + (tab === 'pot' ? ' on' : '')}
-               role="button" tabIndex={0} aria-current={tab === 'pot' ? 'page' : undefined}
-               onClick={() => setTab('pot')} onKeyDown={navKeyDown(() => setTab('pot'))}>
-            <span className="dia" aria-hidden="true"></span><span>Serenitea Pot</span><span className="go">{'\u203A'}</span>
-          </div>
-        )}
         {betaActive && (
           <div className={'gp-fn-row click' + (tab === 'beta' ? ' on' : '')}
                role="button" tabIndex={0} aria-current={tab === 'beta' ? 'page' : undefined}
@@ -2403,12 +3102,12 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
 
       {tab === 'overview' && (
         <main className="gp-main-pane gp-overview-main">
-          <Favourites key={cfg.key} cfg={cfg} onOpenMaterial={onOpenMaterial} settings={settings} />
           <CurrentBannerStrip cfg={cfg} />
         </main>
       )}
       {tab === 'mats' && (
-        <main className="gp-main-pane fill">
+        <main className="gp-main-pane fill gp-characters-main">
+          {!materialSelection?.name && <Favourites key={cfg.key} cfg={cfg} onOpenMaterial={onOpenMaterial} settings={settings} />}
           <CharMaterials
             inline
             game={cfg.key}
@@ -2420,10 +3119,8 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
             onCustomizeCharacter={openCharacterCustomize}
             onSelectCharacter={(ch) => onSelectMaterialCharacter && onSelectMaterialCharacter(cfg.key, ch)}
             onSelectedClose={() => {
-              const fromOverview = materialSelection?.game === cfg.key && materialSelection?.from === 'overview';
               if (setMaterialSelection) setMaterialSelection(null);
-              if (fromOverview) setTab('overview');
-              else if (onCloseMaterialCharacter) onCloseMaterialCharacter(cfg.key);
+              if (onCloseMaterialCharacter) onCloseMaterialCharacter(cfg.key);
             }}
           />
         </main>
@@ -2444,22 +3141,14 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
           <GachaTracker key={cfg.key} inline cfg={buildTrack(cfg)} />
         </main>
       )}
-      {tab === 'library' && (
+      {(tab === 'database' || tab === 'tcg' || tab === 'pot' || tab === 'wonderland') && (
         <main className="gp-main-pane fill">
-          <CollectionLibrary key={cfg.key} game={cfg.key} />
+          <CollectionLibrary key={cfg.key} game={cfg.key}
+            view={tab === 'database' ? undefined : tab}
+            onViewChange={(next) => setTab(next)} />
         </main>
       )}
-      {tab === 'tcg' && (
-        <main className="gp-main-pane fill">
-          <GenshinTcgView />
-        </main>
-      )}
-      {tab === 'pot' && (
-        <main className="gp-main-pane fill">
-          <GenshinPotView />
-        </main>
-      )}
-      {tab === 'beta' && betaActive && <BetaDataPanel gameKey={cfg.key} />}
+      {tab === 'beta' && betaActive && <BetaDataPanel gameKey={cfg.key} onOpenCharacter={openBetaCharacter} />}
       {tab === 'settings' && <SettingsPane settings={settings} setSettings={setSettings} />}
 
       {tab === 'overview' && <OverviewAside cfg={cfg} />}
@@ -2467,9 +3156,184 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
   );
 }
 
+/* ---------------- hub birthday calendar (Workstream P) ---------------- */
+// HSR is excluded by design: its characters canonically have no birthdays.
+const BDAY_GAMES = ['gi','zzz','wuwa','ae'];
+const BDAY_STORE_KEY = 'nyx:birthday-calendar-games:v1';
+const BDAY_MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+const BDAY_WEEKDAYS = ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
+
+function bdayParse(text){
+  const m = String(text || '').trim().match(/^([A-Za-z]+)\s+(\d{1,2})$/);
+  if (!m) return null;
+  const month = BDAY_MONTHS.findIndex((name) => name.toLowerCase() === m[1].toLowerCase());
+  const day = Number(m[2]);
+  return month >= 0 && day >= 1 && day <= 31 ? { month, day } : null;
+}
+
+function loadBdayGames(){
+  try {
+    const saved = JSON.parse(localStorage.getItem(BDAY_STORE_KEY) || 'null');
+    if (Array.isArray(saved)) return BDAY_GAMES.filter((g) => saved.includes(g));
+  } catch (e) {}
+  return BDAY_GAMES.slice();
+}
+
+// Next occurrence of a birthday from today (a Feb 29 entry rolls to Mar 1 in
+// non-leap years via Date overflow).
+function bdayNextDate(now, month, day){
+  const todayStart = new Date(now.getFullYear(), now.getMonth(), now.getDate()).getTime();
+  let candidate = new Date(now.getFullYear(), month, day);
+  if (candidate.getTime() < todayStart) candidate = new Date(now.getFullYear() + 1, month, day);
+  return candidate;
+}
+
+function BdayChip({ entry, onOpenMaterial }){
+  return (
+    <button type="button" className={'bcal-chip g-' + entry.game}
+            title={entry.name + ' — ' + BDAY_MONTHS[entry.month] + ' ' + entry.day + ' (' + (GAME_REGISTRY[entry.game]?.name || entry.game) + ')'}
+            aria-label={entry.name + ', birthday ' + BDAY_MONTHS[entry.month] + ' ' + entry.day + ', ' + (GAME_REGISTRY[entry.game]?.name || entry.game)}
+            onClick={() => onOpenMaterial && onOpenMaterial(entry.game, entry.name)}>
+      {entry.icon
+        ? <img src={entry.icon} alt="" draggable="false" loading="lazy" />
+        : <span className="bcal-chip-fallback">{String(entry.name || '?').slice(0, 1)}</span>}
+    </button>
+  );
+}
+
+function BirthdayCalendar({ onOpenMaterial }){
+  const [enabled, setEnabled] = React.useState(loadBdayGames);
+  const [loadTick, setLoadTick] = React.useState(0);
+  const [cursor, setCursor] = React.useState(() => { const d = new Date(); return { year:d.getFullYear(), month:d.getMonth() }; });
+
+  React.useEffect(() => {
+    let live = true;
+    BDAY_GAMES.forEach((g) => requestCmGame(g).then(() => { if (live) setLoadTick((v) => v + 1); }));
+    return () => { live = false; };
+  }, []);
+
+  const toggle = (g) => setEnabled((prev) => {
+    const next = prev.includes(g) ? prev.filter((k) => k !== g) : BDAY_GAMES.filter((k) => prev.includes(k) || k === g);
+    try { localStorage.setItem(BDAY_STORE_KEY, JSON.stringify(next)); } catch (e) {}
+    return next;
+  });
+
+  const entries = React.useMemo(() => {
+    const out = [];
+    for (const g of BDAY_GAMES){
+      if (!enabled.includes(g)) continue;
+      const seen = new Set();
+      for (const ch of getCmRoster(g)){
+        const name = ch.n || ch.name;
+        const key = String(name || '').toLowerCase();
+        if (!name || seen.has(key)) continue;
+        seen.add(key);
+        const b = bdayParse(ch.facts && ch.facts.birthday);
+        if (!b) continue;
+        out.push({ game:g, name, icon: ch.icon || ch.circle || ch.card || null, month:b.month, day:b.day });
+      }
+    }
+    return out;
+  }, [enabled, loadTick]);
+
+  const now = new Date();
+  const upcoming = React.useMemo(() => (
+    entries
+      .map((entry) => ({ ...entry, next: bdayNextDate(now, entry.month, entry.day) }))
+      .sort((a, b) => a.next - b.next || a.name.localeCompare(b.name))
+      .slice(0, 5)
+  ), [entries, now.getFullYear(), now.getMonth(), now.getDate()]);
+
+  const byDay = React.useMemo(() => {
+    const map = new Map();
+    for (const entry of entries){
+      if (entry.month !== cursor.month) continue;
+      if (!map.has(entry.day)) map.set(entry.day, []);
+      map.get(entry.day).push(entry);
+    }
+    for (const list of map.values()) list.sort((a, b) => BDAY_GAMES.indexOf(a.game) - BDAY_GAMES.indexOf(b.game) || a.name.localeCompare(b.name));
+    return map;
+  }, [entries, cursor.month]);
+
+  const daysInMonth = new Date(cursor.year, cursor.month + 1, 0).getDate();
+  const leadBlanks = (new Date(cursor.year, cursor.month, 1).getDay() + 6) % 7; // Monday-first
+  const isTodayCell = (day) => day === now.getDate() && cursor.month === now.getMonth() && cursor.year === now.getFullYear();
+  const moveMonth = (delta) => setCursor((prev) => {
+    const d = new Date(prev.year, prev.month + delta, 1);
+    return { year:d.getFullYear(), month:d.getMonth() };
+  });
+  const daysUntil = (next) => {
+    const todayStart = new Date(now.getFullYear(), now.getMonth(), now.getDate()).getTime();
+    return Math.round((next.getTime() - todayStart) / 86400000);
+  };
+
+  return (
+    <section className="bcal" aria-label="Character birthday calendar">
+      <div className="bcal-head">
+        <GPSec title="Birthday Calendar" icon="../assets/decor/orbit_burst.png" style={{ flex:1, minWidth:0 }} />
+        <div className="bcal-toggles" role="group" aria-label="Games shown on the calendar">
+          {BDAY_GAMES.map((g) => (
+            <button type="button" key={g} className={'bcal-toggle g-' + g + (enabled.includes(g) ? ' on' : '')}
+                    aria-pressed={enabled.includes(g)} onClick={() => toggle(g)}>
+              {(SIM_GAMES.find((game) => game.key === g) || {}).icon && <img src={SIM_GAMES.find((game) => game.key === g).icon} alt="" draggable="false" />}
+              <span>{GAME_REGISTRY[g]?.name || g}</span>
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {upcoming.length > 0 && (
+        <div className="bcal-next" aria-label="Next birthdays">
+          <b>Next birthdays</b>
+          <div className="bcal-next-row">
+            {upcoming.map((entry) => (
+              <div className="bcal-next-item" key={entry.game + ':' + entry.name}>
+                <BdayChip entry={entry} onOpenMaterial={onOpenMaterial} />
+                <span className="who">{entry.name}</span>
+                <span className="when">{BDAY_MONTHS[entry.month].slice(0, 3)} {entry.day}{daysUntil(entry.next) === 0 ? ' · today!' : ' · in ' + daysUntil(entry.next) + 'd'}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      <div className="bcal-month-bar">
+        <button type="button" className="bcal-nav" aria-label="Previous month" onClick={() => moveMonth(-1)}>{'‹'}</button>
+        <b>{BDAY_MONTHS[cursor.month]} {cursor.year}</b>
+        <button type="button" className="bcal-nav" aria-label="Next month" onClick={() => moveMonth(1)}>{'›'}</button>
+        {(cursor.month !== now.getMonth() || cursor.year !== now.getFullYear()) && (
+          <button type="button" className="bcal-today-btn" onClick={() => setCursor({ year:now.getFullYear(), month:now.getMonth() })}>Today</button>
+        )}
+      </div>
+
+      <div className="bcal-grid" role="grid" aria-label={BDAY_MONTHS[cursor.month] + ' ' + cursor.year}>
+        {BDAY_WEEKDAYS.map((d) => <div className="bcal-wd" key={d} role="columnheader">{d}</div>)}
+        {Array.from({ length: leadBlanks }, (_, i) => <div className="bcal-cell blank" key={'blank-' + i} aria-hidden="true"></div>)}
+        {Array.from({ length: daysInMonth }, (_, i) => {
+          const day = i + 1;
+          const list = byDay.get(day) || [];
+          return (
+            <div className={'bcal-cell' + (isTodayCell(day) ? ' today' : '') + (list.length ? ' has-bday' : '')} key={day} role="gridcell">
+              <span className="d">{day}</span>
+              {list.length > 0 && (
+                <div className="bcal-cell-chips">
+                  {list.map((entry) => <BdayChip key={entry.game + ':' + entry.name} entry={entry} onOpenMaterial={onOpenMaterial} />)}
+                </div>
+              )}
+            </div>
+          );
+        })}
+      </div>
+      {entries.length === 0 && <div className="bcal-empty">{enabled.length ? 'Birthday data is still loading…' : 'Enable at least one game to see birthdays.'}</div>}
+    </section>
+  );
+}
+
 function SimContent({ tab, setTab, onOpenMaterial, settings, setSettings }){
   const NAV = [
     { key:'overview', label:'Overview' },
+    { key:'characters', label:'Characters' },
+    { key:'calendar', label:'Calendar' },
     { key:'pulls',    label:'Pull Overview' },
     { key:'codes',    label:'All Redemption Codes' },
     { key:'banners',  label:'All Banners' },
@@ -2488,10 +3352,11 @@ function SimContent({ tab, setTab, onOpenMaterial, settings, setSettings }){
       </nav>
       {tab === 'overview' && (
         <main className="gp-main-pane gp-overview-main">
-          <Favourites key="nyx" cfg={NYX_META} onOpenMaterial={onOpenMaterial} settings={settings} />
           <CurrentBannerStrip cfg={NYX_META} />
         </main>
       )}
+      {tab === 'characters' && <main className="gp-main-pane fill gp-characters-main"><Favourites key="nyx" cfg={NYX_META} onOpenMaterial={onOpenMaterial} settings={settings} /></main>}
+      {tab === 'calendar' && <main className="gp-main-pane fill"><BirthdayCalendar onOpenMaterial={onOpenMaterial} /></main>}
       {tab === 'pulls' && <main className="gp-main-pane fill"><PullsOverview /></main>}
       {tab === 'codes' && <main className="gp-main-pane fill"><AllCodesView /></main>}
       {tab === 'banners' && <main className="gp-main-pane fill"><AllBannersView /></main>}
@@ -2515,15 +3380,18 @@ const ROUTE_SEGMENT_TO_KEY = {
 const GAME_TAB_TO_ROUTE = {
   overview:'',
   mats:'materials',
-  library:'library',
+  database:'database',
   tracker:'tracker',
-  tcg:'tcg',
-  pot:'serenitea-pot',
+  tcg:'database/tcg',
+  pot:'database/serenitea-pot',
+  wonderland:'database/wonderland',
   beta:'beta',
   settings:'settings',
 };
 const NYX_TAB_TO_ROUTE = {
   overview:'',
+  characters:'characters',
+  calendar:'calendar',
   pulls:'pulls',
   codes:'codes',
   banners:'banners',
@@ -2534,16 +3402,21 @@ const ROUTE_TO_GAME_TAB = {
   mats:'mats',
   characters:'mats',
   character:'mats',
-  library:'library',
+  database:'database',
+  library:'database', // old bookmarks land on the renamed Database tab
   tracker:'tracker',
   tcg:'tcg',
   'serenitea-pot':'pot',
   pot:'pot',
   furniture:'pot',
+  wonderland:'wonderland',
   beta:'beta',
   settings:'settings',
 };
 const ROUTE_TO_NYX_TAB = {
+  characters:'characters',
+  character:'characters',
+  calendar:'calendar',
   pulls:'pulls',
   pull:'pulls',
   codes:'codes',
@@ -2584,7 +3457,10 @@ function routeFromLocation(){
       return { key, tab:coerceTabForKey(key, ROUTE_TO_NYX_TAB[sub] || 'overview') };
     }
     const character = (sub === 'characters' || sub === 'character') ? parts.slice(2).join('-') : '';
-    const tab = character ? 'mats' : (ROUTE_TO_GAME_TAB[sub] || 'overview');
+    const legacyHash = String(location.hash || '').replace(/^#\/?/, '').split('/').filter(Boolean).pop() || '';
+    const hashTab = ROUTE_TO_GAME_TAB[legacyHash];
+    const databaseView = sub === 'database' ? (ROUTE_TO_GAME_TAB[parts[2] || ''] || hashTab) : null;
+    const tab = character ? 'mats' : (databaseView || ROUTE_TO_GAME_TAB[sub] || hashTab || 'overview');
     return { key, tab:coerceTabForKey(key, tab), character:character || null };
   } catch (e) {
     return {};
@@ -2619,13 +3495,13 @@ function routeTitleFor(key, tab, selection){
   const selectedName = selection && selection.game === key ? routeDisplayName(selection.name) : '';
   if (selectedName) return 'Nyx \u2014 ' + selectedName + ' \u2014 ' + name;
   if (key === 'nyx') return tab && tab !== 'overview' ? 'Nyx \u2014 ' + tab.replace(/\b\w/g, (c) => c.toUpperCase()) : 'Nyx';
-  const label = { mats:'Character Materials', library:'Library', tracker:'Tracker', tcg:'TCG', pot:'Serenitea Pot', beta:'Beta', settings:'Settings' }[tab] || '';
+  const label = { mats:'Characters', database:'Database', tracker:'Tracker', tcg:'TCG', pot:'Serenitea Pot', wonderland:'Miliastra Wonderland', beta:'Beta', settings:'Settings' }[tab] || '';
   return label ? 'Nyx \u2014 ' + label + ' \u2014 ' + name : 'Nyx \u2014 ' + name;
 }
 
 function validTabsForKey(key){
-  if (key === 'gi') return ['overview','mats','char-customize','library','tracker','tcg','pot','beta','settings'];
-  return key === 'nyx' ? ['overview','pulls','codes','banners','settings'] : ['overview','mats','char-customize','library','tracker','beta','settings'];
+  if (key === 'gi') return ['overview','mats','char-customize','database','tracker','tcg','pot','wonderland','beta','settings'];
+  return key === 'nyx' ? ['overview','characters','calendar','pulls','codes','banners','settings'] : ['overview','mats','char-customize','database','tracker','beta','settings'];
 }
 
 function coerceTabForKey(key, wanted){
@@ -2665,7 +3541,6 @@ const NYX_PENGO_DEFAULTS = {
   language: NYX_LANGUAGE_DEFAULTS,
   specialUnits: NYX_SPECIAL_UNIT_DEFAULTS,
   alwaysBeta: false,
-  showDatabase: false,
   lapis: false,
   energy: 35,
   spawn: 1,
@@ -2953,7 +3828,6 @@ function PengoMenu({ settings, setSettings, inline }){
     animation: NYX_PENGO_DEFAULTS.animation,
     khaenriah: NYX_PENGO_DEFAULTS.khaenriah,
     alwaysBeta: NYX_PENGO_DEFAULTS.alwaysBeta,
-    showDatabase: NYX_PENGO_DEFAULTS.showDatabase,
   });
   const resetOpus = () => update({
     lapis: NYX_PENGO_DEFAULTS.lapis,
@@ -3028,10 +3902,6 @@ function PengoMenu({ settings, setSettings, inline }){
           <button type="button" className="pm-row" data-tip="Change all fonts to the Ancient(Khaenri'ahn) Script"
                   onClick={() => update({ khaenriah:!settings.khaenriah })}>
             <span>Welcome to Khaenri'ah</span><b className="pm-state">{settings.khaenriah ? 'On' : 'Off'}</b>
-          </button>
-          <button type="button" className="pm-row" data-tip="Show the Database Library section in game menus"
-                  onClick={() => update({ showDatabase:!settings.showDatabase })}>
-            <span>Database Library</span><b className="pm-state">{settings.showDatabase ? 'On' : 'Off'}</b>
           </button>
           <button type="button" className="pm-row" data-tip="Always show beta data where a beta channel exists"
                   onClick={() => update({ alwaysBeta:!settings.alwaysBeta })}>
@@ -3251,7 +4121,7 @@ function NyxApp(){
     const safeTab = coerceTabForKey(safeKey, nextTab || 'overview');
     const href = routePathFor(safeKey, safeTab, selection);
     try {
-      if (href && location.pathname !== href) {
+      if (href && (location.pathname !== href || location.hash)) {
         const method = opts && opts.replace ? 'replaceState' : 'pushState';
         window.history[method](routeStateFor(safeKey, safeTab, selection), '', href);
       }
@@ -3466,9 +4336,8 @@ function NyxApp(){
     setActiveKey(targetGame);
     setTab('mats');
     setCharacterCustomize(null);
-    // Tag the origin so the character detail can offer "Back to Overview" and
-    // return to the overview (favourites) instead of the materials roster.
-    const selection = { game:targetGame, name, from:'overview' };
+    // Favourites now live in Characters, so character details return there.
+    const selection = { game:targetGame, name, from:'characters' };
     setMaterialSelection(selection);
     commitRoute(targetGame, 'mats', selection);
   };

@@ -26,13 +26,13 @@ Thumbs.db
 .thumbnail/
 verification-screenshots/
 
-# Nanoka beta channel data IS shipped (user-approved 2026-06-22): served behind an
-# opt-in Beta/Live toggle that defaults to Live on Nanoka game pages. Tracked, not ignored.
+# GameData beta channel data IS shipped (user-approved 2026-06-22): served behind an
+# opt-in Beta/Live toggle that defaults to Live on GameData game pages. Tracked, not ignored.
 
 # Scraper internal state / cache — bookkeeping only, never shipped or needed to regenerate.
 Database/_httpcache/
-Database/Nanoka/_state/
-Database/Nanoka/changes/
+Database/GameData/_state/
+Database/GameData/changes/
 
 
 # Agent coordination (junctions into C:\Pengo\AI) - never commit

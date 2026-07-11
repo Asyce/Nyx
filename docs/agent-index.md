@@ -13,15 +13,17 @@ Use this as the first reference when Codex, Claude, or another coding agent work
 Read these before implementing review-driven work:
 
 00. `docs/ui-changes-plan-2026-07-09.md` — **CURRENT ACTIVE PLAN (FINAL).**
-    16 batches (workstreams A–P: materials layout, ZZZ icons, number inputs,
-    splash-art defaults, beta inspector, database restructure + Monsters/Items,
-    Wonderland, The Library, favourites/Characters tab, banner timeline, events
-    pipeline, kit profile stats, birthday calendar). Queued as
-    `.agents/queue.json` nyx-0016…nyx-0031 (state `ready`) — claim per
-    `.agents/protocol.md`, start with nyx-0016 (Batch 1). All decisions are
-    resolved inside the plan doc; timeline reference mock at
-    `docs/mockups/banner-timeline-v4.html`. Per-batch verification gate is at
-    the end of the plan's Sequencing section. No production deploys without an
+    16 serial batches (workstreams A–P: materials layout, ZZZ icons, number
+    inputs, splash-art defaults, beta inspector, database restructure +
+    Monsters/Items, Wonderland, The Library, favourites/Characters tab,
+    all-game character+weapon banner records, timeline, events pipeline, kit
+    profile stats, birthday calendar). Queued as `.agents/queue.json`
+    nyx-0016…nyx-0031: only nyx-0016 is `ready`; nyx-0017…0031 are `planned`.
+    Promote exactly one next batch after the previous batch is `done` with gate
+    evidence. Timeline data is Batch 13 (dedicated six-hour history workflow,
+    region-specific times, published activity data); timeline UI is Batch 14
+    (including verified automatic custom-timer v1→v2 migration). Reference mock:
+    `docs/mockups/banner-timeline-v4.html`. No production deploys without an
     explicit user ask.
 
 0a. `docs/wish-tracker-plan-2026-07-07.md`
@@ -92,7 +94,7 @@ If these disagree, follow `report-feedback-decisions-2026-06-30.md` first.
   - Banner scraping, normalization, and tests.
 - `Scraper/codes/*`
   - Redemption code scraping, livestream checks, semantic diff, tests.
-- `Scraper/nanoka/*`, `Scraper/prydwen/*`, `Scraper/wiki-titles/*`, `Scraper/endfield-wiki/*`
+- `Scraper/gamedata/*`, `Scraper/prydwen/*`, `Scraper/wiki-titles/*`, `Scraper/endfield-wiki/*`
   - Roster/material/library data ingestion.
 - `Database/`
   - Tracked data and asset source tree.

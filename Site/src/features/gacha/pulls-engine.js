@@ -166,7 +166,7 @@ window.NyxPulls = (function () {
   }
 
   // Weapons live in a separate generated global (window.NYX_WEAPONS[game]),
-  // id-indexed from the local Nanoka mirror by tools/gen-weapons-meta.mjs.
+  // id-indexed from the local GameData mirror by tools/gen-weapons-meta.mjs.
   const _weaponIndex = {};
   function weaponIndex(gameKey) {
     if (_weaponIndex[gameKey]) return _weaponIndex[gameKey];

@@ -12,7 +12,7 @@ const WIKIS = {
   gi: {
     label: 'Genshin Impact',
     api: 'https://genshin-impact.fandom.com/api.php',
-    source: 'Nanoka/gi/live/characters.json',
+    source: 'GameData/gi/live/characters.json',
     name: (row) => row.name,
   },
   hsr: {
@@ -24,14 +24,14 @@ const WIKIS = {
   zzz: {
     label: 'Zenless Zone Zero',
     api: 'https://zenless-zone-zero.fandom.com/api.php',
-    source: 'Nanoka/zzz/live/agents.json',
+    source: 'GameData/zzz/live/agents.json',
     name: (row) => row.name,
     searchWhenThin: true,
   },
   wuwa: {
     label: 'Wuthering Waves',
     api: 'https://wutheringwaves.fandom.com/api.php',
-    source: 'Nanoka/ww/live/characters.json',
+    source: 'GameData/ww/live/characters.json',
     name: (row) => row.name,
   },
   ae: {

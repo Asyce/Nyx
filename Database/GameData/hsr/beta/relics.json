@@ -1,0 +1,2512 @@
+[
+  {
+    "id": "101",
+    "contentStatus": "beta_changed",
+    "name": "Passerby of Wandering Cloud",
+    "type": "cavern relic",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71000.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases Outgoing Healing by <unbreak>#1[i]%</unbreak>.",
+        "params": [
+          0.1
+        ]
+      },
+      {
+        "pieces": 4,
+        "description": "At the start of the battle, immediately regenerates 1 Skill Point.",
+        "params": []
+      }
+    ],
+    "parts": [
+      {
+        "id": "31011",
+        "name": "Passerby's Rejuvenated Wooden Hairstick"
+      },
+      {
+        "id": "31012",
+        "name": "Passerby's Roaming Dragon Bracer"
+      },
+      {
+        "id": "31013",
+        "name": "Passerby's Ragged Embroidered Coat"
+      },
+      {
+        "id": "31014",
+        "name": "Passerby's Stygian Hiking Boots"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "c48a65525c982e82563371c8e3ffc2cf6dbeb06d586e53b284389ff830068aed",
+      "currentHash": "cc4818279759378f029e75fc55cf27b57fc3afb8a991b896961c66712431c5e5"
+    }
+  },
+  {
+    "id": "102",
+    "contentStatus": "beta_changed",
+    "name": "Musketeer of Wild Wheat",
+    "type": "cavern relic",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71001.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases ATK by <unbreak>#1[i]%</unbreak>.",
+        "params": [
+          0.12
+        ]
+      },
+      {
+        "pieces": 4,
+        "description": "The wearer's SPD increases by <unbreak>#1[i]%</unbreak> and DMG dealt by Basic ATK increases by <unbreak>#2[i]%</unbreak>.",
+        "params": [
+          0.06,
+          0.1
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "31021",
+        "name": "Musketeer's Wild Wheat Felt Hat"
+      },
+      {
+        "id": "31022",
+        "name": "Musketeer's Coarse Leather Gloves"
+      },
+      {
+        "id": "31023",
+        "name": "Musketeer's Wind-Hunting Shawl"
+      },
+      {
+        "id": "31024",
+        "name": "Musketeer's Rivets Riding Boots"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "c9d39973e19be4d22ad3c4bda443ad044d5d3331a3ea5f0a363aeaec4eac122a",
+      "currentHash": "bb7d51e15140747ffdb795f9601d80365a9b65c66734b0b712c7f93da535daf0"
+    }
+  },
+  {
+    "id": "103",
+    "contentStatus": "beta_changed",
+    "name": "Knight of Purity Palace",
+    "type": "cavern relic",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71002.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases DEF by <unbreak>#1[i]%</unbreak>.",
+        "params": [
+          0.15
+        ]
+      },
+      {
+        "pieces": 4,
+        "description": "Increases the max DMG that can be absorbed by the Shield created by the wearer by <unbreak>#1[i]%</unbreak>.",
+        "params": [
+          0.2
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "31031",
+        "name": "Knight's Forgiving Casque"
+      },
+      {
+        "id": "31032",
+        "name": "Knight's Silent Oath Ring"
+      },
+      {
+        "id": "31033",
+        "name": "Knight's Solemn Breastplate"
+      },
+      {
+        "id": "31034",
+        "name": "Knight's Iron Boots of Order"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "672009a86377ee51cae2a6f8fd9f4df36dd54ae2ef7d70315612235a9e954d7d",
+      "currentHash": "53f2f748ada78338f8baabd2719fbcb28fbe90a6b1cf1a1dadce87af667b8dad"
+    }
+  },
+  {
+    "id": "104",
+    "contentStatus": "beta_changed",
+    "name": "Hunter of Glacial Forest",
+    "type": "cavern relic",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71003.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases Ice DMG by <unbreak>#1[i]%</unbreak>.",
+        "params": [
+          0.1
+        ]
+      },
+      {
+        "pieces": 4,
+        "description": "After the wearer uses their Ultimate, their CRIT DMG increases by <unbreak>#1[i]%</unbreak> for <unbreak>#2[i]</unbreak> turn(s).",
+        "params": [
+          0.25,
+          2
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "31041",
+        "name": "Hunter's Artaius Hood"
+      },
+      {
+        "id": "31042",
+        "name": "Hunter's Lizard Gloves"
+      },
+      {
+        "id": "31043",
+        "name": "Hunter's Ice Dragon Cloak"
+      },
+      {
+        "id": "31044",
+        "name": "Hunter's Soft Elkskin Boots"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "ebcc54044dd45c3560a4d9575ac5dfbe790b849f76b09fa4aff4aa6f3941bac5",
+      "currentHash": "a6a0a4ccde38d452650f53766c2545d9a6bd1b2a7b1bdb82aa761869a0c2c475"
+    }
+  },
+  {
+    "id": "105",
+    "contentStatus": "beta_changed",
+    "name": "Champion of Streetwise Boxing",
+    "type": "cavern relic",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71004.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases Physical DMG by <unbreak>#1[i]%</unbreak>.",
+        "params": [
+          0.1
+        ]
+      },
+      {
+        "pieces": 4,
+        "description": "After the wearer attacks or is hit, their ATK increases by <unbreak>#1[i]%</unbreak> for the rest of the battle. This effect can stack up to <unbreak>#2[i]</unbreak> time(s).",
+        "params": [
+          0.05,
+          5
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "31051",
+        "name": "Champion's Headgear"
+      },
+      {
+        "id": "31052",
+        "name": "Champion's Heavy Gloves"
+      },
+      {
+        "id": "31053",
+        "name": "Champion's Chest Guard"
+      },
+      {
+        "id": "31054",
+        "name": "Champion's Fleetfoot Boots"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "7bedac8fbbd316012f61f3dcfa79b1a9c8ccd3469812d426056d93eb784085fa",
+      "currentHash": "af28aca42389640441f47a7945109f9f4ae03358eee49daf9c6de5e367790958"
+    }
+  },
+  {
+    "id": "106",
+    "contentStatus": "beta_changed",
+    "name": "Guard of Wuthering Snow",
+    "type": "cavern relic",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71005.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Reduces DMG taken by <unbreak>#1[i]%</unbreak>.",
+        "params": [
+          0.08
+        ]
+      },
+      {
+        "pieces": 4,
+        "description": "At the beginning of the turn, if the wearer's HP percentage is equal to or less than <unbreak>#1[i]%</unbreak>, restores HP equal to <unbreak>#2[i]%</unbreak> of their Max HP and regenerates <unbreak>#3[i]</unbreak> Energy.",
+        "params": [
+          0.5,
+          0.08,
+          5
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "31061",
+        "name": "Guard's Cast Iron Helmet"
+      },
+      {
+        "id": "31062",
+        "name": "Guard's Shining Gauntlets"
+      },
+      {
+        "id": "31063",
+        "name": "Guard's Uniform of Old"
+      },
+      {
+        "id": "31064",
+        "name": "Guard's Silver Greaves"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "e3a9046a017d02e6e2381e2b25cd5605157b0dd4de44185d7e1d0f527bd8501e",
+      "currentHash": "4dbac69e2f0a3af6e1c9711e1486397276b53ab093d9778a5f148d43380bfb11"
+    }
+  },
+  {
+    "id": "107",
+    "contentStatus": "beta_changed",
+    "name": "Firesmith of Lava-Forging",
+    "type": "cavern relic",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71006.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases Fire DMG by <unbreak>#1[i]%</unbreak>.",
+        "params": [
+          0.1
+        ]
+      },
+      {
+        "pieces": 4,
+        "description": "Increases DMG by the wearer's Skill by <unbreak>#1[i]%</unbreak>. After unleashing Ultimate, increases the wearer's Fire DMG by <unbreak>#2[i]%</unbreak> for the next attack.",
+        "params": [
+          0.12,
+          0.12
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "31071",
+        "name": "Firesmith's Obsidian Goggles"
+      },
+      {
+        "id": "31072",
+        "name": "Firesmith's Ring of Flame-Mastery"
+      },
+      {
+        "id": "31073",
+        "name": "Firesmith's Fireproof Apron"
+      },
+      {
+        "id": "31074",
+        "name": "Firesmith's Alloy Leg"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "a1f27e0e623822077c6ce423d3e74d83540a8d9ff01adffee314cba3a437e714",
+      "currentHash": "deac37720167b770f5a0a2f01639ffcb11c3d7eb6a2b2ff9ad2466c323656706"
+    }
+  },
+  {
+    "id": "108",
+    "contentStatus": "beta_changed",
+    "name": "Genius of Brilliant Stars",
+    "type": "cavern relic",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71007.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases Quantum DMG by <unbreak>#1[i]%</unbreak>.",
+        "params": [
+          0.1
+        ]
+      },
+      {
+        "pieces": 4,
+        "description": "When the wearer deals DMG to the target enemy, ignores <unbreak>#1[i]%</unbreak> DEF. If the target enemy has Quantum Weakness, the wearer additionally ignores <unbreak>#2[i]%</unbreak> DEF.",
+        "params": [
+          0.1,
+          0.1
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "31081",
+        "name": "Genius's Ultraremote Sensing Visor"
+      },
+      {
+        "id": "31082",
+        "name": "Genius's Frequency Catcher"
+      },
+      {
+        "id": "31083",
+        "name": "Genius's Metafield Suit"
+      },
+      {
+        "id": "31084",
+        "name": "Genius's Gravity Walker"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "8aafd2f02cb3a34878e735d50c8dd5aef355f2e2cfd27b418ad271077033573a",
+      "currentHash": "5e8752cabbc0f3b215189b79a480481fcadf04e3813cdeb4ddbc2962f5efcfdf"
+    }
+  },
+  {
+    "id": "109",
+    "contentStatus": "beta_changed",
+    "name": "Band of Sizzling Thunder",
+    "type": "cavern relic",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71008.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases Lightning DMG by <unbreak>#1[i]%</unbreak>.",
+        "params": [
+          0.1
+        ]
+      },
+      {
+        "pieces": 4,
+        "description": "When the wearer uses their Skill, increases the wearer's ATK by <unbreak>#1[i]%</unbreak> for <unbreak>#2[i]</unbreak> turn(s).",
+        "params": [
+          0.2,
+          1
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "31091",
+        "name": "Band's Polarized Sunglasses"
+      },
+      {
+        "id": "31092",
+        "name": "Band's Touring Bracelet"
+      },
+      {
+        "id": "31093",
+        "name": "Band's Leather Jacket With Studs"
+      },
+      {
+        "id": "31094",
+        "name": "Band's Ankle Boots With Rivets"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "0f1d47dcffd6ad87051356c76088b8b0fa1e8b8bf171b487a5314ccf38473f0a",
+      "currentHash": "66feac7bdce58cc3f767f5628ba3d7e9590eb245335fd2b37b7e3d7ef67565a1"
+    }
+  },
+  {
+    "id": "110",
+    "contentStatus": "beta_changed",
+    "name": "Eagle of Twilight Line",
+    "type": "cavern relic",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71009.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases Wind DMG by <unbreak>#1[i]%</unbreak>.",
+        "params": [
+          0.1
+        ]
+      },
+      {
+        "pieces": 4,
+        "description": "After the wearer uses their Ultimate, their action is Advanced Forward by <unbreak>#1[i]%</unbreak>.",
+        "params": [
+          0.25
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "31101",
+        "name": "Eagle's Beaked Helmet"
+      },
+      {
+        "id": "31102",
+        "name": "Eagle's Soaring Ring"
+      },
+      {
+        "id": "31103",
+        "name": "Eagle's Winged Suit Harness"
+      },
+      {
+        "id": "31104",
+        "name": "Eagle's Quilted Puttees"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "82183ee138be5c4fa1771635a283ec30f57b7cd4fe4ef46760b2b83be9114ea4",
+      "currentHash": "662f73de98e6b4a6af44eb7f3f810feb0123b57340bf079184ce91ddbfb9007b"
+    }
+  },
+  {
+    "id": "111",
+    "contentStatus": "beta_changed",
+    "name": "Thief of Shooting Meteor",
+    "type": "cavern relic",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71010.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases Break Effect by <unbreak>#1[i]%</unbreak>.",
+        "params": [
+          0.16
+        ]
+      },
+      {
+        "pieces": 4,
+        "description": "Increases the wearer's Break Effect by <unbreak>#1[i]%</unbreak>. After the wearer inflicts Weakness Break on an enemy, regenerates <unbreak>#2[i]</unbreak> Energy.",
+        "params": [
+          0.16,
+          3
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "31111",
+        "name": "Thief's Myriad-Faced Mask"
+      },
+      {
+        "id": "31112",
+        "name": "Thief's Gloves With Prints"
+      },
+      {
+        "id": "31113",
+        "name": "Thief's Steel Grappling Hook"
+      },
+      {
+        "id": "31114",
+        "name": "Thief's Meteor Boots"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "96f91ee93ab9090709e88ee79df9f4c56f11a2753147679f5e77a139f8eb4eae",
+      "currentHash": "11a467e40a044baaf6450b4acd5b12c4a2956efa23183155b06a57515dde20c2"
+    }
+  },
+  {
+    "id": "112",
+    "contentStatus": "beta_changed",
+    "name": "Wastelander of Banditry Desert",
+    "type": "cavern relic",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71011.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases Imaginary DMG by <unbreak>#1[i]%</unbreak>.",
+        "params": [
+          0.1
+        ]
+      },
+      {
+        "pieces": 4,
+        "description": "When dealing DMG to debuffed enemy targets, the wearer has their CRIT Rate increased by <unbreak>#1[i]%</unbreak>. And when they deal DMG to Imprisoned enemy targets, their CRIT DMG increases by <unbreak>#2[i]%</unbreak>.",
+        "params": [
+          0.1,
+          0.2
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "31121",
+        "name": "Wastelander's Breathing Mask"
+      },
+      {
+        "id": "31122",
+        "name": "Wastelander's Desert Terminal"
+      },
+      {
+        "id": "31123",
+        "name": "Wastelander's Friar Robe"
+      },
+      {
+        "id": "31124",
+        "name": "Wastelander's Powered Greaves"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "6cdcb6853e43dc9afb4867309073e9cc28ebfe40db9644834ed251362947d13f",
+      "currentHash": "05d17e7b542addb538203ab45176291f78490aaad3372567f515e297539e39d3"
+    }
+  },
+  {
+    "id": "113",
+    "contentStatus": "beta_changed",
+    "name": "Longevous Disciple",
+    "type": "cavern relic",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71020.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases Max HP by <unbreak>#1[i]%</unbreak>.",
+        "params": [
+          0.12
+        ]
+      },
+      {
+        "pieces": 4,
+        "description": "When the wearer is hit or has their HP consumed by an ally or themselves, their CRIT Rate increases by <unbreak>#1[i]%</unbreak> for <unbreak>#2[i]</unbreak> turn(s) and up to <unbreak>#3[i]</unbreak> stacks.",
+        "params": [
+          0.08,
+          2,
+          2
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "31131",
+        "name": "Disciple's Prosthetic Eye"
+      },
+      {
+        "id": "31132",
+        "name": "Disciple's Ingenium Hand"
+      },
+      {
+        "id": "31133",
+        "name": "Disciple's Dewy Feather Garb"
+      },
+      {
+        "id": "31134",
+        "name": "Disciple's Celestial Silk Sandals"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "c1ba24fb6cfc20228ba29c09917d84d10644dbef3910ee261930abf8136f426a",
+      "currentHash": "78b614b5edf2440e656c349552a9eac0be29685a0c2b9df113f05e207cd6c505"
+    }
+  },
+  {
+    "id": "114",
+    "contentStatus": "beta_changed",
+    "name": "Messenger Traversing Hackerspace",
+    "type": "cavern relic",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71021.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases SPD by <unbreak>#1[i]%</unbreak>.",
+        "params": [
+          0.06
+        ]
+      },
+      {
+        "pieces": 4,
+        "description": "When the wearer uses their Ultimate on an ally, SPD for all allies increases by <unbreak>#1[i]%</unbreak> for <unbreak>#2[i]</unbreak> turn(s). This effect cannot be stacked.",
+        "params": [
+          0.12,
+          1
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "31141",
+        "name": "Messenger's Holovisor"
+      },
+      {
+        "id": "31142",
+        "name": "Messenger's Transformative Arm"
+      },
+      {
+        "id": "31143",
+        "name": "Messenger's Secret Satchel"
+      },
+      {
+        "id": "31144",
+        "name": "Messenger's Par-kool Sneakers"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "ee6b34e4b3ca483663eaff4d773177399cd2213f1b4323f155cda00fc27702a0",
+      "currentHash": "a8290d9565826fb4dd772d54b3c009e50ea1bff95062b641b7d229fb5eb70dcd"
+    }
+  },
+  {
+    "id": "115",
+    "contentStatus": "beta_changed",
+    "name": "The Ashblazing Grand Duke",
+    "type": "cavern relic",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71024.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases the DMG dealt by Follow-Up ATK by <unbreak>#1[i]%</unbreak>.",
+        "params": [
+          0.2
+        ]
+      },
+      {
+        "pieces": 4,
+        "description": "When the wearer uses a Follow-Up ATK, increases the wearer's ATK by <unbreak>#1[i]%</unbreak> for every time the Follow-Up ATK deals DMG. This effect can stack up to <unbreak>#2[i]</unbreak> time(s) and lasts for <unbreak>#3[i]</unbreak> turn(s). This effect is removed the next time the wearer uses a Follow-Up ATK.",
+        "params": [
+          0.06,
+          8,
+          3
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "31151",
+        "name": "Grand Duke's Crown of Netherflame"
+      },
+      {
+        "id": "31152",
+        "name": "Grand Duke's Gloves of Fieryfur"
+      },
+      {
+        "id": "31153",
+        "name": "Grand Duke's Robe of Grace"
+      },
+      {
+        "id": "31154",
+        "name": "Grand Duke's Ceremonial Boots"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "13440edb02d61edf48c99028bfbd8f3757231020ed7a40feedb91a3401a77aad",
+      "currentHash": "8b616c054f14204e354ea9b523e97d8d7ed35d14a1ebfcd103803a1baa2e0111"
+    }
+  },
+  {
+    "id": "116",
+    "contentStatus": "beta_changed",
+    "name": "Prisoner in Deep Confinement",
+    "type": "cavern relic",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71025.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases ATK by <unbreak>#1[i]%</unbreak>.",
+        "params": [
+          0.12
+        ]
+      },
+      {
+        "pieces": 4,
+        "description": "For every DoT the enemy target is afflicted with, the wearer will ignore <unbreak>#1[i]%</unbreak> of its DEF when dealing DMG to it. This effect is valid for a max of <unbreak>#2[i]</unbreak> DoTs.",
+        "params": [
+          0.06,
+          3
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "31161",
+        "name": "Prisoner's Sealed Muzzle"
+      },
+      {
+        "id": "31162",
+        "name": "Prisoner's Leadstone Shackles"
+      },
+      {
+        "id": "31163",
+        "name": "Prisoner's Repressive Straitjacket"
+      },
+      {
+        "id": "31164",
+        "name": "Prisoner's Restrictive Fetters"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "ace9e86d14fe46320fbcd1d25281e7fcf2dcf85c29a8a47303c6e90a7846564c",
+      "currentHash": "220c90ccf6c3ddb5204fa720cce2047f3b7fa4fd8c873ca12256662c6a73a712"
+    }
+  },
+  {
+    "id": "117",
+    "contentStatus": "beta_changed",
+    "name": "Pioneer Diver of Dead Waters",
+    "type": "cavern relic",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71028.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases DMG dealt to enemies with debuffs by <unbreak>#1[i]%</unbreak>.",
+        "params": [
+          0.12
+        ]
+      },
+      {
+        "pieces": 4,
+        "description": "Increases CRIT Rate by <unbreak>#1[i]%</unbreak>. The wearer deals <unbreak>#2[i]%</unbreak>/<unbreak>#3[i]%</unbreak> increased CRIT DMG to enemies with at least <unbreak>#4[i]</unbreak>/<unbreak>#5[i]</unbreak> debuffs. After the wearer inflicts a debuff on enemy targets, the aforementioned effects increase by <unbreak>100%</unbreak>, lasting for <unbreak>#6[i]</unbreak> turn(s).",
+        "params": [
+          0.04,
+          0.08,
+          0.12,
+          2,
+          3,
+          1
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "31171",
+        "name": "Pioneer's Heatproof Shell"
+      },
+      {
+        "id": "31172",
+        "name": "Pioneer's Lacuna Compass"
+      },
+      {
+        "id": "31173",
+        "name": "Pioneer's Sealed Lead Apron"
+      },
+      {
+        "id": "31174",
+        "name": "Pioneer's Starfaring Anchor"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "e5ecedcfa4647daf7aa00de66eb1f45ffd619125bc7f5ef5c5ec3b7788690e31",
+      "currentHash": "0f340cf25750c2b9143533dcb6fad3ced6e0cda970ea29851ebebd300f61d221"
+    }
+  },
+  {
+    "id": "118",
+    "contentStatus": "beta_changed",
+    "name": "Watchmaker, Master of Dream Machinations",
+    "type": "cavern relic",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71029.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases Break Effect by <unbreak>#1[i]%</unbreak>.",
+        "params": [
+          0.16
+        ]
+      },
+      {
+        "pieces": 4,
+        "description": "When the wearer uses their Ultimate on an ally, all allies' Break Effect increases by <unbreak>#1[i]%</unbreak> for <unbreak>#2[i]</unbreak> turn(s). This effect cannot be stacked.",
+        "params": [
+          0.3,
+          2
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "31181",
+        "name": "Watchmaker's Telescoping Lens"
+      },
+      {
+        "id": "31182",
+        "name": "Watchmaker's Fortuitous Wristwatch"
+      },
+      {
+        "id": "31183",
+        "name": "Watchmaker's Illusory Formal Suit"
+      },
+      {
+        "id": "31184",
+        "name": "Watchmaker's Dream-Concealing Dress Shoes"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "45cd20b762c4260783f96aa7c87be2a2af195cb2c621ed5523081bd242d471a3",
+      "currentHash": "9d2782eb4d64e6331f8a0445ba7e95ad38f66fa5243730ea6df0a20d4ce61c1d"
+    }
+  },
+  {
+    "id": "119",
+    "contentStatus": "beta_changed",
+    "name": "Iron Cavalry Against the Scourge",
+    "type": "cavern relic",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71032.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases Break Effect by <unbreak>#1[i]%</unbreak>.",
+        "params": [
+          0.16
+        ]
+      },
+      {
+        "pieces": 4,
+        "description": "If the wearer's Break Effect is <unbreak>#1[i]%</unbreak> or higher, the Break DMG dealt to the enemy target ignores <unbreak>#3[i]%</unbreak> of their DEF. If the wearer's Break Effect is <unbreak>#2[i]%</unbreak> or higher, the Super Break DMG dealt to the enemy target additionally ignores <unbreak>#4[i]%</unbreak> of their DEF.",
+        "params": [
+          1.5,
+          2.5,
+          0.1,
+          0.15
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "31191",
+        "name": "Iron Cavalry's Homing Helm"
+      },
+      {
+        "id": "31192",
+        "name": "Iron Cavalry's Crushing Wristguard"
+      },
+      {
+        "id": "31193",
+        "name": "Iron Cavalry's Silvery Armor"
+      },
+      {
+        "id": "31194",
+        "name": "Iron Cavalry's Skywalk Greaves"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "cca5da0138cc24d45ebcc1f1ea82aa22c3ab2c617114c951a464540e4bacad18",
+      "currentHash": "d1718e6113922b095fac4514764986083469cc76e130abd81dfbf3fd6d1ca957"
+    }
+  },
+  {
+    "id": "120",
+    "contentStatus": "beta_changed",
+    "name": "The Wind-Soaring Valorous",
+    "type": "cavern relic",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71033.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases ATK by <unbreak>#1[i]%</unbreak>.",
+        "params": [
+          0.12
+        ]
+      },
+      {
+        "pieces": 4,
+        "description": "Increases the wearer's CRIT Rate by <unbreak>#1[i]%</unbreak>. After the wearer uses a Follow-Up ATK, increases DMG dealt by Ultimate by <unbreak>#2[i]%</unbreak>, lasting for <unbreak>#3[i]</unbreak> turn(s).",
+        "params": [
+          0.06,
+          0.36,
+          1
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "31201",
+        "name": "Valorous Mask of Northern Skies"
+      },
+      {
+        "id": "31202",
+        "name": "Valorous Bracelet of Grappling Hooks"
+      },
+      {
+        "id": "31203",
+        "name": "Valorous Plate of Soaring Flight"
+      },
+      {
+        "id": "31204",
+        "name": "Valorous Greaves of Pursuing Hunt"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "7e16e057570fef54f0d975937186e51dfe622bd9a1891dd9d04c7501a3d31bd4",
+      "currentHash": "46154125be4529fbe762798afbcb37ab3c7af6a2397d7eee9be2da30269329e7"
+    }
+  },
+  {
+    "id": "121",
+    "contentStatus": "beta_changed",
+    "name": "Sacerdos' Relived Ordeal",
+    "type": "cavern relic",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71038.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases SPD by <unbreak>#1[i]%</unbreak>.",
+        "params": [
+          0.06
+        ]
+      },
+      {
+        "pieces": 4,
+        "description": "When using Skill or Ultimate on one ally target, increases the ability target's CRIT DMG by <unbreak>#1[i]%</unbreak>, lasting for <unbreak>#2[i]</unbreak> turn(s). This effect can stack up to <unbreak>#3[i]</unbreak> time(s).",
+        "params": [
+          0.18,
+          2,
+          2
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "31211",
+        "name": "Sacerdos' Melodic Earrings"
+      },
+      {
+        "id": "31212",
+        "name": "Sacerdos' Welcoming Gloves"
+      },
+      {
+        "id": "31213",
+        "name": "Sacerdos' Ceremonial Garb"
+      },
+      {
+        "id": "31214",
+        "name": "Sacerdos' Arduous Boots"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "31d04bf392b79778a45beb6658776a83fff5742d0b6c02533b7065367964594c",
+      "currentHash": "03319631be7b36ac814f9c64dcd050bb120f1bb0ca2a2f8e7cff3fb4068ec020"
+    }
+  },
+  {
+    "id": "122",
+    "contentStatus": "beta_changed",
+    "name": "Scholar Lost in Erudition",
+    "type": "cavern relic",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71039.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases CRIT Rate by <unbreak>#1[i]%</unbreak>.",
+        "params": [
+          0.08
+        ]
+      },
+      {
+        "pieces": 4,
+        "description": "Increases DMG dealt by Skill and Ultimate by <unbreak>#1[i]%</unbreak>. After using Ultimate, additionally increases the DMG dealt by the next Skill by <unbreak>#2[i]%</unbreak>.",
+        "params": [
+          0.2,
+          0.25
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "31221",
+        "name": "Scholar's Silver-Rimmed Monocle"
+      },
+      {
+        "id": "31222",
+        "name": "Scholar's Auxiliary Knuckle"
+      },
+      {
+        "id": "31223",
+        "name": "Scholar's Tweed Jacket"
+      },
+      {
+        "id": "31224",
+        "name": "Scholar's Felt Snowboots"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "8f0fec4cfcd7485fbeeb558ba3c9daf402242097711bb1db978f7bf88eecb459",
+      "currentHash": "9f76bba69ef9f0aef79d560c99a49c235f45f79b7f84b804aa6d3b8e3162ef1e"
+    }
+  },
+  {
+    "id": "123",
+    "contentStatus": "beta_changed",
+    "name": "Hero of Triumphant Song",
+    "type": "cavern relic",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71040.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases ATK by <unbreak>#1[i]%</unbreak>.",
+        "params": [
+          0.12
+        ]
+      },
+      {
+        "pieces": 4,
+        "description": "While the wearer's memosprite is on the field, increases the wearer's SPD by <unbreak>#1[i]%</unbreak>. When the wearer's memosprite attacks, increases the wearer's and memosprite's CRIT DMG by <unbreak>#2[i]%</unbreak>, lasting for <unbreak>#3[i]</unbreak> turn(s).",
+        "params": [
+          0.06,
+          0.3,
+          2
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "31231",
+        "name": "Hero's Wreath of Championship"
+      },
+      {
+        "id": "31232",
+        "name": "Hero's Gilded Bracers"
+      },
+      {
+        "id": "31233",
+        "name": "Hero's Gallant Golden Armor"
+      },
+      {
+        "id": "31234",
+        "name": "Hero's Firechasing Shinguard"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "4b3f2dcbb2af962b88ab82fe38a80162ffe36b824edfa2b994d6c2fb0f8a2f0f",
+      "currentHash": "22b11d0904754f27197749ce8994735296f8ed7f137f82b5182ce98240e44036"
+    }
+  },
+  {
+    "id": "124",
+    "contentStatus": "beta_changed",
+    "name": "Poet of Mourning Collapse",
+    "type": "cavern relic",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71041.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases Quantum DMG by <unbreak>#1[i]%</unbreak>.",
+        "params": [
+          0.1
+        ]
+      },
+      {
+        "pieces": 4,
+        "description": "Decreases the wearer's SPD by <unbreak>#6[i]%</unbreak>. Before entering battle, if the wearer's SPD is lower than <unbreak>#2[i]</unbreak>/<unbreak>#3[i]</unbreak>, increases the wearer's CRIT Rate by <unbreak>#4[i]%</unbreak>/<unbreak>#5[i]%</unbreak>. This effect applies to the wearer's memosprite at the same time.",
+        "params": [
+          -0.08,
+          110,
+          95,
+          0.2,
+          0.32,
+          0.08
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "31241",
+        "name": "Poet's Dill Wreath"
+      },
+      {
+        "id": "31242",
+        "name": "Poet's Gilded Bracelet"
+      },
+      {
+        "id": "31243",
+        "name": "Poet's Star-Studded Skirt"
+      },
+      {
+        "id": "31244",
+        "name": "Poet's Silver-Studded Shoes"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "11202dd2d2531ac1f7e3758c4dd1e55bab8b932dcc81677529be76c449997ba2",
+      "currentHash": "5f4026a5a131bcd91fb9b37603e1047e5e6cb89fc6329bf5bbfc29382af09ce7"
+    }
+  },
+  {
+    "id": "125",
+    "contentStatus": "beta_changed",
+    "name": "Warrior Goddess of Sun and Thunder",
+    "type": "cavern relic",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71044.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases SPD by <unbreak>#1[i]%</unbreak>.",
+        "params": [
+          0.06
+        ]
+      },
+      {
+        "pieces": 4,
+        "description": "When the wearer or their memosprite provides healing to ally targets other than themselves, the wearer gains \"Gentle Rain,\" which lasts for <unbreak>#3[i]</unbreak> turn(s) and can only trigger once per turn. While the wearer has \"Gentle Rain,\" SPD increases by <unbreak>#1[i]%</unbreak> and all allies' CRIT DMG increases by <unbreak>#2[i]%</unbreak>. This effect cannot stack.",
+        "params": [
+          0.06,
+          0.15,
+          2
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "31251",
+        "name": "Warrior Goddess's Winged Helm"
+      },
+      {
+        "id": "31252",
+        "name": "Warrior Goddess's Cavalry Gauntlets"
+      },
+      {
+        "id": "31253",
+        "name": "Warrior Goddess's Dawn Cape"
+      },
+      {
+        "id": "31254",
+        "name": "Warrior Goddess's Honor Spurs"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "e88fedf3dd02c244f2c8f4cb17e3de8682a9359f27f5a4be9a816f4356a0fb5c",
+      "currentHash": "da88c00ccdf1cf7294c5010d28898d2b8d381bb5b69a2adfb6371b77fa2e040a"
+    }
+  },
+  {
+    "id": "126",
+    "contentStatus": "beta_changed",
+    "name": "Wavestrider Captain",
+    "type": "cavern relic",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71045.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases CRIT DMG by <unbreak>#1[i]%</unbreak>.",
+        "params": [
+          0.16
+        ]
+      },
+      {
+        "pieces": 4,
+        "description": "When the wearer becomes the target of another ally target's ability, gains 1 stack of \"Help,\" stacking up to <unbreak>#1[i]</unbreak> time(s). If there are <unbreak>#1[i]</unbreak> stack(s) of \"Help\" when the wearer uses their Ultimate, consumes all \"Help\" to increase the wearer's ATK by <unbreak>#2[i]%</unbreak> for <unbreak>#3[i]</unbreak> turn(s).",
+        "params": [
+          2,
+          0.48,
+          1
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "31261",
+        "name": "Captain's Navigator Hat"
+      },
+      {
+        "id": "31262",
+        "name": "Captain's Lightcatcher Astrolabe"
+      },
+      {
+        "id": "31263",
+        "name": "Captain's Wind Mantle"
+      },
+      {
+        "id": "31264",
+        "name": "Captain's Tidal Boots"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "8864cf5f9c3c773678e12fcf8bbbdf6f10eedb8a156fefbbe7fe721722ed89ee",
+      "currentHash": "00d416c93fe35bd0537e66d1a9fda3f83c3fb3a60d1e363374e67a1ceef9a2b0"
+    }
+  },
+  {
+    "id": "127",
+    "contentStatus": "beta_changed",
+    "name": "World-Remaking Deliverer",
+    "type": "cavern relic",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71048.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases CRIT Rate by <unbreak>#1[i]%</unbreak>.",
+        "params": [
+          0.08
+        ]
+      },
+      {
+        "pieces": 4,
+        "description": "After the wearer uses Basic ATK or Skill, if the wearer's memosprite is on the field, increases Max HP of the wearer and their memosprite by <unbreak>#1[i]%</unbreak>, and increases all allies' DMG dealt by <unbreak>#2[i]%</unbreak>, lasting until after the wearer's next use of Basic ATK or Skill.",
+        "params": [
+          0.24,
+          0.15
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "31271",
+        "name": "Deliverer's Hood"
+      },
+      {
+        "id": "31272",
+        "name": "Deliverer's Sword Gauntlet"
+      },
+      {
+        "id": "31273",
+        "name": "Deliverer's Robe of Legacy"
+      },
+      {
+        "id": "31274",
+        "name": "Deliverer's Boots of Pioneering"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "04df9cde2b8610a068c252a16c7e32729f8ac6f2ff0592a8049900ea134abda0",
+      "currentHash": "5190d5e58f3bc1efebe3229f4b16d50c43edd7dad89ba314f3296ae50d477dd5"
+    }
+  },
+  {
+    "id": "128",
+    "contentStatus": "beta_changed",
+    "name": "Self-Enshrouded Recluse",
+    "type": "cavern relic",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71049.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "The provided Shield Effect increases by <unbreak>#1[i]%</unbreak>.",
+        "params": [
+          0.1
+        ]
+      },
+      {
+        "pieces": 4,
+        "description": "Increases the Shield Effect provided by the wearer by <unbreak>#1[i]%</unbreak>. When an ally target holds a Shield provided by the wearer, the ally target's CRIT DMG increases by <unbreak>#2[i]%</unbreak>.",
+        "params": [
+          0.12,
+          0.15
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "31281",
+        "name": "Recluse's Wide-Brimmed Fedora"
+      },
+      {
+        "id": "31282",
+        "name": "Recluse's Refined Timepiece"
+      },
+      {
+        "id": "31283",
+        "name": "Recluse's Camel-Colored Coat"
+      },
+      {
+        "id": "31284",
+        "name": "Recluse's Soft Suede Boots"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "667c600162acf8e5d8959334debfc71b7ee529b8bee49839ec4e6b5c5fc1290f",
+      "currentHash": "324bbd52c0e94c1e44b39871c0fde31e8757ec8d0911d924d44b91ad90a7b389"
+    }
+  },
+  {
+    "id": "129",
+    "contentStatus": "beta_changed",
+    "name": "Ever-Glorious Magical Girl",
+    "type": "cavern relic",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71052.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases CRIT DMG by <unbreak>#1[i]%</unbreak>.",
+        "params": [
+          0.16
+        ]
+      },
+      {
+        "pieces": 4,
+        "description": "The Elation DMG dealt by the wearer and their memosprites ignores <unbreak>#1[i]%</unbreak> of targets' DEF. For every <unbreak>#2[i]</unbreak> accumulated Punchline allies gain, the Elation DMG dealt additionally ignores <unbreak>#3[i]%</unbreak> of targets' DEF, stacking up to <unbreak>#4[i]</unbreak> time(s).",
+        "params": [
+          0.1,
+          5,
+          0.01,
+          10
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "31291",
+        "name": "Magical Girl's Shining Medal"
+      },
+      {
+        "id": "31292",
+        "name": "Magical Girl's Protective Gloves"
+      },
+      {
+        "id": "31293",
+        "name": "Magical Girl's Everdance Battle Skirt"
+      },
+      {
+        "id": "31294",
+        "name": "Magical Girl's Contract Boots"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "97003b28a4315dea3c79f4665b10ee5ecb643c02de882f3107aba5c706006518",
+      "currentHash": "68da9f4476f40fd3212b3e91b002bfb08a75f487a6a8e1d0f5789483774aca84"
+    }
+  },
+  {
+    "id": "130",
+    "contentStatus": "beta_changed",
+    "name": "Diviner of Distant Reach",
+    "type": "cavern relic",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71053.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases SPD by <unbreak>#1[i]%</unbreak>.",
+        "params": [
+          0.06
+        ]
+      },
+      {
+        "pieces": 4,
+        "description": "Before entering combat, if the wearer's SPD is greater than or equal to <unbreak>#1[i]</unbreak>/<unbreak>#2[i]</unbreak>, increases the wearer's CRIT Rate by <unbreak>#3[i]%</unbreak>/<unbreak>#4[i]%</unbreak>. When the wearer uses Elation Skill for the first time in each battle, increases all allies' Elation by <unbreak>#5[i]%</unbreak>. This effect cannot stack.",
+        "params": [
+          120,
+          160,
+          0.1,
+          0.18,
+          0.1
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "31301",
+        "name": "Diviner's Extrapolation Jade Abacus"
+      },
+      {
+        "id": "31302",
+        "name": "Diviner's Ingenium Prosthetic Hand"
+      },
+      {
+        "id": "31303",
+        "name": "Diviner's Astral Robe"
+      },
+      {
+        "id": "31304",
+        "name": "Diviner's Cloud-Soaring Boots"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "d3c50acac48d17e8683097912c6c7ec7e6417f78f639c4a89b073f2ad90cb62d",
+      "currentHash": "2f709a0cc8e8df1604c5779854711233eea04a9a0caea6a55390a8d5b088e130"
+    }
+  },
+  {
+    "id": "131",
+    "contentStatus": "beta_changed",
+    "name": "As Navigator Isee Sees It",
+    "type": "cavern relic",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71056.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases ATK by <unbreak>#1[i]%</unbreak>.",
+        "params": [
+          0.12
+        ]
+      },
+      {
+        "pieces": 4,
+        "description": "When the wearer enters combat or uses Skill, the DMG dealt by their Skill and Ultimate increases by <unbreak>#1[i]%</unbreak>, stacking up to <unbreak>#2[i]</unbreak> time(s). At the start of the wearer's turn or after using Ultimate, removes <unbreak>#3[i]</unbreak> stack(s) of this effect.",
+        "params": [
+          0.18,
+          3,
+          1
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "31311",
+        "name": "Navigator's Deep Space Mirror"
+      },
+      {
+        "id": "31312",
+        "name": "Navigator's Game Die"
+      },
+      {
+        "id": "31313",
+        "name": "Navigator's Astral Chart Uniform"
+      },
+      {
+        "id": "31314",
+        "name": "Navigator's Everstride Boots"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "58cbafa38e3685d0d1fa59940714f281e99476baeb66576857773971621f9aa6",
+      "currentHash": "4c41b96e6d8ec38247ca207f9e95c876ba7ef896f0bc2e89b2a84cbdf83be3e6"
+    }
+  },
+  {
+    "id": "132",
+    "contentStatus": "beta_changed",
+    "name": "Divine-Querying Master Smith",
+    "type": "cavern relic",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71057.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases Max HP by <unbreak>#1[i]%</unbreak>.",
+        "params": [
+          0.12
+        ]
+      },
+      {
+        "pieces": 4,
+        "description": "Increases the wearer's CRIT DMG dealt to enemy targets in the DEF reduction state by <unbreak>#1[i]%</unbreak>. After the wearer inflicts the DEF reduction state on an enemy target, all allies gain \"Comburent\" for <unbreak>#2[i]</unbreak> turn(s). This effect cannot be stacked. The DMG dealt by ally targets with \"Comburent\" increases by <unbreak>#3[i]%</unbreak>. This effect can be triggered again after the wearer uses an attack.",
+        "params": [
+          0.28,
+          2,
+          0.15
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "31321",
+        "name": "Smith's Fire Beast Mask"
+      },
+      {
+        "id": "31322",
+        "name": "Smith's Damascus Steel Gauntlets"
+      },
+      {
+        "id": "31323",
+        "name": "Smith's Fireproof Garment"
+      },
+      {
+        "id": "31324",
+        "name": "Smith's Unbridled Boots"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "953dcfba821e4b5e186afb011b224f3e151e926982c4baa2fba2625df5c43f70",
+      "currentHash": "34fdb32add118b59960dddcc2f789d33be0399c47c0b8243dea6808cc233f1b2"
+    }
+  },
+  {
+    "id": "301",
+    "contentStatus": "beta_changed",
+    "name": "Space Sealing Station",
+    "type": "planar ornament",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71012.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases the wearer's ATK by <unbreak>#1[i]%</unbreak>. When the wearer's SPD reaches <unbreak>#2[i]</unbreak> or higher, the wearer's ATK increases by an extra <unbreak>#3[i]%</unbreak>.",
+        "params": [
+          0.12,
+          120,
+          0.12
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "33015",
+        "name": "Herta's Space Station"
+      },
+      {
+        "id": "33016",
+        "name": "Herta's Wandering Trek"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "40fd5ecc890200712536157acb4da5fa9d21e0b38c3d156d6aa012b0b6a2a791",
+      "currentHash": "192ca1936be82188a3db3cefd05e24bd5c912134dd6ae915c576080a5a8cc97c"
+    }
+  },
+  {
+    "id": "302",
+    "contentStatus": "beta_changed",
+    "name": "Fleet of the Ageless",
+    "type": "planar ornament",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71013.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases the wearer's Max HP by <unbreak>#1[i]%</unbreak>. When the wearer's SPD reaches <unbreak>#2[i]</unbreak> or higher, all allies' ATK increases by <unbreak>#3[i]%</unbreak>.",
+        "params": [
+          0.12,
+          120,
+          0.08
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "33025",
+        "name": "The Xianzhou Luofu's Celestial Ark"
+      },
+      {
+        "id": "33026",
+        "name": "The Xianzhou Luofu's Ambrosial Arbor Vines"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "890b2e7c8886d8a15a589833a9cdaac936cad6f29feb1f752ebba6b1277ba263",
+      "currentHash": "9261c512749ef02e8ac949c98d475c5633bd6f8249e1dcb1d42cfbee3404fd2b"
+    }
+  },
+  {
+    "id": "303",
+    "contentStatus": "beta_changed",
+    "name": "Pan-Cosmic Commercial Enterprise",
+    "type": "planar ornament",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71014.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases the wearer's Effect Hit Rate by <unbreak>#1[i]%</unbreak>. Meanwhile, the wearer's ATK increases by an amount that is equal to <unbreak>#2[i]%</unbreak> of the current Effect Hit Rate, up to a maximum increase of <unbreak>#3[i]%</unbreak>.",
+        "params": [
+          0.1,
+          0.25,
+          0.25
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "33035",
+        "name": "The IPC's Mega HQ"
+      },
+      {
+        "id": "33036",
+        "name": "The IPC's Trade Route"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "0863a871356b68f32852422193f6c6a0500aaaf9a8a67ed02f44b3c296e9a8e4",
+      "currentHash": "e3f16eba6462cbc80cd0c79e509f38fdb0719d957078b2a3dd9084522da77fc2"
+    }
+  },
+  {
+    "id": "304",
+    "contentStatus": "beta_changed",
+    "name": "Belobog of the Architects",
+    "type": "planar ornament",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71015.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases the wearer's DEF by <unbreak>#1[i]%</unbreak>. When the wearer's Effect Hit Rate is <unbreak>#2[i]%</unbreak> or higher, the wearer gains an extra <unbreak>#3[i]%</unbreak> DEF.",
+        "params": [
+          0.15,
+          0.5,
+          0.15
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "33045",
+        "name": "Belobog's Fortress of Preservation"
+      },
+      {
+        "id": "33046",
+        "name": "Belobog's Iron Defense"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "35d4725bcaa827193d39bd9e308272008a84593911e3d5f1468d1e86008549ef",
+      "currentHash": "b74533ba94a991a39085f1a064df26b80b4426c3a87bb75716e5304e0a61fdc3"
+    }
+  },
+  {
+    "id": "305",
+    "contentStatus": "beta_changed",
+    "name": "Celestial Differentiator",
+    "type": "planar ornament",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71016.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases the wearer's CRIT DMG by <unbreak>#1[i]%</unbreak>. When the wearer's current CRIT DMG reaches <unbreak>#2[i]%</unbreak> or higher, after entering battle, the wearer's CRIT Rate increases by <unbreak>#3[i]%</unbreak> until the end of their first attack.",
+        "params": [
+          0.16,
+          1.2,
+          0.6
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "33055",
+        "name": "Planet Screwllum's Mechanical Sun"
+      },
+      {
+        "id": "33056",
+        "name": "Planet Screwllum's Ring System"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "6503c6cb1c60c0534b20db0ca23727a830cbc6991f50abceef22be61f6fc4cc8",
+      "currentHash": "99c9b77a04c2352c0c080948b1e9233e5dc34b68471755ff01780dfca3fcd08c"
+    }
+  },
+  {
+    "id": "306",
+    "contentStatus": "beta_changed",
+    "name": "Inert Salsotto",
+    "type": "planar ornament",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71017.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases the wearer's CRIT Rate by <unbreak>#1[i]%</unbreak>. When the wearer's current CRIT Rate reaches <unbreak>#2[i]%</unbreak> or higher, the DMG dealt by the wearer's Ultimate and Follow-Up ATK increases by <unbreak>#3[i]%</unbreak>.",
+        "params": [
+          0.08,
+          0.5,
+          0.15
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "33065",
+        "name": "Salsotto's Moving City"
+      },
+      {
+        "id": "33066",
+        "name": "Salsotto's Terminator Line"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "d0afc12bf817feca0c9508a6d66336d13c76cb9770471182152a2c04ecc656b2",
+      "currentHash": "cc9596ff405041d515b818e351ce774aa3b517ff632f1500c77d5959c762c75f"
+    }
+  },
+  {
+    "id": "307",
+    "contentStatus": "beta_changed",
+    "name": "Talia: Kingdom of Banditry",
+    "type": "planar ornament",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71018.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases the wearer's Break Effect by <unbreak>#1[i]%</unbreak>. When the wearer's SPD reaches <unbreak>#2[i]</unbreak> or higher, the wearer's Break Effect increases by an extra <unbreak>#3[i]%</unbreak>.",
+        "params": [
+          0.16,
+          145,
+          0.2
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "33075",
+        "name": "Talia's Nailscrap Town"
+      },
+      {
+        "id": "33076",
+        "name": "Talia's Exposed Electric Wire"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "ea6c1b848af8227343fa976c48346db00fe34cd294989ee2d450c91ca104962c",
+      "currentHash": "f59de908805188b7bf6a12d4659c3d47f9a920a5f4ea8fac4bb2181ebed87c4e"
+    }
+  },
+  {
+    "id": "308",
+    "contentStatus": "beta_changed",
+    "name": "Sprightly Vonwacq",
+    "type": "planar ornament",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71019.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases the wearer's Energy Regeneration Rate by <unbreak>#1[i]%</unbreak>. When the wearer's SPD reaches <unbreak>#2[i]</unbreak> or higher, the wearer's action is Advanced Forward by <unbreak>#3[i]%</unbreak> immediately upon entering battle.",
+        "params": [
+          0.05,
+          120,
+          0.4
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "33085",
+        "name": "Vonwacq's Island of Birth"
+      },
+      {
+        "id": "33086",
+        "name": "Vonwacq's Islandic Coast"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "9e45aebab653c8bd5fcaf8a3c65344484e155485c8b1907780782ac48b7284e3",
+      "currentHash": "80a1d506e60d248f7d4fc229f3977b937b08617631d68c086ffebfdbf1e77acb"
+    }
+  },
+  {
+    "id": "309",
+    "contentStatus": "beta_changed",
+    "name": "Rutilant Arena",
+    "type": "planar ornament",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71022.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases the wearer's CRIT Rate by <unbreak>#1[i]%</unbreak>. When the wearer's current CRIT Rate reaches <unbreak>#2[i]%</unbreak> or higher, DMG dealt by Basic ATK and Skill increases by <unbreak>#3[i]%</unbreak>.",
+        "params": [
+          0.08,
+          0.7,
+          0.2
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "33095",
+        "name": "Taikiyan Laser Stadium"
+      },
+      {
+        "id": "33096",
+        "name": "Taikiyan's Arclight Race Track"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "b761b14b141aa0f6d2e6e064b5b357d52342376e15f386df4f9e770750872bce",
+      "currentHash": "697e9672a4738c171a9b4beb3e11d8d74734cde3efe39eab84365e240fce0e0a"
+    }
+  },
+  {
+    "id": "310",
+    "contentStatus": "beta_changed",
+    "name": "Broken Keel",
+    "type": "planar ornament",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71023.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases the wearer's Effect RES by <unbreak>#1[i]%</unbreak>. When the wearer's Effect RES is at <unbreak>#2[i]%</unbreak> or higher, all allies' CRIT DMG increases by <unbreak>#3[i]%</unbreak>.",
+        "params": [
+          0.1,
+          0.3,
+          0.1
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "33105",
+        "name": "Insumousu's Whalefall Ship"
+      },
+      {
+        "id": "33106",
+        "name": "Insumousu's Frayed Hawser"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "08bf385a4992f6b76e352bfe81c7521eb02f0a978ea78894d5f588fc9abd1072",
+      "currentHash": "17788bebb92409e1713cc717cc4ee243d11c6ae4c1cdb3346495cccc12235c0d"
+    }
+  },
+  {
+    "id": "311",
+    "contentStatus": "beta_changed",
+    "name": "Firmament Frontline: Glamoth",
+    "type": "planar ornament",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71026.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases the wearer's ATK by <unbreak>#1[i]%</unbreak>. When the wearer's SPD is equal to or higher than <unbreak>#2[i]</unbreak>/<unbreak>#3[i]</unbreak>, the wearer deals <unbreak>#4[i]%</unbreak>/<unbreak>#5[i]%</unbreak> more DMG.",
+        "params": [
+          0.12,
+          135,
+          160,
+          0.12,
+          0.18
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "33115",
+        "name": "Glamoth's Iron Cavalry Regiment"
+      },
+      {
+        "id": "33116",
+        "name": "Glamoth's Silent Tombstone"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "2df1d3ea295e3d2d6a94490ea922e28a0e59a69a4c03419bf840da6d6226fa7f",
+      "currentHash": "6494dc97305bbdd6510b98f4113a9fe58eb6c35bbbb3902fd7d4ad25b3f2ad4f"
+    }
+  },
+  {
+    "id": "312",
+    "contentStatus": "beta_changed",
+    "name": "Penacony, Land of the Dreams",
+    "type": "planar ornament",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71027.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases wearer's Energy Regeneration Rate by <unbreak>#1[i]%</unbreak>. Increases DMG by <unbreak>#2[i]%</unbreak> for all other allies that are of the same Type as the wearer.",
+        "params": [
+          0.05,
+          0.1
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "33125",
+        "name": "Penacony's Grand Hotel"
+      },
+      {
+        "id": "33126",
+        "name": "Penacony's Dream-Seeking Tracks"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "f8e98100ec2d6cdf9ed91d7e5753417d29f4f08f3427ec49136d8a4c30d849ce",
+      "currentHash": "1adec9bde5daf8eb3cc7c300c180d17af79993b3b9110093e271f66fed47e4e9"
+    }
+  },
+  {
+    "id": "313",
+    "contentStatus": "beta_changed",
+    "name": "Sigonia, the Unclaimed Desolation",
+    "type": "planar ornament",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71030.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases the wearer's CRIT Rate by <unbreak>#3[i]%</unbreak>. When an enemy target gets defeated, the wearer's CRIT DMG increases by <unbreak>#1[i]%</unbreak>, stacking up to <unbreak>#2[i]</unbreak> time(s).",
+        "params": [
+          0.04,
+          10,
+          0.04
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "33135",
+        "name": "Sigonia's Gaiathra Berth"
+      },
+      {
+        "id": "33136",
+        "name": "Sigonia's Knot of Cyclicality"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "24a2a26ad2b667757d11b7009954984082f36fb3c32cf391e3aedab5e6cc7d85",
+      "currentHash": "e918c1cb544c11f85685c8aa0db8308de08678a20e2c4e7e56ede2e489afa00c"
+    }
+  },
+  {
+    "id": "314",
+    "contentStatus": "beta_changed",
+    "name": "Izumo Gensei and Takama Divine Realm",
+    "type": "planar ornament",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71031.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases the wearer's ATK by <unbreak>#1[i]%</unbreak>. When entering battle, if at least one teammate follows the same Path as the wearer, then the wearer's CRIT Rate increases by <unbreak>#2[i]%</unbreak>.",
+        "params": [
+          0.12,
+          0.12
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "33145",
+        "name": "Izumo's Magatsu no Morokami"
+      },
+      {
+        "id": "33146",
+        "name": "Izumo's Blades of Origin and End"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "0f863a54f63618a10d69cd52d463e24f4ff14dabc9128242fc89f0b57d78f51d",
+      "currentHash": "b159e9ebc38ede05dda0489574e1706b0c11b3bd28136ecd7174e9ae543c8560"
+    }
+  },
+  {
+    "id": "315",
+    "contentStatus": "beta_changed",
+    "name": "Duran, Dynasty of Running Wolves",
+    "type": "planar ornament",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71034.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "When an ally character uses a Follow-Up ATK, the wearer gains 1 stack of \"Merit,\" stacking up to <unbreak>#1[i]</unbreak> time(s). Each stack of \"Merit\" increases the DMG dealt by the wearer's Follow-Up ATKs by <unbreak>#2[i]%</unbreak>. When there are <unbreak>#1[i]</unbreak> stacks, additionally increases the wearer's CRIT DMG by <unbreak>#3[i]%</unbreak>.",
+        "params": [
+          5,
+          0.05,
+          0.25
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "33155",
+        "name": "Duran's Tent of Golden Sky"
+      },
+      {
+        "id": "33156",
+        "name": "Duran's Mechabeast Bridle"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "69b94cd009ca139594aa3b1931b8817af98a7c79abebb2369f1f65861cf25f19",
+      "currentHash": "194795650f88b780a2df9675e0b6fbbf6ec1a771f88c401fa6e50241c58ed29c"
+    }
+  },
+  {
+    "id": "316",
+    "contentStatus": "beta_changed",
+    "name": "Forge of the Kalpagni Lantern",
+    "type": "planar ornament",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71035.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases the wearer's SPD by <unbreak>#1[i]%</unbreak>. When the wearer hits an enemy target that has Fire Weakness, the wearer's Break Effect increases by <unbreak>#2[i]%</unbreak>, lasting for <unbreak>#3[i]</unbreak> turn(s).",
+        "params": [
+          0.06,
+          0.4,
+          1
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "33165",
+        "name": "Forge's Lotus Lantern Wick"
+      },
+      {
+        "id": "33166",
+        "name": "Forge's Heavenly Flamewheel Silk"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "0c8ea563edf6b7cf6e6c156f5dd37836985e1958a5a73c48fe8c66ab595c4198",
+      "currentHash": "593e3fec8ce6e53ea640f58b54ba083e1c8e0b03dc47ad8c05ce6ba8449ac1e0"
+    }
+  },
+  {
+    "id": "317",
+    "contentStatus": "beta_changed",
+    "name": "Lushaka, the Sunken Seas",
+    "type": "planar ornament",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71036.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases the wearer's Energy Regeneration Rate by <unbreak>#1[i]%</unbreak>. If the wearer is not the first character in the team lineup, then increases the ATK of the first character in the team lineup by <unbreak>#2[i]%</unbreak>.",
+        "params": [
+          0.05,
+          0.12
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "33175",
+        "name": "Lushaka's Waterscape"
+      },
+      {
+        "id": "33176",
+        "name": "Lushaka's Twinlanes"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "d3f31e8452fccd4331eda777ad7c83c01d75272b1c2028cef602395cc491810b",
+      "currentHash": "9a7c637218bae6b882f98825b7ce1a8c76fd3d14a389094117cdff332d35acbf"
+    }
+  },
+  {
+    "id": "318",
+    "contentStatus": "beta_changed",
+    "name": "The Wondrous BananAmusement Park",
+    "type": "planar ornament",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71037.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases the wearer's CRIT DMG by <unbreak>#1[i]%</unbreak>. When a target summoned by the wearer is on the field, CRIT DMG additionally increases by <unbreak>#2[i]%</unbreak>.",
+        "params": [
+          0.16,
+          0.32
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "33185",
+        "name": "BananAmusement Park's BananAxis Plaza"
+      },
+      {
+        "id": "33186",
+        "name": "BananAmusement Park's Memetic Cables"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "c8c93e1524d0d2c16729252be84702113d953c91d92ca860a3240e8781f46827",
+      "currentHash": "071ee0e8d504bc404f6de7bee201e20284a60a993adf9ef6ba07ffc5e9f27a61"
+    }
+  },
+  {
+    "id": "319",
+    "contentStatus": "beta_changed",
+    "name": "Bone Collection's Serene Demesne",
+    "type": "planar ornament",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71042.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases the wearer's Max HP by <unbreak>#1[i]%</unbreak>. When the wearer's Max HP is <unbreak>#2[i]</unbreak> or higher, increases the wearer's and their memosprite's CRIT DMG by <unbreak>#3[i]%</unbreak>.",
+        "params": [
+          0.12,
+          5000,
+          0.28
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "33195",
+        "name": "Aidonia's Deceased Gravestones"
+      },
+      {
+        "id": "33196",
+        "name": "Aidonia's Deathward Bone Chains"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "4a524ef4ca0a65acca3d09bfff23bafefc351906ea466193386992b5e0e79cb5",
+      "currentHash": "10fbe943ce085a07d69b4b1a0e42a7ffed31f00089d6afed78a7dc26929d334a"
+    }
+  },
+  {
+    "id": "320",
+    "contentStatus": "beta_changed",
+    "name": "Giant Tree of Rapt Brooding",
+    "type": "planar ornament",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71043.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases the wearer's SPD by <unbreak>#1[i]%</unbreak>. When the wearer's SPD is <unbreak>#2[i]</unbreak>/<unbreak>#3[i]</unbreak> or higher, the wearer and their memosprite's Outgoing Healing increases by <unbreak>#4[i]%</unbreak>/<unbreak>#5[i]%</unbreak>.",
+        "params": [
+          0.06,
+          135,
+          180,
+          0.12,
+          0.2
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "33205",
+        "name": "Grove of Epiphany's Pondering Colossus"
+      },
+      {
+        "id": "33206",
+        "name": "Grove of Epiphany's Interwoven Veins"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "168b2a55d907955a5617f82148591a8d5cdf2ccf3a9f4a99cc7ce2304cf95a3e",
+      "currentHash": "08c4fe4232255cfacf7cfb605bf5253c8d018cb4d6a0a9ec79d9d531072e4404"
+    }
+  },
+  {
+    "id": "321",
+    "contentStatus": "beta_changed",
+    "name": "Arcadia of Woven Dreams",
+    "type": "planar ornament",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71046.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "When the number of ally targets on the field is not equal to 4, for every 1 additional/missing ally target, increases the DMG dealt by the wearer and their memosprite by <unbreak>#1[i]%</unbreak>/<unbreak>#2[i]%</unbreak>, stacking up to <unbreak>#3[i]</unbreak>/<unbreak>#4[i]</unbreak> time(s).",
+        "params": [
+          0.09,
+          0.12,
+          4,
+          3
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "33215",
+        "name": "Membrance Maze's Serene Treehouse"
+      },
+      {
+        "id": "33216",
+        "name": "Membrance Maze's Wishing Whistle"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "0d8f8597e4a1f71157ce21dba8ea7cb779485ce48821c6db498586ad838eb710",
+      "currentHash": "22523ce275e0c0068a5a8f4f1db9583e9e2b67cdeae7801e1eef92d23e0b1f3f"
+    }
+  },
+  {
+    "id": "322",
+    "contentStatus": "beta_changed",
+    "name": "Revelry by the Sea",
+    "type": "planar ornament",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71047.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases the wearer's ATK by <unbreak>#1[i]%</unbreak>. When the wearer's ATK is higher than or equal to <unbreak>#2[i]</unbreak>/<unbreak>#3[i]</unbreak>, increases the DoT DMG dealt by <unbreak>#4[i]%</unbreak>/<unbreak>#5[i]%</unbreak> respectively.",
+        "params": [
+          0.12,
+          2400,
+          3600,
+          0.12,
+          0.24
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "33225",
+        "name": "Warbling Shores' Blazing Beacon"
+      },
+      {
+        "id": "33226",
+        "name": "Warbling Shores' Cantillation Trail"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "ee8cdb4505fd1bb05d4ee7c81176b47764188eadcc08dcdf4d9d2c872b7351e2",
+      "currentHash": "9b8bba1f7a96c5e3a0b28ddb445675bfe872212b39e4bb6b69d7a89aec01f6a7"
+    }
+  },
+  {
+    "id": "323",
+    "contentStatus": "beta_changed",
+    "name": "Amphoreus, The Eternal Land",
+    "type": "planar ornament",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71050.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases the wearer's CRIT Rate by <unbreak>#1[i]%</unbreak>. While the wearer's memosprite is on the field, increases all allies' SPD by <unbreak>#2[i]%</unbreak>. This effect cannot be stacked.",
+        "params": [
+          0.08,
+          0.08
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "33235",
+        "name": "Last West Wind of Amphoreus"
+      },
+      {
+        "id": "33236",
+        "name": "Eternal Verses of Amphoreus"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "eb387ff073c330c572ff43904b6717445ffba7bd77a2e73cf88c14d1185e8b61",
+      "currentHash": "e2d62b7e3b933bdb1c245ef1adb097df1ef87ec10c5fd1becb8f0d7dbc9ce32e"
+    }
+  },
+  {
+    "id": "324",
+    "contentStatus": "beta_changed",
+    "name": "Tengoku@Livestream",
+    "type": "planar ornament",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71051.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases the wearer's CRIT DMG by <unbreak>#1[i]%</unbreak>. If <unbreak>#2[i]</unbreak> or more Skill Points are consumed in the same turn, additionally increases the wearer's CRIT DMG by <unbreak>#3[i]%</unbreak>, lasting for <unbreak>#4[i]</unbreak> turns.",
+        "params": [
+          0.16,
+          3,
+          0.32,
+          3
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "33245",
+        "name": "Livestream's Protean Vistas"
+      },
+      {
+        "id": "33246",
+        "name": "Livestream's Chatter Banter"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "5dae1f01a6fff8fe56c4ae906da5cac00044137a666bc9116664b1c37656856a",
+      "currentHash": "a45f09c66720fe94aaa0cb99e068fd588c5977757e47d4a62bf0d93111146f9d"
+    }
+  },
+  {
+    "id": "325",
+    "contentStatus": "beta_changed",
+    "name": "Punklorde Stage Zero",
+    "type": "planar ornament",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71054.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases the wearer's Elation by <unbreak>#1[i]%</unbreak>. When Elation reaches <unbreak>#2[i]%</unbreak>/<unbreak>#3[i]%</unbreak> for the first time in combat, increases the wearer's CRIT DMG by <unbreak>#4[i]%</unbreak>/<unbreak>#5[i]%</unbreak>.",
+        "params": [
+          0.08,
+          0.4,
+          0.8,
+          0.2,
+          0.32
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "33255",
+        "name": "Punklorde's Rainbow City"
+      },
+      {
+        "id": "33256",
+        "name": "Punklorde's Data Deluge"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "5de2b796487cebc0569a79e1d01baf16708f381ae87f93f6629a299eefcb0309",
+      "currentHash": "86cd033507480d5a3f498cc5a693281b24edb114e47bc65a698e56cd7f01ee28"
+    }
+  },
+  {
+    "id": "326",
+    "contentStatus": "beta_changed",
+    "name": "City of Converging Stars",
+    "type": "planar ornament",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71055.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "When the wearer uses Follow-Up ATK, increases ATK by <unbreak>#1[i]%</unbreak> for <unbreak>#2[i]</unbreak> turn(s). When an enemy target gets defeated, increases CRIT DMG for all allies by <unbreak>#3[i]%</unbreak> in the current battle. This effect cannot stack.",
+        "params": [
+          0.24,
+          2,
+          0.12
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "33265",
+        "name": "Astropolis Media Headquarters"
+      },
+      {
+        "id": "33266",
+        "name": "Astropolis Employee Credentials"
+      }
+    ],
+    "liveComparison": {
+      "liveHash": "257ee64f3e2619f0b49051f93a5d04384b2a089844c79d44a01c15f3f9c1b2fa",
+      "currentHash": "6dca1a3964e9607aad87a888b44309ffe25eb0da0a630512c4b80011fce16bd9"
+    }
+  },
+  {
+    "id": "327",
+    "contentStatus": "beta",
+    "name": "Fallen Star Anchorage",
+    "type": "planar ornament",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71058.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases the wearer's CRIT Rate by <unbreak>#1[i]%</unbreak>. When entering combat, if the wearer and another teammate are both Trailblaze Companions characters, increases the wearer's CRIT DMG by <unbreak>#2[i]%</unbreak>.",
+        "params": [
+          0.08,
+          0.32
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "33275",
+        "name": "Stranded Express at the Anchorage"
+      },
+      {
+        "id": "33276",
+        "name": "Silver Rails of the Anchorage"
+      }
+    ],
+    "liveComparison": {
+      "currentHash": "0165e66825ce3fc7e8a257b1aacc51286b71daebcfcde55470459407e70f1513"
+    }
+  },
+  {
+    "id": "328",
+    "contentStatus": "beta",
+    "name": "Cosmic Life Sciences Institute",
+    "type": "planar ornament",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71059.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "When entering combat, if the wearer's Max Energy is greater than or equal to <unbreak>#1[i]</unbreak>, increases the wearer's DMG dealt by <unbreak>#2[f1]%</unbreak> for every 1 point exceeding this value, up to a max increase of <unbreak>#3[i]%</unbreak>.",
+        "params": [
+          200,
+          0.002,
+          0.32
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "33285",
+        "name": "Central Synapse of the Life Sciences Institute"
+      },
+      {
+        "id": "33286",
+        "name": "Peripheral Conduits of the Life Sciences Institute"
+      }
+    ],
+    "liveComparison": {
+      "currentHash": "db0d2134d02fd2dae7f5a6c708022634503100762dcd4e747954e57100cbe578"
+    }
+  }
+]

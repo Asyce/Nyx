@@ -264,7 +264,7 @@ async function fetchWithRetries(url, options = {}) {
   const { optional = false, retries = 3, headers = {}, timeoutMs = DEFAULT_FETCH_TIMEOUT_MS, cache = false } = options;
   let lastError;
 
-  // Conditional-GET cache: opt-in (used by the Nanoka JSON fetchers). A cache hit still
+  // Conditional-GET cache: opt-in (used by the GameData JSON fetchers). A cache hit still
   // makes the request, but the server answers 304 with no body, so we reuse the stored
   // payload and skip re-downloading/re-parsing unchanged data. Fail-safe: any cache error
   // falls through to a normal fetch.

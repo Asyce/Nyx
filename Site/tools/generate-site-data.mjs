@@ -20,14 +20,14 @@ const dbDir = path.resolve(root, 'Database');
 const readJson = (rel) => JSON.parse(fs.readFileSync(path.resolve(dbDir, rel), 'utf8'));
 const exists = (rel) => fs.existsSync(path.resolve(dbDir, rel));
 
-// Active Nanoka channel for character/material reads. 'live' by default; flipped to
+// Active GameData channel for character/material reads. 'live' by default; flipped to
 // 'beta' while building the beta delta. Item/avatar caches are keyed by channel so the
 // two passes never cross-contaminate. Assets live in a shared (channel-less) dir.
-const NANOKA_CHANNELS = ['gi', 'hsr', 'zzz', 'wuwa', 'ww'];
-let NANOKA_CHANNEL = 'live';
-const nch = () => NANOKA_CHANNEL;
+const GAMEDATA_CHANNELS = ['gi', 'hsr', 'zzz', 'wuwa', 'ww'];
+let GAMEDATA_CHANNEL = 'live';
+const nch = () => GAMEDATA_CHANNEL;
 // Beta is only meaningful when the channel dir actually exists on disk.
-const betaChannelAvailable = (game) => exists(`Nanoka/${game === 'wuwa' ? 'ww' : game}/beta`);
+const betaChannelAvailable = (game) => exists(`GameData/${game === 'wuwa' ? 'ww' : game}/beta`);
 function dbAsset(p) {
   if (!p) return null;
   const norm = String(p).replace(/\\/g, '/');
@@ -189,13 +189,13 @@ function cleanKitScaling(groups = []) {
   return out;
 }
 
-function kitSource(game, source = 'Nanoka') {
-  const manifest = exists('Nanoka/manifest.json') ? readJson('Nanoka/manifest.json') : {};
+function kitSource(game, source = 'Game data') {
+  const manifest = exists('GameData/manifest.json') ? readJson('GameData/manifest.json') : {};
   const key = game === 'wuwa' ? 'ww' : game;
   return {
     source,
-    channel: NANOKA_CHANNEL,
-    version: manifest[key]?.[NANOKA_CHANNEL === 'beta' ? 'latest' : 'live'] || manifest[key]?.latest || manifest[key]?.live || null,
+    channel: GAMEDATA_CHANNEL,
+    version: manifest[key]?.[GAMEDATA_CHANNEL === 'beta' ? 'latest' : 'live'] || manifest[key]?.latest || manifest[key]?.live || null,
   };
 }
 
@@ -368,7 +368,7 @@ function normKey(s) {
     .replace(/[^a-z0-9]+/g, '');
 }
 
-function nanokaCharacterAliases(game, ch) {
+function gamedataCharacterAliases(game, ch) {
   const key = game === 'wuwa' ? 'ww' : game;
   const id = String(ch?.id || '');
   const name = cleanText(ch?.name, 120);
@@ -381,6 +381,12 @@ function nanokaCharacterAliases(game, ch) {
     if (id === '1413') aliases.push('Evernight', 'March 7th Evernight', 'March 7th • Evernight');
     if (id === '1506') aliases.push('Silver Wolf LV.999', 'Silver Wolf LV999', 'Silver Wolf Lv 999', 'Silver Wolf • Lv. 999');
     if (id === '1225') aliases.push('Tingyun Fugue', 'Tingyun • Fugue');
+    const trailblazerPath = {
+      8001:'Destruction', 8002:'Destruction', 8003:'Preservation', 8004:'Preservation',
+      8005:'Harmony', 8006:'Harmony', 8007:'Remembrance', 8008:'Remembrance',
+      8009:'Elation', 8010:'Elation',
+    }[id];
+    if (trailblazerPath) aliases.push(`Trailblazer ${trailblazerPath}`, `Trailblazer • ${trailblazerPath}`);
   }
 
   if (key === 'ww' && name && !/^the\s+/i.test(name)) aliases.push(`The ${name}`);
@@ -464,7 +470,7 @@ const rawCharacterLocaleCache = new Map();
 function rawCharacterLocaleMap(game, channel = nch()) {
   const key = `${game}:${channel}`;
   if (rawCharacterLocaleCache.has(key)) return rawCharacterLocaleCache.get(key);
-  const rel = `Nanoka/${game}/${channel}/raw/characters.json`;
+  const rel = `GameData/${game}/${channel}/raw/characters.json`;
   const map = new Map();
   if (exists(rel)) {
     const raw = readJson(rel);
@@ -694,11 +700,11 @@ function rewardIdsForMonster(monster) {
 
 function monsterSourceRel(game) {
   return {
-    gi: 'Nanoka/gi/live/monsters.json',
-    hsr: 'Nanoka/hsr/live/monsters.json',
-    zzz: 'Nanoka/zzz/live/monsters.json',
-    wuwa: 'Nanoka/ww/live/monsters.json',
-    ww: 'Nanoka/ww/live/monsters.json',
+    gi: 'GameData/gi/live/monsters.json',
+    hsr: 'GameData/hsr/live/monsters.json',
+    zzz: 'GameData/zzz/live/monsters.json',
+    wuwa: 'GameData/ww/live/monsters.json',
+    ww: 'GameData/ww/live/monsters.json',
   }[game] || null;
 }
 
@@ -1044,16 +1050,16 @@ function endfieldSharedReq() {
 // G37/ZZZ: the 5 skill-type icons are SHARED across all agents (Basic / Dodge /
 // Assist / Special Attack / Chain Attack), sourced from static.nanoka.cc.
 const ZZZ_SKILL_ICONS = [
-  'Nanoka/zzz/assets/skills/Icon_Normal.webp',
-  'Nanoka/zzz/assets/skills/Icon_Evade.webp',
-  'Nanoka/zzz/assets/skills/Icon_Switch.webp',
-  'Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp',
-  'Nanoka/zzz/assets/skills/Icon_UltimateReady.webp',
+  'GameData/zzz/assets/skills/Icon_Normal.webp',
+  'GameData/zzz/assets/skills/Icon_Evade.webp',
+  'GameData/zzz/assets/skills/Icon_Switch.webp',
+  'GameData/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp',
+  'GameData/zzz/assets/skills/Icon_UltimateReady.webp',
 ].map((p) => dbAsset(p));
 
 function zzzAgentAvatarIcon(agent) {
   const id = String(agent?.id || '').trim();
-  return id ? dbAsset(`Nanoka/zzz/assets/items/CardDailyUse${id}.webp`) : null;
+  return id ? dbAsset(`GameData/zzz/assets/items/CardDailyUse${id}.webp`) : null;
 }
 
 const HSR_HOLIDAY_ART = loadHsrHolidayArtMap();
@@ -1072,10 +1078,7 @@ const MANUAL_ICON_ZOOM = {
     nefer: 1.32,
     columbina: 1.32,
   },
-  zzz: {
-    norma: 1.24,
-    velina: 1.24,
-  },
+  zzz: {},
 };
 
 const MANUAL_OVERVIEW_ART_ZOOM = {
@@ -1164,7 +1167,7 @@ function gcgAssetPrefixIndex(relDir) {
 
 function buildGcgCharacterCardMap() {
   const map = new Map();
-  const rel = 'Nanoka/gi/gcg/character cards/cards.json';
+  const rel = 'GameData/gi/gcg/character cards/cards.json';
   if (!exists(rel)) return map;
   for (const card of readJson(rel)) {
     const who = card.playableCharacter || card.name;
@@ -1180,7 +1183,7 @@ function buildGcgCharacterCardMap() {
 
 function applyGenshinTcgOverviewArt(roster) {
   const characterCards = buildGcgCharacterCardMap();
-  const otherCards = gcgAssetPrefixIndex('Nanoka/gi/gcg/other cards/assets');
+  const otherCards = gcgAssetPrefixIndex('GameData/gi/gcg/other cards/assets');
   const report = {
     generatedAt: new Date().toISOString(),
     note: 'overviewArtPool is used only by overview favourite cards. Material/detail art stays on normal character assets.',
@@ -1245,9 +1248,9 @@ function gcgAssetLabel(file) {
 }
 
 function buildGenshinTcgCards() {
-  const characterRel = 'Nanoka/gi/gcg/character cards/cards.json';
-  const otherRel = 'Nanoka/gi/gcg/other cards/cards.json';
-  const reportRel = 'Nanoka/gi/gcg/report.json';
+  const characterRel = 'GameData/gi/gcg/character cards/cards.json';
+  const otherRel = 'GameData/gi/gcg/other cards/cards.json';
+  const reportRel = 'GameData/gi/gcg/report.json';
   const ambrRel = 'Ambr/gi/gcg/cards-en.json';
   const ambrById = new Map((exists(ambrRel) ? readJson(ambrRel) : []).map((card) => [String(card.id), card]));
   const mapTcgCard = (card, fallbackType, playableCharacter) => {
@@ -1275,7 +1278,7 @@ function buildGenshinTcgCards() {
     ? readJson(characterRel)
       .map((card) => mapTcgCard(card, 'Character', card.playableCharacter || null))
     : [];
-  const otherDir = path.resolve(dbDir, 'Nanoka/gi/gcg/other cards/assets');
+  const otherDir = path.resolve(dbDir, 'GameData/gi/gcg/other cards/assets');
   const otherCards = exists(otherRel)
     ? readJson(otherRel)
       .map((card) => mapTcgCard(card, 'Action', null))
@@ -1294,7 +1297,7 @@ function buildGenshinTcgCards() {
           type:'Action',
           tags:[],
           playableCharacter:null,
-          art:dbAsset(`Nanoka/gi/gcg/other cards/assets/${entry.name}`),
+          art:dbAsset(`GameData/gi/gcg/other cards/assets/${entry.name}`),
         };
         })
         .sort((a, b) => a.name.localeCompare(b.name))
@@ -1309,15 +1312,15 @@ function buildGenshinTcgCards() {
 }
 
 // Serenitea Pot furnishings scraped from https://gi.nanoka.cc/furniture (see
-// Site/tools/scrape-nanoka-furniture.mjs). Recipe material ids are resolved to
-// names/icons through the same Nanoka gi item list used by the material tools.
+// Site/tools/scrape-gamedata-furniture.mjs). Recipe material ids are resolved to
+// names/icons through the same GameData gi item list used by the material tools.
 function buildGenshinFurniture() {
-  const furnitureRel = 'Nanoka/gi/furniture/furniture.json';
-  const reportRel = 'Nanoka/gi/furniture/report.json';
+  const furnitureRel = 'GameData/gi/furniture/furniture.json';
+  const reportRel = 'GameData/gi/furniture/report.json';
   if (!exists(furnitureRel)) {
     return { updated:null, counts:{ items:0 }, categories:[], items:[] };
   }
-  const itemLookup = nanokaItemLookup('gi');
+  const itemLookup = gamedataItemLookup('gi');
   const resolveMaterial = (mat) => {
     const found = itemLookup.get(String(mat.id));
     return {
@@ -1361,6 +1364,57 @@ function buildGenshinFurniture() {
     version:report?.version || null,
     counts:{ items:items.length, craftable:items.filter((i) => i.recipe).length },
     categories,
+    items,
+  };
+}
+
+// Miliastra Wonderland is scraped atomically by Scraper/wonderland. Its filter
+// labels come from the source lang_map payload, while all art stays in the local
+// Database mirror (no runtime hotlinks).
+function buildGenshinWonderland() {
+  const base = 'GameData/gi/beyond';
+  const reportRel = `${base}/report.json`;
+  const langRel = `${base}/lang-map.json`;
+  const humanize = (value) => cleanText(String(value || '')
+    .replace(/([a-z0-9])([A-Z])/g, '$1 $2')
+    .replace(/^BEYOND_/i, '')
+    .replace(/[_-]+/g, ' ')
+    .toLowerCase()
+    .replace(/\b\w/g, (letter) => letter.toUpperCase()), 120);
+  const canonical = (value) => String(value || '')
+    .replace(/([a-z0-9])([A-Z])/g, '$1_$2')
+    .replace(/[^A-Za-z0-9]+/g, '_')
+    .replace(/^_+|_+$/g, '')
+    .toLowerCase();
+  const langMap = exists(langRel) ? readJson(langRel) : { slot:{}, color:{} };
+  const labelFrom = (group, value) => langMap[group]?.[canonical(value)] || humanize(value);
+  const readRows = (name, kind) => {
+    const rel = `${base}/${name}.json`;
+    if (!exists(rel)) return [];
+    return readJson(rel).map((row) => ({
+      id:String(row.id),
+      name:row.name || `Wonderland ${kind} ${row.id}`,
+      kind,
+      art:dbAsset(row.localAsset),
+      rank:humanize(row.rank),
+      type:humanize(row.type),
+      body:(row.body || []).map((value) => humanize(String(value).replace(/^BODY_/i, ''))).filter(Boolean),
+      color:(row.color || []).map((value) => labelFrom('color', value)).filter(Boolean),
+      slot:(row.slot || []).map((value) => labelFrom('slot', value)).filter(Boolean),
+      nameMissing:row.nameMissing === true,
+    }));
+  };
+  const report = exists(reportRel) ? readJson(reportRel) : null;
+  const costumes = readRows('costumes', 'Costume');
+  const suits = readRows('suits', 'Set');
+  const items = readRows('items', 'Inventory Item');
+  return {
+    updated:report?.generatedAt || null,
+    version:report?.version || null,
+    langMap,
+    counts:{ costumes:costumes.length, suits:suits.length, items:items.length },
+    costumes,
+    suits,
     items,
   };
 }
@@ -1435,11 +1489,11 @@ const giItemLookupCache = new Map();
 function giItemLookup() {
   if (giItemLookupCache.has(nch())) return giItemLookupCache.get(nch());
   const byKey = new Map();
-  if (!exists(`Nanoka/gi/${nch()}/items.json`)) {
+  if (!exists(`GameData/gi/${nch()}/items.json`)) {
     giItemLookupCache.set(nch(), byKey);
     return byKey;
   }
-  for (const item of readJson(`Nanoka/gi/${nch()}/items.json`)) {
+  for (const item of readJson(`GameData/gi/${nch()}/items.json`)) {
     if (!item) continue;
     if (item.id !== undefined && item.id !== null) byKey.set(String(item.id), item);
     if (item.name) byKey.set(String(item.name).toLowerCase(), item);
@@ -1448,15 +1502,15 @@ function giItemLookup() {
   return byKey;
 }
 
-const nanokaItemLookupCache = new Map();
+const gamedataItemLookupCache = new Map();
 
-function nanokaItemLookup(game) {
+function gamedataItemLookup(game) {
   const cacheKey = `${game}:${nch()}`;
-  if (nanokaItemLookupCache.has(cacheKey)) return nanokaItemLookupCache.get(cacheKey);
+  if (gamedataItemLookupCache.has(cacheKey)) return gamedataItemLookupCache.get(cacheKey);
   const byKey = new Map();
-  const rel = `Nanoka/${game}/${nch()}/items.json`;
+  const rel = `GameData/${game}/${nch()}/items.json`;
   if (!exists(rel)) {
-    nanokaItemLookupCache.set(cacheKey, byKey);
+    gamedataItemLookupCache.set(cacheKey, byKey);
     return byKey;
   }
   for (const item of readJson(rel)) {
@@ -1464,7 +1518,7 @@ function nanokaItemLookup(game) {
     if (item.id !== undefined && item.id !== null) byKey.set(String(item.id), item);
     if (item.name) byKey.set(String(item.name).toLowerCase(), item);
   }
-  nanokaItemLookupCache.set(cacheKey, byKey);
+  gamedataItemLookupCache.set(cacheKey, byKey);
   return byKey;
 }
 
@@ -1481,6 +1535,180 @@ function setNamedMapEntry(map, name, value, aliases = [], options = {}) {
   }
 }
 
+const PROFILE_MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+
+function profileNumber(value, digits = 2) {
+  const n = Number(value);
+  if (!Number.isFinite(n)) return undefined;
+  return Number(n.toFixed(digits));
+}
+
+function profileText(value, max = 120) {
+  const text = cleanText(value, max);
+  if (!text || /^(?:unknown|none|n\/a|-+|\?+|[■□]+)$/i.test(text)) return undefined;
+  return text;
+}
+
+function profileFirst(value) {
+  if (value && typeof value === 'object' && !Array.isArray(value)) return profileFirst(Object.values(value)[0]);
+  return value;
+}
+
+function profilePlace(value) {
+  const text = profileText(value, 120);
+  if (!text) return undefined;
+  return text === text.toUpperCase()
+    ? text.toLowerCase().replace(/\b[a-z]/g, (letter) => letter.toUpperCase())
+    : text;
+}
+
+function profileBirthday(value) {
+  if (Array.isArray(value) && value.length >= 2) {
+    const month = Number(value[0]);
+    const day = Number(value[1]);
+    return month >= 1 && month <= 12 && day >= 1 && day <= 31 ? `${PROFILE_MONTHS[month - 1]} ${day}` : undefined;
+  }
+  const text = profileText(value, 40);
+  if (!text) return undefined;
+  const cleaned = text.replace(/(\d)(?:st|nd|rd|th)\b/gi, '$1').replace(/\s+/g, ' ').trim();
+  const match = cleaned.match(/^([A-Za-z]+)\s+(\d{1,2})$/);
+  if (!match) return undefined;
+  const monthIndex = PROFILE_MONTHS.findIndex((month) => month.toLowerCase().startsWith(match[1].toLowerCase().slice(0, 3)));
+  const day = Number(match[2]);
+  return monthIndex >= 0 && day >= 1 && day <= 31 ? `${PROFILE_MONTHS[monthIndex]} ${day}` : undefined;
+}
+
+function giProfileData(ch) {
+  const stats = ch?.stats || {};
+  const modifiers = stats.modifiers || {};
+  const maxLevel = 90;
+  const ascension = Array.isArray(modifiers.ascension) ? modifiers.ascension.at(-1) || {} : {};
+  const scaled = (key, ascensionKey) => {
+    const base = Number(stats[key]);
+    const curve = Number(modifiers[key === 'baseHp' ? 'hp' : key === 'baseAtk' ? 'atk' : 'def']?.[maxLevel]);
+    if (!Number.isFinite(base) || !Number.isFinite(curve)) return undefined;
+    return profileNumber(base * curve + Number(ascension[ascensionKey] || 0));
+  };
+  const level1 = {
+    hp: profileNumber(stats.baseHp),
+    atk: profileNumber(stats.baseAtk),
+    def: profileNumber(stats.baseDef),
+    critRate: profileNumber(stats.critRate, 4),
+    critDmg: profileNumber(stats.critDmg, 4),
+    elementalMastery: profileNumber(stats.elementalMastery),
+  };
+  const max = {
+    level: maxLevel,
+    hp: scaled('baseHp', 'fight_prop_base_hp'),
+    atk: scaled('baseAtk', 'fight_prop_base_attack'),
+    def: scaled('baseDef', 'fight_prop_base_defense'),
+    critRate: profileNumber(Number(stats.critRate || 0) + Number(ascension.fight_prop_critical || 0), 4),
+    critDmg: profileNumber(Number(stats.critDmg || 0) + Number(ascension.fight_prop_critical_hurt || 0), 4),
+    elementalMastery: profileNumber(Number(stats.elementalMastery || 0) + Number(ascension.fight_prop_element_mastery || 0)),
+  };
+  const rechargeBonus = Number(ascension.fight_prop_charge_efficiency || 0);
+  if (rechargeBonus) {
+    level1.energyRecharge = 1;
+    max.energyRecharge = profileNumber(1 + rechargeBonus, 4);
+  }
+  const isTraveler = /^1000000[57]/.test(String(ch?.id || '')) || /^Traveler$/i.test(String(ch?.name || ''));
+  const nation = String(ch?.profile?.region || '').replace(/^ASSOC_TYPE_/, '').replace(/_/g, ' ');
+  return {
+    baseStats: Object.keys(level1).some((key) => level1[key] !== undefined) ? { level1, max } : {},
+    facts: {
+      title: profileText(ch?.profile?.title),
+      affiliation: profileText(ch?.profile?.native),
+      constellation: profileText(ch?.profile?.constellation),
+      birthday: isTraveler ? undefined : profileBirthday(ch?.profile?.birth || ch?.birthday),
+      nation: /^MAINACTOR$/i.test(nation) ? undefined : profilePlace(nation),
+    },
+  };
+}
+
+function hsrProfileData(ch) {
+  const ascensions = Array.isArray(ch?.ascensions) ? ch.ascensions : [];
+  const first = ascensions[0]?.stats || {};
+  const last = ascensions.at(-1)?.stats || {};
+  const maxLevel = 80;
+  const grow = (baseKey, addKey) => profileNumber(Number(last[baseKey]) + Number(last[addKey] || 0) * (maxLevel - 1));
+  const hasStats = Object.keys(first).length > 0;
+  return {
+    baseStats: hasStats ? {
+      level1: {
+        hp: profileNumber(first.hp_base), atk: profileNumber(first.attack_base), def: profileNumber(first.defence_base),
+        speed: profileNumber(first.speed_base), critRate: profileNumber(first.critical_chance, 4), critDmg: profileNumber(first.critical_damage, 4),
+      },
+      max: {
+        level: maxLevel, hp: grow('hp_base', 'hp_add'), atk: grow('attack_base', 'attack_add'), def: grow('defence_base', 'defence_add'),
+        speed: profileNumber(last.speed_base), critRate: profileNumber(last.critical_chance, 4), critDmg: profileNumber(last.critical_damage, 4),
+      },
+    } : {},
+    facts: { camp: profileText(ch?.profile?.camp) },
+  };
+}
+
+function zzzProfileData(ch) {
+  const stats = ch?.stats || {};
+  const maxLevel = 60;
+  const promotion = ch?.levels?.[6] || Object.values(ch?.levels || {}).at(-1) || {};
+  const grow = (baseKey, growthKey, promotionKey = baseKey) => profileNumber(
+    Number(stats[baseKey]) + Number(stats[growthKey] || 0) / 10000 * (maxLevel - 1) + Number(promotion[promotionKey] || 0),
+  );
+  const hasStats = Number.isFinite(Number(stats.hp_max));
+  return {
+    baseStats: hasStats ? {
+      level1: {
+        hp: profileNumber(stats.hp_max), atk: profileNumber(stats.attack), def: profileNumber(stats.defence),
+        critRate: profileNumber(Number(stats.crit) / 10000, 4), critDmg: profileNumber(Number(stats.crit_damage) / 10000, 4),
+        impact: profileNumber(stats.break_stun), anomalyProficiency: profileNumber(stats.element_abnormal_power), anomalyMastery: profileNumber(stats.element_mystery),
+      },
+      max: {
+        level: maxLevel, hp: grow('hp_max', 'hp_growth'), atk: grow('attack', 'attack_growth'), def: grow('defence', 'defence_growth'),
+        critRate: profileNumber(Number(stats.crit) / 10000, 4), critDmg: profileNumber(Number(stats.crit_damage) / 10000, 4),
+        impact: profileNumber(stats.break_stun), anomalyProficiency: profileNumber(stats.element_abnormal_power), anomalyMastery: profileNumber(stats.element_mystery),
+      },
+    } : {},
+    facts: {
+      fullName: profileText(ch?.profile?.full_name),
+      faction: profileText(profileFirst(ch?.camp)),
+      birthday: profileBirthday(ch?.profile?.birthday),
+    },
+  };
+}
+
+function wuwaProfileData(ch) {
+  const curves = ch?.stats?.stats || {};
+  const firstCurve = curves[Object.keys(curves).sort((a, b) => Number(a) - Number(b))[0]] || {};
+  const lastCurve = curves[Object.keys(curves).sort((a, b) => Number(a) - Number(b)).at(-1)] || {};
+  const first = firstCurve[Object.keys(firstCurve).sort((a, b) => Number(a) - Number(b))[0]] || {};
+  const maxLevel = Number(Object.keys(lastCurve).sort((a, b) => Number(a) - Number(b)).at(-1));
+  const maxRow = lastCurve[maxLevel] || {};
+  const info = ch?.profile?.charaInfo || {};
+  return {
+    baseStats: Object.keys(first).length ? {
+      level1: { hp: profileNumber(first.life), atk: profileNumber(first.atk), def: profileNumber(first.def) },
+      max: { level: maxLevel, hp: profileNumber(maxRow.life), atk: profileNumber(maxRow.atk), def: profileNumber(maxRow.def) },
+    } : {},
+    facts: {
+      birthday: profileBirthday(info.birth),
+      nation: profileText(info.country),
+      influence: profileText(info.influence),
+    },
+  };
+}
+
+function endfieldProfileData(ch) {
+  return {
+    // The current structured Cargo/infobox records do not expose numeric operator
+    // base stats. Keep the normalized object present and empty instead of guessing.
+    baseStats: {},
+    facts: {
+      faction: profileText(ch?.faction || ch?.infobox?.faction),
+      birthday: profileBirthday(ch?.birthDate || ch?.infobox?.birthdate),
+    },
+  };
+}
+
 function localAvatarOverlay(game, channel = nch()) {
   const key = game === 'ww' ? 'wuwa' : game;
   const cacheKey = `${key}:${channel}`;
@@ -1488,53 +1716,61 @@ function localAvatarOverlay(game, channel = nch()) {
   const byName = new Map();
   const fandom = fandomCharacterMetadata(key);
 
-  if (key === 'hsr' && exists(`Nanoka/hsr/${channel}/characters.json`)) {
+  if (key === 'hsr' && exists(`GameData/hsr/${channel}/characters.json`)) {
     const localized = rawCharacterLocaleMap('hsr', channel);
-    for (const ch of readJson(`Nanoka/hsr/${channel}/characters.json`)) {
+    for (const ch of readJson(`GameData/hsr/${channel}/characters.json`)) {
       if (!ch?.name) continue;
       const displayName = cleanText(ch.name, 120);
       const meta = fandom.get(normKey(displayName)) || fandom.get(normKey(ch.name));
       const payload = {
         icon: dbAsset(ch.assets?.roundIcon || ch.assets?.avatar),
+        splash: dbAsset(ch.assets?.drawCard), // D1: HSR splash art = draw-card
         fallbackArt: dbAsset(ch.assets?.drawCard || ch.assets?.avatar),
         title: titleOverride('hsr', displayName),
         localizedNames: localized.get(normKey(displayName)) || localized.get(normKey(ch.name)) || meta?.localizedNames,
         voiceActors: mergeVoiceActors(voiceActorsFrom(ch.profile?.va), meta?.voiceActors),
         release: parseRelease(ch.release) || meta?.release,
         releasePatch: meta?.releasePatch,
+        ...hsrProfileData(ch),
       };
-      setNamedMapEntry(byName, displayName, payload, nanokaCharacterAliases('hsr', ch), { force: String(ch.id) === '1001' });
+      setNamedMapEntry(byName, displayName, payload, gamedataCharacterAliases('hsr', ch), { force: String(ch.id) === '1001' });
     }
   }
 
-  if (key === 'zzz' && exists(`Nanoka/zzz/${channel}/agents.json`)) {
+  if (key === 'zzz' && exists(`GameData/zzz/${channel}/agents.json`)) {
     const localized = rawCharacterLocaleMap('zzz', channel);
-    for (const ch of readJson(`Nanoka/zzz/${channel}/agents.json`)) {
+    for (const ch of readJson(`GameData/zzz/${channel}/agents.json`)) {
       if (!ch?.name) continue;
       const displayName = cleanText(ch.name, 120);
       const meta = fandom.get(normKey(displayName)) || fandom.get(normKey(ch.name));
       setNamedMapEntry(byName, displayName, {
-        icon: zzzAgentAvatarIcon(ch) || dbAsset(ch.assets?.partnerIcon || ch.assets?.icon),
+        // B: real agent icons first (circle partner icon, then square role icon);
+        // the CardDailyUse daily-use card art is a last-resort fallback only.
+        icon: dbAsset(ch.assets?.partnerIcon || ch.assets?.icon) || zzzAgentAvatarIcon(ch),
+        splash: dbAsset(ch.assets?.roleIcon || ch.assets?.icon), // D1: ZZZ splash art = full role art
         fallbackArt: dbAsset(ch.assets?.icon),
         title: titleOverride('zzz', displayName),
         localizedNames: localized.get(normKey(displayName)) || localized.get(normKey(ch.name)) || meta?.localizedNames,
         voiceActors: meta?.voiceActors,
         release: meta?.release,
         releasePatch: meta?.releasePatch,
-      }, nanokaCharacterAliases('zzz', ch));
+        ...zzzProfileData(ch),
+      }, gamedataCharacterAliases('zzz', ch));
     }
   }
 
-  if (key === 'wuwa' && exists(`Nanoka/ww/${channel}/characters.json`)) {
+  if (key === 'wuwa' && exists(`GameData/ww/${channel}/characters.json`)) {
     const localized = rawCharacterLocaleMap('ww', channel);
-    for (const ch of readJson(`Nanoka/ww/${channel}/characters.json`)) {
+    for (const ch of readJson(`GameData/ww/${channel}/characters.json`)) {
       if (!ch?.name) continue;
-      const detailRel = `Nanoka/ww/${channel}/raw/characters/${ch.id}.json`;
+      const detailRel = `GameData/ww/${channel}/raw/characters/${ch.id}.json`;
       const detail = exists(detailRel) ? readJson(detailRel) : null;
       const displayName = cleanText(ch.name, 120);
       const meta = fandom.get(normKey(displayName)) || fandom.get(normKey(ch.name));
       setNamedMapEntry(byName, displayName, {
         icon: dbAsset(ch.assets?.icon),
+        // D1: WuWa splash art = PixActivity full-body portrait, half-body stand as fallback
+        splash: dbAsset(ch.assets?.portrait || ch.assets?.stand),
         fallbackArt: dbAsset(ch.assets?.background),
         title: titleOverride('wuwa', displayName),
         localizedNames: localized.get(normKey(displayName)) || localized.get(normKey(ch.name)) || meta?.localizedNames,
@@ -1542,7 +1778,8 @@ function localAvatarOverlay(game, channel = nch()) {
         release: meta?.release,
         releasePatch: meta?.releasePatch,
         releaseOrder: Number(ch.id) || 0,
-      }, nanokaCharacterAliases('ww', ch));
+        ...wuwaProfileData(ch),
+      }, gamedataCharacterAliases('ww', ch));
     }
   }
 
@@ -1822,7 +2059,7 @@ function sumGiWeaponMaterials(weapon) {
 }
 
 function buildGiWeaponRoster() {
-  const rel = `Nanoka/gi/${nch()}/weapons.json`;
+  const rel = `GameData/gi/${nch()}/weapons.json`;
   if (!exists(rel)) return [];
   return readJson(rel)
     .filter((weapon) => weapon?.name && rarityNumber(weapon.rarity, 0) >= 3)
@@ -1857,14 +2094,14 @@ function giSkillIcons(raw) {
     .slice(0, 3)
     .map((skill) => {
       const icon = giSkillIconName(skill);
-      return icon ? dbAsset(`Nanoka/gi/assets/skills/${icon}.webp`) : null;
+      return icon ? dbAsset(`GameData/gi/assets/skills/${icon}.webp`) : null;
     })
     .filter(Boolean);
 }
 
 function giSkillIcon(skill) {
   const icon = giSkillIconName(skill);
-  return icon ? dbAsset(`Nanoka/gi/assets/skills/${icon}.webp`) : null;
+  return icon ? dbAsset(`GameData/gi/assets/skills/${icon}.webp`) : null;
 }
 
 function buildGiKit(raw) {
@@ -1886,7 +2123,7 @@ function buildGiKit(raw) {
       name: skill?.name,
       type: 'Passive Talent',
       desc: skill?.desc,
-      icon: skill?.icon ? dbAsset(`Nanoka/gi/assets/skills/${skill.icon}.webp`) : null,
+      icon: skill?.icon ? dbAsset(`GameData/gi/assets/skills/${skill.icon}.webp`) : null,
     }))
     .filter(Boolean);
   const passiveSection = kitSection('Passive Talents', passives);
@@ -1896,7 +2133,7 @@ function buildGiKit(raw) {
       name: rank?.name,
       type: `Constellation ${index + 1}`,
       desc: rank?.desc,
-      icon: rank?.icon ? dbAsset(`Nanoka/gi/assets/skills/${rank.icon}.webp`) : null,
+      icon: rank?.icon ? dbAsset(`GameData/gi/assets/skills/${rank.icon}.webp`) : null,
     }))
     .filter(Boolean);
   const constellationSection = kitSection('Constellations', constellations);
@@ -1929,10 +2166,10 @@ function kindRank(kind) {
 function buildGiRoster() {
   const signatures = loadGiSignatureMap();
   const fandom = fandomCharacterMetadata('gi');
-  const chars = readJson(`Nanoka/gi/${nch()}/characters.json`)
+  const chars = readJson(`GameData/gi/${nch()}/characters.json`)
     .filter((ch) => ch.name && (ch.rarity === 4 || ch.rarity === 5))
     .map((ch) => {
-      const rawRel = `Nanoka/gi/${nch()}/raw/characters/${ch.id}.json`;
+      const rawRel = `GameData/gi/${nch()}/raw/characters/${ch.id}.json`;
       const raw = exists(rawRel) ? readJson(rawRel) : null;
       const book = giBookFamily(raw);
       const circleIcon = dbAsset(ch.assets?.circle);
@@ -1944,6 +2181,7 @@ function buildGiRoster() {
       const skillIcons = giSkillIcons(raw);
       const meta = fandom.get(nameKey);
       const kit = buildGiKit(raw);
+      const profileData = giProfileData(ch);
       return {
         id: 'gi-' + ch.id,
         n: ch.name,
@@ -1963,6 +2201,7 @@ function buildGiRoster() {
         namecard: GENSHIN_NAMECARD_ART.get(nameKey) || undefined,
         ...(skillIcons.length ? { skillIcons } : {}),
         ...(kit ? { kit } : {}),
+        ...profileData,
         book,
         ...(signature ? {
           signatureWeapon: signature,
@@ -2002,7 +2241,7 @@ function hsrRarityScore(value) {
   return HSR_RARITY_SCORE[String(value || '')] || 3;
 }
 
-function sumHsrMaterialList(materials, lookup = nanokaItemLookup('hsr')) {
+function sumHsrMaterialList(materials, lookup = gamedataItemLookup('hsr')) {
   const byKey = new Map();
   let credits = 0;
   for (const mat of materials || []) {
@@ -2039,7 +2278,7 @@ function sumHsrMaterialList(materials, lookup = nanokaItemLookup('hsr')) {
 
 function hsrRequirements(raw) {
   if (!raw?.skill_trees && !raw?.stats) return null;
-  const lookup = nanokaItemLookup('hsr');
+  const lookup = gamedataItemLookup('hsr');
   const ascensionRows = [];
   for (const row of Object.values(raw.stats || {})) {
     ascensionRows.push(...(row?.cost || []));
@@ -2091,9 +2330,9 @@ function hsrRequirements(raw) {
 
 function buildHsrLightConeReqMap() {
   const out = new Map();
-  if (!exists(`Nanoka/hsr/${nch()}/lightcones.json`)) return out;
-  const lookup = nanokaItemLookup('hsr');
-  for (const lc of readJson(`Nanoka/hsr/${nch()}/lightcones.json`)) {
+  if (!exists(`GameData/hsr/${nch()}/lightcones.json`)) return out;
+  const lookup = gamedataItemLookup('hsr');
+  for (const lc of readJson(`GameData/hsr/${nch()}/lightcones.json`)) {
     if (!lc?.name) continue;
     const rows = [];
     for (const asc of lc.ascensions || []) {
@@ -2113,9 +2352,9 @@ function buildHsrLightConeReqMap() {
 }
 
 function buildHsrLightConeRoster() {
-  if (!exists(`Nanoka/hsr/${nch()}/lightcones.json`)) return [];
-  const lookup = nanokaItemLookup('hsr');
-  return readJson(`Nanoka/hsr/${nch()}/lightcones.json`)
+  if (!exists(`GameData/hsr/${nch()}/lightcones.json`)) return [];
+  const lookup = gamedataItemLookup('hsr');
+  return readJson(`GameData/hsr/${nch()}/lightcones.json`)
     .filter((lc) => lc?.name && rarityNumber(lc.rarity, 0) >= 3)
     .map((lc) => {
       const rows = [];
@@ -2146,7 +2385,7 @@ function hsrSignatureForCharacter(name, pathName) {
 
 function hsrSkillIconAsset(icon) {
   if (!icon) return null;
-  return dbAsset(`Nanoka/hsr/assets/skills/${String(icon).replace(/\.(png|jpe?g)$/i, '.webp')}`);
+  return dbAsset(`GameData/hsr/assets/skills/${String(icon).replace(/\.(png|jpe?g)$/i, '.webp')}`);
 }
 
 function hsrSkillMaxParams(skill) {
@@ -2221,22 +2460,22 @@ function buildHsrKit(raw) {
 
 function buildHsrKitMap() {
   const out = new Map();
-  if (!exists(`Nanoka/hsr/${nch()}/characters.json`)) return out;
-  for (const ch of readJson(`Nanoka/hsr/${nch()}/characters.json`)) {
-    const rawRel = `Nanoka/hsr/${nch()}/raw/characters/${ch.id}.json`;
+  if (!exists(`GameData/hsr/${nch()}/characters.json`)) return out;
+  for (const ch of readJson(`GameData/hsr/${nch()}/characters.json`)) {
+    const rawRel = `GameData/hsr/${nch()}/raw/characters/${ch.id}.json`;
     if (!ch?.name || !exists(rawRel)) continue;
     const kit = buildHsrKit(readJson(rawRel));
-    if (kit) setReqMapEntry(out, ch.name, kit, nanokaCharacterAliases('hsr', ch), { force: String(ch.id) === '1001' });
+    if (kit) setReqMapEntry(out, ch.name, kit, gamedataCharacterAliases('hsr', ch), { force: String(ch.id) === '1001' });
   }
   return out;
 }
 
-function buildHsrNanokaSignatureMap() {
+function buildHsrGameDataSignatureMap() {
   const out = new Map();
-  if (!exists(`Nanoka/hsr/${nch()}/characters.json`)) return out;
+  if (!exists(`GameData/hsr/${nch()}/characters.json`)) return out;
   const lightCones = new Map(buildHsrLightConeRoster().map((lc) => [String(lc.id), lc]));
-  for (const ch of readJson(`Nanoka/hsr/${nch()}/characters.json`)) {
-    const rawRel = `Nanoka/hsr/${nch()}/raw/characters/${ch.id}.json`;
+  for (const ch of readJson(`GameData/hsr/${nch()}/characters.json`)) {
+    const rawRel = `GameData/hsr/${nch()}/raw/characters/${ch.id}.json`;
     if (!ch?.name || !exists(rawRel)) continue;
     const raw = readJson(rawRel);
     const first = (Array.isArray(raw?.lightcones) ? raw.lightcones : []).find(Boolean);
@@ -2244,9 +2483,9 @@ function buildHsrNanokaSignatureMap() {
     if (!lightCone) continue;
     setReqMapEntry(out, ch.name, {
       ...lightCone,
-      source: 'Nanoka recommended light cone',
+      source: 'GameData recommended light cone',
       educated: false,
-    }, nanokaCharacterAliases('hsr', ch), { force: String(ch.id) === '1001' });
+    }, gamedataCharacterAliases('hsr', ch), { force: String(ch.id) === '1001' });
   }
   return out;
 }
@@ -2270,26 +2509,26 @@ function hsrSkillIcons(raw) {
 
 function buildHsrSkillIconMap() {
   const out = new Map();
-  if (!exists(`Nanoka/hsr/${nch()}/characters.json`)) return out;
-  for (const ch of readJson(`Nanoka/hsr/${nch()}/characters.json`)) {
-    const rawRel = `Nanoka/hsr/${nch()}/raw/characters/${ch.id}.json`;
+  if (!exists(`GameData/hsr/${nch()}/characters.json`)) return out;
+  for (const ch of readJson(`GameData/hsr/${nch()}/characters.json`)) {
+    const rawRel = `GameData/hsr/${nch()}/raw/characters/${ch.id}.json`;
     if (!ch?.name || !exists(rawRel)) continue;
     const icons = hsrSkillIcons(readJson(rawRel));
     if (!icons.length) continue;
-    setNamedMapEntry(out, ch.name, icons, nanokaCharacterAliases('hsr', ch), { force: String(ch.id) === '1001' });
+    setNamedMapEntry(out, ch.name, icons, gamedataCharacterAliases('hsr', ch), { force: String(ch.id) === '1001' });
   }
   return out;
 }
 
 function buildHsrReqMap() {
   const out = new Map();
-  if (!exists(`Nanoka/hsr/${nch()}/characters.json`)) return out;
-  for (const ch of readJson(`Nanoka/hsr/${nch()}/characters.json`)) {
-    const rawRel = `Nanoka/hsr/${nch()}/raw/characters/${ch.id}.json`;
+  if (!exists(`GameData/hsr/${nch()}/characters.json`)) return out;
+  for (const ch of readJson(`GameData/hsr/${nch()}/characters.json`)) {
+    const rawRel = `GameData/hsr/${nch()}/raw/characters/${ch.id}.json`;
     if (!ch?.name || !exists(rawRel)) continue;
     const req = hsrRequirements(readJson(rawRel));
-    // Dual-key by lowercase + normKey so Prydwen "Himeko Nova" matches Nanoka "Himeko • Nova".
-    setReqMapEntry(out, ch.name, req, nanokaCharacterAliases('hsr', ch), { force: String(ch.id) === '1001' });
+    // Dual-key by lowercase + normKey so Prydwen "Himeko Nova" matches GameData "Himeko • Nova".
+    setReqMapEntry(out, ch.name, req, gamedataCharacterAliases('hsr', ch), { force: String(ch.id) === '1001' });
   }
   return out;
 }
@@ -2303,7 +2542,7 @@ function sumZzzWEngineMaterials(engine) {
   for (const group of engine?.materials || []) {
     for (const mat of group?.materials || []) pairs.push([mat.itemId, mat.quantity]);
   }
-  return sumNanokaMaterialPairs('zzz', pairs, zzzMaterialKind, '10');
+  return sumGameDataMaterialPairs('zzz', pairs, zzzMaterialKind, '10');
 }
 
 function zzzWEngineType(engine) {
@@ -2312,8 +2551,8 @@ function zzzWEngineType(engine) {
 }
 
 function buildZzzWEngineRoster() {
-  if (!exists(`Nanoka/zzz/${nch()}/w-engines.json`)) return [];
-  return readJson(`Nanoka/zzz/${nch()}/w-engines.json`)
+  if (!exists(`GameData/zzz/${nch()}/w-engines.json`)) return [];
+  return readJson(`GameData/zzz/${nch()}/w-engines.json`)
     .filter((engine) => engine?.name && rarityNumber(engine.rarity, 0) >= 3)
     .map((engine) => {
       const summed = sumZzzWEngineMaterials(engine);
@@ -2338,12 +2577,12 @@ function sumWuwaWeaponMaterials(weapon) {
   for (const stage of Object.values(weapon?.ascensions || {})) {
     for (const mat of stage || []) pairs.push([mat.itemId, mat.quantity]);
   }
-  return sumNanokaMaterialPairs('ww', pairs, wuwaMaterialKind, '2');
+  return sumGameDataMaterialPairs('ww', pairs, wuwaMaterialKind, '2');
 }
 
 function buildWuwaWeaponRoster() {
-  if (!exists(`Nanoka/ww/${nch()}/weapons.json`)) return [];
-  return readJson(`Nanoka/ww/${nch()}/weapons.json`)
+  if (!exists(`GameData/ww/${nch()}/weapons.json`)) return [];
+  return readJson(`GameData/ww/${nch()}/weapons.json`)
     .filter((weapon) => weapon?.name && rarityNumber(weapon.rarity, 0) >= 3)
     .map((weapon) => {
       const summed = sumWuwaWeaponMaterials(weapon);
@@ -2457,7 +2696,7 @@ function zzzMaterialKind(id, item = null) {
 function zzzSpriteForItem(item, icon = null) {
   const asset = String(item?.assets?.icon || item?.sourceSnapshot?.icon_path || '');
   if (/Ex(?:Big|Small)Boss\d+\.webp$/i.test(asset) || /^Ex(?:Big|Small)Boss\d+$/i.test(asset)) {
-    return icon || dbAsset(item?.assets?.icon || `Nanoka/zzz/assets/items/${asset}.webp`);
+    return icon || dbAsset(item?.assets?.icon || `GameData/zzz/assets/items/${asset}.webp`);
   }
   return null;
 }
@@ -2479,8 +2718,8 @@ function wuwaMaterialKind(id, item = null) {
   return 'mob';
 }
 
-function sumNanokaMaterialPairs(game, pairs, kindForId, currencyId) {
-  const lookup = nanokaItemLookup(game);
+function sumGameDataMaterialPairs(game, pairs, kindForId, currencyId) {
+  const lookup = gamedataItemLookup(game);
   const byKey = new Map();
   let cost = 0;
   for (const [rawId, rawQty] of pairs || []) {
@@ -2542,7 +2781,7 @@ function zzzStagesFromLevels(materialByLevel) {
     .filter(([, mats]) => mats && Object.keys(mats).length)
     .sort((a, b) => Number(a[0]) - Number(b[0]))
     .map(([, mats]) => {
-      const s = sumNanokaMaterialPairs('zzz', objectMaterialPairs(mats), zzzMaterialKind, '10');
+      const s = sumGameDataMaterialPairs('zzz', objectMaterialPairs(mats), zzzMaterialKind, '10');
       return { cost: s.cost, items: s.items };
     });
 }
@@ -2558,8 +2797,8 @@ function zzzRequirements(raw) {
   }
   for (const stage of Object.values(raw.passive?.materials || {})) skillPairs.push(...objectMaterialPairs(stage));
 
-  const asc = sumNanokaMaterialPairs('zzz', ascPairs, zzzMaterialKind, '10');
-  const talents = sumNanokaMaterialPairs('zzz', skillPairs, zzzMaterialKind, '10');
+  const asc = sumGameDataMaterialPairs('zzz', ascPairs, zzzMaterialKind, '10');
+  const talents = sumGameDataMaterialPairs('zzz', skillPairs, zzzMaterialKind, '10');
   const talentStages = [
     ...ZZZ_SKILL_ORDER.map((key) => zzzStagesFromLevels(raw.skill?.[key]?.material)),
     zzzStagesFromLevels(raw.passive?.materials),
@@ -2626,23 +2865,23 @@ function buildZzzKit(raw) {
 
 function buildZzzKitMap() {
   const out = new Map();
-  if (!exists(`Nanoka/zzz/${nch()}/agents.json`)) return out;
-  for (const ch of readJson(`Nanoka/zzz/${nch()}/agents.json`)) {
-    const rawRel = `Nanoka/zzz/${nch()}/raw/agents/${ch.id}.json`;
+  if (!exists(`GameData/zzz/${nch()}/agents.json`)) return out;
+  for (const ch of readJson(`GameData/zzz/${nch()}/agents.json`)) {
+    const rawRel = `GameData/zzz/${nch()}/raw/agents/${ch.id}.json`;
     if (!ch?.name || !exists(rawRel)) continue;
     const kit = buildZzzKit(readJson(rawRel));
-    if (kit) setReqMapEntry(out, ch.name, kit, nanokaCharacterAliases('zzz', ch));
+    if (kit) setReqMapEntry(out, ch.name, kit, gamedataCharacterAliases('zzz', ch));
   }
   return out;
 }
 
 function buildZzzReqMap() {
   const out = new Map();
-  if (!exists(`Nanoka/zzz/${nch()}/agents.json`)) return out;
-  for (const ch of readJson(`Nanoka/zzz/${nch()}/agents.json`)) {
-    const rawRel = `Nanoka/zzz/${nch()}/raw/agents/${ch.id}.json`;
+  if (!exists(`GameData/zzz/${nch()}/agents.json`)) return out;
+  for (const ch of readJson(`GameData/zzz/${nch()}/agents.json`)) {
+    const rawRel = `GameData/zzz/${nch()}/raw/agents/${ch.id}.json`;
     if (!ch?.name || !exists(rawRel)) continue;
-    setReqMapEntry(out, ch.name, zzzRequirements(readJson(rawRel)), nanokaCharacterAliases('zzz', ch));
+    setReqMapEntry(out, ch.name, zzzRequirements(readJson(rawRel)), gamedataCharacterAliases('zzz', ch));
   }
   return out;
 }
@@ -2708,8 +2947,8 @@ function wuwaRequirements(raw) {
   const weekly = wwWeeklyMaterial(raw);
   if (weekly) skillPairs.push([weekly, WW_MAX_SKILL_TOTALS.weekly]);
 
-  const asc = sumNanokaMaterialPairs('ww', ascPairs, wuwaMaterialKind, '2');
-  const talents = sumNanokaMaterialPairs('ww', skillPairs, wuwaMaterialKind, '2');
+  const asc = sumGameDataMaterialPairs('ww', ascPairs, wuwaMaterialKind, '2');
+  const talents = sumGameDataMaterialPairs('ww', skillPairs, wuwaMaterialKind, '2');
   return {
     ascension: asc.items,
     talents: talents.items,
@@ -2721,21 +2960,21 @@ function wuwaRequirements(raw) {
 
 function buildWuwaReqMap() {
   const out = new Map();
-  if (!exists(`Nanoka/ww/${nch()}/characters.json`)) return out;
-  for (const ch of readJson(`Nanoka/ww/${nch()}/characters.json`)) {
-    const rawRel = `Nanoka/ww/${nch()}/raw/characters/${ch.id}.json`;
+  if (!exists(`GameData/ww/${nch()}/characters.json`)) return out;
+  for (const ch of readJson(`GameData/ww/${nch()}/characters.json`)) {
+    const rawRel = `GameData/ww/${nch()}/raw/characters/${ch.id}.json`;
     if (!ch?.name || !exists(rawRel)) continue;
-    setReqMapEntry(out, ch.name, wuwaRequirements(readJson(rawRel)), nanokaCharacterAliases('ww', ch));
+    setReqMapEntry(out, ch.name, wuwaRequirements(readJson(rawRel)), gamedataCharacterAliases('ww', ch));
   }
   return out;
 }
 
 // G37/WuWa: the 5 core skills carry an Unreal icon path in raw.skill_trees;
-// map it to the locally-scraped webp under Nanoka/ww/assets/skills.
+// map it to the locally-scraped webp under GameData/ww/assets/skills.
 function wuwaSkillIconAsset(icon) {
   if (!icon) return null;
   const p = String(icon).replace(/^\/Game\/Aki\/UI\//, '').split('.')[0];
-  const rel = `Nanoka/ww/assets/skills/${p}.webp`;
+  const rel = `GameData/ww/assets/skills/${p}.webp`;
   return exists(rel) ? dbAsset(rel) : null;
 }
 
@@ -2798,25 +3037,25 @@ function buildWuwaKit(raw) {
 
 function buildWuwaKitMap() {
   const out = new Map();
-  if (!exists(`Nanoka/ww/${nch()}/characters.json`)) return out;
-  for (const ch of readJson(`Nanoka/ww/${nch()}/characters.json`)) {
-    const rawRel = `Nanoka/ww/${nch()}/raw/characters/${ch.id}.json`;
+  if (!exists(`GameData/ww/${nch()}/characters.json`)) return out;
+  for (const ch of readJson(`GameData/ww/${nch()}/characters.json`)) {
+    const rawRel = `GameData/ww/${nch()}/raw/characters/${ch.id}.json`;
     if (!ch?.name || !exists(rawRel)) continue;
     const kit = buildWuwaKit(readJson(rawRel));
-    if (kit) setReqMapEntry(out, ch.name, kit, nanokaCharacterAliases('ww', ch));
+    if (kit) setReqMapEntry(out, ch.name, kit, gamedataCharacterAliases('ww', ch));
   }
   return out;
 }
 
 function buildWuwaSkillIconMap() {
   const out = new Map();
-  if (!exists(`Nanoka/ww/${nch()}/characters.json`)) return out;
-  for (const ch of readJson(`Nanoka/ww/${nch()}/characters.json`)) {
-    const rawRel = `Nanoka/ww/${nch()}/raw/characters/${ch.id}.json`;
+  if (!exists(`GameData/ww/${nch()}/characters.json`)) return out;
+  for (const ch of readJson(`GameData/ww/${nch()}/characters.json`)) {
+    const rawRel = `GameData/ww/${nch()}/raw/characters/${ch.id}.json`;
     if (!ch?.name || !exists(rawRel)) continue;
     const icons = wuwaSkillIcons(readJson(rawRel));
     if (!icons.length) continue;
-    setNamedMapEntry(out, ch.name, icons, nanokaCharacterAliases('ww', ch));
+    setNamedMapEntry(out, ch.name, icons, gamedataCharacterAliases('ww', ch));
   }
   return out;
 }
@@ -2824,13 +3063,13 @@ function buildWuwaSkillIconMap() {
 function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName = null, signatureByName = null, kitByName = null) {
   const overlayGame = game === 'ww' ? 'wuwa' : game;
   const overlay = localAvatarOverlay(game);
-  const betaOverlay = NANOKA_CHANNEL === 'live' && betaChannelAvailable(game)
+  const betaOverlay = GAMEDATA_CHANNEL === 'live' && betaChannelAvailable(game)
     ? localAvatarOverlay(game, 'beta')
     : null;
   const fandom = fandomCharacterMetadata(overlayGame);
   const rawChars = readJson(`Prydwen/${game}/characters.json`);
   const hsrLightConeReqMap = game === 'hsr' ? buildHsrLightConeReqMap() : null;
-  // ZZZ: only surface agents Nanoka actually has — drop Prydwen-only placeholders
+  // ZZZ: only surface agents GameData actually has — drop Prydwen-only placeholders
   // (which arrive without icons/data). Other games keep the full Prydwen roster.
   const chars = (game === 'zzz' ? rawChars.filter((ch) => overlay.has(normKey(ch.name))) : rawChars).map((ch) => {
     const mapped = mapFacts(ch.facts || {});
@@ -2843,18 +3082,20 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
     const req = reqByName?.get(String(ch.name || '').toLowerCase()) || reqByName?.get(normKey(ch.name)) || null;
     const skillIcons = skillIconsByName?.get(String(ch.name || '').toLowerCase()) || skillIconsByName?.get(normKey(ch.name)) || (game === 'zzz' ? ZZZ_SKILL_ICONS : null);
     const kit = kitByName?.get(String(ch.name || '').toLowerCase()) || kitByName?.get(normKey(ch.name)) || null;
-    const nanokaSignature = signatureByName?.get(String(ch.name || '').toLowerCase()) || signatureByName?.get(normKey(ch.name)) || null;
-    const signatureLightCone = game === 'hsr' ? (hsrSignatureForCharacter(ch.name, mapped.path) || nanokaSignature) : null;
+    const gamedataSignature = signatureByName?.get(String(ch.name || '').toLowerCase()) || signatureByName?.get(normKey(ch.name)) || null;
+    const signatureLightCone = game === 'hsr' ? (hsrSignatureForCharacter(ch.name, mapped.path) || gamedataSignature) : null;
     const signatureEquipment = signatureLightCone ? null : prydwenRecommendedEquipment(game, ch);
     const signatureDisplay = signatureLightCone || signatureEquipment;
     const signatureReq = signatureLightCone ? (signatureLightCone.items ? signatureLightCone : hsrLightConeReqMap?.get(normKey(signatureLightCone.name))) : signatureEquipment;
     const holidayArtPool = game === 'hsr' ? (HSR_HOLIDAY_ART.get(normKey(ch.name)) || []) : [];
     const icon = local?.icon || trustedPrydwenIcon(game, ch);
     const iconZoom = MANUAL_ICON_ZOOM[overlayGame]?.[normKey(ch.name)] || (!local?.icon && icon ? 1.18 : undefined);
-    const art = dbAsset(ch.art?.full || ch.art?.card || (!local?.fallbackArt ? ch.art?.icon : null)) || local?.fallbackArt;
+    // D1: the game's own splash art wins; scraped overlay art is the fallback
+    const art = local?.splash || dbAsset(ch.art?.full || ch.art?.card || (!local?.fallbackArt ? ch.art?.icon : null)) || local?.fallbackArt;
     const card = dbAsset(ch.art?.card || ch.art?.full || (!local?.fallbackArt ? ch.art?.icon : null)) || local?.fallbackArt;
     const hasReliableData = !!(primaryLocal || req || kit);
     const upcomingOnly = ch.contentStatus && ch.contentStatus !== 'live' && !hasReliableData;
+    const title = local?.title || displayTitle(overlayGame, ch, ch.facts || {});
     const mergedReq = req || signatureReq
       ? {
           ...(req || {}),
@@ -2873,7 +3114,7 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
       id: `${game}-${ch.id}`,
       n: ch.name,
       localizedNames: local?.localizedNames || meta?.localizedNames,
-      title: local?.title || displayTitle(overlayGame, ch, ch.facts || {}),
+      title,
       slug: ch.slug,
       release: local?.release || meta?.release || undefined,
       releasePatch: local?.releasePatch || meta?.releasePatch || undefined,
@@ -2910,6 +3151,8 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
       status: ch.contentStatus,
       labels: ch.statusLabels || [],
       ...mapped,
+      baseStats: local?.baseStats || {},
+      facts: { ...(local?.facts || {}), ...(title ? { title } : {}) },
       ...(skillIcons ? { skillIcons } : {}),
       ...(kit ? { kit } : {}),
       ...(upcomingOnly ? {
@@ -2920,21 +3163,22 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
       ...(mergedReq ? { req: mergedReq } : {}),
     };
   });
-  // G38: in the BETA channel, surface Nanoka beta-only ZZZ agents (e.g. Sigrid) that
+  // G38: in the BETA channel, surface GameData beta-only ZZZ agents (e.g. Sigrid) that
   // Prydwen doesn't carry yet, so a zzz beta delta is produced and the Live/Beta toggle
-  // appears. Live channel stays filtered to Prydwen∩Nanoka (no unreleased placeholders).
-  if (game === 'zzz' && NANOKA_CHANNEL === 'beta' && exists(`Nanoka/zzz/${nch()}/agents.json`)) {
+  // appears. Live channel stays filtered to Prydwen∩GameData (no unreleased placeholders).
+  if (game === 'zzz' && GAMEDATA_CHANNEL === 'beta' && exists(`GameData/zzz/${nch()}/agents.json`)) {
     const have = new Set(chars.map((c) => normKey(c.n)));
     const firstVal = (v) => (v && typeof v === 'object' ? Object.values(v)[0] : v);
-    for (const ag of readJson(`Nanoka/zzz/${nch()}/agents.json`)) {
+    for (const ag of readJson(`GameData/zzz/${nch()}/agents.json`)) {
       if (String(ag.contentStatus || '').toLowerCase() !== 'beta') continue;
       const display = String(ag.name || '').replace(/^Avatar_\w+_Size\d+_/, '').replace(/_En$/, '').replace(/_/g, ' ').trim();
       if (!display || have.has(normKey(display))) continue;
       have.add(normKey(display));
       const req = reqByName?.get(String(ag.name || '').toLowerCase()) || reqByName?.get(normKey(ag.name)) || null;
       const kit = kitByName?.get(String(ag.name || '').toLowerCase()) || kitByName?.get(normKey(ag.name)) || null;
-      const icon = zzzAgentAvatarIcon(ag) || dbAsset(ag.assets?.icon);
-      const art = dbAsset(ag.assets?.icon) || icon;
+      const icon = dbAsset(ag.assets?.partnerIcon || ag.assets?.icon) || zzzAgentAvatarIcon(ag);
+      const art = dbAsset(ag.assets?.roleIcon || ag.assets?.icon) || icon;
+      const profileData = zzzProfileData(ag);
       chars.push({
         id: `zzz-${ag.id}`,
         n: display,
@@ -2947,6 +3191,7 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
         el: firstVal(ag.element) || 'Unknown',
         spec: firstVal(ag.specialty) || undefined,
         status: 'beta',
+        ...profileData,
         ...(kit ? { kit } : {}),
         ...(req ? { req } : {}),
       });
@@ -3260,6 +3505,7 @@ function buildEndfieldRoster() {
       currency: Number(reqBase?.currency || 0) + Number(signatureWeapon.cost || 0),
     } : reqBase;
     const kit = buildEndfieldKit(ch);
+    const profileData = endfieldProfileData(ch);
     return {
       id: 'ae-' + (ch.id || ch.slug || ch.name.toLowerCase().replace(/\W+/g, '-')),
       n: ch.name,
@@ -3273,6 +3519,7 @@ function buildEndfieldRoster() {
       art: dbAsset(ch.art?.splash?.path || ch.art?.banner?.path || ch.art?.full || ch.art?.card || ch.art?.icon?.path),
       card: dbAsset(ch.art?.banner?.path || ch.art?.portrait?.path || ch.art?.splash?.path || ch.art?.card),
       skillIcons: ENDFIELD_SKILL_ICONS.get(normKey(ch.name)) || undefined,
+      ...profileData,
       ...(kit ? { kit } : {}),
       ...(signatureWeapon ? {
         signatureWeapon: {
@@ -3737,7 +3984,7 @@ function buildCmCfg(rosters) {
       name: 'Genshin Impact',
       icon: '../assets/icon/giicon.png',
       cur: 'Mora',
-      curIcon: dbAsset('Nanoka/gi/assets/items/UI_ItemIcon_202.webp'),
+      curIcon: dbAsset('GameData/gi/assets/items/UI_ItemIcon_202.webp'),
       tabs: { mid: 'Talents', boss: 'Trounce Domain' },
       rarities: [5, 4],
       rarityLabel: { 5: '5\u2605', 4: '4\u2605' },
@@ -3760,7 +4007,7 @@ function buildCmCfg(rosters) {
       name: 'Honkai: Star Rail',
       icon: '../assets/icon/hsricon.png',
       cur: 'Credits',
-      curIcon: dbAsset('Nanoka/hsr/assets/items/2.webp'),
+      curIcon: dbAsset('GameData/hsr/assets/items/2.webp'),
       tabs: { mid: 'Traces', boss: 'Echo of War' },
       rarities: [5, 4],
       rarityLabel: { 5: '5\u2605', 4: '4\u2605' },
@@ -3781,7 +4028,7 @@ function buildCmCfg(rosters) {
       name: 'Zenless Zone Zero',
       icon: '../assets/icon/zzzicon.png',
       cur: 'Dennies',
-      curIcon: dbAsset('Nanoka/zzz/assets/items/IconCoin.webp'),
+      curIcon: dbAsset('GameData/zzz/assets/items/IconCoin.webp'),
       tabs: { mid: 'Skills', boss: 'Notorious Hunt' },
       rarities: ['S', 'A'],
       rarityLabel: { S: 'S', A: 'A' },
@@ -3806,7 +4053,7 @@ function buildCmCfg(rosters) {
       name: 'Wuthering Waves',
       icon: '../assets/icon/wuwaicon.png',
       cur: 'Shell Credit',
-      curIcon: dbAsset('Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_hsb_UI.webp'),
+      curIcon: dbAsset('GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_hsb_UI.webp'),
       tabs: { mid: 'Skills', boss: 'Weekly Challenge' },
       rarities: [5, 4],
       rarityLabel: { 5: '5\u2605', 4: '4\u2605' },
@@ -3904,7 +4151,7 @@ function normalizeWuwaWeaponEntry(entry, page) {
   };
 }
 
-function normalizeNanokaItems(rel, title, source, mapItem, limit = Infinity) {
+function normalizeGameDataItems(rel, title, source, mapItem, limit = Infinity) {
   const rows = readJson(rel).slice(0, limit).map(mapItem).filter(Boolean);
   return {
     key: path.basename(rel, '.json'),
@@ -3915,10 +4162,33 @@ function normalizeNanokaItems(rel, title, source, mapItem, limit = Infinity) {
   };
 }
 
+function normalizeBangbooSkills(skills) {
+  return Object.entries(skills || {}).map(([key, skill]) => {
+    const levels = Object.entries(skill?.level || {})
+      .sort(([a], [b]) => Number(a) - Number(b));
+    const first = levels[0]?.[1];
+    if (!first) return null;
+    const rawDescription = String(first.desc || '');
+    const type = cleanText(rawDescription.match(/^\s*<color=[^>]+>([^<]+)<\/color>/i)?.[1], 80) || undefined;
+    const description = cleanText(
+      rawDescription.replace(/^\s*<color=[^>]+>[^<]+<\/color>\s*/i, ''),
+      1200,
+    ) || undefined;
+    const properties = uniq((first.property || []).map((value) => cleanText(value, 90)).filter(Boolean));
+    return {
+      key,
+      name: cleanText(first.name, 120) || undefined,
+      type,
+      description,
+      ...(properties.length ? { properties } : {}),
+    };
+  }).filter(Boolean);
+}
+
 function buildCollections() {
   return {
     gi: [
-      normalizeNanokaItems('Nanoka/gi/live/artifacts.json', 'Artifacts', 'Nanoka', (it) => ({
+      normalizeGameDataItems('GameData/gi/live/artifacts.json', 'Artifacts', 'GameData', (it) => ({
         id: 'gi-art-' + it.id,
         name: it.name,
         kind: 'artifact',
@@ -3926,7 +4196,7 @@ function buildCollections() {
         fields: { rarity: Array.isArray(it.rarity) ? it.rarity.join('-') + ' \u2605' : it.rarity, type: it.type },
         text: cleanText((it.setEffects || []).map((e) => `(${e.pieces}) ${e.description}`).join(' '), 260),
       })),
-      normalizeNanokaItems('Nanoka/gi/live/weapons.json', 'Weapons', 'Nanoka', (it) => ({
+      normalizeGameDataItems('GameData/gi/live/weapons.json', 'Weapons', 'GameData', (it) => ({
         id: 'gi-wpn-' + it.id,
         name: it.name,
         kind: 'weapon',
@@ -3942,18 +4212,19 @@ function buildCollections() {
     zzz: [
       normalizePrydwenCollection('Prydwen/zzz/collections/w-engines.json', 'W-Engines'),
       normalizePrydwenCollection('Prydwen/zzz/collections/disk-drives.json', 'Drive Discs'),
-      normalizeNanokaItems('Nanoka/zzz/live/bangboos.json', 'Bangboo', 'Nanoka', (it) => ({
+      normalizeGameDataItems('GameData/zzz/live/bangboos.json', 'Bangboo', 'GameData', (it) => ({
         id: 'zzz-bb-' + it.id,
         name: it.name,
         kind: 'bangboo',
         art: dbAsset(it.assets?.icon),
         fields: { rarity: it.rarity, codeName: it.codeName },
-        text: cleanText(it.description || (it.skills || []).map((s) => s.description).join(' '), 260),
+        text: cleanText(it.description || Object.values(it.skills || {}).map((skill) => Object.values(skill?.level || {})[0]?.desc).filter(Boolean).join(' '), 260),
+        skills: normalizeBangbooSkills(it.skills),
       })),
     ],
     wuwa: [
       normalizePrydwenCollection('Prydwen/ww/collections/weapons.json', 'Weapons', Infinity, normalizeWuwaWeaponEntry),
-      normalizeNanokaItems('Nanoka/ww/live/echoes.json', 'Echoes', 'Nanoka', (it) => ({
+      normalizeGameDataItems('GameData/ww/live/echoes.json', 'Echoes', 'GameData', (it) => ({
         id: 'ww-echo-' + it.id,
         name: it.name,
         kind: 'echo',
@@ -3969,6 +4240,100 @@ function buildCollections() {
   };
 }
 
+// Workstream I: Monsters + Items per game. These are large (10k+ GI items), so
+// they ship as lazy per-game packs (db-data-<game>.js) loaded when the Database
+// tab opens — never inside nyx-data.js. Endfield has no source for these.
+function buildLazyCollections() {
+  const starText = (rarity) => {
+    const value = Number(rarity);
+    return Number.isInteger(value) && value >= 1 && value <= 5 ? `${value} ★` : undefined;
+  };
+  const humanize = (value) => {
+    const raw = String(value || '').trim();
+    const words = raw.replace(/([a-z])([A-Z])/g, '$1 $2').replace(/[_-]+/g, ' ');
+    const readable = raw && raw === raw.toUpperCase()
+      ? words.toLowerCase().replace(/\b\w/g, (letter) => letter.toUpperCase())
+      : words;
+    return cleanText(readable, 80) || undefined;
+  };
+  const objectLabel = (value) => value && typeof value === 'object' ? humanize(Object.values(value)[0]) : humanize(value);
+  const iconOrNull = (icon) => dbAsset(icon) || null;
+  return {
+    gi: [
+      normalizeGameDataItems('GameData/gi/live/monsters.json', 'Monsters', 'GameData', (it) => it?.name ? {
+        id: 'gi-mon-' + it.id,
+        name: it.name,
+        kind: 'monster',
+        art: iconOrNull(it.assets?.icon),
+        fields: { type: humanize(it.type), family: humanize(it.title) },
+        text: cleanText(it.description, 200),
+      } : null),
+      normalizeGameDataItems('GameData/gi/live/items.json', 'Items', 'GameData', (it) => it?.name ? {
+        id: 'gi-item-' + it.id,
+        name: it.name,
+        kind: 'item',
+        art: iconOrNull(it.assets?.icon),
+        fields: { rarity: starText(it.rarity), type: humanize(it.type) },
+        text: cleanText(it.description, 160),
+      } : null),
+    ],
+    hsr: [
+      normalizeGameDataItems('GameData/hsr/live/monsters.json', 'Monsters', 'GameData', (it) => it?.name ? {
+        id: 'hsr-mon-' + it.id,
+        name: it.name,
+        kind: 'monster',
+        art: iconOrNull(it.assets?.icon),
+        fields: {},
+        text: cleanText(it.description, 200),
+      } : null),
+      normalizeGameDataItems('GameData/hsr/live/items.json', 'Items', 'GameData', (it) => it?.name ? {
+        id: 'hsr-item-' + it.id,
+        name: it.name,
+        kind: 'item',
+        art: iconOrNull(it.assets?.icon),
+        fields: { rarity: humanize(it.rarity), type: humanize(it.subType || it.type) },
+        text: cleanText(it.description || it.backgroundDescription, 160),
+      } : null),
+    ],
+    zzz: [
+      normalizeGameDataItems('GameData/zzz/live/monsters.json', 'Monsters', 'GameData', (it) => it?.name ? {
+        id: 'zzz-mon-' + it.id,
+        name: it.name,
+        kind: 'monster',
+        art: iconOrNull(it.assets?.icon),
+        fields: { rarity: starText(it.rarity), type: humanize(it.type) },
+        text: cleanText(it.description, 200),
+      } : null),
+      normalizeGameDataItems('GameData/zzz/live/items.json', 'Items', 'GameData', (it) => it?.name ? {
+        id: 'zzz-item-' + it.id,
+        name: it.name,
+        kind: 'item',
+        art: iconOrNull(it.assets?.icon),
+        fields: { rarity: starText(it.rarity), type: objectLabel(it.type) },
+        text: undefined,
+      } : null),
+    ],
+    wuwa: [
+      normalizeGameDataItems('GameData/ww/live/monsters.json', 'Monsters', 'GameData', (it) => it?.name ? {
+        id: 'ww-mon-' + it.id,
+        name: it.name,
+        kind: 'monster',
+        art: iconOrNull(it.assets?.icon),
+        fields: { rarity: starText(it.rarity), element: wwElementMap[it.element] },
+        text: cleanText(it.description, 200),
+      } : null),
+      normalizeGameDataItems('GameData/ww/live/items.json', 'Items', 'GameData', (it) => it?.name ? {
+        id: 'ww-item-' + it.id,
+        name: it.name,
+        kind: 'item',
+        art: iconOrNull(it.assets?.icon),
+        fields: { rarity: starText(it.rarity), type: humanize(Array.isArray(it.tag) ? it.tag[0] : it.tag) },
+        text: cleanText(it.description, 160),
+      } : null),
+    ],
+  };
+}
+
 function rewardText(value) {
   if (Array.isArray(value)) {
     return value
@@ -3980,10 +4345,10 @@ function rewardText(value) {
 }
 
 const premiumCurrencyMeta = {
-  gi: { name: 'Primogems', needle: 'primogem', icon: dbAsset('Nanoka/gi/assets/items/UI_ItemIcon_201.webp') },
-  hsr: { name: 'Stellar Jade', needle: 'stellar jade', icon: dbAsset('Nanoka/hsr/assets/items/900001.webp') },
-  zzz: { name: 'Polychrome', needle: 'polychrome', icon: dbAsset('Nanoka/zzz/assets/items/IconCurrency.webp') },
-  wuwa: { name: 'Astrite', needle: 'astrite', icon: dbAsset('Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_zcpq_UI.webp') },
+  gi: { name: 'Primogems', needle: 'primogem', icon: dbAsset('GameData/gi/assets/items/UI_ItemIcon_201.webp') },
+  hsr: { name: 'Stellar Jade', needle: 'stellar jade', icon: dbAsset('GameData/hsr/assets/items/900001.webp') },
+  zzz: { name: 'Polychrome', needle: 'polychrome', icon: dbAsset('GameData/zzz/assets/items/IconCurrency.webp') },
+  wuwa: { name: 'Astrite', needle: 'astrite', icon: dbAsset('GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_zcpq_UI.webp') },
   ae: { name: 'Oroberyl', needle: 'oroberyl', aliases: ['originium'], icon: null },
 };
 
@@ -4036,12 +4401,12 @@ function rosterHit(rosters, key, name) {
   }) || null;
 }
 
-// Rewrite a Nanoka CDN URL to its local Database-mirror path so nothing loads
-// from an external host at runtime. localize-nanoka-icons.mjs downloads the
+// Rewrite a GameData CDN URL to its local Database-mirror path so nothing loads
+// from an external host at runtime. localize-gamedata-icons.mjs downloads the
 // referenced files into the mirror; non-matching values pass through unchanged.
 function localImageRef(url) {
   if (typeof url !== 'string') return url;
-  const local = url.replace(/^https:\/\/static\.nanoka\.cc\/assets\/([^/]+)\//, '../../Database/Nanoka/$1/assets/');
+  const local = url.replace(/^https:\/\/static\.gamedata\.cc\/assets\/([^/]+)\//, '../../Database/GameData/$1/assets/');
   // Drop the ref if the mirrored file isn't present (e.g. a variant that 404s
   // upstream) so the payload never points at a missing or external asset.
   if (local.startsWith('../../Database/') && !exists(local.slice('../../Database/'.length))) return null;
@@ -4052,7 +4417,7 @@ function normalizeBannerCharacter(rosters, key, entry) {
   const name = typeof entry === 'string' ? entry : entry?.name;
   if (!name) return null;
   const local = rosterHit(rosters, key, name);
-  // The banner scraper enriches each character with a Nanoka icon
+  // The banner scraper enriches each character with a GameData icon
   // (`image` / `imageFallback`); localImageRef points those at the local mirror.
   // Fall back to them when the local roster has no hit — otherwise the icon goes
   // null and the renderer shows one shared game art for every card (the "all
@@ -4194,16 +4559,16 @@ function collectEndfieldIconGaps(roster) {
   };
 }
 
-// Build the full roster set for a given Nanoka channel ('live' or 'beta'). The req-map
-// builders and Nanoka item/avatar/light-cone reads honour NANOKA_CHANNEL, so flipping
+// Build the full roster set for a given GameData channel ('live' or 'beta'). The req-map
+// builders and GameData item/avatar/light-cone reads honour GAMEDATA_CHANNEL, so flipping
 // it here yields the channel-specific character materials and weapon options.
 function buildRostersForChannel(channel) {
-  const prev = NANOKA_CHANNEL;
-  NANOKA_CHANNEL = channel;
+  const prev = GAMEDATA_CHANNEL;
+  GAMEDATA_CHANNEL = channel;
   try {
     const rawRosters = {
       gi: buildGiRoster(),
-      hsr: buildPrydwenRoster('hsr', (f) => ({ r: f.rarity, el: f.element, path: f.path }), buildHsrReqMap(), buildHsrSkillIconMap(), buildHsrNanokaSignatureMap(), buildHsrKitMap()),
+      hsr: buildPrydwenRoster('hsr', (f) => ({ r: f.rarity, el: f.element, path: f.path }), buildHsrReqMap(), buildHsrSkillIconMap(), buildHsrGameDataSignatureMap(), buildHsrKitMap()),
       zzz: buildPrydwenRoster('zzz', (f) => ({ r: f.rarity, el: f.attribute, spec: f.specialty, tag: f.faction }), buildZzzReqMap(), null, null, buildZzzKitMap()),
       wuwa: buildPrydwenRoster('ww', (f) => ({ r: f.rarity, el: f.element, w: f.weapon }), buildWuwaReqMap(), buildWuwaSkillIconMap(), null, buildWuwaKitMap()),
       ae: buildEndfieldRoster(),
@@ -4212,7 +4577,7 @@ function buildRostersForChannel(channel) {
       Object.entries(rawRosters).map(([key, roster]) => [key, mergeProtagonistForms(key, roster)])
     );
   } finally {
-    NANOKA_CHANNEL = prev;
+    GAMEDATA_CHANNEL = prev;
   }
 }
 
@@ -4225,7 +4590,7 @@ fs.mkdirSync(reportsDir, { recursive: true });
 
 const missingCharacterTitles = {
   generatedAt: new Date().toISOString(),
-  note: 'Genshin titles come from Nanoka profile.title with wiki cache fallback. HSR subtitles use wiki How to Obtain with light-cone fallback, ZZZ subtitles use wiki Namecard names, and Wuthering Waves subtitles use wiki title. Endfield displays class. Missing entries need wiki data, class data, or a manual override.',
+  note: 'Genshin titles come from GameData profile.title with wiki cache fallback. HSR subtitles use wiki How to Obtain with light-cone fallback, ZZZ subtitles use wiki Namecard names, and Wuthering Waves subtitles use wiki title. Endfield displays class. Missing entries need wiki data, class data, or a manual override.',
   missing: Object.fromEntries(Object.entries(rosters).map(([key, roster]) => [
     key,
     [...new Set(roster.filter((ch) => !ch.title).map((ch) => ch.n))]
@@ -4247,7 +4612,7 @@ fs.writeFileSync(
 const cmCfg = buildCmCfg(rosters);
 
 // ----- Beta channel delta (user-approved opt-in toggle, defaults to Live) -----
-// Build a second roster set off the Nanoka beta channel and ship only the per-character
+// Build a second roster set off the GameData beta channel and ship only the per-character
 // difference (new beta characters + characters whose upgrade materials changed). The
 // client merges this delta over the live roster when the visitor flips to Beta.
 const CM_BETA_GAMES = ['gi', 'hsr', 'zzz', 'wuwa'];
@@ -4256,15 +4621,15 @@ const cmBetaDeltas = (() => {
   if (!anyBeta) return {};
   const betaRosters = buildRostersForChannel('beta');
   applyGenshinTcgOverviewArt(betaRosters.gi);
-  const prevChannel = NANOKA_CHANNEL;
-  NANOKA_CHANNEL = 'beta';
+  const prevChannel = GAMEDATA_CHANNEL;
+  GAMEDATA_CHANNEL = 'beta';
   let betaCfg;
   try {
     betaCfg = buildCmCfg(betaRosters);
   } finally {
-    NANOKA_CHANNEL = prevChannel;
+    GAMEDATA_CHANNEL = prevChannel;
   }
-  const nanokaManifest = exists('Nanoka/manifest.json') ? readJson('Nanoka/manifest.json') : {};
+  const gamedataManifest = exists('GameData/manifest.json') ? readJson('GameData/manifest.json') : {};
   const charSig = (ch) => JSON.stringify({
     req: ch?.req ?? null,
     signatureWeaponId: ch?.signatureWeaponId ?? null,
@@ -4272,6 +4637,8 @@ const cmBetaDeltas = (() => {
     reliableData: ch?.reliableData ?? null,
     upcoming: ch?.upcoming ?? null,
     kit: ch?.kit?.sections ?? null,
+    baseStats: ch?.baseStats ?? null,
+    facts: ch?.facts ?? null,
   });
   const rowSig = (row) => JSON.stringify(row ?? null);
   const out = {};
@@ -4290,8 +4657,8 @@ const cmBetaDeltas = (() => {
     if (!delta.length && !weaponDelta.length) continue;
     const manifestKey = key === 'wuwa' ? 'ww' : key;
     out[key] = {
-      version: nanokaManifest[manifestKey]?.latest || null,
-      liveVersion: nanokaManifest[manifestKey]?.live || null,
+      version: gamedataManifest[manifestKey]?.latest || null,
+      liveVersion: gamedataManifest[manifestKey]?.live || null,
       newCount: delta.filter((ch) => ch.betaStatus === 'new').length,
       changedCount: delta.filter((ch) => ch.betaStatus === 'changed').length,
       roster: delta,
@@ -4317,11 +4684,12 @@ const codes = buildCodesData();
 const banners = buildBannersData(rosters);
 const genshinTcgCards = buildGenshinTcgCards();
 const genshinFurniture = buildGenshinFurniture();
+const genshinWonderland = buildGenshinWonderland();
 const meta = sourceMeta();
 
 fs.mkdirSync(generatedDataDir, { recursive: true });
 
-const cmHeader = `// ============================================================\n// Nyx - generated Character Materials data\n// Source: Database/Prydwen, Database/Nanoka, Database/EndfieldWiki\n// Generated by Site/tools/generate-site-data.mjs\n// ============================================================\n\n`;
+const cmHeader = `// ============================================================\n// Nyx - generated Character Materials data\n// Source: Database/Prydwen, Database/GameData, Database/EndfieldWiki\n// Generated by Site/tools/generate-site-data.mjs\n// ============================================================\n\n`;
 
 const cmPalettes = `const CM_RAR = {\n  6:{ a:'#ef8a5e', b:'#d05a3a', ring:'#ffb07d', glow:'rgba(255,140,90,.6)' },\n  5:{ a:'#e3b269', b:'#caa14e', ring:'#ffd98a', glow:'rgba(255,190,90,.55)' },\n  4:{ a:'#9a89ea', b:'#6f57bf', ring:'#cdb3ff', glow:'rgba(150,120,255,.5)' },\n  3:{ a:'#4f7fc4', b:'#3a5d96', ring:'#9cc2ff', glow:'rgba(90,150,255,.45)' },\n  2:{ a:'#4faf8f', b:'#3a8068', ring:'#9ce8c8', glow:'rgba(90,210,160,.4)' },\n  1:{ a:'#8a94a6', b:'#596273', ring:'#d5d9e1', glow:'rgba(170,180,200,.28)' },\n  0:{ a:'#8a94a6', b:'#596273', ring:'#d5d9e1', glow:'rgba(170,180,200,.28)' },\n  S:{ a:'#e3b269', b:'#caa14e', ring:'#ffd98a', glow:'rgba(255,190,90,.55)' },\n  A:{ a:'#9a89ea', b:'#6f57bf', ring:'#cdb3ff', glow:'rgba(150,120,255,.5)' },\n  B:{ a:'#4f7fc4', b:'#3a5d96', ring:'#9cc2ff', glow:'rgba(90,150,255,.45)' }\n};\n\nconst CM_ELEM = {\n  Pyro:'#e6614c', Hydro:'#4cc5e6', Cryo:'#9fe3ec', Electro:'#c08fe6',\n  Dendro:'#90c84a', Anemo:'#74d6b0', Geo:'#e3b552', Ice:'#9fe3ec',\n  Wind:'#74d6b0', Lightning:'#c08fe6', Fire:'#e6614c', Physical:'#d8d2ea',\n  Quantum:'#8f7fd6', Imaginary:'#e6d24c', Ether:'#e07fb0', Electric:'#c08fe6',\n  Spectro:'#e6d24c', Havoc:'#c0608f', Aero:'#74d6b0', Glacio:'#9fe3ec',\n  Fusion:'#e6614c', Frost:'#7fb0e6', Heat:'#e6614c', Nature:'#90c84a',\n  Unknown:'#b7aaff'\n};\n\n`;
 
@@ -4357,6 +4725,21 @@ for (const [key, pack] of Object.entries(cmBetaDeltas)) {
   );
 }
 
+const lazyCollections = buildLazyCollections();
+for (const [key, cols] of Object.entries(lazyCollections)) {
+  fs.writeFileSync(
+    path.resolve(generatedDataDir, `db-data-${key}.js`),
+    cmHeader
+      + `(function(){\n`
+      + `  window.NYX_DB_EXTRA = window.NYX_DB_EXTRA || {};\n`
+      + `  window.NYX_DB_EXTRA[${JSON.stringify(key)}] = ${normalizeForJs({ collections: cols })};\n`
+      + `  window.dispatchEvent(new CustomEvent('nyx:db-extra-loaded', { detail:{ key:${JSON.stringify(key)} } }));\n`
+      + `})();\n`,
+    'utf8',
+  );
+  console.log(`Generated db-data-${key}.js (${cols.map((c) => c.key + ':' + c.count).join(', ')})`);
+}
+
 const nyxData = {
   ...meta,
   codes,
@@ -4372,6 +4755,7 @@ const nyxData = {
       banners: banners.games[key] || null,
       tcg: key === 'gi' ? genshinTcgCards : undefined,
       furniture: key === 'gi' ? genshinFurniture : undefined,
+      wonderland: key === 'gi' ? genshinWonderland : undefined,
       roster: cmCfg[key].roster.map((ch) => ({
         id: ch.id,
         name: ch.n,
@@ -4382,6 +4766,7 @@ const nyxData = {
         role: ch.path || ch.spec || ch.cls || ch.w || ch.tag,
         icon: ch.icon,
         art: ch.art || ch.card,
+        facts: ch.facts || {},
         overviewArt: ch.overviewArt,
         overviewArtPool: ch.overviewArtPool,
         overviewArtZoom: ch.overviewArtZoom,
@@ -4394,6 +4779,7 @@ const nyxData = {
           role: form.path || form.spec || form.cls || form.w || form.tag,
           icon: form.icon,
           art: form.art || form.card,
+          facts: form.facts || {},
         })),
       })),
     },

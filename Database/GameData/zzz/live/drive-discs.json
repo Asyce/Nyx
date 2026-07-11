@@ -1,0 +1,618 @@
+[
+  {
+    "id": "31000",
+    "contentStatus": "live",
+    "name": "Woodpecker Electro",
+    "type": "drive disc set",
+    "description": "CRIT Rate +8%",
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "CRIT Rate +8%"
+      },
+      {
+        "pieces": 4,
+        "description": "Landing a critical hit on an enemy with a <color=#FFFFFF>Basic Attack</color>, <color=#FFFFFF>Dodge Counter</color>, or <color=#FFFFFF>EX Special Attack</color> increases the equipper's ATK by 9% for 6s. The buff duration for different skills are calculated separately."
+      }
+    ],
+    "story": "A Drive Disc so hot it's gone viral. Even ordinary citizens who don't enter the Hollows will do anything to get their hands on it. The tunes burned on it are absolutely captivating.",
+    "assets": {
+      "icon": "GameData/zzz/assets/drive-discs/SuitWoodpeckerElectro.webp",
+      "icon2": "GameData/zzz/assets/drive-discs/SuitWoodpeckerElectro.webp"
+    }
+  },
+  {
+    "id": "31100",
+    "contentStatus": "live",
+    "name": "Puffer Electro",
+    "type": "drive disc set",
+    "description": "PEN Ratio +8%",
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "PEN Ratio +8%"
+      },
+      {
+        "pieces": 4,
+        "description": "<color=#FFFFFF>Ultimate</color> DMG increases by 20%. Launching an <color=#FFFFFF>Ultimate</color> increases the equipper's ATK by 15% for 12s."
+      }
+    ],
+    "story": "This reliable Drive Disc series is favored by Hollow explorers due to its consistent performance. Don't underestimate its effectiveness, pufferfish are poisonous, after all.",
+    "assets": {
+      "icon": "GameData/zzz/assets/drive-discs/SuitPufferElectro.webp",
+      "icon2": "GameData/zzz/assets/drive-discs/SuitPufferElectro.webp"
+    }
+  },
+  {
+    "id": "31200",
+    "contentStatus": "live",
+    "name": "Shockstar Disco",
+    "type": "drive disc set",
+    "description": "Impact +6%",
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Impact +6%"
+      },
+      {
+        "pieces": 4,
+        "description": "<color=#FFFFFF>Basic Attacks</color>, <color=#FFFFFF>Dash Attacks</color>, and <color=#FFFFFF>Dodge Counters</color> inflict 20% more Daze to the main target."
+      }
+    ],
+    "story": "A Drive Disc designed with algorithmic optimization for W-Engine compatibility, improving auxiliary performance.",
+    "assets": {
+      "icon": "GameData/zzz/assets/drive-discs/SuitShockstarDisco.webp",
+      "icon2": "GameData/zzz/assets/drive-discs/SuitShockstarDisco.webp"
+    }
+  },
+  {
+    "id": "31300",
+    "contentStatus": "live",
+    "name": "Freedom Blues",
+    "type": "drive disc set",
+    "description": "Anomaly Proficiency +30",
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Anomaly Proficiency +30"
+      },
+      {
+        "pieces": 4,
+        "description": "When an <color=#FFFFFF>EX Special Attack</color> hits an enemy, reduce the target's Anomaly Buildup RES to the equipper's Attribute by 20% for 8s. This effect does not stack with others of the same attribute."
+      }
+    ],
+    "story": "Highly regarded by both investigators and Hollow Raiders alike, this Drive Disc series has surprisingly consistent acclaim.",
+    "assets": {
+      "icon": "GameData/zzz/assets/drive-discs/SuitFreedomBlues.webp",
+      "icon2": "GameData/zzz/assets/drive-discs/SuitFreedomBlues.webp"
+    }
+  },
+  {
+    "id": "31400",
+    "contentStatus": "live",
+    "name": "Hormone Punk",
+    "type": "drive disc set",
+    "description": "ATK +10%",
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "ATK +10%"
+      },
+      {
+        "pieces": 4,
+        "description": "Upon becoming the active character in combat, the equipper's ATK increases by 25% for 10s. This effect can trigger once every 20s."
+      }
+    ],
+    "story": "This Drive Disc series is highly recommended by the Hollow Investigative Association. According to incomplete statistics, investigators using this Drive Disc display a higher desire for combat.",
+    "assets": {
+      "icon": "GameData/zzz/assets/drive-discs/SuitHormonePunk.webp",
+      "icon2": "GameData/zzz/assets/drive-discs/SuitHormonePunk.webp"
+    }
+  },
+  {
+    "id": "31500",
+    "contentStatus": "live",
+    "name": "Soul Rock",
+    "type": "drive disc set",
+    "description": "DEF +16%",
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "DEF +16%"
+      },
+      {
+        "pieces": 4,
+        "description": "Upon receiving an enemy attack and losing HP, the equipper takes 40% less DMG for 2.5s. This effect can trigger once every 15s."
+      }
+    ],
+    "story": "A mysterious and colorful Drive Disc. The creator and Master Copy are both unknown. Although many different versions burned versions are circulating among Hollow Raiders, where the original comes from remains a mystery.",
+    "assets": {
+      "icon": "GameData/zzz/assets/drive-discs/SuitSoulRock.webp",
+      "icon2": "GameData/zzz/assets/drive-discs/SuitSoulRock.webp"
+    }
+  },
+  {
+    "id": "31600",
+    "contentStatus": "live",
+    "name": "Swing Jazz",
+    "type": "drive disc set",
+    "description": "Energy Regen +20%",
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Energy Regen +20%"
+      },
+      {
+        "pieces": 4,
+        "description": "Launching a <color=#FFFFFF>Chain Attack</color> or <color=#FFFFFF>Ultimate</color> increases all squad members' DMG by 15% for 12s. Passive effects of the same name do not stack."
+      }
+    ],
+    "story": "A Drive Disc highly favored by versatile investigators, with a focus on high compatibility and enhanced cooperative support.",
+    "assets": {
+      "icon": "GameData/zzz/assets/drive-discs/SuitSwingJazz.webp",
+      "icon2": "GameData/zzz/assets/drive-discs/SuitSwingJazz.webp"
+    }
+  },
+  {
+    "id": "31800",
+    "contentStatus": "live",
+    "name": "Chaos Jazz",
+    "type": "drive disc set",
+    "description": "Anomaly Proficiency +30",
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Anomaly Proficiency +30"
+      },
+      {
+        "pieces": 4,
+        "description": "<color=#FF5521>Fire DMG</color> and <color=#2EB6FF>Electric DMG</color> increases by 15%. While off-field, <color=#FFFFFF>EX Special Attack</color> and <color=#FFFFFF>Assist Attack</color> DMG increases by 20%. When switching on-field, this buff continues for 5s, and this continuation effect can trigger once every 7.5s."
+      }
+    ],
+    "story": "A Drive Disc with a steep learning curve that really tests users' understanding of Ether devices.",
+    "assets": {
+      "icon": "GameData/zzz/assets/drive-discs/SuitChaosJazz.webp",
+      "icon2": "GameData/zzz/assets/drive-discs/SuitChaosJazz.webp"
+    }
+  },
+  {
+    "id": "31900",
+    "contentStatus": "live",
+    "name": "Proto Punk",
+    "type": "drive disc set",
+    "description": "Increases Shield effect by 15%.",
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases Shield effect by 15%."
+      },
+      {
+        "pieces": 4,
+        "description": "When any squad member triggers a <color=#FFFFFF>Defensive Assist</color> or <color=#FFFFFF>Evasive Assist</color>, all squad members deal 15% increased DMG, lasting 10s. Passive effects of the same name do not stack."
+      }
+    ],
+    "story": "Carefully selected as a recommended Drive Disc series by the Hollow Investigative Association. It offers a significant Ether increase, but also requires more effort to control.",
+    "assets": {
+      "icon": "GameData/zzz/assets/drive-discs/SuitProtoPunk.webp",
+      "icon2": "GameData/zzz/assets/drive-discs/SuitProtoPunk.webp"
+    }
+  },
+  {
+    "id": "32200",
+    "contentStatus": "live",
+    "name": "Inferno Metal",
+    "type": "drive disc set",
+    "description": "<color=#FF5521>Fire DMG</color> +10%",
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "<color=#FF5521>Fire DMG</color> +10%"
+      },
+      {
+        "pieces": 4,
+        "description": "Upon hitting a <color=#FF5521>Burning</color> enemy, the equipper's CRIT Rate is increased by 28% for 8s."
+      }
+    ],
+    "story": "A Drive Disc burned with specialized Ether technology offering personalized attribute amplification to the user.",
+    "assets": {
+      "icon": "GameData/zzz/assets/drive-discs/SuitInfernoMetal.webp",
+      "icon2": "GameData/zzz/assets/drive-discs/SuitInfernoMetal.webp"
+    }
+  },
+  {
+    "id": "32300",
+    "contentStatus": "live",
+    "name": "Chaotic Metal",
+    "type": "drive disc set",
+    "description": "<color=#FE437E>Ether DMG</color> +10%",
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "<color=#FE437E>Ether DMG</color> +10%"
+      },
+      {
+        "pieces": 4,
+        "description": "The equipper's CRIT DMG increases by 20%. When any character in the squad triggers <color=#FE437E>Corruption</color> DMG, this effect further increases by 5.5% for 8s, stacking up to 6 times. Repeated triggers reset the duration."
+      }
+    ],
+    "story": "A Drive Disc burned with specialized Ether technology offering personalized attribute amplification to the user.",
+    "assets": {
+      "icon": "GameData/zzz/assets/drive-discs/SuitChaosMetal.webp",
+      "icon2": "GameData/zzz/assets/drive-discs/SuitChaosMetal.webp"
+    }
+  },
+  {
+    "id": "32400",
+    "contentStatus": "live",
+    "name": "Thunder Metal",
+    "type": "drive disc set",
+    "description": "<color=#2EB6FF>Electric DMG</color> +10%",
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "<color=#2EB6FF>Electric DMG</color> +10%"
+      },
+      {
+        "pieces": 4,
+        "description": "As long as an enemy in combat is <color=#2EB6FF>Shocked</color>, the equipper's ATK is increased by 28%."
+      }
+    ],
+    "story": "A Drive Disc burned with specialized Ether technology offering personalized attribute amplification to the user.",
+    "assets": {
+      "icon": "GameData/zzz/assets/drive-discs/SuitThunderMetal.webp",
+      "icon2": "GameData/zzz/assets/drive-discs/SuitThunderMetal.webp"
+    }
+  },
+  {
+    "id": "32500",
+    "contentStatus": "live",
+    "name": "Polar Metal",
+    "type": "drive disc set",
+    "description": "<color=#98EFF0>Ice DMG</color> +10%",
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "<color=#98EFF0>Ice DMG</color> +10%"
+      },
+      {
+        "pieces": 4,
+        "description": "Increase the DMG of <color=#FFFFFF>Basic Attack</color> and <color=#FFFFFF>Dash Attack</color> by 20%. When any squad member inflicts <color=#98EFF0>Freeze</color> or <color=#98EFF0>Shatter</color>, this effect increases by an additional 20% for 12s."
+      }
+    ],
+    "story": "A Drive Disc burned with specialized Ether technology offering personalized attribute amplification to the user.",
+    "assets": {
+      "icon": "GameData/zzz/assets/drive-discs/SuitPolarMetal.webp",
+      "icon2": "GameData/zzz/assets/drive-discs/SuitPolarMetal.webp"
+    }
+  },
+  {
+    "id": "32600",
+    "contentStatus": "live",
+    "name": "Fanged Metal",
+    "type": "drive disc set",
+    "description": "<color=#F0D12B>Physical DMG</color> +10%",
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "<color=#F0D12B>Physical DMG</color> +10%"
+      },
+      {
+        "pieces": 4,
+        "description": "Whenever a squad member inflicts <color=#F0D12B>Assault</color> on an enemy, the equipper deals 35% additional DMG to the target for 12s."
+      }
+    ],
+    "story": "A Drive Disc burned with specialized Ether technology offering personalized attribute amplification to the user.",
+    "assets": {
+      "icon": "GameData/zzz/assets/drive-discs/SuitFangedMetal.webp",
+      "icon2": "GameData/zzz/assets/drive-discs/SuitFangedMetal.webp"
+    }
+  },
+  {
+    "id": "32700",
+    "contentStatus": "live",
+    "name": "Branch & Blade Song",
+    "type": "drive disc set",
+    "description": "CRIT DMG +16%",
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "CRIT DMG +16%"
+      },
+      {
+        "pieces": 4,
+        "description": "When Anomaly Mastery exceeds or equals 115 points, the equipper's CRIT DMG increases by 30%. When any squad member applies <color=#98EFF0>Freeze</color> or triggers the <color=#98EFF0>Shatter</color> effect on an enemy, the equipper's CRIT Rate increases by 12%, lasting 15s."
+      }
+    ],
+    "story": "Inspired by the legendary \"Tale of Blade & Branch,\" this song depicts a young man with amazing swordsmanship as he travels the world, doing good deeds and fighting evil. Some say it's a biography of a prodigious swordsman of the Hoshimi family.",
+    "assets": {
+      "icon": "GameData/zzz/assets/drive-discs/SuitBranch&BladeSong.webp",
+      "icon2": "GameData/zzz/assets/drive-discs/SuitBranch&BladeSong.webp"
+    }
+  },
+  {
+    "id": "32800",
+    "contentStatus": "live",
+    "name": "Astral Voice",
+    "type": "drive disc set",
+    "description": "ATK +10%",
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "ATK +10%"
+      },
+      {
+        "pieces": 4,
+        "description": "Whenever any squad member enters the field using a <color=#FFFFFF>Quick Assist</color>, all squad members gain 1 stack of <color=#FFFFFF>Astral</color>, up to a maximum of 3 stacks, and lasting 15s. Repeated triggers reset the duration. Each stack of <color=#FFFFFF>Astral</color> increases the DMG dealt by the character entering the field using a <color=#FFFFFF>Quick Assist</color> by 8%. Passive effects of the same name do not stack."
+      }
+    ],
+    "story": "Drive Discs made by a Hollow Raider and Astra Yao fan that record a signature motif in Astra's works. Meanwhile, on the back, the Hollow Raider's own story is printed there.",
+    "assets": {
+      "icon": "GameData/zzz/assets/drive-discs/SuitAstralVoice.webp",
+      "icon2": "GameData/zzz/assets/drive-discs/SuitAstralVoice.webp"
+    }
+  },
+  {
+    "id": "32900",
+    "contentStatus": "live",
+    "name": "Shadow Harmony",
+    "type": "drive disc set",
+    "description": "The DMG of <color=#FFFFFF>Aftershocks</color> and <color=#FFFFFF>Dash Attacks</color> is increased by 15%.",
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "The DMG of <color=#FFFFFF>Aftershocks</color> and <color=#FFFFFF>Dash Attacks</color> is increased by 15%."
+      },
+      {
+        "pieces": 4,
+        "description": "Upon hitting an enemy with an <color=#FFFFFF>Aftershock</color> or <color=#FFFFFF>Dash Attack</color>, if the DMG dealt aligns with the equipper's attribute, the equipper gains 1 stack of a buff effect, at most once per use of a skill. For each stack, the equipper's ATK increases by 4%, and CRIT Rate increases by 4%. The effect can stack up to 3 times and lasts for 15s. Repeated triggers reset the duration."
+      }
+    ],
+    "story": "A mysterious Drive Disc that is highly talked about among Hollow Raiders. Its tracks seem to be \"A Ballad Sung by Shadows.\" The author is unknown, but most believe in the theory that the author is not just one person.",
+    "assets": {
+      "icon": "GameData/zzz/assets/drive-discs/SuitShadow.webp",
+      "icon2": "GameData/zzz/assets/drive-discs/SuitShadow.webp"
+    }
+  },
+  {
+    "id": "33000",
+    "contentStatus": "live",
+    "name": "Phaethon's Melody",
+    "type": "drive disc set",
+    "description": "Anomaly Mastery +8%.",
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Anomaly Mastery +8%."
+      },
+      {
+        "pieces": 4,
+        "description": "When any squad member uses an <color=#FFFFFF>EX Special Attack</color>, the equipper's Anomaly Proficiency increases by 45 for 8s. If the character using the <color=#FFFFFF>EX Special Attack</color> is not the equipper, the equipper's <color=#FE437E>Ether DMG</color> is increased by 25%."
+      }
+    ],
+    "story": "A peculiar Drive Disc created by fanatical followers of Phaethon. The eccentric singer repeats an odd melody with a strange voice, striving to spread the legendary deeds of \"Lord Phaethon.\"",
+    "assets": {
+      "icon": "GameData/zzz/assets/drive-discs/SuitSavior.webp",
+      "icon2": "GameData/zzz/assets/drive-discs/SuitSavior.webp"
+    }
+  },
+  {
+    "id": "33100",
+    "contentStatus": "live",
+    "name": "Yunkui Tales",
+    "type": "drive disc set",
+    "description": "HP +10%",
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "HP +10%"
+      },
+      {
+        "pieces": 4,
+        "description": "When using <color=#FFFFFF>EX Special Attack</color>, <color=#FFFFFF>Chain Attack</color>, or <color=#FFFFFF>Ultimate</color>, CRIT Rate increases by 4%, stacking up to 3 times and lasting 15s. Repeated triggers reset the duration. When having 3 stacks of this effect, Sheer DMG increases by 10%."
+      }
+    ],
+    "story": "Records of songs and rhymes passed down through generations at Yunkui Summit - tales of clouds, stories of mountains, and chronicles of those who dwelled among the peaks and drifted through the mists.",
+    "assets": {
+      "icon": "GameData/zzz/assets/drive-discs/SuitYunkuiTales.webp",
+      "icon2": "GameData/zzz/assets/drive-discs/SuitYunkuiTales.webp"
+    }
+  },
+  {
+    "id": "33200",
+    "contentStatus": "live",
+    "name": "King of the Summit",
+    "type": "drive disc set",
+    "description": "Increases Daze of attacks by 6%",
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases Daze of attacks by 6%"
+      },
+      {
+        "pieces": 4,
+        "description": "When the equipper is a Stun character and uses an <color=#FFFFFF>EX Special Attack</color> or <color=#FFFFFF>Chain Attack</color>, increases CRIT DMG of all squad members by 15%, and when the equipper's CRIT Rate is more than or equal to 50%, further increases CRIT DMG by 15%, lasting 15s. Repeated triggers reset the duration. Passive effects of the same name do not stack."
+      }
+    ],
+    "story": "This collaboration theme between sports brand True Martial and Yunkui Summit was reportedly composed by a renowned direct disciple of Yunkui Summit, depicting the legend of an awe-inspiring King of the Summit.",
+    "assets": {
+      "icon": "GameData/zzz/assets/drive-discs/SuitKingoftheSummit.webp",
+      "icon2": "GameData/zzz/assets/drive-discs/SuitKingoftheSummit.webp"
+    }
+  },
+  {
+    "id": "33300",
+    "contentStatus": "live",
+    "name": "Dawn's Bloom",
+    "type": "drive disc set",
+    "description": "Increases <color=#FFFFFF>Basic Attack</color> DMG by 15%.",
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases <color=#FFFFFF>Basic Attack</color> DMG by 15%."
+      },
+      {
+        "pieces": 4,
+        "description": "Increases <color=#FFFFFF>Basic Attack</color> DMG by 20%. When equipped by an Attack character, using an <color=#FFFFFF>EX Special Attack</color> or <color=#FFFFFF>Ultimate</color> will further increase <color=#FFFFFF>Basic Attack</color> DMG by 20% for 25s. Repeated triggers reset the duration."
+      }
+    ],
+    "story": "Years after the fall of the old capital, an aging singer who had long since put down the pen released this album. According to the artist, its inspiration came from a hazy, childlike lullaby heard while hiding in the ruins during that catastrophe — on the verge of breaking down.",
+    "assets": {
+      "icon": "GameData/zzz/assets/drive-discs/SuitDawnsBloom.webp",
+      "icon2": "GameData/zzz/assets/drive-discs/SuitDawnsBloom.webp"
+    }
+  },
+  {
+    "id": "33400",
+    "contentStatus": "live",
+    "name": "Moonlight Lullaby",
+    "type": "drive disc set",
+    "description": "Energy Regen +20%",
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Energy Regen +20%"
+      },
+      {
+        "pieces": 4,
+        "description": "When the equipper is a Support character and uses an <color=#FFFFFF>EX Special Attack</color> or <color=#FFFFFF>Ultimate</color>, the DMG dealt by all squad members increases by 18% for 25s. Repeated triggers reset the duration. Passive effects of the same name do not stack."
+      }
+    ],
+    "story": "A ballad adapted from a bedtime story, telling of a knight who rode beneath the moonlight. Through countless moonlit nights, its gentle melody still hums beneath the glow of the night light.",
+    "assets": {
+      "icon": "GameData/zzz/assets/drive-discs/SuitMoonlightLullaby.webp",
+      "icon2": "GameData/zzz/assets/drive-discs/SuitMoonlightLullaby.webp"
+    }
+  },
+  {
+    "id": "33500",
+    "contentStatus": "live",
+    "name": "White Water Ballad",
+    "type": "drive disc set",
+    "description": "<color=#F0D12B>Physical DMG</color> +10%",
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "<color=#F0D12B>Physical DMG</color> +10%"
+      },
+      {
+        "pieces": 4,
+        "description": "When the equipper is within any <color=#FFFFFF>Ether Veil</color>, their CRIT Rate increases by 10%. After leaving the <color=#FFFFFF>Ether Veil</color>, this buff remains for 15s. If the equipper is an <color=#FFFFFF>Attack</color> character, activating an <color=#FFFFFF>Ether Veil</color> or extending an <color=#FFFFFF>Ether Veil</color>'s duration increases their CRIT Rate by 10% and ATK by 10% for 30s. Repeated triggers reset the duration."
+      }
+    ],
+    "story": "Written on paper turned yellow with age and tucked inside the Qingming Sword Manual for years, no one knows who composed this melody — most likely a Qingming Sword Keeper long since lost to history.",
+    "assets": {
+      "icon": "GameData/zzz/assets/drive-discs/SuitWhiteWaterBallad.webp",
+      "icon2": "GameData/zzz/assets/drive-discs/SuitWhiteWaterBallad.webp"
+    }
+  },
+  {
+    "id": "33600",
+    "contentStatus": "live",
+    "name": "Shining Aria",
+    "type": "drive disc set",
+    "description": "<color=#FE437E>Ether DMG</color> +10%",
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "<color=#FE437E>Ether DMG</color> +10%"
+      },
+      {
+        "pieces": 4,
+        "description": "When the equipper's <color=#FFFFFF>Basic Attack</color> hits an enemy, their Anomaly Proficiency increases by 36, lasting 8s. Repeated triggers reset the duration. When any enemy on the field is Stunned, the equipper's DMG increases by 25% for 18s. Repeated triggers reset the duration."
+      }
+    ],
+    "story": "This was the first album released after the Angels of Delusion debuted. Its sound was bright and energetic, but sales were disappointingly low. Kept as a master copy for memory's sake, the back of the lyric sheet carries the support chants a fan wrote for them.",
+    "assets": {
+      "icon": "GameData/zzz/assets/drive-discs/SuitShiningAria.webp",
+      "icon2": "GameData/zzz/assets/drive-discs/SuitShiningAria.webp"
+    }
+  },
+  {
+    "id": "33700",
+    "contentStatus": "live",
+    "name": "Bunny in Wonderland",
+    "type": "drive disc set",
+    "description": "HP +10%",
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "HP +10%"
+      },
+      {
+        "pieces": 4,
+        "description": "When the equipper is a Defense character: When the equipper launches an <color=#FFFFFF>EX Special Attack</color> or any squad member triggers a <color=#FFFFFF>Defensive Assist</color> or <color=#FFFFFF>Evasive Assist</color>, all squad members' DMG increases by 6%, stacking up to 3 times, lasting 25s. Stacks decay one at a time, and duration refreshes when gained or decayed. Passive effects of the same name do not stack."
+      }
+    ],
+    "story": "A song adapted from a fairy tale well known throughout New Eridu, produced by Rusty Cliff Entertainment. Rumor has it the album cover was based on some \"big shot.\"",
+    "assets": {
+      "icon": "GameData/zzz/assets/drive-discs/SuitBunnyinWonderland.webp",
+      "icon2": "GameData/zzz/assets/drive-discs/SuitBunnyinWonderland.webp"
+    }
+  },
+  {
+    "id": "33800",
+    "contentStatus": "live",
+    "name": "Notes From the Chained",
+    "type": "drive disc set",
+    "description": "<color=#98EFF0>Ice DMG</color> +10%.",
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "<color=#98EFF0>Ice DMG</color> +10%."
+      },
+      {
+        "pieces": 4,
+        "description": "When the equipper triggers <color=#FFFFFF>Abloom</color>, their Anomaly Proficiency increases by 48 for 30s; repeated triggers reset the duration. When the equipper triggers a <color=#FFFFFF>Freeze</color> effect, their All-Attribute Anomaly DMG and <color=#FFFFFF>Disorder</color> DMG increase by 16% for 30s; repeated triggers reset the duration."
+      }
+    ],
+    "story": "A mysterious track posted on Inter-Knot by an anonymous creator, inspired by the hallucinations of a lost Hollow wanderer. The melody cuts off abruptly halfway through, yet its hauntingly precise evocation of the despair and disorientation of deep Hollow exploration made it a brief sensation.\nIt is said that an investigator, once lost, abandoned rescue efforts and instead followed the melody as his guide, wandering within the Hollow. The agony brought on by Corruption nearly blinded him, yet the tune continued to echo in his ears. In the end, he miraculously found a way out.\nLater, this investigator who returned from the abyss became a well-known composer and finished writing the second half of the melody.",
+    "assets": {
+      "icon": "GameData/zzz/assets/drive-discs/SuitNotesFromtheChained.webp",
+      "icon2": "GameData/zzz/assets/drive-discs/SuitNotesFromtheChained.webp"
+    }
+  },
+  {
+    "id": "33900",
+    "contentStatus": "live",
+    "name": "Wuthering Salon",
+    "type": "drive disc set",
+    "description": "<color=#A6C5FD>Wind DMG</color> +10%.",
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "<color=#A6C5FD>Wind DMG</color> +10%."
+      },
+      {
+        "pieces": 4,
+        "description": "When the equipper uses an <color=#FFFFFF>EX Special Attack</color>, their Anomaly Proficiency increases by 25, stacking up to 2 times, and lasting 40s; repeated triggers reset the duration. When the equipper triggers <color=#A6C5FD>Windswept</color>, their DMG increases by 18% for 40s. Repeated triggers reset the duration."
+      }
+    ],
+    "story": "The plays of Spotlight Theater reportedly drew not only from the revelations of a Bangboo prophet, but also wove in anecdotes about the renowned members of Roscaelifer. Spanning two eras, these productions were filled with the Bangboo world's musings on human society.",
+    "assets": {
+      "icon": "GameData/zzz/assets/drive-discs/SuitWutheringSalon.webp",
+      "icon2": "GameData/zzz/assets/drive-discs/SuitWutheringSalon.webp"
+    }
+  },
+  {
+    "id": "34000",
+    "contentStatus": "live",
+    "name": "The Sky Ablaze",
+    "type": "drive disc set",
+    "description": "<color=#FE437E>Ether DMG</color> +10%.",
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "<color=#FE437E>Ether DMG</color> +10%."
+      },
+      {
+        "pieces": 4,
+        "description": "When the equipper is an <color=#FE437E>Ether</color> attribute Agent, their CRIT DMG increases by 30%. When the equipper uses an <color=#FFFFFF>EX Special Attack</color> or <color=#FFFFFF>Ultimate</color>, their ATK increases by 10% for 30s. Repeated triggers reset the duration."
+      }
+    ],
+    "story": "Composed by an unnamed musician of Roscaelifer who witnessed the spectacle of the sky ablaze within the Hollow. The blazing sun rises through the Ether, and the golden flames that scorch the horizon cascade from the sky — so the composer wrote on the back cover.",
+    "assets": {
+      "icon": "GameData/zzz/assets/drive-discs/SuitTheSkyAblaze.webp",
+      "icon2": "GameData/zzz/assets/drive-discs/SuitTheSkyAblaze.webp"
+    }
+  }
+]

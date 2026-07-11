@@ -69,7 +69,7 @@ function wikiPageName(name) {
 }
 
 function lightCones() {
-  let rows = readJson('Nanoka/hsr/live/lightcones.json')
+  let rows = readJson('GameData/hsr/live/lightcones.json')
     .filter((lc) => lc?.name && Number(lc.rarity || 0) >= minRarity)
     .sort((a, b) => Number(b.rarity || 0) - Number(a.rarity || 0) || String(a.name).localeCompare(String(b.name)));
   if (onlyName) {

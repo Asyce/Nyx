@@ -596,7 +596,7 @@ async function resolveSignatureByConsensus(ch, weaponsByName) {
 function loadChannelRows(kind) {
   const rows = [];
   for (const channel of ['live', 'beta']) {
-    const rel = `Nanoka/gi/${channel}/${kind}.json`;
+    const rel = `GameData/gi/${channel}/${kind}.json`;
     if (!existsDb(rel)) continue;
     for (const row of readDbJson(rel)) rows.push({ ...row, channel });
   }

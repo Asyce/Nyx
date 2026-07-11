@@ -1,6 +1,6 @@
 // Scrape Genshin character namecards (the wide UI_NameCardPic_<Char>_P art) for
 // the ongoing-banner cards (G31). The <Char> token is the same one used in the
-// Nanoka gacha asset (UI_Gacha_AvatarImg_<Char>.webp); enka.network serves the
+// GameData gacha asset (UI_Gacha_AvatarImg_<Char>.webp); enka.network serves the
 // namecard by that exact game filename. Characters without a namecard (e.g.
 // brand-new/unreleased) are simply skipped — the banner falls back to splash art.
 import fs from 'node:fs';
@@ -10,7 +10,7 @@ import { fileURLToPath } from 'node:url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..', '..');
 const dbDir = path.resolve(root, 'Database');
-const charsPath = path.resolve(dbDir, 'Nanoka', 'gi', 'live', 'characters.json');
+const charsPath = path.resolve(dbDir, 'GameData', 'gi', 'live', 'characters.json');
 const outDir = path.resolve(dbDir, 'GenshinWiki', 'namecards');
 const manifestPath = path.resolve(outDir, 'manifest.json');
 const reportPath = path.resolve(dbDir, 'reports', 'genshin-namecards.json');

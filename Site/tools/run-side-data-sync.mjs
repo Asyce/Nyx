@@ -14,8 +14,9 @@ const jobs = [
   ['Genshin signature weapons', ['tools/scrape-genshin-signature-weapons.mjs']],
   ['HSR holiday art', ['tools/scrape-hsr-holiday-art.mjs']],
   ['HSR signature lightcones', ['tools/scrape-hsr-signature-lightcones.mjs']],
-  ['Genshin TCG data', ['tools/scrape-nanoka-gcg.mjs']],
-  ['Genshin furniture data', ['tools/scrape-nanoka-furniture.mjs']],
+  ['Genshin TCG data', ['tools/scrape-gamedata-gcg.mjs']],
+  ['Genshin furniture data', ['tools/scrape-gamedata-furniture.mjs']],
+  ['Miliastra Wonderland data', ['../Scraper/wonderland/scrape.mjs']],
   ['AMBR TCG images', ['tools/scrape-ambr-gcg.mjs']],
   ['Genshin banner history', ['../Scraper/banner-history/gi.mjs']],
 ];

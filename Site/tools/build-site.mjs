@@ -72,7 +72,7 @@ await fs.rm(path.resolve(distDir, 'artwork-webp-manifest.js'), { force: true });
 
 await copyFile(path.resolve(generatedDataDir, 'cm-data.js'), path.resolve(distDir, 'cm-data.js'));
 for (const entry of await fs.readdir(generatedDataDir)) {
-  if (/^cm-data-[a-z]+(?:-beta)?\.js$/.test(entry)) {
+  if (/^(?:cm|db)-data-[a-z]+(?:-beta)?\.js$/.test(entry)) {
     await copyFile(path.resolve(generatedDataDir, entry), path.resolve(distDir, entry));
   }
 }
@@ -81,6 +81,7 @@ await copyFile(path.resolve(generatedDataDir, 'nyx-data.js'), path.resolve(distD
 await compileJsxBundle(
   [
     'components/game-page-components.jsx',
+    'shared/pinned-favourites.js',
     'features/materials/char-materials.jsx',
     'data/generated/pulls-weapons-gi.js',
     'data/generated/pulls-weapons-hsr.js',

@@ -139080,10 +139080,10 @@
       "release": 1717452000000,
       "releasePatch": "4.7",
       "voiceActors": {
+        "english": "imdb:nm10851940|Crystal Lee",
         "japanese": "Yui Ishikawa|Ishikawa Yui (\u77f3\u5ddd\u7531\u4f9d)",
         "chinese": "https://zh.moegirl.org.cn/\u8d75\u6db5\u96e8|Zhao Hanyu (\u8d75\u6db5\u96e8)",
-        "korean": "https://namu.wiki/w/\uc2e0\ub098\ub9ac(\uc131\uc6b0)|Shin Na-ri (\uc2e0\ub098\ub9ac)",
-        "english": "Crystal Lee"
+        "korean": "https://namu.wiki/w/\uc2e0\ub098\ub9ac(\uc131\uc6b0)|Shin Na-ri (\uc2e0\ub098\ub9ac)"
       },
       "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Clorinde_Circle.webp",
       "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Clorinde.webp",

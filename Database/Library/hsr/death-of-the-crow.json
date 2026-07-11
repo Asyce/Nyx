@@ -1,0 +1,402 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "death-of-the-crow",
+  "name": "Death of the Crow",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Death_of_the_Crow",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Once upon a midnight dreary, while you pondered, weak and weary,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Over many a quaint and curious volume of forgotten dreams —"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "While you nodded, nearly napping, suddenly there came a tapping,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As of someone gently rapping, rapping at your chamber door."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"'Tis some visitor,\" you muttered, \"tapping at my chamber door —"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Only this and nothing more.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Ah, do you distinctly remember the dew-doused window pane;"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And a dying baby dove laid like a shadow upon the floor."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Eagerly you had wished the story to meet a happy end"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Eagerly you had wished no birds would plummet, their demise to bewail."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Some soared like shining stars, bound for the sky..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "While others found only demise, in dust they lie."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Deep into that darkness peering, long you stood there wondering, fearing,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Doubting, dreaming dreams no mortal ever dared to dream before;"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Worms have stained satin, and flames consumed doves with broken wings,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A flame-bathed raven greeted you, its voice's rasp that sings."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Sweet dreams are no paradise of mine,\" you whispered and sighed. \"When I cast my eyes around —\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Darkness there and nothing more."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Then this ebony bird beguiling your sad fancy into smiling,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"The echoes of ghosts bring no salvation to light.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"People repent, their hearts sincere, only due to them seeking greater gains.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Drink this blessed potion from the Great One, erasing your painful memories.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As Harmony's tune changed, you hear a dirge played amidst the dancing ashes..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Quoth the Raven \"Nevermore.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The unbroken stillness remains silently, mocking any reply so aptly spoken,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But the Raven still beguiling all my fancy into smiling,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "This and more I sat divining, scrying the source of the world's pain"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Your heart grew resolute, no longer held back by confusion and doubt."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Liar,\" you declared, \"the Great One is blind to worldly sorrow —\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Merely this and nothing more."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "You ascended the stage, you stole the authority, you strived for divinity"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "You raised the dim curtain, your self-directed farce skillfully honed."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Your heart overflew with pureness, while the shadows of the puppets cast grim shadows in their play."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Your soul embraced compassion, daring to forge a scale that will never sway."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Behold,\" you proclaimed, \"the utopia of absolute bliss,\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Yet the dream shattered, \"Nevermore.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The velvet nest fell, the golden bed withered away,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But the bird remained perched, as did you, come what may."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The gods, who once bestowed upon you love's sweet hue,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Withdrew their favor, leaving your paradise askew."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Liberated from the shadow of young dove's demise, your soul will take flight,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Merely this and nothing more."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Your old dreams are as dead soil, barren of hope and bereft,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Yet how can a noble soul wither and fade, left adrift?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I shall await your arrival, with open arms and boundless hope,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Here lie the truest dreams, where infinite possibilities lope."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Here, all your ambitions shall be fulfilled and set aflame,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The past forever transformed, and nevermore"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "''"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Yours, Most Sincerely"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "''"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Cecil Simmes"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

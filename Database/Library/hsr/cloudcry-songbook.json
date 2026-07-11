@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "cloudcry-songbook",
+  "name": "Cloudcry Songbook",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Cloudcry_Songbook",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Sitting bored on my bed one dusk,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "half the beaded curtain peeled back."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "In no mood to awaken yet no mood to sleep,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "clothes half-worn and eyes half-slack."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A sudden gust of wind pushes forth the boat,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "in dreams a war with the borisin we wage."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Knife in hand, black and red horses leap on,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Alongside my husband's warship, in fight I engage."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Two twittering orioles land on their branch,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "with karma past doth this life's grief cast."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Ten times reborn, with all its love and hate,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "how hard can one take of a husband lost."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Gazing up I now see daylight through that verdigris,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "those past loves and past lives seen only in reveries."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "When the dragon turns red, then the green pines shall shed."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Cast by the wind of a cold morning,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Feeling the weight of your suffering."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "When the dragon turns red, then the green pines shall shed."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Spinning our glory through time and space,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "When will I next come to see your face?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "When the dragon turns red, then the green pines shall shed."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Wantonly drinking the silver moon,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "How many times must we be entombed?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "When the dragon turns red, then the green pines shall shed."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Pass like a dream out of sight and mind,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "six hundred years in this mortal bind."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

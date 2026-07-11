@@ -1,0 +1,375 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "atticus-s-kephale-oracles",
+  "name": "Atticus's Kephale Oracles",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Atticus%27s_Kephale_Oracles",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*Oracles compiled by Chaplain Atticus after Kephale ceased to speak, including Kephale's prophecies, priestly interpretations, and hymns of worship... Over millennia, priests expanded and interpreted these teachings, preserving them through generations.*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Chapter of Proclamation"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "In the Era Chrysea, the sky father's glory illuminated the world, and prophecies resounded across the land."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "35:3"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "All-knowing sky father, you made the creatures let go of their suspicions."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Binding stranger cities as allies, bringing spice and fur along the trade routes."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Thus, singers have new verses to spread — And with them, your name resounds."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Chapter of Whispers"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "In the Era Bellica, prophecies are as light as whispers, until they fall into complete silence."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2:12"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "No barbarian flame can scorch your guarded gates."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "O all-knowing sky father, they shall face spears we forged with your blessing."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And you will bear witness — As the black tide devours the earth, the holy city shall pulse with life."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "7:21"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "O all-knowing sky father, what shall stop your silence?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "When you unfasten the harness called fate, who can place the reins in your hands again?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "In your gaze of mercy, permit us to till life's barren fields."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As you imagine, as you will, as you do."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Chapter of Guidance"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Even in the era when gods are silent, there is a fragment of information that needs deciphering."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Signs in Creation 12:55"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Dawn Device's light intensity is stronger than last year's, and herbs are growing favorably."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Nodists report that the sky father's hands sway with sharper arcs."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The sky father foreseeing the rise of strife,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Granted us herbs and cords of woven vine,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "To gather the lives of the created, and lead us to arm ourselves against the foe."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Signs of the World 53:7"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The golden silk among the offerings turned blood-red after being dampened,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A sign that the sky father is displeased with the Chrysos Heirs' usurpation of power."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Dromas fled the workshops in droves, howling at the Dawn Device."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It is feared that a calamity is near."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Divine Manifestation 352:18"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The citizen Amorphis, while intoxicated, saw the sky father manifest,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Receiving the decree, \"Do not overindulge in ambrosia,\" and thus abstained for three days."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A scholar of Venerationism, after being trampled by a dromas, saw the sky father manifest,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Witnessing firsthand \"A hundred dromases dancing on the tip of a needle.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The omniscient sky father guides the lost toward goodness and enlightens the ignorant with truth."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Prayer"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "O omniscient sky father, Lord of the Worldbearing, our only hope."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Grant us words, listen to our pleas, and respond to us."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Permit us to use all that you have bestowed, to remember you, to understand you, and to praise you."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Keep our feet from being washed by the black tide, and let us remain on this side of the world."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "<!--"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

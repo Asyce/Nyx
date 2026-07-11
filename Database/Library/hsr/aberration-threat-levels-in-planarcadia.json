@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "aberration-threat-levels-in-planarcadia",
+  "name": "Aberration Threat Levels in Planarcadia",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Aberration_Threat_Levels_in_Planarcadia",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Planarcadia has a five-tier rating system for uncontrollable Aberrations and the scale of damage they cause."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Ghost-level:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Weak presence, essentially harmless; or causes only minor discomfort, small annoyances, troubling a handful of people;"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Typically ideogenitive imagenae born from collective consciousness: Such as villains from comics, panic-inducing objects spawned from rumors, animated smart appliances; ghosts with distorted cognition;"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Can be subdued by civilian ghost-busting squads. Even if left alone, they won't escalate into complex mass disasters."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Fiend-level:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Poses a clear and present danger, capable of harming dozens of people or causing structural damage, throwing multiple city blocks or an entire small town into chaos."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Typically powerful imagenae that have accumulated massive Wishpower and spiraled out of control, such as unspeakable entities lurking in urban legends for ages, or vengeful manifestations born from collective trauma (say, mass casualties caused by the Herald of Death)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Calamity-level:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A severe threat capable of causing casualties in the hundreds or more. If left unchecked, they could lead to the destruction of major cities in arcadia's core regions. The Herald of Death falls into this category. In the Phantasmoon Games, the upper limit of destruction caused by a Supplicant going out of control also falls roughly within this range."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Cataclysm-level:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Catastrophic threat capable of crippling an entire continent, causing mass casualties and environmental upheaval. Reality-warping abilities manifest."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Apocalypse-level:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A level of threat capable of causing civilizational collapse or even the extinction of humanity on Planarcadia's surface. Their very existence is a great catastrophe."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "a-note-from-cerydra",
+  "name": "A Note from Cerydra",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/A_Note_from_Cerydra",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "To the Deliverer from beyond the sky,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The game is decided. Your conquest and mine are done."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But you should know this battle is by no means the end of the Imperator's path."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I have seen that the universe is far more vast than what mortal eyes can behold."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Even if I must relive this life, I shall one day travel beyond the sky, even if it takes a thousand ages."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Then, I will resume the great journey, until my conquest among the sea of stars is complete."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "This is not a vision for Amphoreus, but an ironclad law I decree for my empire:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Your people shall march across the wilds, taking the very universe as their granary, and slaying all foes who must be slain.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Accept this king piece as a testament to this law and as a bounty from your Imperator."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It followed me into battle, rode with me across the plains, returned with me in triumph, and was with me as I shattered the laws of nations."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Now, like a weight I cast upon the scales, it shall compel victory to bow to you."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Carry this piece to a grander board."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And when the Imperator returns, you can fight for my law once more."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Or defy it, and challenge me to a game."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The Imperator of Amphoreus"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

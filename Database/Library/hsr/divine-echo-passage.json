@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "divine-echo-passage",
+  "name": "Divine Echo: Passage",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Divine_Echo:_Passage",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Gate of Infinity, Janus."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A thousand paths you graciously unveil"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Before the lost soul's weary eyes"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "All roads lead to your threshold pale"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

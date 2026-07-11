@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "arma-correctional-group-recruitment-notice",
+  "name": "Arma Correctional Group Recruitment Notice",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Arma_Correctional_Group_Recruitment_Notice",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Will you end your lives here in prison, fettered like dogs?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "No!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Even fallen into the depths of jail, your lives are still full of infinite possibilities!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Join the Arma Correctional Group and join me to help the myriad convicts!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Become one of us, and we promise you:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "You will be the first to enjoy the Group's latest breakthroughs in research! Can imprisonment really be this entertaining, you say?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Become a hero amongst your cellmates! Who will be able to get the best stuff?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Own the chance to atone for your crimes with Arma! Freedom is within your reach!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "This position requires:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Proficiency in basic product research and user profile development."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The ability to investigate, evaluate, and sift through partnership opportunities with various industry brands."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A willingness to actively communicate with material suppliers to optimize our product and technology."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The ability to push for progress and bring partnership product designs and marketing proposals to reality."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "We hope that you:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Have implanted Synesthesia Beacon or higher education, or were convicted of deception and fraud."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(Bonus points to those who were convicted of beguilement!)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Have three or more years of work experience, and were the mastermind of at least three or more criminal activities."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(No violent crimes please! We're a peaceful organization!)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Both your sentence and life expectancy have to be at least two hundred or more years."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(We hope you'll work long-term with us!)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Death row convicts need not apply."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(This is very important!)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The Arma Correctional Group eagerly awaits your participation!"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

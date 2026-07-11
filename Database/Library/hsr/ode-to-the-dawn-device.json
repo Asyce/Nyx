@@ -1,0 +1,328 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "ode-to-the-dawn-device",
+  "name": "Ode to the Dawn Device",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Ode_to_the_Dawn_Device",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In the Golden Age of the gods, Aquila, the Titan of light, ruled the skies, their hundred eyes illuminating the earth like stars."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "In one eternal moment, boundless sorrow welled up in the heart of the Sky Titan."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "For they had sacrificed its brightest eyes, bestowing upon Kephale the flames of wisdom."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Now this Worldbearing Titan could no longer gaze directly at the splendor of the skies."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "So at the end of countless millennia, Aquila summoned all Messengers to the deepest reaches beyond the sky."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "There, the Titan's divine blood merged with lightning, forging an eternally undying radiance."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Seven cycles of day and night, seven powers of the celestial realms, seven infusions of divine blood."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Sky Titan sacrificed their own eternity to forge this unprecedented creation."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Each ray of dawn embodies the Titan's heartbeat, and each beam of light pulses with divine blood."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Fragments of stars circulate within, the power of thunder concentrated therein."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "This is the sacred vessel capable of illuminating for eternity."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "When the Dawn Device was forged, stars dimmed before it and mists dispersed."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Its radiance outshone a thousand suns, its magnificence leaving the gods breathless."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "This is the Sky Titan's most sacred creation."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"I swear by eternity,\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Aquila proclaimed to Kephale,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"this device flows with my divine blood, inherits my divine power.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Even if all my hundred eyes should close, it will forever illuminate your realm.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"This is not merely a gift,\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"but a covenant of our blood connection.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"I forge light for you from my own eternity, just as you support the sky dome with your shoulders.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Henceforth, we are brothers bound by fate.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "When the sacred vessel was delivered to the Eternal City,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "all Messengers bowed in reverence,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "for they understood the divine decree."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "This was not merely a gift, but an eternal covenant."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Since then, the Dawn Device has stood in silence,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "slumbering at the highest point of Okhema,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "waiting for the moment when it must awaken."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Just as Aquila promised,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "this is a promise forged in eternity."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "<!--"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

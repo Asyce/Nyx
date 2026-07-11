@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "world-s-end-drink-menu",
+  "name": "\"World's End\" Drink Menu",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/%22World%27s_End%22_Drink_Menu",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A note from your friends at World's End: All of our drinks are brewed from jokes and are 100% alcohol-free, so guests of all ages can drink responsibly!"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Absolute Zero"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Brewed primarily from dad jokes. This drink is refreshingly icy and sweet, making it incredibly easy to chug. Even customers who are easily amused can enjoy it without a problem. We recommend it for all beginners."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Capital of Passion"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Recommended for customers who savor a long, lingering aftertaste. This drink is brewed mainly from dark humor. It looks sweet and has a rich, complex flavor. The first sip offers a hint of sweetness, which, upon further tasting, blooms into an intense bitterness on the tongue."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Thalan Toxi-Flame"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Recommended for thrill-seekers, this drink is brewed primarily from hellish jokes. It's a high-brow drink with a spicy, potent flavor. While some connoisseurs may become obsessed with the dangerous balancw between lucidity and liberation, overconsumption is not advised."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Pika White Grape Soda"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "For those who like to chase trends, this drink is brewed from the latest internet jokes and memes. It's refreshingly tasty and makes your tongue go \"pika.\" We recommend drinking it while it's still bubbly, before the jokes and memes become obsolete."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Proverb of Utter Stillness"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Prepared for customers in search of a moment of peace, this drink is brewed from philosophical jokes that first make you chuckle, then leave you in deep thought. You'll hardly taste a thing at first. Then, all at once, the cacophony of flavors is washed away, leaving only a quiet appreciation for existence itself."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "…"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In addition to our basic drink menu, the tavern offers a special meny of drinks created by our past drinksmiths to commemorate immortal legends. If you're lucky enough to meet one of them, don't pass up such a rare cup of elation."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Let There Be Solace"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The legendary creation of the drinksmith Bragi. This drink is the cure for all negative emotions, and its recipe remains a mystery. No matter what troubles or worries plague the drinker, they have but to drink this clear, sweet nectar and let it sink into the depths of their soyl. All their sorrows will vanish, and they'll enjoy a moment of boundless joy."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Elusiveness of Satiation"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Osmanthus, a lover of quietude, thought the tavern was too crowded, so he made this drink using a huge number of classic jokes. This concoction has a rich, mellow flavor, and one cup is usually enough to leave a person completely full and unable to take another bite. Although this special mix didn't get customers to leave as quickly as Osmanthus had hoped, it did provide some very real and powerful material for the Competitive Eater Championship."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The Self-Binding Arsonist"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Umbralle used potent satirical jokes as a base and allowed customers to customize the drink. However, they quickly learned that all efforts to soften the jokes' core were useless. No matter what you add, the drink keeps its sour and spicy flavor. First comes a burning pain in your throat, followed by a state of near-masochistic clarity."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Just Like the First Time"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Launched by Ms. Ruri after her return from studying at the Garden of Recollection, this drink claims to perfectly recreate the taste of any customer's first drink here. Customers are often full of anticipation, eager to relive the surprise of that first encounter. Maybe it was a tart, fruity acidity, or a clumsy, cloying sweetness. Of course, it might just be bland, if your drink was nothing special."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "…"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

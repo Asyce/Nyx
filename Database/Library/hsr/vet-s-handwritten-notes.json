@@ -1,0 +1,408 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "vet-s-handwritten-notes",
+  "name": "Vet's Handwritten Notes",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Vet%27s_Handwritten_Notes",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Light Calendar Year 4███, Month of Gate"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "I have decided to record the recent unusual behavior of the dromases. Perhaps one day, these logs will help me understand what happened to them. I am deeply vexed as a vet — never have I seen such symptoms. Even the medical journals Grandfather left me did not record such an occurrence."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Behavioral Observations\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Strange cries during the Hour of Curtain Fall:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "-The tone is higher than usual, closer to the sound an ancient horn makes, like sobbing"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "-Durations are inconsistent, lasting from a few moments to the entire Hour of Curtain Fall"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "-They will respond to one another in most cases, forming some sort of rhythm"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "-During their wails, their eyes will instinctively gaze in the direction of the horizon"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2. Anomalous Movement:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "-Caravans report many instances of dromases abruptly stopping"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "-They will stamp at the ground in place, digging at the ground with their forepaws, as if looking for something"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "-Sometimes they will refuse to move, until the Hour of Curtain Fall passes"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "What is worth paying attention to is that this behavior occurs mostly in locations far away from Okhema"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Physical Status\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Compared to previous measurements"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "-Body temperature slightly increased (+0.3~0.5 degrees)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "-Faster heartbeat rate (Increased 7~10 times per minute)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "-Appetite is normal, but with changed preferences to certain ores, exhibiting an unusually high desire for ores deep in the earth"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2. Environmental Reactions:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "-Refusal to get close to the sand baths that they usually so love"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "-More sensitive to earthen tremors"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "-Display depressive behavior when nearing mountains or precipices"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "-But what is strange is, they surprisingly more frequently touch the ground with their horns and forepaws, like they can hear something"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The most evident change is in their attitude towards certain venues..."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "I have noticed their eyes have become more glazed and skittish. This reminds me of an ancient fable Grandfather used to tell me: During the Era Creatura, when Georios roused from slumber for the first time, the dromases would exhibit similar symptoms. But that's an ancient tale. It couldn't be a coincidence, could it?"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Social Behavior\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "There is some comfort though:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "-Their affection for humans hasn't waned"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "-They still allow caretakers to touch and groom their fur"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "-They cozy up to humans even more than usual, regularly seeking out human warmth"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "-Especially during the Hour of Curtain Fall, they will gather in the vicinity of their caretakers"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Treatment Attempts:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "-Increase daily massage frequency to help them relax"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "-Increase dosage of calming herbs in their drinking water"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "-Change their sandbath method, directly splashing their bodies with sand"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "-Try using music to soothe their nerves"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Current applied measures have not seen visible effects. This leads to my increasing suspicion as to whether their erratic behavior is even caused by an illness."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Deductions\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I have begun to contemplate an audacious deduction: Could some innate instinct be awakening within them? Dromases are blessed gifts bequeathed unto us by Georios after all — their connection to this land is unfathomable."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A few days ago, I perused some ancient texts pertaining to the origin of dromases. According to these records, they were spawned from Georios' spine. If this is true, then their perception of this great land could far surpass our imagination."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Follow-up\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "-Continue detailed records of their behavioral change"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "-Seek the opinions of some scholars researching the Titan history"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "-Attempt to ascertain the time patterns of their abnormal behavior"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "-Collect related reports from more caravans"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Addendum: Earlier today, I saw the oldest dromas standing alone in a corner, emitting low wails. Its eyes reminded me of how the earth shook one time before the black tide arrived. I have begun to seriously consider maybe we shouldn't treat their abnormal behavior as some kind of sickness, but try to understand with an open mind the message they are trying to tell us."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

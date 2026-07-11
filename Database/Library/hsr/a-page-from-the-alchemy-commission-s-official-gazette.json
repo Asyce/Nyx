@@ -1,0 +1,741 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "a-page-from-the-alchemy-commission-s-official-gazette",
+  "name": "A Page From the Alchemy Commission's Official Gazette",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/A_Page_From_the_Alchemy_Commission%27s_Official_Gazette",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "A Page From the Alchemy Commission's Official Gazette",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Day: March 15, Year 8100 Star Calendar"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It is advisable to work overtime and avoid taking time off"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Have fewer chatter about trivial matters, and discuss more about serious topics — Officer of the Comments Section"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "This morning I brought her favorite breakfast for the high elder and found her missing! I've searched everywhere for her... the Medicine Bureau, the Elixir Research Terrace, the Medical Pavilion... but I can't find her! Have you seen her?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I found out that all the starskiffs in delve had gone missing, and I couldn't get a response to my messages to the Realm-Keeping Commission. The chief alchemist, chief healer, and lead medical assistant were all out of town for a meeting, so I couldn't report to anyone."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Will any kindhearted friend from the Alchemy Commission help me?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Signed, Lingering Clouds"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Relax, she is probably skipping home again."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "How many times do we have to do the whole shebang for this little girl? No more serious work to be done?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I think we should just keep doing our work at hand, and then maybe one day she'll just quietly come back."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Hey, just like when finding lost things, when you don't go looking for it, it'll just appear on its own."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It always turns out that way, right guys?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Signed, Unconcerned in the Medical Hut"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Hey previous commenter, I hope you show the most basic respect to the high elder."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "She is the rightful leader of the Vidyadhara after that man!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And I think she's doing a much better job than that so-called great hero."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It's also because of the Dragon Lady's genius that we've been able to make progress in many of our prescription research. Even the chief alchemist also said that the Dragon Lady's capabilities are immeasurable."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Signed, Peeved Bald Healer"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I understand. I'm just tired of this childish drama."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The high elder is not merely a mascot, but should carry herself like someone deserving of the title of high elder."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I'm maybe a few years older than you, so I have seen that person's heroism in battle with my own eyes."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Signed, Unconcerned in the Medical Hut"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Yeah, and then he got locked up."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "How many of our people were never able to undergo hatching rebirth again because of his one decision?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "In my opinion, the current high elder may not have defeated any abominations, or vanquished any evils, or stepped up for Vidyadhara affairs... But her efforts in saving lives and healing the wounded is a hundred times better than those Preceptors and that so-called hero!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Signed, Thunderous Scalegorge Tides"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "You guys..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The high elder is still naive and pure, and ignorant of worldly affairs. What if someone kidnaps her with bad intentions!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Signed, Lingering Clouds"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Whoa, Yunyou here is pretty scary."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I might have a clue. The day before yesterday I saw Banxia sneak off to the high elder's medical chambers. I don't know if it was to talk about escaping to have some fun?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "...This doesn't count as tattling, right?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Signed, Yuluo"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I can't thank you enough! I'll gather the maids and go look for her."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Signed, Lingering Clouds"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Well..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "So, can we continue arguing now?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Signed, Peeved Bald Healer"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "NO! All those that have commented, start searching for her now!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Signed, Lingering Clouds"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "label": "Other Page of the Alchemy Commission Official Gazette",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Current Date: August 2, Year 8100 Star Calendar"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Appointment of Lingsha as the Head of the Alchemy Commission aboard the Xianzhou Luofu."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Xianzhou Alliance Marshal's Office"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Current Date: August 2, Year 8100 Star Calendar"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It is advisable to clean up and avoid taking time off"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Have less chatter about trivial matters, and discuss more about serious topics — Officer of the Comments Section"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The less said, the more significant the event. So, who exactly is Lingsha?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Signed, Lingering Clouds"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "You don't know Lingsha? Are you even part of the alchemy scene? She's the apprentice of our former Cauldron Master, Lady Yunhua. Heard they both headed off to the Zhuming, so this is like a homecoming for her."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Signed, Unconcerned in the Medical Hut"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Whoever she is, our Alchemy Commission finally has someone putting things in order!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Since Yunhua left, the Cauldron Master position's been vacant for ages. Then there was that incident... The Alchemy Commission's been in a rough spot, badly needing a capable leader."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Let's hope Lady Lingsha can lead us to restore the Alchemy Commission's former glory. Everyone, let's give her our full support!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Signed, Yuluo"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Talk about a sudden leadership shake-up in the morning. We figured they'd promote you, Yuluo, to be the new Cauldron Master."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Signed, Thunderous Scalegorge Tides"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Oh, knock it off. I can't be the Cauldron Master. Just being the chief alchemist already keeps me busy as a one-armed paper hanger."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Signed, Yuluo"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I reckon Lady Lingsha is in for a rough ride. The Alchemy Commission is like a hot potato right now — everyone's avoiding it."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "After that incident, a lot of colleagues got dragged into it. Now, we're seriously short-staffed in all departments. Be it healers, alchemists, or assistants."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The bigwigs from the other commissions aren't giving us warm welcomes either. They reckon the Alchemy Commission's gonna cause trouble again sooner or later, and some even suggested splitting our commission up."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Who knows how the new Cauldron Master's gonna clean up this mess?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Signed, Peeved Bald Healer"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Seriously, what's all the fuss about? I've got complete confidence in Lady Lingsha."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "First off, she's a top-tier healer from the Xianzhou Zhuming, so her medical skills are undoubtedly top-notch."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Plus, she's had experience working and studying on multiple Xianzhou ships. She was hired by the IPC as a medical expert and even served in the military. She's got the skills and the know-how, no doubt about it."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "To top it all off, she's one of our own from the Luofu. We couldn't ask for a better fit for Cauldron Master."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Signed, Unconcerned in the Medical Hut"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Are you guys even paying attention to the important details in the bulletin? The big deal isn't who the new Cauldron Master is but who appointed them."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Usually, high-ranking officials of the Luofu are chosen through discussions among the Six Commissions, but this time, the Cauldron Master was directly appointed by the high-ups of the Xianzhou Alliance."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Think about what that means. Really think it through carefully."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Signed, Silent Watchers See All"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I'm too dense to figure this out on my own. Just tell me what's going on."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Signed, Lingering Clouds"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "You really have no sense for politics, do you?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "With something as major as the Arbor's resurrection, the Alliance high-ups are definitely looking to hold someone accountable. And they need a big name to take the fall."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Check out the Wardance — the Yaoqing and Zhuming generals have both shown up. They say they are present to observe the ceremonies, but I think they're really here to question General Jing Yuan."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "So, the arrival of Lady Lingsha is pretty interesting. Could it be a way to keep an eye on or counterbalance General Jing Yuan?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "After all, I heard that Lady Yunhua was exiled from the Luofu. Now, her apprentice returns to settle the score. It seems like a natural course of events, doesn't it?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Signed, Silent Watchers See All"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "That... that makes sense. So, are we gearing up for some political showdown?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Signed, Lingering Clouds"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Enough with the wild guesses. Lady Lingsha is about to arrive at the Alchemy Commission. Let's hurry up and get ready to make a good impression on the new Cauldron Master!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Signed, Yuluo"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "a-long-list-of-names",
+  "name": "A Long List of Names",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/A_Long_List_of_Names",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "A long list, recording the \"names\" you once encountered or heard of in Amphoreus."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "They are not merely data from the countless extrapolations of Scepter δ-me13, drawn from the simulated world of Amphoreus. Because of your arrival, they changed their fates, lived as though real, and remain as memories etched in your mind."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Chartonus, Gnaeus, Bartholos, Damionis, Snack Vendor Nike, Bard Lipos, Elder Caenis, Virtus, Noldus, Liluder the Wealthy, Soctires, Palaten the Scholar, Elder Etro, Iason, Theodoros, Ctesiphona, Aphrea, Kyros, Demetria, Hygilos, Xenia, Pasithea, Dorian, Camilla, Brutus, Marcus, Avilius, Petros, Albus, Cassondra, Cicero, Hapries, Aitee, Diogena, Aelius, Nympha, Zeno, Parmenides, Pythia, Fortuna..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Zenon, Ctesias, Lucretia, Gaia, Hegesia, Peleus, Demosthenes, Bolaris, Daros, Akmonides, Ixion, Aumilia, Margusa, Bacchus, Karpos, Thule, Mityphon, Apollonia, Zenotus, Misia, Arielle, Theophis, Tavananna, Stagira, Julia, Vipsania, Ulixes, Herklas, Erinys, Empousa, Aulus, George, Juno, Servius, Telemachus, Deucalion, Pyrrhus, Fenerite, Pyramac, Wyeth, Loate, Burnet, Chefik, Myrion, Kinon..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Daphne, Perlus, Ansons, Ere, Sanya, Barmen, Jobb, Ina, Petunia, Gotha, Roggia, Siskel, Sephone, Telelaus, Ugos, Mertus, Drusus, Eleni, Sophia, Nikothe, Hersia, Aristophanes, Calista, Sella, Klito, Julius, Sixtus, Tassius, Callisto, Lucia, Ovid, Amycus, Charon, Iphis, Coronie, Pomona, Cycnus, Nyssa, Lephake, Guard Camilla, Paris, Oenone, Philoc, Metanella of the Fruit Stall, Calpe at the Bookstore, Helen, Urania..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Kelok, Kilik, Tars, Tuu, Siskel, Beryl, Chara, Trago, Thessane, Pello, Titanlataur, Sisygor, Loulanes, Kodesseus, Phaoriseus, Lucidis, Gyron, Arcus, Paulus, Sulla, Kester, Ignis, Hekate, Demetria, Hadez, Possephone, Serena, Asterion, Euphemus, Castor, Georgious, Pollux..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Demetri, Andriskos, Marsyas, Gorgo, Old King Eurypon, Krateros, Perdikkas, Clementine, Calypso, Bath Attendant Daros, Leonnius, Ptolemy, Peucesta, Hephaestion, Old Fabio, Calidorthos, Periphas, Nicomachus, Andreas, Clio, Aechenus, Hebe, Hippasus, Potamos, Mortis, Codex, Old Titus, Callinicus, Gravitas, Artakama, Cynane, Dagra, Zelos, Magdalena, Danae, Glauco, Evadne, Melampus, Chloris, Bocchas, Gratione, Hekles, Thestis, Isse, Thaïs, Aechina, Diosciri, Dioscira, Priest Monnta, Believer Siphone, Pam..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Elder\" Amunet, \"Queen of Styxia,\" Polyxia, Apophis, Aquafis, Amorphis, Timos, Perhippas, Yourdei, Empedocles, Callictis, Danksi, Ethro, Ancaeus, Moiton, Clyte, Ella, Thalia, Eacus, Glykon, Echion, Thespis, \"Edgar,\" \"Lelia,\" Eio, Cyrones, Ulysse, Nereia..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Seliose the Daythunder Knight, Lunabis, Solabis, Crispus, General Ektra, Jacyntha, Atticus, Zeph, Alain, Moria, Yason, Lathena, Phedes..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Galba, Pythias, Livia, Piso, Hieronymus, Audata..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Dux Brumalis\" Seneca, \"Dux Carminum\" Verginia, \"Dux Helkolithist\" Apollonius, \"Dux Fragoris\" Labienus, Nereides, Prudentia..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Geocles the Mountainbreaker, Antisthenes, Kate..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Diotima, Futini, Sophronia, Annas, Kalista..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And all the nameless, all who were never hailed as heroes, and every living soul once cradled by the Earth."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Kokopo III, Asterion, Euphemus, Castor, Bossman, Pollux, Heracles..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Dolimem, Relimem, Sosolimem, Tidolimem, Tisolimem, Miremem, Mifamem, Latitimem, Dosolmem, Doremem, Milimem, Solmisolmem, Dolimem, Timilimem, Hachimem, Midodomem, Titidomem, Solatimem, Doreremem, Mitilimem..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Horn of Freedom,\" Professional Manager, Absentee Freak, Tough Cookie, Scolding Enthusiast, Bad-Tempered, Slacker, Kind Praiser, Complainer, Bubbles..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Mega Seal, Angel Seal, Rubber Seal, Bandaged Seal, Boom Boom Seal, Red Hot Seal, Dark Seal, Ghost Seal, Spiky Seal, Duotone Seal, Common Gray Seal, Manliest Seal, Unyielding Seal..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(Beast of Burden/Mini Dromas/Dromasilla/Dromy/Trailblazer Jr/The Great Chimera/Uranus/Dromasmas)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Across countless worlds in the galaxy yet to come, your existence shall cause them to be remembered."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

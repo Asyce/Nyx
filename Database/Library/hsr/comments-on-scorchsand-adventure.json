@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "comments-on-scorchsand-adventure",
+  "name": "Comments on Scorchsand Adventure",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Comments_on_Scorchsand_Adventure",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The following is a review of the initial draft of the script for the movie"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Clockie: Scorchsand Adventure,"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "themed around the Pioneering Era."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In this script, the story revolves around Clockie and the inhabitants of Dreamville as they embark on a perilous journey to reclaim the paradise from the monster known as \"Dread King\" in order to pioneer in Dreamville's Scorchsand Wonderland. The script effectively blends elements from the Pioneering Era and the Clockie series, resulting in a captivating narrative and showcasing a high level of artistic quality. Particularly noteworthy is the impressive final scene where Clockie and the Pioneerist simultaneously hit the Dread King. It is highly recommended to retain this scene in the official version."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "However, this administration must remind Clock Studios that there are both virtuous companions and evil villains among the Dreamchasers. During the Pioneering Era, armed conflicts among Dreamchasers often jeopardized the safety of the town's residents, and the Bloodhound Family was devoted to maintaining law and order through their patrols. Regrettably, in this movie, the Dreamchasers are excessively glorified, incorrectly attributing some of The Family's accomplishments to them. This portrayal may be misleading."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Furthermore, the depiction of the Dog Sheriff potentially alludes to the Bloodhound Family and raises concerns. Dog Sheriff is portrayed as a thuggish security officer, perpetuating a discriminatory stereotype. However, records available in the Moment of Sol suggest that the Bloodhound Family made substantial contributions during the pioneering effort in the barren dreamscapes, on par with the Dreamchasers. Frequent attribution of villainous roles to the Bloodhound Family could lead to audience resentment, tarnishing the Bloodhound Family's image and contradicting The Family's philosophy of Harmony. Therefore, it is recommended to revise the script accordingly."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "We suggest incorporating romantic scenes between the Dog Sheriff and the Pioneerist, replacing their conflicting stances with elements of romance. Recent market surveys indicate that audiences are highly interested in stories of relationships between characters. This approach not only enhances the commercial value of the movie but also conveys Penacony's shared values of harmonious tolerance and friendship."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Lastly, we would like to bring to Clock Studios' attention that the role of Clockie has been diminished in recent"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Clockie"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "movies, and in this script is even overshadowed by the Pioneerist. While we understand the strategic direction of Clock Studios in attempting to establish a new series, it is crucial to note that Clockie has always been the iconic image of your studio and even Penacony. Therefore, we recommend maintaining a balanced share of screen time between each character in your future productions."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I look forward to your future creations."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "— The Iris Family, Dreamscape Film Regulation Administration"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

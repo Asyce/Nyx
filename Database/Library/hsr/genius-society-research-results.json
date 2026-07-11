@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "genius-society-research-results",
+  "name": "Genius Society: Research Results",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Genius_Society:_Research_Results",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Are some geniuses better than others? Even if we listed down all the achievements of #83 Herta, #81 Ruan Mei, and #76 Screwllum, we could hardly decide which among them is the best."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "# 2 Harald Punch and #3 Nyul Iman established the Genius Society in a garage, but they had a turbulent friendship tainted with rivalries and arguments. I once suspected they were competing with each other to prove which one was better."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Thankfully, the Simulated Universe project has created a temporary stability, but who knows whether this stable triangle will crumble with the addition of new members?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Oh, I almost made a mistake. It should be a quadrangle — including #84 Stephen Lloyd."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

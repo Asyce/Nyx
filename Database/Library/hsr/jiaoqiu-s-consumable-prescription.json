@@ -1,0 +1,514 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "jiaoqiu-s-consumable-prescription",
+  "name": "Jiaoqiu's Consumable Prescription",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Jiaoqiu%27s_Consumable_Prescription",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "There are a few recipes that Jiaoqiu had left for the Yaoqing General's servant"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "...This prescription is warming, helps replenish nutrients, and regulates qi. It will be great for helping the general recover after battle."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Recipe:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "2 mace of Hyai'i Yellow Milkvetch"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "1 mace of Kontigh Clover"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "1 mace of Exalting Hyacinth"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "2 dried Vonwacq Caterpillar Fungus"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "2g of dried, powdered red sage"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "3 drops of Yuque Imperial Serum"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Boil Fanghu Roiling Deep water in a medium-sized cauldron for eight hours to remove impurities and extract the solution"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Obtain a berrypheasant from the Zhuming wilds, remove the organs and blanch in water to remove all blood"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Take a separate medium-sized cauldron and add onion, ginger, garlic, and stew Fanghu black viper meat"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Once boiling, simmer at a low heat for 1 dual-hours and remove from the cauldron"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Skim off the scum, you only want the clear soup, and garnish with two or three Zhuming wolfberries"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"The general has been ill for a long time — her qi and blood circulation is irregular, and she is prone to irritation. She also suffers exhaustion from years of battle, internal bleeding and vascular and qi obstructions. She requires long-term care and must take this decoction every ten days. Avoid spicy food during this time and make sure to eat dinner.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "...This prescription is for soothing the nerves, cooling the body, detoxifying, and improving eyesight. To be served as a dessert, it will assist the General in regaining sensory perception and coordination."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Recipe:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "1 bottle of Penacony SoulGlad, can be substituted by another syrup drink"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A suitable amount of Verdantia rice"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Boil the Verdantia rice until translucent, remove the water, then boil again in a separate pot until completely transparent"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "2 mace of Scalegorge alginate"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Boil and reduce to sugar, then set aside"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Add Thalassan green to puffergoat milk, boil and set aside"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "4 mace of tranquility lotus seeds"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "4 mace of Fanghu longan"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Add the coconut and milk"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Simmer all ingredients except the jelly for half a dual-hour until thickened"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "After removing from the pan, place to cool and freeze, then add the pudding"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Garnish with Lunarescent Sea mint"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"The general's extreme speed can easily disturb her mental state. Therefore, as well as treating her eyes, there should be supplementary drugs provided to calm her mind and soothe her will. Use 5 mace of jujube seeds, 3 mace of polygala, and 1 mace of licorice root to brew a cold complementary medicinal tea.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "...This prescription's main functions are to regulate body functions, dispel heat and wind from the body, and slow down and muscular calcification."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Recipe:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Cut the hind-leg sections of an Ever-Hunt Plains Fungus Boar into sections and rinse off any blood"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Half a cup of powdered Thalassan dung beetle powder"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Quarter cup of powdered Vidyadhara hatching rebirth eggshells"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "2 mace of Fanghu Fossil Root"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "0.5 mace of dehydrated viscorpus"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "2 rock bamboos, washed and put aside"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Place the fungus boar leg meat and bones in a casserole dish together with fire ginger"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Extract the salt from the Lunarescent Seawater and pour the desalinated water into the casserole to boil together for 1 dual-hour"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Skim off the scum and add the rock bamboos and dehydrated viscorpus before boiling for half a dual-hour"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "When removing from the pot, add the medicinal powder to the soup, with Zhuming pepper to counteract the medicinal flavor"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"The root of the general's condition is an extended overdraft of her own vitality. Toxins within her muscles have not been dispersed, leading to muscular damage and breakdown. We must rely on food supplements to cleanse the toxins in her blood and repair her muscles and bones.\""
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

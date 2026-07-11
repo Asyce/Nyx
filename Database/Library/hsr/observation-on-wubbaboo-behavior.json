@@ -1,0 +1,350 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "observation-on-wubbaboo-behavior",
+  "name": "Observation on Wubbaboo Behavior",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Observation_on_Wubbaboo_Behavior",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*This page is extremely wrinkled. It is obvious that someone had crumbled it into a ball before tossing it away.*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "File Number: 510523455323647432"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Department: Department of Ecology"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Copyright Ownership: Eikura Shuu"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Number of Times Submitted: 7"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Estimated Filing Date: 32, 11, 2157 AE"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Main Body"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Wubbaboos exist in the world individually, in groups, and parasitically. It is known that when without a host, Wubbaboos keep their whereabouts hidden. After they parasitized a host, their destructiveness is positively correlated with the host's mobility①②."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Based on a small test sample③, a singular Wubbaboo possesses the intelligence of a roughly six-year-old human. When in a group, the Wubbaboos' individual intelligence reduces dramatically. This is because the thought waves of spiritual organisms interfere with each other, and a resonance in frequency will affect their individual decision-making."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Whether with or without a host, the actions of the Wubbaboo (and its host) will abide by the four following rules:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Happy Wubbaboos will quickly run around a room with five or more corners."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. Sad Wubbaboos will gather in an empty room and share their unhappy thoughts with one another."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. Angry Wubbaboos will expose themselves to strong rays of light. Some Wubbaboos will not be able to bear strong emotions and scatter into galactic dust."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "4. Calm Wubbaboos will experience the strangest period of their life. They will destroy everything in their path and prank organisms around them out of no reason but pure mischief, truly living up to their nicknames of being a Jinx or Mischievous Astral Spirit."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Comment"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "①Cited Reference: \"Wubbaboo possesses space station brute, steals 113 pairs of radiation protective boots in under a month. Caught due to unbearable odor\" from"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Herta Urban Legends"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "issue 2156 AE Month 25."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "②Cited Reference: \"Blitz! Quickest collection operation in station history: Wubbaboo possesses seventy-year-old woman, caught and booked within five minutes\" from"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Herta Urban Legends"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "issue 2157 AE Month 7."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "③The first sample is taken from researcher Adler. Due to Adler's spectacular display of intelligence in his age group, the results were ineffective. The second sample is taken from researcher Wen Shiling. This paper has adopted the test conclusions of this sample."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Reviewer Feedback"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "1. It's common sense not to reference urban legends."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. Is the sample size large enough? Have enough samples been taken? Does abruptly coming to a conclusion based on a singular sample reference fit with the Herta Space Station's research values?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*So it's my fault that there are only two children on the space station?*"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. What does \"rooms with five or more corners\" mean?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*A room with more than five corners means a room with more than just four corners. How else do you want me to explain it?*"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "4. \"Some Wubbaboos will not be able to bear strong emotions and scatter into galactic dust.\" What were the steps that led to this research conclusion? I recommend an investigation looking into whether this researcher has abided by the research guidelines, and if there were unacceptable behaviors such as damaging collections and assets."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Review Conclusion"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The research process is grossly lacking in scientific rigor and approach. The validity of the research conclusion is yet to be proven."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Department Evaluation Conclusion: Failed. Will not be filed and stored"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "First Evaluation Reviewer: Capote Dow Lanci"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*To hell with you!*"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Second Evaluation Reviewer: None"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

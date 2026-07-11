@@ -910,28 +910,18 @@ function durationParts(ms){
   return d > 0 ? d + 'd ' + pad(h) + 'h ' + pad(m) + 'm' : pad(h) + 'h ' + pad(m) + 'm ' + pad(s) + 's';
 }
 
-function customTimerKey(gameKey){
-  return 'nyx:custom-reset-timers:' + (gameKey || 'nyx') + ':v1';
-}
-
+// Custom timers now live in the shared v2 store (features/timeline/
+// custom-timer-storage.js). These thin wrappers keep the Timers card on
+// the shared helper — load performs the safe v1->v2 migration, save
+// normalizes + persists. v2 rows are a superset of the old v1 shape
+// (they still carry id/label/target/recur), so the card renders them
+// unchanged.
 function loadCustomTimers(gameKey){
-  try {
-    const rows = JSON.parse(localStorage.getItem(customTimerKey(gameKey)) || '[]');
-    return Array.isArray(rows)
-      ? rows.filter((row) => row && row.label && Number.isFinite(Number(row.target))).map((row) => ({
-        id:String(row.id || row.label + '-' + row.target),
-        label:String(row.label).slice(0, 42),
-        target:Number(row.target),
-        recur:sanitizeRecur(row.recur),
-      }))
-      : [];
-  } catch (e) {
-    return [];
-  }
+  return nyxLoadCustomTimersV2(gameKey);
 }
 
 function saveCustomTimers(gameKey, rows){
-  try { localStorage.setItem(customTimerKey(gameKey), JSON.stringify(rows)); } catch (e) {}
+  return nyxSaveCustomTimersV2(gameKey, rows);
 }
 
 function resetRegionStorageKey(gameKey){
@@ -945,6 +935,48 @@ function loadResetRegion(gameKey){
   } catch (e) {
     return DEFAULT_RESET_REGION;
   }
+}
+
+// The Reset Timers card and the banner timeline both expose a server-region
+// selector backed by the same localStorage key. They are mounted together,
+// so each must react to the other's selection immediately (Sol finding #6).
+// A tiny in-memory pub/sub keyed by gameKey shares the choice across both
+// surfaces without a reload; a 'storage' listener extends it across tabs.
+const NYX_RESET_REGION_SUBS = {};
+function subscribeResetRegion(gameKey, cb){
+  if (typeof cb !== 'function') return () => {};
+  const key = String(gameKey == null ? 'nyx' : gameKey);
+  const list = NYX_RESET_REGION_SUBS[key] || (NYX_RESET_REGION_SUBS[key] = []);
+  list.push(cb);
+  return () => {
+    const arr = NYX_RESET_REGION_SUBS[key];
+    if (!arr) return;
+    const i = arr.indexOf(cb);
+    if (i !== -1) arr.splice(i, 1);
+  };
+}
+function saveResetRegion(gameKey, regionKey){
+  if (!RESET_REGIONS[regionKey]) return;
+  try { localStorage.setItem(resetRegionStorageKey(gameKey), regionKey); } catch (e) {}
+  const key = String(gameKey == null ? 'nyx' : gameKey);
+  const arr = NYX_RESET_REGION_SUBS[key];
+  if (!arr || !arr.length) return;
+  const copy = arr.slice();
+  for (let i = 0; i < copy.length; i++) { try { copy[i](regionKey); } catch (e) {} }
+}
+if (typeof window !== 'undefined' && !window.__nyxResetRegionStorageBound) {
+  window.__nyxResetRegionStorageBound = true;
+  window.addEventListener('storage', (event) => {
+    if (!event || typeof event.key !== 'string') return;
+    const m = /^nyx:reset-region:(.+):v1$/.exec(event.key);
+    if (!m) return;
+    const gameKey = m[1];
+    const value = RESET_REGIONS[event.newValue] ? event.newValue : DEFAULT_RESET_REGION;
+    const arr = NYX_RESET_REGION_SUBS[gameKey];
+    if (!arr) return;
+    const copy = arr.slice();
+    for (let i = 0; i < copy.length; i++) { try { copy[i](value); } catch (e) {} }
+  });
 }
 
 function datetimeLocalValue(ts){
@@ -984,12 +1016,46 @@ function nextRecurringTarget(target, recur, now){
     if (cand.getTime() <= now) cand = new Date(ref.getFullYear(), ref.getMonth() + 1, day, h, mi, 0, 0);
     return cand.getTime();
   }
+  if (recur.type === 'semimonthly') {
+    const base = new Date(t);
+    const h = base.getHours(), mi = base.getMinutes();
+    const ref = new Date(now);
+    const cands = [
+      new Date(ref.getFullYear(), ref.getMonth(), 1, h, mi, 0, 0).getTime(),
+      new Date(ref.getFullYear(), ref.getMonth(), 16, h, mi, 0, 0).getTime(),
+      new Date(ref.getFullYear(), ref.getMonth() + 1, 1, h, mi, 0, 0).getTime(),
+    ];
+    return cands.find((x) => x > now) || cands[cands.length - 1];
+  }
   return t;
+}
+
+// Firing status for any custom timer row (point / range / recurring),
+// respecting an optional recur.until end bound. `ms` is the countdown to
+// the returned event, or null when the row has ended/expired.
+function customTimerFireInfo(row, now){
+  if (!row) return { label:'', ms:null };
+  if (row.type === 'range') {
+    if (now < row.start) return { label:'Starts in', ms:row.start - now };
+    if (now <= row.end) return { label:'Ends in', ms:row.end - now };
+    return { label:'Ended', ms:null };
+  }
+  if (row.type === 'recurring' && row.recur) {
+    const fire = nextRecurringTarget(row.target, row.recur, now);
+    if (!Number.isFinite(fire) || (Number.isFinite(row.recur.until) && fire > row.recur.until)) {
+      return { label:'Ended', ms:null };
+    }
+    return { label:'', ms:fire - now };
+  }
+  const t = Number(row.target);
+  if (!Number.isFinite(t)) return { label:'', ms:null };
+  return t > now ? { label:'', ms:t - now } : { label:'Expired', ms:null };
 }
 
 function recurLabel(recur){
   if (!recur) return '';
   if (recur.type === 'monthly') return 'Monthly';
+  if (recur.type === 'semimonthly') return 'Twice monthly';
   if (recur.type === 'interval') {
     const d = recur.days;
     if (d % 7 === 0 && d >= 7) { const w = d / 7; return w === 1 ? 'Weekly' : 'Every ' + w + ' weeks'; }
@@ -1020,20 +1086,18 @@ function ResetTimersPanel({ gameKey }){
     setRecurEvery('1');
     setRecurUnit('day');
   }, [gameKey]);
+  // Share the server-region selection and the timer store with the banner
+  // timeline (both mounted together): re-read whenever either changes.
+  React.useEffect(() => subscribeResetRegion(gameKey, setRegionKey), [gameKey]);
+  React.useEffect(() => nyxSubscribeCustomTimers(gameKey, setCustom), [gameKey]);
   const pickRegion = (key) => {
     if (!RESET_REGIONS[key]) return;
     setRegionKey(key);
-    try { localStorage.setItem(resetRegionStorageKey(gameKey), key); } catch (e) {}
-  };
-  const commitCustom = (fn) => {
-    setCustom((prev) => {
-      const next = fn(prev).slice(0, 12);
-      saveCustomTimers(gameKey, next);
-      return next;
-    });
+    saveResetRegion(gameKey, key);
   };
   const buildRecur = () => {
     if (recurMode === 'monthly') return { type:'monthly' };
+    if (recurMode === 'semimonthly') return { type:'semimonthly' };
     if (recurMode === 'interval') {
       const every = Math.max(1, Math.round(Number(recurEvery) || 1));
       return sanitizeRecur({ type:'interval', days:every * (recurUnit === 'week' ? 7 : 1) });
@@ -1045,14 +1109,19 @@ function ResetTimersPanel({ gameKey }){
     const ts = new Date(target).getTime();
     if (!clean || !Number.isFinite(ts)) return;
     const recur = buildRecur();
-    commitCustom((prev) => [...prev, { id:String(Date.now()) + '-' + Math.random().toString(16).slice(2), label:clean, target:ts, recur }]);
+    const timer = nyxMakeTimerV2({ label:clean, target:ts, recur });
+    if (!timer) return;
+    // Per-id upsert on a fresh store read (never a whole-array clobber),
+    // so the timeline's concurrent edits survive (Sol finding #2).
+    setCustom(nyxUpsertCustomTimerV2(gameKey, timer));
     setLabel('');
     setTarget(datetimeLocalValue(Date.now() + RESET_MS.day));
     setRecurMode('once');
     setRecurEvery('1');
     setRecurUnit('day');
   };
-  const removeTimer = (id) => commitCustom((prev) => prev.filter((row) => row.id !== id));
+  const removeTimer = (id) => setCustom(nyxRemoveCustomTimerV2(gameKey, id));
+  const toggleTimer = (id) => setCustom(nyxToggleCustomTimerV2(gameKey, id));
   const rows = resetTimerRows(now, regionKey);
   const activeRegion = RESET_REGIONS[regionKey] || RESET_REGIONS.local;
   return (
@@ -1079,12 +1148,14 @@ function ResetTimersPanel({ gameKey }){
       {custom.length > 0 && (
         <div className="gp-reset-custom">
           {custom.map((row) => {
-            const fireAt = nextRecurringTarget(row.target, row.recur, now);
+            const info = customTimerFireInfo(row, now);
             const rl = recurLabel(row.recur);
+            const off = row.enabled === false;
             return (
-              <div className="gp-reset-tile custom" key={row.id}>
+              <div className={'gp-reset-tile custom' + (off ? ' off' : '')} key={row.id}>
                 <span className="k">{row.label}{rl && <em className="gp-reset-recur" title={'Recurs: ' + rl}>{'↻ ' + rl}</em>}</span>
-                <span className="v">{fireAt > now ? durationParts(fireAt - now) : 'Expired'}</span>
+                <span className="v">{info.ms != null ? durationParts(info.ms) : info.label}</span>
+                <button type="button" aria-pressed={!off} aria-label={(off ? 'Enable ' : 'Disable ') + row.label} title={off ? 'Enable timer' : 'Disable timer'} onClick={() => toggleTimer(row.id)}>{off ? '○' : '●'}</button>
                 <button type="button" aria-label={'Remove ' + row.label} title="Remove custom timer" onClick={() => removeTimer(row.id)}>x</button>
               </div>
             );
@@ -1098,6 +1169,7 @@ function ResetTimersPanel({ gameKey }){
           <select value={recurMode} aria-label="Repeat" onChange={(e) => setRecurMode(e.target.value)}>
             <option value="once">One-time</option>
             <option value="interval">Repeat every…</option>
+            <option value="semimonthly">Twice monthly (1st + 16th)</option>
             <option value="monthly">Monthly (same date)</option>
           </select>
           {recurMode === 'interval' && (
@@ -1670,10 +1742,11 @@ function AllBannersView(){
   // Shares the persisted region with the overview reset panel, so picking a
   // server here and there stays consistent.
   const [regionKey, setRegionKey] = React.useState(() => loadResetRegion('nyx'));
+  React.useEffect(() => subscribeResetRegion('nyx', setRegionKey), []);
   const pickRegion = (key) => {
     if (!RESET_REGIONS[key]) return;
     setRegionKey(key);
-    try { localStorage.setItem(resetRegionStorageKey('nyx'), key); } catch (e) {}
+    saveResetRegion('nyx', key);
   };
   const region = RESET_REGIONS[regionKey] || RESET_REGIONS[DEFAULT_RESET_REGION];
   const updated = window.NYX_DB && window.NYX_DB.banners && window.NYX_DB.banners.updated;
@@ -3035,6 +3108,7 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
     };
   }, [cfg.key]);
   const hasTcg = cfg.key === 'gi';
+  const hasLibrary = cfg.key === 'gi' || cfg.key === 'hsr';
   const betaActive = cfg.key !== 'ae' && typeof cmHasBeta === 'function' && cmHasBeta(cfg.key) && (cmChannel === 'beta' || window.NYX_ALWAYS_BETA === true);
   React.useEffect(() => {
     if (tab === 'beta' && !betaActive) setTab('mats');
@@ -3062,7 +3136,7 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
   };
   // G13: the section list the Characters header icon-dropdown switches between.
   const sectionKey = (f) => /tracker$/i.test(f) ? 'tracker' : /^(characters|character materials)$/i.test(f) ? 'mats' : 'database';
-  const sections = [{ key:'overview', label:'Overview' }, ...visibleFns.map((f) => ({ key:sectionKey(f), label:f })), ...(betaActive ? [{ key:'beta', label:'Beta' }] : []), { key:'settings', label:'Settings' }];
+  const sections = [{ key:'overview', label:'Overview' }, ...visibleFns.map((f) => ({ key:sectionKey(f), label:f })), ...(hasLibrary ? [{ key:'books', label:'The Library' }] : []), ...(betaActive ? [{ key:'beta', label:'Beta' }] : []), { key:'settings', label:'Settings' }];
   return (
     <div className={'gp-layout' + (tab === 'overview' ? ' has-aside' : '')}>
       <nav className="gp-side-nav" aria-label="Tools">
@@ -3086,6 +3160,13 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
             </div>
           );
         })}
+        {hasLibrary && (
+          <div className={'gp-fn-row click' + (tab === 'books' ? ' on' : '')}
+               role="button" tabIndex={0} aria-current={tab === 'books' ? 'page' : undefined}
+               onClick={() => setTab('books')} onKeyDown={navKeyDown(() => setTab('books'))}>
+            <span className="dia" aria-hidden="true"></span><span>The Library</span><span className="go">{'›'}</span>
+          </div>
+        )}
         {betaActive && (
           <div className={'gp-fn-row click' + (tab === 'beta' ? ' on' : '')}
                role="button" tabIndex={0} aria-current={tab === 'beta' ? 'page' : undefined}
@@ -3102,7 +3183,7 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
 
       {tab === 'overview' && (
         <main className="gp-main-pane gp-overview-main">
-          <CurrentBannerStrip cfg={cfg} />
+          <BannerTimeline game={cfg.key} gameName={cfg.name} />
         </main>
       )}
       {tab === 'mats' && (
@@ -3148,12 +3229,129 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
             onViewChange={(next) => setTab(next)} />
         </main>
       )}
+      {tab === 'books' && hasLibrary && <LibraryPage game={cfg.key} />}
       {tab === 'beta' && betaActive && <BetaDataPanel gameKey={cfg.key} onOpenCharacter={openBetaCharacter} />}
       {tab === 'settings' && <SettingsPane settings={settings} setSettings={setSettings} />}
 
       {tab === 'overview' && <OverviewAside cfg={cfg} />}
     </div>
   );
+}
+
+/* ---------------- The Library: lazy, structured readable documents ---------------- */
+function libraryInline(nodes, keyPrefix){
+  return (nodes || []).map((node, index) => {
+    const key = `${keyPrefix}-${index}`;
+    if (node.type === 'text') return node.text;
+    if (node.type === 'br') return <br key={key} />;
+    if (node.type === 'em') return <em key={key}>{libraryInline(node.children, key)}</em>;
+    if (node.type === 'strong') return <strong key={key}>{libraryInline(node.children, key)}</strong>;
+    return null;
+  });
+}
+
+function LibraryDocument({ document, game }){
+  return <div className="library-document">
+    {(document?.blocks || []).map((block, index) => {
+      const key = `block-${index}`;
+      if (block.type === 'heading') {
+        const Tag = block.level >= 4 ? 'h4' : block.level === 3 ? 'h3' : 'h2';
+        return <Tag key={key}>{block.text}</Tag>;
+      }
+      if (block.type === 'paragraph') return <p key={key}>{libraryInline(block.children, key)}</p>;
+      if (block.type === 'list') {
+        const Tag = block.ordered ? 'ol' : 'ul';
+        return <Tag key={key}>{(block.items || []).map((item, itemIndex) => <li key={`${key}-${itemIndex}`}>{libraryInline(item.children, `${key}-${itemIndex}`)}</li>)}</Tag>;
+      }
+      if (block.type === 'table') return <div className="library-table-wrap" key={key}><table><tbody>{(block.rows || []).map((row, rowIndex) => <tr key={`${key}-${rowIndex}`}>{(row.cells || []).map((cell, cellIndex) => <td key={`${key}-${rowIndex}-${cellIndex}`}>{libraryInline(cell.children, `${key}-${rowIndex}-${cellIndex}`)}</td>)}</tr>)}</tbody></table></div>;
+      if (block.type === 'image' && /^icons\/[a-f0-9]{16,64}\.(?:png|webp)$/i.test(block.src || '')) return <img key={key} className="library-inline-image" src={`/data/library/${game}/${block.src}`} alt={block.alt || ''} loading="lazy" />;
+      return null;
+    })}
+  </div>;
+}
+
+function LibraryPage({ game }){
+  const [indexState, setIndexState] = React.useState({ loading:true, data:null, error:null });
+  const [indexAttempt, setIndexAttempt] = React.useState(0);
+  const [bookState, setBookState] = React.useState({ id:null, loading:false, data:null, error:null, attempt:0 });
+  const [query, setQuery] = React.useState('');
+  const [volume, setVolume] = React.useState(0);
+  const readerTitle = React.useRef(null);
+
+  React.useEffect(() => {
+    const controller = new AbortController();
+    setIndexState({ loading:true, data:null, error:null });
+    fetch(`/data/library/${game}/index.json`, { signal:controller.signal, credentials:'same-origin' })
+      .then((response) => { if (!response.ok) throw new Error(`Library index returned ${response.status}`); return response.json(); })
+      .then((data) => {
+        if (data?.game !== game || !Array.isArray(data.entries)) throw new Error('Library index is invalid');
+        setIndexState({ loading:false, data, error:null });
+      })
+      .catch((error) => { if (error.name !== 'AbortError') setIndexState({ loading:false, data:null, error:error.message || 'The Library could not be loaded.' }); });
+    return () => controller.abort();
+  }, [game, indexAttempt]);
+
+  React.useEffect(() => {
+    if (!bookState.id) return undefined;
+    const row = indexState.data?.entries?.find((entry) => entry.id === bookState.id);
+    if (!row || !/^[a-z0-9][a-z0-9-]*\.json$/.test(row.file || '')) {
+      setBookState((state) => ({ ...state, loading:false, error:'This book has an invalid library record.' }));
+      return undefined;
+    }
+    const controller = new AbortController();
+    setBookState((state) => ({ ...state, loading:true, data:null, error:null }));
+    fetch(`/data/library/${game}/${row.file}`, { signal:controller.signal, credentials:'same-origin' })
+      .then((response) => { if (!response.ok) throw new Error(`Book returned ${response.status}`); return response.json(); })
+      .then((data) => {
+        if (!Array.isArray(data?.volumes) || !data.volumes.length) throw new Error('This book has no readable text.');
+        setVolume(0);
+        setBookState((state) => ({ ...state, loading:false, data, error:null }));
+        requestAnimationFrame(() => readerTitle.current?.focus());
+      })
+      .catch((error) => { if (error.name !== 'AbortError') setBookState((state) => ({ ...state, loading:false, data:null, error:error.message || 'This book could not be loaded.' })); });
+    return () => controller.abort();
+  }, [game, bookState.id, bookState.attempt, indexState.data]);
+
+  const entries = indexState.data?.entries || [];
+  const filtered = entries.filter((entry) => !query.trim() || String(entry.name || '').toLowerCase().includes(query.trim().toLowerCase()));
+  const closeBook = () => { setBookState({ id:null, loading:false, data:null, error:null, attempt:0 }); setVolume(0); };
+  if (bookState.id) {
+    const selected = bookState.data?.volumes?.[volume];
+    return <main className="gp-main-pane fill library-page">
+      <div className="library-reader-head">
+        <button type="button" className="library-back" onClick={closeBook}>← Back to The Library</button>
+        <div>
+          <span className="eyebrow">The Library</span>
+          <h1 tabIndex="-1" ref={readerTitle}>{bookState.data?.name || indexState.data?.entries?.find((entry) => entry.id === bookState.id)?.name || 'Loading book…'}</h1>
+        </div>
+      </div>
+      {bookState.loading && <div className="library-status" role="status" aria-live="polite">Opening book…</div>}
+      {bookState.error && <div className="library-status error" role="alert"><p>{bookState.error}</p><button type="button" onClick={() => setBookState((state) => ({ ...state, attempt:state.attempt + 1 }))}>Try again</button></div>}
+      {bookState.data && <article className="library-reader">
+        {bookState.data.volumes.length > 1 && <div className="library-volumes" role="group" aria-label="Book volumes">
+          {bookState.data.volumes.map((item, index) => <button type="button" key={item.id || index} className={volume === index ? 'on' : ''} aria-pressed={volume === index} onClick={() => setVolume(index)}>{item.label || `Volume ${index + 1}`}</button>)}
+        </div>}
+        <LibraryDocument document={selected?.document} game={game} />
+      </article>}
+    </main>;
+  }
+  return <main className="gp-main-pane fill library-page">
+    <header className="library-hero"><span className="eyebrow">GI & HSR archives</span><h1>The Library</h1><p>Open a book to read its collected volumes.</p></header>
+    {indexState.loading && <div className="library-status" role="status" aria-live="polite">Loading The Library…</div>}
+    {indexState.error && <div className="library-status error" role="alert"><p>{indexState.error}</p><button type="button" onClick={() => setIndexAttempt((attempt) => attempt + 1)}>Try again</button></div>}
+    {indexState.data && <>
+      <label className="library-search"><span>Search books</span><input type="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search The Library" /></label>
+      <p className="library-count" aria-live="polite">{filtered.length} {filtered.length === 1 ? 'book' : 'books'}</p>
+      <div className="library-grid">
+        {filtered.map((entry) => <button type="button" className="library-tile" key={entry.id} onClick={() => setBookState({ id:entry.id, loading:true, data:null, error:null, attempt:0 })}>
+          <span className="library-cover">{entry.icon ? <img src={`/data/library/${game}/${entry.icon}`} alt="" loading="lazy" /> : <span aria-hidden="true">📖</span>}</span>
+          <strong>{entry.name}</strong>
+          <small>{entry.volumeCount > 1 ? `${entry.volumeCount} volumes` : 'Readable'}</small>
+        </button>)}
+      </div>
+      {!filtered.length && <div className="library-status">No books match that search.</div>}
+    </>}
+  </main>;
 }
 
 /* ---------------- hub birthday calendar (Workstream P) ---------------- */
@@ -3385,6 +3583,7 @@ const GAME_TAB_TO_ROUTE = {
   tcg:'database/tcg',
   pot:'database/serenitea-pot',
   wonderland:'database/wonderland',
+  books:'books',
   beta:'beta',
   settings:'settings',
 };
@@ -3404,6 +3603,7 @@ const ROUTE_TO_GAME_TAB = {
   character:'mats',
   database:'database',
   library:'database', // old bookmarks land on the renamed Database tab
+  books:'books',
   tracker:'tracker',
   tcg:'tcg',
   'serenitea-pot':'pot',
@@ -3495,12 +3695,13 @@ function routeTitleFor(key, tab, selection){
   const selectedName = selection && selection.game === key ? routeDisplayName(selection.name) : '';
   if (selectedName) return 'Nyx \u2014 ' + selectedName + ' \u2014 ' + name;
   if (key === 'nyx') return tab && tab !== 'overview' ? 'Nyx \u2014 ' + tab.replace(/\b\w/g, (c) => c.toUpperCase()) : 'Nyx';
-  const label = { mats:'Characters', database:'Database', tracker:'Tracker', tcg:'TCG', pot:'Serenitea Pot', wonderland:'Miliastra Wonderland', beta:'Beta', settings:'Settings' }[tab] || '';
+  const label = { mats:'Characters', database:'Database', tracker:'Tracker', tcg:'TCG', pot:'Serenitea Pot', wonderland:'Miliastra Wonderland', books:'The Library', beta:'Beta', settings:'Settings' }[tab] || '';
   return label ? 'Nyx \u2014 ' + label + ' \u2014 ' + name : 'Nyx \u2014 ' + name;
 }
 
 function validTabsForKey(key){
-  if (key === 'gi') return ['overview','mats','char-customize','database','tracker','tcg','pot','wonderland','beta','settings'];
+  if (key === 'gi') return ['overview','mats','char-customize','database','tracker','tcg','pot','wonderland','books','beta','settings'];
+  if (key === 'hsr') return ['overview','mats','char-customize','database','tracker','books','beta','settings'];
   return key === 'nyx' ? ['overview','characters','calendar','pulls','codes','banners','settings'] : ['overview','mats','char-customize','database','tracker','beta','settings'];
 }
 

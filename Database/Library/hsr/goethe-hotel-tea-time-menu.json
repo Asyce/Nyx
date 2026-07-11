@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "goethe-hotel-tea-time-menu",
+  "name": "Goethe Hotel Tea Time Menu",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Goethe_Hotel_Tea_Time_Menu",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Classic Brunch Combo"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Buttered toast, poached eggs, pancake with syrup (with seasonal fruit jam), a cup of tea of your choice"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "(The sour bean soup originally in the combo is temporarily unavailable due to supply shortage, and is replaced with any beverage from our selection of brews)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Garden Desserts"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Coffee Jelly (Temporarily Unavailable)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Butterfly Berry Tart"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Yogurt Berry Cup"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Soufflé With Jam"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Honey and Oats Mousse"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Energy Snacks"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Smoked Frostwave Salmon Rolls"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Salmon Cheese Tart"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Special Sausage Platter"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Afternoon Brews"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Moo-Moo Hot Milk"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Crystal Sparkling Water"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Heart-Warming Flower-and-Fruit Tea"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Energetic Boiled Mushroom Tea"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Rye Bread Soda Iceberg"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Goethe Classic Hand-Made Coffee (Temporarily unavailable)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Due to a shortage in coffee, all menu items containing coffee are temporarily unavailable. We will provide them again as soon as supplies return to normal."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "We deeply apologize for any inconvenience caused."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

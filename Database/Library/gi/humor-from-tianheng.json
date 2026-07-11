@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "game": "gi",
+  "id": "humor-from-tianheng",
+  "name": "Humor From Tianheng",
+  "sourceUrl": "https://genshin-impact.fandom.com/wiki/Humor_From_Tianheng",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I stopped by Feiyun Slope to view the merchants' wares:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "precious stones of every kind — from expensive to astronomical."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But why waste Mora here on rocks, and have none left to spare?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I'd rather spend at Yujing Terrace on all things gastronomical."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

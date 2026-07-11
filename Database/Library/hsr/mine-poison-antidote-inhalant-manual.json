@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "mine-poison-antidote-inhalant-manual",
+  "name": "Mine Poison Antidote Inhalant Manual",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Mine_Poison_Antidote_Inhalant_Manual",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Please read the instructions carefully and use according to the instructions or under the guidance of your physician."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[Drug Name]"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Mine Poison Antidote Inhalant Manual"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[Ingredients]"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "This product is a compound. Every gram contains 400 mg of Crystalline Lizard extract and 110 mg of Blue Lamp Umbrella extract. Other ingredients include the animal fat of various underground organisms, which is not fixed."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Properties"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "This product is a fiber tubing, which is to be inserted in the wooden sleeve for nasal inhalation. It has a pungent yet stimulating scent."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Category"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "This product is an over-the-counter medicine in otorhinolaryngology."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Purpose"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Used for mild dyspnea caused by the inhalation of Geomarrow dust."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[Specifications]"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Each tube weighs 0.675 grams, containing 0.27 grams of Crystalline Lizard extract and 0.075 grams of Blue Lamp Umbrella extract."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Pharmacological Effects"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "This product is a blood vessel irritant composed of crystalline lizard extract, Blue Lamp Umbrella extract, and animal fats. It enters through the nasal blood vessels and decomposes Geomarrow dust, easing the effects of vascular fibrosis."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Usage"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Please do not directly use the drug in an environment exposed to Geomarrow dust."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "When using, unfasten the covering and place the wooden sleeve to one side of the nostril. Press the other side with your other finger and take two or three deep breaths."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[Side Effects]"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Very rare cases showed a rejection and allergic reaction, causing swelling inside the nasal cavity resulting in suffocation."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "No other side effects being reported."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[Precautions]"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Not known. Please follow the usage instructions and dosages. Do not overdose."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

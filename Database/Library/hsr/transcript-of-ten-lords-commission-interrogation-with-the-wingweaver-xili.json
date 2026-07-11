@@ -1,0 +1,338 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "transcript-of-ten-lords-commission-interrogation-with-the-wingweaver-xili",
+  "name": "Transcript of Ten-Lords Commission Interrogation With the Wingweaver Xili",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Transcript_of_Ten-Lords_Commission_Interrogation_With_the_Wingweaver_Xili",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Time: August 35, 13:00: to 16:00"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Interrogator: Spiritfarer Shouling of the Ten-Lords Commission"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Culprit: Xili"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Gender: Female"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Race: Wingweaver"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Age: Unknown"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Shouling: You have committed terrible deeds, but perhaps it is because you were raised in a dreadful environment and taught the wrong values. This led you astray."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Shouling: Listen, if you're willing to cooperate, the Alliance may not necessarily condemn you and your partners to death. Would someone as proud as you be willing to work with us?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Xili: Oh, so you're saying you won't kill us?... Hah, yeah. You know, I'm actually curious about how we've even managed to survive this long."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Shouling: Well, a group of Armed Archaeologists approached you with an impact drum for sale, and naturally, you were interested in such a good toy. The deal was going smoothly... until a gang of borisins showed up with a higher bid."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Shouling: Naturally, you raised your offer as well. I mean, that drum was a true treasure. It could wipe out all organic life on a ship without causing any other damage to the valuables. If I were a bandit like you, I'd want it too."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Xili: What are you even trying to say? There's no way those mad dogs came to you and complained about us!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Shouling: Hey, be patient... I'm just trying to explain what exactly happened. After those borisins increased their offer to outrageous levels far beyond the market value, you took it as an insult."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Shouling: But you're not some savage brute... right? So, you tried to reason with the gang and figure out what these \"mad dogs\" wanted, but to your surprise... They attacked you instead."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Xili: Heh... I see, that's why it happened. I was wondering why Rangan suddenly attacked me. He's not some lunatic... So that's how it is! You're pretty smart."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Xili: I've heard rumors for a while that you had agents among the borisins... How did you manage that? Did you convert some of them? Or did you find some Zhuming Foxians who look like borisins? Ouch... what's this?!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Shouling: Oops, it appears you've just triggered the restraints on your bindings. Sorry for not reminding you earlier, but you're not in a position to ask questions."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Xili: Tsk... You worthless maggot crawling in dirt!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Shouling: So... let's get to the point. Presently, all the Denizens of Abundance believe that wingweaver Xili's clan was involved in a conflict with Rangan the borisin's hunting party, and Rangan attacked Xili's fleet, leaving the fate of its leader unknown."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Xili: So, you want me to seek revenge on Rangan and provoke a feud between borisin and wingweavers? If that's what you want, you don't have to arrest me, because I will exact my own retribution."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Shouling: No, you won't, because you're not one of the Sky-Defenders. You're a Hymn-Singer. You're smarter and more patient than those military nobles, and you're not the type to seek \"revenge\" over a mere insult."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Shouling: Furthermore, the greatest difference between you and the others is that you are not one of the Sky-Defenders who share power among them, and you can never join them... Therefore, you don't care about the wingweavers' military coalition. All you care about is your own clan. Am I right?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Shouling: And that's why we have apprehended you and all your people."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Xili: (Remains silent for a while)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Xili: Can I ask a few questions?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Shouling: Of course."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Xili: If I go attack them, can you guarantee... that I'll make it out alive?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Shouling: No, I can't guarantee that."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Xili: But what about my clansmen?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Shouling: The Alliance will grant them pardons for their crimes. They will be protected fairly in the name of Reignbow, but they will not be allowed to proliferate. Does that sound fair?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Xili: Well, fair enough."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Shouling: Deal?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Xili: ...Deal."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

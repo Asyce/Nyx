@@ -1,0 +1,473 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "welcome-to-ethansville-trial-episode",
+  "name": "Welcome to Ethansville (Trial Episode)",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Welcome_to_Ethansville_(Trial_Episode)",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "OP:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Opening music plays"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The creator of the dreams grants us eternal dusk, keeping mortals away from the inky midnight and the platinum dawn."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The setting sun illuminates the marble city of black and white. Welcome to Celephaïs..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Community News"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Good twilight, dear listeners. I am your host, Cecil, and I have some good news to report..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "From this day forward, Rusty Ink Radio Station will broadcast to Dreamscapes across the entire universe."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Community journalist and photographer Mr. Raphael reports:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Beyond the twilight and among the stars, hangs a frozen spider web path.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Under the sea of memories and above the void, the city of eternity is forged.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Weather forecast"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The meteorological observatory has issued a white warning:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In roughly two dusk hours, the community's southern areas will see a large-scale dust storm."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "During this dust storm, the \"hope\" debris count will reach level 3, accompanied by constant bright flashes."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "We ask citizens — particularly \"gardeners\" and other multi-eyed species — to take cover indoors in advance and fully seal off all windows and doors to prevent contamination."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The church will begin cleaning operations one dusk hour after the dust storm ends. Those who have no shelter are advised to bury themselves in dream sand in advance to ensure they can smoothly enter deep sleep once recovered."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Community News"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Thirteen dusk hours ago, the church held the annual confession meeting in White Ship Plaza."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Sister Belil performed outstandingly, successfully blessing 3,333 disciples and causing them to experience dissociative metamorphoses, and this included three choir members."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The effects of this blessing spread across a total of 27 neighborhoods. The church has now completed the process of cleaning out all echoes and officially granted Sister Belil the title of new head."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In addition, due to the massive loss of personnel during this event, the church may be looking to begin recruitment in Mirror City."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Thank you, Sister Belil, for your great contribution to friendly exchanges and economic development between communities."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Advertisement"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "We will now take a short ad break—"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Rotten Swamp Restaurant is now recruiting a new pastry chef. Requirements include:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "1. Expert in the area of brain research, with extensive experience in the hybridization and cultivation of organic tissue."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2. Physically healthy, with a certain amount of resistance to various abnormal weather systems and the church's blessing."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "3. Those with experience with \"temple\" system operations are preferred."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Salary:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "1. The restaurant will provide free food, accommodation, and kitchen access, as well as periodically providing limited-time-only ingredients."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2. Store employees will not require deep sleep. After retirement, they will be recycled centrally and stored in the restaurant warehouse."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Community News"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Below is this season's video store sales leaderboard. Customers who meet the purchase requirements are asked to visit at the designated time."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "1. Videotape \"Night of the Hunt\":"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "A documentary about hunting beasts on the night of a full moon. This film was consigned for sale to the video store through a sacrificial ceremony by a hunter who lost their hometown."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The influence of ancient deities lingers on it. Please do not allow this video to come into contact with church members or citizens of Mirror City."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2. CD \"Bell Toll\":"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "A song that was originally recorded by the gods to impart hope to future generations, but was finally completely corroded by despair."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Please store it in ashes and avoid playing it during dust storms with high \"despair\" concentrations."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "3. Vinyl Record \"Choir\":"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Echoes left by the choir members after their dissociation, complete with a blessing from the new Head Sister."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "This package is only to be opened under exceptional circumstances."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "ED:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Closing music plays"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "May the eternal sunset protect the eternal dream. May those born in the dream return to the dream in eternal rest."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Good twilight, listeners. I look forward to seeing you all in the valleys of dusk."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "<!--"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

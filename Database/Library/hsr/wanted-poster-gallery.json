@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "wanted-poster-gallery",
+  "name": "Wanted Poster Gallery",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Wanted_Poster_Gallery",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Wanted Poster by Gepard",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Wanted Poster - unbridled poster of March 7th.png"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Wanted Poster - unbridled poster of Trailblazer.png"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Wanted Poster - unbridled poster of Dan Heng.png"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Wanted Poster - unbridled poster of Sampo.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "label": "Wanted Poster by Pela",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Wanted Poster - sensuous poster of March 7th.png"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Wanted Poster - sensuous poster of Sampo.png"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Wanted Poster - sensuous poster of Dan Heng.png"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

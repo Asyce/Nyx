@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "sheila-s-character-script",
+  "name": "Sheila's Character Script",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Sheila%27s_Character_Script",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Written by Gunn Konolev"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Sheila's Character Introduction"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Sheila Nova, guide of the Herta Department of Galactic Geopolitics, is the child of two unidentified justice researchers from the space station. Her parents were both killed in the war against the Lord Ravagers' destruction of her home planet Minyatur. Gunn Konolev has raised her since her birth. She has gotten a proper and comprehensive education in the field of justice and has made it her mission to propagate the moral ideals of the Department of Galactic Geopolitics①."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "She is always righteous and proper in her conduct, and she is never pessimistic in the face of injustice②. She runs \"thought experiments\" on ethics in the space station on a regular basis."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Notes:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "①Such a fabrication seems so pathetic in contrast to her real life."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "②Her code of conduct will be passed down to future generations."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Sheila's Dialogue Lines"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "1. *smiles* My name is Sheila Nova."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. (Elegantly) I am only a guide in the Department of Galactic Geopolitics, in charge of enforcing the regulations established by the space station's leaders on a regular basis."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. (Enthusiastically) I pledge myself to the Department of Galactic Geopolitics and to justice itself, with my health, dreams, and greatest passions."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "4. (Sad) I have never left the space station since my birth. I don't think I'll leave the station till my soul returns to the... galaxy."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

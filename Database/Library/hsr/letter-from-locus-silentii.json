@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "letter-from-locus-silentii",
+  "name": "Letter From Locus Silentii",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Letter_From_Locus_Silentii",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Upon the stars, that is where the talent and intellect reside. Oblivious to the world, as the envy becomes blinding."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Who knew gentleness and kindness welcomed only pain and suffering. Like the risk of falling into the depths when trying to mount the sky."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "An inquiry into spirit traces, a glance into the site of storage. Even with iron shoes worn out unearthly, one has to visit the three depths."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Better off alone than to be an accomplice. One day, as they turn around, a path will be lit by the radiance of the stars."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Cryptologist From Locus Silentii"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

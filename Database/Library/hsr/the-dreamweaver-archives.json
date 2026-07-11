@@ -1,0 +1,303 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "the-dreamweaver-archives",
+  "name": "The Dreamweaver Archives",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/The_Dreamweaver_Archives",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Search keywords: \"Dreamchaser Era,\" \"Nightingale,\" \"Dreamweaver\""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "After many Amber Eras of chaos and war, Penacony decided to take its first step towards expanding the Dreamscape: The great architect Glaux arrived at Penacony following an invitation and began the search for a method to stabilize the Dreamscape alongside fellow architects."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It was at this moment that Penacony entered an age of rapid development historically known as the \"Dreamchaser Era.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The \"Dreamweaver Project\" attracted outstanding talents from all across the Cosmos. Early Dreamweavers came from all different walks of life. They gathered together in the Nightingale Family and formulated countless wonderful concepts for the construction of the Dreamscape. The Nightingale Family head, Glaux, led the most talented and brilliant Dreamweavers among them to design and build the prototype of the 12 Dreamscapes of today. These Dreamweavers were known as the \"Origami Dreamweavers.\" Their creations remain in the Penacony Dreamscape to this day."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Joey"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Designs: The Reverie Hotel and the Moment of Oasis"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Formerly a famous galactic architectural designer born into an artistic family from the Epsilon system. Her designs emphasize external curvature and aesthetics, as well as the artistic expressions of the exterior."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Her iconic work, The Reverie, was accused of plagiarism. Although the plaintiff lost the case due to insufficient evidence, Joey's reputation was still ruined."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The true designer of The Reverie and also a gentle Dreamweaving scholar who sought Dreamweaving talents for the Nightingale Family."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Passed away after being assaulted by Memory Zone Meme while exploring the Dreamscape's wilderness."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Vaughn"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Designs: The Golden Hour and the Gilded Hour"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Originally a team leader in the Technical Development Department of the Interastral Peace Corporation, he was fired due to a demolitions experiment. Later, he joined the Nightingale Family."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "This mad inventor is known for his eccentric inventions, with his most notable being the destructive Dreamscape exploration equipment \"Vaughn III,\" which was discontinued due to significant safety hazards."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A proud and brilliant inventor, a fervent fan of Professor Glaux. His cutting-edge creations may not be the most practical, but they are definitely flashy enough."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "He went missing during dreamweaving-related research and development experiments, and his whereabouts remain unknown."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Barlow"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Designs: The Moment of Stars and the Moment of Serenity"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Formerly a civilian architect who became a Dreamweaver of the Nightingale Family upon Glaux's invitation. His creations are not constrained by the original shape of the building and do not compromise safety while retaining supreme creativity."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Later, his true identity was revealed to be an inmate of the frontier prison, involved in a construction accident. He was detained in the Moment of Serenity by the Bloodhound Family."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Through a fair trial presided over by the Oak Family, his past crimes are met with retribution."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "He passed away before finishing his sentence."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Fischer"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Design pieces: \"The Moment of Daybreak,\" \"The Moment of Sol\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Originally a member of the Intelligentsia Guild, he came to Penacony alongside Professor Glaux and later became the Nightingale Family head and the dean of Dreamweaver Academy in Paperfold University."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "During his appointment, he spared no effort in constructing the Twelve Hours Dreamscape and promoted various laws and regulations to protect the work rights of Dreamweavers."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Unfortunately, he was struck down by a sudden illness in his office at Paperfold University."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

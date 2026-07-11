@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "feedback-form-for-the-space-station-staff-cafeteria",
+  "name": "Feedback Form for the Space Station Staff Cafeteria",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Feedback_Form_for_the_Space_Station_Staff_Cafeteria",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Herta Space Station Staff Cafeteria Feedback Form"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Question: We have been served dried earthworm for a week straight, can we switch it up a little?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Answer: Next week, we will be serving them in the following flavors: tomato, courgette, grapefruit, etc. Side note, due to the stock issues on the supplier's end, we will be providing the Cosmic Fried Rice at an irregular interval on a first come, first served basis."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Question: Am I the only one who got diarrhea after having the synthesized meat?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Answer: According to collected data, only you have displayed symptoms of this nature. You are welcome to come and try again, we will make sure to keep some samples for investigation."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Question: I want to have eggplants, I want to have snap peas, I want to have cucumber, I want to have vegetables!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Answer: You can apply for trials to try the newly developed Veggie Pills from one of the departments. Take one pill before the meal to experience the taste and texture of your chosen flavor when you're chewing any food! Known side effects include slight numbness in left leg and unknown disabilities in some lab rats. Please explore yourself for more information!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Question: The crops in my experimentation field kept being stolen, can the space station not ensure this little bit of anti-theft measures?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Answer: Did you subscribe to the Security Dog function in the Seed Isle? Copy the following code into your personal terminal, and the system will automatically generate a dog for you in the form of an ionization grid to protect your field. In normal life, it can also become your personal terminal assistant~"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Question: Don't believe in that stupid doggy function, terminal assistant my foot! I asked it to transcribe the voice meeting for me, and it generated 12,000 \"woofs\"!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Answer: You can click the play button to ensure another doggy that didn't attend the meeting understands the agenda of the meeting!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Question: When can we have an AI manage feedback to the cafeteria? The current responder is obviously trolling!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Answer: Sorry, I didn't quite get that. Can you please try again in another way?"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

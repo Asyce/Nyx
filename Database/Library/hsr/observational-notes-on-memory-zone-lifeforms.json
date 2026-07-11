@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "observational-notes-on-memory-zone-lifeforms",
+  "name": "Observational Notes on Memory Zone Lifeforms",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Observational_Notes_on_Memory_Zone_Lifeforms",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Time: █████"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Location: █████████"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Record Keeper: Cains, doctoral candidate, Department of Memory Zone Biological Sciences, University of Veritas Prime"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Observational Records"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I no longer remember how long it's been since I arrived at Penacony... At any rate, the last few days were spent observing the many never-before-seen nor documented creatures here."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I discovered a jellyfish species that can only be seen through a special filter, presenting what seemed like a bed of flowers blooming in the ocean."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Hoping to see more of these magnificent creatures, I suited up with my equipment and dived into far deeper Memory Zones."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But it was dark, pitch-black everywhere... The darkness that loomed over my consciousness suffocated and tormented me..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A gigantic ship skidded past me. Resplendent lights illuminated its interiors, seemingly hosting a dance party attended by strange creatures. Looks like those legends are true after all."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Soon after, it... it appeared before me..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "In the form of a thin and transparent membrane, crawling across the water's surface."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "My mind became waterlogged, as if ready to drip moisture and grow mold any time"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "My soul is gliding through the air"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The daydream before my eyes is twisting and shattering"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I dive between water and air"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Witnessing ████"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I'm glowing with light ██, ████"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(All words after are illegible.)"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

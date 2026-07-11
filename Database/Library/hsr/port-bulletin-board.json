@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "port-bulletin-board",
+  "name": "Port Bulletin Board",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Port_Bulletin_Board",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Name: Gullsong"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Specs: 8m, wooden fishing boat, twin engines (replaced last year)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Features: Latest navigation system, basic cold storage, full set of netting tools"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Owner's Note: This boat has sailed with me for seven years. Well-maintained and deeply loved. My kids are insisting I retire to Duomension City, so I'm looking for a new owner who truly understands the sea. Price negotiable, test sails available."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Contact: Add my social media account \"@SunsetRetiree\" to get in touch. Looking for a good match."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Still following those online guides, hitting all the usual spots, and ordering the same tired dishes everywhere?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Want to see the beautiful reefs and beaches that the ordinary tourist routes miss?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "We are a family of local fishermen, born and raised here, and we're dedicated to offering you a unique tour experience!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Contact: The third boat to dock at the pier every evening. The secret passphrase is: \"I can't swim. How about you?\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Location: Seaside building on the west side of the port. Open the window for an ocean view."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Layout: One bedroom, one living room. Includes a kitchenette and a washroom. Fully furnished, and features a private scenic terrace."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Rent: 10,000 Credits/Month"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Contact: With social anxiety, so don't contact me. Just wire the credits to my account and move yourself in."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Three-story stone courtyard house. Ten rooms total. Shared kitchen on every floor."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Perfect for group getaways. Services include: Tide schedules, fishing gear rentals, and more."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Rent: Single Room 200 Credits/Day; Double Room 350 Credits/Day."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Contact: No phones, no social media. If you need anything, just give a holler at the village entrance."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Platform Reminder: The bulletin board is updated every morning. Listings are voluntarily provided by users. Please verify at your own discretion."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

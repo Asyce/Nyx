@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "opening-of-the-new-tempering-workshop",
+  "name": "Opening of the New Tempering Workshop!",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Opening_of_the_New_Tempering_Workshop!",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Dear fellow vagrants, good day!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I am Oggla Clark of Rivet Town."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "You may not have heard of me, but you probably have heard of the Tempering Workshop in Rivet Town."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "That's right! I hail from this legendary workshop!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Rivet Town has completely fallen to the invasion of Fragmentum Monsters, and the old Tempering Workshop has disbanded because of that."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Even as I arrive at this vagrant camp, I am unable to locate my former colleagues."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "However, there are a number of able craftspeople among the vagrant community, and we have hit it off right away."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Therefore, I have decided to inherit the name of the beloved Tempering Workshop by founding the"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "New Tempering Workshop!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Services provided:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Appraisal, repairing, and recycling of various ancient relics"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Recycling and refurbishment of old parts"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sale of various spare parts"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "We hope all fellow vagrants pay attention to the fact that the supply of goods in the workshop does not come from conventional channels."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "All of the parts we have are sourced from putting in hard work and risking our lives in the machine graveyard."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Each and every one of them has a soul and is infused with our heart and persistence!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Even though some may complain about the appearance and variety of our wares,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "You will be hard-pressed to find another establishment like ours!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "So what are you waiting for?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Take action rather than take fancy!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Come to the New Tempering Workshop and look for the gadgets of your dreams!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Come with your robot friend and enjoy a 50% discount!"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

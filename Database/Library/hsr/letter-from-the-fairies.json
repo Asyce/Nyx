@@ -1,0 +1,434 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "letter-from-the-fairies",
+  "name": "Letter from the Fairies",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Letter_from_the_Fairies",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "The First Letter",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "To our friend from the outside, (Trailblazer):"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Do come and make friends with the fairies, mem!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Everyone here is warm and welcoming."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Remember, only children with pure hearts"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "can ever find the path to the Maze."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I've included some little gifts with this letter."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Hope you have a wonderful time in the Maze, mem!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Spoken by Dolimem, penned by Relimem"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "label": "The Second Letter",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Dear (Trailblazer):"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The Chief said you've visited many places"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "and gone through countless adventures."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I would love to sit by the tree hollow"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "and hear all about your amazing travels."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Great Tree will remember your stories,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "and so will I."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Your biggest fan, Latitimem"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "label": "The Third Letter",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "To my friend (Trailblazer):"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Did you know flowers have their own moods?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "They stand tall and proud when happy,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "and droop their heads when feeling sad."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As their gardener, I take good care of them all."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Whoever looks down gets a nice splash of water."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Since your arrival, I've made a giant watering can."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Its powerful streams wash away mountains of worries."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As your friend, I want to take the best care of you."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Your caring friend, Solimem"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "label": "The Fourth Letter",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Welcome, (Trailblazer):"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "My absolute favorite thing is celebrating festivals."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "When everyone gathers, singing songs and dancing together."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I wish time would fly by even faster,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "so I could teach you fairy dances at our next gathering."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Yet once the celebration starts, I find myself wishing"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "that time would slow down, just a little bit more."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Not because I want more Lantern Persimmons or Quillorbs,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "but simply to enjoy more moments with friends."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Lalimem, who wants to hang out with you"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "label": "The Fifth Letter",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "To (Trailblazer), who traveled from afar:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I keep many little booklets,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "each named after one of my friends."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Every happy moment we share together"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "gets carefully recorded inside."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "These heavy pages hold the precious weight of memories."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I've set aside an especially big, thick booklet just for you,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "since joy is never in short supply when we're together."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "With enthusiasm, Tilamem"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

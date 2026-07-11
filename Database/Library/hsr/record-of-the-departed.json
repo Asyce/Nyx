@@ -1,0 +1,236 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "record-of-the-departed",
+  "name": "Record of the Departed",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Record_of_the_Departed",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In the year 2147 of the Light Calendar, the holy city faced the calamity of the black tide and faded into the night."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "This tome chronicles the fallen and records the sorrow of Okhema."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": []
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "• Alpheus and Malonza – Twin brothers who perished for the holy city."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "• Petros – A valiant Mountain Dweller, his sacrifice immortal."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "• Margusa - A wise researcher who unfortunately passed away at a market."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "• Ulysse – acolyte, perished while shielding companions."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "• Nereia – A Kephale priest, her mission ended at her resting place."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": []
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "• Antigone – Daughter of Acacias, perished in a collapsed home."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "• Theagis – A mother of three, perished embracing her youngest"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "• Albus – A righteous man, passed away in prayer."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "• Bolaris – A man of the people, perished facing the Black Tide Creatures."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "• Hygilos – A merchant, found dead in his shop."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "• Lucretia – A friend of the dromas, perished after fulfilling what should be done."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "• Marcus – A weathered man, met his fate beyond Okhema."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "• Hegesia – A humble soul, missing."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "• Ten unidentified bodies, features unrecognizable."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "May the grace of Thanatos guide these souls to a new world."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "We shall meet again at the end of the west wind."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

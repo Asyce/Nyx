@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "divine-echo-strife",
+  "name": "Divine Echo: Strife",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Divine_Echo:_Strife",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Lance of Fury, Nikador."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Blades and lances resound out loud, and their bloodlust will never die."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The peace that they protect"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "lays beneath the horrific mountains of corpses and rivers of blood."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

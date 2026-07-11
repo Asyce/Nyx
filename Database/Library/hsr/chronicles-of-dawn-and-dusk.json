@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "chronicles-of-dawn-and-dusk",
+  "name": "Chronicles of Dawn and Dusk",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Chronicles_of_Dawn_and_Dusk",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In my seventh year as a priest, I was finally granted the opportunity to enter the depths of ██████ and partake in the sacred rituals. Yet it was this very opportunity that began to shake my belief in Aquila's true nature."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "We, the Sunfolk, have always believed that Aquila favors us. After all, of all the Skykin, only we are capable of enduring the harshest sunlight. We saw this as the Titan's special favor, even looking down on the other Kin. But when I ventured deep into the mural and witnessed the true nature of the Titan's actions, everything changed."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "At the heart of the mural, there stood a vast mirror reflecting Aquila's hundred eyes watching the earth. On that day, I witnessed a group of devout worshipers praying, beseeching Aquila to bless their harvest. Yet the Titan remained indifferent, its gaze always fixed on the distant, creeping black tide. As the black mist approached, Aquila instinctively turned its eyes skyward, as though trying to flee from something terrifying."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In that moment, everything became clear. Aquila's favor was not due to an affinity for us, the Sunfolk, but rather their attempt to escape the ever-advancing black tide below. We mistook the Titan's fear for favor, taking pride in what was, in fact, their flight from danger. Even more tragically, they paid no heed to the prayers of the worshipers, viewing their devotions as little more than the dancing of ants."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I began to notice other details. Whenever a city-state fell, Aquila's pupils would contract ever so slightly—but not out of sorrow. They were calculating the spread of the black tide. From their lofty perch in the heavens, they coldly observed all things. Even the light they bestowed was merely to illuminate their own path, enabling them to track the advance of the black tide."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "One night, I stood once more before the mural. The faithful were singing their praises, hailing the sun and light, singing of Aquila's benevolence. But in that instant, I saw a flicker of disdain in Aquila's eyes. They despised these weak, fragile creatures, just as they feared the darkness that loomed below. In their skies, there was neither compassion nor truth — only an eternal paradox. They were the ruler of light, yet the most cowardly of fugitives."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The cruelest irony is that, even as I pen these words, I can still feel Aquila's gaze upon me. Yet I know they will not punish me for my blasphemy. To them, my betrayal is no more significant than the worship of their followers. Perhaps it is this very indifference that constitutes their true divinity."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Postscript: This manuscript was discovered in a corner of ████████, believed to be the work of ██████. Upon examination, it is highly likely that the author is the High Priest who has since defected. A copy of this manuscript is stored in the library at the Grove of Epiphany, though the original is missing."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "<!--"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

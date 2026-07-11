@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "a-drizzle-douses-dust",
+  "name": "A Drizzle Douses Dust",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/A_Drizzle_Douses_Dust",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Guests arrive from afar, weary from journeys and travail. This humble abode welcomes you, while a fresh drizzle douses dust."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "A majestic dawn of grandeur, and a splendid night on Starwatcher."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Petrichor Inn is located in the heart of the Starskiff Haven. An heir to the classical Xianzhou style, it continues to demonstrate the elegant and hospitable side of Luofu culture. It contains clean guestrooms, comforting baths, and has a full menu to appease every desire together with the best traditional etiquette. The Inn's construction started before the time of the wars, and has stood for more than 500 years."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Petrichor Inn never forgot its mission and persists in providing the most meticulous care and guidance for all interstellar travelers. To celebrate the recently completed renovations, the Inn currently features a tourist combo, where guests can experience a comfortable room and be provided with a detailed travel guide upon presenting this flyer when making a booking."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Staying at Petrichor — A Drizzle Douses Dust, a Rest in Petrichor"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Each guest room contains an extended viewing deck where guests can gaze upon the beauty of Luofu from the comfort of their rooms."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The intelligent skylight on the roof will ensure ample illumination throughout the day and provide natural air circulation."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Curtains of pearls lightly touch your brows as candlelight sways in the wind, with motion-sensitive interior screens activated by hand gestures."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Located in the heart of Starskiff Haven, the Inn allows you to feel the vibrancy of Luofu's ever-beating pulse."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Look down from the balustrades to see all of Starwatcher Avenue, and observe as pedestrians stream by and starlight glimmers and dims."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Placed in a central location, the Inn provides hundreds of otherworldly delights at your fingertips and thousands of incomparable views before your eyes."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Food at Petrichor — Thousands of Delicacies and a Metamorphosis in the Pot"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Our kitchens are famous throughout the Xianzhou for their traditional Xingyuan-style dishes, and have specifically consulted the head chef of Spices Supreme to create our menu."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "We periodically work with the Garden of Gourmet and feature special styles of cuisine known as the Deyue Bliss and the Mingting Flare."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "During afternoons, guests can head to the side lounges to taste our teas and other beverages."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "For spring weather, we recommend tea brewed from tender new leaves taken with dawn drew, provided by the Sages Tea House."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "We also have other delightful Luofu beverages on offer, such as gelatinous rice wine and tea brewed from leaves grown in the shade."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Present your proof of purchase to taste famous beverages such as Dragon Spring Brew and Nectar of Willow Woods."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Traveling at Petrichor — An Interconnected and Crisscrossed Web"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "We provide point-to-point shuttle and transport services that cover the entire city."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "You can apply and receive your travel passes and exchange for the Xianzhou currency from within the Inn."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Inn provides a comprehensive 24/7 service"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "covering all situations such as planning for travel, purchasing goods, and conducting business negotiations."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Inn will always provide our comprehensive support with the uttermost dedication."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "We offer our most sincere invitations to Petrichor Inn, and look forward to having you visit us."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

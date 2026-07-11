@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "record-of-inappropriate-remarks-by-the-holy-maiden-guards",
+  "name": "Record of Inappropriate Remarks by the Holy Maiden Guards",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Record_of_Inappropriate_Remarks_by_the_Holy_Maiden_Guards",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "To ensure the secret of the fake prophecy is not exposed to other city-states, governors must strictly monitor the Holy Maiden and those around her, taking precautions against any \"indiscreet remarks.\" Particular attention should be paid to her Guards. Below are some examples of improper conduct:"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": []
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"The Holy Maiden ran off again — this time, through the window.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Don't worry. I found her at the corner of the hallway. She must've gotten lost. She's had some warm goat milk and is fast asleep now.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"I suppose that experience was just too much for a child. But honestly, the Holy Maiden getting lost? Shouldn't the prophecy guide her in the right direction?\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Who knows? Maybe the Fate Titans don't bother with such trivialities. Or perhaps... I heard that the Fate Titans have been silent for ages, no new prophecies to any priest.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"What? Then the prophecies the Holy Maiden's been making in public... they're all fake?\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Who knows, but if you ask me — ahem, ahem!\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Hey, are you okay? What's wrong?\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Idiot! The governors are watching us!\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": []
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"What did the Holy Maiden ask for this time?\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"A hammer, red clay, a carving knife, and two thin iron rods.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Dull the carving knife so she won't hurt herself. What did she make with the last batch of materials?\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Something hard to describe: A pointed top, three legs at the bottom, and a red clay coating... Could it be some kind of weapon?\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"No, calling it a toy makes more sense. If it were a weapon, the governors wouldn't sit idly by. No matter how old she gets, she is always a child in the eyes of the governors.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Maybe she'd rather be a craftsman than a Holy Maiden?\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Craftsman... huh, if the world weren't plagued by the black tide, her wish might come true. But in this chaos, who dares to dream?\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": []
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"When will the Holy Maiden announce the oracle?\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"...\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Are we supposed to protect her from Castrum Kremnos' reach?\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"...\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Oh, right, senior, you probably don't know my name yet. I'm...\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"If I were you, I'd zip my lips. I've already gone through two partners because I couldn't keep my mouth shut. You wanna see the Holy Maiden? Let's see if you can make it through three months without being sent packing!\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"...\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Sorry, I might have sounded a bit too harsh.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"No, don't worry about it... Actually, I'm not from Janusopolis. I used to live in Icatus, and it's been a long time since I've been home.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"So... how did you get here?\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"A beautiful lady saved me. She called herself the Holy Maiden, though now she's more accurately the former Maiden. Thanks to her, I became a Holy Maiden Guard. It's a long story, but let me fill you in on all the details...\""
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

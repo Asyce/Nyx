@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "tempering-workshop-a-fresh-start",
+  "name": "Tempering Workshop: A Fresh Start!",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Tempering_Workshop:_A_Fresh_Start!",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Our store, formerly known as \"Worn Relics Appraisal and Recycling,\" specializes in various ancient relic appraisal, repair, and recycling"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The store is small, but it has been with Rivet Town through its ups and downs"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It has also become a reputable store in Rivet Town"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Now it is time to give back to the enthusiastic and supportive community"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "From today, our shop will be renamed"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "With added services on top the store's original specialties:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And many more new services!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": []
+          }
+        ]
+      }
+    }
+  ]
+}

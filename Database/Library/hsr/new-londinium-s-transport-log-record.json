@@ -1,0 +1,462 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "new-londinium-s-transport-log-record",
+  "name": "New Londinium's Transport Log Record",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/New_Londinium%27s_Transport_Log_Record",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Basic Navigation Information:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Ship ID: Interastral Peace Corporation — Logistics Division — New Londinium Transport Ship"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Voyage ID: 140"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Departure Date: 2158 AE, ██/██/██ (Encrypted, cannot access)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Assigned Client: Intelligentsia Guild"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Assignment Level: Class I"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Cargo Information: ████ (Encrypted, cannot access)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Shipping Location: ████ (Encrypted, cannot access)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Recipient: Armed Archaeologists"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Delivery Location: Klimt Republic — Border Battlefield"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Detailed Navigation Log:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Log Date: Day 1 of Voyage"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Recorded by: Captain Jayne Blakes"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Cargo Status: Normal"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Fuel Status: 99.1% Remaining"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Supply Status: 100% Remaining"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Route Status: Normal"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "It's been less than a week since we wrapped up the last delivery, and now we've got a new job lined up from the higher-ups."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "sigh* The higher-ups say capable ones should do more, especially since we're the top-performing team. It's not all bad though. It's a chance to toughen up the rookies. Honestly, the current batch of young crew members is softer than ever. None of them can handle hard work. They start whining about needing a break before we've even sailed a dozen light-years. And now, thanks to the sponsor's orders, we can't stop anywhere except at the IPC's internal asteroid supply stations during this journey. Those rookies are in for a rude awakening."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Log Date: Day 17 of Voyage"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Recorded by: Captain Jayne Blakes"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Cargo Status: Normal"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Fuel Status: 54.9%"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Supply Status: 66.0%"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Route Status: Minor disturbances, no repairs needed"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Today, I played cards with the IPC specialist and cleaned him out. He had to give me a bottle of Dragon Spring Brew to get his uniform back. He said it's a rare drink, and he wasn't kidding. I almost got drunk just from popping the bottle cap. *sigh* This route was supposed to take us through the Luofu. If it weren't for the sponsor's ridiculous demands, I would definitely have gone for a proper drink there."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Given all the secrecy, I asked the specialist what valuable thing we were transporting this time. He said it's the Guild's latest secret weapon designed specifically to take down the Antimatter Legion. Those nerds at the Guild always say that, but the items always end up getting smashed into scrap metal."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Log Date: Day 30 of Voyage"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Recorded by: Captain Jayne Blakes"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Cargo Status: Normal"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Fuel Status: 21.1% remaining. Refueled at the asteroid supply station. Restored to 99.1%"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Supply Status: 40.0% remaining. Resupplied at the asteroid supply station. Restored to 80.0%"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Route Status: Moderate disturbances, lane correction completed"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Even though this is a supply station, all we can get here is fuel and water. The only food available is these rock-hard compressed biscuits that even cockroaches can't bite into. And there's a limit on those, too. I've complained to HQ several times, but nothing ever changes."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "What's even more frustrating is the IPC specialists traveling with us. Their fancy meals are served up like clockwork, complete with afternoon tea and sweet treats. And once they're fed, they lounge around, playing cards all day. I really don't get why IPC keeps these freeloaders around."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Log Date: Day 49 of Voyage"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Recorded by: Captain Jayne Blakes"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Cargo Status: Normal"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Fuel Status: 49.7%"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Supply Status: 42.0%"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Route Status: Moderate disturbances, continuous lane correction underway"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "This is the roughest part of the voyage. We've run out of fresh food, and every last drop of booze is gone. My mouth felt as dry and bland as cardboard."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "But what's even harder to get over is the mind-numbing boredom. Most sailors have nothing to do except patrol the cargo hold endlessly. Then, yesterday, things got spicy between a few sailors and the IPC specialists. It all started because the sailors heard strange noises from the cargo holds while on patrol. They wanted to open the cargo to check it out, but the specialists wouldn't let them. It turned into a heated argument. Luckily, I stepped in just in time to calm everyone down and prevent things from escalating."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The crew on the long-haul transport vessels often gets freaked out by all sorts of weird occurrences. Strange noises from inside crates, cryosleep pods shutting on their own, tentacle monsters hiding in the vents... The Guild always chalks it up to the organic brains being too prone to hallucinations. Sure, I've seen my fair share of spooky stuff, but it usually disappears if you ignore it. No need to freak out. The more you shrug it off, the quicker it goes away. These young bucks are still green. At the end of the day, we're just here to haul cargo, and getting the job done is what matters most."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Log Date: Day 64 of Voyage"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Recorded by: Captain Jayne Blakes"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Cargo Status: Normal"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Fuel Status: 2.9%"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Supply Status: 0.5%"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Route Status: Abnormal. Forced to change lanes due to unforeseen circumstances, heading to the Xianzhou Luofu for resupply"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "When someone's luck goes sour, even simple tasks become challenging."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "We encountered an attack by borisin, just a few light-years away from the Luofu. Our radar didn't catch their approach at all and they boarded us before our long-range weapons could even kick in. It was a dire situation. We were completely outmatched in close combat against borisin. Their razor-sharp teeth and claws could easily shatter human bones."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I ordered the sealing of all security doors and directed everyone to retreat to the central cargo hold. With my courageous leadership and strategic command, we successfully fended off borisin. They couldn't make any headway against us! While they were momentarily held back, I quickly sent out a distress signal."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In the end, a Xianzhou spaceship nearby spotted us. They swiftly approached and landed on the New Londinium, led by a young female swordmaster wielding a weapon taller than herself. Borisin stood no chance against her. At first, I thought they were Cloud Knights sent by the Luofu. But they introduced themselves as hailing from the Xianzhou Zhuming. Like all Xianzhou folks, they were dressed in peculiar attire..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Our spaceship suffered severe damage, with fuel and supplies nearly depleted. Its current condition doesn't support further travel. The Zhuming folks suggested we head to the Luofu for repairs. Despite strong opposition from the IPC specialists, I had no other option. As captain, I must prioritize the crew's safety, so I'm altering our course for the Luofu. As for the blasted cargo, all I can assert is that while the cargo belongs to the IPC, our lives are our own!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "But wait... There was never any hint of borisin activity in the safety reports for this route before. It's weird. Why would they attack our ship?"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

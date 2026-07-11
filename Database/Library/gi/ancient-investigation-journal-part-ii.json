@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "game": "gi",
+  "id": "ancient-investigation-journal-part-ii",
+  "name": "Ancient Investigation Journal: Part II",
+  "sourceUrl": "https://genshin-impact.fandom.com/wiki/Ancient_Investigation_Journal:_Part_II",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Due to the tragedy that befell us previously, I fear that my prior journal entries are now all but lost. It is most unfortunate that the investigation notes were lost, but the conditions here are truly dangerous."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Alas, we were unable to budge those great doors. In the end, we returned empty-handed, with no sight of the fresco or the ancient weapons which Master Ingbert so greatly desired to see."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Upon returning to , there was still no sign of the others who had gone missing in the snowstorm."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Although the chance may be a slim one, we can only hope that they made it down the mountain and are now returning with help and more supplies."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It certainly won't be long before our remaining supplies run out."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As cruel as it may seem to say such a thing, the cave-in that occurred just before the not only robbed us of Nick, but also all the food and fuel he was carrying."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I had said that it is imperative we first check the structural integrity of these ruins... I clearly remember telling him that."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Perhaps the streak of unfortunate incidents we've encountered in the past few days has caused me to turn bitter."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Or perhaps this is simply the natural toll such desperate conditions take on people."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The fact that Master Eberhart could maintain a level head even in the face of such adverse conditions only made all the more admirable. Perhaps this is the true tenacity of a young aristocrat."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Master Landrich's judgment seems to have been well-founded."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Even as an illegitimate child, he is quite capable of living up to the role of an aristocrat, more so than most other aristocrats, in fact."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "When the storm eases a little, we will proceed to the as per Eberhart's proposal."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Based on the content of what he deciphered, there may be something very ancient within."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The sheer cold of this place has the peculiar and incomprehensible effect of preserving things the way they are."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "We must not let down the companions we lost."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "...And more importantly, we must not let Master Landrich down. Otherwise, I will most likely be facing off against monsters in the gladiatorial arena before too long."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Even if I beat the monsters, I would probably share the fate of Eberhart's slave, and meet my demise at the sword of the red-haired reaper of the Lawrence Clan..."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

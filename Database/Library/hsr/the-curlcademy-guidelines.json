@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "the-curlcademy-guidelines",
+  "name": "The Curlcademy Guidelines",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/The_Curlcademy_Guidelines",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Association Name"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Herta Curlcademy"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Association Guidelines"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Modern science progresses at a rapid pace, while humanity's self-determination approaches at a snail's pace. We have a duty as researchers to help others identify our department more easily, and so we have shed part of our personal flair: Our outfits. We should strengthen our personalities in different ways, rather than cliché clothes. We believe that our heads evolved to grow out of the tops of our torsos not simply because they contain the brain. They must play a vital role — that of Identification. Therefore, grooming your own personal hairstyle is a key step in mastering your identity. This is the only way to bring a whiff of humanity beneath the stench of science aboard the space station."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Association Motto"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sculpt daily, condition weekly, and strengthen monthly."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Association Goals"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Mainly aimed at the researchers and staff aboard the : to nurture everyone's unique vibe, to rapidly respond to crises, to master meticulous perming technique, and to deliver a steady stream of fashionable hairstyles for the whole universe."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

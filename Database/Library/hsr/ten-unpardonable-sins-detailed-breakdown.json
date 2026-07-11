@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "ten-unpardonable-sins-detailed-breakdown",
+  "name": "Ten Unpardonable Sins Detailed Breakdown",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Ten_Unpardonable_Sins_Detailed_Breakdown",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "* This brochure on Xianzhou laws continuously re-instates the legal interpretation of the Ten Unpardonable Sins. Perpetrators who commit these sins will face the most severe penalties.*"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The first sin is \"Involuntary Immortalization.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It refers to the crime of contaminating the genetic makeup of short-life species, resulting in their transformation into long-life species, then eventually degenerate into abominations."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The second sin is \"Immortality Theft.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It refers to the crime committed by travelers who infiltrate the Xianzhou with the intent to steal the secret of immortality."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The third sin is \"Beguilement.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It refers to the crime of foreign races with abilities to manipulate minds, who use this to deprive individuals of their free will and control them."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The fourth sin is \"Mara Ensnarement.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It refers to the crime of inducing mara-struck through specific means."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The fifth sin is \"Phratry Murder.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It refers to the crime of violently taking the lives of fellow Xianzhou peoples."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The sixth sin is \"Illicit Espionage.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It refers to the crime of the theft of confidential information from the governmental organizations of the Xianzhou."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The seventh sin is \"Prison Break.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It refers to the crime of attempting to breach the confinement of the Ten-Lords Division, and attempting to enter The Shackling Prison to release prisoners held within."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The eighth sin is \"Sowing Discord.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It refers to the crime of inciting, dividing, or undermining unity among the various races on the Xianzhou."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The ninth sin is \"Incitement to Riot.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It refers to the crime of mobilizing military forces to launch an attack on the Xianzhou, inciting war or rebellion."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The tenth sin is \"Capsizing Xianzhou.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It refers to the crime of attempting to disintegrate the physical structure of the Xianzhou ships with the aim of it sinking."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

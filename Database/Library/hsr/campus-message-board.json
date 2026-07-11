@@ -1,0 +1,376 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "campus-message-board",
+  "name": "Campus Message Board",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Campus_Message_Board",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[Lost and Found]"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Attention, everyone! The following items have been recently added to the Lost and Found inventory:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Lost Item 1: A wallet with Slumbernana Monkey printed on it, containing a student ID card, some cash, and a note with this content: \"Username: █████ Password: ████████████\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Lost Item 2: A folder filled with paper with pentatonic music scores, labeled \"Thesis Statement for Music History.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Lost Item 3: A tube guitar amp with a cabinet and headstock, inscribed with something like \"Arfey\" using correction fluid."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Lost item 4: A weighty sketchbook showcasing a hand-drawn comic titled"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Cosmic Ninjutsu Inscriptions"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", with an illegible artistic signature and a handwritten tag \"Deluxe Collection Edition.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Should you discover any lost items, please kindly contact the Lost and Found Office, and you will receive a cheerful badge as a token of appreciation."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "If your items are lost, please rest assured, as your belongings are safe here. To claim your lost items, please provide documentation that can prove your identity."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[Society & Club News]"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Attention! Drama Society Recruitment!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A minute on stage needs ten years of hard work off stage. The Drama Society is recruiting pivotal supporting roles. Seize this opportunity and fulfill your aspirations on the stage!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Recruitment Time: Throughout this entire academic year!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Interview Location: Society Activity Center. Please kindly download the application form from the Paperfold Forum ahead of time and attend the interview on time upon receiving our invitation."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "About Charmony Academy's Symphony Orchestra"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Due to the forthcoming exam month and the busy schedules of our members, the final charity performance of this academic year has been postponed."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The rescheduled date will be announced later. Please stay tuned on the Paperfold Forum for updates. We appreciate your support and understanding."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[Campus Life]"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. \"Kind Tips\" from a Senior Charmony Academy Student"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "████ you! I can't believe my luck having to share a dorm with you people! I swear, if you dump your leftover garbage in the sink one more time! You never take out the trash, you don't close the sauce bottle caps, and the dirty dishes you left stacking up in the sink are reeking! You never clean up after yourselves after cooking. Do you even have any morality!? The dorm administrator and I are reviewing the security footage frame by frame! Try this again and see for yourself what will happen! If we catch you, these will be SERIOUS CONSEQUENCES!!!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2. Official Academy Freshmen Group Combined Guide"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Fortune Academy Freshmen Group: ████████"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Charmony Academy Freshmen Group: ██████████"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Dreamweaver Academy Freshmen Group 1: ████████"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Dreamweaver Academy Freshmen Group 2: ████████████"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(Note: These groups are unofficial and are formed and managed by students. All discussions within the groups do not represent the views of the Paperfold University. Please be aware of potential scams.)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[Flea Market]"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Latest Listings:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. An almost-new blue violin used by a student in the Charmony Academy."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Bought at 20,000 Alfalfa credits, only used a few times in class. Now available for 8,000 Alfalfa credits. 95% new, slight traces of use. Buy this violin and get a music manuscript notebook for free."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Contact: ██████████"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2. A set of my beloved Slumbernana Monkey plush dolls"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Containing adorable dolls in five different positions. This super-rare set is my favorite, but now I have to sell it because of financial pressure. Bought at 100,000 Alfalfa credits, now available for 500 Alfalfa credits only! No negotiations, pick-up in campus."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Contact: ████"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "3. An autographed photo of Robin (sold)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Urgent: A photographed photo card of Robin in perfect condition. Must pick up in campus."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Got this signed photo while buying the new colored vinyl album from the official site. Got all purchase screenshots. DM if you need those."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Need the money for a deposit fast. Grab this photo for 49,999 Alfalfa credits only!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Contact: ███████"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Update: Sold"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "<!--"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

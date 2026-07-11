@@ -1,0 +1,337 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "an-interview-report",
+  "name": "An Interview Report",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/An_Interview_Report",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Interview Location:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Fulwish TV, Backstage Studio"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Interviewees:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Dovebrook Kid (Comedy Star) & Seafeld Kid (Tragedy Star)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Furbo Interviewer:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Joolyon"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(When I arrived, actor Seafeld Kid had just finished his performance. Actor Dovebrook Kid was still getting his makeup done, with half an hour until his stage time.)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Interviewer:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Gentlemen, thank you for taking time out of your busy schedules for this interview..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Seafeld Kid:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "No need to thank me, it's all arranged by the TV station... Another day of not having control over my life. Not only do I have to be the butt of everyone's jokes on stage, but my personal time gets forcefully taken away too. How pathetic. Boo-hoo boo-hoo..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Dovebrook Kid:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Look on the bright side, we're becoming a public laughingstock in a whole new way now. By The Laughter above, this is just too ridiculous, Hahaha!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Interviewer:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "...No offense, but for two hosts who've been relatively low-profile until now, your recent two shows:"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Historical Supplicant Mask Showcase"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "and"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Don't Look at the Moon!"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "have both broken the station's decade-long ratings records. How do you feel about this?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Seafeld Kid:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "I'd rather not think about it."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Dovebrook Kid:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Oh, that? I heard the higher-ups made quite a profit. They even toyed with the idea of giving each of us our own solo show. But hey, we've been partners for fifteen years. Split us up, and you'd be cutting the fun in half!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Interviewer:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Oh... So the rumors are true? You two draw inspiration from each other?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Seafeld Kid:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Do you need to know where air comes from when you breathe?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Dovebrook Kid:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "We don't seek inspiration. Fun just leaks out of us whenever we move! Besides, the world is so absurd that just retelling it makes people burst out laughing... Oh, of course, there's an art to the retelling."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Interviewer:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Alright... ahem, many viewers are hoping you two could collaborate on a new show. Is that something you'd consider...?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Seafeld Kid:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "That's for the TV station to worry about. What's the point in asking us? Do you ask your pet fish which tank they'd prefer to live in tomorrow?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Dovebrook Kid:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Hahaha! Alright little furbo, I've got a show to get to. I'm sure you have more questions, but hey, the essence of serialized comics is the cliffhanger. We'll chat again when fate allows!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "<!--"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

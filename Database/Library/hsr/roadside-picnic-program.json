@@ -1,0 +1,712 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "roadside-picnic-program",
+  "name": "Roadside Picnic Program",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Roadside_Picnic_Program",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Page One",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Opening Date: November 5"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The most talked about theater production in Belobog this year"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Anton's family was having a simple suburban roadside picnic, but ended up bringing bizarre treasures to the mole kingdoms."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A big pot that can feed an entire clan, a red flower that can eat everything, and a strange black slate that gives odd oracles!"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "An amazing conflict broke out between the mole kingdoms because of these treasures."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "And when Anton's family left, the mole kingdoms that fought over the ownership of the treasures returned to peace."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The legendary Belobog author first cross-media production."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The 5th Goliards Award for Best Theater Director:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Goliards Award for Best Actor in a Play:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Goliards Award for Best Upcoming Actor in a Play:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Producer: Louise. Casting Director: Miranda"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Action Director: Stan. Artistic Director: Jacob. Choreographer: Frank. Media Liaison: Matthew."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sound Design: Bernice. Set Designer: Anya. Lighting: Carole. Theater Manager: Gary"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Paddington, the Mole King — Allen"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Floria, the Mole Queen — Ruby"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Ted, the Mole Prince — Max"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Madeleine, the Mole Princess — Rosalyn"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Todd, the Mole Schemer — Matt"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Elizabeth, the Mole Schemer's Wife — Maya"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Wayne, the Mole Typhoon — Bruce"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Parker, the Mole Inventor — Peter"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Anton, the Head of the Family — William"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Alexei, Anton's Son — Rudolf"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Rusha, Anton's Wife — Marta"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "label": "Page Two",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Director Martin's Latest Work"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Roadside Picnic"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Raises Heated Discussion With Its Convoluted Plot at the Theater Media Night"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Author: Olsen, Journalist for"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Belobog Weekly"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "It has only been three days since the opening of"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Roadside Picnic"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", the latest work of the Golden Theater Drama Department, and it already created heated discussion throughout Belobog. The director of this play is Martin, the Silver-Haired Martin famous for directing"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Belobog Wedding"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "and"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Gone Guest"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ". As a five-times winner of the Goliards Award for Best Direction in a Play, he chose a brand-new genre to direct this time — the fantasy genre."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Director Martin took the time to have an interview with us on the media premiere night for"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Roadside Picnic"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ". \"I used to direct romance and intrigue stories, but those stories won't satisfy my ambitions anymore.\" Martin has a detailed plan for his future career. His latest work, the fantasy play"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Roadside Picnic"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", is twice as long as his prior works, giving him more than enough space to showcase his skills."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Martin has his unique aesthetics in selecting stories. In the past, his award-winning works were all adapted from real-life events. However, his latest work,"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Roadside Picnic"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", is a completely imagined story. He is also no longer choosing playwrights with a background in media and journalism. Surprisingly, the playwright for"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Roadside Picnic"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "is a \"newcomer\" who is writing for the stage for the first time — Marjorie, the literary master famous throughout Belobog."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "It is no coincidence that this literary master wrote the play — Marjorie is known for authoring sharp and bizarre stories, and Martin had always thought her stories are well-suited for the stage. However, Marjorie was initially busy finding materials for her new book and had refused Martin's first few invitations. With the help of Louise, the show's producer, director Martin finally moved Marjorie with his well-prepared concept design documents. Marjorie voluntarily delayed plans for her new book and left some free time specifically for this theater project."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Although the show seems like a fantasy story fit for the whole family, the amount of twists it contains far exceed the audience's expectations due to the cross-disciplinary collaboration between two masters. On the surface, this is a story between the mole kingdoms and a human family. However, the show is very fast-paced and a large amount of detail is hidden on the stage. If the audience loses track of the pacing for even a moment, it becomes hard to grasp the mysteries and answers hidden in the stage backdrop, the spoken lines, and even in the lighting design."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The plot of"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Roadside Picnic"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "brings endless thinking for adults and acts as a brain-twister for children. The Belobog citizens hail this play as a \"Brain-Twister Masterpiece.\" The wise could extrapolate from the details and absorb the implications behind every little reference, while the innocent delight in the endless creativity behind the story. \"This story offers a brand-new view for us to examine our own lives.\" That was how Martin, the show's director and five-time winner of the Goliards Awards for Best Direction in a Play, replied to these praises and comments."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Faced with eager journalists on the media night, Silver-Haired Martin only gave out a small amount of useful information. These vague snippets can only be completely understood after viewing"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Roadside Picnic"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "in its entirety. All this is one big surprise that Martin and Marjorie had prepared for us this year."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "label": "Page Three",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The first cross-media creation from Marjorie, the literary master famous throughout Belobog."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The brand-new fantasy show"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Roadside Picnic"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "from the Golden Theater's Drama Department"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Will officially open on November 5 at the Golden Theater."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Tickets and limited merchandise will be available at the counter."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Binder with the cover of"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Roadside Picnic"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The cover of the binder is printed with the poster of"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Roadside Picnic"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The size of the binder perfectly matches the size of the program, with a great storage capacity of 30 pages."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Practical and highly memorable, suitable for storing piles of programs you get from the theater."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "List price: 1500 shield"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Roadside Picnic"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "— Mole Kingdom's Roundtable Meeting theme frame"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Modeled after the mole kingdom palace's council chamber backdrop."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A special release for audience that love the theater with programs and ticket display cards pre-reserved."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "You can decorate your wall with the program of"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Roadside Picnic"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "along with your ticket!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "List price: 3,000 shield"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Roadside Picnic"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Official Script Book"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Licensed official merchandise with every line from the play."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A legendary creation that surpasses media boundaries, written by the legendary Belobog literary master Marjorie."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Re-live the wonderful story in the live performance. A must-have for all"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Roadside Picnic"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "lovers!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "List price: 5000 shield"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

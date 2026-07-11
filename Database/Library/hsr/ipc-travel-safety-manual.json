@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "ipc-travel-safety-manual",
+  "name": "IPC Travel Safety Manual",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/IPC_Travel_Safety_Manual",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Dearest passengers, thank you for choosing Interastral Peace Starways. For your personal safety, please be aware of and follow the following guidelines during your trip:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "1"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "This shuttle device is developed and maintained by the Interastral Peace Corporation. All relevant technologies are commercially classified, precise details of the travel process are not to be exposed to outside parties. Final right to interpretation of this clause belongs to the Technology Department."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Safety device parameters for this shuttle are extremely high and zero critical accidents have been recorded since the official launch of this service. Please ignore false accusations posted on the Interastral Network that have been written to smear the company's reputation. The IPC has the right to pursue action against any who publish rumors or accusations without permission, in accordance with the Interstellar Reputation Protection Law."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "3"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The shuttle is not equipped with seating. Should you feel turbulence or dizziness during your journey, please hold on to the handrail and lower yourself to the ground. Please do not disturb members of staff due to slight feelings of discomfort. If you have any questions, please refer to the disclaimer that you signed prior to boarding."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "4"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Due to special technology utilized in this service, the shuttle is not equipped with toilets or smoking rooms. There is also no food service. Please see to your own personal needs before your journey and refrain from drinking or eating for the duration."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "5"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Please do not open the escape door at the rear of the cockpit unless absolutely necessary. In case of emergency, the operator will be responsible for the opening of the emergency escape. Please follow staff instructions in a timely manner and actively follow the evacuation procedures. When evacuating, please abandon all personal belongings."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Employees of Interastral Peace Starways are all equipped with a standard work uniform. If there are suspicious characters wearing alternative uniforms and impersonating employees, please do not listen to their instructions and make sure to inform a member of staff immediately."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "6"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "In order to ensure a pleasant traveling experience, please make sure to read about your destination planet's environmental and cultural information so as to prevent clashes with locals and discomfort in a new environment. Interastral Peace Starways take no responsibility for disputes unrelated to the travel process itself."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "This is the passenger safety notice in its entirety. We wish you a pleasant journey!"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

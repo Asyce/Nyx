@@ -1,0 +1,1106 @@
+{
+  "schemaVersion": 1,
+  "game": "gi",
+  "id": "legend-of-the-lone-sword",
+  "name": "Legend of the Lone Sword",
+  "sourceUrl": "https://genshin-impact.fandom.com/wiki/Legend_of_the_Lone_Sword",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Vol. 1",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "A single sword's light pierced the night air, unchallenged by any star or moon."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The autumn wind in the mountains wept aloud, following the whirling dance of the lonesome blade."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Driving wind and falling rain accompanied a single traveler on his solitary journey."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "This person's hair was wild, and his face fierce, and he seemed most fey indeed. His clothes were thin, and he swayed this way and that in the center of the homeward path like one sick or hurt to the quick, seeming more like some ghoul than a living man."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "He had been on the path three days. Three days he had gone hungry, and without any sleep."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Three days ago, he had a name and a famed sword, and his fallen martial arts school. But now, he only wore sorrow and worry on his brow, which rolled off him, carried by the sudden rain, and onto the mud below, eroding the soil."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Three days ago, that nameless swordsman had started a feud with him, a feud that saw his master and junior buried in the merciless mountain snow as the screaming snow was stained red."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Today, he had a new name — Jin the Seventy-Second."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "For he was the last of the 72 members of their school."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "—"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "He did not know how long he had walked before he heard the sound of carts behind him."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Jin the Seventy-Second shuffled to the side of the road and stopped, asking: \"Is your cart headed for Tupi Village?\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The cart driver saluted him and replied: \"Few of the carts on this road do not do so.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Jin the Seventy-Second then asked: \"Then pray will your cart bear another man?\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The cart driver said: \"It could, but you did not ask if I would.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Jin the Seventy-Second did not understand. \"If you travel to Tupi Village, why would you not take me?\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"For you are not I, nor I, you,\" the driver replied."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"What a waste of words.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "And no sooner had that been said than the blade left its sheath. The cart driver felt but a single chilling cold, and fell from his cart to the floor without a struggle, never to speak again."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Jin the Seventy-Second was just such a person. Though he had lost everything, even his heart, and his bold brashness had ebbed, he had always hated pointlessly talkative people most of all."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Riding the bloodstained cart, Jin the Seventy-Second departed for Tupi Village."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "label": "Vol. 2",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "They say that in that faraway land, \"Tupi\" meant to burn away vanity's dross to attain the gem of truth."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tupi Village lay at the foot of a barren mountain, passable to the outside world only by a single ancient path — the very same that lay beneath Jin the Seventy-Second's feet."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The skies were darkening, and the wind and rain howled."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Jin the Seventy-Second had never had anything to do with Tupi Village, but for his vengeance, and so he now sought out its village chief."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "By the time the oxcart had finally trudged its way through the muddy old road to the mountain's base, it was fully night, and gloomy clouds cast a boundless shadow as they covered the moon's eyes. Jin the Seventy-Second hid in that shade, drinking the night in, body and soul."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In that deep night, the pure white light of the moon shone upon the head of the village chief. Tupi Village had never been large, but the chief was no ordinary character. No one knew his name or his past, and no one dared to ask."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "They only knew that his shoulders bore a great blood debt, from a past as crimson as his eyes."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "For red they were, and sharp, like a blade, piercing the hearts of all he gazed upon as he pleased."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "His character was much the same, like a sharp knife that might pierce another person's heart at any time without forewarning."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"It's time.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The chief shook his head as he talked to himself, the cold moonlight dancing over his shaven crown."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Outside, a ravenous demon wielded a blood-letting long sword, massacring his followers one after the other."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Though Tupi Village was full of evil people, schools and sects had their rules, and so none would dare come knocking with rash provocations and talk of revenge."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But Jin the Seventy-Second had no school or sect, and was thus unbound by any such rules. He was but a single starving ghost with a lone sharp blade, yearning to taste the blood of his enemies."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The wind and rain accompanied the din of battle, and the downpour washed away the crimson that stained the swordsman, only for another layer to be painted on immediately..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The crimson swordsman strode forward amid a crimson mist. Many were his wounds, but none could stay his hand."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "When that mist had at last cleared in the endless deluge, the swordsman crossed the turbid red beneath his feet, and stalked towards the chief's mansion."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "—"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The din beyond the gates quieted, and only now did the chief raise a cup of wine, and scatter the alcohol into the air with a flick."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Perhaps to toast the fated meeting to come, or as a ritual for his sullied soul."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The doors opened. It was Jin the Seventy-Second, his reddened outline juxtaposed against the blinding gray elements outside."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"I have questions for you, village chief.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"You've taken quite a few of my men's lives.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Exactly three hundred and sixty-two. No more, no less...\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The chief spoke naught, and his face remained still, but the pulsing vein in his temple betrayed the fire within."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"...Ah yes, and one dog.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "So saying, the crimson silhouette tossed a certain object forward. It clattered atop the wind case..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "...And it was the bone of the dog that guarded the door. It had been stewed for a time, and was picked clean almost to the marrow."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "For in this half an hour, not only had Jin the Seventy-Second snuffed out the lives of three hundred and sixty-two able men, but he had even turned the dog keeping the gate into dog meat stew."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "What cruelty."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "What ruthlessness!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The village chief let out a terrible scream, and standing, he drew his sword—"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "label": "Vol. 3",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The rain had ceased, but light had yet to recoup the skies."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Jin the Seventy-Second had obtained news of his nemesis from the mouth of the village chief."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Now, not a thing was left in Tupi Village but masterless rooms, and masterless spirits."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "And not even that remained, for this was a world without spirits."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "This world possessed no elemental power,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And so, the memories of the dead could not remain in the mortal realm via elemental resonance."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The village chief was a formidable foe. His blade was as swift as could be, and he had left many wounds on Jin the Seventy-Second, each deep enough to cut bone."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But alas, his \"heart\" was far too slow."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "For this was a world without elements,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And thus swordsmanship could not be imbued with them."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Swordsmanship was thus a question of pure physical skill and not elemental control."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The sword is an extension of one's body, and one uses it as an arm would command the fingers, or as one's heart directs the eyes."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Though he was skilled indeed in the art of the swift blade, the village chief never understood the value of the \"heart,\" and so he fell to a single stroke."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Jin the Seventy-Second strode towards the fallen chief, discarding the broken incense burner in his left hand."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "For the chief had focused too narrowly on pouring savage strokes upon the swordsman's body, thinking them too harried to fight back, and had no eyes for his enemy's left hand, which should have been empty—"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "—And in a flash, the incense burner had struck the chief of Tupi Village on the forehead, sending him tumbling into a wall where he then collapsed, immobile."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Underhanded villain...\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "But only the wind answered him — the villain gripping the bloodied censor said not a word."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"...The person you're looking for is in the barren mountains beyond this village... Go seek your death there...\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "But the villain had departed, and all that remained to answer him was the rustling the wind..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "And the crackling of wild flames."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "label": "Vol. 4",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Jin the Seventy-Second waited till the rainbow had dispersed before setting off once from Tupi Village toward the barren mountains."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Ancient legend held that these batten mountains had been brought into being by slices from the Celestial Emperor's blade, and thus were incredibly hard to scale."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Folk tales also held that they were called barren, for they had soaked up the tears of the Earth Mother, and thus had become bitterly salty lands where nothing grew."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The barren mountains had once been mined for gold and gems, but the mines had all been ruined in an earthquake, their workers buried within."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "No one tried ever again to create the facilities to mine the mountain's bounty, and its caverns were infested with wicked beasts and bandits."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "And among these evils hidden in the mountains was Jin the Seventy-Second's nemesis."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The swordsman's shoulders shivered, and his gait was hesitant, for the wounds he had been given in the battle against the chief of Tupi Village hindered him still."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "He knew that many pairs of eyes stared out at him from between the wither rocks, and the breath of beasts who had caught the scents of hid blood was all around."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Long years of bloodshed had honed Jin the Seventy-Second's senses to their limit."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "He sensed that the lifeless mountains were in fact a giant death trap."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Bandits and villains lay in wait for him to enter some narrow grotto, or squeeze into a tiny gorge, or pass by a collapsed mine shaft. Then, they would set upon him in the darkness with knives, and finish him."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "But from the looks of things now, the steep mountains now looked like they might be able to kill Jin the Seventy-Second. The swordsman limped with every step he took, and the road was small and treacherous. Every so often, gravel would slip loose beneath his feet."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "At the same time, upon a cliff twisted about with sinuous, dead trees, two figures squinted as they observed the tiny wanderer."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"He has been worse for wear since he departed from the mountain's base. If we but leave him to the treacherous trek, he will surely fall into the abyss below.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "So said a bone-thin old crone."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "She glanced to her side, icy death in her jade-blue eyes, sharp as a viper hidden in a rocky cleft."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Not so!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "She turned to face the booming voice of a corpulent old man."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"He slew three hundred and sixty-two at Tupi Village, and even cooked the dog at the gate for stew."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Though he may have been badly wounded by the village chief to the point where he can barely move, we should still beware of him.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Hmph...\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The old woman vanished into the withered forest with a displeased noise."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"...\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The old man watched a while longer as the lame swordsman stopped for a moment more, before patting his large belly and slowly departed."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Not a single withered tree or blade of dying grass was touched as he did."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Then suddenly the sky turned dark with gathering stormclouds, and mordant rain again began to fall lightly."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "In the mountain rain, the wounded Jin the Seventy-Second leaned on his sword like a crutch, and struggled forward."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But the chilling cold and the loss of blood was too much for him to bear, and he fell upon the gravel and barren stone."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Just as the darkness took him, he caught a glimpse of the billowing hem of azure-blue skirts..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "He could've sworn he'd seen that sight before."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "label": "Vol. 1",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "NPC Location Verr Goldet.png|Vol. 1 location"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Item Legend of the Lone Sword Vol. 1 Location Context.png|Additional context"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "6",
+      "label": "Vol. 2",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Item Legend of the Lone Sword Vol. 2 Location.png|Vol. 2 location"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "File:Legend of the Lone Sword Volume 2 Location Context.jpg|Additional context"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "7",
+      "label": "Vol. 3",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Item Legend of the Lone Sword Vol. 3 Location.png|Vol. 3 location"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "File:Legend of the Lone Sword Volume 3 Location Context.png|Additional context"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "undelivered-grove-report",
+  "name": "Undelivered Grove Report",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Undelivered_Grove_Report",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "To our neighbors in the Holy City:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Second communication of Light Calendar 4931."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "• Achievement Report"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "• Financial Request"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "• Resource Request"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "• Miscellaneous"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "1. Lotophagism"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "No significant progress on using herbs to resist black tide corrosion."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "New improved grain variety yields increased 800%."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2. Caprism"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "New chimera recovery potion development successful, experiments show 87% average seasonal work efficiency increase (±6%, depending on individual variation)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Long-term report: \"Changes three years after leaving World Wound Web\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "3. Erythrokeramism"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Research Report: The emotional effects of color when viewed in human vision (see attachment)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Research Report: Minimal units of art"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "4. Nodism"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Research Report: Information encryption and decryption protocol updates"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Research Report: Thoughts on fractal structures — can we predict everything?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "5. Venerationism"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Multi-faith ceremonial implements still in development, Calamity Titan content postponed."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "6. Helkolithism"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Our achievement will be this messenger, who shall run from the Grove to Okhema within two days. Bear witness!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "7. Nousporism"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "No reports submitted."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Regular funding 30,000,000"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "New research sponsorship 5,000,000"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Messenger compensation 5,420"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Writing fee (by character count) 40.1"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Total:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Balance Coins 35,005,460.1"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Due to calculation issues, \".1\" may be omitted."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Blank slates ×5,000"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Teleslate ×1 (severely damaged)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Latest copy of Gene Bank records"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The Grove wishes to employ several Mountain Dwellers for basic security duties, providing food and lodging."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "May Cerces's grace be with us."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "— Scholars of the Grove of Epiphany"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

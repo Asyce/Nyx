@@ -1,0 +1,342 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "digital-save-of-klein-s-handwritten-notes-excerpt",
+  "name": "Digital Save of Klein's Handwritten Notes (Excerpt)",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Digital_Save_of_Klein%27s_Handwritten_Notes_(Excerpt)",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Note: The following text was retrieved from Klein's handwritten notes using the keywords"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "'Polka Kakamond"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": ","
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Lord of Silence"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": ", and"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "coincidence'"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Jul ██"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Today marks our reunion. The Phlogiston recycling theory, the w-wave prospecting method, and the synthesis technology for Grayseal Gold... These academic achievements seem unrelated, but they have brought Bohdan, Lambda, and me together in the Energy Research Lab. After so many years, we are now doing research under the same roof once again, and Lambda seems very happy."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Regarding our membership in the Genius Society, truth be told, the three of us haven't attached too much significance to it. From my student days, it was clear to me that \"genius\" was merely a broad term for exceptional brilliance. Different geniuses excel in various fields. The feats achieved by the geniuses Harald Punch, Nyul Iman, and someone named"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Polka Kakamond"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "are beyond my wildest dreams. However, they can never replicate what I have done, either."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "However, I can't care less about the other members of the Genius Society, as they are too far away from us. The dynamics among us three classmates concern me more at present."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "███ 05"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I gifted Lambda a set of exoskeleton. Unknown to her, I discreetly implanted a 98% pure Grayseal Gold pellet in the structure of its ring finger , cleverly disguising it as a ring... No, this is my secret not meant for sharing, and if she discovers it later, I'll simply attribute it to a"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "coincidence"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "while crafting the exoskeleton."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Oct ██"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "During our polar expedition yesterday, Lambda finally successfully located the underground energy source she had long pursued using bio-waves. This discovery could power all the cities on planet Ohioti for half a century. Her elation was palpable — she even kicked off her shoes. Then, Bohdan told me they divorced again. This is their fourth re-marriage and divorce. I was unsure how to react..."
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Coincidentally"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", a butterfly fluttered in the wilderness, lingering before my eyes for quite a while. I don't know why, but that butterfly resembles me in some inexplicable manner. It was the first time I realized such creatures existed in the polar regions of planet Ohioti."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "███ ██"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "No, something is definitely off. If she hadn't gone there, Bohdan would have been there, and it would have been him who got killed in the explosion, but instead, I sent him to the hospital. Furthermore, why did ██████████ and all the █████ were closed, and she happened to █████ ? Is this a mere"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "coincidence"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "? Or perhaps...?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "███ ██"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I've found the camera Lambda had hidden in Bohdan's lab. God knows why she would need that surveillance, but that's not important. The surveillance record shows that the Grayseal Gold I had discreetly placed in the Phlogiston observation device didn't work as I had planned. In other words, Bohdan wasn't wounded because of my plan, but the Phlogiston leakage aligned perfectly with my expectations. This can't be a mere"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "coincidence"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ". Someone else has been moving my plan forward."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "███ 15"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Lambda smashed that exoskeleton along with the Grayseal Gold pellet. Technically, an ordinary hammer wouldn't have reacted with the Grayseal Gold, but the incident in the central control room couldn't be a mere"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "coincidence"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Who gave Lambda that special hammer? And why would she smash the exoskeleton at that precise moment? It simply doesn't make sense."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "███ █4"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Polka Kakamond"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "is still alive? I thought that Genius had passed away... This discovery has given me some insights."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "<!--"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

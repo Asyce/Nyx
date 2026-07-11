@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "a-note-from-mydei",
+  "name": "A Note from Mydei",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/A_Note_from_Mydei",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "To (Trailblazer):"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I yearn to clash with you in the heavens above, yet I must still bear the duty that lies beneath,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "for even when the flames of war subside, someone must lead the way to peace."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Words cannot express my gratitude for your salvation,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "and I'd only raise this cup of crimson pomegranate honey brew,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "to toast to our victory in this life, and our journey through the stars."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Your expedition will be surrounded by wolves and lurking vipers."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "If you need the flames of Strife, I shall offer you my Kremnos, along with my blood and bones."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "They'll accompany your conquest and aid in your endless victories."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "When you return triumphant, I shall raise my glass to you once again."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Mydeimos"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

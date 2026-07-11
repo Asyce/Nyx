@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "find-the-kraken",
+  "name": "Find the \"Kraken\"",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Find_the_%22Kraken%22",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Using memes doesn't make you a winner, but knowing the source of a meme... now that's the fr██in' success!\" Dear friends, according to the voting results from our previous readers' letters, the buzzword we'll be exploring in this"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Seafeld Small Talk"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "is — \"Kraken.\" Where did this term come from? What did it originally mean? Let's hear what the residents have to say."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The following is a transcript of the interview compiled by our reporter:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Jojo (Pet Doctor):"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "To us, \"Kraken\" is just another word for kitty. It all started when a netizen posted a video of their cat set to an upbeat track with a chorus that kept repeating \"Kraken, Kraken.\" It went viral in the pet community instantly. People found the tune super catchy and therapeutic, and it totally matched that innocent, clingy energy kittens have. Everyone started jumping on the trend, and before long, \"Kraken\" became synonymous with kitty."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "@NeverFull (Food Influencer):"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "In foodie lingo, \"Kraken\" is the code for octopus. When I first heard it, I thought it was some fancy new cuisine. Next thing I know, the restaurant owner brought out this massive plate of roasted octopus smothered in chili powder. The dish was literally called \"Kraken's Tentacles\"! I felt so uncultured in that moment, haha! Gotta admit though, names like that are way more appealing to diners. The review I wrote for it actually got my account a record-high number of views."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Santiago (Old Fisherman):"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "I first heard the word \"Kraken\" from my grandfather when I was just a child. Whenever I cried at night asking for my mother, he would scold me harshly: \"Keep up the crying, and Kraken will come drag you into the sea, just like it did your parents!\" So, from a young age, I felt it was something truly terrifying, and I was once even afraid to look at the ocean."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "When I got a little older, I followed my grandfather out to sea to fish and learned more information about \"Kraken.\" Grandfather called it a massive, many-tentacled sea siren that excelled at stirring up wind and waves. This \"Kraken\" regarded the deep-sea fish as its subjects and thus viewed fishing boats with hostility, often dragging sailors to the bottom of the sea to bolster the population of its kingdom."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "It was while out at sea that my parents encountered \"Kraken\" and got lost in the ocean."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Grandfather taught me lots of tricks for spotting \"Kraken.\" If long swells rise without wind, it means Kraken is waking from the deep. If seabirds scramble back to shore, they've seen its tentacles. That sort of thing. At the first sign of anything, grandfather would head straight back to port. He always said that in Seafeld City, there are no fishermen who are both bold and old."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Before my grandfather passed away, he told me he had never actually seen the real \"Kraken.\" That is precisely why he had the chance to properly say goodbye to me on the shore, reminding me to remember his words: Always respect \"Kraken,\" always respect the sea."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Kraken (Tavern Manager):"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Is that even a question? \"Kraken\" obviously means manager. I, Kraken, have been running this tavern for decades. Who among the diners of Duomension City doesn't know the weight my signature seafood combo holds on the Must-Eat List? As for rumors about sea sirens, Aberrations, and whatnot... if you ask me, those are just tall tales spun by jealous competitors envious of my booming business. I welcome all our readers to come visit my little tavern and see for themselves. If you want seafood, look no further than \"Kraken\"!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"Seafeld Small Talk: Meme Insider\": Fact-checking is a matter of luck, but the stories are always fresh."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

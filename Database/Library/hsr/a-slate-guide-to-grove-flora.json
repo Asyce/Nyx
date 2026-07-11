@@ -1,0 +1,370 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "a-slate-guide-to-grove-flora",
+  "name": "A Slate Guide to Grove Flora",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/A_Slate_Guide_to_Grove_Flora",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Important Notice:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Follow the Path of Contemplation for viewing. As some plants are sensitive, please do not linger too long in one spot."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Do not touch any plants unless specifically noted. (Save your curiosity — this is for your own good)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "If you spot nymphs in the Psalm Flora or Evernight Flora areas, pay them no mind — they're harmless."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "If you find nymphs in the Heretical Flora area, please try to lead them away."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Ever dreaming of distant flora but trapped by the black tide? The Veil Greenhouse, jointly developed by Lotophagists and Oronyx priests, is your perfect destination. Artificial darkness generators operate around the clock, blocking even the Dawn Device's radiance."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Featured species include —"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Blade Grass"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "This thorny species from Kremnos's trails only flourishes in earth soaked with Castrum Kremnos's honey brew, fascinating Grove scholars with its unique properties."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Despite its name, it bears massive, razor-sharp leaves. Once blessed by Cerces's priests, these leaves become hardened yet flexible — perfect emergency weapons for the guards."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Ladon's Rain"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Indigo crystalline berries native to Ladon, also known as Oronyx's Tears. Once a staple food for the Ladonese until Strife and black tide destroyed their natural habitat — now preserved only in the garden."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "When rain blankets the earth, Ladon's Rain blooms en masse. Stories tell that these berries are nourished by Titans' tears, yet they only bring more sorrow to the Titans."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The plants here aren't natural species but convergences of life information. Consult nearby scholars for details."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Relocated to Okhema with the supervisor."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Scholars here have often wondered if certain plants mentioned in Titan legends actually existed or were merely literary inventions from ritual and philosophical texts."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "This area exists to either dispel or confirm such doubts."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "※ Some varieties are Lotophagistic artificial hybrids, created to recreate legendary species."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Featured species include —"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Golden Dust Rose"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "True, flowers often play supporting roles in romantic tales, but none would dare use the Golden Dust Rose for courtship. All know that since Kephale's creation, it has remained under Thanatos's constant watch."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Legends say in its realm, Thanatos lays the beloved upon fields of golden flowers. Each petal houses a soul lost to strife. Perhaps this is why even the most ravenous cloudsheep ignore it."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Following this thread, Grove scholars traced the flower's origin to find this golden rose — beautiful yet thorny, likely the real reason cloudsheep avoid it."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Stonewood"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Folk tales claim Georios created Mountain Dwellers not from earth but from stonewood's sturdy branches. Though fictional, this tale endeared Mountain Dwellers to the tree — even today, many Okhema guards prefer their equipment crafted from stonewood."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It's one of few plants visitors may touch. You place your hand upon it to feel the strength of the earth itself."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Normally, glass cases protect flowers from external harm. But in the Grove, they protect the outside world from the flowers. Remember this during your visit."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Voidshroom"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Cerces's accidental creation and Zagreus's favorite toy. None can describe its appearance, as it devours all light. If you spot black holes in the ground outside Okhema, don't be curious — it's just another voidshroom blooming."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Needless to say, in the garden and even in the wild — unless you're eager to meet Thanatos, absolutely never touch it."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

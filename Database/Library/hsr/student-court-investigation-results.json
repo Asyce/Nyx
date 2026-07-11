@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "student-court-investigation-results",
+  "name": "Student Court Investigation Results",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Student_Court_Investigation_Results",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Case ID:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1000HEZ058"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Judge"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Magistrate Irena, Student Affairs Court, Student Court"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Verdict:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Rejected as unsubstantiated"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Response from the Student Court:"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Dear Hertz,"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I trust this message reaches you well."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Thank you for your ongoing trust and patience with the Student Court. Regrettably, we must acknowledge that your previous 57 petitions did not receive replies. However, please allow us to explain this oversight: Your petitions contain a large amount of inaccurate or unsubstantiated information, which contradicted the standards outlined in the"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Student Court Petition Convention"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", leading to them being rejected by our courtroom."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The recent upsurge in discussions surrounding the Spheroid Race and the Innasemboat conspiracy theory on campus has caused unnecessary concern among students and academy staff. We are taking this opportunity to disclose the outcomes of our investigations into these matters."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "1. Our investigations indicate that Prema's achievement of the \"Paperfold University Top Driver\" title last month aligns with our regulations for the Paperfold University Spheroid Race (a.k.a. The Glaux Cup), with no violations identified."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2. Following thorough investigations, no evidence substantiating the existence of Innasemboat has been found by the university. Further exploration revealed that the concept was first mentioned in an article titled"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Sixteen Family Heads Identified as Innasemboat Members: Unveiling the Enigmatic Club's Purpose"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "in the magazine"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Penacony Unsolved Mysteries"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", Vol 23. This magazine is known for continuously spreading misinformation extensively, and the Student Court is of the mind to view the Innasemboat theory as a groundless conspiracy theory."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Approximately ██ years ago, Dean Glaux introduced the Spheroid Race to the university to promote inter-academy communication and friendship and enable students to chase after excellence via competitive sports. Over the years, the Spheroid Race Committee has remained dedicated to Dean Glaux's vision, ensuring that the tournament upholds fairness without favoritism toward any student, academy, or organization. With hundreds of tournaments held to date, the Glaux Cup retains its prestige as the apex of collegiate Spheroid competition, which stands as proof of its universally recognized equitable nature by both students and faculty on campus."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Additionally, cooperation between academies has been a common practice throughout the history of the Spheroid Race, aligning with Dean Glaux's original intentions for the event. While we advocate for students to remain vigilant against unfair practices, we call upon all to show respect for all participants who exemplify the spirit of sportsmanship."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Magistrate Irena, Student Affairs Court"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Paperfold University Student Court reserves the right for the final interpretation in rendering judgments."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

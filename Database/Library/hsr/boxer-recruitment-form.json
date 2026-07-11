@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "boxer-recruitment-form",
+  "name": "Boxer Recruitment Form",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Boxer_Recruitment_Form",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The Fight Club is Recruiting Boxers!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Have YOU ever considered changing your ordinary life?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "To go from being the laughing stock of the town to a celebrity worshiped by all."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Or perhaps you're born with dazzling talent,"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "but you suffer from being a nobody,"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "then you are what the Fight Club has been waiting for."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "You don't need combat skills honed through battle"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "and you don't need outstanding physique"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "you just need the potential to be the center of attention"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "and the courage to change yourself"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "then we will forge you into an unrivaled hero!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Sign-up Requirements: You only need to be an adult!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Boss Scott has the keenest eye and knows better than asking about a hero's past"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "As long as you're an adult, we won't ask your gender, origin, or the reason you joined"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "We accept sign-ups from all who meets the requirements!"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "dreamscape-nursery-rhyme-the-family-of-seven",
+  "name": "Dreamscape Nursery Rhyme: The Family of Seven",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Dreamscape_Nursery_Rhyme:_The_Family_of_Seven",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Catch a bunch of bad children and lock them in a cage."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Forced into cruel labor, they toil without a wage."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A big hound breaks the cage bars, as cannons set them free."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Butterflies and marigolds eat fruit from the great tree."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Inside a nest they built their own heaven, banded together a family of seven."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In the house are seven people, living in a poor village."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Stonewalled by an overlord, food and drink cruelly pillaged."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Withered trees will bear no fruit, the plants need fertilizer."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Fruits fell spoiled unto the ground, splashed juice upon white mica."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The family ate one of their own, now there's six inside the home."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In the house there hid six people, camping in a ruined yard."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Unresponsive sleeps the hound, a broken mirror harms the bird."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Flowers cannot flutter, dead trees cannot be straighter."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The butterfly left home only to meet throngs of cicada."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The big bug scoffed the little bug down. Now there are five left inside the home."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In the house there slept five people, lying all day at home."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "An angel came to visit one night, singing triumphant poems."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Melodic as a dream of plenty both to eat and wear."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Everything is fixed now, closing eyes they have no fear."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Whatever you do, do not awaken — forget those days of past mistaken."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "divine-echo-time",
+  "name": "Divine Echo: Time",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Divine_Echo:_Time",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Evernight Veil, Oronyx."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As the light of the night shines, all things are granted peace."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Time flows as they lay dormant,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "as temporary as the world itself."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "game": "zzz",
+  "dataTimestamp": "2026-07-11T00:00:00.000Z",
+  "activities": [
+    {
+      "id": "zzz-shiyu-defense-critical-node",
+      "label": "Shiyu Defense: Critical Node",
+      "mode": "fixed",
+      "anchorStart": "2025-01-02T20:00:00.000Z",
+      "intervalDays": 14,
+      "durationDays": 14,
+      "resetHour": 4,
+      "timezoneMode": "server-fixed",
+      "stopAfterByRegion": {"asia":"2025-12-18T20:00:00.000Z","europe":"2025-12-19T03:00:00.000Z","america":"2025-12-19T09:00:00.000Z"},
+      "exceptions": [
+        {"region":"asia","start":"2025-12-18T20:00:00.000Z","window":{"start":"2025-12-18T20:00:00.000Z","end":"2025-12-29T06:59:00.000Z","timezone":"UTC+08:00","sourceUrl":"https://www.hoyolab.com/article/42493565"}},
+        {"region":"europe","start":"2025-12-19T03:00:00.000Z","window":{"start":"2025-12-19T03:00:00.000Z","end":"2025-12-29T13:59:00.000Z","timezone":"UTC+01:00","sourceUrl":"https://www.hoyolab.com/article/42493565"}},
+        {"region":"america","start":"2025-12-19T09:00:00.000Z","window":{"start":"2025-12-19T09:00:00.000Z","end":"2025-12-29T19:59:00.000Z","timezone":"UTC-05:00","sourceUrl":"https://www.hoyolab.com/article/42493565"}}
+      ],
+      "sourceUrl": "https://www.hoyolab.com/article/35654082",
+      "verifiedAt": "2026-07-11T00:00:00.000Z"
+    },
+    {
+      "id": "zzz-deadly-assault",
+      "label": "Deadly Assault",
+      "mode": "fixed",
+      "anchorStart": "2025-01-09T20:00:00.000Z",
+      "intervalDays": 14,
+      "durationDays": 14,
+      "resetHour": 4,
+      "timezoneMode": "server-fixed",
+      "stopAfterByRegion": {"asia":"2025-11-13T20:00:00.000Z","europe":"2025-11-14T03:00:00.000Z","america":"2025-11-14T09:00:00.000Z"},
+      "exceptions": [],
+      "sourceUrl": "https://www.hoyolab.com/article/35654082",
+      "verifiedAt": "2026-07-11T00:00:00.000Z"
+    }
+  ]
+}

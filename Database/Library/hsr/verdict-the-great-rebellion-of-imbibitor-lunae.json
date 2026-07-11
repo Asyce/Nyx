@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "verdict-the-great-rebellion-of-imbibitor-lunae",
+  "name": "Verdict: The Great Rebellion of Imbibitor Lunae",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Verdict:_The_Great_Rebellion_of_Imbibitor_Lunae",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Dan Feng the sinner, embracing immorality and breaking the ban,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "thieving immortality and inciting riot."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Both gods and man alike are enraged, such that none can grant repentance,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It is only right to execute justice and punish the guilty, in order to uphold order and peace."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "However,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Taking into account his past merits, he shall be spared a heavy punishment,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Through molting shall he atone for his faults."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A never-ending exile far beyond public opinion."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "With total interception across the whole dominion."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

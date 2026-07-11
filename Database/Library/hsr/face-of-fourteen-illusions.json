@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "face-of-fourteen-illusions",
+  "name": "Face of Fourteen Illusions",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Face_of_Fourteen_Illusions",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Face of Fourteen Illusions"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Abandoned Confession of a Knight of Beauty"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "If my mind had not been clouded by the evil hand of fate,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I would have perceived all the allure of the senses and the yearnings of the spirit."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I perceive that your words and actions make you truly exist,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Your countenance and blade flowing with blood and passion unseen by the world."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I admire all the grace bestowed upon your noble nature,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Hidden in the darkness of the armor but deeper than the heart."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Perhaps yearning to see you, I caught a glimpse in visions,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Burning with rigorous penance to elevate your nobility."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Blind loyalty would reclaim you from all lands and kingdoms."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Fearlessness veils our shy eyes more than any shroud."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Our Commandments of Sonnet test our resolve like the breath of a louse."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "How I wish you could know my devoutness."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "How I wish you could know my longing."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "How I wish you could know my fervor."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

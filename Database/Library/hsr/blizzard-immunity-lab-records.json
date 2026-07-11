@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "blizzard-immunity-lab-records",
+  "name": "Blizzard Immunity Lab Records",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Blizzard_Immunity_Lab_Records",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Part I",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Animal Experiment #02"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I carried out a broad-spectrum animal injection experiment. The animals all appeared to grow more active, but the dose needs to be adjusted because the two snow finches have been screeching nonstop for three days. I couldn't sleep at all."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "It is absolutely the right decision for me to come to the Snow Plains to conduct the experiment. I do not have to deal with those cretins on the ethics committee, nor do I have to produce those so-called daily reports. Why would I waste time writing so many words when two phrases can adequately explain the experiment?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Animal Experiment #14"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Several controlled experiments with mice have been conducted, and it appears that the route of administration impacts the rate of medicine absorption, with preliminary findings indicating that intraperitoneal injection is more effective than subcutaneous injection and oral gavage. Shock symptoms were observed in the intraperitoneal injection group, indicating that the injection dose should be further reduced. Human testing should also be expedited."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I was hesitant to experiment with these mice because they reminded me of the ones Natasha had as a child. Despite the fact that I've been much more productive here, the limited supply and test subjects remain a major issue. There's a guard outpost to the south. Perhaps I can trade with them. I'm running low on firewood and oil."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Subcutaneous Injection Experiment #01"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "A subcutaneous injection was given into a vein on my own right arm, and I had a severe allergic response that included vomiting and dizziness within 12 hours, but the medication's effectiveness on the human body was confirmed. For the following 50 hours, I didn't feel cold."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I've made little progress on the report since I've been experiencing numbness in my fingers for the past several days, and I'm wondering if it is a side effect of the subcutaneous injection. The swelling and rashes on my back and arms have subsided significantly. Next time, I'll try a more stable formula."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "label": "Part II",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Injection Experiment #12"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "After the final injection experiment, I had a significant rejection response in my stomach as well as an intermittent, sudden dip in body temperature after a slow climb. I need to improve the experiment's stability and possibly try a safer route of administration, such as oral administration."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Lately, I've been practicing writing with my left hand because it appears that I can no longer control the muscles in my right hand. I shouldn't have been so impatient. Coughing and dizziness continue to bother me occasionally. It's been 17 days since the last time I suffered shock symptoms, and the medicine should be much more stable now. I haven't eaten rabbit stew in a long time and have been craving it, so I'm going to ask the Guard Captain how to make traps the day after tomorrow."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Oral Administration Experiment #03"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "My body temperature stayed consistent during the 30-hour observation period, with intermittent symptoms of coughing up blood and asthma. The specific cause is still unknown, but it is likely related to drug residues and a high concentration of non-metabolizable substances. Maybe I should try a different targeting agent?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I'm not sure if I put the dates correctly because I've been waking up in the middle of the night for days. I just noticed a lack of control in my shoulders and neck, requiring me to sleep with a high pillow, but will it eventually spread to my brain?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Oral Administration Experiment #07"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Several guards have provided competent feedback, and the medication's effect can now last for nearly five days."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "My vocal cords appear to have suffered irreversible damage. Therefore, I've been unable to talk recently. Next week, I'll be sending the most secure batch of reagents to the guard outpost. I really appreciate their assistance. If my legs feel better tomorrow, I'll go trim the grass at the back of the house. I shouldn't bother the guards anymore."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

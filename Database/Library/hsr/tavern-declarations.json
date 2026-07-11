@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "tavern-declarations",
+  "name": "Tavern Declarations",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Tavern_Declarations",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"A notice posted on a wall in the tavern. The writing has clearly been altered.\""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "All who enter must abide by the following. Don't let your offense be the punchline."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "1. Buy a drink to get a seat."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2. Aha and Mourning Actors are prohibited from entering the tavern. The same goes for anyone claiming to be them."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "3. Do not wear another's mask, nor claim that a mask worn by someone else is yours. Should you find an unattended mask in the tavern, maintain a safe distance and notify the custodian immediately."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "4. All customer feedback (including but not limited to praise, complaints, and drunken ramblings) shall be considered \"user-generated content.\" Once recorded, this establishment reserves the perpetual right to brew it into a specialty joke-drink, without any further notice."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "5. The \"Golden Confessional\" is open only to guests who have had one too many. If you can still recall where it is, then you're not yet ready to unburden your soul. Please leave it for those more in need."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "6. The medical service within \"Fatal Joke\" does not support a pay-later option. However, even with an upfront payment, this establishment cannot guarantee you will receive proper treatment. Note: The one thing it doesn't joke about is its"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "fatality"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "7. When entering the disco ball \"Blisstar,\" you must ensure your identity as a Masked Fool, by any means necessary."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "8. This establishment closes \"when the last customer forgets who they are.\" During business hours, any complaints about the quality of service will be considered an impromptu performance, and the bar reserves the right to drown out your voice with louder noise."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "9. You may run a tab, but you must offer the bar collateral more precious than your sense of humor. For example: a story from Aha's childhood, a chance at becoming the next On-duty drinksmith, or your steadfast belief in \"Let there be laughter.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "10. The final power of interpretation for the above articles is vested in Bragi, Aha, Sampo, Giovanni, Zhongshan, Aha, Nanook, Aha, Sparkle the real Sparkle."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

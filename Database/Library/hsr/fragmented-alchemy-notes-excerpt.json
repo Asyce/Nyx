@@ -1,0 +1,364 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "fragmented-alchemy-notes-excerpt",
+  "name": "Fragmented Alchemy Notes (Excerpt)",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Fragmented_Alchemy_Notes_(Excerpt)",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(...)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "(In neat handwriting) Note: This chapter covers the basic principles of alchemy and introduces the concepts of \"Essence,\" \"Force,\" and \"Elements.\" It is the introductory material for novices."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "This is the indisputable truth"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Know that the Essence of all things is one"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "One becomes two, two begets four"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Thus life thrives in the endless cycle of this world"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "(In messy handwriting) Note: This is the most basic of basics. Don't bother starting if even this puzzles you"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "(In neat handwriting) Addendum: This section provides a summary of the basic principles of alchemy. The discipline is founded on the principle that \"all things are one,\" and studies the transformation and conversion between states of existence. The \"one,\" \"two,\" and \"four\" mentioned refer to the \"'Essence' that gives existence to all things,\" the \"'Force' that transforms all things,\" and the \"'Elements' that construct all things,\" respectively."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Just as Night and Day give birth to one another —"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The roots of \"Reason and Intellect\" repel and separate"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The threads of \"Love and Beauty\" attract and bind"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Thus all things are constructed in this dance of union and division"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "(In messy handwriting) Note: Absolute motion, the foundation of transmutation"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "(In neat handwriting) Addendum: This section provides a brief overview of the \"'Force' that transforms all things.\" It is widely accepted that the Forces driving the ceaseless motion and transformation of all things are \"repulsion\" and \"attraction.\" \"Repulsion\" is often associated with \"Reason,\" which is represented by the Titan Cerces, while \"Attraction\" is often associated with \"Romance,\" represented by the Titan Mnestia. For a more detailed elaboration on this section, see later addendums."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The four may form the foundation of all things, behold —"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Aquila's wind feeds Kephale's flame"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Georios's soil nourishes Phagousa's springs"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Thus all things are constructed from these Elements"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "(In messy handwriting) Note: The four elements that constructed the world. Base substances"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "(In neat handwriting) Addendum: This section provides a brief overview of the \"'Elements' that construct all things.\" It is widely accepted that the base substances that form the material world are the \"four elements.\" Namely, earth, water, fire, and air. These four elements are again, often associated with the Titans Georios, Phagousa, Kephale, and Aquila. For a more detailed elaboration on this section, see later addendums."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "We have gained this wisdom, to distill and refine so to extract the pure from the coarse"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "We have grasped this truth, that from thinking of one we can create all"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Three Titans bless us, so that patterns may be deconstructed, and origins retraced"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "With this work complete, we may create existence from nothingness"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "(In neat handwriting) Note: Sir, your summaries are too terse. They may be unsuitable for novice researchers."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "(In messy handwriting) Addendum: Mind your own business, brat!!!"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(...)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "<!--"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

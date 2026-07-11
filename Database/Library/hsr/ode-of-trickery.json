@@ -1,0 +1,307 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "ode-of-trickery",
+  "name": "Ode of Trickery",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Ode_of_Trickery",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Singing songs to repel Zagreus during your travels can reduce the chances of encountering deception and pilfering along your journey."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Who was born from the tears of Kephale, splashing teardrops of myriad sizes upon the earth?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Please refrain from your schemes, the Coin of Whimsy with two faces and bodies, the shadow of Zagreus."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Did golden butterflies not drive you away before? In their hallowed temple, the position stolen by you, the priest deceived."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Two crimson shadows streak across the sky."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "One is a shade that not even Mnestia's wings can hope to catch."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "One is a thieving star that not even Aquila's eyes can hope to seek."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "You have stolen the wine offering, the ambrosia of bees and butterflies."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "You have stolen the prayers of the altar, the odes to beauty and love."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "What else will you steal? Why not steal your own shadow, and depart post-haste."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "If you linger till the all-knowing father thwarts your schemes, the Scale of Justice will flog you in its judgment."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Who pretends to be the traveler, singing ballads of the wine-colored seas?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Please refrain from your schemes, the Coin of Whimsy with two faces and bodies, the shadow of Zagreus."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The howling tides yet call out your name, giant waves ripping ships to shreds, yet the vessel stolen by you unseen."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Were you the one who caused he ocean's rage? I have heard the sounds of your treads when you fled across the waves."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A snore hiding beneath the mire of the abyss."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A song hiding among sirens' calls."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Do not continue your reprieve, Titan of Trickery."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I will shove your trail into an amphora, and throw it into the vortex of glorious blooms."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I will carve your tricks on a stone slab, offering it to the Chalice of Plenty."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "What are you waiting for? Why not flee with that Spirithief of yours."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Are you waiting for the inebriated Phagousa to strap you to a rock, till the bone-flaying storm hammers you to dust?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Who disrupts the footsteps of destiny, sowing discord amongst order eternally unchanging?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Please refrain from your schemes, the Coin of Whimsy with two faces and bodies, the shadow of Zagreus."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Within the Gate of Infinity, subjected to your trickery, time weeps in darkness, strange days, the trail of chance."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Rolling gold coins become wheels, bandits hide their forms, gamblers go all in."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The hapless Titans will not find out, boldly weave your games."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Even Cerces will be fooled."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Even Thanatos will be blinded."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Scoundrel, why do you enrage your kindred so?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "To even harbor delusions of stealing the Dawn Device from their very grasp."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But it is all for naught, its weight exceeds you by ten thousand."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Are you waiting for the lost Titans to find their way, and shackle you to a corner in the sky?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Who listens to the songs till this moment, lurking amongst the catastrophe of conspiracy, presuming some would laud your deeds in melody?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I have seen through your schemes, the Coin of Whimsy with two faces and bodies, the shadow of Zagreus."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Kephale's dawn has revealed your shadow, no matter where you flee."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Talanton's law pierces your shadow, even if you cry out in false remorse."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Zagreus, with destiny as a witness, I persuade you to depart with haste."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Are you waiting for me to expose you, my foot on your shadow, mocking your pathetic and laughable farce?"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

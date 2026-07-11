@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "divine-echo-deception",
+  "name": "Divine Echo: Deception",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Divine_Echo:_Deception",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Coin of Whimsy, Zagreus"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Weaving a web of words, unlocking the doors of divergence."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Hasten to conceal the edge of falsehood,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "So fools may do good, and the wise may pierce the veil of illusion."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "<!--"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

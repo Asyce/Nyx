@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "invalid-pawn-ticket",
+  "name": "Invalid Pawn Ticket",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Invalid_Pawn_Ticket",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "He'll be back. I know he will."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I, Francis VII, swear by this salamander insignia, which has been handed down for generations, that of the kingdom over which I rule... one third of it shall be given to the lady before me, for her to administer from here on out."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "To this end, through her, the land shall be unified once again after seven hundred years and the fated enmity between the two kingdoms shall come to an end. I shall attain this goal no matter the cost, for the reputation of my family name and her \"glory\" are of paramount importance."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Some minor corrections are required, for the IPC would never interfere to this degree, nor would it ever support autocratic rule by means of violence. Remove the exaggerated descriptions of this king. Everything that we're doing right now is for the sole purpose of collaborating with more civilized people, in pursuit of eliminating some... nefarious enmity."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I, Francis VII, swear by this salamander insignia, which has been handed down for generations, that I am willing to give up the edict that grants me unimpeded passage and hand it over to the lady before me."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "To this end, through her hand, the natural disasters shall cease. Even if only a few of my subjects remain... those who live will be able to reach a brighter place."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I, Francis VII, swear by this salamander insignia, which has been handed down for generations, and plead for you to retrieve that batch of goods. I am asking not out of concern for my own business, but rather for the sake of my family... They need this harvest of mine."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "They... are waiting for my return, yet I cannot appear before them with empty hands. For this, I am willing to pay the price, no matter how steep."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Now I know what \"price\" is. Francis is prepared to pawn the salamander insignia as collateral. From the moment the finished insignia was removed from the furnace, the family's advice had been: \"Never let this leave your side, for the sun shall yet rise again.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "There might be more to their words than I can tell — or maybe not — but it doesn't matter anymore. Please, save the only kin I have left."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "He'll be back. I know he will."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "That's right, even the folks over at the IPC find me more and more contemptible by the day. But if it's you, maybe you'll agree with me... It didn't matter which deal it was. If you'd been there... If you'd tried to stop it all, this poor wretch might even have savagely turned on you instead."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Yes, he would even threaten to take your life... or his own."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "People tend to evaluate the worth of the unattainable in a way that defies reason, even if doing so does more harm than good. My ending will indeed never come."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "But he didn't do anything wrong. He didn't understand, that's all..."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Things don't always go your way in life... That's the most valuable mercy the Creator can within their means."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Seems like a beggar had been chased out... Was he looking at me just now?"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

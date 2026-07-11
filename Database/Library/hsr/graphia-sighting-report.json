@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "graphia-sighting-report",
+  "name": "Graphia Sighting Report",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Graphia_Sighting_Report",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A memo pad in the Inkford Hermitage lobby. It records a series of messages that Casper collected about \"Graphia.\""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "July 9"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Reporter: Former Foodie @AllTastesGood"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Report Details: While eating the buffet breakfast, the guest felt the cookies were extra delicious. The guest suspected that Graphia snuck into the kitchen the night before and used magic to make the food taste better."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Reporter: Former Operator, Big Tooth"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Report Details: The guest answered a call in the room from a person who claimed to be Graphia. The caller invited the guest to a contest of endurance to see who could stay in the hot spring longer."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "July 10"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Reporter: Former Security Officer, Justice Knight"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Report Details: The guest saw a red figure that looked like Graphia walk into room 403 of the hotel."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Reporter: Former Photographer, ClickClack"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Report Details: The guest submitted a panoramic photo of \"Myriad Wish Grove.\" When the photo was enlarged, it showed a red figure that looked like Graphia on the branches."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Reporter: Former Gardener, Daifu"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Report Details: The guest saw a red figure that looked like Graphia in the woods behind the hotel. The figure kicked over many of the ground lamps."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Reporter: Former Captain, Spyro"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Report Details: The guest saw a red figure that looked like Graphia in the middle of Dovebrook. It was drifting on the waves together with some wispae."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "July 11"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Reporter: Former Fisherman, Yada"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Report Details: The guest fished a brand new paintbrush out of Dovebrook. The guest thought it was a relic left behind by Graphia."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "July 12"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Reporter: Former Detective, Mumuriel"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Report Details: The guest claimed that it decoded the secret password in the"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Ballad of Encanvasing"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "and reached the conclusion that Graphia was currently hiding in a comic book store."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

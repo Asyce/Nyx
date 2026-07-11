@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "legend-of-the-floating-island-s-sacred-tree",
+  "name": "Legend of the Floating Island's Sacred Tree",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Legend_of_the_Floating_Island%27s_Sacred_Tree",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The \"Floating Island's Sacred Tree\" is one of the strange tales passed among the sailors of Seafeld City. It is said that in some distant fjord, a mysterious floating island, shrouded in mist and crowned with a great tree, appears and vanishes. No one has ever successfully set foot upon it. Scattered sightings cannot fix its place on any chart. Yet, the more unreachable a place, the brighter the lamp of imagination it kindles."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Speculation on the island's mystery, retold and embellished by countless sailors, has grown into a forest of legends far denser than the sacred tree itself. To trace its roots, this author has compiled the most influential theories, listed below."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Treasure Ship Theory"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "This version is mainly passed down among the older generation of fishermen. It tells that during the Canvas Age, facing an impending cataclysmic flood, a nobleman mobilized the people of his domain to build a colossal ship, large enough to hold them all. But on the eve of departure, the nobleman confessed his deception. All the wealth he had plundered was packed into grain sacks, carried into the hold by unknowing laborers. The ship's provisions, therefore, could sustain only a handful. From the very beginning, the nobleman never intended to take everyone. In the end, guarded by a few loyal soldiers, he sailed away alone."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Lacking a navigator who understood the sea, the great ship merely circled endlessly in the currents. Even after the floods receded and birds returned bearing willow twigs, the nobleman never caught so much as a glimpse of the shoreline. At last, his faithful soldiers took their own lives. The starving nobleman, his belly full of jewels, drifted on with his great ship, forever adrift on the ocean in canvas."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Long after, this great vessel, along with Planarcadia, was salvaged back into reality. The ship's body became an island that refused to enter the water. The nobleman's obsession with his hoard condensed into the clinging mist. And the willow twig carried by the bird grew into the sacred tree upon the island."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Calamity Theory"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "This version is more prevalent among families who have experienced shipwrecks or natural disasters. It posits the floating island as a \"buoy of calamity,\" with its concealment in the mist being its default state. The sacred tree's roots, they say, pierce through the ocean currents, connecting to the seafloor itself. Whenever the sacred tree senses a brewing disaster, its branches extend, lifting the island from the mist to warn sailors of the impending catastrophe."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Archivist Easoo showed this author a timeline she had compiled: several historical sightings were each closely followed by severe shipwrecks, storm surges, or other disasters in Seafeld City. Easoo suggests that even if coincidence plays a part, heeding the old adage, \"When the floating island takes flight, stay out of sight,\" by securing one's home and avoiding the sea for three days after its appearance, has often proven effective in mitigating losses."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"It's just like the 'Detective God of Death' you see in mystery comics, always showing up right alongside the disasters,\" Easoo remarked."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Locker Theory"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "This theory enjoys considerable popularity among young sailors and horror enthusiasts. They believe the mist shrouding the floating island is deliberate camouflage, and the sacred tree upon it is a weapons depot for a \"Guardian\" hidden in history's shadows. Every time the mist dissipates and the island appears, it signals a crisis in Seafeld City that ordinary people cannot overcome, a crisis the \"Guardian\" will emerge to handle."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "This author suggests this notion is largely influenced by popular culture. In the comics these enthusiasts eagerly discuss, a being greater than any superhero requires a remote, mysterious, and inaccessible base, a description the floating island fits perfectly."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Proponents of this theory are active in an online discussion group called \"Mist Watchers,\" attempting to decipher the patterns of the island's appearance and thereby uncover its hidden master. They firmly believe the mystery of the floating island concerns not merely wealth or disaster, but the deeper operational logic of the world itself."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

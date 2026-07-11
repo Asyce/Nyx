@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "experimental-records-of-me13-part-iii",
+  "name": "Experimental Records of δ-me13 (Part III)",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Experimental_Records_of_%CE%B4-me13_(Part_III)",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": ">>> Eternal Recurrence #33550336: Subject Khaslana launched its 33,550,304th attack on the Scepter's kernel. Instantaneous resonance of several hundred million Coreflames allowed it to briefly confront Nanook. Khaslana was detected clashing with other pathstriders of the Destruction in the Path Space, where it was defeated."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": ">>> Khaslana failed to load into the buffer. It used the Destruction to destroy its own data, creating a logic error in the \"Worldbearing\" path. Its purpose is unknown."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": ">>> Incomplete entity \"Irontomb\" has absorbed subject Khaslana. Rolling back extrapolation."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": ">>> Eternal Recurrence #33550337: Significant deactivation of the Destruction equation \"black tide\" detected. Assumed cause: Resistance from the absorbed subject Khaslana."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": ">>> Subject Khaslana's \"hatred\" of the Destruction is suppressing the iterative process of \"Irontomb.\" Administrator intervention required."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,414 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "ruan-mei-s-lab-log",
+  "name": "Ruan Mei's Lab Log",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Ruan_Mei%27s_Lab_Log",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "No. 92"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Research Objective: Create a life form of absolute rationality"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Research Result: It stayed motionless and eventually died of insanity."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Reason for Failure: Life and absolute rationality appear to be incompatible."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "No. 524"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Research Objective: Nurture #8 Lambda"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Research Result: #8 Lambda smiled and then disappeared."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Reason for Failure: #8 Lambda seemed unwilling to come back."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "No. 1024"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Research Objective: Create a lifeform with a distributed existence"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Research Environment: An accelerator and a special incubator"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Research Method: Bombard a Fragmentum creation with high-energy particles to split it into multiple life forms in the quantum state."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Research Procedure: Accelerate high-energy particles and bombard the confined experimental subject until it splits. Feed it fruits blessed by Abundance to sustain its life until the splitting is complete."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Expected Result: The subject will become a distributed life form that can exist at multiple locations simultaneously. The information gained by any one of its split forms would be passed on to all other split forms."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Research Result: The subject obliterated itself after 123 seconds."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Reason for Failure: Intense sadness was detected by the emotion detector. The subject seemed to discern... some sort of truth after receiving excessive information. It was overwhelmed by sadness and chose to end itself by its own will. However, the particles it left behind are still singing at the volume of an atom."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Subject Disposal: N/A (confidential)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "No. 1732"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Research Objective: Create life forms that are natural-born geniuses"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Research Environment: Special incubator"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Research Method: Mix, stir, and heat"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Research Materials: Enlightenment, practice, and starquakes. Add the three materials at a ratio of 1: 1: 1 to make the intellect substrate."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Other Materials: Genius traits, including but not limited to Planet Screwllum's unique machine oil, Yu Qingtu's poisonous cocktail, Sserkal's spider silk, fragments of Herta puppets, and #22 Aiden's handwriting."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Research Procedure:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Optimistic Genius: Add two of Planet Screwllum's unique machine oil."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. Pessimistic Genius: Add three drops of #55 Yu Qingtu's poisonous cocktail."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. Anxious Genius: Add the extract of #29 Sserkal's spider silk."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "4. Aggressive Genius: Add the fragments of Herta puppet."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "5. Altruistic Genius: Add the ink extracted from #22 Aiden's handwriting."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Expected Result: Add traits of the different geniuses into the intellect substrate to create lifeforms with the corresponding trait."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Research Result: Failed"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Reasons for Failure:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. The concentration of genius trait within the subjects is too low (highly likely)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. The geniuses are mediocre (highly unlikely)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. Too much enlightenment was added during the experiment, causing the subjects to develop a tendency to imitate their creator (unlikely)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "4. The genius materials gathered by the creator were counterfeit (highly unlikely)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Subject Disposal: To be shelved or sealed after collecting them together"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "No. 1733"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Date: ██/██/██ Star Calendar"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Research Objective: Nurture the Emanator of Propagation"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Research Environment: Special incubator"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Research Method: Smelt ████ and inject the ██ extract into the protoplasm."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Research Materials: ████, the beginning and end of the Swarm Disaster, and data left behind by the Imperator Insectorum"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Other Materials: Memory Bubbles, Planar fragments, Simulated Aeon's protoplasm, and spore mimicry"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Research Procedure: Using planar fragments as the substrate, add Memory Bubbles, Simulated Aeon's protoplasm, and spore mimicry. Then, extract the energy from the Path of Propagation from the Swarm Disaster data. Lastly, drop in the data left behind by the Imperator Insectorum into the substrate."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Expected Result: The cloned Emanator of Propagation will be born and for 56 seconds."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Research Result: Successful. The subject obliterated itself after 56 seconds."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Subject Disposal: Self-obliteration"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

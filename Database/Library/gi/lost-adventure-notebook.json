@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "game": "gi",
+  "id": "lost-adventure-notebook",
+  "name": "Lost Adventure Notebook",
+  "sourceUrl": "https://genshin-impact.fandom.com/wiki/Lost_Adventure_Notebook",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Eric can't hold on any longer... We had no choice but to give up. I'll leave this notebook here. Maybe this treasure is destined for someone else."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "As you may have noticed, the . Otherwise, the other mechanisms cannot be operated."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But there's a catch..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The person operating the mechanism by the door takes on an enormous risk."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "If the other mechanisms are operated in the wrong sequence, that person will face..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "One other word of advice:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "... We made that mistake, and paid a painful price."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Perhaps... ?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "What is the answer?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Oh, how I wish to know..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But Eric physically can't take any more...\""
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,408 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "destiny-weaver-s-missives",
+  "name": "Destiny Weaver's Missives",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Destiny_Weaver%27s_Missives",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "My Dearest Sisters,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Lately, the skies have borne witness to unusual celestial events. The veil of Oronyx has been rent asunder, revealing rifts akin to glowing embers flickering amidst the eternal night. As I engaged in astrological observations, an unprecedented chill ran down my spine — the paths of stars had been thrown into disarray, wandering across the sky no longer bound by the principles of Talanton."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Even more disturbing, the prophecy from the Vortex of Genesis has grown increasingly obscure. Last night, as I tried to untangle the threads of destiny, they seemed to be caught in some unseen snare, rendering them a chaotic mess regardless of my efforts. Have you faced similar signs?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Stay vigilant at every turn."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "— Dekeleia"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Dear Dekeleia,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Your concerns are not unfounded. The Okhema Fate Compass has, too, gone haywire, its pointers spinning wildly as though manipulated by an unseen hand."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Even worse, thief stars are appearing with increasing frequency. According to ancient prophecies, this signals that Zagreus's schemes are unfolding. But I have a feeling that there's more to it than meets the eye. The paths of thief stars hide a chaotic pattern we've never seen before."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The Coreflame of Janus is also acting up. As night falls, the Gate of Infinity resonates with an eerie sound, as if another world is knocking at our door."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "May the tripartite prophecy bless us."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Dear Sage Helena,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I know that you have been delving into the prophecies left by the former Holy Maiden. Please forgive my abruptness, but the circumstances demand our immediate attention. Recent signs have all pointed to a chilling conclusion: The threads of destiny are being corroded by an unseen force."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The phenomena described by ████████ closely mirror the accounts found in the ancient tome"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Revelations of Eternal Night"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ". Are those warnings, once dismissed as mere allegories, now unfolding into reality?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I eagerly await your latest insights on the prophecies involving ████████, particularly the section about the ██████ Titan."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "— Dekeleia"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Dear Colleagues,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Your findings have solidified my deepest fears. Let's cut to the chase: the ███████ era suggested in the prophecies of █████████ could be a world apart from what we envisioned. While poring over the ancient prophecy texts, I stumbled upon a startling discovery — certain phrases had been deliberately altered. For example, the original text \"Re█████ to the Era Chrysea\" has been changed to \"Returning to the Era Chrysea.\" This minute difference disquiets me, but what truly chills me to the bone is the question — who, or what group, is secretly meddling with these texts?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "What unsettles me even more is that as I was organizing the prophecy repository, I discovered that the records about █████████ are slowly vanishing. It's not due to human intervention; rather, the ink seems to be fading away on its own, as though time itself is erasing that part of history."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I have a hunch that the Three Titans of Fate have already glimpsed into this unfolding. That's probably why the prophecies of Oronyx have become increasingly obscure, the scales of Talanton have lost their balance, and the gates of Janus now quiver with unease."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "— Helena"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Dear Sisters,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The gravity of our circumstances now demands decisive action. In my meditation, I had a chilling vision — the world being engulfed by a dark tide. It's not the Thanatos' River of Souls we're dealing with, but something far older and more wicked."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I propose the following:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Secretly reinforce the seals of the Temple of the Three Fates."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. Make three copies of all prophecy documents and distribute them for safekeeping."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. Find and protect those \"special\" children."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "4. Brace ourselves for the worst-case scenario."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Remember: If the world is indeed marching towards its doom, our mission is to safeguard the Coreflame of hope. Even if the threads of destiny have been corrupted, we must do our utmost to protect the last untainted golden thread."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "May the Three Titans of Fate bless Amphoreus. Until we meet again, soon."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "— Dekeleia"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "[Fragmented records found in a missive]"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "When the veil of eternal night is rent asunder,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "When the scales of justice lose their balance,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "When the Gate of Infinity is eroded by the black tide,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "███ ██████ █████ shall make their appearance in the world..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Do not trust the Coreflame you behold,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Nor believe the prophecies that you've been told."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "For fate has been twisted and turned,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And the truth has long been..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "[illegible text]"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Remember:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The end of the world we fear,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "May herald the dawn of a new start."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But the cost is..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "[text faded]"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

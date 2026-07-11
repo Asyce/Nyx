@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "rising-and-falling-of-river-of-souls-fragment",
+  "name": "Rising and Falling of River of Souls (Fragment)",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Rising_and_Falling_of_River_of_Souls_(Fragment)",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"In the years following the birth of Death, we hadn't the energy to turn our gaze to the silently flowing River of Souls.\""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The origins of the initial records come from a particular war-related document, as seen below:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "...When the military force emerged on the horizon, the surrounding land was fated to become a battlefield before the fourth morning and evening. In the case of a large-scale conflict, the blood staining the earth would gradually shift from crimson to a ghostly purple, stretching in the direction of the victor's departure, and would sink into the earth before Aquila's gaze ever reached it..."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "It is believed that those who witnessed this at the time saw the rare purple as \"the deepest crimson,\" and in other writings, it was described as \"beautiful yet dangerous\" or \"the sorrow of Strife.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "However, according to the manuscript of a general from Aidonia, this understanding only lasted a few Light Calendar years —"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "...Three months after communication with neighboring regions was severed, the plague could not be controlled, and that city fell into complete silence. But after an investigation today, the report from the sentry left me puzzled. He spoke of a purple river appearing in the neighboring snow plains, though no reports of conflict or strife have been heard..."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "...Could I have been wrong all along? That was not a rich crimson, but the path of the dead! I ordered my adjutant to send orders to the troops — under no circumstances should they touch the waters in that River of Souls..."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "This marks the first appearance of the term \"River of Souls.\" Later, its emergence into the physical world was thought to be linked to the birth of \"Thanatos\"..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Unknown: Light Calendar █████ — After a \"city-wide\" hunt, the River of Souls appeared, causing a delay in the return trip."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "██: Light Calendar 25████Strife — Famine led to the death of thirty percent population, with records indicating \"the River of Souls flowing for two days\" in the wasteland outside the city."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Quen██ City: Light███5 — War destroyed the city and the River of Souls flooded the entire district. According to external reports, the flow persisted for at least fifteen days."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "...Combined from Aidonia's documents, scholars have identified a pattern — the River of Souls appears whenever there are significant numbers of deaths and fades away in a few days. Its rise and fall are directly linked to the scale of death."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Debates on its nature continue, with theories such as \"a trial to prevent the dead from meeting Thanatos,\" \"the manifestation of lost souls,\" or \"Thanatos' tears,\" but none have been proven conclusively..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "<!--"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

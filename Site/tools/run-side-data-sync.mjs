@@ -17,8 +17,8 @@ const jobs = [
   ['Genshin TCG data', ['tools/scrape-gamedata-gcg.mjs']],
   ['Genshin furniture data', ['tools/scrape-gamedata-furniture.mjs']],
   ['Miliastra Wonderland data', ['../Scraper/wonderland/scrape.mjs']],
+  ['GI and HSR Library data', ['../Scraper/library/scrape.mjs']],
   ['AMBR TCG images', ['tools/scrape-ambr-gcg.mjs']],
-  ['Genshin banner history', ['../Scraper/banner-history/gi.mjs']],
 ];
 
 const failures = [];

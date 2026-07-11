@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "game": "gi",
+  "id": "dreams-of-the-ancient-capital",
+  "name": "Dreams of the Ancient Capital",
+  "sourceUrl": "https://genshin-impact.fandom.com/wiki/Dreams_of_the_Ancient_Capital",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "A book about a young woman named Lycia who sets out on a journey alone following the ruination of her homeland at the hands of a black dragon."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "On her journey, she met a former guard of the kingdom, now an errant wanderer, and sought his guidance in the art of swordsmanship. But the guard had long since given up hope, and had lost both the will to wield a sword and the courage to swing it."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"I cannot fill a bottle with 'hope' and give it to you,\" said Lycia."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"But I do remember a song from my childhood. It sings of how spring is as fleeting as a shooting star, and it taught me to cherish every flower still in blossom about my feet.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"You need not master the way of the sword,\" said the guard."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"I can see in your eyes that you are already in possession of something even more powerful.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "After continuing on her way once more, following the guidance of the elders, Lycia entered a dense forest and came before a wise owl, keeper of the keys to the Kingdom of Dreams."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The owl's laughter, rolling forth like a shrouding mist, enveloped her from all sides."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Do you know what it means to retreat in the face of adversity?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"As long as my legs can still walk, I will keep moving forward.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Do you fear the thought of death knocking at your door?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"I will fight it, right up until the final moment arrives.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"One last question... Can you swear to set your heart on revenge?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"I—\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Having now obtained the key, Lycia opened the door to the Kingdom of Dreams, where she was to cross a river of stars and ascend an ink-black stairway, enduring many hardships. Finally, she confessed the reason for her coming before the goddess of dreams, and, in exchange for a lock of her golden hair, learned the magic of luring someone into a dream."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Then, she declared that she would take revenge upon the black dragon."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "In the beginning, the black dragon knew only black and white; but under the magic's spell, it dreamed of a thousand and one different worlds, each far more vibrant and vivid than fire and brimstone."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"If worlds like these strike your fancy as well,\" said Lycia,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"I will turn back the dial of the night sky, reversing all the stars in their courses, returning things to the day before you arrived in my hometown.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "At the story's end, Lycia awoke from the previous night's dream to the familiar sights of her hometown outside the window. The birds were singing and the flowers in bloom, and all was at peace."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "From the little door of the wooden cabin, there came a gentle knocking."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Opening the door, Lycia beheld a black-haired stranger standing outside."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"I cannot distinguish the color of your hair,\" the man said."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"But I suppose it must be golden, just like the color of the stars in my dream.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Note at the Back of the Book:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "You really like writing stories about dragons, don't you?"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

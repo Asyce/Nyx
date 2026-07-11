@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "guest-services-memo",
+  "name": "Guest Services Memo",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Guest_Services_Memo",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A small note with elegant handwriting, recording the special quirks and aversions of certain guests at \"Inkford Hermitage.\""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "@JustNeedsLove:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Must not be disturbed while watching the news."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Pamyuski:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Seems to dislike frogs, foxes, and monkeys."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tima Soundwave:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Hates phone reservations. Prefers face-to-face communication."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Trevor Klein:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Unless he brings it up first, don't ask about his past. But if he does bring it up, he usually wants to talk."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Soroush:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Philosopher with a penchant for performance art. Most of what he says is not to be taken literally."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Sharkus:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Whatever you do, don't tell it that it's not actually a shark."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Sudscour:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Gets winded easily when speaking. But it's psychological, not actual asthma."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Reinhardt:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Whatever it does, just tell it, \"You win again.\""
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

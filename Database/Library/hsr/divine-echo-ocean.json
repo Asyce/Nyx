@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "divine-echo-ocean",
+  "name": "Divine Echo: Ocean",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Divine_Echo:_Ocean",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Chalice of Plenty, Phagousa."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As the honey brew spills into the ocean, the waves bloom like flowers."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "In the clamor of great waves and drunkards,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "all awaken amongst the madness."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

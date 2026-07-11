@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "engine-of-creation-component-improvement-proposal",
+  "name": "Engine of Creation Component Improvement Proposal",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Engine_of_Creation_Component_Improvement_Proposal",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[Part location] Leg"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "[Version] Seventh revision"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "[Revisions made]"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. In order to ensure structural stability, additional giant gears have been added, serial numbers: ███ and ████. For further details, see the attachment to the bottom right."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. The water pipe that was originally used for water cooling has been removed and changed to steam absorption for heat dissipation, with a waste gas exhaust pipe added to the top of the original component. The connection method is still to be discussed."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. Two Geomarrow motors have been added to ensure power, located in the base of the component."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "[Future improvements]"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. In order to ensure that this component will not damage the power core while running, a protective cover is scheduled to be added to the Geomarrow motor. The Logistics Department will need to purchase this."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. We estimate that more Geomarrow engines will need to be added in order to offset the extra weight caused by the protective cover."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Various suggestions from others have been posted around the frame."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Suggestion: Could the gears be too large?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Reply: Large is good."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Suggestion: Maybe there are too many gears?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Reply: More gears look better."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Suggestion: Would the exhaust pipe obstruct movement?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Reply: I don't think so."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Suggestion: This thing doesn't look like a leg, it looks more like a chimney. Can its \"knees\" even bend?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Reply: We'll add that later."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Suggestion: Have you considered taking up mining instead?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Reply: Not at the moment."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Suggestion (additional): No need for consideration, someone is taking over your project tomorrow. Go and familiarize yourself with mining machinery."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

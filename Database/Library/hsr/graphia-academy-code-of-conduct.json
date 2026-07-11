@@ -1,0 +1,469 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "graphia-academy-code-of-conduct",
+  "name": "Graphia Academy Code of Conduct",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Graphia_Academy_Code_of_Conduct",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A tedious list of regulations, though it seems every \"strictly prohibited\" item exists for a good reason..."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Graphia Academy is the finest institution for the arts in all of Planarcadia. We are dedicated to providing every student with a world-class education. For the sake of your future, please observe the following rules and regulations with the utmost care."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Chapter I: Student Rights and Obligations"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "1. The academy promise to safeguard all basic student rights."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. We maintain a \"Message for the Dean\" mailbox. Should any student feel their rights have been compromised, they may submit their feedback there."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "4. Students must respect their instructors, maintain solidarity with their peers, and uphold the school's reputation through honesty and hard work."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "5. The school maintains a zero-tolerance policy for misconduct. Any student found engaging in illegal activities will be dealt with severely."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "6. All members of the academy are expected to coexist in harmony, respecting the customs of all groups to foster a peaceful campus environment."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Chapter II: Academic Facility Management"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Academic Buildings and General Classrooms"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "1. Academic buildings are open from 06:00 to 23:00. Please consult your \"Class Schedule\" for specific times."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. Classrooms are divided into \"General\" and \"Activity\" rooms. Please ensure you are in the correct room for your session."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. Our hallways have a tendency to lead to unexpected locations. Remain calm and refrain from running or trying to ram through others."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "4. Should you find a classroom has shifted locations, familiarize yourself with its new rule of movement to avoid tardiness."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "5. Please wait your turn for the restrooms. If you knock and a female voice responds, \"I'm here,\" do NOT open the door. Report the incident to a staff member immediately."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "6. Some buildings are currently under renovation. Avoid areas with piled debris or unfamiliar, empty halls, and never attempt to force open a locked door."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Activity Classrooms"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Note: Currently, our activity classrooms consist of the \"Painting Studios\" and the \"Gymnasium.\""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "1. \"Painting Studios\" are strictly off-limits outside scheduled imagenesis classes."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. Do not linger on the thirteenth step outside the \"Painting Studio.\" The school assumes no responsibility for any consequences resulting from this action."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. In partnership with the \"Department of Aberration Defense,\" all works created during imagenesis will be neutralized after class. Do not dwell on these fantasies. The unauthorized creation of imagenae is strictly prohibited."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "4. The Gymnasium is open, but do not wander into senior-level \"Aberration Prevention\" classes. We wish to avoid any unnecessary accidents."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "5. Follow all instructor guidance and wear your protective gear properly during Aberration Prevention. In the event of an injury, notify the infirmary at once. Ms. Anoine will provide all necessary aid."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "6. A loose Gymnasium door is a known issue being addressed by maintenance. If you hear strange noises coming from it, do not kick the door, and leave the area immediately."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Chapter III: Other Campus Infrastructure"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Atrium and Entrance Hall"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "1. A number of creations left by our alumni are on display here for educational purposes. Please treat them with respect."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. Do not attempt to converse with the imagenae in the Atrium, and never agree to any promise that would lead you into the \"World in Canvas.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. Open flames are strictly prohibited within the Atrium. The school will pursue legal action for any damage to or theft of the artwork."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "4. Please use the foyer storage locker responsibly. Should a locker door refuse to open, contact a staff member. They will assist in \"relocating\" any imagenae that may have taken up residence inside."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "5. Please maintain proper conduct while shopping at the General Store. The academy reserves the right to review all student and faculty purchase records."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "6. NO GRAFFITI ALLOWED ON CAMPUS!!!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Library"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "1. It is normal for the TV cabinet in the library to shake. Please do not panic and look for an administrator for help."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. You may borrow and read the books in the library freely. If there is a book that requires experimentation or payment, please handle them with caution."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. Please strictly abide by any other requirements from the librarian."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Chapter IV: Club Management Regulations"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "To encourage a well-rounded development for all students, our school is willing to provide appropriate support for the establishment of various interest clubs. However, all clubs must strictly follow the requirements below. Any club found in violation will face disbandment."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "1. To establish a club, at least five members are required, and an application must be submitted to the school for approval."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. The student council is charged with the investigative responsibility of regulating club conduct. It shall be presided over by two co-presidents: one human and one imagenae."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. Club activities must be civilized and abide by the student's code of conduct. Spreading false rumors on campus is strictly prohibited."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "4. If malicious acts are committed in the name of a club, the school will hand the culprits over to the security officers for investigation after they have been stopped and apprehended."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

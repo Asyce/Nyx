@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "records-of-the-early-nation-fragment",
+  "name": "Records of the Early Nation (Fragment)",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Records_of_the_Early_Nation_(Fragment)",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "We often look back at the history before the Three Sufferings with a judgement gaze."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "For the veil of time hangs low before us and shrouds the past in mist, abjuring even the eldest among us to see clearly."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Thus, we evaluate the people of four thousand years ago in this way: Attempting to walk the path of immortals as humans, to endure divine miracles as mortals, only to suffer the backlash of karma in the end."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "However, now, let us part the veil and gaze with your own eyes. Was the past truly wretched so?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The Ambrosial Arbor grew and the path of immortality prospered. Humans explored the world with infinite lifespan, caring for themselves as divine beings. The Xianzhou fleet sailed across the vastness, like the holiest among all creatures."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Crafting miracle pills, harmonizing Fallow Earth, seeking endless immortality through altered flesh — that very moment was the eternity that stretched till boundless infinity."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The immortality of flesh gives birth to liberated souls, and billions upon billions of freed souls — in the name of the Xianzhou — resound the will of longevity across the starry seas."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "We enlightened the beasts, enabling even pilose creatures to speak the language of humans. We illumined gold and stone, using the jade abacus to deduce the events of eternity."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The Ambrosial Arbor grew and the path of immortality prospered. Why should there be any crime in all beings enjoying such abundance? The dynasty of the Primeval Imperium came to the end, and the newly born Xianzhou fleet set sail toward freedom, eternity, and compassion, carrying infinite brilliance. But why, at that time, did the Reignbow Arbiter obstruct our course?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "For but a moment as I roused, I saw the Ambrosial Arbor standing there, just as before. In the blink of an eye, it disappeared."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But it will return eventually, guiding the Xianzhou back to its rightful course."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

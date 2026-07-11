@@ -1,0 +1,495 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "dromas-post-account-board",
+  "name": "Dromas Post Account Board",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Dromas_Post_Account_Board",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "We were meant to be celebrating the beginning of the Month of Everday, but it turns out that we've already spent all of our public funding. Do you lot know nothing about saving?\nI'm starting an account record this month, and every payment is going to be written out clearly."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Light Calendar Year 4930 — Month of Joy"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "10 blocks of soil — 2,000 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "7 blocks of soil — 1,600 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "7 blocks of soil — 1,720 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "10 blocks of soil — 2,000 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "6 blocks of soil — 1,741 Balance Coins"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "That's not how you keep a record, you idiots! A dromas would be a better accountant than you! Do you know how to categorize? Also, why is soil so expensive? Why is every batch a different price?\nBoss, the soils are all different qualities.\nGo and find a professional earth scout and sign an agreement for regular deliveries. That will save money. Don't keep buying it in batch-by-batch like fools. Record the soil prices once at the end of every month from now on. Okay."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Light Calendar Year 4930 — Month of Everday"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Earth Scout fee — 30,000 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Red soil, 120 standard blocks — 12,000 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Yellow soil, 120 standard blocks — 15,000 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Black soil, 15 standard blocks — 3,000 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Dromas harness refurbishment — 41,750 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Payments for egg supervision — 3,000 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Total outgoing payments for this month: 104,750 Balance Coins."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "That's more like it. Just keep doing it like this. If there are no changes next month, just write \"same.\" Okay.\nThe earth scout fees are a little too high, so find a cheaper one.\nBoss, there are no cheaper ones. No one is willing to do the work with the Black Tide around.\nAlright, just leave it as it is for now."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Light Calendar Year 4930 — Month of Freedom"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The same as last month, except the dromas harnesses didn't need renovating again"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Donation to the priests of Georios — 100,000 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Total outgoing payments for this month: 163,000 Balance Coins"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Is this donation absolutely necessary? It is, boss.\nI mean, could you not donate less? We can't, boss.\nAgh, fine. The big guys need the Benediction of Georios, so we have to pay what is required. If we don't have enough in the budget, then we'll go and ask the elders."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Light Calendar Year 4930 — Month of Reaping"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Same as last month, but soil prices were different"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Red soil, 120 standard blocks — 12,000 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Yellow soil, 100 standard blocks — 12,000 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Black soil, 15 standard blocks — 3,000 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Dark red soil, 120 standard blocks — 15,000 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Donation to the priests of Aquila — 100,000 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Total outgoing payments for this month: 175,000 Balance Coins"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "What is dark red soil? Why do you have to give a donation to the priests of Aquila?\nBoss, the earth scout said that dark red soil is a type of soul. It's very rare and expensive.\nLet me see.\nThat is just *Amphoreus slang* red soil! You brain-dead fools! Go and find another earth scout immediately! What about that donation?\nThe priest said that the land and the sky are one. As we live in the holy city of Kephale, we should make equal donations to both.\nGod, how you infuriate me! From now on, you are not permitted to make donations to priests of any faith. Do you understand me?\nBut what if... There is no what if!\nForget it, I can't trust you anymore. I'll do my own account next month."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Light Calendar Year 4930 — Month of Weaving"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Earth scout fees — 42,000 Balance Coins."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Soil price — four types for a total of 20,000 Balance Coins."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Marmoreal Palace repair costs — 113,384 Balance Coins."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Inviting a Grove Scholar to give a lecture — 300 Balance Coins (Not included in calculation)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "My mistake. I forgot to keep an eye on the troublesome one, and it went and charged a hole through the wall of Marmoreal Palace.\nAs for you lot, I've paid a huge price to invite a Grove Scholar to come and teach you about scam awareness. No more falling for schemes and scams! Okay\nAt least the new Earth Scout seems pretty reliable."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Light Calendar Year 4930 — Month of Strife"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Earth scout and soil prices unchanged."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "New soil baskets — 3,000 Balance Coins."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Herbal medicine (for 5 dromases) — 15,000 Balance Coins."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Ritual of Cerces — 99,930 Balance Coins."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sale of dromas horns (5 horns) — +50,000 Balance Coins."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Month of Strife is upon us again, and half the dromases are sick. Fortunately, we were pre-prepared.\nLet us hope they recover quickly."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Light Calendar Year 4930 — Month of Mourning"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Earth scout unchanged."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Soil amount doubled. Soil prices doubled."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Hoof trimming tools final payment (paid to the Grand Craftsman) — 30,000 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Saddle renovations (15 items) — 700,000 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Bard hiring fee — 10,897 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Assignment deposit — +600,000 Balance Coins."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Snacks for Lord Tribbie — 200 Balance Coins."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Wishing you a smooth journey."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

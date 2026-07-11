@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "seafeld-tv-chronicles",
+  "name": "Seafeld TV Chronicles",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Seafeld_TV_Chronicles",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A brochure printed with the Seafeld TV logo, recording key events in the station's developmental history."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In Arcadian Calendar 1870, the wealthy merchant Akasha founded the original Seafeld TV alongside the ploo known as \"Maxion\" to enrich the leisure lives of the local citizens. Rumor has it that the initial construction plans for the Seafeld TV Tower were rejected due to safety hazards. Facing limited funds, \"Maxion\" rallied over two thousand ploos to fill their bodies with Wishpower, with which they completed the construction of the tower's main structure."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Arcadian Morning Report"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "was the only program on the station at that time. Its vision of 24-hour non-stop news was initially mocked by industry rivals. Everything changed a few years later during the Phantasmoon Games. Seafeld TV was the first to provide total and relentless coverage of the event from every possible angle. This attracted a massive influx of viewers and Wishpower, instantly transforming the station into a media titan of Planarcadia."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In Arcadian Calendar 1880, the number of imagenae viewers surged. In response, the station launched several new channels dedicated to imagenae audiences. Among them,"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Fantastic Ploos and Where to Find Them"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "became a massive hit. The legendary tale of \"Maxion\" was passed down among the ploo population."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In Arcadian Calendar 1900, Director Narudo secured a partnership with the imagenae known as thundercoil. The latter was offered a massive hoard of Wishpower in exchange for its services as a signal relay station. Following this deal, Seafeld TV broadcasts finally reached the distant cities of Planarcadia. That same year, the"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Pixel Gourmet"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "channel premiered to the public."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In Arcadian Calendar 1980, the Seafeld TV Tower underwent its fourth major renovation. Its height reached more than double that of the original structure, and the number of employees surpassed two thousand."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In Arcadian Calendar 1984, during the Herald of Death incident, Seafeld TV reporters risked their lives to provide detailed tracking of the case. They contributed significantly to the evacuation of the affected populace. Following the subjugation of the Herald of Death, the station was honored with the title of \"Outstanding Media Organization of the Era\" by the Planarcadia Council. That same year, the first season of"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Please Be Happy"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "premiered, achieving a viewership rating of 17.9%."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In Arcadian Calendar 1988, Fulwish took office as the 19th station director, and Seafeld TV was renamed Fulwish TV."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -108,6 +108,65 @@ async function countFiles(dir) {
   return count;
 }
 
+async function verifyRuntimeData(base) {
+  const manifestText = await readDeployText('data/runtime-manifest.json');
+  const manifest = JSON.parse(manifestText);
+  if (manifest?.schemaVersion !== 1 || !Array.isArray(manifest.files) || !manifest.files.length) throw new Error('runtime manifest is missing or invalid');
+  const urls = new Set();
+  for (const entry of manifest.files) {
+    if (!entry?.url?.startsWith('/data/') || entry.url.includes('..') || urls.has(entry.url)) throw new Error(`runtime manifest has unsafe/duplicate URL ${entry?.url}`);
+    urls.add(entry.url);
+    const relative = entry.url.replace(/^\/+/, '');
+    const bytes = await fs.readFile(path.resolve(deployDir, relative));
+    if (bytes.length !== entry.size) throw new Error(`${entry.url} size does not match runtime manifest`);
+    const hash = crypto.createHash('sha256').update(bytes).digest('hex');
+    if (hash !== entry.sha256) throw new Error(`${entry.url} hash does not match runtime manifest`);
+    if (/\.json$/i.test(entry.url)) JSON.parse(bytes.toString('utf8'));
+    else {
+      const iconHash = entry.url.match(/\/([a-f0-9]{64})\.(?:png|webp)$/i)?.[1];
+      const webp = bytes.length >= 12 && bytes.subarray(0, 4).toString('ascii') === 'RIFF' && bytes.subarray(8, 12).toString('ascii') === 'WEBP';
+      const png = bytes.length >= 8 && bytes.subarray(0, 8).equals(Buffer.from([137,80,78,71,13,10,26,10]));
+      if (!iconHash || iconHash !== hash || (!webp && !png)) throw new Error(`runtime manifest has invalid binary ${entry.url}`);
+    }
+  }
+  for (const game of ['gi','hsr']) {
+    const indexUrl = `/data/library/${game}/index.json`;
+    if (!urls.has(indexUrl)) throw new Error(`runtime manifest is missing ${indexUrl}`);
+    const index = JSON.parse(await readDeployText(indexUrl.slice(1)));
+    if (!Array.isArray(index.entries) || index.entries.length !== index.count || !index.entries.length) throw new Error(`${indexUrl} is empty or invalid`);
+    for (const row of index.entries) {
+      if (!urls.has(`/data/library/${game}/${row.file}`)) throw new Error(`${indexUrl} book is absent from manifest: ${row.file}`);
+      if (row.icon && !urls.has(`/data/library/${game}/${row.icon}`)) throw new Error(`${indexUrl} icon is absent from manifest: ${row.icon}`);
+      const book = JSON.parse(await readDeployText(`data/library/${game}/${row.file}`));
+      if (book?.schemaVersion !== 1 || book.game !== game || book.id !== row.id || book.name !== row.name || !Array.isArray(book.volumes) || book.volumes.length !== row.volumeCount) throw new Error(`${row.file} identity/volume data does not match ${indexUrl}`);
+      if (!Array.isArray(row.volumeLabels) || row.volumeLabels.length !== book.volumes.length) throw new Error(`${row.file} labels do not match ${indexUrl}`);
+      for (let volumeIndex = 0; volumeIndex < book.volumes.length; volumeIndex += 1) {
+        const volume = book.volumes[volumeIndex];
+        if (volume?.label !== row.volumeLabels[volumeIndex] || volume?.document?.version !== 1 || !Array.isArray(volume.document.blocks)) throw new Error(`${row.file} volume ${volumeIndex + 1} is invalid`);
+        for (const block of volume.document.blocks) if (!['heading','paragraph','list','table','image'].includes(block?.type)) throw new Error(`${row.file} has a disallowed structured block`);
+      }
+    }
+    await checkFetch(base, indexUrl, '"entries"', 100);
+    await checkFetch(base, `/data/library/${game}/${index.entries[0].file}`, '"volumes"', 100);
+  }
+  for (const game of ['gi','hsr','zzz','wuwa','ae']) {
+    const url = `/data/banner-history/${game}.json`;
+    if (!urls.has(url)) throw new Error(`runtime manifest is missing ${url}`);
+    const history = JSON.parse(await readDeployText(url.slice(1)));
+    if (history?.schemaVersion !== 1 || history.game !== game || !Array.isArray(history.records) || !history.records.length) throw new Error(`${url} is empty or invalid`);
+    await checkFetch(base, url, '"records"', 100);
+  }
+  for (const game of ['gi','hsr','zzz','wuwa']) {
+    const url = `/data/activities/${game}.json`;
+    if (!urls.has(url)) throw new Error(`runtime manifest is missing ${url}`);
+    const activities = JSON.parse(await readDeployText(url.slice(1)));
+    const minimum = { gi:2, hsr:3, zzz:2, wuwa:1 }[game];
+    if (activities?.schemaVersion !== 1 || activities.game !== game || !Array.isArray(activities.activities) || activities.activities.length < minimum) throw new Error(`${url} is invalid`);
+    await checkFetch(base, url, '"activities"', 80);
+  }
+  return manifest.files.length;
+}
+
 async function checkFetch(base, route, contains, minBytes = 500) {
   const res = await fetch(base + route);
   const text = await res.text();
@@ -138,6 +197,8 @@ async function main() {
       ['/genshin/database/tcg', 'Genshin Impact'],
       ['/genshin/database/serenitea-pot', 'Genshin Impact'],
       ['/genshin/database/wonderland', 'Genshin Impact'],
+      ['/genshin/books', 'Genshin Impact'],
+      ['/hsr/books', 'Honkai: Star Rail'],
       ['/genshin/serenitea-pot', 'Genshin Impact'],
       ['/genshin/characters/skirk', 'Genshin Impact'],
       ['/hsr/characters/castorice', 'Honkai: Star Rail'],
@@ -146,6 +207,7 @@ async function main() {
     ]) {
       results.push(`${route} ${await checkFetch(base, route, marker, minBytes)} bytes`);
     }
+    results.push(`runtime data ${await verifyRuntimeData(base)} files`);
   } finally {
     await close(server);
   }
@@ -168,6 +230,9 @@ async function main() {
   if (!bundle.includes('database/serenitea-pot')) throw new Error('bundle missing canonical nested Database routes');
   if (!bundle.includes('database/wonderland')) throw new Error('bundle missing Wonderland Database route');
   if (!bundle.includes('Search Miliastra Wonderland')) throw new Error('bundle missing accessible Wonderland search');
+  if (!bundle.includes('Search The Library')) throw new Error('bundle missing The Library search');
+  if (!bundle.includes('Opening book')) throw new Error('bundle missing The Library lazy-reader state');
+  if (!bundle.includes('Book volumes')) throw new Error('bundle missing accessible Library volume controls');
   if (bundle.includes('asyce.com/asivepulled')) throw new Error('bundle contains old helper URL');
   if (!indexHtml.includes('class="page-bg"')) throw new Error('index page missing restored background layer');
   if (!indexHtml.includes('page-pattern')) throw new Error('index page missing restored pattern background');

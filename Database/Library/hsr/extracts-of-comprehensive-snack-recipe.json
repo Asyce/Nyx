@@ -1,0 +1,374 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "extracts-of-comprehensive-snack-recipe",
+  "name": "Extracts of Comprehensive Snack Recipe",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Extracts_of_Comprehensive_Snack_Recipe",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Preamble"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "This recipe book compiles the finest snacks from various galaxies and divides them into seven categories: buns, dumplings, cakes, pastries, rolls, pancakes, and flaky pastries. Apart from traditional recipes, this book also features innovative and cross-genre new dishes. Each recipe comes with detailed instructions, suitable for beginners and professionals alike"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Purchased on ██/██/██ Star Calendar — Ruan Mei"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Plum-Scented Soybean Cake"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Main Ingredients: Falling plum blossoms seen while in regret, powder of sugared plums wrapped in perilla, soybean"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Additional Ingredient: Melted snow on aged plum blossom petals, which must be shaken off by a maiden's hand into a flowerpot and buried in soil for more than a year"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Seasoning: A soft singing voice and a poem from disheartened poet"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Instructions: Wash and soak the soybeans, then add the melted snow and grind into a paste. Stir in sugar and powder of sugared plums wrapped in perilla. While singing softly, fry the mixture until it dries and knead it into a ball. Put it into a mold and let it cool. Then, press several fallen plum blossoms on it and wrap it in parchment paper with the disheartened poem printed on it for storage."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Flavor: It has a mouthwatering aroma and a lingering aftertaste."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Note: This recipe is complicated and takes one year to prepare. It is recommended to enjoy this snack with tea brewed with rainwater during the season when the plum blossoms are in bloom."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "This snack is elegant, and I love it."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Steamed Sugar Custard"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Main Ingredients: Fresh milk, sweet fermented rice wine, three portions of good mood, and a gust of summer night breeze"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Additional Ingredients: 15g of rock sugar, 5g of almond slices"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Instructions: Boil fresh milk with rock sugar and add three portions of good mood. Strain it and leave it to cool in the summer night breeze. Pour the sweet fermented rice wine into the fresh milk and stir evenly. Steam it for about 15 minutes. Let it cool and set. Sprinkle almond slices on top, then refrigerate for three hours to set."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Flavor: Soft, aromatic, and rich."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Perfect for summer."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Lotus Root Osmanthus Cake"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Main Ingredients: Old lotus root, flour"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Additional Ingredients: Lover's sweet nothings, osmanthus flowers"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Instructions: Slice the old lotus roots, soak them in water for three days. Crush them and extract the juice, then strain it. Pour it into the water, and heat it using the stove of honesty until it becomes lotus root powder. Then, mix the lotus root powder with flour, white sugar, osmanthus flowers, and sweet nothings from lovers. Stir well and let it set. If you don't have lover's sweet nothings, you can use white sugar as a substitute."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Flavor: Chewy with the robust aromas of osmanthus and lotus root."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "It was common when I was little, but the authentic ones are rarely seen nowadays."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Pearl-Popping Xiaolongbao"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Main Ingredients: Fermented dough, cabbage, Trotter eyes"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Additional Ingredients: spring onion and ginger water"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Seasoning: Sugar, light soy sauce, and oyster sauce"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Instructions: Slice and chop the cabbage finely. Then, add a little light soy sauce and oyster sauce to the tapioca pearls, and add the onion and ginger juice then stir and marinate for 15 minutes. Add the cabbage slices to the Trotter eyes, mix until the mixture is firm, then set it aside. Knead the fermented dough, roll it into round xiaolongbao skins, put the filling inside, and steam them in a steamer over high heat. When the water boils, switch to low heat. Once you turn off the heat, let it simmer for two to three minutes before opening the steamer lid."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Flavor: The xiaolongbao skin is chewy, and the filling is tasty with the perfect balance of savory and sweet flavors. It tastes even greater with milk tea!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "..."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "(The graceful yet solemn ellipsis has a hint of doubt and incredulity)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Stargazer's Pie"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Main Ingredients: Galactic indigenous fish, the gaze of innocent eyes, the screams of ignorant fools"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Additional Ingredients: Hard-boiled eggs, potatoes, onions, and bacon"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Seasoning: Olive oil, chicken stock, red wine, and cream"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Instructions: Clean the fish, remove its internal organs, and cut off its head and tail to use later. Cut the rest of the fish into half and stuff it inside the crust. Dice the onions and potatoes and slow-cook them in chicken stock and cream before pouring them into the crust. Add the gaze of innocent eyes and bake it with the screams of ignorant fools for half an hour before serving."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Flavor: Creamy and milky taste, rich in fat. A must-have at gatherings!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Note: Let's do stargazing together!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "This is getting weird..."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

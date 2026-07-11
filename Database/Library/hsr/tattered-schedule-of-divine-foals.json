@@ -1,0 +1,555 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "tattered-schedule-of-divine-foals",
+  "name": "Tattered Schedule of Divine Foals",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Tattered_Schedule_of_Divine_Foals",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"For the glory of Janusopolis, to save the world from the black tide, we, operators of Janus' divine foal, shall cross the Passage and embark on our journey of alliance, until the crisis subsides and unity prevails.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "— Oath of the divine foals"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"All of us are always 'traveling.'\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "— Prophecy of the passage to the divine foals,"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "interpreted by the High Priest"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "'''"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Zero: Janusopolis'''"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Divine Foal Zero shall remain in Janusopolis, serving as a transit and rest hub for operators."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A second divine foal may be added with the same function if the demand grows"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "With resources stretched thin, we call upon operators to endure with noble sacrifice."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "'''"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "(See █████ for Divine Foal Zero's schedule)"
+              },
+              {
+                "type": "strong",
+                "children": []
+              },
+              {
+                "type": "text",
+                "text": "I. Okhema'''"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "This marks the divine foal's first trial run. Due to its physical proximity to Janusopolis, this city-state was chosen for the initial crossing to verify the divine foal's functionality. A messenger was also sent by land to confirm the connection."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Addendum: Connection successful, operator elevated to full priest. The tripartite priests plan to establish this as the first regular route."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Addendum: Due to alliance value, a second divine foal will cross to Okhema."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "III. Stymphalia"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "One of the front line cities against the black tide disaster. The divine foal's mission is \"alliance.\" After successful crossing, the operator used Janus' authority to transport some supplies from the city and obtained extensive recorded information about black tide creatures."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The route has been converted to regular status and will be maintained until the disaster ends or connection is lost due to force majeure."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "IV. Castrum Kremnos"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The divine foal's mission is also \"alliance,\" seeking to secure the location of the Strife and its authority as an ally against the black tide. The Temple of Fates has sent five operators in succession to locate the city-state, but due to Kremnos's mobile nature, the passage's connection remains unclear. Two operators have since gone missing."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "XI. Oleinus"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Situated centrally, far from the black tide's threat, the divine foal completed its mission to establish trade relations with this agricultural city-state. The route was made permanent to maintain friendly ties."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "XV. Ladon"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sharing the mission of those sent to Castrum Kremnos, but the first crossing immediately established contact with the sky-worshiping tribal inhabitants. Alliance negotiations are ongoing."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Addendum: The route's operator shows remarkable persuasion skills but concerning autonomy. Close supervision is advised."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "VII. Epos"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A risky attempt. The remote city-state of Epos reportedly had minimal prior connection to Titan worship. Thus, one of the twelve scholars from the Temple of the Three Fates was chosen as the operator, hoping they could spread the Fate Titans' grace to that savage land."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "XVI. Paphas"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The prophecy was unclear. Only upon arrival did the operator realize this was the rumored city-state devoted to Mnestia. Due to physical distance, only teachings were exchanged, along with local specialties (golden apples)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": []
+              },
+              {
+                "type": "text",
+                "text": "VI. Grove of Epiphany'''"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The divine foal's mission to the Grove focused on knowledge exchange and talent recruitment."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Addendum: Failed to reach agreement on value exchange. Operator lost contact after several round trips."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Addendum: Evidence suggests the operator expressed a desire to pursue truth and become a scholar, suggesting their \"disappearance\" was likely voluntary defection."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "XII. Dolos"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The divine foal's mission wasn't alliance-seeking but rather to investigate how this Zagreus-worshiping city-state planned to face the black tide calamity. Results unclear. According to the operator's account, local residents spontaneously modified the divine foal's shell to resemble a dromas. Its divinity gradually dispersed as a result."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "XIX. Mileutus"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Divine foal failed to connect."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "XXIII. Bulsa"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Too geographically distant, only resource trade was proposed."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Addendum: Connection efforts continue despite distance."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Addendum: This city-state became embroiled in conflict with Castrum Kremnos. The King of Bulsa traveled far to seek aid from Janusopolis, but Time's prophecy revealed the city-state's destruction. This route will be abandoned, pending notification to the returning operator."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "II. █ty█ia"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Divine foal's mission:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "███████Drago███████████truth."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "██. ███"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "██████████████████"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

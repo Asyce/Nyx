@@ -1,0 +1,297 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "medical-record-fulwish",
+  "name": "Medical Record: Fulwish",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Medical_Record:_Fulwish",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Name:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Fulwish"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Sex:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Female"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Homeland:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Planarcadia"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Species:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Humanoid, Category: Ahatopian Subspecies"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Department:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Cranial Neurology Department"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Chief Complaint:"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "After experiencing significant psychological trauma, the patient developed an unknown disorder in the language center."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Specific symptoms include an inability to describe negative feedback received by the self, and an inability to actively express the pain perceived by the self."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Meanwhile, the patient exhibits hallucinatory symptoms, described as the ability to sense the inner desires of others."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Past Medical History:"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The patient is in good health with no relevant medical history or family history of hereditary diseases."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Patient previously suffered from post-traumatic stress disorder."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Examination Report:"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Electroencephalogram, cerebral lobe structural imaging, and modeling analysis indicate no foreign bodies or visible damage to the patient's brain. Mild non-pathological tissue growth detected at the Synesthesia Beacon implant site. The cause remains unknown."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Following a localized Wishpower detection (approved by the Department of Aberration Defense), low-frequency undetectable imagery appeared in the anterior cingulate cortex, but hasn't significantly affected the cranial nerves yet. Its correlation with the patient's condition remains unverified, and the possibility of psychologically induced language disruption can't be ruled out."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Testing confirms the Patient can accurately describe the desires of others. Simultaneously, as the Patient verbalizes these descriptions, the empathetic subject experiences intense hallucinations and loses all rationality. The mechanism behind this remains unclear, though it appears to fall under hypnotic or telepathic phenomena."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "For now, we'll designate the patient's unusual condition as \"Happiness Syntax.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Prescription:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Aberration-Interference Sustained-Release Tablets Type II. Take 2 tablets daily, one in the morning and one in the evening, 30 minutes after meals."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Dosage will be adjusted based on disease progression and follow-up evaluations."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Treatment:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Schedule a visit to the clinic upon feeling unwell."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

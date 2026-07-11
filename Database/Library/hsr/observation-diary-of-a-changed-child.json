@@ -1,0 +1,280 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "observation-diary-of-a-changed-child",
+  "name": "Observation Diary of a \"Changed\" Child",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Observation_Diary_of_a_%22Changed%22_Child",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "(The notebook's cover is covered in soot, ore dust and stained beyond recognition. However, the notebook is barely used.)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "February 21"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I asked the others what animals they are observing for their homework. Most of them chose things like Olms, Funeral Worms, and Crystal Lizards. I wanted to observe something special, so I decided on Daddy's robot pet called Sevy. It has a square head, four legs, and everyone in the family loves it."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Today, Daddy asked me to prepare dinner for Sevy, so I brought it to the energy conversion station to feed it."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "February 22"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Mommy brought me to Boulder Town to play, no observation diary."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "February 23"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Daddy took Sevy out, unable to do observation for diary."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "February 24"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Daddy told me that he had made some changes to Sevy, so now it can speak and is smarter, it can help with some simple housework."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I wanted to test how smart Sevy is, so I told Sevy, \"I'm not feeling too well today, please ask the teacher for a day off for me!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sevy immediately understood, saying to me, \"You're sick, aren't you?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "So yeah! Sevy is very smart!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "(Teacher's Note: Please stop calling this robot a pet.)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "February 25"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Today, Mommy took me and Sevy out to play. I put a rope around Sevy's neck and went out with it."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "We met Jimmy, who brought his own robot pet."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Jimmy's pet has two eyes, the top eye is green and bottom eye is red. They're both round. There are some claws below its head, it looks like the steamed Rock Crab mommy made last night."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Jimmy and I decided to play together, and both of us forgot about our . When we found them, they were hugging. I think they must have fallen in love, because Tommy and Mary are like that in class."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "(The teacher drew a large question mark at this entry.)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "February 26"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I got sick and slept all day, so I didn't do any observation."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "February 27"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I got sick and slept all day again, so I didn't do any observation."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "(Teacher's Note: Out of the seven days of assignment, you've only done three? Also, robots are not pets!)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "February 28"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Teacher gave my observation diary a ZERO! Even Mommy said I was wrong."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I'm so angry, I will be evil from now on... I feel so sad, my chest is painful, but no one can understand my pain... Why am I still writing this diary! I'll become a menace! I will turn into a Fragmentum monster and eat both Tommy and Mary first! Then, I will eat teacher! Ahahahaha!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Heh, I am darkness incarnate, and I will bury this foul observation diary, bury my past... Heheh..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "(This is the end of the notebook.)"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

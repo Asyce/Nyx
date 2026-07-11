@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "cosmic-star-s-story",
+  "name": "Cosmic Star's Story",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Cosmic_Star%27s_Story",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Clippings From Fans",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Devastating News: Cosmic Superstar Lesley Dean Passes Away"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Breaking News from Epsilon E-News: According to reliable sources, the galaxy-class cruiser known as the Nebula's End exploded seven system hours after departing from the Epsilon-X United Skyport. The cause of the incident is still unclear."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The Epsilon Merchant Guild promptly dispatched a fleet for the rescue operation, but no survivors have been found so far. Lesley Dean, a rising star in the entertainment industry and hailed as the Cosmic Star, is reported to be one of the passengers on the Nebula's End."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "All of us from Epsilon E-News express our deepest condolences to the families of the passengers and crew members who lost their lives in the explosion."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "label": "Lesley Dean's Rebirth Project",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "To the loyal fans of Lesley Dean,"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Thank you for accepting our invitation. Now, I'll explain all the details and steps that the \"Lesley Dean's Rebirth Project\" entails."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Step 1: We'll raise money through crowdfunding to purchase Lesley Dean's memory storage from the Epsilon Merchant Guild."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Step 2: We'll conduct a thorough study of Lesley Dean's memory storage to ensure every participant has an in-depth understanding of Lesley Dean's personality, character, and life."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Step 3: We will visit Penacony and create a Synesthesia Dreamscape with the dream technology there. By drawing from Lesley Dean's memory storage and our impression of him, we will reconstruct the body, mind, and spirit of the Cosmic Star in the Dreamscape."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Ladies and gentlemen, we all are the witness to Lesley Dean's short-lived yet scintillating career. His sudden demise has left us all devastated. If you feel indignant about his fate, join the Lesley Dean's Rebirth Project! We will have the opportunity to make up for the regrets and bring Lesley Dean back to his brilliant life."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

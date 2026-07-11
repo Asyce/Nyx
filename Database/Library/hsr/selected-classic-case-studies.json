@@ -1,0 +1,327 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "selected-classic-case-studies",
+  "name": "Selected Classic Case Studies",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Selected_Classic_Case_Studies",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Case Study 1"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Patient information:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Outworlder, human (capillus subspecies) of the genus Homo, 23-year-old female."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Outworlder, human (capillus subspecies) of the genus Homo, 23-year-old female."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Chief complaint:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Two patients complained of using neural implants to connect their senses to each other for a long time since birth. Severe identity confusion has now developed, resulting in the patients' inability to correctly identify themselves."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Treatment plan:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Undergo surgical removal of the neural implants, and take three doses of Spirit-Soothe Powder."
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Note: The Spirit-Soothe Powder medicine is extremely yin-natured and cooling, so it should not be taken in excess."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Follow-up:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The treatment's effect is good. Both patients have returned to normal conditions."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Case Study 2"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Patient information:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Outworlder, Homo sapiens (Σ subspecies) of the genus Homo, 47-year-old male."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Chief complaint:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Spacecraft accident resulted in irreversible damage to 80% of the patient's brain tissue."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Treatment plan:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Injection of neural stem cells and electrical stimulation therapy to activate the compensatory mechanisms of the remaining brain tissue. Use autologous tissue culture to reconstruct the missing cranial bone. Postoperative intravenous injection of Dragon King Nirvana Broth to prevent infection and promote recovery."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Follow-up:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Treatment is working well. The patient is now able to continue completing his literary work."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Case Study 3"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Patient information:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Vidyadhara, 307-year-old female."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Chief complaint:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Patient entered a comatose state for 100 to 150 years after hatching rebirth. The diagnosis is Everdream Syndrome, which is caused by inefficient energy conversion during the hatching rebirth period."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Treatment plan:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Patient requires lifelong intake of qi-supplementing medication."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Follow-up:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Unavailable. Need to wait until the next hatching rebirth of the patient to confirm."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Case Study 4"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Patient information:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Outworlder, Homo sapiens (sapiens subspecies) of the genus Homo, 21-year-old male."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Chief complaint:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Patient complained of \"Cyber-Obscenity Syndrome,\" which was diagnosed outside Xianzhou but could not be treated locally. The patient does not like to engage in conflict with people in daily life, but cannot suppress his strong impulse to verbally abuse and provoke others, and to stir the pot in cyberspace."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Treatment plan:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Undergo psychological intervention, with the main goal of guiding the patient to find a job."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Follow-up:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Treatment has been effective. The patient is now self-reliant."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

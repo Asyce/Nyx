@@ -1,0 +1,314 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "the-planet-of-canticles-final-song-song-of-beauty-concert",
+  "name": "The Planet Of Canticles' Final Song: Song of Beauty Concert",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/The_Planet_Of_Canticles%27_Final_Song:_Song_of_Beauty_Concert",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Music enthusiasts from all over the universe:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Did you know that there was once a \"Planet of Canticles\" in the cosmos called Mendasia. Under the guidance of Beauty, the people there indulged in singing and dancing, using the entire world as their platform to explore the beauty of music. Unfortunately, the deaf-mute destiny is incapable of appreciating art. This paradise fell along with their goddess before it could be known to the cosmos..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The planet's residents lost the gaze from the Beauty, but the magnanimous Great One of Harmony opened their arms for the people. Thanks to the Iris Family's effort, the remaining residents of the planet of canticles have arrived in Penacony. Larose Sallie, heir of the heritage of Mendasian folk songs and a famous musician, will present the lost Song of Beauty to you in the dream!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "You are about to embark on a trip that traverses numerous Amber Eras. The voice of Mendasia will bring you back to the time when Idrila was still glowing in the universe and ignite your desire for beauty. Whether you are an ardent fan of classical music or a follower of cosmic pop music, this exceptional auditory extravaganza is not to be missed!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The Planet Of Canticles' Final Song: Mendasian Folk Song Concert will eternally preserve everything that is beautiful in this world via songs!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Set List"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1."
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Queen of Mendasia"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2."
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Eyes in the Mirror"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3."
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Rose & Medals"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "4."
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Lonely Ceramic Knight"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "5."
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Sky Mirror"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "6."
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Melodic Rendezvous"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "7."
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Raining Notes"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "8."
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Idrila's Kiss"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "* The concert set list and sequence of songs are subject to change prior to live performance."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Venue: Pillow Theater, 142 Glaux Avenue, Golden Hour, Penacony"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Prohibited Items:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Controlled items such as thermal, kinetic, quantum energy weapons and other sharp-edged controlled tools. Inorganic beings and those with modified prosthetic body parts are required to remove any weaponized components in advance."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2. Flammable and explosive items such as fireworks, alcohol, lighters, quantum bombs, and portable nuclear weapons. If you are an inorganic being, please kindly refrain from bringing motor oil with you to the theater."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "3. Food and beverages with strong odors such as Baviru cheese, swamp garlic, one-eyed herring, mung bean soda, and trash-flavored SoulGlad."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "4. Sound amplification equipment such as musical instruments, echoers, automated orchestras, and transaural birds."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "5. Dangerous substances such as hazardous agents, infectious pathogens, and viruses targeting inorganic beings."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "6. Unauthorized professional filming equipment, including but not limited to cameras, camcorders, dream bubble recorders, and other memory storage devices."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "7. Flying devices such as drones, flying saucers, jetpacks, and space motorcycles. If you have wings, please kindly refrain from flying within the theater."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "8. Negative emotions such as sadness, pain, anger, jealousy, etc."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "9. Other items explicitly prohibited in the Dreamscape or other items that the Bloodhound Family deems incompatible with the concert or having an obvious safety risk."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

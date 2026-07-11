@@ -1,0 +1,371 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "the-nameless-aha-s-debt-statement",
+  "name": "The Nameless Aha's Debt Statement",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/The_Nameless_Aha%27s_Debt_Statement",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Solely for the sake of fun, I have, on numerous occasions during my voyage aboard the Astral Express, misappropriated and vandalized public property of the Express, thereby incurring financial losses to the Express and liability for third-party damages. Having received the Conductor's earnest instruction, I have come to a profound realization of my transgressions. I hereby itemize all outstanding reparations below, to be settled at a future date."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The itemized list of reparations due from \"Aha\" is as follows:"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tele-Microwave Oven (Qty: 1 unit)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Supersonic Slippers (Qty: 2 pairs)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Optical Camouflage Cloak (Qty: 1)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Anti-Gravity Levitation Carpet (Qty: 1)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Haider Brooms bearing a striking resemblance to swords (Qty: 2). Note: Liability for this entry is jointly assumed with Akivili"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Leviathan Tooth (Qty: 2)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Trimmed Conductor's Outfit (Qty: 1)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Organ Dragonflies deposited by the Mourning Actors (Qty: 2)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Medical expenses incurred due to allergic reactions from the introduction of electronic mustard into the rice cooker"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Graffiti removal fees for the statue complex of White Rolling Stone Planet"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Repair costs for walls in the Museum of Animated Arts, and recovery expenses for escaped collection items (3 portraits and 7 specimens remain unaccounted for to date)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Incident during extravehicular angling: An erratic Comet Fish caused a collision resulting in damages to 3.1415926 solar sails on Planet Goldberg (Note: Liability for this entry is jointly assumed with Akivili)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Satellite Unit from the Centurial Stellar Ring (Qty: 0.5)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Six-Eyed Yaks of the Duchy of Huronte (Qty: 9)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "1 Anti-Beast-Horde Naval Cannon sourced from the Old Luntinium Exhibition Hall and 1 artificial satellite (neutralized via accidental discharge)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Several pillows lost to the atmosphere of Planet Slyee during a pillow fight, inclusive of Conductor Pom-Pom's favorite bolster."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Fines levied by the Cosmic Paleontological Conservation Association regarding gastric ulcers in a void song whale, induced by an unauthorized expedition within the creature's stomach"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Xenohydros released from the custody of the Architects (Qty: 3)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Roaring Golden Pothos (Qty: 1)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Accrued multiple outstanding tabs at \"World's End\" in the capacity of a Nameless"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A shockingly lengthy entry, extensive enough to reach the ground"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Crispy Crumbly Pom-Pom Pie ×22 (of which, 3 were utilized as fishing bait, 9 dispensed as yak fodder, 10 deployed as projectiles against space pirates during a skirmish. Please accept my sincere apologies for the misappropriation of the conductor's labor-intensive provisions)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Half an Astral Express"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Debtor:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Aha"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "This scrawled signature looks sketchy no matter how you look at it. Is this really from Aha THEMSELF?"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

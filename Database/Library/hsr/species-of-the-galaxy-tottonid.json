@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "species-of-the-galaxy-tottonid",
+  "name": "Species of the Galaxy: Tottonid",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Species_of_the_Galaxy:_Tottonid",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Galactic Species Serial Number: Inorganic #27"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Species Name: Tottonid"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Galactic Nicknames: Electric Giant, Glowing Star Polyhedron, Respiring Boulder"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Category: Kingdom Inorganic Organism - Class Silica - Order Monotectoid - Family Petragigas"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Research Summary:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The home world of the Tottonids is a planet plagued by catastrophic storms."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It was said that tornadoes that pass through will destroy everything in its path, leaving only the strongest and most resilient lives."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "This species appears as a translucent crystal with an internal logic center called a thought monotectic. Two individuals of this species would communicate with each other by emitting electric signals through this organ."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Their language, psyche, and history are unknown to the galaxy."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In the era of the Mecha Wars, Tottonids were loyal sidekicks to the Mechas."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "After their defeat, the Tottonids were eradicated by organic creatures and became extinct."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Tottonids turn into mineral ores after their passing, and their past disease develop into splashes of colors within their bodies."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Totton planet thus became a cavernous rocky planet blighted with storms."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "When the fires of war cleared, only a royal crown, which embodied the history of its monarchy, was left behind in the silent winds."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Related Curio:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Unbearable Weight"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "A Curio kept within the confines of the space station, appearing as a crystal-encrusted crown."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It is actually the imperial crown from the silicon-based lifeforms of the Totton planet, a living fossil of the monarchy's history."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "According to rumors, each deceased Tottonid emperor will have their logic center"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "embedded in this crown composed of the logic centers of previous emperors."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The Tottonids believe this crown brings the wisdom of generations to its rulers."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It's also the reason why the rulers of the Tottonid have always been unusually large, heavy, and beautiful."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In the past few Amber Eras, there are scholars who believe that the crown actually stores racial memories and basic cells of the Tottonids."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "They also believe that exposing the crown to moonlight would allow them to touch the buried history of the race."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "With the kindling of life from that Aeon, this lost people of yesteryear can be given a rebirth."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,404 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "planet-of-festivities-collectible-card",
+  "name": "Planet of Festivities Collectible Card",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Planet_of_Festivities_Collectible_Card",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Planet of Festivities: Robin",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "When the baby bird broke free of its shell, her first chirp immediately drew the attention of the stars."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Fate had arranged a bright future ahead for her, and she was destined to be a galaxy-illuminating superstar."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "On the stage made from a myriad diamonds, Robin belted out a song that praised the beauty, kindness, affection, and vitality of the world."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Surrounded by vibrant lights, the audience was moved to tears by her voice. All the flaws, ugliness, deception, and loneliness in life were forgotten."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "label": "Planet of Festivities: Oti Alfalfa",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "At the advent of slumber, there is only barrenness as far as the eye can see. Only a short figure is tirelessly spreading seeds, watering the sandy earth with their belief."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Till the seeds sprout and the opportunistic saplings break through the earth. The small amounts of greenery attract many a gardener, the nectar of their ideals watering this verdant patch."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Finally, lush fields creep across the wilds, full of verdant leaves. Countless aspirants rush among the emerald meadows in search of the thousand pale violet blooms produced by alfalfa."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "In the center of wealth's sea of flowers, the first gardener still keeps busy, if only to keep this bustling scenery ever-alive in the dream."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "label": "Planet of Festivities: Mr. Aideen",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Look, golden syrup flows through the streets and alleys. The sweet-tasting streams are the lifeblood of the Dreamscape, and the foamy seas are the honeyed brew of fortune!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The tide of time cannot dull its taste, for a passionate ferryman rows his oars in the storied river of history — he has spent his life passionately maintaining this sweetness."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Slumbering guest, imbibe the dream in this bottle with relish — that is the elixir of happiness, and the recipe to forget your troubles. Its master is more than happy to share it with you!"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "label": "Planet of Festivities: Lesley Dean",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The worlds among the river of stars overhead number in the hundreds of billions, unceasingly releasing light and heat over trillions of years."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But on this long beach, a brilliant grain of sand will sometimes appear, blanketing the entire horizon's radiance with a twinkle and smile."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The waves will eventually wash away every grain of sand... but those who remember that ray of light will thusly sing: \"The cosmos envies his splendor.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "An infinitesimal, yet grand victory."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "label": "Planet of Festivities: Hamz",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "A fiery shooting star strikes past the cold tracks. Amidst a myriad of gold trophies, the spark of his life ignites the very arena."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "People ardently desire victory as if that is the end, yet he starts from the end of the race and gallops towards the next victory. Do the stars themselves possess preferences, and have thus nurtured this invincible protege? Or is there a hero missing, who is destined to write a perfect footnote to speed?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As the match point looms near, a torrent of cheers descends like a tempest. The rider, defying this very era, rides his steel hamster ball and once again rolls towards the future."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "6",
+      "label": "Planet of Festivities: Maeven Ellis",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The wilderness was originally barren and devoid of vivid hues until the first rose generously unfurled her petals."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Before then, grasses and trees all bowed to her. After that, bees and butterflies danced for her."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Envious gods deprived her of her eyes, yet blossoms grew out of her wounds. Obstinate snow and ice buried her, yet her branches pierced through the ice."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "She only smiled and gracefully tilted her form. Dewdrops fell and soil was moistened, then iris flowers bloomed across the vast wilderness, and the sweet dream burst with vibrant colors."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "7",
+      "label": "Planet of Festivities: Gopher Wood",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "We have discovered the lord's disciple in the mortal world — a majestic tree providing shelter to the vulnerable fledglings."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "He scatters seeds of mercy to the wind, infusing it with warmth. His song to the rain carries the creed of harmony, and laws follow the water to form streams. The jealous thundering light reduces his body to ashes, yet his immortal soul in the dust appeases the sorrows of the clouds."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Fresh buds arise from the mud and soil, and the saint of the mortal realm still cares for the poor children. Then, they agree to the expectations, and allow a sweet reverie."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "8",
+      "label": "Planet of Festivities: Hanunue",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "One can shackle a wolf as much as one wants, yet it will always manage to get away, for his inherent freedom cannot be restrained."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A battle-scarred body opens its eyes from a dream. He tears through the prison bars, traversing a river of blood and tears."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"No person is fated for servitude,\" he roars, vowing to shatter the tyrant's scepter and restore equality to the world."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Oppressive reins seek to strangle him in the boundless desert where his bones will lie exposed to the elements, yet he sacrifices his life to break the millennium-old shackles, establishing an unrestricted nation upon the barren land."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "9",
+      "label": "Planet of Festivities: Glaux",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Wings shielded the forest from the torrential rain, while a shadow veiled the scorching sun over the wasteland. Only those who soared alongside him knew it was an owl gliding through the twilight, poised to guide the naive away from the storm of ignorance."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "He brought precious gems of wisdom to gift to the ignorant children, decorating the new nest to shield them from the cold. Unfurling the wings of knowledge, he plucked thirty percent laughter and seventy percent rhapsody from the night sky, making the earth glow with the radiance of starlight."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As the sun reemerged, he had already vanished from the heavens. Twelve cities stood on this earth, for those were the dreams he left behind for the fledglings birds."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "10",
+      "label": "Planet of Festivities: Nameless Hero",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Once, a band of adventurers forged paths through the swords and flames of war, leaving behind a grand trailblaze."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The erudite ones constructed a sailing ship with their pen and paper, venturing into the enigmatic sea and succumbing to the abyss of the unknown. Fearless rangers illuminated their path with the flames of gunfire, and together with the moths rushing to flames, met their demise in the boundless empty sky."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Nameless heroes became forgotten tombstones, while their courageous legends endure."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Countless anonymous names are lost in the fleeting river of time, yet some voices are destined to echo through the desert of time and never fade away."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "11",
+      "label": "Planet of Festivities: Origami Dreamweaver",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Have you ever beheld the magic of a dream? There, fish glide through the heavens with grace, and birds of prey find solace beneath the embrace of water. Seeds sprout in the palm of your hand, while trees take root in the ocean's depths. The world, a blank canvas, waits for someone to fold it into the shape of a poem."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I, too, have seen the magic of a dream, starting from midnight and meetings its curtain fall in gold. There was a sun that never rose, meteors streaked across the day, forsaken cities crumbled into sacred temples, and sorrows dissolved into purest joy."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Now, lift your gaze and bear witness to this final magic, then let the stars illuminate your eyes."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

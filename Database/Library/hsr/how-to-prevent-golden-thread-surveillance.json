@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "how-to-prevent-golden-thread-surveillance",
+  "name": "How to Prevent Golden Thread Surveillance",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/How_to_Prevent_Golden_Thread_Surveillance",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In recent years, the Council of Elders' intentions have often been exposed due to the golden thread's eavesdropping. It is imperative that we find effective countermeasures."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Ciphered Communication"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Golden threads can perceive thoughts and extract information, but they are not omniscient, nor does knowing always equate to understanding."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Gestures: Cover both hands with silk and inscribe messages onto each other's palms for silent exchange."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Coded Phrases: Layer true intentions beneath seemingly innocuous statements, ensuring only those within the circle can decipher them. Example: \"The place where we met ten years ago is now filled with brooms.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Severance"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Compared to a thousand years ago, the power of the golden threads appears to have waned. Recently, their tips have become increasingly frail and rigid, so much so that they can hardly be felt upon touch..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Poisoning: With the weakening of the golden threads, their lesser nymphs are now easier to expel. A fumigation agent brewed from medicinal herbs can effectively drive away these unseen spies."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Wooden Shears: The powers of Mnestia and Cerces do not conflict. Using branches from the Grove, one may craft wooden shears capable of cutting the Golden Threads before they are even aware of the act."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Disruption"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Usurper exercises the divine authority of . Golden threads are drawn to \"beauty\" and repelled by \"ugliness.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sound: Melodic music can intoxicate the golden threads, while harsh noise can distort their perception. Our ancestors' practice of holding discussions in theaters was, indeed, a piece of ancient wisdom."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Filth: Though effective, this method carries a strong stench and is rather undignified. Use with caution."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The above secrets must be passed on discreetly and never be exposed."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Yet, we cannot rule out the possibility that even as we write these very words, the golden threads have not spared us..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "<!--"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

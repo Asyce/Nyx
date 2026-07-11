@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "asta-s-shopping-list",
+  "name": "Asta's Shopping List",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Asta%27s_Shopping_List",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Dear Lifetime Premium Member Asta:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Thank you for shopping at Cosmo Premium!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "We have received your order [239123**********] and have arranged for it to be delivered to your home. Please keep an eye on the order update! You've chosen \"Online Payment.\" The exact shipment information is provided in the paper shipping record for each package. When you have multiple orders to fulfill, the orders may be shipped in different packages. The information presented on the \"My Orders\" page determines your actual order information. You may also access the page at any moment to change the order."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Order Number: 239123**********"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Shipping Address: Herta Space Station, coordinates *****, *****"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Consignee: Arlan"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "This order comes with 1 package containing the following items:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Exclusive fresh product: fruit flavor \"strong and healthy\" calcium-rich milk 10 cartons * 20 bottles each carton, room temperature packaging"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2. Soft Cloud extra-thick high-warmth vacuum-compressed quilt \"for dorm/single bed\" blue star stripe *1"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "3."
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Shattered Star Blade: Galaxy Greatswords Illustration"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", Collector's Edition, seven-volume Reprint."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "4. A five-piece armor set made of Meteoric Alloy: including helmet, goggle, armor, shin guards, and gloves"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "5. Customized: for weapons interface only! External wireless large volume durable radiation-shielding portable power bank with free charging base *1"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

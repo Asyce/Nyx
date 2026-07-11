@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "will-bite-do-not-approach",
+  "name": "Will Bite, Do Not Approach!",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Will_Bite,_Do_Not_Approach!",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "This is my pet robot Sevy. It used to do everything I say, but now it's sick, and it might bite people!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I heard Boss Svarog can fix robots, so I'm leaving Sevy here."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Boss Svarog, please please save my Sevy!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "When Sevy is all better again, it will come home on its own. It knows the way home!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*This is a note on a broken robot with no name attached. So, this robot could bite? Unfortunately, it can't anymore.*"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

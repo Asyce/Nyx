@@ -1,0 +1,1402 @@
+{
+  "schemaVersion": 1,
+  "game": "gi",
+  "generatedAt": "2026-07-11T05:51:38.089Z",
+  "count": 118,
+  "entries": [
+    {
+      "id": "of-mountains-and-seas",
+      "name": "\"Of Mountains and Seas\"",
+      "icon": "icons/97f87110a0ea39356321db8aeb22afb948a00f830bd7e4e6fb1bfe951eca8d43.webp",
+      "file": "of-mountains-and-seas.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "1000-years-of-loneliness",
+      "name": "1000 Years of Loneliness",
+      "icon": "icons/b84ce9765311e8dacc22b2e17aa5ab33e3e9675c84c6c4702fa28fdacbf0c702.webp",
+      "file": "1000-years-of-loneliness.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "a-brief-history-of-the-pale-starborn",
+      "name": "A Brief History of the Pale Starborn",
+      "icon": "icons/007a3a7c899a0c5f8999bb7fcd2de7e797756c579dc401ad0360da0df9767d15.webp",
+      "file": "a-brief-history-of-the-pale-starborn.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Vol. 1"
+      ]
+    },
+    {
+      "id": "a-drunkard-s-tale",
+      "name": "A Drunkard's Tale",
+      "icon": "icons/4037e54b68a41c886a3cb72e18f7f3b7618173a676623aa1d4dbf03cc990a027.webp",
+      "file": "a-drunkard-s-tale.json",
+      "volumeCount": 4,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3",
+        "Vol. 4"
+      ]
+    },
+    {
+      "id": "a-legend-of-sword",
+      "name": "A Legend of Sword",
+      "icon": "icons/01f696ef52036053e59a6e710a363a86adb10168e0f58b9d1512a2647fc337ac.webp",
+      "file": "a-legend-of-sword.json",
+      "volumeCount": 6,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3",
+        "Vol. 4",
+        "Vol. 5",
+        "Vol. 6"
+      ]
+    },
+    {
+      "id": "a-nameless-adventurer-s-notes",
+      "name": "A Nameless Adventurer's Notes",
+      "icon": "icons/6a8be978a8094fc38981f7d3f23ccc3c48c16ce314d4ab5abda06a3280f62f31.webp",
+      "file": "a-nameless-adventurer-s-notes.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "a-preliminary-study-of-sangonomiya-folk-belief",
+      "name": "A Preliminary Study of Sangonomiya Folk Belief",
+      "icon": "icons/b3bb2a30bc5c8484f1b5e98f39c7e7e7cc3203491e9576eafeb4b8116359a4a2.webp",
+      "file": "a-preliminary-study-of-sangonomiya-folk-belief.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "a-thousand-nights",
+      "name": "A Thousand Nights",
+      "icon": "icons/1f45be6b36628b7143506a19da8b0a1d0f24aeb1bd32e274321831fd07f9094f.webp",
+      "file": "a-thousand-nights.json",
+      "volumeCount": 6,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3",
+        "Vol. 4",
+        "Vol. 5",
+        "Vol. 6"
+      ]
+    },
+    {
+      "id": "along-with-divinity-prologue",
+      "name": "Along with Divinity: Prologue",
+      "icon": "icons/89169e0d0fbb969755eb29fcd4b8697f07ef0b99d1fbdd2804fea2343dec52bf.webp",
+      "file": "along-with-divinity-prologue.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "an-ode-to-khvarena",
+      "name": "An Ode to Khvarena",
+      "icon": "icons/d10b54bb87321807e0ecf457f01e7f299d88df2b706beea30d446b6913d3dfa3.webp",
+      "file": "an-ode-to-khvarena.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "ancient-investigation-journal-part-i",
+      "name": "Ancient Investigation Journal: Part I",
+      "icon": "icons/def32feee94856e0511e276ad3b6db4bd07d844b2fff4a64829d2c5b50f021a1.webp",
+      "file": "ancient-investigation-journal-part-i.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "ancient-investigation-journal-part-ii",
+      "name": "Ancient Investigation Journal: Part II",
+      "icon": "icons/def32feee94856e0511e276ad3b6db4bd07d844b2fff4a64829d2c5b50f021a1.webp",
+      "file": "ancient-investigation-journal-part-ii.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "ancient-investigation-journal-part-iii",
+      "name": "Ancient Investigation Journal: Part III",
+      "icon": "icons/def32feee94856e0511e276ad3b6db4bd07d844b2fff4a64829d2c5b50f021a1.webp",
+      "file": "ancient-investigation-journal-part-iii.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "anecdota-septentrionalis",
+      "name": "Anecdota Septentrionalis",
+      "icon": "icons/59a6befa7fd5a89fa21c719bb63e618a5af2e7d5cff077d4b8e35d3f8b1d4462.webp",
+      "file": "anecdota-septentrionalis.json",
+      "volumeCount": 3,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3"
+      ]
+    },
+    {
+      "id": "ballads-of-the-squire",
+      "name": "Ballads of the Squire",
+      "icon": "icons/65a0a7d1be2c209f288cab0cf9fa431bf2fb59850e321a307297613ff6b827a2.webp",
+      "file": "ballads-of-the-squire.json",
+      "volumeCount": 2,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2"
+      ]
+    },
+    {
+      "id": "biography-of-gunnhildr",
+      "name": "Biography of Gunnhildr",
+      "icon": "icons/b9558824d822ac295009eefee1c0cf77f5826c07cb23232f896efe49ab2233a8.webp",
+      "file": "biography-of-gunnhildr.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "breeze-amidst-the-forest",
+      "name": "Breeze Amidst the Forest",
+      "icon": "icons/7fe4318c383ca2e59b4b5c0ca13204b9013f916c3449a97c57bc949d8c6610cb.webp",
+      "file": "breeze-amidst-the-forest.json",
+      "volumeCount": 2,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2"
+      ]
+    },
+    {
+      "id": "conch-echoes",
+      "name": "Conch Echoes",
+      "icon": "icons/9be28f36e717424d2a6c109960cbd02181cfd4ad9e1347988ed153c529db57eb.webp",
+      "file": "conch-echoes.json",
+      "volumeCount": 2,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2"
+      ]
+    },
+    {
+      "id": "customs-of-liyue",
+      "name": "Customs of Liyue",
+      "icon": "icons/9b1d74b6d8be75971eb454984b45f6e197c2d7ed6bf9e5751ddb050e2943121a.webp",
+      "file": "customs-of-liyue.json",
+      "volumeCount": 3,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3"
+      ]
+    },
+    {
+      "id": "debates-on-the-viceroy-of-the-east",
+      "name": "Debates on the \"Viceroy of the East\"",
+      "icon": "icons/0f5ee45fc0acba56aeb3309f5dd05b1dcca2791421daab0764f316822770c92d.webp",
+      "file": "debates-on-the-viceroy-of-the-east.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "diary-of-roald-the-adventurer",
+      "name": "Diary of Roald the Adventurer",
+      "icon": "icons/dcacc2f479e3c1e3ce4d184f5617515957b785e8b6c8a30305ceee6e8b1ce413.webp",
+      "file": "diary-of-roald-the-adventurer.json",
+      "volumeCount": 11,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3",
+        "Vol. 4",
+        "Vol. 5",
+        "Vol. 6",
+        "Vol. 7",
+        "Vol. 8",
+        "Vol. 9",
+        "Vol. 10",
+        "Vol. 11"
+      ]
+    },
+    {
+      "id": "draft-hilichurl-ballads",
+      "name": "Draft Hilichurl Ballads",
+      "icon": "icons/c40294d47bd5834419a1de3c96d16653426a4feedfdc60f283eabfff19a5aafc.webp",
+      "file": "draft-hilichurl-ballads.json",
+      "volumeCount": 3,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3"
+      ]
+    },
+    {
+      "id": "dreams-of-the-ancient-capital",
+      "name": "Dreams of the Ancient Capital",
+      "icon": "icons/7b0a9797102e13ed1d8b3d665a8683e29dcb5d5084e67b29e73f089548284d25.webp",
+      "file": "dreams-of-the-ancient-capital.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "fables-de-fontaine",
+      "name": "Fables de Fontaine",
+      "icon": "icons/7adbba13b5fb52ea9c4dcf119e3d76c9f51b2671cc39826fe08425894589f9b4.webp",
+      "file": "fables-de-fontaine.json",
+      "volumeCount": 3,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3"
+      ]
+    },
+    {
+      "id": "fires-of-autumn-twilight",
+      "name": "Fires of Autumn Twilight",
+      "icon": "icons/7fb01e974ac87ec52c351a9556365189787d201e41cff7421eff60c5bdc5b673.webp",
+      "file": "fires-of-autumn-twilight.json",
+      "volumeCount": 3,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3"
+      ]
+    },
+    {
+      "id": "first-apprentice-of-guhua",
+      "name": "First Apprentice of Guhua",
+      "icon": "icons/feeab2e93527d988de286a32ca886974a78613368424d9b26327cf9c883b54e9.webp",
+      "file": "first-apprentice-of-guhua.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "flowers-for-princess-fischl",
+      "name": "Flowers for Princess Fischl",
+      "icon": "icons/bb5f02b77b6a869be5f5f24c1e255ca9eaf564f27b05144fd63395faf3586483.webp",
+      "file": "flowers-for-princess-fischl.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Vol. 1"
+      ]
+    },
+    {
+      "id": "gliding-instruction-manual",
+      "name": "Gliding Instruction Manual",
+      "icon": "icons/51af4bea98e6562faa54f0fa6c944b683ed4c8f7d4da897a18f2b30ab9fbc672.webp",
+      "file": "gliding-instruction-manual.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "glimpses-of-mysterious-inazuma",
+      "name": "Glimpses of Mysterious Inazuma",
+      "icon": "icons/be2ecad2fb0e37a6cf1b0499919845282405f8a1829cc9517d5755b3ac6fc8f1.webp",
+      "file": "glimpses-of-mysterious-inazuma.json",
+      "volumeCount": 2,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2"
+      ]
+    },
+    {
+      "id": "handy-handbook-of-hilichurlian",
+      "name": "Handy Handbook of Hilichurlian",
+      "icon": "icons/babda7658989624419caa206bf6cc6dae2bf1736474dee450afa439a79f3ba41.webp",
+      "file": "handy-handbook-of-hilichurlian.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "heart-of-clear-springs",
+      "name": "Heart of Clear Springs",
+      "icon": "icons/ad305142b74efe2d1aa2d6336d4ac2b67d8299f99c14f6d46245ab96464ee98f.webp",
+      "file": "heart-of-clear-springs.json",
+      "volumeCount": 4,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3",
+        "Vol. 4"
+      ]
+    },
+    {
+      "id": "heart-s-desire",
+      "name": "Heart's Desire",
+      "icon": "icons/c90bf529d34b30238d228b89c9221194bd022c7a2896302cecffbf4cdd9028a2.webp",
+      "file": "heart-s-desire.json",
+      "volumeCount": 4,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3",
+        "Vol. 4"
+      ]
+    },
+    {
+      "id": "hex-hound",
+      "name": "Hex & Hound",
+      "icon": "icons/b9b83a9a9f170e23317de5aca1c7e781c8cf81c9df6b01a675718ee85d44f8ea.webp",
+      "file": "hex-hound.json",
+      "volumeCount": 11,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3",
+        "Vol. 4",
+        "Vol. 5",
+        "Vol. 6",
+        "Vol. 7",
+        "Vol. 8",
+        "Vol. 9",
+        "Vol. 10",
+        "Vol. 11"
+      ]
+    },
+    {
+      "id": "hilichurl-ballad-selection",
+      "name": "Hilichurl Ballad Selection",
+      "icon": "icons/adc48253df28f1a2f16d86eba894b90499265e5e253726491dd269517ef995a9.webp",
+      "file": "hilichurl-ballad-selection.json",
+      "volumeCount": 2,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2"
+      ]
+    },
+    {
+      "id": "hilichurl-cultural-customs",
+      "name": "Hilichurl Cultural Customs",
+      "icon": "icons/5d1efdcf7c7d27545cb82098a0d714525930cf578aade805ec7065840b1f45d5.webp",
+      "file": "hilichurl-cultural-customs.json",
+      "volumeCount": 4,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3",
+        "Vol. 4"
+      ]
+    },
+    {
+      "id": "history-of-kings-and-clans-prologue",
+      "name": "History of Kings and Clans: Prologue",
+      "icon": "icons/bc614a8062bf98d6adf571b2c74b76c0dd28bdfc2917ed89b0d73949f42a3d1f.webp",
+      "file": "history-of-kings-and-clans-prologue.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "humor-from-tianheng",
+      "name": "Humor From Tianheng",
+      "icon": "icons/06f788852ad725793bb6dcf9694becd9df4127f766ec183a4f4c6dd1a55992c1.webp",
+      "file": "humor-from-tianheng.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "hymns-of-the-far-north",
+      "name": "Hymns of the Far North",
+      "icon": "icons/93c901386b497dc9503cb525b46fd6507d12dc6b67d65b3dfe4fc1d4f118b4f9.webp",
+      "file": "hymns-of-the-far-north.json",
+      "volumeCount": 3,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3"
+      ]
+    },
+    {
+      "id": "king-of-invokations-book",
+      "name": "King of Invokations",
+      "icon": "icons/3b6f6851fa082bc6cf8edc4715b0fc48c128849fe4d17468e219adfe96e995d9.webp",
+      "file": "king-of-invokations-book.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "knights-of-favonius-handbook-5th-edition",
+      "name": "Knights of Favonius Handbook - 5th Edition",
+      "icon": "icons/9358f3a1065f435d68486aeb073306e92e19e87b7a45d55f5d2d321b0703392e.webp",
+      "file": "knights-of-favonius-handbook-5th-edition.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "kompore-the-cunning",
+      "name": "Kompore the Cunning",
+      "icon": "icons/5df5ae7485abd6bbe4f8823d2c6ba0ffe0dbd74eb21f1e2530b0c5a190ab2195.webp",
+      "file": "kompore-the-cunning.json",
+      "volumeCount": 3,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3"
+      ]
+    },
+    {
+      "id": "la-chanson-d-erinnyes",
+      "name": "La Chanson d'Erinnyes",
+      "icon": "icons/761a4575d2ae849533c7500e671272cba559f4952d30abb8f0f182a95c88fa57.webp",
+      "file": "la-chanson-d-erinnyes.json",
+      "volumeCount": 3,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3"
+      ]
+    },
+    {
+      "id": "legend-of-the-lone-sword",
+      "name": "Legend of the Lone Sword",
+      "icon": "icons/4a43015a04a14b09ab0a1bfee787ee42b9f274ffda2176e36e635ead92cdfd81.webp",
+      "file": "legend-of-the-lone-sword.json",
+      "volumeCount": 7,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3",
+        "Vol. 4",
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3"
+      ]
+    },
+    {
+      "id": "legend-of-the-shattered-halberd",
+      "name": "Legend of the Shattered Halberd",
+      "icon": "icons/45147808ddc8c37f4c226ddc968be1aed6e9e4be51fe78a08098e7c6c3f65159.webp",
+      "file": "legend-of-the-shattered-halberd.json",
+      "volumeCount": 6,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3",
+        "Vol. 4",
+        "Vol. 5",
+        "Vol. 6"
+      ]
+    },
+    {
+      "id": "let-s-go-dodoco",
+      "name": "Let's Go, Dodoco!",
+      "icon": "icons/b565d8574c240a0bfa8d9c3f1dda260687f7e3a6a58a46056b4695970ed8dad4.webp",
+      "file": "let-s-go-dodoco.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "linling-s-anthology-of-selected-poetry",
+      "name": "Linling's Anthology of Selected Poetry",
+      "icon": "icons/69bdbc73a508d2313715f96b8b9caff53c5bbbc0af9ded17eb3890c16f9734bf.webp",
+      "file": "linling-s-anthology-of-selected-poetry.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "lost-adventure-notebook",
+      "name": "Lost Adventure Notebook",
+      "icon": "icons/dcacc2f479e3c1e3ce4d184f5617515957b785e8b6c8a30305ceee6e8b1ce413.webp",
+      "file": "lost-adventure-notebook.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "maawe-and-monetoo",
+      "name": "Maawe and Monetoo",
+      "icon": "icons/ab4fecd96b2d89a3eed86a2cd13cab0f8b4c76a1780c306b8733a1ab00b82587.webp",
+      "file": "maawe-and-monetoo.json",
+      "volumeCount": 3,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3"
+      ]
+    },
+    {
+      "id": "meadow-of-gems",
+      "name": "Meadow of Gems",
+      "icon": "icons/018c1e1c59f4c4bee00280107a1df8f1ae14a0f618c3a1c2fb332b5b254a4c08.webp",
+      "file": "meadow-of-gems.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "men-of-lithin",
+      "name": "Men of Lithin",
+      "icon": "icons/847c2922c2e0b71391601289bce5e2770594bb3937a1b5bb8660acfe97754581.webp",
+      "file": "men-of-lithin.json",
+      "volumeCount": 3,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3"
+      ]
+    },
+    {
+      "id": "moongazer-s-engraving",
+      "name": "Moongazer's Engraving",
+      "icon": "icons/68d1503023d68632f2de6a7632b47125c70b96b82fce4982c14a75a451a51db3.webp",
+      "file": "moongazer-s-engraving.json",
+      "volumeCount": 2,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2"
+      ]
+    },
+    {
+      "id": "moonlit-bamboo-forest",
+      "name": "Moonlit Bamboo Forest",
+      "icon": "icons/8c659c9a445118790deebbd648d945c89dc690ca110de979456bc148c768fb17.webp",
+      "file": "moonlit-bamboo-forest.json",
+      "volumeCount": 4,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3",
+        "Vol. 4"
+      ]
+    },
+    {
+      "id": "mountainous-miscellany",
+      "name": "Mountainous Miscellany",
+      "icon": "icons/517d678bfeb483948eb3e3fc019e4b72848ca81e3960a93022058ecea154392b.webp",
+      "file": "mountainous-miscellany.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "mt-lingmeng-gossip",
+      "name": "Mt. Lingmeng Gossip",
+      "icon": "icons/e25a64c92e08ec95b45296f7acf611496efea7b7b1d5c1d840c41384a5e47234.webp",
+      "file": "mt-lingmeng-gossip.json",
+      "volumeCount": 3,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3"
+      ]
+    },
+    {
+      "id": "new-chronicles-of-the-six-kitsune",
+      "name": "New Chronicles of the Six Kitsune",
+      "icon": "icons/bd99d793f8c8e675a2db725842b6daf706a7942e49c2e61348e13b2401357b3e.webp",
+      "file": "new-chronicles-of-the-six-kitsune.json",
+      "volumeCount": 6,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3",
+        "Vol. 4",
+        "Vol. 5",
+        "Vol. 6"
+      ]
+    },
+    {
+      "id": "night-murmurs-from-the-far-border",
+      "name": "Night Murmurs From the Far Border",
+      "icon": "icons/f6c4cc913e9baf3a7caa2481101c393972ff438f7dd3ec65a351f880f0051b37.webp",
+      "file": "night-murmurs-from-the-far-border.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Vol. 1"
+      ]
+    },
+    {
+      "id": "onibudou",
+      "name": "Onibudou",
+      "icon": "icons/517d678bfeb483948eb3e3fc019e4b72848ca81e3960a93022058ecea154392b.webp",
+      "file": "onibudou.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "perinheri",
+      "name": "Perinheri",
+      "icon": "icons/7149518aa08f40af83b2496e4df8acd7a3ab4ed90d78c47db1f4871aa8e9ec12.webp",
+      "file": "perinheri.json",
+      "volumeCount": 2,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2"
+      ]
+    },
+    {
+      "id": "pharmacist-s-notebook-i",
+      "name": "Pharmacist's Notebook (I)",
+      "icon": "icons/ee1abe21286c7b7b4f8cce0867688edf95ccaecc6377cd822b65f347e4add12f.webp",
+      "file": "pharmacist-s-notebook-i.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "pharmacist-s-notebook-ii",
+      "name": "Pharmacist's Notebook (II)",
+      "icon": "icons/ee1abe21286c7b7b4f8cce0867688edf95ccaecc6377cd822b65f347e4add12f.webp",
+      "file": "pharmacist-s-notebook-ii.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "pharmacist-s-notebook-iii",
+      "name": "Pharmacist's Notebook (III)",
+      "icon": "icons/ee1abe21286c7b7b4f8cce0867688edf95ccaecc6377cd822b65f347e4add12f.webp",
+      "file": "pharmacist-s-notebook-iii.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "pretty-please-kitsune-guuji",
+      "name": "Pretty Please, Kitsune Guuji?",
+      "icon": "icons/b5584050621b32c988f420c536c9abcf3fe29c152dd2cfb841ee41a53a7736ae.webp",
+      "file": "pretty-please-kitsune-guuji.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "princess-mina-of-the-fallen-nation",
+      "name": "Princess Mina of the Fallen Nation",
+      "icon": "icons/86b294eed28ffc230ce6de4b4ca9aa806c5177d55693d665bd075a091e34e230.webp",
+      "file": "princess-mina-of-the-fallen-nation.json",
+      "volumeCount": 6,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3",
+        "Vol. 4",
+        "Vol. 5",
+        "Vol. 6"
+      ]
+    },
+    {
+      "id": "ragged-notebook-time-and-wind",
+      "name": "Ragged Notebook",
+      "icon": "icons/bc6e3e53cbc994240ec9207504bd8f482f924915988abd29560e137e9505e7c6.webp",
+      "file": "ragged-notebook-time-and-wind.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "ragged-notebook-bygones-times-like-dust-passing",
+      "name": "Ragged Notebook",
+      "icon": "icons/ee1abe21286c7b7b4f8cce0867688edf95ccaecc6377cd822b65f347e4add12f.webp",
+      "file": "ragged-notebook-bygones-times-like-dust-passing.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "rangi-nui-s-end",
+      "name": "Rangi Nui's End",
+      "icon": "icons/91f75ee90536a029d322be4c1bb464ca3b0ff52e89f23651c591bf4c05e2b38d.webp",
+      "file": "rangi-nui-s-end.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Vol. 1"
+      ]
+    },
+    {
+      "id": "records-of-a-changing-village",
+      "name": "Records of a Changing Village",
+      "icon": "icons/517d678bfeb483948eb3e3fc019e4b72848ca81e3960a93022058ecea154392b.webp",
+      "file": "records-of-a-changing-village.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "records-of-hanan-pacha",
+      "name": "Records of Hanan Pacha",
+      "icon": "icons/8289ed5d5f64f2bf6e9eea4978ddb49de2b131d24ba126e1a60bffd055ee83e1.webp",
+      "file": "records-of-hanan-pacha.json",
+      "volumeCount": 3,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3"
+      ]
+    },
+    {
+      "id": "records-of-jueyun",
+      "name": "Records of Jueyun",
+      "icon": "icons/299f3bcfcb084faf4cc0009a1c3108b15c1008e65b711479f04658b9f44f61a4.webp",
+      "file": "records-of-jueyun.json",
+      "volumeCount": 8,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3",
+        "Vol. 4",
+        "Vol. 5",
+        "Vol. 6",
+        "Vol. 1",
+        "Vol. 3"
+      ]
+    },
+    {
+      "id": "records-of-the-gallant",
+      "name": "Records of the Gallant",
+      "icon": "icons/688b3edc6d74584a349f24debff26b4e46339e77555c9891c91db0f66717616a.webp",
+      "file": "records-of-the-gallant.json",
+      "volumeCount": 2,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2"
+      ]
+    },
+    {
+      "id": "rex-incognito",
+      "name": "Rex Incognito",
+      "icon": "icons/70f0837cec5bfb7f2eafa34116d0af7176e8e7b43de8fc2e8481f23d49b5996a.webp",
+      "file": "rex-incognito.json",
+      "volumeCount": 4,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3",
+        "Vol. 4"
+      ]
+    },
+    {
+      "id": "robben-versus-chesterton-iridescent-brooch",
+      "name": "Robben versus Chesterton: Iridescent Brooch",
+      "icon": "icons/2417109afdcff9794aec51fc0d5c29698c5a9e5fda7df27f56125d87b53d319e.webp",
+      "file": "robben-versus-chesterton-iridescent-brooch.json",
+      "volumeCount": 3,
+      "volumeLabels": [
+        "Vol 1",
+        "Vol 2",
+        "Vol 3"
+      ]
+    },
+    {
+      "id": "sacred-sakura-cleansing-summary",
+      "name": "Sacred Sakura Cleansing Summary",
+      "icon": "icons/517d678bfeb483948eb3e3fc019e4b72848ca81e3960a93022058ecea154392b.webp",
+      "file": "sacred-sakura-cleansing-summary.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "sangonomiya-chronicles",
+      "name": "Sangonomiya Chronicles",
+      "icon": "icons/f29e34b08f88edc3289fe8336af6abc4a49c5588ea6d49d224b6a56a8038e117.webp",
+      "file": "sangonomiya-chronicles.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "scroll-of-streaming-song",
+      "name": "Scroll of Streaming Song",
+      "icon": "icons/af7ca141d09a86fcaa3aeb5a1c0197890a04597f56a7af4d2aefc386fe323232.webp",
+      "file": "scroll-of-streaming-song.json",
+      "volumeCount": 3,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3"
+      ]
+    },
+    {
+      "id": "shogun-almighty-reborn-as-raiden-with-unlimited-power",
+      "name": "Shogun Almighty: Reborn as Raiden With Unlimited Power",
+      "icon": "icons/dd72752e59a50ad89c754ce5c149217ae2ddf9fc7f9775f6b22022617619d0b8.webp",
+      "file": "shogun-almighty-reborn-as-raiden-with-unlimited-power.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "someone-s-diary",
+      "name": "Someone's Diary",
+      "icon": "icons/517d678bfeb483948eb3e3fc019e4b72848ca81e3960a93022058ecea154392b.webp",
+      "file": "someone-s-diary.json",
+      "volumeCount": 12,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3",
+        "Vol. 4",
+        "Vol. 5",
+        "Vol. 6",
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3",
+        "Vol. 4",
+        "Vol. 5",
+        "Vol. 6"
+      ]
+    },
+    {
+      "id": "somewhat-aged-copy-of-tequil-the-brave",
+      "name": "Somewhat Aged Copy of \"Tequil the Brave\"",
+      "icon": "icons/19269349b26b54b3a013ac8348a9ee5a2e462e24c054338a94c3bca8f9488f92.webp",
+      "file": "somewhat-aged-copy-of-tequil-the-brave.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "spanking-new-copy-of-tequil-the-brave",
+      "name": "Spanking New Copy of \"Tequil the Brave\"",
+      "icon": "icons/083542cf7ea2ad69c55abd34e2579546a822bf1d03a136e79cad07fb42e82668.webp",
+      "file": "spanking-new-copy-of-tequil-the-brave.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "springs-of-hidden-jade",
+      "name": "Springs of Hidden Jade",
+      "icon": "icons/fa3323d68564857628427d5afde14d14072320d2e0cfb299b4e4bf73a9d6eac0.webp",
+      "file": "springs-of-hidden-jade.json",
+      "volumeCount": 2,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2"
+      ]
+    },
+    {
+      "id": "stone-tablet-compilations-vol-i",
+      "name": "Stone Tablet Compilations: Vol. I",
+      "icon": "icons/1ca61695379b85b4b4d334df312699a2eab53d8657aadcba5820516382e1fd40.webp",
+      "file": "stone-tablet-compilations-vol-i.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "string-of-pearls",
+      "name": "String of Pearls",
+      "icon": "icons/4eac2dc51357f41a62aeec065e6e77e1b4f3ac366fd452e226c8dc4dbe14581f.webp",
+      "file": "string-of-pearls.json",
+      "volumeCount": 8,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3",
+        "Vol. 4",
+        "Vol. 5",
+        "Vol. 1",
+        "Vol. 4",
+        "Vol. 5"
+      ]
+    },
+    {
+      "id": "sundjatta-s-first-foray",
+      "name": "Sundjatta's First Foray",
+      "icon": "icons/cbc404a37d2d0f482f9375c0b755bd33a36058c74a7d5b34dc9329312f89582e.webp",
+      "file": "sundjatta-s-first-foray.json",
+      "volumeCount": 3,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3"
+      ]
+    },
+    {
+      "id": "tales-carried-by-the-northwind",
+      "name": "Tales Carried by the Northwind",
+      "icon": "icons/a9fc0c39a82fc66a8f278813a61cce70051f6164361f66cf0f9e736625a004b5.webp",
+      "file": "tales-carried-by-the-northwind.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Vol. 1"
+      ]
+    },
+    {
+      "id": "tales-from-the-waves",
+      "name": "Tales From the Waves",
+      "icon": "icons/079e6ac5fc9b3346de5281f52af707f1c16b1e2364e6dab6f52ee530ca0ce963.webp",
+      "file": "tales-from-the-waves.json",
+      "volumeCount": 3,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3"
+      ]
+    },
+    {
+      "id": "tales-of-a-snow-winged-goose",
+      "name": "Tales of a Snow-Winged Goose",
+      "icon": "icons/2d14a161d9bacbaa35847a9ca6329c4bca3dd783545aa330a2ddbc241bb7cca2.webp",
+      "file": "tales-of-a-snow-winged-goose.json",
+      "volumeCount": 3,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3"
+      ]
+    },
+    {
+      "id": "teyvat-travel-guide",
+      "name": "Teyvat Travel Guide",
+      "icon": "icons/fa711bf3ed7f53224b66dfc6c1a63a252d6761d9d7d1ba9054ee234231d76acc.webp",
+      "file": "teyvat-travel-guide.json",
+      "volumeCount": 3,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3"
+      ]
+    },
+    {
+      "id": "the-boar-princess",
+      "name": "The Boar Princess",
+      "icon": "icons/60add156873a1073d9ca35678159835ea1470a904d02c15c63a3aeb1fcf5854e.webp",
+      "file": "the-boar-princess.json",
+      "volumeCount": 7,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3",
+        "Vol. 4",
+        "Vol. 5",
+        "Vol. 6",
+        "Vol. 7"
+      ]
+    },
+    {
+      "id": "the-byakuyakoku-collection",
+      "name": "The Byakuyakoku Collection",
+      "icon": "icons/d596c7f21e56d378a91336513aa43357e3d67ae6f9189689f58973ec3c888c60.webp",
+      "file": "the-byakuyakoku-collection.json",
+      "volumeCount": 5,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3",
+        "Vol. 4",
+        "Vol. 5"
+      ]
+    },
+    {
+      "id": "the-fall-of-the-faded-castle",
+      "name": "The Fall of the Faded Castle",
+      "icon": "icons/fb7ccc1c3922b980a41783ef8281b88741303e1bdd30361f3ca924b46b7182c6.webp",
+      "file": "the-fall-of-the-faded-castle.json",
+      "volumeCount": 3,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3"
+      ]
+    },
+    {
+      "id": "the-feline-firm",
+      "name": "The Feline Firm",
+      "icon": "icons/da67bd5d5c70d687e0060431b3214b6ed31842a6609a38c1ab2754750cd65113.webp",
+      "file": "the-feline-firm.json",
+      "volumeCount": 8,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3",
+        "Vol. 4",
+        "Vol. 5",
+        "Vol. 6",
+        "Vol. 7",
+        "Vol. 8"
+      ]
+    },
+    {
+      "id": "the-folio-of-foliage",
+      "name": "The Folio of Foliage",
+      "icon": "icons/c632afab22dcab3a12dcb125d5ac38787ca169b6fba3e564c5fe369f2eb1da4f.webp",
+      "file": "the-folio-of-foliage.json",
+      "volumeCount": 6,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3",
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3"
+      ]
+    },
+    {
+      "id": "the-fox-in-the-dandelion-sea",
+      "name": "The Fox in the Dandelion Sea",
+      "icon": "icons/fb41af9bbb53edc169fd23755d4eed2e2d5f174b6ab2277c8eb6eb2f56f74b08.webp",
+      "file": "the-fox-in-the-dandelion-sea.json",
+      "volumeCount": 11,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3",
+        "Vol. 4",
+        "Vol. 5",
+        "Vol. 6",
+        "Vol. 7",
+        "Vol. 8",
+        "Vol. 9",
+        "Vol. 10",
+        "Vol. 11"
+      ]
+    },
+    {
+      "id": "the-headless-coquitao",
+      "name": "The Headless Coquitao",
+      "icon": "icons/ec930bb5e0ff284c19c7a5c73fa8f36211779719046f576b697c1dc25da1633f.webp",
+      "file": "the-headless-coquitao.json",
+      "volumeCount": 2,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2"
+      ]
+    },
+    {
+      "id": "the-history-of-the-decline-and-fall-of-remuria",
+      "name": "The History of the Decline and Fall of Remuria",
+      "icon": "icons/46e8ee9ae866f63ef6cafd63b9e87de264b1b1ba65ac560f4cbcfa64ee7cb68f.webp",
+      "file": "the-history-of-the-decline-and-fall-of-remuria.json",
+      "volumeCount": 3,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3"
+      ]
+    },
+    {
+      "id": "the-lay-of-al-ahmar",
+      "name": "The Lay of Al-Ahmar",
+      "icon": "icons/8e603148f976df3206cc8af9f20d598782b95f79364aafc473bacb65a1c29308.webp",
+      "file": "the-lay-of-al-ahmar.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "the-legend-of-vennessa",
+      "name": "The Legend of Vennessa",
+      "icon": "icons/e7b13001c9063cd5c43e1659fd5acab4bd265d9af98a77dab8ca8cb973cafcfe.webp",
+      "file": "the-legend-of-vennessa.json",
+      "volumeCount": 2,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2"
+      ]
+    },
+    {
+      "id": "the-legends-of-reed-miller-thief-extraordinaire",
+      "name": "The Legends of Reed Miller, Thief Extraordinaire",
+      "icon": "icons/1898cf559c2605c29e69fb461bf12ae736321ece6e8d2c0ae2980ac08fc3ae27.webp",
+      "file": "the-legends-of-reed-miller-thief-extraordinaire.json",
+      "volumeCount": 3,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3"
+      ]
+    },
+    {
+      "id": "the-life-of-mouun-the-shrine-maiden",
+      "name": "The Life of Mouun the Shrine Maiden",
+      "icon": "icons/e8358d2bd1c75d00fb854e6ea34164789fa03d82cfdac65b62c7f7ba9a9a00b8.webp",
+      "file": "the-life-of-mouun-the-shrine-maiden.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "the-little-witch-and-the-undying-fire",
+      "name": "The Little Witch and the Undying Fire",
+      "icon": "icons/bd8c0a48f4ffb9818424f8a0baea5a548d1027f84ee0cd57313af397291a76d3.webp",
+      "file": "the-little-witch-and-the-undying-fire.json",
+      "volumeCount": 7,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3",
+        "Vol. 4",
+        "Vol. 5",
+        "Vol. 6",
+        "Vol. 7"
+      ]
+    },
+    {
+      "id": "the-mondstadt-tower",
+      "name": "The Mondstadt Tower",
+      "icon": "icons/d575a51b76020794871a7734cfe63786fad459c774eee30c832a510d68bc0d93.webp",
+      "file": "the-mondstadt-tower.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Vol. 1"
+      ]
+    },
+    {
+      "id": "the-pale-princess-and-the-six-pygmies",
+      "name": "The Pale Princess and the Six Pygmies",
+      "icon": "icons/3fb143bbc30b8d4892ef63a0b2c558b7b979340265367ac21953ba9b297dd4ee.webp",
+      "file": "the-pale-princess-and-the-six-pygmies.json",
+      "volumeCount": 7,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3",
+        "Vol. 4",
+        "Vol. 5",
+        "Vol. 6",
+        "Vol. 7"
+      ]
+    },
+    {
+      "id": "the-saga-of-hamavaran",
+      "name": "The Saga of Hamavaran",
+      "icon": "icons/e9c558ca6c8b5bbd49e6d2380e33c23561e2b5375aed63176f9b6c78c2ad1f7e.webp",
+      "file": "the-saga-of-hamavaran.json",
+      "volumeCount": 3,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3"
+      ]
+    },
+    {
+      "id": "the-serpent-and-drakes-of-tokoyokoku",
+      "name": "The Serpent and Drakes of Tokoyokoku",
+      "icon": "icons/3420f4c85e8f59b12c80e490f3d52831681eba50c13722496babb66d654c2215.webp",
+      "file": "the-serpent-and-drakes-of-tokoyokoku.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "the-shepherd-and-the-magic-bottle",
+      "name": "The Shepherd and the Magic Bottle",
+      "icon": "icons/5b43e83784e50712f19145e00372b41682b222ead842eb612db92f4bfef4eafa.webp",
+      "file": "the-shepherd-and-the-magic-bottle.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "the-tale-of-kuntur",
+      "name": "The Tale of Kuntur",
+      "icon": "icons/edcce0aa90dcb2e1fb5574456457d8c729262c4e512b8c06ca548ab85c57ba90.webp",
+      "file": "the-tale-of-kuntur.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Vol. 1"
+      ]
+    },
+    {
+      "id": "the-tale-of-qoyllor-and-ukuku",
+      "name": "The Tale of Qoyllor and Ukuku",
+      "icon": "icons/edcce0aa90dcb2e1fb5574456457d8c729262c4e512b8c06ca548ab85c57ba90.webp",
+      "file": "the-tale-of-qoyllor-and-ukuku.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Vol. 1"
+      ]
+    },
+    {
+      "id": "the-tale-of-shiruyeh-and-shirin",
+      "name": "The Tale of Shiruyeh and Shirin",
+      "icon": "icons/67ccd0cc4dfa27099eee673ce44bf2019a39a566b7b47088774188342ba6855e.webp",
+      "file": "the-tale-of-shiruyeh-and-shirin.json",
+      "volumeCount": 2,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2"
+      ]
+    },
+    {
+      "id": "the-two-musketeers",
+      "name": "The Two Musketeers",
+      "icon": "icons/5d17d2a23b36e56ccba7c18be562e9414230d7f399ce7c3bbd99f136ddf542a2.webp",
+      "file": "the-two-musketeers.json",
+      "volumeCount": 3,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3"
+      ]
+    },
+    {
+      "id": "the-volcano-lord-and-the-shadow-pins",
+      "name": "The Volcano Lord and the Shadow Pins",
+      "icon": "icons/4a05b0a1a8cdd89925c3df55ee2d1fc25debb78f6689409d6e4f619cdcb1a93b.webp",
+      "file": "the-volcano-lord-and-the-shadow-pins.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Vol. 1"
+      ]
+    },
+    {
+      "id": "thick-notebook",
+      "name": "Thick Notebook",
+      "icon": "icons/dcacc2f479e3c1e3ce4d184f5617515957b785e8b6c8a30305ceee6e8b1ce413.webp",
+      "file": "thick-notebook.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "time-trekker",
+      "name": "Time Trekker",
+      "icon": "icons/892c6674e7f0f40161f3ef6465b9bcd935d8a711e9ab8e61eb81a6f9a2d7c633.webp",
+      "file": "time-trekker.json",
+      "volumeCount": 3,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3"
+      ]
+    },
+    {
+      "id": "toki-alley-tales",
+      "name": "Toki Alley Tales",
+      "icon": "icons/aa2953865e5e8e5ba72397f49940be59fe42af9ecc308c066740de654eab8d16.webp",
+      "file": "toki-alley-tales.json",
+      "volumeCount": 6,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3",
+        "Vol. 4",
+        "Vol. 5",
+        "Vol. 6"
+      ]
+    },
+    {
+      "id": "treasured-tales-of-the-chouken-shinkageuchi",
+      "name": "Treasured Tales of the Chouken Shinkageuchi",
+      "icon": "icons/0b6cb8d0bc4111ecf5eadabd1bc50a8a4a6efa3bfb1c05ea7c8195942ad44567.webp",
+      "file": "treasured-tales-of-the-chouken-shinkageuchi.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Vol. 1"
+      ]
+    },
+    {
+      "id": "vera-s-melancholy",
+      "name": "Vera's Melancholy",
+      "icon": "icons/feeab2e93527d988de286a32ca886974a78613368424d9b26327cf9c883b54e9.webp",
+      "file": "vera-s-melancholy.json",
+      "volumeCount": 12,
+      "volumeLabels": [
+        "Vol. 1",
+        "Vol. 2",
+        "Vol. 3",
+        "Vol. 4",
+        "Vol. 5",
+        "Vol. 6",
+        "Vol. 7",
+        "Vol. 8",
+        "Vol. 9",
+        "Vol. 10",
+        "Vol. 11",
+        "Vol. 12"
+      ]
+    },
+    {
+      "id": "verses-of-equilibrium",
+      "name": "Verses of Equilibrium",
+      "icon": "icons/bea803fa5096ec3c6838cf191a48fbfe27c985e27596e04e52754bdc4e57069a.webp",
+      "file": "verses-of-equilibrium.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "wind-courage-and-wings-book",
+      "name": "Wind, Courage, and Wings",
+      "icon": "icons/ecbe334f047253101de91fa127c4bb12d70236b4c89edd08cca642c67f6a52d5.webp",
+      "file": "wind-courage-and-wings-book.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    },
+    {
+      "id": "yakshas-the-guardian-adepti",
+      "name": "Yakshas: The Guardian Adepti",
+      "icon": "icons/2d0b7d8c5b7fce672ef90fe24a3de9c8078092711a27da132a8c1b238f1705d8.webp",
+      "file": "yakshas-the-guardian-adepti.json",
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ]
+    }
+  ]
+}

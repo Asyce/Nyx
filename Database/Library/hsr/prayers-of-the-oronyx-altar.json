@@ -1,0 +1,608 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "prayers-of-the-oronyx-altar",
+  "name": "Prayers of the Oronyx Altar",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Prayers_of_the_Oronyx_Altar",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"Memory is not a prison of the past, but a guiding light to the future. Oronyx teaches us that only by remembering history can we truly foresee what lies ahead.\""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Twilight Prayer\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "— Recited at Dusk"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "O Watcher of the Endless Starry Sea,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "O Weaver of the Evernight Veil,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Oronyx, Seer of all that is yet to come,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": ">We humbly offer our devotion here."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As you veil the heavens above,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Let the Eye of Aquila be closed,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And we ask for your mercy,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Guide us safely through the dark of night."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The past, present, and future rest in your hands,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The threads of fate weave through your fingers,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "All of time listens to your call,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "May you accept our humble offering."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Priest's Oath of Service\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I will watch through the endless night like the stars,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Silent as time itself,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Unwavering as fate."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I will bear the weight of the Skyveil,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Guarding the sacred secrets of prophecy,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Becoming the servant of the darkened hours."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "No matter how faint the starlight may be,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "No matter how dim the path ahead,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I will follow the call of the Evernight,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Until my soul is woven into the Skyveil."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Villager's Prayer\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "— A Simple Daily Prayer"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Lord Oronyx,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Guide our steps along the path ahead,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Grant us restful sleep through the night,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Bestow upon us wisdom for the days to come."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Harvest Prayer\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "— A Prayer for Sowing and Harvest Seasons"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Oronyx, Lord of Time,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Count the days of our sowing,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Record the hours of our labor,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Measure the moments of our harvest."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As your night enfolds the light of day,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Let our seeds grow strong in the darkness,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And when your destined moment arrives,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Let us reap the fruits of our labor."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Dream Seeking Prayer\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "— A Prayer for Revelatory Dreams"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Guide me through the dark, Oronyx,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Let my dreams shine like a river of stars."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As I close my eyes,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Show me glimpses of distant visions."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The past is gone, the future yet unseen,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Only the present belongs to us."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But in the sacred realm of dreams,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Let me glimpse the shadows of fate."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Astral Retrospection Prayer\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "— For Official Astronomical Ceremonies"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Where does the river of time flow?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The omniscient Eye of Oronyx sees all."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Memories of the past shine like stars,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Grant us the strength to follow their light."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As the heavens turn and fate weaves its pattern,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "We wish to unveil destiny beneath your watchful gaze,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Hoping to find the light of truth within."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Yearly Gratitude\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "— A Birthday Prayer of Thanks"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Another year has passed, Oronyx,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Another cycle of time etched in my life."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Thank you for your precious gift of time,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Allowing me to walk this earth for another year."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The fate you have woven,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Whether filled with joy or sorrow, hardships or fortunes,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I accept it all with gratitude,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "For this is the path you have set before me."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "May the days ahead teach me"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "To cherish each moment more,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As you do with each star,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As you bless each memory."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "<!--"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

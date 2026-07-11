@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "game": "gi",
+  "id": "mountainous-miscellany",
+  "name": "Mountainous Miscellany",
+  "sourceUrl": "https://genshin-impact.fandom.com/wiki/Mountainous_Miscellany",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Magic engraved on Subrosium does not wear off easily. Some believe the stone to be a bridge between the living and the dead."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "However finding Subrosium is no easy matter. You need to be at the right place at the right time."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Legend has it that you may find Subrosium if you stand in the middle of the lake south of Mt. Tianheng at and look in the direction of the ."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

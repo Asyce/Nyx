@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "to-strife-praise-nikador",
+  "name": "To Strife: Praise Nikador",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/To_Strife:_Praise_Nikador",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Before a campaign, Kremnoan citizens will organize a blood ritual, igniting Nikador's might with slaughter, singing hymns over the wails of the sacrificial tribute."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The Undefeated, Overlord of Battlefields, King of Castrum Kremnos and the Ruins,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Grand Artisan of Chariots, the Throne of Corpses, Father of Victory,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The tyrant of glories, lightning that shatters earth and seas, Guardian of Amphoreus,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Strife Titan, Lance of Fury, Nikador."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Commander to whom the world should bow, the eternally edged weapon, the law of Strife and that which severs strife."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Praise Nikador, the greatest conqueror, the greatest protector."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "You are the tyrant of all defeated, solely bearing all wounds of the world on your back."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "You were once the lightning spear of the firmament, the worldsplitting spine."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Hewing of the River of Souls, survivors unto dead waters."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Unceasing flames of war, pyre of high graves."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The sky-piercing lance, the ruination of night and light."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The vanquished behold woe, glory to all honorable dead, the fallen feeds my might."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Fury falls, and all bows to Strife —"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sentinels who stand fast between the skies and earth, repel the enemy hordes and safeguard the peace of the myriad cities!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Calamity eternal casting devastation on myriad cities, turning foes to ash!"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "business-wisdom-of-viotis-the-wealthy",
+  "name": "Business Wisdom of Viotis the Wealthy",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Business_Wisdom_of_Viotis_the_Wealthy",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"Before learning to do business, learn to be a good person. Stay hungry for knowledge, and never stop learning.\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "by Viotis the Wealthy"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The immensely wealthy Viotis left behind only a few words after his death, which were revered as business wisdom and eagerly passed around by merchants and commoners alike for a millennium. People have always been curious, how did this foreign-born youth who grew up impoverished manage to build an empire from scratch and carve out his legacy in Okhema? And whenever asked this question, Viotis would always mention that fateful disaster."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"I have always believed that Talanton is fair to everyone.\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "by Viotis, Merchant Guild Representative"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "When Viotis was still a young boy, his homeland was consumed by the black tide, forcing him to flee alone to seek refuge with his compatriot brother, Atticus, in Okhema. However, Zagreus always took delight in tormenting the unfortunate. Along the way, Viotis was ambushed by bandits, with one blade piercing his chest and another slashing his arm. Fortunately, a passing hunter saved his life. Though he survived, the trauma left him with an ailment that troubled him for many years."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"Embrace your flaws. Timely forgetting allows you to focus more on your goals.\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "by Viotis, Chief Benefactor of the Grove Amnesia Clinic"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Viotis tumbled into a ravine and barely survived, but in doing so, he lost all his memories. When he was taken in and treated at the Twilight Courtyard, he could only mutter a single name \"Atticus.\" Following this clue, people managed to locate his elder brother, Atticus. The latter cared for him diligently, slowly recounting his experiences until his condition showed improvement."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Even after that, Viotis continued to suffer from amnesia. Perhaps because all his memories came from his brother's retelling, during episodes of his condition, he could no longer distinguish whether he was Atticus or Viotis."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"Brotherly partnerships always end in separation. Throughout my journey, I have never relied on my brother's influence.\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "by Viotis, Licensed Supplier of the Kephale Sanctuary"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Viotis's elder brother, Atticus, was already the most promising apprentice under the High Priest. After the High Priest's passing, Atticus succeeded him and announced the famous \"Prophecy of Eternal Day.\" However, Viotis did not seize the opportunity to accept a sacred position. Instead, he chose to forge his own path."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "He rented a shop in the Marmoreal Market, working tirelessly for three years to save up ten thousand Balance Coins. With the addition of three hundred thousand Balance Coins from his brother Atticus's support, he was finally able to open his first pawnshop."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"Integrity never leads to loss, and devotion brings profit.\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "by Viotis, Lifetime Guest of the Dawncloud"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The turbulent times allowed Viotis to secure his first fortune through his pawnshop. He then organized trade caravans, monopolizing the timber and olive oil trade between city-states, amassing an inexhaustible wealth. Strangely, after his elder brother Atticus passed away prematurely due to illness, Viotis's amnesia worsened. In his delirium, he referred to himself as Atticus and could recite the Oracles of Kephale fluently."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "This strange phenomenon led him to become a devout believer in the Titans. Every year, he set aside one-sixtieth of his profits as tribute to Kephale, a practice he upheld until his death."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "<!--"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

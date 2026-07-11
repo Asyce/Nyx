@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "stone-tablet-found-in-chest",
+  "name": "Stone Tablet Found in Chest",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Stone_Tablet_Found_in_Chest",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Greetings, traveler. Congratulations on solving the puzzle three times — you must possess the qualities I seek: Wisdom and resilience recognized by Oronyx, an adventurous spirit, and most importantly — being alive."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Perhaps you've already guessed it, but the real treasure is something beyond the reach of time. To me, it is this unique bond."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Since my soul research was interrupted and I was driven from the city as a heretic by the church, this nymph I met on my journey has become my sole companion. We have endured many hardships, journeying together to this ancient city of the dead, and have remained here for many Light Calendar years."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "As my time comes to a close, I've gained new insights into the teachings of time. I set up this puzzle so that my life's accumulated knowledge could be seen by someone and passed on after I'm gone. What still troubles me is my eternal nymph companion—"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "No, I'm not worried about its safety, but about the fact that soon, no one will entertain it anymore. Based on my understanding of it, it will likely resort to playing with the iron balls in the hall, causing a ruckus. Perhaps I exaggerate, but please understand, it is quite mischievous."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Perhaps... it has already collided with you? Please forgive it."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I wonder if you might take it from here, whether on your travels or reuniting it with other nymph companions — just please don't allow it to disturb the spirits of the dead here anymore. It has been quite disrespectful."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Of course, I understand that this is an unreasonable request, so — how you choose to act is entirely up to you. May you walk with time for many years to come."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Notes: That insect keeps saying, \"If even you, a 'fake priest,' can learn prayers, then Oronyx' divine power is nothing special.\" This is my extra request — please explain to it just how skilled one must be to master Oronyx's Prayers!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "<!--"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

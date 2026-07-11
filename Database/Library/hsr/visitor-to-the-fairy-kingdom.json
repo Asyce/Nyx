@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "visitor-to-the-fairy-kingdom",
+  "name": "Visitor to the Fairy Kingdom",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Visitor_to_the_Fairy_Kingdom",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Once, in a village wrapped in golden waves of wheat, there lived a boy with hair as bright as moonlight. He loved to sit beneath the olive tree near the altar of Oronyx, drifting into dreams as he watched the clouds shift into fantastical shapes."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "One evening, as the sky turned a fiery orange, the boy saw a glowing fairy flutter out of a hollow in the olive tree. It sparkled like a star on a leap, gleaming brightly in the twilight."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Hello, little star!\" the boy whispered. The fairy giggled, waved at him, then darted back into the tree."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Curious, the boy crawled into the hollow and found himself in a magical tunnel! He crawled on, deeper and deeper, until he arrived at a breathtaking place — the flowers here sang, mushrooms grew as big as little houses, and countless glowing fairies danced in the sky."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Welcome to our kingdom!\" a tiny fairy, wearing a crown of dandelions, said as he skipped around. \"I'm Prince Stardust! You're the first human to find us!\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The boy looked around and saw that the fairies lived in tree hollows and mushroom houses, eating only wild fruits and honey."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"When winter comes, do you get hungry?\" he asked."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Stardust nodded, his glow dimming. \"In winter, we have no fruits to eat. We must sleep on empty stomachs.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"I'll teach you how to grow food!\" the boy said in exhilaration."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "He brought magical seeds and planted them in a sunlit patch of earth. The fairies watched wide-eyed as he pressed the seeds into the soil."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Seeds need a kiss from the sun and a hug from the rain,\" the boy explained, \"and then they will become delicious food! Just like Oronyx's miracle — time will turn tiny seeds into great treasures!\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The fairies clapped and cheered, eagerly mimicking him as they planted more seeds."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The boy also brought a magical pot with him. \"This is the blessed magical cauldron,\" he said mysteriously. \"It makes food taste sweeter and more fragrant!\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "With the boy's help, the fairies quickly learned how to brew soup, bake bread, and make desserts. The fairies also learned how to store food for the winter."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Before long, the fairy kingdom was filled with joy. The fields bloomed with vegetables, and the air in the kitchens was filled with the fragrance of baking bread and sweet treats. The fairies no longer feared going hungry in winter."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "When it was time to leave, the boy made a promise to the fairies. \"When spring arrives and the flowers bloom, I'll return with more friends!\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The fairies cheered, adorning the kingdom with the brightest flowers for more guests in the days to come."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"I'll be back soon!\" the boy called, waving as he crawled back out of the tree hollow."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "But after he left, the fairies have been waiting, day and night, and yet the boy never returned. The fairies lit never-ending firefly lanterns, hoping they would guide him back to the kingdom."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Now, when the moonlight spills over the wheat fields, you might hear the fairies singing a lullaby:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Little boy, remember us still! Return with your friends to our fairy-filled hill.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "And even today, the fairies are still waiting, for promises in this land are never forgotten."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

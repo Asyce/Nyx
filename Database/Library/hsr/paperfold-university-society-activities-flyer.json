@@ -1,0 +1,727 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "paperfold-university-society-activities-flyer",
+  "name": "Paperfold University Society Activities Flyer",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Paperfold_University_Society_Activities_Flyer",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[Club & Society Activities Schedule]"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Dreamweaving Design Association"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Dream Construction Workshop"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Time: Every five days, starting from the 7th period"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Location: Memoria Lab in the Engineering Building"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Content: Guided by professors and key association members, all participants will combine reality with dream concepts to create unique designs."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Note: Please promptly collect your workshop creations, or they will be discarded at the end of the workshop activity."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Dream's Edge Volunteer Association"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Dream's Edge Volunteer Program"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Gathering Time: the 1st period of the second semester of this academic year"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Gathering Location: Office Hall of the Administrative Building"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Schedule: Head to Dream's Edge and help novice dreamweavers in adapting to the engineering environment."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "How to Register: Get the complete application form from the administrative staff of the Dreamweaver Academy and fill out the form."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Academic Affairs Office of the Dreamweaver Academy"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Featured Lecture: \"Evolution of Memory Zone Memes and Penaconian Aesthetics\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Time: the 10th period"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Location: Academy Lecture Hall"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Lecturer: Professor Rayleigh"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Note: Please make a reservation via the academic affairs system and enter the hall based on your reservation number"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Entrepreneurship Pioneer Club"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"From 0 to IPO\" Entrepreneurship Training Camp"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Time: Entire second semester of this academic year"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Location: Refer to the pinned post in the Paperfold Forum's Fortune Academy board"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Content: Executives from the Alfalfa Family will guide students through an entire simulated entrepreneurship process."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Registration Fee: 50 Alfalfa credits"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "How to Register: Register at the Student Council office in the Fortune Academy"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Investment Club"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Simulated Contract Trade Contest"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Time: Monthly"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "How to participate: Use the Fortune Academy's simulation trading platform to carry out contract trading."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Reward: The final winners will enjoy an internship opportunity at the SoulGlad Company."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Note: All contestants will use virtual accounts for simulated trading and no local currencies will be traded. The trading platform is for learning purposes only and strictly prohibited for other uses."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Academic Affairs Office of the Fortune Academy"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Oti Cup\" Business Case Analysis Contest"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Preliminary: Next week"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Location: Online"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Reward: A chance to have lunch with Mr. Oti Alfalfa"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Registration Deadline: Last day of this week"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Robin's Fan Club"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Fans Jogging Day"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Time: Starts on the 11th period"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Location: Sports Ground"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Ticket: Free (Available only to Robin's fans. All participants need to pass the fan verification on the Paperfold Forum.)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Movie Watching Club"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Art of Nindō —"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Cosmic Ninjutsu Inscriptions"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Movie"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Watching and Sharing Session"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Time: Next week, the 7th period"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Location: Lecture Hall"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Content: Watching Mr. Reca's latest movie"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Cosmic Ninjutsu Inscriptions"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "for free in the lecture hall as authorized by him and engage in post-viewing discussions."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Drama Club"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Recruiting actors for the huge performance of"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A Shattered Dream"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Time: Tomorrow, from the 11th to 13th period"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Location: Rehearsal Room"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Synopsis: A story about young people struggling between dreams and reality."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Director's Greetings: We welcome all students who love acting, no matter how much or little experience they have!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Comedy Club"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Happy Stage — Weekly Improv Comedy Day"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Time: 5 days from now, starts on the 12th period"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Location: Auditorium in Student Activity Center"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Content: Stand-up comedy, improvised sketches, audience interaction, and others."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Note: Dream bubbles containing outstanding comedy performances in previous years will be available for sale after the show."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Ticket: 15 Alfalfa credits (10% off with a student ID card)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[Review of Last Week's Society News]"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Comedy Club: Joy Theater Reopened"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Last week, the Comedy Club reopened the Joy Theater and hosted a special improvised comedy show. This marked their first public performance following a series of changes. Unlike their previous shows filled with numerous advertisements, they opted for a more genuine and direct approach this time and won the audience's applause. As one audience member said, \"The charm of comedy isn't about all that fancy wrapping. It's about reaching out and touching the audience's soul.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2. Investment Club: Sim-Trading Contest Ends with 5 Winners Dividing Lucrative Prizes"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The recent simulated trading competition organized by the Investment Club attracted a large number of student participants. All participants formed teams and traded on the simulated trading platform established by the Fortune Academy. The team that achieved the highest profit/loss ratio garnered significant recognition from both the academy and external judges, securing the championship with a substantial rate of return. Sources indicate that all five team members are from the Fortune Academy and will evenly split the cash prize of 300,000 Alfalfa credits."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "<!--"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

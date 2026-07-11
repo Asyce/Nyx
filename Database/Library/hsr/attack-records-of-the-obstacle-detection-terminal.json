@@ -1,0 +1,563 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "attack-records-of-the-obstacle-detection-terminal",
+  "name": "Attack Records of the Obstacle Detection Terminal",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Attack_Records_of_the_Obstacle_Detection_Terminal",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*All previous attacks on the space station are recorded here*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Attack Records:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Record 000237: Ionization grid on the emergency pod exterior was scratched by debris."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Repairs are done automatically by the system. Feedback unnecessary."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Record 000238: Anomalous wave bands detected on radar scans along patrol route 18,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "subsistence zone. Handed over to Security Department."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Record 000238 Feedback: Security Department confirmed that the wave band is normal and"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "determined the irregularity is due to Curio experimentation."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Record 000241: Base zone — Security and protection balance chamber — Irregular ventilator"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "operation with airflow speed reaching 140% of the preset value. Handed over to Security"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Department."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Record 000241 Feedback: Base zone — Security and protection balance chamber —"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Ventilator stability suboptimal, paused operation."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Abraham: The design of this ventilator is the downfall of the entire space station. It blows excessively in front of regular staff members and the air became soft again in front of the others!"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Record 000243: Anomalous wave band detected on radar scans along patrol route 42, base"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "zone. Handed over to Security Department."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Abraham: Catastrophe. It's the start of the catastrophe. Number 42 is synonymous with disasters. If we had turned on the repulsion bridge back then, would we have lost so many lives? Wait, what am I doing? Am I hypothesizing or am I dreaming?"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Record 000244: Anomalous wave band detected on radar scans along patrol route 19,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "storage zone. Handed over to Security Department."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Record 000245: Anomalous wave band detected on the master control zone's radar scans along patrol route 2, storage"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "zone. Handed over to Security Department. Changed priority to \"High\"."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Record 000246: Warning! The ionization grid on the base zone section 13 exterior is under"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "attack by unknown forces. Automatic repairs are unavailable."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Record 000247: Warning! The ionization grid on the base zone section 1 exterior has been"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "nullified. Automatic repairs are unavailable. The system has automatically sent the repulsion"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "bridge pre-opening mail."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Record 000243 Feedback: Security Department arrived at the base zone."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Abraham: The young 'uns must be thinking this is a small firewall error! Who would imagine a locust plague like this? Agh! Number 243 is the end of their lives but the beginning of disaster..."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Record 000248: Warning! An external force is attempting to disable the firewall! System"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "defense level increased to \"preparing for incoming attack\"."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Record 000249: Warning! The Base zone is currently under attack from unknown external"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "forces. The alloy door of the space elevator has been twisted."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Record 000250: Full defense mode engaged. All staff members are urged to seek shelter."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Abraham: The coordination of the lead researcher is outstanding. She is really trying to control the negative effects this disaster is having on us. However, I sometimes fantasize that I was one of those who were unable to get to safety. I might have died under the trampling footsteps of those beasts. If that had happened, would anyone remember me?"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Record 135298: Base zone — Experimentation room 72 exterior. Collapsed walkway."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Abraham: Collapsed walkway, two simple words."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Record 135299: Base zone — Collection cataloging room 98. Energy supply disconnected"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "externally. Engaging backup energy supply."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Record 142854: Antimatter Legion attack wave 7 — Storage zone walkway power supply"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "fully disconnected. Some rooms are closed off due to short-circuiting."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Record 142855: Antimatter Legion attack wave 7 — Base zone space elevator damaged."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Explosion at the entrance."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Record 142856: Antimatter Legion attack wave 7 — Fire in base zone waste disposal room"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "24. No signs of life detected. Fire extinguishing protocol engaged."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Abraham: Record 142857 must come after Record 142856. Each ticking of the Obstacle Detection Terminal signifies the end of several lives. Maybe the next one is me? But how long will that take?"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Wen Mingde: Input command — Suspend Abraham's access to the attack records of the Obstacle Detection Terminal."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

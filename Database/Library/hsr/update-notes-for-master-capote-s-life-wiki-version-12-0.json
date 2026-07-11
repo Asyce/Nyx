@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "update-notes-for-master-capote-s-life-wiki-version-12-0",
+  "name": "Update Notes for Master Capote's Life Wiki Version 12.0",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Update_Notes_for_Master_Capote%27s_Life_Wiki_Version_12.0",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[The following is a transcript of a recording]"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Capote: Come on, Captain Arlan. You have to get into the role."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Arlan: I'm sorry, professor. I just can't think of you as an... an overbearing boss."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Capote: Close your eyes and try to feel it. After all, this is your trial of the heart! Listen to my instructions and let's try again..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Capote: Ahem... Arlan! Come to my office! Time waits for no one, and every minute of my time is precious."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Arlan: Y—Yes sir! Okay, I'm coming over right away."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Capote: Wrong! Biiiig mistake! Captain Arlan, you can't just be so submissive. If you were tasked with something beyond your scope of work, would you also take off immediately like you just did?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Arlan: I..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Capote: Oh dear! If you want to learn how to handle an overbearing boss, it looks like your heart is going to have to put in some serious training!"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "the-legend-of-chimera-administrator",
+  "name": "The Legend of Chimera Administrator",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/The_Legend_of_Chimera_Administrator",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As everyone knows, the post of chimera administrator is held by the most talented and intelligent people that Okhema has to offer. Their true identities are always a point of interest for the citizens of Okhema. Hehe, I happened upon a few big scoops lately. I will share them here for your consideration."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "First, we have the"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"Horn of Freedom,\""
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "the squad that has consistently dominated the top of the leaderboard!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Unfortunately, their administrator is an extremely mysterious and secretive person. Even those in the know like me struggle to get their hands on that information!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Ahem. That being said, my intel on the other administrators is one hundred per cent legit, and I'm going to spill the tea for you all right here —"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Great Mountain Dweller Guard"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Though he refused to reveal his name, it is clear from his clothing and lifestyle that he is one of the many guards who protect Okhema. Let us express our gratitude to these loyal guardians!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Protecting the city and being a chimera administrator, these two roles seem completely unrelated — and they are. Can a Mountain Dweller guard who is renowned for being short of words take on the crucial role of commanding chimeras? We'll be watching eagerly!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Merchants Unite"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The merchants of Marmoreal Market also aspire to become chimera administrators! I wonder if these stall salesmen who excel in attracting customers and making small talk have what it takes to coexist with the chimeras and handle the role of administrator? Hmm."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Bug Catcher Kid"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I was just as shocked as you are when I discovered this, but this will make sense to you very soon — when it comes to communicating with cute little animals, is there any better candidate than an innocent child? A language barrier will never stand as an obstacle to communication for them. Children and chimeras are natural-born companions!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "If you ask me... It's the stern parents of such children who stand as the greatest obstacle to them becoming legendary administrators."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Priest of Cerces"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "There's not much to say about this one. The Garden of Life has always had close relations with the Grove, which worships Cerces. It just makes sense that priests would get involved."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Administrator of Florie"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I'll leave you on a little cliffhanger here... There's no way you'd ever guess who this mysterious big shot is! Or, perhaps I should say... \"little shot\"?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Kremnoans"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Oh my, refugees of Castrum Kremnos are willing to do their part towards the construction of Okhema? What reason could we possibly have to turn them down? With Lord Mydei proving that he is a friend of all Okhemans, we are naturally willing to put our faith in this courageous and honorable community."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "My only hope is that they will not train the chimeras to become warriors like them..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A Dromas Keeper"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "If you can raise dromases, naturally you will excel at chimera administration! The only question is: Isn't there a considerable difference in intelligence between dromases and chimeras?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Bath King"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "... Another strange squad name. From the information I have received, this is a male administrator who spends their time at Marmoreal Palace year-round. His appearance is unremarkable to the point of being almost lazy and sloppy. However, heroes never look as you expect them to, do they? Who knows, maybe his unassuming frame conceals the strength required to shake the entire industry!? I've got my eyes on him."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

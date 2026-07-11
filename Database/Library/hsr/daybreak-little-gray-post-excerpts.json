@@ -1,0 +1,485 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "daybreak-little-gray-post-excerpts",
+  "name": "\"Daybreak Little Gray\" Post Excerpts",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/%22Daybreak_Little_Gray%22_Post_Excerpts",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "/*This should be the social media account of \"Magnus,\" a cast member from the Squadron. I should find time to have a chat with him.*/"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "/*Sure, our station doesn't restrict employees' public image, but it's still important to check in on their mental well-being.*/"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Posted on Monday, █████ 27th at 18:31"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Working at the TV station is awesome, being a hero is awesome. It feels like I'm part of the Astral Express crew, fighting for justice and all that. Pretty inspiring, right?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Posted on Thursday, █████ 30th at 18:36"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Squadron leader complimented my hard work, so I took the chance to ask why they do this job. They laughed and said it's all for people's happiness."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "So cool. Now I'm even more confident!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Posted on Wednesday, ████ 11th at 13:57"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Huh, so I'm getting interviewed by the IPC? That came out of nowhere."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Posted on Wednesday, █████ 11th at 17:13"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Something crazy happened during our interview. A bag snatcher on a speeder!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Never thought we'd see this kind of thing in Seafeld City, where people should be simple and kind, but hey..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "We caught the troublemaker red-handed using nothing but our filming mechatron!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Posted on Wednesday, ████ 11th at 17:15"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "If it were the Trailblazer, they'd do the same thing."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Cleaving through despair! A blade as sharp as steel!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Posted on Thursday, ████ 12th at 18:40"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "[image]"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Someone on the crew had a birthday, so they treated us to ploo cocktails."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "My teammates weren't really into it, but I thought the scallions in the drink were actually pretty interesting."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It also reminded me of Himekat Impression Coffee, so I got roasted for being an Express stan."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Posted on Friday, ████ 13th at 20:44"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The incident last time was on the news. \"Hero Actor Becomes Real-Life Hero, Saves Citizens,\" once again, the Squadron series hit a new popularity peak."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Posted on Friday, ████ 13th at 21:14"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I think I've seen that troublemaker somewhere before."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Probably just a few days ago at work, talking to someone in the office."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Squadron leader told me it's probably some obsessed fan who managed to break into the TV station."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Posted on Sunday, ████ 15th at ██:██"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A senior host who's always looked out for me is leaving the station. Went out for dinner with him today."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Hope everything goes well for him."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Posted on Monday, ████ 16th at 18:40"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "At the theater show, a kid asked me if I could show up to protect them when bad guys come to their house."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I was about to say something, but the Squadron leader beat me to it and answered for me."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"A hero can't protect everyone. What you need to do is have a strong heart, and then you can face evil without fear.\" Something like that."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The audience applauded, the kid looked pensive, but honestly, I wasn't really satisfied with that answer."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Posted on Saturday, ████ ██th at 07:14"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Because the bad guys are still out there."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Posted on Tuesday, ████ 12th at ██:██ (Deleted)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Re: \"Is the Smiles Society a viable solution for disheartened imagenesis?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "My personal suggestion is to try dealing with it yourself first. If you really can't hold on any longer, it's not too late to reach out to the Smiles Society for help, right? After all, everyone at the Society is pretty busy every day."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Posted on Saturday, ████ ██th at ██:██"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "This is scary... My last post got 500 replies. Nobody's fighting or anything, but all these warm, supportive comments are kinda freaking me out."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I'm gonna delete it. Also, I really don't need help, so please stop commenting."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Posted on Saturday, ████ ██th at ██:██"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I saw that person again today, and they've totally changed. Word is they've turned over a new leaf."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Posted on Saturday, ████ ██th at ██:██ (Deleted)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "My teammates said that after the surgery, I'd be able to open the door to my heart."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "That person works at the station now, all thanks to Director Fulwish."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Posted on Friday, ████ ██th at ██:██"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I had a chat with everyone about the TV station's recent promotional strategies."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "They said that for heroes to keep operating, commercial considerations are important."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Hmm, fair point. Maybe I'm overthinking this?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Posted on Sunday, ████ ██th at ██:██"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I really wanna be a hero."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Posted on Monday, ████ ██th at ██:██"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I heard the Astral Express is really coming! I need to beg my agent to set up a collab project with them, no matter what."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

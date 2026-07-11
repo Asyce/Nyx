@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "pearluxe-corp-annual-gala-prize-list",
+  "name": "Pearluxe Corp Annual Gala Prize List",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Pearluxe_Corp_Annual_Gala_Prize_List",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Grand Prize"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Work Exemption Certificate\": Congratulations! As of today, you have earned yourself a lifetime of unpaid leave!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "First Prize"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Ascension Voucher\": Upon use, you will be granted a one-on-one meeting with Madam Pearl. The conversation is limited to 30 minutes, so make the most of this opportunity to move up the social ladder."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Second Prize"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Empty Layoff List\": This list can be applied to any employee below the P30 rank, forcing them to pack their bags and leave within three days. This is a single-use item. Please select your target with caution."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Third Prize"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Efficiency Boost Bundle\": Includes a \"Forced Wake-up Alarm,\" an \"EEG Monitor,\" and an \"Electric Shock Smart Chair\" to assist users in maximizing their productivity."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Fourth Prize"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Collaboration Artbook\": A limited-edition artbook produced in collaboration with the"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Daybreak Squadron"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "VFX film. While in high demand on the market, the item contains special encoding and resale is strictly prohibited."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Fifth Prize"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Mechatron Capsule Set\": A classic collection of mechatron capsule giftboxes produced by Pearluxe, featuring the full lineup of models from the"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Transrebars"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "series."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Participation Prize"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Thank You Box\": Contains a \"Deluxe Edition Employee Handbook,\" 10 cafeteria vouchers, and 3 paid sick leave application forms."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "bar-collateral-pamphlet",
+  "name": "Bar Collateral Pamphlet",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Bar_Collateral_Pamphlet",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A small booklet left carelessly by the bar, logging the collateral used by the Fools to trade for drinks when they were in a pinch."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Item #2202"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Item Name: Soda Savory Soup (Enhanced Edition)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Pawned by: Suethaya"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Note: A"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "beverage"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "(Miss Sue insisted on this noun) sealed in a can, identical in form to a regular soda. Miss Sue claims this is her ultimate supply, specially made to \"counter an apocalyptic-level creative drought,\" and can, if need be, reluctantly serve as an apocalyptic-level prank item."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Item #2203"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Item Name: The Neighbor's Robot Vacuum"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Pawned by: Elliot"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Note: A neighbor had only asked Elliot to look after their cleaning robot while they were on vacation, but forgot to give him permission to pawn the little robot for a drink. Elliot graciously forgave his neighbor's oversight and exchanged the cold little robot for a warm beverage."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Item #2204"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Item Name: Discontinued Game Cartridge"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Pawned by: Blancink"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Note: Along with the cartridge, the old console that ran it is also discontinued. However, unlike the other Fools who use the bar as a dump, Mr. Blancink did not pawn both. He said it serves to remind him to buy back this cartridge, which seals away his \"incomplete youth.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Item #2205"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Item Name: A Faded Treasure Map"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Pawned by: Gu Yuanzhou"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Note: Gu Yuanzhou inherited this treasure map from his father, who in turn supposedly received it from his grandfather. Although Gu Yuanzhou got this map ten years ago, he was busy drafting plans at the start of the year, and preoccupied with preparing supplies mid-year. And by year's end, he felt he should probably come up with a better plan. So, year after year, a decade flew by."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Item #2206"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Item Name: The Finishing Touch"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Pawned by: Viola"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Note: A pigment carefully mixed by the artist Viola, identical in color to her eyes. Viola once intended to create an imagenae modeled after herself, but she soon began to suspect that she herself was an imagenae created by the true \"Viola,\" and thus fell into a deep dread of the starry cosmos."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Item #2207"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Item Name: Letter to Zhongshan"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Pawned by: Cynsithia"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Note: A letter that remains a draft. The paper shows signs of repeated corrections and dried tear stains. The opening has been changed over ten times, from \"Dear Zhongshan\" to \"To the unfamiliar Zhongshan\" to \"To my hated Zhongshan.\" Cynsithia claims she now knows how to persuade Zhongshan to debut as a virtual idol with her, and she's just not ready to bring it up yet."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

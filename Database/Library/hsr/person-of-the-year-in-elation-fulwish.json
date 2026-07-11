@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "person-of-the-year-in-elation-fulwish",
+  "name": "Person of the Year in Elation: Fulwish",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Person_of_the_Year_in_Elation:_Fulwish",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "She is the uncrowned media queen of Planarcadia, a philanthropic tycoon spreading the teachings of Aha, and most notably, an orphan of the Bloodstained Games. She is the flower of Elation that bloomed on this land, leading countless people towards happiness. Today, let us delve into the elated life of Ms. Fulwish, the director of Fulwish TV and president of Research Society of Happy Smiles."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Please Be Happy"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Like most children on this planet blessed by The Laughter, Fulwish had a happy and fulfilling childhood until fifteen years ago, when the Herald of Death brutally murdered twenty-two students at Graphia Academy. While Fulwish survived by sheer luck, what awaited her was the news of her parents' tragic ends."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Like many other orphans of Bloodstained Games, she might have fallen into self-destruction due to severe psychological trauma. However, a mutual aid society formed by the victims' relatives took her in and introduced her to a life-changing show called"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Please Be Happy"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The variety show planned by Seafeld TV Station was on the verge of cancellation due to a fabrication scandal, but Fulwish's upsurge changed everything. In front of the camera, she was spirited and confident, having overcome the shadows of her past and striding towards a happy life. Countless people still immersed in the terror and grief of Bloodstained Games were inspired by her presence, and the Interastral Peace Corporation also rode the wave, promoting her as a role model for the orphans of Bloodstained Games."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "And that's how the superstar Fulwish came to be."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "People's Happiness"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Despite her fame and success, Fulwish wasn't lost in her own glory. Beyond the victims of the Herald of Death incident, countless others still lived in unhappiness. While the Interastral Peace Corporation brought new joy to Planarcadia, it also brought new suffering. The fast-paced modern life allows people to obtain happiness more quickly, yet it gradually drains our mind and soul."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Fulwish reorganized the Herald of Death Victims' Mutual Aid Society into Research Society of Happy Smiles, improving the society's psychological treatment procedures, and dedicated herself to extending the society's helping hand to every corner of Planarcadia, giving back to the arcadia that had shown her warmth in her darkest moments. She acquired the bankrupt Seafeld TV Station and, rebranding under the name of Fulwish TV, produced classic shows such as"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Good Morning, Planarcadia"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ","
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Video Game Hour"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", and"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Phantasmoon Late-Night Show"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ". The currently popular"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Daybreak Squadron"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "has once again sparked a superhero craze among teenagers. Starting as someone who found happiness, she has now become someone who brings happiness to others."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Fulwish's wish to create an arcadia where all worries vanish and everyone will only need to laugh seems like an impossible pipedream. But if the God of Elation were to descend upon the mortal realm, THEY too would probably entertain such an absurd notion."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "I'm not someone important, but just an ordinary person like any other. All I want is to see everyone smile with happiness."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "— Fulwish"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "mining-equipment-purchase-order",
+  "name": "Mining Equipment Purchase Order",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Mining_Equipment_Purchase_Order",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Purchase Order"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Order No.: 693910-0003"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Buyer: Boulder Town Great Mine Team"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Contact: Steve Nocci"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Supplier: Rivet Town Chamber of Commerce"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Contact: Thomas Hansa"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Serial No.: 1"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Item No.: 2-65"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Item Name: Pneumatic Rock Drill"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Model: Rivet Type-2"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Unit: Set"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Count: 5"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Price per Unit: 1450 shield"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Subtotal: 7250 shield"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Remarks: Equipment rental, the amount is calculated on a single-day basis"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Total: 7250 shield"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Delivery Date: September 20"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Delivery Method: Supplier-arranged delivery"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Delivery Address: The Great Mine camp, outer edge of Boulder Town"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tax Rate: 15%"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Payment Method: Shield Direct Debit"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Payment Agreement: 50% deposit in advance. The rest paid on delivery"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

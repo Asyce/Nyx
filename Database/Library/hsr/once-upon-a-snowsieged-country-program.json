@@ -1,0 +1,834 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "once-upon-a-snowsieged-country-program",
+  "name": "Once Upon a Snowsieged Country Program",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Once_Upon_a_Snowsieged_Country_Program",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Page One",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Opening Date: January 11"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "A magnificent new year offering from the Golden Theater operatic division"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The new Supreme Guardian was checking historical records in the Qlipoth Fort on a snowy night."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The history of the Architects constructing Belobog was passed down in every generation."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "However, on that night, these stories leapt off the page before the new Supreme Guardian to recount past tales."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "They recounted the resolve when the city was first founded, the unexpected wars, and the confusion and anxiety not recorded in history."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Their happiness and troubles were all displayed on this snowy night!"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Goliards Award for Best Opera Director"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Goliards Award for Best Opera Conductor"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Goliards Award for Best Opera Orchestra"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Goliard Award for Best Female Opera Singer"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Producer: Michel. Casting Director: Rebecca. Composer: Andrew."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sound Director: Sabrina. Artistic Director: Janet. Choreographer: Xavier. Choir: The Smile Choir"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Costume Design: Brandon. Set Designer: Verdi. Lighting: Marina. Public Relationships: Barbara."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Alisa Rand — Sara"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Svetlana — Fiona"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Alexandra — Annie"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Fainka — Therese"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Mihail — Nicholas"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Katarina — Carol"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "New Supreme Guardian — Abby"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Architect Doreen — Kristen"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Halls Goethe — Weber"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Laszlo Landau — Lemming"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Opening"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Stories Behind the Pages\" — New Supreme Guardian"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Act I"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"The Guardians\" — Alisa Rand, Svetlana, Alexandra, Fainka, Mihail, Katarina"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Beside the Walls of Belobog\" — Alisa Rand, Architect Doreen"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"The Song of No Fear\" — Halls Goethe, Laszlo Landau"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Act II"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Aria for the Supreme Guardian\" — Svetlana"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Cheers of the Students\" — Alexandra"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Good Food, Good Wine, and Good Grains\" — Fainka"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Act III"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Quiet Belobog\" — Mihail"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Fortification March Suite\" — Architect Doreen, the Choir"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"The Reforgers' Duet\" — Katarina, Architect Doreen"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Act IV"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"The Power of Preservation Takes Root in Me\" — Alisa Rand, New Supreme Guardian"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"This is the Destined Path for Guardians\" — Alexandra, Fainka, Mihail, Katarina, New Supreme Guardian"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"One Recommendation\" — Alisa Rand, Svetlana, Alexandra, Fainka, Mihail, Katarina"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "label": "Page Two",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Exclusive Interview: Face-to-Face With the Soprano Sara About the Dreams and Tears Behind"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Once Upon a Snowsieged Country"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Author: Olsen, journalist of"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Belobog Weekly"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The soprano Sara had recently made a strong comeback via the opera"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Once Upon a Snowsieged Country"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "after being away from the operatic stage due to health reasons for half a year. During the media preview event last night,"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Once Upon a Snowsieged Country"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "stirred up hot discussion amongst the Belobog media with its star-studded cast and their outstanding performance."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Sara, Goliards Awards recipient and six-time nominee for Best Female Opera Singer, a heavyweight in the opera scene and a very respected senior, was long used to drama and grand occasions in this profession. And yet, she shed rare tears when she spoke about"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Once Upon a Snowsieged Country"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"I didn't want to accept the role for Alisa Rand. I thought my body hadn't fully recovered, and my resonance at the high notes were not as clear as before. But Carola told me this was her final work before she says goodbye to opera. So, after some thought, I decided to bear with it and take this role.\" Sara explained to us the twists and turns behind her journey to the role of Supreme Guardian Alisa Rand in"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Once Upon a Snowsieged Country"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "From more than ten years ago, the legendary female opera conductor Carola was already collaborating with Sara, who had just entered the operatic stage at that time. Sara had stopped her literature studies at the University of Belobog to chase her dreams of music. However, Carola was already a legendary conductor famous throughout Belobog. Not only was there a large age gap between her and Sara, they were also very different in recognition and career stage. How did they become such bosom friends?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"I was very young, and like many young people, I had a big appetite but a thin wallet. My friendship with Carola started with food.\" This soprano, who is now a new legend, spoke of how she met Carola. They met at a charity gala hosted by a theater. Sara was just focused on eating, and Carola also held a plate. They then met in front of the same dish. More than a decade later, the two ladies with similar culinary tastes have already been friends for many years."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Unfortunately, Carola had decided to retire due to her advancing age, and she chose"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Once Upon a Snowsieged Country"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "as her farewell piece. Sara told us that Carola was not the only one who joined the"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Once Upon a Snowsieged Country"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "cast because of a stubborn dream. The director Figaro wanted to challenge himself with a serious drama focused on a group of people, making a perfect start to his career transition. Meanwhile, for established operatic legends such as Sara, Carola, and the composer Andrew, they wanted to innovate and create a new road for the field of opera."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"If you've read the program or the fliers for"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Once Upon a Snowsieged Country"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", you'd know that it is actually a story about a group of people, even though I was listed as lead female.\" Sara explained."
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Once Upon a Snowsieged Country"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "chose six legendary Supreme Guardians in the history of Belobog, and recounted their illustrious lives to their successor in the story. Apart from Sara playing Alisa Rand, over half of the characters are played by new actors. Sara and her peers, the \"Walking Opera Legends,\" want to help young people to make a name in this industry by putting more established performers with newcomers. This was how Sara and Carola got to know each other years before. As Carola is about to leave the stage, Sara wants to continue the story between her and her friend in some way or other."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"To love, that wants nothing in return. To dreams, that won't allow us to turn back. And, to the future of opera.\" Smiling, Sara lifted a glass of water to us. Using water instead of alcohol, she offered her sincerest wishes to the future of opera."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "label": "Page Three",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The latest work,"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Once Upon a Snowsieged Country"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": ", led by the legendary soprano Sara,"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "will officially open on January 11 at the Golden Theater."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Tickets and limited merchandise will be available at the counter."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Binder with the cover of"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Once Upon a Snowsieged Country"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The cover of the binder is printed with the poster of"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Once Upon a Snowsieged Country"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The size of the binder perfectly matches the size of the program, with a great storage capacity of 30 pages."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Practical and highly memorable, suitable for storing piles of programs you get from the theater."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "List price: 1,500 shield"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Once Upon a Snowsieged Country"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "— Snow-covered Walls theme frame"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Modeled after the astonishing stage backdrop Walls of Belobog."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A special release for audience members that love the theater with programs and ticket display cards pre-reserved."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "You can decorate your wall with the program of"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Once Upon a Snowsieged Country"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "along with your ticket!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "List price: 6,000 shield"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Once Upon a Snowsieged Country"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "songbook with scores"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Includes the scores and lyrics of all songs in the"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Once Upon a Snowsieged Country"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "official show."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Fine laminated pages, printed with the best ink, long-lasting collector's edition."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "List price: 2000 shield"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

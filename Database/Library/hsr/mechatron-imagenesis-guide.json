@@ -1,0 +1,279 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "mechatron-imagenesis-guide",
+  "name": "Mechatron Imagenesis Guide",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Mechatron_Imagenesis_Guide",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "This manual serves as the operating guide for the \"Professional Mechatron Auto Customization Device,\" compiled with the assistance of imagenesis technology specialists."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I. Operational Workflow"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Verify that all 15 imagenesis qualification certificates issued by the Department of Aberration Defense are present and that the engineering log recorder is active."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Confirm that the Wishpower interface is functioning and that the Wishpower pool level is above the indicator line."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Ensure all device indicator lights are in a normal state."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Adjust each scale based on your design intentions according to the specifications in Section (II)."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Press the most prominent red button and wait for the assembly blueprints to be finalized."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "II. Customization Parameters"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "① Frame Configuration"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "※ Due to considerations regarding the center of gravity, mobility, and assembly difficulty, general staff and visitors are currently restricted from manually drawing frame designs. Please utilize the 2D indicator to adjust the general silhouette based on provided presets."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The horizontal axis represents the ratio between curves and angles: moving left results in a smoother finish, while moving right makes it sharper."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The vertical axis represents scale: any size exceeding the horizontal threshold will result in a display-only mechatron, which will lack intelligence."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "You may input subjective keywords via an external keyboard for further fine-tuning, such as:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Cool and aggressive\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Unbelievably ugly\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Can transform into an animal\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Blue and twice as fast\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And so on."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "② Coloration"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Given the mechatron's modular nature, we recommend adjusting the color of the core unit (typically the head) only. The remaining sections will automatically synchronize."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The system utilizes the RGB color model."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Additionally, if you wish for the unit to reflect only non-visible light (standard optical camouflage), please set the color code to \"257, 257, 257\"."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "You can also fine-tune the palette using keywords, such as:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Luminescent black\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Pitch dark pure white\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And the like."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "③ Core (Facial) Design"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A single slider, defaulting to the far-right (reset) position, represents the humanoid template."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "※ This features the classic design: dual eye indicators, a mouth for vocalization, and decorative exhaust vents at the junction."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Moving the slider to the left will uncontrollably diminish biological recognizability. Sliding it to the far left will result in only a single eye indicator."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "④ Functional Features"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "We recommend using occupation-based templates as a foundation for further fine-tuning."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Available options include: Jump, Accelerated Movement, Hover/Flight, Color Shifting, Optical Camouflage, Taste, Smell, Organic Matter Decomposition, Bionic Skin (not applicable to industrial models), Hand Blade, Drill Bit, Thermometer, Thermal Imager, Built-in Multi-tool, and more."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Should an emergency occur, please refer to Section XIII of this manual..."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

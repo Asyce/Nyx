@@ -1,0 +1,264 @@
+{
+  "schemaVersion": 1,
+  "game": "gi",
+  "id": "an-ode-to-khvarena",
+  "name": "An Ode to Khvarena",
+  "sourceUrl": "https://genshin-impact.fandom.com/wiki/An_Ode_to_Khvarena",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "O Nagarjuna,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Aided by Khvarena in its countless forms, I bless this land of eternal calamity."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "When the sludge of the deepest depths of the abyss stained the first kingdom,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The glorious Khvarena that aided the Lord of Wisdom was scattered in endless forms."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I crossed back over the River of Sorrow, and of the Amrita I drank."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I opened a path for the benevolent spirits so that the merciful light of wisdom may illuminate the four corners."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "O Nagarjuna,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Aided by Khvarena in its countless forms, I nourish the benevolent spirits in the sea of flowers."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Behold, soul illuminated by Khvarena, final descendant of the god of grass and trees."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Behold, heroes who battle the cataclysm endlessly, foes of the Dev."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "For not even the inky gloom from beyond the skies shall erode their forms."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "O Nagarjuna,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Aided by Khvarena in its countless forms, I have transcended the dead of this foul earth."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Cleanse the sinless of their sins, so that they may be reborn in a pure land free of suffering."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "In the chakras of the earth are contained the karmic seeds that will give birth to all things."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The fleeting blights and glories of the earthly realm are naught but the illusion of existing seeds."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "O Nagarjuna,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Aided by Khvarena in its countless forms, I have cleansed the abyss of heaven above."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The sludge welling up from the depths of the abyss has finally receded,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The legacy of Dahri, too, has submitted to the law."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A thousand songs were sung in unison, and the heavy rains abated for a time."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "O Nagarjuna,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "If the dark tide reappears and the black abyss returns,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sing this hymn and offer prayers to the Khvarena unassailable."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "May the eternal Khvarena guide us on the upward path."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

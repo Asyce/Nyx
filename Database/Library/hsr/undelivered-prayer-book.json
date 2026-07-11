@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "undelivered-prayer-book",
+  "name": "Undelivered Prayer Book",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Undelivered_Prayer_Book",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "You're not the only one who can draw others into play, old friend."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "At midnight, paradise shall be born, eternal and transcendent because of me."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Our paths still diverge, and when we meet again, you'll curse my name."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But Mikhail..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I want to fix your clock, too."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "No one knows when or by whom it was written. It was never sent, and no chance remains to send it."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

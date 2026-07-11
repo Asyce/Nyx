@@ -1,0 +1,1549 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "brief-profile-of-millennium-killer-victims",
+  "name": "Brief Profile of Millennium Killer Victims",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Brief_Profile_of_Millennium_Killer_Victims",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Case No. 1"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Name:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Embervox"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Occupation:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Streamer"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Race:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Ploo"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Case Summary:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Found dead in a streaming studio, lips missing, no signs of forced entry at the scene."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Case No. 2"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Name:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Io Afterglow"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Occupation:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Singer"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Race:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Moonlull"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Case Summary:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Found dead in a recording studio, specialized vocal organ missing, no signs of forced entry at the scene."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Case No. 3"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Name:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "@ClickMeForMiracles"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Occupation:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Actor"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Race:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Lightpaw"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Case Summary:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Found dead in a dressing room, fingernails missing, no signs of forced entry at the scene."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Case No. 4"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Name:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Bula Echovoid"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Occupation:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Idol"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Race:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Ghost"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Case Summary:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Found dead in a dance practice room, lower body missing, no signs of forced entry at the scene."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Case No. 5"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Name:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Carlo, The Second Voice"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Occupation:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Singer"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Race:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Ghost"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Case Summary:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Found dead in an artiste's resting room, ocular structures missing, no signs of forced entry at the scene."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Case No. 6"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Name:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Herzla"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Occupation:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Actor"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Race:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Lightpaw"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Case Summary:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Found dead in a film studio, horn-like structure missing, no signs of forced entry at the scene."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Case No. 7"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Name:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Veren Hale"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Job:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Streamer"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Race:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Orch"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Case Summary:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Found dead in the living room of their home, luminescent markings on the body missing, no signs of forced entry at the scene."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Case No. 8"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Name:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Tyranno Godfist"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Occupation:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Fighter"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Race:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Ploo"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Case Summary:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Found dead in an office, teeth missing, no signs of forced entry at the scene."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Case No. 9"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Name:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Lahk Ricecook"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Occupation:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Chef"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Race:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Orch"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Case Summary:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Found dead in a break room, parts of discolored skin missing, no signs of forced entry at the scene."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Case No. 10"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Name:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Wiran Wildbreath"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Occupation:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Streamer"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Race:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Lightpaw"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Case Summary:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Found dead in a studio, tail missing, no signs of forced entry at the scene."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Case No. 11"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Name:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Senna Scissorkick"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Occupation:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Fighter"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Race:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Orch"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Case Summary:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Found dead in a training room, both ears missing, no signs of forced entry at the scene."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Case No. 12"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Name:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Hertz Warp"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Job:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Streamer"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Race:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Moonlull"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Case Summary:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Found dead in the living room of their home, distinctive arm markings missing, no signs of forced entry at the scene."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Case No. 13"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Name:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Tobyn Ash"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Occupation:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Actor"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Race:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Mechatron"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Case Summary:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Found dead in a lounge, expression module enhancement components missing, no signs of forced entry at the scene."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Case No. 14"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Name:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Chord Whitechord"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Occupation:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Streamer"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Race:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Lightpaw"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Case Summary:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Found dead in a gym, torso muscles missing, no signs of forced entry at the scene."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Case No. 15"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Name:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "@The_One_That_Glows"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Occupation:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Actor"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Race:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Mechatron"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Case Summary:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Found dead on the balcony of their residence, tactile extensions missing, no signs of forced entry at the scene."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Case No. 16"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Name:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Bella Voidvoice"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Occupation:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Singer"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Race:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Mechatron"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Case Summary:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Found dead in a music production studio, resonator core missing, no signs of forced entry at the scene."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Case No. 17"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Name:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Perrin Lox"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Occupation:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Idol"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Race:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Moonlull"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Case Summary:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Found dead in a lounge, decorative components missing, no signs of forced entry at the scene."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

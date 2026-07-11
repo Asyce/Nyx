@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "ipc-worker-loan-script",
+  "name": "IPC Worker Loan Script",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/IPC_Worker_Loan_Script",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "*"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A printed piece of evidence, posted to serve as a positive example"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "*"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Loan Receipt"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I, ██████, certify that I have borrowed 50 shield from Lauder the local, in order to purchase Jarilo souvenirs. Upon the reputation of the IPC, this document is provided as evidence to ensure that the balance will be repaid immediately after credits are issued"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Month ██ Day ██"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The attachment below features the electronic seal of the IPC, as well as a big, red tick that indicates completion of the loan repayment."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

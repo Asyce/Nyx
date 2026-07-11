@@ -1,0 +1,773 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "leisha-and-mrs-trude-program",
+  "name": "Leisha and Mrs. Trude Program",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Leisha_and_Mrs._Trude_Program",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Page One",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Opens: April 8"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Adopted from the most popular fairytale in Belobog for 30 years"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The beautiful girl Leisha asked for a fire from the aloof witch Mrs. Trude to warm her poor family."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "On the way to the old witch's place, Leisha met three knights."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The witch referred to the knights as \"My Dawn,\" \"My Sun,\" and \"My Evening.\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Mrs. Trude wanted Leisha to complete three adventures impossible for normal people."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "With the help of the three knights, how would Leisha complete the witch's difficult quest?"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The Annual"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Belobog Weekly"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "'s"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "University of Belobog Child Psychologist"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Producer: Jessica. Director: Kyle. Technical Director: Bella"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Music Director: Claude. Artistic Director: Dieke. Choreographer: Xavier. Orchestral Soloist: Sara"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sound Design: Barnaud. Set Design: Peter. Lighting: Fayne. Theater Manager: Charlie."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Leisha — Winnie"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Mrs. Trude — Beatrice"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Dawn Knight — Gordon"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Sun Knight — Issac"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Evening Knight — Jason"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Female Farmer, Leisha's Aunt — Constance"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Male Farmer, Leisha's Uncle — Matthew"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Diana, the Cursed Squirrel — Kristen"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Don, the Greedy Merchant — Raymond"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Dorothy, the Happy Fox — Elsa"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"The Sound of the Farm\" — Leisha, Female Farmer, Male Farmer"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"The First Fire\" — Leisha, Mrs. Trude"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"A Quiet Dawn\" — Leisha, Dawn Knight"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"My Sun\" — Leisha, Sun Knight"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Dangerous Night\" — Mrs. Trude, Evening Knight"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Dangerous Monsters\" — Mrs. Trude, Diana, Dorothy"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Tell Me, Who Is the Prey\" — Mrs. Trude, Don"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Three Puzzles\" — Leisha, Mrs. Trude"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"What You Don't Know About Love\" — Leisha, Sun Knight"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Wake the Night\" — Leisha, Evening Knight, Dawn Knight"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"I Hope You Can be Happy\" — Leisha, Diana, Dorothy"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"End of the Story\" — Leisha, Female Farmer, Male Farmer"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Let the Past Become Wind\" — Leisha, Mrs. Trude"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "label": "Page Two",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "When Stories Become Truth: Re-Discovering Childhood in"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Leisha and Mrs. Trude"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Author: Olsen, journalist of"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Belobog Weekly"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Countless Belobog residents grew up with fairytales. However, while ordinary adults would gradually bid their childhood farewell with age, musical lovers got a chance to return to their childhood. On April 8, the musical"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Leisha and Mrs. Trude"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "adopted from the classical fairytale will re-open at the Golden Theater."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The special charm of musicals made every corner of the theater fill with supernatural fairy tale beauty the moment"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Leisha and Mrs. Trude"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "started. The traditional sing-and-dance format of musicals were broken in this two-hour music extravaganza. To suit the tastes of younger audiences, the performers stood on stilts and had puppet shows. These adjustments were very effective — in"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Belobog Weekly"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "'s annual Best Musical Award this year,"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Leisha and Mrs. Trude"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "won the Young Adult's Choice by a wide margin."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"This is a unique experience merging stories together with reality. I have three children and they're not all around the same age. The oldest is fourteen and the youngest is only six, but they all think this show was amazing. Now they finally have something in common to talk about.\" A parent stated this excitedly when we found them sitting outside the theater in a foldable chair, waiting for tickets to go on sale."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "According to the education report released by the Ministry of Education of Belobog,"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Leisha and Mrs. Trude"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "was the most popular children's story in Belobog in the past thirty years. Kyle, the show's director, told us that the musical contains many magnificent and creative backdrops and sets that are inspired by the children's story. At the same time, every song is longer than the average musical number. \"It's because we need to demonstrate the details of the fairytale forest during every song, and we need to make every animal character come to life.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In the two-hour fairytale journey of"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Leisha and Mrs. Trude"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", the audience can sing with the actors under the spotlight, and can also have unique interactions with the fantastic animals in the fairytale forest on stage. Leisha's innocent beauty, Mrs. Trude's loneliness and wondrous magic, and the unique personalities of the three knights were all expressed in the easter eggs in the encore, designed meticulously by Director Kyle and the stage crew. Those who like fairytales need to remember to stay till the very end for the encore!"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "label": "Page Three",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Adopted from the fairytale known by everyone in Belobog"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Golden Theater Musical Department presents"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Leisha and Mrs. Trude"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Officially opening on April 8 at the Golden Theater."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Merchandise is available in licensed stores in Belobog."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Binder with the cover of"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Leisha and Mrs. Trude"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The cover of the binder is printed with the poster of"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Leisha and Mrs. Trude"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The size of the binder perfectly matches the size of the program, with a great storage capacity of 30 pages."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Practical and highly memorable, suitable for storing piles of programs you get from the theater."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "List price: 1,500 shield"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Leisha and Mrs. Trude"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "— Forest theme frame"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Modeled after the fairytale forest stage backdrop of the show."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A special release for audience that love the theater with programs and ticket display cards pre-reserved."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "You can decorate your wall with the program of"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Leisha and Mrs. Trude"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "along with your ticket!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "List price: 3,000 shield"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Leisha and Mrs. Trude"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "— Leisha's thorny crown"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Officially licensed merchandise modeled after the thorny crown of the popular character Leisha."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Designed according to the average head circumference of audiences of different ages, the crown is elegant and beautiful and fully expresses Leisha's charm."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Please consult staff from our licensed stores about specific size requirements."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "List price: 7,000 shield"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Leisha and Mrs. Trude"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "— Leisha's child-sized apron"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Officially licensed merchandise modeled after the idyllic apron of the popular character Leisha."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "With a simple zip-up design, the dress contains a hidden button to adjust tightness, easily fulfilling the fairytale dreams of children of all ages."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Please consult staff from our licensed stores about specific size requirements."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "List price: shield"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "miner-s-safety-manual",
+  "name": "Miner's Safety Manual",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Miner%27s_Safety_Manual",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*The twine that binds the manual is out of shape. The inner pages are covered with black, oily fingerprints, making much of the text unreadable.*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "1. Before entering the mine shaft, make sure you are fully refreshed and feeling good. Consumption of food or drinks that may impair bodily functions are strictly prohibited."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2. Strictly abide by the mine shaft entry inspection system:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(i) When entering the mine shaft, a safety helmet and work clothes must be worn correctly."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(ii) Bring a miner's lamp and ensure that it has sufficient geomarrow reserves in it."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(iii) Bring the appropriate tools, materials, and maintenance parts."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(iv) Ensure your Rand Counter is operating normally."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. Attend the preparation meeting before starting each shift and pay attention to the work arrangements and safety precautions."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "4. Be familiar with all the safe exits, road signs, and disaster avoidance routes."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "5. Be familiar with underground signals, safety signs, and the various facilities and equipment."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "6. Be familiar with the signs of underground water leaks. If you notice any of the following phenomena, immediately notify the shift in-charge to organize an evacuation:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(i) The geomarrow veins turn dark and black."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(ii) The geomarrow temperature drops significantly."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(iii) Colorless droplets begin to form on the mine face, inner walls, or roof of the tunnel."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(iv) Increased water spraying from the roof of the tunnel or a water pressure head begins to form."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(v) Humidity level at the mine face rises."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(vi) Harmful gas levels at the mine face rises."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(vii) You hear the sound of water running."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "7. Be familiar with the standard operation method of the Rand Counter, pay attention to the radiation levels in the mine, and carry out construction within a safe range."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "8. Be familiar with the signs of geomarrow thermal reaction. If you notice any of the following phenomena, immediately notify the shift in-charge to organize an evacuation:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(i) The humidity in the tunnel rises, giving rise to a mist. Or water droplets begin to form on the mine face, inner walls, or roof of the tunnel."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(ii) The temperature in the tunnel rises, resulting in increased wall temperature, outlet water temperature, inlet air temperature, etc."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(iii) The smell of fire, coke, burning geomarrow, etc."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(iv) You begin to feel uncomfortable and experience symptoms such as feeling hot, headaches, dizziness, weakness, etc."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(v) You see smoke."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "1. Strictly follow the instructions for entering the mine shaft to prepare for work. Must have your blasting certification with you."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. Strictly obey the commands and orders given by the shift in-charge. Carry out operations in accordance with the blasting instructions and plans."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. Carry out safety inspections for detonators before operation."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "4. Strictly follow the supervisor's instructions when placing charges. A wooden stick should be used when placing charges in the blast holes. Do not throw highly-sensitive explosives or charge bags into the blast holes. Follow the standard operating procedures when loading charge bags to prevent subsequent charges from directly impacting the previous charge bag."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "5. Striking or pressing on a stuck charge is strictly prohibited. Use a non-metal rod to dislodge the stuck charge instead."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "6. If any cracks or holes are found during the charging process, the operation should be stopped and the relevant personnel should be notified. Only resume operations after the relevant personnel gives the proper follow-up procedures."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "7. After charging is complete, the debris on site should be cleaned up, paying attention to avoid damaging the detonating cord. A specialist should be responsible for connecting the detonation network."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "8. After the detonation network is assembled, the inspector should conduct a second round of inspection."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "9. The detonation station should be set behind the bunker or outside the danger zone."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "10. A preliminary warning should be issued before the blasting operation. All personnel, equipment, and miscellaneous items should be evacuated from the danger zone."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "confirming that the danger zone is clear, a detonation signal is issued, and then the blasting operation can be carried out."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "12. Entering the blasting site within 30 minutes after detonation is strictly prohibited. After 30 minutes, the shift in-charge should enter the blasting site to check the situation. The warning can only be lifted after safety has been confirmed."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "13. After the blasting operation is complete, all the explosive devices shall be counted and returned in strict accordance with the return process for explosive devices. An appropriate inventory shall be made."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*The following pages are stuck together for some reason, making it impossible to read further.*"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

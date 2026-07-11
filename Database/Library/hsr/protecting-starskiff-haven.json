@@ -1,0 +1,299 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "protecting-starskiff-haven",
+  "name": "Protecting Starskiff Haven",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Protecting_Starskiff_Haven",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": ">>>(Video logo: Publicity Department of the Realm-Keeping Commission)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Xuguang's head started to ache as she watched the two lose control of their emotions."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Perhaps just then she was overflowing with confidence in her excellent negotiation skills . She did everything in her power to calm Zaman and Akella down, but now they were so overcome by emotion that they couldn't listen to her advice."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Dahao's notes: Could you dial down the grandstanding a bit? I don't see anything excellent about the negotiation skills in this script!"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": ">>>(Insert interview of Xuguang the attendant, Zaman, and Akella)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In the face of difficulty, Xuguang demonstrated the superb qualities that an attendant for the Realm-Keeping Commission ought to have: A sharp wit and the ability to adapt to change."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The foxians have a saying that goes, \"Words are more powerful than fists, but fists are more effective than words.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Dahao's notes: Go to the Sky-Faring Commission and ask Madam Yukong or just grab any foxian you can find and ask them! foxians would never say something like this!"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Knock out it off! If a duel is what can bring a smile to your face, then I will allow you to duel, but you won't be dueling each other. You'll be facing me. If I win, then you have to do what I say.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Zaman and Akella thought about the proposal for a good while. After discussing it over, the two ultimately decided to accept it."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": ">>>(Insert interview of Zaman and Akella)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Zaman chose to be her first opponent. He bowed and stepped to a safe distance away from Xuguang. He charged toward her aggressively with his weapon at the ready. Well-versed in how to defend herself as a woman, Xuguang pivoted away from his attack. She countered by using her fingers like a sword to strike Zaman's Shenfeng acupuncture point with stunning precision."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Zaman's qi was temporarily blocked. His footwork became clumsy, and he fell to the ground immediately. The duel was over before it even began. Akella's jaw dropped at what he had just witnessed."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Dahao's notes: This all needs to get cut. It's a script for a publicity video. Why are you describing the fighting techniques in so much detail? Besides, do Aigaians have the same physiology as Xianzhou natives? Do they have acupuncture points?"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": ">>>(Insert interview of Zaman and Akella)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Akella's eyes revealed he had accepted his fate. Perhaps because he witnessed Zaman's defeat, he didn't select any weapon other than his own two fists. The palm of Xuguang's hands faced upward. It was as if she reached out with numerous hands. She brushed aside Akella's opening strike and then hit Akella's chest with a barrage of punches to his chest. In the blink of an eye, the second duel was over."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Dahao's notes: I get it. The author enjoys describing combat. I will rewrite this paragraph. If we released copy like this, it would cause a cultural conflict."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Xuguang didn't wait for the two to get back up on their feet before she swiftly rushed toward them, blocking their escape. The attendant towered over them, took their hands, and ordered them to hold each other's hands tightly."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Both of you lost to me, so the duel is over. Now I want you to become friends again!\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": ">>>(Insert Xuguang's interview)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "After the duel was over, Zaman and Akella were able to catch a ship back to their hometown thanks to the Sky-Faring Commission's help."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "As for Xuguang, her use of fighting to resolve an external conflict triggered a controversy. She was given a demerit after a discussion among the top brass of the Realm-Keeping Commission."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "And with that, the Realm-Keeping Commission protected the peace of Xianzhou once again."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": ">>>(Play end credits)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Dahao's notes: After giving it some thought, I've decided you should rewrite this script for me. I don't feel like doing it. If content like this were released to the public, the last shred of the Realm-Keeping Commission's reputation would be up in flames!"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

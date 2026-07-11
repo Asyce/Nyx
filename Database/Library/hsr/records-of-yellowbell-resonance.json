@@ -1,0 +1,513 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "records-of-yellowbell-resonance",
+  "name": "Records of Yellowbell Resonance",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Records_of_Yellowbell_Resonance",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "April, Year 8098 Star Calendar"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Transmission from the Xianzhou Fanghu:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "We are currently moored at the Lanadi star system in the Tlaltecuhtli star cluster. This system has no terrestrial planets, except for one with a rudimentary ecosystem. The Fanghu has determined this to be a hidden star system with no ecosphere within several light years' range, meaning it can easily evade attacks from the Denizens of Abundance or the Legion."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Fanghu is expected to moor here for some ten Star Calendar years, unless unforeseen circumstances transpire."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Xikui's remarks:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Ever since the third Abundance War, the Fanghu has adopted self-preservation policies to recuperate. This is understandable, but that has almost cut off their regular communications and trade with the other Xianzhou ships... From the Luofu's standpoint, I don't think this is a very good thing."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Helm Master's remarks:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "The Fanghu's high elder is responsible for the wellbeing of their people. They've already lost so much from the last of the wars. As far as the Vidyadhara are concerned, any losses to population are permanent. Let them take the rest they are deserved, they can't afford to take any risks right now."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "May, Year 8098 Star Calendar"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Yaoqing's report:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "We have secured a resounding victory against Fallomom's abominations."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "June, Year 8098 Star Calendar"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Yaoqing's report:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "We have secured a resounding victory against Toste-VIII's abominations."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "July, Year 8098 Star Calendar"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Yuque's report:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "We are continuing our explorations along an ancient shipping lane. Surveillance reports have been sent separately."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Xikui's remarks:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "The Yuque's surveillance report has been received and submitted to the helm master."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Helm Master's remarks:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Well received. Good job."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "October, Year 8098 Star Calendar"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Yaoqing's report:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "We secured a resounding victory against Sakin Chadu's abominations. Things looked sketchy at first, until the corporation swooped in to support."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Helm Master's remarks:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Send a message to the Yaoqing's Sky-Faring Commission: Please take appropriate recuperation measures."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Xikui's remarks:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Understood. Message transmitted."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "October, Year 8098 Star Calendar"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Xuling's report:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Business as usual here."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Xikui's remarks:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "I still have no idea where exactly the Xuling is right now..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Helm Master's remarks:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Same. It's normal."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "November, Year 8098 Star Calendar"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Yaoqing's report:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Currently moored in the Sakin Chadu star system in Kersarran star cluster. We are working with the corporation to harness local minerals and recuperate. Everything is safe and sound. Thank you for your concern, Madam Yukong."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Helm Master's remarks:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Send a message to the Yaoqing's Sky-Faring Commission: Please remain professional when chatting over the Yellowbell system."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Xikui's remarks:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Understood. Message transmitted."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "November, Year 8098 Star Calendar"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Zhuming's report:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Currently moored in the Le Roy Ladurie cluster's Stella Yamazaki star system, inside the territory of the Klimt Republic. We will remain here conducting scientific exchanges for 10 star calendar years."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "We hope to deploy advanced forging technology in exchange for some of the rich local mineral deposits."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "December, Year 8098 Star Calendar"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Yaoqing's report:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "We have secured a resounding victory against Asmodeus' abominations."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Xikui's remarks:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Should we send them any kind of message?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Helm Master's remarks:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "No, leave them be."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

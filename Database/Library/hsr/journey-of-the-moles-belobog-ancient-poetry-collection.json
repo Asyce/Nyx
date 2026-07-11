@@ -1,0 +1,661 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "journey-of-the-moles-belobog-ancient-poetry-collection",
+  "name": "Journey of the Moles — Belobog Ancient Poetry Collection",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Journey_of_the_Moles_%E2%80%94_Belobog_Ancient_Poetry_Collection",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Pilgrimage North of Snowfield",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I had once gazed toward the snowcapped peak"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Frosty springs had yet flow into the prologue"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But appear skybound the eyes of others in the dark hours"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Clouds enveloped the mason in the village"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And travelers peer into the Amber's past"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The journey of my heart"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Is the pilgrimage of my soul"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I had once gazed toward the snowcapped peak"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In the days boreas borrowed my singing voice"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The land and the birds will all fall silent"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "You will see the spine of the world on the mining veins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Above the stars and below the bonfire wood"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Forging memories in the name of the blacksmith"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Given meaning by the supreme fire"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I dig burrows, and you build walls"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I dig burrows, and you build walls"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And one day the walls will fall"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And one day the tears will fall"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The end is etched into the distant plains"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Waiting for this poem to die"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Till the snowcapped peaks close their eyes"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Or the flowers fall"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "label": "Dusk in Rivet Town",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I am jealous of the gear that lost the dusk"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The turning days never had a future"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Three shields per bottle"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The retail sale of souls"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Just enough for one mouthful in a meal"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Amber, amber, yet another amber for enrichment"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The stars in the hometown are never on time"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Wind, wind, another wind howls as a hawk"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The evening light tolls"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And takes away the stone pier with nowhere to go in Rivet Town"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Shackles applied, on a moist heart"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "How could it be measured in kilograms"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Yet another stone statue stands at the start of the mine shaft"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The mining machines sculpt the pattern of its own trousers"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Passersby all say"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It's so foolish"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "label": "Chubby Larry",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Chubby Larry walking one step every three seconds"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "To cross his brown kingdom"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Past the"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Forty centimeters of mine cart"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Past the"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Festival that lasts from winter to summer"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Qlipoth had said"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "We should build his temple with love"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But humans only ever offered rocks and words"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Qlipoth had been here"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And gave him a sexy pickaxe"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "He thought it was a secret"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "He always faced the night deep in the mines, and shouted with his arms up high"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Chubby Larry!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "He thought he probably wasn't young anymore"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Fifty years of song"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sealed away his arms like a mine collapse"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Larry of the Broken-Arms!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "He embraced the winter like a rock crab and roared"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "He walked past the silent beach of broken rocks with his draft"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "His boss always scolded him"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "With a ring of glory! With the clouds!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Lazy Larry!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "He stared at the funeral worm at the corner"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And cried in front of them, alone"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Larry the Crybaby!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "People no longer needed his stories"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Using the wanted poster of poverty as silver threads, they sewed his mouth shut"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Sorrowful Larry!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But he could still hear"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The breaths of flowing ores and the running steps of words"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sorrowful Larry had to live in a portable coffin"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Taking out his sincere pickaxe"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Folding it into the form of birds he had never seen"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And flipped backward twice in overcritical degrees"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Mute Larry!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Weaving lyrics in the caves all on his own"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "He ate seventeen, Soothing Mushrooms"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "He said, \"Wake me!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And seventeen poets slapped his face"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "They say, Larry was no more!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Larry had nothing and crossed the Great Mine"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Like an iron pickaxe, he was buried in the earth"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The passersby never saw this"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "They just say"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A chubby man fell asleep"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

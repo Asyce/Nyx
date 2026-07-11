@@ -1,0 +1,522 @@
+{
+  "schemaVersion": 1,
+  "game": "gi",
+  "id": "let-s-go-dodoco",
+  "name": "Let's Go, Dodoco!",
+  "sourceUrl": "https://genshin-impact.fandom.com/wiki/Let%27s_Go,_Dodoco!",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"All Dodocos must someday ride the wind and the waves and go on an adventure.\" A gentle and beautiful mother once said that."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And just as she had predicted, our Dodoco was so happy when its best friend, Klee, said that she was going to the nation of lightning for an adventure!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Of course, Dodoco loves eating delicious food with Klee at Good Hunter, and loves listening to the bards sing."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But Dodoco loves counting the stars in the sky and twisting flowers into garlands together with Klee more."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "After all, all Dodocos long to ride the wind and waves on an adventure."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "To get to Inazuma, one needs to pass through the wild winds and pass over the great waves."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But Dodoco did not fear the howling wind, for that was the blessing of the Anemo Archon."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Dodoco did not worry about the rolling waves either, for it was very brave."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Of course, Dodoco didn't want Klee to have to brave such dangers."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But as bestest friends, they were bound to protect each other."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And Dodoco didn't want to be apart from Klee anyway."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Without Klee, adventures would be like Sweet Flowers that cannot bloom, lonely and sad things."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Even if Dodoco were to cover every inch of Teyvat by land or sea, it would be meaningless."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "So there was no point hesitating. Dodoco and its best friend Klee were off on an adventure!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "If they rode on a boat, they wouldn't be able to fly freely in the sky, or swim happily in the sea..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But they'd have Klee's smile and Albedo's stories."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And that was a good trade!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Let's Go Dodoco! Illustration 1.png"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In Inazuma, the nation of lightning, the flowers and grasses are all purple, and the fish and the birds are also purple. Everything is purple!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Albedo would probably run out of purple paint trying to paint it all."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Unfortunately, he couldn't be around to draw with Klee and Dodoco."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Albedo was an adult, after all. And sometimes adults have to do adult-things."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Fortunately, Dodoco still had Klee!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Klee would often find happy things to do. As long as Dodoco was with Klee, Dodoco would never be bored."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Klee also had lots of friends in Inazuma, like they Honorary Knight, Paimon, and Yoimiya."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And so they all joined Dodoco for the most fun adventure ever in Inazuma!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Hooray for adventure!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "they Honorary Knight took Dodoco up the tall, tall Mt. Yougou."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "When they got to the Sacred Sakura, they were so tired from all that climbing that they fell asleep."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And when they woke up, everyone had grown wings like a tengu!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Klee's wings were red, Yoimiya's were gold, and they Honorary Knight's were blue."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As for Paimon... Paimon can fly without wings, so Paimon didn't grow any."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Everyone opened their wings up, causing a huge gust of wind to roll forth."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Shooom~ And the shrine maiden's hair was all messed up."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Oh no, she looked angry! Better run, quick!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Ah, adventure truly was fun... But with a *growl*, Klee's stomach started calling out."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Oh no! How could they have forgotten? Eating is an important part of adventuring too!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Om nom nom nom~ And so everyone ate the onigiri they brought along, and they all had a great time."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Dodoco and Paimon finished their share very quickly, and as the very, very full Dodoco looked at Klee's smile, it couldn't help but think—"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Meeting Klee and the others is the most hap-happiest thing that ever happened to Dodoco!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Let's Go Dodoco! Illustration 2.png|Aether Version"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Let's Go Dodoco! Illustration 4.png|Lumine Version"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Oh, yes. If you are reading this, you too are surely part of this big adventure."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Adventuring together, laughing together, enjoying good food together... If you experienced this together with everyone, then you must be their good friend."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "In which case, you're invited to Yoimiya's fireworks show as well."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Let's Go Dodoco! Illustration 3.png|Aether Version"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Let's Go Dodoco! Illustration 5.png|Lumine Version"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "While everyone was happily watching the fireworks, Yoimiya said:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"As long as our imaginations don't run dry, our minds will be freer than all others.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And Klee blurted out: \"We'll always be best friends!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "See, Dodoco was so happy to be together with its good friends."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And now, you are Dodoco's good friends too. So you, too, should go on a grand adventure with your friends."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

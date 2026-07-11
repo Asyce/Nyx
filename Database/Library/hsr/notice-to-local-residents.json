@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "notice-to-local-residents",
+  "name": "Notice to Local Residents",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Notice_to_Local_Residents",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "An old notice that looks like it has been posted here for a long time."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Issued by"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ": Inkford Hermitage Special Development Committee"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Authorized by"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ": Pearl, CEO of Planarcadia"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Attention all stranded imagenae:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The Committee has legally obtained permanent development rights to the terminus of the Dovebrook tributary, specifically the former site of the ancient civilization of Benzaitengoku. Building on the foundation laid by former CEO Silhoumont, the Committee plans to invest sizable funding to modernize Inkford Hermitage. The plan is as follows—"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I. Vision for Protective Development and Construction"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As a vital component of the \"Worlds Reborn Initiative,\" the Committee will undertake multi-phase, no-expense-spared protective construction in this region. In Phase 1, the Committee will build the \"Inkford Hermitage Hotel,\" a sanctuary providing care services for imagenae preparing to enter the World in Canvas. In Phase 2, the Committee will construct supporting facilities as part of a comprehensive approach, aiming to transform Inkford Hermitage into a premier vacation destination on par with Planarcadia."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The construction plan is not anticipated to disrupt the local ecosystem, and the \"Myriad Wish Grove\" at the heart of the site will be fully preserved."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "II. Resettlement and Reemployment Agreement for Locals"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Committee is pleased to grant all locals permanent residency rights at the \"Inkford Hermitage Hotel.\" However, given that this is not the World in Canvas, imagenae still require Wishpower to sustain their physical forms. To that end, we propose the following two options:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "1. Transfer of rights: The cooperation offers departing imagenae a substantial \"Wishpower Compensation Package\" that ensures signatories a dignified exit into new horizons. The package contains enough Wishpower to enable you to live in Planarcadia for hundreds of years. Imagenae signing up for the package acknowledge that they will be forbidden from ever returning to Inkford Hermitage."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2."
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Special Employment Agreement"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "offer: The Committee offers respectable, modern employment to those unwilling to relocate. Upon signing, the IPC will bear all costs related to participating imagenae's Wishpower needs and regular physical form maintenance."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Signatories are required to register as imagenae employees under the IPC, and to fulfill all work obligations as outlined in the contract. For imagenae with special abilities, the IPC will also arrange matching high-level positions."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "P.S. Anyone with information regarding Graphia, the Mother of Imagenesis, is encouraged to immediately contact their regional manager. The IPC offers generous rewards to those coming forward with this information."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

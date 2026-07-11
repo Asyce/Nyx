@@ -1,0 +1,358 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "the-traveler-who-survived-the-blizzard",
+  "name": "The Traveler Who Survived the Blizzard",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/The_Traveler_Who_Survived_the_Blizzard",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "26 The Traveler Who Survived the Blizzard ①"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Thomas"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Reading Tips"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "This is a poem on how people from all corners of the world stumbled through blizzards and bitter coldness to Belobog at the beginning of the Eternal Freeze. With the arrival of the Ice Age, winds grew stronger and the temperature dropped even further. Through numerous dangers and obstacles, people from all over the world came to Belobog to pass on the sparks of human civilization. The poem likens Belobog to a warm harbor and the end of the journey, inspiring the refugees to keep going. Read the poem carefully to see how the author sees used the perspective of the refugees to demonstrate a positive attitude and confidence towards the future, despite fears of uncertainty."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Pushing upon a thick wall of white fog."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "a dim light appears in the distance."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "flowing in the fluttering snow,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "phasing in and out of sight."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The migrants tread in isolation through the freezing"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "snowy path of dead silence."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The weary bells"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "ringing the crisp sound of helplessness."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "A melody could be heard in the distance."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "a voice of the past begins to echo:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It's the vibration of harping strings,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "it's the reverberation of drums..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The faint lights no longer visible,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "nor the black dirt walls alike,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "only ruins and wreckage..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "All that I encountered"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "were stone pillars marking the distance..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Oh. what sorrow and anxiety... Tomorrow. my family,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "tomorrow, I shall go to the warm harbor,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "and celebrate the end of my journey,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "while laying my stiff bones to rest."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "We will walk to the distant lights"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And outline the image of Belobog."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The long night extends the weariness of the travelers,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But it cannot make us lose hope."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Oh, how it troubles me. Family, our journey is going to be a long one."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The harps and drums have fallen back into silence,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "All that's left is the fatigued bells ringing in the wind,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "In the direction that the lights once were."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "① From Selected Poems of Thomas. Katana Thomas (66 — 12 BF), famous poet. At the end of 47 BF, Thomas was part of a refugee train from Novgofia that traversed the snow to reach Belobog. Their arrival was warmly received by Alisa Rand. who described it as a \"Great Voyage,\" bringing with it"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "culture, art, and technology that are still influential in Belobog today. Thomas' poems, known as the \"poems of battle,\" has inspired other refugees who migrated with him."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

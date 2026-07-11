@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "pascal-s-diary",
+  "name": "Pascal's Diary",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Pascal%27s_Diary",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Part I",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "'"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*The page displays a neatly printed typeface, not handwritten, and appears to have been bound in later.*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "██ / █3 / 6█7"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Airframe Damage Log Backup Failure"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Manual Record Log"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Daily Rescue Progress 25%"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Estimated Time of Completion 2 Days"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Discovered Number of Survivors Null"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Rivet Town Guard Automaton Online Count 1"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Determined As Current Unit"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "██ / █4 / 6█7"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Daily Rescue Progress 75%"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Estimated Time of Completion 1 Day"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Discovered Number of Survivors Null"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Rivet Town Guard Automaton Online Count 1"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Determined As Current Unit"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "██ / █5 / 6█7"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Daily Rescue Progress 100%"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Estimated Time of Completion 0 Days"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Summary"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Discovered Number of Survivors Null Possible Reason Retreated"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Rivet Town Guard Automaton Online Count 1"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Possible Reason for Online Status Backup Power Activated"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Decision Patrol Continue Town Reparation"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Anticipate Return of Residents"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

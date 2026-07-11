@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "divine-echo-law",
+  "name": "Divine Echo: Law",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Divine_Echo:_Law",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Talanton, Scale of Justice,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Punishing the unjust, balancing discord with law."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Those who think they can evade judgment"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Do not realize the scales measure all transgressions."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "<!--"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

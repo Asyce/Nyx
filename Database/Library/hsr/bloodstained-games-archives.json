@@ -1,0 +1,371 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "bloodstained-games-archives",
+  "name": "\"Bloodstained Games\" Archives",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/%22Bloodstained_Games%22_Archives",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A compiled collection of materials pieced together from various independent publications, featuring various records from the previous Phantasmoon Games."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Thundercoil in Peril? The Showdown of the Century at the TV Tower"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "After three days and three nights of nonstop singing duels, Supplicant Armstrong and Supplicant Hahaharbeck have finally decided to settle their rivalry a different way."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "According to our latest observations, the two have arrived at the Thundercoil TV Tower and begun taking turns telling jokes to the thundercoil perched at the top, competing to see who can make it laugh first."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Poor thundercoil, if it cracks up on the job, its career as a signal tower will be all over!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Long Live Days Off! Seafeld City Transforms Into Primordial Forest"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Supplicant known as Gardener publicly declared on a talk show that they would bring \"a lazy and natural day\" to the decadent Seafeld City."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Starting from the early hours of this morning, massive amounts of memetic plants emerged throughout the city. The \"living\" forests spread rapidly along the streets and through word of mouth, severely disrupting traffic and residents' daily lives. Network communications were also disrupted by the cyber-forest."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "With no school or work to attend, Gardener's approval rating and popularity skyrocketed. Countless netizens invited Gardener to come perform in their own cities."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "An Ace vs. Ace Showdown — But Who Cheated Halfway Through?"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Black Birch and Carter Pissarro, the Fool and the Actor turned downtown Gothum City into a game board, settling their score with the most traditional Truly Fortunate Chess among Elation pathstriders. Statistics show that 18 types of unknown creatures and 3 non-probabilistic phenomena appeared as board incidents. Fortunately, the two had already filed reports with the Department of Aberration Defense in advance, so no casualties occurred."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Carter Pissarro secretly conspired with fellow Supplicant, the nomadic miner Physical Magical Girl, in a failed sneak attack on Black Birch, fleeing the scene in disgrace amidst the audience's jeers."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Crimson Phantom Under the Night Sky: Mysterious Supplicant Reportedly Spotted in Duomension City"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Last night, numerous residents of Duomension City witnessed a masked, red-haired woman wielding a brush, gently tapping it against the night sky. Moments later, a magnificent spectacle erupted across the sky, like a mirage spanning hundreds of light-years."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "According to analysts from Phantasmoon Games, this Supplicant likely employed some form of special artistry, using a canvas to veil the sky and create this fleeting marvel."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "This morning, a basketball enthusiast by the name of Big Hawk performed the roll-call at Graphia Academy. Insisting that he, too, was a Supplicant, he was promptly subdued by a campus assistant for disturbing the peace and hauled off to Fatal Joke for psychiatric evaluation."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Supplicant Goes Out of Control, Duomension City Becomes a Slaughterhouse!"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(The main body of the news article was not excerpted)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Currently, the killer has caused ██ deaths and ██ injuries and is advancing toward Dovebrook District. The Department of Aberration Defense has officially assigned it the designation: Herald of Death."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As of this report's publication, several Supplicants have voluntarily rushed to the scene to participate in the suppression of Herald of Death."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Residents in the surrounding area are advised to stay alert to evacuation information from the Department of Aberration Defense, follow security officers in an orderly evacuation, and our reporters will continue to follow this incident."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"Herald of Death\" Neutralized"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Breaking news! One hour ago, the Aberration codenamed \"Herald of Death\" was successfully neutralized by the Department of Aberration Defense. Regrettably, Planarcadia may be facing a Phantasmoon Games with no victor due to successive sacrifices of Supplicants during the operation."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "According to reports, technical and personnel support from the Interastral Peace Corporation proved critical to the success of this operation. Let us express our gratitude to the Preservation for its contributions to the safety of Ahatopia. All glory to the Amber Lord!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Note: Heh, arcadia gets all the pain and suffering, while the IPC takes all the credit."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Dovebrook Evening Post, July 23rd Edition (Excerpt)"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It was huge. I'm absolutely certain I saw it. No, no, it wasn't a UFO. It's more like... part of a human body... Yeah, a massive arm, and it was glowing."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Without a doubt, that was a subspace giant warrior from the K87 Nebula! Hero of Light, take me with you!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Note: Some speculate it's a secret weapon developed by the IPC in the shadows."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Note 2: Others speculate it's a miracle bestowed by Aha. Of course, the credibility is questionable."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Note 3: It's theorized that this urban legend may be one of the origins of mechatrons."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "UFO Sighting Report"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Yeah, there was this light falling from the sky. At first, I thought it was a shooting star. It was kind of oblong-shaped, moving super fast, with a faint bluish glow on the surface... or maybe it was gold."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "No, I don't remember how long after that Herald of Death thing this was."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Note: Maybe it's just a hallucination."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Note 2: Wait, this many people were hallucinating!?"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

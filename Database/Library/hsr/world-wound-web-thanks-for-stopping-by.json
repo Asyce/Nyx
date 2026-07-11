@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "world-wound-web-thanks-for-stopping-by",
+  "name": "World Wound Web, Thanks for Stopping By",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/World_Wound_Web,_Thanks_for_Stopping_By",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "World Wound Web Archive File, original author (anonymous) has deleted content"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Not too long ago, the World Wound Web was filled with commercial ads such as this:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Doesn't matter if it's day or night~ ♪ ♪"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Superhero\" bath soap makes me dance with steps so light~ ♪ ♪"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Yes, back then, the World Wound Web was much like the products it advertised, full of the scent of soap, and utterly exhausting. And what was it that Aglaea had promised us? The World Wound Web was supposed to be a network for sharing knowledge, a great platform for openness, equality, collaboration, and sharing. But what was the reality? Bad information drove out the good, and we weren't just drowning people's senses with garbage data; we were using the platform to stir up endless arguments. I once voiced my confusion to Kephale, but he just remained silent. If things keep going this way, what kind of fate awaits us at the end of this digital torrent? Speed is no ally of civilization — it's just a beast that devours humanity!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "However, I must clarify one thing — although, like many others, I voted against Ms. Aglaea at the citizens' assembly, I still believe she was an honest and upright person. I would think that even the public servants from the Council of Elders who spoke out for us would agree: she was merely a tragic blind soul, oblivious to reality, walking alone in her fantasy world."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Of course, it's unfortunate that Ms. Aglaea has passed. But as I write this, the World Wound Web, now severed from the golden thread, transmits information at a rate measured in bytes per second — and this suddenly makes me feel like life has returned to reality. I brewed a cup of tea, reading"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Kings of Kremnos"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "with interest, while waiting for the audiobook of"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Adventures of Dolos the Thief"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "to finish downloading. Yesterday, I would have found this unbearably slow-paced. But now, after we've truly lost the golden thread, and the World Wound Web no longer has any advantage over Flying Amphora in speed... I find myself regaining balance in life, rediscovering inner peace."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In terms of commercial ads, the World Wound Web may already be dead. But in my heart, it has just been reborn. (Sent anonymously by Parting Hour third Quint, actively responding to comments, but be careful not to reveal your identity)"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

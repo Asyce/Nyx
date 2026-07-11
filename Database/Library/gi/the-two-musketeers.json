@@ -1,0 +1,1081 @@
+{
+  "schemaVersion": 1,
+  "game": "gi",
+  "id": "the-two-musketeers",
+  "name": "The Two Musketeers",
+  "sourceUrl": "https://genshin-impact.fandom.com/wiki/The_Two_Musketeers",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Vol. 1",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "An old man with gray hair carefully stood six special musket rounds on the table, looking at the brother and sister before him with his nearly blind eyes."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Six bullets. Will they suffice?\" The old man asked."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"They will,\" said the brother."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The old man sighed. He had kept his promise, teaching the two orphans he had found at his doorstep everything he knew."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Swordsmanship, marksmanship, deception..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "How to infiltrate a mansion and not be spotted by the hounds, how to kill someone in their sleep without leaving a trace, and how to pull the trigger without hesitation..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Six bullets, six lives...\" The old man said to himself."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"No,\" said the sister, \"five lives.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Two of these are for the same person.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The old man didn't say anything. He didn't ask why they chose him, and he didn't ask how they planned to carry it out, just like how his teacher hadn't asked him all those years ago."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But the old man cared about his students. His nearly blind eyes had seen more than anyone in the city."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Revenge is a one-way street, children,\" he said, \"what you've learned from me is enough for you to live a rich and meaningful life.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"I don't want you to end up like me. Just look at my eyes — divine punishment, meted out to those who seek revenge.\" He tried to open his cloudy eyes for them to see."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"We died twenty years ago,\" said the brother. \"If we don't fire these bullets at those who deserve them, then we cannot return to the land of the living.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The old man stopped speaking. He had known this day would come when he took them in."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Alright... I will not try to persuade you any further.\" He supported himself with his arms and stood up. Lately, even something as simple as standing took a toll on him."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Even so, he wanted to go around the table and hug his favorite students. He knew that this was the last time they would see each other."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The old man asked, \"Do you need anything else?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"No.\" said the brother."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The old man noticed that the sister frowned. He couldn't see it, but he felt it."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"What is it, Iris?\" the old man asked. He always liked Iris better. While she was considerate and passionate, she never hesitated when she had a gun in her hand."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Iris looked at the flowers outside the window and said, \"Actually, I have another request.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"May I pick a few of your Rainbow Roses?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "—The Two Musketeers, pg. 224."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "label": "Vol. 2",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"This is it.\" Two muskets pointed at the Baron's head. The sound of the blood dripping from one of the guns served as a countdown for the noble's life. \"Splat, splat, splat...\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Useless trash.\" The Baron cursed in his mind while staring at the guards on the floor behind the two shooters. \"I paid them so much money... for nothing!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Do you know who we are?\" One of the shooters asked."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"So what if I do?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"You can tell the judge of hell who sent you there.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The storm washed over his face, eyes, and ears, but the sound of the dripping blood was crystal clear. Splat, splat, splat..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"...I know who you are. Iris... Tulipe... My children.\" spoke the Baron. He was done resisting. On this stormy night, crumpled on the muddy ground, he was tired."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Tulipe spat."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"How dare you call yourself our father! I wonder what the look on your face was when you killed Mother twenty years ago — when you forced her to take poison.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Baron sighed and closed his eyes, recalling what had happened then. To his surprise, it was effortless."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Her eyes emerged suddenly before his eyes."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "How could he not have fallen in love with her?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Her wondrous silhouette, her melodious laughter... From one room to the next, she had stolen glances at him."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Her brown eyes, deep as a serene lake, shone like the night stars."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "How could he have turned her down?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Will you marry me?\" Looking into her eyes, he could not say no."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "How, then, could she betray him?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Why had she asked for more, thinking that he would elope with her?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Splat, splat, splat..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"She asked for too much...\" the Baron said, opening his eyes."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Mother never asked for anything. She just wanted to live a quiet life like everyone else,\" Iris argued. Blood dripped from the grip of her musket, but her hand did not tremble."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"She asked me to give up my wealth and run away with her!\" the Baron roared. He was sure that his children didn't understand the idea of wealth and power."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"She asked you to give up your vanity, and give her true love instead, just as you had promised to,\" said Iris."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"You would have made the same choice were you in my shoes!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"No,\" said Tulipe with conviction, \"we would not kill our loved ones for wealth and power. Only the devil is capable of doing that.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Baron shook his head. He no longer wished to argue."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Splat, splat, splat..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"What is the point of this?\" he asked himself and the shooters both."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"You lost your mother, and you're about to kill your father. What else will you have left, besides your crime?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Iris and Tulipe looked at each other. There was no hesitation in their eyes."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Justice.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Two shots rang out, like thunder roaring through the night. Every drop of rain shivered in shock."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "They stood in the rain, unmoving. The storm battered the city, but nothing was louder than their silence."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "After a long time, Iris took out a Rainbow Rose and placed it on the Baron's chest. Then, falling into her brother's arms, she wept. The rain washed away her tears, and the mixture flowed freely into the earth, toward the realm of the dead..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Then, her body suddenly shook as she grabbed Tulipe's clothes."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"What's wrong, Iris?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Look.\" she pointed at the Rainbow Rose she just put down. It bloomed quietly in the dark, as vibrant as the Baron's blood."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Mother's favorite flower... is blooming.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "—The Two Musketeers, pg. 358."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "label": "Vol. 3",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Number 65, Ooze Avenue. The wooden door to a tavern in a cranny of this city of sin was kicked open with a bang."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The loud chatter stopped, and patrons put their drinks down to look at the uninvited guest in the pouring rain."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The muscular man was dressed in black from head to toe. If it weren't for the candles in the tavern, one would think that it was the heavy darkness of the night that had forced the door open."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The intruder turned slightly. The brim of his hat covered most of his face, showing only his sharp chin. He looked around, almost as if wondering why he was here. From his relaxed posture and relieved breathing, patrons could speculate that he had either accomplished something very important, or just carried out some revenge..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And, at that moment, he just wanted a drink."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "He walked toward the bar, and the raindrops on his coat followed him like loyal spirits. His boots thudded with every heavy step taken, leaden with unbelievable, crushing conviction."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Give me something strong,\" said he, with a voice low enough to shatter wine bottles."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The owner poured him a glass reluctantly, then looked at the door and wondered how long it would take him to wipe the boot-print off."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Thank you,\" said the man, \"I just accomplished something great alongside my sister.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Well, where is she?\" The owner asked, deciding to make some small talk."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"She went to plant flowers. I gave her all my money because she's always wanted to do that.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"How will you pay for your drink, then?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The man seemed taken by surprise, as if he had never considered it."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Guess I'll pay with this.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The man tossed a black musket onto the bartop with a thud."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The patrons next to him spilled their drinks in terror. Everyone held their breath."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"I'm not taking that.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The owner feigned calm as he replied, but quietly, he reached into the drawer under the bar, where he hid a pistolet. He wasn't sure if he could fire faster than the man in front of him, though."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Don't worry, it just fired its last and most important shot, and it will never be used again.\" The explanation done, the man downed another drink."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The owner caught a glimpse of the man's face when he raised his head. It was a handsome face, with a high nose, some scars, and sad black eyes."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The owner withdrew his hand from the drawer. This man wasn't here to cause a scene. It was almost as if he had been drunk even before entering the tavern."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"May I have another?\" the man asked."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"You've had enough,\" replied the owner."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"I know, but tonight was special.\" He didn't notice that the owner was trying to get him to leave."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"How so?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"I just killed someone.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The owner's hands froze. Coming from this man, it didn't sound like a joke."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"It was revenge,\" added the man. \"He killed my mother.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"And who was 'he'?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"The Baron.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Nonsense.\" Now the owner was certain that the man was drunk."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Everyone knew that the Baron was bad news. Many wanted to kill him, but none dared to risk their lives to try."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"I suppose you could have missed the gunshot if your farts were loud enough,\" the man taunted."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The owner looked at the man again. He had large hands and a muscular build. He seemed to have been through countless fights — no tavern scuffles these, but real fights that had put his life on the line."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Something flashed across the owner's mind. He recalled the recent series of musket murders, where the killer always left a Rainbow Rose and struck on stormy nights..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"No way... Are you...\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Before the owner could finish, lightning struck beyond the wooden door, and a wild gale threw it open. Night flooded in, drowning the patrons like a tidal wave."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "When the candles were lit again, the man was gone, but he had left his musket behind. It stared everyone down in silence like some solemn god of death, staring into the night that belonged to it..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "—The Two Musketeers, Fin."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

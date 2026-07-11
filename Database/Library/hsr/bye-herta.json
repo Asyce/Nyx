@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "bye-herta",
+  "name": "Bye, Herta",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Bye,_Herta",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Darkness is gathering in the distance, using cruel methods..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "To dissect time. Petals inquiring for love bend their lips,"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Like the ticking chimes in an infinite time and space. We have no choice,"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "But to slide into the shivering calamities of the universe as if sliding down a slope into dusk."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "And with that, the stars continue their enjoyment above as their elegant smiles fill the way forward."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Rocky Martinez"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

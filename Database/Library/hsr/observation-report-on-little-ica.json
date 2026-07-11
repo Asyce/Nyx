@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "observation-report-on-little-ica",
+  "name": "Observation Report on Little Ica",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Observation_Report_on_Little_Ica",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Observational Report on the Living Habits of the Horse-Bodied Winged Beast — A Case Study on Little Ica"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Research Project: Caprism's Cryptozoological Lineage Study"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Supervisor: ███ ██"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Objective"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Through long-term observation of the winged beast's diet, fur, and behavior, this study aims to delve into the unique physiology and habits of its kind. By doing so, we seek to refine fundamental methodologies in cryptozoological research and lay a practical and theoretical foundation for further studies on Aquila's creations."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Diet"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Herbivorous. Primarily feeds on grass, alfalfa, and grains. Shows a strong preference for brightly colored fruits such as wild apples, olives, and branch berries."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Possibly due to its highly domesticated nature, the winged beast's eating habits closely resemble those of humans — three meals a day."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "During a single midday feeding session, Little Ica consumed ten wild apples. An additional ten were offered — immediately consumed. Another twenty — also consumed without hesitation. A single burp was observed. Five more apples were given — once again, immediately consumed. Observation suspended due to budget constraints."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Fur"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Short, soft white down covering its body. Mane of deep blue-green fur running from forehead to nape. Long white feathers on its wings."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Collected sample fur: translucent, fire-resistant, naturally disintegrates after 15 minutes. When exposed to moonlight, it lifts slightly. For tactile assessment, recorded as follows:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Warm. Soft. Like clouds. During Action Hour breaks, resting one's head in its fur felt like floating — every worry melting into warmth..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "(Editorial Note: While immersive observations are encouraged, Hyacinthia, please ensure your report maintains a more objective, academic tone.)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Intelligence"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "With a beat of its wings, Little Ica can part clouds, summoning a radiant barrier that heals the wounded and seals away foes."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Cross-referencing ancient tablets and texts reveals striking similarities between Ica and the winged beast Lunabis, once companion to the Daythunder Knight. This suggests they belong to the same lineage — perhaps even share a deeper connection."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Though somewhat clumsy, it comprehends simple verbal communication. Vocabulary is slightly more limited than a chimera's, roughly on par with a five-year-old child."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Perhaps due to being one of Aquila's creations, it appears responsive to other Titan Miracles. Occasionally, it even engages in conversations with the White Dryad."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Sleep Patterns"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "After prolonged conversation or use of rainbows, Little Ica requires extended rest. Even upon waking, it takes a long time before it can communicate clearly again."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Its divine blessing seems unstable and is gradually fading. Could it be that Aquila no longer watches over the Skyfolk?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I told it: \"To keep you strong and lively, you mustn't talk to the White Dryad anymore!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It responded: \"...Dudu du?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "(Editorial Note: Such raw transcripts should be included in the appendix, not the main report.)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "<!--"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

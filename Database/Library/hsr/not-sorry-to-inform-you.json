@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "not-sorry-to-inform-you",
+  "name": "Not Sorry to Inform You",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Not_Sorry_to_Inform_You",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(Summary of a recorded TV signal from Planarcadia, August ██, Arcadian Calendar 1998. The broadcast was hijacked by an external entity at approximately 5:00 PM.)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "17:13:35 Recording starts. A rerun of the midday news is playing, focusing on retailers' predictions for the upcoming Phantasmoon Games and their plans for commemorative events."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "17:13:39 The screen glitches. The news anchor, who was looking at their notes, suddenly stares straight into the lens. Their tone shifts completely as they announce:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Thank you for tuning in. Please stay tuned for an impromptu variety show,"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Not Sorry to Inform You"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ".\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "17:13:50 The news crawl begins to fly across the screen at ten times the speed. The broadcast skips the usual ad break and drops into a flat blue screen."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "17:13:55 The following text repeats three times in the style of an old-school CRT monitor, backed by soothing classical music."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Emergency notice from the Planarcadia Management Bureau."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Citizens, please use your mobile devices to send the following text to ██████████ immediately:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "'Do you remember? I was forced to leave Planarcadia because of what you did.'"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "'Now I've returned to find you, with exactly what I need to bring.'"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "'Look at the TV screen.'\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "17:15:12 Cuts to a video clip like a commercial"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Still wearing that dusty Mask of Elation? You're washed up! With those masks, you can't crack good jokes. Keep this up, and you'll have to rely on those vintage iced drinks at the tavern for a laugh, little Fool!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Punklorde's wondrous hacking tools have taken total control of the masks to create the Aether Cartridge. Envious?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Rapid calculations, lockpicking, hacking IPC servers, hijacking TV signals across all of Planarcadia... There's nothing the cartridge can't do, only things you can't do!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Right now, I can even display your embarrassing photo from back in the day on TV! Of course, I'll save you some face."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(The screen changes to a moment where a student-aged boy falls from a tree, while two birds fly off with his pants)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Oops, my bad. Accidentally broadcasted it. Haha."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Aether Cartridge. Everyone deserves to have one!\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "17:18:36 The TV displays the logo of a common Punklorde snack brand while playing an audio clip."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"So? Bet that woke you up. How's it feel to get DDoSed by the entirety of Planarcadia?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "You said you wanted to drink something special, so I went all the way back home to bring you some electronic orange juice, and you actually fell asleep? That's tilting."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Alright, just log in already. Next time we game, remember to get online early, or I'm gonna pull something way bigger than this."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "After all, I've got an Aether Cartridge, way classier than a Fool's mask. Bite me."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Whoops, thundercoil's here.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "17:19:50 The resounding echoes of exploding lightning and thunder lingered for over ten seconds."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "17:20:03 TV signal restored."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

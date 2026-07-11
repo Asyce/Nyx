@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "livia-s-drawing-book",
+  "name": "Livia's Drawing Book",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Livia%27s_Drawing_Book",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(...)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[Crayon Drawing: On the dock, a little blue figure hauls a giant fish from the water. Nearby, a little red figure stares up at a massive beetle in midair, with a windmill and golden wheat fields behind them.]"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Today, I spotted a beetle with the most amazing markings, but before I could get a closer look, that idiot Piso scared it away, yelling like crazy."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Just because he caught a big fish... alas... Boys his age are seriously so immature."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(A number of pages are skipped.)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[Crayon Drawing: A golden lion, looking part cat and part dog, lies lazily on the ground. A little red figure reaches out to pet its soft, fluffy fur.]"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Today, I found a picture of a lion in a book! It looked so beautiful. I really wish I could pet one someday... or even better, have one as a pet!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I heard that in the holy city of Okhema, there are lions who can talk and are exceptionally clever. I really want to go chat with them!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(A number of pages are skipped.)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[Crayon Drawing: A pink figure, backpack almost bigger than herself, stands beside a giant gift box. In the background: simple sketches of houses, a windmill, and golden wheat fields.]"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Cyrene is about to leave the village on her big adventure. She promised me that if she has the chance, she'll visit the little lions of Okhema for me~"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I also want to go with her, but I'm still too young now... So for now, I'll let my small gifts accompany her in my place."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(A number of pages are skipped.)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[Crayon Drawing: A pink figure with a huge bow on her head. The background is blurred and smudged, as if soaked through by water.]"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Lately, I have been reading tons of books, and I discovered there are soooo many amazing places out there! Like... (the rest of the words are blurred and unreadable.)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(A number of pages are skipped.)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[Crayon Drawing: A little red figure stands in the center, surrounded by books, quill pens, branches, butterflies, and a great big question mark overhead.]"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "My tenth birthday is almost here! And after that, I won't be just a little kid anymore. It's time to start planning my future!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I want to become a teacher like mama, but I also want to roam all across Amphoreus, just like Cyrene... Ahh! It's so hard to decide! Maybe I should just become a bard instead!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(...)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "<!--"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

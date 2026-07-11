@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "chimera-s-work-handbook-3rd-edition",
+  "name": "Chimera's Work Handbook (3rd Edition)",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Chimera%27s_Work_Handbook_(3rd_Edition)",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "— A standard manual compiled by the Garden of Life designed to guide the professional actions of the chimera squad"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "All administrators are required to study all the content of this manual and take part in periodical examinations held by the Garden of Life. Anyone who fails two tests in a row will have their administrator status revoked and report to the citizen's assembly for public appraisal."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Squads that performed particularly well during this examination period include: \"Horn of Freedom\" and \"Florie.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A negative example would be: A certain administrator who has an obsession with bathing. Please make sure to keep an eye on your squad's ranking and punctually arrive at work!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "General Principles of Chimeras' Work"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. The rights and interests of chimeras are under the legal protection of the Garden of Life, and no person or group is permitted to harm chimeras for any reason."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Harmful actions include but are not limited to:"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Causing physical damage to chimera, maliciously extending chimeras' working hours or labor intensity, scolding or reprimanding, as well as cold, rude, disrespectful, discourteous, or malicious treatment..."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2. Chimeras will assist the citizens of Okhema with their work to a"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "reasonable extent"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "under the organization of the Garden of Life."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "All chimeras will be divided into a number of squads. Each squad will be assigned a corresponding administrator who will take responsibility for their overall work performance."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "3. The relationship between chimeras and administrators is one of mutual supervision. Administrators are required to organize chimera squads reasonably to increase work efficiency and maintain harmonious coexistence. Chimeras are also able to supervise the working situation of administrators and report it directly to the Gardeners."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Note"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ": Chimeras are not personal property. They are a symbol of Okhema. Administrators must remain aware of the scope of their professional authority."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "4. Chimeras must complete work assigned by the Garden of Life. The Gardeners will carry out periodical assessments of each squad. If work standards consistently do not meet requirements, then administrators must take responsibility for the poor performance of the squad, pay a fine, and accept an inquiry from the citizens' assembly."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "5. Chimeras have a wide range of physical characteristics and personalities. Administrators are forbidden from assigning work based on personal favoritism. All chimeras' rights to life and development are equal, and any form of prejudice or unjust treatment is forbidden."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "6. The Garden of Life warmly welcomes all citizens of Okhema to participate in chimera squad administration."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

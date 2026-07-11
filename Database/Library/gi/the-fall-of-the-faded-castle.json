@@ -1,0 +1,526 @@
+{
+  "schemaVersion": 1,
+  "game": "gi",
+  "id": "the-fall-of-the-faded-castle",
+  "name": "The Fall of the Faded Castle",
+  "sourceUrl": "https://genshin-impact.fandom.com/wiki/The_Fall_of_the_Faded_Castle",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Vol. 1",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Once, in a dream, I saw a black ship."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It sailed through dark night and bleak fog."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The hull was rotten, the mast shattered,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Yet in some perverse jest at human rationality,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Each broken piece had been placed in some twisted way,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Entwined together by the algae and seaweed that enveloped the vessel,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Forming a dreadful dark shadow that shambled through the moonlight,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "That none could glimpse and not panic."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Shift your gaze just a little, and in an instant,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It shall appear again just before you."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A tall and slim figure standing upon the deck,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Wrapped in dark robes, its face barely seen."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Only its eyes, those two cold eyes,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Which can pierce your soul with a glance."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Was that a monster that arose from the depths of the sea?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A lord returned from some ancient world?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Or perhaps the nightmare itself?"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "label": "Vol. 2",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "By the banks of the world's purest lake,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "There once stood a glistening castle."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Gold leaf and gems decorated its walls,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And it shone blinding in the post-noon sun."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Pretty banners and flags flew from the roof,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "While majestic towers soared alongside."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Guests from afar peered through colorful windows,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And marveled at the wonders every step revealed."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Yet none was more marvelous than the many statues,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Odd in form but as real as life."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "In the center of the hall sat a golden stage,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Where musicians played day and night for the castle's master."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As the music sounded, listeners flocked like swarming bees,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "To dance in time with the beat that seemed to captivate the entire world."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The wine flowed never-ending to sate the thirst for revelry."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "All could partake, no matter their class or their homeland,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But none of this could ease the master's fears,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Or bring his troubled soul a moment of peace."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And each time the tower's clock struck its deep midnight chime,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "He would be possessed by an uncontrollable panic,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Trapped by his fears and his gloom."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The dark-robed figure would surely collect on debts owed,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And all before his eyes would be turned into dust,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The souls of his guests, and his own, included,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As tribute to that dark, ancient world."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "label": "Vol. 3",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "At first, all was still, apart from the curtains in the breeze,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And the faint sounds of animals chewing, echoing through the walls of some unknown place."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Then, an odd rasping laugh erupted from an empty room,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A nameless horror spreading in the dark."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Then, with terrible thunder and storm,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A glowing red fog-cloud,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Embraced the castle just like a shroud."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "On the castle's great central stage, a tall thin figure did appear,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A dark spirit in black robes, arriving at last."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The guests, a moment ago enjoying their revels,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Fell to the floor one by one,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Bereft of time even to scream."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The master sat shivering and still on his throne,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "His soul also snatched by the dark."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Amid the roar of brick and tile hitting the ground,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The castle's glory faded into the past,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Swallowed by glimmering waves."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The blood moon the towers once blocked reappeared in the sky,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Its baleful glow sweeping the land."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And today, by the banks of the world's purest lake,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The water reflects the long-fallen, faded castle."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The joy and brilliance that once lit its halls,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Consigned to legends and dreams."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The ruins lie suffocated in the gloom."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Through shattered windows, statues appear as like to monsters,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Who with the discordant tune that played sank with the castle into the sea."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "There is nothing there now, bar darkness, death, and loss."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

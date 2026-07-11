@@ -1,0 +1,1959 @@
+{
+  "schemaVersion": 1,
+  "game": "ae",
+  "generatedAt": "2026-07-11T12:06:24.231Z",
+  "records": [
+    {
+      "id": "ae:character:Headhunting:expunger-of-sin:2026-06-26t04-00-00-000z",
+      "game": "ae",
+      "bannerType": "character",
+      "category": "Headhunting",
+      "name": "Expunger of Sin",
+      "version": "2026",
+      "windowsByRegion": {
+        "asia": {
+          "start": "2026-06-26T04:00:00.000Z",
+          "end": "2026-07-15T21:59:59.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://web-news.gryphline.com/api/bulletin/0758?lang=en-us&code=arknights_endfield_official"
+        },
+        "america": {
+          "start": "2026-06-26T17:00:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://web-news.gryphline.com/api/bulletin/0758?lang=en-us&code=arknights_endfield_official"
+        },
+        "europe": {
+          "start": "2026-06-26T17:00:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://web-news.gryphline.com/api/bulletin/0758?lang=en-us&code=arknights_endfield_official"
+        }
+      },
+      "permanent": false,
+      "featured": [
+        {
+          "entityType": "character",
+          "name": "Camille",
+          "rarity": 6,
+          "primary": true
+        },
+        {
+          "entityType": "character",
+          "name": "Mi Fu",
+          "rarity": 6,
+          "primary": false
+        },
+        {
+          "entityType": "character",
+          "name": "Zhuang Fangyi",
+          "rarity": 6,
+          "primary": false
+        },
+        {
+          "entityType": "character",
+          "name": "Wulfgard",
+          "rarity": 5,
+          "primary": false
+        }
+      ],
+      "pairedBannerIds": [
+        "ae:weapon:Arsenal Exchange:crimson-hued:2026-06-26t04-00-00-000z"
+      ],
+      "source": {
+        "url": "https://endfield.wiki.gg/wiki/Headhunting/Banners/2026",
+        "kind": "maintained-wiki",
+        "revision": 55174
+      },
+      "fetchedAt": "2026-07-11T12:06:24.957Z",
+      "confirmed": true,
+      "officialSource": {
+        "url": "https://web-news.gryphline.com/api/bulletin/6175?lang=en-us&code=arknights_endfield_official",
+        "kind": "official-latest",
+        "revision": "6175"
+      },
+      "pairSourceUrl": "https://web-news.gryphline.com/api/bulletin/1321?lang=en-us&code=arknights_endfield_official"
+    },
+    {
+      "id": "ae:character:Headhunting:fest-of-brilliance:2026-05-14t04-00-00-000z",
+      "game": "ae",
+      "bannerType": "character",
+      "category": "Headhunting",
+      "name": "Fest of Brilliance",
+      "version": "2026",
+      "windowsByRegion": {
+        "asia": {
+          "start": "2026-05-14T04:00:00.000Z",
+          "end": "2026-06-04T21:59:59.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://web-news.gryphline.com/api/bulletin/0751?lang=en-us&code=arknights_endfield_official"
+        },
+        "america": {
+          "start": "2026-05-14T17:00:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://web-news.gryphline.com/api/bulletin/0751?lang=en-us&code=arknights_endfield_official"
+        },
+        "europe": {
+          "start": "2026-05-14T17:00:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://web-news.gryphline.com/api/bulletin/0751?lang=en-us&code=arknights_endfield_official"
+        }
+      },
+      "permanent": false,
+      "featured": [
+        {
+          "entityType": "character",
+          "name": "Laevatain",
+          "rarity": 6,
+          "primary": false
+        },
+        {
+          "entityType": "character",
+          "name": "Gilberta",
+          "rarity": 6,
+          "primary": false
+        },
+        {
+          "entityType": "character",
+          "name": "Ardelia",
+          "rarity": 6,
+          "primary": false
+        },
+        {
+          "entityType": "character",
+          "name": "Pogranichnik",
+          "rarity": 6,
+          "primary": false
+        },
+        {
+          "entityType": "character",
+          "name": "Perlica",
+          "rarity": 5,
+          "primary": false
+        }
+      ],
+      "pairedBannerIds": [
+        "ae:weapon:Arsenal Exchange:smelting-fire:2026-05-14t04-00-00-000z",
+        "ae:weapon:Arsenal Exchange:swift-walker:2026-05-14t04-00-00-000z"
+      ],
+      "source": {
+        "url": "https://endfield.wiki.gg/wiki/Headhunting/Banners/2026",
+        "kind": "maintained-wiki",
+        "revision": 55174
+      },
+      "fetchedAt": "2026-07-11T12:06:24.957Z",
+      "confirmed": true,
+      "officialSource": {
+        "url": "https://web-news.gryphline.com/api/bulletin/7024?lang=en-us&code=arknights_endfield_official",
+        "kind": "official-latest",
+        "revision": "7024"
+      },
+      "pairSourceUrl": "https://web-news.gryphline.com/api/bulletin/0751?lang=en-us&code=arknights_endfield_official"
+    },
+    {
+      "id": "ae:character:Headhunting:fists-of-no-regrets:2026-06-05t04-00-00-000z",
+      "game": "ae",
+      "bannerType": "character",
+      "category": "Headhunting",
+      "name": "Fists of No Regrets",
+      "version": "2026",
+      "windowsByRegion": {
+        "asia": {
+          "start": "2026-06-05T04:00:00.000Z",
+          "end": "2026-06-26T03:59:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://web-news.gryphline.com/api/bulletin/0759?lang=en-us&code=arknights_endfield_official"
+        },
+        "america": {
+          "start": "2026-06-05T04:00:00.000Z",
+          "end": "2026-06-26T16:59:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://web-news.gryphline.com/api/bulletin/0759?lang=en-us&code=arknights_endfield_official"
+        },
+        "europe": {
+          "start": "2026-06-05T04:00:00.000Z",
+          "end": "2026-06-26T16:59:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://web-news.gryphline.com/api/bulletin/0759?lang=en-us&code=arknights_endfield_official"
+        }
+      },
+      "permanent": false,
+      "featured": [
+        {
+          "entityType": "character",
+          "name": "Mi Fu",
+          "rarity": 6,
+          "primary": true
+        },
+        {
+          "entityType": "character",
+          "name": "Zhuang Fangyi",
+          "rarity": 6,
+          "primary": false
+        },
+        {
+          "entityType": "character",
+          "name": "Rossi",
+          "rarity": 6,
+          "primary": false
+        },
+        {
+          "entityType": "character",
+          "name": "Chen Qianyu",
+          "rarity": 5,
+          "primary": false
+        }
+      ],
+      "pairedBannerIds": [
+        "ae:weapon:Arsenal Exchange:scarlet-knot:2026-06-05t04-00-00-000z"
+      ],
+      "source": {
+        "url": "https://endfield.wiki.gg/wiki/Headhunting/Banners/2026",
+        "kind": "maintained-wiki",
+        "revision": 55174
+      },
+      "fetchedAt": "2026-07-11T12:06:24.957Z",
+      "confirmed": true,
+      "officialSource": {
+        "url": "https://web-news.gryphline.com/api/bulletin/0759?lang=en-us&code=arknights_endfield_official",
+        "kind": "official-latest",
+        "revision": "0759"
+      },
+      "pairSourceUrl": "https://web-news.gryphline.com/api/bulletin/4492?lang=en-us&code=arknights_endfield_official"
+    },
+    {
+      "id": "ae:character:Headhunting:good-morning-from-your-dawnstar:2026-08-09t04-00-00-000z",
+      "game": "ae",
+      "bannerType": "character",
+      "category": "Headhunting",
+      "name": "Good Morning from Your Dawnstar",
+      "version": "2026",
+      "windowsByRegion": {
+        "asia": {
+          "start": "2026-08-09T04:00:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Headhunting/Banners/2026"
+        }
+      },
+      "permanent": false,
+      "featured": [
+        {
+          "entityType": "character",
+          "name": "Liino",
+          "rarity": 6,
+          "primary": true
+        },
+        {
+          "entityType": "character",
+          "name": "Arcane",
+          "rarity": 6,
+          "primary": false
+        },
+        {
+          "entityType": "character",
+          "name": "Camille",
+          "rarity": 6,
+          "primary": false
+        }
+      ],
+      "pairedBannerIds": [],
+      "source": {
+        "url": "https://endfield.wiki.gg/wiki/Headhunting/Banners/2026",
+        "kind": "maintained-wiki",
+        "revision": 55174
+      },
+      "fetchedAt": "2026-07-11T12:06:24.957Z",
+      "confirmed": false
+    },
+    {
+      "id": "ae:character:Headhunting:hues-of-passion:2026-02-24t04-00-00-000z",
+      "game": "ae",
+      "bannerType": "character",
+      "category": "Headhunting",
+      "name": "Hues of Passion",
+      "version": "2026",
+      "windowsByRegion": {
+        "asia": {
+          "start": "2026-02-24T04:00:00.000Z",
+          "end": "2026-03-11T21:59:59.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Headhunting/Banners/2026"
+        }
+      },
+      "permanent": false,
+      "featured": [
+        {
+          "entityType": "character",
+          "name": "Yvonne",
+          "rarity": 6,
+          "primary": true
+        },
+        {
+          "entityType": "character",
+          "name": "Laevatain",
+          "rarity": 6,
+          "primary": false
+        },
+        {
+          "entityType": "character",
+          "name": "Gilberta",
+          "rarity": 6,
+          "primary": false
+        },
+        {
+          "entityType": "character",
+          "name": "Xaihi",
+          "rarity": 5,
+          "primary": false
+        }
+      ],
+      "pairedBannerIds": [],
+      "source": {
+        "url": "https://endfield.wiki.gg/wiki/Headhunting/Banners/2026",
+        "kind": "maintained-wiki",
+        "revision": 55174
+      },
+      "fetchedAt": "2026-07-11T12:06:24.957Z",
+      "confirmed": true,
+      "officialSource": {
+        "url": "https://web-news.gryphline.com/api/bulletin/8909?lang=en-us&code=arknights_endfield_official",
+        "kind": "official-latest",
+        "revision": "8909"
+      }
+    },
+    {
+      "id": "ae:character:Headhunting:north-yearns-the-rift-vigile:2026-07-16t04-00-00-000z",
+      "game": "ae",
+      "bannerType": "character",
+      "category": "Headhunting",
+      "name": "North Yearns the Rift Vigile",
+      "version": "2026",
+      "windowsByRegion": {
+        "asia": {
+          "start": "2026-07-16T04:00:00.000Z",
+          "end": "2026-08-09T03:59:59.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Headhunting/Banners/2026"
+        },
+        "america": {
+          "start": "2026-07-16T04:00:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Headhunting/Banners/2026"
+        },
+        "europe": {
+          "start": "2026-07-16T04:00:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Headhunting/Banners/2026"
+        }
+      },
+      "permanent": false,
+      "featured": [
+        {
+          "entityType": "character",
+          "name": "Arcane",
+          "rarity": 6,
+          "primary": true
+        },
+        {
+          "entityType": "character",
+          "name": "Camille",
+          "rarity": 6,
+          "primary": false
+        },
+        {
+          "entityType": "character",
+          "name": "Mi Fu",
+          "rarity": 6,
+          "primary": false
+        }
+      ],
+      "pairedBannerIds": [],
+      "source": {
+        "url": "https://endfield.wiki.gg/wiki/Headhunting/Banners/2026",
+        "kind": "maintained-wiki",
+        "revision": 55174
+      },
+      "fetchedAt": "2026-07-11T12:06:24.957Z",
+      "confirmed": false
+    },
+    {
+      "id": "ae:character:Headhunting:river-s-daughter:2026-03-12t04-00-00-000z",
+      "game": "ae",
+      "bannerType": "character",
+      "category": "Headhunting",
+      "name": "River's Daughter",
+      "version": "2026",
+      "windowsByRegion": {
+        "asia": {
+          "start": "2026-03-12T04:00:00.000Z",
+          "end": "2026-03-29T03:59:59.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Headhunting/Banners/2026"
+        },
+        "america": {
+          "start": "2026-03-12T04:00:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Headhunting/Banners/2026"
+        },
+        "europe": {
+          "start": "2026-03-12T04:00:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Headhunting/Banners/2026"
+        }
+      },
+      "permanent": false,
+      "featured": [
+        {
+          "entityType": "character",
+          "name": "Tangtang",
+          "rarity": 6,
+          "primary": true
+        },
+        {
+          "entityType": "character",
+          "name": "Yvonne",
+          "rarity": 6,
+          "primary": false
+        },
+        {
+          "entityType": "character",
+          "name": "Gilberta",
+          "rarity": 6,
+          "primary": false
+        },
+        {
+          "entityType": "character",
+          "name": "Snowshine",
+          "rarity": 5,
+          "primary": false
+        }
+      ],
+      "pairedBannerIds": [],
+      "source": {
+        "url": "https://endfield.wiki.gg/wiki/Headhunting/Banners/2026",
+        "kind": "maintained-wiki",
+        "revision": 55174
+      },
+      "fetchedAt": "2026-07-11T12:06:24.957Z",
+      "confirmed": true,
+      "officialSource": {
+        "url": "https://web-news.gryphline.com/api/bulletin/1338?lang=en-us&code=arknights_endfield_official",
+        "kind": "official-latest",
+        "revision": "1338"
+      }
+    },
+    {
+      "id": "ae:character:Headhunting:scars-of-the-forge:2026-01-22t03-00-00-000z",
+      "game": "ae",
+      "bannerType": "character",
+      "category": "Headhunting",
+      "name": "Scars of the Forge",
+      "version": "2026",
+      "windowsByRegion": {
+        "asia": {
+          "start": "2026-01-22T03:00:00.000Z",
+          "end": "2026-02-07T03:59:59.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Headhunting/Banners/2026"
+        },
+        "america": {
+          "start": "2026-01-22T03:00:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Headhunting/Banners/2026"
+        },
+        "europe": {
+          "start": "2026-01-22T03:00:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Headhunting/Banners/2026"
+        }
+      },
+      "permanent": false,
+      "featured": [
+        {
+          "entityType": "character",
+          "name": "Laevatain",
+          "rarity": 6,
+          "primary": true
+        },
+        {
+          "entityType": "character",
+          "name": "Gilberta",
+          "rarity": 6,
+          "primary": false
+        },
+        {
+          "entityType": "character",
+          "name": "Yvonne",
+          "rarity": 6,
+          "primary": false
+        },
+        {
+          "entityType": "character",
+          "name": "Avywenna",
+          "rarity": 5,
+          "primary": false
+        }
+      ],
+      "pairedBannerIds": [
+        "ae:weapon:Arsenal Exchange:smelting-forge:2026-01-22t03-00-00-000z"
+      ],
+      "source": {
+        "url": "https://endfield.wiki.gg/wiki/Headhunting/Banners/2026",
+        "kind": "maintained-wiki",
+        "revision": 55174
+      },
+      "fetchedAt": "2026-07-11T12:06:24.957Z",
+      "confirmed": true,
+      "officialSource": {
+        "url": "https://web-news.gryphline.com/api/bulletin/3847?lang=en-us&code=arknights_endfield_official",
+        "kind": "official-latest",
+        "revision": "3847"
+      },
+      "pairSourceUrl": "https://web-news.gryphline.com/api/bulletin/5216?lang=en-us&code=arknights_endfield_official"
+    },
+    {
+      "id": "ae:character:Headhunting:the-floaty-messenger:2026-02-07t04-00-00-000z",
+      "game": "ae",
+      "bannerType": "character",
+      "category": "Headhunting",
+      "name": "The Floaty Messenger",
+      "version": "2026",
+      "windowsByRegion": {
+        "asia": {
+          "start": "2026-02-07T04:00:00.000Z",
+          "end": "2026-02-24T03:59:59.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Headhunting/Banners/2026"
+        }
+      },
+      "permanent": false,
+      "featured": [
+        {
+          "entityType": "character",
+          "name": "Gilberta",
+          "rarity": 6,
+          "primary": true
+        },
+        {
+          "entityType": "character",
+          "name": "Yvonne",
+          "rarity": 6,
+          "primary": false
+        },
+        {
+          "entityType": "character",
+          "name": "Laevatain",
+          "rarity": 6,
+          "primary": false
+        },
+        {
+          "entityType": "character",
+          "name": "Alesh",
+          "rarity": 5,
+          "primary": false
+        }
+      ],
+      "pairedBannerIds": [
+        "ae:weapon:Arsenal Exchange:express-delivery:2026-02-07t04-00-00-000z"
+      ],
+      "source": {
+        "url": "https://endfield.wiki.gg/wiki/Headhunting/Banners/2026",
+        "kind": "maintained-wiki",
+        "revision": 55174
+      },
+      "fetchedAt": "2026-07-11T12:06:24.957Z",
+      "confirmed": true,
+      "officialSource": {
+        "url": "https://web-news.gryphline.com/api/bulletin/0754?lang=en-us&code=arknights_endfield_official",
+        "kind": "official-latest",
+        "revision": "0754"
+      },
+      "pairSourceUrl": "https://web-news.gryphline.com/api/bulletin/0754?lang=en-us&code=arknights_endfield_official"
+    },
+    {
+      "id": "ae:character:Headhunting:thunder-of-renewal:2026-04-17t04-00-00-000z",
+      "game": "ae",
+      "bannerType": "character",
+      "category": "Headhunting",
+      "name": "Thunder of Renewal",
+      "version": "2026",
+      "windowsByRegion": {
+        "asia": {
+          "start": "2026-04-17T04:00:00.000Z",
+          "end": "2026-05-22T03:59:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://web-news.gryphline.com/api/bulletin/9579?lang=en-us&code=arknights_endfield_official"
+        },
+        "america": {
+          "start": "2026-04-17T04:00:00.000Z",
+          "end": "2026-05-22T16:59:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://web-news.gryphline.com/api/bulletin/9579?lang=en-us&code=arknights_endfield_official"
+        },
+        "europe": {
+          "start": "2026-04-17T04:00:00.000Z",
+          "end": "2026-05-22T16:59:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://web-news.gryphline.com/api/bulletin/9579?lang=en-us&code=arknights_endfield_official"
+        }
+      },
+      "permanent": false,
+      "featured": [
+        {
+          "entityType": "character",
+          "name": "Zhuang Fangyi",
+          "rarity": 6,
+          "primary": true
+        },
+        {
+          "entityType": "character",
+          "name": "Rossi",
+          "rarity": 6,
+          "primary": false
+        },
+        {
+          "entityType": "character",
+          "name": "Tangtang",
+          "rarity": 6,
+          "primary": false
+        },
+        {
+          "entityType": "character",
+          "name": "Arclight",
+          "rarity": 5,
+          "primary": false
+        }
+      ],
+      "pairedBannerIds": [],
+      "source": {
+        "url": "https://endfield.wiki.gg/wiki/Headhunting/Banners/2026",
+        "kind": "maintained-wiki",
+        "revision": 55174
+      },
+      "fetchedAt": "2026-07-11T12:06:24.957Z",
+      "confirmed": true,
+      "officialSource": {
+        "url": "https://web-news.gryphline.com/api/bulletin/9579?lang=en-us&code=arknights_endfield_official",
+        "kind": "official-latest",
+        "revision": "9579"
+      }
+    },
+    {
+      "id": "ae:character:Headhunting:wolf-pearl:2026-03-29t04-00-00-000z",
+      "game": "ae",
+      "bannerType": "character",
+      "category": "Headhunting",
+      "name": "Wolf Pearl",
+      "version": "2026",
+      "windowsByRegion": {
+        "asia": {
+          "start": "2026-03-29T04:00:00.000Z",
+          "end": "2026-04-16T21:59:59.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Headhunting/Banners/2026"
+        }
+      },
+      "permanent": false,
+      "featured": [
+        {
+          "entityType": "character",
+          "name": "Rossi",
+          "rarity": 6,
+          "primary": true
+        },
+        {
+          "entityType": "character",
+          "name": "Tangtang",
+          "rarity": 6,
+          "primary": false
+        },
+        {
+          "entityType": "character",
+          "name": "Yvonne",
+          "rarity": 6,
+          "primary": false
+        },
+        {
+          "entityType": "character",
+          "name": "Da Pan",
+          "rarity": 5,
+          "primary": false
+        }
+      ],
+      "pairedBannerIds": [
+        "ae:weapon:Arsenal Exchange:scarlet-pearl:2026-03-29t04-00-00-000z"
+      ],
+      "source": {
+        "url": "https://endfield.wiki.gg/wiki/Headhunting/Banners/2026",
+        "kind": "maintained-wiki",
+        "revision": 55174
+      },
+      "fetchedAt": "2026-07-11T12:06:24.957Z",
+      "confirmed": true,
+      "officialSource": {
+        "url": "https://web-news.gryphline.com/api/bulletin/3843?lang=en-us&code=arknights_endfield_official",
+        "kind": "official-latest",
+        "revision": "3843"
+      },
+      "pairSourceUrl": "https://web-news.gryphline.com/api/bulletin/8907?lang=en-us&code=arknights_endfield_official"
+    },
+    {
+      "id": "ae:character:Permanent Headhunting:basic-headhunting:2026-01-22t03-00-00-000z",
+      "game": "ae",
+      "bannerType": "character",
+      "category": "Permanent Headhunting",
+      "name": "Basic Headhunting",
+      "version": "2026",
+      "windowsByRegion": {
+        "asia": {
+          "start": "2026-01-22T03:00:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Headhunting/Banners/2026"
+        }
+      },
+      "permanent": true,
+      "featured": [
+        {
+          "entityType": "character",
+          "name": "Ardelia",
+          "rarity": 6,
+          "primary": false
+        },
+        {
+          "entityType": "character",
+          "name": "Pogranichnik",
+          "rarity": 6,
+          "primary": false
+        },
+        {
+          "entityType": "character",
+          "name": "Last Rite",
+          "rarity": 6,
+          "primary": false
+        },
+        {
+          "entityType": "character",
+          "name": "Ember",
+          "rarity": 6,
+          "primary": false
+        },
+        {
+          "entityType": "character",
+          "name": "Lifeng",
+          "rarity": 6,
+          "primary": false
+        }
+      ],
+      "pairedBannerIds": [],
+      "source": {
+        "url": "https://endfield.wiki.gg/wiki/Headhunting/Banners/2026",
+        "kind": "maintained-wiki",
+        "revision": 55174
+      },
+      "fetchedAt": "2026-07-11T12:06:24.958Z",
+      "confirmed": true,
+      "officialSource": {
+        "url": "https://web-news.gryphline.com/api/bulletin/6175?lang=en-us&code=arknights_endfield_official",
+        "kind": "official-latest",
+        "revision": "6175"
+      }
+    },
+    {
+      "id": "ae:weapon:Arsenal Exchange:budding-anew:2026-03-11t15-00-00-000z",
+      "game": "ae",
+      "bannerType": "weapon",
+      "category": "Arsenal Exchange",
+      "name": "Budding Anew",
+      "version": "2026",
+      "windowsByRegion": {
+        "asia": {
+          "start": "2026-03-11T15:00:00.000Z",
+          "end": "2026-05-22T03:59:59.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026"
+        }
+      },
+      "permanent": false,
+      "featured": [
+        {
+          "entityType": "weapon",
+          "name": "Brigand's Calling",
+          "rarity": 6,
+          "primary": true
+        },
+        {
+          "entityType": "weapon",
+          "name": "Clannibal",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Wedge",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Chivalric Virtues",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Thermite Cutter",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Sundered Prince",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "JET",
+          "rarity": 5,
+          "primary": false
+        }
+      ],
+      "pairedBannerIds": [],
+      "source": {
+        "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
+        "kind": "maintained-wiki",
+        "revision": 51716
+      },
+      "fetchedAt": "2026-07-11T12:06:25.156Z",
+      "confirmed": true,
+      "officialSource": {
+        "url": "https://web-news.gryphline.com/api/bulletin/5213?lang=en-us&code=arknights_endfield_official",
+        "kind": "official-latest",
+        "revision": "5213"
+      }
+    },
+    {
+      "id": "ae:weapon:Arsenal Exchange:crimson-hued:2026-06-26t04-00-00-000z",
+      "game": "ae",
+      "bannerType": "weapon",
+      "category": "Arsenal Exchange",
+      "name": "Crimson Hued",
+      "version": "2026",
+      "windowsByRegion": {
+        "asia": {
+          "start": "2026-06-26T04:00:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://web-news.gryphline.com/api/bulletin/1321?lang=en-us&code=arknights_endfield_official"
+        },
+        "america": {
+          "start": "2026-06-26T17:00:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://web-news.gryphline.com/api/bulletin/1321?lang=en-us&code=arknights_endfield_official"
+        },
+        "europe": {
+          "start": "2026-06-26T17:00:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://web-news.gryphline.com/api/bulletin/1321?lang=en-us&code=arknights_endfield_official"
+        }
+      },
+      "permanent": false,
+      "featured": [
+        {
+          "entityType": "weapon",
+          "name": "Blessing of Lustrous Carmine",
+          "rarity": 6,
+          "primary": true
+        },
+        {
+          "entityType": "weapon",
+          "name": "Valiant",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "JET",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Clannibal",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Thermite Cutter",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Oblivion",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Exemplar",
+          "rarity": 5,
+          "primary": false
+        }
+      ],
+      "pairedBannerIds": [
+        "ae:character:Headhunting:expunger-of-sin:2026-06-26t04-00-00-000z"
+      ],
+      "source": {
+        "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
+        "kind": "maintained-wiki",
+        "revision": 51716
+      },
+      "fetchedAt": "2026-07-11T12:06:25.156Z",
+      "confirmed": true,
+      "officialSource": {
+        "url": "https://web-news.gryphline.com/api/bulletin/1321?lang=en-us&code=arknights_endfield_official",
+        "kind": "official-latest",
+        "revision": "1321"
+      },
+      "pairSourceUrl": "https://web-news.gryphline.com/api/bulletin/1321?lang=en-us&code=arknights_endfield_official"
+    },
+    {
+      "id": "ae:weapon:Arsenal Exchange:drifting-raft:2026-04-16t13-00-00-000z",
+      "game": "ae",
+      "bannerType": "weapon",
+      "category": "Arsenal Exchange",
+      "name": "Drifting Raft",
+      "version": "2026",
+      "windowsByRegion": {
+        "asia": {
+          "start": "2026-04-16T13:00:00.000Z",
+          "end": "2026-07-16T03:59:59.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026"
+        }
+      },
+      "permanent": false,
+      "featured": [
+        {
+          "entityType": "weapon",
+          "name": "Lone Barge",
+          "rarity": 6,
+          "primary": true
+        },
+        {
+          "entityType": "weapon",
+          "name": "Oblivion",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Chivalric Virtues",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Eminent Repute",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "JET",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Wedge",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Exemplar",
+          "rarity": 5,
+          "primary": false
+        }
+      ],
+      "pairedBannerIds": [],
+      "source": {
+        "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
+        "kind": "maintained-wiki",
+        "revision": 51716
+      },
+      "fetchedAt": "2026-07-11T12:06:25.156Z",
+      "confirmed": true,
+      "officialSource": {
+        "url": "https://web-news.gryphline.com/api/bulletin/5212?lang=en-us&code=arknights_endfield_official",
+        "kind": "official-latest",
+        "revision": "5212"
+      }
+    },
+    {
+      "id": "ae:weapon:Arsenal Exchange:express-delivery:2026-02-07t04-00-00-000z",
+      "game": "ae",
+      "bannerType": "weapon",
+      "category": "Arsenal Exchange",
+      "name": "Express Delivery",
+      "version": "2026",
+      "windowsByRegion": {
+        "asia": {
+          "start": "2026-02-07T04:00:00.000Z",
+          "end": "2026-03-28T03:59:59.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026"
+        }
+      },
+      "permanent": false,
+      "featured": [
+        {
+          "entityType": "weapon",
+          "name": "Delivery Guaranteed",
+          "rarity": 6,
+          "primary": true
+        },
+        {
+          "entityType": "weapon",
+          "name": "Thermite Cutter",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Wedge",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Chivalric Virtues",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Oblivion",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "White Night Nova",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Exemplar",
+          "rarity": 5,
+          "primary": false
+        }
+      ],
+      "pairedBannerIds": [
+        "ae:character:Headhunting:the-floaty-messenger:2026-02-07t04-00-00-000z"
+      ],
+      "source": {
+        "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
+        "kind": "maintained-wiki",
+        "revision": 51716
+      },
+      "fetchedAt": "2026-07-11T12:06:25.156Z",
+      "confirmed": true,
+      "officialSource": {
+        "url": "https://web-news.gryphline.com/api/bulletin/0754?lang=en-us&code=arknights_endfield_official",
+        "kind": "official-latest",
+        "revision": "0754"
+      },
+      "pairSourceUrl": "https://web-news.gryphline.com/api/bulletin/0754?lang=en-us&code=arknights_endfield_official"
+    },
+    {
+      "id": "ae:weapon:Arsenal Exchange:graffiti:2026-02-23t20-00-00-000z",
+      "game": "ae",
+      "bannerType": "weapon",
+      "category": "Arsenal Exchange",
+      "name": "Graffiti",
+      "version": "2026",
+      "windowsByRegion": {
+        "asia": {
+          "start": "2026-02-23T20:00:00.000Z",
+          "end": "2026-04-16T09:00:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026"
+        }
+      },
+      "permanent": false,
+      "featured": [
+        {
+          "entityType": "weapon",
+          "name": "Artzy Tyrannical",
+          "rarity": 6,
+          "primary": true
+        },
+        {
+          "entityType": "weapon",
+          "name": "Sundered Prince",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Wedge",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Chivalric Virtues",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Rapid Ascent",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "White Night Nova",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "JET",
+          "rarity": 5,
+          "primary": false
+        }
+      ],
+      "pairedBannerIds": [],
+      "source": {
+        "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
+        "kind": "maintained-wiki",
+        "revision": 51716
+      },
+      "fetchedAt": "2026-07-11T12:06:25.156Z",
+      "confirmed": true,
+      "officialSource": {
+        "url": "https://web-news.gryphline.com/api/bulletin/8909?lang=en-us&code=arknights_endfield_official",
+        "kind": "official-latest",
+        "revision": "8909"
+      }
+    },
+    {
+      "id": "ae:weapon:Arsenal Exchange:scarlet-knot:2026-06-05t04-00-00-000z",
+      "game": "ae",
+      "bannerType": "weapon",
+      "category": "Arsenal Exchange",
+      "name": "Scarlet Knot",
+      "version": "2026",
+      "windowsByRegion": {
+        "asia": {
+          "start": "2026-06-05T04:00:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026"
+        },
+        "america": {
+          "start": "2026-06-05T04:00:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026"
+        },
+        "europe": {
+          "start": "2026-06-05T04:00:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026"
+        }
+      },
+      "permanent": false,
+      "featured": [
+        {
+          "entityType": "weapon",
+          "name": "Amaranthine Tassel",
+          "rarity": 6,
+          "primary": true
+        },
+        {
+          "entityType": "weapon",
+          "name": "Former Finery",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Sundered Prince",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Clannibal",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Rapid Ascent",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Detonation Unit",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Valiant",
+          "rarity": 5,
+          "primary": false
+        }
+      ],
+      "pairedBannerIds": [
+        "ae:character:Headhunting:fists-of-no-regrets:2026-06-05t04-00-00-000z"
+      ],
+      "source": {
+        "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
+        "kind": "maintained-wiki",
+        "revision": 51716
+      },
+      "fetchedAt": "2026-07-11T12:06:25.156Z",
+      "confirmed": true,
+      "officialSource": {
+        "url": "https://web-news.gryphline.com/api/bulletin/4492?lang=en-us&code=arknights_endfield_official",
+        "kind": "official-latest",
+        "revision": "4492"
+      },
+      "pairSourceUrl": "https://web-news.gryphline.com/api/bulletin/4492?lang=en-us&code=arknights_endfield_official"
+    },
+    {
+      "id": "ae:weapon:Arsenal Exchange:scarlet-pearl:2026-03-29t04-00-00-000z",
+      "game": "ae",
+      "bannerType": "weapon",
+      "category": "Arsenal Exchange",
+      "name": "Scarlet Pearl",
+      "version": "2026",
+      "windowsByRegion": {
+        "asia": {
+          "start": "2026-03-29T04:00:00.000Z",
+          "end": "2026-06-26T03:59:59.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026"
+        }
+      },
+      "permanent": false,
+      "featured": [
+        {
+          "entityType": "weapon",
+          "name": "Lupine Scarlet",
+          "rarity": 6,
+          "primary": true
+        },
+        {
+          "entityType": "weapon",
+          "name": "Rapid Ascent",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Eminent Repute",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Wedge",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Former Finery",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Detonation Unit",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Valiant",
+          "rarity": 5,
+          "primary": false
+        }
+      ],
+      "pairedBannerIds": [
+        "ae:character:Headhunting:wolf-pearl:2026-03-29t04-00-00-000z"
+      ],
+      "source": {
+        "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
+        "kind": "maintained-wiki",
+        "revision": 51716
+      },
+      "fetchedAt": "2026-07-11T12:06:25.156Z",
+      "confirmed": true,
+      "officialSource": {
+        "url": "https://web-news.gryphline.com/api/bulletin/2660?lang=en-us&code=arknights_endfield_official",
+        "kind": "official-latest",
+        "revision": "2660"
+      },
+      "pairSourceUrl": "https://web-news.gryphline.com/api/bulletin/8907?lang=en-us&code=arknights_endfield_official"
+    },
+    {
+      "id": "ae:weapon:Arsenal Exchange:smelting-fire:2026-05-14t04-00-00-000z",
+      "game": "ae",
+      "bannerType": "weapon",
+      "category": "Arsenal Exchange",
+      "name": "Smelting Fire",
+      "version": "2026",
+      "windowsByRegion": {
+        "asia": {
+          "start": "2026-05-14T04:00:00.000Z",
+          "end": "2026-06-04T21:59:59.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://web-news.gryphline.com/api/bulletin/0751?lang=en-us&code=arknights_endfield_official"
+        },
+        "america": {
+          "start": "2026-05-14T17:00:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://web-news.gryphline.com/api/bulletin/0751?lang=en-us&code=arknights_endfield_official"
+        },
+        "europe": {
+          "start": "2026-05-14T17:00:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://web-news.gryphline.com/api/bulletin/0751?lang=en-us&code=arknights_endfield_official"
+        }
+      },
+      "permanent": false,
+      "featured": [
+        {
+          "entityType": "weapon",
+          "name": "Forgeborn Scathe",
+          "rarity": 6,
+          "primary": true
+        },
+        {
+          "entityType": "weapon",
+          "name": "Thermite Cutter",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "White Night Nova",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Clannibal",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Detonation Unit",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Valiant",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Former Finery",
+          "rarity": 5,
+          "primary": false
+        }
+      ],
+      "pairedBannerIds": [
+        "ae:character:Headhunting:fest-of-brilliance:2026-05-14t04-00-00-000z"
+      ],
+      "source": {
+        "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
+        "kind": "maintained-wiki",
+        "revision": 51716
+      },
+      "fetchedAt": "2026-07-11T12:06:25.156Z",
+      "confirmed": true,
+      "officialSource": {
+        "url": "https://web-news.gryphline.com/api/bulletin/2669?lang=en-us&code=arknights_endfield_official",
+        "kind": "official-latest",
+        "revision": "2669"
+      },
+      "pairSourceUrl": "https://web-news.gryphline.com/api/bulletin/0751?lang=en-us&code=arknights_endfield_official"
+    },
+    {
+      "id": "ae:weapon:Arsenal Exchange:smelting-forge:2026-01-22t03-00-00-000z",
+      "game": "ae",
+      "bannerType": "weapon",
+      "category": "Arsenal Exchange",
+      "name": "Smelting Forge",
+      "version": "2026",
+      "windowsByRegion": {
+        "asia": {
+          "start": "2026-01-22T03:00:00.000Z",
+          "end": "2026-03-11T08:59:59.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026"
+        },
+        "america": {
+          "start": "2026-01-22T03:00:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026"
+        },
+        "europe": {
+          "start": "2026-01-22T03:00:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026"
+        }
+      },
+      "permanent": false,
+      "featured": [
+        {
+          "entityType": "weapon",
+          "name": "Forgeborn Scathe",
+          "rarity": 6,
+          "primary": true
+        },
+        {
+          "entityType": "weapon",
+          "name": "Former Finery",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Valiant",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Wedge",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Chivalric Virtues",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "White Night Nova",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Clannibal",
+          "rarity": 5,
+          "primary": false
+        }
+      ],
+      "pairedBannerIds": [
+        "ae:character:Headhunting:scars-of-the-forge:2026-01-22t03-00-00-000z"
+      ],
+      "source": {
+        "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
+        "kind": "maintained-wiki",
+        "revision": 51716
+      },
+      "fetchedAt": "2026-07-11T12:06:25.157Z",
+      "confirmed": true,
+      "officialSource": {
+        "url": "https://web-news.gryphline.com/api/bulletin/5216?lang=en-us&code=arknights_endfield_official",
+        "kind": "official-latest",
+        "revision": "5216"
+      },
+      "pairSourceUrl": "https://web-news.gryphline.com/api/bulletin/5216?lang=en-us&code=arknights_endfield_official"
+    },
+    {
+      "id": "ae:weapon:Arsenal Exchange:swift-walker:2026-05-14t04-00-00-000z",
+      "game": "ae",
+      "bannerType": "weapon",
+      "category": "Arsenal Exchange",
+      "name": "Swift Walker",
+      "version": "2026",
+      "windowsByRegion": {
+        "asia": {
+          "start": "2026-05-14T04:00:00.000Z",
+          "end": "2026-06-04T21:59:59.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://web-news.gryphline.com/api/bulletin/0751?lang=en-us&code=arknights_endfield_official"
+        },
+        "america": {
+          "start": "2026-05-14T17:00:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://web-news.gryphline.com/api/bulletin/0751?lang=en-us&code=arknights_endfield_official"
+        },
+        "europe": {
+          "start": "2026-05-14T17:00:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://web-news.gryphline.com/api/bulletin/0751?lang=en-us&code=arknights_endfield_official"
+        }
+      },
+      "permanent": false,
+      "featured": [
+        {
+          "entityType": "weapon",
+          "name": "Delivery Guaranteed",
+          "rarity": 6,
+          "primary": true
+        },
+        {
+          "entityType": "weapon",
+          "name": "Oblivion",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Detonation Unit",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Wedge",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "White Night Nova",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Exemplar",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Valiant",
+          "rarity": 5,
+          "primary": false
+        }
+      ],
+      "pairedBannerIds": [
+        "ae:character:Headhunting:fest-of-brilliance:2026-05-14t04-00-00-000z"
+      ],
+      "source": {
+        "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
+        "kind": "maintained-wiki",
+        "revision": 51716
+      },
+      "fetchedAt": "2026-07-11T12:06:25.156Z",
+      "confirmed": true,
+      "officialSource": {
+        "url": "https://web-news.gryphline.com/api/bulletin/5210?lang=en-us&code=arknights_endfield_official",
+        "kind": "official-latest",
+        "revision": "5210"
+      },
+      "pairSourceUrl": "https://web-news.gryphline.com/api/bulletin/0751?lang=en-us&code=arknights_endfield_official"
+    },
+    {
+      "id": "ae:weapon:Permanent Arsenal:cosmic-voice:2026-01-22t03-00-00-000z",
+      "game": "ae",
+      "bannerType": "weapon",
+      "category": "Permanent Arsenal",
+      "name": "Cosmic Voice",
+      "version": "2026",
+      "windowsByRegion": {
+        "asia": {
+          "start": "2026-01-22T03:00:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026"
+        },
+        "america": {
+          "start": "2026-01-22T03:00:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026"
+        },
+        "europe": {
+          "start": "2026-01-22T03:00:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026"
+        }
+      },
+      "permanent": true,
+      "featured": [
+        {
+          "entityType": "weapon",
+          "name": "Dreams of the Starry Beach",
+          "rarity": 6,
+          "primary": true
+        },
+        {
+          "entityType": "weapon",
+          "name": "Detonation Unit",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Oblivion",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "JET",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Thermite Cutter",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Former Finery",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Wedge",
+          "rarity": 5,
+          "primary": false
+        }
+      ],
+      "pairedBannerIds": [],
+      "source": {
+        "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
+        "kind": "maintained-wiki",
+        "revision": 51716
+      },
+      "fetchedAt": "2026-07-11T12:06:25.157Z",
+      "confirmed": true
+    },
+    {
+      "id": "ae:weapon:Permanent Arsenal:far-expedition:2026-01-22t03-00-00-000z",
+      "game": "ae",
+      "bannerType": "weapon",
+      "category": "Permanent Arsenal",
+      "name": "Far Expedition",
+      "version": "2026",
+      "windowsByRegion": {
+        "asia": {
+          "start": "2026-01-22T03:00:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026"
+        },
+        "america": {
+          "start": "2026-01-22T03:00:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026"
+        },
+        "europe": {
+          "start": "2026-01-22T03:00:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026"
+        }
+      },
+      "permanent": true,
+      "featured": [
+        {
+          "entityType": "weapon",
+          "name": "Never Rest",
+          "rarity": 6,
+          "primary": true
+        },
+        {
+          "entityType": "weapon",
+          "name": "Grand Vision",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Rapid Ascent",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Exemplar",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Valiant",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Oblivion",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Wedge",
+          "rarity": 5,
+          "primary": false
+        }
+      ],
+      "pairedBannerIds": [],
+      "source": {
+        "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
+        "kind": "maintained-wiki",
+        "revision": 51716
+      },
+      "fetchedAt": "2026-07-11T12:06:25.157Z",
+      "confirmed": true
+    },
+    {
+      "id": "ae:weapon:Permanent Arsenal:rising-mount:2026-01-22t03-00-00-000z",
+      "game": "ae",
+      "bannerType": "weapon",
+      "category": "Permanent Arsenal",
+      "name": "Rising Mount",
+      "version": "2026",
+      "windowsByRegion": {
+        "asia": {
+          "start": "2026-01-22T03:00:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026"
+        },
+        "america": {
+          "start": "2026-01-22T03:00:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026"
+        },
+        "europe": {
+          "start": "2026-01-22T03:00:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026"
+        }
+      },
+      "permanent": true,
+      "featured": [
+        {
+          "entityType": "weapon",
+          "name": "Mountain Bearer",
+          "rarity": 6,
+          "primary": true
+        },
+        {
+          "entityType": "weapon",
+          "name": "Valiant",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "JET",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Eminent Repute",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Exemplar",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Chivalric Virtues",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Clannibal",
+          "rarity": 5,
+          "primary": false
+        }
+      ],
+      "pairedBannerIds": [],
+      "source": {
+        "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
+        "kind": "maintained-wiki",
+        "revision": 51716
+      },
+      "fetchedAt": "2026-07-11T12:06:25.157Z",
+      "confirmed": true
+    },
+    {
+      "id": "ae:weapon:Permanent Arsenal:solid-ice:2026-01-22t03-00-00-000z",
+      "game": "ae",
+      "bannerType": "weapon",
+      "category": "Permanent Arsenal",
+      "name": "Solid Ice",
+      "version": "2026",
+      "windowsByRegion": {
+        "asia": {
+          "start": "2026-01-22T03:00:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026"
+        },
+        "america": {
+          "start": "2026-01-22T03:00:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026"
+        },
+        "europe": {
+          "start": "2026-01-22T03:00:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026"
+        }
+      },
+      "permanent": true,
+      "featured": [
+        {
+          "entityType": "weapon",
+          "name": "Khravengger",
+          "rarity": 6,
+          "primary": true
+        },
+        {
+          "entityType": "weapon",
+          "name": "Exemplar",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Sundered Prince",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Detonation Unit",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "JET",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "White Night Nova",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Clannibal",
+          "rarity": 5,
+          "primary": false
+        }
+      ],
+      "pairedBannerIds": [],
+      "source": {
+        "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
+        "kind": "maintained-wiki",
+        "revision": 51716
+      },
+      "fetchedAt": "2026-07-11T12:06:25.157Z",
+      "confirmed": true
+    },
+    {
+      "id": "ae:weapon:Permanent Arsenal:thunderous-peal:2026-01-22t03-00-00-000z",
+      "game": "ae",
+      "bannerType": "weapon",
+      "category": "Permanent Arsenal",
+      "name": "Thunderous Peal",
+      "version": "2026",
+      "windowsByRegion": {
+        "asia": {
+          "start": "2026-01-22T03:00:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026"
+        },
+        "america": {
+          "start": "2026-01-22T03:00:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026"
+        },
+        "europe": {
+          "start": "2026-01-22T03:00:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026"
+        }
+      },
+      "permanent": true,
+      "featured": [
+        {
+          "entityType": "weapon",
+          "name": "Thunderberge",
+          "rarity": 6,
+          "primary": true
+        },
+        {
+          "entityType": "weapon",
+          "name": "Former Finery",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Sundered Prince",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Chivalric Virtues",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Valiant",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Eminent Repute",
+          "rarity": 5,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Wedge",
+          "rarity": 5,
+          "primary": false
+        }
+      ],
+      "pairedBannerIds": [],
+      "source": {
+        "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
+        "kind": "maintained-wiki",
+        "revision": 51716
+      },
+      "fetchedAt": "2026-07-11T12:06:25.157Z",
+      "confirmed": true
+    }
+  ]
+}

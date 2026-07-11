@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "the-seven-wonders-of-belobog",
+  "name": "The Seven Wonders of Belobog",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/The_Seven_Wonders_of_Belobog",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "<!--"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": true,
+            "items": [
+              {
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "There is a place in the city where if you continue walking forward, you will end up in the air."
+                  }
+                ]
+              },
+              {
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "If you repeatedly rock back and forth at the corner of the street, the ground will open up and swallow you into the abyss."
+                  }
+                ]
+              },
+              {
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "At a specific point in time, the people that pass by you will suddenly open their arms and make a T-pose."
+                  }
+                ]
+              },
+              {
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "If you suddenly turn around at a crowded place, the walls will become white."
+                  }
+                ]
+              },
+              {
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "If you utter a certain mysterious phrase, the person you're conversing with will turn into a monster."
+                  }
+                ]
+              },
+              {
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The heater and trash can on the side of the street become square boxes when it snows."
+                  }
+                ]
+              },
+              {
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "When you're in a place with no one else around, music of an unknown origin could be heard."
+                  }
+                ]
+              },
+              {
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "If you are reading this, all the miraculous things above will happen to you."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

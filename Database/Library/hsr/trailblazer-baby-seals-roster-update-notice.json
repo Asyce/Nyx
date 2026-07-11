@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "trailblazer-baby-seals-roster-update-notice",
+  "name": "(Trailblazer) Baby Seals Roster Update Notice",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/(Trailblazer)_Baby_Seals_Roster_Update_Notice",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "After positive and respectful communication between the club and the player, and with full regard for the player's wishes, , (formerly known as Cybercampus), former chimera member of (Trailblazer) Water Sports Club's Baby Seal Team, has now officially completed their contract with the club and will depart effective immediately."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Since the beginning of the birth month of Phagousa, (Trailblazer) Club has seen a renewal of its Baby Seal players, continuing an undefeated streak from group stages to the elimination rounds. Bubbles joined (Trailblazer) Club as a core member at the start of the Seal Slammers competition. As one of the event's star players, Bubbles will certainly bring glory to the new team."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "When the wind breaks through the waves, we shall boldly sail where no boat has sailed before."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "No banquets last forever, and the exciting moments left on the field will be cherished forever. We thank Bubbles for their dedication and contributions to (Trailblazer) Club since the very beginning of the competition and extend our deepest gratitude to the fans for their unwavering support."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "What has passed is but the prologue. We are grateful for the encounter, and parting holds no regrets."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Life is full of dreams, and everyone shines in their own way. We wish Bubbles a bright future and a successful career ahead."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Until we meet again, smiling, at the entrance to the next competition."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(Trailblazer) Water Sports Club Baby Seal Team"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "<!--"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

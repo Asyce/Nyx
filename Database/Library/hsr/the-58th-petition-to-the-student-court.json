@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "the-58th-petition-to-the-student-court",
+  "name": "The 58th Petition to the Student Court",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/The_58th_Petition_to_the_Student_Court",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Case ID:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1000HEZ058"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Petitioner:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Hertz, a freshman of Charmony Academy"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Petition Content:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Evil has shrouded Paperfold University. Please thoroughly investigate Prema and the enigmatic force of Pepeshi known as Innasemboat behind her."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Petition Details:"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Dear Paperfold University Student Court,"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Paperfold University is facing an unprecedented crisis!!! I've alerted the Student Court about this severity of this issue 57 times, but I haven't received any replies so far. Still, I won't give up! Today, I'm resubmitting my petition to fully disclose all the details, even though this may place me at great risk..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "During Paperfold University's 550th Spheroid Race Qualifier last month, Prema, a sophomore Pepeshi at Charmony Academy, was chosen as the Paperfold University Top Driver and represented Charmony Academy for the upcoming university Spheroid Race this year. While many naive students celebrated having the first Pepeshi driver in the university, they were unaware that Prema's selection was influenced by an organization called \"Innasemboat,\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "a secretive group composed of Pepeshi."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Yes, you heard me right. The seemingly unassuming Pepeshi have banded together through Innasemboat, exerting covert influence over various aspects of Penacony's society, including the economy, politics, healthcare, education, and beyond. Allow me to briefly introduce Innasemboat. It is an ancient elite society of Pepeshi, with origins dating back to before the establishment of Paperfold University. This organization operates with a strict hierarchical structure where seniority equates to rank, where seats are passed down in families to ensure the preservation of wealth and power via blood. The organization continuously enlists top elites from Penacony's political and commercial circles as executors of the leader's will, which explains why Pepeshi seldom hold prominent positions openly in society."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The Prema Incident exposes their next move: Innasemboat aims to infiltrate the sports and entertainment sectors of Penacony to enhance their reputation, gain public favor, and lay the groundwork for their control of darkness. I'm hereby presenting substantial evidence that the Prema Incident is part of their elaborate scheme:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "1. Pepeshi drivers have never appeared in the Spheroid Race's 500-year history, so how did they suddenly have a star driver after 500 years of incompetence? Someone must be behind this."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. Prema has repeatedly received assistance from racing champions of rival academies (such as Romeo, the former champion of Fortune Academy). Such an act of betraying his academy and aiding his competitor suggests either ulterior motives or external coercion on Romeo's side."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. Lastly, a most subtle yet most significant detail: Prema's Spheroid is named \"The Flying Pepeshi,\" reminiscent of a ghost ship from the movie"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Asdana Pirates"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ". Why would a Spheroid be named after a ship? Think about the name \"Innasemboat\" and you'll figure out why!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The average students lack insight. They have never connected these three elements and thus fail to grasp the bigger picture. However, as I add in the missing link named Innasemboat, everything should become crystal clear to all. Lastly, I will present this astonishing fact: Why has the Innasemboat's conspiracy never been exposed through the years? Because the Pepeshi have controlled the entire Penaconian media industry. The fact that the news host Uma is a Pepeshi serves as the most direct evidence."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Given its implications for fair competition and potential security risks for the campus, I, on behalf of all students, hereby present the following demands to the Paperfold University Council and the Student Court:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "1. Conduct a comprehensive investigation and eradicate the influence of Innasemboat from the university."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. Implement rigorous examinations upon all current and future Pepeshi students within the university."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. Disclose the investigation results to all students and announce a personal apology to me."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Should the Student Court once again reject my petition, it would be reasonable for me to suspect that Innasemboat has infiltrated the Student Court. In such a scenario, I will escalate this matter beyond the Student Court and report directly to the University Council."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "It is everyone's responsibility to safeguard Paperfold University!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "An ordinary student deeply devoted to Paperfold University,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Hertz"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

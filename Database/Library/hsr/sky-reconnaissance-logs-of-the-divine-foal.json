@@ -1,0 +1,372 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "sky-reconnaissance-logs-of-the-divine-foal",
+  "name": "Sky Reconnaissance Logs of the Divine Foal",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Sky_Reconnaissance_Logs_of_the_Divine_Foal",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Day 1"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Two matters to report, one good and one bad."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The good news is that the city in the sky truly exists. This discovery alone would ensure our promotion to priests upon our return!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The bad news is that we can't go back, haha."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Day 3"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "We've installed numerous secret passages and gained a preliminary understanding of this fortress's structure."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "To think those barbaric Ladonians share the same noble lineage as the esteemed healers of the Twilight Courtyard? I still find this hard to believe."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Day 5"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "We discovered documents left by sky dwellers with extensive records of ceremonial activities. While specific forms vary by racial origin, they share a common characteristic — put simply, throwing things down from the sky."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Thinking back to folk tales about food rain from the sky and weapons falling from above, one must consider their connection to these sky rituals."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Day 8"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I've seen lions and heard birds sing, but never a lion imitating bird calls."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Also, the divine foal is made of wood, not a real horse — so please stop staring at me like that, it's creepy!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Day 9"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Pursued by a Pegasus, lost all our supplies."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Our provisions are nearly depleted, yet this iron-stone fortress shows not a single sign of life. What will we do when hunger truly strikes?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Day 10"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Found a solution."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Day 15"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "My companion could no longer endure the torment of sky-bound existence and merged his soul essence with the divine foal."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "This was his choice. I was powerless to intervene."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Day 17"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Major breakthrough in our investigation of Skyfolk history — the complete version of the forbidden legend of the Daythunder Knight and Aquila!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Though written in a style apparently aimed at younger readers and featuring sacrilegious illustrations, it matters not. Historians should pursue knowledge with childlike eagerness."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "— Surely this isn't merely some ancient comic book, right?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Day 24"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The boredom has become unbearable. I've collected various small trinkets from around here, placed them in a box, and left it at the divine foal's resting place."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Perhaps someone will discover them in the future."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I've had a revelation — could this be the true origin of treasure chests in mazes?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Day 33"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The High Priest has come to rescue me! Praise Janus!!!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "My companion has become one with the divine foal, which is deeply regrettable. I shed tears, but they were of no avail."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I record here the most important discovery of this journey as a conclusion, hoping to offer some small assistance to future generations."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "—The wooden planks of the divine foal can satisfy hunger, and their taste is quite acceptable."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "<!--"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

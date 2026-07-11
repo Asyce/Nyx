@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "wildfire-flier",
+  "name": "Wildfire Flier",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Wildfire_Flier",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*A shabby handwritten flyer. You can feel the writer's effort as the paper has been penetrated at several characters, but you can still read it.*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Boulder Town residents"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "When you receive this flyer,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "you should know that the fissure is now corroding our home."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "In the past, we had Silvermane Guards repelling invading monsters at the front line."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "However, with an order, the soldiers have been sent away to the distant battle field."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "They never come back."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Without protection from the Silvermane Guards, we saw the tragedy of the Rivet Town."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Some escaped to the Boulder Town, struggling for a new life."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Some went into the mines, living a homeless life."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But are those misfortunes fated?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Of course not!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Pick up your pickaxes, take your explosions."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "We know that the fissure's corrosion never stops. We know that monsters are running towards us."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Stop daydreaming about when the Silvermane Guards would return. We can protect ourselves!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "This is our belief, Wildfire's belief."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Wildfire not only want warriors."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "We want more people to stand together and maintain the city's order from collapsing."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "We also need more people to contribute to scientific medical aids."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "We also want more people to discuss the future of the Underworld."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "We look forward to your participation."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Join Us"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "You can ask any Wildfire member you see in the Underworld about how to join us."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Gathering Spot"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Boulder Town, behind the Gathering Place (Turn right when you arrive at the barrel decoration on the top, then go straight.)"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

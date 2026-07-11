@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "a-brief-message",
+  "name": "A Brief Message",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/A_Brief_Message",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "To the Conductor:"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Please forgive me for leaving without notice. I know you're doing all you can to recover the car belonging to me and (Trailblazer)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I wanted to say goodbye before leaving, but the difference in time flow between the outside world and Amphoreus no longer permitted me to stay."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I saw the look in your eyes. It was the same one I saw when you spoke of Mr. Mikhail and the others."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I didn't want to trouble you with unnecessary worry, so I'm leaving this message."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I'll bring both of them back safe and sound."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "This is my promise. You know me. I never break my word. This is also the duty I carry as an Express \"Guard.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I don't know how long this will take. If you ever feel anxious, read this message. Maybe it will ease your mind, even if just a little."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "If (Trailblazer) were here, they would probably say there's still mung bean soda in the fridge that they hasn't finished and wouldn't want to waste."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Please look after March until she wakes up. Goodbye."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Dan Heng"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

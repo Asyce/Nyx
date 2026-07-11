@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "a-collection-of-intelligence-on-the-xianzhou-luofu",
+  "name": "A Collection of Intelligence on the Xianzhou Luofu",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/A_Collection_of_Intelligence_on_the_Xianzhou_Luofu",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "To (Trailblazer):"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "As a fleet that sails eternally amidst the stars, the main body of the Xianzhou Alliance consists of six giant ships that encompass entire worlds. The Xianzhou Luofu you are about to head to is one of them. The other five are called Yaoqing, Fanghu, Xuling, Yuque, and Zhuming. All contain sights marvelous to the eyes."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Information on the other Xianzhou ships will not be very useful to this trip, and I will therefore skip them. This note will only talk about the Luofu."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Once you board the Luofu, there is only one thing you must remember."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "You must not show any desire toward a long life, or any admiration toward the Abundance, regardless of what you think and believe."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "You must have seen records of this in the data bank. The Xianzhou residents do not look any different from normal humans, but they are a long-life species that can live up to a thousand years in truth. The Alliance constantly guards against any short-life species from pursuing the secrets of longevity, and the Xianzhou Cloud Knights ceaselessly hunt the undead abominations created by the Abundance."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "As for other things, you will naturally learn them once you board the Luofu. I wish you a safe return."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

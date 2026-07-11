@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "giovanna-s-work-diary",
+  "name": "Giovanna's Work Diary",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Giovanna%27s_Work_Diary",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "X/23"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Something strange happened today."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Early in the morning, an alarm came through about an abnormality in a dream device installed in one of the rooms. The hotel immediately sent people to investigate and, after no answer was gained for quite some time, security personnel opened the door — only to find the room empty, with just a wide-open dream device operating by itself."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "We then launched an emergency search throughout the hotel, even asking people to confirm the status of the missing guest in the Dreamscape. Fortunately, nothing was wrong with this guest inside the Dreamscape. So, at least for now, his body seems undamaged and his mind remains within Penacony. To protect the guest's mental well-being, we will not inform them for now. To address this, the hotel has dispatched a team to conduct close follow-up observations on the guest."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "We hope that his body can be found soon."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "X/25"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "There have been some... rumors around the hotel these days. I first caught wind in the tearoom: A maid said she could hear a rustling scratchy voice when passing by \"that room\" in the middle of the night — like a rat nibbling on wallpaper. But how could Penacony have rats?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Even the kitchenhands started to talk about this later. Apparently, another young waiter sneaked into \"that room\" again, and"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "it really was empty inside"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ". But after that, the sound still kept appearing. And it got louder... and louder."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "X/26"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Finally, I heard it myself — the sound they'd been talking about. The three hours I spent waiting outside that door wasn't in vain, after all. I slipped in before the sound disappeared. Everyone has been getting antsy recently because of that rumor about \"the guest who got eaten by the dream device and turned into a wandering specter.\" As the head nurse, it is my duty to clarify this ridiculous delusion."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "It was a scratchy sound. It rustled like a rat nibbling at the wallpaper, or like an angry ghost struggling. I looked back to see the guest room door was still open. The sound came from behind the wardrobe over in the corner of the room, so I took a few steps over, and the sound got louder. I paused for a second, then I tried to call for him: \"Mr. Sealy?\" Then I heard a loud, rasping laugh. That sound... it was strange, more like an off-tune weak scream or a painful whimper instead of laughter. I felt my vision going dark and my body freezing. But the sound drifted off after a while, so I bravely took another few steps forward and called out again."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "However, that sound suddenly stopped. At that time, my curiosity got the better of me and I leaned over the wardrobe to peer behind it into the gap between it and the wall — I saw a large pair of bloodshot eyes and a set of wriggling white teeth that was both terrifying and sinister. And then, I heard a weak, breathy roar saying:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Sa—Save me!\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "X/28"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "This morning, the hotel issued a revised guest guideline and dreaming regulations. What happened to Mr. Sealy gave us all a wake-up call to recognize the flaws and oversights in our original workflow. For this purpose, we have made the following improvements:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "1. Guests with any history of sleepwalking will have additional limb support measures taken while entering the dream to prevent accidents from occurring during sleep."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2. The layout of hotel rooms has been optimized to prevent smaller guests (such as the Pepeshi) from getting stuck between any furniture again."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "As for poor Mr. Sealy, the mental trauma he suffered seems to exceed any weakness caused by dehydration and hunger. The hotel pledges to provide him with the best recuperating environment and the most meticulous care."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "We sincerely hope he will make a speedy recovery."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

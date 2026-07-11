@@ -1,0 +1,511 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "excerpt-from-penaconian-art-history",
+  "name": "Excerpt from Penaconian Art History",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Excerpt_from_Penaconian_Art_History",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The word \"prison\" does not sound like something remotely related to arts... Is that really so?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Admittedly, during war, \"arts\" is not a word people would ever get to use. However, it is no exaggeration to say that everyone can be called an artist during times such as those."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Think about it..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "An environment where artworks can be made manifest by the power of thought alone."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The intimidation between gangs and factions tends to favor the most eye-catching expressions."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Explorers of dreams must leave behind blatant and comprehensible signals of danger for those who could not use Synesthesia Beacons."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Members of the public use symbols and images to mark their personal effects."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "People often express their desires through personal style, splashing the costless and vivid memoria paint across every corner of the dreamscape, with little regard for whether the canvas belongs to someone else or had another intended purpose."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "On certain smooth and expansive \"canvases\" of high quality, dozens of overlapping designs from different hands can be found, creating a strange, yet captivating mosaic of memes."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Later, during the early days of Penacony's birth, when the act of \"art\" had just begun to take root in the dreamscape, the images that surfaced in people's minds were still those ubiquitous patterns — Graffiti prototypes that are now called Primordial Dreamscape art."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Since its inception, the film industry has been the primary entertainment industry in Penacony, deeply familiar to every resident."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "This led many wildly creative Dreamweavers and filmmakers to reflect during their downtime:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"We're already in a dream, do we still have to watch 2D films in a cinema?\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Inspired by this thought, some artists, leveraging their understanding of memoria, began exploring new forms of expression unique to the Dreamscape."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Thus, the movement of Hallucisomnism was born. It emerged from Dreamweavers' experiments and, over the span of an Amber Era, permeated various fields of art."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Dream's Eye Art"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Initially, it was merely a tool for Dreamweavers to move swiftly while working. However, after numerous Dreamchasers expressed awe and admiration for the experience, artists began designing works of art based on Dream's Eye. These ranged from massive flat murals to three-dimensional sculptures made from various objects."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Despite becoming a brief sensation, as the public began to understand its nature, most grew bored with this form of creation, accustomed as they were to the marvels of the Dreamscape. Coupled with the high difficulty of creation and the expensive cost of setting up Dream's Eyes, this artistic style remained niche."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Even so, a loyal group of enthusiasts regularly visits the Dream's Edge, just to witness these wonders."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Exaggerated Dreamcore"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Impressions of the Dreamscape can be abstracted into common representations, which, when translated into art, are known as \"Dreamcore.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Since we already reside within a dream... this allows creators to be far more daring in their concepts."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "''"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Summer Seaside Mansion and the Monocular'' by Author Unknown, Dreamscape Construct, Moment of Oasis"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The centerpiece of this work is a Salsottoan monocular, magnified a million times, forming the entrance to the seaside mansion. The interior structure consists entirely of pure white, threshold-defying spaces filled with swimming pools."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Creations similar to this are restricted by The Family due to their high memoria usage and have gradually faded out of the creators' radar."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Illusion Art"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Technically, similar styles exist in other worlds, where the core lies in provoking the viewer's illusion — distorting their sense of space, using color tricks, etc. However, in the Dreamscape, dreamweaving technology can greatly enhance these experiences, making the illusions extend beyond just visual perception."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "At the time, creators believed this style was the most fitting for the Dreamscape. \"Dreams should be a bit erratic,\" they said."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Notable works include:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "''"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The True Lilac Chaser'' by Author Unknown, Architecture, preserved in the Blue Hour"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "''"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "You Think You're Outside the Wardrobe?'' by Author Unknown, SoulGlad Bottle Painting, creation date unknown, currently sealed by the Bloodhound Family"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Since the Fourth Charmony Festival, similar creations have been restricted due to their tendency to trigger memetic incidents."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In conclusion, all exploratory attempts born of the Hallucisomnism Era have failed for various reasons. However, the process has been deemed \"artful enough,\" or \"Penaconian enough.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As the sole technology currently unanimously recognized as excellent, the art of dream bubble films has been preserved to this day. Its craftsmanship meant its progress has been permanently stalled in Penacony, but it is because of this echo that countless memories are attracted and eventually come streaming, Penacony-bound."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Pulling the perspective back by an Era to the time when Penacony's sounds of Harmony gradually became clearer, the dissonant sounds in contrast began to fade away."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The founder of the well-known Paperfold University and head of the Nightingale Family at the time, Glaux, ultimately chose a more gentle approach to express his concerns regarding The Family's future and the Path of Harmony they followed."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "''"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Sixteen Art Pieces'' by Glaux, Memoria Artwork, currently conserved in the Paperfold University Museum"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The central image features sixteen painters, each dressed in distinct attire, with their heads exaggerated into the shape of musical notes. They are all painting in exactly the same manner, and the images on their canvases are identical."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The imagery in this memoria painting is remarkably clear, requiring little explanation to grasp the creator's intent."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Family placed significant importance on this work, and the one who responded was none other than Glaux's disciple, the future Dreamweaver Master, Fischer."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "''"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Seventeenth Art Piece'' by Fischer, 3D Memoria Art Construct, currently placed in Moment of Sol"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "This artwork builds upon the composition of"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Sixteen Art Pieces"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": ", transforming it into a three-dimensional form while making certain adjustments. Each painter's posture while painting varies greatly, and though the lines of the artworks remain consistent, the colors and shading differ."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The brilliance lies in the fact that, when viewed from a specific angle, the sixteen individual paintings merge into a larger, elegant landscape."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "These two works are regarded as the most succinct explorations of the relationship between \"the Path of Harmony\" and \"creative freedom.\" Shortly after, with the establishment of Paperfold University, Glaux appointed Fischer as the next head of the family, reigniting discussions around the artworks once again."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "<!--"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

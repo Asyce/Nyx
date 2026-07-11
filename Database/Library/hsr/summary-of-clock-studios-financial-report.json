@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "summary-of-clock-studios-financial-report",
+  "name": "Summary of Clock Studios Financial Report",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Summary_of_Clock_Studios_Financial_Report",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In the third quarter of this fiscal year, the Studio's revenue amounted to ■■■■■■■■ Alfalfa credits, a year-to-year decrease of 19.2% and a quarter-to-quarter decrease of 10.2%. Net profit stood at ■■■■■■■■ Alfalfa credits, a year-to-year decrease of 17% and a quarter-to-quarter increase of 0.7%."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Animation revenue accounted for approximately 33% of the total, reaching ■■■■■■■■ Alfalfa credits, showing a 27% year-to-year decrease."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "During the first three quarters, two Clockie movies and 37 episodes of the Clockie animation series were released, of which the ninth season of the new Clockie series and"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Clockie's Big Adventure: Oceania"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "accounted for 49% and 51% respectively."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It is clear that animation remains a vital aspect of the Studio's business. However, the missing caused an impact on the production capacity for the"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Clockie"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "series, resulting in a significant downturn in ticket sales and the growth of revenue."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Image licensing revenue accounted for approximately 29%, reaching ■■■■■■■■ Alfalfa credits."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Throughout the quarter, products such as Dressable Clockie, Origami Bird Drone, and Lil' Brother Hanu Game Console, released in collaboration with Pikapi Toys Factory, achieved favorable results in the market. The Studio will continue investing in relevant products to facilitate the production of higher-quality merchandise."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Legal Department is actively seeking a solution to the upcoming risk of image copyright expiration and striving to reach a legal consensus with Interastral Peace Entertainment as soon as possible."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Clock Studios Theme Park generated a revenue of ■■■■■■■■ Alfalfa credits, accounting for approximately 18% of the total."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Due to the promotion of the Charmony Festival, the theme park's capability in attracting customers and revenue has significantly increased. Investments in iterating amusement programs yielded a positive response, with a 15% rate of return. Investments in visitor services achieved the highest rate of return at approximately 24%. It is expected that during Charmony Festival, the Clockie Celebration will break through the profit highpoint in the fourth quarter."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Revenue from collaborations outside of Penacony accounted for 11%, while collaborations and merchandise sales within Penacony accounted for 79%. The marketing department should enhance promotional efforts and market competitiveness in the outside world, particularly in segmenta within The Family's influence, to ensure long-term success in expanding the"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Clockie"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "series beyond the Dreamscape into the wider cosmos."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Revenue from other investment projects accounted for approximately 9%, reaching ■■■■■■■■ Alfalfa credits."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Notably, the investment and development of dream bubble movies emerged as a new growth driver for Penacony's entertainment industry. Market forecasts suggest that dream bubble movies may surpass traditional movies within half an Amber Era and become the new cornerstone of Dreamscape Media."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The Clockie IP will remain the flagship product of Clock Studios for the foreseeable future. However, it is currently facing several challenges. Our inventory of"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Clockie"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "animation content is nearly depleted and the highly-anticipated"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Dreamville Legend"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "series, which has been in development for five years, must be released in theaters next quarter."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The finance department emphasizes the urgency of establishing contact with the to make new strategic decisions. Failure to do so could pose a significant risk to the financial stability of Clock Studios' capital chain."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

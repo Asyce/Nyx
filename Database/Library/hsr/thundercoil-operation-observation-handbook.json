@@ -1,0 +1,341 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "thundercoil-operation-observation-handbook",
+  "name": "Thundercoil Operation Observation Handbook",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Thundercoil_Operation_Observation_Handbook",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "This manual (11th Edition) was compiled at ██████████. It provides supervisors with status assessments and assistance methods for our core staff member, \"thundercoil.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Basic Information"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Normally, thundercoil has a soft physique and 30% reflectivity. He wears custom headphones on duty. You can't tell his mood just by looking at his face."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "According to thundercoil, his peak physical state is achieved by coiling clockwise around the tower tip two and a half times and hugging the spire (hereafter the \"Ideal State\")."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Working Hours: 0700 to 0100 next day."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Rest: Four system hours total, flexible."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Wishpower Auto-Supply System Charging: 1130, 1830, and 0030 daily (variable for late-night programs)."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "※ If he forgets, just use the internal broadcast and point the searchlights at the rooftop."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Quick Response Guide"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I. Station TV Observation"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Static Screen"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Check if thundercoil is at his station."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(During breaks) Verify the status of the Wishpower Auto-Supply System."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2. Lag or Dropped Frames"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Go outside and check if thundercoil's tail is obscuring his head."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Check if Seafeld Channel 3 is airing \"Thunder Dragon Adventures\" and remind thundercoil to stay focused on work."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "3. Signal Bleed"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Check if thundercoil's claws are overgrown. Use the idle crane at the neighboring site to trim them."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(If inapplicable) Ask thundercoil if he stayed up late stargazing. Adjust his rest time accordingly and record the pay deduction."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "4. Non-Program Content Airing"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Notify thundercoil over the intercom and help locate signal hijackers (likely hackers). Thundercoil will usually ████████ in response."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "In case of casualties, contact the Department of Aberration Defense and try to get the event ruled as self-defense."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "II. Direct Observation"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Appears \"Depressed\" or Shows \"Rage\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "No action required. Thundercoil's facial structure differs from typical imagenates. This is just how he looks when he's \"relaxed.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2. Dull Skin or Low Reflectivity"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Check if the supply of \"Yellow Ducky Wish-crackers (Thundercoil Special Edition)\" has dropped below five tons."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "3. Visibly Happy, Laughing, and Frantically Dancing"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "█████████████████████████████████████"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sound the alarm immediately and evacuate all personnel from the tower."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "4. Wearing a Mask"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Head to B3 Archives in the station. Locate the document \"Emergency Protocol: Thundercoil as a Supplicant\" on shelf 15-3 (disguised as an advanced math textbook). The quantum lock code is \"5-φ-3-7.\" (Note: Three failed attempts will trigger self-destruction)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "III. Other Scenarios"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Brief, Isolated Seismic Activity"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Check if thundercoil fell off while napping. Issue the standard public announcement."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2. TV Footage Playing Directly in Your Mind"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Take that aluminum pot off your head."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Note 1: If thundercoil shows no anomalies but the signal still fluctuates, check the Planarcadia Administration announcements for Wishpower turbulence."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Note 2: Only one thundercoil is stationed at Seafeld TV. If you observe more than one simultaneously, check today's visitor logs for specific Masked Fools."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "For special cases, contact the reception to reach Director Fulwish or the Department of Aberration Defense."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

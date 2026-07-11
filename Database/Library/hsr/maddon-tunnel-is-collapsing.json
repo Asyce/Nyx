@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "maddon-tunnel-is-collapsing",
+  "name": "Maddon Tunnel Is Collapsing",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Maddon_Tunnel_Is_Collapsing",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Lyrics:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Maddon Tunnel is collapsing,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "collapsing, collapsing."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Maddon Tunnel is collapsing,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "crystalline buddy."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Build it up with wooden stakes,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "wooden stakes, wooden stakes."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Build it up with wooden stakes,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "crystalline buddy."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Wooden stakes will bend and break,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "bend and break, bend and break."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Wooden stakes will bend and break,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "crystalline buddy."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Mine all the Geomarrow,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Geomarrow, Geomarrow."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Mine all the Geomarrow,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "crystalline buddy."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Geomarrow is not with me,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "not with me, not with me."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Geomarrow's not with me,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "crystalline buddy."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Meaning:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The meaning of the song may simply be related to the difficulties in the construction of the Maddon Tunnel. However, its exact location is unknown. Only the song survives. There also exist other theories of its origin."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "A result of resistance to Fragmentum corrosion:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "There's another theory: Fragmentum monsters appeared suddenly in many of the mines as Fragmentum activity increased. It was too dangerous to examine the deep, underground mines one by one, so the Silvermane Guards stopped the Fragmentum monsters' invasion by continuously bombarding the Maddon Tunnel. Crystalline Buddy was believed to be a playful banter of the Fragmentum monsters. But because the existence of the Maddon Tunnel couldn't be verified, many people don't believe it actually happened."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The Old World's primitive idea of sacrifice:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Other theories relate to primitive cultures from the Old World that \"sacrifice\" can protect tunnels from collapsing. However, that theory doesn't work in the Underground because mine tunnels will collapse, no matter how many people's are sacrificed."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

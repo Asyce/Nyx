@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "happiness-promise-of-seafeld",
+  "name": "Happiness Promise of Seafeld",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Happiness_Promise_of_Seafeld",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Desire for Happiness"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Happiness is absolute joy and contentment. It is a lake without ripples. Any sorrow or pain is a stain upon this perfection."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The heavy shadows cast by life are \"impurities\" we must keep far away."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "We must let them sink silently to the bottom, never stirring the water into muddy turbulence."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Our Daily Practice"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Do not dwell on or discuss \"misfortune\": whether it is harsh weather, a mistake at work, or a minor ailment, such things are devoid of value. There is no need to waste energy on them."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "When someone confides their troubles to you, please smile and tell them: \"Everything will be alright.\" Then, leave quickly. An ordinary person's lake of the heart is easily disturbed. Please leave these sources of contamination to the Committee, who have already received the blessing to handle them."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Each night before sleep, stand before the mirror and repeat three times: \"Today, I was also happy.\" If tears fall, do not worry, wipe them dry with a towel. It is merely excess moisture your body is expelling."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Remember This Above All"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Keep smiling. Keep smiling. Keep smiling."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "We Are Together"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The pursuit of happiness is humanity's birthright."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "On this path, should you encounter any difficulty or obstacle, you must inform us."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "We will provide you with every assistance, especially the Happiness Surgery, which grants supreme bliss."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

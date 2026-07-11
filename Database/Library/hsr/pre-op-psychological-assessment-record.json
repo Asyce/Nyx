@@ -1,0 +1,395 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "pre-op-psychological-assessment-record",
+  "name": "Pre-Op Psychological Assessment Record",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Pre-Op_Psychological_Assessment_Record",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Psychological consultation for members experiencing pre-op anxiety. The session has been archived per standard protocol. (Patient information has been anonymized for confidentiality.)"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The consultation record is as follows:"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Fulwish:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Praise the Master of Elation! Is everyone having a"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "happy"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "day today?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Member A:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I... I'm so happy. (uneasy, restless)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Fulwish:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "No, you're not"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "happy"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ". If you were, you wouldn't be here right now. Today I'm not speaking as the president of the Smiles Society. Think of me as just a normal friend, someone you can open up to about what's troubling you."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Member A:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Lady... Fulwish... I'll admit, if it weren't for everyone at the Smiles Society, on the day I got laid off, I probably would've... But with your encouragement, I found a new job and even gained a new family. I think I should give it one more shot and try to find happiness through my own strength, instead of jumping straight into the surgery."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Fulwish:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "You're absolutely right. The Society isn't the IPC. We'd never force our members to do anything. Today's just a friendly chat between friends, so relax. Let's just talk about life, shall we?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "How's work been lately? Getting along with your coworkers? Is everyone"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "happy"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Member A:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "...Yeah, everyone's so happy, bursting with energy every single day, and it's all thanks to your help. But sometimes, I feel like we're from two different worlds. Whenever I'm exhausted and just want to sigh, I take one look at them and... it's like I'm doing something I'm not allowed to do."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Fulwish:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I went through the same thing in the days right after the Bloodstained Games ended. Everyone was so kind, but the more help I accepted, the guiltier I felt. I was scared that if they saw even a hint of unease on my face, it would hurt them too. I was scared that if I cried, it would make them sad."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "But that only made me lonelier, made me think that"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "misfortune itself was a kind of original sin"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Member A:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Yeah, I totally get that! It's like this vibe hanging over all of Planarcadia. Whether it's at the company, out on the streets, or online... seeing everyone laughing and having a blast always makes me feel like I should join in, but..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Fulwish:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Don't blame yourself. Pursuing"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "happiness"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "is human nature. It's precisely because you aren't happy enough that you yearn for that"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "world of happiness"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", and you've mistaken that yearning for alienation."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Picture this: everyone around you is laughing, but you're the only one in tears. Your wife and kids are happily chatting away nearby, while all you can do is heave a heavy sigh. Do you really want to turn your back on them? Or would you rather bask in that atmosphere of"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "happiness"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", stand by their side, and share a laugh?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Happiness is a divine gift, not something to be ashamed of. When it comes down to it, do you truly resist the"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Happiness Surgery"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "? You simply haven't recognized your true self yet. Tell me, what is it you really want?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Member A:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I want to... join them. I want to be happy."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "weathering-curse-record",
+  "name": "Weathering Curse Record",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Weathering_Curse_Record",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "To save the living from the clutches of the demons from beyond, our ancestor Graphia harnessed the power of the Phantasmoon Games, using the sea as her canvas to hide the planet within the \"World in Canvas.\" But all things come with a cost. This act of salvation also bound an eternal curse to the bloodline of the Graphia family."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The daughter shall be stripped of her flesh, trapped unto death within her bed. The son shall be peeled of his soul, left to wander the wastelands."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The \"Weathering Curse\" first manifested in Graphia's body, then passed to our ancestors, Huear and Lumirae, becoming known to the world. As the years go by, the female descendants' bodies suffer corrosion: limbs wither, skin cracks and splits, like a decaying painting, peeling away layer by layer, turning to dust. The male descendants' minds are tortured, trapped in a daze, unable to recognize themselves, ultimately lost to madness. However, our family bears the responsibility of protecting this planet. We cannot bring ourselves to sever our bloodline and abandon this land and its people. Therefore, generations of descendants have searched far and wide for every possible cure, compiling them in this book, hoping that one day we can break the family curse and spare future generations from this suffering."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Causes"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "There are three hypotheses about the causes of the curse, but none of them have been proven."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(I) The Sacrifice Theory. To save the world, the ancestor Graphia had no choice but to trade her own life and the lives of her descendants through the Phantasmoon Games in exchange for the power to duomensionalize a planet in an instant."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(II) The Corrosion Theory: During Graphia's battles against the Antimatter Legion, she was struck by enemy forces. The corrosion of Destruction took root deep within her bloodline, cursing the Graphia clan to eternal unrest."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(III) The Genetic Theory. The genes of the Graphia ancestors may contain certain hereditary material that causes descendants to have an increasingly higher probability of developing the condition after reaching a certain age phase, ultimately leading to death from the \"Weathering Curse.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Healing Method"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "To this day, the people of our family have tried many ways, but none of them succeeded. We can only record our failures, to guide future generations in the right direction."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Conservative treatment"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Failed"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Replacing the weathered body and organs"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Failed"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Using imagenesis to fill the weathered fissures"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Failed"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A line of unreadable text"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Winning the Phantasmoon Games, borrowing Aha's authority"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Using The Laughter's Blessing"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Failed"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Technology of the Mourning Actors"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Failed"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Xianzhou medical treatments"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Failed"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Interastral Peace Corporation's genetic treatment"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Failed"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Elixir Seekers' help"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Failed"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Find the source of the curse"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "To be confirmed"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

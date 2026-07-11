@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "alfalfa-bank-insurance-package-information-booklet",
+  "name": "Alfalfa Bank Insurance Package Information Booklet",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Alfalfa_Bank_Insurance_Package_Information_Booklet",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Concerned about sudden accidents that you can't shoulder?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Want your family to be financially secure if you meet an accident?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Invest a small amount to secure big happiness."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Alfalfa Bank — navigating secure passage for your future."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"My Secure Insurance Plan\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Critical illness — 400% of the premium paid."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Disability due to general accidents — 666% of the premium paid."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Disability due to accidents caused by self-driving or public transportation — 888% of the premium paid."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Disability due to accidents or major natural disasters — 888% of premiums paid."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Total disability or total inability to work — 998% of the premium paid."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Non-accidental death — Fixed amount covering one month's hotel room bill."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Accidental death — 50,000% of the premium paid."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(For some reason, the last line of text has been underlined with a black line.)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "* Important Notes for Claiming Compensation"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. If an incident falls under multiple scenarios, compensation will be provided based on only one of the applicable scenarios."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. Any injury or death caused by Memory Zone Memes is not covered by the insurance."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. Any accidents caused by the dream device are not covered by the insurance. For more information, please consult the hotel's receptionist desk."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "4. Participants must undergo a medical check-up at healthcare institutions specified by Alfalfa Bank to confirm that they do not have any pre-existing conditions within the listed scope."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "5. We emphasize that any fraudulent insurance claims will be strictly punished. In such cases, in addition to recovering the entire compensation and confiscating the premiums, the swindler will face the highest level of charges in Penacony, including but not limited to paying compensation due to breaching contracts, permanent eviction, imprisonment, and other penalties. The Bloodhound Family is responsible for safeguarding the bank's capital."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Please be assured that Alfalfa Bank will always be your most loyal partner."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(The following pages are torn off.)"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

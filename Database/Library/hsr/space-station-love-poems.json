@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "space-station-love-poems",
+  "name": "Space Station Love Poems",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Space_Station_Love_Poems",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Space Station Love Poems (I)",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Ley, oh, my Ley."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "How did I fall so deeply in love with you?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Your white skirt,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "is like a landed wild dove,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "tugging at my heart unknowingly."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Rocky Martinez"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "label": "Space Station Love Poems (II)",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "You were as light as a swallow when leaving the station,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "You danced a tap dance on the skin of the Abundance."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "You made my heart jump up and down as you danced."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And made the Stellaron obstruct the Star Rail one chunk at a time."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Rocky Martinez"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "label": "Space Station Love Poems (III)",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Other than the halo and starlight, there is another woman in the galaxy."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "She brings with her my inquiries, ones that would last my entire lifetime."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The answer lies at the fragile edges of the black hole."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Her eyes are like the sighs of the clouds,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Loneliness has turned blue into my name."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Rocky Martinez"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

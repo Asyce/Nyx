@@ -1,0 +1,83 @@
+name: Banner history refresh & deploy
+
+# Isolated from current banners and redemption codes: a wiki/API shape change
+# must fail only this history refresh and preserve the live last-known-good files.
+on:
+  schedule:
+    - cron: '45 */6 * * *'
+  workflow_dispatch: {}
+
+concurrency:
+  group: pengo-deploy
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  banner-history:
+    runs-on: ubuntu-latest
+    env:
+      CF_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Resolve LFS data
+        run: |
+          for i in 1 2 3; do
+            git lfs pull && break
+            echo "git lfs pull attempt $i failed; retrying" && sleep 5
+          done
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install scraper dependencies
+        working-directory: Scraper
+        run: npm ci --no-audit --no-fund
+
+      - name: Install site dependencies
+        working-directory: Site
+        run: npm ci --no-audit --no-fund
+
+      - name: Banner history unit tests
+        working-directory: Scraper
+        run: npm run banners:history:test
+
+      - name: Refresh all five histories atomically
+        working-directory: Scraper
+        run: npm run banners:history
+
+      - name: Validate last-known-good candidate
+        working-directory: Scraper
+        run: npm run validate:strict
+
+      - name: Build deploy artifact
+        working-directory: Site
+        run: npm run build:deploy
+
+      - name: Smoke published history and activities
+        working-directory: Site
+        run: npm run smoke:deploy
+
+      - name: Commit semantic history changes only after gates pass
+        run: |
+          git config user.name "pengo-bot"
+          git config user.email "bot@pengo.gg"
+          git add Database/BannerHistory Database/Activities Site/src/features/gacha/pulls-banners-gi.js
+          if git diff --cached --quiet; then
+            echo "No semantic banner-history changes."
+          else
+            git commit -m "chore(data): scheduled banner-history refresh [skip ci]"
+            git pull --rebase origin main
+            git push
+          fi
+
+      - name: Deploy to Cloudflare
+        if: ${{ env.CF_API_TOKEN != '' }}
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: npx --yes wrangler deploy

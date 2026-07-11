@@ -1,0 +1,651 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "views-of-the-universe-from-a-starskiff-the-xianzhou-zhuming",
+  "name": "Views of the Universe from a Starskiff: The Xianzhou Zhuming",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Views_of_the_Universe_from_a_Starskiff:_The_Xianzhou_Zhuming",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "(I)",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Great-grandma said: \"If I ne'er live see to the fires of Zhuming, then all my wandering of the cosmos would be for naught.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Hah, now that I think about it — she always has a whole load of cheesy habits of speech just like this (can I say that?). Going on about how \"If I ne'er live to ese the crystal palace of Thalassa\" or \"Ne'er live to see Pier Point\" or \"Ne'er live to see Planet Screwllum\"... Basically, everywhere she praised probably has sights worth seeing. And if it's on the Alliance's turf, then there's nothing stopping a pilot from going there."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "But before I was forced to visit, the Xianzhou Zhuming has always been a place I thought was better than not to avoid — why? It's because of the preconceived ideas I held, thinking that it was a blazing hot furnace that is on fire everywhere."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "It's drilled into us from day one at the Sky-Faring Commission that \"fire beats fur every time.\" A key part of being a Foxian pilot involves spraying ourselves with fire retardant gel before each sortie. So, I have pretty good reasons to be scared of the Zhuming?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "But that day of my mission to the Zhuming inexorably came along. The Yaoqing's Heroncrest Fleet was tied up in conflict against the Denizens of Abundance in proximity to Owenley and other closeby planets, stalling their main forces. The Military Affairs Office put me into a delegation with another dozen people and stuffed us into a Navis Astriger headed for the Zhuming to request arms and reinforcements."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Through the porthole, I bore witness for the first time this huge furnace — no, it had nothing to do with any kind of furnace at all. The Xianzhou Zhuming is like an intricately-carved golden lotus, gradually unfolding its lustrous leaves around the cone-shaped central hull, bathed blue under the light of an azure star. It is peaceful, tranquil, and peaceful."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Is this... also a Xianzhou ship? This is nothing like those Flying Skyboats we've learned in the Guild's records.\" This exchange scholar from the Intelligentsia Guild next to me looked at me half-astounded, half-curious as they vocalized just what I was thinking."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Yeah, seems like the craftmasters who built this ship were not only liberal in form, but also liberal in definition.\" I laughed. After all, it's been over seven thousand years since those huge migrant vessels set sail, and the residents have completely transformed them beyond all recognition. (There's a similar concept in philosophy. What is it called again? The Ship of Polka? No, The Ship of Screwseus?)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I don't blame her, though. People always form preconceived notions about places they've never been to. I'm no different, right?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In my imagination, the Zhuming was this big clumsy furnace, with sparks spattering everywhere and muscular craftsmen smashing their blacksmith hammers down — I'm sorry. I've obviously been to too many world with a low level of civilization, and have completely forgotten that Xianzhou artifex technology is on the bleeding edge, with the Zhuming being among the most advanced of all."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "This feeling is most evident when stepping into the starskiff port named \"Radiant Zenith.\" It's like dipping into a cool, fresh pool of water with light filtered into a comfortable, soothing honey-yellow. The vast starskiff platform seems to be entirely chiseled out of a single block of moonstone so big that it disappears over the horizon. Even more astonishing is the seamless integration of the structure's frame into the port — as if it's an array of metal organically sprouting from the minerals below."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Without a doubt, this proud and blatant display of craftsmanship was sculpted deliberately to debunk any of the biased ideas Outworlders might have formed before they arrived on the Zhuming."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "And the person that the Artisanship Commission leader sent to welcome our delegation is a little kid barely in his teens."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"M-Master Huaiyan sent me here to receive you...\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "This shy and juvenile voice and the lack of pointy ears shows no possibility of him being a \"child-looking elder,\" a Vidyadhara with delayed physical development. Now that I think about it, he must be a personal disciple of Master Huaiyan. A wunderkind plucked from who knows where."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Greetings, esteemed delegation guests. I'm a craftsman of the Zhuming Artisanship Commission... My name is Yingxing. Master Huaiyan is busy with the preparation of new armaments and has sent me in his place to receive you. In fact... I also have lots of work to do, and won't live very long unlike the celestials on the Xianzhou. So please, if you'd hurry along behind me, then we can complete the handover process faster.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "This craftsman welcoming us is actually a short-life species? I'm nearly fatigued from surprise already. How else does the Xianzhou Zhuming plan on surprising me?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "label": "(II)",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The kid called Yingxing turned out to be a short-life species and an Outworlder, here to learn his craft. I spent a lot of time buttering up this shy kid on the way before I learned of his background (he seemed a little insecure, but kids would always need a little encouragement before opening up to you)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Just as Elixir Seekers rush to the Luofu in a neverending stream, so too is the Zhuming up there with Pier Point and Screwllum for craft apprentices (or any other holy sites for manufacturing excellence that I may not be aware of). Countless Outworlders come to the Zhuming from all over the cosmos to study skills, and most return to their homelands afterward to disseminate those learnings. But not Yingxing. He has no homeland to which he may return."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "His homeland was destroyed by the borisin and transformed into one of their weapons nurseries. I knew what that meant. This kid's family will become literal pieces of meat with no dignity, becoming nutrient to those mountainous mechabeasts. And upon arriving at the Xianzhou, so fresh from escaping the clutches of death, this child pledged to strive toward one goal and one goal only: To learn how to make weapons for the Cloud Knights to root out those terrifying and malicious monsters. He is incredible at his work, earning his accolades and now entitled to be called a craftsman at such a young age."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"However... Other celestial masters tell me I've still got a long way to go.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"It's not that I'm lacking in enthusiasm or motivation...\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"It's just that I can't keep living on and on like they can... So my knowledge is always going to be limited.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Maybe I'll never even live to see the day my parents are avenged.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Seeing his dejected look made me feel dispirited."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Just ignore all those old guys. Pfft, they're no celestial! They're just jealous of you!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Short-lived geniuses who only live a few dozen years are actually a dime a dozen in the Genius Society! Their achievements are still glorious enough to shake the entire cosmos. What difference does it make to your achievements, whether you're a long-life or a short-life species?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Just focus on what you want to do, and let fate take its course.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The kid seems to have a brighter expression on his face. Suddenly, he shakes his head once more. \"But I shouldn't ignore everything said by those old guys! Master Huaiyan... He respects me a lot, and has taught me a lot, too!\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Such vengeance bestowed by cruel fate, such a piteous backstory, and such precocious endowment... I can't help but pat the kid on the head. But he seemed to see right through me in a second, covering up my hand with his own smaller one and patting it in relief. As if suddenly returning to his senses, he remembers the purpose of his visit."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Uh... Um... My master urged me to take you on a visit to the Flamewheel Forge.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Should we get down to business and talk about the reinforcements and weapons first?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"I... I'm just passing on Master Huaiyan's orders.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Smelt a thousand stars, quickened with steel of heroes. The forge's light boosts power and might, and armaments guard both hearth and meal.\" These verses hang in adornment in the main hall of the Flamewheel Forge."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The Records of the Early Nation shows that an unknown emperor of the Primeval Imperium days once gifted the master craftsman of the Zhuming, Yang Di, with a weapons-casting mold in honor of its maiden voyage. To this day it remains, passed down through the ages to be pride of place in the palace. Some sixty or seventy percent of all the Xianzhou's armory comes from the artisans of the Zhuming — and the Flamewheel Forge is the foundational base of the Zhuming's Artisanship Commission, in which we now stand."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "My peers on the trip are perplexed by this strange arrangement. Had Huaiyan brought us here to show off how precious his forged weapons were, and to use that as a bargaining chip with the Yaoqing? Did he send a kid because he's planning on rejecting us?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The thought of possibly engaging in debates makes me irritable. You can't just go complainin' on somebody else's turf — that's something my great-grandma always taught me to save my hide. I made up my mind there to not express any dissatisfaction until Huaiyan met with us personally!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "label": "(III)",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Little Yingxing took us by boat to the entrance of a dark circular hall. He produced a piece of paper, casually folding it into the shape of a bird and with a few words, it flew off swiftly, wings flapping. Moments later, the ground shook all around the hall as if some device has been activated, and sounds as loud as a landslide could be heard. The curved walls of the hall rapidly began to separate and shrink, and gradually all that remained beneath our feet was the base of the hall. A light shone in from seemingly nowhere, bathing the room in a glow."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The entire delegation almost hugged each other, so terrified we were all. Soon we came to realize that this hall we were in was floating in an invisible orbit, with a dazzling light as bright as a star below us. It was like clinging onto a meteorite as we hurtled slowly along the orbit's path like a celestial body around this \"sun.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "This ball of light rays kept on pulsing, shifting continually like a talking heart."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "It's talking. So it can talk!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Every ray of light from the \"sun\" is beating, as if undergoing intense turbulence. Or rather, like a raging suppression since ancient times, gnarling and gnashing as it tries to drill into to my consciousness. In an instant, a flood of scenes well up and rampage through my mind, like a book flipping pages in the wind:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "— A \"tree\" with no boundaries suspended upside down from the heavens, its branches piercing the starry sky."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "— A vacuum, inside which ships as bright as suns spew flew like fireflies chasing fire, flocking to fluctuating flesh. There are even winged humanoids, wings outstretched..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "— I hear the howl of a Cloud Knight from inside a starskiff moments before crashing down, \"Defend the Xianzhou!\" \"Victory to the Cloud Knights\"..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "— A colossal aurumaton, towering hundreds of meters high as it stalks and strides, stretching out cold metal arms to duel a giant gelatinous beast of meat, teeth, and countless eyeballs."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "— In the sky stand radiant warriors, holding spears and longbows radiating fiery death. Their every gene seem to have been sculpted and filtered to grant them a strength and beauty surpassing that of modern Xianzhou people."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "— Even more terrifying is that their bodies are covered in an unnatural flame, as if embodying their innermost courage and rage. They charge one-by-one, over and over into the formless void, never to return..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"...Take this oath, and keep it forever!\" The rays of light roared, leaving my ears ringing."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Everyone! Steel yourselves — and don't look directly at the Flint Emperor!\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "A voice like the ferocious clap of thunder resounded above the main hall. Someone stomped a heavy staff into the floor, and after the metal hum subsided, it was like an invisible barrier rose up to swiftly block out the light beams and projections filling the hall — sending it back to its original quiet state. All awoke from their state of confusion."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The master of the Flamewheel Forge, also the longest-lived human aboard the Xianzhou, a master among craftsmasters — Huaiyan, had finally arrived."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"I told my apprentice to bring you all here for a talk about weapons and support. I didn't think he would forget to disable this Pseudo Sun, and nearly got you all stupefied. The fault is entirely my own, and I apologize to each and every one of you.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Huaiyan strode with mountainous steps up the staircase, which appeared from thin air. Gradually, he arrived before us."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"I have received Helm Master Qingying's request. The Yaoqing is having trouble fighting off the enemy, and the Zhuming can't just stand by idly and watch from the sidelines.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "But — there has to be a \"but\" incoming — when faced with attack from a formidable foe or a need to recuperate, every Xianzhou retains their own right to decide whether or not to send reinforcements. What reason will he give to turn down this request of ours?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"The Zhuming wants not for arms. I will allocate you three hundred fighter jets, twenty thousand thunder crossbows, and twenty thousand devastator glaives based on Qingying's request. But we, the Zhuming, have our hands full with eradicating filth.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"So as for reinforcements, I can give you a number equal to the size of your delegation!\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

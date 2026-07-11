@@ -1,0 +1,320 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "recipe-crystal-lizard-satay",
+  "name": "Recipe: Crystal Lizard Satay",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Recipe:_Crystal_Lizard_Satay",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"This is a letter composed of a series of messages.\""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(I)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Hey man, I heard the soil where you guys would go to excavate this time is a little loose. Be careful out there, I think it's a little too dangerous."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Take my word and think it over. It's better to not go than to be swindled by the salary promised by the supervisor. No amount of money would be worth it if you're end up buried under the rubble."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "But you're not listen, I know you too well. Being that it's a new site, I bet the emergency shelter's not even ready yet, let alone the air filtration and oxygen systems. Be a little more prepared and bring extra rations with you."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "We grew up together, so you will listen to me on this, right?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(II)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I can't even begin to express my thanks, my friend!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "It's because of your reminder that I brought a few extra biscuits with me. No one expected the mine to actually collapse, and when it did, the people responsible for building the support structures all ran off. In return for keeping this incident a secret, the supervisor offered me a sizable compensation."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Let me tell you what happened."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "We miners have an eye for this kind of thing. Our temporary bunker was reinforced with more layers. We weren't too far from the bunker when the tunnel collapsed. Except for one man whose leg was crushed, most of us were lucky."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The best preparation for a mining accident is not to have one at all. Preparing extra biscuits won't do anything. We hadn't been rescued yet, and our rations were already gone."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "But, we needed to think of a way to survive. One of our team members caught seven or eight Crystal Lizards somewhere. We had no choice but to eat them. I've never eaten them before, but they say it's like chewing a pair of boots that the supervisor had been wearing for 18 years."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "But we had to survive."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "We managed to come up with a recipe, which turned out to be pretty good. Here's the recipe for ."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "A small bag of broken bits from the compressed five-spice cake,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Leftover seasoning from a wild ferns salad,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Bread crumbs, also dug out from the bottom of the bag,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Rock salt 3g,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Hammer peppers 0.5g,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Meat from 7 Crystalline Lizards. Be sure to clean all the crystals from the meat, otherwise they'll hurt your teeth badly."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Mix the spices, seasoning, and bread crumbs then marinate the lizard meat in the mixture. Try to avoid the lizard fluids, or else it'll end up tasting like medicine. That bad taste comes from the secretion."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Then just wait until the next day and the marinated meat will become softer, or it'll really be like chewing shoes' rubber."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Next, cut a few wooden sticks from the extra wooden frames in advance. Soak the sticks in the underground water and skewer the meat. A buddy found some candied mushrooms, so we added those in between the meat for extra flavor."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Finally, sprinkle some salt and chili powder gently onto the meat several times as it's grilling."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "No matter how bad the meat tastes, you can swallow it as long as you have salt and chili powder."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The funniest thing is we were about to eat when the rescue team dug out the rescue tunnel. \"We were trying to rescue you as soon as possible, and you're here eating satay!\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Try it when you have the chance. Surprisingly, it was barely edible."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(III)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I'm glad to hear you survived, my friend."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I admire you for being so optimistic when you were trapped down there for so long."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I tried that Crystal Lizard recipe you gave me. That taste... are you trying to kill me?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "When you have the time, go find Natasha. There's something wrong with your taste buds."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "We grew up together, so you will listen to me on this, right?"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

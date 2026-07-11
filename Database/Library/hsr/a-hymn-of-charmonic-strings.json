@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "a-hymn-of-charmonic-strings",
+  "name": "A Hymn of Charmonic Strings",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/A_Hymn_of_Charmonic_Strings",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "O, Great One of Paradise,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Prayers you suckle from the millions gathered here, and the masses' heartstrings you play,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Stars trace your fingers' and command all living's law and authority."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Dominicus, do you hear?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The road ahead is dark without anything."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Thus authority points to the right, and the chaos coalesces into a river of stars,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Thus law points to the left, and that which hinders vanish into mist,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sweet dreams nowadays have manifested, and the gazillions of old laws have all faded away."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "O, Great One of Paradise,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I sing praises in the fountain of your performance, calling for the love of the fathomless sky,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Within the theater, there lies a mercy that appeases and offers salvation to the world."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Constantina, do you hear?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The audience's tears are washing this face."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Should you sing, then the sun will shine for you,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Should you play music, then filth will speed to slumber,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Thousand Faces' plays shall never cease, and the eternal theaters forever linked."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "O, Great One of Paradise,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Caress this scripture that is stained by blood on the battlefield, and kiss my longsword of bone and soul,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Life is howling, and the sharp blade of streaming colors hangs high."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Aelenev, do you hear?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The soldiers' bones are buried at the end of the world."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Comrades' whisper united, and the gospel can be heard for miles long,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Blissful rain pours out thus, and one person equals to thousands."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Thought they be the invincible steeds and death, they too long for their home deep in their soul."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "O, Great One of Paradise,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I invite you to cast your gaze upon the other side of brilliance, and to attend the feast of this paradise."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The world is a ball, laughter resounds till the end."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Beatriz, do you hear?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Singing, dancing, joys transcend."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sorrows have nowhere to hide, and desire tiptoes,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Feast! Feast! Boundless happiness! Boundless happiness!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Even babes show a smiling face. Dance! Dance! Towards that honey-sweet paradise."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

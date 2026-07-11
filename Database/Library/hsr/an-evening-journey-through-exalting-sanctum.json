@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "an-evening-journey-through-exalting-sanctum",
+  "name": "An Evening Journey Through Exalting Sanctum",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/An_Evening_Journey_Through_Exalting_Sanctum",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Small Talk in Exalting Sanctum: Lifestyle Section"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "November 13"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Author: Huai Min"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "An Evening Journey Through Exalting Sanctum"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "On the twelfth of October at the Sleepless Earl, I met my old friend from the Artisanship Commission, whom I had not seen in two or three centuries."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "It was odd. I recall that I had a minor disagreement with him and we both vowed to never speak again, yet I instantly let go of all our past grievances when I heard him call out for me in the Sleepless Earl... Little did I imagine that we would sit at the same table and drink tea together again after a few centuries."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "It seems the Sleepless Earl is just the kind of place where you always have surprise encounters."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "We drank pot after pot of Whale-Tide Spring and called for more hot water. As the tea thinned in its aroma, the daylight started to dim. My friend was assigned to manage ships and equipment in the Cloud Knights and must return to his post according to regulations, and we parted ways unwillingly after exchanging contact details."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "As I walked below the lanterns on the way home, I recalled the many memories I shared with my friend. I remembered that I passed the flying test when we were learning how to fly ships at the Sky-Soaring Seas, but my friend didn't. I remembered we did part-time jobs at All Under One Roof for a long time just to get enough money to buy the latest Halcyon jade abacus... We were once the closest of friends, yet we didn't talk for centuries because of some disagreement I can't even remember."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "If my friend and I were not living in the Xianzhou, we might have passed away before we even hit a hundred years old and would have never met again. That would be far too unfortunate."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Maybe I drank too much tea and was too excited — I couldn't sleep even though I laid in bed for a long time, and I decided to take an evening walk. The moon in the delve today was clearer than that of days before and would be a pity to miss. It would be best enjoyed with someone else. Luckily, my student was also awake, and I brought him to take an evening walk with me."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Past the Court of Tranquility and deep in the grass was the ruin of a garden complex built in the old style. It was hidden deep in the grass and yet to be cleaned out. The masonry reflected a gentle white light under the caresses of the moon. A pseudo-ancient stone lion was lying sideways on the grass, napping sweetly in the open as if it was slowly sinking into a pond of moonlight... My student and I held our breath, terrified of possibly waking it."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The other ruins here included stone pillars with lotus capitals and water basins etched with cloud patterns. Unfortunately, there was no complete garden left anymore. Young artists want to revive the old style as \"fashion\" and build old things every once in a while. I believe they, just like me, are terrified of the endless expanse of time. They always want to remember the past more intensely to prevent the bygone days from being diluted, but all this effort will prove to be futile before time."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The mossy masonry deep in the grass seemed to be breathing. A distant voice was saying: \"Don't try to understand it. For tonight, you need only to feel.\" I, therefore, stopped thinking too much. During that time, my student had already fallen asleep on his feet."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Pedestrians passed the Verdurous Garden every day in the company of moonlight and broken rocks, only this time we have folks of leisure such as my student and I."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

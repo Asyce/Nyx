@@ -1,0 +1,548 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "march-s-trailblazing-diary",
+  "name": "March's Trailblazing Diary",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/March%27s_Trailblazing_Diary",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I've had this notebook from Bronya for quite some time now."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I really did plan to document our past Trailblazing expeditions!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I promised to help (Trailblazer) catch up on everything, after all..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But... but! Whenever I get serious about writing,"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "something way more fun"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "always happens!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Is (Trailblazer) some kind of comedy genius?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Today they's been roped into a big cleanup for the Express, so I finally have my chance!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Wait... Why does this make me sound like I'm up to no good?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But hey, everything happened ages ago, your memory's a bit fuzzy, so you'll have to forgive any gaps."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "...Hang on, who am I even being polite to?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": []
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Capital of Passion is a small commercial world with heavy interstellar trading activity."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Dan Heng told me that the entire planet belongs to the Corporation now? Seriously, what won't the IPC buy?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The day Mr. Yang and I arrived at the Capital of Passion, we were immediately detained by the \"Commune State Enforcers.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "They had this whole conspiracy theory about us working with the \"Messengers\" to smuggle some \"Neural Syntax Virus.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Hmm, technically... it's not... untrue."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But let's get things straight, we were working under contract from the geniuses to recover the virus."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And accusing us of \"smuggling\" is too much! This is obviously the magnates trying to keep the virus for themselves."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "By the way, the Messengers is quite a famed organization at the Capital of Passion."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Capital of Passion's network stream and transit system are under complete control by the magnates."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "So these Messengers transport classified data packages physically."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Old school, right? It's like using carrier pigeons in a digital world."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Except in this dystopia, any unauthorized \"pigeon\" gets blasted out of the sky by Enforcer auto-turrets."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Long story short... I can't remember how it started or finished, but we ended up at this massive concert broadcast throughout the cosmos..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The \"Neural Syntax Virus\" transmitted through language, meaning everyone at the \"concert\" would get \"infected.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Thanks to a local Messenger named Broadster, we managed to neutralize the \"virus\" and prevent its spread."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I'm definitely downplaying how exciting it all was!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But the important part is that we stopped a disaster, the show continued as planned, and everything worked out perfectly in the end."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Well, we the Nameless saved the universe one more time."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": []
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A planet entirely made of clay."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "That's right. Every single creature there is clay-based."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I thought we'd find a gooey, sticky mess..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But surprise! The place is completely parched. Water is extremely scarce there."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Interestingly, rain is considered a natural disaster there. The peace-loving Kalsasians pray for drought while other planets beg for rain."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The IPC made a high-profile announcement about bringing Kalsas into the interstellar market, pushing tourism initiatives..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But the whole Cosmos knows the truth. The IPC came to make the clay people spit out their rare earths."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sigh, IPC."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sigh, capitalism."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Those two sighs? Learned them online not long ago. Felt oddly fitting."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "By all accounts, the clay people's tech level should be pretty low, right?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Turns out, that's not the case. The IPC has been rolling out free \"cyber-enhancement\" programs on the ground."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "They embed silicon substrates into clay bodies, boosting their cognitive circuits by several orders of magnitude..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But as a trade-off, they can no longer shift forms at will, and they've lost their durability."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "...Feels like the clay people aren't really clay people anymore."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "These days, even if tourism is just a gimmick, we've still been having a good time."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "If I get the chance, I want to take (Trailblazer) to the place where we once went bungee jumping!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": []
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Nowadays, every time someone mentions Taikiyan, everyone on the Express goes,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Isn't that the place where March smashed up the Taikiyan Stadium?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Just forget about that!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "There's really no point clinging to something like that!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Sure, I was the one steering the landing pod,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But! Even someone as level-headed as Dan Heng couldn't stop me!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "That proves it wasn't so simple!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "At the very least, when people remember this incident, they should be saying,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Isn't that where March and Dan Heng wrecked the Taikiyan Stadium?\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Dan Heng and I ended up in jail for a few days, until Mr. Yang came to get us out..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Every three worlds we visit, we somehow end up behind bars.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "...Could this really be some kind of mysterious pattern?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Does Belobog count this time...? I mean, we were wanted, but we didn't actually go to jail!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And with that, we broke the mysterious curse!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Even though I don't really get Roboball matches, I'll go watch if I've got tickets!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "When our team's ahead, I yell and cheer with the crowd."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "When we're losing, I feel just as tense as everyone else."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It's like I'm actually playing in the match myself, just as excited, just as worn out!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Hmm... What was the name of that team I supported again?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Before I take (Trailblazer) to Taikiyan next time, I've gotta become a real fan first!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*...The entry cuts off here. Maybe the \"big cleanup\" was finished, and something even more fun came up.*"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "excerpt-from-oti-alfalfa-the-biography",
+  "name": "Excerpt from Oti Alfalfa: The Biography",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Excerpt_from_Oti_Alfalfa:_The_Biography",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "All dreamchasers are familiar with this name: Oti Alfalfa."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "If Penacony is the cosmos' land of the dreams, then Oti Alfalfa stands out as the most dedicated cultivator on this land. He penetrated solid obstacles, planted the seeds of prosperity, and established a robust financial infrastructure facilitating the circulation of goods and wealth. His achievements have been extensively documented, appearing in every edition of Fortune Academy's textbooks. Students take pride in dining with him, and his words are meticulously recorded and compiled in each edition of"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Conversations"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "for external analysis."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "This world never lacks brilliant or innovative minds, yet only a few selected business luminaries can blaze trails and set business trends with their insight and foresight. Among them, Oti Alfalfa is the most outstanding one."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Despite his tiny stature as a Pepeshi, Oti Alfalfa intimidates all at the negotiating table through his sheer presence."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Even with the ever-changing leadership within the Five Families, he remains at the helm of the Alfalfa Family."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "While his public appearances have become rare, his insights and wisdom continue to intrigue those eager for wealth."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Oti Alfalfa is a mystery that enthralls those keen on investment. Thankfully, he is well known for his generosity, as evidenced by his declaration on the honors day of Fortune Academy: \"Equality reigns supreme in the face of opportunity.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Here are the keys to success as articulated by Oti Alfalfa himself:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "1. Trust your instincts. No models can precisely predict when the tides will turn, and all you can rely on is your experience and intellect. Don't get swayed by any \"insider information.\" Always trust your judgment and have faith in yourself."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2. Accumulating wealth requires solid knowledge in mathematics and economics, but achieving success does not. Calculations may elevate you to the upper echelons, but to surpass all, you need insights. Knowledge in psychology and sociology might help you achieve your target."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "3. Always stay attuned to market trends, and never isolate yourself from the bigger world, because figures and reports aren't everything. Spend less time in your office. Go out and look at what's happening on the streets. Go talk to the people living there."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "4. Stay committed to your path. Once you have made a decision, perseverance is the key."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "<!--"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

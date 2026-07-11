@@ -1,0 +1,291 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "imagenist-management-regulations",
+  "name": "Imagenist Management Regulations",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Imagenist_Management_Regulations",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Decree Promulgated on November 12, Arcadian Calendar 1953"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Second Revision on January 31, Arcadian Calendar 1986"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Article I"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "These administrative regulations are hereby established in accordance with the legislative spirit of the"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Faekind Protection Act"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", to strengthen the management of imagenetic activities and fully protect the rights of imagenae."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Article II"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Those who engage in imagenetic activities shall be known as Imagenists. Under the IPC, Imagenists must conduct their imagenetic activities in accordance with these management regulations."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Article III"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The term \"imagenetic activities\" in these regulations includes the creation, replication, splitting, and merging of imagenae by manual or mechanical means, as well as the creation of new natural persons recognized by the Interastral Peace Corporation. Under the IPC, any imagenae produced through imagenetic activities automatically acquires the status of a natural person recognized by the IPC."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Article IV"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Imagenists must prioritize the well-being of imagenae and conduct imagenetic activities in compliance with the"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Faekind Protection Act"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ". Imagenists must register with the Department of Aberration Defense before engaging in any profit-oriented commercial activities."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Article V"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Citizens of Planarcadia have the freedom to engage in imagenetic activities. Individuals who are not registered Imagenists may freely conduct imagenetic activities, provided they do not violate the"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Faekind Protection Act"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "or the provisions of Article IV of these regulations."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Article VI"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Department of Aberration Defense is responsible for supervising and managing all activities of Imagenists. For collective imagenesis, specific self-regulatory management rules shall be established under the guidance of the Department of Aberration Defense. Upon registration, those who conduct activities in accordance with these regulations and self-regulatory rules shall be regarded as collective Imagenists."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Article VII"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "If a registered Imagenist violates these regulations, the Department of Aberration Defense must revoke their registration, and they may not reapply for three years. Unregistered Imagenists who violate these regulations shall be handled according to the \"Malicious Imagenesis\" provisions in the"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Faekind Protection Act"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ". Other illegal acts during imagenesis shall be handled according to relevant laws and regulations."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Article VIII"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Registered Imagenists may apply for patents for their unique imagenetic activities. For any imagenae patented by registered Imagenists, unless the registered Imagenist waives their rights, non-registered Imagenists shall not engage in patent-infringing imagenetic activities. This does not apply to imagenetic activities beyond the Imagenist's control, or those performed in emergency situations or due to force majeure."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

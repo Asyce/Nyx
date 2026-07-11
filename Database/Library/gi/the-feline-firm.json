@@ -1,0 +1,1587 @@
+{
+  "schemaVersion": 1,
+  "game": "gi",
+  "id": "the-feline-firm",
+  "name": "The Feline Firm",
+  "sourceUrl": "https://genshin-impact.fandom.com/wiki/The_Feline_Firm",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Vol. 1",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "On an afternoon much like many others, Perroux let out an extended yawn and was rubbing his eyes when he suddenly caught sight of a golden invitation lying silently in the flowerbed."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sunlight illuminated the card's cover, and the words emblazoned upon it — \"To Monsieur Perroux\" — shone brighter than scattered Mora."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "His eyes widened."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "He was but the humblest of bellboys, greeting every visitor who came calling at the Master's door with a respectful \"Monsieur\" or \"Madame.\" This was the first time anyone had ever addressed him so politely as \"Monsieur Perroux\"!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Who left it here? And without him ever noticing, too!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "He blinked a few times, then blinked again, confirming over and over that it was not some iridescent trick of the light. Then, he opened the invitation..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"We are deeply grateful for the deliciousness you provided for us. Please do us the homor of paging us a visit. —Yours, The Feline Firm\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The crooked lettering seemed as though it had been written with the coarsest of quill pens, and was utterly unsuited to the golden cover of the card."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Feline Firm? Was there really some kind of firm named \"Feline\"? It couldn't really be an agency started by cats, right?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Perroux did often feed the stray cats on the street with leftovers."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Just call out \"Kitty kitty, kitty kitty,\" and the cats would come running right over. However, without any food on offer, the cats would be quite cautious, even around Perroux."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "With that in mind, Perroux flipped the invitation over to look at the back."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Perhaps you are unfamiliar with our agency's location..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "At the twelfth turning of the north wind, follow the fish scales forward, and you will see a row of carriages."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "After the tenth chiming of the bells, there will be but one carriage left over. Jump into the shadows beneath it... We will be vaiting there...\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Giving the time and location like that... Was this... some kind of nonsensical magic?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Maybe someone was pranking him?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Still, all the typos littered throughout the letter and the special attention to fish scales really did make it seem like a cat — That is, if cats could write and really had their own offices."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "North wind... fish scales... carriages... Oh, right! During the day, fishmongers set up their stalls twelve blocks south from where he was, and did the rubbish collection carriages not come every night at ten o'clock and stop there?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "They would take the massive heaps of trash generated in the city over the entire day outside, and then, at twelve, they'd come back, \"\"clickity-clack.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Yes, this must be the language magic of cats! Only someone like Perroux who understood cats as well as he understood the city and understood the city as well as he understood its cats could decipher it."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Perroux's heart began to pound, for this was a secret known only to him."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"When it's time to change shifts, better hurry! Me, I've got an appointment to keep with the cats.\""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "label": "Vol. 2",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"You're here! Please, have a seat.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The cats were quite happy."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Yeah! It sure wasn't easy finding your offices.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "That night, Perroux had followed the directions given in the invitation, looking, searching."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As it turned out, there was a single carriage among the trash carriages with a broken wheel that was always parked in place. Beneath it, he had found a dark hole that had merged with the shadows, with faint light and indistinct sounds coming from within, as well as a spiral staircase descending downward."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And this was the well-hidden Feline Firm."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"This is the nature of strays, please try to understand.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Golden eyes narrowed, the cat with stripes like those of a tiger seemed to speak humbly, yet its tail was arched most proudly."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Perroux recognized it immediately. This fellow would often laze about upon the Master's windowsill, languidly swishing his tail. As for the others, Perroux was not quite so familiar."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The tiger-striped tabby cat introduced each of them:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Boss Cat, none other than the tabby himself."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Enforcer, the cat to the left with a full-sleeve tattoo."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The calico to the right was quite clever. The letter to Perroux had been written by a brush fashioned from hairs pulled from every cat, and written by this very calico."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"And then there's this firewood cat too. Bit ugly and mangy, missing some fur, but don't even think about underestimating her!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "These were the very cats that comprised the Feline Firm, which solved the problems that perplexed the cats of the city."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"In that case, just what difficulties has the Feline Firm resolved?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Perroux asked curiously."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The tabby's tail twitched to the left, and the cat with the full-sleeve came forward."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"I'm the muscle here, see? The full-sleeve they call me, yeah? Our Boss snorezilla over there, he gives me commissions, and I'm the one that what solves them, see?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"That cat boss, he opened up a right big fancy hotel, yeah? Every bit as tip-top as what the humans got~ When it first opened, was tons of customers t'be had.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The cats even had their own grand hotel! Perroux nearly reached for his notebook to write it all down."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Even Perroux had only passed by the door, peering inside with envy. That feeling was like... picking up a candy wrapper as a child, and being unable to stop himself from licking it."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"But wouldn't-cha know, Boss's snoring was so roaring loud, the customers couldn't even catch a single wink! Business took a dive, see?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Then one day, a horde of rats showed up and started bitin' them customer's things and whatnot, yeah? Then Boss showed them what for, was the hero, eh?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"After that, whenever customers heard his snores, theys would be at peace, and say 'good kitty, good kitty~'\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"But yous see, that hotel didn't have any rats in the first place, yeah? It was all me, catchin' 'em at night and bringing 'em back, then catchin' 'em again, you follow?\""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "label": "Vol. 3",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The full-sleeve cat finished its story, and the tabby's tail twitched to the right."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The calico stepped forward elegantly, before delivering a graceful bow."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"As they say, even amongst felines, there are lazybones too, meow~"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"The lounging layabout outside the city gates sent us a commission for a one-and-done permanent mouse-catching method, meow~"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"In accordance with my instructions, our paws-on-pillow friend changed the sign above his abode from 'Cat's Cabin' to 'Mousy Rest Stop,' meow~"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"From then on, whenever rodents enter the city, mrow, they'll hear a gentle, friendly voice saying, 'Mice, rats, give your weary little paws a rest and apply some ointment, for your journey must have been tiring!' or 'Mice, rats, take those sharp little things off, and enjoy a good scrub down!' meow~"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"And just like that, the mice scrub themselves with salt, smear themselves with oil, and line up to enter the hot water labeled 'Warm Bath' meow~"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"And then, right into the mouth of our lazy friend, mrow!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "With a \"Pfft,\" Perroux failed to fully suppress his laugh. \"Ah! What a clever calico!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The calico bowed gracefully once more, and returned to her place with the elegance of a noblewoman."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"I—It's time for this loyal servant to speak now, isn't it...\" The firewood cat spoke flatteringly."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"The fur of your humble servant was burned away when I was seeking warmth in a pile of firewood..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"It was really so strange. Your humble servant had just fallen asleep, and it was warm, so warm... one dreamt of being a kitten once more, and sleeping in mother's fur... As I slept, my fur caught fire..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Th—Thanks to the Boss's support, your humble servant often roams through the city sewers, delivering messages, passing info, running errands, that sort of thing, for I'm not afraid of getting dirty..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"O—Other than that, I'm really isn't good for anything else...\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The tabby cat cleared his throat, and the firewood cat flinched, smiling and quietly retreating."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Very well. You should now be well aware of the work we regularly do here at the Feline Firm."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"We have invited you here because we've encountered an unsolvable problem, and would like to request your help, Monsieur Perroux!\""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "label": "Vol. 4",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"My help?\" Perroux's eyes widened once more."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The tabby solemnly nodded. \"And it must be you, and none other."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"In the house of the master you serve, there is a long-haired cat, is there not?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Oh, that snow-white, noble-looking longhair!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It was well known to Perroux that the Master adored that cat, and it was as precious to him as life itself. Her sea-green eyes, like those of a princess of yore, were oft looking askance at people as she carefully groomed herself from whisker to tail with her peach-pink tongue, like a heron preening its feathers by the water."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Whether taking his meals, his rest, or out on appointments, the Master always kept that cat by his side."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"As for me, I'm going to get married to the long-haired cat, it's already been settled!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Oh, married, that's... What? Ma—Ma—Married!?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "In a whisker's twitch, Perroux became even more flustered than the firewood cat. \"Th—Then how will you live together? Cats like her aren't the type to live like strays, you know!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"You needn't worry about that. After we are wed, we shall move to a shrine in a faraway land. I have heard that it is a cat shrine, and the people there worship cats like gods, and thus we shall worry for neither food nor drink...\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"But th—th—that simply won't do! The Master will never let his longhair leave...\" Perroux continued to stammer out his response."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"So, Monsieur Perroux, that is precisely why we need you.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The tabby jumped onto the cabinet, his golden eyes fixed on Perroux."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"But I'm no respected gentleman, only a... lowly bellboy.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Perroux kept waving his hands about together."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"If I were to steal his cat... If the Master knew, not only would I lose my job, I would certainly be taken to court...\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"No, no, you misunderstand, Monsieur Perroux!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The tabby showed a mysterious grin, the whiskers around its mouth trembling in the semblance of a smile."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"We were never even considering asking you to steal, good sir. Cats are magical creatures, and we... have other ways...\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Having spoken, the tabby whistled."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And the full-sleeve and calico cats pulled out a pair of boots and a mask respectively, as if by magic."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"These are magical cat boots and a mysterious cat mask."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Come now! Try them on!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Perroux had no choice but to take the treasures."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But wait, though the boots seemed small, the moment he pulled them on, they became comfortable and fit snugly."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And as he walked, he felt so light, as if he were tip-toeing..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Putting on the mask, he tried to open his mouth to speak, but now some long, difficult-to-distinguishable trills accompanied the sound, and it sounded nothing like his own voice."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"This is cat magic,\" the tabby cheerfully said, \"As long as you wear these two items, none will recognize you."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"All you need do is go home as always, and have yourself a good night's sleep."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"After three days, bring the longhair cat and your Master both to the Feline Firm in accordance with our instructions! Remember, three days hence!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"You mustn't forget!\""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "label": "Vol. 5",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "A new invitation was sent, this one to the Master."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Master Baron, long have we heard of your esteemed cat. I also have a valuable and exotic cat, and hope that we may bond over our mutually shared appreciation for the feline race. It would be my great honor if you would do me the pleasure of calling upon my home such that we might discuss such things in person."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"A carriage will take you and your cat there at the appointed time. — Lady von Frigga\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Thanks to Perroux's guidance, the calico carefully corrected the typos."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And then the cats got to work."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Many cats who had once been recipients of the Firm's assistance came to help, bringing white satin, nearly-expired cans of snapper fish, wines... all to turn the agency into a wedding venue."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Any passing by at night would be struck pale with fright to see so many stray cats passing by in the shadows of the city."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The broken carriage was quietly repaired, and decorated like a gorgeous carriage straight out of a fairytale."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "With soft swan-feather pillows and the sort of wind chimes cats adore hanging from it ringing all the way, it arrived at the Master's stoop."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Please, if you would, Sir.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Perroux respectfully addressed his Master with bowed head, acting as \"Lady von Frigga's coachman.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Though he was wearing the mysterious cat mask, Perroux could not help but feel nervous, as though he'd done something wrong, as though he had done something to give the whole game away."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Fortunately, the Master had a mind only for the luxurious carriage, even tipping the \"coachman\" a bag of Mora. \"A small token, here!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "All along the way, cats crossed before the coach."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Step aside, make way!\" whispered Perroux from beneath the mask, for he feared being late."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Sorry, but we're in a hurry too, we have a wedding to attend!\" replied the cats."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "When there were finally no more cats crossing, they had already arrived at the Feline Firm."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Oh! Such rare and expensive silk... And the whole hall is covered in it...\" gushed the Master, bursting with admiration."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"The Ham and Vegetable Bake... tastes quite good, the chef must be the real deal too..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And so many cats! I'm astonished. Lady von Frigga is so considerate. The must truly dote on her own exotic cat, just like I love my longhair!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Master could simply not stop effusing praise."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Such a wonderful event, come, have a drink! And another!\" The calico raised a cup of wine, urging the Master to drink more."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Then I'll have another!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Master was in a great mood, and tipsy enough that he forgot to ask himself \"Can cats even speak?\""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "6",
+      "label": "Vol. 6",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The longhair cat entered, in step with the harp music."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Oho, you little rascal, the moment we stepped off the carriage you upped and vanished! Turns out you were off tidying up!\" The Master was glowing with pride even as he rebuked his cat."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The white satin trailing from the longhair was overflowing with flowers, pure white Cecilias like snow falling on a spring day."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "*Clap, clap* — The cats began to applaud in unison."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"So beautiful...\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Perroux put down his knife and fork without even realizing it."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "*Swoosh* *Woosh* The cats lifted the curtains."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The tabby cat had put on a bowtie and top hat, and his whiskers and the fur upon his ears was neatly trimmed. He walked towards her with the solemn steps of a night, welcoming his bride."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The full-sleeve cat behind him swiftly shook out the bag he had shouldered, and within were gifts for the cat couple."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Colorful balls of thread, toy mice that squeaked when played with, and a finch-shaped balloon, as well as the long-prepared boat tickets to a cat shrine in a faraway nation..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"WAIT!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A cold, harsh voice came from above, interrupting the cats' cheerful revelry."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Master had sobered up slightly, and stood up, swaying. He pointed his finger at the tabby."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"This lout... Isn't he the stray always lying about on my windowsill? I know you, always leering inside, and always up to no good..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Didn't the invitation mention a precious, exotic cat? And where's Lady von Frigga?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"These cat toys... Hey, aren't these from my house? When did you lot steal them? And all this silk and wine... All stolen too, I presume?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Daddy, please, don't get angry...\" The longhair cat quickly began to pout."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"yes, Daddy, I'll take good care of...\" The tabby said dismissively."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Hearing \"Daddy\" twice like that infuriated the Master."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"You shut your dirty mouth!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"How could some random stray from Archon knows where with an impure bloodline possibly be worthy of marrying my longhair!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"And you. You, the scoundrel calling himself the coachman of Lady von Frigga..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"You're in cahoots with this gaggle of strays, helping them with their little scam, aren't you? Let me see just who's hiding under that mask...\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Master stalked towards Perroux, and was about to wrench the mask off his face."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "All the blood in Perroux's body seemed to drain, as though it had been siphoned by some powerful magnet."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Run, run!\" A host of voices echoed in his ear, and his heart beat like drum, yet his legs were stiff and wouldn't move even a single step."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"It's over, I'm done for!\" Perroux covered his eyes in despair, but just as he did so he glimpsed something that seemed to be on his cheeks, something that seemed to be shaking, like trembling hairs."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Ah! Snow-white whiskers had grown on his cheeks, but it was no old man's whiskers, but those of a cat."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "He twitched his ears, and found they were pointy and quick. He subconsciously arched his back, and let out a \"Meeoow~\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Just before he would have been caught by the Master, he agilely fled under the table."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "7",
+      "label": "Vol. 7",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Run, run.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Perroux was like a gust of wind in a black cloak."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Run, run.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Following the spiral staircase upward, he ran towards the Feline Firm's exit."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Just where did those magical cat boots go? Perroux knew not; all he did know was that he ran as swiftly as agilely as a cat, and he also saw the world from below like a cat."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Where did the mysterious cat mask go? The answer gradually became clear to Perroux."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The boots and mask had become a part of him, or rather, he had become a cat! As he had been wearing the coachman's white gloves, he was now a piebald cat!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Run, run...\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Who was saying that?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Perroux tilted his head, and the tabby with his bowtie and the longhair with white satin trailing her were beside him, running one behind the other."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Run, run... Monsieur Perroux, please, drive us to the port on that carriage!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Behind them, cats were jumping up and down, tearing off the decorative ribbons. The wine and salad upon the banquet table had been knocked over, and the entire mess had stopped the Master in his tracks."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"My longhair, come back~\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "None heeded the Master's cries."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "With things being as they were, all he could do was take the tabby and the longhair to the port safely. Perroux simply couldn't deal with anything else, and besides, cats have small paws, so they can only handle one thing at a time."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "*Pitter-patter, plip plop* It began to rain outside, and lightning flashed."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "In the pitch-black night, there was but a brief moment of illumination before the rumble of thunder rolled in, and only that one small door was still open, without a single guard."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "They were probably hiding from the rain."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Countless whirlpools swirled upon the surface of the lake upon which the ship was docked. If you didn't look too carefully, you might think it but a shadow of the bridge. But for Perroux, who now had the exceptional vision of a cat, it was immediately apparent."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Holding the wedding gifts from the full-sleeve cat, the tabby grabbed the longhair and jumped from the carriage, swishing through the air and onto the boat in an instant."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"It is all thanks to you! Monsieur Perroux...\" The tabby gave a rare show of respect, genuinely bowing."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Now away, ere the Master catches up!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Go, go, go to that cat shrine."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Go, go, live a life of joy."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Moved by having accomplished something so great in secret, tears began to flow from Perroux's eyes."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Though he still didn't know just how he was going to live as a cat."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "8",
+      "label": "Vol. 8",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Awakened by the blinding sunlight, Perroux opened his eyes and subconsciously began to rub them..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "His hands and feet were back! They were no longer furry cat's paws."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "What happened last night? He tried his best to remember."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "...The piebald Perroux had turned the carriage around, and come back with a clickety-clack."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The clock then had not yet chimed twelve times."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Before the other carriages had returned, he had leaped off like any other cat might, and gone back inside the house without anyone noticing..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "So now...? Blast! If the sun was that high in the sky, he should've started his shift already!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "He bounced up from the bed, and put his uniform back on, becoming the bellboy Perroux once more."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Yet the great door to the Master's manse was shut tight, and the hanging sign read \"No visitors.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"The cat's gone, and the Master is so distraught he's taken ill and collapsed...\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Such a beautiful cat! Even I liked it when I saw it. No wonder thieves set their sights on it.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Poor thing. Could anyone ever treat it as well as our Master?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "So whispered the Master's servants in secret."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Looks like the Master didn't need a bellboy on duty today! Perroux had gotten a rare day off, but he was still deeply worried."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "So where did he go? The Feline Firm."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "That night, and for many nights more, Perroux returned to where the trash-carting carriages stopped, and checked the shadows under every lamp, but never saw any dark entrance to a cellar."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The boots and mask, too, were gone."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It was just as though no magic had ever occurred and Perroux had never met any talking cats."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Perhaps as the tabby cat boss had left, the Feline Firm had been made to disband..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The illness plagued the Master for three months, until one summer morning, he suddenly recovered."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The sound of the Master's humming emanated from his bedroom. It was a lively, happy song, the kind of song youths loved to sing when inviting a partner to dance."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Perroux, come here.\" The Master waved to him."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "*Ba-bum. Ba-bum.* Perroux's heart began to pound nervously once more. It couldn't be that...?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"This suit of mine is already quite worn. Dispose of it, and purchase a new one for me! As for the style... something fashionable will do.\" The Master spoke kindly."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Oh...\" Perroux relaxed, and walked out holding the old suit."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Though, isn't the Master the really old-fashioned, conservative type?\" Perroux and the other servants were all thinking the same thing."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A piece of paper fell from the pocket of the suit."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "After the tabby had left, the other cats had written a letter to the Master, masquerading as the longhair writing to report she was safe and sound:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Daddy, I'm fine. I've attached some dried fish and mouse jerky, please enjoy."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Also, the Lady von Frigga who proposed is a real person, and she has feelings for you, Daddy. You should find someone too.\""
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

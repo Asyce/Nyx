@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "my-confession",
+  "name": "My Confession",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/My_Confession",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A sheet of paper found lying in the \"Golden Confessional,\" detailing the tormented confession of one of the Fools."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "To my friends, my foes, to all who know my identity as a Masked Fool, I offer my confession."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As a fellow Pathstrider on the Path of Elation, I am an incorrigible embarrassment to the cause. The countless, exquisite, pulchritudinous schemes so painstakingly and assiduously designed by my predecessors have, under my watch, devolved into mere acts of paltry charity."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "(Ugh, so many fancy words... I'm just not funny! I hate my high level of education!)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "To those I have failed to deceive, fool, trick, or harm, I offer my confession."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I was just trying to pull a prank. How did it turn into a good deed!? That was not what I intended. Titanic tides of gratitude and praise overwhelm me with the burdensome guilt of being undeserving, and the mortifying shame of being more trouble than I'm worth."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "(Alas, I couldn't help but use more antiquated prose. I hate it! Why is my literary skill so profound?)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "O, Laughter, Master of Elation, Aha, I confess to YOU."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I've forgotten the beginning and the end, but the point is, I confess. Nothing I do is remotely funny. It's utterly pathetic!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I just don't get it. Why is destiny so cruel to me, specifically? Everything I hope for turns into its exact opposite..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I once posed as a councilor and demanded that the booze-loving Duchy of Pemberton ban the production of alcohol. They ended up creating the galaxy-famous Pemberton Cola with sugar and soda... and it sold far better than their booze ever did!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I once changed the formula for a glue company, making them produce the least sticky adhesive in the world... They used it to create \"sticky notes\" that can be applied and removed over and over... and I have to admit, they're incredibly useful!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "So now I'm some kind of saint, a great promoter of scientific advancement."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Alas! How may my sins be recounted, for they are beyond reckoning! Verily, they are far from redemption!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "(Wait... Am I actually a Classic Literature Fool!?)"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

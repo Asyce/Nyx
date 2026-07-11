@@ -1,0 +1,310 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "comet-hunter-s-treasure",
+  "name": "Comet Hunter's Treasure",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Comet_Hunter%27s_Treasure",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Comet Hunter's Treasure (I)",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "To Treasure Hunters: (I)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Ha! You are fooled!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "There is no \"treasure\" at all."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The only reward is the four scrawls by me hidden in this room. You must have recognized it. Yes, there's lord Herta's handwriting as well. Surprise, eh?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "If you are a junior who worries all day to impress your boss, take a deep breath! No good if you have a heart attack now."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "If you are one of those playful young fellows, I'd suggest you take them, go back to them when you find life miserable and have a good laugh when you are not busy doing your research in a dark corner of the tower."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Laughing Hosea Lazaro"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "label": "Comet Hunter's Treasure (II)",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "To Treasure Hunters: (II)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Right, if you are reading this, you've probably listened to me. That means you always follow through with what you started."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I have to admit, it would hurt my reputation had I asked you to go through so much trouble just for nothing."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "After all, I can't foresee to whom this letter will go so many Amber Eras later."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "There is a chance, however unlikely it may be, that you are a future defender of my reputation, someone worthy of my legacy."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Wouldn't want to accidentally put you under friendly fire, would I?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Hm, so be it. It's time that I bring forward the real treasure."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Your Respected Hosea Lazaro"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "label": "Comet Hunter's Treasure (III)",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "To Treasure Hunters: (III)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Have you tried a type of soda named \"Kapo-Kali\"?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It was once the signature of the space station, extremely popular in the Southern Orion system."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sorry to brag, but I'm indeed the creator of the famous Astro Rod and Cosmos Guide."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And undoubtedly, \"Kapo-Kali\" is also my creation."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The IPC offered me five million credits for the recipe and I turned them down."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Wen Huairen from the Herta Department of Implement Arts attempted (and failed) to steal it 33 times, all resulting in him getting a good smack from me."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I will now make the recipe public..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Five million's worth! See you in the next letter."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Legendary Drink-Maker Hosea Lazaro"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "label": "Comet Hunter's Treasure (IV)",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "To Treasure Hunters: (IV)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "████████████████████████████████"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "████████████████████████████████"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "████████████████████████████████"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Yes, you are seeing it right. Above is the secret recipe of Kapo-Kali."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I swear on my Mom's life that it's authentic."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "If you are one of us, you'll know how to decrypt it."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Got a tip for you: A specific method of autoradiography is required to reveal the text."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Hosea Lazaro the Terrific"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

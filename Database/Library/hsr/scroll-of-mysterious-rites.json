@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "scroll-of-mysterious-rites",
+  "name": "Scroll of Mysterious Rites",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Scroll_of_Mysterious_Rites",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Seekers of Wisdom"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Obey the Codex of Cerces"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Earth-Nourishing Quintessence"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*In fine writing: Georios' fertile soil*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Spring of Life's Blessing"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*In fine writing: Phagousa's sacred philter*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Bestowal of Wisdom Inheritance"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*In fine writing: Cerces's Tree Seed*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Offering 'Neath the Giant Tree"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Eye of Wisdom will examine your devotion and bestow a reward"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

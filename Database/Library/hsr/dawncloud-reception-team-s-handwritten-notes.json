@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "dawncloud-reception-team-s-handwritten-notes",
+  "name": "Dawncloud Reception Team's Handwritten Notes",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Dawncloud_Reception_Team%27s_Handwritten_Notes",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Dawncloud Visitor Screening Standards:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Those who may freely enter and exit Dawncloud are limited to high priests of Kephale, members from the Council of Elders, and recognized lifetime VIPs. Their names and appearances are recorded in the VIP registry. Such visitors can travel freely and are not to be registered or neglected."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. Citizens who work or live in Dawncloud must wear a specially crafted Kephale stone talisman. They may enter and exit upon displaying the talisman and verifying their identity. They are not to be registered."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. All other visitors, in principle, must be carefully questioned about their identity. Only invited guests may visit Dawncloud, and such guests must carry a one-time Kephale stone talisman. After their visit, the talisman will be collected by the reception team."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "4. The most distinguished guests received by the Council of Elders are not subject to the above rules. The Council will dispatch an Elder to receive them with special high-level etiquette."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "5. Commoners are strictly prohibited from entering Dawncloud without reason."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Light Calendar 4930, Month of Balance, Day 11"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "At the Action Hour, there were five visitors."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Phoebus, a wealthy merchant, donated a large sum to visit. The stone talisman has been collected."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Cassondra, an oracle, was invited to visit. The stone talisman has been collected."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Nympha, the niece of an aristocrat priest of Dawncloud, arrived accompanied by a maid. At the request of her relative, she will temporarily reside at Dawncloud."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Light Calendar 4930, Month of Cultivation, Day 9"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "At the Entry Hour, two visitors arrived."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Clymenus, former member of the Council of Elders, presented a stone talisman that has lost its divinity, claiming he had come to reconsecrate it with Kephale's blessing as per procedure."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Next day's note: This individual harbors resentment over his expulsion from the Council of Elders and made unsanctified attempts to infuse the talisman with divinity at Dawncloud, seeking to claim it for himself. The talisman has since been recalled, and the individual is permanently barred from Dawncloud."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Ulysse, an outlander noble, was invited to visit. Having provided substantial amounts of wealth and goods to the Council of Elders, his talisman has been permanently consecrated, and all future visits will no longer require registration."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Light Calendar 4930, Month of Freedom, Day 17"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "At the Parting Hour, one visitor arrived."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A special guest, who refused to give their name, was received by a designated Council representative. A Kephale acolyte was also employed to request the Titan's divine form to lower their wrist, allowing the guest to ascend in their palm for the visit. Such a spectacle is rare, seen only once every few years."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "<!--"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

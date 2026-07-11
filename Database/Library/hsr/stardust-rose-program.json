@@ -1,0 +1,676 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "stardust-rose-program",
+  "name": "Stardust Rose Program",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Stardust_Rose_Program",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Page 1",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Opens March 7th"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "A Golden Theater Drama Department's authentic production three years in the making"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A failed IPC sales manager was fired from his head office and came to a small border town."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "He Accidentally discovers a long-extinct rose and falls in love with a botanist who came looking for it."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "When he realizes that this precious flower he stumbled upon could be his ticket back to the top of the IPC, what will he choose to do?"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "and"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Co-Directors"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Writing: Amy"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Production: Tom"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Costume Design: Mary, Scenic Design: Paul, Lighting Design: Hudson, Sound Design: Caroline."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Movement Director: David, Artistic Director: Janet, Casting Director: Thomas, Marketing Director: Holly"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Howard - Iain"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Alice - Julie"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Joanne - Taylor"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Mark - Anthony"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Director Anderson - Ledyard"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Professor Collins - Jesse"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Alia (Howard's mother) -- Kristen"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Alfredo (company executive) -- Byron"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Freddy (town guide) - Philip"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Company Shareholders - George, Jessica, Sasha"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Town Residents - Austin, John, Emma, Paige"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "label": "Page 2",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "From backstage: Julie and Iain reveals their stories from rehearsal for"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Stardust Rose"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Writer: Olsen, Journalist for"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Belobog Weekly"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"I've worked with Iain many times, but I still get nervous when I'm acting across him... There's a glimmer in his eyes, and I'm always sort of in a trance when looking at him.\" On the press night of"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Stardust Rose"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", Julie revealed to the reporters present an interesting story during the rehearsal of"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Stardust Rose"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Julie and Iain both won the Goliards Award for Best Actor and Actress with their performance in"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Theater Story"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "last year. A month after winning the award, the two received an invitation from Amy, the playwright of"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Stardust Rose"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ". Despite this stage couple of the drama world having already worked together many times before, Julie said with a smile that she still couldn't resist the unique charm of her old colleague."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Stardust Rose"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "is co-directed by two Goliards Award winners for Best Direction of a Play, and is romance novelist Amy's first stage play. Iain felt it was a little different from the typical romances, not just because it was co-directed by two well-known directors, but also because \"I felt amazing chemistry with Julie during rehearsals.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Iain tells us that during one rehearsal, Julie's skirt got tangled in a nearby prop. But because of the strong rapport between them — thanks to their countless past collaborations — Iain immediately caught Julie, and within the short duration of the changing backdrops, was able to help untangle her skirt."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Julie revealed that in this sudden incident, catching her was considered by director Jeffrey to be a \"stroke of genius,\" which happened to perfectly fit the scene of the botanist played by Julie being trapped: \"Alice is a botanist who is completely immersed into her career as a researcher. She is a little out of touch with the rest of society, so she doesn't know how to call for help, even when she's in a tight spot.\" \"But Howard's actions come from the heart.\" Taking this into consideration, Iain told us that because of this incident, this stage direction was written into the official script."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Throughout the rehearsals of"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Stardust Rose"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", we were infected with a wonderful atmosphere. While we had to perform in front of many people, as the plot developed toward the end, I think we must have entered a kind of blissful detachment, it felt really magical.\" Julie believes that"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Stardust Rose"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "has a unique romantic atmosphere, different from all the plays she had acted in before. \"It's like being infected by love,\" Iain added."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "label": "Page 3",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The romantic drama"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Stardust Rose"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "starring Julie and Iain."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "On show at the Golden Theater on March 7."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Limited tickets and merchandise will be available at the counter."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Stardust Rose"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "themed box package"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Climb up to the themed box on the second floor and embark on a romantic and wonderful theatrical journey."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Designed by Paul, set designer of"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Stardust Rose"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", there are romantic floral designs in the same style as the play in the box."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Themed boxes can seat up to 8 spectators, and a limited number of 10 packages will be sold daily."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "List price: 23,000 shield"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Stardust Rose"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "commemorative frame"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Rose design frame modeled on the original rose prop from the play."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A special release for audience members who love stage plays, with reserved programs and ticket display cards."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Decorate your wall with your"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Stardust Rose"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "program and your ticket!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "List price: 1000 shield"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Stardust Rose"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "playbill binder"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The cover of the binder is printed with the playbill of"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Stardust Rose"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The size of the binder perfectly matches the size of the program, with a generous 30 pages of storage."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Practical and highly memorable, suitable for storing your theater programs."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "List price: 1500 shield"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Stardust Rose"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "autographed photocard"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A photocard featuring the 16 stars' final makeup looks with their autographs."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "During the tour, each person is limited to purchasing one set per day, and a limited number of 20 sets will be sold per day, on a first come, first served basis!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "List price: 30,000 shield"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

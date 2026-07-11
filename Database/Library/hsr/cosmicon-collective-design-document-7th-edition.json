@@ -1,0 +1,352 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "cosmicon-collective-design-document-7th-edition",
+  "name": "Cosmicon Collective Design Document: 7th Edition",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Cosmicon_Collective_Design_Document:_7th_Edition",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Rule Design Secrets Q&A"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Why dice gameplay? Wouldn't direct offense vs. defense be better?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "In combat power debates, the most common rhetorical trick is \"what if some character was at their peak\" or \"what if they performed exceptionally well,\" everyone seems to assume that combat power fluctuates."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "So we incorporated this trait into the design, giving luck a certain role. That way, if you lose, you can just blame it on Aha."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2. Why does the weather have such a huge impact on matches?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Good question. That's probably because someone up there is pulling the strings."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "3. I got absolutely wrecked by a totally insane card / Prismatic Die!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "That was terrifying. Why not check out our latest expansion pack?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Product Release History / Pack Introduction"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Volume 1: Aeonic Alliance"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The memorable debut expansion pack, featuring cards primarily based on real Aeons and representatives of known factions. It took Planarcadia by storm upon release, went through thirty reprints before being discontinued, and was subsequently inducted into the Hall."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "※ Cards in the Hall are classified as exclusive collection items and are banned from official matches."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Volume 2: Cutie Pie Rumble"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Some players said, \"Even just imagining battles between Aeons is way too intense. Got anything a bit gentler?\" So for the second expansion, we settled on the cutest, most harmless creatures in the cosmos: Cats and dogs, Warp Trotters, tuskpirs, Doomsday Beasts, Wubbaboos, telepathic spiders... you name it!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Unsurprisingly, this expansion was a massive hit the moment it dropped. Just picture all these cutie pies playfully tussling. It's gotta be the most heartwarming thing ever."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Volume 14.5: A Day in the World"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Also known as: The Ultimate Fake Card Collection."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The producer had a wild idea one day, rambling on about creating a special edition that's closer to everyday life. And thus, this Expansion Pack was born."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As for what's inside? Well, see for yourself:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Vending Machine by the School Gate (Rarity: Normal)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "d4 ×1 / Attack Level 1 / Defense Level 1"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Card Ability: If the opponent's card is an Aeon card, this card's Attack and Defense values convert to the opponent's values +1"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Your Leftover Pizza from Last Night (Rarity: Holographic)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "d8 ×20 / Attack Level 1 / Defense Level 20"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Card Ability: None"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "After the price per pack skyrocketed to 100,000 credits and the community meme \"Vending Machine Solos the Amber Lord\" went viral, expansion packs were added to the restricted use list, but several have recently been unbanned."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Volume 35: Fluffy Rally (Fluffy Across the Blue Collaboration)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A popular comic based on the Trailblazing Astral Express has finally received an official collaboration following fan demand!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Still debating whether Baseball Raccoon or March Bunny is the bigger glutton? Settle it once and for all with the Cosmicon Collective's latest expansion pack!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Official effects in development. Stay tuned."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Finally, I'd like to explain the world-building of this game."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Use virtual space for safe competition to influence faction wars out of humanitarian reasons?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Heroes from every universe receive a letter one day, inviting them to the most prestigious battle royale tournament?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "No, no. A game for all ages definitely doesn't need such a complicated world-building."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "What you love is your world."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "—Honorary Founder: Giovanni"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The content of this design document involves adaptation and refinement, and bears no direct connection to Mr. Stephen Lloyd's patented \"Cosmic Combat Ability Calculation System.\" All rights of final interpretation belong to Interastral Peace Entertainment."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

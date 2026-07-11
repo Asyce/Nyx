@@ -1,0 +1,543 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "recording-a-fool-s-play-calamity-s-wrath-seeks-olden-clash-fool-s-blade-rends-divine-flesh",
+  "name": "(Recording) A Fool's Play: Calamity's Wrath Seeks Olden Clash, Fool's Blade Rends Divine Flesh",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/(Recording)_A_Fool%27s_Play:_Calamity%27s_Wrath_Seeks_Olden_Clash,_Fool%27s_Blade_Rends_Divine_Flesh",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*The recording tape is embedded in a spotless playback device. It is evident that the researchers have been diligently cleaning it."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Push the playback button, and the sound of magnetic tape idling can be heard in the deep silence."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Suddenly, the storyteller's gavel strikes and the folding fan whooshes as a singsong-like narration swells from afar.*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In the elden realm, the sun fleets and the moon creeps, and naught survives where the divine penalty sweeps."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Alone, the divine light I shall sunder, and pierce the empyreal eclipse."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In this eve, this is a tale I ought to impart: Calamity's Wrath Seeks Olden Clash, Fool's Blade Rends Divine Flesh"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Those of you here must know that among this cosmos of thousand stars,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "there are Aeons who care not the world and hide amongst THEIR lands of peace,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "and the seven who inspire THEIR foolish followers."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "In the mumbling prayers of these followers, the name of Destruction is often heard."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Hark! The divine power of unraveling skies and ravaged earth the word contains must lead the followers who dwell in violence."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As if an insect swarm or the eclipse of the sun, this is the legion at which the cosmos recoil upon hearing,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "the personification of destruction — the Ruin Author."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Someone exclaimed, \"Ruin Author, what is that?\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Another replied softly, \"Is it a code word? It feels related to the legion."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Someone else answered, \"Mr. Storyteller is from Xianzhou, it must be their slang word for—"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Of course, in most worlds, THEY are also called Nanook."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "It is said that this legion uses black holes as their furnace, Yin and Yang energies as their coal, and everything else as their copper."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Under the command of Ruin Author and THEIR follower, the Monarch of Extinction, the legion seeks purification of dead, cold stars."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "From whence do they come? The answer is Cosmic Flood."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "For what purpose do they act? We do not know."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I lament, for the Ruin Author's might is insurmountable and forceful of strength;"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I anger, for all against them seek also to fulfill their own selfish agenda."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Against the cosmic forces that couldn't hold a candle to them, the Supreme Executioner finally recalled"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "THEIR home world where it was ruled by unjust power..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "THEY assembled a force of myriad Voidrangers to demand an answer from THEIR past."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Unfortunately, THEY were met with a surnameless fool guarding the portal."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Wielding a rapier with an extraordinary power, the fool dodged most skillfully"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "like a slippery fish in a pond or a flash of a falling star."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Ruin Author did battle with the fool for seven days and seven nights,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "and eventually golden ichor seeped out of THEIR divine body."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "This is the origin of that unhealed wound."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Off-stage, someone yelled, \"For real!? This is just something to fool the new people, isn't it?\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A Security Department staff member stopped him. \"Be quiet and let Mr. Storyteller finish!\""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In an instant, space and time reversed, and the stars lost their shine,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "for the Ruin Author shifted away with his injury and his legion scattered."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "How could observers from the rest of the cosmos just sit and watch the spectacle?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "They regarded the golden ichor as the ultimate object of desire."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Some seek to steal it for making ichor-infused mead."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Other seek to destroy it to weaken the legion's might."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Yet another commented loudly, \"That's right, exactly! I have heard this! It is rumored in a tavern somewhere in this cosmos that serves this mead on its menu, what was it called...\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A reply came, \"Bloody Mary?\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "That garnered a response. \"Tsk, lame.\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "That person replied again, \"It's called the Ruination Filament!\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The response, \"Whoa~ that's cool!\""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "At one point,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "an uproar followed the incident,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "the ignorant left, snickering, and all returned to their busy lives."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Among those who managed a share of the golden ichor,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "one hailed from this space station, our very own Nightfarer."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "His return caused many staff members to congratulate and revere him, but after pleasantries were made,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "his character changed. A terrible trouble is brewing..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And for the next part of the story, come back next time!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A commotion broke out in the hall."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"—That's it!? That's not enough!\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"—Not going to connect to the invasion of the Antimatter Legion, are you? The whole time, this is a modern fantasy?\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"—Shut up and pay Mr. Storyteller, come on, continue!\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"—Continue what exactly? This is total hogwash with a strong opening and getting worse after each beat. I'm leaving!\""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

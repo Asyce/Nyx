@@ -1,0 +1,1007 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "aedes-elysiae-farmer-s-almanac",
+  "name": "Aedes Elysiae Farmer's Almanac",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Aedes_Elysiae_Farmer%27s_Almanac",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Heed the wisdom of Oronyx: The land never betrays the hands that tend it, just as time never forsakes those who wait."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Oronyx, Veil of Evernight, governs time and prophecy. Observing changes in the skyveil predicts farming dos and don'ts:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "When the skyveil thins (stars bright): sow shallow-rooted crops, avoid deep plowing."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "When the skyveil thickens (stars dim): plant deep-rooted crops, avoid harvesting."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "When the skyveil fluctuates (stars twinkling): repair tools, avoid disturbing the earth."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "When the skyveil is still (stars stable): undertake large-scale farming, all tasks are suitable."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "First Month (Month of Gate) — Recuperation Month"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "As Janus opens the gate of the new year, farmers must plan for the coming seasons."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Village Schedule:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Entry Hour: Inspect the seeds in storage, select the finest varieties."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. Lucid Hour: Mend farming tools, weave new baskets."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. Action Hour: Clean the granaries, drive out any lurking pests."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "4. Parting Hour: Gather by the hearth, sharing old tales of the fields and passing down ancient wisdom."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "5. Curtain-Fall Hour: Offer a bowl of last year's harvest to Georios, praying for a prosperous new year."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Old Farmer's Saying:"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Mend your tools in the Month of Gate, and your fields shall yield with ease."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Second Month (Month of Balance) — Preparation Month"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "When Talanton's scales reach balance, we, too, must balance our minds and prepare for cultivation."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Village Schedule:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Lucid Hour: Convene a village meeting to allocate wheat field areas."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. Action Hour: Clear the irrigation ditches."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. Parting Hour: Observe the changes in Oronyx's skyveil to predict next year's weather."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Ritual: \"The Awakening of the Land.\" On the seventh day of the Month of Balance, all gather at the Altar of Oronyx. The priest immerses the winter wheat seeds in sacred water, while the elders recite prayers from the"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Oronyx Prayer Collection"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", praying for the skyveil to grant a suitable time for cultivation."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Third Month (Month of Evernight) — Soil Awakening Month"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Oronyx's skyveil envelops the earth, as the soil gathers strength in its slumber."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Village Schedule:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Entry Hour: Observe the growth of wild grasses to assess the soil's awakening."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. Lucid Hour: Transport manure to the fields."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. Action Hour: Turn the hardened ground, breaking winter's crust."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Old Farmer's Saying:"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Heavy dew in the Month of Evernight ensures full wheat ears next year."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Fourth Month (Month of Cultivation) — Sowing Month"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Upon the strong back of Georios, we sow our hopes. This is the month when every seed returns to the soil."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Village Schedule:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Entry Hour: At first light, hold the sowing ceremony across the fields."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. Lucid Hour: Elders lead the young folk to sow the land."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. Action Hour: Children follow behind, driving away birds that try to steal the seeds."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "4. Parting Hour: Set up scarecrows to protect the newly sown fields."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Special Care for the Wheat Fields: Sowers must walk barefoot as they work, feeling the soil with each step. If the earth is warm to the touch, the season is right. If it is still cold, patience must prevail for a few days more."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Ritual: On the first day of the Month of Cultivation, the whole village gathers, dressed neatly, crowned with garlands of wheat. The village chief, carrying the stone hoe — Georios' authority symbol — cuts the first furrow into the fields, ushering in the new season of toil and hope."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Fifth Month (Month of Joy) — Young-Nurturing Month"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Phagousa's dew nourishes new sprouts, and we celebrate the sprouting of life."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Village Schedule:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Lucid Hour: Check how well the wheat seedlings have sprouted."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. Action Hour: Weed the fields and reseed any bare spots."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. Parting Hour: Worship Phagousa, praying for moderate rain."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Old Farmer's Saying:"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A single rain in the Month of Joy is worth its weight in gold."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Sixth Month (Month of Everday) — Growth Month"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "In the month when Aquila's light shines its brightest, so too should the wheat reach toward the heavens."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Village Schedule:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Lucid Hour: Walk the fields, watching for signs of pests and sickness."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. Action Hour: Tend the wheat with careful weeding and fresh fertilizer."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. Parting Hour: Sing hymns to the young crops, blessing their growth with song."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Special Care for the Wheat Fields: As the wheat begins to form its heads, keep a careful eye on the skyveil of Oronyx: If the veil grows thin and the stars shine bright, drought looms — water the fields generously. If the veil grows heavy and dim, rain is coming — reinforce the ditches to guard against floods."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Seventh Month (Month of Freedom) — Vigilance Month"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Under Kephale's watchful gaze, we protect the wheat as it forms heads and flowers."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Village Schedule:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Entry Hour: Bless the wheat fields as they prepare to form heads."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. Action Hour: Patrol the fields, chasing away greedy birds."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. Parting Hour: Offer wheat flowers to Kephale, praying for an abundant harvest."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Old Farmer's Saying:"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Fragrant wheat flowers in the Month of Freedom bring full granaries in the Month of Reaping."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Eighth Month (Month of Reaping) — Harvest Month"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "By the wisdom of Cerces, we know the time has come: the fields blaze gold, the wheat bows heavy — the harvest is here."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Village Schedule:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Entry Hour: The village chief inspects the fields, declaring the day to reap."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. Lucid Hour: The whole village gathers — young and old — to harvest by section."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. Action Hour: Transport harvested wheat bundles to the threshing ground."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "4. Parting Hour: The first counts are taken, and the grain divided for storage."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Ritual: The first sheaf of wheat is handed to the priest, who brings it to the Altar of Oronyx. The priest recites the \"Yearly Gratitude\" from the"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Oronyx Prayer Collection"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", giving thanks for the harvest granted by the year's passage."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Community Gathering: On the Great Harvest Day, all gather in the fields. Elders direct the work, young adults harvest, youths transport bundles, and women and children collect scattered wheat ears, ensuring no grain is wasted."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Ninth Month (Month of Weaving) — Completion Month"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Under Mnestia's guiding hand, the year's toil is woven into a golden tapestry of harvest."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Village Schedule:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Lucid Hour: Clear the fields and prepare them for their winter rest."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. Action Hour: Return the wheat straw to the soil, letting it feed the earth."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. Parting Hour: Weave harvest wreaths to adorn the village streets and doorways."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Old Farmer's Saying:"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Lay down the straw in the Month of Weaving, and the next year's wheat will leap to life."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tenth Month (Month of Strife) — Storage Month"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Nikador's war drums remind us that peace is hard-won, and granaries must be ready for times of need."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Village Schedule:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Lucid Hour: Check the granaries for proper sealing."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. Action Hour: Boil malt candy for winter storage."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. Parting Hour: Craft wheat stalk decorations to adorn doorways."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Grain Keeper's Secrets: Lay dry olive leaves at the granary's base to prevent insect damage. Coat the granary walls with a mix of mud and ash to keep out moisture. Insert blessed herb branches into the grain piles to repel pests."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Eleventh Month (Month of Mourning) — Gratitude Month"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Thanatos' hand brushes over the earth, reminding us of life's precious cycle."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Village Schedule:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Lucid Hour: Repair the fences around the wheat fields."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. Action Hour: Offer a sacrifice of gratitude to the land."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. Parting Hour: Celebrate the harvest with the spirits of our ancestors."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Ritual: In the Month of Mourning, villagers erect wheat stalk effigies at the field's edge, symbolizing ancestors who guard the land. Each family places a grain offering at the effigies' feet, giving thanks for their protection and inherited wisdom."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Twelfth Month (Month of Fortune) — Planning Month"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Zagreus's coin flips, reminding us that farming holds uncertainties."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Village Schedule:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Entry Hour: Observe the winter skyveil of Oronyx to glimpse the year ahead."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. Lucid Hour: Calculate seed reserves and plan next year's planting area."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. Action Hour: Discuss improvements to farming methods."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "4. Parting Hour: Hold the winter solstice festival, praying for next year's good luck."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Old Farmer's Saying:"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "In the Month of Fortune, settle your farming accounts, and next year's planting will be calm."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Special Reminder: Choose the right time to observe the Oronyx skyveil."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "May the river of Oronyx's time nourish our fields, and may the Evernight Veil shelter every grain of Aedes Elysiae's soil."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "<!--"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "marmoreal-palace-bath-ambrosia-imbibement-liability-waiver",
+  "name": "Marmoreal Palace — Bath Ambrosia Imbibement Liability Waiver",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Marmoreal_Palace_%E2%80%94_Bath_Ambrosia_Imbibement_Liability_Waiver",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"I call upon thee, Chalice of Plenty, Phagousa — your wild mysticism is beyond words, your song and laughter evoke waves crashing into blossoms, your banquet guests drink with your toasts, inebriation, and spoondrift revel till daybreak.\""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In this sacred bath, all ambrosia sold"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "do not have their alcohol content displayed"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "in continuance of Phagousa's banquet tradition."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "After imbibing the ambrosia, you will"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "experience varying degrees of inebriation under the influence of divine power"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "that will result in certain actions or hallucinations. We advise our guests to drink responsibly. If your intoxicated actions disrupt order in the Marmoreal Palace, you will be ejected from the bath."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Hail to the God of Storm and Sea"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Marmoreal Palace \"Hail Phagousa\" the Ambrosia Manager Bacchus"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*Note: You automatically agree to the above agreement upon ambrosia purchase"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

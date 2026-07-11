@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "zephyro-s-proverb",
+  "name": "Zephyro's Proverb",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Zephyro%27s_Proverb",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The words of wisdom left here by the Lord Ravager known as \"Zephyro\":"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The blazing sun that was never meant to rise now walks the path to Elevation, granted by The Blemished One."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Yet he continues to defy his destiny."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "He would crash a thousand times over, just to inflict another wound upon that God."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A wound so slight, it merits but a glance..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And a sliver of grace is granted for this fury that tears through the veil of Erudition."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Through this battle, I have tested the flames that forge Irontomb on THEIR behalf."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Our brethren, soon to be unleashed, the who walks the Path of Destruction."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "THEY await your coronation,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "to jointly declare that the sun of old has been devoured and buried by a darkness ever deeper."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

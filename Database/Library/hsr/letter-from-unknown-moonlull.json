@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "letter-from-unknown-moonlull",
+  "name": "Letter from Unknown Moonlull",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Letter_from_Unknown_Moonlull",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Dear (Trailblazer), whom I've never met: Words can't express how much I hope this letter reaches you."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I had thought of so many ornate expressions, but when I actually sat down to write the letter, I was so emotional that I couldn't write a single word."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "You may have noticed that the design of Star Rabbit has deep historical connections with the Nameless."
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Star Rabbit, 108 Nameless, and Their Moonlull Companions"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "was a legendary tale I often heard and read in my childhood. As times have changed, today's children have lost the enthusiasm we once had for long-form narratives. So, during the design process of Star Rabbit, we decided not to include a main storyline, but rather to convey fragmented character information through the deployment of wispae after careful consideration. However, since you yourself are a Nameless, I decided to write this letter to share some stories that might interest you."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Actually,"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Star Rabbit, 108 Nameless and Their Moonlull Companions"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "is the origin story of us moonlull people. To put it simply, during the Cindearth Age, a black divine rabbit descended from the star rail in the night sky and generously shared celestial wisdom with the people of this planet, who led 108 Nameless to fight alongside them against terrifying enemies from beyond the sky. It was a long and cruel battle, and facing endless waves of enemies, both the 108 Nameless and people on this planet suffered devastating casualties... To ensure the survival of their fighting spirit, the survivors created a new combat imagenae in the image of the black divine rabbit, and that's how we, the moonlull people, came to be."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Oh, right... You might be wondering about the gift I enclosed with this letter: Rest assured, that's the legendary countenance of our ancestor, the black divine rabbit, as depicted in the tales of us moonlull folks. You are one of the Nameless, so I'm certain you must know our great progenitor. I hope that one day, I can represent the moonlull people and have the honor of an audience with our progenitor! (Not now though, I'm absolutely not ready yet... I'm just humbly expressing this presumptuous wish of mine. In any case, please don't tell the great progenitor about this yet... pretty please!)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "A moonlull designer on the verge of retirement"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

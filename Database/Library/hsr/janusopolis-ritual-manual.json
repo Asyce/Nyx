@@ -1,0 +1,600 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "janusopolis-ritual-manual",
+  "name": "Janusopolis Ritual Manual",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Janusopolis_Ritual_Manual",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Prologue"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "This manual is the guidance of the tripartite prophecy,"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "may Janus bestow upon us paths,"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "may Talanton bestow upon us fairness,"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "and may Oronyx bestow upon us revelations."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Chapter 1: Ritual Hours"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Morning Ritual (Entry Hour)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. When opening the door of the temple, one must pray to Janus first."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. Light the three everbright lamps to symbolize the tripartite of destiny."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. Sweep the floors of the temple and change the offerings."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Dawn Ritual (Lucid Hour)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Recite the Tripartite Ode."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. Record the questions asked by the visitors."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. Prepare offerings."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Dusk Ritual (Parting Hour)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Light incense sticks to purify the altar."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. Place the offerings of the day."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. Recite the oracle's text."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Chapter 2: Ritual Rules"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Basic Rules"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Follow Talanton's Words: The offerings must bear the same weight as the prayer. This is the law of the scale, and must not be disobeyed."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Common Offerings and Their meanings"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Balance Coins: symbolizes the changes of destiny."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. Crystals: symbolizes the clarity of the prophecies."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. Honey: symbolizes the sweetness of languages."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "4. Clothes: symbolizes the curtain of Oronyx."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "5. Mirrors: symbolizes the two faces of Janus."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "6. Scale: symbolizes the fairness of Talanton."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Note: Offerings must be complete and of the purest quality."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Taboos"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. One must not offer items of misfortune."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. One must not offer items of others."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. One must not offer items during the Entry Hour."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Chapter 3: Prayer"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Morning Ritual"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Lady of the paths shall show us the way, the king of fairness shall keep the balance, and the spirit of the night shall grand us wisdom. I knock on the door to ask for an audience with the divine, I make offerings to ask about the Hereafter, and I bow down to ask for guidance."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Inquiry Prayer"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Life is but a leaf, adrift with waves. Tripartite fate, to what end does it lead? Janus illuminates my path, Talanton steadies my course, and Oronyx shows me the truth."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Gratitude Prayer"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I thank the tripartite fate for heeding me and offering guidance. May the eternal shine never dim, and may the divine words forever endure."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Chapter 4: Prophecy Rules"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Preparation"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. The maiden must bathe and purify herself."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. She must wear a white ritual robe and a silver mask."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. She must hold the two-faced staff of Janus."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "4. She must light the tri-colored holy fire."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Prophecy Procedures"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. The assistant priest will light the incense and guide the way."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. The maiden will ascend to the seat of destiny."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. The visitor will place their offerings."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "4. The maiden will read the revelations."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "5. The maiden will read the prophecy once destiny indicates the result."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Prophetic Records"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. All prophecies must be recorded on special sheepskin scrolls."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. Prophecies must be recorded with ink made from silver powder."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. Three witnesses must provide their signatures."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "4. Prophecies will be kept in a secret chamber within the room of prophecy."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Chapter 5: Special Ceremonies"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "New Moon Ceremony"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The New Moon ritual must be held at the beginning of every month. At that time:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. All the gates of the tripartite temple shall be opened."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. A twelve-sided mirror shall be placed to symbolize the wheel of destiny."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. The maiden shall lead everyone around the temple three times."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "4. The Long Ballad of Fate shall be recited."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Janus' Maze Revelational Ceremony"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Exclusively held for important questions:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Set up an inquiry magic circle."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. The maiden casts a curse to open the gateway."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. Place a double-sided mirror into the magic circle."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "4. Decipher the reflection in the mirror."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "5. Record the revelation."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Afterword"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "This manual was created and edited by the maidens of past generations. May these rules be followed to obtain the truth. Violators shall face the punishment of destiny."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

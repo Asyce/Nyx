@@ -1,0 +1,358 @@
+{
+  "schemaVersion": 1,
+  "game": "gi",
+  "id": "rangi-nui-s-end",
+  "name": "Rangi Nui's End",
+  "sourceUrl": "https://genshin-impact.fandom.com/wiki/Rangi_Nui%27s_End",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Vol. 1",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Rangi Nui's End is my hometown,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And whenever I recall my ancestral lands,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The morning sun shines over Rangi Nui,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Looking out over Waiata, the spring of flowing song,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Looking down upon Te Pahau, the wind-whiskered valley,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Looking across Poheka, the land of abundance,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Such are the lands of my grandparents,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Such is Rangi Nui's End."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I will journey to visit my ancestral home,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "On the twenty-fifth night, when the eels begin their dance,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "From Ohauiti shall I set forth, where the wind is gentle on the plains,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "To the waterfall where sharks do leap, to the shallow shoals,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "To Titiwha, those dazzling radiant depths,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Where I shall climb the mountain bathed in sunlight,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "To visit the long-slumbering master of mountain and stream,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "To explore the ancient dwelling place of the long-forgotten pygmies,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Before descending, descending into the valley's deepest depths,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Down to Te Tahutama, where luminescent fish congregate,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Down to Aka-aka, where plants grow small and strange."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Down to Mahinini, where the dark currents flow soft yet sharp,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Then down to dark Uropi, the depths of the forest..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Wo-ho! Wo-ho!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "These distant, far-off lands, the hometown of my grandparents,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "They were thrown down, destroyed by disaster and violence, like collapsing mountains and raging wildfires..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "My ancestors once lived in prosperity and peace, yet were plunged into famine and exile,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "My heart cries out for them, I mourn their tragic fate,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Like unquenchable flame roiling beneath spring waters, so profound a resentment, so deep a sorrow!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Ever shall I wander along that never-ending wellspring of sighs,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And I shall come to fields of mottled green — that my ancestors called Kahotea."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And like the ancient dragons, soar effortlessly to the mountains where chants abound..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The lost envoys of the heavens built there a city of gold and stone,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But it was destroyed when raging flame fell from the heavens, the fury of the ancient sovereign."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Wo-ho! Wo-ho!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "And so I wander on, to Poheka, the land of abundance,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "There Rangi Nui once stood upright between heaven and earth, so the ancestors say,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "For he was both a sage who spoke to the heavens, and a hero of the land,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Whose soul returned to the rising sun, whereupon the sky itself became Rangi Nui."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Then, I shall head from the land of abundance to the distant shore,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And on a shore overgrown with tendrils, conclude my final journey."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I once climbed the lonely, desolate volcano,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I have seen countless hot springs with my own eyes,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And I shall head to the other side of the dark currents,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "To seek the ferryman, who rows a dugout canoe and wears a gold-feathered crown,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And when at last I see that circlet, glimmering in gold,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Then shall I again reunite with my kin in the garden of Hairinei,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The birthplace of the forgotten sovereign of humans,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And I shall gather my tribespeople and friends, and we shall go there together."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

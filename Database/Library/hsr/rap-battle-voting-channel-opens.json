@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "rap-battle-voting-channel-opens",
+  "name": "Rap Battle Voting Channel Opens",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Rap_Battle_Voting_Channel_Opens",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*This poster is completely filled with highly saturated colors, bright enough to burn the eye in this bleak vagrant camp.*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Yo"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Yo"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "So how 'bout adding some challenges in your boring old life"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Come join the Rap Battles even if ya got no mic at the live"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Don't worry if your rhythm and rhyme seem just a bit too light"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Get on the stage and Dr. Dig might then give you a like"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Or maybe you just want to be a part of our big audience"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Then we've also got ways to heat up our ambiance"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Y'know the Rap Battles voting channels just went into existence"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And all the rappers are gon' be here, even with no influence"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "So why you standing 'round giving all this hesitance"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Don't be here wastin'n your precious vote of confidence"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Please consult Dr. Dig for details on how to join or vote in this season of the Rap Battles!"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

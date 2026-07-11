@@ -1,0 +1,1003 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "merchant-s-ledger",
+  "name": "Merchant's Ledger",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Merchant%27s_Ledger",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "1. Janus Emblem"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Purchase Price: 50 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sale Price: 80 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Units Sold: 20 boxes"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*Everyone wants to have good luck at the turn of the new year. It sold quite well — a pity it is emblazoned with Janus' insignia, so it's really hard to come by.*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2. Recycling Service"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Purchase Price: -"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sale Price: 300 Balance Coins/trip"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Units Sold: 70 (3 dromases rented, 1 temp staff)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*Dromases are pretty useful, but they have an exorbitant rental fee. They're charging threefold the price during the new year — it's sheer daylight robbery! Ack! If only I could buy a dromas of my own...*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "3. Gilded Silk Handkerchief"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Purchase Price: 40 Balance Coins (Blank silk handkerchief), 150 Balance Coins (Customized name embroidery service)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sale Price: 2,500 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Units Sold: 25"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*Products still have to be related to the Chrysos Heirs to be popular.*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "4. Tidal Holy Water (Blessed by Phagousa)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Purchase Price: 100 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sale Price: 200 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Units Sold: 15"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*Said to be able to cleanse the black tide, though I reckon it's a scam. Even newcomers to the city aren't buying it, and it reeks of fermentation. Never stock up on this stuff again. No one's buying any of this.*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "1. Talanton's scale and weights set"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Purchase Price: 500 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sale Price: 1,200 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Units Sold: 70"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*Gotta hand it to the merchant guild for having foresight and deep pockets! Buying so many in one go, I'd be ashamed if I didn't give them a discount!*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2."
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Talanton's Legal Commentary"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Purchase Price: 120 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sale Price: 200 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Units Sold: 30"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*Everyone in Okhema should learn legal knowledge!*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "3. Contract Paper"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Purchase Price: 5 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sale Price: 10 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Units Sold: 2,000"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*Everyone is busy signing contracts this month, and I am no exception.*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "4. Oath Candle"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Purchase Price: 30 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sale Price: 99 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Units Sold: 150"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*The younger folk sure love buying this. I can smell an opportunity... Going to stock this up in advance next year.*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "5. Talanton's Notary Seal Set"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Purchase Price: 800 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sale Price: 954 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Units Sold: 300"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*The guild of rhetoric teachers pre-ordered these. Can't earn much from it.*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "1. Oronyx Astral Chart"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Purchase Price: 1,000 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sale Price: 1,500 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Units Sold: 150"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*I don't get it. You can't see any stars in Okhema, yet those astrologers are scrambling to buy this. What exactly are they looking at?*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2. Invigorating Incense Pack"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Purchase Price: 400 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sale Price: 600 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Units Sold: 50"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*With that stinging smell, it's no wonder it's invigorating!*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "3. Divining Sheep-Bone Tile Set"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Purchase Price: -"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sale Price: 190 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Units Sold: 30"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*Zero-cost business is always the best, apart from the trouble needed to carve sheep bone.*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "4. Veil of Evernight Tent"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Purchase Price: 2,000 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sale Price: 2,750 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Units Sold: 50"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*A new favorite of rich folks. Apparently, it provides a great night's sleep when spread over your bed. I wonder if that's true?*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "5. Obsidian Dagger"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Purchase Price: 500 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sale Price: 800 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Units Sold: 30"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*With an unsharpened edge, I have no idea what the point of this dagger is, but Oronyx's disciples love this.*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "1. Bug Repellent"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Purchase Price: 20 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sale Price: 25 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Units Sold: 800"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*Mediocre effect, but wins out in price. I also don't feel good making money off farmers. I mean, I am a farmer's child after all...*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2. Rainwater Collector"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Purchase Price: 2,000 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sale Price: 2,800 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Units Sold: 100"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*Those who fear dry seasons have all gotten one. Word is going around that the harvest in the next few years will be affected by the black tide, though I remain suspicious.*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "3. Dromas Feed Bag (Rainbow Soil)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Purchase Price: 800 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sale Price: 1,200 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Units Sold: 50"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*No wonder the workshop staff placed some orders with me. I didn't know how heavy one bag would be! My back almost gave out just carrying it around!*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "1. Phagousa-Blessed Crystal Chalice"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Purchase Price: 260 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sale Price: 390 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Units Sold: 40"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*It is said that the water drunk from this cup is particularly sweet.*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2. Ribbon (Waterproof Coated)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Purchase Price: 30 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sale Price: 40 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Units Sold: 800"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*Everyone is preparing for the festivities.*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "3. Woven Garland"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Purchase Price: 20 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sale Price: 35 Balance Coins, 30 Balance Coins, 25 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Units Sold: 5"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*These aren't selling well. So frustrating. Everyone still prefers to make their own.*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "1. Aquila Energy Lamp"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Purchase Price: 200 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sale Price: 300 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Units Sold: 0"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*Said to store light. I thought Aquila disciples would go wild for this... But I forgot it's always bright in Okhema. This was a drastic mistake!*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2. Linen Sun Hat"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Purchase Price: 40 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sale Price: 50 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Units Sold: 80"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*I learnt a lesson from that energy lamp fiasco. Since it's always bright in Okhema, there'll definitely be people needing this.*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "3. Chilled Spring Water"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Purchase Price: -"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sale Price: 5 Balance Coins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Units Sold: 200"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*This sells faster than Phagousa's fine brew. Just a bit troublesome having to take these out from the ice casket.*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

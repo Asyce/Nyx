@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "dreamscape-tourist-compendium-shopping",
+  "name": "Dreamscape Tourist Compendium — Shopping",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Dreamscape_Tourist_Compendium_%E2%80%94_Shopping",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Testimonials"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Alfalfa Publishing House proudly presents the Dreamscape Shopping Guide, the sequel to"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Dreamscape Tourist Compendium"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "We hope you can leave all your worries behind and live in the present!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A Shopping Paradise: Oti Mall"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Keywords: Commercial Street, Large Shopping Mall, Multi-Brand Store, One-Stop Shopping"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "If this is your first visit to Penacony and you are unsure where to kick-start your dream trip, we welcome you to the largest integrated shopping center in Penacony — Oti Mall!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "You can find everything you can imagine here, from the latest Spheroid model \"Flywheel 2001\" to an adventure novel released on a distant planet. Oti Mall can surely fulfill all your needs."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "There are a variety of complementary services you can enjoy besides shopping. All stores offer free shipping, which means the physical goods you purchase will be delivered to your room in the real world. You can even courier the goods to anywhere in the universe via the Cosmic Express network!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "An Innovative Dining Experience: Delmore's Eatery"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Keywords: Reservation-Based, Menu-less, Creative Chef, Personalized Customization"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Delmore's Eatery is a relatively niche private restaurant, offering dishes that are only available in Penacony. Unlike the fast food restaurants that are ubiquitous on the commercial streets, Delmore's Eatery specializes in customizable services. Tell the head chef a memory, and he will prepare a sumptuous spread that is specially made for you."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Chef Lecter, the third-generation head chef of the eatery, opines, \"Food is not just something that fills your tummy. As your tastes and preferences are shaped by your memories, I can tell the story of your life through the menu.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Rumor has it that the galactic superstar Lesley Dean once dined here."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Festive Carnival: Clock Studios Theme Park Merchandise Store"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Keywords: Animation, Clockie, Theme Park, Merchandise Store"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The only official merchandise store of Clock Studios Theme Park. The magical Dreamville from the animations stands recreated within the store — the staff are dressed as Dreamville residents, and you can exchange Alfalfa credits for various types of Clockie merchandise."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The hot-selling items include the Clockie soft toy, Hanu's hat, Hamster Rider Spheroid stickers, and Origami Bird mystery boxes."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Interestingly, with the changing tastes and aesthetic preferences of audiences in recent years, the popularity of the villainous character, Boss Stone, has soared and is poised to become the new best-selling item."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Late Night Experience: Speakeasies on the commercial street"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Keyword: Members-Only, Irregular Operating Times, Secluded Location, Special Blend"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "There are many small, hidden stores on the commercial street next to the plaza. These stores often have inconspicuous storefronts, thus only regulars can find the right door to them."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "This speakeasy has no name, and the same goes for its owner. Only one signature drink is featured on the menu: House-Blended SoulGlad. It is said that the owner crafts the drink based on their mood of the day, so it tastes different each time."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Of course, you can order the Classic SoulGlad here, but it won't taste as good as those pre-made ones you can get outside."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1641 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "disciples-of-sanctus-medicus-collection-of-exhibits",
+  "name": "Disciples of Sanctus Medicus: Collection of Exhibits",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Disciples_of_Sanctus_Medicus:_Collection_of_Exhibits",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Undelivered Letter",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Xiao Lei, my dear sister, I hope you are doing well."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "It's been more than a month since I left home. All is well. Please do not worry."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I have had an infirm body ever since I was a child, and it has caused you much trouble. I left in an attempt to give you a happy life without having to worry about me. Again, don't worry. I won't commit suicide or hurt myself."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Because of my legs, I was a burden to our father and brother before they died, and now I'm a burden to you. For more than two hundred years, we went from one doctor to another, and my legs never improved. I only feel bottomless guilt and shame from this."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "But we don't have to worry about my legs anymore. I'm helping out with a clinical trial for a confidential project of the Alchemy Commission."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The alchemist in charge of my section told me that they tried very hard to get the Six Charioteers to allow for the development of new medical treatments, aimed at managing the various chronic diseases that afflict patients for hundreds of years on Xianzhou."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "However, it is a requirement that participants must not divulge any relevant information until the research has made significant progress, so I have to keep this letter in my pocket for the time being. I will send it to you when I have the opportunity to go out."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "These treatments are indeed effective. I used to need crutches to walk, but now I am fleet of foot. Even those alchemists were amazed at my recovery speed. They said I'm a miracle."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Actually, the medicine they use is rather weird. I asked the chief alchemist the name of this medicine, and they only smiled and said: \"This is the gift of the Merciful Medicus.\" I don't quite understand, and they didn't explain it more."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "But at least the medicine is effective. That's a good thing."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "However, this comes at a price. Every time I take the medicinal pellet, I feel sharp piercing pain all over my body and my memories get all confused."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Let's not talk about these unhappy things. I want to tell you a great piece of news. The Alchemy Commission will give me a lot of money after the clinical trial is over."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "By then I will have both a healthy body and a fortune. We will have enough money to buy an inn in a good location."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "A location near the port in a big city would be the best. That way, we can receive tourists, and you won't need to work anymore. We'd have money! I'll hire a few people to take care of the business with me. All you need to do is pursue your dreams or do whatever you want in the big city. You deserve the best."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Looking forward to seeing you again."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Awaiting your reply,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Your loving brother, Xiao Ju"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "label": "Emergency Instructions",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Dear Cyan Begonia,"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "All of our intelligence layouts on the Cloud Knights had been exposed, and many men were lost. Now it can be determined that there is more than one dog among us, and most of them are still hiding on the Luofu."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "From what we know, several of the hounds have taken part in our important operations, including the failed one in the Seat of Divine Foresight. If it had not been for the hounds, the Dozing General would have died. You can imagine how much this has affected us."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Find out the identity of those hounds as soon as possible and get rid of them. Be careful not to leave any traces. Based on past experience, no matter what means are used, it is difficult to get any information from the hounds, which makes them of no use to us."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "If any of our men are exposed, end their life before the hounds catch them."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The master primus said to me the other day, \"We are at a critical juncture of our plan on the Luofu. There is absolutely no room for mistakes.\" Now I want to say the same thing to you."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Mercy of Sanctus Medicus!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Purple Cinnamon"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "label": "Disciples' Diary",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "March 9"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I am more and more convinced that the world isn't fair."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Out of the hundreds of different weapon types available in the Cloud Knights' arsenal, I picked the spear — the weapon most difficult to master. I'm convinced that my efforts in training are not inferior to anyone else's... But I just can't defeat Youshan, that tiny Vidyadhara who's only up to my chest in height. He's only lived for a little over sixty years, while I have been practicing with the spear for centuries, and even modified my body according to the Cloud Knights Martial Doctrine."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "My instructor had said many times that \"the sword requires nimbleness and speed, while the spear demands solidness and strength.\" Flying Swords controlled by one's qi require the dexterity of a fast reflex. Spears, on the other hand, necessitate power and control. Mitigating the explosive burst of recoil that comes from the spear tip entering the enemy's body also demands intense physical training from the wielder."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I understand that Xianzhou natives can never stand toe-to-toe with Foxians in terms of reflexes, but I never anticipated to lose to a Vidyadhara when it comes to strength."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I didn't lose to Youshan because of a lack of skill or training. It was purely due to the differences between our muscular structures. The Vidyadhara hatch in the Scalegorge Waterscape's ancient sea under intense water pressure and are always capable of swimming under such conditions, making their strength incompatible to us Xianzhou natives who have only ever lived on land."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I will never be able to overcome the vast differences between our genes even if I trained for centuries more. Such is my sad fate... Destined to never become the strongest."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "April 2"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "An alchemist friend of mine from the Alchemy Commission recommended me a medicine called the Draught of Draconic Surge. He said taking this medicine can give me the power of dragons."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "As if realizing how the medicine's name made me upset, he declared with a smile that he will give me this medicine for free if I can guess what ingredients went into it. He squinted and made faces, and tried to get me to make outrageous guesses."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "How am I supposed to know what kind of tricks these alchemists are trying to pull? I didn't buy his medicine."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Draught of Draconic Surge... I hate that name. The Vidyadhara worship Long the dragon, and consider themselves descendants of the Aeon... Bah! I just can't help but think about Youshan as soon as I hear the word \"dragon.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "He's been promoted to a captain. Our instructor said he will recommend Youshan to take over his own job as a drill instructor. Youshan must be feeling great right now. He always feigns politeness when he sees me and addresses me as his senior frater, but I know he's trying to hide his sarcastic expression. I hate him so much."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I could hardly contain my urge to sink my spear tip into his body when we sparred. However, I couldn't do it. I couldn't beat Youshan."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I challenged Youshan three times during training and lost every single time. It wasn't a surprise. I sat for a long time alone under the sparring stage."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "June 12"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I did it! I can do it! I did it!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I beat Youshan!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The Draught of Draconic Surge is a miracle medicine! I admit, when I got the injection and the concoction entered my veins, I felt I was going to explode into pieces from a gale that stormed through my insides. But that discomfort was only momentary. After that, I suddenly felt the spear in my hand was as light as a needle. I twirled it a few times, and my peers couldn't even handle a single attack from me."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I became so fast and so strong! Hahaha! Even Youshan was no match for me!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Now that I look at him, his movements are as slow as an ant's. I can just stretch out my hand and press down on him, slowly grinding him into mince meat with the tip of my spear. What a pity that our instructor stopped our spar. He got a military doctor to do a check-up on me, but they didn't find out anything."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Hmph. Old timers are always sticklers for the rules. According to my friend, I can challenge even more people if I keep using this medicine!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I heard that there's a retainer in the Seat of Divine Foresight with great aptitude for the sword. Given time, maybe even he won't be able to stand up to me!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "July 25"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I became a disciple — a fellow of my brothers and sisters — thanks to my referrer."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I am already enlightened on a psychological level."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I browsed the records of the Cloud Knights Martial Doctrine and saw what only the transcended could do: \"Scry Feathers on a Distant Bird,\" \"Split Entire Mountains,\" \"Revert Yin and Yang,\" and \"Chase the Flowing Light\"... Those aren't myths. In ancient times, the Xianzhou natives were able to attain such a state of being."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "However, I am far from enlightened on a physical level."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In order to reach such extremes, I have to ingest the secret medicine and keep training harder."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "It is not about the mind or mysteries. Everything is about the strength of the body — That's the enlightenment I received from the Disciples of Sanctus Medicus's way of immortality."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Only Merciful Medicus can help me to reach or even surpass that limit."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I got to know many brothers and sisters from all walks of the Xianzhou, and some are even Outworlders. We came together with divergent goals: Some came to save lives, some to take revenge on their enemies, some admire the master primus's charisma as a leader, and some are simply passionate adherents of Sanctus Medicus... or obsessed opponents of the Devilish Archer Author. And then there are people like me who seek enlightenment."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "We support each other in making the medicines, hiding from the authorities, and worshiping Sanctus Medicus. None here question the others' convictions, and none mock the others' goals... This made my life in \"civil society\" look like a joke."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I have to admit that it's very painful to ingest these medicines. Just swallowing the disgusting fluids is already comparable to swallowing needles. They burn throughout my body, as if my internal organs are being boiled alive. And once I manage to push down the strong urge to throw it up, the raw agony of my muscles being separated from my skeleton comes next. Lastly, my bones would dash against each other like rocky boulders, as if they could shatter in the next second. Every one of their collisions sends a jolt straight to my brain, yet I cannot simply faint to evade this pain."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "However, after a few hours of agony, the increase in my bodily capacities is very apparent."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "If I interpret this pain as condensing hundreds and thousands of years' worth of training into a few hours, then it doesn't seem as unbearable anymore."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "September 10"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Strength became stronger. I became stronger."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Youshan can't defeat me. My tutor can't defeat me. I understand now."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Martial arts. Is about how sharp your claws are. How strong your body is."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Victory. Is being the survivor. That alone is martial virtue."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Martial virtue. Is the mercy of Sanctus Medicus."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Sanctus Medicus. Sanctus Medicus. Mercy of Sanctus Medicus."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The mercy of Sanctus Medicus, the Arbor's new growth. Disciples shall attain the way of immortality together."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The mercy of Sanctus Medicus, the Arbor's new growth. Disciples shall attain the way of immortality together."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The mercy of Sanctus Medicus, the Arbor's new growth. Disciples shall attain the way of immortality together."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The mercy of Sanctus Medicus, the Arbor's new growth. Disciples shall attain the way of immortality together."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The mercy of Sanctus Medicus, the Arbor's new growth. Disciples shall attain the way of immortality together."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The mercy of Sanctus Medicus, the Arbor's new growth. Disciples shall attain the way of immortality together."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*This line repeats for the next few pages*"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "label": "Target: Jing Yuan",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Indigo Begonia,"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "There have been five operations to eliminate Jing Yuan this month. Why is he still alive? Are you slacking off?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Yellow Peony, September 19"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Yellow Peony,"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "There is nothing we can do. The Dozing General doesn't usually get involved in any official business or show up for anything. We can't even meet him. How could we kill him?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Indigo Begonia, September 22"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Indigo Begonia,"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "We have a lot of people lurking in the Alchemy Commission. Even if Jing Yuan is a general, he still needs to go to the Alchemy Commission for medical check-ups. Couldn't they act then?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Yellow Peony, September 24"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Yellow Peony,"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Man, is this your first time on the Luofu? A famous person like Jing Yuan would not go the the healer. Instead, the doctors would go to the Seat of Divine Foresight to see him! Besides, hurting Jing Yuan at the Seat of Divine Foresight will get all of us killed."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Indigo Begonia, September 27"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Indigo Begonia,"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "We disciples shall have no fear of death! You should be ashamed!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Yellow Peony, September 30"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Yellow Peony,"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "That's easy for you to say. If you can do it, go ahead and do it."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Indigo Begonia, October 1"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Indigo Begonia,"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Where are you? Don't run away. Let's have a talk. I can't get rid of Jing Yuan, but I have plenty of ways to get rid of you!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Yellow Peony, October 2"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "label": "Disciples of Sanctus Medicus: Secret Order",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Dear Ziyi,"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "It's an emergency. To cut a long story short, I need you to arrest a medical staff of the Alchemy Commission named Banxia. I have seen her resume at the department and thought she would be of some help in medicine refining and Elevation... Didn't think she has the means to escape the Alchemy Commission's delve and took a list with her."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I can't tell you what's on the list. I trust you. You've seen Banxia, and I trust you to bring her and the list back. If you can't get your hands on the list, destroy it."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "According to intel, Banxia had already left with the Dragon Lady before the blockade of the delves. We can only get in touch with a few disciples outside the delve. If you encounter other disciples, give the letter and prescription to them and find the traitor together. This matter is our highest priority."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Mercy of Sanctus Medicus!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Blue Ganoderma"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "6",
+      "label": "Semblance Reversion Essence",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Dear disciples,"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "After converting, every one of you has been consuming the treasure nutrients and learning the doctrines diligently, and many of you have succeeded in forming internal alchemy. Our great cause will soon be accomplished. I am very pleased."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Some talented disciples have ascended and gained the appearance of true immortals, such as the Sanctus Medicus Semblance and the Sprig Semblance. I will grant you the prescription of the Semblance Reversion Essence, which allows you to revert your form to its original appearance."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The prescription is as follows:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "25g of Daiyu Angelica"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "10g of Tian Dong"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "15g of dragon scale coral from the Lunarescent Depths"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "5g of cyan poria"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "50g of mara-struck bone dust (do not harm your brethren for this ingredient)"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Add some red sage collagen and the root of Dragon's Tears, and then knead them into pills."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Being mara-struck is in fact a stepping stone to ascension given to us by the Sanctus Medicus. It can be slowed down, but it cannot be avoided. If you take the Semblance Reversion Elixir too frequently, its potency will weaken and eventually fade completely. Be careful."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Mercy of Sanctus Medicus, the Arbor's new growth."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "7",
+      "label": "Thousand-Handed Merciful Medicus' Salvation",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Thus, have I heard:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Once upon a time, the thousand-hand Sanctus Medicus traveled the world with disciples, living under Rahu and teaching Way."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Shuhu the Emanator asked Sanctus Medicus: \"All living things get sick and suffer. All living things are bonded by birth, old age, sickness, and suffering. What is the root of all sufferings?\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Sanctus Medicus responded: \"Birth, old age, sickness, and suffering: All end in death. The suffering of the living is found in its limitations. The suffering of the old is about certainty in its arrival. The suffering of the sick is about the approach of death. Therefore birth, old age, sickness, and suffering are all forms of death. Death, therefore, is the root of all sufferings.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Shuhu the Emanator folded their hands and asked: \"All living things will one day die, and one day be reincarnated. How can they stop being young, old, sick, or in sufferance?\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Sanctus Medicus told Shuhu: \"Living things are confined to their bodies like imprisoned convicts, and suffer from those aforementioned three sufferings. I hereby plant the sacred tree to liberate those living beings: So that life is boundless and old age never coming; death revitalizes; all troubles are dispelled.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Then, Shuhu the Emanator recited: \"The mercy of Sanctus Medicus, the Ambrosial Arbor's new growth. Disciples shall attain enlightenment together.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"The mercy of Sanctus Medicus, the Ambrosial Arbor's new growth. Disciples shall attain enlightenment together.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Then the 99,999 disciples repeated: \"The mercy of Sanctus Medicus, the Ambrosial Arbor's new growth. Disciples shall attain enlightenment together.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "As spoke the words, the 99,999 disciples were liberated from youth, old age, sickness, and suffering."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "8",
+      "label": "Prescription: Draught of Draconic Surge",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "This prescription is for those with a foundation in martial arts, or for those in better physical condition than average."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Long's Scions should not use this prescription."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Formula:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Daiyu Angelica 7 mace"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Frost Mulberry 3 mace"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Lunarescent Sea Cucumber 1 mace"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "2 dried Thalassa dung beetles (pounded)"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "1 dried Fanghu seahorse (pounded)"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Distill and extract. Filter until clear."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Let cool until room temperature and dilute with the Lunarescent Depths water by a 1:1 ratio."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Take out 1 gram of Vidyadhara bone marrow (live sample) and immerse it in the mixture for 12 hours."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Use an acupuncture needle to administer a deep muscular injection of the medicine."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Taking this medicine normally may induce severe pain all over the body, abnormal bone noises, plus partial loss of sight and hearing."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Those who manage to survive this will attain the way of immortality."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Mercy of Sanctus Medicus, the Arbor's new growth."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "9",
+      "label": "Pharmacological Studies on the Draught of Draconic Surge",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Before we talk about the pharmacology behind the Draught of Draconic Surge, we must step back a little and discuss the principles behind longevity."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "For most creatures of flesh and blood in the Galaxy, longevity often is an indicator of something else — cancer. It describes cells proliferating beyond their designated lifespan and order, becoming immortal, and eating away at the host's body until both perish."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In fact, after tens of thousands of years of competition as well as trial and error, some cancerous cells have mutated to be capable of living independently of a host, and can even corrode other creatures with their longevity. Year 7142 of the Star Calendar saw a serious plague erupting on the planet of Yaguoret, which was under the Intelligentsia Guild's rule. It was later discovered that the vector was a type of cancer cell originating from a creature of the Anthozoa subphylum, and had gained the capacity to cross the species barrier due to a chance mutation."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "From a purely medical standpoint, us long-life species are entirely composed of immortal cells, yet we maintain an equilibrium within our bodies. This is quite an impossible feat."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Put simply, the secret of the Xianzhou natives and Foxians is that our cells can shift as needed between differentiated cells and stem cells. This conversion obeys specific rules that will never create a single error."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The rule dictating this conversion is the ultimate secret among secrets. It is not set according to internal hormonal levels or any other parameters, but a \"standard\" set in stone the moment the individual was born. As the cells shift between differentiation and omnipotence, the person's bodily characteristics are forever set at their original \"standard.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "We call this phenomenon, which goes against the fundamental creed of biology, as the miracle of the Plagues Author. At a certain critical point of the long-life species' life cycle, this power from the Plagues Author will suddenly enter a new stage — The original standard will be over-written and the body will start to develop catastrophically, turning a civilized \"human\" into a mindless \"abomination.\" This is what we commonly call \"mara-struck.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "It is commonly thought that the source of Vidyadharas' immortality is different from that of Xianzhou natives and Foxians. The Vidyadhara race did not gain immortality from the Plagues Author. Instead, as the descendants of Long the dragon, the majesty of the Permanence flows in their blood."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Due to this unique characteristic, Vidyadharas also exhibit a life cycle different from other long-life species. Their life, consisting of reverting from maturity to an infantile stage in an unending cycle, relies upon continuous cellular transdifferentiation. This is the reason why Vidyadharas do not face the ailments of immortality that many other long-life species have to contend with."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The core principle of the Draught of Draconic Surge is to transfer this draconic power into a different organism. Daiyu angelica, frost mulberry, and lunarescent sea cucumber... All these ingredients have only one core purpose, which is to maintain and re-animate the stem cells within the Vidyadhara bone marrow, allowing it to function within the host after the injection."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "For long-life species, this medication can trigger mara in a more controlled manner, making the bodily organs \"go out of control in a more controlled manner\" under the dragons' guidance, instead of growing haphazardly with the Plagues Author's power. The host would then gain power only available to the mara-struck while retaining their sanity."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "As for short-life species, this medication would forcibly graft the power of the dragons into their body. This brutal transplantation will cause a rapid elevation of bodily capacities for a short duration, significantly improving the short-life species' fragile physiologies. However, once the cells from Long's Scions have all perished to the host's immune system, the host's physiology will suffer a catastrophic regression. The only thing that can suppress or revert such a decline might be the other miracle drugs developed by the Disciples of Sanctus Medicus."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "As stated above, though the Seat of Divine Foresight tasked me to analyze the pharmacology of this medicine with the likely goal of preparing an antidote, no \"antidote\" can possibly exist for the Draught of Draconic Surge. The core of this medication's pharmacology is to manually trigger mara in people using the power of dragons."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "If we can prepare an antidote for such a medication, then being stricken with mara will no longer be a fatal condition."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Dan Shu"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "class-of-1984-alumni-yearbook-fulwish",
+  "name": "Class of 1984 Alumni Yearbook: Fulwish",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Class_of_1984_Alumni_Yearbook:_Fulwish",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Personal Information"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Name: Fulwish"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Birthday: ███, ██th"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Address: No. █, ███████ Street, Seafeld City, Planarcadia, Consternation Starzone"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Contact: ███████████"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Post-Graduation Destination: Institute of Cognitive Science, Garden Star of Botanical Study"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "My Interests"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Favorite Color: White"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Dream Destination: The Seaside"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Favorite Animal: Hallucigenia"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Ideal Career: Teacher"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Messages from Classmates"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Graduation day has finally arrived. But so many never made it back."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "If I hadn't slipped away early that day... could I have done something for them? When I look at the empty seats in our classroom, I often feel guilty for being powerless. Fulwish, did you feel the same?"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "But I've come to terms with it now. The past is the past. Those of us left behind... we have to take care of ourselves."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "I hear the climate on Garden Star of Botanical Study is very different. Take care of yourself, Fulwish."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "— Sia"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Winning first place in the campus imagenesis competition, ranking at the top for several consecutive semesters... You have always been outstanding, Fulwish."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "That's why I truly believe you can make it through that nightmare and show all of Planarcadia, with a smile, that we won't be easily defeated by a single tragedy. I've never doubted that."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A new chapter in life is about to begin. Facing the lens of life, please keep on smiling!"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "— Sara"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Message from a Teacher"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Hearing that you will soon leave Planarcadia to pursue cognitive science, I can't help but feel a sense of loss. It's a failure on my part as a teacher that I couldn't inspire you to stay in the imagenesis industry."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "But as your teacher, I fully understand your choice. To have helped shape a researcher like you for the Intelligentsia Guild fills me with deep pride."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "I sincerely wish you the vastest of horizons, Fulwish. May you realize your dreams, and may the sorrow sown in the past blossom into flowers of happiness in the future."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "— Hermien"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Message from Parents"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "*Left blank*"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

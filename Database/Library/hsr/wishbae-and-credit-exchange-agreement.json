@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "wishbae-and-credit-exchange-agreement",
+  "name": "Wishbae and Credit Exchange Agreement",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Wishbae_and_Credit_Exchange_Agreement",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Issued on January 2, Arcadian Calendar 1855"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Fourth revision on December 3, Arcadian Calendar 1993"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Interastral Peace Corporation and the Planarcadia Council hereby agree to the following terms:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(1) The Interastral Peace Corporation shall establish and conduct financial business activities related to residents of the Planarcadia in accordance with the terms of this agreement."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(2) To facilitate business and transactions, the Planarcadia Council shall establish an account and, within the territory of the Planarcadia, independently determine the exchange method between Wishbae and credits."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(3) The Interastral Peace Corporation emphasizes that when business and transactions are settled in Wishbae, the Planarcadia Council holds the authority to interpret related activities."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(4) The Planarcadia Council emphasizes that when business and transactions are settled in credits, the IPC holds the final authority to interpret related activities."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(5) The Planarcadia Council reaffirms the maintenance of all legal statuses of credits as a universal currency within the Cosmos."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Article One"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Declaration on the Particularity of Wishbae"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(1) The Interastral Peace Corporation acknowledges that Wishbae is a natural cryptocurrency circulating within the territory of Planarcadia."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(2) The Interastral Peace Corporation and the Planarcadia Council jointly confirm that if technology capable of rendering the total supply of Wishbae infinite emerges in the future, this exchange agreement shall become void immediately upon mutual confirmation of this new fact by both parties."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Article Two"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Obligations Regarding Exchange Arrangements"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(1) General Obligations of the Interastral Peace Corporation"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Given that Wishbae possesses inherent value as a commodity currency for the residents of Planarcadia, the Interastral Peace Corporation shall have the obligation to maintain a stable exchange rate between credits and Wishbae, avoiding manipulation of this exchange relationship for improper gain. The specific methods for the IPC to fulfill this obligation shall be determined by Annex I of this agreement."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(2) General Obligations of the Planarcadia Council"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Given that the credits issued by the Interastral Peace Corporation already hold both legal and substantive status as a universal currency within the galaxy, the Planarcadia Council shall have the obligation to maintain a stable exchange rate between Wishbae and credits, avoiding manipulation of this exchange relationship for improper gain. The specific methods for the council to fulfill this obligation shall be determined by Annex II of this agreement."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Article Three"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "On Business and Trade"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

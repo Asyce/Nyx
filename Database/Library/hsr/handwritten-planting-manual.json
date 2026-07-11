@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "handwritten-planting-manual",
+  "name": "Handwritten Planting Manual",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Handwritten_Planting_Manual",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Preface"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "This manual is certified by the Village Committee of Aedes Elysiae, embodying the collective wisdom of generations, blessed by the Oronyx Altar. May all readers approach with reverence, use this knowledge wisely, and live in harmony with the earth."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Wheat Field Selection"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Choose sheltered, sunny locations for wheat fields, with soil that clumps when rolled between fingertips without crumbling. If the soil emits an earthy fragrance when inhaled, it promises a bountiful harvest. Stay clear of areas with frequent night mists, which may be influenced by Zagreus's tricks."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "By Georios's grace, our village's finest soil is located southwest of the altar, extending to the forest's edge where the white flowers bloom. This blessed land yields two harvests yearly, producing heavy, plump ears of wheat."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Irrigation System Construction"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Our village's irrigation follows the natural design of Georios's vein, mirroring the earth's patterns. The main channel draws water from elevated terrain, with tributary channels branching like a tree. Ideal dimensions are two feet wide and one and a half feet deep. The channel bottom should be lined with cobbles and sides reinforced with stone, maintaining water flow without saturating adjacent fields."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The main channel requires annual dredging during the Month of Fortune to prevent blockage. The collected silt, once dried, creates premium fertilizer, particularly beneficial for flower gardens."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Water Wheel and Distribution Techniques"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The water wheel serves as the heart of our irrigation system and must be crafted from durable hardwood with twelve paddles, representing the Twelve Titans' protection. Oil the wooden axle every fortnight to maintain smooth rotation. Inspect the stone groove where the wheel sits regularly for cracks or damage."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Water allocation follows the village committee's agreement: wheat fields receive priority during the Month of Cultivation, flower fields during the Month of Joy, and equal distribution in remaining months. Drought conditions necessitate special arrangements."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Irrigation Timing and Frequency"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Wheat field irrigation schedule:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Post-sowing: Moisten soil to a depth of one finger"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Pre-heading: Saturate soil to a depth of three fingers"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Grain filling period: Water moderately to prevent crop lodging"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Flower field irrigation timing:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Month of Everday: Twice daily (morning and evening), moderate volume"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Month of Freedom through Month of Reaping: Daily watering"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Month of Mourning through Month of Fortune: Every five days, with frost protection"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Note: Always consider Aquila's mood (cloud formations) when scheduling irrigation. If clouds appear dense and mountainous, postpone watering to avoid potential flood damage from imminent rainfall."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Nine-Year Crop Rotation Method"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Our village developed a nine-year crop rotation system aligned with Titan numerology to sustain soil fertility indefinitely. The sequence follows:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Wheat (soil depleting)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. Legumes (soil enriching)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. Root crops (neutral impact)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "4. Wheat (soil depleting)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "5. Vegetables and fruits (moderately depleting)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "6. Legumes (soil enriching)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "7. Wheat (soil depleting)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "8. Medicinal herbs and spices (mildly depleting)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "9. Fallow period (soil restoration)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Mark each field's rotation year using stone pillars carved with appropriate symbols along field borders. The Cultivation Manager oversees this system to prevent errors."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Field Ridges and Boundary Stones"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Construct field ridges one foot wide and half a foot high using compacted soil, then plant with herbs. This technique not only prevents erosion but also attracts beneficial insects while deterring pests."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Redraw boundary lines every three years to maintain clear borders despite soil erosion. Place a Bronze Coin beneath each boundary stone as a symbol of Talanton's impartial justice."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Fallow Field Management"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Never neglect fallow fields. Instead, sow them with plant fertilizers such as red clover or milk vetch. Once these plants reach knee height, plow them under to decompose within the soil."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Plant aromatic herbs like mint and mugwort around fallow field perimeters to discourage pests. Strictly prohibit livestock grazing on fallow fields to preserve soil structure integrity."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Composting Techniques"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Position compost pits in sheltered, sunny locations away from water sources. Layer materials as follows:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Bottom: Coarse branches and dry hay"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Middle: Stable manure, hearth ash, and food remnants"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Top: A covering of fine soil"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Turn the contents weekly to ensure thorough decomposition. Well-matured compost appears dark brown, feels warm to touch, and emits an earthy aroma without any foul smell."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Special Fertilizer Recipes"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Wheat Field Formula:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Seven parts well-decomposed manure"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Two parts wood ash"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "One part fish bone meal"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A small quantity of dew collected from the Oronyx Altar"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2. Flower Field Formula:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Five parts decomposed leaf matter"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Three parts bird droppings"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Two parts fine sand"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A sprinkle of ground seashell powder"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Apply within half an hour of opening and avoid Aquila's intense midday sun to preserve nutrient potency."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Liquid Fertilizer Preparation"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Liquid fertilizer works best for young seedlings and flowering plants. Prepare by filling a large wooden barrel with:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "One basket of fresh shrub ash"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Three ladles of animal urine"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Ten ladles of clean water"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Allow to steep for seven days, then dilute to one-tenth strength before application. Caution: The concentrated solution will burn plants if applied directly."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Sowing Ceremony"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The day before sowing begins, villagers gather at the Oronyx Altar where the priest conducts a blessing ceremony. Required offerings include:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Small samples of various seeds"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A bowl of pure spring water"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A pitcher of freshly brewed wheat nectar"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A crown woven from wheat stalks"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "During the ceremony, the priest immerses the seeds in water as the congregation joins in reciting sacred prayers."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The Field Walk"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "On the third day of the Month of Everday, villagers join hands and encircle the wheat fields while singing the traditional \"Song of Wheat Waves.\" This ritual banishes harmful miasma and ensures robust wheat growth."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Processions must proceed clockwise, following Aquila's celestial path. The priest carries a long willow branch, softly sweeping it across the wheat, a symbolic act of nurturing growth."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Harvest Thanksgiving"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Upon completing the harvest, leave a small section of wheat uncut as gratitude for the earth's bounty."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As the final cart of wheat enters the village, residents form a double line, celebrating with songs and dances. Each family prepares small cakes from newly harvested wheat and presents them at the Oronyx Altar. Following the priest's blessing, these cakes are shared among all, a celebration of abundance and community spirit."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Afterword"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "This volume preserves agricultural knowledge accumulated through generations. We commit these practices to writing so they may guide future villagers. May Aedes Elysiae forever enjoy billowing wheat fields, sweet-scented blossoms, prosperous inhabitants, and the Titans' divine protection."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "<!--"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

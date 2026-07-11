@@ -1,0 +1,284 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "about-fulwish-s-variety-show-plans",
+  "name": "About Fulwish's Variety Show Plans",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/About_Fulwish%27s_Variety_Show_Plans",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*A proposal for a variety show, with the title \""
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Please Be Happy"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Revival Plan\" still faintly visible on the cover page...*"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Proposed by: Collier, Producer of"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Please Be Happy"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Preliminary Research: Misjudgment Driven by Public Opinion"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Conclusion: Commercial potential remains!"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Our network's variety show"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Please Be Happy"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "was dedicated to bringing joy to our guests. With buzzworthy topics and a strong sense of social responsibility, it became an instant hit, only to crash and burn after the fake smile scandal involving victims of the Bloodstained Games. Buried under an avalanche of public outrage, the show was suspended indefinitely, and every subsequent endorsement deal went up in smoke. But was that really the end of the story?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As the producer, I conducted many questionnaire analyses and street interviews, and my conclusions flew in the face of conventional wisdom: 53% of viewers admitted they already assumed variety shows were scripted, and 86% didn't even care about the scandal!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As one interviewee put it:"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "What matters most in TV isn't authenticity, but entertainment."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "We gave in to the vocal minority and trapped ourselves in a spiral of silence."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Feasibility Analysis: New Faces, New Crew"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Fulwish, born for the show!"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "During the hiatus, our team discovered a new potential guest: Fulwish, a student at Graphia Academy and survivor of the Herald of Death incident. She witnessed her classmates being killed, barely escaped with her life, only to then hear that her parents were murdered on the streets of Dovebrook."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A young girl in the prime of her life struck by such dramatic tragedy; what path lies ahead for her after she lost both parents? Undoubtedly, Fulwish brings unparalleled buzz with her, enough to bring our show, and those unfulfilled sponsorship deals, back to life!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Before the show launches, we'll work with the IPC to spin positive PR, revealing that the fake smile scandal was the personal misconduct of the director and guests. The IPC won't refuse. They've been hoping for an inspirational success story to help everyone move past the Herald of Death's shadow anyway."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "On top of that, we'll craft a brand-new script tailored specifically for her."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Production Plan: Immersive Reality Show"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Greatly improved production value and entertainment factor!"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "No more crude attempts at comedy, instead, we offer genuine care and compassion. No more cheap laughs, instead, we provide a gentle, almost imperceptible comfort. We'll take the creative concepts from Astropolis and craft an all-new script to produce a fully immersive, hyper-realistic reality show!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A friendly stranger greeting you on the street? A kindly elder offering advice in the park?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A classmate sharing lunch with you? A shopkeeper giving out lucky awards?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A neighbor bringing over a piping-hot meal? A generous philanthropist collecting donations for charity?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "With miniature cameras, our guest won't even need to visit a studio. Their home, classroom, even the road to school... every place they go becomes the perfect stage."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Our crew will surround our protagonist with joy and happiness. With smiles, encouragement, and blessings, bit by bit, we'll inject happiness into this girl's shadowed heart, driving away the lingering nightmares of the Herald of Death."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "In the end, she will live a happy life under the spotlight. And that radiant smile will reach every single viewer in front of their TV screens!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Notes: Approved"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

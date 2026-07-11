@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "oath-of-the-silvermane-guards",
+  "name": "Oath of the Silvermane Guards",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Oath_of_the_Silvermane_Guards",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "As a child of Belobog and the executor of the will of the Supreme Guardian, I volunteer to join the Belobog Silvermane Guards."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "In the name of the glory of the Silvermane Guards, I hereby swear under the city wall:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I will constantly protect the last bastion of humanity — Belobog"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I will be loyal to Belobog, the Architects, and the citizens"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I will carry myself with courage, justice, selflessness, and loyalty"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I will obey the laws of the Guards"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I will remember the oath of the Guards"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I will obey the command of the Guardian"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I will uphold the honor of the Architects"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "For every step I take forward, it is tomorrow."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "For every time I stand still, it is our formation line."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "For every time I step back, it is home"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "This oath shall stand for as long as the wall stands"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Should I break the solemn vow"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I will offer myself to be judged and punished by the Belobog laws, the Supreme Guardian, and all citizens."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

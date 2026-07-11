@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "the-account-of-preceptor-sutuan-crafting-a-statue-of-the-high-elder",
+  "name": "The Account of Preceptor Sutuan Crafting a Statue of the High Elder",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/The_Account_of_Preceptor_Sutuan_Crafting_a_Statue_of_the_High_Elder",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "With the entire delve relocated, the Arbor's voracious activity subsided. The Preceptor Sutuan took out an almighty commission of artisans including one master, three craftsmen, and apprentices to erect the hallowed Dragonvista Rain Hall. Inside was an area for a statue of the High Elder."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "With a budget of seven hundred thousand strales for the project, the Preceptor Sutuan stumped up some thirty thousand strales himself."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "High Elder Yubie, bearer of the Azure Dragon's legacy, spreading clouds and rain to bless all living souls."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Unstunted by 90 rebirths, just as the Alliance remains strong after 300 years."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Just as the growing Arbor required rescuing from overloading eggs, the world is in chaos, necessitating the solving of the collapsing crisis."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The High Elder blessed the Luofu with the Scalegorge waters to suppress the mara crisis forevermore — truly an impossible mission."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "He pacified the Six Charioteers and created a peaceful era. This statue serves to remember such monumental grace."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

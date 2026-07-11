@@ -1,0 +1,458 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "letter-to-mifamem",
+  "name": "Letter to Mifamem",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Letter_to_Mifamem",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "About Repairing",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Dear Mifamem:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(Dear friend, of course I'm Phainon!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Born in Aedes Elysiae, I'm the son of Hieronymus and Audata. Well, my family bonds nearly ended the day I left the wheat out in the rain when I was eight."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Let's just say a parent's tough love is a form of love nonetheless. Likewise, maybe the village chief was just worried that you'd be scammed. A little caution never hurt anyone, after all./Firstly, Phainon is known as the Deliverer. I've saved plenty of worlds myself. Also, quite a few people have said — publicly on multiple occasions, mind you — that I bear a striking resemblance to Phainon. And finally... Phainon has never denied that I am him."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Therefore, this proves that I am Phainon himself.)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(I once journeyed to an ancient land where people lived on ships. Their homes adorned with vast, resplendent sails, gliding across the void."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "They had a unique philosophy of woodworking — using interlocking mortise-and-tenon joints to build structures of astonishing stability."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Perhaps that might inspire you when fixing your mailbox./Mailboxes outside your door may break... but email never does! Even fairies like you need a little tech boost to keep up with the times."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Email is a transmission system that delivers messages from one server to another address through certain agency protocols. Now that you understand the basics — why not give it a try?)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(Fixing things isn't hard."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sanding, carving, shaping. It's a lot like practicing swordplay — composed of countless extremely simple moments."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Best of luck, partner!/When your fingers trace the grain of the wood, you start to feel what it feels..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And when you disassemble the decaying wooden board to paint it anew, you're giving it another chance at life."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "There's only 99% ink left in this pen, so I'm gonna stop here for now!)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Forever and always"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Your good friend"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "label": "About Cleaning",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Dear Mifamem:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(Dear friend, I was ecstatic to receive your letter. I'm sorry I had to set out on my journey without saying goodbye — some things just couldn't wait."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As time flies, the past feels like a hazy trance, a brief nap on a heap of grass in a maze. It's as if I'm speaking to my past self, as I open this letter."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Regardless, thank you for writing to me./Sorry, dear friend! You might not believe this, but not too long ago, I was trapped in a space station — exhibited as a collection! Maybe I've become a famous landmark now, I wonder if any tourists took pictures with me?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Anyway, I only just woke up. It's wonderful to hear from you!)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(Abyss of Fate, Okhema, Castrum Kremnos... I've wandered far these past few years."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But I think you'd like the Grove best. The people there live atop an ancient, towering tree — old and grand enough to house ten thousand little fairies. I pursued my studies there for a period of time, and met reliable friends and teachers I'll never forget."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "One day, I hope I can introduce them to you./Now, speaking of unforgettable adventures... I have to mention the very first stop on my journey. Snow deep to the chest, our toes were frozen stiff. A ruler, blinded by ambition, was bent on taking our lives. The Colossus at her command blotted out the sky — bearing down with the crushing force of a thousand avalanches..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Let's leave the rest of that tale for another day.)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(That thing I made for you back then is actually called a \"broom\" — an essential tool in the outside world. All you need are thirty leaves, each as long as your arm, and some sturdy grass rope to bind them together."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "If counting to thirty's a bit much, just ask the chief for help!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Best of luck to you. I know our paths will cross again someday. And when they do — I'll tell you every story I've ever lived./Mifamem, remember this: give tools to civilization, not civilization to tools."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "You have to think out of the box sometimes. Toss out all the dirty furniture and get new stuff. That'll clean up everything, right?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The signal's weak here, it might cut off any second now. Let's chat again another time!)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Forever and always"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Your good friend"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "label": "About Cooking",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Dear Mifamem:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(Dear friend, I'm so glad you noticed!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "At Kephale's feet lies Okhema, home to a group of red-haired messengers. They're about as tall as you are, and can open doorways between realms, sending letters with a whoosh, right to where they need to be! That's how this letter found its way to you./As for how it arrived so quickly... Maybe my longing for you has given it wings?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Or maybe time flows differently in the maze. I'm afraid only time itself knows the answer to that.)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(Haha, to think you'd still remember that. It's been a while since I last tasted it too."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I recall it was olive oil and wheat flour kneaded into dough, baked in the oven. As for the sugar... how many spoonfuls did Mom use again?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I was too busy eating to pay attention. I kept telling myself I'd have the opportunity to learn the recipe before I leave."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "You can give it a few more tries!/The bustling streets of Okhema are also home to extraordinary cuisines. Among them lies a dish that stirs the soul — known only as the \"Redsoil.\" It's a bit of an acquired taste, but making it is simple — just press the right kind of red soil into a solid block."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It melts in your mouth, and the flavor lingers beautifully.)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(That's all from me for now. Eat well and sleep tight. Be happy, and live joyfully!/I'll end it here. All is well.)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Forever and always"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Your good friend"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

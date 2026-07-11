@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "a-note-from-anaxa",
+  "name": "A Note from Anaxa",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/A_Note_from_Anaxa",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "To (Trailblazer):"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Through your collective power, I have completed this life's greatest research, and the performance could have ended."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But in the mind of that Antikytheran, I saw boundless knowledge beyond this world."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "On the final stage, I witnessed you achieve the miracle of defying destiny."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "It is these mysteries I still cannot comprehend that unlock the riddles confining our world,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "so that our endless groping in darkness shall not be in vain."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Therefore: Having glimpsed the truth beyond the cave, I must never cease my quest."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "No matter what form Amphoreus continues to exist in,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I shall continue to carry \"Reason\" until I reclaim the truth,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "and once again surpass and desecrate that which is more divine and magnificent!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "You can consider this Philosopher's Stone as my reward to you."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I hope you'll treasure this alchemical miracle containing all the wisdom of this world,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "but when you encounter fools who won't listen to reason, use its hardness to knock some sense into them."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Anaxagoras"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

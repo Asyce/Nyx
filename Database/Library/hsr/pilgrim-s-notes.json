@@ -1,0 +1,362 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "pilgrim-s-notes",
+  "name": "Pilgrim's Notes",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Pilgrim%27s_Notes",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Page 1"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It's full moon tonight."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "While standing on the terrace of the baths praying to Phagousa, I heard unusual music coming from the sea. Not the gentle whisper of waves or festive sounds, but a deep, distant melody that seemed to rise from the ocean depths. The priests claim it's merely the wind's voice, but I know, Phagousa is calling to me."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tomorrow I shall travel to the Warbling Shores, closer to the music's source."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Page 2"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I've been in Styxia for two days now."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "At night, while others immerse themselves in drunken reverie, I visit the shore alone. The music sounds clearer here than in Okhema, like a sorrowful narrative poetry telling forgotten histories and unkept promises."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I asked local fishermen, who confirmed an ancient temple exists underwater, but no one can reach it. They say those who aren't Phagousa's devoted followers will be driven mad if they hear the underwater music, jumping into the sea and never to return. They warned me against pursuing that sound."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "But they don't understand, the music brings me not madness, but revelation."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Page 5"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I visited the temple today. The High Priest, seemingly aware of my intention, gave me a special brew, saying it would allow me to breathe underwater. She warned that if I was determined to journey to the ocean floor, I must accept that it's a one-way path from which there is no return."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Phagousa's song calls to those with the most sensitive spirits,\" the priest said. \"There, you will witness eternity.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I'm ready. I'll take this journal with me to record my experiences until the end of this path."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Wait, can a journal breathe underwater? No... I mean, is it waterproof? I'll check with the priest tomorrow."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Page 8"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I drank the brew, and my journal, having been treated, now becomes waterproof. The liquid had a strange taste. After drinking it, I felt a sharp pain in my stomach, followed by an unusual sense of comfort."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I jumped into the water and found out I could actually breathe like a fish."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The underwater world is more magnificent than I imagined. Strange sea creatures swim around me, completely indifferent to my presence, as if I belonged among them. The light creates curious patterns in the water, like invisible guidance, and the music grows increasingly clear."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I begin to descend, moving toward the music's source."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Page 15"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I've completely lost track of time. I can't tell which quint it is, or even which day. Underwater, light changes in ways completely different from the surface world."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I've discovered the entrance, a massive underwater archway adorned with carvings of Phagousa and her Titankins. Beyond lies a long corridor leading deeper. The corridor walls are covered with runes and murals telling the sea sirens' story. I see depictions of Helektra leaping into the chalice and images of Phagousa's tears mingling with the black tide."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The music now sounds perfectly clear, guiding me forward."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Page 20"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It feels like an eternity has passed, as if seawater has seeped from my ears into my mind. I try to drain the water, but that makes no sense since I'm surrounded by water. How can I possibly clear my ears here?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I've lost all sense of time. I just keep swimming and swimming... After passing through countless corridors, I've finally reached a magnificent domed hall. The scene is incredible: Water currents suspended in midair forming elegant curves, massive chandeliers of shells and coral emitting soft light, circular seats filled with audiences — humans, sea sirens, and creatures I cannot identify. All completely motionless, like statues."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In the hall's center, on a circular stage, hang several water curtains. Though my vision is obscured, I glimpse what seems to be a woman's figure. Is she... holding a violin? Or seated in a chair? I can't tell... All I know for certain is that she's playing that sorrowful melody that's been calling to me. I stand motionless at the doorway, afraid to break the spell, just silently listening to her music."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Page ??"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I've stayed to witness the ceremony, since the performance continues without end."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Endless memories dwell within the music. As the melody flows, ancient visions unfold before me: sea sirens binding themselves to Phagousa, the black tide's first devastating invasion, Helektra plunging into the sacred chalice, the underwater kingdom falling to betrayal and destruction..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "More than simple melody, this is time crystallized, a history refusing to fade into oblivion."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "From my front-row seat, something unexpected happens. My form also begins to crystallize, integrating into this eternal moment. While my limbs stiffen, my thoughts sharpen with unprecedented clarity."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "And the truth dawns on me."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Everyone around me, we are all pilgrims drawn by the music, now eternal witnesses to history, frozen in time."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But I embrace this destiny without regret. In this place, time loses all meaning. Joy and sorrow dissolve into perfect, endless calm. Here I'll remain, forever listening to this final melody, awaiting the true guardian who can break our endless cycle."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "This may well be my final entry. If anyone finds these pages, know that deep beneath the waves exists an eternal performer with her audience, all waiting for prophecies to be fulfilled and promises that time will never honor."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "O Phagousa, will anyone hear our prayers? Will someone bring us release? Or are we destined to wait forever in this frozen moment?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "(The remaining pages have been damaged by seawater, but one line remains visible on the final page)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "I see a light, there, in the distance. Is it dawn breaking, or just another false hope?"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

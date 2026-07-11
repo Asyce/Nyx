@@ -1,0 +1,629 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "tidal-ronde-water-lyre-musical-notation",
+  "name": "Tidal Ronde Water Lyre Musical Notation",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Tidal_Ronde_Water_Lyre_Musical_Notation",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "— A Hymn for the Chalice of Plenty"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[Tuning Instructions]"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Twelve strings correspond to the powers of the Twelve Titans:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1 Evernight - E (String of Oronyx)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2 Justice - A (String of Talanton)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3 Infinity - D (String of Janus)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "4 Twilight - G (String of Aquila)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "5 Pillar - C (String of Georios)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "6 Plenty - F (String of Phagousa)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "7 Worlds - B (String of Kephale)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "8 Rift - E' (String of Cerces)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "9 Gold - A' (String of Mnestia)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "10 Fury - D' (String of Nikador)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "11 Whimsy - G' (String of Zagreus)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "12 Shadow - C' (String of Thanatos)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The lyre strings need to be doused in Phagousa's holy water for their divine powers to manifest"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "For every increased inch of water, their pitch rises half step"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[First Movement: Rising]"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Water level: Initial surge (Ankle height)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Cadence: ♩=72 Gentle as a morning tide"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "E |-E---B---|C---E---|"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A |--A---C--|--E---G-|"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "D |---D---E-|---G---B|"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "G |----G----|----C---|"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "C |-----C---|-----E--|"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "F |------F--|------A-|"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "B |---------|B---D---|"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "E' |---------|--E---G-|"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A' |---------|---A----|"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "D' |---------|----D---|"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "G' |---------|-----G--|"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "C' |---------|------C-|"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[Second Movement: Tidal Surge]"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Water level: Crescendo (Knee height)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Cadence: ♩=108 Like a surging tide"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "E |-E-B-E-|-G-B-E-|"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A |-A-C-E-|-C-E-A-|"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "D |-D-E-G-|-E-G-D-|"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "G |-G-B-D-|-B-D-G-|"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "C |-C-E-G-|-E-G-C-|"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "F |-F-A-C-|-A-C-F-|"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "B |-B-D-F-|-D-F-B-|"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "E' |-E-G-B-|-G-B-E-|"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A' |-A-C-E-|-C-E-A-|"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "D' |-D-F-A-|-F-A-D-|"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "G' |-G-B-D-|-B-D-G-|"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "C' |-C-E-G-|-E-G-C-|"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Third Movement: Tidal Climax"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Water level: Full (Chest height)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Cadence: ♩=144 Like a descending storm"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "E |-E-G-B-E-|-B-E-G-B-|"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A |-A-C-E-A-|-C-E-A-C-|"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "D |-D-F-A-D-|-F-A-D-F-|"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "G |-G-B-D-G-|-B-D-G-B-|"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "C |-C-E-G-C-|-E-G-C-E-|"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "F |-F-A-C-F-|-A-C-F-A-|"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "B |-B-D-F-B-|-D-F-B-D-|"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "E' |-E-G-B-E-|-G-B-E-G-|"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A' |-A-C-E-A-|-C-E-A-C-|"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "D' |-D-F-A-D-|-F-A-D-F-|"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "G' |-G-B-D-G-|-B-D-G-B-|"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "C' |-C-E-G-C-|-E-G-C-E-|"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Score Information"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. [-] indicates a fermata, one beat for every cell"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. The twelve-string tuning symbols indicate the base pitch, and actual pitch fluctuates according to water level"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. The score corresponds with the twelve strings' positions from top to bottom"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Performance Notes"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "This score is only recorded with standard melodic phrases, and actual performance is influenced by the following factors:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. During the rising tide, the pitch naturally rises as well"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. The timbre becomes more sonorous during quicker currents"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. The harmony becomes richer when storms descend"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "4. When a performance takes place along a coast, resonance is amplified"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Special Performance Influences"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "≈ Wave Sounds: Produced during intense currents"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "↑ Rising Tide Sounds: Pitch rises with the water level"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "↓ Receding Tide Sounds: Pitch lowers with the water level"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "～ Afterecho: Persists as flow changes"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[Reminder]"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Please do not perform when during black tide disasters"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. Phagousa's holy water must be imbibed first before battle"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. Please protect the lyre from water when performing in storms"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "4. Beware of Zagreus' disciples who may secretly replace the lyre's strings"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "game": "gi",
+  "id": "pharmacist-s-notebook-i",
+  "name": "Pharmacist's Notebook (I)",
+  "sourceUrl": "https://genshin-impact.fandom.com/wiki/Pharmacist%27s_Notebook_(I)",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Naoko-sensei passed away today... This makes me the final traveling doctor still left on this island ever since the Tatarigami outbreak began."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It pains me to watch as the people who stayed behind on the island fall to illness one after another. There is nothing I can do about the Tatarigami's corruption but to continue the self-deception of making sweet Lavender Melon soup for people..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Care is also a form of remedy.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "...Sensei always used to say that, but it's just a thing that medical professionals like ourselves say to make ourselves feel better..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

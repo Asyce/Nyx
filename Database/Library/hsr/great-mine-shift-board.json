@@ -1,0 +1,329 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "great-mine-shift-board",
+  "name": "Great Mine Shift Board",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Great_Mine_Shift_Board",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*You are unable to find the shifts before and after this page. Even this one looks out-of-date.*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Date: September 23, 687"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "On Duty: Alex"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Shift: Night"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Work Details: Planting charges"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Remarks: The charges have all been planted, remember to let the technician check them tomorrow. It's a little hard to see in the dark. By the way, is anyone planning to check out the new Fight Club after work?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Date: September 24, 687"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "On Duty: Andre"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Shift: Day"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Work Details: Blasting"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Remarks: One of the detonators broke, but luckily, nothing happened, or we would all be blown to kingdom come. As a side note, Alex, stop thinking about nonsense all day long. It was nearly over for me because of you."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Date: September 24, 687"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "On Duty: Steve"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Shift: Night"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Work Details: Slag removal"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Remarks: I brought some strong ones and put them in the shelter. There's some olm meat inside, ready to eat."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Date: September 25, 687"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "On Duty: Peak"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Shift: Day"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Work Details: Face drilling"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Remarks: Yummy."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Date: September 25, 687"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "On Duty: Mucha"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Shift: Night"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Work Details: Face drilling"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Remarks: Went to the Fight Club. Boring."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Date: September 26, 687"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "On Duty: Orga"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Shift: Day"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Work Details: Planting charges"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Remarks: This set of detonators have been checked. I have been transferred, and Alex will be in charge of the blasting. Don't eat the food reserves in the shelter. Also, using the remarks column to chat is forbidden from now on."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Date: September 26, 687"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "On Duty: Peak"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Shift: Night"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Work Details: Slag removal"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Remarks: Yummy, but it's all gone now."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Date: September 27, 687"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "On Duty: Alex"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Shift: Day"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Work Details: Blasting"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Remarks: Blasting complete. Some incapable people just can't help but to blame others. There's never been any problems with my detonators, nor will there ever be."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

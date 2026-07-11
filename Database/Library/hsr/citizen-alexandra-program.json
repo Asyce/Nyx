@@ -1,0 +1,667 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "citizen-alexandra-program",
+  "name": "Citizen Alexandra Program",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Citizen_Alexandra_Program",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Page 1",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Opens July 20th"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "A Golden Theater Musical Department yearly special"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Toward the end of the second Guardian Alexandra's life, her heart was incessantly filled with guilt."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A beautiful maiden stepped up to the political arena, giving up her personal life, carrying out her duties with utmost determination."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Architects guide her on the path of Preservation, and the count and she grew close, though never formalizing their relationship. The commander of the Silvermane Guards fought alongside her."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "When she looks back on her life, will she lament on her many missed chances at love?"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"Alexandra, do you regret it all?\""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Three Goliards Awards for Best Actor in a Musical:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The youngest Goliards Award winner for Best Orchestration:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Six-time Goliards Lifetime Achievement Award Winner:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Potential new casting:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Director: Meeya, Producer: Carl, Music Director: Catherine"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sound Director: Bonnie, Artistic Director: Janet, Choreographer: Lilia, Concertmaster: Brian Orchestra"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Costume Designer: Abigail, Set Designer: Timmy, Lighting Designer: Bob, Public Relations Manager: Robert"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Alexandra - Dasha"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Count Collins - Tony"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Bourne the Architect - Andy"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Silvermane Guard Bruce - Jonathan"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Maid Yelena - Isabella"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Personal Secretary Iva - Margaret"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Sleeping Song\" - Yelena, Iva"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"On This Frozen Night\" - Alexandra, Companion"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Under Guarding Wings\" - Alexandra, Bourne"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"The Charity Ball\" - Collins, Bourne, The Ministers"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"The First Dance\" - Alexandra, Collins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Two Hearts\" - Alexandra, Collins"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Her Shadow\" -Bruce"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Where The Heart Belongs\" - Alexandra, Bruce"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"My Stone Heart\" - Alexandra"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"The Fading Light of Life\" - Alexandra, Yelena, Iva"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"After Tomorrow, Will You Remember Me?\" - Alexandra"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Belobog Cries for Her\" - Collins, Bourne, Bruce"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "label": "Page 2",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Behind the scenes: After a two-year hiatus, Catherine the genius composer surprised the theaters with her new opera masterpiece"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Author: Olsen, journalist of"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Belobog Weekly"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Two years ago, Catherine easily won the Goliards Award with her very first piece of work, thus becoming the youngest winner of the Goliards Award for Best Orchestrations in a Play. This talented composer did not accept any offers from any directors or theaters. However, she shut herself off from the world at the height of her popularity and spent two years focusing on her new work."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "As it turned out, Catherine's latest masterpiece"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Citizen Alexandra"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "proved to be a sensation when the initial draft was introduced to the public. Theaters and musicals loved this talented composer's new work. To everyone's surprise, Catherine chose a new performer to play the female lead."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\""
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Citizen Alexandra"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "is a story driven by a female protagonist. The supreme guardian can also show her warm and vulnerable sides. I hope that the audience can understand the journey the guardian went through her life, transforming from vulnerability to the Path of Preservation. That's the reason that I chose a new performer,\" Catherine explained to us."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The one in Catherine's mind was Dasha, for whom it would be her first time as a female lead on stage. \"Although in this play, Alexandra will reveal her female elegance and a unique charm, she is always the Supreme Guardian in her people's hearts, which means she had to change. She had to transform from a tender rose to an unbreakable rock. As for Dasha, her personal experience honed her voice to be able to showcase this aspect.\" Catherine said with a smile that she was very grateful for the trust of the director and producer in letting her decide the female lead."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The cooperation between Meeya the director and Catherine the composer was a surprising success. The play"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Citizen Alexandra"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "had not been shown to the public, but in the previous trial shows that only opened to professionals and the media, this musical combining many popular songs was greatly praised by the audience. With the new singer Dasha's beautiful voice, not only did Alexandra the Supreme Guardian show the tenderness of a teenage girl, but also perfectly presented her determination and selflessness as she chose the Path of Preservation accompanied by three male friends."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Blizzards may tear me apart but can also make me who I am. It's your love that help my heart always be as unbreakable as a rock.\" Before the official show starts, Dasha sang us a small part of the Alexandra theme song. In a few lines, the legendary life of the supreme guardian has been presented vividly."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "label": "Page 3",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The latest masterpiece"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Citizen Alexandra"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "from the talented composer Catherine after a two-year hiatus,"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "on show at the Golden Theater on July 20."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Limited tickets and merchandises will be available at the counter."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Binder with the cover of"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Citizen Alexandra"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "poster"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The cover of the binder is printed with the poster of"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Citizen Alexandra"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ","
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The size of the binder perfectly match the size of the program, with a great storage zone of 30 pages."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Practical and highly memorable, suitable for storing piles of programs you get from the theater."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "List price: 1500 shield"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Citizen Alexandra"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Supreme Guardian theme frame"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Modeled on the original ballroom set from the play."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Special release for audience that love musicals with reserved programs and ticket display cards."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "You can decorate your wall with the program of"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Citizen Alexandra"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "along with your ticket!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "List price: 1000 shield"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Citizen Alexandra"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "repertoire with lyrics"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Including the lyrics of all songs in the"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Citizen Alexandra"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "official show."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Fine laminated pages, printed with the best ink, long-lasting collector's edition."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "List price: 800 shield"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

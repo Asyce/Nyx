@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "rye-bread-soda-iceberg-readable",
+  "name": "Rye Bread Soda Iceberg",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Rye_Bread_Soda_Iceberg_(Readable)",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Rye Bread Soda Iceberg"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "At the beginning of the Eternal Freeze, many migrants thought there wouldn't be a need for cold snacks in Belobog. But soon, they couldn't resist the frozen delight."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Belobog's central heating warmed every room of every household, and the heat made the air dry. Who wouldn't want to eat a frozen delight after a hearty steaming meal? Eating that frozen delight indoors will hit all the right spots. Eating it outdoors? Well, that's a whole other sensation!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "One of the traditional flavors from Belobog is rye bread soda."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Rye bread soda is almost as old as Belobog itself. In 73 AF, the Belobog food committee, not wanting excess bread to go to waste, suggested an idea to several bakeries to create another product with them. First, the excess bread was turned to rusks, completely crushed, and soaked. Then, the bread liquid was extracted and fermented. The result was rye bread soda. It can be considered a product of Belobog's absolute resourcefulness. It's been proclaimed as an iconic drink that even children can enjoy."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In recent years, there is a new rye bread soda on the market, called rye bread soda iceberg, based on the original rye bread soda formula. This new version is quite popular among young people. It is common to see young couples outside a dessert shop eating an iceberg with small spoons. Rye bread soda iceberg is easy to make and the ingredients are simple. Let's learn how to make it at home!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Rye Bread Soda Iceberg Ingredients"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Rye Bread Soda: 800 ml"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Moo-Moo Yogurt: 330 ml (one bottle)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sugar: 10 g"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Steps to Make Rye Bread Soda Iceberg"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "1. Pour the rye bread soda into an airtight bag and leave it outside overnight to freeze completely."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. Use tools such as an ice shaver to shave the iced soda onto the plate and form an iceberg."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. Pour the Moo-Moo Yogurt into a bowl and stir with sugar. At this stage, you can add as much different jams of your liking to the mixture."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "4. Pour the mixture from the top of your dark iceberg to form a sweet and sour silvery, silky layer, and you're done!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tips"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "1. Feel free to replace the rye bread soda with any other sweet beverage. It will taste the best with rye bread soda though!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. Please finish the iceberg as soon as possible if you are indoors. If you're worried about it melting too fast, you can add small amounts of well-cooked animal collagen to the mixture. You won't have this problem if you eat it outdoors!"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

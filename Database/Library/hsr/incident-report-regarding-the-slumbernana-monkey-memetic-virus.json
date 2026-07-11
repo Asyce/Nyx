@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "incident-report-regarding-the-slumbernana-monkey-memetic-virus",
+  "name": "Incident Report Regarding the \"Slumbernana Monkey\" Memetic Virus",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Incident_Report_Regarding_the_%22Slumbernana_Monkey%22_Memetic_Virus",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "* Confidential Warning: This document contains highly confidential information on Penacony. Unauthorized distribution will result in severe consequences."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "During the second quarter of the first year of AE 2158, a memetic virus known as the \"Slumbernana Monkey\" spread rapidly in the Dreamscape through images, sounds, and videos. Its impact escalated within the entire Dreamscape and fully covered it in about a week, with its distribution on online platforms manually restricted to evade the IPC's regulation on information."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Some affected individuals gradually exhibited symptoms such as hallucinations, delirium, and aphasia. Some severely impacted victims even shifted their intra-cognition to Slumbernana Monkeys, directly influencing their mental state in reality."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "During this period, dream nurses provided care to affected individuals by focusing on emotion regulation and memory erasure. However, they merely classified the cause of the illness as a common cognitive dissonance symptom, stating, \"They're really caught up in their memes,\" without highlighting any potential risks."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Penacony's Paperfold University was carrying out the Dreamlight Anniversary in the Moment of Sol. All faculty members went to Sunshine Park to conduct academic seminars. During their absence, the Sweet Dreams Troupe specially customized by the Iris Family temporarily took over the teaching and management tasks."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Being memetic beings with cognitive abilities, the Sweet Dreams Troupe was also directly affected by the memetic virus and started spreading the virus through teaching, severely infecting a large number of students. Soon, the students who were infected and saw themselves as Slumbernana Monkeys disappeared from the school, presumably transported to other regions of the Dreamscape by the suspect."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "After the incident lasted a day, the Nameless, who came to participate in the anniversary, and an illegally trespassing Galaxy Ranger intervened, destroying the memetic core of the memetic virus and returning the missing students to campus. However, they refused to provide further information. As a result, the only thing that we know is that the suspect is a member of AtaviSearch Forest, a criminal organization related to Dr. Primitive."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "According to statements from stowaways recently arrested by the Bloodhound Family, their fleet had encountered \"a very, very, very big banana floating in the universe\" at the edge of Asdana. If it was not a hallucination caused by memoria allergy, it would most likely have been the ship of the suspect."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "During the accident, the Bloodhound security guards outside the campus failed to provide any relevant information. After the incident, no relevant information was extracted from their memories, and all the infected students also lost their memories during the infection. This memory loss is currently determined to be unrelated to the memetic virus, and the exact cause is still under investigation."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Per"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Penaconian Public Accident Economic Loss Standards"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", the direct economic loss totaled 11,943,000 Alfalfa credits, mainly for compensating affected merchants selling Slumbernana-Monkey-related merchandises and follow-up virus elimination."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "(1) Main Cause:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The large-scale criminal organization AtaviSearch Forest specifically produced the memetic virus Slumbernana Monkey against Penacony and released the virus here. The personnel of the relevant departments failed to identify the risks and take effective measures in a timely manner, resulting in the outbreak of the memetic virus."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "(2) Additional Factors:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "① The security department within the Bloodhound Family and its affiliated departments lack a comprehensive security system at dreamers' cognitive level and do not possess the technology to thoroughly screen all information entering the Dreamscape."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "② Dream nursing department in the Iris Family lack security awareness and fail to report relevant risks promptly. The Iris Family's Sweet Dreams Troupe system was breached by the suspect and thus lacked security."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "③ The Family branches in Penacony failed to promptly take up the responsibilities originally shouldered by the Oak Family, resulting in poor flexibility in some decision-making processes and a deficiency in risk response capabilities."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "④ The whereabouts of the suspect and the memetic virus have not been identified so far, potentially indicating surveillance blind spots within the Dreamscape."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

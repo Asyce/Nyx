@@ -1,0 +1,316 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "meal-list-of-unknown-origin",
+  "name": "Meal List of Unknown Origin",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Meal_List_of_Unknown_Origin",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Clockie Meat Jelly"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "An item that is the product of a collaboration with an IP. Please do not misunderstand the intent of this product in other strange ways."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Arena Chips"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A glittering star amid the Unicycler crowd, this is flavored with SoulGlad syrup."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "After considering the recent violence, a salty version of the Arena Chips has been added as an option."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Scorchsand Salad"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Remember to fill in the indemnity form before ordering."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Made of an exotic plant that can only be found in the Moment of Daybreak, the unique flavor of this salad is commonly believed to be due to the embers that are left after a meme dissipates."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Momentary Voraciousness"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Do not be worried if you see an empty plate."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Melon-Braised Fish"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Only offered on the way to the Blue Hour in limited quantities. Do consult with Chef Jacob before ordering."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The ingredients used in this dish are specialties from the Moments of Scorchsand and Dusk respectively."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Crossing Penacony on Foot"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The combination platter before you includes specialties from all the Twelve Hours. Indeed, even a prison meal from the Moment of Serenity is included in this dish."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Dream Bubble: Heart of Overflowing Evil"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Paramount Bliss"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A specialty waffle from the Golden Hour, paired with specialty pulled noodles from the Moment of Oasis, and served with a dipping sauce that is made with fried rice sourced from the Xianzhou."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Assorted Cheese Platter"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "In Penacony, even something as mundane as cheese can be quite unusual indeed. The Dreamscape has shattered so many shackles that everything in it is capable of fermenting."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Delicious Trashcan"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "This dessert is contained within an ingenious vessel. Once you have tasted all the presented cakes, you'll find a blessing or a word of advice at the bottom of the trashcan."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Bitter Beyond Belief"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Only in the Dreamscape can one easily collect hundreds of different types of agonizing emotions and weave them into a single dish."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "DIY Sparkling Soda Gummy"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "You can choose the soft candy's design and can even shape it yourself. At periodically held contests, the person who creates the most outstanding work will have their name added to the name of this dessert, in honor of their achievement."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Hopeless Masses"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "An empty glass in a booth by the porthole. Exclusively offered at the Golden Hour."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

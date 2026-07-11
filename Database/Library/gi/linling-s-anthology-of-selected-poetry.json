@@ -1,0 +1,309 @@
+{
+  "schemaVersion": 1,
+  "game": "gi",
+  "id": "linling-s-anthology-of-selected-poetry",
+  "name": "Linling's Anthology of Selected Poetry",
+  "sourceUrl": "https://genshin-impact.fandom.com/wiki/Linling%27s_Anthology_of_Selected_Poetry",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Kitty"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Cats are good, cats are great. Cats love to meow and scratch their heads."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "From the two bright eyes they use to see, hateful pests can never flee!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Manager Xiao"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The shipyard overseer goes for a doze, his sleep so deep with a great big snore."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "From far, you'd think the Geo Lord had stomach woes, but up close he sounds like a large wild boar."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Ocean-gazing"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As I feast my eyes upon the sea, to azure water my heart is drawn."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The oars of yon ships appear unto me like the many limbs of a gigantic prawn."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Ocean-gazing Yet Again"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Day after day, I gaze and I gaze till my eyes are weary and my heart is numb."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Year upon year, I write and recite, but I am to my poems an audience of one."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Time after time, ships will set sail like brave little river fish bound for the sea."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sooner or later, the tides they will turn and drown out the ones who dismiss poetry."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Streets by Night"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A delightful sight is the star-like light from the lamps on the street with the myriad eats."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But alas, no respite from that poor little tyke named Changchang, whose weeping is hardly discreet."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Mt. Tianheng"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Tianheng is big, Tianheng is tall, Tianheng is huge like a great city wall."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Too strong for monsters, bandits, and all. What a great big huge tall strong city wall!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Spring by the Harbor"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "These silken flora that blossom in spring, their flowers seem woven of some thread within..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It feels like it's silk, but it has a faint smell — could it be both silk and a flower as well?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "An Ode to Chop Suey"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "My Zhongyuan Chop Suey is going to waste, there's far more salt in here than I care to taste."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Just one mouthful in and I'm gasping for breath. \"Why is this so salty?\" I gently protest."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"That's just how we make it,\" declares Su Er'niang, \"For the few that can't take it, there's plenty who can!\""
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

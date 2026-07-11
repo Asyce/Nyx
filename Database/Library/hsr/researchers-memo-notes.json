@@ -1,0 +1,285 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "researchers-memo-notes",
+  "name": "Researchers' Memo Notes",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Researchers%27_Memo_Notes",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Part I",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "— Dagnabbit, the password changed again?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "— The password is ██████. Remember, the password is ██████!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "— Which uncivilized person blacked out the password? Other people like us need it too!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "— So what's the password now, does anyone know?"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "label": "Part II",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Experimental Results: Harmless, suitable to be friends with"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Data: 4.0–4.2"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Subject: Mentally well"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Subject Current Status: Writing this report"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Experimenter Signature: Drats, the researcher didn't tell me his name"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "label": "Part III",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "— If you feel you can't complete your work, congratulations! At least you still retained an objective awareness of the external environment!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "— What if I think I can do it?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "— Hey hey, who scribbled on my note?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "— You know, the medical cabin on the space station is pretty cutting-edge. The fees are also borne by the IPC. Let me sincerely advise the two people above to seek help."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "label": "Part IV",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "— Sometimes at night, the mysterious Melon Fairy will appear on the Seed Isle and make the melon you planted about three times larger. However, if you only planted snap peas, she will seek you out and punch you! So far, I've only gotten punched, so I switched to planting melons. I hope she appears again."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "— Update: The Melon Fairy in the Seed Isle is fake news. That terrible person only said that because she was found out trying to steal my snap peas and punched me! I shouldn't have trusted her!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "— Update 2: Dear friends, I am rescinding my statement before. The Melon Fairy is not a divine being, because I did see her. She said she wanted to write my report for me! Hee-hee!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(another person's handwriting): Just... stop. This is a hallucination caused by the hallucinogens from our department leaking into the fertilizer. Wake up! There will be no pretty Melon Fairy coming to help any of you complete your reports!"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "label": "Part V",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "— The cleaning robot with a bald patch in the base zone is peak AI. If you give it some tips, it will bring you to a malfunctioned restroom cubicle with all the rare Curios it stole!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "— A complete lie! That bald-patched cleaning robot even has a shredder function! Who in tarnation gave it that function and wrote it down to prank people?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "— It is even a printer. Friends, this is the adminis-cleaning robot, our space station's specialty of \"efficient working\"!"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "6",
+      "label": "Part VI",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "— The ███ keys between the █ and █ keys on this terminal have malfunctioned. I'm sticking a note here to inform everyone that this has been reported in the staff system and is awaiting technician's repair!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "If you're passing by, take note! My research data is still inside! Do! Not! Touch!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "— So why don't you just say which keys aren't working?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "— ...because those keys are not working."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

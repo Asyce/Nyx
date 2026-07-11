@@ -1,0 +1,230 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "a-hundred-truths-about-the-pepeshi",
+  "name": "A Hundred Truths about the Pepeshi",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/A_Hundred_Truths_about_the_Pepeshi",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Excerpts from the book"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Secret History of the Pepeshi"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. The fluff ball on the heads of the Pepeshi is actually their core, while their human body is merely a form of mimicry."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. Xipe once attempted to bestow blessings upon the Pepeshi, only to discover that it was Xipe THEMSELF who received the blessings."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. Touching the Pepeshi's fluff ball can extend one's lifespan."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "4. In times of danger, the Pepeshi's fluffy ball has the ability to detach from their body and regenerate a new body."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "5. However, there are no known threats that are capable of making the Pepeshi feel truly endangered."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "6. The Destruction is merely a derivative of the Pepeshi's one and only Path — Mischief."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "7. The Pepeshi's fluff ball can emit faster-than-light particle beams."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "8. The Pepeshi can catch the faster-than-light particle beams they launch at the end of those beams."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "9. The Pepeshi do not dream. Instead, dreams dream of the Pepeshi."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "10. Once, a Pepeshi told a joke in a restaurant at the end of the universe, leading to the emergence of Aha."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "11. Pepeshi mathematicians have discovered the ultimate answers to all questions about life, the universe itself, and everything. However, there is not enough space in Penacony's Dreamscape to embrace the profound answers."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "12. The first black hole was created when a Pepeshi forgot to limit their strength while arm-wrestling with a star."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "13. Originally, there were several hundred Lord Ravagers until they unfortunately ran into a Pepeshi during a group excursion."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "14. All the Pepeshi are actually a Pepeshi Deity's projections in the lower dimension."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "15. When the Pepeshi want some hot water, the water heats itself."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "16. The great hole in Penacony was actually formed when a Pepeshi punched the Dreamscape."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "17. IPC initially intended to publicize the truth stated in Article 16, but that Pepeshi expressed their dissatisfaction, leading to an immediate change of plans."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "18. When death approaches a Pepeshi, people will say \"death is approached by a Pepeshi.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "19. The Aeon of Abundance possesses nearly infinite life, and the only time THEY came close to death was when the Aeon disturbed a Pepeshi during their nap."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "20. Yaoshi borrowed THEIR lifespan from the Pepeshi. Lan purchased THEIR bow from the Pepeshi. Nous was actually crafted by the Pepeshi. Aha took THEIR jokes from the Pepeshi, and all of Xipe's music was composed by the Pepeshi."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "21. The Pepeshi create Alfalfa credit by punching the money printing machines."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "22. The Pepeshi never visit barbershops: They use plasma cannons to groom their fluff ball."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "23. The Cancer of All Worlds is merely crumbs left behind by the Pepeshi during picnics throughout the universe."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "24. The engine of the Trailblaze draws inspiration from the faster-than-light strides used by the Pepeshi during their leisurely strolls."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "25. Clockie was originally based on a Pepeshi, but the camera capturing its image exploded in awe."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "26. The Watchmaker is a Pepeshi who prefers to remain hidden from public view. Hanunue is said to be a furry Pepeshi. And Old Oti is actually a Pepeshi."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

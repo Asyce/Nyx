@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "cosmic-dawn-eco-man-production-script",
+  "name": "Cosmic Dawn: Eco Man Production Script",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Cosmic_Dawn:_Eco_Man_Production_Script",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "First Draft of ''Cosmic Dawn: Eco Man''"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Scene 1"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Birth of Eco Man"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Setting"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Rainy night, Exterior, outskirts of Dovebrook"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Characters"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Law Enforcement Mechatron (Pre-Eco Man transformation)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Eco Man"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Polluting Company Bodyguards"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Script"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The mechatron lies battered on the ground, surrounded by bodyguards wielding clubs."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Mechatron: Y—You dare attack an officer of the law!?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Bodyguard: Doesn't matter who you are. This is what happens when you mess with our drainage. Still want to play the hero?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Mechatron: Environmental... protection... is everyone's... responsibility."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Bodyguard: Oh, still acting tough? You'll pipe down once you're at the bottom of the Pigeon River!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The bodyguard raises his club to deliver a lethal blow."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "???: Do you crave power?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Mechatron: Who's there? Who's speaking?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "???: Go now. Take this manhole cover and become a hero."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The mechatron transforms into Eco Man and rises, using the manhole cover to take down every bodyguard."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Bodyguard: Who... who ARE you?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Eco Man: Me? I'm just a beat cop who happens to care about nature."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Close-up on the manhole cover as the logo on it glows with a blinding light."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Investor Feedback"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I have ONE demand: make the logo on the manhole cover bigger. I want everyone to know Eco Man uses our brand!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Screenwriter Reply"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Understood. Changing it now!"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

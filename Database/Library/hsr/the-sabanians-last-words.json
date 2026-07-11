@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "the-sabanians-last-words",
+  "name": "The Sabanians' Last Words",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/The_Sabanians%27_Last_Words",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"What are you doing?\""
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "That was what my brother asked me just now. So I replied:"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"Oh, I'm just packing up some stuff.\""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "He won't approve of what I'm about to do — as the high elder, he wants to lead us away from our homeland and seek refuge in the holy city. That is the only way to escape the black tide. Meanwhile, I have to write something while I'm still a Sabanian to leave something behind for my city."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "What traits do the Sabanians have? Our faces aren't in a different color, and our physiques aren't burly like the Mountain Dweller. The Okhemanians often praise us for our deftness, proficient in raising majestic buildings, but they can also build something as grandiose as the Marmoreal Palace. It doesn't seem like we're anything special..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Then why do we call ourselves the Sabanians? When a millennium elapses on the Light Calendar, how can we prove our existence? I don't know. If I were a scholar, I might be able to regale a long span of history, then whip out numerous artifacts that prove that we were once kin to Georios or some other god. But I am but an ordinary bricklayer who learned how to write while I wasn't building houses."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "But speaking of building houses, I can speak on that with some authority: As long as you mix red clay, sand, and crushed indigo stone in a 1:4:7 ratio, you will get the optimal construction material. It is supple as earth when wet, and hard as steel when hardened — but you must finish your shape before it hardens, or it'll be too late when it dries. I built an actual vault based on this sole learning."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "...Perhaps this is enough? I may not be knowledgeable, and am unable to pen epic sagas, but at least I can leave behind a formula. If a city can't even leave behind a formula for its descendants, then it is truly gone."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Ah, my older brother is telling me to hurry up. The holy city squad is setting off very soon. When we arrive, we will learn Okhema's culture, integrate ourselves into their lives, and become one of them. The time of Sabanians will end here."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I will finish my writing here."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Maybe one day in the future, when the black tide ebbs, I hope people will return to their hometowns, the children of their children will learn everything about us, and they will shed tears where I left this carved slate... even if I won't be able to witness it."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I hope, when that time comes, we can still build vaults."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

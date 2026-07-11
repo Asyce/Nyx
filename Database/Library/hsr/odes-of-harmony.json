@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "odes-of-harmony",
+  "name": "Odes of Harmony",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Odes_of_Harmony",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The world is in harmony and the stars shine bright."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Praise the Lord! All are connected and the winds of blessing breathe across the lands!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "O, Mother of myriad households, kingdoms, and realms!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Your mighty arm dissolves enmity, guiding the lost towards penitence's path."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Into your realm, the virtuous find solace, peace bestowed, sorrows and strife released."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "We serve the Harmonic Strings due to the blessings of the god, and the Harmonic Strings play music to honor the Great One."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "In Harmony's embrace, all plagues disperse, eternal praises resound across the earth!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Your myriad forms grant salvation, grace descending with each dawn!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Heaven and earth rejoice as one. The universe gleams in your radiant presence. Your pristine blessings fill the universe!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "All beings entwined in blissful Harmony, sharing that happiness and joy, basked in the sweet rain of your divine love!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "O, Lord of myriad hearts, minds, and souls! Your sacred decree resonates, discord banished, the affluent urged towards generosity."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Barren lands transformed into boundless havens, the houses swell in wealthy, an endless expanse of your grace."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "We serve the Harmonic Strings due to the blessings of the god, and the Harmonic Strings play music to honor the Great One."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Harmony's grace, hearts and minds entwine, all voices sing as one!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Amidst endless darkness you radiate. outshines all the stars in the heavens!"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

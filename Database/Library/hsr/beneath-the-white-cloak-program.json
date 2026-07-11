@@ -1,0 +1,1134 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "beneath-the-white-cloak-program",
+  "name": "Beneath the White Cloak Program",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Beneath_the_White_Cloak_Program",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Page One",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Opening Date: February 21"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Golden Theater"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "22 West, Alisa Avenue, Administrative District"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "A classic musical in production for thirty years"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Beneath the White Cloak"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "An absurd rumor passes through the room as an unexpected guest arrives at the nobles' feast."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "She wears a mask chiseled out of ice and a cloak the color of hoarfrost, bringing horrid death everywhere she goes."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The new theater manager tries hard to serve the nobles, and yet when an opera opens"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "A guest in white appears in box number five without an invitation, and the century-old tale re-surfaces in this grand gala...''"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The longest running show in the history of the Golden Theater"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A special thirty-year commemorative performance, with a brilliant never-before-seen cast."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Recipient of 37 Goliards Award for Best Musical"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Goliards Awards for Best Direction in a Musical: Harold"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Goliards Awards for Best Composer for a Musical and Life-Time Awardee: Andrew"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Goliards Award for Best Actress in a Leading Role for Musicals: Sylvia, Sara"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Goliards Award for Best Actor in a Leading Role for Musicals: Laming, Stephen"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And more mysterious guest performances."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Presented by the Golden Theater Musical Department!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Main Director: Harold. Composer: Andrew. Producer: Charlie. Theater Manager: Larry"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Costume Designer: Martin. Artistic Director: Judith. Sound Director: Chris. Conductor: Rhea"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Stage Manager: Bonnie. Set Designer: Taylor. Lighting: Jenny. Media Liaison: George"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Cast"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Lareina — Sylvia"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Rebecca, Lady in White — Sara"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Count David — Laming"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Viscount Barton — Stephen"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Mike, Theater Manager — Nicholas"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Joanna, Viscount Barton's Wife — Maya"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Kristen, Leading Lady of the Sheila"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Raul, Viscount Barton's Son — William"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Madam Maria — Elisa"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Circus Owner — Barry"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Prince Frank — Peter"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Program"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Variations on the Beneath the White Cloak Theme, Prologue Version\" — Orchestra"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"The Theater Opens\" — Mike, Kristen, Raul, Lareina"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Theater Story\" — Kristen, Lareina"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"A Warning Letter in Box Number Five\" — Mike, Rebecca, Lareina, Barton"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"A Kiss of Farewell at Night\" — Lareina, Barton"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Snow Mask and White Dress\" — Lareina, Rebecca"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"She Comes From a Dream\" — Lareina, Rebecca"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Call My Name\" — Lareina, Rebecca"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Magnificent Gala\" — David, Barton, Joanna, Raul, Madam Maria"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"The Show is About to Begin\" — Lareina, Rebecca, Kristen, Raul"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Uninvited Guest\" — Circus Owner, Prince Frank, Kristen"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Revenge at the Masquerade\" — Rebecca, David, Barton, Prince Frank, Circus Owner"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Survival and a Marriage Proposal\" — Lareina, Count David"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"She Came Without an Invitation\" — Rebecca, Lareina"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"I Have No Wish\" — Lareina, Rebecca"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Sleepless Night\" — Entire Cast"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "label": "Page Two",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The Thirty-Year Commemorative Performance of"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Beneath the White Cloak"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Is About to Start! Here Are the Three Unmissable Moments in the Show"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Author: Olsen, Journalist of"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Belobog Weekly"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "With a dazzling cast never before seen, the Golden Theater recently drew up the curtains for the powerful thirty-year commemorative performance for"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Beneath the White Cloak"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "! Apparently, the number of citizens queuing up for tickets had repeatedly blocked key roads in the Administrative District, ultimately getting the Silvermane Guards to come out to maintain order."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The suspense musical"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Beneath the White Cloak"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", famous throughout Belobog, is the longest running show in the history of the Golden Theater. As we anticipate the thirty-year commemorative performance, we review the three unmissable famous scenes in the history of this show."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "1. The mysterious white silk and crystal petals that fall from box number five"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "When the Lady in White first appears, a very mysterious and delicate white silk will fall from on top of box number five. Hand-made crystal petals will also fall with the silk. In previous and popular versions of the show, the silk usually falls at a speed of 2.5 meters per second. The hand-made flower petals are specifically dyed to reflect marvelous colors under the light. Importantly, out of all the official merchandise sold in the theater for"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Beneath the White Cloak"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", the crystal petals are the most popular — The cast also do not prohibit the audience from taking the petals with them. For over thirty years, this had been the unspoken agreement between the audience and the production cast. In fact, the thirty-year commemorative production had declared they had more than six thousand crystal petals prepared for every performance."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2. Count David's Proposal: The Omnipresent Lady in White"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "When Count David publicly proposes to Lareina, the most fascinating part is not the seemingly romantic love story between the lead characters, but the unpredictable re-appearance of the Lady in White. In the initial version of the performance, the Lady in White suddenly appeared in the audience. As the Golden Theater became more technically advanced, the Lady in White's re-appearance became more mysterious and epic. She could walk out from the reflections of countless mirrors on the stage, and could also rise slowly from beneath the floor boards under the candelabra in the middle of the audience after a loud bang and copious amounts of fog. The technical department of the Theater designed a set that can only be moved with twenty people in order to create the mystery of the Lady in White. This had satisfied the audience for the past decade, and also gave rise to a minigame popular amongst theater-goers — can YOU guess where the Lady in White is going to appear during a particular performance?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "3. An all-star finale sang by established and upcoming actors"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The final chorus is the closing act for all actors in the theater within the show. The protagonist Lareina is only an upcoming character, while Rebecca stands in the audience and they gaze at each other. In the story, the protagonist silently leaves the stage as the leading actors sing together. However,"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Beneath the White Cloak"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "had influenced generations of musical talent in the past thirty years. At the end of the story, the final song \"Sleepless Night\" was just meant to be a collective performance, but the wide appeal of the show gradually became the collective memory of generations. Nowadays, the \"temporary actors\" appearing on stage at the final song are usually very established actors, or even past leads in older renditions of"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Beneath the White Cloak"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ". Various famous actors in the musical scene would also make sudden appearances in this ending show. For the audience, this is an absolutely must-see moment, a sparkling scene that will get you your money's worth — who can say no to the joy of trying to count how many famous actors are on the stage at the end?"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "label": "Page Three",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The thirty-year legendary musical"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", Beneath the White Cloak"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Will officially begin its commemorative performance at the Golden Theater on February 21."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Limited tickets and merchandise will be available at the counter."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Binder with the cover of"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Beneath the White Cloak"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The cover of the binder is printed with the poster of"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Beneath the White Cloak"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The size of the binder perfectly matches the size of the program, with a great storage capacity of 30 pages."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Practical and highly memorable, suitable for storing piles of programs you get from the theater."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "List price: 1500 shield"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Thirty-year anniversary commemorative album for"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Beneath the White Cloak"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A commemorative album showcasing thirty years of casts and stage sets for all the iterations of"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Beneath the White Cloak"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ".\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A special release for audience members who love"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Beneath the White Cloak"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ",\" containing behind-the-scene stories that were never before seen!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "This album contains thirty years of love, hard work, and dreams."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "List price: 6000 shield"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Beneath the White Cloak"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "songbook with scores"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Includes the scores and lyrics of all songs in the Beneath the White Cloak thirty-year commemorative show."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Fine laminated pages, printed with the best ink, long-lasting collector's edition."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "List price: 2000 shield"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Beneath the White Cloak"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "— \"The Lady in White\" Rebecca's frost mask"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Officially licensed merchandise modeled after the mask of the popular character \"The Lady in White\" Rebecca."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Made with a transparent and crystalline material, the mask also contains a hidden elastic band to adjust tightness, designed to fit the average head circumference of audiences of different ages."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Please consult staff from our licensed stores about specific size requirements."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "List price: 20,000 shield"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Beneath the White Cloak"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "— \"The Lady in White\" Rebecca's veil"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Officially licensed merchandise modeled after the veil of the popular character \"The Lady in White\" Rebecca when she firstly appears in box number five."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Dyed with a special material, the veil glimmers with a snowflake pattern in the light, fully demonstrating the mystique of the popular character \"The Lady in White\"!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Note: This veil has been adjusted to be lighter and have a better fit for the human body, and is different in size to the version used in the live show. Please consult staff from our licensed stores about the details."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "List price: 30,000 shield"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Beneath the White Cloak"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "— The main cast's masquerade masks mask"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Officially licensed merchandise modeled after the masks of the popular characters David, Lareina, Barton, and Prince Frank."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The masks contain a hidden elastic band to adjust tightness, designed to fit the average head circumference of audiences of different ages."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Please consult staff from our licensed stores about size and styles."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "List price: 10,000 shield"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

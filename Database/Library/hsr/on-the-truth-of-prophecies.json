@@ -1,0 +1,317 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "on-the-truth-of-prophecies",
+  "name": "On the Truth of Prophecies",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/On_the_Truth_of_Prophecies",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "— Analysis of the Tripartite Prophecy Ceremony"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Investigator: ██"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Light Calendar ████"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Should you find this thirteenth transcription, know that I likely met an ill fate. Yet truth demands preservation, regardless of price..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Prologue"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "During my decade of infiltration at the Temple of Abyss of Fate, I gradually understood how this group, self-proclaimed \"Prophets of the Three Titans of Fate,\" blasphemed the Titans' glory. They turned sacred prophecies into tools of power, using the Holy Maiden's gift as a weapon against political rivals."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Corruption of Prophecy"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "On the surface, priests claim only offerings equal to one's request can prove a disciple's sincerity. In truth, the entire process of seeking prophecies has devolved into an intricate intelligence network:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "1. Information Gathering"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "They established three levels of request offices, each staffed with dedicated priests who record clients' information and monitor lower-level priests' performance. Priests must document detailed backgrounds, relationships, and social status of all inquirers. Additionally, they maintain files on clients, regularly reporting to the highest-ranking priests."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2. Priority Classification"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "When disciples come to seek prophecies, they are pre-sorted into three levels based on their questions and status. Priests schedule consultations according to priority — even if disciples have already offered tributes of equal value, unless... they pay more."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Highest Priority: Matters concerning city-state affairs."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Second Priority: Major life decisions affecting daily life."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Lowest Priority: Common folk's requests, usually rejected for \"insufficient devotion\" or delayed by \"priest under training.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Desecration of Ritual"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Most appalling is their profanation of sacred ceremonies. Through long observation, I discovered the entire \"prophetic divination\" ritual has become an instrument of cruel oppression!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "1. The Holy Maiden's Cage"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "████████"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2. Environmental Control"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As for disciples... they never truly cared about them. The \"warm friendliness\" most followers witness is mere necessary pretense. The truth is far worse..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "...The prevalent incense, claimed to soothe spirits and bring invigorating power, actually contains hallucinogenic ingredients. Had I not ground the incense myself, I'd never have discovered its contents."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "...Prayer chambers feature unique acoustic designs, making priests' words create an illusion of \"prophecy\" when they talk. Not to mention window and lighting designs are made to cause specific visual confusion — even if disciples feel dizzy from the dome's focused light, they'd attribute it to \"divine might.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "3. Fabricated Prophecies"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Ironically, the Destiny Weaver manifests in reality — it seems the fate of believers, even city-states and the future itself, can be manipulated and fabricated by priests."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Certainly, I don't deny that the Three Titans of Fate's blessing grants priests and Holy Maidens glimpses of the future. But having the ability is one thing, and whether and how to use it is another."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Junior priests craft prophecy drafts, and mid-level priests adjust statement ambiguity, while senior priests ensure prophecies align with temple interests."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "My investigation revealed priests divided into three ranks. Ha, the number \"three\" appears everywhere — at least they're faithful to the Three Titans of Fate in this regard."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[Handwriting becomes messy]"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I discovered more terrifying truths in the secret archives. The former Holy Maiden's ████████ was no accident — she began hinting at rebellion in her prophecies. But wait, what about Tr█bio█?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As her daughter, she █████ ████ ███████ ██ ███ ████ ██ █ ████ █████████"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[Writing chaotic, parts illegible]"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Darkness runs deeper than the surface shows. The entire system is a vast web of lies."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I found evidence proving certain ██████ ████ actually profited from instigating conflicts between city-states using false prophecies. They even plotted to use the falsehoods to incite ███ ██████, simply to..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Talanton above! They're coming. I hear footsteps. The full evidence is hidden in ███ ██████ ███████"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

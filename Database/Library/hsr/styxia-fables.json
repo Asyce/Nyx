@@ -1,0 +1,731 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "styxia-fables",
+  "name": "Styxia Fables",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Styxia_Fables",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "(Part One)",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A collection of fables passed down from the City-State of Dragons and Waves \"Styxia,\" compiled by the bardess Archepia. This copy is gifted to Castorice by Trianne."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Dragon and the Princess"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "When the dragon's wings first swept across Styxia like waves crashing against the rocks,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "all — from the poor to the rich, from the curious to the fearful — looked up in awe."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Dragon, dragon, why are you silent and sorrowful?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The princess climbed to the high tower where the dragon made its nest,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "gently stroking its forehead with pity."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The dragon's wings revealed decaying flesh, blackened pus poured from within,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "the distant black tide had transformed it into a monster."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It opened its mouth and swallowed the compassionate princess whole."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"A great disgrace! We must avenge her!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The archers with silver bows and blacksmiths with hammers gathered seven hundred warriors,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "swearing to cut open the dragon's belly and rescue the princess."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "It was a fierce battle — stones shattered, columns fell,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "until the dragon was riddled with countless bone-exposing wounds, bled black blood, and perished."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The princess, pulled from the dragon's belly, was already lifeless."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"My child, born of my flesh and blood, how could I allow you to perish before me?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The grieving queen summoned the kingdom's most precious treasure and called upon an alchemist."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "In the high tower, the alchemist set a ritual, drawing the dragon's bones and gathering its soul,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "hoping to reshape the scattered flesh of the dragon into the reborn form of the princess."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "But how could the corrupted flesh of darkness give birth to a pure white flower?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The \"princess,\" resurrected from death, extended her claws and unfurled her massive bony wings —"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And devoured every last soul of the city."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "As the evil dragon's wings finally cast the shadow of \"death\" over Styxia,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "none — be they poor, rich, weeping, or trembling — could resist its grasp."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Styxia, once a land of treasured glory, your people, until their last breath, refused to blame you,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "refused to blame the loving queen, the valiant centurion, the wise mage, or the kind princess,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "only lamenting the inevitable and unstoppable black death that sealed their fate."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*Archepia's note: Oho! This story holds great value. If this is true, then it was the evil dragon that brought death to Styxia. But where is the dragon now, the one who once took the form of the princess?*"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "label": "(Part Two)",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A collection of fables passed down from the City-State of Dragons and Waves \"Styxia,\" compiled by the bardess Archepia."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "In addition to the tale of the dragon devouring the princess, the book also includes many other poetic fables, an excerpt of which follows:"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Wishing Clock"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Long before the dragon's arrival,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "there hung an extraordinary clock in our high tower, unmatched by anything else."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "It knew the precise moment when saffron would bloom, when the tides would ebb and flow."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It knew when the day began and when it would end — truly, it knew the answers to all the world's questions."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Hence, people from all walks of life would come to visit the tower."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "One day, a young man, troubled by love, approached:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Clock, clock, my lover's father is making things difficult for us,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "he's asked me to separate a granary full of mixed wheat and barley into two piles,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Please, tell me how I can do it?\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Tick-tock, tick-tock, tick-tock."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Have a sweet dream. Tonight, the ants on the Ant Isle are moving out."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "These tiny creatures will help you move them.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Then came a nobleman, adorned with a cap and rings on every finger,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Tell me quickly, clock!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Do I have enough wealth to buy you?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "If not, I'll shatter you into pieces!\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Tick, tock, tick, tock,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Even kings who ignore their subjects' pleas shall tumble from their thrones into the depths."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And those who stand tall today shall be trampled underfoot tomorrow.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The final visitor was of indeterminate age, with fingers skeletal as ghosts,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "his face resembling a mummy newly emerged from its grave."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Clock, oh precious clock, I implore you,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "when shall my tormenting illness cease? When will death at last embrace me?\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "But the clock's rhythm stayed steady:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Tick, tock, tick, tock,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "o blessed yet cursed Styxian, this alone lies beyond my power,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "for your lifespans extend far beyond measure!\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "''"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Archepia's Commentary: Fascinating! So the Styxians were once all immortal beings? What could have caused their city-state's downfall?"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "''"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Reaper in the Dolium"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Once there lived a miser with no friends or family, only his wealth for company."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "His great money chest spawned smaller ones day after day,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "and his burned candle wax could be melted anew."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "When the miser's beard turned white with age,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "he heard the tides of the River of Souls calling, and knew the Reaper would soon summon him under."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Refusing to leave his precious wealth behind, the miser crafted an ingenious plan."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "When the Reaper arrived, he lay frail upon his bed,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "and with a troubled face, spoke his dying wish:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"On that cabinet rests a dolium of sweet honey brew,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "but my eyes see a bee drowned within."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "O Reaper, I beseech you enter and fetch out the greedy bee,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "before it taints my precious brew.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The Reaper took pity on his wish and transformed into a sprite,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "slipping into the dolium to search for the dead bee."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "At that moment, the miser sprang from his bed and sealed the dolium's lid."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Got you now, Reaper!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "None shall drag me from my warm bed now.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The Styxians still applaud this deed to this day —"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Our endless feasting and revelry is our reward for outwitting the Reaper!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "''"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Archepia's Commentary: Fascinating how the Styxians ridicule the concealed Death Titan. They must have reveled in plenty before their demise!"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "''"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "<!--"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

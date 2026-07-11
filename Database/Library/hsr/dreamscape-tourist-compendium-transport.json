@@ -1,0 +1,319 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "dreamscape-tourist-compendium-transport",
+  "name": "Dreamscape Tourist Compendium — Transport",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Dreamscape_Tourist_Compendium_%E2%80%94_Transport",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Testimonial"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Alfalfa Publishing House proudly presents the"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Dreamscape Tourist Compendium"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "This Compendium is designed to give you an insight of the dream world and help you enjoy your vacation in the Dreamscape better."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "We hope you can leave all your worries behind and live in the present!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Must-Try No. 1: Spheroid"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "It is the best rapid transit system in the universe and features cabins with a distinctive design that resembles marbles. Look no further if you want to travel for great distances!"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A Spheroid is a transportation means unique to Penacony's Dreamscape. What makes it stand out is its spherical cabin exterior and the catapult-like takeoff."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Spheroids for different routes are differentiated by the numbers marked on their cabin exterior. When multiple Spheroids depart at the same time, they will look like billiard balls being launched into deep space one after another, forming an amusing scene."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Editor's Comment:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"It's one of the top 10 must-try experiences in Penacony!\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Must-Try No. 2: Utopons"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A perfect vehicle suited for short-distance travel that allows you to sightsee while commuting!"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Have you ever noticed the that zoom around on the streets at a high speed? Or those decorations that resemble musical instruments on the sidewalks?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "You have guessed it right — it is an automated vehicle named Utopon, a new release by the Alfalfa Family! Inspired by the shape of a wind instrument, the vehicle boasts a streamlined design and a semi-open carriage that lets you admire the scenic views of Penacony while cruising around!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The car-sharing service of Utopon is now available. You are free to use any Utopons parked along the streets at any time."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Editor's Comment:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"It's an automated vehicle! Anyone can try it even without a driver's license!\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Must-Try No. 3: Lengthened Speedster"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Indulge in an extravagant experience within a vehicle made for luxury!"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The extremely elegant lengthened speedster is a great choice for private travel."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Most of the speedsters are personally owned, or you may book a chauffeur at your hotel. The prices and quality of the service are top-notch!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "If you are interested, you can also purchase a vehicle at Penacony Car Dealer, where you can find brands known across the universe such as Pershing, Patton, and Steinway Falcon... There's nothing you can't buy here."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Editor's Comment:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"A four-wheeled vehicle surely beats a vehicle with only one.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Editor's Recommendation: Take a walking tour"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Immerse yourself in the enchanting cityscape of Penacony!"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Take an occasional break from the noisy parties and wander along the streets in Penacony on foot. Perhaps, you will stumble upon amazing locales along less traveled paths."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "There are special ATMs that spew out banknotes, mysterious and elusive underground bars, and tiny creatures lurking everywhere... Why not strike up a conversation with concerned pedestrians? There are secrets everywhere in Penacony waiting to be discovered."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Editor's Comment:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Be careful when you are walking along the alleys in Penacony... Some thrill-seeking Dreamchasers like to play at being gangsters there. Don't get caught by them!\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*Please contact the publishing house to purchase the complete ''Dreamscape Tourist Compendium''. Every purchase comes with a free complete map of Penacony."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "evening-tavern-stories-soulglad-special-issue",
+  "name": "Evening Tavern Stories: SoulGlad Special Issue",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Evening_Tavern_Stories:_SoulGlad_Special_Issue",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Hey there, my dear readers! It's been a while, and I miss you all! In our last edition, we talked about... Well, honestly, I can't remember what nonsense I made up last time. So let's just forget about it. Anyways, are you sick and tired of boring news and lame entertainment? Do you find yourself unsatisfied even in your wildest dreams? Are you craving something more exciting and fun? Well, guess what? Today, the one and only Miles, the ultimate Tavern reporter, is here to lead you to the truth behind the golden bubbles!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Like, seriously? Can you believe there are people out there willing to pay a fortune and willing to kill for this so-called Epochal SoulGlad?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Wake up, people! Aha hasn't seen anything like \"Dreamleaf\" even in Akivili's data bank on the Express!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I mean, come on! Who's gonna buy into stories like \"the extinct Dreamleaf magically revived in the Dreamscape\" or \"a once-lost delicacy now making a comeback\"?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Don't be fooled by these slick ads, my dear readers!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I believe everyone knows that the founder of SoulGlad, Sousa, used to be a chef on the prison planet!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But here's the real deal: He wasn't a saintly benefactor believing in Xipe or a culinary genius. Nope, he got himself locked up for smuggling memoria!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And most important of all! Guess what? He didn't even have fluffy hair at all!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I've done a ton of digging on this rumor, trust me."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Praise the illustrious prison planet, the only place where they trade expensive memoria for watered-down sugary drinks!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Praise all the fancy wordplay! It's the only way how those sneaky capitalists and History Fictionologists trick us into blindly believing their nonsense!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Disclaimer: We Masked Fools totally respect everyone's orientations and desires."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Recently, some Tavern staff caught Old Oti, the head of the Alfalfa Family, and Mr. Aideen sneaking off together to Radiant Feldspar. Looks like a cozy little private meeting."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I went around and asked some Family members about it."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A passer-by from the Oak Family commented, \"What shady stuff is the Alfalfa Family up to this time?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "An excited member from the commented, \"Oh, there's definitely something spicy going on between Old Oti and Mr. Aideen. They're both Alfalfa peeps, after all.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "An anonymous senior member from the Alfalfa Family refused to give any responses regarding this incident."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And a not-so-friendly Bloodhound Family member warned, \"Keep spreading this nonsense and asking unwanted questions, and I'll feed you to those Memory Zone Memes.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "And that's a wrap, dear readers! Stay tuned for more mind-blowing news coming your way!"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

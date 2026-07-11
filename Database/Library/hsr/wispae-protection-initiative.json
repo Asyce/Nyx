@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "wispae-protection-initiative",
+  "name": "Wispae Protection Initiative",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Wispae_Protection_Initiative",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "They are tiny lives born from condensed Wishpower. They are another form of continuation for the fallen imagenae in this world."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "As you hurry through the streets and alleys, have you ever noticed those little wanderers, the"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "wispae"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "These adorable and harmless little fellows, just like red blood cells, carry the city's \"oxygen,\""
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "wishes"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "It is these seemingly insignificant \"wishes\" coming together that have forged the prosperous cityscape of Planarcadia."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Can you imagine what a city without wispae would look like?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Without the wispae, how can artists rebuild and repair the city, or breathe new life into the imagenae?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Without the wispae, how would the bank manage currency and turn Wishpower into circulating assets?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The wispae is not just a cultural icon unique to Planarcadia, but also indispensable partners in our daily life and work."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Protecting wispae starts with you and me!"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "<!--"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

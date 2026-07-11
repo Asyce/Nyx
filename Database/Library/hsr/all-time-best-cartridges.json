@@ -1,0 +1,284 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "all-time-best-cartridges",
+  "name": "All-Time Best Cartridges",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/All-Time_Best_Cartridges",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "An old Punklorde web post. Looks like one of those regular popularity polls for Aether Hackers."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "A \"cartridge\" is the tool an Aether Hacker uses to edit reality, much like a superhero's transformation device or a magical girl's wand. But it is also a masterpiece in its own right, a career-defining journal packed with the creative sparks and raw data that masters use to reshape the world."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "There is a saying in the deep web: \"Fools have masks, hackers have cartridges.\" That pretty much sums it up."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Let's dive into the nominees for the best cartridge in Punklorde's history..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": []
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"Don't mess with Stoneblade unless you're living without an internet line... or he'll get you permanently offline.\""
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "— Anonymous Hacker"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "A relentless offensive player and the undisputed king of physical confrontation. If a digital stalemate bores him, \"Stoneblade\" takes the direct route: he tracks your signal to your doorstep and settles the matter with his fists."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Stoneblade's cartridge acts like a personal armory filled with every weapon imaginable. He materializes whatever he needs the moment he catches a poor soul's signal. These weapons come with auto-attack systems. Any thief trying to sneak into his data space gets a firsthand taste of an FPS battle royale."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": []
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"Are they called 'Zero' because that's what they do to my bank balance?\""
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "— A bankrupt tycoon"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Even among the pantheon of legendary hackers, Zero stands out as uniquely troublesome. They bypass direct assaults in favor of pre-coded viruses that eat away at opponents like venom. Since the process is entirely automated, they've earned the nickname \"Walking Plague.\" They don't even need to lift a finger. They just take a stroll while their scripts dismantle everything in their path."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Zero's cartridge is packed with everything from tiny bloodhound drones to massive automated fortresses. They rule over it like a Dungeon Master, watching from on high as intruders struggle. If you want to escape their cartridge, you'd better bring your A-game, which requires the tactical precision and careful planning of a hardcore strategy sim."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Rumor has it that last surfaced on an IPC mining planet. vanished shortly after, and current status remains a total mystery."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": []
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"The greatest Role Playing Gamers are usually the ones with split personalities.\""
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "— Chacassa, Strategic Investment Department Cybersecurity Lead"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Sage is the pioneer of aether editing and a materialization expert who supposedly lives with a split personality. He's less of a traditional hacker and more of a summoner or a puppeteer. His mastery over aether editing allows him to manifest fictional entities into reality, turning himself into a one-man army that can tear down any firewall."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Sage's cartridge serves as a home for every character he's ever designed, spanning from his early sketches to the legendary \"Formidable Four.\" It's surprisingly peaceful compared to other hackers' cartridges, resembling a fairy tale world where every resident stays in character. To navigate it, you'll have to embrace the role-play and act your part like you're in an actual RPG."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": []
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"Honestly, does playing on a max-level account even count as gaming?\""
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "— Golden Eagle"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "You don't need me to tell you how great αWolf is. She's the youngest legend in the business, the last sovereign of the Dark Zone, and a true \"Player One\" who treats the entire universe as a game. She's a living myth on Punklorde who never hides her face and never fails a hack. Even the Fools should keep a seat and a drink ready for her in the tavern."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "They say αWolf's cartridge is called \"LV999,\" representing the ultimate \"cheat code\" for hackers. Its contents are a mystery, but some believe it grants the power to edit reality itself. Now that she's conquered everything Punklorde has to offer, she's set her sights on a bigger game: the cosmos. Expect her to create more legends out there."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": []
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"If you try to prove you're more 'Destructive' than Nanook, you lose the second THEY glance your way. Because just made you an Emanator.\""
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "— Stoneblade"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Before he picked a fight with αWolf, Golden Eagle had no fame to his name. While he was no pushover, he languished outside the top twenty at best. As soon as αWolf left Punklorde, he changed his handle to \"Wolf-Eating Eagle\" and started demanding a showdown. So far, she hasn't given him the time of day."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "No one's seen what's inside Golden Eagle's cartridge. Given his obsession with PvP, it's likely just a digital trophy case full of mementos from his defeated rivals."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

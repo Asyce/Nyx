@@ -1,0 +1,331 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "military-machinery-routine-maintenance-record-form",
+  "name": "Military Machinery Routine Maintenance Record Form",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Military_Machinery_Routine_Maintenance_Record_Form",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The routine maintenance of the Technology Division has been completed, and the maintenance records are as follows:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Item of Inspection: Guardbot Type-3"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Inspection Date: August 5"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Inspected Part: Saw Arm"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Inspection Contents: Operation of the Saw Arm's motor and control valve"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Inspection Result: Normal"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Equipment Maintenance Personnel: Mira"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Note from Technology Division:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Not at all up to the level of normal operation. Defective products should not be in the arsenal."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Item of Inspection: Guardbot Type-1"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Inspection Date: August 5"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Inspected Part: Alert & Patrol Component"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Inspection Contents: Whether the inspected part is at optimal sensitivity"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Inspection Result: Maybe Normal"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Equipment Maintenance Personnel: Laurie"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Note from Technology Division:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"Maybe Normal?\" Please pay attention to the inspection report writing conventions. After verification from the Technology Division, it is found that the device is at optimal sensitivity and can be put into operation."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Item of Inspection: Warehouse No. 3 Transport Equipment"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Inspection Date: August 5"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Inspected Part: Whether the Goods Transport Belt is complete"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Inspection Result: Normal"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Equipment Maintenance Personnel: Mira"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Note from Technology Division:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Verified. Make sure the belt is regularly serviced."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Item of Inspection: Low-Voltage Explosion-Proof Switch"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Inspection Date: August 5"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Inspected Part: Whether the switch's wiring insulation layer is damaged"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Inspection Result: Normal"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Equipment Maintenance Personnel: Laurie"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Note from Technology Division:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The insulation layer that was just changed last month has already shown signs of deterioration. Defective products should not be in the arsenal. Suggest investigating the Munitions Procurement Department closely."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Item of Inspection: Rotating Duplex Turret"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Inspection Date: August 5"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Inspected Part: Operation of the hydraulic propulsion mechanism"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Inspection Result: Slight creaking due to deterioration of the bearing area. Problematic area replaced and lubricated."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Equipment Maintenance Personnel: Laurie"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Note from Technology Division:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Verified. Lubrication is checked. The quality control for lubricant oil is very bad. Please conduct a thorough investigation of the Munitions Procurement Department."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Signature of Head of Technology Division: Molly"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

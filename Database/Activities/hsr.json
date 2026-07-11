@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "dataTimestamp": "2026-07-11T00:00:00.000Z",
+  "activities": [
+    {
+      "id": "hsr-apocalyptic-shadow-3-1",
+      "label": "Apocalyptic Shadow",
+      "mode": "dated",
+      "resetHour": 4,
+      "timezoneMode": "server-fixed",
+      "exceptions": [],
+      "windows": [{"windowsByRegion":{"asia":{"start":"2025-03-02T20:00:00.000Z","end":"2025-04-13T19:59:00.000Z","timezone":"UTC+08:00","sourceUrl":"https://www.hoyolab.com/article/37292274"},"europe":{"start":"2025-03-03T03:00:00.000Z","end":"2025-04-14T02:59:00.000Z","timezone":"UTC+01:00","sourceUrl":"https://www.hoyolab.com/article/37292274"},"america":{"start":"2025-03-03T09:00:00.000Z","end":"2025-04-14T08:59:00.000Z","timezone":"UTC-05:00","sourceUrl":"https://www.hoyolab.com/article/37292274"}}}],
+      "sourceUrl": "https://www.hoyolab.com/article/37292274",
+      "verifiedAt": "2026-07-11T00:00:00.000Z"
+    },
+    {
+      "id": "hsr-pure-fiction-3-1",
+      "label": "Pure Fiction",
+      "mode": "dated",
+      "resetHour": 4,
+      "timezoneMode": "server-fixed",
+      "exceptions": [],
+      "windows": [{"windowsByRegion":{"asia":{"start":"2025-03-16T20:00:00.000Z","end":"2025-04-27T19:59:00.000Z","timezone":"UTC+08:00","sourceUrl":"https://www.hoyolab.com/article/37292274"},"europe":{"start":"2025-03-17T03:00:00.000Z","end":"2025-04-28T02:59:00.000Z","timezone":"UTC+01:00","sourceUrl":"https://www.hoyolab.com/article/37292274"},"america":{"start":"2025-03-17T09:00:00.000Z","end":"2025-04-28T08:59:00.000Z","timezone":"UTC-05:00","sourceUrl":"https://www.hoyolab.com/article/37292274"}}}],
+      "sourceUrl": "https://www.hoyolab.com/article/37292274",
+      "verifiedAt": "2026-07-11T00:00:00.000Z"
+    },
+    {
+      "id": "hsr-memory-of-chaos-3-1",
+      "label": "Memory of Chaos",
+      "mode": "dated",
+      "resetHour": 4,
+      "timezoneMode": "server-fixed",
+      "exceptions": [],
+      "windows": [{"windowsByRegion":{"asia":{"start":"2025-03-30T20:00:00.000Z","end":"2025-05-11T19:59:00.000Z","timezone":"UTC+08:00","sourceUrl":"https://www.hoyolab.com/article/37292274"},"europe":{"start":"2025-03-31T03:00:00.000Z","end":"2025-05-12T02:59:00.000Z","timezone":"UTC+01:00","sourceUrl":"https://www.hoyolab.com/article/37292274"},"america":{"start":"2025-03-31T09:00:00.000Z","end":"2025-05-12T08:59:00.000Z","timezone":"UTC-05:00","sourceUrl":"https://www.hoyolab.com/article/37292274"}}}],
+      "sourceUrl": "https://www.hoyolab.com/article/37292274",
+      "verifiedAt": "2026-07-11T00:00:00.000Z"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "notification-for-physical-examinations",
+  "name": "Notification for Physical Examinations",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Notification_for_Physical_Examinations",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Dear colleagues,"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Thank you for all of your contributions toward the development of the space station. To ensure your health and wellbeing, the annual health check in the space station has begun."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The negative effects from the invasion of the Antimatter Legion are slowly dissipating. In order to better serve our colleagues on the space station at any given time, as well as to maintain everyone's mental health after the incident, the Medical Department has now launched a new health examination service. Aside from the regular physical examination, we have also upgraded the facilities to provide better counseling and mental health care services."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Due to the partial restoration of the space station facilities and the limited capacity of the medical cabin, please make an appointment before coming for a medical checkup so that we can allocate a reasonable time slot and provide a good medical environment for you and your colleagues."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Appointment Booking:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Booking through terminals: Please utilize the various terminals in the space station and log onto the Herta Space Station Staff System to book your appointment at the medical cabin interface."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "in-person: Available at all times. Please register for an appointment with the help of medical cabin staff members on duty at the desk."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tips:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "After the booking is confirmed, you will receive a confirmation notification. Please remember to attend your session on time."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "If you need to cancel the booking, please log onto the Herta Space Station Staff System at least 2 system hours before the session to do so, or cancel in person at the medical cabin."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "After canceling the appointment, the next appointment can be made at any time."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Search Results:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Each physical examination report will be generated in electronic form within 36 system hours. The Herta Panopticon System will be sending out notifications around that time. Please remember to check your terminal devices after the checkup."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. If you have any questions regarding your examination results or require a medical consultation, please bring your staff identification card for confirmation purposes when you come in for the consultation."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "If you are unsure or have questions about the physical examination, feel free to contact the medical staff member on duty on the Herta Space Station Staff System."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

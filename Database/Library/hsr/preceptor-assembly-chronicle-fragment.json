@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "preceptor-assembly-chronicle-fragment",
+  "name": "Preceptor Assembly Chronicle Fragment",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Preceptor_Assembly_Chronicle_Fragment",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "(The inscribed text has been damaged.)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "[Above text is missing]"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "[Missing] (Presumably from Preceptor Taoran's speech)"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "...Preceptor..."
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "[Missing]"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "...ancestral law..."
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "[Missing]"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "...isn't that ridiculous!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "[Missing] (Presumably from Preceptor Xuepu's speech)"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "...After the sedition, the Vidyadhara's reputation has been incredibly tarnished. If we don't turn the other cheek and show friendship, it could damage our alliance with the Xianzhou people. And that's undoubtedly what the Preceptors would hate to see. Therefore, I propose that the Luofu Vidyadhara should temporarily move away from the rule of the high elder and instead submit to rule by the council of Preceptors, to ensure"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "[Missing]"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Preceptor Taoran said: Lady Xuepu, you've served as one of Dan Feng's tutors during his development phase. The disasters he has waged are now inextricably linked to the indulgence of you, his teachers. Dan Feng's imprisonment is his own fault, and has nothing to do with the succession of high elders. I shall repeat: The ancestors have formulated laws, and these cannot be changed. Our solemn responsibility is to confiscate the Transmutation Arcanum and the Orb of Abysm from Dan Feng to uphold the continuation of the Ichor Lines. Your bold suggestion of Preceptors entangling in political activity is the height of malice!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Preceptor Fenghuan said: Some people keep secret little scores within themselves. Few dare to expose them. Then allow me to clear the air here and now: The Preceptor Council is a stop-gap measure for when the High Elder position is vacant or governance is untenable, but Xuepu's message rings loud and clear. She wants to take advantage of"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "[Missing]"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "being cut off to completely replace the High Elder position with the Preceptor Council."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Preceptor Xuepu said: I shall recommend that you do not slander me."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Preceptor Fenghuan said: Then you have misunderstood. I am in agreement with you. The High Elder system is an outdated one, handing over power to a single chosen one. This has caused countless tragedies in the history of our kind. Now that Dan Feng has been detained by the Ten Lords, isn't now the perfect time to hand back power to the people? Or are you saying that these people are so used to being loyal subjects that they're incapable of learning how to be their own masters?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Preceptors erupted loudly in a ruckus, debating and cursing each other. This has not been recorded verbatim."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "[Missing] (Cannot identify who the speaker here is)"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "...Cursing aloud, in here? Scandalous!"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "[Missing]"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "...must think clearly about this, as it will decide our fate for the next few thousand years."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "[Below text is missing]"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

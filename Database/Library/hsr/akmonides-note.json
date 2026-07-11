@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "akmonides-note",
+  "name": "Akmonides' Note",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Akmonides%27_Note",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Part I",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The poor boy from the blacksmith shop has gotten above their station~"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "That love-blinded young fool... Does he really believe that he can escape the quagmire of power with his loved one and find this so-called happiness ever after?"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "label": "Part II",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "How could a Gardener in the Garden of Life be a bad person?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "They are all pure and noble scholars that cannot be blinded by wealth or tempted into breaking the law... They must be, right?"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "label": "Part III",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "What should I do when I grow weary of daily life in the baths?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Go and talk to the staff~ The architects, the mathematicians, the \"cleaners\"... If you can get them to open up to you, you're bound to be entertained."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

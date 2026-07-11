@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "clara-protection-society-is-seeking-new-members",
+  "name": "Clara Protection Society Is Seeking New Members!",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Clara_Protection_Society_Is_Seeking_New_Members!",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The full name of the society is \"The society to protect Clara's smile to repay her for her selfless help to all the residents in the vagrant camp,\" abbreviated to \"Clara Protection Society.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The society aims to repay Clara for her angelic deeds such as helping with the entire vagrant camp's food and lodgings, and healing our exhausted hearts and minds."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Therefore, as adults, we should — not bring trouble to Clara; help Clara whenever we can; let Clara grow up happily; become Clara's true family; protect Clara's innocent smile; protect Clara's angelic voice; and protect Clara's heart of gold. Though Clara is not good at receiving any strong displays of gratitude and always lowered her head in embarrassment, we are not going to stop!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "By joining this society, you can:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "1. Enter the vagrant camp and share Clara's gentle smile that can melt snow with the society's millions of members (there is no completed member headcount, but trust me, that's how many people are protecting Clara)."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. After Clara had greeted you, hide in a corner and vocalize your praises at a volume that does not disturb her."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. Purchase Clara's portrait, bunny plush, feet imprints, and other merchandise from the society's merchandise division using community volunteering work credits and at the cheapest price (The artist Old Ollie was a famous artist known for painting legendary portraits for wanted posters)."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "4. Lastly, and the most glorious — You will receive a \"Clara's Protector\" badge upon joining the society (Made with stainless steel to symbolize our timeless and heartfelt desire to protect Clara)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*Small print at the bottom of the poster*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "While enjoying the various benefits the society offers, please refrain from:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Providing any personal conveniences to Clara on your own (this goes against Clara's goodwill)."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. Question Clara on matters aside from daily life in the vagrant camp (it should be basic manners not to pry into other people's privacy)."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. Form any kind of familial relationship with Boss Svarog in order to get closer to Clara (these relationships include, but are not limited to, adoption, sworn siblings, and marriage)."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "4. This list will continuously be updated and the society reserves the rights to final interpretation."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

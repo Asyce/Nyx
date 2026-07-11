@@ -21,6 +21,9 @@
     "build:deploy": "npm run build && node ./tools/build-deploy.mjs && node ./tools/inject-seo.mjs",
     "smoke:deploy": "node ./tools/smoke-deploy.mjs",
     "test:favourites": "node ./tools/test-pinned-favourites.mjs",
+    "test:runtime-publisher": "node --test ./tools/tests/publish-runtime-data.test.mjs",
+    "test:custom-timers": "node --test ./tools/tests/custom-timer-storage.test.mjs",
+    "test:timeline": "node --test ./tools/tests/timeline-data.test.mjs",
     "serve": "python -m http.server 5173 --bind 127.0.0.1 --directory .."
   },
   "dependencies": {

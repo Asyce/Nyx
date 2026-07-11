@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "serva-s-letter",
+  "name": "Serva's Letter",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Serva%27s_Letter",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "My dearest Seneca,"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "It feels like forever since I last heard from you. Word has reached me that you'll soon set off to challenge the Ocean Titan. Now, one battle barely ends before the next begins. You're working yourself too hard."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The Month of Everday is almost upon us, and the annual Sky Rite will soon begin. Little Halkos has just turned eight and is eagerly readying himself for the rite. Sometimes, I see flashes of your younger self in him. Like you, he's growing up surrounded by the heroic legends of Lady Seliose, sharing your diligence and work ethic. Yet while our family's hardships taught you life's cruel uncertainties and perhaps made you too resolute, your protection ensures that little Halkos... and the other stray children recently welcomed into our courtyard, need not face the same bitter lessons."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The evening before I wrote this letter, little Halkos fell asleep to tales of your adventures. Just before his eyes closed, he leaned close and whispered that unlike Lady Seliose who dwells in distant clouds, you are more like the sky itself, watching over all. I couldn't sleep that night. With my mind returning to those desperate times our tribe faced over a decade ago, my heart is filled with guilt and regret. I remember us going five days without a meal, and how wandering soldiers would claim our friends. Back then, as you listened to stories of the sky hero, you would whisper, \"I will return to the sky, and become it.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Oh, you were always a headstrong girl, never blessed with a priest's intuition or a warrior's instinct. What you had was simply a heart that refused to bow to destiny. I can't count the scars that earned you your current strength and standing, scars you've likely forgotten. The whole world knows how demanding service to the Imperator can be, yet every letter you send has your penman conceal your weariness, filling the page with only cheer and kindness... Seneca, your iron will isn't a weakness, but it isn't always a strength either. The burden it places on you... Is this why honey brew has become your only comfort?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Well, look at me going on and on. Write back to the courtyard soon, won't you? Everyone misses you. And really, you ought to learn to write your own letters. Always having Verginia pen them for you must be terribly inconvenient for the poor girl."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Serva, Twilight Courtyard"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

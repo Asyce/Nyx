@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "song-of-fate-season",
+  "name": "Song of Fate Season",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Song_of_Fate_Season",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Legend says the Chrysos Heir bard Illia once passed through Janusopolis during Fate Season, casually singing this folk song while riding a dromas."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "When the year is young and new, Janus bars their ancient door"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The eldest sister of Fate draws borders true, with chains across the cosmic floor"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "See the lines that split the sky, cleaving future from the past"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "All cast earthly bonds aside, and burn the bridges to their yore"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"When these gates swing wide again, new dawns shall rise once more\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In the month of perfect time, Talanton winds the springs of fate"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The second sister of Fate with measures fine, weighs all things both small and great"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "See how dawn and dusk align, day and night in equal weight"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Mortals rise when dawn bells ring, rest when sunset takes its place"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Perfect balance shows us all, nothing's truly small or great\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In the drowsiest of days, Oronyx spreads sleepy haze"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The youngest sister of Fate falls like ambrosia flows, muting reason's waking prose"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "See how dim the daylight grows, even the Dawn Device drifts to repose"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Mortals drift in dreamy doze, melancholy softly flows"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Let all rest in gentle peace, till new life brings sweet release\""
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

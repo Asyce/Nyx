@@ -1,0 +1,1547 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "list-of-archenemies",
+  "name": "List of Archenemies",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/List_of_Archenemies",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Ruin Scroll: Lord Ravager",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Doomsday Beast"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Trampler"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Voidranger"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Baryon/Antibaryon"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Category"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Their identities are not fixed and are based on species of origin."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Summary"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "A Lord Ravager is an Emanator who oversees many divisions in the Antimatter Legion, and is selected by the Ruin Author, Nanook."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Despite the countless worlds, civilizations, and lives that Nanook has annihilated, THEY still leave a pathway open to delay the doomsday of some powerful victims who obey THEIR will — or who even step gleefully onto the Path of Destruction. Endowed with the powers of Destruction, these creatures are twisted into dreadful Lord Ravagers."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Rumor has it that Nanook has seven Overlords, each representing one of the seven extremes of Destruction. But so far, we have yet to find any specific data on these seven Overlords."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Alliance observational records, corporation intelligence networks — there's barely any useful information out there on this — after all, there are no remnants by definition wherever Destruction goes, and that includes information. At least four of the Overlords remain a complete mystery, and can only be distinguished by their affinity for Destruction."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Observational Records"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[ Zephyro ]"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "With a terrifying reputation as a one-man army, Zephyro is the most passionate Overlord about violent destruction. Zephyro is obsessed with the raw power and beauty of things just as they burst open at the point of destruction."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In Year 6804 of the Star Calendar, the sun of New Bethlehem was ignited, scorching its planetary surface with huge amounts of radiation and instantly turning it into glass;"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "In Year 7143 of the Star Calendar, a huge cyclone was stirred up, smashing the ecosystem on Aedirn into smithereens;"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "In Year 7658 of the Star Calendar, the Moonshield's outer shell was drilled straight through, launching an attack on the planet core that crushed the entire world..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "These acts of Destruction neatly encapsulate Scorching Flare's extreme passion for doomsday scenarios."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Potential threat to the Alliance: Very high."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[ Celenova ]"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Celenova is the front-line general for the Ruin Author Nanook."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "For some reason defying logic, Celenova is Nanook's most frequently-used general. Her troops spread throughout the cosmos, weaving a network of destruction between the stars."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Yaoqing, the Zhuming, and the Fanghu ships all have records of fighting against Celenova's minions."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Celenova is also the only Emanator of Destruction to board a Xianzhou ship. Records from the"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "History of the Xianzhou"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "have her requesting a ceasefire with the Xianzhou Zhuming around Year 5700 of the Star Calendar, requesting the ship to change course and assist in attacking the homeworld of the wingweavers."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Potential threat to the Alliance: Very high."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[ Irontomb ]"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Irontomb's modus operandi is attacking technologically advanced civilizations."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "All survivors — without exception — recount the same experience: A complete intellectual collapse."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "In a flash, inorganic AI legions are paralyzed or turn against their mates; outer space defense arrays begin targeting the home planet; flying vehicles scatter at random like flies, unable to target the enemy... Irontomb's forte is attacking civilized worlds confident in their technology."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Recently, the Xianzhou Yuque has produced intelligence about Irontomb attacking the Baranza Forge. We must guard against his attack as soon as we can."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Potential threat to the Alliance: Very high."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[???]"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "This Overlord's name has not been clearly identified, but they have left behind observational records."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Stargazers of the Yuque once produced 152 consecutive years worth of observational records about the dead planet Syracuse-III."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Legion crept very slowly toward this front line, building up an advantage, exerting pressure, and chipping away at any resistance. Just like observing an ant colony, they watched their victim experience slow structural collapse."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Similar phenomena also occurred during the deaths of Red Babel, the Ogul ring, and others. Speculation rose that behind the scenes lay an Overlord with the calm, self-sufficient temperament of a chess grandmaster, pulling the strings of strife as it developed."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Potential threat to the Alliance: Very high."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[???]"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "This Overlord's name has not been identified, but they have left behind observational records."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Based on IPC records, at least 122 planets were plunged into chaos of unknown origin over the past 600 years before their ultimate demise at the hands of the Antimatter Legion."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Corporation investigators initially leaned toward these being isolated events. But all disaster assessment reports attributed these events to a single cause: \"spiritual\" disintegration; the internal conflict of belief systems; the crumbling of spiritual pillars; the collapse of trust within civilizations; and the complete abandonment of all hope."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Yuque's Divination Commission believed that behind these series of events lurked an unseen Lord Ravager."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Potential threat to the Alliance: Unknown."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[???]"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "This Overlord's name has not been identified, but they have left behind observational records."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The Intelligentsia Guild has provided a light comparison map of the starzone around the Yvanna chain. One-third of its stars have been extinguished by some unknown force for nearly 300 years, and it is beyond reason to suggest that this has occurred naturally."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Antimatter Legion roams freely across these worlds shrouded in darkness, raining down destruction upon this eternal nightscape. Survivors from the Yvanna system term this one \"The Sun Devourer.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Potential threat to the Alliance: Unknown."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[???]"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "This Overlord's name has not been identified, but they have left behind observational records."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Ecologists from the Luofu's Realm-Keeping Commission once researched a strange world that has completely been converted into antimatter. All antimatter objects hurtle toward their matter counterparts, releasing a destructive dazzle upon impact."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Antimatter Legion Creations have always had distorted, twisted appearances. When destroyed, many instantly implode with an intense backfire, dragging their enemy along with them to their destruction. Perhaps this strange characteristic is derived from this unnamed Overlord?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Potential threat to the Alliance: Unknown."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(Two lines of postscripts are recorded at the bottom of the dossier)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"The Cloud Knights have been created following Reignbow's edict to fight against Abominations, but so many battles were had against the Antimatter Legion since its foundation. In foreseeable future, the Cloud Knights will inexorably come up against minions of the Ruin Author, so adequate preparations should be made soon.\""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "label": "Abomination Scroll: The Borisin",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Wingweavers"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Houyhnhnms"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Viscorpi"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Heliobi"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Cobrakinds"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Category"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Primates — Hominids — Canine subspecies"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Summary"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The borisin are the oldest nemeses of the Alliance, and the main constituent of the Denizens of Abundance. Their planet of origin remains unknown. However, judging by genetic screen results, the borisin share a common ancestor with the foxians — yet the two have diverged onto very different paths."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Foxian epics tell how the races were divinely inspired by the Master of Immortality from beyond the stars. Drinking from the Redspring, they were granted immortality. But later historical developments saw the borisin consider the foxians as slaves or cannon fodder, fueling their desire to conquer the stars."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "According to verifiable Alliance records, there have been three large-scale wars between the Xianzhou and the borisin, with heavy losses on both sides. Therefore, the Cloud Knights must remain vigilant about the borisin's movements."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Physiology"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The borisin have a distinct canine anatomical structure: Broad, slender skeletons; powerful jaws and neck muscles; well-developed fangs; pointed ears atop the skull; and sharp claws on hand and foot."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Within the broad classification of long-life species, the borisin can be said to have the greatest healing ability."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Alongside this hyper-healing is their ability to shapeshift (known as \"Moon Rage\" by the borisin). This ability has also been observed very rarely in some foxians (apart from the foxians of the Yaoqing). Shapeshifting is accompanied by intense hyperplasia of the bone and muscle structure, such as a protruded snout and jawline, and the twisting in of the foot structure. This damaging deformation process is eventually completely restored by the borisin's rapid healing ability."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "During battle, the borisin emit a pheromone known as Lupitoxin, which stimulates fear in the amygdala. To counteract these effects, the Cloud Knights take medicinal pellets to suppress their innate fear when in combat."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Technology"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The borisin are particularly skilled at biotechnology, and perform various body modifications upon themselves. borisin armor and weapons both have characteristics of living entities."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Their ships are known as mechabeasts or beast ships. These are biological spaceships with the ability to feed, attack, and reproduce. The borisin's combat vessels for everyday hunting are also known for their rapid velocity."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Politics"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The borisin have a tribal council system, with many ancient cultural traditions centering around the strong preying on the weak, or respect for force."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A single tribe is called a \"Pack,\" and a multitribal entity is called a \"Great Pack.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The borisin often select the most cunning and strong to lead their Pack: The Brood Lord. For a Great Pack, the leadership selection process forces the competing Brood Lords to fight each other, ranking them from top to bottom based on strength. A Great Pack leader is called \"Father Wolf\" or \"Warhead.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(Two lines of postscripts are recorded at the bottom of the dossier)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"The last Warhead, Hoolay, has been interned and now the new Warhead is...?\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"Anecdotal accounts seem to suggest that it's Angsin or Leesa. — Qingzu\""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "label": "Abomination Scroll: Heliobi",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "borisin"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Wingweavers"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Houyhnhnms"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Viscorpi"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Cobrakinds"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Category"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Order: Shapeless — Family: Spirit Essence — Sub-Species: Heliobus"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Summary"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The heliobi are ancient enemies of the Alliance. They are a rare species among the Abominations of Abundance, belonging to the order of Shapeless and the race of Extraneous Demons. Their original planet remains unknown."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "As indicated by its biological classification, heliobi are pure energy entities without a set form. Records from many civilizations have named them \"The Shapeless\" or \"Starfire Essence.\" The heliobi love to parasitize others and control bodies of blood and flesh (commonly a humanoid sentient race), experiencing through this the various alterations of the nervous system triggered by emotions. This behavior of \"emotion consumption\" satiates the shapeless heliobi. The host will uncontrollably conduct stimulating behaviors (such as binge-eating, impulsiveness, self-mutilation, or destruction...) to please the heliobi within them, in exchange for the heliobi's powerful abilities. The process of heliobi taming the host's psyche is a process of expending the host's physical body without replenishment."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "According to"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "History of the Xianzhou"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", our contact with the heliobi can be traced back to the Lone Voyage Era before the Xianzhou natives turned into a long-life species. At that time, the nine Xianzhou ships sailing among the stars came into contact with various outrageous and miraculous lifeforms, including the heliobi. This race penetrated the ships' vaults to appear before our ancestors, declaring themselves a shapeless and rootless race, beseeching Xianzhou to give them a safe berth. The heliobi are adept at creating mirages and illusions to tempt humans. Thus, humans became addicted to these wondrous creatures of pure energy and indulged in frolicking with them."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "But they soon exposed their true colors. The heliobi tried to take humans' bodies, drain their emotions, and control their will. Such is the so-called \"Possession Tragedy,\" from which the Xianzhou Zhuming suffered the greatest. Thankfully, the Xianzhou artisans ultimately bound the heliobi within shapeless prisons and sentenced them to provide energy for Xianzhou for all eternity."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "This lasted till the end of the Flaming Catastrophe War against the Denizens of Abundance, when a hero broke the seal binding the heliobi, made an alliance with them, and relied on their power to defeat the army of Muldrasil*. After that campaign, the heliobi was also severely diminished. Its leaders were once again imprisoned and sealed in the various Xianzhou ships' Shackling Prisons. It cannot be ascertained whether any remnants may have escaped from the Xianzhou, but no traces of them have been found among the stars since."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*Note: A small number of academics believe in the legend that the Reignbow Arbiter is none other than this anonymous Xianzhou hero ascended, with the sign of their divinity being the Lux Arrow they fired to sever the Ambrosial Arbor. This myth must not be believed."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Physiology"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "When heliobi appear, electrical equipment will detect some sort of highly-intensive electromagnetic wave emission. As a creature of the Shapeless order, it can avoid the emission range of visible light and disappear from human sight. However, in order for the host to notice them, they would usually appear as a ball of heatless teal \"fire.\" That is also why they are called \"Starfire Essence.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Like how humans push physical objects, individual heliobi can also alter the energy balance of an area, freely converting energy from one type to another. Through manipulating energy, they can create visual images, make fire or ice, and produce vibration. This made heliobi appear as gods or demons to primitive civilizations. Based on the size of an individual's \"fire,\" one can judge the strength of that heliobus and how much energy it can master."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "As an individual heliobus possesses more and more hosts over time, it would also slowly develops a personality and become distinctly different from its kin. Records in the Ten-Lords Commission surmise that this race learns from the hosts' brains through their parasitism."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Technology"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The heliobi have never developed any technology. They have a certain level of repulsion against advanced technical equipment due to the race's ability to manipulate energy."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Politics"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Though heliobi are recognized as an Abomination of Abundance, they rarely appeared as a part of the Denizens of Abundance's legions. On the contrary, they had once allied with Xianzhou. (For a very short duration only. See above for the specific circumstances.)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "It has been at least six thousand years since the heliobi were subdued, making it virtually impossible to study its social organization. Some records indicate that individual heliobus can fuse with each other to create a bigger \"fire.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(A few lines of postscripts are recorded at the bottom of the dossier)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"I heard the Xianzhou Zhuming has one of these demons sealed inside?\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"That's right. Folks from the Zhuming call it Flint Emperor. Actually, doesn't our Artisanship Commission still have prisons like that?\" — Qingzu"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"That's pretty dangerous...\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"Well, Zhuming residents do love to play with fire...\" — Qingzu"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "label": "Abomination Scroll: Wingweavers",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "borisin"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Houyhnhnms"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Viscorpi"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Heliobi"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Cobrakinds"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Category"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Species: Primates — Family: Hominids — Sub-Species: Feathered"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Summary"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The wingweavers are ancient and established foes of the Alliance, and the main branch of the Denizens of Abundance. Their original planet remains unknown. According to currently available information, wingweavers reside in a living tree-shaped world named Muldrasil. Through the outstretched branches of Muldrasil, the armies of the wingweavers warp to different worlds to plunder resources and lives."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In the wingweavers' culture, any terrestrial sentient races that cannot fly are called \"Residents of Dirt,\" while the wingweavers call themselves the \"Cloudlords.\" They enslave other sentient races, making these races produce resources and maintain their world tree."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Based on the fragmented historical records in the"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "History of the Xianzhou"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", our first contact with the wingweavers can be traced back to the Primeval Imperium Era before the Xianzhou fleet set sail. \"Winged barbarians arrived from beyond the sky, slaughtered and plundered, and conducted evils uncountable. The sovereign raised armies and annihilated the invaders, imprisoning numerous magicians of the feathered ones and obtaining their miraculous recipes...\" This is the reason the Xianzhou fleet set sail. The sovereign whose name has been erased from history dispatched our ancestors to seek immortality from a god in the deep stellar seas."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The wingweavers invaded the Xianzhou fleet for the second time during the Flaming Catastrophe War. They cast down their branches and almost annihilated the Luofu. If the Reignbow's Lux Arrow had not arrived and severed the Ambrosial Arbor, the war would have ended the Luofu."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The Yuque's Divination Commission observed the destruction of Muldrasil at around year 5320 of Star Calendar. The Antimatter Legion destroyed the wingweavers' home almost instantly. Since then, many wingweavers have become lost wanderers in space, reduced to mercenaries and intergalactic pirates."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Physiology"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Compared to standard humans, the wingweavers' anatomical features are more akin to that of birds. They possess highly-developed back muscles, a pair (or multiple pairs) of feathered wings, elongated feet, and powerful toe structures that can push them off the ground."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The wingweavers are masters of flight, with cruise speed up to 400 kilometers per hour. Their bones and muscles contain special vacuoles that allow them to perform rapid dives and astounding bursts of acceleration. Similarly, such structures allow them to fly and move in the vacuum of outer space. (They still need to periodically leave vacuum environments to obtain air)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Cloud Knights need to be mindful of the following two points when fighting wingweavers: Be weary of their volleys when fighting from a distance, and suppress their flight and mobility using our advantage in weight and stamina when fighting in melee."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Technology"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The technology that the wingweavers demonstrated in intergalactic warfare allows us to deduce that their civilization had experienced a great decline."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "On the one hand, they possess \"branches\" that allow them to space warp. On the other hand, their resource supplies and weapon manufacturing are completely reliant on plundering external parties, or on trade with other Denizens of Abundance. They are found to have been equipped with the weapons and armors of borisin during all three Denizens of Abundance Wars."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Politics"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The wingweavers allot their positions in Muldrasil strictly according to their social structure."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The one residing at the topmost branch is the master of the holy celestine nest, the Wingperor of the wingweavers. Traditionally, he (or she) is considered an Emanator of Abundance. They are responsible for guiding Muldrasil's growth and making it thrive, and for nurturing all the winged people. Under them are the Sky-Defenders (the warrior class), the Hymn-Singers (the academics and secretaries), the Infant-Nurturers (the servant class), and the Bough-Pickers (the laborers). Below Muldrasil's five major castes are the Residents of Dirt, the lowest of the low — including all sentient races from other worlds that do not possess the ability to fly."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "As Muldrasil has been destroyed, the exact political structures of the wingweavers are no longer clear. The IPC's intelligence mentioned that all wingweavers scattered throughout the universe now belong to a certain wingweaver's mercenary company."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(A few lines of postscripts are recorded at the bottom of the dossier)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"And what of the relationship between Muldrasil and the Ambrosial Arbor...?\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"There is no concrete evidence to indicate they are related. According to the speculations of the Yuque's Divination Commission, there might be more than one world like Muldrasil — Qingzu\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"The wingweaver's Peacock Angel legion is on the move again. Information remains to be updated\" — Qingzu"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

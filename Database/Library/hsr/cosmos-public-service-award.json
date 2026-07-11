@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "cosmos-public-service-award",
+  "name": "Cosmos Public Service Award",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Cosmos_Public_Service_Award",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Cosmos Public Service Award"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "they (Trailblazer):"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "When gamma rays and neutrino bursts are blocked outside of the spiral arms of the cosmos, when yet another scheme devised by a Lord Ravager is thwarted by the resourceful Rangers, that is when the whistling of justice soars over the Starwall of Preservation, and the people of the seven Aeons rejoice! In this Amber Era when unprecedented changes took place, the Herta Department of Galactic Geopolitics still managed to capture tidbits of information from light-years away, all because of your honorable deed which left a mark on the ever-fleeting energy flow of the universe."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "As scarce as it may be, justice like this is commendable in its own right. It may not crush the vile foe once and for all, nor can it restore the rights the victims have lost. But it will, like the butterfly that caused a storm, repel all evil and pull good people together, leaving a remarkable chapter of justice in the history of this universe."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "For this purpose, a little bird travels through the glittering stars to name you"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Lord of Peace-Keeping"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Your title is hereby certified."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "May your voice be heard across the galaxies thereon."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Herta Department of Galactic Geopolitics"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2157 AE"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Signed by Researcher Elizabeth Watson"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

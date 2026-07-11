@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "warning",
+  "name": "Warning!!!",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Warning!!!",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The unique plants grown here have not undergone a comprehensive safety test. Any unauthorized contact might lead to unthinkable consequences!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The following adverse reactions have been identified:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Hallucinations, such as seeing mini-sized people with bubbles on their heads, an Aeon riding a Trotter, credits floating all over the sky, and snacks crawling around on the ground."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. Sudden personality changes, commonly manifested as a sudden urge to reveal secrets to colleagues or managers."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. Intra-cognitive dissonance. If you see yourself as a rice cooker or a ballpoint pen, do not doubt the fact that you are in grave danger."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "4. Fabricating things confidently, such as a non-existent warning notice and a made-up adverse reaction."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Given the dangerous nature of the plants, please stay away from them and seek help from the space station if you exhibit the above adverse reactions or other abnormalities! Otherwise, you will become... You will become..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Oh! You'll become... a happy pen... just like me..."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "I ride on a Trotter..."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "I grab credits that keep raining down from the sky..."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "And I feast on those snacks with legs..."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

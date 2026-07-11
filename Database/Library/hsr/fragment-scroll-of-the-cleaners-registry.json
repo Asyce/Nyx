@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "fragment-scroll-of-the-cleaners-registry",
+  "name": "Fragment Scroll of the Cleaners' Registry",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Fragment_Scroll_of_the_Cleaners%27_Registry",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "No. 7"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Sixteenth Generation: Olivia, Architect Officer"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Served as the Architect Officer of Okhema, overseeing the restoration of the Marmoreal Palace."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Cleared sections of the collapsed underground chambers, connecting various strongholds through tunnels. Passed away peacefully in sleep."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Essence has been extracted, awaiting a suitable successor."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Seventeenth Generation: Livia, Brewmaster"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Stationed at Marmoreal Palace, occasionally working at the Hero's Bathhouse, responsible for gathering intelligence on the Chrysos Heir."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "When receiving the ambrosia, tapping the cup wall three times signals for intelligence to be discreetly attached to the bottom of the plate with the next serving."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "No. 23"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Forty-First Generation: Gregoni, Scholar of Helkolithism"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Infiltrated the Helkolithism School to steal research findings in pursuit of improving the inheritance ritual."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Fatally injured by a hammer throw during a discus competition, did not survive."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Essence has been extracted, awaiting a suitable successor."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Forty-Second Generation: Koroni, Guard Captain"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Stationed at Marmoreal Market, responsible for granting passage privileges and responding to operations when necessary."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Killed in a Nikador faction ambush, fatally wounded while escorting refugees, did not survive."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "(A sharply written annotation) \"Every generation, every single one ends like this... Before acting on impulse, remember why you inherited this title. Is this the kind of death befitting a Cleaner?\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Essence has been extracted, but is temporarily sealed. Successor selection is postponed."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "<!--"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

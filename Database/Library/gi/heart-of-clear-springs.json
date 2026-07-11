@@ -1,0 +1,568 @@
+{
+  "schemaVersion": 1,
+  "game": "gi",
+  "id": "heart-of-clear-springs",
+  "name": "Heart of Clear Springs",
+  "sourceUrl": "https://genshin-impact.fandom.com/wiki/Heart_of_Clear_Springs",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Vol. 1",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Under the cascading moonlight, a tearful boy made his wish at the spring."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A fairy from afar, who had taken up residence in the unoccupied spring, listened in silence to his wordless wish."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Spring fairies know nothing of distant memories or deep dreams. They are born of water's essence, faceless descendants of the angels."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Thus, when the curious fairy emerged from the water and heard the cry of that boy's heart, she became interested in this life, younger and more fragile than her own. The silent fairy reached out her formless fingers, cold as the midnight dew and soft as fortune forgone and gently caressed the boy's forehead and cheeks."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Startled by this stranger's touch, the young boy lifted his head and met the fairy's gaze. \"Can you make my wish come true?\" The boy asked."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The fairy of the spring was surprised and confused by this presumptuous question. But she could not speak, and so simply nodded her head."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Satisfied, the boy left."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "He did not know that the spring fairy was alone, without friends or family, and that she had lost a great deal of her wisdom."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Only when the spring water flowed from cracks in the stone into her pool, and when she gazed upon the fractured image of the moon in the rippling water, did she slowly regain the ability to think, and to mimic fragments of speech."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Like a curious child, the fairy observed the world around her in innocence, wonder, and love. She rejoiced with the fox and squirrel who stole berries, and grieved at the dark clouds that covered the horizon."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "And for that young boy, a feeling complex yet immature welled forth from within her heart."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "All alone in this world, she had neither the power nor wisdom with which to grant his wish."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But she could share it, and she drew life from sharing his burdens."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "label": "Vol. 2",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "As he gazed at the fractured image of the moon carried by the water's ripples, the boy poured his heart out to the spring."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "From within his words, she learned much of him."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And from her silence, he strengthened his belief in himself."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Dimly, the spring fairy understood that there was good in the world beyond moonlight and fruits, and more to darkness than mere clouds."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The boy spoke to her of forests and trees, cities and walls, and shared with her his joys, his sorrows and his fears."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As she listened to him, she became enamored of this imperfect world into which she had been born."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "When the boy grew frustrated at his powerlessness, the spring fairy would gently and quietly wipe away his tears. From them, she grew to understood the world outside the spring a little more."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Those tears flowed into the water, and the fairy purified them, turning them into a sweet nectar that brought him sweet dreams. The boy forgot the pain of his waking hours, and met the silent fairy by her spring in his sleep."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Every time that happened, the fairy too would smile, asleep in the pool drenched in moonlight."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The fresh dew nourished the boy's dreams, and the boy's dreams rejuvenated the lonely fairy's soul."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "In those dreams, the spring fairy told the boy tales of the faraway realm of Hydro. She spoke of her sapphire-blue homeland, she sang of the homesickness of exile, and she sighed for separation and belonging. In these dreams, the boy became the one who silently listened, who wept for her troubles, and who rejoiced in her happiness."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Over time, the spring fairy gained the power of speech from the boy's memories and dreams."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Over time, they became friends who shared all."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "label": "Vol. 3",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "When the wind ceased to blow, the moon's fractured reflection in the pool was made whole, and the boy heard the fairy's voice for the first time."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Fairies are tender, sensitive beings beyond the ken of humans, and the boy was deeply taken by her gentle, elegiac voice."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "But fairies being tender and sensitive beyond human ken, through his eyes she saw his naked yearning, and the promise that was about to leave his lips."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "And suddenly, the fairy was afraid."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Mortal lives are strong but fleeting, and the boy must grow, and grow old. Once youth and innocence had faded, how would he treat his elemental descendants? In the twilight of his life, would he blame himself for throwing his life away for a childish promise?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The spring fairy was pure and kind but she did not understand human love. She had never seen the miracle of humanity, and had merely sat idle through millennia of change. And so, she greatly feared parting."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "What humans see as the miracle of devotion, elemental fairies can only perceive as fleeting pleasure."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And even the power of fairies cannot reverse the aging of a loved one."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The tender fairy could not bear to see that unavoidable day come, and with a kiss she stopped the boy from uttering the words."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But the boy, in his innocence, mistook her rejection as her approval of his promise."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "From that moment, the fairy vowed that she would someday bear to leave him."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And the boy vowed that he would remain by her spring forever."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "label": "Vol. 4",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "By and by, the young boy grew up, made new friends and had new experiences."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And the spring fairy, as she had in his youth, sang him her quiet elegies each one."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Till the day came at last, when she left, and gazed no more upon the boy."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Never again did words flow forth from the trickling sound of the spring. Never again would the fractured moon become whole."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The spring fairy suddenly realized that though she had found a place to belong, and though she had experienced fleeting happiness, she was still alone."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The boy, now no longer a boy, could not perceive her flight, and blamed himself for his own solitude."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Perhaps she was merely a childish fantasy.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "He would think this to himself as he listened to the gurgling of the spring."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "But that cool kiss was real, as was the wind that once played with her hair."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Suddenly, he realized that though he had met and parted with countless new friends, and though he had adventured and returned more times than he could remember, he was still alone in the end."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "So, as they had done many years ago, the boy's tears fell into the pure pond, soaking into the fractured moon."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But this time, the spring fairy did not come as promised. Stubbornly she turned her back, willing to be the object of an innocent childhood dream, to be a fleeting guest wandering from a foreign land, but unwilling to allow her near-eternal life to break her lover's promise."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Legend has it that whenever the rain pours down, the raindrops that fall into the pond mix with the tears of the spring fairy."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "To his dying day, the boy believed wholeheartedly in this groundless superstition."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But sadly, the spring fairy who fled from her true feelings could never believe it herself."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

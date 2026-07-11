@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "dr-ratio-s-note",
+  "name": "Dr. Ratio's Note",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Dr._Ratio%27s_Note",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "(I)",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "About Snacks"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The snacks are crawling around everywhere."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "All the space station researchers should be fired. I've never seen a lab as messy as this..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Or are these snacks running the lab? This is rude and unacceptable."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "label": "(II)",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "About Skaracabaz"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "It's always go big or go home for these geniuses. The Technology Department will never be able to come up with such a nonsensical research method."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "If you see this note, I wish you luck. I would turn around right now if I were you."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "label": "(III)",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In the Intelligentsia Guild, there are often mediocre scholars who are ambitious to make it big. They don't understand that the truth is dangerous, and a fool's imprudent pursuit of knowledge will only bring disaster upon themselves."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I didn't see any clumsy fools when I was walking around just now."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I've finally discovered one virtue of this lab."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "label": "(IV)",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "About the greenhouse"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The dust and particles are suffocating... I can't believe there's not even a decontamination unit around here!"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

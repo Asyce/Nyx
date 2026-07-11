@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "game": "wuwa",
+  "dataTimestamp": "2026-07-11T00:00:00.000Z",
+  "activities": [
+    {
+      "id": "wuwa-tower-of-adversity-hazard-zone",
+      "label": "Tower of Adversity",
+      "mode": "dated",
+      "resetHour": 4,
+      "timezoneMode": "date-only",
+      "exceptions": [],
+      "windows": [
+        {"dateStart":"2025-09-15","dateEnd":"2025-10-13","source":{"url":"https://wutheringwaves.fandom.com/wiki/Tower_of_Adversity/Floors/2025-09-15","kind":"maintained-wiki","revision":90148}},
+        {"dateStart":"2025-10-13","dateEnd":"2025-11-10","source":{"url":"https://wutheringwaves.fandom.com/wiki/Tower_of_Adversity/Floors/2025-10-13","kind":"maintained-wiki","revision":83764}},
+        {"dateStart":"2026-01-05","dateEnd":"2026-02-06","source":{"url":"https://wutheringwaves.fandom.com/wiki/Tower_of_Adversity/Floors/2026-01-05","kind":"maintained-wiki","revision":90066}}
+      ],
+      "sourceUrl": "https://wutheringwaves.fandom.com/wiki/Tower_of_Adversity/Floors",
+      "verifiedAt": "2026-07-11T00:00:00.000Z"
+    }
+  ]
+}

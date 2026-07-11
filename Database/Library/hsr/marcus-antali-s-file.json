@@ -1,0 +1,438 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "marcus-antali-s-file",
+  "name": "Marcus Antali's File",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Marcus_Antali%27s_File",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Classification: Top Secret - P0"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "—— Basic Information ——"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Name:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Marcus Antali"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Sex:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Male"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Homeland:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "███"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Species:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Primate, Hominidae, Homo ██ Subspecies"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Years of Life:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Arcadian Calendar 1947–1994"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Resume:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Arcadian Calendar 1970-1979 ████████"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Arcadian Calendar 1980-1984 Intelligentsia Guild \"School of Evolutionary Perfection\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "——Attachment 1: Investigation Materials on the \"Herald of Death Incident\"——"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Case Summary:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "On the evening of July 22nd, Arcadian Calendar 1984, an unidentified creature appeared near Graphia Academy, entered the premises and killed 22 students, then proceeded to Dovebrook District, killing 124 citizens along the way. This resulted in a catastrophic incident with ███ deaths, ████ injured, and ████ went missing."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The unidentified creature, dubbed the \"Herald of Death\" by the public, was confirmed to be Marcus Antali, a scholar from the Intelligentsia Guild."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Interrogation Records:"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Bartwell"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Intelligentsia Guild Researcher, Former Colleague of Marcus Antali"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Transferred to the Astral Ecology School after the School of Evolutionary Perfection was shut down due to lack of funding. Testified that Marcus refused the transfer recommendation after receiving funding from an unknown source, continuing to advance the research project \"███████ Cellular Composite Reconstruction Technology,\" which had already reached the final stage of clinical trials."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Fulwish"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Graphia Academy Survivor, Witness of the Incident"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Recounted the Herald of Death's modus operandi under psychological intervention from the Department of Aberration Defense, confirming its ██████, fibrous structure, and corolla-like appendages, which align closely with accounts from eyewitnesses on the streets of Dovebrook District."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Silhoumont"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Former CEO of Planarcadia"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "No footage from cameras near his residence. Communication records completely destroyed through scheduled protocols. Admits to insufficient emergency preparedness during the Planarcadia Phantasmoon Games, but denies any connection to Marcus Antali."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Corrective Action:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "After investigation, this incident has been classified as an experiment subject containment breach caused by inadequate management."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Recover the experiment subject, conduct comprehensive elimination, and prevent further hazards."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Reorganize the Crisis Response Team, implement systematic blocking of keywords, and conduct interviews with print media."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Distribute compensation to ███ injured parties and ████ households of the deceased. Allocate humanitarian relief funds for ████ missing persons."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The above expenses will be uniformly disbursed by the Marketing Development Department."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Upon completion of the transition period, management authority over \"Marketing Development Department\" Planarcadia will be transferred to the Strategic Investment Department."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "——Attachment 2: Physical Evidence Related to the \"Herald of Death Incident\"——"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Contents"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "██████"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Survey Records"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Autopsy Records"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "██████"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "List of Casualties"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "██████"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Attachment transferred to Technology Department. Access granted to: Yabuli"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

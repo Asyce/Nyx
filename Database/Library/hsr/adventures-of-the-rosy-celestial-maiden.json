@@ -1,0 +1,338 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "adventures-of-the-rosy-celestial-maiden",
+  "name": "Adventures of the Rosy Celestial Maiden",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Adventures_of_the_Rosy_Celestial_Maiden",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Looks like I've got a grasp on what's going on,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I didn't physically enter this world."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I might just be a ghost,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A ghost named \"Rosy Celestial Maiden,\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "...hope I don't scare anyone."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "These days, no one can see me directly,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "and I can't meddle in anything either."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Just like a \"memetic\" entity Black Swan was talking about,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "but I must have left some traces behind, right?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "...Otherwise, who do they think they're talking about when they mention the \"Rosy Celestial Maiden\"?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I remembered the day I ran into that red-haired girl."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "She was praying in a secret chamber:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"I have accepted the mission. I have to set out...\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Surely, it must have been something very important,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Mom... see you tomorrow.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Just going with my gut, I followed after her."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sure enough, she was stopped by unreasonable guards."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "But what can someone like me possibly do?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "... I want to help her on her journey more than anything."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Just stand by and watch? Not a chance!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Hey, even \"memetic entities\" have our own special talents!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I could be her shield! Or maybe her spear!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Heck, I could even be a crumbled pillar..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Is the Titan... on her side?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Ha! Wrong answer! It's ME who's on her side!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "...If only I could actually show up in front of her."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Just imagine how much more I could do for her."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Finally... beyond this gate awaits a boundless world.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"This is where my journey begins.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "She made it."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But as a memetic entity... I'm completely worn out."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "...When I came to, I was somewhere totally different."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"She won't remember you. You won't leave a trace in anyone's memories...\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I think I heard another me speaking."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Am I going crazy?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I should be fine! I can't even imagine what it'd be like if I actually lost my marbles..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "But hey, I totally left a trace."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "She might not remember me, but she successfully started her journey now."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "That \"rather illogical outcome\" on the day her journey began was my mark."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Just like the Rosy Celestial Maiden."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Amphoreus might not remember me, but the legend of the Rosy Celestial Maiden is everywhere in this land."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I'm not throwing in the towel yet."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Someday, everyone in Amphoreus will know exactly who the Rosy Celestial Maiden really is!"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

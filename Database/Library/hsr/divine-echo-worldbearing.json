@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "divine-echo-worldbearing",
+  "name": "Divine Echo: Worldbearing",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Divine_Echo:_Worldbearing",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Kephale, Throne of Worlds,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Eternal and exalted, bearer of boundless light."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Through your divine visage, holiness is revealed"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And the beautiful dawn arrives."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "<!--"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

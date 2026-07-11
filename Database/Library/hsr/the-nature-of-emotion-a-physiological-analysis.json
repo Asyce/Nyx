@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "the-nature-of-emotion-a-physiological-analysis",
+  "name": "The Nature of Emotion — A Physiological Analysis",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/The_Nature_of_Emotion_%E2%80%94_A_Physiological_Analysis",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The Nature of Emotion — A Physiological Analysis"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Author: ███"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Correspondence Address: ██, Bearing Lane, Mechanical City, Planet Screwllum"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Summary: Emotion is the most mysterious phenomenon among all existences. For a long time, we were not clear about the essence behind the presence of emotions. By conducting a physiological analysis of various life forms in the universe, this article attempts to answer the challenging yet significant question: What are emotions?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Keyword: Emotion, physiology"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "1. Human Emotions"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Before moving to Planet Screwllum, I met Emma, an unusual brain cancer patient. She became a changed person after having her tumor removed. From being enthusiastic and active, she transformed into an anti-social, irritable, and aloof person. Intellectual-wise, she was not affected, and she remained an excellent college lecturer. Yet, she could no longer handle her teaching work."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "After a thorough examination, I found that Emma's reasoning, memory, attention, and other cognitive abilities were not impaired. Still, she had problems feeling and reacting to things that happened to her. In other words, she was suffering from a severe emotional disorder."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "By analyzing these data, we can draw a firm conclusion that the existence of human emotions is reliant on certain bodily tissues. Fear is associated with the amygdala and resentment with the insula. The expression and regulation of emotions are controlled by the prefrontal cortex, while empathy and remorse are related to the insular cortex and cingulate cortex."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "So, does this suggest we could potentially manipulate or even control human emotions by altering these physical organs? On the other hand, if some life forms do not have those tissues as humans do, does it mean they are without emotions?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2. Emotions of Inorganic Lives"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "To find answers to these problems, I visited Planet Screwllum, a place crowded with inorganic lives. With Screwllum's help, I gained access to the mechanical lifeform lab. I saw a structure completely different from the one of humans when I scanned the body of a mechanical life form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Case 1: A mechanical girl who escaped from the Annihilation Gang exhibited a strong sense of guardedness against all external matters. Her core circuit showed signs of burn."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Case 2: An elderly mechanical being was unable to move after the passing of a family member. Upon examination, there was no issue with his body, but he was unable to answer questions posed by external sources."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Electricity flows in their body like blood. Although mechanical lifeforms are nothing like humans, I can see them having similar torrents of emotions. Could this be just an illusion? Or could emotions be unrelated to any physical organs, and instead are dependent on something that transcends physiology?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Conclusion"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "When I was leaving Planet Screwllum, a good friend of mine got emotional when sending me off. It was the first time I had seen tears in shiny, silvery color when they trickled down his crystal-like face. At that moment, I felt love — I was very sure about that."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "So, what exactly are emotions? Instead of being a privilege exclusive to certain life forms, it is the essence of all life forms. It is an abstract behavioral pattern and a common inner language. Perhaps, this language was already known to all life forms when they were created. By virtue of this language, all beings are able to understand each other, giving rise to the existence of love."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "More questions will be solved by future research."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Acknowledgements"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I would like to thank Mr. Screwllum for providing the lab."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Ruan Mei's Annotations:\nEmotions are the common language of all life forms... That's the conclusion ██ spent an entire lifetime to reach.\nPerhaps ██ was simply that kind of person, but I find it hard to agree with or even understand this finding.\nI wish I could ask her about it."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

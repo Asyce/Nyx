@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "ryusuke-s-work-appreciation-part-1",
+  "name": "Ryusuke's Work Appreciation (Part 1)",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Ryusuke%27s_Work_Appreciation_(Part_1)",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(Originally published in"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Interstellar Art Critique"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", Issue 1728, cover feature. Editor: Sturgeon A. Raines)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Ryusuke, pen name David van Holt, was born on the planet Bathia-2, is a renowned painter, Graphia scholar, art critic, and educator in Planarcadia. He currently serves as the director of Graphia Academy, vice president of the Planarcadia Graphia Association, honorary consultant to the Department of Aberration Defense, and president of the Duomension City Creators Association. His major works include"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Silent"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "and"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Circular Sigh"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", while his primary monographs include"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Imagenate Theory"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ","
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Universal Art History: Graphia Volume"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ","
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A Study of the Graphia Family History"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", and"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Cosmic Biology Index: Imagenae Volume"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "His artistic journey can be divided into the following four stages:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Stage 1: Realism Period"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Ryusuke comes from Bathia, a star system renowned for its classical pastoral aesthetics. He graduated with honors from the Classical Fine Arts Department of the Bragi Royal Academy of Arts and spent three years teaching there. During this time, he received numerous accolades, including the \"Arita Classical Art Foundation\" award, establishing himself as a premier rising star in the interastral art world. Critics noted that his artistic foundation was already evident. Ryusuke excels at situating himself within the breadth of the Amber Era to observe the world objectively, striving for a near-utopian purity."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In this period, Ryusuke's portfolio consisted primarily of still lifes, landscapes, and portraits depicting reality, showcasing his formidable technical foundation. Consequently, conservative critics often regard these as his finest works. Pieces such as"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Sand King's Cocoon"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ","
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Fall of Tuv-β"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", and"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Portrait of a Mother with a Scythe"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "are hailed as the zeniths of Bathia's realism works."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Stage 2: Graphia Period"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Following his arrival in Planarcadia as a visiting scholar, Ryusuke's fascination with Graphia techniques led him to join the Graphia Academy. He mastered the fundamentals of imagenae creation in under a year. Upon completing his visit, the academy invited him to remain as a faculty member to further his studies. During this period, as a creator from a different world, Ryusuke held a unique perspective on imagenae compared to the local populace. His work focused on expressing the mental state of modern individuals under the management of the IPC, using Planarcadia as a focal point, and positing that imagenae are direct reflections of that state."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "His representative work,"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Astral Shepherd Jellyfish"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", featured a collection of non-sentient, jellyfish-like imagenae drifting through the vacuum. It conveyed the message that This piece earned significant acclaim from the Knights of Beauty."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Silent"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", he created rock-cluster imagenae that could neither use Synesthesia Beacons nor speak, yet were capable of sensing the emotions of nearby sentient beings, altering their crystalline structures and colors to reflect those feelings. Ryusuke sought to establish a species parallel to humanity that remained \"uncolonized\" by human language and concepts. He However, these works were investigated for potential violations of the"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Faekind Protection Act"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", sparking intense debate across society and the art world."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

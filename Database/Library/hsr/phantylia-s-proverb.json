@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "phantylia-s-proverb",
+  "name": "Phantylia's Proverb",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Phantylia%27s_Proverb",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The words of wisdom left here by the Lord Ravager known as \"Phantylia\":"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Hehe, I know you can see me. Go on, guess. What do you think I'm hoping to witness here?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A genius's mind, destroyed by its own creator?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A hollow Scepter, catching the glance from a new god?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A newborn Overlord, bestowing the glorious flames of ruin upon the cosmos?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Oh, the drama!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But no, that's not quite it. Or rather, that's not all I care about."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Does the coronation or downfall of a fellow Lord truly matter so much?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "What I'm hoping for from all this \"Trailblazing\" is one... grand... show."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The universe, in all its forms, is just a play. And a play needs its twists and turns to have any real flavor, don't you think?"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

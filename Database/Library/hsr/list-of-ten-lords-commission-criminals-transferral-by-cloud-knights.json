@@ -1,0 +1,395 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "list-of-ten-lords-commission-criminals-transferral-by-cloud-knights",
+  "name": "List of Ten-Lords Commission Criminals Transferral by Cloud Knights",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/List_of_Ten-Lords_Commission_Criminals_Transferral_by_Cloud_Knights",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In accordance with the Xianzhou Legal Code and the Ten Lords' Penal Code, the Luofu Cloud Knights have transferred the following suspects to the Luofu Ten-Lords Commission for trial and punishment."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Name: Fengxi"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Gender: Male"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Charges: Mara Ensnarement, Phratry Murder, and Incitement to Riot"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Summary of Crimes: Fengxi, a disciple of Sanctus Medicus, colluded with the master primus Dan Shu to set traps within the Aureate Elixir Furnace, resulting in mara corruption of many of their colleagues. He was apprehended by Cloud Knights during the battle at the Alchemy Commission."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Name: Tianjin"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Gender: Male"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Charges: Mara Ensnarement, Phratry Murder, and Incitement to Riot"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Summary of Crimes: Tianjin, a disciple of Sanctus Medicus, conspired with the rebels of the Alchemy Commission. He was apprehended by Cloud Knights during the battle at the Alchemy Commission."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Name: Zhiyu"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Gender: Male"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Charges: Mara Ensnarement, Phratry Murder, and Incitement to Riot"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Summary of Crimes: Zhiyu, a disciple of Sanctus Medicus, conspired with the rebels of the Alchemy Commission. He was apprehended by Cloud Knights during the battle at the Alchemy Commission."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Name: Qianhao"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Gender: Male"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Charges: Mara Ensnarement, Phratry Murder, and Incitement to Riot"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Summary of Crimes: Qianhao, a disciple of Sanctus Medicus, conspired with the rebels of the Alchemy Commission. He was apprehended by Cloud Knights during the battle at the Alchemy Commission."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Name: Yunke"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Gender: Female"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Charges: Mara Ensnarement, Phratry Murder, and Incitement to Riot"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Summary of Crimes: Yunke, a disciple of Sanctus Medicus, conspired with the rebels of the Alchemy Commission. She was apprehended by Cloud Knights during the battle at the Alchemy Commission."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Name: Qingning"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Gender: Female"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Charge: Prison Break"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Summary of Crimes: Qingning, a disciple of Sanctus Medicus, attempted to free Hoolay, former borisin Warhead. She was apprehended by the Realm-Keeping Commission at Sky's End Cave."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Name: Ruoming"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Gender: Female"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Charge: Prison Break"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Summary of Crimes: Ruoming, a disciple of Sanctus Medicus, was an accomplice in Qingning's case. She was apprehended by the Realm-Keeping Commission at Sky's End Cave."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Name: Yangzhu"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Gender: Female"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Charge: Sowing Discord"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Summary of Crimes: Yangzhu was involved in inciting civil unrest within the Vidyadhara. She was apprehended by Cloud Knights at Scalegorge Waterscape."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Name: Rilsjon Faunar"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Gender: Male"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Charge: Immortality Theft and Illicit Espionage"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Summary of Crimes: As an outworlder, he was involved in abducting a key official and coercing them into revealing the secret of immortality. He was apprehended by the Realm-Keeping Commission at Cumulus Terrace."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Name: Anwen"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Gender: Female"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Charge: Illicit Espionage"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Summary of Crimes: Hired by the Interastral Peace Corporation to infiltrate the evidence room and steal records pertaining to the clandestine human experiments conducted by the Disciples of Sanctus Medicus. She was apprehended by the Cloud Knights at the Exalting Sanctum."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Note: This case is of utmost sensitivity. Any requests for spy exchange from IPC must be denied."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

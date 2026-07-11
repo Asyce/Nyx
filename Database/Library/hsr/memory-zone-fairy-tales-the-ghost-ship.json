@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "memory-zone-fairy-tales-the-ghost-ship",
+  "name": "Memory Zone Fairy Tales: The Ghost Ship",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Memory_Zone_Fairy_Tales:_The_Ghost_Ship",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Fragments of lost souls come together from all reaches of the expansive Memory Zone, gathering on the immortal ghost ship."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "A fisherman puppet sits atop the mast of the ghost ship, holding onto a lantern that glows a faint blue. Attracted to light in the same way organisms orient themselves to the sun, the soul fragments move up onto the deck."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The fisherman reels in a young female scientist who is diving in the waters of the Memory Zone, but that is exactly what she wants. She has been planning to sneak onto the ghost ship all along."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "No one else is on board the ship, and only her footsteps echo down the empty corridor."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "To her surprise, everything look brand new. She finds shiny tableware, piping hot soup, and a self-playing piano in the midst of a song..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "When she walks into the Captain's Quarters, a holographic chart and still-functional precision instruments appear in her vision. However, her eyes then fall upon the time display on the log:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "30 Amber Eras ago."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Suddenly, the lights dim."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Someone seems to be approaching."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "She leans against the door and tightens her grip around her weapon."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "She hears heavy breathing and picks up on the smell of blood that grows more intense by the minute."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Someone pounces on her, and she pulls the trigger on reflex."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Save me...\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "She freezes in fear upon seeing the person she shot."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"I—I killed myself...\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As if compelled by an innate order, she bolts out of the place."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "12 system hours later, the fisherman reels in a young female scientist who is diving in the waters of the Memory Zone, but that is exactly what she wants. She has been planning to sneak onto the ghost ship all along."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "back-to-era-chrysea-handbook",
+  "name": "\"Back to Era Chrysea\" Handbook",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/%22Back_to_Era_Chrysea%22_Handbook",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "To this day, we still weep for that resplendent Era Chrysea—"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The homeland we long for in our restless dreams."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Now, Strife's pointed arms pierce its smooth joints,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And Trickery's profanities tarnish its solemn visage."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Its noble form, entombed beneath the River of Souls,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Is barred from the world by the Titans of Calamity."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "O great sky father, slumbering Throne of Worlds who upholds the Dawn,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Have you sown the seeds of a merciful prophecy,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "To guide that gilded age back to our side?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "We can only offer it the purge of Calamity and show of piety."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The warriors shall split Strife's pointed arms and burn away Trickery's profanities;"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The warriors shall, too, vanquish the Tyrant in the River of Souls,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And cleanse the cold bones of death, and from therein lift a past reborn —"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "That future past is you, Era Chrysea,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The homeland in our restless dreams."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "You adorned the boundless sky, earth, and sea with untainted gleam."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "You guided humanity's path with Gate and Scale,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And gently stashed thousands of tales behind the Veil."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "With your kiss, lovers and true bonds from this earth you create,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Under your witness, the all-knowing father blessed all with jovial fate."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Sky father above, we never sought that illusive afterlife —"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "We weep only for that resplendent Era Chrysea,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "For it is our homeland to which we must return."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

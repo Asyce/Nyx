@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "game": "gi",
+  "dataTimestamp": "2026-07-11T00:00:00.000Z",
+  "activities": [
+    {
+      "id": "gi-spiral-abyss",
+      "label": "Spiral Abyss",
+      "mode": "fixed",
+      "anchorStart": "2024-07-15T20:00:00.000Z",
+      "calendarMonths": 1,
+      "calendarDay": 16,
+      "durationToNext": true,
+      "resetHour": 4,
+      "timezoneMode": "server-fixed",
+      "exceptions": [],
+      "sourceUrl": "https://www.hoyolab.com/article/29513513",
+      "verifiedAt": "2026-07-11T00:00:00.000Z"
+    },
+    {
+      "id": "gi-imaginarium-theater",
+      "label": "Imaginarium Theater",
+      "mode": "fixed",
+      "anchorStart": "2024-07-31T20:00:00.000Z",
+      "calendarMonths": 1,
+      "calendarDay": 1,
+      "durationToNext": true,
+      "resetHour": 4,
+      "timezoneMode": "server-fixed",
+      "exceptions": [],
+      "sourceUrl": "https://www.hoyolab.com/article/29513513",
+      "verifiedAt": "2026-07-11T00:00:00.000Z"
+    }
+  ]
+}

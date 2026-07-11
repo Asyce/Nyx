@@ -1,0 +1,279 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "floriography-manual-attached-to-a-bouquet",
+  "name": "Floriography Manual Attached to a Bouquet",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Floriography_Manual_Attached_to_a_Bouquet",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Each flower has its own unique story and language behind it, and different flowers are suitable for different recipients."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Before sending flowers, you can refer to the following frequently used floriography to cater to your specific needs."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The Marquise"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Floriography: Nobility, beauty, grace, completeness, affection, and great charm."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Backstory: The Marquise is difficult to cultivate and rather expensive. In the past, there was a noble lady who squandered her family's fortune for this flower, and so came about its name. It is still loved by the upper class to this day."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Recipients: High-status, upper class individuals."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "First Snowfall"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Floriography: Pure innocence, beautiful memories, and hearkening back to times of innocence."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Backstory: It is said that, long ago, the first plume of snow each year was called \"First Snow,\" and it brought good harvest and joy. To this day, most of the people of Belobog don't know the real story behind \"First Snow.\" However, the beautiful memories symbolized by the flower continue to be passed down generation after generation, just as how it resists the bitter coldness."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Recipients: The elderly and young children."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Summershade Bamboo"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Floriography: Independence, strength, unafraid of hardship, and great perseverance."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Backstory: It is not technically a flower, but is still of great ornamental value. It is said that once upon a time, an artist used it as a musical instrument, and because of the sense of warmth invoked by its name, generations of great writers from Belobog have also come to favor it."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Recipients: Artists, people who like art."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Ball Peony"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Floriography: Patience, the greatest of achievements, a moment of eternity, and undying love."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Backstory: Ball Peony is a treasure among flowers. It blooms once a year for less than a month. When the flower blooms, its beauty is unparalleled, deserving enough of its high value. There is an unwritten tradition in Belobog — if lovers propose in front of the flowering Ball Peonies, their love will be everlasting."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Recipients: Lovers."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Solarflower"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Floriography: Warmth, unity, optimism, and yearning for a bright future."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Backstory: Even when it is in a dim environment, it will grow toward the direction of the sun. Said to be Alisa Rand's favorite flower, it has inspired countless people with its sunny traits and has always been considered a symbol of Belobog's warmth."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Recipients: Suitable for most people, the first choice for official and business occasions."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Rainbow"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Floriography: Simple beauty and living in the moment."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Backstory: It is said that before the Eternal Freeze, it was just an ordinary curbside flower. At present, it is still very common, but very few dislike its gorgeous colors."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Recipients: Cheap and suitable for everyone."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

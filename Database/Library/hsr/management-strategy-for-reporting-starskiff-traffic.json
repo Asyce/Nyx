@@ -1,0 +1,357 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "management-strategy-for-reporting-starskiff-traffic",
+  "name": "Management Strategy for Reporting Starskiff Traffic",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Management_Strategy_for_Reporting_Starskiff_Traffic",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Public Document of the Sky-Faring Commission"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Chapter One — Principles"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "One"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "This method is formulated according to legislations such as the"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Xianzhou Luofu Transport Regulations"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "and the"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Starskiff Safety Inspection Standards"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "to regulate how reporting is conducted for incoming and outgoing starskiffs, and to ensure traffic safety within the Xianzhou."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Two"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "This method applies to civilian starskiffs that dock, take off, or use offshort loading stations within star systems within the Xianzhou Luofu's jurisdiction."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "This method does not apply to Cloud Knight fighter jets, star jets, and competition fly ships."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Reporting starskiff traffic\" in this method refers to all activities that involve the starskiff owner reporting information such as docking, take off, and using offshore loading stations to the Sky-Faring Commission via the internet, mail, or other means of communication."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Three"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Sky-Faring Commission is the main organization responsible for reporting starskiff traffic, and oversees how starskiff traffic reporting on the Xianzhou Luofu is managed."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Department of Aviation in the Sky-Faring Commission is specifically responsible for relevant aviation tasks such as receiving, verifying and managing the reports of vessels entering and exiting its jurisdiction, the registration of new starskiffs, and the dynamic monitor system."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Four"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Starskiff traffic reports should be managed according to the principles of legality, fairness, and being beneficial to the people."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Chapter 2 — When to Report"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Five"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "In the following situations, starskiff traffic reports should be sent tot he local Department of Aviation:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Arrival reports should be filed for starskiffs arriving at any dock, berth, anchorage grounds, or loading stations to load or offload goods, have personnel embark or disembark, re-stock supplies, or receive contaminants;"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. Departure reports should be recorded for starskiffs leaving any dock, berth, anchorage grounds, or loading stations after loading or offloading goods, having personnel embark or disembark, re-stocking supplies, or receiving contaminants."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Six"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Starskiffs do not need to file a traffic report for the following situations:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. The starskiff is entering (or exiting) Xianzhou space from (or to) interstellar space, and has already filed interstellar travel starskiff custom reports according to relevant regulations;"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. The starskiff is a support vessel owned by Stargazer Navalia and conducting scheduled work in the area;"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. The starskiff is a Sky-Faring Commission vessel currently on official duty or patrolling."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Seven"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Starskiffs only need to file a brief traffic report for the following situations:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. A vessel conducting official business (such as maintenance) for the wharf area;"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. A vessel sailing or operating in the space operation platform area"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Eight"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Starskiffs towed into dock by another vessel may either file a standard traffic report or file under \"Dock Operations — Tugboat.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "If additional starskiffs must be added or removed from the towing vessel during interstellar rescue, transportation, or towing operations, a traffic report should be filed as soon as possible."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Where arrival or departure information cannot be reported according to the regulations due to emergencies such as search and rescue operations, the traffic reports should be filed as soon as possible after the operation has concluded."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(et cetera.)"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

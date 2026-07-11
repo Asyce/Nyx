@@ -1,0 +1,840 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "paperfold-university-yearbook-vol-24825",
+  "name": "Paperfold University Yearbook: Vol 24825",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Paperfold_University_Yearbook:_Vol_24825",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Page: Czipo",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[Basic Information]"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Name: Czipo Lionel Lero"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Alias: Ninja Initiate Keyboard"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Affiliation: Fortune Academy"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Contact: ████████"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Motto: I thought we would meet again soon, so I didn't bid farewell properly that day."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Activity Involvement:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Participating in the stage performance at the Music Party as one of the keyboardist for the band (Dazzling Band/Dazzling Collective/Dazzling Airship/Dazzling Initiate Hotel/Dazzling School Party)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[Messages from Classmates]"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Dafanchy:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It's been a blast being in the band with you, Czipo. I hope we'll work together again in the future! Yeah!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Arfey:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Your enthusiasm always injects fresh energy into the band, cheering us up whenever we're feeling down. You're someone who can renew everyone's morale. Keep that spark alive and shine on the stage."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(Trailblazer):"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "label": "Page: Montana",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[Basic Information]"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Name: Montana"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Alias: Trendy Ninja, TreasureNana (obsolete), Denisovan 426 (obsolete)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Affiliation: Charmony Academy"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Contact: ████████"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Motto: Stay ahead of trends! Always!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Activity Involvement:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Managing stage affairs during the band performance at the music party."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[Messages from Classmates]"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Dafanchy:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A dedicated peer taking responsibilities seriously! I hope we'll work together again in the future!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Arfey:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Thank you for your unwavering support for The Dazzling. May our performances bring you joy!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Czipo:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Well, allow me to make this clear: we won't disband our band. So, you're always welcome to in our future performances, Miss Secretary."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(Trailblazer):"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "label": "Page: Arfey",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[Basic Information]"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Name: Arfey"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Alias: Ninja Initiate Guitar"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Affiliation: Charmony Academy"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Contact: ████████"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Motto: That's why I must stick true to my way of the ninja."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Activity Involvement:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Participating in the stage performance at the music party as one of the guitarists for the band (Dazzling Band/Dazzling Collective/Dazzling Airship/Dazzling Initiate Hotel/Dazzling School Party)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[Messages from Classmates]"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Czipo:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Just don't be too formal. Drop by my party when you can! It's a great way to find your muse and get connected with your music-loving peers!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Dafanchy:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "May you always shine in your pursuit of your dreams and create music you truly love. I'll always cherish the moments shared with you."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(Trailblazer):"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "label": "Page: Dafanchy",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[Basic Information]"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Name: Dafanchy"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Alias: Ninja Initiate Bass"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Affiliation: Dreamweaver Academy"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Contact: ████████"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Motto: Seize every opportunity, and you will seize your dreams one day."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Activity Involvement:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Participating in the stage performance at the music party as the bassist for the band (Dazzling Band/Dazzling Collective/Dazzling Airship/Dazzling Initiate Hotel/Dazzling School Party)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[Messages from Classmates]"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Czipo:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Dafanchy! You're a crucial member of our band! The best bassist ever! I hear you're continuing your pursuit for music, keep at it! And if you need any support, just give us a shout! All the best for you!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Arfey:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "You're much braver than you realize. You may face setbacks in the future, but don't give up on your musical aspirations. I believe you'll become a brilliant musician, and I look forward to attending your live performances one day! Go for it!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(Trailblazer):"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "label": "Page: Richie",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[Basic Information]"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Name: Richie"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Alias: Peelin' Richie"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Affiliation: Fortune Academy"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Contact: ████████"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Motto: Place yourself in an appropriate position in this world."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Activity Involvement:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "President of the Toy Model Club at Paperfold University, possessing extensive experience in commercial activities."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[Messages from Classmates]"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Czipo:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "How about giving me, your dear classmate, a discount? Haha! Don't forget to join me in the party next time."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Chad:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Don't listen to his nonsense! Join my party!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(Trailblazer):"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "6",
+      "label": "Page: Chaletka",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[Basic Information]"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Name: Chaletka"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Alias: Ninja Initiate Patissier"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Affiliation: Dreamweaver Academy"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Contact: ████████"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Motto: Desserts are magic that heals your soul!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Activity Involvement:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Dessert Club President in Paperfold University."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "[Messages from Classmates]"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Dafanchy:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Your desserts are amazing, especially that crispy pie... Just a suggestion, maybe skip the bananas next time."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Haru:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Thank you for supporting the charity! The children were overjoyed upon receiving your cakes!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(Trailblazer):"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "7",
+      "label": "Page: Gabbana",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Basic Information"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Name: Gabbana"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Alias: Nanabloom-chan"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Affiliation: Charmony Academy"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Contact: ████████"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Motto: Take your time. Victory will fall into place!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Activity Experience:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Performing Arts Club President at Paperfold University. Featured in Mr. Reca's latest movie."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Messages from Classmates"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Arfey:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Your acting talents are remarkable. Don't overthink. Just stay focused on pursuing your dreams."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Montana:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Give me anm autograph before you become a superstar! Pretty please!!!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(Trailblazer):"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "<!--"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

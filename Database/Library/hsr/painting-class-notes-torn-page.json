@@ -1,0 +1,455 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "painting-class-notes-torn-page",
+  "name": "Painting Class Notes (Torn Page)",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Painting_Class_Notes_(Torn_Page)",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Lesson Review"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Imagenaes are forged from the substrate of Wishpower. In natural manifestations, a Wishpower nebula will fragment into some random single-digit to hundreds of entities, each possessing distinct baseline energy levels."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Conversely, when channeled by an artist, even a massive surge of Wishpower is distilled into a sole entity. The outward form is dictated by the artwork's design and the state of mind of the artist at the moment of creation."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "※ Minor anomalies have been documented."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Today's Topic"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "1. Funnelling"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Only need to exceed minimum threshold. The specific volume of Wishpower funneled will not impact the final scale of the imagenesis."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Safety Precaution"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A student once knocked over a rack of paints. He had to work as a streamer for quite a while to earn enough Wishpower to pay for the damages."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "2. Invoking"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "※ Conceptualizing the desired imagenae."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "① Which wish or emotion shall it be founded upon?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "② What is the scale of this wish?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "③ How much emotional weight is being invested?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "④ Does a pre-existing \"base perception\" exist? (This determines whether the imagenae can absorb Wishpower from external sources.)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The more stable the design in this phase, the longer the resulting imagenae can maintain its physical form."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Experiment"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Used a massive amount of Wishpower to draw an abstract stick figure while keeping my mind completely blank."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Result: It gave birth to a very \"stout\" wispae, which proceeded to hop right out of the classroom."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "3. Shaping"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The primary painting process. This stage determines the temperament of the imagenae and their initial impression on others."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The primary influencing factor is Technique:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Classical Techniques — Methods such as oil painting or Xianzhou ink-wash styles. Imagenae created this way are more human-like and can even achieve self-perpetuation (though they tend to be more stubborn)."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "• Orch"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "• Lightpaw"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Noted. Gonna go tease my orch buddy right now and tell him he's an old fart."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Modern Techniques — Abstract art, conceptual art, etc. These are better suited for creating imagenae with high practical utility."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(They typically cannot maintain their physical forms for very long.)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "• The Self-Turning Screwdriver"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "• This very classroom"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(No wonder the guy next to me got caught playing games. Turns out the ceiling has eyes. Don't look at me, Teacher! I'm taking notes, see?)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Digital art can spawn imagenaes too, but only through spirit imbuement."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "⠀⠀⠀⠀⠀⠀⠀(__)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "⠀⠀⠀⠀⠀⠀⠀(oo)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "⠀⠀/-------\\/"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "⠀/ ||⠀ ⠀ ||"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "*⠀⠀||----||"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "⠀ ⠀ ~~⠀~~ My little cow drawing"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "4. Imbuing (Can be merged)"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The act of \"pouring\" Wishpower to bring the imagenae to its final completion."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "This stage relies primarily on emotional intuition. It is better suited for hands-on practice than theoretical instruction."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Some artists prefer to mix Wishpower directly into their paints or dip their brushes straight into raw Wishpower while painting (known as the Spirit Painting technique). In such cases, this step can be omitted."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "※ Post-Imbuement can compensate for the risks of Spirit Painting. Spirit Painting requires absolute, unwavering concentration. If one's focus wavers halfway through, the half-finished work might literally grow legs and run away."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(Many famous imagenaes actually originated as these \"half-finished\" accidents, so it cannot be strictly defined as a flaw.)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "5. Feeding"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "This wasn't in the study notes, so it's gotta be a major exam point."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Not on the test."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Not bothering with it."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Professor actually memorized the favorite foods of every single imagenae. Surely we don't have to do the same?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Everyone just got a group text from the professor saying she's late because of an aberration fight in Duomension City."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Wait... if she's late, then who's the one teaching right now?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Wait a second, why did the teacher start dancing?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The best fun of the year: An aberrant imagenae with transformation powers posed as our professor and taught a whole class without getting caught."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Honestly? She's actually a better teacher than our actual one."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

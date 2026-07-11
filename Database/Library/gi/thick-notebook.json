@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "game": "gi",
+  "id": "thick-notebook",
+  "name": "Thick Notebook",
+  "sourceUrl": "https://genshin-impact.fandom.com/wiki/Thick_Notebook",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The phrase \"time and wind\" seems like it may have something to do with the Anemo Archon... But couldn't he have been clearer? What am I supposed to figure out with just these three words?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "If it has something to do with the Anemo Archon, then whatever clues may be found should also be related to Anemo."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Then if one factors in the idea of \"time\"... This sundial over here should hide some secret."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Moreover, I do get an odd feeling around this place sometimes. I think it might have been 2 AM... Or was it some other time...?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I really can't remember... I only remember that sometime , the ."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "But... Well, fine. The lecturers at the Akademiya used to say that it would be best for people without not to take part in practicum such as outdoor surveys."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I didn't understand what they meant then, but I suppose I do now. Even though I did find a clue, all I could do without a was watch."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I wonder if the Adventurers' Guild can help me find someone who has a and is willing to help."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Speaking of which, why is Mondstadt's Adventurers' Guild still so tiny?"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,969 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "musicians-of-belobog",
+  "name": "Musicians of Belobog",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Musicians_of_Belobog",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Volume One",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Chapter One"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A long time ago, the Eternal Freeze had just began in Belobog."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The land was not yet fully covered by the heavy snow. All the animals were playing joyfully outside Belobog."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Somewhere far away from Belobog lived a donkey who wanted to become a musician."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "One day, the master of the donkey went to him:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Hmph hmph hmph, my old donkey, you hard-worked for me your whole life. What kind of dream do you have?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The donkey was happy to learn that he might have a chance to fulfill his dream."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Neigh neigh neigh, my kind master, I want to enter the theater of Belobog. I want to become a musician!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "His master nodded and said:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"A nice dream! How about this: I'll send you to the market of Belobog myself!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The old donkey answered quickly:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Neigh neigh neigh, the market of Belobog? Does that place need a musician, too?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "His master laughed:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Hah hah hah, what place doesn't require a musician? Come to the backyard tomorrow morning. Don't be late!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The old donkey recalled that many of his animal friends taken to the backyard had never returned."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Only then did he realize that he was in big trouble!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "So the donkey packed up supplies and belongings and ran into the dark snowy night..."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "label": "Volume Two",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Chapter Two"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "More snow fell on its face, and the load it was carrying felt ever heavier. The old donkey felt the cold was hurting even his hooves:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Neigh neigh neigh, when is this snowstorm going to end?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A smart old hound heard the donkey's complaint and yawned as it was lying down behind some tree roots:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Woof woof woof, snowstorm won't end! Why run in a rush! Careful you'll fall !\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The snow made it hard for the donkey to see and it had no strength to keep walking, so it hid behind the tree roots with the hound to shelter from the snow."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But why would a hound appear in this snow-filled wilderness? The old donkey was intrigued."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Neigh neigh, thank you ol' fella! But why are you lying in snow?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Hearing this, the old hound only shook its head."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Woof woof, you're welcome. Snow won't stop, prey are naught. Master was not nice, I was to pay the price! No way I could agree, so I had to flee!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The old donkey sighed when he heard this. There was nowhere to go in the snowstorm. How could they stay alive? But he immediately thought of a good idea:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Neigh neigh neigh, listen to me! There's a city called Belobog, and the weather there is very mild! I can play a tune, you can beat a drum, and we'll make the stage our home!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The old hound thought it was a great idea. He lolled his tongue in delight, and even the hot vapor of his breath froze into ice flakes."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Woof woof woof, then I'll come with you!\""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "label": "Volume Three",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Chapter Three"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The two animals walked together in the snow. Suddenly, the hound saw something fluffy by the side of the road."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The old hound shook his head, thinking it was a trick of his eyes."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Woof woof woof, my friend! Look over there, is that a ball of fur?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "That fluff ball actually reacted to the old hound's words and popped out a pair of ears."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Meow meow meow, I am no fur ball!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The old donkey and hound fixed their eyes, and saw the fluff ball was a sad-looking old black cat."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"I was once a prized rat-catcher, but in old age I became a no-good-walker. Wanted to toss me yonder, did my old Master."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Meow meow meow, snow's cold all over. Where to find food ever?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The old donkey shook his head. The old black cat was going to lose its life if no one looked after it! He suddenly remembered that cats like to sing at night, so he said to the cat:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Neigh neigh neigh, old whiskers, worry no more! We head to Belobog, where the weather is mild! You love to sing at night, so we can go the Golden Theater and sing alright!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The old black cat thought for a while, and decided this was not a bad idea. So, the old cat flicked its ears, and joined the old donkey and hound's journey."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "label": "Volume Four",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Chapter Four"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "With friends on the journey, the trip was more lively! The three animals all complained about their masters, and their steps were ever faster."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Then, they heard a voice agreeing with them in the snow."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Cock-a-doodle-doo, what you say is so true!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The black old cat led its friends towards the voice, and found a rooster screeching on top of a broken fence."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Before the three friends could speak, the rooster was quick to squeak."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Cock-a-doodle-doo, snow all fell down, squashed my village gone! Y'all carrying backpacks. Looking for tourist tracks?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The old cat shook its head and answered."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Meow meow meow, we're in no mood to wander! Belobog right ahead can be found, and its weather's warm all year round! You like to train your voice all day, why not go with us to make a name and stay?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The rooster nodded hurriedly and perched on top of the old donkey's back, urging everyone to depart."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But soon this loud rooster said something else."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Cock-a-doodle-doo, by the way, do you all have to rhyme when you talk normally?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Woof woof woof, you don't talk in rhyme normally, either?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The old hound tilted its head at the rooster."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Cock-a-doodle-doo, I heard you talk like that, so I just copied you all.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The other three friends fell silent, with not even a whisper for a long while."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "label": "Volume Five",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Chapter Five"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The four musical genii finally joined forces. They promised to each other that they will definitely become real musicians when they get to Belobog!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "However, as they wandered, they accidentally entered the Belobog Underworld."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Cock-a-doodle-doo! Belobog is so warm! Even a bit too hot.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The old donkey agreed."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Neigh neigh neigh, not only am toasting, I could also use some eating.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As the old donkey said this, the four old mates could smell the fragrant scent in the air."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The old hound was the most sensitive to smell. It immediately flared its nostrils and led everyone towards the source of the scent."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "They soon stopped before a majestic building. The old hound put its forelimbs on the door and its tail twirled around like a cartwheel."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Woof woof woof! The smell is coming from inside here!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Meow meow meow, what goodies does this place have? Old donkey, you're the tallest, help us see!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The old donkey was about to lift its hoof onto the windowsill to have a better look, but the door of the building opened on its own!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Welcome to the local grand hotel! Please come inside, guests!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A friendly old grandpa answered the door and warmly invited the animal friends to the table."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Cock-a-doodle-doo! This is pretty good, and we are hungry! How about it, wanna go eat something?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The old donkey was very happy, and replied while lifting its hooves in the air."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Neigh neigh neigh, that can do! You lot brought money?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Woof woof woof, no!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Meow meow meow, no!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Cock-a-doodle-doo, no!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The four friends stared at each other."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "6",
+      "label": "Volume Six",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*The sixth chapter was written in a thin and elegant hand, as if it was bound at a later date.*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Chapter Six"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The owner of the hotel saw how the four musicians were in a tight spot. He scratched his chin and soon came up with a good idea:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"It's okay if you don't have money. If you can put up a good performance, then you can have a feast!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The four friends soon realized something: Wasn't this the perfect opportunity to make a name?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Then, the four friends quickly agreed to the offer."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The guests in the hotel all stopped eating and looked at the four animals in the middle of the room, looking forward to the performance."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Finally, the four stepped onto the stage."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "However, there were no instruments here and no drums. How could they have a performance?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "After a long time, the smartest member had an idea. The old black cat cleared its throat."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Meow meow meow, hey check it out! The blizzard is nigh and we're trapped, no doubt!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Our stomachs are grumbling, so food's what we're about! And this rap performance will be our payout!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The other three animals immediately understood what the old cat wanted to do. The old donkey knocked on the floor with its hooves, and the old hound and rooster imitated the sounds of drums and cymbals with their throats and made an accompanying beat."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Everyone in the room was shocked. They had never heard this type of music before, but were deeply attracted to this lively beat."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The hotel owner was also moved and offered a hearty meal to the talented musicians, as he had promised."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "After that, the names of the four old mates spread throughout Belobog."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "They were even invited by the Supreme Guardian to perform \"rap\" at the Golden Theater."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Then, the four musicians finally achieved their dream at Belobog and lived happily ever after. This art form called \"rap\" continued till today, becoming popular amongst the families living in the Underworld."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "7",
+      "label": "True Ending",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*It seems someone forcibly tore off this sheet of paper from a book.*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Chapter Six"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The four poor animals all had rumbling stomachs and had no energy left to think."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"We can give you a good performance. Would that be enough for a simple meal?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The hotel owner thought briefly and smiled kindly at the four animals."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"I didn't take you to be artists! How can I possibly take your money?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The four musicians became delighted at this: What a nice owner!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Then, the owner led the four friends into a private room."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"What would you like to eat? Why not come with me to the kitchen to have a look?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Everyone was too hungry to move, and only the old rooster was still lively."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Cock-a-doodle-doo, how wonderful! Everyone sit tight, I'll pick out our dinner!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The rooster happily headed to the kitchen with the owner, and the rest of the friends waited patiently in the room."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Soon, the old hound smelled the scent of food with its sharp nose."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Woof woof woof, quick, sniff! This smells delicious!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The old donkey had a big nose, and it smelled lots of the scent."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Neigh neigh neigh, indeed! What food could be so tasty?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The wise old cat tried recalling food it had eaten before."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Meow meow meow, this is good! It's the scent of animal fat! We're in for a good treat!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The owner then returned with a pot of fragrant soup."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Friends! Enjoy this fowl and ginseng soup!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And that was how the story of the four musicians in Belobog ended."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*There was a comment at the bottom of the page in elegant handwriting: \"What kind of ending is this? ...I'm gonna write an ending for this story myself.\"*"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

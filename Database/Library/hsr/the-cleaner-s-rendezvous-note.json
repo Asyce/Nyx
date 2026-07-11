@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "the-cleaner-s-rendezvous-note",
+  "name": "The Cleaner's Rendezvous Note",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/The_Cleaner%27s_Rendezvous_Note",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "After the tyrant's death, the Phyton mobilized many refugees to join the garrison and restructured the city's defenses. The updated schedule is as follows:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Guard shifts at the Marmoreal Market have increased in frequency — from Action Hour to Curtain-Fall Hour, all patrols along the Path of Parting will begin one quint earlier."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Take careful note of these changes to avoid unnecessary complications."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "*The note appears to have been smoothed flat then curled again, suggesting it was once rolled inside a secret message cylinder.*"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": ", high priest of the Flame-Chasers."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A middle-aged with gray hair, stooped posture, and a burn scar on the right side of the neck. Visits the chanting hall alone to pray during Entry Hour's first quint ."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "An exposed iron nail will be placed on the stair railing. , an accident might silence him permanently."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "''"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Dark, crusted bloodstains have obscured the text, and the names have been deliberately smeared away by bloody fingers."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "''"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Phyton and the Maiden have been frequently visiting the Twilight Courtyard lately to meet with healers."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "In their conversations, they've mentioned the Skyfolk and the Daythunder Knight's past affairs. The day to reclaim Aquila's Coreflame appears to be imminent —"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A thousand-year-old grudge will be settled then. Make preparations, for that moment draws near."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "''"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "...written on the inner side of a clean bandage, emitting a dry, herbal fragrance."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "''"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "<!--"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

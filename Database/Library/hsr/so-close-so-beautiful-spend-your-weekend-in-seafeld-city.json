@@ -1,0 +1,376 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "so-close-so-beautiful-spend-your-weekend-in-seafeld-city",
+  "name": "So close, so beautiful. Spend your weekend in Seafeld City.",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/So_close,_so_beautiful._Spend_your_weekend_in_Seafeld_City.",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Famous Sights"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "- Seaside Promenade"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A kilometer-long jetty built along the coast, beach on one side, shops on the other."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Enjoy the caress of the sea breeze and the whisper of the waves while you shop."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "- Ploo Museum"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Here, you can learn about local history and culture, in addition to visiting various specimens of local fish, shellfish, seaweed, and coral."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "- Hilltop Park"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Climb the winding mountain paths and stroll amidst the lush greenery. Here, you can view the coastline from high above, while the sunlight, flora, and ocean wash away your worries."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "- Morningtide Cape"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Take the town's tour bus to Sunset Cape. Not only does it boast magnificent cliffs and vast seas, but it also features the most beautiful sunrise in all of Planarcadia."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Featured Events"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "- Ploo Industries Half-Day Tour"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As a veteran local enterprise, Ploo Industries opens its industrial park every weekend for tours."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Activities include: Visiting production workshops, learning about manufacturing techniques, a \"Yellow Ducky Nibbles\" free tasting session, and hands-on experiences with toys and daily necessities."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Additionally, the park features a company-operated store where visitors can purchase their favorite goods at factory prices."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "- Seaside Carnival"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Every weekend, a massive party kicks off on the sands west of the port."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The festivities include: A sea fishing competition, beach volleyball, a surfing contest, a bonfire night, and more."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "During this period, the Smiles Society will also be hosting promotional events. Interested tourists are welcome to join in."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Local Delicacies"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Yellow Ducky Nibbles\" Series"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Includes famous products such as: \"Seafeld Duck Head,\" \"Ploo Chips,\" \"Ploo Specials,\" etc."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "All-Fish Feast"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A local specialty feast featuring fish prepared in every way imaginable! Experience grilled, fried, pan-seared, cold-tossed, and boiled fish all in one go!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Rainbow Seaweed Dumpling"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A traditional soup dumpling from the ploos, filled with a special seaweed stuffing. The skin is smooth and tender, while the filling is savory and juicy."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Hotels & Homestays"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Isle of Waves Hotel"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Features: Renovated from traditional ploo architecture, with rooms facing the ocean."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Services: Serves ploo specialty cuisine with traditional flavors."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Recommended for: Travelers seeking a unique ambiance and those who appreciate traditional culture."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Hotel of Happiness"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Features: The largest hotel in the area, dedicated to providing the most meticulous and attentive service to the guests."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Services: Rooms and amenities sized appropriately for guests of all body types."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Recommended for: Customers who prioritize quality accommodation and service."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Oceanfront Residence"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Features: A lively backpacker hostel known for its social vibe."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Activities: Small seaside bonfire mixers are held every weekend evening."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Recommended for: Solo travelers and visitors looking to make new friends."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "From the field in the sea, the ploos' home, Seafeld City welcomes you!"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "May your time in Seafeld be unforgettable!"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

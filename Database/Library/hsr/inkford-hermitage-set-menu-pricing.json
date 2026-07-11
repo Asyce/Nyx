@@ -1,0 +1,424 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "inkford-hermitage-set-menu-pricing",
+  "name": "Inkford Hermitage Set Menu Pricing",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Inkford_Hermitage_Set_Menu_Pricing",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"There is always a lot more that we can do.\" — Founder, Inkford Hermitage Hotel"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Accommodation Offerings"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Lightweight Room (Rent-Free)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "14 sqm, with ventilation (has small window)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Single bed (1.4m x 2.8m), desk, limited daily hot water usage."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Bathhouse access limited to off-peak hours."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2. Standard Room"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Price: 5000 credits per day per room"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "22 sqm, has window"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Large bed (3.5m x 2.8m), desk, unlimited water and electricity."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Legacy wireless network \"Wi-Fi\" available (Data usage fees apply)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Unlimited bathhouse access except VIP baths."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "3. Modern Suite"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Price: 20,000 credits per day per room, billed monthly (Payment in equivalent Wishbae accepted)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "30 sqm, floor-to-ceiling windows, includes Standard Room amenities."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Large bed (4.2m x 3.4m), couch"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Aether network access available (message upload restricted), unlimited traffic."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "4. Custom Suite Package (long-term guests only)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Price: Negotiated"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Includes Modern Suite-level amenities"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "30% discount on streamer tips via the IPC's streaming platform."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Includes dedicated caretakers, plus complimentary flower gifts delivered annually on the day of remembrance."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Other Individual Services"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Funeral Services"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Upon request, the Hotel may seal up guests' rooms at checkout. Using advanced technology, sealed rooms can be converted into Wishpower to depart with the guest."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Service fee charges are based on room type and the hotel's hired imagenae contractor salaries. Please call the front desk for a personalized consultation."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2. Leave Your Mark"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Upon checkout, guests may write their name and a special message on the hotel's Wall of Fame for future guests to admire."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Spots are limited due to overwhelming demand. Watch the hotel's livestreams for announcements of periodic upvote events offering the chance to win a spot."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Reality Enhancement Services"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. A \"Perfect\" Funeral"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Guests concerned about their Wishpower dissipating too quickly may contact the hotel and request a \"special\" funeral back in reality."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "For the funeral, the hotel will organize a group of actors dressed in black suits and sunglasses to be mourners, adding a touch of mystery as they pay their respects."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The entire funeral will be professionally recorded as a short video and blasted across social media. The hotel then channels the Wishpower generated by the resulting buzz back to you as a standby energy backup."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(A 30% service fee will be deducted)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2. Cleansing Service"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Suddenly remember some sensitive information you forgot to destroy? As guests cannot leave Inkford Hermitage, the hotel offers a personal data cleanup service."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "To apply, simply provide the device location, login credentials, data type, and file path (such as browsing history and private files)."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Then... poof! Never worry about it again!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "For an additional fee, The hotel's Aether Hacker specialists can replace it with wholesome, more curated information."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(For example, imagine how much respect someone who spent their life browsing charity websites and focusing on personal fitness and self-improvement commands within their family legacy. Please contact the hotel staff for further details. Service fee discounts available for Modern suite bookings and above. The hotel assumes no responsibility for any additional disputes arising from this service.)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "※ 2.5"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "If you truly require this information, we can arrange to bring it to the hotel instead of destroying it outright."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Additional charges apply."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Special Species Surcharge/Discount"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Mechatrons: Bedding and toiletries are specially designed. Due to size and weight, entry into the bath counts as two persons (free of charge only if the head is carried in by someone else). The cost is calculated at 200-500 credits per day and will be refunded at checkout."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Unlisted/Rare Species: Rate negotiable upon check-in."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "For any other questions, please inquire at the front desk. Our lobby manager, Casper, will be happy to assist."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

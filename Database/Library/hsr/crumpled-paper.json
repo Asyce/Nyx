@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "crumpled-paper",
+  "name": "Crumpled Paper",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Crumpled_Paper",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Slumbernana Monkey ██████ Slumbernana Monkey Slumbernana ██████ Monkey Slumbernana Monkey ██████"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "My love for Slumbernana Monkey knows no limits! Its soft fur and wise gaze just speak to my soul. I've splurged so much on Slumbernana Monkey merchandise, and everyone thinks I'm nuts. Maybe they're right, but who needs food when you can bask in the pure joy of Slumbernana Monkey...?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Slumbernana Monkey has become a vital part of my life now. It feels like something's missing without it. I just wish I'd discovered this ██████ earlier. If our meeting was meant to be, then I'm all in, because otherwise, I'd be chasing random stuff, like that time I was snoozing when Slumbernana Monkey came down from ██████."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "No. Slumbernana Monkey is my life essence. Once I caught a cold, and I asked my Slumbernana Monkey why. Even though it said nothing, I guess it knew I was completely under its charming spell. I don't want to ██████ Monkey anymore. I'm already ████. If I could just ██████."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "No! My life is entwined with Slumbernana Monkey! If only I could transform into ██████ Monkey! Slumbernana Monkey is gazing at me! It's speaking to me! Am I the ██████ Monkey?! Yes! I AM a Slumber██████ Monkey!!! I am ████████."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I want █████... I want to █████ Monkey... I ██████nana."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(The following content has been smudged with a black pen and is no longer legible.)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In the end,"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Cosmic Ninjutsu Inscriptions"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "suits me more."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "<!--"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

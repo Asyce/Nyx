@@ -1,0 +1,458 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "star-rail-fest-on-site-patrol-log",
+  "name": "Star Rail FEST On-Site Patrol Log",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Star_Rail_FEST_On-Site_Patrol_Log",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Mechatron ID:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "G079-IRION"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Duty Station:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Star Rail FEST: Penacony Exhibition Area"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Duty Mode:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Standard Mode/High Alert Mode"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Log Recorder:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "G-079 (Self-Recording)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "06:30 A.M. Shift Begins"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "System check complete. Energy at 100%, sensors operating normally. Linking to venue surveillance system."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Commencing patrol on designated route. Foot traffic steady, all clear."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "==============================================="
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "09:30 A.M. Incident 001"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Description"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ": 2 visitors attempted to climb the Great Septimus stand without any safety measures in place."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Response Measures"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ": Relevant warnings have been issued, and large set props such as stands have been added to the priority patrol list."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "09:30 A.M. Incident 002"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Description"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ": One artist, live-sketching an imagenae version of the \"Origami Bird\" at their booth, drew massive crowds of bird-watchers and photographers, causing severe traffic congestion."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Response Measures"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ": Crowds promptly dispersed and visitors organized into orderly queues."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(...)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "09:30 A.M. Incident 123"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Description"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ": 8 visitors misused on-site self-service SoulGlad machines in an attempt to organize a \"SoulGlad Splash Festival,\" resulting in contamination of portions of the venue and affecting nearby pedestrians and stalls."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Response Measures"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ": Temporarily detained the individuals involved for conduct and safety education, and finalized a compensation plan."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "08:35 P.M. Incident 124"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Description"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ": 13 cosplayers attempted to draw a large magic summoning circle in the center of the venue to recreate the \"Holy Grail War.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Response Measures"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ": Relevant education on proper conduct has been administered, and the perpetrators have been supervised in cleaning up their graffiti from the floor."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(...)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "09:35 P.M. Incident 233"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Description"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ": A total of 35 visitors and cosplayers gathered around the Great Septimus stand before closing time, attempting to organize a \"Harmonious Choir\" summoning ceremony."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Response Measures"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ": Crowd was promptly dispersed and the area cleared. No stampede incidents occurred."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "==============================================="
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "10:00 A.M. Shift Complete"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Shift Summary:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "233 incidents handled today. No injuries or major property damage."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Venue cleared. System enters standby maintenance state."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Unofficial Record:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "[Mechatron Expletive]"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Power remaining at 15%, consumption 250% higher than expected."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "---End of Log Record---"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

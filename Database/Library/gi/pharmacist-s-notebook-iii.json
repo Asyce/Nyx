@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "game": "gi",
+  "id": "pharmacist-s-notebook-iii",
+  "name": "Pharmacist's Notebook (III)",
+  "sourceUrl": "https://genshin-impact.fandom.com/wiki/Pharmacist%27s_Notebook_(III)",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "...An outlander with a chatty little fairy arrived on the island. They really came at a bad time..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "...Thanks to that outlander's help, my research has been fast-tracked. I never would've believed that things would go so smoothly..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "...Next, I will travel to the southern shoals of Yashiori Island to test the effects of the medicine once more. This time, I will be using the full dose..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "...Whatever happens, I want to thank everyone for their help..."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

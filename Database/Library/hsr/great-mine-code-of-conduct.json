@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "great-mine-code-of-conduct",
+  "name": "Great Mine Code of Conduct",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Great_Mine_Code_of_Conduct",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Mine Dorm Rules"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Eight Can-Dos"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I. Obey the arrangement of the administrative of the Great Mine."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "II. Respect the working hours of the mine dormitory. Lights must be turned off after 11:00 PM to avoid affecting the other miners."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "III. Keep quiet and maintain order in the mine dormitory"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "IV. Keep the mine dormitory clean and tidy. Be careful of public properties."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "V. Respect the housekeeping duty roster."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "VI. Allow miners' relatives. Relatives should also obey Mine Dorm Rules."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "VII. Be aware of safety precautions. Report any accidents or harassment by Vagrants in the mine dormitory area."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "VIII. Learn self-rescue and emergency escape methods. Obey the administrative's command when encountering accidents."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Eight Cannot-Dos"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I. Do not shout, fight, or visit others during your rest time."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "II. Do not use private Geomarrow Energy devices or open fire in the mine dormitory"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "III. Do not bring dangerous items into the mine dormitory (such as knives, explosives detonators, etc.)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "IV. Do not leave valuables in the mine dormitory. The dorm is not responsible for any losses or stolen items if Vagrants break in."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "V. Do not use any gambling props for activities in the mine dormitory."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "VI. Do not let anyone outside of the mining team (especially Vagrants) into the mine dormitory."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "VII. Do not desecrate any public property in the mine dormitory and separate rooms."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "VIII. Do not stay in the mine dormitory during working hours."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

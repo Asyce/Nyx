@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "dovebrook-times-news-clipping",
+  "name": "Dovebrook Times News Clipping",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Dovebrook_Times_News_Clipping",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Mysterious Murder Case: Synwish Syndicate Members Found Dead in Pool of Blood!"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Recently, a major homicide occurred in Dovebrook District. A total of thirty-three members of the Synwish Syndicate, including boss Polwave and second-in-command Caustide, were found murdered at the Syndicate's headquarters."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Security Bureau suggests the case appears to be the result of a gang turf war."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Crime Wave Strikes, Dovebrook District Gripped by Fear!"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Regarding these incidents, some residents are applauding the news, claiming gang activity has been seriously disrupting daily life in Dovebrook District."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "However, the vast majority of residents are deeply concerned, since anyone could be the next victim until the case is closed."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As of press time, foot traffic on Dovebrook streets has plummeted, with many shops reporting declining sales due to the impact of these cases."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Gang Infighting, or Something More Sinister?"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A shocking murder case has cast a bloody shadow over the newly opened Phantasmoon Games. Various rumors have added a suspiciously mysterious touch to the incident. Word has it that the Synwish Syndicate recently acquired a Supplicant mask. Could this be connected to the massacre that wiped them out? An IPC Worker also tragically perished in the incident, but why would an IPC employee be on Synwish Syndicate turf in the first place?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Regarding the above questions, I've already contacted the Security Bureau for clarification."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The receptionist stated: The case is still under investigation. Residents of Planarcadia are advised not to believe or spread rumors, and to await further official announcements."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

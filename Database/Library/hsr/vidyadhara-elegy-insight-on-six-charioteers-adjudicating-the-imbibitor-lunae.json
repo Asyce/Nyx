@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "vidyadhara-elegy-insight-on-six-charioteers-adjudicating-the-imbibitor-lunae",
+  "name": "Vidyadhara Elegy: Insight on \"Six Charioteers Adjudicating the Imbibitor Lunae\"",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Vidyadhara_Elegy:_Insight_on_%22Six_Charioteers_Adjudicating_the_Imbibitor_Lunae%22",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(Editor: After the Sedition of Imbibitor Lunae was quelled, some Vidyadhara individuals still worshiped Dan Feng in secrecy, creating various literary works and dramas remixing the whole narrative of the sedition from the perspective of supporters."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The Luofu's Six Charioteers let most of these plays go, but \"Six Charioteers Adjudicating the Imbibitor Lunae\" was very influential at the time, even prompting some Vidyadhara individuals to form groups against the Alliance. The Seat of Divine Foresight was forced to ban performances of this play and strictly prohibited publication of its libretto."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "But nowadays, the Sedition of Imbibitor Lunae and its aftershocks have long subsided. This editor believes that \"Six Charioteers Adjudicating the Imbibitor Lunae\" is worthy of reexamination and reinterpretation as an artifact of its time, and so I've compiled the only fragments remaining of this libretto for the benefit of the dear reader.)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The trembling general, rage undying, half chastising, half sighing:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Three disasters the Luofu purged, standing alone against the mara scourge.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Surviving odds so difficult, how on earth could you revolt?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"I beseech you please to change your mind, lest you lose the will of all mankind!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Hearing this, Imbibitor Lunae turned his head, his lustrous eyes glowed as he said:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Beseech me not so piteously, m'Lord, if my life's long, then yours will be short.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Once out of this hall I tumble, Divine Foresight's where my spear will rumble.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Cause trouble, and your golden age will be perturbed.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Make mischief, and your peace will be disturbed.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"For millennia your excellencies have ruled the Luofu in domination, but in one fell swoop I've cut short your immortality!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "His retort left the general shocked and pained: \"How will peace ever be maintained?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Imbibitor Lunae chanted up to the sky, his sonorous song like whale's cry:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Draw thy bow and shoot down the morning star, scorch my eyes and dip my soul in tar;\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Plunge down the ancients into dark violence, and rid yourself of those with loyalty and valiance.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Forcing the people into tranquility; this is how peace is kept in perpetuity!\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

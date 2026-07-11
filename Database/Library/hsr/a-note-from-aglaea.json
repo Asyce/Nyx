@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "a-note-from-aglaea",
+  "name": "A Note from Aglaea",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/A_Note_from_Aglaea",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Dear they (Trailblazer),"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I once threaded needles through the world's changes, trying to weave a beautiful destiny."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "We chased the flames in solitude, until the ashen light descended from beyond the sky."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Now, I rarely set aside my heavy loom to weave for myself,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "yet you are about to depart, your fading traces beyond even the reach of silk threads."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The ornament I gifted you bears no divine essence. It was handcrafted by me, something I had cherished and carried everywhere."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "For I wished not to make it weighty, but rather like a feather resting on your wrist,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "adorning your form, illuminating your soul."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Even I cannot see the future you will step into, I shall pray for you."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Trailblaze weaves star rails that intertwine like silk strings for this universe."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "May those silver strings guide your way and resonate for you."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Aglaea"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

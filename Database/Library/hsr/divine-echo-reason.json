@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "divine-echo-reason",
+  "name": "Divine Echo: Reason",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Divine_Echo:_Reason",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Bough of Rift, Cerces."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Spring plants questions in fertile mind"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Autumn yields wisdom pure and true"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Amidst holy leaves, truth we find"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

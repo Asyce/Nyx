@@ -1,0 +1,291 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "fulwish-tv-channel-guide",
+  "name": "Fulwish TV Channel Guide",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Fulwish_TV_Channel_Guide",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "News Channels"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Arcadian Morning Report"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ": All the latest news and happenings in arcadia! Get the scoop before anyone else!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Happiness on the Street"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ": Happiness is everywhere! Our reporters roam the streets of arcadia to capture the most genuine smiles for you!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(...)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Entertainment Channels"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Please Be Happy"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ": The most popular elation show in arcadia, now in its sensational seventh season!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Historical Supplicant Mask Showcase"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ": Through the bizarre and peculiar masks of the Supplicants, popular comedy star Dovebrook Kid will regale you with fascinating tales and anecdotes from past Phantasmoon Games."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Don't Look at the Moon!"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ": Do those of us born in arcadia truly understand the Phantasmoon? Popular tragedy star Seafeld Kid brings you a series of sorrowful, eerie, yet heartwarming tales."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Cosmic Showdown Spectacular"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ": The masters are among the common folk, so let's uncover the daily lives of these low-key card sharks!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(...)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Animation Channels"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Daybreak Squadron"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ": Planarcadia's hottest special effect, airing every Sunday at 8 PM!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Magical Girls of Many Faces"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ": Save the world? Nah, our goal is to purify everyone's souls! The year's best feel-good animation, don't miss it every Friday at 9 PM!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(...)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Science Channels"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "How to Safely Place a Cucumber Behind a Lightpaw"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ": The longest and most entertaining safety education documentary in history. Season 43 is now streaming!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Pixel Gourmet"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ": A show tailor-made for the imagenae, bringing you the culinary habits and signature dishes of different species across the cosmos."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(...)"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "memory-zone-meme-victim-list-snippet",
+  "name": "Memory Zone Meme Victim List Snippet",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Memory_Zone_Meme_Victim_List_Snippet",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Bernis, male human. He sustained a head injury when swimming in the Moment of Dusk and was abducted by an unknown meme while being given medical assistance. The paramedics have undergone the memory erasure procedure."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Mia, female Pepeshi. She was abducted by an unknown meme when playing hide-and-seek with her friends in the Moment of Sol. Her friends have undergone the memory erasure procedure."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Isabella, female human. She went missing while taking a bath in the Moment of Stars. The gramophone next to the bathtub was playing the"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Moonglow Sonata"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "by the celebrated Intellitron musician, Beeshoven."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Velum, male Intellitron. He was abducted by an unknown meme after kissing his girlfriend in the Blue Hour. His girlfriend has undergone the memory erasure procedure."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Given that the victims are of different races, from different places, and exhibited different behaviors when they were taken away, the pattern to make someone a target of the meme remains indeterminate at the moment."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,408 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "paperfold-university-student-disciplinary-record-vol-3",
+  "name": "Paperfold University Student Disciplinary Record (Vol. 3)",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Paperfold_University_Student_Disciplinary_Record_(Vol._3)",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "School Calendar Year ██"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Recipient:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The entire Spheroid team of Dreamweaver Academy"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Incident Summary:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "During the final day of the university's Spheroid Race Finals, the violators brought an owl scare doll to the venue, which malfunctioned and dashed around the venue, resulting in injuries to three students. The violators admitted to acting based on a wild rumor that the doll, resembling Dean Glaux, would bring good luck to the team."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Penalty:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The violators' respect for the dean led to a mitigated penalty. As a result of violating the Spheroid Venue Regulations, Dreamweaver Academy received a one-year ban from attending Spheroid races and are required to study the history of the university."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "School Calendar Year ██"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Recipient:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Helio, a sophomore of Charmony Academy"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Incident Summary:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The violator organized an event titled \"Final Showdown in Paperfold University,\" challenging students from other academies to a dance-off at the central plaza. The situation escalated into a brawl between academies, resulting in mental injuries to several students."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Penalty:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "This incident marked the fourth mass brawl in the university's history. Due to the students' excellent dance skills, the penalty was mitigated. They were instructed to embrace each other for reconciliation for half a system hour and engage in community service for six months."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "School Calendar Year ██"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Recipient:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Carmen, a sophomore of Fortune Academy"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Incident Summary:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The violator hired a gang of thieves to steal research-grade concentrated memoria from the Dreamweaver Academy. The involved quantity is enormous. Some of the stolen memoria remain unrecovered, with no public incidents resulting from the theft to date."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Penalty:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Memoria is classified as a controlled substance under the Penaconian Public Safety Act due to its unique █████ properties. Unauthorized possession is strictly prohibited. Given the severity of the offense, the student was expelled from the academy."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "School Calendar Year ██"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Recipient:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Woody, a freshman of Charmony Academy"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Incident Summary:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The violator created numerous mini True Sting models placed in balloons and launched them with a Pinball Machine, intending to detonate them on top of Dreamweaver Academy. However, the launch went awry, scattering the models throughout Charmony Academy, necessitating ongoing cleanup efforts. The number of True Sting models is so high that one can still occasionally find a stray model in the bushes or between buildings."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Penalty:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The incident with these handicrafts caused campus-wide panic and led to fainting among students with insect-related phobias. The student is also guilty of using a Pinball Machine without authorization. However, the intricate craftsmanship of the models resulted in a mitigated penalty, including crafting an Origami Bird model for every individual in the academy and reading out a public apology in the central plaza."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "School Calendar Year ██"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Recipient:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Dutton, a senior of Fortune Academy"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Incident Summary:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "To enhance the sales of the magazine, the Fortune Academy senior student Dutton published defamatory photos and baseless rumors in the magazine Paperfold Fortune Weekly, targeting students from Charmony Academy and Dreamweaver Academy. The high sales of the magazine resulted in a particularly negative impact."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Penalty:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The violator fabricated derogatory remarks and rumors for financial gain in an officially certified magazine, causing conflicts within the student and academy community. Due to the extensive reach and malicious content, the violator was expelled from the academy."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "<!--"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

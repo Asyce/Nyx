@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "dreamless-coffee-astral-express-collaboration-now-live",
+  "name": "Dreamless Coffee × Astral Express Collaboration Now Live!",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Dreamless_Coffee_%C3%97_Astral_Express_Collaboration_Now_Live!",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Dreamless Coffee &times; Astral Express Collaboration now live! May this journey find its way to your taste buds!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "During the collab, we're launching a full line of special drinks! Don't forget the Express Crew merch and 50% off your second cup!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Collaboration Drinks Collection"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Azure Dragon Cold Brew\": The Xianzhou Luofu Whale-Tide Spring + Lunarescent Depths Impression Sparkling Water"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"As refreshing as a seaside stroll along the Lunarescent Depths.\""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Rosy Bubble Latte\": Strawberry Cream Cap + Hearty Popping Candies"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"Unleash your inner cutesy energy! Remember to snap a pic before you sip!\""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Galactic Baseballer Whirlwind Drink\": Supernova Popping Boba + Classic SoulGlad"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Bonus: Trashcan-shaped Coffee Mug with Bat-shaped Stirrer"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"Rules are made to be broken!\""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Black Hole Mocha\": Singularity Coffee Beans + Rich Cocoa Syrup"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"Brace yourself for gravitational attraction.\""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Conductor's Healthy Veggie & Fruit Juice\": Carrot Juice + Fresh Fruit Pulp"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Bonus: Conductor Pom-Pom Cup Sleeve with Different Facial Expressions"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"Drink more juice for a healthy life, pom!\""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Manager's Special!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Navigator's Pour-Over Coffee\": Miss Himeko's Secret Recipe (Classified)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Nameless' unanimously voted favorite drink! One sip and you'll experience the thrill of superluminal warp!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"Just like Fuel!\""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Collaboration Event Rules"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Collaboration Slogan: To purchase the special collaboration drink, shout out loud to the staff \"Help me, Conductor Pom-Pom!\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Second Cup At Half Price: Buy any two collab special drinks, and get 50% off your second drink!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Random Merch Giveaway: Buy any collab special drink and get a random Express Crew coaster!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "* This event ends before the Astral Express arrives at Planarcadia. Dreamless Coffee reserves all rights of final interpretation.*"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

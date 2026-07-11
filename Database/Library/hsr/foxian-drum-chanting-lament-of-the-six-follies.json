@@ -1,0 +1,409 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "foxian-drum-chanting-lament-of-the-six-follies",
+  "name": "Foxian Drum Chanting Lament of the Six Follies",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Foxian_Drum_Chanting_Lament_of_the_Six_Follies",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Amidst the cosmos's glittering stars, there lay a prosperous realm, the Verdantia."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Its lands were lush and the seasons fair, a scene beyond mortal ken and ordinary flair."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Unexpected war struck with conquerors' greed, the borisin storm roiling the Verdantia greatly indeed."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Oceans of blood flew where'er canine barbarians went, foxians wallowed and wailed, their homes buried and rent."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Our people lamented midst bitter wind's chills, as they looked on their homes, tears covering the hills."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Suppressing their sighs they mourned for this change, beseeching the gods to stop the borisin's rampage."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The foxians hid from the world, fleeting from war. And among them six brothers, wandering from day till nightfall."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But cold and starved in the end they fell sick, twisted their fates, fortunes catastrophic."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "O'ercome by anguish they fell to their knees, wailing out lamentations that shook the mountains and sea."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Their weeping echoes soared up to the skies, a celestial descended, heeding their cries."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The brothers asked the celestial's name, and so the master with their staff did proclaim."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Master of Immortality am I, and asked: Why, oh six, do you whimper and cry?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Eldest brother cried for he feared the borisin's sharp blades, how their weapons could pierce and slaughter with rage."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Second brother sobbed due to pain of disease, illness deep-rooted, a pain none could ease."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Third brother lamented out of cowardice and fear, driven near witless by the too savage curs."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Fourth brother weak and powerless was born, unable to run and with all hope forlorn."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Fifth brother witnessed the slaughter of family and friends, the living enslaved, his heart torn a-rent."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sixth brother longed for peace to descend, that the war might conclude, and all hatreds be spent."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Master of Immortality with a compassionate gaze, heard out the six brothers as they laid out their pains."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Brothers' cries ceaseless till all concerns vented, beseeching the Master for miracles granted."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "To dread not the blade, the brute, nor disease. To fear not the thief, the invader, nor fiend."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "To pass vales and crags as if t'were flat plains. To finally know peace, bereft of anxiety or pain."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "To eldest brother, regeneration was granted."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Second brother, to be free of disease, was enchanted."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Third brother, gifted endless courage, confidence unmatched."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Fourth brother, wings to grow on his back, to lift him away from threat of attack."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Fifth brother, freed from all concerns, all anguish, all grief, and mortal yearns."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sixth brother only, for reasons unknown, no power was gifted, no revelation shown."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Having bestowed many gifts of power and skill, the Master then left, and in their wake all was still."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Leaving five brothers who all blessings had gained, and a sixth with no obvious gift to his name."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Yet the Master did not forget the sixth's reward, for in time all would know he had not been ignored."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As the borisin army attacked foxian hills, and the five brothers unveiled divine power and skills."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Using miraculous powers they drove back the foe, the great martial heroes bringing the borisin great woe."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "For their crushing victories, legends, the brothers became. As the dogs ceased their attacks, fearing even their names."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But one day fate turned, with no forewarning given. In the blink of an eye, was hope killed, a plague risen."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Eldest brother's wounds festered, rotting within. Second brother, free of ill health, spread disease to his kin."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Third brother's mind, twisted and poisoned with hate. Fourth brother body covered with feathers like leaves coming awake."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Fifth brother, all consciousness lost, sat immobile as stone. But the sixth was untouched, for no reason known."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Alone the sixth brother raided the borisin bands, all elder brothers lost to the Plague Author's hands."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "With no hope of salvation and no gift of grace, the powerless brother only sought death's embrace."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The borisin Warhead smiled slyly at sixth brother's words, then waved and called for his personal guards."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sixth brother was untied, made to sit among erstwhile foes, as the Warhead in plain speech explained to his woe."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Granted the Merciful One's blessings were your brothers like we, champions of the Master of Immortality.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"In savage nature and cunning and even in form, you are like us, as a mirror informs.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Shocked to his core in the words' revelation, he looked to the glass with much hesitation. The face that looked back was by cruelty twisted, blessed with canine ears and a snout that the Master had gifted."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Lamentable. O how lamentable. For this is how..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The six gained miracles against their wishes, living dreamlike away from calamity and strife."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Obtaining the Merciful One's immortality by a chance meeting, only to be possessed by the Plague and losing much worse than a life."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Do not dream of peace with Abominations of Abundance. Do not harbor any delusion of possible co-existence."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Only when the Skybow has eliminated all demons and monsters, shall we ever see the arrival of eternal peace."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

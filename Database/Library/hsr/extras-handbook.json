@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "extras-handbook",
+  "name": "Extras Handbook",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Extras_Handbook",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A slightly wrinkled printout that appears to be a draft of a job posting."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The Phantasmoon Games has reached a fever pitch, and Director Fulwish's TV debate is about to kick off. We need at least 150 extras to provide the crowd presence and Wishpower support for Director Fulwish. Details are as follows:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": []
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Must have good camera presence and comprehension skills, able to work cooperatively to complete filming tasks."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Clear speech and a flair for performance are a plus. Zero experience welcome."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "'''"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": []
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Responsible for serving as an audience member during Director Fulwish's TV addresses, appearing in both wide shots and close-ups to demonstrate approval of the speech content, with genuine emotion."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Those with excellent communication skills may serve as assistants, answer Director Fulwish's questions, or share their own stories during the audience interaction segment. Topics include but are not limited to:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Improper conduct by outsiders in Planarcadia."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2. Damage caused by outsiders to Planarcadia, whether on a social or physical level."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3. The spiritual encouragement and role model strength that Director Fulwish provides to the people (feel free to include your own story of how Fulwish's deeds inspired you to face life more positively)."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "4. The IPC's modifications and devastation of the arcadia. (Use discretion when discussing this, don't go overboard with the details.)"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Most importantly, make sure to smile and wave those glow sticks with all your heart. '''"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": []
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "300 credits daily, lunch and dinner included, transportation provided."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Get a chance to snap a close-up photo with Director Fulwish herself."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "'''"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

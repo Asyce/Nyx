@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "pearluxe-entertainment-mechatron-intern-interview",
+  "name": "Pearluxe Entertainment Mechatron Intern Interview",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Pearluxe_Entertainment_Mechatron_Intern_Interview",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "It's recruiting season once more! To help our departments better welcome new talent, we're shifting the spotlight to our frontline and hearing from a mechatron intern. Let's see what his experience at Pearluxe Entertainment added to his life journey."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Reporter: Excuse me, sorry to bother you. I'm a reporter from \"Pearls of Wisdom.\" Would you have a moment for an interview?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Intern: Wait, you mean the in-house newsletter that everyone at the corp reads!? Oh my gosh, I'm so lucky! CEO Pearl herself might actually see this!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Reporter: Ahahaha... I suppose so. Why don't you introduce yourself first?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Intern: Sure thing! My name's Jettstar, model Courier Type-B. I'm currently interning with the E-Commerce Department's Delivery Division."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Reporter: I'm curious. Why did you choose this line of work in the first place?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Intern: Choose? Why would I need to choose? Don't we mechatrons get assigned jobs straight off the assembly line? Like, courier-types handle deliveries, combat-types handle security, and intelligence-types handle management. Though, I actually did consider going back to school for a bit and figured I might land a cushy office job that way. But the IPC's \"student loan\" interest rates were just too... well, you know. Mechatrons already roll off the production line buried under a mountain of \"Birth Loan,\" so I thought about it and decided to just start working right away."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Reporter: I see. So tell me about your work. The Delivery Division is one of the IPC's core business departments, right?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Intern: Absolutely! Our team handles all online orders. Our motto: \"Our soles wear out, not your patience.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Reporter: Sounds like the job's pretty stressful."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Intern: Yeah, it was rough during the annual sale season. Serious crunch time, you know? But things are way easier now. I only have to put in 14-hour days, and I even manage to sneak in some slack-off time. Wait... please leave that last bit out!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Reporter: So, are you satisfied with the salary and benefits?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Intern: Whoa, whoa! Don't get me in trouble here. I signed an NDA about compensation! Anyway, my team leader always says young mechatrons like us should focus on experience, not salary. Gotta build up that resume first."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Reporter: Since you brought up that, how is your team leader when it comes to mentoring new hires?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Intern: Oh, he's been fantastic. He really values me, so to boost my full-time chances, he makes sure I get the heaviest, most urgent deliveries. And as a bonus, he'll even buy me a machine oil milk tea afterward sometimes."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Reporter: Speaking of machine oil, that reminds me. How would you assess the corp's welfare provisions for mechatron staff? Are there any specific areas you see for improvement?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Intern: Everything's pretty good. If I had to suggest one improvement... could they raise the maximum working hours for mechatrons? That way I could take on more deliveries and pay off my loan faster."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Reporter: Uh... that's a pretty unique request. Maybe take it up with your team leader in private?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Reporter: Got it. Now, for my next question..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Intern: Oh no! I totally lost track of time talking to you. My delivery's about to time out, and I can't afford another pay cut. Gotta run, bye!"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

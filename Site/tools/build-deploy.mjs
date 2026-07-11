@@ -3,6 +3,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
+import { publishRuntimeData } from './publish-runtime-data.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const siteDir = path.resolve(__dirname, '..');
@@ -153,6 +154,7 @@ if (await exists(publicDir)) {
 }
 
 const databaseAssets = await copyReferencedDatabaseAssets();
+const runtimeManifest = await publishRuntimeData({ rootDir:root, deployDir });
 await writeVersionFile();
 const files = await listFiles(deployDir);
 if (files.length > CLOUDFLARE_ASSET_FILE_LIMIT - POST_BUILD_FILE_RESERVE) {
@@ -163,3 +165,4 @@ const totalBytes = (await Promise.all(files.map(async (file) => (await fs.stat(f
 
 console.log(`Built ${path.relative(root, deployDir)} with ${files.length} files (${(totalBytes / 1024 / 1024).toFixed(2)} MB)`);
 console.log(`Copied ${databaseAssets.copied} referenced Database asset(s); ${databaseAssets.missing} missing reference(s)`);
+console.log(`Published ${runtimeManifest.files.length} allowlisted runtime data file(s)`);

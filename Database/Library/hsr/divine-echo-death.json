@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "divine-echo-death",
+  "name": "Divine Echo: Death",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Divine_Echo:_Death",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Thanatos, the Hand of Shadow,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Bearer of fates, steersman of souls."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "We pray you stay far from us"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "To make the dying of a person a blessing."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "<!--"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

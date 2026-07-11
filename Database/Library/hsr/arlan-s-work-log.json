@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "arlan-s-work-log",
+  "name": "Arlan's Work Log",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Arlan%27s_Work_Log",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Last Week's Review:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Cleared away the remnants of the Antimatter Legion."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2. Confirmed which devices need updating and replacement in the planning zone."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "3. Records for handling emergency requests for help from researchers."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "4. Played holodisc with Peppy."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "5. Signed for and organized lady's courier deliveries."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "6. Collected and sorted feedback about last week's drinks and snacks, plus worked out a corresponding optimization plan."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "7. Screened Peppy's new toiletries for the next quarter."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Weekly Work Plan:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Of the heart. Of the mirror. Of the self."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

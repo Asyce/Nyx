@@ -114,6 +114,47 @@ if (endfieldWeaponsPayload) {
   diagnostics.push(`endfld weapons   ${weapons.length} (${weapons.length - missingTuning.length} with tuning tables)`);
 }
 
+// ---- canonical banner history + sourced activities ----
+const historyMinimums = { gi:280, hsr:210, zzz:120, wuwa:160, ae:25 };
+for (const [game, minimum] of Object.entries(historyMinimums)) {
+  const payload = load(`BannerHistory/${game}.json`);
+  if (!payload) continue;
+  const rows = payload.records;
+  if (payload.schemaVersion !== 1 || payload.game !== game || !Array.isArray(rows) || rows.length < minimum) {
+    errors.push(`banner history ${game}: expected schema v1 and at least ${minimum} records`);
+    continue;
+  }
+  const byId = new Map();
+  for (const row of rows) {
+    if (!row?.id || byId.has(row.id)) errors.push(`banner history ${game}: empty/duplicate id ${row?.id}`);
+    byId.set(row?.id, row);
+    if (!['character','weapon','mixed'].includes(row?.bannerType) || !row?.source?.url || row?.source?.revision === undefined || !Array.isArray(row?.featured)) errors.push(`banner history ${game}: malformed ${row?.id}`);
+    const windows = Object.entries(row?.windowsByRegion || {});
+    if (!row?.permanent && !windows.length && !/^\d{4}-\d{2}-\d{2}$/.test(row?.dateOnly?.start || '')) errors.push(`banner history ${game}: ${row?.id} has no sourced time/date`);
+    for (const [region, window] of windows) if (!['global','asia','europe','america'].includes(region) || !window?.sourceUrl || !Number.isFinite(Date.parse(window?.start)) || (window?.end && Date.parse(window.end) <= Date.parse(window.start))) errors.push(`banner history ${game}: bad ${region} window on ${row?.id}`);
+  }
+  for (const row of rows) for (const pairId of row.pairedBannerIds || []) {
+    const other = byId.get(pairId);
+    const sameWindow = other && Object.keys(row.windowsByRegion || {}).some((region) => other.windowsByRegion?.[region]?.start === row.windowsByRegion[region].start && other.windowsByRegion?.[region]?.end === row.windowsByRegion[region].end);
+    if (!other || (!sameWindow && !(row.pairSourceUrl && row.pairSourceUrl === other.pairSourceUrl))) errors.push(`banner history ${game}: invalid pair ${row.id} -> ${pairId}`);
+  }
+  diagnostics.push(`history ${game.padEnd(5)} ${rows.length} record(s), ${rows.filter((row) => row.confirmed).length} confirmed`);
+}
+for (const [game, minimum] of Object.entries({ gi:2, hsr:3, zzz:2, wuwa:1 })) {
+  const payload = load(`Activities/${game}.json`);
+  if (!payload) continue;
+  if (payload.schemaVersion !== 1 || payload.game !== game || !Array.isArray(payload.activities) || payload.activities.length < minimum) errors.push(`activities ${game}: invalid schema/count (minimum ${minimum})`);
+  for (const row of payload.activities || []) {
+    if (!row?.id || !['fixed','dated'].includes(row.mode) || !row.sourceUrl || !Number.isFinite(Date.parse(row.verifiedAt))) errors.push(`activities ${game}: malformed ${row?.id}`);
+    if (row.mode === 'dated' && (!Array.isArray(row.windows) || !row.windows.length || row.windows.some((window) => {
+      const dateOnly = /^\d{4}-\d{2}-\d{2}$/.test(window.dateStart || '') && /^\d{4}-\d{2}-\d{2}$/.test(window.dateEnd || '') && window.dateEnd > window.dateStart && window.source?.url;
+      const regional = Object.values(window.windowsByRegion || {});
+      return !dateOnly && (!regional.length || regional.some((part) => !part.start || !part.end || part.end <= part.start || !part.sourceUrl));
+    }))) errors.push(`activities ${game}: invalid dated windows on ${row?.id}`);
+  }
+  diagnostics.push(`activity ${game.padEnd(5)} ${(payload.activities || []).length} definition(s)`);
+}
+
 console.log('--- data validation diagnostics ---');
 for (const d of diagnostics) console.log('  ' + d);
 

@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "high-cloud-squadron-power-rankings",
+  "name": "High-Cloud Squadron Power Rankings",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/High-Cloud_Squadron_Power_Rankings",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "As we all know, Blurry_QR_Colt not only loves dragging out updates, but also has a notorious habit of leaving gaping plot holes in the power scaling. This has caused quite a few troubles for fans trying to create a version of \"Cosmicon Collective\" in"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "The Fluffy"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": ". To remedy this situation, I have strictly analyzed the source material and compiled a definitive High-Cloud Squadron power ranking for your reference."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"The Thunder that Gazes from On High\" — Jing Yuan"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Spiritus Name: Lightning-Wielding Thunder-Clapping Soul-Squashing Lord"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Power Profile: Strength A, Speed A, Range C, Sustainability A, Precision A, Growth A"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Combat Summary: The tactical anchor and combat powerhouse of the High-Cloud Squadron. With extraordinary wisdom, he sets the board to ensure victory before the battle even begins. Once an opponent reveals a critical opening, the Lightning-Lord descends upon the field, delivering the decisive blow with overwhelming force."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"The Crucible that Forges the Blade\" — Yingxing"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Spiritus Name: Abyss-Ruling Soul-Forging Evil-Slaying Star Lord"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Power Profile: Strength B, Speed C, Range B, Sustainability A, Precision A, Growth S"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Combat Summary: The weaponsmith of the High-Cloud Squadron. Not a warrior in the traditional sense, but rather the cornerstone supporting the team's combat strength; capable of perceiving the structural weaknesses of all things and excels at breaking down opponents' defenses."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"The Tide That Cleanses the World\" — Imbibitor Lunae"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Spiritus Name: Heaven-Purging Wave-Binding World-Cleansing Dragon Lord"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Power Profile: Strength A, Speed B, Range B, Sustainability A, Precision C, Growth B"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Combat Summary: The strategic barrier of the High-Cloud Squadron. Constructs vast aquatic battlefields through cloudhymn arts, creating advantageous terrain for allies, allowing for seamless transitions between offense and defense, sweeping away all hostile entities within the crashing tides."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"The Edge That Cleaves the Moon\" — Jingliu"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Spiritus Name: Cloud-Cleaving Water-Stilling Delusion-Slaying Lord"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Power Profile: Strength A, Speed B, Range C, Sustainability B, Precision A, Growth C"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Combat Summary: Vanguard of the High-Cloud Squadron that shatters the enemy formation. Her swordplay has reached the realm of nonchalance, stripping away all excess. Where her blade descends like cascading moonlight, there is no escape."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"The Light That Skims the Rift\" — Baiheng"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Spiritus Name: Wind-Riding Rift-Treading Light-Chasing Lord"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Power Profile: Strength C, Speed S, Range A, Sustainability C, Precision B, Growth B"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Combat Summary: Tactical linchpin of the High-Cloud Squadron. Dominates the battlefield through blistering speed and mobility, pulling enemy formations apart; launches devastating surprise strikes, turning the tide of battle in the blink of an eye."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "You are probably wondering: Where did Yingxing, Imbibitor Lunae, Jingliu, and Baiheng get their Spiritus from? Well, this is actually my prediction of the power rankings ten Amber Eras from now, when all the High-Cloud Squadron have become Xianzhou Generals. I really hope Blurry_QR_Colt speeds up the story progression. Can't wait to see an epic Spiritus showdown!"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

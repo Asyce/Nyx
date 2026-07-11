@@ -1,0 +1,338 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "ploo-industries-overview",
+  "name": "Ploo Industries Overview",
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Ploo_Industries_Overview",
+  "scrapedAt": "2026-07-11T05:51:38.089Z",
+  "volumes": [
+    {
+      "id": "1",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Ploo Industries is an interstellar conglomerate with a century-long track record and stellar customer reviews, its business ventures spanning food, daily necessities, and more."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Company History"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Ploo Industries' predecessor, Yellow Ducky Nibbles, was a local snack company based in Seafeld City. Founded in the early Amber Era 2157, it became famous for its innovative product \"Wispae Gummies.\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Later, the company expanded into general industries, entering markets for kitchen products, toys, and other everyday items. After several cycles of investment and new associates joining, it was renamed Ploo Industries Group, with the original name preserved as a flagship brand. The brand/group was founded by the eldest yellow ducky, born during the duckling's roaming incident in Ahatopia, also the first ploo resident of Planarcadia."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Today, Ploo Industries has become the most influential brand in Planarcadia, and we are committed to making Seafeld City the new economic hub of the arcadia, quack."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Know Us Through Numbers"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Thirty-three brands currently under our umbrella, with over five thousand products in our portfolio, and an average annual output exceeding 120 billion credits in recent years."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Current headcount stands at 77,893 employees, of which 72,501 are ploos. Age-wise, our group upholds the principle of blending seasoned experts with fresh blood, with employees under 30 and those over 500 each accounting for more than 30% of the workforce."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": []
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Interstellar Snack Brand \"Yellow Ducky Nibbles\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Brings You a Lush Feast of Flavors"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The predecessor of Ploo Industries and the core brand of the conglomerate's strategic business philosophy, aiming to promote the ploos' eating habits and Planarcadia's local specialty, Seafeld Scallions, across the entire galaxy."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Signature products include \"Seafeld Duck Head,\" \"Ploo Chips,\" \"Ploo Specials,\" and more."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Interstellar Toy Brand \"PlooPlay\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Let Yellow Ducky Accompany Your Childhood"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Signature products include \"Cesium Metal™ Toy Duck,\" \"Cepheid Silver Duck,\" \"Scallion Lightsword,\" and more."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "※ Some toys are for children only. Adults must be accompanied by a child to play."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "※ Some toys require Planarcadia's high-density Wishpower environment to function."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "※ Some toys are protected under the Faekind Protection Act and enjoy equal rights as imagenesis."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Daily Essentials Brand \"Featherloo\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Carefree as a Ploo"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Signature products include the \"Yellow Ducky Feather Pillow,\" \"Ploo Pajamas,\" \"Yellow Swim Ring,\" and more."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "※ We protect the legal rights of ploos, and our products contain no unauthorized ploo feathers."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "※ Allergen warning: Products contain ploo feathers."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Venture Capital Department: \"Quacking Profits\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "If it makes money, it's real industry."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Key Project:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Seafeld TV — Lead sponsor for the live-action series \"Daybreak Warrior\""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Real Estate Department: \"My Bathtub\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The primary agency behind the Seafeld City Development Plan. They handle the construction (and painting) of most residential and commercial buildings."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Corporate Philosophy"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Yellow Ducky, Endless Fun!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "—Founder of Ploo Industries, the Oldest Yellow Ducky"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

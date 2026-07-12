@@ -100,3 +100,53 @@ test('publisher requires all five histories and supported activity files', async
   await fs.writeFile(path.join(rootDir, 'Database', 'BannerHistory', 'gi.json'), JSON.stringify({ schemaVersion:1, records:[] }));
   await assert.rejects(publishRuntimeData({ rootDir, maxBytes:4096 }), /invalid gi\.json/);
 });
+
+// ---- Events (Workstream N, optional family) --------------------------
+
+async function withEvents(rootDir, gameToPayload) {
+  const eventsDir = path.join(rootDir, 'Database', 'Events');
+  await fs.mkdir(eventsDir, { recursive:true });
+  for (const [game, payload] of Object.entries(gameToPayload)) {
+    await fs.writeFile(path.join(eventsDir, `${game}.json`), JSON.stringify(payload));
+  }
+}
+
+test('publisher is unaffected when Events is absent (still-optional family)', async () => {
+  const rootDir = await fixture();
+  const manifest = await publishRuntimeData({ rootDir, maxBytes:4096 });
+  assert.equal(manifest.files.length, 16);
+  assert.ok(!manifest.files.some((f) => f.url.startsWith('/data/events/')));
+});
+
+test('publisher includes and validates Events when present, keyed by the backend\'s own game field (endfield, not ae)', async () => {
+  const rootDir = await fixture();
+  await withEvents(rootDir, {
+    gi: { schemaVersion:1, game:'gi', generatedAt:'2026-07-12T00:00:00Z', events:[{ id:'gi:fixture', type:'event' }] },
+    hsr: { schemaVersion:1, game:'hsr', generatedAt:'2026-07-12T00:00:00Z', events:[] },
+    zzz: { schemaVersion:1, game:'zzz', generatedAt:'2026-07-12T00:00:00Z', events:[] },
+    wuwa: { schemaVersion:1, game:'wuwa', generatedAt:'2026-07-12T00:00:00Z', events:[] },
+    endfield: { schemaVersion:1, game:'endfield', generatedAt:'2026-07-12T00:00:00Z', events:[] },
+  });
+  const manifest = await publishRuntimeData({ rootDir, maxBytes:4096 });
+  assert.equal(manifest.files.length, 21);
+  const eventUrls = manifest.files.filter((f) => f.url.startsWith('/data/events/')).map((f) => f.url).sort();
+  assert.deepEqual(eventUrls, ['/data/events/endfield.json', '/data/events/gi.json', '/data/events/hsr.json', '/data/events/wuwa.json', '/data/events/zzz.json']);
+});
+
+test('publisher rejects Events whose game field does not match its filename', async () => {
+  const rootDir = await fixture();
+  await withEvents(rootDir, {
+    gi: { schemaVersion:1, game:'gi', events:[] },
+    hsr: { schemaVersion:1, game:'hsr', events:[] },
+    zzz: { schemaVersion:1, game:'zzz', events:[] },
+    wuwa: { schemaVersion:1, game:'wuwa', events:[] },
+    endfield: { schemaVersion:1, game:'ae', events:[] }, // wrong — must be 'endfield'
+  });
+  await assert.rejects(publishRuntimeData({ rootDir, maxBytes:4096 }), /Runtime Events has invalid endfield\.json/);
+});
+
+test('publisher rejects an incomplete Events family (present dir, missing a required game file)', async () => {
+  const rootDir = await fixture();
+  await withEvents(rootDir, { gi: { schemaVersion:1, game:'gi', events:[] } });
+  await assert.rejects(publishRuntimeData({ rootDir, maxBytes:4096 }), /Runtime Events is missing hsr\.json/);
+});

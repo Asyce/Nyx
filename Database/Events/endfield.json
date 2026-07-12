@@ -1,0 +1,629 @@
+{
+  "schemaVersion": 1,
+  "game": "endfield",
+  "generatedAt": "2026-07-12T00:27:00.322Z",
+  "source": {
+    "name": "Arknights: Endfield Official",
+    "endpoint": "web-news.gryphline.com /api/bulletin"
+  },
+  "counts": {
+    "total": 32,
+    "needs_review": 22,
+    "banner": 7,
+    "byType": {
+      "event": 24,
+      "banner": 7,
+      "login": 1
+    }
+  },
+  "events": [
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-ac9f742eafce",
+      "title": "[Crimson Hued Issue] LTO Details",
+      "type": "event",
+      "start": "2026-06-26T04:00:00.000Z",
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/1321",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://web-static.hg-cdn.com/upload/image/20260623/8a718964566924b548a48277f5d9a081.jpg"
+    },
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-df461d8be80e",
+      "title": "[Expunger of Sin] Chartered Headhunting",
+      "type": "banner",
+      "start": "2026-06-26T04:00:00.000Z",
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/6175",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://web-static.hg-cdn.com/upload/image/20260623/94a24581d688ef409392c8c5acc72ee4.jpg"
+    },
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-70bd5b6ee3e6",
+      "title": "[Sketches of Lost Heirlooms] Version Update Notes",
+      "type": "event",
+      "start": "2026-06-26T03:59:00.000Z",
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/0758",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://web-static.hg-cdn.com/upload/image/20260604/86ca43f6abae0ab8cf67eb671c1bd017.jpg"
+    },
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-d601e56b5de8",
+      "title": "[Fists of No Regrets] Chartered Headhunting",
+      "type": "banner",
+      "start": "2026-06-26T03:59:00.000Z",
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/0759",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://web-static.hg-cdn.com/upload/image/20260602/5a12d7c068f0fe9f774025c1f4f97876.png"
+    },
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-87f93a9008a5",
+      "title": "[At the Wake of Spring] Version Update Notes",
+      "type": "event",
+      "start": "2026-05-22T03:59:00.000Z",
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/0751",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://web-static.hg-cdn.com/upload/image/20260416/5a8bb3c8649e3f804d5d427288dc7880.jpg"
+    },
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-e38e1c313d93",
+      "title": "[Thunder of Renewal] Chartered Headhunting",
+      "type": "banner",
+      "start": "2026-05-22T03:59:00.000Z",
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/9579",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://web-static.hg-cdn.com/upload/image/20260415/a2c29eb120c83c92d086e86df1c1760e.jpg"
+    },
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-245c88274682",
+      "title": "[Smelting Fire Issue] LTO Details",
+      "type": "event",
+      "start": "2026-05-14T04:00:00.000Z",
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/2669",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://web-static.hg-cdn.com/upload/image/20260508/2f6a10a3178792fa72cfc1cf7dbc24db.jpg"
+    },
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-734a0f7abac7",
+      "title": "[Swift Walker Issue] LTO Details",
+      "type": "event",
+      "start": "2026-05-14T04:00:00.000Z",
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/5210",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://web-static.hg-cdn.com/upload/image/20260509/de1036fad914efaa6908cbf394c46916.jpg"
+    },
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-d50d83765558",
+      "title": "[Fest of Brilliance] Special Headhunting Details",
+      "type": "banner",
+      "start": "2026-05-14T04:00:00.000Z",
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/7024",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://web-static.hg-cdn.com/upload/image/20260508/fc997b32648f9c305a9f53ccfef096c4.jpg"
+    },
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-71a242a52e28",
+      "title": "[Old Deep Water Dies, by Rising Tide It is Denied] Version Update Notes",
+      "type": "event",
+      "start": "2026-03-11T22:00:00.000Z",
+      "end": "2026-03-12T04:00:00.000Z",
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/8907",
+        "priority": 1
+      },
+      "confidence": "high",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://web-static.hg-cdn.com/upload/image/20260311/bf36bee564c6308831eeee8f3d8a2b73.png"
+    },
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-267b8eed35eb",
+      "title": "[Old Deep Water Dies, by Rising Tide It is Denied] Version Update & Maintenance Preview",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/9570",
+        "priority": 1
+      },
+      "confidence": "low",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": "https://web-static.hg-cdn.com/upload/image/20260305/d5d5de2d4ece382e93c3e976639ef813.jpg"
+    },
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-4bcf27bdfffa",
+      "title": "Notice Regarding Game Issues Caused by NVIDIA Driver Updates",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/3844",
+        "priority": 1
+      },
+      "confidence": "low",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": "https://web-static.hg-cdn.com/upload/image/20260316/fddea87df3516aef0de3d7f5681617b2.jpg"
+    },
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-4de63babcc1b",
+      "title": "[Scarlet Pearl Issue] LTO Details",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/2660",
+        "priority": 1
+      },
+      "confidence": "low",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": "https://web-static.hg-cdn.com/upload/image/20260325/646f4a2a5c53898633ec24119a92e834.png"
+    },
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-52d0091fef8a",
+      "title": "[Graffiti Issue] LTO Details",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/8909",
+        "priority": 1
+      },
+      "confidence": "low",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": "https://web-static.hg-cdn.com/upload/image/20260211/0637320092dc0eb87eaa311410c60b85.jpg"
+    },
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-6ea3ebfbf8d8",
+      "title": "[Express Delivery Issue] LTO Details",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/0754",
+        "priority": 1
+      },
+      "confidence": "low",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": "https://web-static.hg-cdn.com/upload/image/20260210/e29de01e5ffb6d1487cb68ec1f9c5727.jpg"
+    },
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-7db5d47c786d",
+      "title": "Release Celebration [The Floaty Messenger] Chartered Headhunting Details",
+      "type": "banner",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/7028",
+        "priority": 1
+      },
+      "confidence": "low",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": "https://web-static.hg-cdn.com/upload/image/20260202/218a298600ef5bb8b662041adfa2f187.jpg"
+    },
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-84f0f3da0e8d",
+      "title": "[Contingency Contract: Re-Ignition Experimental Operation] Content Update Notes",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/4484",
+        "priority": 1
+      },
+      "confidence": "low",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": "https://web-static.hg-cdn.com/upload/image/20260624/21246f213a23e907b24d57422af9e1f1.jpg"
+    },
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-8a75f8d9b721",
+      "title": "🎁 [Contract Re-Ignition: Shared Insights] Discord Share & Win Event Now Open!",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/9566",
+        "priority": 1
+      },
+      "confidence": "low",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": "https://web-static.hg-cdn.com/upload/image/20260618/79adbebb41ffb9190d081974bf1af071.jpg"
+    },
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-8c7f81db2261",
+      "title": "[Wolf Pearl] Chartered Headhunting Details",
+      "type": "banner",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/3843",
+        "priority": 1
+      },
+      "confidence": "low",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": "https://web-static.hg-cdn.com/upload/image/20260326/d13f0d8d040c82c36e756bb10c35bcbc.png"
+    },
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-8d9454f861ee",
+      "title": "Arknights: Endfield Game Tools Updated for the New Version!",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/6187",
+        "priority": 1
+      },
+      "confidence": "low",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": "https://web-static.hg-cdn.com/upload/image/20260423/980cbf0bff3fdd80a29cf9aeede58f13.png"
+    },
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-8dd392d753a5",
+      "title": "[Contingency Contract: Re-Ignition Experimental Operation] Release Details",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/2657",
+        "priority": 1
+      },
+      "confidence": "low",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": "https://web-static.hg-cdn.com/upload/image/20260617/3ed11076376da60fadfb3b43dcb31735.jpg"
+    },
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-9727b6569a2f",
+      "title": "Update on PayPal Service Restoration in Certain Regions",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/6186",
+        "priority": 1
+      },
+      "confidence": "low",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": "https://web-static.hg-cdn.com/upload/image/20260522/254f946e707bf7829b91a1ea9332489d.jpg"
+    },
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-a4bcc6966d95",
+      "title": "[Sketches of Lost Heirlooms] Version Pre-Download & Update Notice",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/8904",
+        "priority": 1
+      },
+      "confidence": "low",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": "https://web-static.hg-cdn.com/upload/image/20260528/667d8aee2fbf9d7674ccf923049f01f9.jpg"
+    },
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-a8aca5a4d6d7",
+      "title": "[Drifting Raft Issue] LTO Details",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/5212",
+        "priority": 1
+      },
+      "confidence": "low",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": "https://web-static.hg-cdn.com/upload/image/20260415/81c09de55f0a8b420b02dfcce368f3bf.jpg"
+    },
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-a90c7fb3e322",
+      "title": "🎁 Prize Event | AIC Factory Blueprint Showcase",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/5211",
+        "priority": 1
+      },
+      "confidence": "low",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": "https://web-static.hg-cdn.com/upload/image/20260429/73102ca64dee6b659696684f21ef1be6.png"
+    },
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-a9f0217c9d5b",
+      "title": "[River's Daughter] Chartered Headhunting Details",
+      "type": "banner",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/1338",
+        "priority": 1
+      },
+      "confidence": "low",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": "https://web-static.hg-cdn.com/upload/image/20260310/83e2f066299177bdff5cc143b41bf076.jpg"
+    },
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-aea992684dcd",
+      "title": "[At the Wake of Spring] Version Update & Maintenance Preview",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/7025",
+        "priority": 1
+      },
+      "confidence": "low",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": "https://web-static.hg-cdn.com/upload/image/20260408/08d10ed2f3cbc911ba7734da04eb2ed4.jpg"
+    },
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-b2ecc2b3d406",
+      "title": "[Qingbo Rising] Limited-Time Sign-In Event Details",
+      "type": "login",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/1339",
+        "priority": 1
+      },
+      "confidence": "low",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": "https://web-static.hg-cdn.com/upload/image/20260228/6ee5b34e56e807150db1f994adfbde1b.png"
+    },
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-cd83a60cdcc9",
+      "title": "🎁 Discord Mi Fu First Impressions Sharing Event Opens",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/8903",
+        "priority": 1
+      },
+      "confidence": "low",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": "https://web-static.hg-cdn.com/upload/image/20260603/594df11ec6de5bf6e3647c9201426d7f.png"
+    },
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-e0557e04a4da",
+      "title": "🎁 Discord Camille First Impressions Sharing Event Opens",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/5202",
+        "priority": 1
+      },
+      "confidence": "low",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": "https://web-static.hg-cdn.com/upload/image/20260625/5db8cd142175110ac48ad06bbe26067c.png"
+    },
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-e9d4cd6cec5a",
+      "title": "[Scarlet Knot Issue] LTO Details",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/4492",
+        "priority": 1
+      },
+      "confidence": "low",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": "https://web-static.hg-cdn.com/upload/image/20260602/763f9aa946af94c27361a6addcbd1100.jpg"
+    },
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-f89ae00ead7f",
+      "title": "[Budding Anew Issue] LTO Details",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/5213",
+        "priority": 1
+      },
+      "confidence": "low",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": "https://web-static.hg-cdn.com/upload/image/20260310/231a8d4885837949eb209f5f09982e61.png"
+    }
+  ]
+}

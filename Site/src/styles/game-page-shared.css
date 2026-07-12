@@ -3776,6 +3776,19 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 /* Batch 14 fixes — copy-link feedback, marker controls, marker form extras */
 .ntl-copied{ align-self:center; color:#bff3e4; font-size:11px; padding:4px 8px; border-radius:7px; background:rgba(30,91,87,.5); }
 .ntl-marker-form label.ntl-until,.ntl-marker-form label.ntl-align{ display:flex; align-items:center; gap:5px; color:#aaa0cb; font-size:11px; white-space:nowrap; }
+
+/* Batch 15 — events lane (Workstream N) */
+.ntl-lane.events{ min-height:112px; }
+.ntl-block.event{ border-left-color:#57cbff; }
+.ntl-block.event.upcoming{ filter:saturate(.85); }
+.ntl-block.event.ongoing,.ntl-block.event.live{ box-shadow:0 0 16px #57cbff77; }
+.ntl-block.event.past{ filter:saturate(.5); opacity:.72; }
+.ntl-block.event.expected{ border-left-color:#e8b25f; }
+.ntl-events-review{ margin-top:14px; padding:12px 14px; border:1px dashed rgba(232,178,95,.4); border-radius:10px; background:rgba(42,30,10,.22); }
+.ntl-events-review>b{ display:block; margin-bottom:9px; color:#e8c98a; font-size:10px; letter-spacing:.06em; text-transform:uppercase; }
+.ntl-events-review-list{ display:flex; flex-wrap:wrap; gap:8px; }
+.ntl-events-review-list .ntl-block{ position:static; min-height:auto; width:auto; max-width:260px; }
+@media (max-width:700px){ .ntl-events-review-list{ flex-direction:column; } .ntl-events-review-list .ntl-block{ max-width:100%; } }
 .ntl-marker{ display:flex; align-items:center; gap:5px; min-width:110px; box-sizing:border-box; }.ntl-marker.off{ opacity:.5; filter:saturate(.4); }
 .ntl-marker>button{ border:0; background:transparent; color:inherit; cursor:pointer; padding:0; font:inherit; line-height:1; }
 .ntl-marker .ntl-marker-label{ overflow:hidden; text-overflow:ellipsis; white-space:nowrap; text-align:left; }

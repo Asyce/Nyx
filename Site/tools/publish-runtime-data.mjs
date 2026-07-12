@@ -164,6 +164,11 @@ async function publishFamily({ databaseDir, dataDir, source, target, optional, m
   const names = new Set(files.map((file) => relativeInside(sourceRoot, file)));
   if (source === 'BannerHistory') for (const required of ['gi.json','hsr.json','zzz.json','wuwa.json','ae.json','manifest.json']) if (!names.has(required)) throw new Error(`Runtime BannerHistory is missing ${required}`);
   if (source === 'Activities') for (const required of ['gi.json','hsr.json','zzz.json','wuwa.json']) if (!names.has(required)) throw new Error(`Runtime Activities is missing ${required}`);
+  // Events (Workstream N): the backend pipeline's own game key for Endfield
+  // is 'endfield' (unlike BannerHistory/Activities' 'ae'), so its filename
+  // differs from the client game-key convention — consumed as-is, per the
+  // client's own game-key -> filename map (timeline-view.jsx).
+  if (source === 'Events') for (const required of ['gi.json','hsr.json','zzz.json','wuwa.json','endfield.json']) if (!names.has(required)) throw new Error(`Runtime Events is missing ${required}`);
   for (const file of files) {
     const relative = relativeInside(sourceRoot, file);
     if (!/^[a-z0-9][a-z0-9._-]*\.json$/i.test(relative) || relative.includes('/')) throw new Error(`Runtime ${source} contains a non-allowlisted file: ${relative}`);
@@ -173,6 +178,7 @@ async function publishFamily({ databaseDir, dataDir, source, target, optional, m
       const minimum = { 'gi.json':2, 'hsr.json':3, 'zzz.json':2, 'wuwa.json':1 }[relative] || 0;
       if (parsed?.schemaVersion !== 1 || !Array.isArray(parsed.activities) || parsed.activities.length < minimum) throw new Error(`Runtime Activities has invalid ${relative}`);
     }
+    if (source === 'Events' && (parsed?.schemaVersion !== 1 || parsed.game !== relative.replace(/\.json$/, '') || !Array.isArray(parsed.events))) throw new Error(`Runtime Events has invalid ${relative}`);
     entries.push(await copyEntry({ source:file, dest:path.resolve(dataDir, target, relative), url:`/data/${target}/${relative}`, maxBytes, parsed, timestamp:dataTimestamp(parsed, stat) }));
   }
   return entries;

@@ -164,6 +164,16 @@ async function verifyRuntimeData(base) {
     if (activities?.schemaVersion !== 1 || activities.game !== game || !Array.isArray(activities.activities) || activities.activities.length < minimum) throw new Error(`${url} is invalid`);
     await checkFetch(base, url, '"activities"', 80);
   }
+  // Events (Workstream N). Endfield's backend game key is 'endfield', not
+  // the client key 'ae' — same filename map as timeline-view.jsx.
+  for (const game of ['gi','hsr','zzz','wuwa','ae']) {
+    const file = game === 'ae' ? 'endfield' : game;
+    const url = `/data/events/${file}.json`;
+    if (!urls.has(url)) throw new Error(`runtime manifest is missing ${url}`);
+    const events = JSON.parse(await readDeployText(url.slice(1)));
+    if (events?.schemaVersion !== 1 || events.game !== file || !Array.isArray(events.events)) throw new Error(`${url} is invalid`);
+    await checkFetch(base, url, '"events"', 80);
+  }
   return manifest.files.length;
 }
 

@@ -69,6 +69,15 @@ jobs:
           node ./banners/scrape.cjs || echo "::warning::banner scrape had errors; carry-forward applied"
           node ./codes/scrape.cjs   || echo "::warning::codes scrape had errors; carry-forward applied"
 
+      # Official in-game event announcements (GI/HSR/ZZZ/WuWa/Endfield). The pipeline
+      # self-preserves last-known-good per game on a failed/empty fetch, so a source
+      # outage (or a geo/CDN-gated endpoint from the runner) must not fail the job.
+      # This is also where WuWa's aki-game.net and the sg- HoYo hosts get probed live
+      # from the Actions runner (they may behave differently than a local machine).
+      - name: Scrape in-game events
+        working-directory: Scraper
+        run: node ./events/index.mjs || echo "::warning::events scrape had errors; carry-forward applied"
+
       # Structural gate on the REAL scraped output. Non-zero here = refuse to
       # commit/deploy, so the already-live last-known-good is preserved.
       - name: Validate scraped data

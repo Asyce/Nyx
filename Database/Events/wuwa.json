@@ -1,0 +1,743 @@
+{
+  "schemaVersion": 1,
+  "game": "wuwa",
+  "generatedAt": "2026-07-12T00:27:00.322Z",
+  "source": {
+    "name": "Wuthering Waves Official",
+    "endpoint": "hw-media-cdn-mingchao.kurogame.com ArticleMenu.json + article/*.json"
+  },
+  "counts": {
+    "total": 38,
+    "needs_review": 17,
+    "banner": 13,
+    "byType": {
+      "event": 22,
+      "banner": 13,
+      "challenge": 3
+    }
+  },
+  "events": [
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-b65ae5342125",
+      "title": "Tidal Photography: Land of Xuanfang Photo Challenge is now underway!",
+      "type": "event",
+      "start": "2026-08-19T15:59:00.000Z",
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5125",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-720d41e40f90",
+      "title": "[Starpath Reverbs] Reverb Resonator Convene",
+      "type": "banner",
+      "start": "2026-08-19T03:59:00.000Z",
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5065",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-fa1867a600da",
+      "title": "[Tideforge Reverbs] Reverb Weapon Convene",
+      "type": "banner",
+      "start": "2026-08-19T03:59:00.000Z",
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5076",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-10dc1ae9d256",
+      "title": "[Version 3.5 Featured Resonator/Weapon Convene: Phase I]",
+      "type": "banner",
+      "start": "2026-07-30T01:59:00.000Z",
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5039",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-22b221c941ef",
+      "title": "[Azure Oath] Featured Weapon Convene",
+      "type": "banner",
+      "start": "2026-07-30T01:59:00.000Z",
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5056",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-8a215c4e435a",
+      "title": "[Voices on Azure Feathers] Featured Resonator Convene",
+      "type": "banner",
+      "start": "2026-07-30T01:59:00.000Z",
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5047",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-f493272cbb50",
+      "title": "Event Preview | [Lament Recon: Tacet Crisis] Combat Event, Coming Soon!",
+      "type": "challenge",
+      "start": "2026-07-11T02:00:00.000Z",
+      "end": "2026-08-19T03:59:00.000Z",
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5129",
+        "priority": 1
+      },
+      "confidence": "high",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-54242f3526a0",
+      "title": "Version 3.5 Blade of Past Resounds, Lingering Dream Hymns Content Overview",
+      "type": "event",
+      "start": "2026-07-09T20:00:00.000Z",
+      "end": "2026-07-10T03:00:00.000Z",
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5091",
+        "priority": 1
+      },
+      "confidence": "high",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-fd164f0a01e2",
+      "title": "Wuthering Waves Version 3.5 Update Maintenance Notice",
+      "type": "event",
+      "start": "2026-07-09T20:00:00.000Z",
+      "end": "2026-07-10T03:00:00.000Z",
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4973",
+        "priority": 1
+      },
+      "confidence": "high",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-09c96389754d",
+      "title": "[Spectral Trigger] Collab Weapon Convene",
+      "type": "banner",
+      "start": "2026-07-09T03:59:00.000Z",
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4844",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-3c8da944745b",
+      "title": "[Rekindled Embers of Rage] Collab Resonator Convene",
+      "type": "banner",
+      "start": "2026-07-09T03:59:00.000Z",
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4852",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-65ab2c25c0db",
+      "title": "[Dreaming Upon the Moon] Collab Resonator Convene",
+      "type": "banner",
+      "start": "2026-07-09T03:59:00.000Z",
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4836",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-780db667cdb9",
+      "title": "[Skull Thrasher] Collab Weapon Convene",
+      "type": "banner",
+      "start": "2026-07-09T03:59:00.000Z",
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4860",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-cc4e019fe91d",
+      "title": "Event Preview | [Depths of Illusive Realm: Dreamchasers] Featured Combat Event, Coming Soon!",
+      "type": "challenge",
+      "start": "2026-07-08T19:59:00.000Z",
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4792",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-03a57fd610f9",
+      "title": "[Version 3.4 Featured Resonator/Weapon Convene: Phase II]",
+      "type": "banner",
+      "start": "2026-06-18T02:00:00.000Z",
+      "end": "2026-07-09T03:59:00.000Z",
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4916",
+        "priority": 1
+      },
+      "confidence": "high",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-88ff6c336f79",
+      "title": "[Tomorrow in the Frame] Featured Resonator Convene",
+      "type": "banner",
+      "start": "2026-06-13T02:00:00.000Z",
+      "end": "2026-07-09T03:59:00.000Z",
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4885",
+        "priority": 1
+      },
+      "confidence": "high",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-e1635bb0bd89",
+      "title": "[Freeze Frame] Featured Weapon Convene",
+      "type": "banner",
+      "start": "2026-06-13T02:00:00.000Z",
+      "end": "2026-07-09T03:59:00.000Z",
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4894",
+        "priority": 1
+      },
+      "confidence": "high",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-e0a6bd594e8c",
+      "title": "Patch Notes for Version 3.4: The Dream Not Dreamed",
+      "type": "event",
+      "start": "2026-06-07T20:00:00.000Z",
+      "end": "2026-06-08T03:00:00.000Z",
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4819",
+        "priority": 1
+      },
+      "confidence": "high",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-f3244a9266dd",
+      "title": "Wuthering Waves Version 3.4 Update Maintenance Notice",
+      "type": "event",
+      "start": "2026-06-07T20:00:00.000Z",
+      "end": "2026-06-08T03:00:00.000Z",
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4765",
+        "priority": 1
+      },
+      "confidence": "high",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-359c9069ae4a",
+      "title": "Event Preview | [Depths of Illusive Realm: Chromatic Fantasy] Featured Combat Event, Coming Soon!",
+      "type": "challenge",
+      "start": "2026-05-21T02:00:00.000Z",
+      "end": "2026-06-06T19:59:00.000Z",
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4695",
+        "priority": 1
+      },
+      "confidence": "high",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-f623798adda7",
+      "title": "[Version 3.3 Featured Resonator/Weapon Convene: Phase Ⅱ]",
+      "type": "banner",
+      "start": "2026-05-21T02:00:00.000Z",
+      "end": "2026-06-07T03:59:00.000Z",
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4691",
+        "priority": 1
+      },
+      "confidence": "high",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-032465b27e6c",
+      "title": "New Region Preview I | Mengzhou: Land of Xuanfang is coming soon!",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4960",
+        "priority": 1
+      },
+      "confidence": "low",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": null
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-0afe0516c44a",
+      "title": "New Region Preview II | Mengzhou: Land of Xuanfang is coming soon! Get a first look at its quests and monsters!",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4985",
+        "priority": 1
+      },
+      "confidence": "low",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": null
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-0d72e98dfb21",
+      "title": "Resonator Review | Feathered Tempest — Cartethyia",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4918",
+        "priority": 1
+      },
+      "confidence": "low",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": null
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-13ab0b10216b",
+      "title": "Version 3.3 Phase II Wuthering Waves Wallpaper",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4735",
+        "priority": 1
+      },
+      "confidence": "low",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": null
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-42e176f9aee5",
+      "title": "Resonator Reveal | Rebecca",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4764",
+        "priority": 1
+      },
+      "confidence": "low",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": null
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-4ba1d6609043",
+      "title": "Wuthering Waves Version Preview | Version 3.4 \"The Dream Not Dreamed\" Scheduled for Release on June 8 (UTC+8)",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4740",
+        "priority": 1
+      },
+      "confidence": "low",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": null
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-622281a55f2d",
+      "title": "Version 3.4 Wuthering Waves Wallpaper",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4910",
+        "priority": 1
+      },
+      "confidence": "low",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": null
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-6aecf8877806",
+      "title": "Wuthering Waves Update Content | Version 3.4 \"The Dream Not Dreamed\" Planned for Release on June 8 (UTC+8)",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4791",
+        "priority": 1
+      },
+      "confidence": "low",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": null
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-711b40ddd1b9",
+      "title": "Resonator Reveal | Lucy",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4774",
+        "priority": 1
+      },
+      "confidence": "low",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": null
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-75c7309b0398",
+      "title": "Upcoming Events in Wuthering Waves Version 3.4",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4917",
+        "priority": 1
+      },
+      "confidence": "low",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": null
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-8da60cd28a2b",
+      "title": "Resonator Review | Phase Transition - Luuk Herssen",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5044",
+        "priority": 1
+      },
+      "confidence": "low",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": null
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-9b082b6e0212",
+      "title": "Wuthering Waves Version Preview | Version 3.5 \"Blade of Past Resounds, Lingering Dream Hymns\"",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4936",
+        "priority": 1
+      },
+      "confidence": "low",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": null
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-a830187323b0",
+      "title": "Wuthering Waves Fan Creation Event \"The Dream Not Dreamed\" is now live!",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4823",
+        "priority": 1
+      },
+      "confidence": "low",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": null
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-ba6b45f9ebd2",
+      "title": "Wuthering Waves Fan Creation Event \"Blade of Past Resounds, Lingering Dream Hymns\" is now live!",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5094",
+        "priority": 1
+      },
+      "confidence": "low",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": null
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-e2ed349ec5c4",
+      "title": "Wuthering Waves Update Content | Version 3.5 \"Blade of Past Resounds, Lingering Dream Hymns\" Planned for Release on July 10 (UTC+8)",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5023",
+        "priority": 1
+      },
+      "confidence": "low",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": null
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-ee99e97c859d",
+      "title": "Wuthering Waves Fan Creation Event Winners Reveal",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5009",
+        "priority": 1
+      },
+      "confidence": "low",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": null
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-f4c03737d158",
+      "title": "Resonator Review | Radiant Spectrum — Lynae",
+      "type": "event",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5045",
+        "priority": 1
+      },
+      "confidence": "low",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": null
+    }
+  ]
+}

@@ -155,6 +155,41 @@ for (const [game, minimum] of Object.entries({ gi:2, hsr:3, zzz:2, wuwa:1 })) {
   diagnostics.push(`activity ${game.padEnd(5)} ${(payload.activities || []).length} definition(s)`);
 }
 
+// ---- in-game events pipeline (Database/Events/<game>.json) ----
+// Structural gate mirroring the other datasets. Empty is tolerated (a quiet game
+// can legitimately have no announced events); malformed entries fail the gate.
+const EVENT_TYPES = new Set(['event', 'banner', 'web_event', 'login', 'challenge', 'shop', 'permanent']);
+const EVENT_CONFIDENCE = new Set(['high', 'medium', 'low']);
+const EVENT_PERMANENCE = new Set(['permanent', 'timed', 'unknown']);
+for (const game of ['gi', 'hsr', 'zzz', 'wuwa', 'endfield']) {
+  const payload = load(`Events/${game}.json`);
+  if (!payload) continue;
+  if (payload.schemaVersion !== 1 || payload.game !== game || !Array.isArray(payload.events)) {
+    errors.push(`events ${game}: invalid schema/envelope`);
+    continue;
+  }
+  const ids = new Set();
+  let review = 0;
+  let banners = 0;
+  for (const e of payload.events) {
+    if (!e?.id || ids.has(e.id)) errors.push(`events ${game}: empty/duplicate id ${e?.id}`);
+    ids.add(e?.id);
+    if (!e?.title || !EVENT_TYPES.has(e?.type) || !EVENT_CONFIDENCE.has(e?.confidence) || !EVENT_PERMANENCE.has(e?.permanence) || typeof e?.needs_review !== 'boolean') {
+      errors.push(`events ${game}: malformed ${e?.id}`);
+    }
+    if (!e?.source?.name || !e?.source?.url || typeof e?.source?.priority !== 'number') errors.push(`events ${game}: bad source on ${e?.id}`);
+    for (const bound of ['start', 'end']) {
+      if (e?.[bound] !== null && !Number.isFinite(Date.parse(e?.[bound]))) errors.push(`events ${game}: bad ${bound} on ${e?.id}`);
+    }
+    if (e?.start && e?.end && Date.parse(e.end) <= Date.parse(e.start)) errors.push(`events ${game}: end<=start on ${e?.id}`);
+    // A non-review, non-permanent event must carry a real start anchor (no guessed dates).
+    if (e && !e.needs_review && e.permanence !== 'permanent' && !e.start) errors.push(`events ${game}: dated event missing start on ${e?.id}`);
+    if (e?.needs_review) review += 1;
+    if (e?.type === 'banner') banners += 1;
+  }
+  diagnostics.push(`events  ${game.padEnd(9)} ${payload.events.length} event(s), ${review} needs_review, ${banners} banner-tagged`);
+}
+
 console.log('--- data validation diagnostics ---');
 for (const d of diagnostics) console.log('  ' + d);
 

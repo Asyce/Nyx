@@ -1,0 +1,556 @@
+{
+  "schemaVersion": 1,
+  "game": "gi",
+  "generatedAt": "2026-07-12T00:27:00.322Z",
+  "source": {
+    "name": "Genshin Impact Official",
+    "endpoint": "sg-hk4e-api.hoyoverse.com getAnnList+getAnnContent"
+  },
+  "counts": {
+    "total": 28,
+    "needs_review": 0,
+    "banner": 4,
+    "byType": {
+      "challenge": 1,
+      "event": 19,
+      "shop": 2,
+      "banner": 4,
+      "permanent": 1,
+      "login": 1
+    }
+  },
+  "events": [
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-5e481c62dc26",
+      "title": "Stygian Onslaught Event: Disturbance-affected Ley Line challenges",
+      "type": "challenge",
+      "start": "2026-07-08T09:00:00.000Z",
+      "end": "2026-08-11T02:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21168",
+        "priority": 1
+      },
+      "confidence": "high",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2025/10/23/40da7ab1ce17afd008e7a10c6ee6e67b_3372052251159312794_transformed.jpg"
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-dfa69df586ab",
+      "title": "Version Details - What's New",
+      "type": "event",
+      "start": "2026-07-01T00:00:00.000Z",
+      "end": "2026-08-11T22:00:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21797",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/announcement/2020/11/11/0c4d0c742dde8334be30352fa3f5fb5b_4067277611421326976.jpg"
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-01ebcb4e7a8c",
+      "title": "\"Song of the Welkin Moon: Scherzo — Sunny Summer Fontinalia\": Version \"Luna VIII\" Update Details",
+      "type": "shop",
+      "start": "2026-06-30T23:00:00.000Z",
+      "end": "2026-08-11T22:00:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21789",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/30/0d98b6178777d572ef6cba49c920be70_7749270549070857460_transformed.jpg"
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-7a235a18f03e",
+      "title": "New Content Overview",
+      "type": "event",
+      "start": "2026-06-30T23:00:00.000Z",
+      "end": "2026-08-11T22:00:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21788",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-10ba06f11fd8",
+      "title": "Participate in \"Raiment Collection: Mellow Warmth\" to Obtain the \"Dreamy Summer Leisure\" Manekin Cosmetics Set of Your Choice",
+      "type": "event",
+      "start": "2026-06-30T04:00:00.000Z",
+      "end": "2026-08-11T23:00:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21762",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/22/cdc7d9f8c21fc84cbbe9c8c1698f7e3f_7620124751577152017_transformed.jpg"
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-5c1438f75c3b",
+      "title": "\"Fatebound Sea Season\" Season Opening Announcement",
+      "type": "event",
+      "start": "2026-06-30T04:00:00.000Z",
+      "end": "2026-08-11T23:00:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21763",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/22/7035ca31cd8498b0ef0a7d0c9761df57_6810033499703056196_transformed.jpg"
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-64f87211660d",
+      "title": "\"Wonderland Treasures: Breezes Meet the Fatebound Sea\" – New Manekin Cosmetics Now Available",
+      "type": "event",
+      "start": "2026-06-30T04:00:00.000Z",
+      "end": "2026-08-10T02:59:59.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21765",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/22/0c6ffa122f7b608a373cb24fa645f732_6057696171744651894_transformed.png"
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-35dfee6c8841",
+      "title": "Event Wish \"Starry Night's Whispers\" - Boosted Drop Rate for \"Obsidian Opalstar\" Citlali (Cryo)!",
+      "type": "banner",
+      "start": "2026-06-29T04:00:00.000Z",
+      "end": "2026-07-21T16:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21744",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/6688ebcd1be4d6fb447367af5166d302_8781030942944991750_transformed.jpg"
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-418e75bad548",
+      "title": "\"Witch's Revelation\" Gameplay Details",
+      "type": "event",
+      "start": "2026-06-29T04:00:00.000Z",
+      "end": "2026-08-11T23:00:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21751",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/49208ed32b9337e6a56f880390da1f93_3716451833882423464_transformed.jpg"
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-4a74e867b699",
+      "title": "Repertoire of Myriad Melodies Update - \"Nod-Krai: Where Roads Are Pledged to Cross\"",
+      "type": "event",
+      "start": "2026-06-29T04:00:00.000Z",
+      "end": "2026-08-11T13:59:59.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21753",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/65ddaaaaa5e13c781112970308014d25_1871086253469390326_transformed.jpg"
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-4e84ec1b62a5",
+      "title": "Event Wish \"To the Looking-Glass the Mademoiselle Said\" - Boosted Drop Rate for \"Mirrored Analysis\" Sandrone (Cryo)!",
+      "type": "banner",
+      "start": "2026-06-29T04:00:00.000Z",
+      "end": "2026-07-21T16:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21743",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/9051504c6cc2742ff981816ef64341b0_2963061423775561785_transformed.jpg"
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-6536442c7e02",
+      "title": "\"Genius Invokation TCG\" The Forge Realm's Temper: Endless Swarm",
+      "type": "event",
+      "start": "2026-06-29T04:00:00.000Z",
+      "end": "2026-08-11T23:00:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=20834",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2024/11/05/cf324597e5d687e26d86f297e59c9ebd_2179973999643752178.jpg"
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-82ebf8a67d40",
+      "title": "\"Sunny Summer Fontinalia\" Event: Participate to Obtain Charlotte's Outfit and Invite \"Lens of Verity\" Charlotte (Cryo)",
+      "type": "event",
+      "start": "2026-06-29T04:00:00.000Z",
+      "end": "2026-08-11T02:59:59.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21749",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/4c699b74ef0c77158a7f28e62ba2d7ec_6267956826869874359_transformed.jpg"
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-aba28f3c20cd",
+      "title": "\"When We Look Up at the Moon\": Complete the Exploration Missions Within the Specified Duration to Obtain an Additional Reward of Primogems ×400",
+      "type": "event",
+      "start": "2026-06-29T04:00:00.000Z",
+      "end": "2026-09-22T13:59:59.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21750",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/d1fccbee7dc2d207a6f1ddbf6639840b_198600082712231926_transformed.jpg"
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-bf502c8f8d89",
+      "title": "Lightrace Wish \"Heavenlit Prophecy\" Now Available!",
+      "type": "banner",
+      "start": "2026-06-29T04:00:00.000Z",
+      "end": "2026-07-21T16:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21748",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/1ddd62a7912ad368ebb4c6e086eea9f7_7383403002050886108_transformed.jpg"
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-bf53241ca512",
+      "title": "\"Adventurer's Booster Bundles\" - Round 50 Available for a Limited Time",
+      "type": "event",
+      "start": "2026-06-29T04:00:00.000Z",
+      "end": "2026-07-15T22:59:59.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21754",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/5b40d8ebc00cb40e5f7852e600ac486b_6408640339449767220_transformed.jpg"
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-c79e53886783",
+      "title": "\"Sunny Summer\" Event Details",
+      "type": "event",
+      "start": "2026-06-29T04:00:00.000Z",
+      "end": "2026-08-10T02:59:59.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21755",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/18/73a73ee95d6dbf89aebb42b87f2d40bc_7019522087543287260_transformed.jpg"
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-d7fed86706a9",
+      "title": "\"Uncover Lunar Realms, Hone the Eventide Radiance\" Event: New Travelers Can Invite a Wanderlust Invocation (Standard) 5-Star Character of Your Choice",
+      "type": "event",
+      "start": "2026-06-29T04:00:00.000Z",
+      "end": "2026-09-22T23:00:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21707",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/d123dfbb81d6f730a5eeba577d493dad_3408949110643189124_transformed.jpg"
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-f33e337f8da3",
+      "title": "Citlali's Outfit \"Whispers of Stars and Smoke\" Available at a Limited-Time Discount",
+      "type": "event",
+      "start": "2026-06-29T04:00:00.000Z",
+      "end": "2026-08-10T02:59:59.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21752",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/6f30223e40060dfec6a15175c6556226_5758032492263471875_transformed.jpg"
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-f69fecddb379",
+      "title": "Event Wish \"Epitome Invocation\" - Boosted Drop Rate for A Teaspoon of Transcendence (Claymore) and Starcaller's Watch (Catalyst)!",
+      "type": "banner",
+      "start": "2026-06-29T04:00:00.000Z",
+      "end": "2026-07-21T16:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21745",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/72f9f68c96f10bad8f09b6e4e2779a04_5696032299474729046_transformed.jpg"
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-a32a219bfe08",
+      "title": "\"To Temper Thyself and Journey Far\": Rewards of Dedication",
+      "type": "event",
+      "start": "2026-05-18T03:00:00.000Z",
+      "end": "2026-08-10T02:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21646",
+        "priority": 1
+      },
+      "confidence": "high",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/f77abe8a6f4104f1229db987e2c4280a_2209363618000115098_transformed.png"
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-59bcb40cebd3",
+      "title": "Miliastra Wonderland Gameplay Rules",
+      "type": "event",
+      "start": "2025-11-05T16:00:00.000Z",
+      "end": "2035-11-30T16:00:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21455",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2025/11/12/2841d88b21b44138ba5b8c43f0e2c6d0_8337744188972442878_transformed.jpg"
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-31eafabc7d8c",
+      "title": "Official Top-Up Center Now Online",
+      "type": "shop",
+      "start": "2025-09-25T19:38:10.000Z",
+      "end": "2035-10-30T16:00:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=1249",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2022/12/06/a3f64d19df0a6a8ed5a3b0a1fccba620_3384464103647206496.jpg"
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-898b544bfcea",
+      "title": "Game Survey",
+      "type": "event",
+      "start": "2025-09-10T00:00:00.000Z",
+      "end": "2026-12-30T16:00:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21330",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/announcement/2022/08/17/f8c479b1eaf9c19328c56264ca38affe_8815493962934825777.jpg"
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-9ad37f82d90c",
+      "title": "Genshin Impact - Fair Use Statement",
+      "type": "event",
+      "start": "2020-09-25T20:12:09.000Z",
+      "end": "2030-10-30T16:00:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=1251",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/announcement/2020/09/17/a200f1d4c84be88961455023b264a0bb_3936625726356517613.jpg"
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-36f239a61032",
+      "title": "Genshin Impact Traveler Community",
+      "type": "event",
+      "start": "2020-09-25T09:05:30.000Z",
+      "end": "2030-10-30T16:00:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=1250",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/announcement/2020/09/22/cdd9728d92166c341cc4a8fdfa786056_4263317197346022378.jpg"
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-a5cce407856a",
+      "title": "\"The Clink Clank Whiz-Kid!\" Event: Progress the Archon Quest \"A Dance of Snowy Tides and Hoarfrost Groves\" and invite \"Clinky-Clank Gadgets-A-Gogo\" Aino (Hydro)",
+      "type": "permanent",
+      "start": null,
+      "end": null,
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21282",
+        "priority": 1
+      },
+      "confidence": "high",
+      "permanence": "permanent",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2025/08/28/8dbda65d63a584a0eaedee3fed63c0c4_4369780166988778346_transformed.png"
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-bde016f6db34",
+      "title": "HoYoLAB Community \"Daily Check-In\" Feature",
+      "type": "login",
+      "start": null,
+      "end": null,
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21784",
+        "priority": 1
+      },
+      "confidence": "high",
+      "permanence": "permanent",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2022/12/06/d15f6c61e1d3d62d5e269360aaef7285_3515093605882829658.png"
+    }
+  ]
+}

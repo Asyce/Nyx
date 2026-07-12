@@ -577,6 +577,87 @@ function nyxTlExpandActivities(defs, rangeStart, rangeEnd, regionKey){
   return out;
 }
 
+// ---- Events lane (Workstream N) --------------------------------------
+//
+// Source: Database/Events/<game>.json (raw records, unfiltered), published
+// verbatim to /data/events/<game>.json and fetched by the view. Everything
+// below is pure client-side classification — the pipeline never guesses a
+// date, so neither do we:
+//   - type === 'banner' events are excluded (double-display guard — the
+//     banner lanes already cover those from the banner scraper).
+//   - needs_review:true OR a null `start` -> the event has no placeable
+//     date. It goes in the needs-review bucket, never onto the time axis,
+//     and is only ever labelled "Expected" (dashed), never a real date.
+//   - a real `start` with a null `end` is an "open end" event (until next
+//     version) — NOT needs_review. It is drawn from start to at least "now"
+//     so it visually reads as ongoing without inventing a future end date.
+
+// One display block from a raw event record, or null only for records this
+// function refuses to build (never — every event either lands on the axis
+// or in the review bucket).
+function nyxTlEventBlockFromRecord(e, now){
+  var startMs = e.start ? nyxTlNum(e.start) : null;
+  var needsReview = !!e.needs_review || startMs === null;
+  var block = {
+    id: e.id, game: e.game || null, title: e.title || 'Event', type: e.type || 'event',
+    image: e.image || null,
+    sourceUrl: (e.source && e.source.url) || null,
+    server: e.server || null, timezone: e.timezone || null,
+    confidence: e.confidence || null, permanence: e.permanence || null,
+    needsReview: needsReview, openEnd: false,
+    rawStart: e.start || null, rawEnd: e.end || null,
+    startMs: null, endMs: null,
+  };
+  if (!needsReview) {
+    var endRaw = e.end ? nyxTlNum(e.end) : null;
+    block.openEnd = endRaw === null;
+    block.startMs = startMs;
+    // Open-end events extend to "now" (recomputed live), never to a
+    // fabricated future date — the display end is honestly "as of today",
+    // not a claimed real end.
+    block.endMs = block.openEnd ? Math.max(startMs + NYX_TL_DAY_MS, now + NYX_TL_DAY_MS) : endRaw;
+  }
+  return block;
+}
+
+// Build every display block for a game's events feed. Excludes type:banner
+// (double-display guard, plan Workstream N) — those already have their own
+// lane. Sorted by start, with dateless (needs-review) entries last.
+function nyxTlBuildEventBlocks(events, now){
+  events = Array.isArray(events) ? events : [];
+  now = Number.isFinite(now) ? now : Date.now();
+  var out = [];
+  for (var i = 0; i < events.length; i++) {
+    var e = events[i];
+    if (!e || e.type === 'banner') continue;
+    out.push(nyxTlEventBlockFromRecord(e, now));
+  }
+  out.sort(function(a, b){
+    var as = a.startMs == null ? Infinity : a.startMs;
+    var bs = b.startMs == null ? Infinity : b.startMs;
+    return as - bs;
+  });
+  return out;
+}
+
+// Split event blocks into the placeable time-axis set and the visually
+// separated needs-review bucket, so a guess can never be mistaken for a
+// confirmed date (plan Workstream N).
+function nyxTlSplitEventBlocks(blocks){
+  var axis = [], review = [];
+  for (var i = 0; i < (blocks || []).length; i++) (blocks[i].needsReview ? review : axis).push(blocks[i]);
+  return { axis: axis, review: review };
+}
+
+// Deterministic current/upcoming/past classification for one event block.
+// Never invents a date — 'review' covers everything without a placeable start.
+function nyxTlEventStatus(block, now){
+  if (!block || block.needsReview) return 'review';
+  if (block.startMs <= now && block.endMs >= now) return block.openEnd ? 'ongoing' : 'live';
+  if (block.startMs > now) return 'upcoming';
+  return 'past';
+}
+
 // ---- Search ----------------------------------------------------------
 
 // Does `block` match `query`? Matches featured character AND weapon names
@@ -715,6 +796,9 @@ if (typeof window !== 'undefined') {
     expectedWindow: nyxTlExpectedWindow,
     expandActivity: nyxTlExpandActivity,
     expandActivities: nyxTlExpandActivities,
+    buildEventBlocks: nyxTlBuildEventBlocks,
+    splitEventBlocks: nyxTlSplitEventBlocks,
+    eventStatus: nyxTlEventStatus,
     searchMatch: nyxTlSearchMatch,
     searchGroups: nyxTlSearchGroups,
     encodeHash: nyxTlEncodeHash,

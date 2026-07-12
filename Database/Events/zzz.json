@@ -1,0 +1,304 @@
+{
+  "schemaVersion": 1,
+  "game": "zzz",
+  "generatedAt": "2026-07-12T00:27:00.322Z",
+  "source": {
+    "name": "Zenless Zone Zero Official",
+    "endpoint": "sg-announcement-api.hoyoverse.com getAnnList+getAnnContent"
+  },
+  "counts": {
+    "total": 15,
+    "needs_review": 0,
+    "banner": 0,
+    "byType": {
+      "event": 15
+    }
+  },
+  "events": [
+    {
+      "game": "zzz",
+      "id": "zzz-hoyo-ann-dc5ffc5377a7",
+      "title": "\"'En-Nah' Into Your Lap\" Event Details",
+      "type": "event",
+      "start": "2026-07-08T09:00:00.000Z",
+      "end": "2026-07-28T02:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Zenless Zone Zero Official",
+        "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1226",
+        "priority": 1
+      },
+      "confidence": "high",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2026/07/03/b40c2c0f4ade541034ef841af5ddbfde_9107498888279022227_transformed.jpg"
+    },
+    {
+      "game": "zzz",
+      "id": "zzz-hoyo-ann-3df8e967840a",
+      "title": "\"Tales of the Hobbling Crow\" Event Details",
+      "type": "event",
+      "start": "2026-07-03T09:00:00.000Z",
+      "end": "2026-07-20T02:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Zenless Zone Zero Official",
+        "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1203",
+        "priority": 1
+      },
+      "confidence": "high",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/29/a235f309c1432f020ddd0d822909ff59_3471394558436324277_transformed.png"
+    },
+    {
+      "game": "zzz",
+      "id": "zzz-hoyo-ann-c4dfd65f135c",
+      "title": "Birthday Gift Update Details",
+      "type": "event",
+      "start": "2026-07-02T11:30:00.000Z",
+      "end": "2026-07-29T04:59:59.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Zenless Zone Zero Official",
+        "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1213",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/24/6b62337c9b93a6496552accbe24e2f57_1485946905627752439_transformed.jpg"
+    },
+    {
+      "game": "zzz",
+      "id": "zzz-hoyo-ann-96040c408314",
+      "title": "\"Assemble! Mock Exam Comeback Plan\" Event Details",
+      "type": "event",
+      "start": "2026-06-26T09:00:00.000Z",
+      "end": "2026-07-27T02:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Zenless Zone Zero Official",
+        "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1204",
+        "priority": 1
+      },
+      "confidence": "high",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/23/f9a38be1f7d8076390b3db9b404034dc_3417952199959931797_transformed.png"
+    },
+    {
+      "game": "zzz",
+      "id": "zzz-hoyo-ann-768a78af26a9",
+      "title": "\"Gleaming Shadow Team Battle\" Event Details",
+      "type": "event",
+      "start": "2026-06-19T09:00:00.000Z",
+      "end": "2026-07-13T02:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Zenless Zone Zero Official",
+        "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1201",
+        "priority": 1
+      },
+      "confidence": "high",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/6c70cdbc621afd51f0043e289e87c61b_389290135078557569_transformed.png"
+    },
+    {
+      "game": "zzz",
+      "id": "zzz-hoyo-ann-552b71c8fba1",
+      "title": "Zenless Zone Zero PC Visual Experience Upgrade FAQ",
+      "type": "event",
+      "start": "2026-06-17T10:15:00.000Z",
+      "end": "2026-07-29T04:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Zenless Zone Zero Official",
+        "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1207",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/15/69b9fd6a7fd732e9cedb53ea0b703d17_3277548783120117065_transformed.png"
+    },
+    {
+      "game": "zzz",
+      "id": "zzz-hoyo-ann-b5adf2e56654",
+      "title": "Known Issues & Game Optimizations",
+      "type": "event",
+      "start": "2026-06-17T06:00:00.000Z",
+      "end": "2026-07-29T06:00:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Zenless Zone Zero Official",
+        "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1222",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2025/12/30/5ec8bdc39053abce65b4afc95899149a_457255027549651735_transformed.png"
+    },
+    {
+      "game": "zzz",
+      "id": "zzz-hoyo-ann-bacb05c2c90f",
+      "title": "Version 3.0 \"A Sleepwalker's Confession\" Update Announcement",
+      "type": "event",
+      "start": "2026-06-17T06:00:00.000Z",
+      "end": "2026-07-29T06:00:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Zenless Zone Zero Official",
+        "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1208",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/15/20695a0fb1ce5019bc2eb04d74e15e70_6471292614986135308_transformed.png"
+    },
+    {
+      "game": "zzz",
+      "id": "zzz-hoyo-ann-466a64060f1a",
+      "title": "New Arrival in \"An Outstanding Partner\"",
+      "type": "event",
+      "start": "2026-06-16T12:15:00.000Z",
+      "end": "2026-07-29T04:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Zenless Zone Zero Official",
+        "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1198",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/15/02526c012f6eacce260210d29fa92f1d_4948602968781482882_transformed.png"
+    },
+    {
+      "game": "zzz",
+      "id": "zzz-hoyo-ann-a46807452003",
+      "title": "Version 3.0 New Eridu City Fund Details",
+      "type": "event",
+      "start": "2026-06-16T12:00:00.000Z",
+      "end": "2026-07-27T02:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Zenless Zone Zero Official",
+        "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1199",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/15/e4e1c313706121ae315c080b935fbdac_7896931252975824686_transformed.png"
+    },
+    {
+      "game": "zzz",
+      "id": "zzz-hoyo-ann-3b30c16ee6c6",
+      "title": "\"Celestial Nexus Intelligence Dossier\" Event Details",
+      "type": "event",
+      "start": "2026-06-15T17:30:00.000Z",
+      "end": "2026-07-29T04:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Zenless Zone Zero Official",
+        "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1205",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/12/c24070f9f55450263abe30a498308ac8_7675520590337195925_transformed.png"
+    },
+    {
+      "game": "zzz",
+      "id": "zzz-hoyo-ann-7474b8fa7526",
+      "title": "\"All-New Program\" Event Details",
+      "type": "event",
+      "start": "2026-06-15T12:00:00.000Z",
+      "end": "2026-07-28T02:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Zenless Zone Zero Official",
+        "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1200",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/12/d87d0aec822d85102130bfa93a22df23_7723773354289650040_transformed.png"
+    },
+    {
+      "game": "zzz",
+      "id": "zzz-hoyo-ann-a3834de7f2e7",
+      "title": "\"Return to Ridu: Together in a New Chapter\" Event Details",
+      "type": "event",
+      "start": "2026-06-06T19:30:00.000Z",
+      "end": "2026-07-17T02:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Zenless Zone Zero Official",
+        "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1189",
+        "priority": 1
+      },
+      "confidence": "high",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/05/b6bf03619a0ccecfe79574921e8f928e_4762480000385953045_transformed.jpg"
+    },
+    {
+      "game": "zzz",
+      "id": "zzz-hoyo-ann-38d5a11516a6",
+      "title": "Zenless Zone Zero Official Social Media",
+      "type": "event",
+      "start": "2024-07-02T23:00:00.000Z",
+      "end": "2035-07-02T23:00:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Zenless Zone Zero Official",
+        "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=298",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2025/04/22/09bb0465c9a5a810f8813ebb68905d45_1754801063987319711.png"
+    },
+    {
+      "game": "zzz",
+      "id": "zzz-hoyo-ann-a1460cde0094",
+      "title": "Fair Use Statement",
+      "type": "event",
+      "start": "2024-07-02T23:00:00.000Z",
+      "end": "2034-07-02T23:00:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Zenless Zone Zero Official",
+        "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=241",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2025/04/22/ba17dc0f2a0ca5fb7008306a74b76416_2094763500734259746.png"
+    }
+  ]
+}

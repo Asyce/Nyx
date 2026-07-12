@@ -1,0 +1,4 @@
+# Raw source snapshots — regenerated on every scrape, used for offline re-parsing
+# (NYX_EVENTS_OFFLINE=1) and last-ditch stale fallback. Not committed.
+*
+!.gitignore

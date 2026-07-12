@@ -1,0 +1,230 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "generatedAt": "2026-07-12T00:27:00.322Z",
+  "source": {
+    "name": "Honkai: Star Rail Official",
+    "endpoint": "sg-hkrpg-api.hoyoverse.com getAnnList+getAnnContent"
+  },
+  "counts": {
+    "total": 11,
+    "needs_review": 0,
+    "banner": 1,
+    "byType": {
+      "event": 9,
+      "challenge": 1,
+      "banner": 1
+    }
+  },
+  "events": [
+    {
+      "game": "hsr",
+      "id": "hsr-hoyo-ann-653112a3f5b3",
+      "title": "\"In Ravages Does the Whistle Sound\" Mission Description",
+      "type": "event",
+      "start": "2026-07-10T23:00:00.000Z",
+      "end": "2026-08-25T16:00:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Honkai: Star Rail Official",
+        "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1329",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/25/e700e0f4e6da85780b6711a10ac1ae8e_2050984543729641427_transformed.png"
+    },
+    {
+      "game": "hsr",
+      "id": "hsr-hoyo-ann-8dbcd7c9e2ea",
+      "title": "Version 4.4 \"Nameless Honor\" Update",
+      "type": "event",
+      "start": "2026-07-08T23:00:00.000Z",
+      "end": "2026-08-24T02:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Honkai: Star Rail Official",
+        "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1315",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/13/4614964883837257ab8f7bd24542c3e3_3932997541095200960_transformed.png"
+    },
+    {
+      "game": "hsr",
+      "id": "hsr-hoyo-ann-12c1a7a21c89",
+      "title": "Realm of the Strange Event: Cavern Relic Drop Rate Doubled For a Limited Time",
+      "type": "challenge",
+      "start": "2026-07-03T03:00:00.000Z",
+      "end": "2026-07-13T02:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Honkai: Star Rail Official",
+        "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1301",
+        "priority": 1
+      },
+      "confidence": "high",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2026/05/09/aa1f4ee17c0746bd46a8693d44d95188_5705131435332765014_transformed.png"
+    },
+    {
+      "game": "hsr",
+      "id": "hsr-hoyo-ann-994da522aedf",
+      "title": "Version 4.3 \"The Lethe Below the Living\" Update Details",
+      "type": "event",
+      "start": "2026-05-31T17:00:00.000Z",
+      "end": "2026-07-14T17:00:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Honkai: Star Rail Official",
+        "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1307",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2026/05/18/ba417baf191d47c2fd3caa7841cd3bf5_6179364239718564238_transformed.png"
+    },
+    {
+      "game": "hsr",
+      "id": "hsr-hoyo-ann-4ac5c018f31d",
+      "title": "Game Version 4.3 Optimization and Known Issues",
+      "type": "event",
+      "start": "2026-05-31T10:00:00.000Z",
+      "end": "2026-07-14T16:00:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Honkai: Star Rail Official",
+        "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1326",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null
+    },
+    {
+      "game": "hsr",
+      "id": "hsr-hoyo-ann-c6aa3ac0bdf9",
+      "title": "\"The Lethe Below the Living\" Mission Details",
+      "type": "event",
+      "start": "2026-05-27T22:00:00.000Z",
+      "end": "2026-07-14T16:00:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Honkai: Star Rail Official",
+        "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1300",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2026/05/09/e70cce8abb60f2e88b7c46a98a34f58c_7690059804161919947_transformed.png"
+    },
+    {
+      "game": "hsr",
+      "id": "hsr-hoyo-ann-20b5d928ab90",
+      "title": "Version 4.3 New Stages",
+      "type": "event",
+      "start": "2026-05-26T00:30:00.000Z",
+      "end": "2026-07-14T16:00:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Honkai: Star Rail Official",
+        "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1303",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2026/05/09/b50230cb15d307645b21a22346a71bf0_1431103054595234634_transformed.png"
+    },
+    {
+      "game": "hsr",
+      "id": "hsr-hoyo-ann-38b45482599c",
+      "title": "Version 4.3 Nameless Honor & Store Update",
+      "type": "event",
+      "start": "2026-05-26T00:00:00.000Z",
+      "end": "2026-07-14T14:00:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Honkai: Star Rail Official",
+        "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1304",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2026/05/22/0050b6ab73613f894491fa3c8c4aa19d_3683058780696792897_transformed.png"
+    },
+    {
+      "game": "hsr",
+      "id": "hsr-hoyo-ann-9010ee891cf7",
+      "title": "Survey with Rewards — Complete this survey to receive Stellar Jade ×50~",
+      "type": "event",
+      "start": "2026-02-14T01:00:00.000Z",
+      "end": "2037-12-31T17:00:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Honkai: Star Rail Official",
+        "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1196",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2026/01/19/2d2da98cf65b177d2f0a029340dc2ee1_6236902761699923395_transformed.png"
+    },
+    {
+      "game": "hsr",
+      "id": "hsr-hoyo-ann-79ced26460fb",
+      "title": "Invitation to join Project Astro-Warp",
+      "type": "banner",
+      "start": "2023-06-05T10:00:00.000Z",
+      "end": "2028-07-27T10:00:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Honkai: Star Rail Official",
+        "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=211",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2023/04/26/44dca0d9c0454eb98cde64d547de26bc_970913154859859929.png"
+    },
+    {
+      "game": "hsr",
+      "id": "hsr-hoyo-ann-c6479511e734",
+      "title": "Honkai: Star Rail Fair Gaming Declaration",
+      "type": "event",
+      "start": "2023-04-03T10:00:00.000Z",
+      "end": "2035-06-06T16:00:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Honkai: Star Rail Official",
+        "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=186",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "https://sdk.hoyoverse.com/upload/ann/2023/04/04/bbab09d84af4bbb294dc9350fdbaf69c_6005675597601035971.png"
+    }
+  ]
+}

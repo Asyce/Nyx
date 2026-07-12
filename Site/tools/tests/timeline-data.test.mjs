@@ -151,3 +151,74 @@ test('server-fixed interval anchors land at 04:00 in each selected region', () =
   assert.equal(iso(api.expandActivity(def, start, end, 'europe')[0].start), '2025-01-03T03:00:00.000Z');
   assert.equal(iso(api.expandActivity(def, start, end, 'america')[0].start), '2025-01-03T09:00:00.000Z');
 });
+
+// ---- Workstream N: events lane --------------------------------------
+
+const NOW = Date.parse('2026-07-12T00:00:00.000Z');
+
+const rawEvents = [
+  { game:'gi', id:'gi-challenge', title:'Stygian Onslaught', type:'challenge',
+    start:'2026-07-08T09:00:00.000Z', end:'2026-08-11T02:59:00.000Z',
+    server:'europe', timezone:'UTC+01:00', source:{ name:'Genshin Impact Official', url:'https://sg-hk4e-api.hoyoverse.com/ann/1' },
+    confidence:'high', permanence:'timed', needs_review:false, image:'https://example.test/img.jpg' },
+  // Banner-type exclusion guard (review finding) — banner lanes already cover these.
+  { game:'gi', id:'gi-banner', title:'Character Event Wish', type:'banner',
+    start:'2026-07-01T00:00:00.000Z', end:'2026-07-22T00:00:00.000Z',
+    server:'europe', timezone:'UTC+01:00', source:{ name:'Genshin Impact Official', url:'https://example.test/ann/2' },
+    confidence:'high', permanence:'timed', needs_review:false, image:null },
+  // Real start, open end (until next version) — NOT needs_review.
+  { game:'gi', id:'gi-open', title:"Version Details - What's New", type:'event',
+    start:'2026-07-01T00:00:00.000Z', end:null,
+    server:'europe', timezone:'UTC+01:00', source:{ name:'Genshin Impact Official', url:'https://example.test/ann/3' },
+    confidence:'medium', permanence:'timed', needs_review:false, image:null },
+  // Undated/uncertain — the needs-review bucket.
+  { game:'wuwa', id:'wuwa-guess', title:'New Region Preview', type:'event',
+    start:null, end:null,
+    server:'global', timezone:'UTC+08:00', source:{ name:'Wuthering Waves Official', url:'https://example.test/ann/4' },
+    confidence:'low', permanence:'unknown', needs_review:true, image:null },
+];
+
+test('events lane excludes type:banner (double-display guard — banner lanes already cover those)', () => {
+  const blocks = api.buildEventBlocks(rawEvents, NOW);
+  assert.ok(!blocks.some((b) => b.id === 'gi-banner'), 'banner-type event must not appear in the events lane');
+  assert.equal(blocks.length, 3);
+});
+
+test('a dateless or needs_review event never gets a placeable date — it is bucketed, not guessed', () => {
+  const blocks = api.buildEventBlocks(rawEvents, NOW);
+  const guess = blocks.find((b) => b.id === 'wuwa-guess');
+  assert.equal(guess.needsReview, true);
+  assert.equal(guess.startMs, null, 'no invented start');
+  assert.equal(guess.endMs, null, 'no invented end');
+  const split = api.splitEventBlocks(blocks);
+  assert.deepEqual(plain(split.review.map((b) => b.id)), ['wuwa-guess']);
+  assert.deepEqual(plain(split.axis.map((b) => b.id)).sort(), ['gi-challenge', 'gi-open']);
+  assert.equal(api.eventStatus(guess, NOW), 'review');
+});
+
+test('a real start with an open (null) end renders as ongoing, extended to "now" — never a fabricated future date', () => {
+  const blocks = api.buildEventBlocks(rawEvents, NOW);
+  const open = blocks.find((b) => b.id === 'gi-open');
+  assert.equal(open.needsReview, false);
+  assert.equal(open.openEnd, true);
+  assert.equal(iso(open.startMs), '2026-07-01T00:00:00.000Z');
+  assert.ok(open.endMs >= NOW, 'open-end event is drawn at least up to "now"');
+  assert.equal(api.eventStatus(open, NOW), 'ongoing');
+});
+
+test('a fully-dated event classifies as live/upcoming/past deterministically', () => {
+  const blocks = api.buildEventBlocks(rawEvents, NOW);
+  const challenge = blocks.find((b) => b.id === 'gi-challenge');
+  assert.equal(challenge.openEnd, false);
+  assert.equal(api.eventStatus(challenge, NOW), 'live', 'NOW falls inside the challenge window');
+  assert.equal(api.eventStatus(challenge, Date.parse('2026-01-01')), 'upcoming');
+  assert.equal(api.eventStatus(challenge, Date.parse('2026-12-01')), 'past');
+});
+
+test('event blocks preserve the official post link but never carry a source-site display name', () => {
+  const blocks = api.buildEventBlocks(rawEvents, NOW);
+  const challenge = blocks.find((b) => b.id === 'gi-challenge');
+  assert.equal(challenge.sourceUrl, 'https://sg-hk4e-api.hoyoverse.com/ann/1');
+  assert.equal(challenge.image, 'https://example.test/img.jpg');
+  assert.ok(!('sourceName' in challenge) && !('source' in challenge), 'no source-site name field is carried into the display block');
+});

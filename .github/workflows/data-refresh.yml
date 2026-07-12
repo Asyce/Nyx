@@ -22,7 +22,7 @@ jobs:
     env:
       CF_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           lfs: true # Database/GameData/*/live/characters.json are LFS-tracked
 
@@ -43,7 +43,7 @@ jobs:
             fi
           done
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           node-version: '22'
 

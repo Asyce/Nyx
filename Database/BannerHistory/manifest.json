@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-11T12:06:24.231Z",
+  "generatedAt": "2026-07-12T22:41:23.377Z",
   "games": {
     "gi": {
       "count": 290,
@@ -285,8 +285,6 @@
         "maintained-wiki:2114094",
         "maintained-wiki:2115553",
         "maintained-wiki:2123992",
-        "maintained-wiki:2123999",
-        "maintained-wiki:2124004",
         "maintained-wiki:2124020",
         "maintained-wiki:2124028",
         "maintained-wiki:2124034",
@@ -300,10 +298,12 @@
         "maintained-wiki:2124607",
         "maintained-wiki:2124719",
         "maintained-wiki:2124745",
-        "maintained-wiki:2127801",
         "maintained-wiki:2127802",
         "maintained-wiki:2127803",
-        "maintained-wiki:2127804"
+        "maintained-wiki:2127804",
+        "maintained-wiki:2128496",
+        "maintained-wiki:2128530",
+        "maintained-wiki:2128531"
       ],
       "officialRevisions": [
         "official-latest:21743",
@@ -312,7 +312,7 @@
         "official-latest:21748",
         "official-latest:45076841"
       ],
-      "contentHash": "d7a5be41c944e730aaef82c632d2dc99c0a7d0eae26746f73376816cc334d2ad"
+      "contentHash": "59a8afc8e05ff7c8ed4d0465aac41c544f43ef778fa9881f72f48314edba36d5"
     },
     "hsr": {
       "count": 218,
@@ -922,9 +922,9 @@
       "contentHash": "0bb7bd4092cbe7ed4d2cf5223dc07814af9e07c2dd78643b9992a6acc2946937"
     },
     "ae": {
-      "count": 27,
+      "count": 29,
       "character": 12,
-      "weapon": 15,
+      "weapon": 17,
       "mixed": 0,
       "permanent": 6,
       "confirmed": 25,
@@ -933,8 +933,8 @@
         "end": "2026-08-09T04:00:00.000Z"
       },
       "revisions": [
-        "maintained-wiki:51716",
-        "maintained-wiki:55174"
+        "maintained-wiki:55174",
+        "maintained-wiki:55237"
       ],
       "officialRevisions": [
         "official-latest:0754",
@@ -955,7 +955,7 @@
         "official-latest:8909",
         "official-latest:9579"
       ],
-      "contentHash": "71e3425f6b88429b7e773afebbf7cfaa644025414b204e79d92132adc76ae458"
+      "contentHash": "8ca1646145f8956190a15f57a4e215d589109f9f4f9f6db83dd73a66b6675c6a"
     }
   }
 }

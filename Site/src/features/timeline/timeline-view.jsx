@@ -71,6 +71,28 @@ function nyxTlViewIcon(game, name){
   } catch (e) { return null; }
 }
 
+// Renders one game's character-banner lane onto a shared canvas. Block
+// markup/positioning lives here ONCE so the per-game BannerTimeline and the
+// hub's cross-game CrossGameBannerTimeline (nyx-0031, plan M4) never fork
+// this logic — only the data feeding it differs. `icon` is an optional game
+// icon shown beside the lane label; the per-game timeline passes none,
+// which keeps its existing "Character banners" header byte-for-byte
+// unchanged.
+function NyxBannerLane({ game, label, icon, blocks, laneCount, view, msPerPx, width, now, selected, onSelect }){
+  return <div className="ntl-lane banners" style={{ minHeight:Math.max(112, laneCount * 104) }}>
+    <b>{icon && <img src={icon} alt="" className="ntl-lane-icon" />}{label}</b>
+    {(blocks || []).map(function(block){
+      var x = nyxTlMsToX(block.startMs, view.centerMs, msPerPx, width), w = Math.max(78, (block.endMs - block.startMs) / msPerPx),
+          state = block.startMs <= now && block.endMs >= now ? ' live' : (block.endMs < now ? ' past' : ''),
+          charIcon = nyxTlViewIcon(game, block.primaryFive),
+          tag = block.expected ? 'Expected' : (state === ' live' ? 'LIVE · ' + nyxTlCountdownLabel(block.endMs - now) : block.version || 'Banner');
+      return <button type="button" key={block.id} className={'ntl-block' + state + (block.expected ? ' expected' : '') + (selected === block.id ? ' selected' : '')} title={block.expected ? 'Educated guess — dates not officially confirmed yet' : block.name} style={{ left:x, top:32 + block.lane * 100, width:w }} onClick={function(e){ e.stopPropagation(); onSelect(block); }}>
+        <span>{tag}</span><strong>{charIcon && <img src={charIcon} alt="" loading="lazy" />}{block.primaryFive || block.name}</strong>{block.weaponPrimary && <small>Weapon: {block.weaponPrimary}</small>}
+      </button>;
+    })}
+  </div>;
+}
+
 function BannerTimeline({ game, gameName }){
   var rootRef = React.useRef(null);
   var [payload, setPayload] = React.useState({ loading:true, records:[], activities:[], events:[], updated:null, error:null });
@@ -229,7 +251,7 @@ function BannerTimeline({ game, gameName }){
       {search && <div className="ntl-results" aria-live="polite">{searchGroups.slice(0, 8).map(function(group){ return <button type="button" key={group.name} onClick={function(){ var hit = blocks.blocks.find(function(block){ return block.id === group.blockIds[0]; }); if (hit) { recenter(hit.startMs); setSelected(hit.id); setSelectedEventId(null); } }}>{group.name} — {group.count} {group.count === 1 ? 'run' : 'runs'}</button>; })}</div>}
       <div className="ntl-canvas" onPointerDown={pointerDown} onWheel={function(e){ if (e.ctrlKey) { e.preventDefault(); zoomBy(e.deltaY > 0 ? -1 : 1); } else { panBy(-e.deltaX || -e.deltaY); } }}>
         <div className="ntl-ribbons">{ribbons.map(function(ribbon){ return <span key={ribbon.version} style={{ left:nyxTlMsToX(ribbon.startMs, view.centerMs, msPerPx, width), width:Math.max(28, (ribbon.endMs - ribbon.startMs) / msPerPx) }}>{ribbon.version}</span>; })}</div><div className="ntl-now" style={{ left:nyxTlMsToX(now, view.centerMs, msPerPx, width) }}><i>◆</i><span>Now</span></div>
-        {layers.banners && <div className="ntl-lane banners" style={{ minHeight:Math.max(112, blocks.laneCount * 104) }}><b>Character banners</b>{visibleMatches.map(function(block){ var x = nyxTlMsToX(block.startMs, view.centerMs, msPerPx, width), w = Math.max(78, (block.endMs - block.startMs) / msPerPx), state = block.startMs <= now && block.endMs >= now ? ' live' : (block.endMs < now ? ' past' : ''), icon = nyxTlViewIcon(game, block.primaryFive), tag = block.expected ? 'Expected' : (state === ' live' ? 'LIVE · ' + nyxTlCountdownLabel(block.endMs - now) : block.version || 'Banner'); return <button type="button" key={block.id} className={'ntl-block' + state + (block.expected ? ' expected' : '') + (selected === block.id ? ' selected' : '')} title={block.expected ? 'Educated guess — dates not officially confirmed yet' : block.name} style={{ left:x, top:32 + block.lane * 100, width:w }} onClick={function(e){ e.stopPropagation(); setSelected(block.id); setSelectedEventId(null); }}><span>{tag}</span><strong>{icon && <img src={icon} alt="" loading="lazy" />}{block.primaryFive || block.name}</strong>{block.weaponPrimary && <small>Weapon: {block.weaponPrimary}</small>}</button>; })}</div>}
+        {layers.banners && <NyxBannerLane game={game} label="Character banners" blocks={visibleMatches} laneCount={blocks.laneCount} view={view} msPerPx={msPerPx} width={width} now={now} selected={selected} onSelect={function(block){ setSelected(block.id); setSelectedEventId(null); }} />}
         {layers.events && <div className="ntl-lane events" style={{ minHeight:Math.max(112, eventAxisLayout.laneCount * 104) }}><b>Events</b>{visibleEvents.map(function(block){ var x = nyxTlMsToX(block.startMs, view.centerMs, msPerPx, width), w = Math.max(78, (block.endMs - block.startMs) / msPerPx), status = nyxTlEventStatus(block, now), remaining = block.endMs - now, tag = status === 'live' ? (remaining > 60 * NYX_TL_DAY_MS ? 'LIVE' : 'LIVE · ' + nyxTlCountdownLabel(remaining)) : status === 'ongoing' ? 'Ongoing' : status === 'upcoming' ? 'Upcoming' : 'Ended'; return <button type="button" key={block.id} className={'ntl-block event ' + status + (selectedEventId === block.id ? ' selected' : '')} title={block.title} style={{ left:x, top:32 + block.lane * 100, width:w }} onClick={function(e){ e.stopPropagation(); selectEvent(block.id); }}><span>{tag}</span><strong>{block.image && <img src={block.image} alt="" loading="lazy" />}{block.title}</strong></button>; })}</div>}
         {layers.activities && <div className="ntl-lane activities" style={{ minHeight:Math.max(58, 30 + activityLayout.laneCount * 26) }}><b>Activities</b>{activityLayout.blocks.map(function(activity){ return <a key={activity.id} className="ntl-activity" href={activity.sourceUrl || undefined} target={activity.sourceUrl ? '_blank' : undefined} rel="noreferrer" title={activity.label} style={{ left:nyxTlMsToX(activity.start, view.centerMs, msPerPx, width), top:23 + activity.lane * 26, width:Math.max(12, (activity.end - activity.start) / msPerPx) }}>{activity.label}</a>; })}</div>}
         {layers.custom && <div className="ntl-lane custom" style={{ minHeight:Math.max(58, 30 + markerLayout.laneCount * 31) }}><b>Custom planning</b>{markerLayout.blocks.map(function(marker){ var w = Math.max(NYX_TL_MARKER_MIN_PX, (marker.end - marker.start) / msPerPx); return <span key={marker.id} className={'ntl-marker' + (marker.timer.enabled === false ? ' off' : '')} title={marker.label} style={{ left:nyxTlMsToX(marker.start, view.centerMs, msPerPx, width), top:23 + marker.lane * 31, width:w, borderColor:marker.color, color:marker.color }}><button type="button" className="ntl-marker-label" title="Edit marker" onClick={function(){ editTimer(marker.timer); }}>{marker.label}</button><button type="button" className="ntl-marker-toggle" aria-pressed={marker.timer.enabled !== false} title={marker.timer.enabled === false ? 'Enable marker' : 'Disable marker'} onClick={function(){ toggleTimer(marker.timer.id); }}>{marker.timer.enabled === false ? '○' : '●'}</button><button type="button" className="ntl-marker-del" aria-label={'Remove ' + marker.label} title="Remove marker" onClick={function(){ deleteTimer(marker.timer.id); }}>×</button></span>; })}</div>}
@@ -240,5 +262,129 @@ function BannerTimeline({ game, gameName }){
       </div>}
       <div className="ntl-detail">{selectedEventBlock ? <><div><span>{(selectedEventBlock.type || 'event')} · {selectedEventBlock.server || 'server unavailable'}</span><h2>{selectedEventBlock.title}</h2><p>{selectedEventBlock.needsReview ? 'Expected — dates not officially confirmed yet' : (nyxTlViewDate(selectedEventBlock.startMs) + ' – ' + (selectedEventBlock.openEnd ? 'ongoing (until the next update)' : nyxTlViewDate(selectedEventBlock.endMs)))}</p></div><div><b>Status</b><p>{{ review:'Needs review', ongoing:'Ongoing', live:'Live now', upcoming:'Upcoming', past:'Ended' }[nyxTlEventStatus(selectedEventBlock, now)]}</p>{selectedEventBlock.sourceUrl && <a href={selectedEventBlock.sourceUrl} target="_blank" rel="noreferrer">Source</a>}</div></> : selectedBlock ? <><div><span>{selectedBlock.version || 'Banner'} · {selectedBlock.region || 'time unavailable'}</span><h2>{selectedBlock.primaryFive || selectedBlock.name}</h2><p>{nyxTlViewDate(selectedBlock.startMs, selectedBlock.dateOnly)} – {nyxTlViewDate(selectedBlock.endMs, selectedBlock.dateOnly)} · {nyxTlViewDuration(selectedBlock.startMs, selectedBlock.endMs)}</p></div><div><b>Featured</b><p>{selectedBlock.searchNames.join(', ') || 'No featured names published.'}</p>{selectedBlock.weaponNames.length > 0 && <p><b>Paired weapon:</b> {selectedBlock.weaponNames.join(', ')}</p>}{selectedBlock.sourceUrl && <a href={selectedBlock.sourceUrl} target="_blank" rel="noreferrer">Source</a>}</div></> : <p>Select a banner run or event for its dates and source link.</p>}</div>
     </>}
+  </section>;
+}
+
+// ============================================================
+// Cross-game banner timeline (nyx-0031, plan M4) — the hub's "Banners" tab.
+// All configured games' banner lanes stacked on ONE shared time axis. Reuses
+// the exact same pure axis/lane maths as the per-game BannerTimeline
+// (nyxTlMsToX/xToMs, NYX_TL_ZOOM_LEVELS, nyxTlBuildBlocks, nyxTlAssignSubLanes,
+// nyxTlVisibleBlocks, nyxTlSearchMatch) and the shared NyxBannerLane renderer
+// above — nothing about pan/zoom/region/lane logic is forked here.
+//
+// Deliberately BANNER LANES ONLY. A cross-game EVENTS lane belongs here per
+// the plan but depends on Workstream N's events pipeline, which is still
+// under review in another batch — see the stub placeholder in the JSX below.
+// This view never fetches /data/events/* or /data/activities/*.
+//
+// `games` is an explicit prop (e.g. SIM_GAMES: [{key,name,icon}]) rather than
+// a baked-in list, so the component stays parameterized per plan M4.
+function CrossGameBannerTimeline({ games }){
+  var rootRef = React.useRef(null);
+  var list = Array.isArray(games) ? games : [];
+  var listKey = list.map(function(g){ return g.key; }).join(',');
+  var [now, setNow] = React.useState(Date.now());
+  var [view, setView] = React.useState({ centerMs:Date.now(), zoom:NYX_TL_DEFAULT_ZOOM });
+  var [width, setWidth] = React.useState(1000);
+  var [search, setSearch] = React.useState('');
+  var [selected, setSelected] = React.useState(null); // { gameKey, blockId }
+  var [region, setRegion] = React.useState(function(){ return (typeof loadResetRegion === 'function' ? loadResetRegion('nyx') : 'na'); });
+  var [jumpDate, setJumpDate] = React.useState('');
+  var [perGame, setPerGame] = React.useState(function(){
+    var init = {};
+    list.forEach(function(g){ init[g.key] = { loading:true, records:[], updated:null, error:null }; });
+    return init;
+  });
+
+  React.useEffect(function(){ return (typeof subscribeResetRegion === 'function') ? subscribeResetRegion('nyx', setRegion) : undefined; }, []);
+  React.useEffect(function(){
+    var controller = new AbortController();
+    setPerGame(function(){
+      var init = {};
+      list.forEach(function(g){ init[g.key] = { loading:true, records:[], updated:null, error:null }; });
+      return init;
+    });
+    list.forEach(function(g){
+      fetch('/data/banner-history/' + g.key + '.json', { signal:controller.signal, credentials:'same-origin' })
+        .then(function(r){ if (!r.ok) throw new Error('Banner history returned ' + r.status); return r.json(); })
+        .then(function(history){
+          if (!Array.isArray(history.records)) throw new Error('Banner history is invalid');
+          setPerGame(function(old){ var next = Object.assign({}, old); next[g.key] = { loading:false, records:history.records, updated:history.generatedAt || history.dataTimestamp || null, error:null }; return next; });
+        })
+        // Fail soft per game — one broken/missing feed degrades to an empty
+        // lane for that game only, never blanks the whole cross-game view.
+        .catch(function(error){
+          if (error.name === 'AbortError') return;
+          setPerGame(function(old){ var next = Object.assign({}, old); next[g.key] = { loading:false, records:[], updated:null, error:error.message || 'Could not load.' }; return next; });
+        });
+    });
+    return function(){ controller.abort(); };
+  }, [listKey]);
+  React.useEffect(function(){ var id = setInterval(function(){ setNow(Date.now()); }, 1000); return function(){ clearInterval(id); }; }, []);
+  React.useEffect(function(){
+    var el = rootRef.current; if (!el || !window.ResizeObserver) return undefined;
+    var observer = new ResizeObserver(function(){ setWidth(Math.max(320, el.clientWidth || 320)); }); observer.observe(el); setWidth(Math.max(320, el.clientWidth || 320));
+    return function(){ observer.disconnect(); };
+  }, []);
+
+  var regionKey = nyxTlRegionKey(region);
+  var msPerPx = NYX_TL_ZOOM_LEVELS[view.zoom];
+
+  var gameLanes = list.map(function(g){
+    var state = perGame[g.key] || { loading:true, records:[], updated:null, error:null };
+    var built = nyxTlBuildBlocks(state.records, regionKey);
+    var laned = nyxTlAssignSubLanes(built, NYX_TL_BLOCK_MIN_PX * msPerPx);
+    var visible = nyxTlVisibleBlocks(laned.blocks, view.centerMs, msPerPx, width, 600);
+    var matches = search ? visible.filter(function(block){ return nyxTlSearchMatch(block, search).match; }) : visible;
+    return { game:g, state:state, laneCount:laned.laneCount, allBlocks:laned.blocks, blocks:matches };
+  });
+  var anyLoading = gameLanes.some(function(gl){ return gl.state.loading; });
+
+  var selectedBlock = null, selectedGame = null;
+  if (selected) {
+    for (var i = 0; i < gameLanes.length; i++) {
+      if (gameLanes[i].game.key !== selected.gameKey) continue;
+      var hit = gameLanes[i].allBlocks.find(function(b){ return b.id === selected.blockId; });
+      if (hit) { selectedBlock = hit; selectedGame = gameLanes[i].game; }
+      break;
+    }
+  }
+
+  function recenter(centerMs){ setView(function(old){ return { centerMs:centerMs, zoom:old.zoom }; }); }
+  function panBy(px){ setView(function(old){ return { centerMs:old.centerMs - px * NYX_TL_ZOOM_LEVELS[old.zoom], zoom:old.zoom }; }); }
+  function zoomBy(delta){ setView(function(old){ return { centerMs:old.centerMs, zoom:Math.max(0, Math.min(NYX_TL_ZOOM_LEVELS.length - 1, old.zoom + delta)) }; }); }
+  function pointerDown(event){
+    var startX = event.clientX, startCenter = view.centerMs;
+    function move(e){ setView(function(old){ return { centerMs:startCenter - (e.clientX - startX) * NYX_TL_ZOOM_LEVELS[old.zoom], zoom:old.zoom }; }); }
+    function up(){ window.removeEventListener('pointermove', move); window.removeEventListener('pointerup', up); }
+    window.addEventListener('pointermove', move); window.addEventListener('pointerup', up);
+  }
+
+  return <section className="ntl ntl-xgame" ref={rootRef} aria-label="Cross-game banner timeline">
+    <header className="ntl-head"><div><span className="eyebrow">Banner history</span><h1>All Games Timeline</h1></div></header>
+    <div className="ntl-tools">
+      <label className="ntl-search"><span>Search all banners</span><input type="search" value={search} onChange={function(e){ setSearch(e.target.value); }} placeholder="Character or weapon" /></label>
+      <div className="ntl-regions" aria-label="Banner server region">{['na','eu','asia'].map(function(key){ return <button type="button" key={key} className={region === key ? 'on' : ''} aria-pressed={region === key} onClick={function(){ setRegion(key); if (typeof saveResetRegion === 'function') saveResetRegion('nyx', key); }}>{RESET_REGIONS[key].short}</button>; })}</div>
+      <button type="button" onClick={function(){ recenter(Date.now()); }}>Today</button><label className="ntl-jump"><span>Jump to date</span><input type="date" value={jumpDate} onChange={function(e){ setJumpDate(e.target.value); var at = Date.parse(e.target.value + 'T12:00:00'); if (Number.isFinite(at)) recenter(at); }} /></label><button type="button" aria-label="Zoom out" onClick={function(){ zoomBy(-1); }}>−</button><button type="button" aria-label="Zoom in" onClick={function(){ zoomBy(1); }}>+</button>
+    </div>
+    {anyLoading && <div className="ntl-status" role="status">Loading complete banner history…</div>}
+    <div className="ntl-canvas" onPointerDown={pointerDown} onWheel={function(e){ if (e.ctrlKey) { e.preventDefault(); zoomBy(e.deltaY > 0 ? -1 : 1); } else { panBy(-e.deltaX || -e.deltaY); } }}>
+      <div className="ntl-now" style={{ left:nyxTlMsToX(now, view.centerMs, msPerPx, width) }}><i>◆</i><span>Now</span></div>
+      {gameLanes.map(function(gl){
+        return gl.state.error
+          ? <div className="ntl-lane banners" key={gl.game.key} style={{ minHeight:112 }}><b>{gl.game.icon && <img src={gl.game.icon} alt="" className="ntl-lane-icon" />}{gl.game.name}</b><div className="ntl-xgame-error">{gl.game.name}: {gl.state.error}</div></div>
+          : <NyxBannerLane key={gl.game.key} game={gl.game.key} label={gl.game.name} icon={gl.game.icon} blocks={gl.blocks} laneCount={gl.laneCount} view={view} msPerPx={msPerPx} width={width} now={now} selected={selected && selected.gameKey === gl.game.key ? selected.blockId : null} onSelect={function(block){ setSelected({ gameKey:gl.game.key, blockId:block.id }); }} />;
+      })}
+    </div>
+    {/* Cross-game EVENTS lane intentionally deferred (nyx-0031 / plan M4):
+        it depends on Workstream N's events pipeline, which is still under
+        review in another batch. Drop a stacked events-lane-per-game
+        composition (reusing the same nyxTlBuildEventBlocks/nyxTlSplitEventBlocks
+        pure helpers already used by BannerTimeline's per-game events lane)
+        in the stub below once that lands. Do NOT fetch /data/events/* here
+        until then. */}
+    <div className="ntl-xgame-events-stub" role="note">Cross-game events timeline — coming soon</div>
+    <div className="ntl-detail">{selectedBlock ? <><div><span>{selectedGame.name} · {selectedBlock.version || 'Banner'} · {selectedBlock.region || 'time unavailable'}</span><h2>{selectedBlock.primaryFive || selectedBlock.name}</h2><p>{nyxTlViewDate(selectedBlock.startMs, selectedBlock.dateOnly)} – {nyxTlViewDate(selectedBlock.endMs, selectedBlock.dateOnly)} · {nyxTlViewDuration(selectedBlock.startMs, selectedBlock.endMs)}</p></div><div><b>Featured</b><p>{selectedBlock.searchNames.join(', ') || 'No featured names published.'}</p>{selectedBlock.weaponNames.length > 0 && <p><b>Paired weapon:</b> {selectedBlock.weaponNames.join(', ')}</p>}{selectedBlock.sourceUrl && <a href={selectedBlock.sourceUrl} target="_blank" rel="noreferrer">Source</a>}</div></> : <p>Select a banner run for its dates and source link.</p>}</div>
   </section>;
 }

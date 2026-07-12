@@ -3796,6 +3796,11 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .ntl-marker .ntl-marker-del{ font-size:13px; }
 .gp-reset-tile.custom.off{ opacity:.55; }
 .gp-reset-tile.custom button[aria-pressed]{ right:33px; opacity:.8; }
+
+/* Batch 16 (nyx-0031) — hub cross-game banner timeline */
+.ntl-lane>b .ntl-lane-icon,.ntl-lane>b img.ntl-lane-icon{ width:16px; height:16px; margin-right:6px; border-radius:50%; object-fit:cover; vertical-align:middle; }
+.ntl-xgame-error{ padding:34px 10px; text-align:center; color:#ffb1bf; font-size:12px; }
+.ntl-xgame-events-stub{ margin-top:14px; padding:12px 14px; border:1px dashed rgba(192,174,255,.28); border-radius:10px; background:rgba(24,17,44,.5); color:#8f84ad; font-size:11px; text-align:center; letter-spacing:.03em; }
 .gt-pity-observatory{ grid-area:pity; }
 .gt-ledger-line{ display:grid; grid-template-columns:repeat(3, minmax(0,1fr)); gap:7px; }
 .gt-ledger-line div{ min-width:0; border-radius:9px; padding:9px 8px; background:rgba(8,6,22,.55);

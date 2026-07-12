@@ -1737,66 +1737,6 @@ function AllCodesView(){
   );
 }
 
-function AllBannersView(){
-  const now = useNowTick(1000);
-  // Shares the persisted region with the overview reset panel, so picking a
-  // server here and there stays consistent.
-  const [regionKey, setRegionKey] = React.useState(() => loadResetRegion('nyx'));
-  React.useEffect(() => subscribeResetRegion('nyx', setRegionKey), []);
-  const pickRegion = (key) => {
-    if (!RESET_REGIONS[key]) return;
-    setRegionKey(key);
-    saveResetRegion('nyx', key);
-  };
-  const region = RESET_REGIONS[regionKey] || RESET_REGIONS[DEFAULT_RESET_REGION];
-  const updated = window.NYX_DB && window.NYX_DB.banners && window.NYX_DB.banners.updated;
-  const groups = React.useMemo(() => SIM_GAMES.map((g) => ({
-    game:g,
-    cards:gameBannerCards(GAME_REGISTRY[g.key], g),
-    fresh:bannerFreshness(g.key),
-  })), []);
-  return (
-    <div style={{ minWidth:0, minHeight:0, display:'flex', flexDirection:'column' }}>
-      <div className="sim-banhd">
-        <GPSec title="All Banners" style={{ flex:1, minWidth:0 }} />
-        <div className="sim-regions">
-          {['eu','na','asia'].map((key) => (
-            <button type="button" key={key} className={regionKey === key ? 'on' : ''} onClick={() => pickRegion(key)}>
-              {RESET_REGIONS[key].short}
-            </button>
-          ))}
-        </div>
-        <div className="sim-resets">
-          <div className="rs"><span className="k">Daily reset</span><span className="v">{durationParts(nextDailyReset(now, region) - now)}</span></div>
-          <div className="rs"><span className="k">Weekly reset</span><span className="v">{durationParts(nextWeeklyReset(now, region) - now)}</span></div>
-        </div>
-      </div>
-      {updated && <span className="sim-updated" style={{ marginTop:'-8px', marginBottom:'10px' }}>Banner data updated {formatUpdated(updated)}</span>}
-      <div className="gp-codes-scroll" style={{ flex:1, minHeight:0, gap:'26px' }}>
-        {groups.map(({ game:g, cards, fresh }) => (
-          <section key={g.key} className="sim-bangroup" aria-label={g.name + ' banners'}>
-            <div className="sim-grouphd">
-              <img src={g.icon} alt="" />
-              <span className="gn">{g.name}</span>
-              <span className="rule"></span>
-            </div>
-            <BannerFreshnessNote fresh={fresh} />
-            {cards.length
-              ? <div className="gp-current-banner-row">
-                  {cards.map((card) => (
-                    <div className="gp-current-banner-cell" key={card.key}>
-                      <BannerPhaseCard card={card} now={now} />
-                    </div>
-                  ))}
-                </div>
-              : <div className="gp-oban-empty">No confirmed banners right now.</div>}
-          </section>
-        ))}
-      </div>
-    </div>
-  );
-}
-
 /* J: Monsters/Items ship as lazy per-game packs; loaded when the Database tab
    opens (same script-injection pattern as the beta packs). */
 const NYX_DB_EXTRA_FILES = {
@@ -3557,7 +3497,7 @@ function SimContent({ tab, setTab, onOpenMaterial, settings, setSettings }){
       {tab === 'calendar' && <main className="gp-main-pane fill"><BirthdayCalendar onOpenMaterial={onOpenMaterial} /></main>}
       {tab === 'pulls' && <main className="gp-main-pane fill"><PullsOverview /></main>}
       {tab === 'codes' && <main className="gp-main-pane fill"><AllCodesView /></main>}
-      {tab === 'banners' && <main className="gp-main-pane fill"><AllBannersView /></main>}
+      {tab === 'banners' && <main className="gp-main-pane fill"><CrossGameBannerTimeline games={SIM_GAMES} /></main>}
       {tab === 'settings' && <SettingsPane settings={settings} setSettings={setSettings} />}
       {tab === 'overview' && <OverviewAside cfg={NYX_META} />}
     </div>

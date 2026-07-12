@@ -5,7 +5,7 @@
 // Contract (Sonnet's UI depends on this exact per-event shape):
 //   { game, id, title, type, start, end, server, timezone,
 //     source: { name, url, priority }, confidence, permanence,
-//     needs_review, image }
+//     needs_review, image, description }
 //   type      ∈ event | banner | web_event | login | challenge | shop | permanent
 //   confidence∈ high | medium | low
 //   permanence∈ permanent | timed | unknown
@@ -38,6 +38,16 @@ export function stripTags(html = '') {
 export function cleanTitle(value = '') {
   // Announcement titles sometimes arrive wrapped in <p> markup (ZZZ) or with quotes.
   return stripTags(value).replace(/\s+/g, ' ').trim();
+}
+
+export function descriptionSnippet(value = '', maxLength = 240) {
+  if (value === null || value === undefined) return null;
+  const text = stripTags(decodeEntities(String(value))).replace(/[<>]/g, ' ').replace(/\s+/g, ' ').replace(/\s+([.,!?;:])/g, '$1').trim();
+  const limit = Math.max(40, Math.min(240, Number(maxLength) || 240));
+  if (!text) return null;
+  if (text.length <= limit) return text;
+  const clipped = text.slice(0, limit - 1).replace(/\s+\S*$/, '').trim();
+  return `${clipped || text.slice(0, limit - 1)}…`;
 }
 
 export function normalizeTitle(value = '') {
@@ -111,7 +121,10 @@ export function parseEndfieldAvailability(html, offset = '+08:00') {
   const text = stripTags(html);
   const idx = text.search(/Availability\s*[:：]/i);
   if (idx < 0) return { start: null, end: null };
-  const scope = text.slice(idx, idx + 220);
+  const tail = text.slice(idx, idx + 500);
+  const afterHeader = tail.replace(/^.*?Availability\s*[:：]\s*/i, '');
+  const boundary = afterHeader.search(/(?:[✦◆【〖「『]\s*(?:Eligibility|Requirements?|Rewards?|Details|Rules?|Notes?|Description|Content|Schedule)\s*[✦◆】〗」』]|\b(?:Eligibility|Requirements?|Rewards?|Details|Rules?|Notes?|Description|Content|Schedule)\s*[:：])/i);
+  const scope = boundary >= 0 ? afterHeader.slice(0, boundary) : afterHeader.slice(0, 220);
   const starts = [...scope.matchAll(/(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},?\s+20\d{2}(?:\s+(?:at|,)\s+\d{1,2}:\d{2})?/gi)].map((m) => monthNameToIso(m[0], offset)).filter(Boolean);
   const numeric = [...scope.matchAll(/(\d{4}[-/]\d{1,2}[-/]\d{1,2}\s+\d{1,2}:\d{2})/g)].map((m) => toIso(m[1], offset)).filter(Boolean);
   const dates = [...starts, ...numeric].sort();
@@ -126,6 +139,22 @@ export function parseDateRange(text, offset = '+00:00') {
   const clean = stripTags(text);
   const dates = [...clean.matchAll(/(\d{4}[-/]\d{1,2}[-/]\d{1,2}\s+\d{1,2}:\d{2}(?::\d{2})?)/g)].map((m) => toIso(m[1], offset)).filter(Boolean);
   return { start: dates[0] || null, end: dates[1] || null };
+}
+
+// Parse a date pair only from a named duration/availability section. The scope
+// ends at the next common section heading so reward, maintenance, publication,
+// and unrelated schedule dates elsewhere in the article can never be promoted
+// to the event window.
+export function parseScopedDateRange(html, offset = '+00:00', headings = ['Duration', 'Event Duration', 'Event Period', 'Availability']) {
+  const text = stripTags(html);
+  const escaped = headings.map((h) => h.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|');
+  const header = new RegExp(`\\b(?:${escaped})\\s*(?:[:：]|[✦】』」◆])`, 'i');
+  const match = header.exec(text);
+  if (!match) return { start: null, end: null };
+  const tail = text.slice(match.index + match[0].length);
+  const boundary = tail.search(/(?:[✦◆【〖「『]\s*(?:Eligibility|Requirements?|Rewards?|How to Participate|Event Details|Details|Rules?|Notes?|Description|Content|Schedule)\s*[✦◆】〗」』]|\b(?:Eligibility|Requirements?|Rewards?|How to Participate|Event Details|Details|Rules?|Notes?|Description|Content|Schedule)\s*[:：])/i);
+  const scope = (boundary >= 0 ? tail.slice(0, boundary) : tail.slice(0, 360));
+  return parseDateRange(scope, offset);
 }
 
 // ---- classification (deterministic keyword map) ----
@@ -152,7 +181,7 @@ export function stableEventId(game, sourceKey, nativeId) {
 }
 
 // Build one normalized event from the pieces a parser has extracted.
-export function makeEvent({ game, sourceKey, nativeId, title, typeLabel, start, end, permanent = false, server, timezone, sourceName, sourceUrl, priority = 1, image = null, dateSource = 'content' }) {
+export function makeEvent({ game, sourceKey, nativeId, title, typeLabel, start, end, permanent = false, server, timezone, sourceName, sourceUrl, priority = 1, image = null, description = null, dateSource = 'content' }) {
   const cleanedTitle = cleanTitle(title);
   const type = classifyType(cleanedTitle, { permanent, typeLabel });
   // Defense-in-depth: a reversed/degenerate range is a bad parse — drop the end so the
@@ -185,6 +214,7 @@ export function makeEvent({ game, sourceKey, nativeId, title, typeLabel, start, 
     permanence,
     needs_review,
     image: image || null,
+    description: descriptionSnippet(description),
   };
 }
 
@@ -231,6 +261,22 @@ export function mergeById(previousEvents = [], freshEvents = []) {
   return [...byId.values()].sort((a, b) => (b.start || '').localeCompare(a.start || '') || a.id.localeCompare(b.id));
 }
 
+
+// Reconcile a complete successful source snapshot. Fresh rows win. An absent
+// previous row is retained only when it has a verified end in the past, which
+// preserves genuine history while allowing corrected parsers to remove false,
+// undated, current, or future rows. Callers must NOT use this on an outage or
+// anomaly; mergeById is the non-destructive carry-forward path for those cases.
+export function reconcileById(previousEvents = [], freshEvents = [], now = Date.now(), retainPrevious = () => true) {
+  const freshIds = new Set(freshEvents.map((ev) => ev.id));
+  const history = previousEvents.filter((ev) => {
+    if (freshIds.has(ev.id)) return false;
+    const end = ev?.end ? Date.parse(ev.end) : NaN;
+    return Number.isFinite(end) && end < now && retainPrevious(ev);
+  });
+  return mergeById(history, freshEvents);
+}
+
 // ---- validation (mirrors validate-data.cjs style) ----
 export function validateEvent(ev) {
   const errs = [];
@@ -240,6 +286,7 @@ export function validateEvent(ev) {
   if (!CONFIDENCE.has(ev?.confidence)) errs.push(`bad confidence ${ev?.confidence} (${ev?.id})`);
   if (!PERMANENCE.has(ev?.permanence)) errs.push(`bad permanence ${ev?.permanence} (${ev?.id})`);
   if (typeof ev?.needs_review !== 'boolean') errs.push(`needs_review not bool (${ev?.id})`);
+  if (ev?.description !== null && ev?.description !== undefined && (typeof ev.description !== 'string' || ev.description.length > 240 || /[<>]/.test(ev.description))) errs.push(`bad description (${ev?.id})`);
   if (!ev?.source?.name || !ev?.source?.url || typeof ev?.source?.priority !== 'number') errs.push(`bad source (${ev?.id})`);
   for (const bound of ['start', 'end']) {
     if (ev?.[bound] !== null && !Number.isFinite(Date.parse(ev?.[bound]))) errs.push(`bad ${bound} ${ev?.[bound]} (${ev?.id})`);

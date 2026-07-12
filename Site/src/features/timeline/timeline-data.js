@@ -601,6 +601,7 @@ function nyxTlEventBlockFromRecord(e, now){
   var block = {
     id: e.id, game: e.game || null, title: e.title || 'Event', type: e.type || 'event',
     image: e.image || null,
+    description: typeof e.description === 'string' ? e.description : null,
     sourceUrl: (e.source && e.source.url) || null,
     server: e.server || null, timezone: e.timezone || null,
     confidence: e.confidence || null, permanence: e.permanence || null,
@@ -697,6 +698,37 @@ function nyxTlSearchGroups(blocks, query){
   for (var key in map) if (Object.prototype.hasOwnProperty.call(map, key)) arr.push(map[key]);
   arr.sort(function(a, b){ return b.count - a.count || (a.name < b.name ? -1 : 1); });
   return arr;
+}
+
+// Full-history cross-game banner matches. Callers render these as explicit
+// results; choosing one can recenter the shared axis even when the block is
+// far outside the current virtualized viewport.
+function nyxTlCrossGameBannerSearch(gameLanes, query){
+  var out = [];
+  for (var i = 0; i < (gameLanes || []).length; i++) {
+    var lane = gameLanes[i] || {};
+    for (var j = 0; j < (lane.allBlocks || []).length; j++) {
+      var block = lane.allBlocks[j];
+      var match = nyxTlSearchMatch(block, query);
+      if (!match.match) continue;
+      out.push({ gameKey:lane.gameKey, gameName:lane.gameName, blockId:block.id, name:match.names.join(', '), startMs:block.startMs });
+    }
+  }
+  out.sort(function(a, b){ return b.startMs - a.startMs || String(a.gameName).localeCompare(String(b.gameName)); });
+  return out;
+}
+
+// Build/split the five event feeds without coupling pure timeline maths to
+// React. `feeds` is keyed by the UI game key (Endfield = ae).
+function nyxTlGroupEventsByGame(feeds, games, now){
+  var out = [];
+  for (var i = 0; i < (games || []).length; i++) {
+    var game = games[i];
+    var blocks = nyxTlBuildEventBlocks((feeds && feeds[game.key]) || [], now);
+    var split = nyxTlSplitEventBlocks(blocks);
+    out.push({ gameKey:game.key, gameName:game.name, axis:split.axis, review:split.review, allBlocks:blocks });
+  }
+  return out;
 }
 
 // ---- Share hash (view state <-> URL hash) ----------------------------
@@ -801,6 +833,8 @@ if (typeof window !== 'undefined') {
     eventStatus: nyxTlEventStatus,
     searchMatch: nyxTlSearchMatch,
     searchGroups: nyxTlSearchGroups,
+    crossGameBannerSearch: nyxTlCrossGameBannerSearch,
+    groupEventsByGame: nyxTlGroupEventsByGame,
     encodeHash: nyxTlEncodeHash,
     decodeHash: nyxTlDecodeHash,
     msToX: nyxTlMsToX,

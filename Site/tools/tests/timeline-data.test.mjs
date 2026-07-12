@@ -5,6 +5,8 @@ import test from 'node:test';
 import vm from 'node:vm';
 
 const source = await readFile(path.resolve(import.meta.dirname, '../../src/features/timeline/timeline-data.js'), 'utf8');
+const viewSource = await readFile(path.resolve(import.meta.dirname, '../../src/features/timeline/timeline-view.jsx'), 'utf8');
+const appSource = await readFile(path.resolve(import.meta.dirname, '../../src/app/nyx-app.jsx'), 'utf8');
 const sandbox = { window:{} };
 vm.createContext(sandbox);
 vm.runInContext(source, sandbox);
@@ -160,7 +162,7 @@ const rawEvents = [
   { game:'gi', id:'gi-challenge', title:'Stygian Onslaught', type:'challenge',
     start:'2026-07-08T09:00:00.000Z', end:'2026-08-11T02:59:00.000Z',
     server:'europe', timezone:'UTC+01:00', source:{ name:'Genshin Impact Official', url:'https://sg-hk4e-api.hoyoverse.com/ann/1' },
-    confidence:'high', permanence:'timed', needs_review:false, image:'https://example.test/img.jpg' },
+    confidence:'high', permanence:'timed', needs_review:false, image:'https://example.test/img.jpg', description:'Official challenge details.' },
   // Banner-type exclusion guard (review finding) — banner lanes already cover these.
   { game:'gi', id:'gi-banner', title:'Character Event Wish', type:'banner',
     start:'2026-07-01T00:00:00.000Z', end:'2026-07-22T00:00:00.000Z',
@@ -220,5 +222,44 @@ test('event blocks preserve the official post link but never carry a source-site
   const challenge = blocks.find((b) => b.id === 'gi-challenge');
   assert.equal(challenge.sourceUrl, 'https://sg-hk4e-api.hoyoverse.com/ann/1');
   assert.equal(challenge.image, 'https://example.test/img.jpg');
+  assert.equal(challenge.description, 'Official challenge details.');
   assert.ok(!('sourceName' in challenge) && !('source' in challenge), 'no source-site name field is carried into the display block');
+});
+
+test('per-game and cross-game event detail cards render the plain description field as React text', () => {
+  assert.match(viewSource, /selectedEventBlock\.description\s*&&\s*<p>\{selectedEventBlock\.description\}<\/p>/);
+  assert.match(viewSource, /selectedBlock\.description&&<p>\{selectedBlock\.description\}<\/p>/);
+  assert.doesNotMatch(viewSource, /dangerouslySetInnerHTML/);
+  assert.doesNotMatch(viewSource, /Â·/, 'timeline labels must not render a mojibake separator');
+});
+
+test('the All Events hub tab is present in both route maps and the Nyx valid-tab list', () => {
+  assert.match(appSource, /NYX_TAB_TO_ROUTE\s*=\s*\{[\s\S]*?events:'events'/);
+  assert.match(appSource, /ROUTE_TO_NYX_TAB\s*=\s*\{[\s\S]*?events:'events'/);
+  assert.match(appSource, /\['overview','characters','calendar','pulls','codes','banners','events','settings'\]/);
+});
+
+test('cross-game banner search scans full history, including off-screen runs', () => {
+  const farPast = { id:'old', startMs:Date.parse('2020-01-01'), endMs:Date.parse('2020-01-20'), searchNames:['Aster'], name:'Aster', weaponNames:[] };
+  const lanes = [{ gameKey:'gi', gameName:'Genshin Impact', allBlocks:[farPast] }, { gameKey:'hsr', gameName:'Honkai: Star Rail', allBlocks:[] }];
+  const visible = api.visibleBlocks([farPast], Date.parse('2026-07-12'), api.ZOOM_LEVELS[api.DEFAULT_ZOOM], 1000, 600);
+  assert.equal(visible.length, 0, 'fixture is outside the viewport');
+  const results = plain(api.crossGameBannerSearch(lanes, 'aster'));
+  assert.deepEqual(results, [{ gameKey:'gi', gameName:'Genshin Impact', blockId:'old', name:'Aster', startMs:Date.parse('2020-01-01') }]);
+});
+
+test('cross-game event grouping keeps all five games separate and excludes banner events', () => {
+  const games = [
+    { key:'gi', name:'Genshin Impact' }, { key:'hsr', name:'Honkai: Star Rail' },
+    { key:'zzz', name:'Zenless Zone Zero' }, { key:'wuwa', name:'Wuthering Waves' }, { key:'ae', name:'Arknights: Endfield' },
+  ];
+  const feeds = {};
+  games.forEach((game, index) => { feeds[game.key] = [
+    { game:game.key === 'ae' ? 'endfield' : game.key, id:game.key + '-event', title:game.name + ' Event', type:'event', start:'2026-07-01T00:00:00.000Z', end:'2026-07-20T00:00:00.000Z', needs_review:false, source:{ url:'https://example.test/' + index } },
+    { game:game.key, id:game.key + '-banner', title:'Banner', type:'banner', start:'2026-07-01T00:00:00.000Z', end:'2026-07-20T00:00:00.000Z', needs_review:false, source:{ url:'https://example.test/banner' } },
+  ]; });
+  const grouped = plain(api.groupEventsByGame(feeds, games, NOW));
+  assert.deepEqual(grouped.map((row) => row.gameKey), ['gi','hsr','zzz','wuwa','ae']);
+  assert.ok(grouped.every((row) => row.axis.length === 1 && row.allBlocks.length === 1));
+  assert.equal(grouped[4].axis[0].game, 'endfield', 'Endfield backend records remain mapped under the ae UI lane');
 });

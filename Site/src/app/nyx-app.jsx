@@ -3475,6 +3475,7 @@ function SimContent({ tab, setTab, onOpenMaterial, settings, setSettings }){
     { key:'pulls',    label:'Pull Overview' },
     { key:'codes',    label:'All Redemption Codes' },
     { key:'banners',  label:'All Banners' },
+    { key:'events',   label:'All Events' },
     { key:'settings', label:'Settings' },
   ];
   return (
@@ -3498,6 +3499,7 @@ function SimContent({ tab, setTab, onOpenMaterial, settings, setSettings }){
       {tab === 'pulls' && <main className="gp-main-pane fill"><PullsOverview /></main>}
       {tab === 'codes' && <main className="gp-main-pane fill"><AllCodesView /></main>}
       {tab === 'banners' && <main className="gp-main-pane fill"><CrossGameBannerTimeline games={SIM_GAMES} /></main>}
+      {tab === 'events' && <main className="gp-main-pane fill"><CrossGameEventsTimeline games={SIM_GAMES} /></main>}
       {tab === 'settings' && <SettingsPane settings={settings} setSettings={setSettings} />}
       {tab === 'overview' && <OverviewAside cfg={NYX_META} />}
     </div>
@@ -3534,6 +3536,7 @@ const NYX_TAB_TO_ROUTE = {
   pulls:'pulls',
   codes:'codes',
   banners:'banners',
+  events:'events',
   settings:'settings',
 };
 const ROUTE_TO_GAME_TAB = {
@@ -3561,6 +3564,7 @@ const ROUTE_TO_NYX_TAB = {
   pull:'pulls',
   codes:'codes',
   banners:'banners',
+  events:'events',
   settings:'settings',
 };
 
@@ -3642,7 +3646,7 @@ function routeTitleFor(key, tab, selection){
 function validTabsForKey(key){
   if (key === 'gi') return ['overview','mats','char-customize','database','tracker','tcg','pot','wonderland','books','beta','settings'];
   if (key === 'hsr') return ['overview','mats','char-customize','database','tracker','books','beta','settings'];
-  return key === 'nyx' ? ['overview','characters','calendar','pulls','codes','banners','settings'] : ['overview','mats','char-customize','database','tracker','beta','settings'];
+  return key === 'nyx' ? ['overview','characters','calendar','pulls','codes','banners','events','settings'] : ['overview','mats','char-customize','database','tracker','beta','settings'];
 }
 
 function coerceTabForKey(key, wanted){

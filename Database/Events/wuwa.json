@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "game": "wuwa",
-  "generatedAt": "2026-07-12T00:27:00.322Z",
+  "generatedAt": "2026-07-12T02:22:44.440Z",
   "source": {
     "name": "Wuthering Waves Official",
     "endpoint": "hw-media-cdn-mingchao.kurogame.com ArticleMenu.json + article/*.json"
   },
   "counts": {
-    "total": 38,
-    "needs_review": 17,
-    "banner": 13,
+    "total": 37,
+    "needs_review": 6,
+    "banner": 18,
     "byType": {
-      "event": 22,
-      "banner": 13,
-      "challenge": 3
+      "event": 15,
+      "banner": 18,
+      "challenge": 4
     }
   },
   "events": [
@@ -34,7 +34,8 @@
       "confidence": "medium",
       "permanence": "timed",
       "needs_review": false,
-      "image": null
+      "image": null,
+      "description": "Duration: From now until 2026-08-19 23:59 (UTC+8) With the new region [Mengzhou: Land of Xuanfang] available for exploration, Tidal Photography - Land of Xuanfang Photo Challenge is now underway! Take part in the event for a chance to win…"
     },
     {
       "game": "wuwa",
@@ -53,7 +54,8 @@
       "confidence": "medium",
       "permanence": "timed",
       "needs_review": false,
-      "image": null
+      "image": null,
+      "description": "During the event, selectable 5-Star Resonators: Jiyan, Yinlin, Jinhsi, Changli, Zhezhi, and Xiangli Yao, and 4-Star Resonators: Buling, Sanhua, and Yangyang receive boosted drop rates! ✦Duration✦ Version 3.5 update - 2026-08-19 11:59…"
     },
     {
       "game": "wuwa",
@@ -72,7 +74,8 @@
       "confidence": "medium",
       "permanence": "timed",
       "needs_review": false,
-      "image": null
+      "image": null,
+      "description": "During the event, selectable 5-Star Weapons: Verdant Summit, Stringmaster, Ages of Harvest, Blazing Brilliance, Rime-Draped Sprouts, Verity's Handle, and 4-Star Weapons: Dauntless Evernight, Variation, and Endless Collapse receive boosted…"
     },
     {
       "game": "wuwa",
@@ -91,7 +94,8 @@
       "confidence": "medium",
       "permanence": "timed",
       "needs_review": false,
-      "image": null
+      "image": null,
+      "description": "[When Winter Thaws] Featured Resonator Convene During the event, 5-Star Resonator: Luuk Herssen, 4-Star Resonators: Danjin, Chixia, and Aalto receive boosted drop rates! ✦Duration✦ Version 3.5 update - 2026-07-30 09:59 (server time)…"
     },
     {
       "game": "wuwa",
@@ -110,7 +114,8 @@
       "confidence": "medium",
       "permanence": "timed",
       "needs_review": false,
-      "image": null
+      "image": null,
+      "description": "During the event, 5-Star Weapon: Azure Oath, 4-Star Weapons: Commando of Conviction, Hollow Mirage, and Discord receive boosted drop rates! ✦Duration✦ Version 3.5 update - 2026-07-30 09:59 (server time) ✦Eligibility✦ - Reach Union Level…"
     },
     {
       "game": "wuwa",
@@ -129,7 +134,8 @@
       "confidence": "medium",
       "permanence": "timed",
       "needs_review": false,
-      "image": null
+      "image": null,
+      "description": "During the event, 5-Star Resonator: Yangyang: Xuanling, 4-Star Resonators: Danjin, Chixia, and Aalto receive boosted drop rates! ✦Duration✦ Version 3.5 update - 2026-07-30 09:59 (server time) ✦Eligibility✦ - Reach Union Level 5. - Or…"
     },
     {
       "game": "wuwa",
@@ -148,45 +154,8 @@
       "confidence": "high",
       "permanence": "timed",
       "needs_review": false,
-      "image": null
-    },
-    {
-      "game": "wuwa",
-      "id": "wuwa-kuro-article-54242f3526a0",
-      "title": "Version 3.5 Blade of Past Resounds, Lingering Dream Hymns Content Overview",
-      "type": "event",
-      "start": "2026-07-09T20:00:00.000Z",
-      "end": "2026-07-10T03:00:00.000Z",
-      "server": "global",
-      "timezone": "UTC+08:00",
-      "source": {
-        "name": "Wuthering Waves Official",
-        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5091",
-        "priority": 1
-      },
-      "confidence": "high",
-      "permanence": "timed",
-      "needs_review": false,
-      "image": null
-    },
-    {
-      "game": "wuwa",
-      "id": "wuwa-kuro-article-fd164f0a01e2",
-      "title": "Wuthering Waves Version 3.5 Update Maintenance Notice",
-      "type": "event",
-      "start": "2026-07-09T20:00:00.000Z",
-      "end": "2026-07-10T03:00:00.000Z",
-      "server": "global",
-      "timezone": "UTC+08:00",
-      "source": {
-        "name": "Wuthering Waves Official",
-        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4973",
-        "priority": 1
-      },
-      "confidence": "high",
-      "permanence": "timed",
-      "needs_review": false,
-      "image": null
+      "image": null,
+      "description": "✦Duration✦ 2026-07-11 10:00 - 2026-08-19 11:59 (server time) ✦Rewards✦ Astrite x1200, Space and Blake Bloom Medal (Event Sigil), Space and Blake Bloom (Event Avatar), Modifier, Premium Tuner, Forgery Premium Supply - Lahai-Roi, Premium…"
     },
     {
       "game": "wuwa",
@@ -205,7 +174,8 @@
       "confidence": "medium",
       "permanence": "timed",
       "needs_review": false,
-      "image": null
+      "image": null,
+      "description": "During the event, 5-Star Weapon: Spectral Trigger, 4-Star Weapons: Relativistic Jet, Cadenza, and Fusion Accretion receive boosted drop rates! ✦Duration✦ Version 3.4 Update - 2026-07-09 11:59 (server time) ✦Eligibility✦ - Reach Union…"
     },
     {
       "game": "wuwa",
@@ -224,7 +194,8 @@
       "confidence": "medium",
       "permanence": "timed",
       "needs_review": false,
-      "image": null
+      "image": null,
+      "description": "During the event, 5-Star Resonator: Rebecca, 4-Star Resonators: Lumi, Youhu, and Taoqi receive boosted drop rates! ✦Duration✦ Version 3.4 Update - 2026-07-09 11:59 (server time) ✦Eligibility✦ - Reach Union Level 5. - Or complete the…"
     },
     {
       "game": "wuwa",
@@ -243,7 +214,8 @@
       "confidence": "medium",
       "permanence": "timed",
       "needs_review": false,
-      "image": null
+      "image": null,
+      "description": "During the event, 5-Star Resonator: Lucy, 4-Star Resonators: Lumi, Youhu, and Taoqi receive boosted drop rates! ✦Duration✦ Version 3.4 Update - 2026-07-09 11:59 (server time) ✦Eligibility✦ - Reach Union Level 5. - Or complete the combat…"
     },
     {
       "game": "wuwa",
@@ -262,7 +234,8 @@
       "confidence": "medium",
       "permanence": "timed",
       "needs_review": false,
-      "image": null
+      "image": null,
+      "description": "During the event, 5-Star Weapon: Skull Thrasher, 4-Star Weapons: Relativistic Jet, Cadenza, and Fusion Accretion receive boosted drop rates! ✦Duration✦ Version 3.4 Update - 2026-07-09 11:59 (server time) ✦Eligibility✦ - Reach Union Level…"
     },
     {
       "game": "wuwa",
@@ -281,7 +254,8 @@
       "confidence": "medium",
       "permanence": "timed",
       "needs_review": false,
-      "image": null
+      "image": null,
+      "description": "✦Duration✦ Version 3.4 update - 2026-07-09 03:59 (server time) ✦Rewards✦ Astrite x800, Knock on Gate Fissure x1 (Title), Premium Tuner, Premium Resonance Potion, Premium Sealed Tube, Premium Energy Core, Shell Credit, and other Materials."
     },
     {
       "game": "wuwa",
@@ -300,7 +274,8 @@
       "confidence": "high",
       "permanence": "timed",
       "needs_review": false,
-      "image": null
+      "image": null,
+      "description": "[Dance in the Storm's Wake] Featured Resonator Convene During the event, 5-Star Resonator: Cartethyia, 4-Star Resonators: Yangyang, Yuanwu, and Mortefi receive boosted drop rates! ✦Duration✦ 2026-06-18 10:00 - 2026-07-09 11:59 (server…"
     },
     {
       "game": "wuwa",
@@ -319,7 +294,8 @@
       "confidence": "high",
       "permanence": "timed",
       "needs_review": false,
-      "image": null
+      "image": null,
+      "description": "During the event, 5-Star Resonator: Lucilla, 4-Star Resonators: Lumi, Youhu, and Taoqi receive boosted drop rates! ✦Duration✦ 2026-06-13 10:00 - 2026-07-09 11:59 (server time) ✦Eligibility✦ - Reach Union Level 5. - Or complete the combat…"
     },
     {
       "game": "wuwa",
@@ -338,45 +314,8 @@
       "confidence": "high",
       "permanence": "timed",
       "needs_review": false,
-      "image": null
-    },
-    {
-      "game": "wuwa",
-      "id": "wuwa-kuro-article-e0a6bd594e8c",
-      "title": "Patch Notes for Version 3.4: The Dream Not Dreamed",
-      "type": "event",
-      "start": "2026-06-07T20:00:00.000Z",
-      "end": "2026-06-08T03:00:00.000Z",
-      "server": "global",
-      "timezone": "UTC+08:00",
-      "source": {
-        "name": "Wuthering Waves Official",
-        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4819",
-        "priority": 1
-      },
-      "confidence": "high",
-      "permanence": "timed",
-      "needs_review": false,
-      "image": null
-    },
-    {
-      "game": "wuwa",
-      "id": "wuwa-kuro-article-f3244a9266dd",
-      "title": "Wuthering Waves Version 3.4 Update Maintenance Notice",
-      "type": "event",
-      "start": "2026-06-07T20:00:00.000Z",
-      "end": "2026-06-08T03:00:00.000Z",
-      "server": "global",
-      "timezone": "UTC+08:00",
-      "source": {
-        "name": "Wuthering Waves Official",
-        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4765",
-        "priority": 1
-      },
-      "confidence": "high",
-      "permanence": "timed",
-      "needs_review": false,
-      "image": null
+      "image": null,
+      "description": "During the event, 5-Star Weapon: Freeze Frame, 4-Star Weapons: Relativistic Jet, Cadenza, and Fusion Accretion receive boosted drop rates! ✦Duration✦ 2026-06-13 10:00 - 2026-07-09 11:59 (server time) ✦Eligibility✦ - Reach Union Level 5. -…"
     },
     {
       "game": "wuwa",
@@ -395,7 +334,48 @@
       "confidence": "high",
       "permanence": "timed",
       "needs_review": false,
-      "image": null
+      "image": null,
+      "description": "✦Duration✦ 2026-05-21 10:00 - 2026-06-07 03:59 (server time) ✦Rewards✦ Astrite x800, Fantasy Weaver x1 (Title), Premium Tuner, Premium Resonance Potion, Premium Sealed Tube, Premium Energy Core, Shell Credit, and other Materials."
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-526197e7d2fe",
+      "title": "[Forged Dwarf Star] Featured Weapon Convene",
+      "type": "banner",
+      "start": "2026-05-21T02:00:00.000Z",
+      "end": "2026-06-07T03:59:00.000Z",
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4720",
+        "priority": 1
+      },
+      "confidence": "high",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null,
+      "description": "During the event, 5-Star Weapon: Forged Dwarf Star, 4-Star Weapons: Fusion Accretion, Waning Redshift, and Novaburst receive boosted drop rates! ✦Duration✦ 2026-05-21 10:00 - 2026-06-07 11:59 (server time) ✦Eligibility✦ - Reach Union…"
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-ecab76eb5ba1",
+      "title": "[False Promise for Tomorrow] Featured Resonator Convene",
+      "type": "banner",
+      "start": "2026-05-21T02:00:00.000Z",
+      "end": "2026-06-07T03:59:00.000Z",
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4712",
+        "priority": 1
+      },
+      "confidence": "high",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null,
+      "description": "During the event, 5-Star Resonator: Denia, 4-Star Resonators: Chixia, Buling, and Yangyang receive boosted drop rates! ✦Duration✦ 2026-05-21 10:00 - 2026-06-07 11:59 (server time) ✦Eligibility✦ - Reach Union Level 5. - Or complete the…"
     },
     {
       "game": "wuwa",
@@ -414,12 +394,253 @@
       "confidence": "high",
       "permanence": "timed",
       "needs_review": false,
-      "image": null
+      "image": null,
+      "description": "[False Promise for Tomorrow] Featured Resonator Convene During the event, 5-Star Resonator: Denia, 4-Star Resonators: Chixia, Buling, and Yangyang receive boosted drop rates! ✦Duration✦ 2026-05-21 10:00 - 2026-06-07 11:59 (server time)…"
     },
     {
       "game": "wuwa",
-      "id": "wuwa-kuro-article-032465b27e6c",
-      "title": "New Region Preview I | Mengzhou: Land of Xuanfang is coming soon!",
+      "id": "wuwa-kuro-article-9d4f07af0521",
+      "title": "[Version 3.3 Featured Resonator/Weapon Convene: Phase I]",
+      "type": "banner",
+      "start": "2026-05-21T01:59:00.000Z",
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4591",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null,
+      "description": "[Thousand Futures Mirrored in Snow] Featured Resonator Convene During the event, 5-Star Resonator: Hiyuki, 4-Star Resonators: Baizhi, Aalto, and Yuanwu receive boosted drop rates! ✦Duration✦ Version 3.3 update - 2026-05-21 09:59 (server…"
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-97c70c063908",
+      "title": "Event Preview | [Cubie Derby: Championship] Anniversary Event, Coming Soon!",
+      "type": "event",
+      "start": "2026-05-08T20:00:00.000Z",
+      "end": "2026-05-24T19:59:00.000Z",
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4654",
+        "priority": 1
+      },
+      "confidence": "high",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null,
+      "description": "✦Duration✦ 2026-05-09 04:00 - 2026-05-25 03:59 (server time) ✦Rewards✦ Astrite x300, 2nd Anniversary Coin, Shell Credit"
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-240bef988ea7",
+      "title": "[Aced! Combat Mastery Test!] Featured Combat Event",
+      "type": "challenge",
+      "start": "2026-05-06T20:00:00.000Z",
+      "end": "2026-05-20T19:59:00.000Z",
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4644",
+        "priority": 1
+      },
+      "confidence": "high",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null,
+      "description": "Standard tests make your eyes glaze over, but a test of combat skills sends your adrenaline into overdrive. So bring your A-game and step into the clash for Instructor B.1.N.G.O.'s Combat Mastery Test! ✦Duration✦ 2026-05-07 04:00 -…"
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-c69dac4750bb",
+      "title": "[Lollo Express: Promise Delivered] Anniversary Event",
+      "type": "event",
+      "start": "2026-05-06T20:00:00.000Z",
+      "end": "2026-06-07T03:59:00.000Z",
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4636",
+        "priority": 1
+      },
+      "confidence": "high",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null,
+      "description": "For the couriers of Lollo Logistics, no hardship is too great, no obstacle too steep. Their resolve to deliver never wavers. As the collab season between Second Coming of Solaris and Lollo Logistics takes flight, their most demanding rush…"
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-b4ecf4e6d374",
+      "title": "Event Preview | [Star Bouncing] Anniversary Event, Coming Soon!",
+      "type": "event",
+      "start": "2026-05-02T02:00:00.000Z",
+      "end": "2026-06-07T03:59:00.000Z",
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4627",
+        "priority": 1
+      },
+      "confidence": "high",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null,
+      "description": "✦Duration✦ 2026-05-02 10:00 - 2026-06-07 11:59 (server time) ✦Rewards✦ Astrite x1200, Phantom: Reactor Husk x1, Supernova Launcher x1 (Title), Modifier x5, Premium Tuner x100, 2nd Anniversary Coin x500, Shell Credit x670000, and other…"
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-5abb22c4e46d",
+      "title": "[The Flaming Red in Memory] Showcase Event",
+      "type": "event",
+      "start": "2026-04-15T20:00:00.000Z",
+      "end": "2026-04-28T19:59:00.000Z",
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4506",
+        "priority": 1
+      },
+      "confidence": "high",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null,
+      "description": "Platya, a Black Shores Bloom Bearer, has come to Startorch Academy chasing rumors of a Ghost Miko-whispers that seem to echo the legend of the \"\"Lady Miko\"\" of her distant homeland. Intrigued, you join her search. ✦Duration✦ 2026-04-16…"
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-93954e912a6c",
+      "title": "[Version 3.2 Featured Resonator/Weapon Convene: Phase II]",
+      "type": "banner",
+      "start": "2026-04-09T02:00:00.000Z",
+      "end": "2026-04-29T03:59:00.000Z",
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4493",
+        "priority": 1
+      },
+      "confidence": "high",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null,
+      "description": "[Undefined Spectrum] Featured Resonator Convene During the event, 5-Star Resonator: Lynae, 4-Star Resonators: Taoqi, Youhu, and Danjin receive boosted drop rates! ✦Duration✦ 2026-04-09 10:00 - 2026-04-29 11:59 (server time) ✦Eligibility✦…"
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-3a607d98adba",
+      "title": "[Speed up! F.U.E.L. Instrumentality Project!] Leisure Event",
+      "type": "event",
+      "start": "2026-04-01T20:00:00.000Z",
+      "end": "2026-04-19T19:59:00.000Z",
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4458",
+        "priority": 1
+      },
+      "confidence": "high",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null,
+      "description": "At this year's Club Show & Tell, Van Tassie of the Psychological Threshold Alternative Therapy Society proudly unveils his latest project: the \"\"F.U.E.L. Optimization Simulator.\"\" He claims this game will revolutionize the Academy's…"
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-f3d132538183",
+      "title": "[Bountiful Crescendo] Limited-Time Material Double Drop Event",
+      "type": "event",
+      "start": "2026-04-01T20:00:00.000Z",
+      "end": "2026-04-08T19:59:00.000Z",
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4466",
+        "priority": 1
+      },
+      "confidence": "high",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null,
+      "description": "The Sonoro Spheres are undergoing an accelerating collapse due to the Waveworn Phenomenon. However, this is also intensifying the energy within, resulting in more valuable materials. Use the Waveplates to maximize your rewards from the…"
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-02b80776baff",
+      "title": "[Chord Cleansing] Limited-Time Echo Double Drop Event",
+      "type": "event",
+      "start": "2026-03-10T20:00:00.000Z",
+      "end": "2026-03-17T19:59:00.000Z",
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4368",
+        "priority": 1
+      },
+      "confidence": "high",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null,
+      "description": "The Tacet Fields are experiencing a surge in energy due to the Waveworn Phenomenon. Use the Waveplates to maximize your rewards from the Tacetite Blooms! ✦Duration✦ 2026-03-11 04:00 - 2026-03-18 03:59 (server time) ✦Eligibility✦ Reach…"
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-f047bbd49d87",
+      "title": "[Lollo Campaign: Implementation] Featured Commission Event",
+      "type": "event",
+      "start": "2026-03-04T20:00:00.000Z",
+      "end": "2026-03-17T19:59:00.000Z",
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4355",
+        "priority": 1
+      },
+      "confidence": "high",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null,
+      "description": "The Lollo Campaign has encountered yet another crisis! To save Maji's career, and to keep those extra bucks flowing in, help him complete his new program, Lollo Springtime! Complete the campaigns to claim your Lollo Stamps-a gift of…"
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-7941941cfbf2",
+      "title": "[Lux & Umbra] Featured Weapon Convene",
+      "type": "banner",
+      "start": "2026-02-26T02:00:00.000Z",
+      "end": "2026-03-18T03:59:00.000Z",
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4345",
+        "priority": 1
+      },
+      "confidence": "high",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null,
+      "description": "During the event, 5-Star Weapon: Lux & Umbra, 4-Star Weapons: Hollow Mirage, Jinzhou Keeper, and Overture receive boosted drop rates! ✦Duration✦ 2026-02-26 10:00 - 2026-03-18 11:59 (server time) ✦Eligibility✦ - Reach Union Level 5. - Or…"
+    },
+    {
+      "game": "wuwa",
+      "id": "wuwa-kuro-article-184bacb02f56",
+      "title": "Wuthering Waves Fan Creation Event \"Reverbs from the End of Galaxy\" is now live!",
       "type": "event",
       "start": null,
       "end": null,
@@ -427,222 +648,14 @@
       "timezone": "UTC+08:00",
       "source": {
         "name": "Wuthering Waves Official",
-        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4960",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4626",
         "priority": 1
       },
       "confidence": "low",
       "permanence": "unknown",
       "needs_review": true,
-      "image": null
-    },
-    {
-      "game": "wuwa",
-      "id": "wuwa-kuro-article-0afe0516c44a",
-      "title": "New Region Preview II | Mengzhou: Land of Xuanfang is coming soon! Get a first look at its quests and monsters!",
-      "type": "event",
-      "start": null,
-      "end": null,
-      "server": "global",
-      "timezone": "UTC+08:00",
-      "source": {
-        "name": "Wuthering Waves Official",
-        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4985",
-        "priority": 1
-      },
-      "confidence": "low",
-      "permanence": "unknown",
-      "needs_review": true,
-      "image": null
-    },
-    {
-      "game": "wuwa",
-      "id": "wuwa-kuro-article-0d72e98dfb21",
-      "title": "Resonator Review | Feathered Tempest — Cartethyia",
-      "type": "event",
-      "start": null,
-      "end": null,
-      "server": "global",
-      "timezone": "UTC+08:00",
-      "source": {
-        "name": "Wuthering Waves Official",
-        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4918",
-        "priority": 1
-      },
-      "confidence": "low",
-      "permanence": "unknown",
-      "needs_review": true,
-      "image": null
-    },
-    {
-      "game": "wuwa",
-      "id": "wuwa-kuro-article-13ab0b10216b",
-      "title": "Version 3.3 Phase II Wuthering Waves Wallpaper",
-      "type": "event",
-      "start": null,
-      "end": null,
-      "server": "global",
-      "timezone": "UTC+08:00",
-      "source": {
-        "name": "Wuthering Waves Official",
-        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4735",
-        "priority": 1
-      },
-      "confidence": "low",
-      "permanence": "unknown",
-      "needs_review": true,
-      "image": null
-    },
-    {
-      "game": "wuwa",
-      "id": "wuwa-kuro-article-42e176f9aee5",
-      "title": "Resonator Reveal | Rebecca",
-      "type": "event",
-      "start": null,
-      "end": null,
-      "server": "global",
-      "timezone": "UTC+08:00",
-      "source": {
-        "name": "Wuthering Waves Official",
-        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4764",
-        "priority": 1
-      },
-      "confidence": "low",
-      "permanence": "unknown",
-      "needs_review": true,
-      "image": null
-    },
-    {
-      "game": "wuwa",
-      "id": "wuwa-kuro-article-4ba1d6609043",
-      "title": "Wuthering Waves Version Preview | Version 3.4 \"The Dream Not Dreamed\" Scheduled for Release on June 8 (UTC+8)",
-      "type": "event",
-      "start": null,
-      "end": null,
-      "server": "global",
-      "timezone": "UTC+08:00",
-      "source": {
-        "name": "Wuthering Waves Official",
-        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4740",
-        "priority": 1
-      },
-      "confidence": "low",
-      "permanence": "unknown",
-      "needs_review": true,
-      "image": null
-    },
-    {
-      "game": "wuwa",
-      "id": "wuwa-kuro-article-622281a55f2d",
-      "title": "Version 3.4 Wuthering Waves Wallpaper",
-      "type": "event",
-      "start": null,
-      "end": null,
-      "server": "global",
-      "timezone": "UTC+08:00",
-      "source": {
-        "name": "Wuthering Waves Official",
-        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4910",
-        "priority": 1
-      },
-      "confidence": "low",
-      "permanence": "unknown",
-      "needs_review": true,
-      "image": null
-    },
-    {
-      "game": "wuwa",
-      "id": "wuwa-kuro-article-6aecf8877806",
-      "title": "Wuthering Waves Update Content | Version 3.4 \"The Dream Not Dreamed\" Planned for Release on June 8 (UTC+8)",
-      "type": "event",
-      "start": null,
-      "end": null,
-      "server": "global",
-      "timezone": "UTC+08:00",
-      "source": {
-        "name": "Wuthering Waves Official",
-        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4791",
-        "priority": 1
-      },
-      "confidence": "low",
-      "permanence": "unknown",
-      "needs_review": true,
-      "image": null
-    },
-    {
-      "game": "wuwa",
-      "id": "wuwa-kuro-article-711b40ddd1b9",
-      "title": "Resonator Reveal | Lucy",
-      "type": "event",
-      "start": null,
-      "end": null,
-      "server": "global",
-      "timezone": "UTC+08:00",
-      "source": {
-        "name": "Wuthering Waves Official",
-        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4774",
-        "priority": 1
-      },
-      "confidence": "low",
-      "permanence": "unknown",
-      "needs_review": true,
-      "image": null
-    },
-    {
-      "game": "wuwa",
-      "id": "wuwa-kuro-article-75c7309b0398",
-      "title": "Upcoming Events in Wuthering Waves Version 3.4",
-      "type": "event",
-      "start": null,
-      "end": null,
-      "server": "global",
-      "timezone": "UTC+08:00",
-      "source": {
-        "name": "Wuthering Waves Official",
-        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4917",
-        "priority": 1
-      },
-      "confidence": "low",
-      "permanence": "unknown",
-      "needs_review": true,
-      "image": null
-    },
-    {
-      "game": "wuwa",
-      "id": "wuwa-kuro-article-8da60cd28a2b",
-      "title": "Resonator Review | Phase Transition - Luuk Herssen",
-      "type": "event",
-      "start": null,
-      "end": null,
-      "server": "global",
-      "timezone": "UTC+08:00",
-      "source": {
-        "name": "Wuthering Waves Official",
-        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5044",
-        "priority": 1
-      },
-      "confidence": "low",
-      "permanence": "unknown",
-      "needs_review": true,
-      "image": null
-    },
-    {
-      "game": "wuwa",
-      "id": "wuwa-kuro-article-9b082b6e0212",
-      "title": "Wuthering Waves Version Preview | Version 3.5 \"Blade of Past Resounds, Lingering Dream Hymns\"",
-      "type": "event",
-      "start": null,
-      "end": null,
-      "server": "global",
-      "timezone": "UTC+08:00",
-      "source": {
-        "name": "Wuthering Waves Official",
-        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4936",
-        "priority": 1
-      },
-      "confidence": "low",
-      "permanence": "unknown",
-      "needs_review": true,
-      "image": null
+      "image": null,
+      "description": "Dear Rovers, Wuthering Waves Fan Creation Event \"Reverbs from the End of Galaxies\" is now live! Post your work with hashtags #WutheringWaves and #WuWaFanart on X (Twitter)/Instagram/Facebook and fill out the form for a chance to win…"
     },
     {
       "game": "wuwa",
@@ -661,7 +674,8 @@
       "confidence": "low",
       "permanence": "unknown",
       "needs_review": true,
-      "image": null
+      "image": null,
+      "description": "Dear Rovers, Wuthering Waves Fan Creation Event \"The Dream Not Dreamed\" is now live! Post your work with hashtags #WutheringWaves and #WuWaFanart on X (Twitter)/Instagram/Facebook and fill out the form for a chance to win iPhone 16 Pro…"
     },
     {
       "game": "wuwa",
@@ -680,12 +694,13 @@
       "confidence": "low",
       "permanence": "unknown",
       "needs_review": true,
-      "image": null
+      "image": null,
+      "description": "Dear Rovers, Wuthering Waves Fan Creation Event \"The Dream Not Dreamed\" is now live! Post your work with hashtags #WutheringWaves and #WuWaFanart on X (Twitter)/Instagram/Facebook and fill out the form for a chance to win iPhone 16 Pro…"
     },
     {
       "game": "wuwa",
-      "id": "wuwa-kuro-article-e2ed349ec5c4",
-      "title": "Wuthering Waves Update Content | Version 3.5 \"Blade of Past Resounds, Lingering Dream Hymns\" Planned for Release on July 10 (UTC+8)",
+      "id": "wuwa-kuro-article-c2ef3a199d86",
+      "title": "High Difficulty Recurring Challenge: Endstate Matrix, Coming in Version 3.2!",
       "type": "event",
       "start": null,
       "end": null,
@@ -693,13 +708,14 @@
       "timezone": "UTC+08:00",
       "source": {
         "name": "Wuthering Waves Official",
-        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5023",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4386",
         "priority": 1
       },
       "confidence": "low",
       "permanence": "unknown",
       "needs_review": true,
-      "image": null
+      "image": null,
+      "description": "Endstate Matrix progresses through Challenge Cycles. Each Challenge Cycle spans across multiple Challenge Phases. Get a sneak peek now!"
     },
     {
       "game": "wuwa",
@@ -718,12 +734,13 @@
       "confidence": "low",
       "permanence": "unknown",
       "needs_review": true,
-      "image": null
+      "image": null,
+      "description": "Wuthering Waves Fan Creation Event \" The Dream Not Dreamed \" has concluded, and we want to express our heartfelt appreciation to all participants for their dedication and creativity in our fan art event. Let's view the winning entries and…"
     },
     {
       "game": "wuwa",
-      "id": "wuwa-kuro-article-f4c03737d158",
-      "title": "Resonator Review | Radiant Spectrum — Lynae",
+      "id": "wuwa-kuro-article-f895dbb3df92",
+      "title": "Wuthering Waves Fan Creation Event \"Resolution to Illuminate the Shadows\" is now live!",
       "type": "event",
       "start": null,
       "end": null,
@@ -731,13 +748,14 @@
       "timezone": "UTC+08:00",
       "source": {
         "name": "Wuthering Waves Official",
-        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5045",
+        "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4451",
         "priority": 1
       },
       "confidence": "low",
       "permanence": "unknown",
       "needs_review": true,
-      "image": null
+      "image": null,
+      "description": "Dear Rovers, Wuthering Waves Fan Creation Event \"Resolution to Illuminate the Shadows\" is now live! Post your work with hashtags #WutheringWaves and #WuWaFanart on X (Twitter)/Instagram/Facebook and fill out the form for a chance to win…"
     }
   ]
 }

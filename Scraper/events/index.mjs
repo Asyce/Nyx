@@ -12,8 +12,8 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { GAMES, dedupe, mergeById, validateDataset } from './core.mjs';
-import { SOURCE_META, scrapeEndfield, scrapeHoyo, scrapeWuwa } from './sources.mjs';
+import { GAMES, dedupe, mergeById, reconcileById, validateDataset } from './core.mjs';
+import { SOURCE_META, isSourceEventRecord, scrapeEndfield, scrapeHoyo, scrapeWuwa } from './sources.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const outDir = path.resolve(root, 'Database/Events');
@@ -62,8 +62,12 @@ export async function run() {
     if (result.anomaly) console.warn(`::warning::events ${game} anomaly: ${result.anomaly}`);
 
     const fresh = dedupe(result.events);
-    // On anomaly with zero fresh events, keep previous untouched (carry-forward).
-    const merged = fresh.length ? mergeById(previousEvents, fresh) : previousEvents;
+    // A complete successful snapshot reconciles current/future rows while
+    // retaining ended history. Any anomaly is non-destructive: retain every
+    // previous row and overlay whatever fresh rows were safely parsed.
+    const merged = result.anomaly
+      ? mergeById(previousEvents, fresh)
+      : reconcileById(previousEvents, fresh, Date.now(), (ev) => isSourceEventRecord(game, ev));
 
     const dataset = {
       schemaVersion: 1,

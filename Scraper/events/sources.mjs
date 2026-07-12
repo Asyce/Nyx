@@ -12,7 +12,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { cleanTitle, makeEvent, parseDateRange, parseEndfieldAvailability, parseHoyoDuration } from './core.mjs';
+import { cleanTitle, classifyType, makeEvent, parseEndfieldAvailability, parseHoyoDuration, parseScopedDateRange } from './core.mjs';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 export const RAW_DIR = path.join(here, 'raw');
@@ -94,6 +94,18 @@ function flattenAnnList(payload) {
   return { anns, retcode: payload?.retcode };
 }
 
+const HOYO_EVENT_TITLE = /\b(event|festival|challenge|trial|login|log-in|check-?in|wish|warp|signal search|w-engine|convene|double drop|drop rate|ley line overflow|overflowing mastery|planar fissure|garden of plenty|realm of the strange|gift|shop|bundle|combat|onslaught|abyss|fiction|hollow zero|shiyu|deadly assault)\b/i;
+const HOYO_NOTICE_ONLY = /\b(fair gaming|declaration|survey|privacy|terms|community rules|fan[- ]?made|legal|known issues?|bug fixes?|maintenance|update summary|update details|adjustment|faq|account security|social media|project astro-warp)\b/i;
+
+export function isHoyoEventCandidate(ann, body) {
+  const title = cleanTitle(ann?.title || '');
+  if (!title || HOYO_NOTICE_ONLY.test(title)) return false;
+  const duration = parseHoyoDuration(body?.content || '', '+00:00');
+  if (duration.start || duration.permanent) return true;
+  const classified = classifyType(title, { typeLabel: ann?.type_label || '' });
+  return classified !== 'event' || HOYO_EVENT_TITLE.test(title);
+}
+
 // Pure parser: given a getAnnList payload + getAnnContent payload, produce events.
 export function parseHoyo(game, listPayload, contentPayload) {
   const cfg = HOYO[game];
@@ -104,18 +116,15 @@ export function parseHoyo(game, listPayload, contentPayload) {
     const title = cleanTitle(ann.title);
     if (!title) continue;
     const body = contentById.get(ann.ann_id);
-    let start = null; let end = null; let permanent = false; let dateSource = 'list';
+    if (!isHoyoEventCandidate(ann, body)) continue;
+    let start = null; let end = null; let permanent = false; let dateSource = 'content';
     if (body) {
       const parsed = parseHoyoDuration(body.content, cfg.offset);
       if (parsed.permanent) permanent = true;
       if (parsed.start) { start = parsed.start; end = parsed.end; dateSource = 'content'; }
     }
-    // Fallback to the announcement's validity window (medium confidence).
-    if (!permanent && !start && ann.start_time) {
-      start = parseDateRange(`${ann.start_time} ${ann.end_time || ''}`, cfg.offset).start;
-      end = ann.end_time ? parseDateRange(`${ann.start_time} ${ann.end_time}`, cfg.offset).end : null;
-      dateSource = 'list';
-    }
+    // Announcement-list start/end fields describe notice visibility, not the
+    // event itself. Missing/broken content therefore stays needs_review.
     events.push(makeEvent({
       game,
       sourceKey: 'hoyo-ann',
@@ -128,6 +137,7 @@ export function parseHoyo(game, listPayload, contentPayload) {
       sourceUrl: cfg.postUrl(ann.ann_id),
       priority: 1,
       image: ann.banner || null,
+      description: body?.content || null,
       dateSource,
     }));
   }
@@ -147,12 +157,13 @@ export async function scrapeHoyo(game) {
 const WUWA_MENU = 'https://hw-media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/json/G152/en/ArticleMenu.json';
 const WUWA_ARTICLE = (id) => `https://hw-media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/json/G152/en/article/${id}.json`;
 const WUWA_POST = (id) => `https://wutheringwaves.kurogames.com/en/main/news/detail/${id}`;
-const WUWA_EVENTISH = /event|version|convene|limited|challenge|preview|resonator|weapon|login|sign-?in|activit/i;
+const WUWA_EVENTISH = /\b(event|convene|challenge|login|sign-?in|activit(?:y|ies))\b/i;
+export function isWuwaEventCandidate(item) { return WUWA_EVENTISH.test(item?.articleTitle || ''); }
 
 // Pure parser for one WuWa article body. offset = server time (+08:00).
 export function parseWuwaArticle(menuItem, articlePayload) {
   const html = String(articlePayload?.articleContent || '');
-  const { start, end } = parseDateRange(html, '+08:00');
+  const { start, end } = parseScopedDateRange(html, '+08:00', ['Duration', 'Event Duration', 'Event Period', 'Availability']);
   return makeEvent({
     game: 'wuwa',
     sourceKey: 'kuro-article',
@@ -165,6 +176,7 @@ export function parseWuwaArticle(menuItem, articlePayload) {
     sourceUrl: WUWA_POST(menuItem.articleId),
     priority: 1,
     image: menuItem.suggestCover || null,
+    description: html,
     dateSource: 'content',
   });
 }
@@ -174,20 +186,22 @@ export async function scrapeWuwa({ limit = 40 } = {}) {
   if (!Array.isArray(menu)) return { events: [], anomaly: 'menu not an array', fetched: 0 };
   const cutoff = Date.now() - 200 * 86_400_000;
   const candidates = menu
-    .filter((a) => WUWA_EVENTISH.test(a.articleTitle || ''))
+    .filter(isWuwaEventCandidate)
     .filter((a) => Date.parse(String(a.startTime || '').replace(' ', 'T') + '+08:00') >= cutoff)
     .sort((a, b) => String(b.startTime).localeCompare(String(a.startTime)))
     .slice(0, limit);
   const events = [];
+  let failed = 0;
   for (const item of candidates) {
     try {
       const article = await fetchJson(WUWA_ARTICLE(item.articleId), `wuwa-article-${item.articleId}`);
       events.push(parseWuwaArticle(item, article));
     } catch (error) {
+      failed += 1;
       console.warn(`::warning::events wuwa article ${item.articleId} failed: ${error.message}`);
     }
   }
-  return { events, anomaly: candidates.length ? null : 'no event-ish articles in menu', fetched: candidates.length };
+  return { events, anomaly: !candidates.length ? 'no event-ish articles in menu' : (failed ? `${failed} article fetch failures` : null), fetched: candidates.length };
 }
 
 // ---------- Endfield (Gryphline web-news) ----------
@@ -202,8 +216,7 @@ const ENDFIELD_POST = (cid) => `https://endfield.gryphline.com/en-us/news/${cid}
 export function parseEndfieldDetail(listItem, detailPayload) {
   const data = detailPayload?.data || {};
   const html = String(data.data || '');
-  let { start, end } = parseEndfieldAvailability(html, '+08:00');
-  if (!start) ({ start, end } = parseDateRange(html, '+08:00'));
+  const { start, end } = parseEndfieldAvailability(html, '+08:00');
   return makeEvent({
     game: 'endfield',
     sourceKey: 'gryphline-bulletin',
@@ -216,31 +229,46 @@ export function parseEndfieldDetail(listItem, detailPayload) {
     sourceUrl: ENDFIELD_POST(listItem.cid),
     priority: 1,
     image: listItem.cover || null,
+    description: html,
     dateSource: 'content',
   });
 }
 
-const ENDFIELD_EVENTISH = /event|headhunting|issue|version|update|contingency|contract|challenge|login|sign-?in/i;
+const ENDFIELD_EVENTISH = /\b(event|headhunting|LTO|contingency contract|challenge|login|sign-?in)\b/i;
+export function isEndfieldEventCandidate(item) { return ENDFIELD_EVENTISH.test(item?.title || ''); }
+
+export function isSourceEventRecord(game, event) {
+  const title = cleanTitle(event?.title || '');
+  if (!title) return false;
+  // Historical retention is deliberately broader than today's discovery
+  // filter. Old official events may have neutral titles. Remove only narrow,
+  // explicit known non-event families introduced by the old parser.
+  if (game === 'wuwa') return !/\b(?:update maintenance notice|wallpaper|resonator (?:review|reveal)|patch notes?)\b/i.test(title);
+  if (game === 'endfield') return !/\b(?:NVIDIA driver updates?|PayPal service|game tools updated|pre-download & update notice|update & maintenance preview)\b/i.test(title);
+  return !HOYO_NOTICE_ONLY.test(title);
+}
 
 export async function scrapeEndfield({ pages = 2 } = {}) {
   const events = [];
   let fetched = 0;
+  let failed = 0;
   for (let page = 1; page <= pages; page += 1) {
     const payload = await fetchJson(ENDFIELD_LIST(page), `endfield-list-${page}`);
     const list = payload?.data?.list || [];
-    const relevant = list.filter((n) => ENDFIELD_EVENTISH.test(n.title || ''));
+    const relevant = list.filter(isEndfieldEventCandidate);
     fetched += relevant.length;
     for (const item of relevant) {
       try {
         const detail = await fetchJson(ENDFIELD_DETAIL(item.cid), `endfield-detail-${item.cid}`);
         events.push(parseEndfieldDetail(item, detail));
       } catch (error) {
+        failed += 1;
         console.warn(`::warning::events endfield ${item.cid} failed: ${error.message}`);
       }
     }
     if (!list.length) break;
   }
-  return { events, anomaly: fetched ? null : 'no endfield notices', fetched };
+  return { events, anomaly: !fetched ? 'no endfield notices' : (failed ? `${failed} bulletin fetch failures` : null), fetched };
 }
 
 export const SOURCE_META = {

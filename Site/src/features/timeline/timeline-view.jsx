@@ -93,6 +93,17 @@ function NyxBannerLane({ game, label, icon, blocks, laneCount, view, msPerPx, wi
   </div>;
 }
 
+function NyxEventLane({ label, icon, blocks, laneCount, view, msPerPx, width, now, selected, onSelect }){
+  return <div className="ntl-lane events" style={{ minHeight:Math.max(112, laneCount * 104) }}>
+    <b>{icon && <img src={icon} alt="" className="ntl-lane-icon" />}{label}</b>
+    {(blocks || []).map(function(block){
+      var x = nyxTlMsToX(block.startMs, view.centerMs, msPerPx, width), w = Math.max(78, (block.endMs - block.startMs) / msPerPx), status = nyxTlEventStatus(block, now), remaining = block.endMs - now;
+      var tag = status === 'live' ? (remaining > 60 * NYX_TL_DAY_MS ? 'LIVE' : 'LIVE · ' + nyxTlCountdownLabel(remaining)) : status === 'ongoing' ? 'Ongoing' : status === 'upcoming' ? 'Upcoming' : 'Ended';
+      return <button type="button" key={block.id} className={'ntl-block event ' + status + (selected === block.id ? ' selected' : '')} title={block.title} style={{ left:x, top:32 + block.lane * 100, width:w }} onClick={function(e){ e.stopPropagation(); onSelect(block); }}><span>{tag}</span><strong>{block.image && <img src={block.image} alt="" loading="lazy" />}{block.title}</strong></button>;
+    })}
+  </div>;
+}
+
 function BannerTimeline({ game, gameName }){
   var rootRef = React.useRef(null);
   var [payload, setPayload] = React.useState({ loading:true, records:[], activities:[], events:[], updated:null, error:null });
@@ -260,8 +271,44 @@ function BannerTimeline({ game, gameName }){
         <b>Needs review — dates not yet confirmed ({eventSplit.review.length})</b>
         <div className="ntl-events-review-list">{eventSplit.review.map(function(block){ return <button type="button" key={block.id} className={'ntl-block event expected' + (selectedEventId === block.id ? ' selected' : '')} title={block.title} onClick={function(e){ e.stopPropagation(); selectEvent(block.id); }}><span>Expected</span><strong>{block.image && <img src={block.image} alt="" loading="lazy" />}{block.title}</strong></button>; })}</div>
       </div>}
-      <div className="ntl-detail">{selectedEventBlock ? <><div><span>{(selectedEventBlock.type || 'event')} · {selectedEventBlock.server || 'server unavailable'}</span><h2>{selectedEventBlock.title}</h2><p>{selectedEventBlock.needsReview ? 'Expected — dates not officially confirmed yet' : (nyxTlViewDate(selectedEventBlock.startMs) + ' – ' + (selectedEventBlock.openEnd ? 'ongoing (until the next update)' : nyxTlViewDate(selectedEventBlock.endMs)))}</p></div><div><b>Status</b><p>{{ review:'Needs review', ongoing:'Ongoing', live:'Live now', upcoming:'Upcoming', past:'Ended' }[nyxTlEventStatus(selectedEventBlock, now)]}</p>{selectedEventBlock.sourceUrl && <a href={selectedEventBlock.sourceUrl} target="_blank" rel="noreferrer">Source</a>}</div></> : selectedBlock ? <><div><span>{selectedBlock.version || 'Banner'} · {selectedBlock.region || 'time unavailable'}</span><h2>{selectedBlock.primaryFive || selectedBlock.name}</h2><p>{nyxTlViewDate(selectedBlock.startMs, selectedBlock.dateOnly)} – {nyxTlViewDate(selectedBlock.endMs, selectedBlock.dateOnly)} · {nyxTlViewDuration(selectedBlock.startMs, selectedBlock.endMs)}</p></div><div><b>Featured</b><p>{selectedBlock.searchNames.join(', ') || 'No featured names published.'}</p>{selectedBlock.weaponNames.length > 0 && <p><b>Paired weapon:</b> {selectedBlock.weaponNames.join(', ')}</p>}{selectedBlock.sourceUrl && <a href={selectedBlock.sourceUrl} target="_blank" rel="noreferrer">Source</a>}</div></> : <p>Select a banner run or event for its dates and source link.</p>}</div>
+      <div className="ntl-detail">{selectedEventBlock ? <><div><span>{(selectedEventBlock.type || 'event')} · {selectedEventBlock.server || 'server unavailable'}</span><h2>{selectedEventBlock.title}</h2><p>{selectedEventBlock.needsReview ? 'Expected — dates not officially confirmed yet' : (nyxTlViewDate(selectedEventBlock.startMs) + ' – ' + (selectedEventBlock.openEnd ? 'ongoing (until the next update)' : nyxTlViewDate(selectedEventBlock.endMs)))}</p>{selectedEventBlock.description && <p>{selectedEventBlock.description}</p>}</div><div><b>Status</b><p>{{ review:'Needs review', ongoing:'Ongoing', live:'Live now', upcoming:'Upcoming', past:'Ended' }[nyxTlEventStatus(selectedEventBlock, now)]}</p>{selectedEventBlock.sourceUrl && <a href={selectedEventBlock.sourceUrl} target="_blank" rel="noreferrer">Source</a>}</div></> : selectedBlock ? <><div><span>{selectedBlock.version || 'Banner'} · {selectedBlock.region || 'time unavailable'}</span><h2>{selectedBlock.primaryFive || selectedBlock.name}</h2><p>{nyxTlViewDate(selectedBlock.startMs, selectedBlock.dateOnly)} – {nyxTlViewDate(selectedBlock.endMs, selectedBlock.dateOnly)} · {nyxTlViewDuration(selectedBlock.startMs, selectedBlock.endMs)}</p></div><div><b>Featured</b><p>{selectedBlock.searchNames.join(', ') || 'No featured names published.'}</p>{selectedBlock.weaponNames.length > 0 && <p><b>Paired weapon:</b> {selectedBlock.weaponNames.join(', ')}</p>}{selectedBlock.sourceUrl && <a href={selectedBlock.sourceUrl} target="_blank" rel="noreferrer">Source</a>}</div></> : <p>Select a banner run or event for its dates and source link.</p>}</div>
     </>}
+  </section>;
+}
+
+// Hub events view: five fail-soft feeds on one shared axis. Banner notices are
+// excluded by nyxTlBuildEventBlocks and undated rows stay in a separate bucket.
+function CrossGameEventsTimeline({ games }){
+  var rootRef = React.useRef(null), list = Array.isArray(games) ? games : [];
+  var listKey = list.map(function(g){ return g.key; }).join(',');
+  var [now, setNow] = React.useState(Date.now()), [view, setView] = React.useState({ centerMs:Date.now(), zoom:NYX_TL_DEFAULT_ZOOM }), [width, setWidth] = React.useState(1000);
+  var [jumpDate, setJumpDate] = React.useState(''), [search, setSearch] = React.useState(''), [selected, setSelected] = React.useState(null);
+  var [perGame, setPerGame] = React.useState(function(){ var init={}; list.forEach(function(g){ init[g.key]={ loading:true, events:[], error:null }; }); return init; });
+  React.useEffect(function(){
+    var controller = new AbortController(), init={}; list.forEach(function(g){ init[g.key]={ loading:true, events:[], error:null }; }); setPerGame(init);
+    list.forEach(function(g){ fetch('/data/events/' + nyxTlEventsFile(g.key) + '.json', { signal:controller.signal, credentials:'same-origin' })
+      .then(function(r){ if(!r.ok) throw new Error('Events returned ' + r.status); return r.json(); })
+      .then(function(data){ if(!Array.isArray(data.events)) throw new Error('Events feed is invalid'); setPerGame(function(old){ var next=Object.assign({},old); next[g.key]={loading:false,events:data.events,error:null}; return next; }); })
+      .catch(function(error){ if(error.name==='AbortError') return; setPerGame(function(old){ var next=Object.assign({},old); next[g.key]={loading:false,events:[],error:error.message||'Could not load.'}; return next; }); }); });
+    return function(){ controller.abort(); };
+  },[listKey]);
+  React.useEffect(function(){ var id=setInterval(function(){setNow(Date.now());},1000); return function(){clearInterval(id);}; },[]);
+  React.useEffect(function(){ var el=rootRef.current;if(!el||!window.ResizeObserver)return undefined;var observer=new ResizeObserver(function(){setWidth(Math.max(320,el.clientWidth||320));});observer.observe(el);setWidth(Math.max(320,el.clientWidth||320));return function(){observer.disconnect();};},[]);
+  var msPerPx=NYX_TL_ZOOM_LEVELS[view.zoom], feeds={}; list.forEach(function(g){feeds[g.key]=(perGame[g.key]&&perGame[g.key].events)||[];});
+  var grouped=nyxTlGroupEventsByGame(feeds,list,now).map(function(group){var state=perGame[group.gameKey]||{loading:true,events:[],error:null},game=list.find(function(g){return g.key===group.gameKey;})||{key:group.gameKey,name:group.gameName};var layout=nyxTlAssignSubLanes(group.axis,NYX_TL_BLOCK_MIN_PX*msPerPx),visible=nyxTlVisibleBlocks(layout.blocks,view.centerMs,msPerPx,width,600);if(search)visible=visible.filter(function(b){return String(b.title||'').toLowerCase().includes(search.trim().toLowerCase());});return {game:game,state:state,allBlocks:group.allBlocks,review:group.review,blocks:visible,laneCount:layout.laneCount};});
+  var matches=[], review=[]; grouped.forEach(function(group){group.review.forEach(function(block){review.push({game:group.game,block:block});});if(search.trim())group.allBlocks.forEach(function(block){if(String(block.title||'').toLowerCase().includes(search.trim().toLowerCase()))matches.push({game:group.game,block:block});});});
+  var anyLoading=grouped.some(function(group){return group.state.loading;});
+  var selectedBlock=null,selectedGame=null;if(selected){var lane=grouped.find(function(g){return g.game.key===selected.gameKey;});if(lane){selectedBlock=lane.allBlocks.find(function(b){return b.id===selected.blockId;})||null;selectedGame=lane.game;}}
+  function recenter(ms){setView(function(old){return {centerMs:ms,zoom:old.zoom};});} function panBy(px){setView(function(old){return {centerMs:old.centerMs-px*NYX_TL_ZOOM_LEVELS[old.zoom],zoom:old.zoom};});} function zoomBy(d){setView(function(old){return {centerMs:old.centerMs,zoom:Math.max(0,Math.min(NYX_TL_ZOOM_LEVELS.length-1,old.zoom+d))};});}
+  function pointerDown(event){var x=event.clientX,center=view.centerMs;function move(e){setView(function(old){return {centerMs:center-(e.clientX-x)*NYX_TL_ZOOM_LEVELS[old.zoom],zoom:old.zoom};});}function up(){window.removeEventListener('pointermove',move);window.removeEventListener('pointerup',up);}window.addEventListener('pointermove',move);window.addEventListener('pointerup',up);}
+  return <section className="ntl ntl-xgame" ref={rootRef} aria-label="Cross-game events timeline">
+    <header className="ntl-head"><div><span className="eyebrow">Official event history</span><h1>All Games Events</h1></div></header>
+    <div className="ntl-tools"><label className="ntl-search"><span>Search all events</span><input type="search" value={search} onChange={function(e){setSearch(e.target.value);}} placeholder="Event name" /></label><button type="button" onClick={function(){recenter(Date.now());}}>Today</button><label className="ntl-jump"><span>Jump to date</span><input type="date" value={jumpDate} onChange={function(e){setJumpDate(e.target.value);var at=Date.parse(e.target.value+'T12:00:00');if(Number.isFinite(at))recenter(at);}} /></label><button type="button" aria-label="Zoom out" onClick={function(){zoomBy(-1);}}>−</button><button type="button" aria-label="Zoom in" onClick={function(){zoomBy(1);}}>+</button></div>
+    {anyLoading&&<div className="ntl-status" role="status">Loading event history…</div>}
+    {search&&<div className="ntl-results" aria-live="polite">{matches.slice(0,12).map(function(row){return <button type="button" key={row.game.key+':'+row.block.id} onClick={function(){if(row.block.startMs!==null)recenter(row.block.startMs);setSelected({gameKey:row.game.key,blockId:row.block.id});}}>{row.block.title} - {row.game.name}</button>;})}{!matches.length&&<span>No events found.</span>}</div>}
+    <div className="ntl-canvas" onPointerDown={pointerDown} onWheel={function(e){if(e.ctrlKey){e.preventDefault();zoomBy(e.deltaY>0?-1:1);}else panBy(-e.deltaX||-e.deltaY);}}><div className="ntl-now" style={{left:nyxTlMsToX(now,view.centerMs,msPerPx,width)}}><i>◆</i><span>Now</span></div>{grouped.map(function(group){return group.state.error?<div className="ntl-lane events" key={group.game.key} style={{minHeight:112}}><b>{group.game.icon&&<img src={group.game.icon} alt="" className="ntl-lane-icon"/>}{group.game.name}</b><div className="ntl-xgame-error">{group.game.name}: {group.state.error}</div></div>:<NyxEventLane key={group.game.key} label={group.game.name} icon={group.game.icon} blocks={group.blocks} laneCount={group.laneCount} view={view} msPerPx={msPerPx} width={width} now={now} selected={selected&&selected.gameKey===group.game.key?selected.blockId:null} onSelect={function(block){setSelected({gameKey:group.game.key,blockId:block.id});}}/>;})}</div>
+    {review.length>0&&<div className="ntl-events-review"><b>Needs review - dates not yet confirmed ({review.length})</b><div className="ntl-events-review-list">{review.map(function(row){return <button type="button" key={row.game.key+':'+row.block.id} className={'ntl-block event expected'+(selected&&selected.gameKey===row.game.key&&selected.blockId===row.block.id?' selected':'')} onClick={function(){setSelected({gameKey:row.game.key,blockId:row.block.id});}}><span>{row.game.name}</span><strong>{row.block.image&&<img src={row.block.image} alt="" loading="lazy"/>}{row.block.title}</strong></button>;})}</div></div>}
+    <div className="ntl-detail">{selectedBlock?<><div><span>{selectedGame.name} - {selectedBlock.type||'event'}</span><h2>{selectedBlock.title}</h2><p>{selectedBlock.needsReview?'Dates are not officially confirmed yet':nyxTlViewDate(selectedBlock.startMs)+' - '+(selectedBlock.openEnd?'ongoing (until the next update)':nyxTlViewDate(selectedBlock.endMs))}</p>{selectedBlock.description&&<p>{selectedBlock.description}</p>}</div><div><b>Status</b><p>{{review:'Needs review',ongoing:'Ongoing',live:'Live now',upcoming:'Upcoming',past:'Ended'}[nyxTlEventStatus(selectedBlock,now)]}</p>{selectedBlock.sourceUrl&&<a href={selectedBlock.sourceUrl} target="_blank" rel="noreferrer">Source</a>}</div></>:<p>Select an event for its dates and official source link.</p>}</div>
   </section>;
 }
 
@@ -340,6 +387,7 @@ function CrossGameBannerTimeline({ games }){
     return { game:g, state:state, laneCount:laned.laneCount, allBlocks:laned.blocks, blocks:matches };
   });
   var anyLoading = gameLanes.some(function(gl){ return gl.state.loading; });
+  var searchResults = nyxTlCrossGameBannerSearch(gameLanes.map(function(gl){ return { gameKey:gl.game.key, gameName:gl.game.name, allBlocks:gl.allBlocks }; }), search);
 
   var selectedBlock = null, selectedGame = null;
   if (selected) {
@@ -369,6 +417,7 @@ function CrossGameBannerTimeline({ games }){
       <button type="button" onClick={function(){ recenter(Date.now()); }}>Today</button><label className="ntl-jump"><span>Jump to date</span><input type="date" value={jumpDate} onChange={function(e){ setJumpDate(e.target.value); var at = Date.parse(e.target.value + 'T12:00:00'); if (Number.isFinite(at)) recenter(at); }} /></label><button type="button" aria-label="Zoom out" onClick={function(){ zoomBy(-1); }}>−</button><button type="button" aria-label="Zoom in" onClick={function(){ zoomBy(1); }}>+</button>
     </div>
     {anyLoading && <div className="ntl-status" role="status">Loading complete banner history…</div>}
+    {search && <div className="ntl-results" aria-live="polite">{searchResults.slice(0, 12).map(function(result){ return <button type="button" key={result.gameKey + ':' + result.blockId} onClick={function(){ recenter(result.startMs); setSelected({ gameKey:result.gameKey, blockId:result.blockId }); }}>{result.name} · {result.gameName} · {nyxTlViewDate(result.startMs)}</button>; })}{!searchResults.length && <span>No banner runs found.</span>}</div>}
     <div className="ntl-canvas" onPointerDown={pointerDown} onWheel={function(e){ if (e.ctrlKey) { e.preventDefault(); zoomBy(e.deltaY > 0 ? -1 : 1); } else { panBy(-e.deltaX || -e.deltaY); } }}>
       <div className="ntl-now" style={{ left:nyxTlMsToX(now, view.centerMs, msPerPx, width) }}><i>◆</i><span>Now</span></div>
       {gameLanes.map(function(gl){
@@ -377,14 +426,6 @@ function CrossGameBannerTimeline({ games }){
           : <NyxBannerLane key={gl.game.key} game={gl.game.key} label={gl.game.name} icon={gl.game.icon} blocks={gl.blocks} laneCount={gl.laneCount} view={view} msPerPx={msPerPx} width={width} now={now} selected={selected && selected.gameKey === gl.game.key ? selected.blockId : null} onSelect={function(block){ setSelected({ gameKey:gl.game.key, blockId:block.id }); }} />;
       })}
     </div>
-    {/* Cross-game EVENTS lane intentionally deferred (nyx-0031 / plan M4):
-        it depends on Workstream N's events pipeline, which is still under
-        review in another batch. Drop a stacked events-lane-per-game
-        composition (reusing the same nyxTlBuildEventBlocks/nyxTlSplitEventBlocks
-        pure helpers already used by BannerTimeline's per-game events lane)
-        in the stub below once that lands. Do NOT fetch /data/events/* here
-        until then. */}
-    <div className="ntl-xgame-events-stub" role="note">Cross-game events timeline — coming soon</div>
     <div className="ntl-detail">{selectedBlock ? <><div><span>{selectedGame.name} · {selectedBlock.version || 'Banner'} · {selectedBlock.region || 'time unavailable'}</span><h2>{selectedBlock.primaryFive || selectedBlock.name}</h2><p>{nyxTlViewDate(selectedBlock.startMs, selectedBlock.dateOnly)} – {nyxTlViewDate(selectedBlock.endMs, selectedBlock.dateOnly)} · {nyxTlViewDuration(selectedBlock.startMs, selectedBlock.endMs)}</p></div><div><b>Featured</b><p>{selectedBlock.searchNames.join(', ') || 'No featured names published.'}</p>{selectedBlock.weaponNames.length > 0 && <p><b>Paired weapon:</b> {selectedBlock.weaponNames.join(', ')}</p>}{selectedBlock.sourceUrl && <a href={selectedBlock.sourceUrl} target="_blank" rel="noreferrer">Source</a>}</div></> : <p>Select a banner run for its dates and source link.</p>}</div>
   </section>;
 }

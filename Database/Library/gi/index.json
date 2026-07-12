@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "game": "gi",
-  "generatedAt": "2026-07-11T05:51:38.089Z",
+  "generatedAt": "2026-07-12T09:01:05.289Z",
   "count": 118,
   "entries": [
     {
@@ -110,7 +110,7 @@
     {
       "id": "an-ode-to-khvarena",
       "name": "An Ode to Khvarena",
-      "icon": "icons/d10b54bb87321807e0ecf457f01e7f299d88df2b706beea30d446b6913d3dfa3.webp",
+      "icon": "icons/11f5fd36aee22abcac95d20eabbc8d6b68525d20f5764390e0b81c41988f1da0.webp",
       "file": "an-ode-to-khvarena.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -150,7 +150,7 @@
     {
       "id": "anecdota-septentrionalis",
       "name": "Anecdota Septentrionalis",
-      "icon": "icons/59a6befa7fd5a89fa21c719bb63e618a5af2e7d5cff077d4b8e35d3f8b1d4462.webp",
+      "icon": "icons/58f97cb1c503465d99acf51ede0c0ecb447ecaf25b43ea7c806501d560937782.webp",
       "file": "anecdota-septentrionalis.json",
       "volumeCount": 3,
       "volumeLabels": [
@@ -162,7 +162,7 @@
     {
       "id": "ballads-of-the-squire",
       "name": "Ballads of the Squire",
-      "icon": "icons/65a0a7d1be2c209f288cab0cf9fa431bf2fb59850e321a307297613ff6b827a2.webp",
+      "icon": "icons/95d9ac369af7fd1cb3622833ac0060ee5c95af63458fc4cf752e48668c2e1b83.webp",
       "file": "ballads-of-the-squire.json",
       "volumeCount": 2,
       "volumeLabels": [
@@ -205,7 +205,7 @@
     {
       "id": "customs-of-liyue",
       "name": "Customs of Liyue",
-      "icon": "icons/9b1d74b6d8be75971eb454984b45f6e197c2d7ed6bf9e5751ddb050e2943121a.webp",
+      "icon": "icons/07aeb5e0a0af5bf83fc864fc561543f61fdea6ed8174d3519a86ab8b1dd2afa7.webp",
       "file": "customs-of-liyue.json",
       "volumeCount": 3,
       "volumeLabels": [
@@ -247,7 +247,7 @@
     {
       "id": "draft-hilichurl-ballads",
       "name": "Draft Hilichurl Ballads",
-      "icon": "icons/c40294d47bd5834419a1de3c96d16653426a4feedfdc60f283eabfff19a5aafc.webp",
+      "icon": "icons/63eccc9250caa2576aad6492a7c24f9d57e968123aaac256f9f5675f44ff1927.webp",
       "file": "draft-hilichurl-ballads.json",
       "volumeCount": 3,
       "volumeLabels": [
@@ -313,7 +313,7 @@
     {
       "id": "gliding-instruction-manual",
       "name": "Gliding Instruction Manual",
-      "icon": "icons/51af4bea98e6562faa54f0fa6c944b683ed4c8f7d4da897a18f2b30ab9fbc672.webp",
+      "icon": "icons/8feb1476af79370ff7c9c26da53f3ee5948ea5264cb2ebd25d3a3abdfa2b2aae.webp",
       "file": "gliding-instruction-manual.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -323,7 +323,7 @@
     {
       "id": "glimpses-of-mysterious-inazuma",
       "name": "Glimpses of Mysterious Inazuma",
-      "icon": "icons/be2ecad2fb0e37a6cf1b0499919845282405f8a1829cc9517d5755b3ac6fc8f1.webp",
+      "icon": "icons/63b9ba7bdab082461e8ce429be1700daf473e044a0c3b959df14625d3581849f.webp",
       "file": "glimpses-of-mysterious-inazuma.json",
       "volumeCount": 2,
       "volumeLabels": [
@@ -390,7 +390,7 @@
     {
       "id": "hilichurl-ballad-selection",
       "name": "Hilichurl Ballad Selection",
-      "icon": "icons/adc48253df28f1a2f16d86eba894b90499265e5e253726491dd269517ef995a9.webp",
+      "icon": "icons/eaddd65244d3824aa584912c73613d3a24b5712e8591658b7c314ea7b1e1463d.webp",
       "file": "hilichurl-ballad-selection.json",
       "volumeCount": 2,
       "volumeLabels": [
@@ -466,7 +466,7 @@
     {
       "id": "kompore-the-cunning",
       "name": "Kompore the Cunning",
-      "icon": "icons/5df5ae7485abd6bbe4f8823d2c6ba0ffe0dbd74eb21f1e2530b0c5a190ab2195.webp",
+      "icon": "icons/6037b2d94fbc9124404c7e2431d9ff039e86202cfe56c3f102fb1a8f331e8b55.webp",
       "file": "kompore-the-cunning.json",
       "volumeCount": 3,
       "volumeLabels": [
@@ -573,7 +573,7 @@
     {
       "id": "men-of-lithin",
       "name": "Men of Lithin",
-      "icon": "icons/847c2922c2e0b71391601289bce5e2770594bb3937a1b5bb8660acfe97754581.webp",
+      "icon": "icons/909a0937cb67608c07317ceb23612fc83c8663c3fa9b85c99971b85e449bcb9d.webp",
       "file": "men-of-lithin.json",
       "volumeCount": 3,
       "volumeLabels": [
@@ -666,7 +666,7 @@
     {
       "id": "perinheri",
       "name": "Perinheri",
-      "icon": "icons/7149518aa08f40af83b2496e4df8acd7a3ab4ed90d78c47db1f4871aa8e9ec12.webp",
+      "icon": "icons/2c877cd6ad0c490caa7b8d7da5e154b599ae5fa49804ebf586fdfa295b479a6e.webp",
       "file": "perinheri.json",
       "volumeCount": 2,
       "volumeLabels": [
@@ -677,7 +677,7 @@
     {
       "id": "pharmacist-s-notebook-i",
       "name": "Pharmacist's Notebook (I)",
-      "icon": "icons/ee1abe21286c7b7b4f8cce0867688edf95ccaecc6377cd822b65f347e4add12f.webp",
+      "icon": "icons/bbeb44e0486faf57525e657063e0ff15aa94805074186a5cdd45f18096508575.webp",
       "file": "pharmacist-s-notebook-i.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -687,7 +687,7 @@
     {
       "id": "pharmacist-s-notebook-ii",
       "name": "Pharmacist's Notebook (II)",
-      "icon": "icons/ee1abe21286c7b7b4f8cce0867688edf95ccaecc6377cd822b65f347e4add12f.webp",
+      "icon": "icons/bbeb44e0486faf57525e657063e0ff15aa94805074186a5cdd45f18096508575.webp",
       "file": "pharmacist-s-notebook-ii.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -697,7 +697,7 @@
     {
       "id": "pharmacist-s-notebook-iii",
       "name": "Pharmacist's Notebook (III)",
-      "icon": "icons/ee1abe21286c7b7b4f8cce0867688edf95ccaecc6377cd822b65f347e4add12f.webp",
+      "icon": "icons/bbeb44e0486faf57525e657063e0ff15aa94805074186a5cdd45f18096508575.webp",
       "file": "pharmacist-s-notebook-iii.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -732,7 +732,7 @@
     {
       "id": "ragged-notebook-time-and-wind",
       "name": "Ragged Notebook",
-      "icon": "icons/bc6e3e53cbc994240ec9207504bd8f482f924915988abd29560e137e9505e7c6.webp",
+      "icon": "icons/ea940ffc2bfa79b8fda3e3abc1f3bb3f6cb32ffe4e6d117cbf7aa3e18cdebe9e.webp",
       "file": "ragged-notebook-time-and-wind.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -742,7 +742,7 @@
     {
       "id": "ragged-notebook-bygones-times-like-dust-passing",
       "name": "Ragged Notebook",
-      "icon": "icons/ee1abe21286c7b7b4f8cce0867688edf95ccaecc6377cd822b65f347e4add12f.webp",
+      "icon": "icons/bbeb44e0486faf57525e657063e0ff15aa94805074186a5cdd45f18096508575.webp",
       "file": "ragged-notebook-bygones-times-like-dust-passing.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -752,7 +752,7 @@
     {
       "id": "rangi-nui-s-end",
       "name": "Rangi Nui's End",
-      "icon": "icons/91f75ee90536a029d322be4c1bb464ca3b0ff52e89f23651c591bf4c05e2b38d.webp",
+      "icon": "icons/34efc85f88e321f0d89972039fb19ed6b8df3b82d3b4afbf00a092140ffeff75.webp",
       "file": "rangi-nui-s-end.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -931,7 +931,7 @@
     {
       "id": "stone-tablet-compilations-vol-i",
       "name": "Stone Tablet Compilations: Vol. I",
-      "icon": "icons/1ca61695379b85b4b4d334df312699a2eab53d8657aadcba5820516382e1fd40.webp",
+      "icon": "icons/effb2372760581472891fecee2f282ec1ac381946ea069e50237fb7cd572a6dd.webp",
       "file": "stone-tablet-compilations-vol-i.json",
       "volumeCount": 1,
       "volumeLabels": [
@@ -958,7 +958,7 @@
     {
       "id": "sundjatta-s-first-foray",
       "name": "Sundjatta's First Foray",
-      "icon": "icons/cbc404a37d2d0f482f9375c0b755bd33a36058c74a7d5b34dc9329312f89582e.webp",
+      "icon": "icons/56337f1ba36e7cfcd4aa3884016e8870c03fee734fc5df9e42f5238f330d695b.webp",
       "file": "sundjatta-s-first-foray.json",
       "volumeCount": 3,
       "volumeLabels": [
@@ -1004,7 +1004,7 @@
     {
       "id": "teyvat-travel-guide",
       "name": "Teyvat Travel Guide",
-      "icon": "icons/fa711bf3ed7f53224b66dfc6c1a63a252d6761d9d7d1ba9054ee234231d76acc.webp",
+      "icon": "icons/cab1ce029b30f4511b3901673b9df126a9c5228bdcf1ceec8597f32e63c12488.webp",
       "file": "teyvat-travel-guide.json",
       "volumeCount": 3,
       "volumeLabels": [
@@ -1058,7 +1058,7 @@
     {
       "id": "the-feline-firm",
       "name": "The Feline Firm",
-      "icon": "icons/da67bd5d5c70d687e0060431b3214b6ed31842a6609a38c1ab2754750cd65113.webp",
+      "icon": "icons/3ba8de79d94517df009d988abee33ccca1e7bc4a398450a06be15e31916a4daa.webp",
       "file": "the-feline-firm.json",
       "volumeCount": 8,
       "volumeLabels": [
@@ -1110,7 +1110,7 @@
     {
       "id": "the-headless-coquitao",
       "name": "The Headless Coquitao",
-      "icon": "icons/ec930bb5e0ff284c19c7a5c73fa8f36211779719046f576b697c1dc25da1633f.webp",
+      "icon": "icons/545c56517962ccc4c2cdeacf8db81dd2b64a1fbe7d5a0d6d599457bb356f67a5.webp",
       "file": "the-headless-coquitao.json",
       "volumeCount": 2,
       "volumeLabels": [
@@ -1176,7 +1176,7 @@
     {
       "id": "the-little-witch-and-the-undying-fire",
       "name": "The Little Witch and the Undying Fire",
-      "icon": "icons/bd8c0a48f4ffb9818424f8a0baea5a548d1027f84ee0cd57313af397291a76d3.webp",
+      "icon": "icons/7cdaa23896b200f99ad33c48a8cb7d72e16f02a3251c4c795b4119ac6a09860f.webp",
       "file": "the-little-witch-and-the-undying-fire.json",
       "volumeCount": 7,
       "volumeLabels": [
@@ -1313,7 +1313,7 @@
     {
       "id": "time-trekker",
       "name": "Time Trekker",
-      "icon": "icons/892c6674e7f0f40161f3ef6465b9bcd935d8a711e9ab8e61eb81a6f9a2d7c633.webp",
+      "icon": "icons/7255ad6f5236c18340ffd7d444c7825900887e6daa1ed0384c784ec5d1de187d.webp",
       "file": "time-trekker.json",
       "volumeCount": 3,
       "volumeLabels": [
@@ -1391,7 +1391,7 @@
     {
       "id": "yakshas-the-guardian-adepti",
       "name": "Yakshas: The Guardian Adepti",
-      "icon": "icons/2d0b7d8c5b7fce672ef90fe24a3de9c8078092711a27da132a8c1b238f1705d8.webp",
+      "icon": "icons/d58ba359e1a8bcd838fc00b58ad8586263635fa5a62c1c2f563ba3bc8f1b0d7f.webp",
       "file": "yakshas-the-guardian-adepti.json",
       "volumeCount": 1,
       "volumeLabels": [

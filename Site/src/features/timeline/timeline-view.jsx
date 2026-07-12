@@ -1,8 +1,13 @@
 // Per-game banner timeline. Data is intentionally loaded only from the
 // published /data runtime URLs; Database files are never fetched by the UI.
-function nyxTlViewDate(ms){
+function nyxTlViewDate(ms, dateOnly){
   var d = new Date(ms);
-  return Number.isFinite(d.getTime()) ? d.toLocaleDateString(undefined, { month:'short', day:'numeric', year:'numeric' }) : 'Time unavailable';
+  if (!Number.isFinite(d.getTime())) return 'Time unavailable';
+  var options = { month:'short', day:'numeric', year:'numeric' };
+  // Date-only evidence is a published calendar date, not an instant to shift
+  // through the viewer's timezone (which can turn Jul 9 into Jul 10).
+  if (dateOnly) options.timeZone = 'UTC';
+  return d.toLocaleDateString(undefined, options);
 }
 function nyxTlViewDuration(start, end){
   var days = Math.max(0, Math.round((end - start) / NYX_TL_DAY_MS));
@@ -116,7 +121,9 @@ function BannerTimeline({ game, gameName }){
   var rangeEnd = nyxTlXToMs(width + 600, view.centerMs, msPerPx, width);
   var visible = nyxTlVisibleBlocks(blocks.blocks, view.centerMs, msPerPx, width, 600).filter(function(block){ return !layers.hidePast || block.endMs >= now; });
   var activities = layers.activities ? nyxTlExpandActivities(payload.activities, rangeStart, rangeEnd, regionKey) : [];
+  var activityLayout = nyxTlAssignSubLanes(activities, 12 * msPerPx);
   var markers = layers.custom ? nyxTlViewMarkerInstances(timers, rangeStart, rangeEnd) : [];
+  var markerLayout = nyxTlAssignSubLanes(markers, NYX_TL_MARKER_MIN_PX * msPerPx);
   var ribbons = nyxTlVersionRibbons(visible);
   var searchGroups = nyxTlSearchGroups(blocks.blocks, search);
   var visibleMatches = search ? visible.filter(function(block){ return nyxTlSearchMatch(block, search).match; }) : visible;
@@ -134,7 +141,7 @@ function BannerTimeline({ game, gameName }){
     var token = nyxTlEncodeHash(view);
     try { history.replaceState(null, '', location.pathname + location.search + '#' + token); } catch (e) {}
     var url = location.href;
-    var flash = function(msg){ setCopied(msg); setTimeout(function(){ setCopied(''); }, 2200); };
+    var flash = function(msg){ setCopied(msg); setTimeout(function(){ setCopied(''); }, 5000); };
     // Fallback path: a hidden textarea + execCommand for browsers without
     // (or denying) the async Clipboard API. Either way, give visible
     // success/failure feedback (Sol finding #12).
@@ -152,9 +159,9 @@ function BannerTimeline({ game, gameName }){
       navigator.clipboard.writeText(url).then(function(){ flash('Link copied'); }, function(){ fallback(); });
     } else { fallback(); }
   }
-  // Optional server-reset alignment: snap the chosen instant to 04:00 local,
-  // like the built-in daily/weekly cycles (plan M2).
-  function alignToReset(ms){ if (!Number.isFinite(ms)) return ms; var d = new Date(ms); d.setHours(4, 0, 0, 0); return d.getTime(); }
+  // Optional server-reset alignment uses the selected game server, not the
+  // browser/computer timezone (plan M2).
+  function alignToReset(ms){ return nyxTlAlignToServerReset(ms, region); }
   function buildMarkerRecur(){
     if (form.type !== 'recurring') return null;
     var recur = form.recur === 'monthly' ? { type:'monthly' }
@@ -206,11 +213,11 @@ function BannerTimeline({ game, gameName }){
       {search && <div className="ntl-results" aria-live="polite">{searchGroups.slice(0, 8).map(function(group){ return <button type="button" key={group.name} onClick={function(){ var hit = blocks.blocks.find(function(block){ return block.id === group.blockIds[0]; }); if (hit) { recenter(hit.startMs); setSelected(hit.id); } }}>{group.name} — {group.count} {group.count === 1 ? 'run' : 'runs'}</button>; })}</div>}
       <div className="ntl-canvas" onPointerDown={pointerDown} onWheel={function(e){ if (e.ctrlKey) { e.preventDefault(); zoomBy(e.deltaY > 0 ? -1 : 1); } else { panBy(-e.deltaX || -e.deltaY); } }}>
         <div className="ntl-ribbons">{ribbons.map(function(ribbon){ return <span key={ribbon.version} style={{ left:nyxTlMsToX(ribbon.startMs, view.centerMs, msPerPx, width), width:Math.max(28, (ribbon.endMs - ribbon.startMs) / msPerPx) }}>{ribbon.version}</span>; })}</div><div className="ntl-now" style={{ left:nyxTlMsToX(now, view.centerMs, msPerPx, width) }}><i>◆</i><span>Now</span></div>
-        {layers.banners && <div className="ntl-lane banners" style={{ minHeight:Math.max(112, blocks.laneCount * 104) }}><b>Character banners</b>{visibleMatches.map(function(block){ var x = nyxTlMsToX(block.startMs, view.centerMs, msPerPx, width), w = Math.max(78, (block.endMs - block.startMs) / msPerPx), state = block.startMs <= now && block.endMs >= now ? ' live' : (block.endMs < now ? ' past' : ''), icon = nyxTlViewIcon(game, block.primaryFive); return <button type="button" key={block.id} className={'ntl-block' + state + (block.expected ? ' expected' : '') + (selected === block.id ? ' selected' : '')} title={block.expected ? 'Educated guess — dates not officially confirmed yet' : block.name} style={{ left:x, top:32 + block.lane * 100, width:w }} onClick={function(e){ e.stopPropagation(); setSelected(block.id); }}><span>{block.expected ? 'Expected' : (state === ' live' ? 'LIVE NOW' : block.version || 'Banner')}</span><strong>{icon && <img src={icon} alt="" loading="lazy" />}{block.primaryFive || block.name}</strong>{block.weaponPrimary && <small>Weapon: {block.weaponPrimary}</small>}</button>; })}</div>}
-        {layers.activities && <div className="ntl-lane activities"><b>Activities</b>{activities.map(function(activity){ return <a key={activity.id} className="ntl-activity" href={activity.sourceUrl || undefined} target={activity.sourceUrl ? '_blank' : undefined} rel="noreferrer" style={{ left:nyxTlMsToX(activity.start, view.centerMs, msPerPx, width), width:Math.max(12, (activity.end - activity.start) / msPerPx) }}>{activity.label}</a>; })}</div>}
-        {layers.custom && <div className="ntl-lane custom"><b>Custom planning</b>{markers.map(function(marker){ var w = marker.end > marker.start ? Math.max(6, (marker.end - marker.start) / msPerPx) : undefined; return <span key={marker.id} className={'ntl-marker' + (marker.timer.enabled === false ? ' off' : '')} title={marker.label} style={{ left:nyxTlMsToX(marker.start, view.centerMs, msPerPx, width), width:w, borderColor:marker.color, color:marker.color }}><button type="button" className="ntl-marker-label" title="Edit marker" onClick={function(){ editTimer(marker.timer); }}>{marker.label}</button><button type="button" className="ntl-marker-toggle" aria-pressed={marker.timer.enabled !== false} title={marker.timer.enabled === false ? 'Enable marker' : 'Disable marker'} onClick={function(){ toggleTimer(marker.timer.id); }}>{marker.timer.enabled === false ? '○' : '●'}</button><button type="button" className="ntl-marker-del" aria-label={'Remove ' + marker.label} title="Remove marker" onClick={function(){ deleteTimer(marker.timer.id); }}>×</button></span>; })}</div>}
+        {layers.banners && <div className="ntl-lane banners" style={{ minHeight:Math.max(112, blocks.laneCount * 104) }}><b>Character banners</b>{visibleMatches.map(function(block){ var x = nyxTlMsToX(block.startMs, view.centerMs, msPerPx, width), w = Math.max(78, (block.endMs - block.startMs) / msPerPx), state = block.startMs <= now && block.endMs >= now ? ' live' : (block.endMs < now ? ' past' : ''), icon = nyxTlViewIcon(game, block.primaryFive), tag = block.expected ? 'Expected' : (state === ' live' ? 'LIVE · ' + nyxTlCountdownLabel(block.endMs - now) : block.version || 'Banner'); return <button type="button" key={block.id} className={'ntl-block' + state + (block.expected ? ' expected' : '') + (selected === block.id ? ' selected' : '')} title={block.expected ? 'Educated guess — dates not officially confirmed yet' : block.name} style={{ left:x, top:32 + block.lane * 100, width:w }} onClick={function(e){ e.stopPropagation(); setSelected(block.id); }}><span>{tag}</span><strong>{icon && <img src={icon} alt="" loading="lazy" />}{block.primaryFive || block.name}</strong>{block.weaponPrimary && <small>Weapon: {block.weaponPrimary}</small>}</button>; })}</div>}
+        {layers.activities && <div className="ntl-lane activities" style={{ minHeight:Math.max(58, 30 + activityLayout.laneCount * 26) }}><b>Activities</b>{activityLayout.blocks.map(function(activity){ return <a key={activity.id} className="ntl-activity" href={activity.sourceUrl || undefined} target={activity.sourceUrl ? '_blank' : undefined} rel="noreferrer" title={activity.label} style={{ left:nyxTlMsToX(activity.start, view.centerMs, msPerPx, width), top:23 + activity.lane * 26, width:Math.max(12, (activity.end - activity.start) / msPerPx) }}>{activity.label}</a>; })}</div>}
+        {layers.custom && <div className="ntl-lane custom" style={{ minHeight:Math.max(58, 30 + markerLayout.laneCount * 31) }}><b>Custom planning</b>{markerLayout.blocks.map(function(marker){ var w = Math.max(NYX_TL_MARKER_MIN_PX, (marker.end - marker.start) / msPerPx); return <span key={marker.id} className={'ntl-marker' + (marker.timer.enabled === false ? ' off' : '')} title={marker.label} style={{ left:nyxTlMsToX(marker.start, view.centerMs, msPerPx, width), top:23 + marker.lane * 31, width:w, borderColor:marker.color, color:marker.color }}><button type="button" className="ntl-marker-label" title="Edit marker" onClick={function(){ editTimer(marker.timer); }}>{marker.label}</button><button type="button" className="ntl-marker-toggle" aria-pressed={marker.timer.enabled !== false} title={marker.timer.enabled === false ? 'Enable marker' : 'Disable marker'} onClick={function(){ toggleTimer(marker.timer.id); }}>{marker.timer.enabled === false ? '○' : '●'}</button><button type="button" className="ntl-marker-del" aria-label={'Remove ' + marker.label} title="Remove marker" onClick={function(){ deleteTimer(marker.timer.id); }}>×</button></span>; })}</div>}
       </div>
-      <div className="ntl-detail">{selectedBlock ? <><div><span>{selectedBlock.version || 'Banner'} · {selectedBlock.region || 'time unavailable'}</span><h2>{selectedBlock.primaryFive || selectedBlock.name}</h2><p>{nyxTlViewDate(selectedBlock.startMs)} – {nyxTlViewDate(selectedBlock.endMs)} · {nyxTlViewDuration(selectedBlock.startMs, selectedBlock.endMs)}</p></div><div><b>Featured</b><p>{selectedBlock.searchNames.join(', ') || 'No featured names published.'}</p>{selectedBlock.weaponNames.length > 0 && <p><b>Paired weapon:</b> {selectedBlock.weaponNames.join(', ')}</p>}{selectedBlock.sourceUrl && <a href={selectedBlock.sourceUrl} target="_blank" rel="noreferrer">Source</a>}</div></> : <p>Select a banner run for its dates, featured characters and paired weapon.</p>}</div>
+      <div className="ntl-detail">{selectedBlock ? <><div><span>{selectedBlock.version || 'Banner'} · {selectedBlock.region || 'time unavailable'}</span><h2>{selectedBlock.primaryFive || selectedBlock.name}</h2><p>{nyxTlViewDate(selectedBlock.startMs, selectedBlock.dateOnly)} – {nyxTlViewDate(selectedBlock.endMs, selectedBlock.dateOnly)} · {nyxTlViewDuration(selectedBlock.startMs, selectedBlock.endMs)}</p></div><div><b>Featured</b><p>{selectedBlock.searchNames.join(', ') || 'No featured names published.'}</p>{selectedBlock.weaponNames.length > 0 && <p><b>Paired weapon:</b> {selectedBlock.weaponNames.join(', ')}</p>}{selectedBlock.sourceUrl && <a href={selectedBlock.sourceUrl} target="_blank" rel="noreferrer">Source</a>}</div></> : <p>Select a banner run for its dates, featured characters and paired weapon.</p>}</div>
     </>}
   </section>;
 }

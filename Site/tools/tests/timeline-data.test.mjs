@@ -115,3 +115,39 @@ test('activities, share state, and viewport virtualization remain deterministic'
   const visible = api.visibleBlocks([{ startMs:0, endMs:10 }, { startMs:9e9, endMs:9e9 + 1 }], 0, 1, 100, 0);
   assert.equal(visible.length, 1);
 });
+
+test('reset alignment follows the selected server, never the browser timezone', () => {
+  const input = Date.parse('2026-07-11T12:30:00.000Z');
+  assert.equal(iso(api.alignToServerReset(input, 'na')), '2026-07-11T09:00:00.000Z');
+  assert.equal(iso(api.alignToServerReset(input, 'eu')), '2026-07-11T03:00:00.000Z');
+  assert.equal(iso(api.alignToServerReset(input, 'asia')), '2026-07-10T20:00:00.000Z');
+});
+
+test('live-card countdown labels are compact and deterministic', () => {
+  assert.equal(api.countdownLabel(2 * api.DAY_MS + 3 * 3600000), '2d 03h');
+  assert.equal(api.countdownLabel(3 * 3600000 + 2 * 60000 + 1000), '03:02:01');
+  assert.equal(api.countdownLabel(-1), '00:00:00');
+});
+
+test('simultaneous activities receive separate sub-lanes', () => {
+  const layout = plain(api.assignSubLanes([
+    { id:'a', start:0, end:100 },
+    { id:'b', start:20, end:80 },
+    { id:'c', start:100, end:200 },
+  ], 0));
+  assert.equal(layout.laneCount, 2);
+  assert.deepEqual(layout.blocks.map((row) => [row.id, row.lane]), [['a', 0], ['b', 1], ['c', 0]]);
+});
+
+test('server-fixed interval anchors land at 04:00 in each selected region', () => {
+  const def = {
+    id:'zzz-cycle', label:'Cycle', mode:'fixed', timezoneMode:'server-fixed', resetHour:4,
+    anchorStart:'2025-01-02T20:00:00.000Z', intervalDays:14, durationDays:14,
+    sourceUrl:'https://example.test/cycle',
+  };
+  const start = Date.parse('2025-01-01T00:00:00.000Z');
+  const end = Date.parse('2025-01-20T00:00:00.000Z');
+  assert.equal(iso(api.expandActivity(def, start, end, 'asia')[0].start), '2025-01-02T20:00:00.000Z');
+  assert.equal(iso(api.expandActivity(def, start, end, 'europe')[0].start), '2025-01-03T03:00:00.000Z');
+  assert.equal(iso(api.expandActivity(def, start, end, 'america')[0].start), '2025-01-03T09:00:00.000Z');
+});

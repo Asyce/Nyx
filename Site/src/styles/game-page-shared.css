@@ -632,7 +632,7 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
 }
 .gp-reset-regions{
   display:grid;
-  grid-template-columns:repeat(4, minmax(0, 1fr));
+  grid-template-columns:repeat(3, minmax(0, 1fr));
   gap:5px;
 }
 .gp-reset-regions button{
@@ -699,7 +699,7 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
 .gp-reset-tile.custom{
   position:relative;
   min-height:48px;
-  padding-right:34px;
+  padding-right:60px;
 }
 .gp-reset-tile.custom button{
   position:absolute;
@@ -3776,13 +3776,13 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 /* Batch 14 fixes — copy-link feedback, marker controls, marker form extras */
 .ntl-copied{ align-self:center; color:#bff3e4; font-size:11px; padding:4px 8px; border-radius:7px; background:rgba(30,91,87,.5); }
 .ntl-marker-form label.ntl-until,.ntl-marker-form label.ntl-align{ display:flex; align-items:center; gap:5px; color:#aaa0cb; font-size:11px; white-space:nowrap; }
-.ntl-marker{ display:flex; align-items:center; gap:5px; }.ntl-marker.off{ opacity:.5; filter:saturate(.4); }
+.ntl-marker{ display:flex; align-items:center; gap:5px; min-width:110px; box-sizing:border-box; }.ntl-marker.off{ opacity:.5; filter:saturate(.4); }
 .ntl-marker>button{ border:0; background:transparent; color:inherit; cursor:pointer; padding:0; font:inherit; line-height:1; }
 .ntl-marker .ntl-marker-label{ overflow:hidden; text-overflow:ellipsis; white-space:nowrap; text-align:left; }
 .ntl-marker .ntl-marker-toggle,.ntl-marker .ntl-marker-del{ flex:0 0 auto; font-size:11px; opacity:.85; }
 .ntl-marker .ntl-marker-del{ font-size:13px; }
 .gp-reset-tile.custom.off{ opacity:.55; }
-.gp-reset-tile.custom button[aria-pressed]{ opacity:.8; }
+.gp-reset-tile.custom button[aria-pressed]{ right:33px; opacity:.8; }
 .gt-pity-observatory{ grid-area:pity; }
 .gt-ledger-line{ display:grid; grid-template-columns:repeat(3, minmax(0,1fr)); gap:7px; }
 .gt-ledger-line div{ min-width:0; border-radius:9px; padding:9px 8px; background:rgba(8,6,22,.55);

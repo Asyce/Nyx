@@ -44,6 +44,7 @@ var NYX_TL_DEFAULT_ZOOM = 3;
 // never visually overlap even when their true time spans do not. Kept in
 // sync with the Math.max(78, ...) in timeline-view.jsx and the CSS.
 var NYX_TL_BLOCK_MIN_PX = 78;
+var NYX_TL_MARKER_MIN_PX = 110;
 
 // The vertical "now" line sits at the golden-ratio point from the left,
 // so history stretches left and upcoming stretches right.
@@ -66,6 +67,39 @@ function nyxTlOffsetHours(regionKey){
   if (regionKey === 'europe') return 1;
   if (regionKey === 'america') return -5;
   return 0;
+}
+
+// Snap an instant to 04:00 on the SAME calendar date in the selected game
+// server. The datetime-local input is parsed in the browser timezone, so doing
+// d.setHours(4) would silently align to the computer instead of NA/EU/Asia.
+function nyxTlAlignToServerReset(ms, settingKey){
+  if (!Number.isFinite(ms)) return ms;
+  var offH = nyxTlOffsetHours(nyxTlRegionKey(settingKey));
+  var serverDate = new Date(ms + offH * 3600000);
+  return Date.UTC(
+    serverDate.getUTCFullYear(),
+    serverDate.getUTCMonth(),
+    serverDate.getUTCDate(),
+    4 - offH,
+    0,
+    0,
+    0
+  );
+}
+
+// Compact live-card countdown. Long-running banners show days + hours; the
+// final day shows a ticking HH:MM:SS value driven by the view's shared clock.
+function nyxTlCountdownLabel(remainingMs){
+  var total = Math.max(0, Math.floor(Number(remainingMs) / 1000));
+  if (!Number.isFinite(total)) return '';
+  var days = Math.floor(total / 86400);
+  var hours = Math.floor((total % 86400) / 3600);
+  var minutes = Math.floor((total % 3600) / 60);
+  var seconds = total % 60;
+  function pad(n){ return String(n).padStart(2, '0'); }
+  return days > 0
+    ? days + 'd ' + pad(hours) + 'h'
+    : pad(hours) + ':' + pad(minutes) + ':' + pad(seconds);
 }
 
 // Select the window for a record given the user's region. Priority:
@@ -310,10 +344,10 @@ function nyxTlBuildBlocks(records, regionKey){
   return out;
 }
 
-// Greedy interval-graph colouring: assign each block the lowest sub-lane
-// index whose previous block has already ended. Blocks must be sorted by
-// startMs. Mutates nothing; returns a new array with `.lane` set and the
-// total lane count.
+// Greedy interval-graph colouring: assign each banner/activity interval the
+// lowest sub-lane whose previous interval has already ended. Accepts either
+// startMs/endMs (banners) or start/end (activities). Mutates nothing; returns
+// a new array with `.lane` set and the total lane count.
 //
 // `minSpanMs` inflates each block's effective extent so a card that renders
 // at the min-width (78px) reserves at least that much horizontal room in the
@@ -322,15 +356,19 @@ function nyxTlBuildBlocks(records, regionKey){
 // pass minSpanMs = NYX_TL_BLOCK_MIN_PX * msPerPx for the current zoom.
 function nyxTlAssignSubLanes(blocks, minSpanMs){
   var pad = (typeof minSpanMs === 'number' && minSpanMs > 0) ? minSpanMs : 0;
-  var sorted = (blocks || []).slice().sort(function(a, b){ return a.startMs - b.startMs; });
+  function startsAt(row){ return row && row.startMs != null ? row.startMs : row && row.start; }
+  var sorted = (blocks || []).slice().sort(function(a, b){ return startsAt(a) - startsAt(b); });
   var laneEnds = []; // laneEnds[i] = effective endMs of last block in lane i
   var result = [];
   for (var i = 0; i < sorted.length; i++) {
     var b = sorted[i];
-    var effEnd = Math.max(b.endMs, b.startMs + pad);
+    var start = b.startMs != null ? b.startMs : b.start;
+    var end = b.endMs != null ? b.endMs : b.end;
+    if (!Number.isFinite(start) || !Number.isFinite(end)) continue;
+    var effEnd = Math.max(end, start + pad);
     var placed = -1;
     for (var l = 0; l < laneEnds.length; l++) {
-      if (b.startMs >= laneEnds[l]) { placed = l; break; }
+      if (start >= laneEnds[l]) { placed = l; break; }
     }
     if (placed === -1) { placed = laneEnds.length; laneEnds.push(effEnd); }
     else laneEnds[placed] = effEnd;
@@ -403,6 +441,18 @@ function nyxTlExpandFixedCalendar(def, rangeStart, rangeEnd, offH){
 function nyxTlExpandFixedInterval(def, rangeStart, rangeEnd, regionKey){
   var anchor = nyxTlNum(def.anchorStart);
   if (anchor === null || !def.intervalDays) return [];
+  // Server-fixed definitions store the canonical anchor at Asia's reset.
+  // Re-express that same server-local calendar date at 04:00 for the user's
+  // selected region; otherwise EU/NA inherit Asia's 20:00Z boundary.
+  if (def.timezoneMode === 'server-fixed' || def.timezoneMode === 'server') {
+    var asiaAnchor = new Date(anchor + 8 * 3600000);
+    var offH = nyxTlOffsetHours(regionKey);
+    var resetHour = Number.isFinite(def.resetHour) ? def.resetHour : asiaAnchor.getUTCHours();
+    anchor = Date.UTC(
+      asiaAnchor.getUTCFullYear(), asiaAnchor.getUTCMonth(), asiaAnchor.getUTCDate(),
+      resetHour - offH, 0, 0, 0
+    );
+  }
   var intervalMs = def.intervalDays * NYX_TL_DAY_MS;
   if (intervalMs <= 0) return [];
   var durMs = Math.max(1, def.durationDays || def.intervalDays) * NYX_TL_DAY_MS;
@@ -420,8 +470,9 @@ function nyxTlExpandFixedInterval(def, rangeStart, rangeEnd, regionKey){
     var ws = nyxTlNum(w.start), we = nyxTlNum(w.end);
     if (ws === null) continue;
     var exStart = nyxTlNum(ex.start);
-    if (exStart !== null) exMap[exStart] = { start: ws, end: we !== null ? we : ws + durMs };
-    extras.push({ start: ws, end: we !== null ? we : ws + durMs, exception: true });
+    var exSourceUrl = w.sourceUrl || ex.sourceUrl || null;
+    if (exStart !== null) exMap[exStart] = { start: ws, end: we !== null ? we : ws + durMs, sourceUrl:exSourceUrl };
+    extras.push({ start: ws, end: we !== null ? we : ws + durMs, exception: true, sourceUrl:exSourceUrl });
   }
   var out = [];
   var k = Math.floor((rangeStart - anchor) / intervalMs) - 1;
@@ -432,8 +483,9 @@ function nyxTlExpandFixedInterval(def, rangeStart, rangeEnd, regionKey){
     if (s > rangeEnd) break;
     if (s >= stopAfter) break; // cadence stops; never extrapolate across the stop/exception
     var e = s + durMs;
-    if (exMap[s]) { e = exMap[s].end; }
-    if (e >= rangeStart) out.push({ start: s, end: e });
+    var exHit = exMap[s] || null;
+    if (exHit) { e = exHit.end; }
+    if (e >= rangeStart) out.push({ start: s, end: e, sourceUrl:exHit && exHit.sourceUrl });
     k++;
   }
   // Append exception windows that fall in range (e.g. the extended tail).
@@ -442,7 +494,7 @@ function nyxTlExpandFixedInterval(def, rangeStart, rangeEnd, regionKey){
     if (ee.end >= rangeStart && ee.start <= rangeEnd) {
       var dup = false;
       for (var d = 0; d < out.length; d++) if (out[d].start === ee.start) { dup = true; break; }
-      if (!dup) out.push({ start: ee.start, end: ee.end });
+      if (!dup) out.push({ start: ee.start, end: ee.end, sourceUrl:ee.sourceUrl });
     }
   }
   out.sort(function(a, b){ return a.start - b.start; });
@@ -646,12 +698,15 @@ if (typeof window !== 'undefined') {
     ZOOM_LEVELS: NYX_TL_ZOOM_LEVELS,
     DEFAULT_ZOOM: NYX_TL_DEFAULT_ZOOM,
     BLOCK_MIN_PX: NYX_TL_BLOCK_MIN_PX,
+    MARKER_MIN_PX: NYX_TL_MARKER_MIN_PX,
     NOW_FRACTION: NYX_TL_NOW_FRACTION,
     rarityRank: nyxTlRarityRank,
     isHighRarity: nyxTlIsHighRarity,
     dateOnlyWindow: nyxTlDateOnlyWindow,
     regionKey: nyxTlRegionKey,
     offsetHours: nyxTlOffsetHours,
+    alignToServerReset: nyxTlAlignToServerReset,
+    countdownLabel: nyxTlCountdownLabel,
     selectWindow: nyxTlSelectWindow,
     blockFromRecord: nyxTlBlockFromRecord,
     buildBlocks: nyxTlBuildBlocks,

@@ -4322,9 +4322,15 @@ function NyxApp(){
     const safeTab = coerceTabForKey(safeKey, nextTab || 'overview');
     const href = routePathFor(safeKey, safeTab, selection);
     try {
-      if (href && (location.pathname !== href || location.hash)) {
+      // Keep a timeline share token while canonicalizing `genshin.html` to
+      // `/genshin`. Other/legacy hashes still clear when the active tab changes.
+      const timelineHash = safeKey !== 'nyx' && safeTab === 'overview'
+        && /^#tl\.[0-9a-z]+\.\d+$/.test(String(location.hash || ''))
+        ? location.hash : '';
+      const target = href + String(location.search || '') + timelineHash;
+      if (href && location.pathname + location.search + location.hash !== target) {
         const method = opts && opts.replace ? 'replaceState' : 'pushState';
-        window.history[method](routeStateFor(safeKey, safeTab, selection), '', href);
+        window.history[method](routeStateFor(safeKey, safeTab, selection), '', target);
       }
       document.title = routeTitleFor(safeKey, safeTab, selection);
     } catch (e) {}

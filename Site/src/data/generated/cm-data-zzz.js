@@ -34,6 +34,7 @@
         "Ice",
         "Electric",
         "Ether",
+        "Lumiflux",
         "Wind"
       ]
     },
@@ -144042,6 +144043,2624 @@
           "cost": 320000
         }
       }
+    },
+    {
+      "id": "zzz-remielle",
+      "n": "Remielle",
+      "localizedNames": {
+        "zh": "\u857e\u7c73\u57c3\u5c14"
+      },
+      "slug": "remielle",
+      "updated": 1778536800000,
+      "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Amber Lee Connors",
+        "japanese": "Onishi Saori"
+      },
+      "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle67.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/remielle-e8b52d52cf40.webp",
+      "card": "../../Database/Prydwen/zzz/assets/characters/remielle-e8b52d52cf40.webp",
+      "status": "beta",
+      "labels": [
+        "3.x"
+      ],
+      "r": "A",
+      "el": "Lumiflux",
+      "spec": "Anomaly",
+      "tag": "Unknown",
+      "baseStats": {
+        "level1": {
+          "hp": 602,
+          "atk": 124,
+          "def": 48,
+          "critRate": 0.05,
+          "critDmg": 0.5,
+          "impact": 83,
+          "anomalyProficiency": 115,
+          "anomalyMastery": 116
+        },
+        "max": {
+          "level": 60,
+          "hp": 7482.71,
+          "atk": 748.46,
+          "def": 600.59,
+          "critRate": 0.05,
+          "critDmg": 0.5,
+          "impact": 83,
+          "anomalyProficiency": 115,
+          "anomalyMastery": 116
+        }
+      },
+      "facts": {
+        "faction": "Covenant of Dayat"
+      },
+      "skillIcons": [
+        "../../Database/GameData/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/GameData/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/GameData/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/GameData/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/GameData/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
+      "kit": {
+        "source": "Game data",
+        "channel": "beta",
+        "version": "3.1.4+17279672",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Flutter",
+                "type": "Basic",
+                "desc": "Press to activate:\nPerform up to 4 consecutive attacks forward, dealing Lumen Attribute DMG;\nIf a Basic Attack hits the target, the Character recovers [Plume Gauge] after the skill ends;\nThe 4th Basic Attack hit applies 1 [Lumen Buildup Point] to the target.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1st-Hit DMG Multiplier",
+                        "values": [
+                          "31.2%",
+                          "34.1%",
+                          "37%",
+                          "39.9%",
+                          "42.8%",
+                          "45.7%",
+                          "48.6%",
+                          "51.5%",
+                          "54.4%",
+                          "57.3%",
+                          "60.2%",
+                          "63.1%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit DMG Multiplier",
+                        "values": [
+                          "54.5%",
+                          "59.5%",
+                          "64.5%",
+                          "69.5%",
+                          "74.5%",
+                          "79.5%",
+                          "84.5%",
+                          "89.5%",
+                          "94.5%",
+                          "99.5%",
+                          "104.5%",
+                          "109.5%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit DMG Multiplier",
+                        "values": [
+                          "84.3%",
+                          "92%",
+                          "99.7%",
+                          "107.4%",
+                          "115.1%",
+                          "122.8%",
+                          "130.5%",
+                          "138.2%",
+                          "145.9%",
+                          "153.6%",
+                          "161.3%",
+                          "169%"
+                        ]
+                      },
+                      {
+                        "label": "4th-Hit DMG Multiplier",
+                        "values": [
+                          "250.8%",
+                          "273.6%",
+                          "296.4%",
+                          "319.2%",
+                          "342%",
+                          "364.8%",
+                          "387.6%",
+                          "410.4%",
+                          "433.2%",
+                          "456%",
+                          "478.8%",
+                          "501.6%"
+                        ]
+                      },
+                      {
+                        "label": "1st-Hit Daze Multiplier",
+                        "values": [
+                          "12.2%",
+                          "12.8%",
+                          "13.4%",
+                          "14%",
+                          "14.6%",
+                          "15.2%",
+                          "15.8%",
+                          "16.4%",
+                          "17%",
+                          "17.6%",
+                          "18.2%",
+                          "18.8%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit Daze Multiplier",
+                        "values": [
+                          "28.2%",
+                          "29.5%",
+                          "30.8%",
+                          "32.1%",
+                          "33.4%",
+                          "34.7%",
+                          "36%",
+                          "37.3%",
+                          "38.6%",
+                          "39.9%",
+                          "41.2%",
+                          "42.5%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit Daze Multiplier",
+                        "values": [
+                          "49.3%",
+                          "51.6%",
+                          "53.9%",
+                          "56.2%",
+                          "58.5%",
+                          "60.8%",
+                          "63.1%",
+                          "65.4%",
+                          "67.7%",
+                          "70%",
+                          "72.3%",
+                          "74.6%"
+                        ]
+                      },
+                      {
+                        "label": "4th-Hit Daze Multiplier",
+                        "values": [
+                          "126.6%",
+                          "132.4%",
+                          "138.2%",
+                          "144%",
+                          "149.8%",
+                          "155.6%",
+                          "161.4%",
+                          "167.2%",
+                          "173%",
+                          "178.8%",
+                          "184.6%",
+                          "190.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Basic Attack: Solo Dance",
+                "type": "Basic",
+                "desc": "Hold to activate:\nPerform a wide-range Slash forward, dealing Lumiflux Attribute DMG;\nIf the skill hits a target, the Character recovers [Feather Gauge] after the skill ends.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "96.5%",
+                          "105.3%",
+                          "114.1%",
+                          "122.9%",
+                          "131.7%",
+                          "140.5%",
+                          "149.3%",
+                          "158.1%",
+                          "166.9%",
+                          "175.7%",
+                          "184.5%",
+                          "193.3%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "81.6%",
+                          "85.4%",
+                          "89.2%",
+                          "93%",
+                          "96.8%",
+                          "100.6%",
+                          "104.4%",
+                          "108.2%",
+                          "112%",
+                          "115.8%",
+                          "119.6%",
+                          "123.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Basic Attack: Trailing Rainbow",
+                "type": "Basic",
+                "desc": "When the Character has [Void Radiance] stored, hold to activate:\nLaunch a powerful large area attack forward, dealing Lumiflux Attribute DMG;\nAfter the skill ends, restore a large amount of [Plume Gauge] for the Character;\nIf the attack hits a target, trigger the [Luminize] effect after the skill ends, with a multiplier of {CAL:110+AvatarSkillLevel(0)*3,1,2}%;\nAll stored [Void Radiance] will be cleared upon activation.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "195%",
+                          "212.8%",
+                          "230.6%",
+                          "248.4%",
+                          "266.2%",
+                          "284%",
+                          "301.8%",
+                          "319.6%",
+                          "337.4%",
+                          "355.2%",
+                          "373%",
+                          "390.8%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "165%",
+                          "172.5%",
+                          "180%",
+                          "187.5%",
+                          "195%",
+                          "202.5%",
+                          "210%",
+                          "217.5%",
+                          "225%",
+                          "232.5%",
+                          "240%",
+                          "247.5%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Basic Attack: Fleeting Crane",
+                "type": "Basic",
+                "desc": "When the Character has stored [Void Radiance] and is in the [Mirror Radiance] state, hold to activate:\nLaunch a powerful large area attack forward, dealing Lumen Attribute DMG;\nAfter the skill ends, restore a large amount of [Feather Gauge] for the Character;\nIf it hits a target, the [Luminize] effect can be triggered after the skill ends, with a multiplier of {CAL:220+AvatarSkillLevel(0)*5,1,2}%;\nAfter activation, all stored [Void Radiance] will be cleared.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "597.2%",
+                          "651.5%",
+                          "705.8%",
+                          "760.1%",
+                          "814.4%",
+                          "868.7%",
+                          "923%",
+                          "977.3%",
+                          "1031.6%",
+                          "1085.9%",
+                          "1140.2%",
+                          "1194.5%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "388.7%",
+                          "406.4%",
+                          "424.1%",
+                          "441.8%",
+                          "459.5%",
+                          "477.2%",
+                          "494.9%",
+                          "512.6%",
+                          "530.3%",
+                          "548%",
+                          "565.7%",
+                          "583.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Dodge: Light Suppression",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Sharp Edge",
+                "type": "Dodge",
+                "desc": "Press during a dodge to activate:\nDeliver a quick attack forward, dealing Lumen DMG.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "39%",
+                          "42.6%",
+                          "46.2%",
+                          "49.8%",
+                          "53.4%",
+                          "57%",
+                          "60.6%",
+                          "64.2%",
+                          "67.8%",
+                          "71.4%",
+                          "75%",
+                          "78.6%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "33%",
+                          "34.5%",
+                          "36%",
+                          "37.5%",
+                          "39%",
+                          "40.5%",
+                          "42%",
+                          "43.5%",
+                          "45%",
+                          "46.5%",
+                          "48%",
+                          "49.5%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Dodge Counter: Shadow",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nExecutes a powerful slash on the target, dealing Lumen DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "214.5%",
+                          "234%",
+                          "253.5%",
+                          "273%",
+                          "292.5%",
+                          "312%",
+                          "331.5%",
+                          "351%",
+                          "370.5%",
+                          "390%",
+                          "409.5%",
+                          "429%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "165%",
+                          "172.5%",
+                          "180%",
+                          "187.5%",
+                          "195%",
+                          "202.5%",
+                          "210%",
+                          "217.5%",
+                          "225%",
+                          "232.5%",
+                          "240%",
+                          "247.5%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Quick Assist: Reborn From Ashes",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nSlash the target, dealing Lumiflux DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "32.5%",
+                          "35.5%",
+                          "38.5%",
+                          "41.5%",
+                          "44.5%",
+                          "47.5%",
+                          "50.5%",
+                          "53.5%",
+                          "56.5%",
+                          "59.5%",
+                          "62.5%",
+                          "65.5%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "27.5%",
+                          "28.8%",
+                          "30.1%",
+                          "31.4%",
+                          "32.7%",
+                          "34%",
+                          "35.3%",
+                          "36.6%",
+                          "37.9%",
+                          "39.2%",
+                          "40.5%",
+                          "41.8%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Defensive Assist: Flickering Shadow",
+                "type": "Assist",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Light Defensive Daze Multiplier",
+                        "values": [
+                          "271.3%",
+                          "283.7%",
+                          "296.1%",
+                          "308.5%",
+                          "320.9%",
+                          "333.3%",
+                          "345.7%",
+                          "358.1%",
+                          "370.5%",
+                          "382.9%",
+                          "395.3%",
+                          "407.7%"
+                        ]
+                      },
+                      {
+                        "label": "Heavy Defensive Daze Multiplier",
+                        "values": [
+                          "342.8%",
+                          "358.4%",
+                          "374%",
+                          "389.6%",
+                          "405.2%",
+                          "420.8%",
+                          "436.4%",
+                          "452%",
+                          "467.6%",
+                          "483.2%",
+                          "498.8%",
+                          "514.4%"
+                        ]
+                      },
+                      {
+                        "label": "Chain Defensive Daze Multiplier",
+                        "values": [
+                          "166.8%",
+                          "174.4%",
+                          "182%",
+                          "189.6%",
+                          "197.2%",
+                          "204.8%",
+                          "212.4%",
+                          "220%",
+                          "227.6%",
+                          "235.2%",
+                          "242.8%",
+                          "250.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Assist Follow-Up: Twilight's Last Flicker",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nUnleash a series of slashes on the target, dealing Lumen DMG.\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "381.1%",
+                          "415.8%",
+                          "450.5%",
+                          "485.2%",
+                          "519.9%",
+                          "554.6%",
+                          "589.3%",
+                          "624%",
+                          "658.7%",
+                          "693.4%",
+                          "728.1%",
+                          "762.8%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "277.6%",
+                          "290.3%",
+                          "303%",
+                          "315.7%",
+                          "328.4%",
+                          "341.1%",
+                          "353.8%",
+                          "366.5%",
+                          "379.2%",
+                          "391.9%",
+                          "404.6%",
+                          "417.3%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Assist: Petal Feather Waltz",
+                "type": "Assist",
+                "desc": "Enter and launch a large area attack, dealing Lumen Attribute DMG;\nConsumes 40 [New Feather Value] upon activation. If the remaining [New Feather Value] is equal to or less than 90 at the time of activation, this [Assist: Feather Petal Waltz] no longer consumes [New Feather Value], and the character enters the [Radiant Glow] state. The next use of [Basic Attack: Cascading Rainbow] will be upgraded to [Basic Attack: Startled Swan];\nWhen the skill hits an enemy in a Stunned state, the enemy's Stun duration is extended by 3s. Each enemy can only receive this effect once per Stun state, and this Stun duration extension effect cannot stack with effects of the same type;\nIf a target is hit, the [Luminize] effect can be triggered after the skill ends, with a multiplier of {CAL:220+AvatarSkillLevel(6)*5,1,2}%;\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "453.5%",
+                          "494.8%",
+                          "536.1%",
+                          "577.4%",
+                          "618.7%",
+                          "660%",
+                          "701.3%",
+                          "742.6%",
+                          "783.9%",
+                          "825.2%",
+                          "866.5%",
+                          "907.8%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "295.2%",
+                          "308.7%",
+                          "322.2%",
+                          "335.7%",
+                          "349.2%",
+                          "362.7%",
+                          "376.2%",
+                          "389.7%",
+                          "403.2%",
+                          "416.7%",
+                          "430.2%",
+                          "443.7%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Special Attack: Twilight",
+                "type": "Special",
+                "desc": "Press to activate:\nLaunch a ranged attack forward, dealing Lumiflux Attribute DMG.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "49.9%",
+                          "54.5%",
+                          "59.1%",
+                          "63.7%",
+                          "68.3%",
+                          "72.9%",
+                          "77.5%",
+                          "82.1%",
+                          "86.7%",
+                          "91.3%",
+                          "95.9%",
+                          "100.5%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "42.2%",
+                          "44.2%",
+                          "46.2%",
+                          "48.2%",
+                          "50.2%",
+                          "52.2%",
+                          "54.2%",
+                          "56.2%",
+                          "58.2%",
+                          "60.2%",
+                          "62.2%",
+                          "64.2%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "EX Special Attack: Dawn Exaltation",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nUpon entering the battlefield, if the user's Energy is below 60, restore it to 60. In Investigation Zone mode, this effect can trigger at most once every 180 seconds;\nLaunch a large area attack forward, dealing Lumen Attribute DMG;\nAfter the skill ends, apply 2 [Lumen Buildup Points] to hit enemies;\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "721.5%",
+                          "787.1%",
+                          "852.7%",
+                          "918.3%",
+                          "983.9%",
+                          "1049.5%",
+                          "1115.1%",
+                          "1180.7%",
+                          "1246.3%",
+                          "1311.9%",
+                          "1377.5%",
+                          "1443.1%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "283.3%",
+                          "296.2%",
+                          "309.1%",
+                          "322%",
+                          "334.9%",
+                          "347.8%",
+                          "360.7%",
+                          "373.6%",
+                          "386.5%",
+                          "399.4%",
+                          "412.3%",
+                          "425.2%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Special Attack: Dawn's Exaltation \u00b7 Radiant Turn",
+                "type": "Special",
+                "desc": "Hold to activate:\nIf Remie's [New Feather Value] reaches the maximum of 120 points, she can enter [Shift Stance] after a [Special Attack] or [EX Special Attack]. When switching characters during [Shift Stance], she will enter [Phase-Shift Flow]:\nWhile in [Phase-Shift Flow], Remie acts autonomously to assist in combat, and some of her attacks can apply [Lumen Buildup Points] to targets. [New Feather Value] is consumed over time while in [Phase-Shift Flow]. When [New Feather Value] is fully depleted, [Phase-Shift Flow] ends. Before exiting [Phase-Shift Flow], Remie can only be switched in via [Chain Attack];\nIf Remie triggers 3 Lumen Attribute [Mutation] reactions while in [Phase-Shift Flow], or has at least 1 stored [Void Radiance] when her [New Feather Value] is depleted, [Assist: Petal Feather Waltz] is activated. Once activated, Normal Switch-In is unlocked, and Remie will automatically trigger [Assist: Petal Feather Waltz] on her next Normal Switch-In;\nUpon entering [Phase-Shift Flow], Remie grants all squad members a DMG dealt increase of {CAL:0+AvatarSkillLevel(1)*1.5,1,2}% for 60s; repeated triggers reset the duration;\nIf Remie's [New Feather Value] reaches the maximum of 120 points and her [Special Attack] or [EX Special Attack] hits a Stunned enemy, switching characters during the [Special Attack] or [EX Special Attack] can also trigger [Phase-Shift Flow];\nIf no character switch is made after entering [Shift Stance], Remie performs a downward attack to land on the ground.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "164.7%",
+                          "179.7%",
+                          "194.7%",
+                          "209.7%",
+                          "224.7%",
+                          "239.7%",
+                          "254.7%",
+                          "269.7%",
+                          "284.7%",
+                          "299.7%",
+                          "314.7%",
+                          "329.7%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "69.7%",
+                          "72.9%",
+                          "76.1%",
+                          "79.3%",
+                          "82.5%",
+                          "85.7%",
+                          "88.9%",
+                          "92.1%",
+                          "95.3%",
+                          "98.5%",
+                          "101.7%",
+                          "104.9%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Chain Attack: Overlapping Dance Steps",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nLaunches a multi-hit large area attack forward, dealing Lumen Attribute DMG;\nUpon activation, the character enters [Radiant Gleam] state, upgrading the next [Basic Attack: Cascading Rainbow] to [Basic Attack: Fleeting Grace];\nAfter the skill ends, applies 2 [Lumen Buildup Points] to hit enemies;\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "785.2%",
+                          "856.6%",
+                          "928%",
+                          "999.4%",
+                          "1070.8%",
+                          "1142.2%",
+                          "1213.6%",
+                          "1285%",
+                          "1356.4%",
+                          "1427.8%",
+                          "1499.2%",
+                          "1570.6%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "225.5%",
+                          "235.8%",
+                          "246.1%",
+                          "256.4%",
+                          "266.7%",
+                          "277%",
+                          "287.3%",
+                          "297.6%",
+                          "307.9%",
+                          "318.2%",
+                          "328.5%",
+                          "338.8%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ultimate: Curtain Call of Chaos",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nPerform a large area attack forward, dealing Lumen Attribute DMG;\nIf the attack hits a target, the Luminize effect can be triggered after the skill ends, with a multiplier of {CAL:230+AvatarSkillLevel(3)*5.2,1,2}%;\nCharacter is invulnerable while using this skill.",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "2009.7%",
+                          "2192.4%",
+                          "2375.1%",
+                          "2557.8%",
+                          "2740.5%",
+                          "2923.2%",
+                          "3105.9%",
+                          "3288.6%",
+                          "3471.3%",
+                          "3654%",
+                          "3836.7%",
+                          "4019.4%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "260.4%",
+                          "272.3%",
+                          "284.2%",
+                          "296.1%",
+                          "308%",
+                          "319.9%",
+                          "331.8%",
+                          "343.7%",
+                          "355.6%",
+                          "367.5%",
+                          "379.4%",
+                          "391.3%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Chromatic Stasis",
+                "type": "Core Passive",
+                "desc": "Remie's [Mutation Coefficient] is 0.01% of her own Anomaly Proficiency. When the number of [Anomaly] Characters in the team is 3, the [Mutation Coefficient] is additionally increased by 15%;\nWhen a teammate triggers a Lumen Attribute [Mutation] reaction, Remie generates [Phantom Radiance] based on the [Anomaly Buildup Intensity] of that Attribute Anomaly effect after being enhanced by [Mutation]. Up to 3 of the most recently generated [Phantom Radiance] can be stored;\nIf [Assist Skill: Feather Waltz]/[Ultimate: Brilliant Finale]/[Basic Attack: Cascade]/[Basic Attack: Fleeting Grace] hits a target, the [Luminize] effect can be triggered after the skill ends:\nBased on the [Anomaly Buildup Intensity] of all stored [Phantom Radiance], deal Attribute Anomaly DMG to enemies at the corresponding multiplier of the skill, and increase this DMG Multiplier based on 0.2% of own Anomaly Proficiency;\nWhen the Character enters [Phase-Shift Flow] or after using [Basic Attack: Cascade] or [Basic Attack: Fleeting Grace], all stored [Phantom Radiance] will be cleared.",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Remie's [Mutation Coefficient] is 0.01% of her own Anomaly Proficiency. When the number of [Anomaly] Characters in the team is 3, the [Mutation Coefficient] is additionally increased by 15%;\nWhen a teammate triggers a Lumen Attribute [Mutation] reaction, Remie generates [Phantom Radiance] based on the [Anomaly Buildup Intensity] of that Attribute Anomaly effect after being enhanced by [Mutation]. Up to 3 of the most recently generated [Phantom Radiance] can be stored;\nIf [Assist Skill: Feather Waltz]/[Ultimate: Brilliant Finale]/[Basic Attack: Cascade]/[Basic Attack: Fleeting Grace] hits a target, the [Luminize] effect can be triggered after the skill ends:\nBased on the [Anomaly Buildup Intensity] of all stored [Phantom Radiance], deal Attribute Anomaly DMG to enemies at the corresponding multiplier of the skill, and increase this DMG Multiplier based on 0.1% of own Anomaly Proficiency;\nWhen the Character enters [Phase-Shift Flow] or after using [Basic Attack: Cascade] or [Basic Attack: Fleeting Grace], all stored [Phantom Radiance] will be cleared."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Remie's [Mutation Coefficient] is 0.01% of her own Anomaly Proficiency. When the number of [Anomaly] Characters in the team is 3, the [Mutation Coefficient] is additionally increased by 15%;\nWhen a teammate triggers a Lumen Attribute [Mutation] reaction, Remie generates [Voidglow] based on the [Anomaly Intensity] of the Attribute Anomaly effect after being enhanced by [Mutation]. Up to 3 of the most recently generated [Voidglow] can be stored;\nIf [Assist: Feather Ring Dance]/[Ultimate: Turbulent Final Act]/[Basic Attack: Cascade]/[Basic Attack: Fleeting Grace] hits a target, the [Luminize] effect can be triggered after the skill ends:\nBased on the [Anomaly Intensity] of all stored [Voidglow], deal Attribute Anomaly DMG to enemies at the corresponding multiplier of the skill, and increase this DMG Multiplier based on 0.12% of own Anomaly Proficiency;\nWhen the Character enters [Phase-Shift Flow] state or after using [Basic Attack: Cascade] or [Basic Attack: Fleeting Grace], all stored [Voidglow] will be cleared."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Remie's [Mutation Coefficient] is 0.01% of her own Anomaly Proficiency. When the number of [Anomaly] Characters in the team is 3, the [Mutation Coefficient] is additionally increased by 15%;\nWhen a teammate triggers a Lumen Attribute [Mutation] reaction of the Character, Remie generates [Void Radiance] based on the [Anomaly Buildup Intensity] of the Attribute Anomaly effect after being enhanced by [Mutation]. Up to 3 of the most recently generated [Void Radiance] can be stored;\nIf [Assist Skill: Feather Waltz]/[Ultimate: Turbulent Finale]/[Basic Attack: Falling Rainbow]/[Basic Attack: Fleeting Grace] hits a target, the [Luminize] effect can be triggered after the skill ends:\nBased on the [Anomaly Buildup Intensity] among all stored [Void Radiance], deal Attribute Anomaly DMG to enemies at the corresponding multiplier of the skill, and increase this DMG Multiplier based on 0.14% of own Anomaly Proficiency;\nWhen the Character enters the [Phase-Shift Flow] state, or after triggering [Basic Attack: Falling Rainbow] or [Basic Attack: Fleeting Grace], all stored [Void Radiance] will be cleared."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Remie's [Mutation Coefficient] is 0.01% of her own Anomaly Proficiency. When the number of [Anomaly] Characters in the team is 3, the [Mutation Coefficient] is additionally increased by 15%;\nWhen a teammate triggers a Lumen Attribute [Mutation] reaction of the Character, Remie generates [Void Radiance] based on the [Anomaly Buildup Intensity] of the Attribute Anomaly effect after being enhanced by [Mutation]. Up to 3 of the most recently generated [Void Radiance] can be stored;\nIf [Assist Skill: Feather Waltz]/[Ultimate: Turbulent Finale]/[Basic Attack: Falling Rainbow]/[Basic Attack: Fleeting Grace] hits a target, the [Luminize] effect can be triggered after the skill ends:\nBased on the [Anomaly Buildup Intensity] among all stored [Void Radiance], deal Attribute Anomaly DMG to enemies at the corresponding multiplier of the skill, and increase this DMG Multiplier based on 0.15% of own Anomaly Proficiency;\nWhen the Character enters the [Phase-Shift Flow] state, or after triggering [Basic Attack: Falling Rainbow] or [Basic Attack: Fleeting Grace], all stored [Void Radiance] will be cleared."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Remie's [Mutation Coefficient] is 0.01% of her own Anomaly Proficiency. When the number of [Anomaly] Characters in the team is 3, the [Mutation Coefficient] is additionally increased by 15%;\nWhen a teammate triggers a Lumen Attribute [Mutation] reaction, Remie generates [Voidglow] based on the [Anomaly Intensity] of the Attribute Anomaly effect after being enhanced by [Mutation]. Up to 3 of the most recently generated [Voidglow] can be stored;\nIf [Assist: Feather Ring Dance]/[Ultimate: Turbulent Final Act]/[Basic Attack: Cascade]/[Basic Attack: Fleeting Grace] hits a target, the [Luminize] effect can be triggered after the skill ends:\nBased on the [Anomaly Intensity] of all stored [Voidglow], deal Attribute Anomaly DMG to enemies at the corresponding multiplier of the skill, and increase this DMG Multiplier based on 0.16% of own Anomaly Proficiency;\nWhen the Character enters [Phase-Shift Flow] state or after using [Basic Attack: Cascade] or [Basic Attack: Fleeting Grace], all stored [Voidglow] will be cleared."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Remie's [Mutation Coefficient] is 0.01% of her own Anomaly Proficiency. When the number of [Anomaly] Characters in the team is 3, the [Mutation Coefficient] is additionally increased by 15%;\nWhen a teammate triggers a Lumen Attribute [Mutation] reaction, Remie generates [Voidglow] based on the [Anomaly Intensity] of the Attribute Anomaly effect after being enhanced by [Mutation]. Up to 3 of the most recently generated [Voidglow] can be stored;\nIf [Assist: Feather Ring Dance]/[Ultimate: Turbulent Final Act]/[Basic Attack: Cascade]/[Basic Attack: Fleeting Grace] hits a target, the [Luminize] effect can be triggered after the skill ends:\nBased on the [Anomaly Intensity] of all stored [Voidglow], deal Attribute Anomaly DMG to enemies at the corresponding multiplier of the skill, and increase this DMG Multiplier based on 0.18% of own Anomaly Proficiency;\nWhen the Character enters [Phase-Shift Flow] state or after using [Basic Attack: Cascade] or [Basic Attack: Fleeting Grace], all stored [Voidglow] will be cleared."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Remie's [Mutation Coefficient] is 0.01% of her own Anomaly Proficiency. When the number of [Anomaly] Characters in the team is 3, the [Mutation Coefficient] is additionally increased by 15%;\nWhen a teammate triggers a Lumen Attribute [Mutation] reaction, Remie generates [Phantom Radiance] based on the [Anomaly Buildup Intensity] of that Attribute Anomaly effect after being enhanced by [Mutation]. Up to 3 of the most recently generated [Phantom Radiance] can be stored;\nIf [Assist Skill: Feather Waltz]/[Ultimate: Brilliant Finale]/[Basic Attack: Cascade]/[Basic Attack: Fleeting Grace] hits a target, the [Luminize] effect can be triggered after the skill ends:\nBased on the [Anomaly Buildup Intensity] of all stored [Phantom Radiance], deal Attribute Anomaly DMG to enemies at the corresponding multiplier of the skill, and increase this DMG Multiplier based on 0.2% of own Anomaly Proficiency;\nWhen the Character enters [Phase-Shift Flow] or after using [Basic Attack: Cascade] or [Basic Attack: Fleeting Grace], all stored [Phantom Radiance] will be cleared."
+                  }
+                ]
+              },
+              {
+                "name": "Additional Ability: Phee's Invitation",
+                "type": "Additional Ability",
+                "desc": "Triggers when another [Anomaly] Character or same-Faction Character exists in your squad:\nWhen the number of [Anomaly] Characters in your squad is 1/2/3, entering the battlefield grants all squad members a boost to ATK equal to 7.5%/15%/40% of Remie's initial ATK, with a cap of 1,600, and Daze dealt by this character while in the [Phase Flux] state is increased by 7.5%/15%/35%;\nAdditionally, when this character applies [Lumen Buildup Point] to an enemy, they also inflict the [Phantachrome] effect on that enemy: While under the [Phantachrome] effect, when an enemy takes Attribute Anomaly DMG, their Anomaly Buildup Rate is increased by 15%. When the enemy has no [Lumen Buildup Point], the [Phantachrome] effect expires. After the [Phantachrome] effect expires, the Anomaly Buildup Rate increase when the enemy takes Attribute Anomaly DMG persists for an additional 8 seconds.",
+                "levels": []
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Green Vow",
+                "type": "Mindscape 1",
+                "desc": "When Remie enters the battlefield, she gains the maximum amount of Special [Radiance]. In Investigation Zone mode, this effect can trigger once every 180 seconds. When Remie triggers the [Luminize] effect, she ignores 50% of the target's All-Attribute RES. When using [Assist: Feather Wheel Dance], she gains 200 Decibels, and this effect can trigger at most once every 18 seconds. While Remie is in the [Phase Shift Flow] state, Attribute Anomaly Damage Dealt by teammates is increased by 10%."
+              },
+              {
+                "name": "Cascading Clamor",
+                "type": "Mindscape 2",
+                "desc": "Remie's [Refringence] increases to 2. When triggering a [Refringe] reaction, up to 2 [Lumen Buildup Points] will be consumed. When 2 [Lumen Buildup Points] are consumed, the [Mutation Coefficient] of this [Refringe] increases by 25%.\nAdditionally, while the character is in the [Phase Flux] state, the frequency at which auto-activated Support Skills apply [Lumen Buildup Points] to enemies increases, and the number of [Lumen Buildup Points] applied per skill also increases from 1 to 2."
+              },
+              {
+                "name": "Garden of Diverging Time",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "The Long Goodbye",
+                "type": "Mindscape 4",
+                "desc": "When Remie triggers the [Luminize] effect, DMG Multiplier is additionally increased by 12%; after Remie enters the battlefield and gains the maximum number of special [Void Radiance], if all [Void Radiance] are consumed within 30s, the maximum number of special [Void Radiance] can be obtained once more. The effect of gaining special [Void Radiance] again disappears after triggering 1 time or when Remie enters the [Phase-Shift Flow] state."
+              },
+              {
+                "name": "The Wayfarer Drinks Deep of Oblivion",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2"
+              },
+              {
+                "name": "Wings of a Thousand Beats",
+                "type": "Mindscape 6",
+                "desc": "When Remie uses [Basic Attack: Drooping Rainbow] and [Basic Attack: Fleeting Swan], she triggers the [Luminize] effect 2 times; if the 4th hit of [Basic Attack] lands on a target, Remie gains 3 special [Void Radiance] after the skill ends. The DMG dealt by special [Void Radiance] obtained this way is 20% of that from special [Void Radiance] gained upon entering the battlefield."
+              }
+            ]
+          }
+        ]
+      },
+      "req": {
+        "ascension": [
+          {
+            "id": "100213",
+            "name": "Basic Anomaly Certification Seal",
+            "qty": 4,
+            "rar": 1,
+            "kind": "gem",
+            "icon": "../../Database/GameData/zzz/assets/items/AvatarRankBuff01.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100223",
+            "name": "Advanced Anomaly Certification Seal",
+            "qty": 32,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/GameData/zzz/assets/items/AvatarRankBuff02.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100233",
+            "name": "Controller Certification Seal",
+            "qty": 30,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/GameData/zzz/assets/items/AvatarRankBuff03.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          }
+        ],
+        "talents": [
+          {
+            "id": "100117",
+            "name": "Basic Lumiflux Chip",
+            "qty": 25,
+            "rar": 1,
+            "kind": "book",
+            "icon": null,
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100127",
+            "name": "Advanced Lumiflux Chip",
+            "qty": 75,
+            "rar": 3,
+            "kind": "book",
+            "icon": null,
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100137",
+            "name": "Specialized Lumiflux Chip",
+            "qty": 250,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100941",
+            "name": "Hamster Cage Pass",
+            "qty": 5,
+            "rar": 5,
+            "kind": "crown",
+            "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+            "source": "Event / New Eridu City Fund",
+            "sourceDetails": [
+              {
+                "name": "Event / New Eridu City Fund"
+              }
+            ]
+          },
+          {
+            "id": "110010",
+            "name": "Timeworn Husk",
+            "qty": 9,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss010.webp",
+            "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss010.webp",
+            "source": "Girtablullu",
+            "sourceDetails": [
+              {
+                "name": "Girtablullu",
+                "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Girtablu.webp"
+              }
+            ]
+          },
+          {
+            "id": "110515",
+            "name": "Higher Dimensional Data: Deep Erosion Circuit",
+            "qty": 60,
+            "rar": 4,
+            "kind": "boss",
+            "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss015.webp",
+            "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss015.webp",
+            "source": "the Airspace Sentinel / Expert Challenge",
+            "sourceDetails": [
+              {
+                "name": "Airspace Sentinel",
+                "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Sentinel.webp"
+              },
+              {
+                "name": "Expert Challenge"
+              }
+            ]
+          }
+        ],
+        "talentStages": [
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100117",
+                  "name": "Basic Lumiflux Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": null,
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100117",
+                  "name": "Basic Lumiflux Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": null,
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100127",
+                  "name": "Advanced Lumiflux Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": null,
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100127",
+                  "name": "Advanced Lumiflux Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": null,
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100127",
+                  "name": "Advanced Lumiflux Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": null,
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100127",
+                  "name": "Advanced Lumiflux Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": null,
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100117",
+                  "name": "Basic Lumiflux Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": null,
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100117",
+                  "name": "Basic Lumiflux Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": null,
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100127",
+                  "name": "Advanced Lumiflux Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": null,
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100127",
+                  "name": "Advanced Lumiflux Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": null,
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100127",
+                  "name": "Advanced Lumiflux Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": null,
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100127",
+                  "name": "Advanced Lumiflux Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": null,
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100117",
+                  "name": "Basic Lumiflux Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": null,
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100117",
+                  "name": "Basic Lumiflux Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": null,
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100127",
+                  "name": "Advanced Lumiflux Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": null,
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100127",
+                  "name": "Advanced Lumiflux Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": null,
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100127",
+                  "name": "Advanced Lumiflux Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": null,
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100127",
+                  "name": "Advanced Lumiflux Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": null,
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100117",
+                  "name": "Basic Lumiflux Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": null,
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100117",
+                  "name": "Basic Lumiflux Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": null,
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100127",
+                  "name": "Advanced Lumiflux Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": null,
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100127",
+                  "name": "Advanced Lumiflux Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": null,
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100127",
+                  "name": "Advanced Lumiflux Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": null,
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100127",
+                  "name": "Advanced Lumiflux Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": null,
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100117",
+                  "name": "Basic Lumiflux Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": null,
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100117",
+                  "name": "Basic Lumiflux Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": null,
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100127",
+                  "name": "Advanced Lumiflux Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": null,
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100127",
+                  "name": "Advanced Lumiflux Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": null,
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100127",
+                  "name": "Advanced Lumiflux Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": null,
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100127",
+                  "name": "Advanced Lumiflux Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": null,
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100137",
+                  "name": "Specialized Lumiflux Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 5000,
+              "items": []
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "110515",
+                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss015.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss015.webp",
+                  "source": "the Airspace Sentinel / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Airspace Sentinel",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Sentinel.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 28000,
+              "items": [
+                {
+                  "id": "110515",
+                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss015.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss015.webp",
+                  "source": "the Airspace Sentinel / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Airspace Sentinel",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Sentinel.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 60000,
+              "items": [
+                {
+                  "id": "110010",
+                  "name": "Timeworn Husk",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss010.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss010.webp",
+                  "source": "Girtablullu",
+                  "sourceDetails": [
+                    {
+                      "name": "Girtablullu",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Girtablu.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110515",
+                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
+                  "qty": 9,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss015.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss015.webp",
+                  "source": "the Airspace Sentinel / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Airspace Sentinel",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Sentinel.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 100000,
+              "items": [
+                {
+                  "id": "110010",
+                  "name": "Timeworn Husk",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss010.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss010.webp",
+                  "source": "Girtablullu",
+                  "sourceDetails": [
+                    {
+                      "name": "Girtablullu",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Girtablu.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110515",
+                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss015.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss015.webp",
+                  "source": "the Airspace Sentinel / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Airspace Sentinel",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Sentinel.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 200000,
+              "items": [
+                {
+                  "id": "110010",
+                  "name": "Timeworn Husk",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss010.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss010.webp",
+                  "source": "Girtablullu",
+                  "sourceDetails": [
+                    {
+                      "name": "Girtablullu",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Girtablu.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110515",
+                  "name": "Higher Dimensional Data: Deep Erosion Circuit",
+                  "qty": 30,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss015.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss015.webp",
+                  "source": "the Airspace Sentinel / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Airspace Sentinel",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Sentinel.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        ],
+        "ascCost": 800000,
+        "talentCost": 2905000,
+        "currency": 3705000
+      }
     }
   ],
   "midGroups": [
@@ -144222,6 +146841,56 @@
       ]
     },
     {
+      "region": "Lumiflux Chips",
+      "mats": [
+        {
+          "id": "100117",
+          "name": "Basic Lumiflux Chip",
+          "qty": 25,
+          "rar": 1,
+          "kind": "book",
+          "icon": null,
+          "source": "Combat Simulation - Agent Skills",
+          "sourceDetails": [
+            {
+              "name": "Combat Simulation - Agent Skills"
+            }
+          ]
+        },
+        {
+          "id": "100127",
+          "name": "Advanced Lumiflux Chip",
+          "qty": 75,
+          "rar": 3,
+          "kind": "book",
+          "icon": null,
+          "source": "Combat Simulation - Agent Skills",
+          "sourceDetails": [
+            {
+              "name": "Combat Simulation - Agent Skills"
+            }
+          ]
+        },
+        {
+          "id": "100137",
+          "name": "Specialized Lumiflux Chip",
+          "qty": 250,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpLight01.webp",
+          "source": "Combat Simulation - Agent Skills",
+          "sourceDetails": [
+            {
+              "name": "Combat Simulation - Agent Skills"
+            }
+          ]
+        }
+      ],
+      "chars": [
+        "Remielle"
+      ]
+    },
+    {
       "region": "Physical Chips",
       "mats": [
         {
@@ -144395,7 +147064,7 @@
   ],
   "boss": {
     "title": "Notorious Hunt",
-    "count": 53
+    "count": 54
   },
   "bossGroups": [
     {
@@ -144560,6 +147229,7 @@
           "chars": [
             "Norma",
             "Pyrois",
+            "Remielle",
             "Velina"
           ]
         }
@@ -144567,6 +147237,7 @@
       "chars": [
         "Norma",
         "Pyrois",
+        "Remielle",
         "Velina"
       ]
     },
@@ -144888,6 +147559,7 @@
           "chars": [
             "Norma",
             "Pyrois",
+            "Remielle",
             "Velina"
           ]
         }

@@ -120,7 +120,17 @@ async function writeVersionFile() {
   await fs.writeFile(path.resolve(deployDir, 'version.json'), JSON.stringify(version, null, 2) + '\n');
 }
 
-await fs.rm(deployDir, { recursive: true, force: true });
+try {
+  await fs.rm(deployDir, { recursive: true, force: true });
+} catch (err) {
+  if (err?.code !== 'EBUSY') throw err;
+  // Windows: the folder itself can be locked as another process's working
+  // directory (e.g. a local preview server). Clearing its contents is
+  // equivalent for a clean rebuild.
+  for (const entry of await fs.readdir(deployDir)) {
+    await fs.rm(path.resolve(deployDir, entry), { recursive: true, force: true });
+  }
+}
 await ensureDir(deployDir);
 
 // Pages carry a hand-maintained `?v=` cache-buster on script/style URLs; browsers

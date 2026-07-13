@@ -368,11 +368,34 @@ function normKey(s) {
     .replace(/[^a-z0-9]+/g, '');
 }
 
+// Characters too new for the upstream EN TextMap can ship (in any game) with the
+// raw localization key as their name — e.g. "Avatar_Female_Size02_Remielle".
+// Real display names never contain underscores, so a key-shaped name means the
+// translation is missing upstream. Such a key never matches the Prydwen roster
+// name, and the character silently drops out of the site.
+function looksLikeTextMapKey(value) {
+  const text = String(value || '');
+  return /^[A-Za-z][A-Za-z0-9]*(?:_[A-Za-z0-9]+)+$/.test(text);
+}
+
+// Recover a readable name for a key-named character: prefer codeName
+// ("Remielle"), otherwise strip the key's scaffold segments.
+function resolvedCharacterName(ch) {
+  const raw = String(ch?.name || '');
+  if (!looksLikeTextMapKey(raw)) return raw;
+  const code = String(ch?.codeName || ch?.code || '').replace(/_En$/i, '');
+  if (code && !looksLikeTextMapKey(code)) return code;
+  return raw.replace(/^Avatar_[A-Za-z]+_Size\d+_/i, '').replace(/_En$/i, '').replace(/_/g, ' ').trim() || raw;
+}
+
 function gamedataCharacterAliases(game, ch) {
   const key = game === 'wuwa' ? 'ww' : game;
   const id = String(ch?.id || '');
   const name = cleanText(ch?.name, 120);
   const aliases = [ch?.name, name];
+
+  const resolved = resolvedCharacterName(ch);
+  if (resolved && resolved !== name) aliases.push(resolved);
   if (name.includes('•')) aliases.push(name.replace(/\s*•\s*/g, ' '));
 
   if (key === 'hsr') {
@@ -395,11 +418,18 @@ function gamedataCharacterAliases(game, ch) {
 
 function localizedNamesFrom(source) {
   const row = source && typeof source === 'object' ? source : {};
+  // Unreleased characters can carry the raw TextMap key ("Avatar_Female_Size02_…")
+  // instead of a translation — drop those, keep the languages that did resolve.
+  const resolved = (value) => {
+    const text = cleanText(value, 90);
+    return text && looksLikeTextMapKey(text) ? undefined : text;
+  };
   const out = {};
-  if (row.en || row.name) out.en = cleanText(row.en || row.name, 90);
-  if (row.zh) out.zh = cleanText(row.zh, 90);
-  if (row.ja) out.ja = cleanText(String(row.ja).replace(/\{RUBY_[^}]+\}/g, ''), 90);
-  if (row.ko) out.ko = cleanText(row.ko, 90);
+  if (row.en || row.name) out.en = resolved(row.en || row.name);
+  if (row.zh) out.zh = resolved(row.zh);
+  if (row.ja) out.ja = resolved(String(row.ja).replace(/\{RUBY_[^}]+\}/g, ''));
+  if (row.ko) out.ko = resolved(row.ko);
+  for (const key of Object.keys(out)) { if (!out[key]) delete out[key]; }
   return Object.keys(out).length ? out : undefined;
 }
 
@@ -1669,11 +1699,18 @@ function zzzProfileData(ch) {
       },
     } : {},
     facts: {
-      fullName: profileText(ch?.profile?.full_name),
-      faction: profileText(profileFirst(ch?.camp)),
+      fullName: resolvedProfileText(ch?.profile?.full_name),
+      faction: resolvedProfileText(profileFirst(ch?.camp)),
       birthday: profileBirthday(ch?.profile?.birthday),
     },
   };
+}
+
+// Unreleased agents carry raw TextMap keys (e.g. "Partner_Name_1581") in profile
+// fields — drop those rather than showing the key to users.
+function resolvedProfileText(value, max = 120) {
+  const text = profileText(value, max);
+  return text && looksLikeTextMapKey(text) ? undefined : text;
 }
 
 function wuwaProfileData(ch) {
@@ -1720,7 +1757,7 @@ function localAvatarOverlay(game, channel = nch()) {
     const localized = rawCharacterLocaleMap('hsr', channel);
     for (const ch of readJson(`GameData/hsr/${channel}/characters.json`)) {
       if (!ch?.name) continue;
-      const displayName = cleanText(ch.name, 120);
+      const displayName = cleanText(resolvedCharacterName(ch), 120);
       const meta = fandom.get(normKey(displayName)) || fandom.get(normKey(ch.name));
       const payload = {
         icon: dbAsset(ch.assets?.roundIcon || ch.assets?.avatar),
@@ -1741,9 +1778,13 @@ function localAvatarOverlay(game, channel = nch()) {
     const localized = rawCharacterLocaleMap('zzz', channel);
     for (const ch of readJson(`GameData/zzz/${channel}/agents.json`)) {
       if (!ch?.name) continue;
-      const displayName = cleanText(ch.name, 120);
+      const displayName = cleanText(resolvedCharacterName(ch), 120);
       const meta = fandom.get(normKey(displayName)) || fandom.get(normKey(ch.name));
       setNamedMapEntry(byName, displayName, {
+        // Facts fallback for agents Prydwen only stubs (attribute/specialty "Unknown")
+        el: profileText(profileFirst(ch.element)),
+        spec: profileText(profileFirst(ch.specialty)),
+        rarity: Number(ch.rarity) || undefined,
         // B: real agent icons first (circle partner icon, then square role icon);
         // the CardDailyUse daily-use card art is a last-resort fallback only.
         icon: dbAsset(ch.assets?.partnerIcon || ch.assets?.icon) || zzzAgentAvatarIcon(ch),
@@ -1765,7 +1806,7 @@ function localAvatarOverlay(game, channel = nch()) {
       if (!ch?.name) continue;
       const detailRel = `GameData/ww/${channel}/raw/characters/${ch.id}.json`;
       const detail = exists(detailRel) ? readJson(detailRel) : null;
-      const displayName = cleanText(ch.name, 120);
+      const displayName = cleanText(resolvedCharacterName(ch), 120);
       const meta = fandom.get(normKey(displayName)) || fandom.get(normKey(ch.name));
       setNamedMapEntry(byName, displayName, {
         icon: dbAsset(ch.assets?.icon),
@@ -2174,7 +2215,8 @@ function buildGiRoster() {
       const book = giBookFamily(raw);
       const circleIcon = dbAsset(ch.assets?.circle);
       const fallbackIcon = dbAsset(ch.assets?.icon);
-      const nameKey = normKey(ch.name);
+      const displayName = cleanText(resolvedCharacterName(ch), 120);
+      const nameKey = normKey(displayName);
       const iconZoom = MANUAL_ICON_ZOOM.gi[nameKey] || (!circleIcon && !!fallbackIcon ? 1.18 : undefined);
       const birthdayArtPool = GENSHIN_BIRTHDAY_ART.get(nameKey) || [];
       const signature = signatures.get(nameKey);
@@ -2184,7 +2226,7 @@ function buildGiRoster() {
       const profileData = giProfileData(ch);
       return {
         id: 'gi-' + ch.id,
-        n: ch.name,
+        n: displayName,
         localizedNames: localizedNamesFrom(raw || ch) || meta?.localizedNames,
         title: displayTitle('gi', ch),
         r: ch.rarity,
@@ -3066,6 +3108,21 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
   const betaOverlay = GAMEDATA_CHANNEL === 'live' && betaChannelAvailable(game)
     ? localAvatarOverlay(game, 'beta')
     : null;
+  // Beta-status ZZZ agents can exist in the live GameData channel only as placeholder
+  // stubs (default spec/element → wrong cert-seal materials), so source their req/kit
+  // from the beta channel instead when building the live roster.
+  let betaReqByName = null;
+  let betaKitByName = null;
+  if (game === 'zzz' && GAMEDATA_CHANNEL === 'live' && betaChannelAvailable('zzz')) {
+    const prevChannel = GAMEDATA_CHANNEL;
+    GAMEDATA_CHANNEL = 'beta';
+    try {
+      betaReqByName = buildZzzReqMap();
+      betaKitByName = buildZzzKitMap();
+    } finally {
+      GAMEDATA_CHANNEL = prevChannel;
+    }
+  }
   const fandom = fandomCharacterMetadata(overlayGame);
   const rawChars = readJson(`Prydwen/${game}/characters.json`);
   const hsrLightConeReqMap = game === 'hsr' ? buildHsrLightConeReqMap() : null;
@@ -3077,11 +3134,22 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
     const betaLocal = ch.contentStatus && ch.contentStatus !== 'live'
       ? betaOverlay?.get(normKey(ch.name))
       : null;
-    const local = primaryLocal || betaLocal;
+    // Beta-status agents: the live-channel GameData row can be a placeholder stub
+    // (default element/spec, no icons) while the beta channel has the real kit —
+    // prefer the beta overlay when it exists (betaLocal is only set for non-live chars).
+    const local = betaLocal || primaryLocal;
+    // Unreleased ZZZ agents: Prydwen stubs facts as "Unknown" — backfill from GameData
+    if (game === 'zzz' && local) {
+      if (local.el && (!mapped.el || mapped.el === 'Unknown')) mapped.el = local.el;
+      if (local.spec && (!mapped.spec || mapped.spec === 'Unknown')) mapped.spec = local.spec;
+      if (local.rarity && (!mapped.r || mapped.r === 'Unknown')) mapped.r = Number(local.rarity) >= 5 ? 'S' : 'A';
+    }
     const meta = fandom.get(normKey(ch.name));
-    const req = reqByName?.get(String(ch.name || '').toLowerCase()) || reqByName?.get(normKey(ch.name)) || null;
-    const skillIcons = skillIconsByName?.get(String(ch.name || '').toLowerCase()) || skillIconsByName?.get(normKey(ch.name)) || (game === 'zzz' ? ZZZ_SKILL_ICONS : null);
-    const kit = kitByName?.get(String(ch.name || '').toLowerCase()) || kitByName?.get(normKey(ch.name)) || null;
+    const isBetaChar = Boolean(ch.contentStatus && ch.contentStatus !== 'live');
+    const lookupByName = (map) => map?.get(String(ch.name || '').toLowerCase()) || map?.get(normKey(ch.name)) || null;
+    const req = (isBetaChar && lookupByName(betaReqByName)) || lookupByName(reqByName);
+    const skillIcons = lookupByName(skillIconsByName) || (game === 'zzz' ? ZZZ_SKILL_ICONS : null);
+    const kit = (isBetaChar && lookupByName(betaKitByName)) || lookupByName(kitByName);
     const gamedataSignature = signatureByName?.get(String(ch.name || '').toLowerCase()) || signatureByName?.get(normKey(ch.name)) || null;
     const signatureLightCone = game === 'hsr' ? (hsrSignatureForCharacter(ch.name, mapped.path) || gamedataSignature) : null;
     const signatureEquipment = signatureLightCone ? null : prydwenRecommendedEquipment(game, ch);
@@ -3170,8 +3238,8 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
     const have = new Set(chars.map((c) => normKey(c.n)));
     const firstVal = (v) => (v && typeof v === 'object' ? Object.values(v)[0] : v);
     for (const ag of readJson(`GameData/zzz/${nch()}/agents.json`)) {
-      if (String(ag.contentStatus || '').toLowerCase() !== 'beta') continue;
-      const display = String(ag.name || '').replace(/^Avatar_\w+_Size\d+_/, '').replace(/_En$/, '').replace(/_/g, ' ').trim();
+      if (!/^beta/.test(String(ag.contentStatus || '').toLowerCase())) continue;
+      const display = cleanText(resolvedCharacterName(ag), 120);
       if (!display || have.has(normKey(display))) continue;
       have.add(normKey(display));
       const req = reqByName?.get(String(ag.name || '').toLowerCase()) || reqByName?.get(normKey(ag.name)) || null;

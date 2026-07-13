@@ -45,7 +45,7 @@ jobs:
 
       - uses: actions/setup-node@v6
         with:
-          node-version: '22'
+          node-version: '20'
 
       - name: Install scraper deps
         working-directory: Scraper

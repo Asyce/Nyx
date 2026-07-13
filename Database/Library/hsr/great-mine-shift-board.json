@@ -4,10 +4,11 @@
   "id": "great-mine-shift-board",
   "name": "Great Mine Shift Board",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Great_Mine_Shift_Board",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-b09483116790c5bc"
           },
           {
             "type": "paragraph",
@@ -61,7 +63,8 @@
                 "type": "text",
                 "text": "Remarks: The charges have all been planted, remember to let the technician check them tomorrow. It's a little hard to see in the dark. By the way, is anyone planning to check out the new Fight Club after work?"
               }
-            ]
+            ],
+            "id": "p-33df716f55cfe465"
           },
           {
             "type": "paragraph",
@@ -98,7 +101,8 @@
                 "type": "text",
                 "text": "Remarks: One of the detonators broke, but luckily, nothing happened, or we would all be blown to kingdom come. As a side note, Alex, stop thinking about nonsense all day long. It was nearly over for me because of you."
               }
-            ]
+            ],
+            "id": "p-a07fb9d06258a08e"
           },
           {
             "type": "paragraph",
@@ -135,7 +139,8 @@
                 "type": "text",
                 "text": "Remarks: I brought some strong ones and put them in the shelter. There's some olm meat inside, ready to eat."
               }
-            ]
+            ],
+            "id": "p-3f1cdeaac07e5933"
           },
           {
             "type": "paragraph",
@@ -172,7 +177,8 @@
                 "type": "text",
                 "text": "Remarks: Yummy."
               }
-            ]
+            ],
+            "id": "p-dd19cbcc370e40d5"
           },
           {
             "type": "paragraph",
@@ -209,7 +215,8 @@
                 "type": "text",
                 "text": "Remarks: Went to the Fight Club. Boring."
               }
-            ]
+            ],
+            "id": "p-3f89baa41a0f8828"
           },
           {
             "type": "paragraph",
@@ -246,7 +253,8 @@
                 "type": "text",
                 "text": "Remarks: This set of detonators have been checked. I have been transferred, and Alex will be in charge of the blasting. Don't eat the food reserves in the shelter. Also, using the remarks column to chat is forbidden from now on."
               }
-            ]
+            ],
+            "id": "p-18d1a6e6358411e6"
           },
           {
             "type": "paragraph",
@@ -283,7 +291,8 @@
                 "type": "text",
                 "text": "Remarks: Yummy, but it's all gone now."
               }
-            ]
+            ],
+            "id": "p-7cce11886b5528dc"
           },
           {
             "type": "paragraph",
@@ -320,7 +329,8 @@
                 "type": "text",
                 "text": "Remarks: Blasting complete. Some incapable people just can't help but to blame others. There's never been any problems with my detonators, nor will there ever be."
               }
-            ]
+            ],
+            "id": "p-30c4029ee557de88"
           }
         ]
       }

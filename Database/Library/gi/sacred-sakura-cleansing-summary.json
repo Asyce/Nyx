@@ -4,10 +4,11 @@
   "id": "sacred-sakura-cleansing-summary",
   "name": "Sacred Sakura Cleansing Summary",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Sacred_Sakura_Cleansing_Summary",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -39,7 +40,8 @@
                 "type": "text",
                 "text": "The aforementioned ritual must be carried out before any sacrifices, exorcisms, blessings or spell-rites can take place. The same holds true for this Cleansing Ritual."
               }
-            ]
+            ],
+            "id": "p-642650a1e776895a"
           },
           {
             "type": "paragraph",
@@ -68,7 +70,8 @@
                 "type": "text",
                 "text": "Years passed, and damage accumulated. The Cleansing Ritual must thus be performed to calm the chaos."
               }
-            ]
+            ],
+            "id": "p-3104451814c5bd34"
           },
           {
             "type": "paragraph",
@@ -97,7 +100,8 @@
                 "type": "text",
                 "text": "The purpose of this minor cleansing ritual is to isolate the defilement and thus procure some years of peace."
               }
-            ]
+            ],
+            "id": "p-a5f30a14f225fa5c"
           },
           {
             "type": "paragraph",
@@ -116,7 +120,8 @@
                 "type": "text",
                 "text": "The purpose of the major cleansing ritual is to wipe out the defilement and to completely eradicate the filth."
               }
-            ]
+            ],
+            "id": "p-83baa5d354a3db79"
           },
           {
             "type": "paragraph",
@@ -135,7 +140,8 @@
                 "type": "text",
                 "text": "(The rest of this text has been rendered unreadable by abrasion, contamination, and other damage.)"
               }
-            ]
+            ],
+            "id": "p-8cc948fa71b3f15d"
           }
         ]
       }

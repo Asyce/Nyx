@@ -4,10 +4,11 @@
   "id": "snapper-jam-appetizer-readable",
   "name": "Snapper Jam Appetizer",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Snapper_Jam_Appetizer_(Readable)",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-a8f8295a17076270"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "The Legend of Snapper Jam Appetizer"
               }
-            ]
+            ],
+            "id": "p-88d2465e28648a13"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "The Eternal Freeze was imminent and Belobog had not yet been formally established."
               }
-            ]
+            ],
+            "id": "p-97e807e403a080bc"
           },
           {
             "type": "paragraph",
@@ -51,7 +55,8 @@
                 "type": "text",
                 "text": "Under the command of the first Supreme Guardian, Alisa Rand, workers were summoned from across the country for the largest insulation project ever in history. This enormous layer of insulation would prepare Belobog for the endless blizzard. At that time, a young worker by the name of Nicholas was good at cooking. Not only had he mastered all kinds of traditional dishes, but also had developed many new ones."
               }
-            ]
+            ],
+            "id": "p-16dbe0ff7b2c74ae"
           },
           {
             "type": "paragraph",
@@ -60,7 +65,8 @@
                 "type": "text",
                 "text": "Every weekend, workers would bring over food to his home, so that he could prepare a big meal for everyone. Every worker would leave his home satisfied with a full stomach. However, it wasn't long until they wanted to taste his delicious food during the work days."
               }
-            ]
+            ],
+            "id": "p-40ee2643b6e91ecb"
           },
           {
             "type": "paragraph",
@@ -69,7 +75,8 @@
                 "type": "text",
                 "text": "\"Is there any way to eat a delicious meal on a cold construction site?\""
               }
-            ]
+            ],
+            "id": "p-9a8de3c549658599"
           },
           {
             "type": "paragraph",
@@ -78,7 +85,8 @@
                 "type": "text",
                 "text": "Food would quickly turn cold and hard due to the weather conditions on a construction site. It didn't taste as good as dishes fresh out of the pot. The heating technology at the time also wasn't as developed. The smart Nicholas believed this to be a major problem, one that almost all workers would encounter. Solving it meant that he could help everyone. Thus, he pondered: Is there any food that can endure the bitter cold?"
               }
-            ]
+            ],
+            "id": "p-92cc1adbb972f2da"
           },
           {
             "type": "paragraph",
@@ -87,7 +95,8 @@
                 "type": "text",
                 "text": "Nicholas spent countless hours trying different dishes at home. He tried various combinations, but none of the results satisfied him. One day, he was mentally exhausted and hadn't realized the fried fish was already cold. On top of that, he accidentally knocked the fried fish into the pot, cooking it together with redsunset jam. By the time he realized, it was already too late. He put the dish aside, ready to throw it out the next day. However, when he woke up the next day, he decided to give it a taste. To his surprise, it was delicious!"
               }
-            ]
+            ],
+            "id": "p-27f6792a037aec0d"
           },
           {
             "type": "paragraph",
@@ -96,7 +105,8 @@
                 "type": "text",
                 "text": "He had come up with an ultimate cold dish, one that workers could eat in the cold weather."
               }
-            ]
+            ],
+            "id": "p-af659956f76951f8"
           },
           {
             "type": "paragraph",
@@ -105,7 +115,8 @@
                 "type": "text",
                 "text": "Thanks to Nicholas' promotion, Belobog workers can enjoy a delicious lunch, motivating them to work harder. The news spread to Supreme Guardian Alisa Rand, who tasted his unique dish and praised his innovation. She named the dish \"Snapper Jam Appetizer.\" Afterward, Nicholas made further improvements to the dish. It is now the most famous dish for Belobog gatherings."
               }
-            ]
+            ],
+            "id": "p-6175d876db4f3419"
           },
           {
             "type": "paragraph",
@@ -119,7 +130,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-fc41e365896f803d"
           },
           {
             "type": "paragraph",
@@ -128,7 +140,8 @@
                 "type": "text",
                 "text": "What nonsense and fabrications. A novel?"
               }
-            ]
+            ],
+            "id": "p-33188796ad67987b"
           },
           {
             "type": "paragraph",
@@ -137,7 +150,8 @@
                 "type": "text",
                 "text": "The Supreme Guardian's Secret Visit"
               }
-            ]
+            ],
+            "id": "p-6b29215c67874e70"
           },
           {
             "type": "paragraph",
@@ -146,7 +160,8 @@
                 "type": "text",
                 "text": "It was around 100 AF when they cultivated the redsunset fruit for jam that could withstand the cold."
               }
-            ]
+            ],
+            "id": "p-3a9df7434ab96a77"
           },
           {
             "type": "paragraph",
@@ -155,7 +170,8 @@
                 "type": "text",
                 "text": "So that's more useless knowledge. Nice."
               }
-            ]
+            ],
+            "id": "p-2084efa68dd6f41c"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "medical-record-fulwish",
   "name": "Medical Record: Fulwish",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Medical_Record:_Fulwish",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -104,7 +105,8 @@
                 "type": "text",
                 "text": "Cranial Neurology Department"
               }
-            ]
+            ],
+            "id": "p-da02f6418ff10c56"
           },
           {
             "type": "paragraph",
@@ -118,7 +120,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-e6858f42337cbd5a"
           },
           {
             "type": "paragraph",
@@ -147,7 +150,8 @@
                 "type": "text",
                 "text": "Meanwhile, the patient exhibits hallucinatory symptoms, described as the ability to sense the inner desires of others."
               }
-            ]
+            ],
+            "id": "p-5f495c973dc0e8c0"
           },
           {
             "type": "paragraph",
@@ -161,7 +165,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-086ee1ca06dea9b5"
           },
           {
             "type": "paragraph",
@@ -180,7 +185,8 @@
                 "type": "text",
                 "text": "Patient previously suffered from post-traumatic stress disorder."
               }
-            ]
+            ],
+            "id": "p-2cda6eede07db347"
           },
           {
             "type": "paragraph",
@@ -194,7 +200,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-681385377912d92f"
           },
           {
             "type": "paragraph",
@@ -203,7 +210,8 @@
                 "type": "text",
                 "text": "Electroencephalogram, cerebral lobe structural imaging, and modeling analysis indicate no foreign bodies or visible damage to the patient's brain. Mild non-pathological tissue growth detected at the Synesthesia Beacon implant site. The cause remains unknown."
               }
-            ]
+            ],
+            "id": "p-5a2d2422a57ae3b5"
           },
           {
             "type": "paragraph",
@@ -212,7 +220,8 @@
                 "type": "text",
                 "text": "Following a localized Wishpower detection (approved by the Department of Aberration Defense), low-frequency undetectable imagery appeared in the anterior cingulate cortex, but hasn't significantly affected the cranial nerves yet. Its correlation with the patient's condition remains unverified, and the possibility of psychologically induced language disruption can't be ruled out."
               }
-            ]
+            ],
+            "id": "p-02fa15fd4205aa03"
           },
           {
             "type": "paragraph",
@@ -221,7 +230,8 @@
                 "type": "text",
                 "text": "Testing confirms the Patient can accurately describe the desires of others. Simultaneously, as the Patient verbalizes these descriptions, the empathetic subject experiences intense hallucinations and loses all rationality. The mechanism behind this remains unclear, though it appears to fall under hypnotic or telepathic phenomena."
               }
-            ]
+            ],
+            "id": "p-437f0fbf24026e8b"
           },
           {
             "type": "paragraph",
@@ -230,7 +240,8 @@
                 "type": "text",
                 "text": "For now, we'll designate the patient's unusual condition as \"Happiness Syntax.\""
               }
-            ]
+            ],
+            "id": "p-0fef5260c75700f7"
           },
           {
             "type": "paragraph",
@@ -264,7 +275,8 @@
                 "type": "text",
                 "text": "Dosage will be adjusted based on disease progression and follow-up evaluations."
               }
-            ]
+            ],
+            "id": "p-7406b458fdc64e8d"
           },
           {
             "type": "paragraph",
@@ -288,7 +300,8 @@
                 "type": "text",
                 "text": "Schedule a visit to the clinic upon feeling unwell."
               }
-            ]
+            ],
+            "id": "p-c6dbe0c8584323f4"
           }
         ]
       }

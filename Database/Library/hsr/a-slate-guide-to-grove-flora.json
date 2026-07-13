@@ -4,10 +4,11 @@
   "id": "a-slate-guide-to-grove-flora",
   "name": "A Slate Guide to Grove Flora",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/A_Slate_Guide_to_Grove_Flora",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -59,7 +60,8 @@
                 "type": "text",
                 "text": "If you find nymphs in the Heretical Flora area, please try to lead them away."
               }
-            ]
+            ],
+            "id": "p-ce4520b89727370b"
           },
           {
             "type": "paragraph",
@@ -68,7 +70,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -87,7 +90,8 @@
                 "type": "text",
                 "text": "Featured species include —"
               }
-            ]
+            ],
+            "id": "p-24145749a5dd6deb"
           },
           {
             "type": "paragraph",
@@ -121,7 +125,8 @@
                 "type": "text",
                 "text": "Despite its name, it bears massive, razor-sharp leaves. Once blessed by Cerces's priests, these leaves become hardened yet flexible — perfect emergency weapons for the guards."
               }
-            ]
+            ],
+            "id": "p-52e9d1a8e46ec056"
           },
           {
             "type": "paragraph",
@@ -155,7 +160,8 @@
                 "type": "text",
                 "text": "When rain blankets the earth, Ladon's Rain blooms en masse. Stories tell that these berries are nourished by Titans' tears, yet they only bring more sorrow to the Titans."
               }
-            ]
+            ],
+            "id": "p-3470707541c001d4"
           },
           {
             "type": "paragraph",
@@ -164,7 +170,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -183,7 +190,8 @@
                 "type": "text",
                 "text": "Relocated to Okhema with the supervisor."
               }
-            ]
+            ],
+            "id": "p-5f5d8046a544d02c"
           },
           {
             "type": "paragraph",
@@ -222,7 +230,8 @@
                 "type": "text",
                 "text": "Featured species include —"
               }
-            ]
+            ],
+            "id": "p-735af865acff42f3"
           },
           {
             "type": "paragraph",
@@ -266,7 +275,8 @@
                 "type": "text",
                 "text": "Following this thread, Grove scholars traced the flower's origin to find this golden rose — beautiful yet thorny, likely the real reason cloudsheep avoid it."
               }
-            ]
+            ],
+            "id": "p-8406dff199182ea6"
           },
           {
             "type": "paragraph",
@@ -300,7 +310,8 @@
                 "type": "text",
                 "text": "It's one of few plants visitors may touch. You place your hand upon it to feel the strength of the earth itself."
               }
-            ]
+            ],
+            "id": "p-b521f31c24d6a08c"
           },
           {
             "type": "paragraph",
@@ -309,7 +320,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-3"
           },
           {
             "type": "paragraph",
@@ -318,7 +330,8 @@
                 "type": "text",
                 "text": "Normally, glass cases protect flowers from external harm. But in the Grove, they protect the outside world from the flowers. Remember this during your visit."
               }
-            ]
+            ],
+            "id": "p-947883b5abf3d7bf"
           },
           {
             "type": "paragraph",
@@ -352,7 +365,8 @@
                 "type": "text",
                 "text": "Needless to say, in the garden and even in the wild — unless you're eager to meet Thanatos, absolutely never touch it."
               }
-            ]
+            ],
+            "id": "p-2272b30109b586ee"
           },
           {
             "type": "paragraph",
@@ -361,7 +375,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-4"
           }
         ]
       }

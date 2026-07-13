@@ -4,10 +4,11 @@
   "id": "dyed-red-slate",
   "name": "Dyed Red Slate",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Dyed_Red_Slate",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -33,7 +34,8 @@
                 "type": "text",
                 "text": "What they do not know is that I do not do this out of fear of death. My only fear would be to attain glory and have no one to spread word of it..."
               }
-            ]
+            ],
+            "id": "p-b10762540778e1d5"
           },
           {
             "type": "paragraph",
@@ -42,7 +44,8 @@
                 "type": "text",
                 "text": "Ah, forget it. What is meant to be shall always pass. Let me just write my story."
               }
-            ]
+            ],
+            "id": "p-afcd35d651e2cc77"
           },
           {
             "type": "paragraph",
@@ -51,7 +54,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -67,7 +71,8 @@
                 "type": "text",
                 "text": "The minds of the Strife Titankin are growing ever more clouded. They have begun to point their blades at the tribesmen of Kremnos. Hah, what reason could there be to turn down a fight?"
               }
-            ]
+            ],
+            "id": "p-77f44a72c58dd592"
           },
           {
             "type": "paragraph",
@@ -83,7 +88,8 @@
                 "type": "text",
                 "text": "Ah, how I long for the sanguine honey brew."
               }
-            ]
+            ],
+            "id": "p-6ac8300d95c92adb"
           },
           {
             "type": "paragraph",
@@ -92,7 +98,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -108,7 +115,8 @@
                 "type": "text",
                 "text": "A man in my troop is beginning to worry that crossing blades with the Titankin will anger Nikador."
               }
-            ]
+            ],
+            "id": "p-66962364555b3c19"
           },
           {
             "type": "paragraph",
@@ -138,7 +146,8 @@
                 "type": "text",
                 "text": "Third, is there any difference between when Nikador is enraged and when they are not?"
               }
-            ]
+            ],
+            "id": "p-215233e916354b2e"
           },
           {
             "type": "paragraph",
@@ -147,7 +156,8 @@
                 "type": "text",
                 "text": "Having understood, he laughed. It really was a great joke."
               }
-            ]
+            ],
+            "id": "p-92bf9301d4f16465"
           },
           {
             "type": "paragraph",
@@ -156,7 +166,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-3"
           },
           {
             "type": "paragraph",
@@ -179,7 +190,8 @@
                 "type": "text",
                 "text": "The King points and the warrior follows. That has always been our wish."
               }
-            ]
+            ],
+            "id": "p-3815f48fdd08e650"
           },
           {
             "type": "paragraph",
@@ -188,7 +200,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-4"
           },
           {
             "type": "paragraph",
@@ -204,7 +217,8 @@
                 "type": "text",
                 "text": "We fought a great battle and lost a number of men. I cast out my spear, but I couldn't save them. Wait for me at the Temple of Heroes, my friends."
               }
-            ]
+            ],
+            "id": "p-8ad402aba7e5012c"
           },
           {
             "type": "paragraph",
@@ -213,7 +227,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-5"
           },
           {
             "type": "paragraph",
@@ -243,7 +258,8 @@
                 "type": "text",
                 "text": "I've got no one to tell it to, but whatever."
               }
-            ]
+            ],
+            "id": "p-a443a4513eb9dc5d"
           },
           {
             "type": "paragraph",
@@ -252,7 +268,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-6"
           },
           {
             "type": "paragraph",
@@ -268,7 +285,8 @@
                 "type": "text",
                 "text": "My blade has broken, but I'm not concerned. Every item in Kremnos can be turned into a weapon of war."
               }
-            ]
+            ],
+            "id": "p-6bffbc75863ee743"
           },
           {
             "type": "paragraph",
@@ -277,7 +295,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-7"
           },
           {
             "type": "paragraph",
@@ -300,7 +319,8 @@
                 "type": "text",
                 "text": "Is there anyone around to help me hold the slate...? No...? Am I the only one left...?"
               }
-            ]
+            ],
+            "id": "p-4bb0f74f28b145c4"
           },
           {
             "type": "paragraph",
@@ -309,7 +329,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-8"
           },
           {
             "type": "paragraph",
@@ -325,7 +346,8 @@
                 "type": "text",
                 "text": "There's another warrior here. The youngest. Lost his legs. Uses a bow. He's a great guy. Much easier to write with him to lean on."
               }
-            ]
+            ],
+            "id": "p-d9ed3e5bd500d023"
           },
           {
             "type": "paragraph",
@@ -334,7 +356,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-9"
           },
           {
             "type": "paragraph",
@@ -357,7 +380,8 @@
                 "type": "text",
                 "text": "Thanatos? As our faith has already descended into madness, maybe letting them take us a way might not be a bad way to go."
               }
-            ]
+            ],
+            "id": "p-4cbb91d5fd4966d6"
           },
           {
             "type": "paragraph",
@@ -366,7 +390,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-10"
           },
           {
             "type": "paragraph",
@@ -396,7 +421,8 @@
                 "type": "text",
                 "text": "I have gotten used to not leaning on him to write anymore."
               }
-            ]
+            ],
+            "id": "p-e38f6e8cdf0c5509"
           },
           {
             "type": "paragraph",
@@ -405,7 +431,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-11"
           },
           {
             "type": "paragraph",
@@ -435,7 +462,8 @@
                 "type": "text",
                 "text": "I've started craving honey brew again lately. I've had too much pure stuff lately, so I need a change in flavor."
               }
-            ]
+            ],
+            "id": "p-cf55783ce8d37144"
           },
           {
             "type": "paragraph",
@@ -458,7 +486,8 @@
                 "type": "strong",
                 "children": []
               }
-            ]
+            ],
+            "id": "p-c4465f9864e1d0c1"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "bragi-s-resignation-letter",
   "name": "Bragi's Resignation Letter",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Bragi%27s_Resignation_Letter",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-3166aeb6ab9e1344"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "To the many Fools of the tavern:"
               }
-            ]
+            ],
+            "id": "p-bfdbf664d54127a0"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "I, Bragi, hereby officially resign from the position of bartender, effective immediately."
               }
-            ]
+            ],
+            "id": "p-d051cfc04e8eb49e"
           },
           {
             "type": "paragraph",
@@ -51,7 +55,8 @@
                 "type": "text",
                 "text": "Many have long coveted the bartender's seat. After all, besides Aha THEMSELF, who could resist the temptation of the ancient jokes brewing in the cellar? It's like asking a monkey to guard a peach orchard. And who wouldn't want to lurk behind the bar, watching their colleagues make fools of themselves just as the ancient people of Bathia once watched those tiny, demented bottle-folk sneering in the theater?"
               }
-            ]
+            ],
+            "id": "p-4b1ad19c5210efd2"
           },
           {
             "type": "paragraph",
@@ -60,7 +65,8 @@
                 "type": "text",
                 "text": "Be it a game of Cosmodyssey, a joke-off, or a good old-fashioned brawl on the tabletops, the \"World's End\" bartender position, that which links a thousand worlds, is now yours to fight over."
               }
-            ]
+            ],
+            "id": "p-1d183b319f477423"
           },
           {
             "type": "paragraph",
@@ -69,7 +75,8 @@
                 "type": "text",
                 "text": "I see no need to share my motives with the likes of you. If a Fool's prank is laid bare from the start like a spoiled detective novel, it ruins the fun for both the author and the audience. If you must have an answer, just assume I've been on my feet too long and decided to find a quiet, out-of-the-way corner to retire."
               }
-            ]
+            ],
+            "id": "p-9c61e10969c94577"
           },
           {
             "type": "paragraph",
@@ -78,7 +85,8 @@
                 "type": "text",
                 "text": "I still find myself thinking of the Fools who never returned. Like Ms. Dorothy, who always ordered Old Memories, a brew of Mourning Actor tears, ancient legends, and a twist of bitter smiles. They say she sold off 51% of a planet's strong nuclear force, and now she's got enough bounty hunters on her tail to fill a hundred tavern bars."
               }
-            ]
+            ],
+            "id": "p-7763b6ab23419ee3"
           },
           {
             "type": "paragraph",
@@ -87,7 +95,8 @@
                 "type": "text",
                 "text": "And then there's the Shepherd with his shattered mask, an old friend and a pathological liar. He loved that deep purple glow you only get from brewing death and tragic love songs together. Even I struggled to tell if his tales were pure fabrication or the very truth I had my suspicion of."
               }
-            ]
+            ],
+            "id": "p-b9c994f3ddf96fdc"
           },
           {
             "type": "paragraph",
@@ -96,7 +105,8 @@
                 "type": "text",
                 "text": "I doubt the youngsters even remember my old friend Enroute, once the most joyful Fool of us all. Legend has it he even managed to prank an Aeon. Some say he stopped laughing after hearing all thirty trillion jokes in the universe, but the truth is, the tavern crowd just wasn't funny enough for him anymore. Before he went off the grid, he gave me a solemn farewell, claiming he was going to the real edge of the world for a brand-new adventure."
               }
-            ]
+            ],
+            "id": "p-011d9c7b10d5f154"
           },
           {
             "type": "paragraph",
@@ -105,7 +115,8 @@
                 "type": "text",
                 "text": "He shared a joke with me that day. Now, I'm passing it along to all of you listening, reading, or watching."
               }
-            ]
+            ],
+            "id": "p-770bd5630a35565f"
           },
           {
             "type": "paragraph",
@@ -114,7 +125,8 @@
                 "type": "text",
                 "text": "\"Just look at this tavern. The universe is dying outside, yet everyone stays safe and sound by hiding in here. Elation should have been something magnificent, but these Fools refuse to pay the cost that comes with the joke. Behind their laughter, all I see is the decay and rot of the Second Prosperity.\""
               }
-            ]
+            ],
+            "id": "p-b6b5700e0bb9a2ae"
           },
           {
             "type": "paragraph",
@@ -123,7 +135,8 @@
                 "type": "text",
                 "text": "\"Don't you think these people, the ones who don't even know what they're laughing at, are a much bigger joke than anything in the outside world?\""
               }
-            ]
+            ],
+            "id": "p-073483270f50b1eb"
           },
           {
             "type": "paragraph",
@@ -142,7 +155,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-80ea410f34e2bb4b"
           }
         ]
       }

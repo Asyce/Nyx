@@ -4,10 +4,11 @@
   "id": "the-life-of-mouun-the-shrine-maiden",
   "name": "The Life of Mouun the Shrine Maiden",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/The_Life_of_Mouun_the_Shrine_Maiden",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -29,7 +30,8 @@
                 "type": "text",
                 "text": "By the time news that the Shogunate had unified all the Inazuman islands reached Watatsumi, Mouun and Ayame were already quite famous among the island's people. In the folk-tunes that still persist till today, Mouun was a wise and gentle soul who helped to steer the people away from meaningless conflict, while Ayame was valiant and cheerful, her power sufficient to wrestle against fierce sea creatures."
               }
-            ]
+            ],
+            "id": "p-6dddb3ab92a3f474"
           },
           {
             "type": "paragraph",
@@ -38,7 +40,8 @@
                 "type": "text",
                 "text": "When Watatsumi Omikami ceased in his hesitation and embarked on that hopeless eastern expedition, Sangonomiya's first navy was entrusted by the then-Divine Priestess to Mouun and her sister. This was also the beginning of Mouun's association with the giant whale named \"Daikengyou.\""
               }
-            ]
+            ],
+            "id": "p-0eaf6a2e8b96c108"
           },
           {
             "type": "paragraph",
@@ -47,7 +50,8 @@
                 "type": "text",
                 "text": "Legend has it that Daikengyou was a huge blind whale that had lived for five hundred years and four hundred years before that. The dark depths of the ocean floor were its home, and the fishes of the deep and the moonglow-beauteous jellyfish were its faithful servants. Five hundred narwhals guarded its left flank and five hundred humpback whales played music to its right. Some folk-tunes claim that it could have swallowed ten coral islands in one gulp before spitting out five skerries in its deep, satiated slumber."
               }
-            ]
+            ],
+            "id": "p-39875c5e2b2220b9"
           },
           {
             "type": "paragraph",
@@ -56,7 +60,8 @@
                 "type": "text",
                 "text": "Even amongst those of the Watatsumi people who were skilled in whalesong, none had faced this titan and returned whole to tell the tale. But at the Divine Priestess' direction, Mouun dived deep into the whale's phosphorescent palace just as the moon rose high enough to pierce the ocean mists. None knew how Mouun persuaded Daikengyou to join her. But on the third moonrise after her departure, when the waves drew back from the shore, the people witnessed Daikengyou surface from the tranquil ocean, shimmering with silver light as it bore Mouun on its back."
               }
-            ]
+            ],
+            "id": "p-d74cb4eaa12ba607"
           },
           {
             "type": "paragraph",
@@ -72,7 +77,8 @@
                 "type": "text",
                 "text": "Mouun made to retreat when she heard that Omikami and Touzannou had been slain together, but she was ambushed by the tengu Sasayuri's subordinates en route and was herself slain together with Daikengyou the mighty whale, their remains captured by the Shogunate. As for her sister, \"Umigozen\" Ayame, she disappeared into the blood-red ocean after a valiant stand, never to be seen again."
               }
-            ]
+            ],
+            "id": "p-a34aeddfef9e3702"
           }
         ]
       }

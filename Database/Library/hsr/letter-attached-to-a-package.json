@@ -4,10 +4,11 @@
   "id": "letter-attached-to-a-package",
   "name": "Letter attached to a package",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Letter_attached_to_a_package",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Martha,"
               }
-            ]
+            ],
+            "id": "p-63fc637f515f16a4"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Do you remember Fayne? The one who went with you to catch rock crabs?"
               }
-            ]
+            ],
+            "id": "p-bb6e5f44d419b94b"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "Long face with eyes that made him look like he was always sleepy? I found out that he got into the ancient relic trade. He did that for a few years, but must have gotten into a turf war or something since I haven't heard anything of him lately."
               }
-            ]
+            ],
+            "id": "p-f95df0a6ab86d0e1"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "A while back, he uncovered some letters in the machine graveyard that he couldn't sell on the relic market. I don't know why he tried — anything that isn't a relic is worthless there. He came to me out of desperation and asked if I'd take them. I only purchase aquatic goods, not garbage. If someone brings me rock crabs, no problem, but what am I supposed to do with letters?"
               }
-            ]
+            ],
+            "id": "p-e95f23cc93661f5f"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "Anyway, for old friendship's sake, I ended up buying them at a low price."
               }
-            ]
+            ],
+            "id": "p-a85ab80bdb2428f3"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "Even after I bought them he was still trying to fool me. He told me they contained sales reports on aquatic goods, which is why he sold them to me and not the collectors. Out of dozens of letters, there was only one that mentioned a type of crab — the tunnel rock crab. In all my years of being in this business, I'd never heard of it before."
               }
-            ]
+            ],
+            "id": "p-2df741e15f6ae0da"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "Judging from the name, it's probably related to the standard rock crab, but maybe they're one and the same? I did hear a funny story about rock crabs. Rock crabs never used to hide in the rocks — they only started doing so to protect themselves from the hordes of people trying to eat them. Maybe that's when the crabs changed their own name?"
               }
-            ]
+            ],
+            "id": "p-0abb40e59d74eda0"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "Anyway, the letter mentioned there were many crabs in the underground mining area. Left unattended, they'd cause the tunnels to collapse in less than two hundred years, along with the city above. Well, it's been a long time and nothing has changed. The only difference is all the crabs are gone now, probably extinct from all of us eating them. I can tell the people back then didn't know much. They had nothing better to do than frighten themselves all day long."
               }
-            ]
+            ],
+            "id": "p-d56c2b66e5501948"
           },
           {
             "type": "paragraph",
@@ -91,7 +100,8 @@
                 "type": "text",
                 "text": "If there were as many crabs now as there was back then, I wouldn't have to worry. The price of rock crabs is high, and they might already be extinct since I can't catch any. I may have to find a different job."
               }
-            ]
+            ],
+            "id": "p-61b46b9a39c8057d"
           },
           {
             "type": "paragraph",
@@ -100,7 +110,8 @@
                 "type": "text",
                 "text": "I heard you're currently studying history in Wildfire. I came across these letters and thought they could be useful to you, so I forwarded them over. All I ask in return is that you introduce me to the chef there. What do you think?"
               }
-            ]
+            ],
+            "id": "p-60ccd49512427992"
           },
           {
             "type": "paragraph",
@@ -109,7 +120,8 @@
                 "type": "text",
                 "text": "Marcel"
               }
-            ]
+            ],
+            "id": "p-2798c8ffc75f0556"
           }
         ]
       }

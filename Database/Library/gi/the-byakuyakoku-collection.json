@@ -4,17 +4,19 @@
   "id": "the-byakuyakoku-collection",
   "name": "The Byakuyakoku Collection",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/The_Byakuyakoku_Collection",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -23,7 +25,8 @@
                 "type": "text",
                 "text": "—The Serpent and Drakes of Tokoyokoku—"
               }
-            ]
+            ],
+            "id": "p-2f807240e36e8062"
           },
           {
             "type": "paragraph",
@@ -32,7 +35,8 @@
                 "type": "text",
                 "text": "Mysteries creation conceals, the sun and moon omens reveal."
               }
-            ]
+            ],
+            "id": "p-12bc799826e70875"
           },
           {
             "type": "paragraph",
@@ -41,7 +45,8 @@
                 "type": "text",
                 "text": "Three corners in darkness shrouded, the void by five saints clouded."
               }
-            ]
+            ],
+            "id": "p-ce6ce89f66bb910c"
           },
           {
             "type": "paragraph",
@@ -50,7 +55,8 @@
                 "type": "text",
                 "text": "\"The universe has no beginning and no end, and so it was with the land that once was. But this matters not to us, for the land that bears us no longer has anything to do with that eternity without start or ceasing.\""
               }
-            ]
+            ],
+            "id": "p-f3c6101af2932d19"
           },
           {
             "type": "paragraph",
@@ -59,7 +65,8 @@
                 "type": "text",
                 "text": "— So said the lone sage, Aberaku, to the first Sunchild. The Sunchild had long intended to punish Aberaku. Summoning the sage before the throne in this manner was but an additional way of making things difficult for him before detaining him."
               }
-            ]
+            ],
+            "id": "p-077d6df67cdfc038"
           },
           {
             "type": "paragraph",
@@ -68,7 +75,8 @@
                 "type": "text",
                 "text": "Legend has it that Aberaku was opened up to wisdom by Tokoyo Ookami, and was thus able to bring light to Enkanomiya, which had till then never seen the sun. But the Sunchild grew jealous of his talents, thus imprisoning him for life. Yet these children of the sun never considered that had Aberaku not created that underground star, they never would have existed in the first place."
               }
-            ]
+            ],
+            "id": "p-7514aec65e52daba"
           },
           {
             "type": "paragraph",
@@ -77,7 +85,8 @@
                 "type": "text",
                 "text": "\"The origin of heaven and earth is like the chicken and egg, and are not dragons and snakes kin?\" No sooner had the sage Aberaku uttered these words than he was overthrown by troops lying in ambush."
               }
-            ]
+            ],
+            "id": "p-e4c49f253ddd218d"
           },
           {
             "type": "paragraph",
@@ -86,7 +95,8 @@
                 "type": "text",
                 "text": "At that time, Enkanomiya had only just been bought some room to breathe by the appearance of the sun. The Dragonheirs loved the dark and shunned the light, and thus could no longer act with impunity. The days when the Dragonheirs would rampage and graze upon humanity like so much grass had, at last, come to an end, for the people of Enkanomiya finally had the means to resist."
               }
-            ]
+            ],
+            "id": "p-5fb2a1ad6c2b0454"
           },
           {
             "type": "paragraph",
@@ -95,7 +105,8 @@
                 "type": "text",
                 "text": "Yet it came to pass that the flaws in human nature would rear their ugly heads even before such outside threats could be quelled. The people chose a Sunchild, crowned him king, and worshiped him, and yet he ruled with a brutal hand, framing the righteous."
               }
-            ]
+            ],
+            "id": "p-d0cb23c1a16a3d7c"
           },
           {
             "type": "paragraph",
@@ -104,7 +115,8 @@
                 "type": "text",
                 "text": "Unnumbered years would pass before a young child of Enkanomiya would make a wager with his peers. Alone, he would dive beyond the three corners, evading the trail of the Dragonheirs, in search of a Dragonbone Flower. But what he found instead within a great cavern was a mighty serpent, one he had never seen before. Somehow, as he gazed upon the serpent's titanic form, the child felt no fear, but instead a kind of kinship."
               }
-            ]
+            ],
+            "id": "p-59e8722eb5471436"
           },
           {
             "type": "paragraph",
@@ -113,7 +125,8 @@
                 "type": "text",
                 "text": "\"I am the Profane Serpent. Though my servants are numberless, not one mortal now dwells in my shadow. That I have fallen into this realm, and that we should meet... Perhaps this is fate. You are not one of my people, but you are human nonetheless. Speak your desire, and I shall hear it.\""
               }
-            ]
+            ],
+            "id": "p-a4be7fde02ac349b"
           },
           {
             "type": "paragraph",
@@ -122,7 +135,8 @@
                 "type": "text",
                 "text": "\"Could you then, perchance, become our god?\""
               }
-            ]
+            ],
+            "id": "p-7e2fc3b10d91994f"
           },
           {
             "type": "paragraph",
@@ -131,20 +145,23 @@
                 "type": "text",
                 "text": "Thus did they, human and serpent, go forth to face the royal authority of the Sunchild and the incursions of the Dragonheirs beyond — thus was the curtain raised on the turning of the tide."
               }
-            ]
+            ],
+            "id": "p-2294ca5c30044560"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -153,7 +170,8 @@
                 "type": "text",
                 "text": "—Before Sun and Moon—"
               }
-            ]
+            ],
+            "id": "p-94db497fcecd8dd3"
           },
           {
             "type": "paragraph",
@@ -162,7 +180,8 @@
                 "type": "text",
                 "text": "What we wish to record is the tale of how heaven's will took shape on the earth below. O heavenly gods, these creations are your works. Grant us divine wisdom — let us endlessly record!"
               }
-            ]
+            ],
+            "id": "p-fa1afb80223a7794"
           },
           {
             "type": "paragraph",
@@ -181,7 +200,8 @@
                 "type": "text",
                 "text": "When the eternal throne of the heavens came, the world was made anew. Then the true lord, the Primordial One, came forth and did battle against the seven terrifying sovereigns, dragon-lords of the old world. The Primordial One created shining shades of itself, and the number of these shades was four."
               }
-            ]
+            ],
+            "id": "p-08ded44819d22a8d"
           },
           {
             "type": "paragraph",
@@ -200,7 +220,8 @@
                 "type": "text",
                 "text": "The Primordial One may have been Phanes. It had wings and a crown, and was birthed from an egg, androgynous in nature. But for the world to be created, the egg's shell had to be broken. However, Phanes, the Primordial One, used the eggshell to separate the \"universe\" and the \"microcosm of the world.\""
               }
-            ]
+            ],
+            "id": "p-dc01f795785af39c"
           },
           {
             "type": "paragraph",
@@ -219,7 +240,8 @@
                 "type": "text",
                 "text": "Forty winters entombed the flames, and forty summers churned the seas. The Seven Sovereigns were vanquished, and the seven nations submitted to the heavens. The Primordial One, the great sovereign, began the creation of heaven and earth for \"our\" sake — that of its creations which it cherished most, who would soon appear upon this earth."
               }
-            ]
+            ],
+            "id": "p-2d2e829f1871cacd"
           },
           {
             "type": "paragraph",
@@ -228,7 +250,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -247,7 +270,8 @@
                 "type": "text",
                 "text": "The mountains and rivers were made, and the seas and oceans accepted those who rebelled and those who would not kneel. The Primordial One and one of its shades created the birds of the air, the beasts of the earth, and the fish of the sea. Together, they also created flowers, grass, and trees, before finally creating humans — our ancestors, numerous as the stars in the sky, uncountable as the sand on the shore. From that time, our ancestors made a covenant with the Primordial One, and so entered into a new age."
               }
-            ]
+            ],
+            "id": "p-f2bfb3236a3a524c"
           },
           {
             "type": "paragraph",
@@ -266,7 +290,8 @@
                 "type": "text",
                 "text": "The Primordial One had a sacred plan for humans. As long as they were happy, it too rejoiced."
               }
-            ]
+            ],
+            "id": "p-20f71d0a3ee6ec02"
           },
           {
             "type": "paragraph",
@@ -285,7 +310,8 @@
                 "type": "text",
                 "text": "The people worked the land, and so came the first harvest. The people mined, and so reaped the first crop of precious ore. The people gathered, and the first poems were written."
               }
-            ]
+            ],
+            "id": "p-241a915a0db100be"
           },
           {
             "type": "paragraph",
@@ -304,7 +330,8 @@
                 "type": "text",
                 "text": "If there was hunger, the heavens would bring down food and rain. If there was poverty, the earth would bring forth its riches. If melancholy were to spread, the heavens would reply with their voices. The one taboo was to succumb to temptation. But the path to temptation had already been sealed."
               }
-            ]
+            ],
+            "id": "p-b9c9a32cfbdb34ec"
           },
           {
             "type": "paragraph",
@@ -313,7 +340,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -342,7 +370,8 @@
                 "type": "text",
                 "text": "The era of darkness had begun."
               }
-            ]
+            ],
+            "id": "p-f127e42c989d4ef3"
           },
           {
             "type": "paragraph",
@@ -381,7 +410,8 @@
                 "type": "text",
                 "text": "The prayers of the people turned into lamentations, but the Primordial One and its three other shining shades could not hear."
               }
-            ]
+            ],
+            "id": "p-dad389e92e54fbf3"
           },
           {
             "type": "paragraph",
@@ -410,7 +440,8 @@
                 "type": "text",
                 "text": "When the sage died, someone would monopolize the flame. Using it, they would cast a long shadow over the land."
               }
-            ]
+            ],
+            "id": "p-ee8d4fd70c2b4f7d"
           },
           {
             "type": "paragraph",
@@ -439,7 +470,8 @@
                 "type": "text",
                 "text": "Life is a boundless ocean of suffering. We are only searching for the way home."
               }
-            ]
+            ],
+            "id": "p-96c44df8c64194d8"
           },
           {
             "type": "paragraph",
@@ -468,7 +500,8 @@
                 "type": "text",
                 "text": "We call her Kairos, or \"the ruler of the unchanging world.\" We dare not speak her true, secret name, and so I pen it here, only once, and in reverse: \"Htoratsi.\""
               }
-            ]
+            ],
+            "id": "p-9b67453c6d34c63f"
           },
           {
             "type": "paragraph",
@@ -487,7 +520,8 @@
                 "type": "text",
                 "text": "The sage Abrax's wisdom was awakened, and he unveiled a light-bringing miracle from within his hands. So our ancestors began to build the Helios, with him as their leader."
               }
-            ]
+            ],
+            "id": "p-5091aa824714552b"
           },
           {
             "type": "paragraph",
@@ -516,7 +550,8 @@
                 "type": "text",
                 "text": "The years of the Sun and Moon had begun."
               }
-            ]
+            ],
+            "id": "p-85bc115615e9c3b9"
           },
           {
             "type": "paragraph",
@@ -565,7 +600,8 @@
                 "type": "text",
                 "text": "Abrax was imprisoned by order of the Sunchild."
               }
-            ]
+            ],
+            "id": "p-1af21fd64167f0c4"
           },
           {
             "type": "paragraph",
@@ -614,7 +650,8 @@
                 "type": "text",
                 "text": "For it is the God of Moments who is able to take \"seeds\" from this \"moment\" into the past and the future."
               }
-            ]
+            ],
+            "id": "p-2ba0aac4a32dd4bc"
           },
           {
             "type": "paragraph",
@@ -643,20 +680,23 @@
                 "type": "text",
                 "text": "Hark, I hear armor without. Here, I shall stop writing."
               }
-            ]
+            ],
+            "id": "p-efb60384278ae63b"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "vol-3",
       "label": "Vol. 3",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -665,7 +705,8 @@
                 "type": "text",
                 "text": "—Hydrological Studies in Byakuyakoku—"
               }
-            ]
+            ],
+            "id": "p-b5bad22dac58a73c"
           },
           {
             "type": "paragraph",
@@ -704,7 +745,8 @@
                 "type": "text",
                 "text": "(This book has been constantly edited, redacted, and modified over the years. Even the name of the book's title has seen change from \"Aphotic Earth\" to \"Tokoyokoku,\" before becoming \"Byakuyakoku.\" Later, due to the grace of Watatsumi, the people of the depths would return to the sea's surface. But it seems like \"Aphotic Earth\" has some special meaning, and it has not been universally changed throughout the text.)"
               }
-            ]
+            ],
+            "id": "p-6d95a7b550418781"
           },
           {
             "type": "paragraph",
@@ -743,7 +785,8 @@
                 "type": "text",
                 "text": "We have already developed a certain field of study regarding the relationship between Sunfire, wind, and water. As such, both hydrology and the undying wind must be considered before undertaking any project of civil engineering."
               }
-            ]
+            ],
+            "id": "p-09fca5d60d83107b"
           },
           {
             "type": "paragraph",
@@ -792,7 +835,8 @@
                 "type": "text",
                 "text": "If these towers were to be imperiled, so would the entire nation. As such, they have been hidden using secret arts. Only the shrine maidens and the Vassals of Watatsumi can summon them forth."
               }
-            ]
+            ],
+            "id": "p-9732c255144c4d53"
           },
           {
             "type": "paragraph",
@@ -811,7 +855,8 @@
                 "type": "text",
                 "text": "The Narrows were, in the earliest times, sandwiched between the mountain face and an area known as the Roundlands, thus earning that location its name. However, the exceedingly strange tectonic shifts in Byakuyakoku caused the Roundlands to collapse into the depths, thus causing The Narrows to widen significantly."
               }
-            ]
+            ],
+            "id": "p-e6f12754745f2b62"
           },
           {
             "type": "paragraph",
@@ -840,7 +885,8 @@
                 "type": "text",
                 "text": "In the earliest times, this place was called Delphi, the land of snakes. This name did not change even after the arrival of Watatsumi Omikami. Ancient art depicts the scaleless serpent as \"Ouroboros,\" and the coral-adorned serpent as \"Orobashi.\""
               }
-            ]
+            ],
+            "id": "p-af07e9c828c249a5"
           },
           {
             "type": "paragraph",
@@ -869,20 +915,23 @@
                 "type": "text",
                 "text": "According to prophecy, this was likely the sun that the sage displayed, used to light those lightless caverns. And just as those prophecies suggested, it was also later used to cast a great shadow over the nation."
               }
-            ]
+            ],
+            "id": "p-44adc859f371edfe"
           }
         ]
       }
     },
     {
       "id": "4",
+      "volumeKey": "vol-4",
       "label": "Vol. 4",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -891,7 +940,8 @@
                 "type": "text",
                 "text": "—Bathysmal Vishap Experimental Records—"
               }
-            ]
+            ],
+            "id": "p-7fda03c9a8039743"
           },
           {
             "type": "paragraph",
@@ -920,7 +970,8 @@
                 "type": "text",
                 "text": "These experimental records are not to be used for the writing of diaries, love letters, or fantasy novels."
               }
-            ]
+            ],
+            "id": "p-9a3d2bbea7e72663"
           },
           {
             "type": "paragraph",
@@ -989,7 +1040,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-c007cd9d829378b6"
           },
           {
             "type": "paragraph",
@@ -1048,7 +1100,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-360ea752e471b9cf"
           },
           {
             "type": "paragraph",
@@ -1057,7 +1110,8 @@
                 "type": "text",
                 "text": "The grafting can be considered a success. (\"Void-907-Watatsumi Omikami's Special Orders: III\"). The rejection originates from the vishaps having been beings of the Light Realm (also known as elemental creatures), and thus being at odds with the Human Realm, of which Omikami and its coral vassals are a part."
               }
-            ]
+            ],
+            "id": "p-5948ce901f76be1b"
           },
           {
             "type": "paragraph",
@@ -1066,20 +1120,23 @@
                 "type": "text",
                 "text": "All experimental logs are closed. No experiment conducted here resulted in the death of any Dragonheirs — they all lived to see the end of their days. Praise be to Watatsumi Omikami, gracious and beneficent."
               }
-            ]
+            ],
+            "id": "p-3b9f199281991af6"
           }
         ]
       }
     },
     {
       "id": "5",
+      "volumeKey": "vol-5",
       "label": "Vol. 5",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -1088,7 +1145,8 @@
                 "type": "text",
                 "text": "—In the Light, Beneath the Shadow—"
               }
-            ]
+            ],
+            "id": "p-d7ca61815f61b9df"
           },
           {
             "type": "paragraph",
@@ -1137,7 +1195,8 @@
                 "type": "text",
                 "text": "(Dragonheirs of the Depths have evolved to wield the power of other elements and have hence lost their purity. As such, the Dragon of Water will no longer be born from among their ranks.)"
               }
-            ]
+            ],
+            "id": "p-c0bb8bdd7a892af0"
           },
           {
             "type": "paragraph",
@@ -1163,7 +1222,8 @@
                 "type": "text",
                 "text": "Humans crawl on hands and feet as babies, walk on two legs as adults, and use a cane as elders. The answer is undoubtedly \"a human.\""
               }
-            ]
+            ],
+            "id": "p-a5b63ff452aa90f8"
           },
           {
             "type": "paragraph",
@@ -1202,7 +1262,8 @@
                 "type": "text",
                 "text": "Since the arrival of Watatsumi Omikami, some of us have returned to the sea's surface to build a home and interact with the people there. Therefore, we have been able to review the names of these animals. According to the Vassal and the Omikami's prophecy, we shall all move back to the sea's surface someday, so it is important to get these names right. Aux means cattle, Hors means horse, and Foreste Bore means forest boar."
               }
-            ]
+            ],
+            "id": "p-7dc9cb855e8ff319"
           },
           {
             "type": "paragraph",
@@ -1241,7 +1302,8 @@
                 "type": "text",
                 "text": "By the way, the two special astronomical phenomena of Byakuyakoku — the mirages and the Sinshades — were at first indiscriminately referred to as Eidolons and seen as the two sides of the same coin. It was not until the arrival of Watatsumi Omikami that the people of Byakuyakoku were able to understand the two phenomena and name them differently. Though the sun did not shine upon Byakuyakoku, the mirages that appeared in Whitenights were named Sunfire Phantasms and those of Evernight, Ghostfire Phantasms. As time went by, both of them came to be referred to as Sunfire Phantasms, for they are essentially the same thing."
               }
-            ]
+            ],
+            "id": "p-5327f3e350362de0"
           },
           {
             "type": "paragraph",
@@ -1260,7 +1322,8 @@
                 "type": "text",
                 "text": "Answer: The answer is smoke. Birds are winged creatures, and it is normal that they are not seen in Enkanomiya."
               }
-            ]
+            ],
+            "id": "p-79fdaa5962dcf757"
           },
           {
             "type": "paragraph",
@@ -1299,7 +1362,8 @@
                 "type": "text",
                 "text": "Watatsumi Omikami forbade people from spreading this riddle."
               }
-            ]
+            ],
+            "id": "p-629de2679ba5733a"
           },
           {
             "type": "paragraph",
@@ -1308,7 +1372,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -1317,7 +1382,8 @@
                 "type": "text",
                 "text": "Appendix: Historical Figures, Their Traditional Names, and Narukami-Style Renderings"
               }
-            ]
+            ],
+            "id": "p-45e7d7e176e8fd25"
           },
           {
             "type": "paragraph",
@@ -1466,7 +1532,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-0ffc9ec875228ce5"
           }
         ]
       }

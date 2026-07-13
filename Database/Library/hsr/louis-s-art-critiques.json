@@ -4,10 +4,11 @@
   "id": "louis-s-art-critiques",
   "name": "Louis's Art Critiques",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Louis%27s_Art_Critiques",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "night-of-the-majestic-cosmos-the-dawn-of-dreams-freedom",
       "label": "Night of the Majestic Cosmos: The Dawn of Dreams & Freedom",
       "document": {
         "version": 1,
@@ -32,7 +33,8 @@
                 "type": "text",
                 "text": ": The Dawn of Dreams & Freedom"
               }
-            ]
+            ],
+            "id": "p-8b891995f7f2d175"
           },
           {
             "type": "paragraph",
@@ -46,7 +48,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-16d6d71c90a71b0f"
           },
           {
             "type": "paragraph",
@@ -68,7 +71,8 @@
                 "type": "text",
                 "text": "."
               }
-            ]
+            ],
+            "id": "p-bb9d16fc45942213"
           },
           {
             "type": "paragraph",
@@ -77,7 +81,8 @@
                 "type": "text",
                 "text": "This is an iconic work from the famous painter Sharlotte's early life, and is also where the title of this series of notes takes its name."
               }
-            ]
+            ],
+            "id": "p-b40c4b6a91a17094"
           },
           {
             "type": "paragraph",
@@ -86,7 +91,8 @@
                 "type": "text",
                 "text": "Just like their other early works, this painting has yet to receive the acclaim and praise it deserves to this day because it has not yet showcased the artist's unique dreamy kaleidoscopic style. I wish to express my deepest regret for this."
               }
-            ]
+            ],
+            "id": "p-5326591581e24e26"
           },
           {
             "type": "paragraph",
@@ -95,7 +101,8 @@
                 "type": "text",
                 "text": "Let us first consider the painting itself: Beneath a vast and brilliant starry sky, a black lighthouse symbolizing human civilization and order looks frail and insignificant — like a small boat drifting in a boundless ocean. All it would take is a single storm or a lone tidal wave to completely wipe any trace of its existence from the face of the earth."
               }
-            ]
+            ],
+            "id": "p-00379a51d0184679"
           },
           {
             "type": "paragraph",
@@ -104,7 +111,8 @@
                 "type": "text",
                 "text": "And the composition of this image uses exaggerated lines that are perpetually flowing like a spiral. These lines devour everything like frothing waves, spinning, agitating, and upheaving, constructing everything while deconstructing everything."
               }
-            ]
+            ],
+            "id": "p-03c4622eebb607e0"
           },
           {
             "type": "paragraph",
@@ -122,7 +130,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-7b756e030d26a10c"
           },
           {
             "type": "paragraph",
@@ -131,7 +140,8 @@
                 "type": "text",
                 "text": "\"When we look up to the stars, what are we looking at?\""
               }
-            ]
+            ],
+            "id": "p-67d0accfb761043e"
           },
           {
             "type": "paragraph",
@@ -140,7 +150,8 @@
                 "type": "text",
                 "text": "Every time we look up and gaze out at the vast and inscrutable universe, we are inevitably faced with our own insignificance. Humans — or rather, all civilizations of intelligent life — are nothing more than a fleeting and fragile candle flame before the unfathomable and mysterious might of nature."
               }
-            ]
+            ],
+            "id": "p-9df42f47d69c3860"
           },
           {
             "type": "paragraph",
@@ -149,7 +160,8 @@
                 "type": "text",
                 "text": "However, in this painting, all phenomena in the world — be it the eternal night sky, the boundless universe, the insignificant lighthouse symbolizing humanity, or the shaft of light beamed out from that lighthouse — are fundamentally just twisted lines randomly doodled by Imaginary Law."
               }
-            ]
+            ],
+            "id": "p-136df7cd00ef2340"
           },
           {
             "type": "paragraph",
@@ -158,7 +170,8 @@
                 "type": "text",
                 "text": "We come from the stars, and are no different to space dust. Everything in this world is ultimately meaningless."
               }
-            ]
+            ],
+            "id": "p-6c5a6076c9f0edb3"
           },
           {
             "type": "paragraph",
@@ -167,7 +180,8 @@
                 "type": "text",
                 "text": "So, in this cold and empty tone, what answer has our painter given us?"
               }
-            ]
+            ],
+            "id": "p-22a61f3fdd5ed41d"
           },
           {
             "type": "paragraph",
@@ -176,7 +190,8 @@
                 "type": "text",
                 "text": "Take a look at the mysterious violet tones dotted into the indigo night sky. The constellations are giving off these gentle pale yellow lights. These lights contrast and harmonize with the flame in the lighthouse, so we feel the restless joy of time passing, but also warmth ignited in this cold long night."
               }
-            ]
+            ],
+            "id": "p-c5aaf23bfdc48f21"
           },
           {
             "type": "paragraph",
@@ -185,7 +200,8 @@
                 "type": "text",
                 "text": "Thanks to these colors, those messy and restless lines no longer look cold and ruthless because they are faithful to nature. They still flow — looping back and forth, never stopping — but they emanate a gentle halo due to having been stained by the warmth of human souls, bringing a touch of life to the vast and empty night sky."
               }
-            ]
+            ],
+            "id": "p-d83e32b4365b70fe"
           },
           {
             "type": "paragraph",
@@ -194,13 +210,15 @@
                 "type": "text",
                 "text": "Even if reality is nothing more than a dream... Even if the universe was not created for humanity... We still need to pursue the sky that belongs exclusively to ourselves — be it in a painting, or in our dreams."
               }
-            ]
+            ],
+            "id": "p-203f9780974f4cb1"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "coastline-metamorphosis-rebirth",
       "label": "Coastline: Metamorphosis & Rebirth",
       "document": {
         "version": 1,
@@ -225,7 +243,8 @@
                 "type": "text",
                 "text": ": Metamorphosis & Rebirth"
               }
-            ]
+            ],
+            "id": "p-0c0ef6635f12b0e5"
           },
           {
             "type": "paragraph",
@@ -239,7 +258,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-16d6d71c90a71b0f"
           },
           {
             "type": "paragraph",
@@ -261,7 +281,8 @@
                 "type": "text",
                 "text": "."
               }
-            ]
+            ],
+            "id": "p-c96cf9e2a00892bf"
           },
           {
             "type": "paragraph",
@@ -270,7 +291,8 @@
                 "type": "text",
                 "text": "As an important messenger leading the painter into the public eye, the brushstroke techniques in this painting are more mature, and the painter's unique dreamy style has basically taken shape. Numerous interpretations of this piece have been offered up by art critics and academics. Those famed works are familiar to all, so I won't repeat them here. Rather, this author shall continue on the same train of thought as before: An analysis of the artist starting with the work."
               }
-            ]
+            ],
+            "id": "p-9caf8b78d46fe7c0"
           },
           {
             "type": "paragraph",
@@ -279,7 +301,8 @@
                 "type": "text",
                 "text": "I trust that old friends already familiar with me also understand my methods of analysis, but due to the artist's popularity, these essays have recently attracted some attention and following. Because of this, I will share with new readers an outline of my line of thinking at the start of each chapter."
               }
-            ]
+            ],
+            "id": "p-3e6e65160cc36ff7"
           },
           {
             "type": "paragraph",
@@ -288,7 +311,8 @@
                 "type": "text",
                 "text": "There is a general consensus in academic circles that artworks cannot be equated with their creators. This is a concept verified by countless cultures over the centuries and seems to be an immutable truth. But this author believes that so-called works are ultimately no more than the product of splicing fragments from the creator's subconscious mind — just like dreams and hallucinations which often reflect in detail the deepest desires of the heart, which even the creator remains unaware."
               }
-            ]
+            ],
+            "id": "p-01a71b96787f453f"
           },
           {
             "type": "paragraph",
@@ -323,7 +347,8 @@
                 "type": "text",
                 "text": "."
               }
-            ]
+            ],
+            "id": "p-0a227350d4cedcd2"
           },
           {
             "type": "paragraph",
@@ -345,7 +370,8 @@
                 "type": "text",
                 "text": ", the artist instead portrays a severely formulaic and solemn yet disheveled funeral to express their weariness and displeasure at the tediousness of boring reality."
               }
-            ]
+            ],
+            "id": "p-bece8a139386747d"
           },
           {
             "type": "paragraph",
@@ -367,7 +393,8 @@
                 "type": "text",
                 "text": ". The background of the entire painting is composed of a triad of beach, ocean, and sky. Their borders echo each other diagonally across the canvas between top-left and bottom-right in the shape of the golden ratio. At the same time, from the beach in the bottom-left to the sky in the top-right, spans an arc comprising four clear themes strung together: a molted black snake skin, a white soaring bird, a golden cloud, and a crimson sun."
               }
-            ]
+            ],
+            "id": "p-03f97885445fd4df"
           },
           {
             "type": "paragraph",
@@ -376,7 +403,8 @@
                 "type": "text",
                 "text": "Based on this author's interpretation, the beach, ocean, and sky respectively represent the material world, the mental world, and aesthetics itself. While the molted snake skin, the soaring bird, cloud, and sun represent the inner ideals of the artist. Burdens of life lie abandoned like a molted old snake skin, while the artist reborn is like a bird freed from the shackles of earth, rushing toward those brilliant clouds symbolizing freedom and spirituality. And the sun, high in its zenith, is the manifestation and embodiment of truth, goodness, and beauty — the goal and desire which the artist eternally longs for."
               }
-            ]
+            ],
+            "id": "p-e4b768b8ae8586f7"
           },
           {
             "type": "paragraph",
@@ -385,7 +413,8 @@
                 "type": "text",
                 "text": "The artist also makes creative use of color and line. The brushwork for the beach in the painting is solemn and forlorn, while the undulating ocean uses thick and heavy brushes, and the sky uses graceful and light lines. The colors of the four themes are black, white, yellow, and red which correspond to the , albedo, , and processes in alchemy. Thus, three dimensions are used to symbolize the metamorphosis and rebirth of the artist."
               }
-            ]
+            ],
+            "id": "p-814d526ad51b1c97"
           },
           {
             "type": "paragraph",
@@ -407,13 +436,15 @@
                 "type": "text",
                 "text": "was a huge turning point in the artist's life. This thick and heavy work could perhaps be understood as the painter putting everything on the line in coming to Penacony, or it could be understood as the painter being a precocious dark horse that rose up through a single masterpiece. However, in this author's estimation, this point had already been revealed in the artist's work itself — even before this painting was made."
               }
-            ]
+            ],
+            "id": "p-984c947f00055a84"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "paradise-on-earth-when-dreamscape-overlooks-reality",
       "label": "Paradise on Earth: When Dreamscape Overlooks Reality",
       "document": {
         "version": 1,
@@ -438,7 +469,8 @@
                 "type": "text",
                 "text": ": When Dreamscape Overlooks Reality"
               }
-            ]
+            ],
+            "id": "p-6733389c728d4a23"
           },
           {
             "type": "paragraph",
@@ -452,7 +484,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-16d6d71c90a71b0f"
           },
           {
             "type": "paragraph",
@@ -474,7 +507,8 @@
                 "type": "text",
                 "text": ". This painting represents the complete maturity of the artist's style, establishing them as the unparalleled icon of the pure reductionist school of art."
               }
-            ]
+            ],
+            "id": "p-00ffa57d078efc56"
           },
           {
             "type": "paragraph",
@@ -483,7 +517,8 @@
                 "type": "text",
                 "text": "However, before formally discussing this work, please allow me to share a piece of good news: After reading the previous issue, the artist actually replied to my comments to express appreciation and endorsement for my series of analyses!"
               }
-            ]
+            ],
+            "id": "p-1718692cb6fffbeb"
           },
           {
             "type": "paragraph",
@@ -492,7 +527,8 @@
                 "type": "text",
                 "text": "At the time of writing this issue, we have exchanged letters several times. The artist's words are simple, yet reflect a peaceful elegance and tolerance between the lines. After a simple exchange of ideas with the artist, I have grown to admire them even more. So, I have decided forthwith to pick myself up and take leave for Penacony as soon as this issue has been penned, such that I might witness the stunning appearance of this great artist."
               }
-            ]
+            ],
+            "id": "p-031ad66bf10fe355"
           },
           {
             "type": "paragraph",
@@ -501,7 +537,8 @@
                 "type": "text",
                 "text": "Let us put aside such idle talk and turn our attention back to this incomparable masterpiece. Every time I gaze at this work, I always find myself subconsciously slipping into the painter's mental world, and it is undoubtedly an extraordinarily wonderful process:"
               }
-            ]
+            ],
+            "id": "p-c477bd993759167b"
           },
           {
             "type": "paragraph",
@@ -510,7 +547,8 @@
                 "type": "text",
                 "text": "When first beholding this painting, the viewer can only glimpse a soft, misty halation like clouds of mist. These halos then shift and change, evolving into a mouth made of rubies and pearls, an eye carved from gold, and gorgeous crystal tears flowing from the eye. Starting at the corners of the eye, those teardrops march in formation to form contours and vortices — together with the eyes and the mouth — all creating a twisted, bizarre human shape out of the void."
               }
-            ]
+            ],
+            "id": "p-cf74a92cf71fdef9"
           },
           {
             "type": "paragraph",
@@ -519,7 +557,8 @@
                 "type": "text",
                 "text": "But then, amid this fuzzy yet dazzling halo, these condensed images shatter with a bang. And so we see the gold dim and the gemstones bleed, and we hear the pearl wail and the crystals crack... These delicate creations are now filled with searing pain, as though trapped within a cruel nightmare of shadowy terror from which they can never awaken. Meanwhile, we are startled awake by these uncanny dream fragments, falling headfirst back into reality — a cruel nightmare of shadowy terror from which we can never awaken."
               }
-            ]
+            ],
+            "id": "p-4acc399879d9ad54"
           },
           {
             "type": "paragraph",
@@ -528,7 +567,8 @@
                 "type": "text",
                 "text": "Here, the artist has shown us an abstract yet very real nightmare. By using a light and splendid palette, she gives those vague concepts and real desires a tangible shape — before ruthlessly smashing them to pieces:"
               }
-            ]
+            ],
+            "id": "p-ebf122f81df6e364"
           },
           {
             "type": "paragraph",
@@ -537,7 +577,8 @@
                 "type": "text",
                 "text": "Who would have thought that a fleeting halo symbolizing creativity would sink into vulgar luxury? The greedy mouth built by banality gnaws at the primal serenity, bedecked with glittering jewels yet horrifying and ferocious. Those once-clear eyes corrupt into gold by vulgar contamination, and even the flowing tears are unavoidably dried and congealed into dazzling crystals."
               }
-            ]
+            ],
+            "id": "p-c2857cb00b15b876"
           },
           {
             "type": "paragraph",
@@ -546,7 +587,8 @@
                 "type": "text",
                 "text": "Where, then, does this plague of ostentation come from? Thriving Penacony, rapturous Penacony — You bring humans dreams and entertainment, yet breed all sin under your cover. Song, dance, wine, and gambles fill up people's bodies and simultaneously drain their souls. So, then, how many have drowned so far in that mirage and intangible dream, only to become a joyous and bloated cadaver?"
               }
-            ]
+            ],
+            "id": "p-0cbba00ec9e87beb"
           },
           {
             "type": "paragraph",
@@ -555,7 +597,8 @@
                 "type": "text",
                 "text": "As for this invisible spiritual disaster, the artist keenly takes in the entire scene at once and performs deep reflections. She smashes them one-by-one — Giving up perspective, abandoning logic, dissolving boundaries — the artist uses a bright, light color palette to refine, recreate, and brutally shatter this nightmare of vain luxury."
               }
-            ]
+            ],
+            "id": "p-5fd9feb14ccf251a"
           },
           {
             "type": "paragraph",
@@ -564,7 +607,8 @@
                 "type": "text",
                 "text": "This is a fierce duel between destruction and re-creation with arrogance hidden among the serenity. The artist uses it to complete her own pilgrimage — a journey home for the pure of soul."
               }
-            ]
+            ],
+            "id": "p-2f8c144e288e75af"
           },
           {
             "type": "paragraph",
@@ -573,7 +617,8 @@
                 "type": "text",
                 "text": "And when we peer through these crazed appearances into the soul of the artist — one that's delicate yet wild, aloof yet scorching — then our souls, too, shall quiver akin to hearing the first bolt in a thunderstorm."
               }
-            ]
+            ],
+            "id": "p-6075d3c118a445fe"
           },
           {
             "type": "paragraph",
@@ -582,7 +627,8 @@
                 "type": "text",
                 "text": "The author remains curious: What kind of life experiences formed such astonishing genius? And now, I will personally visit the residence of this great artist to seek out an answer. From here on out, I, too, will be embarking on a pilgrimage of my own."
               }
-            ]
+            ],
+            "id": "p-32f2b8146a1c19cb"
           }
         ]
       }

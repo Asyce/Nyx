@@ -4,10 +4,11 @@
   "id": "inkford-hermitage-set-menu-pricing",
   "name": "Inkford Hermitage Set Menu Pricing",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Inkford_Hermitage_Set_Menu_Pricing",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ec0c4428209ca694"
           },
           {
             "type": "paragraph",
@@ -66,7 +68,8 @@
                 "type": "text",
                 "text": "Bathhouse access limited to off-peak hours."
               }
-            ]
+            ],
+            "id": "p-61e804640f6c82e8"
           },
           {
             "type": "paragraph",
@@ -110,7 +113,8 @@
                 "type": "text",
                 "text": "Unlimited bathhouse access except VIP baths."
               }
-            ]
+            ],
+            "id": "p-37f06622239f9ea8"
           },
           {
             "type": "paragraph",
@@ -147,7 +151,8 @@
                 "type": "text",
                 "text": "Aether network access available (message upload restricted), unlimited traffic."
               }
-            ]
+            ],
+            "id": "p-45d5b777b42d88c9"
           },
           {
             "type": "paragraph",
@@ -184,7 +189,8 @@
                 "type": "text",
                 "text": "Includes dedicated caretakers, plus complimentary flower gifts delivered annually on the day of remembrance."
               }
-            ]
+            ],
+            "id": "p-9a250dd6807b179e"
           },
           {
             "type": "paragraph",
@@ -219,7 +225,8 @@
                 "type": "text",
                 "text": "Service fee charges are based on room type and the hotel's hired imagenae contractor salaries. Please call the front desk for a personalized consultation."
               }
-            ]
+            ],
+            "id": "p-0d088299eba5ccef"
           },
           {
             "type": "paragraph",
@@ -242,7 +249,8 @@
                 "type": "text",
                 "text": "Spots are limited due to overwhelming demand. Watch the hotel's livestreams for announcements of periodic upvote events offering the chance to win a spot."
               }
-            ]
+            ],
+            "id": "p-d0da7da3afd7ef45"
           },
           {
             "type": "paragraph",
@@ -251,7 +259,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -300,7 +309,8 @@
                 "type": "text",
                 "text": "(A 30% service fee will be deducted)"
               }
-            ]
+            ],
+            "id": "p-a3258645d43c71f3"
           },
           {
             "type": "paragraph",
@@ -344,7 +354,8 @@
                 "type": "text",
                 "text": "(For example, imagine how much respect someone who spent their life browsing charity websites and focusing on personal fitness and self-improvement commands within their family legacy. Please contact the hotel staff for further details. Service fee discounts available for Modern suite bookings and above. The hotel assumes no responsibility for any additional disputes arising from this service.)"
               }
-            ]
+            ],
+            "id": "p-e56cfd775ba636bd"
           },
           {
             "type": "paragraph",
@@ -367,7 +378,8 @@
                 "type": "text",
                 "text": "Additional charges apply."
               }
-            ]
+            ],
+            "id": "p-636fbe735e3f42ed"
           },
           {
             "type": "paragraph",
@@ -376,7 +388,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -397,7 +410,8 @@
                 "type": "text",
                 "text": "Mechatrons: Bedding and toiletries are specially designed. Due to size and weight, entry into the bath counts as two persons (free of charge only if the head is carried in by someone else). The cost is calculated at 200-500 credits per day and will be refunded at checkout."
               }
-            ]
+            ],
+            "id": "p-0c6168a25e555629"
           },
           {
             "type": "paragraph",
@@ -406,7 +420,8 @@
                 "type": "text",
                 "text": "Unlisted/Rare Species: Rate negotiable upon check-in."
               }
-            ]
+            ],
+            "id": "p-636816c6e8b96f57"
           },
           {
             "type": "paragraph",
@@ -415,7 +430,8 @@
                 "type": "text",
                 "text": "For any other questions, please inquire at the front desk. Our lobby manager, Casper, will be happy to assist."
               }
-            ]
+            ],
+            "id": "p-aa639d19d42318de"
           }
         ]
       }

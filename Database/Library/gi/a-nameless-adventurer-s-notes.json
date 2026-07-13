@@ -4,10 +4,11 @@
   "id": "a-nameless-adventurer-s-notes",
   "name": "A Nameless Adventurer's Notes",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/A_Nameless_Adventurer%27s_Notes",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -15,7 +16,8 @@
           {
             "type": "heading",
             "level": 3,
-            "text": "Page 1"
+            "text": "Page 1",
+            "id": "h-5914735b4ed647e8"
           },
           {
             "type": "paragraph",
@@ -74,7 +76,8 @@
                 "type": "text",
                 "text": "...Anyway, this is where it starts! My adventure..."
               }
-            ]
+            ],
+            "id": "p-d84fab02cd89fa22"
           },
           {
             "type": "list",
@@ -99,14 +102,16 @@
                     "type": "text",
                     "text": "."
                   }
-                ]
+                ],
+                "id": "li-d148907a7ffa8550"
               }
             ]
           },
           {
             "type": "heading",
             "level": 3,
-            "text": "Page 2"
+            "text": "Page 2",
+            "id": "h-28295d0620150b8e"
           },
           {
             "type": "paragraph",
@@ -175,7 +180,8 @@
                 "type": "text",
                 "text": "...Still, there's only one chunk of Pyrophosphorite left. I must make sure I don't use it up before I get to the Tonatiuh..."
               }
-            ]
+            ],
+            "id": "p-fb65d9018b13d564"
           },
           {
             "type": "list",
@@ -200,14 +206,16 @@
                     "type": "text",
                     "text": "."
                   }
-                ]
+                ],
+                "id": "li-f987be225349757e"
               }
             ]
           },
           {
             "type": "heading",
             "level": 3,
-            "text": "Page 3"
+            "text": "Page 3",
+            "id": "h-247935d5d3ced7da"
           },
           {
             "type": "paragraph",
@@ -286,7 +294,8 @@
                 "type": "text",
                 "text": "...I won't let you get it! Because we're going to stop your plan, right here!"
               }
-            ]
+            ],
+            "id": "p-94732ab4def7f018"
           },
           {
             "type": "list",
@@ -311,7 +320,8 @@
                     "type": "text",
                     "text": "."
                   }
-                ]
+                ],
+                "id": "li-f4ee4ca71bee6f7d"
               }
             ]
           }

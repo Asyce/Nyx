@@ -4,10 +4,11 @@
   "id": "borisin-folk-song-collection",
   "name": "Borisin Folk Song Collection",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Borisin_Folk_Song_Collection",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "To the Venerable Ten Lords,"
               }
-            ]
+            ],
+            "id": "p-228c376ed938d63a"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "I'm Dr. Zongguang, a doctor in cultural anthropology from the Luofu's Grand Virtue Academy."
               }
-            ]
+            ],
+            "id": "p-bd00a65fa709c9d2"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "Together with a team of twenty-six dedicated researchers and students, we have collected and recorded the cultural regarding the borisins' tribes and hunting rituals. Our journey led us to scour battlefields in search of war relics, seek out freed slaves, and even conducting field research by infiltrating borisin settlements under the guise of an IPC trade team."
               }
-            ]
+            ],
+            "id": "p-52b9a8416082baa9"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "Throughout our research, we lost three researchers, including my own mentor."
               }
-            ]
+            ],
+            "id": "p-17467bec529edce7"
           },
           {
             "type": "paragraph",
@@ -68,7 +73,8 @@
                 "type": "text",
                 "text": ". Within its pages, you will find a comprehensive compilation of two hundred and fifty-one oral epics and ballads of the borisin, serving as a valuable reference."
               }
-            ]
+            ],
+            "id": "p-577365f789f43ecc"
           },
           {
             "type": "paragraph",
@@ -77,7 +83,8 @@
                 "type": "text",
                 "text": "Dr. Zongguang, Anthropologist from the Luofu Grand Virtue Academy"
               }
-            ]
+            ],
+            "id": "p-3b59048bce88a005"
           },
           {
             "type": "paragraph",
@@ -86,7 +93,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -95,7 +103,8 @@
                 "type": "text",
                 "text": "27. The Birth of Duran [1]"
               }
-            ]
+            ],
+            "id": "p-0facef7cacdbf79f"
           },
           {
             "type": "paragraph",
@@ -160,7 +169,8 @@
                 "type": "text",
                 "text": "That was Duran, our first Warhead."
               }
-            ]
+            ],
+            "id": "p-e8da48bc92c81e62"
           },
           {
             "type": "paragraph",
@@ -176,7 +186,8 @@
                 "type": "text",
                 "text": "[1] This folk song holds significant importance in the ritualistic practices of the borisin. It should be noted that the borisin possess a distorted understanding and interpretation of the concepts embodied by the Plagues Author. Instead of establishing worship for the Plagues Author, the first Warhead, Duran, cunningly utilized this worship to solidify the foundation of the borisin's racial identity."
               }
-            ]
+            ],
+            "id": "p-59cb3250d803d4a2"
           },
           {
             "type": "paragraph",
@@ -185,7 +196,8 @@
                 "type": "text",
                 "text": "[2] Current archaeological excavations have verified the authenticity of this aspect. During the era preceding their acquisition of long life, the borisin indeed endured slow progress due to the harsh natural environment of their homeworld."
               }
-            ]
+            ],
+            "id": "p-eadce32ffa0947af"
           },
           {
             "type": "paragraph",
@@ -194,7 +206,8 @@
                 "type": "text",
                 "text": "[3] No concrete evidence supports the occurrence of this plague catastrophe in history. Certain historical sources suggest that the author of these songs fabricated this legend to validate the divine legitimacy of Duran's reign."
               }
-            ]
+            ],
+            "id": "p-eecc5b4f75b35b72"
           },
           {
             "type": "paragraph",
@@ -203,7 +216,8 @@
                 "type": "text",
                 "text": "[4] The motif of \"a baby born after mere days of conception\" is a recurring heroic theme in borisin songs and has become an established literary device. According to their songs, nearly all of their Warheads spent only a few days in their mothers' wombs."
               }
-            ]
+            ],
+            "id": "p-e0589250b54a1d5f"
           },
           {
             "type": "paragraph",
@@ -212,7 +226,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -221,7 +236,8 @@
                 "type": "text",
                 "text": "28. Duran's Pilgrimage to the Master of Immortality [1]"
               }
-            ]
+            ],
+            "id": "p-0c3e2ea4d6fd773a"
           },
           {
             "type": "paragraph",
@@ -314,7 +330,8 @@
                 "type": "text",
                 "text": "Granting the borisin bodies of steel, he mandated us to conquer the heavens for to repay his goodwill.[8]"
               }
-            ]
+            ],
+            "id": "p-9f5f90f0cd057f06"
           },
           {
             "type": "paragraph",
@@ -330,7 +347,8 @@
                 "type": "text",
                 "text": "[1] While this folk song is a significant foundation of the borisin's collective racial memory, its historical accuracy is questionable. It indeed portrays several important events in the borisin's history, but does so with a considerable amount of dramatization."
               }
-            ]
+            ],
+            "id": "p-b6cd5780a49a7b5a"
           },
           {
             "type": "paragraph",
@@ -339,7 +357,8 @@
                 "type": "text",
                 "text": "[2] Existing historical and archaeological evidence suggests that the unexpected rise of the borisin can be attributed to the indiscriminate dissemination of the plague catastrophe by the Plagues Author. After all, considering the level of civilization of the borisin during that time, it is implausible that they actively initiated contact with the Aeon."
               }
-            ]
+            ],
+            "id": "p-3af5690522f3cc62"
           },
           {
             "type": "paragraph",
@@ -348,7 +367,8 @@
                 "type": "text",
                 "text": "[3] Even for the Plagues Author, this statement would be a blatantly defamatory remark. It is evident that the borisin interprets the concept of \"Abundance\" based on their own cultural norms and values."
               }
-            ]
+            ],
+            "id": "p-ba34416f1c425cf1"
           },
           {
             "type": "paragraph",
@@ -357,7 +377,8 @@
                 "type": "text",
                 "text": "[4] This folk song fabricates a narrative in which the \"the Master of Immortality ordered the Foxians to test the borisin,\" using this fictional myth to provide a supposed justification for the borisin's enslavement of the Foxians."
               }
-            ]
+            ],
+            "id": "p-5689c38d63645453"
           },
           {
             "type": "paragraph",
@@ -366,7 +387,8 @@
                 "type": "text",
                 "text": "[5] Based on current archaeological evidence, it is believed that after the borisin gained longevity, at least two Amber Eras had passed before they created the beast ships they currently use. The reference to \"Taowu\" in this context should be considered fictional. After all, without the means for interstellar travel, it is impossible for Warhead Duran to embark on a pilgrimage to the Aeon."
               }
-            ]
+            ],
+            "id": "p-a8475bffdbdaf37b"
           },
           {
             "type": "paragraph",
@@ -375,7 +397,8 @@
                 "type": "text",
                 "text": "[6] This portion is intriguing. According to the story, the Plagues Author did not originally intend to bestow immortality upon all individuals. It was the Warhead who requested this blessing for everyone. This supports the editor's assertion in the commentary in Song #27 that \"Instead of establishing worship for the Plagues Author, the first Warhead, Duran, cunningly utilized their worship to solidify the foundation of the borisin's racial identity.'\""
               }
-            ]
+            ],
+            "id": "p-bbb9bd3d41408170"
           },
           {
             "type": "paragraph",
@@ -384,7 +407,8 @@
                 "type": "text",
                 "text": "[7] The purpose of this part is solely to legitimize the borisin's enslavement of the Foxians."
               }
-            ]
+            ],
+            "id": "p-55afe448f4e85dfd"
           },
           {
             "type": "paragraph",
@@ -393,7 +417,8 @@
                 "type": "text",
                 "text": "[8] Similarly, the purpose of this part is to legitimize the borisin's policy of plundering and invading other civilizations."
               }
-            ]
+            ],
+            "id": "p-a69876257c5b6aeb"
           },
           {
             "type": "paragraph",
@@ -402,7 +427,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-3"
           }
         ]
       }

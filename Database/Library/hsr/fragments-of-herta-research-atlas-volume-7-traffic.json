@@ -4,10 +4,11 @@
   "id": "fragments-of-herta-research-atlas-volume-7-traffic",
   "name": "Fragments of Herta Research Atlas Volume 7: Traffic",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Fragments_of_Herta_Research_Atlas_Volume_7:_Traffic",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Herta Research Atlas Volume 7: Traffic"
               }
-            ]
+            ],
+            "id": "p-d40e4351c262a67f"
           },
           {
             "type": "paragraph",
@@ -56,7 +58,8 @@
                 "type": "text",
                 "text": "Handler: Wen Huairen"
               }
-            ]
+            ],
+            "id": "p-0c2b1785a5f6a559"
           },
           {
             "type": "paragraph",
@@ -65,7 +68,8 @@
                 "type": "text",
                 "text": "Serial 01483 Galactic Emergency Rug"
               }
-            ]
+            ],
+            "id": "p-9398430175a81958"
           },
           {
             "type": "paragraph",
@@ -74,7 +78,8 @@
                 "type": "text",
                 "text": "A beige and brown Bohemian-style rug. Places where woolen tassels should have been are now replaced by small golden stellars that oscillate up and down at the same angle both ways."
               }
-            ]
+            ],
+            "id": "p-249ff794b4d81047"
           },
           {
             "type": "paragraph",
@@ -83,7 +88,8 @@
                 "type": "text",
                 "text": "It will automatically adjust its size within a set range based on the weight of the item it is applied to. It is the most common space survival equipment on spacecrafts."
               }
-            ]
+            ],
+            "id": "p-033f68365457fe3f"
           },
           {
             "type": "paragraph",
@@ -92,7 +98,8 @@
                 "type": "text",
                 "text": "It successfully transported and saved hundreds of passengers in the first large-scale space transportation accident caused by the traffic event brought upon by the Stellaron."
               }
-            ]
+            ],
+            "id": "p-dd28114f615801ee"
           },
           {
             "type": "paragraph",
@@ -129,7 +136,8 @@
                 "type": "text",
                 "text": "Handler: Wen Huairen"
               }
-            ]
+            ],
+            "id": "p-24841d46e8ee829d"
           },
           {
             "type": "paragraph",
@@ -138,7 +146,8 @@
                 "type": "text",
                 "text": "Serial 01484 Compound Eyes"
               }
-            ]
+            ],
+            "id": "p-ea949e3ef5650183"
           },
           {
             "type": "paragraph",
@@ -147,7 +156,8 @@
                 "type": "text",
                 "text": "A hideous goggle covered with compound eyes like soup bubbles. The user will see 36 different perspectives that together give a 360-degree full view."
               }
-            ]
+            ],
+            "id": "p-0a038114911975e5"
           },
           {
             "type": "paragraph",
@@ -156,7 +166,8 @@
                 "type": "text",
                 "text": "It is said that this is a daily necessity for crew members conducting warp jumps and hyperspace jumps."
               }
-            ]
+            ],
+            "id": "p-1b2116928b3f9005"
           },
           {
             "type": "paragraph",
@@ -165,7 +176,8 @@
                 "type": "text",
                 "text": "In the first traffic jam event caused by the Stellaron, jump ship pilot Bescot Wagner was able to avoid collision with 14 other simultaneously jumping ships due to wearing a compound eye."
               }
-            ]
+            ],
+            "id": "p-31156f0ed0112f6e"
           },
           {
             "type": "paragraph",
@@ -202,7 +214,8 @@
                 "type": "text",
                 "text": "Handler: Wen Mingde"
               }
-            ]
+            ],
+            "id": "p-56439ff1f91ef686"
           },
           {
             "type": "paragraph",
@@ -211,7 +224,8 @@
                 "type": "text",
                 "text": "Serial 01485 Colored Beacon Paste"
               }
-            ]
+            ],
+            "id": "p-994089f41da11038"
           },
           {
             "type": "paragraph",
@@ -220,7 +234,8 @@
                 "type": "text",
                 "text": "Next to the resplendent colors floating in the void lies a flat tin tube of about in length and in diameter. The tube is filled with dark gold gel, which absorbs all known colors and turns into that specific shade in the end."
               }
-            ]
+            ],
+            "id": "p-cd2715a98f955b2a"
           },
           {
             "type": "paragraph",
@@ -229,7 +244,8 @@
                 "type": "text",
                 "text": "This is a commonly seen emergency item the Nameless carries. Whether in the void of the galaxy or on the ocean of a planet, the Colored Beacon Paste will always release a line of brilliant colors on the galactic darkness or on an ocean. It will also adjust its own color contrast and saturation based on the light source and shade of its surroundings."
               }
-            ]
+            ],
+            "id": "p-ac7af219c0e7d613"
           },
           {
             "type": "paragraph",
@@ -238,7 +254,8 @@
                 "type": "text",
                 "text": "The bright, visually stimulating colors of the Colored Beacon Paste allow the Galactic Rescue to easily spot signs written with it. It was invented by a Nameless who possessed great artistic abilities. This Nameless once experienced a flight incident and was trapped in a barren and desolate star system. In the end, with the use of scraps from a White Star fragment, he was able to produce the most magnificent item in the history of search and rescue — the Colored Beacon Paste."
               }
-            ]
+            ],
+            "id": "p-fbbd141f517cc0da"
           },
           {
             "type": "paragraph",
@@ -247,7 +264,8 @@
                 "type": "text",
                 "text": "There are also galactic bandits who use the Colored Beacon Paste to leave graffiti packed with profanity everywhere in the universe out of ill intentions, a rebellious nature, or an inflated ego."
               }
-            ]
+            ],
+            "id": "p-661e5a8f6d176b33"
           },
           {
             "type": "paragraph",
@@ -256,7 +274,8 @@
                 "type": "text",
                 "text": "P17071"
               }
-            ]
+            ],
+            "id": "p-0a55d8cff3003f6a"
           }
         ]
       }

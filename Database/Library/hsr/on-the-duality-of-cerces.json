@@ -4,10 +4,11 @@
   "id": "on-the-duality-of-cerces",
   "name": "On the Duality of Cerces",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/On_the_Duality_of_Cerces",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -29,7 +30,8 @@
                 "type": "text",
                 "text": "In the years that offers verifiable historical records, the study of Titans has become a prominent science and has continued to flourish. However, it seems that exploration into Cerces has never gone deeper than the surface level. As a Nousporist scholar, I must say that this phenomenon is ironic — that our research into reason lacks any depth of reason at all."
               }
-            ]
+            ],
+            "id": "p-3838ec3e8511f247"
           },
           {
             "type": "paragraph",
@@ -38,7 +40,8 @@
                 "type": "text",
                 "text": "In my many years of research, I have noticed a phenomenon that is worth serious consideration: As the manifestation of reason, what Cerces themself displays are not purely logical characteristics, but a subtle duality. This duality is not only reflected in their choice of form, but also in the way that they influence the world."
               }
-            ]
+            ],
+            "id": "p-569044a4128baf3e"
           },
           {
             "type": "paragraph",
@@ -67,7 +70,8 @@
                 "type": "text",
                 "text": "According to records saved in the Library of Philia, Cerces first took root in the world right at the beginning of the Era Creatura. The world at that time was full of chaos and instability, yet Cerces chose to tightly intertwine themself with the earth through their roots. This choice insinuates that logic is not in fact above nature, it actually needs to grow in the soil of reality."
               }
-            ]
+            ],
+            "id": "p-e362ee92b64bc73a"
           },
           {
             "type": "paragraph",
@@ -96,7 +100,8 @@
                 "type": "text",
                 "text": "In my recent research on the rings of the Sacred Tree, I discovered that the growth of its rings displays surprising order and regularity. This order bears a striking resemblance to the golden ratio summarized by ancient mathematicians. This seems to show that the foundation of reason comes from the observation of the laws of nature."
               }
-            ]
+            ],
+            "id": "p-1dcc7931f1f4c304"
           },
           {
             "type": "paragraph",
@@ -125,7 +130,8 @@
                 "type": "text",
                 "text": "One particularly noteworthy idea is the Chamber of Purifying Tears's design. The traditional view is that cold aids in activating the brain and promoting thought. However, I have discovered through research that cold is a form of purification that allows those who seek knowledge to return to life's most basic and authentic state. This kind of ritualistic design perfectly embodies Cerces’s dual attributes of reason and life."
               }
-            ]
+            ],
+            "id": "p-ab5bb807ea2d8c91"
           },
           {
             "type": "paragraph",
@@ -154,7 +160,8 @@
                 "type": "text",
                 "text": "I will use the research of us Nousporists as an example: If we rely simply on cold alchemical calculations when seeking transformation from mortal to higher beings, we are doomed to failure. True transformation requires us to understand the duality of reason: It is the guidance to thought and the rhythm of life."
               }
-            ]
+            ],
+            "id": "p-c403478d60543a58"
           },
           {
             "type": "paragraph",
@@ -183,7 +190,8 @@
                 "type": "text",
                 "text": "As I write this manuscript, I cannot help but recall the White Dryads I saw in the Grove of Epiphany. As they unfurled their branches and leaves under the rays of light, they not only abode by the most rational rules of growth, but they also displayed the most natural form of vitality. Perhaps this is the most direct hint that Cerces has left for us: That true reason must coexist symbiotically with life itself."
               }
-            ]
+            ],
+            "id": "p-bbd91ef2803b5906"
           },
           {
             "type": "paragraph",
@@ -197,7 +205,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-757baf91fa80617b"
           }
         ]
       }

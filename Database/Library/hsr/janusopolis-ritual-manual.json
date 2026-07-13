@@ -4,10 +4,11 @@
   "id": "janusopolis-ritual-manual",
   "name": "Janusopolis Ritual Manual",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Janusopolis_Ritual_Manual",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -67,7 +68,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-bcbaa7454f8cd0ca"
           },
           {
             "type": "paragraph",
@@ -107,7 +109,8 @@
                 "type": "text",
                 "text": "3. Sweep the floors of the temple and change the offerings."
               }
-            ]
+            ],
+            "id": "p-8c663ec5b5510bf8"
           },
           {
             "type": "paragraph",
@@ -137,7 +140,8 @@
                 "type": "text",
                 "text": "3. Prepare offerings."
               }
-            ]
+            ],
+            "id": "p-9502d41d1129da79"
           },
           {
             "type": "paragraph",
@@ -167,7 +171,8 @@
                 "type": "text",
                 "text": "3. Recite the oracle's text."
               }
-            ]
+            ],
+            "id": "p-b6b5d37dcb1da428"
           },
           {
             "type": "paragraph",
@@ -193,7 +198,8 @@
                 "type": "text",
                 "text": "Follow Talanton's Words: The offerings must bear the same weight as the prayer. This is the law of the scale, and must not be disobeyed."
               }
-            ]
+            ],
+            "id": "p-83a7375e938fec90"
           },
           {
             "type": "paragraph",
@@ -251,7 +257,8 @@
                 "type": "text",
                 "text": "Note: Offerings must be complete and of the purest quality."
               }
-            ]
+            ],
+            "id": "p-398845925cc38574"
           },
           {
             "type": "paragraph",
@@ -281,7 +288,8 @@
                 "type": "text",
                 "text": "3. One must not offer items during the Entry Hour."
               }
-            ]
+            ],
+            "id": "p-5bcfc4b021e45c1b"
           },
           {
             "type": "paragraph",
@@ -307,7 +315,8 @@
                 "type": "text",
                 "text": "Lady of the paths shall show us the way, the king of fairness shall keep the balance, and the spirit of the night shall grand us wisdom. I knock on the door to ask for an audience with the divine, I make offerings to ask about the Hereafter, and I bow down to ask for guidance."
               }
-            ]
+            ],
+            "id": "p-70ea55f4dd16c4f1"
           },
           {
             "type": "paragraph",
@@ -323,7 +332,8 @@
                 "type": "text",
                 "text": "Life is but a leaf, adrift with waves. Tripartite fate, to what end does it lead? Janus illuminates my path, Talanton steadies my course, and Oronyx shows me the truth."
               }
-            ]
+            ],
+            "id": "p-9064320e46b9f765"
           },
           {
             "type": "paragraph",
@@ -339,7 +349,8 @@
                 "type": "text",
                 "text": "I thank the tripartite fate for heeding me and offering guidance. May the eternal shine never dim, and may the divine words forever endure."
               }
-            ]
+            ],
+            "id": "p-df90ebd32c2033c8"
           },
           {
             "type": "paragraph",
@@ -386,7 +397,8 @@
                 "type": "text",
                 "text": "4. She must light the tri-colored holy fire."
               }
-            ]
+            ],
+            "id": "p-998cf60bb02f529f"
           },
           {
             "type": "paragraph",
@@ -430,7 +442,8 @@
                 "type": "text",
                 "text": "5. The maiden will read the prophecy once destiny indicates the result."
               }
-            ]
+            ],
+            "id": "p-bcec01d8e4e5894a"
           },
           {
             "type": "paragraph",
@@ -467,7 +480,8 @@
                 "type": "text",
                 "text": "4. Prophecies will be kept in a secret chamber within the room of prophecy."
               }
-            ]
+            ],
+            "id": "p-c19efb97489addd4"
           },
           {
             "type": "paragraph",
@@ -521,7 +535,8 @@
                 "type": "text",
                 "text": "4. The Long Ballad of Fate shall be recited."
               }
-            ]
+            ],
+            "id": "p-7ea465be50f419aa"
           },
           {
             "type": "paragraph",
@@ -572,7 +587,8 @@
                 "type": "text",
                 "text": "5. Record the revelation."
               }
-            ]
+            ],
+            "id": "p-d1efcd7817d27566"
           },
           {
             "type": "paragraph",
@@ -591,7 +607,8 @@
                 "type": "text",
                 "text": "This manual was created and edited by the maidens of past generations. May these rules be followed to obtain the truth. Violators shall face the punishment of destiny."
               }
-            ]
+            ],
+            "id": "p-5e80c0caf646010e"
           }
         ]
       }

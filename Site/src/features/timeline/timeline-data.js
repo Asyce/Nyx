@@ -39,6 +39,15 @@ var NYX_TL_ZOOM_LEVELS = [
 ];
 var NYX_TL_DEFAULT_ZOOM = 3;
 
+// The view no longer zooms. It is pinned to one fixed, generous scale so
+// every card is drawn large enough to read at a glance (portrait + name +
+// version + weapon), and the user simply scrolls/pans along the axis (with
+// Today + Jump-to-date to leap). 0.1 day/px makes a 21-day banner ~210px
+// wide and shows ~100 days across a ~1000px viewport. The zoom LADDER above
+// is retained only so old shared-link hashes (#tl.<centerMs>.<zoom>) still
+// decode and the pure maths/tests stay backward-compatible.
+var NYX_TL_MS_PER_PX = 0.1 * NYX_TL_DAY_MS;
+
 // Minimum rendered card width (px). Sub-lane assignment inflates each
 // block's time extent to at least this many pixels so min-width cards can
 // never visually overlap even when their true time spans do not. Kept in
@@ -210,6 +219,7 @@ function nyxTlBlockFromRecord(record, byId, regionKey){
 
   // Merge paired weapon records (no separate weapons lane).
   var weaponNames = [];
+  var signatureWeaponNames = [];
   var weaponPrimary = null;
   var weaponRecords = [];
   var paired = Array.isArray(record.pairedBannerIds) ? record.pairedBannerIds : [];
@@ -219,6 +229,14 @@ function nyxTlBlockFromRecord(record, byId, regionKey){
     weaponRecords.push(wr);
     var wnames = nyxTlFeaturedNames(wr.featured, 'weapon');
     for (var q = 0; q < wnames.length; q++) if (weaponNames.indexOf(wnames[q]) === -1) weaponNames.push(wnames[q]);
+    // A paired weapon-only banner is the useful "signature weapons" answer.
+    // Mixed pools can contain dozens of unrelated standard weapons, so keep
+    // them searchable but never present that whole pool as the pairing.
+    if (wr.bannerType === 'weapon') {
+      (wr.featured || []).forEach(function(item){
+        if (item && item.entityType === 'weapon' && nyxTlIsHighRarity(item.rarity) && signatureWeaponNames.indexOf(item.name) === -1) signatureWeaponNames.push(item.name);
+      });
+    }
     if (!weaponPrimary && wnames.length) weaponPrimary = wnames[0];
   }
   // A "mixed"/weapon-carrying record may itself list weapons in featured.
@@ -259,6 +277,7 @@ function nyxTlBlockFromRecord(record, byId, regionKey){
     charNames: charNames,
     primaryFive: primaryFive,
     weaponNames: weaponNames,
+    signatureWeaponNames: signatureWeaponNames,
     weaponPrimary: weaponPrimary,
     searchNames: charNames.concat(weaponNames),
   };
@@ -331,6 +350,11 @@ function nyxTlBuildBlocks(records, regionKey){
     // Weapon-only records merge into their paired character card; they are
     // not their own block (no separate weapons lane).
     if (r.bannerType === 'weapon') continue;
+    // Genshin's Lightrace is a selection pool, not a character rate-up.
+    // Its `featured` array contains every selectable character and weapon;
+    // rendering it as a normal banner creates fake cards and enormous
+    // "Featured 4-star" lists. The paired real character wishes remain.
+    if (r.game === 'gi' && r.category === 'Lightrace') continue;
     // Permanent/novice banners (GI Beginners' Wish, Wanderlust Invocation)
     // have no finite span; drawing them would invent a fake "Expected" end.
     // Hidden from the time axis by default per plan Workstream M.
@@ -772,6 +796,28 @@ function nyxTlXToMs(x, centerMs, msPerPx, width){
   return centerMs + (x - nowX) * msPerPx;
 }
 
+// Month/mid-month ticks for the visible window, for the date ruler +
+// gridlines. Majors land on the 1st of each month (labelled), minors on the
+// 15th (unlabelled hairline). Uses UTC calendar fields — the ruler is a
+// reading aid, not a per-second server clock, so it does not shift by region.
+function nyxTlAxisTicks(centerMs, msPerPx, width){
+  var MON = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  var minMs = nyxTlXToMs(-4, centerMs, msPerPx, width);
+  var maxMs = nyxTlXToMs(width + 4, centerMs, msPerPx, width);
+  var out = [];
+  var d = new Date(minMs);
+  var y = d.getUTCFullYear(), m = d.getUTCMonth();
+  for (var guard = 0; guard < 240; guard++){
+    var first = Date.UTC(y, m, 1);
+    if (first > maxMs) break;
+    if (first >= minMs) out.push({ ms:first, major:true, label:MON[m], year:y });
+    var mid = Date.UTC(y, m, 15);
+    if (mid >= minMs && mid <= maxMs) out.push({ ms:mid, major:false });
+    m++; if (m > 11) { m = 0; y++; }
+  }
+  return out;
+}
+
 // Which blocks fall within the viewport +/- buffer px (virtualization).
 function nyxTlVisibleBlocks(blocks, centerMs, msPerPx, width, bufferPx){
   var buf = bufferPx || 400;
@@ -810,6 +856,7 @@ if (typeof window !== 'undefined') {
     DAY_MS: NYX_TL_DAY_MS,
     ZOOM_LEVELS: NYX_TL_ZOOM_LEVELS,
     DEFAULT_ZOOM: NYX_TL_DEFAULT_ZOOM,
+    MS_PER_PX: NYX_TL_MS_PER_PX,
     BLOCK_MIN_PX: NYX_TL_BLOCK_MIN_PX,
     MARKER_MIN_PX: NYX_TL_MARKER_MIN_PX,
     NOW_FRACTION: NYX_TL_NOW_FRACTION,
@@ -839,6 +886,7 @@ if (typeof window !== 'undefined') {
     decodeHash: nyxTlDecodeHash,
     msToX: nyxTlMsToX,
     xToMs: nyxTlXToMs,
+    axisTicks: nyxTlAxisTicks,
     visibleBlocks: nyxTlVisibleBlocks,
     versionRibbons: nyxTlVersionRibbons,
     featuredNames: nyxTlFeaturedNames,

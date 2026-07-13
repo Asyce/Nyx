@@ -4,10 +4,11 @@
   "id": "face-of-fourteen-illusions",
   "name": "Face of Fourteen Illusions",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Face_of_Fourteen_Illusions",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -26,7 +27,8 @@
                 "type": "text",
                 "text": "Abandoned Confession of a Knight of Beauty"
               }
-            ]
+            ],
+            "id": "p-7a858c84088b08bf"
           },
           {
             "type": "paragraph",
@@ -165,7 +167,8 @@
                 "type": "text",
                 "text": "How I wish you could know my fervor."
               }
-            ]
+            ],
+            "id": "p-66cfbc461627ba8d"
           }
         ]
       }

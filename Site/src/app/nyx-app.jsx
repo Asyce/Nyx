@@ -33,7 +33,11 @@ function getCmRoster(key){
 }
 
 function requestCmGame(key){
-  if (!key || key === 'nyx') return Promise.resolve(null);
+  if (!key) return Promise.resolve(null);
+  if (key === 'nyx') {
+    const gameKeys = Object.keys(GAME_REGISTRY || {});
+    return window.ensureNyxCmGames ? window.ensureNyxCmGames(gameKeys).catch(() => []) : Promise.resolve([]);
+  }
   if ((window.CM_CFG || {})[key]) return Promise.resolve(window.CM_CFG[key]);
   return window.loadNyxCmGame ? window.loadNyxCmGame(key).catch(() => null) : Promise.resolve(null);
 }
@@ -296,7 +300,6 @@ function rarityValue(r){
   return Number(r) || 0;
 }
 
-let GP_DRAG = null; // { zone:'card', idx }
 
 function copyText(txt){
   const fallback = () => {
@@ -1221,105 +1224,54 @@ NYX_META.codes = Object.keys(GAME_REGISTRY).flatMap(key => GAME_REGISTRY[key].co
 const buildTrack = (cfg) => Object.assign({ pull:'Wish', pulls:'Wishes', currency:'Primogems', cost:160, fives:[], fours:[] }, cfg.track || {}, { key:cfg.key });
 
 /* ---------------- pinned favourites ---------------- */
-function FavCardI({ ch, idx, w, hgt, dt, faded, h, art, manage, count }){
+
+
+function FavIconPinned({ ch, cfg, onOpen }){
+  return (
+    <div className="gp-fav-icon" style={{ '--el':'#c23a78' }}>
+      <button type="button" className="gp-fav-icon-open" onClick={() => onOpen(ch)} aria-label={ch.name}>
+        <span>
+          <img src={ch.icon || cfg.benchIcon} alt="" draggable="false" />
+          {cfg.key === 'nyx' && appGameIcon(ch.gameKey) && <i><img src={appGameIcon(ch.gameKey)} alt="" draggable="false" /></i>}
+        </span>
+        <b>{ch.name}</b>
+      </button>
+    </div>
+  );
+}
+
+function loadCurrentPinnedCards(cfg, roster){
+  if (cfg.key === 'nyx') {
+    const byId = new Map(roster.map((ch) => [nyxPinnedCharacterId('nyx', ch), ch]));
+    return nyxLoadPinnedUnion(Object.keys(GAME_REGISTRY))
+      .map(({ gameKey, id }) => byId.get(gameKey + ':' + id))
+      .filter(Boolean);
+  }
+  const byId = new Map(roster.map((ch) => [String(ch.id), ch]));
+  return nyxLoadPinnedIds(cfg.key).map((id) => byId.get(String(id))).filter(Boolean);
+}
+
+function makeCurrentFavouriteRoster(cfg, settings, characterImagePrefs){
+  if (cfg.key !== 'nyx') return makeRoster(cfg, settings, characterImagePrefs);
+  return Object.keys(GAME_REGISTRY).flatMap((gameKey) => makeRoster(GAME_REGISTRY[gameKey], settings, characterImagePrefs));
+}
+
+function CurrentFavCard({ ch, idx, onOpen, art, gameKey }){
   const cardArt = overviewCardArt({ art }, ch, idx);
   const artStyle = {
     backgroundImage:bgUrl(cardArt || ch.art || art),
     ...(ch.overviewArtZoom ? { backgroundSize:Math.round(Number(ch.overviewArtZoom || 1) * 100) + '% auto' } : {}),
   };
-  // When not managing, the card itself is the button that opens details (keyboard
-  // operable). In manage mode the nested controls are the interactive elements,
-  // so the card drops its button role to avoid nested-interactive markup.
-  const openProps = manage ? {} : {
-    role:'button', tabIndex:0,
-    'aria-label':ch.name + (ch.tag ? ' — ' + ch.tag : ''),
-    onKeyDown:navKeyDown(() => h.open(ch)),
-  };
   return (
-    <div className={'gp-fav bpf grab' + (dt ? ' dt' : '') + (faded ? ' faded' : '')}
-         style={{ width:w + 'px', height:hgt + 'px' }}
-         onClick={() => h.open(ch)}
-         draggable="true"
-         onDragStart={(e) => { GP_DRAG = { zone:'card', idx }; e.dataTransfer.effectAllowed = 'move'; }}
-         onDragOver={(e) => { e.preventDefault(); h.over('card', idx); }}
-         onDragLeave={() => h.leave('card', idx)}
-         onDrop={(e) => { e.preventDefault(); h.drop('card', idx); }}
-      onDragEnd={h.end} {...openProps}>
-      <div className="artwrap">
-        <div className="art" style={artStyle}></div>
-        <div className="scrim"></div>
-      </div>
+    <div className="gp-fav bpf" role="button" tabIndex={0}
+         aria-label={ch.name + (ch.tag ? ' - ' + ch.tag : '')}
+         onClick={() => onOpen(ch)} onKeyDown={navKeyDown(() => onOpen(ch))}>
+      <div className="artwrap"><div className="art" style={artStyle}></div><div className="scrim"></div></div>
       <div className="frame"></div>
-      {manage && (
-        <div className="ctl">
-          <button type="button" className="th" title="Move left" aria-label={'Move ' + ch.name + ' left'}
-                  disabled={idx === 0}
-                  onClick={(e) => { e.stopPropagation(); h.move && h.move(idx, idx - 1); }}>{'‹'}</button>
-          <button type="button" className="tr" title="Unpin favourite" aria-label={'Unpin ' + ch.name}
-                  onClick={(e) => { e.stopPropagation(); h.remove(idx); }}>Unpin</button>
-          <button type="button" className="th" title="Move right" aria-label={'Move ' + ch.name + ' right'}
-                  disabled={count != null && idx >= count - 1}
-                  onClick={(e) => { e.stopPropagation(); h.move && h.move(idx, idx + 1); }}>{'›'}</button>
-        </div>
-      )}
+      {gameKey === 'nyx' && appGameIcon(ch.gameKey) && <span className="gp-fav-game"><img src={appGameIcon(ch.gameKey)} alt="" /></span>}
       <div className="nm">{ch.name}{ch.tag ? <span className="sub"> {ch.tag}</span> : null}</div>
     </div>
   );
-}
-
-function AddSlot({ hgt, dt, h }){
-  return (
-    <button type="button" className={'gp-add' + (dt ? ' dt' : '')}
-         style={{ width:'72px', height:hgt + 'px' }}
-         title="Pin a favourite \u2014 click, or drag an icon here"
-         aria-label="Pin a favourite"
-         onClick={h.add}
-         onDragOver={(e) => { e.preventDefault(); h.over('add', 0); }}
-         onDragLeave={() => h.leave('add', 0)}
-         onDrop={(e) => { e.preventDefault(); h.drop('add', 0); }}>
-      <span className="fr"></span>
-      <span className="plus">+</span>
-    </button>
-  );
-}
-
-const PINNED_DEFAULTS = {
-  gi:['Skirk','Furina','Mavuika','Yae Miko','Neuvillette'],
-  hsr:['Castorice','Acheron','Firefly','Robin','Kafka'],
-  zzz:['Yixuan','Miyabi','Zhu Yuan','Astra Yao','Evelyn'],
-  wuwa:['Carlotta','Jinhsi','Changli','Camellya','Zani'],
-  ae:['Perlica','Laevatain','Chen Qianyu','Ember','Wulfgard'],
-  nyx:['Skirk','Castorice','Yixuan','Carlotta','Perlica'],
-};
-
-function favsCollapsedStorageKey(key){
-  return 'nyx:pinned-favourites-collapsed:' + key + ':v1';
-}
-
-function pinnedSeed(cfg, roster){
-  const names = PINNED_DEFAULTS[cfg.key] || [];
-  const byName = new Map(roster.map((ch) => [String(ch.name || '').toLowerCase(), ch]));
-  const chosen = names.map((name) => byName.get(name.toLowerCase())).filter(Boolean);
-  return (chosen.length ? chosen : roster).slice(0, 5);
-}
-
-function loadPinnedCards(cfg, roster){
-  const ids = nyxLoadPinnedIds(cfg.key);
-  if (ids !== null) {
-    const byId = new Map();
-    roster.forEach((ch) => {
-      byId.set(nyxPinnedCharacterId(cfg.key, ch), ch);
-      if (cfg.key === 'nyx' && !byId.has(String(ch.id))) byId.set(String(ch.id), ch);
-    });
-    return ids.map((id) => byId.get(String(id))).filter(Boolean);
-  }
-  const seeded = pinnedSeed(cfg, roster);
-  if (seeded.length) savePinnedCards(cfg, seeded);
-  return seeded;
-}
-
-function savePinnedCards(cfg, cards){
-  nyxSavePinnedIds(cfg.key, cards.map((ch) => nyxPinnedCharacterId(cfg.key, ch)));
 }
 
 function Favourites({ cfg, onOpenMaterial, settings }){
@@ -1327,197 +1279,62 @@ function Favourites({ cfg, onOpenMaterial, settings }){
   const [characterImagePrefs] = useNyxCharacterImagePrefs();
   const specialKey = JSON.stringify(settings?.specialUnits || {});
   const customKey = JSON.stringify(characterImagePrefs || {});
-  const roster = React.useMemo(() => makeRoster(cfg, settings, characterImagePrefs), [cfg.key, cmVersion, specialKey, customKey]);
-  const [cards, setCards] = React.useState(() => loadPinnedCards(cfg, roster));
+  const roster = React.useMemo(() => makeCurrentFavouriteRoster(cfg, settings, characterImagePrefs), [cfg.key, cmVersion, specialKey, customKey]);
+  const [cards, setCards] = React.useState(() => loadCurrentPinnedCards(cfg, roster));
   const [mode, setMode] = React.useState(() => nyxLoadFavouriteMode(cfg.key));
-  const [hov, setHov] = React.useState(null);
-  const [manage, setManage] = React.useState(false);
-  const [pendingUnfavourite, setPendingUnfavourite] = React.useState(null);
-  const [collapsed, setCollapsed] = React.useState(() => {
-    try { return localStorage.getItem(favsCollapsedStorageKey(cfg.key)) === '1'; } catch (e) { return false; }
-  });
-  const [q, setQ] = React.useState('');
-  const [w, setW] = React.useState(900);
-  const ref = React.useRef(null);
 
   React.useEffect(() => {
-    setCards(loadPinnedCards(cfg, roster));
-    setHov(null);
-    setManage(false);
-    setPendingUnfavourite(null);
-    setQ('');
+    setCards(loadCurrentPinnedCards(cfg, roster));
     setMode(nyxLoadFavouriteMode(cfg.key));
-    try { setCollapsed(localStorage.getItem(favsCollapsedStorageKey(cfg.key)) === '1'); } catch (e) { setCollapsed(false); }
   }, [cfg.key, roster]);
 
   React.useEffect(() => {
     const onPinned = (event) => {
-      if (event.detail?.gameKey === cfg.key) setCards(loadPinnedCards(cfg, roster));
+      const changedGame = event.detail?.gameKey;
+      if (changedGame === cfg.key || (cfg.key === 'nyx' && Object.prototype.hasOwnProperty.call(GAME_REGISTRY, changedGame))) {
+        setCards(loadCurrentPinnedCards(cfg, roster));
+      }
     };
     window.addEventListener(NYX_PINNED_CHANGED_EVENT, onPinned);
     return () => window.removeEventListener(NYX_PINNED_CHANGED_EVENT, onPinned);
   }, [cfg.key, roster]);
 
-  React.useEffect(() => {
-    if (!ref.current) return;
-    const ro = new ResizeObserver((en) => { if (en[0]) setW(en[0].contentRect.width); });
-    ro.observe(ref.current);
-    return () => ro.disconnect();
-  }, []);
-
-  const commitCards = (fn) => {
-    setCards((prev) => {
-      const next = fn(prev);
-      savePinnedCards(cfg, next);
-      return next;
-    });
+  const selectMode = (next) => setMode(nyxSaveFavouriteMode(cfg.key, next));
+  const visibleCards = nyxFavouriteVisibleCards(cards, mode, cfg.key);
+  const overflowCards = mode === 'card' && cfg.key !== 'nyx' ? cards.slice(NYX_FAVOURITE_CARD_LIMIT) : [];
+  const openCharacter = (ch) => {
+    if (!onOpenMaterial || !ch?.name) return;
+    const game = ch.gameKey && ch.gameKey !== 'nyx' ? ch.gameKey : cfg.key;
+    if (game && game !== 'nyx') onOpenMaterial(game, ch.name);
   };
-  const toggleCollapsed = () => {
-    setCollapsed((prev) => {
-      const next = !prev;
-      try { localStorage.setItem(favsCollapsedStorageKey(cfg.key), next ? '1' : '0'); } catch (e) {}
-      if (next) setManage(false);
-      return next;
-    });
-  };
-  const requestUnpin = (idx) => {
-    const ch = cards[idx];
-    if (!ch) return;
-    if (nyxUnfavouriteConfirmSuppressed(cfg.key)) commitCards((rows) => rows.filter((row) => nyxPinnedCharacterId(cfg.key, row) !== nyxPinnedCharacterId(cfg.key, ch)));
-    else setPendingUnfavourite(ch);
-  };
-  const confirmUnpin = (duration) => {
-    const ch = pendingUnfavourite;
-    if (!ch) return;
-    if (duration) nyxSaveUnfavouriteConfirm(cfg.key, duration);
-    commitCards((rows) => rows.filter((row) => nyxPinnedCharacterId(cfg.key, row) !== nyxPinnedCharacterId(cfg.key, ch)));
-    setPendingUnfavourite(null);
-  };
-  const selectMode = (next) => {
-    setMode(nyxSaveFavouriteMode(cfg.key, next));
-  };
-
-  const GAP = 16, ADDW = 72;
-  const visibleCards = nyxFavouriteVisibleCards(cards, mode);
-  const overflowCount = Math.max(0, cards.length - NYX_FAVOURITE_CARD_LIMIT);
-  const n = visibleCards.length;
-  const qq = q.trim().toLowerCase();
-  const match = (ch) => appMatchesSearch(ch, qq);
-  const pinnedIds = new Set(cards.map((ch) => nyxPinnedCharacterId(cfg.key, ch)));
-  const candidates = roster.filter((ch) => !pinnedIds.has(nyxPinnedCharacterId(cfg.key, ch)) && match(ch)).slice(0, qq ? 24 : 12);
-  const isFull = mode === 'card' && cards.length >= NYX_FAVOURITE_CARD_LIMIT;
-  const hasAdd = manage && !collapsed && candidates.length > 0 && !isFull;
-  const fixed = (hasAdd ? ADDW + GAP : 0) + (n > 1 ? (n - 1) * GAP : 0);
-  let cardW = n > 0 ? Math.floor((w - fixed) / n) : 0;
-  cardW = Math.max(152, Math.min(200, cardW));
-  const cardH = Math.round(cardW * (608 / 288));
-  const rowW = n * cardW + fixed;
-  const scroll = rowW > w + 1;
-
-  const h = {
-    over: (zone, idx) => { if (GP_DRAG) setHov({ zone, idx }); },
-    leave: (zone, idx) => setHov(p => (p && p.zone === zone && p.idx === idx) ? null : p),
-    end: () => { GP_DRAG = null; setHov(null); },
-    hide: (idx) => commitCards((cs) => cs.filter((_, i) => i !== idx)),
-    remove: requestUnpin,
-    add: () => { if (!candidates.length) return; commitCards((cs) => [...cs, candidates[0]]); },
-    open: (ch) => {
-      if (!onOpenMaterial || !ch?.name) return;
-      const game = ch.gameKey && ch.gameKey !== 'nyx' ? ch.gameKey : cfg.key;
-      if (game && game !== 'nyx') onOpenMaterial(game, ch.name);
-    },
-    drop: (zone, idx) => {
-      const d = GP_DRAG; GP_DRAG = null; setHov(null);
-      if (!d) return;
-      if (d.zone === zone && d.idx === idx) return;
-      if (zone === 'card' && d.zone === 'card'){
-        commitCards(cs => { const a = [...cs]; const [m] = a.splice(d.idx, 1); a.splice(idx, 0, m); return a; });
-      }
-    },
-    // keyboard reorder (no dragging required)
-    move: (from, to) => commitCards((cs) => {
-      if (to < 0 || to >= cs.length || from === to) return cs;
-      const a = [...cs]; const [m] = a.splice(from, 1); a.splice(to, 0, m); return a;
-    }),
-  };
-
-  const isDt = (zone, idx) => hov && hov.zone === zone && hov.idx === idx;
-  const addCandidate = (ch) => commitCards((cs) => nyxAddFavourite(cs, ch, mode, cfg.key));
 
   return (
-    <div ref={ref} className={'gp-favs game-' + cfg.key + (manage ? ' manage' : '') + (collapsed ? ' collapsed' : '')} style={{ width:'100%' }}>
-      {pendingUnfavourite && <CMUnfavouriteConfirm character={pendingUnfavourite} onCancel={() => setPendingUnfavourite(null)} onConfirm={confirmUnpin} />}
-      <div style={{ display:'flex', alignItems:'center', gap:'16px' }}>
-        <GPSec title="Pinned Favourites" icon="../assets/decor/orbit_burst.png" style={{ flex:1, minWidth:0 }} />
-        {manage && !collapsed && <div className="gp-search-wrap">
-          <div className="gp-search">
-            <span className="ic"></span>
-            <input value={q} placeholder="Search Characters" spellCheck="false"
-                   onChange={(e) => setQ(e.target.value)} />
-            {q !== '' && <button type="button" className="x" title="Clear" onClick={() => setQ('')}>{'\u2715'}</button>}
-          </div>
-        </div>}
+    <section className={'gp-favs game-' + cfg.key} aria-labelledby={'gp-favs-title-' + cfg.key}>
+      <div className="gp-fav-heading">
+        <img src="../assets/decor/orbit_burst.png" alt="" />
+        <h2 id={'gp-favs-title-' + cfg.key}>Pinned Favourites</h2>
         <div className="gp-fav-modes" aria-label="Favourite display mode">
           <button type="button" className={mode === 'card' ? 'on' : ''} aria-pressed={mode === 'card'} onClick={() => selectMode('card')}>Card</button>
           <button type="button" className={mode === 'icon' ? 'on' : ''} aria-pressed={mode === 'icon'} onClick={() => selectMode('icon')}>Icon</button>
         </div>
-        <GPHex small fixw on={!collapsed} onClick={toggleCollapsed}>
-          <span>{collapsed ? 'Show' : 'Hide'}</span>
-        </GPHex>
-        <GPHex small fixw on={manage} onClick={() => { if (collapsed) toggleCollapsed(); setManage(m => !m); }}>
-          <span>{manage ? 'Done' : 'Edit'}</span>
-        </GPHex>
+        <span className="gp-fav-rule"></span>
       </div>
-      {!collapsed && (
-        mode === 'card' ? (
-          <div className={'gp-cardrow' + (scroll ? ' scroll' : '')}
-               style={{ justifyContent: scroll ? 'flex-start' : 'center' }}>
-            {visibleCards.map((c, i) => (
-              <FavCardI key={nyxPinnedCharacterId(cfg.key, c)} ch={c} idx={i} w={cardW} hgt={cardH} dt={isDt('card', i)} faded={!match(c)} h={h} art={cfg.art} manage={manage} count={visibleCards.length} />
-            ))}
-            {overflowCount > 0 && <button type="button" className="gp-fav-more" onClick={() => selectMode('icon')}>+{overflowCount} more</button>}
-            {hasAdd && <AddSlot hgt={cardH} dt={isDt('add', 0)} h={h} />}
+      {cards.length === 0 ? <p className="gp-fav-empty">Favourite a character from the roster to pin them here.</p> : mode === 'card' ? (
+        <React.Fragment>
+          <div className={'gp-card-grid' + (cfg.key === 'nyx' ? ' hub' : '')}>
+            {visibleCards.map((ch, idx) => <CurrentFavCard key={nyxPinnedCharacterId(cfg.key, ch)} ch={ch} idx={idx} onOpen={openCharacter} art={ch.art || cfg.art} gameKey={cfg.key} />)}
           </div>
-        ) : (
-          <div className="gp-fav-icon-grid">
-            {visibleCards.map((ch, i) => (
-              <div key={nyxPinnedCharacterId(cfg.key, ch)} className={'gp-fav-icon' + (!match(ch) ? ' faded' : '')}
-                   style={{ '--el':CM_ELEM[ch.element || ch.el] || '#b7aaff' }}>
-                <button type="button" className="gp-fav-icon-open" onClick={() => h.open(ch)} aria-label={ch.name}>
-                  <span><img src={ch.icon || cfg.benchIcon} alt="" draggable="false" /></span>
-                  <b>{ch.name}</b>
-                </button>
-                {manage && <button type="button" className="gp-fav-icon-star" aria-label={'Unpin ' + ch.name}
-                                   onClick={(event) => { event.stopPropagation(); h.remove(i); }}>{'\u2605'}</button>}
-              </div>
-            ))}
-          </div>
-        )
-      )}
-      {manage && !collapsed && (
-        <div className="gp-fav-picker">
-          {candidates.map((ch) => (
-            <button
-              type="button"
-              key={nyxPinnedCharacterId(cfg.key, ch)}
-              className={isFull ? 'replace' : ''}
-              title={isFull ? 'Replace last pinned card' : 'Pin character'}
-              onClick={() => addCandidate(ch)}
-            >
-              <span className="pick-ico">
-                <img src={ch.icon || cfg.benchIcon} alt="" draggable="false" />
-                {cfg.key === 'nyx' && appGameIcon(ch.gameKey) && <i><img src={appGameIcon(ch.gameKey)} alt="" draggable="false" /></i>}
-              </span>
-              <span className="pick-meta">
-                <b>{ch.name}</b>
-                {ch.tag && <em>{ch.tag}</em>}
-              </span>
-            </button>
-          ))}
-          {candidates.length === 0 && <div className="empty">No matching unpinned characters.</div>}
-        </div>
-      )}
-    </div>
+          {overflowCards.length > 0 && <div className="gp-fav-overflow" aria-label="More pinned favourites">
+            <span>More favourites</span>
+            <div className="gp-fav-icon-grid compact">
+              {overflowCards.map((ch) => <FavIconPinned key={nyxPinnedCharacterId(cfg.key, ch)} ch={ch} cfg={cfg} onOpen={openCharacter} />)}
+            </div>
+          </div>}
+        </React.Fragment>
+      ) : <div className="gp-fav-icon-grid">
+        {visibleCards.map((ch) => <FavIconPinned key={nyxPinnedCharacterId(cfg.key, ch)} ch={ch} cfg={cfg} onOpen={openCharacter} />)}
+      </div>}
+    </section>
   );
 }
 
@@ -1781,7 +1598,6 @@ function loadNyxDbExtra(key){
 }
 
 const DB_FACET_KEYS = ['type', 'rarity', 'element', 'family', 'purpose'];
-const DB_GRID_CAP = 400;
 
 function dbCollectionFacets(cur){
   if (!cur) return [];
@@ -1792,12 +1608,12 @@ function dbCollectionFacets(cur){
       const raw = item.fields && item.fields[key];
       if (raw === undefined || raw === null || raw === '') continue;
       if (typeof raw === 'object') continue;
-      const value = String(raw).trim();
+      const value = nyxDatabaseFacetValue(key, raw);
       if (!value || /^\[object Object\]$/i.test(value)) continue;
       values.set(value, (values.get(value) || 0) + 1);
     }
     if (values.size >= 2 && values.size <= 24){
-      out.push({ key, values: [...values.entries()].sort((a, b) => b[1] - a[1]).map(([value]) => value) });
+      out.push({ key, values:nyxDatabaseSortFacetValues(key, values.entries()).map(([value]) => value) });
     }
   }
   return out;
@@ -1814,6 +1630,7 @@ function CollectionLibrary({ game, view, onViewChange }){
   const [active, setActive] = React.useState(collections[0] ? collections[0].key : '');
   const [q, setQ] = React.useState('');
   const [filters, setFilters] = React.useState({});
+  const [visibleLimit, setVisibleLimit] = React.useState(NYX_DATABASE_PAGE_SIZE);
   const [detailItem, setDetailItem] = React.useState(null);
   const restoreFocusRef = React.useRef(null);
   const specialActive = view === 'tcg' || view === 'pot' || view === 'wonderland';
@@ -1844,13 +1661,14 @@ function CollectionLibrary({ game, view, onViewChange }){
   const qq = q.trim().toLowerCase();
   const matches = cur ? cur.items.filter(item => {
     for (const [key, value] of Object.entries(filters)){
-      if (value && String((item.fields || {})[key] ?? '') !== value) return false;
+      if (value && nyxDatabaseFacetValue(key, (item.fields || {})[key]) !== value) return false;
     }
     if (!qq) return true;
     const hay = dbSearchText([item.name, item.kind, item.text, item.fields, item.skills]).toLowerCase();
     return hay.includes(qq);
   }) : [];
-  const items = matches.slice(0, DB_GRID_CAP);
+  const items = matches.slice(0, visibleLimit);
+  React.useEffect(() => setVisibleLimit(NYX_DATABASE_PAGE_SIZE), [game, cur && cur.key, q, filters]);
   const pickCollection = (key) => {
     if (specialActive && onViewChange) onViewChange('database');
     setActive(key);
@@ -1863,10 +1681,12 @@ function CollectionLibrary({ game, view, onViewChange }){
     setDetailItem(item);
   };
   const closeDetail = React.useCallback(() => {
-    setDetailItem(null);
     const restore = restoreFocusRef.current;
     restoreFocusRef.current = null;
-    if (restore && typeof restore.focus === 'function') requestAnimationFrame(() => restore.focus());
+    ReactDOM.flushSync(() => setDetailItem(null));
+    if (restore && restore.isConnected !== false && typeof restore.focus === 'function') {
+      requestAnimationFrame(() => restore.focus({ preventScroll:true }));
+    }
   }, []);
 
   if (!cur && !specialViews.length) {
@@ -1893,7 +1713,7 @@ function CollectionLibrary({ game, view, onViewChange }){
       <div className="db-tabs">
         {collections.map(c => (
           <button type="button" key={c.key} className={!specialActive && cur && c.key === cur.key ? 'on' : ''} onClick={() => pickCollection(c.key)}>
-            <span>{c.title}</span><b>{c.count}</b>
+            <span>{c.title}</span>
           </button>
         ))}
         {specialViews.map(s => (
@@ -1935,8 +1755,10 @@ function CollectionLibrary({ game, view, onViewChange }){
             <div className="db-grid">
               {items.map(item => <CollectionCard key={item.id || item.name} item={item} onOpen={openDetail} />)}
             </div>
-            {matches.length > DB_GRID_CAP && (
-              <div className="db-cap-note">Showing {DB_GRID_CAP} of {matches.length} \u2014 refine the search or filters to narrow it down.</div>
+            {items.length < matches.length && (
+              <button type="button" className="db-load-more" onClick={() => setVisibleLimit((limit) => nyxDatabaseNextLimit(limit, matches.length))}>
+                Load more <span>{items.length} of {matches.length}</span>
+              </button>
             )}
             {matches.length === 0 && <div className="db-empty">No records match your search.</div>}
             {detailItem && <CollectionDetailModal item={detailItem} onClose={closeDetail} />}
@@ -1976,6 +1798,21 @@ function dbFieldValue(value){
       .join(' / ');
   }
   return String(value);
+}
+
+function dbListFocusKey(scope, value){
+  return scope + ':' + String(value ?? '');
+}
+
+function dbRestoreListSnapshot(snapshot, gridRef){
+  if (!snapshot) return;
+  requestAnimationFrame(() => requestAnimationFrame(() => {
+    const grid = gridRef.current;
+    if (grid) grid.scrollTop = Math.max(0, Number(snapshot.scrollTop) || 0);
+    const target = Array.from(document.querySelectorAll('[data-db-focus-key]'))
+      .find((node) => node.dataset.dbFocusKey === snapshot.focusKey);
+    if (target && typeof target.focus === 'function') target.focus({ preventScroll:true });
+  }));
 }
 
 function CollectionCard({ item, onOpen }){
@@ -2084,8 +1921,10 @@ function GenshinWonderlandView(){
   const [q, setQ] = React.useState('');
   const [filters, setFilters] = React.useState({});
   const [detail, setDetail] = React.useState(null);
+  const [visibleLimit, setVisibleLimit] = React.useState(NYX_DATABASE_PAGE_SIZE);
   const backRef = React.useRef(null);
-  const restoreFocusRef = React.useRef(null);
+  const gridRef = React.useRef(null);
+  const listSnapshotRef = React.useRef(null);
   const active = sections.find((row) => row.key === section) || sections[0];
   const facetKeys = section === 'costumes' ? ['slot','color','body','rank']
     : section === 'suits' ? ['color','body','rank'] : ['type','rank'];
@@ -2100,6 +1939,7 @@ function GenshinWonderlandView(){
     if (!query) return true;
     return dbSearchText([item.name, item.kind, item.rank, item.type, item.body, item.color, item.slot]).toLowerCase().includes(query);
   });
+  React.useEffect(() => setVisibleLimit(NYX_DATABASE_PAGE_SIZE), [section, q, filters]);
   const selectSection = (key) => {
     setSection(key);
     setFilters({});
@@ -2107,18 +1947,27 @@ function GenshinWonderlandView(){
   };
   const toggle = (key, value) => setFilters((previous) => ({ ...previous, [key]:previous[key] === value ? undefined : value }));
   const openDetail = (item) => {
-    restoreFocusRef.current = document.activeElement;
+    listSnapshotRef.current = { focusKey:dbListFocusKey('wonder', item.id), scrollTop:gridRef.current ? gridRef.current.scrollTop : 0 };
     setDetail(item);
   };
-  const closeDetail = () => {
-    setDetail(null);
-    const restore = restoreFocusRef.current;
-    restoreFocusRef.current = null;
-    if (restore && typeof restore.focus === 'function') requestAnimationFrame(() => restore.focus());
-  };
+  const closeDetail = React.useCallback(() => {
+    const snapshot = listSnapshotRef.current;
+    ReactDOM.flushSync(() => setDetail(null));
+    dbRestoreListSnapshot(snapshot, gridRef);
+  }, []);
   React.useEffect(() => {
     if (detail) backRef.current?.focus();
   }, [detail]);
+  React.useEffect(() => {
+    if (!detail) return undefined;
+    const onKeyDown = (event) => {
+      if (event.key !== 'Escape') return;
+      event.preventDefault();
+      closeDetail();
+    };
+    window.addEventListener('keydown', onKeyDown);
+    return () => window.removeEventListener('keydown', onKeyDown);
+  }, [detail, closeDetail]);
 
   if (!sections.some((row) => row.items.length)) {
     return <div className="wonder-view"><div className="db-empty">Wonderland data has not been generated yet.</div></div>;
@@ -2166,7 +2015,7 @@ function GenshinWonderlandView(){
       <div className="wonder-tabs" role="tablist" aria-label="Wonderland collections">
         {sections.map((row) => (
           <button type="button" role="tab" key={row.key} aria-selected={section === row.key} className={section === row.key ? 'on' : ''} onClick={() => selectSection(row.key)}>
-            <span>{row.label}</span><b>{row.items.length}</b>
+            <span>{row.label}</span>
           </button>
         ))}
       </div>
@@ -2184,15 +2033,19 @@ function GenshinWonderlandView(){
           ))}
         </div>
       )}
-      <div className="wonder-grid" aria-live="polite">
-        {visible.slice(0, DB_GRID_CAP).map((item) => (
-          <button type="button" className="wonder-card" key={item.id} aria-label={'View details for ' + item.name} onClick={() => openDetail(item)}>
+      <div className="wonder-grid" ref={gridRef} aria-live="polite">
+        {visible.slice(0, visibleLimit).map((item) => (
+          <button type="button" className="wonder-card" key={item.id} data-db-focus-key={dbListFocusKey('wonder', item.id)} aria-label={'View details for ' + item.name} onClick={() => openDetail(item)}>
             <span>{item.art ? <img src={item.art} alt="" loading="lazy" draggable="false" /> : simInitials(item.name)}</span>
             <b>{item.name}</b>
           </button>
         ))}
       </div>
-      {visible.length > DB_GRID_CAP && <div className="db-cap-note">Showing {DB_GRID_CAP} of {visible.length} — refine the search or filters to narrow it down.</div>}
+      {visibleLimit < visible.length && (
+        <button type="button" className="db-load-more" onClick={() => setVisibleLimit((limit) => nyxDatabaseNextLimit(limit, visible.length))}>
+          Load more <span>{Math.min(visibleLimit, visible.length)} of {visible.length}</span>
+        </button>
+      )}
       {visible.length === 0 && <div className="db-empty">No Wonderland records match your search.</div>}
     </div>
   );
@@ -2331,9 +2184,14 @@ function GenshinTcgView(){
   const [kind, setKind] = React.useState('all');
   const [tag, setTag] = React.useState('all');
   const [q, setQ] = React.useState('');
+  const [filterOpen, setFilterOpen] = React.useState(false);
   const [activeCard, setActiveCard] = React.useState(null);
-  const [restoreScroll, setRestoreScroll] = React.useState(0);
+  const [visibleLimit, setVisibleLimit] = React.useState(NYX_DATABASE_PAGE_SIZE);
   const gridRef = React.useRef(null);
+  const listSnapshotRef = React.useRef(null);
+  const filterButtonRef = React.useRef(null);
+  const filterPopRef = React.useRef(null);
+  const backRef = React.useRef(null);
   const cards = [
     ...((tcg.characterCards || []).map((card) => ({ ...card, kind:'character' }))),
     ...((tcg.otherCards || []).map((card) => ({ ...card, kind:'action' }))),
@@ -2373,27 +2231,58 @@ function GenshinTcgView(){
     const hay = [card.name, card.title, card.type, card.description, card.sourceText, card.playableCharacter, tcgFormatCost(card.cost), card.hp, talentText, ...(card.tags || [])].filter(Boolean).join(' ').toLowerCase();
     return !qq || hay.includes(qq);
   });
-  const filters = [
-    ['all', 'All Cards', cards.length],
-    ['character', 'Character', (tcg.characterCards || []).length],
-    ['action', 'Action', (tcg.otherCards || []).length],
+  const kindFilters = [
+    ['all', 'All Cards'],
+    ['character', 'Character'],
+    ['action', 'Action'],
   ];
-  const tagTotal = tagFilters.reduce((sum, [, count]) => sum + count, 0);
+  React.useEffect(() => setVisibleLimit(NYX_DATABASE_PAGE_SIZE), [kind, tag, q]);
+  React.useEffect(() => {
+    if (!filterOpen) return undefined;
+    const onPointerDown = (event) => {
+      if (filterPopRef.current?.contains(event.target) || filterButtonRef.current?.contains(event.target)) return;
+      setFilterOpen(false);
+    };
+    const onKeyDown = (event) => {
+      if (event.key !== 'Escape') return;
+      event.preventDefault();
+      event.stopPropagation();
+      setFilterOpen(false);
+      requestAnimationFrame(() => filterButtonRef.current?.focus());
+    };
+    document.addEventListener('pointerdown', onPointerDown);
+    document.addEventListener('keydown', onKeyDown, true);
+    return () => {
+      document.removeEventListener('pointerdown', onPointerDown);
+      document.removeEventListener('keydown', onKeyDown, true);
+    };
+  }, [filterOpen]);
   const openCard = (card) => {
-    setRestoreScroll(gridRef.current ? gridRef.current.scrollTop : 0);
+    listSnapshotRef.current = { focusKey:dbListFocusKey('tcg', card.kind + '-' + card.id), scrollTop:gridRef.current ? gridRef.current.scrollTop : 0 };
+    setFilterOpen(false);
     setActiveCard(card);
   };
-  const closeCard = () => {
-    setActiveCard(null);
-    setTimeout(() => {
-      if (gridRef.current) gridRef.current.scrollTop = restoreScroll;
-    }, 0);
-  };
+  const closeCard = React.useCallback(() => {
+    const snapshot = listSnapshotRef.current;
+    ReactDOM.flushSync(() => setActiveCard(null));
+    dbRestoreListSnapshot(snapshot, gridRef);
+  }, []);
+  React.useEffect(() => {
+    if (!activeCard) return undefined;
+    const onKeyDown = (event) => {
+      if (event.key !== 'Escape') return;
+      event.preventDefault();
+      closeCard();
+    };
+    window.addEventListener('keydown', onKeyDown);
+    requestAnimationFrame(() => backRef.current?.focus());
+    return () => window.removeEventListener('keydown', onKeyDown);
+  }, [activeCard, closeCard]);
   if (activeCard) {
     return (
       <div className="tcg-view tcg-detail-page" data-screen-label="TCG card detail page">
         <div className="tcg-detail-toolbar">
-          <button type="button" className="tcg-back" onClick={closeCard}>
+          <button type="button" ref={backRef} className="tcg-back" onClick={closeCard}>
             <span>{'\u2039'}</span><b>Back to TCG Cards</b>
           </button>
           <div>
@@ -2465,40 +2354,53 @@ function GenshinTcgView(){
     <div className="tcg-view">
       <div className="tcg-head">
         <GPSec title="Genius Invokation TCG" style={{ flex:1, minWidth:0 }} />
-        <div className="gp-search">
-          <span className="ic"></span>
-          <input value={q} placeholder="Search TCG Cards" spellCheck="false" onChange={(e) => setQ(e.target.value)} />
-          {q !== '' && <button type="button" className="x" title="Clear" onClick={() => setQ('')}>{'\u2715'}</button>}
-        </div>
-      </div>
-      <div className="tcg-filter-block">
-        <span>CARD TYPE</span>
-        <div className="tcg-tabs">
-          {filters.map(([key, label, count]) => (
-            <button type="button" key={key} className={kind === key ? 'on' : ''} onClick={() => setKind(key)}>
-              <span>{label}</span><b>{count}</b>
-            </button>
-          ))}
-        </div>
-      </div>
-      {tagFilters.length > 0 && (
-        <div className="tcg-filter-block">
-          <span>TAGS</span>
-          <div className="tcg-tabs tcg-category-tabs" aria-label="TCG card tags">
-            <button type="button" className={tag === 'all' ? 'on' : ''} onClick={() => setTag('all')}>
-              <span>All</span><b>{tagTotal}</b>
-            </button>
-            {tagFilters.map(([value, count]) => (
-              <button type="button" key={value} className={tag === value ? 'on' : ''} onClick={() => setTag(value)}>
-                <span>{value}</span><b>{count}</b>
-              </button>
-            ))}
+        <div className="tcg-search-tools">
+          <div className="gp-search">
+            <span className="ic"></span>
+            <input aria-label="Search TCG cards" value={q} placeholder="Search TCG Cards" spellCheck="false" onChange={(e) => setQ(e.target.value)} />
+            {q !== '' && <button type="button" className="x" title="Clear" onClick={() => setQ('')}>{'\u2715'}</button>}
           </div>
+          <button type="button" ref={filterButtonRef} className={'tcg-filter-button' + (filterOpen ? ' on' : '')}
+                  aria-expanded={filterOpen} aria-controls="tcg-filter-popout" onClick={() => setFilterOpen((open) => !open)}>
+            Filter{kind !== 'all' || tag !== 'all' ? <span>{Number(kind !== 'all') + Number(tag !== 'all')}</span> : null}
+          </button>
+          {filterOpen && (
+            <div id="tcg-filter-popout" ref={filterPopRef} className="tcg-filter-popout" role="dialog" aria-label="TCG filters">
+              <div className="tcg-filter-pop-head"><b>Filters</b><button type="button" onClick={() => { setKind('all'); setTag('all'); }}>Clear all</button></div>
+              <div className="tcg-filter-block">
+                <span>CARD TYPE</span>
+                <div className="tcg-tabs" role="group" aria-label="Card type">
+                  {kindFilters.map(([key, label]) => (
+                    <button type="button" key={key} className={kind === key ? 'on' : ''} aria-pressed={kind === key} onClick={() => setKind(key)}>{label}</button>
+                  ))}
+                </div>
+              </div>
+              {tagFilters.length > 0 && (
+                <div className="tcg-filter-block">
+                  <span>TAGS</span>
+                  <div className="tcg-tabs tcg-category-tabs" role="group" aria-label="TCG card tags">
+                    <button type="button" className={tag === 'all' ? 'on' : ''} aria-pressed={tag === 'all'} onClick={() => setTag('all')}>All</button>
+                    {tagFilters.map(([value]) => (
+                      <button type="button" key={value} className={tag === value ? 'on' : ''} aria-pressed={tag === value} onClick={() => setTag(value)}>{value}</button>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
+        </div>
+      </div>
+      {(kind !== 'all' || tag !== 'all') && (
+        <div className="tcg-active-filters" aria-label="Active TCG filters">
+          {kind !== 'all' && <button type="button" onClick={() => setKind('all')}>{kind === 'character' ? 'Character' : 'Action'} <span aria-hidden="true">{'\u00d7'}</span></button>}
+          {tag !== 'all' && <button type="button" onClick={() => setTag('all')}>{tag} <span aria-hidden="true">{'\u00d7'}</span></button>}
+          <button type="button" className="clear" onClick={() => { setKind('all'); setTag('all'); }}>Clear all</button>
         </div>
       )}
       <div className="tcg-grid" ref={gridRef}>
-        {visible.map((card) => (
+        {visible.slice(0, visibleLimit).map((card) => (
           <button type="button" className={'tcg-card kind-' + card.kind} key={card.kind + '-' + card.id}
+                  data-db-focus-key={dbListFocusKey('tcg', card.kind + '-' + card.id)}
                   onClick={() => openCard(card)}>
             <div className="tcg-art">
               {card.art ? <img src={card.art} alt="" draggable="false" /> : <span>{simInitials(card.name)}</span>}
@@ -2510,6 +2412,11 @@ function GenshinTcgView(){
           </button>
         ))}
       </div>
+      {visibleLimit < visible.length && (
+        <button type="button" className="db-load-more" onClick={() => setVisibleLimit((limit) => nyxDatabaseNextLimit(limit, visible.length))}>
+          Load more <span>{Math.min(visibleLimit, visible.length)} of {visible.length}</span>
+        </button>
+      )}
       {visible.length === 0 && <div className="db-empty">No TCG cards match your search.</div>}
     </div>
   );
@@ -2537,8 +2444,10 @@ function GenshinPotView(){
   const [sub, setSub] = React.useState('all');
   const [q, setQ] = React.useState('');
   const [activeItem, setActiveItem] = React.useState(null);
-  const [restoreScroll, setRestoreScroll] = React.useState(0);
+  const [visibleLimit, setVisibleLimit] = React.useState(NYX_DATABASE_PAGE_SIZE);
   const gridRef = React.useRef(null);
+  const listSnapshotRef = React.useRef(null);
+  const backRef = React.useRef(null);
   const categories = React.useMemo(() => (
     [['all', 'All', items.length], ...(pot.categories || []).map((c) => [c.key, c.key, c.count])]
   ), [items.length]);
@@ -2562,17 +2471,27 @@ function GenshinPotView(){
       .filter(Boolean).join(' ').toLowerCase();
     return hay.includes(qq);
   });
-  const subTotal = subFilters.reduce((sum, [, count]) => sum + count, 0);
+  React.useEffect(() => setVisibleLimit(NYX_DATABASE_PAGE_SIZE), [category, sub, q]);
   const openItem = (item) => {
-    setRestoreScroll(gridRef.current ? gridRef.current.scrollTop : 0);
+    listSnapshotRef.current = { focusKey:dbListFocusKey('pot', item.id), scrollTop:gridRef.current ? gridRef.current.scrollTop : 0 };
     setActiveItem(item);
   };
-  const closeItem = () => {
-    setActiveItem(null);
-    setTimeout(() => {
-      if (gridRef.current) gridRef.current.scrollTop = restoreScroll;
-    }, 0);
-  };
+  const closeItem = React.useCallback(() => {
+    const snapshot = listSnapshotRef.current;
+    ReactDOM.flushSync(() => setActiveItem(null));
+    dbRestoreListSnapshot(snapshot, gridRef);
+  }, []);
+  React.useEffect(() => {
+    if (!activeItem) return undefined;
+    const onKeyDown = (event) => {
+      if (event.key !== 'Escape') return;
+      event.preventDefault();
+      closeItem();
+    };
+    window.addEventListener('keydown', onKeyDown);
+    requestAnimationFrame(() => backRef.current?.focus());
+    return () => window.removeEventListener('keydown', onKeyDown);
+  }, [activeItem, closeItem]);
   if (!items.length) {
     return (
       <div className="pot-view">
@@ -2594,7 +2513,7 @@ function GenshinPotView(){
     return (
       <div className="pot-view pot-detail-page" data-screen-label="Serenitea Pot furnishing detail page">
         <div className="pot-detail-toolbar">
-          <button type="button" className="pot-back" onClick={closeItem}>
+          <button type="button" ref={backRef} className="pot-back" onClick={closeItem}>
             <span>{'‹'}</span><b>Back to Furnishings</b>
           </button>
           <div>
@@ -2661,9 +2580,9 @@ function GenshinPotView(){
       <div className="pot-filter-block">
         <span>CATEGORY</span>
         <div className="pot-tabs pot-category-tabs">
-          {categories.map(([key, label, count]) => (
+          {categories.map(([key, label]) => (
             <button type="button" key={key} className={category === key ? 'on' : ''} onClick={() => setCategory(key)}>
-              <span>{label}</span><b>{count}</b>
+              <span>{label}</span>
             </button>
           ))}
         </div>
@@ -2673,19 +2592,19 @@ function GenshinPotView(){
           <span>TYPE</span>
           <div className="pot-tabs pot-category-tabs" aria-label="Furnishing types">
             <button type="button" className={sub === 'all' ? 'on' : ''} onClick={() => setSub('all')}>
-              <span>All</span><b>{subTotal}</b>
+              <span>All</span>
             </button>
-            {subFilters.map(([value, count]) => (
+            {subFilters.map(([value]) => (
               <button type="button" key={value} className={sub === value ? 'on' : ''} onClick={() => setSub(value)}>
-                <span>{value}</span><b>{count}</b>
+                <span>{value}</span>
               </button>
             ))}
           </div>
         </div>
       )}
       <div className="pot-grid" ref={gridRef}>
-        {visible.map((item) => (
-          <button type="button" className="pot-card" key={item.id} onClick={() => openItem(item)}>
+        {visible.slice(0, visibleLimit).map((item) => (
+          <button type="button" className="pot-card" key={item.id} data-db-focus-key={dbListFocusKey('pot', item.id)} onClick={() => openItem(item)}>
             <div className="pot-art">
               {item.art ? <img src={item.art} alt="" draggable="false" loading="lazy" /> : <span>{simInitials(item.name)}</span>}
               {Number.isFinite(Number(item.rarity)) && item.rarity > 0 && <i className="pot-rar">{item.rarity + '★'}</i>}
@@ -2697,6 +2616,11 @@ function GenshinPotView(){
           </button>
         ))}
       </div>
+      {visibleLimit < visible.length && (
+        <button type="button" className="db-load-more" onClick={() => setVisibleLimit((limit) => nyxDatabaseNextLimit(limit, visible.length))}>
+          Load more <span>{Math.min(visibleLimit, visible.length)} of {visible.length}</span>
+        </button>
+      )}
       {visible.length === 0 && <div className="db-empty">No furnishings match your search.</div>}
     </div>
   );
@@ -3128,7 +3052,6 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
       )}
       {tab === 'mats' && (
         <main className="gp-main-pane fill gp-characters-main">
-          {!materialSelection?.name && <Favourites key={cfg.key} cfg={cfg} onOpenMaterial={onOpenMaterial} settings={settings} />}
           <CharMaterials
             inline
             game={cfg.key}
@@ -3137,11 +3060,12 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
             pageTab={tab}
             onPageTab={setTab}
             sections={sections}
+            pinnedFavourites={!materialSelection?.name ? <Favourites key={cfg.key} cfg={cfg} onOpenMaterial={onOpenMaterial} settings={settings} /> : null}
             onCustomizeCharacter={openCharacterCustomize}
             onSelectCharacter={(ch) => onSelectMaterialCharacter && onSelectMaterialCharacter(cfg.key, ch)}
             onSelectedClose={() => {
-              if (setMaterialSelection) setMaterialSelection(null);
               if (onCloseMaterialCharacter) onCloseMaterialCharacter(cfg.key);
+              else if (setMaterialSelection) setMaterialSelection(null);
             }}
           />
         </main>
@@ -3178,121 +3102,6 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
   );
 }
 
-/* ---------------- The Library: lazy, structured readable documents ---------------- */
-function libraryInline(nodes, keyPrefix){
-  return (nodes || []).map((node, index) => {
-    const key = `${keyPrefix}-${index}`;
-    if (node.type === 'text') return node.text;
-    if (node.type === 'br') return <br key={key} />;
-    if (node.type === 'em') return <em key={key}>{libraryInline(node.children, key)}</em>;
-    if (node.type === 'strong') return <strong key={key}>{libraryInline(node.children, key)}</strong>;
-    return null;
-  });
-}
-
-function LibraryDocument({ document, game }){
-  return <div className="library-document">
-    {(document?.blocks || []).map((block, index) => {
-      const key = `block-${index}`;
-      if (block.type === 'heading') {
-        const Tag = block.level >= 4 ? 'h4' : block.level === 3 ? 'h3' : 'h2';
-        return <Tag key={key}>{block.text}</Tag>;
-      }
-      if (block.type === 'paragraph') return <p key={key}>{libraryInline(block.children, key)}</p>;
-      if (block.type === 'list') {
-        const Tag = block.ordered ? 'ol' : 'ul';
-        return <Tag key={key}>{(block.items || []).map((item, itemIndex) => <li key={`${key}-${itemIndex}`}>{libraryInline(item.children, `${key}-${itemIndex}`)}</li>)}</Tag>;
-      }
-      if (block.type === 'table') return <div className="library-table-wrap" key={key}><table><tbody>{(block.rows || []).map((row, rowIndex) => <tr key={`${key}-${rowIndex}`}>{(row.cells || []).map((cell, cellIndex) => <td key={`${key}-${rowIndex}-${cellIndex}`}>{libraryInline(cell.children, `${key}-${rowIndex}-${cellIndex}`)}</td>)}</tr>)}</tbody></table></div>;
-      if (block.type === 'image' && /^icons\/[a-f0-9]{16,64}\.(?:png|webp)$/i.test(block.src || '')) return <img key={key} className="library-inline-image" src={`/data/library/${game}/${block.src}`} alt={block.alt || ''} loading="lazy" />;
-      return null;
-    })}
-  </div>;
-}
-
-function LibraryPage({ game }){
-  const [indexState, setIndexState] = React.useState({ loading:true, data:null, error:null });
-  const [indexAttempt, setIndexAttempt] = React.useState(0);
-  const [bookState, setBookState] = React.useState({ id:null, loading:false, data:null, error:null, attempt:0 });
-  const [query, setQuery] = React.useState('');
-  const [volume, setVolume] = React.useState(0);
-  const readerTitle = React.useRef(null);
-
-  React.useEffect(() => {
-    const controller = new AbortController();
-    setIndexState({ loading:true, data:null, error:null });
-    fetch(`/data/library/${game}/index.json`, { signal:controller.signal, credentials:'same-origin' })
-      .then((response) => { if (!response.ok) throw new Error(`Library index returned ${response.status}`); return response.json(); })
-      .then((data) => {
-        if (data?.game !== game || !Array.isArray(data.entries)) throw new Error('Library index is invalid');
-        setIndexState({ loading:false, data, error:null });
-      })
-      .catch((error) => { if (error.name !== 'AbortError') setIndexState({ loading:false, data:null, error:error.message || 'The Library could not be loaded.' }); });
-    return () => controller.abort();
-  }, [game, indexAttempt]);
-
-  React.useEffect(() => {
-    if (!bookState.id) return undefined;
-    const row = indexState.data?.entries?.find((entry) => entry.id === bookState.id);
-    if (!row || !/^[a-z0-9][a-z0-9-]*\.json$/.test(row.file || '')) {
-      setBookState((state) => ({ ...state, loading:false, error:'This book has an invalid library record.' }));
-      return undefined;
-    }
-    const controller = new AbortController();
-    setBookState((state) => ({ ...state, loading:true, data:null, error:null }));
-    fetch(`/data/library/${game}/${row.file}`, { signal:controller.signal, credentials:'same-origin' })
-      .then((response) => { if (!response.ok) throw new Error(`Book returned ${response.status}`); return response.json(); })
-      .then((data) => {
-        if (!Array.isArray(data?.volumes) || !data.volumes.length) throw new Error('This book has no readable text.');
-        setVolume(0);
-        setBookState((state) => ({ ...state, loading:false, data, error:null }));
-        requestAnimationFrame(() => readerTitle.current?.focus());
-      })
-      .catch((error) => { if (error.name !== 'AbortError') setBookState((state) => ({ ...state, loading:false, data:null, error:error.message || 'This book could not be loaded.' })); });
-    return () => controller.abort();
-  }, [game, bookState.id, bookState.attempt, indexState.data]);
-
-  const entries = indexState.data?.entries || [];
-  const filtered = entries.filter((entry) => !query.trim() || String(entry.name || '').toLowerCase().includes(query.trim().toLowerCase()));
-  const closeBook = () => { setBookState({ id:null, loading:false, data:null, error:null, attempt:0 }); setVolume(0); };
-  if (bookState.id) {
-    const selected = bookState.data?.volumes?.[volume];
-    return <main className="gp-main-pane fill library-page">
-      <div className="library-reader-head">
-        <button type="button" className="library-back" onClick={closeBook}>← Back to The Library</button>
-        <div>
-          <span className="eyebrow">The Library</span>
-          <h1 tabIndex="-1" ref={readerTitle}>{bookState.data?.name || indexState.data?.entries?.find((entry) => entry.id === bookState.id)?.name || 'Loading book…'}</h1>
-        </div>
-      </div>
-      {bookState.loading && <div className="library-status" role="status" aria-live="polite">Opening book…</div>}
-      {bookState.error && <div className="library-status error" role="alert"><p>{bookState.error}</p><button type="button" onClick={() => setBookState((state) => ({ ...state, attempt:state.attempt + 1 }))}>Try again</button></div>}
-      {bookState.data && <article className="library-reader">
-        {bookState.data.volumes.length > 1 && <div className="library-volumes" role="group" aria-label="Book volumes">
-          {bookState.data.volumes.map((item, index) => <button type="button" key={item.id || index} className={volume === index ? 'on' : ''} aria-pressed={volume === index} onClick={() => setVolume(index)}>{item.label || `Volume ${index + 1}`}</button>)}
-        </div>}
-        <LibraryDocument document={selected?.document} game={game} />
-      </article>}
-    </main>;
-  }
-  return <main className="gp-main-pane fill library-page">
-    <header className="library-hero"><span className="eyebrow">GI & HSR archives</span><h1>The Library</h1><p>Open a book to read its collected volumes.</p></header>
-    {indexState.loading && <div className="library-status" role="status" aria-live="polite">Loading The Library…</div>}
-    {indexState.error && <div className="library-status error" role="alert"><p>{indexState.error}</p><button type="button" onClick={() => setIndexAttempt((attempt) => attempt + 1)}>Try again</button></div>}
-    {indexState.data && <>
-      <label className="library-search"><span>Search books</span><input type="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search The Library" /></label>
-      <p className="library-count" aria-live="polite">{filtered.length} {filtered.length === 1 ? 'book' : 'books'}</p>
-      <div className="library-grid">
-        {filtered.map((entry) => <button type="button" className="library-tile" key={entry.id} onClick={() => setBookState({ id:entry.id, loading:true, data:null, error:null, attempt:0 })}>
-          <span className="library-cover">{entry.icon ? <img src={`/data/library/${game}/${entry.icon}`} alt="" loading="lazy" /> : <span aria-hidden="true">📖</span>}</span>
-          <strong>{entry.name}</strong>
-          <small>{entry.volumeCount > 1 ? `${entry.volumeCount} volumes` : 'Readable'}</small>
-        </button>)}
-      </div>
-      {!filtered.length && <div className="library-status">No books match that search.</div>}
-    </>}
-  </main>;
-}
 
 /* ---------------- hub birthday calendar (Workstream P) ---------------- */
 // HSR is excluded by design: its characters canonically have no birthdays.
@@ -3317,38 +3126,147 @@ function loadBdayGames(){
   return BDAY_GAMES.slice();
 }
 
-// Next occurrence of a birthday from today (a Feb 29 entry rolls to Mar 1 in
-// non-leap years via Date overflow).
-function bdayNextDate(now, month, day){
-  const todayStart = new Date(now.getFullYear(), now.getMonth(), now.getDate()).getTime();
-  let candidate = new Date(now.getFullYear(), month, day);
-  if (candidate.getTime() < todayStart) candidate = new Date(now.getFullYear() + 1, month, day);
-  return candidate;
-}
+// Next real occurrence; February 29 waits for the next leap year.
+function bdayNextDate(now, month, day){ return nyxNextBirthdayDate(now, month, day); }
 
-function BdayChip({ entry, onOpenMaterial }){
+function BdayChip({ entry, onOpenMaterial, onEdit }){
+  const [blobUrl, setBlobUrl] = React.useState('');
+  React.useEffect(() => {
+    if (!(entry.iconBlob instanceof Blob)) { setBlobUrl(''); return undefined; }
+    const next = URL.createObjectURL(entry.iconBlob);
+    setBlobUrl(next);
+    return () => URL.revokeObjectURL(next);
+  }, [entry.iconBlob]);
+  const gameLabel = GAME_REGISTRY[entry.game]?.name || entry.label || (entry.custom ? 'Custom birthday' : entry.game);
+  const activate = (event) => entry.custom ? onEdit?.(entry, event.currentTarget) : onOpenMaterial?.(entry.game, entry.name);
   return (
     <button type="button" className={'bcal-chip g-' + entry.game}
-            title={entry.name + ' — ' + BDAY_MONTHS[entry.month] + ' ' + entry.day + ' (' + (GAME_REGISTRY[entry.game]?.name || entry.game) + ')'}
-            aria-label={entry.name + ', birthday ' + BDAY_MONTHS[entry.month] + ' ' + entry.day + ', ' + (GAME_REGISTRY[entry.game]?.name || entry.game)}
-            onClick={() => onOpenMaterial && onOpenMaterial(entry.game, entry.name)}>
-      {entry.icon
-        ? <img src={entry.icon} alt="" draggable="false" loading="lazy" />
-        : <span className="bcal-chip-fallback">{String(entry.name || '?').slice(0, 1)}</span>}
+            title={entry.name + ' — ' + BDAY_MONTHS[entry.month] + ' ' + entry.day + ' (' + gameLabel + ')' + (entry.custom ? ' — edit' : '')}
+            aria-label={entry.name + ', birthday ' + BDAY_MONTHS[entry.month] + ' ' + entry.day + ', ' + gameLabel + (entry.custom ? ', edit birthday' : '')}
+            onClick={activate}>
+      {(blobUrl || entry.icon)
+        ? <img src={blobUrl || entry.icon} alt="" draggable="false" loading="lazy" />
+        : <span className="bcal-chip-fallback">{nyxBirthdayInitials(entry.name)}</span>}
     </button>
   );
+}
+
+function BirthdayDialog({ entry, onClose, onSaved, onDeleted }){
+  const [draft, setDraft] = React.useState(() => entry ? { ...entry } : {
+    name:'', month:new Date().getMonth(), day:new Date().getDate(), game:'', label:'', note:'', iconBlob:null,
+  });
+  const [error, setError] = React.useState('');
+  const [busy, setBusy] = React.useState(false);
+  const titleRef = React.useRef(null);
+  const formRef = React.useRef(null);
+  React.useEffect(() => {
+    titleRef.current?.focus();
+    const onKey = (event) => {
+      if (event.key === 'Escape' && !busy) { event.preventDefault(); event.stopImmediatePropagation(); onClose(); return; }
+      if (event.key !== 'Tab' || !formRef.current) return;
+      const focusable = Array.from(formRef.current.querySelectorAll('button:not([disabled]),input:not([disabled]),select:not([disabled]),textarea:not([disabled]),[tabindex]:not([tabindex="-1"])'));
+      if (!focusable.length) return;
+      const first = focusable[0], last = focusable[focusable.length - 1];
+      if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+      else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [busy, onClose]);
+  const update = (key, value) => setDraft((previous) => ({ ...previous, [key]:value }));
+  const chooseIcon = async (event) => {
+    const file = event.target.files && event.target.files[0];
+    event.target.value = '';
+    if (!file) return;
+    setBusy(true); setError('');
+    try { update('iconBlob', await nyxPrepareBirthdayIcon(file)); }
+    catch (nextError) { setError(nextError.message || 'That image could not be used.'); }
+    finally { setBusy(false); }
+  };
+  const submit = async (event) => {
+    event.preventDefault(); setBusy(true); setError('');
+    try { await onSaved(draft); }
+    catch (nextError) { setError(nextError.message || 'The birthday could not be saved.'); setBusy(false); }
+  };
+  const remove = async () => {
+    setBusy(true); setError('');
+    try { await onDeleted(entry); }
+    catch (nextError) { setError(nextError.message || 'The birthday could not be deleted.'); setBusy(false); }
+  };
+  return <div className="bcal-dialog-backdrop" onMouseDown={(event) => { if (event.target === event.currentTarget && !busy) onClose(); }}>
+    <form className="bcal-dialog" role="dialog" aria-modal="true" aria-labelledby="bcal-dialog-title" onSubmit={submit} ref={formRef}>
+      <div className="bcal-dialog-head">
+        <div><span>Personal calendar</span><h2 id="bcal-dialog-title" tabIndex="-1" ref={titleRef}>{entry ? 'Edit birthday' : 'Add birthday'}</h2></div>
+        <button type="button" className="bcal-dialog-close" aria-label="Close birthday dialog" onClick={onClose} disabled={busy}>{'×'}</button>
+      </div>
+      <label><span>Name</span><input required maxLength="80" value={draft.name} onChange={(event) => update('name', event.target.value)} /></label>
+      <div className="bcal-dialog-date">
+        <label><span>Month</span><select value={draft.month} onChange={(event) => update('month', Number(event.target.value))}>{BDAY_MONTHS.map((month, index) => <option value={index} key={month}>{month}</option>)}</select></label>
+        <label><span>Day</span><input type="number" required min="1" max="31" value={draft.day} onChange={(event) => update('day', Number(event.target.value))} /></label>
+      </div>
+      <label><span>Game (optional)</span><select value={draft.game} onChange={(event) => update('game', event.target.value)}><option value="">Personal</option>{SIM_GAMES.map((game) => <option value={game.key} key={game.key}>{game.name}</option>)}</select></label>
+      <label><span>Label (optional)</span><input maxLength="60" value={draft.label || ''} onChange={(event) => update('label', event.target.value)} placeholder="Friend, anniversary…" /></label>
+      <label><span>Short note (optional)</span><textarea maxLength="280" rows="3" value={draft.note || ''} onChange={(event) => update('note', event.target.value)} /></label>
+      <div className="bcal-icon-field">
+        <div><span>Icon (optional)</span><small>PNG, JPEG, or WebP. It stays in this browser.</small></div>
+        <label className="bcal-file"><input type="file" accept="image/png,image/jpeg,image/webp" onChange={chooseIcon} disabled={busy} /><span>{draft.iconBlob ? 'Replace icon' : 'Choose icon'}</span></label>
+        {draft.iconBlob && <button type="button" onClick={() => update('iconBlob', null)} disabled={busy}>Remove icon</button>}
+      </div>
+      {error && <p className="bcal-dialog-error" role="alert">{error}</p>}
+      <div className="bcal-dialog-actions">
+        {entry && <button type="button" className="danger" onClick={remove} disabled={busy}>Delete</button>}
+        <span></span><button type="button" onClick={onClose} disabled={busy}>Cancel</button><button type="submit" className="primary" disabled={busy}>{busy ? 'Saving…' : 'Save birthday'}</button>
+      </div>
+    </form>
+  </div>;
 }
 
 function BirthdayCalendar({ onOpenMaterial }){
   const [enabled, setEnabled] = React.useState(loadBdayGames);
   const [loadTick, setLoadTick] = React.useState(0);
-  const [cursor, setCursor] = React.useState(() => { const d = new Date(); return { year:d.getFullYear(), month:d.getMonth() }; });
+  const [customEntries, setCustomEntries] = React.useState([]);
+  const [customError, setCustomError] = React.useState('');
+  const [editing, setEditing] = React.useState(undefined);
+  const savedView = React.useMemo(() => nyxReadCalendarViewState(), []);
+  const [cursor, setCursor] = React.useState(() => savedView || (() => { const d = new Date(); return { year:d.getFullYear(), month:d.getMonth() }; })());
+  const calendarRef = React.useRef(null);
+  const addButtonRef = React.useRef(null);
+  const dialogTriggerRef = React.useRef(null);
+  const cursorRef = React.useRef(cursor);
+  cursorRef.current = cursor;
+
+  const loadCustom = React.useCallback(async () => {
+    try { setCustomEntries(await nyxListCustomBirthdays()); setCustomError(''); }
+    catch (error) { setCustomError(error.message || 'Personal birthdays could not be loaded.'); }
+  }, []);
 
   React.useEffect(() => {
     let live = true;
     BDAY_GAMES.forEach((g) => requestCmGame(g).then(() => { if (live) setLoadTick((v) => v + 1); }));
-    return () => { live = false; };
+    loadCustom();
+    const unsubscribe = nyxSubscribeCustomBirthdays(loadCustom);
+    return () => { live = false; unsubscribe(); };
+  }, [loadCustom]);
+
+  const calendarScrollTop = React.useCallback(() => {
+    const node = calendarRef.current;
+    return Math.max(node?.scrollTop || 0, node?.closest('.gp-main-pane')?.scrollTop || 0, node?.closest('.gp-layout')?.scrollTop || 0, document.scrollingElement?.scrollTop || 0);
   }, []);
+  React.useEffect(() => {
+    const top = savedView?.scrollTop || 0;
+    if (!top) return undefined;
+    const frame = requestAnimationFrame(() => {
+      const node = calendarRef.current;
+      const pane = node?.closest('.gp-main-pane');
+      const layout = node?.closest('.gp-layout');
+      if (node) node.scrollTop = top;
+      if (pane) pane.scrollTop = top;
+      if (layout) layout.scrollTop = top;
+      if (document.scrollingElement) document.scrollingElement.scrollTop = top;
+    });
+    return () => cancelAnimationFrame(frame);
+  }, [savedView]);
+  React.useEffect(() => () => nyxSaveCalendarViewState({ ...cursorRef.current, scrollTop:calendarScrollTop() }), [calendarScrollTop]);
 
   const toggle = (g) => setEnabled((prev) => {
     const next = prev.includes(g) ? prev.filter((k) => k !== g) : BDAY_GAMES.filter((k) => prev.includes(k) || k === g);
@@ -3356,7 +3274,7 @@ function BirthdayCalendar({ onOpenMaterial }){
     return next;
   });
 
-  const entries = React.useMemo(() => {
+  const generatedEntries = React.useMemo(() => {
     const out = [];
     for (const g of BDAY_GAMES){
       if (!enabled.includes(g)) continue;
@@ -3373,11 +3291,13 @@ function BirthdayCalendar({ onOpenMaterial }){
     }
     return out;
   }, [enabled, loadTick]);
+  const entries = React.useMemo(() => generatedEntries.concat(customEntries.map((entry) => ({ ...entry, custom:true }))), [generatedEntries, customEntries]);
 
   const now = new Date();
   const upcoming = React.useMemo(() => (
     entries
-      .map((entry) => ({ ...entry, next: bdayNextDate(now, entry.month, entry.day) }))
+      .map((entry) => ({ ...entry, next:bdayNextDate(now, entry.month, entry.day) }))
+      .filter((entry) => entry.next)
       .sort((a, b) => a.next - b.next || a.name.localeCompare(b.name))
       .slice(0, 5)
   ), [entries, now.getFullYear(), now.getMonth(), now.getDate()]);
@@ -3389,7 +3309,7 @@ function BirthdayCalendar({ onOpenMaterial }){
       if (!map.has(entry.day)) map.set(entry.day, []);
       map.get(entry.day).push(entry);
     }
-    for (const list of map.values()) list.sort((a, b) => BDAY_GAMES.indexOf(a.game) - BDAY_GAMES.indexOf(b.game) || a.name.localeCompare(b.name));
+    for (const list of map.values()) list.sort((a, b) => Number(a.custom) - Number(b.custom) || BDAY_GAMES.indexOf(a.game) - BDAY_GAMES.indexOf(b.game) || a.name.localeCompare(b.name));
     return map;
   }, [entries, cursor.month]);
 
@@ -3398,17 +3318,35 @@ function BirthdayCalendar({ onOpenMaterial }){
   const isTodayCell = (day) => day === now.getDate() && cursor.month === now.getMonth() && cursor.year === now.getFullYear();
   const moveMonth = (delta) => setCursor((prev) => {
     const d = new Date(prev.year, prev.month + delta, 1);
-    return { year:d.getFullYear(), month:d.getMonth() };
+    const next = { year:d.getFullYear(), month:d.getMonth() };
+    nyxSaveCalendarViewState({ ...next, scrollTop:calendarScrollTop() });
+    return next;
   });
   const daysUntil = (next) => {
     const todayStart = new Date(now.getFullYear(), now.getMonth(), now.getDate()).getTime();
     return Math.round((next.getTime() - todayStart) / 86400000);
   };
+  const openCharacter = (game, name) => {
+    nyxSaveCalendarViewState({ ...cursor, scrollTop:calendarScrollTop() });
+    onOpenMaterial?.(game, name, { from:'calendar' });
+  };
+  const closeEditor = React.useCallback((preferTrigger) => {
+    const preferred = preferTrigger ? dialogTriggerRef.current : null;
+    const target = nyxCalendarFocusTarget(preferred, addButtonRef.current);
+    dialogTriggerRef.current = null;
+    ReactDOM.flushSync(() => setEditing(undefined));
+    target?.focus({ preventScroll:true });
+  }, []);
+  const openEditor = (entry, trigger) => { dialogTriggerRef.current = trigger || null; setEditing(entry); };
+  const saveCustom = async (draft) => { const wasEditing = !!editing; await nyxSaveCustomBirthday(draft); closeEditor(wasEditing); };
+  const deleteCustom = async (entry) => { await nyxDeleteCustomBirthday(entry.id); closeEditor(false); };
 
   return (
-    <section className="bcal" aria-label="Character birthday calendar">
+    <section className="bcal" aria-label="Character birthday calendar" ref={calendarRef}>
+      {editing !== undefined && <BirthdayDialog entry={editing || null} onClose={() => closeEditor(!!editing)} onSaved={saveCustom} onDeleted={deleteCustom} />}
       <div className="bcal-head">
         <GPSec title="Birthday Calendar" icon="../assets/decor/orbit_burst.png" style={{ flex:1, minWidth:0 }} />
+        <button type="button" className="bcal-add" ref={addButtonRef} onClick={(event) => openEditor(null, event.currentTarget)}>Add birthday</button>
         <div className="bcal-toggles" role="group" aria-label="Games shown on the calendar">
           {BDAY_GAMES.map((g) => (
             <button type="button" key={g} className={'bcal-toggle g-' + g + (enabled.includes(g) ? ' on' : '')}
@@ -3425,8 +3363,8 @@ function BirthdayCalendar({ onOpenMaterial }){
           <b>Next birthdays</b>
           <div className="bcal-next-row">
             {upcoming.map((entry) => (
-              <div className="bcal-next-item" key={entry.game + ':' + entry.name}>
-                <BdayChip entry={entry} onOpenMaterial={onOpenMaterial} />
+              <div className="bcal-next-item" key={entry.custom ? entry.id : entry.game + ':' + entry.name}>
+                <BdayChip entry={entry} onOpenMaterial={openCharacter} onEdit={openEditor} />
                 <span className="who">{entry.name}</span>
                 <span className="when">{BDAY_MONTHS[entry.month].slice(0, 3)} {entry.day}{daysUntil(entry.next) === 0 ? ' · today!' : ' · in ' + daysUntil(entry.next) + 'd'}</span>
               </div>
@@ -3440,7 +3378,7 @@ function BirthdayCalendar({ onOpenMaterial }){
         <b>{BDAY_MONTHS[cursor.month]} {cursor.year}</b>
         <button type="button" className="bcal-nav" aria-label="Next month" onClick={() => moveMonth(1)}>{'›'}</button>
         {(cursor.month !== now.getMonth() || cursor.year !== now.getFullYear()) && (
-          <button type="button" className="bcal-today-btn" onClick={() => setCursor({ year:now.getFullYear(), month:now.getMonth() })}>Today</button>
+          <button type="button" className="bcal-today-btn" onClick={() => { const next = { year:now.getFullYear(), month:now.getMonth() }; setCursor(next); nyxSaveCalendarViewState({ ...next, scrollTop:calendarScrollTop() }); }}>Today</button>
         )}
       </div>
 
@@ -3455,14 +3393,15 @@ function BirthdayCalendar({ onOpenMaterial }){
               <span className="d">{day}</span>
               {list.length > 0 && (
                 <div className="bcal-cell-chips">
-                  {list.map((entry) => <BdayChip key={entry.game + ':' + entry.name} entry={entry} onOpenMaterial={onOpenMaterial} />)}
+                  {list.map((entry) => <BdayChip key={entry.custom ? entry.id : entry.game + ':' + entry.name} entry={entry} onOpenMaterial={openCharacter} onEdit={openEditor} />)}
                 </div>
               )}
             </div>
           );
         })}
       </div>
-      {entries.length === 0 && <div className="bcal-empty">{enabled.length ? 'Birthday data is still loading…' : 'Enable at least one game to see birthdays.'}</div>}
+      {customError && <div className="bcal-storage-error" role="alert">{customError}</div>}
+      {entries.length === 0 && <div className="bcal-empty">{enabled.length ? 'Birthday data is still loading…' : 'Add a personal birthday or enable a game.'}</div>}
     </section>
   );
 }
@@ -3630,6 +3569,7 @@ function routeStateFor(key, tab, selection){
     nyxKey:key,
     nyxTab:coerceTabForKey(key, tab || 'overview'),
     nyxCharacter:selection && selection.game === key ? (selection.name || selection.slug || null) : null,
+    nyxFrom:selection && selection.game === key && selection.from === 'calendar' ? 'calendar' : null,
   };
 }
 
@@ -4248,12 +4188,14 @@ function NyxChannelToggle({ gameKey }){
 
 function NyxApp(){
   const initialRoute = routeFromLocation();
+  const initialHistoryState = window.history.state || {};
   const initialKey = (initialRoute.key || (window.GP_PAGE && window.GP_PAGE.key) || 'nyx');
   const [activeKey, setActiveKey] = React.useState(initialKey);
   const [tab, setTab] = React.useState(() => coerceTabForKey(initialKey, initialRoute.tab || DEFAULT_TAB(initialKey)));
   const [materialSelection, setMaterialSelection] = React.useState(() => (
     initialRoute.character && initialKey !== 'nyx'
-      ? { game:initialKey, name:initialRoute.character, slug:initialRoute.character }
+      ? { game:initialKey, name:initialRoute.character, slug:initialRoute.character,
+          from:nyxCalendarHistoryOrigin(initialHistoryState, initialRoute.character) }
       : null
   ));
   const [characterCustomize, setCharacterCustomize] = React.useState(null);
@@ -4453,7 +4395,9 @@ function NyxApp(){
       setActiveKey(k);
       setTab(coerceTabForKey(k, next.tab || 'overview'));
       setCharacterCustomize(null);
-      setMaterialSelection(next.character && k !== 'nyx' ? { game:k, name:next.character, slug:next.character } : null);
+      const state = window.history.state || {};
+      setMaterialSelection(next.character && k !== 'nyx' ? { game:k, name:next.character, slug:next.character,
+        from:nyxCalendarHistoryOrigin(state, next.character) } : null);
     };
     window.addEventListener('popstate', onPop);
     return () => window.removeEventListener('popstate', onPop);
@@ -4481,14 +4425,13 @@ function NyxApp(){
 
   const isNyx = activeKey === 'nyx';
   const cfg = isNyx ? NYX_META : GAME_REGISTRY[activeKey];
-  const openMaterialPage = (game, name) => {
+  const openMaterialPage = (game, name, options) => {
     const targetGame = (game && game !== 'nyx') ? game : activeKey;
     if (!targetGame || targetGame === 'nyx' || !name) return;
     setActiveKey(targetGame);
     setTab('mats');
     setCharacterCustomize(null);
-    // Favourites now live in Characters, so character details return there.
-    const selection = { game:targetGame, name, from:'characters' };
+    const selection = { game:targetGame, name, from:options?.from === 'calendar' ? 'calendar' : 'characters' };
     setMaterialSelection(selection);
     commitRoute(targetGame, 'mats', selection);
   };
@@ -4507,6 +4450,10 @@ function NyxApp(){
     commitRoute(game, 'mats', selection);
   };
   const closeMaterialCharacter = (game) => {
+    if (nyxShouldReturnToCalendar(materialSelection)) {
+      window.history.back();
+      return;
+    }
     const targetGame = game || activeKey;
     setMaterialSelection(null);
     commitRoute(targetGame, 'mats', null);

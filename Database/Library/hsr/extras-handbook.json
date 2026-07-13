@@ -4,10 +4,11 @@
   "id": "extras-handbook",
   "name": "Extras Handbook",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Extras_Handbook",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-6e0af74868352963"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "The Phantasmoon Games has reached a fever pitch, and Director Fulwish's TV debate is about to kick off. We need at least 150 extras to provide the crowd presence and Wishpower support for Director Fulwish. Details are as follows:"
               }
-            ]
+            ],
+            "id": "p-7e6bd811f7a0158e"
           },
           {
             "type": "paragraph",
@@ -49,7 +52,8 @@
                 "type": "text",
                 "text": "Must have good camera presence and comprehension skills, able to work cooperatively to complete filming tasks."
               }
-            ]
+            ],
+            "id": "p-254f27df6685895e"
           },
           {
             "type": "paragraph",
@@ -58,7 +62,8 @@
                 "type": "text",
                 "text": "Clear speech and a flair for performance are a plus. Zero experience welcome."
               }
-            ]
+            ],
+            "id": "p-0351dbe23663479c"
           },
           {
             "type": "paragraph",
@@ -67,7 +72,8 @@
                 "type": "text",
                 "text": "'''"
               }
-            ]
+            ],
+            "id": "p-a7c2d3d49d85ba3c"
           },
           {
             "type": "paragraph",
@@ -83,7 +89,8 @@
                 "type": "text",
                 "text": "Responsible for serving as an audience member during Director Fulwish's TV addresses, appearing in both wide shots and close-ups to demonstrate approval of the speech content, with genuine emotion."
               }
-            ]
+            ],
+            "id": "p-acd1bd788e5d5716"
           },
           {
             "type": "paragraph",
@@ -120,7 +127,8 @@
                 "type": "text",
                 "text": "4. The IPC's modifications and devastation of the arcadia. (Use discretion when discussing this, don't go overboard with the details.)"
               }
-            ]
+            ],
+            "id": "p-403d5ccfd695f191"
           },
           {
             "type": "paragraph",
@@ -129,7 +137,8 @@
                 "type": "text",
                 "text": "Most importantly, make sure to smile and wave those glow sticks with all your heart. '''"
               }
-            ]
+            ],
+            "id": "p-06308fd614dadc57"
           },
           {
             "type": "paragraph",
@@ -145,7 +154,8 @@
                 "type": "text",
                 "text": "300 credits daily, lunch and dinner included, transportation provided."
               }
-            ]
+            ],
+            "id": "p-12b364f08a9f5e06"
           },
           {
             "type": "paragraph",
@@ -154,7 +164,8 @@
                 "type": "text",
                 "text": "Get a chance to snap a close-up photo with Director Fulwish herself."
               }
-            ]
+            ],
+            "id": "p-fe4040e03f514b0d"
           },
           {
             "type": "paragraph",
@@ -163,7 +174,8 @@
                 "type": "text",
                 "text": "'''"
               }
-            ]
+            ],
+            "id": "p-a7c2d3d49d85ba3c-2"
           }
         ]
       }

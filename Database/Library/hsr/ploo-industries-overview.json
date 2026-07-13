@@ -4,10 +4,11 @@
   "id": "ploo-industries-overview",
   "name": "Ploo Industries Overview",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Ploo_Industries_Overview",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Ploo Industries is an interstellar conglomerate with a century-long track record and stellar customer reviews, its business ventures spanning food, daily necessities, and more."
               }
-            ]
+            ],
+            "id": "p-0ca7095d72b6ebce"
           },
           {
             "type": "paragraph",
@@ -40,7 +42,8 @@
                 "type": "text",
                 "text": "Ploo Industries' predecessor, Yellow Ducky Nibbles, was a local snack company based in Seafeld City. Founded in the early Amber Era 2157, it became famous for its innovative product \"Wispae Gummies.\""
               }
-            ]
+            ],
+            "id": "p-9ad29b4e1f5dd812"
           },
           {
             "type": "paragraph",
@@ -49,7 +52,8 @@
                 "type": "text",
                 "text": "Later, the company expanded into general industries, entering markets for kitchen products, toys, and other everyday items. After several cycles of investment and new associates joining, it was renamed Ploo Industries Group, with the original name preserved as a flagship brand. The brand/group was founded by the eldest yellow ducky, born during the duckling's roaming incident in Ahatopia, also the first ploo resident of Planarcadia."
               }
-            ]
+            ],
+            "id": "p-0955074b7506e8af"
           },
           {
             "type": "paragraph",
@@ -58,7 +62,8 @@
                 "type": "text",
                 "text": "Today, Ploo Industries has become the most influential brand in Planarcadia, and we are committed to making Seafeld City the new economic hub of the arcadia, quack."
               }
-            ]
+            ],
+            "id": "p-8a77c02316a99927"
           },
           {
             "type": "paragraph",
@@ -79,7 +84,8 @@
                 "type": "text",
                 "text": "Thirty-three brands currently under our umbrella, with over five thousand products in our portfolio, and an average annual output exceeding 120 billion credits in recent years."
               }
-            ]
+            ],
+            "id": "p-1cafb6e89aaa3f90"
           },
           {
             "type": "paragraph",
@@ -88,11 +94,13 @@
                 "type": "text",
                 "text": "Current headcount stands at 77,893 employees, of which 72,501 are ploos. Age-wise, our group upholds the principle of blending seasoned experts with fresh blood, with employees under 30 and those over 500 each accounting for more than 30% of the workforce."
               }
-            ]
+            ],
+            "id": "p-99378549bf18251e"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -132,7 +140,8 @@
                 "type": "text",
                 "text": "Signature products include \"Seafeld Duck Head,\" \"Ploo Chips,\" \"Ploo Specials,\" and more."
               }
-            ]
+            ],
+            "id": "p-b0db1ce965c3513a"
           },
           {
             "type": "paragraph",
@@ -186,7 +195,8 @@
                 "type": "text",
                 "text": "※ Some toys are protected under the Faekind Protection Act and enjoy equal rights as imagenesis."
               }
-            ]
+            ],
+            "id": "p-f37ce7ba8597e226"
           },
           {
             "type": "paragraph",
@@ -233,7 +243,8 @@
                 "type": "text",
                 "text": "※ Allergen warning: Products contain ploo feathers."
               }
-            ]
+            ],
+            "id": "p-4ba0b8af29716a00"
           },
           {
             "type": "paragraph",
@@ -273,7 +284,8 @@
                 "type": "text",
                 "text": "Seafeld TV — Lead sponsor for the live-action series \"Daybreak Warrior\""
               }
-            ]
+            ],
+            "id": "p-ff6ae15319589bbc"
           },
           {
             "type": "paragraph",
@@ -294,7 +306,8 @@
                 "type": "text",
                 "text": "The primary agency behind the Seafeld City Development Plan. They handle the construction (and painting) of most residential and commercial buildings."
               }
-            ]
+            ],
+            "id": "p-4278125d97f905a3"
           },
           {
             "type": "paragraph",
@@ -303,7 +316,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -329,7 +343,8 @@
                 "type": "text",
                 "text": "—Founder of Ploo Industries, the Oldest Yellow Ducky"
               }
-            ]
+            ],
+            "id": "p-0f148f1b98de42bf"
           }
         ]
       }

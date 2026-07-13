@@ -4,10 +4,11 @@
   "id": "a-farewell-letter",
   "name": "A Farewell Letter",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/A_Farewell_Letter",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Dearest Chironome,"
               }
-            ]
+            ],
+            "id": "p-aea8dc315332c190"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "I suppose you'll never have the chance to read this letter. Even so, after much thought, I've decided to put these words on paper."
               }
-            ]
+            ],
+            "id": "p-668421d38a55e7ff"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "As of today, I've been trapped in this room for ten days. My food supply ran out three days ago, and yesterday, I drained the last of my clean water. Only two endings await: I can either linger here in this safe cage, waiting for death to claim me in dishonor and humiliation, or step out through that door and get torn to shreds by the frenzy Titankins."
               }
-            ]
+            ],
+            "id": "p-b8afd08c6fea22e1"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "I imagine you'd laugh at me, just as many times I mocked Ulixes, the coward scorned by Nikador. Yet, in a bitter twist of irony, I find myself now understanding the deserter's plight:"
               }
-            ]
+            ],
+            "id": "p-bce7a439a084d8e9"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "I do not fear wounds or bloodshed — those are marks of courage. I have long sought the glory of a valiant death in battle, as a symbol of honor. But... as one of the warriors of Kremnoan, sworn to the ideal of \"valorous death before glorious return,\" I must confess that, at this moment, I feel fear creeping in."
               }
-            ]
+            ],
+            "id": "p-2c783eb815a48607"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "The Titankins out there were once paragons of glory and might, yet they've become tainted beasts and defiled monstrosities. As a warrior, I do not fear a heroic end, but I cannot bear to witness Castrum Kremnos, our sacred home, and the god we revered reduced to such undignified ruins."
               }
-            ]
+            ],
+            "id": "p-b1449092b3123414"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "Lastly, it's a relief to me that you chose to accompany his lordship to Okhema. It may not be as warm as home, but at least there's no black tide or abominations. My last wish is for you to live the rest of your days in peace and happiness."
               }
-            ]
+            ],
+            "id": "p-a5cea710c5ec56d7"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "With love, your brother Hyles"
               }
-            ]
+            ],
+            "id": "p-f6567b005c79bf32"
           }
         ]
       }

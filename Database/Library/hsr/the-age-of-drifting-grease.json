@@ -4,10 +4,11 @@
   "id": "the-age-of-drifting-grease",
   "name": "The Age of Drifting Grease",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/The_Age_of_Drifting_Grease",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -199,7 +200,8 @@
                 "type": "text",
                 "text": "had yet to be born from our lips."
               }
-            ]
+            ],
+            "id": "p-5716e700c39beaff"
           }
         ]
       }

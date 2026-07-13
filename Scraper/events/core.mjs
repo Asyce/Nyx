@@ -268,13 +268,25 @@ export function mergeById(previousEvents = [], freshEvents = []) {
 // undated, current, or future rows. Callers must NOT use this on an outage or
 // anomaly; mergeById is the non-destructive carry-forward path for those cases.
 export function reconcileById(previousEvents = [], freshEvents = [], now = Date.now(), retainPrevious = () => true) {
-  const freshIds = new Set(freshEvents.map((ev) => ev.id));
+  const previousById = new Map(previousEvents.map((ev) => [ev.id, ev]));
+  const stableFresh = freshEvents.map((ev) => {
+    const previous = previousById.get(ev.id);
+    // Some official notices describe the opening as "after the Version
+    // update". The deterministic parser correctly leaves that undated. If a
+    // previously verified copy of the same stable announcement already has a
+    // complete official window, do not downgrade it back to needs-review.
+    if (previous?.start && previous?.end && !ev?.start && !ev?.end && previous.confidence === 'high' && previous.needs_review === false) {
+      return { ...ev, start:previous.start, end:previous.end, confidence:'high', permanence:'timed', needs_review:false };
+    }
+    return ev;
+  });
+  const freshIds = new Set(stableFresh.map((ev) => ev.id));
   const history = previousEvents.filter((ev) => {
     if (freshIds.has(ev.id)) return false;
     const end = ev?.end ? Date.parse(ev.end) : NaN;
     return Number.isFinite(end) && end < now && retainPrevious(ev);
   });
-  return mergeById(history, freshEvents);
+  return mergeById(history, stableFresh);
 }
 
 // ---- validation (mirrors validate-data.cjs style) ----

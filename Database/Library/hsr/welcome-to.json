@@ -4,10 +4,11 @@
   "id": "welcome-to",
   "name": "Welcome to ■■■■",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Welcome_to_%E2%96%A0%E2%96%A0%E2%96%A0%E2%96%A0",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "(A strange recording that cuts in and out. The narrator's voice is like metal shrapnel scraping against each other, filled with malice and scorn.)"
               }
-            ]
+            ],
+            "id": "p-f2ff9dcdc7c7ba7f"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "...(static)... (loud, shrill laughter)... (explosion)..."
               }
-            ]
+            ],
+            "id": "p-81dff7774e44ac82"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "Dear guest: Welcome to the Dream's Edge. I am... (static)... your guide: Clockie!"
               }
-            ]
+            ],
+            "id": "p-9f53f7cd47761592"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "To ensure everyone has a pleasant journey, please bear in mind the following at all times while sightseeing:"
               }
-            ]
+            ],
+            "id": "p-2e74f4f4758af195"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "First... (static)... a specialty at the Edge: the Dreamscape Phantasmagoria!"
               }
-            ]
+            ],
+            "id": "p-0199b16b4b66d989"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "...(static)... This huge flowing building forms not only a landscape, but also a unique local ecosystem... (static)... a sentient life form that can react to guests' touches. Please do not touch, graffiti, or vandalize it."
               }
-            ]
+            ],
+            "id": "p-7f1d055c7deb12f1"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "If the ground or buildings shake violently, please do not panic. These are mostly caused by the Phantasmagoria's periodic activity or guests touching it and do not usually last very long."
               }
-            ]
+            ],
+            "id": "p-3a8aec40f0f33edb"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "If you find a building you like, you can go inside for a visit without purchasing any additional tickets. Please select buildings carefully, as each guest only has one optimal sightseeing experience available."
               }
-            ]
+            ],
+            "id": "p-9e43bd80322d8106"
           },
           {
             "type": "paragraph",
@@ -91,7 +100,8 @@
                 "type": "text",
                 "text": "...(static)... (indistinct screaming, chewing, and swallowing sounds)... (harsh static)..."
               }
-            ]
+            ],
+            "id": "p-8416a27bdda3ba4e"
           },
           {
             "type": "paragraph",
@@ -113,7 +123,8 @@
                 "type": "text",
                 "text": "to quickly restore health and vitality to the consumer."
               }
-            ]
+            ],
+            "id": "p-5f527a3e699b624d"
           },
           {
             "type": "paragraph",
@@ -122,7 +133,8 @@
                 "type": "text",
                 "text": "The above food and drink are all provided to guests free of charge. Please feel free to take anything away. Please refrain from hunting local residents or other wild creatures."
               }
-            ]
+            ],
+            "id": "p-fe719083206dec14"
           },
           {
             "type": "paragraph",
@@ -131,7 +143,8 @@
                 "type": "text",
                 "text": "...(continuous static)... (sticky squirming sounds)... providing the best in quality services. Here are the most popular attractions that we recommend:"
               }
-            ]
+            ],
+            "id": "p-e4bcfa8f823c6013"
           },
           {
             "type": "paragraph",
@@ -140,7 +153,8 @@
                 "type": "text",
                 "text": "SoulGlad Bonanza: dance along with the Sweet Dreams Troupe! What are you waiting for? Come on! Open up your mind, release your pressure, and shed some of your blood !"
               }
-            ]
+            ],
+            "id": "p-0f1f4fb31b21e731"
           },
           {
             "type": "paragraph",
@@ -149,7 +163,8 @@
                 "type": "text",
                 "text": "Origami Bird: These hard-working birds roam the city each day, searching for their favored materials to patch up the holes in their bodies that cannot be filled. But the Phantasmagorias are too cheap, and the locals don't give any support. So, are there any kind visitors who'd be willing to help out?"
               }
-            ]
+            ],
+            "id": "p-dd5caf8efba1b0a0"
           },
           {
             "type": "paragraph",
@@ -158,7 +173,8 @@
                 "type": "text",
                 "text": "Automatic Symphony Orchestra: Roll up! Merge your body and mind in this wonderful musical operetta! Swing freely on the strings, pop up and down with the brass piston, feel the rhythm of the keyboard and drums being hit ... (static)... Enjoy eternal delight through this eternal music — until your soul merges into this world!"
               }
-            ]
+            ],
+            "id": "p-75a837ec4ee9864f"
           },
           {
             "type": "paragraph",
@@ -167,7 +183,8 @@
                 "type": "text",
                 "text": "...(static)... (roaring sound of merriment and faint screams)... (static)..."
               }
-            ]
+            ],
+            "id": "p-e936fe85003ec3a1"
           },
           {
             "type": "paragraph",
@@ -176,7 +193,8 @@
                 "type": "text",
                 "text": "— (impact sound of heavy objects hitting the ground)"
               }
-            ]
+            ],
+            "id": "p-824f31f2c7348ac2"
           }
         ]
       }

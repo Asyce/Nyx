@@ -4,10 +4,11 @@
   "id": "my-professor-can-t-possibly-be-this-shy",
   "name": "My Professor Can't Possibly Be This Shy",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/My_Professor_Can%27t_Possibly_Be_This_Shy",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -39,7 +40,8 @@
                 "type": "text",
                 "text": "The professor, barely over thirty, was leaning casually against the stone lectern, loose and relaxed. The scholar's robe gleamed bright in the dim light of the Evernight, giving off an almost divine aura."
               }
-            ]
+            ],
+            "id": "p-a479b99128e8c3ea"
           },
           {
             "type": "paragraph",
@@ -68,7 +70,8 @@
                 "type": "text",
                 "text": "Luckily, I had already come up with a plan—"
               }
-            ]
+            ],
+            "id": "p-75cffcaa0bf34bae"
           },
           {
             "type": "paragraph",
@@ -107,7 +110,8 @@
                 "type": "text",
                 "text": "At these words, the professor's face broke into a charming smile."
               }
-            ]
+            ],
+            "id": "p-2f1992fc0387b6b1"
           },
           {
             "type": "paragraph",
@@ -146,7 +150,8 @@
                 "type": "text",
                 "text": "Although there was no mirror here, I could guess that my face had turned red from the sudden and direct request."
               }
-            ]
+            ],
+            "id": "p-e73843a93514e6d9"
           },
           {
             "type": "paragraph",
@@ -205,7 +210,8 @@
                 "type": "text",
                 "text": "\"Sounds good. Come on, let's have a look.\""
               }
-            ]
+            ],
+            "id": "p-7e037ee2c5b6530d"
           },
           {
             "type": "paragraph",
@@ -224,7 +230,8 @@
                 "type": "text",
                 "text": "He looked so rational when he was immersed in numbers. Nothing less than I'd expect from the professor I cherished so much."
               }
-            ]
+            ],
+            "id": "p-da4a200efaea4041"
           },
           {
             "type": "paragraph",
@@ -233,7 +240,8 @@
                 "type": "text",
                 "text": "After that, we experienced an enriching lesson. We wandered through the classical literature exhibition, eagerly absorbing the newly compiled Titan Faith Studies. Finally, we lingered in the dreams woven by the latest works of the Erythrokeramism School, so much so that we completely forgot."
               }
-            ]
+            ],
+            "id": "p-9b94594cc9595e69"
           },
           {
             "type": "paragraph",
@@ -252,7 +260,8 @@
                 "type": "text",
                 "text": "The professor looked at me and paused for a moment, as if making some kind of decision, then muttered:"
               }
-            ]
+            ],
+            "id": "p-566c34b16379f8e3"
           },
           {
             "type": "paragraph",
@@ -321,7 +330,8 @@
                 "type": "text",
                 "text": "At that moment, we had yet to realize that after this lesson, another name would appear in the acknowledgments of the paper. And in the end, this would be the very spark that led to the founding of our academic symposium."
               }
-            ]
+            ],
+            "id": "p-f4bcdee047e037b5"
           },
           {
             "type": "paragraph",
@@ -330,7 +340,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

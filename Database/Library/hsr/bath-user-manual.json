@@ -4,10 +4,11 @@
   "id": "bath-user-manual",
   "name": "Bath User Manual",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Bath_User_Manual",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Esteemed Visitor:"
               }
-            ]
+            ],
+            "id": "p-674192da6c326753"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Welcome to the Marmoreal Palace Bath, where you will be doused in Phagousa's most precious benediction. To ensure a complete bath experience, and to maintain the sanctity of this holy site, please read the following carefully."
               }
-            ]
+            ],
+            "id": "p-1f157012a92ece21"
           },
           {
             "type": "paragraph",
@@ -75,7 +78,8 @@
                 "type": "text",
                 "text": "4. Please do not touch the ritual tools."
               }
-            ]
+            ],
+            "id": "p-76af5a46989a1be5"
           },
           {
             "type": "paragraph",
@@ -131,7 +135,8 @@
                 "type": "text",
                 "text": "5. Curtain-Fall Hour: Appointment only, only provided to select guests with prior reservations"
               }
-            ]
+            ],
+            "id": "p-a4184586df4a3f4f"
           },
           {
             "type": "paragraph",
@@ -164,7 +169,8 @@
                 "type": "text",
                 "text": "Situated in the bath center, its water is sourced from a spring blessed by Phagousa. Its body is a pale azure hue, where rippled patterns can be subtly seen, with micro-bubbles frothing to its surface, symbolizing the manifestation of divinity."
               }
-            ]
+            ],
+            "id": "p-3f2a0b35865ad700"
           },
           {
             "type": "paragraph",
@@ -180,7 +186,8 @@
                 "type": "text",
                 "text": "Cleanses fatigue, invigorates, soothes the spirit, and aids rumination."
               }
-            ]
+            ],
+            "id": "p-6ccdf757aca08492"
           },
           {
             "type": "paragraph",
@@ -196,7 +203,8 @@
                 "type": "text",
                 "text": "Occasional revelationary manifestations. Those with keen perception may hear Phagousa's whispers."
               }
-            ]
+            ],
+            "id": "p-b7f8651eb2de82f3"
           },
           {
             "type": "paragraph",
@@ -212,7 +220,8 @@
                 "type": "text",
                 "text": "Please refrain from eating or drinking in the main pool as a sign of respect to Phagousa."
               }
-            ]
+            ],
+            "id": "p-5a1e0698b88c92fd"
           },
           {
             "type": "paragraph",
@@ -238,7 +247,8 @@
                 "type": "text",
                 "text": "Divided into high and low temperature pool areas. The high temperature area brims with steam of warm lights like a new dawn, symbolizing Aquila's inaugural radiance. The low temperature pool is cooler with a darker hue. The bottom of the pool is embedded with a star-cluster pattern, symbolizing Oronyx's pitch night sky."
               }
-            ]
+            ],
+            "id": "p-cc759dc6790f90b1"
           },
           {
             "type": "paragraph",
@@ -254,7 +264,8 @@
                 "type": "text",
                 "text": "The low temperature pool cleanses body and mind, expunging impurities from the former and invigorates the latter. The high temperature pool comforts the body and mind, aiding restful sleep and disperses fatigue."
               }
-            ]
+            ],
+            "id": "p-ab26c2f0e6436abb"
           },
           {
             "type": "paragraph",
@@ -270,7 +281,8 @@
                 "type": "text",
                 "text": "Using the combination of hot and cold pools prolongs your lifespan and keeps your body in its best shape."
               }
-            ]
+            ],
+            "id": "p-81e2990f136d335b"
           },
           {
             "type": "paragraph",
@@ -286,7 +298,8 @@
                 "type": "text",
                 "text": "Optimal duration in the high temperature pool is three quints. Please do not soak in it for too long. Please do not use the low temperature pool during the Parting Hour."
               }
-            ]
+            ],
+            "id": "p-89b807b288cb59a8"
           },
           {
             "type": "paragraph",
@@ -312,7 +325,8 @@
                 "type": "text",
                 "text": "Herbs blessed by Cerces have been soaked in this water, and bear Cerces' wisdom and grace. Grove scholars often linger in this area, seeking glimpses of radiant knowledge through contemplative submersion."
               }
-            ]
+            ],
+            "id": "p-d502b8218d5ab8cf"
           },
           {
             "type": "paragraph",
@@ -328,7 +342,8 @@
                 "type": "text",
                 "text": "Enhances mental acuity, inspirational surges. Perfect for deep meditation."
               }
-            ]
+            ],
+            "id": "p-42aff88cc68b379e"
           },
           {
             "type": "paragraph",
@@ -344,7 +359,8 @@
                 "type": "text",
                 "text": "Many bookshelves and deck chairs are situated around the pool, creating a leisurely vibe for quiet reading."
               }
-            ]
+            ],
+            "id": "p-4d3e9043c929f5fe"
           },
           {
             "type": "paragraph",
@@ -360,7 +376,8 @@
                 "type": "text",
                 "text": "Please do not cause a commotion inside the pool."
               }
-            ]
+            ],
+            "id": "p-1a69b7a54b2ba814"
           },
           {
             "type": "paragraph",
@@ -386,7 +403,8 @@
                 "type": "text",
                 "text": "This area is divided into public usage and private pools for exclusive guests. The pools are outfitted with special equipment that allow the water to mimic tidal movement akin to the ocean that Phagousa governs."
               }
-            ]
+            ],
+            "id": "p-f1220f98d2e086bd"
           },
           {
             "type": "paragraph",
@@ -402,7 +420,8 @@
                 "type": "text",
                 "text": "Nourishes the body and mind, boosts your constitution, calms your nerves and steadies your moods."
               }
-            ]
+            ],
+            "id": "p-04d34dbedca42157"
           },
           {
             "type": "paragraph",
@@ -418,7 +437,8 @@
                 "type": "text",
                 "text": "Suitable for multiple people to soak in. Massage services are provided in the lounge area and can hold up to thirteen guests."
               }
-            ]
+            ],
+            "id": "p-410a47b0b4e52358"
           },
           {
             "type": "paragraph",
@@ -434,7 +454,8 @@
                 "type": "text",
                 "text": "Do not eat or drink in the pool to avoid clogging of pipes."
               }
-            ]
+            ],
+            "id": "p-966b8ed8e8e31235"
           },
           {
             "type": "paragraph",
@@ -458,7 +479,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-a55d310c41277ca1"
           },
           {
             "type": "paragraph",
@@ -484,7 +506,8 @@
                 "type": "text",
                 "text": "Located in the center of the pool spring, guests can enjoy performances in the comfort of our waters. Comes with pool floats, floating dining tables, special audio stone pillars, stage lift, and other amenities."
               }
-            ]
+            ],
+            "id": "p-32aac6318ace567e"
           },
           {
             "type": "paragraph",
@@ -500,7 +523,8 @@
                 "type": "text",
                 "text": "Located on elevated stages on both sides of the bath spring. Reserved for academic lectures and poetry recitals. Access is invite only. The venue is acoustically designed, allowing the speaker's voice to be projected in all directions."
               }
-            ]
+            ],
+            "id": "p-30996e37a10ad0a8"
           },
           {
             "type": "paragraph",
@@ -516,7 +540,8 @@
                 "type": "text",
                 "text": "Multiple pools are outfitted with floating dining tables and come with deck chairs. Free-refill drinks are provided daily."
               }
-            ]
+            ],
+            "id": "p-1b57744320e27e09"
           },
           {
             "type": "paragraph",
@@ -606,7 +631,8 @@
                 "type": "text",
                 "text": "7. Bath Lottery and Audience Interaction"
               }
-            ]
+            ],
+            "id": "p-21eea8e9a271563b"
           },
           {
             "type": "paragraph",
@@ -677,7 +703,8 @@
                 "type": "text",
                 "text": "4. Philosophers Live Debate Tournament"
               }
-            ]
+            ],
+            "id": "p-5d0528fcba26e9e4"
           },
           {
             "type": "paragraph",
@@ -714,7 +741,8 @@
                 "type": "text",
                 "text": "Month of Gate, 20th Day: Hymns of Dawn Party"
               }
-            ]
+            ],
+            "id": "p-17bda77917326c4e"
           },
           {
             "type": "paragraph",
@@ -761,7 +789,8 @@
                 "type": "text",
                 "text": "4. If you're not feeling well, inform the nearest attendant immediately"
               }
-            ]
+            ],
+            "id": "p-ba7b558544d18ccc"
           },
           {
             "type": "paragraph",
@@ -791,7 +820,8 @@
                 "type": "text",
                 "text": "3. Respect others' privacy. Please do not disrupt the experiences of other guests"
               }
-            ]
+            ],
+            "id": "p-2d6b65c1006de91e"
           },
           {
             "type": "paragraph",
@@ -807,7 +837,8 @@
                 "type": "text",
                 "text": "If you can feel unusual ripples, it may be Phagousa manifesting. Please keep calm and channel your devotion. You may just be able to receive a revelation."
               }
-            ]
+            ],
+            "id": "p-063437a3609c2cb2"
           },
           {
             "type": "paragraph",
@@ -863,7 +894,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-b6a0b54721ad09b2"
           },
           {
             "type": "paragraph",
@@ -877,7 +909,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-e63496103b3235a6"
           }
         ]
       }

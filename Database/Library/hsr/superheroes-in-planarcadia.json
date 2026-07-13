@@ -4,10 +4,11 @@
   "id": "superheroes-in-planarcadia",
   "name": "Superheroes in Planarcadia",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Superheroes_in_Planarcadia",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -32,7 +33,8 @@
                 "type": "text",
                 "text": "and civilian superheroes sponsored by Fulwish TV to maintain peace in Planarcadia. The Smiling Hero, the League of Bliss... Even just a glance at their many nicknames speaks volumes about the public's affection for them."
               }
-            ]
+            ],
+            "id": "p-f9770998b28c3e14"
           },
           {
             "type": "paragraph",
@@ -41,7 +43,8 @@
                 "type": "text",
                 "text": "According to statistics, over the past two years, the Daybreak Squadron has solved 14 theft or robbery cases, 22 small-scale mutations caused by calamities, and assisted the Department of Aberration Defense in solving numerous medium and small cases. Meanwhile, the 4 performers have been actively involved in community work, holding a charity performance once every 2 weeks on average, and their \"Superhero Safety Training\" activities in Seafeld City have been well-received. Just like Fulwish who brought them to the stage, Daybreak Squadron has become an idol in many people's hearts."
               }
-            ]
+            ],
+            "id": "p-f66cf14c88e96fef"
           },
           {
             "type": "paragraph",
@@ -55,7 +58,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-79b81e1e22da103b"
           },
           {
             "type": "paragraph",
@@ -64,7 +68,8 @@
                 "type": "text",
                 "text": "While the Daybreak Squadron's popularity has been surging among both teenagers and the elderly, some people believe that what Daybreak Squadron does could be achieved through simpler methods by the IPC and Department of Aberration Defense. In their eyes, the actors' activities are just like locals playing make-believe, orchestrated by Fulwish TV for publicity."
               }
-            ]
+            ],
+            "id": "p-eb2af0d23057bdd1"
           },
           {
             "type": "paragraph",
@@ -88,7 +93,8 @@
                 "type": "text",
                 "text": "— Pearluxe Corp Employee"
               }
-            ]
+            ],
+            "id": "p-bd8b6b3ba2bb67df"
           },
           {
             "type": "paragraph",
@@ -112,7 +118,8 @@
                 "type": "text",
                 "text": "— Tourist from Capital of Passion"
               }
-            ]
+            ],
+            "id": "p-fd84dc133f1844bc"
           },
           {
             "type": "paragraph",
@@ -136,7 +143,8 @@
                 "type": "text",
                 "text": "— Student of Graphia Academy"
               }
-            ]
+            ],
+            "id": "p-8925752932dbd884"
           },
           {
             "type": "paragraph",
@@ -160,7 +168,8 @@
                 "type": "text",
                 "text": "— Patient at Duomension City Secondary Hospital"
               }
-            ]
+            ],
+            "id": "p-a149e329242f7dc4"
           },
           {
             "type": "paragraph",
@@ -174,7 +183,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-5992561596475663"
           },
           {
             "type": "paragraph",
@@ -183,7 +193,8 @@
                 "type": "text",
                 "text": "Indeed, Daybreak Squadron may not possess world-saving powers like those in traditional hero stories such as the Astral Express. But does this mean their actions are meaningless? In an era where our hearts are gradually running dry, the birth of heroes is necessary. They symbolize the spirit of \"what I choose to do,\" and now more than ever, as the Antimatter Legion's menace escalates, people desperately yearn for heroes they can call their own."
               }
-            ]
+            ],
+            "id": "p-769e26f2944b4bb4"
           },
           {
             "type": "paragraph",
@@ -207,7 +218,8 @@
                 "type": "text",
                 "text": "— Shopkeeper from Seafeld City"
               }
-            ]
+            ],
+            "id": "p-f02c6abd2fbe8ad8"
           },
           {
             "type": "paragraph",
@@ -231,7 +243,8 @@
                 "type": "text",
                 "text": "— Director of Fulwish TV"
               }
-            ]
+            ],
+            "id": "p-92b1ecf896059085"
           },
           {
             "type": "paragraph",
@@ -240,7 +253,8 @@
                 "type": "text",
                 "text": "Does Planarcadia need superheroes? I think it does. Even the Interastral Peace Corporation needs the Amber Lord to set a standard in people's hearts. Daybreak Squadron isn't irreplaceable. But they are ours, and that is what matters."
               }
-            ]
+            ],
+            "id": "p-9a0e5b814dd6c3e3"
           }
         ]
       }

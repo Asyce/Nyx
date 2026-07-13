@@ -24,6 +24,10 @@
     "test:runtime-publisher": "node --test ./tools/tests/publish-runtime-data.test.mjs",
     "test:custom-timers": "node --test ./tools/tests/custom-timer-storage.test.mjs",
     "test:timeline": "node --test ./tools/tests/timeline-data.test.mjs",
+    "test:calendar": "node --test ./tools/tests/birthday-calendar.test.mjs",
+    "test:database-ui": "node --test ./tools/tests/database-ui.test.mjs",
+    "test:library": "node --test ./tools/tests/library-ui.test.mjs",
+    "test:library-annotations": "node --test ./tools/tests/library-annotations.test.mjs",
     "serve": "python -m http.server 5173 --bind 127.0.0.1 --directory .."
   },
   "dependencies": {

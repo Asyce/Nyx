@@ -4,10 +4,11 @@
   "id": "the-tale-of-shiruyeh-and-shirin",
   "name": "The Tale of Shiruyeh and Shirin",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/The_Tale_of_Shiruyeh_and_Shirin",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
@@ -39,7 +40,8 @@
                 "type": "text",
                 "text": "\"Anyway, little raven, do you know the meaning of the name \"Shiruyeh\"?\""
               }
-            ]
+            ],
+            "id": "p-f73a7a85bb5e3811"
           },
           {
             "type": "paragraph",
@@ -68,7 +70,8 @@
                 "type": "text",
                 "text": "\"In our tribe, 'Shiruyeh' is a disgraceful name branded only onto the foreheads of exiled chiefs and spoken only in curses and mockery. It's a tradition of ours... But I'm sure that the traditions of other tribes are not so different.\""
               }
-            ]
+            ],
+            "id": "p-509190a62325722e"
           },
           {
             "type": "paragraph",
@@ -97,7 +100,8 @@
                 "type": "text",
                 "text": "\"Now, actually... in the lost language, 'Shiruyeh' means 'unweaned lion cub'. His father Parvezravan gave this name to his newborn son, oblivious that he, the vassal king who referred to himself as the 'Spirit of Unceasing Victory,' would be torn apart by his own beloved 'lion cub'...\""
               }
-            ]
+            ],
+            "id": "p-849eb913f7fdb104"
           },
           {
             "type": "paragraph",
@@ -116,7 +120,8 @@
                 "type": "text",
                 "text": "\"As for this Parvezravan, legend has it that in the days when mortals ruled as vassal kings, he was one of the mightiest among them...\""
               }
-            ]
+            ],
+            "id": "p-260c00028b7fcd07"
           },
           {
             "type": "paragraph",
@@ -125,7 +130,8 @@
                 "type": "text",
                 "text": "\"Parvezravan was not, in fact, the original name of this vassal king. As the spirits tell it, he was an orphan who was raised in the nest of the giant bird Ghoghnus and given the name 'Kisra,' or 'one who has been bestowed a good name.' Later, his aspiration to greatness and the aid of this divine bird saw him adopted by the vassal king Ormazd Shah, and he would eventually rise to become a sage and hero among mortals."
               }
-            ]
+            ],
+            "id": "p-e727ea584d6aee20"
           },
           {
             "type": "paragraph",
@@ -134,7 +140,8 @@
                 "type": "text",
                 "text": "In the songs of the now-vanished desert people, Kisra plundered the four corners of the land in the name of his king, Ormazd Shah. By his hand, the bronze and mortar towers of ninety-nine cities were destroyed or abandoned. By his hand, the leaders of ninety-nine nomadic tribes were defeated. And by his hand, ninety-nine sages with knowledge of the order of the stars were bound in golden chains, then led back to the towering royal city of Gurabad to be imprisoned."
               }
-            ]
+            ],
+            "id": "p-f865c40af8312891"
           },
           {
             "type": "paragraph",
@@ -143,7 +150,8 @@
                 "type": "text",
                 "text": "At that time, the promised land of \"Valivija\" was engulfed by wild, gilded sands, and one of the three living gods had fallen. Amidst a century of chaos and confusion, the scattered mortals ensconced themselves in vassal states until my lord Al-Ahmar and the Sage-King of the Greenwood gathered their subjects. Once the oasis paradise was reconstructed, the age of the vassal kings, the age of division, finally came to a close."
               }
-            ]
+            ],
+            "id": "p-0b64d19bc31e3242"
           },
           {
             "type": "paragraph",
@@ -152,7 +160,8 @@
                 "type": "text",
                 "text": "Returning to our preceding tale, Ormazd's crown grew all the more valuable on the back of Kisra's exploits, until finally his own neck could no longer bear its weight, forcing him to leave it ever suspended from chains of pure gold in the center of the main hall."
               }
-            ]
+            ],
+            "id": "p-bda631c5ecbf2ba6"
           },
           {
             "type": "paragraph",
@@ -161,7 +170,8 @@
                 "type": "text",
                 "text": "The vassal king Ormazd Shah rewarded young Kisra's unrivaled achievements amply: He bestowed the name \"Parvez\" upon his adopted son and offered his daughter Shirin's hand to him in marriage. In the ethereal songs of the spirits, as the heir of both the mortal vassal king and the foremother Liloufar, she possessed superior wisdom and was blessed with an infinite lifespan and, like the original sages, could foresee the fortunes and misfortunes of the present moment."
               }
-            ]
+            ],
+            "id": "p-33f709f0b53850fd"
           },
           {
             "type": "paragraph",
@@ -170,7 +180,8 @@
                 "type": "text",
                 "text": "If Kisra Parvez had stopped there, his reputation as a hero would have continued unblemished. But one cursed day, Ormazd and all 300 of his offspring suddenly died in one night in the city of Gurabad. Following such an unthinkable event, the throne naturally fell to Kisra, who added \"Ravan\" to his title and became the most powerful vassal king among mortals."
               }
-            ]
+            ],
+            "id": "p-b2ac5d6054c0144b"
           },
           {
             "type": "paragraph",
@@ -179,7 +190,8 @@
                 "type": "text",
                 "text": "\"...\""
               }
-            ]
+            ],
+            "id": "p-436d9c194ad5c5c1"
           },
           {
             "type": "paragraph",
@@ -188,7 +200,8 @@
                 "type": "text",
                 "text": "The fairy abruptly stopped her tale and looked up at the red sun that was now sinking behind the sand dunes. She then whistled sharply, signaling to the youth to halt the Sumpter Beast and prepare to make camp for the night under the crumbling stone pillars."
               }
-            ]
+            ],
+            "id": "p-cc89452c12b58005"
           },
           {
             "type": "paragraph",
@@ -214,7 +227,8 @@
                 "type": "text",
                 "text": "Then, the fairy leaned over slightly, balancing on the tips of her toes as she laughed softly."
               }
-            ]
+            ],
+            "id": "p-7bf5e3a4643c0a28"
           },
           {
             "type": "paragraph",
@@ -253,7 +267,8 @@
                 "type": "text",
                 "text": "Later still, it is said that an adventurer found the ancient crypts of the city of Gurabad beneath the gilded sands, in which were hidden the withered, massive remains of Ormazd and his offspring, An ancient, inscrutable inscription was left on each of the shriveled bodies..."
               }
-            ]
+            ],
+            "id": "p-56833339d7720465"
           },
           {
             "type": "paragraph",
@@ -282,7 +297,8 @@
                 "type": "text",
                 "text": "The tribes of the desert regard water with an instinctive restraint and prudence. Spirits, however, are born of pure elemental energy and know neither thirst nor the satisfaction of the pleasure of luxury, just like the ancient princess Shirin in this lament."
               }
-            ]
+            ],
+            "id": "p-de5ed369f2377aef"
           },
           {
             "type": "paragraph",
@@ -301,13 +317,15 @@
                 "type": "text",
                 "text": "The fairy smiled slyly again, her eyes like an amalgam of amber and gold, her smiling face like the princess of her ancient homeland."
               }
-            ]
+            ],
+            "id": "p-f0281b6cf50de447"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
@@ -319,7 +337,8 @@
                 "type": "text",
                 "text": "At that time, the promised land of \"Valivija\" was engulfed by wild, gilded sands, and one of the three living gods had fallen. Amidst a century of chaos and confusion, the scattered mortals ensconced themselves in vassal states until my lord Al-Ahmar and the Sage-King of the Greenwood gathered their subjects. Once the oasis paradise was reconstructed, the age of the vassal kings, the age of division, finally came to a close."
               }
-            ]
+            ],
+            "id": "p-0b64d19bc31e3242"
           },
           {
             "type": "paragraph",
@@ -358,7 +377,8 @@
                 "type": "text",
                 "text": "\"The mortal mind is as fickle as it is forgetful. How should I know whether you were listening or not?\""
               }
-            ]
+            ],
+            "id": "p-f5a4952f3cb51ff2"
           },
           {
             "type": "paragraph",
@@ -387,7 +407,8 @@
                 "type": "text",
                 "text": "Then, Liloufar gave three admonitions to her mortal darling: First, that her joy would bring tears to her father's eyes. Second, that they should no longer feast at the same table as their daughter after she was wed, and third, that their daughter's heir would be an ill omen upon the king's land."
               }
-            ]
+            ],
+            "id": "p-8fff00f8e4562fe7"
           },
           {
             "type": "paragraph",
@@ -396,7 +417,8 @@
                 "type": "text",
                 "text": "The king, however, only smiled at these prophecies and admonitions."
               }
-            ]
+            ],
+            "id": "p-36874e2707e9e591"
           },
           {
             "type": "paragraph",
@@ -415,7 +437,8 @@
                 "type": "text",
                 "text": "The youth said, interrupting the spirit's story."
               }
-            ]
+            ],
+            "id": "p-3fb9eb11c285f6f2"
           },
           {
             "type": "paragraph",
@@ -434,7 +457,8 @@
                 "type": "text",
                 "text": "The spirit laid a finger on the tip of the youth's nose and the latter hurriedly moved away, his face flushed as if he feared she might put some ethereal, deathly curse on him. The spirit once again found herself amused by such an innocent act."
               }
-            ]
+            ],
+            "id": "p-3fe904e5a03d8699"
           },
           {
             "type": "paragraph",
@@ -443,7 +467,8 @@
                 "type": "text",
                 "text": "By the time Shirin grew a little older and more cognizant, the vision her mother laid out for her became a lingering curse. She spent her days awaiting her chance to fall in love with a hero, waiting for the day when she would inherit her father's kingdom, and longing for that sweet and perfect future — but it never came."
               }
-            ]
+            ],
+            "id": "p-745d5c977cb3532d"
           },
           {
             "type": "paragraph",
@@ -452,7 +477,8 @@
                 "type": "text",
                 "text": "Truth be told, Shirin's marriage to the hero Kisra was not a happy one — after all, mortal heroes are all warped people harboring the ambition to rule. The daughter of Liloufar carried the pride of the spirits, and thus she found the golden trap of the mortal hero's supposed affections hard to endure, and she found no peace between the bed and the hearth. And so at last, a vivid hatred coalesced from this passionless, dull, rotten life — the same hatred that those imprisoned in the silver bottle carry."
               }
-            ]
+            ],
+            "id": "p-d1b904220f211323"
           },
           {
             "type": "paragraph",
@@ -501,7 +527,8 @@
                 "type": "text",
                 "text": "And so, the second prophecy was fulfilled."
               }
-            ]
+            ],
+            "id": "p-eca7d6954c188481"
           },
           {
             "type": "paragraph",
@@ -520,7 +547,8 @@
                 "type": "text",
                 "text": "And so, Shirin once again found the perfect opportunity for revenge in the vassal king's unfettered fear."
               }
-            ]
+            ],
+            "id": "p-3fb261cd3f698e7d"
           },
           {
             "type": "paragraph",
@@ -559,7 +587,8 @@
                 "type": "text",
                 "text": "Seeing that familiar face, the young man who had been forced to cover his was instantly overcome with terror and shame. He fled the sullied temple in a panic, and laughter soft as the ringing of a bell and the cruel moonlight bore witness to his fear."
               }
-            ]
+            ],
+            "id": "p-4ad1adeb6b3a239b"
           },
           {
             "type": "paragraph",
@@ -578,7 +607,8 @@
                 "type": "text",
                 "text": "The dirge of the spirits then goes like this: After committing this crime of treason, Shiruyeh wept bitterly before his mother Shirin in repentance. But Shirin did not reprimand him. Rather she took her beloved son into her arms, removed the brass mask symbolizing his exile, and left him with an affectionate kiss of benediction."
               }
-            ]
+            ],
+            "id": "p-d2bdf8526005a96c"
           },
           {
             "type": "paragraph",
@@ -597,7 +627,8 @@
                 "type": "text",
                 "text": "The scattered survivors of this calamity called it \"Shiruyeh's Plague\" — the divine retribution invited by the absurdly short-lived despot himself."
               }
-            ]
+            ],
+            "id": "p-c341351ed56b2424"
           },
           {
             "type": "paragraph",
@@ -606,7 +637,8 @@
                 "type": "text",
                 "text": "As for his mother Shirin, Liloufar's third prophecy was indeed fulfilled — She and the heir she bore won true freedom in a kingdom ravaged by vengeance, and they became evil apparitions, death knells to the conceited."
               }
-            ]
+            ],
+            "id": "p-90ff793ae28d06ba"
           },
           {
             "type": "paragraph",
@@ -635,7 +667,8 @@
                 "type": "text",
                 "text": "At this time, the moon was already high in the sky, and the distant, ancient time when the desert had not yet become a desert was nigh. It was time for the divine princess to hold the sacrifice."
               }
-            ]
+            ],
+            "id": "p-58a88f188be5d086"
           }
         ]
       }

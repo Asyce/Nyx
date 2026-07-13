@@ -4,17 +4,19 @@
   "id": "hex-hound",
   "name": "Hex & Hound",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Hex_%26_Hound",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -53,7 +55,8 @@
                 "type": "text",
                 "text": "Although the common folk unanimously resent the nobles' greed, they are powerless to speak a single word against them."
               }
-            ]
+            ],
+            "id": "p-5e2c9c9fd6fe4885"
           },
           {
             "type": "paragraph",
@@ -92,7 +95,8 @@
                 "type": "text",
                 "text": "However, given that he was born into the Lawrence family name, it was only a matter of time before he would get drafted into the ranks of the other scoundrels."
               }
-            ]
+            ],
+            "id": "p-76254d7c82a120e5"
           },
           {
             "type": "paragraph",
@@ -141,7 +145,8 @@
                 "type": "text",
                 "text": "As Dietrich kept thinking in his heart, he suddenly found himself moving towards where she was standing."
               }
-            ]
+            ],
+            "id": "p-00999fa9e4b58706"
           },
           {
             "type": "paragraph",
@@ -160,7 +165,8 @@
                 "type": "text",
                 "text": "Convinced that this commoner didn't understand what was good for her, he decided that he would carry her off under the cover of night."
               }
-            ]
+            ],
+            "id": "p-a627a4a62174d4c8"
           },
           {
             "type": "paragraph",
@@ -169,20 +175,23 @@
                 "type": "text",
                 "text": "\"Once I take her, I'll lock her away in a cage, just like dear Mother would when her kitty is being naughty.\""
               }
-            ]
+            ],
+            "id": "p-6668405e52bb87eb"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -191,7 +200,8 @@
                 "type": "text",
                 "text": "The plebian lass arrived in the city on one fine sunny day. Her long golden hair shone like the spring sunshine, and her blue eyes sparkled like the gleaming waves in the afternoon sun. It's hard to imagine how such a girl could travel alone from the monster infested outskirts all the way to the city."
               }
-            ]
+            ],
+            "id": "p-1a7dfcd94adf01bc"
           },
           {
             "type": "paragraph",
@@ -280,7 +290,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-a46b1e6597a98614"
           },
           {
             "type": "paragraph",
@@ -309,7 +320,8 @@
                 "type": "text",
                 "text": "Apart from this, the new girl didn't disturb the lives if those in the city in any manner. After all, the people not only had their daily lives to deal with, but also the constant oppression from the nobility."
               }
-            ]
+            ],
+            "id": "p-55e80429949780c0"
           },
           {
             "type": "paragraph",
@@ -328,20 +340,23 @@
                 "type": "text",
                 "text": "As rays of sunset filled her room, she tilted her head and rested it on her hands. Sitting beside the table, her fingers seemed to be circling around something. Her words flowed like a magical chant with the power to persuade people into believing almost anything."
               }
-            ]
+            ],
+            "id": "p-220be21189af09aa"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "vol-3",
       "label": "Vol. 3",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -417,7 +432,8 @@
                 "type": "text",
                 "text": "Shortly after, the magic lamps went out and the entire room was draped in darkness."
               }
-            ]
+            ],
+            "id": "p-10cf86f6410a3364"
           },
           {
             "type": "paragraph",
@@ -456,7 +472,8 @@
                 "type": "text",
                 "text": "It became harder and harder for Nottie to hold back her laughter, until Dietrich was just in front of her."
               }
-            ]
+            ],
+            "id": "p-97e4d505c54eab61"
           },
           {
             "type": "paragraph",
@@ -475,7 +492,8 @@
                 "type": "text",
                 "text": "But her eyes were somehow different now. They were no longer blue like water as Dietrich had seen that day. At this moment, they were filled with the night, devoid of waves, tranquil like the depths of the sea."
               }
-            ]
+            ],
+            "id": "p-bb341834af388c26"
           },
           {
             "type": "paragraph",
@@ -494,20 +512,23 @@
                 "type": "text",
                 "text": "That was the last thing Dietrich heard before his consciousness faded away."
               }
-            ]
+            ],
+            "id": "p-56c985ba5cb74617"
           }
         ]
       }
     },
     {
       "id": "4",
+      "volumeKey": "vol-4",
       "label": "Vol. 4",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -536,7 +557,8 @@
                 "type": "text",
                 "text": "She stroked the hilt of the blade for a moment before pulling back her hand, and a black gemstone that had been inlaid in the hilt fell into her palm."
               }
-            ]
+            ],
+            "id": "p-8d38318bf7d864db"
           },
           {
             "type": "paragraph",
@@ -575,7 +597,8 @@
                 "type": "text",
                 "text": "Nottie extended her hand as the magical lamps illuminated the room, the python began to shrink down again and coiled back around her arm."
               }
-            ]
+            ],
+            "id": "p-f2574215fdf496e7"
           },
           {
             "type": "paragraph",
@@ -624,7 +647,8 @@
                 "type": "text",
                 "text": "It was trembling uncontrollably, probably frightened by the python a moment before."
               }
-            ]
+            ],
+            "id": "p-4fd5738e5ab255fe"
           },
           {
             "type": "paragraph",
@@ -643,7 +667,8 @@
                 "type": "text",
                 "text": "Although Nottie's words seemed to be apologizing, her voice lacked any hint of remorse."
               }
-            ]
+            ],
+            "id": "p-ae8ee25457a2a316"
           },
           {
             "type": "paragraph",
@@ -672,7 +697,8 @@
                 "type": "text",
                 "text": "After hearing himself, Dietrich panicked and dashed out from under the bed."
               }
-            ]
+            ],
+            "id": "p-ebbebea50210756e"
           },
           {
             "type": "paragraph",
@@ -691,7 +717,8 @@
                 "type": "text",
                 "text": "Dietrich then turned with a snarl and leaped towards Nottie. Without even being the least bit startled, she simply glanced at him with folded arms. Suddenly Dietrich could no longer move toward her, no matter how hard he tried."
               }
-            ]
+            ],
+            "id": "p-91ebddea83e62649"
           },
           {
             "type": "paragraph",
@@ -700,20 +727,23 @@
                 "type": "text",
                 "text": "\"That's not the proper etiquette for addressing a lady. Hmm... It seems you need to be trained!\""
               }
-            ]
+            ],
+            "id": "p-32d29ab935eb198b"
           }
         ]
       }
     },
     {
       "id": "5",
+      "volumeKey": "vol-5",
       "label": "Vol. 5",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -739,7 +769,8 @@
                 "type": "text",
                 "text": "Her once sky-blue eyes were now pitch-black, ushering in the darkness of night."
               }
-            ]
+            ],
+            "id": "p-6210ab82e9b9e051"
           },
           {
             "type": "paragraph",
@@ -758,7 +789,8 @@
                 "type": "text",
                 "text": "Nottfriga knelt down and placed a necklace that seemingly appeared out of nowhere on the still struggling Dietrich. The necklace shrank in size until it fit perfectly around his furry neck. No matter how he thrashed head about or clawed at it, the necklace would not budge."
               }
-            ]
+            ],
+            "id": "p-587cd3c6a9435576"
           },
           {
             "type": "paragraph",
@@ -777,7 +809,8 @@
                 "type": "text",
                 "text": "With that, Nottfriga set off towards the city. Dietrich whimpered along the way with all the strength he could muster, wishing he could simply run back to his villa. But he couldn't, no matter how hard he tried. The necklace Nottfriga had placed on him seemed to control him, so he had no choice but to follow behind her."
               }
-            ]
+            ],
+            "id": "p-f78ff1e5cd6a8483"
           },
           {
             "type": "paragraph",
@@ -806,20 +839,23 @@
                 "type": "text",
                 "text": "The whole world seemed to fall into silence at that moment. Intuition told Dietrich that it'd be best not to become the latest test subject for Nottfriga's new spell."
               }
-            ]
+            ],
+            "id": "p-373d002344e4678a"
           }
         ]
       }
     },
     {
       "id": "6",
+      "volumeKey": "vol-6",
       "label": "Vol. 6",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -838,7 +874,8 @@
                 "type": "text",
                 "text": "Who knew where Mother's kitty had gone. His father, driven to distraction, and his mother, hysterical, were so close by, and yet no matter how he shouted, they did not pay him any heed."
               }
-            ]
+            ],
+            "id": "p-0320463a4d3087d4"
           },
           {
             "type": "paragraph",
@@ -867,7 +904,8 @@
                 "type": "text",
                 "text": "Strangely, it hurt not at all."
               }
-            ]
+            ],
+            "id": "p-474f99c7f99bcb28"
           },
           {
             "type": "paragraph",
@@ -899,7 +937,8 @@
                 "type": "text",
                 "text": "Into his ear crept Nottfriga's voice: \"Ah, I have you now, my last ingredient. Once I've put you in, my stew of life eternal shall be complete. Hahaha!\""
               }
-            ]
+            ],
+            "id": "p-60bb2e9c33417949"
           },
           {
             "type": "paragraph",
@@ -951,20 +990,23 @@
                 "type": "text",
                 "text": "He heard nothing more, naught else but the howling wind and Nottfriga's crazed laughter whipping about his ears."
               }
-            ]
+            ],
+            "id": "p-0e0de488faa38fa9"
           }
         ]
       }
     },
     {
       "id": "7",
+      "volumeKey": "vol-7",
       "label": "Vol. 7",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -1023,7 +1065,8 @@
                 "type": "text",
                 "text": "Gentle as the April breeze, and genial as the March sun."
               }
-            ]
+            ],
+            "id": "p-cad5ad3b82886202"
           },
           {
             "type": "paragraph",
@@ -1052,7 +1095,8 @@
                 "type": "text",
                 "text": "\"Ah, wonderful, you're finally awake,\" she said with a smile."
               }
-            ]
+            ],
+            "id": "p-c8b2a64bf1b57873"
           },
           {
             "type": "paragraph",
@@ -1081,7 +1125,8 @@
                 "type": "text",
                 "text": "Then Dietrich's senses returned to him, and he knew then the young lady before him was the source of all his troubles — the wicked old witch, Nottfriga! In a flash, he had recovered, and leaping a distance away from her he maintained a guarded stance."
               }
-            ]
+            ],
+            "id": "p-950a6f528892fdc5"
           },
           {
             "type": "paragraph",
@@ -1100,7 +1145,8 @@
                 "type": "text",
                 "text": "\"Come now, it's alright.\""
               }
-            ]
+            ],
+            "id": "p-ea11c2df30736aea"
           },
           {
             "type": "paragraph",
@@ -1149,20 +1195,23 @@
                 "type": "text",
                 "text": "\"...\""
               }
-            ]
+            ],
+            "id": "p-51419deef1097929"
           }
         ]
       }
     },
     {
       "id": "8",
+      "volumeKey": "vol-8",
       "label": "Vol. 8",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -1211,7 +1260,8 @@
                 "type": "text",
                 "text": "\"Ah... But. It. Is. Too. Late. Now.\""
               }
-            ]
+            ],
+            "id": "p-9f75247b28ed8592"
           },
           {
             "type": "paragraph",
@@ -1270,7 +1320,8 @@
                 "type": "text",
                 "text": "\"well then, I suppose I shall leave the Essence of the Inmost Heart inside you.\""
               }
-            ]
+            ],
+            "id": "p-a77ce8e5ae8e0d1c"
           },
           {
             "type": "paragraph",
@@ -1339,20 +1390,23 @@
                 "type": "text",
                 "text": "\"Hah, it seems that my teachings have been quite useful indeed. Well then, let us be on our way.\" Dietrich's frightened appearance pleased his master, the witch."
               }
-            ]
+            ],
+            "id": "p-310f16e4498d99b5"
           }
         ]
       }
     },
     {
       "id": "9",
+      "volumeKey": "vol-9",
       "label": "Vol. 9",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -1361,7 +1415,8 @@
                 "type": "text",
                 "text": "At this moment, Magdalene was clutching a dog — indeed, this was Dietrich — as she kept up a leisurely pace. The golden-haired maiden traipsed upon the gnarled roots of massive trees like an elegant swan, lithely making her way through the woods."
               }
-            ]
+            ],
+            "id": "p-1b2374acee21ff66"
           },
           {
             "type": "paragraph",
@@ -1370,7 +1425,8 @@
                 "type": "text",
                 "text": "\"How fortunate that she is currently Magdalene. If it were that hag Nottfriga, she would certainly make me walk or use some sort of magic to force me to run. This path is not made for dogs — no, not even humans could traverse it. There isn't even a road, only trees... Ah, it would be nice if Magdalene could keep carrying me like this...\" Dietrich's thoughts meandered as he turned to look at Magdalene."
               }
-            ]
+            ],
+            "id": "p-0d340aa718feb486"
           },
           {
             "type": "paragraph",
@@ -1386,7 +1442,8 @@
                 "type": "text",
                 "text": "\"Magdalene's skin is so fair... I daresay none of the nobles I've met can compare to her,\" Dietrich thought as he gazed upon the girl."
               }
-            ]
+            ],
+            "id": "p-d06682ccf415f39d"
           },
           {
             "type": "paragraph",
@@ -1395,20 +1452,23 @@
                 "type": "text",
                 "text": "\"Let me tell you a story. That is, I'm already dead,\" Magdalene suddenly spoke."
               }
-            ]
+            ],
+            "id": "p-0f2f77b109d6d248"
           }
         ]
       }
     },
     {
       "id": "10",
+      "volumeKey": "vol-10",
       "label": "Vol. 10",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -1437,7 +1497,8 @@
                 "type": "text",
                 "text": "But this witch had already reached the apex of mastery in dark magic. She offered her own life force to preserve the life of her twins."
               }
-            ]
+            ],
+            "id": "p-a91885bbd4adbac5"
           },
           {
             "type": "paragraph",
@@ -1486,7 +1547,8 @@
                 "type": "text",
                 "text": "Nevertheless, Nottfriga's insistence on bringing Magdalene back spurred her on, and eventually she found a solution. She transformed the vessel into a serpent bracelet that she wore on her wrist, and set out on an adventure."
               }
-            ]
+            ],
+            "id": "p-2e7a6373d7021c1a"
           },
           {
             "type": "paragraph",
@@ -1495,20 +1557,23 @@
                 "type": "text",
                 "text": "\"My beloved sister, when this is all over, we will never be apart again...\""
               }
-            ]
+            ],
+            "id": "p-2ddbf68bca32236a"
           }
         ]
       }
     },
     {
       "id": "11",
+      "volumeKey": "vol-11",
       "label": "Vol. 11",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -1607,7 +1672,8 @@
                 "type": "text",
                 "text": "Dietrich opened his mouth instinctively to say something."
               }
-            ]
+            ],
+            "id": "p-ed555f5f9ae38426"
           },
           {
             "type": "paragraph",
@@ -1616,7 +1682,8 @@
                 "type": "text",
                 "text": "\"Bite down on it if you want to live.\" Nottfriga raised one hand into the air, and Dietrich felt unable to breathe as the collar around his neck grew tighter and tighter. Powerless to resist, it was all he could do to bite down as instructed."
               }
-            ]
+            ],
+            "id": "p-e90e3ffeb29d56f6"
           },
           {
             "type": "paragraph",
@@ -1625,7 +1692,8 @@
                 "type": "text",
                 "text": "\"Listen carefully. In a moment, you will need to defend yourself with this sword. Even though you're an ignorant and useless spoiled brat, it would still be a lot of trouble for me if you died here.\" Nottfriga raised Dietrich's head and spoke in a low voice. \"After all, I haven't finished teaching you a lesson yet. It would ruin my fun if you died too easily.\" The witch of the night finished speaking, and retracted her hand to adjust her garments. The collar loosened again, returning to normal tightness. At once, air rushed passed his teeth and in through his nostrils, filling up his lungs again. Dietrich still did not dare relax his jaw's grip on the sword, however, so he had to make do with somewhat impaired breathing."
               }
-            ]
+            ],
+            "id": "p-1956d8e58e611cb5"
           },
           {
             "type": "paragraph",
@@ -1634,7 +1702,8 @@
                 "type": "text",
                 "text": "Before long, the sound of commotion was heard in the distance..."
               }
-            ]
+            ],
+            "id": "p-85b5513b6ada5338"
           }
         ]
       }

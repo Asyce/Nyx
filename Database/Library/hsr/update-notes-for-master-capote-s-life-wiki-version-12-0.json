@@ -4,10 +4,11 @@
   "id": "update-notes-for-master-capote-s-life-wiki-version-12-0",
   "name": "Update Notes for Master Capote's Life Wiki Version 12.0",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Update_Notes_for_Master_Capote%27s_Life_Wiki_Version_12.0",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -26,7 +27,8 @@
                 "type": "text",
                 "text": "Capote: Come on, Captain Arlan. You have to get into the role."
               }
-            ]
+            ],
+            "id": "p-3cacdca2da9c0751"
           },
           {
             "type": "paragraph",
@@ -35,7 +37,8 @@
                 "type": "text",
                 "text": "Arlan: I'm sorry, professor. I just can't think of you as an... an overbearing boss."
               }
-            ]
+            ],
+            "id": "p-fd8995c9535a831d"
           },
           {
             "type": "paragraph",
@@ -44,7 +47,8 @@
                 "type": "text",
                 "text": "Capote: Close your eyes and try to feel it. After all, this is your trial of the heart! Listen to my instructions and let's try again..."
               }
-            ]
+            ],
+            "id": "p-a33ead7522cbe938"
           },
           {
             "type": "paragraph",
@@ -53,7 +57,8 @@
                 "type": "text",
                 "text": "Capote: Ahem... Arlan! Come to my office! Time waits for no one, and every minute of my time is precious."
               }
-            ]
+            ],
+            "id": "p-0ff32e645e89c727"
           },
           {
             "type": "paragraph",
@@ -62,7 +67,8 @@
                 "type": "text",
                 "text": "Arlan: Y—Yes sir! Okay, I'm coming over right away."
               }
-            ]
+            ],
+            "id": "p-b3edf6bd00453213"
           },
           {
             "type": "paragraph",
@@ -71,7 +77,8 @@
                 "type": "text",
                 "text": "Capote: Wrong! Biiiig mistake! Captain Arlan, you can't just be so submissive. If you were tasked with something beyond your scope of work, would you also take off immediately like you just did?"
               }
-            ]
+            ],
+            "id": "p-8a229c4be49a4c74"
           },
           {
             "type": "paragraph",
@@ -80,7 +87,8 @@
                 "type": "text",
                 "text": "Arlan: I..."
               }
-            ]
+            ],
+            "id": "p-8d454979325cf3ad"
           },
           {
             "type": "paragraph",
@@ -89,7 +97,8 @@
                 "type": "text",
                 "text": "Capote: Oh dear! If you want to learn how to handle an overbearing boss, it looks like your heart is going to have to put in some serious training!"
               }
-            ]
+            ],
+            "id": "p-62c6fa66656500e2"
           }
         ]
       }

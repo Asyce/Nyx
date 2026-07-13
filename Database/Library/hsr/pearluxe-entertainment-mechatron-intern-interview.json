@@ -4,17 +4,19 @@
   "id": "pearluxe-entertainment-mechatron-intern-interview",
   "name": "Pearluxe Entertainment Mechatron Intern Interview",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Pearluxe_Entertainment_Mechatron_Intern_Interview",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -23,7 +25,8 @@
                 "type": "text",
                 "text": "It's recruiting season once more! To help our departments better welcome new talent, we're shifting the spotlight to our frontline and hearing from a mechatron intern. Let's see what his experience at Pearluxe Entertainment added to his life journey."
               }
-            ]
+            ],
+            "id": "p-67dcfe6ab8efdda6"
           },
           {
             "type": "paragraph",
@@ -39,7 +42,8 @@
                 "type": "text",
                 "text": "Intern: Wait, you mean the in-house newsletter that everyone at the corp reads!? Oh my gosh, I'm so lucky! CEO Pearl herself might actually see this!"
               }
-            ]
+            ],
+            "id": "p-6ad557918589ab7b"
           },
           {
             "type": "paragraph",
@@ -55,7 +59,8 @@
                 "type": "text",
                 "text": "Intern: Sure thing! My name's Jettstar, model Courier Type-B. I'm currently interning with the E-Commerce Department's Delivery Division."
               }
-            ]
+            ],
+            "id": "p-0be2ec50cdbb15f7"
           },
           {
             "type": "paragraph",
@@ -71,7 +76,8 @@
                 "type": "text",
                 "text": "Intern: Choose? Why would I need to choose? Don't we mechatrons get assigned jobs straight off the assembly line? Like, courier-types handle deliveries, combat-types handle security, and intelligence-types handle management. Though, I actually did consider going back to school for a bit and figured I might land a cushy office job that way. But the IPC's \"student loan\" interest rates were just too... well, you know. Mechatrons already roll off the production line buried under a mountain of \"Birth Loan,\" so I thought about it and decided to just start working right away."
               }
-            ]
+            ],
+            "id": "p-87f66f273da7194f"
           },
           {
             "type": "paragraph",
@@ -87,7 +93,8 @@
                 "type": "text",
                 "text": "Intern: Absolutely! Our team handles all online orders. Our motto: \"Our soles wear out, not your patience.\""
               }
-            ]
+            ],
+            "id": "p-16b77a20dced793f"
           },
           {
             "type": "paragraph",
@@ -103,7 +110,8 @@
                 "type": "text",
                 "text": "Intern: Yeah, it was rough during the annual sale season. Serious crunch time, you know? But things are way easier now. I only have to put in 14-hour days, and I even manage to sneak in some slack-off time. Wait... please leave that last bit out!"
               }
-            ]
+            ],
+            "id": "p-f2a23a443a07db8d"
           },
           {
             "type": "paragraph",
@@ -119,7 +127,8 @@
                 "type": "text",
                 "text": "Intern: Whoa, whoa! Don't get me in trouble here. I signed an NDA about compensation! Anyway, my team leader always says young mechatrons like us should focus on experience, not salary. Gotta build up that resume first."
               }
-            ]
+            ],
+            "id": "p-d1db7fac27127725"
           },
           {
             "type": "paragraph",
@@ -135,7 +144,8 @@
                 "type": "text",
                 "text": "Intern: Oh, he's been fantastic. He really values me, so to boost my full-time chances, he makes sure I get the heaviest, most urgent deliveries. And as a bonus, he'll even buy me a machine oil milk tea afterward sometimes."
               }
-            ]
+            ],
+            "id": "p-bc05fddfb7501f97"
           },
           {
             "type": "paragraph",
@@ -158,7 +168,8 @@
                 "type": "text",
                 "text": "Reporter: Uh... that's a pretty unique request. Maybe take it up with your team leader in private?"
               }
-            ]
+            ],
+            "id": "p-b3d05586ba00261b"
           },
           {
             "type": "paragraph",
@@ -174,7 +185,8 @@
                 "type": "text",
                 "text": "Intern: Oh no! I totally lost track of time talking to you. My delivery's about to time out, and I can't afford another pay cut. Gotta run, bye!"
               }
-            ]
+            ],
+            "id": "p-b304195051a82d22"
           }
         ]
       }

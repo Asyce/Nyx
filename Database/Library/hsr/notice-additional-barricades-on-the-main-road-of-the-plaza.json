@@ -4,17 +4,19 @@
   "id": "notice-additional-barricades-on-the-main-road-of-the-plaza",
   "name": "Notice: Additional Barricades on the Main Road of the Plaza",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Notice:_Additional_Barricades_on_the_Main_Road_of_the_Plaza",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -23,7 +25,8 @@
                 "type": "text",
                 "text": "Due to the accelerated corrosion of the Fragmentum around Rivet Town and the increased activity of the Fragmentum monsters, barricades will be set up at the main road on the northern side of Rivet Town Plaza in order to prevent monsters from invading the center of Rivet Town and causing personal and property damage. Removal time is to be determined. Security measures at the northern entrance and exit of the business street will also be strengthened."
               }
-            ]
+            ],
+            "id": "p-f485b637272bf67f"
           },
           {
             "type": "paragraph",
@@ -32,7 +35,8 @@
                 "type": "text",
                 "text": "After the barricade is set up, the Rivet Town Orphanage will be temporarily ceasing operation. Related orphanage staff have already started arranging for foster families to take in the children, and the main orphanage operations will be moved to Boulder Town for the time being. On a related note, denizens are discouraged from traveling across, toward, or through the vicinity of the orphanage, or otherwise encouraged take a detour through the business street and be safe."
               }
-            ]
+            ],
+            "id": "p-7595c3351105c48d"
           },
           {
             "type": "paragraph",
@@ -41,7 +45,8 @@
                 "type": "text",
                 "text": "We wish you all the best."
               }
-            ]
+            ],
+            "id": "p-b48a613902e8ecba"
           },
           {
             "type": "paragraph",
@@ -57,7 +62,8 @@
                 "type": "text",
                 "text": "April 23, 694 AF"
               }
-            ]
+            ],
+            "id": "p-e98776eafde413a7"
           }
         ]
       }

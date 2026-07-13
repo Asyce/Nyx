@@ -4,10 +4,11 @@
   "id": "wishbae-and-credit-exchange-agreement",
   "name": "Wishbae and Credit Exchange Agreement",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Wishbae_and_Credit_Exchange_Agreement",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -26,7 +27,8 @@
                 "type": "text",
                 "text": "Fourth revision on December 3, Arcadian Calendar 1993"
               }
-            ]
+            ],
+            "id": "p-7d1461ad9c685ab2"
           },
           {
             "type": "paragraph",
@@ -75,7 +77,8 @@
                 "type": "text",
                 "text": "(5) The Planarcadia Council reaffirms the maintenance of all legal statuses of credits as a universal currency within the Cosmos."
               }
-            ]
+            ],
+            "id": "p-70f9de8b31a5a5c6"
           },
           {
             "type": "paragraph",
@@ -124,7 +127,8 @@
                 "type": "text",
                 "text": "(2) The Interastral Peace Corporation and the Planarcadia Council jointly confirm that if technology capable of rendering the total supply of Wishbae infinite emerges in the future, this exchange agreement shall become void immediately upon mutual confirmation of this new fact by both parties."
               }
-            ]
+            ],
+            "id": "p-b2a54b4a2e2f220b"
           },
           {
             "type": "paragraph",
@@ -187,7 +191,8 @@
                 "type": "text",
                 "text": "Given that the credits issued by the Interastral Peace Corporation already hold both legal and substantive status as a universal currency within the galaxy, the Planarcadia Council shall have the obligation to maintain a stable exchange rate between Wishbae and credits, avoiding manipulation of this exchange relationship for improper gain. The specific methods for the council to fulfill this obligation shall be determined by Annex II of this agreement."
               }
-            ]
+            ],
+            "id": "p-7cd14ee3315b3147"
           },
           {
             "type": "paragraph",
@@ -219,7 +224,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-11c774fc5ecd9729"
           },
           {
             "type": "paragraph",
@@ -228,7 +234,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           }
         ]
       }

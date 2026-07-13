@@ -4,10 +4,11 @@
   "id": "recipe-crystal-lizard-satay",
   "name": "Recipe: Crystal Lizard Satay",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Recipe:_Crystal_Lizard_Satay",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-d8512db8ed9a22ee"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "(I)"
               }
-            ]
+            ],
+            "id": "p-a9aeb48d4f2752e7"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "Hey man, I heard the soil where you guys would go to excavate this time is a little loose. Be careful out there, I think it's a little too dangerous."
               }
-            ]
+            ],
+            "id": "p-b96c8dde25705993"
           },
           {
             "type": "paragraph",
@@ -51,7 +55,8 @@
                 "type": "text",
                 "text": "Take my word and think it over. It's better to not go than to be swindled by the salary promised by the supervisor. No amount of money would be worth it if you're end up buried under the rubble."
               }
-            ]
+            ],
+            "id": "p-e772337d297bc4ea"
           },
           {
             "type": "paragraph",
@@ -60,7 +65,8 @@
                 "type": "text",
                 "text": "But you're not listen, I know you too well. Being that it's a new site, I bet the emergency shelter's not even ready yet, let alone the air filtration and oxygen systems. Be a little more prepared and bring extra rations with you."
               }
-            ]
+            ],
+            "id": "p-63ea590cc465bbc5"
           },
           {
             "type": "paragraph",
@@ -69,7 +75,8 @@
                 "type": "text",
                 "text": "We grew up together, so you will listen to me on this, right?"
               }
-            ]
+            ],
+            "id": "p-3b309eb9aec6db69"
           },
           {
             "type": "paragraph",
@@ -78,7 +85,8 @@
                 "type": "text",
                 "text": "(II)"
               }
-            ]
+            ],
+            "id": "p-68b2ec6906e06b8d"
           },
           {
             "type": "paragraph",
@@ -87,7 +95,8 @@
                 "type": "text",
                 "text": "I can't even begin to express my thanks, my friend!"
               }
-            ]
+            ],
+            "id": "p-d89f37c343421290"
           },
           {
             "type": "paragraph",
@@ -96,7 +105,8 @@
                 "type": "text",
                 "text": "It's because of your reminder that I brought a few extra biscuits with me. No one expected the mine to actually collapse, and when it did, the people responsible for building the support structures all ran off. In return for keeping this incident a secret, the supervisor offered me a sizable compensation."
               }
-            ]
+            ],
+            "id": "p-2bf01de8e4637628"
           },
           {
             "type": "paragraph",
@@ -105,7 +115,8 @@
                 "type": "text",
                 "text": "Let me tell you what happened."
               }
-            ]
+            ],
+            "id": "p-389d27a93e356e88"
           },
           {
             "type": "paragraph",
@@ -114,7 +125,8 @@
                 "type": "text",
                 "text": "We miners have an eye for this kind of thing. Our temporary bunker was reinforced with more layers. We weren't too far from the bunker when the tunnel collapsed. Except for one man whose leg was crushed, most of us were lucky."
               }
-            ]
+            ],
+            "id": "p-4d96298b8842d7f0"
           },
           {
             "type": "paragraph",
@@ -123,7 +135,8 @@
                 "type": "text",
                 "text": "The best preparation for a mining accident is not to have one at all. Preparing extra biscuits won't do anything. We hadn't been rescued yet, and our rations were already gone."
               }
-            ]
+            ],
+            "id": "p-137e8fea244cab76"
           },
           {
             "type": "paragraph",
@@ -132,7 +145,8 @@
                 "type": "text",
                 "text": "But, we needed to think of a way to survive. One of our team members caught seven or eight Crystal Lizards somewhere. We had no choice but to eat them. I've never eaten them before, but they say it's like chewing a pair of boots that the supervisor had been wearing for 18 years."
               }
-            ]
+            ],
+            "id": "p-80d91e0a1e98682e"
           },
           {
             "type": "paragraph",
@@ -141,7 +155,8 @@
                 "type": "text",
                 "text": "But we had to survive."
               }
-            ]
+            ],
+            "id": "p-39467a8e8c228947"
           },
           {
             "type": "paragraph",
@@ -150,7 +165,8 @@
                 "type": "text",
                 "text": "We managed to come up with a recipe, which turned out to be pretty good. Here's the recipe for ."
               }
-            ]
+            ],
+            "id": "p-6db4954f5da1a17a"
           },
           {
             "type": "paragraph",
@@ -194,7 +210,8 @@
                 "type": "text",
                 "text": "Meat from 7 Crystalline Lizards. Be sure to clean all the crystals from the meat, otherwise they'll hurt your teeth badly."
               }
-            ]
+            ],
+            "id": "p-5575191ede7bb375"
           },
           {
             "type": "paragraph",
@@ -203,7 +220,8 @@
                 "type": "text",
                 "text": "Mix the spices, seasoning, and bread crumbs then marinate the lizard meat in the mixture. Try to avoid the lizard fluids, or else it'll end up tasting like medicine. That bad taste comes from the secretion."
               }
-            ]
+            ],
+            "id": "p-ad602d6e8399705e"
           },
           {
             "type": "paragraph",
@@ -212,7 +230,8 @@
                 "type": "text",
                 "text": "Then just wait until the next day and the marinated meat will become softer, or it'll really be like chewing shoes' rubber."
               }
-            ]
+            ],
+            "id": "p-1d4965e37a4222cf"
           },
           {
             "type": "paragraph",
@@ -221,7 +240,8 @@
                 "type": "text",
                 "text": "Next, cut a few wooden sticks from the extra wooden frames in advance. Soak the sticks in the underground water and skewer the meat. A buddy found some candied mushrooms, so we added those in between the meat for extra flavor."
               }
-            ]
+            ],
+            "id": "p-5920ae6d72aefe45"
           },
           {
             "type": "paragraph",
@@ -230,7 +250,8 @@
                 "type": "text",
                 "text": "Finally, sprinkle some salt and chili powder gently onto the meat several times as it's grilling."
               }
-            ]
+            ],
+            "id": "p-b1733f2ec49d72a3"
           },
           {
             "type": "paragraph",
@@ -239,7 +260,8 @@
                 "type": "text",
                 "text": "No matter how bad the meat tastes, you can swallow it as long as you have salt and chili powder."
               }
-            ]
+            ],
+            "id": "p-c4a0f0f33b13e4e4"
           },
           {
             "type": "paragraph",
@@ -248,7 +270,8 @@
                 "type": "text",
                 "text": "The funniest thing is we were about to eat when the rescue team dug out the rescue tunnel. \"We were trying to rescue you as soon as possible, and you're here eating satay!\""
               }
-            ]
+            ],
+            "id": "p-617f93554379cc02"
           },
           {
             "type": "paragraph",
@@ -257,7 +280,8 @@
                 "type": "text",
                 "text": "Try it when you have the chance. Surprisingly, it was barely edible."
               }
-            ]
+            ],
+            "id": "p-2c4b29a49e177360"
           },
           {
             "type": "paragraph",
@@ -266,7 +290,8 @@
                 "type": "text",
                 "text": "(III)"
               }
-            ]
+            ],
+            "id": "p-75032c94b5a8dd19"
           },
           {
             "type": "paragraph",
@@ -275,7 +300,8 @@
                 "type": "text",
                 "text": "I'm glad to hear you survived, my friend."
               }
-            ]
+            ],
+            "id": "p-a07131bc8c5d0f7a"
           },
           {
             "type": "paragraph",
@@ -284,7 +310,8 @@
                 "type": "text",
                 "text": "I admire you for being so optimistic when you were trapped down there for so long."
               }
-            ]
+            ],
+            "id": "p-5b20253daa01d78a"
           },
           {
             "type": "paragraph",
@@ -293,7 +320,8 @@
                 "type": "text",
                 "text": "I tried that Crystal Lizard recipe you gave me. That taste... are you trying to kill me?"
               }
-            ]
+            ],
+            "id": "p-b8011c6fd30103fa"
           },
           {
             "type": "paragraph",
@@ -302,7 +330,8 @@
                 "type": "text",
                 "text": "When you have the time, go find Natasha. There's something wrong with your taste buds."
               }
-            ]
+            ],
+            "id": "p-18d8d893debc20d9"
           },
           {
             "type": "paragraph",
@@ -311,7 +340,8 @@
                 "type": "text",
                 "text": "We grew up together, so you will listen to me on this, right?"
               }
-            ]
+            ],
+            "id": "p-3b309eb9aec6db69-2"
           }
         ]
       }

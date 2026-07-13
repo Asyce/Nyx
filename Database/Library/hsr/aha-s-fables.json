@@ -4,10 +4,11 @@
   "id": "aha-s-fables",
   "name": "Aha's Fables",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Aha%27s_Fables",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-8a049bdeebc8321c"
           },
           {
             "type": "paragraph",
@@ -38,7 +40,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ae94ca0d0b62b0ad"
           },
           {
             "type": "paragraph",
@@ -47,7 +50,8 @@
                 "type": "text",
                 "text": "Aha wandered the desert for nine days and nights, hollow with hunger and parched with thirst. Suddenly, THEY encountered a great serpent. Aha said to the beast, \"O Great Snake, if you give me but a single drop of water, I will grant you anything your heart desires.\""
               }
-            ]
+            ],
+            "id": "p-4d314b1f8778d821"
           },
           {
             "type": "paragraph",
@@ -56,7 +60,8 @@
                 "type": "text",
                 "text": "The serpent bit through its own scales, offering its blood to quench Aha's thirst. Though THEIR belly was full, Aha found the serpent so delicious that THEY lunged at the creature to slay it. The snake hissed in fury, \"Ungrateful wretch! Your hunger is gone, yet you still crave the taste. Since your greed is bottomless, you shall never taste food again!\""
               }
-            ]
+            ],
+            "id": "p-e7b52129fc9f31fd"
           },
           {
             "type": "paragraph",
@@ -65,7 +70,8 @@
                 "type": "text",
                 "text": "The serpent demanded THEIR promise be honored and swallowed Aha's head in a single gulp. Having no mouth, Aha could never eat again, left only to savor that final \"aftertaste\" for all eternity. This is how the saying \"What a shame for Aha\" came to be."
               }
-            ]
+            ],
+            "id": "p-1315d8ddf9d0905d"
           },
           {
             "type": "paragraph",
@@ -79,7 +85,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-a8a4d497a050f5fa"
           },
           {
             "type": "paragraph",
@@ -88,7 +95,8 @@
                 "type": "text",
                 "text": "Thus have I heard. Once, a young page named Vragi sought an audience with the Everlasting Glee. He bowed low and asked, \"How does one achieve a true state of Elation?\""
               }
-            ]
+            ],
+            "id": "p-e8854a7ef27ad41f"
           },
           {
             "type": "paragraph",
@@ -137,7 +145,8 @@
                 "type": "text",
                 "text": "Tell me, child, what is it you truly seek?"
               }
-            ]
+            ],
+            "id": "p-a365d1ac9df83f37"
           },
           {
             "type": "paragraph",
@@ -146,7 +155,8 @@
                 "type": "text",
                 "text": "Vragi replied, \"My only wish is to find true Elation.\""
               }
-            ]
+            ],
+            "id": "p-bc833a62a4ce9a29"
           },
           {
             "type": "paragraph",
@@ -155,7 +165,8 @@
                 "type": "text",
                 "text": "The Everlasting Glee said, \"Bless your heart! Every living thing is born with joy in its every breath. It is inherent and complete within yourself. Why look for it elsewhere?\""
               }
-            ]
+            ],
+            "id": "p-94aa48eb04f43604"
           },
           {
             "type": "paragraph",
@@ -164,7 +175,8 @@
                 "type": "text",
                 "text": "Vragi was deeply perplexed. He asked again, \"If that is so, how does one keep their heart in a state of true Elation?\""
               }
-            ]
+            ],
+            "id": "p-93ff58e1049dfc5e"
           },
           {
             "type": "paragraph",
@@ -173,7 +185,8 @@
                 "type": "text",
                 "text": "The Everlasting Glee raised a golden chalice, drained the divine nectar, and with a thunderous glare, shouted, \"Hah! Just laugh!\""
               }
-            ]
+            ],
+            "id": "p-ea32ff71f922d8f2"
           },
           {
             "type": "paragraph",
@@ -182,7 +195,8 @@
                 "type": "text",
                 "text": "At those words, Vragi's heart was set free. He burst into a magnificent, ringing laugh that shook the very air."
               }
-            ]
+            ],
+            "id": "p-ce52b8ce5eb1041c"
           },
           {
             "type": "paragraph",
@@ -191,7 +205,8 @@
                 "type": "text",
                 "text": "The Everlasting Glee joined in with THEIR own booming laughter and said, \"There! You've made it!\""
               }
-            ]
+            ],
+            "id": "p-51b861f334fe966f"
           },
           {
             "type": "paragraph",
@@ -200,7 +215,8 @@
                 "type": "text",
                 "text": "Their laughter pierced the heavens and echoed through the stars, ringing out for a hundred days without ceasing. Everyone who heard it, from the wizened elders to the smallest babes, found themselves smiling, their hearts brimming with pure joy."
               }
-            ]
+            ],
+            "id": "p-d11c048c2e119387"
           },
           {
             "type": "paragraph",
@@ -214,7 +230,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-3ea33a24133d8220"
           },
           {
             "type": "paragraph",
@@ -223,7 +240,8 @@
                 "type": "text",
                 "text": "Long, long ago, the universe was a total bore. The Aeons were all stuffy and serious, and the Leviathans were just mindless brutes who couldn't enjoy a decent meal. So, Aha found the brightest star in the sky and whispered a joke in its ear. The star laughed so hard it went twinkling across the night sky, and when the other stars heard it, they couldn't help but join in. Ever since then, the universe has been ringing with laughter."
               }
-            ]
+            ],
+            "id": "p-2f2218c0ece4e319"
           },
           {
             "type": "paragraph",
@@ -237,7 +255,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-a992d666e14d658d"
           },
           {
             "type": "paragraph",
@@ -276,7 +295,8 @@
                 "type": "text",
                 "text": "\"By The Laughter right here! Aha is passing through. Don't you dare ruin the joyful mood.\""
               }
-            ]
+            ],
+            "id": "p-c5d32be93fd4fb7c"
           },
           {
             "type": "paragraph",
@@ -290,7 +310,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-7e3033c3b379bd35"
           },
           {
             "type": "paragraph",
@@ -339,7 +360,8 @@
                 "type": "text",
                 "text": "\"I want nothing,\" the Actor said with a smile. \"For in the cry of a child, I have already glimpsed the tears of the Master of Elation.\""
               }
-            ]
+            ],
+            "id": "p-23b0d88845835c73"
           },
           {
             "type": "paragraph",
@@ -348,7 +370,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

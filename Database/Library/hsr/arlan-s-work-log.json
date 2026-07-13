@@ -4,10 +4,11 @@
   "id": "arlan-s-work-log",
   "name": "Arlan's Work Log",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Arlan%27s_Work_Log",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -29,7 +30,8 @@
                 "type": "text",
                 "text": "1. Cleared away the remnants of the Antimatter Legion."
               }
-            ]
+            ],
+            "id": "p-9cc63cb6ab28d220"
           },
           {
             "type": "paragraph",
@@ -38,7 +40,8 @@
                 "type": "text",
                 "text": "2. Confirmed which devices need updating and replacement in the planning zone."
               }
-            ]
+            ],
+            "id": "p-dbb7c512102a3647"
           },
           {
             "type": "paragraph",
@@ -47,7 +50,8 @@
                 "type": "text",
                 "text": "3. Records for handling emergency requests for help from researchers."
               }
-            ]
+            ],
+            "id": "p-5ed96e70a4c3c85e"
           },
           {
             "type": "paragraph",
@@ -56,7 +60,8 @@
                 "type": "text",
                 "text": "4. Played holodisc with Peppy."
               }
-            ]
+            ],
+            "id": "p-a5e04c8a48a40de7"
           },
           {
             "type": "paragraph",
@@ -65,7 +70,8 @@
                 "type": "text",
                 "text": "5. Signed for and organized lady's courier deliveries."
               }
-            ]
+            ],
+            "id": "p-e1130dbd6dbb49e9"
           },
           {
             "type": "paragraph",
@@ -74,7 +80,8 @@
                 "type": "text",
                 "text": "6. Collected and sorted feedback about last week's drinks and snacks, plus worked out a corresponding optimization plan."
               }
-            ]
+            ],
+            "id": "p-e3554cc7adbdab39"
           },
           {
             "type": "paragraph",
@@ -83,7 +90,8 @@
                 "type": "text",
                 "text": "7. Screened Peppy's new toiletries for the next quarter."
               }
-            ]
+            ],
+            "id": "p-c5ae97653e2491ec"
           },
           {
             "type": "paragraph",
@@ -102,7 +110,8 @@
                 "type": "text",
                 "text": "Of the heart. Of the mirror. Of the self."
               }
-            ]
+            ],
+            "id": "p-444c8c1d09bf4c77"
           }
         ]
       }

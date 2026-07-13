@@ -4,10 +4,11 @@
   "id": "goethe-hotel-tea-time-menu",
   "name": "Goethe Hotel Tea Time Menu",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Goethe_Hotel_Tea_Time_Menu",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -38,7 +39,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-f741bf490bbcfb27"
           },
           {
             "type": "paragraph",
@@ -82,7 +84,8 @@
                 "type": "text",
                 "text": "Honey and Oats Mousse"
               }
-            ]
+            ],
+            "id": "p-a134198e389fb04e"
           },
           {
             "type": "paragraph",
@@ -112,7 +115,8 @@
                 "type": "text",
                 "text": "Special Sausage Platter"
               }
-            ]
+            ],
+            "id": "p-da80f905e54adfd9"
           },
           {
             "type": "paragraph",
@@ -163,7 +167,8 @@
                 "type": "text",
                 "text": "Goethe Classic Hand-Made Coffee (Temporarily unavailable)"
               }
-            ]
+            ],
+            "id": "p-af8bb64eb415a6ee"
           },
           {
             "type": "paragraph",
@@ -179,7 +184,8 @@
                 "type": "text",
                 "text": "We deeply apologize for any inconvenience caused."
               }
-            ]
+            ],
+            "id": "p-550d4195237e35ee"
           }
         ]
       }

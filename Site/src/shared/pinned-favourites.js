@@ -17,12 +17,12 @@ function nyxPinnedCharacterId(gameKey, character){
 function nyxLoadPinnedIds(gameKey){
   try {
     const raw = localStorage.getItem(nyxPinnedStorageKey(gameKey));
-    if (raw === null) return null;
+    if (raw === null) return [];
     const rows = JSON.parse(raw);
-    if (!Array.isArray(rows)) return null;
+    if (!Array.isArray(rows)) return [];
     return [...new Set(rows.map((id) => String(id)).filter(Boolean))];
   } catch (e) {
-    return null;
+    return [];
   }
 }
 
@@ -44,7 +44,13 @@ function nyxFavouriteModeKey(gameKey){
 }
 
 function nyxLoadFavouriteMode(gameKey){
-  try { return localStorage.getItem(nyxFavouriteModeKey(gameKey)) === 'icon' ? 'icon' : 'card'; } catch (e) { return 'card'; }
+  const fallback = gameKey === 'nyx' ? 'card' : 'icon';
+  try {
+    const saved = localStorage.getItem(nyxFavouriteModeKey(gameKey));
+    return saved === 'icon' || saved === 'card' ? saved : fallback;
+  } catch (e) {
+    return fallback;
+  }
 }
 
 function nyxSaveFavouriteMode(gameKey, mode){
@@ -57,15 +63,18 @@ function nyxAddPinnedId(ids, id, mode){
   const rows = Array.isArray(ids) ? ids.map(String) : [];
   const clean = String(id || '');
   if (!clean || rows.includes(clean)) return rows;
-  if (mode === 'icon' || rows.length < NYX_FAVOURITE_CARD_LIMIT) return [...rows, clean];
-  // Card mode replaces only the fifth visible card. Pins beyond the Card-mode
-  // window came from Icon mode and must remain intact for the +X switch.
-  return [...rows.slice(0, NYX_FAVOURITE_CARD_LIMIT - 1), clean, ...rows.slice(NYX_FAVOURITE_CARD_LIMIT)];
+  return [...rows, clean];
 }
 
-function nyxFavouriteVisibleCards(cards, mode){
+function nyxFavouriteVisibleCards(cards, mode, gameKey){
   const rows = Array.isArray(cards) ? cards : [];
-  return mode === 'icon' ? rows : rows.slice(0, NYX_FAVOURITE_CARD_LIMIT);
+  return mode === 'icon' || gameKey === 'nyx' ? rows : rows.slice(0, NYX_FAVOURITE_CARD_LIMIT);
+}
+
+function nyxLoadPinnedUnion(gameKeys){
+  return (Array.isArray(gameKeys) ? gameKeys : []).flatMap((gameKey) => (
+    nyxLoadPinnedIds(gameKey).map((id) => ({ gameKey:String(gameKey), id:String(id) }))
+  ));
 }
 
 function nyxAddFavourite(cards, character, mode, gameKey){

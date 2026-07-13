@@ -4,17 +4,19 @@
   "id": "hanu-s-adventure-readable",
   "name": "Hanu's Adventure",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Hanu%27s_Adventure_(Readable)",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "preface",
       "label": "Preface",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -36,7 +38,8 @@
                 "type": "text",
                 "text": "cartoon. He's full of sharp wit, sticks to his morals, tenacious and brave, undaunted by danger, often helping his friends out of bad situations, and has thwarted Boss Stone's plots countless times... He's Clockie's most trustworthy comrade, the baddies' most-feared opponent, the beloved great hero of Dreamville... Brother Hanu!"
               }
-            ]
+            ],
+            "id": "p-f259342bbc9879a2"
           },
           {
             "type": "paragraph",
@@ -45,7 +48,8 @@
                 "type": "text",
                 "text": "Always garbed in a stylish coat, with a suave dress hat over his head and shades to conceal his piercing gaze, he patrols Dreamville wordlessly. He's more composed than the erudite Professor Owl, more decisive than the revered Old Man Wood, and more popular than the flamboyant Miss Note."
               }
-            ]
+            ],
+            "id": "p-d26f9549adac0f63"
           },
           {
             "type": "paragraph",
@@ -59,7 +63,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-7c50c96981792902"
           },
           {
             "type": "paragraph",
@@ -68,7 +73,8 @@
                 "type": "text",
                 "text": "In the previous story, Brother Hanu defeated the Buzzflies plaguing Dreamville, but the despicable Boss Stone capitalized on this chaos and stole the shrinking machine that Professor Owl invented. In this newly-arisen threat that Dreamville faces, Brother Hanu has been turned into Mini-Hanu by the shrinking machine, and can't defeat Boss Stone with his once-mighty strength."
               }
-            ]
+            ],
+            "id": "p-fc5f961728648684"
           },
           {
             "type": "paragraph",
@@ -82,7 +88,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-140024bd0d302e64"
           },
           {
             "type": "paragraph",
@@ -91,7 +98,8 @@
                 "type": "text",
                 "text": "But don't underestimate Brother Hanu's wit! This suave, silent lad isn't just some savage musclehead. This time, he is going to be just like his old friend, Clockie — even if burdened by his miniature physique, he'll use his brains and guile to defeat Boss Stone, wrest back Dreamville from the villain, and return it to everyone."
               }
-            ]
+            ],
+            "id": "p-e38b6625d57d7912"
           },
           {
             "type": "paragraph",
@@ -117,20 +125,23 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-6c6beac366a7760e"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "part-1-chapter-1",
       "label": "Part 1, Chapter 1",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -139,7 +150,8 @@
                 "type": "text",
                 "text": "Once the Buzzflies left Dreamville, this haven once again regained its joy and laughter. One fine day, Clockie was once again at the plaza pulling off his usual pranks."
               }
-            ]
+            ],
+            "id": "p-c6bb4b081cde3ced"
           },
           {
             "type": "paragraph",
@@ -148,7 +160,8 @@
                 "type": "text",
                 "text": "\"Augh!!! Clockie, you mischievous brat, chirp! I'm going to get you this time!\""
               }
-            ]
+            ],
+            "id": "p-183793e45c13edb9"
           },
           {
             "type": "paragraph",
@@ -157,7 +170,8 @@
                 "type": "text",
                 "text": "The angry red birdie pursued Clockie relentlessly, pecking away at him at every chance. It was the origami bird with the worst temper — Clockie REALLY got under its feathers this time."
               }
-            ]
+            ],
+            "id": "p-fe1431c0f6dacf45"
           },
           {
             "type": "paragraph",
@@ -166,7 +180,8 @@
                 "type": "text",
                 "text": "\"Tick-tock! Boss Red, please stop it! All I did was give Professor Owl's statue a makeover! I'm sure he won't mind!\""
               }
-            ]
+            ],
+            "id": "p-281aaf2b3984e50b"
           },
           {
             "type": "paragraph",
@@ -180,7 +195,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-066c4ef1e245e948"
           },
           {
             "type": "paragraph",
@@ -189,7 +205,8 @@
                 "type": "text",
                 "text": "It's just as Clockie said — Professor Owl's statue was an atrocious mess of colors, especially the dial on his face. Both hands looked like he had grown extra needle-thin whiskers — a truly comical sight."
               }
-            ]
+            ],
+            "id": "p-f886a9cb2da3eab8"
           },
           {
             "type": "paragraph",
@@ -198,7 +215,8 @@
                 "type": "text",
                 "text": "\"Ahem, Clockie, Professor Owl is the origami birds' teacher and a patron to the foundation of our Dreamville. You must not offend him.\""
               }
-            ]
+            ],
+            "id": "p-5adab81d9fb73d6e"
           },
           {
             "type": "paragraph",
@@ -207,7 +225,8 @@
                 "type": "text",
                 "text": "Old Man Wood, the person who liked to lecture the most in town, hobbled over with branch cane in hand. Following behind him was the \"super-cool\" Brother Hanu."
               }
-            ]
+            ],
+            "id": "p-5398e7c89283abe2"
           },
           {
             "type": "paragraph",
@@ -216,7 +235,8 @@
                 "type": "text",
                 "text": "\"*cough* Brother Hanu, you say something to him as well.\" Old Man Wood said."
               }
-            ]
+            ],
+            "id": "p-d094ec42666e2ad3"
           },
           {
             "type": "paragraph",
@@ -225,7 +245,8 @@
                 "type": "text",
                 "text": "\"Hmph.\" Brother Hanu emitted an aloof sound, with that perennially cool demeanor of his."
               }
-            ]
+            ],
+            "id": "p-e94766fcf4051a87"
           },
           {
             "type": "paragraph",
@@ -239,7 +260,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-a57dd275fb23f94b"
           },
           {
             "type": "paragraph",
@@ -248,7 +270,8 @@
                 "type": "text",
                 "text": "But this hmph made both Clockie and Boss Red instantly cease their bickering."
               }
-            ]
+            ],
+            "id": "p-34af730947aee577"
           },
           {
             "type": "paragraph",
@@ -257,7 +280,8 @@
                 "type": "text",
                 "text": "\"Tick-tock, sorry... I'll clean up the statue right now...\" The minute hand on Clockie's dial drooped, and he lowered his clock face."
               }
-            ]
+            ],
+            "id": "p-6522c01ad41e036a"
           },
           {
             "type": "paragraph",
@@ -266,7 +290,8 @@
                 "type": "text",
                 "text": "In the eyes of Clockie, Brother Hanu wasn't just his bestie, but also his arch nemesis — he would never want to cross this stone-cold, dead-pan wolf."
               }
-            ]
+            ],
+            "id": "p-dece94036f56d228"
           },
           {
             "type": "paragraph",
@@ -280,7 +305,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-40394d8d0109c48b"
           },
           {
             "type": "paragraph",
@@ -289,7 +315,8 @@
                 "type": "text",
                 "text": "Brother Hanu nodded in approval as he watched Clockie remove the clock hands from the statue as instructed. He turned away to leave the plaza, disappearing into the shadows of an alley alone."
               }
-            ]
+            ],
+            "id": "p-10f34348c4ddc717"
           },
           {
             "type": "paragraph",
@@ -298,7 +325,8 @@
                 "type": "text",
                 "text": "To him, quelling the town's disputes is but a trifle. The real trouble lies with evildoers who would threaten the town's peace — they would not be so easily deterred with a simple grunt."
               }
-            ]
+            ],
+            "id": "p-f2427bf2f3d5c58d"
           },
           {
             "type": "paragraph",
@@ -307,7 +335,8 @@
                 "type": "text",
                 "text": "And so, Brother Hanu must be on high alert every single day, scouring every nook and cranny in Dreamville to eliminate the evils that lurk in dark corners. But it is this very meticulousness that allowed Boss Stone to swoop in..."
               }
-            ]
+            ],
+            "id": "p-f3b46d20acbf15bb"
           },
           {
             "type": "paragraph",
@@ -321,20 +350,23 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ba71fc79660e1567"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "part-1-chapter-2",
       "label": "Part 1, Chapter 2",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -343,7 +375,8 @@
                 "type": "text",
                 "text": "Hanu stumbled across a peculiar television in the corner of a street in Dreamville."
               }
-            ]
+            ],
+            "id": "p-2222d9288543aef1"
           },
           {
             "type": "paragraph",
@@ -352,7 +385,8 @@
                 "type": "text",
                 "text": "Hanu sized up the television suspiciously. His intuition told him that it must belong to the Origami Birds and Professor Owl, the only candidates who would tinker with such a complicated machine. Compared to watching TV, the other townspeople prefer enjoying Miss Note's performance at the theater."
               }
-            ]
+            ],
+            "id": "p-a56038f66d50c2cf"
           },
           {
             "type": "paragraph",
@@ -361,7 +395,8 @@
                 "type": "text",
                 "text": "Hanu decided to return the television to Professor Owl after some consideration. However, a strange wave of electricity surged through his body the moment he touched the television. He realized that something was terribly wrong, but it was all too late. Following a sinister and boorish laughter, the scenery before Hanu started to distort..."
               }
-            ]
+            ],
+            "id": "p-4450bf59b249703e"
           },
           {
             "type": "paragraph",
@@ -370,7 +405,8 @@
                 "type": "text",
                 "text": "\"Hahahaha, Hanu, you took the bait! I knew you couldn't stop yourself from touching that thing!\""
               }
-            ]
+            ],
+            "id": "p-9fbd6346663c9a02"
           },
           {
             "type": "paragraph",
@@ -396,7 +432,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-2c45ad569281e80a"
           },
           {
             "type": "paragraph",
@@ -405,7 +442,8 @@
                 "type": "text",
                 "text": "When Hanu's vision cleared up, he noticed that the sky has suddenly turned overcast. The sun that was shining brightly moments before was nowhere to be seen... Wait a minute. Something is covering the sun!"
               }
-            ]
+            ],
+            "id": "p-cde42860d7f43f0c"
           },
           {
             "type": "paragraph",
@@ -414,7 +452,8 @@
                 "type": "text",
                 "text": "He looked up and finds himself coming face-to-face with a gaping mouth. It belongs to the greatest nemesis of Dreamville: Boss Stone!"
               }
-            ]
+            ],
+            "id": "p-715dfeb1a5710fde"
           },
           {
             "type": "paragraph",
@@ -423,7 +462,8 @@
                 "type": "text",
                 "text": "Boss Stone is very tall indeed, but he's never been so huge that he can easily crush Hanu with his foot. Boss Stone, with his mouth wide open, lunged at Hanu, but Hanu was agile enough to dodge the sneak attack with a roll. With a groan, Boss Stone fell to the ground."
               }
-            ]
+            ],
+            "id": "p-062a26f5b9a95ad5"
           },
           {
             "type": "paragraph",
@@ -437,7 +477,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-60722e9f3524c2ed"
           },
           {
             "type": "paragraph",
@@ -446,7 +487,8 @@
                 "type": "text",
                 "text": "\"Despicable Hanu! Just you wait!\""
               }
-            ]
+            ],
+            "id": "p-db2d9d3c87c8b003"
           },
           {
             "type": "paragraph",
@@ -455,7 +497,8 @@
                 "type": "text",
                 "text": "Hanu ran off without turning back. Even though he was as agile as a wolf, he still found himself bewildered by the situation. How come Boss Stone had become so enormous? Why did the surroundings look so foreign to him? Could he be still inside the trap set by Boss Stone?"
               }
-            ]
+            ],
+            "id": "p-8b5d0578e3d79e98"
           },
           {
             "type": "paragraph",
@@ -464,7 +507,8 @@
                 "type": "text",
                 "text": "What on earth is going on?"
               }
-            ]
+            ],
+            "id": "p-09b8de29f68ca490"
           },
           {
             "type": "paragraph",
@@ -478,20 +522,23 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-6c978dceda7e62fc"
           }
         ]
       }
     },
     {
       "id": "4",
+      "volumeKey": "part-1-chapter-3",
       "label": "Part 1, Chapter 3",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -500,7 +547,8 @@
                 "type": "text",
                 "text": "Hanu soon discovered the truth — Boss Stone didn't become bigger. It was he who had dwindled in size!"
               }
-            ]
+            ],
+            "id": "p-5e0fe989ac4f5929"
           },
           {
             "type": "paragraph",
@@ -509,7 +557,8 @@
                 "type": "text",
                 "text": "This did not bode well, given that Hanu had always relied on his strength to overcome Boss Stone. Now that he had turned so small and couldn't even carry the launcher of the Hanu Missile, how was he supposed to handle Boss Stone?"
               }
-            ]
+            ],
+            "id": "p-380494329de0e5dd"
           },
           {
             "type": "paragraph",
@@ -518,7 +567,8 @@
                 "type": "text",
                 "text": "While Hanu was still struggling to comprehend the situation, Boss Stone kicked off his evil scheme. All houses were made of precious gems in Dreamville, and are therefore treasures desired by Boss Stone. With his underling little crocodiles, he barged into Dreamville brazenly and started demolishing the houses of the residents."
               }
-            ]
+            ],
+            "id": "p-154fbe2eb5582478"
           },
           {
             "type": "paragraph",
@@ -527,7 +577,8 @@
                 "type": "text",
                 "text": "Without Hanu's protection, the vulnerable residents could only cower in corners. The Origami Birds that built those houses gathered on the paper tree and started chirping at Boss Stone in protest."
               }
-            ]
+            ],
+            "id": "p-a61b1121d72961b9"
           },
           {
             "type": "paragraph",
@@ -541,7 +592,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-edaa6f8957a584f6"
           },
           {
             "type": "paragraph",
@@ -550,7 +602,8 @@
                 "type": "text",
                 "text": "\"Hahaha, make as much noise as you want! Hanu won't come to your rescue anymore! All the gems in Dreamville will be mine!\""
               }
-            ]
+            ],
+            "id": "p-47e85f1640533f9e"
           },
           {
             "type": "paragraph",
@@ -559,7 +612,8 @@
                 "type": "text",
                 "text": "Boss Stone laughed like a maniac, watching Dreamville turn into a wreck. This had been his most successful raid against Dreamville since he set his eyes on the town. The stocky crocodile strutted around with his belly sticking out like a victorious general. When he walked past the plaza, he immediately caught sight of Professor Owl's statue."
               }
-            ]
+            ],
+            "id": "p-60f86ba1a87643f1"
           },
           {
             "type": "paragraph",
@@ -568,7 +622,8 @@
                 "type": "text",
                 "text": "\"Listen up, this silly bird's statue is made of premium material! Bring the whole thing back! I'm going to turn it into a statue of myself!\""
               }
-            ]
+            ],
+            "id": "p-07a7d6318a88df66"
           },
           {
             "type": "paragraph",
@@ -577,7 +632,8 @@
                 "type": "text",
                 "text": "Just as the small crocodiles were ready to make a move on the statue, an unexpected figure emerged to block their way..."
               }
-            ]
+            ],
+            "id": "p-d6626585b6083b79"
           },
           {
             "type": "paragraph",
@@ -586,7 +642,8 @@
                 "type": "text",
                 "text": "\"Tick-tock! Stop it, jerks! Brace yourselves for my Clockwork!\""
               }
-            ]
+            ],
+            "id": "p-8c5fa6d4dd2e40f2"
           },
           {
             "type": "paragraph",
@@ -595,7 +652,8 @@
                 "type": "text",
                 "text": "It was Clockie! Clockie would never allow anyone else to wreak havoc in Dreamville! He alone was the only troublemaker in town!"
               }
-            ]
+            ],
+            "id": "p-9e7b494863f0eed4"
           },
           {
             "type": "paragraph",
@@ -604,7 +662,8 @@
                 "type": "text",
                 "text": "Clockie tried moving his minute hand with his finger to launch his Clockwork. Everything in Dreamville could come under the control of his dial, and he could even alter everyone's thoughts and turn back time! Thanks to this magical power, Clockie became the people's savior just like Hanu."
               }
-            ]
+            ],
+            "id": "p-a1f2dc3c3e1ce302"
           },
           {
             "type": "paragraph",
@@ -613,7 +672,8 @@
                 "type": "text",
                 "text": "Nevertheless, Hanu is still the protagonist of this story."
               }
-            ]
+            ],
+            "id": "p-8eab0b07a32340de"
           },
           {
             "type": "paragraph",
@@ -622,7 +682,8 @@
                 "type": "text",
                 "text": "Before Clockie could move his minute hand, the small crocodiles working for Boss Stone beat him to it by pouring a bucket of odd liquid all over his head."
               }
-            ]
+            ],
+            "id": "p-3919e62410b57e56"
           },
           {
             "type": "paragraph",
@@ -631,7 +692,8 @@
                 "type": "text",
                 "text": "\"Tick... tock... What's wrong... Why can't I move it...\" Clockie's body became sticky and his minute hand was stuck to the dial."
               }
-            ]
+            ],
+            "id": "p-7ffcdd8b0931c9d9"
           },
           {
             "type": "paragraph",
@@ -645,7 +707,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-8037cf5e9febdfd4"
           },
           {
             "type": "paragraph",
@@ -654,7 +717,8 @@
                 "type": "text",
                 "text": "\"Haha, Clockie! This super adhesive glue is specially prepared for you! You can stay here and be the new statue!\""
               }
-            ]
+            ],
+            "id": "p-09c958ceeaed0f56"
           },
           {
             "type": "paragraph",
@@ -663,7 +727,8 @@
                 "type": "text",
                 "text": "\"Tick-tock...\""
               }
-            ]
+            ],
+            "id": "p-c068e302c0412a47"
           },
           {
             "type": "paragraph",
@@ -672,7 +737,8 @@
                 "type": "text",
                 "text": "As the glue dried up, poor Clockie was stuck to the ground of the plaza. The residents in hiding were panic-stricken and could only pin their hopes on the still-absent Hanu."
               }
-            ]
+            ],
+            "id": "p-8eba982fe005ecc7"
           },
           {
             "type": "paragraph",
@@ -681,7 +747,8 @@
                 "type": "text",
                 "text": "Where exactly was Hanu now?"
               }
-            ]
+            ],
+            "id": "p-c4c3f312188ee29b"
           },
           {
             "type": "paragraph",
@@ -707,20 +774,23 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-4325439f414512f3"
           }
         ]
       }
     },
     {
       "id": "5",
+      "volumeKey": "part-1-chapter-4",
       "label": "Part 1, Chapter 4",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -729,7 +799,8 @@
                 "type": "text",
                 "text": "Boss Stone had occupied Dreamville and taken over Old Man Wood's mansion. His room was filled to the brim with looted gems."
               }
-            ]
+            ],
+            "id": "p-3b998734cd65ce9f"
           },
           {
             "type": "paragraph",
@@ -738,7 +809,8 @@
                 "type": "text",
                 "text": "\"Dreamville shall be called Stoneville in the future... Wait, the name isn't grand enough. It should be Stone Empire instead, hahaha!\""
               }
-            ]
+            ],
+            "id": "p-d5d6d68335d740e1"
           },
           {
             "type": "paragraph",
@@ -747,7 +819,8 @@
                 "type": "text",
                 "text": "Boss Stone was drooling from his ravenous mouth, so carried away by the rosy picture he painted of the future that he had forgotten about a problem he had yet to solve..."
               }
-            ]
+            ],
+            "id": "p-390f0c0000185d03"
           },
           {
             "type": "paragraph",
@@ -756,7 +829,8 @@
                 "type": "text",
                 "text": "Meanwhile, on the border of Dreamville, the hardworking Professor Owl was still engrossed in designing new buildings for the town. Unaware that his past works were being destroyed by Boss Stone, he was leisurely searching for stones suitable to construct houses."
               }
-            ]
+            ],
+            "id": "p-263967db22089f96"
           },
           {
             "type": "paragraph",
@@ -782,7 +856,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-294d108a17f1be62"
           },
           {
             "type": "paragraph",
@@ -791,7 +866,8 @@
                 "type": "text",
                 "text": "Suddenly, Professor Owl came across a moving stone. It piqued his curiosity as he had never seen a stone that could move on its own in his long years of living. He quickly flew over, picked up the stone with his beak, and was surprised by its soft and fluffy texture. As it turned out, it was Hanu!"
               }
-            ]
+            ],
+            "id": "p-a275ee35ecdaee28"
           },
           {
             "type": "paragraph",
@@ -800,7 +876,8 @@
                 "type": "text",
                 "text": "Professor Owl immediately put Hanu down and asked in a puzzled voice, \"Cuckoo, how did you turn so small, Hanu? You're even smaller than my students!\""
               }
-            ]
+            ],
+            "id": "p-24afa4fea31bb1b9"
           },
           {
             "type": "paragraph",
@@ -809,7 +886,8 @@
                 "type": "text",
                 "text": "Hanu let out a resigned grunt."
               }
-            ]
+            ],
+            "id": "p-460c7d7005c0e248"
           },
           {
             "type": "paragraph",
@@ -831,7 +909,8 @@
                 "type": "text",
                 "text": "animated series. The relevant dream bubble episodes are available for purchase in all major Dreamscapes.) and it might have fallen into the wrong hands, leading to Hanu's transformation."
               }
-            ]
+            ],
+            "id": "p-70cfa1c3c35ab640"
           },
           {
             "type": "paragraph",
@@ -857,7 +936,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-f4e119e556d6ff7e"
           },
           {
             "type": "paragraph",
@@ -866,7 +946,8 @@
                 "type": "text",
                 "text": "\"Cuckoo, only a shrinking machine can change you back. If Boss Stone has it, you'll be in hot water...\" Even someone as smart as Professor Owl was at his wit's end."
               }
-            ]
+            ],
+            "id": "p-0d529c0c1e9d78da"
           },
           {
             "type": "paragraph",
@@ -875,7 +956,8 @@
                 "type": "text",
                 "text": "However, Hanu didn't see it as an insurmountable problem. If getting back to his original size was the only way to rescue Dreamville, then he would do everything he could to achieve that. If he must defeat Boss Stone in the process, then he would give it his all to achieve it with his petite body!"
               }
-            ]
+            ],
+            "id": "p-15ca192aff974a8b"
           },
           {
             "type": "paragraph",
@@ -884,7 +966,8 @@
                 "type": "text",
                 "text": "Seeing Hanu's determined eyes behind his sunglasses, Professor Owl knew that Hanu had made up his mind."
               }
-            ]
+            ],
+            "id": "p-a29353751f9fa883"
           },
           {
             "type": "paragraph",
@@ -898,7 +981,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-3915dd5ad3056bcb"
           },
           {
             "type": "paragraph",
@@ -907,7 +991,8 @@
                 "type": "text",
                 "text": "\"I've got it, cuckoo. Your courage is impressive! You're truly the hero of Dreamville, cuckoo!\""
               }
-            ]
+            ],
+            "id": "p-ed655d49272dc79e"
           },
           {
             "type": "paragraph",
@@ -916,7 +1001,8 @@
                 "type": "text",
                 "text": "Professor Owl had decided to help Hanu defeat Boss Stone. Firstly, he sent the Origami Birds to investigate Boss Stone's location. Then, he had the birds set up various mechanisms that could give Hanu a boost."
               }
-            ]
+            ],
+            "id": "p-0af43d0ddc759608"
           },
           {
             "type": "paragraph",
@@ -925,7 +1011,8 @@
                 "type": "text",
                 "text": "When everything was all set, Professor Owl picked up Hanu again. Professor Owl, as well as all the Origami Birds, believed that this light and diminutive figure would rescue Dreamville."
               }
-            ]
+            ],
+            "id": "p-21868cd2dea1b87a"
           },
           {
             "type": "paragraph",
@@ -934,7 +1021,8 @@
                 "type": "text",
                 "text": "\"Let's go! I'll help you defeat Boss Stone, cuckoo!\""
               }
-            ]
+            ],
+            "id": "p-4609a579afaf70af"
           },
           {
             "type": "paragraph",
@@ -943,7 +1031,8 @@
                 "type": "text",
                 "text": "Hanu nodded and flew in the direction of Dreamville with the flock of birds."
               }
-            ]
+            ],
+            "id": "p-f93ddede065275a1"
           },
           {
             "type": "paragraph",
@@ -969,20 +1058,23 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-c6d690d83acfc82d"
           }
         ]
       }
     },
     {
       "id": "6",
+      "volumeKey": "part-2-chapter-1",
       "label": "Part 2 Chapter 1",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -991,7 +1083,8 @@
                 "type": "text",
                 "text": "Professor Owl struggled to flap his wings, finally returning Brother Hanu to Dreamville."
               }
-            ]
+            ],
+            "id": "p-c814359a56c3b221"
           },
           {
             "type": "paragraph",
@@ -1000,7 +1093,8 @@
                 "type": "text",
                 "text": "The once-prosperous Dreamville lay in a state of disrepair, with ugly sculptures of Boss Stone scattered everywhere. Crocodiles roamed the streets, brazenly causing trouble for the residents..."
               }
-            ]
+            ],
+            "id": "p-9c4c9f1a18e32dfa"
           },
           {
             "type": "paragraph",
@@ -1009,7 +1103,8 @@
                 "type": "text",
                 "text": "They wreaked havoc, destroying the houses that the Origami Birds meticulously built, kicked over Miss Note's splendid stage, gulping down all of Mr. Soda's sodas, and messing around with Old Man Wood's carefully trimmed canopy."
               }
-            ]
+            ],
+            "id": "p-fcbc99f4ca12a4e0"
           },
           {
             "type": "paragraph",
@@ -1035,7 +1130,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-505ea5c57fa6df75"
           },
           {
             "type": "paragraph",
@@ -1044,7 +1140,8 @@
                 "type": "text",
                 "text": "Witnessing the chaotic scene, Brother Hanu recalled the time when this place was once the Nightmareville, letting out a *hmph* in fury. He vowed to defeat the villainous Boss Stone despite his diminished size."
               }
-            ]
+            ],
+            "id": "p-d15fa19e895bfc02"
           },
           {
             "type": "paragraph",
@@ -1053,7 +1150,8 @@
                 "type": "text",
                 "text": "Professor Owl, witnessing his student being bullied, also grew furious. \"Hoot-Hoot... We'll teach that cursed Boss Stone a lesson, Brother Hanu! Let me assist you!\""
               }
-            ]
+            ],
+            "id": "p-ce0687e2f38de556"
           },
           {
             "type": "paragraph",
@@ -1062,7 +1160,8 @@
                 "type": "text",
                 "text": "Professor Owl soared to the rooftop of the Town Hotel, a location hidden from Boss Stone's view. He hooted, summoning all the Origami Birds in town. These little helpers painted the sky with vibrant colors."
               }
-            ]
+            ],
+            "id": "p-7eb81e63dfeea176"
           },
           {
             "type": "paragraph",
@@ -1088,7 +1187,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-7458068f50fa71c1"
           },
           {
             "type": "paragraph",
@@ -1104,7 +1204,8 @@
                 "type": "text",
                 "text": "Professor Owl handed them some secret blueprints, and after reading them, the birds wiped away their tears, regained their spirits, and began working on top of the houses occupied by Boss Stone."
               }
-            ]
+            ],
+            "id": "p-ae204829f83dbb7d"
           },
           {
             "type": "paragraph",
@@ -1113,7 +1214,8 @@
                 "type": "text",
                 "text": "Before Boss Stone could react, the entire town underwent a transformation thanks to the Origami birds. Mr. Soda's bottle shack turned into a formidable cannon, Miss Note's gala cruise became a battleship, and even Old Man Wood's oak mansion transformed into a wooden dinosaur ready to devour crocodiles."
               }
-            ]
+            ],
+            "id": "p-d170e1ee47a21696"
           },
           {
             "type": "paragraph",
@@ -1139,7 +1241,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-70a9619f0301fe65"
           },
           {
             "type": "paragraph",
@@ -1148,7 +1251,8 @@
                 "type": "text",
                 "text": "Boss Stone and his minions trembled in terror, overwhelmed by the creations of the Origami Birds. They sought refuge inside Town Hotel."
               }
-            ]
+            ],
+            "id": "p-aa4c2e0a0d0ff6ed"
           },
           {
             "type": "paragraph",
@@ -1157,7 +1261,8 @@
                 "type": "text",
                 "text": "This caused Professor Owl to worry. The hotel was the most magnificent building in Dreamville and the most profitable business in town. It must not be damaged!"
               }
-            ]
+            ],
+            "id": "p-6c76666fc93b6c5d"
           },
           {
             "type": "paragraph",
@@ -1166,7 +1271,8 @@
                 "type": "text",
                 "text": "Seeing the formidable weapons halting at the gate, hesitant to attack, Boss Stone understood the birds' worries and let out a sinister laughter. \"Hahaha, you dare not attack me, you stupid birds! Minions, come to me! Toss some lit matches and torch these monsters down to ashes!\""
               }
-            ]
+            ],
+            "id": "p-5708edfc0707cf59"
           },
           {
             "type": "paragraph",
@@ -1175,7 +1281,8 @@
                 "type": "text",
                 "text": "The crocodiles hurled the ignited matches at the Origami Birds' weapons, reducing them to ashes."
               }
-            ]
+            ],
+            "id": "p-5ff58a4f757a970e"
           },
           {
             "type": "paragraph",
@@ -1201,7 +1308,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-bb9a33263c6dc85a"
           },
           {
             "type": "paragraph",
@@ -1217,7 +1325,8 @@
                 "type": "text",
                 "text": "However, with his tiny size, how is Brother Hanu expected to defeat those colossal crocodiles with their fearsome jaws?"
               }
-            ]
+            ],
+            "id": "p-cc258e171374408b"
           },
           {
             "type": "paragraph",
@@ -1226,7 +1335,8 @@
                 "type": "text",
                 "text": "Professor Owl furrowed his brow, the Origami Birds sighed with concern, and even Clockie, transformed into a statue, reflected worry in his eyes. However, Brother Hanu remained resolute, his expression unwavering as he silently advanced toward the hotel."
               }
-            ]
+            ],
+            "id": "p-cb3abea6225f9ca0"
           },
           {
             "type": "paragraph",
@@ -1240,20 +1350,23 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-9342b265e3b4d39a"
           }
         ]
       }
     },
     {
       "id": "7",
+      "volumeKey": "part-2-chapter-2",
       "label": "Part 2 Chapter 2",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -1267,7 +1380,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-3eba5180b1c9a0df"
           },
           {
             "type": "paragraph",
@@ -1276,7 +1390,8 @@
                 "type": "text",
                 "text": "Hanu infiltrated the hotel unarmed while Boss Stone's minions patrolled the corridors, fearful that someone might steal the treasures amassed by their boss here."
               }
-            ]
+            ],
+            "id": "p-b0d587aeb7f7bc66"
           },
           {
             "type": "paragraph",
@@ -1285,7 +1400,8 @@
                 "type": "text",
                 "text": "Thanks to his small stature, Brother Hanu skillfully evaded the villains within the hotel, his eyes scanning for any signs of Boss Stone."
               }
-            ]
+            ],
+            "id": "p-71b02fed8f7481d1"
           },
           {
             "type": "paragraph",
@@ -1294,7 +1410,8 @@
                 "type": "text",
                 "text": "Upon entering the lobby, Brother Hanu spotted Lieutenant Chitters, Boss Stone's trusted sidekick. Lieutenant Chitters was an even larger crocodile than Boss Stone, creating an impenetrable barrier that not even a mosquito could pass through."
               }
-            ]
+            ],
+            "id": "p-0dd895e65baca397"
           },
           {
             "type": "paragraph",
@@ -1303,7 +1420,8 @@
                 "type": "text",
                 "text": "Before, a single shot from the Hanu Launcher would have dealt with this big oaf. Now, however, Hanu needs to come up with another plan."
               }
-            ]
+            ],
+            "id": "p-f4c46e1a8e57fc0b"
           },
           {
             "type": "paragraph",
@@ -1317,7 +1435,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-14798ff854044596"
           },
           {
             "type": "paragraph",
@@ -1333,7 +1452,8 @@
                 "type": "text",
                 "text": "As Hanu hid atop a storage shelf to brainstorm, Lieutenant Chitters suddenly came walking over."
               }
-            ]
+            ],
+            "id": "p-190ff9825a1c7c53"
           },
           {
             "type": "paragraph",
@@ -1342,7 +1462,8 @@
                 "type": "text",
                 "text": "\"Chit-chit. Hm. I think I smell the scent of a wolf!\""
               }
-            ]
+            ],
+            "id": "p-4bfcc9505ce82578"
           },
           {
             "type": "paragraph",
@@ -1358,7 +1479,8 @@
                 "type": "text",
                 "text": "Bracing himself for the battle, Brother Hanu lunged at Lieutenant Chitters..."
               }
-            ]
+            ],
+            "id": "p-1accab412b41b8e2"
           },
           {
             "type": "paragraph",
@@ -1367,7 +1489,8 @@
                 "type": "text",
                 "text": "However, Lieutenant Chitters didn't even notice the tiny Brother Hanu and accidentally swallowed him whole in an instant! Had Brother Hanu been devoured?"
               }
-            ]
+            ],
+            "id": "p-3528dc910424aa6a"
           },
           {
             "type": "paragraph",
@@ -1381,7 +1504,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ceaf488cf96e07c9"
           },
           {
             "type": "paragraph",
@@ -1397,7 +1521,8 @@
                 "type": "text",
                 "text": "Lieutenant Chitters felt something between his teeth but paid it no mind. After all, this sloppy crocodile never bothered to floss his teeth, and that's how Brother Hanu escaped his jaws."
               }
-            ]
+            ],
+            "id": "p-f8e966b3ef5a7d72"
           },
           {
             "type": "paragraph",
@@ -1406,7 +1531,8 @@
                 "type": "text",
                 "text": "Brother Hanu deftly maneuvered between Lieutenant Chitters's razor-sharp teeth and made his way through the dangerous mouth, hiding inside a tooth cavity!"
               }
-            ]
+            ],
+            "id": "p-4f7459474c1ae7d5"
           },
           {
             "type": "paragraph",
@@ -1432,7 +1558,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-fe59014c2411a82e"
           },
           {
             "type": "paragraph",
@@ -1441,20 +1568,23 @@
                 "type": "text",
                 "text": "With that, Hanu found the best hiding spot."
               }
-            ]
+            ],
+            "id": "p-db3d9aa51cb81c5b"
           }
         ]
       }
     },
     {
       "id": "8",
+      "volumeKey": "part-2-chapter-3",
       "label": "Part 2 Chapter 3",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -1470,7 +1600,8 @@
                 "type": "text",
                 "text": "However, how could Brother Hanu locate Boss Stone while trapped inside Lieutenant Chitters's tooth cavity?"
               }
-            ]
+            ],
+            "id": "p-54635c67a710f1bf"
           },
           {
             "type": "paragraph",
@@ -1479,7 +1610,8 @@
                 "type": "text",
                 "text": "Not to worry though: our cool hero Hanu will always find a way."
               }
-            ]
+            ],
+            "id": "p-7bb5cb04588c8050"
           },
           {
             "type": "paragraph",
@@ -1493,7 +1625,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-a07f4d0082852b01"
           },
           {
             "type": "paragraph",
@@ -1502,7 +1635,8 @@
                 "type": "text",
                 "text": "Inside Lieutenant Chitters's mouth, Brother Hanu meditated, but the crocodile's terrible breath assaulted his delicate nose. Unable to bear it any longer, he let out a disgusted *hmph*."
               }
-            ]
+            ],
+            "id": "p-0978105ed03c42b5"
           },
           {
             "type": "paragraph",
@@ -1511,7 +1645,8 @@
                 "type": "text",
                 "text": "\"Chit! Brother Hanu! I heard Brother Hanu's voice!\" The *hmph* startled Lieutenant Chitters, who anxiously searched every corner for Brother Hanu but to no avail."
               }
-            ]
+            ],
+            "id": "p-593c7af02bca6c54"
           },
           {
             "type": "paragraph",
@@ -1527,7 +1662,8 @@
                 "type": "text",
                 "text": "He kept making noises inside Lieutenant Chitters's mouth, confusing the crocodile more and more."
               }
-            ]
+            ],
+            "id": "p-ca29d4275b6ccde3"
           },
           {
             "type": "paragraph",
@@ -1553,7 +1689,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-63c13e4feccee1fe"
           },
           {
             "type": "paragraph",
@@ -1562,7 +1699,8 @@
                 "type": "text",
                 "text": "\"Chit-Chit! Where are you, Brother Hanu!?\" Lieutenant Chitters frantically searched, almost tearing the hotel upside down. He sensed Brother Hanu's presence right next to him, but couldn't find that cool dark figure no matter what."
               }
-            ]
+            ],
+            "id": "p-bc54d399b3c9c3fb"
           },
           {
             "type": "paragraph",
@@ -1578,7 +1716,8 @@
                 "type": "text",
                 "text": "\"Chit! Could Brother Hanu... be hiding on me!?\""
               }
-            ]
+            ],
+            "id": "p-7b3212ae7880ac7a"
           },
           {
             "type": "paragraph",
@@ -1594,7 +1733,8 @@
                 "type": "text",
                 "text": "Meanwhile, Brother Hanu continued to make noises in his mouth, pushing Lieutenant Chitters closer to a mental breakdown."
               }
-            ]
+            ],
+            "id": "p-865d94609f984522"
           },
           {
             "type": "paragraph",
@@ -1610,7 +1750,8 @@
                 "type": "text",
                 "text": "In a panicked state, Lieutenant Chitters raced up the stairs while naked. This was all part of Brother Hanu's plan, and soon he would confront Boss Stone with no effort of his own."
               }
-            ]
+            ],
+            "id": "p-91adae392eabe0a9"
           },
           {
             "type": "paragraph",
@@ -1624,20 +1765,23 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-8f7f0e8560cc3f72"
           }
         ]
       }
     },
     {
       "id": "9",
+      "volumeKey": "part-2-chapter-4",
       "label": "Part 2 Chapter 4",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -1653,7 +1797,8 @@
                 "type": "text",
                 "text": "Lieutenant Chitters burst into the opulent suite, shouting in panic. Boss Stone, still dreaming in his grand bubble bed, was abruptly awakened by the sight of a naked, chubby crocodile standing before him."
               }
-            ]
+            ],
+            "id": "p-a45d82b3177d1c95"
           },
           {
             "type": "paragraph",
@@ -1669,7 +1814,8 @@
                 "type": "text",
                 "text": "Brother Hanu, who had been hiding in a tooth cavity, was propelled out as well. Seizing the opportunity, Brother Hanu swiftly found refuge in the corner of Boss Stone's room, ready to strike like a wolf."
               }
-            ]
+            ],
+            "id": "p-385d8c9057b66077"
           },
           {
             "type": "paragraph",
@@ -1695,7 +1841,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-52d7f0e4911ff210"
           },
           {
             "type": "paragraph",
@@ -1711,7 +1858,8 @@
                 "type": "text",
                 "text": "Lieutenant Chitters' mention of the name \"Brother Hanu\" sent a shiver down Boss Stone's spine. \"That cursed Brother Hanu... I see. Now, get out of here, and next time, wear your pants before coming to me!\""
               }
-            ]
+            ],
+            "id": "p-92a590b31a33e069"
           },
           {
             "type": "paragraph",
@@ -1720,7 +1868,8 @@
                 "type": "text",
                 "text": "After dismissing Lieutenant Chitters, Boss Stone grew increasingly anxious. Although he had shrunk Brother Hanu to a tiny size, he knew that Brother Hanu was still the valiant hero of Dreamville!"
               }
-            ]
+            ],
+            "id": "p-8ae9e2df1f5b1649"
           },
           {
             "type": "paragraph",
@@ -1729,7 +1878,8 @@
                 "type": "text",
                 "text": "Boss Stone unlocked his safe and looked at the Hanu Launcher he had stashed away. He sighed in relief when he thought how Brother Hanu was even smaller than his own teeth right now."
               }
-            ]
+            ],
+            "id": "p-cc80ee284b78d992"
           },
           {
             "type": "paragraph",
@@ -1738,7 +1888,8 @@
                 "type": "text",
                 "text": "\"You hear this, Brother Hanu? Even if you've come back, there's no way you can defeat me in your tiny form!\" Boss Stone bellowed, believing that Brother Hanu would hear his words... And indeed, Brother Hanu did."
               }
-            ]
+            ],
+            "id": "p-75f26a912c44cbb6"
           },
           {
             "type": "paragraph",
@@ -1764,7 +1915,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-7b1e96d086e8e9e1"
           },
           {
             "type": "paragraph",
@@ -1780,7 +1932,8 @@
                 "type": "text",
                 "text": "Emerging from the shadows, Brother Hanu stepped forward and opened the cabinet, which now appeared hundreds of times larger than him. He stepped inside..."
               }
-            ]
+            ],
+            "id": "p-1502200dd6efc4a2"
           },
           {
             "type": "paragraph",
@@ -1806,7 +1959,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-3edf1a313f14707c"
           },
           {
             "type": "paragraph",
@@ -1815,7 +1969,8 @@
                 "type": "text",
                 "text": "The Hanu Launcher was right in front of him. Tiny Brother Hanu struggled to carry the ammunition and load it into the weapon."
               }
-            ]
+            ],
+            "id": "p-baa354cef05b2ab1"
           },
           {
             "type": "paragraph",
@@ -1841,7 +1996,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-3f66b2fe6fc9bd1c"
           },
           {
             "type": "paragraph",
@@ -1864,7 +2020,8 @@
                 "type": "text",
                 "text": "\"No fear, my brothers! He's now so tiny that we can crush him in a single bite!\" Boss Stone called out to all of his fellow crocodiles, all of whom huddled together in the room, near the cabinet..."
               }
-            ]
+            ],
+            "id": "p-7f0b30788ad9fd18"
           },
           {
             "type": "paragraph",
@@ -1890,7 +2047,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-f96ab1f4050da993"
           },
           {
             "type": "paragraph",
@@ -1899,7 +2057,8 @@
                 "type": "text",
                 "text": "The crocodiles opened the cabinet, only to be confronted with the dark muzzle of the launcher and tiny Brother Hanu standing beside the firing button."
               }
-            ]
+            ],
+            "id": "p-a26ebb98ddaba16d"
           },
           {
             "type": "paragraph",
@@ -1913,7 +2072,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-31527def197130ea"
           },
           {
             "type": "paragraph",
@@ -1922,7 +2082,8 @@
                 "type": "text",
                 "text": "Brother Hanu let out a cool *hmph* and stepped on the firing button."
               }
-            ]
+            ],
+            "id": "p-07a29c9fcae85445"
           },
           {
             "type": "paragraph",
@@ -1948,20 +2109,23 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-7cbb7a5fc24e7acb"
           }
         ]
       }
     },
     {
       "id": "10",
+      "volumeKey": "part-3-chapter-1",
       "label": "Part 3, Chapter 1",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -1970,7 +2134,8 @@
                 "type": "text",
                 "text": "BOOM!"
               }
-            ]
+            ],
+            "id": "p-59f47889364329e6"
           },
           {
             "type": "paragraph",
@@ -1986,7 +2151,8 @@
                 "type": "text",
                 "text": "The violent explosion shatters every window in town, toppling several houses. The force of the impact sends the immobile Clockie hurtling into a nearby pond, finally granting him the freedom to move once more!"
               }
-            ]
+            ],
+            "id": "p-dc23b4aeaa9a0cf8"
           },
           {
             "type": "paragraph",
@@ -1995,7 +2161,8 @@
                 "type": "text",
                 "text": "\"Tick-tock! Brother Hanu! Where are you, Brother Hanu!?\""
               }
-            ]
+            ],
+            "id": "p-90438bad6510889e"
           },
           {
             "type": "paragraph",
@@ -2004,7 +2171,8 @@
                 "type": "text",
                 "text": "Back then, while Clockie was firmly attached to the town square, he still witnessed everything that happened within the town. He saw how Mini-Hanu infiltrated Boss Stone's fortress and witnessed that violent explosion. Not even stopping to pour out the water in his dial, Clockie sprints towards the origin of the explosion..."
               }
-            ]
+            ],
+            "id": "p-b27c040708dc708c"
           },
           {
             "type": "paragraph",
@@ -2013,7 +2181,8 @@
                 "type": "text",
                 "text": "Amidst the scattered debris, Clockie discovers nothing more than a small hat."
               }
-            ]
+            ],
+            "id": "p-57adb6ecc28b9702"
           },
           {
             "type": "paragraph",
@@ -2039,7 +2208,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-0fdeba10e7f785b0"
           },
           {
             "type": "paragraph",
@@ -2048,7 +2218,8 @@
                 "type": "text",
                 "text": "The townsfolk cautiously emerge from their hiding places, their curiosity piqued by the abrupt silence that has befallen the streets. All the crocodiles that once roamed the town have vanished, leaving only Clockie amidst the ruins, shedding inconsolable tears."
               }
-            ]
+            ],
+            "id": "p-eaf5a0197ff6e9bc"
           },
           {
             "type": "paragraph",
@@ -2064,7 +2235,8 @@
                 "type": "text",
                 "text": "\"Clockie, Clockie, where has Brother Hanu gone?\""
               }
-            ]
+            ],
+            "id": "p-17a5bd9e5612db9a"
           },
           {
             "type": "paragraph",
@@ -2073,7 +2245,8 @@
                 "type": "text",
                 "text": "Clockie understands that the townsfolk seek reassurance now that they have just become free of Boss Stone's terror. And so, this time, Clockie tells them a lie yet again..."
               }
-            ]
+            ],
+            "id": "p-a50401cc5bf74999"
           },
           {
             "type": "paragraph",
@@ -2099,7 +2272,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-1223e4f3125f0435"
           },
           {
             "type": "paragraph",
@@ -2121,7 +2295,8 @@
                 "type": "text",
                 "text": "figure in the town once more!\""
               }
-            ]
+            ],
+            "id": "p-6507223e11c19936"
           },
           {
             "type": "paragraph",
@@ -2137,7 +2312,8 @@
                 "type": "text",
                 "text": "They throw a grand celebration in honor of Brother Hanu, even though he himself is absent. Everyone enjoys a cheerful time... except for Clockie."
               }
-            ]
+            ],
+            "id": "p-477d74c2e121f44a"
           },
           {
             "type": "paragraph",
@@ -2153,7 +2329,8 @@
                 "type": "text",
                 "text": "In his dreams, Clockie finds himself standing in a vast desert, with Brother Hanu positioned at the far end, gazing up at the sky."
               }
-            ]
+            ],
+            "id": "p-863b967a4c813016"
           },
           {
             "type": "paragraph",
@@ -2169,7 +2346,8 @@
                 "type": "text",
                 "text": "\"Come back to us, Brother Hanu! Dreamville simply can't exist without you!\""
               }
-            ]
+            ],
+            "id": "p-15fd0a90e187beec"
           },
           {
             "type": "paragraph",
@@ -2178,7 +2356,8 @@
                 "type": "text",
                 "text": "In silence, Brother Hanu only watches as Clockie runs towards him, then gently removes his hat."
               }
-            ]
+            ],
+            "id": "p-36a8a991715d2645"
           },
           {
             "type": "paragraph",
@@ -2240,7 +2419,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-9193baacbb954a0a"
           },
           {
             "type": "paragraph",
@@ -2254,7 +2434,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-7aae07b9deaeb19f"
           },
           {
             "type": "paragraph",
@@ -2276,7 +2457,8 @@
                 "type": "text",
                 "text": "hmph."
               }
-            ]
+            ],
+            "id": "p-cbf595828b107004"
           },
           {
             "type": "paragraph",
@@ -2285,20 +2467,23 @@
                 "type": "text",
                 "text": "Then Clockie awakens, his clock face adorned with a tear stain."
               }
-            ]
+            ],
+            "id": "p-543bc8629812c405"
           }
         ]
       }
     },
     {
       "id": "11",
+      "volumeKey": "part-3-chapter-2",
       "label": "Part 3, Chapter 2",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -2307,7 +2492,8 @@
                 "type": "text",
                 "text": "Since Brother Hanu disappeared, Boss Stone has never returned to plague the town. However, he has dishonorably blocked Dreamville's shipping routes. The stones can't be sold to outsiders, and vital resources cannot be shipped in."
               }
-            ]
+            ],
+            "id": "p-bc83f0ce3ca23694"
           },
           {
             "type": "paragraph",
@@ -2323,7 +2509,8 @@
                 "type": "text",
                 "text": "\"Clockie, Clockie! Get Brother Hanu to do something!\""
               }
-            ]
+            ],
+            "id": "p-153bd7154af3a544"
           },
           {
             "type": "paragraph",
@@ -2346,7 +2533,8 @@
                 "type": "text",
                 "text": "Soon, Shopkeeper Leaf in town comes up with a terrible idea. He writes a letter to Boss Stone, wanting to tell Stone about Brother Hanu's disappearance — working to dig stones is better than starving to death!"
               }
-            ]
+            ],
+            "id": "p-d267c8baec1dcb09"
           },
           {
             "type": "paragraph",
@@ -2362,7 +2550,8 @@
                 "type": "text",
                 "text": "Shopkeeper Leaf is apprehended, and the furious townsfolk interrogate this traitor, eagerly discussing his punishment."
               }
-            ]
+            ],
+            "id": "p-648abbed84a30276"
           },
           {
             "type": "paragraph",
@@ -2448,7 +2637,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-1a85921f74621dc7"
           },
           {
             "type": "paragraph",
@@ -2471,7 +2661,8 @@
                 "type": "text",
                 "text": "However, the leaves are quickly consumed, and the crisis in Dreamville persists. Clockie summons a few companions from the Compass, hoping their collective wisdom will devise a solution."
               }
-            ]
+            ],
+            "id": "p-9433e1ff2a85ca50"
           },
           {
             "type": "paragraph",
@@ -2485,7 +2676,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-a229c5f658766268"
           },
           {
             "type": "paragraph",
@@ -2494,7 +2686,8 @@
                 "type": "text",
                 "text": "Mirror Princess led her Origami Birds into the wilderness to build the land, only to be shattered by pieces by monsters."
               }
-            ]
+            ],
+            "id": "p-dcae500ab0841d7a"
           },
           {
             "type": "paragraph",
@@ -2508,7 +2701,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-978cc504c7956a88"
           },
           {
             "type": "paragraph",
@@ -2517,7 +2711,8 @@
                 "type": "text",
                 "text": "Captain Revolver embarked on an adventure in a dark cave with the little butterflies, only to disappear into its abyssal depths."
               }
-            ]
+            ],
+            "id": "p-fbe409643916046e"
           },
           {
             "type": "paragraph",
@@ -2533,7 +2728,8 @@
                 "type": "text",
                 "text": "Tears stream down his face once more. \"I'm just a crybaby,\" he laments. \"If only I could be Brother Hanu!\" He tries to imitate Brother Hanu's *hmph*, but it doesn't sound cool at all."
               }
-            ]
+            ],
+            "id": "p-55a0340a91bd6f5c"
           },
           {
             "type": "paragraph",
@@ -2542,7 +2738,8 @@
                 "type": "text",
                 "text": "\"Tick-tock... No, no, if I were Brother Hanu, I wouldn't cry!\""
               }
-            ]
+            ],
+            "id": "p-f94dbf8e23512e7d"
           },
           {
             "type": "paragraph",
@@ -2568,7 +2765,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-11fb4d31b960cc07"
           },
           {
             "type": "paragraph",
@@ -2577,7 +2775,8 @@
                 "type": "text",
                 "text": "From that night forward, Clockie delves into Professor Owl's scrolls, determined to uncover the secrets of the desert. He retrieves Mirror Princess's map, seeking allies who can aid the town. And he grasps Captain Revolver's pistol and begins patrolling the town..."
               }
-            ]
+            ],
+            "id": "p-734ffc32d812e297"
           },
           {
             "type": "paragraph",
@@ -2586,7 +2785,8 @@
                 "type": "text",
                 "text": "\"Tick-tock. One day, I'll be even cooler than you!\""
               }
-            ]
+            ],
+            "id": "p-4f4632755b1a073e"
           },
           {
             "type": "paragraph",
@@ -2608,7 +2808,8 @@
                 "type": "text",
                 "text": "figure is gazing at the dedicated Clockie and emits a cool *hmph*."
               }
-            ]
+            ],
+            "id": "p-3b31b0fac34055c9"
           },
           {
             "type": "paragraph",
@@ -2622,7 +2823,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-6e06cb979e1be9ff"
           }
         ]
       }

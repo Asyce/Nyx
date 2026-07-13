@@ -7,7 +7,7 @@
 (function(){
   window.CM_CFG_BETA = window.CM_CFG_BETA || {};
   window.CM_CFG_BETA["zzz"] = {
-  "version": "3.1.4+17279672",
+  "version": "3.1.5+17516165",
   "liveVersion": "3.0",
   "newCount": 2,
   "changedCount": 7,
@@ -55,7 +55,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "3.1.4+17279672",
+        "version": "3.1.5+17516165",
         "sections": [
           {
             "title": "Skills",
@@ -2902,7 +2902,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "3.1.4+17279672",
+        "version": "3.1.5+17516165",
         "sections": [
           {
             "title": "Skills",
@@ -5607,7 +5607,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "3.1.4+17279672",
+        "version": "3.1.5+17516165",
         "sections": [
           {
             "title": "Skills",
@@ -8297,7 +8297,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "3.1.4+17279672",
+        "version": "3.1.5+17516165",
         "sections": [
           {
             "title": "Skills",
@@ -10923,7 +10923,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "3.1.4+17279672",
+        "version": "3.1.5+17516165",
         "sections": [
           {
             "title": "Skills",
@@ -13621,7 +13621,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "3.1.4+17279672",
+        "version": "3.1.5+17516165",
         "sections": [
           {
             "title": "Skills",
@@ -16199,7 +16199,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "3.1.4+17279672",
+        "version": "3.1.5+17516165",
         "sections": [
           {
             "title": "Skills",
@@ -18760,7 +18760,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "3.1.4+17279672",
+        "version": "3.1.5+17516165",
         "sections": [
           {
             "title": "Skills",
@@ -21372,7 +21372,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "3.1.4+17279672",
+        "version": "3.1.5+17516165",
         "sections": [
           {
             "title": "Skills",

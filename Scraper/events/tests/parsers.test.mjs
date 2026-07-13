@@ -207,6 +207,16 @@ test('successful reconciliation prunes absent bad/future rows but retains genuin
   assert.ok(!reconcileById([old, badEnded], [], Date.parse('2026-07-12T00:00:00.000Z'), (ev) => !/Maintenance/.test(ev.title)).some((ev) => ev.id === 'bad-ended'));
 });
 
+test('successful reconciliation does not downgrade a verified official window to undated', () => {
+  const dated = makeEvent({ game:'gi', sourceKey:'hoyo-ann', nativeId:82, title:'Summer Event', start:'2026-07-01T03:00:00.000Z', end:'2026-08-11T02:59:00.000Z', sourceName:'Official', sourceUrl:'https://official' });
+  const undated = makeEvent({ game:'gi', sourceKey:'hoyo-ann', nativeId:82, title:'Summer Event', start:null, end:null, sourceName:'Official', sourceUrl:'https://official' });
+  const [kept] = reconcileById([dated], [undated], Date.parse('2026-07-13T00:00:00.000Z'));
+  assert.equal(kept.start, dated.start);
+  assert.equal(kept.end, dated.end);
+  assert.equal(kept.needs_review, false);
+  assert.equal(kept.confidence, 'high');
+});
+
 test('normalizeTitle collapses punctuation and version noise', () => {
   assert.equal(normalizeTitle('Version 3.5 "Blade of Past" Event'), 'blade of past');
 });

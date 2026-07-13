@@ -4,10 +4,11 @@
   "id": "clara-s-adventures-in-mecha-world",
   "name": "Clara's Adventures in Mecha-World",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Clara%27s_Adventures_in_Mecha-World",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-aa3b7f7eb1c2c7ff"
           },
           {
             "type": "paragraph",
@@ -38,7 +40,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-c53e9e8eee6d458e"
           },
           {
             "type": "paragraph",
@@ -47,7 +50,8 @@
                 "type": "text",
                 "text": "\"The Dovebrook defense line... has fallen.\""
               }
-            ]
+            ],
+            "id": "p-9404527926a207bb"
           },
           {
             "type": "paragraph",
@@ -56,7 +60,8 @@
                 "type": "text",
                 "text": "Deathly silence spreads through the war room like a thick fog. Clara remains with her back to the mechatron generals as if the messenger never arrived. Her shoulders are stiff with tension. Her eyes, stained a weary red from overseeing dozens of battlefields, gaze out the window at the chaos in the heart of Duomension City."
               }
-            ]
+            ],
+            "id": "p-786881693b54b41e"
           },
           {
             "type": "paragraph",
@@ -65,7 +70,8 @@
                 "type": "text",
                 "text": "Brutal street combat breaks out. Orch soldiers flood the streets through defense gaps, shredding anyone who resists. Mechatron warriors flee in numbers as the city defenders' morale shatters. This scene reminds Clara of her childhood, when Svarog would have her sit by the fireplace after a day of playing. Snow on her frozen fingertips would melt into tiny beads of water and slide through her fingers."
               }
-            ]
+            ],
+            "id": "p-7e33af23b3effd64"
           },
           {
             "type": "paragraph",
@@ -74,7 +80,8 @@
                 "type": "text",
                 "text": "Now her army is melting away, just like those snowflakes by the hearth."
               }
-            ]
+            ],
+            "id": "p-65800e731d7f1593"
           },
           {
             "type": "paragraph",
@@ -83,7 +90,8 @@
                 "type": "text",
                 "text": "\"The war is over. The Phantasmoon did not favor us.\" General Pascal breaks the silence, his heavy alloy palm pressing onto the edge of the tactical sandpit as he tips over the last blue marker. \"High Commander, survival is the higher priority. I suggest we initiate the final protocol and preserve what's left of our civilization in the World in Canvas.\""
               }
-            ]
+            ],
+            "id": "p-6a6efcfa8c9f3f6a"
           },
           {
             "type": "paragraph",
@@ -92,7 +100,8 @@
                 "type": "text",
                 "text": "The other mechatron generals around the sandpit flicker their eyes as they extrapolate data at high speeds. A low hum fills the room. The conclusion is obvious. Clara turns, her red eyes scanning the stoic faces of her generals before settling on Pascal."
               }
-            ]
+            ],
+            "id": "p-c3f6b3b72b6b9e09"
           },
           {
             "type": "paragraph",
@@ -101,7 +110,8 @@
                 "type": "text",
                 "text": "\"General Pascal,\" Clara says with a voice of chilling calm, \"the Phantasmoon never promised victory to anyone. It only shines on those who choose to stay in the combat.\""
               }
-            ]
+            ],
+            "id": "p-baa3ff38fab21e17"
           },
           {
             "type": "paragraph",
@@ -110,7 +120,8 @@
                 "type": "text",
                 "text": "\"Commander, do you want us all to end up as wispae?\" a young general blurts out."
               }
-            ]
+            ],
+            "id": "p-6bde0f1c933bcc8f"
           },
           {
             "type": "paragraph",
@@ -119,7 +130,8 @@
                 "type": "text",
                 "text": "The room falls silent as the generals trade looks. The only sound is the muffled thud of distant explosions through the blast-proof glass."
               }
-            ]
+            ],
+            "id": "p-ce16bde87acca8f7"
           },
           {
             "type": "paragraph",
@@ -128,7 +140,8 @@
                 "type": "text",
                 "text": "Clara walks to the sandpit and brushes her fingers over the fallen blue markers. She stops at a massive model that was once just a prop in the Star Rail Exhibition Area. The human commander of the mechatron legion actually lets out a faint smile."
               }
-            ]
+            ],
+            "id": "p-178c1eb45fa47b3c"
           },
           {
             "type": "paragraph",
@@ -137,7 +150,8 @@
                 "type": "text",
                 "text": "\"I see. Now I know why you sent me here, Laughter.\" Clara whispers."
               }
-            ]
+            ],
+            "id": "p-f902bf4486bc0920"
           },
           {
             "type": "paragraph",
@@ -146,7 +160,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -155,7 +170,8 @@
                 "type": "text",
                 "text": "Clara gives her final order, claiming she has the key to turning the tide, but the mechatron generals must hold their positions for three more hours. When the meeting ends, she returns to the window and prays with her eyes closed."
               }
-            ]
+            ],
+            "id": "p-50030208068c393f"
           },
           {
             "type": "paragraph",
@@ -164,7 +180,8 @@
                 "type": "text",
                 "text": "\"O Megastructure once driven by the Destruction, ancestor of the mechatrons, weapon of the earth and mountains... I absolve you of your wrath. I call you by your true name...\""
               }
-            ]
+            ],
+            "id": "p-36c7e0f33b8a14bd"
           },
           {
             "type": "paragraph",
@@ -173,7 +190,8 @@
                 "type": "text",
                 "text": "\"Engine of Creation!\""
               }
-            ]
+            ],
+            "id": "p-b2bb314fb1dcc069"
           }
         ]
       }

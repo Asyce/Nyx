@@ -4,10 +4,11 @@
   "id": "tales-of-a-snow-winged-goose",
   "name": "Tales of a Snow-Winged Goose",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Tales_of_a_Snow-Winged_Goose",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Pers the Penguin"
               }
-            ]
+            ],
+            "id": "p-24ff25adf01f8d20"
           },
           {
             "type": "paragraph",
@@ -68,7 +70,8 @@
                 "type": "text",
                 "text": "But, perhaps because of some interstellar catastrophe or even a simple family argument, several penguin clans split off from that galaxy-roaming flock and landed in the icy waters to the south of Teyvat. They became our first penguins. But those new arrivals found our atmosphere too thick to fly in, and their lack of prior experience with water left them unable to swim as well. Until, that is, the birth of the marvelous Pers the Penguin — the first penguin to learn to swim."
               }
-            ]
+            ],
+            "id": "p-de7b5ea518d9272e"
           },
           {
             "type": "paragraph",
@@ -77,7 +80,8 @@
                 "type": "text",
                 "text": "Like many young penguins, Pers would gaze up at the starry night sky, or the blue skies of daytime, and say to himself: \"If only I could fly, like my ancestors!\""
               }
-            ]
+            ],
+            "id": "p-5d9a96823aa7f05f"
           },
           {
             "type": "paragraph",
@@ -136,7 +140,8 @@
                 "type": "text",
                 "text": "And as all children know, the frigatebird got a new nickname after all this for its greed and unreasonable nature: the piratebird."
               }
-            ]
+            ],
+            "id": "p-1397489b59e2dc69"
           },
           {
             "type": "paragraph",
@@ -155,7 +160,8 @@
                 "type": "text",
                 "text": "And so Pers asked a petrel for help. But the petrel would only teach him some impractical tricks, and not the basics that he needed most. Because, that noble seabird thought, surely it was better to learn how to soar through a stormy sky than to worry about trivial matters like taking off and landing."
               }
-            ]
+            ],
+            "id": "p-ad013d14fce3d3b5"
           },
           {
             "type": "paragraph",
@@ -194,13 +200,15 @@
                 "type": "text",
                 "text": "Once Pers had shown them the way, the penguins took to life in the water and forgot their spacefaring past. Not even in their dreams did they remember that limitless void. The penguins live here now, between sea and land."
               }
-            ]
+            ],
+            "id": "p-9469eaf77ea9b4eb"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
@@ -212,7 +220,8 @@
                 "type": "text",
                 "text": "Princess Marcotte"
               }
-            ]
+            ],
+            "id": "p-6dc826d9002f847f"
           },
           {
             "type": "paragraph",
@@ -271,7 +280,8 @@
                 "type": "text",
                 "text": "But he only felt this way because he was ashamed of not being as pretty as he wanted to be."
               }
-            ]
+            ],
+            "id": "p-3545a7009322c8b4"
           },
           {
             "type": "paragraph",
@@ -280,7 +290,8 @@
                 "type": "text",
                 "text": "And so, he had the princess and the crab claw locked up in a golden box. Then he hid the golden box in a mirror made of purest water. And then he threw the mirror into the sapphire lake of the Pluie Lotus Kingdom. There was only one way to reverse all those layers of confinement and free the princess (and the crab claw) — to make the Mother Lotus laugh. And as everyone knows, Pluie Lotuses are all too used to weeping."
               }
-            ]
+            ],
+            "id": "p-4638d2e2808c752f"
           },
           {
             "type": "paragraph",
@@ -289,7 +300,8 @@
                 "type": "text",
                 "text": "\"All is well again,\" said the king. \"I can rest my regal head in peace. All I need to do is wait and wait, for my beloved daughter's seed to start to crack. She will lose her wanderlust. For what choice will she have, but to grow...\""
               }
-            ]
+            ],
+            "id": "p-34f225905987c07a"
           },
           {
             "type": "paragraph",
@@ -298,7 +310,8 @@
                 "type": "text",
                 "text": "\"And then my daughter will be like me. She will follow her destiny and grow strong and healthy.\""
               }
-            ]
+            ],
+            "id": "p-4cd206bd7d470611"
           },
           {
             "type": "paragraph",
@@ -357,13 +370,15 @@
                 "type": "text",
                 "text": "In her crab claw ship, the princess sailed the ocean waves on her voyage to the new world of her dreams. And ever since, sailors have told tales of a crab claw ship."
               }
-            ]
+            ],
+            "id": "p-5d056eb2b2cdf068"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "vol-3",
       "label": "Vol. 3",
       "document": {
         "version": 1,
@@ -375,7 +390,8 @@
                 "type": "text",
                 "text": "Mr. Fox and the Clockwork Guardsman"
               }
-            ]
+            ],
+            "id": "p-edd569ccbbc7521f"
           },
           {
             "type": "paragraph",
@@ -414,7 +430,8 @@
                 "type": "text",
                 "text": "The Clockwork Guardsman had always had a worry curled up inside him, and as the years passed and his mechanisms aged, that worry got bigger and bigger, like a balloon, and heavier and heavier, like a piglet, and it was always there no matter how much he tried to shake it off, like Mr. Fox's lovely tail. It was a very worrying worry."
               }
-            ]
+            ],
+            "id": "p-6afd0c7be4b90b34"
           },
           {
             "type": "paragraph",
@@ -453,7 +470,8 @@
                 "type": "text",
                 "text": "As, we all know, Ms. Toad is Death's envoy, the queen of all that is ugly, cold, and annoying. She guards that coldest jewel, Death itself."
               }
-            ]
+            ],
+            "id": "p-a3aafa1b77139db2"
           },
           {
             "type": "paragraph",
@@ -492,7 +510,8 @@
                 "type": "text",
                 "text": "Death slipped from Ms. Jackal's hand and shattered on the ground. The fragments melted into the earth, never to be seen again. And as that happened, the creatures of the world started to die as normal once more, with all that should have been dead now being so. Except, that is, for Mr. Fox, who should have died, but didn't. His life dragged on."
               }
-            ]
+            ],
+            "id": "p-b6e447a2c134cbc9"
           },
           {
             "type": "paragraph",
@@ -511,7 +530,8 @@
                 "type": "text",
                 "text": "And they searched and they searched and then they searched some more. They searched until Mr. Fox's beautiful red coat had turned white. They searched until the Clockwork Guardsman's pride and joy, his official guard badge, had rusted. Finally, they reached the place where Ms. Toad lived."
               }
-            ]
+            ],
+            "id": "p-4867de3e265d0661"
           },
           {
             "type": "paragraph",
@@ -590,7 +610,8 @@
                 "type": "text",
                 "text": "After countless years of hardships, a battered and beaten Clockwork Guardsman was thrown into the fires of the scrapping plant, to melt into a metallic ocean of millennia of waste. All those slow metal thoughts and hard metal ideas became swift and liquid. They evolved and combined and formed a new life. It was a glorious return for all metal lifeforms, making even the release of death fade in comparison."
               }
-            ]
+            ],
+            "id": "p-fc343de87ed587ba"
           },
           {
             "type": "paragraph",
@@ -599,7 +620,8 @@
                 "type": "text",
                 "text": "And so the Clockwork Guardsman saw the future and gave up his dreams of dying. His good friend Mr. Fox, meanwhile, withdrew his thieving hand and left the jewel where it was. Indeed, life encompasses more than just bitterness akin to tea. If he had a friend to accompany him through the hard times, what rush was there? He could steal this extraordinary jewel later."
               }
-            ]
+            ],
+            "id": "p-ef195a0cfb4e051e"
           },
           {
             "type": "paragraph",
@@ -608,7 +630,8 @@
                 "type": "text",
                 "text": "Later, as all children know, Mr. Fox and the Clockwork Guardsman lived long, long lives, until the little world they lived in was but a desert, until the sun went out, until the moon fell... And even then, their story didn't end. It lived on, passed from world to world."
               }
-            ]
+            ],
+            "id": "p-b5634c4fd03b5068"
           }
         ]
       }

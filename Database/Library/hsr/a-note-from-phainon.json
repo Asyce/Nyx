@@ -4,10 +4,11 @@
   "id": "a-note-from-phainon",
   "name": "A Note from Phainon",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/A_Note_from_Phainon",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "To my friend (Trailblazer),"
               }
-            ]
+            ],
+            "id": "p-b6b91ec08c15c338"
           },
           {
             "type": "paragraph",
@@ -67,7 +69,8 @@
                 "type": "text",
                 "text": "And I believed it with every fiber of my being."
               }
-            ]
+            ],
+            "id": "p-280d01e7a9b0dbd1"
           },
           {
             "type": "paragraph",
@@ -115,7 +118,8 @@
                 "type": "text",
                 "text": "Yet the hand of the clock, dripping with golden blood, reset again and again, leaving tomorrow a dawn that will never break."
               }
-            ]
+            ],
+            "id": "p-f0c9e85bf5ecff1b"
           },
           {
             "type": "paragraph",
@@ -163,7 +167,8 @@
                 "type": "text",
                 "text": "and wrote a new tomorrow for Amphoreus."
               }
-            ]
+            ],
+            "id": "p-24812095629abd92"
           },
           {
             "type": "paragraph",
@@ -198,7 +203,8 @@
                 "type": "text",
                 "text": "To forge my own destiny, just like you."
               }
-            ]
+            ],
+            "id": "p-18cbd8456ea1f6cc"
           },
           {
             "type": "paragraph",
@@ -233,7 +239,8 @@
                 "type": "text",
                 "text": "finally taking shape under your gaze."
               }
-            ]
+            ],
+            "id": "p-5cdd76e5a10855e4"
           },
           {
             "type": "paragraph",
@@ -255,7 +262,8 @@
                 "type": "text",
                 "text": "my hero."
               }
-            ]
+            ],
+            "id": "p-4694c4a1937b8d30"
           },
           {
             "type": "paragraph",
@@ -264,7 +272,8 @@
                 "type": "text",
                 "text": "Phainon"
               }
-            ]
+            ],
+            "id": "p-b1571864e54113b2"
           }
         ]
       }

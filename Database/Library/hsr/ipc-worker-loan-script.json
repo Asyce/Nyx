@@ -4,10 +4,11 @@
   "id": "ipc-worker-loan-script",
   "name": "IPC Worker Loan Script",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/IPC_Worker_Loan_Script",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -32,7 +33,8 @@
                 "type": "text",
                 "text": "*"
               }
-            ]
+            ],
+            "id": "p-50abaef594a45a95"
           },
           {
             "type": "paragraph",
@@ -41,7 +43,8 @@
                 "type": "text",
                 "text": "Loan Receipt"
               }
-            ]
+            ],
+            "id": "p-2ee31c0f5e69196f"
           },
           {
             "type": "paragraph",
@@ -50,7 +53,8 @@
                 "type": "text",
                 "text": "I, ██████, certify that I have borrowed 50 shield from Lauder the local, in order to purchase Jarilo souvenirs. Upon the reputation of the IPC, this document is provided as evidence to ensure that the balance will be repaid immediately after credits are issued"
               }
-            ]
+            ],
+            "id": "p-098d54d756b5436d"
           },
           {
             "type": "paragraph",
@@ -59,7 +63,8 @@
                 "type": "text",
                 "text": "Month ██ Day ██"
               }
-            ]
+            ],
+            "id": "p-373f35fb6d61559f"
           },
           {
             "type": "paragraph",
@@ -68,7 +73,8 @@
                 "type": "text",
                 "text": "The attachment below features the electronic seal of the IPC, as well as a big, red tick that indicates completion of the loan repayment."
               }
-            ]
+            ],
+            "id": "p-33177d029546f4aa"
           }
         ]
       }

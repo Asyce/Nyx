@@ -7,7 +7,7 @@
 (function(){
   window.CM_CFG_BETA = window.CM_CFG_BETA || {};
   window.CM_CFG_BETA["gi"] = {
-  "version": "6.7.51",
+  "version": "6.7.52",
   "liveVersion": "6.7",
   "newCount": 4,
   "changedCount": 12,
@@ -41,7 +41,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.51",
+        "version": "6.7.52",
         "sections": [
           {
             "title": "Talents",
@@ -2746,7 +2746,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.51",
+        "version": "6.7.52",
         "sections": [
           {
             "title": "Talents",
@@ -5351,7 +5351,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.51",
+        "version": "6.7.52",
         "sections": [
           {
             "title": "Talents",
@@ -8179,7 +8179,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.51",
+        "version": "6.7.52",
         "sections": [
           {
             "title": "Talents",
@@ -10347,7 +10347,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.51",
+        "version": "6.7.52",
         "sections": [
           {
             "title": "Talents",
@@ -12911,7 +12911,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.51",
+        "version": "6.7.52",
         "sections": [
           {
             "title": "Talents",
@@ -14931,7 +14931,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.51",
+        "version": "6.7.52",
         "sections": [
           {
             "title": "Talents",
@@ -17330,7 +17330,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.51",
+        "version": "6.7.52",
         "sections": [
           {
             "title": "Talents",
@@ -20027,7 +20027,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.51",
+        "version": "6.7.52",
         "sections": [
           {
             "title": "Talents",
@@ -22485,7 +22485,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.51",
+        "version": "6.7.52",
         "sections": [
           {
             "title": "Talents",
@@ -25275,7 +25275,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.51",
+        "version": "6.7.52",
         "sections": [
           {
             "title": "Talents",
@@ -27987,7 +27987,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.51",
+        "version": "6.7.52",
         "sections": [
           {
             "title": "Talents",
@@ -30185,7 +30185,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.51",
+        "version": "6.7.52",
         "sections": [
           {
             "title": "Talents",
@@ -32035,7 +32035,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "6.7.51",
+        "version": "6.7.52",
         "sections": [
           {
             "title": "Talents",

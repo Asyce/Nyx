@@ -4,10 +4,11 @@
   "id": "who-wins-the-last-war-torn-page",
   "name": "Who Wins the Last War (Torn Page)",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Who_Wins_the_Last_War_(Torn_Page)",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-6e6ea7e1675130fe"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "No matter what we do, experience is essential. However, that might not hold true when it comes to the black tide. Imagine a master potter effortlessly surpassing his apprentices — experience usually counts. But surviving the black tide once doesn't guarantee safety the next time. Confronting this seemingly sentient natural disaster — though this idea is not confirmed, the black tide always strikes at our weakest points, and that's why I'm inclined to believe in this proposition — requires more than just relying on past experience and habitual thinking. Doing so will only lead to greater losses."
               }
-            ]
+            ],
+            "id": "p-f672aac43dfcf7d3"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "As we have already discussed, the hazards posed by the black tide encompass two major components:"
               }
-            ]
+            ],
+            "id": "p-ec9438ffe2bcfc58"
           },
           {
             "type": "paragraph",
@@ -51,7 +55,8 @@
                 "type": "text",
                 "text": "(I) The inexplicable black tide itself"
               }
-            ]
+            ],
+            "id": "p-6d432eab9b403cb9"
           },
           {
             "type": "paragraph",
@@ -60,7 +65,8 @@
                 "type": "text",
                 "text": "(II) The terrifying creatures that emerge from the black tide"
               }
-            ]
+            ],
+            "id": "p-7e8decde56af49fc"
           },
           {
             "type": "paragraph",
@@ -69,7 +75,8 @@
                 "type": "text",
                 "text": "When the black tide is relatively small in scale, we can temporarily diminish it by eliminating the monsters it spawns. However, if the monsters emerge faster than we can deploy forces to counter them, the black tide quickly expands beyond our ability to manage. This makes \"assessing the black tide's scale\" a critical challenge: If we underestimate it, a considerable number of our excellent warriors may die in vain due to overconfidence. Conversely, if we overestimate it, we will waste resources on relocating people and assets, which will inevitably disrupt normal life and cause unnecessary panic, thereby hampering the smooth functioning of the city-state."
               }
-            ]
+            ],
+            "id": "p-61d890885690a32f"
           },
           {
             "type": "paragraph",
@@ -83,7 +90,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-6e6ea7e1675130fe-2"
           },
           {
             "type": "paragraph",
@@ -92,7 +100,8 @@
                 "type": "text",
                 "text": "Among all the cities of Amphoreus, two cities stand out for their relatively effective methods of countering the black tide:"
               }
-            ]
+            ],
+            "id": "p-9d0a7354f8c1611c"
           },
           {
             "type": "paragraph",
@@ -108,7 +117,8 @@
                 "type": "text",
                 "text": "We are all familiar with this situation: We utilize the great mobility of Castrum Kremnos to deploy forces proactively, aiming to subdue the black tide as soon as it appears. While this approach has proven effective due to our efficient military mobilization, the steadily increasing casualties in each battle serve as a grim reminder that even with Nikador's blessings, whether Castrum Kremnos can consistently win such wars remains an open question."
               }
-            ]
+            ],
+            "id": "p-9ed9ef4b1a2f2d9f"
           },
           {
             "type": "paragraph",
@@ -124,7 +134,8 @@
                 "type": "text",
                 "text": "To the Kremnoans, the Okhemans seem to have done nothing at all. They simply hide behind Kephale, as if they were still living in the Era Chrysea, with no sense of crisis or honor. However, I must point out that the Okhemans' wit lies exactly in leveraging their strengths without shame. They achieved a result similar to ours in battling against the black tide, but at a much smaller cost. (Seen from their perspective, their reliance on the protection of Kephale is hardly a flaw, a point I believe most would agree with.)"
               }
-            ]
+            ],
+            "id": "p-90b5dd57c8358732"
           },
           {
             "type": "paragraph",
@@ -133,7 +144,8 @@
                 "type": "text",
                 "text": "To sum up, both Castrum Kremnos and its rival city, Okhema, have their own strengths and shortcomings in confronting the black tide. Obviously, it doesn't take a man of extraordinary wit to realize that the deep-rooted systemic flaws cannot be fixed with temporary measures in no time. Yet the black tide's threat persists, and it's growing so fast that soon even Nikador won't be able to handle it alone."
               }
-            ]
+            ],
+            "id": "p-ae74d282c591bcde"
           },
           {
             "type": "paragraph",
@@ -142,7 +154,8 @@
                 "type": "text",
                 "text": "Given the above-mentioned analysis, we may reach the following conclusion:"
               }
-            ]
+            ],
+            "id": "p-cfbd1510e4e2b1ab"
           },
           {
             "type": "paragraph",
@@ -151,7 +164,8 @@
                 "type": "text",
                 "text": "Before the black tide grows too powerful to handle, we must unite the power of Castrum Kremnos and Okhema. The smaller cities won't make much of a difference. We have three possible ways to achieve this:"
               }
-            ]
+            ],
+            "id": "p-7a00caf40bf5db87"
           },
           {
             "type": "paragraph",
@@ -160,7 +174,8 @@
                 "type": "text",
                 "text": "1. Castrum Kremnos annexes Okhema, taking full control of its resources and strengths."
               }
-            ]
+            ],
+            "id": "p-e465a0e69a53dd75"
           },
           {
             "type": "paragraph",
@@ -169,7 +184,8 @@
                 "type": "text",
                 "text": "2. Okhema annexes Castrum Kremnos, taking full control of its resources and strengths."
               }
-            ]
+            ],
+            "id": "p-cde6ce030aeacf4a"
           },
           {
             "type": "paragraph",
@@ -178,7 +194,8 @@
                 "type": "text",
                 "text": "3. Castrum Kremnos and Okhema merge into a united entity with the spirit of Kremnos."
               }
-            ]
+            ],
+            "id": "p-e77286ed67423076"
           },
           {
             "type": "paragraph",
@@ -192,7 +209,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-6e6ea7e1675130fe-3"
           }
         ]
       }

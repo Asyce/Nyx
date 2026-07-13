@@ -4,17 +4,19 @@
   "id": "underground-encyclopedia-animals",
   "name": "Underground Encyclopedia: Animals",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Underground_Encyclopedia:_Animals",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "part-i",
       "label": "Part I",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-7562e8c643d160f6"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "Crystalline Lizard is a cold-blooded reptile found in the underground mines. As it matures into adulthood, their leathery scales will produce Krystalloid, which will vary in color depending on the region, temperature, and health of the lizard. Experts have pointed out that Crystalline Lizards expel Geomarrow and other minerals from their salt glands through the osmotic pressure in the body. The Krystalloid is a byproduct of regulating the osmotic balance of body fluids."
               }
-            ]
+            ],
+            "id": "p-defbfe5abf768e0d"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "The randomness of the Krystalloid color has sparked a wave of collectors, who are willing to pay exorbitant prices for wild Crystalline Lizards with a rare color. This has caused an ecological imbalance in the mines. In the past, many pest outbreaks have been tied to the decline in the Crystalline Lizard population. In response, Belobog has prohibited the hunting of wild Crystalline Lizards."
               }
-            ]
+            ],
+            "id": "p-7642c4898cfb23db"
           },
           {
             "type": "paragraph",
@@ -55,11 +60,13 @@
                 "type": "text",
                 "text": "The alkaloids in the body fluid of the Crystalline Lizard are often used in pharmaceutics. This body fluid is dissolved in water and made into a spray. When the spray is applied to a patient, the droplets reach the pulmonary alveoli via the upper respiratory tract and are shown to drive out mineral dust in the lung via the bronchi, preventing the dust from entering the interstitial lung and lymph nodes. Researchers, however, do not understand fully how this process works. Thus, it is common for Underworld doctors to breed Crystalline Lizards in captivity, but they don't have any value to the collectors."
               }
-            ]
+            ],
+            "id": "p-66d9ca14bdf3853f"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a-2"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-5f0d4431ef72f57a"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "Geomarrow Olm is an amphibian that burrows near underground water sources. With white and pink feathery scales, its highly-developed hearing and smell make up for its degraded vision. It's able to survive both on land and in the water. According to the Geomarrow Development Group, populations of Geomarrow Olm were always found near large mines, for reasons unknown. People assumed that these olms fed on Geomarrow, hence the name."
               }
-            ]
+            ],
+            "id": "p-b89d953e1bc1c99e"
           },
           {
             "type": "paragraph",
@@ -91,7 +100,8 @@
                 "type": "text",
                 "text": "Biologists have pointed out that the Geomarrow Olms live in an environment lacking in food. This severe environment has caused them to evolve into organisms with superior metabolism and antioxidant capacity. They are capable of surviving without food for up to 10 years, due to their slow metabolism and limited movement. However, it is scientifically reasonable to assume that they could survive more than 15 years without feeding. So, experts believe that it is more likely that their feeding behaviors are hard to observe, rather than draw the conclusion that they feed on Geomarrow."
               }
-            ]
+            ],
+            "id": "p-38fd272879260d24"
           },
           {
             "type": "paragraph",
@@ -100,11 +110,13 @@
                 "type": "text",
                 "text": "The Geomarrow Olms by nature are afraid of and reside away from the humans in darker and more moist areas. The Geomarrow Olms do not pose a threat to humans."
               }
-            ]
+            ],
+            "id": "p-507536beea0557db"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a-3"
           },
           {
             "type": "paragraph",
@@ -118,7 +130,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-2ecd5af72277b067"
           },
           {
             "type": "paragraph",
@@ -127,7 +140,8 @@
                 "type": "text",
                 "text": "Funeral Worms are a subspecies of coleoptera commonly found in underground caves. They range in lengths of up to 3.5 centimeters, with an average length of 1.2 centimeters. They are usually black and orange in appearance. Their flat soft bodies allow them to crawl under animal carcasses. After discovering a potential animal carcass, they gather in swarms around the body. They spend a great deal of time confirming that the animal is dead before they dig the ground beneath it to decompose it."
               }
-            ]
+            ],
+            "id": "p-a050b795211340a2"
           },
           {
             "type": "paragraph",
@@ -136,20 +150,23 @@
                 "type": "text",
                 "text": "Funeral worms observing a dead animal is similar to attending a funeral, hence the name. Some biologists have suggested their unique habits may be related to creatures who barely move, like the Geomarrow Olm. If they misjudge prey, they might become prey themselves. Funeral worms are one of the most important parts of underground ecology, breaking down carcasses and feces of a wide range of animals. They are also commonly found in cemeteries and bat caves."
               }
-            ]
+            ],
+            "id": "p-97c0f369c3b3d1c4"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "part-ii",
       "label": "Part II",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -173,7 +190,8 @@
                 "type": "text",
                 "text": "Adult Crystal Scorpions are almost entirely covered with highly transparent carapaces. Growing up to five or six centimeters long, the body is clearly segmented into two: Head and chest, and the abdomen. There are six pairs of appendages on the head and chest. The first pair is used for feeding. The second pair is threatening crab-like claws for attacking and defending, and for touching things. The remaining appendages are all used for movement. The abdomen is the scorpion tail, which is bent forward and poisonous. The venom is not lethal to humans, but it will cause a burning sensation."
               }
-            ]
+            ],
+            "id": "p-5caea6a20ac7e8ce"
           },
           {
             "type": "paragraph",
@@ -182,7 +200,8 @@
                 "type": "text",
                 "text": "The transparent carapace for which the Crystal Scorpion is famous turns out to be a mimicry of Geomarrow, and not some expensive crystal. While Geomarrow dust is processed from the body, it assimilates with the hard shell to form this unique transparent shell. With its help, Crystal Scorpions can feed on Crystal Lizards who live near Geomarrow."
               }
-            ]
+            ],
+            "id": "p-26b0eb5b9c4d3279"
           },
           {
             "type": "paragraph",
@@ -191,11 +210,13 @@
                 "type": "text",
                 "text": "During the period in which Crystal Lizards were hunted by collectors, crystal scorpions were also hunted. As a result, their population was reduced significantly to the point where they're now considered a rare and endangered species. They are traded at high prices in underground markets."
               }
-            ]
+            ],
+            "id": "p-67f596afbb0fe0b9"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a-2"
           },
           {
             "type": "paragraph",
@@ -209,7 +230,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-9024ef7778cfc71e"
           },
           {
             "type": "paragraph",
@@ -218,7 +240,8 @@
                 "type": "text",
                 "text": "The Mad Moles have stout powerful limbs and well-developed claws, which are good for digging. However, they would much prefer to use their head and teeth. Their eyes are completely defunct, with little or no vision. They have no outer ear, and the ear shell is a small fold of skin around the ear hole. With short tails that are slightly longer than their hind feet, the moles are usually bare or a little hairy. People once thought they fed primarily only on plant roots, but it is now common knowledge that they are omnivores."
               }
-            ]
+            ],
+            "id": "p-46f37bec38abb337"
           },
           {
             "type": "paragraph",
@@ -227,7 +250,8 @@
                 "type": "text",
                 "text": "Ecologists have discovered that Mad Moles have a number of distinct characteristics that are detrimental to the species' survival. Now, researchers believe that the rapid spread of Fragmentum is at the root of these characteristics: Mad Moles appear to be more sensitive to a specific substance in Fragmentum than other species. As a result, they have become extremely aggressive, with the ability to swarm and devour mammals several or even dozens of times their size."
               }
-            ]
+            ],
+            "id": "p-093a3112d1190802"
           },
           {
             "type": "paragraph",
@@ -236,7 +260,8 @@
                 "type": "text",
                 "text": "Then, it is the never-ending hell of survival. Mad Moles rarely leave their burrows, but keep expanding them because of two factors: First, Mad Moles have a severe sensitivity to specific substances in the surface atmosphere, making it impossible for them to survive outside of their burrows. Second, the Fragmentum hastens the deterioration of their limited habitat. As a result, Mad Moles must keep searching for new habitats underground. If an unfortunate creature were to fall into its burrow, the moles would eat it. If there were no such creatures, they would eat each other. There will always be a massive pile of bones in the Mad Moles' burrows."
               }
-            ]
+            ],
+            "id": "p-3446427e850d162d"
           },
           {
             "type": "paragraph",
@@ -245,7 +270,8 @@
                 "type": "text",
                 "text": "However, their remarkable reproductive capacity more than compensates for their low survival qualities. Even if the Mad Mole population is artificially reduced to a very small number, it still can quickly recover after a few months."
               }
-            ]
+            ],
+            "id": "p-cec9d1380002925a"
           },
           {
             "type": "paragraph",
@@ -254,11 +280,13 @@
                 "type": "text",
                 "text": "There was once an unfortunate miner who used to hear the moles scurrying behind the wall every night as he slept. He would experience chronic hallucinations and nightmares. Even when clear-headed, he would mumble in a language that no one could understand. Fortunately, the large burrow was connected to the stove in the kitchen. One night, soot, which hadn't been completed burned out, caught on fire and exterminated the mad moles. That miner was saved from a gruesome fate."
               }
-            ]
+            ],
+            "id": "p-4c7816a7b96ce39d"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a-3"
           },
           {
             "type": "paragraph",
@@ -272,7 +300,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-fd90c5a84b042d73"
           },
           {
             "type": "paragraph",
@@ -281,7 +310,8 @@
                 "type": "text",
                 "text": "The rock crab, a mix between a shrimp and a crab, likes to live inside rocks, and many of them use hard rocks as a shell for protection. According to research, the rock crab originally lived along the coastal regions. They were oceanic creatures that would dig through rocks to lay their eggs, then returned to the sea. After the Ice Age, the rock crabs bred in large numbers and moved underground to the warmer Belobog, causing massive tunnel collapses as they migrated. During this period, they were known as tunnel rock crabs. However, for reasons unknown, their population declined significantly, almost to the point of extinction."
               }
-            ]
+            ],
+            "id": "p-b31597b537af2a2e"
           },
           {
             "type": "paragraph",
@@ -290,7 +320,8 @@
                 "type": "text",
                 "text": "Nowadays, rock crabs are considered a gourmet meal in the Underworld. Although the crab is rare and difficult to obtain, the delicious texture of its meat makes it a star ingredient in the underground. People usually steam the crab, but there are many other variations are loved by residents: Stir-fried crab meat with hammer peppers, salt-baked rock crab, and much more. Rock crab powder can also be combined with a variety of other ingredients for rich flavors."
               }
-            ]
+            ],
+            "id": "p-81c614b3b700c2d8"
           },
           {
             "type": "paragraph",
@@ -299,7 +330,8 @@
                 "type": "text",
                 "text": "With the dwindling rock crab population nowadays, many people doubt the old rumor that every family eats crab."
               }
-            ]
+            ],
+            "id": "p-f0eb1ba3d69d221a"
           }
         ]
       }

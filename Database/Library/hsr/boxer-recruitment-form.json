@@ -4,10 +4,11 @@
   "id": "boxer-recruitment-form",
   "name": "Boxer Recruitment Form",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Boxer_Recruitment_Form",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "The Fight Club is Recruiting Boxers!"
               }
-            ]
+            ],
+            "id": "p-b09d307b48b4c00b"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Have YOU ever considered changing your ordinary life?"
               }
-            ]
+            ],
+            "id": "p-461514808192d125"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "To go from being the laughing stock of the town to a celebrity worshiped by all."
               }
-            ]
+            ],
+            "id": "p-6732ff524242657d"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "Or perhaps you're born with dazzling talent,"
               }
-            ]
+            ],
+            "id": "p-ce5fb360326d6556"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "but you suffer from being a nobody,"
               }
-            ]
+            ],
+            "id": "p-7b767f6f1cf5d3ce"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "then you are what the Fight Club has been waiting for."
               }
-            ]
+            ],
+            "id": "p-0f78540549e14064"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "You don't need combat skills honed through battle"
               }
-            ]
+            ],
+            "id": "p-8506a77ec84450ef"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "and you don't need outstanding physique"
               }
-            ]
+            ],
+            "id": "p-c0cd4831d9c82683"
           },
           {
             "type": "paragraph",
@@ -91,7 +100,8 @@
                 "type": "text",
                 "text": "you just need the potential to be the center of attention"
               }
-            ]
+            ],
+            "id": "p-eed3d5f1d35343d4"
           },
           {
             "type": "paragraph",
@@ -100,7 +110,8 @@
                 "type": "text",
                 "text": "and the courage to change yourself"
               }
-            ]
+            ],
+            "id": "p-b90b570e0b1123a1"
           },
           {
             "type": "paragraph",
@@ -109,7 +120,8 @@
                 "type": "text",
                 "text": "then we will forge you into an unrivaled hero!"
               }
-            ]
+            ],
+            "id": "p-53688ab752a18815"
           },
           {
             "type": "paragraph",
@@ -118,7 +130,8 @@
                 "type": "text",
                 "text": "Sign-up Requirements: You only need to be an adult!"
               }
-            ]
+            ],
+            "id": "p-6948e9c4f2867219"
           },
           {
             "type": "paragraph",
@@ -127,7 +140,8 @@
                 "type": "text",
                 "text": "Boss Scott has the keenest eye and knows better than asking about a hero's past"
               }
-            ]
+            ],
+            "id": "p-de66fa6beff50f1f"
           },
           {
             "type": "paragraph",
@@ -136,7 +150,8 @@
                 "type": "text",
                 "text": "As long as you're an adult, we won't ask your gender, origin, or the reason you joined"
               }
-            ]
+            ],
+            "id": "p-d5032a5c457d9750"
           },
           {
             "type": "paragraph",
@@ -145,7 +160,8 @@
                 "type": "text",
                 "text": "We accept sign-ups from all who meets the requirements!"
               }
-            ]
+            ],
+            "id": "p-aae2510717f75255"
           }
         ]
       }

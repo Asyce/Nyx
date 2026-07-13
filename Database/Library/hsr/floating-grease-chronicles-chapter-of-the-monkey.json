@@ -4,10 +4,11 @@
   "id": "floating-grease-chronicles-chapter-of-the-monkey",
   "name": "Floating Grease Chronicles: Chapter of the Monkey",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Floating_Grease_Chronicles:_Chapter_of_the_Monkey",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "i",
       "label": "I",
       "document": {
         "version": 1,
@@ -169,13 +170,15 @@
                 "type": "text",
                 "text": "yet these tears brought no moon."
               }
-            ]
+            ],
+            "id": "p-4582a4d37a9f158f"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "xi",
       "label": "XI",
       "document": {
         "version": 1,
@@ -373,7 +376,8 @@
                 "type": "text",
                 "text": "But the monkeys can no longer climb."
               }
-            ]
+            ],
+            "id": "p-4314bafdf985f835"
           }
         ]
       }

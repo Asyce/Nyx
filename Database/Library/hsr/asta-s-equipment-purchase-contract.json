@@ -4,10 +4,11 @@
   "id": "asta-s-equipment-purchase-contract",
   "name": "Asta's Equipment Purchase Contract",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Asta%27s_Equipment_Purchase_Contract",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -29,7 +30,8 @@
                 "type": "text",
                 "text": "Content: Custom instrument procurement"
               }
-            ]
+            ],
+            "id": "p-67664dbbe24ed21d"
           },
           {
             "type": "paragraph",
@@ -48,7 +50,8 @@
                 "type": "text",
                 "text": "Supplier: Interastral Peace Appliances"
               }
-            ]
+            ],
+            "id": "p-b749f63462eefbe0"
           },
           {
             "type": "paragraph",
@@ -67,7 +70,8 @@
                 "type": "text",
                 "text": "1. Purchase of Service-type Levitating Mini Robots - Space Station Customized Version - 3x6 units"
               }
-            ]
+            ],
+            "id": "p-6a7f763633d440bd"
           },
           {
             "type": "paragraph",
@@ -76,7 +80,8 @@
                 "type": "text",
                 "text": "2. Purchase of Object Finder \"Richard\" - Version 0.63 - Master model - Annual Limited Edition with charging dock - 10x10 units"
               }
-            ]
+            ],
+            "id": "p-0ee2bca836d01a93"
           },
           {
             "type": "paragraph",
@@ -95,7 +100,8 @@
                 "type": "text",
                 "text": "Compliant to the Galactic General Testing Standard (10086) and Purchaser's specification"
               }
-            ]
+            ],
+            "id": "p-c3f2a0d8e5aec5e8"
           },
           {
             "type": "paragraph",
@@ -124,7 +130,8 @@
                 "type": "text",
                 "text": "Payment Deadline: Upon Delivery"
               }
-            ]
+            ],
+            "id": "p-e9fb350903fd73c5"
           },
           {
             "type": "paragraph",
@@ -153,7 +160,8 @@
                 "type": "text",
                 "text": "Delivery Due Date: 15 business days after the order is made"
               }
-            ]
+            ],
+            "id": "p-ec4769e27471bb97"
           },
           {
             "type": "paragraph",
@@ -162,7 +170,8 @@
                 "type": "text",
                 "text": "5. Method of Receipt: On-site Receipt"
               }
-            ]
+            ],
+            "id": "p-f77dc76967e4b887"
           },
           {
             "type": "paragraph",
@@ -181,7 +190,8 @@
                 "type": "text",
                 "text": "Representative (Signature):"
               }
-            ]
+            ],
+            "id": "p-bf8b921f1985b74d"
           },
           {
             "type": "paragraph",
@@ -200,7 +210,8 @@
                 "type": "text",
                 "text": "Representative (Signature): Charlie"
               }
-            ]
+            ],
+            "id": "p-d2a0f59c5b5a3baf"
           },
           {
             "type": "paragraph",
@@ -209,7 +220,8 @@
                 "type": "text",
                 "text": "(This invoice is a deduction copy invoice. The stamp and signature must be uploaded to the company's platform after completion in order to conduct third-party audit verification.)"
               }
-            ]
+            ],
+            "id": "p-b016b736994ef963"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "faekind-protection-act-fifth-edition",
   "name": "Faekind Protection Act (Fifth Edition)",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Faekind_Protection_Act_(Fifth_Edition)",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -50,7 +51,8 @@
                 "type": "text",
                 "text": "5th Revision on December 1, Arcadian Calendar 1993"
               }
-            ]
+            ],
+            "id": "p-4a344c87cc82c22c"
           },
           {
             "type": "paragraph",
@@ -77,7 +79,8 @@
                 "type": "text",
                 "text": "This decree shall be enforced throughout the territory of Planarcadia."
               }
-            ]
+            ],
+            "id": "p-d07d5511f981eb09"
           },
           {
             "type": "paragraph",
@@ -104,7 +107,8 @@
                 "type": "text",
                 "text": "This decree shall be enforced throughout Planarcadia from the date of its promulgation."
               }
-            ]
+            ],
+            "id": "p-406da8be8bc61eaa"
           },
           {
             "type": "paragraph",
@@ -131,7 +135,8 @@
                 "type": "text",
                 "text": "This decree shall only apply to future cases and has no retroactive effect, except for matters concerning Article VI of the General Provisions."
               }
-            ]
+            ],
+            "id": "p-dd64840dd7c210f3"
           },
           {
             "type": "paragraph",
@@ -158,7 +163,8 @@
                 "type": "text",
                 "text": "This decree applies to all residents within Planarcadia's jurisdiction, including: humans, Intellitrons, imagenae, and other residents who may be considered natural persons under various conventions."
               }
-            ]
+            ],
+            "id": "p-cc7c1b627e876a27"
           },
           {
             "type": "paragraph",
@@ -185,7 +191,8 @@
                 "type": "text",
                 "text": "Laws concerning personal identity and rights shall apply to all IPC entities and personnel, even those residing outside Planarcadia."
               }
-            ]
+            ],
+            "id": "p-54e77142405ef0a8"
           },
           {
             "type": "paragraph",
@@ -212,7 +219,8 @@
                 "type": "text",
                 "text": "All private agreements must not violate this law, nor contradict the public order and morals of the cosmos."
               }
-            ]
+            ],
+            "id": "p-1cbc94b7b546be0c"
           },
           {
             "type": "paragraph",
@@ -239,7 +247,8 @@
                 "type": "text",
                 "text": "In all legal proceedings involving the rights of Planarcadia residents, judgments must not contradict the provisions of this decree; regarding matters of public order and morality, the consensus of the trial jury shall prevail."
               }
-            ]
+            ],
+            "id": "p-17f302957108460b"
           },
           {
             "type": "paragraph",
@@ -253,7 +262,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-676388d69c92e75c"
           },
           {
             "type": "paragraph",
@@ -280,7 +290,8 @@
                 "type": "text",
                 "text": "All residents mentioned in Article IV of this decree, including humans, Intellitrons, and imagenae, are equal and enjoy all rights guaranteed by the Interastral Peace Corporation, except for those restricted by criminal penalties."
               }
-            ]
+            ],
+            "id": "p-940aab01433af3d9"
           },
           {
             "type": "paragraph",
@@ -289,7 +300,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           }
         ]
       }

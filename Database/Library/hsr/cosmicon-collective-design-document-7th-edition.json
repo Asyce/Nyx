@@ -4,10 +4,11 @@
   "id": "cosmicon-collective-design-document-7th-edition",
   "name": "Cosmicon Collective Design Document: 7th Edition",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Cosmicon_Collective_Design_Document:_7th_Edition",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -49,7 +51,8 @@
                 "type": "text",
                 "text": "So we incorporated this trait into the design, giving luck a certain role. That way, if you lose, you can just blame it on Aha."
               }
-            ]
+            ],
+            "id": "p-11ad264df4b65647"
           },
           {
             "type": "paragraph",
@@ -65,7 +68,8 @@
                 "type": "text",
                 "text": "Good question. That's probably because someone up there is pulling the strings."
               }
-            ]
+            ],
+            "id": "p-74a966ecd0ecf438"
           },
           {
             "type": "paragraph",
@@ -81,7 +85,8 @@
                 "type": "text",
                 "text": "That was terrifying. Why not check out our latest expansion pack?"
               }
-            ]
+            ],
+            "id": "p-ea7ba04a3a48516d"
           },
           {
             "type": "paragraph",
@@ -90,7 +95,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -120,7 +126,8 @@
                 "type": "text",
                 "text": "※ Cards in the Hall are classified as exclusive collection items and are banned from official matches."
               }
-            ]
+            ],
+            "id": "p-2781b4071ef26270"
           },
           {
             "type": "paragraph",
@@ -143,7 +150,8 @@
                 "type": "text",
                 "text": "Unsurprisingly, this expansion was a massive hit the moment it dropped. Just picture all these cutie pies playfully tussling. It's gotta be the most heartwarming thing ever."
               }
-            ]
+            ],
+            "id": "p-76f087cadbe5258c"
           },
           {
             "type": "paragraph",
@@ -152,7 +160,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-3"
           },
           {
             "type": "paragraph",
@@ -182,7 +191,8 @@
                 "type": "text",
                 "text": "As for what's inside? Well, see for yourself:"
               }
-            ]
+            ],
+            "id": "p-59a13d614fc7b1bf"
           },
           {
             "type": "paragraph",
@@ -205,7 +215,8 @@
                 "type": "text",
                 "text": "Card Ability: If the opponent's card is an Aeon card, this card's Attack and Defense values convert to the opponent's values +1"
               }
-            ]
+            ],
+            "id": "p-741e5eacce346099"
           },
           {
             "type": "paragraph",
@@ -228,7 +239,8 @@
                 "type": "text",
                 "text": "Card Ability: None"
               }
-            ]
+            ],
+            "id": "p-4ae10993870bf6f4"
           },
           {
             "type": "paragraph",
@@ -237,7 +249,8 @@
                 "type": "text",
                 "text": "After the price per pack skyrocketed to 100,000 credits and the community meme \"Vending Machine Solos the Amber Lord\" went viral, expansion packs were added to the restricted use list, but several have recently been unbanned."
               }
-            ]
+            ],
+            "id": "p-416a03d82beb6488"
           },
           {
             "type": "paragraph",
@@ -246,7 +259,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-4"
           },
           {
             "type": "paragraph",
@@ -276,7 +290,8 @@
                 "type": "text",
                 "text": "Official effects in development. Stay tuned."
               }
-            ]
+            ],
+            "id": "p-276915789f9e6b0c"
           },
           {
             "type": "paragraph",
@@ -285,7 +300,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-5"
           },
           {
             "type": "paragraph",
@@ -334,7 +350,8 @@
                 "type": "text",
                 "text": "—Honorary Founder: Giovanni"
               }
-            ]
+            ],
+            "id": "p-3d6a1f8f08d84339"
           },
           {
             "type": "paragraph",
@@ -343,7 +360,8 @@
                 "type": "text",
                 "text": "The content of this design document involves adaptation and refinement, and bears no direct connection to Mr. Stephen Lloyd's patented \"Cosmic Combat Ability Calculation System.\" All rights of final interpretation belong to Interastral Peace Entertainment."
               }
-            ]
+            ],
+            "id": "p-7c6cea3327bd763c"
           }
         ]
       }

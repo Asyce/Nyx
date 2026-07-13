@@ -4,10 +4,11 @@
   "id": "tale-of-the-winterlands",
   "name": "Tale of the Winterlands",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Tale_of_the_Winterlands",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "chapter-1-far-from-home-i",
       "label": "Chapter 1: Far From Home (I)",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ffc984b7da5f7fe0"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "When Artem first joined the Ancient Relic Expedition Team, he was know as \"the most promising youth in the history of the expedition team.\""
               }
-            ]
+            ],
+            "id": "p-a89ac7c0dfdd9796"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "He graduated at the top of his class from the best medical institute in Belobog, while also having the degrees in the archaeology and geology. Hs physical capabilities rival that of a professional athlete, and he has claimed multiple national rock-climbing championships as the head of the medical institute's rock-climbing association."
               }
-            ]
+            ],
+            "id": "p-10b22d392361b0b7"
           },
           {
             "type": "paragraph",
@@ -51,7 +55,8 @@
                 "type": "text",
                 "text": "However, beneath the glamour and praise hides an extremely stubborn person, who's obsessed with the relics of the Old World. When Artem first joined the expedition team, he often became \"overly devoted\" to the studies of the ancient relics. He locked himself in the research institute for days, until the staff found him passed out on the lab floor."
               }
-            ]
+            ],
+            "id": "p-cb9104e014c39ed0"
           },
           {
             "type": "paragraph",
@@ -60,7 +65,8 @@
                 "type": "text",
                 "text": "\"What? I even forgot to eat!?\""
               }
-            ]
+            ],
+            "id": "p-5fa4169c46a9a425"
           },
           {
             "type": "paragraph",
@@ -69,7 +75,8 @@
                 "type": "text",
                 "text": "\"Yes, Artem. You even forgot to sleep!\""
               }
-            ]
+            ],
+            "id": "p-e84f46afb9dba35d"
           },
           {
             "type": "paragraph",
@@ -78,7 +85,8 @@
                 "type": "text",
                 "text": "\"That won't do. I'm gonna fill my stomach and get back to my research.\""
               }
-            ]
+            ],
+            "id": "p-29959fe34ff081c5"
           },
           {
             "type": "paragraph",
@@ -87,7 +95,8 @@
                 "type": "text",
                 "text": "It was not until recently that he learned to keep some canned food in his drawer in the lab. This only made him stay longer in the lab than before."
               }
-            ]
+            ],
+            "id": "p-ba89d8818d01abfe"
           },
           {
             "type": "paragraph",
@@ -96,7 +105,8 @@
                 "type": "text",
                 "text": "In the beginning, many young ladies set their eyes on Artem, for a little while at least. But everyone soon realized that the humanoid organism named Artem seems unable to develop emotional connections with others. What a pity."
               }
-            ]
+            ],
+            "id": "p-448b6d3ea8b9aaca"
           },
           {
             "type": "paragraph",
@@ -105,7 +115,8 @@
                 "type": "text",
                 "text": "In his own words, \"For now, I want to adventure.\""
               }
-            ]
+            ],
+            "id": "p-7917a18f16d7d136"
           },
           {
             "type": "paragraph",
@@ -114,7 +125,8 @@
                 "type": "text",
                 "text": "The Ancient Relic Expedition Team belongs to the Belobog Museum. They are a team of adventurers responsible for finding Old World relics in the areas surrounding Belobog. Retrieved relics will be studied extensively by the archeologists and historians. However, their work must be done in a harsh blizzard environment. Dangerous situations and accidents are frequent in this line of work, which requires both wisdom and courage. Without a doubt, these archeologists are the true explorers of Belobog."
               }
-            ]
+            ],
+            "id": "p-1026e28d1d7fa15d"
           },
           {
             "type": "paragraph",
@@ -123,7 +135,8 @@
                 "type": "text",
                 "text": "It shouldn't come as a surprise that the explorers may die at any moment."
               }
-            ]
+            ],
+            "id": "p-d66a0316e6eab33b"
           },
           {
             "type": "paragraph",
@@ -132,7 +145,8 @@
                 "type": "text",
                 "text": "This moment was no different."
               }
-            ]
+            ],
+            "id": "p-91abde630fd42b35"
           },
           {
             "type": "paragraph",
@@ -141,7 +155,8 @@
                 "type": "text",
                 "text": "Artem moved towards the cliff face as he dragged the lower half of his body with difficulty. The wind was much weaker here, making sure he can breathe a little easier before his inevitable death. His vision was blurry, but he couldn't tell whether it was due to the blizzard or if his eyes were wounded. He tried looking up the cliff where he probably fell from."
               }
-            ]
+            ],
+            "id": "p-d63f2d4b871994c8"
           },
           {
             "type": "paragraph",
@@ -150,7 +165,8 @@
                 "type": "text",
                 "text": "Did the team member he pulled up find safety? He must have, right? It was only a matter of time before he joined the other team members. That's a relief..."
               }
-            ]
+            ],
+            "id": "p-58e010ee5b5ddf6e"
           },
           {
             "type": "paragraph",
@@ -159,7 +175,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -168,7 +185,8 @@
                 "type": "text",
                 "text": "He was exhausted, and his vision gradually grew dim. If he fell asleep now, during this blizzard, he would never wake up, that's for sure. The heavy abdominal bleeding had frozen solid, and Artem was unsure of how he would eventually die. It hardly mattered to him at this point."
               }
-            ]
+            ],
+            "id": "p-4d4636d7661db95d"
           },
           {
             "type": "paragraph",
@@ -177,7 +195,8 @@
                 "type": "text",
                 "text": "As the blizzard grew more violent, Artem would soon become a corpse just like the ones he had passed by on previous adventures. It gave him some relief to think he wouldn't be alone."
               }
-            ]
+            ],
+            "id": "p-0a059fa2be71bd23"
           },
           {
             "type": "paragraph",
@@ -186,7 +205,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -195,7 +215,8 @@
                 "type": "text",
                 "text": "He was just three years old when he climbed the drainpipe to the rooftop, much to the horror of his parents... What was happening? Was his life already flashing before his eyes? Ah, how many memories does one make in a lifetime..."
               }
-            ]
+            ],
+            "id": "p-bdc24c2edb6d9802"
           },
           {
             "type": "paragraph",
@@ -204,7 +225,8 @@
                 "type": "text",
                 "text": "Artem had drifted off to sleep under the cliff."
               }
-            ]
+            ],
+            "id": "p-edf660ad37241a61"
           },
           {
             "type": "paragraph",
@@ -213,13 +235,15 @@
                 "type": "text",
                 "text": "The flame of his life flickered in the blizzard. It was about to die out."
               }
-            ]
+            ],
+            "id": "p-e608829813c84968"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "chapter-2-frozen-city-i",
       "label": "Chapter 2: Frozen City (I)",
       "document": {
         "version": 1,
@@ -236,7 +260,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-5c725cd455e1a9ec"
           },
           {
             "type": "paragraph",
@@ -245,7 +270,8 @@
                 "type": "text",
                 "text": "As the flow of time continued, Artem found himself lying in a medical facility."
               }
-            ]
+            ],
+            "id": "p-d98bc42f3c471719"
           },
           {
             "type": "paragraph",
@@ -254,7 +280,8 @@
                 "type": "text",
                 "text": "However, this medical facility had nothing in common with Belobog's Architects' Charice Hospital. No hospital in Belobog would have beds made of crystals. It wasn't until Artem noticed the IV drip attached to his arm that he realized that he was being treated."
               }
-            ]
+            ],
+            "id": "p-4e4a7b89573b8ae7"
           },
           {
             "type": "paragraph",
@@ -263,7 +290,8 @@
                 "type": "text",
                 "text": "There was drumming in his ears. His eyes were only able to make out the blurred, burning lights around him. Apparently, his motor skills haven't returned. What's for sure is that he had almost crossed over to the other side."
               }
-            ]
+            ],
+            "id": "p-b013d4cd3e8d16f8"
           },
           {
             "type": "paragraph",
@@ -272,7 +300,8 @@
                 "type": "text",
                 "text": "The first person he met after being discharged from the hospital was the girl that helped him in his dreams."
               }
-            ]
+            ],
+            "id": "p-9c5e7c2e6196fa3b"
           },
           {
             "type": "paragraph",
@@ -281,7 +310,8 @@
                 "type": "text",
                 "text": "\"Congratulations on your recovery.\""
               }
-            ]
+            ],
+            "id": "p-04f9b5e7e7439c11"
           },
           {
             "type": "paragraph",
@@ -290,7 +320,8 @@
                 "type": "text",
                 "text": "\"Thank you. Could you tell me where... Who are you... I should probably introduce myself first... No, wait...\""
               }
-            ]
+            ],
+            "id": "p-65f41d4bcaf7b8b8"
           },
           {
             "type": "paragraph",
@@ -299,7 +330,8 @@
                 "type": "text",
                 "text": "Artem was filled with questions. His words became jumbled, and he was unable to form a complete sentence."
               }
-            ]
+            ],
+            "id": "p-a992443abdbcd724"
           },
           {
             "type": "paragraph",
@@ -308,7 +340,8 @@
                 "type": "text",
                 "text": "\"My name is Anna.\""
               }
-            ]
+            ],
+            "id": "p-b4426308b0484692"
           },
           {
             "type": "paragraph",
@@ -317,7 +350,8 @@
                 "type": "text",
                 "text": "\"I'm A-Artem...\""
               }
-            ]
+            ],
+            "id": "p-bb95925e8cbb44a9"
           },
           {
             "type": "paragraph",
@@ -326,7 +360,8 @@
                 "type": "text",
                 "text": "Unlike the first time they met, Anna didn't tie her hair. The light shown through her flaxen hair with translucent edges. The soft glow made her hair look as if it was delicately lifted. her long eyelashes and calming eyes matched her thin face perfectly. In the past, Artem tried to avoid observing a woman's facial features for too long. With Anna, however, he couldn't stop until both their faces were flushed with embarrassment."
               }
-            ]
+            ],
+            "id": "p-f3337408c0954e8e"
           },
           {
             "type": "paragraph",
@@ -335,7 +370,8 @@
                 "type": "text",
                 "text": "Perhaps it had something to do with his life having being saved, but Artem felt something he had never felt before."
               }
-            ]
+            ],
+            "id": "p-8159c3a9389721a6"
           },
           {
             "type": "paragraph",
@@ -344,7 +380,8 @@
                 "type": "text",
                 "text": "Just as Artem had predicted, he was not in Belobog."
               }
-            ]
+            ],
+            "id": "p-11261611a1b15b03"
           },
           {
             "type": "paragraph",
@@ -353,7 +390,8 @@
                 "type": "text",
                 "text": "It was a city that had been built in the blizzard. People called it the Frozen City."
               }
-            ]
+            ],
+            "id": "p-233ecf2710165c43"
           },
           {
             "type": "paragraph",
@@ -362,7 +400,8 @@
                 "type": "text",
                 "text": "Different from Belobog, the Frozen City's forebears used the Old World technology to survive in the blizzard and preserve the spark of the Old World civilization. Artem was in the happiest phase of culture shock. Everything was brand new to him, like in one of his countless dreams, in which the technologies of the past lying dormant in the museum come back to life. Accompanied by Anna, this city gradually unfolded before Artem."
               }
-            ]
+            ],
+            "id": "p-f7ae299ef9f55eec"
           },
           {
             "type": "paragraph",
@@ -371,7 +410,8 @@
                 "type": "text",
                 "text": "\"They should have also injected an Edelweiss into your body during your surgery.\""
               }
-            ]
+            ],
+            "id": "p-e5cfd6bcc604731a"
           },
           {
             "type": "paragraph",
@@ -380,7 +420,8 @@
                 "type": "text",
                 "text": "\"Edelweiss... What is Edelweiss?\""
               }
-            ]
+            ],
+            "id": "p-85eeaa59fea76d74"
           },
           {
             "type": "paragraph",
@@ -389,7 +430,8 @@
                 "type": "text",
                 "text": "\"Ah, how should I put it? It's like a small... machine?\""
               }
-            ]
+            ],
+            "id": "p-708545e491495eba"
           },
           {
             "type": "paragraph",
@@ -398,7 +440,8 @@
                 "type": "text",
                 "text": "\"Machine? I thought machines were big things with chains, gears, valves, and steam? They... can be injected into the body?\""
               }
-            ]
+            ],
+            "id": "p-57db4ff34089150c"
           },
           {
             "type": "paragraph",
@@ -407,7 +450,8 @@
                 "type": "text",
                 "text": "\"I don't understand the principle very well. I just know all residents of Frozen City are injected with Edelweiss at birth. We do not fear the cold because of it. When I was little, the explorers told me that outsiders wear heavy clothes to stay warm. It wasn't until I saw you that I realized it was true.\""
               }
-            ]
+            ],
+            "id": "p-9ec6cb4e3e46a5c3"
           },
           {
             "type": "paragraph",
@@ -416,7 +460,8 @@
                 "type": "text",
                 "text": "\"So in the eyes of the local population?\", such warm clothes must be quite an unusual view... Right, speaking of which, are there other cities in this world besides Frozen City?\""
               }
-            ]
+            ],
+            "id": "p-aaf0da4764b6e917"
           },
           {
             "type": "paragraph",
@@ -425,7 +470,8 @@
                 "type": "text",
                 "text": "\"But of course, the world is a big place.\""
               }
-            ]
+            ],
+            "id": "p-3e14e65da07f46f1"
           },
           {
             "type": "paragraph",
@@ -434,7 +480,8 @@
                 "type": "text",
                 "text": "Anna suddenly stopped in her tracks, and Artem followed suit. In the clearing in front of them, a group of uniformed men gathered around a cannon, which was pointed at the sky, as if ready to fire, only waiting for someone to light the fuse."
               }
-            ]
+            ],
+            "id": "p-3d1e621c32648ba9"
           },
           {
             "type": "paragraph",
@@ -443,7 +490,8 @@
                 "type": "text",
                 "text": "\"Are they planning to shoot the cannon at the building across from here?\""
               }
-            ]
+            ],
+            "id": "p-b7fb0709c0d7de0d"
           },
           {
             "type": "paragraph",
@@ -452,7 +500,8 @@
                 "type": "text",
                 "text": "\"Hahahaha...\" Anna couldn't help but laugh at his genuine question. She wasn't used to guiding outsiders. \"You're not wrong, but they're planning to construct a new building here.\""
               }
-            ]
+            ],
+            "id": "p-bc52d37be26e0bcd"
           },
           {
             "type": "paragraph",
@@ -461,7 +510,8 @@
                 "type": "text",
                 "text": "\"Construct a new building?\""
               }
-            ]
+            ],
+            "id": "p-817167b82d1dd2a9"
           },
           {
             "type": "paragraph",
@@ -470,7 +520,8 @@
                 "type": "text",
                 "text": "\"Yes, but since it hasn't take shape yet, I don't know what it will be.\""
               }
-            ]
+            ],
+            "id": "p-811e745e4939a555"
           },
           {
             "type": "paragraph",
@@ -479,7 +530,8 @@
                 "type": "text",
                 "text": "The cannon fired into the sky and thick clouds began to form above the clearing. Moments later, the water Anna called \"rain\" fell from the sky."
               }
-            ]
+            ],
+            "id": "p-829d40a5ad0abf12"
           },
           {
             "type": "paragraph",
@@ -488,7 +540,8 @@
                 "type": "text",
                 "text": "\"Rain Water\" was a rare term that Artem only read about in the museum archives. He had never witnessed it before. It was a common weather condition in the Old World. Only snow would fall from the skies in Belobog."
               }
-            ]
+            ],
+            "id": "p-5991a276f938c277"
           },
           {
             "type": "paragraph",
@@ -497,7 +550,8 @@
                 "type": "text",
                 "text": "It's wasn't until this moment that Artem understood that the cold snowflakes at home could fall in such a gentle way."
               }
-            ]
+            ],
+            "id": "p-f3a0a71ccd453d31"
           },
           {
             "type": "paragraph",
@@ -506,7 +560,8 @@
                 "type": "text",
                 "text": "The Rain Water didn't disperse as it fell on the open ground. Instead, it quickly solidified into a concrete shape, as if sculpted by invisible hands. As the rain continued to fall, the outline of the building became clearer. The style was much different from those in Belobog."
               }
-            ]
+            ],
+            "id": "p-540737dd2cf9f014"
           },
           {
             "type": "paragraph",
@@ -515,7 +570,8 @@
                 "type": "text",
                 "text": "A building tens of meters high was completed before Artem's eyes in a matter of minutes, like a miracle."
               }
-            ]
+            ],
+            "id": "p-349da88ffcaf6d9a"
           },
           {
             "type": "paragraph",
@@ -524,7 +580,8 @@
                 "type": "text",
                 "text": "Anna was no longer surprised by the shock in Artem's eyes. She explained that all buildings in Frozen City were created from the miracle Rain Water. If the weather monitor Cloudship detected an incoming blizzard, these buildings would be converted to water on command, then transformed into new buildings as the people of Frozen City migrated to a more hospitable area."
               }
-            ]
+            ],
+            "id": "p-afb3078309f0df42"
           },
           {
             "type": "paragraph",
@@ -533,13 +590,15 @@
                 "type": "text",
                 "text": "Unique blueprints were traded among residents. Strange buildings rose every day. There was nothing more natural to the locals than that."
               }
-            ]
+            ],
+            "id": "p-f7bdd0ebe9cfb97c"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "chapter-2-frozen-city-ii",
       "label": "Chapter 2: Frozen City (II)",
       "document": {
         "version": 1,
@@ -556,7 +615,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-135be9dafded869f"
           },
           {
             "type": "paragraph",
@@ -565,7 +625,8 @@
                 "type": "text",
                 "text": "Responding to the summon, Artem arrived at the Frozen City's Crystal Palace. He had no issues finding the place, as the palace's dome could be seen from anywhere in the streets."
               }
-            ]
+            ],
+            "id": "p-dbcf987a980ff68c"
           },
           {
             "type": "paragraph",
@@ -574,7 +635,8 @@
                 "type": "text",
                 "text": "Under the guidance of the soldier in charge of the guest reception, Artem passed through the main hall and entered the most prized part of the Crystal Palace, the hall of history. The glimmering light of the dawning sun cast a delicate outline upon the corridor walls."
               }
-            ]
+            ],
+            "id": "p-bdeb923057ee076b"
           },
           {
             "type": "paragraph",
@@ -583,7 +645,8 @@
                 "type": "text",
                 "text": "Following Artem's footsteps, the sculptures of the ancient heroes and kings began to move. The spears in their hands extended forward, slowly reaching towards the evil monsters. Their cloaks swayed in the air, as if dancing alongside gusts of wind. however, all movement came to an end as Artem stoped ."
               }
-            ]
+            ],
+            "id": "p-659381bf61816a30"
           },
           {
             "type": "paragraph",
@@ -592,7 +655,8 @@
                 "type": "text",
                 "text": "Artem had spent his fair share of time in museums. Trying to uncover stories hidden within the silent relics was part of his daily work. He was familiar with the techniques used by ancient artists and got use to ignoring symbolic adornments, so he could get right to the history itself. He couldn't help but slow down to gaze upon the magnificent works in the corridor:"
               }
-            ]
+            ],
+            "id": "p-9566ac3107f66cea"
           },
           {
             "type": "paragraph",
@@ -601,7 +665,8 @@
                 "type": "text",
                 "text": "Emerging from the shattered sky, with golden blood running through their veins, the God looks down upon the mortal word with cold and condescending eyes..."
               }
-            ]
+            ],
+            "id": "p-bf24b01e7675f0ff"
           },
           {
             "type": "paragraph",
@@ -610,7 +675,8 @@
                 "type": "text",
                 "text": "The warriors of the Frozen City were fighting the monster army. They wielded weapons emitting flames of death and wore armors that Artem has never seen before..."
               }
-            ]
+            ],
+            "id": "p-ef86fe8bbb0314bb"
           },
           {
             "type": "paragraph",
@@ -619,7 +685,8 @@
                 "type": "text",
                 "text": "An armed vehicle the size of a mountain soared through the air like a snowball. At the apex if this tidal wave of an army sat a woman with a diamond crown on her head. She was brandishing her spear, pointing it towards the merciless God in the sky..."
               }
-            ]
+            ],
+            "id": "p-ba6a77befbcf9052"
           },
           {
             "type": "paragraph",
@@ -628,7 +695,8 @@
                 "type": "text",
                 "text": "Artem almost collapsed under the power emitting from the sculpture. He exhaled and noticed that the soldier leading him was observing his fascination with a smile. Artem gave him an apologetic look and quickly caught up with the soldier."
               }
-            ]
+            ],
+            "id": "p-f05cff9346fd3dd1"
           },
           {
             "type": "paragraph",
@@ -637,7 +705,8 @@
                 "type": "text",
                 "text": "Artem was told by the soldier at the reception that he could move freely while waiting for the queen's summon."
               }
-            ]
+            ],
+            "id": "p-864aadfae31311ea"
           },
           {
             "type": "paragraph",
@@ -646,7 +715,8 @@
                 "type": "text",
                 "text": "Not long after he sat down, a ragged outsider came in and sat next to him. Before Artem could speak, the man introduced himself."
               }
-            ]
+            ],
+            "id": "p-2dc05877ff97a02d"
           },
           {
             "type": "paragraph",
@@ -655,7 +725,8 @@
                 "type": "text",
                 "text": "\"Hello, I'm Dalmir of the Lava Kingdom. I'd like to know...\""
               }
-            ]
+            ],
+            "id": "p-5421f0afb51b3c82"
           },
           {
             "type": "paragraph",
@@ -664,7 +735,8 @@
                 "type": "text",
                 "text": "\"I'm Artem of Belobog. I'm not a guest, just an adventurer that ran into trouble.\""
               }
-            ]
+            ],
+            "id": "p-2400da1d53be19d4"
           },
           {
             "type": "paragraph",
@@ -673,7 +745,8 @@
                 "type": "text",
                 "text": "\"Belobog? I've never heard of it, but I'm glad to meet someone in the same line of work!\""
               }
-            ]
+            ],
+            "id": "p-18222550338d3ebf"
           },
           {
             "type": "paragraph",
@@ -682,7 +755,8 @@
                 "type": "text",
                 "text": "\"Same line of work? What an unexpected joy! Judging from your clothes, you must have experienced many thrilling adventures.\""
               }
-            ]
+            ],
+            "id": "p-69f5db2e344d65b9"
           },
           {
             "type": "paragraph",
@@ -691,7 +765,8 @@
                 "type": "text",
                 "text": "\"I guess thrilling would be an accurate description. I came here as a cannonball. It was eye-opening! I've never seen snowflakes before...\""
               }
-            ]
+            ],
+            "id": "p-99e497c0dd85fc58"
           },
           {
             "type": "paragraph",
@@ -700,7 +775,8 @@
                 "type": "text",
                 "text": "\"What did you say? You came here... as a cannonball?\""
               }
-            ]
+            ],
+            "id": "p-1343a3cc90a5c8ea"
           },
           {
             "type": "paragraph",
@@ -709,7 +785,8 @@
                 "type": "text",
                 "text": "\"Yeah, yeah! You put a man inside a cannon, the BOOM! The man's flying through the air, get it?\" Dalmir excitedly drew a parabola with his fingers."
               }
-            ]
+            ],
+            "id": "p-3e8a62162bb66fc7"
           },
           {
             "type": "paragraph",
@@ -718,7 +795,8 @@
                 "type": "text",
                 "text": "\"I don't get it. How could a man survive that?\""
               }
-            ]
+            ],
+            "id": "p-b7b41efcf8f4e932"
           },
           {
             "type": "paragraph",
@@ -727,7 +805,8 @@
                 "type": "text",
                 "text": "\"Here we go! This is my favorite moment. That incredible look on you face. Now I get to slowly explain my hometown to you. Haha, I'm used to it by now.\" Dalmir smiled proudly with his hands on his hips."
               }
-            ]
+            ],
+            "id": "p-6c9032be64769eb8"
           },
           {
             "type": "paragraph",
@@ -736,7 +815,8 @@
                 "type": "text",
                 "text": "\"There are no snowflakes in the Lava Kingdom where I'm from. The difference in temperature is night and day compared to the Frozen City. There are many volcanoes where I live. Do you know about volcanoes? It's the complete opposite of snow mountains. Volcanoes have smoke coming out the top, and sometimes, they even spew fire.\""
               }
-            ]
+            ],
+            "id": "p-488ffa772c56bbbd"
           },
           {
             "type": "paragraph",
@@ -745,7 +825,8 @@
                 "type": "text",
                 "text": "Artem could not imagine a mountain so hot that ir could breathe fire. All he could do was nod absently."
               }
-            ]
+            ],
+            "id": "p-0248abfc234a03ea"
           },
           {
             "type": "paragraph",
@@ -754,7 +835,8 @@
                 "type": "text",
                 "text": "\"...And so, we used the power of the volcano to create a volcano cannon. We used it to launch adventurers, such as myself, to explore other countries. But it was only in the air that I realized the only way back was walking. I guess that's how the previous adventurers returned home, hahaha!\""
               }
-            ]
+            ],
+            "id": "p-9c871af429b8110f"
           },
           {
             "type": "paragraph",
@@ -763,7 +845,8 @@
                 "type": "text",
                 "text": "Dalmir was naturally talkative. His words were full of passion that made Artem feel a sense of kinship. As they talked, Artem learned for the first what a volcano was, what the movement of the Earth's crust was, and what a volcano cannon was..."
               }
-            ]
+            ],
+            "id": "p-1adf149f66fe7e97"
           },
           {
             "type": "paragraph",
@@ -772,7 +855,8 @@
                 "type": "text",
                 "text": "The Lava Kingdom adventurers are dispatched to explore the ends of the earth, but they can always find their way back with a compass that always points home. However, the trip back may be more dangerous that being launched by the cannon, and only a handful of adventurers make it. The ones who do make it always bring home reliable companions from foreign lands. The outsiders bring knowledge and technology that the Lava Kingdom would not normally have access to."
               }
-            ]
+            ],
+            "id": "p-7f676d7e87f541a2"
           },
           {
             "type": "paragraph",
@@ -781,7 +865,8 @@
                 "type": "text",
                 "text": "\"Artem, I need your help! Please come back with me to the Lava Kingdom. We must get there before the biggest volcanic event in history!\""
               }
-            ]
+            ],
+            "id": "p-3a984dc6d770a949"
           },
           {
             "type": "paragraph",
@@ -790,7 +875,8 @@
                 "type": "text",
                 "text": "\"The biggest volcanic event in history...?\""
               }
-            ]
+            ],
+            "id": "p-03528ce237703443"
           },
           {
             "type": "paragraph",
@@ -799,7 +885,8 @@
                 "type": "text",
                 "text": "\"That's right! We're preparing out biggest volcano cannon yet. We're going to fly to the Satelleden of the Old World!\""
               }
-            ]
+            ],
+            "id": "p-abc9869b927a6e34"
           },
           {
             "type": "paragraph",
@@ -808,13 +895,15 @@
                 "type": "text",
                 "text": "(To Be Continued)"
               }
-            ]
+            ],
+            "id": "p-1897524b9c45c9d3"
           }
         ]
       }
     },
     {
       "id": "4",
+      "volumeKey": "chapter-2-frozen-city-iii",
       "label": "Chapter 2: Frozen City (III)",
       "document": {
         "version": 1,
@@ -831,7 +920,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-3366aff7be0ab98e"
           },
           {
             "type": "paragraph",
@@ -840,7 +930,8 @@
                 "type": "text",
                 "text": "Artem was once again blown away. His mind was like a drum head repeatedly pounded with new information."
               }
-            ]
+            ],
+            "id": "p-ac2d43856223ad55"
           },
           {
             "type": "paragraph",
@@ -849,7 +940,8 @@
                 "type": "text",
                 "text": "\"Leave the ground... and head for the skies?\""
               }
-            ]
+            ],
+            "id": "p-3ac8d92de6a4b42a"
           },
           {
             "type": "paragraph",
@@ -858,7 +950,8 @@
                 "type": "text",
                 "text": "Each day, the world that Artem knew was repeatedly challenged by novel technologies, unknown histories, and distant, mysterious nations. Just as he thought nothing else would be able to surprise him, the man in front of him invited him to leave the land using a cannon powered by a volcano. He had no other choice..."
               }
-            ]
+            ],
+            "id": "p-4ede11250395769f"
           },
           {
             "type": "paragraph",
@@ -867,7 +960,8 @@
                 "type": "text",
                 "text": "\"With all due respect, I refuse!\""
               }
-            ]
+            ],
+            "id": "p-053d95b35303d6fa"
           },
           {
             "type": "paragraph",
@@ -876,7 +970,8 @@
                 "type": "text",
                 "text": "\"What? I thought you'd be more adventurous than that. I was certain you would agree.\""
               }
-            ]
+            ],
+            "id": "p-09afe8a784778e3b"
           },
           {
             "type": "paragraph",
@@ -885,7 +980,8 @@
                 "type": "text",
                 "text": "\"Those are two completely different issues. Going to a far and unfamiliar nation or climbing to heights never reached before may sound crazy to some people, but those feats are all within human logic and understanding. Using a volcano to launch yourself into the sky... that's just suicide!\""
               }
-            ]
+            ],
+            "id": "p-fcab2eade139c807"
           },
           {
             "type": "paragraph",
@@ -894,7 +990,8 @@
                 "type": "text",
                 "text": "After a short exchange, he bid his farewell to the adventurer from the volcano."
               }
-            ]
+            ],
+            "id": "p-0da330a280ee604a"
           },
           {
             "type": "paragraph",
@@ -903,7 +1000,8 @@
                 "type": "text",
                 "text": "\"Maybe it's not that ruthless of an idea, young man.\" He took but a few steps when a commanding and soothing voice came from the side."
               }
-            ]
+            ],
+            "id": "p-ed6d7ea9e2e5b87a"
           },
           {
             "type": "paragraph",
@@ -912,7 +1010,8 @@
                 "type": "text",
                 "text": "Only now did Artem notice a woman in expensive clothing staring at him from not too far. Based on what she was wearing, Artem immediately realized who it was and bowed. The woman smiled back."
               }
-            ]
+            ],
+            "id": "p-0086a8ebb8c5a081"
           },
           {
             "type": "paragraph",
@@ -921,7 +1020,8 @@
                 "type": "text",
                 "text": "\"May I ask you a question? Adventurer from Belobog, why did you embark on this perilous journey?\""
               }
-            ]
+            ],
+            "id": "p-133c01203575f22e"
           },
           {
             "type": "paragraph",
@@ -930,7 +1030,8 @@
                 "type": "text",
                 "text": "\"Perhaps... restlessness runs in my blood?\" Artem pondered for a moment, then shook his head."
               }
-            ]
+            ],
+            "id": "p-2f5769ea267d1fc6"
           },
           {
             "type": "paragraph",
@@ -939,7 +1040,8 @@
                 "type": "text",
                 "text": "\"Perhaps life is too peaceful in Belobog. We hide in a greenhouse and listen to the preaching of the speakers day after day. Soldiers guard our borders, stopping monsters from entering our city and preventing our people from leaving. If you work hard, you don't have to worry about food or shelter. But every day is the same. Life is peaceful without any changes. People are afraid of an unstable future and losing the life to which they've grown accustomed. Belobog's history is hundreds of years old, but nobody has ever truly left.\""
               }
-            ]
+            ],
+            "id": "p-5ce250c339f9279c"
           },
           {
             "type": "paragraph",
@@ -948,7 +1050,8 @@
                 "type": "text",
                 "text": "\"I don't want to read the same newspaper every day. I don't want to cover my eyes and ears and pretend the world is the size of our city. I want to know if I can survive a life that's not so peaceful.\""
               }
-            ]
+            ],
+            "id": "p-7d4bbb117b4f463b"
           },
           {
             "type": "paragraph",
@@ -957,7 +1060,8 @@
                 "type": "text",
                 "text": "The woman smiled. \"It seems you were born in the wrong place. You are different from the other Belobog people I know.\""
               }
-            ]
+            ],
+            "id": "p-9772b1dc6781a6e4"
           },
           {
             "type": "paragraph",
@@ -966,7 +1070,8 @@
                 "type": "text",
                 "text": "\"There have been other people of Belobog who arrived here?\""
               }
-            ]
+            ],
+            "id": "p-e531ce1fa47841ea"
           },
           {
             "type": "paragraph",
@@ -975,7 +1080,8 @@
                 "type": "text",
                 "text": "\"That was over a hundred years ago, and it ended regrettably. Fortunately, the Frozen City relocates constantly, and the disaster of war was avoided.\""
               }
-            ]
+            ],
+            "id": "p-a895640c896543e4"
           },
           {
             "type": "paragraph",
@@ -984,7 +1090,8 @@
                 "type": "text",
                 "text": "Artem was listening to the words coming out of the woman's mouth in shock. \"You mean to say, Belobog and Frozen City almost went to war?\""
               }
-            ]
+            ],
+            "id": "p-34986c60443c9f38"
           },
           {
             "type": "paragraph",
@@ -993,7 +1100,8 @@
                 "type": "text",
                 "text": "\"From then on, we have been weary of all visitors from that country.\" The woman raised her hand to stop his questioning. \"As you can see, the Frozen City is not built from unchanging ice. It is built from water, free of prejudice.\""
               }
-            ]
+            ],
+            "id": "p-d03823ad69d9e9a6"
           },
           {
             "type": "paragraph",
@@ -1002,7 +1110,8 @@
                 "type": "text",
                 "text": "\"A man must be judged like a gem, by being examined from all sides. I have heard Anna's description of you. We have read about your adventures. And now, I have seen you. By the standards of the Frozen City, you are a remarkable man.\""
               }
-            ]
+            ],
+            "id": "p-af3591eac25ec711"
           },
           {
             "type": "paragraph",
@@ -1011,7 +1120,8 @@
                 "type": "text",
                 "text": "\"I thank you for your kind judgment, Your Majesty.\" Artem lowers his head."
               }
-            ]
+            ],
+            "id": "p-be9d5350a426b7b2"
           },
           {
             "type": "paragraph",
@@ -1020,7 +1130,8 @@
                 "type": "text",
                 "text": "\"Let's return to the topic at hand. I asked you before why you embarked on this perilous journey. Your response proved your wish to be free of constraints and live a life without a mundane routine. Frozen City, Lava Kingdom... You have heard and seen many wondrous things that most people can only dream of. But this city is bound to the skies, just as Belobog is bound to the land. Do you understand what I mean?\""
               }
-            ]
+            ],
+            "id": "p-f97ac2f95c9e7f53"
           },
           {
             "type": "paragraph",
@@ -1029,7 +1140,8 @@
                 "type": "text",
                 "text": "\"I... understand, Your Majesty. I just have a hard time believing that people can fly through the air.\" Artem murmured, \"I thought only birds could do that. I can't tell if Dalmir's invitation is suicidal madness or an adventurous gamble.\""
               }
-            ]
+            ],
+            "id": "p-b1a1511c70e9e209"
           },
           {
             "type": "paragraph",
@@ -1038,7 +1150,8 @@
                 "type": "text",
                 "text": "\"Is there any difference between the two? The spirit of adventure is a precious quality that goes against the humankind's natural survival instinct. It may seem worthless, but it is this spirit that allowed the people of the Old World to reach unimaginable heights. Strictly speaking, adventures and explorations are part of the heritage of the Old World.\""
               }
-            ]
+            ],
+            "id": "p-a071ef6072da0dc4"
           },
           {
             "type": "paragraph",
@@ -1047,7 +1160,8 @@
                 "type": "text",
                 "text": "\"You wouldn't be able to see what the Frozen City looks like, if you had decided to live peacefully behind the Belobog walls. Dalmir was not lying when he mentioned the Satelleden. It is a miracle, located so high up that it's invisible to the naked eye, left behind by the Old World civilization. People have long forgotten what it was like nowadays,\" the Queen sighed regrettably."
               }
-            ]
+            ],
+            "id": "p-c42a363c10af2ac7"
           },
           {
             "type": "paragraph",
@@ -1056,7 +1170,8 @@
                 "type": "text",
                 "text": "\"You've walked through the Snow Plains in search of ancient relics, all so that you could obtain the Old World heritage. The way back has already been covered in snow, Artem. The only way is forward, for you... and for the Frozen City, as it always has been.\""
               }
-            ]
+            ],
+            "id": "p-fdfd452cdb6cfd75"
           },
           {
             "type": "paragraph",
@@ -1065,7 +1180,8 @@
                 "type": "text",
                 "text": "\"I will take that into consideration.\" Artem mused for a bit and let out a long sigh. \"I will go talk to Dalmir.\""
               }
-            ]
+            ],
+            "id": "p-0ac27b13a389d735"
           },
           {
             "type": "paragraph",
@@ -1074,7 +1190,8 @@
                 "type": "text",
                 "text": "Suddenly, the queen's face turned stern. \"I don't mean to persuade you, young Artem. Impulse will take you on adventures, but that alone will not take you to the ends of the earth. Regardless what you choose, I have a gift for you.\""
               }
-            ]
+            ],
+            "id": "p-43a4233d3265abe1"
           },
           {
             "type": "paragraph",
@@ -1083,7 +1200,8 @@
                 "type": "text",
                 "text": "The Queen extended her hands from beneath her cloak. She held out a one-cubit long wand to Artem. The wand was forked on one end, the shape of which resembled a double-headed eagle."
               }
-            ]
+            ],
+            "id": "p-35e7e15e2a601f43"
           },
           {
             "type": "paragraph",
@@ -1092,7 +1210,8 @@
                 "type": "text",
                 "text": "\"Young Artem, we do not bow here in the Frozen City. But, as a token of respect towards the wisdom of the Old World, kneel down on one knee. Bow, not to me, but the Old World.\""
               }
-            ]
+            ],
+            "id": "p-e1e465989c093b9a"
           },
           {
             "type": "paragraph",
@@ -1101,7 +1220,8 @@
                 "type": "text",
                 "text": "The Queen took hold of the wand. Suddenly, liquid began to flow over the surface, forming a blueish ice blade."
               }
-            ]
+            ],
+            "id": "p-769fda86d1db1663"
           },
           {
             "type": "paragraph",
@@ -1110,7 +1230,8 @@
                 "type": "text",
                 "text": "She turned the blade with incredible speed and touched Artem once on each shoulder and on the top of his head. Artem felt the ice breathing and jumping on his shoulders."
               }
-            ]
+            ],
+            "id": "p-b361b69ff21690d7"
           },
           {
             "type": "paragraph",
@@ -1119,7 +1240,8 @@
                 "type": "text",
                 "text": "\"May your path be clear, your luck persist, and your courage prevail.\""
               }
-            ]
+            ],
+            "id": "p-55598a73bd1e0e23"
           },
           {
             "type": "paragraph",
@@ -1128,7 +1250,8 @@
                 "type": "text",
                 "text": "\"This blade's technology comes from the Old World. I present it to you, knight of the frozen city. To the sky, it is but a needle. To the earth, it is but a tool to cut through obstacles. But to you, it is the courage to move forward in the face of danger.\""
               }
-            ]
+            ],
+            "id": "p-966795017eec0ca3"
           },
           {
             "type": "paragraph",
@@ -1137,13 +1260,15 @@
                 "type": "text",
                 "text": "\"Go now, Artem.\""
               }
-            ]
+            ],
+            "id": "p-7bfdc2caf8ac7ac7"
           }
         ]
       }
     },
     {
       "id": "5",
+      "volumeKey": "chapter-4-spring-pasture-i",
       "label": "Chapter 4: Spring Pasture (I)",
       "document": {
         "version": 1,
@@ -1160,7 +1285,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-bdec7c78a5d0fe17"
           },
           {
             "type": "paragraph",
@@ -1169,7 +1295,8 @@
                 "type": "text",
                 "text": "The fertile environment gave birth to vigorous growth. The soil beneath his feet felt like a soft mattress. Artem takes off his jacket and walks through the grass field with weeds as high as his knees. A soft breeze passes by with the scent of the fresh blades of grass. Artem never thought such a gentle wind existed in the world."
               }
-            ]
+            ],
+            "id": "p-d42f53bc1f092b33"
           },
           {
             "type": "paragraph",
@@ -1178,7 +1305,8 @@
                 "type": "text",
                 "text": "He gently held on to Anna's hand, and she accepted his advance."
               }
-            ]
+            ],
+            "id": "p-9f895cb080d549b5"
           },
           {
             "type": "paragraph",
@@ -1187,7 +1315,8 @@
                 "type": "text",
                 "text": "For a split second, an idea passed through Artem's mind: \"Stay, and spend the rest of the life with Anna here.\" But he quickly cleared his head of the selfish thought when he looked at the girl who entrusted him with everything standing beside him. He would be letting her down if he were to follow his selfish urges."
               }
-            ]
+            ],
+            "id": "p-8a98574e647f5e99"
           },
           {
             "type": "paragraph",
@@ -1196,7 +1325,8 @@
                 "type": "text",
                 "text": "Before the three could enjoy more than just a sudden moment of peace, a rapid buzzing noise rose in the sky. The strange noise brought a prickling pain to their heads. A monster, like a bird, dashed through the sky flapping its glass-like transparent wings at astonishing speeds."
               }
-            ]
+            ],
+            "id": "p-8972f07b7bc8b52c"
           },
           {
             "type": "paragraph",
@@ -1205,7 +1335,8 @@
                 "type": "text",
                 "text": "Subconsciously, Dalmir covered his ears and dropped to the ground, and began praying to a certain god. After having experienced being taken by monsters, he has always been the first to react to similar dangers. Artem fought the pain in his eardrums as he covered Anna with his body and knelt to the floor. He realized that he might have seen monsters like these somewhere before."
               }
-            ]
+            ],
+            "id": "p-d8f6fce4dafbc982"
           },
           {
             "type": "paragraph",
@@ -1214,7 +1345,8 @@
                 "type": "text",
                 "text": "The dangers from the sky lands softly on the ground, retracting its mesh-like wings, and stood still like a horrific statue."
               }
-            ]
+            ],
+            "id": "p-736bd61264567601"
           },
           {
             "type": "paragraph",
@@ -1223,7 +1355,8 @@
                 "type": "text",
                 "text": "Was that... a mosquito? Artem finally recalled from the depths of his memories the description he once read in an encyclopedia of the Old World regarding the monstrosity before him."
               }
-            ]
+            ],
+            "id": "p-0bc7e56e2854539f"
           },
           {
             "type": "paragraph",
@@ -1232,7 +1365,8 @@
                 "type": "text",
                 "text": "In the Old World era, the world was divided into four distinct seasons. Mosquitoes were blood-sucking insects that emerged during the summer, but their size was no larger than an average fingertip and could be crushed with ease. However, the \"mosquito\" before him was taller than he was, and he could see individual hairs on its slender limbs. Its long and thin sword-like proboscis pierced in the ground as if it were sucking on something, completely oblivious to the three people standing around it."
               }
-            ]
+            ],
+            "id": "p-9437cbf4ccd5b058"
           },
           {
             "type": "paragraph",
@@ -1241,7 +1375,8 @@
                 "type": "text",
                 "text": "Lying flat on his stomach, Dalmir felt liquid moving below beneath the soft soil, as the giant mosquito's belly swelled up. There was fear in his lowered voice:"
               }
-            ]
+            ],
+            "id": "p-753a52e8f6aa4034"
           },
           {
             "type": "paragraph",
@@ -1250,7 +1385,8 @@
                 "type": "text",
                 "text": "\"Let's escape quickly before it discovers us...\""
               }
-            ]
+            ],
+            "id": "p-f5c6c59bcd48606a"
           },
           {
             "type": "paragraph",
@@ -1259,7 +1395,8 @@
                 "type": "text",
                 "text": "\"Yeah, be careful.\""
               }
-            ]
+            ],
+            "id": "p-1c29ac2209466943"
           },
           {
             "type": "paragraph",
@@ -1268,7 +1405,8 @@
                 "type": "text",
                 "text": "Artem slowed down his breathing and moved slowly through the tall grass. But the nasty creature seemed to detect even the slightest tremor in the soil. In the blink of an eye, it retracted its proboscis and flew into the air. The faint hum came again, accompanied by a numbing headache. Artem brandished the sword that the queen of the Frozen City gave him and readied himself for battle."
               }
-            ]
+            ],
+            "id": "p-477c02f8fca75c7f"
           },
           {
             "type": "paragraph",
@@ -1277,7 +1415,8 @@
                 "type": "text",
                 "text": "\"Be careful, Artem! It's coming.\""
               }
-            ]
+            ],
+            "id": "p-3a26e67c1f77dbb9"
           },
           {
             "type": "paragraph",
@@ -1286,7 +1425,8 @@
                 "type": "text",
                 "text": "The high-pitched noise turned into a shrill scream as the creature approached. Artem parried the piercing attack from the mosquito's mouth with his sword. The creature was agile in the air, able to not only hover but quickly change directions. It flew back into the air and swooped down for another attack. Its movements were so fast that it became a blur. Before the attack could strike Artem, a roar of gunpowder sounded from behind him. The giant mosquito was knocked to the ground, with its feet in the air."
               }
-            ]
+            ],
+            "id": "p-44cbda3d60032cd3"
           },
           {
             "type": "paragraph",
@@ -1295,7 +1435,8 @@
                 "type": "text",
                 "text": "Artem turned around to see Dalmir holding an ancient flintlock musket, with white smoke coming out of its barrel."
               }
-            ]
+            ],
+            "id": "p-0b934ec11540ec22"
           },
           {
             "type": "paragraph",
@@ -1304,7 +1445,8 @@
                 "type": "text",
                 "text": "\"Great shot!\" Dalmir was thrilled with the precision of his shot. But his excitement soon turned into fear as the creature kicked its feet to turn itself over."
               }
-            ]
+            ],
+            "id": "p-a2c6fde27527e058"
           },
           {
             "type": "paragraph",
@@ -1313,7 +1455,8 @@
                 "type": "text",
                 "text": "The giant mosquito turned upright and started flying back and forth in the air, enough to make someone dizzy. Artem could tell how angry it was by the fierce flapping of its wings. Its needle-sharp mouth quivered in preparation for its next attack."
               }
-            ]
+            ],
+            "id": "p-b1c5a9ce34801a91"
           },
           {
             "type": "paragraph",
@@ -1322,7 +1465,8 @@
                 "type": "text",
                 "text": "Artem's hand shook as he tried to hold on to the sword. This wasn't going to be an attack that could be dodged."
               }
-            ]
+            ],
+            "id": "p-64ec9778caff2a8a"
           },
           {
             "type": "paragraph",
@@ -1331,7 +1475,8 @@
                 "type": "text",
                 "text": "\"Anna, get out of here!\""
               }
-            ]
+            ],
+            "id": "p-3292d51bb4f5f5c1"
           },
           {
             "type": "paragraph",
@@ -1340,7 +1485,8 @@
                 "type": "text",
                 "text": "\"But, Artem...\""
               }
-            ]
+            ],
+            "id": "p-1697fb1e2088cb70"
           },
           {
             "type": "paragraph",
@@ -1349,7 +1495,8 @@
                 "type": "text",
                 "text": "\"Escape? No need.\""
               }
-            ]
+            ],
+            "id": "p-ebca2ab5d12adae2"
           },
           {
             "type": "paragraph",
@@ -1358,7 +1505,8 @@
                 "type": "text",
                 "text": "A strong but powerful voice sounded from out of nowhere. Suddenly, a long lance appeared from the sky and pierced the semi-translucent body of the giant mosquito, pinning it to the ground."
               }
-            ]
+            ],
+            "id": "p-1b7bf274968713c1"
           },
           {
             "type": "paragraph",
@@ -1367,7 +1515,8 @@
                 "type": "text",
                 "text": "The battle was over in an instant. Artem let out a sigh of relief. They were saved."
               }
-            ]
+            ],
+            "id": "p-b725593bbed2e5b3"
           },
           {
             "type": "paragraph",
@@ -1376,7 +1525,8 @@
                 "type": "text",
                 "text": "The man who spoke was dressed in strange imposing attire, looked majestic. What's more surprising was his mount: it was an insect with an armored shell, developed hind legs, and a saddle on its back. It was nearly the size of the giant mosquito that they just fought."
               }
-            ]
+            ],
+            "id": "p-a993975557a0a924"
           },
           {
             "type": "paragraph",
@@ -1385,7 +1535,8 @@
                 "type": "text",
                 "text": "The insect jumped up with lightning-quick speed. As it did, the man pulled his lance from the creature's corpse and stopped in front of Artem. He pointed it with precision at Artem's heart."
               }
-            ]
+            ],
+            "id": "p-8f759358b76e1144"
           },
           {
             "type": "paragraph",
@@ -1394,7 +1545,8 @@
                 "type": "text",
                 "text": "He whistled, and a team of similarly dressed knights appeared from the grasses. The three of them were about to express their thanks when the first knight announced:"
               }
-            ]
+            ],
+            "id": "p-f1eec7974d1e8e1b"
           },
           {
             "type": "paragraph",
@@ -1403,7 +1555,8 @@
                 "type": "text",
                 "text": "\"Strangers trespassing on our sacred land, the Spring Weald. You are under arrest!\""
               }
-            ]
+            ],
+            "id": "p-4fc1140283c17f3e"
           },
           {
             "type": "paragraph",
@@ -1412,13 +1565,15 @@
                 "type": "text",
                 "text": "(To Be Continued)"
               }
-            ]
+            ],
+            "id": "p-1897524b9c45c9d3"
           }
         ]
       }
     },
     {
       "id": "6",
+      "volumeKey": "chapter-5-water-prison-i",
       "label": "Chapter 5: Water Prison (I)",
       "document": {
         "version": 1,
@@ -1435,7 +1590,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-cc3f0e3f04125c41"
           },
           {
             "type": "paragraph",
@@ -1444,7 +1600,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -1453,7 +1610,8 @@
                 "type": "text",
                 "text": "As Artem slowly woke, a mysterious feeling ran through him, as if he was freed from the weight of his body. He felt light, and the prolonged slumber provided a miraculous sense of security, just as what infants felt when they rest in the water of their mother's womb."
               }
-            ]
+            ],
+            "id": "p-59a6f97239d3ce02"
           },
           {
             "type": "paragraph",
@@ -1462,7 +1620,8 @@
                 "type": "text",
                 "text": "He slowly regained consciousness but the drowsy feeling remained."
               }
-            ]
+            ],
+            "id": "p-e7fb3b94e94113cb"
           },
           {
             "type": "paragraph",
@@ -1471,7 +1630,8 @@
                 "type": "text",
                 "text": "Artem recalled the last thing that happened before passing out: He struggled to return to the surface as someone was dragging him down deeper into the water. He held out as long as he could before finally running out of air..."
               }
-            ]
+            ],
+            "id": "p-ed96f5d98ae78d70"
           },
           {
             "type": "paragraph",
@@ -1480,7 +1640,8 @@
                 "type": "text",
                 "text": "Did I drown?"
               }
-            ]
+            ],
+            "id": "p-06f6085e12f04d91"
           },
           {
             "type": "paragraph",
@@ -1489,7 +1650,8 @@
                 "type": "text",
                 "text": "There was no time for Artem to figure out what had happened because knowing what was going on was more important: He was completely submerged in water, however, there was not the slightest sense of grasping for air. He turned his wrist and confirmed the flow of water between his fingers. Then, his body began moving upwards as he started kicking his legs."
               }
-            ]
+            ],
+            "id": "p-13e496c22e14982c"
           },
           {
             "type": "paragraph",
@@ -1498,7 +1660,8 @@
                 "type": "text",
                 "text": "\"Bam!\" his back hit the bars of the metal cage."
               }
-            ]
+            ],
+            "id": "p-05976decbeaac972"
           },
           {
             "type": "paragraph",
@@ -1507,7 +1670,8 @@
                 "type": "text",
                 "text": "The sudden pain made Artem swear out loud, but knowing that he was still alive put his mind at ease."
               }
-            ]
+            ],
+            "id": "p-12a91cfeee7d8272"
           },
           {
             "type": "paragraph",
@@ -1516,7 +1680,8 @@
                 "type": "text",
                 "text": "\"Are you awake, Mr. Artem?\" A familiar voice came from behind. Artem. Swimming towards the sound, Artem discovered Captain Duke and the iron bars in the water between them."
               }
-            ]
+            ],
+            "id": "p-d2a4f811b077ff03"
           },
           {
             "type": "paragraph",
@@ -1525,7 +1690,8 @@
                 "type": "text",
                 "text": "\"Captain Duke, you're alive as well? Where are we...\""
               }
-            ]
+            ],
+            "id": "p-fb9c4a3cca045fd7"
           },
           {
             "type": "paragraph",
@@ -1534,7 +1700,8 @@
                 "type": "text",
                 "text": "\"We've been captured by the underwater residents.\""
               }
-            ]
+            ],
+            "id": "p-1145f5f329e110b4"
           },
           {
             "type": "paragraph",
@@ -1543,7 +1710,8 @@
                 "type": "text",
                 "text": "\"So that's how I passed out...\""
               }
-            ]
+            ],
+            "id": "p-509537171e7d0e05"
           },
           {
             "type": "paragraph",
@@ -1552,7 +1720,8 @@
                 "type": "text",
                 "text": "\"No, you passed out because you were holding your breath. Haven't you noticed? We can breathe in this water.\""
               }
-            ]
+            ],
+            "id": "p-1d8a6ea466f21e11"
           },
           {
             "type": "paragraph",
@@ -1561,7 +1730,8 @@
                 "type": "text",
                 "text": "Artem suddenly understood. He was only alive because of this mysterious water. When he was a medical student, he learned that it was possible to breathe in water if enough oxygen was dissolved."
               }
-            ]
+            ],
+            "id": "p-1e06925e55bb2495"
           },
           {
             "type": "paragraph",
@@ -1570,7 +1740,8 @@
                 "type": "text",
                 "text": "It seems their conversation warranted a response from the nearby guard. A boyish figure swam past their cage. Dressed in tights with a harpoon in his hand, he banged hard on the iron bars with the harpoon, producing strong waves that sent Artem back."
               }
-            ]
+            ],
+            "id": "p-27fcb17bb7507324"
           },
           {
             "type": "paragraph",
@@ -1579,7 +1750,8 @@
                 "type": "text",
                 "text": "\"Shut up, this isn't a place for chitchat!\" The guard wasn't playing around: \"Where else would you breathe, besides in the water? You fools, come take a look at this.\""
               }
-            ]
+            ],
+            "id": "p-7b417cbcb117af12"
           },
           {
             "type": "paragraph",
@@ -1588,7 +1760,8 @@
                 "type": "text",
                 "text": "The guard pulled on the net in his hand. The thing he was dragging floated slowly into sight. There were white transparent sluggish worms. At least Artem thought they were worms, for he had never seen anything like them."
               }
-            ]
+            ],
+            "id": "p-c501b2663937e0b2"
           },
           {
             "type": "paragraph",
@@ -1597,7 +1770,8 @@
                 "type": "text",
                 "text": "\"Do you know where these bugs came from?\""
               }
-            ]
+            ],
+            "id": "p-4f45bbf69c0eeb56"
           },
           {
             "type": "paragraph",
@@ -1606,7 +1780,8 @@
                 "type": "text",
                 "text": "Artem and Duke looked at each other and shook their heads."
               }
-            ]
+            ],
+            "id": "p-7eb1e5b174b99ec1"
           },
           {
             "type": "paragraph",
@@ -1615,7 +1790,8 @@
                 "type": "text",
                 "text": "\"Hmph, useless creatures. I thought you two would know something...\""
               }
-            ]
+            ],
+            "id": "p-749b9fc54d43e416"
           },
           {
             "type": "paragraph",
@@ -1624,7 +1800,8 @@
                 "type": "text",
                 "text": "\"...These are bugs?\""
               }
-            ]
+            ],
+            "id": "p-04fb8af1d65e13c9"
           },
           {
             "type": "paragraph",
@@ -1633,7 +1810,8 @@
                 "type": "text",
                 "text": "\"I don't know, but I have to call it something.\" The guard suddenly remembered his position and struck the iron bars again, \"Silence! Don't talk to me!\""
               }
-            ]
+            ],
+            "id": "p-96bbee18976c1919"
           },
           {
             "type": "paragraph",
@@ -1642,7 +1820,8 @@
                 "type": "text",
                 "text": "After a brief moment of silence, Artem asked the guard, \"It doesn't look like it has any internal organs. Maybe it's not a living organism?\""
               }
-            ]
+            ],
+            "id": "p-cdff0b3db57b6f1a"
           },
           {
             "type": "paragraph",
@@ -1651,7 +1830,8 @@
                 "type": "text",
                 "text": "\"It chases people as if it has eyes. Who cares if it's living or not,\" snorted the Guard. \"When the body is split open, it releases a liquid that can dissolve people. You also can't breathe in the polluted water.\""
               }
-            ]
+            ],
+            "id": "p-d07ac7fbcc29568d"
           },
           {
             "type": "paragraph",
@@ -1660,7 +1840,8 @@
                 "type": "text",
                 "text": "\"Polluted... water...?\""
               }
-            ]
+            ],
+            "id": "p-e1d13b24c1ffae96"
           },
           {
             "type": "paragraph",
@@ -1669,7 +1850,8 @@
                 "type": "text",
                 "text": "Duke added coldly. \"So, instead of attacking them, you built this huge underwater prison...\""
               }
-            ]
+            ],
+            "id": "p-e5574f8642317440"
           },
           {
             "type": "paragraph",
@@ -1678,7 +1860,8 @@
                 "type": "text",
                 "text": "\"Hahaha, so you're the clever one. That fool beside you keeps asking stupid questions. Yes, two hundred layers of the prison below you are filled with these bugs.\" The guard's tone suddenly became serious: \"We must continue building the prison to survive.\""
               }
-            ]
+            ],
+            "id": "p-92efc51e3914d2dd"
           },
           {
             "type": "paragraph",
@@ -1687,7 +1870,8 @@
                 "type": "text",
                 "text": "Artem tried to see the water below him. His eyesight was not as good as Duke's, but he could make out the staggering number of cages beneath him, where countless white bugs were indeed being held. However, the water was so deep that he could not see the bottom, only a deep abyss. The rising waters could have already crushed the insects near the bottom with sheer pressure, leaving only the smell of death in the abyss."
               }
-            ]
+            ],
+            "id": "p-7845f589dcc77999"
           },
           {
             "type": "paragraph",
@@ -1696,7 +1880,8 @@
                 "type": "text",
                 "text": "Artem seemed to understand the real cause behind the flooding in the lungs of \"Spring Weald.\""
               }
-            ]
+            ],
+            "id": "p-f824eb7bbb4aa147"
           },
           {
             "type": "paragraph",
@@ -1705,7 +1890,8 @@
                 "type": "text",
                 "text": "The constant appearance of bugs and the expansion of the prison made the water in its lungs rise higher, leaving less room for oxygen."
               }
-            ]
+            ],
+            "id": "p-5a0f689c9b213940"
           },
           {
             "type": "paragraph",
@@ -1714,7 +1900,8 @@
                 "type": "text",
                 "text": "\"This prison wasn't meant for the two of you.\" The guard banged on the iron bars again. \"If you can help us find out where these bugs are coming from, we can let you out of here. How about it?\""
               }
-            ]
+            ],
+            "id": "p-cd3c2592f96957d4"
           },
           {
             "type": "paragraph",
@@ -1723,7 +1910,8 @@
                 "type": "text",
                 "text": "\"What if I told you we were actually from above the water's surface?\""
               }
-            ]
+            ],
+            "id": "p-314419012c4db420"
           },
           {
             "type": "paragraph",
@@ -1732,13 +1920,15 @@
                 "type": "text",
                 "text": "(To Be Continued)"
               }
-            ]
+            ],
+            "id": "p-1897524b9c45c9d3"
           }
         ]
       }
     },
     {
       "id": "7",
+      "volumeKey": "chapter-6-lava-kingdom-i",
       "label": "Chapter 6: Lava Kingdom (I)",
       "document": {
         "version": 1,
@@ -1755,7 +1945,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-7c0d2bc9172be223"
           },
           {
             "type": "paragraph",
@@ -1764,7 +1955,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -1773,7 +1965,8 @@
                 "type": "text",
                 "text": "Artem originally didn't have any negative feelings towards these invertebrate annelids."
               }
-            ]
+            ],
+            "id": "p-8c27ef9e544ceb0b"
           },
           {
             "type": "paragraph",
@@ -1782,7 +1975,8 @@
                 "type": "text",
                 "text": "\"They've noticed the flare. Look, that's the molten insect. It's here to bring us home.\""
               }
-            ]
+            ],
+            "id": "p-2117a6b5138fa231"
           },
           {
             "type": "paragraph",
@@ -1791,7 +1985,8 @@
                 "type": "text",
                 "text": "A sense of joy and pride can be noticed in Dalmir's tone."
               }
-            ]
+            ],
+            "id": "p-c0e145cdbec2ff61"
           },
           {
             "type": "paragraph",
@@ -1800,7 +1995,8 @@
                 "type": "text",
                 "text": "\"Here for us? Another gigantic insect... there's too many bugs here.\""
               }
-            ]
+            ],
+            "id": "p-6068dde154c93171"
           },
           {
             "type": "paragraph",
@@ -1809,7 +2005,8 @@
                 "type": "text",
                 "text": "The gigantic earthworm-like bug stood roughly 2 meters tall and meters long. It continued to squirm as it was parked and waited to be boarded. Numerous layers of petal-shaped scales covered its circular muscles. The scales were coated in a special layer of fine black granite sand which looks to be made of part secretion and part lava."
               }
-            ]
+            ],
+            "id": "p-af26547aebe9daf6"
           },
           {
             "type": "paragraph",
@@ -1818,7 +2015,8 @@
                 "type": "text",
                 "text": "Artem was reluctant to board this worm and stood still."
               }
-            ]
+            ],
+            "id": "p-dd8c452317e7a9de"
           },
           {
             "type": "paragraph",
@@ -1827,7 +2025,8 @@
                 "type": "text",
                 "text": "\"What's wrong, Artem? This is not as strange as the bugs back on the Spring Weald.\""
               }
-            ]
+            ],
+            "id": "p-332c9aa8e07be489"
           },
           {
             "type": "paragraph",
@@ -1836,7 +2035,8 @@
                 "type": "text",
                 "text": "\"Let's go, Artem.\""
               }
-            ]
+            ],
+            "id": "p-3951ef952f3d2c4f"
           },
           {
             "type": "paragraph",
@@ -1845,7 +2045,8 @@
                 "type": "text",
                 "text": "Anna followed after Dalmir."
               }
-            ]
+            ],
+            "id": "p-e0e27c212f7a9c47"
           },
           {
             "type": "paragraph",
@@ -1854,7 +2055,8 @@
                 "type": "text",
                 "text": "An old man was standing above the rings of muscle. He was holding a long pole in his hand. In his other hand... was an iron hook, holding onto something like a bridle. He jumped off the back of the giant bug with style. The old man spread out his arms and embraced Dalmir. It was clear that they weren't just acquaintances, but great buddies."
               }
-            ]
+            ],
+            "id": "p-b66c3e7f5f35ad12"
           },
           {
             "type": "paragraph",
@@ -1863,7 +2065,8 @@
                 "type": "text",
                 "text": "\"Hey! Dalmir!\""
               }
-            ]
+            ],
+            "id": "p-95b5a8db890e9255"
           },
           {
             "type": "paragraph",
@@ -1872,7 +2075,8 @@
                 "type": "text",
                 "text": "\"President Barbicane! You came to see me!\""
               }
-            ]
+            ],
+            "id": "p-2d037b16b85614db"
           },
           {
             "type": "paragraph",
@@ -1881,7 +2085,8 @@
                 "type": "text",
                 "text": "\"Hahahaha, surprised, are you? Quickly, introduce me to your adventure companions!\""
               }
-            ]
+            ],
+            "id": "p-91463f6ef5574e84"
           },
           {
             "type": "paragraph",
@@ -1890,7 +2095,8 @@
                 "type": "text",
                 "text": "\"Hello, I'm Anna.\""
               }
-            ]
+            ],
+            "id": "p-68632329f505bee0"
           },
           {
             "type": "paragraph",
@@ -1899,7 +2105,8 @@
                 "type": "text",
                 "text": "\"Hello, Anna! I'm Barbicane. Hahaha, this girl is adorable!\""
               }
-            ]
+            ],
+            "id": "p-9885241feea3e1e6"
           },
           {
             "type": "paragraph",
@@ -1908,7 +2115,8 @@
                 "type": "text",
                 "text": "Barbicane, seeing that Artem hadn't moved, walked towards him, shouting at the top of his voice. \"You, young lad over there! Come quickly. We are heading back to the Lava Kingdom!\""
               }
-            ]
+            ],
+            "id": "p-6aa2c2c23fddbb15"
           },
           {
             "type": "paragraph",
@@ -1917,7 +2125,8 @@
                 "type": "text",
                 "text": "Artem, seeing the old man limping over to him and grabbing his hand, reluctantly followed."
               }
-            ]
+            ],
+            "id": "p-e28a3c94e654aa93"
           },
           {
             "type": "paragraph",
@@ -1926,7 +2135,8 @@
                 "type": "text",
                 "text": "\"...Hello, I'm Artem.\""
               }
-            ]
+            ],
+            "id": "p-c2735c7a4e1c9141"
           },
           {
             "type": "paragraph",
@@ -1935,7 +2145,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -1944,7 +2155,8 @@
                 "type": "text",
                 "text": "After climbing on the huge molten insect, it was as Artem had feared. The metal armors on its back didn't fit well on the worm. There was nothing Artem could hold onto, except the arms of the seat. He clamped his legs tightly to keep himself from falling off this loose carapace. There was the sound of an electrode at the end of Barbicane's pole, as he looked back at the people seated behind him."
               }
-            ]
+            ],
+            "id": "p-2bc3726f02adbf09"
           },
           {
             "type": "paragraph",
@@ -1953,7 +2165,8 @@
                 "type": "text",
                 "text": "\"Off we go!\""
               }
-            ]
+            ],
+            "id": "p-68f9c27a4e431d37"
           },
           {
             "type": "paragraph",
@@ -1962,7 +2175,8 @@
                 "type": "text",
                 "text": "The giant worm squirmed with the shock from Barbicane's pole. With the rhythmic contractions and relaxation of the ringed muscles, the worm moved forward faster and faster. Sitting between Anna and Dalmir, Artem thought this was a marvelous way to travel. The distance between them changed slightly every time the worm's muscles relaxed and contracted."
               }
-            ]
+            ],
+            "id": "p-6dba8118e79153f0"
           },
           {
             "type": "paragraph",
@@ -1971,7 +2185,8 @@
                 "type": "text",
                 "text": "Without a doubt, there were some unexpected advantages to this special mode of transportation."
               }
-            ]
+            ],
+            "id": "p-c1c6b0b5fd44c04a"
           },
           {
             "type": "paragraph",
@@ -1980,7 +2195,8 @@
                 "type": "text",
                 "text": "The large worm and its armor can be compressed to a certain extent, allowing it to crawl through the tunnels. It can go around some smaller volcanic vents, and also climb on rock walls that others would have to circle. Barbicane used complex static signals to control the worm, and the worm made some delicate maneuvers of its own. The two of them were like parts in a well-oiled machine, achieving some impossible movements together."
               }
-            ]
+            ],
+            "id": "p-2bdef4c2fd4c9358"
           },
           {
             "type": "paragraph",
@@ -1989,7 +2205,8 @@
                 "type": "text",
                 "text": "Artem also noticed the unique way the large worm dissipated heat. A sticky liquid would flow out from the small reticular holes in its armor. The burning sand would then fall off its carapace, while new clay and sand would stick to it from the fresh liquids, thus taking away the heat from the armor."
               }
-            ]
+            ],
+            "id": "p-362805041f616865"
           },
           {
             "type": "paragraph",
@@ -1998,7 +2215,8 @@
                 "type": "text",
                 "text": "\"How incredible...\""
               }
-            ]
+            ],
+            "id": "p-692e269f25f45572"
           },
           {
             "type": "paragraph",
@@ -2007,7 +2225,8 @@
                 "type": "text",
                 "text": "As the journey continued, Dalmir and Barbicane's conversation about the Lava Kingdom grew more interesting."
               }
-            ]
+            ],
+            "id": "p-22c9043df21b0157"
           },
           {
             "type": "paragraph",
@@ -2016,7 +2235,8 @@
                 "type": "text",
                 "text": "According to Dalmir, half of the adventurers in the Lava Kingdom loved building cannons, while the other half loved adventures. Barbicane is the president of the Lava Kingdom Cannon Development Committee, a fine example of how obsessed they are with cannon technology. The only thing they could boast about was the size of the cannon or its firing range."
               }
-            ]
+            ],
+            "id": "p-f4deeccc7963827e"
           },
           {
             "type": "paragraph",
@@ -2025,7 +2245,8 @@
                 "type": "text",
                 "text": "\"In our committee, people respect you based on the might of your cannon. Dalmir is only interested in making flintlocks. We're not interested in that, hahaha!\""
               }
-            ]
+            ],
+            "id": "p-c2189d75b35b1ac2"
           },
           {
             "type": "paragraph",
@@ -2034,7 +2255,8 @@
                 "type": "text",
                 "text": "\"Hey! I'm a professional adventurer! Hahahaha!\""
               }
-            ]
+            ],
+            "id": "p-dc9733bd5f581fe7"
           },
           {
             "type": "paragraph",
@@ -2043,7 +2265,8 @@
                 "type": "text",
                 "text": "President Barbicane's boorish laugh gave everyone around him a sense of kinship. He was missing an eye, and one of his hands and one leg were replaced by metal prosthetics. It wasn't until he turned to talk to Dalmir that Artem noticed part of his skull was also made from some kind of silicon."
               }
-            ]
+            ],
+            "id": "p-188c41f1351ef6e4"
           },
           {
             "type": "paragraph",
@@ -2052,7 +2275,8 @@
                 "type": "text",
                 "text": "\"What happened to my skull? I lost a chunk of it when the cannon blew up! But it didn't turn me into a slow thinker, haha!\""
               }
-            ]
+            ],
+            "id": "p-8743f384025271a9"
           },
           {
             "type": "paragraph",
@@ -2061,7 +2285,8 @@
                 "type": "text",
                 "text": "As Artem got used to the bumpy ride, he finally had time to enjoy the sights. There were many volcanoes of varying sizes all looking like they were about to burst. Lava and magna were everywhere, and Artem felt scorching hot just looking at them. Any normal human would think the environment was just too harsh. It wouldn't be completely inaccurate to say this place was hell on earth. The black volcanoes, smoke-filled skies, red lava spewing everywhere... Who would have imagined there'd be a country here focused on the scientific research of cannons?"
               }
-            ]
+            ],
+            "id": "p-e0b3a1f3c4cefe31"
           },
           {
             "type": "paragraph",
@@ -2070,7 +2295,8 @@
                 "type": "text",
                 "text": "\"It's been a long time since any adventurers returned. I've asked our cook to prepare a celebration feast tonight!\""
               }
-            ]
+            ],
+            "id": "p-33e1851962b85fcd"
           },
           {
             "type": "paragraph",
@@ -2079,7 +2305,8 @@
                 "type": "text",
                 "text": "Artem was excited that there would be a celebration. Only Anna, who had been watching the volcano in the distance, seemed to be preoccupied with something."
               }
-            ]
+            ],
+            "id": "p-ecabcf47f550b001"
           },
           {
             "type": "paragraph",
@@ -2088,7 +2315,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-3"
           },
           {
             "type": "paragraph",
@@ -2097,7 +2325,8 @@
                 "type": "text",
                 "text": "The banquet hall was full of people from the Cannon Development Committee and the Explorers' Guild. President Barbicane's passionate introduction of the three of them was met with thunderous applause. Artem noticed something: everyone was missing a body part, whether it be an arm or a leg. Some of them even had a rubber chin or a platinum nose."
               }
-            ]
+            ],
+            "id": "p-5743e80f382965a9"
           },
           {
             "type": "paragraph",
@@ -2106,7 +2335,8 @@
                 "type": "text",
                 "text": "From Artem's perspective, it was a miracle that Dalmir's body was completely intact."
               }
-            ]
+            ],
+            "id": "p-a5bea3d58b89cd6f"
           },
           {
             "type": "paragraph",
@@ -2115,7 +2345,8 @@
                 "type": "text",
                 "text": "\"For years now, our Cannon Committee has been planning the greatest cannon event, one that's worthy of our ancestors! Everyone is aware that the greatest volcanic activity in history is coming!\""
               }
-            ]
+            ],
+            "id": "p-fd47f69df520657b"
           },
           {
             "type": "paragraph",
@@ -2124,7 +2355,8 @@
                 "type": "text",
                 "text": "\"Viva the volcanoes!\" The banquet hall filled up with loud cheers once more."
               }
-            ]
+            ],
+            "id": "p-9c8c3d76d1083f5a"
           },
           {
             "type": "paragraph",
@@ -2133,7 +2365,8 @@
                 "type": "text",
                 "text": "\"We will bravely shoot ourselves into outer space, risking our lives for the greatest adventure the world has ever known!\""
               }
-            ]
+            ],
+            "id": "p-d26d3d644bd743f1"
           },
           {
             "type": "paragraph",
@@ -2142,7 +2375,8 @@
                 "type": "text",
                 "text": "\"Viva the outer space!\" The whole banquet hall shook as if it would collapse at any moment."
               }
-            ]
+            ],
+            "id": "p-2f4b57b18aa74dfa"
           },
           {
             "type": "paragraph",
@@ -2151,7 +2385,8 @@
                 "type": "text",
                 "text": "\"Positional observations from Dalmir's journey have allowed us to track the Satelleden. I am pleased to announce that we can now reach it with complete certainty using cannon!\""
               }
-            ]
+            ],
+            "id": "p-7a510c73e7051a1c"
           },
           {
             "type": "paragraph",
@@ -2160,7 +2395,8 @@
                 "type": "text",
                 "text": "Many people were shocked at the announcement, evident by the sudden silence in the hall. Then, it was followed by cheering and applause that couldn't be suppressed, even if all the cannons in the banquet hall were fired at once."
               }
-            ]
+            ],
+            "id": "p-a566dce0ab6025d1"
           },
           {
             "type": "paragraph",
@@ -2169,7 +2405,8 @@
                 "type": "text",
                 "text": "Artem sneaked away from the crowd of people in the banquet hall. He saw Anna looking out of the window at the quiet volcano in the distance. Besides her, it was the sparkling wine they had brought from the Spring Weald."
               }
-            ]
+            ],
+            "id": "p-8178b45a6dcef2aa"
           },
           {
             "type": "paragraph",
@@ -2178,7 +2415,8 @@
                 "type": "text",
                 "text": "\"Anna...\""
               }
-            ]
+            ],
+            "id": "p-dc1fbeb8541ecb80"
           },
           {
             "type": "paragraph",
@@ -2187,7 +2425,8 @@
                 "type": "text",
                 "text": "\"Artem, don't say anything. Can you come here for a moment?\""
               }
-            ]
+            ],
+            "id": "p-e42f085687ec77bc"
           },
           {
             "type": "paragraph",
@@ -2196,7 +2435,8 @@
                 "type": "text",
                 "text": "During their adventures, Artem had witnessed Anna's extraordinary tenacity a thousand times. But now, her voice sounded like a distress signal, pleading to him for help. Her soft breathes seemed to be conveying a desire to make him stay. It made Artem want to embrace her from behind."
               }
-            ]
+            ],
+            "id": "p-64efa3417abdb868"
           },
           {
             "type": "paragraph",
@@ -2205,7 +2445,8 @@
                 "type": "text",
                 "text": "\"What's wrong?\""
               }
-            ]
+            ],
+            "id": "p-48a7769379cd3f79"
           },
           {
             "type": "paragraph",
@@ -2214,7 +2455,8 @@
                 "type": "text",
                 "text": "\"If you go to outer space, will you ever come back again...?\""
               }
-            ]
+            ],
+            "id": "p-aa6f11284a99e48c"
           },
           {
             "type": "paragraph",
@@ -2223,7 +2465,8 @@
                 "type": "text",
                 "text": "\"Perhaps, there probably won't be volcano cannons in the Satelleden.\""
               }
-            ]
+            ],
+            "id": "p-ea3ae28d2568d169"
           },
           {
             "type": "paragraph",
@@ -2232,7 +2475,8 @@
                 "type": "text",
                 "text": "\"Artem...\" Anna turned around and her face flushed as if she had cried. At that moment, the sounds from the banquet hall faded away and the whole world fell silent."
               }
-            ]
+            ],
+            "id": "p-94a374a9f3fc9b78"
           },
           {
             "type": "paragraph",
@@ -2241,7 +2485,8 @@
                 "type": "text",
                 "text": "\"I miss home. Will you come home with me?\""
               }
-            ]
+            ],
+            "id": "p-af46265fd7fca193"
           },
           {
             "type": "paragraph",
@@ -2250,13 +2495,15 @@
                 "type": "text",
                 "text": "(To Be Continued)"
               }
-            ]
+            ],
+            "id": "p-1897524b9c45c9d3"
           }
         ]
       }
     },
     {
       "id": "8",
+      "volumeKey": "chapter-6-lava-kingdom-ii",
       "label": "Chapter 6: Lava Kingdom (II)",
       "document": {
         "version": 1,
@@ -2273,7 +2520,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-be5ada5d94a6a34b"
           },
           {
             "type": "paragraph",
@@ -2282,7 +2530,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -2291,7 +2540,8 @@
                 "type": "text",
                 "text": "Dalmir was confused, but he didn't dare ask any questions."
               }
-            ]
+            ],
+            "id": "p-ae37e3784976a970"
           },
           {
             "type": "paragraph",
@@ -2300,7 +2550,8 @@
                 "type": "text",
                 "text": "There was a delicate feeling in the air between Artem and Anna by the second day of the celebration."
               }
-            ]
+            ],
+            "id": "p-06ee812d1a6e7143"
           },
           {
             "type": "paragraph",
@@ -2309,7 +2560,8 @@
                 "type": "text",
                 "text": "Dalmir speculated that Artem saw the uplifted feelings of the festival as an opportunity and confessed his love for Anna, but was ultimately turned down. He had always believed the two would end up together, but reality has shown him how naive he was. If he had launched from the cannons and seen more of the world, maybe he would've seen it coming."
               }
-            ]
+            ],
+            "id": "p-50fe1371ad292e07"
           },
           {
             "type": "paragraph",
@@ -2318,7 +2570,8 @@
                 "type": "text",
                 "text": "\"Umm... I brought you guys to the launching grounds here today to show you our pride, the volcano cannon.\""
               }
-            ]
+            ],
+            "id": "p-9d3223ef3e35360b"
           },
           {
             "type": "paragraph",
@@ -2327,7 +2580,8 @@
                 "type": "text",
                 "text": "Dalmir was aware that the two were not in a good mood, but he thought that it would be best not to ask."
               }
-            ]
+            ],
+            "id": "p-840ebfebf43ce42a"
           },
           {
             "type": "paragraph",
@@ -2336,7 +2590,8 @@
                 "type": "text",
                 "text": "\"As I've said before, the energy of the volcano is the energy of the planet itself.\""
               }
-            ]
+            ],
+            "id": "p-1d618aa96af80fc6"
           },
           {
             "type": "paragraph",
@@ -2345,7 +2600,8 @@
                 "type": "text",
                 "text": "\"The core of the planet is alwats pushing towards the opposite direction of gravity and not sitting at the center of this planet. This enormous outward compression force shoots out the lava and other gases from beneath the ground. This is the power of the volcano...\""
               }
-            ]
+            ],
+            "id": "p-ada4b4af0f902952"
           },
           {
             "type": "paragraph",
@@ -2354,7 +2610,8 @@
                 "type": "text",
                 "text": "Artem and Anna looked upon the distant lava in the main volcano through the thick glass."
               }
-            ]
+            ],
+            "id": "p-14ef281db381f8e7"
           },
           {
             "type": "paragraph",
@@ -2363,7 +2620,8 @@
                 "type": "text",
                 "text": "It's characteristics were similar to ocean waves, rising and falling. On the other hand, it was like boiling water, with gases constantly pushing out of the magma and forming bubbles that soon bursted. The scorching temperatures heated the air unevenly and caused heat hazes to appear. Anyone could see that such an unstable, burning, and bright liquid could not be suppressed for much longer."
               }
-            ]
+            ],
+            "id": "p-284686aa03a3ffed"
           },
           {
             "type": "paragraph",
@@ -2372,7 +2630,8 @@
                 "type": "text",
                 "text": "Without realizing it, Artem was sweating all over."
               }
-            ]
+            ],
+            "id": "p-53cf8fcdc812c266"
           },
           {
             "type": "paragraph",
@@ -2381,7 +2640,8 @@
                 "type": "text",
                 "text": "\"Instability, unpredictability, and too much power were all reasons that humans in the past could not harness this energy. However, our ancestors changed their minds during the Ice Age.\""
               }
-            ]
+            ],
+            "id": "p-74f9c15ed16ed8a8"
           },
           {
             "type": "paragraph",
@@ -2390,7 +2650,8 @@
                 "type": "text",
                 "text": "\"Don't try to control it. Set it free!\""
               }
-            ]
+            ],
+            "id": "p-a7f984219cc1623d"
           },
           {
             "type": "paragraph",
@@ -2399,7 +2660,8 @@
                 "type": "text",
                 "text": "\"You're right, Artem! We should just set this immense energy free like...\""
               }
-            ]
+            ],
+            "id": "p-4ca3c6f4a1d18f85"
           },
           {
             "type": "paragraph",
@@ -2408,7 +2670,8 @@
                 "type": "text",
                 "text": "They said in unison, \"Like one big fart!\""
               }
-            ]
+            ],
+            "id": "p-daf5e2a2d0936d14"
           },
           {
             "type": "paragraph",
@@ -2417,7 +2680,8 @@
                 "type": "text",
                 "text": "The two of them laughed. Dalmir had told many cheesy jokes like this during their journey."
               }
-            ]
+            ],
+            "id": "p-3260f4f7dfc8a51d"
           },
           {
             "type": "paragraph",
@@ -2426,7 +2690,8 @@
                 "type": "text",
                 "text": "It wasn't until they were staring at the ready-to-erupt volcano that the foolish explanations came to live. It was unbelievable that they are standing so close to such outlandish descriptions. Artem feels like he's still in a dream."
               }
-            ]
+            ],
+            "id": "p-0c398a4a837c34fd"
           },
           {
             "type": "paragraph",
@@ -2435,7 +2700,8 @@
                 "type": "text",
                 "text": "Anna laughed lightly as she walked behind them."
               }
-            ]
+            ],
+            "id": "p-df3b10b316079bf4"
           },
           {
             "type": "paragraph",
@@ -2444,7 +2710,8 @@
                 "type": "text",
                 "text": "\"The energy containter at the top and the volcanic accelerators over there... They're too expensive to make, but they are all disposable...\""
               }
-            ]
+            ],
+            "id": "p-d2f6d17fcd400988"
           },
           {
             "type": "paragraph",
@@ -2453,7 +2720,8 @@
                 "type": "text",
                 "text": "Dalmir suddenly stopped. He wasn't pleased with that expression."
               }
-            ]
+            ],
+            "id": "p-fe080ff788b1f6b9"
           },
           {
             "type": "paragraph",
@@ -2462,7 +2730,8 @@
                 "type": "text",
                 "text": "\"They've prepared their whole lives for the one battle, but it only takes one battle to prove everything. They aren't disposables! They're the ultimate romanticists!\""
               }
-            ]
+            ],
+            "id": "p-9a836fa5a5b137b5"
           },
           {
             "type": "paragraph",
@@ -2471,7 +2740,8 @@
                 "type": "text",
                 "text": "\"...Romanticists...?"
               }
-            ]
+            ],
+            "id": "p-19b28ae83a65f2ea"
           },
           {
             "type": "paragraph",
@@ -2480,7 +2750,8 @@
                 "type": "text",
                 "text": "Artem felt as if something was stirring inside his chest like restless magma. As Dalmir's voice grew quieter, he could feel the vibrations of the mantle, all that immense energy to realize the once-in-a-lifetime romance."
               }
-            ]
+            ],
+            "id": "p-45ec527035a29f56"
           },
           {
             "type": "paragraph",
@@ -2489,7 +2760,8 @@
                 "type": "text",
                 "text": "\"Look over here! This is the cannonball we'll be riding in!\""
               }
-            ]
+            ],
+            "id": "p-85edfbf5f9ed7a9a"
           },
           {
             "type": "paragraph",
@@ -2498,7 +2770,8 @@
                 "type": "text",
                 "text": "It was a spherical cockpit about seven meters in diameter, with wide windows in the front. There were countless precise instruments, levers, and buttons inside. On the outside, there were a pair of thin wings that could open out..."
               }
-            ]
+            ],
+            "id": "p-5665e72adbb453c7"
           },
           {
             "type": "paragraph",
@@ -2507,7 +2780,8 @@
                 "type": "text",
                 "text": "It didn't look like anything from the Lava Kingdom."
               }
-            ]
+            ],
+            "id": "p-d88d1c0025df2774"
           },
           {
             "type": "paragraph",
@@ -2516,7 +2790,8 @@
                 "type": "text",
                 "text": "\"Could it be...\""
               }
-            ]
+            ],
+            "id": "p-8b577dc712bc8a17"
           },
           {
             "type": "paragraph",
@@ -2525,7 +2800,8 @@
                 "type": "text",
                 "text": "\"That's right. It was a cannonball created by the people from the Old World. This is the only one in the whole world!\""
               }
-            ]
+            ],
+            "id": "p-3eb74e9fc81939b8"
           },
           {
             "type": "paragraph",
@@ -2534,7 +2810,8 @@
                 "type": "text",
                 "text": "The outside was covered with material that can withstand temperatures up to 5000 degrees Celcius. Telemetry communications, energy, temperature control, and other precision equipment lined the walls of the interior. Artem had unearthed many Old World relics to know immediately that this was the pinnacle of Old World technology, something that could take people to outer space for real."
               }
-            ]
+            ],
+            "id": "p-f807af47546b6017"
           },
           {
             "type": "paragraph",
@@ -2543,7 +2820,8 @@
                 "type": "text",
                 "text": "\"This cannonball is also a romanticist, flying into outer space with no return. It will complete its mission during the journey then float through the universe as a permanent fixture...\""
               }
-            ]
+            ],
+            "id": "p-954e15b70fe54ee2"
           },
           {
             "type": "paragraph",
@@ -2552,7 +2830,8 @@
                 "type": "text",
                 "text": "Once again, Artem felt he was no longer on the ground. He was among the brilliant stars that filled the night sky."
               }
-            ]
+            ],
+            "id": "p-4aa53af78cebea00"
           },
           {
             "type": "paragraph",
@@ -2561,7 +2840,8 @@
                 "type": "text",
                 "text": "Anna looked at the man standing before her, knowing that his mind had already left this planet."
               }
-            ]
+            ],
+            "id": "p-8a4f932e0dea817e"
           },
           {
             "type": "paragraph",
@@ -2570,7 +2850,8 @@
                 "type": "text",
                 "text": "She understood completely. Artem's heart had reached the heights of the firmament that she couldn't reach, no matter how hard she tried. It was far, far beyond the Satelleden, far beyond the end of the universe. And so, she decided to leave quietly before dawn. Perhaps it would make him less miserable."
               }
-            ]
+            ],
+            "id": "p-e06b3ef70de00a3a"
           },
           {
             "type": "paragraph",
@@ -2579,7 +2860,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -2588,7 +2870,8 @@
                 "type": "text",
                 "text": "But she still couldn't do it."
               }
-            ]
+            ],
+            "id": "p-b034df0089b426c2"
           },
           {
             "type": "paragraph",
@@ -2597,7 +2880,8 @@
                 "type": "text",
                 "text": "\"Thank you, Anna.\""
               }
-            ]
+            ],
+            "id": "p-c87dcc4926267626"
           },
           {
             "type": "paragraph",
@@ -2606,7 +2890,8 @@
                 "type": "text",
                 "text": "On the path before sunrise, she saw a clear silhouette—it was Artem, waiting for her. She couldn't leave quietly after all."
               }
-            ]
+            ],
+            "id": "p-3c8c9863f198f969"
           },
           {
             "type": "paragraph",
@@ -2615,7 +2900,8 @@
                 "type": "text",
                 "text": "\"I have been deeply in love with you ever since you saved my life. I have never seen such a tenacious, independent, and gentle woman like you. There were plenty of chances for me to tell you: I like you. I want to spend the rest of my life with you.\""
               }
-            ]
+            ],
+            "id": "p-179312f776c95bb6"
           },
           {
             "type": "paragraph",
@@ -2624,7 +2910,8 @@
                 "type": "text",
                 "text": "\"But I cannot stay with you. If there's one thing that I must do in life, it is to go on adventures, continuous adventures. I'm sorry...\""
               }
-            ]
+            ],
+            "id": "p-4a7da06fa196ff9f"
           },
           {
             "type": "paragraph",
@@ -2633,7 +2920,8 @@
                 "type": "text",
                 "text": "\"I think I'm also a romanticist. I'm willing to risk everything I have for the sake of adventure. I'm sorry...\""
               }
-            ]
+            ],
+            "id": "p-ee91ae80dd900326"
           },
           {
             "type": "paragraph",
@@ -2642,7 +2930,8 @@
                 "type": "text",
                 "text": "With tears in her eyes, Anna knew."
               }
-            ]
+            ],
+            "id": "p-6d879885477f96aa"
           },
           {
             "type": "paragraph",
@@ -2651,7 +2940,8 @@
                 "type": "text",
                 "text": "She knew the moment she embarked on this journey. It was the kind of man she fell in love with."
               }
-            ]
+            ],
+            "id": "p-d3124c5c3ac38576"
           },
           {
             "type": "paragraph",
@@ -2660,7 +2950,8 @@
                 "type": "text",
                 "text": "Before her tears could fall, a warm hand wiped away her tears. It was Artem's hand, which she knew all too well."
               }
-            ]
+            ],
+            "id": "p-6f815c9da31572e0"
           },
           {
             "type": "paragraph",
@@ -2669,7 +2960,8 @@
                 "type": "text",
                 "text": "\"I don't want you to shed so many tears for me. But I've already decided...\""
               }
-            ]
+            ],
+            "id": "p-0d9d7d5e48dc7002"
           },
           {
             "type": "paragraph",
@@ -2678,7 +2970,8 @@
                 "type": "text",
                 "text": "\"I understand. I understand completely...\""
               }
-            ]
+            ],
+            "id": "p-1404fa7d6027d84c"
           },
           {
             "type": "paragraph",
@@ -2687,7 +2980,8 @@
                 "type": "text",
                 "text": "\"I can only give you three things.\""
               }
-            ]
+            ],
+            "id": "p-0571c22ef55e57b2"
           },
           {
             "type": "paragraph",
@@ -2696,7 +2990,8 @@
                 "type": "text",
                 "text": "Artem took out his journey, which carefully recorded all his adventures and memories with Anna."
               }
-            ]
+            ],
+            "id": "p-228d7e4acb2c7a44"
           },
           {
             "type": "paragraph",
@@ -2705,7 +3000,8 @@
                 "type": "text",
                 "text": "\"The first is my past. Everything we experienced together was real.\""
               }
-            ]
+            ],
+            "id": "p-b1a7516cf0365c98"
           },
           {
             "type": "paragraph",
@@ -2714,7 +3010,8 @@
                 "type": "text",
                 "text": "Artem placed the sword that the Frozen City Queen had given him in Anna's hands."
               }
-            ]
+            ],
+            "id": "p-25bf6b96da4afcbf"
           },
           {
             "type": "paragraph",
@@ -2723,7 +3020,8 @@
                 "type": "text",
                 "text": "\"The second is my future. This is my promise to the queen. I wish to protect you forever.\""
               }
-            ]
+            ],
+            "id": "p-d6353eccdc468e80"
           },
           {
             "type": "paragraph",
@@ -2732,7 +3030,8 @@
                 "type": "text",
                 "text": "\"and the last is my present. I love you, Anna.\""
               }
-            ]
+            ],
+            "id": "p-765ff0b4bed42e0f"
           },
           {
             "type": "paragraph",
@@ -2741,7 +3040,8 @@
                 "type": "text",
                 "text": "He kissed her."
               }
-            ]
+            ],
+            "id": "p-31ec7d3a869b8b83"
           },
           {
             "type": "paragraph",
@@ -2750,7 +3050,8 @@
                 "type": "text",
                 "text": "They were so affectionate as if time had stopped at this moment and the future would not come."
               }
-            ]
+            ],
+            "id": "p-a3ceee4670903397"
           },
           {
             "type": "paragraph",
@@ -2759,13 +3060,15 @@
                 "type": "text",
                 "text": "(To Be Continued)"
               }
-            ]
+            ],
+            "id": "p-1897524b9c45c9d3"
           }
         ]
       }
     },
     {
       "id": "9",
+      "volumeKey": "final-chapter-satelleden-i",
       "label": "Final Chapter - Satelleden (I)",
       "document": {
         "version": 1,
@@ -2782,7 +3085,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-d8691f08ec6dd150"
           },
           {
             "type": "paragraph",
@@ -2791,7 +3095,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -2800,7 +3105,8 @@
                 "type": "text",
                 "text": "The impact factor of the volcano cannon was not included in the original designs."
               }
-            ]
+            ],
+            "id": "p-014a1bfcf55d47ee"
           },
           {
             "type": "paragraph",
@@ -2809,7 +3115,8 @@
                 "type": "text",
                 "text": "The \"cannonball\" instantly reached a shocking speed upon firing, leaving everyone at the launch site speechless. Is this really going to be okay? From the inside, Artem and Dalmir had to withstand 10 g's of crushing force. They were almost smashed by the power."
               }
-            ]
+            ],
+            "id": "p-54fac554f4a1f08b"
           },
           {
             "type": "paragraph",
@@ -2818,7 +3125,8 @@
                 "type": "text",
                 "text": "Artem lost consciousness the split-second upon launch and the memories of the dangers on the Snow Plains appeared in his mind. His lulled state did not last long as he woke himself up with impressive conviction and mental discipline. After experiencing the near-death moment, Artem immediately noticed the importance of the shock-reduction capacitator in the flying pod. Without it, he'd already be dead."
               }
-            ]
+            ],
+            "id": "p-60ae5df728ea9611"
           },
           {
             "type": "paragraph",
@@ -2827,7 +3135,8 @@
                 "type": "text",
                 "text": "Dalmir on the other hand was having a much harder time. His eyes were rolled back and white foam was coming out of his slightly opened mouth. Is he passed out? Or is he... gone? Artem called for him over the radio several times, but Dalmir did not respond."
               }
-            ]
+            ],
+            "id": "p-b9cecd8b9f71808a"
           },
           {
             "type": "paragraph",
@@ -2836,7 +3145,8 @@
                 "type": "text",
                 "text": "Not only could the approaching space be seen in the porthole of the \"cannonball,\" but so could the distancing ground from beneath."
               }
-            ]
+            ],
+            "id": "p-fa3bf979ee5dc652"
           },
           {
             "type": "paragraph",
@@ -2845,7 +3155,8 @@
                 "type": "text",
                 "text": "The spectacular view unfolds rapidly in front of Artem's eyes. The familiar sights quickly shrink till it becomes unfamiliar. The numbers on the instruments continue to climb, with no sign of slowing down whatsoever."
               }
-            ]
+            ],
+            "id": "p-f1eeca5c5229c9bb"
           },
           {
             "type": "paragraph",
@@ -2854,7 +3165,8 @@
                 "type": "text",
                 "text": "Artem was still unaware of what was happening even though everything pointed towards the same conclusion — They were leaving the planet at shocking speeds."
               }
-            ]
+            ],
+            "id": "p-d91a49f6a59a717c"
           },
           {
             "type": "paragraph",
@@ -2863,7 +3175,8 @@
                 "type": "text",
                 "text": "— They were 5000 meters off the ground."
               }
-            ]
+            ],
+            "id": "p-c6369e687ee864b7"
           },
           {
             "type": "paragraph",
@@ -2872,7 +3185,8 @@
                 "type": "text",
                 "text": "Artem could still see the buildings of the Lava Kingdom, especially the main cannon that fired the \"cannonball.\""
               }
-            ]
+            ],
+            "id": "p-0dc6681444f27208"
           },
           {
             "type": "paragraph",
@@ -2881,7 +3195,8 @@
                 "type": "text",
                 "text": "The launch caused a massive landslide, reducing the main volcano to a billowing cloud of smoke. At this height, the large molten insects were impossible to see and the lava on the ridges looked like a spider silk web. The bright colors that scorched the eyes had softened considerably."
               }
-            ]
+            ],
+            "id": "p-784342e48c4c7289"
           },
           {
             "type": "paragraph",
@@ -2890,7 +3205,8 @@
                 "type": "text",
                 "text": "The volcanic ash in the air sped by quickly, as the ground slowly became a blur."
               }
-            ]
+            ],
+            "id": "p-26f7f78d9973395b"
           },
           {
             "type": "paragraph",
@@ -2899,7 +3215,8 @@
                 "type": "text",
                 "text": "— 10,000 meters off the ground."
               }
-            ]
+            ],
+            "id": "p-26276f815094d2c1"
           },
           {
             "type": "paragraph",
@@ -2908,7 +3225,8 @@
                 "type": "text",
                 "text": "Artem could see the Spring Weald."
               }
-            ]
+            ],
+            "id": "p-90f223158852dc0c"
           },
           {
             "type": "paragraph",
@@ -2917,7 +3235,8 @@
                 "type": "text",
                 "text": "At the height of tens of thousands of meters, Artem could barely see the back of the beast. Even so, he had not seen the monster's entire body! Such a giant beast! It was an indescribable feeling to have a panoramic view of the roads he had taken on during his long adventures."
               }
-            ]
+            ],
+            "id": "p-ad0e82aba737fbf1"
           },
           {
             "type": "paragraph",
@@ -2926,7 +3245,8 @@
                 "type": "text",
                 "text": "Artem traced the route he had once taken on, saw through the snowy mountains, and looked at the blizzard. The Frozen City was within the quickly passing clouds and snow, and he could barely see its outline."
               }
-            ]
+            ],
+            "id": "p-ebf2864322399f25"
           },
           {
             "type": "paragraph",
@@ -2935,7 +3255,8 @@
                 "type": "text",
                 "text": "Anna once said she would go fishing with her father to relax at the end of long adventures. How would she relax this time..."
               }
-            ]
+            ],
+            "id": "p-ebe1eb14925de66f"
           },
           {
             "type": "paragraph",
@@ -2944,7 +3265,8 @@
                 "type": "text",
                 "text": "Thin clouds began to obstruct his view and thoughts of escaping came back. How long has this \"cannonball\" been flying..."
               }
-            ]
+            ],
+            "id": "p-89cc2ef5126b95ef"
           },
           {
             "type": "paragraph",
@@ -2953,7 +3275,8 @@
                 "type": "text",
                 "text": "— They flew higher until they reached the darkness."
               }
-            ]
+            ],
+            "id": "p-1a60c60c996e9b9e"
           },
           {
             "type": "paragraph",
@@ -2962,7 +3285,8 @@
                 "type": "text",
                 "text": "Belobog loomed over the dark land. Belobog loomed over the dark land."
               }
-            ]
+            ],
+            "id": "p-952b9b4892f0e9b8"
           },
           {
             "type": "paragraph",
@@ -2971,7 +3295,8 @@
                 "type": "text",
                 "text": "Thousands of lit houses were only the size of a coin, but Artem knew that it was Belobog. The urban heat island effect stood out against the surrounding chill, which was more evident when looking down from the clouds. It was this warmth that had sustained Belobog for a hundred years, but it also prevented its people from going outside."
               }
-            ]
+            ],
+            "id": "p-745feb74ef38dae7"
           },
           {
             "type": "paragraph",
@@ -2980,7 +3305,8 @@
                 "type": "text",
                 "text": "Compared to the size of the planet, Belobog was but a speck of dirt. Artem once thought that Belobog and its surroundings was the entire world. Thinking back now, it was just the unwillingness to admit his narrow perspective."
               }
-            ]
+            ],
+            "id": "p-9c74887753c00d89"
           },
           {
             "type": "paragraph",
@@ -2989,7 +3315,8 @@
                 "type": "text",
                 "text": "At this height, anyone would agree that such a narrow perspective was laughable."
               }
-            ]
+            ],
+            "id": "p-5f6fb1792873e73b"
           },
           {
             "type": "paragraph",
@@ -2998,7 +3325,8 @@
                 "type": "text",
                 "text": "— 100,000 meters off the ground."
               }
-            ]
+            ],
+            "id": "p-5d6dbf54be10fc74"
           },
           {
             "type": "paragraph",
@@ -3007,7 +3335,8 @@
                 "type": "text",
                 "text": "Artem could clearly see the curvature of the planet. Artem could clearly see the curvature of the planet."
               }
-            ]
+            ],
+            "id": "p-ac4fcc61487bd10c"
           },
           {
             "type": "paragraph",
@@ -3016,7 +3345,8 @@
                 "type": "text",
                 "text": "The great auroras started appearing. The brilliant ribbons gently covered the surface of the planet. Back in Belobog, Artem had gazed up at these dreamlike veils fluttering in the night sky. Now, they were below him."
               }
-            ]
+            ],
+            "id": "p-cc911cfbb5ccfd0a"
           },
           {
             "type": "paragraph",
@@ -3025,7 +3355,8 @@
                 "type": "text",
                 "text": "It was at this moment that static came through the communication device..."
               }
-            ]
+            ],
+            "id": "p-1a757e33b4ac5fab"
           },
           {
             "type": "paragraph",
@@ -3034,7 +3365,8 @@
                 "type": "text",
                 "text": "\"...A—Artem! We! Ahhhh! Are in the sky! Ahhhhh... Ahhh...\""
               }
-            ]
+            ],
+            "id": "p-209dd4a7feb76a64"
           },
           {
             "type": "paragraph",
@@ -3043,7 +3375,8 @@
                 "type": "text",
                 "text": "It was Dalmir's screaming from earlier."
               }
-            ]
+            ],
+            "id": "p-849b5b6fbd9815f7"
           },
           {
             "type": "paragraph",
@@ -3052,7 +3385,8 @@
                 "type": "text",
                 "text": "Artem really didn't know whether to laugh or cry."
               }
-            ]
+            ],
+            "id": "p-baa04fde455a8e19"
           },
           {
             "type": "paragraph",
@@ -3061,7 +3395,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -3070,7 +3405,8 @@
                 "type": "text",
                 "text": "— 400,000 meters off the ground. Artem could see the Satelleden."
               }
-            ]
+            ],
+            "id": "p-181ffd6ee1645e7d"
           },
           {
             "type": "paragraph",
@@ -3079,7 +3415,8 @@
                 "type": "text",
                 "text": "It was a large cylindrical object, rotating slowly. Artem had heard of science fantasies that the effects of gravity could be simulated through centrifugal force. He brushed it off as mere fantasy until witnessing the miracle before his eyes. The excitement was overwhelming."
               }
-            ]
+            ],
+            "id": "p-29f82153e26e7246"
           },
           {
             "type": "paragraph",
@@ -3088,7 +3425,8 @@
                 "type": "text",
                 "text": "I wonder how people from the Old World will react when they see this \"cannonball.\" Fear? Surprise? Will they be treated like invaders and face retaliation?"
               }
-            ]
+            ],
+            "id": "p-0af02df744b1c1a8"
           },
           {
             "type": "paragraph",
@@ -3097,7 +3435,8 @@
                 "type": "text",
                 "text": "Soft music began playing in the \"cannonball.\" It was a mix of drums and guitars that make you feel warm and cozy, like a gift at the end of their journey:"
               }
-            ]
+            ],
+            "id": "p-c859842115441926"
           },
           {
             "type": "paragraph",
@@ -3111,7 +3450,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-eda13689062e31fc"
           },
           {
             "type": "paragraph",
@@ -3125,7 +3465,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-eda13689062e31fc-2"
           },
           {
             "type": "paragraph",
@@ -3134,7 +3475,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-3"
           },
           {
             "type": "paragraph",
@@ -3143,7 +3485,8 @@
                 "type": "text",
                 "text": "As the \"cannonball\" got closer, Artem could make out more details of the Satelleden."
               }
-            ]
+            ],
+            "id": "p-9c5fe78c821be534"
           },
           {
             "type": "paragraph",
@@ -3152,7 +3495,8 @@
                 "type": "text",
                 "text": "If the interior was spread out, \"Satelleden\" would be a large rectangular area. The opposite sides of the area would join to form the cylinder. Anywhere you stood, you could raise your head and see the streets hanging above."
               }
-            ]
+            ],
+            "id": "p-532672a67d844bcb"
           },
           {
             "type": "paragraph",
@@ -3161,7 +3505,8 @@
                 "type": "text",
                 "text": "In the streets, many buildings violated physics. The mechanical giants appeared to be connecting the building blocks by combining various modules. Neatly planned streets kept adjusting their positions. To Artem, the whole \"city\" was breathing and pulsing like a living organism and rotating as a Rubik's Cube. It was constantly evolving, showing ultimate rationality. As an immaculate work of art that had long been abandoned, \"Satelleden\" was floating alone in the universe, awaiting the gaze of human admiration."
               }
-            ]
+            ],
+            "id": "p-138e0099f654e0ab"
           },
           {
             "type": "paragraph",
@@ -3170,7 +3515,8 @@
                 "type": "text",
                 "text": "As if sensing the \"cannonball,\" the large object extended a docking port of the same astonishing proportions, like a giant extending its hand at a flying insect. Artem's heart clenched out of fear that the last moments of his journey would end in a fiery collision."
               }
-            ]
+            ],
+            "id": "p-dabf2d38d2929c7c"
           },
           {
             "type": "paragraph",
@@ -3179,7 +3525,8 @@
                 "type": "text",
                 "text": "But the disaster he imagined didn't happen. The docking port gently held the \"cannonball\" and guided it to the landing pad in Satelleden."
               }
-            ]
+            ],
+            "id": "p-3a59f4c4f84d233a"
           },
           {
             "type": "paragraph",
@@ -3188,7 +3535,8 @@
                 "type": "text",
                 "text": "The music was still playing gently on their communication devices..."
               }
-            ]
+            ],
+            "id": "p-9b442a6833978314"
           },
           {
             "type": "paragraph",
@@ -3197,7 +3545,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-4"
           },
           {
             "type": "paragraph",
@@ -3211,7 +3560,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-6354a900190a70ef"
           },
           {
             "type": "paragraph",
@@ -3225,7 +3575,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-80bdd22fccdc8dc0"
           },
           {
             "type": "paragraph",
@@ -3239,7 +3590,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-6033b5d5e48170c1"
           },
           {
             "type": "paragraph",
@@ -3248,7 +3600,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-5"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "undelivered-prayer-book",
   "name": "Undelivered Prayer Book",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Undelivered_Prayer_Book",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -59,7 +60,8 @@
                 "type": "text",
                 "text": "I want to fix your clock, too."
               }
-            ]
+            ],
+            "id": "p-c49a261c3fd6e021"
           },
           {
             "type": "paragraph",
@@ -68,7 +70,8 @@
                 "type": "text",
                 "text": "No one knows when or by whom it was written. It was never sent, and no chance remains to send it."
               }
-            ]
+            ],
+            "id": "p-18b1366c0fe4da32"
           }
         ]
       }

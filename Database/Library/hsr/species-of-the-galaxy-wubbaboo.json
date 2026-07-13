@@ -4,10 +4,11 @@
   "id": "species-of-the-galaxy-wubbaboo",
   "name": "Species of the Galaxy: Wubbaboo",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Species_of_the_Galaxy:_Wubbaboo",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-437f028931032a5e"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "Galactic Species Serial Number: Spiritual #415"
               }
-            ]
+            ],
+            "id": "p-fe693617ca97a147"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "Species Name: Wubbaboo"
               }
-            ]
+            ],
+            "id": "p-c76de6b0a681fa07"
           },
           {
             "type": "paragraph",
@@ -51,7 +55,8 @@
                 "type": "text",
                 "text": "Cosmic Nickname: Wubba, Jinx, Mischievous Astral Spirit"
               }
-            ]
+            ],
+            "id": "p-918e6ea8c502fc7f"
           },
           {
             "type": "paragraph",
@@ -60,7 +65,8 @@
                 "type": "text",
                 "text": "Category: Kingdom Spiritual Organism - Class Astral Spirit - Order Shapeless - Family Spirit Essence - Species Heliobus"
               }
-            ]
+            ],
+            "id": "p-7a7bf7eac572551c"
           },
           {
             "type": "paragraph",
@@ -69,7 +75,8 @@
                 "type": "text",
                 "text": "Research Summary:"
               }
-            ]
+            ],
+            "id": "p-09f67c944030cd12"
           },
           {
             "type": "paragraph",
@@ -78,7 +85,8 @@
                 "type": "text",
                 "text": "Spiritual organisms, represented by Astral Spirits, can be traced back to the recorded beginnings of the Amber Era. The Leviathan's Conception Theory believes that some elder Leviathans were run aground after the Dusk Wars. During their lengthy slumber, their decomposed cells became the seedbed for organic organisms, and their dissipating life force became wandering Astral Spirits. However, more and more scholars have begun to publicly denounce the Leviathan's Conception Theory in recent years. Other nascent theories are not included here."
               }
-            ]
+            ],
+            "id": "p-845f2e2d0cbb53e9"
           },
           {
             "type": "paragraph",
@@ -87,7 +95,8 @@
                 "type": "text",
                 "text": "In the beginning, the Astral Spirits did not possess individual wills, and all they did was float and wander aimlessly in the cosmos. During the era of Trailblaze, as the Nameless traversed the cosmic expanse, the Astral Spirits became allured by the humans' freedom of travel. The mortal beings possessing the strong emotions of love and lust made a strong impact on the barren core of the Astral Spirits. Humans have become the most desirable hosts for Astral Spirits. The Astral Spirits would follow the scent of emotions and find their prey, possess their body, and turn the host into a mindless walking corpse. Hosts that aren't able to fuse with the Astral Spirits will die on spot. A verified case of a Nameless named Erwin Hessler became possessed by an Astral Spirit and managed to form a symbiotic relationship with it. Those possessed by Astral Spirits and ended in tragedy are lost as time goes on."
               }
-            ]
+            ],
+            "id": "p-5d7623ba6d56276c"
           },
           {
             "type": "paragraph",
@@ -96,7 +105,8 @@
                 "type": "text",
                 "text": "Afterward, these types of spiritual organisms hid and blended into human society. Their exceptional abilities to sense emotion and control people's hearts and minds are feared by many."
               }
-            ]
+            ],
+            "id": "p-73f1a86f6bb1d513"
           },
           {
             "type": "paragraph",
@@ -105,7 +115,8 @@
                 "type": "text",
                 "text": "Wubbaboos have inherited the abilities of their Astral Spirit ancestors, but are not as deadly. On their own, Wubbaboos enjoy scaring people and appear as ghostly, semi-transparent, shifting forms. After attaching itself to a host, the personality of the host will change dramatically and their behavior completely altered. After committing a series of pranks, the host will regain consciousness."
               }
-            ]
+            ],
+            "id": "p-a8945c22db0b20d8"
           },
           {
             "type": "paragraph",
@@ -114,7 +125,8 @@
                 "type": "text",
                 "text": "If the brutal acts of Astral Spirits are for the purpose of possession and evolution, then Wubbaboo's roaming would purely be —"
               }
-            ]
+            ],
+            "id": "p-328eec4c0eb58b8b"
           },
           {
             "type": "paragraph",
@@ -123,7 +135,8 @@
                 "type": "text",
                 "text": "For fun."
               }
-            ]
+            ],
+            "id": "p-4638e9057d98b063"
           },
           {
             "type": "paragraph",
@@ -132,7 +145,8 @@
                 "type": "text",
                 "text": "That's right. They go around being mischievous for no specific reason and would leave after they get bored. The ruckus would end and the host would return to normal but the damages caused along the way cannot be salvaged."
               }
-            ]
+            ],
+            "id": "p-ce00430c95ae8a08"
           },
           {
             "type": "paragraph",
@@ -141,7 +155,8 @@
                 "type": "text",
                 "text": "According to the space station's Adler's Tier System , Wubbaboos fall under the medium containment level. Although it does not pose a deadly threat, it does have the potential to cause a lot of trouble and should be kept from breaking loose."
               }
-            ]
+            ],
+            "id": "p-9fd68a27c5693012"
           }
         ]
       }

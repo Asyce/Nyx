@@ -4,10 +4,11 @@
   "id": "ruan-mei-s-lab-log",
   "name": "Ruan Mei's Lab Log",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Ruan_Mei%27s_Lab_Log",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -54,7 +55,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-9078306dc95f9515"
           },
           {
             "type": "paragraph",
@@ -98,7 +100,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-9dea23a2853df2c4"
           },
           {
             "type": "paragraph",
@@ -170,7 +173,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-66529272510c3083"
           },
           {
             "type": "paragraph",
@@ -319,7 +323,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-2045ac3f9cbce136"
           },
           {
             "type": "paragraph",
@@ -405,7 +410,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-9699290300d93fa5"
           }
         ]
       }

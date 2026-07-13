@@ -4,10 +4,11 @@
   "id": "amphoreus-trailblaze-log-before-the-era-nova",
   "name": "Amphoreus Trailblaze Log: Before the Era Nova",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Amphoreus_Trailblaze_Log:_Before_the_Era_Nova",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -42,7 +44,8 @@
                 "type": "text",
                 "text": "But I have no desire to turn this Trailblaze log into some self-centered soliloquy. That would be March's style."
               }
-            ]
+            ],
+            "id": "p-aaefee6d62ffc98f"
           },
           {
             "type": "paragraph",
@@ -56,7 +59,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-a02bb8fe78dcfa99"
           },
           {
             "type": "paragraph",
@@ -79,7 +83,8 @@
                 "type": "text",
                 "text": "Terravox's response helped cement my own conviction... No matter how many times I face these questions, my answers remain unchanged."
               }
-            ]
+            ],
+            "id": "p-9e0bcfa74c5def37"
           },
           {
             "type": "paragraph",
@@ -93,7 +98,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-a6bc8466895d72ef"
           },
           {
             "type": "paragraph",
@@ -144,7 +150,8 @@
                 "type": "text",
                 "text": "I always knew that my thousand-year journey would be just a blink outside the tide. Still... that experience, which nearly obliterated my consciousness, remains harrowing. However, I can't afford to worry about that anymore."
               }
-            ]
+            ],
+            "id": "p-14f742b1cff1f8d5"
           },
           {
             "type": "paragraph",
@@ -158,7 +165,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ddedc3fa1702033d"
           },
           {
             "type": "paragraph",
@@ -174,7 +182,8 @@
                 "type": "text",
                 "text": "...And March 7th keeps badgering me to let her \"review\" this \"seriously delayed\" Trailblaze log. I suppose I should set aside my pen for now."
               }
-            ]
+            ],
+            "id": "p-fde8ac2405231c30"
           },
           {
             "type": "paragraph",
@@ -188,7 +197,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-a0cea4b7a734628e"
           }
         ]
       }

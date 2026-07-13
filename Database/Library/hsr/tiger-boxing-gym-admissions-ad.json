@@ -4,10 +4,11 @@
   "id": "tiger-boxing-gym-admissions-ad",
   "name": "Tiger Boxing Gym Admissions Ad",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Tiger_Boxing_Gym_Admissions_Ad",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Full sets of gear and equipment — guidance from elite coaches — a positive training atmosphere. Your healthy transformation begins now!"
               }
-            ]
+            ],
+            "id": "p-24cf7bc3bd7e7869"
           },
           {
             "type": "paragraph",
@@ -38,7 +40,8 @@
                 "type": "text",
                 "text": "Run circles around the gym, instead!"
               }
-            ]
+            ],
+            "id": "p-28393dc3be9d9c31"
           },
           {
             "type": "paragraph",
@@ -67,7 +70,8 @@
                 "type": "text",
                 "text": "Those who live longer than you work out here"
               }
-            ]
+            ],
+            "id": "p-369fb9b7070b504f"
           },
           {
             "type": "paragraph",
@@ -96,7 +100,8 @@
                 "type": "text",
                 "text": "Who'll be the healthier in 600 years?"
               }
-            ]
+            ],
+            "id": "p-7ab2c8d5674c46c8"
           },
           {
             "type": "paragraph",
@@ -135,7 +140,8 @@
                 "type": "text",
                 "text": "Without skeletal support, your muscles and skin will keep sagging. Keep training to ward off the aging process!"
               }
-            ]
+            ],
+            "id": "p-89b43406e7f65b79"
           }
         ]
       }

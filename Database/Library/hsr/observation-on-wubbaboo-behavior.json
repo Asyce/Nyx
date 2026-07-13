@@ -4,10 +4,11 @@
   "id": "observation-on-wubbaboo-behavior",
   "name": "Observation on Wubbaboo Behavior",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Observation_on_Wubbaboo_Behavior",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-9c067bed7e94bee4"
           },
           {
             "type": "paragraph",
@@ -73,7 +75,8 @@
                 "type": "text",
                 "text": "Estimated Filing Date: 32, 11, 2157 AE"
               }
-            ]
+            ],
+            "id": "p-b6054f01eb45bedb"
           },
           {
             "type": "paragraph",
@@ -82,7 +85,8 @@
                 "type": "text",
                 "text": "Main Body"
               }
-            ]
+            ],
+            "id": "p-e2687a259eaa3307"
           },
           {
             "type": "paragraph",
@@ -91,7 +95,8 @@
                 "type": "text",
                 "text": "Wubbaboos exist in the world individually, in groups, and parasitically. It is known that when without a host, Wubbaboos keep their whereabouts hidden. After they parasitized a host, their destructiveness is positively correlated with the host's mobility①②."
               }
-            ]
+            ],
+            "id": "p-26393aeb9c8ad720"
           },
           {
             "type": "paragraph",
@@ -100,7 +105,8 @@
                 "type": "text",
                 "text": "Based on a small test sample③, a singular Wubbaboo possesses the intelligence of a roughly six-year-old human. When in a group, the Wubbaboos' individual intelligence reduces dramatically. This is because the thought waves of spiritual organisms interfere with each other, and a resonance in frequency will affect their individual decision-making."
               }
-            ]
+            ],
+            "id": "p-da437341d59cabdc"
           },
           {
             "type": "paragraph",
@@ -149,7 +155,8 @@
                 "type": "text",
                 "text": "4. Calm Wubbaboos will experience the strangest period of their life. They will destroy everything in their path and prank organisms around them out of no reason but pure mischief, truly living up to their nicknames of being a Jinx or Mischievous Astral Spirit."
               }
-            ]
+            ],
+            "id": "p-8031d9bfe3954386"
           },
           {
             "type": "paragraph",
@@ -158,7 +165,8 @@
                 "type": "text",
                 "text": "Comment"
               }
-            ]
+            ],
+            "id": "p-01a9c1959af39be5"
           },
           {
             "type": "paragraph",
@@ -213,7 +221,8 @@
                 "type": "text",
                 "text": "③The first sample is taken from researcher Adler. Due to Adler's spectacular display of intelligence in his age group, the results were ineffective. The second sample is taken from researcher Wen Shiling. This paper has adopted the test conclusions of this sample."
               }
-            ]
+            ],
+            "id": "p-b2082f3d1f9fd381"
           },
           {
             "type": "paragraph",
@@ -222,7 +231,8 @@
                 "type": "text",
                 "text": "Reviewer Feedback"
               }
-            ]
+            ],
+            "id": "p-81d2a580d0fb65ce"
           },
           {
             "type": "paragraph",
@@ -285,7 +295,8 @@
                 "type": "text",
                 "text": "4. \"Some Wubbaboos will not be able to bear strong emotions and scatter into galactic dust.\" What were the steps that led to this research conclusion? I recommend an investigation looking into whether this researcher has abided by the research guidelines, and if there were unacceptable behaviors such as damaging collections and assets."
               }
-            ]
+            ],
+            "id": "p-a126ee3b9bc88fb1"
           },
           {
             "type": "paragraph",
@@ -294,7 +305,8 @@
                 "type": "text",
                 "text": "Review Conclusion"
               }
-            ]
+            ],
+            "id": "p-e46750fdeff76196"
           },
           {
             "type": "paragraph",
@@ -303,7 +315,8 @@
                 "type": "text",
                 "text": "The research process is grossly lacking in scientific rigor and approach. The validity of the research conclusion is yet to be proven."
               }
-            ]
+            ],
+            "id": "p-5ce633f62f40ab73"
           },
           {
             "type": "paragraph",
@@ -341,7 +354,8 @@
                 "type": "text",
                 "text": "Second Evaluation Reviewer: None"
               }
-            ]
+            ],
+            "id": "p-7f0dcc79ad3e286b"
           }
         ]
       }

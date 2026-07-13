@@ -4,10 +4,11 @@
   "id": "summary-of-clock-studios-financial-report",
   "name": "Summary of Clock Studios Financial Report",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Summary_of_Clock_Studios_Financial_Report",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "In the third quarter of this fiscal year, the Studio's revenue amounted to ■■■■■■■■ Alfalfa credits, a year-to-year decrease of 19.2% and a quarter-to-quarter decrease of 10.2%. Net profit stood at ■■■■■■■■ Alfalfa credits, a year-to-year decrease of 17% and a quarter-to-quarter increase of 0.7%."
               }
-            ]
+            ],
+            "id": "p-d214a3a1fd4a4255"
           },
           {
             "type": "paragraph",
@@ -68,7 +70,8 @@
                 "type": "text",
                 "text": "series, resulting in a significant downturn in ticket sales and the growth of revenue."
               }
-            ]
+            ],
+            "id": "p-6e3640faf567e9c3"
           },
           {
             "type": "paragraph",
@@ -91,7 +94,8 @@
                 "type": "text",
                 "text": "The Legal Department is actively seeking a solution to the upcoming risk of image copyright expiration and striving to reach a legal consensus with Interastral Peace Entertainment as soon as possible."
               }
-            ]
+            ],
+            "id": "p-2f7608778c416b6f"
           },
           {
             "type": "paragraph",
@@ -107,7 +111,8 @@
                 "type": "text",
                 "text": "Due to the promotion of the Charmony Festival, the theme park's capability in attracting customers and revenue has significantly increased. Investments in iterating amusement programs yielded a positive response, with a 15% rate of return. Investments in visitor services achieved the highest rate of return at approximately 24%. It is expected that during Charmony Festival, the Clockie Celebration will break through the profit highpoint in the fourth quarter."
               }
-            ]
+            ],
+            "id": "p-ddcd9ad6c85aaf73"
           },
           {
             "type": "paragraph",
@@ -129,7 +134,8 @@
                 "type": "text",
                 "text": "series beyond the Dreamscape into the wider cosmos."
               }
-            ]
+            ],
+            "id": "p-d78bc30556db393d"
           },
           {
             "type": "paragraph",
@@ -145,7 +151,8 @@
                 "type": "text",
                 "text": "Notably, the investment and development of dream bubble movies emerged as a new growth driver for Penacony's entertainment industry. Market forecasts suggest that dream bubble movies may surpass traditional movies within half an Amber Era and become the new cornerstone of Dreamscape Media."
               }
-            ]
+            ],
+            "id": "p-cb45e1d9ac9beffe"
           },
           {
             "type": "paragraph",
@@ -187,7 +194,8 @@
                 "type": "text",
                 "text": "The finance department emphasizes the urgency of establishing contact with the to make new strategic decisions. Failure to do so could pose a significant risk to the financial stability of Clock Studios' capital chain."
               }
-            ]
+            ],
+            "id": "p-63651321c10bd7e1"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "pretty-please-kitsune-guuji",
   "name": "Pretty Please, Kitsune Guuji?",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Pretty_Please,_Kitsune_Guuji%3F",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "\"Welcome back, Almighty Shogun!\""
               }
-            ]
+            ],
+            "id": "p-e460ac83a1f4faed"
           },
           {
             "type": "paragraph",
@@ -78,7 +80,8 @@
                 "type": "text",
                 "text": "\"Yay! Butter Crab, my favorite Butter Crab!\""
               }
-            ]
+            ],
+            "id": "p-e82f37d15940be68"
           },
           {
             "type": "paragraph",
@@ -97,7 +100,8 @@
                 "type": "text",
                 "text": "Yae Masako, Guuji of the Grand Kaminaru Shrine, descendant of Kitsune lineage, and Eternity's servant and friend... She goes by too many names to remember. In the eyes of the people of Inazuma, she is almost as unapproachable and unfathomable as I."
               }
-            ]
+            ],
+            "id": "p-ee27fe3276e730c0"
           },
           {
             "type": "paragraph",
@@ -116,7 +120,8 @@
                 "type": "text",
                 "text": "Yes, simply put, I, the Raiden Shogun is being looked after by Guuji Yae Masako."
               }
-            ]
+            ],
+            "id": "p-945457e42a5d4666"
           },
           {
             "type": "paragraph",
@@ -145,7 +150,8 @@
                 "type": "text",
                 "text": "\"Butter Crab is ready! Before enjoying the food, allow me to get back to our previous question about patrolling...\""
               }
-            ]
+            ],
+            "id": "p-ec73a8108722e445"
           },
           {
             "type": "paragraph",
@@ -194,7 +200,8 @@
                 "type": "text",
                 "text": "Yet none know how I equally fear that very face of theirs. Who wouldn't? Just think about it: thousands of people putting on the same face in your presence."
               }
-            ]
+            ],
+            "id": "p-c6c1b6dec7303c10"
           },
           {
             "type": "paragraph",
@@ -250,7 +257,8 @@
                 "type": "text",
                 "text": "\"Alright then. Rest is also important. I have other matters to attend to, so I'll excuse myself. Enjoy your fill of the crab.\" Masako turns around and leaves."
               }
-            ]
+            ],
+            "id": "p-11168bc2f0a57228"
           },
           {
             "type": "paragraph",
@@ -306,7 +314,8 @@
                 "type": "text",
                 "text": "But Masako isn't around today. My chamber feels icy-cold, but my forehead feels fiery-hot. This time, no one is sitting by my bedside."
               }
-            ]
+            ],
+            "id": "p-c8209e49e9c7b18c"
           },
           {
             "type": "paragraph",
@@ -335,7 +344,8 @@
                 "type": "text",
                 "text": "With such a question in mind, I fall asleep."
               }
-            ]
+            ],
+            "id": "p-070c72eea39ab94e"
           },
           {
             "type": "paragraph",
@@ -384,7 +394,8 @@
                 "type": "text",
                 "text": "I wake with a start, my head still reeling from the sheer shock of the scene just now. Masako is probably still mad at me for slacking off."
               }
-            ]
+            ],
+            "id": "p-5db63f9680e49f2f"
           },
           {
             "type": "paragraph",
@@ -393,7 +404,8 @@
                 "type": "text",
                 "text": "It's just... Why does it feel so sweet at the corner of my lips?"
               }
-            ]
+            ],
+            "id": "p-0dd966cbf359f9ea"
           }
         ]
       }

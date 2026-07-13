@@ -4,10 +4,11 @@
   "id": "hymn-of-the-stellaron",
   "name": "Hymn of the Stellaron",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Hymn_of_the_Stellaron",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-1512eb0028fd0ce8"
           },
           {
             "type": "paragraph",
@@ -98,7 +100,8 @@
                 "type": "text",
                 "text": "For we are the gifted, our hymn of praise a cosmic gospel!"
               }
-            ]
+            ],
+            "id": "p-a931d55bd2e322e1"
           },
           {
             "type": "paragraph",
@@ -107,7 +110,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -121,7 +125,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-678a2b736ba5ff15"
           },
           {
             "type": "paragraph",
@@ -195,7 +200,8 @@
                 "type": "text",
                 "text": "Now the darkest night becomes the highest noon. In our dreams, the sleepers find a joy that never ends!"
               }
-            ]
+            ],
+            "id": "p-fac31bee3ff9748a"
           },
           {
             "type": "paragraph",
@@ -204,7 +210,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -218,7 +225,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-492f54414f6b1fbc"
           },
           {
             "type": "paragraph",
@@ -266,7 +274,8 @@
                 "type": "text",
                 "text": "where the pact of justice is remade, consumed and nurtured by slime, to be born anew."
               }
-            ]
+            ],
+            "id": "p-4bad5f582c35741c"
           },
           {
             "type": "paragraph",
@@ -275,7 +284,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-3"
           }
         ]
       }

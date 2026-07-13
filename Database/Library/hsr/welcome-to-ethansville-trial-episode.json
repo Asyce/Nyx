@@ -4,10 +4,11 @@
   "id": "welcome-to-ethansville-trial-episode",
   "name": "Welcome to Ethansville (Trial Episode)",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Welcome_to_Ethansville_(Trial_Episode)",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -31,7 +32,8 @@
                 "type": "text",
                 "text": "Opening music plays"
               }
-            ]
+            ],
+            "id": "p-0bbd6f4f23ba5255"
           },
           {
             "type": "paragraph",
@@ -40,7 +42,8 @@
                 "type": "text",
                 "text": "The creator of the dreams grants us eternal dusk, keeping mortals away from the inky midnight and the platinum dawn."
               }
-            ]
+            ],
+            "id": "p-06f8035e398915d2"
           },
           {
             "type": "paragraph",
@@ -49,7 +52,8 @@
                 "type": "text",
                 "text": "The setting sun illuminates the marble city of black and white. Welcome to Celephaïs..."
               }
-            ]
+            ],
+            "id": "p-40874f55ead8a3b6"
           },
           {
             "type": "paragraph",
@@ -63,7 +67,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-f58616336c720579"
           },
           {
             "type": "paragraph",
@@ -72,7 +77,8 @@
                 "type": "text",
                 "text": "Good twilight, dear listeners. I am your host, Cecil, and I have some good news to report..."
               }
-            ]
+            ],
+            "id": "p-479e8ca6cf4f7fa2"
           },
           {
             "type": "paragraph",
@@ -81,7 +87,8 @@
                 "type": "text",
                 "text": "From this day forward, Rusty Ink Radio Station will broadcast to Dreamscapes across the entire universe."
               }
-            ]
+            ],
+            "id": "p-b6ffe5bfff91f944"
           },
           {
             "type": "paragraph",
@@ -90,7 +97,8 @@
                 "type": "text",
                 "text": "Community journalist and photographer Mr. Raphael reports:"
               }
-            ]
+            ],
+            "id": "p-408f08a6daea83a3"
           },
           {
             "type": "paragraph",
@@ -99,7 +107,8 @@
                 "type": "text",
                 "text": "\"Beyond the twilight and among the stars, hangs a frozen spider web path.\""
               }
-            ]
+            ],
+            "id": "p-aa2cca3f95aef6e6"
           },
           {
             "type": "paragraph",
@@ -108,7 +117,8 @@
                 "type": "text",
                 "text": "\"Under the sea of memories and above the void, the city of eternity is forged.\""
               }
-            ]
+            ],
+            "id": "p-b07fdaa032b44848"
           },
           {
             "type": "paragraph",
@@ -122,7 +132,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-d4819da4aba87d4d"
           },
           {
             "type": "paragraph",
@@ -131,7 +142,8 @@
                 "type": "text",
                 "text": "The meteorological observatory has issued a white warning:"
               }
-            ]
+            ],
+            "id": "p-792f336e55e4b4f1"
           },
           {
             "type": "paragraph",
@@ -140,7 +152,8 @@
                 "type": "text",
                 "text": "In roughly two dusk hours, the community's southern areas will see a large-scale dust storm."
               }
-            ]
+            ],
+            "id": "p-2cd7444068a0ffaf"
           },
           {
             "type": "paragraph",
@@ -149,7 +162,8 @@
                 "type": "text",
                 "text": "During this dust storm, the \"hope\" debris count will reach level 3, accompanied by constant bright flashes."
               }
-            ]
+            ],
+            "id": "p-86e15dde03ee2d29"
           },
           {
             "type": "paragraph",
@@ -158,7 +172,8 @@
                 "type": "text",
                 "text": "We ask citizens — particularly \"gardeners\" and other multi-eyed species — to take cover indoors in advance and fully seal off all windows and doors to prevent contamination."
               }
-            ]
+            ],
+            "id": "p-ef80ecc30ffcc594"
           },
           {
             "type": "paragraph",
@@ -167,7 +182,8 @@
                 "type": "text",
                 "text": "The church will begin cleaning operations one dusk hour after the dust storm ends. Those who have no shelter are advised to bury themselves in dream sand in advance to ensure they can smoothly enter deep sleep once recovered."
               }
-            ]
+            ],
+            "id": "p-d5eb1769bc232144"
           },
           {
             "type": "paragraph",
@@ -181,7 +197,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-f58616336c720579-2"
           },
           {
             "type": "paragraph",
@@ -190,7 +207,8 @@
                 "type": "text",
                 "text": "Thirteen dusk hours ago, the church held the annual confession meeting in White Ship Plaza."
               }
-            ]
+            ],
+            "id": "p-4a04aa0a12e21cc9"
           },
           {
             "type": "paragraph",
@@ -199,7 +217,8 @@
                 "type": "text",
                 "text": "Sister Belil performed outstandingly, successfully blessing 3,333 disciples and causing them to experience dissociative metamorphoses, and this included three choir members."
               }
-            ]
+            ],
+            "id": "p-fcae60aab62a4bbe"
           },
           {
             "type": "paragraph",
@@ -208,7 +227,8 @@
                 "type": "text",
                 "text": "The effects of this blessing spread across a total of 27 neighborhoods. The church has now completed the process of cleaning out all echoes and officially granted Sister Belil the title of new head."
               }
-            ]
+            ],
+            "id": "p-3449f463734585e3"
           },
           {
             "type": "paragraph",
@@ -217,7 +237,8 @@
                 "type": "text",
                 "text": "In addition, due to the massive loss of personnel during this event, the church may be looking to begin recruitment in Mirror City."
               }
-            ]
+            ],
+            "id": "p-5cde8e3746b19cbd"
           },
           {
             "type": "paragraph",
@@ -226,7 +247,8 @@
                 "type": "text",
                 "text": "Thank you, Sister Belil, for your great contribution to friendly exchanges and economic development between communities."
               }
-            ]
+            ],
+            "id": "p-1fd98e6e92d7b136"
           },
           {
             "type": "paragraph",
@@ -240,7 +262,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-9823ec108f0d5185"
           },
           {
             "type": "paragraph",
@@ -249,7 +272,8 @@
                 "type": "text",
                 "text": "We will now take a short ad break—"
               }
-            ]
+            ],
+            "id": "p-78651eb370d8827d"
           },
           {
             "type": "paragraph",
@@ -258,7 +282,8 @@
                 "type": "text",
                 "text": "Rotten Swamp Restaurant is now recruiting a new pastry chef. Requirements include:"
               }
-            ]
+            ],
+            "id": "p-86cfe38e57d9ab84"
           },
           {
             "type": "paragraph",
@@ -267,7 +292,8 @@
                 "type": "text",
                 "text": "1. Expert in the area of brain research, with extensive experience in the hybridization and cultivation of organic tissue."
               }
-            ]
+            ],
+            "id": "p-e60ef77d62ed7dc6"
           },
           {
             "type": "paragraph",
@@ -276,7 +302,8 @@
                 "type": "text",
                 "text": "2. Physically healthy, with a certain amount of resistance to various abnormal weather systems and the church's blessing."
               }
-            ]
+            ],
+            "id": "p-50c437d2728b99d4"
           },
           {
             "type": "paragraph",
@@ -285,7 +312,8 @@
                 "type": "text",
                 "text": "3. Those with experience with \"temple\" system operations are preferred."
               }
-            ]
+            ],
+            "id": "p-be4496b887541193"
           },
           {
             "type": "paragraph",
@@ -294,7 +322,8 @@
                 "type": "text",
                 "text": "Salary:"
               }
-            ]
+            ],
+            "id": "p-5d3a0d56cab2edda"
           },
           {
             "type": "paragraph",
@@ -303,7 +332,8 @@
                 "type": "text",
                 "text": "1. The restaurant will provide free food, accommodation, and kitchen access, as well as periodically providing limited-time-only ingredients."
               }
-            ]
+            ],
+            "id": "p-f5d1c3507b9c36ad"
           },
           {
             "type": "paragraph",
@@ -312,7 +342,8 @@
                 "type": "text",
                 "text": "2. Store employees will not require deep sleep. After retirement, they will be recycled centrally and stored in the restaurant warehouse."
               }
-            ]
+            ],
+            "id": "p-c56ee34320ed2a14"
           },
           {
             "type": "paragraph",
@@ -326,7 +357,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-f58616336c720579-3"
           },
           {
             "type": "paragraph",
@@ -335,7 +367,8 @@
                 "type": "text",
                 "text": "Below is this season's video store sales leaderboard. Customers who meet the purchase requirements are asked to visit at the designated time."
               }
-            ]
+            ],
+            "id": "p-97891176aff2e49b"
           },
           {
             "type": "paragraph",
@@ -344,7 +377,8 @@
                 "type": "text",
                 "text": "1. Videotape \"Night of the Hunt\":"
               }
-            ]
+            ],
+            "id": "p-bb081476edd4ade4"
           },
           {
             "type": "paragraph",
@@ -353,7 +387,8 @@
                 "type": "text",
                 "text": "A documentary about hunting beasts on the night of a full moon. This film was consigned for sale to the video store through a sacrificial ceremony by a hunter who lost their hometown."
               }
-            ]
+            ],
+            "id": "p-7c1c308c68ccbec5"
           },
           {
             "type": "paragraph",
@@ -362,7 +397,8 @@
                 "type": "text",
                 "text": "The influence of ancient deities lingers on it. Please do not allow this video to come into contact with church members or citizens of Mirror City."
               }
-            ]
+            ],
+            "id": "p-328380aa356c6a1c"
           },
           {
             "type": "paragraph",
@@ -371,7 +407,8 @@
                 "type": "text",
                 "text": "2. CD \"Bell Toll\":"
               }
-            ]
+            ],
+            "id": "p-d48067f142b9fa9d"
           },
           {
             "type": "paragraph",
@@ -380,7 +417,8 @@
                 "type": "text",
                 "text": "A song that was originally recorded by the gods to impart hope to future generations, but was finally completely corroded by despair."
               }
-            ]
+            ],
+            "id": "p-a6ea4127a874a6c1"
           },
           {
             "type": "paragraph",
@@ -389,7 +427,8 @@
                 "type": "text",
                 "text": "Please store it in ashes and avoid playing it during dust storms with high \"despair\" concentrations."
               }
-            ]
+            ],
+            "id": "p-2ba2cf8e111e4df8"
           },
           {
             "type": "paragraph",
@@ -398,7 +437,8 @@
                 "type": "text",
                 "text": "3. Vinyl Record \"Choir\":"
               }
-            ]
+            ],
+            "id": "p-cf8e6fd36e9e0002"
           },
           {
             "type": "paragraph",
@@ -407,7 +447,8 @@
                 "type": "text",
                 "text": "Echoes left by the choir members after their dissociation, complete with a blessing from the new Head Sister."
               }
-            ]
+            ],
+            "id": "p-82a61ba84069e7ed"
           },
           {
             "type": "paragraph",
@@ -416,7 +457,8 @@
                 "type": "text",
                 "text": "This package is only to be opened under exceptional circumstances."
               }
-            ]
+            ],
+            "id": "p-90f6b8d7ea657998"
           },
           {
             "type": "paragraph",
@@ -437,7 +479,8 @@
                 "type": "text",
                 "text": "Closing music plays"
               }
-            ]
+            ],
+            "id": "p-a98fa3107657b279"
           },
           {
             "type": "paragraph",
@@ -446,7 +489,8 @@
                 "type": "text",
                 "text": "May the eternal sunset protect the eternal dream. May those born in the dream return to the dream in eternal rest."
               }
-            ]
+            ],
+            "id": "p-c94d1a5e0b991a6c"
           },
           {
             "type": "paragraph",
@@ -455,7 +499,8 @@
                 "type": "text",
                 "text": "Good twilight, listeners. I look forward to seeing you all in the valleys of dusk."
               }
-            ]
+            ],
+            "id": "p-8ac7088e22337672"
           },
           {
             "type": "paragraph",
@@ -464,7 +509,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

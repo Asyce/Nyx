@@ -4,10 +4,11 @@
   "id": "letter-to-mifamem",
   "name": "Letter to Mifamem",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Letter_to_Mifamem",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "about-repairing",
       "label": "About Repairing",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Dear Mifamem:"
               }
-            ]
+            ],
+            "id": "p-2f23c76c3dbb59d0"
           },
           {
             "type": "paragraph",
@@ -58,7 +60,8 @@
                 "type": "text",
                 "text": "Therefore, this proves that I am Phainon himself.)"
               }
-            ]
+            ],
+            "id": "p-30c7018d25c522c6"
           },
           {
             "type": "paragraph",
@@ -97,7 +100,8 @@
                 "type": "text",
                 "text": "Email is a transmission system that delivers messages from one server to another address through certain agency protocols. Now that you understand the basics — why not give it a try?)"
               }
-            ]
+            ],
+            "id": "p-220ebf83392bb5a6"
           },
           {
             "type": "paragraph",
@@ -116,7 +120,8 @@
                 "type": "text",
                 "text": "Sanding, carving, shaping. It's a lot like practicing swordplay — composed of countless extremely simple moments."
               }
-            ]
+            ],
+            "id": "p-7f5022cd31e5e1b0"
           },
           {
             "type": "paragraph",
@@ -135,7 +140,8 @@
                 "type": "text",
                 "text": "And when you disassemble the decaying wooden board to paint it anew, you're giving it another chance at life."
               }
-            ]
+            ],
+            "id": "p-2b7d170cdd6683c9"
           },
           {
             "type": "paragraph",
@@ -144,7 +150,8 @@
                 "type": "text",
                 "text": "There's only 99% ink left in this pen, so I'm gonna stop here for now!)"
               }
-            ]
+            ],
+            "id": "p-73c733ac933e2667"
           },
           {
             "type": "paragraph",
@@ -163,13 +170,15 @@
                 "type": "text",
                 "text": "Your good friend"
               }
-            ]
+            ],
+            "id": "p-4c20734932714e8e"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "about-cleaning",
       "label": "About Cleaning",
       "document": {
         "version": 1,
@@ -181,7 +190,8 @@
                 "type": "text",
                 "text": "Dear Mifamem:"
               }
-            ]
+            ],
+            "id": "p-2f23c76c3dbb59d0"
           },
           {
             "type": "paragraph",
@@ -220,7 +230,8 @@
                 "type": "text",
                 "text": "Anyway, I only just woke up. It's wonderful to hear from you!)"
               }
-            ]
+            ],
+            "id": "p-394755634b5a582c"
           },
           {
             "type": "paragraph",
@@ -259,7 +270,8 @@
                 "type": "text",
                 "text": "Let's leave the rest of that tale for another day.)"
               }
-            ]
+            ],
+            "id": "p-4d8b58205a0aa9d8"
           },
           {
             "type": "paragraph",
@@ -278,7 +290,8 @@
                 "type": "text",
                 "text": "If counting to thirty's a bit much, just ask the chief for help!"
               }
-            ]
+            ],
+            "id": "p-b97fa02fe7fc0b4c"
           },
           {
             "type": "paragraph",
@@ -297,7 +310,8 @@
                 "type": "text",
                 "text": "You have to think out of the box sometimes. Toss out all the dirty furniture and get new stuff. That'll clean up everything, right?"
               }
-            ]
+            ],
+            "id": "p-d99c550232e62403"
           },
           {
             "type": "paragraph",
@@ -306,7 +320,8 @@
                 "type": "text",
                 "text": "The signal's weak here, it might cut off any second now. Let's chat again another time!)"
               }
-            ]
+            ],
+            "id": "p-735d6eae0430b28c"
           },
           {
             "type": "paragraph",
@@ -325,13 +340,15 @@
                 "type": "text",
                 "text": "Your good friend"
               }
-            ]
+            ],
+            "id": "p-4c20734932714e8e"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "about-cooking",
       "label": "About Cooking",
       "document": {
         "version": 1,
@@ -343,7 +360,8 @@
                 "type": "text",
                 "text": "Dear Mifamem:"
               }
-            ]
+            ],
+            "id": "p-2f23c76c3dbb59d0"
           },
           {
             "type": "paragraph",
@@ -372,7 +390,8 @@
                 "type": "text",
                 "text": "Or maybe time flows differently in the maze. I'm afraid only time itself knows the answer to that.)"
               }
-            ]
+            ],
+            "id": "p-1c2fa13c8dd383e3"
           },
           {
             "type": "paragraph",
@@ -421,7 +440,8 @@
                 "type": "text",
                 "text": "It melts in your mouth, and the flavor lingers beautifully.)"
               }
-            ]
+            ],
+            "id": "p-22b359ce66e8bc0f"
           },
           {
             "type": "paragraph",
@@ -430,7 +450,8 @@
                 "type": "text",
                 "text": "(That's all from me for now. Eat well and sleep tight. Be happy, and live joyfully!/I'll end it here. All is well.)"
               }
-            ]
+            ],
+            "id": "p-f1a73c1c86e73985"
           },
           {
             "type": "paragraph",
@@ -449,7 +470,8 @@
                 "type": "text",
                 "text": "Your good friend"
               }
-            ]
+            ],
+            "id": "p-4c20734932714e8e"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "the-planet-of-canticles-final-song-song-of-beauty-concert",
   "name": "The Planet Of Canticles' Final Song: Song of Beauty Concert",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/The_Planet_Of_Canticles%27_Final_Song:_Song_of_Beauty_Concert",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Music enthusiasts from all over the universe:"
               }
-            ]
+            ],
+            "id": "p-51322cb0bfc0c450"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Did you know that there was once a \"Planet of Canticles\" in the cosmos called Mendasia. Under the guidance of Beauty, the people there indulged in singing and dancing, using the entire world as their platform to explore the beauty of music. Unfortunately, the deaf-mute destiny is incapable of appreciating art. This paradise fell along with their goddess before it could be known to the cosmos..."
               }
-            ]
+            ],
+            "id": "p-561ab7ba5774b0f6"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "The planet's residents lost the gaze from the Beauty, but the magnanimous Great One of Harmony opened their arms for the people. Thanks to the Iris Family's effort, the remaining residents of the planet of canticles have arrived in Penacony. Larose Sallie, heir of the heritage of Mendasian folk songs and a famous musician, will present the lost Song of Beauty to you in the dream!"
               }
-            ]
+            ],
+            "id": "p-9771ee3d990e4d7f"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "You are about to embark on a trip that traverses numerous Amber Eras. The voice of Mendasia will bring you back to the time when Idrila was still glowing in the universe and ignite your desire for beauty. Whether you are an ardent fan of classical music or a follower of cosmic pop music, this exceptional auditory extravaganza is not to be missed!"
               }
-            ]
+            ],
+            "id": "p-6742bf6e37c77f2c"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "The Planet Of Canticles' Final Song: Mendasian Folk Song Concert will eternally preserve everything that is beautiful in this world via songs!"
               }
-            ]
+            ],
+            "id": "p-694bfce4c3973e67"
           },
           {
             "type": "paragraph",
@@ -208,7 +214,8 @@
                 "type": "text",
                 "text": "* The concert set list and sequence of songs are subject to change prior to live performance."
               }
-            ]
+            ],
+            "id": "p-2eed0b5a5813290f"
           },
           {
             "type": "paragraph",
@@ -217,7 +224,8 @@
                 "type": "text",
                 "text": "Venue: Pillow Theater, 142 Glaux Avenue, Golden Hour, Penacony"
               }
-            ]
+            ],
+            "id": "p-025a58ea0e135021"
           },
           {
             "type": "paragraph",
@@ -233,7 +241,8 @@
                 "type": "text",
                 "text": "1. Controlled items such as thermal, kinetic, quantum energy weapons and other sharp-edged controlled tools. Inorganic beings and those with modified prosthetic body parts are required to remove any weaponized components in advance."
               }
-            ]
+            ],
+            "id": "p-7a1947c33c61e0ec"
           },
           {
             "type": "paragraph",
@@ -242,7 +251,8 @@
                 "type": "text",
                 "text": "2. Flammable and explosive items such as fireworks, alcohol, lighters, quantum bombs, and portable nuclear weapons. If you are an inorganic being, please kindly refrain from bringing motor oil with you to the theater."
               }
-            ]
+            ],
+            "id": "p-f18e324092d4132e"
           },
           {
             "type": "paragraph",
@@ -251,7 +261,8 @@
                 "type": "text",
                 "text": "3. Food and beverages with strong odors such as Baviru cheese, swamp garlic, one-eyed herring, mung bean soda, and trash-flavored SoulGlad."
               }
-            ]
+            ],
+            "id": "p-98db4cb959e11877"
           },
           {
             "type": "paragraph",
@@ -260,7 +271,8 @@
                 "type": "text",
                 "text": "4. Sound amplification equipment such as musical instruments, echoers, automated orchestras, and transaural birds."
               }
-            ]
+            ],
+            "id": "p-d1e1decb14872da2"
           },
           {
             "type": "paragraph",
@@ -269,7 +281,8 @@
                 "type": "text",
                 "text": "5. Dangerous substances such as hazardous agents, infectious pathogens, and viruses targeting inorganic beings."
               }
-            ]
+            ],
+            "id": "p-0319c80aabb45321"
           },
           {
             "type": "paragraph",
@@ -278,7 +291,8 @@
                 "type": "text",
                 "text": "6. Unauthorized professional filming equipment, including but not limited to cameras, camcorders, dream bubble recorders, and other memory storage devices."
               }
-            ]
+            ],
+            "id": "p-8946b3a8924959a8"
           },
           {
             "type": "paragraph",
@@ -287,7 +301,8 @@
                 "type": "text",
                 "text": "7. Flying devices such as drones, flying saucers, jetpacks, and space motorcycles. If you have wings, please kindly refrain from flying within the theater."
               }
-            ]
+            ],
+            "id": "p-97b899545b8e80d3"
           },
           {
             "type": "paragraph",
@@ -296,7 +311,8 @@
                 "type": "text",
                 "text": "8. Negative emotions such as sadness, pain, anger, jealousy, etc."
               }
-            ]
+            ],
+            "id": "p-c1285081d0a36c53"
           },
           {
             "type": "paragraph",
@@ -305,7 +321,8 @@
                 "type": "text",
                 "text": "9. Other items explicitly prohibited in the Dreamscape or other items that the Bloodhound Family deems incompatible with the concert or having an obvious safety risk."
               }
-            ]
+            ],
+            "id": "p-0bd9e1f5ac3bab74"
           }
         ]
       }

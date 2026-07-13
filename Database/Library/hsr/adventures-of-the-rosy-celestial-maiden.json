@@ -4,10 +4,11 @@
   "id": "adventures-of-the-rosy-celestial-maiden",
   "name": "Adventures of the Rosy Celestial Maiden",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Adventures_of_the_Rosy_Celestial_Maiden",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -47,7 +48,8 @@
                 "type": "text",
                 "text": "...hope I don't scare anyone."
               }
-            ]
+            ],
+            "id": "p-db6c10981c5f8b67"
           },
           {
             "type": "paragraph",
@@ -84,7 +86,8 @@
                 "type": "text",
                 "text": "...Otherwise, who do they think they're talking about when they mention the \"Rosy Celestial Maiden\"?"
               }
-            ]
+            ],
+            "id": "p-3d0434e64bd37a44"
           },
           {
             "type": "paragraph",
@@ -135,7 +138,8 @@
                 "type": "text",
                 "text": "Sure enough, she was stopped by unreasonable guards."
               }
-            ]
+            ],
+            "id": "p-51629dba431e0910"
           },
           {
             "type": "paragraph",
@@ -179,7 +183,8 @@
                 "type": "text",
                 "text": "Heck, I could even be a crumbled pillar..."
               }
-            ]
+            ],
+            "id": "p-b5a15bd9efa4bbef"
           },
           {
             "type": "paragraph",
@@ -209,7 +214,8 @@
                 "type": "text",
                 "text": "Just imagine how much more I could do for her."
               }
-            ]
+            ],
+            "id": "p-e176d800e2333df9"
           },
           {
             "type": "paragraph",
@@ -246,7 +252,8 @@
                 "type": "text",
                 "text": "...When I came to, I was somewhere totally different."
               }
-            ]
+            ],
+            "id": "p-74aa913487b2440b"
           },
           {
             "type": "paragraph",
@@ -276,7 +283,8 @@
                 "type": "text",
                 "text": "I should be fine! I can't even imagine what it'd be like if I actually lost my marbles..."
               }
-            ]
+            ],
+            "id": "p-88dba4542c55fc58"
           },
           {
             "type": "paragraph",
@@ -313,7 +321,8 @@
                 "type": "text",
                 "text": "Amphoreus might not remember me, but the legend of the Rosy Celestial Maiden is everywhere in this land."
               }
-            ]
+            ],
+            "id": "p-82701ed73eb2163d"
           },
           {
             "type": "paragraph",
@@ -329,7 +338,8 @@
                 "type": "text",
                 "text": "Someday, everyone in Amphoreus will know exactly who the Rosy Celestial Maiden really is!"
               }
-            ]
+            ],
+            "id": "p-b66ba3b847551388"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "happiness-promise-of-seafeld",
   "name": "Happiness Promise of Seafeld",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Happiness_Promise_of_Seafeld",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-1c41d3c1cfe24a4a"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "Happiness is absolute joy and contentment. It is a lake without ripples. Any sorrow or pain is a stain upon this perfection."
               }
-            ]
+            ],
+            "id": "p-4ad06333c4210212"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "The heavy shadows cast by life are \"impurities\" we must keep far away."
               }
-            ]
+            ],
+            "id": "p-4018b12c28e34625"
           },
           {
             "type": "paragraph",
@@ -51,7 +55,8 @@
                 "type": "text",
                 "text": "We must let them sink silently to the bottom, never stirring the water into muddy turbulence."
               }
-            ]
+            ],
+            "id": "p-ef706f325236883c"
           },
           {
             "type": "paragraph",
@@ -65,7 +70,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-9d95af00a157b38c"
           },
           {
             "type": "paragraph",
@@ -74,7 +80,8 @@
                 "type": "text",
                 "text": "Do not dwell on or discuss \"misfortune\": whether it is harsh weather, a mistake at work, or a minor ailment, such things are devoid of value. There is no need to waste energy on them."
               }
-            ]
+            ],
+            "id": "p-ae631f4e416ff96e"
           },
           {
             "type": "paragraph",
@@ -83,7 +90,8 @@
                 "type": "text",
                 "text": "When someone confides their troubles to you, please smile and tell them: \"Everything will be alright.\" Then, leave quickly. An ordinary person's lake of the heart is easily disturbed. Please leave these sources of contamination to the Committee, who have already received the blessing to handle them."
               }
-            ]
+            ],
+            "id": "p-d45a573feafe203a"
           },
           {
             "type": "paragraph",
@@ -92,7 +100,8 @@
                 "type": "text",
                 "text": "Each night before sleep, stand before the mirror and repeat three times: \"Today, I was also happy.\" If tears fall, do not worry, wipe them dry with a towel. It is merely excess moisture your body is expelling."
               }
-            ]
+            ],
+            "id": "p-095034d220d25404"
           },
           {
             "type": "paragraph",
@@ -106,7 +115,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ea44eba2b12e0241"
           },
           {
             "type": "paragraph",
@@ -115,7 +125,8 @@
                 "type": "text",
                 "text": "Keep smiling. Keep smiling. Keep smiling."
               }
-            ]
+            ],
+            "id": "p-f61a8f6dc73d0a58"
           },
           {
             "type": "paragraph",
@@ -129,7 +140,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-8d8318539d5176cd"
           },
           {
             "type": "paragraph",
@@ -138,7 +150,8 @@
                 "type": "text",
                 "text": "The pursuit of happiness is humanity's birthright."
               }
-            ]
+            ],
+            "id": "p-3debf57f6b8114f1"
           },
           {
             "type": "paragraph",
@@ -147,7 +160,8 @@
                 "type": "text",
                 "text": "On this path, should you encounter any difficulty or obstacle, you must inform us."
               }
-            ]
+            ],
+            "id": "p-0eceac05ee3a9cdb"
           },
           {
             "type": "paragraph",
@@ -156,7 +170,8 @@
                 "type": "text",
                 "text": "We will provide you with every assistance, especially the Happiness Surgery, which grants supreme bliss."
               }
-            ]
+            ],
+            "id": "p-c45cc63efb64a565"
           }
         ]
       }

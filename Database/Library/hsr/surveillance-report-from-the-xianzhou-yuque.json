@@ -4,10 +4,11 @@
   "id": "surveillance-report-from-the-xianzhou-yuque",
   "name": "Surveillance Report from the Xianzhou Yuque",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Surveillance_Report_from_the_Xianzhou_Yuque",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-017f1cffc5d3b0f9"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "The Xianzhou Yuque is currently trekking around the periphery of the Giant's Arm star cluster, plotting an ancient course as it continues explorations."
               }
-            ]
+            ],
+            "id": "p-7bba21380f88a5e2"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "Twenty-six sidereal hours ago, the Cloudpeer Telescope captured signals from Reignbow's Lux Arrow traversing through three of its coordinates. The master diviner has interpreted this as a divine mandate."
               }
-            ]
+            ],
+            "id": "p-2f166b69d1c16d02"
           },
           {
             "type": "paragraph",
@@ -51,7 +55,8 @@
                 "type": "text",
                 "text": "The Marshal issued orders, and the Yaoqing Cloud Knights' Heroncrest Fleet and Red Ballad Fleet have both set out on patrol as hereby informed."
               }
-            ]
+            ],
+            "id": "p-6ea43bb7265702ea"
           },
           {
             "type": "paragraph",
@@ -60,7 +65,8 @@
                 "type": "text",
                 "text": "We also include a recent scouting report of enemy movements for strategic planning."
               }
-            ]
+            ],
+            "id": "p-d4febfb8039d6a7f"
           },
           {
             "type": "paragraph",
@@ -74,7 +80,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-cf2fde9ab8d48fb4"
           },
           {
             "type": "paragraph",
@@ -88,11 +95,13 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-1713903e26a2516b"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -115,7 +124,8 @@
                 "type": "text",
                 "text": "We expect to observe the borisin's internal war in the upcoming days. We will send out another battle report once the time comes."
               }
-            ]
+            ],
+            "id": "p-7270be0dea6b2684"
           },
           {
             "type": "paragraph",
@@ -124,11 +134,13 @@
                 "type": "text",
                 "text": "Threat posed to the Luofu: Very low."
               }
-            ]
+            ],
+            "id": "p-41f4b76a57c3999c"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a-2"
           },
           {
             "type": "paragraph",
@@ -144,7 +156,8 @@
                 "type": "text",
                 "text": "The veracity of this information is yet to be verified."
               }
-            ]
+            ],
+            "id": "p-5949c8909a38d6d4"
           },
           {
             "type": "paragraph",
@@ -153,11 +166,13 @@
                 "type": "text",
                 "text": "Threat posed to the Luofu: Very low."
               }
-            ]
+            ],
+            "id": "p-41f4b76a57c3999c-2"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a-3"
           },
           {
             "type": "paragraph",
@@ -173,7 +188,8 @@
                 "type": "text",
                 "text": "Diviners have performed calculations, and the probability of victory is infinitesimally close to zero."
               }
-            ]
+            ],
+            "id": "p-f8e5ca0bbe287588"
           },
           {
             "type": "paragraph",
@@ -189,7 +205,8 @@
                 "type": "text",
                 "text": "Suggested countermeasures: Order the Divination Commission to monitor electrical signals from Irontomb's vehicle, and remain vigilant about its movements."
               }
-            ]
+            ],
+            "id": "p-997d899849eef4a4"
           }
         ]
       }

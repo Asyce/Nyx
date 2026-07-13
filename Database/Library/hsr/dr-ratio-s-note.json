@@ -4,10 +4,11 @@
   "id": "dr-ratio-s-note",
   "name": "Dr. Ratio's Note",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Dr._Ratio%27s_Note",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "i",
       "label": "(I)",
       "document": {
         "version": 1,
@@ -43,13 +44,15 @@
                 "type": "text",
                 "text": "Or are these snacks running the lab? This is rude and unacceptable."
               }
-            ]
+            ],
+            "id": "p-ad6f81ede3309b69"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "ii",
       "label": "(II)",
       "document": {
         "version": 1,
@@ -61,7 +64,8 @@
                 "type": "text",
                 "text": "About Skaracabaz"
               }
-            ]
+            ],
+            "id": "p-8e6df237591da4cb"
           },
           {
             "type": "paragraph",
@@ -77,13 +81,15 @@
                 "type": "text",
                 "text": "If you see this note, I wish you luck. I would turn around right now if I were you."
               }
-            ]
+            ],
+            "id": "p-92bec826b4983248"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "iii",
       "label": "(III)",
       "document": {
         "version": 1,
@@ -109,13 +115,15 @@
                 "type": "text",
                 "text": "I've finally discovered one virtue of this lab."
               }
-            ]
+            ],
+            "id": "p-24d332f76d1283db"
           }
         ]
       }
     },
     {
       "id": "4",
+      "volumeKey": "iv",
       "label": "(IV)",
       "document": {
         "version": 1,
@@ -137,7 +145,8 @@
                 "type": "text",
                 "text": "The dust and particles are suffocating... I can't believe there's not even a decontamination unit around here!"
               }
-            ]
+            ],
+            "id": "p-aeeab1aeb37a94ef"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "memorial-to-the-illustrious-officials-xiao-and-hong",
   "name": "Memorial to the Illustrious Officials Xiao and Hong",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Memorial_to_the_Illustrious_Officials_Xiao_and_Hong",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Xiao and Hong were a pair of Foxian twins from the Dufang Delve of the Luofu. All their family members were Cloud Knights. When Xiao and Hong were 27 years old, their parents joined a military campaign against the borisin and perished. After that, they enlisted in the military and became pilots."
               }
-            ]
+            ],
+            "id": "p-d0b8901e2cc5da79"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Sanctus Medicus led a rebellion when Xiao and Hong were 55. When Sanctus Medicus rode a starskiff to attack the Sun Delve, Xiao and Hong tried to fight them off, but met their heroic ends."
               }
-            ]
+            ],
+            "id": "p-2797082b541abc85"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "May heaven mourn their passing! Xiao and Hong faced the challenge fearlessly and sacrificed themselves for the greater good. How saddening to see two join in death as they were in life!"
               }
-            ]
+            ],
+            "id": "p-e66143f76341688f"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "Today, let us honor the two noble men whose achievements were as glorious as the stars and bring their spirits back to The Old Verdant Home. We will offer them our humble tribute and continue to commemorate their noble deeds."
               }
-            ]
+            ],
+            "id": "p-6cb19a48a8b66771"
           }
         ]
       }

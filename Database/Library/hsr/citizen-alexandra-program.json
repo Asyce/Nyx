@@ -4,10 +4,11 @@
   "id": "citizen-alexandra-program",
   "name": "Citizen Alexandra Program",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Citizen_Alexandra_Program",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "page-1",
       "label": "Page 1",
       "document": {
         "version": 1,
@@ -29,7 +30,8 @@
                 "type": "em",
                 "children": []
               }
-            ]
+            ],
+            "id": "p-e73723c34105eb56"
           },
           {
             "type": "paragraph",
@@ -38,7 +40,8 @@
                 "type": "text",
                 "text": "A Golden Theater Musical Department yearly special"
               }
-            ]
+            ],
+            "id": "p-7923b93f2ac0a7f6"
           },
           {
             "type": "paragraph",
@@ -100,7 +103,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-9bab1e653f28d2c7"
           },
           {
             "type": "paragraph",
@@ -129,7 +133,8 @@
                 "type": "text",
                 "text": "Six-time Goliards Lifetime Achievement Award Winner:"
               }
-            ]
+            ],
+            "id": "p-026e88f8f404c4b4"
           },
           {
             "type": "paragraph",
@@ -138,7 +143,8 @@
                 "type": "text",
                 "text": "Potential new casting:"
               }
-            ]
+            ],
+            "id": "p-ddaee77b40eb2e28"
           },
           {
             "type": "paragraph",
@@ -161,7 +167,8 @@
                 "type": "text",
                 "text": "Costume Designer: Abigail, Set Designer: Timmy, Lighting Designer: Bob, Public Relations Manager: Robert"
               }
-            ]
+            ],
+            "id": "p-6d6ce4c6867b7aae"
           },
           {
             "type": "paragraph",
@@ -205,7 +212,8 @@
                 "type": "text",
                 "text": "Personal Secretary Iva - Margaret"
               }
-            ]
+            ],
+            "id": "p-f6c9f40464ad5d7b"
           },
           {
             "type": "paragraph",
@@ -291,13 +299,15 @@
                 "type": "text",
                 "text": "\"Belobog Cries for Her\" - Collins, Bourne, Bruce"
               }
-            ]
+            ],
+            "id": "p-02e42f0d39a1e183"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "page-2",
       "label": "Page 2",
       "document": {
         "version": 1,
@@ -331,7 +341,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-73563e7d79528aef"
           },
           {
             "type": "paragraph",
@@ -340,7 +351,8 @@
                 "type": "text",
                 "text": "Two years ago, Catherine easily won the Goliards Award with her very first piece of work, thus becoming the youngest winner of the Goliards Award for Best Orchestrations in a Play. This talented composer did not accept any offers from any directors or theaters. However, she shut herself off from the world at the height of her popularity and spent two years focusing on her new work."
               }
-            ]
+            ],
+            "id": "p-8419cf19ae56a837"
           },
           {
             "type": "paragraph",
@@ -362,7 +374,8 @@
                 "type": "text",
                 "text": "proved to be a sensation when the initial draft was introduced to the public. Theaters and musicals loved this talented composer's new work. To everyone's surprise, Catherine chose a new performer to play the female lead."
               }
-            ]
+            ],
+            "id": "p-f767cbdd5c75aa8a"
           },
           {
             "type": "paragraph",
@@ -384,7 +397,8 @@
                 "type": "text",
                 "text": "is a story driven by a female protagonist. The supreme guardian can also show her warm and vulnerable sides. I hope that the audience can understand the journey the guardian went through her life, transforming from vulnerability to the Path of Preservation. That's the reason that I chose a new performer,\" Catherine explained to us."
               }
-            ]
+            ],
+            "id": "p-5f703ae07604c3ff"
           },
           {
             "type": "paragraph",
@@ -393,7 +407,8 @@
                 "type": "text",
                 "text": "The one in Catherine's mind was Dasha, for whom it would be her first time as a female lead on stage. \"Although in this play, Alexandra will reveal her female elegance and a unique charm, she is always the Supreme Guardian in her people's hearts, which means she had to change. She had to transform from a tender rose to an unbreakable rock. As for Dasha, her personal experience honed her voice to be able to showcase this aspect.\" Catherine said with a smile that she was very grateful for the trust of the director and producer in letting her decide the female lead."
               }
-            ]
+            ],
+            "id": "p-ae4ffe39a4043aa2"
           },
           {
             "type": "paragraph",
@@ -415,7 +430,8 @@
                 "type": "text",
                 "text": "had not been shown to the public, but in the previous trial shows that only opened to professionals and the media, this musical combining many popular songs was greatly praised by the audience. With the new singer Dasha's beautiful voice, not only did Alexandra the Supreme Guardian show the tenderness of a teenage girl, but also perfectly presented her determination and selflessness as she chose the Path of Preservation accompanied by three male friends."
               }
-            ]
+            ],
+            "id": "p-e8df4af36ed160e7"
           },
           {
             "type": "paragraph",
@@ -424,13 +440,15 @@
                 "type": "text",
                 "text": "\"Blizzards may tear me apart but can also make me who I am. It's your love that help my heart always be as unbreakable as a rock.\" Before the official show starts, Dasha sang us a small part of the Alexandra theme song. In a few lines, the legendary life of the supreme guardian has been presented vividly."
               }
-            ]
+            ],
+            "id": "p-1a5c8dcc6dea308c"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "page-3",
       "label": "Page 3",
       "document": {
         "version": 1,
@@ -484,7 +502,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-10514aadfa1fa031"
           },
           {
             "type": "paragraph",
@@ -547,7 +566,8 @@
                 "type": "text",
                 "text": "List price: 1500 shield"
               }
-            ]
+            ],
+            "id": "p-970cb31ffeb4bb82"
           },
           {
             "type": "paragraph",
@@ -606,7 +626,8 @@
                 "type": "text",
                 "text": "List price: 1000 shield"
               }
-            ]
+            ],
+            "id": "p-42a2ec32466c37ff"
           },
           {
             "type": "paragraph",
@@ -658,7 +679,8 @@
                 "type": "text",
                 "text": "List price: 800 shield"
               }
-            ]
+            ],
+            "id": "p-9a613056e6643e14"
           }
         ]
       }

@@ -4,17 +4,19 @@
   "id": "silver-screen-shockwave-issue-280",
   "name": "Silver Screen Shockwave Issue 280",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Silver_Screen_Shockwave_Issue_280",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -23,7 +25,8 @@
                 "type": "text",
                 "text": "Movie Critic: Chabro"
               }
-            ]
+            ],
+            "id": "p-b510161bd5940479"
           },
           {
             "type": "paragraph",
@@ -76,7 +79,8 @@
                 "type": "text",
                 "text": "I have a lot of respect for SoulGlad Enterprise for sparing no expense in hiring A-list actors to feature in this crappy movie that lasts for 2 hours. Ironically, even the effect of a half-minute commercial is better than this. It seems to me that Penacony is doing extremely well economically these days, or the Alfalfa Family wouldn't be wasting their money like this."
               }
-            ]
+            ],
+            "id": "p-69a05ff37f84f3f0"
           },
           {
             "type": "paragraph",
@@ -98,7 +102,8 @@
                 "type": "text",
                 "text": ", with their brains filled with SoulGlad. The protagonist meets the love of his life after picking up a bottle of SoulGlad, making a name for himself in the dreamscapes by selling SoulGlad, and rising to become the Festive Superstar by singing the SoulGlad advertisement jingle. The movie ends with everyone dancing with a bottle of SoulGlad in their hands in a scene where SoulGlad is overflowing everywhere... Holy moly, there's more SoulGlad in this flop than I've seen in my entire life!"
               }
-            ]
+            ],
+            "id": "p-2db0aa62c0bd5e78"
           },
           {
             "type": "paragraph",
@@ -107,7 +112,8 @@
                 "type": "text",
                 "text": "Come to think of it, this film is probably a success in terms of promoting SoulGlad. After all, after two torturous hours of watching the movie, the audience desperately needs something nice to drink to soothe their battered souls."
               }
-            ]
+            ],
+            "id": "p-de07c10330c77feb"
           },
           {
             "type": "paragraph",
@@ -160,7 +166,8 @@
                 "type": "text",
                 "text": "When \"Insect Cyclone: The Three-Headed Insect\" first came out, I didn't expect a film of such poor quality could have so many sequels."
               }
-            ]
+            ],
+            "id": "p-daf084b0355abe91"
           },
           {
             "type": "paragraph",
@@ -169,7 +176,8 @@
                 "type": "text",
                 "text": "So, when I saw its 13th sequel making it to the box office chart, I had no intention of wasting any more ink on this film made of tacky special effects and an AI-generated script. However, I must criticize those who have contributed to its box office — when you buy a ticket for this film, you are filling Grady Films's grave."
               }
-            ]
+            ],
+            "id": "p-211fd6baaa4be06d"
           },
           {
             "type": "paragraph",
@@ -178,7 +186,8 @@
                 "type": "text",
                 "text": "In terms of cinematography, this film is a 0. The one point is for its art team, who managed to design a Swarm monster with 16 heads, 32 pairs of wings, and 64 limbs — it's surely no easy feat. If they can pull off a monster with more heads in the next sequel, I'll consider giving the film another 0.5 points."
               }
-            ]
+            ],
+            "id": "p-fb74448111f0c839"
           },
           {
             "type": "paragraph",
@@ -253,7 +262,8 @@
                 "type": "text",
                 "text": ", you will know that this is one of the higher scores I've given."
               }
-            ]
+            ],
+            "id": "p-cd1015df5a9b3767"
           },
           {
             "type": "paragraph",
@@ -262,7 +272,8 @@
                 "type": "text",
                 "text": "Regrettably, Grady Films seems to be too vested in trying to add more heads to the Swarm nowadays. Not only does the most advanced dream bubble technology fail to capture the essence of the original film, but it also ruins what's good about it. The director has zero clue about the difference between a dream bubble narrative and using cinematography to tell the narrative. It only repeatedly forces the audience to go through a non-interactive process, then stand around and read a bunch of dialogue that has nothing to do with them as the narrator. This is funny — if a dream bubble movie is only about moving the scenes in a film into a dream bubble, then I might as well just lie on the couch and watch the original film."
               }
-            ]
+            ],
+            "id": "p-05e885af2a803d21"
           },
           {
             "type": "paragraph",
@@ -271,7 +282,8 @@
                 "type": "text",
                 "text": "If you are interested in this movie, I'd suggest that you get an old disk of the original film instead of wasting your money and time on this trashy dream bubble."
               }
-            ]
+            ],
+            "id": "p-67279bc4546ac48d"
           },
           {
             "type": "paragraph",
@@ -324,7 +336,8 @@
                 "type": "text",
                 "text": "Clockie: Mecha Town''!"
               }
-            ]
+            ],
+            "id": "p-b6b3e80fae599f43"
           },
           {
             "type": "paragraph",
@@ -346,7 +359,8 @@
                 "type": "text",
                 "text": "from last year. Both films start with Dreamville facing a crisis, followed by Clockie searching for external help, and making new friends, and end with Clockie rescuing the whole town by relying on friendship and teamwork... The same plot has been used over and over again. Don't the producers find it a snoozefest?"
               }
-            ]
+            ],
+            "id": "p-87271cbecdbf19a2"
           },
           {
             "type": "paragraph",
@@ -355,7 +369,8 @@
                 "type": "text",
                 "text": "For first-timers to the Clockie cartoon films, this is definitely an excellent work. But if you are a fan of Clockie who has already watched films of the series numerous times, there are no surprises in stock for you."
               }
-            ]
+            ],
+            "id": "p-ff6639a1b0d58f81"
           },
           {
             "type": "paragraph",
@@ -364,7 +379,8 @@
                 "type": "text",
                 "text": "Recommended by: Chabro"
               }
-            ]
+            ],
+            "id": "p-c5f6ae1307f9ee20"
           },
           {
             "type": "paragraph",
@@ -421,7 +437,8 @@
                 "type": "text",
                 "text": "This film is a classic piece by one of the most famous directors in the cosmos: Mr. Reca. Once again, he demonstrates his exceptional talent in this film."
               }
-            ]
+            ],
+            "id": "p-8cc1bd98da7d855c"
           },
           {
             "type": "paragraph",
@@ -439,7 +456,8 @@
                 "type": "text",
                 "text": "integrates reality and romance as well as tenderness and brutality in the 1,500 shots that make up the 200-minute film. The story took place in the Slaturg Nebula that fell half an Amber Era ago. Mr. Reca makes the Intellitron leader who rules the nebula the protagonist and depicts the happenings during the final six months of the nebula from the leader's perspective."
               }
-            ]
+            ],
+            "id": "p-74942ca4ab532eae"
           },
           {
             "type": "paragraph",
@@ -461,7 +479,8 @@
                 "type": "text",
                 "text": "a movie remembered by history."
               }
-            ]
+            ],
+            "id": "p-d044e343a03f56df"
           },
           {
             "type": "paragraph",
@@ -470,7 +489,8 @@
                 "type": "text",
                 "text": "Rewatching this film makes me reminisce about the time when I was pursuing my artistic dream in the past... It is unlikely that I can create something as outstanding as this film at my age, but I hope that with my words, I can bring awareness to the movie industry that we need more great artists like Mr. Reca!"
               }
-            ]
+            ],
+            "id": "p-e6434607b69eb941"
           },
           {
             "type": "paragraph",
@@ -479,7 +499,8 @@
                 "type": "text",
                 "text": "Note: According to the information received by our journalists, it seems that Mr. Reca has developed an interest in Penaconian dream bubble technology and is preparing a dream bubble film. This is truly a piece of delightful news for every cinephile. I believe his work will bring a breath of fresh air to the currently lackluster cinema and revitalize the industry!"
               }
-            ]
+            ],
+            "id": "p-26c2c1f98ad27baf"
           }
         ]
       }

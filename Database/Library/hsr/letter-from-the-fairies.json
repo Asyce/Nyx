@@ -4,10 +4,11 @@
   "id": "letter-from-the-fairies",
   "name": "Letter from the Fairies",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Letter_from_the_Fairies",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "the-first-letter",
       "label": "The First Letter",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "To our friend from the outside, (Trailblazer):"
               }
-            ]
+            ],
+            "id": "p-4c41db915b4aaf49"
           },
           {
             "type": "paragraph",
@@ -69,7 +71,8 @@
                 "type": "text",
                 "text": "Hope you have a wonderful time in the Maze, mem!"
               }
-            ]
+            ],
+            "id": "p-a404d1c918888253"
           },
           {
             "type": "paragraph",
@@ -78,13 +81,15 @@
                 "type": "text",
                 "text": "Spoken by Dolimem, penned by Relimem"
               }
-            ]
+            ],
+            "id": "p-dc0c5d035fecb4f0"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "the-second-letter",
       "label": "The Second Letter",
       "document": {
         "version": 1,
@@ -96,7 +101,8 @@
                 "type": "text",
                 "text": "Dear (Trailblazer):"
               }
-            ]
+            ],
+            "id": "p-26b9c09ce2ac4bd1"
           },
           {
             "type": "paragraph",
@@ -146,7 +152,8 @@
                 "type": "text",
                 "text": "and so will I."
               }
-            ]
+            ],
+            "id": "p-8c46c216c0453fbc"
           },
           {
             "type": "paragraph",
@@ -155,13 +162,15 @@
                 "type": "text",
                 "text": "Your biggest fan, Latitimem"
               }
-            ]
+            ],
+            "id": "p-db9b52afdfdce27d"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "the-third-letter",
       "label": "The Third Letter",
       "document": {
         "version": 1,
@@ -173,7 +182,8 @@
                 "type": "text",
                 "text": "To my friend (Trailblazer):"
               }
-            ]
+            ],
+            "id": "p-6917b4a22411e28b"
           },
           {
             "type": "paragraph",
@@ -250,13 +260,15 @@
                 "type": "text",
                 "text": "Your caring friend, Solimem"
               }
-            ]
+            ],
+            "id": "p-8becb0ec60957d0f"
           }
         ]
       }
     },
     {
       "id": "4",
+      "volumeKey": "the-fourth-letter",
       "label": "The Fourth Letter",
       "document": {
         "version": 1,
@@ -268,7 +280,8 @@
                 "type": "text",
                 "text": "Welcome, (Trailblazer):"
               }
-            ]
+            ],
+            "id": "p-937e219658ee46c3"
           },
           {
             "type": "paragraph",
@@ -332,7 +345,8 @@
                 "type": "text",
                 "text": "but simply to enjoy more moments with friends."
               }
-            ]
+            ],
+            "id": "p-61f7df7ad8b70d40"
           },
           {
             "type": "paragraph",
@@ -341,13 +355,15 @@
                 "type": "text",
                 "text": "Lalimem, who wants to hang out with you"
               }
-            ]
+            ],
+            "id": "p-54716f8182732125"
           }
         ]
       }
     },
     {
       "id": "5",
+      "volumeKey": "the-fifth-letter",
       "label": "The Fifth Letter",
       "document": {
         "version": 1,
@@ -359,7 +375,8 @@
                 "type": "text",
                 "text": "To (Trailblazer), who traveled from afar:"
               }
-            ]
+            ],
+            "id": "p-b41e39e1db600d9b"
           },
           {
             "type": "paragraph",
@@ -416,7 +433,8 @@
                 "type": "text",
                 "text": "since joy is never in short supply when we're together."
               }
-            ]
+            ],
+            "id": "p-3d02f4623fbdd25c"
           },
           {
             "type": "paragraph",
@@ -425,7 +443,8 @@
                 "type": "text",
                 "text": "With enthusiasm, Tilamem"
               }
-            ]
+            ],
+            "id": "p-3de5f08da004c7bb"
           }
         ]
       }

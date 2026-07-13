@@ -4,10 +4,11 @@
   "id": "an-ode-to-khvarena",
   "name": "An Ode to Khvarena",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/An_Ode_to_Khvarena",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -69,7 +70,8 @@
                 "type": "text",
                 "text": "I opened a path for the benevolent spirits so that the merciful light of wisdom may illuminate the four corners."
               }
-            ]
+            ],
+            "id": "p-754b446916fa784a"
           },
           {
             "type": "paragraph",
@@ -118,7 +120,8 @@
                 "type": "text",
                 "text": "For not even the inky gloom from beyond the skies shall erode their forms."
               }
-            ]
+            ],
+            "id": "p-6ed6f5523233fec5"
           },
           {
             "type": "paragraph",
@@ -167,7 +170,8 @@
                 "type": "text",
                 "text": "The fleeting blights and glories of the earthly realm are naught but the illusion of existing seeds."
               }
-            ]
+            ],
+            "id": "p-fd4c00f1067dedb7"
           },
           {
             "type": "paragraph",
@@ -216,7 +220,8 @@
                 "type": "text",
                 "text": "A thousand songs were sung in unison, and the heavy rains abated for a time."
               }
-            ]
+            ],
+            "id": "p-7eb14c48395522e7"
           },
           {
             "type": "paragraph",
@@ -255,7 +260,8 @@
                 "type": "text",
                 "text": "May the eternal Khvarena guide us on the upward path."
               }
-            ]
+            ],
+            "id": "p-49969062f6232f89"
           }
         ]
       }

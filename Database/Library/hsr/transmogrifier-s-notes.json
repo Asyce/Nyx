@@ -4,10 +4,11 @@
   "id": "transmogrifier-s-notes",
   "name": "Transmogrifier's Notes",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Transmogrifier%27s_Notes",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Chryseos the Lotophagist"
               }
-            ]
+            ],
+            "id": "p-6c6346e47312e38b"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "I am certain that I have seen the truth. No, maybe those fruits affected my judgment? But I witnessed this all with my own eyes. There cannot be any mistake. I must record this, even if it gets me in trouble."
               }
-            ]
+            ],
+            "id": "p-ad079d6a58978b0c"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "Yesterday, I discovered a strange plant when I was collecting samples in the garden — it was extremely beautiful, with vines that could bend at will like an elegant goose's neck... And such smooth, pure white petals! I will chalk it up to good fortune that I happened across it while it was bearing fruit. I swallowed the purple fruits with pleasure. The taste was extraordinarily sweet, and the aroma was difficult to describe. Unfortunately, a little while later, I started to feel unwell and my throat began to hurt. My head grew hazy like I had a cold — That's right. The winds in the garden have been so frosty lately. I must have caught a cold!"
               }
-            ]
+            ],
+            "id": "p-640f1f266878555e"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "I was going to go straight back home when I saw something unbelievable on my way back through the garden."
               }
-            ]
+            ],
+            "id": "p-70cfa6f119eb0fdf"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "I saw Sage Medea standing alone in the moonlight! It seemed like she had not noticed me. I saw her body begin to twist and extend like the patterns of a growing tree, yet compressed down to the time it takes for a few breaths. Her arms transformed into branches, her hair into vines, and her skin became covered in fine lines like the rings of a tree. The most shocking part was that she began to speak to the surrounding plants in a whispering voice that I had never heard before."
               }
-            ]
+            ],
+            "id": "p-8a59f59955b5e05f"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "I think this explains why the Lotophagists can so accurately comprehend the true nature of plants. Their Sage was not just researching the plants. She herself was..."
               }
-            ]
+            ],
+            "id": "p-285c8db3d9067ba5"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "She herself was a plant... so... She's not a person at all!!!"
               }
-            ]
+            ],
+            "id": "p-c0fd14cf0c607cf4"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "Even if she is a person, she is a plant that can transform into a person... Maybe I can refer to her as...? Wait, I think there were similar records in the Grove archives."
               }
-            ]
+            ],
+            "id": "p-8ccde8ce257db223"
           },
           {
             "type": "paragraph",
@@ -91,7 +100,8 @@
                 "type": "text",
                 "text": "I've got it!!!!!!"
               }
-            ]
+            ],
+            "id": "p-d15f2e83673e9e38"
           },
           {
             "type": "paragraph",
@@ -105,7 +115,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-4128aa6ca5f0afff"
           },
           {
             "type": "paragraph",
@@ -114,7 +125,8 @@
                 "type": "text",
                 "text": "Someone is coming. I can hear footsteps down the corridor. No, those aren't footsteps... they sound more like... the sound of branches dragging across a floor?"
               }
-            ]
+            ],
+            "id": "p-ea1bdb018e58c499"
           },
           {
             "type": "paragraph",
@@ -123,7 +135,8 @@
                 "type": "text",
                 "text": "She's found me! She knows that I know her secret! No, is this her \"secret,\" or the secret of our school... Wait a second. Why was she so eager to recruit me in the first place? She even said that I had a great talent and passion for plant research... Could it be... Am I going to end up the same as Medea? I'm starting to get an idea..."
               }
-            ]
+            ],
+            "id": "p-9bffad17ebd77bc4"
           },
           {
             "type": "paragraph",
@@ -137,7 +150,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-d4e8c5dc08c8db40"
           },
           {
             "type": "paragraph",
@@ -168,7 +182,8 @@
                 "type": "text",
                 "text": "— Lotophagist Archive Manager"
               }
-            ]
+            ],
+            "id": "p-1f0c2dd4acae6739"
           }
         ]
       }

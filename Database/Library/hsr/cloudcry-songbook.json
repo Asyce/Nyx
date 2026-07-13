@@ -4,10 +4,11 @@
   "id": "cloudcry-songbook",
   "name": "Cloudcry Songbook",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Cloudcry_Songbook",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -110,7 +111,8 @@
                 "type": "text",
                 "text": "those past loves and past lives seen only in reveries."
               }
-            ]
+            ],
+            "id": "p-72126a1537df2867"
           },
           {
             "type": "paragraph",
@@ -133,7 +135,8 @@
                 "type": "text",
                 "text": "Feeling the weight of your suffering."
               }
-            ]
+            ],
+            "id": "p-10117febdbe2a80d"
           },
           {
             "type": "paragraph",
@@ -156,7 +159,8 @@
                 "type": "text",
                 "text": "When will I next come to see your face?"
               }
-            ]
+            ],
+            "id": "p-122cc1b32fed1705"
           },
           {
             "type": "paragraph",
@@ -179,7 +183,8 @@
                 "type": "text",
                 "text": "How many times must we be entombed?"
               }
-            ]
+            ],
+            "id": "p-477091edb79546cc"
           },
           {
             "type": "paragraph",
@@ -202,7 +207,8 @@
                 "type": "text",
                 "text": "six hundred years in this mortal bind."
               }
-            ]
+            ],
+            "id": "p-39f78e544fde0238"
           }
         ]
       }

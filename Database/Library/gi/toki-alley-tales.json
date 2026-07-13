@@ -4,10 +4,11 @@
   "id": "toki-alley-tales",
   "name": "Toki Alley Tales",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Toki_Alley_Tales",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Prologue: The Tanuki's Oral History of Inazuma"
               }
-            ]
+            ],
+            "id": "p-f2191ce6ac23c8c9"
           },
           {
             "type": "paragraph",
@@ -38,7 +40,8 @@
                 "type": "text",
                 "text": "Lazy and fickle by nature, the tanuki never worried about tomorrow, nor did they carry today's troubles with them through the night. During that period, the land of Inazuma was a cozy paradise for the tanuki and every day was a fun-filled festival."
               }
-            ]
+            ],
+            "id": "p-b27fcbb1dc67f8eb"
           },
           {
             "type": "paragraph",
@@ -47,7 +50,8 @@
                 "type": "text",
                 "text": "At least, that's what the tanuki elders say."
               }
-            ]
+            ],
+            "id": "p-ed9eab360b726be9"
           },
           {
             "type": "paragraph",
@@ -56,7 +60,8 @@
                 "type": "text",
                 "text": "Later on, the kitsune arrived by sea, forcing the tanuki into a great war that lasted first for 800 years and then for another 800 years, with both sides suffering heavy casualties, until eventually the only option was to hold peace talks. The tanuki are a stubborn bunch and to this day still don't admit defeat, but the fact remains that they ceded the giant Thunder Sakura to the kitsune."
               }
-            ]
+            ],
+            "id": "p-9b74398846e24b7a"
           },
           {
             "type": "paragraph",
@@ -65,7 +70,8 @@
                 "type": "text",
                 "text": "But the kitsune are a crafty and cunning bunch too, and equally skilled in the art of shape-shifting. It is said that in that great war, as a consequence of the constant switcheroo trickery, many poor souls became completely disoriented and could not for the life of them keep track of who was who — eventually forgetting even who they were, what they were, and which side they were supposed to be on."
               }
-            ]
+            ],
+            "id": "p-d69f7da3ba05b459"
           },
           {
             "type": "paragraph",
@@ -74,7 +80,8 @@
                 "type": "text",
                 "text": "Thus were the hapless mortals born. The product of bewildered youkai."
               }
-            ]
+            ],
+            "id": "p-bbb07e30e0fb2dbc"
           },
           {
             "type": "paragraph",
@@ -83,13 +90,15 @@
                 "type": "text",
                 "text": "This tale and many others were told to me by the tengu who likes to boast."
               }
-            ]
+            ],
+            "id": "p-518d5f943cab5c2d"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
@@ -101,7 +110,8 @@
                 "type": "text",
                 "text": "Yoichi's Tale"
               }
-            ]
+            ],
+            "id": "p-d13c1a8c62379f1f"
           },
           {
             "type": "paragraph",
@@ -110,7 +120,8 @@
                 "type": "text",
                 "text": "The tengu's name is Yoichi, and she lives in Hanamizaka on a small side street called Toki Alley. She rents a shop there that sells alcohol, and lives a leisurely existence."
               }
-            ]
+            ],
+            "id": "p-9c46c1937e20ea5a"
           },
           {
             "type": "paragraph",
@@ -119,7 +130,8 @@
                 "type": "text",
                 "text": "I say \"leisurely.\" That's putting it nicely. \"Completely and utterly chaotic\" would be a more accurate description."
               }
-            ]
+            ],
+            "id": "p-778d1a188796ebe2"
           },
           {
             "type": "paragraph",
@@ -158,7 +170,8 @@
                 "type": "text",
                 "text": "But the youkai and human folk of Toki Alley see her quite differently. Even the Great Gongen has never given her serious punishment, because she has never caused any major trouble."
               }
-            ]
+            ],
+            "id": "p-5a2a765463f42336"
           },
           {
             "type": "paragraph",
@@ -167,7 +180,8 @@
                 "type": "text",
                 "text": "Though haughty and slovenly by nature, as a \"great youkai, set apart from the common folk\" (her own words), Yoichi isn't greatly attached to worldly possessions. Any money she comes into is spent swiftly on alcohol — or else on novels from Yae Publishing House, which she skims through halfway before promptly defenestrating them. As a result, her home is not what you would call \"domesticated\" — quite the opposite, in fact."
               }
-            ]
+            ],
+            "id": "p-4359975170b0c690"
           },
           {
             "type": "paragraph",
@@ -176,7 +190,8 @@
                 "type": "text",
                 "text": "Simply put, she doesn't have any worldly possessions of sentimental value... the sole exception being the golden paper fan she wears on her waist."
               }
-            ]
+            ],
+            "id": "p-cdd94b9663343149"
           },
           {
             "type": "paragraph",
@@ -195,7 +210,8 @@
                 "type": "text",
                 "text": "On a moonlit night, a drunken Yoichi, her shirt collar wide open, began bragging to me about its story..."
               }
-            ]
+            ],
+            "id": "p-fd7f9ce89a53b76f"
           },
           {
             "type": "paragraph",
@@ -204,7 +220,8 @@
                 "type": "text",
                 "text": "She said that in one of the many worlds she had traversed, she took the form of a haughty young male archer, serving under an equally haughty shogun. Under that shogun's command, she, — or rather, \"he\" — had proudly shot down countless opponents, including big-bellied mortal samurai and crafty tanuki ninjas. Even the jikininki, despite their bulky figures, were no match against a single shot from Yoichi's bow."
               }
-            ]
+            ],
+            "id": "p-c7ae0017032c9184"
           },
           {
             "type": "paragraph",
@@ -233,7 +250,8 @@
                 "type": "text",
                 "text": "After that, Yoichi made numerous contributions for the shogun, executing many monsters and unfortunate mortals. It goes without saying that she probably made some of the stories up. But what she truly became renowned for was the final battle of that world, a world in which she spent a hundred years."
               }
-            ]
+            ],
+            "id": "p-00c1a60d66c1c032"
           },
           {
             "type": "paragraph",
@@ -242,7 +260,8 @@
                 "type": "text",
                 "text": "In that naval battle, the shogun and rebels braved storms to wage bloody warfare between the straits. The monsters numbered at least eight million, maybe eight million more than that, while the mortal samurai must have numbered in the tens of millions. In terms of casualties, the headcount cannot be known, but what is known is that 800 thousand ships sank in the course of the battle. Yoichi reached this staggering tally with my assistance as she was vomiting up a bellyful of wine by the window."
               }
-            ]
+            ],
+            "id": "p-d1043aa49b7549f3"
           },
           {
             "type": "paragraph",
@@ -251,7 +270,8 @@
                 "type": "text",
                 "text": "As is typical of so many stories about bitterly fought wars stuck in stalemate, brave heroes from both sides mowed down their enemies like blades of grass, painting the sea blood-red, while the rival generals stubbornly refused to back down, preferring to stay locked in intransigence than to withdraw their troops and head home to get a good night's sleep."
               }
-            ]
+            ],
+            "id": "p-ea6c6c0cff079643"
           },
           {
             "type": "paragraph",
@@ -260,7 +280,8 @@
                 "type": "text",
                 "text": "Finally, on one cold moonlit night, a small boat slowly floated out from enemy lines. A lone figure stood on the boat, swaying like a reflection in the water. Beside the figure was a shimmering flagpole with a paper fan at the top. It gave off a golden glow in the moonlight."
               }
-            ]
+            ],
+            "id": "p-289520b5a2055b89"
           },
           {
             "type": "paragraph",
@@ -279,7 +300,8 @@
                 "type": "text",
                 "text": "The shogun squinted his eyes, saw the golden fan in the distance, and instantly flew into a rage."
               }
-            ]
+            ],
+            "id": "p-1c79beb7d6687acd"
           },
           {
             "type": "paragraph",
@@ -288,7 +310,8 @@
                 "type": "text",
                 "text": "Yoichi couldn't understand why the shogun's self-esteem was so fragile, but was too lazy to empathize with the petty mortal sense of dignity. At that moment, she... no, \"he,\" fixed his keen tengu gaze on the floating figure in the boat."
               }
-            ]
+            ],
+            "id": "p-0c8be9d3a51ec9e0"
           },
           {
             "type": "paragraph",
@@ -297,7 +320,8 @@
                 "type": "text",
                 "text": "What he saw was a woman, and an altogether different one than Yoichi."
               }
-            ]
+            ],
+            "id": "p-f5959f91bdf1bdf4"
           },
           {
             "type": "paragraph",
@@ -306,7 +330,8 @@
                 "type": "text",
                 "text": "Moments later, a single arrow flew across the moon and tore apart the night sky."
               }
-            ]
+            ],
+            "id": "p-957ed030879b39ae"
           },
           {
             "type": "paragraph",
@@ -325,7 +350,8 @@
                 "type": "text",
                 "text": "Soon, the shogun's shouting was drowned out by the cheers of the army."
               }
-            ]
+            ],
+            "id": "p-4f0197e53b64c492"
           },
           {
             "type": "paragraph",
@@ -344,7 +370,8 @@
                 "type": "text",
                 "text": "Yoichi let out a conceited and mischievous laugh. She was drunk. The Great Tengu had a certain twinkle in her eye, of the rather repulsive variety, that she made no attempt to cover up."
               }
-            ]
+            ],
+            "id": "p-9d69d7d38ec23cfd"
           },
           {
             "type": "paragraph",
@@ -393,7 +420,8 @@
                 "type": "text",
                 "text": "Yoichi stuck out her tongue and sighed with exasperation."
               }
-            ]
+            ],
+            "id": "p-3e757bff58d24dfb"
           },
           {
             "type": "paragraph",
@@ -432,13 +460,15 @@
                 "type": "text",
                 "text": "Seeing the threatening gaze from the greatly tipsy Great Tengu, I hastily gathered the remaining snapper in my arms and left."
               }
-            ]
+            ],
+            "id": "p-a11a3064ae6d4e03"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "vol-3",
       "label": "Vol. 3",
       "document": {
         "version": 1,
@@ -450,7 +480,8 @@
                 "type": "text",
                 "text": "Osen's Tale"
               }
-            ]
+            ],
+            "id": "p-e2c44a9b6ad603d7"
           },
           {
             "type": "paragraph",
@@ -515,7 +546,8 @@
                 "type": "text",
                 "text": "At the sound of the voice, I raised my head to see a young woman sitting on the eaves, as if she'd been there for a while. Her face was obscured by the shadows, and all I could make out was something resembling a smile on her face and golden-green light reflected by her eyes. Moonlight flowed from her semi-exposed shoulders down her dress, trickling through the gaps in the hem of her skirt and outlining her long slender legs with porcelain-white luster. She has absent-mindedly playing with a kendama in her hand."
               }
-            ]
+            ],
+            "id": "p-f7c6907cc187a5f6"
           },
           {
             "type": "paragraph",
@@ -524,7 +556,8 @@
                 "type": "text",
                 "text": "Yep, the old lady was definitely furious..."
               }
-            ]
+            ],
+            "id": "p-68987885adb9f696"
           },
           {
             "type": "paragraph",
@@ -543,7 +576,8 @@
                 "type": "text",
                 "text": "\"Of course, s—sorry.\""
               }
-            ]
+            ],
+            "id": "p-4e850e3c25334979"
           },
           {
             "type": "paragraph",
@@ -562,7 +596,8 @@
                 "type": "text",
                 "text": "As the moon shone down, a humid wind arose. Before long, it had brought the cicadas' cries to a stop."
               }
-            ]
+            ],
+            "id": "p-10916921c918aff2"
           },
           {
             "type": "paragraph",
@@ -581,7 +616,8 @@
                 "type": "text",
                 "text": "Now, despite my being a tanuki on friendly-enough terms with the tengu to sit and drink with them, even I have to be on my very best behavior around the bake-neko. So, I promptly prostrated myself and apologized profusely for my transgression."
               }
-            ]
+            ],
+            "id": "p-e36df747093ebfbd"
           },
           {
             "type": "paragraph",
@@ -620,7 +656,8 @@
                 "type": "text",
                 "text": "Call me Osen!"
               }
-            ]
+            ],
+            "id": "p-73ad00c709c6dffb"
           },
           {
             "type": "paragraph",
@@ -639,7 +676,8 @@
                 "type": "text",
                 "text": "But something still felt off."
               }
-            ]
+            ],
+            "id": "p-05f3807ac209290b"
           },
           {
             "type": "paragraph",
@@ -674,7 +712,8 @@
                 "type": "text",
                 "text": "As for the story of how her fate became intertwined with that of the Great Tengu, the facts can only be described as farcical. We have already heard the ridiculous tales from Yoichi's perspective, but the bake-neko tells a completely different story."
               }
-            ]
+            ],
+            "id": "p-778c144cfda09966"
           },
           {
             "type": "paragraph",
@@ -713,7 +752,8 @@
                 "type": "text",
                 "text": "This went on for such a long time that any normal person would have been driven to madness. But youkai live such long lives that they have far more patience than mortals."
               }
-            ]
+            ],
+            "id": "p-e6fcc4b205a97200"
           },
           {
             "type": "paragraph",
@@ -722,7 +762,8 @@
                 "type": "text",
                 "text": "Later, when her shogun and the rebels' shogun started fighting, Osen transformed into a ninja."
               }
-            ]
+            ],
+            "id": "p-692bf63903b38e57"
           },
           {
             "type": "paragraph",
@@ -741,7 +782,8 @@
                 "type": "text",
                 "text": "Osen squinted her eyes as she said this, letting out a huge yawn that stretched from ear to ear."
               }
-            ]
+            ],
+            "id": "p-76901c3e79af3c66"
           },
           {
             "type": "paragraph",
@@ -760,7 +802,8 @@
                 "type": "text",
                 "text": "The shogun ordered Osen to transform into a beautiful young woman and stand on a small boat with a golden fan to humiliate the rebels so that they dare not approach. Even if they did, the bake-neko would teach them a brutal lesson."
               }
-            ]
+            ],
+            "id": "p-1c21d82566110f36"
           },
           {
             "type": "paragraph",
@@ -809,7 +852,8 @@
                 "type": "text",
                 "text": "The old woman's feline face failed to stifle a smile, and erupted into jeering laughter."
               }
-            ]
+            ],
+            "id": "p-f246d6eaa658024e"
           },
           {
             "type": "paragraph",
@@ -838,7 +882,8 @@
                 "type": "text",
                 "text": "\"But it'd been a few hundred years since I'd seen someone so entertaining. So, to save her the humiliation, I stifled my laughter and took the paper fan down myself... Then, a roar of cheers came from their fleet. Just thinking about it amuses me to this day.\""
               }
-            ]
+            ],
+            "id": "p-ac2bddccce869cab"
           },
           {
             "type": "paragraph",
@@ -877,7 +922,8 @@
                 "type": "text",
                 "text": "People says she flew over eight ships in a row, then disappeared into the night. The feline youkai's laughter could be heard for more than three days after the battle has finished."
               }
-            ]
+            ],
+            "id": "p-b21026839b369160"
           },
           {
             "type": "paragraph",
@@ -896,7 +942,8 @@
                 "type": "text",
                 "text": "The neko transformed into an old lady and laughed uncontrollably."
               }
-            ]
+            ],
+            "id": "p-d21aa37732396218"
           },
           {
             "type": "paragraph",
@@ -925,7 +972,8 @@
                 "type": "text",
                 "text": "\"I am NOT a trophy!\""
               }
-            ]
+            ],
+            "id": "p-a2602bd09dd7fb73"
           },
           {
             "type": "paragraph",
@@ -944,7 +992,8 @@
                 "type": "text",
                 "text": "The elderly female with feline features and the face of a young woman sighed gently, then smiled a cunning smile once more."
               }
-            ]
+            ],
+            "id": "p-23ba0c6a73672368"
           },
           {
             "type": "paragraph",
@@ -963,13 +1012,15 @@
                 "type": "text",
                 "text": "\"Also, don't forget to take this raincoat over to our old friend.\""
               }
-            ]
+            ],
+            "id": "p-db4bed895b23a331"
           }
         ]
       }
     },
     {
       "id": "4",
+      "volumeKey": "vol-4",
       "label": "Vol. 4",
       "document": {
         "version": 1,
@@ -981,7 +1032,8 @@
                 "type": "text",
                 "text": "The Tale of Granny Ame"
               }
-            ]
+            ],
+            "id": "p-957df1bd4495ea7d"
           },
           {
             "type": "paragraph",
@@ -1040,7 +1092,8 @@
                 "type": "text",
                 "text": "What kind of loss and sorrow led to Lady Guuji takins special care of Granny Ame? I'm really curious."
               }
-            ]
+            ],
+            "id": "p-650835deb4807100"
           },
           {
             "type": "paragraph",
@@ -1049,7 +1102,8 @@
                 "type": "text",
                 "text": "Stopping briefly in the courtyard, I watched the crescent moon swaying in the pond, as her voice rang gently in the cool night breeze."
               }
-            ]
+            ],
+            "id": "p-e01efc41d30d4d50"
           },
           {
             "type": "paragraph",
@@ -1068,7 +1122,8 @@
                 "type": "text",
                 "text": "When I turned around, I saw Ameonna standing by the door. She was bathed in pale moonlight, her long white dress shone with a dewy sheen, but her young and slender figure exuded a melancholic aura of a bygone era."
               }
-            ]
+            ],
+            "id": "p-47e979bcd70e7468"
           },
           {
             "type": "paragraph",
@@ -1097,7 +1152,8 @@
                 "type": "text",
                 "text": "Of course, that's just a silly legend among mortals, but the basic etiquette like \"Don't look into the eyes of the sorrowful Ameonna\" is indeed an unwritten rule among youkai."
               }
-            ]
+            ],
+            "id": "p-86cd304cb984d253"
           },
           {
             "type": "paragraph",
@@ -1116,7 +1172,8 @@
                 "type": "text",
                 "text": "Granny Ame's voice was as soft and gentle as ever, like morning dew in the mist."
               }
-            ]
+            ],
+            "id": "p-ca7db67711d01220"
           },
           {
             "type": "paragraph",
@@ -1145,13 +1202,15 @@
                 "type": "text",
                 "text": "So, while the moon was bright, I quietly left the courtyard."
               }
-            ]
+            ],
+            "id": "p-c05aeaa0678739f3"
           }
         ]
       }
     },
     {
       "id": "5",
+      "volumeKey": "vol-5",
       "label": "Vol. 5",
       "document": {
         "version": 1,
@@ -1163,7 +1222,8 @@
                 "type": "text",
                 "text": "The Tale of Gonbei"
               }
-            ]
+            ],
+            "id": "p-7ec876856d8d2f8b"
           },
           {
             "type": "paragraph",
@@ -1192,7 +1252,8 @@
                 "type": "text",
                 "text": "The box in my hand is his handiwork, its smooth black lacquer surface inlaid with an iridescent mother-of-pearl. This was a craft he learned from the fishermen of Watatsumi Island."
               }
-            ]
+            ],
+            "id": "p-d1f2f803a70e6f5a"
           },
           {
             "type": "paragraph",
@@ -1221,7 +1282,8 @@
                 "type": "text",
                 "text": "Although I privately thought that this was the way mortals were supposed to behave towards youkai, I still felt a twinge of pity for his melancholy."
               }
-            ]
+            ],
+            "id": "p-74064d9211ccce0d"
           },
           {
             "type": "paragraph",
@@ -1250,7 +1312,8 @@
                 "type": "text",
                 "text": "At that time, Granny Ame was no longer young and was keenly aware of the many changes in the world. But the beings of the mountains and forests are always more simple and naïve, compared to mortals."
               }
-            ]
+            ],
+            "id": "p-7bd35686180ef395"
           },
           {
             "type": "paragraph",
@@ -1259,7 +1322,8 @@
                 "type": "text",
                 "text": "Hmm, what happened later? The young Gonbei made the unspeakable mistake of deceiving the beings of the mountains and seas. Although to this day, he still insists that his deceit was to save his hometown."
               }
-            ]
+            ],
+            "id": "p-a36ea08ca3276dbc"
           },
           {
             "type": "paragraph",
@@ -1278,7 +1342,8 @@
                 "type": "text",
                 "text": "After that, Gonbei, who was deeply ashamed, avoided the mountains far away and came to live in the city for a long time."
               }
-            ]
+            ],
+            "id": "p-47687c1f287a00f4"
           },
           {
             "type": "paragraph",
@@ -1297,13 +1362,15 @@
                 "type": "text",
                 "text": "I left his house, before the moonlight was shrouded by dark clouds."
               }
-            ]
+            ],
+            "id": "p-394002ecee8f0573"
           }
         ]
       }
     },
     {
       "id": "6",
+      "volumeKey": "vol-6",
       "label": "Vol. 6",
       "document": {
         "version": 1,
@@ -1315,7 +1382,8 @@
                 "type": "text",
                 "text": "Break Time"
               }
-            ]
+            ],
+            "id": "p-7fd5afb2f918e8fe"
           },
           {
             "type": "paragraph",
@@ -1324,7 +1392,8 @@
                 "type": "text",
                 "text": "They say that in the past, before the fragile and short-lived mortals had crossed over the sea to these lands, Inazuma was once a land that belonged to the tanuki. Lazy and fickle by nature, the tanuki never worried about tomorrow, nor did they carry today's troubles with them through the night. During that period, the land of Inazuma was a cozy paradise for the tanuki and every day was a fun-filled festival."
               }
-            ]
+            ],
+            "id": "p-9bac713b857e461a"
           },
           {
             "type": "paragraph",
@@ -1333,7 +1402,8 @@
                 "type": "text",
                 "text": "At least, that's what the tanuki elders say."
               }
-            ]
+            ],
+            "id": "p-ed9eab360b726be9"
           },
           {
             "type": "paragraph",
@@ -1342,7 +1412,8 @@
                 "type": "text",
                 "text": "Later on, the kitsune arrived by sea, forcing the tanuki into a great war that lasted first for 800 years and then for another 800 years, with both sides suffering heavy casualties, until eventually the only option was to hold peace talks. The tanuki are a stubborn bunch and to this day still don't admit defeat, but the fact remains that they ceded the giant Thunder Sakura to the kitsune."
               }
-            ]
+            ],
+            "id": "p-9b74398846e24b7a"
           },
           {
             "type": "paragraph",
@@ -1351,7 +1422,8 @@
                 "type": "text",
                 "text": "But the kitsune are a crafty and cunning bunch too, and equally skilled in the art of shape-shifting. It is said that in that great war, as a consequence of the constant switcheroo trickery, many poor souls became completely disoriented and could not for the life of them keep track of who was who — eventually forgetting even who they were, what they were, and which side they were supposed to be on."
               }
-            ]
+            ],
+            "id": "p-d69f7da3ba05b459"
           },
           {
             "type": "paragraph",
@@ -1360,7 +1432,8 @@
                 "type": "text",
                 "text": "Thus were the hapless mortals born. The product of bewildered youkai."
               }
-            ]
+            ],
+            "id": "p-bbb07e30e0fb2dbc"
           },
           {
             "type": "paragraph",
@@ -1369,7 +1442,8 @@
                 "type": "text",
                 "text": "I wandered through the winding streets and alleys, while recapping the long-held stories of the tanuki clan. In the end, I didn't find a restaurant that was still open."
               }
-            ]
+            ],
+            "id": "p-9fbf1be5f4ffed2b"
           },
           {
             "type": "paragraph",
@@ -1378,7 +1452,8 @@
                 "type": "text",
                 "text": "I guess this means it's time to go back. With this in mind, I stood up and stretched my back in front of Uncle Kitsune's soba stand."
               }
-            ]
+            ],
+            "id": "p-50a7ba76e619cc1b"
           },
           {
             "type": "paragraph",
@@ -1387,7 +1462,8 @@
                 "type": "text",
                 "text": "Just then, a familiar scent came from behind—"
               }
-            ]
+            ],
+            "id": "p-1263bcdd032938c7"
           }
         ]
       }

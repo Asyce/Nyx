@@ -4,10 +4,11 @@
   "id": "pharmacist-s-notebook-i",
   "name": "Pharmacist's Notebook (I)",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Pharmacist%27s_Notebook_(I)",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -39,7 +40,8 @@
                 "type": "text",
                 "text": "It pains me to watch as the people who stayed behind on the island fall to illness one after another. There is nothing I can do about the Tatarigami's corruption but to continue the self-deception of making sweet Lavender Melon soup for people..."
               }
-            ]
+            ],
+            "id": "p-1b958be1fed2b0d2"
           },
           {
             "type": "paragraph",
@@ -68,7 +70,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-045a02aa03f72ad9"
           }
         ]
       }

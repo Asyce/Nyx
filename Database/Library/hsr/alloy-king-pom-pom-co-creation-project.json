@@ -4,10 +4,11 @@
   "id": "alloy-king-pom-pom-co-creation-project",
   "name": "Alloy King Pom-Pom Co-Creation Project",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Alloy_King_Pom-Pom_Co-Creation_Project",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "We know all you Pom-Pom fans out there already fell for the Alloy King Pom-Pom during the preview livestream. But here at Pearluxe Entertainment, \"good enough\" isn't in our vocabulary. We're all about shattering expectations! That's why we have some big : the Alloy King Pom-Pom Co-Creation Project is officially launching!"
               }
-            ]
+            ],
+            "id": "p-31c346fde8bd8a21"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "With tons of modification ports and open access for everyone, your Alloy King Pom-Pom can be as unique as you are. Take a look at these three official designs and see what our beta testers have to say!"
               }
-            ]
+            ],
+            "id": "p-d4973c6892201982"
           },
           {
             "type": "paragraph",
@@ -49,7 +52,8 @@
                 "type": "text",
                 "text": "Personalize your Alloy King Pom-Pom with a 95% recolorable surface and 256 RGB colors, with even more particle effects available via premium upgrades. This model's palette is pulled straight from the masterworks of Madam Pearl, the CEO of Pearluxe Entertainment. Its striking contrast design makes your Pom-Pom King rises above all others."
               }
-            ]
+            ],
+            "id": "p-176034937e51923e"
           },
           {
             "type": "paragraph",
@@ -58,7 +62,8 @@
                 "type": "text",
                 "text": "Madam Pearl: Take my name off it before the official release."
               }
-            ]
+            ],
+            "id": "p-b2b1157f28333cd5"
           },
           {
             "type": "paragraph",
@@ -79,7 +84,8 @@
                 "type": "text",
                 "text": "Jointly developed by Pearluxe Entertainment and Planet Screwllum, we've stuffed a massive arsenal, from Folding Knives to Planetary Drills, into this little guy. With firepower that rivals a starnought, you'll never have to worry about being outgunned again."
               }
-            ]
+            ],
+            "id": "p-46f089c42b497389"
           },
           {
             "type": "paragraph",
@@ -88,7 +94,8 @@
                 "type": "text",
                 "text": "Screwllum: Technically speaking, it is a work of art. My only hope is that it remains a strictly ornamental piece."
               }
-            ]
+            ],
+            "id": "p-be1d95cdb2244c2b"
           },
           {
             "type": "paragraph",
@@ -109,7 +116,8 @@
                 "type": "text",
                 "text": "No gimmicks, just pure size. We're aiming to break the cosmic record for the largest model ever built. Because its massive weight would crush the ground, we're assembling it in orbit. There's no cap on its growth, so it might end up as big as the Phantasmoon! One day, you'll only need to look up to see the King smiling back at you."
               }
-            ]
+            ],
+            "id": "p-3d267106fffd6a03"
           },
           {
             "type": "paragraph",
@@ -118,7 +126,8 @@
                 "type": "text",
                 "text": "Welt Yang: To be perfectly honest, it's everything I've ever dreamed of in a giant robot."
               }
-            ]
+            ],
+            "id": "p-6d80eaa638097b8f"
           },
           {
             "type": "paragraph",
@@ -132,7 +141,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-31459b075eaa8a7d"
           }
         ]
       }

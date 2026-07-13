@@ -4,10 +4,11 @@
   "id": "fabricated-travelogue",
   "name": "Fabricated Travelogue",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Fabricated_Travelogue",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-f2b2ae1cba739356"
           },
           {
             "type": "paragraph",
@@ -82,7 +84,8 @@
                 "type": "text",
                 "text": "Therefore, you must try your best to live, alright? We will definitely be able to wait until the day when there is a method to treat illnesses such as yours."
               }
-            ]
+            ],
+            "id": "p-8d6ecc02cc74d2e7"
           },
           {
             "type": "paragraph",
@@ -91,7 +94,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -142,7 +146,8 @@
                 "type": "text",
                 "text": "Therefore, you must live on at all costs, alright? One day... we'll be able to dream together."
               }
-            ]
+            ],
+            "id": "p-ca576ab2dab18591"
           },
           {
             "type": "paragraph",
@@ -151,7 +156,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -181,7 +187,8 @@
                 "type": "text",
                 "text": "Therefore, you must not leave me, even if you have to put in every last bit of effort in order to do so. Otherwise, I will be very... upset."
               }
-            ]
+            ],
+            "id": "p-5dceafeabaa95e8e"
           },
           {
             "type": "paragraph",
@@ -190,7 +197,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-3"
           },
           {
             "type": "paragraph",
@@ -234,7 +242,8 @@
                 "type": "text",
                 "text": "At this stage, what is the point of this charade? These lies... Do they still hold any meaning?"
               }
-            ]
+            ],
+            "id": "p-7c3ac34d0795cb77"
           }
         ]
       }

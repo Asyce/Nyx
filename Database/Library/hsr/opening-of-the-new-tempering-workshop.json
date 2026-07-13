@@ -4,17 +4,19 @@
   "id": "opening-of-the-new-tempering-workshop",
   "name": "Opening of the New Tempering Workshop!",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Opening_of_the_New_Tempering_Workshop!",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -44,7 +46,8 @@
                 "type": "text",
                 "text": "That's right! I hail from this legendary workshop!"
               }
-            ]
+            ],
+            "id": "p-2282f0d7b5de17ef"
           },
           {
             "type": "paragraph",
@@ -81,7 +84,8 @@
                 "type": "text",
                 "text": "New Tempering Workshop!"
               }
-            ]
+            ],
+            "id": "p-486ccabd53b51aae"
           },
           {
             "type": "paragraph",
@@ -111,7 +115,8 @@
                 "type": "text",
                 "text": "Sale of various spare parts"
               }
-            ]
+            ],
+            "id": "p-3acaaf91590f35a9"
           },
           {
             "type": "paragraph",
@@ -148,7 +153,8 @@
                 "type": "text",
                 "text": "You will be hard-pressed to find another establishment like ours!"
               }
-            ]
+            ],
+            "id": "p-854514fe143638dc"
           },
           {
             "type": "paragraph",
@@ -178,7 +184,8 @@
                 "type": "text",
                 "text": "Come with your robot friend and enjoy a 50% discount!"
               }
-            ]
+            ],
+            "id": "p-bda58c1fdcb27fd8"
           }
         ]
       }

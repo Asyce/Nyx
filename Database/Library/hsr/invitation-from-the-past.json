@@ -4,10 +4,11 @@
   "id": "invitation-from-the-past",
   "name": "Invitation from the Past",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Invitation_from_the_Past",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -29,7 +30,8 @@
                 "type": "text",
                 "text": "Another Author ♪"
               }
-            ]
+            ],
+            "id": "p-07d3426607724990"
           }
         ]
       }

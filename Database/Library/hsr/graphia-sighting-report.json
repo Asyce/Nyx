@@ -4,10 +4,11 @@
   "id": "graphia-sighting-report",
   "name": "Graphia Sighting Report",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Graphia_Sighting_Report",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-2038bcda7302d3b9"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -61,7 +64,8 @@
                 "type": "text",
                 "text": "Report Details: While eating the buffet breakfast, the guest felt the cookies were extra delicious. The guest suspected that Graphia snuck into the kitchen the night before and used magic to make the food taste better."
               }
-            ]
+            ],
+            "id": "p-de49d9b09c537c5e"
           },
           {
             "type": "paragraph",
@@ -77,7 +81,8 @@
                 "type": "text",
                 "text": "Report Details: The guest answered a call in the room from a person who claimed to be Graphia. The caller invited the guest to a contest of endurance to see who could stay in the hot spring longer."
               }
-            ]
+            ],
+            "id": "p-5b45872740377288"
           },
           {
             "type": "paragraph",
@@ -105,7 +110,8 @@
                 "type": "text",
                 "text": "Report Details: The guest saw a red figure that looked like Graphia walk into room 403 of the hotel."
               }
-            ]
+            ],
+            "id": "p-6057b7d8b2f6625c"
           },
           {
             "type": "paragraph",
@@ -121,7 +127,8 @@
                 "type": "text",
                 "text": "Report Details: The guest submitted a panoramic photo of \"Myriad Wish Grove.\" When the photo was enlarged, it showed a red figure that looked like Graphia on the branches."
               }
-            ]
+            ],
+            "id": "p-6a40fd4698203d63"
           },
           {
             "type": "paragraph",
@@ -137,7 +144,8 @@
                 "type": "text",
                 "text": "Report Details: The guest saw a red figure that looked like Graphia in the woods behind the hotel. The figure kicked over many of the ground lamps."
               }
-            ]
+            ],
+            "id": "p-997fb9c797fd9704"
           },
           {
             "type": "paragraph",
@@ -153,7 +161,8 @@
                 "type": "text",
                 "text": "Report Details: The guest saw a red figure that looked like Graphia in the middle of Dovebrook. It was drifting on the waves together with some wispae."
               }
-            ]
+            ],
+            "id": "p-a64c02968680b9e8"
           },
           {
             "type": "paragraph",
@@ -181,7 +190,8 @@
                 "type": "text",
                 "text": "Report Details: The guest fished a brand new paintbrush out of Dovebrook. The guest thought it was a relic left behind by Graphia."
               }
-            ]
+            ],
+            "id": "p-1d9be6126448da86"
           },
           {
             "type": "paragraph",
@@ -222,7 +232,8 @@
                 "type": "text",
                 "text": "and reached the conclusion that Graphia was currently hiding in a comic book store."
               }
-            ]
+            ],
+            "id": "p-38fca5516d48597c"
           },
           {
             "type": "paragraph",
@@ -231,7 +242,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           }
         ]
       }

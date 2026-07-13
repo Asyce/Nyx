@@ -4,10 +4,11 @@
   "id": "a-letter-of-complaint",
   "name": "A Letter of Complaint",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/A_Letter_of_Complaint",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Dear Mr. Bloodhound,"
               }
-            ]
+            ],
+            "id": "p-77e05bec68cd377f"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Greetings, please understand that I write this letter with a sense of guilt and unease. As a Motivator, it is my responsibility to assist those who seek guidance, but I must admit that... I am currently feeling worried, and even scared."
               }
-            ]
+            ],
+            "id": "p-ecd98d86131c571f"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "It all began two months ago when a guest named Mullich approached me for help. At first, I was slightly surprised when this well-spoken elegant gentleman approached me to ask for a chat, as I wasn't on duty at the time but just happened to be passing by my place of work. However, he then explained that he had seen me at work before, so I didn't doubt his claim. Our conversation was pleasant, and it wasn't until he bid farewell and made arrangements for our next meeting that I realized I had been engaged in \"overtime.\""
               }
-            ]
+            ],
+            "id": "p-ab8ba644ab0a4ff9"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "During our second meeting, we delved into his \"condition.\" However, rather than the medical condition, this gentleman only subtly revealed that he suffered from an incurable disease in reality. As a result, he had been rejected by his family, therefore seeking solace only in the Dreamscape. I couldn't help but feel sympathy for this young, refined gentleman who had to endure such hardships. I offered whatever guidance and solace I could provide. Our conversation extended throughout the entire afternoon, and he eventually disclosed that he was afflicted with severe paranoid schizophrenia, also known as delusional disorder."
               }
-            ]
+            ],
+            "id": "p-45630f8b69701dca"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "From the third meeting onward, our discussions started to veer off course, and the topic of \"friends\" arose. Based on our previous conversations, I learned that this gentleman hailed from a wealthy background and had enjoyed a successful career and life before his illness. However, he claimed to have never had any friends. Intrigued, I attempted to use this as a starting point to uncover useful insights and made discreet inquiries, and he surprised me with his response as he appeared more than willing to share his stories. He began recalling his unfortunate childhood, characterized by a cold and harsh father, a mother utterly without her own agency, and insincere and flattering guests. He described his feelings of loneliness and helplessness, explaining how he developed a new persona to keep himself company."
               }
-            ]
+            ],
+            "id": "p-ea814c539a01c276"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "At this stage, it became evident to me that this gentleman was indeed grappling with severe delusional behavior, although not specifically schizophrenia as previously mentioned. It seemed as though he deliberately blurred the lines between concepts such as \"schizophrenia\" and \"dissociative identity\" to lend credibility and coherence to his narrative. I followed his train of thought, and he appeared amused, elaborating on the strength and bravery of his self-proclaimed \"other self\" (referred to as \"W\" here) and how it served as his sole guide and companion. By the end of that day, he had developed a notable level of trust and intimacy with me, repeatedly emphasizing that W would hold me in the same regard as he did."
               }
-            ]
+            ],
+            "id": "p-1babb2a51d374081"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "We continued to have several more conversations, typically occurring once a week. However, I gradually became aware that this gentleman seemed to be projecting the image of a \"mother\" onto me — Not his own mother who could make no decisions of her own and never loved him, but an \"anima\" who cares for him, loves him, and will stay with him. This development clearly crossed the line between a guest and a Motivator."
               }
-            ]
+            ],
+            "id": "p-699054eb3b3d1c60"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "To address this situation, I took the following measures. Firstly, I subtly hinted and guided him, making him aware of the risks associated with such a dependent relationship. However, he skillfully avoided any discussions on this topic. Secondly, I began actively reducing the frequency of our meetings, yet he would still show up at my work at the agreed-upon time, whether I was present or not. Lastly, I had no choice but to have another brief conversation with him and firmly express my refusal."
               }
-            ]
+            ],
+            "id": "p-b813719bfc098747"
           },
           {
             "type": "paragraph",
@@ -91,7 +100,8 @@
                 "type": "text",
                 "text": "During that encounter, he simply stared at me without expression for a while before silently turning away, but I didn't believe that the matter could be resolved so easily. As expected, a few days later, some of my other clients who had sought help from me informed me that they had been stalked and received a threatening letter stitched together from red cut-out letters."
               }
-            ]
+            ],
+            "id": "p-eebe11f76bffdc13"
           },
           {
             "type": "paragraph",
@@ -107,7 +117,8 @@
                 "type": "text",
                 "text": "—W\""
               }
-            ]
+            ],
+            "id": "p-60755f047e9df119"
           },
           {
             "type": "paragraph",
@@ -126,7 +137,8 @@
                 "type": "text",
                 "text": "Ran"
               }
-            ]
+            ],
+            "id": "p-e55d2b1bc09124fc"
           }
         ]
       }

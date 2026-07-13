@@ -4,10 +4,11 @@
   "id": "linling-s-anthology-of-selected-poetry",
   "name": "Linling's Anthology of Selected Poetry",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Linling%27s_Anthology_of_Selected_Poetry",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -300,7 +301,8 @@
                 "type": "text",
                 "text": "\"That's just how we make it,\" declares Su Er'niang, \"For the few that can't take it, there's plenty who can!\""
               }
-            ]
+            ],
+            "id": "p-8acae62a958b3d5d"
           }
         ]
       }

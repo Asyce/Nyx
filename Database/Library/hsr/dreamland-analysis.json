@@ -4,10 +4,11 @@
   "id": "dreamland-analysis",
   "name": "Dreamland Analysis",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Dreamland_Analysis",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Recently, the psychiatric department has received a lot of patients suffering from poor sleep quality. The patients attribute it to excessive dreaming, most of which were related to stress from work and life. Normally, I'd ask patients to record their dreams, which I would then analyze. Through the Dreamland, patients could learn from their mental experience, something they wouldn't have done otherwise. I've found this method helpful for treating the illness."
               }
-            ]
+            ],
+            "id": "p-43814de5f53621da"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Some would believe that the metaphors of dreams are meaningless, but I don't quite agree. Dreams can stir up patient's feelings and emotions, which, at the very least, indicates a connection with the patient's feelings or experiences."
               }
-            ]
+            ],
+            "id": "p-5da35d709bbece49"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "But what exactly are these dream metaphors? I've read so much about it. But the Old World literature is incomplete, and I don't have a definitive answer. What's interesting is that there is a link between dreams and reality. In the past, people have used dreams to predict the future."
               }
-            ]
+            ],
+            "id": "p-f161366595441c5b"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "I remain skeptical about the saying that dreams can predict."
               }
-            ]
+            ],
+            "id": "p-1a2c7056e1cebc7c"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "A \"deja vu\" is when a person feels like something that is currently happening has already happened before. I believe that this is not an exact dream, but a dreamlike feeling which is just as mysterious as dreams."
               }
-            ]
+            ],
+            "id": "p-b6c81ca14f4155fe"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "But \"Dream Sharing\" is one possibility."
               }
-            ]
+            ],
+            "id": "p-f3d298f92da37e06"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "There was once a very young patient who recorded the ritual she would perform in her dreams. To my knowledge, the ritual exists only in the distant past and the people around her had no means of knowing about it to begin with. No one told her about the ritual, so how did she know about it? This is why I believe that some dreams can be affected and influenced by others. But I have no idea how this \"sharing\" and the concept behind it works."
               }
-            ]
+            ],
+            "id": "p-e5a632073662142e"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "I am also reminded of one more thing. Maybe it has nothing to do with dreams of prophecy: A patient once asked me \"Is there anything real in a dream?\" The question is a hard one to answer. After all, your senses and memories are mixed together and it's hard to tell them apart in a dream."
               }
-            ]
+            ],
+            "id": "p-0f8615f7f580e9ba"
           },
           {
             "type": "paragraph",
@@ -91,7 +100,8 @@
                 "type": "text",
                 "text": "We can only admit that we know too little about the Dreamland."
               }
-            ]
+            ],
+            "id": "p-a3a854b1ad2117ee"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "ballad-of-encanvasing",
   "name": "Ballad of Encanvasing",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Ballad_of_Encanvasing",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-6cdd96b71ca756a0"
           },
           {
             "type": "paragraph",
@@ -103,7 +105,8 @@
                 "type": "text",
                 "text": "No fiend drew near, and peace held for a hundred generations"
               }
-            ]
+            ],
+            "id": "p-50717b6574c09b78"
           },
           {
             "type": "paragraph",
@@ -182,7 +185,8 @@
                 "type": "text",
                 "text": "Food without end, homes without bound"
               }
-            ]
+            ],
+            "id": "p-c95f43f16356b34e"
           },
           {
             "type": "paragraph",
@@ -261,7 +265,8 @@
                 "type": "text",
                 "text": "Here stands the arcadia! Here abides Elation!"
               }
-            ]
+            ],
+            "id": "p-a5ac5fb48700a11c"
           }
         ]
       }

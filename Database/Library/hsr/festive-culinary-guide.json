@@ -4,17 +4,19 @@
   "id": "festive-culinary-guide",
   "name": "Festive Culinary Guide",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Festive_Culinary_Guide",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "part-i",
       "label": "Part I",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -40,7 +42,8 @@
                 "type": "text",
                 "text": "500g of Okhema earthen wheat flour, 100ml of olive oil, 10g of rock salt, 100ml of Phagousa's fine brew, 300g of cloudsheep mince (marinated with vanilla and chopped beforehand), 300g of vegetable filling (chopped leek, celery, and dill)"
               }
-            ]
+            ],
+            "id": "p-bab08cd83d0798be"
           },
           {
             "type": "paragraph",
@@ -98,7 +101,8 @@
                 "type": "text",
                 "text": "7. After taking it out, pour a little honey over the surface."
               }
-            ]
+            ],
+            "id": "p-c2c73b92a6eafe8e"
           },
           {
             "type": "paragraph",
@@ -124,7 +128,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-daa561718f4480ba"
           },
           {
             "type": "paragraph",
@@ -150,7 +155,8 @@
                 "type": "text",
                 "text": "200g of white beans, 200g of black beans, 200g of lima beans, 200g of Georios roots (cut into small pieces), 200g of tear onions (chopped), 200g of celery (cut into small pieces), 50ml of olive oil, 3 bay leaves, salt to taste, black pepper to taste, 2 liters of rockspring water"
               }
-            ]
+            ],
+            "id": "p-ac5cd758a74b17b9"
           },
           {
             "type": "paragraph",
@@ -194,7 +200,8 @@
                 "type": "text",
                 "text": "5. Add salt and black pepper to taste, use a wooden spoon to mash up some of the beans to thicken the soup."
               }
-            ]
+            ],
+            "id": "p-6154cd1665b04aa7"
           },
           {
             "type": "paragraph",
@@ -208,7 +215,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-38d780471a02a8a9"
           },
           {
             "type": "paragraph",
@@ -217,11 +225,13 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a-2"
           },
           {
             "type": "paragraph",
@@ -247,7 +257,8 @@
                 "type": "text",
                 "text": "500g of earthen wheat flour, 500g of cloud wheat flour, 50g of wet oats, 50g of millet, 30g of flax seeds, 30g of sesame seeds, 20g of chia seeds, 15g of yeast, 10g of salt, 30ml of honey, 400ml of Phagousa's warm brew, 30ml of olive oil"
               }
-            ]
+            ],
+            "id": "p-79964f03b0c4f202"
           },
           {
             "type": "paragraph",
@@ -305,7 +316,8 @@
                 "type": "text",
                 "text": "7. Preheat the kiln, use the peel to place the bread in it, and bake for about three quints, till it makes a hollow sound when you tap the bottom."
               }
-            ]
+            ],
+            "id": "p-7111036d80a9fe80"
           },
           {
             "type": "paragraph",
@@ -331,7 +343,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-61082f3fac8c7f4a"
           },
           {
             "type": "paragraph",
@@ -357,7 +370,8 @@
                 "type": "text",
                 "text": "2 fresh fish (cleaned and sliced into pieces beforehand), 500g of Spiraleye tentacles (cut into pieces), 500g of starshells (cleaned), 2 tear onions (chopped), 4 cloves of garlic (chopped), 100ml of olive oil, 4 wolfpeppers (peeled and chopped), 2 bay leaves, 1 sprig of rosemary, salt and black pepper to taste, 500ml of Phagousa's fine brew 500, 1 liter of rockspring water"
               }
-            ]
+            ],
+            "id": "p-0d0102d9fd736711"
           },
           {
             "type": "paragraph",
@@ -408,7 +422,8 @@
                 "type": "text",
                 "text": "6. Add salt and black pepper to taste, then serve."
               }
-            ]
+            ],
+            "id": "p-06d57fc13f1164f0"
           },
           {
             "type": "paragraph",
@@ -434,7 +449,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-c0dc89602a8fa04e"
           },
           {
             "type": "paragraph",
@@ -443,13 +459,15 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "part-ii",
       "label": "Part II",
       "document": {
         "version": 1,
@@ -461,11 +479,13 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -491,7 +511,8 @@
                 "type": "text",
                 "text": "20 large leaves (such as grape leaves or fig leaves) washed and drained, 200g of cooked pearl barley, 100g of lightly roasted pine nuts, 200g of cloudsheep milk cheese (mashed), 50g of fresh mint, 50g of fresh parsley, lemon juice (from 3 lemons), 50ml of olive oil, rock salt and black pepper to taste"
               }
-            ]
+            ],
+            "id": "p-e55b31671492b683"
           },
           {
             "type": "paragraph",
@@ -535,7 +556,8 @@
                 "type": "text",
                 "text": "5. Add a little olive oil to a shallow copper pan, then lightly sauté the wrapped leaf till both sides are slightly charred."
               }
-            ]
+            ],
+            "id": "p-cb0d12be298b3401"
           },
           {
             "type": "paragraph",
@@ -573,7 +595,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-bbc1acb3a42ac818"
           },
           {
             "type": "paragraph",
@@ -582,11 +605,13 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a-2"
           },
           {
             "type": "paragraph",
@@ -612,7 +637,8 @@
                 "type": "text",
                 "text": "500g of red wheat flour, 15g of yeast, 10g of salt, 300ml of warm water, 50ml of olive oil, 100ml of Nikador's ambrosia, 100g of Nikador Fruits, 100g of walnuts (slightly chopped), 2 sprigs of rosemary (remove leaves and chop those up)"
               }
-            ]
+            ],
+            "id": "p-ffae4bfd74918b22"
           },
           {
             "type": "paragraph",
@@ -677,7 +703,8 @@
                 "type": "text",
                 "text": "8. Preheat the kiln, place the dough in it and let bake for about 75 minutes till the surface is a deep red. Ideally, it should make a hollow sound when you tap its bottom."
               }
-            ]
+            ],
+            "id": "p-626cf1d382ad712f"
           },
           {
             "type": "paragraph",
@@ -703,7 +730,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-01a6ad4bf4abb63f"
           },
           {
             "type": "paragraph",
@@ -729,7 +757,8 @@
                 "type": "text",
                 "text": "500ml of cloudsheep milk, 100g of rice, 50ml of honey nectar blessed by Mnestia, 1 stick of cinnamon, lemon peels (1 lemon's worth), a little rock salt, 50g of almonds (chopped)"
               }
-            ]
+            ],
+            "id": "p-99ea5da9d17245c4"
           },
           {
             "type": "paragraph",
@@ -787,7 +816,8 @@
                 "type": "text",
                 "text": "7. Before eating, sprinkle a few Nikador Fruits as garnish."
               }
-            ]
+            ],
+            "id": "p-27b62a876f97e7a9"
           },
           {
             "type": "paragraph",
@@ -813,7 +843,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-2569d4cdb2d1c0f1"
           },
           {
             "type": "paragraph",
@@ -822,7 +853,8 @@
                 "type": "text",
                 "text": "Month of Fortune: Spirit Day's Lucky Cookies"
               }
-            ]
+            ],
+            "id": "p-0fd3e3456a7cb108"
           },
           {
             "type": "paragraph",
@@ -838,7 +870,8 @@
                 "type": "text",
                 "text": "Mix 300g of wheat flour and 100g of butter (softened at room temperature), 100g of sugar, 1 Dollo egg, 5ml of vanilla extract, a little rock salt, 100g of various dried fruits (such as dried figs, apricots, raisins etc., must be chopped), 100g of various nuts (such as walnuts, chestnuts, etc., must be chopped)"
               }
-            ]
+            ],
+            "id": "p-96674393c5a9aed9"
           },
           {
             "type": "paragraph",
@@ -861,7 +894,8 @@
                 "type": "text",
                 "text": "1 Zagreus' Silver Coin (must be cleaned beforehand)"
               }
-            ]
+            ],
+            "id": "p-3bb2e82de379ea91"
           },
           {
             "type": "paragraph",
@@ -926,7 +960,8 @@
                 "type": "text",
                 "text": "8. Place the cookies on a baking tray pre-brushed with olive oil, then place into a pre-heated kiln and bake for 30 minutes till the edges are crispy yellow."
               }
-            ]
+            ],
+            "id": "p-bae3a639be58780e"
           },
           {
             "type": "paragraph",
@@ -952,7 +987,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-75b35af141ab1fef"
           }
         ]
       }

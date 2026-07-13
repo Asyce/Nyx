@@ -4,10 +4,11 @@
   "id": "ragged-notebook-time-and-wind",
   "name": "Ragged Notebook",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Ragged_Notebook_(Time_and_Wind)",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "The words on this sundial seem to follow on from the one by the Thousand Winds Temple. Taken together, the four lines then deliver the complete message."
               }
-            ]
+            ],
+            "id": "p-7b0e635be71cf865"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "This place and the Thousand Winds Temple must have something to do with a god of Time."
               }
-            ]
+            ],
+            "id": "p-47ee650f88e0eaa1"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "How ironic that the ravages of \"Time\" have devoured all trace of the god who supposedly presided over it..."
               }
-            ]
+            ],
+            "id": "p-53d6be5853f71996"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "Also — the literature says that some ancient thinkers believed the Anemo Archon to have some sort of connection with this god..."
               }
-            ]
+            ],
+            "id": "p-558ae0cf1ba6115c"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "If that's true, there must be some evidence of that here somewhere... Generally that would be in the form of evidence..."
               }
-            ]
+            ],
+            "id": "p-d7e8e4a41ac83d09"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "Also, it definitely feels particularly strange around here at a certain time of the day. Starts around 2 AM, and is over by 5 AM at the latest..."
               }
-            ]
+            ],
+            "id": "p-47055d9855c28a8e"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "There is this sundial here, after all, and in the early hours of the day . It's quite striking, which is why it stands out in my memory."
               }
-            ]
+            ],
+            "id": "p-048a856f0d1287c0"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "But I'm no holder. So while I can tell that's something's up and theorize about what the cause might be, there's no way for me to investigate it properly."
               }
-            ]
+            ],
+            "id": "p-ca50b0da42668f39"
           },
           {
             "type": "paragraph",
@@ -91,7 +100,8 @@
                 "type": "text",
                 "text": "Honestly, these days... trying to be an academic when you don't have a , it's really restricting..."
               }
-            ]
+            ],
+            "id": "p-7628b19bce7ac2dc"
           }
         ]
       }

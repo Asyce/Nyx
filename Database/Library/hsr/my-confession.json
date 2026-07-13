@@ -4,10 +4,11 @@
   "id": "my-confession",
   "name": "My Confession",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/My_Confession",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-5d63e9f58af33b11"
           },
           {
             "type": "paragraph",
@@ -58,7 +60,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-33cb1b827d92cb0f"
           },
           {
             "type": "paragraph",
@@ -92,7 +95,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-3fa77dbb7b5d9429"
           },
           {
             "type": "paragraph",
@@ -111,7 +115,8 @@
                 "type": "text",
                 "text": "I've forgotten the beginning and the end, but the point is, I confess. Nothing I do is remotely funny. It's utterly pathetic!"
               }
-            ]
+            ],
+            "id": "p-89c75d23712c0e29"
           },
           {
             "type": "paragraph",
@@ -120,7 +125,8 @@
                 "type": "text",
                 "text": "I just don't get it. Why is destiny so cruel to me, specifically? Everything I hope for turns into its exact opposite..."
               }
-            ]
+            ],
+            "id": "p-ddc57b40862e7d57"
           },
           {
             "type": "paragraph",
@@ -129,7 +135,8 @@
                 "type": "text",
                 "text": "I once posed as a councilor and demanded that the booze-loving Duchy of Pemberton ban the production of alcohol. They ended up creating the galaxy-famous Pemberton Cola with sugar and soda... and it sold far better than their booze ever did!"
               }
-            ]
+            ],
+            "id": "p-c60795711f0a16e2"
           },
           {
             "type": "paragraph",
@@ -138,7 +145,8 @@
                 "type": "text",
                 "text": "I once changed the formula for a glue company, making them produce the least sticky adhesive in the world... They used it to create \"sticky notes\" that can be applied and removed over and over... and I have to admit, they're incredibly useful!"
               }
-            ]
+            ],
+            "id": "p-56bd4957dad9752e"
           },
           {
             "type": "paragraph",
@@ -147,7 +155,8 @@
                 "type": "text",
                 "text": "So now I'm some kind of saint, a great promoter of scientific advancement."
               }
-            ]
+            ],
+            "id": "p-323efed06f5b1659"
           },
           {
             "type": "paragraph",
@@ -171,7 +180,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-3ce72ddbef04cd43"
           }
         ]
       }

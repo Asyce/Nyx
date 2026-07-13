@@ -4,10 +4,11 @@
   "id": "black-market-dealer-investigative-notes",
   "name": "Black Market Dealer Investigative Notes",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Black_Market_Dealer_Investigative_Notes",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Black Market Dealer Investigative Notes (I)"
               }
-            ]
+            ],
+            "id": "p-a1739eba86f1f635"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "It all started a long time ago, back when I first met him."
               }
-            ]
+            ],
+            "id": "p-4cdc421e80394fc7"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "It must have been the last Denizens of Abundance War when I first started seeing the black market dealer in refugee camps. At the time, he was dressed in what could only be termed as suspicious — a huge hood over his purple face mask, and a massive backpack strapped to his back completely out of kilter with the rest of his body. He hid among the refugees, quietly peddling some wares of unknown origin — like weapons from interstellar pirates."
               }
-            ]
+            ],
+            "id": "p-bcaf4ff7d32792b3"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "I struck up a conversation with him, and this man hardly kept his secrets to himself — not only did he flog some weapons to me, but he even promised to offer me some \"mods.\" In other words, weapons mods. I was vigilant at the time, as my professional instincts were screaming at me that this person wasn't a good bloke. But I couldn't stop myself from asking more questions."
               }
-            ]
+            ],
+            "id": "p-fbb8ea4c52606759"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "He grumbled to me about being considered a \"profiteer\" by the refugees around him. \"To support my family, I came here without even taking out any life insurance. Is my life really that worthless? I came here to help everyone.\" He pointed to eggshells on the ground, telling me how some loose refugees would even pelt him with eggs and how his \"kindness\" had not gotten the respect it deserved."
               }
-            ]
+            ],
+            "id": "p-205829bdcd48a375"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "I asked about the prices of wares (mainly those weapons of his), and indeed they were surprisingly expensive. Probably not many refugees could afford that. When asked about this, he retorted \"An optimist invests in the future. It's no use worrying about money, because if you don't use it now, you'll sure be spending it in the future...\" This guy keeps having this grim sneer, and it's starting to creep me out."
               }
-            ]
+            ],
+            "id": "p-16c5e1a013753247"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "Leaving the refugee camp, I reported him to the Realm-Keeping Commission. Unregulated market operations are always a violation of laws and ethics. Based on the report from the Realm-Keeping Commission, the black market dealer should've been caught."
               }
-            ]
+            ],
+            "id": "p-dd0cfb062a5ab299"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "And yet the past few days, I've been seeing him again over at Aurum Alley."
               }
-            ]
+            ],
+            "id": "p-3e237271359cd2ce"
           },
           {
             "type": "paragraph",
@@ -91,7 +100,8 @@
                 "type": "text",
                 "text": "Black Market Dealer Investigative Notes (II)"
               }
-            ]
+            ],
+            "id": "p-82361a8bd4e79b07"
           },
           {
             "type": "paragraph",
@@ -100,7 +110,8 @@
                 "type": "text",
                 "text": "Ever since I started working for the press, I've grown particularly sensitive to gray market operations, and I couldn't help myself from getting to the truth."
               }
-            ]
+            ],
+            "id": "p-1f663f7ab1d139dd"
           },
           {
             "type": "paragraph",
@@ -109,7 +120,8 @@
                 "type": "text",
                 "text": "This guy was dressed completely differently from last time, but his movements were a dead giveaway. Seeing me draw closer, he also recognized me from before and started to banter again. At first, I was worried he was going to take revenge on me... Then I realized I was worrying too much — this guy had never taken a stint in prison seriously."
               }
-            ]
+            ],
+            "id": "p-ca15f1a69f4d3639"
           },
           {
             "type": "paragraph",
@@ -118,7 +130,8 @@
                 "type": "text",
                 "text": "He said the Xianzhou had been a mess recently, and he'd sniffed out a chance to sell medicinal materials — none other than the vines grown from mara-struck victims... He was going to peddle it to Outworlders seeking everlasting life! I was shocked... Could that really be used as medicine? Would it work? This wicked black market dealer and his demented blasphemy... If I wrote an exposé, would he be condemned? No, I'd better ask instead whether or not he'd make it off the Xianzhou alive..."
               }
-            ]
+            ],
+            "id": "p-6ff76f3b38394164"
           },
           {
             "type": "paragraph",
@@ -127,7 +140,8 @@
                 "type": "text",
                 "text": "Thinking about all this filled my heart with the power of justice. I had to track him down to the very end!"
               }
-            ]
+            ],
+            "id": "p-54c160e51cae0d34"
           },
           {
             "type": "paragraph",
@@ -136,7 +150,8 @@
                 "type": "text",
                 "text": "Black Market Dealer Investigative Notes (III)"
               }
-            ]
+            ],
+            "id": "p-56d469ee54cc0fc7"
           },
           {
             "type": "paragraph",
@@ -145,7 +160,8 @@
                 "type": "text",
                 "text": "This schmuck just went and got some tree branches from the Ever-Hunt Plains! It's not mara-struck at all!"
               }
-            ]
+            ],
+            "id": "p-833be68a1002b04b"
           }
         ]
       }

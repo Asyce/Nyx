@@ -4,10 +4,11 @@
   "id": "the-paperfold-university-student-handbook-comments-on-the-43rd-revised-edition",
   "name": "The Paperfold University Student Handbook — Comments on the 43rd Revised Edition",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/The_Paperfold_University_Student_Handbook_%E2%80%94_Comments_on_the_43rd_Revised_Edition",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -52,7 +54,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-4a00d8bc4663058d"
           },
           {
             "type": "paragraph",
@@ -85,7 +88,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-179abb5a2925af82"
           },
           {
             "type": "paragraph",
@@ -118,7 +122,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-e7070f633fdf117d"
           },
           {
             "type": "paragraph",
@@ -151,7 +156,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-5760e1177139b497"
           },
           {
             "type": "paragraph",
@@ -160,7 +166,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -193,7 +200,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-e2653cd807b147ee"
           },
           {
             "type": "paragraph",
@@ -214,7 +222,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-6dba5e128a76d978"
           },
           {
             "type": "paragraph",
@@ -223,7 +232,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-3"
           },
           {
             "type": "paragraph",
@@ -232,7 +242,8 @@
                 "type": "strong",
                 "children": []
               }
-            ]
+            ],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -265,7 +276,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-06817eb9e9903c6f"
           },
           {
             "type": "paragraph",
@@ -298,7 +310,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-db0204bc4502463f"
           },
           {
             "type": "paragraph",
@@ -307,7 +320,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-4"
           },
           {
             "type": "paragraph",
@@ -333,7 +347,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-73d219d209031f29"
           },
           {
             "type": "paragraph",
@@ -342,7 +357,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

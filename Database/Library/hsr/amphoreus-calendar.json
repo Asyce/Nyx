@@ -4,10 +4,11 @@
   "id": "amphoreus-calendar",
   "name": "Amphoreus' Calendar",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Amphoreus%27_Calendar",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "month-edition",
       "label": "Month Edition",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-d349260bc4e7967f"
           },
           {
             "type": "paragraph",
@@ -62,7 +64,8 @@
                 "type": "text",
                 "text": "As the first month of ridding the old for the new, Janus closes the old door representing the past, and opens the new door representing the future. They are both the door and the lock that guards it, cleaving the past from the future like a sharp ax."
               }
-            ]
+            ],
+            "id": "p-36e6079e2b6e83a8"
           },
           {
             "type": "paragraph",
@@ -71,7 +74,8 @@
                 "type": "text",
                 "text": "During this month, people will discard objects that bear bonds (such as keepsakes from past lovers or deceased family members), declare that they are severing the past, and step forth into the future — this act is completely voluntary."
               }
-            ]
+            ],
+            "id": "p-41aff2eae845dbc8"
           },
           {
             "type": "paragraph",
@@ -109,7 +113,8 @@
                 "type": "text",
                 "text": "The most disciplined of all months, Kephale uses its measurements to dictate the months. During this month, people's daily routines will become more consistent, their moods even, and they are more willing to pass judgment and sign contracts as a result."
               }
-            ]
+            ],
+            "id": "p-d59107d24ae55577"
           },
           {
             "type": "paragraph",
@@ -118,7 +123,8 @@
                 "type": "text",
                 "text": "It is said that when there was day and night in the past, the Month of Balance was the only month when the days were as long as nights, because Talanton managed to mediate a truce between Oronyx and Aquila."
               }
-            ]
+            ],
+            "id": "p-93cce7f8f8304b21"
           },
           {
             "type": "paragraph",
@@ -166,7 +172,8 @@
                 "type": "text",
                 "text": "It is said that in the past, this month's nights were longer than its days, for Oronyx triumphed over Aquila for undisputed authority over the sky."
               }
-            ]
+            ],
+            "id": "p-26ebbd7d68a7b803"
           },
           {
             "type": "paragraph",
@@ -204,7 +211,8 @@
                 "type": "text",
                 "text": "The month of spring cultivation, also the busiest month. During this month, the earth is restored into a state most suited for farming. People till the soil, sow the seeds, and offer labor as tribute to the land. Dromases will also be doubly vigorous."
               }
-            ]
+            ],
+            "id": "p-a3affc9ad4ac0020"
           },
           {
             "type": "paragraph",
@@ -242,7 +250,8 @@
                 "type": "text",
                 "text": "The month when spring cultivation ends. During this month, spring waters flow, and fishermen flourish. The heaviest workload for the year ended last month, and everyone is reveling in the atmosphere of festivity. This is the best month for brewing and holding celebrations, when people wake up, massage their temples in a daze, then shake their heads and go back to sleep."
               }
-            ]
+            ],
+            "id": "p-fbfc45b13e1db853"
           },
           {
             "type": "paragraph",
@@ -290,7 +299,8 @@
                 "type": "text",
                 "text": "It is said that in the past, this month's days were longer than its nights, for Aquila triumphed over Oronyx for undisputed authority over the sky."
               }
-            ]
+            ],
+            "id": "p-cf99191929e833e5"
           },
           {
             "type": "paragraph",
@@ -328,7 +338,8 @@
                 "type": "text",
                 "text": "The month of tranquil peace. There are no major events to attend, nor significant tasks to complete. During this month, people can work on their hobbies, pursue their dreams, and do whatever they wish to do. Just as Kephale created the world, they also allowed its inhabitants to play in their courtyard."
               }
-            ]
+            ],
+            "id": "p-a425e04f39b789f5"
           },
           {
             "type": "paragraph",
@@ -366,7 +377,8 @@
                 "type": "text",
                 "text": "The month of the fall harvest. Crops absorbed the light during the Month of Everday, and have grown into their ripest. Similar to the Month of Cultivation, people are busier than usual this month."
               }
-            ]
+            ],
+            "id": "p-f9753225dab9f78c"
           },
           {
             "type": "paragraph",
@@ -404,7 +416,8 @@
                 "type": "text",
                 "text": "The month when the fall harvest is completed. During this month, people will reminisce on their experiences over the year. Mnestia collects everything and weaves them into golden threads of memory. This is a month of family gatherings to enjoy the good times. Leisurely individuals will be weaving at home, and weaving-related festivals will be held this month."
               }
-            ]
+            ],
+            "id": "p-081938f9d65be782"
           },
           {
             "type": "paragraph",
@@ -442,7 +455,8 @@
                 "type": "text",
                 "text": "The first month after production activities are completed. People are liberated from the most important tasks of the year, resulting in surplus labor in society. In the past, the cities typically waged war at this time. This month is also the period when criminal executions and burning offerings in prayer to the gods occur."
               }
-            ]
+            ],
+            "id": "p-2b24b1d701ec28ec"
           },
           {
             "type": "paragraph",
@@ -480,7 +494,8 @@
                 "type": "text",
                 "text": "The month when the cities would gradually fall silent. Wars usually approach their end during this month. People would drag bodies back from the battlefields, bury the dead, and comfort the living. Priests are the busiest this month, for they need to pray for the dead. The mood of this month is one of grave somberness. People would gradually lessen their activities during this time, as if in slumber as well."
               }
-            ]
+            ],
+            "id": "p-32fe3d8c5488b153"
           },
           {
             "type": "paragraph",
@@ -518,7 +533,8 @@
                 "type": "text",
                 "text": "The last month of the year. The previously silent masses would start up their liveliness once more, and good and bad things would start to happen more frequently. Gamblers believe that this month brings them good fortune, and opportunistic merchants look forward to sudden spikes in wealth. Thieves would typically have exhausted their savings, and rub their hands together for the next job. The Month of Fortune is the most tumultuous month for law enforcement."
               }
-            ]
+            ],
+            "id": "p-e439cd367cfa2db2"
           },
           {
             "type": "paragraph",
@@ -527,13 +543,15 @@
                 "type": "text",
                 "text": "Due to Zagreus' unpredictable nature, the number of days in this month can never be confirmed. Sometimes, when you should turn the page at the end of the calendar, a leap day appears at the end of it like a ghost. People call this Month of Fortune with this additional day the \"Scarlet Month,\" and the \"Golden Month\" without. Gamblers and thieves treat this day as their lucky day, becoming fervent with their antics, which is unfortunately followed by plenty of assassinations and conspiracies."
               }
-            ]
+            ],
+            "id": "p-604adeb0daef5cb0"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "life-edition",
       "label": "Life Edition",
       "document": {
         "version": 1,
@@ -550,7 +568,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-196817b0f0fa3739"
           },
           {
             "type": "paragraph",
@@ -559,7 +578,8 @@
                 "type": "text",
                 "text": "Excluding the Month of Fortune, the number of days in each Amphorean month is highly standardized: Every month has four weeks, and every week has seven days, with Sunday being a rest day. Such a custom has been passed down since before the sun faded, and there is a legend of its origin..."
               }
-            ]
+            ],
+            "id": "p-d55364b323b5da86"
           },
           {
             "type": "paragraph",
@@ -568,7 +588,8 @@
                 "type": "text",
                 "text": "During the Era Creatura, Aquila and Oronyx exerted authority over day and night respectively. However, the night skies of those days were only scattered with clustered stars, hardly a match for the massive celestial body such as the sun. Driven by a competitive streak, Oronyx utilized gems to absorb Aquila's radiance, intertwining it with the satin of the night and shaping a satellite planet that would illuminate the night sky — what everyone knows now as the moon. This undertaking only cost a day's effort."
               }
-            ]
+            ],
+            "id": "p-d105e23dbdfac3cb"
           },
           {
             "type": "paragraph",
@@ -577,7 +598,8 @@
                 "type": "text",
                 "text": "Oronyx scrutinized this article, proud of their own creation of perfection. But one meager moon could not rival the brightness the sun offered. And so Oronyx continued to toil away for six sleepless days and nights. For each night that approached, an extra moon would light up the sky. On the sixth day, six shadows accompanied the footsteps of all creatures."
               }
-            ]
+            ],
+            "id": "p-ef761b19db8e8eaf"
           },
           {
             "type": "paragraph",
@@ -586,7 +608,8 @@
                 "type": "text",
                 "text": "The presence of the six moons sowed chaos with the tides, incurring Phagousa's scorn. And thus, on the seventh day, with sweet ambrosia incomprehensible to mortals, Phagousa drowned Oronyx in a drunken stupor, causing the latter to sleep the day away. When the night veil fell, the number of moons finally ceased to grow. Phagousa's actions were but a prank on Oronyx, but inadvertently prevented yet another possible war between Aquila and Oronyx."
               }
-            ]
+            ],
+            "id": "p-b47f95e59ea2255c"
           },
           {
             "type": "paragraph",
@@ -595,7 +618,8 @@
                 "type": "text",
                 "text": "However, the existence of six moons did not adhere to balance. Talanton, who had come after catching wind of this, stirred the scale and eliminated two-thirds of the moons, leaving only the red and gold moon, representing the Scarlet Month and Golden Month respectively. When the sun rose on the eighth day, an awoken Oronyx was forbidden from creating any more moons. And that was how the week's cycle was determined. When amending the celestial laws, Kephale designated the seventh day that Oronyx slept through as a rest day."
               }
-            ]
+            ],
+            "id": "p-2ae050decfe8cf08"
           },
           {
             "type": "paragraph",
@@ -604,7 +628,8 @@
                 "type": "text",
                 "text": "When finalizing the calendar, Kephale divided one day into five major periods, to teach its people to punctually rise, work, rest, and slumber."
               }
-            ]
+            ],
+            "id": "p-558c40c426ccbaa6"
           },
           {
             "type": "paragraph",
@@ -613,7 +638,8 @@
                 "type": "text",
                 "text": "Ever since the scorching sun departed from the sky, the task of illuminating Okhema fell to the Dawn Device — shifts in its light were not obvious to the people in the beginning, and they could only maintain their routines by adhering to the five major periods from before."
               }
-            ]
+            ],
+            "id": "p-52f3865b504313e3"
           },
           {
             "type": "paragraph",
@@ -637,7 +663,8 @@
                 "type": "text",
                 "text": "The time period when various activities gradually begin. People start to rouse from their slumber, summoning their consciousness back to their bodies from distant realms, as if traversing a formless doorway. They fetch water, wash up, and head to the morning market. Those who need something will commit to prayer."
               }
-            ]
+            ],
+            "id": "p-1f7d5653d5303208"
           },
           {
             "type": "paragraph",
@@ -661,7 +688,8 @@
                 "type": "text",
                 "text": "The period of the day when one is most awake, thoughts shining into their minds like light piercing glass. People engage in conversation, share teachings and insights and anecdotes, akin to golden threads interwoven with one another. Scholars perform their tasks at twice the speed during this period."
               }
-            ]
+            ],
+            "id": "p-2f095ca50360638f"
           },
           {
             "type": "paragraph",
@@ -685,7 +713,8 @@
                 "type": "text",
                 "text": "The period when enlightenment of the mind starts to wither. People put down their books, exit outdoors for exercise and labor, take care of plants and animals, their perspiration dripping down, seeping into the soil. Scholars and idlers file into the bath in an attempt to invigorate the mind's eye with Phagousa's waters, but the session inevitably ends up in drunken revelry."
               }
-            ]
+            ],
+            "id": "p-2605dceadf61a254"
           },
           {
             "type": "paragraph",
@@ -709,7 +738,8 @@
                 "type": "text",
                 "text": "The period when production activities start to come to rest. People end their day's work at this time, bidding their friends and companions farewell. The army or travelers will usually choose this period to embark on an expedition to minimize disruptions to residential lives."
               }
-            ]
+            ],
+            "id": "p-1bd1df621fceeb70"
           },
           {
             "type": "paragraph",
@@ -733,7 +763,8 @@
                 "type": "text",
                 "text": "People draw their curtains, a period of pillowed rest. A thief star belonging to Zagreus will sail across the sky when this moment ends, punctuating its descent with a long trail, signaling to people that a day has passed. This is also the period when thieves are most active."
               }
-            ]
+            ],
+            "id": "p-a97f452c8791cb68"
           },
           {
             "type": "paragraph",
@@ -761,7 +792,8 @@
                 "type": "text",
                 "text": "In extremely rare circumstances, the Thief Star will emanate crimson, heralding the advent of a red moon — this is interpreted as an ominous sign, when plans will go awry, and crushing defeats suffered in battles."
               }
-            ]
+            ],
+            "id": "p-696c4b5e7039a154"
           },
           {
             "type": "paragraph",
@@ -770,7 +802,8 @@
                 "type": "text",
                 "text": "People have further divided the five major periods into five sections called \"quints.\" When sections of time need to be explicitly indicated, people will often express said time with a combination of the period and instant, such as \"Curtain-Fall Hour's third quint,\" \"Entry Hour's first quint,\" etc."
               }
-            ]
+            ],
+            "id": "p-d8b95f1a830952d8"
           },
           {
             "type": "paragraph",
@@ -779,7 +812,8 @@
                 "type": "text",
                 "text": "Units of time smaller than quints are rarely used, since people do not need such precise moments of measure. The finer the sections time is cut into, the busier life becomes."
               }
-            ]
+            ],
+            "id": "p-f095b84cf12a63c6"
           }
         ]
       }

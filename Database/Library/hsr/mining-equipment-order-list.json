@@ -4,10 +4,11 @@
   "id": "mining-equipment-order-list",
   "name": "Mining Equipment Order List",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Mining_Equipment_Order_List",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-9d5b1e65cd00d161"
           },
           {
             "type": "paragraph",
@@ -113,7 +115,8 @@
                 "type": "text",
                 "text": "Sum Owed: 25,000 shield per day"
               }
-            ]
+            ],
+            "id": "p-764a1e8f032e5dd2"
           },
           {
             "type": "paragraph",
@@ -199,7 +202,8 @@
                 "type": "text",
                 "text": "Sum Owed: 7250 shield per day"
               }
-            ]
+            ],
+            "id": "p-f3b929427e2d0440"
           },
           {
             "type": "paragraph",
@@ -288,7 +292,8 @@
                 "type": "text",
                 "text": "Sum Owed: 12,300 shield per day"
               }
-            ]
+            ],
+            "id": "p-472969549209d220"
           },
           {
             "type": "paragraph",
@@ -377,7 +382,8 @@
                 "type": "text",
                 "text": "Sum Owed: 30,000 shield per day"
               }
-            ]
+            ],
+            "id": "p-7ec308762647c2a0"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "codex-of-apocrypha",
   "name": "Codex of Apocrypha",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Codex_of_Apocrypha",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "beasts-yellow-boulder",
       "label": "Beasts: Yellow Boulder",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-7b2951093d7cc13e"
           },
           {
             "type": "paragraph",
@@ -43,7 +45,8 @@
                 "type": "text",
                 "text": "Also known as Stone Calf, Sleepstone, and Eight-Hundred-Miles."
               }
-            ]
+            ],
+            "id": "p-c369c245dc341ae7"
           },
           {
             "type": "paragraph",
@@ -62,7 +65,8 @@
                 "type": "text",
                 "text": "Has ossicones, with a short tail, lustrous fur, and stony texture."
               }
-            ]
+            ],
+            "id": "p-db4982fc9465e9a4"
           },
           {
             "type": "paragraph",
@@ -81,7 +85,8 @@
                 "type": "text",
                 "text": "The animal has a mild temperament and hibernates in the mountains during cold seasons. It consumes large amounts of wild grass and fruits before winter, and its meat is the most tender and plump at that season. It then turns into rock and hibernates in mountainous valleys, during which its meat has absolutely no taste. It is therefore a precious food ingredient dependent on the seasons."
               }
-            ]
+            ],
+            "id": "p-527bd8adaccbfd81"
           },
           {
             "type": "paragraph",
@@ -100,7 +105,8 @@
                 "type": "text",
                 "text": "There was once a Xianzhou man who raised cattle in a faraway delve. Calm and peaceful, he spent years away from home. His brother went looking for him, and they had an emotional reunion. He told his brother that a sumptuous banquet was prepared, but there was no food — only a valley strewn with stones. The brother was surprised, and the herdsman yelled, \"Rise, cattle!\" And all the yellow boulders within miles transformed into herds of plump cattle."
               }
-            ]
+            ],
+            "id": "p-a3fbe0eac73f795a"
           },
           {
             "type": "paragraph",
@@ -133,7 +139,8 @@
                 "type": "text",
                 "text": "Horn: Bitter, warming, and non-toxic."
               }
-            ]
+            ],
+            "id": "p-27aa6b4775602259"
           },
           {
             "type": "paragraph",
@@ -166,7 +173,8 @@
                 "type": "text",
                 "text": "Horn: Stops bleeding and treats diarrhea."
               }
-            ]
+            ],
+            "id": "p-f22f2ff5c216d8ca"
           },
           {
             "type": "paragraph",
@@ -185,7 +193,8 @@
                 "type": "text",
                 "text": "Three Rocky Delicacies: Also known as Stone Soup. Remove skin and sinew from a few pieces of yellow boulder neck meat and ribs, place into a copper pot, then immerse with a few dozen liters of morning dew from Scalegorge Waterscape. Wash and slice black forest mushroom and rocky bamboo shoots, add to the pot, then bring to a boil on medium heat. This dish dispels cold and dampness, and warms the digestive organs."
               }
-            ]
+            ],
+            "id": "p-5429103a75c030b2"
           },
           {
             "type": "paragraph",
@@ -214,13 +223,15 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-c96afacfb155e465"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "beasts-tuskpir",
       "label": "Beasts: Tuskpir",
       "document": {
         "version": 1,
@@ -237,7 +248,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-e87573dfd8e470b8"
           },
           {
             "type": "paragraph",
@@ -256,7 +268,8 @@
                 "type": "text",
                 "text": "Also known as Dreaming Noble, Eternal Peace, and Sacred Branch."
               }
-            ]
+            ],
+            "id": "p-75921cc6283b66a6"
           },
           {
             "type": "paragraph",
@@ -275,7 +288,8 @@
                 "type": "text",
                 "text": "Elongated proboscis, no horns, speckled fur like the sky dotted with stars."
               }
-            ]
+            ],
+            "id": "p-08d1a878fdfaf071"
           },
           {
             "type": "paragraph",
@@ -294,7 +308,8 @@
                 "type": "text",
                 "text": "A migratory beast, it lives in hot springs, valleys, and other places with geothermal heat. It is a timid animal by nature. Its proboscis is used to filter feed on aquatic insects and small fish like a whale would."
               }
-            ]
+            ],
+            "id": "p-ecc2906a09050799"
           },
           {
             "type": "paragraph",
@@ -313,7 +328,8 @@
                 "type": "text",
                 "text": "Spring waters where the tuskpirs live often have a soothing and meditative effect. The water breaths and creates a spiritual aura. In the olden days, the Luofu people used to grind down the animal's horns into medicine, calling it Spirit-Soothe Powder. It is often used to treat insomnia due to anxiety or depression."
               }
-            ]
+            ],
+            "id": "p-4b9ac28267ba145b"
           },
           {
             "type": "paragraph",
@@ -339,7 +355,8 @@
                 "type": "text",
                 "text": "Horn: Bitter, cooling, and non-toxic."
               }
-            ]
+            ],
+            "id": "p-145a8887c53b7104"
           },
           {
             "type": "paragraph",
@@ -365,7 +382,8 @@
                 "type": "text",
                 "text": "Horn: Relieves pain by activating qi. Relieves asthma by soothing qi."
               }
-            ]
+            ],
+            "id": "p-888d993dcfd4d78b"
           },
           {
             "type": "paragraph",
@@ -384,7 +402,8 @@
                 "type": "text",
                 "text": "Sacred Branch: Taskpir horn is actually a clump of feces. Poachers nowadays deliberately classify it into grades, making ridiculous assessments for different feces patterns and types just to pump up prices. In my opinion, the sacred branch could be used as ornaments or burnt as incense. Once burned, they calm the mind. Do not ingest orally."
               }
-            ]
+            ],
+            "id": "p-155d2def7e8471d3"
           },
           {
             "type": "paragraph",
@@ -393,7 +412,8 @@
                 "type": "text",
                 "text": "Spirit-Soothe Powder: Made from pulverized tuskpir horn, plus other ingredients. Rich in minerals but toxic if overdosed."
               }
-            ]
+            ],
+            "id": "p-f387a7bbb469ad32"
           },
           {
             "type": "paragraph",
@@ -422,13 +442,15 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-0d1eeeeac9f82ef4"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "beasts-gentle-halcyon",
       "label": "Beasts: Gentle Halcyon",
       "document": {
         "version": 1,
@@ -445,7 +467,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-f7910e318f981e11"
           },
           {
             "type": "paragraph",
@@ -464,7 +487,8 @@
                 "type": "text",
                 "text": "Also known as Puffergoat, Floating Ram, and Heaven's Mutton"
               }
-            ]
+            ],
+            "id": "p-ba16c9083e8289ae"
           },
           {
             "type": "paragraph",
@@ -483,7 +507,8 @@
                 "type": "text",
                 "text": "Curled horns, no tail, soft and fluffy coat."
               }
-            ]
+            ],
+            "id": "p-8d34a72697fa962e"
           },
           {
             "type": "paragraph",
@@ -502,7 +527,8 @@
                 "type": "text",
                 "text": "A species that lives in flocks and has a gentle demeanor. Shaped like a fluff ball, this animal inhales air into an internal air sac when in danger, inflating its whole body to float upward away from predators. They fly up in large groups, as if they are sightseers."
               }
-            ]
+            ],
+            "id": "p-b1c33b0313056187"
           },
           {
             "type": "paragraph",
@@ -521,7 +547,8 @@
                 "type": "text",
                 "text": "The Xianzhou people raised this animal for its wool. As they live in flocks, keepers usually lasso the head sheep. We now know that leather from their skin is very elastic, and their air sac is strong and durable, making all parts of the animal useful for starskiff production. Gentle halcyons raised at the sky farms regulated by the Sky-Faring Commission live carefree lives."
               }
-            ]
+            ],
+            "id": "p-cf63ecee526425aa"
           },
           {
             "type": "paragraph",
@@ -554,7 +581,8 @@
                 "type": "text",
                 "text": "Horn: Salty, warming, and non-toxic."
               }
-            ]
+            ],
+            "id": "p-41c5c9125cb7a252"
           },
           {
             "type": "paragraph",
@@ -587,7 +615,8 @@
                 "type": "text",
                 "text": "Horn: Relieves fevers, clears the liver, and brightens the eyes."
               }
-            ]
+            ],
+            "id": "p-d9fcbbba2315a5d8"
           },
           {
             "type": "paragraph",
@@ -606,7 +635,8 @@
                 "type": "text",
                 "text": "Lingering Sauce: Wash and carve the Puffergoat into small cubes and place into a casserole. Mash star leek, taro peppers, and ambrosial apricots together into a marinade for the mutton. Simmer over an open fire until the meat disintegrates. Add sliced sturgeon, then grind into a paste for a delicious condiment."
               }
-            ]
+            ],
+            "id": "p-648e5545c211e743"
           },
           {
             "type": "paragraph",
@@ -615,7 +645,8 @@
                 "type": "text",
                 "text": "Divinely Gifted Crimson Lamb: Use the Crimson Melodies wine from the Dragon Spring Brew distillery to cook the mutton. Marinate the mutton and roll it up tightly, then immerse it into the wine, using a Scalegorge stone to weigh it down. Allow the mutton to soak until the liquor has permeated into the bones, then cut the meat into slices as thin as paper."
               }
-            ]
+            ],
+            "id": "p-490d44e3baeff8df"
           },
           {
             "type": "paragraph",
@@ -644,13 +675,15 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-1ce8b9af69b94007"
           }
         ]
       }
     },
     {
       "id": "4",
+      "volumeKey": "beasts-downy-antler",
       "label": "Beasts: Downy Antler",
       "document": {
         "version": 1,
@@ -667,7 +700,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-f3702bc2588d5a5c"
           },
           {
             "type": "paragraph",
@@ -686,7 +720,8 @@
                 "type": "text",
                 "text": "Also known as Lady Antlers, Wandering Velvet, and Startled Deer."
               }
-            ]
+            ],
+            "id": "p-a13de9ac659dd1b9"
           },
           {
             "type": "paragraph",
@@ -705,7 +740,8 @@
                 "type": "text",
                 "text": "Their antlers appear as tree branches, blooming flowers in spring. They have a short tail, and a soft and fluffy coat."
               }
-            ]
+            ],
+            "id": "p-4fd83c99553d645f"
           },
           {
             "type": "paragraph",
@@ -724,7 +760,8 @@
                 "type": "text",
                 "text": "Downy antlers have a symbiotic relationship with a certain species of flowers, with said flowers growing out of their antlers and particularly dense clusters at the intersection of several branches. When chased by predators or otherwise startled, these clusters will burst apart, with flower petals scattering everywhere to confuse nearby enemies."
               }
-            ]
+            ],
+            "id": "p-3690b53f8235fed1"
           },
           {
             "type": "paragraph",
@@ -743,7 +780,8 @@
                 "type": "text",
                 "text": "The Xianzhou people of the past sought flower petals for pouches carried closely on their persons. In the old days, scholars would set up spring banquets on skiffs, seeking downy antlers and chasing them in delves. The people would compose poetry and play music as they watch petals raining down."
               }
-            ]
+            ],
+            "id": "p-f6ffa3a36851c367"
           },
           {
             "type": "paragraph",
@@ -776,7 +814,8 @@
                 "type": "text",
                 "text": "Flowers: Bitter, cooling, and slightly toxic."
               }
-            ]
+            ],
+            "id": "p-22ee1442d0463902"
           },
           {
             "type": "paragraph",
@@ -809,7 +848,8 @@
                 "type": "text",
                 "text": "Flowers: Clears excessive internal heat and moisture by inducing sweating."
               }
-            ]
+            ],
+            "id": "p-c9dcca7ca7ab1a88"
           },
           {
             "type": "paragraph",
@@ -828,7 +868,8 @@
                 "type": "text",
                 "text": "Golden Velvet Rice: Pluck blooming flower clusters from young downy antlers in early spring, selecting blooms with the most richly colored petals. Blanch in diviner grass soup with a pinch of salt. Add day-old purple rice, then steam together. Consuming this dish regularly can calm the mind and grant better eyesight, with the effects enhanced if cooked using waters from Scalegorge Waterscape."
               }
-            ]
+            ],
+            "id": "p-456f9d53c483fd3b"
           },
           {
             "type": "paragraph",
@@ -837,7 +878,8 @@
                 "type": "text",
                 "text": "Blooming Pistil Soup: Cut flower buds from the clusters using a knife, dip them in wax and soak them in a pot of honey. Immerse the pot in the thermal springs of Scalegorge Waterscape in summer and watch the flowers bloom. Enjoy the wondrous aroma and sight!"
               }
-            ]
+            ],
+            "id": "p-884fcb19ca6689a6"
           },
           {
             "type": "paragraph",
@@ -866,7 +908,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-a5d71a8968665800"
           }
         ]
       }

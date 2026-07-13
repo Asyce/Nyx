@@ -4,17 +4,19 @@
   "id": "venerable-guards-will-defend-us-from-enemies",
   "name": "Venerable Guards Will Defend Us From Enemies!",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Venerable_Guards_Will_Defend_Us_From_Enemies!",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -23,7 +25,8 @@
                 "type": "text",
                 "text": "Fellow citizens of Belobog, our brothers and sisters! Our proud brothers in arms, the Silvermane Guards!"
               }
-            ]
+            ],
+            "id": "p-41dc2754ba6d056d"
           },
           {
             "type": "paragraph",
@@ -32,7 +35,8 @@
                 "type": "text",
                 "text": "While we sleep in the warmth of our Geomarrow Furnaces, the drawn-out war never ceases! As we all know, the calamity we call the Fragmentum had been expanding in the last few centuries. And now, the Fragmentum and monsters it breeds are showing their fangs as the corrosion continues to worsen at an unprecedented rate. We once obtained a total victory in the War of Defense, and likewise we shall not bow to the strife of the war against Fragmentum monsters!"
               }
-            ]
+            ],
+            "id": "p-fccc6e4515b75876"
           },
           {
             "type": "paragraph",
@@ -41,7 +45,8 @@
                 "type": "text",
                 "text": "While the valor of the Silvermane Guards is unparalleled by any other, the viciousness of the Fragmentum monsters has also been increasing with each passing day. Under the protection of the Architects, the Silvermane Guards continue to push back the monsters as news of good tidings keeps rolling back from the frontline. Our great guardian, Madam Cocolia, keenly noticed that the time for counterattack has come!"
               }
-            ]
+            ],
+            "id": "p-1a0cc4e612b325d5"
           },
           {
             "type": "paragraph",
@@ -50,7 +55,8 @@
                 "type": "text",
                 "text": "The Rivet Town Administrative Committee and the Chamber of Commerce hereby announce the supreme guardian's decree: From this day on, both armies of the Overworld and Underworld shall assemble and move toward the Fragmentum in the Overworld! At this time, if we are able to concentrate the strength of our entire army, we can with most certainty end this nefarious war! Our heroic people will once again enjoy a great victory!"
               }
-            ]
+            ],
+            "id": "p-4461386e251c97d1"
           },
           {
             "type": "paragraph",
@@ -59,7 +65,8 @@
                 "type": "text",
                 "text": "Belobog's first supreme guardian, Alisa Rand, once said, \"The people of Belobog are valorous, wise, and blessed by the great Qlipoth. No matter what, our people will always come together and face whatever incursion is brought upon our doorstep!\""
               }
-            ]
+            ],
+            "id": "p-020777c18865180f"
           },
           {
             "type": "paragraph",
@@ -68,7 +75,8 @@
                 "type": "text",
                 "text": "Now is the time we display the spirit of Belobog — even if we stand at the rear, we have things that only we can do! We must ensure the smooth, unimpeded supply of provisions to the Silvermane Guards, we must maintain the stability of Geomarrow supplies in the city, and we must forfend our heroes from worrying on our behalf!"
               }
-            ]
+            ],
+            "id": "p-336109e5cf3bd720"
           },
           {
             "type": "paragraph",
@@ -77,7 +85,8 @@
                 "type": "text",
                 "text": "May the Architects live forever! May Belobog stand forever!"
               }
-            ]
+            ],
+            "id": "p-5121766babf4d679"
           },
           {
             "type": "paragraph",
@@ -86,7 +95,8 @@
                 "type": "text",
                 "text": "May the heroic people of Belobog stand forever with their great city in the face of the freeze!"
               }
-            ]
+            ],
+            "id": "p-34f31a63f3cc6029"
           },
           {
             "type": "paragraph",
@@ -100,7 +110,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-2419c807e6b992b4"
           },
           {
             "type": "paragraph",
@@ -109,7 +120,8 @@
                 "type": "text",
                 "text": "How many years has it been, and our forces are still on the counteroffensive? What a joke, I bet the Silvermane Guards have all perished."
               }
-            ]
+            ],
+            "id": "p-6be74d76f1f18a65"
           },
           {
             "type": "paragraph",
@@ -139,7 +151,8 @@
                 "type": "text",
                 "text": "I want to see Daddy. When will he be home?"
               }
-            ]
+            ],
+            "id": "p-0a0fe25b08334eee"
           }
         ]
       }

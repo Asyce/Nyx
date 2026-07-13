@@ -4,10 +4,11 @@
   "id": "customer-notice-from-balaway-the-miner-s-lamp",
   "name": "Customer Notice From Balaway the Miner's Lamp",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Customer_Notice_From_Balaway_the_Miner%27s_Lamp",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "To all vagrants who dig for ancient relics,"
               }
-            ]
+            ],
+            "id": "p-3134a7107b6b6570"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Regrettably, I will be stopping my appraisal services at the end of this tax period. The consulting location at the market will also be closed."
               }
-            ]
+            ],
+            "id": "p-078a7f4f97c34ba1"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "In other words, from this day forward, if you stumble over something in the mines, or if your mining team happens upon an ancient weapon, don't think it's a gift from the gods. And don't bother carrying all that junk over to me."
               }
-            ]
+            ],
+            "id": "p-07e77e59a06fb675"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "As mentioned above, it's done. I'm done."
               }
-            ]
+            ],
+            "id": "p-dedbfcba2189d0b0"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "I'm sure some of you will be pondering the reason behind my quitting when work is going well. I suppose I should make the effort to give everyone a proper response."
               }
-            ]
+            ],
+            "id": "p-19079f11bab4345a"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "First of all, it's a thankless job."
               }
-            ]
+            ],
+            "id": "p-cbf49dea771d9f1e"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "When I started this business, I wanted to use the Old World manuals I tirelessly collected to help everyone analyze and appraise their ancient relics. That way, everyone would at least have a sense of the items they found, and can have a better sense of value when selling their items."
               }
-            ]
+            ],
+            "id": "p-cb89b9dc9177447f"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "It's pretty clear for those who know. These days, no one understands how people from the Old World built these machines, much less the knowledge they had in their heads."
               }
-            ]
+            ],
+            "id": "p-554a3e3e39a8b68f"
           },
           {
             "type": "paragraph",
@@ -91,7 +100,8 @@
                 "type": "text",
                 "text": "Some ancient relics explode when exposed to the air, making it more dangerous than a mine filled with gas. Some were as plain as a metal rod, not unlike the one your wife uses to poke the stove. But push the button somewhere on it, it'll be as scary as one of your wife's temper tantrums."
               }
-            ]
+            ],
+            "id": "p-47b60919204602c6"
           },
           {
             "type": "paragraph",
@@ -100,7 +110,8 @@
                 "type": "text",
                 "text": "Let me give you an example. During the last tax period, I received an egg-shaped object. (That's right, the kind of egg sold at Belobog Meat Factory.) Anyway, I went through all the manuscripts, including Old World magazines, and finally concluded that it was some kind of jewelry, known as the \"Ramlea Egg.\""
               }
-            ]
+            ],
+            "id": "p-8eb9253d9ca0507c"
           },
           {
             "type": "paragraph",
@@ -109,7 +120,8 @@
                 "type": "text",
                 "text": "Let's start with a question: What is jewelry? After asking old Uther, we learned that jewelry is a type of decoration you can wear. It seems that Old World people really had nothing better to do."
               }
-            ]
+            ],
+            "id": "p-55c9254a2a44a67c"
           },
           {
             "type": "paragraph",
@@ -118,7 +130,8 @@
                 "type": "text",
                 "text": "The old man banged the egg a few times on the table, then removed the pin on top, which might have been used to hang something on it. Suddenly, the egg started heating up and glowing. It produced a light stronger than hundreds of mine lamps stacked together (Uther might have exaggerated this). The old man could already barely see anything, and now he definitely can't. You can say that I was lucky. When the incident happened, I was in the other room making tea. My eyes were fine but the old man's son threatened to take out my eyes until I offered him sixty canned goods."
               }
-            ]
+            ],
+            "id": "p-c337d67bdb82d894"
           },
           {
             "type": "paragraph",
@@ -127,7 +140,8 @@
                 "type": "text",
                 "text": "Do you understand now? I'm putting my life on the line for you guys, but the money you're paying me won't even cover my medical fees."
               }
-            ]
+            ],
+            "id": "p-1fc97cc25d223e68"
           },
           {
             "type": "paragraph",
@@ -136,7 +150,8 @@
                 "type": "text",
                 "text": "Right, here's the second point: Miner's Lamp's standards were called into question."
               }
-            ]
+            ],
+            "id": "p-807b87ed42ed8a85"
           },
           {
             "type": "paragraph",
@@ -145,7 +160,8 @@
                 "type": "text",
                 "text": "The area outside Boulder Town is getting more and more dangerous and more and more vagrants are coming here. But with more people, comes more gossip. I've heard enough of foolish things like \"Balaway is a blind appraiser,\" or \"Any vagrant from Rivet Town is better than him.\" I don't know what game they're playing with this slander, but I'm not interested. Better to simply pack my bags and leave. After all, it should be easy to find a better appraiser, right?"
               }
-            ]
+            ],
+            "id": "p-95f9a678086de611"
           },
           {
             "type": "paragraph",
@@ -154,7 +170,8 @@
                 "type": "text",
                 "text": "I have been faithfully serving you lucky dogs in the past and never thought of coveting the ancient goods you dug up. The very reason is that I am an honest person and have never done anything to cheat. But what about those outsiders? Can you trust them? They are nothing but a bunch of self-serving scoundrels who only care for themselves. They will denigrate those goods you value, but if you believe their nonsense and sold your goods to them as if you were selling scraps, then they will happily take them to flip for a high price elsewhere."
               }
-            ]
+            ],
+            "id": "p-22d4d7c4ef0d59b2"
           },
           {
             "type": "paragraph",
@@ -163,7 +180,8 @@
                 "type": "text",
                 "text": "But, Miner's Lamp Balaway is not a heartless person. I can make exceptions."
               }
-            ]
+            ],
+            "id": "p-a3db7621fc7d39b3"
           },
           {
             "type": "paragraph",
@@ -172,7 +190,8 @@
                 "type": "text",
                 "text": "If the treasure you have is of great value, I might still be able to help you check it out. Think of me as being so fervently compassionate about no one getting cheated out of their fortune that I'll break my hiatus for these exceptional cases. But if it's just a piece of scrap, I suggest you find someone else. Balaway has henceforth ended his appraisal services."
               }
-            ]
+            ],
+            "id": "p-9614386c3eb24b1c"
           }
         ]
       }

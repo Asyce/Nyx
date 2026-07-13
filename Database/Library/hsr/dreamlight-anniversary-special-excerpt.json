@@ -4,10 +4,11 @@
   "id": "dreamlight-anniversary-special-excerpt",
   "name": "Dreamlight Anniversary Special (Excerpt)",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Dreamlight_Anniversary_Special_(Excerpt)",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -33,7 +34,8 @@
                 "type": "text",
                 "text": "Below, you will find a number of investigation reports regarding stalls for this school anniversary."
               }
-            ]
+            ],
+            "id": "p-5ac48c4bd4d08679"
           },
           {
             "type": "paragraph",
@@ -54,7 +56,8 @@
                 "type": "text",
                 "text": "It has to be said that this stall owner has done their research on how to make exquisite desserts. Even oak cake rolls with their unremarkable flavor have undergone special design to become a campus favorite and fashionable item that rocks the academy. Naturally, the price increases with the improved appearance. We find it hard to believe that a lofty price of 100,000 Alfalfa credits is within an average student's spending range."
               }
-            ]
+            ],
+            "id": "p-c5c780fdc7cae0fb"
           },
           {
             "type": "paragraph",
@@ -79,7 +82,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-dbf9851a3ab078d7"
           },
           {
             "type": "paragraph",
@@ -100,7 +104,8 @@
                 "type": "text",
                 "text": "To be honest, we never thought that there would still be such loyal fans of the \"Slumbernana Monkey\" on campus, now that the trend has died out. Looking at it now, we can see that the monkey dolls have neither the attraction to become a trending toy nor enough content to prop it up. Students are keen on chasing the next best thing, and this is sure to be completely abandoned. The stall sales data confirmed our judgement — at the time of the Editorial Department's review, only one monkey doll had been sold. We are currently urgently seeking that one and only buyer. Stay tuned for further reports."
               }
-            ]
+            ],
+            "id": "p-4dc7dcafc6d2aa21"
           },
           {
             "type": "paragraph",
@@ -125,7 +130,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-42ec5b1abc34e037"
           },
           {
             "type": "paragraph",
@@ -153,7 +159,8 @@
                 "type": "text",
                 "text": "If your writing is particularly terrible, your work will be printed as a manuscript and the members will eat it. Because of this, we personally witnessed at least five incidents of food poisoning. Due to safety concerns, we recommend that students with poor literary skills exercise caution when taking part in this event."
               }
-            ]
+            ],
+            "id": "p-f5c79de41fc9966d"
           },
           {
             "type": "paragraph",
@@ -178,7 +185,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-7247558e645c2386"
           },
           {
             "type": "paragraph",
@@ -194,7 +202,8 @@
                 "type": "text",
                 "text": "The Dreamlight Anniversary is an event that belongs to everyone on campus, and the opinions of the students are extremely valuable. Therefore, we randomly interviewed a number of students. Let's hear what they think of the anniversary event."
               }
-            ]
+            ],
+            "id": "p-2c5237f410e2f77a"
           },
           {
             "type": "paragraph",
@@ -218,7 +227,8 @@
                 "type": "text",
                 "text": "— Interview with a Pepeshi student"
               }
-            ]
+            ],
+            "id": "p-696746256bfa0db2"
           },
           {
             "type": "paragraph",
@@ -236,7 +246,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-360b34286ec46330"
           },
           {
             "type": "paragraph",
@@ -260,7 +271,8 @@
                 "type": "text",
                 "text": "— Interview with a Fortune Academy student"
               }
-            ]
+            ],
+            "id": "p-5e378a59d5289e56"
           },
           {
             "type": "paragraph",
@@ -278,7 +290,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-2cd41380b8b19f4e"
           },
           {
             "type": "paragraph",
@@ -302,7 +315,8 @@
                 "type": "text",
                 "text": "— An interview with the monkey doll buyer"
               }
-            ]
+            ],
+            "id": "p-4635f8c16a835cd1"
           },
           {
             "type": "paragraph",
@@ -320,7 +334,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-6aa38194931431ae"
           },
           {
             "type": "paragraph",
@@ -344,7 +359,8 @@
                 "type": "text",
                 "text": "— Interview with a Charmony Academy student"
               }
-            ]
+            ],
+            "id": "p-d83fbad7fe6d8b1b"
           },
           {
             "type": "paragraph",
@@ -362,7 +378,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-1e80c4e8a479a6ba"
           },
           {
             "type": "paragraph",
@@ -371,7 +388,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -380,7 +398,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

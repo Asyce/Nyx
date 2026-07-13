@@ -4,10 +4,11 @@
   "id": "styxia-fables",
   "name": "Styxia Fables",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Styxia_Fables",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "part-one",
       "label": "(Part One)",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-e38e7e94067d1e34"
           },
           {
             "type": "paragraph",
@@ -38,7 +40,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-169249c97ed210b3"
           },
           {
             "type": "paragraph",
@@ -54,7 +57,8 @@
                 "type": "text",
                 "text": "all — from the poor to the rich, from the curious to the fearful — looked up in awe."
               }
-            ]
+            ],
+            "id": "p-e4c34642a7138593"
           },
           {
             "type": "paragraph",
@@ -77,7 +81,8 @@
                 "type": "text",
                 "text": "gently stroking its forehead with pity."
               }
-            ]
+            ],
+            "id": "p-2891a540cb58b4e5"
           },
           {
             "type": "paragraph",
@@ -100,7 +105,8 @@
                 "type": "text",
                 "text": "It opened its mouth and swallowed the compassionate princess whole."
               }
-            ]
+            ],
+            "id": "p-72a6e8090bd8ec5e"
           },
           {
             "type": "paragraph",
@@ -123,7 +129,8 @@
                 "type": "text",
                 "text": "swearing to cut open the dragon's belly and rescue the princess."
               }
-            ]
+            ],
+            "id": "p-2da8afaa85fbcecc"
           },
           {
             "type": "paragraph",
@@ -146,7 +153,8 @@
                 "type": "text",
                 "text": "The princess, pulled from the dragon's belly, was already lifeless."
               }
-            ]
+            ],
+            "id": "p-5cb9594fc28ebe60"
           },
           {
             "type": "paragraph",
@@ -176,7 +184,8 @@
                 "type": "text",
                 "text": "hoping to reshape the scattered flesh of the dragon into the reborn form of the princess."
               }
-            ]
+            ],
+            "id": "p-225152ad5f1a1962"
           },
           {
             "type": "paragraph",
@@ -199,7 +208,8 @@
                 "type": "text",
                 "text": "And devoured every last soul of the city."
               }
-            ]
+            ],
+            "id": "p-720b079a5b7e649f"
           },
           {
             "type": "paragraph",
@@ -215,7 +225,8 @@
                 "type": "text",
                 "text": "none — be they poor, rich, weeping, or trembling — could resist its grasp."
               }
-            ]
+            ],
+            "id": "p-77a7b6130bb13e52"
           },
           {
             "type": "paragraph",
@@ -238,7 +249,8 @@
                 "type": "text",
                 "text": "only lamenting the inevitable and unstoppable black death that sealed their fate."
               }
-            ]
+            ],
+            "id": "p-08603dd72f99467b"
           },
           {
             "type": "paragraph",
@@ -252,13 +264,15 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-746bba57d14001cf"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "part-two",
       "label": "(Part Two)",
       "document": {
         "version": 1,
@@ -275,7 +289,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ddfcd27b5d02b3c5"
           },
           {
             "type": "paragraph",
@@ -289,7 +304,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-93478ab0e4cd17b2"
           },
           {
             "type": "paragraph",
@@ -303,7 +319,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-0c99030ee828f441"
           },
           {
             "type": "paragraph",
@@ -319,7 +336,8 @@
                 "type": "text",
                 "text": "there hung an extraordinary clock in our high tower, unmatched by anything else."
               }
-            ]
+            ],
+            "id": "p-2765055db2a331ba"
           },
           {
             "type": "paragraph",
@@ -342,7 +360,8 @@
                 "type": "text",
                 "text": "Hence, people from all walks of life would come to visit the tower."
               }
-            ]
+            ],
+            "id": "p-b4705955dbc47ecc"
           },
           {
             "type": "paragraph",
@@ -372,7 +391,8 @@
                 "type": "text",
                 "text": "Please, tell me how I can do it?\""
               }
-            ]
+            ],
+            "id": "p-2a34b99d7a703154"
           },
           {
             "type": "paragraph",
@@ -395,7 +415,8 @@
                 "type": "text",
                 "text": "These tiny creatures will help you move them.\""
               }
-            ]
+            ],
+            "id": "p-e88b83bf031a92f2"
           },
           {
             "type": "paragraph",
@@ -425,7 +446,8 @@
                 "type": "text",
                 "text": "If not, I'll shatter you into pieces!\""
               }
-            ]
+            ],
+            "id": "p-7b39e327bb0ed5ff"
           },
           {
             "type": "paragraph",
@@ -448,7 +470,8 @@
                 "type": "text",
                 "text": "And those who stand tall today shall be trampled underfoot tomorrow.\""
               }
-            ]
+            ],
+            "id": "p-764e09ea51d82b89"
           },
           {
             "type": "paragraph",
@@ -478,7 +501,8 @@
                 "type": "text",
                 "text": "when shall my tormenting illness cease? When will death at last embrace me?\""
               }
-            ]
+            ],
+            "id": "p-e172675f966d6d3f"
           },
           {
             "type": "paragraph",
@@ -508,7 +532,8 @@
                 "type": "text",
                 "text": "for your lifespans extend far beyond measure!\""
               }
-            ]
+            ],
+            "id": "p-ae233ecd787edcbd"
           },
           {
             "type": "paragraph",
@@ -530,7 +555,8 @@
                 "type": "text",
                 "text": "''"
               }
-            ]
+            ],
+            "id": "p-7f4b380f7671d639"
           },
           {
             "type": "paragraph",
@@ -544,7 +570,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-53f689f8bff93e55"
           },
           {
             "type": "paragraph",
@@ -567,7 +594,8 @@
                 "type": "text",
                 "text": "and his burned candle wax could be melted anew."
               }
-            ]
+            ],
+            "id": "p-e1e972ceb2383f29"
           },
           {
             "type": "paragraph",
@@ -583,7 +611,8 @@
                 "type": "text",
                 "text": "he heard the tides of the River of Souls calling, and knew the Reaper would soon summon him under."
               }
-            ]
+            ],
+            "id": "p-ba280fc1f0d23b54"
           },
           {
             "type": "paragraph",
@@ -606,7 +635,8 @@
                 "type": "text",
                 "text": "and with a troubled face, spoke his dying wish:"
               }
-            ]
+            ],
+            "id": "p-249e19acc52ea765"
           },
           {
             "type": "paragraph",
@@ -636,7 +666,8 @@
                 "type": "text",
                 "text": "before it taints my precious brew.\""
               }
-            ]
+            ],
+            "id": "p-84ab311dc57235d4"
           },
           {
             "type": "paragraph",
@@ -652,7 +683,8 @@
                 "type": "text",
                 "text": "slipping into the dolium to search for the dead bee."
               }
-            ]
+            ],
+            "id": "p-e7738003d062c70d"
           },
           {
             "type": "paragraph",
@@ -675,7 +707,8 @@
                 "type": "text",
                 "text": "None shall drag me from my warm bed now.\""
               }
-            ]
+            ],
+            "id": "p-3274a289587cecb6"
           },
           {
             "type": "paragraph",
@@ -691,7 +724,8 @@
                 "type": "text",
                 "text": "Our endless feasting and revelry is our reward for outwitting the Reaper!"
               }
-            ]
+            ],
+            "id": "p-436bed16d821848c"
           },
           {
             "type": "paragraph",
@@ -713,7 +747,8 @@
                 "type": "text",
                 "text": "''"
               }
-            ]
+            ],
+            "id": "p-f83dde7df5798fff"
           },
           {
             "type": "paragraph",
@@ -722,7 +757,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "thick-notebook",
   "name": "Thick Notebook",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Thick_Notebook",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "The phrase \"time and wind\" seems like it may have something to do with the Anemo Archon... But couldn't he have been clearer? What am I supposed to figure out with just these three words?"
               }
-            ]
+            ],
+            "id": "p-47d005c06c724fe2"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "If it has something to do with the Anemo Archon, then whatever clues may be found should also be related to Anemo."
               }
-            ]
+            ],
+            "id": "p-97d070cbecc769b8"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "Then if one factors in the idea of \"time\"... This sundial over here should hide some secret."
               }
-            ]
+            ],
+            "id": "p-0e4459af19da5a60"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "Moreover, I do get an odd feeling around this place sometimes. I think it might have been 2 AM... Or was it some other time...?"
               }
-            ]
+            ],
+            "id": "p-ade36f80ec94eedc"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "I really can't remember... I only remember that sometime , the ."
               }
-            ]
+            ],
+            "id": "p-a4b6bef35bfb51b3"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "But... Well, fine. The lecturers at the Akademiya used to say that it would be best for people without not to take part in practicum such as outdoor surveys."
               }
-            ]
+            ],
+            "id": "p-16c09432fd47a12b"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "I didn't understand what they meant then, but I suppose I do now. Even though I did find a clue, all I could do without a was watch."
               }
-            ]
+            ],
+            "id": "p-3898d3f4cfcbdba3"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "I wonder if the Adventurers' Guild can help me find someone who has a and is willing to help."
               }
-            ]
+            ],
+            "id": "p-ab84b5e6a55d7b1c"
           },
           {
             "type": "paragraph",
@@ -91,7 +100,8 @@
                 "type": "text",
                 "text": "Speaking of which, why is Mondstadt's Adventurers' Guild still so tiny?"
               }
-            ]
+            ],
+            "id": "p-61649de61faa7d49"
           }
         ]
       }

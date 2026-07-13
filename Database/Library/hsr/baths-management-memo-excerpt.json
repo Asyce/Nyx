@@ -4,10 +4,11 @@
   "id": "baths-management-memo-excerpt",
   "name": "Baths Management Memo: Excerpt",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Baths_Management_Memo:_Excerpt",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Previous content omitted. This slate records events from the 13th day of the Month of Strife, Light Calendar year 4930."
               }
-            ]
+            ],
+            "id": "p-a13e63a7fc593145"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "Please do not leave this slate in a place where guests can take it."
               }
-            ]
+            ],
+            "id": "p-0b5107bb6dd5dac3"
           },
           {
             "type": "paragraph",
@@ -113,7 +117,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-9eb2fac97fc411ba"
           },
           {
             "type": "paragraph",
@@ -141,7 +146,8 @@
                 "type": "text",
                 "text": "- Be aware that the number of Zagreus is increasing by the day."
               }
-            ]
+            ],
+            "id": "p-82b7552d01b7dcb1"
           },
           {
             "type": "paragraph",
@@ -169,7 +175,8 @@
                 "type": "text",
                 "text": "- A client called \"Mr. Teaser\" says that he has a solution to this. He has requested to put on an event in the bath lecture area."
               }
-            ]
+            ],
+            "id": "p-7ee835f94df15bea"
           },
           {
             "type": "paragraph",
@@ -197,7 +204,8 @@
                 "type": "text",
                 "text": "- Borrow some soil from the dromas post to use as a temporary anti-slipping agent."
               }
-            ]
+            ],
+            "id": "p-9eb04b29b86a9fa4"
           },
           {
             "type": "paragraph",
@@ -225,7 +233,8 @@
                 "type": "text",
                 "text": "- Borrow some manpower from the dromas post and have them lead this herd of dromases back with them."
               }
-            ]
+            ],
+            "id": "p-3e05a2bd4e390bda"
           },
           {
             "type": "paragraph",
@@ -253,7 +262,8 @@
                 "type": "text",
                 "text": "- Have you never seen ?"
               }
-            ]
+            ],
+            "id": "p-b93e4caa66abe44a"
           },
           {
             "type": "paragraph",
@@ -274,7 +284,8 @@
                 "type": "text",
                 "text": "-Happy Month of Gate! Also, let us welcome our new attendants!"
               }
-            ]
+            ],
+            "id": "p-838039948e766bbe"
           },
           {
             "type": "paragraph",
@@ -312,7 +323,8 @@
                 "type": "text",
                 "text": "- I will stress this again. Please do not leave the memos where guests can reach them."
               }
-            ]
+            ],
+            "id": "p-a85238626bd3b76a"
           },
           {
             "type": "paragraph",
@@ -347,7 +359,8 @@
                 "type": "text",
                 "text": "- Because the entire place will stink if cheese melts in the baths."
               }
-            ]
+            ],
+            "id": "p-920cdb3bcdb440a6"
           },
           {
             "type": "paragraph",
@@ -396,7 +409,8 @@
                 "type": "text",
                 "text": "- It is."
               }
-            ]
+            ],
+            "id": "p-b08bc36aa6c72e7d"
           },
           {
             "type": "paragraph",
@@ -445,7 +459,8 @@
                 "type": "text",
                 "text": "- May Thanatos bring him peace."
               }
-            ]
+            ],
+            "id": "p-7dfb997718851032"
           },
           {
             "type": "paragraph",
@@ -480,7 +495,8 @@
                 "type": "text",
                 "text": "- Just stay out of it."
               }
-            ]
+            ],
+            "id": "p-2fc7ebc8fda308f4"
           },
           {
             "type": "paragraph",
@@ -515,7 +531,8 @@
                 "type": "text",
                 "text": "-Alright, I'll do it."
               }
-            ]
+            ],
+            "id": "p-74bf080b5cda20a4"
           },
           {
             "type": "paragraph",
@@ -571,7 +588,8 @@
                 "type": "text",
                 "text": "- This is what I'm always saying about you Kremnoans..."
               }
-            ]
+            ],
+            "id": "p-4a05a420b2bb487c"
           },
           {
             "type": "paragraph",
@@ -580,7 +598,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -601,7 +620,8 @@
                 "type": "text",
                 "text": "- May Kephale protect us."
               }
-            ]
+            ],
+            "id": "p-cf1257a2345fb492"
           },
           {
             "type": "paragraph",
@@ -610,7 +630,8 @@
                 "type": "text",
                 "text": "— Praise Kephale"
               }
-            ]
+            ],
+            "id": "p-e83454e880bb2ec1"
           },
           {
             "type": "paragraph",
@@ -619,7 +640,8 @@
                 "type": "text",
                 "text": "— Marmoreal Palace is back in business... Her Excellency Aglaea said that she would provide them free use of the best room in the Palace to express her gratitude... I wonder if these outworlders will be able to withstand the temperature of the Dawn Pool?"
               }
-            ]
+            ],
+            "id": "p-b450b83edefa975d"
           }
         ]
       }

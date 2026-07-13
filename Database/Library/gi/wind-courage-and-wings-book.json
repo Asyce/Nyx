@@ -4,10 +4,11 @@
   "id": "wind-courage-and-wings-book",
   "name": "Wind, Courage, and Wings",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Wind,_Courage,_and_Wings_(Book)",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "When the first wisp of wind brushed across the land"
               }
-            ]
+            ],
+            "id": "p-510e09f79fcb64c9"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Birds that yearned for the sky had wings"
               }
-            ]
+            ],
+            "id": "p-a4a1893145acfd21"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "But no way to fly"
               }
-            ]
+            ],
+            "id": "p-ca73b22d01aa5d5e"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "They asked the Anemo God:"
               }
-            ]
+            ],
+            "id": "p-0938ab2fac3b671f"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "\"How can we reach the heavens?\""
               }
-            ]
+            ],
+            "id": "p-1d6cd3895d723a8c"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "To which the Anemo God replied:"
               }
-            ]
+            ],
+            "id": "p-727b72c169468398"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "\"You have yet to find that which is most important\""
               }
-            ]
+            ],
+            "id": "p-e52ed31637b78db7"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "As the God spoke, the wind thrust the seeds of a dandelion"
               }
-            ]
+            ],
+            "id": "p-21628f297b2a7a08"
           },
           {
             "type": "paragraph",
@@ -91,7 +100,8 @@
                 "type": "text",
                 "text": "High into the sky"
               }
-            ]
+            ],
+            "id": "p-b0037bc93dea9b40"
           },
           {
             "type": "paragraph",
@@ -100,7 +110,8 @@
                 "type": "text",
                 "text": "The birds thrust out their wings"
               }
-            ]
+            ],
+            "id": "p-ad9be282c926feaa"
           },
           {
             "type": "paragraph",
@@ -109,7 +120,8 @@
                 "type": "text",
                 "text": "But the breeze was all too mild"
               }
-            ]
+            ],
+            "id": "p-18568bd1ab79852a"
           },
           {
             "type": "paragraph",
@@ -118,7 +130,8 @@
                 "type": "text",
                 "text": "Leaving them to stumble across the earth"
               }
-            ]
+            ],
+            "id": "p-4fe41cd76dd7cfd9"
           },
           {
             "type": "paragraph",
@@ -127,7 +140,8 @@
                 "type": "text",
                 "text": "So they went to the gorge"
               }
-            ]
+            ],
+            "id": "p-f702289bda817f62"
           },
           {
             "type": "paragraph",
@@ -136,7 +150,8 @@
                 "type": "text",
                 "text": "Where the wind showed off its wild and incomparable strength"
               }
-            ]
+            ],
+            "id": "p-76029fcb6c4c8506"
           },
           {
             "type": "paragraph",
@@ -145,7 +160,8 @@
                 "type": "text",
                 "text": "They threw themselves off the cliff"
               }
-            ]
+            ],
+            "id": "p-c586a9552e1dd2e0"
           },
           {
             "type": "paragraph",
@@ -154,7 +170,8 @@
                 "type": "text",
                 "text": "And flapped their wings amongst the howling winds"
               }
-            ]
+            ],
+            "id": "p-eb6c8705066b8e0d"
           },
           {
             "type": "paragraph",
@@ -163,7 +180,8 @@
                 "type": "text",
                 "text": "Until they were able to fly freely in the sky"
               }
-            ]
+            ],
+            "id": "p-9a8a8485dcd58435"
           },
           {
             "type": "paragraph",
@@ -172,7 +190,8 @@
                 "type": "text",
                 "text": "To the Anemo God they went, to gleefully say:"
               }
-            ]
+            ],
+            "id": "p-17e3fa552d85b77e"
           },
           {
             "type": "paragraph",
@@ -181,7 +200,8 @@
                 "type": "text",
                 "text": "\"We understand now! All we needed was a stronger wind to fly\""
               }
-            ]
+            ],
+            "id": "p-cb75468d4ba85bb4"
           },
           {
             "type": "paragraph",
@@ -190,7 +210,8 @@
                 "type": "text",
                 "text": "In reply the Anemo God said:"
               }
-            ]
+            ],
+            "id": "p-862ddef826e7c6ec"
           },
           {
             "type": "paragraph",
@@ -199,7 +220,8 @@
                 "type": "text",
                 "text": "\"What you lacked was not wind, but courage\""
               }
-            ]
+            ],
+            "id": "p-676c3dd7591b9493"
           },
           {
             "type": "paragraph",
@@ -208,7 +230,8 @@
                 "type": "text",
                 "text": "\"It is courage that has allowed you to become the first flying birds of this world\""
               }
-            ]
+            ],
+            "id": "p-1a318e8d50497049"
           }
         ]
       }

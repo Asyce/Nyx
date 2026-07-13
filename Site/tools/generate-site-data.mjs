@@ -2,9 +2,23 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createRequire } from 'node:module';
+import {
+  cleanDatabaseText,
+  databaseRarityLabel,
+  databaseRecordClassification,
+  databaseSourceIconPolicy,
+} from './lib/database-data-helpers.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..', '..');
+const databaseOnly = process.argv.includes('--database-only');
+if (databaseOnly) {
+  const writeFileSync = fs.writeFileSync.bind(fs);
+  const databaseOutputs = /^(?:database-missing-art\.json|db-data-(?:gi|hsr|zzz|wuwa)\.js)$/;
+  fs.writeFileSync = (target, ...args) => databaseOutputs.test(path.basename(String(target)))
+    ? writeFileSync(target, ...args)
+    : undefined;
+}
 
 // Shared reward vocabulary — single source of truth used by both the codes
 // scraper's publish gate and this display filter, so they never disagree.
@@ -4312,10 +4326,6 @@ function buildCollections() {
 // they ship as lazy per-game packs (db-data-<game>.js) loaded when the Database
 // tab opens — never inside nyx-data.js. Endfield has no source for these.
 function buildLazyCollections() {
-  const starText = (rarity) => {
-    const value = Number(rarity);
-    return Number.isInteger(value) && value >= 1 && value <= 5 ? `${value} ★` : undefined;
-  };
   const humanize = (value) => {
     const raw = String(value || '').trim();
     const words = raw.replace(/([a-z])([A-Z])/g, '$1 $2').replace(/[_-]+/g, ' ');
@@ -4326,79 +4336,296 @@ function buildLazyCollections() {
   };
   const objectLabel = (value) => value && typeof value === 'object' ? humanize(Object.values(value)[0]) : humanize(value);
   const iconOrNull = (icon) => dbAsset(icon) || null;
+  const approved = (game, collection, item) => {
+    const config = DATABASE_AUDIT_CONFIG[game];
+    const source = databaseSourceRows(config.dir, collection).get(String(item?.id));
+    return databaseRecordClassification({
+      game,
+      collection,
+      recordId: item?.id,
+      name: item?.name,
+      sourceIcon: sourceIconField(source)?.value,
+    }) === 'released';
+  };
   return {
     gi: [
-      normalizeGameDataItems('GameData/gi/live/monsters.json', 'Monsters', 'GameData', (it) => it?.name ? {
+      normalizeGameDataItems('GameData/gi/live/monsters.json', 'Monsters', 'GameData', (it) => it?.name && approved('gi', 'monsters', it) ? {
         id: 'gi-mon-' + it.id,
         name: it.name,
         kind: 'monster',
         art: iconOrNull(it.assets?.icon),
-        fields: { type: humanize(it.type), family: humanize(it.title) },
-        text: cleanText(it.description, 200),
+        // GameData's monster `title` field is not a verified family field and is
+        // known to be misassigned for some rows. Keep it out of display metadata.
+        fields: { type: humanize(it.type) },
+        text: cleanDatabaseText(it.description),
       } : null),
-      normalizeGameDataItems('GameData/gi/live/items.json', 'Items', 'GameData', (it) => it?.name ? {
+      normalizeGameDataItems('GameData/gi/live/items.json', 'Items', 'GameData', (it) => it?.name && approved('gi', 'items', it) ? {
         id: 'gi-item-' + it.id,
         name: it.name,
         kind: 'item',
         art: iconOrNull(it.assets?.icon),
-        fields: { rarity: starText(it.rarity), type: humanize(it.type) },
-        text: cleanText(it.description, 160),
+        fields: { rarity: databaseRarityLabel(it.rarity), type: humanize(it.type) },
+        text: cleanDatabaseText(it.description),
       } : null),
     ],
     hsr: [
-      normalizeGameDataItems('GameData/hsr/live/monsters.json', 'Monsters', 'GameData', (it) => it?.name ? {
+      normalizeGameDataItems('GameData/hsr/live/monsters.json', 'Monsters', 'GameData', (it) => it?.name && approved('hsr', 'monsters', it) ? {
         id: 'hsr-mon-' + it.id,
         name: it.name,
         kind: 'monster',
         art: iconOrNull(it.assets?.icon),
-        fields: {},
-        text: cleanText(it.description, 200),
+        fields: {
+          rank: humanize(it.rank),
+          camp: it.camp,
+          weaknesses: Array.isArray(it.weaknesses) ? it.weaknesses.map(humanize).filter(Boolean).join(', ') : undefined,
+        },
+        text: cleanDatabaseText(it.description),
       } : null),
-      normalizeGameDataItems('GameData/hsr/live/items.json', 'Items', 'GameData', (it) => it?.name ? {
+      normalizeGameDataItems('GameData/hsr/live/items.json', 'Items', 'GameData', (it) => it?.name && approved('hsr', 'items', it) ? {
         id: 'hsr-item-' + it.id,
         name: it.name,
         kind: 'item',
         art: iconOrNull(it.assets?.icon),
-        fields: { rarity: humanize(it.rarity), type: humanize(it.subType || it.type) },
-        text: cleanText(it.description || it.backgroundDescription, 160),
+        fields: { rarity: databaseRarityLabel(it.rarity), type: humanize(it.subType || it.type) },
+        text: cleanDatabaseText(it.description || it.backgroundDescription),
       } : null),
     ],
     zzz: [
-      normalizeGameDataItems('GameData/zzz/live/monsters.json', 'Monsters', 'GameData', (it) => it?.name ? {
+      normalizeGameDataItems('GameData/zzz/live/monsters.json', 'Monsters', 'GameData', (it) => it?.name && approved('zzz', 'monsters', it) ? {
         id: 'zzz-mon-' + it.id,
         name: it.name,
         kind: 'monster',
         art: iconOrNull(it.assets?.icon),
-        fields: { rarity: starText(it.rarity), type: humanize(it.type) },
-        text: cleanText(it.description, 200),
+        fields: { rarity: databaseRarityLabel(it.rarity), type: humanize(it.type) },
+        text: cleanDatabaseText(it.description),
       } : null),
-      normalizeGameDataItems('GameData/zzz/live/items.json', 'Items', 'GameData', (it) => it?.name ? {
+      normalizeGameDataItems('GameData/zzz/live/items.json', 'Items', 'GameData', (it) => it?.name && approved('zzz', 'items', it) ? {
         id: 'zzz-item-' + it.id,
         name: it.name,
         kind: 'item',
         art: iconOrNull(it.assets?.icon),
-        fields: { rarity: starText(it.rarity), type: objectLabel(it.type) },
-        text: undefined,
+        fields: { rarity: databaseRarityLabel(it.rarity), type: objectLabel(it.type) },
+        text: cleanDatabaseText(it.description || it.secondaryDescription),
       } : null),
     ],
     wuwa: [
-      normalizeGameDataItems('GameData/ww/live/monsters.json', 'Monsters', 'GameData', (it) => it?.name ? {
+      normalizeGameDataItems('GameData/ww/live/monsters.json', 'Monsters', 'GameData', (it) => it?.name && approved('wuwa', 'monsters', it) ? {
         id: 'ww-mon-' + it.id,
         name: it.name,
         kind: 'monster',
         art: iconOrNull(it.assets?.icon),
-        fields: { rarity: starText(it.rarity), element: wwElementMap[it.element] },
-        text: cleanText(it.description, 200),
+        fields: { rarity: databaseRarityLabel(it.rarity), element: wwElementMap[it.element] },
+        text: cleanDatabaseText(it.description),
       } : null),
-      normalizeGameDataItems('GameData/ww/live/items.json', 'Items', 'GameData', (it) => it?.name ? {
+      normalizeGameDataItems('GameData/ww/live/items.json', 'Items', 'GameData', (it) => it?.name && approved('wuwa', 'items', it) ? {
         id: 'ww-item-' + it.id,
         name: it.name,
         kind: 'item',
         art: iconOrNull(it.assets?.icon),
-        fields: { rarity: starText(it.rarity), type: humanize(Array.isArray(it.tag) ? it.tag[0] : it.tag) },
-        text: cleanText(it.description, 160),
+        fields: { rarity: databaseRarityLabel(it.rarity), type: humanize(Array.isArray(it.tag) ? it.tag[0] : it.tag) },
+        text: cleanDatabaseText(it.description),
       } : null),
     ],
+  };
+}
+
+const DATABASE_AUDIT_CONFIG = {
+  gi: { sourceGame: 'gi', dir: 'gi', idPrefix: 'gi', collections: ['monsters', 'items'] },
+  hsr: { sourceGame: 'hsr', dir: 'hsr', idPrefix: 'hsr', collections: ['monsters', 'items'] },
+  zzz: { sourceGame: 'zzz', dir: 'zzz', idPrefix: 'zzz', collections: ['monsters', 'items'] },
+  wuwa: { sourceGame: 'ww', dir: 'ww', idPrefix: 'ww', collections: ['monsters', 'items'] },
+};
+const DATABASE_SOURCE_ROWS_CACHE = new Map();
+
+function databaseSourceRows(dir, collection) {
+  const key = `${dir}/${collection}`;
+  if (DATABASE_SOURCE_ROWS_CACHE.has(key)) return DATABASE_SOURCE_ROWS_CACHE.get(key);
+  const rawFile = collection === 'items' ? 'itemAll.json' : 'monsters.json';
+  const value = readJson(`GameData/${dir}/live/raw/${rawFile}`);
+  const rows = new Map(Array.isArray(value)
+    ? value.map((row, index) => [String(row?.id ?? index), row])
+    : Object.entries(value || {}).map(([id, row]) => [String(id), row]));
+  DATABASE_SOURCE_ROWS_CACHE.set(key, rows);
+  return rows;
+}
+
+function sourceIconField(row) {
+  for (const field of ['icon', 'icon_path', 'item_icon_path', 'item_figure_icon_path', 'image_path']) {
+    const value = row?.[field];
+    if (typeof value === 'string' && value.trim()) return { field, value };
+  }
+  return null;
+}
+
+function wuwaAuditAssetPath(sourceRef) {
+  if (!sourceRef || typeof sourceRef !== 'string') return null;
+  const asset = sourceRef
+    .replace(/^\/Game\/Aki\/UI\//, '')
+    .replace(/^Game\/Aki\/UI\//, '')
+    .replace(/^\/Game\/Aki\//, '')
+    .replace(/^Game\/Aki\//, '')
+    .replace(/\\/g, '/');
+  const parts = asset.split('/');
+  const file = parts.pop() || '';
+  const stem = file.split('.')[0].replace(/\.(png|webp|jpg|jpeg)$/i, '');
+  return [...parts, `${stem}.webp`].filter(Boolean).join('/');
+}
+
+function auditAssetProvenance(game, collection, iconField, normalizedDestination) {
+  let remotePath = null;
+  let localDestination = normalizedDestination || null;
+  const iconValue = iconField?.value;
+
+  if (game === 'hsr') {
+    const stem = iconValue ? path.basename(iconValue).replace(/\.(png|webp|jpg|jpeg)$/i, '') : null;
+    if (stem) {
+      const remoteFolder = collection === 'monsters' ? 'monsterfigure' : 'itemfigures';
+      remotePath = `${remoteFolder}/${stem}.webp`;
+      localDestination ||= `GameData/hsr/assets/${collection}/${stem}.webp`;
+    }
+  } else if (game === 'ww') {
+    remotePath = wuwaAuditAssetPath(iconValue);
+    if (remotePath) localDestination ||= `GameData/ww/assets/${collection}/${remotePath}`;
+  } else if (iconValue) {
+    remotePath = `${path.basename(iconValue).replace(/\.(png|webp|jpg|jpeg)$/i, '')}.webp`;
+    localDestination ||= `GameData/${game}/assets/${collection}/${remotePath}`;
+  }
+
+  if (!remotePath && localDestination) {
+    const marker = `GameData/${game}/assets/${collection}/`;
+    remotePath = localDestination.startsWith(marker) ? localDestination.slice(marker.length) : null;
+  }
+
+  return {
+    localDestination,
+    sourceUrl: remotePath ? `https://static.nanoka.cc/assets/${game}/${remotePath}` : null,
+  };
+}
+
+function buildDatabaseArtAudit(lazyCollections) {
+  const summaries = [];
+  const records = [];
+  const quarantinedRecords = [];
+
+  for (const [siteGame, config] of Object.entries(DATABASE_AUDIT_CONFIG)) {
+    const generatedByCollection = new Map((lazyCollections[siteGame] || []).map((collection) => [collection.key, collection]));
+    for (const collection of config.collections) {
+      const sourceRows = databaseSourceRows(config.dir, collection);
+      const normalized = readJson(`GameData/${config.dir}/live/${collection}.json`);
+      const generated = generatedByCollection.get(collection)?.items || [];
+      const generatedById = new Map(generated.map((row) => [row.id, row]));
+
+      if (sourceRows.size !== normalized.length) {
+        throw new Error(
+          `Database count mismatch for ${siteGame}/${collection}: source=${sourceRows.size}, normalized=${normalized.length}`,
+        );
+      }
+
+      let availableArt = 0;
+      let quarantinedCount = 0;
+      normalized.forEach((row) => {
+        const sourceRow = sourceRows.get(String(row.id));
+        const iconField = sourceIconField(sourceRow);
+        const expectedId = `${config.idPrefix}-${collection === 'monsters' ? 'mon' : 'item'}-${row.id}`;
+        const classification = databaseRecordClassification({
+          game: siteGame,
+          collection,
+          recordId: row.id,
+          name: row.name,
+          sourceIcon: iconField?.value,
+        });
+
+        if (classification !== 'released') {
+          quarantinedCount += 1;
+          quarantinedRecords.push({
+            game: siteGame,
+            collection,
+            recordId: String(row.id),
+            name: row.name,
+            releaseStatus: 'internal/test',
+            sourceIconField: iconField,
+            sourceUrl: null,
+            localDestination: null,
+            result: 'quarantined',
+            reason: 'The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance.',
+          });
+          return;
+        }
+
+        const generatedRow = generatedById.get(expectedId);
+        if (!generatedRow) {
+          throw new Error(`Approved Database row missing from generated output: ${siteGame}/${collection}/${row.id}`);
+        }
+
+        if (generatedRow.art) {
+          if (/^https?:\/\//i.test(generatedRow.art)) {
+            throw new Error(`Remote Database art is forbidden: ${generatedRow.art}`);
+          }
+          availableArt += 1;
+          return;
+        }
+
+        const unsafeSourceIcon = databaseSourceIconPolicy(iconField?.value) !== 'allowed';
+        const provenance = unsafeSourceIcon
+          ? { sourceUrl: null, localDestination: null }
+          : auditAssetProvenance(
+            config.sourceGame,
+            collection,
+            iconField,
+            row.assets?.icon || null,
+          );
+        records.push({
+          game: siteGame,
+          collection,
+          recordId: String(row.id),
+          name: row.name,
+          releaseStatus: row.contentStatus || 'live',
+          sourceIconField: iconField,
+          sourceUrl: provenance.sourceUrl,
+          localDestination: provenance.localDestination,
+          result: unsafeSourceIcon ? 'unsafe-source-icon' : (iconField ? 'unavailable' : 'no-approved-source-icon'),
+          reason: unsafeSourceIcon
+            ? 'The released record uses a known internal/test placeholder icon. The record remains available, but its unsafe art is blocked and no replacement filename is guessed.'
+            : (iconField
+              ? 'The exact icon named by the released source record was not available as a usable local file after the scraper attempt.'
+              : 'The released source record does not name an icon, so no filename or URL was guessed.'),
+        });
+      });
+
+      if (generated.length + quarantinedCount !== normalized.length) {
+        throw new Error(
+          `Database quarantine count mismatch for ${siteGame}/${collection}: normalized=${normalized.length}, generated=${generated.length}, quarantined=${quarantinedCount}`,
+        );
+      }
+
+      summaries.push({
+        game: siteGame,
+        collection,
+        sourceCount: sourceRows.size,
+        normalizedCount: normalized.length,
+        quarantinedCount,
+        approvedSourceCount: normalized.length - quarantinedCount,
+        generatedCount: generated.length,
+        localArtCount: availableArt,
+        missingArtCount: generated.length - availableArt,
+      });
+    }
+  }
+
+  records.sort((a, b) => a.game.localeCompare(b.game)
+    || a.collection.localeCompare(b.collection)
+    || a.recordId.localeCompare(b.recordId, undefined, { numeric: true }));
+  quarantinedRecords.sort((a, b) => a.game.localeCompare(b.game)
+    || a.collection.localeCompare(b.collection)
+    || a.recordId.localeCompare(b.recordId, undefined, { numeric: true }));
+  return {
+    generatedAt: new Date().toISOString(),
+    policy: 'Released/live records only. Exact source icon fields only; no guessed filenames, beta data, hotlinks, raw dumps, or asset packs.',
+    summary: summaries,
+    missingArtCount: records.length,
+    records,
+    quarantinedCount: quarantinedRecords.length,
+    quarantinedRecords,
   };
 }
 
@@ -4794,6 +5021,15 @@ for (const [key, pack] of Object.entries(cmBetaDeltas)) {
 }
 
 const lazyCollections = buildLazyCollections();
+const databaseArtAudit = buildDatabaseArtAudit(lazyCollections);
+const databaseAuditsDir = path.resolve(dbDir, 'Audits');
+fs.mkdirSync(databaseAuditsDir, { recursive: true });
+fs.writeFileSync(
+  path.resolve(databaseAuditsDir, 'database-missing-art.json'),
+  JSON.stringify(databaseArtAudit, null, 2),
+  'utf8',
+);
+console.log(`Database art audit: ${databaseArtAudit.summary.map((row) => `${row.game}/${row.collection}=${row.localArtCount}/${row.generatedCount}`).join(', ')}; missing=${databaseArtAudit.missingArtCount}; quarantined=${databaseArtAudit.quarantinedCount}`);
 for (const [key, cols] of Object.entries(lazyCollections)) {
   fs.writeFileSync(
     path.resolve(generatedDataDir, `db-data-${key}.js`),

@@ -4,10 +4,11 @@
   "id": "a-discussion-about-the-citizens-assembly",
   "name": "A Discussion About the Citizens' Assembly",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/A_Discussion_About_the_Citizens%27_Assembly",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-c7069538a1ac7b1f"
           },
           {
             "type": "paragraph",
@@ -45,7 +47,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-cf1d0f8dbebbe10c"
           },
           {
             "type": "paragraph",
@@ -66,7 +69,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-fbd5d081512e2f42"
           },
           {
             "type": "paragraph",
@@ -87,7 +91,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-37b88ef7068c391b"
           },
           {
             "type": "paragraph",
@@ -108,7 +113,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-08b3f9435c7159ff"
           },
           {
             "type": "paragraph",
@@ -129,7 +135,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-24d9ac06ae03d25b"
           },
           {
             "type": "paragraph",
@@ -150,7 +157,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-9fae9f038f0529d4"
           },
           {
             "type": "paragraph",
@@ -171,7 +179,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-c50a170ad98e5d86"
           },
           {
             "type": "paragraph",
@@ -192,7 +201,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-100e8189a527237c"
           },
           {
             "type": "paragraph",
@@ -213,7 +223,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-998b48a52235d582"
           },
           {
             "type": "paragraph",
@@ -234,7 +245,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-bae41e59fd20f31e"
           },
           {
             "type": "paragraph",
@@ -255,7 +267,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-d5dda68110009b5b"
           },
           {
             "type": "paragraph",
@@ -276,7 +289,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-668fb0c816ebc985"
           },
           {
             "type": "paragraph",
@@ -297,7 +311,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-6e8dcfed8c16146a"
           },
           {
             "type": "paragraph",
@@ -318,7 +333,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-f8cedba88888f059"
           },
           {
             "type": "paragraph",
@@ -339,7 +355,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-33006ef8b660bb8a"
           },
           {
             "type": "paragraph",
@@ -360,7 +377,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ad5fbf2da6a18de9"
           },
           {
             "type": "paragraph",
@@ -381,7 +399,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-7a8afd479fb7a9ce"
           },
           {
             "type": "paragraph",
@@ -395,7 +414,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-10169dc651e7134b"
           },
           {
             "type": "paragraph",
@@ -404,7 +424,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

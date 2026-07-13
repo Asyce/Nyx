@@ -4,10 +4,11 @@
   "id": "on-pomegranate-juice",
   "name": "On Pomegranate Juice",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/On_Pomegranate_Juice",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -29,7 +30,8 @@
                 "type": "text",
                 "text": "Pomegranate juice originated from Castrum Kremnos. It was not just a beverage, but a cultural symbol as well. This paper will attempt to examine the origin and the evolution of this tradition and create a comprehensive record for the Hereafter."
               }
-            ]
+            ],
+            "id": "p-7512aab91f338072"
           },
           {
             "type": "paragraph",
@@ -55,7 +57,8 @@
                 "type": "text",
                 "text": "According to the Chronicles of War, located in the archives in the Council of Elders, Castrum Kremnos, during the early days of Era Bellica, followers of Nikador had the unfortunate practice of drinking their enemies' blood. At that time, Kremnoan believed that drinking the blood of powerful enemies would grant them the valiance of the deceased. There was no evidence, but it was a popular tradition."
               }
-            ]
+            ],
+            "id": "p-afae1504bec453c5"
           },
           {
             "type": "paragraph",
@@ -78,7 +81,8 @@
                 "type": "text",
                 "text": "According to the Story of the Tide, Phagousa, the Ocean Titan, appeared to save the poor residents. They ordered their followers to drink pomegranate juice instead, and imbued their powers in the juice. Nikador was unable to tell the difference between pomegranate and blood, and even praised the beverage for its flavor."
               }
-            ]
+            ],
+            "id": "p-dc655fbfd6674ba2"
           },
           {
             "type": "paragraph",
@@ -111,7 +115,8 @@
                 "type": "text",
                 "text": "Ultimately, General Kraso left a statement that signified the change: \"We all know the wisdom of Nikador and Phagousa. Pomegranates have the same color as blood and taste like blood, so isn't its juice fitting for a warrior? Consuming large quantities of pomegranate juice before a battle would demonstrate our valiance and carry on Nikador's legacy. Is this not a perfect solution?\""
               }
-            ]
+            ],
+            "id": "p-7f00d09473bfa2bd"
           },
           {
             "type": "paragraph",
@@ -127,7 +132,8 @@
                 "type": "text",
                 "text": "In Year 2650 of the Light Calendar, the Council of Elders formally declared that pomegranate juice would replace blood, and created relevant rituals and rules. This signified a critical change in the beverage culture of Council of Elders."
               }
-            ]
+            ],
+            "id": "p-f3766707b1b69cfe"
           },
           {
             "type": "paragraph",
@@ -174,7 +180,8 @@
                 "type": "text",
                 "text": "An iron vessel for storage (for the rusty flavor)"
               }
-            ]
+            ],
+            "id": "p-1afc60fbbf4c14fd"
           },
           {
             "type": "paragraph",
@@ -218,7 +225,8 @@
                 "type": "text",
                 "text": "Dendrobium catenatum (this version allegedly enhanced stamina, and was often consumed before marching)"
               }
-            ]
+            ],
+            "id": "p-f858c5b10a224ff4"
           },
           {
             "type": "paragraph",
@@ -274,7 +282,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-aaa509bd9abc1464"
           },
           {
             "type": "paragraph",
@@ -290,7 +299,8 @@
                 "type": "text",
                 "text": "During recent years, a group led by a famous warrior created a new recipe by adding goat's milk and cheese, giving the beverage a light pink hue. The conservatives on the Council of Elders expressed their discontent at this change. However, research showed that dairy was included in Phagousa's original recipe, so maybe the new recipe was actually closer to the beverage's original form."
               }
-            ]
+            ],
+            "id": "p-ef3a64279aa9c697"
           },
           {
             "type": "paragraph",
@@ -330,7 +340,8 @@
                 "type": "text",
                 "text": "3. At the funerals for the deceased: Pomegranate juice is sprinkled on shields to symbolize the return of these soldiers."
               }
-            ]
+            ],
+            "id": "p-31eb811d0f429ecd"
           },
           {
             "type": "paragraph",
@@ -360,7 +371,8 @@
                 "type": "text",
                 "text": "3. Alliance Ceremony: The entities creating the Alliance drink from the same cup."
               }
-            ]
+            ],
+            "id": "p-95ff20e983a59090"
           },
           {
             "type": "paragraph",
@@ -386,7 +398,8 @@
                 "type": "text",
                 "text": "What must be noted here, however, is that the key to pomegranate juice replacing blood lies in the fact that the core concept of the warrior culture was preserved — the valiance that transcended even death — and that is why Castrum Kremnos still stands tall today."
               }
-            ]
+            ],
+            "id": "p-c657862f00177f87"
           },
           {
             "type": "paragraph",
@@ -405,7 +418,8 @@
                 "type": "text",
                 "text": "May the warriors who drink the pomegranate juice forever remember the history and the glory contained within. As remarked by an ancient sage, \"pomegranate juice is not blood, but it carries a deeper significance than blood.\""
               }
-            ]
+            ],
+            "id": "p-b03b8ebdff487142"
           },
           {
             "type": "paragraph",
@@ -419,7 +433,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-67d1941a55af791d"
           }
         ]
       }

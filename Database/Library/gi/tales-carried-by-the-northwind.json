@@ -4,17 +4,19 @@
   "id": "tales-carried-by-the-northwind",
   "name": "Tales Carried by the Northwind",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Tales_Carried_by_the_Northwind",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -103,7 +105,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-b8198f6af022e644"
           },
           {
             "type": "paragraph",
@@ -199,7 +202,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-a4820a4ec1764652"
           },
           {
             "type": "paragraph",
@@ -274,7 +278,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-ea19f6cfa4729025"
           },
           {
             "type": "paragraph",
@@ -356,7 +361,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-bf44782f974e737b"
           },
           {
             "type": "paragraph",
@@ -403,7 +409,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-969d8afa1bcb9ac5"
           },
           {
             "type": "paragraph",
@@ -450,7 +457,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-926709d0d134744b"
           },
           {
             "type": "paragraph",
@@ -469,7 +477,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-a1fcc2bb2b30fe1e"
           },
           {
             "type": "paragraph",
@@ -523,7 +532,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-c65913a222948d95"
           },
           {
             "type": "paragraph",
@@ -668,7 +678,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-b92541d63047e332"
           },
           {
             "type": "paragraph",
@@ -691,7 +702,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-841dae881a664170"
           }
         ]
       }

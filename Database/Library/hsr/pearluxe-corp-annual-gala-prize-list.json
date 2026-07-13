@@ -4,17 +4,19 @@
   "id": "pearluxe-corp-annual-gala-prize-list",
   "name": "Pearluxe Corp Annual Gala Prize List",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Pearluxe_Corp_Annual_Gala_Prize_List",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -35,7 +37,8 @@
                 "type": "text",
                 "text": "\"Work Exemption Certificate\": Congratulations! As of today, you have earned yourself a lifetime of unpaid leave!"
               }
-            ]
+            ],
+            "id": "p-193c6e7b16e90b65"
           },
           {
             "type": "paragraph",
@@ -56,7 +59,8 @@
                 "type": "text",
                 "text": "\"Ascension Voucher\": Upon use, you will be granted a one-on-one meeting with Madam Pearl. The conversation is limited to 30 minutes, so make the most of this opportunity to move up the social ladder."
               }
-            ]
+            ],
+            "id": "p-2d6cf18398cc1bc9"
           },
           {
             "type": "paragraph",
@@ -77,7 +81,8 @@
                 "type": "text",
                 "text": "\"Empty Layoff List\": This list can be applied to any employee below the P30 rank, forcing them to pack their bags and leave within three days. This is a single-use item. Please select your target with caution."
               }
-            ]
+            ],
+            "id": "p-c6023af82261fb3f"
           },
           {
             "type": "paragraph",
@@ -98,7 +103,8 @@
                 "type": "text",
                 "text": "\"Efficiency Boost Bundle\": Includes a \"Forced Wake-up Alarm,\" an \"EEG Monitor,\" and an \"Electric Shock Smart Chair\" to assist users in maximizing their productivity."
               }
-            ]
+            ],
+            "id": "p-3abe50c7f5f051b3"
           },
           {
             "type": "paragraph",
@@ -132,7 +138,8 @@
                 "type": "text",
                 "text": "VFX film. While in high demand on the market, the item contains special encoding and resale is strictly prohibited."
               }
-            ]
+            ],
+            "id": "p-6eb32e2c225b1528"
           },
           {
             "type": "paragraph",
@@ -166,7 +173,8 @@
                 "type": "text",
                 "text": "series."
               }
-            ]
+            ],
+            "id": "p-4c4b8cb7a65b6333"
           },
           {
             "type": "paragraph",
@@ -187,7 +195,8 @@
                 "type": "text",
                 "text": "\"Thank You Box\": Contains a \"Deluxe Edition Employee Handbook,\" 10 cafeteria vouchers, and 3 paid sick leave application forms."
               }
-            ]
+            ],
+            "id": "p-a33ea33a3eb1499c"
           }
         ]
       }

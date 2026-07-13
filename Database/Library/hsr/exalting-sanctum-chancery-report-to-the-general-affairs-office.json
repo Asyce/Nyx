@@ -4,10 +4,11 @@
   "id": "exalting-sanctum-chancery-report-to-the-general-affairs-office",
   "name": "Exalting Sanctum Chancery Report to the General Affairs Office",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Exalting_Sanctum_Chancery_Report_to_the_General_Affairs_Office",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "To the General Affairs Office,"
               }
-            ]
+            ],
+            "id": "p-59bcb05e36f65b13"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Under the wise guidance of the Six Charioteers and the Ten-Lords Commission, the Disciple of Sanctus Medicus' conspiracy, headed by Dan Shu, to take advantage of the Ambrosial Arbor to overturn the Luofu has been thwarted. All the culprits have been apprehended and their leader has been annihilated. All on the Xianzhou Luofu exerted their efforts together to snap this catastrophe in its bud. However, while Dan Shu's rebellion has been suppressed, its aftermath has caused severe effects on the lives of ordinary civilians. Here is a report on recent events."
               }
-            ]
+            ],
+            "id": "p-7f7ae0e0154cdb22"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "Firstly, due to the impact of Dan Shu's rebellion, a faction of unruly individuals instigated public unrest against the alchemists and healers of the Alchemy Commission. Last week, a group of ruffians defaced the temporary site of the Alchemy Commission, openly denounced all the commissions on the Xianzhou, and propagated the heresy that only the Ruin Author will bring an end to the plague. Some civilians even broke into the former Alchemy Commission site to plunder supplies, resulting in physical altercations with the Cloud Knights on guard there. Currently, all troublemakers have been apprehended by the Cloud Knights, and further investigations have shown that they are all outworlders hired by the Annihilation Gang. We are currently collaborating with the Cloud Knights to suppress these riots and have arrested all individuals responsible. This case is currently under trial."
               }
-            ]
+            ],
+            "id": "p-0ca377ab51eaf7f6"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "Secondly, the Realm-Keeping Commission, in recent collaboration with the Sky-Faring Commission, has apprehended a gang of criminals suspected of smuggling Xianzhou native creatures to the outworlds. This operation has led to the arrest of fifteen suspects and the shutdown of ten processing and warehousing facilities. The criminal group had been smuggling and stockpiling a significant number of biological samples from the Xianzhou under the guise of research activities, disguising the goods as trade commodities to be exported. We followed their trail and while destroying their headquarters, we also apprehended former Disciples of Sanctus Medicus on the run who are planning on smuggling themselves out of the Xianzhou. This case is currently under trial."
               }
-            ]
+            ],
+            "id": "p-d1516e875abffbd4"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "Thirdly, various unaffiliated individuals on social media platforms have been making claims that the Ambrosial Arbor, after its resurrection, emits an ominous aura that accelerates the onset of mara. This rumor has spread widely among the residents and caused panic. Certain groups believing in the Firmamend Arbiter cited their myth as evidence and argued that a colossal wall must be built around the Arbor to completely ward off its potential effects for eternity. These outworld groups even proposed their plans and submitted them to the Realm-Keeping Commission. However, the feasibility of their plans are absurd, and the costs involved are enormous. After being rejected several times, these groups have resorted to soliciting donations from the public and promoting their view that the construction of a wall can ward off the demonic aura. They are currently facing legal consequences for engaging in illegal fundraising activities."
               }
-            ]
+            ],
+            "id": "p-e1c2b64f07d0099d"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "Fourthly, following the Ambrosial Arbor's rebirth, certain merchants have deliberately spread false information for personal gain. They claim that the Lunarescent Depths possess the ability to suppress the ominous aura from the Arbor, and thus begun promoting the water from that sea as a medicinal remedy. Some more extreme cases have seen shops promoting ordinary salt as \"Lunarescent Depths Salt\" and sold it at exorbitant prices, inciting people to stockpile salt. Such actions have severely disrupted the market order and have wildly influenced commodity prices. Currently, the Realm-Keeping Commission is cracking down on a handful of prominent merchants involved in this deception, imposing fines and revoking their licenses."
               }
-            ]
+            ],
+            "id": "p-224793ae49c51dd4"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "Fifthly, due to the lack of trust in the Alchemy Commission after the disaster, medical scams have proliferated. The primary victims of these scams are elderly Xianzhou natives who have sought treatment from the Alchemy Commission before, have suffered the loss of their children during the calamity, and are old enough to become mara-struck soon. Swindlers use hooks such as giving out free food to get these people , then employ various methods such as presenting themselves as health experts, miracle-working doctors, or anti-Alchemy-Commission progressives to offer health products that purportedly delay the effects of mara. They exploit the victims' trust, spread rumors, and capitalize on anxiety, while falsely advertising these health products as elixirs and selling them at incredibly high prices. The Realm-Keeping Commission has apprehended numerous suspects and dismantled their sales channels. Additionally, we have published anti-fraud notices in each residential community, making residents aware of frauds and suspicious individuals."
               }
-            ]
+            ],
+            "id": "p-957ff8f656c11816"
           },
           {
             "type": "paragraph",
@@ -95,7 +103,8 @@
                 "type": "text",
                 "text": "from the black market in Aurum Alley, subsequently organizing this pilgrimage for the group members."
               }
-            ]
+            ],
+            "id": "p-d8ba1d28b201b020"
           },
           {
             "type": "paragraph",
@@ -104,7 +113,8 @@
                 "type": "text",
                 "text": "The Realm-Keeping Commission is highly concerned regarding this matter and has at the earliest opportunity dissuaded the group to return. Currently, we are investigating the organizers and have arranged for the rest of the group to return home or accept priority treatment from the Alchemy Commission. We plan to organize community workers who specialize in caring for seniors to monitor the mental status of the group members. Furthermore, we will intensify our monitoring of Aurum Alley's markets to eradicate illegal peddlers with dubious backgrounds."
               }
-            ]
+            ],
+            "id": "p-a4da5f68578d210e"
           },
           {
             "type": "paragraph",
@@ -113,7 +123,8 @@
                 "type": "text",
                 "text": "In summary, while Dan Shu's rebellion has been quelled, its repercussions have had a significant impact on various aspects within the community, including matters of faith, the business environment, and even the credibility of authority. While these issues may appear minor and isolated, a closer examination reveals their interconnections, as several of these cases involve organizations beyond the Xianzhou Alliance and other religious beliefs. For the next step, the Realm-Keeping Commission will prioritize its efforts to calm the people's minds and strengthen their spiritual and unity. I submit this report to you, Commissioner, and eagerly await your assessment of the public's general mood. Additionally, the Exalting Sanctum Chancery would like to hire more transferred over from other departments as we are currently severely understaffed."
               }
-            ]
+            ],
+            "id": "p-0e5abf9e2c0e771e"
           },
           {
             "type": "paragraph",
@@ -122,7 +133,8 @@
                 "type": "text",
                 "text": "Yours Respectfully,"
               }
-            ]
+            ],
+            "id": "p-6aabe01115ffee4a"
           },
           {
             "type": "paragraph",
@@ -131,7 +143,8 @@
                 "type": "text",
                 "text": "Dahao, Official of the Realm-Keeping Commission"
               }
-            ]
+            ],
+            "id": "p-aa79b2aab0106ec7"
           }
         ]
       }

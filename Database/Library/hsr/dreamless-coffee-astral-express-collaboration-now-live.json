@@ -4,10 +4,11 @@
   "id": "dreamless-coffee-astral-express-collaboration-now-live",
   "name": "Dreamless Coffee × Astral Express Collaboration Now Live!",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Dreamless_Coffee_%C3%97_Astral_Express_Collaboration_Now_Live!",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Dreamless Coffee &times; Astral Express Collaboration now live! May this journey find its way to your taste buds!"
               }
-            ]
+            ],
+            "id": "p-ee2e41008dd667ce"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "During the collab, we're launching a full line of special drinks! Don't forget the Express Crew merch and 50% off your second cup!"
               }
-            ]
+            ],
+            "id": "p-a601c31b5dab2635"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-e39650368a500447"
           },
           {
             "type": "paragraph",
@@ -66,7 +70,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-d2438e95ad01fc5d"
           },
           {
             "type": "paragraph",
@@ -90,7 +95,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-50ff576686f0ee12"
           },
           {
             "type": "paragraph",
@@ -124,7 +130,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-006fe589d18ca392"
           },
           {
             "type": "paragraph",
@@ -148,7 +155,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-b74efb70918dd8cc"
           },
           {
             "type": "paragraph",
@@ -182,7 +190,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-59325af7a4d372b7"
           },
           {
             "type": "paragraph",
@@ -226,7 +235,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-fd908db87721be0c"
           },
           {
             "type": "paragraph",
@@ -240,7 +250,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-5d302b1e4af471d9"
           },
           {
             "type": "paragraph",
@@ -249,7 +260,8 @@
                 "type": "text",
                 "text": "Collaboration Slogan: To purchase the special collaboration drink, shout out loud to the staff \"Help me, Conductor Pom-Pom!\""
               }
-            ]
+            ],
+            "id": "p-e26f237191c81c3b"
           },
           {
             "type": "paragraph",
@@ -258,7 +270,8 @@
                 "type": "text",
                 "text": "Second Cup At Half Price: Buy any two collab special drinks, and get 50% off your second drink!"
               }
-            ]
+            ],
+            "id": "p-bdda32a86852cf36"
           },
           {
             "type": "paragraph",
@@ -267,7 +280,8 @@
                 "type": "text",
                 "text": "Random Merch Giveaway: Buy any collab special drink and get a random Express Crew coaster!"
               }
-            ]
+            ],
+            "id": "p-fc5abd31e94c1a88"
           },
           {
             "type": "paragraph",
@@ -281,7 +295,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-5fcc8dde57cafdb5"
           }
         ]
       }

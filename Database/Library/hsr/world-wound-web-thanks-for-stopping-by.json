@@ -4,10 +4,11 @@
   "id": "world-wound-web-thanks-for-stopping-by",
   "name": "World Wound Web, Thanks for Stopping By",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/World_Wound_Web,_Thanks_for_Stopping_By",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-edd59b38f7bafac2"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "Not too long ago, the World Wound Web was filled with commercial ads such as this:"
               }
-            ]
+            ],
+            "id": "p-284f7b2a92031975"
           },
           {
             "type": "paragraph",
@@ -52,7 +55,8 @@
                 "type": "text",
                 "text": "\"Superhero\" bath soap makes me dance with steps so light~ ♪ ♪"
               }
-            ]
+            ],
+            "id": "p-b120544ec8f39231"
           },
           {
             "type": "paragraph",
@@ -61,7 +65,8 @@
                 "type": "text",
                 "text": "Yes, back then, the World Wound Web was much like the products it advertised, full of the scent of soap, and utterly exhausting. And what was it that Aglaea had promised us? The World Wound Web was supposed to be a network for sharing knowledge, a great platform for openness, equality, collaboration, and sharing. But what was the reality? Bad information drove out the good, and we weren't just drowning people's senses with garbage data; we were using the platform to stir up endless arguments. I once voiced my confusion to Kephale, but he just remained silent. If things keep going this way, what kind of fate awaits us at the end of this digital torrent? Speed is no ally of civilization — it's just a beast that devours humanity!"
               }
-            ]
+            ],
+            "id": "p-a53626624d9a9006"
           },
           {
             "type": "paragraph",
@@ -70,7 +75,8 @@
                 "type": "text",
                 "text": "However, I must clarify one thing — although, like many others, I voted against Ms. Aglaea at the citizens' assembly, I still believe she was an honest and upright person. I would think that even the public servants from the Council of Elders who spoke out for us would agree: she was merely a tragic blind soul, oblivious to reality, walking alone in her fantasy world."
               }
-            ]
+            ],
+            "id": "p-e8a334774253470a"
           },
           {
             "type": "paragraph",
@@ -105,7 +111,8 @@
                 "type": "text",
                 "text": "to finish downloading. Yesterday, I would have found this unbearably slow-paced. But now, after we've truly lost the golden thread, and the World Wound Web no longer has any advantage over Flying Amphora in speed... I find myself regaining balance in life, rediscovering inner peace."
               }
-            ]
+            ],
+            "id": "p-7f1e1c66fd07936e"
           },
           {
             "type": "paragraph",
@@ -114,7 +121,8 @@
                 "type": "text",
                 "text": "In terms of commercial ads, the World Wound Web may already be dead. But in my heart, it has just been reborn. (Sent anonymously by Parting Hour third Quint, actively responding to comments, but be careful not to reveal your identity)"
               }
-            ]
+            ],
+            "id": "p-08deabf001d775e6"
           }
         ]
       }

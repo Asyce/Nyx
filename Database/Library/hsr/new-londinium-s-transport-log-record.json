@@ -4,10 +4,11 @@
   "id": "new-londinium-s-transport-log-record",
   "name": "New Londinium's Transport Log Record",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/New_Londinium%27s_Transport_Log_Record",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -82,7 +83,8 @@
                 "type": "text",
                 "text": "Delivery Location: Klimt Republic — Border Battlefield"
               }
-            ]
+            ],
+            "id": "p-d96333a6ff750059"
           },
           {
             "type": "paragraph",
@@ -133,7 +135,8 @@
                 "type": "text",
                 "text": "Route Status: Normal"
               }
-            ]
+            ],
+            "id": "p-2791b21f2fe2b232"
           },
           {
             "type": "paragraph",
@@ -142,7 +145,8 @@
                 "type": "text",
                 "text": "It's been less than a week since we wrapped up the last delivery, and now we've got a new job lined up from the higher-ups."
               }
-            ]
+            ],
+            "id": "p-f9234f0dae2eebf2"
           },
           {
             "type": "paragraph",
@@ -160,7 +164,8 @@
                 "type": "text",
                 "text": "sigh* The higher-ups say capable ones should do more, especially since we're the top-performing team. It's not all bad though. It's a chance to toughen up the rookies. Honestly, the current batch of young crew members is softer than ever. None of them can handle hard work. They start whining about needing a break before we've even sailed a dozen light-years. And now, thanks to the sponsor's orders, we can't stop anywhere except at the IPC's internal asteroid supply stations during this journey. Those rookies are in for a rude awakening."
               }
-            ]
+            ],
+            "id": "p-02f2365b15dadb45"
           },
           {
             "type": "paragraph",
@@ -204,7 +209,8 @@
                 "type": "text",
                 "text": "Route Status: Minor disturbances, no repairs needed"
               }
-            ]
+            ],
+            "id": "p-715dbd4cfc9a8764"
           },
           {
             "type": "paragraph",
@@ -213,7 +219,8 @@
                 "type": "text",
                 "text": "Today, I played cards with the IPC specialist and cleaned him out. He had to give me a bottle of Dragon Spring Brew to get his uniform back. He said it's a rare drink, and he wasn't kidding. I almost got drunk just from popping the bottle cap. *sigh* This route was supposed to take us through the Luofu. If it weren't for the sponsor's ridiculous demands, I would definitely have gone for a proper drink there."
               }
-            ]
+            ],
+            "id": "p-22244d89e1ee119a"
           },
           {
             "type": "paragraph",
@@ -222,7 +229,8 @@
                 "type": "text",
                 "text": "Given all the secrecy, I asked the specialist what valuable thing we were transporting this time. He said it's the Guild's latest secret weapon designed specifically to take down the Antimatter Legion. Those nerds at the Guild always say that, but the items always end up getting smashed into scrap metal."
               }
-            ]
+            ],
+            "id": "p-c04f504c6906fb7a"
           },
           {
             "type": "paragraph",
@@ -266,7 +274,8 @@
                 "type": "text",
                 "text": "Route Status: Moderate disturbances, lane correction completed"
               }
-            ]
+            ],
+            "id": "p-c9559171a999da52"
           },
           {
             "type": "paragraph",
@@ -275,7 +284,8 @@
                 "type": "text",
                 "text": "Even though this is a supply station, all we can get here is fuel and water. The only food available is these rock-hard compressed biscuits that even cockroaches can't bite into. And there's a limit on those, too. I've complained to HQ several times, but nothing ever changes."
               }
-            ]
+            ],
+            "id": "p-a6cf325ede594109"
           },
           {
             "type": "paragraph",
@@ -284,7 +294,8 @@
                 "type": "text",
                 "text": "What's even more frustrating is the IPC specialists traveling with us. Their fancy meals are served up like clockwork, complete with afternoon tea and sweet treats. And once they're fed, they lounge around, playing cards all day. I really don't get why IPC keeps these freeloaders around."
               }
-            ]
+            ],
+            "id": "p-7bfffabc6b6e1693"
           },
           {
             "type": "paragraph",
@@ -328,7 +339,8 @@
                 "type": "text",
                 "text": "Route Status: Moderate disturbances, continuous lane correction underway"
               }
-            ]
+            ],
+            "id": "p-871f86d21f503b82"
           },
           {
             "type": "paragraph",
@@ -337,7 +349,8 @@
                 "type": "text",
                 "text": "This is the roughest part of the voyage. We've run out of fresh food, and every last drop of booze is gone. My mouth felt as dry and bland as cardboard."
               }
-            ]
+            ],
+            "id": "p-160f54ed376b584a"
           },
           {
             "type": "paragraph",
@@ -346,7 +359,8 @@
                 "type": "text",
                 "text": "But what's even harder to get over is the mind-numbing boredom. Most sailors have nothing to do except patrol the cargo hold endlessly. Then, yesterday, things got spicy between a few sailors and the IPC specialists. It all started because the sailors heard strange noises from the cargo holds while on patrol. They wanted to open the cargo to check it out, but the specialists wouldn't let them. It turned into a heated argument. Luckily, I stepped in just in time to calm everyone down and prevent things from escalating."
               }
-            ]
+            ],
+            "id": "p-70c82bba6a132cfe"
           },
           {
             "type": "paragraph",
@@ -355,7 +369,8 @@
                 "type": "text",
                 "text": "The crew on the long-haul transport vessels often gets freaked out by all sorts of weird occurrences. Strange noises from inside crates, cryosleep pods shutting on their own, tentacle monsters hiding in the vents... The Guild always chalks it up to the organic brains being too prone to hallucinations. Sure, I've seen my fair share of spooky stuff, but it usually disappears if you ignore it. No need to freak out. The more you shrug it off, the quicker it goes away. These young bucks are still green. At the end of the day, we're just here to haul cargo, and getting the job done is what matters most."
               }
-            ]
+            ],
+            "id": "p-01a4dea45af64650"
           },
           {
             "type": "paragraph",
@@ -399,7 +414,8 @@
                 "type": "text",
                 "text": "Route Status: Abnormal. Forced to change lanes due to unforeseen circumstances, heading to the Xianzhou Luofu for resupply"
               }
-            ]
+            ],
+            "id": "p-97aa9673747216c6"
           },
           {
             "type": "paragraph",
@@ -408,7 +424,8 @@
                 "type": "text",
                 "text": "When someone's luck goes sour, even simple tasks become challenging."
               }
-            ]
+            ],
+            "id": "p-cad1128712f9189d"
           },
           {
             "type": "paragraph",
@@ -417,7 +434,8 @@
                 "type": "text",
                 "text": "We encountered an attack by borisin, just a few light-years away from the Luofu. Our radar didn't catch their approach at all and they boarded us before our long-range weapons could even kick in. It was a dire situation. We were completely outmatched in close combat against borisin. Their razor-sharp teeth and claws could easily shatter human bones."
               }
-            ]
+            ],
+            "id": "p-7247f880542a64f8"
           },
           {
             "type": "paragraph",
@@ -426,7 +444,8 @@
                 "type": "text",
                 "text": "I ordered the sealing of all security doors and directed everyone to retreat to the central cargo hold. With my courageous leadership and strategic command, we successfully fended off borisin. They couldn't make any headway against us! While they were momentarily held back, I quickly sent out a distress signal."
               }
-            ]
+            ],
+            "id": "p-68703510d7f7dc0a"
           },
           {
             "type": "paragraph",
@@ -435,7 +454,8 @@
                 "type": "text",
                 "text": "In the end, a Xianzhou spaceship nearby spotted us. They swiftly approached and landed on the New Londinium, led by a young female swordmaster wielding a weapon taller than herself. Borisin stood no chance against her. At first, I thought they were Cloud Knights sent by the Luofu. But they introduced themselves as hailing from the Xianzhou Zhuming. Like all Xianzhou folks, they were dressed in peculiar attire..."
               }
-            ]
+            ],
+            "id": "p-bfdfdcbdb768e987"
           },
           {
             "type": "paragraph",
@@ -444,7 +464,8 @@
                 "type": "text",
                 "text": "Our spaceship suffered severe damage, with fuel and supplies nearly depleted. Its current condition doesn't support further travel. The Zhuming folks suggested we head to the Luofu for repairs. Despite strong opposition from the IPC specialists, I had no other option. As captain, I must prioritize the crew's safety, so I'm altering our course for the Luofu. As for the blasted cargo, all I can assert is that while the cargo belongs to the IPC, our lives are our own!"
               }
-            ]
+            ],
+            "id": "p-dcad04e2e03fd5b5"
           },
           {
             "type": "paragraph",
@@ -453,7 +474,8 @@
                 "type": "text",
                 "text": "But wait... There was never any hint of borisin activity in the safety reports for this route before. It's weird. Why would they attack our ship?"
               }
-            ]
+            ],
+            "id": "p-782fa51e74c28936"
           }
         ]
       }

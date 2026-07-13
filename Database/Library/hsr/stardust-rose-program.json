@@ -4,10 +4,11 @@
   "id": "stardust-rose-program",
   "name": "Stardust Rose Program",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Stardust_Rose_Program",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "page-1",
       "label": "Page 1",
       "document": {
         "version": 1,
@@ -29,7 +30,8 @@
                 "type": "em",
                 "children": []
               }
-            ]
+            ],
+            "id": "p-00e313a5b8a433fe"
           },
           {
             "type": "paragraph",
@@ -38,7 +40,8 @@
                 "type": "text",
                 "text": "A Golden Theater Drama Department's authentic production three years in the making"
               }
-            ]
+            ],
+            "id": "p-4efecb3a1e576459"
           },
           {
             "type": "paragraph",
@@ -76,7 +79,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ef37c5434b4da181"
           },
           {
             "type": "paragraph",
@@ -92,11 +96,13 @@
                 "type": "text",
                 "text": "Co-Directors"
               }
-            ]
+            ],
+            "id": "p-61c12756b7713dac"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -126,7 +132,8 @@
                 "type": "text",
                 "text": "Movement Director: David, Artistic Director: Janet, Casting Director: Thomas, Marketing Director: Holly"
               }
-            ]
+            ],
+            "id": "p-f23e30b70e6bfa80"
           },
           {
             "type": "paragraph",
@@ -205,13 +212,15 @@
                 "type": "text",
                 "text": "Town Residents - Austin, John, Emma, Paige"
               }
-            ]
+            ],
+            "id": "p-8ee57b2361396bb7"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "page-2",
       "label": "Page 2",
       "document": {
         "version": 1,
@@ -232,7 +241,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ee94a07ea834bb47"
           },
           {
             "type": "paragraph",
@@ -250,7 +260,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-3bfd24f63f26b558"
           },
           {
             "type": "paragraph",
@@ -285,7 +296,8 @@
                 "type": "text",
                 "text": "."
               }
-            ]
+            ],
+            "id": "p-f022355707b5548d"
           },
           {
             "type": "paragraph",
@@ -320,7 +332,8 @@
                 "type": "text",
                 "text": ". Despite this stage couple of the drama world having already worked together many times before, Julie said with a smile that she still couldn't resist the unique charm of her old colleague."
               }
-            ]
+            ],
+            "id": "p-305e2420d063392b"
           },
           {
             "type": "paragraph",
@@ -338,7 +351,8 @@
                 "type": "text",
                 "text": "is co-directed by two Goliards Award winners for Best Direction of a Play, and is romance novelist Amy's first stage play. Iain felt it was a little different from the typical romances, not just because it was co-directed by two well-known directors, but also because \"I felt amazing chemistry with Julie during rehearsals.\""
               }
-            ]
+            ],
+            "id": "p-788e0ec43d297aaa"
           },
           {
             "type": "paragraph",
@@ -347,7 +361,8 @@
                 "type": "text",
                 "text": "Iain tells us that during one rehearsal, Julie's skirt got tangled in a nearby prop. But because of the strong rapport between them — thanks to their countless past collaborations — Iain immediately caught Julie, and within the short duration of the changing backdrops, was able to help untangle her skirt."
               }
-            ]
+            ],
+            "id": "p-32ddaf9ddfd3df39"
           },
           {
             "type": "paragraph",
@@ -356,7 +371,8 @@
                 "type": "text",
                 "text": "Julie revealed that in this sudden incident, catching her was considered by director Jeffrey to be a \"stroke of genius,\" which happened to perfectly fit the scene of the botanist played by Julie being trapped: \"Alice is a botanist who is completely immersed into her career as a researcher. She is a little out of touch with the rest of society, so she doesn't know how to call for help, even when she's in a tight spot.\" \"But Howard's actions come from the heart.\" Taking this into consideration, Iain told us that because of this incident, this stage direction was written into the official script."
               }
-            ]
+            ],
+            "id": "p-236ba3a8ce88b063"
           },
           {
             "type": "paragraph",
@@ -391,13 +407,15 @@
                 "type": "text",
                 "text": "has a unique romantic atmosphere, different from all the plays she had acted in before. \"It's like being infected by love,\" Iain added."
               }
-            ]
+            ],
+            "id": "p-7d66bef30a1c5b97"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "page-3",
       "label": "Page 3",
       "document": {
         "version": 1,
@@ -451,7 +469,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-9cf2852f8df84b7c"
           },
           {
             "type": "paragraph",
@@ -510,7 +529,8 @@
                 "type": "text",
                 "text": "List price: 23,000 shield"
               }
-            ]
+            ],
+            "id": "p-7876d1f00be53587"
           },
           {
             "type": "paragraph",
@@ -569,7 +589,8 @@
                 "type": "text",
                 "text": "List price: 1000 shield"
               }
-            ]
+            ],
+            "id": "p-d67f582cc7319d30"
           },
           {
             "type": "paragraph",
@@ -628,7 +649,8 @@
                 "type": "text",
                 "text": "List price: 1500 shield"
               }
-            ]
+            ],
+            "id": "p-7bd92b5b4d22cec5"
           },
           {
             "type": "paragraph",
@@ -667,7 +689,8 @@
                 "type": "text",
                 "text": "List price: 30,000 shield"
               }
-            ]
+            ],
+            "id": "p-48f719c4986a3007"
           }
         ]
       }

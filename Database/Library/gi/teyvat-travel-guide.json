@@ -4,17 +4,19 @@
   "id": "teyvat-travel-guide",
   "name": "Teyvat Travel Guide",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Teyvat_Travel_Guide",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "Teyvat Geographic Special Edition – Alice's Mondstadt Diaries"
               }
-            ]
+            ],
+            "id": "p-7624379ad078f65f"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "Dadaupa Gorge"
               }
-            ]
+            ],
+            "id": "p-c2a78129147a6474"
           },
           {
             "type": "paragraph",
@@ -71,7 +75,8 @@
                 "type": "text",
                 "text": "But when I told Miss Lisa about this idea, she just looked at me and pondered in silence for a long time, then changed the subject gracefully."
               }
-            ]
+            ],
+            "id": "p-b4e4bbf88decbffe"
           },
           {
             "type": "paragraph",
@@ -80,7 +85,8 @@
                 "type": "text",
                 "text": "Starsnatch Cliff"
               }
-            ]
+            ],
+            "id": "p-1cab47d339772842"
           },
           {
             "type": "paragraph",
@@ -99,7 +105,8 @@
                 "type": "text",
                 "text": "But that unctuous Cavalry Captain rejected my proposal instantly. He even asked me to stay away from Starsnatch Cliff."
               }
-            ]
+            ],
+            "id": "p-ea7bb5c7dbd21f29"
           },
           {
             "type": "paragraph",
@@ -108,7 +115,8 @@
                 "type": "text",
                 "text": "Windrise"
               }
-            ]
+            ],
+            "id": "p-e5472c55ab7a086d"
           },
           {
             "type": "paragraph",
@@ -127,7 +135,8 @@
                 "type": "text",
                 "text": "I grabbed some hilichurls nearby to put my theory to the test. Sadly, the longest flying distance was from here to the hunters' huts around Springvale. How disappointing."
               }
-            ]
+            ],
+            "id": "p-cc94429dd105f161"
           },
           {
             "type": "paragraph",
@@ -136,7 +145,8 @@
                 "type": "text",
                 "text": "Falcon Coast"
               }
-            ]
+            ],
+            "id": "p-cfe25673c594a8d3"
           },
           {
             "type": "paragraph",
@@ -155,7 +165,8 @@
                 "type": "text",
                 "text": "On the other hand, the Outrider girl who was sent to monitor me had quite a lot of fun with the kids."
               }
-            ]
+            ],
+            "id": "p-68db1883bcf87983"
           },
           {
             "type": "paragraph",
@@ -164,7 +175,8 @@
                 "type": "text",
                 "text": "Whispering Woods"
               }
-            ]
+            ],
+            "id": "p-b73a869c8f0072b2"
           },
           {
             "type": "paragraph",
@@ -193,7 +205,8 @@
                 "type": "text",
                 "text": "I must try it out next time."
               }
-            ]
+            ],
+            "id": "p-6b67992cc0cb97fb"
           },
           {
             "type": "paragraph",
@@ -202,7 +215,8 @@
                 "type": "text",
                 "text": "Brightcrown Canyon"
               }
-            ]
+            ],
+            "id": "p-1c49910fc99107c9"
           },
           {
             "type": "paragraph",
@@ -221,7 +235,8 @@
                 "type": "text",
                 "text": "My attempt to control Ruin Guards with hilichurls failed as well. The guard split into pieces, and as for the fate of the hilichurl strapped onto it... I will spare you the gory details. Half of the ruins were also destroyed in the process."
               }
-            ]
+            ],
+            "id": "p-6e1d41cf3043d465"
           },
           {
             "type": "paragraph",
@@ -230,7 +245,8 @@
                 "type": "text",
                 "text": "Stormterror's Lair"
               }
-            ]
+            ],
+            "id": "p-d1ea5973078ec27a"
           },
           {
             "type": "paragraph",
@@ -259,20 +275,23 @@
                 "type": "text",
                 "text": "I blew up a few arcades so people can climb up the tower more easily. Looks quite good to me. The ruin feels more ancient now."
               }
-            ]
+            ],
+            "id": "p-5037bfd75a2cadfb"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -291,7 +310,8 @@
                 "type": "text",
                 "text": "Teyvat Geographic Special Edition – Alice's Travels in Liyue"
               }
-            ]
+            ],
+            "id": "p-aa5a50cf92a61813"
           },
           {
             "type": "paragraph",
@@ -300,7 +320,8 @@
                 "type": "text",
                 "text": "Dihua Marsh"
               }
-            ]
+            ],
+            "id": "p-b1f6e7659567d50b"
           },
           {
             "type": "paragraph",
@@ -329,7 +350,8 @@
                 "type": "text",
                 "text": "On the topic of alchemy practice, I've got a few new things to test out in my search for an explosion catalyst. If everything goes smoothly, I'll spend a few more days here then head to the Guili Plains."
               }
-            ]
+            ],
+            "id": "p-c2c545772336fb0b"
           },
           {
             "type": "paragraph",
@@ -338,7 +360,8 @@
                 "type": "text",
                 "text": "Guili Plains"
               }
-            ]
+            ],
+            "id": "p-4bac08a9fd58ed8c"
           },
           {
             "type": "paragraph",
@@ -377,7 +400,8 @@
                 "type": "text",
                 "text": "They run a strict operation at the checkpoint on the main road, but the guards who work there are friendly people. I made a potion from some local herbs and gave it to one of them for his stutter – it cured him, but it did have some minor side effects. He now can't help but constantly imitate everyone he comes across. Not just what they say, but the way they say it. It's uncanny how spot-on his impressions are."
               }
-            ]
+            ],
+            "id": "p-d0b9148b150a57c0"
           },
           {
             "type": "paragraph",
@@ -386,7 +410,8 @@
                 "type": "text",
                 "text": "Jueyun Karst"
               }
-            ]
+            ],
+            "id": "p-33494a6279a31247"
           },
           {
             "type": "paragraph",
@@ -425,7 +450,8 @@
                 "type": "text",
                 "text": "What an odd fellow."
               }
-            ]
+            ],
+            "id": "p-7282524bbbb08e26"
           },
           {
             "type": "paragraph",
@@ -434,7 +460,8 @@
                 "type": "text",
                 "text": "Yaoguang Shoal"
               }
-            ]
+            ],
+            "id": "p-de5a55be2ee9b5dc"
           },
           {
             "type": "paragraph",
@@ -493,7 +520,8 @@
                 "type": "text",
                 "text": "But after I lost control of my third prototype seashell-boat and it blew up, the kind old lady decided she was not going to rescue me from the sea anymore."
               }
-            ]
+            ],
+            "id": "p-a21ff3d554c729f9"
           },
           {
             "type": "paragraph",
@@ -502,7 +530,8 @@
                 "type": "text",
                 "text": "Guyun Stone Forest"
               }
-            ]
+            ],
+            "id": "p-e03ea63ff5a558ba"
           },
           {
             "type": "paragraph",
@@ -531,13 +560,15 @@
                 "type": "text",
                 "text": "The flow of the ley lines around here are unique in all of Liyue. Much more dynamic, somewhat unstable... It's as if a great, relentless power stirs somewhere in the depths of the ocean. Perhaps it is the defeated sea monster, still writhing on the ocean floor."
               }
-            ]
+            ],
+            "id": "p-68f456a00259c627"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "vol-3",
       "label": "Vol. 3",
       "document": {
         "version": 1,
@@ -559,7 +590,8 @@
                 "type": "text",
                 "text": "Teyvat Geographic Special Edition — Alice's Inazuma Diaries"
               }
-            ]
+            ],
+            "id": "p-e1a24e7ab352db78"
           },
           {
             "type": "paragraph",
@@ -618,7 +650,8 @@
                 "type": "text",
                 "text": "...And here I was looking to tease that little girl a bit more, too."
               }
-            ]
+            ],
+            "id": "p-c24a96caff04eb21"
           },
           {
             "type": "paragraph",
@@ -667,7 +700,8 @@
                 "type": "text",
                 "text": "Ah, such a waste, such a waste!"
               }
-            ]
+            ],
+            "id": "p-48e0016e39bb43c8"
           },
           {
             "type": "paragraph",
@@ -686,7 +720,8 @@
                 "type": "text",
                 "text": "...And then we got packed off to a deserted beach by the fire brigade. Something about new rules with which to keep the peace in Inazuma City, or something similarly silly."
               }
-            ]
+            ],
+            "id": "p-77e9148b661253be"
           },
           {
             "type": "paragraph",
@@ -755,7 +790,8 @@
                 "type": "text",
                 "text": "She was the one who'd allowed me to conduct experiments in the Imperial Kitchen in the first place, you know?"
               }
-            ]
+            ],
+            "id": "p-2eb163322aa0cbb6"
           },
           {
             "type": "paragraph",
@@ -764,7 +800,8 @@
                 "type": "text",
                 "text": "Also, Ms. Kamisato declined my idol group invitation for the sixth time running. Ah, what a disappointment."
               }
-            ]
+            ],
+            "id": "p-66e4ee80215c8b5c"
           },
           {
             "type": "paragraph",
@@ -813,7 +850,8 @@
                 "type": "text",
                 "text": "All of them trust and love her. I'd daresay that their respect for her dispatches might be even greater than what they give the Shogun... But Kagami Gozen herself frowns often. Very unfriendly-looking."
               }
-            ]
+            ],
+            "id": "p-d47ea6fe5ab238c3"
           },
           {
             "type": "paragraph",
@@ -822,7 +860,8 @@
                 "type": "text",
                 "text": "The Tatarasuna workers are largely rootless, washed up on these shores by the waves of history. Their many tattoos and working songs set them apart, but also strengthen their mutual bonds."
               }
-            ]
+            ],
+            "id": "p-85710cc283f2c5c1"
           },
           {
             "type": "paragraph",
@@ -831,7 +870,8 @@
                 "type": "text",
                 "text": "Like the other workers at Tatarasuna, Kagami Gozen's body has scars from high-temperature burns from Tatarigami. These may be signs of short-lived or ill people in the eyes of outsiders, but here, it is how they identify family."
               }
-            ]
+            ],
+            "id": "p-935dcedd4e1d80ee"
           },
           {
             "type": "paragraph",
@@ -857,7 +897,8 @@
                 "type": "text",
                 "text": "\"Large\" according to my personal standards, of course."
               }
-            ]
+            ],
+            "id": "p-762385e737d49195"
           },
           {
             "type": "paragraph",
@@ -873,7 +914,8 @@
                 "type": "text",
                 "text": "Well, I for one would be more than pleased to see the expressions on those astrologers' faces when their predictions come to naught! Hah!"
               }
-            ]
+            ],
+            "id": "p-291542454240bfd8"
           },
           {
             "type": "paragraph",
@@ -922,7 +964,8 @@
                 "type": "text",
                 "text": "Oh, whoa, would you look at that! This is supposed to be a travelogue, not some tedious academic paper!"
               }
-            ]
+            ],
+            "id": "p-7dd1bdcdcbf58da7"
           },
           {
             "type": "paragraph",
@@ -951,7 +994,8 @@
                 "type": "text",
                 "text": "The mines on the island are busy places indeed, but the equipment they use there is quite backward. Even though the Shogun put all those wards down, blocking off most of the Tatarigami's spread, many miners have still contracted chronic illnesses from prolonged exposure to the influence of those snake-bone crystals."
               }
-            ]
+            ],
+            "id": "p-bba7bbb02eea6338"
           },
           {
             "type": "paragraph",
@@ -960,7 +1004,8 @@
                 "type": "text",
                 "text": "The Sakura Mochi that the onmyouji brought with them are very tasty, but they're hardly the equal of the beauties that Little Yae makes."
               }
-            ]
+            ],
+            "id": "p-2cf8dbcd0dffa5a6"
           },
           {
             "type": "paragraph",
@@ -969,7 +1014,8 @@
                 "type": "text",
                 "text": "I should probably pay a visit to Asase Shrine later. I wonder how that fat cat's been doing lately... I did try to catch it with a specially-crafted cage the other time, only to be stopped by that killjoy shrine maiden."
               }
-            ]
+            ],
+            "id": "p-e499465255d23923"
           }
         ]
       }

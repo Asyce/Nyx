@@ -4,10 +4,11 @@
   "id": "ten-lords-commission-criminal-directory",
   "name": "Ten-Lords Commission Criminal Directory",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Ten-Lords_Commission_Criminal_Directory",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -29,7 +30,8 @@
                 "type": "text",
                 "text": "However, certain prisoners, either due to their indestructible nature or special status, will be consigned to the depths of the Shackling Prison for eternal imprisonment."
               }
-            ]
+            ],
+            "id": "p-cd1d44cd4549504c"
           },
           {
             "type": "paragraph",
@@ -38,7 +40,8 @@
                 "type": "text",
                 "text": "Here is the list of such special prisoners:"
               }
-            ]
+            ],
+            "id": "p-05eead3940dbd6a4"
           },
           {
             "type": "paragraph",
@@ -82,7 +85,8 @@
                 "type": "text",
                 "text": "Remarks: This aurumaton is an important weapon designed by the Primeval Imperium for warfare. Its metal limbs are significantly larger than those of contemporary aurumatons and must be disassembled and stored separately. They must not be utilized for any purpose other than warfare."
               }
-            ]
+            ],
+            "id": "p-691fa4f943b6a6c7"
           },
           {
             "type": "paragraph",
@@ -126,7 +130,8 @@
                 "type": "text",
                 "text": "Remarks: Anyone in contact with it must wear a talisman or reside in an isolated room to avoid its influence on the mind. General Huaiyan has unrestricted access to visit this prisoner."
               }
-            ]
+            ],
+            "id": "p-d946df4fbb5a1308"
           },
           {
             "type": "paragraph",
@@ -170,7 +175,8 @@
                 "type": "text",
                 "text": "Remarks: Do not mention \"Jingliu\" when conversing with this prisoner."
               }
-            ]
+            ],
+            "id": "p-cbcfcbef09ce99e2"
           },
           {
             "type": "paragraph",
@@ -214,7 +220,8 @@
                 "type": "text",
                 "text": "Remarks: Do not mention \"Teng Xiao\" when conversing with this prisoner."
               }
-            ]
+            ],
+            "id": "p-e199bdcb007cf05a"
           },
           {
             "type": "paragraph",
@@ -298,7 +305,8 @@
                 "type": "text",
                 "text": "4. Do not mention \"Jingliu\" when conversing with this prisoner."
               }
-            ]
+            ],
+            "id": "p-19767622a4f461a4"
           },
           {
             "type": "paragraph",
@@ -342,7 +350,8 @@
                 "type": "text",
                 "text": "Remarks: This prisoner is a Baviru modified by the Denizens of Abundance, formerly known as Ita Anbaromoh. While the cell is theoretically safe, a minimum of 20 Cloud Knights must be present to protect the craftsmen during maintenance."
               }
-            ]
+            ],
+            "id": "p-005ba3b3fdfa3a66"
           },
           {
             "type": "paragraph",
@@ -386,7 +395,8 @@
                 "type": "text",
                 "text": "Remarks: The balladians, the race to which the prisoner belongs, have limited visual capabilities and rely primarily on their acute sense of hearing for perception and communication. This individual in particular possess exceptional auditory acuity, enabling them to detect even the subtlest changes in sound. When conversing with this prisoner, a voice synthesizer is mandatory. Additionally, do not mention \"Jing Yuan\" when conversing with this prisoner."
               }
-            ]
+            ],
+            "id": "p-6f7a2bfcfd6be10f"
           },
           {
             "type": "paragraph",
@@ -430,7 +440,8 @@
                 "type": "text",
                 "text": "Remarks: This prisoner belongs to a short-life species from Nada, a pitch-dark astronomical object. The species' natural aversion to light ensures safe long-term custody."
               }
-            ]
+            ],
+            "id": "p-4d8390f129dc8672"
           },
           {
             "type": "paragraph",
@@ -474,7 +485,8 @@
                 "type": "text",
                 "text": "Remarks: At present, we are unsure if he is the one sealed in the box or not... We will keep the box in the lowest level of the prison for now. It must not be opened unless authorized by the marshal and the Ten Lords altogether."
               }
-            ]
+            ],
+            "id": "p-42e78e80303ff45c"
           },
           {
             "type": "paragraph",
@@ -518,7 +530,8 @@
                 "type": "text",
                 "text": "Remarks: This prisoner is a fugitive Memosnatcher escaping from the Garden of Recollection. Do it transfer it back to the Garden for now. Since it lacks a physical form, it poses no harm to the guards. Any peculiar occurrences near the box must be disregarded."
               }
-            ]
+            ],
+            "id": "p-7e9ea09347040b1f"
           },
           {
             "type": "paragraph",
@@ -562,7 +575,8 @@
                 "type": "text",
                 "text": "Remarks: This prisoner is the first individual to attain immortality on the Xianzhou. Do not enter their cell. Do not converse with them. Daily observation using ingenia must be conducted, and any changes in the prisoner's physiological condition must be recorded. The growth of limbs, wings, bone spikes, or other bodily structures on the prisoner's body is considered normal and does not require reporting. However, if the prisoner shows any signs of awakening, it must be immediately reported to the marshal."
               }
-            ]
+            ],
+            "id": "p-e9aecaaba114008c"
           },
           {
             "type": "paragraph",
@@ -596,7 +610,8 @@
                 "type": "text",
                 "text": "Detention Method: [Redacted]"
               }
-            ]
+            ],
+            "id": "p-a38542b54cddc27d"
           }
         ]
       }

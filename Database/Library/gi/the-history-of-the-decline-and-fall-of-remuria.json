@@ -4,10 +4,11 @@
   "id": "the-history-of-the-decline-and-fall-of-remuria",
   "name": "The History of the Decline and Fall of Remuria",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/The_History_of_the_Decline_and_Fall_of_Remuria",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
@@ -109,13 +110,15 @@
                 "type": "text",
                 "text": "But thusly do the ancient writers concur — \"Oceans will rise, empires will fall, and the only constant is change.\""
               }
-            ]
+            ],
+            "id": "p-1b90689873a718fe"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
@@ -207,13 +210,15 @@
                 "type": "text",
                 "text": "Thusly do the ancient writers concur — \"Oceans will rise, empires will fall, and the only constant is change.\""
               }
-            ]
+            ],
+            "id": "p-5669418fdff22444"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "vol-3",
       "label": "Vol. 3",
       "document": {
         "version": 1,
@@ -285,7 +290,8 @@
                 "type": "text",
                 "text": "Just as the ancient writers concur — \"Oceans will rise, empires will fall, and the only constant is change.\""
               }
-            ]
+            ],
+            "id": "p-2c59e820df833be1"
           }
         ]
       }

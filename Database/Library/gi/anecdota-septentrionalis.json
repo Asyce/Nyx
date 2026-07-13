@@ -4,17 +4,19 @@
   "id": "anecdota-septentrionalis",
   "name": "Anecdota Septentrionalis",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Anecdota_Septentrionalis",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -63,20 +65,23 @@
                 "type": "text",
                 "text": "We had not the slightest clue what kind of place \"Serenum\" was, so we told him the whole story, that we were seafarers from Remuria, and wanted to see what the end of the ocean looked like."
               }
-            ]
+            ],
+            "id": "p-8ffebe0b4cfaccd1"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -145,13 +150,15 @@
                 "type": "text",
                 "text": "As for the war's conclusion, respected playwrights throughout history virtually never write of such things — they wish to leave enough space for future stories. Out of respect for their traditions, therefore, I too shall go ahead and skip that part."
               }
-            ]
+            ],
+            "id": "p-40a57697f2880c16"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "vol-3",
       "label": "Vol. 3",
       "document": {
         "version": 1,
@@ -203,7 +210,8 @@
                 "type": "text",
                 "text": "As for how the story will unfold, pay close attention, for all will be revealed in the next chapter..."
               }
-            ]
+            ],
+            "id": "p-5f05b789459c48ac"
           }
         ]
       }

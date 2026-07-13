@@ -4,10 +4,11 @@
   "id": "let-s-go-dodoco",
   "name": "Let's Go, Dodoco!",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Let%27s_Go,_Dodoco!",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -59,7 +60,8 @@
                 "type": "text",
                 "text": "After all, all Dodocos long to ride the wind and waves on an adventure."
               }
-            ]
+            ],
+            "id": "p-8655f917583e9417"
           },
           {
             "type": "paragraph",
@@ -178,7 +180,8 @@
                 "type": "text",
                 "text": "And that was a good trade!"
               }
-            ]
+            ],
+            "id": "p-3565d9e2c6a1aae7"
           },
           {
             "type": "paragraph",
@@ -187,7 +190,8 @@
                 "type": "text",
                 "text": "Let's Go Dodoco! Illustration 1.png"
               }
-            ]
+            ],
+            "id": "p-cb02b006d1ec3ab5"
           },
           {
             "type": "paragraph",
@@ -246,7 +250,8 @@
                 "type": "text",
                 "text": "Klee would often find happy things to do. As long as Dodoco was with Klee, Dodoco would never be bored."
               }
-            ]
+            ],
+            "id": "p-9af19b9512595a54"
           },
           {
             "type": "paragraph",
@@ -275,7 +280,8 @@
                 "type": "text",
                 "text": "Hooray for adventure!"
               }
-            ]
+            ],
+            "id": "p-913f20166ef47be7"
           },
           {
             "type": "paragraph",
@@ -354,7 +360,8 @@
                 "type": "text",
                 "text": "Oh no, she looked angry! Better run, quick!"
               }
-            ]
+            ],
+            "id": "p-49160ea672090585"
           },
           {
             "type": "paragraph",
@@ -403,7 +410,8 @@
                 "type": "text",
                 "text": "Meeting Klee and the others is the most hap-happiest thing that ever happened to Dodoco!"
               }
-            ]
+            ],
+            "id": "p-cdf50eb12b155fb6"
           },
           {
             "type": "paragraph",
@@ -419,7 +427,8 @@
                 "type": "text",
                 "text": "Let's Go Dodoco! Illustration 4.png|Lumine Version"
               }
-            ]
+            ],
+            "id": "p-a538bc797817620e"
           },
           {
             "type": "paragraph",
@@ -448,7 +457,8 @@
                 "type": "text",
                 "text": "In which case, you're invited to Yoimiya's fireworks show as well."
               }
-            ]
+            ],
+            "id": "p-b0d6e8ae18924c07"
           },
           {
             "type": "paragraph",
@@ -464,7 +474,8 @@
                 "type": "text",
                 "text": "Let's Go Dodoco! Illustration 5.png|Lumine Version"
               }
-            ]
+            ],
+            "id": "p-3b54422d26ddf7c6"
           },
           {
             "type": "paragraph",
@@ -513,7 +524,8 @@
                 "type": "text",
                 "text": "And now, you are Dodoco's good friends too. So you, too, should go on a grand adventure with your friends."
               }
-            ]
+            ],
+            "id": "p-187e26f106a89c45"
           }
         ]
       }

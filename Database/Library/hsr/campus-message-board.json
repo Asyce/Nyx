@@ -4,10 +4,11 @@
   "id": "campus-message-board",
   "name": "Campus Message Board",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Campus_Message_Board",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -29,7 +30,8 @@
                 "type": "text",
                 "text": "Attention, everyone! The following items have been recently added to the Lost and Found inventory:"
               }
-            ]
+            ],
+            "id": "p-0568da9c2a96ecf0"
           },
           {
             "type": "paragraph",
@@ -38,7 +40,8 @@
                 "type": "text",
                 "text": "Lost Item 1: A wallet with Slumbernana Monkey printed on it, containing a student ID card, some cash, and a note with this content: \"Username: █████ Password: ████████████\""
               }
-            ]
+            ],
+            "id": "p-c106e2541d134a8a"
           },
           {
             "type": "paragraph",
@@ -47,7 +50,8 @@
                 "type": "text",
                 "text": "Lost Item 2: A folder filled with paper with pentatonic music scores, labeled \"Thesis Statement for Music History.\""
               }
-            ]
+            ],
+            "id": "p-b1a290c26d89146d"
           },
           {
             "type": "paragraph",
@@ -56,7 +60,8 @@
                 "type": "text",
                 "text": "Lost Item 3: A tube guitar amp with a cabinet and headstock, inscribed with something like \"Arfey\" using correction fluid."
               }
-            ]
+            ],
+            "id": "p-26d459e7bb704000"
           },
           {
             "type": "paragraph",
@@ -78,7 +83,8 @@
                 "type": "text",
                 "text": ", with an illegible artistic signature and a handwritten tag \"Deluxe Collection Edition.\""
               }
-            ]
+            ],
+            "id": "p-79d0876f0112f328"
           },
           {
             "type": "paragraph",
@@ -94,7 +100,8 @@
                 "type": "text",
                 "text": "If your items are lost, please rest assured, as your belongings are safe here. To claim your lost items, please provide documentation that can prove your identity."
               }
-            ]
+            ],
+            "id": "p-7908d99cb7e9a10e"
           },
           {
             "type": "paragraph",
@@ -140,7 +147,8 @@
                 "type": "text",
                 "text": "Interview Location: Society Activity Center. Please kindly download the application form from the Paperfold Forum ahead of time and attend the interview on time upon receiving our invitation."
               }
-            ]
+            ],
+            "id": "p-c7df8dd3a9588b77"
           },
           {
             "type": "paragraph",
@@ -166,7 +174,8 @@
                 "type": "text",
                 "text": "The rescheduled date will be announced later. Please stay tuned on the Paperfold Forum for updates. We appreciate your support and understanding."
               }
-            ]
+            ],
+            "id": "p-46fa39cd4b7f042a"
           },
           {
             "type": "paragraph",
@@ -198,7 +207,8 @@
                 "type": "text",
                 "text": "████ you! I can't believe my luck having to share a dorm with you people! I swear, if you dump your leftover garbage in the sink one more time! You never take out the trash, you don't close the sauce bottle caps, and the dirty dishes you left stacking up in the sink are reeking! You never clean up after yourselves after cooking. Do you even have any morality!? The dorm administrator and I are reviewing the security footage frame by frame! Try this again and see for yourself what will happen! If we catch you, these will be SERIOUS CONSEQUENCES!!!"
               }
-            ]
+            ],
+            "id": "p-179eb71385af3cb9"
           },
           {
             "type": "paragraph",
@@ -245,7 +255,8 @@
                 "type": "text",
                 "text": "(Note: These groups are unofficial and are formed and managed by students. All discussions within the groups do not represent the views of the Paperfold University. Please be aware of potential scams.)"
               }
-            ]
+            ],
+            "id": "p-aab22512d1b0dd12"
           },
           {
             "type": "paragraph",
@@ -291,7 +302,8 @@
                 "type": "text",
                 "text": "Contact: ██████████"
               }
-            ]
+            ],
+            "id": "p-97fde5922287e4c4"
           },
           {
             "type": "paragraph",
@@ -314,7 +326,8 @@
                 "type": "text",
                 "text": "Contact: ████"
               }
-            ]
+            ],
+            "id": "p-6bd2b96c20e2d98b"
           },
           {
             "type": "paragraph",
@@ -358,7 +371,8 @@
                 "type": "text",
                 "text": "Update: Sold"
               }
-            ]
+            ],
+            "id": "p-a273650f623bc8fd"
           },
           {
             "type": "paragraph",
@@ -367,7 +381,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

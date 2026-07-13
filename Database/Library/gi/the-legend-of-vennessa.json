@@ -4,17 +4,19 @@
   "id": "the-legend-of-vennessa",
   "name": "The Legend of Vennessa",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/The_Legend_of_Vennessa",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -63,7 +65,8 @@
                 "type": "text",
                 "text": "And let it be known that this gift is not freedom, but just defiance!"
               }
-            ]
+            ],
+            "id": "p-6349c723fe745dbe"
           },
           {
             "type": "paragraph",
@@ -122,7 +125,8 @@
                 "type": "text",
                 "text": "Yet to commemorate unnamed freedom should they aim."
               }
-            ]
+            ],
+            "id": "p-966f99225ad12b24"
           },
           {
             "type": "paragraph",
@@ -181,7 +185,8 @@
                 "type": "text",
                 "text": "Oblivious to their place, the inmates were."
               }
-            ]
+            ],
+            "id": "p-84a850ca41d2507a"
           },
           {
             "type": "paragraph",
@@ -240,20 +245,23 @@
                 "type": "text",
                 "text": "For her people, for Mondstadt, for illusive freedom if she may."
               }
-            ]
+            ],
+            "id": "p-3b4e24697fe9f6d6"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -322,7 +330,8 @@
                 "type": "text",
                 "text": "The girl happily reciprocated, her fears swiftly dissipated."
               }
-            ]
+            ],
+            "id": "p-86766e05354fe9b8"
           },
           {
             "type": "paragraph",
@@ -381,7 +390,8 @@
                 "type": "text",
                 "text": "Broken free from shackles at last, the young lioness stood firm in the winds with her head held high."
               }
-            ]
+            ],
+            "id": "p-da11cd3825f68277"
           },
           {
             "type": "paragraph",
@@ -440,7 +450,8 @@
                 "type": "text",
                 "text": "\"To praise your freedom, my songs came.\""
               }
-            ]
+            ],
+            "id": "p-814bcea1c1245fe1"
           },
           {
             "type": "paragraph",
@@ -489,7 +500,8 @@
                 "type": "text",
                 "text": "Never cease to pursue freedom, even when the land is bare!"
               }
-            ]
+            ],
+            "id": "p-7d4ff6579221c3a4"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "the-dreamweaver-archives",
   "name": "The Dreamweaver Archives",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/The_Dreamweaver_Archives",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-6d0efb6fd4b1139a"
           },
           {
             "type": "paragraph",
@@ -40,7 +42,8 @@
                 "type": "text",
                 "text": "It was at this moment that Penacony entered an age of rapid development historically known as the \"Dreamchaser Era.\""
               }
-            ]
+            ],
+            "id": "p-6a40c9432e3451be"
           },
           {
             "type": "paragraph",
@@ -49,7 +52,8 @@
                 "type": "text",
                 "text": "The \"Dreamweaver Project\" attracted outstanding talents from all across the Cosmos. Early Dreamweavers came from all different walks of life. They gathered together in the Nightingale Family and formulated countless wonderful concepts for the construction of the Dreamscape. The Nightingale Family head, Glaux, led the most talented and brilliant Dreamweavers among them to design and build the prototype of the 12 Dreamscapes of today. These Dreamweavers were known as the \"Origami Dreamweavers.\" Their creations remain in the Penacony Dreamscape to this day."
               }
-            ]
+            ],
+            "id": "p-9c3b2e4448776940"
           },
           {
             "type": "paragraph",
@@ -112,7 +116,8 @@
                 "type": "text",
                 "text": "Passed away after being assaulted by Memory Zone Meme while exploring the Dreamscape's wilderness."
               }
-            ]
+            ],
+            "id": "p-85ff2eb4c366f2a7"
           },
           {
             "type": "paragraph",
@@ -175,7 +180,8 @@
                 "type": "text",
                 "text": "He went missing during dreamweaving-related research and development experiments, and his whereabouts remain unknown."
               }
-            ]
+            ],
+            "id": "p-8564633346d54cc5"
           },
           {
             "type": "paragraph",
@@ -238,7 +244,8 @@
                 "type": "text",
                 "text": "He passed away before finishing his sentence."
               }
-            ]
+            ],
+            "id": "p-8dae43f8c7569dd8"
           },
           {
             "type": "paragraph",
@@ -294,7 +301,8 @@
                 "type": "text",
                 "text": "Unfortunately, he was struck down by a sudden illness in his office at Paperfold University."
               }
-            ]
+            ],
+            "id": "p-14f18f0ea074fda4"
           }
         ]
       }

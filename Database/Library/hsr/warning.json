@@ -4,10 +4,11 @@
   "id": "warning",
   "name": "Warning!!!",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Warning!!!",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "The unique plants grown here have not undergone a comprehensive safety test. Any unauthorized contact might lead to unthinkable consequences!"
               }
-            ]
+            ],
+            "id": "p-95b1e0ce1c2011b1"
           },
           {
             "type": "paragraph",
@@ -56,7 +58,8 @@
                 "type": "text",
                 "text": "4. Fabricating things confidently, such as a non-existent warning notice and a made-up adverse reaction."
               }
-            ]
+            ],
+            "id": "p-fed80d83e09fd1bb"
           },
           {
             "type": "paragraph",
@@ -65,7 +68,8 @@
                 "type": "text",
                 "text": "Given the dangerous nature of the plants, please stay away from them and seek help from the space station if you exhibit the above adverse reactions or other abnormalities! Otherwise, you will become... You will become..."
               }
-            ]
+            ],
+            "id": "p-0c95db873a7e6b16"
           },
           {
             "type": "paragraph",
@@ -79,7 +83,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-256dba6885d9e211"
           },
           {
             "type": "paragraph",
@@ -93,7 +98,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-5daa29302918c633"
           },
           {
             "type": "paragraph",
@@ -107,7 +113,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-dc0973e1aad1a3f6"
           },
           {
             "type": "paragraph",
@@ -121,7 +128,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-f2fb536bc310694e"
           }
         ]
       }

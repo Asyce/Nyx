@@ -4,10 +4,11 @@
   "id": "a-preliminary-study-of-sangonomiya-folk-belief",
   "name": "A Preliminary Study of Sangonomiya Folk Belief",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/A_Preliminary_Study_of_Sangonomiya_Folk_Belief",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -139,7 +140,8 @@
                 "type": "text",
                 "text": "\"Permit us, great lord, to set foot upon those islands and there carve out a dominion for ourselves, that our children after us shall have a glorious past, a future in fullness, and a present without darkness.\""
               }
-            ]
+            ],
+            "id": "p-7b3504d32602cc4a"
           },
           {
             "type": "paragraph",
@@ -198,7 +200,8 @@
                 "type": "text",
                 "text": "It is said that there were inscriptions which the shrine maiden hid, upon which were written a prophecy of the certain defeat and the future of humiliation that awaited this eastern expedition."
               }
-            ]
+            ],
+            "id": "p-de044347ccdd4e24"
           },
           {
             "type": "paragraph",
@@ -227,7 +230,8 @@
                 "type": "text",
                 "text": "If he wished to ensure the perpetuation of his people's \"faith,\" there was but one path — sacrifice. Even if Watatsumi would pass away, its people would endlessly weave their memories of joy, prosperity, bitterness, and loss into a united faith. These memories, in turn, would flourish on account of the intense emotions of a vanquished people forced into shameful submission."
               }
-            ]
+            ],
+            "id": "p-295a9ca47323ddb4"
           },
           {
             "type": "paragraph",
@@ -236,7 +240,8 @@
                 "type": "text",
                 "text": "Many among the Watatsumi people now no longer believe that their guiding Omikami has any chance of revival, but their pride as Watatsumi's people, the pain of watching the body of their god carved up for minerals by their overlord, the hurt of losing that god... These emotions have passed on from generation to generation, becoming the pillars of forbearance, resistance, and sacrifice that underpin the faith of Watatsumi's people."
               }
-            ]
+            ],
+            "id": "p-991fe14c297d0aab"
           },
           {
             "type": "paragraph",
@@ -245,7 +250,8 @@
                 "type": "text",
                 "text": "As the author has mentioned, Sangonomiya has an extreme lack of written historical material. As such, these past motives have all essentially become fictional tales upon which future generations can inscribe any meaning they wish. Thus, these histories have become \"histories of accumulated consciousness\" rather than \"histories of recorded fact.\" The fact that this collective consciousness has been strengthened and rendered ever more cohesive over time, such that a people who have lost their beloved god may still actively resist a nation whose faith is in a mighty elemental deity... This just goes to show that their persistence is hardly some obsolete thing."
               }
-            ]
+            ],
+            "id": "p-05bb3f966b77b665"
           },
           {
             "type": "paragraph",
@@ -254,7 +260,8 @@
                 "type": "text",
                 "text": "Notably, this tendency to give little thought to the \"facts\" of the past and emphasize the \"consciousness\" of the present is a glaring flaw in Watatsumi today. The flames of these hatreds and humiliations, borne and nursed over hundreds and thousands of years, can be fanned by those with an agenda in leaner years and ultimately bring catastrophe upon the nation."
               }
-            ]
+            ],
+            "id": "p-0358cb7b1993f287"
           },
           {
             "type": "paragraph",
@@ -273,7 +280,8 @@
                 "type": "text",
                 "text": "With their recent economic exploitation at the hands of the Kanjou Commission, more and more of the young people of Watatsumi Island are discussing resistance and their complaints. It seems evident to me that these discussions are not merely about the past, but about the present and future also."
               }
-            ]
+            ],
+            "id": "p-dc5656aac6713129"
           },
           {
             "type": "paragraph",
@@ -332,7 +340,8 @@
                 "type": "text",
                 "text": "However, these legends that hint at the \"truth\" are but unimportant anecdotes compared to the aforementioned ones that imply much about the \"consciousness\" of the people."
               }
-            ]
+            ],
+            "id": "p-8f97ed6e21091c55"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "comments-on-scorchsand-adventure",
   "name": "Comments on Scorchsand Adventure",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Comments_on_Scorchsand_Adventure",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -37,7 +38,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ebaff41dd7543af6"
           },
           {
             "type": "paragraph",
@@ -46,7 +48,8 @@
                 "type": "text",
                 "text": "In this script, the story revolves around Clockie and the inhabitants of Dreamville as they embark on a perilous journey to reclaim the paradise from the monster known as \"Dread King\" in order to pioneer in Dreamville's Scorchsand Wonderland. The script effectively blends elements from the Pioneering Era and the Clockie series, resulting in a captivating narrative and showcasing a high level of artistic quality. Particularly noteworthy is the impressive final scene where Clockie and the Pioneerist simultaneously hit the Dread King. It is highly recommended to retain this scene in the official version."
               }
-            ]
+            ],
+            "id": "p-8b9e17b0567f5489"
           },
           {
             "type": "paragraph",
@@ -55,7 +58,8 @@
                 "type": "text",
                 "text": "However, this administration must remind Clock Studios that there are both virtuous companions and evil villains among the Dreamchasers. During the Pioneering Era, armed conflicts among Dreamchasers often jeopardized the safety of the town's residents, and the Bloodhound Family was devoted to maintaining law and order through their patrols. Regrettably, in this movie, the Dreamchasers are excessively glorified, incorrectly attributing some of The Family's accomplishments to them. This portrayal may be misleading."
               }
-            ]
+            ],
+            "id": "p-7de691096ec48700"
           },
           {
             "type": "paragraph",
@@ -64,7 +68,8 @@
                 "type": "text",
                 "text": "Furthermore, the depiction of the Dog Sheriff potentially alludes to the Bloodhound Family and raises concerns. Dog Sheriff is portrayed as a thuggish security officer, perpetuating a discriminatory stereotype. However, records available in the Moment of Sol suggest that the Bloodhound Family made substantial contributions during the pioneering effort in the barren dreamscapes, on par with the Dreamchasers. Frequent attribution of villainous roles to the Bloodhound Family could lead to audience resentment, tarnishing the Bloodhound Family's image and contradicting The Family's philosophy of Harmony. Therefore, it is recommended to revise the script accordingly."
               }
-            ]
+            ],
+            "id": "p-150658fae32d2ae2"
           },
           {
             "type": "paragraph",
@@ -73,7 +78,8 @@
                 "type": "text",
                 "text": "We suggest incorporating romantic scenes between the Dog Sheriff and the Pioneerist, replacing their conflicting stances with elements of romance. Recent market surveys indicate that audiences are highly interested in stories of relationships between characters. This approach not only enhances the commercial value of the movie but also conveys Penacony's shared values of harmonious tolerance and friendship."
               }
-            ]
+            ],
+            "id": "p-39dd20c5ece9d7f7"
           },
           {
             "type": "paragraph",
@@ -95,7 +101,8 @@
                 "type": "text",
                 "text": "movies, and in this script is even overshadowed by the Pioneerist. While we understand the strategic direction of Clock Studios in attempting to establish a new series, it is crucial to note that Clockie has always been the iconic image of your studio and even Penacony. Therefore, we recommend maintaining a balanced share of screen time between each character in your future productions."
               }
-            ]
+            ],
+            "id": "p-a987ff5b01470369"
           },
           {
             "type": "paragraph",
@@ -104,7 +111,8 @@
                 "type": "text",
                 "text": "I look forward to your future creations."
               }
-            ]
+            ],
+            "id": "p-d1c2744d1638e0fe"
           },
           {
             "type": "paragraph",
@@ -113,7 +121,8 @@
                 "type": "text",
                 "text": "— The Iris Family, Dreamscape Film Regulation Administration"
               }
-            ]
+            ],
+            "id": "p-86281cfc2f576118"
           }
         ]
       }

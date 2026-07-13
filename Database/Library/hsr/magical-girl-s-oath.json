@@ -4,10 +4,11 @@
   "id": "magical-girl-s-oath",
   "name": "Magical Girl's Oath",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Magical_Girl%27s_Oath",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -39,7 +40,8 @@
                 "type": "text",
                 "text": "Pledger (Party B):"
               }
-            ]
+            ],
+            "id": "p-5d6bac7087c2d5bb"
           },
           {
             "type": "paragraph",
@@ -48,7 +50,8 @@
                 "type": "text",
                 "text": "In accordance with the relevant regulations of Planarcadia, Parties A and B, on the basis of equality and voluntary consent, have reached the following agreement regarding the employment of magical girls:"
               }
-            ]
+            ],
+            "id": "p-44d2e0f7654bc540"
           },
           {
             "type": "paragraph",
@@ -72,7 +75,8 @@
                 "type": "text",
                 "text": "• During the duration of the oath, the pledger must complete magical girl activities for a total of system hours."
               }
-            ]
+            ],
+            "id": "p-faf52d8aec28ab01"
           },
           {
             "type": "paragraph",
@@ -111,7 +115,8 @@
                 "type": "text",
                 "text": "• Rewards based on performance"
               }
-            ]
+            ],
+            "id": "p-c7592c8f1edbee23"
           },
           {
             "type": "paragraph",
@@ -135,7 +140,8 @@
                 "type": "text",
                 "text": "During the duration of the oath, the pledger must conduct activities according to the troupe's guidance and abide by the following regulations:"
               }
-            ]
+            ],
+            "id": "p-754cff54ac3ba112"
           },
           {
             "type": "paragraph",
@@ -174,7 +180,8 @@
                 "type": "text",
                 "text": "• The pledger is usually not required to transform and conceal their real identity, unless explicitly stated."
               }
-            ]
+            ],
+            "id": "p-b5d5041f02cc01d6"
           },
           {
             "type": "paragraph",
@@ -198,7 +205,8 @@
                 "type": "text",
                 "text": "During the duration of the oath, the employer must support the pledger's activities within reasonable means, which includes but is not limited to:"
               }
-            ]
+            ],
+            "id": "p-152df9060a3ca092"
           },
           {
             "type": "paragraph",
@@ -247,7 +255,8 @@
                 "type": "text",
                 "text": "• Regularly planning idol events required for obtaining Wishpower, and providing the necessary venues, facilities, advertisements, and more."
               }
-            ]
+            ],
+            "id": "p-581eb02720a05027"
           },
           {
             "type": "paragraph",
@@ -256,7 +265,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -280,7 +290,8 @@
                 "type": "text",
                 "text": "The pledger is obligated to nurture their familiar by providing them with the necessary Wishpower and emotional support required for survival."
               }
-            ]
+            ],
+            "id": "p-d2275469ea0b8c2e"
           },
           {
             "type": "paragraph",
@@ -289,7 +300,8 @@
                 "type": "text",
                 "text": "※ This clause is not restricted to the duration of the oath and may be extended or shortened based on actual circumstances."
               }
-            ]
+            ],
+            "id": "p-373134791cbf7d12"
           },
           {
             "type": "paragraph",
@@ -343,7 +355,8 @@
                 "type": "text",
                 "text": "• Both parties can start live streams and promotional events. The Wishpower obtained from the events will be distributed based on negotiation between the two parties."
               }
-            ]
+            ],
+            "id": "p-a4090f051087e73c"
           },
           {
             "type": "paragraph",
@@ -352,7 +365,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -366,7 +380,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-c1854a0a0af71824"
           },
           {
             "type": "paragraph",
@@ -375,7 +390,8 @@
                 "type": "text",
                 "text": "From this day forth, I shall inherit the mantle of the Magical Girl and swear this oath—"
               }
-            ]
+            ],
+            "id": "p-ed9622df4b741f87"
           },
           {
             "type": "paragraph",
@@ -384,7 +400,8 @@
                 "type": "text",
                 "text": "Under the guidance of the Troupe, I shall maintain peace within the region and take a stand against the forces of evil."
               }
-            ]
+            ],
+            "id": "p-94227619e944c5d6"
           },
           {
             "type": "paragraph",
@@ -393,7 +410,8 @@
                 "type": "text",
                 "text": "In my leisure time, I will participate in the Troupe's idol performances to provide Wishpower for my familiar."
               }
-            ]
+            ],
+            "id": "p-aba6c8bd4982564e"
           },
           {
             "type": "paragraph",
@@ -402,11 +420,13 @@
                 "type": "text",
                 "text": "In the face of sorrow and pain, I will no longer waver or hesitate."
               }
-            ]
+            ],
+            "id": "p-2385935a0dd5e743"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -425,7 +445,8 @@
                 "type": "text",
                 "text": "Any disputes over this oath must be resolved with negotiation between the two parties, and cannot apply for arbitration from the Security Bureau."
               }
-            ]
+            ],
+            "id": "p-7a34b5dd212f465b"
           },
           {
             "type": "paragraph",
@@ -444,7 +465,8 @@
                 "type": "text",
                 "text": "Pledger (Party B) Signature/Stamp:"
               }
-            ]
+            ],
+            "id": "p-b29fd7ce22a48a91"
           },
           {
             "type": "paragraph",
@@ -453,7 +475,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

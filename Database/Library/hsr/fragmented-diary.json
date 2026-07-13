@@ -4,10 +4,11 @@
   "id": "fragmented-diary",
   "name": "Fragmented Diary",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Fragmented_Diary",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-5eb8664075da700e"
           },
           {
             "type": "paragraph",
@@ -61,7 +63,8 @@
                 "type": "text",
                 "text": "I hope I can have a shelter to sleep tonight. It's really cold away from town."
               }
-            ]
+            ],
+            "id": "p-5f4c2592b5d073c2"
           },
           {
             "type": "paragraph",
@@ -98,7 +101,8 @@
                 "type": "text",
                 "text": "It's disquieting to stay somewhere I don't belong, but beggars can't be choosers. As long as I have a shelter to stay in, I guess."
               }
-            ]
+            ],
+            "id": "p-5f420c563fe5af8b"
           },
           {
             "type": "paragraph",
@@ -128,7 +132,8 @@
                 "type": "text",
                 "text": "There is one nice guy in that team, though. Some guy called Steve wearing the same battered blue shirt every day. He talks to me, so I talk to him. He said the team found the motherlode, but some punks went and harassed them, trying to claim the place for their own."
               }
-            ]
+            ],
+            "id": "p-f33393d75c1dc8b5"
           },
           {
             "type": "paragraph",
@@ -165,7 +170,8 @@
                 "type": "text",
                 "text": "I had a look at the vein they found. It's quite something, no wonder people want it for their own."
               }
-            ]
+            ],
+            "id": "p-5b31706c14a60e59"
           },
           {
             "type": "paragraph",
@@ -195,7 +201,8 @@
                 "type": "text",
                 "text": "Rumor has it that a miner's private shield stash got stolen. I reckon it was the gang of punks who did it, which sucks. Because of them, the mining team's attitude towards us has gotten worse these past two days."
               }
-            ]
+            ],
+            "id": "p-c4eac71806e6eaff"
           },
           {
             "type": "paragraph",
@@ -225,7 +232,8 @@
                 "type": "text",
                 "text": "I hope everyone was okay. I haven't gotten a chance to buy Steve dinner yet. Maybe I'll look for him when all this is over."
               }
-            ]
+            ],
+            "id": "p-0fc2586828d4db17"
           },
           {
             "type": "paragraph",
@@ -248,7 +256,8 @@
                 "type": "text",
                 "text": "Where did he disappear to? What happened that day? I hear those Robots are supposed to protect humans. Oh no, has something bad happened?"
               }
-            ]
+            ],
+            "id": "p-0dad41ba174adcc9"
           },
           {
             "type": "paragraph",
@@ -285,7 +294,8 @@
                 "type": "text",
                 "text": "I wonder if I'll ever be able to meet Steve again."
               }
-            ]
+            ],
+            "id": "p-923e5c40ce8ba656"
           }
         ]
       }

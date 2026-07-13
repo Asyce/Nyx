@@ -4,10 +4,11 @@
   "id": "wildfire-flier",
   "name": "Wildfire Flier",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Wildfire_Flier",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-3a816692e7c54c1d"
           },
           {
             "type": "paragraph",
@@ -68,7 +70,8 @@
                 "type": "text",
                 "text": "They never come back."
               }
-            ]
+            ],
+            "id": "p-c29ce801f812c6ac"
           },
           {
             "type": "paragraph",
@@ -98,7 +101,8 @@
                 "type": "text",
                 "text": "But are those misfortunes fated?"
               }
-            ]
+            ],
+            "id": "p-dbfd9581c7e375fd"
           },
           {
             "type": "paragraph",
@@ -107,7 +111,8 @@
                 "type": "text",
                 "text": "Of course not!"
               }
-            ]
+            ],
+            "id": "p-202ec7cae909d85d"
           },
           {
             "type": "paragraph",
@@ -137,7 +142,8 @@
                 "type": "text",
                 "text": "This is our belief, Wildfire's belief."
               }
-            ]
+            ],
+            "id": "p-83f7812adf8aa285"
           },
           {
             "type": "paragraph",
@@ -174,7 +180,8 @@
                 "type": "text",
                 "text": "We look forward to your participation."
               }
-            ]
+            ],
+            "id": "p-47cf2ebca863a221"
           },
           {
             "type": "paragraph",
@@ -190,7 +197,8 @@
                 "type": "text",
                 "text": "You can ask any Wildfire member you see in the Underworld about how to join us."
               }
-            ]
+            ],
+            "id": "p-c57fcf57c100c210"
           },
           {
             "type": "paragraph",
@@ -206,7 +214,8 @@
                 "type": "text",
                 "text": "Boulder Town, behind the Gathering Place (Turn right when you arrive at the barrel decoration on the top, then go straight.)"
               }
-            ]
+            ],
+            "id": "p-f7819fdbb115a7b4"
           }
         ]
       }

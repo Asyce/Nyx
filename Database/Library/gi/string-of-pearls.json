@@ -4,17 +4,19 @@
   "id": "string-of-pearls",
   "name": "String of Pearls",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/String_of_Pearls",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -58,7 +60,8 @@
                 "type": "text",
                 "text": "Comic Role: Grandma Zhang"
               }
-            ]
+            ],
+            "id": "p-96362c7e74d4765f"
           },
           {
             "type": "paragraph",
@@ -242,7 +245,8 @@
                 "type": "text",
                 "text": "(Exit Zixin)"
               }
-            ]
+            ],
+            "id": "p-529929e3d2d0d6ca"
           },
           {
             "type": "paragraph",
@@ -766,20 +770,23 @@
                 "type": "text",
                 "text": "Grandma Zhang: \"But my deary, what is it if not destiny? A fair lady has finally met her noble hero.\""
               }
-            ]
+            ],
+            "id": "p-a9332c69047486f8"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -833,7 +840,8 @@
                 "type": "text",
                 "text": "Comic Roles: Zhang San, Li Si, Wang Er'ma"
               }
-            ]
+            ],
+            "id": "p-1b39593d1b1fff1c"
           },
           {
             "type": "paragraph",
@@ -1027,7 +1035,8 @@
                 "type": "text",
                 "text": "(Exeunt Zixin and Grandma Zhang)"
               }
-            ]
+            ],
+            "id": "p-9ee47d0afe10b250"
           },
           {
             "type": "paragraph",
@@ -1471,7 +1480,8 @@
                 "type": "text",
                 "text": "Wang Er'ma: \"Now to find that fellow who truly picked her things up to come and own up — sooner rather than late!\""
               }
-            ]
+            ],
+            "id": "p-53617685df918da7"
           },
           {
             "type": "paragraph",
@@ -1992,20 +2002,23 @@
                 "type": "text",
                 "text": "Zixin: \"So it is... May we meet then.\""
               }
-            ]
+            ],
+            "id": "p-76869fdd88b3ca33"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "vol-3",
       "label": "Vol. 3",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -2069,7 +2082,8 @@
                 "type": "text",
                 "text": "Comic Roles: Wu Yi, Wu Er"
               }
-            ]
+            ],
+            "id": "p-39d5d4299d959046"
           },
           {
             "type": "paragraph",
@@ -2293,7 +2307,8 @@
                 "type": "text",
                 "text": "(Exit Zixin)"
               }
-            ]
+            ],
+            "id": "p-833942bf069233f8"
           },
           {
             "type": "paragraph",
@@ -2777,7 +2792,8 @@
                 "type": "text",
                 "text": "(Exeunt Wu Wang, Wu Yi, and Wu Er, taking Zixin with them)"
               }
-            ]
+            ],
+            "id": "p-6a61b2d8349c0c19"
           },
           {
             "type": "paragraph",
@@ -3051,20 +3067,23 @@
                 "type": "text",
                 "text": "(Exeunt Fan Jie and Grandma Zhang)"
               }
-            ]
+            ],
+            "id": "p-f98f20591baf92b5"
           }
         ]
       }
     },
     {
       "id": "4",
+      "volumeKey": "vol-4",
       "label": "Vol. 4",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -3108,7 +3127,8 @@
                 "type": "text",
                 "text": "Comic Villain: Wu Wang"
               }
-            ]
+            ],
+            "id": "p-d60d12f74ac64d58"
           },
           {
             "type": "paragraph",
@@ -3262,7 +3282,8 @@
                 "type": "text",
                 "text": "Zixin: \"Within a lone lamp and half-burnt candles — and without lurk the wolves and tigers.\""
               }
-            ]
+            ],
+            "id": "p-9a0efe9886d61a60"
           },
           {
             "type": "paragraph",
@@ -3271,7 +3292,8 @@
                 "type": "text",
                 "text": "Zixin: \"Who could have expected such disaster? And how shall I flee this hive of villainy?\""
               }
-            ]
+            ],
+            "id": "p-2c53f0bf2f06fc55"
           },
           {
             "type": "paragraph",
@@ -3485,20 +3507,23 @@
                 "type": "text",
                 "text": "Zixin: \"Yes, so shall it be done.\""
               }
-            ]
+            ],
+            "id": "p-9d923ecf7daacdca"
           }
         ]
       }
     },
     {
       "id": "5",
+      "volumeKey": "vol-5",
       "label": "Vol. 5",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -3542,7 +3567,8 @@
                 "type": "text",
                 "text": "Comic Villain: Wu Wang"
               }
-            ]
+            ],
+            "id": "p-2662eab00dc56a93"
           },
           {
             "type": "paragraph",
@@ -3863,7 +3889,8 @@
                 "type": "text",
                 "text": "(Wu Wang falls)"
               }
-            ]
+            ],
+            "id": "p-f4005aadabe1d363"
           },
           {
             "type": "paragraph",
@@ -4057,13 +4084,15 @@
                 "type": "text",
                 "text": "—End—"
               }
-            ]
+            ],
+            "id": "p-e72fa5be2cd1d49a"
           }
         ]
       }
     },
     {
       "id": "6",
+      "volumeKey": "vol-1-2",
       "label": "Vol. 1",
       "document": {
         "version": 1,
@@ -4082,13 +4111,15 @@
                 "type": "text",
                 "text": "Item String of Pearls Vol. 1 Location Context.png|Additional context"
               }
-            ]
+            ],
+            "id": "p-283a1046e9df214d"
           }
         ]
       }
     },
     {
       "id": "7",
+      "volumeKey": "vol-4-2",
       "label": "Vol. 4",
       "document": {
         "version": 1,
@@ -4107,13 +4138,15 @@
                 "type": "text",
                 "text": "Item String of Pearls Vol. 4 and Records of the Gallant Vol. 2 Location Context.png|Additional context"
               }
-            ]
+            ],
+            "id": "p-873e6308363b931d"
           }
         ]
       }
     },
     {
       "id": "8",
+      "volumeKey": "vol-5-2",
       "label": "Vol. 5",
       "document": {
         "version": 1,
@@ -4132,7 +4165,8 @@
                 "type": "text",
                 "text": "Item String of Pearls Vol. 5 Location Context.png|Additional context"
               }
-            ]
+            ],
+            "id": "p-3e659da10bd4ba1d"
           }
         ]
       }

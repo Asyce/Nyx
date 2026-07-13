@@ -2,6 +2,7 @@ import crypto from 'node:crypto';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { nyxLibraryDocumentText, nyxLibraryLeafText, nyxLibraryWords } from '../../Site/src/features/library/library-core.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DEFAULT_ROOT = path.resolve(__dirname, '..', '..');
@@ -162,6 +163,25 @@ function sanitizeInline(nodes) {
   }).filter((node) => node.type !== 'text' || node.text);
 }
 
+function stableLeafId(prefix, leaf, seen) {
+  const digest = crypto.createHash('sha256').update(`${prefix}\0${nyxLibraryLeafText(leaf)}`).digest('hex').slice(0, 16);
+  const base = `${prefix}-${digest}`;
+  const occurrence = (seen.get(base) || 0) + 1;
+  seen.set(base, occurrence);
+  return occurrence === 1 ? base : `${base}-${occurrence}`;
+}
+
+function assignStableLeafIds(blocks) {
+  const seen = new Map();
+  return blocks.map((block) => {
+    if (block.type === 'heading') return { ...block, id:stableLeafId('h', block, seen) };
+    if (block.type === 'paragraph') return { ...block, id:stableLeafId('p', block, seen) };
+    if (block.type === 'list') return { ...block, items:block.items.map((item) => ({ ...item, id:stableLeafId('li', item, seen) })) };
+    if (block.type === 'table') return { ...block, rows:block.rows.map((row) => ({ ...row, cells:row.cells.map((cell) => ({ ...cell, id:stableLeafId('td', cell, seen) })) })) };
+    return block;
+  });
+}
+
 export function sanitizeDocument(input) {
   if (!input || input.version !== 1 || !Array.isArray(input.blocks)) throw new Error('Invalid structured readable document');
   const blocks = input.blocks.map((block) => {
@@ -174,7 +194,25 @@ export function sanitizeDocument(input) {
     if (!/^icons\/[a-f0-9]{16,64}\.(?:png|webp)$/i.test(src) || /\.\./.test(src)) throw new Error(`Unsafe readable image path: ${src}`);
     return { type:'image', src, alt:cleanText(block.alt).slice(0, 300) };
   });
-  return { version:1, blocks:blocks.filter((block) => block.type !== 'heading' || block.text) };
+  return { version:1, blocks:assignStableLeafIds(blocks.filter((block) => block.type !== 'heading' || block.text)) };
+}
+
+export function buildLibrarySearchIndex(books, game, generatedAt) {
+  const bookIds = [...new Set(books.map((book) => book.id))].sort((a, b) => a.localeCompare(b));
+  const bookNumber = new Map(bookIds.map((id, index) => [id, index]));
+  const postings = new Map();
+  for (const book of books) {
+    const words = new Set();
+    for (const volume of (book.volumes || [])) for (const word of nyxLibraryWords(nyxLibraryDocumentText(volume.document))) words.add(word);
+    for (const word of words) {
+      if (!postings.has(word)) postings.set(word, []);
+      postings.get(word).push(bookNumber.get(book.id));
+    }
+  }
+  const sortedWords = [...postings.keys()].sort((a, b) => a.localeCompare(b));
+  const words = {};
+  for (const word of sortedWords) words[word] = [...new Set(postings.get(word))].sort((a, b) => a - b);
+  return { schemaVersion:1, game, generatedAt, bookCount:bookIds.length, books:bookIds, wordCount:sortedWords.length, minWordLength:2, words };
 }
 
 export function enforceShrinkGuard(nextCounts, previousCounts = {}) {
@@ -273,11 +311,19 @@ function volumeBodies(game, content) {
 function pageToBook(game, page, generatedAt) {
   const content = page.revisions?.[0]?.slots?.main?.content || page.revisions?.[0]?.content || '';
   if (!content || /^(Book|Readable)$/i.test(page.title)) return null;
-  const volumes = volumeBodies(game, content).map((volume, index) => ({
-    id:String(index + 1),
-    label:volume.label || `Volume ${index + 1}`,
-    document:parseReadableWikitext(volume.body),
-  })).filter((volume) => volume.document.blocks.length);
+  const volumeKeys = new Map();
+  const volumes = volumeBodies(game, content).map((volume, index) => {
+    const label = volume.label || `Volume ${index + 1}`;
+    const baseKey = slugify(label);
+    const occurrence = (volumeKeys.get(baseKey) || 0) + 1;
+    volumeKeys.set(baseKey, occurrence);
+    return {
+      id:String(index + 1),
+      volumeKey:occurrence === 1 ? baseKey : `${baseKey}-${occurrence}`,
+      label,
+      document:parseReadableWikitext(volume.body),
+    };
+  }).filter((volume) => volume.document.blocks.length);
   if (!volumes.length) return null;
   const name = cleanLabel(infoboxField(content, 'title') || page.title);
   if (!name || /^\|/.test(name)) throw new Error(`Library page has an unsafe display name: ${page.title}`);
@@ -369,12 +415,15 @@ export async function runLibrarySync({ rootDir = DEFAULT_ROOT, fetchImpl = fetch
       }
       const index = {
         schemaVersion:1, game, generatedAt, count:deduped.length,
-        entries:deduped.map((book) => ({ id:book.id, name:book.name, icon:book.icon, file:`${book.id}.json`, volumeCount:book.volumes.length, volumeLabels:book.volumes.map((volume) => volume.label) })),
+        entries:deduped.map((book) => ({ id:book.id, name:book.name, icon:book.icon, file:`${book.id}.json`, volumeCount:book.volumes.length, volumeLabels:book.volumes.map((volume) => volume.label), volumeKeys:book.volumes.map((volume) => volume.volumeKey) })),
       };
       await fs.writeFile(path.join(gameDir, 'index.json'), JSON.stringify(index, null, 2) + '\n');
+      const searchIndex = buildLibrarySearchIndex(deduped, game, generatedAt);
+      const searchJson = JSON.stringify(searchIndex) + '\n';
+      await fs.writeFile(path.join(gameDir, 'search-index.json'), searchJson);
       counts[game] = deduped.length;
-      report.games[game] = { count:deduped.length, volumes:deduped.reduce((sum, book) => sum + book.volumes.length, 0), icons:iconCount };
-      report.files += deduped.length + 1;
+      report.games[game] = { count:deduped.length, volumes:deduped.reduce((sum, book) => sum + book.volumes.length, 0), icons:iconCount, searchWords:searchIndex.wordCount, searchBytes:Buffer.byteLength(searchJson) };
+      report.files += deduped.length + 2;
       report.icons += iconCount;
     }
     enforceShrinkGuard(counts, previousCounts);

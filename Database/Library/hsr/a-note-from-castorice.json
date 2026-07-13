@@ -4,10 +4,11 @@
   "id": "a-note-from-castorice",
   "name": "A Note from Castorice",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/A_Note_from_Castorice",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Dear they (Trailblazer),"
               }
-            ]
+            ],
+            "id": "p-ca7abc3aafeea8af"
           },
           {
             "type": "paragraph",
@@ -67,7 +69,8 @@
                 "type": "text",
                 "text": "we let their withered glory rest in the traveler's flower crown."
               }
-            ]
+            ],
+            "id": "p-0b0616f7bdf220e4"
           },
           {
             "type": "paragraph",
@@ -128,7 +131,8 @@
                 "type": "text",
                 "text": "and smile while embracing others."
               }
-            ]
+            ],
+            "id": "p-b65c388c2b6b2179"
           },
           {
             "type": "paragraph",
@@ -163,7 +167,8 @@
                 "type": "text",
                 "text": "Chase the end of the west wind, and witness the world's rebirth."
               }
-            ]
+            ],
+            "id": "p-beb998749435a593"
           },
           {
             "type": "paragraph",
@@ -198,7 +203,8 @@
                 "type": "text",
                 "text": "May life's gentle warmth always stay by your side."
               }
-            ]
+            ],
+            "id": "p-134d146748d058b3"
           },
           {
             "type": "paragraph",
@@ -207,7 +213,8 @@
                 "type": "text",
                 "text": "Castorice"
               }
-            ]
+            ],
+            "id": "p-df1bd132ebc66564"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "notes-of-an-erythrokeramist-excerpt",
   "name": "Notes of an Erythrokeramist (Excerpt)",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Notes_of_an_Erythrokeramist_(Excerpt)",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "(...)"
               }
-            ]
+            ],
+            "id": "p-6e6ea7e1675130fe"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "In dreams we dance with families near, yet dawn brings tears for homes no longer here."
               }
-            ]
+            ],
+            "id": "p-e3e5b24e8eb8f453"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "In dreams we bid loved ones last goodbye, then wake to find simple joys that make us smile."
               }
-            ]
+            ],
+            "id": "p-47c42cc6483c1ae8"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "Between dreams and waking, life flows on, fragments joined like pearls upon a string."
               }
-            ]
+            ],
+            "id": "p-9a274ef85103bc40"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "We think ourselves wise enough to tell dream from reality —"
               }
-            ]
+            ],
+            "id": "p-afb8ac758f894fcf"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "But if we never wake, how can we know we dream?"
               }
-            ]
+            ],
+            "id": "p-c4b4548d312c656f"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "And if we ever dream, how can we call ourselves to wake?"
               }
-            ]
+            ],
+            "id": "p-1f76c70939f9183e"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "(...)"
               }
-            ]
+            ],
+            "id": "p-6e6ea7e1675130fe-2"
           },
           {
             "type": "paragraph",
@@ -91,7 +100,8 @@
                 "type": "text",
                 "text": "As stars both rise and set in heaven's dome, all life must bloom then find its final home."
               }
-            ]
+            ],
+            "id": "p-14eaa827d8f06a1b"
           },
           {
             "type": "paragraph",
@@ -100,7 +110,8 @@
                 "type": "text",
                 "text": "Time flows eternal through worlds vast and deep, while fate weaves webs where all must dance and leap."
               }
-            ]
+            ],
+            "id": "p-dd9c53b1af1cf6ef"
           },
           {
             "type": "paragraph",
@@ -109,7 +120,8 @@
                 "type": "text",
                 "text": "We're but small motes in fate's grand design, brief sparks that in life's vast dome shine."
               }
-            ]
+            ],
+            "id": "p-4ed83156dd299112"
           },
           {
             "type": "paragraph",
@@ -118,7 +130,8 @@
                 "type": "text",
                 "text": "We tremble wild as clouds that drift and fade —"
               }
-            ]
+            ],
+            "id": "p-47e56e1ee48068cf"
           },
           {
             "type": "paragraph",
@@ -127,7 +140,8 @@
                 "type": "text",
                 "text": "Why seek to grasp what can't be understood? Why build what world has never stood?"
               }
-            ]
+            ],
+            "id": "p-4c06379e8484668f"
           },
           {
             "type": "paragraph",
@@ -136,7 +150,8 @@
                 "type": "text",
                 "text": "Why build on beds already made? Why seek depths beneath the laid?"
               }
-            ]
+            ],
+            "id": "p-a8e3c9c501b7cc27"
           },
           {
             "type": "paragraph",
@@ -145,7 +160,8 @@
                 "type": "text",
                 "text": "What senses cannot grasp need not be. If it is, it is as nothing."
               }
-            ]
+            ],
+            "id": "p-4b59cab7ba604c35"
           },
           {
             "type": "paragraph",
@@ -154,7 +170,8 @@
                 "type": "text",
                 "text": "(...)"
               }
-            ]
+            ],
+            "id": "p-6e6ea7e1675130fe-3"
           },
           {
             "type": "paragraph",
@@ -163,7 +180,8 @@
                 "type": "text",
                 "text": "In White Dryad's dance I see sweet scents grow, while feast songs taste like honey's gentle flow."
               }
-            ]
+            ],
+            "id": "p-5957a6af5e7452bd"
           },
           {
             "type": "paragraph",
@@ -172,7 +190,8 @@
                 "type": "text",
                 "text": "Garden perfumes show rainbow light, while honey streams sing pure delight."
               }
-            ]
+            ],
+            "id": "p-2b344aa54574ce6b"
           },
           {
             "type": "paragraph",
@@ -181,7 +200,8 @@
                 "type": "text",
                 "text": "My soul sees truth in all that lives and grows, while my mind breaks free from reason's rigid throes."
               }
-            ]
+            ],
+            "id": "p-813eeea7dc5e80d8"
           },
           {
             "type": "paragraph",
@@ -190,7 +210,8 @@
                 "type": "text",
                 "text": "A flower greets me, all senses embrace it, there it dwells —"
               }
-            ]
+            ],
+            "id": "p-6c78559ab76cf73b"
           },
           {
             "type": "paragraph",
@@ -199,7 +220,8 @@
                 "type": "text",
                 "text": "Yet to record, sketch, or preserve it, into something else it will transform."
               }
-            ]
+            ],
+            "id": "p-54e6e27eb75b68a1"
           },
           {
             "type": "paragraph",
@@ -208,7 +230,8 @@
                 "type": "text",
                 "text": "(...)"
               }
-            ]
+            ],
+            "id": "p-6e6ea7e1675130fe-4"
           }
         ]
       }

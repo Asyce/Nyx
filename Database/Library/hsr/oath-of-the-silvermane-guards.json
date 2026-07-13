@@ -4,10 +4,11 @@
   "id": "oath-of-the-silvermane-guards",
   "name": "Oath of the Silvermane Guards",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Oath_of_the_Silvermane_Guards",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -26,7 +27,8 @@
                 "type": "text",
                 "text": "In the name of the glory of the Silvermane Guards, I hereby swear under the city wall:"
               }
-            ]
+            ],
+            "id": "p-7f40ed3d6ca31496"
           },
           {
             "type": "paragraph",
@@ -49,7 +51,8 @@
                 "type": "text",
                 "text": "I will carry myself with courage, justice, selflessness, and loyalty"
               }
-            ]
+            ],
+            "id": "p-0cdcb34c0b751d79"
           },
           {
             "type": "paragraph",
@@ -100,7 +103,8 @@
                 "type": "text",
                 "text": "For every time I step back, it is home"
               }
-            ]
+            ],
+            "id": "p-08b30dc4986e7237"
           },
           {
             "type": "paragraph",
@@ -123,7 +127,8 @@
                 "type": "text",
                 "text": "I will offer myself to be judged and punished by the Belobog laws, the Supreme Guardian, and all citizens."
               }
-            ]
+            ],
+            "id": "p-7aa2f1e78625efa1"
           }
         ]
       }

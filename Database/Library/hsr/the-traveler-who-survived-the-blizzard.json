@@ -4,10 +4,11 @@
   "id": "the-traveler-who-survived-the-blizzard",
   "name": "The Traveler Who Survived the Blizzard",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/The_Traveler_Who_Survived_the_Blizzard",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "26 The Traveler Who Survived the Blizzard ①"
               }
-            ]
+            ],
+            "id": "p-b84c1b822b116bfd"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Thomas"
               }
-            ]
+            ],
+            "id": "p-dc386b66505dcc73"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "Reading Tips"
               }
-            ]
+            ],
+            "id": "p-eea09f8e75f1dc4b"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "This is a poem on how people from all corners of the world stumbled through blizzards and bitter coldness to Belobog at the beginning of the Eternal Freeze. With the arrival of the Ice Age, winds grew stronger and the temperature dropped even further. Through numerous dangers and obstacles, people from all over the world came to Belobog to pass on the sparks of human civilization. The poem likens Belobog to a warm harbor and the end of the journey, inspiring the refugees to keep going. Read the poem carefully to see how the author sees used the perspective of the refugees to demonstrate a positive attitude and confidence towards the future, despite fears of uncertainty."
               }
-            ]
+            ],
+            "id": "p-616b6df9a867911f"
           },
           {
             "type": "paragraph",
@@ -125,7 +130,8 @@
                 "type": "text",
                 "text": "ringing the crisp sound of helplessness."
               }
-            ]
+            ],
+            "id": "p-ead6d09991e97763"
           },
           {
             "type": "paragraph",
@@ -254,7 +260,8 @@
                 "type": "text",
                 "text": "while laying my stiff bones to rest."
               }
-            ]
+            ],
+            "id": "p-20ad3fd83328291f"
           },
           {
             "type": "paragraph",
@@ -333,7 +340,8 @@
                 "type": "text",
                 "text": "In the direction that the lights once were."
               }
-            ]
+            ],
+            "id": "p-91bd53cab7e39c5e"
           },
           {
             "type": "paragraph",
@@ -349,7 +357,8 @@
                 "type": "text",
                 "text": "culture, art, and technology that are still influential in Belobog today. Thomas' poems, known as the \"poems of battle,\" has inspired other refugees who migrated with him."
               }
-            ]
+            ],
+            "id": "p-ce50299595bcdf60"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "about-fulwish-s-variety-show-plans",
   "name": "About Fulwish's Variety Show Plans",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/About_Fulwish%27s_Variety_Show_Plans",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -53,7 +54,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-62d4ba4fcdcdd18f"
           },
           {
             "type": "paragraph",
@@ -79,7 +81,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-b3f4e80c3890aabf"
           },
           {
             "type": "paragraph",
@@ -128,7 +131,8 @@
                 "type": "text",
                 "text": "We gave in to the vocal minority and trapped ourselves in a spiral of silence."
               }
-            ]
+            ],
+            "id": "p-ee1253c532bfc84a"
           },
           {
             "type": "paragraph",
@@ -154,7 +158,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-7ba2e70e583b4805"
           },
           {
             "type": "paragraph",
@@ -184,7 +189,8 @@
                 "type": "text",
                 "text": "On top of that, we'll craft a brand-new script tailored specifically for her."
               }
-            ]
+            ],
+            "id": "p-07aeba5bb42beac1"
           },
           {
             "type": "paragraph",
@@ -210,7 +216,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-1e3c748312e5ea2a"
           },
           {
             "type": "paragraph",
@@ -261,7 +268,8 @@
                 "type": "text",
                 "text": "In the end, she will live a happy life under the spotlight. And that radiant smile will reach every single viewer in front of their TV screens!"
               }
-            ]
+            ],
+            "id": "p-5413bb8fb78bc1d7"
           },
           {
             "type": "paragraph",
@@ -275,7 +283,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-0be836553350c640"
           }
         ]
       }

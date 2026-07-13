@@ -4,10 +4,11 @@
   "id": "gathering-place-message-board",
   "name": "Gathering Place Message Board",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Gathering_Place_Message_Board",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -49,7 +50,8 @@
                 "type": "text",
                 "text": "Did you not wash your cups again? There are even hand prints on the cup! The water bill is going up but your service is getting worse! I want a refund!"
               }
-            ]
+            ],
+            "id": "p-24cbf6dbf5fcc735"
           },
           {
             "type": "paragraph",
@@ -79,7 +81,8 @@
                 "type": "text",
                 "text": "Here's the latest news: There are some strangers in town lately. They got all kinds of fancy hair colors and are traveling with that trickster merchant. They look really dodgy and are probably thugs from the other towns. Everyone, be careful when you walk around and be on the lookout for outsiders — I hear they are thieves."
               }
-            ]
+            ],
+            "id": "p-1a8af652f096e764"
           },
           {
             "type": "paragraph",
@@ -109,7 +112,8 @@
                 "type": "text",
                 "text": "Can you get some snacks going? What's the point in only providing water? Do you even know how to run a business?"
               }
-            ]
+            ],
+            "id": "p-721a4b958e368aeb"
           },
           {
             "type": "paragraph",
@@ -139,7 +143,8 @@
                 "type": "text",
                 "text": "Someone earlier wrote a pretty disgusting comment. You reckon you're the only resident in Boulder Town? That people shouldn't be able to enter or leave? I saw those people you mentioned, too. They were also traveling with Wildfire members. Also, what's wrong with dyed hair? Everyone was once young. So, dial your tone down a little! It sounds like you locals are so high and mighty. What's wrong with outsiders? Everyone's got arms and legs and are trying to earn a living, but you're here maliciously suspecting them of this and that. You've really got no manners."
               }
-            ]
+            ],
+            "id": "p-e0d5cd73f2521724"
           },
           {
             "type": "paragraph",
@@ -169,7 +174,8 @@
                 "type": "text",
                 "text": "Everyone, please mind your manners and watch your words when leaving comments here. Don't hurt people, don't make bad jokes, and don't provoke others! People need to learn to be considerate when communicating. If there is a difference in opinion, don't fight over it, and don't act on impulse!"
               }
-            ]
+            ],
+            "id": "p-8ecfcdec7a17627b"
           },
           {
             "type": "paragraph",
@@ -199,7 +205,8 @@
                 "type": "text",
                 "text": "Gramps, don't bother helping. We're all anonymous here and everyone writes harsh comments. This is like the mad moles in the mines, not wanting to see the light, just running around screaming. They get sensitive to everything and like to engage in in-fighting that ends up hurting themselves. The Gathering Place is just a mole nest. I'm used to it."
               }
-            ]
+            ],
+            "id": "p-cb5b44e80acf4d4a"
           },
           {
             "type": "paragraph",
@@ -229,7 +236,8 @@
                 "type": "text",
                 "text": "Nah, it's you outsiders who made Boulder Town the way it is now. Wasn't it you lot who begged us to take you in? And now you have the guts to call everyone mad moles. Listen to what you're saying and don't put words into the mouths of Boulder Town locals. We are not the same as you."
               }
-            ]
+            ],
+            "id": "p-f44a7727c6400f69"
           },
           {
             "type": "paragraph",
@@ -273,7 +281,8 @@
                 "type": "text",
                 "text": "The seniors in Wildfire had taught me all that. I believe the biggest difference between humans and animals is that we have a rational brain. If you don't want to turn into a mad mole, you can join Wildfire and protect our home together. Don't fight over being an outsider or a local when we have the Fragmentum to fight."
               }
-            ]
+            ],
+            "id": "p-1981148c6a6910b1"
           },
           {
             "type": "paragraph",
@@ -303,7 +312,8 @@
                 "type": "text",
                 "text": "#8 is right. It is better to work for Wildfire than to argue over minute issues. Let us all calm down and desist from arguments. Say, my birthday is tomorrow. If you are so inclined, I'll treat you to a drink tomorrow afternoon? I might not be able to afford expensive beverages, but one cup of water is still within my budget."
               }
-            ]
+            ],
+            "id": "p-da404eb8d4b884b8"
           },
           {
             "type": "paragraph",
@@ -333,7 +343,8 @@
                 "type": "text",
                 "text": "Thanks. I had a drink on you today. Appreciate the treat. But judging from the way you speak, you're not a local, are you?"
               }
-            ]
+            ],
+            "id": "p-eaf73e266fb9105a"
           },
           {
             "type": "paragraph",
@@ -363,7 +374,8 @@
                 "type": "text",
                 "text": "...Lei, I think you just wasted your money."
               }
-            ]
+            ],
+            "id": "p-8e8338d24e1359a4"
           },
           {
             "type": "paragraph",
@@ -393,7 +405,8 @@
                 "type": "text",
                 "text": "Go on, keep commenting! Every time I read this booklet, it's just full of comments. So why does no one comment when I started to write in it? Y'all looking down on us migrants from other towns? It's all you local groups chatting on this book, no? I ain't going nowhere. I'm gonna come every day to see just who is writing a thesis in these messages and what kind of new stuff you write about. Whenever I leave, you chat all the way from the Eternal Freeze to the history of the mines, from your lunch to Gertie's cooking skills, from how to dig more efficiently to the fundamentals of fixing machines. And you all stop as soon as I'm in the Gathering Place. You telling me it's all a coincidence? Well, I don't believe you! I'm gonna be right here from morning till night and I wanna see what exactly you are all blabbering about!"
               }
-            ]
+            ],
+            "id": "p-f176840d0ae37ecb"
           },
           {
             "type": "paragraph",
@@ -423,7 +436,8 @@
                 "type": "text",
                 "text": "How did #12 get drunk on water? You got a hidden menu at this place?"
               }
-            ]
+            ],
+            "id": "p-485c1af063ee1ca3"
           },
           {
             "type": "paragraph",
@@ -453,7 +467,8 @@
                 "type": "text",
                 "text": "The Gathering Place got a new notebook because the last one was full... Bro, if you've got such an active imagination, why don't you go write a novel?"
               }
-            ]
+            ],
+            "id": "p-4cb6ec24d7650b92"
           }
         ]
       }

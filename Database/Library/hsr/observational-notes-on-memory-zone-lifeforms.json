@@ -4,10 +4,11 @@
   "id": "observational-notes-on-memory-zone-lifeforms",
   "name": "Observational Notes on Memory Zone Lifeforms",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Observational_Notes_on_Memory_Zone_Lifeforms",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -33,7 +34,8 @@
                 "type": "text",
                 "text": "Record Keeper: Cains, doctoral candidate, Department of Memory Zone Biological Sciences, University of Veritas Prime"
               }
-            ]
+            ],
+            "id": "p-f27da16a9de56bb0"
           },
           {
             "type": "paragraph",
@@ -42,7 +44,8 @@
                 "type": "text",
                 "text": "Observational Records"
               }
-            ]
+            ],
+            "id": "p-30082b93db8851b2"
           },
           {
             "type": "paragraph",
@@ -142,7 +145,8 @@
                 "type": "text",
                 "text": "(All words after are illegible.)"
               }
-            ]
+            ],
+            "id": "p-3964288992c072d8"
           }
         ]
       }

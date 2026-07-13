@@ -4,10 +4,11 @@
   "id": "biography-of-gunnhildr",
   "name": "Biography of Gunnhildr",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Biography_of_Gunnhildr",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "May the gentle breeze of Barbatos carry words of enlightenment and deliver them into the gaze of my readers. And may the wind of freedom forever prevail in Mondstadt."
               }
-            ]
+            ],
+            "id": "p-f3ae8e93f61ef42c"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "The story of the Gunnhildr Clan begins in legend, three thousand years ago during the war between the Lord of the Tower, Decarabian, and the King of the North Wind, Andrius. It was a time when Mondstadt was a frozen wasteland, and Gunnhildr was about to become the strongest leader her nomadic clan had ever seen."
               }
-            ]
+            ],
+            "id": "p-1fa511d0c5102dcf"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "Gunnhildr's father, the then-leader of the clan, had once served under Decarabian. He served until he found the despotic rule of the aloof and selfish king to be more than he could bear, whereupon he had led his clan outside of the city where ferocious winds howled without mercy. But life in the wasteland beyond the city gates was harsh and unforgiving. Though they had escaped the wrath of a tyrant, they were now faced with the wrath of relentless and all-engulfing blizzards."
               }
-            ]
+            ],
+            "id": "p-d936e5ff02469f91"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "Just when all hope seemed to be lost for the wandering clan, a spirit from the midst of the myriad winds heard Gunnhildr's prayers. The sincere plea of a clan chief's young daughter joined with a people's cry of help, a cry that the blizzard had all but drowned out, and became a faith. The faith gathered in front of the wind spirit like water flowing into a spring and became the source from which the wind spirit drew its power. The wind spirit used this power to make a small shelter for the clan, and bestowed upon the clan chief's daughter the power to protect."
               }
-            ]
+            ],
+            "id": "p-a9391e31807d819f"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "After her father's death, Gunnhildr took his place as the clan's leader. She also became its first priestess. From that day forth, she protected her clan faithfully. When the Anemo Archon Barbatos challenged the aloof and selfish king Decarabian's rule, Gunnhildr led her people to make a stand against the Archon's fury. But when Barbatos finally fought through the ferocious winds and freed the tyrant's subjects, she was also the one who decorated the victorious Anemo Archon with laurels."
               }
-            ]
+            ],
+            "id": "p-e5c2c53a837aafd1"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "In later times, after Barbatos had departed, a class of aristocrats emerged across the land. These rulers, who were possessed of divine power, would become corrupted and turn to tyranny themselves a thousand years later, but none had the ability to predict the distant future. Not even Barbatos himself."
               }
-            ]
+            ],
+            "id": "p-b91007a939e2e415"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "Gunnhildr's descendants were themselves a prominent clan within the Aristocracy. But unlike the evil and scheming Lawrence Clan, the Gunnhildrs upheld their legacy of protecting Mondstadt that was always enshrined in their motto, \"for Mondstadt, as always,\" doing everything within their power to protect its people. During the later struggle to overthrow the Aristocracy, they took the side of the people of Mondstadt. For this reason, they were spared the sentence of exile that was imposed on the rest of the Aristocracy."
               }
-            ]
+            ],
+            "id": "p-946c11ec6dc5db57"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "Today, the Gunnhildr Clan is a source of many brave knights and outstanding clergy members that serve in the Knights of Favonius. If history can teach us anything at all about the future, perhaps it is that the Gunnhildr Clan will continue honoring the legacy of its ancestors and its duty to the Anemo Archon: to protect Mondstadt, the land and all who inhabit it, forever."
               }
-            ]
+            ],
+            "id": "p-3c5057673c229a60"
           }
         ]
       }

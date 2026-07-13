@@ -4,10 +4,11 @@
   "id": "paperfold-university-yearbook-vol-24825",
   "name": "Paperfold University Yearbook: Vol 24825",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Paperfold_University_Yearbook:_Vol_24825",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "page-czipo",
       "label": "Page: Czipo",
       "document": {
         "version": 1,
@@ -68,7 +69,8 @@
                 "type": "text",
                 "text": "Participating in the stage performance at the Music Party as one of the keyboardist for the band (Dazzling Band/Dazzling Collective/Dazzling Airship/Dazzling Initiate Hotel/Dazzling School Party)."
               }
-            ]
+            ],
+            "id": "p-1a41bede9baece11"
           },
           {
             "type": "paragraph",
@@ -91,7 +93,8 @@
                 "type": "text",
                 "text": "It's been a blast being in the band with you, Czipo. I hope we'll work together again in the future! Yeah!"
               }
-            ]
+            ],
+            "id": "p-729f64165bdcbb9a"
           },
           {
             "type": "paragraph",
@@ -107,7 +110,8 @@
                 "type": "text",
                 "text": "Your enthusiasm always injects fresh energy into the band, cheering us up whenever we're feeling down. You're someone who can renew everyone's morale. Keep that spark alive and shine on the stage."
               }
-            ]
+            ],
+            "id": "p-b7624b0225f31b29"
           },
           {
             "type": "paragraph",
@@ -116,13 +120,15 @@
                 "type": "text",
                 "text": "(Trailblazer):"
               }
-            ]
+            ],
+            "id": "p-526bc0147c7654c9"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "page-montana",
       "label": "Page: Montana",
       "document": {
         "version": 1,
@@ -183,7 +189,8 @@
                 "type": "text",
                 "text": "Managing stage affairs during the band performance at the music party."
               }
-            ]
+            ],
+            "id": "p-ce9b3a06962d4f98"
           },
           {
             "type": "paragraph",
@@ -206,7 +213,8 @@
                 "type": "text",
                 "text": "A dedicated peer taking responsibilities seriously! I hope we'll work together again in the future!"
               }
-            ]
+            ],
+            "id": "p-9a576076373e7e3f"
           },
           {
             "type": "paragraph",
@@ -222,7 +230,8 @@
                 "type": "text",
                 "text": "Thank you for your unwavering support for The Dazzling. May our performances bring you joy!"
               }
-            ]
+            ],
+            "id": "p-1737809836b885f0"
           },
           {
             "type": "paragraph",
@@ -238,7 +247,8 @@
                 "type": "text",
                 "text": "Well, allow me to make this clear: we won't disband our band. So, you're always welcome to in our future performances, Miss Secretary."
               }
-            ]
+            ],
+            "id": "p-86aa1e0715e58a35"
           },
           {
             "type": "paragraph",
@@ -247,13 +257,15 @@
                 "type": "text",
                 "text": "(Trailblazer):"
               }
-            ]
+            ],
+            "id": "p-526bc0147c7654c9"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "page-arfey",
       "label": "Page: Arfey",
       "document": {
         "version": 1,
@@ -314,7 +326,8 @@
                 "type": "text",
                 "text": "Participating in the stage performance at the music party as one of the guitarists for the band (Dazzling Band/Dazzling Collective/Dazzling Airship/Dazzling Initiate Hotel/Dazzling School Party)"
               }
-            ]
+            ],
+            "id": "p-e341c5b2f8df0cdb"
           },
           {
             "type": "paragraph",
@@ -337,7 +350,8 @@
                 "type": "text",
                 "text": "Just don't be too formal. Drop by my party when you can! It's a great way to find your muse and get connected with your music-loving peers!"
               }
-            ]
+            ],
+            "id": "p-3f69721aa5c00376"
           },
           {
             "type": "paragraph",
@@ -353,7 +367,8 @@
                 "type": "text",
                 "text": "May you always shine in your pursuit of your dreams and create music you truly love. I'll always cherish the moments shared with you."
               }
-            ]
+            ],
+            "id": "p-cf2f7f2008d0992e"
           },
           {
             "type": "paragraph",
@@ -362,13 +377,15 @@
                 "type": "text",
                 "text": "(Trailblazer):"
               }
-            ]
+            ],
+            "id": "p-526bc0147c7654c9"
           }
         ]
       }
     },
     {
       "id": "4",
+      "volumeKey": "page-dafanchy",
       "label": "Page: Dafanchy",
       "document": {
         "version": 1,
@@ -429,7 +446,8 @@
                 "type": "text",
                 "text": "Participating in the stage performance at the music party as the bassist for the band (Dazzling Band/Dazzling Collective/Dazzling Airship/Dazzling Initiate Hotel/Dazzling School Party)"
               }
-            ]
+            ],
+            "id": "p-7ce309366859f788"
           },
           {
             "type": "paragraph",
@@ -452,7 +470,8 @@
                 "type": "text",
                 "text": "Dafanchy! You're a crucial member of our band! The best bassist ever! I hear you're continuing your pursuit for music, keep at it! And if you need any support, just give us a shout! All the best for you!"
               }
-            ]
+            ],
+            "id": "p-293cf293008ad373"
           },
           {
             "type": "paragraph",
@@ -468,7 +487,8 @@
                 "type": "text",
                 "text": "You're much braver than you realize. You may face setbacks in the future, but don't give up on your musical aspirations. I believe you'll become a brilliant musician, and I look forward to attending your live performances one day! Go for it!"
               }
-            ]
+            ],
+            "id": "p-118579434945667b"
           },
           {
             "type": "paragraph",
@@ -477,13 +497,15 @@
                 "type": "text",
                 "text": "(Trailblazer):"
               }
-            ]
+            ],
+            "id": "p-526bc0147c7654c9"
           }
         ]
       }
     },
     {
       "id": "5",
+      "volumeKey": "page-richie",
       "label": "Page: Richie",
       "document": {
         "version": 1,
@@ -544,7 +566,8 @@
                 "type": "text",
                 "text": "President of the Toy Model Club at Paperfold University, possessing extensive experience in commercial activities."
               }
-            ]
+            ],
+            "id": "p-c6700a9669f3cf0c"
           },
           {
             "type": "paragraph",
@@ -567,7 +590,8 @@
                 "type": "text",
                 "text": "How about giving me, your dear classmate, a discount? Haha! Don't forget to join me in the party next time."
               }
-            ]
+            ],
+            "id": "p-6848ba655a85e803"
           },
           {
             "type": "paragraph",
@@ -583,7 +607,8 @@
                 "type": "text",
                 "text": "Don't listen to his nonsense! Join my party!"
               }
-            ]
+            ],
+            "id": "p-7181bba876d12dcf"
           },
           {
             "type": "paragraph",
@@ -592,13 +617,15 @@
                 "type": "text",
                 "text": "(Trailblazer):"
               }
-            ]
+            ],
+            "id": "p-526bc0147c7654c9"
           }
         ]
       }
     },
     {
       "id": "6",
+      "volumeKey": "page-chaletka",
       "label": "Page: Chaletka",
       "document": {
         "version": 1,
@@ -659,7 +686,8 @@
                 "type": "text",
                 "text": "Dessert Club President in Paperfold University."
               }
-            ]
+            ],
+            "id": "p-a5d1b0475b225151"
           },
           {
             "type": "paragraph",
@@ -682,7 +710,8 @@
                 "type": "text",
                 "text": "Your desserts are amazing, especially that crispy pie... Just a suggestion, maybe skip the bananas next time."
               }
-            ]
+            ],
+            "id": "p-c374540708b2933f"
           },
           {
             "type": "paragraph",
@@ -698,7 +727,8 @@
                 "type": "text",
                 "text": "Thank you for supporting the charity! The children were overjoyed upon receiving your cakes!"
               }
-            ]
+            ],
+            "id": "p-dba896034039a6cb"
           },
           {
             "type": "paragraph",
@@ -707,13 +737,15 @@
                 "type": "text",
                 "text": "(Trailblazer):"
               }
-            ]
+            ],
+            "id": "p-526bc0147c7654c9"
           }
         ]
       }
     },
     {
       "id": "7",
+      "volumeKey": "page-gabbana",
       "label": "Page: Gabbana",
       "document": {
         "version": 1,
@@ -774,7 +806,8 @@
                 "type": "text",
                 "text": "Performing Arts Club President at Paperfold University. Featured in Mr. Reca's latest movie."
               }
-            ]
+            ],
+            "id": "p-567e8ffdb9734601"
           },
           {
             "type": "paragraph",
@@ -797,7 +830,8 @@
                 "type": "text",
                 "text": "Your acting talents are remarkable. Don't overthink. Just stay focused on pursuing your dreams."
               }
-            ]
+            ],
+            "id": "p-3e0b30fbb7cb6db5"
           },
           {
             "type": "paragraph",
@@ -813,7 +847,8 @@
                 "type": "text",
                 "text": "Give me anm autograph before you become a superstar! Pretty please!!!"
               }
-            ]
+            ],
+            "id": "p-41be022a495e3e14"
           },
           {
             "type": "paragraph",
@@ -822,7 +857,8 @@
                 "type": "text",
                 "text": "(Trailblazer):"
               }
-            ]
+            ],
+            "id": "p-526bc0147c7654c9"
           },
           {
             "type": "paragraph",
@@ -831,7 +867,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

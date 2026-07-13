@@ -4,10 +4,11 @@
   "id": "poems-by-lipos",
   "name": "Poems by Lipos",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Poems_by_Lipos",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "i",
       "label": "(I)",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "(...)"
               }
-            ]
+            ],
+            "id": "p-6e6ea7e1675130fe"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "strong",
                 "children": []
               }
-            ]
+            ],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -58,7 +61,8 @@
                 "type": "text",
                 "text": "In stillness, hope is never truly gone"
               }
-            ]
+            ],
+            "id": "p-d865be86b3509e15"
           },
           {
             "type": "paragraph",
@@ -88,7 +92,8 @@
                 "type": "text",
                 "text": "The gods are silent. Fate is gloomy. Madness is rampaging"
               }
-            ]
+            ],
+            "id": "p-3be021f97505e38d"
           },
           {
             "type": "paragraph",
@@ -118,7 +123,8 @@
                 "type": "text",
                 "text": "Where , feasts, and fine wine are not yet lost"
               }
-            ]
+            ],
+            "id": "p-5d3052721ea52b85"
           },
           {
             "type": "paragraph",
@@ -127,13 +133,15 @@
                 "type": "text",
                 "text": "(...)"
               }
-            ]
+            ],
+            "id": "p-6e6ea7e1675130fe-2"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "ii",
       "label": "(II)",
       "document": {
         "version": 1,
@@ -145,7 +153,8 @@
                 "type": "text",
                 "text": "(...)"
               }
-            ]
+            ],
+            "id": "p-6e6ea7e1675130fe"
           },
           {
             "type": "paragraph",
@@ -154,7 +163,8 @@
                 "type": "strong",
                 "children": []
               }
-            ]
+            ],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -184,7 +194,8 @@
                 "type": "text",
                 "text": "But I see that the palaces are now homes for snakes and rats, playgrounds for worms and bugs"
               }
-            ]
+            ],
+            "id": "p-f183419ba2b60659"
           },
           {
             "type": "paragraph",
@@ -214,7 +225,8 @@
                 "type": "text",
                 "text": "The burdens of the abyss are too heavy to endure. The prophetic words are too promising to fulfill."
               }
-            ]
+            ],
+            "id": "p-550a6c5a748ad9f7"
           },
           {
             "type": "paragraph",
@@ -244,7 +256,8 @@
                 "type": "text",
                 "text": "What can comfort the soul, when the world is filled with dread?"
               }
-            ]
+            ],
+            "id": "p-c9e85611f40ff118"
           },
           {
             "type": "paragraph",
@@ -253,13 +266,15 @@
                 "type": "text",
                 "text": "(...)"
               }
-            ]
+            ],
+            "id": "p-6e6ea7e1675130fe-2"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "iii",
       "label": "(III)",
       "document": {
         "version": 1,
@@ -271,7 +286,8 @@
                 "type": "text",
                 "text": "(...)"
               }
-            ]
+            ],
+            "id": "p-6e6ea7e1675130fe"
           },
           {
             "type": "paragraph",
@@ -280,7 +296,8 @@
                 "type": "strong",
                 "children": []
               }
-            ]
+            ],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -310,7 +327,8 @@
                 "type": "text",
                 "text": "Yet, its loyalty belongs solely to Nikador's spear."
               }
-            ]
+            ],
+            "id": "p-66fcf45298a2410d"
           },
           {
             "type": "paragraph",
@@ -340,7 +358,8 @@
                 "type": "text",
                 "text": "Their final paths always lead them to battlefields vast."
               }
-            ]
+            ],
+            "id": "p-3e1022b0e16264c9"
           },
           {
             "type": "paragraph",
@@ -370,7 +389,8 @@
                 "type": "text",
                 "text": "\"Be crowned in blood, and death is our supreme honor!\""
               }
-            ]
+            ],
+            "id": "p-e1ad49e59af8529a"
           },
           {
             "type": "paragraph",
@@ -379,7 +399,8 @@
                 "type": "text",
                 "text": "(...)"
               }
-            ]
+            ],
+            "id": "p-6e6ea7e1675130fe-2"
           }
         ]
       }

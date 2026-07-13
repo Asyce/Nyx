@@ -4,10 +4,11 @@
   "id": "dromas-post-account-board",
   "name": "Dromas Post Account Board",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Dromas_Post_Account_Board",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-f84c202f925c59d4"
           },
           {
             "type": "paragraph",
@@ -73,7 +75,8 @@
                 "type": "text",
                 "text": "6 blocks of soil — 1,741 Balance Coins"
               }
-            ]
+            ],
+            "id": "p-388f8d8f45bbfe68"
           },
           {
             "type": "paragraph",
@@ -87,7 +90,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-d8752e1c7b4ceab3"
           },
           {
             "type": "paragraph",
@@ -150,7 +154,8 @@
                 "type": "text",
                 "text": "Total outgoing payments for this month: 104,750 Balance Coins."
               }
-            ]
+            ],
+            "id": "p-9530bd123bf5b509"
           },
           {
             "type": "paragraph",
@@ -164,7 +169,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-95f9759f4a63b521"
           },
           {
             "type": "paragraph",
@@ -199,7 +205,8 @@
                 "type": "text",
                 "text": "Total outgoing payments for this month: 163,000 Balance Coins"
               }
-            ]
+            ],
+            "id": "p-7fe348cfa2c20064"
           },
           {
             "type": "paragraph",
@@ -213,7 +220,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-4e05f41dcf16c93d"
           },
           {
             "type": "paragraph",
@@ -276,7 +284,8 @@
                 "type": "text",
                 "text": "Total outgoing payments for this month: 175,000 Balance Coins"
               }
-            ]
+            ],
+            "id": "p-aeda372c4c42c96e"
           },
           {
             "type": "paragraph",
@@ -290,7 +299,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-4fadf090d0f88d2a"
           },
           {
             "type": "paragraph",
@@ -332,7 +342,8 @@
                 "type": "text",
                 "text": "Inviting a Grove Scholar to give a lecture — 300 Balance Coins (Not included in calculation)"
               }
-            ]
+            ],
+            "id": "p-66a623faaa2873c4"
           },
           {
             "type": "paragraph",
@@ -346,7 +357,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-f5ef4757d4717784"
           },
           {
             "type": "paragraph",
@@ -395,7 +407,8 @@
                 "type": "text",
                 "text": "Sale of dromas horns (5 horns) — +50,000 Balance Coins."
               }
-            ]
+            ],
+            "id": "p-0a53851fd235555b"
           },
           {
             "type": "paragraph",
@@ -409,7 +422,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-34caa4ce2be60757"
           },
           {
             "type": "paragraph",
@@ -472,7 +486,8 @@
                 "type": "text",
                 "text": "Snacks for Lord Tribbie — 200 Balance Coins."
               }
-            ]
+            ],
+            "id": "p-5c51209b08989634"
           },
           {
             "type": "paragraph",
@@ -486,7 +501,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-e3c90f4fd58cab3e"
           }
         ]
       }

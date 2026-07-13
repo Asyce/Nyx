@@ -4,10 +4,11 @@
   "id": "the-luofu-sky-faring-commission-guilds-list",
   "name": "The Luofu Sky-Faring Commission Guilds List",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/The_Luofu_Sky-Faring_Commission_Guilds_List",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "There are currently seven trade guilds affiliated with the Luofu Sky-Faring Commission: the Whistling Flames, the Celestial, the Securocrat, the Goldstream, the Plainfeather, the Firefly, and the Aquaglider."
               }
-            ]
+            ],
+            "id": "p-8a73377613ed624a"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "For the convenience of connection between the Sky-Faring Commission and various other business interests, the amicassador and scope of trade for each guild are as follows:"
               }
-            ]
+            ],
+            "id": "p-375b778272038c88"
           },
           {
             "type": "paragraph",
@@ -75,7 +78,8 @@
                 "type": "text",
                 "text": "Import and export of various products for refinement."
               }
-            ]
+            ],
+            "id": "p-051b55137dc1da34"
           },
           {
             "type": "paragraph",
@@ -84,7 +88,8 @@
                 "type": "text",
                 "text": "The Whistling Flames guild has the fastest and safest bio-transport vessels in the galaxy. In addition to industrial processing materials, our guild also handles farming products, breeding, and transformations. We sincerely welcome planets rich in bio-materials to contact us."
               }
-            ]
+            ],
+            "id": "p-12a87fc20ef9445a"
           },
           {
             "type": "paragraph",
@@ -131,7 +136,8 @@
                 "type": "text",
                 "text": "Import and export of various cultural productions, artworks, publications, and other cultural products."
               }
-            ]
+            ],
+            "id": "p-6fea8f4e5f76d34f"
           },
           {
             "type": "paragraph",
@@ -140,7 +146,8 @@
                 "type": "text",
                 "text": "The Celestial guild handles trades of art and literary products. Please contact us to discuss further if you want to hold an exhibition or event involving a foreign culture aboard the Xianzhou, or if you wish to showcase Xianzhou culture off-world."
               }
-            ]
+            ],
+            "id": "p-f606a2c6a4a08793"
           },
           {
             "type": "paragraph",
@@ -187,7 +194,8 @@
                 "type": "text",
                 "text": "Import and export of various weapons and military products."
               }
-            ]
+            ],
+            "id": "p-9ef3c57b9f8537c5"
           },
           {
             "type": "paragraph",
@@ -209,7 +217,8 @@
                 "type": "text",
                 "text": "to maintain order, and eliminate the Abominations of Abundance. Any export of military technology must first be approved by the Sky-Faring Commission."
               }
-            ]
+            ],
+            "id": "p-ef7c9881ec02ba6f"
           },
           {
             "type": "paragraph",
@@ -256,7 +265,8 @@
                 "type": "text",
                 "text": "Import and export of various pharmaceutical products."
               }
-            ]
+            ],
+            "id": "p-f8efaa91cc8f2942"
           },
           {
             "type": "paragraph",
@@ -265,7 +275,8 @@
                 "type": "text",
                 "text": "The Goldstream guild handles the import and export of medical and health-related products. Based on the Sky-Faring Commission Trade Management Regulations, any pharmaceutical products not included in the trading allowlist must undergo inspection. Offenders are strictly prohibited from trading with the Luofu."
               }
-            ]
+            ],
+            "id": "p-f550792c3deacefb"
           },
           {
             "type": "paragraph",
@@ -312,7 +323,8 @@
                 "type": "text",
                 "text": "Import and export of various starskiff-related products."
               }
-            ]
+            ],
+            "id": "p-d7016ed9aea01df0"
           },
           {
             "type": "paragraph",
@@ -321,7 +333,8 @@
                 "type": "text",
                 "text": "In addition to their starskiff exports, the Plainfeather guild also provides after-sales modding services for starskiffs so that they match various different lifestyle and cultural themes."
               }
-            ]
+            ],
+            "id": "p-b48698625956a239"
           },
           {
             "type": "paragraph",
@@ -368,7 +381,8 @@
                 "type": "text",
                 "text": "Import and export of various goods within the Xianzhou Alliance network."
               }
-            ]
+            ],
+            "id": "p-4081b8f506b07b2e"
           },
           {
             "type": "paragraph",
@@ -377,7 +391,8 @@
                 "type": "text",
                 "text": "The Firefly guild gathers specialties from all over the galaxy onto the Luofu: the Zhuming's porcelain, the Fanghu's marine products, the Yuque's jade abaci, and various other specialties from other Xianzhou vessels."
               }
-            ]
+            ],
+            "id": "p-ede46d8f6a6ddfe5"
           },
           {
             "type": "paragraph",
@@ -424,7 +439,8 @@
                 "type": "text",
                 "text": "Import and export of various secondary-industry products (such as agricultural by-products, raw chemical and textile materials, etc)."
               }
-            ]
+            ],
+            "id": "p-6c6b7f8f8a2a15a0"
           },
           {
             "type": "paragraph",
@@ -433,7 +449,8 @@
                 "type": "text",
                 "text": "The Aquaglider Guild undertakes trades for almost all industries, and owns a huge fleet of spaceships. They are the largest of the seven guilds aboard the Xianzhou Luofu."
               }
-            ]
+            ],
+            "id": "p-48725f0dfb6e4665"
           }
         ]
       }

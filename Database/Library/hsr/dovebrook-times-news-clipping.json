@@ -4,10 +4,11 @@
   "id": "dovebrook-times-news-clipping",
   "name": "Dovebrook Times News Clipping",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Dovebrook_Times_News_Clipping",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -38,7 +39,8 @@
                 "type": "text",
                 "text": "The Security Bureau suggests the case appears to be the result of a gang turf war."
               }
-            ]
+            ],
+            "id": "p-6224dd62ee32a61a"
           },
           {
             "type": "paragraph",
@@ -73,7 +75,8 @@
                 "type": "text",
                 "text": "As of press time, foot traffic on Dovebrook streets has plummeted, with many shops reporting declining sales due to the impact of these cases."
               }
-            ]
+            ],
+            "id": "p-f1df35724fddf36b"
           },
           {
             "type": "paragraph",
@@ -94,7 +97,8 @@
                 "type": "text",
                 "text": "A shocking murder case has cast a bloody shadow over the newly opened Phantasmoon Games. Various rumors have added a suspiciously mysterious touch to the incident. Word has it that the Synwish Syndicate recently acquired a Supplicant mask. Could this be connected to the massacre that wiped them out? An IPC Worker also tragically perished in the incident, but why would an IPC employee be on Synwish Syndicate turf in the first place?"
               }
-            ]
+            ],
+            "id": "p-c4fa62812f72a226"
           },
           {
             "type": "paragraph",
@@ -110,7 +114,8 @@
                 "type": "text",
                 "text": "The receptionist stated: The case is still under investigation. Residents of Planarcadia are advised not to believe or spread rumors, and to await further official announcements."
               }
-            ]
+            ],
+            "id": "p-1a12851cdc9a7ee8"
           }
         ]
       }

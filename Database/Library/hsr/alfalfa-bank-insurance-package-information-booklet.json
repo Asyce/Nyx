@@ -4,10 +4,11 @@
   "id": "alfalfa-bank-insurance-package-information-booklet",
   "name": "Alfalfa Bank Insurance Package Information Booklet",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Alfalfa_Bank_Insurance_Package_Information_Booklet",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -40,7 +41,8 @@
                 "type": "text",
                 "text": "Alfalfa Bank — navigating secure passage for your future."
               }
-            ]
+            ],
+            "id": "p-0cbccdda6f2195b6"
           },
           {
             "type": "paragraph",
@@ -49,7 +51,8 @@
                 "type": "text",
                 "text": "\"My Secure Insurance Plan\""
               }
-            ]
+            ],
+            "id": "p-788d6f3c30ec7c7a"
           },
           {
             "type": "paragraph",
@@ -107,7 +110,8 @@
                 "type": "text",
                 "text": "(For some reason, the last line of text has been underlined with a black line.)"
               }
-            ]
+            ],
+            "id": "p-0d8920bf83a99688"
           },
           {
             "type": "paragraph",
@@ -151,7 +155,8 @@
                 "type": "text",
                 "text": "5. We emphasize that any fraudulent insurance claims will be strictly punished. In such cases, in addition to recovering the entire compensation and confiscating the premiums, the swindler will face the highest level of charges in Penacony, including but not limited to paying compensation due to breaching contracts, permanent eviction, imprisonment, and other penalties. The Bloodhound Family is responsible for safeguarding the bank's capital."
               }
-            ]
+            ],
+            "id": "p-5e33f9204ed2a5b6"
           },
           {
             "type": "paragraph",
@@ -160,7 +165,8 @@
                 "type": "text",
                 "text": "Please be assured that Alfalfa Bank will always be your most loyal partner."
               }
-            ]
+            ],
+            "id": "p-a16d135edc7a2e28"
           },
           {
             "type": "paragraph",
@@ -169,7 +175,8 @@
                 "type": "text",
                 "text": "(The following pages are torn off.)"
               }
-            ]
+            ],
+            "id": "p-a14640f8c505d2db"
           }
         ]
       }

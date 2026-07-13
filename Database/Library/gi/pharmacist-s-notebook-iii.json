@@ -4,10 +4,11 @@
   "id": "pharmacist-s-notebook-iii",
   "name": "Pharmacist's Notebook (III)",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Pharmacist%27s_Notebook_(III)",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -69,7 +70,8 @@
                 "type": "text",
                 "text": "...Whatever happens, I want to thank everyone for their help..."
               }
-            ]
+            ],
+            "id": "p-c23cb516d91a0f9c"
           }
         ]
       }

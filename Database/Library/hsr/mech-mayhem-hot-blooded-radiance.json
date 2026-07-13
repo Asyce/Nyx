@@ -4,10 +4,11 @@
   "id": "mech-mayhem-hot-blooded-radiance",
   "name": "Mech Mayhem: Hot-Blooded Radiance",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Mech_Mayhem:_Hot-Blooded_Radiance",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-23a9133b4a75a32b"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "Battle engine pilots, also known as \"steel knights,\" are worth more than their weight in gold. Piloting mountain-sized mechas, they are responsible for rescuing the cosmos from frightful foes... However, before they can become such heroes, these young boys and girls must first attend the steel knight training grounds at the center of the universe to undergo grueling training. Finally, there is one final trial before they can graduate: They must claim victory in a live combat drill."
               }
-            ]
+            ],
+            "id": "p-17b69568f74767ca"
           },
           {
             "type": "paragraph",
@@ -49,7 +52,8 @@
                 "type": "text",
                 "text": "\"The paint has been scratched off all over the place. The left arm, chest armor, and main monitor are all gone, and the power furnace is trashed. It was one step away from coming apart... it's a wonder you even survived! Also, the barrel on the shoulder machine gun is melted. How did that even happen? I remember I installed overheat protection for you.\""
               }
-            ]
+            ],
+            "id": "p-83021f9fa24c9f37"
           },
           {
             "type": "paragraph",
@@ -58,7 +62,8 @@
                 "type": "text",
                 "text": "\"Uhh... I tore that out. Firing in short bursts is no fun at all! Plus, what am I supposed to do if my gun is locked from overheating and an enemy suddenly appears ahead?\" Explained the young girl, gesticulating excitedly. The boy stared at her long, tied up hair. It kept catching his attention as it danced along to her movements."
               }
-            ]
+            ],
+            "id": "p-7678e67065005571"
           },
           {
             "type": "paragraph",
@@ -67,7 +72,8 @@
                 "type": "text",
                 "text": "\"Then you can't just keep your finger on the trigger! You were originally a mechanic who specialized in close-combat... Either way, these repairs are absolutely impossible in just 5 days. Plus, I'm not your personal mechanic. I still have other jobs waiting for me.\""
               }
-            ]
+            ],
+            "id": "p-489344422afff651"
           },
           {
             "type": "paragraph",
@@ -76,7 +82,8 @@
                 "type": "text",
                 "text": "As he said this, the boy turned away and pretended to walk off. After walking a few steps, he realized that the girl still hadn't called out to him to stop. As he peered behind him, he caught a sly smile on her face."
               }
-            ]
+            ],
+            "id": "p-24c1ae19b9962769"
           },
           {
             "type": "paragraph",
@@ -85,7 +92,8 @@
                 "type": "text",
                 "text": "\"So, there's still room for discussion?\""
               }
-            ]
+            ],
+            "id": "p-376aee6e86e88f06"
           },
           {
             "type": "paragraph",
@@ -94,7 +102,8 @@
                 "type": "text",
                 "text": "\"No... it's not that. I—I just...\""
               }
-            ]
+            ],
+            "id": "p-7f9d53510652abe8"
           },
           {
             "type": "paragraph",
@@ -103,7 +112,8 @@
                 "type": "text",
                 "text": "\"Come on, maintenance-team kid! Help us out!\""
               }
-            ]
+            ],
+            "id": "p-b07956a9c2290866"
           },
           {
             "type": "paragraph",
@@ -112,7 +122,8 @@
                 "type": "text",
                 "text": "The young girl leaned in closer, her amber-like eyes once again commanding his line of sight."
               }
-            ]
+            ],
+            "id": "p-23faf5767cf23518"
           },
           {
             "type": "paragraph",
@@ -121,7 +132,8 @@
                 "type": "text",
                 "text": "\"...Fine. But on one condition.\""
               }
-            ]
+            ],
+            "id": "p-69bdcd52e19545b7"
           },
           {
             "type": "paragraph",
@@ -130,7 +142,8 @@
                 "type": "text",
                 "text": "\"Just name it!\""
               }
-            ]
+            ],
+            "id": "p-4c29b0f95367408d"
           },
           {
             "type": "paragraph",
@@ -139,7 +152,8 @@
                 "type": "text",
                 "text": "The boy hesitated, then gestured towards the girl's personal information on her driver's uniform."
               }
-            ]
+            ],
+            "id": "p-547fecb3c5657607"
           },
           {
             "type": "paragraph",
@@ -148,7 +162,8 @@
                 "type": "text",
                 "text": "\"Your name... This is just a code name, right? I want to know your real name... Also, stop calling me the maintenance-team kid. I introduced myself when we first met, I want you to remember my name properly.\""
               }
-            ]
+            ],
+            "id": "p-4e47e95ff8be70a0"
           },
           {
             "type": "paragraph",
@@ -157,7 +172,8 @@
                 "type": "text",
                 "text": "\"Tan-ny.\""
               }
-            ]
+            ],
+            "id": "p-c15b00c491101777"
           },
           {
             "type": "paragraph",
@@ -166,7 +182,8 @@
                 "type": "text",
                 "text": "\"Huh?\""
               }
-            ]
+            ],
+            "id": "p-ab02f639e2f38dd8"
           },
           {
             "type": "paragraph",
@@ -175,7 +192,8 @@
                 "type": "text",
                 "text": "\"That's my name. Hmm... How would you say it in your Xianzhou language?\""
               }
-            ]
+            ],
+            "id": "p-10852a5d219368c5"
           },
           {
             "type": "paragraph",
@@ -184,7 +202,8 @@
                 "type": "text",
                 "text": "\"Hmm... Tanning? No, no, no... Tenor... That's even worse!\""
               }
-            ]
+            ],
+            "id": "p-272149a028cb76f2"
           },
           {
             "type": "paragraph",
@@ -193,7 +212,8 @@
                 "type": "text",
                 "text": "The boy fell into deep thought, rubbing his chin to help him think. After some time, he clapped his hands and hurried over to the maintenance shelves like a happy squirrel."
               }
-            ]
+            ],
+            "id": "p-f9b3926b90ae5b4b"
           },
           {
             "type": "paragraph",
@@ -202,7 +222,8 @@
                 "type": "text",
                 "text": "\"You've dedicated the rest of your life to the Dawn Star and they've lumped you with a wreck like this? Yes, it's machine genuinely in-service, but it's also a complete mess... it's even got missing modules!\""
               }
-            ]
+            ],
+            "id": "p-9bbc982738591980"
           },
           {
             "type": "paragraph",
@@ -211,7 +232,8 @@
                 "type": "text",
                 "text": "Liujin looked up at the battle engine and rubbed his chin once more."
               }
-            ]
+            ],
+            "id": "p-f35732c322fbede0"
           },
           {
             "type": "paragraph",
@@ -220,7 +242,8 @@
                 "type": "text",
                 "text": "\"Well, I was going to go back anyway, so it was basically free... Oh yeah, you're from Xianzhou too, aren't you? These markings here. Is that writing? What does it mean? I'm curious...\""
               }
-            ]
+            ],
+            "id": "p-be3b75173c0d5f38"
           },
           {
             "type": "paragraph",
@@ -229,7 +252,8 @@
                 "type": "text",
                 "text": "\"Hmm...\""
               }
-            ]
+            ],
+            "id": "p-302403ea625f7f0d"
           },
           {
             "type": "paragraph",
@@ -238,7 +262,8 @@
                 "type": "text",
                 "text": "Liujin stared at the markings on the shoulder panel and tried to decipher the markings."
               }
-            ]
+            ],
+            "id": "p-ecff78a661399435"
           },
           {
             "type": "paragraph",
@@ -247,7 +272,8 @@
                 "type": "text",
                 "text": "\"I think it says 'Titanium'\"..."
               }
-            ]
+            ],
+            "id": "p-f4efcd500594f2bd"
           }
         ]
       }

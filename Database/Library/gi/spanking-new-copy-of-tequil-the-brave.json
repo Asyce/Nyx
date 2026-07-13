@@ -4,10 +4,11 @@
   "id": "spanking-new-copy-of-tequil-the-brave",
   "name": "Spanking New Copy of \"Tequil the Brave\"",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Spanking_New_Copy_of_%22Tequil_the_Brave%22",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -717,7 +718,8 @@
                 "type": "text",
                 "text": "\"Light the fire. Together we shall stand, and ensure that the flame is never extinguished.\""
               }
-            ]
+            ],
+            "id": "p-f41e962f653354fd"
           }
         ]
       }

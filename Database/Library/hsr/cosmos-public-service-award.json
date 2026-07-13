@@ -4,10 +4,11 @@
   "id": "cosmos-public-service-award",
   "name": "Cosmos Public Service Award",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Cosmos_Public_Service_Award",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Cosmos Public Service Award"
               }
-            ]
+            ],
+            "id": "p-8ba73a7342899855"
           },
           {
             "type": "paragraph",
@@ -35,7 +37,8 @@
                 "type": "text",
                 "text": "When gamma rays and neutrino bursts are blocked outside of the spiral arms of the cosmos, when yet another scheme devised by a Lord Ravager is thwarted by the resourceful Rangers, that is when the whistling of justice soars over the Starwall of Preservation, and the people of the seven Aeons rejoice! In this Amber Era when unprecedented changes took place, the Herta Department of Galactic Geopolitics still managed to capture tidbits of information from light-years away, all because of your honorable deed which left a mark on the ever-fleeting energy flow of the universe."
               }
-            ]
+            ],
+            "id": "p-8e5d2babec1b75ee"
           },
           {
             "type": "paragraph",
@@ -44,7 +47,8 @@
                 "type": "text",
                 "text": "As scarce as it may be, justice like this is commendable in its own right. It may not crush the vile foe once and for all, nor can it restore the rights the victims have lost. But it will, like the butterfly that caused a storm, repel all evil and pull good people together, leaving a remarkable chapter of justice in the history of this universe."
               }
-            ]
+            ],
+            "id": "p-c137e6be19ffeaf9"
           },
           {
             "type": "paragraph",
@@ -53,7 +57,8 @@
                 "type": "text",
                 "text": "For this purpose, a little bird travels through the glittering stars to name you"
               }
-            ]
+            ],
+            "id": "p-1532ff4ce14428c3"
           },
           {
             "type": "paragraph",
@@ -62,7 +67,8 @@
                 "type": "text",
                 "text": "Lord of Peace-Keeping"
               }
-            ]
+            ],
+            "id": "p-092d4e7ce113aa60"
           },
           {
             "type": "paragraph",
@@ -78,7 +84,8 @@
                 "type": "text",
                 "text": "May your voice be heard across the galaxies thereon."
               }
-            ]
+            ],
+            "id": "p-9b13c6864bc24e38"
           },
           {
             "type": "paragraph",
@@ -101,7 +108,8 @@
                 "type": "text",
                 "text": "Signed by Researcher Elizabeth Watson"
               }
-            ]
+            ],
+            "id": "p-790bc3af2e3a624f"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "notice-under-bridge",
   "name": "Notice Under Bridge",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Notice_Under_Bridge",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-dfca7e6af8f16237"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "#1"
               }
-            ]
+            ],
+            "id": "p-7dcdc7e41168b6a7"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "No Entry"
               }
-            ]
+            ],
+            "id": "p-b34c971f1c2a0663"
           },
           {
             "type": "paragraph",
@@ -86,7 +90,8 @@
                 "type": "text",
                 "text": "Notice is hereby given."
               }
-            ]
+            ],
+            "id": "p-79136a36d9d22b0f"
           },
           {
             "type": "paragraph",
@@ -95,7 +100,8 @@
                 "type": "text",
                 "text": "Rivet Town Administrative Committee & Rivet Town Chamber of Commerce"
               }
-            ]
+            ],
+            "id": "p-dc03adb1e4c84632"
           },
           {
             "type": "paragraph",
@@ -104,7 +110,8 @@
                 "type": "text",
                 "text": "#2"
               }
-            ]
+            ],
+            "id": "p-941a88eb7c139916"
           },
           {
             "type": "paragraph",
@@ -113,7 +120,8 @@
                 "type": "text",
                 "text": "Notice of Minecart Passage Blockade"
               }
-            ]
+            ],
+            "id": "p-6813fd1acebbc6d1"
           },
           {
             "type": "paragraph",
@@ -122,7 +130,8 @@
                 "type": "text",
                 "text": "Due to the invasion of monsters in Rivet Town's mineshaft, the town's main road is now under traffic control (level 1 restriction). Details are as follows:"
               }
-            ]
+            ],
+            "id": "p-31a46478f0bdd26e"
           },
           {
             "type": "paragraph",
@@ -138,7 +147,8 @@
                 "type": "text",
                 "text": "2. Restricted vehicles: All railway cars"
               }
-            ]
+            ],
+            "id": "p-6c3c8e796deaf498"
           },
           {
             "type": "paragraph",
@@ -147,7 +157,8 @@
                 "type": "text",
                 "text": "During the traffic control period, please make a detour for the aforementioned restricted vehicles when passing through Rivet Town."
               }
-            ]
+            ],
+            "id": "p-ecddfc00e320c5e1"
           },
           {
             "type": "paragraph",
@@ -156,7 +167,8 @@
                 "type": "text",
                 "text": "Rivet Town Mining Association"
               }
-            ]
+            ],
+            "id": "p-2ae8918f8bd7a19d"
           },
           {
             "type": "paragraph",
@@ -165,7 +177,8 @@
                 "type": "text",
                 "text": "#3"
               }
-            ]
+            ],
+            "id": "p-b66222a6600c9401"
           },
           {
             "type": "paragraph",
@@ -174,7 +187,8 @@
                 "type": "text",
                 "text": "Missing Person"
               }
-            ]
+            ],
+            "id": "p-d72b43cf4ce32348"
           },
           {
             "type": "paragraph",
@@ -183,7 +197,8 @@
                 "type": "text",
                 "text": "Kalinka Modric, 6 years old, timid and shy. She was separated from her family during the emergency evacuation. She wore a brown and white patterned fur bucket hat, a brown padded jacket, and tan fur boots. If any kind soul finds this child, please take her to Dr. Natasha's clinic in Boulder Town immediately. You have my sincerest gratitude!"
               }
-            ]
+            ],
+            "id": "p-f708800ce51a21d1"
           },
           {
             "type": "paragraph",
@@ -192,7 +207,8 @@
                 "type": "text",
                 "text": "I am Maria Modric, the mother of the child. I have yet to find a stable residence. If there is any news, please contact Dr. Natasha directly, she knows where I will be."
               }
-            ]
+            ],
+            "id": "p-525c6c844489e1a5"
           }
         ]
       }

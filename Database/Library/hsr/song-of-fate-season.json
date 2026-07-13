@@ -4,10 +4,11 @@
   "id": "song-of-fate-season",
   "name": "Song of Fate Season",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Song_of_Fate_Season",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-bbd19a8d6f8cb8b6"
           },
           {
             "type": "paragraph",
@@ -73,7 +75,8 @@
                 "type": "text",
                 "text": "\"When these gates swing wide again, new dawns shall rise once more\""
               }
-            ]
+            ],
+            "id": "p-d3daebef2c07a8f5"
           },
           {
             "type": "paragraph",
@@ -122,7 +125,8 @@
                 "type": "text",
                 "text": "\"Perfect balance shows us all, nothing's truly small or great\""
               }
-            ]
+            ],
+            "id": "p-52eade3108bbb238"
           },
           {
             "type": "paragraph",
@@ -171,7 +175,8 @@
                 "type": "text",
                 "text": "\"Let all rest in gentle peace, till new life brings sweet release\""
               }
-            ]
+            ],
+            "id": "p-721c18548320c9a3"
           }
         ]
       }

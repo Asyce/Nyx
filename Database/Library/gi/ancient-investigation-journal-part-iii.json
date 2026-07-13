@@ -4,10 +4,11 @@
   "id": "ancient-investigation-journal-part-iii",
   "name": "Ancient Investigation Journal: Part III",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Ancient_Investigation_Journal:_Part_III",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -49,7 +50,8 @@
                 "type": "text",
                 "text": "Whatever the answer, one thing I'm fairly certain of is that this will be my last journal entry."
               }
-            ]
+            ],
+            "id": "p-872c1d791bcebf24"
           },
           {
             "type": "paragraph",
@@ -68,7 +70,8 @@
                 "type": "text",
                 "text": "In hindsight, his actions are all too clear. I'm surprised none of us saw what he was doing... And now I think about it, I fear that the companions we have been separated from along the way will have already fallen victim to his treachery. The cave-in in front of the was surely all part of his plan."
               }
-            ]
+            ],
+            "id": "p-4b254b0a5cd6f76a"
           },
           {
             "type": "paragraph",
@@ -127,7 +130,8 @@
                 "type": "text",
                 "text": "I wonder if he secretly trained to use it for the sole purpose of killing his master here, clearing one more obstacle from his path towards dominion over the clan."
               }
-            ]
+            ],
+            "id": "p-5100e09b570505f9"
           },
           {
             "type": "paragraph",
@@ -136,7 +140,8 @@
                 "type": "text",
                 "text": "Now I think about it, Master Parsifal's disobedience, love of chivalric play-acting, and eventual departure must surely have been encouraged by him behind the scenes..."
               }
-            ]
+            ],
+            "id": "p-fb9535eb4974d2b6"
           },
           {
             "type": "paragraph",
@@ -175,7 +180,8 @@
                 "type": "text",
                 "text": "Or perhaps he did already know of his plans, and that was precisely what prompted him to take this opportunity to move himself one step closer towards the front in the line of succession..."
               }
-            ]
+            ],
+            "id": "p-3ccaa71ac24f1ceb"
           },
           {
             "type": "paragraph",
@@ -184,7 +190,8 @@
                 "type": "text",
                 "text": "I am sorry, Priscilla, for I will not make it back to Mondstadt."
               }
-            ]
+            ],
+            "id": "p-42e31aa25492e614"
           },
           {
             "type": "paragraph",
@@ -213,7 +220,8 @@
                 "type": "text",
                 "text": "And if that happens... There will only be one more obstacle left for him on his road to revolt."
               }
-            ]
+            ],
+            "id": "p-2472007ebd3b9940"
           }
         ]
       }

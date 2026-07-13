@@ -4,10 +4,11 @@
   "id": "zhongshan-s-letter",
   "name": "Zhongshan's Letter",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Zhongshan%27s_Letter",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "(Trailblazer),"
               }
-            ]
+            ],
+            "id": "p-7d1fded5189292da"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "I hope this letter finds you well. When you read this letter, I will no longer be aboard the Luofu. I'm pretty sure the Unshackled incident has been resolved perfectly and the Realm-Keeping Commission has given you a lot of remunerations."
               }
-            ]
+            ],
+            "id": "p-525e2b6b14eb7b85"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "You may be curious about where Tonya, Benna, and Heathmann have gone... Don't worry, I'm not a bad person. They're all doing well."
               }
-            ]
+            ],
+            "id": "p-7fc32eaebd826102"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "I just \"unshackled\" them."
               }
-            ]
+            ],
+            "id": "p-16ef72ee3d68fbad"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "After you left, these three Grandmasters Meritus thought for a long time and each decided to unshackle the other two. This is really great. These three have been fighting for half their lives, but finally reached a consensus. And I, of course, fulfilled each of their wishes. Let's wish the three grandmasters all the best in their new home!"
               }
-            ]
+            ],
+            "id": "p-7e591a8521d968ad"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "This really is a great thing. These three Prime of All Souls have always looked down upon all things with a pompous attitude, and imposed on everyone some self-proclaimed kindness. Now that their positions have changed, these three can finally experience the kindness of others and enjoy a peaceful life."
               }
-            ]
+            ],
+            "id": "p-3f816cd5ad1d68d4"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "As for Nannan... theoretically, he should also have been unshackled, but jokes need a jokester to be told. So I'll let him stay aboard the Luofu for now."
               }
-            ]
+            ],
+            "id": "p-5524e745e25a0881"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "To be honest, (Trailblazer), I really like you. With your wisdom, you must have realized that something was wrong with me, but you still did so much with me until the Unshackled was turned upside down."
               }
-            ]
+            ],
+            "id": "p-52125e1688c4ef36"
           },
           {
             "type": "paragraph",
@@ -91,7 +100,8 @@
                 "type": "text",
                 "text": "Why? Because it was really fun for you, wasn't it?"
               }
-            ]
+            ],
+            "id": "p-632e0657a29809a8"
           },
           {
             "type": "paragraph",
@@ -100,7 +110,8 @@
                 "type": "text",
                 "text": "I don't know if you like this joke about unshackling, but I hope you do. I hope you can sincerely say \"Aha!\" from the bottom of your heart."
               }
-            ]
+            ],
+            "id": "p-5579228fbf02f121"
           },
           {
             "type": "paragraph",
@@ -109,7 +120,8 @@
                 "type": "text",
                 "text": "Perhaps one day we will meet again at \"the tavern.\" At that time, please allow me to buy you a martini with a topology olive and some Barnsley fractal peppers (that's my favorite)."
               }
-            ]
+            ],
+            "id": "p-16c03ca51af57b1a"
           },
           {
             "type": "paragraph",
@@ -128,7 +140,8 @@
                 "type": "text",
                 "text": "Zhongshan"
               }
-            ]
+            ],
+            "id": "p-bbf0c18f6371dc7a"
           }
         ]
       }

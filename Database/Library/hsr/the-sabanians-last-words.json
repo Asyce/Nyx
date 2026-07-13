@@ -4,10 +4,11 @@
   "id": "the-sabanians-last-words",
   "name": "The Sabanians' Last Words",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/The_Sabanians%27_Last_Words",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -37,7 +38,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-79ba9864dd36d294"
           },
           {
             "type": "paragraph",
@@ -46,7 +48,8 @@
                 "type": "text",
                 "text": "He won't approve of what I'm about to do — as the high elder, he wants to lead us away from our homeland and seek refuge in the holy city. That is the only way to escape the black tide. Meanwhile, I have to write something while I'm still a Sabanian to leave something behind for my city."
               }
-            ]
+            ],
+            "id": "p-ac19a3e331e79b81"
           },
           {
             "type": "paragraph",
@@ -55,7 +58,8 @@
                 "type": "text",
                 "text": "What traits do the Sabanians have? Our faces aren't in a different color, and our physiques aren't burly like the Mountain Dweller. The Okhemanians often praise us for our deftness, proficient in raising majestic buildings, but they can also build something as grandiose as the Marmoreal Palace. It doesn't seem like we're anything special..."
               }
-            ]
+            ],
+            "id": "p-e968ea7ae9bb096e"
           },
           {
             "type": "paragraph",
@@ -64,7 +68,8 @@
                 "type": "text",
                 "text": "Then why do we call ourselves the Sabanians? When a millennium elapses on the Light Calendar, how can we prove our existence? I don't know. If I were a scholar, I might be able to regale a long span of history, then whip out numerous artifacts that prove that we were once kin to Georios or some other god. But I am but an ordinary bricklayer who learned how to write while I wasn't building houses."
               }
-            ]
+            ],
+            "id": "p-e77d8cdcee1c6158"
           },
           {
             "type": "paragraph",
@@ -73,7 +78,8 @@
                 "type": "text",
                 "text": "But speaking of building houses, I can speak on that with some authority: As long as you mix red clay, sand, and crushed indigo stone in a 1:4:7 ratio, you will get the optimal construction material. It is supple as earth when wet, and hard as steel when hardened — but you must finish your shape before it hardens, or it'll be too late when it dries. I built an actual vault based on this sole learning."
               }
-            ]
+            ],
+            "id": "p-6728aac3c36ed92e"
           },
           {
             "type": "paragraph",
@@ -82,7 +88,8 @@
                 "type": "text",
                 "text": "...Perhaps this is enough? I may not be knowledgeable, and am unable to pen epic sagas, but at least I can leave behind a formula. If a city can't even leave behind a formula for its descendants, then it is truly gone."
               }
-            ]
+            ],
+            "id": "p-986a220fe7e229fd"
           },
           {
             "type": "paragraph",
@@ -91,7 +98,8 @@
                 "type": "text",
                 "text": "Ah, my older brother is telling me to hurry up. The holy city squad is setting off very soon. When we arrive, we will learn Okhema's culture, integrate ourselves into their lives, and become one of them. The time of Sabanians will end here."
               }
-            ]
+            ],
+            "id": "p-0c67930d3c9212c4"
           },
           {
             "type": "paragraph",
@@ -100,7 +108,8 @@
                 "type": "text",
                 "text": "I will finish my writing here."
               }
-            ]
+            ],
+            "id": "p-debdd12b21815ed7"
           },
           {
             "type": "paragraph",
@@ -109,7 +118,8 @@
                 "type": "text",
                 "text": "Maybe one day in the future, when the black tide ebbs, I hope people will return to their hometowns, the children of their children will learn everything about us, and they will shed tears where I left this carved slate... even if I won't be able to witness it."
               }
-            ]
+            ],
+            "id": "p-c33c965196139c7a"
           },
           {
             "type": "paragraph",
@@ -118,7 +128,8 @@
                 "type": "text",
                 "text": "I hope, when that time comes, we can still build vaults."
               }
-            ]
+            ],
+            "id": "p-f9bb350b5e587ebe"
           }
         ]
       }

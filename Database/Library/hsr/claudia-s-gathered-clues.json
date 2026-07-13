@@ -4,10 +4,11 @@
   "id": "claudia-s-gathered-clues",
   "name": "Claudia's Gathered Clues",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Claudia%27s_Gathered_Clues",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "claudia-s-gathered-clues-i",
       "label": "Claudia's Gathered Clues (I)",
       "document": {
         "version": 1,
@@ -89,7 +90,8 @@
                 "type": "text",
                 "text": "However, their plan ultimately backfired due to the Dreamchaser's proximity and closeness with the Bubble Hounds. It is said the volatile explosion from dozens of SoulGlad bombs caused a severe concussion, leaving the Dreamchaser in a coma to this day."
               }
-            ]
+            ],
+            "id": "p-1b046699f1af5e61"
           },
           {
             "type": "paragraph",
@@ -168,7 +170,8 @@
                 "type": "text",
                 "text": "Moreover, all witnesses' memories have been erased by The Family, impeding further investigation."
               }
-            ]
+            ],
+            "id": "p-14ff9404820af743"
           },
           {
             "type": "paragraph",
@@ -240,7 +243,8 @@
                 "type": "text",
                 "text": "At each crime scene, a bizarre tape was discovered, believed to be the source of the corruption. Exposure to the tape is believed to induce excessive irritability, fear, and even hallucinations. Prolonged exposure can lead to a complete mental disintegration. Additionally, the presence of the tape has the ability to distort the Dreamscape itself."
               }
-            ]
+            ],
+            "id": "p-2e20b5314ad5dd1f"
           },
           {
             "type": "paragraph",
@@ -326,13 +330,15 @@
                 "type": "text",
                 "text": "\"...I can only hear inaudible chants in the absolute silence...\""
               }
-            ]
+            ],
+            "id": "p-36e3de588bad87a1"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "claudia-s-gathered-clues-ii",
       "label": "Claudia's Gathered Clues (II)",
       "document": {
         "version": 1,
@@ -421,7 +427,8 @@
                 "type": "text",
                 "text": "*Note: I heard a similar ghost story from a friend of mine from Xianzhou. In their culture, such phenomena are referred to as \"Netherworld Soldiers.\""
               }
-            ]
+            ],
+            "id": "p-c3b739e95daf5232"
           },
           {
             "type": "paragraph",
@@ -500,7 +507,8 @@
                 "type": "text",
                 "text": "Some accounts suggest that the Bloodhound Family once captured a peculiar memetic creature that exhibited a non-aggressive and even friendly demeanor towards humans. Over time, the captured creature weakened and eventually perished, potentially supporting this rumor."
               }
-            ]
+            ],
+            "id": "p-701b5528938fa378"
           },
           {
             "type": "paragraph",
@@ -586,7 +594,8 @@
                 "type": "text",
                 "text": "Since then, the forces of Destruction have never dared to step onto the Planet of Festivities."
               }
-            ]
+            ],
+            "id": "p-3375a21f472336b7"
           },
           {
             "type": "paragraph",
@@ -665,7 +674,8 @@
                 "type": "text",
                 "text": "These nightmares can inflict irreversible damage on human minds. However, The Family has been taking meticulous measures to isolate those areas beyond the ranges of human activity."
               }
-            ]
+            ],
+            "id": "p-4e739556cdd31229"
           }
         ]
       }

@@ -4,17 +4,19 @@
   "id": "will-bite-do-not-approach",
   "name": "Will Bite, Do Not Approach!",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Will_Bite,_Do_Not_Approach!",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -44,7 +46,8 @@
                 "type": "text",
                 "text": "When Sevy is all better again, it will come home on its own. It knows the way home!"
               }
-            ]
+            ],
+            "id": "p-d30c08c2224d7ad0"
           },
           {
             "type": "paragraph",
@@ -58,7 +61,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-91f6ca14db0b2b9f"
           }
         ]
       }

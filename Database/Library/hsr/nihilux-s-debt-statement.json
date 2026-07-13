@@ -4,10 +4,11 @@
   "id": "nihilux-s-debt-statement",
   "name": "Nihilux's Debt Statement",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Nihilux%27s_Debt_Statement",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-6a8719ca2aea0661"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "The president promised every furbo a New Year's fortune pouch. But when midnight hit, she claimed \"network issues\" and canceled the handout, telling us to just wait till next year, just like that."
               }
-            ]
+            ],
+            "id": "p-ffe625a1e586660e"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "The president couldn't cough up a single coin, so she lay flat on the floor and offered her soft belly as the trampoline to bounce our anger away. But after just two bounces, she bailed and ran off."
               }
-            ]
+            ],
+            "id": "p-47b1110f1d4cb8df"
           },
           {
             "type": "paragraph",
@@ -51,7 +55,8 @@
                 "type": "text",
                 "text": "We were told we could always come back if things didn't work out. When we did, we were only presented with a contract offering half our former salary."
               }
-            ]
+            ],
+            "id": "p-076ab7e47886da82"
           },
           {
             "type": "paragraph",
@@ -60,7 +65,8 @@
                 "type": "text",
                 "text": "The paycheck is the least of it! What really gets me worked up is her refusal to appear in her own publication. She could've raked in so much engagement..."
               }
-            ]
+            ],
+            "id": "p-ca6dde4c8cf9e640"
           },
           {
             "type": "paragraph",
@@ -69,7 +75,8 @@
                 "type": "text",
                 "text": "The president promised us before, but then she backed out after we already had the cameras set up."
               }
-            ]
+            ],
+            "id": "p-fa2908cd183b6f48"
           },
           {
             "type": "paragraph",
@@ -78,7 +85,8 @@
                 "type": "text",
                 "text": "She also promised to debut as an idol and make the magazine great again. Ugh, you can't trust a single word she says!"
               }
-            ]
+            ],
+            "id": "p-244134dc1c4d5c7e"
           },
           {
             "type": "paragraph",
@@ -87,7 +95,8 @@
                 "type": "text",
                 "text": "Running a magazine is tough, no doubt. But let's be real: The president's word means nothing. She got all excited about writing a column herself one day, then the idea vanished into thin air by the next morning."
               }
-            ]
+            ],
+            "id": "p-33a536c17ce85d90"
           },
           {
             "type": "paragraph",
@@ -96,7 +105,8 @@
                 "type": "text",
                 "text": "I'd say the president's biggest problem is that she won't make us breakfast! The contract clearly said three meals included, but all we get is instant noodles every single time..."
               }
-            ]
+            ],
+            "id": "p-a8666140f99f13b5"
           },
           {
             "type": "paragraph",
@@ -105,7 +115,8 @@
                 "type": "text",
                 "text": "Though the president seems to love instant noodles herself... When it comes down to it, what really gets me is working for her with zero bonuses! Same pay whether you slack off or bust your tail!"
               }
-            ]
+            ],
+            "id": "p-7bf719c70f9dc222"
           },
           {
             "type": "paragraph",
@@ -114,7 +125,8 @@
                 "type": "text",
                 "text": "Oh yeah? Says who? Try messing up and see. She'll dock one meal's noodles right away."
               }
-            ]
+            ],
+            "id": "p-bed367b6f057b307"
           },
           {
             "type": "paragraph",
@@ -123,7 +135,8 @@
                 "type": "text",
                 "text": "Enough talk, I'm catching a whiff of noodles again."
               }
-            ]
+            ],
+            "id": "p-3a5ebe3700d8d621"
           }
         ]
       }

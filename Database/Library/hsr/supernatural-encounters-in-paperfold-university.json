@@ -4,10 +4,11 @@
   "id": "supernatural-encounters-in-paperfold-university",
   "name": "Supernatural Encounters in Paperfold University",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Supernatural_Encounters_in_Paperfold_University",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-fa06b0c87a43cbbe"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "Unlike ordinary memes, this meme has gained a human-like appearance and intelligence due to prolonged exposure to humans and become extremely cunning. It was eventually imprisoned under the library with the combined efforts of the Bloodhound Family, Garden of Recollection, and the IPC. Paperfold Academy was constructed in the Moment of Sol specifically to suppress this meme though the collective subconscious of students."
               }
-            ]
+            ],
+            "id": "p-4250a0c44f390d4b"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "Many of the techniques employed in constructing dreams were actually extracted from this meme by The Family. During the silent hours of the night, you might hear the faint sounds of crying emanating from the basement of the library. That's indicating that The Family is once again interrogating the meme."
               }
-            ]
+            ],
+            "id": "p-5c88907d920b1379"
           },
           {
             "type": "paragraph",
@@ -68,7 +72,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-44ece02ab0c2a5e4"
           },
           {
             "type": "paragraph",
@@ -82,7 +87,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-492077785d403077"
           },
           {
             "type": "paragraph",
@@ -91,7 +97,8 @@
                 "type": "text",
                 "text": "This rumor has persisted at Paperfold Academy for centuries. The spirit, wearing a purple dress and bearing a mirror, has long hair that sprawls across the ground like snakes. When you encounter that spirit, you will realize that everyone around you is missing. Some bolder students have tried to approach the spirit, only to find that the distance between them remains unchanged. In the end, the spirit will let out a sigh, and the unfortunate student will awaken from the dream."
               }
-            ]
+            ],
+            "id": "p-6d98a7fc7009a329"
           },
           {
             "type": "paragraph",
@@ -100,7 +107,8 @@
                 "type": "text",
                 "text": "There are similar records within the fringe areas in other Moments. It is rumored that a Dreamchaser, who engaged in unsavory deeds during the Pioneering Era, was consumed by a meme in the desert, leading to her soul wandering within the Moment of Midnight ever since. Whenever gaps emerge, she will infiltrate into other Moments."
               }
-            ]
+            ],
+            "id": "p-6d05ff9acf85bb66"
           },
           {
             "type": "paragraph",
@@ -138,7 +146,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-f2ea6bab5e2497e4"
           },
           {
             "type": "paragraph",
@@ -152,7 +161,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ba648e417b98822f"
           },
           {
             "type": "paragraph",
@@ -161,7 +171,8 @@
                 "type": "text",
                 "text": "The Watchmaker has generously made numerous donations to Paperfold Academy's dreamweaving project. Despite being the most successful entrepreneur in Penacony, he never asks for anything in return from the academy. This raises the question: Why? The most plausible explanation could be that he is an alumnus of the academy! In this case, it would make perfect sense for him to support and bestow his legacy upon his alma mater. Furthermore, when you talk about the Watchmaker, what places may come to your mind? The extravagant ball in the Blue Hour? The amusement park in the Moment of Stars? Or Clock Studios Theme Park? If we flip the question around, Paperfold Academy would be the least expected location for his hidden treasures!"
               }
-            ]
+            ],
+            "id": "p-679f1d1b2ba66878"
           },
           {
             "type": "paragraph",
@@ -170,7 +181,8 @@
                 "type": "text",
                 "text": "Secret treasures are typically found in the most unexpected of places. So, what are you still waiting for? We are now recruiting members for our treasure-hunting team to look for the treasure on campus. Once we discover the treasure, all the wealth will be divided equally among the team members."
               }
-            ]
+            ],
+            "id": "p-6baea99a5f4bd8c3"
           },
           {
             "type": "paragraph",
@@ -220,7 +232,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-59957f9301e8f6d3"
           }
         ]
       }

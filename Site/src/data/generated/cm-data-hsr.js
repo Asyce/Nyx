@@ -21809,7 +21809,8 @@
             "source": "The Aurumaton Spectral Envoy",
             "sourceDetails": [
               {
-                "name": "Aurumaton Spectral Envoy"
+                "name": "Aurumaton Spectral Envoy",
+                "icon": "../../Database/GameData/hsr/assets/monsters/Monster_2013020.webp"
               }
             ]
           },
@@ -27335,7 +27336,8 @@
             "source": "Ascended",
             "sourceDetails": [
               {
-                "name": "The Ascended (Bug)"
+                "name": "The Ascended (Bug)",
+                "icon": "../../Database/GameData/hsr/assets/monsters/Monster_2023030.webp"
               }
             ]
           },
@@ -28768,7 +28770,8 @@
             "source": "Ascended",
             "sourceDetails": [
               {
-                "name": "The Ascended (Bug)"
+                "name": "The Ascended (Bug)",
+                "icon": "../../Database/GameData/hsr/assets/monsters/Monster_2023030.webp"
               }
             ]
           },
@@ -37224,7 +37227,8 @@
             "source": "Lady of Crashing Waves",
             "sourceDetails": [
               {
-                "name": "Lady of Crashing Waves"
+                "name": "Lady of Crashing Waves",
+                "icon": "../../Database/GameData/hsr/assets/monsters/Monster_4053010.webp"
               }
             ]
           },
@@ -50061,7 +50065,8 @@
             "source": "Ascended",
             "sourceDetails": [
               {
-                "name": "The Ascended (Bug)"
+                "name": "The Ascended (Bug)",
+                "icon": "../../Database/GameData/hsr/assets/monsters/Monster_2023030.webp"
               }
             ]
           },
@@ -63946,7 +63951,8 @@
             "source": "Lady of Crashing Waves",
             "sourceDetails": [
               {
-                "name": "Lady of Crashing Waves"
+                "name": "Lady of Crashing Waves",
+                "icon": "../../Database/GameData/hsr/assets/monsters/Monster_4053010.webp"
               }
             ]
           },
@@ -109287,7 +109293,8 @@
             "source": "The Aurumaton Spectral Envoy",
             "sourceDetails": [
               {
-                "name": "Aurumaton Spectral Envoy"
+                "name": "Aurumaton Spectral Envoy",
+                "icon": "../../Database/GameData/hsr/assets/monsters/Monster_2013020.webp"
               }
             ]
           },

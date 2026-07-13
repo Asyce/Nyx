@@ -4,10 +4,11 @@
   "id": "yancui-interrogation-transcript",
   "name": "Yancui Interrogation Transcript",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Yancui_Interrogation_Transcript",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Interrogation transcript"
               }
-            ]
+            ],
+            "id": "p-1764b9b8f6a92fa3"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Culprit: Yancui, female, Spices Supreme head chef"
               }
-            ]
+            ],
+            "id": "p-c85320b4522122bb"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "In direct violation of Xianzhou law, the culprit privately hired a team of armed archaeologists to launch an attack on a borisin beast ship, then devoured it between her and the archaeologists. The content covered in the interrogation is as follows:"
               }
-            ]
+            ],
+            "id": "p-4ac378145df1fe87"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "Q: How did you discover the beast ship?"
               }
-            ]
+            ],
+            "id": "p-60d5f88c89b0f6f3"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "A: I have a friend... Ah, that isn't just me making an excuse, I really do have a friend in the Intelligentsia Guild who researches interstellar ecology. She observes and pursues borisin hunts and migration all year round."
               }
-            ]
+            ],
+            "id": "p-beff471ffab38b9a"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "A: She recently asked me out of the blue whether I had ever tasted the flavor of a borisin beast ship before. My first instinct at the time was that she'd gone insane. Who has ever eaten a borisin beast ship? Who would even try? However, this question planted a seed of curiosity in my mind... Just what does a borisin beast ship taste like? I have been a chef for my whole life. There is no way that an ingredient challenge like this wouldn't get my heart racing."
               }
-            ]
+            ],
+            "id": "p-2dd5faa97eeb77a1"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "A: So, I took the opportunity and asked what she knew. She said that she had discovered a lone beast ship in a system space close to the Xianzhou. This was strange as normally, wounded beast ships would be fed to the great mothership. However... this chance was one in a million. So, I accepted her three thousand strale deposit, and hired two armed archaeologists—"
               }
-            ]
+            ],
+            "id": "p-924a0cf983ae4a50"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "Q: (Interrupting) When you discovered the beast ship, why did you not report it to the Cloud Knights, and instead choose to privately hire outworlders to intercept and slaughter it?"
               }
-            ]
+            ],
+            "id": "p-f86550df8796b8cd"
           },
           {
             "type": "paragraph",
@@ -91,7 +100,8 @@
                 "type": "text",
                 "text": "A: When we found it, the energy storage organ in its chest had already begun to shrink. If this continued, it would start to abandon its aged and useless body parts and digest a number of its own organs like a lizard shedding its tail. We couldn't just let that happen!"
               }
-            ]
+            ],
+            "id": "p-c5e28f74eeae583d"
           },
           {
             "type": "paragraph",
@@ -100,7 +110,8 @@
                 "type": "text",
                 "text": "Q: How does that affect you?"
               }
-            ]
+            ],
+            "id": "p-45bba163a23a259f"
           },
           {
             "type": "paragraph",
@@ -109,7 +120,8 @@
                 "type": "text",
                 "text": "A: Well, if it ate them all itself, there'd be nothing left for us."
               }
-            ]
+            ],
+            "id": "p-9ca933eb990e5db3"
           },
           {
             "type": "paragraph",
@@ -118,7 +130,8 @@
                 "type": "text",
                 "text": "Q: ...What I mean is, why did you not report this to the Cloud Knights? You are an ex-service Cloud Knights veteran. You should be extremely aware of the relevant regulations and requirements."
               }
-            ]
+            ],
+            "id": "p-39c424a527769eca"
           },
           {
             "type": "paragraph",
@@ -127,7 +140,8 @@
                 "type": "text",
                 "text": "A: If we reported this to the Cloud Knights, we'd barely get a helping of the beast ship meat once it was cooked. Plus, I quit service long ago. I am a cook now, not a Cloud Knight."
               }
-            ]
+            ],
+            "id": "p-dc3a1a16e0ab1900"
           },
           {
             "type": "paragraph",
@@ -136,7 +150,8 @@
                 "type": "text",
                 "text": "Q: ...Just continue with the story!"
               }
-            ]
+            ],
+            "id": "p-c4acd542d1c20d34"
           },
           {
             "type": "paragraph",
@@ -145,7 +160,8 @@
                 "type": "text",
                 "text": "A: We ascertained from the swollen gland on its forehead that this was likely a lone servant ship. The combination of hunger and the pressure of the vacuum against its internal cavity had caused its toxins and fuel to solidify under compression. We arrived at the nearby location without taking any fire."
               }
-            ]
+            ],
+            "id": "p-b5317169cd0aec9d"
           },
           {
             "type": "paragraph",
@@ -154,7 +170,8 @@
                 "type": "text",
                 "text": "A: Although, as the saying goes: \"A hungry beast ship still weighs thirty thousand kilos.\" The void oar fins under it are not to be underestimated, either. Though they may look light and floaty, the jellyfish tentacle-like appendages extending from the tips of the oar fins are actually complex phase structures... If we had gotten entangled, they would have strangled the life out of our ship."
               }
-            ]
+            ],
+            "id": "p-47bbcf13c2118866"
           },
           {
             "type": "paragraph",
@@ -163,7 +180,8 @@
                 "type": "text",
                 "text": "A: Worse still, if the energy storage tissue in these tentacles was broken, the reflux of biomass would have spread a foul, bile-like stench across the entire beast ship. In the end, we had no choice but to give up on landing on the tail and search for another landing point..."
               }
-            ]
+            ],
+            "id": "p-78ffe53213887b4f"
           },
           {
             "type": "paragraph",
@@ -172,7 +190,8 @@
                 "type": "text",
                 "text": "Q: Stop, stop. I don't need some pop-science lecture on beast ship biology. What did you do once you were inside?"
               }
-            ]
+            ],
+            "id": "p-99d1a5306b9a1bd7"
           },
           {
             "type": "paragraph",
@@ -181,7 +200,8 @@
                 "type": "text",
                 "text": "A: Generally speaking, when preparing ingredients, you must take care not to damage the head. This is because the brain and the head meat are all extremely precious ingredients. However, the beast ship's control center is distributed through separate locations. Special attack ships even have up to ten brains. As long as one brain remains, it will be able to break off and become a new, separate beast ship to continue battle."
               }
-            ]
+            ],
+            "id": "p-f1f6813432355780"
           },
           {
             "type": "paragraph",
@@ -190,7 +210,8 @@
                 "type": "text",
                 "text": "A: So, though I was reluctant to do it, I had them blow up the head in order to enter the ship through the receded nasal cavity in the center of the skull."
               }
-            ]
+            ],
+            "id": "p-036d8c6120eed2ad"
           },
           {
             "type": "paragraph",
@@ -199,7 +220,8 @@
                 "type": "text",
                 "text": "Q: Did you not encounter any danger once you were inside the beast ship?"
               }
-            ]
+            ],
+            "id": "p-2dcd4af899c48749"
           },
           {
             "type": "paragraph",
@@ -208,7 +230,8 @@
                 "type": "text",
                 "text": "A: Ugh, you have no idea. Once we entered through the skull, because the brains in the other regions were still alive, the immune system kicked off constantly until we took out the final brain. As we walked through the corridors, hands and tentacles would keep bursting through the writhing walls to grab us."
               }
-            ]
+            ],
+            "id": "p-f67375fe4185eeb0"
           },
           {
             "type": "paragraph",
@@ -217,7 +240,8 @@
                 "type": "text",
                 "text": "A: The energy supply organs in the abdomen gave us real trouble, too. Sarcomas in the body caused by the curse of the Plagues Author allows biological energy that has been created from thin air to be converted into other forms of energy. Logically speaking, this should have been the most rich and delicious region of the beast ship. However, this self-generated energy was not enough to make the ship self-sustaining. The corpses of devoured servants and various living organisms, accumulated toxic substances, and a huge amount of waste material that had not yet been moved to the excretion area had all amassed here. The disgusting scene almost wiped out the guild employees on sight."
               }
-            ]
+            ],
+            "id": "p-5a852c39441b56cb"
           },
           {
             "type": "paragraph",
@@ -226,7 +250,8 @@
                 "type": "text",
                 "text": "Q: From what we understand of the Armed Archaeologists, when they encounter a situation like this, they are supposed to immediately destroy the beast ship's energy supplying organ. Was it you that stopped them?"
               }
-            ]
+            ],
+            "id": "p-0524cf1a21169249"
           },
           {
             "type": "paragraph",
@@ -235,7 +260,8 @@
                 "type": "text",
                 "text": "A: Yes, I was furious at the time. Once a dying beast ship's internal circulation is cut, the biomass constantly generated inside the cabin would increase internal pressure endlessly. If it blew up, we'd simply become dregs of meat ourselves. What's more, with the exhaustion caused by hypothermia and the spasms of the abdomen... if the corridors and cabins collapsed, anyone inside would be crushed to death in the stomach."
               }
-            ]
+            ],
+            "id": "p-21f7b368102cade8"
           },
           {
             "type": "paragraph",
@@ -244,7 +270,8 @@
                 "type": "text",
                 "text": "Q: We discovered numerous concentrated high-frequency blade cuts around the propeller of the beast ship corpse. What did you do?"
               }
-            ]
+            ],
+            "id": "p-b125bcfb7759ff61"
           },
           {
             "type": "paragraph",
@@ -253,7 +280,8 @@
                 "type": "text",
                 "text": "A: We removed the poisonous parts. Although, the actual propeller was likely destroyed in battle. The part you are talking about is likely a temporary substitute created from the redundant breeding cavity."
               }
-            ]
+            ],
+            "id": "p-b61205a431d2d8a9"
           },
           {
             "type": "paragraph",
@@ -262,7 +290,8 @@
                 "type": "text",
                 "text": "A: Because of this, it was located directly above the excretion area, making it convenient for extracting residual gene fragments as supplementary embryonic information for propagation, as well as being able to use accumulated waste material and save on fuel. However, due to the excessive operation of this newly-grown flesh, it had developed two contradictory properties of tenderness and strength. I could not bear to part with this meat, so... I had no choice but to cut off all the poisonous cysts one by one. (The culprit falls silent)"
               }
-            ]
+            ],
+            "id": "p-82f2aa6be51c7cc1"
           },
           {
             "type": "paragraph",
@@ -271,7 +300,8 @@
                 "type": "text",
                 "text": "Q: I didn't tell you to stop, continue."
               }
-            ]
+            ],
+            "id": "p-59b924e43a3be5bd"
           },
           {
             "type": "paragraph",
@@ -280,7 +310,8 @@
                 "type": "text",
                 "text": "A: Sorry, I spaced out. The flavor of that meat. It was so unexpectedly... Average. Completely average."
               }
-            ]
+            ],
+            "id": "p-3d05b6376553e728"
           }
         ]
       }

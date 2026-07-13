@@ -4,10 +4,11 @@
   "id": "a-note-from-hyacine",
   "name": "A Note from Hyacine",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/A_Note_from_Hyacine",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "To my dearest Grayie,"
               }
-            ]
+            ],
+            "id": "p-af424a09862cfcb3"
           },
           {
             "type": "paragraph",
@@ -67,7 +69,8 @@
                 "type": "text",
                 "text": "You're incredible, Grayie! You deserve the most wonderful gift in the world!"
               }
-            ]
+            ],
+            "id": "p-84c07a2773ad1829"
           },
           {
             "type": "paragraph",
@@ -115,7 +118,8 @@
                 "type": "text",
                 "text": "I'm going to give you this pendant I've always worn at my hip!"
               }
-            ]
+            ],
+            "id": "p-a411f1c62dbb27e4"
           },
           {
             "type": "paragraph",
@@ -163,7 +167,8 @@
                 "type": "text",
                 "text": "That way, you'll always feel the sky's warmth, and mine."
               }
-            ]
+            ],
+            "id": "p-601dfedf07b07e0e"
           },
           {
             "type": "paragraph",
@@ -185,7 +190,8 @@
                 "type": "text",
                 "text": "and may it guard the lovely memories of your journey, along with its healing chimes."
               }
-            ]
+            ],
+            "id": "p-a64d7ce4647fa672"
           },
           {
             "type": "paragraph",
@@ -194,7 +200,8 @@
                 "type": "text",
                 "text": "Hyacinthia"
               }
-            ]
+            ],
+            "id": "p-869b5866cf5002c7"
           }
         ]
       }

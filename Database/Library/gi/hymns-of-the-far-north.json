@@ -4,10 +4,11 @@
   "id": "hymns-of-the-far-north",
   "name": "Hymns of the Far North",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Hymns_of_the_Far_North",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
@@ -169,7 +170,8 @@
                 "type": "text",
                 "text": "But so long as hymn and Runo ring, the far North shall endure and eternal spring."
               }
-            ]
+            ],
+            "id": "p-bec87c21f378822c"
           },
           {
             "type": "paragraph",
@@ -188,7 +190,8 @@
                 "type": "text",
                 "text": "(The summer solstice. Burn the season's first sheaf of wheat. To this offering add: a hen, an ox, snake gall equal in weight to the grain, as well as seven cups of the blood of ████'s █████. The Archpriestess chants the Runo seven times, then performs divination using animal entrails to appease the gods.)"
               }
-            ]
+            ],
+            "id": "p-f4c20283219899bd"
           },
           {
             "type": "paragraph",
@@ -307,7 +310,8 @@
                 "type": "text",
                 "text": "May the Frost Moon shield us from the calamities you bring, and spare us the fate of eternal suffering."
               }
-            ]
+            ],
+            "id": "p-82383672e7924593"
           },
           {
             "type": "paragraph",
@@ -316,7 +320,8 @@
                 "type": "text",
                 "text": "(Note From Priestess Ehrnrooth: This ritual was abolished five centuries ago by decree of Aila, the first Moonchanter. It is notable that the prayer's obscured portions were not deliberately redacted, if the relevant records are to be believed. Instead, the Archpriestess was to chant in an indistinct manner to avoid provoking the god of the Seven Calamities.)"
               }
-            ]
+            ],
+            "id": "p-d940ef3effdc30d0"
           },
           {
             "type": "paragraph",
@@ -335,7 +340,8 @@
                 "type": "text",
                 "text": "(Upon the birth of a child, a pinch of sea salt is offered to the sacred stone. Clergy of Assistant Priestess rank or higher shall chant the Runo four times before the newborn is bathed in warm water infused with Winter Icelea.)"
               }
-            ]
+            ],
+            "id": "p-1d147f152e1fe9be"
           },
           {
             "type": "paragraph",
@@ -414,7 +420,8 @@
                 "type": "text",
                 "text": "Therefore, I pray you bless this newborn child with health, courage, and wisdom."
               }
-            ]
+            ],
+            "id": "p-17ccf69532b2f773"
           },
           {
             "type": "paragraph",
@@ -423,7 +430,8 @@
                 "type": "text",
                 "text": "(Note From Priestess Ehrnrooth: This ritual was abolished five centuries ago by decree of Aila, the first Moonchanter. In its place, one who is ranked Assistant Priestess or higher is to recite \"May the new moon illuminate your path\" instead. This is meant to invoke protection for the child from the taint of the sublunary sphere.)"
               }
-            ]
+            ],
+            "id": "p-8e24445ce9d95b11"
           },
           {
             "type": "paragraph",
@@ -442,7 +450,8 @@
                 "type": "text",
                 "text": "(During the autumn harvest, animal sacrifices are offered in accordance with the social status of those who died that year. The prepared animals are placed in intricately carved wooden or bronze vessels, shaped like boats, to be burned. Before the burning, a clergy member of Assistant Priestess rank or higher removes the eyes of each animal and presents them separately to the mistress of the underworld. With eyes veiled by a dark cloth, the Archpriestess then chants the Runo four times and performs divination using animal entrails to please the deity.)"
               }
-            ]
+            ],
+            "id": "p-5c50183dfaaf67f8"
           },
           {
             "type": "paragraph",
@@ -561,7 +570,8 @@
                 "type": "text",
                 "text": "That you lead us across the nether's dark stream, and let us sleep eternal in a dreamless dream."
               }
-            ]
+            ],
+            "id": "p-f5ff0db9678e80ed"
           },
           {
             "type": "paragraph",
@@ -570,7 +580,8 @@
                 "type": "text",
                 "text": "(Note From Priestess Ehrnrooth: This ritual was abolished by decree of Aila, the first Moonchanter, five centuries ago. Now, when of the Frost Moon dies, regardless of social status, an Assistant Priestess, or someone of higher rank, is to recite instead \"May the new moon lead you to the shore of peace.\" A simple and solemn funeral is then conducted.)"
               }
-            ]
+            ],
+            "id": "p-52ccee9cf688b84b"
           },
           {
             "type": "paragraph",
@@ -589,7 +600,8 @@
                 "type": "text",
                 "text": "(On the Winter Solstice, a cloth bearing the year's significant events is burned, and its ashes are gathered in a silver cup filled with pure water. The Archpriestess chants the Runo four times, and when the wind begins to stir, they anoint the Verdant Crest with the blessed mixture to honor the divinity.)"
               }
-            ]
+            ],
+            "id": "p-58d5858f4c760622"
           },
           {
             "type": "paragraph",
@@ -678,7 +690,8 @@
                 "type": "text",
                 "text": "O sovereign who shall never die and who was never born, pure and eternal Mother of Time!"
               }
-            ]
+            ],
+            "id": "p-6bcc693d8ecbf231"
           },
           {
             "type": "paragraph",
@@ -687,7 +700,8 @@
                 "type": "text",
                 "text": "(Note from the Priestess Ehrnrooth: The meaning of this prayer remains obscure, and the ritual described herein contradicts established historical records. The Verdant Crest, a Divine Tree that appeared at the birth of the Moon Maiden five centuries ago, should not feature in any account of rituals predating that event. As no other known texts reference these rites, this is presumed to be a scribal error. Nevertheless, this passage has been preserved unaltered for the sake of textual fidelity.)"
               }
-            ]
+            ],
+            "id": "p-c20c3604bec27bd3"
           },
           {
             "type": "paragraph",
@@ -706,13 +720,15 @@
                 "type": "text",
                 "text": "[Missing]"
               }
-            ]
+            ],
+            "id": "p-b30ce80bae1f54a6"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
@@ -864,7 +880,8 @@
                 "type": "text",
                 "text": "Lift the torment that occupies my heart and cast out this pitch-black disaster."
               }
-            ]
+            ],
+            "id": "p-5635eae4aa929593"
           },
           {
             "type": "paragraph",
@@ -873,7 +890,8 @@
                 "type": "text",
                 "text": "(Note from the Priestess Ehrnrooth: This is an ancient form of the prayer once used to quell the fury of nature. Though records whisper of a lost variant, its final four lines meant to summon, rather than quell, natural disasters, it vanished from memory long before the birth of the Moon Maiden, for reasons unknown. The Moonchanter Aila, first to hold the title, later revised and simplified this prayer. Her version, presented below, is now recognized as the standard for all recitations:"
               }
-            ]
+            ],
+            "id": "p-a34951f95d538ea1"
           },
           {
             "type": "paragraph",
@@ -892,7 +910,8 @@
                 "type": "text",
                 "text": "May your gentle light soothe the lingering pain that occupies our hearts, and cast out that pitch-black disaster!)"
               }
-            ]
+            ],
+            "id": "p-5bf083c6bcf170f6"
           },
           {
             "type": "paragraph",
@@ -901,7 +920,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -970,7 +990,8 @@
                 "type": "text",
                 "text": "I call upon you to shake the earth, to make the cities tremble, and to let the enemies of the far north vanish like dew beneath the Frost Moon."
               }
-            ]
+            ],
+            "id": "p-153e8c1794133ae7"
           },
           {
             "type": "paragraph",
@@ -979,7 +1000,8 @@
                 "type": "text",
                 "text": "(Note from the Priestess Ehrnrooth: This prayer is an older form, preserved from a time long past. It was later significantly revised by Aila, the first Moonchanter. The following text is now recognized as the standard for all recitations:"
               }
-            ]
+            ],
+            "id": "p-27ff4884a6875b8a"
           },
           {
             "type": "paragraph",
@@ -998,7 +1020,8 @@
                 "type": "text",
                 "text": "O pale white Frost Moon, protect the descendants of the far north, and let the pitch-black disasters of the cold night melt away like the morning dew.)"
               }
-            ]
+            ],
+            "id": "p-f78e89c69e155f76"
           },
           {
             "type": "paragraph",
@@ -1007,7 +1030,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -1136,7 +1160,8 @@
                 "type": "text",
                 "text": "And may your grace still the wild winds of the frigid night and bring warmth to the young birds huddled on the frozen earth."
               }
-            ]
+            ],
+            "id": "p-97021f8f4e3e63f7"
           },
           {
             "type": "paragraph",
@@ -1145,7 +1170,8 @@
                 "type": "text",
                 "text": "(Note from the Priestess Ehrnrooth: This is an old version of a prayer for wound healing and the curing of disease that was later revised and simplified by the first Moonchanter, Aila. The following text is now recognized as the standard for all recitations:"
               }
-            ]
+            ],
+            "id": "p-d4e4f34ac1e4b948"
           },
           {
             "type": "paragraph",
@@ -1164,13 +1190,15 @@
                 "type": "text",
                 "text": "May the Frost Moon's grace still the wild winds of the cold night and bring warmth to the young birds huddled on the frozen earth.)"
               }
-            ]
+            ],
+            "id": "p-7ca0341a62fc1eb4"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "vol-3",
       "label": "Vol. 3",
       "document": {
         "version": 1,
@@ -1242,7 +1270,8 @@
                 "type": "text",
                 "text": "Better that the cold night of death blind our sight, than that we sing in shame beneath a false light."
               }
-            ]
+            ],
+            "id": "p-ef489bec074ab157"
           },
           {
             "type": "paragraph",
@@ -1251,7 +1280,8 @@
                 "type": "text",
                 "text": "(Note from the Priestess Ehrnrooth: This is an older, unedited version of the prayer. It was originally brief, as the only matters too sacred to be spoken of at length were the chief god who protected our ancestors, and the origin, past, and future of the moons. The first Moonchanter, Aila, later revised and simplified the prayer's content. The following text is now recognized as the standard for all recitations:"
               }
-            ]
+            ],
+            "id": "p-d71060869b7538bf"
           },
           {
             "type": "paragraph",
@@ -1270,7 +1300,8 @@
                 "type": "text",
                 "text": "May your gentle tears pierce the frigid night, and grant us, the forsaken and forgotten, your guiding light.)"
               }
-            ]
+            ],
+            "id": "p-79c7d30156500a84"
           },
           {
             "type": "paragraph",
@@ -1299,7 +1330,8 @@
                 "type": "text",
                 "text": "Cleanse us of our sins, I pray, and wipe away the endless pains and tears of those forever barred from Elysium."
               }
-            ]
+            ],
+            "id": "p-a289044675a6cb30"
           }
         ]
       }

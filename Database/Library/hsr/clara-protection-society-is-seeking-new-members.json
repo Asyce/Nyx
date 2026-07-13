@@ -4,21 +4,24 @@
   "id": "clara-protection-society-is-seeking-new-members",
   "name": "Clara Protection Society Is Seeking New Members!",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Clara_Protection_Society_Is_Seeking_New_Members!",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a-2"
           },
           {
             "type": "paragraph",
@@ -27,11 +30,13 @@
                 "type": "text",
                 "text": "The full name of the society is \"The society to protect Clara's smile to repay her for her selfless help to all the residents in the vagrant camp,\" abbreviated to \"Clara Protection Society.\""
               }
-            ]
+            ],
+            "id": "p-75a0a227d5bb4e1f"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a-3"
           },
           {
             "type": "paragraph",
@@ -47,11 +52,13 @@
                 "type": "text",
                 "text": "Therefore, as adults, we should — not bring trouble to Clara; help Clara whenever we can; let Clara grow up happily; become Clara's true family; protect Clara's innocent smile; protect Clara's angelic voice; and protect Clara's heart of gold. Though Clara is not good at receiving any strong displays of gratitude and always lowered her head in embarrassment, we are not going to stop!"
               }
-            ]
+            ],
+            "id": "p-689787cb3746ef81"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a-4"
           },
           {
             "type": "paragraph",
@@ -60,7 +67,8 @@
                 "type": "text",
                 "text": "By joining this society, you can:"
               }
-            ]
+            ],
+            "id": "p-1a218b2c4544fa25"
           },
           {
             "type": "paragraph",
@@ -90,11 +98,13 @@
                 "type": "text",
                 "text": "4. Lastly, and the most glorious — You will receive a \"Clara's Protector\" badge upon joining the society (Made with stainless steel to symbolize our timeless and heartfelt desire to protect Clara)."
               }
-            ]
+            ],
+            "id": "p-55b8345637d15406"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a-5"
           },
           {
             "type": "paragraph",
@@ -108,7 +118,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ea97ab8027702916"
           },
           {
             "type": "paragraph",
@@ -145,7 +156,8 @@
                 "type": "text",
                 "text": "4. This list will continuously be updated and the society reserves the rights to final interpretation."
               }
-            ]
+            ],
+            "id": "p-82d0562194aa5a36"
           }
         ]
       }

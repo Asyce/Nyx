@@ -4,10 +4,11 @@
   "id": "a-note-from-tribbie",
   "name": "A Note from Tribbie",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/A_Note_from_Tribbie",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Dear Little Gray:"
               }
-            ]
+            ],
+            "id": "p-552c425c6a6e6654"
           },
           {
             "type": "paragraph",
@@ -67,7 +69,8 @@
                 "type": "text",
                 "text": "decided to write one line each..."
               }
-            ]
+            ],
+            "id": "p-a0267df88c6338ae"
           },
           {
             "type": "paragraph",
@@ -129,7 +132,8 @@
                 "type": "text",
                 "text": "once listened to prophecies in the Temple of Janus..."
               }
-            ]
+            ],
+            "id": "p-dd44e25b40ed5636"
           },
           {
             "type": "paragraph",
@@ -177,7 +181,8 @@
                 "type": "text",
                 "text": "It was Little Gray who saved everyone in Amphoreus..."
               }
-            ]
+            ],
+            "id": "p-4eb4adacbb413726"
           },
           {
             "type": "paragraph",
@@ -212,7 +217,8 @@
                 "type": "text",
                 "text": "And Trinnon sewed it together, stitch by stitch..."
               }
-            ]
+            ],
+            "id": "p-87d0dd3df8266f38"
           },
           {
             "type": "paragraph",
@@ -273,7 +279,8 @@
                 "type": "text",
                 "text": "We'll see you tomorrow!"
               }
-            ]
+            ],
+            "id": "p-c947fc9ca9bcf493"
           },
           {
             "type": "paragraph",
@@ -282,7 +289,8 @@
                 "type": "text",
                 "text": "Tribios"
               }
-            ]
+            ],
+            "id": "p-f67109a31e6e2355"
           }
         ]
       }

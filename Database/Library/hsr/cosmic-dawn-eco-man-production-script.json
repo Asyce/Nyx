@@ -4,10 +4,11 @@
   "id": "cosmic-dawn-eco-man-production-script",
   "name": "Cosmic Dawn: Eco Man Production Script",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Cosmic_Dawn:_Eco_Man_Production_Script",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-e6b3d891a5ed6541"
           },
           {
             "type": "paragraph",
@@ -45,7 +47,8 @@
                 "type": "text",
                 "text": "The Birth of Eco Man"
               }
-            ]
+            ],
+            "id": "p-f2576e86ebc38a5f"
           },
           {
             "type": "paragraph",
@@ -66,7 +69,8 @@
                 "type": "text",
                 "text": "Rainy night, Exterior, outskirts of Dovebrook"
               }
-            ]
+            ],
+            "id": "p-84efa710b52ce6ff"
           },
           {
             "type": "paragraph",
@@ -101,7 +105,8 @@
                 "type": "text",
                 "text": "Polluting Company Bodyguards"
               }
-            ]
+            ],
+            "id": "p-abbb00ff348fefa9"
           },
           {
             "type": "paragraph",
@@ -122,7 +127,8 @@
                 "type": "text",
                 "text": "The mechatron lies battered on the ground, surrounded by bodyguards wielding clubs."
               }
-            ]
+            ],
+            "id": "p-9283c7df31ef8a45"
           },
           {
             "type": "paragraph",
@@ -152,7 +158,8 @@
                 "type": "text",
                 "text": "Bodyguard: Oh, still acting tough? You'll pipe down once you're at the bottom of the Pigeon River!"
               }
-            ]
+            ],
+            "id": "p-8282a55d60889ef4"
           },
           {
             "type": "paragraph",
@@ -161,7 +168,8 @@
                 "type": "text",
                 "text": "The bodyguard raises his club to deliver a lethal blow."
               }
-            ]
+            ],
+            "id": "p-47bde69f55e72665"
           },
           {
             "type": "paragraph",
@@ -184,7 +192,8 @@
                 "type": "text",
                 "text": "???: Go now. Take this manhole cover and become a hero."
               }
-            ]
+            ],
+            "id": "p-3593989fb15c0409"
           },
           {
             "type": "paragraph",
@@ -193,7 +202,8 @@
                 "type": "text",
                 "text": "The mechatron transforms into Eco Man and rises, using the manhole cover to take down every bodyguard."
               }
-            ]
+            ],
+            "id": "p-68034a6d9bc149c5"
           },
           {
             "type": "paragraph",
@@ -209,7 +219,8 @@
                 "type": "text",
                 "text": "Eco Man: Me? I'm just a beat cop who happens to care about nature."
               }
-            ]
+            ],
+            "id": "p-6f7392ae9bb1e989"
           },
           {
             "type": "paragraph",
@@ -218,7 +229,8 @@
                 "type": "text",
                 "text": "Close-up on the manhole cover as the logo on it glows with a blinding light."
               }
-            ]
+            ],
+            "id": "p-a015c3ee51badc60"
           },
           {
             "type": "paragraph",
@@ -227,7 +239,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -248,7 +261,8 @@
                 "type": "text",
                 "text": "I have ONE demand: make the logo on the manhole cover bigger. I want everyone to know Eco Man uses our brand!"
               }
-            ]
+            ],
+            "id": "p-134c08342c361e2f"
           },
           {
             "type": "paragraph",
@@ -269,7 +283,8 @@
                 "type": "text",
                 "text": "Understood. Changing it now!"
               }
-            ]
+            ],
+            "id": "p-3559bce8844c97ad"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "military-machinery-routine-maintenance-record-form",
   "name": "Military Machinery Routine Maintenance Record Form",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Military_Machinery_Routine_Maintenance_Record_Form",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "The routine maintenance of the Technology Division has been completed, and the maintenance records are as follows:"
               }
-            ]
+            ],
+            "id": "p-ae5b46f65a8d9645"
           },
           {
             "type": "paragraph",
@@ -82,7 +84,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-484cfab9c47504d6"
           },
           {
             "type": "paragraph",
@@ -145,7 +148,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-03fab12307913a44"
           },
           {
             "type": "paragraph",
@@ -201,7 +205,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-34e43a9f314ecfe5"
           },
           {
             "type": "paragraph",
@@ -257,7 +262,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-92069d6b9ce62877"
           },
           {
             "type": "paragraph",
@@ -313,7 +319,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-8bcf603fe53f7807"
           },
           {
             "type": "paragraph",
@@ -322,7 +329,8 @@
                 "type": "text",
                 "text": "Signature of Head of Technology Division: Molly"
               }
-            ]
+            ],
+            "id": "p-4d8aaf2c3567c4ea"
           }
         ]
       }

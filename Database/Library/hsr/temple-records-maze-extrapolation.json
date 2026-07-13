@@ -4,10 +4,11 @@
   "id": "temple-records-maze-extrapolation",
   "name": "Temple Records: Maze Extrapolation",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Temple_Records:_Maze_Extrapolation",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -49,7 +51,8 @@
                 "type": "text",
                 "text": "※ Note: Priest Monnta requested second reading."
               }
-            ]
+            ],
+            "id": "p-af70085ce712e7a2"
           },
           {
             "type": "paragraph",
@@ -65,7 +68,8 @@
                 "type": "text",
                 "text": "Divination Result: \"Here, in Janusopolis\""
               }
-            ]
+            ],
+            "id": "p-b87c02017a0d4dfc"
           },
           {
             "type": "paragraph",
@@ -81,7 +85,8 @@
                 "type": "text",
                 "text": "Divination Result: \"In the corner of thy bedroom\""
               }
-            ]
+            ],
+            "id": "p-e7f11314f60bd4b2"
           },
           {
             "type": "paragraph",
@@ -104,7 +109,8 @@
                 "type": "text",
                 "text": "※ Note: The client passed the temple's test and officially became an acolyte."
               }
-            ]
+            ],
+            "id": "p-4d3f5fc268a8b153"
           },
           {
             "type": "paragraph",
@@ -113,7 +119,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -136,7 +143,8 @@
                 "type": "text",
                 "text": "Divination Result: \"Under thy dining table\""
               }
-            ]
+            ],
+            "id": "p-b5204eab764e890a"
           },
           {
             "type": "paragraph",
@@ -159,7 +167,8 @@
                 "type": "text",
                 "text": "※ Note: Standard three-day delay, answer per protocol. Apply to all Titan location queries."
               }
-            ]
+            ],
+            "id": "p-4b352674ed18af0f"
           },
           {
             "type": "paragraph",
@@ -182,7 +191,8 @@
                 "type": "text",
                 "text": "※ Note: Priest Monnta requested second reading."
               }
-            ]
+            ],
+            "id": "p-af8a71e079dda2f0"
           },
           {
             "type": "paragraph",
@@ -212,7 +222,8 @@
                 "type": "text",
                 "text": "※ Note: Limit unnecessary notes."
               }
-            ]
+            ],
+            "id": "p-6ba770d1c786cb71"
           },
           {
             "type": "paragraph",
@@ -242,7 +253,8 @@
                 "type": "text",
                 "text": "※ Note: Fine, keep it then."
               }
-            ]
+            ],
+            "id": "p-091fe9a78b31a4bd"
           },
           {
             "type": "paragraph",
@@ -265,7 +277,8 @@
                 "type": "text",
                 "text": "※ Note: Please make this extrapolation result public."
               }
-            ]
+            ],
+            "id": "p-ba893fd805fa1d87"
           },
           {
             "type": "paragraph",
@@ -274,7 +287,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-3"
           },
           {
             "type": "paragraph",
@@ -297,7 +311,8 @@
                 "type": "text",
                 "text": "Divination Result: \"On your nose\""
               }
-            ]
+            ],
+            "id": "p-5f64afe6d5fda4bb"
           },
           {
             "type": "paragraph",
@@ -320,7 +335,8 @@
                 "type": "text",
                 "text": "※ Note: Receiving priests should conduct preliminary screening. The Maze can only divine matters of \"location.\" Keep invalid questions from disturbing the sacred process."
               }
-            ]
+            ],
+            "id": "p-ed4c59a19b684ebb"
           },
           {
             "type": "paragraph",
@@ -343,7 +359,8 @@
                 "type": "text",
                 "text": "※ Note: Three subsequent identical queries were archived."
               }
-            ]
+            ],
+            "id": "p-66fa3d0545212962"
           },
           {
             "type": "paragraph",
@@ -366,7 +383,8 @@
                 "type": "text",
                 "text": "※ Note: Similar request from Strife Season was made by the same person, who left the city after receiving the prophecy."
               }
-            ]
+            ],
+            "id": "p-47be49bde08cce77"
           },
           {
             "type": "paragraph",
@@ -396,7 +414,8 @@
                 "type": "text",
                 "text": "※ Note: According to Priest Monnta, the client was playing with the sought child when the slate was delivered, matching the divination result."
               }
-            ]
+            ],
+            "id": "p-b2a3705f2cde6322"
           },
           {
             "type": "paragraph",
@@ -419,7 +438,8 @@
                 "type": "text",
                 "text": "※ Note: Total time from request to slate delivery was seventeen days."
               }
-            ]
+            ],
+            "id": "p-f3bdc095362f2a5c"
           },
           {
             "type": "paragraph",
@@ -442,7 +462,8 @@
                 "type": "text",
                 "text": "※ Note: Process per protocol, future similar queries need not be processed or recorded."
               }
-            ]
+            ],
+            "id": "p-c9acf9fde9d787dc"
           },
           {
             "type": "paragraph",
@@ -465,7 +486,8 @@
                 "type": "text",
                 "text": "※ Note: The client was Priest Monnta, who found a farewell message and handcrafted gifts atop the desk."
               }
-            ]
+            ],
+            "id": "p-89a0214def8bba48"
           },
           {
             "type": "paragraph",
@@ -495,7 +517,8 @@
                 "type": "text",
                 "text": "※ Note: Priest Monnta disagreed, emphasizing the child's safety as a priority."
               }
-            ]
+            ],
+            "id": "p-a4429a7750d3419b"
           },
           {
             "type": "paragraph",
@@ -532,7 +555,8 @@
                 "type": "text",
                 "text": "※ Note: Never mind, the client has left."
               }
-            ]
+            ],
+            "id": "p-49143a2c477b0d98"
           },
           {
             "type": "paragraph",
@@ -541,7 +565,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-4"
           },
           {
             "type": "paragraph",
@@ -585,7 +610,8 @@
                 "type": "text",
                 "text": "※ Note: Dismissed the temporary acolyte from Creation Season."
               }
-            ]
+            ],
+            "id": "p-7384f442629e3833"
           },
           {
             "type": "paragraph",
@@ -601,7 +627,8 @@
                 "type": "text",
                 "text": "Divination Result: \"Patience shall provide\""
               }
-            ]
+            ],
+            "id": "p-97bf9a8c33d76103"
           },
           {
             "type": "paragraph",
@@ -624,7 +651,8 @@
                 "type": "text",
                 "text": "※ Note: client missing, offering payment not refundable."
               }
-            ]
+            ],
+            "id": "p-08ab4283d9d92dc4"
           }
         ]
       }

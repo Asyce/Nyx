@@ -4,10 +4,11 @@
   "id": "seafeld-tv-chronicles",
   "name": "Seafeld TV Chronicles",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Seafeld_TV_Chronicles",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-291647357db7f20b"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "In Arcadian Calendar 1870, the wealthy merchant Akasha founded the original Seafeld TV alongside the ploo known as \"Maxion\" to enrich the leisure lives of the local citizens. Rumor has it that the initial construction plans for the Seafeld TV Tower were rejected due to safety hazards. Facing limited funds, \"Maxion\" rallied over two thousand ploos to fill their bodies with Wishpower, with which they completed the construction of the tower's main structure."
               }
-            ]
+            ],
+            "id": "p-cb1ffa1517d29b1f"
           },
           {
             "type": "paragraph",
@@ -51,7 +54,8 @@
                 "type": "text",
                 "text": "was the only program on the station at that time. Its vision of 24-hour non-stop news was initially mocked by industry rivals. Everything changed a few years later during the Phantasmoon Games. Seafeld TV was the first to provide total and relentless coverage of the event from every possible angle. This attracted a massive influx of viewers and Wishpower, instantly transforming the station into a media titan of Planarcadia."
               }
-            ]
+            ],
+            "id": "p-6872e735183fef42"
           },
           {
             "type": "paragraph",
@@ -73,7 +77,8 @@
                 "type": "text",
                 "text": "became a massive hit. The legendary tale of \"Maxion\" was passed down among the ploo population."
               }
-            ]
+            ],
+            "id": "p-1fcd65f5ab30ea2b"
           },
           {
             "type": "paragraph",
@@ -95,7 +100,8 @@
                 "type": "text",
                 "text": "channel premiered to the public."
               }
-            ]
+            ],
+            "id": "p-10a45b8fff5307d0"
           },
           {
             "type": "paragraph",
@@ -104,7 +110,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -113,7 +120,8 @@
                 "type": "text",
                 "text": "In Arcadian Calendar 1980, the Seafeld TV Tower underwent its fourth major renovation. Its height reached more than double that of the original structure, and the number of employees surpassed two thousand."
               }
-            ]
+            ],
+            "id": "p-b98e023ca48dbf03"
           },
           {
             "type": "paragraph",
@@ -135,7 +143,8 @@
                 "type": "text",
                 "text": "premiered, achieving a viewership rating of 17.9%."
               }
-            ]
+            ],
+            "id": "p-8b4f07345893ffed"
           },
           {
             "type": "paragraph",
@@ -144,7 +153,8 @@
                 "type": "text",
                 "text": "In Arcadian Calendar 1988, Fulwish took office as the 19th station director, and Seafeld TV was renamed Fulwish TV."
               }
-            ]
+            ],
+            "id": "p-79d817d32e4dd624"
           }
         ]
       }

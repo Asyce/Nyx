@@ -4,10 +4,11 @@
   "id": "hot-spring-festival-initiative",
   "name": "Hot Spring Festival Initiative",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Hot_Spring_Festival_Initiative",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "\"Gotta think of a way to trick those shut-in types in the VIP rooms into coming down to take a dip. Otherwise, it's always the same old faces, and we've completely run dry on things to talk about.\""
               }
-            ]
+            ],
+            "id": "p-72b9219659fc6a99"
           },
           {
             "type": "paragraph",
@@ -35,7 +37,8 @@
                 "type": "text",
                 "text": "Let's brainstorm together. Drop your ideas here, or feel free to share your hot takes! ↓"
               }
-            ]
+            ],
+            "id": "p-27b0026da4b6eab9"
           },
           {
             "type": "paragraph",
@@ -75,7 +78,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-69ebe3f936e83c3a"
           },
           {
             "type": "paragraph",
@@ -115,7 +119,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-73aa931522af4304"
           },
           {
             "type": "paragraph",
@@ -162,7 +167,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-6caa866aed559c42"
           },
           {
             "type": "paragraph",
@@ -202,7 +208,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-559bfbf4e5f4947f"
           },
           {
             "type": "paragraph",
@@ -242,7 +249,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-9617963628f4d70e"
           },
           {
             "type": "paragraph",
@@ -289,7 +297,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-e3d35864e9b7ec1c"
           },
           {
             "type": "paragraph",
@@ -329,7 +338,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-9115edded38bbb62"
           },
           {
             "type": "paragraph",
@@ -338,7 +348,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           }
         ]
       }

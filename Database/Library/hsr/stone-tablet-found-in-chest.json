@@ -4,10 +4,11 @@
   "id": "stone-tablet-found-in-chest",
   "name": "Stone Tablet Found in Chest",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Stone_Tablet_Found_in_Chest",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Greetings, traveler. Congratulations on solving the puzzle three times — you must possess the qualities I seek: Wisdom and resilience recognized by Oronyx, an adventurous spirit, and most importantly — being alive."
               }
-            ]
+            ],
+            "id": "p-3cbb5c19d84a416e"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Perhaps you've already guessed it, but the real treasure is something beyond the reach of time. To me, it is this unique bond."
               }
-            ]
+            ],
+            "id": "p-5900c204b8ea3382"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "Since my soul research was interrupted and I was driven from the city as a heretic by the church, this nymph I met on my journey has become my sole companion. We have endured many hardships, journeying together to this ancient city of the dead, and have remained here for many Light Calendar years."
               }
-            ]
+            ],
+            "id": "p-9f27ba725bd01917"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "As my time comes to a close, I've gained new insights into the teachings of time. I set up this puzzle so that my life's accumulated knowledge could be seen by someone and passed on after I'm gone. What still troubles me is my eternal nymph companion—"
               }
-            ]
+            ],
+            "id": "p-ab5e85d7a4ae71e8"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "No, I'm not worried about its safety, but about the fact that soon, no one will entertain it anymore. Based on my understanding of it, it will likely resort to playing with the iron balls in the hall, causing a ruckus. Perhaps I exaggerate, but please understand, it is quite mischievous."
               }
-            ]
+            ],
+            "id": "p-3bf9502fa37a3c72"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "Perhaps... it has already collided with you? Please forgive it."
               }
-            ]
+            ],
+            "id": "p-d2ffd66ebf9dc692"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "I wonder if you might take it from here, whether on your travels or reuniting it with other nymph companions — just please don't allow it to disturb the spirits of the dead here anymore. It has been quite disrespectful."
               }
-            ]
+            ],
+            "id": "p-b80544a03bea87af"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "Of course, I understand that this is an unreasonable request, so — how you choose to act is entirely up to you. May you walk with time for many years to come."
               }
-            ]
+            ],
+            "id": "p-b373f877b2cf78d3"
           },
           {
             "type": "paragraph",
@@ -98,7 +107,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-9d427174f93d0a1b"
           }
         ]
       }

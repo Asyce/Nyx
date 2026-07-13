@@ -4,10 +4,11 @@
   "id": "handy-handbook-of-hilichurlian",
   "name": "Handy Handbook of Hilichurlian",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Handy_Handbook_of_Hilichurlian",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Dedicated to my heir and granddaughter, Ella. In our family's history, she will most likely be the most eccentric but cutest Ella Musk."
               }
-            ]
+            ],
+            "id": "p-74d35e9ce7bfde36"
           },
           {
             "type": "paragraph",
@@ -38,7 +40,8 @@
                 "type": "text",
                 "text": "If you wish to learn Hilichurlian, please use a standard textbook such as my next introductory book."
               }
-            ]
+            ],
+            "id": "p-8443705d5b5e7025"
           },
           {
             "type": "paragraph",
@@ -73,7 +76,8 @@
                 "type": "text",
                 "text": "Note: \"Dada upa\" means \"very tall/large mountain.\""
               }
-            ]
+            ],
+            "id": "p-f88aa5d35f95290d"
           },
           {
             "type": "paragraph",
@@ -92,7 +96,8 @@
                 "type": "text",
                 "text": "Note: If you hear hilichurls shout these words and you are confident in yourself, give them a wallop. Otherwise, run."
               }
-            ]
+            ],
+            "id": "p-2bbc01dd69c125fc"
           },
           {
             "type": "paragraph",
@@ -111,7 +116,8 @@
                 "type": "text",
                 "text": "Note: You will not generally hear hilichurls say that they like you, so translating this as \"want\" is sufficient."
               }
-            ]
+            ],
+            "id": "p-19285d5ca20df6d2"
           },
           {
             "type": "paragraph",
@@ -156,7 +162,8 @@
                 "type": "text",
                 "text": "If a hilichurl says \"Gusha\" to you, you must use their tone of voice to determine if they want fruits, rice, or wheat, or if they are dissatisfied."
               }
-            ]
+            ],
+            "id": "p-9604301c6d47ca16"
           },
           {
             "type": "paragraph",
@@ -175,7 +182,8 @@
                 "type": "text",
                 "text": "Note: \"In movo lata mita / Mita in movo lata / Mita movo lata\" refers to \"meat in the water\" — I believe that even you can figure that one out, little Ella."
               }
-            ]
+            ],
+            "id": "p-a040824a88c38285"
           },
           {
             "type": "paragraph",
@@ -194,7 +202,8 @@
                 "type": "text",
                 "text": "Note: This word is affixed to nouns and describes an upper direction, height, or flight. It can indicate flying insects, birds, clouds, patrolling knights, a small companion sent flying by a larger hilichurl. In short, this word is difficult to explain."
               }
-            ]
+            ],
+            "id": "p-d4c414e3216bdef2"
           },
           {
             "type": "paragraph",
@@ -253,7 +262,8 @@
                 "type": "text",
                 "text": "And \"Celi lata\" can describe things such as fireflies, stars, or the moon."
               }
-            ]
+            ],
+            "id": "p-c8138fd3530cd5aa"
           },
           {
             "type": "paragraph",
@@ -292,7 +302,8 @@
                 "type": "text",
                 "text": "The correct answer is \"Mani,\" which also means \"hands\" or \"physical labor.\""
               }
-            ]
+            ],
+            "id": "p-23eac857480d5861"
           },
           {
             "type": "paragraph",
@@ -311,7 +322,8 @@
                 "type": "text",
                 "text": "Note: In Hilichurlian, \"Upa sada\" means that you are prepared to do something."
               }
-            ]
+            ],
+            "id": "p-2c1a96db60323798"
           },
           {
             "type": "paragraph",
@@ -330,7 +342,8 @@
                 "type": "text",
                 "text": "Note: According to my tests, \"Celi boya\" is red, \"Gusha boya\" is green,\" \"Lata boya\" is blue, \"Nini boya\" is white, \"Nunu boya/Sama boya\" are black, and \"Unu boya\" is yellow."
               }
-            ]
+            ],
+            "id": "p-816cda776c09d7cd"
           },
           {
             "type": "paragraph",
@@ -403,7 +416,8 @@
                 "type": "text",
                 "text": "1. Late night."
               }
-            ]
+            ],
+            "id": "p-80edcfeba9855014"
           },
           {
             "type": "paragraph",
@@ -432,7 +446,8 @@
                 "type": "text",
                 "text": "The most recommended method is to obtain a map, ask them this question, and have them identify the location on the map."
               }
-            ]
+            ],
+            "id": "p-529756c78e1059b7"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "to-strife-praise-nikador",
   "name": "To Strife: Praise Nikador",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/To_Strife:_Praise_Nikador",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-e16ce3e8cefaa6f0"
           },
           {
             "type": "paragraph",
@@ -54,7 +56,8 @@
                 "type": "text",
                 "text": "Strife Titan, Lance of Fury, Nikador."
               }
-            ]
+            ],
+            "id": "p-0a60f2a917659aa4"
           },
           {
             "type": "paragraph",
@@ -77,7 +80,8 @@
                 "type": "text",
                 "text": "You are the tyrant of all defeated, solely bearing all wounds of the world on your back."
               }
-            ]
+            ],
+            "id": "p-b2ae194f0318ed98"
           },
           {
             "type": "paragraph",
@@ -107,7 +111,8 @@
                 "type": "text",
                 "text": "The sky-piercing lance, the ruination of night and light."
               }
-            ]
+            ],
+            "id": "p-6b4c40061e858b34"
           },
           {
             "type": "paragraph",
@@ -137,7 +142,8 @@
                 "type": "text",
                 "text": "Calamity eternal casting devastation on myriad cities, turning foes to ash!"
               }
-            ]
+            ],
+            "id": "p-847eb9688f377dc4"
           }
         ]
       }

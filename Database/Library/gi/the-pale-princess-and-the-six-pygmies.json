@@ -4,17 +4,19 @@
   "id": "the-pale-princess-and-the-six-pygmies",
   "name": "The Pale Princess and the Six Pygmies",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/The_Pale_Princess_and_the_Six_Pygmies",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -43,13 +45,15 @@
                 "type": "text",
                 "text": "The Moonlight Forest was the only place free from the rule of the Night Mother. Only there could the people bask in the bright moonlight and enjoy the grace it brought to the living. Everyone in the Kingdom of the Moonlight Forest was born with fair skin, light-colored hair, and bright blue eyes. Perhaps the constant lack of sunlight and the nourishment of the moonlight was the reason for their beauty, giving them an appearance different from the abhorrent creatures lurking at the edge of the forest."
               }
-            ]
+            ],
+            "id": "p-2344bdddcde964c5"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
@@ -66,13 +70,15 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ff90ddf5ec6b92f4"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "vol-3",
       "label": "Vol. 3",
       "document": {
         "version": 1,
@@ -89,13 +95,15 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ff90ddf5ec6b92f4"
           }
         ]
       }
     },
     {
       "id": "4",
+      "volumeKey": "vol-4",
       "label": "Vol. 4",
       "document": {
         "version": 1,
@@ -112,13 +120,15 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ff90ddf5ec6b92f4"
           }
         ]
       }
     },
     {
       "id": "5",
+      "volumeKey": "vol-5",
       "label": "Vol. 5",
       "document": {
         "version": 1,
@@ -135,13 +145,15 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ff90ddf5ec6b92f4"
           }
         ]
       }
     },
     {
       "id": "6",
+      "volumeKey": "vol-6",
       "label": "Vol. 6",
       "document": {
         "version": 1,
@@ -158,13 +170,15 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ff90ddf5ec6b92f4"
           }
         ]
       }
     },
     {
       "id": "7",
+      "volumeKey": "vol-7",
       "label": "Vol. 7",
       "document": {
         "version": 1,
@@ -181,7 +195,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ff90ddf5ec6b92f4"
           }
         ]
       }

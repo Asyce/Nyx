@@ -4,17 +4,19 @@
   "id": "princess-mina-of-the-fallen-nation",
   "name": "Princess Mina of the Fallen Nation",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Princess_Mina_of_the_Fallen_Nation",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -53,7 +55,8 @@
                 "type": "text",
                 "text": "Such a backdrop is hardly anything special."
               }
-            ]
+            ],
+            "id": "p-a50830d5bf313b0c"
           },
           {
             "type": "paragraph",
@@ -222,20 +225,23 @@
                 "type": "text",
                 "text": "The girl grumbled softly from the rear."
               }
-            ]
+            ],
+            "id": "p-b19034edc6a233b0"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -374,7 +380,8 @@
                 "type": "text",
                 "text": "Well, the samurai thought, it had been worth a shot trying to dodge responsibility."
               }
-            ]
+            ],
+            "id": "p-736400ec469b9a6b"
           },
           {
             "type": "paragraph",
@@ -423,20 +430,23 @@
                 "type": "text",
                 "text": "\"'Destroying the world' is an utterly stupid concept. You'll understand soon enough.\""
               }
-            ]
+            ],
+            "id": "p-a2f8137aa4752fb4"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "vol-3",
       "label": "Vol. 3",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -505,7 +515,8 @@
                 "type": "text",
                 "text": "\"It seems like the life has literally been wrung out from this place.\""
               }
-            ]
+            ],
+            "id": "p-e0d82f759f4506a2"
           },
           {
             "type": "paragraph",
@@ -584,7 +595,8 @@
                 "type": "text",
                 "text": "\"And the ones who created the Hex are the Onmyouji who dwell in the Sky Tower at the center of the world.\""
               }
-            ]
+            ],
+            "id": "p-a8c2b164ea7a6b3c"
           },
           {
             "type": "paragraph",
@@ -603,20 +615,23 @@
                 "type": "text",
                 "text": "\"O 'princess who brings destruction'... Has this world not already been destroyed?\""
               }
-            ]
+            ],
+            "id": "p-ce1c04f759631018"
           }
         ]
       }
     },
     {
       "id": "4",
+      "volumeKey": "vol-4",
       "label": "Vol. 4",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -665,7 +680,8 @@
                 "type": "text",
                 "text": "If this were a swashbuckler's tale, then they would have already taken up battle stances. But the two were not here to have a decisive match. They were just facing each other."
               }
-            ]
+            ],
+            "id": "p-5a949ad760662fc0"
           },
           {
             "type": "paragraph",
@@ -734,7 +750,8 @@
                 "type": "text",
                 "text": "The green samurai closed their eyes, as if sinking into the abyss of the past."
               }
-            ]
+            ],
+            "id": "p-02b33d85c4eab621"
           },
           {
             "type": "paragraph",
@@ -803,20 +820,23 @@
                 "type": "text",
                 "text": "\"...Hey now, cut the reminiscence out for a second. We've got things to settle, don't we?\""
               }
-            ]
+            ],
+            "id": "p-698198f8f68ad920"
           }
         ]
       }
     },
     {
       "id": "5",
+      "volumeKey": "vol-5",
       "label": "Vol. 5",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -895,7 +915,8 @@
                 "type": "text",
                 "text": "(The Princess covers her ears)"
               }
-            ]
+            ],
+            "id": "p-3cf5458d364726d9"
           },
           {
             "type": "paragraph",
@@ -944,7 +965,8 @@
                 "type": "text",
                 "text": "\"And that which can utilize this stored vitality...\""
               }
-            ]
+            ],
+            "id": "p-a88be3168fb8b7cf"
           },
           {
             "type": "paragraph",
@@ -973,20 +995,23 @@
                 "type": "text",
                 "text": "How long was this farce going to continue?"
               }
-            ]
+            ],
+            "id": "p-c199ec1d427fce22"
           }
         ]
       }
     },
     {
       "id": "6",
+      "volumeKey": "vol-6",
       "label": "Vol. 6",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -1055,7 +1080,8 @@
                 "type": "text",
                 "text": "And so the samurai embarked on a new journey."
               }
-            ]
+            ],
+            "id": "p-0a87f438f5a15700"
           },
           {
             "type": "paragraph",
@@ -1064,7 +1090,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -1073,7 +1100,8 @@
                 "type": "text",
                 "text": "(The remainder of this book concerns the story's setting, and features in large part the various wicked overlords and monstrous creatures that did not appear in the main narrative of the novel.)"
               }
-            ]
+            ],
+            "id": "p-1f3ac1b6d5c5ea64"
           }
         ]
       }

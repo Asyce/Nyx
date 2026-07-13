@@ -4,10 +4,11 @@
   "id": "my-return-to-the-path-foreword",
   "name": "My Return to the Path Foreword",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/My_Return_to_the_Path_Foreword",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -32,7 +33,8 @@
                 "type": "text",
                 "text": ", has finally been published. I could not be happier for her."
               }
-            ]
+            ],
+            "id": "p-29fcc152fac3cca8"
           },
           {
             "type": "paragraph",
@@ -54,7 +56,8 @@
                 "type": "text",
                 "text": "are likely new to you. So, please allow me to tell you a little about her life in this preamble."
               }
-            ]
+            ],
+            "id": "p-a4293503e180e4ee"
           },
           {
             "type": "paragraph",
@@ -63,7 +66,8 @@
                 "type": "text",
                 "text": "In the year 7992, Yewliho was born into a Bloodwind Pack beast ship operator family. The Bloodwind Pack \"inspired awe across the universe\" with their gigantic fleet of beast ships. Within a society like borisin that honors strength above all, beast ship operators from this generation, like Yewliho, naturally held a relatively high level of political influence."
               }
-            ]
+            ],
+            "id": "p-460836e58d3e6240"
           },
           {
             "type": "paragraph",
@@ -72,7 +76,8 @@
                 "type": "text",
                 "text": "By 8023, Yewliho already had her own personal fleet, the \"Preta,\" at only age 31. She had already independently planned and completed dozens of plunder and ransack missions."
               }
-            ]
+            ],
+            "id": "p-ed93bc4bbced6c97"
           },
           {
             "type": "paragraph",
@@ -81,7 +86,8 @@
                 "type": "text",
                 "text": "As far as Xianzhou pilots at the time were concerned, Yewliho was an unparalleled nightmare. She was renowned for her fearless attacks and many schemes, and could be said to lead the most brutal and efficient fleet at that time."
               }
-            ]
+            ],
+            "id": "p-8b67ae1c858bca63"
           },
           {
             "type": "paragraph",
@@ -90,7 +96,8 @@
                 "type": "text",
                 "text": "Before long, thanks to her many military exploits, Yewliho's rank among the pack skyrocketed. In 8025, Yewliho and the Bloodwind Pack Chief Hosing Khan were married."
               }
-            ]
+            ],
+            "id": "p-37ad09d2a6ac16de"
           },
           {
             "type": "paragraph",
@@ -99,7 +106,8 @@
                 "type": "text",
                 "text": "As it is borisin tradition for the chief's partner to act as the leader of all officials, Yewliho had suddenly risen to the second-highest rank within the Bloodwind Pack."
               }
-            ]
+            ],
+            "id": "p-738b79ef48556738"
           },
           {
             "type": "paragraph",
@@ -108,7 +116,8 @@
                 "type": "text",
                 "text": "In 8032, Yewliho gave birth to a child named \"Cherluwoo.\" If everything went as planned, Cherluwoo would become the next leader of the pack."
               }
-            ]
+            ],
+            "id": "p-c1af2b0b9fceebde"
           },
           {
             "type": "paragraph",
@@ -117,7 +126,8 @@
                 "type": "text",
                 "text": "However, there was an unexpected development the year that Cherluwoo turned 5."
               }
-            ]
+            ],
+            "id": "p-150c843227b5fea2"
           },
           {
             "type": "paragraph",
@@ -126,7 +136,8 @@
                 "type": "text",
                 "text": "Originally, Hosing Khan had already exceeded 400 years of age without bearing an heir. If the regular route of succession were to be followed, the title of chief would go to the next \"Duran descendant\"... Hosing Khan's nephew, Kobo."
               }
-            ]
+            ],
+            "id": "p-b38637c430e11f0c"
           },
           {
             "type": "paragraph",
@@ -135,7 +146,8 @@
                 "type": "text",
                 "text": "However, the birth of Cherluwoo had shattered this plan. After having prepared all his life to inherit the pack, Kobo led the 3,000-strong beast ship fleet that had sworn loyalty to him to reclaim his power and attacked the chief's great beast ship."
               }
-            ]
+            ],
+            "id": "p-4461cde7f8e68710"
           },
           {
             "type": "paragraph",
@@ -144,7 +156,8 @@
                 "type": "text",
                 "text": "Hosing Khan had no time to react before he was murdered by his bodyguards that Kobo had bribed. Naturally, Kobo's next targets would be Yewliho and her son."
               }
-            ]
+            ],
+            "id": "p-15a68dc1b2e04476"
           },
           {
             "type": "paragraph",
@@ -153,7 +166,8 @@
                 "type": "text",
                 "text": "Fortunately, Yewliho had always retained her own fleet that vowed loyalty to her, the Preta. Although they only boasted 300 ships, every member was a trusted ally that had accompanied her on pillages for many years."
               }
-            ]
+            ],
+            "id": "p-981170b31a28adc6"
           },
           {
             "type": "paragraph",
@@ -162,7 +176,8 @@
                 "type": "text",
                 "text": "Yewliho and her fleet successfully forced their way out of Kobo's encirclement. However, with the huge beast ship fleet that pursued them like locusts, there was no way for her mere 300 ships to escape."
               }
-            ]
+            ],
+            "id": "p-66d81e26b8ae61ce"
           },
           {
             "type": "paragraph",
@@ -171,7 +186,8 @@
                 "type": "text",
                 "text": "However, \"Kobo Khan\" called off his manhunt a short while later and returned to the Bloodwind Pack, successfully becoming the next chief. Yewliho would never say how she managed to escape that lethal pursuit. All that we know is that her only child, Cherluwoo, died during that escape."
               }
-            ]
+            ],
+            "id": "p-9e209426e9c80939"
           },
           {
             "type": "paragraph",
@@ -180,7 +196,8 @@
                 "type": "text",
                 "text": "In the year 8038, Yewliho led the Preta (with 127 men remaining) to the Fanghu, determined to submit and pledge allegiance to the Alliance."
               }
-            ]
+            ],
+            "id": "p-751f14bc19cc5c7f"
           },
           {
             "type": "paragraph",
@@ -189,7 +206,8 @@
                 "type": "text",
                 "text": "After two long years of careful deliberation, the Alliance decided to pardon these borisin for their crimes and allow them to live inside the Fanghu under strict surveillance... This was on the condition that they comply with all Alliance research on borisin, as well as submitting all beast ship-related technology to them."
               }
-            ]
+            ],
+            "id": "p-3134edcff079b60b"
           },
           {
             "type": "paragraph",
@@ -198,7 +216,8 @@
                 "type": "text",
                 "text": "This was also the time that I met Yewliho. As a cultural anthropologist, I was ordered to interview these 127 borisin, in order to deepen our understanding of borisin society."
               }
-            ]
+            ],
+            "id": "p-381da03d3fa5660f"
           },
           {
             "type": "paragraph",
@@ -207,7 +226,8 @@
                 "type": "text",
                 "text": "Throughout the course of my research, Yewliho and I developed a deep friendship. She was an intelligent, frank, and courageous warrior who was able to summarize the complex and chaotic world of borisin society and logic to me in concise, clear language."
               }
-            ]
+            ],
+            "id": "p-c211c6eba000abad"
           },
           {
             "type": "paragraph",
@@ -216,7 +236,8 @@
                 "type": "text",
                 "text": "Likely because of her hatred towards Kobo, Yewliho always hoped that she would be able to lead her Preta to fight for the Alliance. However, a request like this was unlikely to receive approval."
               }
-            ]
+            ],
+            "id": "p-583292888beccb4a"
           },
           {
             "type": "paragraph",
@@ -225,7 +246,8 @@
                 "type": "text",
                 "text": "Yewliho made this request again and again and was rejected every time... After 30 years, she could bear this cycle no longer and began to seek my assistance."
               }
-            ]
+            ],
+            "id": "p-4f4765b83e321864"
           },
           {
             "type": "paragraph",
@@ -234,7 +256,8 @@
                 "type": "text",
                 "text": "I suggested that she write a long letter explaining her life and background in detail. This would allow her to explain her hatred of her enemies to the Seven Arbiter-Generals and why she longs to fight for the Alliance. When she did this, I would be willing to put my personal reputation on the line to vouch for her."
               }
-            ]
+            ],
+            "id": "p-3c06208e7b6b9535"
           },
           {
             "type": "paragraph",
@@ -256,7 +279,8 @@
                 "type": "text",
                 "text": "."
               }
-            ]
+            ],
+            "id": "p-32637a7c8ec072a4"
           },
           {
             "type": "paragraph",
@@ -265,7 +289,8 @@
                 "type": "text",
                 "text": "Perhaps this was truly some cruel trick of fate... But, in 8072, not long after she had written this letter, the third Denizens of Abundance War broke out."
               }
-            ]
+            ],
+            "id": "p-23f5e1b1468d216f"
           },
           {
             "type": "paragraph",
@@ -274,7 +299,8 @@
                 "type": "text",
                 "text": "With the Fanghu serving as the main battleground, it quickly descended into a terrifying bloodbath. Pressed with their backs up against the wall, no one was free to keep watch over Yewliho... So, without receiving permission from the Alliance, the Preta launched their final assault."
               }
-            ]
+            ],
+            "id": "p-05bbb9c790939380"
           },
           {
             "type": "paragraph",
@@ -283,7 +309,8 @@
                 "type": "text",
                 "text": "We never learned just how many Abominations of Abundance the Preta wiped out in the war. However, what we can be sure of is that they managed to transport at least 4,000 civilians to safety before the Reignbow's Lux Arrow descended."
               }
-            ]
+            ],
+            "id": "p-d18bc5a5443aba27"
           },
           {
             "type": "paragraph",
@@ -292,7 +319,8 @@
                 "type": "text",
                 "text": "And during this process, all 127 borisin warriors, including Yewliho perished."
               }
-            ]
+            ],
+            "id": "p-93f77da70084ac7f"
           },
           {
             "type": "paragraph",
@@ -314,7 +342,8 @@
                 "type": "text",
                 "text": "was never able to be published."
               }
-            ]
+            ],
+            "id": "p-effb9c13330d5708"
           },
           {
             "type": "paragraph",
@@ -336,7 +365,8 @@
                 "type": "text",
                 "text": "gets published, in the hopes that her story could appear on my readers' desks, like it can today."
               }
-            ]
+            ],
+            "id": "p-01741d79548f70d0"
           },
           {
             "type": "paragraph",
@@ -345,7 +375,8 @@
                 "type": "text",
                 "text": "Honestly, I almost don't care about the book's academic merit, I just care about my selfish motives: I want to introduce the story of my friend Yewliho to you all..."
               }
-            ]
+            ],
+            "id": "p-ffcbe6c1f06709b7"
           },
           {
             "type": "paragraph",
@@ -361,7 +392,8 @@
                 "type": "text",
                 "text": "She was a Xianzhou person who never gained recognition, a courageous warrior, and a mother filled with rage and sorrow."
               }
-            ]
+            ],
+            "id": "p-6f643fe433a9382c"
           },
           {
             "type": "paragraph",
@@ -383,7 +415,8 @@
                 "type": "text",
                 "text": "Zongguang"
               }
-            ]
+            ],
+            "id": "p-e3c43af3af371e20"
           }
         ]
       }

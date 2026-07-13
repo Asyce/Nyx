@@ -4,10 +4,11 @@
   "id": "fragmented-alchemy-notes-excerpt",
   "name": "Fragmented Alchemy Notes (Excerpt)",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Fragmented_Alchemy_Notes_(Excerpt)",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "(...)"
               }
-            ]
+            ],
+            "id": "p-6e6ea7e1675130fe"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-742f37f60cf95e38"
           },
           {
             "type": "paragraph",
@@ -83,7 +86,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-58f1989d8051b562"
           },
           {
             "type": "paragraph",
@@ -109,7 +113,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-7205a3c1bf89c68b"
           },
           {
             "type": "paragraph",
@@ -159,7 +164,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-a6dfe60259f04496"
           },
           {
             "type": "paragraph",
@@ -185,7 +191,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-7039609ff9a3b8a8"
           },
           {
             "type": "paragraph",
@@ -235,7 +242,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-e2c8864fe8f171e8"
           },
           {
             "type": "paragraph",
@@ -261,7 +269,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-6ab03b98cd1c1f64"
           },
           {
             "type": "paragraph",
@@ -311,7 +320,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-537c24679d97c634"
           },
           {
             "type": "paragraph",
@@ -337,7 +347,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-d756dc6e4530cee2"
           },
           {
             "type": "paragraph",
@@ -346,7 +357,8 @@
                 "type": "text",
                 "text": "(...)"
               }
-            ]
+            ],
+            "id": "p-6e6ea7e1675130fe-2"
           },
           {
             "type": "paragraph",
@@ -355,7 +367,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

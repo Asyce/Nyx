@@ -4,10 +4,11 @@
   "id": "phantylia-who-sits-next-to-me",
   "name": "Phantylia Who Sits Next to Me",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Phantylia_Who_Sits_Next_to_Me",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-e1c346e5f880ef3a"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "I saw her for the first time in a literary class. Professor Carl's voice droned on like sun-warmed chalk dust, going on and on about the eternal themes of love and death. She pushed open the back door, made a beeline for the empty seat next to me, and brought with her this faint scent, like osmanthus baked under the hot sun."
               }
-            ]
+            ],
+            "id": "p-470b91a054296bba"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "\"Is this seat taken?\" she asked."
               }
-            ]
+            ],
+            "id": "p-3ed86b2adadbb375"
           },
           {
             "type": "paragraph",
@@ -51,7 +55,8 @@
                 "type": "text",
                 "text": "I shook my head while sizing up this unfamiliar girl. She was striking, not in that overdone, paint-by-numbers kind of pretty, but with an almost defiant beauty that shouldn't exist in this classroom packed with sleep-deprived faces. Throughout the entire class, she didn't take any notes or interact with anyone else. It seemed like she was only there in case attendance was taken. The thing is, Professor Carl never checks attendance anyway. And Damien, who normally sits through literature class with me? He'd ditched today to go play ball."
               }
-            ]
+            ],
+            "id": "p-b7fbf004cb3555b2"
           },
           {
             "type": "paragraph",
@@ -60,7 +65,8 @@
                 "type": "text",
                 "text": "The bell rang, and I packed up my stuff, ready to dash off to the art room. A hand slammed down on my textbook, pinning it to the table. I looked up and found myself staring right into her eyes. \"I'm Phantylia, the new transfer student.\" She paused for a beat. \"This school seems pretty fascinating. Mind showing me around?\""
               }
-            ]
+            ],
+            "id": "p-ad4d3120ec232673"
           },
           {
             "type": "paragraph",
@@ -69,7 +75,8 @@
                 "type": "text",
                 "text": "I nodded. Sure, Mr. Leonardo took attendance every art class, but that didn't matter anymore. Something far more primal than grades made it impossible to say no to those eyes."
               }
-            ]
+            ],
+            "id": "p-e5a9d5ccdbca73c7"
           },
           {
             "type": "paragraph",
@@ -78,7 +85,8 @@
                 "type": "text",
                 "text": "\"Of course,\" my voice came out a little dry. \"Starting with the library, okay?\""
               }
-            ]
+            ],
+            "id": "p-f0a955493349624a"
           },
           {
             "type": "paragraph",
@@ -87,7 +95,8 @@
                 "type": "text",
                 "text": "\"Whatever works for you.\" She released her hand from the textbook."
               }
-            ]
+            ],
+            "id": "p-426c17e41efee0f2"
           },
           {
             "type": "paragraph",
@@ -96,7 +105,8 @@
                 "type": "text",
                 "text": "We walked side by side down the dappled campus path, passing the courtyard overflowing with imagenate projections, the auditorium crawling with wispae, and the hole-in-the-wall coffee shop. Phantylia listened quietly as I rattled off the tour, her gaze slowly sweeping across sights that had long since become part of the scenery for me, until she stopped by the shimmering artificial lake."
               }
-            ]
+            ],
+            "id": "p-2aaa4b2a4661ee1a"
           },
           {
             "type": "paragraph",
@@ -105,7 +115,8 @@
                 "type": "text",
                 "text": "\"The people here,\" she suddenly spoke up, cutting me off mid-introduction, \"they all seem so busy... working toward something concrete?\""
               }
-            ]
+            ],
+            "id": "p-63721105c2efbf76"
           },
           {
             "type": "paragraph",
@@ -114,7 +125,8 @@
                 "type": "text",
                 "text": "\"Yep, like credits, graduation, a good job.\" I tried to explain."
               }
-            ]
+            ],
+            "id": "p-e6b5b32cf298337d"
           },
           {
             "type": "paragraph",
@@ -123,7 +135,8 @@
                 "type": "text",
                 "text": "\"Like stars imprisoned in their orbits. What about you? Are you trapped in an orbit like that, too?\""
               }
-            ]
+            ],
+            "id": "p-3f6551f40ea13755"
           },
           {
             "type": "paragraph",
@@ -132,7 +145,8 @@
                 "type": "text",
                 "text": "Her question hit me. I thought about the unfinished assignments in art class, the career plans I'd revised over and over, Damien's teasing about me drowning in \"pointless beauty.\" I opened my mouth, but couldn't give a straight answer."
               }
-            ]
+            ],
+            "id": "p-492fd72efe40e16a"
           },
           {
             "type": "paragraph",
@@ -141,7 +155,8 @@
                 "type": "text",
                 "text": "\"Uh... I don't know. Sometimes I feel like I am, but other times... It's like something beyond the rails is pulling me along.\""
               }
-            ]
+            ],
+            "id": "p-f6fa618c97a46a4b"
           },
           {
             "type": "paragraph",
@@ -150,7 +165,8 @@
                 "type": "text",
                 "text": "Like this moment, like you. The words went unspoken, but they hung in the air like vapor. The setting sun tinged Phantylia's hair tips amber, and in the distance, the school bell rang, startling a few waterbirds into flight."
               }
-            ]
+            ],
+            "id": "p-0f5ef1b2be2f8f64"
           },
           {
             "type": "paragraph",
@@ -159,7 +175,8 @@
                 "type": "text",
                 "text": "\"Seems I've encountered quite the intriguing guide,\" Phantylia says with a smile. \"Tomorrow evening, join me for a stroll by the lake. I'd like to learn more about Planarcadia, okay?\""
               }
-            ]
+            ],
+            "id": "p-38f89cba7192356c"
           },
           {
             "type": "paragraph",
@@ -168,7 +185,8 @@
                 "type": "text",
                 "text": "She didn't say goodbye, and just turned and headed back the way she came, gradually melting into the flow of students. I knew that from this moment on, something had changed irreversibly. And my world, because of this girl named Phantylia, was about to veer off course into uncharted territory."
               }
-            ]
+            ],
+            "id": "p-9c47ddcd681baed0"
           },
           {
             "type": "paragraph",
@@ -177,7 +195,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "shelved-business-proposal-draft-version-7-0",
   "name": "Shelved Business Proposal Draft (Version 7.0)",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Shelved_Business_Proposal_Draft_(Version_7.0)",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -26,7 +27,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-1a84088c75142615"
           },
           {
             "type": "paragraph",
@@ -42,7 +44,8 @@
                 "type": "text",
                 "text": "As the Interastral Peace Corporation shifts its focus back to Penacony, strategic acquisitions — including that of the symbolic asset, the Radiant Feldspar — will play a pivotal role in our success. As an expatriate IPC employee in Penacony, I, Thomas, am honored to draft the initial proposal and implementation draft of this grand project. By leveraging my professional skills and extensive network, particularly my connections in show business, I aim to deliver unprecedented value to the IPC."
               }
-            ]
+            ],
+            "id": "p-331fabca725ef533"
           },
           {
             "type": "paragraph",
@@ -58,7 +61,8 @@
                 "type": "text",
                 "text": "Penacony, celebrated as the Planet of Festivities, epitomizes dreams and luxury. In particular, the Radiant Feldspar, one of the most prominent symbols of the planet, embodies the aspirations of countless travelers. Reclaiming ownership of Penacony thus signifies that the IPC will wield significant influence over the future development of the travel and entertainment industries across the Cosmos."
               }
-            ]
+            ],
+            "id": "p-400b85a3483900d7"
           },
           {
             "type": "paragraph",
@@ -88,7 +92,8 @@
                 "type": "text",
                 "text": "3. Revenue Generation: Utilize entertainment offerings, luxury travel packages, and other strategies to significantly boost the profitability of the Radiant Feldspar, thereby increasing the IPC's overall capital influx."
               }
-            ]
+            ],
+            "id": "p-9b74bcb373cffb41"
           },
           {
             "type": "paragraph",
@@ -153,7 +158,8 @@
                 "type": "text",
                 "text": "Identify potential risks during project execution and devise appropriate mitigation strategies. While I am fully capable of ensuring the project's success, I am equally prepared to address any foreseeable challenges."
               }
-            ]
+            ],
+            "id": "p-d5e48c189d29197b"
           },
           {
             "type": "paragraph",
@@ -162,7 +168,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -178,7 +185,8 @@
                 "type": "text",
                 "text": "Please see the attached document for the third-party valuation report."
               }
-            ]
+            ],
+            "id": "p-6b4fca8c80fe663d"
           },
           {
             "type": "paragraph",
@@ -201,7 +209,8 @@
                 "type": "text",
                 "text": "By acquiring and re-developing the Radiant Feldspar, the IPC is poised to strengthen its dominance in the interastral travel and entertainment industry, while also creating new opportunities for revenue growth. Leveraging my professional expertise along with Erica's resources, we are confident in transforming the Radiant Feldspar into a whole new profit center and creating value for the IPC in a way like never before."
               }
-            ]
+            ],
+            "id": "p-0b838c49388c68ca"
           },
           {
             "type": "paragraph",
@@ -224,7 +233,8 @@
                 "type": "text",
                 "text": "Get your *beep* back to work and redo it! If you submit crap like this again, see if I don't shove your performance appraisal for the next financial year up your *beep*!"
               }
-            ]
+            ],
+            "id": "p-a22d1bc12c121c04"
           }
         ]
       }

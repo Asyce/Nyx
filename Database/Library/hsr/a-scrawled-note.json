@@ -4,10 +4,11 @@
   "id": "a-scrawled-note",
   "name": "A Scrawled Note",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/A_Scrawled_Note",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Stay away from all buildings Eat people Vomit moving scraps!"
               }
-            ]
+            ],
+            "id": "p-c9ae70d74740df5a"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Don't eat or drink anything Won't starve to death gradually turn into a monster—"
               }
-            ]
+            ],
+            "id": "p-9c536a48bc681dd5"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "Don't watch the \"show\" Empty bottles will rip off your Weird birds will rip open your Rusty machines will slice and churn ."
               }
-            ]
+            ],
+            "id": "p-a01ffc7f6cd2b9e2"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "Stay away from those executioners Stay away from the (A large stretch of smeared ink)"
               }
-            ]
+            ],
+            "id": "p-324169bea1fa3730"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "They are monsters Evil minions of The Family!!!"
               }
-            ]
+            ],
+            "id": "p-aa3cea15e0e0524d"
           }
         ]
       }

@@ -4,17 +4,19 @@
   "id": "breeze-amidst-the-forest",
   "name": "Breeze Amidst the Forest",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Breeze_Amidst_the_Forest",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -23,7 +25,8 @@
                 "type": "text",
                 "text": "—Ballad Selection Excerpt—"
               }
-            ]
+            ],
+            "id": "p-19afb889a33594f8"
           },
           {
             "type": "paragraph",
@@ -32,7 +35,8 @@
                 "type": "text",
                 "text": "\"Breeze Amidst the Forest\" and \"Breeze Upon the Lake\" constitute a two-volume collection of narrative poems. The compilation is the result of the tireless work of scholars who have recorded and arranged countless songs sung by Mondstadt bards."
               }
-            ]
+            ],
+            "id": "p-bfbd2b13468ab7c7"
           },
           {
             "type": "paragraph",
@@ -41,7 +45,8 @@
                 "type": "text",
                 "text": "Bards often elaborate or fabricate history to draw in an audience and earn a few extra Mora. Hence, most of their works have extremely low credibility. What has allowed the songs to remain popular to this day, and to stand the test of the thousand winds of time, is the threads of spectacular imagination and ingenious rhetoric that have been woven into them."
               }
-            ]
+            ],
+            "id": "p-ccc62e6387b2bebb"
           },
           {
             "type": "paragraph",
@@ -50,7 +55,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -69,7 +75,8 @@
                 "type": "text",
                 "text": "\"The gods walked among us in their prime.\""
               }
-            ]
+            ],
+            "id": "p-10dc2ef37a066813"
           },
           {
             "type": "paragraph",
@@ -78,7 +85,8 @@
                 "type": "text",
                 "text": "The poet, who had finished recounting the tales of the ruins and Vennessa, began to tell the story of the Wind Dragon. He began to sing, \"The story to be told hails from ancient times, when the gods walked among us in their prime.\" The dragon graced by Anemo was born* in the high heavens in that age of wonders. He slowly descended, and inspected everything with curious eyes."
               }
-            ]
+            ],
+            "id": "p-82743719f7c58640"
           },
           {
             "type": "paragraph",
@@ -107,7 +115,8 @@
                 "type": "text",
                 "text": "He landed in an orchard, only to be cursed by the furious farmers who lost their trees. The dragon could not understand why they screamed in anger."
               }
-            ]
+            ],
+            "id": "p-afed16012300bfb0"
           },
           {
             "type": "paragraph",
@@ -116,7 +125,8 @@
                 "type": "text",
                 "text": "The world was too complicated for a young dragon. The dragon was bewildered, yet he did not give up."
               }
-            ]
+            ],
+            "id": "p-933ce5563afc80e3"
           },
           {
             "type": "paragraph",
@@ -125,7 +135,8 @@
                 "type": "text",
                 "text": "One day, the dragon heard music pouring out from the Holy Lyre der Himmel. This was the name of the lyre belonging to the Anemo Archon. Enchanted by the poetry, the Wind Dragon landed beside the best singer under the skies."
               }
-            ]
+            ],
+            "id": "p-88b739bb2e333c5d"
           },
           {
             "type": "paragraph",
@@ -134,7 +145,8 @@
                 "type": "text",
                 "text": "People panicked, for the mighty elemental dragons and the great archons that reigned over the earth had never seen eye to eye."
               }
-            ]
+            ],
+            "id": "p-408499a6a9be2f0e"
           },
           {
             "type": "paragraph",
@@ -143,7 +155,8 @@
                 "type": "text",
                 "text": "\"Behold his beauty and benignity!\" The Windborne Bard sang."
               }
-            ]
+            ],
+            "id": "p-62299642a75a7580"
           },
           {
             "type": "paragraph",
@@ -152,7 +165,8 @@
                 "type": "text",
                 "text": "\"But we do not know him,\" the people replied."
               }
-            ]
+            ],
+            "id": "p-1ddee227b2d37ca5"
           },
           {
             "type": "paragraph",
@@ -161,7 +175,8 @@
                 "type": "text",
                 "text": "What mysterious magic lies behind music and poetry that has the power to mesmerize both dragons and humans alike? I, for one, cannot fathom it. The dragon decided to stay with the bard, for he too wished to be understood by all souls. He learned human speech and Windborne Bard's singing techniques."
               }
-            ]
+            ],
+            "id": "p-c5e7e9e2f2bfaf0a"
           },
           {
             "type": "paragraph",
@@ -170,7 +185,8 @@
                 "type": "text",
                 "text": "...omitted..."
               }
-            ]
+            ],
+            "id": "p-499b895c06ae8a77"
           },
           {
             "type": "paragraph",
@@ -179,7 +195,8 @@
                 "type": "text",
                 "text": "Later generations regarded him as one of the Four Winds that watched over and protected Mondstadt."
               }
-            ]
+            ],
+            "id": "p-fb863ce7d33df9f1"
           },
           {
             "type": "paragraph",
@@ -198,7 +215,8 @@
                 "type": "text",
                 "text": "\"Niveous silk grew dim and wheaten gold burned brilliantly no more.\""
               }
-            ]
+            ],
+            "id": "p-7d715663daf814be"
           },
           {
             "type": "paragraph",
@@ -207,7 +225,8 @@
                 "type": "text",
                 "text": "So begins another tale that occurred in the lost Khaenri'ah Kingdom."
               }
-            ]
+            ],
+            "id": "p-93851888185fe4a0"
           },
           {
             "type": "paragraph",
@@ -216,7 +235,8 @@
                 "type": "text",
                 "text": "The Eclipse Dynasty had fallen, and disaster spread across the land. The alchemist known as Gold was corrupted by their own greed and ambition, and created an army of shadowy monsters with their uncanny powers. Durin, a black serpentine dragon, rose from the sea to cast its shadow over Mondstadt. But it was at this very moment that there was no one to inherit the title of Lionfang Knight, thus, the Knights of Favonius could not fly their falcon flag."
               }
-            ]
+            ],
+            "id": "p-b6c34dcb7413e2c6"
           },
           {
             "type": "paragraph",
@@ -225,7 +245,8 @@
                 "type": "text",
                 "text": "The persistent yet despondent prayers called upon the archon of Mondstadt, the Windborne Bard. The strings of the lyre were strummed once more, and the Wind Dragon was summoned forth."
               }
-            ]
+            ],
+            "id": "p-bd1bec6414aa9c93"
           },
           {
             "type": "paragraph",
@@ -234,7 +255,8 @@
                 "type": "text",
                 "text": "As Mondstadt's last line of defense, the Wind Dragon battled the wicked dragon to the death in raging storms."
               }
-            ]
+            ],
+            "id": "p-58c6dce683acf548"
           },
           {
             "type": "paragraph",
@@ -243,7 +265,8 @@
                 "type": "text",
                 "text": "The Wind Dragon prevailed. He tore open the throat of the wicked dragon, at the cost of ingesting its poisonous blood. The blood of the wicked dragon was distorted gold, with the powers to crumble mountains and poison the earth."
               }
-            ]
+            ],
+            "id": "p-7f82869b13e2991b"
           },
           {
             "type": "paragraph",
@@ -252,7 +275,8 @@
                 "type": "text",
                 "text": "The Wind Dragon protected Mondstadt with his life, and his only wish was to be understood by humans. And so, he drifted off into a deep slumber."
               }
-            ]
+            ],
+            "id": "p-26527913a123a025"
           },
           {
             "type": "paragraph",
@@ -261,7 +285,8 @@
                 "type": "text",
                 "text": "The Holy Lyre played a sorrowful tune."
               }
-            ]
+            ],
+            "id": "p-1f95610c5b68d615"
           },
           {
             "type": "paragraph",
@@ -270,7 +295,8 @@
                 "type": "text",
                 "text": "The Holy Lyre sang: should you awaken, spread your wings and live your life freely! A dragon is born to soar the skies, and mortals shall surely grasp your beauty..."
               }
-            ]
+            ],
+            "id": "p-a758d5d1c4a0f025"
           },
           {
             "type": "paragraph",
@@ -279,20 +305,23 @@
                 "type": "text",
                 "text": "(*Typically, when life arises from the elements, it either descends and becomes a slime, or ascends and becomes a crystalfly. Rarely does this process give rise to dangerous elemental monsters. Elemental dragons are rarely seen and have the powers to match the gods of old.)"
               }
-            ]
+            ],
+            "id": "p-7b5f742ba7577356"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -301,7 +330,8 @@
                 "type": "text",
                 "text": "—The Dragon—"
               }
-            ]
+            ],
+            "id": "p-fc21adc405e94178"
           },
           {
             "type": "paragraph",
@@ -310,7 +340,8 @@
                 "type": "text",
                 "text": "An excerpt from \"An Investigation into the Cultural Customs of the Wind Kingdom,\" more commonly known as \"Records of Customs and Culture,\" by Jacob Musk."
               }
-            ]
+            ],
+            "id": "p-7af950962f1fc4e7"
           },
           {
             "type": "paragraph",
@@ -319,7 +350,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -328,7 +360,8 @@
                 "type": "text",
                 "text": "The \"Wolf\" of the Knight of Boreas, the \"Lion\" of the Lionfang Knight (or \"Dandelion Knight\"), the \"Falcon\" of the Knights of Favonius, and the \"Wind Dragon\" Dvalin have been long regarded as the Four Winds that watch over Mondstadt."
               }
-            ]
+            ],
+            "id": "p-a12ce0629d28a80a"
           },
           {
             "type": "paragraph",
@@ -337,7 +370,8 @@
                 "type": "text",
                 "text": "After the Lionfang Knight liberated Mondstadt, the Knights of Favonius was established, and the Knight of Boreas joined them."
               }
-            ]
+            ],
+            "id": "p-14b279d92e72714c"
           },
           {
             "type": "paragraph",
@@ -346,7 +380,8 @@
                 "type": "text",
                 "text": "The tradition of worshipping the Four Winds was gradually formed in Mondstadt. However, Dvalin, the ancient Wind Dragon, predated them all."
               }
-            ]
+            ],
+            "id": "p-3cb2fef064544a8f"
           },
           {
             "type": "paragraph",
@@ -355,7 +390,8 @@
                 "type": "text",
                 "text": "Approximately one hundred years ago, the land was in chaos. Darkness spread, contaminating everything it touched. Barbarians and foul creatures roamed the lands, forcing people to dwell within the city walls."
               }
-            ]
+            ],
+            "id": "p-b607ab31cc5c8207"
           },
           {
             "type": "paragraph",
@@ -364,7 +400,8 @@
                 "type": "text",
                 "text": "It was an especially difficult time for Mondstadt. The Lionfang Knight was without a suitable heir, and the Knights of Favonius had lost many of its brave men and women during the bitter wars. During the most difficult of times, Durin, the corrupted dragon of immeasurable power, began attacking Mondstadt."
               }
-            ]
+            ],
+            "id": "p-57d7f7afe266e618"
           },
           {
             "type": "paragraph",
@@ -373,7 +410,8 @@
                 "type": "text",
                 "text": "The prayers of Mondstadt's people awoke the Anemo Archon, and his will summoned forth the Wind Dragon Dvalin. As the last defender of Mondstadt, Dvalin battled Durin with all his might."
               }
-            ]
+            ],
+            "id": "p-47d75a9fcbd7fefb"
           },
           {
             "type": "paragraph",
@@ -382,7 +420,8 @@
                 "type": "text",
                 "text": "The result was clear — Durin's remains still lie atop the snowy peaks to the south of Mondstadt — but the story of how the battle ended was lost in time. It is said that Dvalin ripped out Durin's throat, and together they fell from the sky. Durin's body sunk into the snow while Dvalin was summoned by the Anemo Archon and fell into a slumber."
               }
-            ]
+            ],
+            "id": "p-49b779aaa67d2928"
           },
           {
             "type": "paragraph",
@@ -391,7 +430,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -400,7 +440,8 @@
                 "type": "text",
                 "text": "People used to believe that Dvalin would awaken whenever Mondstadt faces a new threat."
               }
-            ]
+            ],
+            "id": "p-30de37ff3108a8e1"
           },
           {
             "type": "paragraph",
@@ -409,7 +450,8 @@
                 "type": "text",
                 "text": "But in these times of peace, the belief of the Four Winds has gradually eroded and their temples lie all but completely deserted."
               }
-            ]
+            ],
+            "id": "p-ffffbd542796db3f"
           },
           {
             "type": "paragraph",
@@ -418,7 +460,8 @@
                 "type": "text",
                 "text": "(Citation of unknown origin: By the time the Knights finally discovered that the foreign monstrosity named Stormterror, with which they clashed countless times, was in fact Dvalin of the Four Winds, the enmity that had grown between them and driven them to conflict could not be undone. One can scarcely imagine the betrayal Dvalin must have felt when he awoke after a hundred years of slumber only to find that the people of Mondstadt, whom he had protected with his life, had forsaken him...)"
               }
-            ]
+            ],
+            "id": "p-c585a194558ab183"
           }
         ]
       }

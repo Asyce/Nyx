@@ -12,15 +12,19 @@ Use this as the first reference when Codex, Claude, or another coding agent work
 
 Read these before implementing review-driven work:
 
-00. `docs/ui-changes-plan-2026-07-09.md` — **CURRENT ACTIVE PLAN (FINAL).**
+000. `docs/characters-calendar-database-library-plan-2026-07-13.md` — **CURRENT ACTIVE PLAN (APPROVED FOR IMPLEMENTATION).**
+    Six corrective batches (`nyx-0032`…`nyx-0037`) in two safe lanes followed by a serial join, covering Characters/favourites,
+    custom Calendar birthdays and return routing, Database data correctness and UI,
+    and Library full-text search/selection/annotations. The user approved work in
+    the existing timeline-redesign branch on 2026-07-13; preserve its current edits.
+
+00. `docs/ui-changes-plan-2026-07-09.md` — **COMPLETED FOUNDATION (FINAL).**
     16 serial batches (workstreams A–P: materials layout, ZZZ icons, number
     inputs, splash-art defaults, beta inspector, database restructure +
     Monsters/Items, Wonderland, The Library, favourites/Characters tab,
     all-game character+weapon banner records, timeline, events pipeline, kit
-    profile stats, birthday calendar). Queued as `.agents/queue.json`
-    nyx-0016…nyx-0031: only nyx-0016 is `ready`; nyx-0017…0031 are `planned`.
-    Promote exactly one next batch after the previous batch is `done` with gate
-    evidence. Timeline data is Batch 13 (dedicated six-hour history workflow,
+    profile stats, birthday calendar). Batches `nyx-0016`…`nyx-0031` are complete.
+    Timeline data was Batch 13 (dedicated six-hour history workflow,
     region-specific times, published activity data); timeline UI is Batch 14
     (including verified automatic custom-timer v1→v2 migration). Reference mock:
     `docs/mockups/banner-timeline-v4.html`. No production deploys without an

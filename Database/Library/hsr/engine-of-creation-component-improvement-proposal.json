@@ -4,17 +4,19 @@
   "id": "engine-of-creation-component-improvement-proposal",
   "name": "Engine of Creation Component Improvement Proposal",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Engine_of_Creation_Component_Improvement_Proposal",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -79,7 +81,8 @@
                 "type": "text",
                 "text": "2. We estimate that more Geomarrow engines will need to be added in order to offset the extra weight caused by the protective cover."
               }
-            ]
+            ],
+            "id": "p-683821b46e8a6088"
           },
           {
             "type": "paragraph",
@@ -93,7 +96,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-04fbbd0e144b7163"
           },
           {
             "type": "paragraph",
@@ -123,7 +127,8 @@
                 "type": "text",
                 "text": "Reply: More gears look better."
               }
-            ]
+            ],
+            "id": "p-40a261f4dbe6abc6"
           },
           {
             "type": "paragraph",
@@ -139,7 +144,8 @@
                 "type": "text",
                 "text": "Reply: I don't think so."
               }
-            ]
+            ],
+            "id": "p-aa26deec24a04265"
           },
           {
             "type": "paragraph",
@@ -155,7 +161,8 @@
                 "type": "text",
                 "text": "Reply: We'll add that later."
               }
-            ]
+            ],
+            "id": "p-e216d57a1c33169a"
           },
           {
             "type": "paragraph",
@@ -178,7 +185,8 @@
                 "type": "text",
                 "text": "Suggestion (additional): No need for consideration, someone is taking over your project tomorrow. Go and familiarize yourself with mining machinery."
               }
-            ]
+            ],
+            "id": "p-86e0fafeeb45523c"
           }
         ]
       }

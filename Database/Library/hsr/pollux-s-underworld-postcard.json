@@ -4,10 +4,11 @@
   "id": "pollux-s-underworld-postcard",
   "name": "Pollux's Underworld Postcard",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Pollux%27s_Underworld_Postcard",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Dear they (Trailblazer),"
               }
-            ]
+            ],
+            "id": "p-ca7abc3aafeea8af"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "I... find myself unsure how to address you, given that we've never actually met in this recurrence."
               }
-            ]
+            ],
+            "id": "p-e2db002c4cf3874f"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "Miss Cyrene once joked that in this recurrence, you, (Trailblazer), owe me a hug. I found it quite embarrassing at first, but after descending into the nether realm and enduring the long passage of time, I've begun to envy the version of myself who will eventually meet you, and started hoping that silly little \"debt\" might actually get paid after all."
               }
-            ]
+            ],
+            "id": "p-91a82f0882eb85a6"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "Oh, forgive me for my sentimentality."
               }
-            ]
+            ],
+            "id": "p-4fc712eebcb37948"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "The nether realm is more beautiful than I imagined, yet also more desolate. I've reunited with my sister Polyxia here, alongside countless faces both known and unknown, like the hundreds of heroes lost during the first Flame-Chase, their minds fragmented yet their insignias still brilliantly shining. Or Lady Aglaea, who gifted me a nymph companion before silently fading into the flower fields..."
               }
-            ]
+            ],
+            "id": "p-a11c96b7a650486b"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "Not long after, Lady Tribbie depleted her divine power to create a passage between Styxia and the Vortex of Genesis, which Hysilens maintained with her power. Before departing, Tribbie entrusted me with guarding this passage. And over countless years, I witnessed from the nether realm as my companions perished one after another, some never even managing reaching here, such as... Mydei, who shattered his soul into five pieces, or Professor Anaxa, who transmuted himself into a Philosopher's Stone."
               }
-            ]
+            ],
+            "id": "p-9a0ab50be7d9f6ad"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "Finally, when not a single human being remained alive in Amphoreus, Hysilens had to concentrate all her divine power within Styxia's revelry to seal Lygus. Without the Ocean's power, the passage connecting Styxia to the Vortex of Genesis began disintegrating. And then, I made my final decision: to assume the form of Netherwing's corpse and command the waters of the River of Souls to preserve that passage."
               }
-            ]
+            ],
+            "id": "p-47a913094c812cc5"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "Before becoming Netherwing, I racked my mind thinking what I might leave for you. But I could hardly expect to receive anyone's embrace as Netherwing."
               }
-            ]
+            ],
+            "id": "p-f4aaf06c6d397ea6"
           },
           {
             "type": "paragraph",
@@ -91,7 +100,8 @@
                 "type": "text",
                 "text": "In a flash of recollection, I remembered Miss Cyrene once secretly told me that you had wished for me to send you a \"nether postcard\" from the underworld in the previous recurrence. So, while my body can still hold a pen, I've written this letter for you and instructed the flourishing Antila flowers to carry it from the nether realm, waiting for you to find it."
               }
-            ]
+            ],
+            "id": "p-2aac7791488c2c3f"
           },
           {
             "type": "paragraph",
@@ -100,7 +110,8 @@
                 "type": "text",
                 "text": "Someday, when you travel that passage to the Vortex of Genesis, perhaps you'll discover this \"nether postcard\" among the Antila flowers. Or perhaps by then I will have expended all my power and fallen into deep slumber, with all the Antila flowers long withered..."
               }
-            ]
+            ],
+            "id": "p-515881542f86fbb6"
           },
           {
             "type": "paragraph",
@@ -109,7 +120,8 @@
                 "type": "text",
                 "text": "But this is certainly not our last goodbye. Should you fulfill your destiny as the Deliverer, then in that bright new world, I promise I'll find the courage to ask you for..."
               }
-            ]
+            ],
+            "id": "p-3961a3da9d69be80"
           },
           {
             "type": "paragraph",
@@ -118,7 +130,8 @@
                 "type": "text",
                 "text": "...an embrace I've waited for millennia too long."
               }
-            ]
+            ],
+            "id": "p-c1e76c48a273827b"
           },
           {
             "type": "paragraph",
@@ -127,7 +140,8 @@
                 "type": "text",
                 "text": "Castorice"
               }
-            ]
+            ],
+            "id": "p-df1bd132ebc66564"
           }
         ]
       }

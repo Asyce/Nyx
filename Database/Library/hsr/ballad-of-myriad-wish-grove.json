@@ -4,10 +4,11 @@
   "id": "ballad-of-myriad-wish-grove",
   "name": "Ballad of Myriad Wish Grove",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Ballad_of_Myriad_Wish_Grove",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -286,7 +287,8 @@
                 "type": "text",
                 "text": "In the eternal Myriad Wish Grove."
               }
-            ]
+            ],
+            "id": "p-463568450796b1ca"
           }
         ]
       }

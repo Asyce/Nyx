@@ -4,17 +4,19 @@
   "id": "a-brief-history-of-the-pale-starborn",
   "name": "A Brief History of the Pale Starborn",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/A_Brief_History_of_the_Pale_Starborn",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -40,7 +42,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-aff06f4a67aa5db7"
           },
           {
             "type": "paragraph",
@@ -59,7 +62,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-2c93203860aa49bb"
           },
           {
             "type": "paragraph",
@@ -78,7 +82,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-e11cf4a8aaf18ecd"
           },
           {
             "type": "paragraph",
@@ -97,7 +102,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-5ffdf1fc77a6fba8"
           },
           {
             "type": "paragraph",
@@ -116,7 +122,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-03f54f5197205cf2"
           },
           {
             "type": "paragraph",
@@ -135,7 +142,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-b314fcede54693e8"
           },
           {
             "type": "paragraph",
@@ -154,7 +162,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fef715f70a147b45"
           },
           {
             "type": "paragraph",
@@ -173,7 +182,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-38d0cb1f100cb21a"
           },
           {
             "type": "paragraph",
@@ -213,7 +223,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-0d1bbd4a29bb64dd"
           },
           {
             "type": "paragraph",
@@ -232,7 +243,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fe4957bb8e566e3d"
           },
           {
             "type": "paragraph",
@@ -251,7 +263,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-b00582580a7f38d6"
           },
           {
             "type": "paragraph",
@@ -270,7 +283,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-cb69d42d783feda3"
           },
           {
             "type": "paragraph",
@@ -289,7 +303,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-d439f7787d0101c3"
           },
           {
             "type": "paragraph",
@@ -336,7 +351,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-55b8ab11ae241559"
           },
           {
             "type": "paragraph",
@@ -383,7 +399,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-419e7f86c3c51ed9"
           },
           {
             "type": "paragraph",
@@ -437,7 +454,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-13ec69aaadbae902"
           },
           {
             "type": "paragraph",
@@ -484,7 +502,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-9387d637a75ddc1b"
           },
           {
             "type": "paragraph",
@@ -524,7 +543,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-b23718e31156e476"
           },
           {
             "type": "paragraph",
@@ -543,7 +563,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-0cf58d5d772d4896"
           },
           {
             "type": "paragraph",
@@ -569,7 +590,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-f1b4efd5c781fc91"
           },
           {
             "type": "paragraph",
@@ -588,7 +610,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-06274ca758004c19"
           },
           {
             "type": "paragraph",
@@ -607,7 +630,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-b9541554bddc6b01"
           },
           {
             "type": "paragraph",
@@ -626,7 +650,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-a0291fb515533564"
           },
           {
             "type": "paragraph",
@@ -645,7 +670,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-b014270bc1621836"
           },
           {
             "type": "paragraph",
@@ -664,7 +690,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-431835054df60e20"
           },
           {
             "type": "paragraph",
@@ -680,7 +707,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-89726984c1dbd6af"
           }
         ]
       }

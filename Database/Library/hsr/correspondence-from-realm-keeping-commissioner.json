@@ -4,10 +4,11 @@
   "id": "correspondence-from-realm-keeping-commissioner",
   "name": "Correspondence From Realm-Keeping Commissioner",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Correspondence_From_Realm-Keeping_Commissioner",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Revered General,"
               }
-            ]
+            ],
+            "id": "p-973ff232d49a5765"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "I am filled with awe upon hearing of your courageous exploits, risking life and conquering the giant demonic enemy. You, general, are the unwavering pillar of Luofu and the backbone of the Alliance. Any misfortune that befalls you would have dire consequences. Therefore, I implore you to prioritize your well-being and seek solace for recuperation."
               }
-            ]
+            ],
+            "id": "p-c38cdcbc3b0f28ed"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "With the growth of the Ambrosial Arbor now halted, the Realm-Keeping Commission is committed to eradicating any remaining disturbances as per our duty. The recent calamity has affected various delves, including the Starskiff Haven, the Divination Commission, and the Artisanship Commission. Once we have thoroughly assessed the extent of the damage, we will collaborate with the Artisanship Commission to commence reconstruction work."
               }
-            ]
+            ],
+            "id": "p-e7514c977cfe0950"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "Madam Yukong, the Sky-Faring Helm Master, has diligently enforced blockades and inspected our airspace for hidden dangers in the aftermath of the calamity, and I need not elaborate on her splendid efforts here. However, it is disconcerting to note that Tingyun has been replaced by an imposter, leading to unsettling rumors within the Commission. Moreover, rumors about the growth of the Ambrosial Arbor are bound to spread beyond the confines of Xianzhou with departing merchants, and we can anticipate an influx of Elixir Seekers in the near future, perhaps reaching another historical height. How many of them would be covert agents serving the Plagues Author? And how many would be ignorant individuals consumed by their blind desire for immortality? Their insatiable demands will undoubtedly sow the seeds of hidden turmoil."
               }
-            ]
+            ],
+            "id": "p-8ac014b553cd0851"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "Master Diviner Fu Xuan of the Divination Commission has ventured to the frontline, leading troops to apprehend the Stellaron Hunters and accomplished great feats. However, it must be noted that Fu Xuan's temporary assumption of command over the Cloud Knights surpasses the bounds of propriety, as dictated by the regulations of the Six Charioteers. Once you, general, have regained your strength, I beseech you to resume your rightful position."
               }
-            ]
+            ],
+            "id": "p-bd28a1a61524aeca"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "During the Ambrosial Arbor Crisis, Lord Zhu Lun, the head of the Artisanship Commission, was absent on a visit to the Xianzhou Zhuming. Consequently, all matters pertaining to the Commission were overseen by the esteemed Master Artisan Gongshu. While he possesses great skill in craftsmanship, he lacks practicality and management acumen. Nonetheless, his unwavering dedication and courage in maintaining his post during the calamity are commendable."
               }
-            ]
+            ],
+            "id": "p-8d3adce65ef3d88b"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "The situation within the Alchemy Commission is exceedingly complex. Due to reasons known to all, the position of the commission's head has remained vacant for an extended period. Currently, Chief Alchemist Yuluo is serving as the acting head. However, perceptive as you are, I believe you have already foreseen that once the situation stabilizes, the Alliance will appoint a new head for the Luofu, inevitably stirring up another storm. If we can make preparations in advance, we will be better equipped to navigate the impending tempest."
               }
-            ]
+            ],
+            "id": "p-d2b3cfa8d47c8dac"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "Since the rebirth of the Arbor, the Alchemy Commission has lost the trust of the citizenry, with outworlders even developing a sarcastic proverb \"just like the Alchemy Commission\" to laugh at how Xianzhou has been blind to such treason. The Realm-Keeping Commission has issued numerous circulars emphasizing the expected conduct and hospitality of officials and ordinary members. At this critical moment, the Realm-Keeping Commission must focus on calming the situation and preventing any further escalation of tensions with visitors."
               }
-            ]
+            ],
+            "id": "p-bc86313193a7d81c"
           },
           {
             "type": "paragraph",
@@ -91,7 +100,8 @@
                 "type": "text",
                 "text": "Medicine is the cornerstone of people's livelihoods, and employing medical practices aligned with Reignbow's revelations to aid outworlders in overcoming their ailments is a crucial aspect of combating the Plagues Author. In my humble opinion, rebuilding trust in the Alchemy Commission among civilians must be our foremost priority. To this end, I shall actively seek assistance from all other commissions."
               }
-            ]
+            ],
+            "id": "p-bb94407db5503d12"
           },
           {
             "type": "paragraph",
@@ -100,7 +110,8 @@
                 "type": "text",
                 "text": "Please accept my apologies for any disturbance caused by my letter. I sincerely wish you a swift recovery, general."
               }
-            ]
+            ],
+            "id": "p-664c71528ede8c07"
           },
           {
             "type": "paragraph",
@@ -109,7 +120,8 @@
                 "type": "text",
                 "text": "Huifu, Realm-Keeping Commissioner"
               }
-            ]
+            ],
+            "id": "p-6f0ce083aecb0d21"
           }
         ]
       }

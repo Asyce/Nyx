@@ -4,10 +4,11 @@
   "id": "non-random-treasure-map",
   "name": "Non-Random Treasure Map",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Non-Random_Treasure_Map",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "DISCLAIMER: The information contained within this Treasure Map is crowdsourced, randomized, and updated intermittently by the Fools. It is provided for reference purposes only. We provide no warranty regarding the veracity of the content, the safety of the routes, or the continued availability of said treasure. Notwithstanding the foregoing — is a game not played for its own sake, a mere pastime regardless of the outcome, the very \"Elation\" we seek?"
               }
-            ]
+            ],
+            "id": "p-d7910cab4e9f650e"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-5103d3a1a5d97ffc"
           },
           {
             "type": "paragraph",
@@ -51,7 +55,8 @@
                 "type": "text",
                 "text": "As everyone knows, a certain phantom thief once stole two colors from the Viropa system, causing anyone who enters it to experience severe visual distortions. Even after this mysterious pathstrider was arrested (though since he later vanished without a trace from the IPC's prison, it's hard to say if they actually caught him), the stolen goods were never recovered."
               }
-            ]
+            ],
+            "id": "p-1616c1105173caf7"
           },
           {
             "type": "paragraph",
@@ -60,7 +65,8 @@
                 "type": "text",
                 "text": "Rumor has it, he didn't steal the colors but sealed them in glass vials and hid them somewhere in Viropa. If you're itching for a treasure hunt but don't want too much trouble, this route's your best bet."
               }
-            ]
+            ],
+            "id": "p-a608c3d67e90573f"
           },
           {
             "type": "paragraph",
@@ -69,7 +75,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -83,7 +90,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-55ee60a7827c188a"
           },
           {
             "type": "paragraph",
@@ -92,7 +100,8 @@
                 "type": "text",
                 "text": "The Masked Fool \"Enroute\" always shows up uninvited, appearing in the most chaotic and dangerous places. He's obsessed with experiencing brilliant and glorious stories, recording them with his paintbrush. Legend has it that Aha once lost a Ring of Misfortune to him in a wager. Whenever he wears it, a series of coincidences guides him straight to wherever misfortune lurks."
               }
-            ]
+            ],
+            "id": "p-31978496f178e0e2"
           },
           {
             "type": "paragraph",
@@ -101,7 +110,8 @@
                 "type": "text",
                 "text": "Rumor has it (seriously, why is everything a rumor? Are you Fools just sitting around twiddling your thumbs?) that before Enroute renounced his identity as a Masked Fool and left the tavern, he casually tossed this ring through one of the doors at the \"World's End.\" As for where that door actually leads? Well, that's entirely up to luck."
               }
-            ]
+            ],
+            "id": "p-502b3ef1f357d726"
           },
           {
             "type": "paragraph",
@@ -115,7 +125,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-7830b3655346fa28"
           },
           {
             "type": "paragraph",
@@ -124,7 +135,8 @@
                 "type": "text",
                 "text": "One of the oldest drink recipes at \"World's End.\" Upon consumption, the drinker and all matter within several thousand meters undergo some kind of malleable transformation, with the physical laws themselves shifting accordingly. This recipe was lost shortly after the Swarm Disaster, until Amber Era 2121, when Pablo discovered traces of the universe's art style having changed in an asteroid belt within the Sigma-II system."
               }
-            ]
+            ],
+            "id": "p-922e6967c028bffd"
           },
           {
             "type": "paragraph",
@@ -133,7 +145,8 @@
                 "type": "text",
                 "text": "Over the years, countless Fools have ventured here seeking adventure. Perhaps you'll be the one to restore the \"World's End\" to its former glory."
               }
-            ]
+            ],
+            "id": "p-cfc697eee8202a7c"
           },
           {
             "type": "paragraph",
@@ -142,7 +155,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-3"
           },
           {
             "type": "paragraph",
@@ -156,7 +170,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-336c204a4b7e095f"
           },
           {
             "type": "paragraph",
@@ -165,7 +180,8 @@
                 "type": "text",
                 "text": "Life on the sunless world of Norde has left its inhabitants entirely photophobic. According to a Masked Fool from those parts, the planet's everlasting night isn't the result of a mere eclipse or a choked atmosphere, but from something far more oppressive and warped. Word has it that an Aeon's shadow lurks beneath the surface, dragging the entire world down into the darkness of their Path."
               }
-            ]
+            ],
+            "id": "p-0fa0a5cee483c1f8"
           },
           {
             "type": "paragraph",
@@ -174,7 +190,8 @@
                 "type": "text",
                 "text": "Unreliable reports claim the mysterious force departed Norde several Amber Eras ago. However, the celestial body remains shrouded in darkness, suggesting these rumors may be unfounded. For the daring, the prize remains unclaimed. Caution is advised: Norde's indigenous population is notoriously savage and predatory. Ensure full combat readiness before attempting a landing."
               }
-            ]
+            ],
+            "id": "p-4f344fb83129583e"
           },
           {
             "type": "paragraph",
@@ -183,7 +200,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-4"
           }
         ]
       }

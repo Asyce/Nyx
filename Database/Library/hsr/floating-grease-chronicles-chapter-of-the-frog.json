@@ -4,10 +4,11 @@
   "id": "floating-grease-chronicles-chapter-of-the-frog",
   "name": "Floating Grease Chronicles: Chapter of the Frog",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Floating_Grease_Chronicles:_Chapter_of_the_Frog",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "i",
       "label": "I",
       "document": {
         "version": 1,
@@ -269,13 +270,15 @@
                 "type": "text",
                 "text": "even by their own kind."
               }
-            ]
+            ],
+            "id": "p-1f3ffdc9a724f28c"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "iii",
       "label": "III",
       "document": {
         "version": 1,
@@ -470,13 +473,15 @@
                 "type": "text",
                 "text": "Frogs do not perish in brine and burning sun"
               }
-            ]
+            ],
+            "id": "p-ac3d8336a2cf5b0f"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "vi",
       "label": "(VI)",
       "document": {
         "version": 1,
@@ -675,7 +680,8 @@
                 "type": "text",
                 "text": "Worshiping the most shameful deity."
               }
-            ]
+            ],
+            "id": "p-f4c6181f44665f48"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "divine-echo-worldbearing",
   "name": "Divine Echo: Worldbearing",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Divine_Echo:_Worldbearing",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -40,7 +41,8 @@
                 "type": "text",
                 "text": "And the beautiful dawn arrives."
               }
-            ]
+            ],
+            "id": "p-ed8475ad7699df6e"
           },
           {
             "type": "paragraph",
@@ -49,7 +51,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

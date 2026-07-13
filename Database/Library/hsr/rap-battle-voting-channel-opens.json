@@ -4,10 +4,11 @@
   "id": "rap-battle-voting-channel-opens",
   "name": "Rap Battle Voting Channel Opens",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Rap_Battle_Voting_Channel_Opens",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,11 +25,13 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-d906e781c9af8254"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -72,7 +75,8 @@
                 "type": "text",
                 "text": "Get on the stage and Dr. Dig might then give you a like"
               }
-            ]
+            ],
+            "id": "p-dc561339fd8abf10"
           },
           {
             "type": "paragraph",
@@ -116,11 +120,13 @@
                 "type": "text",
                 "text": "Don't be here wastin'n your precious vote of confidence"
               }
-            ]
+            ],
+            "id": "p-294ac109b9813402"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a-2"
           },
           {
             "type": "paragraph",
@@ -129,7 +135,8 @@
                 "type": "text",
                 "text": "Please consult Dr. Dig for details on how to join or vote in this season of the Rap Battles!"
               }
-            ]
+            ],
+            "id": "p-b418890946ed8619"
           }
         ]
       }

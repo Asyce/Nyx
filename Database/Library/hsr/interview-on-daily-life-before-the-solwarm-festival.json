@@ -4,10 +4,11 @@
   "id": "interview-on-daily-life-before-the-solwarm-festival",
   "name": "Interview on Daily Life Before the Solwarm Festival",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Interview_on_Daily_Life_Before_the_Solwarm_Festival",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -28,7 +29,8 @@
                 "type": "text",
                 "text": "Crystal Daily — Weekend Edition*"
               }
-            ]
+            ],
+            "id": "p-9984003b357d7215"
           },
           {
             "type": "paragraph",
@@ -37,7 +39,8 @@
                 "type": "text",
                 "text": "The upcoming Solwarm Festival has everyone busy with festival preparations. My dear Belobog friends, have you made your suncakes? The reporter visited an ordinary household in Belobog. They talked about what preparations they had done and what the Solwarm Festival meant to them."
               }
-            ]
+            ],
+            "id": "p-dbb0e312646041e7"
           },
           {
             "type": "paragraph",
@@ -46,7 +49,8 @@
                 "type": "text",
                 "text": "The interviewee this time are a young member of the Silvermane Guards and his family. The interview was scheduled for the morning before the Solwarm Festival. The husband was preparing to go out and purchase food for the Solwarm Festival, while the wife stayed home to watch the child."
               }
-            ]
+            ],
+            "id": "p-f387cff690df5bc9"
           },
           {
             "type": "paragraph",
@@ -62,7 +66,8 @@
                 "type": "text",
                 "text": "Hello, sorry to intrude. I'm Abel, the one who contacted you before."
               }
-            ]
+            ],
+            "id": "p-96aa64fc56c4339d"
           },
           {
             "type": "paragraph",
@@ -78,7 +83,8 @@
                 "type": "text",
                 "text": "Ah... no problem. It's my first interview so I'm a bit nervous."
               }
-            ]
+            ],
+            "id": "p-7dc165e3d2c5135e"
           },
           {
             "type": "paragraph",
@@ -94,7 +100,8 @@
                 "type": "text",
                 "text": "Can you please introduce yourselves?"
               }
-            ]
+            ],
+            "id": "p-43a9fd978c19f683"
           },
           {
             "type": "paragraph",
@@ -110,7 +117,8 @@
                 "type": "text",
                 "text": "I'm Ethan and I'm a soldier. This is my wife, Hannah, and our child, little Beck."
               }
-            ]
+            ],
+            "id": "p-031841923ab4eaa1"
           },
           {
             "type": "paragraph",
@@ -126,7 +134,8 @@
                 "type": "text",
                 "text": "Hello, I'm Hannah and I work at the library."
               }
-            ]
+            ],
+            "id": "p-aeb5f34ad1b6e51f"
           },
           {
             "type": "paragraph",
@@ -142,7 +151,8 @@
                 "type": "text",
                 "text": "... Boock."
               }
-            ]
+            ],
+            "id": "p-b7713d2e3dc61a74"
           },
           {
             "type": "paragraph",
@@ -158,7 +168,8 @@
                 "type": "text",
                 "text": "Beck is so cute. How old is he?"
               }
-            ]
+            ],
+            "id": "p-a62109202bc60cdc"
           },
           {
             "type": "paragraph",
@@ -174,7 +185,8 @@
                 "type": "text",
                 "text": "He just turned one."
               }
-            ]
+            ],
+            "id": "p-6d6e02158e000c7c"
           },
           {
             "type": "paragraph",
@@ -190,7 +202,8 @@
                 "type": "text",
                 "text": "Ge... Tad."
               }
-            ]
+            ],
+            "id": "p-f79b2bae206d12f2"
           },
           {
             "type": "paragraph",
@@ -206,7 +219,8 @@
                 "type": "text",
                 "text": "It seems like he's trying to say something. Are you going out for groceries? Why are you bringing so many things with you?"
               }
-            ]
+            ],
+            "id": "p-7da64b65386d9748"
           },
           {
             "type": "paragraph",
@@ -222,7 +236,8 @@
                 "type": "text",
                 "text": "Actually, I've asked for a leave of absence. My plan for today is to take some comfort foods to my good friends on the Frontline first, then head to the market."
               }
-            ]
+            ],
+            "id": "p-3747879896e0f5f2"
           },
           {
             "type": "paragraph",
@@ -238,7 +253,8 @@
                 "type": "text",
                 "text": "Ge Tad."
               }
-            ]
+            ],
+            "id": "p-eb728b5aaa5f41e0"
           },
           {
             "type": "paragraph",
@@ -254,7 +270,8 @@
                 "type": "text",
                 "text": "Shh..."
               }
-            ]
+            ],
+            "id": "p-d7f09048a77b88a3"
           },
           {
             "type": "paragraph",
@@ -270,7 +287,8 @@
                 "type": "text",
                 "text": "Your friends must be happy. By the way, is little Beck talking already?"
               }
-            ]
+            ],
+            "id": "p-feb100a411436ee3"
           },
           {
             "type": "paragraph",
@@ -286,7 +304,8 @@
                 "type": "text",
                 "text": "No no, he can only say a few simple words."
               }
-            ]
+            ],
+            "id": "p-8f18ac29e7feaca9"
           },
           {
             "type": "paragraph",
@@ -302,7 +321,8 @@
                 "type": "text",
                 "text": "Ge! Tad!"
               }
-            ]
+            ],
+            "id": "p-9e0e26b155c6bc3d"
           },
           {
             "type": "paragraph",
@@ -318,7 +338,8 @@
                 "type": "text",
                 "text": "Hahaha, that's still very impressive for his age. What's he trying to say...?"
               }
-            ]
+            ],
+            "id": "p-e500917fc2b7ac80"
           },
           {
             "type": "paragraph",
@@ -334,7 +355,8 @@
                 "type": "text",
                 "text": "Gepard the scoundrel."
               }
-            ]
+            ],
+            "id": "p-65647aa9ee6c78fd"
           },
           {
             "type": "paragraph",
@@ -350,7 +372,8 @@
                 "type": "text",
                 "text": "I... don't agree with him. I always respect the Captain."
               }
-            ]
+            ],
+            "id": "p-a8539093e9bd4ef5"
           },
           {
             "type": "paragraph",
@@ -366,7 +389,8 @@
                 "type": "text",
                 "text": "Well, I won't keep you. While you're out shopping, I'll interview your wife."
               }
-            ]
+            ],
+            "id": "p-509de82ef87c2502"
           },
           {
             "type": "paragraph",
@@ -382,7 +406,8 @@
                 "type": "text",
                 "text": "Wait... I'll go out later. Not sure what you will talk about during the interview."
               }
-            ]
+            ],
+            "id": "p-a059158caed6854f"
           },
           {
             "type": "paragraph",
@@ -391,7 +416,8 @@
                 "type": "text",
                 "text": "Ethan and Hannah have been married for more than two years. According to Solwarm Festival customs, the newlywed husband Ethan should bring ingredients and make suncakes with his mother-in-law. However, he has been on duty during the festival for two consecutive years due to the nature of his job. This year, Ethan can finally enjoy his Solwarm Festival holidays, which also gives him the opportunity to impress everyone with his cooking skills at his in-law's."
               }
-            ]
+            ],
+            "id": "p-c8fffb31c63934c7"
           },
           {
             "type": "paragraph",
@@ -407,7 +433,8 @@
                 "type": "text",
                 "text": "To be honest, I still don't know how to make it..."
               }
-            ]
+            ],
+            "id": "p-1fe97d3f35cfc830"
           },
           {
             "type": "paragraph",
@@ -423,7 +450,8 @@
                 "type": "text",
                 "text": "It's because you don't care. If the reporter didn't bring it up, you'd probably have forgotten it all. What would you have my mother eat?"
               }
-            ]
+            ],
+            "id": "p-03b174b92feae51f"
           },
           {
             "type": "paragraph",
@@ -439,7 +467,8 @@
                 "type": "text",
                 "text": "Ah... Eh..."
               }
-            ]
+            ],
+            "id": "p-7dced1a7327d564b"
           },
           {
             "type": "paragraph",
@@ -455,7 +484,8 @@
                 "type": "text",
                 "text": "Please stop fighting. Little Beck just fell asleep. I see... Ethan doesn't usually cook, right?"
               }
-            ]
+            ],
+            "id": "p-588590424de2a61c"
           },
           {
             "type": "paragraph",
@@ -471,7 +501,8 @@
                 "type": "text",
                 "text": "Yeah, my wife usually cooks, since my job..."
               }
-            ]
+            ],
+            "id": "p-c48b1dc6cffca6dc"
           },
           {
             "type": "paragraph",
@@ -487,7 +518,8 @@
                 "type": "text",
                 "text": "There you go again with your excuses. I'm busy with work too, but I make the time to cook. It all depends on whether you want to or not."
               }
-            ]
+            ],
+            "id": "p-8a05896f1ac8457f"
           },
           {
             "type": "paragraph",
@@ -503,7 +535,8 @@
                 "type": "text",
                 "text": "How about this? Why don't we learn how to make suncakes now?"
               }
-            ]
+            ],
+            "id": "p-2a7ee36cdebadbd2"
           },
           {
             "type": "paragraph",
@@ -512,7 +545,8 @@
                 "type": "text",
                 "text": "With an apron on and a kitchen knife in hand, Ethan looked every bit a pro despite it being his first time cooking. Even though it was his first time, Hannah, his wife, didn't seem too keen to help him in any way. She whispered to the reporter that she was going to use this opportunity to teach her husband a lesson."
               }
-            ]
+            ],
+            "id": "p-8a5215e45948f5f2"
           },
           {
             "type": "paragraph",
@@ -521,7 +555,8 @@
                 "type": "text",
                 "text": "So, Ethan looked up the recipe for suncakes and followed it step-by-step. Add sugar and salt to three eggs and beat quickly. Add in Moo-Moo Milk and flour and mix until thick. While mixing, Ethan also removed the lumps in the mixture, which is good for a beginner. He brushed the pan with a light layer of oil and then the egg mixture. And the suncakes are done!"
               }
-            ]
+            ],
+            "id": "p-26a40bd807d2e161"
           },
           {
             "type": "paragraph",
@@ -530,7 +565,8 @@
                 "type": "text",
                 "text": "In high spirits, Ethan also cooked the frost grained cod. The reporter was honored to be invited to lunch."
               }
-            ]
+            ],
+            "id": "p-3c149ab37e035d1e"
           },
           {
             "type": "paragraph",
@@ -546,7 +582,8 @@
                 "type": "text",
                 "text": "Even though it's your first time, it seems like you know what you were doing..."
               }
-            ]
+            ],
+            "id": "p-7b91db965d184473"
           },
           {
             "type": "paragraph",
@@ -562,7 +599,8 @@
                 "type": "text",
                 "text": "I'm still a little nervous."
               }
-            ]
+            ],
+            "id": "p-83acb8fef44d484c"
           },
           {
             "type": "paragraph",
@@ -578,7 +616,8 @@
                 "type": "text",
                 "text": "... Then let's dig in first."
               }
-            ]
+            ],
+            "id": "p-b788e93a4a156ebc"
           },
           {
             "type": "paragraph",
@@ -587,7 +626,8 @@
                 "type": "text",
                 "text": "The reporter had eaten a lot of suncakes over the years, but never had he eaten one so rich in flavor. It wasn't too salty or sweet, and it had the perfect texture. It's hard to imagine that Ethan made this on his first try. Add a touch of yogurt honey and Frostweave Salmon and the suncakes were ready to be sold in stores!"
               }
-            ]
+            ],
+            "id": "p-cdf50a650f8a2d63"
           },
           {
             "type": "paragraph",
@@ -596,7 +636,8 @@
                 "type": "text",
                 "text": "The interview was once put on hold as the reporter and Hannah helped Ethan in the kitchen, making almost 100 suncakes. It was already towards dusk before they realized it, and it wasn't until they heard little Beck's cries that the young couple came to realize their child hadn't eaten lunch."
               }
-            ]
+            ],
+            "id": "p-3d17733b205e5d71"
           },
           {
             "type": "paragraph",
@@ -605,7 +646,8 @@
                 "type": "text",
                 "text": "This is an unexpectedly warm incident in an interview with a family. Let's wish Ethan a great debut at his mother-in-law's."
               }
-            ]
+            ],
+            "id": "p-3a2fc4b57de840ee"
           },
           {
             "type": "paragraph",
@@ -614,7 +656,8 @@
                 "type": "text",
                 "text": "By the way, the suncakes were so delicious that the reporter took 50 suncakes to go."
               }
-            ]
+            ],
+            "id": "p-bb8f4a1537de3612"
           }
         ]
       }

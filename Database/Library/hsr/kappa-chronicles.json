@@ -4,10 +4,11 @@
   "id": "kappa-chronicles",
   "name": "Kappa Chronicles",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Kappa_Chronicles",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -31,7 +32,8 @@
                 "type": "text",
                 "text": "The body of a kappa consists of a torso, head, and limbs. Standing roughly the height of a human child, it sports a flat mouth like a beak and a hard shell like a turtle on its back. Its entire body is covered in fine scales that shimmer with an algae green hue under sunlight."
               }
-            ]
+            ],
+            "id": "p-f9bd905b430291a8"
           },
           {
             "type": "paragraph",
@@ -40,7 +42,8 @@
                 "type": "text",
                 "text": "A kappa has a shallow dish on its head that holds water. To maintain its vitality, it must keep this dish filled at all times. When the water in the dish is fresh and full, it is full of energy and its scales gleam. If the water runs dry or becomes murky, it grows exhausted and gradually loses its ability to move."
               }
-            ]
+            ],
+            "id": "p-5c75265d6da32a42"
           },
           {
             "type": "paragraph",
@@ -49,7 +52,8 @@
                 "type": "text",
                 "text": "Webbing between a kappa's fingers and toes lets it glide through water like the wind. On land, however, a kappa's short legs make it clumsy and slow, which means kappas are not built for long treks."
               }
-            ]
+            ],
+            "id": "p-9b3209daa0fd918c"
           },
           {
             "type": "paragraph",
@@ -70,7 +74,8 @@
                 "type": "text",
                 "text": "Kappas typically live in family units scattered throughout rivers and lakes. In resource rich areas near river estuaries and large lakes, larger kappa settlements with greater populations can form. Kappa shelters are constructed from pebbles and aquatic plants, usually built on slow moving riverbeds and in marshy lowlands thick with reeds."
               }
-            ]
+            ],
+            "id": "p-b6f8908cde090e45"
           },
           {
             "type": "paragraph",
@@ -79,7 +84,8 @@
                 "type": "text",
                 "text": "A healthy aquatic environment is essential for kappa survival. When water bodies suffer irreversible damage, kappas pack up their families and embark on a perilous migration, hoping to find a new clean water source to inhabit before they lose the ability to move."
               }
-            ]
+            ],
+            "id": "p-fb8620554b687c41"
           },
           {
             "type": "paragraph",
@@ -88,7 +94,8 @@
                 "type": "text",
                 "text": "When the Phantasmoon waxes full, kappas journey to the source of their waters, dancing around the moon's reflection in the water to celebrate and rejoice together. This ritual commemorates the \"Mother of Imagenesis\" who, under the moonlight, first drew the kappa of Ahatopia into being. From that moment, the entire kappa imagenae race was born."
               }
-            ]
+            ],
+            "id": "p-f26e93421f6f382b"
           },
           {
             "type": "paragraph",
@@ -109,7 +116,8 @@
                 "type": "text",
                 "text": "Kappas are renowned for their affinity with water. They are able to absorb impurities, toxins, and decaying matter from aquatic environments, thereby purifying the waters. Legend has it that this talent originated from the vision of the \"Mother of Imagenesis\": to make kappas the guardians of the waterways, using their own bodies as filters to sustain the ever-flowing clarity."
               }
-            ]
+            ],
+            "id": "p-78ce74bf41b36ad8"
           },
           {
             "type": "paragraph",
@@ -118,7 +126,8 @@
                 "type": "text",
                 "text": "When a kappa absorbs too much contamination, it falls into a weakened state similar to being \"clogged\" and must rest for an extended period to recover its health. As such, large kappa settlements carefully maintain a dedicated area of pristine water for individual healing purposes."
               }
-            ]
+            ],
+            "id": "p-bd717f601c62311f"
           },
           {
             "type": "paragraph",
@@ -127,7 +136,8 @@
                 "type": "text",
                 "text": "Kappas are excellent partners for humans in farming, irrigation, and environmental protection. They help irrigate and drain farmland, ensuring that water flows evenly across the fields to prevent waterlogging. At the same time, kappas are skilled at locating underwater leaks in dikes and dams, patching them up with stones to prevent potential flooding disasters."
               }
-            ]
+            ],
+            "id": "p-c3f015dd7017a16c"
           },
           {
             "type": "paragraph",
@@ -148,7 +158,8 @@
                 "type": "text",
                 "text": "Hello, unknown friend."
               }
-            ]
+            ],
+            "id": "p-68a5ef21c37cc2f9"
           },
           {
             "type": "paragraph",
@@ -157,7 +168,8 @@
                 "type": "text",
                 "text": "I have decided to pen these words as an epitaph for an ancient imagenae race, leaving a memorial for this race on the brink of fading away. I hope that future readers who come across this will gain a general understanding of what the kappas were like."
               }
-            ]
+            ],
+            "id": "p-741f625a02a8ada5"
           },
           {
             "type": "paragraph",
@@ -166,7 +178,8 @@
                 "type": "text",
                 "text": "But I beg you, do not imagenate kappas into existence once more. My people have long suffered alongside pollution and filth. Please, let us rest in peace within this canvas."
               }
-            ]
+            ],
+            "id": "p-d0474bd78db8d059"
           },
           {
             "type": "paragraph",
@@ -175,7 +188,8 @@
                 "type": "text",
                 "text": "Just remember that we once existed. That is enough."
               }
-            ]
+            ],
+            "id": "p-af6e39f666d1998f"
           },
           {
             "type": "paragraph",
@@ -197,7 +211,8 @@
                 "type": "text",
                 "text": "Sudscour"
               }
-            ]
+            ],
+            "id": "p-947c53bd6500db10"
           }
         ]
       }

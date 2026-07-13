@@ -4,10 +4,11 @@
   "id": "advocate-legal-and-reasonable-care-for-animals-strictly-prohibit-illegal-wildlife-trade-for-releases",
   "name": "Advocate legal and reasonable care for animals, strictly prohibit illegal wildlife trade for \"releases\"",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Advocate_legal_and_reasonable_care_for_animals,_strictly_prohibit_illegal_wildlife_trade_for_%22releases%22",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Dear Citizens,"
               }
-            ]
+            ],
+            "id": "p-60f1765ac0d6bc7b"
           },
           {
             "type": "paragraph",
@@ -41,7 +43,8 @@
                 "type": "text",
                 "text": ", tells of a sage imploring a hunter to release his quarry. Examples would be too numerous to list, all of which demonstrate the traditional virtue of the Xianzhou natives in caring for all living things."
               }
-            ]
+            ],
+            "id": "p-7ce475893826496a"
           },
           {
             "type": "paragraph",
@@ -50,7 +53,8 @@
                 "type": "text",
                 "text": "However, we must be careful with how we care for animals. The illegal release of animals back into their natural environs may seem like a meritorious deed, but it actually bears several serious consequences."
               }
-            ]
+            ],
+            "id": "p-8e96d7836a0e14ed"
           },
           {
             "type": "paragraph",
@@ -59,7 +63,8 @@
                 "type": "text",
                 "text": "In March last year, a criminal suspect Mr. Chai (461 years old) smuggled twenty Nosewalkers he'd purchased into the Ever-Hunt Plains with the intent of release into nature."
               }
-            ]
+            ],
+            "id": "p-cfc93bffcc983a39"
           },
           {
             "type": "paragraph",
@@ -68,7 +73,8 @@
                 "type": "text",
                 "text": "Nosewalkers, originated from the planet Hyai'i, have recently been introduced aboard the Xianzhou as a popular alien pet. But this seemingly cute, docile, and harmless pet actually has a dark side: Its size expands with that of its surrounding living space. When the Cloud Knights' hunting squad located the first of the nosewalkers, the largest had already grown to the size of two starskiffs."
               }
-            ]
+            ],
+            "id": "p-a1bacc491dc8e87f"
           },
           {
             "type": "paragraph",
@@ -77,7 +83,8 @@
                 "type": "text",
                 "text": "Based on data published by the Hyai'i Federal Bureau of Biology and Medicine, the largest nosewalker ever recorded is half the size of the Luofu. Can you imagine the devastating consequences were Mr. Chai to release one of these animals onto the Ever-Hunt Plains? Or stepping back a mile, even if the animal itself isn't harmful, is there any way we can be sure of any unforeseen genetic reactions? We cannot."
               }
-            ]
+            ],
+            "id": "p-d98ee0e907bd1459"
           },
           {
             "type": "paragraph",
@@ -86,7 +93,8 @@
                 "type": "text",
                 "text": "Upon arrest, Mr. Chai pled that he was acting in good faith. We believe that most of these animal releases are well-meaning, but it's precisely this kind of goodwill that could bring immeasurable losses to the Xianzhou."
               }
-            ]
+            ],
+            "id": "p-190272ff2d2cdfda"
           },
           {
             "type": "paragraph",
@@ -95,7 +103,8 @@
                 "type": "text",
                 "text": "There is also a rumor circulating around the city that only alien species released in Xianzhou are harmful, and the release of Xianzhou-native animals cannot cause any harm."
               }
-            ]
+            ],
+            "id": "p-3e8b29f8b360bd50"
           },
           {
             "type": "paragraph",
@@ -104,7 +113,8 @@
                 "type": "text",
                 "text": "This idea could not be further from the truth. In July, a criminal suspect Mr. Ling (242 years old) bought schools and schools of lightfish at the farmers' markets, and together with some other animal liberation activists released the fish without authority into the seas at Scalegorge Waterscape."
               }
-            ]
+            ],
+            "id": "p-c4d9ae52b1c916fd"
           },
           {
             "type": "paragraph",
@@ -113,7 +123,8 @@
                 "type": "text",
                 "text": "I trust that anyone with a hint of common sense can immediately realize how ignorant and cruel an act it is to release large volumes of carnivorous fish into the Scalegorge Waterscape waters. Therefore, despite the actions of Mr. Ling and his conspirators bearing out no serious repercussions, they must still be punished to the full extent of the law to serve as an example to others."
               }
-            ]
+            ],
+            "id": "p-bebbd76d393249f5"
           },
           {
             "type": "paragraph",
@@ -122,7 +133,8 @@
                 "type": "text",
                 "text": "The Realm-Keeping Commission reiterates to all citizens: Only professionals are qualified to release animals (officially termed \"reintroduction into the wild\"), and any private release of animals is illegal — possibly even criminal!"
               }
-            ]
+            ],
+            "id": "p-cf3eba66f0121bed"
           },
           {
             "type": "paragraph",
@@ -131,7 +143,8 @@
                 "type": "text",
                 "text": "We hope all citizens understand: Please care for animals rationally and scientifically, because ignorant kindness is often more dangerous than rational malice."
               }
-            ]
+            ],
+            "id": "p-b0cdd71309e4b1db"
           },
           {
             "type": "paragraph",
@@ -140,7 +153,8 @@
                 "type": "text",
                 "text": "Realm-Keeping Commission Publicity Department"
               }
-            ]
+            ],
+            "id": "p-e5c501d98e910dda"
           }
         ]
       }

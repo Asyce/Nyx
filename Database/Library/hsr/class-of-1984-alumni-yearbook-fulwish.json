@@ -4,10 +4,11 @@
   "id": "class-of-1984-alumni-yearbook-fulwish",
   "name": "Class of 1984 Alumni Yearbook: Fulwish",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Class_of_1984_Alumni_Yearbook:_Fulwish",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -59,7 +60,8 @@
                 "type": "text",
                 "text": "Post-Graduation Destination: Institute of Cognitive Science, Garden Star of Botanical Study"
               }
-            ]
+            ],
+            "id": "p-f5bac45027f6e80b"
           },
           {
             "type": "paragraph",
@@ -101,7 +103,8 @@
                 "type": "text",
                 "text": "Ideal Career: Teacher"
               }
-            ]
+            ],
+            "id": "p-c3991990ba0c1755"
           },
           {
             "type": "paragraph",
@@ -173,7 +176,8 @@
                 "type": "text",
                 "text": "— Sia"
               }
-            ]
+            ],
+            "id": "p-7a6342470e1ba984"
           },
           {
             "type": "paragraph",
@@ -221,7 +225,8 @@
                 "type": "text",
                 "text": "— Sara"
               }
-            ]
+            ],
+            "id": "p-95839323e7f31e34"
           },
           {
             "type": "paragraph",
@@ -281,7 +286,8 @@
                 "type": "text",
                 "text": "— Hermien"
               }
-            ]
+            ],
+            "id": "p-f728b4e8d9850c0e"
           },
           {
             "type": "paragraph",
@@ -302,7 +308,8 @@
                 "type": "text",
                 "text": "*Left blank*"
               }
-            ]
+            ],
+            "id": "p-25038efa41db1aed"
           }
         ]
       }

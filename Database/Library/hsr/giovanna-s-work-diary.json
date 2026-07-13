@@ -4,10 +4,11 @@
   "id": "giovanna-s-work-diary",
   "name": "Giovanna's Work Diary",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Giovanna%27s_Work_Diary",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-d38ec881be861899"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "Something strange happened today."
               }
-            ]
+            ],
+            "id": "p-d8fd679d7641749a"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "Early in the morning, an alarm came through about an abnormality in a dream device installed in one of the rooms. The hotel immediately sent people to investigate and, after no answer was gained for quite some time, security personnel opened the door — only to find the room empty, with just a wide-open dream device operating by itself."
               }
-            ]
+            ],
+            "id": "p-101d6a1ce3c7f5e0"
           },
           {
             "type": "paragraph",
@@ -51,7 +55,8 @@
                 "type": "text",
                 "text": "We then launched an emergency search throughout the hotel, even asking people to confirm the status of the missing guest in the Dreamscape. Fortunately, nothing was wrong with this guest inside the Dreamscape. So, at least for now, his body seems undamaged and his mind remains within Penacony. To protect the guest's mental well-being, we will not inform them for now. To address this, the hotel has dispatched a team to conduct close follow-up observations on the guest."
               }
-            ]
+            ],
+            "id": "p-4bb2c317e2670cd7"
           },
           {
             "type": "paragraph",
@@ -60,7 +65,8 @@
                 "type": "text",
                 "text": "We hope that his body can be found soon."
               }
-            ]
+            ],
+            "id": "p-0ead5f10a54b7dde"
           },
           {
             "type": "paragraph",
@@ -74,7 +80,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-da2cc90ace8799da"
           },
           {
             "type": "paragraph",
@@ -83,7 +90,8 @@
                 "type": "text",
                 "text": "There have been some... rumors around the hotel these days. I first caught wind in the tearoom: A maid said she could hear a rustling scratchy voice when passing by \"that room\" in the middle of the night — like a rat nibbling on wallpaper. But how could Penacony have rats?"
               }
-            ]
+            ],
+            "id": "p-d7d6c6bad41ddfe3"
           },
           {
             "type": "paragraph",
@@ -105,7 +113,8 @@
                 "type": "text",
                 "text": ". But after that, the sound still kept appearing. And it got louder... and louder."
               }
-            ]
+            ],
+            "id": "p-ef7e13b382b4bfba"
           },
           {
             "type": "paragraph",
@@ -119,7 +128,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-97bcec6d8f8afdb3"
           },
           {
             "type": "paragraph",
@@ -128,7 +138,8 @@
                 "type": "text",
                 "text": "Finally, I heard it myself — the sound they'd been talking about. The three hours I spent waiting outside that door wasn't in vain, after all. I slipped in before the sound disappeared. Everyone has been getting antsy recently because of that rumor about \"the guest who got eaten by the dream device and turned into a wandering specter.\" As the head nurse, it is my duty to clarify this ridiculous delusion."
               }
-            ]
+            ],
+            "id": "p-7142af50808f6a11"
           },
           {
             "type": "paragraph",
@@ -137,7 +148,8 @@
                 "type": "text",
                 "text": "It was a scratchy sound. It rustled like a rat nibbling at the wallpaper, or like an angry ghost struggling. I looked back to see the guest room door was still open. The sound came from behind the wardrobe over in the corner of the room, so I took a few steps over, and the sound got louder. I paused for a second, then I tried to call for him: \"Mr. Sealy?\" Then I heard a loud, rasping laugh. That sound... it was strange, more like an off-tune weak scream or a painful whimper instead of laughter. I felt my vision going dark and my body freezing. But the sound drifted off after a while, so I bravely took another few steps forward and called out again."
               }
-            ]
+            ],
+            "id": "p-4cd95db6937b29c3"
           },
           {
             "type": "paragraph",
@@ -146,7 +158,8 @@
                 "type": "text",
                 "text": "However, that sound suddenly stopped. At that time, my curiosity got the better of me and I leaned over the wardrobe to peer behind it into the gap between it and the wall — I saw a large pair of bloodshot eyes and a set of wriggling white teeth that was both terrifying and sinister. And then, I heard a weak, breathy roar saying:"
               }
-            ]
+            ],
+            "id": "p-5dedd703ce0d7820"
           },
           {
             "type": "paragraph",
@@ -155,7 +168,8 @@
                 "type": "text",
                 "text": "\"Sa—Save me!\""
               }
-            ]
+            ],
+            "id": "p-b615a1c2622d52d0"
           },
           {
             "type": "paragraph",
@@ -169,7 +183,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-e15da4228fc0447d"
           },
           {
             "type": "paragraph",
@@ -178,7 +193,8 @@
                 "type": "text",
                 "text": "This morning, the hotel issued a revised guest guideline and dreaming regulations. What happened to Mr. Sealy gave us all a wake-up call to recognize the flaws and oversights in our original workflow. For this purpose, we have made the following improvements:"
               }
-            ]
+            ],
+            "id": "p-378eb20bffa6aca0"
           },
           {
             "type": "paragraph",
@@ -187,7 +203,8 @@
                 "type": "text",
                 "text": "1. Guests with any history of sleepwalking will have additional limb support measures taken while entering the dream to prevent accidents from occurring during sleep."
               }
-            ]
+            ],
+            "id": "p-5a7693070f99b988"
           },
           {
             "type": "paragraph",
@@ -196,7 +213,8 @@
                 "type": "text",
                 "text": "2. The layout of hotel rooms has been optimized to prevent smaller guests (such as the Pepeshi) from getting stuck between any furniture again."
               }
-            ]
+            ],
+            "id": "p-b309cbec7bdc63c6"
           },
           {
             "type": "paragraph",
@@ -205,7 +223,8 @@
                 "type": "text",
                 "text": "As for poor Mr. Sealy, the mental trauma he suffered seems to exceed any weakness caused by dehydration and hunger. The hotel pledges to provide him with the best recuperating environment and the most meticulous care."
               }
-            ]
+            ],
+            "id": "p-8231c5033bc0ad40"
           },
           {
             "type": "paragraph",
@@ -214,7 +233,8 @@
                 "type": "text",
                 "text": "We sincerely hope he will make a speedy recovery."
               }
-            ]
+            ],
+            "id": "p-011c40a485bebc1f"
           }
         ]
       }

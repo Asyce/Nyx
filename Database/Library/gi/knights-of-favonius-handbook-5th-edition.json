@@ -4,10 +4,11 @@
   "id": "knights-of-favonius-handbook-5th-edition",
   "name": "Knights of Favonius Handbook - 5th Edition",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Knights_of_Favonius_Handbook_-_5th_Edition",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "This handbook is a guide on the core principles of the Knights of Favonius. Knights should carefully read the contents of this handbook and strictly hold themselves to the standards detailed within their life and work, serving the people of Mondstadt as a model Knight of Favonius."
               }
-            ]
+            ],
+            "id": "p-550c591af66830b0"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "As members of the Knights of Favonius, it is incumbent upon us to be the very embodiment of the three virtues of knighthood: modesty, honesty, and self-control. These are the three pillars of Mondstadt's freedom — remember, freedom cannot exist without the support of duty."
               }
-            ]
+            ],
+            "id": "p-f9384021787b27a4"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "The direct embodiment of these values comes, of course, in one's everyday speech and actions. Hence, this handbook outlines behavioral standards and language usage prescriptions that are intended to cover all potential scenarios that you may encounter in the course of duty."
               }
-            ]
+            ],
+            "id": "p-d8a2a4b52e0b7ffe"
           },
           {
             "type": "paragraph",
@@ -51,7 +55,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-383396bfbaa4f9bd"
           },
           {
             "type": "paragraph",
@@ -60,7 +65,8 @@
                 "type": "text",
                 "text": "A knight must exercise vigilance at all times and must never treat any potential threat to Mondstadt lightly. When it comes to your attention that a citizen of Mondstadt in need, you must come to their aid promptly and willingly, for it is the fundamental duty of the Knights of Favonius to be of service to the people of Mondstadt."
               }
-            ]
+            ],
+            "id": "p-92c56582ef3b5362"
           },
           {
             "type": "paragraph",
@@ -74,7 +80,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-c1d94b1da8ad3995"
           },
           {
             "type": "paragraph",
@@ -83,7 +90,8 @@
                 "type": "text",
                 "text": "When greeting a traveling merchant from a distant land, pay attention to express proper respect and courtesy. Do not exhibit suspicion or hostility towards them, no matter how suspicious they may seem."
               }
-            ]
+            ],
+            "id": "p-0b5af6d8b95550de"
           },
           {
             "type": "paragraph",
@@ -92,7 +100,8 @@
                 "type": "text",
                 "text": "Approved Language:"
               }
-            ]
+            ],
+            "id": "p-9d6eb5b10028b933"
           },
           {
             "type": "paragraph",
@@ -108,7 +117,8 @@
                 "type": "text",
                 "text": "* Select the appropriate term of address accordingly."
               }
-            ]
+            ],
+            "id": "p-4817931f66be2b17"
           },
           {
             "type": "paragraph",
@@ -117,7 +127,8 @@
                 "type": "text",
                 "text": "Prohibited Language:"
               }
-            ]
+            ],
+            "id": "p-b35a484ce83675aa"
           },
           {
             "type": "list",
@@ -129,7 +140,8 @@
                     "type": "text",
                     "text": "\"Hey, you! Stop right there! State your identity, you rascal(s)/hooligan(s)/ruffian(s)/outlander(s)/trespasser(s)!\""
                   }
-                ]
+                ],
+                "id": "li-440094924912eb96"
               },
               {
                 "children": [
@@ -137,7 +149,8 @@
                     "type": "text",
                     "text": "\"Welcome to the City of Wind and Song, otherworldly traveler(s)/vagrant animal(s)/burgeoning storm(s).\""
                   }
-                ]
+                ],
+                "id": "li-77ffeb87fb59bd14"
               }
             ]
           },
@@ -148,7 +161,8 @@
                 "type": "text",
                 "text": "Note: Refrain from using vulgar or coarse language. It is especially important never to address the guest using pejorative nomenclature, for this is certain to make them feel most unwelcome indeed."
               }
-            ]
+            ],
+            "id": "p-2fbbef565e2e9bb8"
           },
           {
             "type": "paragraph",
@@ -162,7 +176,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-363c9cf35b0c64e5"
           },
           {
             "type": "paragraph",
@@ -171,7 +186,8 @@
                 "type": "text",
                 "text": "Never meet members of the public with an attitude of nonchalance or apathy. A responsible knight must always be ready to offer up both sword and sweat for the people's sake. Accordingly, during periods of rest, recreation, or relative inactivity, you must maintain a knightly disposition and be ready to fully re-engage in work matters at a moment's notice."
               }
-            ]
+            ],
+            "id": "p-2d0774de9b59123e"
           },
           {
             "type": "paragraph",
@@ -180,7 +196,8 @@
                 "type": "text",
                 "text": "Approved Language:"
               }
-            ]
+            ],
+            "id": "p-9d6eb5b10028b933-2"
           },
           {
             "type": "list",
@@ -192,7 +209,8 @@
                     "type": "text",
                     "text": "(Musing to oneself while on a break) \"I shall check for any previously undiscovered safety issues in Mondstadt — for I, as a knight, have a duty to safeguard Mondstadt at all times.\""
                   }
-                ]
+                ],
+                "id": "li-689adeb7c2828e83"
               },
               {
                 "children": [
@@ -200,7 +218,8 @@
                     "type": "text",
                     "text": "(Conversing with city folk at the tavern) \"As a knight, I am expected to gain an understanding of people's day-to-day needs and concerns, this knowledge is also indispensable to me in the performance of my duties.\""
                   }
-                ]
+                ],
+                "id": "li-c1a738620876d0e8"
               }
             ]
           },
@@ -211,7 +230,8 @@
                 "type": "text",
                 "text": "Note: Even when there is no work to be done whatsoever, it is not permissible to take a gratuitous amount of down time at your own discretion."
               }
-            ]
+            ],
+            "id": "p-328c3ce439feecfa"
           },
           {
             "type": "paragraph",
@@ -220,7 +240,8 @@
                 "type": "text",
                 "text": "Prohibited Language:"
               }
-            ]
+            ],
+            "id": "p-b35a484ce83675aa-2"
           },
           {
             "type": "list",
@@ -232,7 +253,8 @@
                     "type": "text",
                     "text": "(On active guard duty) \"Imagine having a lifetime's supply of cider...\""
                   }
-                ]
+                ],
+                "id": "li-dd9e77232e3e5eff"
               },
               {
                 "children": [
@@ -240,7 +262,8 @@
                     "type": "text",
                     "text": "(While taking a break) \"Noeeeelle... Have you got a minute...\""
                   }
-                ]
+                ],
+                "id": "li-ff15cb90c14facc8"
               }
             ]
           },
@@ -251,7 +274,8 @@
                 "type": "text",
                 "text": "Note: The Acting Grand Master has instructed Noelle to immediately report any work-shy knights who attempt to delegate their existing duties to her. It should go without saying that this behavior is entirely unacceptable. Penalties for violations will take the form of reduced vacation allowance and/or salary deductions. The next time that you consider shirking your duties, you are strongly advised to consider whether the consequences are worth it."
               }
-            ]
+            ],
+            "id": "p-f892ac5b319db5be"
           },
           {
             "type": "paragraph",
@@ -265,7 +289,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-42d9dcab0be6d961"
           },
           {
             "type": "paragraph",
@@ -274,7 +299,8 @@
                 "type": "text",
                 "text": "While the Knights of Favonius respect the important place of wine in Mondstadt's cultural heritage, it is nevertheless expected that knights will exercise due self-control with regard to their alcohol intake. It is not permitted to be drunk while on duty, and it is strictly forbidden to encourage or facilitate the consumption of alcohol by minors."
               }
-            ]
+            ],
+            "id": "p-93da402e33c666a8"
           },
           {
             "type": "paragraph",
@@ -283,7 +309,8 @@
                 "type": "text",
                 "text": "Note: Knights of Favonius who are not of legal drinking age are forbidden from consuming alcohol. Accordingly, minors must always be accompanied by an adult coworker when entering taverns and other premises where alcohol is served."
               }
-            ]
+            ],
+            "id": "p-0d9f6ee232cc7a69"
           },
           {
             "type": "paragraph",
@@ -297,7 +324,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-85e37d0ee3606b5a"
           },
           {
             "type": "paragraph",
@@ -306,7 +334,8 @@
                 "type": "text",
                 "text": "Owing to a recent increase in Fatui activity in the city, knights are reminded that it is forbidden to disclose details of any matters concerning Knights of Favonius operations and strategic deployment to any persons from outside the organization while not on active duty."
               }
-            ]
+            ],
+            "id": "p-a95ba8d2267b4fab"
           },
           {
             "type": "paragraph",
@@ -320,7 +349,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-1f1dfd92ec12891f"
           },
           {
             "type": "paragraph",
@@ -329,7 +359,8 @@
                 "type": "text",
                 "text": "In the event of a major Mondstadt-wide emergency, Knights of Favonius are expected to lead by example and act to safeguard human lives and property. In times of crisis, when people come to you with questions, it is important to answer them clearly and calmly, and to remind them to prioritize their personal safety at all times."
               }
-            ]
+            ],
+            "id": "p-e250f60d85da8aec"
           },
           {
             "type": "paragraph",
@@ -338,7 +369,8 @@
                 "type": "text",
                 "text": "Approved Language:"
               }
-            ]
+            ],
+            "id": "p-9d6eb5b10028b933-3"
           },
           {
             "type": "paragraph",
@@ -347,7 +379,8 @@
                 "type": "text",
                 "text": "* Only applicable during the Grand Master's absence."
               }
-            ]
+            ],
+            "id": "p-9844729090e1e94c"
           },
           {
             "type": "list",
@@ -359,7 +392,8 @@
                     "type": "text",
                     "text": "\"Please, do not worry. The Knights of Favonius will do their utmost to protect Mondstadt!\""
                   }
-                ]
+                ],
+                "id": "li-b0d5e06d92a68016"
               },
               {
                 "children": [
@@ -367,7 +401,8 @@
                     "type": "text",
                     "text": "\"When danger is imminent, please do not panic. Cover your head with both hands, and crouch down to protect your vital parts. Then, follow the instructions given to you by the Knights of Favonius crew, who will lead you to safety in a swift and orderly fashion.\""
                   }
-                ]
+                ],
+                "id": "li-27b2e6d3d9a1e70e"
               },
               {
                 "children": [
@@ -375,7 +410,8 @@
                     "type": "text",
                     "text": "(New) \"Please rest assured that even though Grand Master Varka is not currently in Mondstadt, the Knights of Favonius are quite well equipped to deal with this crisis in a swift and elegant manner.\"*"
                   }
-                ]
+                ],
+                "id": "li-506f533c84274928"
               }
             ]
           },
@@ -386,7 +422,8 @@
                 "type": "text",
                 "text": "Prohibited Language:"
               }
-            ]
+            ],
+            "id": "p-b35a484ce83675aa-3"
           },
           {
             "type": "list",
@@ -398,7 +435,8 @@
                     "type": "text",
                     "text": "\"Uh-oh, we've never had to deal with a situation like this before...\""
                   }
-                ]
+                ],
+                "id": "li-a5e7f9c7a2cffd88"
               },
               {
                 "children": [
@@ -406,7 +444,8 @@
                     "type": "text",
                     "text": "\"Even the knights are powerless in the face of a crisis of this magnitude...\""
                   }
-                ]
+                ],
+                "id": "li-afb59f9f064840a4"
               }
             ]
           },
@@ -417,7 +456,8 @@
                 "type": "text",
                 "text": "Note: Even in extreme cases where the crisis is indeed of a kind that has not been seen before, it is imperative that you do not appear overwhelmed in front of members of the public, and that you do not do or say anything to call into question the capabilities of the Knights of Favonius."
               }
-            ]
+            ],
+            "id": "p-f0eb107c23877352"
           },
           {
             "type": "paragraph",
@@ -431,7 +471,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-833c8c06d7b74139"
           },
           {
             "type": "paragraph",
@@ -440,7 +481,8 @@
                 "type": "text",
                 "text": "When greeting travelers from afar, please act hospitably by informing them of the locations of essential businesses and services, recommending popular tourist destinations, and giving any further assistance that they may request or require."
               }
-            ]
+            ],
+            "id": "p-2e603ebc22b49141"
           },
           {
             "type": "paragraph",
@@ -449,7 +491,8 @@
                 "type": "text",
                 "text": "Approved Language:"
               }
-            ]
+            ],
+            "id": "p-9d6eb5b10028b933-4"
           },
           {
             "type": "list",
@@ -461,7 +504,8 @@
                     "type": "text",
                     "text": "\"If it's your first time here, I recommend visiting Mondstadt's Cathedral.\""
                   }
-                ]
+                ],
+                "id": "li-db03c66a261e7e80"
               },
               {
                 "children": [
@@ -469,7 +513,8 @@
                     "type": "text",
                     "text": "\"If you're tired, go have some of Mondstadt's famous wine at a tavern called 'Angel's Share.'\""
                   }
-                ]
+                ],
+                "id": "li-d7f7c081526f651a"
               }
             ]
           },
@@ -485,7 +530,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-e4509625e47396c4"
           },
           {
             "type": "paragraph",
@@ -494,7 +540,8 @@
                 "type": "text",
                 "text": "Remember to espouse the virtues of modesty and honesty also in your interactions with coworkers and companions. That is to say, be self-effacing in conversation with comrades, and be open and truthful with them. Nurturing and maintaining a sense of camaraderie and solidarity between all our knights is our first line of defense against the enemy."
               }
-            ]
+            ],
+            "id": "p-7d687e3081dfeb56"
           },
           {
             "type": "paragraph",
@@ -503,7 +550,8 @@
                 "type": "text",
                 "text": "Approved Language:"
               }
-            ]
+            ],
+            "id": "p-9d6eb5b10028b933-5"
           },
           {
             "type": "paragraph",
@@ -512,7 +560,8 @@
                 "type": "text",
                 "text": "\"That was wonderful! I've never had a battle experience like that before!\""
               }
-            ]
+            ],
+            "id": "p-d8973841099ef23a"
           },
           {
             "type": "paragraph",
@@ -521,7 +570,8 @@
                 "type": "text",
                 "text": "Note: Avoid exaggerating your speech to the point where you become overbearing. Your words and tone should simply express a sufficient degree of respect and cordiality towards your fellow knights."
               }
-            ]
+            ],
+            "id": "p-2e1520feaacc660f"
           },
           {
             "type": "paragraph",
@@ -535,7 +585,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-fa8bef15ff83697e"
           },
           {
             "type": "paragraph",
@@ -544,7 +595,8 @@
                 "type": "text",
                 "text": "As guardians of Mondstadt serving as the shield of the Anemo Archon, the Knights of Favonius must set an example for others to follow. Under no circumstances should any knight ever violate the rules and regulations of Mondstadt. If any knight is found to have damaged public property* (or the private property of a citizen of Mondstadt) while not on duty, following a damage assessment, an amount equivalent to the damages caused shall be deducted from the salary and/or bonus of the knight in question. Knights who are minors at the time of the violation, and who therefore do not receive a formal salary, will be penalized with solitary confinement in lieu of a fine, with the period of incarceration to be determined based on the severity of the violation."
               }
-            ]
+            ],
+            "id": "p-c520255f793ae15f"
           },
           {
             "type": "paragraph",
@@ -553,7 +605,8 @@
                 "type": "text",
                 "text": "*The fish and other aquatic life found in Mondstadt's lakes and rivers are classed as public property, and as such must not be destroyed under any circumstances!"
               }
-            ]
+            ],
+            "id": "p-7d9360efd4279656"
           },
           {
             "type": "paragraph",
@@ -567,7 +620,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-e457832c22813f1b"
           },
           {
             "type": "paragraph",
@@ -576,7 +630,8 @@
                 "type": "text",
                 "text": "Knights of Favonius should always remain vigilant and exercise due caution when dealing with strangers. Even when dealing with non-hostiles, a knight should clarify to the stranger their rights and responsibilities as an outsider, explaining the rules and customs of Mondstadt in a firm but fair manner."
               }
-            ]
+            ],
+            "id": "p-3c16558d5fb6d7c9"
           },
           {
             "type": "paragraph",
@@ -585,7 +640,8 @@
                 "type": "text",
                 "text": "(Amendment 1) Extra scrutiny is required when dealing with visiting diplomats from other nations whose activity gives cause for concern."
               }
-            ]
+            ],
+            "id": "p-7f34be8d2cf5aea6"
           },
           {
             "type": "paragraph",
@@ -599,7 +655,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-d4f24f0e4f4e8b15"
           },
           {
             "type": "paragraph",
@@ -608,7 +665,8 @@
                 "type": "text",
                 "text": "In the interests of preventing incidents involving wind glider users, Knights of Favonius should also pay close attention to aerial activity in the region. Knights are required to perform spot-checks on users of wind gliders and ensure that the details therein are current and valid. Should you observe any illegal aerial activity with the city, you should shout to the offender at the top of your voice, imploring them to cease gliding immediately. Should they persist, you should take such further action as is necessary to deescalate the situation."
               }
-            ]
+            ],
+            "id": "p-448d498b5c761479"
           },
           {
             "type": "paragraph",
@@ -617,7 +675,8 @@
                 "type": "text",
                 "text": "Note: Even if the airborne offender is an off-duty member of the Knights of Favonius, this is no cause for leniency. You have full authority to revoke the offending party's gliding license should you deem this to be appropriate course of action."
               }
-            ]
+            ],
+            "id": "p-f92819bdb2541680"
           },
           {
             "type": "paragraph",
@@ -631,7 +690,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-aa27a687567edaed"
           },
           {
             "type": "paragraph",
@@ -640,7 +700,8 @@
                 "type": "text",
                 "text": "1. Knightly virtues"
               }
-            ]
+            ],
+            "id": "p-7c3961dfbe0797e9"
           },
           {
             "type": "paragraph",
@@ -649,7 +710,8 @@
                 "type": "text",
                 "text": "Refers to the three core virtues of modesty, honesty, and self-control espoused by the Knights of Favonius. The three are mutually reinforcing and treated as a collective. Knights must conduct themselves in accordance with these virtues at all times."
               }
-            ]
+            ],
+            "id": "p-70f5d042454f7de1"
           },
           {
             "type": "paragraph",
@@ -658,7 +720,8 @@
                 "type": "text",
                 "text": "2. Terms of address"
               }
-            ]
+            ],
+            "id": "p-3ffd8dd6ae6337cb"
           },
           {
             "type": "paragraph",
@@ -667,7 +730,8 @@
                 "type": "text",
                 "text": "Refers to the various honorifics used to address members of the public, including visitors to Mondstadt. As public servants to the free people of Mondstadt and hosts to others from beyond our borders, we are expected to use the appropriate terms of address in all encounters as an act of courtesy. An education in etiquette is mandatory for all serving knights."
               }
-            ]
+            ],
+            "id": "p-33e13cfde776538b"
           },
           {
             "type": "paragraph",
@@ -676,7 +740,8 @@
                 "type": "text",
                 "text": "3. Duty"
               }
-            ]
+            ],
+            "id": "p-4cd7e427ee45ff2b"
           },
           {
             "type": "paragraph",
@@ -685,7 +750,8 @@
                 "type": "text",
                 "text": "Refers to our responsibilities to serve the people of Mondstadt and protect the freedom of Mondstadt. Officially appointed Knights of Favonius should refrain from talking flippantly or irreverently about their responsibilities or their honor as a knight in their day-to-day lives, so as to preserve the dignity of our organization's reputation."
               }
-            ]
+            ],
+            "id": "p-7c82d63702f62cbc"
           },
           {
             "type": "paragraph",
@@ -694,7 +760,8 @@
                 "type": "text",
                 "text": "4. The Anemo Archon (New)"
               }
-            ]
+            ],
+            "id": "p-c33f06e03427e193"
           },
           {
             "type": "paragraph",
@@ -703,7 +770,8 @@
                 "type": "text",
                 "text": "The Anemo Archon Barbatos is the God of Wind and Song, the granter and guardian of Mondstadt's freedom, and the one in whom the people of this land place their faith. As an organization, the Knights of Favonius heeds the will of the Anemo Archon. This means that we must be prepared to go to war in the event that Mondstadt's freedom comes under threat."
               }
-            ]
+            ],
+            "id": "p-4bab316aa6132393"
           },
           {
             "type": "paragraph",
@@ -712,7 +780,8 @@
                 "type": "text",
                 "text": "Note: Need to add additional material on this term. Several members of the Knights of Favonius and even the Church seem not to have any belief in the Anemo Archon at all."
               }
-            ]
+            ],
+            "id": "p-e33f7a5dec899e1d"
           },
           {
             "type": "paragraph",
@@ -721,7 +790,8 @@
                 "type": "text",
                 "text": "5. The Fatui"
               }
-            ]
+            ],
+            "id": "p-2de5745bf0d1d1fb"
           },
           {
             "type": "paragraph",
@@ -730,7 +800,8 @@
                 "type": "text",
                 "text": "Diplomats and other agents of Snezhnaya stationed here in Mondstadt. They are afforded diplomatic immunity within our borders. Their activities are shrouded in mystery and deceit, and their intentions are obscure."
               }
-            ]
+            ],
+            "id": "p-d6338f61ee9066e1"
           },
           {
             "type": "paragraph",
@@ -739,7 +810,8 @@
                 "type": "text",
                 "text": "Warning: Always be wary around members of the Fatui. If you observe any suspicious activity, report it to headquarters immediately while taking care to prioritize your personal safety."
               }
-            ]
+            ],
+            "id": "p-65a79bb2e9b71a0b"
           },
           {
             "type": "paragraph",
@@ -748,7 +820,8 @@
                 "type": "text",
                 "text": "6. The Abyss Order"
               }
-            ]
+            ],
+            "id": "p-8e393879e73a52c7"
           },
           {
             "type": "paragraph",
@@ -757,7 +830,8 @@
                 "type": "text",
                 "text": "An ancient, mysterious group of enemies from the abyss. No one knows how they came to be or what they seek. Occasionally, they can be spotted causing trouble near Mondstadt."
               }
-            ]
+            ],
+            "id": "p-2d1498d3cda1cc1f"
           },
           {
             "type": "paragraph",
@@ -766,7 +840,8 @@
                 "type": "text",
                 "text": "Warning: Members of the Abyss Order are highly dangerous enemies. If you encounter one, exercise extreme caution and report its location and activity to headquarters as soon as possible."
               }
-            ]
+            ],
+            "id": "p-0020cf84dc3338b5"
           },
           {
             "type": "paragraph",
@@ -775,7 +850,8 @@
                 "type": "text",
                 "text": "7. Stormterror's Lair (New)"
               }
-            ]
+            ],
+            "id": "p-b97432811f205ca3"
           },
           {
             "type": "paragraph",
@@ -784,7 +860,8 @@
                 "type": "text",
                 "text": "Refers to the ruins that lie to the northwest of Mondstadt. Legend holds that this area was once a city where a tyrant ruled from his tower. It has since been occupied by Dvalin, who shelters himself there. For this reason, these ruins have now been named \"Stormterror's Lair.\""
               }
-            ]
+            ],
+            "id": "p-da31281dfa296e2c"
           }
         ]
       }

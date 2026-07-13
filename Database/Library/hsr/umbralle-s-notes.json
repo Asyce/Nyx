@@ -4,10 +4,11 @@
   "id": "umbralle-s-notes",
   "name": "Umbralle's Notes",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Umbralle%27s_Notes",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-76b9953da9a2cea1"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "...The cause of this withering phenomenon remains unclear. The previous hypothesis of \"poor management\" has been ruled out. There is no doubt that the tree is still being well cared for. We may need to make some bolder conjectures."
               }
-            ]
+            ],
+            "id": "p-0cb6254cee6f5823"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "The generation of imagenae that surged in numbers during the \"Imagenae Wave\" has now generally reached the age where their Wishpower declines. Will the spike in demand for Fording overwhelm the Myriad Wish Grove? It is unlikely, as Fording itself provides a degree of sustenance to the tree."
               }
-            ]
+            ],
+            "id": "p-02031750366a2988"
           },
           {
             "type": "paragraph",
@@ -51,7 +55,8 @@
                 "type": "text",
                 "text": "The security office received a report of someone spotting an imagenae stealing leaves from the Myriad Wish Grove. However, this is likely unrelated to the withering phenomenon. For one, the vast majority of guests at Inkford Hermitage have no such need. Furthermore, attempting to supplement Wishpower in this manner often causes an imagenae to go mad on the spot. It is difficult to imagine this as a widespread behavior that would interfere with the health of the tree."
               }
-            ]
+            ],
+            "id": "p-1c29fb74be2888c5"
           },
           {
             "type": "paragraph",
@@ -60,7 +65,8 @@
                 "type": "text",
                 "text": "Occasionally, human travelers visit to hold barbecue gatherings beneath the tree. Such activities are long established and should have no connection to the withering phenomenon."
               }
-            ]
+            ],
+            "id": "p-0edba320b8b55c6f"
           },
           {
             "type": "paragraph",
@@ -69,7 +75,8 @@
                 "type": "text",
                 "text": "It's not like the tree was planted in an unlucky spot and the consequences are finally manifesting after thousands of years... Ugh, what am I even thinking? That's impossible."
               }
-            ]
+            ],
+            "id": "p-b6404397e769a13f"
           },
           {
             "type": "paragraph",
@@ -78,7 +85,8 @@
                 "type": "text",
                 "text": "So, what other reasons could there be? With all other possibilities ruled out, what remains is that the marginal additional sustenance the Myriad Wish Grove draws from Fording is insufficient for its needs. Another point, the volume of Fording in recent history far exceeds that of the past. A single conclusion remains: An unprecedented, unknown factor is draining power from the Myriad Wish Grove to a degree that cannot be offset by the recent surge in Fording."
               }
-            ]
+            ],
+            "id": "p-7bbf8a9dc9dd9e91"
           },
           {
             "type": "paragraph",
@@ -87,7 +95,8 @@
                 "type": "text",
                 "text": "Could it be connected to the \"skeletal remains\" resulting from the formation of this planet?"
               }
-            ]
+            ],
+            "id": "p-04c4e39ea73f3d11"
           }
         ]
       }

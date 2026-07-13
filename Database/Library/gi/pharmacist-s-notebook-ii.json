@@ -4,10 +4,11 @@
   "id": "pharmacist-s-notebook-ii",
   "name": "Pharmacist's Notebook (II)",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Pharmacist%27s_Notebook_(II)",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -89,7 +90,8 @@
                 "type": "text",
                 "text": "...But I can't go to find him right now. It is not the right time yet..."
               }
-            ]
+            ],
+            "id": "p-1752bd2e766ec4b1"
           }
         ]
       }

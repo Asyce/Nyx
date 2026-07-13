@@ -4,10 +4,11 @@
   "id": "feedback-form-for-the-space-station-staff-cafeteria",
   "name": "Feedback Form for the Space Station Staff Cafeteria",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Feedback_Form_for_the_Space_Station_Staff_Cafeteria",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Herta Space Station Staff Cafeteria Feedback Form"
               }
-            ]
+            ],
+            "id": "p-bf68812497ab0405"
           },
           {
             "type": "paragraph",
@@ -38,7 +40,8 @@
                 "type": "text",
                 "text": "Answer: Next week, we will be serving them in the following flavors: tomato, courgette, grapefruit, etc. Side note, due to the stock issues on the supplier's end, we will be providing the Cosmic Fried Rice at an irregular interval on a first come, first served basis."
               }
-            ]
+            ],
+            "id": "p-064d2e42e9b5bbde"
           },
           {
             "type": "paragraph",
@@ -57,7 +60,8 @@
                 "type": "text",
                 "text": "Answer: According to collected data, only you have displayed symptoms of this nature. You are welcome to come and try again, we will make sure to keep some samples for investigation."
               }
-            ]
+            ],
+            "id": "p-28ea70aa13f70450"
           },
           {
             "type": "paragraph",
@@ -76,7 +80,8 @@
                 "type": "text",
                 "text": "Answer: You can apply for trials to try the newly developed Veggie Pills from one of the departments. Take one pill before the meal to experience the taste and texture of your chosen flavor when you're chewing any food! Known side effects include slight numbness in left leg and unknown disabilities in some lab rats. Please explore yourself for more information!"
               }
-            ]
+            ],
+            "id": "p-b0f17372ca642306"
           },
           {
             "type": "paragraph",
@@ -95,7 +100,8 @@
                 "type": "text",
                 "text": "Answer: Did you subscribe to the Security Dog function in the Seed Isle? Copy the following code into your personal terminal, and the system will automatically generate a dog for you in the form of an ionization grid to protect your field. In normal life, it can also become your personal terminal assistant~"
               }
-            ]
+            ],
+            "id": "p-99cd8faba022e7bf"
           },
           {
             "type": "paragraph",
@@ -111,7 +117,8 @@
                 "type": "text",
                 "text": "Answer: You can click the play button to ensure another doggy that didn't attend the meeting understands the agenda of the meeting!"
               }
-            ]
+            ],
+            "id": "p-26185e393fbec8ba"
           },
           {
             "type": "paragraph",
@@ -130,7 +137,8 @@
                 "type": "text",
                 "text": "Answer: Sorry, I didn't quite get that. Can you please try again in another way?"
               }
-            ]
+            ],
+            "id": "p-8f66ff994395e09b"
           }
         ]
       }

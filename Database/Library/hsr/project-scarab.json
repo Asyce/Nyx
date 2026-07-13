@@ -4,10 +4,11 @@
   "id": "project-scarab",
   "name": "Project: Scarab",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Project_Scarab",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "I. Objective"
               }
-            ]
+            ],
+            "id": "p-a9cc59030772e36e"
           },
           {
             "type": "paragraph",
@@ -35,7 +37,8 @@
                 "type": "text",
                 "text": "[Note: Please provide specific data pertaining to the relevant years.]"
               }
-            ]
+            ],
+            "id": "p-be33ffc5ad8e352f"
           },
           {
             "type": "paragraph",
@@ -51,7 +54,8 @@
                 "type": "text",
                 "text": "[Note: Please provide supporting evidence for your statements, and refrain from excessive use of exclamation marks.]"
               }
-            ]
+            ],
+            "id": "p-46d63619dbd68bcc"
           },
           {
             "type": "paragraph",
@@ -60,7 +64,8 @@
                 "type": "text",
                 "text": "II. Activity Format"
               }
-            ]
+            ],
+            "id": "p-2a7b1d79b436eaf8"
           },
           {
             "type": "paragraph",
@@ -76,7 +81,8 @@
                 "type": "text",
                 "text": "[Note: Please use concise and precise language.]"
               }
-            ]
+            ],
+            "id": "p-eecf3a0c5d7e5655"
           },
           {
             "type": "paragraph",
@@ -85,7 +91,8 @@
                 "type": "text",
                 "text": "The economic benefits brought about by treasure-hunting enthusiasts are already apparent to all. Therefore, I think we should seize this opportunity to emulate the legend of the Watchmaker and employ suitable promotional methods to reignite the treasure-hunting fervor within the Dreamscape!"
               }
-            ]
+            ],
+            "id": "p-6bfa813095bb537e"
           },
           {
             "type": "paragraph",
@@ -101,7 +108,8 @@
                 "type": "text",
                 "text": "[Note: Refrain from excessive use of subjective language such as \"I think,\" \"I believe,\" and \"definitely.\"]"
               }
-            ]
+            ],
+            "id": "p-e17536da5a170fd8"
           },
           {
             "type": "paragraph",
@@ -110,7 +118,8 @@
                 "type": "text",
                 "text": "Once the trend is established, we should capitalize on its accumulated popularity by organizing re-runs of this event in phases, while incorporating new surprise elements outside of the guests' expectations, optimizing their joy and entertainment. [Note: Objectively present the reasons why the aforementioned strategies may prove effective supported by reliable arguments, and elaborate in detail the events to be re-run and what the surprise elements will be.]"
               }
-            ]
+            ],
+            "id": "p-173e0283cb0983dd"
           },
           {
             "type": "paragraph",
@@ -119,7 +128,8 @@
                 "type": "text",
                 "text": "III. Market Analysis"
               }
-            ]
+            ],
+            "id": "p-19e34bb7aa682e1d"
           },
           {
             "type": "paragraph",
@@ -128,7 +138,8 @@
                 "type": "text",
                 "text": "It is widely known that people respect and are fascinated by great or unknown phenomena. [Note: It is also widely known that the \"Market Analysis\" section should be based on market research reports, data modeling analysis, and supporting arguments, rather than personal beliefs.]"
               }
-            ]
+            ],
+            "id": "p-1f56627790253428"
           },
           {
             "type": "paragraph",
@@ -144,7 +155,8 @@
                 "type": "text",
                 "text": "[Note: Refrain from speculative analyses devoid of users' actual needs as the premise.]"
               }
-            ]
+            ],
+            "id": "p-398569d2155a42fd"
           },
           {
             "type": "paragraph",
@@ -173,7 +185,8 @@
                 "type": "text",
                 "text": "[Note: Avoid elaborating extensively on your design inspiration, quoting obscure references, or fabricating abstract concepts in a business plan.]"
               }
-            ]
+            ],
+            "id": "p-cca1476a185f3fad"
           },
           {
             "type": "paragraph",
@@ -182,7 +195,8 @@
                 "type": "text",
                 "text": "IV. Conclusion"
               }
-            ]
+            ],
+            "id": "p-0ba2d45030e069f3"
           },
           {
             "type": "paragraph",
@@ -204,7 +218,8 @@
                 "type": "text",
                 "text": "is to revitalize the tourism economy in Penacony. At the same time, it will fully showcase the city's values and The Family's harmonious love to the visitors who flock here due to our fame. Through this project, we aim to achieve both material benefits and psychological fulfillment."
               }
-            ]
+            ],
+            "id": "p-c6b6ac4fbbc7915d"
           },
           {
             "type": "paragraph",
@@ -213,7 +228,8 @@
                 "type": "text",
                 "text": "With great enthusiasm, I present this business plan in the hopes of making a humble contribution to the success of The Family and Penacony."
               }
-            ]
+            ],
+            "id": "p-b1d9409565b76d59"
           },
           {
             "type": "paragraph",
@@ -222,7 +238,8 @@
                 "type": "text",
                 "text": "Feedback"
               }
-            ]
+            ],
+            "id": "p-63b6bc2fc295e48c"
           },
           {
             "type": "paragraph",
@@ -231,7 +248,8 @@
                 "type": "text",
                 "text": "1. The content of this plan lacks clarity, coherence, and objective discussion, failing to meet the basic standards of a business plan."
               }
-            ]
+            ],
+            "id": "p-5209ccd9bd9f2e2b"
           },
           {
             "type": "paragraph",
@@ -240,7 +258,8 @@
                 "type": "text",
                 "text": "2. The content of the writing is logically confusing, lacking practical case studies, market research, planning, and specific strategies. It lacks feasibility."
               }
-            ]
+            ],
+            "id": "p-6356b6ea2f4b39b1"
           },
           {
             "type": "paragraph",
@@ -249,7 +268,8 @@
                 "type": "text",
                 "text": "3. The plan lacks the capability for problem identification and rational analysis, providing a limited understanding of the market and customer needs. The proposed solutions lack reference value."
               }
-            ]
+            ],
+            "id": "p-cc1205725ede7c8d"
           },
           {
             "type": "paragraph",
@@ -258,7 +278,8 @@
                 "type": "text",
                 "text": "In conclusion, the business plan is hereby rejected."
               }
-            ]
+            ],
+            "id": "p-b69b11a8e3cdbd31"
           },
           {
             "type": "paragraph",
@@ -267,7 +288,8 @@
                 "type": "text",
                 "text": "Feinman, Leader of the Tourism Business Team, Marketing Development Department"
               }
-            ]
+            ],
+            "id": "p-05d05909b2d85581"
           }
         ]
       }

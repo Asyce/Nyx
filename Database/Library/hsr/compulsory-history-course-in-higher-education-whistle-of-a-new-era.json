@@ -4,17 +4,19 @@
   "id": "compulsory-history-course-in-higher-education-whistle-of-a-new-era",
   "name": "Compulsory History Course in Higher Education: Whistle of a New Era",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Compulsory_History_Course_in_Higher_Education:_Whistle_of_a_New_Era",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -23,7 +25,8 @@
                 "type": "text",
                 "text": "In the early Cindearth Age, as the Antimatter Legion bore down with overwhelming force, a faction of escapists seized the moment and boarded starships bound for deep space, vowing to preserve the legacy of Benzaitengoku. During this time, many friends from beyond the sky came to Planarcadia, attempting to rescue the Old World trapped within the painting, but all returned empty-handed. Here, we extend our gratitude for their selfless efforts."
               }
-            ]
+            ],
+            "id": "p-87b4105be8d5a1a4"
           },
           {
             "type": "paragraph",
@@ -32,7 +35,8 @@
                 "type": "text",
                 "text": "In 2155 AE, a ship that had escaped from ancient Benzaitengoku was lucky enough to arrive at New Londinium, an industrial planet under the IPC. The captain described the existence and plight of their homeland to the local governor, who immediately took great interest and reported it to the Marketing Development Department headquarters."
               }
-            ]
+            ],
+            "id": "p-16c45ea4841428bf"
           },
           {
             "type": "paragraph",
@@ -41,11 +45,13 @@
                 "type": "text",
                 "text": "In 2156 AE, at the behest of Director Oswaldo, the Marketing Development Department's research fleet arrived at Ahatopia, marking the debut of \"Planarcadia\" as we know it today on the stage of history."
               }
-            ]
+            ],
+            "id": "p-e2d3b8af48c79648"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a-2"
           },
           {
             "type": "paragraph",
@@ -54,7 +60,8 @@
                 "type": "text",
                 "text": "The \"Worlds Reborn Initiative\" is a large-scale project led by the Interastral Peace Corporation, aimed at extending a helping hand to multiple worlds ravaged by the Antimatter Legion. The initiative is dedicated to salvaging and restoring pre-Cindearth Age legacies from paintings, transforming Planarcadia into a cultural paradise belonging to the entire universe."
               }
-            ]
+            ],
+            "id": "p-3e6fe6e3a8ada277"
           },
           {
             "type": "paragraph",
@@ -63,7 +70,8 @@
                 "type": "text",
                 "text": "Upon arriving at Planarcadia, the IPC representative personally entered the World in Canvas and held cordial and friendly exchanges with the residents, transmitting the following information: The threat of Destruction had passed, and the IPC was willing to provide assistance to lead Planarcadia toward a brand new future."
               }
-            ]
+            ],
+            "id": "p-9bdff74829d7da65"
           },
           {
             "type": "paragraph",
@@ -72,11 +80,13 @@
                 "type": "text",
                 "text": "Under the leadership of the Marketing Development Department, and through the joint efforts of multiple departments and local residents, the inhabitants trapped in the paintings successfully returned to the real world, back under the protection of Aha and the Amber Lord. Aether editing technology from Punklorde played a crucial role in the salvage and world reconstruction process, and the friendly relationship with the hackers greatly advanced the development of imagenesis. At the same time, the principles of imagenesis fed back into aether editing, promoting the birth of emerging technologies such as Aether Spirits."
               }
-            ]
+            ],
+            "id": "p-44cdfda4dc022bdc"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a-3"
           },
           {
             "type": "paragraph",
@@ -85,7 +95,8 @@
                 "type": "text",
                 "text": "Planarcadia is a vital component of the Interastral Peace Corporation's pan-cosmic marketplace, under the complete jurisdiction of the IPC."
               }
-            ]
+            ],
+            "id": "p-39a06cf9eba16c3e"
           },
           {
             "type": "paragraph",
@@ -94,7 +105,8 @@
                 "type": "text",
                 "text": "Unlike the ancient traditions, the appointment of the CEO, the legal representative of Planarcadia is not determined by the outcome of the \"Phantasmoon Games\" but is instead designated by the IPC, with accountability to all residents and the corresponding management departments. The first CEO was Maxwell Grant from the Marketing Development Department. Based on the Interastral Peace Corporation's long-term strategic planning, the authority to appoint this position, as well as the management rights of Planarcadia's industries, gradually and peacefully transferred from the Marketing Development Department to the Strategic Investment Department over the following two Amber Eras."
               }
-            ]
+            ],
+            "id": "p-1124771e231b5f9d"
           },
           {
             "type": "paragraph",
@@ -103,11 +115,13 @@
                 "type": "text",
                 "text": "The CEO is primarily responsible for overseeing Planarcadia's development, executing the IPC's directive plans, and using the entertainment industry as the driving force to revive civilization, all with the aim of generating greater economic value for the IPC and advancing the \"Elation\" of the people and \"Preservation\" of the universe. During the Phantasmoon Games, the CEO must supervise all matters related to the event to ensure the safety of IPC assets and the public. Should any major mishaps occur, the CEO may face accusations and be held accountable during their term."
               }
-            ]
+            ],
+            "id": "p-9e2279e86ad0cd14"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a-4"
           },
           {
             "type": "paragraph",
@@ -142,7 +156,8 @@
                 "type": "text",
                 "text": ", the imagenae have become sentient beings with equal status to humans."
               }
-            ]
+            ],
+            "id": "p-8990a1a5489bcac0"
           },
           {
             "type": "paragraph",
@@ -151,7 +166,8 @@
                 "type": "text",
                 "text": "Under the influence of programs like Interastral Peace Entertainment, works from other planets are appearing more and more frequently in people's lives. The love for emerging elements such as mechs has formed a unique Wishpower, giving birth to modern imagenae like mechatrons. A better, more tolerant era is unfolding before our very eyes."
               }
-            ]
+            ],
+            "id": "p-f7fb77294fd24916"
           },
           {
             "type": "paragraph",
@@ -195,7 +211,8 @@
                 "type": "text",
                 "text": "This is a greeting from Landernach, the capital ship captain of the Marketing Development Department's Sixth Fleet, to the local residents, expressing the IPC's friendly attitude toward the Elation faction."
               }
-            ]
+            ],
+            "id": "p-bbda0969d8eae74c"
           },
           {
             "type": "paragraph",
@@ -229,7 +246,8 @@
                 "type": "text",
                 "text": "2. After entering the modern era, how has imagenesis technology evolved?"
               }
-            ]
+            ],
+            "id": "p-6e7c25b1761d2dc5"
           }
         ]
       }

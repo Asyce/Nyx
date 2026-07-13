@@ -4,10 +4,11 @@
   "id": "scattered-class-notes",
   "name": "Scattered Class Notes",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Scattered_Class_Notes",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-a59ae5d6ed22edc3"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "Ethics Lesson 10: Diligence"
               }
-            ]
+            ],
+            "id": "p-f40e29ded99d3ea2"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "Miss Pythias once said: The mountains are the spine of the earth, and diligence is the spine of humanity."
               }
-            ]
+            ],
+            "id": "p-07e679962f4ab234"
           },
           {
             "type": "paragraph",
@@ -51,7 +55,8 @@
                 "type": "text",
                 "text": "The land grants us all we need: trees to shelter us, grain to feed us, flax to clothe us. Yet none of these gifts appear by chance. A house untended crumbles into dust, a field neglected grows barren, flax left unharvested fades into wild greenery. Only through labor can harvest be earned."
               }
-            ]
+            ],
+            "id": "p-216b8508fce80e69"
           },
           {
             "type": "paragraph",
@@ -60,7 +65,8 @@
                 "type": "text",
                 "text": "Engrave \"diligence\" deep within your heart. Treasure the act of creating, not merely receiving. Guard against any thought of reward without effort. Of course, diligence does not mean you must walk alone. Life is a wide and wild frontier, and the young hold infinite possibilities."
               }
-            ]
+            ],
+            "id": "p-0590c79d075fe22a"
           },
           {
             "type": "paragraph",
@@ -69,7 +75,8 @@
                 "type": "text",
                 "text": "Farmer, fisherman, hunter, sailor, priest... You name it, pour your spirit into it. Tend your craft as you would tend the land. Do not lose the backbone that makes you human."
               }
-            ]
+            ],
+            "id": "p-6a514cfe0d89101b"
           },
           {
             "type": "paragraph",
@@ -78,7 +85,8 @@
                 "type": "text",
                 "text": "Ethics Lesson 11: Kindness"
               }
-            ]
+            ],
+            "id": "p-4b09d5af91798027"
           },
           {
             "type": "paragraph",
@@ -87,7 +95,8 @@
                 "type": "text",
                 "text": "Miss Pythias said: Kindness is the bond that turns \"I\" into \"we.\""
               }
-            ]
+            ],
+            "id": "p-a89c482ace02d65e"
           },
           {
             "type": "paragraph",
@@ -96,7 +105,8 @@
                 "type": "text",
                 "text": "The heart is like a still pond, it reflects whoever stands before it. Every sincere act of kindness sends ripples across another's soul, gentle and lasting. Think back to the last time Uncle Galba handed out fruit preserves at the schoolhouse. Did you feel a sudden urge to return the favor? That is the invisible thread kindness weaves: a bond of spirit, growing stronger with every small gesture, extending ever outward."
               }
-            ]
+            ],
+            "id": "p-e8040da64a75793a"
           },
           {
             "type": "paragraph",
@@ -105,7 +115,8 @@
                 "type": "text",
                 "text": "Be the first to extend a helping hand and pass kindness forward. It begins with a friendly greeting, a warm welcome, a generous sharing, a tolerant understanding, and a sincere trust."
               }
-            ]
+            ],
+            "id": "p-9c7db8e122884a9c"
           },
           {
             "type": "paragraph",
@@ -114,7 +125,8 @@
                 "type": "text",
                 "text": "Someday, these small acts of kindness will weave into a web of friendship that connects us all. This web will shield us from conflict, suspicion, and indifference, making our world a better place."
               }
-            ]
+            ],
+            "id": "p-66b4870ba5720d68"
           },
           {
             "type": "paragraph",
@@ -123,7 +135,8 @@
                 "type": "text",
                 "text": "Virtue Lesson Twelve: Valuing Time"
               }
-            ]
+            ],
+            "id": "p-52d42c2e43f8113b"
           },
           {
             "type": "paragraph",
@@ -132,7 +145,8 @@
                 "type": "text",
                 "text": "Miss Pythias says that the time Oronyx bestows upon each person is even more just than Talanton's verdict."
               }
-            ]
+            ],
+            "id": "p-e9cd7323c6360f3c"
           },
           {
             "type": "paragraph",
@@ -141,7 +155,8 @@
                 "type": "text",
                 "text": "Whether aristocrat or civilian, all people live between the same Entry Hour and Curtain-Fall Hour each day. A merchant may possess many times more Balance Coins than a beggar, but in one Lucid Hour, both can only read through a single book. Oronyx allows moonlight to bathe every leaf equally, yet will not reforge the annual rings of rotting wood."
               }
-            ]
+            ],
+            "id": "p-e4f78ca209a1a742"
           },
           {
             "type": "paragraph",
@@ -150,7 +165,8 @@
                 "type": "text",
                 "text": "Time flows like an endless river, waiting for no one and vanishing in an instant. No man ever steps in the same river twice, nor catches the water that has already flowed downstream. All we can do is treasure each moment of the present."
               }
-            ]
+            ],
+            "id": "p-d93c3da653c54ddd"
           },
           {
             "type": "paragraph",
@@ -166,7 +182,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-202c529099ab6251"
           }
         ]
       }

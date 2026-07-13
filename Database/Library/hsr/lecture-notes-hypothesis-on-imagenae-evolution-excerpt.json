@@ -4,10 +4,11 @@
   "id": "lecture-notes-hypothesis-on-imagenae-evolution-excerpt",
   "name": "Lecture Notes: Hypothesis on Imagenae Evolution (Excerpt)",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Lecture_Notes:_Hypothesis_on_Imagenae_Evolution_(Excerpt)",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -34,7 +35,8 @@
                 "type": "text",
                 "text": "— Dr. Soda"
               }
-            ]
+            ],
+            "id": "p-c1ef6da9b3b94b02"
           },
           {
             "type": "paragraph",
@@ -52,7 +54,8 @@
                 "type": "text",
                 "text": ", this was the first lecture topic that came to mind when I was invited back to Graphia Academy. It was my third-grade summer essay, and since then, I've formed an inseparable bond with science. Due to the turmoil of the Cindearth Age and the Canvas Age, the evolutionary history of imagenae has been lost to time, but based on mythology and the physiological structure of imagenae, we can still glimpse into their ancient secrets."
               }
-            ]
+            ],
+            "id": "p-7367c39616b7690b"
           },
           {
             "type": "paragraph",
@@ -61,7 +64,8 @@
                 "type": "text",
                 "text": "The Cellular Automaton Hypothesis"
               }
-            ]
+            ],
+            "id": "p-7c17e6398a2df333"
           },
           {
             "type": "paragraph",
@@ -70,7 +74,8 @@
                 "type": "text",
                 "text": "Within the Intelligentsia Guild, cellular automaton is the mainstream hypothesis. In the era before Graphia created imagenae, everything in Planarcadia would gain life whenever the Phantasmoon was full, joining the revelry during the Phantasmoon Games."
               }
-            ]
+            ],
+            "id": "p-c4d669cb169820e5"
           },
           {
             "type": "paragraph",
@@ -79,7 +84,8 @@
                 "type": "text",
                 "text": "During this period, Phantasmoon will trigger humanity's \"Wishpower,\" which, strictly speaking, is the energy driven by the Path of Elation. This energy permeates into surrounding substance. The inherent primary drive within Wishpower then supplies behavioral templates to this substance, whether discrete or aggregated. Here, from the triad of energy, substance, and behavioral patterns, regulated living machines thus emerge, known as \"strangelings.\""
               }
-            ]
+            ],
+            "id": "p-32330bec6669d342"
           },
           {
             "type": "paragraph",
@@ -88,7 +94,8 @@
                 "type": "text",
                 "text": "From plants to appliances, any substance infused with Wishpower can come alive. Lacking sufficient intelligence, they gather by instinct and disperse once reaching a threshold, much like modern wispae. Therefore, they tend to remain in primitive life phases, cycling from simplicity to complexity before collapsing back into elementary patterns."
               }
-            ]
+            ],
+            "id": "p-6b6ab022f86f4437"
           },
           {
             "type": "paragraph",
@@ -97,7 +104,8 @@
                 "type": "text",
                 "text": "It is not until Graphia invents imagenetic technology that the conundrum of forming complex structures in natural imagenae is overcome. By artificially designing their forms and imbuing them with narrative pulse, these imagenae are given a robust skeleton capable of supporting vast amounts of substance and energy. These complex behavioral patterns and skeletons, in turn, create the necessary conditions for intelligence to emerge, ultimately giving birth to the imagenae as we know them today."
               }
-            ]
+            ],
+            "id": "p-008de2507def5b7c"
           },
           {
             "type": "paragraph",
@@ -106,7 +114,8 @@
                 "type": "text",
                 "text": "Spirit-Bone-Flesh Hypothesis"
               }
-            ]
+            ],
+            "id": "p-1f8e979f30cf4f04"
           },
           {
             "type": "paragraph",
@@ -115,7 +124,8 @@
                 "type": "text",
                 "text": "The Spirit-Bone-Flesh Hypothesis offers a distinctly Mourning Actor perspective. While it shares many commonalities with the previous theory, the chaos effect of nature plays a much more significant role in it."
               }
-            ]
+            ],
+            "id": "p-985508284b6f3fb6"
           },
           {
             "type": "paragraph",
@@ -124,7 +134,8 @@
                 "type": "text",
                 "text": "This hypothesis posits that all sentient life is composed of three components: spirit, bone, and flesh. The spirit is consciousness, energy, the Wishpower that permeates Planarcadia. Bone is the framework, the essence of all things, the concept of existence itself. Flesh is blood and tissue, the outline, the physical vessel and outer appearance that carries life. These three parts can arise and persist independently within the natural world."
               }
-            ]
+            ],
+            "id": "p-e23b033183d6a7f2"
           },
           {
             "type": "paragraph",
@@ -133,7 +144,8 @@
                 "type": "text",
                 "text": "The ancient Planarcadia was like a massive primordial soup. Human arrival and the rise of Phantasmoon combined as ample stimulation, along with various spurs, causing substances to evolve from the unconscious to consciousness, with stable forms eventually settling out through natural selection. For the imagenae to gain intelligence was all but inevitable, so all Graphia did was uncover the means to replicate their formation process."
               }
-            ]
+            ],
+            "id": "p-39dd03c63a62bb08"
           },
           {
             "type": "paragraph",
@@ -142,7 +154,8 @@
                 "type": "text",
                 "text": "The Cake of God Hypothesis"
               }
-            ]
+            ],
+            "id": "p-cee7d968af11cf15"
           },
           {
             "type": "paragraph",
@@ -164,7 +177,8 @@
                 "type": "text",
                 "text": ", the prototype of imagenae originated from a cake baked by Aha when THEY were starving while being hunted by other Aeons during the Swarm Disaster."
               }
-            ]
+            ],
+            "id": "p-390841c12888192c"
           },
           {
             "type": "paragraph",
@@ -173,7 +187,8 @@
                 "type": "text",
                 "text": "THEY used debris from a divine battle (presumably biomatter left behind when the Propagation and another Aeon pulled each other's hair) as eggs, sugar stolen from the \"World's End\" as seasoning, and finally plucked a leaf from Yaoshi to replace flour, creating the perfect Cake of God. (Note: Some scholars see this as proof of Yaoshi's existence during the Swarm Disaster, but the Baking School generally maintains this is a textual error and is dedicated to restoring the true \"flour.\")"
               }
-            ]
+            ],
+            "id": "p-4c244608267c9ab5"
           },
           {
             "type": "paragraph",
@@ -182,7 +197,8 @@
                 "type": "text",
                 "text": "For many years after, Aha missed that flavor dearly. THEY sought various ingredients to recreate the universe's best cake. These materials piled up like construction materials beside Qlipoth, eventually forming Planarcadia. THEY built a giant oven to heat the cake, a tool later known as the Phantasmoon. It is said that Aha's tears of joy fell when THEY successfully remade the Cake of God using a cup of gasoline, two races, and three limericks."
               }
-            ]
+            ],
+            "id": "p-a2352fae5e2dab91"
           },
           {
             "type": "paragraph",
@@ -191,7 +207,8 @@
                 "type": "text",
                 "text": "In time, countless chefs gathered here to learn from Aha. Millennia later, a master baker finally recreated the Cake of God using soil, ink, and stories based on the Miracle. Thus did she name them \"imagenae.\" And her name was Graphia."
               }
-            ]
+            ],
+            "id": "p-4b8beca906d46822"
           }
         ]
       }

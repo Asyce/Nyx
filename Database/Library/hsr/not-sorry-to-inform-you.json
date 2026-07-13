@@ -4,10 +4,11 @@
   "id": "not-sorry-to-inform-you",
   "name": "Not Sorry to Inform You",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Not_Sorry_to_Inform_You",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "(Summary of a recorded TV signal from Planarcadia, August ██, Arcadian Calendar 1998. The broadcast was hijacked by an external entity at approximately 5:00 PM.)"
               }
-            ]
+            ],
+            "id": "p-8b5ed12c44381605"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "17:13:35 Recording starts. A rerun of the midday news is playing, focusing on retailers' predictions for the upcoming Phantasmoon Games and their plans for commemorative events."
               }
-            ]
+            ],
+            "id": "p-fede77e9249d2e4f"
           },
           {
             "type": "paragraph",
@@ -57,7 +60,8 @@
                 "type": "text",
                 "text": ".\""
               }
-            ]
+            ],
+            "id": "p-67c0f722db4a7d92"
           },
           {
             "type": "paragraph",
@@ -66,7 +70,8 @@
                 "type": "text",
                 "text": "17:13:50 The news crawl begins to fly across the screen at ten times the speed. The broadcast skips the usual ad break and drops into a flat blue screen."
               }
-            ]
+            ],
+            "id": "p-aff2246479c37f34"
           },
           {
             "type": "paragraph",
@@ -110,7 +115,8 @@
                 "type": "text",
                 "text": "'Look at the TV screen.'\""
               }
-            ]
+            ],
+            "id": "p-fefb36bff7edbd3a"
           },
           {
             "type": "paragraph",
@@ -168,7 +174,8 @@
                 "type": "text",
                 "text": "Aether Cartridge. Everyone deserves to have one!\""
               }
-            ]
+            ],
+            "id": "p-438ef8a21da1d71a"
           },
           {
             "type": "paragraph",
@@ -212,7 +219,8 @@
                 "type": "text",
                 "text": "Whoops, thundercoil's here.\""
               }
-            ]
+            ],
+            "id": "p-39e115383c402b3d"
           },
           {
             "type": "paragraph",
@@ -221,7 +229,8 @@
                 "type": "text",
                 "text": "17:19:50 The resounding echoes of exploding lightning and thunder lingered for over ten seconds."
               }
-            ]
+            ],
+            "id": "p-04e5a72f30a77d96"
           },
           {
             "type": "paragraph",
@@ -230,7 +239,8 @@
                 "type": "text",
                 "text": "17:20:03 TV signal restored."
               }
-            ]
+            ],
+            "id": "p-34cf2ba172214495"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "fleet-primer",
   "name": "Fleet Primer",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Fleet_Primer",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-89d6889da1da34ae"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "Hey sailor, ever been to IPC's space military academy? No? Well, it makes no difference."
               }
-            ]
+            ],
+            "id": "p-d9bdb792de29ddf9"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "Considering we always get some illiterates (Editorial: those awaiting education) from frontier worlds on board, we should explain how modern space combat works and what sort of opponents we're up against."
               }
-            ]
+            ],
+            "id": "p-ea757c0bb4b7df34"
           },
           {
             "type": "paragraph",
@@ -51,7 +55,8 @@
                 "type": "text",
                 "text": "The history of human warfare is a story of ever-growing toys: from armor and swords to vehicles and guns, then to warships and giant cannons... No matter how soldiers' equipment expanded, victory was always determined by humans. However, at cosmic scales, most battles are decided before they begin — just by calculating equipment standards, it's easy to predict which way victory will lean, with gaps sometimes greater than between humans and insects."
               }
-            ]
+            ],
+            "id": "p-b478bb0b7f49e0ff"
           },
           {
             "type": "paragraph",
@@ -60,11 +65,13 @@
                 "type": "text",
                 "text": "In space, range, accuracy, and speed form an impossible triangle — no entity can excel in all three (Editorial note: except Emanators). Thus, warships follow two main attack strategies: close in for precision strikes, or overwhelm opponents with massive and indiscriminate area attacks. Space pirates often take a more direct approach: boarding and bringing the fight to familiar territory — hand-to-hand combat requires less brainpower than calculating trajectories and routes, plus they get a free ship if they win."
               }
-            ]
+            ],
+            "id": "p-37d1cbee2cfaa867"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "Without silver rails, Pathstriders still have some inefficient or dangerous travel methods. While these might connect several star sectors, they can't establish a vast and efficient cosmic market. Thus, the IPC fleet's main duty is protecting and maintaining existing silver rails, sometimes also undertaking planetary landings and securing key points. Most warships carry a complement of mechs and drop pods to support ground forces after securing orbit."
               }
-            ]
+            ],
+            "id": "p-1916323db68c698d"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "IPC warships favor energy weapons, with positron cannons, annihilation beams, and Imaginary fission cannons standard even on frigates. Our fleet also possesses the universe's strongest shield technology, colored like the Amber Lord's holy form. The Marketing Development Department's six fleets are each valued \"worth a rank P46 employee.\""
               }
-            ]
+            ],
+            "id": "p-dfa36d950b5b6523"
           },
           {
             "type": "paragraph",
@@ -91,11 +100,13 @@
                 "type": "text",
                 "text": "Recently, the Intelligentsia Guild completed modifications on a Genius Society invention, naming it the \"#77 Puzzle Cannon.\" It triggers explosions directly at target locations, requiring no flight time or accuracy concerns — a perfect weapon. However, still in testing, the device remains too large for all but the biggest ships to carry."
               }
-            ]
+            ],
+            "id": "p-8f127c830e434488"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a-2"
           },
           {
             "type": "paragraph",
@@ -104,7 +115,8 @@
                 "type": "text",
                 "text": "Most Antimatter Legion members can cross stars without ships. But for expeditions, they use \"Borehole Blitz\" transport vessels as planetary invasion platforms. These ships drill destructive tunnels through Imaginary barriers for forced passage. Unlike silver rails, these tunnels are extremely dangerous, unusable by non-Legion forces, and sometimes leak Imaginary energy. Ships attempting Borehole travel are like threading through a tooth-lined gullet — facing near-certain death. When Blitz ships close in, Voidrangers and Tramplers can teleport past shields directly to our bridges, overwhelming even ship-based mech forces."
               }
-            ]
+            ],
+            "id": "p-69cdbbd3b322c2be"
           },
           {
             "type": "paragraph",
@@ -113,7 +125,8 @@
                 "type": "text",
                 "text": "In fleet battles, Celenova the Lord Ravager is undoubtedly the most fearsome opponent. Even common Voidrangers cause terrible destruction under her command. Surviving captains report her fleets show uncanny coordination, meshing like perfect gears, even executing theoretical tactics — considering communication delays and troop morale, our fleets could never achieve such precise cooperation."
               }
-            ]
+            ],
+            "id": "p-8494df4abdbf7a9b"
           },
           {
             "type": "paragraph",
@@ -122,11 +135,13 @@
                 "type": "text",
                 "text": "Recent cases show Celenova possesses intergalactic command abilities, potentially intervening even in frigate-level encounters. When facing Legion forces under Celenova, units must first determine if she or her avatar is aboard the flagship: if so, prioritize decapitation strikes (though this won't eliminate her permanently, it temporarily disrupts her command). If not, focus on intercepting approaching Blitz ships and prepare for retreat."
               }
-            ]
+            ],
+            "id": "p-4e55070d0fb472d3"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a-3"
           },
           {
             "type": "paragraph",
@@ -135,7 +150,8 @@
                 "type": "text",
                 "text": "The Xianzhou Alliance fleet underwent two reforms, now a vast mix of organic and mechanical vessels. While little intelligence exists about their main warships, more notable is a multipurpose vehicle called the \"starskiff.\""
               }
-            ]
+            ],
+            "id": "p-6a5df69b00652ae8"
           },
           {
             "type": "paragraph",
@@ -144,7 +160,8 @@
                 "type": "text",
                 "text": "Take the closely allied Yaoqing: their starskiff technology seems similar to borisin mechabeast ships, each bred through biotechnology. Using pilot genetic data as keys, the ship's performance and interface details perfectly match pilot habits, like a custom-made second body."
               }
-            ]
+            ],
+            "id": "p-98af314e10374265"
           },
           {
             "type": "paragraph",
@@ -153,11 +170,13 @@
                 "type": "text",
                 "text": "At sufficient tonnage, these starskiffs can even replace pilots in judgment and action. The Intelligentsia Guild believes such vessels should be considered organisms — their relationship with pilots isn't just machines with operators, but hunters with hounds."
               }
-            ]
+            ],
+            "id": "p-12bb89eec89fb69d"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a-4"
           },
           {
             "type": "paragraph",
@@ -166,7 +185,8 @@
                 "type": "text",
                 "text": "The Anti-Organic Equation may no longer pose a threat, yet given how the two Emperor's Wars ravaged the known universe, all units must remain vigilant against the Intellitrons — though such caution should remain discreet."
               }
-            ]
+            ],
+            "id": "p-3d90c0e28115503e"
           },
           {
             "type": "paragraph",
@@ -175,7 +195,8 @@
                 "type": "text",
                 "text": "Planet Screwllum now stands as the face of Intellitron power, its fleet embodying their philosophy: evolution over creation. Through augmentation, individual Intellitrons transform seamlessly into combat vessels of any scale, commanding their weapons with instinctive precision. Unlike Cloud Knights who can dismount from Xianzhou starskiffs post-battle, augmented Intellitrons become one with their warship forms."
               }
-            ]
+            ],
+            "id": "p-04f6c27956c61bb6"
           },
           {
             "type": "paragraph",
@@ -184,7 +205,8 @@
                 "type": "text",
                 "text": "To Intellitrons, physical form bears no impact on their identity — regardless of the extent of modification or damage. This significantly reduces their maintenance costs. One day, they may abandon these humanoid shells worn for social acceptance, forcing us to unearth our long-buried arsenals."
               }
-            ]
+            ],
+            "id": "p-5ff2c6ab384cd19f"
           }
         ]
       }

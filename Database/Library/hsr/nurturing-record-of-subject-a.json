@@ -4,10 +4,11 @@
   "id": "nurturing-record-of-subject-a",
   "name": "Nurturing Record of Subject A",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Nurturing_Record_of_Subject_A",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-c0455a84f7153ea2"
           },
           {
             "type": "paragraph",
@@ -40,7 +42,8 @@
                 "type": "text",
                 "text": "Cellular division of the subject in Culture Medium No. 006 has been observed for the first time. As of the time of this data entry, the subject's mass continues to increase. It has been confirmed that Subject A, provided by the \"Collaborator,\" is capable of artificial nurturing. The project has officially entered the research and development phase. The next stage will preliminarily verify Subject A's growth patterns, with the ultimate goal of meeting application standards."
               }
-            ]
+            ],
+            "id": "p-ea4e30388c2b7493"
           },
           {
             "type": "paragraph",
@@ -56,7 +59,8 @@
                 "type": "text",
                 "text": "A significant decrease in the activity levels of Subject A and its sectioned tissue (provisionally named Subject B) has been detected. After transferring Subjects A and A1 into mice, the condition was effectively alleviated."
               }
-            ]
+            ],
+            "id": "p-4691634731f547d3"
           },
           {
             "type": "paragraph",
@@ -65,7 +69,8 @@
                 "type": "text",
                 "text": "It is estimated that after stabilization, most subjects will remain inactive and will be unable to replicate the functions of █████'s flesh. However, current indicators have not fallen below the project establishment standards, and the controllability of the degraded subjects has been significantly improved, aligning with the project's initial expectations. Experimentation may proceed."
               }
-            ]
+            ],
+            "id": "p-769f6776cd392953"
           },
           {
             "type": "paragraph",
@@ -79,7 +84,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-773166d1eccc368e"
           },
           {
             "type": "paragraph",
@@ -95,7 +101,8 @@
                 "type": "text",
                 "text": "Following continuous electrical stimulation of the subject, a conditional withdrawal reflex was observed in Subject B01. This response was subsequently replicated in later tissue sections taken from the same subject. The subject's sensory capabilities have now met the basic requirements for subsequent cognitive experimentation. The experiment is about to proceed to the next phase."
               }
-            ]
+            ],
+            "id": "p-042529b9d83c5dd3"
           },
           {
             "type": "paragraph",
@@ -109,7 +116,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-6ecc506eec0a3885"
           },
           {
             "type": "paragraph",
@@ -125,7 +133,8 @@
                 "type": "text",
                 "text": "As planned, █████'s flesh was precisely implanted into the █████████ region of the mice's brains. With the exception of Subject 047, all hosts exhibited varying degrees of the \"paramount bliss\" state, their pain perception was blocked, and their physical capabilities were significantly enhanced."
               }
-            ]
+            ],
+            "id": "p-9abb340172b03e98"
           },
           {
             "type": "paragraph",
@@ -139,7 +148,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-a64c69bfcaf8f4c5"
           },
           {
             "type": "paragraph",
@@ -155,7 +165,8 @@
                 "type": "text",
                 "text": "During the testing process, a subject escaped. It instantaneously transitioned from a state of \"paramount bliss\" into a state of \"rabid.\" Its flesh and physical functions underwent a mutation within seconds. The escaped individual was recaptured and neutralized on site."
               }
-            ]
+            ],
+            "id": "p-77885dd593241882"
           },
           {
             "type": "paragraph",
@@ -169,7 +180,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-5fc8f139925edcb8"
           },
           {
             "type": "paragraph",
@@ -183,7 +195,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-3abdd2e07e80d192"
           },
           {
             "type": "paragraph",
@@ -206,7 +219,8 @@
                 "type": "text",
                 "text": "Additionally, a method capable of stimulating hosts on a large scale within a short time frame may be required. It is recommended to consider means such as radio waves, magnetic fields, broadcasts, television imagery, or synesthesia beacons."
               }
-            ]
+            ],
+            "id": "p-497df7f7c13a23c7"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "letters-to-the-detective",
   "name": "Letters to the Detective",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Letters_to_the_Detective",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-5b88ccb65d072f38"
           },
           {
             "type": "paragraph",
@@ -61,7 +63,8 @@
                 "type": "text",
                 "text": "If you have already made a payment, please ignore this mail. Thank you for your support and cooperation."
               }
-            ]
+            ],
+            "id": "p-039f7cdba9ada9c4"
           },
           {
             "type": "paragraph",
@@ -70,7 +73,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -114,7 +118,8 @@
                 "type": "text",
                 "text": "I plan to stay. Maybe just for a while. Don't blame me for making this decision on my own, Old Man. Neither of us has a home anymore, but they still do."
               }
-            ]
+            ],
+            "id": "p-86966f654c67ed37"
           },
           {
             "type": "paragraph",
@@ -123,7 +128,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -202,7 +208,8 @@
                 "type": "text",
                 "text": "And don't you dare die before settling your tab."
               }
-            ]
+            ],
+            "id": "p-00308db87fc798d9"
           },
           {
             "type": "paragraph",
@@ -216,7 +223,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-d66060a59382dd9f"
           }
         ]
       }

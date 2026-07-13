@@ -4,10 +4,11 @@
   "id": "chimera-s-work-handbook-3rd-edition",
   "name": "Chimera's Work Handbook (3rd Edition)",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Chimera%27s_Work_Handbook_(3rd_Edition)",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -36,7 +37,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-9360d1791d57cc04"
           },
           {
             "type": "paragraph",
@@ -52,7 +54,8 @@
                 "type": "text",
                 "text": "A negative example would be: A certain administrator who has an obsession with bathing. Please make sure to keep an eye on your squad's ranking and punctually arrive at work!"
               }
-            ]
+            ],
+            "id": "p-bf87bb96c223620a"
           },
           {
             "type": "paragraph",
@@ -89,7 +92,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-af73bb712a66c96e"
           },
           {
             "type": "paragraph",
@@ -118,7 +122,8 @@
                 "type": "text",
                 "text": "All chimeras will be divided into a number of squads. Each squad will be assigned a corresponding administrator who will take responsibility for their overall work performance."
               }
-            ]
+            ],
+            "id": "p-25c958572bce1aeb"
           },
           {
             "type": "paragraph",
@@ -143,7 +148,8 @@
                 "type": "text",
                 "text": ": Chimeras are not personal property. They are a symbol of Okhema. Administrators must remain aware of the scope of their professional authority."
               }
-            ]
+            ],
+            "id": "p-36fe0badef17fe59"
           },
           {
             "type": "paragraph",
@@ -152,7 +158,8 @@
                 "type": "text",
                 "text": "4. Chimeras must complete work assigned by the Garden of Life. The Gardeners will carry out periodical assessments of each squad. If work standards consistently do not meet requirements, then administrators must take responsibility for the poor performance of the squad, pay a fine, and accept an inquiry from the citizens' assembly."
               }
-            ]
+            ],
+            "id": "p-83c3761feab16063"
           },
           {
             "type": "paragraph",
@@ -161,7 +168,8 @@
                 "type": "text",
                 "text": "5. Chimeras have a wide range of physical characteristics and personalities. Administrators are forbidden from assigning work based on personal favoritism. All chimeras' rights to life and development are equal, and any form of prejudice or unjust treatment is forbidden."
               }
-            ]
+            ],
+            "id": "p-5028d68c2c7baba1"
           },
           {
             "type": "paragraph",
@@ -170,7 +178,8 @@
                 "type": "text",
                 "text": "6. The Garden of Life warmly welcomes all citizens of Okhema to participate in chimera squad administration."
               }
-            ]
+            ],
+            "id": "p-c0e771517cf02d44"
           },
           {
             "type": "paragraph",
@@ -179,7 +188,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "dream-bubble-notes",
   "name": "Dream Bubble Notes",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Dream_Bubble_Notes",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -42,7 +44,8 @@
                 "type": "text",
                 "text": "People here are as busy as they say. They walk with their heads down all the time, the idea of looking up at the skies never once occurred to them. But that's also why their dreams are the most enchanting... And rightly so, because it's only when one is narrating something they don't understand through words and imagery that they're the most romantic."
               }
-            ]
+            ],
+            "id": "p-947071c8880c8478"
           },
           {
             "type": "paragraph",
@@ -72,7 +75,8 @@
                 "type": "text",
                 "text": "This was what prompted me to buy the dream bubble from her. I'll need to polish it a bit before I head to Dr. Edward's, though. It's missing some emotional story elements, so it probably won't appeal much to youngsters."
               }
-            ]
+            ],
+            "id": "p-5da4890400bf4c6f"
           },
           {
             "type": "paragraph",
@@ -81,7 +85,8 @@
                 "type": "text",
                 "text": "Oh, right. I also met a weirdo and self-professed director while I was on the ship. While he seemed like he had more than a few screws loose in the head, the dreams he sold me were certainly worthy of collection."
               }
-            ]
+            ],
+            "id": "p-b7235d6063727cdc"
           },
           {
             "type": "paragraph",
@@ -104,7 +109,8 @@
                 "type": "text",
                 "text": "Every so often, to refill his conch, he returns to the source of the Water of Beginnings, a place that looks like a gigantic waterfall flowing toward a bottomless abyss."
               }
-            ]
+            ],
+            "id": "p-cb034d17e732d8a5"
           },
           {
             "type": "paragraph",
@@ -122,7 +128,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-fd4cefb0a6c8c2f5"
           },
           {
             "type": "paragraph",
@@ -145,7 +152,8 @@
                 "type": "text",
                 "text": "Their destinations are a disorderly mix of places so incredible that one can hardly believe what they're hearing. In a particular case, before taking flight, one of the birds even claimed they would fly into the fiery flames at the birth of the world."
               }
-            ]
+            ],
+            "id": "p-253aa1b5c12784a7"
           },
           {
             "type": "paragraph",
@@ -163,7 +171,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-64b15ae352ee44c7"
           },
           {
             "type": "paragraph",
@@ -186,7 +195,8 @@
                 "type": "text",
                 "text": "Rumor has it that the self-professed director made the executive decision to rouse the dreamer as he feared that they would inadvertently learn of the universe's secrets at the end of the fields."
               }
-            ]
+            ],
+            "id": "p-f23bd1e439ae4f55"
           },
           {
             "type": "paragraph",
@@ -204,7 +214,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-b66a21c97f38550b"
           },
           {
             "type": "paragraph",
@@ -220,7 +231,8 @@
                 "type": "text",
                 "text": "I'm still undecided about whether I should open it. After all..."
               }
-            ]
+            ],
+            "id": "p-7a19c8c63d3f5237"
           },
           {
             "type": "paragraph",
@@ -238,7 +250,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-c9657094f8a9e7f4"
           }
         ]
       }

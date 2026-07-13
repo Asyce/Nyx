@@ -4,10 +4,11 @@
   "id": "preface-on-the-basic-studies-of-wishpower",
   "name": "Preface on the Basic Studies of Wishpower",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Preface_on_the_Basic_Studies_of_Wishpower",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ea0ab27cf1cee80c"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "Wishpower is essentially the \"Primum Mobile.\" It is the core energy driving sentient beings across the universe toward specific Paths, hidden within the mental activity and spiritual wavelengths of all intelligent life."
               }
-            ]
+            ],
+            "id": "p-608758ff79241bfe"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "Throughout the vast universe, Wishpower mostly exists as an invisible, scattered force. Only in Planarcadia, under the glow of the joyful Phantasmoon, does it manifest through the interference of Path Energy."
               }
-            ]
+            ],
+            "id": "p-f9a81fa36041b8dc"
           },
           {
             "type": "paragraph",
@@ -51,7 +55,8 @@
                 "type": "text",
                 "text": "This mental energy is granted physical form and interactive properties by the Phantasmoon. Under its light, Wishpower transcends the boundary of reality, condensing into the diverse and vibrant \"imagenae.\""
               }
-            ]
+            ],
+            "id": "p-142030da490b1161"
           },
           {
             "type": "paragraph",
@@ -65,7 +70,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-5faf1a9f984ce583"
           },
           {
             "type": "paragraph",
@@ -74,7 +80,8 @@
                 "type": "text",
                 "text": "Within Planarcadia's sociology and engineering, Wishpower is more than a biological component of the imagenae. It is the foundational unit of modern civilization."
               }
-            ]
+            ],
+            "id": "p-37ec69aa9e45c20b"
           },
           {
             "type": "paragraph",
@@ -83,7 +90,8 @@
                 "type": "text",
                 "text": "Through thundercoil's biological conversion, Wishpower is output as steady current and communication frequencies, sustaining the power grid and network signals. Meanwhile, the Bullet Wyrm trains that traverse the wild and urban areas use Wishpower as their sole power source, forming the arcadia's vital transit system."
               }
-            ]
+            ],
+            "id": "p-4218950e6d3c4ea4"
           },
           {
             "type": "paragraph",
@@ -92,7 +100,8 @@
                 "type": "text",
                 "text": "In addition, Wishpower extends into non-biological fields. From precision puppets and the lamps illuminating the Evernight to the cutting-edge armor of the Daybreak Squadron, all these core energy sources stem from the deep utilization of Wishpower."
               }
-            ]
+            ],
+            "id": "p-b3a81e0f4174ff99"
           },
           {
             "type": "paragraph",
@@ -106,7 +115,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-209f8912ca25f8b7"
           },
           {
             "type": "paragraph",
@@ -115,7 +125,8 @@
                 "type": "text",
                 "text": "While Wishpower exists in many forms, our current technology can only stably manage and utilize one specific type: \"Binary Wishpower.\""
               }
-            ]
+            ],
+            "id": "p-f60c995dd57d2d01"
           },
           {
             "type": "paragraph",
@@ -124,7 +135,8 @@
                 "type": "text",
                 "text": "Studies show that Wishpower only maintains a stable \"binary\" structure within the Phantasmoon's reach or in rare lab settings. This structure is highly exclusive. imagenae can only ingest binary Wishpower, leaving them unable to absorb the \"discrete\" Wishpower found throughout the rest of the universe."
               }
-            ]
+            ],
+            "id": "p-c294606521f21a36"
           },
           {
             "type": "paragraph",
@@ -133,7 +145,8 @@
                 "type": "text",
                 "text": "To put it simply, think of it as the relationship between organic life and oxygen. Both land and sea contain massive amounts of oxygen, but lung-breathing animals can only process it from the air. In the ocean, they drown because they cannot extract oxygen from water."
               }
-            ]
+            ],
+            "id": "p-f4485d99f2b36be4"
           },
           {
             "type": "paragraph",
@@ -142,7 +155,8 @@
                 "type": "text",
                 "text": "To an imagenate, discrete Wishpower is like \"oxygen in the ocean.\" It is ubiquitous but unabsorbable. Consequently, imagenae must rely on \"Wishpower oxygen tanks\" to sustain their lives."
               }
-            ]
+            ],
+            "id": "p-d7928cc70b615c68"
           },
           {
             "type": "paragraph",
@@ -156,7 +170,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-0144d7dfe2f7cf7d"
           },
           {
             "type": "paragraph",
@@ -170,7 +185,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-dbd2f4354187efa5"
           },
           {
             "type": "paragraph",
@@ -179,7 +195,8 @@
                 "type": "text",
                 "text": "While we have established a basic framework for Wishpower studies, we must admit that our reliance on the power of the Elation makes the subject inherently chaotic and uncertain. Traditional reductionist methods simply fall short here."
               }
-            ]
+            ],
+            "id": "p-9776fd200a5aad53"
           },
           {
             "type": "paragraph",
@@ -188,7 +205,8 @@
                 "type": "text",
                 "text": "Even today, this discipline is filled with conjectures, empirical formulas, and experimental results that defy replication. The truth of Wishpower remains a shrouded mystery beneath the Phantasmoon."
               }
-            ]
+            ],
+            "id": "p-2b90a3ba268240f6"
           },
           {
             "type": "paragraph",
@@ -197,7 +215,8 @@
                 "type": "text",
                 "text": "This book serves as a window for future scholars. Countless paradoxes remain to be resolved, and countless theories are waiting to be proven or debunked."
               }
-            ]
+            ],
+            "id": "p-235b618f51f05b78"
           },
           {
             "type": "paragraph",
@@ -206,7 +225,8 @@
                 "type": "text",
                 "text": "May the scholars who follow find their own answers on this academic Path filled with \"Elation.\""
               }
-            ]
+            ],
+            "id": "p-f9fe2de3ff4c612c"
           }
         ]
       }

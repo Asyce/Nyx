@@ -4,17 +4,19 @@
   "id": "kompore-the-cunning",
   "name": "Kompore the Cunning",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Kompore_the_Cunning",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -23,7 +25,8 @@
                 "type": "text",
                 "text": "This tapestry is said to have been woven by Sanhaj Kompore, a hero of the Masters of the Night-Wind. Its contents are brief and bizarre, often dismissed as a joke by the elder shamans — and just like the countless jests this cunning hero told throughout his life, this one's colors carry a hint of moonlit darkness. Some say it was due to the threads he used, while others claim he ground obsidian and black-colored mussel shells into powder to achieve this touch of divinity."
               }
-            ]
+            ],
+            "id": "p-2a68c373d331c104"
           },
           {
             "type": "paragraph",
@@ -32,7 +35,8 @@
                 "type": "text",
                 "text": "Long, long ago, there was a cunning rogue amongst the Masters of the Night-Wind named Kompore. He was skilled in deception and theft, gaining advantage by both cunning and force, and thus was notorious within the tribe, but he had an honest brother named Sanhaj."
               }
-            ]
+            ],
+            "id": "p-c9439386c2002dd4"
           },
           {
             "type": "paragraph",
@@ -41,7 +45,8 @@
                 "type": "text",
                 "text": "In that ancient time, the Lord of the Crossroads still walked among mortals, bestowing the grace of sleep or death upon the six tribes' people, guiding them along the path to the netherworld, and merging their souls into the great black river. He was master of the Night Realm, both \"Papa Witch Doctor\" and \"Mama Dream-Realm.\" Legends speak of him building a small brewery at the end of the great black river, where he could reveal the fate of any person in dreams by drinking the mushroom wine brewed there."
               }
-            ]
+            ],
+            "id": "p-273aaede158f43dc"
           },
           {
             "type": "paragraph",
@@ -50,7 +55,8 @@
                 "type": "text",
                 "text": "\"If I had this ability, would I not become like the prophets of our tribe, able to predict fate and uncover the truth that lies beneath this world?\""
               }
-            ]
+            ],
+            "id": "p-8f9eb4b837bd6e34"
           },
           {
             "type": "paragraph",
@@ -59,7 +65,8 @@
                 "type": "text",
                 "text": "The rogue's eyes roved about, and he thought to himself again,"
               }
-            ]
+            ],
+            "id": "p-32fcbe64103c73cd"
           },
           {
             "type": "paragraph",
@@ -68,7 +75,8 @@
                 "type": "text",
                 "text": "\"And if that were the case, how much profit could secret knowledge and forbidden dreams bring me? What could I use such treasures to negotiate for?\""
               }
-            ]
+            ],
+            "id": "p-4e01b1629c066988"
           },
           {
             "type": "paragraph",
@@ -77,13 +85,15 @@
                 "type": "text",
                 "text": "The cunning Kompore rubbed his palms, and thus began his crafty scheme."
               }
-            ]
+            ],
+            "id": "p-51d8d2b20a89738c"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
@@ -95,7 +105,8 @@
                 "type": "text",
                 "text": "To trick the Lord of the Crossroads out of this miraculous mushroom wine, Kompore brought his honest brother Sanhaj and said to him:"
               }
-            ]
+            ],
+            "id": "p-4bef976dcd617008"
           },
           {
             "type": "paragraph",
@@ -104,7 +115,8 @@
                 "type": "text",
                 "text": "\"My brother, your kindness is renowned throughout our tribe. I know you have a pure heart, always speaking honest words and doing earnest deeds. So, I ask you to keep our upcoming plans in strict confidence, with true heart and kinship.\""
               }
-            ]
+            ],
+            "id": "p-7032a87fbf076fdf"
           },
           {
             "type": "paragraph",
@@ -113,7 +125,8 @@
                 "type": "text",
                 "text": "Sanhaj, unaware of his brother's sinister plan, nodded and agreed."
               }
-            ]
+            ],
+            "id": "p-36aeea2ab8343df6"
           },
           {
             "type": "paragraph",
@@ -122,7 +135,8 @@
                 "type": "text",
                 "text": "\"Alright then. I'll tell you my plan, but you must cooperate with me and not reveal it to anyone.\""
               }
-            ]
+            ],
+            "id": "p-989440eddab7bc20"
           },
           {
             "type": "paragraph",
@@ -131,7 +145,8 @@
                 "type": "text",
                 "text": "So, Kompore began to slowly unveil his wicked scheme:"
               }
-            ]
+            ],
+            "id": "p-967e5a721541830c"
           },
           {
             "type": "paragraph",
@@ -140,7 +155,8 @@
                 "type": "text",
                 "text": "\"I want you to visit the Lord of the Crossroads. Claim that I am on the brink of death, and say that you hope to obtain Papa Witch Doctor's medicine to cure my illness. While that is happening, I will infiltrate his hut and steal his mushroom wine. With it, we can grant more wisdom to our tribe and eliminate more of its troubles.\""
               }
-            ]
+            ],
+            "id": "p-f49e64a06e51ce0b"
           },
           {
             "type": "paragraph",
@@ -149,7 +165,8 @@
                 "type": "text",
                 "text": "\"Think it over, would you, dear brother? Just imagine how much our tribe would gain from obtaining that wine — not to mention how much we'd both benefit!\""
               }
-            ]
+            ],
+            "id": "p-2cbacfacd538e1e2"
           },
           {
             "type": "paragraph",
@@ -158,7 +175,8 @@
                 "type": "text",
                 "text": "The younger brother had wanted to refuse, but having rashly agreed to his brother's first request, he could only consent to Kompore's sinister plot."
               }
-            ]
+            ],
+            "id": "p-77a51d9f8e24d764"
           },
           {
             "type": "paragraph",
@@ -167,13 +185,15 @@
                 "type": "text",
                 "text": "Of course, this is merely Kompore's own account. Why did he cast himself as a villain who betrayed his brother, and is this story truly or falsely told? Yet, since he has become a tribal hero, very few dare to investigate further."
               }
-            ]
+            ],
+            "id": "p-2024fb0467a6da20"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "vol-3",
       "label": "Vol. 3",
       "document": {
         "version": 1,
@@ -185,7 +205,8 @@
                 "type": "text",
                 "text": "Although Sanhaj had agreed to his brother's treacherous plot, his honest heart was filled with anguish and doubt over deceiving the Lord of the Crossroads. Thus, in his troubled dreams, Sanhaj revealed his brother's scheme."
               }
-            ]
+            ],
+            "id": "p-d1f4ddaf1698ca18"
           },
           {
             "type": "paragraph",
@@ -194,7 +215,8 @@
                 "type": "text",
                 "text": "Mama Dream-Realm stretched out her hands as black as night, embracing the honest Sanhaj and kissing his brow. In the dark, silent dream, she had already forgiven Sanhaj's crimes. Indeed, as a reward for his honesty, she poured the mysterious mushroom wine into an obsidian cup and handed it to him."
               }
-            ]
+            ],
+            "id": "p-8d35a09e4b8f194d"
           },
           {
             "type": "paragraph",
@@ -203,7 +225,8 @@
                 "type": "text",
                 "text": "However, at this moment, Kompore burst into his brother's tent and threw a rough hemp rope around his sleeping brother's neck — long had he known that his brother would reveal his plan to the Lord of the Crossroads."
               }
-            ]
+            ],
+            "id": "p-78bd356011a65bd1"
           },
           {
             "type": "paragraph",
@@ -212,7 +235,8 @@
                 "type": "text",
                 "text": "And so, before the master of dreams could even issue a warning, Sanhaj met his end at the hands of his own brother. The obsidian cup filled with mushroom wine slipped from his grasp, staining his chest and the bloodsoaked hemp rope tightly wound around his neck."
               }
-            ]
+            ],
+            "id": "p-5e604338e52c0aee"
           },
           {
             "type": "paragraph",
@@ -221,7 +245,8 @@
                 "type": "text",
                 "text": "This grave crime enraged the Lord of the Crossroads, who grieved Sanhaj's death. He immediately laid a curse upon the cunning Kompore: his unhappy brother Sanhaj would be resurrected within him, and would prophesize the fullness of his fate. From that moment on, all those he had deceived and murdered would be forever etched in his memory; and every lie he had ever told, his brother would repeat a thousand times over in his ear. Thus did Kompore gain the boon from drinking the mushroom wine, yet stain himself with an indelible sin and curse."
               }
-            ]
+            ],
+            "id": "p-b1bf585f8b659c29"
           },
           {
             "type": "paragraph",
@@ -230,7 +255,8 @@
                 "type": "text",
                 "text": "So it was that Kompore gained a new name, \"Sanhaj Kompore.\" Only much, much later, when Tenoch mustered heroes for a final stand against the wild, pitch-black torrent, did he finally find a way to redeem himself... but that is another story. Haha, likewise, since many tribespeople have witnessed Sanhaj Kompore's scheming smile in the pitch-dark night, even after that decisive day of battle... that story must surely be yet another of Sanhaj Kompore's jokes or riddles."
               }
-            ]
+            ],
+            "id": "p-e4157c6cc95a1f4e"
           }
         ]
       }

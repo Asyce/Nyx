@@ -4,10 +4,11 @@
   "id": "a-note-from-anaxa",
   "name": "A Note from Anaxa",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/A_Note_from_Anaxa",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "To (Trailblazer):"
               }
-            ]
+            ],
+            "id": "p-dfbb379e0fa5c1c3"
           },
           {
             "type": "paragraph",
@@ -54,7 +56,8 @@
                 "type": "text",
                 "text": "On the final stage, I witnessed you achieve the miracle of defying destiny."
               }
-            ]
+            ],
+            "id": "p-49485c74d2888480"
           },
           {
             "type": "paragraph",
@@ -89,7 +92,8 @@
                 "type": "text",
                 "text": "Therefore: Having glimpsed the truth beyond the cave, I must never cease my quest."
               }
-            ]
+            ],
+            "id": "p-2f118e4fe62ac1be"
           },
           {
             "type": "paragraph",
@@ -124,7 +128,8 @@
                 "type": "text",
                 "text": "and once again surpass and desecrate that which is more divine and magnificent!"
               }
-            ]
+            ],
+            "id": "p-29b4a3ffc2f03ff9"
           },
           {
             "type": "paragraph",
@@ -159,7 +164,8 @@
                 "type": "text",
                 "text": "but when you encounter fools who won't listen to reason, use its hardness to knock some sense into them."
               }
-            ]
+            ],
+            "id": "p-fd3e88cf38e8a92f"
           },
           {
             "type": "paragraph",
@@ -168,7 +174,8 @@
                 "type": "text",
                 "text": "Anaxagoras"
               }
-            ]
+            ],
+            "id": "p-d0f987dab87e5523"
           }
         ]
       }

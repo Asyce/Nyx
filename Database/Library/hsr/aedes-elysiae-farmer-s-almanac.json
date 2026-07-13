@@ -4,10 +4,11 @@
   "id": "aedes-elysiae-farmer-s-almanac",
   "name": "Aedes Elysiae Farmer's Almanac",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Aedes_Elysiae_Farmer%27s_Almanac",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-4a05ac67eadfe404"
           },
           {
             "type": "paragraph",
@@ -61,7 +63,8 @@
                 "type": "text",
                 "text": "When the skyveil is still (stars stable): undertake large-scale farming, all tasks are suitable."
               }
-            ]
+            ],
+            "id": "p-dbcdcf8f28bd09aa"
           },
           {
             "type": "paragraph",
@@ -149,7 +152,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-015cf48bc24ac648"
           },
           {
             "type": "paragraph",
@@ -227,7 +231,8 @@
                 "type": "text",
                 "text": ", praying for the skyveil to grant a suitable time for cultivation."
               }
-            ]
+            ],
+            "id": "p-57e08a9ba136bbc6"
           },
           {
             "type": "paragraph",
@@ -301,7 +306,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-9a926682f7c12956"
           },
           {
             "type": "paragraph",
@@ -380,7 +386,8 @@
                 "type": "text",
                 "text": "Ritual: On the first day of the Month of Cultivation, the whole village gathers, dressed neatly, crowned with garlands of wheat. The village chief, carrying the stone hoe — Georios' authority symbol — cuts the first furrow into the fields, ushering in the new season of toil and hope."
               }
-            ]
+            ],
+            "id": "p-ab7b014376f1364c"
           },
           {
             "type": "paragraph",
@@ -454,7 +461,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-1d5d8398dfbee97a"
           },
           {
             "type": "paragraph",
@@ -519,7 +527,8 @@
                 "type": "text",
                 "text": "Special Care for the Wheat Fields: As the wheat begins to form its heads, keep a careful eye on the skyveil of Oronyx: If the veil grows thin and the stars shine bright, drought looms — water the fields generously. If the veil grows heavy and dim, rain is coming — reinforce the ditches to guard against floods."
               }
-            ]
+            ],
+            "id": "p-139b8a1f6a46d8bc"
           },
           {
             "type": "paragraph",
@@ -593,7 +602,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-5768050ef7febcd9"
           },
           {
             "type": "paragraph",
@@ -685,7 +695,8 @@
                 "type": "text",
                 "text": "Community Gathering: On the Great Harvest Day, all gather in the fields. Elders direct the work, young adults harvest, youths transport bundles, and women and children collect scattered wheat ears, ensuring no grain is wasted."
               }
-            ]
+            ],
+            "id": "p-8f107127a3e719cf"
           },
           {
             "type": "paragraph",
@@ -759,7 +770,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-46ec7886cde62f39"
           },
           {
             "type": "paragraph",
@@ -824,7 +836,8 @@
                 "type": "text",
                 "text": "Grain Keeper's Secrets: Lay dry olive leaves at the granary's base to prevent insect damage. Coat the granary walls with a mix of mud and ash to keep out moisture. Insert blessed herb branches into the grain piles to repel pests."
               }
-            ]
+            ],
+            "id": "p-46cc60fb6344bc6b"
           },
           {
             "type": "paragraph",
@@ -889,7 +902,8 @@
                 "type": "text",
                 "text": "Ritual: In the Month of Mourning, villagers erect wheat stalk effigies at the field's edge, symbolizing ancestors who guard the land. Each family places a grain offering at the effigies' feet, giving thanks for their protection and inherited wisdom."
               }
-            ]
+            ],
+            "id": "p-e8477c4984f43b4d"
           },
           {
             "type": "paragraph",
@@ -977,7 +991,8 @@
                 "type": "text",
                 "text": "Special Reminder: Choose the right time to observe the Oronyx skyveil."
               }
-            ]
+            ],
+            "id": "p-c564627e83fa77f9"
           },
           {
             "type": "paragraph",
@@ -998,7 +1013,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-d0302a4d3dfe19bc"
           }
         ]
       }

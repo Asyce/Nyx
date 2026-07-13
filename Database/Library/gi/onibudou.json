@@ -4,10 +4,11 @@
   "id": "onibudou",
   "name": "Onibudou",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Onibudou",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -879,7 +880,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-17dbc9972a2d4f6c"
           }
         ]
       }

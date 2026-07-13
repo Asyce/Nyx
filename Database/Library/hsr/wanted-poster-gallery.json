@@ -4,10 +4,11 @@
   "id": "wanted-poster-gallery",
   "name": "Wanted Poster Gallery",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Wanted_Poster_Gallery",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "wanted-poster-by-gepard",
       "label": "Wanted Poster by Gepard",
       "document": {
         "version": 1,
@@ -40,13 +41,15 @@
                 "type": "text",
                 "text": "Wanted Poster - unbridled poster of Sampo.png"
               }
-            ]
+            ],
+            "id": "p-f8733b8409efff99"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "wanted-poster-by-pela",
       "label": "Wanted Poster by Pela",
       "document": {
         "version": 1,
@@ -72,7 +75,8 @@
                 "type": "text",
                 "text": "Wanted Poster - sensuous poster of Dan Heng.png"
               }
-            ]
+            ],
+            "id": "p-1487778552fdc21b"
           }
         ]
       }

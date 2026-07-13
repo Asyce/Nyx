@@ -4,10 +4,11 @@
   "id": "phantasmoon-games-emergency-response-guide",
   "name": "Phantasmoon Games Emergency Response Guide",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Phantasmoon_Games_Emergency_Response_Guide",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "During the Phantasmoon Games, numerous unpredictable aberrations and incidents will occur throughout Planarcadia due to factors such as \"miracles\" offered by Supplicants, oversaturated Wishpower, and concentrated generation of aberrant disasters. All local residents and off-world visitors are advised to remain calm, stay tuned to news reports from the Department of Aberration Defense, steer clear of dangerous zones, and safely enjoy the Phantasmoon Games. Should you encounter any emergencies, please refer to the response guidelines, which can greatly improve your chances of survival."
               }
-            ]
+            ],
+            "id": "p-fbf94ff867953d50"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "1. If you find yourself caught in an anomaly triggered by a Supplicant, immediately distance yourself and head toward \"home.\" During this time, do not respond to any voices coming from behind you or from your right."
               }
-            ]
+            ],
+            "id": "p-50da14d9fcff521e"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "2. \"Home\" is an enclosed or semi-enclosed space suitable for human habitation, generally containing objects such as chairs, beds, washbasins, etc. If the \"home\" you are in does not meet the above definition, immediately read the following: \"There are no monkeys dancing on giant teeth, and no black lizards can be seen in the whale's belly.\" Remain still, and wait for a safety notice from the Department of Aberration Defense."
               }
-            ]
+            ],
+            "id": "p-eb6ec8387cbdbbd4"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "3. Safety Notices from the Department of Aberration Defense come in several forms: broadcasts, TV News, online streams, and so on. The broadcaster's head should consist of eyes, ears, a mouth, and a nose, not a pineapple or an apple."
               }
-            ]
+            ],
+            "id": "p-7ba486662e3cff42"
           },
           {
             "type": "paragraph",
@@ -68,7 +73,8 @@
                 "type": "text",
                 "text": ")"
               }
-            ]
+            ],
+            "id": "p-b701d18ec9f159e4"
           },
           {
             "type": "paragraph",
@@ -77,7 +83,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -86,7 +93,8 @@
                 "type": "text",
                 "text": "15. If you lose your way and find yourself within a Supplicant's sphere of influence, you can take refuge in a nearby fragment of the World in Canvas. But please note: In the vast majority of cases, canvas fragments won't talk, won't laugh, and have no teeth."
               }
-            ]
+            ],
+            "id": "p-3c4b03cf0d70e8a4"
           },
           {
             "type": "paragraph",
@@ -95,7 +103,8 @@
                 "type": "text",
                 "text": "16. The safe zone at the edge of the World in Canvas retains close to reality's three-dimensional coordinate axes. If you notice your body starting to become two-dimensional, immediately turn back the way you came."
               }
-            ]
+            ],
+            "id": "p-ba01ce6ace6cbfb8"
           },
           {
             "type": "paragraph",
@@ -104,7 +113,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -113,7 +123,8 @@
                 "type": "text",
                 "text": "30. Objects that fall from the sky en masse are usually rain. Rain is a collection of water, not candy, and definitely not vintage flip phones. If you encounter a similar phenomenon, do not answer messages from the candy, and do not eat the phone."
               }
-            ]
+            ],
+            "id": "p-4944eb5ecd66c058"
           },
           {
             "type": "paragraph",
@@ -122,7 +133,8 @@
                 "type": "text",
                 "text": "31. A joke is a piece of information designed to induce laughter and does not possess the ability to move. If a joke claims it's heading to its friend the refrigerator's wedding to steal away its electric toothbrush bride, please board the nearest science fiction novel and get out of there."
               }
-            ]
+            ],
+            "id": "p-5d886ac1b51c1ef5"
           },
           {
             "type": "paragraph",
@@ -144,7 +156,8 @@
                 "type": "text",
                 "text": ")"
               }
-            ]
+            ],
+            "id": "p-1b236530f1a32ab9"
           },
           {
             "type": "paragraph",
@@ -153,7 +166,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-3"
           },
           {
             "type": "paragraph",
@@ -162,7 +176,8 @@
                 "type": "text",
                 "text": "102. If you happen to get trapped inside a television, stand as close to the screen as possible to maximize your on-screen presence. When you hear children's songs being sung in chorus around you, whatever you do, do NOT sing along."
               }
-            ]
+            ],
+            "id": "p-e6ea506fac63f99a"
           },
           {
             "type": "paragraph",
@@ -171,7 +186,8 @@
                 "type": "text",
                 "text": "103. When attempting the above, make sure you're inside the TV, not trying to walk into it."
               }
-            ]
+            ],
+            "id": "p-a9988f010ce588dd"
           },
           {
             "type": "paragraph",
@@ -180,7 +196,8 @@
                 "type": "text",
                 "text": "(Related Report: Children's program host lures massive audience into a carefree \"Fairy Tale Kingdom,\" now officially classified as a kidnapping case.)"
               }
-            ]
+            ],
+            "id": "p-1442d74aab1d3653"
           },
           {
             "type": "paragraph",
@@ -189,7 +206,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-4"
           },
           {
             "type": "paragraph",
@@ -203,7 +221,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-94168b381eeef842"
           }
         ]
       }

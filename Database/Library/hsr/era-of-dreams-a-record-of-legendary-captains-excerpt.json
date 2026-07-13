@@ -4,10 +4,11 @@
   "id": "era-of-dreams-a-record-of-legendary-captains-excerpt",
   "name": "Era of Dreams: A Record of Legendary Captains Excerpt",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Era_of_Dreams:_A_Record_of_Legendary_Captains_Excerpt",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "This book aims to chronicle the life of past captains of the Radiant Feldspar. Through their stories, this book wishes to unveil the secrets surrounding the mysterious luxury airship known as the Radiant Feldspar, and showcase the ship's importance in the history of Penacony."
               }
-            ]
+            ],
+            "id": "p-ca3585fbd1fec920"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Being able to cruise along the Sea of Dreams almost endlessly does not mean that the Sea of Dreams itself is tranquil and serene. Indeed, this writer once calculated the length of service of past captains, only to realize that these captains did not hold their positions for long. During the Radiant Feldspar's early days, ten consecutive captains had to step down as a result of injuries. This is even after The Family had, on numerous occasions, dispatched Dreamweaver teams to upgrade certain components of the Radiant Feldspar in the hope of ensuring her safety while cruising. Subsequent captains did not serve any longer as a result of these improvements. Some conspiracy theorists believe this to be related to the social status of guests aboard the airship. After all, having an extensive network of connections typically signifies huge profits are involved..."
               }
-            ]
+            ],
+            "id": "p-cb14c39a40c82332"
           },
           {
             "type": "paragraph",
@@ -57,7 +60,8 @@
                 "type": "text",
                 "text": "The story of the Radiant Feldspar begins with a Dreamweaver from the Oak Family: Danny. Despite graduating from Paperfold University with stellar grades, Danny, who saw adventure as his true passion, did not continue to work as a Dreamweaver. Instead, he wandered along the border of Dreamscape and reality, searching tirelessly for a way to link the two worlds. It is said that the inspiration for building the Radiant Feldspar came from the first time he ventured deep into the dense fog of the sea of memoria, where he went on a wondrous adventure that felt nearly dream-like. To the creator and first-ever captain of the Radiant Feldspar, the luxurious airship was not only a bond that linked all of Penacony's Twelve Hours, but also a glorious achievement that showcased The Family's status."
               }
-            ]
+            ],
+            "id": "p-358dd1f96ea9cb89"
           },
           {
             "type": "paragraph",
@@ -66,7 +70,8 @@
                 "type": "text",
                 "text": "Under Danny's command, the Radiant Feldspar completed her very first cruise. Departing from the Penacony Grand Theater, the Radiant Feldspar slowly embarked on her maiden cruise under Danny's leadership, becoming not only a source of pride for The Family, but ultimately a legend in the Cosmos itself. Danny's contributions toward the Radiant Feldspar did not lie with her design and construction alone. More importantly, with his extensive expeditionary experience, he also drew up the initial cruise route for this airship, officially marking the start of the Radiant Feldspar's storied tale."
               }
-            ]
+            ],
+            "id": "p-3b68a163d542c4d2"
           },
           {
             "type": "paragraph",
@@ -85,7 +90,8 @@
                 "type": "text",
                 "text": "Taking over the helm from Danny, the second captain of the Radiant Feldspar was Amber, an extraordinary lady from the Bloodhound Family. Under her leadership, the Radiant Feldspar not only successfully rode out Memory Zone storms time and again, but also discovered new cruise routes amid the tempests, thereby making significant contributions to the exploration of Penacony. Amber's control of the Radiant Feldspar was arguably perfect. Ensuring the safety of the airship and all the guests aboard her was all in a day's work for her, even in the most perilous of conditions."
               }
-            ]
+            ],
+            "id": "p-4ff38c3e8b7c0dda"
           },
           {
             "type": "paragraph",
@@ -94,7 +100,8 @@
                 "type": "text",
                 "text": "Amber's admirable courage and resolve led her to become one of the most respected captains of the Radiant Feldspar across its storied history."
               }
-            ]
+            ],
+            "id": "p-3bb2f2e948763906"
           },
           {
             "type": "paragraph",
@@ -103,7 +110,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -122,7 +130,8 @@
                 "type": "text",
                 "text": "As the 18th captain of the Radiant Feldspar, Gareth was renowned for his in-depth understanding of the Sea of Dreams. Born to a Pepeshi family that sailed for a living for generation after generation, Gareth had always held boundless curiosity and passion toward sailing."
               }
-            ]
+            ],
+            "id": "p-4e9dc4e93d32da11"
           },
           {
             "type": "paragraph",
@@ -131,7 +140,8 @@
                 "type": "text",
                 "text": "After assuming the position of captain, he brought revolutionary changes to the Radiant Feldspar's cruise routes. Under his guidance, the Radiant Feldspar could not only cruise at will along the Sea of Dreams, but also accurately determine the optimal route to the Twelve Hours. With this, the link between Penacony's Dreamscape and the planetary system of the outside world was tightened."
               }
-            ]
+            ],
+            "id": "p-b9598cd2d0fe6474"
           },
           {
             "type": "paragraph",
@@ -140,7 +150,8 @@
                 "type": "text",
                 "text": "Gareth's contributions did not stop at just improving the Radiant Feldspar's cruise routes. Aboard the airship, he also established a miniature observation station that could be used to research the various bizarre phenomena witnessed in the Sea of Dreams. These studies not only improved understanding of memoria and the Sea of Dreams among academic circles, but they also significantly contributed to the development of Penaconian technology."
               }
-            ]
+            ],
+            "id": "p-ed9ac09588c78cc2"
           },
           {
             "type": "paragraph",
@@ -149,7 +160,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -168,7 +180,8 @@
                 "type": "text",
                 "text": "Across the long history of the Radiant Feldspar, few understood the world of the Dreamscape as well as Irina did. Hailing from the Nightingale Family, Irina demonstrated a keen interest in the Dreamscape even as a child, often offering unique insights into the world. When she assumed the post of Radiant Feldspar captain, her foremost mission was to explore the Sea of Dreams for new cruising lanes, to replace old lanes that had since been blocked by Memory Zone storms."
               }
-            ]
+            ],
+            "id": "p-fd04cbbf93825a30"
           },
           {
             "type": "paragraph",
@@ -177,7 +190,8 @@
                 "type": "text",
                 "text": "The most commendable deed that Irina ever accomplished was the time when the Radiant Feldspar met with an accident. Irina's masterful control over Dreamweaving technology allowed her to successfully stabilize a cruising lane on the brink of collapse, thereby saving all the lives on deck. This feat not only proved her abilities as a captain, but it also demonstrated just how significant the contributions that Dreamweavers made toward Penacony were."
               }
-            ]
+            ],
+            "id": "p-79046a15d8466364"
           },
           {
             "type": "paragraph",
@@ -186,7 +200,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-3"
           },
           {
             "type": "paragraph",
@@ -205,7 +220,8 @@
                 "type": "text",
                 "text": "Born a Halovian, Lukas was renowned for his passion for music and his genius that spurred a legend of a music concert aboard the Radiant Feldspar."
               }
-            ]
+            ],
+            "id": "p-1da30374634c1b82"
           },
           {
             "type": "paragraph",
@@ -214,7 +230,8 @@
                 "type": "text",
                 "text": "Lukas believed that music was the bridge that connected different lives and cultures, as well as the key to exploring the various planets. Under his leadership, the Radiant Feldspar was transformed into a floating palace of music. Each time a new guest boarded the airship, he would always organize a grand concert and invite musicians from different star systems to perform at the event. He used the power of music to astound esteemed guests who were arriving at Penacony for the first time to their very beings."
               }
-            ]
+            ],
+            "id": "p-4b84120620f7d26f"
           },
           {
             "type": "paragraph",
@@ -223,7 +240,8 @@
                 "type": "text",
                 "text": "During an unprecedented concert, Lukas successfully used the resonance of music to transport the listeners to the Grand Theater, creating the most miraculous of viewing experiences at the theater across that performance season. This feat not only garnered him glory and honor of the highest degree, it also added another amazing chapter to the legendary story of the Radiant Feldspar."
               }
-            ]
+            ],
+            "id": "p-d9c4c02c2fa12c6a"
           }
         ]
       }

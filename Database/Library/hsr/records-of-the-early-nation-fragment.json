@@ -4,10 +4,11 @@
   "id": "records-of-the-early-nation-fragment",
   "name": "Records of the Early Nation (Fragment)",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Records_of_the_Early_Nation_(Fragment)",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "We often look back at the history before the Three Sufferings with a judgement gaze."
               }
-            ]
+            ],
+            "id": "p-af7f57c00a60b81a"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "For the veil of time hangs low before us and shrouds the past in mist, abjuring even the eldest among us to see clearly."
               }
-            ]
+            ],
+            "id": "p-07f4304cc6fff759"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "Thus, we evaluate the people of four thousand years ago in this way: Attempting to walk the path of immortals as humans, to endure divine miracles as mortals, only to suffer the backlash of karma in the end."
               }
-            ]
+            ],
+            "id": "p-87022ed11429a73a"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "However, now, let us part the veil and gaze with your own eyes. Was the past truly wretched so?"
               }
-            ]
+            ],
+            "id": "p-8042cd8f8fe8bc9c"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "The Ambrosial Arbor grew and the path of immortality prospered. Humans explored the world with infinite lifespan, caring for themselves as divine beings. The Xianzhou fleet sailed across the vastness, like the holiest among all creatures."
               }
-            ]
+            ],
+            "id": "p-7b117724b067cbc4"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "Crafting miracle pills, harmonizing Fallow Earth, seeking endless immortality through altered flesh — that very moment was the eternity that stretched till boundless infinity."
               }
-            ]
+            ],
+            "id": "p-36a51ec5f4e3373c"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "The immortality of flesh gives birth to liberated souls, and billions upon billions of freed souls — in the name of the Xianzhou — resound the will of longevity across the starry seas."
               }
-            ]
+            ],
+            "id": "p-fddcf1bbdc3760fe"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "We enlightened the beasts, enabling even pilose creatures to speak the language of humans. We illumined gold and stone, using the jade abacus to deduce the events of eternity."
               }
-            ]
+            ],
+            "id": "p-7ee6f96a90ce664f"
           },
           {
             "type": "paragraph",
@@ -91,7 +100,8 @@
                 "type": "text",
                 "text": "The Ambrosial Arbor grew and the path of immortality prospered. Why should there be any crime in all beings enjoying such abundance? The dynasty of the Primeval Imperium came to the end, and the newly born Xianzhou fleet set sail toward freedom, eternity, and compassion, carrying infinite brilliance. But why, at that time, did the Reignbow Arbiter obstruct our course?"
               }
-            ]
+            ],
+            "id": "p-cba56d064d86bf21"
           },
           {
             "type": "paragraph",
@@ -107,7 +117,8 @@
                 "type": "text",
                 "text": "But it will return eventually, guiding the Xianzhou back to its rightful course."
               }
-            ]
+            ],
+            "id": "p-195d9d4f5c64eedc"
           }
         ]
       }

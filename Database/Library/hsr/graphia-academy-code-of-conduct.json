@@ -4,10 +4,11 @@
   "id": "graphia-academy-code-of-conduct",
   "name": "Graphia Academy Code of Conduct",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Graphia_Academy_Code_of_Conduct",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,11 +25,13 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-55f76deda2176ea2"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -37,11 +40,13 @@
                 "type": "text",
                 "text": "Graphia Academy is the finest institution for the arts in all of Planarcadia. We are dedicated to providing every student with a world-class education. For the sake of your future, please observe the following rules and regulations with the utmost care."
               }
-            ]
+            ],
+            "id": "p-531d72eed2ac06c5"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a-2"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ac9759220a2e2c83"
           },
           {
             "type": "paragraph",
@@ -104,7 +110,8 @@
                 "type": "text",
                 "text": "6. All members of the academy are expected to coexist in harmony, respecting the customs of all groups to foster a peaceful campus environment."
               }
-            ]
+            ],
+            "id": "p-daa8bf170133fad5"
           },
           {
             "type": "paragraph",
@@ -118,7 +125,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-bbae2a797702c788"
           },
           {
             "type": "paragraph",
@@ -127,7 +135,8 @@
                 "type": "text",
                 "text": "Academic Buildings and General Classrooms"
               }
-            ]
+            ],
+            "id": "p-9e1445a59bd7bcea"
           },
           {
             "type": "paragraph",
@@ -186,7 +195,8 @@
                 "type": "text",
                 "text": "6. Some buildings are currently under renovation. Avoid areas with piled debris or unfamiliar, empty halls, and never attempt to force open a locked door."
               }
-            ]
+            ],
+            "id": "p-b2aebf4ad781aa47"
           },
           {
             "type": "paragraph",
@@ -210,7 +220,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-8fe0ca9c0f6c49ce"
           },
           {
             "type": "paragraph",
@@ -269,7 +280,8 @@
                 "type": "text",
                 "text": "6. A loose Gymnasium door is a known issue being addressed by maintenance. If you hear strange noises coming from it, do not kick the door, and leave the area immediately."
               }
-            ]
+            ],
+            "id": "p-e25915395855625f"
           },
           {
             "type": "paragraph",
@@ -283,7 +295,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ed126204e318a139"
           },
           {
             "type": "paragraph",
@@ -292,7 +305,8 @@
                 "type": "text",
                 "text": "Atrium and Entrance Hall"
               }
-            ]
+            ],
+            "id": "p-7133a3419f6a7424"
           },
           {
             "type": "paragraph",
@@ -351,7 +365,8 @@
                 "type": "text",
                 "text": "6. NO GRAFFITI ALLOWED ON CAMPUS!!!"
               }
-            ]
+            ],
+            "id": "p-72a0ab119f25f793"
           },
           {
             "type": "paragraph",
@@ -360,7 +375,8 @@
                 "type": "text",
                 "text": "Library"
               }
-            ]
+            ],
+            "id": "p-aa8a499599193a7c"
           },
           {
             "type": "paragraph",
@@ -389,7 +405,8 @@
                 "type": "text",
                 "text": "3. Please strictly abide by any other requirements from the librarian."
               }
-            ]
+            ],
+            "id": "p-c96d369e01a7da94"
           },
           {
             "type": "paragraph",
@@ -403,7 +420,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-b197b8e0bdc026f3"
           },
           {
             "type": "paragraph",
@@ -412,7 +430,8 @@
                 "type": "text",
                 "text": "To encourage a well-rounded development for all students, our school is willing to provide appropriate support for the establishment of various interest clubs. However, all clubs must strictly follow the requirements below. Any club found in violation will face disbandment."
               }
-            ]
+            ],
+            "id": "p-c9274a2fbeae2747"
           },
           {
             "type": "paragraph",
@@ -451,7 +470,8 @@
                 "type": "text",
                 "text": "4. If malicious acts are committed in the name of a club, the school will hand the culprits over to the security officers for investigation after they have been stopped and apprehended."
               }
-            ]
+            ],
+            "id": "p-313936f91523571a"
           },
           {
             "type": "paragraph",
@@ -460,7 +480,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           }
         ]
       }

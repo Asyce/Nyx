@@ -131,22 +131,33 @@ async function verifyRuntimeData(base) {
   }
   for (const game of ['gi','hsr']) {
     const indexUrl = `/data/library/${game}/index.json`;
+    const searchUrl = `/data/library/${game}/search-index.json`;
     if (!urls.has(indexUrl)) throw new Error(`runtime manifest is missing ${indexUrl}`);
+    if (!urls.has(searchUrl)) throw new Error(`runtime manifest is missing ${searchUrl}`);
     const index = JSON.parse(await readDeployText(indexUrl.slice(1)));
+    const search = JSON.parse(await readDeployText(searchUrl.slice(1)));
     if (!Array.isArray(index.entries) || index.entries.length !== index.count || !index.entries.length) throw new Error(`${indexUrl} is empty or invalid`);
+    if (search?.schemaVersion !== 1 || search.game !== game || search.bookCount !== index.count || !Array.isArray(search.books) || search.books.length !== index.count || search.wordCount !== Object.keys(search.words || {}).length) throw new Error(`${searchUrl} is invalid`);
     for (const row of index.entries) {
       if (!urls.has(`/data/library/${game}/${row.file}`)) throw new Error(`${indexUrl} book is absent from manifest: ${row.file}`);
       if (row.icon && !urls.has(`/data/library/${game}/${row.icon}`)) throw new Error(`${indexUrl} icon is absent from manifest: ${row.icon}`);
       const book = JSON.parse(await readDeployText(`data/library/${game}/${row.file}`));
       if (book?.schemaVersion !== 1 || book.game !== game || book.id !== row.id || book.name !== row.name || !Array.isArray(book.volumes) || book.volumes.length !== row.volumeCount) throw new Error(`${row.file} identity/volume data does not match ${indexUrl}`);
-      if (!Array.isArray(row.volumeLabels) || row.volumeLabels.length !== book.volumes.length) throw new Error(`${row.file} labels do not match ${indexUrl}`);
+      if (!Array.isArray(row.volumeLabels) || row.volumeLabels.length !== book.volumes.length || !Array.isArray(row.volumeKeys) || row.volumeKeys.length !== book.volumes.length) throw new Error(`${row.file} volume metadata does not match ${indexUrl}`);
       for (let volumeIndex = 0; volumeIndex < book.volumes.length; volumeIndex += 1) {
         const volume = book.volumes[volumeIndex];
-        if (volume?.label !== row.volumeLabels[volumeIndex] || volume?.document?.version !== 1 || !Array.isArray(volume.document.blocks)) throw new Error(`${row.file} volume ${volumeIndex + 1} is invalid`);
-        for (const block of volume.document.blocks) if (!['heading','paragraph','list','table','image'].includes(block?.type)) throw new Error(`${row.file} has a disallowed structured block`);
+        if (volume?.label !== row.volumeLabels[volumeIndex] || volume?.volumeKey !== row.volumeKeys[volumeIndex] || volume?.document?.version !== 1 || !Array.isArray(volume.document.blocks)) throw new Error(`${row.file} volume ${volumeIndex + 1} is invalid`);
+        for (const block of volume.document.blocks) {
+          if (!['heading','paragraph','list','table','image'].includes(block?.type)) throw new Error(`${row.file} has a disallowed structured block`);
+          if (block.type === 'heading' && !/^h-[a-f0-9]{16}(?:-(?:[2-9]|[1-9][0-9]+))?$/.test(block.id || '')) throw new Error(`${row.file} has an invalid heading id`);
+          if (block.type === 'paragraph' && !/^p-[a-f0-9]{16}(?:-(?:[2-9]|[1-9][0-9]+))?$/.test(block.id || '')) throw new Error(`${row.file} has an invalid paragraph id`);
+          if (block.type === 'list' && block.items.some((item) => !/^li-[a-f0-9]{16}(?:-(?:[2-9]|[1-9][0-9]+))?$/.test(item.id || ''))) throw new Error(`${row.file} has an invalid list item id`);
+          if (block.type === 'table' && block.rows.some((row) => row.cells.some((cell) => !/^td-[a-f0-9]{16}(?:-(?:[2-9]|[1-9][0-9]+))?$/.test(cell.id || '')))) throw new Error(`${row.file} has an invalid table cell id`);
+        }
       }
     }
     await checkFetch(base, indexUrl, '"entries"', 100);
+    await checkFetch(base, searchUrl, '"words"', 100);
     await checkFetch(base, `/data/library/${game}/${index.entries[0].file}`, '"volumes"', 100);
   }
   for (const game of ['gi','hsr','zzz','wuwa','ae']) {
@@ -239,6 +250,9 @@ async function main() {
   if (!bundle.includes('Monsters and Items could not be loaded.')) throw new Error('bundle missing lazy Database retry state');
   if (!bundle.includes('database/serenitea-pot')) throw new Error('bundle missing canonical nested Database routes');
   if (!bundle.includes('database/wonderland')) throw new Error('bundle missing Wonderland Database route');
+  if (!bundle.includes('tcg-filter-popout')) throw new Error('bundle missing compact TCG filter popout');
+  if (!bundle.includes('db-load-more')) throw new Error('bundle missing progressive Database result reveal');
+  if (bundle.includes('Showing 400 of')) throw new Error('bundle still contains the old 400-result dead end');
   if (!bundle.includes('Search Miliastra Wonderland')) throw new Error('bundle missing accessible Wonderland search');
   if (!bundle.includes('Search The Library')) throw new Error('bundle missing The Library search');
   if (!bundle.includes('Opening book')) throw new Error('bundle missing The Library lazy-reader state');

@@ -4,10 +4,11 @@
   "id": "urban-legend-the-vanishing-giant",
   "name": "Urban Legend: The Vanishing Giant",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Urban_Legend:_The_Vanishing_Giant",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Fifteen years ago, a Supplicant chose to harvest fear as Wishpower during Phantasmoon Games. The Herald of Death he transformed into caused massive panic in Duomension City, and several Supplicants lost their lives in the process of subduing him. In the end, this Bloodstained Games faded into obscurity, shrouded in mystery. No one even knows who ultimately emerged victorious in the audience with Aha. As a result, numerous urban legends quietly took root, and among them, the most influential became known as... Giants That Vanished."
               }
-            ]
+            ],
+            "id": "p-b035a07989250410"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Mysterious Sightings"
               }
-            ]
+            ],
+            "id": "p-3d8536d11cb211e1"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "Although the Department of Aberration Defense quickly organized the evacuation of nearby residents, some districts were too close to the Herald of Death's path of action and were still caught in the combat while evacuating. Some victims were permanently disabled and could only live out their remaining days in sterile isolation chambers with the IPC's support."
               }
-            ]
+            ],
+            "id": "p-10be215c5bdd1bcf"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "According to survivors' accounts, just before the IPC's suppression forces arrived, they witnessed an intense beam of light appear in the sky, followed by a tremendous roar, almost a howl or mechanical rumbling, coming from its direction, accompanied by spatial distortions. Then, a gigantic arm descended from above, crashing down heavily toward where the Herald of Death was located. After intense ground tremors, a massive Wishpower surge caused numerous electronic devices in the area to shut down, and the giant vanished without a trace."
               }
-            ]
+            ],
+            "id": "p-9c3cc267a7994dcf"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "Countless Questions"
               }
-            ]
+            ],
+            "id": "p-e71da110b33b47f7"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "What was that arm exactly? Was it what defeated the Herald of Death? This phenomenon has never been officially explained, leaving netizens puzzled for fifteen years."
               }
-            ]
+            ],
+            "id": "p-4770b9c431c8b823"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "First off, do giants really exist? Even though the Department of Aberration Defense conducted extensive memetic cleansing of all information related to Phantasmoon Games, could they really have erased every single photo? To this day, not a shred of visual evidence exists to prove that giants are real, rather than some mass hallucination or a case of distorted message relay."
               }
-            ]
+            ],
+            "id": "p-a99ea597b18ac115"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "Secondly, even if giants truly exist, what caused their appearance and disappearance? Some netizens believe that giants might be a super weapon hidden by the IPC in Planarcadia, as the technological prowess of the Interastral Peace Corporation would indeed match the destructive power described by eyewitnesses. Some suggest that the gigantic arm was an imagenetic manifestation of Aha, where THEY created this avatar to punish the Herald of Death for violating the rules of Phantasmoon Games. However, other netizens argue against this, pointing out that Herald of Death's actions didn't exceed the limitations of Phantasmoon Games, and Aha wouldn't actively interfere with the games."
               }
-            ]
+            ],
+            "id": "p-c41ac5c78761924c"
           },
           {
             "type": "paragraph",
@@ -91,7 +100,8 @@
                 "type": "text",
                 "text": "Far-reaching Impact"
               }
-            ]
+            ],
+            "id": "p-28c65d348b37706f"
           },
           {
             "type": "paragraph",
@@ -100,7 +110,8 @@
                 "type": "text",
                 "text": "Whether it was a rumor or a true event, the story of a giant appearing in Planarcadia and saving it had an enormous spiritual impact on the people of Planarcadia, providing endless creative inspiration for comic artists, TV screenwriters, and novelists."
               }
-            ]
+            ],
+            "id": "p-cfabb07d2ebaad75"
           },
           {
             "type": "paragraph",
@@ -109,7 +120,8 @@
                 "type": "text",
                 "text": "Some scholars believe that this spiritual shock influenced Planarcadia's imagenesis tendencies, giving birth to an imagenae called \"mechatron\" that symbolizes giants. However, conspiracy theorists argue that the IPC deliberately created this rumor, making the conservative people of Planarcadia accept a completely new image, and by manufacturing mass-produced imagenae for them, laid the foundation for further exploiting the value of Planarcadia."
               }
-            ]
+            ],
+            "id": "p-cf48635cef0ac665"
           }
         ]
       }

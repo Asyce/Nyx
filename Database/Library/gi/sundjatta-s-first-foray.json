@@ -4,10 +4,11 @@
   "id": "sundjatta-s-first-foray",
   "name": "Sundjatta's First Foray",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Sundjatta%27s_First_Foray",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
@@ -334,13 +335,15 @@
                 "type": "text",
                 "text": "For this is a tale of great deeds once unrecorded, sacrifices misunderstood..."
               }
-            ]
+            ],
+            "id": "p-e66cf4024b0dabf4"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
@@ -670,13 +673,15 @@
                 "type": "text",
                 "text": "Yet his passion was misunderstood by his tribespeople, who regarded him as a runaway, a traitor..."
               }
-            ]
+            ],
+            "id": "p-27cd7879327b631b"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "vol-3",
       "label": "Vol. 3",
       "document": {
         "version": 1,
@@ -1016,7 +1021,8 @@
                 "type": "text",
                 "text": "Sundjatta lay down, contented — truly now did he deserve a hero's name!"
               }
-            ]
+            ],
+            "id": "p-4dd2ffe62ca3e159"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "butterfly-shadow-s-special-issue-the-ten-best-butterfly-immersias-of-the-millennium",
   "name": "Butterfly Shadow's Special Issue: The Ten Best Butterfly Immersias of the Millennium",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Butterfly_Shadow%27s_Special_Issue:_The_Ten_Best_Butterfly_Immersias_of_the_Millennium",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "no-10-robe-brethren",
       "label": "No. 10: Robe Brethren",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "With the increase in contact between the Xianzhou Alliance and other worlds, the unique art form of Butterfly Immersia was popularized to the masses. In this issue, Butterfly Shadow invited thirty veterans of the craft to vote for the top ten best Butterfly Immersia works within the last millennium to pamper our readers."
               }
-            ]
+            ],
+            "id": "p-0cbc58ca6218b2ea"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "It matters not if you are from the Xianzhou Alliance or if you hail from a world beyond, we hope you would enjoy the following works. They are the zeitgeist of contemporary Xianzhou art and a great reflection of the Xianzhou's spiritual history."
               }
-            ]
+            ],
+            "id": "p-b20437d85ef5fb19"
           },
           {
             "type": "paragraph",
@@ -46,7 +49,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-6ef419cba78c62f4"
           },
           {
             "type": "paragraph",
@@ -75,7 +79,8 @@
                 "type": "text",
                 "text": "Script: Ji Rong"
               }
-            ]
+            ],
+            "id": "p-b32a92f2100e5185"
           },
           {
             "type": "paragraph",
@@ -89,7 +94,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-9305c03608d5c039"
           },
           {
             "type": "paragraph",
@@ -98,7 +104,8 @@
                 "type": "text",
                 "text": "This piece is set on the Xianzhou Yaoqing at the end of the Three Sufferings Era. Taking the perspective of a Zhuming Foxian man, the piece recounts the story of how he joined the largest Brotherhood in the Yaoqing and became its legendary ringleader as a Yaoqing non-native. The eminent Mr. Wan Yi is one of the first creators who managed to put the art of Butterfly Immersia on the map of artistic appreciation. He pioneered the technology of the Empathy Matrix in this piece, significantly slowing the subjective perceptions of time for experiencers, thus launching Butterfly Immersias into an age of long stories."
               }
-            ]
+            ],
+            "id": "p-cf8971894095e87c"
           },
           {
             "type": "paragraph",
@@ -107,7 +114,8 @@
                 "type": "text",
                 "text": "During the Three Sufferings Era, the social order of the Xianzhou was close to collapsing. In the absence of a social order, organized crime rapidly filled the void and quickly rose up to build their own underground kingdoms. These criminal syndicates are collectively called the Brotherhood, with their ringleader being the Robe Brethren."
               }
-            ]
+            ],
+            "id": "p-ef36f53bf2e4e86a"
           },
           {
             "type": "paragraph",
@@ -116,7 +124,8 @@
                 "type": "text",
                 "text": "Four millennia have passed since. Under the protection of the Reignbow Arbiter, the Xianzhou realms had long returned to lawfulness and peace. Terms like the Brotherhood and Robe Brethren had faded into the sands of time, becoming one of the many historical terminologies."
               }
-            ]
+            ],
+            "id": "p-1d968893d391cc59"
           },
           {
             "type": "paragraph",
@@ -125,7 +134,8 @@
                 "type": "text",
                 "text": "However, as they have disappeared in society, the Robe Brethrens have embedded themselves in the depth of Xianzhou's soul as a cultural symbol. Members of the Brotherhood often speak a frightening but decorous Yaoqing dialect. Even in the modern era, one can still see teens trolling the streets and crudely imitating the Yaoqing dialect and fragments of the Brotherhood's tacit creed."
               }
-            ]
+            ],
+            "id": "p-ee89db7ca8efc1a7"
           },
           {
             "type": "paragraph",
@@ -134,13 +144,15 @@
                 "type": "text",
                 "text": "In my opinion, what they were reminiscing is not the cruel, chaotic, and lawless era, but the resilience, valor, and honor of these Robe Brethrens. However, these portrayals are merely the playwright's romantic interpretations."
               }
-            ]
+            ],
+            "id": "p-9a73952e856ae5a5"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "no-9-the-old-verdant-home",
       "label": "No. 9: The Old Verdant Home",
       "document": {
         "version": 1,
@@ -172,7 +184,8 @@
                 "type": "text",
                 "text": "Script: Bashir Bassett"
               }
-            ]
+            ],
+            "id": "p-abcded1d829f0fa9"
           },
           {
             "type": "paragraph",
@@ -186,7 +199,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-9df58a88d2dfae1b"
           },
           {
             "type": "paragraph",
@@ -221,7 +235,8 @@
                 "type": "text",
                 "text": "pioneered a multi-perspective narrative that allows the experiencer to live through the wars, peace, stability, and exile at the beginning of the Foxian history, as told from the perspective of the three sages Qingzheng, Manzhi, and Li Si."
               }
-            ]
+            ],
+            "id": "p-467116dc49a21cea"
           },
           {
             "type": "paragraph",
@@ -243,7 +258,8 @@
                 "type": "text",
                 "text": "is a work born in that era. At that time, Ms. Bashir Bassett was probably the most popular dramatist in Interastral Peace Entertainment, and The Old Verdant Home indeed showed her profound dramaturgy."
               }
-            ]
+            ],
+            "id": "p-3b2d970b9c1c4c91"
           },
           {
             "type": "paragraph",
@@ -252,7 +268,8 @@
                 "type": "text",
                 "text": "On the other hand, Mr. Yuan Bo's handling of war scenes and perspective switching in this work has also become the basic teaching material for countless Butterfly Immersia students in later generations."
               }
-            ]
+            ],
+            "id": "p-0d880773b2c26c10"
           },
           {
             "type": "paragraph",
@@ -261,7 +278,8 @@
                 "type": "text",
                 "text": "However, we can still say that this Butterfly Immersia piece is a special product that could only be made in that era. With the financial resources of Xianzhou, it would've been difficult to film the magnificent scene in which millions of people fought to de death. The Free-Will Illusion technology provided by Interastral Peace Entertainment also allowed the magical effect of total immersion to be brought to life."
               }
-            ]
+            ],
+            "id": "p-1a82ced9030b30c8"
           },
           {
             "type": "paragraph",
@@ -283,13 +301,15 @@
                 "type": "text",
                 "text": "not to re-experience its plot, but to reassure myself of the kind of miracles we can create when two civilizations work together."
               }
-            ]
+            ],
+            "id": "p-b4f161dd1577bf4e"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "no-8-kaib-mongb-kib",
       "label": "No. 8: Kaib Mongb Kib",
       "document": {
         "version": 1,
@@ -321,7 +341,8 @@
                 "type": "text",
                 "text": "Script: Zi Cheng"
               }
-            ]
+            ],
+            "id": "p-e42fbffc3182036a"
           },
           {
             "type": "paragraph",
@@ -335,7 +356,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-62ad65b9b94d1298"
           },
           {
             "type": "paragraph",
@@ -344,7 +366,8 @@
                 "type": "text",
                 "text": "When Zhong Si, a Foxian lady from the Fanghu, returned to her village after studying on the Luofu for over a century, she noticed everything had become eerily different from the home in her memories. As she dug deeper, she discovered the village elder had passed away for years, and people are worshiping an indescribable entity as the new village elder."
               }
-            ]
+            ],
+            "id": "p-c4a570cfee899d8c"
           },
           {
             "type": "paragraph",
@@ -366,7 +389,8 @@
                 "type": "text",
                 "text": "."
               }
-            ]
+            ],
+            "id": "p-3002bb0b6c53b2be"
           },
           {
             "type": "paragraph",
@@ -397,7 +421,8 @@
                 "type": "text",
                 "text": "'s viral success utterly shattered the antiquated notion of the entertainment industry and set off a boom for horror-thriller Butterfly Immersias."
               }
-            ]
+            ],
+            "id": "p-20c53ba15436b171"
           },
           {
             "type": "paragraph",
@@ -406,13 +431,15 @@
                 "type": "text",
                 "text": "It is worth mentioning that Zi Cheng used Xianzhou people's fear of Heliobi to masterfully create an eerie atmosphere in this piece. However, Heliobi has now become a standard in horror Butterfly Immersias, and gradually lost its original magic."
               }
-            ]
+            ],
+            "id": "p-f26d7a9307da2027"
           }
         ]
       }
     },
     {
       "id": "4",
+      "volumeKey": "no-7-lolling-grass",
       "label": "No. 7: Lolling Grass",
       "document": {
         "version": 1,
@@ -453,7 +480,8 @@
                 "type": "text",
                 "text": "Script: Shu Kuan"
               }
-            ]
+            ],
+            "id": "p-6fbd111b8a03020b"
           },
           {
             "type": "paragraph",
@@ -467,7 +495,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ef24d46609e168cd"
           },
           {
             "type": "paragraph",
@@ -489,7 +518,8 @@
                 "type": "text",
                 "text": ", became a compulsory textbook for every merchant on the Xianzhou."
               }
-            ]
+            ],
+            "id": "p-ca5d3a51d68d5e7b"
           },
           {
             "type": "paragraph",
@@ -511,7 +541,8 @@
                 "type": "text",
                 "text": ", biographical immersias usually focus on heroes, soldiers, pilots, and even bandits or evildoers as protagonists, and their plot is usually about their action-packed lives charged with emotions. A characteristic of these biographical immersias is that they tend to allow the experiencers to experience the magnificent historical moments, rather than allowing one to feel the life journey of the protagonists."
               }
-            ]
+            ],
+            "id": "p-d521d0eac36a3490"
           },
           {
             "type": "paragraph",
@@ -529,7 +560,8 @@
                 "type": "text",
                 "text": "changed the industry in that it is a biographical immersia with a core theme on commerce, but moved away from the rivalry and intrigue of business development, instead focusing on the dry disciplines of mathematics and business as the main axis of the plot, allowing the experiencers to step into Yingzhen's perspective and experience her journey firsthand to achieve conceptual breakthroughs in these disciplines."
               }
-            ]
+            ],
+            "id": "p-14a7bbb4909eba47"
           },
           {
             "type": "paragraph",
@@ -551,7 +583,8 @@
                 "type": "text",
                 "text": ", we were all students of immersias, so our grasp on the esoteric arts of mathematics is not good. But when Yingzhen intuited The Study of Chess, we were all overcome by the ecstasy (and shock) of grasping the truth, to the point that we were quaking in our boots. This unique charm might be why the art of Butterfly Immersia cannot be replaced."
               }
-            ]
+            ],
+            "id": "p-4c265025e1bf8579"
           },
           {
             "type": "paragraph",
@@ -573,13 +606,15 @@
                 "type": "text",
                 "text": "caused the Wen Sisters to soar in celebrity. This was why many sibling duo directors mushroomed in the Xianzhou within that century. It's a shame that few can reach the height that the Wen Sisters did."
               }
-            ]
+            ],
+            "id": "p-b8496364bf3f9b65"
           }
         ]
       }
     },
     {
       "id": "5",
+      "volumeKey": "no-6-life-on-a-plate",
       "label": "No. 6: Life on a Plate",
       "document": {
         "version": 1,
@@ -620,7 +655,8 @@
                 "type": "text",
                 "text": "Script: Bao Chang, Xue Xie"
               }
-            ]
+            ],
+            "id": "p-45efec7a75ae694c"
           },
           {
             "type": "paragraph",
@@ -634,7 +670,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-86d63abb4200f077"
           },
           {
             "type": "paragraph",
@@ -652,7 +689,8 @@
                 "type": "text",
                 "text": "is the only veritable-records styled immersia that is chosen for this list. In this immersia, experiencers take the perspective of a lucky epicurean who gets to enjoy an exclusive dining experience with the legendary chef, Xue Xie."
               }
-            ]
+            ],
+            "id": "p-61f06a8e25ff999e"
           },
           {
             "type": "paragraph",
@@ -674,7 +712,8 @@
                 "type": "text",
                 "text": ", creating one of the most over-the-top miracles of Butterfly Immersia history."
               }
-            ]
+            ],
+            "id": "p-19b7c791c3b7c074"
           },
           {
             "type": "paragraph",
@@ -709,7 +748,8 @@
                 "type": "text",
                 "text": "?"
               }
-            ]
+            ],
+            "id": "p-afbcbed3a69c7644"
           },
           {
             "type": "paragraph",
@@ -744,7 +784,8 @@
                 "type": "text",
                 "text": ", it shows your distaste toward your own life.\" Looking back after centuries, it surprised me to realize the truth in his words."
               }
-            ]
+            ],
+            "id": "p-76bd3d96e28299a5"
           },
           {
             "type": "paragraph",
@@ -766,13 +807,15 @@
                 "type": "text",
                 "text": ", Ms. Xue Xie, enjoyed a lifespan of 384 years and passed without major diseases. It was said that loneliness was prominent in her later years as she continued to re-experience this immersia that starred herself until the eternal slumber finds her among the vivacity of this fantasy."
               }
-            ]
+            ],
+            "id": "p-a17ef3dea3e08266"
           }
         ]
       }
     },
     {
       "id": "6",
+      "volumeKey": "no-5-deep-water",
       "label": "No. 5: Deep Water",
       "document": {
         "version": 1,
@@ -813,7 +856,8 @@
                 "type": "text",
                 "text": "Screenwriter: Fu Rong"
               }
-            ]
+            ],
+            "id": "p-5078a0af3e466555"
           },
           {
             "type": "paragraph",
@@ -827,7 +871,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-f3582eef63f98ad6"
           },
           {
             "type": "paragraph",
@@ -836,7 +881,8 @@
                 "type": "text",
                 "text": "In the Scalegorge Waterscape, the birthplace of the Vidyadhara race, there is a special profession: \"Pearlkeeper.\" During Vidyadhara's stage of hatching rebirth, they had no means of resisting external threats. Thus, the Pearlkeepers were needed to protect their vulnerable compatriots. Crane used to be a Cloud Knight, but returned to Scalegorge Waterscape to be a Pearlkeeper after retiring. One day, during a routine inspection, Crane came upon some unusual signs. At that time, she didn't know that it was because an evil beast that had been sleeping underwater for thousands of years had awakened... Crane had to join forces with her comrades to battle the evil beast in the dark ancient sea, and protect the vulnerable sacred land of Scalegorge Waterscape."
               }
-            ]
+            ],
+            "id": "p-4a50e12b641d9610"
           },
           {
             "type": "paragraph",
@@ -893,7 +939,8 @@
                 "type": "text",
                 "text": "that they collaborated on are also widely regarded as classic evil beast immersias."
               }
-            ]
+            ],
+            "id": "p-2183e347fae7affb"
           },
           {
             "type": "paragraph",
@@ -915,7 +962,8 @@
                 "type": "text",
                 "text": "), and how to shape the moment when human beings fall into fear and burst into courage when facing evil beasts... It is no wonder that scholars of the immersia genre have a saying: \"Memorize all the immersias of Yong Zheng, and you will master evil beast immersias.\""
               }
-            ]
+            ],
+            "id": "p-c11fa87fc835313f"
           },
           {
             "type": "paragraph",
@@ -937,7 +985,8 @@
                 "type": "text",
                 "text": ":"
               }
-            ]
+            ],
+            "id": "p-6f1786312f2fddd8"
           },
           {
             "type": "paragraph",
@@ -946,7 +995,8 @@
                 "type": "text",
                 "text": "The art of Butterfly Immersia is loved by all races in the Xianzhou Alliance, the directors of almost all immersias are Foxians."
               }
-            ]
+            ],
+            "id": "p-9c2916baac225e82"
           },
           {
             "type": "paragraph",
@@ -955,7 +1005,8 @@
                 "type": "text",
                 "text": "This is inevitable... After all, the filming and production of Butterfly Immersias rely on Foxians' innately keen mental prowess. Focusing on and regulating the fantasy world requires extraordinary meticulousness and ability. Without this ability, making a immersia is tantamount to creating music for the hard of hearing or painting for the hard of seeing... Strictly speaking, it is not impossible, but very difficult."
               }
-            ]
+            ],
+            "id": "p-9383f2dc49f0e460"
           },
           {
             "type": "paragraph",
@@ -964,7 +1015,8 @@
                 "type": "text",
                 "text": "Yong Zheng is undoubtedly an exception. As Vidyadhara, he has become one of the greatest directors in the history of Butterfly Immersia. It is hard to imagine how many difficulties he had overcome to achieve such great success."
               }
-            ]
+            ],
+            "id": "p-71291df9cd62975d"
           },
           {
             "type": "paragraph",
@@ -973,7 +1025,8 @@
                 "type": "text",
                 "text": "Foxian directors account for an overwhelming majority in the immersia industry. This also leads to another problem: Before Yong Zheng debuted, most of the Butterfly Immersias told the story of Foxians from the perspective of Foxians. After all, people are better at and more willing to create characters they are familiar with. However, all of Yong Zheng's works in his creative career are from a Vidyadhara's perspective."
               }
-            ]
+            ],
+            "id": "p-27f4dcd380537f53"
           },
           {
             "type": "paragraph",
@@ -1008,13 +1061,15 @@
                 "type": "text",
                 "text": ", they have all become classic characters in the history of immersia. After Yong Zheng became a household name, more and more works began to bravely choose to tell stories from the perspective of non-Foxians."
               }
-            ]
+            ],
+            "id": "p-84f515551f8d4fcc"
           }
         ]
       }
     },
     {
       "id": "7",
+      "volumeKey": "no-4-starskiff-pilot",
       "label": "No. 4: Starskiff Pilot",
       "document": {
         "version": 1,
@@ -1055,7 +1110,8 @@
                 "type": "text",
                 "text": "Screenwriter: Su Qin"
               }
-            ]
+            ],
+            "id": "p-7c18778b876ef339"
           },
           {
             "type": "paragraph",
@@ -1064,7 +1120,8 @@
                 "type": "text",
                 "text": "Sit tight and hold on, get ready for lift-off!"
               }
-            ]
+            ],
+            "id": "p-fd9811a4f919f301"
           },
           {
             "type": "paragraph",
@@ -1073,7 +1130,8 @@
                 "type": "text",
                 "text": "A mysterious starskiff pilot who seems to be unremarkable, but in fact has a peculiar skill. Whenever a customer encounters a difficult problem — as small as being late for work, or as big as catching hoodlums, he will say with his signature smile: \"Sit tight and hold on, get ready for lift-off!\" After which, he starts up that mysterious combat starskiff and uses his superb piloting skills to complete the mission and solve the problem."
               }
-            ]
+            ],
+            "id": "p-ac30a1df61ac1dea"
           },
           {
             "type": "paragraph",
@@ -1095,7 +1153,8 @@
                 "type": "text",
                 "text": "franchise has released films so far across three directors. End each film has had a good box office reception. Frankly speaking, this work, like all fast-paced immersias, has no plot depth, no twists, and few character arcs, only rushing adrenaline. But it is this simple, straightforward, and raw type of experience that has become the longest-running immersia series on the Xianzhou."
               }
-            ]
+            ],
+            "id": "p-df7df46db49b188a"
           },
           {
             "type": "paragraph",
@@ -1104,13 +1163,15 @@
                 "type": "text",
                 "text": "However, please forgive me for being curt, but the experts invited for this issue put this immersia in the \"Millennium Top Ten\" list (at fourth place no less) to show that they are not biased toward the \"sophisticated\" and \"avant-garde,\" but are also able to enjoy the fast-paced immersias that general fans love to see."
               }
-            ]
+            ],
+            "id": "p-bbf005f619a1a189"
           }
         ]
       }
     },
     {
       "id": "8",
+      "volumeKey": "no-3-last-night-on-the-luofu",
       "label": "No. 3: Last Night on the Luofu",
       "document": {
         "version": 1,
@@ -1151,7 +1212,8 @@
                 "type": "text",
                 "text": "Screenwriter: Wu He"
               }
-            ]
+            ],
+            "id": "p-92ae6d1506c26090"
           },
           {
             "type": "paragraph",
@@ -1165,7 +1227,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-40f9ca06b2aedf7b"
           },
           {
             "type": "paragraph",
@@ -1174,7 +1237,8 @@
                 "type": "text",
                 "text": "Hai Yuan is a Xianzhou merchant who lived to be 1110 years old and is on the verge of being stricken with mara. Now, he is almost unable to think about anything smoothly, and can only endure the nibbling away of the plague. On the eve of going to the Ten-Lords Commission to accept his end, Hai Yuan had a long dream. He dreamed that everyone who appeared in his thousand-year life was waiting for him in a vast wasteland. In the long dream, Hai Yuan discussed life, philosophy, religion, and art with the people in his memories and finally achieved reconciliation with himself. At the end of the immersia, Hai Yuan woke up at dawn and walked into the Ten-Lords Commission with a smile."
               }
-            ]
+            ],
+            "id": "p-aa22f111749e7a39"
           },
           {
             "type": "paragraph",
@@ -1209,7 +1273,8 @@
                 "type": "text",
                 "text": "."
               }
-            ]
+            ],
+            "id": "p-a812bf9d5d371876"
           },
           {
             "type": "paragraph",
@@ -1244,7 +1309,8 @@
                 "type": "text",
                 "text": "might even be considered to have not been a big hit. This is completely understandable as many people are willing to go to immersias to realize their dreams, but how many people are willing to go to immersias to really have a long dream?"
               }
-            ]
+            ],
+            "id": "p-578019af07f2fd2c"
           },
           {
             "type": "paragraph",
@@ -1266,7 +1332,8 @@
                 "type": "text",
                 "text": "is a truly great piece of work. It dives deep into people's hearts, explores fears and desires, and shows how a person can achieve self-consistency and reconciliation even in the last moments of their life. It can be said to be closer to an autopsy on the human condition than an immersia."
               }
-            ]
+            ],
+            "id": "p-29739d931bf2965e"
           },
           {
             "type": "paragraph",
@@ -1275,7 +1342,8 @@
                 "type": "text",
                 "text": "Some harsher critics believe that Wu He, as a Foxian director, has a wrong understanding of being mara-struck, and that there are some unscientific aspects in his treatment of dreams. In reality, Wu He didn't intend to base his work on scientific principles at all. What this work tells is by no means a \"mara-stricken dream\" in the literal sense, but a highly conceptualized and symbolic analysis into the psyche."
               }
-            ]
+            ],
+            "id": "p-8eb1d82841cdf5a9"
           },
           {
             "type": "paragraph",
@@ -1284,7 +1352,8 @@
                 "type": "text",
                 "text": "It's true, Foxians and Vidyadhara won't become mara-struck, but we can all see a reflection of our own lives from this immersia... All our disappointments, our sorrows, our unwillingness and reluctance — but also, an answer to the most difficult question in the world: \"Why should we carry on living?\""
               }
-            ]
+            ],
+            "id": "p-73c5bf34161d22f4"
           },
           {
             "type": "paragraph",
@@ -1293,13 +1362,15 @@
                 "type": "text",
                 "text": "\"For that percent of love.\""
               }
-            ]
+            ],
+            "id": "p-568c33b9058955bf"
           }
         ]
       }
     },
     {
       "id": "9",
+      "volumeKey": "no-2-reighbow-arbiter",
       "label": "No. 2: Reighbow Arbiter",
       "document": {
         "version": 1,
@@ -1340,7 +1411,8 @@
                 "type": "text",
                 "text": "Screenwriter: Yu Chun"
               }
-            ]
+            ],
+            "id": "p-b62a540eebb002b9"
           },
           {
             "type": "paragraph",
@@ -1354,7 +1426,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-61d6fe0fdacf7512"
           },
           {
             "type": "paragraph",
@@ -1376,7 +1449,8 @@
                 "type": "text",
                 "text": "is an epic immersia based on this legend."
               }
-            ]
+            ],
+            "id": "p-b12234032d898081"
           },
           {
             "type": "paragraph",
@@ -1385,7 +1459,8 @@
                 "type": "text",
                 "text": "To this day, there are still a group of fundamentalists who think that Reignbow Arbiter is an immersia that blasphemes Reignbow Arbiter. This is because it allows the experiencer to enter the perspective of Reignbow Arbiter to experience the epic final battle as Reignbow Arbiter, and even experience the process of Reignbow Arbiter's rise to the godhood after death, which can be said to be disrespectful."
               }
-            ]
+            ],
+            "id": "p-17b5cf51d2fca898"
           },
           {
             "type": "paragraph",
@@ -1394,7 +1469,8 @@
                 "type": "text",
                 "text": "But in reality, only by experiencing this powerful epic from such a perspective can the experiencer truly appreciate how much blood Reignbow Arbiter and the brave people of Xianzhou shed to achieve the current peace for the Xianzhou to rest and recuperate."
               }
-            ]
+            ],
+            "id": "p-73ff902008e9b266"
           },
           {
             "type": "paragraph",
@@ -1416,7 +1492,8 @@
                 "type": "text",
                 "text": "remains a controversial masterpiece. The biggest controversy is that when Yu Chun wrote the script, the historical facts were modified based on personal preference, which is considered unacceptable to many experiencers."
               }
-            ]
+            ],
+            "id": "p-de59e50f06ed3b30"
           },
           {
             "type": "paragraph",
@@ -1425,7 +1502,8 @@
                 "type": "text",
                 "text": "For example, Yu Chun downplayed the existence of the Heliobi leader, the \"Flint Emperor\" in the entire immersia. Yu Chun even summed up the arrow of Reignbow Arbiter that destroyed the Ambrosial Arbor as \"an advanced awakening of an Aeon's power in a mortal body,\" which is an obvious violation of historical facts. At present, historians generally believe that the arrow at that time borrowed the power of the Flint Emperor, but Yu Chun personally dislikes heliobi and revised that part of the story."
               }
-            ]
+            ],
+            "id": "p-eaed420ebb62da0d"
           },
           {
             "type": "paragraph",
@@ -1460,13 +1538,15 @@
                 "type": "text",
                 "text": "to avoid being misled by this immersia's dramatized version of events."
               }
-            ]
+            ],
+            "id": "p-e60ebc7e675ee6df"
           }
         ]
       }
     },
     {
       "id": "10",
+      "volumeKey": "no-1-the-bridge-to-grandma-s-home",
       "label": "No. 1: The Bridge to Grandma's Home",
       "document": {
         "version": 1,
@@ -1507,7 +1587,8 @@
                 "type": "text",
                 "text": "Screenwriter: Zi Run"
               }
-            ]
+            ],
+            "id": "p-8a7c220b4162a4e9"
           },
           {
             "type": "paragraph",
@@ -1528,7 +1609,8 @@
                 "type": "text",
                 "text": "As the Three Sufferings Era has passed for thousands of years, the social order of the Xianzhou has become more stable, and the Brotherhood has become history. However, the remaining members are still trying to continue the past glory in an era that does not belong to them. The old \"code of conduct\" has broken down, and the new members have no bottom line and are unscrupulous. It was the Brotherhood that caused the last underground war before completely dying out."
               }
-            ]
+            ],
+            "id": "p-40b035cf0e322c1d"
           },
           {
             "type": "paragraph",
@@ -1559,7 +1641,8 @@
                 "type": "text",
                 "text": "is not a member of the Brotherhood, but the daughter of the boss, little Rain. It is plain as day to anyone with a perceptive eye that little Rain is the embodiment of Director Zi Run."
               }
-            ]
+            ],
+            "id": "p-aa5c763b16f92fd1"
           },
           {
             "type": "paragraph",
@@ -1581,7 +1664,8 @@
                 "type": "text",
                 "text": ", the Brotherhood has shed its polished exterior, and the brethren are just a group of despicable, cruel, and shameless criminals. Zi Run once lived in such an environment, and as a child, fully experienced the extensive bloody conflict within the Brotherhood."
               }
-            ]
+            ],
+            "id": "p-32a8917412a8a6a2"
           },
           {
             "type": "paragraph",
@@ -1590,7 +1674,8 @@
                 "type": "text",
                 "text": "The production company Spooky Fantasy Entertainment did not agree with Zi Run's filming of this immersia with a strong autobiographical nature. On the one hand, autobiographies possess strong subject matters specific to the protagonist, which is considered to hinder the substitution of the experiencer. On the other hand, at that time, Robe Brethren immersias had not yet gone out of fashion yet. This led them to worry that such a subversive Robe Brethren immersia would not have a particularly good box office response."
               }
-            ]
+            ],
+            "id": "p-227a12a701818c07"
           },
           {
             "type": "paragraph",
@@ -1599,7 +1684,8 @@
                 "type": "text",
                 "text": "In the end, Zi Run had to pay out of pocket to film the immersia. As results would prove, the production company's judgment was wrong. The Bridge to Grandma's Home became the most popular Butterfly Immersia at the box office that year, and was also recognized as the greatest Butterfly Immersia in history."
               }
-            ]
+            ],
+            "id": "p-662349f1841ac6fb"
           },
           {
             "type": "paragraph",
@@ -1608,7 +1694,8 @@
                 "type": "text",
                 "text": "Since then, Zi Run left Spooky Fantasy Entertainment and used the earnings to create Elsholtzia Fantasy Entertainment. The former went bankrupt soon after."
               }
-            ]
+            ],
+            "id": "p-f41e2541520a81ee"
           },
           {
             "type": "paragraph",
@@ -1617,7 +1704,8 @@
                 "type": "text",
                 "text": "There is another thought-provoking detail about The Bridge to Grandma's Home. In real life, a young Zi Run was adopted by an officer when the Cloud Knights completely wiped out the Brotherhood, and lived a happy, enviable life from then on. But at the end of The Bridge to Grandma's Home, little Rain died in her father's arms during his last hurrah."
               }
-            ]
+            ],
+            "id": "p-732383375ada13cd"
           },
           {
             "type": "paragraph",
@@ -1626,7 +1714,8 @@
                 "type": "text",
                 "text": "Perhaps deep down, Zi Run really did die that night when the Brotherhood was wiped out."
               }
-            ]
+            ],
+            "id": "p-8f98daadf4d1c163"
           }
         ]
       }

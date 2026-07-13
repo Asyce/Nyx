@@ -4,10 +4,11 @@
   "id": "the-serpent-and-drakes-of-tokoyokoku",
   "name": "The Serpent and Drakes of Tokoyokoku",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/The_Serpent_and_Drakes_of_Tokoyokoku",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -29,7 +30,8 @@
                 "type": "text",
                 "text": "Three corners in darkness shrouded, the void by five saints clouded."
               }
-            ]
+            ],
+            "id": "p-bb0cce90bbb75343"
           },
           {
             "type": "paragraph",
@@ -68,7 +70,8 @@
                 "type": "text",
                 "text": "\"The origin of heaven and earth is like the chicken and egg, and are not dragons and snakes kin?\" No sooner had the sage Aberaku uttered these words than he was overthrown by troops lying in ambush."
               }
-            ]
+            ],
+            "id": "p-4f68f3c5936e0b6d"
           },
           {
             "type": "paragraph",
@@ -77,7 +80,8 @@
                 "type": "text",
                 "text": "At that time, Enkanomiya had only just been brought some room to breathe by the appearance of the sun. The Dragonheirs loved the dark and shunned the light, and thus could no longer act with impunity. The days when the Dragonheirs would rampage and graze on humanity like so much grass had, at last, come to an end, for the people of Enkanomiya finally had the means to resist. Yet it came to pass that the flaws in human nature would rear their ugly heads even before such outside threats could be quelled. The people chose a Sunchild, crowned him king, and worshiped him, and yet he ruled with a brutal hand, framing the righteous."
               }
-            ]
+            ],
+            "id": "p-fcf8622c617d4a58"
           },
           {
             "type": "paragraph",
@@ -116,7 +120,8 @@
                 "type": "text",
                 "text": "\"Could you then, perchance, become our god?\""
               }
-            ]
+            ],
+            "id": "p-09d1fcd130542ad2"
           },
           {
             "type": "paragraph",
@@ -125,7 +130,8 @@
                 "type": "text",
                 "text": "Thus did they, human and serpent, go forth to face the royal authority of the Sunchild and the incursions of the Dragonheirs beyond — thus was the curtain raised on the turning of the tide."
               }
-            ]
+            ],
+            "id": "p-2294ca5c30044560"
           }
         ]
       }

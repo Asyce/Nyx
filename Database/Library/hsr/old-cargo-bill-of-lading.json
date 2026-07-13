@@ -4,10 +4,11 @@
   "id": "old-cargo-bill-of-lading",
   "name": "Old Cargo Bill of Lading",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Old_Cargo_Bill_of_Lading",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-6fb5c9ee593dda1e"
           },
           {
             "type": "paragraph",
@@ -99,7 +101,8 @@
                 "type": "text",
                 "text": "The artisans of Okhema are skilled in crafting all manner of fine pottery. This time, we've sent you twenty twin-eared vases and ten dolia aboard the Laurel. May sky father shield them from Phagousa's wild tempests. I trust these vessels will find good use in your granaries, keeping your golden harvest safe and sound."
               }
-            ]
+            ],
+            "id": "p-80d6c3c51d0619f0"
           },
           {
             "type": "paragraph",
@@ -174,7 +177,8 @@
                 "type": "text",
                 "text": "Honestly, sometimes I envy you, being able to set your own schedule. I'm not getting any younger. Spent half a lifetime forging arrowheads, yet never once did I nock an arrow for myself. Sometimes, I wonder if there could've been a place for me aboard your ship too."
               }
-            ]
+            ],
+            "id": "p-457c42c27f04d712"
           },
           {
             "type": "paragraph",
@@ -256,7 +260,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-8ab60ab99358ced5"
           }
         ]
       }

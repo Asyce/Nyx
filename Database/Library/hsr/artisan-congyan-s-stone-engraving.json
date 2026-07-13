@@ -4,10 +4,11 @@
   "id": "artisan-congyan-s-stone-engraving",
   "name": "Artisan Congyan's Stone Engraving",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Artisan_Congyan%27s_Stone_Engraving",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "I, Congyan the artisan, was forced by the Preceptors to sculpt the High Elder. My heart still harbors resentments, which I shall detail in this engraving."
               }
-            ]
+            ],
+            "id": "p-94400bf5beb19d92"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "The High Elder Yubie, always the people-pleaser, who stole the sacred Vidyadhara lands for those hand-wringing aliens... Seek yet not forgiveness from your forebears?"
               }
-            ]
+            ],
+            "id": "p-a357acdc0f112c0e"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "I, a master artisan at the Artisanship Commission, once admonished him in person but was reprimanded, demoted, then forced to sculpt this statue by the Preceptors. I've lived over four hundred years now. I bemoan my powerlessness to right injustices. Oh, alas!"
               }
-            ]
+            ],
+            "id": "p-42d1cd8f6215fd01"
           },
           {
             "type": "paragraph",
@@ -66,7 +70,8 @@
                 "type": "text",
                 "text": "My past is like frostfall, flowers mirrored in the cold."
               }
-            ]
+            ],
+            "id": "p-850eb9b338d2ddad"
           }
         ]
       }

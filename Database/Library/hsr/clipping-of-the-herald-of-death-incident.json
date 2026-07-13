@@ -4,10 +4,11 @@
   "id": "clipping-of-the-herald-of-death-incident",
   "name": "Clipping of the Herald of Death Incident",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Clipping_of_the_Herald_of_Death_Incident",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-50f770d893aed35a"
           },
           {
             "type": "paragraph",
@@ -48,7 +50,8 @@
                 "type": "text",
                 "text": "On July 22, Year 1984 of the Arcadian Calendar, a Supplicant entered Graphia Academy. Using the school as a starting point, the perpetrator murdered 22 students preparing for the anniversary celebration before advancing toward the Dovebrook District. The rampage resulted in a total of 146 casualties among innocent citizens, with hundreds more caught in the crossfire, with most suffering secondary trauma directly or indirectly. The victims have been rushed to various major hospitals across Duomension City for emergency treatment."
               }
-            ]
+            ],
+            "id": "p-0f98796874e83fbe"
           },
           {
             "type": "paragraph",
@@ -72,7 +75,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-8a409bfaba5ea22b"
           },
           {
             "type": "paragraph",
@@ -81,7 +85,8 @@
                 "type": "text",
                 "text": "The Department of Aberration Defense has issued a statement confirming the successful suppression of out-of-control Supplicant. Several Supplicants died during the operation to take down the Herald of Death, and this round of Phantasmoon Games may be forced to shut down."
               }
-            ]
+            ],
+            "id": "p-a5b6ee9a0aa8c3d9"
           },
           {
             "type": "paragraph",
@@ -95,7 +100,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-559dc4a579ffae8d"
           },
           {
             "type": "paragraph",
@@ -132,7 +138,8 @@
                 "type": "text",
                 "text": ", launched by Seafeld TV, has caused a massive stir throughout Planarcadia. Some viewers claim that seeing victims move beyond their pasts and face the future is proof that Planarcadia is finally stepping out from the shadow of the Bloodstained Games and toward a new beginning. However, others argue that this practice, akin to tearing open the wounds of the Herald of Death survivors for public consumption, is a symptom of a growing sickness within Planarcadia. These critics suggest the public doesn't truly care if the victims find happiness. Rather, they are simply using those smiles as a tool to conquer their own deep-seated fears."
               }
-            ]
+            ],
+            "id": "p-009fda989a1f0dc2"
           },
           {
             "type": "paragraph",
@@ -146,7 +153,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-cffccb947cc6bc23"
           },
           {
             "type": "paragraph",
@@ -170,7 +178,8 @@
                 "type": "text",
                 "text": "On July 22, Year 1994 of the Arcadian Calendar, the Department of Aberration Defense announced that the death sentence for the Herald of Death was carried out today. However, this decade-late execution has done little to quell public resentment toward the Interastral Peace Corporation. Protests of varying scales have broken out across Duomension City, Seafeld City, and several other regions. The IPC Resident Overseer has yet to issue a response regarding the unrest."
               }
-            ]
+            ],
+            "id": "p-021706f2e0e8eaae"
           },
           {
             "type": "paragraph",
@@ -179,7 +188,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -188,7 +198,8 @@
                 "type": "text",
                 "text": "Ten years have passed since the Herald of Death incident, and Planarcadia has entered a period of peace and tranquility rarely seen in a century. Even so, the terror and unease brought by the Herald of Death still linger like a dark, oppressive shadow over people's hearts. Survivors, burdened by the pain of their survival, took their own lives, and the orphans of the Bloodstained Games became scars etched into Planarcadia. People are terrified of a Supplicant who could claim their lives in an instant, but they also fear the Interastral Peace Corporation that views everything as mere numbers and assets."
               }
-            ]
+            ],
+            "id": "p-e104fa7077032155"
           },
           {
             "type": "paragraph",
@@ -202,7 +213,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-3e5f28e6ac61127f"
           },
           {
             "type": "paragraph",
@@ -211,7 +223,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

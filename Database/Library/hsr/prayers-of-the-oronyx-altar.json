@@ -4,10 +4,11 @@
   "id": "prayers-of-the-oronyx-altar",
   "name": "Prayers of the Oronyx Altar",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Prayers_of_the_Oronyx_Altar",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-7ddc84e3b03332c0"
           },
           {
             "type": "paragraph",
@@ -129,7 +131,8 @@
                 "type": "text",
                 "text": "May you accept our humble offering."
               }
-            ]
+            ],
+            "id": "p-a35f4598c18fac06"
           },
           {
             "type": "paragraph",
@@ -208,7 +211,8 @@
                 "type": "text",
                 "text": "Until my soul is woven into the Skyveil."
               }
-            ]
+            ],
+            "id": "p-e5a39bc0a629adde"
           },
           {
             "type": "paragraph",
@@ -257,7 +261,8 @@
                 "type": "text",
                 "text": "Bestow upon us wisdom for the days to come."
               }
-            ]
+            ],
+            "id": "p-47e4a0067d459388"
           },
           {
             "type": "paragraph",
@@ -334,7 +339,8 @@
                 "type": "text",
                 "text": "Let us reap the fruits of our labor."
               }
-            ]
+            ],
+            "id": "p-0036a414ead7e1e0"
           },
           {
             "type": "paragraph",
@@ -411,7 +417,8 @@
                 "type": "text",
                 "text": "Let me glimpse the shadows of fate."
               }
-            ]
+            ],
+            "id": "p-16cfc4696e1f30f8"
           },
           {
             "type": "paragraph",
@@ -481,7 +488,8 @@
                 "type": "text",
                 "text": "Hoping to find the light of truth within."
               }
-            ]
+            ],
+            "id": "p-011882fb259e3549"
           },
           {
             "type": "paragraph",
@@ -599,7 +607,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-1ce4a817deacff25"
           }
         ]
       }

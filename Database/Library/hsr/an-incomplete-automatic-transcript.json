@@ -4,10 +4,11 @@
   "id": "an-incomplete-automatic-transcript",
   "name": "An Incomplete Automatic Transcript",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/An_Incomplete_Automatic_Transcript",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Automatic Transcript:"
               }
-            ]
+            ],
+            "id": "p-836182b586edbe80"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "\"...\" (A series of noises seemingly indicating an electrical malfunction)"
               }
-            ]
+            ],
+            "id": "p-4c6960f8c3034ebf"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "\"024, I told you during the last experiment that this device is problematic.\""
               }
-            ]
+            ],
+            "id": "p-c07a991f9806dd87"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "\"289, stop speaking to me like you're my superior. We're both only entry-level researchers.\""
               }
-            ]
+            ],
+            "id": "p-fbc15beca6c5ef64"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "\"If you really want to be at the same level as me, you wouldn't place your left hand three centimeters from the keyboard. Just so you know, our standard safe operating distance allows only as close as ten centimeters.\""
               }
-            ]
+            ],
+            "id": "p-cfd2c0d9d251c2f4"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "\"Having lived to this age, you must have lived on a planet with high level of civilization.\""
               }
-            ]
+            ],
+            "id": "p-3cf7e56c95e5f05c"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "\"Now I understand your insolence and forgetfulness. We have vastly different backgrounds after all. 024, pass me a pair of tweezers. This looks like a strand of hair.\""
               }
-            ]
+            ],
+            "id": "p-cce0bd0982aa7cbe"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "\"... (sound of footfalls and tools clanging) Hold the tweezers and don't get your fingers pricked, Cinderella.\""
               }
-            ]
+            ],
+            "id": "p-ab987a63add3aac4"
           },
           {
             "type": "paragraph",
@@ -91,7 +100,8 @@
                 "type": "text",
                 "text": "\"Our experiment this time should yield results. The strand of hair is a beautiful auburn. Just so you know, Cinderella pricked her finger on a spindle of a spinning wheel.\""
               }
-            ]
+            ],
+            "id": "p-ebe1d3a86f30e340"
           },
           {
             "type": "paragraph",
@@ -100,7 +110,8 @@
                 "type": "text",
                 "text": "\"289's Fairy Tale 101 is in session, starring an orangutan with auburn hair. It may have used this typewriter during its lifetime, and may have written countless touching fairy tales...\""
               }
-            ]
+            ],
+            "id": "p-aad7549c31803f00"
           },
           {
             "type": "paragraph",
@@ -109,7 +120,8 @@
                 "type": "text",
                 "text": "\"(heavy thud) 024, if you don't plan on helping, zip it and don't make noise.\""
               }
-            ]
+            ],
+            "id": "p-65a0f81fde6608e8"
           },
           {
             "type": "paragraph",
@@ -118,7 +130,8 @@
                 "type": "text",
                 "text": "\"Noise? You mean your 'Just So You Know' lectures?\""
               }
-            ]
+            ],
+            "id": "p-d8c84f30e1c9e968"
           },
           {
             "type": "paragraph",
@@ -127,7 +140,8 @@
                 "type": "text",
                 "text": "\"(a crisper knocking sound and the wall seems to crumble) 024, this is my last warning. Heed it, or I will file a report on how much noise you have been making today, just so they know.\""
               }
-            ]
+            ],
+            "id": "p-173107f15456e2e5"
           },
           {
             "type": "paragraph",
@@ -136,7 +150,8 @@
                 "type": "text",
                 "text": "\"289, stop pretending like you're an expert and trying to put the blame on me. All these noises came from you!\""
               }
-            ]
+            ],
+            "id": "p-2fff4eef5e87cbc9"
           },
           {
             "type": "paragraph",
@@ -145,7 +160,8 @@
                 "type": "text",
                 "text": "\"That's funny. I don't have the capacity to join your infantile blame game. You might as well say the Antimatter Legion invaded the space station!\""
               }
-            ]
+            ],
+            "id": "p-b5eb52f35a69aa0e"
           },
           {
             "type": "paragraph",
@@ -154,7 +170,8 @@
                 "type": "text",
                 "text": "\"Aha! I've wanted to experience that for so long now! Then I could join the legion and spear a hole in your stomach!\""
               }
-            ]
+            ],
+            "id": "p-4090a845c52c4e73"
           },
           {
             "type": "paragraph",
@@ -163,7 +180,8 @@
                 "type": "text",
                 "text": "\"024, if it weren't for your low intelligence, I would've suspected the last few false positive invasion records on the obstacle detection terminal is your work.\""
               }
-            ]
+            ],
+            "id": "p-b919e5d2739a91dc"
           },
           {
             "type": "paragraph",
@@ -172,7 +190,8 @@
                 "type": "text",
                 "text": "\"... (metallic clangs getting louder)\""
               }
-            ]
+            ],
+            "id": "p-954ff67c9937ef0e"
           },
           {
             "type": "paragraph",
@@ -181,7 +200,8 @@
                 "type": "text",
                 "text": "\"Looks like you do have some capacity for action. Be honest, 024, where did you get the dagger from? You didn't steal it from the storage, did you?\""
               }
-            ]
+            ],
+            "id": "p-77673861bd4f1cf0"
           },
           {
             "type": "paragraph",
@@ -190,7 +210,8 @@
                 "type": "text",
                 "text": "\"...289, this dagger is not mine.\""
               }
-            ]
+            ],
+            "id": "p-a20e78e72e964b1b"
           },
           {
             "type": "paragraph",
@@ -199,7 +220,8 @@
                 "type": "text",
                 "text": "\"...\""
               }
-            ]
+            ],
+            "id": "p-436d9c194ad5c5c1"
           },
           {
             "type": "paragraph",
@@ -208,7 +230,8 @@
                 "type": "text",
                 "text": "\"...\""
               }
-            ]
+            ],
+            "id": "p-436d9c194ad5c5c1-2"
           },
           {
             "type": "paragraph",
@@ -217,7 +240,8 @@
                 "type": "text",
                 "text": "\"Help!!!\""
               }
-            ]
+            ],
+            "id": "p-c813a2bfed06aee8"
           },
           {
             "type": "paragraph",
@@ -226,7 +250,8 @@
                 "type": "text",
                 "text": "Smart Classification on Recording: #AntimatterLegion #FailedArmedFight #FailedExperiment #LowQuality #LowQualityReading"
               }
-            ]
+            ],
+            "id": "p-23cc972cfc2538f5"
           }
         ]
       }

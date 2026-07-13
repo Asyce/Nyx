@@ -4,10 +4,11 @@
   "id": "belobog-chronicles-before-the-eternal-freeze",
   "name": "Belobog Chronicles: Before the Eternal Freeze",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Belobog_Chronicles:_Before_the_Eternal_Freeze",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "~ 1000 BF, or even earlier"
               }
-            ]
+            ],
+            "id": "p-e5634224b2828bce"
           },
           {
             "type": "list",
@@ -31,7 +33,8 @@
                     "type": "text",
                     "text": "Intergalactic civilizations like the Architects, trade commissioners of the Interastral Peace Corporation, and the Intelligentsia Guild members who seek the flow of knowledge began appearing at Jarilo-VI to initiate contact with the natives of the planet."
                   }
-                ]
+                ],
+                "id": "li-24ca5c7445468f0f"
               }
             ]
           },
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "~Around 30 BF"
               }
-            ]
+            ],
+            "id": "p-5106c165861dc466"
           },
           {
             "type": "list",
@@ -54,7 +58,8 @@
                     "type": "text",
                     "text": "An unknown object known as the Stellaron fell to the surface of the planet."
                   }
-                ]
+                ],
+                "id": "li-fc7b9b2b10062246"
               },
               {
                 "children": [
@@ -62,7 +67,8 @@
                     "type": "text",
                     "text": "Doomsday conspiracies about how the Stellaron is the symbol of calamity were widely circulated among all Jarilo-VI civilizations. As a result, many people had left the planet out of fear."
                   }
-                ]
+                ],
+                "id": "li-a56bb015196235d0"
               },
               {
                 "children": [
@@ -70,7 +76,8 @@
                     "type": "text",
                     "text": "Under the leadership of the eminent Architect, Alisa Rand, Architects all over began building shelters, of which Alisa Rand's own creation was later named Belobog, and the year of its foundation was designated as the Fortification."
                   }
-                ]
+                ],
+                "id": "li-976f5ba64089e1ab"
               }
             ]
           },
@@ -81,7 +88,8 @@
                 "type": "text",
                 "text": "~Around  20 BF"
               }
-            ]
+            ],
+            "id": "p-910343a5ddf09fd7"
           },
           {
             "type": "list",
@@ -93,7 +101,8 @@
                     "type": "text",
                     "text": "The Antimatter Legion officially invaded Jarilo-VI, and shelters on the planetary surface fell one after another."
                   }
-                ]
+                ],
+                "id": "li-6396c6ac0dd26f91"
               },
               {
                 "children": [
@@ -101,7 +110,8 @@
                     "type": "text",
                     "text": "The battlefront was eventually pushed to the then-incomplete city of Belobog, and the city announced its participation in the war."
                   }
-                ]
+                ],
+                "id": "li-4e265c1c6f2a448d"
               },
               {
                 "children": [
@@ -109,7 +119,8 @@
                     "type": "text",
                     "text": "With Alisa Rand leading its army, the 30-year-long Defense of Belobog began."
                   }
-                ]
+                ],
+                "id": "li-e873f327bb2fd781"
               }
             ]
           },
@@ -120,7 +131,8 @@
                 "type": "text",
                 "text": "~The Fortification"
               }
-            ]
+            ],
+            "id": "p-32a8d24e8430f08c"
           },
           {
             "type": "list",
@@ -132,7 +144,8 @@
                     "type": "text",
                     "text": "Belobog was complete."
                   }
-                ]
+                ],
+                "id": "li-d994310713b59879"
               },
               {
                 "children": [
@@ -140,7 +153,8 @@
                     "type": "text",
                     "text": "With Alisa Rand in charge, the Stellaron resonated with the will of the collective in Belobog and entered an unstable state. The blizzard that plagued the entire planet soon arrived, and Jarilo-VI was plunged into an Ice Age. The attacks of the Antimatter Legion were subdued. Due to the power of Preservation, Belobog was spared from the Eternal Freeze."
                   }
-                ]
+                ],
+                "id": "li-bd70e598bec9d9f1"
               },
               {
                 "children": [
@@ -148,7 +162,8 @@
                     "type": "text",
                     "text": "For her efforts in protecting the city from disaster, Belobogians nicknamed Alisa Rand She Who Evokes Miracles and supported her to be the supreme guardian of Belobog."
                   }
-                ]
+                ],
+                "id": "li-6a87ffd9f3456d24"
               }
             ]
           }

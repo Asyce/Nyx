@@ -4,10 +4,11 @@
   "id": "the-two-musketeers",
   "name": "The Two Musketeers",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/The_Two_Musketeers",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
@@ -259,7 +260,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-50c9987fe6f573ae"
           },
           {
             "type": "paragraph",
@@ -268,13 +270,15 @@
                 "type": "text",
                 "text": "—The Two Musketeers, pg. 224."
               }
-            ]
+            ],
+            "id": "p-866e4cd964c82e04"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
@@ -666,7 +670,8 @@
                 "type": "text",
                 "text": "\"Mother's favorite flower... is blooming.\""
               }
-            ]
+            ],
+            "id": "p-f14131196ecbffe8"
           },
           {
             "type": "paragraph",
@@ -675,13 +680,15 @@
                 "type": "text",
                 "text": "—The Two Musketeers, pg. 358."
               }
-            ]
+            ],
+            "id": "p-c057009496934957"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "vol-3",
       "label": "Vol. 3",
       "document": {
         "version": 1,
@@ -1063,7 +1070,8 @@
                 "type": "text",
                 "text": "When the candles were lit again, the man was gone, but he had left his musket behind. It stared everyone down in silence like some solemn god of death, staring into the night that belonged to it..."
               }
-            ]
+            ],
+            "id": "p-031ab1e3d1e2fa94"
           },
           {
             "type": "paragraph",
@@ -1072,7 +1080,8 @@
                 "type": "text",
                 "text": "—The Two Musketeers, Fin."
               }
-            ]
+            ],
+            "id": "p-3d7a3e5807b13cbe"
           }
         ]
       }

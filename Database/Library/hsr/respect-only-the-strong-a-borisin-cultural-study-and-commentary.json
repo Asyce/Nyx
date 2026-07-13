@@ -4,10 +4,11 @@
   "id": "respect-only-the-strong-a-borisin-cultural-study-and-commentary",
   "name": "Respect Only the Strong: A Borisin Cultural Study and Commentary",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Respect_Only_the_Strong:_A_Borisin_Cultural_Study_and_Commentary",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "To the Venerable Ten Lords,"
               }
-            ]
+            ],
+            "id": "p-228c376ed938d63a"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "I'm Dr. Zongguang, a PhD in cultural anthropology from the Luofu's Grand Virtue Academy."
               }
-            ]
+            ],
+            "id": "p-449b81f5879252c1"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "I can confirm that Yanyou, who recently left the Luofu without authorization to join the Whitewolf Pack, is indeed my disciple. He betrayed the Alliance and reduced himself to a \"White Wolf\" and I must bear the blame. I am willing to accept my rightful punishment in order to set an example for others."
               }
-            ]
+            ],
+            "id": "p-ecfdad007733bc6d"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "However, I must admit that this move by Yanyou does not come as a surprise to me. These \"barbaric\" lifestyles of borisin have a certain fatal attraction to many of those who live within \"civilized societies.\""
               }
-            ]
+            ],
+            "id": "p-75da3ce2a8e80be5"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "In actual fact, now that the dust has settled on the Third Denizens of Abundance War and borisin are unlikely to be causing any more major disruption, perhaps we are now prepared to face a topic that we never dared face in the past... Are borisin really \"barbaric\"?"
               }
-            ]
+            ],
+            "id": "p-68bcecc2fce30c55"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "I cannot help but recall a time 148 years ago, when I followed my mentor, Mr. Jielian, to a planet known as Pisdo. At the time, it was a Rhinohound Pack territory."
               }
-            ]
+            ],
+            "id": "p-feec7f43b04f3ff0"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "We met with the Rhinohound Pack founder — Geliko Khan — as IPC specialists and lived on Pisdo for 6 Star-Calendar months."
               }
-            ]
+            ],
+            "id": "p-43ba5d3414d54e14"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "That was the first time that we truly communicated with borisin as equals — not as enemies, nor as prisoners of war or slaves. Even Mr. Jielian, the master who founded the sect of borisin studies, had never had an opportunity like this before."
               }
-            ]
+            ],
+            "id": "p-975dc615981292b9"
           },
           {
             "type": "paragraph",
@@ -91,7 +100,8 @@
                 "type": "text",
                 "text": "Contrary to the common impression one has of borisin chiefs, Geliko Khan had always been thin and frail. In borisin society, where strength rules, a body like this was basically tantamount to an Incomplete One."
               }
-            ]
+            ],
+            "id": "p-17580292503f7578"
           },
           {
             "type": "paragraph",
@@ -100,7 +110,8 @@
                 "type": "text",
                 "text": "Geliko Khan had not chosen to walk a painful path in which he did not excel. Instead, he chose another path — technological research. He led a team of other young borisin who, like him, either did not excel at or refused to study \"ancient martialism\" and began researching new forms of weaponry that could help to improve their fighting ability."
               }
-            ]
+            ],
+            "id": "p-c30495c314cd3091"
           },
           {
             "type": "paragraph",
@@ -109,7 +120,8 @@
                 "type": "text",
                 "text": "Less than a century later, Geliko Khan set up his own tribe of borisin, equipped his people with powered armor exoskeletons, and named them the \"Rhinohounds.\""
               }
-            ]
+            ],
+            "id": "p-9ddb9bf3cf100f0a"
           },
           {
             "type": "paragraph",
@@ -118,7 +130,8 @@
                 "type": "text",
                 "text": "Even to this day, there are many borisin who believe the Rhinohound Pack betrayed the sacred way of life that Duran the Father Wolf had created for them. However, not one of them dares look down on the Rhinohounds for their physical weakness."
               }
-            ]
+            ],
+            "id": "p-23c2cc762aa17611"
           },
           {
             "type": "paragraph",
@@ -127,7 +140,8 @@
                 "type": "text",
                 "text": "There is a classic misunderstanding regarding borisin culture... Borisin \"respect only the strong,\" so they must only have respect for the most powerful of warriors."
               }
-            ]
+            ],
+            "id": "p-be69e598ea816caf"
           },
           {
             "type": "paragraph",
@@ -136,7 +150,8 @@
                 "type": "text",
                 "text": "The truth is actually much more profound than this. Though borisin do indeed \"respect only the strong,\" their definition of \"strong\" is not set in stone, but diverse."
               }
-            ]
+            ],
+            "id": "p-3224c40276ed7466"
           },
           {
             "type": "paragraph",
@@ -145,7 +160,8 @@
                 "type": "text",
                 "text": "What is strength in the eyes of borisin? Someone like Hoolay that has the strength of a thousand men? Naturally, that is \"strength.\" What about someone who is as intelligent as Geliko Khan? That is also strength. What about the genetic warlocks of the Chiseltooth Pack who excel at cultivating weaponry and beast ships? That is also strength."
               }
-            ]
+            ],
+            "id": "p-4bd5bb4bf8109336"
           },
           {
             "type": "paragraph",
@@ -154,7 +170,8 @@
                 "type": "text",
                 "text": "Over the six months that we lived on Pisdo, I discovered that the diverse evaluation system of borisin society actually led to bustling vitality, not oppression at all."
               }
-            ]
+            ],
+            "id": "p-baa262d908e6a93a"
           },
           {
             "type": "paragraph",
@@ -163,7 +180,8 @@
                 "type": "text",
                 "text": "Indeed, there are certain jobs that may cause you to lose respect in borisin society, such as a merchant or a farmer — In fact, borisin society doesn't need these two professions at all, aside from the more \"new-age\" Rhinohound Pack. My poor friend Arma was brutally bullied in his hometown due to his desire to become a merchant."
               }
-            ]
+            ],
+            "id": "p-c6d201267402deb6"
           },
           {
             "type": "paragraph",
@@ -172,7 +190,8 @@
                 "type": "text",
                 "text": "These jobs aside, the majority of professions — such as warriors, advisers, beast ship operators, doctors, genetic warlocks, priests, and bards... All of these jobs are considered equal in borisin society."
               }
-            ]
+            ],
+            "id": "p-5fc106b3416b0d29"
           },
           {
             "type": "paragraph",
@@ -181,7 +200,8 @@
                 "type": "text",
                 "text": "Even the most powerful warrior would not dare mock a frail but genius poet without careful consideration. If they were to do this, they would be judged as \"disrespecting the strong\" in the borisin social system and be shunned."
               }
-            ]
+            ],
+            "id": "p-384362482917695c"
           },
           {
             "type": "paragraph",
@@ -190,7 +210,8 @@
                 "type": "text",
                 "text": "On the other hand, the borisin faith in \"respect only the strong\" has allowed them to really master the concept of \"a hero's roots do not matter.\" As long as you are a borisin and truly revere the Master of Immortality (this I doubt), then no matter how humble your beginnings are, you can rely on your strength alone to lead you to the forefront and write your own history."
               }
-            ]
+            ],
+            "id": "p-9aefa0e249f8591e"
           },
           {
             "type": "paragraph",
@@ -199,7 +220,8 @@
                 "type": "text",
                 "text": "Before the current Great Erkan (top military officer in the borisin tongue) Chiliyan took his post, he was just a weak war slave that Geliko Khan purchased by chance. Word on the streets was that Geliko Khan purchased him simply because he saw his childhood self in this boy."
               }
-            ]
+            ],
+            "id": "p-3bb4f60de8bd6254"
           },
           {
             "type": "paragraph",
@@ -208,7 +230,8 @@
                 "type": "text",
                 "text": "According to our rough calculations, there were 14 people alongside Chiliyan who had managed to rise from war slaves to positions of power in Pisdo alone. Naturally, this was partly because Geliko Khan was more liberal-minded, but it also clearly shows how borisin placed more importance on capability than that of birth."
               }
-            ]
+            ],
+            "id": "p-032294b789357f1a"
           },
           {
             "type": "paragraph",
@@ -217,7 +240,8 @@
                 "type": "text",
                 "text": "Is the dreaded Whitewolf Pack of today not yet another example? The foxian slaves rose up and formed their very own pack. Not only did borisin not use their \"slave lineage\" against them, the majority of borisin now fear them due to their savage and merciless actions."
               }
-            ]
+            ],
+            "id": "p-4649f82b8319eb25"
           },
           {
             "type": "paragraph",
@@ -226,7 +250,8 @@
                 "type": "text",
                 "text": "This \"respect only the strong,\" alongside their pluralistic societal ranking system, has actually birthed a very effective system of policies. No one is free to slack off at a desk for their whole lives, and no one can rest on their laurels and milk past successes for a lifetime. The ones who have decision-making power in military meetings will always be borisin who have true talent."
               }
-            ]
+            ],
+            "id": "p-0c6d0ae068932051"
           },
           {
             "type": "paragraph",
@@ -235,7 +260,8 @@
                 "type": "text",
                 "text": "Back to my disciple, Yanyou. His parents always believed that cultural anthropology was \"a pointless discipline that will never help you find a job.\" They were so set on this that when he insisted on advancing with his anthropology studies, they cut off all ties with him. Then, when he did make it through all the challenges and entered the academy as he had wished, he discovered that all the \"leading academics\" there (myself included) came from \"academic families\" with thousands of years of history."
               }
-            ]
+            ],
+            "id": "p-2804892d5232718c"
           },
           {
             "type": "paragraph",
@@ -244,7 +270,8 @@
                 "type": "text",
                 "text": "Such people would naturally be attracted to borisin culture of only using meritocracy to select heroes. Though the path that he has taken is undeniably deplorable, is it really surprising?"
               }
-            ]
+            ],
+            "id": "p-9da73b7f3bf53ebf"
           },
           {
             "type": "paragraph",
@@ -253,7 +280,8 @@
                 "type": "text",
                 "text": "Of course, even with this being the case, I am still shocked by his foolishness. As far as borisin are concerned, anthropology is likely an even more meaningless profession. If borisin had just a single ounce of respect for culture and anthropology, they would never have killed Mr. Jielian."
               }
-            ]
+            ],
+            "id": "p-9011f8036b5394e8"
           },
           {
             "type": "paragraph",
@@ -262,7 +290,8 @@
                 "type": "text",
                 "text": "However, I shall not attempt to deceive the Ten Lords... I also approve of this specific aspect of borisin society. I will point out, however, now that Hoolay has been captured and the Borisin Empire has collapsed, their pure \"respect only the strong\" social norm has started to disappear. Their new generation of aristocrats is becoming more and more \"civilized\" when it comes to their selection of talents, growing more concerned solely for their own \"political bases\" regardless of how this would affect the pack as a whole."
               }
-            ]
+            ],
+            "id": "p-588f28aa44f178c9"
           },
           {
             "type": "paragraph",
@@ -271,7 +300,8 @@
                 "type": "text",
                 "text": "Nevertheless, for the Xianzhou Alliance, this offers a prime chance to ditch outdated ideologies and adopt lessons from the \"barbarians.\" Embracing a culture where strength rules could rejuvenate the stagnant atmosphere within Xianzhou society."
               }
-            ]
+            ],
+            "id": "p-71f475fdd4feca5a"
           },
           {
             "type": "paragraph",
@@ -280,7 +310,8 @@
                 "type": "text",
                 "text": "Dr. Zongguang, Anthropologist from the Luofu Grand Virtue Academy"
               }
-            ]
+            ],
+            "id": "p-3b59048bce88a005"
           }
         ]
       }

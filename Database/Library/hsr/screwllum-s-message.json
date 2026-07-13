@@ -4,10 +4,11 @@
   "id": "screwllum-s-message",
   "name": "Screwllum's Message",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Screwllum%27s_Message",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "To Mr Svarog of Jarilo-VI:"
               }
-            ]
+            ],
+            "id": "p-5dcee783c2fa76b6"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "My name is Screwllum. I come from Planet Screwllum, a world that is at a considerable distance from yours. I am writing this message spurred on by a sudden inspiration and it may be overly familiar: I do hope you will forgive me for any offense caused."
               }
-            ]
+            ],
+            "id": "p-bb411b673da15394"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "I watched this season's broadcast of the \"Interastral Tournament Festival\" on the Interastral Peace Network. Please do not misunderstand me, I have very little interest in the Aetherium Wars game itself. If it weren't for an old Stellaron Hunter friend of mine's persistence, I would not waste my precious time watching the festival. However, this viewing experience delivered me an unexpected surprise... It allowed me to learn of your planet, Jarilo-VI. To be more precise, I learned of the signs of budding \"silicon-based life forms\" on your planet."
               }
-            ]
+            ],
+            "id": "p-903cf04158b6c69a"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "Within a large number of civilizations, silicon-based structures exist solely as tools: I believe that this view is supported by the locals of your world also. However, within the cosmos there are in fact silicon-based structures that can be defined as \"living bodies.\" A number of civilizations are also built and ruled over by these \"silicon-based life forms\"... My home, Planet Screwllum, is one such example."
               }
-            ]
+            ],
+            "id": "p-fc22bd8d53921998"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "Just what kind of miraculous baptism could lead to these silicon-based structures bursting out in the evolutionary flame that is \"life\"... This is one of the questions that I have been researching for a long time. Now, this kind of change is taking place on Jarilo-VI, slowly and miraculously. It is my hope that one day, as these scattered flames of evolution slowly gather together like a flame across the land, we will come to call each other \"brothers.\""
               }
-            ]
+            ],
+            "id": "p-2344a3b1a0b7bbec"
           },
           {
             "type": "paragraph",
@@ -77,7 +83,8 @@
                 "type": "text",
                 "text": "Screwllum"
               }
-            ]
+            ],
+            "id": "p-73aee7f0c1964f63"
           }
         ]
       }

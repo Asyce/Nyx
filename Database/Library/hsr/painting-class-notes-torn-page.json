@@ -4,10 +4,11 @@
   "id": "painting-class-notes-torn-page",
   "name": "Painting Class Notes (Torn Page)",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Painting_Class_Notes_(Torn_Page)",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -40,7 +41,8 @@
                 "type": "text",
                 "text": "※ Minor anomalies have been documented."
               }
-            ]
+            ],
+            "id": "p-cf9a84fadce7b1e2"
           },
           {
             "type": "paragraph",
@@ -71,7 +73,8 @@
                 "type": "text",
                 "text": "Only need to exceed minimum threshold. The specific volume of Wishpower funneled will not impact the final scale of the imagenesis."
               }
-            ]
+            ],
+            "id": "p-a6068bfb92e67583"
           },
           {
             "type": "paragraph",
@@ -87,7 +90,8 @@
                 "type": "text",
                 "text": "A student once knocked over a rack of paints. He had to work as a streamer for quite a while to earn enough Wishpower to pay for the damages."
               }
-            ]
+            ],
+            "id": "p-e0a65160302a25bb"
           },
           {
             "type": "paragraph",
@@ -143,7 +147,8 @@
                 "type": "text",
                 "text": "The more stable the design in this phase, the longer the resulting imagenae can maintain its physical form."
               }
-            ]
+            ],
+            "id": "p-fccd385179573f8c"
           },
           {
             "type": "paragraph",
@@ -166,7 +171,8 @@
                 "type": "text",
                 "text": "Result: It gave birth to a very \"stout\" wispae, which proceeded to hop right out of the classroom."
               }
-            ]
+            ],
+            "id": "p-355e8520eef18956"
           },
           {
             "type": "paragraph",
@@ -222,7 +228,8 @@
                 "type": "text",
                 "text": "Noted. Gonna go tease my orch buddy right now and tell him he's an old fart."
               }
-            ]
+            ],
+            "id": "p-0e04d7c89eedf2d7"
           },
           {
             "type": "paragraph",
@@ -259,7 +266,8 @@
                 "type": "text",
                 "text": "(No wonder the guy next to me got caught playing games. Turns out the ceiling has eyes. Don't look at me, Teacher! I'm taking notes, see?)"
               }
-            ]
+            ],
+            "id": "p-fb5b3510c0e0f050"
           },
           {
             "type": "paragraph",
@@ -268,7 +276,8 @@
                 "type": "text",
                 "text": "Digital art can spawn imagenaes too, but only through spirit imbuement."
               }
-            ]
+            ],
+            "id": "p-10999150f8263ad6"
           },
           {
             "type": "paragraph",
@@ -312,7 +321,8 @@
                 "type": "text",
                 "text": "⠀ ⠀ ~~⠀~~ My little cow drawing"
               }
-            ]
+            ],
+            "id": "p-961727f780afa2e3"
           },
           {
             "type": "paragraph",
@@ -340,7 +350,8 @@
                 "type": "text",
                 "text": "This stage relies primarily on emotional intuition. It is better suited for hands-on practice than theoretical instruction."
               }
-            ]
+            ],
+            "id": "p-f3ce3a470f600157"
           },
           {
             "type": "paragraph",
@@ -349,7 +360,8 @@
                 "type": "text",
                 "text": "Some artists prefer to mix Wishpower directly into their paints or dip their brushes straight into raw Wishpower while painting (known as the Spirit Painting technique). In such cases, this step can be omitted."
               }
-            ]
+            ],
+            "id": "p-3cb2c4673a3c2730"
           },
           {
             "type": "paragraph",
@@ -365,7 +377,8 @@
                 "type": "text",
                 "text": "(Many famous imagenaes actually originated as these \"half-finished\" accidents, so it cannot be strictly defined as a flaw.)"
               }
-            ]
+            ],
+            "id": "p-aeb21393afb0c160"
           },
           {
             "type": "paragraph",
@@ -407,7 +420,8 @@
                 "type": "text",
                 "text": "Professor actually memorized the favorite foods of every single imagenae. Surely we don't have to do the same?"
               }
-            ]
+            ],
+            "id": "p-f2df8373cf9438f4"
           },
           {
             "type": "paragraph",
@@ -430,7 +444,8 @@
                 "type": "text",
                 "text": "Wait a second, why did the teacher start dancing?"
               }
-            ]
+            ],
+            "id": "p-34800f08a38fc83d"
           },
           {
             "type": "paragraph",
@@ -446,7 +461,8 @@
                 "type": "text",
                 "text": "Honestly? She's actually a better teacher than our actual one."
               }
-            ]
+            ],
+            "id": "p-d4d8866a29cda939"
           }
         ]
       }

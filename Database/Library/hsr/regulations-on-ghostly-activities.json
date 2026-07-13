@@ -4,10 +4,11 @@
   "id": "regulations-on-ghostly-activities",
   "name": "Regulations on Ghostly Activities",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Regulations_on_Ghostly_Activities",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "strong",
                 "children": []
               }
-            ]
+            ],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -50,7 +52,8 @@
                 "type": "text",
                 "text": "to promote social harmony and stability, regulate the daily conduct of the ghost species, and safeguard citizens' legitimate rights and public safety."
               }
-            ]
+            ],
+            "id": "p-5c78cdb35399dc2e"
           },
           {
             "type": "paragraph",
@@ -68,7 +71,8 @@
                 "type": "text",
                 "text": "These regulations apply exclusively to all ghost entities residing or operating within the administrative domain of this city."
               }
-            ]
+            ],
+            "id": "p-32354985e154a53f"
           },
           {
             "type": "paragraph",
@@ -86,7 +90,8 @@
                 "type": "text",
                 "text": "As members of society, ghosts shall enjoy all rights prescribed by law while being obligated to comply with laws and regulations, respect social ethics, and refrain from harming public interests and legitimate personal rights."
               }
-            ]
+            ],
+            "id": "p-7f4e6e2279d19855"
           },
           {
             "type": "paragraph",
@@ -95,7 +100,8 @@
                 "type": "strong",
                 "children": []
               }
-            ]
+            ],
+            "id": "p-882a20e6379eb83a-2"
           },
           {
             "type": "paragraph",
@@ -113,7 +119,8 @@
                 "type": "text",
                 "text": "Traffic Regulations"
               }
-            ]
+            ],
+            "id": "p-5b3270931937c063"
           },
           {
             "type": "paragraph",
@@ -162,7 +169,8 @@
                 "type": "text",
                 "text": "4. When passing through moving vehicles, which may startle drivers or the vehicles themselves, potentially causing traffic accidents."
               }
-            ]
+            ],
+            "id": "p-2541365dc39ae826"
           },
           {
             "type": "paragraph",
@@ -180,7 +188,8 @@
                 "type": "text",
                 "text": "Public Order Guidelines"
               }
-            ]
+            ],
+            "id": "p-955d35015ed19d5c"
           },
           {
             "type": "paragraph",
@@ -189,7 +198,8 @@
                 "type": "text",
                 "text": "In public spaces (such as shopping malls, libraries, public transportation, etc.), ghosts should maintain a stable and visible form, avoiding random flickering, floating too high, or making strange noises to prevent disruption of public order."
               }
-            ]
+            ],
+            "id": "p-e850fa156dcef517"
           },
           {
             "type": "paragraph",
@@ -198,7 +208,8 @@
                 "type": "text",
                 "text": "It is forbidden to exploit one's physical traits for peeping, eavesdropping, pranks (such as suddenly emerging from screens, walls, or floors, or passing through other beings' bodies without permission), and any other behaviors that violate the rights of humans and imagenae, or disrupt social order."
               }
-            ]
+            ],
+            "id": "p-6253d3a0667472f7"
           },
           {
             "type": "paragraph",
@@ -216,7 +227,8 @@
                 "type": "text",
                 "text": "Public Environment Guidelines"
               }
-            ]
+            ],
+            "id": "p-e3b2a0187409581d"
           },
           {
             "type": "paragraph",
@@ -225,7 +237,8 @@
                 "type": "text",
                 "text": "When entering crowded indoor public spaces, ghosts should regulate their temperature or keep a reasonable distance to prevent physical discomfort to nearby humans and imagenaes."
               }
-            ]
+            ],
+            "id": "p-11606529d4b6fce1"
           },
           {
             "type": "paragraph",
@@ -234,7 +247,8 @@
                 "type": "strong",
                 "children": []
               }
-            ]
+            ],
+            "id": "p-882a20e6379eb83a-3"
           },
           {
             "type": "paragraph",
@@ -252,7 +266,8 @@
                 "type": "text",
                 "text": "Identity Registration"
               }
-            ]
+            ],
+            "id": "p-5ea657ca034561b1"
           },
           {
             "type": "paragraph",
@@ -261,7 +276,8 @@
                 "type": "text",
                 "text": "All resident ghosts must report to the Department of Aberration Defense for registration and to obtain their identifier codes for management and social identification purposes."
               }
-            ]
+            ],
+            "id": "p-7e146d96769cdd7a"
           },
           {
             "type": "paragraph",
@@ -279,7 +295,8 @@
                 "type": "text",
                 "text": "Special Permission"
               }
-            ]
+            ],
+            "id": "p-1f08113e4c1d9739"
           },
           {
             "type": "paragraph",
@@ -288,7 +305,8 @@
                 "type": "text",
                 "text": "Ghosts who need to frequently phase through walls or perform other privileged actions for official duties (such as assault inspections, etc.) must apply for a special behavior permit from the administrative department."
               }
-            ]
+            ],
+            "id": "p-18caa37916d3c9a3"
           },
           {
             "type": "paragraph",
@@ -306,7 +324,8 @@
                 "type": "text",
                 "text": "Civic Duties"
               }
-            ]
+            ],
+            "id": "p-4d510106acb8f1ea"
           },
           {
             "type": "paragraph",
@@ -315,7 +334,8 @@
                 "type": "text",
                 "text": "Ghosts are encouraged to utilize their traits to assist society, such as participating in search and rescue operations for missing personnel and helping inspect internal malfunctions in public facilities, provided that their own safety is ensured, and these regulations are not violated."
               }
-            ]
+            ],
+            "id": "p-d813f230efc97555"
           },
           {
             "type": "paragraph",
@@ -324,7 +344,8 @@
                 "type": "strong",
                 "children": []
               }
-            ]
+            ],
+            "id": "p-882a20e6379eb83a-4"
           },
           {
             "type": "paragraph",
@@ -342,7 +363,8 @@
                 "type": "text",
                 "text": "For ghosts who violate these regulations, the Department of Aberration Defense shall, depending on the severity of the circumstances, impose penalties such as warnings, mandatory civic virtue training sessions, or community service. Those who cause personal injury or property damage shall bear the corresponding legal responsibilities according to law."
               }
-            ]
+            ],
+            "id": "p-f1daa3b4a1e1f8c8"
           },
           {
             "type": "paragraph",
@@ -351,7 +373,8 @@
                 "type": "strong",
                 "children": []
               }
-            ]
+            ],
+            "id": "p-882a20e6379eb83a-5"
           },
           {
             "type": "paragraph",
@@ -369,7 +392,8 @@
                 "type": "text",
                 "text": "The Department of Aberration Defense of Planarcadia shall be responsible for the interpretation of these measures."
               }
-            ]
+            ],
+            "id": "p-5522533b391b1f94"
           },
           {
             "type": "paragraph",
@@ -387,7 +411,8 @@
                 "type": "text",
                 "text": "These measures shall take effect from the date of publication."
               }
-            ]
+            ],
+            "id": "p-c15b0c1ae059d0a4"
           }
         ]
       }

@@ -7,12 +7,12 @@
     "endpoint": "sg-hk4e-api.hoyoverse.com getAnnList+getAnnContent"
   },
   "counts": {
-    "total": 12,
-    "needs_review": 8,
+    "total": 15,
+    "needs_review": 7,
     "banner": 4,
     "byType": {
-      "challenge": 1,
-      "event": 4,
+      "challenge": 2,
+      "event": 6,
       "shop": 1,
       "banner": 4,
       "permanent": 1,
@@ -20,6 +20,63 @@
     }
   },
   "events": [
+    {
+      "game": "gi",
+      "id": "gi-hoyolab-official-45197150",
+      "title": "Stygian Onslaught",
+      "type": "challenge",
+      "start": "2026-05-27T09:00:00.000Z",
+      "end": "2026-06-30T02:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://www.hoyolab.com/article/45197150",
+        "priority": 1
+      },
+      "confidence": "high",
+      "permanence": "timed",
+      "needs_review": false,
+      "description": "A three-phase combat challenge with six difficulty levels and performance rewards."
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyolab-official-45349300",
+      "title": "Trials of the Brave Warrior",
+      "type": "event",
+      "start": "2026-06-08T09:00:00.000Z",
+      "end": "2026-06-18T02:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://www.hoyolab.com/article/45349300",
+        "priority": 1
+      },
+      "confidence": "high",
+      "permanence": "timed",
+      "needs_review": false,
+      "description": "A swordsmanship challenge built around parries and Honed Techniques."
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyolab-official-45478500",
+      "title": "Kaleidoscopic Color Chase",
+      "type": "event",
+      "start": "2026-06-18T09:00:00.000Z",
+      "end": "2026-06-29T02:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://www.hoyolab.com/article/45478500",
+        "priority": 1
+      },
+      "confidence": "high",
+      "permanence": "timed",
+      "needs_review": false,
+      "description": "A co-op paint collection challenge with five progressively unlocked stages."
+    },
     {
       "game": "gi",
       "id": "gi-hoyo-ann-5e481c62dc26",
@@ -125,8 +182,8 @@
       "id": "gi-hoyo-ann-82ebf8a67d40",
       "title": "\"Sunny Summer Fontinalia\" Event: Participate to Obtain Charlotte's Outfit and Invite \"Lens of Verity\" Charlotte (Cryo)",
       "type": "event",
-      "start": null,
-      "end": null,
+      "start": "2026-07-01T03:00:00.000Z",
+      "end": "2026-08-11T02:59:00.000Z",
       "server": "europe",
       "timezone": "UTC+01:00",
       "source": {
@@ -134,9 +191,9 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21749",
         "priority": 1
       },
-      "confidence": "low",
-      "permanence": "unknown",
-      "needs_review": true,
+      "confidence": "high",
+      "permanence": "timed",
+      "needs_review": false,
       "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/4c699b74ef0c77158a7f28e62ba2d7ec_6267956826869874359_transformed.jpg",
       "description": "〓Event Rewards〓 〓Event Duration〓 After the Version \"Luna VIII\" update – 2026/08/11 03:59 〓Eligibility〓 Adventure Rank 20 or above Complete Archon Quest Prologue: Act III \"Song of the Dragon and Freedom\" Unlock any Statue of The Seven in…"
     },

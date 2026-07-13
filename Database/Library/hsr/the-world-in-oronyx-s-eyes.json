@@ -4,10 +4,11 @@
   "id": "the-world-in-oronyx-s-eyes",
   "name": "The World in Oronyx's Eyes",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/The_World_in_Oronyx%27s_Eyes",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-6de1aa6f1ebc2537"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "(Preceding text has been lost)"
               }
-            ]
+            ],
+            "id": "p-4253acfa17a21e85"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "People often say that if Oronyx is just willing to offer their assistance, we priests of Oronyx are able to see any moment in time as we please... Many of my own seniors and new students even hold this opinion. However, this is unfortunately an incorrect view born of people's misunderstandings of the Titans."
               }
-            ]
+            ],
+            "id": "p-cb64ba3eca766c5b"
           },
           {
             "type": "paragraph",
@@ -51,7 +55,8 @@
                 "type": "text",
                 "text": "Although the Titans are indeed supreme beings, they are not omnipotent. The miracle of Oronyx is not to be able to directly \"see\" the past or future, but it is to be able to \"extrapolate\" them. Do not underestimate the importance of this distinction. In my opinion, if Oronyx was truly willing to help us predict the weather each day (or should I say, the tempers of Aquila)... Then there is a very real possibility that they could be mistaken."
               }
-            ]
+            ],
+            "id": "p-660f3506399bb8f3"
           },
           {
             "type": "paragraph",
@@ -60,7 +65,8 @@
                 "type": "text",
                 "text": "I know that people say that the prophecy of Janus can create endless paths and choices for humanity. Then, does it not follow that this would also be the same for Oronyx? This statement is actually half correct... Though the divinities of Oronyx and Janus bear some similarities, neither of them has any relation to \"directly interacting with the past.\""
               }
-            ]
+            ],
+            "id": "p-86072792ef2f401f"
           },
           {
             "type": "paragraph",
@@ -69,7 +75,8 @@
                 "type": "text",
                 "text": "What Oronyx and Janus show their priests and allow them to interact with is not, in fact, reality itself. It is something that bears a great resemblance to reality. Perhaps this point is easier to explain in relation to Janus: Since we are able to select a specific \"history\" of something, that also means history cannot be real and fixed in the Titan's eyes... It becomes a reason for something to \"appear or disappear from existence.\" This is clearly different to the idea of \"history is the only true past\" that we have come to understand. The priests of Janus do not actually change the past, but they select a background or a \"state in which something exists.\" In other words, what the Titans help us to change is reality, not what has already happened in the past... Everything we see is no more than the process of rationalizing a \"changed reality.\" It seems to us like reversing the flow of time, but that is logically untrue."
               }
-            ]
+            ],
+            "id": "p-e62dade3da360ef2"
           },
           {
             "type": "paragraph",
@@ -91,7 +98,8 @@
                 "type": "text",
                 "text": "(Or \"absolutely will occur\" — tense has absolutely no meaning to Oronyx.) This makes the situation extremely easy to understand: What prophet would be willing to pronounce a prophecy that they themselves have no faith in?"
               }
-            ]
+            ],
+            "id": "p-f3b148e4d9dc690a"
           },
           {
             "type": "paragraph",
@@ -100,7 +108,8 @@
                 "type": "text",
                 "text": "So, if you have faith in my professionalism as a priest of Oronyx, I hope that you will realize one thing: Priests of Oronyx have already guided their divine power to the maximum potential. This maximum potential, if I were to describe it in blasphemous terms, is equivalent to placing Oronyx under house arrest. We give them no other work at all. We simply allow them to focus on searching for knowledge regarding the past and future... These are all the results that can be gained. If Oronyx is not willing (in my opinion it means that they have no confidence) then they will not (in actuality, they are unable to) share any revelations regarding information on the past, present, or future."
               }
-            ]
+            ],
+            "id": "p-44d3cb47e0c76f4f"
           },
           {
             "type": "paragraph",
@@ -109,7 +118,8 @@
                 "type": "text",
                 "text": "What you must all understand is that even the enormous power of the Titans has its limits."
               }
-            ]
+            ],
+            "id": "p-fd43c3304aa118b9"
           },
           {
             "type": "paragraph",
@@ -118,7 +128,8 @@
                 "type": "text",
                 "text": "(Following text has been lost)"
               }
-            ]
+            ],
+            "id": "p-b483bb259697e6a8"
           }
         ]
       }

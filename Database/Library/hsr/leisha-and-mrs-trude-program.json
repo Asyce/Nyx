@@ -4,10 +4,11 @@
   "id": "leisha-and-mrs-trude-program",
   "name": "Leisha and Mrs. Trude Program",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Leisha_and_Mrs._Trude_Program",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "page-one",
       "label": "Page One",
       "document": {
         "version": 1,
@@ -29,7 +30,8 @@
                 "type": "em",
                 "children": []
               }
-            ]
+            ],
+            "id": "p-17e1a2f8af018d79"
           },
           {
             "type": "paragraph",
@@ -101,7 +103,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-4197cc284ecde18e"
           },
           {
             "type": "paragraph",
@@ -130,11 +133,13 @@
                 "type": "text",
                 "text": "University of Belobog Child Psychologist"
               }
-            ]
+            ],
+            "id": "p-70bdb1597e2de902"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -157,7 +162,8 @@
                 "type": "text",
                 "text": "Sound Design: Barnaud. Set Design: Peter. Lighting: Fayne. Theater Manager: Charlie."
               }
-            ]
+            ],
+            "id": "p-6d915c20f6f5ad53"
           },
           {
             "type": "paragraph",
@@ -229,7 +235,8 @@
                 "type": "text",
                 "text": "Dorothy, the Happy Fox — Elsa"
               }
-            ]
+            ],
+            "id": "p-ddd8fbdb94a9e095"
           },
           {
             "type": "paragraph",
@@ -322,13 +329,15 @@
                 "type": "text",
                 "text": "\"Let the Past Become Wind\" — Leisha, Mrs. Trude"
               }
-            ]
+            ],
+            "id": "p-ac09a93dc234b623"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "page-two",
       "label": "Page Two",
       "document": {
         "version": 1,
@@ -368,7 +377,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-5bf7bcc2fd0bdc35"
           },
           {
             "type": "paragraph",
@@ -390,7 +400,8 @@
                 "type": "text",
                 "text": "adopted from the classical fairytale will re-open at the Golden Theater."
               }
-            ]
+            ],
+            "id": "p-d99d03efe255d7a0"
           },
           {
             "type": "paragraph",
@@ -438,7 +449,8 @@
                 "type": "text",
                 "text": "won the Young Adult's Choice by a wide margin."
               }
-            ]
+            ],
+            "id": "p-f9debf02afcb28f7"
           },
           {
             "type": "paragraph",
@@ -447,7 +459,8 @@
                 "type": "text",
                 "text": "\"This is a unique experience merging stories together with reality. I have three children and they're not all around the same age. The oldest is fourteen and the youngest is only six, but they all think this show was amazing. Now they finally have something in common to talk about.\" A parent stated this excitedly when we found them sitting outside the theater in a foldable chair, waiting for tickets to go on sale."
               }
-            ]
+            ],
+            "id": "p-d2db2b283258f44b"
           },
           {
             "type": "paragraph",
@@ -469,7 +482,8 @@
                 "type": "text",
                 "text": "was the most popular children's story in Belobog in the past thirty years. Kyle, the show's director, told us that the musical contains many magnificent and creative backdrops and sets that are inspired by the children's story. At the same time, every song is longer than the average musical number. \"It's because we need to demonstrate the details of the fairytale forest during every song, and we need to make every animal character come to life.\""
               }
-            ]
+            ],
+            "id": "p-a7eb6abc42fdfa5f"
           },
           {
             "type": "paragraph",
@@ -491,13 +505,15 @@
                 "type": "text",
                 "text": ", the audience can sing with the actors under the spotlight, and can also have unique interactions with the fantastic animals in the fairytale forest on stage. Leisha's innocent beauty, Mrs. Trude's loneliness and wondrous magic, and the unique personalities of the three knights were all expressed in the easter eggs in the encore, designed meticulously by Director Kyle and the stage crew. Those who like fairytales need to remember to stay till the very end for the encore!"
               }
-            ]
+            ],
+            "id": "p-752d20a9f9137a6c"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "page-three",
       "label": "Page Three",
       "document": {
         "version": 1,
@@ -554,7 +570,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-cd52ac713f74644c"
           },
           {
             "type": "paragraph",
@@ -613,7 +630,8 @@
                 "type": "text",
                 "text": "List price: 1,500 shield"
               }
-            ]
+            ],
+            "id": "p-ec4ccd920e6365b3"
           },
           {
             "type": "paragraph",
@@ -672,7 +690,8 @@
                 "type": "text",
                 "text": "List price: 3,000 shield"
               }
-            ]
+            ],
+            "id": "p-ea96a33a3f2b4d57"
           },
           {
             "type": "paragraph",
@@ -718,7 +737,8 @@
                 "type": "text",
                 "text": "List price: 7,000 shield"
               }
-            ]
+            ],
+            "id": "p-ffd9eb963d5cc481"
           },
           {
             "type": "paragraph",
@@ -764,7 +784,8 @@
                 "type": "text",
                 "text": "List price: shield"
               }
-            ]
+            ],
+            "id": "p-82886b52b68fa4d3"
           }
         ]
       }

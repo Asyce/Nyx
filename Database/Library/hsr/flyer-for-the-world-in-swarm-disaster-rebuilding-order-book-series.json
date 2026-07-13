@@ -4,10 +4,11 @@
   "id": "flyer-for-the-world-in-swarm-disaster-rebuilding-order-book-series",
   "name": "Flyer for The World in Swarm Disaster: Rebuilding Order Book Series",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Flyer_for_The_World_in_Swarm_Disaster:_Rebuilding_Order_Book_Series",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -78,7 +79,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-b3efa64473624bb1"
           },
           {
             "type": "paragraph",
@@ -129,7 +131,8 @@
                 "type": "text",
                 "text": "Was the fall of Ena, then, a consequence of weakness? Or was it the paradoxical self-destruction of a power that, having peaked, had nowhere to go but inward? The answer lies would have to be answered after you have read all of these pages."
               }
-            ]
+            ],
+            "id": "p-d1f16470ffc68a1f"
           },
           {
             "type": "paragraph",
@@ -160,7 +163,8 @@
                 "type": "text",
                 "text": "Whatever it takes to survive...''"
               }
-            ]
+            ],
+            "id": "p-1df1b7a1e261f03e"
           },
           {
             "type": "paragraph",
@@ -252,7 +256,8 @@
                 "type": "text",
                 "text": "Several Amber Eras after the Swarm calamity, the Wallbuilders swept this segmentum with massive scoops, as steady and slow as bulldozers, mounted on space ships. At the location where the Stiis' planet had been, all they saw was a black hole collapsing endlessly... Calm, silent, the same within as it is without."
               }
-            ]
+            ],
+            "id": "p-ee65056958efbbe3"
           },
           {
             "type": "paragraph",
@@ -310,7 +315,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-8ba5a1414fb33840"
           },
           {
             "type": "paragraph",
@@ -342,7 +348,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-1d18de8fc0ff870c"
           }
         ]
       }

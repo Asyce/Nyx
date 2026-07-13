@@ -4,10 +4,11 @@
   "id": "stowaway-investigative-report",
   "name": "Stowaway Investigative Report",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Stowaway_Investigative_Report",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "part-i",
       "label": "Part I",
       "document": {
         "version": 1,
@@ -34,7 +35,8 @@
                 "type": "text",
                 "text": "This book aims to shift the public perception of stowaways from mere condemnation to a brief and focused look at their daily lives. The author seeks to foster cross-group communication in order to find new solutions to the enduring issue of stowaways spanning several Amber Eras."
               }
-            ]
+            ],
+            "id": "p-f89c3bcf0ca715ad"
           },
           {
             "type": "paragraph",
@@ -43,7 +45,8 @@
                 "type": "text",
                 "text": "Note: This report solely investigates organic beings and Intellitrons who entered the Synesthesia Dreamscape through neighboring starships without proper authorization from the Reverie Hotel."
               }
-            ]
+            ],
+            "id": "p-2f77c90f842e65d3"
           },
           {
             "type": "paragraph",
@@ -57,7 +60,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-4916742e49f4053c"
           },
           {
             "type": "paragraph",
@@ -66,7 +70,8 @@
                 "type": "text",
                 "text": "Stowaways from impoverished galaxies often exhaust their savings to board ships that can conduct interstellar warps. They rest in barebones rudimentary cabins, evading The Family's oversight to sneak into the Dreamscape."
               }
-            ]
+            ],
+            "id": "p-0a8fae7e15288f31"
           },
           {
             "type": "paragraph",
@@ -75,7 +80,8 @@
                 "type": "text",
                 "text": "Contrary to popular perception, unemployed stowaways represent only a tiny proportion in the starships. Faced with the pressures of survival, most stowaways strive to find employment in Penacony. While the job-seeking process is typically difficult for these marginalized individuals, sustaining a daily existence in the thriving Dreamscape can be achieved through simple labor."
               }
-            ]
+            ],
+            "id": "p-daed46ee5b48ca6f"
           },
           {
             "type": "paragraph",
@@ -91,7 +97,8 @@
                 "type": "text",
                 "text": "Rumors suggest that a revered stowaway, known as the \"Great Sage,\" befriended the legendary Watchmaker through the simple means of begging, thus ascending the social ladder. However, this is likely a sales pitch used by human smugglers to attract potential stowaways."
               }
-            ]
+            ],
+            "id": "p-e2cc69a1b7808a20"
           },
           {
             "type": "paragraph",
@@ -100,7 +107,8 @@
                 "type": "text",
                 "text": "Some stowaways struggle to adapt to the Dreamscape society and continue working in reality, such as in interstellar deliveries or repair services for passing starships. However, the meager income from low-paying reality often falls short of supporting their indulgence in Penacony. Consequently, these stowaways occasionally resort to criminal activities, such as extortion or blackmailing guests."
               }
-            ]
+            ],
+            "id": "p-5893bea32729a5d3"
           },
           {
             "type": "paragraph",
@@ -116,7 +124,8 @@
                 "type": "text",
                 "text": "However, compared to The Family's pursuit, the damage caused to their brain and psyche by counterfeit Dreampools is even more alarming. Prolonged exposure to high concentrations of unprocessed memoria can result in severe physical and mental degradation, with many stowaways succumbing to debilitating psychological disorders in their later years."
               }
-            ]
+            ],
+            "id": "p-2bcf248160594ec2"
           },
           {
             "type": "paragraph",
@@ -125,7 +134,8 @@
                 "type": "text",
                 "text": "I have covertly inspected the stowaway ships, but unfortunately, by the time I arrived, a prominent special guest had already left the ship. Rumors suggest that these enigmatic stowaways possess substantial financial resources, using Dreampools no less opulent than those in the Platinum Suite. Some may choose to stow away to conceal their identities from The Family, as even the most notorious criminals in the cosmos can easily alter their appearances and find refuge within the Dreamscape in Penacony."
               }
-            ]
+            ],
+            "id": "p-6fc803bffeb79914"
           },
           {
             "type": "paragraph",
@@ -134,7 +144,8 @@
                 "type": "text",
                 "text": "Some stowaways go to great lengths just to catch a glimpse of the Dreamscape in Penacony and then depart on a small vessel afterward. During a private conversation, the captain of a stowaway starship informed me that these stowaways comprise the majority of their clients, as diving into the Dreamscape in this manner proves much more cost-effective than covering the exorbitant rates charged by the Reverie Hotel."
               }
-            ]
+            ],
+            "id": "p-594e48fdfa888074"
           },
           {
             "type": "paragraph",
@@ -143,7 +154,8 @@
                 "type": "text",
                 "text": "As I pen down these words, I find myself marveling at the allure of Penacony. For several Amber Eras, people have been willing to give up everything, just to visit this splendorous dream of Harmony."
               }
-            ]
+            ],
+            "id": "p-db0de005706802ba"
           },
           {
             "type": "paragraph",
@@ -152,13 +164,15 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "part-ii",
       "label": "Part II",
       "document": {
         "version": 1,
@@ -175,7 +189,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-38bdb0a88111db0e"
           },
           {
             "type": "paragraph",
@@ -191,7 +206,8 @@
                 "type": "text",
                 "text": "The cleaning robot on the ship is an outdated IPC model from 2152 AE, with a history longer than the stowaway ship itself. Despite its age, the robot remains functional and diligently attends to the sanitation of 107 compartments in one half of the ship, emitting a melodic hum that praises Qlipoth as it moves. The affordability of its services has even led some stowaways to develop a sense of faith in Preservation."
               }
-            ]
+            ],
+            "id": "p-78d30a4675fdbe68"
           },
           {
             "type": "paragraph",
@@ -200,7 +216,8 @@
                 "type": "text",
                 "text": "Naturally, it also handles the task of \"cleaning up\" deceased tenants or those who could no longer pay, but stowaways have long grown accustomed to this."
               }
-            ]
+            ],
+            "id": "p-36a84f769b06e677"
           },
           {
             "type": "paragraph",
@@ -209,7 +226,8 @@
                 "type": "text",
                 "text": "The most popular food among stowaways is the \"Instant Vita Serum,\" which solely relies on the IPC's shipping routes for transportation. Originally created by a \"botanical botanist\" (an intelligent plant from the Cexkal system) during the Borderstar Trade War when resources were scarce, the IPC has since acquired the rights for this product. This nutrient fluid has the advantages of affordability and the fact that \"drinking it probably won't kill you, I guess\" and was extensively used during relief efforts in wars. However, it was eventually banned due to potential safety concerns regarding physiological harm, leading to the closure of the production factory."
               }
-            ]
+            ],
+            "id": "p-f5bb60819c2911f7"
           },
           {
             "type": "paragraph",
@@ -225,7 +243,8 @@
                 "type": "text",
                 "text": "Experienced stowaways collect empty cans to sell the alloy to the captain at discounted prices. However, they discreetly keep this knowledge from rookies, as that would lead to receiving hush money from the captain."
               }
-            ]
+            ],
+            "id": "p-a5fe38a3103dd440"
           },
           {
             "type": "paragraph",
@@ -241,7 +260,8 @@
                 "type": "text",
                 "text": "\"Well, drinking it probably won't kill you, I guess.\""
               }
-            ]
+            ],
+            "id": "p-6adc15a9ef0cbb11"
           },
           {
             "type": "paragraph",
@@ -257,7 +277,8 @@
                 "type": "text",
                 "text": "In the face of these challenges, stowaways who have not yet had a mental collapse due to the effects of high concentrations of memoria ultimately resort to extensive body modifications to gain some extra hours of sleep each day."
               }
-            ]
+            ],
+            "id": "p-08e826db6993b311"
           },
           {
             "type": "paragraph",
@@ -266,7 +287,8 @@
                 "type": "text",
                 "text": "\"Look at me now. All I need to do is dive into the Dreamscape. If only I could never have to wake up.\""
               }
-            ]
+            ],
+            "id": "p-d36cd389a5bb938e"
           },
           {
             "type": "paragraph",
@@ -275,7 +297,8 @@
                 "type": "text",
                 "text": "During an interview with a stowaway named \"Beta,\" it came to my attention that he only had one-tenth of his head left and an inorganic shell weighing about 29 kilograms. After learning about my identity, he kept cursing the captain for deducting the money earned from selling his organic body parts. He insisted on gifting me the last bottle of his much-cherished nutrient solution, as he can rely solely on sub-par batteries for his survival."
               }
-            ]
+            ],
+            "id": "p-1dd01da78b610221"
           },
           {
             "type": "paragraph",
@@ -284,7 +307,8 @@
                 "type": "text",
                 "text": "\"Well, drinking it probably won't kill you, I guess.\""
               }
-            ]
+            ],
+            "id": "p-7924536e932febb4"
           },
           {
             "type": "paragraph",
@@ -293,7 +317,8 @@
                 "type": "text",
                 "text": "While writing this section at the Reverie Hotel, an inorganic guest approached me and requested the bottle of nutrient solution. He then invited me to his miniature garden, where he poured the nutrient solution on one of the flowers, causing it to come to life and greet me."
               }
-            ]
+            ],
+            "id": "p-2b2d524c01599572"
           }
         ]
       }

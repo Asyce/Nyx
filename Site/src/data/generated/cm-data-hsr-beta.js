@@ -20655,7 +20655,8 @@
             "source": "Lady of Crashing Waves",
             "sourceDetails": [
               {
-                "name": "Lady of Crashing Waves"
+                "name": "Lady of Crashing Waves",
+                "icon": "../../Database/GameData/hsr/assets/monsters/Monster_4053010.webp"
               }
             ]
           },
@@ -33341,7 +33342,8 @@
             "source": "Lady of Crashing Waves",
             "sourceDetails": [
               {
-                "name": "Lady of Crashing Waves"
+                "name": "Lady of Crashing Waves",
+                "icon": "../../Database/GameData/hsr/assets/monsters/Monster_4053010.webp"
               }
             ]
           },

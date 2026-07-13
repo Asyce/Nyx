@@ -4,10 +4,11 @@
   "id": "student-court-investigation-results",
   "name": "Student Court Investigation Results",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Student_Court_Investigation_Results",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -31,7 +32,8 @@
                 "type": "text",
                 "text": "1000HEZ058"
               }
-            ]
+            ],
+            "id": "p-16ad360b97df125a"
           },
           {
             "type": "paragraph",
@@ -52,7 +54,8 @@
                 "type": "text",
                 "text": "Magistrate Irena, Student Affairs Court, Student Court"
               }
-            ]
+            ],
+            "id": "p-708a7a0c2714190d"
           },
           {
             "type": "paragraph",
@@ -73,7 +76,8 @@
                 "type": "text",
                 "text": "Rejected as unsubstantiated"
               }
-            ]
+            ],
+            "id": "p-7c087b9f8b217c90"
           },
           {
             "type": "paragraph",
@@ -87,7 +91,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-fa6cbf2e22becc76"
           },
           {
             "type": "paragraph",
@@ -96,7 +101,8 @@
                 "type": "text",
                 "text": "Dear Hertz,"
               }
-            ]
+            ],
+            "id": "p-2a221a451b7c81a0"
           },
           {
             "type": "paragraph",
@@ -125,7 +131,8 @@
                 "type": "text",
                 "text": ", leading to them being rejected by our courtroom."
               }
-            ]
+            ],
+            "id": "p-ab74ea39a647c154"
           },
           {
             "type": "paragraph",
@@ -134,7 +141,8 @@
                 "type": "text",
                 "text": "The recent upsurge in discussions surrounding the Spheroid Race and the Innasemboat conspiracy theory on campus has caused unnecessary concern among students and academy staff. We are taking this opportunity to disclose the outcomes of our investigations into these matters."
               }
-            ]
+            ],
+            "id": "p-0d8d5a4ff77ba6ef"
           },
           {
             "type": "paragraph",
@@ -143,7 +151,8 @@
                 "type": "text",
                 "text": "1. Our investigations indicate that Prema's achievement of the \"Paperfold University Top Driver\" title last month aligns with our regulations for the Paperfold University Spheroid Race (a.k.a. The Glaux Cup), with no violations identified."
               }
-            ]
+            ],
+            "id": "p-98ef0a8a31848459"
           },
           {
             "type": "paragraph",
@@ -178,7 +187,8 @@
                 "type": "text",
                 "text": ", Vol 23. This magazine is known for continuously spreading misinformation extensively, and the Student Court is of the mind to view the Innasemboat theory as a groundless conspiracy theory."
               }
-            ]
+            ],
+            "id": "p-6aa61f5a8f3b3596"
           },
           {
             "type": "paragraph",
@@ -187,7 +197,8 @@
                 "type": "text",
                 "text": "Approximately ██ years ago, Dean Glaux introduced the Spheroid Race to the university to promote inter-academy communication and friendship and enable students to chase after excellence via competitive sports. Over the years, the Spheroid Race Committee has remained dedicated to Dean Glaux's vision, ensuring that the tournament upholds fairness without favoritism toward any student, academy, or organization. With hundreds of tournaments held to date, the Glaux Cup retains its prestige as the apex of collegiate Spheroid competition, which stands as proof of its universally recognized equitable nature by both students and faculty on campus."
               }
-            ]
+            ],
+            "id": "p-ae4102d8642480ff"
           },
           {
             "type": "paragraph",
@@ -196,7 +207,8 @@
                 "type": "text",
                 "text": "Additionally, cooperation between academies has been a common practice throughout the history of the Spheroid Race, aligning with Dean Glaux's original intentions for the event. While we advocate for students to remain vigilant against unfair practices, we call upon all to show respect for all participants who exemplify the spirit of sportsmanship."
               }
-            ]
+            ],
+            "id": "p-7ca11d195f9c0dcc"
           },
           {
             "type": "paragraph",
@@ -218,7 +230,8 @@
                 "type": "text",
                 "text": "The Paperfold University Student Court reserves the right for the final interpretation in rendering judgments."
               }
-            ]
+            ],
+            "id": "p-36c2d81693e92507"
           }
         ]
       }

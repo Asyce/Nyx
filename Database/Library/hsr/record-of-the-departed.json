@@ -4,10 +4,11 @@
   "id": "record-of-the-departed",
   "name": "Record of the Departed",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Record_of_the_Departed",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -26,7 +27,8 @@
                 "type": "text",
                 "text": "This tome chronicles the fallen and records the sorrow of Okhema."
               }
-            ]
+            ],
+            "id": "p-2265a6a727c8932e"
           },
           {
             "type": "paragraph",
@@ -42,7 +44,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-7c292852e9c3221b"
           },
           {
             "type": "paragraph",
@@ -51,7 +54,8 @@
                 "type": "text",
                 "text": "• Alpheus and Malonza – Twin brothers who perished for the holy city."
               }
-            ]
+            ],
+            "id": "p-9f2cf4e24692f3e7"
           },
           {
             "type": "paragraph",
@@ -60,7 +64,8 @@
                 "type": "text",
                 "text": "• Petros – A valiant Mountain Dweller, his sacrifice immortal."
               }
-            ]
+            ],
+            "id": "p-1d91e191ace5e9aa"
           },
           {
             "type": "paragraph",
@@ -69,7 +74,8 @@
                 "type": "text",
                 "text": "• Margusa - A wise researcher who unfortunately passed away at a market."
               }
-            ]
+            ],
+            "id": "p-048af7ba6f181fb1"
           },
           {
             "type": "paragraph",
@@ -78,7 +84,8 @@
                 "type": "text",
                 "text": "• Ulysse – acolyte, perished while shielding companions."
               }
-            ]
+            ],
+            "id": "p-6d66464b5d15fe4a"
           },
           {
             "type": "paragraph",
@@ -87,7 +94,8 @@
                 "type": "text",
                 "text": "• Nereia – A Kephale priest, her mission ended at her resting place."
               }
-            ]
+            ],
+            "id": "p-941474d5b889495f"
           },
           {
             "type": "paragraph",
@@ -103,7 +111,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-7c292852e9c3221b-2"
           },
           {
             "type": "paragraph",
@@ -112,7 +121,8 @@
                 "type": "text",
                 "text": "• Antigone – Daughter of Acacias, perished in a collapsed home."
               }
-            ]
+            ],
+            "id": "p-39115a9becfff8b7"
           },
           {
             "type": "paragraph",
@@ -121,7 +131,8 @@
                 "type": "text",
                 "text": "• Theagis – A mother of three, perished embracing her youngest"
               }
-            ]
+            ],
+            "id": "p-89d1441255b8b5ed"
           },
           {
             "type": "paragraph",
@@ -130,7 +141,8 @@
                 "type": "text",
                 "text": "• Albus – A righteous man, passed away in prayer."
               }
-            ]
+            ],
+            "id": "p-4a747935697c99b5"
           },
           {
             "type": "paragraph",
@@ -139,7 +151,8 @@
                 "type": "text",
                 "text": "• Bolaris – A man of the people, perished facing the Black Tide Creatures."
               }
-            ]
+            ],
+            "id": "p-7cb230d5fcd94303"
           },
           {
             "type": "paragraph",
@@ -148,7 +161,8 @@
                 "type": "text",
                 "text": "• Hygilos – A merchant, found dead in his shop."
               }
-            ]
+            ],
+            "id": "p-af7108937d692488"
           },
           {
             "type": "paragraph",
@@ -157,7 +171,8 @@
                 "type": "text",
                 "text": "• Lucretia – A friend of the dromas, perished after fulfilling what should be done."
               }
-            ]
+            ],
+            "id": "p-426a1d9f9fa2d788"
           },
           {
             "type": "paragraph",
@@ -166,7 +181,8 @@
                 "type": "text",
                 "text": "• Marcus – A weathered man, met his fate beyond Okhema."
               }
-            ]
+            ],
+            "id": "p-e430f8a0d275f95e"
           },
           {
             "type": "paragraph",
@@ -175,7 +191,8 @@
                 "type": "strong",
                 "children": []
               }
-            ]
+            ],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -184,7 +201,8 @@
                 "type": "text",
                 "text": "• Hegesia – A humble soul, missing."
               }
-            ]
+            ],
+            "id": "p-65ab66dd67fdae7b"
           },
           {
             "type": "paragraph",
@@ -193,7 +211,8 @@
                 "type": "strong",
                 "children": []
               }
-            ]
+            ],
+            "id": "p-882a20e6379eb83a-2"
           },
           {
             "type": "paragraph",
@@ -202,7 +221,8 @@
                 "type": "text",
                 "text": "• Ten unidentified bodies, features unrecognizable."
               }
-            ]
+            ],
+            "id": "p-a242b9642460b197"
           },
           {
             "type": "paragraph",
@@ -211,7 +231,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -227,7 +248,8 @@
                 "type": "text",
                 "text": "We shall meet again at the end of the west wind."
               }
-            ]
+            ],
+            "id": "p-187f0ebbeac024d6"
           }
         ]
       }

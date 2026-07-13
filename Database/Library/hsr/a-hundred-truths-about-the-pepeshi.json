@@ -4,10 +4,11 @@
   "id": "a-hundred-truths-about-the-pepeshi",
   "name": "A Hundred Truths about the Pepeshi",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/A_Hundred_Truths_about_the_Pepeshi",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -221,7 +222,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-e74f733315d7389f"
           }
         ]
       }

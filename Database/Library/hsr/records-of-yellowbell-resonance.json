@@ -4,10 +4,11 @@
   "id": "records-of-yellowbell-resonance",
   "name": "Records of Yellowbell Resonance",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Records_of_Yellowbell_Resonance",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -48,7 +49,8 @@
                 "type": "text",
                 "text": "The Fanghu is expected to moor here for some ten Star Calendar years, unless unforeseen circumstances transpire."
               }
-            ]
+            ],
+            "id": "p-1d5d7f20199927fc"
           },
           {
             "type": "paragraph",
@@ -85,7 +87,8 @@
                 "type": "text",
                 "text": "The Fanghu's high elder is responsible for the wellbeing of their people. They've already lost so much from the last of the wars. As far as the Vidyadhara are concerned, any losses to population are permanent. Let them take the rest they are deserved, they can't afford to take any risks right now."
               }
-            ]
+            ],
+            "id": "p-aa7bd8a17e036baf"
           },
           {
             "type": "paragraph",
@@ -113,7 +116,8 @@
                 "type": "text",
                 "text": "We have secured a resounding victory against Fallomom's abominations."
               }
-            ]
+            ],
+            "id": "p-2bacb05c65656a4d"
           },
           {
             "type": "paragraph",
@@ -141,7 +145,8 @@
                 "type": "text",
                 "text": "We have secured a resounding victory against Toste-VIII's abominations."
               }
-            ]
+            ],
+            "id": "p-90dbdb804b04868b"
           },
           {
             "type": "paragraph",
@@ -169,7 +174,8 @@
                 "type": "text",
                 "text": "We are continuing our explorations along an ancient shipping lane. Surveillance reports have been sent separately."
               }
-            ]
+            ],
+            "id": "p-46555eb815f90708"
           },
           {
             "type": "paragraph",
@@ -206,7 +212,8 @@
                 "type": "text",
                 "text": "Well received. Good job."
               }
-            ]
+            ],
+            "id": "p-3846bf1751f2cd78"
           },
           {
             "type": "paragraph",
@@ -234,7 +241,8 @@
                 "type": "text",
                 "text": "We secured a resounding victory against Sakin Chadu's abominations. Things looked sketchy at first, until the corporation swooped in to support."
               }
-            ]
+            ],
+            "id": "p-2a4685412a81298e"
           },
           {
             "type": "paragraph",
@@ -271,7 +279,8 @@
                 "type": "text",
                 "text": "Understood. Message transmitted."
               }
-            ]
+            ],
+            "id": "p-54807a046e6a5e21"
           },
           {
             "type": "paragraph",
@@ -299,7 +308,8 @@
                 "type": "text",
                 "text": "Business as usual here."
               }
-            ]
+            ],
+            "id": "p-5b41199992716023"
           },
           {
             "type": "paragraph",
@@ -336,7 +346,8 @@
                 "type": "text",
                 "text": "Same. It's normal."
               }
-            ]
+            ],
+            "id": "p-1fb689158ef6f476"
           },
           {
             "type": "paragraph",
@@ -364,7 +375,8 @@
                 "type": "text",
                 "text": "Currently moored in the Sakin Chadu star system in Kersarran star cluster. We are working with the corporation to harness local minerals and recuperate. Everything is safe and sound. Thank you for your concern, Madam Yukong."
               }
-            ]
+            ],
+            "id": "p-d70eedf1be830d7a"
           },
           {
             "type": "paragraph",
@@ -401,7 +413,8 @@
                 "type": "text",
                 "text": "Understood. Message transmitted."
               }
-            ]
+            ],
+            "id": "p-3a7623350215b212"
           },
           {
             "type": "paragraph",
@@ -439,7 +452,8 @@
                 "type": "text",
                 "text": "We hope to deploy advanced forging technology in exchange for some of the rich local mineral deposits."
               }
-            ]
+            ],
+            "id": "p-b26cd8de11648cbd"
           },
           {
             "type": "paragraph",
@@ -467,7 +481,8 @@
                 "type": "text",
                 "text": "We have secured a resounding victory against Asmodeus' abominations."
               }
-            ]
+            ],
+            "id": "p-aa8c67de7388d12f"
           },
           {
             "type": "paragraph",
@@ -504,7 +519,8 @@
                 "type": "text",
                 "text": "No, leave them be."
               }
-            ]
+            ],
+            "id": "p-d687042a373d78ab"
           }
         ]
       }

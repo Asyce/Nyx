@@ -4,10 +4,11 @@
   "id": "mining-equipment-purchase-order",
   "name": "Mining Equipment Purchase Order",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Mining_Equipment_Purchase_Order",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Purchase Order"
               }
-            ]
+            ],
+            "id": "p-b9d5d1f9617df4e6"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Order No.: 693910-0003"
               }
-            ]
+            ],
+            "id": "p-a03e8de0ca1a3436"
           },
           {
             "type": "paragraph",
@@ -44,7 +47,8 @@
                 "type": "text",
                 "text": "Contact: Steve Nocci"
               }
-            ]
+            ],
+            "id": "p-f6b7dfd73a21981e"
           },
           {
             "type": "paragraph",
@@ -60,7 +64,8 @@
                 "type": "text",
                 "text": "Contact: Thomas Hansa"
               }
-            ]
+            ],
+            "id": "p-7bb16fa205b9b1dd"
           },
           {
             "type": "paragraph",
@@ -132,7 +137,8 @@
                 "type": "text",
                 "text": "Total: 7250 shield"
               }
-            ]
+            ],
+            "id": "p-50fd41f17b3da89d"
           },
           {
             "type": "paragraph",
@@ -155,7 +161,8 @@
                 "type": "text",
                 "text": "Delivery Address: The Great Mine camp, outer edge of Boulder Town"
               }
-            ]
+            ],
+            "id": "p-875328774e29b4b0"
           },
           {
             "type": "paragraph",
@@ -178,7 +185,8 @@
                 "type": "text",
                 "text": "Payment Agreement: 50% deposit in advance. The rest paid on delivery"
               }
-            ]
+            ],
+            "id": "p-281874132ae1551b"
           }
         ]
       }

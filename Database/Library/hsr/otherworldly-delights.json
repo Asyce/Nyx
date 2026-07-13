@@ -4,10 +4,11 @@
   "id": "otherworldly-delights",
   "name": "Otherworldly Delights",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Otherworldly_Delights",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "For three centuries, I have made a living as a storyteller, yet I have never written a book. I have only written some introductory articles on music and composed preludes for aspiring writers... However, I have been shunning from writing my own stories."
               }
-            ]
+            ],
+            "id": "p-bce0e9a924706a62"
           },
           {
             "type": "paragraph",
@@ -41,7 +43,8 @@
                 "type": "text",
                 "text": "] dessicated specimens of language. They may initially appear beautiful, but upon closer examination, they resemble more and more as lifeless corpses. Reluctant to extinguish the flame of my oral tales, I have refrained from the act of writing."
               }
-            ]
+            ],
+            "id": "p-0295eff014e32d53"
           },
           {
             "type": "paragraph",
@@ -50,7 +53,8 @@
                 "type": "text",
                 "text": "Yet here, I publish this book, not merely to preserve the tale, but to document a miraculous encounter."
               }
-            ]
+            ],
+            "id": "p-41183c26c510596c"
           },
           {
             "type": "paragraph",
@@ -59,7 +63,8 @@
                 "type": "text",
                 "text": "One evening, I was weaving stories at the Sleepless Earl as usual. I can no longer recall which story I was telling. All I remember is that as soon as the chapter drew to a close, an outworlder in the crowd stood up and applauded vigorously."
               }
-            ]
+            ],
+            "id": "p-c6cd791fbc50d70c"
           },
           {
             "type": "paragraph",
@@ -68,7 +73,8 @@
                 "type": "text",
                 "text": "It was a woman wearing a large broad-brimmed hat. The hat was pushed down low over her head, casting a shadow over the upper half of her face. All I could see was a joyous smile on the corners of her lips. Her sudden action startled the other audience members and they all turned to look at her. However, undeterred by their attention, she walked towards me and said, \"Mr. Xiyan, I've long been an ardent admirer of your work.\""
               }
-            ]
+            ],
+            "id": "p-b8649193f5c2ec2b"
           },
           {
             "type": "paragraph",
@@ -77,7 +83,8 @@
                 "type": "text",
                 "text": "Not knowing her intentions, I responded cautiously. \"It seems this is the first time you have graced my performance.\""
               }
-            ]
+            ],
+            "id": "p-7d25d4de35035d50"
           },
           {
             "type": "paragraph",
@@ -86,7 +93,8 @@
                 "type": "text",
                 "text": "\"Indeed, indeed,\" the woman lowered her head as if feeling a tinge of remorse. \"How could I have only managed to come and listen to your storytelling for the first time today? If not for my companions' reminders, I fear I would have remained oblivious to your brilliance forever... Please accept this gift as a show of my sincerest apologies.\""
               }
-            ]
+            ],
+            "id": "p-98bbff64183c2896"
           },
           {
             "type": "paragraph",
@@ -95,7 +103,8 @@
                 "type": "text",
                 "text": "Before I could express my gratitude for her bizarre praise, she was raising her right hand. It was only then that I noticed she was holding a cage covered by a white cloth."
               }
-            ]
+            ],
+            "id": "p-42560a529664d9f8"
           },
           {
             "type": "paragraph",
@@ -104,7 +113,8 @@
                 "type": "text",
                 "text": "\"You possess a remarkable talent for transforming 'history' into 'legend'.\" She placed the cage on the table in front of me, paying no heed to my refusals. \"Enhanced by the power of this parrot, your performances will become even more miraculous.\""
               }
-            ]
+            ],
+            "id": "p-edb87702fde9c9b6"
           },
           {
             "type": "paragraph",
@@ -113,7 +123,8 @@
                 "type": "text",
                 "text": "And with that, she turned and was about to leave, and I had no choice but to try stop her. \"My lady! This gift is far too valuable... I don't deserve it...\""
               }
-            ]
+            ],
+            "id": "p-fe4571a2aae931e2"
           },
           {
             "type": "paragraph",
@@ -122,7 +133,8 @@
                 "type": "text",
                 "text": "\"No, you have done so much already.\" She stopped in her tracks, turned back toward me, and showed the glazed color of her eyes underneath her hat. \"Your 'stories' can infuse color and vitality into this dry and dusty history.\""
               }
-            ]
+            ],
+            "id": "p-96ef8d34cc46a2ee"
           },
           {
             "type": "paragraph",
@@ -131,7 +143,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -140,7 +153,8 @@
                 "type": "text",
                 "text": "It took me weeks to figure out this parrot's temperament, during which I almost starved it to death, narrowly avoiding wasting that lady's good wishes."
               }
-            ]
+            ],
+            "id": "p-6caac7018345f6be"
           },
           {
             "type": "paragraph",
@@ -149,7 +163,8 @@
                 "type": "text",
                 "text": "The parrot seemed to have a fondness for me alone. When seeing anyone else, it would enter a shocked state, going as stiff as a board. I had to cover its cage with a cloth to avoid it being scared to death by other people. However, I had to bring it outside with me. It would become equally disturbed if it were left in the house alone for too long. Terror, shock, freezing up — the whole routine."
               }
-            ]
+            ],
+            "id": "p-39e19fe9109c6d8c"
           },
           {
             "type": "paragraph",
@@ -158,7 +173,8 @@
                 "type": "text",
                 "text": "Thus, I had to carry this cage covered in a white cloth wherever I went... the Sleepless Earl, Spices Supreme, and the market. I even had to carry it during business discussions with the esteemed Mellow-Golden-Mayor higher-ups, like some form of performance art."
               }
-            ]
+            ],
+            "id": "p-d893686ece0ce184"
           },
           {
             "type": "paragraph",
@@ -167,7 +183,8 @@
                 "type": "text",
                 "text": "Just as I was beginning to think it was all some elaborate prank the lady was pulling on me, the parrot finally revealed its extraordinary side."
               }
-            ]
+            ],
+            "id": "p-9a6d01e16377f982"
           },
           {
             "type": "paragraph",
@@ -176,7 +193,8 @@
                 "type": "text",
                 "text": "Firstly, I discovered that the parrot possessed an exceptional memory. As long as it listened once to the stories I said, it would be able to recite these. While animals capable of speech are rare in this era, I have still encountered my fair share of such wonders. Being a parrot, even if it had swiftly learned to copy the human language, it would still be limited by its instincts as a parrot."
               }
-            ]
+            ],
+            "id": "p-f8299add58f69820"
           },
           {
             "type": "paragraph",
@@ -185,7 +203,8 @@
                 "type": "text",
                 "text": "However, I soon realized that the parrot was not merely recounting my performances. Initially, it diligently \"recited\" them, but then it began to \"reinterpret\" them, even taking the liberty to alter certain plot elements. I must admit, its modifications were remarkably effective, enhancing the original narratives and infusing them with greater believability."
               }
-            ]
+            ],
+            "id": "p-03eb5d97214ec43a"
           },
           {
             "type": "paragraph",
@@ -194,7 +213,8 @@
                 "type": "text",
                 "text": "As time went on, it started telling stories that I had never told. Some, I suspect, it overheard while accompanying me on the streets, while others remained a mystery, their origins unknown to me."
               }
-            ]
+            ],
+            "id": "p-7f29df5cbb71a092"
           },
           {
             "type": "paragraph",
@@ -203,7 +223,8 @@
                 "type": "text",
                 "text": "Dear reader, you may be inclined to believe that the parrot possesses exceptional intelligence. However, I, for one, fail to perceive any qualities within it that would make it a skilled storyteller."
               }
-            ]
+            ],
+            "id": "p-f1b51f0f767ef759"
           },
           {
             "type": "paragraph",
@@ -212,7 +233,8 @@
                 "type": "text",
                 "text": "It refused to take flight and remained silent unless in a cheerful mood. When it felt happy, it would chattered away endlessly with stories, yet retreated into its cage and sulked when its mood turned sour. Once, it perched on my desk and waddled into my hand like a goose, affectionately nuzzling against it. Just as I delighted in its cuteness, cradling the plump bird in my palm, it left a warm deposit of bird poo in my hand and flew off once more."
               }
-            ]
+            ],
+            "id": "p-678b1ffa07cdc508"
           },
           {
             "type": "paragraph",
@@ -221,7 +243,8 @@
                 "type": "text",
                 "text": "Such a simple-minded creature could never comprehend the intricacies of a complex story."
               }
-            ]
+            ],
+            "id": "p-632dc1d1aeb11e5b"
           },
           {
             "type": "paragraph",
@@ -230,7 +253,8 @@
                 "type": "text",
                 "text": "I surmise that its behavior remains confined within the realm of parrot instincts. As we all know, parrots mindlessly repeat human words without grasping their meaning. It's just that after thousands of years of evolution, perhaps they have refined their ability to mimic human speech, and eventually they became able to tell stories on their own."
               }
-            ]
+            ],
+            "id": "p-a84f766e31909edb"
           },
           {
             "type": "paragraph",
@@ -239,7 +263,8 @@
                 "type": "text",
                 "text": "However, does a lappet moth realize that its \"mimicry\" is indistinguishable from a dried tree branch? I speculate that my beloved parrot remained unaware of the true significance behind the stories it shared. Perhaps it didn't even realize that it was narrating tales."
               }
-            ]
+            ],
+            "id": "p-730088baf64651b0"
           },
           {
             "type": "paragraph",
@@ -248,7 +273,8 @@
                 "type": "text",
                 "text": "After much contemplation, I decided to transcribe the tales it shared with me and share them with others."
               }
-            ]
+            ],
+            "id": "p-ef8cb1905824e950"
           },
           {
             "type": "paragraph",
@@ -257,7 +283,8 @@
                 "type": "text",
                 "text": "For months, I attentively listened to its stories, meticulously recording the most captivating ones. Once the work was complete, I held the manuscript in my hands and posed a question to my parrot. \"What name would you suggest for this book?\""
               }
-            ]
+            ],
+            "id": "p-d8332c7866913906"
           },
           {
             "type": "paragraph",
@@ -266,7 +293,8 @@
                 "type": "text",
                 "text": "It hopped onto the manuscript, gazing at me with a perplexed expression. But then, it straightened the feathers on its neck and chirped leisurely:"
               }
-            ]
+            ],
+            "id": "p-fcc5e6a529d322f2"
           },
           {
             "type": "paragraph",
@@ -275,7 +303,8 @@
                 "type": "text",
                 "text": "\"With plume like phoenix's feather it soars. Its beak sings melodies from heavenly shores. When quill rests, no chirping bird in sight. Such are these Otherworldly Delights.\""
               }
-            ]
+            ],
+            "id": "p-09b3198fd9647881"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "the-first-flame-chase-journey-fragment",
   "name": "The First Flame-Chase Journey (Fragment)",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/The_First_Flame-Chase_Journey_(Fragment)",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -32,7 +33,8 @@
                 "type": "text",
                 "text": "████"
               }
-            ]
+            ],
+            "id": "p-d6f437b9f8f94e43"
           },
           {
             "type": "paragraph",
@@ -41,7 +43,8 @@
                 "type": "text",
                 "text": "As is well known, the Daythunder Knight Seliose challenging the gods was the key event that triggered the First Flame-Chase Journey. After that, golden banners veiled the sky, heroes laid down their weapons against one another, and all rushed headlong into the torrent of fate. However, the true origins of that expedition were far more complex than what poets have sung. Today, I shall unveil the secrets that ordinary chronicles dare not mention."
               }
-            ]
+            ],
+            "id": "p-ee78b683352e0841"
           },
           {
             "type": "paragraph",
@@ -50,7 +53,8 @@
                 "type": "text",
                 "text": "Many believe that Okhema, as the Eternal Holy City, was destined to stand for a thousand years without faltering. Yet history tells us otherwise — it has faced the brink of conquest more than once. Whether driven by long-held grudges or the manipulations of schemers. In the year 3867 of the Light Calendar, the city-states of Loukas, Icaria, and Corinth formed an allied army and laid siege to Okhema. It was an army of overwhelming scale — warriors clad in bronze helmets and iron armor lined up in formations vast enough to fill the Dawncloud..."
               }
-            ]
+            ],
+            "id": "p-8212eb30ccb6502b"
           },
           {
             "type": "paragraph",
@@ -72,7 +76,8 @@
                 "type": "text",
                 "text": "████"
               }
-            ]
+            ],
+            "id": "p-4017afe2de50140d"
           },
           {
             "type": "paragraph",
@@ -81,7 +86,8 @@
                 "type": "text",
                 "text": "Thus, the tyrant of Loukas's scheme succeeded. The three frontier generals perished one after another in the ensuing chaos. The soldiers stationed at the outer fortress, cut off from reinforcements and supplies, were left with no choice but to surrender. For a time, the surroundings of the holy city lay utterly defenseless, as fragile as an egg on the edge of a precipice."
               }
-            ]
+            ],
+            "id": "p-d6ab56d759040d43"
           },
           {
             "type": "paragraph",
@@ -90,7 +96,8 @@
                 "type": "text",
                 "text": "News of the approaching allied army swiftly reached Okhema. The elders convened a three-day citizens' assembly, which ultimately achieved nothing but panic. Nobles and wealthy merchants locked themselves in their lavish apartments, hiring guards to stand watch in shifts for the illusion of security. Meanwhile, commoners and priests spent their days in prayer, hoping for a divine miracle to punish the invaders and save Okhema from its impending doom."
               }
-            ]
+            ],
+            "id": "p-894d0821cce90445"
           },
           {
             "type": "paragraph",
@@ -112,7 +119,8 @@
                 "type": "text",
                 "text": "████"
               }
-            ]
+            ],
+            "id": "p-4017afe2de50140d-2"
           },
           {
             "type": "paragraph",
@@ -121,7 +129,8 @@
                 "type": "text",
                 "text": "Okhema was indeed saved. But its saviors were not the gods — it was a mysterious army that suddenly appeared on the battlefield. Like a fish slipping into the fray, it bore no banners of any known city-state. Its formations were disciplined, its movements flawlessly coordinated. At the forefront, a warrior wielded a blade curved like a bow from a stringed instrument, cutting through the enemy ranks as though spilling ink upon a battlefield canvas. Now we know her name — she was the demigod of the Ocean, Dux Gladiorum, Hysilens. In that battle alone, she slew sixty thousand foes. The blood that soaked her hem turned her into a specter in the eyes of the citizens."
               }
-            ]
+            ],
+            "id": "p-7027c5a054ec61aa"
           },
           {
             "type": "paragraph",
@@ -130,7 +139,8 @@
                 "type": "text",
                 "text": "After securing the battlefield, this army did not simply depart — it marched boldly into Okhema. At its head was Cerydra, who would later be known as the demigod of Law. She declared herself the city's supreme ruler, vowing to bring justice to its people. It was not long before she took drastic measures to purge the Council of Elders, silencing all opposition. Some called her a dictator, a tyrant, a despot — but none could deny that under her rule, Okhema swiftly regained its strength, laying the foundation for the prosperity it enjoys today."
               }
-            ]
+            ],
+            "id": "p-d4dc7ae02a2b35cd"
           },
           {
             "type": "paragraph",
@@ -152,7 +162,8 @@
                 "type": "text",
                 "text": "████"
               }
-            ]
+            ],
+            "id": "p-4017afe2de50140d-3"
           },
           {
             "type": "paragraph",
@@ -161,7 +172,8 @@
                 "type": "text",
                 "text": "Cerydra raised a vast army and conquered one city-state after another, while the swordmaster remained by her side, decapitating champions one by one. The Chrysos War dragged on until, at last, with the King of Corinth throwing himself from a window in despair, the conflict came to an end. Almost single-handedly, Cerydra and Hysilens had ended the Chrysos War, securing Cerydra's legacy as a ruler revered by all in the holy city."
               }
-            ]
+            ],
+            "id": "p-83cfdbdb32c73234"
           },
           {
             "type": "paragraph",
@@ -170,7 +182,8 @@
                 "type": "text",
                 "text": "As support for her grew among the populace, Cerydra issued an edict proclaiming the realization of Kephale's prophecy — the Era Nova. Her goal was to hunt the Titans and seize the Coreflames. She gathered an immense force of warriors, scholars, priests, and adventurers. Heroes from all corners of the land answered her call, their numbers outmatching the pillars of the Palace. This great campaign became known as the First Flame-Chase Journey. Yet none at the time foresaw that, a thousand years later, heroes would once again have to embark on the same path..."
               }
-            ]
+            ],
+            "id": "p-b04dfe4788d95ed1"
           },
           {
             "type": "paragraph",
@@ -192,7 +205,8 @@
                 "type": "text",
                 "text": "████"
               }
-            ]
+            ],
+            "id": "p-4017afe2de50140d-4"
           },
           {
             "type": "paragraph",
@@ -201,7 +215,8 @@
                 "type": "text",
                 "text": "And so, the Flame-Chase Army met a bitter defeat. From that moment on, the once-wise Cerydra changed — she became obstinate, heedless of all counsel, and eventually vanished from the public eye entirely. It was only when the Goldweaver, Aglaea, rose to restore order that Okhema's political landscape stabilized once more. In recognition of Aglaea's wisdom and leadership, the Council of Elders appointed her as the new executor — a tradition that continues to this day."
               }
-            ]
+            ],
+            "id": "p-5b2e21f9a940e467"
           },
           {
             "type": "paragraph",
@@ -210,7 +225,8 @@
                 "type": "text",
                 "text": "However, I believe that Cerydra did not simply disappear, as the Council of Elders claims. Rather, she stepped into a grander scheme yet to be unveiled. The fact that the \"Law\" of Amphoreus remains unbroken to this day is the strongest evidence of her continued influence. As for the Dux Gladiorum Hysilens, some say she still walks the lands of Amphoreus, wielding the divine authority of the Ocean in solitude. The crashing waves against the shore — perhaps they are but the murmurs of her loneliness."
               }
-            ]
+            ],
+            "id": "p-a0cf7d2fbafc9557"
           },
           {
             "type": "paragraph",
@@ -219,7 +235,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

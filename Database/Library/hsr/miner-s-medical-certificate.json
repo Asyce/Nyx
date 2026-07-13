@@ -4,10 +4,11 @@
   "id": "miner-s-medical-certificate",
   "name": "Miner's Medical Certificate",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Miner%27s_Medical_Certificate",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,11 +20,13 @@
                 "type": "text",
                 "text": "Reference Number: 100451"
               }
-            ]
+            ],
+            "id": "p-c6953e2bd0f8a25b"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -39,7 +42,8 @@
                 "type": "text",
                 "text": "Alger"
               }
-            ]
+            ],
+            "id": "p-8a3ea05d132c0f32"
           },
           {
             "type": "paragraph",
@@ -55,7 +59,8 @@
                 "type": "text",
                 "text": "Male"
               }
-            ]
+            ],
+            "id": "p-6ce8dad86f65b8e1"
           },
           {
             "type": "paragraph",
@@ -71,7 +76,8 @@
                 "type": "text",
                 "text": "A member of the third mining team. Long-term exposure to Geomarrow crystals, crystalline dust, and noise."
               }
-            ]
+            ],
+            "id": "p-e34cfef229070c3c"
           },
           {
             "type": "paragraph",
@@ -101,7 +107,8 @@
                 "type": "text",
                 "text": "3. The patient's emotional regulation function is damaged. Hard to stabilize the patient's mental state. Frequent episodes of anger, impulsion, and depression."
               }
-            ]
+            ],
+            "id": "p-18f62b9b8c44a1d7"
           },
           {
             "type": "paragraph",
@@ -124,7 +131,8 @@
                 "type": "text",
                 "text": "It is suspected that he failed to strictly follow safety protocols, which exposed his respiratory tract to working environment and caused infection. His physical condition will make it impossible for him to continue working in the mines."
               }
-            ]
+            ],
+            "id": "p-06563e3ba34677e7"
           },
           {
             "type": "paragraph",
@@ -143,7 +151,8 @@
                 "type": "text",
                 "text": "Natasha"
               }
-            ]
+            ],
+            "id": "p-4b61f2ecfe7c26b2"
           },
           {
             "type": "paragraph",
@@ -159,7 +168,8 @@
                 "type": "text",
                 "text": "Suggest thoroughly inspecting the safety and quality of the protective equipment."
               }
-            ]
+            ],
+            "id": "p-f6ea2a7486e7cde0"
           }
         ]
       }

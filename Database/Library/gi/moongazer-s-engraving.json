@@ -4,10 +4,11 @@
   "id": "moongazer-s-engraving",
   "name": "Moongazer's Engraving",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Moongazer%27s_Engraving",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
@@ -29,7 +30,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-6385d26288f3d0b6"
           },
           {
             "type": "paragraph",
@@ -111,7 +113,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-b46b41459c053939"
           },
           {
             "type": "paragraph",
@@ -120,13 +123,15 @@
                 "type": "text",
                 "text": "-->(To my \"daughter,\" Ninnin. The key form of assistance the moon goddesses provided to our plans lies at the lunar core. You can reach this place via fissures, so do not forget to go there.)"
               }
-            ]
+            ],
+            "id": "p-d7911868d4934a5c"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
@@ -169,7 +174,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-90ca2b3b856a9e6b"
           },
           {
             "type": "paragraph",
@@ -195,7 +201,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-71060403fa4adfe2"
           },
           {
             "type": "paragraph",
@@ -242,7 +249,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-089554d1784a2618"
           },
           {
             "type": "paragraph",
@@ -275,7 +283,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fbb94ba684d4f914"
           },
           {
             "type": "paragraph",
@@ -308,7 +317,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-05483e01d761f34e"
           },
           {
             "type": "paragraph",
@@ -334,7 +344,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-62b96059ec37e436"
           },
           {
             "type": "paragraph",
@@ -367,7 +378,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-4a33983a6850994a"
           },
           {
             "type": "paragraph",
@@ -400,7 +412,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-5b699dbaa5866afc"
           },
           {
             "type": "paragraph",
@@ -426,7 +439,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-01226a703855cecb"
           },
           {
             "type": "paragraph",
@@ -459,7 +473,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-8c22eedeb8f7d9b8"
           },
           {
             "type": "paragraph",
@@ -513,7 +528,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-ea879f67d0c1029b"
           },
           {
             "type": "paragraph",
@@ -553,7 +569,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-794d75a210df621e"
           },
           {
             "type": "paragraph",
@@ -586,7 +603,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-40267571849d5e70"
           },
           {
             "type": "paragraph",
@@ -612,7 +630,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-49410859c463da8a"
           },
           {
             "type": "paragraph",
@@ -659,7 +678,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-4213aa2dd020daf5"
           },
           {
             "type": "paragraph",
@@ -692,7 +712,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-0dfa6b5816e07447"
           },
           {
             "type": "paragraph",
@@ -760,7 +781,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-935dc34bffbf2110"
           },
           {
             "type": "paragraph",
@@ -786,7 +808,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-9c81cc7d3218b29e"
           },
           {
             "type": "paragraph",
@@ -830,7 +853,8 @@
                 "type": "text",
                 "text": "(Note by Nin-Kiggia: Whether the civilization represented by the \"Stellar Blackbody\" was in fact the empire of the immortal Ysna'qurel cannot be verified. It remains possible that this was another civilization that has tragically since fallen, one that received the warning sent by Ysna'qurel but was still unable to escape its destiny in the end.)"
               }
-            ]
+            ],
+            "id": "p-0e312bafdaed50f6"
           }
         ]
       }

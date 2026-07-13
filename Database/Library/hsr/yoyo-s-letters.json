@@ -4,10 +4,11 @@
   "id": "yoyo-s-letters",
   "name": "Yoyo's Letters",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Yoyo%27s_Letters",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-35b43373e1de589a"
           },
           {
             "type": "paragraph",
@@ -38,7 +40,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-27ee34c970f740ad"
           },
           {
             "type": "paragraph",
@@ -47,7 +50,8 @@
                 "type": "text",
                 "text": "To the 25-year-old Yoyo,"
               }
-            ]
+            ],
+            "id": "p-85955f653890180c"
           },
           {
             "type": "paragraph",
@@ -56,7 +60,8 @@
                 "type": "text",
                 "text": "Hi there! I'm you from when we were 5! Ms. Gina gave us our first assignment of the semester: writing a letter to ourselves twenty years in the future."
               }
-            ]
+            ],
+            "id": "p-f2ca926f787de79b"
           },
           {
             "type": "paragraph",
@@ -65,7 +70,8 @@
                 "type": "text",
                 "text": "Mom bought me a new schoolbag this morning and made my favorite pan-fried fish. She says that as long as I study hard, I'll be able to go to Duomension City and work in one of those sparkling skyscrapers, and I won't have to go out fishing like Mom and Dad. I've been practicing writing my name every day. The spelling is really hard, but I've already learned how to write it."
               }
-            ]
+            ],
+            "id": "p-39c10b97d4b0e6a3"
           },
           {
             "type": "paragraph",
@@ -74,7 +80,8 @@
                 "type": "text",
                 "text": "To become you, my plan is as follows:"
               }
-            ]
+            ],
+            "id": "p-0f97a9cdc2e06a54"
           },
           {
             "type": "paragraph",
@@ -83,7 +90,8 @@
                 "type": "text",
                 "text": "1. Learn how to count money. That way, when I get paid working in those big shiny buildings, they won't make any mistakes."
               }
-            ]
+            ],
+            "id": "p-0159e0b08d5cbc71"
           },
           {
             "type": "paragraph",
@@ -92,7 +100,8 @@
                 "type": "text",
                 "text": "2. Remember the way home. From now on, I have to walk home by myself so Mom doesn't worry."
               }
-            ]
+            ],
+            "id": "p-79f3fdd4025d276a"
           },
           {
             "type": "paragraph",
@@ -101,7 +110,8 @@
                 "type": "text",
                 "text": "3. Eat well. Mom says eating fish makes you smarter, so I make sure to lick my plate of fried fish clean every single day."
               }
-            ]
+            ],
+            "id": "p-ca5db88b1e4ced9f"
           },
           {
             "type": "paragraph",
@@ -110,7 +120,8 @@
                 "type": "text",
                 "text": "I drew a picture of you with crayons: you're wearing a red shirt, holding a briefcase, and standing on top of a dazzling skyscraper. Can you help me look around and see if there's any shop selling fried fish in Duomension City? Dad says you can find anything in the big city."
               }
-            ]
+            ],
+            "id": "p-c17c13b9953d92b1"
           },
           {
             "type": "paragraph",
@@ -119,7 +130,8 @@
                 "type": "text",
                 "text": "I'm gonna go take a nap now. I still haven't earned today's little red flower."
               }
-            ]
+            ],
+            "id": "p-e08f76c4674ff51d"
           },
           {
             "type": "paragraph",
@@ -128,7 +140,8 @@
                 "type": "text",
                 "text": "Will you miss me, your little self?"
               }
-            ]
+            ],
+            "id": "p-ed57dc0e5559764d"
           },
           {
             "type": "paragraph",
@@ -150,7 +163,8 @@
                 "type": "text",
                 "text": "█ 10, 1979"
               }
-            ]
+            ],
+            "id": "p-fd5e904d3f1ac938"
           },
           {
             "type": "paragraph",
@@ -164,7 +178,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-2178fb2665dbf1f8"
           },
           {
             "type": "paragraph",
@@ -173,7 +188,8 @@
                 "type": "text",
                 "text": "Dear Mother:"
               }
-            ]
+            ],
+            "id": "p-c1c523e4b6228779"
           },
           {
             "type": "paragraph",
@@ -182,7 +198,8 @@
                 "type": "text",
                 "text": "I hope this letter finds you well!"
               }
-            ]
+            ],
+            "id": "p-5e3356c8997ec070"
           },
           {
             "type": "paragraph",
@@ -191,7 +208,8 @@
                 "type": "text",
                 "text": "I landed a staff job at Pearluxe Corp. Starting this month, I'm on a six-month probation. My desk is by a window on the 17th floor. We have to wear the standard uniform while on the clock. Shirts must be ironed daily, and the cuffs have to be spotless. Sometimes, I envy my mechatron colleagues since they never seem to stress about the dress code."
               }
-            ]
+            ],
+            "id": "p-72db6072fb6764d3"
           },
           {
             "type": "paragraph",
@@ -200,7 +218,8 @@
                 "type": "text",
                 "text": "I live in an apartment on the far east side of Duomension City. It's a bit of a trek to the office, but the distance to the train station isn't too bad. There's a convenience store downstairs that sells instant fried fish for 28 credits a pop. The fish is tender, but the sauce is way too sweet... Not really my thing."
               }
-            ]
+            ],
+            "id": "p-3a46669f7e798217"
           },
           {
             "type": "paragraph",
@@ -209,7 +228,8 @@
                 "type": "text",
                 "text": "On the 10th of every month, a string of numbers pops up in my bank account. Then, just as quickly, they drain away: one-third to the landlord, one-fourth for train tickets and convenience store gift cards, and then there's some baffling \"Wishpower Mediation Fee.\" Maybe I've been in a bad mood lately and caused trouble for the community workers?"
               }
-            ]
+            ],
+            "id": "p-fe7b7352cee3e64a"
           },
           {
             "type": "paragraph",
@@ -218,7 +238,8 @@
                 "type": "text",
                 "text": "Mom, I don't think I'll ever learn my way around this place. The city is huge, yet I have no time to get familiar with it. After a whole week of work, all I want to do is lie down in my rental and get some extra rest. I don't know where to go to have fun, and I don't have any friends here to take me out."
               }
-            ]
+            ],
+            "id": "p-298e12cc657bd322"
           },
           {
             "type": "paragraph",
@@ -227,7 +248,8 @@
                 "type": "text",
                 "text": "My colleagues are always talking about \"financial freedom\" and \"escaping the rat race.\" Hearing those words puts me in a daze. The life everyone's yearning for... it sounds exactly like the life we had twenty years ago! Once I've saved up enough money, I'll come back to Seafeld and run a small restaurant with you. Doesn't that sound nice?"
               }
-            ]
+            ],
+            "id": "p-7fd376e9922d76f5"
           },
           {
             "type": "paragraph",
@@ -236,7 +258,8 @@
                 "type": "text",
                 "text": "Mom, last night I dreamt of when I was little. If I can make it home this holiday, could you make fried fish again and teach me how to do it? I don't want to be smarter this time. I just want to retain its taste."
               }
-            ]
+            ],
+            "id": "p-94cd155795873653"
           },
           {
             "type": "paragraph",
@@ -245,7 +268,8 @@
                 "type": "text",
                 "text": "May the seas be calm and your burdens lighten. After all, you're all I have left to worry about since Dad passed."
               }
-            ]
+            ],
+            "id": "p-8de62d9570758f0c"
           },
           {
             "type": "paragraph",
@@ -254,7 +278,8 @@
                 "type": "text",
                 "text": "Wish you all the best!"
               }
-            ]
+            ],
+            "id": "p-b7a7921854329579"
           },
           {
             "type": "paragraph",
@@ -276,7 +301,8 @@
                 "type": "text",
                 "text": "█ 12, 1999"
               }
-            ]
+            ],
+            "id": "p-6c292466acc38620"
           }
         ]
       }

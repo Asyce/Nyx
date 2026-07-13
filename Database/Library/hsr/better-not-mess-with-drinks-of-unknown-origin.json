@@ -4,10 +4,11 @@
   "id": "better-not-mess-with-drinks-of-unknown-origin",
   "name": "Better Not Mess with Drinks of Unknown Origin",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Better_Not_Mess_with_Drinks_of_Unknown_Origin",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -26,7 +27,8 @@
                 "type": "text",
                 "text": "No display window, no selection buttons or anything. Just a coin slot."
               }
-            ]
+            ],
+            "id": "p-3edd55f33d872016"
           },
           {
             "type": "paragraph",
@@ -35,7 +37,8 @@
                 "type": "text",
                 "text": "What else is there to say? Lifestyle streamers fear nothing. One bottle please!"
               }
-            ]
+            ],
+            "id": "p-115bf22abb693a17"
           },
           {
             "type": "paragraph",
@@ -44,7 +47,8 @@
                 "type": "text",
                 "text": "*Planarcadia profanity*! It says \"Hair Gel\" on it."
               }
-            ]
+            ],
+            "id": "p-7657122aea40a80b"
           },
           {
             "type": "paragraph",
@@ -53,7 +57,8 @@
                 "type": "text",
                 "text": "Cheers, friends!"
               }
-            ]
+            ],
+            "id": "p-b27da965e6602e20"
           },
           {
             "type": "paragraph",
@@ -69,7 +74,8 @@
                 "type": "text",
                 "text": "Good thing I'm an imagenae, or I'd be making a beeline for the ICU. Human friends, do not try this."
               }
-            ]
+            ],
+            "id": "p-b5464547815b3eca"
           },
           {
             "type": "paragraph",
@@ -85,7 +91,8 @@
                 "type": "text",
                 "text": "Come on, give me your Wishbae and let's crack open another one!"
               }
-            ]
+            ],
+            "id": "p-01ad403762228cd5"
           },
           {
             "type": "paragraph",
@@ -94,7 +101,8 @@
                 "type": "text",
                 "text": "\"Printer Ink\"? This vending machine's really going for the throat here."
               }
-            ]
+            ],
+            "id": "p-1cade9afa8d14190"
           },
           {
             "type": "paragraph",
@@ -117,7 +125,8 @@
                 "type": "text",
                 "text": "Friends, check it out. It's pink! Pink ones cost more than the black ones, so we're making bank here, friends!"
               }
-            ]
+            ],
+            "id": "p-669a0c83f5c9853b"
           },
           {
             "type": "paragraph",
@@ -126,7 +135,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -156,7 +166,8 @@
                 "type": "text",
                 "text": "Well that's boring. Just a normal drink. Down the hatch, next bottle!"
               }
-            ]
+            ],
+            "id": "p-7beaa37e95e458ad"
           },
           {
             "type": "paragraph",
@@ -179,7 +190,8 @@
                 "type": "text",
                 "text": "It tastes good! After all those weird ones that didn't taste normal at all, this one finally hits the spot."
               }
-            ]
+            ],
+            "id": "p-f80f065f503f8149"
           },
           {
             "type": "paragraph",
@@ -188,7 +200,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -211,7 +224,8 @@
                 "type": "text",
                 "text": "Wait, the stream's still on? *Planarcadia profanity*! A hundred thousand viewers!?"
               }
-            ]
+            ],
+            "id": "p-d015fe018173bc2a"
           },
           {
             "type": "paragraph",
@@ -227,7 +241,8 @@
                 "type": "text",
                 "text": "I even dreamed about Aha THEMSELF just now. THEY waved a mask in my face, inviting me to join the Phantasmoon Games."
               }
-            ]
+            ],
+            "id": "p-87b5f142f9b5e4fd"
           },
           {
             "type": "paragraph",
@@ -236,7 +251,8 @@
                 "type": "text",
                 "text": "I asked if that was real. THEY said it was a lie, called me a total idiot, and then smacked me right in the face. That's when I woke up."
               }
-            ]
+            ],
+            "id": "p-28b617c04801db10"
           },
           {
             "type": "paragraph",
@@ -266,7 +282,8 @@
                 "type": "text",
                 "text": "*Planarcadia profanity*! The security officer's here. I gotta log off for a sec!"
               }
-            ]
+            ],
+            "id": "p-cfe80dc7ea8963d3"
           },
           {
             "type": "paragraph",
@@ -275,7 +292,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-3"
           },
           {
             "type": "paragraph",
@@ -291,7 +309,8 @@
                 "type": "text",
                 "text": "What else can I say? Just my rotten luck, I guess."
               }
-            ]
+            ],
+            "id": "p-957646132cdb85ff"
           },
           {
             "type": "paragraph",
@@ -300,7 +319,8 @@
                 "type": "text",
                 "text": "I went back and thought about it for a bit. The other drinks all seemed pretty normal, but those few bottles of SoulGlad had this ingredient called \"memoria\" that I'd never seen before. Don't tell me that stuff works like Wishpower or something."
               }
-            ]
+            ],
+            "id": "p-540670d9a94d4d99"
           },
           {
             "type": "paragraph",
@@ -316,7 +336,8 @@
                 "type": "text",
                 "text": "Alright, friends, see you tomorrow."
               }
-            ]
+            ],
+            "id": "p-c5c781d94f43c1d6"
           },
           {
             "type": "paragraph",
@@ -332,7 +353,8 @@
                 "type": "text",
                 "text": "Follow \"Arcadia SoulGlad\" livestream to get daily discount promotions~"
               }
-            ]
+            ],
+            "id": "p-40e587d9714fb81a"
           }
         ]
       }

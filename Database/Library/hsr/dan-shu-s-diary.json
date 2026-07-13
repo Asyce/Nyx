@@ -4,10 +4,11 @@
   "id": "dan-shu-s-diary",
   "name": "Dan Shu's Diary",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Dan_Shu%27s_Diary",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "i",
       "label": "(I)",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Please hear me, Reignbow Arbiter."
               }
-            ]
+            ],
+            "id": "p-ac71a4f85123ffa2"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "Yufei would always laugh at me for being childish and writing to you in my diary, but this has been a habit since I was a child. Besides, I also genuinely believe you are able to read this."
               }
-            ]
+            ],
+            "id": "p-eeaa1c3eaa7824b9"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "Your eyes have always been able to see everything you want to see. Someone like me should not have been born, yet now I live a wealthy life and have friends such as Yufei by my side. I thank your blessings every second of every day."
               }
-            ]
+            ],
+            "id": "p-ddb56dd978562045"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "Therefore, I hope everything I've done recently would not offend your peerless authority... I bear no dissatisfaction with the world of Xianzhou that you guard and protect. I simply wish to see the real world in real colors."
               }
-            ]
+            ],
+            "id": "p-aebb5bec554a807c"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "When I was a child in the lyceum and my peers bullied me for my lack of sight, I had always firmly believed my condition to be a trial sent by the Reignbow Arbiter to test me. I maintained that belief in my later years when I entered the academy and had to spend more effort than others to keep up with my studies."
               }
-            ]
+            ],
+            "id": "p-6a183302fa4eb703"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "As if to reward me for my tenacity, you sent Yufei to be my friend. When we were seven years old, she chased away the malevolent classmates bullying me, and she has been my best friend ever since."
               }
-            ]
+            ],
+            "id": "p-837e3724686af948"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "Yufei protected me from the bullies and helped me to keep up with my studies. During the school holidays, she would take me to visit glamorous scenes in the various ecological delves and describe their beauty to me with great vividness. Her voice is very pleasant to listen to, like the touch of cold streams brushing past my fingertips."
               }
-            ]
+            ],
+            "id": "p-04ecdeb764f984c6"
           },
           {
             "type": "paragraph",
@@ -91,7 +100,8 @@
                 "type": "text",
                 "text": "In theory, I shouldn't be dissatisfied with life at all."
               }
-            ]
+            ],
+            "id": "p-efbf1898febeffab"
           },
           {
             "type": "paragraph",
@@ -100,7 +110,8 @@
                 "type": "text",
                 "text": "However... humans are visual creatures, and we perceive the world via lights and colors. I simply do not know what Yufei means when she says \"the dusk painted the sky red at the end of the forest like a flame.\" In fact, I don't even know what Yufei looks like. I can touch, I can imagine, and yet I still cannot construct a complete picture."
               }
-            ]
+            ],
+            "id": "p-c3afdf27670fd18f"
           },
           {
             "type": "paragraph",
@@ -109,7 +120,8 @@
                 "type": "text",
                 "text": "Therefore, with Yufei's support, I decided to find a way to restore sight to myself."
               }
-            ]
+            ],
+            "id": "p-92b9c104d1891518"
           },
           {
             "type": "paragraph",
@@ -118,7 +130,8 @@
                 "type": "text",
                 "text": "By the blessing of the Reignbow, I have become the best alchemist in the Alchemy Commission, and Yufei is its best healer. Perhaps we can indeed find a way to free the Incomplete Ones from our eternal torment."
               }
-            ]
+            ],
+            "id": "p-cd28fb3e8bf3ad59"
           },
           {
             "type": "paragraph",
@@ -127,7 +140,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -136,7 +150,8 @@
                 "type": "text",
                 "text": "Yufei and I had tried many strategies recently, but none of them worked."
               }
-            ]
+            ],
+            "id": "p-44cdba835c5a781a"
           },
           {
             "type": "paragraph",
@@ -145,7 +160,8 @@
                 "type": "text",
                 "text": "Firstly, we tried to non-invasively create prosthetic eyes. In fact, this is how my ingenium arm works, which can function as well as a real arm."
               }
-            ]
+            ],
+            "id": "p-db8d4bdc0c6f83ca"
           },
           {
             "type": "paragraph",
@@ -154,7 +170,8 @@
                 "type": "text",
                 "text": "Theoretically, these non-intrusive methods can help Incomplete Ones with visual impairments. However, for those with visual neuron developmental issues such as I, non-intrusive methods can do little to help."
               }
-            ]
+            ],
+            "id": "p-74e8d8dc928c7df3"
           },
           {
             "type": "paragraph",
@@ -163,7 +180,8 @@
                 "type": "text",
                 "text": "Secondly, we tried to create vision using the principles behind Butterfly Immersia. At its core, Butterfly Immersia uses Foxian pheromones to create controllable illusions. We wondered whether it can therefore bypass the eye as a visual signal receptor, and directly send images to the brain."
               }
-            ]
+            ],
+            "id": "p-6e457cfbc5d8b5d7"
           },
           {
             "type": "paragraph",
@@ -172,7 +190,8 @@
                 "type": "text",
                 "text": "The outcomes indicated this to be a viable strategy. However, these signals failed to form meaningful images in my brain. It did allow me to \"see\" colors and shapes for the first time, but I genuinely cannot tell what is \"red\" and what is \"a circle.\""
               }
-            ]
+            ],
+            "id": "p-d88f9307b94a5a12"
           },
           {
             "type": "paragraph",
@@ -181,7 +200,8 @@
                 "type": "text",
                 "text": "We guess this is due to how Butterfly Immersias rely on the experiencer's senses to recreate images. Therefore, when faced with sensory stimuli that I have never experienced before, even the Foxians' pheromones were helpless."
               }
-            ]
+            ],
+            "id": "p-30b042dbda4abd7e"
           },
           {
             "type": "paragraph",
@@ -190,7 +210,8 @@
                 "type": "text",
                 "text": "How odd. It showed me so many colors, but I don't really miss that feeling."
               }
-            ]
+            ],
+            "id": "p-53db07d5f2905914"
           },
           {
             "type": "paragraph",
@@ -199,7 +220,8 @@
                 "type": "text",
                 "text": "Thirdly, we tried to trigger sensory compensation using other senses. This was Yufei's idea, which was an extension of the non-invasive prosthetic eyes concept — By converting visual signals into auditory, tactile, gustatory, or olfactory signals, these other sensory organs could create a whole new concept of \"sight.\""
               }
-            ]
+            ],
+            "id": "p-3c116f2f1e880bd0"
           },
           {
             "type": "paragraph",
@@ -208,7 +230,8 @@
                 "type": "text",
                 "text": "We created a prototype gadget, but our biggest challenge was its size. All the external sensors added together are heavier than the weight of three humans combined. It was a pain to even walk while carrying them, let alone testing them."
               }
-            ]
+            ],
+            "id": "p-66f8fb8d3cf8106a"
           },
           {
             "type": "paragraph",
@@ -217,7 +240,8 @@
                 "type": "text",
                 "text": "Nevertheless, we still conducted many tests. Our results indicate this tool is much better suited for short-life species. Their brains have greater plasticity, through which sensory compensation can trigger synesthesia, where one sensory organ activates a different sensory organ. If they use this tool for long periods of time, they would be able to realistically \"taste,\" \"hear,\" or \"smell\" colors, shapes, and visual distances."
               }
-            ]
+            ],
+            "id": "p-f07dc3e8fe767355"
           },
           {
             "type": "paragraph",
@@ -226,7 +250,8 @@
                 "type": "text",
                 "text": "However, for long-life species with low neuroplasticity (such as I), these sensory organs cannot come together to create a brand-new sense. Admittedly, I now know the testing block is blue whenever I taste chili peppers; and if I smell a frosty scent after that, then I know the block is a cone in shape. But I still have not \"seen\" them, let alone know what \"blue\" means..."
               }
-            ]
+            ],
+            "id": "p-7c39444d24322664"
           },
           {
             "type": "paragraph",
@@ -235,7 +260,8 @@
                 "type": "text",
                 "text": "Though short-life species will gain more from this tool, most of their bodily issues can be solved by invasive prosthetics and would have no need for something as complicated as this."
               }
-            ]
+            ],
+            "id": "p-0b5ec91e1b31d0a7"
           },
           {
             "type": "paragraph",
@@ -244,7 +270,8 @@
                 "type": "text",
                 "text": "These experiments cost huge amounts of time and effort for Yufei and me, yet we have produced almost no viable results. I can't even be sure whether these experiments can help other researchers in the future."
               }
-            ]
+            ],
+            "id": "p-017c2b7edccef773"
           },
           {
             "type": "paragraph",
@@ -253,7 +280,8 @@
                 "type": "text",
                 "text": "I feel dejected and powerless, and I feel like I let Yufei down."
               }
-            ]
+            ],
+            "id": "p-de4005daebe75ec0"
           },
           {
             "type": "paragraph",
@@ -262,7 +290,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-3"
           },
           {
             "type": "paragraph",
@@ -271,7 +300,8 @@
                 "type": "text",
                 "text": "I got in touch with Professor Egan from the Intelligentsia Guild. He presented a rather outlandish solution, something he called \"Eliminative Materialism Therapy.\""
               }
-            ]
+            ],
+            "id": "p-26e524bd858d432c"
           },
           {
             "type": "paragraph",
@@ -280,7 +310,8 @@
                 "type": "text",
                 "text": "Eliminative Materialism is an ancient philosophical idea that states all human emotions arise from internal steroids and electrical signals. Professor Egan believes that if we cannot eliminate the root of the Incomplete Ones' suffering, then we will eliminate the suffering itself."
               }
-            ]
+            ],
+            "id": "p-3275665a76ea61c2"
           },
           {
             "type": "paragraph",
@@ -289,7 +320,8 @@
                 "type": "text",
                 "text": "As long as we use a pump to periodically inject specific medications into the body, we can make the person not care about their physical issues. I will have no desire to see the world, and not feel sad about my condition at all."
               }
-            ]
+            ],
+            "id": "p-107ec05071db4a58"
           },
           {
             "type": "paragraph",
@@ -298,7 +330,8 @@
                 "type": "text",
                 "text": "It sounds very bizarre, but it seems to be a viable path."
               }
-            ]
+            ],
+            "id": "p-f019de8d101eeb00"
           },
           {
             "type": "paragraph",
@@ -307,7 +340,8 @@
                 "type": "text",
                 "text": "Unfortunately, the experimental results indicate this does not work for long-life species, either."
               }
-            ]
+            ],
+            "id": "p-25f7073201bcf1d0"
           },
           {
             "type": "paragraph",
@@ -316,7 +350,8 @@
                 "type": "text",
                 "text": "The hormones within long-life species are strictly regulated, and any external force that influences this system would cause an overwhelming retaliation."
               }
-            ]
+            ],
+            "id": "p-7b0b1826b97adbe6"
           },
           {
             "type": "paragraph",
@@ -325,7 +360,8 @@
                 "type": "text",
                 "text": "I experienced uncaring freedom for about two hours before almost dying from a cytokine storm."
               }
-            ]
+            ],
+            "id": "p-d5544ca37a50c48c"
           },
           {
             "type": "paragraph",
@@ -334,7 +370,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-4"
           },
           {
             "type": "paragraph",
@@ -343,7 +380,8 @@
                 "type": "text",
                 "text": "I've conducted lots of experiments. There has been no progress whatsoever. I'm feeling really defeated."
               }
-            ]
+            ],
+            "id": "p-e7c1c536c0f79d46"
           },
           {
             "type": "paragraph",
@@ -352,7 +390,8 @@
                 "type": "text",
                 "text": "But I want to see what Yufei looks like, even if for just once. So I asked behind Yufei's back (she would never agree to something as ludicrous) for Professor Egan to transplant a pair of eyes for me."
               }
-            ]
+            ],
+            "id": "p-ecdbb696a6a1aa3c"
           },
           {
             "type": "paragraph",
@@ -361,7 +400,8 @@
                 "type": "text",
                 "text": "I saw myself and Yufei for the first time. Her short black hair shimmered with light like soft silk, and her pale skin was beautiful like the best ceramics from the Zhuming. Her ebony eyes were bloodshot with sadness and fatigue, and she kept shedding tears."
               }
-            ]
+            ],
+            "id": "p-9a9da3a5eb1b89a5"
           },
           {
             "type": "paragraph",
@@ -370,7 +410,8 @@
                 "type": "text",
                 "text": "She looked at my new eyes and said: \"Dan Shu, do you know what this means to you?\""
               }
-            ]
+            ],
+            "id": "p-3fe899942f38d250"
           },
           {
             "type": "paragraph",
@@ -379,7 +420,8 @@
                 "type": "text",
                 "text": "I know. Of course I know. These eyes will gradually be rejected, bringing me unimaginable pain in the process. Historically, people have even become stricken with mara due to such agony."
               }
-            ]
+            ],
+            "id": "p-91ca9495a36c210c"
           },
           {
             "type": "paragraph",
@@ -388,7 +430,8 @@
                 "type": "text",
                 "text": "Then, I would return to the darkness and lose everything I have momentarily gained."
               }
-            ]
+            ],
+            "id": "p-781a4fbf21af7872"
           },
           {
             "type": "paragraph",
@@ -397,7 +440,8 @@
                 "type": "text",
                 "text": "I said to Yufei: \"Let's go see those views together, the ones you told me about.\""
               }
-            ]
+            ],
+            "id": "p-de21a26a92e6ccd3"
           },
           {
             "type": "paragraph",
@@ -406,7 +450,8 @@
                 "type": "text",
                 "text": "Ten days later, we stood shoulder to shoulder, gazing at the artificial sun gradually disappearing on the other side of the delve's false sky. The rejection reaction was getting stronger and stronger, but as long as she was beside me, it didn't seem so bad."
               }
-            ]
+            ],
+            "id": "p-aca15b234e447713"
           },
           {
             "type": "paragraph",
@@ -415,7 +460,8 @@
                 "type": "text",
                 "text": "The dusk painted the sky red at the end of the forest like a flame."
               }
-            ]
+            ],
+            "id": "p-c018895e51da5142"
           },
           {
             "type": "paragraph",
@@ -424,13 +470,15 @@
                 "type": "text",
                 "text": "That night, as I screamed in a puddle of my own blood, I once again returned to the darkness."
               }
-            ]
+            ],
+            "id": "p-07ead3fd5afd7fc8"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "ii",
       "label": "(II)",
       "document": {
         "version": 1,
@@ -442,7 +490,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -451,7 +500,8 @@
                 "type": "text",
                 "text": "Please hear me, Reignbow Arbiter."
               }
-            ]
+            ],
+            "id": "p-ac71a4f85123ffa2"
           },
           {
             "type": "paragraph",
@@ -460,7 +510,8 @@
                 "type": "text",
                 "text": "Yufei is enlisted in the war."
               }
-            ]
+            ],
+            "id": "p-01ec399064f4610e"
           },
           {
             "type": "paragraph",
@@ -469,7 +520,8 @@
                 "type": "text",
                 "text": "This is the third great war between the Alliance and the Denizens of Abundance. Many people I know went to the war, but I never imagined Yufei would be conscripted as well."
               }
-            ]
+            ],
+            "id": "p-e74998d82146ed1d"
           },
           {
             "type": "paragraph",
@@ -478,7 +530,8 @@
                 "type": "text",
                 "text": "\"The Alliance needs the best healer, and I happen to be the best healer. That can't be helped, right?\" Yufei held my head in her palms as she said this in pretended carelessness."
               }
-            ]
+            ],
+            "id": "p-27fd179f450211a6"
           },
           {
             "type": "paragraph",
@@ -487,7 +540,8 @@
                 "type": "text",
                 "text": "I grabbed Yufei's hand and replied anxiously. \"The Luofu has so many healers. Why does it have to be you? You're not a Cloud Knight. You can refuse...\""
               }
-            ]
+            ],
+            "id": "p-87edf5af3f32820b"
           },
           {
             "type": "paragraph",
@@ -496,7 +550,8 @@
                 "type": "text",
                 "text": "\"I know you're worried about me.\" Yufei comforted me gently. \"I'm just a healer. I won't be in danger. Besides, the Arbiter will keep me safe.\""
               }
-            ]
+            ],
+            "id": "p-bf048e56e7d155ca"
           },
           {
             "type": "paragraph",
@@ -505,7 +560,8 @@
                 "type": "text",
                 "text": "She had made up her mind to go. I could only beg her. \"You're an amazing person. You can live a happy life even without me. But I'm weak. I don't know how to live in a world without you. So please, please return in one piece.\""
               }
-            ]
+            ],
+            "id": "p-5eedc1bd0212944d"
           },
           {
             "type": "paragraph",
@@ -514,7 +570,8 @@
                 "type": "text",
                 "text": "Yufei laughed haplessly. \"I can't live without you either! Trust me. I'll be back safe and sound.\""
               }
-            ]
+            ],
+            "id": "p-11eeb9f5f17a94ea"
           },
           {
             "type": "paragraph",
@@ -523,7 +580,8 @@
                 "type": "text",
                 "text": "She then let go of my hand. I knelt on the ground, covered my ears, and curled up in a ball. I didn't want to listen to the sounds of her leaving."
               }
-            ]
+            ],
+            "id": "p-96af6aabeea991fc"
           },
           {
             "type": "paragraph",
@@ -532,7 +590,8 @@
                 "type": "text",
                 "text": "Reignbow Arbiter, please bring her back safely."
               }
-            ]
+            ],
+            "id": "p-8ccd2ede02c6312a"
           },
           {
             "type": "paragraph",
@@ -541,7 +600,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -550,7 +610,8 @@
                 "type": "text",
                 "text": "Someone became mara-struck in the urban area of the Exalting Sanctum and caused quite a bit of destruction. We have been assigned by the Judges of the Ten-Lords Commission to conduct an autopsy on his corpse."
               }
-            ]
+            ],
+            "id": "p-ea6c4ef4efeed98f"
           },
           {
             "type": "paragraph",
@@ -559,7 +620,8 @@
                 "type": "text",
                 "text": "The results of the autopsy were very interesting to me. I'm going to record it here for future reference."
               }
-            ]
+            ],
+            "id": "p-60b7c2f0a4171155"
           },
           {
             "type": "paragraph",
@@ -568,7 +630,8 @@
                 "type": "text",
                 "text": "The deceased was an Incomplete One. He was born without limbs and had a congenital heart condition. However, the autopsy indicated all his disabilities seemed to have completely disappeared after he became struck with mara."
               }
-            ]
+            ],
+            "id": "p-4af7719999229dda"
           },
           {
             "type": "paragraph",
@@ -577,7 +640,8 @@
                 "type": "text",
                 "text": "His limbs became stronger than a yellow boulder calf's, and his heart was as steady as a starskiff's engine. In fact, such records are often to be found in the annals of history, but I'm still very stunned to come face-to-face with such an occurrence."
               }
-            ]
+            ],
+            "id": "p-c513a99441494ba1"
           },
           {
             "type": "paragraph",
@@ -586,7 +650,8 @@
                 "type": "text",
                 "text": "I have to admit that I have been deliberately ignoring one particular cure for the Incomplete Ones... Specifically, to accept the Plagues Author's power. After all, no one had heard about there being Incomplete Ones among the borisin."
               }
-            ]
+            ],
+            "id": "p-12a8cc225a058bac"
           },
           {
             "type": "paragraph",
@@ -595,7 +660,8 @@
                 "type": "text",
                 "text": "Perhaps there indeed exists a way to harmlessly utilize the Plagues Author's power."
               }
-            ]
+            ],
+            "id": "p-1ceb3628eab0c64e"
           },
           {
             "type": "paragraph",
@@ -604,7 +670,8 @@
                 "type": "text",
                 "text": "Of course, this is only a fleeting fantasy. Doing such experiments would be a crime worthy of death."
               }
-            ]
+            ],
+            "id": "p-40dd1a3fb2ab9503"
           },
           {
             "type": "paragraph",
@@ -613,7 +680,8 @@
                 "type": "text",
                 "text": "Just in case, these words are for any future Judge of the Ten-Lords Commission who may investigate this diary: The above content is all my fantasies, and I have no plans of executing them."
               }
-            ]
+            ],
+            "id": "p-39fa4f1da8443398"
           },
           {
             "type": "paragraph",
@@ -622,7 +690,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-3"
           },
           {
             "type": "paragraph",
@@ -631,7 +700,8 @@
                 "type": "text",
                 "text": "Yufei and I wrote many letters to each other recently."
               }
-            ]
+            ],
+            "id": "p-add36b6bfcbc97cc"
           },
           {
             "type": "paragraph",
@@ -640,7 +710,8 @@
                 "type": "text",
                 "text": "She's safe for now at the field hospital away from the front lines."
               }
-            ]
+            ],
+            "id": "p-9e65134a70ee8147"
           },
           {
             "type": "paragraph",
@@ -649,7 +720,8 @@
                 "type": "text",
                 "text": "Of course, I'm worried about her, but the only thing I can do is silently pray."
               }
-            ]
+            ],
+            "id": "p-2c5e8b38f33b8a40"
           },
           {
             "type": "paragraph",
@@ -658,7 +730,8 @@
                 "type": "text",
                 "text": "Reignbow Arbiter, please keep her safe."
               }
-            ]
+            ],
+            "id": "p-ea154ed29ff652e0"
           },
           {
             "type": "paragraph",
@@ -667,7 +740,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-4"
           },
           {
             "type": "paragraph",
@@ -676,7 +750,8 @@
                 "type": "text",
                 "text": "The war is over. We won, and Yufei is dead."
               }
-            ]
+            ],
+            "id": "p-73bc6d075a1e8423"
           },
           {
             "type": "paragraph",
@@ -685,7 +760,8 @@
                 "type": "text",
                 "text": "I can't understand how she could die in the field hospital away from the fighting."
               }
-            ]
+            ],
+            "id": "p-fe2e9a2c6f10ca5f"
           },
           {
             "type": "paragraph",
@@ -694,7 +770,8 @@
                 "type": "text",
                 "text": "I kept asking and asking like I was mad, till the Cloud Knights finally told me the truth."
               }
-            ]
+            ],
+            "id": "p-fd83b4647f0388f2"
           },
           {
             "type": "paragraph",
@@ -703,7 +780,8 @@
                 "type": "text",
                 "text": "The Reignbow Arbiter had descended onto the physical plane and annihilated the borisins' fleet using THEIR divine arrow. At the same time, THEIR divine miracle wrought some \"collateral damage\" — such as the field hospital Yufei was based in."
               }
-            ]
+            ],
+            "id": "p-0605ca3e5620a61d"
           },
           {
             "type": "paragraph",
@@ -712,7 +790,8 @@
                 "type": "text",
                 "text": "She did not die in the hands of the Denizens of Abundance. Instead, she was ground to dust by the Reignbow Arbiter's divine arrow, with not even a single bone of her left behind."
               }
-            ]
+            ],
+            "id": "p-d1ac883e0289c11a"
           },
           {
             "type": "paragraph",
@@ -721,7 +800,8 @@
                 "type": "text",
                 "text": "Why, Reignbow Arbiter?"
               }
-            ]
+            ],
+            "id": "p-48fd9f377723c75e"
           },
           {
             "type": "paragraph",
@@ -730,7 +810,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-5"
           },
           {
             "type": "paragraph",
@@ -739,7 +820,8 @@
                 "type": "text",
                 "text": "Reignbow Arbiter, this will be the last time I write to you."
               }
-            ]
+            ],
+            "id": "p-0e327124551ae07e"
           },
           {
             "type": "paragraph",
@@ -748,7 +830,8 @@
                 "type": "text",
                 "text": "I wish all that you hope to destroy are resurrected."
               }
-            ]
+            ],
+            "id": "p-103599ce1e356ef8"
           },
           {
             "type": "paragraph",
@@ -757,7 +840,8 @@
                 "type": "text",
                 "text": "I wish all that you hope to preserve is annihilated."
               }
-            ]
+            ],
+            "id": "p-25e11473b17bd075"
           },
           {
             "type": "paragraph",
@@ -766,7 +850,8 @@
                 "type": "text",
                 "text": "I wish all lives in the land will thrive contrary to your desires."
               }
-            ]
+            ],
+            "id": "p-8cefae39457db686"
           },
           {
             "type": "paragraph",
@@ -775,7 +860,8 @@
                 "type": "text",
                 "text": "I wish all stars in the sky will be dimmed because of your existence."
               }
-            ]
+            ],
+            "id": "p-769368fdd4e30ce4"
           },
           {
             "type": "paragraph",
@@ -784,7 +870,8 @@
                 "type": "text",
                 "text": "I wish this cosmos to be full of life, and not full of death."
               }
-            ]
+            ],
+            "id": "p-5d808d284ee5db23"
           },
           {
             "type": "paragraph",
@@ -793,7 +880,8 @@
                 "type": "text",
                 "text": "I wish the Alliance will exist forever, but not in the way you desired."
               }
-            ]
+            ],
+            "id": "p-8182fdaf7b3d82c8"
           }
         ]
       }

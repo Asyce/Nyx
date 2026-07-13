@@ -4,10 +4,11 @@
   "id": "once-upon-a-snowsieged-country-program",
   "name": "Once Upon a Snowsieged Country Program",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Once_Upon_a_Snowsieged_Country_Program",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "page-one",
       "label": "Page One",
       "document": {
         "version": 1,
@@ -29,7 +30,8 @@
                 "type": "em",
                 "children": []
               }
-            ]
+            ],
+            "id": "p-a3c60917d71d286a"
           },
           {
             "type": "paragraph",
@@ -101,7 +103,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-3e51e3436375474b"
           },
           {
             "type": "paragraph",
@@ -130,7 +133,8 @@
                 "type": "text",
                 "text": "Goliards Award for Best Opera Orchestra"
               }
-            ]
+            ],
+            "id": "p-5061dc55d04a5e6f"
           },
           {
             "type": "paragraph",
@@ -139,7 +143,8 @@
                 "type": "text",
                 "text": "Goliard Award for Best Female Opera Singer"
               }
-            ]
+            ],
+            "id": "p-8e0ae81fffef7dad"
           },
           {
             "type": "paragraph",
@@ -162,7 +167,8 @@
                 "type": "text",
                 "text": "Costume Design: Brandon. Set Designer: Verdi. Lighting: Marina. Public Relationships: Barbara."
               }
-            ]
+            ],
+            "id": "p-13ef3a7e61f3898b"
           },
           {
             "type": "paragraph",
@@ -234,7 +240,8 @@
                 "type": "text",
                 "text": "Laszlo Landau — Lemming"
               }
-            ]
+            ],
+            "id": "p-e7588c6b387dc6c2"
           },
           {
             "type": "paragraph",
@@ -250,7 +257,8 @@
                 "type": "text",
                 "text": "\"Stories Behind the Pages\" — New Supreme Guardian"
               }
-            ]
+            ],
+            "id": "p-7bba6e0ffd9aacbe"
           },
           {
             "type": "paragraph",
@@ -280,7 +288,8 @@
                 "type": "text",
                 "text": "\"The Song of No Fear\" — Halls Goethe, Laszlo Landau"
               }
-            ]
+            ],
+            "id": "p-8bad33801b8d01a1"
           },
           {
             "type": "paragraph",
@@ -310,7 +319,8 @@
                 "type": "text",
                 "text": "\"Good Food, Good Wine, and Good Grains\" — Fainka"
               }
-            ]
+            ],
+            "id": "p-492fa3c26b99b0d2"
           },
           {
             "type": "paragraph",
@@ -340,7 +350,8 @@
                 "type": "text",
                 "text": "\"The Reforgers' Duet\" — Katarina, Architect Doreen"
               }
-            ]
+            ],
+            "id": "p-65506eab25cf1113"
           },
           {
             "type": "paragraph",
@@ -370,13 +381,15 @@
                 "type": "text",
                 "text": "\"One Recommendation\" — Alisa Rand, Svetlana, Alexandra, Fainka, Mihail, Katarina"
               }
-            ]
+            ],
+            "id": "p-d208a65e07dce760"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "page-two",
       "label": "Page Two",
       "document": {
         "version": 1,
@@ -419,7 +432,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-f7ddca4ead8d0fb9"
           },
           {
             "type": "paragraph",
@@ -454,7 +468,8 @@
                 "type": "text",
                 "text": "stirred up hot discussion amongst the Belobog media with its star-studded cast and their outstanding performance."
               }
-            ]
+            ],
+            "id": "p-1486cfc5b0301e87"
           },
           {
             "type": "paragraph",
@@ -476,7 +491,8 @@
                 "type": "text",
                 "text": "."
               }
-            ]
+            ],
+            "id": "p-4917c4d71f974db1"
           },
           {
             "type": "paragraph",
@@ -498,7 +514,8 @@
                 "type": "text",
                 "text": "."
               }
-            ]
+            ],
+            "id": "p-7c784609a10d219c"
           },
           {
             "type": "paragraph",
@@ -507,7 +524,8 @@
                 "type": "text",
                 "text": "From more than ten years ago, the legendary female opera conductor Carola was already collaborating with Sara, who had just entered the operatic stage at that time. Sara had stopped her literature studies at the University of Belobog to chase her dreams of music. However, Carola was already a legendary conductor famous throughout Belobog. Not only was there a large age gap between her and Sara, they were also very different in recognition and career stage. How did they become such bosom friends?"
               }
-            ]
+            ],
+            "id": "p-43d03f8841dc2978"
           },
           {
             "type": "paragraph",
@@ -516,7 +534,8 @@
                 "type": "text",
                 "text": "\"I was very young, and like many young people, I had a big appetite but a thin wallet. My friendship with Carola started with food.\" This soprano, who is now a new legend, spoke of how she met Carola. They met at a charity gala hosted by a theater. Sara was just focused on eating, and Carola also held a plate. They then met in front of the same dish. More than a decade later, the two ladies with similar culinary tastes have already been friends for many years."
               }
-            ]
+            ],
+            "id": "p-46b1708356b305ec"
           },
           {
             "type": "paragraph",
@@ -551,7 +570,8 @@
                 "type": "text",
                 "text": "cast because of a stubborn dream. The director Figaro wanted to challenge himself with a serious drama focused on a group of people, making a perfect start to his career transition. Meanwhile, for established operatic legends such as Sara, Carola, and the composer Andrew, they wanted to innovate and create a new road for the field of opera."
               }
-            ]
+            ],
+            "id": "p-fd46fa4985bca00d"
           },
           {
             "type": "paragraph",
@@ -586,7 +606,8 @@
                 "type": "text",
                 "text": "chose six legendary Supreme Guardians in the history of Belobog, and recounted their illustrious lives to their successor in the story. Apart from Sara playing Alisa Rand, over half of the characters are played by new actors. Sara and her peers, the \"Walking Opera Legends,\" want to help young people to make a name in this industry by putting more established performers with newcomers. This was how Sara and Carola got to know each other years before. As Carola is about to leave the stage, Sara wants to continue the story between her and her friend in some way or other."
               }
-            ]
+            ],
+            "id": "p-8d36770782f562a7"
           },
           {
             "type": "paragraph",
@@ -595,13 +616,15 @@
                 "type": "text",
                 "text": "\"To love, that wants nothing in return. To dreams, that won't allow us to turn back. And, to the future of opera.\" Smiling, Sara lifted a glass of water to us. Using water instead of alcohol, she offered her sincerest wishes to the future of opera."
               }
-            ]
+            ],
+            "id": "p-c9bb50425a19bb16"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "page-three",
       "label": "Page Three",
       "document": {
         "version": 1,
@@ -655,7 +678,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-da2904ba30a6f9ae"
           },
           {
             "type": "paragraph",
@@ -714,7 +738,8 @@
                 "type": "text",
                 "text": "List price: 1,500 shield"
               }
-            ]
+            ],
+            "id": "p-c5ba125986d2d1b6"
           },
           {
             "type": "paragraph",
@@ -773,7 +798,8 @@
                 "type": "text",
                 "text": "List price: 6,000 shield"
               }
-            ]
+            ],
+            "id": "p-055bc5d912429a1d"
           },
           {
             "type": "paragraph",
@@ -825,7 +851,8 @@
                 "type": "text",
                 "text": "List price: 2000 shield"
               }
-            ]
+            ],
+            "id": "p-bd30e96d0c065f32"
           }
         ]
       }

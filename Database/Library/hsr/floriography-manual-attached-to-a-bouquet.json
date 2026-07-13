@@ -4,10 +4,11 @@
   "id": "floriography-manual-attached-to-a-bouquet",
   "name": "Floriography Manual Attached to a Bouquet",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Floriography_Manual_Attached_to_a_Bouquet",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -36,7 +37,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-a029c517b5a4533d"
           },
           {
             "type": "paragraph",
@@ -75,7 +77,8 @@
                 "type": "text",
                 "text": "Recipients: High-status, upper class individuals."
               }
-            ]
+            ],
+            "id": "p-5dfdcbaa03d6547c"
           },
           {
             "type": "paragraph",
@@ -114,7 +117,8 @@
                 "type": "text",
                 "text": "Recipients: The elderly and young children."
               }
-            ]
+            ],
+            "id": "p-09bb875df26d63a6"
           },
           {
             "type": "paragraph",
@@ -153,7 +157,8 @@
                 "type": "text",
                 "text": "Recipients: Artists, people who like art."
               }
-            ]
+            ],
+            "id": "p-e1091248b4f16714"
           },
           {
             "type": "paragraph",
@@ -192,7 +197,8 @@
                 "type": "text",
                 "text": "Recipients: Lovers."
               }
-            ]
+            ],
+            "id": "p-e1db96666b8ad2af"
           },
           {
             "type": "paragraph",
@@ -231,7 +237,8 @@
                 "type": "text",
                 "text": "Recipients: Suitable for most people, the first choice for official and business occasions."
               }
-            ]
+            ],
+            "id": "p-81685cb8529baf04"
           },
           {
             "type": "paragraph",
@@ -270,7 +277,8 @@
                 "type": "text",
                 "text": "Recipients: Cheap and suitable for everyone."
               }
-            ]
+            ],
+            "id": "p-fc9254716d53c2b2"
           }
         ]
       }

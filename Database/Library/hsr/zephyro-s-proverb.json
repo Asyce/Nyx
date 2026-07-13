@@ -4,10 +4,11 @@
   "id": "zephyro-s-proverb",
   "name": "Zephyro's Proverb",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Zephyro%27s_Proverb",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-386a9a856e3f0b94"
           },
           {
             "type": "paragraph",
@@ -137,7 +139,8 @@
                 "type": "text",
                 "text": "to jointly declare that the sun of old has been devoured and buried by a darkness ever deeper."
               }
-            ]
+            ],
+            "id": "p-08c6454f68efbf0a"
           }
         ]
       }

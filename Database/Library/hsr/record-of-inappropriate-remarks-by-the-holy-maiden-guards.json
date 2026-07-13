@@ -4,10 +4,11 @@
   "id": "record-of-inappropriate-remarks-by-the-holy-maiden-guards",
   "name": "Record of Inappropriate Remarks by the Holy Maiden Guards",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Record_of_Inappropriate_Remarks_by_the_Holy_Maiden_Guards",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-21ef26611a3615e7"
           },
           {
             "type": "paragraph",
@@ -40,7 +42,8 @@
                 "type": "text",
                 "text": "\"The Holy Maiden ran off again — this time, through the window.\""
               }
-            ]
+            ],
+            "id": "p-1a7e6a023dff4081"
           },
           {
             "type": "paragraph",
@@ -49,7 +52,8 @@
                 "type": "text",
                 "text": "\"Don't worry. I found her at the corner of the hallway. She must've gotten lost. She's had some warm goat milk and is fast asleep now.\""
               }
-            ]
+            ],
+            "id": "p-0e5154e016505f3c"
           },
           {
             "type": "paragraph",
@@ -58,7 +62,8 @@
                 "type": "text",
                 "text": "\"I suppose that experience was just too much for a child. But honestly, the Holy Maiden getting lost? Shouldn't the prophecy guide her in the right direction?\""
               }
-            ]
+            ],
+            "id": "p-8c33a327e174ea10"
           },
           {
             "type": "paragraph",
@@ -67,7 +72,8 @@
                 "type": "text",
                 "text": "\"Who knows? Maybe the Fate Titans don't bother with such trivialities. Or perhaps... I heard that the Fate Titans have been silent for ages, no new prophecies to any priest.\""
               }
-            ]
+            ],
+            "id": "p-ce447fd899308f2c"
           },
           {
             "type": "paragraph",
@@ -76,7 +82,8 @@
                 "type": "text",
                 "text": "\"What? Then the prophecies the Holy Maiden's been making in public... they're all fake?\""
               }
-            ]
+            ],
+            "id": "p-6e75f2714d5117d0"
           },
           {
             "type": "paragraph",
@@ -85,7 +92,8 @@
                 "type": "text",
                 "text": "\"Who knows, but if you ask me — ahem, ahem!\""
               }
-            ]
+            ],
+            "id": "p-f089007a46e79c26"
           },
           {
             "type": "paragraph",
@@ -94,7 +102,8 @@
                 "type": "text",
                 "text": "\"Hey, are you okay? What's wrong?\""
               }
-            ]
+            ],
+            "id": "p-78cba1006b2dc84f"
           },
           {
             "type": "paragraph",
@@ -103,7 +112,8 @@
                 "type": "text",
                 "text": "\"Idiot! The governors are watching us!\""
               }
-            ]
+            ],
+            "id": "p-4a83ba58a974a9f5"
           },
           {
             "type": "paragraph",
@@ -119,7 +129,8 @@
                 "type": "text",
                 "text": "\"What did the Holy Maiden ask for this time?\""
               }
-            ]
+            ],
+            "id": "p-328dda6f8b6a7e9b"
           },
           {
             "type": "paragraph",
@@ -128,7 +139,8 @@
                 "type": "text",
                 "text": "\"A hammer, red clay, a carving knife, and two thin iron rods.\""
               }
-            ]
+            ],
+            "id": "p-2b60327bc62653c5"
           },
           {
             "type": "paragraph",
@@ -137,7 +149,8 @@
                 "type": "text",
                 "text": "\"Dull the carving knife so she won't hurt herself. What did she make with the last batch of materials?\""
               }
-            ]
+            ],
+            "id": "p-9765aa046a3549a9"
           },
           {
             "type": "paragraph",
@@ -146,7 +159,8 @@
                 "type": "text",
                 "text": "\"Something hard to describe: A pointed top, three legs at the bottom, and a red clay coating... Could it be some kind of weapon?\""
               }
-            ]
+            ],
+            "id": "p-6cea9d6c641989bb"
           },
           {
             "type": "paragraph",
@@ -155,7 +169,8 @@
                 "type": "text",
                 "text": "\"No, calling it a toy makes more sense. If it were a weapon, the governors wouldn't sit idly by. No matter how old she gets, she is always a child in the eyes of the governors.\""
               }
-            ]
+            ],
+            "id": "p-138f2f619c41050f"
           },
           {
             "type": "paragraph",
@@ -164,7 +179,8 @@
                 "type": "text",
                 "text": "\"Maybe she'd rather be a craftsman than a Holy Maiden?\""
               }
-            ]
+            ],
+            "id": "p-50fbc351114b9137"
           },
           {
             "type": "paragraph",
@@ -173,7 +189,8 @@
                 "type": "text",
                 "text": "\"Craftsman... huh, if the world weren't plagued by the black tide, her wish might come true. But in this chaos, who dares to dream?\""
               }
-            ]
+            ],
+            "id": "p-2b2cea1200fab82a"
           },
           {
             "type": "paragraph",
@@ -189,7 +206,8 @@
                 "type": "text",
                 "text": "\"When will the Holy Maiden announce the oracle?\""
               }
-            ]
+            ],
+            "id": "p-3b88ff8324b729e6"
           },
           {
             "type": "paragraph",
@@ -198,7 +216,8 @@
                 "type": "text",
                 "text": "\"...\""
               }
-            ]
+            ],
+            "id": "p-436d9c194ad5c5c1"
           },
           {
             "type": "paragraph",
@@ -207,7 +226,8 @@
                 "type": "text",
                 "text": "\"Are we supposed to protect her from Castrum Kremnos' reach?\""
               }
-            ]
+            ],
+            "id": "p-068916f71e0d8eaf"
           },
           {
             "type": "paragraph",
@@ -216,7 +236,8 @@
                 "type": "text",
                 "text": "\"...\""
               }
-            ]
+            ],
+            "id": "p-436d9c194ad5c5c1-2"
           },
           {
             "type": "paragraph",
@@ -225,7 +246,8 @@
                 "type": "text",
                 "text": "\"Oh, right, senior, you probably don't know my name yet. I'm...\""
               }
-            ]
+            ],
+            "id": "p-22eee259dfcb7209"
           },
           {
             "type": "paragraph",
@@ -234,7 +256,8 @@
                 "type": "text",
                 "text": "\"If I were you, I'd zip my lips. I've already gone through two partners because I couldn't keep my mouth shut. You wanna see the Holy Maiden? Let's see if you can make it through three months without being sent packing!\""
               }
-            ]
+            ],
+            "id": "p-66210e3275a05b17"
           },
           {
             "type": "paragraph",
@@ -243,7 +266,8 @@
                 "type": "text",
                 "text": "\"...\""
               }
-            ]
+            ],
+            "id": "p-436d9c194ad5c5c1-3"
           },
           {
             "type": "paragraph",
@@ -252,7 +276,8 @@
                 "type": "text",
                 "text": "\"Sorry, I might have sounded a bit too harsh.\""
               }
-            ]
+            ],
+            "id": "p-e0c9a7a3e32cc45c"
           },
           {
             "type": "paragraph",
@@ -261,7 +286,8 @@
                 "type": "text",
                 "text": "\"No, don't worry about it... Actually, I'm not from Janusopolis. I used to live in Icatus, and it's been a long time since I've been home.\""
               }
-            ]
+            ],
+            "id": "p-c3f4ae7c68922126"
           },
           {
             "type": "paragraph",
@@ -270,7 +296,8 @@
                 "type": "text",
                 "text": "\"So... how did you get here?\""
               }
-            ]
+            ],
+            "id": "p-0a6207ce5c63586f"
           },
           {
             "type": "paragraph",
@@ -279,7 +306,8 @@
                 "type": "text",
                 "text": "\"A beautiful lady saved me. She called herself the Holy Maiden, though now she's more accurately the former Maiden. Thanks to her, I became a Holy Maiden Guard. It's a long story, but let me fill you in on all the details...\""
               }
-            ]
+            ],
+            "id": "p-5d09a02883dc3087"
           }
         ]
       }

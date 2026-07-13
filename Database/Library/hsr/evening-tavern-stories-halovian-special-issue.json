@@ -4,10 +4,11 @@
   "id": "evening-tavern-stories-halovian-special-issue",
   "name": "Evening Tavern Stories: Halovian Special Issue",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Evening_Tavern_Stories:_Halovian_Special_Issue",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "What's up, readers! It's been too long! In the last issue, I, famed tavern reporter Miles, uncovered the dark secrets of SoulGlad. This time, let's dive into the masses, and sniff out all the dirty little secrets everyone has been dying to know!"
               }
-            ]
+            ],
+            "id": "p-337bfc9d4a6a9fe7"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "It's a well-known fact that the bustling streets of Penacony, a celebrity hotspot, are a true melting pot. From the tall and short to the plump and slender, and from the rich and poor to humans and non-humans, you can literally find all kinds of folks here. Among them, I bet those Halovians who shine like superstars pique the curiosity of many of you! Well, for The Laughter, I'm ready to snag you some exclusive street interviews at the risk of being chased by the Bloodhounds!"
               }
-            ]
+            ],
+            "id": "p-4d62f01f877bae74"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "Well then, let's cut to the chase and grab a few unsuspecting passersby... Ahem, lucky interviewees, I mean."
               }
-            ]
+            ],
+            "id": "p-6ee4f1a40e28af72"
           },
           {
             "type": "paragraph",
@@ -51,7 +55,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-c9a187ec8827a291"
           },
           {
             "type": "paragraph",
@@ -74,7 +79,8 @@
                 "type": "text",
                 "text": "Mentally Stable Intellitron: It's a universally acknowledged fact that there are three things one should never touch: A Foxian's tail, a Pepeshi's fluff ball, and a Halovian's halo. So, basically, you were asking for a beating."
               }
-            ]
+            ],
+            "id": "p-b8398a3e65a4fd02"
           },
           {
             "type": "paragraph",
@@ -88,7 +94,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-f088d9a0333c9174"
           },
           {
             "type": "paragraph",
@@ -131,7 +138,8 @@
                 "type": "text",
                 "text": ". Any similarities are purely coincidental, and I hold no responsibility for such occurrences."
               }
-            ]
+            ],
+            "id": "p-7aeddf787ca30e73"
           },
           {
             "type": "paragraph",
@@ -145,7 +153,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-d3929bc7179ec6a6"
           },
           {
             "type": "paragraph",
@@ -182,7 +191,8 @@
                 "type": "text",
                 "text": "Tabloid Reporter: What do you think? Interesting, right? I have more where that came from. If you'd like to know more, just transfer me 9,998 Alfalfa credits and..."
               }
-            ]
+            ],
+            "id": "p-a843ac2fe8dadca6"
           },
           {
             "type": "paragraph",
@@ -191,7 +201,8 @@
                 "type": "text",
                 "text": "That's it for this issue! Stay tuned for more fresh scoops!"
               }
-            ]
+            ],
+            "id": "p-55640454fe238466"
           }
         ]
       }

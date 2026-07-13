@@ -4,10 +4,11 @@
   "id": "arma-correctional-group-recruitment-notice",
   "name": "Arma Correctional Group Recruitment Notice",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Arma_Correctional_Group_Recruitment_Notice",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -40,7 +41,8 @@
                 "type": "text",
                 "text": "Join the Arma Correctional Group and join me to help the myriad convicts!"
               }
-            ]
+            ],
+            "id": "p-6322a42c1b24bb94"
           },
           {
             "type": "paragraph",
@@ -70,7 +72,8 @@
                 "type": "text",
                 "text": "Own the chance to atone for your crimes with Arma! Freedom is within your reach!"
               }
-            ]
+            ],
+            "id": "p-84979528c8b8525c"
           },
           {
             "type": "paragraph",
@@ -107,7 +110,8 @@
                 "type": "text",
                 "text": "The ability to push for progress and bring partnership product designs and marketing proposals to reality."
               }
-            ]
+            ],
+            "id": "p-3856a8eb038e50a0"
           },
           {
             "type": "paragraph",
@@ -172,7 +176,8 @@
                 "type": "text",
                 "text": "(This is very important!)"
               }
-            ]
+            ],
+            "id": "p-aa69f6d0d68887a0"
           },
           {
             "type": "paragraph",
@@ -181,7 +186,8 @@
                 "type": "text",
                 "text": "The Arma Correctional Group eagerly awaits your participation!"
               }
-            ]
+            ],
+            "id": "p-91b9f832890e57d6"
           }
         ]
       }

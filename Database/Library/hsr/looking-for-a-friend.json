@@ -4,10 +4,11 @@
   "id": "looking-for-a-friend",
   "name": "Looking for a Friend",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Looking_for_a_Friend",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "All Belobog citizens:"
               }
-            ]
+            ],
+            "id": "p-b66ecc4d1076c840"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Hello!"
               }
-            ]
+            ],
+            "id": "p-79112ebc604e99b6"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "I am the third Head of Family reserve of the Overworld Administrative District's Limestein family, Wallace Cambridge Limestein. I had been living and was educated in the oldest Administrative District of Belobog since I was born. For as long as I could remember, the entire seventh block had been the property of the Limesteins. Therefore, I had been conducting glorious combat with loneliness, this most terrifying beast, for all my life. I fully understand that the greater one's ability is, the greater the responsibility, and that is the painful destiny the members of the Limestein must shoulder."
               }
-            ]
+            ],
+            "id": "p-c5d794caa0227d00"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "Now I feel weighed down on my lonesome. The evil wealth piled as high as mountains, together with the immense feeling of emptiness, climbed slowly up my spine and tried to crush me! I feel it is about time for me to publicly show the citizens of Belobog the guardian deep in the shadows of this evil city — I, the third Head of Family reserve of the Limestein family, Wallace Cambridge Limestein, the eternal warrior before the monster named loneliness, the invisible guardian of Belobog, hereby issue a sincere invitation to all citizens to fight with me for the justice of Belobog."
               }
-            ]
+            ],
+            "id": "p-22afb55b846b262b"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "The path to light and justice is fraught with thorns, therefore I wish my companions to be —"
               }
-            ]
+            ],
+            "id": "p-13c9f2930e4323a2"
           },
           {
             "type": "paragraph",
@@ -99,7 +105,8 @@
                 "type": "text",
                 "text": "6. Can call me Wallace"
               }
-            ]
+            ],
+            "id": "p-20359e6f710a89b7"
           }
         ]
       }

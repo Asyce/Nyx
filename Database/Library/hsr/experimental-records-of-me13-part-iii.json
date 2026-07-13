@@ -4,10 +4,11 @@
   "id": "experimental-records-of-me13-part-iii",
   "name": "Experimental Records of δ-me13 (Part III)",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Experimental_Records_of_%CE%B4-me13_(Part_III)",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -47,7 +48,8 @@
                 "type": "text",
                 "text": ">>> Subject Khaslana's \"hatred\" of the Destruction is suppressing the iterative process of \"Irontomb.\" Administrator intervention required."
               }
-            ]
+            ],
+            "id": "p-52ac5f178cdc1dd8"
           }
         ]
       }

@@ -4,17 +4,19 @@
   "id": "new-chronicles-of-the-six-kitsune",
   "name": "New Chronicles of the Six Kitsune",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/New_Chronicles_of_the_Six_Kitsune",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -23,7 +25,8 @@
                 "type": "text",
                 "text": "Prologue"
               }
-            ]
+            ],
+            "id": "p-2a37361271c7ab1a"
           },
           {
             "type": "paragraph",
@@ -32,7 +35,8 @@
                 "type": "text",
                 "text": "Stories relating to memory always seem to have to do with those moments where you gain something and lose it straight away."
               }
-            ]
+            ],
+            "id": "p-d76f6cdfb65eb85d"
           },
           {
             "type": "paragraph",
@@ -41,7 +45,8 @@
                 "type": "text",
                 "text": "If you're wondering how I came to write about it, it's hardly the most exciting story."
               }
-            ]
+            ],
+            "id": "p-01cd4766351b5056"
           },
           {
             "type": "paragraph",
@@ -50,7 +55,8 @@
                 "type": "text",
                 "text": "That night, I was drinking and killing time at the Uyuu Restaurant when I happened to run into an old friend that I hadn't seen in forever. I don't know when she arrived, but at some point I suddenly noticed her sitting there in one of the booths."
               }
-            ]
+            ],
+            "id": "p-aa9e39c981deef4f"
           },
           {
             "type": "paragraph",
@@ -59,7 +65,8 @@
                 "type": "text",
                 "text": "\"My, my, now, who could this be, sitting there in such a good mood, yet drinking all alone?\""
               }
-            ]
+            ],
+            "id": "p-245e0bbafc53f2a5"
           },
           {
             "type": "paragraph",
@@ -78,7 +85,8 @@
                 "type": "text",
                 "text": "\"The best liquor comes at the highest price, and sometimes that price is waiting alone.\""
               }
-            ]
+            ],
+            "id": "p-4881d8a76885e41d"
           },
           {
             "type": "paragraph",
@@ -107,7 +115,8 @@
                 "type": "text",
                 "text": "\"Why not earn yourself some drinking money? It's not like you've got anything better to do.\""
               }
-            ]
+            ],
+            "id": "p-c5d29145a51a5f49"
           },
           {
             "type": "paragraph",
@@ -126,7 +135,8 @@
                 "type": "text",
                 "text": "She laughed, and reiterated this a couple more times."
               }
-            ]
+            ],
+            "id": "p-16b0f915cc69ce31"
           },
           {
             "type": "paragraph",
@@ -145,7 +155,8 @@
                 "type": "text",
                 "text": "I watched as the evening breeze brought a few flower petals from the Sacred Sakura and landed them in her cup, making ripples that disturbed the reflection of the moon. Overcome by a strong sense of déjà vu, my mouth took it upon itself to proceed with an utterance that would prove to be something of an embarrassment to my brain."
               }
-            ]
+            ],
+            "id": "p-d13191bcde66bb58"
           },
           {
             "type": "paragraph",
@@ -184,7 +195,8 @@
                 "type": "text",
                 "text": "\"I wasn't even born yet when she left.\""
               }
-            ]
+            ],
+            "id": "p-c2a429784a4e2ed6"
           },
           {
             "type": "paragraph",
@@ -193,7 +205,8 @@
                 "type": "text",
                 "text": "And I was still in my youth back then."
               }
-            ]
+            ],
+            "id": "p-e4fd6551106836ae"
           },
           {
             "type": "paragraph",
@@ -202,7 +215,8 @@
                 "type": "text",
                 "text": "\"You must be the only one still able to recite the stories she once told.\""
               }
-            ]
+            ],
+            "id": "p-79e9b4a431f97e97"
           },
           {
             "type": "paragraph",
@@ -231,20 +245,23 @@
                 "type": "text",
                 "text": "After all, there's some great liquor that's soon to decrease in price, and I have to make sure I'm prepared. Besides, I have to pay the chief editor back for the wine she so kindly bought me that night."
               }
-            ]
+            ],
+            "id": "p-5cef85a073642ca1"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -293,7 +310,8 @@
                 "type": "text",
                 "text": "Unfortunately, that is all in the past now. Urakusai made a grave mistake and had to leave. It has now been 500 years since then..."
               }
-            ]
+            ],
+            "id": "p-cdf75b6f8b958dd8"
           },
           {
             "type": "paragraph",
@@ -312,7 +330,8 @@
                 "type": "text",
                 "text": "Legend has it that in the time of the Great Kitsune Hakushin, she had six apprentices. All were greatly skilled in magic and in shape-shifting. Day-to-day, they were tasked with assisting their matriarch, Hakushin, in managing the shrine and defending Mt. Yougou."
               }
-            ]
+            ],
+            "id": "p-ed5641bd7d1a287b"
           },
           {
             "type": "paragraph",
@@ -331,13 +350,15 @@
                 "type": "text",
                 "text": "But Black Fox Itaru was all too happy to leave the mountain behind. She put Hakushin's warnings completely out of her mind, found a bottle of good-quality liquor, and headed straight for the nearest village to look for trouble."
               }
-            ]
+            ],
+            "id": "p-d8dbc38acdc46fc8"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "vol-3",
       "label": "Vol. 3",
       "document": {
         "version": 1,
@@ -349,7 +370,8 @@
                 "type": "text",
                 "text": "Continuing where we left off, Black Fox Itaru was on her way to the village looking for trouble when she saw two women standing at the side of the road dressed like lumberjacks. Both had three blades hanging from their waist: a seven-foot-long nodachi, a kodachi, and a wakizashi. They were armed to the teeth, and they weren't hiding it."
               }
-            ]
+            ],
+            "id": "p-5df3e3ed7648455b"
           },
           {
             "type": "paragraph",
@@ -358,7 +380,8 @@
                 "type": "text",
                 "text": "As her big, bulky silhouette approached from a distance, the ground shook and dust went flying with each step she took — all of which put the two women on high alert. They grasped the hilts of their blades, ready to draw them at any moment, and asked in unison:"
               }
-            ]
+            ],
+            "id": "p-82e1e08b1ef9d6b6"
           },
           {
             "type": "paragraph",
@@ -367,7 +390,8 @@
                 "type": "text",
                 "text": "\"Who are you? Are you a youkai!?\""
               }
-            ]
+            ],
+            "id": "p-4989bfb4b6254958"
           },
           {
             "type": "paragraph",
@@ -376,7 +400,8 @@
                 "type": "text",
                 "text": "The silhouette answered:"
               }
-            ]
+            ],
+            "id": "p-dd6b5e307c6f12ef"
           },
           {
             "type": "paragraph",
@@ -385,7 +410,8 @@
                 "type": "text",
                 "text": "\"Haha, that's exactly what I am!\""
               }
-            ]
+            ],
+            "id": "p-556c63a249d6287b"
           },
           {
             "type": "paragraph",
@@ -394,7 +420,8 @@
                 "type": "text",
                 "text": "Without hesitation, the two women immediately drew their swords and stepped forward, intending to slay Itaru. But this was one youkai they had underestimated. She dodged their attacks in a single step, grabbed their wrists, and twisted them as she turned sideways, sending both of their seven-foot-long nodachi clattering to the ground. Alarmed by the pain, the two reached for their kodachi, but they were too late. Itaru sent one of them flying to the ground with an almighty slap, while placing the other into a headlock. Then, she grabbed the one under her arm by the scruff of the neck and lifted her up into the air, placing her foot on the other's chest to pin her to the ground."
               }
-            ]
+            ],
+            "id": "p-7bffa509269c0cbb"
           },
           {
             "type": "paragraph",
@@ -403,7 +430,8 @@
                 "type": "text",
                 "text": "\"The Twin Oni of Tokaku? Looks like neither of you have learned anything from the beating I gave you last year for harassing the villagers!\""
               }
-            ]
+            ],
+            "id": "p-1a47c655a4447e24"
           },
           {
             "type": "paragraph",
@@ -412,7 +440,8 @@
                 "type": "text",
                 "text": "When the two bandits heard this, they panicked and started begging for their lives. Black Fox Itaru threw them to the ground and begin to speak:"
               }
-            ]
+            ],
+            "id": "p-00548871ca3f6ceb"
           },
           {
             "type": "paragraph",
@@ -421,13 +450,15 @@
                 "type": "text",
                 "text": "\"Fair enough. Well, I'm a masterless youkai now that I've been banished from the mountain by Hakushin. Why don't the two of you join me? We'll go around helping those in need. It'll be fun!\""
               }
-            ]
+            ],
+            "id": "p-c4245deeeba1091c"
           }
         ]
       }
     },
     {
       "id": "4",
+      "volumeKey": "vol-4",
       "label": "Vol. 4",
       "document": {
         "version": 1,
@@ -439,7 +470,8 @@
                 "type": "text",
                 "text": "Continuing where we left off, Black Fox Itaru successfully tamed the bandit duo, the Twin Oni of Tokaku, and the three set off on their new journey of chivalry."
               }
-            ]
+            ],
+            "id": "p-adf13b15c59bb225"
           },
           {
             "type": "paragraph",
@@ -468,7 +500,8 @@
                 "type": "text",
                 "text": "The Twin Oni of Tokaku are an impulsive pair. Upon hearing the story, they instantly began fuming with rage, and unanimously decided that they needed to teach this dishonest merchant a lesson by cutting him into tiny pieces. But Black Fox Itaru had another idea, and spoke up to stop the two sisters:"
               }
-            ]
+            ],
+            "id": "p-c0d4cea653959549"
           },
           {
             "type": "paragraph",
@@ -477,7 +510,8 @@
                 "type": "text",
                 "text": "\"Enough. I know what to do.\""
               }
-            ]
+            ],
+            "id": "p-fe4aa63eadbed24c"
           },
           {
             "type": "paragraph",
@@ -486,7 +520,8 @@
                 "type": "text",
                 "text": "She comforted the mother and daughter:"
               }
-            ]
+            ],
+            "id": "p-40d704be7706ff1b"
           },
           {
             "type": "paragraph",
@@ -495,7 +530,8 @@
                 "type": "text",
                 "text": "\"You two have nothing to worry about. Just watch, I'll talk to the merchant, and he'll come to his senses.\""
               }
-            ]
+            ],
+            "id": "p-633f4d0a066bfe43"
           },
           {
             "type": "paragraph",
@@ -504,13 +540,15 @@
                 "type": "text",
                 "text": "Itaru marched off to look for the dishonest merchant."
               }
-            ]
+            ],
+            "id": "p-4442f0384fdacda4"
           }
         ]
       }
     },
     {
       "id": "5",
+      "volumeKey": "vol-5",
       "label": "Vol. 5",
       "document": {
         "version": 1,
@@ -522,7 +560,8 @@
                 "type": "text",
                 "text": "Continuing where we left off, Black Fox Itaru marched off to talk some sense into the dishonest merchant."
               }
-            ]
+            ],
+            "id": "p-3e3b287c9c31f1d8"
           },
           {
             "type": "paragraph",
@@ -531,7 +570,8 @@
                 "type": "text",
                 "text": "The Lavender Melon merchant, Dozaemon, was once a samurai. But with peace having prevailed in Inazuma for so long, his sword skills offered no further use, so he became a merchant in the village instead. After learning a few swindler's tricks, such as extortion and intimidation, he found that because he looked so fierce, no one dared confront him no matter how much he took from them. Over time, he had become one of the wealthiest people in the village."
               }
-            ]
+            ],
+            "id": "p-c2c4009b3036c013"
           },
           {
             "type": "paragraph",
@@ -540,7 +580,8 @@
                 "type": "text",
                 "text": "On this day, Dozaemon was relaxing in front of his shop when all of a sudden, he saw dust flying and felt the ground shaking. Then, a shadow large enough to dwarf his shop slowly fell over his face."
               }
-            ]
+            ],
+            "id": "p-821c2e537ed942de"
           },
           {
             "type": "paragraph",
@@ -549,7 +590,8 @@
                 "type": "text",
                 "text": "\"Hey! I want to buy some melons!\""
               }
-            ]
+            ],
+            "id": "p-65ca3ff9701a303f"
           },
           {
             "type": "paragraph",
@@ -558,7 +600,8 @@
                 "type": "text",
                 "text": "Dozaemon narrowed his eyes and sized up the muscular, fierce-looking, and ill-mannered customer standing over him like an executioner, before finally realizing — oh, she's a woman...!"
               }
-            ]
+            ],
+            "id": "p-aa2e9130ba52f879"
           },
           {
             "type": "paragraph",
@@ -567,7 +610,8 @@
                 "type": "text",
                 "text": "\"How many?\""
               }
-            ]
+            ],
+            "id": "p-808ed34d92829932"
           },
           {
             "type": "paragraph",
@@ -576,7 +620,8 @@
                 "type": "text",
                 "text": "Apparently, this customer was in no hurry to answer. She was too busy admiring his wakizashi, which was lying on the chopping board:"
               }
-            ]
+            ],
+            "id": "p-3ced2d3f9f8d1768"
           },
           {
             "type": "paragraph",
@@ -585,7 +630,8 @@
                 "type": "text",
                 "text": "\"Mighty fine blade you got there.\""
               }
-            ]
+            ],
+            "id": "p-cd715223d1aa359d"
           },
           {
             "type": "paragraph",
@@ -594,7 +640,8 @@
                 "type": "text",
                 "text": "\"You got that right. I'll have you know I'm from a samurai clan. It's only fitting that I keep an heirloom nearby.\""
               }
-            ]
+            ],
+            "id": "p-d705f0e80304c15f"
           },
           {
             "type": "paragraph",
@@ -603,7 +650,8 @@
                 "type": "text",
                 "text": "Dozaemon went along with the conversation, unaware of where it was heading."
               }
-            ]
+            ],
+            "id": "p-ef5d55c9e842cabb"
           },
           {
             "type": "paragraph",
@@ -612,7 +660,8 @@
                 "type": "text",
                 "text": "\"Shame. It's wasted on chopping melons.\""
               }
-            ]
+            ],
+            "id": "p-a64e8842ed9bbb96"
           },
           {
             "type": "paragraph",
@@ -621,7 +670,8 @@
                 "type": "text",
                 "text": "Dozaemon sensed that this was an intentionally barbed remark, and he did not look happy about it:"
               }
-            ]
+            ],
+            "id": "p-d0199a0e57c39c27"
           },
           {
             "type": "paragraph",
@@ -630,7 +680,8 @@
                 "type": "text",
                 "text": "\"What's with all the chit-chat? Are you buying melons or not?\""
               }
-            ]
+            ],
+            "id": "p-5a1e026e3560e558"
           },
           {
             "type": "paragraph",
@@ -639,7 +690,8 @@
                 "type": "text",
                 "text": "\"Oh, I am, I am.\" Itaru smiled at Dozaemon as a gesture of apology."
               }
-            ]
+            ],
+            "id": "p-f180735049f9d18d"
           },
           {
             "type": "paragraph",
@@ -648,7 +700,8 @@
                 "type": "text",
                 "text": "\"Four pounds of chopped Lavender Melon, without the skins, please.\""
               }
-            ]
+            ],
+            "id": "p-6162b30277cb4269"
           },
           {
             "type": "paragraph",
@@ -657,7 +710,8 @@
                 "type": "text",
                 "text": "Dozaemon's suspicions were aroused, but he did not question the request. He promptly chopped four pounds of melon and placed it onto the scale."
               }
-            ]
+            ],
+            "id": "p-1e0a8c235b4ab247"
           },
           {
             "type": "paragraph",
@@ -666,7 +720,8 @@
                 "type": "text",
                 "text": "\"Hey, how come your scale's all wonky?\""
               }
-            ]
+            ],
+            "id": "p-05365f7cd534faa1"
           },
           {
             "type": "paragraph",
@@ -675,7 +730,8 @@
                 "type": "text",
                 "text": "Dozaemon grasped his blade the moment Itaru said this."
               }
-            ]
+            ],
+            "id": "p-63de060f97f867ea"
           },
           {
             "type": "paragraph",
@@ -684,7 +740,8 @@
                 "type": "text",
                 "text": "\"Well, isn't that something—this scale's got a mind of its own!\""
               }
-            ]
+            ],
+            "id": "p-cea4b2ffbae0bfac"
           },
           {
             "type": "paragraph",
@@ -693,7 +750,8 @@
                 "type": "text",
                 "text": "\"Glad you're so amused. But it's time to pay up now.\""
               }
-            ]
+            ],
+            "id": "p-63df432546a31edc"
           },
           {
             "type": "paragraph",
@@ -702,7 +760,8 @@
                 "type": "text",
                 "text": "Dozaemon could no longer hold back his anger. The time for pleasantries was over it was time to talk sense."
               }
-            ]
+            ],
+            "id": "p-1ed31f55be22828a"
           },
           {
             "type": "paragraph",
@@ -711,7 +770,8 @@
                 "type": "text",
                 "text": "\"Heh, I don't have a problem with paying you what you're due... I'm just not sure you'd be able to take it.\""
               }
-            ]
+            ],
+            "id": "p-0d5bb1cf80880d32"
           },
           {
             "type": "paragraph",
@@ -720,7 +780,8 @@
                 "type": "text",
                 "text": "\"Oh, don't you worry — I'll take whatever you've got to give!\""
               }
-            ]
+            ],
+            "id": "p-05a6b28bda9e7dc1"
           },
           {
             "type": "paragraph",
@@ -729,7 +790,8 @@
                 "type": "text",
                 "text": "\"You sure about that!?\""
               }
-            ]
+            ],
+            "id": "p-1763dfee99d05ff5"
           },
           {
             "type": "paragraph",
@@ -738,7 +800,8 @@
                 "type": "text",
                 "text": "\"Try me!\""
               }
-            ]
+            ],
+            "id": "p-5e639e7a468d16f7"
           },
           {
             "type": "paragraph",
@@ -747,7 +810,8 @@
                 "type": "text",
                 "text": "Suddenly, Itaru yelled \"take this!\" and threw a bag full of Mora directly at Dozaemon's face. Dozaemon didn't react in time, and took the full force of the impact square on the nose. He fell backwards onto the ground as his precious wakizashi went flying from his hand and fell beside him. On closer inspection, his nose had been squashed completely flat by the bag of Mora: It looked just like the kind of pouch one might use to store a pipe, only without the pipe inside."
               }
-            ]
+            ],
+            "id": "p-47b49801c62bcc90"
           },
           {
             "type": "paragraph",
@@ -756,7 +820,8 @@
                 "type": "text",
                 "text": "Itaru walked over and pressed her foot down on the dishonest merchant's chest. Without a word, she hit Dozaemon so hard it felt like a Liyue martial arts tournament was being hosted on his face. With great difficulty, he fought to get back on his feet, but just as he had stood up and grabbed his blade, Itaru noticed and landed another ferocious blow to his head. This time, it hit so hard that a pair of tanuki ears popped out in response. He began to beg for mercy."
               }
-            ]
+            ],
+            "id": "p-3550a1fdfe98f231"
           },
           {
             "type": "paragraph",
@@ -765,7 +830,8 @@
                 "type": "text",
                 "text": "Itaru burst out laughing at the sight in front of her. So, the merchant is a youkai in disguise and a filthy tanuki at that!"
               }
-            ]
+            ],
+            "id": "p-35f5413039d20015"
           },
           {
             "type": "paragraph",
@@ -774,20 +840,23 @@
                 "type": "text",
                 "text": "Itaru promptly confiscated the tanuki's stolen wakizashi, distributed most of its ill-gotten wealth among the villagers, and handed the rest to the mother and daughter who had fallen victim to its scheme earlier. Itaru spared the tanuki's life albeit not without some reluctance and continued on her way."
               }
-            ]
+            ],
+            "id": "p-2246f5242017dcce"
           }
         ]
       }
     },
     {
       "id": "6",
+      "volumeKey": "vol-6",
       "label": "Vol. 6",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -836,7 +905,8 @@
                 "type": "text",
                 "text": "This is also why Lady Yae would eventually come to the Grand Narukami Shrine herself after embarking on her own travels."
               }
-            ]
+            ],
+            "id": "p-3a60bfe743b12e84"
           },
           {
             "type": "paragraph",
@@ -855,7 +925,8 @@
                 "type": "text",
                 "text": "—And while I as a novelist write to entertain, I shall refrain from revealing too much about Lady Yae's past, lest I suffer under the editor-in-chief's mighty pen."
               }
-            ]
+            ],
+            "id": "p-f178b5ed8c392b6c"
           },
           {
             "type": "paragraph",
@@ -874,7 +945,8 @@
                 "type": "text",
                 "text": "However, after Urakusai had been driven out, the Kitsune Saiguu would no longer dwell at the Grand Narukami Shrine, but would instead set up permanent residence at Tenshukaku."
               }
-            ]
+            ],
+            "id": "p-b4eec9439cf63326"
           },
           {
             "type": "paragraph",
@@ -883,7 +955,8 @@
                 "type": "text",
                 "text": "\"A disaster that will engulf heaven and earth is coming. My duty is to defend the people and protect our lord, and so I must go to the Shogun's side.\""
               }
-            ]
+            ],
+            "id": "p-d32032543d3bc301"
           },
           {
             "type": "paragraph",
@@ -912,7 +985,8 @@
                 "type": "text",
                 "text": "This time, Lady Saiguu left a third time. This time, she departed forever."
               }
-            ]
+            ],
+            "id": "p-88b0f9e21b404277"
           },
           {
             "type": "paragraph",
@@ -921,7 +995,8 @@
                 "type": "text",
                 "text": "Five centuries may seem long to mortals, but the joys and sorrows left by the things that happened during that time, whether to fleeting existences or enduring ones, are not easy to erase."
               }
-            ]
+            ],
+            "id": "p-f09b41ac4a68028f"
           }
         ]
       }

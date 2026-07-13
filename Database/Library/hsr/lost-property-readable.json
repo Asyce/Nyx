@@ -4,10 +4,11 @@
   "id": "lost-property-readable",
   "name": "Lost Property",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Lost_Property_(Readable)",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-3c79e81e10c0ca18"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -84,7 +87,8 @@
                 "type": "text",
                 "text": "1:7 And thus, all beings were categorized into reality and illusion. That marked the first day."
               }
-            ]
+            ],
+            "id": "p-f85c81abe4aeff7a"
           },
           {
             "type": "paragraph",
@@ -135,7 +139,8 @@
                 "type": "text",
                 "text": "1:14 That marked the second day."
               }
-            ]
+            ],
+            "id": "p-88c303469cde8aca"
           },
           {
             "type": "paragraph",
@@ -186,7 +191,8 @@
                 "type": "text",
                 "text": "1:21 That marked the third day."
               }
-            ]
+            ],
+            "id": "p-611bcd78cec330be"
           },
           {
             "type": "paragraph",
@@ -230,7 +236,8 @@
                 "type": "text",
                 "text": "1:27 That marked the fourth day."
               }
-            ]
+            ],
+            "id": "p-162676827d6d334f"
           },
           {
             "type": "paragraph",
@@ -274,7 +281,8 @@
                 "type": "text",
                 "text": "1:33 And so it was done. That marked the fifth day."
               }
-            ]
+            ],
+            "id": "p-b06dd99c69ba5403"
           },
           {
             "type": "paragraph",
@@ -311,7 +319,8 @@
                 "type": "text",
                 "text": "1:38 And so it was done. That marked the sixth day."
               }
-            ]
+            ],
+            "id": "p-8516e63c4373a036"
           },
           {
             "type": "paragraph",
@@ -355,7 +364,8 @@
                 "type": "text",
                 "text": "2:6 All humans rejoiced in a resounding ruckus, and the stars joined them in unison in that moment."
               }
-            ]
+            ],
+            "id": "p-9a0490cb76939296"
           },
           {
             "type": "paragraph",
@@ -364,7 +374,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "100-common-xianzhou-proverbs-for-outworlders",
   "name": "100 Common Xianzhou Proverbs for Outworlders",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/100_Common_Xianzhou_Proverbs_for_Outworlders",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "on-travel-arriving-at-the-xianzhou",
       "label": "On Travel: Arriving at the Xianzhou",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Scenario"
               }
-            ]
+            ],
+            "id": "p-1e4592e609a6da4c"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Glenn is an Outworlder traveler newly arrived at Xianzhou and she is already looking forward to life here. Passing through the Jade Gate, she arrives at the Starskiff Haven on the Xianzhou Luofu to meet her friend Han Meimei, whom she got to know over the internet. Though Glenn is well-versed in Xianzhou's unique culture and lifestyle amongst the Outworlders, actual life here is still quite different to what she had imagined. There are still plenty of surprises..."
               }
-            ]
+            ],
+            "id": "p-985daad86fa46249"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "Dialogue"
               }
-            ]
+            ],
+            "id": "p-7925a24754dde97d"
           },
           {
             "type": "paragraph",
@@ -74,7 +78,8 @@
                 "type": "text",
                 "text": "Han Meimei: \"And that is what we call 'one showing is worth a hundred sayings'!\""
               }
-            ]
+            ],
+            "id": "p-69e0aa34c97c34f4"
           },
           {
             "type": "paragraph",
@@ -83,7 +88,8 @@
                 "type": "text",
                 "text": "Idiom"
               }
-            ]
+            ],
+            "id": "p-783953c840b22dfe"
           },
           {
             "type": "paragraph",
@@ -97,7 +103,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-321461bc9ef1e4e0"
           },
           {
             "type": "paragraph",
@@ -120,7 +127,8 @@
                 "type": "text",
                 "text": "It can also be used to convey the idea that \"seeing something with your own eyes leaves a stronger impression than only hearing about it.\""
               }
-            ]
+            ],
+            "id": "p-c207a8c6c645b809"
           },
           {
             "type": "paragraph",
@@ -129,7 +137,8 @@
                 "type": "text",
                 "text": "Example Usage"
               }
-            ]
+            ],
+            "id": "p-23daf9046150286f"
           },
           {
             "type": "paragraph",
@@ -143,13 +152,15 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-46a1432a9fbefce0"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "on-travel-presenting-gifts",
       "label": "On Travel: Presenting Gifts",
       "document": {
         "version": 1,
@@ -161,7 +172,8 @@
                 "type": "text",
                 "text": "Scenario"
               }
-            ]
+            ],
+            "id": "p-1e4592e609a6da4c"
           },
           {
             "type": "paragraph",
@@ -170,7 +182,8 @@
                 "type": "text",
                 "text": "After Glenn completed the trade applications in the Palace of Astrum and successfully signed the trade agreements, she wanted to express her gratitude to Han Meimei, who had always supported and helped her. She had brought some snacks from her homeland and wanted to gift those to Han Meimei..."
               }
-            ]
+            ],
+            "id": "p-985adb162fff99c8"
           },
           {
             "type": "paragraph",
@@ -179,7 +192,8 @@
                 "type": "text",
                 "text": "Dialogue"
               }
-            ]
+            ],
+            "id": "p-7925a24754dde97d"
           },
           {
             "type": "paragraph",
@@ -216,7 +230,8 @@
                 "type": "text",
                 "text": "Han Meimei: \"Thank you. You're too kind.\""
               }
-            ]
+            ],
+            "id": "p-d234c1d4775eadb1"
           },
           {
             "type": "paragraph",
@@ -225,7 +240,8 @@
                 "type": "text",
                 "text": "Idiom"
               }
-            ]
+            ],
+            "id": "p-783953c840b22dfe"
           },
           {
             "type": "paragraph",
@@ -239,7 +255,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-1fc80cc72f138dd7"
           },
           {
             "type": "paragraph",
@@ -269,7 +286,8 @@
                 "type": "text",
                 "text": "The one receiving the gift usually should not use this idiom because it implies you are belittling the gift. That goes against the Xianzhou code of etiquette."
               }
-            ]
+            ],
+            "id": "p-850a345db758aac6"
           },
           {
             "type": "paragraph",
@@ -278,7 +296,8 @@
                 "type": "text",
                 "text": "Inappropriate Use"
               }
-            ]
+            ],
+            "id": "p-2184164ddcf4321e"
           },
           {
             "type": "paragraph",
@@ -292,13 +311,15 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-9e154c3576ad4cbf"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "on-work-life-in-the-workplace",
       "label": "On Work: Life in the Workplace",
       "document": {
         "version": 1,
@@ -310,7 +331,8 @@
                 "type": "text",
                 "text": "Scenario"
               }
-            ]
+            ],
+            "id": "p-1e4592e609a6da4c"
           },
           {
             "type": "paragraph",
@@ -319,7 +341,8 @@
                 "type": "text",
                 "text": "Claude is an Outworlder seeking employment at the Xianzhou, and was hired recently by Glenn as a foreign trade warehouse manager. He started his job of registering stock at the Trove of Verdure warehouses in Cloudford after passing his interview. However, as he frequently turned up late for work and was distracted during work hours, Glenn prepared to have a serious talk with him..."
               }
-            ]
+            ],
+            "id": "p-5794ab2f88c45457"
           },
           {
             "type": "paragraph",
@@ -328,7 +351,8 @@
                 "type": "text",
                 "text": "Dialogue"
               }
-            ]
+            ],
+            "id": "p-7925a24754dde97d"
           },
           {
             "type": "paragraph",
@@ -365,7 +389,8 @@
                 "type": "text",
                 "text": "Glenn: \"Deal. Your wish is my command.\""
               }
-            ]
+            ],
+            "id": "p-38724c5d78630792"
           },
           {
             "type": "paragraph",
@@ -374,7 +399,8 @@
                 "type": "text",
                 "text": "Idiom"
               }
-            ]
+            ],
+            "id": "p-783953c840b22dfe"
           },
           {
             "type": "paragraph",
@@ -388,7 +414,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-9ba753bdc1639826"
           },
           {
             "type": "paragraph",
@@ -411,7 +438,8 @@
                 "type": "text",
                 "text": "This idiom was originally a phrase of humility that can only be applied to oneself in the Xianzhou culture. In contrast, there are phrases of respect that can only be used on other people. When living at Xianzhou, one needs to be able to identify the differences between phrases of humility and respect, and avoid situations where the two types of terms are mixed up and misused."
               }
-            ]
+            ],
+            "id": "p-e7571ec9a743af63"
           },
           {
             "type": "paragraph",
@@ -420,7 +448,8 @@
                 "type": "text",
                 "text": "Inappropriate Use"
               }
-            ]
+            ],
+            "id": "p-2184164ddcf4321e"
           },
           {
             "type": "paragraph",
@@ -434,7 +463,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-0a7d6f1cf54262f3"
           }
         ]
       }

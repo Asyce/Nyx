@@ -4,10 +4,11 @@
   "id": "mommy-ricecake-take-me-with-you",
   "name": "Mommy Ricecake, Take Me With You",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Mommy_Ricecake,_Take_Me_With_You",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-09c57ebed459baf6"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "Today marks the graduation of Mommy Ricecake, the most gorgeous, adorable, and most irresistibly charming VStreamer in all of Planarcadia!"
               }
-            ]
+            ],
+            "id": "p-99c4964936007c6c"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "And with that, my youth ends as well."
               }
-            ]
+            ],
+            "id": "p-a20ef88d7e7b8bd2"
           },
           {
             "type": "paragraph",
@@ -51,7 +55,8 @@
                 "type": "text",
                 "text": "Today, Mommy Ricecake, a VStreamer signed with RiceCo Agency, has officially graduated after reaching 1 million subscribers on OrchTok. She must have given this a lot of thought herself."
               }
-            ]
+            ],
+            "id": "p-5ae1d3a26c9cc990"
           },
           {
             "type": "paragraph",
@@ -60,7 +65,8 @@
                 "type": "text",
                 "text": "Among her generation at RiceCo Agency, she debuted first and became the senior everyone looked up to. From the \"RiceCo Madwoman\" of her early days to the \"Innocent Princess\" of today... from the cavewoman of Duomension City to a true princess... We Ricecake fans have watched her every step. I'm sure many of us share the same confusion and regrets, but respecting her choice is probably the final act of support we can offer."
               }
-            ]
+            ],
+            "id": "p-0fe1eb9b295ba157"
           },
           {
             "type": "paragraph",
@@ -69,7 +75,8 @@
                 "type": "text",
                 "text": "I know that's the right thing to do, but, but... I just can't accept it."
               }
-            ]
+            ],
+            "id": "p-bdd5c2d310c0ab59"
           },
           {
             "type": "paragraph",
@@ -78,7 +85,8 @@
                 "type": "text",
                 "text": "Of course I know that streamers need their own lives. I get that no one can stream forever."
               }
-            ]
+            ],
+            "id": "p-a79a93a46b563125"
           },
           {
             "type": "paragraph",
@@ -87,7 +95,8 @@
                 "type": "text",
                 "text": "So, Mommy Ricecake, after you graduate... couldn't you just reincarnate and start streaming again?"
               }
-            ]
+            ],
+            "id": "p-25854f285afefcd0"
           },
           {
             "type": "paragraph",
@@ -96,7 +105,8 @@
                 "type": "text",
                 "text": "Mommy Ricecake... why did you graduate already!!!"
               }
-            ]
+            ],
+            "id": "p-12ebe9d3f21a4983"
           },
           {
             "type": "paragraph",
@@ -105,7 +115,8 @@
                 "type": "text",
                 "text": "You read my superchat just yesterday! You DO care about me! Don't you!!!"
               }
-            ]
+            ],
+            "id": "p-c81eace2f4dc69fe"
           },
           {
             "type": "paragraph",
@@ -114,7 +125,8 @@
                 "type": "text",
                 "text": "You didn't leave voluntarily, right!? It must be the IPC's conspiracy! The capitalists pulled the strings, didn't they!?"
               }
-            ]
+            ],
+            "id": "p-f2637db57a532545"
           },
           {
             "type": "paragraph",
@@ -123,7 +135,8 @@
                 "type": "text",
                 "text": "Those bigwigs don't understand how amazing you are. Only I do!!!"
               }
-            ]
+            ],
+            "id": "p-664caf6abaef4e70"
           },
           {
             "type": "paragraph",
@@ -132,7 +145,8 @@
                 "type": "text",
                 "text": "Don't be afraid! Tell us who wronged you! Your loyal fans will storm that *profanity* RiceCo Agency right away!!"
               }
-            ]
+            ],
+            "id": "p-348cb4ded226c228"
           },
           {
             "type": "paragraph",
@@ -141,7 +155,8 @@
                 "type": "text",
                 "text": "Without your streams, life's just not the same..."
               }
-            ]
+            ],
+            "id": "p-c911dbea251c2ee3"
           },
           {
             "type": "paragraph",
@@ -150,7 +165,8 @@
                 "type": "text",
                 "text": "Mommy Ricecake, please take me with you! I can't live without you!"
               }
-            ]
+            ],
+            "id": "p-6a993e4868ba6697"
           },
           {
             "type": "paragraph",
@@ -159,7 +175,8 @@
                 "type": "text",
                 "text": "You are my moon, the light of my life!"
               }
-            ]
+            ],
+            "id": "p-45011a2c06317a54"
           },
           {
             "type": "paragraph",
@@ -168,7 +185,8 @@
                 "type": "text",
                 "text": "I'm head over heels, crazy for you, and I'll headbutt the Amber Lord for you!"
               }
-            ]
+            ],
+            "id": "p-12cc96d0e115de52"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "arena-maintenance-log",
   "name": "Arena Maintenance Log",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Arena_Maintenance_Log",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -26,7 +27,8 @@
                 "type": "text",
                 "text": "Date: Year 3875 of the Light Calendar"
               }
-            ]
+            ],
+            "id": "p-ab4685bf8b84aa17"
           },
           {
             "type": "paragraph",
@@ -73,7 +75,8 @@
                 "type": "text",
                 "text": "3. The volcano is dormant, but the magma is still flowing"
               }
-            ]
+            ],
+            "id": "p-0e94585fe44bf366"
           },
           {
             "type": "paragraph",
@@ -120,7 +123,8 @@
                 "type": "text",
                 "text": "4. Contest Zone (0 to 200 feet above ground)"
               }
-            ]
+            ],
+            "id": "p-400cedc1138c1cc7"
           },
           {
             "type": "paragraph",
@@ -136,7 +140,8 @@
                 "type": "text",
                 "text": "The first accident happened in Year 3847 of the Light Calendar, when a gear in the elevator warped under the high heat and stopped the system. There were no casualties, but it was a lesson well-learned. Going forward, mountain copper was used to forge core components. It is a rare metal, but it remains stable under high temperatures."
               }
-            ]
+            ],
+            "id": "p-fb4e13a2754bd049"
           },
           {
             "type": "paragraph",
@@ -162,7 +167,8 @@
                 "type": "text",
                 "text": "After the accident, we used a detection pole to ascertain the waterways before drilling, and placed irrigation at key positions. The pipes were made from heat-resistant ceramic from the Ceramic Craftsmen's Guild in Castrum Kremnos."
               }
-            ]
+            ],
+            "id": "p-4cccf8dab67a6e1b"
           },
           {
             "type": "paragraph",
@@ -188,7 +194,8 @@
                 "type": "text",
                 "text": "However, during an accident in Year 3845 of the Light Calendar, the pipes burst, and the steam jet destroyed three statues and critically injured two craftsmen. Subsequent investigation showed that the pipes were fatigued under the constant heat. We switched to using an alloy of mountain copper and ordinary copper for pipes, and increased their durability."
               }
-            ]
+            ],
+            "id": "p-eca3a54f3ca5b194"
           },
           {
             "type": "paragraph",
@@ -214,7 +221,8 @@
                 "type": "text",
                 "text": "The special dome design should also be mentioned here: several hundred holes were drilled at the top, forming the spear of Nikador. When the sun shines through them, an image of the spear falls on the center of the altar."
               }
-            ]
+            ],
+            "id": "p-35a07eb2e5e81c46"
           },
           {
             "type": "paragraph",
@@ -240,7 +248,8 @@
                 "type": "text",
                 "text": "However, during a ceremony in Year 3829 of the Light Calendar, the system broke down and the greatsword was stuck in midair. The fight was already over, so there were no casualties. A detailed check showed that the impurities in the magma had blocked the transmission. Subsequently, a filter was added to the system with a rigorous maintenance procedure."
               }
-            ]
+            ],
+            "id": "p-c2abbc7ffe48d371"
           },
           {
             "type": "paragraph",
@@ -280,7 +289,8 @@
                 "type": "text",
                 "text": "4. The materials used to repair the cracks in the Contest Zone should be improved accordingly."
               }
-            ]
+            ],
+            "id": "p-c518d6cf2db1a799"
           },
           {
             "type": "paragraph",
@@ -299,7 +309,8 @@
                 "type": "text",
                 "text": "After many setbacks, the arena was completed during Year 2523 of the Light Calendar, which was more than a thousand years from now. Future Kremnos engineers should keep up with annual maintenance to repay Nikador's favor. This log is both a record and a warning, and may newcomers be inspired to improve arena maintenance and keep Nikador's glory aflame."
               }
-            ]
+            ],
+            "id": "p-62e4fc4c4ff1dcbb"
           },
           {
             "type": "paragraph",
@@ -313,7 +324,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-a3b51ded20315a16"
           }
         ]
       }

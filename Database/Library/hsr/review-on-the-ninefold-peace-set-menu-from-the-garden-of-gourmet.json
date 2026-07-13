@@ -4,10 +4,11 @@
   "id": "review-on-the-ninefold-peace-set-menu-from-the-garden-of-gourmet",
   "name": "Review on the Ninefold Peace set menu from the Garden of Gourmet",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Review_on_the_Ninefold_Peace_set_menu_from_the_Garden_of_Gourmet",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -28,7 +29,8 @@
                 "type": "text",
                 "text": "was a readable series aboard The Xianzhou Luofu."
               }
-            ]
+            ],
+            "id": "p-d9abc43cf2e65fc3"
           }
         ]
       }

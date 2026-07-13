@@ -4,17 +4,19 @@
   "id": "legend-of-the-shattered-halberd",
   "name": "Legend of the Shattered Halberd",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Legend_of_the_Shattered_Halberd",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -103,7 +105,8 @@
                 "type": "text",
                 "text": "\"Although the part about the Great and Glorious Gen... General, haha... Although that's made up, the bit about being here on official court... uh, business is not,\" the other Martial Artist chimed in to say."
               }
-            ]
+            ],
+            "id": "p-fd413b13ae6922d8"
           },
           {
             "type": "paragraph",
@@ -122,7 +125,8 @@
                 "type": "text",
                 "text": "However, a swordsmith by the name of Feng had taken it for himself and used it to illegally cast nine swords. It was said that the Ominous Swords were cursed by the meteorite and could drain people's intellect. Naturally, they had caused quite the stir in martial artists' circles."
               }
-            ]
+            ],
+            "id": "p-5a0a7a10ad8dd75f"
           },
           {
             "type": "paragraph",
@@ -161,7 +165,8 @@
                 "type": "text",
                 "text": "\"Officer Weiyang is a cultured lady of the court. Unlike us, she cannot resolve her pressing official business by simply finding a discrete spot in the wild. Please, hurry up!\""
               }
-            ]
+            ],
+            "id": "p-89cd0d1510b6f57a"
           },
           {
             "type": "paragraph",
@@ -190,20 +195,23 @@
                 "type": "text",
                 "text": "\"My father, Mi Tingren, was Minister of Imperial Banquets. He was framed for embezzlement of funds intended for the imperial cuisine. He then resigned from his post and returned home.\" Mir paused to scratch his chin before continuing, \"My old man's not been himself ever since that happened. I still intend to go back to the court one day and clear the Mi family name.\""
               }
-            ]
+            ],
+            "id": "p-e573bfe9faf09eeb"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -282,7 +290,8 @@
                 "type": "text",
                 "text": "Since the Court of Imperial Entertainments was responsible for sacrifices and offerings, Mir's father had forced him to learn every last detail and word uttered in every known court ritual. And because most rituals involved encounters with bizarre forces and temperamental deities, he also knew a thing or two about how to deal with them. For instance, he knew that deities tended to guard their names closely, for knowledge of a deity's true name allows a human being to exercise absolute control over them. So he wasn't convinced this one had simply forgotten her name."
               }
-            ]
+            ],
+            "id": "p-8a39bcf7cfc6dc6d"
           },
           {
             "type": "paragraph",
@@ -311,7 +320,8 @@
                 "type": "text",
                 "text": "\"So what's the next step? Do I have to perform some sort of farewell ceremony for you?\" Mir stroked the bandaged and sightless eye. \"And then do I get my eye back?\""
               }
-            ]
+            ],
+            "id": "p-a378dfd36b02ad39"
           },
           {
             "type": "paragraph",
@@ -360,20 +370,23 @@
                 "type": "text",
                 "text": "\"You do not need to go with me. But with the fate of all living things at stake, please allow me to hold on to your eyeball for the time being.\""
               }
-            ]
+            ],
+            "id": "p-8398ba3c405be353"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "vol-3",
       "label": "Vol. 3",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -452,7 +465,8 @@
                 "type": "text",
                 "text": "— At least, that's what Mir thought. But he also thought it was better to keep that part to himself."
               }
-            ]
+            ],
+            "id": "p-ac0471730e0f802a"
           },
           {
             "type": "paragraph",
@@ -551,20 +565,23 @@
                 "type": "text",
                 "text": "An unusually stern expression appeared on Weiyang's face. \"Is this not your sworn duty?\""
               }
-            ]
+            ],
+            "id": "p-f7548c5bf90f400e"
           }
         ]
       }
     },
     {
       "id": "4",
+      "volumeKey": "vol-4",
       "label": "Vol. 4",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -643,7 +660,8 @@
                 "type": "text",
                 "text": "The warrior from the east raised the Ominous Sword. \"Is because I am a warrior of Hunt From Above made flesh...\" Legend has it that the Celestial Emperor once went to war with the Asura. To prepare for the war, the Celestial Emperor selected soldiers from three realms and made them ascend to become his celestial army after death. Sometimes, they were beset by inclement weather on the marsh, with thundercloud tornadoes surrounding them. The people of Zhongzhou referred to it as the soldiers of the celestial army \"hunting from above.\""
               }
-            ]
+            ],
+            "id": "p-b1d83605d87c21a8"
           },
           {
             "type": "paragraph",
@@ -672,7 +690,8 @@
                 "type": "text",
                 "text": "The sword had extinguished after the world was burned, but having assimilated the rune of the fire realm, it burned bright once more."
               }
-            ]
+            ],
+            "id": "p-e1709c7c41c97be0"
           },
           {
             "type": "paragraph",
@@ -681,20 +700,23 @@
                 "type": "text",
                 "text": "\"The whole world... destroyed again...\" Weiyang fell unconscious as she spoke."
               }
-            ]
+            ],
+            "id": "p-62ab697190abb829"
           }
         ]
       }
     },
     {
       "id": "5",
+      "volumeKey": "vol-5",
       "label": "Vol. 5",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -863,7 +885,8 @@
                 "type": "text",
                 "text": "But that was fine."
               }
-            ]
+            ],
+            "id": "p-735676d09296ff8a"
           },
           {
             "type": "paragraph",
@@ -872,20 +895,23 @@
                 "type": "text",
                 "text": "She was gone, and his eye was restored. But to this day there was still a dull ache, like the phantom pain of a missing limb."
               }
-            ]
+            ],
+            "id": "p-7a1aa9dd779778e2"
           }
         ]
       }
     },
     {
       "id": "6",
+      "volumeKey": "vol-6",
       "label": "Vol. 6",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -904,7 +930,8 @@
                 "type": "text",
                 "text": "\"Oh my daughter, the one in whom all my hopes are placed! Did I not bring you into existence that you might one day pierce me with a halberd?\" Awakened at last, the God King floated in the heavens to the claps of thunder and the dancing of the wind, rejoicing at his return."
               }
-            ]
+            ],
+            "id": "p-aab564239654ffb4"
           },
           {
             "type": "paragraph",
@@ -923,7 +950,8 @@
                 "type": "text",
                 "text": "No — that was not it. The true source of her courage was the time she had spent with him."
               }
-            ]
+            ],
+            "id": "p-5ca1d459a2119466"
           },
           {
             "type": "paragraph",
@@ -932,7 +960,8 @@
                 "type": "text",
                 "text": "The first Divine Halberd, Irmin, once pierced the Axis Mundi and connected the nine worlds. Now, its replicas had proliferated across the heavens."
               }
-            ]
+            ],
+            "id": "p-05ed6aae4c32723a"
           },
           {
             "type": "paragraph",
@@ -941,7 +970,8 @@
                 "type": "text",
                 "text": "Fearing the madness that would ensue following his death, the God King made one final Divine Halberd, and named it the Prinzessin der Verurteilung. In this moment, it — nay, she — could finally unleash her true self."
               }
-            ]
+            ],
+            "id": "p-2bce099a7f4e3cea"
           },
           {
             "type": "paragraph",
@@ -950,7 +980,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -959,7 +990,8 @@
                 "type": "text",
                 "text": "A commentary from the editor appears at the end of the book:"
               }
-            ]
+            ],
+            "id": "p-f8f7a542382dc000"
           },
           {
             "type": "paragraph",
@@ -988,7 +1020,8 @@
                 "type": "text",
                 "text": "I hope."
               }
-            ]
+            ],
+            "id": "p-3037f8099a9707ea"
           },
           {
             "type": "paragraph",
@@ -997,7 +1030,8 @@
                 "type": "text",
                 "text": "Though the ending reads like a different story entirely, I must stress that this did not arise from any attempt on our part to pressurize Mr. Nine, the author, into developing material for a new series. The truth is that in his rush to meet the publishing schedule, Mr. Nine ended up diverging somewhat from his usual style. Mr. Nine simply wished to challenge himself as a writer. ♡"
               }
-            ]
+            ],
+            "id": "p-00351e1ce7ce9445"
           },
           {
             "type": "paragraph",
@@ -1006,7 +1040,8 @@
                 "type": "text",
                 "text": "Naturally, we are sympathetic to the fans of the original First Five volumes. In this spirit, we would like to announce that a special First Five collector's edition, the Blackwood Box Set, is currently in the making. Those who have grown up reading Legend of the Shattered Halberd in bookstores: this is the time to finally buy it for yourself! Also, expect to hear more tales of the Prinzessin der Verurteilung in the future."
               }
-            ]
+            ],
+            "id": "p-dc7f64ecdcb050ae"
           },
           {
             "type": "paragraph",
@@ -1015,7 +1050,8 @@
                 "type": "text",
                 "text": "Chief Editor, Yae Publishing House"
               }
-            ]
+            ],
+            "id": "p-4a16f68277f47222"
           }
         ]
       }

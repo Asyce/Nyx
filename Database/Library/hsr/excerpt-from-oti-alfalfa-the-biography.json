@@ -4,10 +4,11 @@
   "id": "excerpt-from-oti-alfalfa-the-biography",
   "name": "Excerpt from Oti Alfalfa: The Biography",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Excerpt_from_Oti_Alfalfa:_The_Biography",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "All dreamchasers are familiar with this name: Oti Alfalfa."
               }
-            ]
+            ],
+            "id": "p-541cb481f781a92b"
           },
           {
             "type": "paragraph",
@@ -50,7 +53,8 @@
                 "type": "text",
                 "text": "for external analysis."
               }
-            ]
+            ],
+            "id": "p-0c382347ec083643"
           },
           {
             "type": "paragraph",
@@ -59,7 +63,8 @@
                 "type": "text",
                 "text": "This world never lacks brilliant or innovative minds, yet only a few selected business luminaries can blaze trails and set business trends with their insight and foresight. Among them, Oti Alfalfa is the most outstanding one."
               }
-            ]
+            ],
+            "id": "p-3e4cf21b9ac6b047"
           },
           {
             "type": "paragraph",
@@ -68,7 +73,8 @@
                 "type": "text",
                 "text": "Despite his tiny stature as a Pepeshi, Oti Alfalfa intimidates all at the negotiating table through his sheer presence."
               }
-            ]
+            ],
+            "id": "p-d27640e89d2cfb95"
           },
           {
             "type": "paragraph",
@@ -77,7 +83,8 @@
                 "type": "text",
                 "text": "Even with the ever-changing leadership within the Five Families, he remains at the helm of the Alfalfa Family."
               }
-            ]
+            ],
+            "id": "p-75bc6082fc16f6f6"
           },
           {
             "type": "paragraph",
@@ -86,7 +93,8 @@
                 "type": "text",
                 "text": "While his public appearances have become rare, his insights and wisdom continue to intrigue those eager for wealth."
               }
-            ]
+            ],
+            "id": "p-d010b03f89507039"
           },
           {
             "type": "paragraph",
@@ -95,7 +103,8 @@
                 "type": "text",
                 "text": "Oti Alfalfa is a mystery that enthralls those keen on investment. Thankfully, he is well known for his generosity, as evidenced by his declaration on the honors day of Fortune Academy: \"Equality reigns supreme in the face of opportunity.\""
               }
-            ]
+            ],
+            "id": "p-d9ed50897edaf81c"
           },
           {
             "type": "paragraph",
@@ -104,7 +113,8 @@
                 "type": "text",
                 "text": "Here are the keys to success as articulated by Oti Alfalfa himself:"
               }
-            ]
+            ],
+            "id": "p-cec58d3da854943f"
           },
           {
             "type": "paragraph",
@@ -113,7 +123,8 @@
                 "type": "text",
                 "text": "1. Trust your instincts. No models can precisely predict when the tides will turn, and all you can rely on is your experience and intellect. Don't get swayed by any \"insider information.\" Always trust your judgment and have faith in yourself."
               }
-            ]
+            ],
+            "id": "p-3b32836a9be2ec39"
           },
           {
             "type": "paragraph",
@@ -122,7 +133,8 @@
                 "type": "text",
                 "text": "2. Accumulating wealth requires solid knowledge in mathematics and economics, but achieving success does not. Calculations may elevate you to the upper echelons, but to surpass all, you need insights. Knowledge in psychology and sociology might help you achieve your target."
               }
-            ]
+            ],
+            "id": "p-188b75d473dfc82a"
           },
           {
             "type": "paragraph",
@@ -131,7 +143,8 @@
                 "type": "text",
                 "text": "3. Always stay attuned to market trends, and never isolate yourself from the bigger world, because figures and reports aren't everything. Spend less time in your office. Go out and look at what's happening on the streets. Go talk to the people living there."
               }
-            ]
+            ],
+            "id": "p-577b55bc2d186053"
           },
           {
             "type": "paragraph",
@@ -140,7 +153,8 @@
                 "type": "text",
                 "text": "4. Stay committed to your path. Once you have made a decision, perseverance is the key."
               }
-            ]
+            ],
+            "id": "p-46fe72ea3f349ce3"
           },
           {
             "type": "paragraph",
@@ -149,7 +163,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -158,7 +173,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

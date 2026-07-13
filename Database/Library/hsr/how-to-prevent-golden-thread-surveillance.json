@@ -4,10 +4,11 @@
   "id": "how-to-prevent-golden-thread-surveillance",
   "name": "How to Prevent Golden Thread Surveillance",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/How_to_Prevent_Golden_Thread_Surveillance",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "In recent years, the Council of Elders' intentions have often been exposed due to the golden thread's eavesdropping. It is imperative that we find effective countermeasures."
               }
-            ]
+            ],
+            "id": "p-d0f40749eaf3d922"
           },
           {
             "type": "paragraph",
@@ -63,7 +65,8 @@
                 "type": "text",
                 "text": "Coded Phrases: Layer true intentions beneath seemingly innocuous statements, ensuring only those within the circle can decipher them. Example: \"The place where we met ten years ago is now filled with brooms.\""
               }
-            ]
+            ],
+            "id": "p-4b931228d81f30fa"
           },
           {
             "type": "paragraph",
@@ -107,7 +110,8 @@
                 "type": "text",
                 "text": "Wooden Shears: The powers of Mnestia and Cerces do not conflict. Using branches from the Grove, one may craft wooden shears capable of cutting the Golden Threads before they are even aware of the act."
               }
-            ]
+            ],
+            "id": "p-4326eb6d28525101"
           },
           {
             "type": "paragraph",
@@ -151,7 +155,8 @@
                 "type": "text",
                 "text": "Filth: Though effective, this method carries a strong stench and is rather undignified. Use with caution."
               }
-            ]
+            ],
+            "id": "p-c46aef93e771cc7e"
           },
           {
             "type": "paragraph",
@@ -160,7 +165,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -179,7 +185,8 @@
                 "type": "text",
                 "text": "Yet, we cannot rule out the possibility that even as we write these very words, the golden threads have not spared us..."
               }
-            ]
+            ],
+            "id": "p-26735b98ef4f5dfd"
           },
           {
             "type": "paragraph",
@@ -188,7 +195,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

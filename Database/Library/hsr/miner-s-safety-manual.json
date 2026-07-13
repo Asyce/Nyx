@@ -4,10 +4,11 @@
   "id": "miner-s-safety-manual",
   "name": "Miner's Safety Manual",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Miner%27s_Safety_Manual",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,11 +25,13 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-29197dc56732ed1b"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "1. Before entering the mine shaft, make sure you are fully refreshed and feeling good. Consumption of food or drinks that may impair bodily functions are strictly prohibited."
               }
-            ]
+            ],
+            "id": "p-50ad8ce9f2df8585"
           },
           {
             "type": "paragraph",
@@ -200,7 +204,8 @@
                 "type": "text",
                 "text": "(v) You see smoke."
               }
-            ]
+            ],
+            "id": "p-0e5aeabc97af335e"
           },
           {
             "type": "paragraph",
@@ -293,7 +298,8 @@
                 "type": "text",
                 "text": "13. After the blasting operation is complete, all the explosive devices shall be counted and returned in strict accordance with the return process for explosive devices. An appropriate inventory shall be made."
               }
-            ]
+            ],
+            "id": "p-d9104fb89626db32"
           },
           {
             "type": "paragraph",
@@ -307,7 +313,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-38e5586437d175fb"
           }
         ]
       }

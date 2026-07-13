@@ -4,10 +4,11 @@
   "id": "rangi-nui-s-end",
   "name": "Rangi Nui's End",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Rangi_Nui%27s_End",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
@@ -68,7 +69,8 @@
                 "type": "text",
                 "text": "Such is Rangi Nui's End."
               }
-            ]
+            ],
+            "id": "p-9371bead72ecdb1c"
           },
           {
             "type": "paragraph",
@@ -161,7 +163,8 @@
                 "type": "text",
                 "text": "Then down to dark Uropi, the depths of the forest..."
               }
-            ]
+            ],
+            "id": "p-168a5d3a12f1a84d"
           },
           {
             "type": "paragraph",
@@ -247,7 +250,8 @@
                 "type": "text",
                 "text": "Wo-ho! Wo-ho!"
               }
-            ]
+            ],
+            "id": "p-3c296602dc69727d"
           },
           {
             "type": "paragraph",
@@ -291,7 +295,8 @@
                 "type": "text",
                 "text": "And on a shore overgrown with tendrils, conclude my final journey."
               }
-            ]
+            ],
+            "id": "p-2da43dfd77e33816"
           },
           {
             "type": "paragraph",
@@ -349,7 +354,8 @@
                 "type": "text",
                 "text": "And I shall gather my tribespeople and friends, and we shall go there together."
               }
-            ]
+            ],
+            "id": "p-abdbb8019c190e39"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "unsent-letter",
   "name": "Unsent Letter",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Unsent_Letter",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "part-i",
       "label": "Part I",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-e9fd857a218f6aa4"
           },
           {
             "type": "paragraph",
@@ -40,7 +42,8 @@
                 "type": "text",
                 "text": "By the time you receive this letter, the gifts I asked Betty to take home should also have arrived."
               }
-            ]
+            ],
+            "id": "p-b6e8a0b4f7247926"
           },
           {
             "type": "paragraph",
@@ -49,7 +52,8 @@
                 "type": "text",
                 "text": "I'm afraid I can't come back to celebrate your birthday this year. The work here at the army is just too much, and I can't take a holiday."
               }
-            ]
+            ],
+            "id": "p-3d3cf3c10f738451"
           },
           {
             "type": "paragraph",
@@ -58,7 +62,8 @@
                 "type": "text",
                 "text": "However, rest assured. We are pretty far from the front line, so we are quite safe. The Supreme Guardian herself has also been here commanding the troops for the past few months. Everyone is working at their posts, so I can't really sneak off on my own."
               }
-            ]
+            ],
+            "id": "p-76db10a2952a6c7e"
           },
           {
             "type": "paragraph",
@@ -67,7 +72,8 @@
                 "type": "text",
                 "text": "Mom, I'm dreaming a lot about when I was just a child. I remember how I complained you always came off work so late and didn't pay any attention to our family. What did you say to me then? You said \"It is my responsibility,\" but I didn't understand it. Now, Belobog is facing a crisis that is growing more and more dire, and I finally understood the responsibility an \"Architect\" should carry. As the war worsened, I actually join an unannounced big project recently. Sorry, Mom, I can't tell you what it is even though you work for the design institute. I can only say it involves the most majestic creation of the Architects that I have ever seen. I'm lucky as it is to be a part of the team. Wow, I never thought there'd be a day when I'd feel so proud of my job..."
               }
-            ]
+            ],
+            "id": "p-d9e89cec8a4eb6f1"
           },
           {
             "type": "paragraph",
@@ -76,7 +82,8 @@
                 "type": "text",
                 "text": "I wish you could see it in action. I swear any enemy would be stricken by paralyzing fear by the mere sight of it. However, the Supreme Guardian said this creation would only be activated if Belobog stands at the brink of destruction. In that case, I wish you never get to know what we're making."
               }
-            ]
+            ],
+            "id": "p-d45ab9e705850c0a"
           },
           {
             "type": "paragraph",
@@ -85,7 +92,8 @@
                 "type": "text",
                 "text": "Anyways, let's talk about something else — The command center was completed last month and our goods were gradually being moved in. I put a pot of solarflower on my desk and it's growing pretty well. Every time I looked at it, I'd think about the flowers in our living room. How are they doing? You also liked to knit while sitting next to the window. Do you still do that, now the Eternal Freeze is getting worse? The gift I asked Betty take back is to protect your knees. You always said your knees hurt in cold weather. I know a few Silvermanes here who just got back from their mission, and they got some wolf manes made into a knee pad. Please remember to use them."
               }
-            ]
+            ],
+            "id": "p-8499eeecacccbe8b"
           },
           {
             "type": "paragraph",
@@ -101,13 +109,15 @@
                 "type": "text",
                 "text": "Love, Lana"
               }
-            ]
+            ],
+            "id": "p-b357b03a8c7dc84c"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "part-ii",
       "label": "Part II",
       "document": {
         "version": 1,
@@ -124,7 +134,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-e9fd857a218f6aa4"
           },
           {
             "type": "paragraph",
@@ -133,7 +144,8 @@
                 "type": "text",
                 "text": "Betty:"
               }
-            ]
+            ],
+            "id": "p-12be9545feeba037"
           },
           {
             "type": "paragraph",
@@ -142,7 +154,8 @@
                 "type": "text",
                 "text": "I got Larry to make a wolf mane knee pad. Do remember to go to his house and get it off him. He hurt his leg and can't go to the front lines anymore. Remember to take some gifts with you when you go, and remember to say thank you to him! Don't act like we have no manners in this family."
               }
-            ]
+            ],
+            "id": "p-dac6dd5f58bc6caf"
           },
           {
             "type": "paragraph",
@@ -151,7 +164,8 @@
                 "type": "text",
                 "text": "I won't be able to come back for a long time. I was checking the fortifications in the trenches a few days ago and got injured. It's not a big deal, so don't tell Mom just yet. I don't want her to overthink things. I told her that I've been in the Command Center all this time."
               }
-            ]
+            ],
+            "id": "p-19cc8e580eb119b8"
           },
           {
             "type": "paragraph",
@@ -160,7 +174,8 @@
                 "type": "text",
                 "text": "I was so busy for the past while, and only got around to writing to you now I'm resting around the Command Center. Annie talked to me about how you've been lately. You are really doing so well. You stayed home to look after Mom and are managing your studies at the same time. That really is a lot of responsibility. As your older sister, I'm so sorry that I can't look after you when you need it most."
               }
-            ]
+            ],
+            "id": "p-23805dad318c0594"
           },
           {
             "type": "paragraph",
@@ -169,7 +184,8 @@
                 "type": "text",
                 "text": "I've seen so much death out here, so for the past while I've been thinking... well, it's not impossible that I might pass away myself. If that does happen, then our family is in your hands. Look after Mom and yourself. I left some money in the house with my savings from my previous job. I hid it in your wardrobe in THAT spot — You know what I'm talking about. Don't be too hard on yourself if you want to buy something. I trust that you won't waste the money."
               }
-            ]
+            ],
+            "id": "p-12a51f013ad6cb7a"
           },
           {
             "type": "paragraph",
@@ -178,7 +194,8 @@
                 "type": "text",
                 "text": "Although I feel like I don't need to nag you again, but Betty, please don't get upset with Mom. She is just that kind of person, right? Just give in to her a little."
               }
-            ]
+            ],
+            "id": "p-c20e396017f378a3"
           },
           {
             "type": "paragraph",
@@ -204,7 +221,8 @@
                 "type": "text",
                 "text": "Lana"
               }
-            ]
+            ],
+            "id": "p-84f113be7271597e"
           }
         ]
       }

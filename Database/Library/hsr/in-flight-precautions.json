@@ -4,10 +4,11 @@
   "id": "in-flight-precautions",
   "name": "In-Flight Precautions",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/In-Flight_Precautions",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -26,7 +27,8 @@
                 "type": "text",
                 "text": "All crew on board the Radiant Feldspar must strictly abide by the code of conduct to ensure the safety of all tourists. Violators will be severely punished."
               }
-            ]
+            ],
+            "id": "p-d469e2587245616e"
           },
           {
             "type": "paragraph",
@@ -35,7 +37,8 @@
                 "type": "text",
                 "text": "1. Always remember that you are an employee of the Radiant Feldspar. Know your direct superior and remember that the captain has the final say on any situation that crops up. Keep a cool head at all times and never get into a fight with others."
               }
-            ]
+            ],
+            "id": "p-9bb264697e1e7c91"
           },
           {
             "type": "paragraph",
@@ -44,7 +47,8 @@
                 "type": "text",
                 "text": "2. Memorize all functional zones and the corridors that connect them. Stay only in the area that you work in. In the event that you notice an area you've never seen on the airship before (e.g. ancient-looking study, prison cell, and elevators), do not enter the area and contact the Psyche Purification Office immediately. Make sure to isolate yourself for 24 system hours."
               }
-            ]
+            ],
+            "id": "p-859cf411f0da23b6"
           },
           {
             "type": "paragraph",
@@ -53,7 +57,8 @@
                 "type": "text",
                 "text": "3. Warn passengers on board the airship against staring into the depths of the Memory Zone for long periods of time. If passengers are found teetering, screaming, or suffering from flickering at the edge of their beings while near the airship railings, avoid all eye contact with these passengers and call in the Psyche Purification Office immediately."
               }
-            ]
+            ],
+            "id": "p-01814c2075ea065e"
           },
           {
             "type": "paragraph",
@@ -62,7 +67,8 @@
                 "type": "text",
                 "text": "4. Never discuss or spread rumors about ghost ships. Make a note of all who try to talk to you about the ghost ship, and check if they possess a tongue."
               }
-            ]
+            ],
+            "id": "p-1a886caf396339bb"
           },
           {
             "type": "paragraph",
@@ -71,7 +77,8 @@
                 "type": "text",
                 "text": "5. If they do not have a tongue, craftily lead them to the stern of the Radiant Feldspar and hand them over to professionals to take over from there. Leave immediately and never look back, no matter what you hear behind you."
               }
-            ]
+            ],
+            "id": "p-0fa63b4c3b2dfd26"
           },
           {
             "type": "paragraph",
@@ -80,7 +87,8 @@
                 "type": "text",
                 "text": "6. Visit the Psyche Purification Office for regular checkups, especially after hull maintenance."
               }
-            ]
+            ],
+            "id": "p-1f754f36dddec470"
           },
           {
             "type": "paragraph",
@@ -96,7 +104,8 @@
                 "type": "text",
                 "text": "This manual is only for internal circulation! If you find this lying anywhere, please deliver it to the captain's office."
               }
-            ]
+            ],
+            "id": "p-dc4fedb803e20ec9"
           },
           {
             "type": "paragraph",
@@ -112,7 +121,8 @@
                 "type": "text",
                 "text": "All rights reserved. Any unauthorized copying, reproduction, and duplication is strictly prohibited."
               }
-            ]
+            ],
+            "id": "p-7230ec67f72539e8"
           }
         ]
       }

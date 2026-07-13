@@ -4,10 +4,11 @@
   "id": "handwritten-planting-manual",
   "name": "Handwritten Planting Manual",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Handwritten_Planting_Manual",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -26,7 +27,8 @@
                 "type": "text",
                 "text": "This manual is certified by the Village Committee of Aedes Elysiae, embodying the collective wisdom of generations, blessed by the Oronyx Altar. May all readers approach with reverence, use this knowledge wisely, and live in harmony with the earth."
               }
-            ]
+            ],
+            "id": "p-8f0f0bcd331c1b35"
           },
           {
             "type": "paragraph",
@@ -49,7 +51,8 @@
                 "type": "text",
                 "text": "By Georios's grace, our village's finest soil is located southwest of the altar, extending to the forest's edge where the white flowers bloom. This blessed land yields two harvests yearly, producing heavy, plump ears of wheat."
               }
-            ]
+            ],
+            "id": "p-70335f1ba91ac45b"
           },
           {
             "type": "paragraph",
@@ -72,7 +75,8 @@
                 "type": "text",
                 "text": "The main channel requires annual dredging during the Month of Fortune to prevent blockage. The collected silt, once dried, creates premium fertilizer, particularly beneficial for flower gardens."
               }
-            ]
+            ],
+            "id": "p-b40d44e493766060"
           },
           {
             "type": "paragraph",
@@ -95,7 +99,8 @@
                 "type": "text",
                 "text": "Water allocation follows the village committee's agreement: wheat fields receive priority during the Month of Cultivation, flower fields during the Month of Joy, and equal distribution in remaining months. Drought conditions necessitate special arrangements."
               }
-            ]
+            ],
+            "id": "p-17c12414ceef9ffb"
           },
           {
             "type": "paragraph",
@@ -132,7 +137,8 @@
                 "type": "text",
                 "text": "Grain filling period: Water moderately to prevent crop lodging"
               }
-            ]
+            ],
+            "id": "p-3ba91c25978fa92f"
           },
           {
             "type": "paragraph",
@@ -169,7 +175,8 @@
                 "type": "text",
                 "text": "Note: Always consider Aquila's mood (cloud formations) when scheduling irrigation. If clouds appear dense and mountainous, postpone watering to avoid potential flood damage from imminent rainfall."
               }
-            ]
+            ],
+            "id": "p-6b2e6b65ced6ad45"
           },
           {
             "type": "paragraph",
@@ -255,7 +262,8 @@
                 "type": "text",
                 "text": "Mark each field's rotation year using stone pillars carved with appropriate symbols along field borders. The Cultivation Manager oversees this system to prevent errors."
               }
-            ]
+            ],
+            "id": "p-60f2bfe72edc9d10"
           },
           {
             "type": "paragraph",
@@ -278,7 +286,8 @@
                 "type": "text",
                 "text": "Redraw boundary lines every three years to maintain clear borders despite soil erosion. Place a Bronze Coin beneath each boundary stone as a symbol of Talanton's impartial justice."
               }
-            ]
+            ],
+            "id": "p-1cae263f633691f2"
           },
           {
             "type": "paragraph",
@@ -301,7 +310,8 @@
                 "type": "text",
                 "text": "Plant aromatic herbs like mint and mugwort around fallow field perimeters to discourage pests. Strictly prohibit livestock grazing on fallow fields to preserve soil structure integrity."
               }
-            ]
+            ],
+            "id": "p-cd100d548a94d6ae"
           },
           {
             "type": "paragraph",
@@ -345,7 +355,8 @@
                 "type": "text",
                 "text": "Turn the contents weekly to ensure thorough decomposition. Well-matured compost appears dark brown, feels warm to touch, and emits an earthy aroma without any foul smell."
               }
-            ]
+            ],
+            "id": "p-9682cf72a3587e4d"
           },
           {
             "type": "paragraph",
@@ -389,7 +400,8 @@
                 "type": "text",
                 "text": "A small quantity of dew collected from the Oronyx Altar"
               }
-            ]
+            ],
+            "id": "p-923d35006d101a74"
           },
           {
             "type": "paragraph",
@@ -433,7 +445,8 @@
                 "type": "text",
                 "text": "Apply within half an hour of opening and avoid Aquila's intense midday sun to preserve nutrient potency."
               }
-            ]
+            ],
+            "id": "p-e7ef54a3906f8710"
           },
           {
             "type": "paragraph",
@@ -477,7 +490,8 @@
                 "type": "text",
                 "text": "Allow to steep for seven days, then dilute to one-tenth strength before application. Caution: The concentrated solution will burn plants if applied directly."
               }
-            ]
+            ],
+            "id": "p-dc26d9d4163e6fd7"
           },
           {
             "type": "paragraph",
@@ -528,7 +542,8 @@
                 "type": "text",
                 "text": "During the ceremony, the priest immerses the seeds in water as the congregation joins in reciting sacred prayers."
               }
-            ]
+            ],
+            "id": "p-82b172854518fb53"
           },
           {
             "type": "paragraph",
@@ -551,7 +566,8 @@
                 "type": "text",
                 "text": "Processions must proceed clockwise, following Aquila's celestial path. The priest carries a long willow branch, softly sweeping it across the wheat, a symbolic act of nurturing growth."
               }
-            ]
+            ],
+            "id": "p-22fa98506e3b60ac"
           },
           {
             "type": "paragraph",
@@ -574,7 +590,8 @@
                 "type": "text",
                 "text": "As the final cart of wheat enters the village, residents form a double line, celebrating with songs and dances. Each family prepares small cakes from newly harvested wheat and presents them at the Oronyx Altar. Following the priest's blessing, these cakes are shared among all, a celebration of abundance and community spirit."
               }
-            ]
+            ],
+            "id": "p-e489b21c1eaf4f5c"
           },
           {
             "type": "paragraph",
@@ -597,7 +614,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-9d83734f8d369042"
           }
         ]
       }

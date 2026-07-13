@@ -4,10 +4,11 @@
   "id": "letter-from-fu-xuan-to-scholar-yaakob",
   "name": "Letter from Fu Xuan to Scholar Yaakob",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Letter_from_Fu_Xuan_to_Scholar_Yaakob",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Dear Scholar Yaakob,"
               }
-            ]
+            ],
+            "id": "p-9431c918767ee5d8"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "I hope this letter finds you well."
               }
-            ]
+            ],
+            "id": "p-4299e9a3423f6383"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "The observation data you provided for the Luofu has reduced the casualties in Operation Nandikwa by at least 70%. I would like to express my sincere gratitude to you on behalf of the Luofu's Six Charioteers."
               }
-            ]
+            ],
+            "id": "p-99c095e44f670072"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "As stipulated in the agreement signed by the Six Charioteers, I will share a part of the technical writings on the Matrix of Prescience Ultima with you. To express my sincerity, I will give a brief explanation in a manner that is understandable to the guild."
               }
-            ]
+            ],
+            "id": "p-5d2286975d8c7af2"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "I believe the guild is aware that the Chaos System is an insurmountable hurdle when it comes to predicting the future. All predictions boil down to predictions on a certain type of Chaos, but Chaos itself is unpredictable. Any tiny disturbances, whether caused by changes in weather or the three-body problem, may result in fatal deviations in the prediction outcomes."
               }
-            ]
+            ],
+            "id": "p-33a82c58b8f7e3cf"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "The creators of Matrix of Prescience Ultima sought inspiration from the Wisdomwalker and used the idea to predict the future: there is a constant and conclusive disturbance factor behind all predictions — the observation itself. To put it simply, when we are observing a Chaos System, our observation itself will affect the final operation of the system."
               }
-            ]
+            ],
+            "id": "p-fa7e356a065575cb"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "Now, if we treat the observation as a variable, as in observing our observations, we can derive an outcome that is as accurate as possible."
               }
-            ]
+            ],
+            "id": "p-c9edb1560d1e2cda"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "Well, that is what the creators planned to do initially. When they put the amazing machine to use, something beyond everyone's comprehension occurred."
               }
-            ]
+            ],
+            "id": "p-74d1f616e588a279"
           },
           {
             "type": "paragraph",
@@ -91,7 +100,8 @@
                 "type": "text",
                 "text": "The phenomenon is described more accurately in the attachment with the use of mathematical terms, but I will give a simple explanation here (which may be inaccurate): When the Matrix of Prescience Ultima observes an observation, the future it observes will come toward us and reveal itself from Chaos, though it only has a rough framework."
               }
-            ]
+            ],
+            "id": "p-e367c06e9db91eac"
           },
           {
             "type": "paragraph",
@@ -100,7 +110,8 @@
                 "type": "text",
                 "text": "Or let us explain it less rigorously in terms of physics: When we don't observe the future, the future that has not happened does not exist, just like the past that has happened. But if we observe the future, the future will happen in the way we observe it."
               }
-            ]
+            ],
+            "id": "p-5e7f9f5f892b75c9"
           },
           {
             "type": "paragraph",
@@ -109,7 +120,8 @@
                 "type": "text",
                 "text": "Let me be more straightforward here — the way the Matrix of Prescience Ultima operates is like a black box. We know that we can derive a frighteningly accurate prediction from the Chaos system by \"observing our observation,\" but no one knows how it works nor can anyone explain it."
               }
-            ]
+            ],
+            "id": "p-453d36b0ab3a2904"
           },
           {
             "type": "paragraph",
@@ -118,7 +130,8 @@
                 "type": "text",
                 "text": "Many, including my colleagues from the Divination Commission, consider this to be an example of how humans can change or select the future with their own power. But for me... I will interpret this from another perspective..."
               }
-            ]
+            ],
+            "id": "p-e225f3b71e21980f"
           },
           {
             "type": "paragraph",
@@ -127,7 +140,8 @@
                 "type": "text",
                 "text": "The past, present, and future do not exist sequentially across the axis of time, but all exist simultaneously. (This statement of mine essentially denied the existence of time, so the concepts of \"sequential\" and \"simultaneous\" might be slightly inappropriate here.) Every moment in the universe has been predetermined since its creation."
               }
-            ]
+            ],
+            "id": "p-814ace6ba62a89af"
           },
           {
             "type": "paragraph",
@@ -136,7 +150,8 @@
                 "type": "text",
                 "text": "That is to say, it is impossible to change the future."
               }
-            ]
+            ],
+            "id": "p-47d15183e0d96267"
           },
           {
             "type": "paragraph",
@@ -145,7 +160,8 @@
                 "type": "text",
                 "text": "Best regards,"
               }
-            ]
+            ],
+            "id": "p-7c682ebe1122bf37"
           },
           {
             "type": "paragraph",
@@ -154,7 +170,8 @@
                 "type": "text",
                 "text": "Fu Xuan, Master Diviner of the Luofu Divination Commission"
               }
-            ]
+            ],
+            "id": "p-2bc0b6c93ad3d8a4"
           }
         ]
       }

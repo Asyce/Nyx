@@ -4,10 +4,11 @@
   "id": "space-station-introductory-guide",
   "name": "Space Station Introductory Guide",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Space_Station_Introductory_Guide",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -81,7 +82,8 @@
                 "type": "text",
                 "text": "However, in order to immerse yourself in the exciting process, a simple foundational step must be taken: Becoming a research staff. If you who are currently reading this document are only an astronomic hobbyist, we apologize, as your exploration of the cosmos has ended when you began your journey. Please cherish your tour at the Reception Hall. This may be the closest you will ever get to knowledge and intellect."
               }
-            ]
+            ],
+            "id": "p-bd11c42aec3a7dcb"
           },
           {
             "type": "paragraph",
@@ -90,7 +92,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           },
           {
             "type": "paragraph",
@@ -119,7 +122,8 @@
                 "type": "text",
                 "text": "The secrets of the universe are a topic to which many scholars have dedicated their entire lives. They are complicated enough that they cannot be fully described in any language, yet so mundane that anyone can spot them in every nook and cranny. Whatever the case may be, the scattered lifeforms in the universe have jointly crafted a masterwork that is simply known as \"civilization.\""
               }
-            ]
+            ],
+            "id": "p-d09a5033dcd5d935"
           },
           {
             "type": "paragraph",
@@ -128,7 +132,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32-2"
           },
           {
             "type": "paragraph",
@@ -137,7 +142,8 @@
                 "type": "text",
                 "text": "-->On the journey to pursue the scattered hints about the universe's true nature, we are inevitably drawn to the same guiding stars. Charming and enchanting, they have enticed many seekers of knowledge into dedicating their lives just for one glimpse of the truth. The Herta Space Station is a shaded walkway built along the path lit by those guiding stars."
               }
-            ]
+            ],
+            "id": "p-5a90909d750ccd50"
           },
           {
             "type": "paragraph",
@@ -146,7 +152,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32-3"
           },
           {
             "type": "paragraph",
@@ -155,7 +162,8 @@
                 "type": "text",
                 "text": "-->We pick up fragments of the lost symphony to reproduce the feast of a glorious past. We decipher the essence of unknown technologies to glimpse the dazzling gleam of civilizations' crystallized wisdom. Scholars are boats that sail across the vast galaxy toward the ends of its expanse, and the answers silently waiting on the other side are the best motivations for our advance."
               }
-            ]
+            ],
+            "id": "p-a7d04e5aa42fc8e9"
           },
           {
             "type": "paragraph",
@@ -164,7 +172,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32-4"
           },
           {
             "type": "paragraph",
@@ -194,7 +203,8 @@
                 "type": "text",
                 "text": "Special Note: Each person will be allotted 30 minutes for the tour. Areas involving research are strictly off-limit."
               }
-            ]
+            ],
+            "id": "p-ef6fc1875a9a0106"
           }
         ]
       }

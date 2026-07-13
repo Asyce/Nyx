@@ -4,10 +4,11 @@
   "id": "a-legend-of-sword",
   "name": "A Legend of Sword",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/A_Legend_of_Sword",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "\"Even if Emperor Sher's ambitions are realized, how will anybody benefit from it?\""
               }
-            ]
+            ],
+            "id": "p-e909a60450485bb6"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Secretary of Defense Faranges stared out of the window into space as the galaxies and stars shone gently upon her face, their pale white glow flowing softly and slowly down each strand of her hair."
               }
-            ]
+            ],
+            "id": "p-0b34e9d854d03775"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "She couldn't help but think back to the first time she looked out at this ocean of stars through this very window. But she no longer remembered the sense of awe she felt back then. Even her homeland, now hundreds of light-years away, had long since become faded and distorted in her memories whenever they surfaced in her dreams."
               }
-            ]
+            ],
+            "id": "p-3c25c53990da0380"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "\"Forgive me for speaking out of place, Your Highness, but this war has been dragging on for far too long. We've battled through countless constellations, wiped out tens of millions of lives in all sorts of devious ways, and made ourselves viceroys and envoys of every obscure constellation we came across, all in an effort to make Emperor Sher's dreams a reality. But what has His grand vision brought us? One misfortune after another, and an ever-growing number of enemies. They're in every corner of the galaxy now... it's just a matter of time before they swallow us up!\""
               }
-            ]
+            ],
+            "id": "p-31d8b413eb32f994"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "\"My brother's vision is for an empire that will rule for all eternity, one where there is no fear, and where people do not lack for anything. The fate of the many will no longer be dictated by the few, no one will enjoy a higher status than anybody else, and even incompetence will no longer be seen as a crime. And so... it is inevitable that those who cannot comprehend this grand vision are doomed to be swept aside. This is their fate.\""
               }
-            ]
+            ],
+            "id": "p-523c3ec2c1cbaae9"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "Princess Gopatha shook her head and spoke with a gentle yet cold tone."
               }
-            ]
+            ],
+            "id": "p-ed3f69207a40ccb2"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "It seemed as if the Intergalactic Anti-Guerrilla War had robbed her of more than just one of her eyes and one of her arms, because when Faranges looked at her, she did not see the joyful young woman she once knew."
               }
-            ]
+            ],
+            "id": "p-a923886e1fe90d85"
           },
           {
             "type": "paragraph",
@@ -82,13 +90,15 @@
                 "type": "text",
                 "text": "\"I trust in brother's decision — he would not act out of mere self-interest. So please, even though it is you, don't say such things again in the future. Don't speak words that sow doubt.\""
               }
-            ]
+            ],
+            "id": "p-cb2ec45d162fe43e"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
@@ -100,7 +110,8 @@
                 "type": "text",
                 "text": "Surely, even an armada consisting entirely of Yazata-class warships would have a tough job making a dent in a defense as watertight as this one."
               }
-            ]
+            ],
+            "id": "p-b4f4634a72be7436"
           },
           {
             "type": "paragraph",
@@ -109,7 +120,8 @@
                 "type": "text",
                 "text": "Admiral Geldafried's overconfidence in the greatest technological marvel of the empire meant that she was completely unaware that the rebels were, at that very moment, closing in on the fatal weakness of their base. The mighty Star Fortress, Anusharwan — designed personally by Princess Gopatha, and named by Emperor Sher — was now nothing more than a fragile egg before the rebel fleet, and mother hen was away from the nest."
               }
-            ]
+            ],
+            "id": "p-2e9aa18bd9f440c1"
           },
           {
             "type": "paragraph",
@@ -178,7 +190,8 @@
                 "type": "text",
                 "text": "Then, Bastinu launched a fatal attack on the fortress core."
               }
-            ]
+            ],
+            "id": "p-ef87a0d6a1b6b804"
           },
           {
             "type": "paragraph",
@@ -197,13 +210,15 @@
                 "type": "text",
                 "text": "So thought both to themselves, separately but identically, in that brief moment."
               }
-            ]
+            ],
+            "id": "p-d98c858bfeeb9cbf"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "vol-3",
       "label": "Vol. 3",
       "document": {
         "version": 1,
@@ -225,7 +240,8 @@
                 "type": "text",
                 "text": "25 light years away..."
               }
-            ]
+            ],
+            "id": "p-0013254166d8a89d"
           },
           {
             "type": "paragraph",
@@ -274,7 +290,8 @@
                 "type": "text",
                 "text": "Bitchuu Kyuubei was not a ronin as such. It is said that he was once the most trusted strategist for His Excellency the Tai-Shogun, until one day he was framed by a rival. Given the Shogun's paranoid nature, this left him with no choice but to flee the Shogunate and escape into the wilderness."
               }
-            ]
+            ],
+            "id": "p-55c7afdee9cbb362"
           },
           {
             "type": "paragraph",
@@ -313,7 +330,8 @@
                 "type": "text",
                 "text": "Was it the road stretching out ahead of him? Yes! Although, that's not the full story."
               }
-            ]
+            ],
+            "id": "p-18c302f614c16784"
           },
           {
             "type": "paragraph",
@@ -332,7 +350,8 @@
                 "type": "text",
                 "text": "The farmers who had paid the swordsman in rice for his services cowered in fear, too afraid to ask."
               }
-            ]
+            ],
+            "id": "p-8dee703ec1936e2e"
           },
           {
             "type": "paragraph",
@@ -341,13 +360,15 @@
                 "type": "text",
                 "text": "It seems that only the silent swordsman himself knew the answer to this question."
               }
-            ]
+            ],
+            "id": "p-d45fff9107e2f002"
           }
         ]
       }
     },
     {
       "id": "4",
+      "volumeKey": "vol-4",
       "label": "Vol. 4",
       "document": {
         "version": 1,
@@ -369,7 +390,8 @@
                 "type": "text",
                 "text": "The one speaking was Saitou Onisa."
               }
-            ]
+            ],
+            "id": "p-b8387e9897b00fa9"
           },
           {
             "type": "paragraph",
@@ -388,7 +410,8 @@
                 "type": "text",
                 "text": "They are born in war, and they draw their strength from the powerful masters they work for. Such is the path of the ninja. But it is also the path of the ninja to become displaced and disillusioned at the end of a war, or to meet their ruin as soon as they lose their powerful backing."
               }
-            ]
+            ],
+            "id": "p-fad787eff28d2353"
           },
           {
             "type": "paragraph",
@@ -407,7 +430,8 @@
                 "type": "text",
                 "text": "That is precisely Saitou Onisa's story."
               }
-            ]
+            ],
+            "id": "p-f36a513df7d5a2db"
           },
           {
             "type": "paragraph",
@@ -426,7 +450,8 @@
                 "type": "text",
                 "text": "The person speaking this time was called Yonemata Tasuke."
               }
-            ]
+            ],
+            "id": "p-4a506edbaa848bda"
           },
           {
             "type": "paragraph",
@@ -455,7 +480,8 @@
                 "type": "text",
                 "text": "But when war ends and peace is restored, the source of their power evaporates. Like mayflies, they disappear as quickly as they came."
               }
-            ]
+            ],
+            "id": "p-c417ae7a9e6e2546"
           },
           {
             "type": "paragraph",
@@ -474,7 +500,8 @@
                 "type": "text",
                 "text": "The most terrible of all bandits are those who have themselves suffered terribly under an oppressive hand."
               }
-            ]
+            ],
+            "id": "p-2c041c5aaea58c83"
           },
           {
             "type": "paragraph",
@@ -483,7 +510,8 @@
                 "type": "text",
                 "text": "\"Then, we burn everything. Leave no survivors.\""
               }
-            ]
+            ],
+            "id": "p-5be600a1441462cd"
           },
           {
             "type": "paragraph",
@@ -492,13 +520,15 @@
                 "type": "text",
                 "text": "His was the voice of an age of upheaval."
               }
-            ]
+            ],
+            "id": "p-6a088b4b6bd0792c"
           }
         ]
       }
     },
     {
       "id": "5",
+      "volumeKey": "vol-5",
       "label": "Vol. 5",
       "document": {
         "version": 1,
@@ -510,7 +540,8 @@
                 "type": "text",
                 "text": "The terrain of Asada Village was shaped like crescent moon."
               }
-            ]
+            ],
+            "id": "p-6956f0f97a668247"
           },
           {
             "type": "paragraph",
@@ -519,7 +550,8 @@
                 "type": "text",
                 "text": "Shinkurou had noticed this the very first time he set foot in the marshland."
               }
-            ]
+            ],
+            "id": "p-9e60dc533afee32b"
           },
           {
             "type": "paragraph",
@@ -528,7 +560,8 @@
                 "type": "text",
                 "text": "If he could organize enough villagers to lie in ambush up on the mountain ridge, shielding themselves with the terrain and attacking downwards from the high ground, defeating the enemy would be easy. Especially since the bandits would be weary from their journey. Furthermore, the villagers outnumbered the bandits, so surrounding them on all sides would not be difficult to pull off."
               }
-            ]
+            ],
+            "id": "p-77fd8ec401edb6d9"
           },
           {
             "type": "paragraph",
@@ -537,7 +570,8 @@
                 "type": "text",
                 "text": "But the biggest obstacle to this plan was the villagers themselves. A small group of easy targets would be needed as bait to lure the bandits into the valley, but after enduring an age of despotic rule, only to continue to suffer under the tyrannical and extortionate taxation practices of the present Shogunate, the mentality of individual self-preservation was deeply ingrained. How was he going to convince anybody to volunteer to be the bait and sacrifice themselves for everyone else's benefit?"
               }
-            ]
+            ],
+            "id": "p-5ba1ee5b91b4eb74"
           },
           {
             "type": "paragraph",
@@ -546,7 +580,8 @@
                 "type": "text",
                 "text": "There was one other problem, too. In wartime, a samurai army finding themselves in this situation would be certain to use fire to make their ambush more effective. The wind from the mountain would make the fire spread quickly, trapping the enemy in the valley and dealing them a devastating blow."
               }
-            ]
+            ],
+            "id": "p-eb3617463ac03d94"
           },
           {
             "type": "paragraph",
@@ -555,7 +590,8 @@
                 "type": "text",
                 "text": "But this was farming community seeking to keep their land and village safe. There was nothing he could say to convince them that setting their houses and grain reserves on fire was anything close a good idea. This was completely understandable, of course, but the fact was that an even worse fate would await them they fail to take the bandits down."
               }
-            ]
+            ],
+            "id": "p-a78a6afafb552256"
           },
           {
             "type": "paragraph",
@@ -564,13 +600,15 @@
                 "type": "text",
                 "text": "Shinkurou silently sat down and continued to ponder the conundrum."
               }
-            ]
+            ],
+            "id": "p-cd4e090f0fdaccbc"
           }
         ]
       }
     },
     {
       "id": "6",
+      "volumeKey": "vol-6",
       "label": "Vol. 6",
       "document": {
         "version": 1,
@@ -632,7 +670,8 @@
                 "type": "text",
                 "text": "Shinkurou thought to himself quietly."
               }
-            ]
+            ],
+            "id": "p-9715c2d3a01159eb"
           },
           {
             "type": "paragraph",
@@ -701,7 +740,8 @@
                 "type": "text",
                 "text": "As he reminisced, Shinkurou could not help but sigh: whether in the past or now, people like him would always be at the center of the vortex, whether they liked it or not."
               }
-            ]
+            ],
+            "id": "p-440145790d38ccf8"
           },
           {
             "type": "paragraph",
@@ -740,7 +780,8 @@
                 "type": "text",
                 "text": "\"Your clan and your given names were taken by that cretin Imagawa, yes, but abandon that past. From now on, you shall be known as 'Semimaru.'\""
               }
-            ]
+            ],
+            "id": "p-a10f118d9b6f4bd2"
           },
           {
             "type": "paragraph",
@@ -749,7 +790,8 @@
                 "type": "text",
                 "text": "Yes. Someone who no longer had a past, someone whose eyes could no longer behold the many wonders of the universe... Now, its vastness opened before him."
               }
-            ]
+            ],
+            "id": "p-aed2ac67fd28a624"
           }
         ]
       }

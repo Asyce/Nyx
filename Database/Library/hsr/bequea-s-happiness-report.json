@@ -4,10 +4,11 @@
   "id": "bequea-s-happiness-report",
   "name": "Bequea's Happiness Report",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Bequea%27s_Happiness_Report",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -94,7 +95,8 @@
                 "type": "text",
                 "text": "This feels like a good sign. The merciful \"Aha\" will return that pure joy to me... THEY have to."
               }
-            ]
+            ],
+            "id": "p-56a689c6785d3e11"
           },
           {
             "type": "paragraph",
@@ -168,7 +170,8 @@
                 "type": "text",
                 "text": "I don't have the answers, Rocket."
               }
-            ]
+            ],
+            "id": "p-28dce9e2b318b546"
           },
           {
             "type": "paragraph",
@@ -237,7 +240,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-7b10585ea6952048"
           },
           {
             "type": "paragraph",
@@ -246,7 +250,8 @@
                 "type": "text",
                 "text": "Wish me luck tomorrow, Rocket. Please."
               }
-            ]
+            ],
+            "id": "p-0fce2c1ad186bbae"
           },
           {
             "type": "paragraph",
@@ -290,7 +295,8 @@
                 "type": "text",
                 "text": "He suggested visitors, if I'm bored. But I thought and thought, and drew a complete blank. There's no one I could think of."
               }
-            ]
+            ],
+            "id": "p-3326d1e2e772aedb"
           },
           {
             "type": "paragraph",
@@ -351,7 +357,8 @@
                 "type": "text",
                 "text": "Glory to The Laughter! So this is what it feels like! True happiness!"
               }
-            ]
+            ],
+            "id": "p-034a55a01b6f7446"
           },
           {
             "type": "paragraph",
@@ -415,7 +422,8 @@
                 "type": "text",
                 "text": "So... tasteless."
               }
-            ]
+            ],
+            "id": "p-bb027efccd44a8b9"
           },
           {
             "type": "paragraph",
@@ -479,7 +487,8 @@
                 "type": "text",
                 "text": "But... what? What am I looking for?"
               }
-            ]
+            ],
+            "id": "p-2ba66aa31d2191e4"
           },
           {
             "type": "paragraph",
@@ -543,7 +552,8 @@
                 "type": "text",
                 "text": "If the sun lights up everything, then why can't I see what I'm looking for..."
               }
-            ]
+            ],
+            "id": "p-5546e5eea78b70b5"
           },
           {
             "type": "paragraph",
@@ -577,7 +587,8 @@
                 "type": "text",
                 "text": "O Laughter above, please. Give me a little more time."
               }
-            ]
+            ],
+            "id": "p-26006a5fa85f4542"
           },
           {
             "type": "paragraph",
@@ -611,7 +622,8 @@
                 "type": "text",
                 "text": "Goodbye, bright and sunny world."
               }
-            ]
+            ],
+            "id": "p-0856fa686b2a0db7"
           },
           {
             "type": "paragraph",
@@ -620,7 +632,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

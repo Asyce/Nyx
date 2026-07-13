@@ -4,10 +4,11 @@
   "id": "curio-management-log",
   "name": "Curio Management Log",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Curio_Management_Log",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "part-i",
       "label": "Part I",
       "document": {
         "version": 1,
@@ -191,7 +192,8 @@
                 "type": "text",
                 "text": "— Bernard, Department of Galactic Geography"
               }
-            ]
+            ],
+            "id": "p-6601f0d81df4cfdf"
           },
           {
             "type": "paragraph",
@@ -347,7 +349,8 @@
                 "type": "text",
                 "text": "— [NAME OMITTED], Department of Implement Arts"
               }
-            ]
+            ],
+            "id": "p-8d78eabbd25dc96c"
           },
           {
             "type": "paragraph",
@@ -393,7 +396,8 @@
                 "type": "text",
                 "text": "Related Studies:* Due to outdated research data, the Crackup Conch will be reconditioned in the near future. All related papers are currently disabled. Please stay tuned."
               }
-            ]
+            ],
+            "id": "p-41e2b78d90907a5a"
           },
           {
             "type": "paragraph",
@@ -492,13 +496,15 @@
                 "type": "text",
                 "text": "— Joanne, Medical Department"
               }
-            ]
+            ],
+            "id": "p-6cd7248ff1cb0742"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "part-ii",
       "label": "Part II",
       "document": {
         "version": 1,
@@ -657,7 +663,8 @@
                 "type": "text",
                 "text": "— Rosemary, Service Department"
               }
-            ]
+            ],
+            "id": "p-459aa1a3cbddd637"
           },
           {
             "type": "paragraph",
@@ -813,7 +820,8 @@
                 "type": "text",
                 "text": "— [NAME OMITTED], Department of Ecology"
               }
-            ]
+            ],
+            "id": "p-49b5c7ee89f15f40"
           },
           {
             "type": "paragraph",
@@ -995,13 +1003,15 @@
                 "type": "text",
                 "text": "— Joanne, Medical Department"
               }
-            ]
+            ],
+            "id": "p-2f710ad872d29a76"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "part-iii",
       "label": "Part III",
       "document": {
         "version": 1,
@@ -1160,7 +1170,8 @@
                 "type": "text",
                 "text": "— [NAME OMITTED], Maintenance Department"
               }
-            ]
+            ],
+            "id": "p-73d20e6ada086f94"
           },
           {
             "type": "paragraph",
@@ -1279,7 +1290,8 @@
                 "type": "text",
                 "text": "— Adler, Department of Ecology"
               }
-            ]
+            ],
+            "id": "p-dc23860272a07f5e"
           },
           {
             "type": "paragraph",
@@ -1433,7 +1445,8 @@
                 "type": "text",
                 "text": "— [NAME OMITTED], Department of Ecology"
               }
-            ]
+            ],
+            "id": "p-a92bfb78b3e581d4"
           }
         ]
       }

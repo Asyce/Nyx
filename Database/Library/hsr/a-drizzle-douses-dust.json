@@ -4,10 +4,11 @@
   "id": "a-drizzle-douses-dust",
   "name": "A Drizzle Douses Dust",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/A_Drizzle_Douses_Dust",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Guests arrive from afar, weary from journeys and travail. This humble abode welcomes you, while a fresh drizzle douses dust."
               }
-            ]
+            ],
+            "id": "p-6cf5e15e1dc83098"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "A majestic dawn of grandeur, and a splendid night on Starwatcher."
               }
-            ]
+            ],
+            "id": "p-8afee08a9a71322c"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "Petrichor Inn is located in the heart of the Starskiff Haven. An heir to the classical Xianzhou style, it continues to demonstrate the elegant and hospitable side of Luofu culture. It contains clean guestrooms, comforting baths, and has a full menu to appease every desire together with the best traditional etiquette. The Inn's construction started before the time of the wars, and has stood for more than 500 years."
               }
-            ]
+            ],
+            "id": "p-baa06e8ecc72a10d"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "Petrichor Inn never forgot its mission and persists in providing the most meticulous care and guidance for all interstellar travelers. To celebrate the recently completed renovations, the Inn currently features a tourist combo, where guests can experience a comfortable room and be provided with a detailed travel guide upon presenting this flyer when making a booking."
               }
-            ]
+            ],
+            "id": "p-d1ace4fb370b402f"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "Staying at Petrichor — A Drizzle Douses Dust, a Rest in Petrichor"
               }
-            ]
+            ],
+            "id": "p-c70b0147a70c8ae5"
           },
           {
             "type": "paragraph",
@@ -99,7 +105,8 @@
                 "type": "text",
                 "text": "Placed in a central location, the Inn provides hundreds of otherworldly delights at your fingertips and thousands of incomparable views before your eyes."
               }
-            ]
+            ],
+            "id": "p-5ef18f5c9c086ec7"
           },
           {
             "type": "paragraph",
@@ -108,7 +115,8 @@
                 "type": "text",
                 "text": "Food at Petrichor — Thousands of Delicacies and a Metamorphosis in the Pot"
               }
-            ]
+            ],
+            "id": "p-a0c723cf2e4fd261"
           },
           {
             "type": "paragraph",
@@ -152,7 +160,8 @@
                 "type": "text",
                 "text": "Present your proof of purchase to taste famous beverages such as Dragon Spring Brew and Nectar of Willow Woods."
               }
-            ]
+            ],
+            "id": "p-96921301cbb14347"
           },
           {
             "type": "paragraph",
@@ -161,7 +170,8 @@
                 "type": "text",
                 "text": "Traveling at Petrichor — An Interconnected and Crisscrossed Web"
               }
-            ]
+            ],
+            "id": "p-62c54118f7e7459e"
           },
           {
             "type": "paragraph",
@@ -198,7 +208,8 @@
                 "type": "text",
                 "text": "The Inn will always provide our comprehensive support with the uttermost dedication."
               }
-            ]
+            ],
+            "id": "p-60c066636be82f0e"
           },
           {
             "type": "paragraph",
@@ -207,7 +218,8 @@
                 "type": "text",
                 "text": "We offer our most sincere invitations to Petrichor Inn, and look forward to having you visit us."
               }
-            ]
+            ],
+            "id": "p-6d1c7e3e05c2ec57"
           }
         ]
       }

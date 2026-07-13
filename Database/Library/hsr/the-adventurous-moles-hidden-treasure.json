@@ -4,10 +4,11 @@
   "id": "the-adventurous-moles-hidden-treasure",
   "name": "The Adventurous Moles: Hidden Treasure",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/The_Adventurous_Moles:_Hidden_Treasure",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "table-of-contents",
       "label": "Table of Contents",
       "document": {
         "version": 1,
@@ -29,7 +30,8 @@
                 "type": "text",
                 "text": "—Page 1"
               }
-            ]
+            ],
+            "id": "p-fca94a462991cfb7"
           },
           {
             "type": "paragraph",
@@ -55,7 +57,8 @@
                 "type": "text",
                 "text": "— Page 3"
               }
-            ]
+            ],
+            "id": "p-bdeff140c5bd3b64"
           },
           {
             "type": "paragraph",
@@ -81,7 +84,8 @@
                 "type": "text",
                 "text": "— Page 21"
               }
-            ]
+            ],
+            "id": "p-dbd990f6b5b61b40"
           },
           {
             "type": "paragraph",
@@ -107,7 +111,8 @@
                 "type": "text",
                 "text": "— Page 40"
               }
-            ]
+            ],
+            "id": "p-60016b61d4b87851"
           },
           {
             "type": "paragraph",
@@ -133,7 +138,8 @@
                 "type": "text",
                 "text": "— Page 56"
               }
-            ]
+            ],
+            "id": "p-85e37b0c321ede79"
           },
           {
             "type": "paragraph",
@@ -152,13 +158,15 @@
                 "type": "text",
                 "text": "—Page 73"
               }
-            ]
+            ],
+            "id": "p-a2c968efa2b50596"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "preface",
       "label": "Preface",
       "document": {
         "version": 1,
@@ -170,7 +178,8 @@
                 "type": "text",
                 "text": "The Moles' Adventure Tips"
               }
-            ]
+            ],
+            "id": "p-a91881c4cbadb36b"
           },
           {
             "type": "paragraph",
@@ -179,7 +188,8 @@
                 "type": "text",
                 "text": "Welcome, kid! Join the Adventurous Moles and put your knowledge and courage to the test with Becky, Carbine, and Pava as you become the fourth little mole. The book is divided into four parts, each with its own unique story, and a riddle will appear at the end of each part for you to solve."
               }
-            ]
+            ],
+            "id": "p-fc039e1181137aeb"
           },
           {
             "type": "paragraph",
@@ -188,7 +198,8 @@
                 "type": "text",
                 "text": "The adventure this time is different from The Moles' past visits to distant jungles, icy mountains, and temple ruins. The backdrop of this story is a place all of our little moles are familiar with — Belobog. During this adventure, a group of archaeologists have uncovered the will left by Drake, the great adventurer of Belobog, in which he stated:"
               }
-            ]
+            ],
+            "id": "p-d11cca0a08ab0359"
           },
           {
             "type": "paragraph",
@@ -202,7 +213,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-dab728912df296ee"
           },
           {
             "type": "paragraph",
@@ -224,7 +236,8 @@
                 "type": "text",
                 "text": ", but you will also discover Drake the Great Adventurer's treasure."
               }
-            ]
+            ],
+            "id": "p-775c22c45ea4bea7"
           },
           {
             "type": "paragraph",
@@ -233,7 +246,8 @@
                 "type": "text",
                 "text": "Every clue in the story may hold the key to understanding the riddle, so think carefully and don't dismiss any clues. Don't be concerned if your acute mind briefly fails you. As long as you follow your intuition, you will find the answer. We have also prepared several helpful resources for the adventure, which are printed at the end of the book for your convenience."
               }
-            ]
+            ],
+            "id": "p-b651e4da2da965f9"
           },
           {
             "type": "paragraph",
@@ -242,13 +256,15 @@
                 "type": "text",
                 "text": "Are you ready to embark on an exciting adventure, little moles?"
               }
-            ]
+            ],
+            "id": "p-fa21d50f99f160f0"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "the-unexpected-parchment",
       "label": "The Unexpected Parchment",
       "document": {
         "version": 1,
@@ -260,7 +276,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -269,7 +286,8 @@
                 "type": "text",
                 "text": "The old Silvermane Guard flask that Carbine was eyeing was hardly a valuable item. The Moles looked around the auction hall, no one else raising their hand to bid in competition."
               }
-            ]
+            ],
+            "id": "p-32c2476559d50651"
           },
           {
             "type": "paragraph",
@@ -278,7 +296,8 @@
                 "type": "text",
                 "text": "\"Going once, going twice. Sold! This old flask goes to the young boy with the glasses\" said the auctioneer as he banged his gavel."
               }
-            ]
+            ],
+            "id": "p-a0c8be46f6a699a5"
           },
           {
             "type": "paragraph",
@@ -287,7 +306,8 @@
                 "type": "text",
                 "text": "\"You shelled out 12 shield for a flask? I truly don't comprehend collectors' tastes like yours.\" Pava scratched his curly hair. \"I still have the limited Silvermane Guard festival edition of this flask at home, which I can sell to you for a low price.\""
               }
-            ]
+            ],
+            "id": "p-0f5a848da17956d0"
           },
           {
             "type": "paragraph",
@@ -296,7 +316,8 @@
                 "type": "text",
                 "text": "The Moles paid, collected the antique flask, and exited the room. A continuous flow of people passed by the outdoor café. There had been an antique craze since the archaeological team made the Great Adventurer Drake's will public, and everyone was hunting for clues to the 'invisible treasure chests.' It also irritated Carbine, an antique collector whose pastime had gotten more expensive."
               }
-            ]
+            ],
+            "id": "p-48525a0e1285088c"
           },
           {
             "type": "paragraph",
@@ -305,7 +326,8 @@
                 "type": "text",
                 "text": "\"Look what I found in this kettle! A piece of parchment!\" Becky opened the kettle. \"No way. The paper references invisible treasure chests, but does that mean it has something to do with Drake...?\""
               }
-            ]
+            ],
+            "id": "p-ef147297149489ad"
           },
           {
             "type": "paragraph",
@@ -314,7 +336,8 @@
                 "type": "text",
                 "text": "\"Shh!\" Pava suddenly lowered his voice and said, \"Someone is watching us.\""
               }
-            ]
+            ],
+            "id": "p-3d874213a8661421"
           },
           {
             "type": "paragraph",
@@ -323,7 +346,8 @@
                 "type": "text",
                 "text": "Carbine pulled a reflective lens from his backpack. The lens reflected the sight behind him. He saw no one pursuing The Moles. \"Hey, why am I not seeing anything?\""
               }
-            ]
+            ],
+            "id": "p-fe8b6d6750afc9b2"
           },
           {
             "type": "paragraph",
@@ -332,7 +356,8 @@
                 "type": "text",
                 "text": "Pava may be physically strong, but that didn't mean he's a simpleton. He extended his hand, pointed to a location in the open-air café, and remarked, \"It's there. There are lots of tables and chairs in the open-air café, but only that location may conceal a person.\""
               }
-            ]
+            ],
+            "id": "p-313db360d7fe7e0d"
           },
           {
             "type": "paragraph",
@@ -341,7 +366,8 @@
                 "type": "text",
                 "text": "Carbine and Becky looked in amazement at the open-air café, and they quickly realized what Pava was saying and were impressed by him."
               }
-            ]
+            ],
+            "id": "p-c25c26b856701fb9"
           },
           {
             "type": "paragraph",
@@ -355,7 +381,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-518cd48d435dd624"
           },
           {
             "type": "paragraph",
@@ -381,13 +408,15 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-31d9999489a144b4"
           }
         ]
       }
     },
     {
       "id": "4",
+      "volumeKey": "the-missing-miner-s-lamp",
       "label": "The Missing Miner's Lamp",
       "document": {
         "version": 1,
@@ -399,7 +428,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -408,7 +438,8 @@
                 "type": "text",
                 "text": "Carbine and Pava were eavesdropping on the group's private chat when they were lifted up by a pair of gigantic hands, and Carbine was overcome with fear as his feet dangled in the air. Pava, on the other hand, shifted his weight, kicked the miner in the stomach, and jumped away. Only then did they notice the gigantic, towering miner."
               }
-            ]
+            ],
+            "id": "p-6cbcf35f35ca91e7"
           },
           {
             "type": "paragraph",
@@ -417,7 +448,8 @@
                 "type": "text",
                 "text": "\"What on earth are you little brats doing here?\" Pava's kick angered the tough and muscular miner, who huffed out: \"It's dangerous out here. You should be at home, not here.\""
               }
-            ]
+            ],
+            "id": "p-7b7a5714dda930d0"
           },
           {
             "type": "paragraph",
@@ -426,7 +458,8 @@
                 "type": "text",
                 "text": "\"Hey, you two kids over there. Remember how I told you not to fall out of line?\" Becky donned her safety helmet, work gear, and gloves, and transformed into a little miner. \"Can you let me handle these two kids, big guy? I'll get them out of here.\""
               }
-            ]
+            ],
+            "id": "p-b6d8caf15a4a96ab"
           },
           {
             "type": "paragraph",
@@ -435,7 +468,8 @@
                 "type": "text",
                 "text": "The two little moles understood Becky's words immediately. \"We are lost, please take us back, sis.\""
               }
-            ]
+            ],
+            "id": "p-6e730a77e3f2829a"
           },
           {
             "type": "paragraph",
@@ -444,7 +478,8 @@
                 "type": "text",
                 "text": "The burly man was a little hesitant, having never seen such a short miner before, but he didn't think too much about it. \"Keep an eye on your team. The mines are dangerous.\" The burly man turned and marched away, carrying a pickaxe heavier than Pava."
               }
-            ]
+            ],
+            "id": "p-d1606ed8e1dc146a"
           },
           {
             "type": "paragraph",
@@ -453,7 +488,8 @@
                 "type": "text",
                 "text": "\"I'm always the dependable one. What were you two eavesdropping on?\" Becky inquired confidently, pushing up her safety helmet."
               }
-            ]
+            ],
+            "id": "p-7b84878fa5db82d7"
           },
           {
             "type": "paragraph",
@@ -462,7 +498,8 @@
                 "type": "text",
                 "text": "Pava was about to point to the group's location when he realized no one was there anymore."
               }
-            ]
+            ],
+            "id": "p-d45803c998610829"
           },
           {
             "type": "paragraph",
@@ -471,7 +508,8 @@
                 "type": "text",
                 "text": "\"I recall them saying, 'Let everything return to its rightful place. Let the stars return to the sky.'\" \"So that's what it is!\" Carbine said after a brief moment of thinking and a glance at the wire mesh fence on the other side."
               }
-            ]
+            ],
+            "id": "p-59d5be73b3653a9d"
           },
           {
             "type": "paragraph",
@@ -480,7 +518,8 @@
                 "type": "text",
                 "text": "Carbine appears to have discovered the secret."
               }
-            ]
+            ],
+            "id": "p-edc911851b0c2a7b"
           },
           {
             "type": "paragraph",
@@ -494,7 +533,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-3a89ad6db9008f62"
           },
           {
             "type": "paragraph",
@@ -520,13 +560,15 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-23cde65dc9d6c02c"
           }
         ]
       }
     },
     {
       "id": "5",
+      "volumeKey": "the-crates-are-the-keys",
       "label": "\"The Crates Are the Keys\"",
       "document": {
         "version": 1,
@@ -538,7 +580,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -547,7 +590,8 @@
                 "type": "text",
                 "text": "Carbine rushed to hide behind the crates used to store Geomarrow. \"They took Pava!\" This terrible thought kept echoing in his mind. \"Maybe we shouldn't be looking for Drake's treasure in the first place.\" However, regret won't bring Pava back. Carbine needed to think of something to do to help."
               }
-            ]
+            ],
+            "id": "p-fe93fb1273b81371"
           },
           {
             "type": "paragraph",
@@ -556,7 +600,8 @@
                 "type": "text",
                 "text": "Becky placed her hand on Carbine's shoulder, trying to calm him down. Just a few days ago, they were eating suncakes and talking about how to spend the holiday. Now, they were involved in an unexpected conspiracy. Why did those who attended the gathering want the treasure? Where was Drake's underground hidden door? And what would they do to Pava... She couldn't answer any of these questions."
               }
-            ]
+            ],
+            "id": "p-e2f7c768e8dc4c90"
           },
           {
             "type": "paragraph",
@@ -565,7 +610,8 @@
                 "type": "text",
                 "text": "\"Hold on.\" Becky picked up a piece of paper. It looked like something used by the school they went to, which meant it was left by Pava. \"There's nothing on the paper, and it's sticky.\""
               }
-            ]
+            ],
+            "id": "p-813903edfbd0c100"
           },
           {
             "type": "paragraph",
@@ -574,7 +620,8 @@
                 "type": "text",
                 "text": "\"Sticky? It might be Pava's invisible ink.\" Carbine recalled the small things he made in the secret base, and how he used invisible ink to write things down. If the text was written with brine, you heat the paper. If it was written with white candle, use charcoal powder to make the text visible... \"Let me have a go!\""
               }
-            ]
+            ],
+            "id": "p-da5169750d1bbe81"
           },
           {
             "type": "paragraph",
@@ -583,7 +630,8 @@
                 "type": "text",
                 "text": "And sure enough, the piece of paper carried secret information. Carbine moved the paper under the light of a miner's lamp, and a line of fragmented text appeared."
               }
-            ]
+            ],
+            "id": "p-276d1a7333fbca13"
           },
           {
             "type": "paragraph",
@@ -592,7 +640,8 @@
                 "type": "text",
                 "text": "\"Shelves, crates, arrange, same.\""
               }
-            ]
+            ],
+            "id": "p-5be3d63ee4d927ce"
           },
           {
             "type": "paragraph",
@@ -601,7 +650,8 @@
                 "type": "text",
                 "text": "The text was just some words pieced together, which is of no surprise, given Pava couldn't see what he was writing. He had to make things simple and space out the letters. Becky gave it a quick thought and it dawned on her that Pava was sharing clues that could lead to Drake's hidden door."
               }
-            ]
+            ],
+            "id": "p-38fdf3a9b2e383e3"
           },
           {
             "type": "paragraph",
@@ -610,7 +660,8 @@
                 "type": "text",
                 "text": "\"The crates are the key. Opening the hidden door is easier than doing chores.\" Becky read with excitement."
               }
-            ]
+            ],
+            "id": "p-b9bb8987b9a1da08"
           },
           {
             "type": "paragraph",
@@ -624,7 +675,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-abdf53252f72b373"
           },
           {
             "type": "paragraph",
@@ -650,13 +702,15 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-e38903298e4168bb"
           }
         ]
       }
     },
     {
       "id": "6",
+      "volumeKey": "treasure-hunt-on-the-battlefield",
       "label": "Treasure Hunt on the Battlefield",
       "document": {
         "version": 1,
@@ -668,7 +722,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -677,7 +732,8 @@
                 "type": "text",
                 "text": "\"Don't let them get away!\" The gathered crowd shouted incessantly from behind The Moles as these greedy criminals pursued them. The little moles rushed right into the Silvermane Guard Restricted Zone, not stopping at all. When the three little moles turned around, they saw the pursuers beyond the restricted zone stomping their feet in rage."
               }
-            ]
+            ],
+            "id": "p-e5f5822f37204951"
           },
           {
             "type": "paragraph",
@@ -686,7 +742,8 @@
                 "type": "text",
                 "text": "Pava's uncle was a Silvermane Guards officer, and with his help, the little moles made their way to the camp's depths — the location where Drake's treasure had hinted. \"I'm not heartless, Pava, but couldn't you get your uncle to arrest all those bad guys?\" Carbine was still enraged. \"They kidnapped you, which is against the law.\""
               }
-            ]
+            ],
+            "id": "p-e0ccf84d68fd3185"
           },
           {
             "type": "paragraph",
@@ -695,7 +752,8 @@
                 "type": "text",
                 "text": "\"Don't worry. They're not getting away from it.\" Pava's uncle had helped the Moles countless times in perilous situations, and he was their most dependable collaborator. \"Leave these things to us adults. Your adventure is still one step away from being completed. Go finish it.\""
               }
-            ]
+            ],
+            "id": "p-d70cf38016c73925"
           },
           {
             "type": "paragraph",
@@ -704,7 +762,8 @@
                 "type": "text",
                 "text": "\"The industrious and smart soldier will check the 4 gun stands every day to make sure there are exactly 3 guns per stand, no more and no less.\" Becky read from Drake's last message."
               }
-            ]
+            ],
+            "id": "p-d9f3abc056472526"
           },
           {
             "type": "paragraph",
@@ -713,7 +772,8 @@
                 "type": "text",
                 "text": "\"Hmm... would someone really bury treasure in a restricted zone?\" Pava's uncle never believed in the invisible treasure because this was where the army was stationed. Neither Drake from hundreds of years ago nor anyone centuries in the future could have buried unknown treasures in the middle of the army."
               }
-            ]
+            ],
+            "id": "p-9057d0ad87c73e9f"
           },
           {
             "type": "paragraph",
@@ -722,7 +782,8 @@
                 "type": "text",
                 "text": "\"Since it's an invisible treasure, there has to be a means to find it.\" Carbine paused for a moment, convinced that he already knew where the invisible treasure was hidden."
               }
-            ]
+            ],
+            "id": "p-29bdb8a312d2175c"
           },
           {
             "type": "paragraph",
@@ -736,7 +797,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-5f86ce49e6f92873"
           },
           {
             "type": "paragraph",
@@ -762,13 +824,15 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-cb9b78af1635a375"
           }
         ]
       }
     },
     {
       "id": "7",
+      "volumeKey": "postface",
       "label": "Postface",
       "document": {
         "version": 1,
@@ -780,7 +844,8 @@
                 "type": "text",
                 "text": "The Moles will solve the mystery, no matter how difficult it is, and \"Drake's Invisible Treasure\" is nearing its conclusion."
               }
-            ]
+            ],
+            "id": "p-15ebef16b71a7716"
           },
           {
             "type": "paragraph",
@@ -789,7 +854,8 @@
                 "type": "text",
                 "text": "The three little moles displayed their investigative skills again in this adventure. And of course, you, our fourth little mole, are the most important contributor to the adventure!"
               }
-            ]
+            ],
+            "id": "p-9d2a61f80060e942"
           },
           {
             "type": "paragraph",
@@ -798,7 +864,8 @@
                 "type": "text",
                 "text": "Young readers who have read The Adventurous Moles know that this is only the beginning of their exploits, and the little moles have many more adventures ahead of them! Drake, the story's great adventurer, is content with a fantastic adventure, even if it is only once in a lifetime. However, such an adventure is not enough for our young readers."
               }
-            ]
+            ],
+            "id": "p-3552ba7948f21fd6"
           },
           {
             "type": "paragraph",
@@ -807,7 +874,8 @@
                 "type": "text",
                 "text": "What gives me the right to say such a thing? Is it because I'd like to keep selling books? Of course, this is a factor. But, more importantly, I want to give my young readers \"the experience of adventure without the peril of it.\" I don't want you to meet any bad guys in real life, and I don't want you to be trapped in a crisis like the three little moles."
               }
-            ]
+            ],
+            "id": "p-c11e8a8d8e9ad57d"
           },
           {
             "type": "paragraph",
@@ -816,7 +884,8 @@
                 "type": "text",
                 "text": "Parents frequently write to me. \"I don't want my children to read your stories anymore because they will just follow The Moles and embark on dangerous adventures.\" Such letters often baffle me. If I were irresponsible enough, I would tell them, \"Give it a shot! Humans are supposed to go on adventures.\" However, given the parent's concern, I would respond, \"The safest adventure I can think of is merely going on an adventure at home by reading a book without taking any risks. What, not even such an adventure is permitted?\""
               }
-            ]
+            ],
+            "id": "p-340c3ced4db78521"
           },
           {
             "type": "paragraph",
@@ -825,7 +894,8 @@
                 "type": "text",
                 "text": "Authors are notorious for complaining about their hardships in the postface of their works, so please forgive me if I do the same. You followed in the footsteps of the three little moles in this adventure story, even though you did not encounter the dreadful gatherers (after all, I made it up), but you used your curiosity and ingenuity to complete the best adventure, right?"
               }
-            ]
+            ],
+            "id": "p-539eff818f3ff0bd"
           },
           {
             "type": "paragraph",
@@ -834,7 +904,8 @@
                 "type": "text",
                 "text": "That is precisely what I am looking for."
               }
-            ]
+            ],
+            "id": "p-2797e46292f2311c"
           },
           {
             "type": "paragraph",
@@ -843,7 +914,8 @@
                 "type": "text",
                 "text": "I want to congratulate you on finishing your adventure once again, and please allow me to shout out The Moles' slogan!"
               }
-            ]
+            ],
+            "id": "p-995eb92f9f0e2717"
           },
           {
             "type": "paragraph",
@@ -891,7 +963,8 @@
                 "type": "text",
                 "text": "take the reins!"
               }
-            ]
+            ],
+            "id": "p-2d72a22465356f2b"
           }
         ]
       }

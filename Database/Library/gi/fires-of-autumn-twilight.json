@@ -4,10 +4,11 @@
   "id": "fires-of-autumn-twilight",
   "name": "Fires of Autumn Twilight",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Fires_of_Autumn_Twilight",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
@@ -49,13 +50,15 @@
                 "type": "text",
                 "text": "But luck was not the deciding factor, merely a footnote in this prolonged hunt. For years now, following the trail of its wicked scent, she had hunted this giant dragon. She understood its vanity and how it could be seduced with words, so certain of its mastery of fate that it was convinced it could resist the inevitable conclusion that awaited. It was this delusional fantasy that had drawn it here, just as her slender fingers now drew the bowstring taut. Perfectly still she remained, eyes fixed upon the approaching beast, its frame so gigantic that it almost filled the cave's entrance, as if it were oil seeping out from a jar. She could feel its gaze, its predatory stare. Standing there, she was nothing to it — as insignificant as a mere insect, a feather caught in the wind. \"What is this place, you insidious weasel?\""
               }
-            ]
+            ],
+            "id": "p-25a7bac09000a652"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
@@ -97,13 +100,15 @@
                 "type": "text",
                 "text": "In that silence, a strange notion stole upon her, like a new and unfamiliar dream. She wondered, what if the young man she had once yearned for, the one who was once her companion, what if he had never left the Flower-Feather Clan, and what if he had not gone to serve the Holy Sovereign, but instead had stayed to witnessed her change, the growth of her defiance — would he have been pleasantly surprised or dejected? The beast's smoldering eyes locked onto her in the darkness, its pulse entwining with her breathing so that the two could no longer be distinguished. An almost imperceptible movement; and with that, a spark shot down the fuse, racing towards the oil barrels not far from where they were."
               }
-            ]
+            ],
+            "id": "p-f5538c11c3ffa666"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "vol-3",
       "label": "Vol. 3",
       "document": {
         "version": 1,
@@ -185,7 +190,8 @@
                 "type": "text",
                 "text": "\"Dead already,\" muttered Elder Nyamgondho. After wiping from his forehead the beads of sweat that glowed with the light of the burning oil, he pulled down a half-burned curtain from the beam above, then tossed it aside. Around him were the young men who had rushed over to help put out the fire, all at a loss as to how the tightly guarded warehouse could have suddenly gone up in flames. He sighed, then scanned the area again, searching without much hope for a clue to the blaze's origin. But just as before, aside from the two charred bodies, there was nothing to be seen except for the dragon skull that hung high above them — a relic of the beast that she, singlehandedly, had slain some years past. Everything in the warehouse had been burnt to ashes."
               }
-            ]
+            ],
+            "id": "p-68f628ae1769a2d2"
           }
         ]
       }

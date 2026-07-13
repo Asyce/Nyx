@@ -4,10 +4,11 @@
   "id": "general-knowledge-reader-do-you-know-your-origins",
   "name": "General Knowledge Reader: Do You Know Your Origins?",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/General_Knowledge_Reader:_Do_You_Know_Your_Origins%3F",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "As we all know, every imagenae originates from a story. But do you, as an imagenae yourself, truly understand your own origin story? Why don't you follow me and take a look together?"
               }
-            ]
+            ],
+            "id": "p-6aeaaafcb99f6952"
           },
           {
             "type": "paragraph",
@@ -38,7 +40,8 @@
                 "type": "text",
                 "text": "The story of how ploos came to be is just as adorable as they are."
               }
-            ]
+            ],
+            "id": "p-68d90c80cdb4686c"
           },
           {
             "type": "paragraph",
@@ -47,7 +50,8 @@
                 "type": "text",
                 "text": "Legend has it, it all began with a Masked Fool who had a knack for inventions. This particular Fool found bathing alone to be far too lonely, so they created a bunch of little yellow duckies. These duckies floated carefree on the bathtub's surface, and when you gave them a good squeeze, they'd let out a \"ploo\" sound. And that's the original story of the ploo."
               }
-            ]
+            ],
+            "id": "p-bd54da6b4604f4b1"
           },
           {
             "type": "paragraph",
@@ -56,7 +60,8 @@
                 "type": "text",
                 "text": "Later on, another scholar was deep in thought while soaking in their bathtub when they witnessed a rubber ducky bobbing up and down, and had a sudden epiphany about the laws of physics! Because of that scholar's signature catchphrase, ploos are still called \"Eureka\" in some Planarcadian dialects to this day."
               }
-            ]
+            ],
+            "id": "p-7340bafcf4ccce65"
           },
           {
             "type": "paragraph",
@@ -65,7 +70,8 @@
                 "type": "text",
                 "text": "But these little stories weren't enough to bring the ploo into being. What truly established them as a stable imagenae species was an adorable accident. During a freight skiff mishap that caused no casualties, millions of yellow rubber duckies were spilled into the ocean. These little ducks rode the currents on an epic adventure around the entire world of Ahatopia."
               }
-            ]
+            ],
+            "id": "p-4ebc12632a0f1945"
           },
           {
             "type": "paragraph",
@@ -74,7 +80,8 @@
                 "type": "text",
                 "text": "After this brave expedition, the \"ploo\" as we know it today was born. This incident also shaped the core traits of the ploo: adorableness, innocence, and a fearless forward spirit."
               }
-            ]
+            ],
+            "id": "p-665beb58b3a42235"
           },
           {
             "type": "paragraph",
@@ -93,7 +100,8 @@
                 "type": "text",
                 "text": "The origin story of the orch is a bit on the dark side."
               }
-            ]
+            ],
+            "id": "p-3ad1acec66061f1d"
           },
           {
             "type": "paragraph",
@@ -102,7 +110,8 @@
                 "type": "text",
                 "text": "Pretty much every ancient civilization that fancied itself \"civilized\" cooked up the idea of \"those evil barbarian outsiders.\" In some places, they're giants. In others, they're snakes or spiders. And in the World in Canvas? They're the orch. After all, every civilization needs an enemy, and it's way easier to just paint your foes as green-skinned, brutish monsters than to actually figure out who they really are."
               }
-            ]
+            ],
+            "id": "p-a03708646ab665dd"
           },
           {
             "type": "paragraph",
@@ -111,7 +120,8 @@
                 "type": "text",
                 "text": "From this grotesquely distorted demonization of \"outlanders,\" the orch was born. And they lived up to expectations, becoming the great enemy of the Canvas Age and establishing a regime known as the \"Orch Republic\" that stood in opposition to human civilization for ages. Both sides clashed in battle time and again, locked in an endless cycle of bloodshed and war, until the IPC's arrival finally brought it all to an end."
               }
-            ]
+            ],
+            "id": "p-71a67f8f1ba503ec"
           },
           {
             "type": "paragraph",
@@ -120,7 +130,8 @@
                 "type": "text",
                 "text": "As civilization progressed, the Orch and other species realized that none of them were actually the savage barbarians they'd imagined each other to be. With time, we finally reconciled our differences and now live together in harmony in this shared arcadia."
               }
-            ]
+            ],
+            "id": "p-afbd7c2fe0ebe934"
           },
           {
             "type": "paragraph",
@@ -129,7 +140,8 @@
                 "type": "text",
                 "text": "Today, though this long-standing historical rivalry has long since ended, its traces still remain. Even now, most of the orch still live within the borders of the ancient \"Orch Republic,\" which was their autonomous region. The orch who've stayed in their ancestral homeland have transformed it into a massive theme park."
               }
-            ]
+            ],
+            "id": "p-059b33556b116623"
           },
           {
             "type": "paragraph",
@@ -138,7 +150,8 @@
                 "type": "text",
                 "text": "The name \"Orch Republic\" has become an iconic cultural symbol of Planarcadia, representing the orch's carefree, untamed, and bold way of life. They hope that every visitor gets a chance to experience the joy and unbridled spirit that the word \"orch\" embodies."
               }
-            ]
+            ],
+            "id": "p-aacac59cc95d7d61"
           },
           {
             "type": "paragraph",
@@ -157,7 +170,8 @@
                 "type": "text",
                 "text": "Nowadays, when you gaze up at the Phantasmoon, you're sure to see the rocket on it. When someone asks \"What's on the Phantasmoon?\", \"rocket\" is always the first answer that comes to mind."
               }
-            ]
+            ],
+            "id": "p-20d9bf168a03f8a5"
           },
           {
             "type": "paragraph",
@@ -166,7 +180,8 @@
                 "type": "text",
                 "text": "However, to the ancients, the strange shapes observed on the Phantasmoon weren't the rocket, but a multitude of other things: birds, small beasts, men and women. Scholars generally believe this is a case of collective human \"overfitting,\" where naturally random patterns are mentally reconstructed into symbols and meanings."
               }
-            ]
+            ],
+            "id": "p-5ee351fcc60b4862"
           },
           {
             "type": "paragraph",
@@ -175,7 +190,8 @@
                 "type": "text",
                 "text": "The origins of the moonlull remain shrouded in mystery to this day, but people prefer to believe they were born from the ancients' fantastical answer to the question of what lives on the Phantasmoon: the rabbits."
               }
-            ]
+            ],
+            "id": "p-289cf56e4c4a33e0"
           },
           {
             "type": "paragraph",
@@ -184,7 +200,8 @@
                 "type": "text",
                 "text": "It is likely this very origin story that has endowed the moonlull with their romantic, mysterious, and elusive air."
               }
-            ]
+            ],
+            "id": "p-752007c4c2efbfaf"
           },
           {
             "type": "paragraph",
@@ -203,7 +220,8 @@
                 "type": "text",
                 "text": "During the Cindearth Age, humanity created many imagenaes for warfare. The lightpaw was one of them."
               }
-            ]
+            ],
+            "id": "p-892898ccb65b67e0"
           },
           {
             "type": "paragraph",
@@ -212,7 +230,8 @@
                 "type": "text",
                 "text": "These nimble and agile imagenaes serve as the vanguard scouts in war. They were given the name \"lightpaw,\" likely a technique used by the artist during imagenesis to reinforce collective cognition and help this species gather Wishpower."
               }
-            ]
+            ],
+            "id": "p-71cf07fa1f7dfa19"
           },
           {
             "type": "paragraph",
@@ -221,7 +240,8 @@
                 "type": "text",
                 "text": "After the Cindearth Age, most imagenaes bred for war couldn't adapt to peacetime life and gradually faded away, but lightpaws were the exception. No matter the era, lightpaws have always played an irreplaceable role."
               }
-            ]
+            ],
+            "id": "p-09b678f46b01f673"
           },
           {
             "type": "paragraph",
@@ -230,7 +250,8 @@
                 "type": "text",
                 "text": "After all, speed comes in handy no matter the situation."
               }
-            ]
+            ],
+            "id": "p-98439e7e44ed3720"
           },
           {
             "type": "paragraph",
@@ -249,7 +270,8 @@
                 "type": "text",
                 "text": "Unlike \"created\" imagenaes, ghosts manifest at completely unpredictable times and places."
               }
-            ]
+            ],
+            "id": "p-2c1476310e0b565d"
           },
           {
             "type": "paragraph",
@@ -258,7 +280,8 @@
                 "type": "text",
                 "text": "They are born from regret and obsession. The intense, unyielding beliefs of the dead before their final moments often coalesce into ghosts under the light of the Phantasmoon. In certain circumstances, the living can also develop obsessions strong enough to spawn ghosts, known as the \"spirit of obsession.\""
               }
-            ]
+            ],
+            "id": "p-d23dbbfeeb0a768f"
           },
           {
             "type": "paragraph",
@@ -267,7 +290,8 @@
                 "type": "text",
                 "text": "The ghost born from obsession breeds paranoiacs. Somehow, this seems to make them far more adept at achieving worldly success than they were in life. Perhaps in certain fields, \"paranoia\" isn't a negative trait after all."
               }
-            ]
+            ],
+            "id": "p-522b489773e23c7f"
           },
           {
             "type": "paragraph",
@@ -276,7 +300,8 @@
                 "type": "text",
                 "text": "Legal issues involving ghosts are always tangled. Strictly speaking, a ghost bears no relation to the deceased, yet most ghosts consider themselves to be that very person. This entangles lawmakers in a prolonged tug-of-war over whether ghosts have the right to inherit property and social ties."
               }
-            ]
+            ],
+            "id": "p-80f6da5d19fc51fb"
           },
           {
             "type": "paragraph",
@@ -285,7 +310,8 @@
                 "type": "text",
                 "text": "And then there's the issue of the \"spirit of obsession\"... Good heavens, it's a jurist's worst nightmare."
               }
-            ]
+            ],
+            "id": "p-267ed34f6da82578"
           },
           {
             "type": "paragraph",
@@ -304,7 +330,8 @@
                 "type": "text",
                 "text": "Mechatrons don't have a long history. They only came into existence fifteen years ago. To this day, many still think they're some kind of Intellitron developed by the IPC. But no, they're just like us: genuine imagenated creature, born from Wishpower."
               }
-            ]
+            ],
+            "id": "p-a9e8444d1a853456"
           },
           {
             "type": "paragraph",
@@ -313,7 +340,8 @@
                 "type": "text",
                 "text": "Mechatrons were born from humanity's spiritual worship of giant mechs in Planarcadia. Under the IPC's cultural influence, as times changed and audience tastes shifted, artists began catering to contemporary trends in their work."
               }
-            ]
+            ],
+            "id": "p-874fd5f3f8ee57ee"
           },
           {
             "type": "paragraph",
@@ -322,7 +350,8 @@
                 "type": "text",
                 "text": "And so, they churned out an endless stream of works featuring \"robots.\" The robot imagenae born from these works, boasting superior performance, gradually climbed the social ladder and earned themselves higher status."
               }
-            ]
+            ],
+            "id": "p-3586df1eb407dc6b"
           },
           {
             "type": "paragraph",
@@ -331,7 +360,8 @@
                 "type": "text",
                 "text": "These days, mechatrons have become an indispensable part of Planarcadia's social fabric. They diligently haul cargo, maintain public order, and manage machinery. The towering mechatrons participate in the construction of skyscrapers like cranes. Furthermore, some super-sized mechatrons even join the defense of Planarcadia, working alongside the Department of Aberration Defense to combat aberrant incursions."
               }
-            ]
+            ],
+            "id": "p-ccf3adff1fff4037"
           },
           {
             "type": "paragraph",
@@ -340,7 +370,8 @@
                 "type": "text",
                 "text": "But the mechatrons' main gig is, without doubt, starring in robot-themed movies and shows."
               }
-            ]
+            ],
+            "id": "p-e3ac0f703baf9f42"
           }
         ]
       }

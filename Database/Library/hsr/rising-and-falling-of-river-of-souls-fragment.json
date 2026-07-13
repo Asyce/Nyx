@@ -4,10 +4,11 @@
   "id": "rising-and-falling-of-river-of-souls-fragment",
   "name": "Rising and Falling of River of Souls (Fragment)",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Rising_and_Falling_of_River_of_Souls_(Fragment)",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -37,7 +39,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-f45b580975b160b8"
           },
           {
             "type": "paragraph",
@@ -46,7 +49,8 @@
                 "type": "text",
                 "text": "The origins of the initial records come from a particular war-related document, as seen below:"
               }
-            ]
+            ],
+            "id": "p-9f5a7dfed546c8b0"
           },
           {
             "type": "paragraph",
@@ -60,7 +64,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-0d1647447dc2e08c"
           },
           {
             "type": "paragraph",
@@ -69,7 +74,8 @@
                 "type": "text",
                 "text": "It is believed that those who witnessed this at the time saw the rare purple as \"the deepest crimson,\" and in other writings, it was described as \"beautiful yet dangerous\" or \"the sorrow of Strife.\""
               }
-            ]
+            ],
+            "id": "p-02642d671b6b1a3e"
           },
           {
             "type": "paragraph",
@@ -78,7 +84,8 @@
                 "type": "text",
                 "text": "However, according to the manuscript of a general from Aidonia, this understanding only lasted a few Light Calendar years —"
               }
-            ]
+            ],
+            "id": "p-6d514ba4375f8814"
           },
           {
             "type": "paragraph",
@@ -92,7 +99,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-da0970505f9403a7"
           },
           {
             "type": "paragraph",
@@ -106,7 +114,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-9333dc607f8c1f10"
           },
           {
             "type": "paragraph",
@@ -115,7 +124,8 @@
                 "type": "text",
                 "text": "This marks the first appearance of the term \"River of Souls.\" Later, its emergence into the physical world was thought to be linked to the birth of \"Thanatos\"..."
               }
-            ]
+            ],
+            "id": "p-93d4f878ac12829b"
           },
           {
             "type": "paragraph",
@@ -124,7 +134,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -138,7 +149,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-a843696ad58afd14"
           },
           {
             "type": "paragraph",
@@ -152,7 +164,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-d6260c15126635ad"
           },
           {
             "type": "paragraph",
@@ -166,7 +179,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-949196e64bcf1f4f"
           },
           {
             "type": "paragraph",
@@ -175,7 +189,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-3"
           },
           {
             "type": "paragraph",
@@ -184,7 +199,8 @@
                 "type": "text",
                 "text": "...Combined from Aidonia's documents, scholars have identified a pattern — the River of Souls appears whenever there are significant numbers of deaths and fades away in a few days. Its rise and fall are directly linked to the scale of death."
               }
-            ]
+            ],
+            "id": "p-53730ffa48d8d87f"
           },
           {
             "type": "paragraph",
@@ -193,7 +209,8 @@
                 "type": "text",
                 "text": "Debates on its nature continue, with theories such as \"a trial to prevent the dead from meeting Thanatos,\" \"the manifestation of lost souls,\" or \"Thanatos' tears,\" but none have been proven conclusively..."
               }
-            ]
+            ],
+            "id": "p-3aaf104a35aa4fdd"
           },
           {
             "type": "paragraph",
@@ -209,7 +226,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-cc53ebadfc6ca3e9"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "in-memory-of-an-old-friend",
   "name": "In Memory of an Old Friend",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/In_Memory_of_an_Old_Friend",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "My acquaintance with Ryusuke began decades ago. On patrol for truants, I instead found a new teacher napping away in the courtyard. The man who gave his name as Ryusuke appeared breezy and indolent, a figure I could scarcely connect to the husband and father who would later wear himself thin for his family, much less the celebrated artist whose renown would one day fill all of arcadia."
               }
-            ]
+            ],
+            "id": "p-534c29fad4c39cb7"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Years have passed, yet many self-proclaimed \"connoisseurs\" in the industry still harbor strong opinions about this man who wed into the Graphia family, claiming that \"his artworks don't justify his standing.\" Though Ryusuke brushed off such criticism like water off a duck's back, as his friend, I still feel compelled to set the record straight by writing down what actually happened, so people can judge for themselves."
               }
-            ]
+            ],
+            "id": "p-b9291087cbfd0e62"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "This young man from Bathia made a bold vow to become arcadia's foremost teacher and artist. I laughed my head off at first, but he quickly proved me wrong. Have you ever seen an art teacher go toe-to-toe with gangsters for his students' sake? Not long after, the Young Master Polwave of the Synwish Syndicate showed up at the school in person to apologize on behalf of his underlings, leaving the bigwigs on the board of directors utterly dumbfounded."
               }
-            ]
+            ],
+            "id": "p-1139001a33c38084"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "Mr. Polwave said he wanted to commission a painting from Ryusuke for the syndicate's boss, but Ryusuke flat-out rejected him with a \"Your lot isn't yet worthy.\" The two burst out laughing and nearly came to blows again. Years later, in a twist of fate, some low-level thugs ended up messing with this guy's daughter without even realizing it. Talk about asking for trouble."
               }
-            ]
+            ],
+            "id": "p-e8b86427dae145d2"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "In those days, plenty of teachers and students would slip love letters into his desk, but Ryusuke turned every one down with utmost seriousness. So you can imagine my surprise when I learned he'd secretly gotten engaged to the dean's daughter. It was like watching a tiger casually munch on an apple."
               }
-            ]
+            ],
+            "id": "p-05a11714c2a54c86"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "It was only later, when I visited Roan in the hospital, that I learned the truth from her. After her Weathering Curse flared up, she fled from the hospital. She wanted no part of the family business but had nowhere to go. Back then, we wore ourselves out searching for her. Little did we know someone had already found her and was even quietly sheltering her."
               }
-            ]
+            ],
+            "id": "p-5e592e090b12ad1d"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "\"I know you. The new teacher from years back. Did my father send another one to drag me back?\""
               }
-            ]
+            ],
+            "id": "p-d27653f883edc7af"
           },
           {
             "type": "paragraph",
@@ -96,7 +104,8 @@
                 "type": "text",
                 "text": "With those words to the girl, the young man carried her on his back and left Duomension City."
               }
-            ]
+            ],
+            "id": "p-a9719b5bc96b8de8"
           },
           {
             "type": "paragraph",
@@ -105,7 +114,8 @@
                 "type": "text",
                 "text": "But that fairytale twist couldn't rewrite the Graphia family's tragedy. Sometimes I have this cruel thought: If Ryusuke had never married Roan, never poured his entire future into saving that mother and daughter, he might have lived an ordinary, happier life. The cost, of course, is that the celebrated artist the world knows today would never have existed."
               }
-            ]
+            ],
+            "id": "p-00abc3ed387278a7"
           },
           {
             "type": "paragraph",
@@ -114,7 +124,8 @@
                 "type": "text",
                 "text": "Having journeyed between various planets, Ryusuke has witnessed far more stories, both comedic and tragic, than we who are earthbound ever could. His artwork, brimming with a sincere love for the world, lets even the humblest soul glimpse the monumental in his vast canvases. These works are a hymn to human greatness, as individuals, as a whole, and as fleeting travelers through long time, sending an unyielding bellow of defiance to the world."
               }
-            ]
+            ],
+            "id": "p-d2c5695643f80a23"
           },
           {
             "type": "paragraph",
@@ -123,7 +134,8 @@
                 "type": "text",
                 "text": "To this day, he's still out there wandering the universe. I often wonder what he's searching for. All I can do, as his friend, is hope that wherever he is, he finds it."
               }
-            ]
+            ],
+            "id": "p-c4de0d3dc61f4918"
           }
         ]
       }

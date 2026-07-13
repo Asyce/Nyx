@@ -4,10 +4,11 @@
   "id": "somewhat-aged-copy-of-tequil-the-brave",
   "name": "Somewhat Aged Copy of \"Tequil the Brave\"",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Somewhat_Aged_Copy_of_%22Tequil_the_Brave%22",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -733,7 +734,8 @@
                 "type": "text",
                 "text": "The volcano lives — as does the bravery of all the tribes."
               }
-            ]
+            ],
+            "id": "p-e30b5cab24f6acd9"
           }
         ]
       }

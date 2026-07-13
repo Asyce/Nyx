@@ -4,17 +4,19 @@
   "id": "diary-of-roald-the-adventurer",
   "name": "Diary of Roald the Adventurer",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Diary_of_Roald_the_Adventurer",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "My shoes are completely waterlogged after trekking here from the banks of Dihua Marsh. The last time I took them off to pour the water out, a frog jumped out."
               }
-            ]
+            ],
+            "id": "p-9fd8d0c1c04454d4"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "From the scale of this ruin, I suspect it is the temple that provided safe refuge for civilians during the Archon War several millennia ago. I've heard that the God of Salt built such a place. Liyue folklore holds that she was the gentlest of the gods. In the brutality and chaos of wartime, human beings were puny and disposable. But the Salt God refused to join the other gods in their senseless battle for dominance, instead choosing to give shelter to those dispossessed by the war. She brought them here to build a new settlement. She showed them kindness and comfort. And even as global upheaval ushered in the end of an epoch, she worked tirelessly to bring about a return to peace between the gods."
               }
-            ]
+            ],
+            "id": "p-3ed50f69f0259abf"
           },
           {
             "type": "paragraph",
@@ -51,7 +55,8 @@
                 "type": "text",
                 "text": "It seems that most parts of the ancient city have sunk into the riverbed of Bishui River. It's fortunate that the foundation of the temple is still here after all this time."
               }
-            ]
+            ],
+            "id": "p-5bcf346df37f5055"
           },
           {
             "type": "paragraph",
@@ -60,7 +65,8 @@
                 "type": "text",
                 "text": "She amassed a group of followers who settled in the area now known as Sal Terrae and lived a humble existence. The city stood for several centuries, finally falling with the downfall of the god herself."
               }
-            ]
+            ],
+            "id": "p-75c15cfe4857431e"
           },
           {
             "type": "paragraph",
@@ -69,7 +75,8 @@
                 "type": "text",
                 "text": "The gentlest of the gods fell not in battle at the hand of the other gods. She fell at the hand of one of her own people, the people she had loved so dearly."
               }
-            ]
+            ],
+            "id": "p-09697961dc215aa3"
           },
           {
             "type": "paragraph",
@@ -78,7 +85,8 @@
                 "type": "text",
                 "text": "He was the first king of the people, and also the last. He had once loved the God of Salt just as the rest did, but as a mere mortal, he ultimately could not fathom the self-sacrificial love the god embodied. He sought after military might, in the hope that the city might be able to hold its own in defense and attack. And so, to demonstrate that gentleness was a virtue unfit for the times, he took a sword and ended the life of the lone, defenseless god. No sooner had she met her demise than the temple itself collapsed, and the people's city crumbled like salt into the earth."
               }
-            ]
+            ],
+            "id": "p-6236c19dfcd3fb94"
           },
           {
             "type": "paragraph",
@@ -87,7 +95,8 @@
                 "type": "text",
                 "text": "As for the treacherous king's fate, theories abound but none are certain. Some say he continued to reign in solitude from the ruins for centuries, finally turning to dust long after the cries of war had subsided, the ruins had been engulfed by the river, and insects had hollowed out his scepter. Other say that he took his own life after taking that of the god, unable to bear the guilt of deicide that weighed upon his conscience. In any case, the people on whom the Salt God had once looked so fondly became scattered across Liyue. In the safe haven of Liyue Harbor, under the rule of the Geo Archon, they and their stories survived, and that is why we still hear about them to this day."
               }
-            ]
+            ],
+            "id": "p-f24a6201669afea5"
           },
           {
             "type": "paragraph",
@@ -96,7 +105,8 @@
                 "type": "text",
                 "text": "Rumors say that the Salt God's body can still be found somewhere in the depths of the ruins. Though her body has turned to salt, it still maintains her posture from the moment she was struck by the king's sword."
               }
-            ]
+            ],
+            "id": "p-d9bdd4d53be0ec93"
           },
           {
             "type": "paragraph",
@@ -105,20 +115,23 @@
                 "type": "text",
                 "text": "It looks like we're in for some heavy rain: dark clouds are gathering as far as the eye can see. I'd better get moving. I'm going to head northwest to Mt. Qingce. Hopefully I can make it there before the rain gets too heavy. And hopefully it's not such a mad dash that I lose my diary en route..."
               }
-            ]
+            ],
+            "id": "p-34b15d6bcbc18cdf"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -127,7 +140,8 @@
                 "type": "text",
                 "text": "—Qingce Village—"
               }
-            ]
+            ],
+            "id": "p-63aa97727437fae7"
           },
           {
             "type": "paragraph",
@@ -136,7 +150,8 @@
                 "type": "text",
                 "text": "Leaving Dragonspine, I waded through rivers, walked across shoals carpeted with silver grass, and made my way through sun-dappled bamboo forests, before finally arriving at Mt. Qingce. My shoes and clothes were all soaked from the heavy rain. Luckily, the elders in the village were kind enough to let me hang my clothes in the assembly hall. They even prepared dry clothes and some food for me."
               }
-            ]
+            ],
+            "id": "p-40df11cc30db9853"
           },
           {
             "type": "paragraph",
@@ -145,7 +160,8 @@
                 "type": "text",
                 "text": "There were many children in Qingce Village. Sweet as they may be, they can become quite clingy. There were also many elders here. People living here seemed happy and carefree. The elders said that most of the young people had gone to work in Liyue Harbor. Many of them already had a family there and they would send money back every month. Having seen the prosperity and convenience of the city, it's hard for these young people to go back to the rural life here. Liyue Harbor has brought peace and prosperity to Qingce Village for the time being, but eventually it will also be the cause of its demise."
               }
-            ]
+            ],
+            "id": "p-7aa66da96faeae5d"
           },
           {
             "type": "paragraph",
@@ -154,7 +170,8 @@
                 "type": "text",
                 "text": "Legend has it that the word \"Qingce\" originated from the name of an ancient monster \"Chi.\" \"Chi,\" of course, is what we call it now in the contemporary language. But in ancient times, the people of Liyue pronounced it as \"Qingce.\""
               }
-            ]
+            ],
+            "id": "p-2ab448d1208b901d"
           },
           {
             "type": "paragraph",
@@ -163,7 +180,8 @@
                 "type": "text",
                 "text": "An elder said that thousands of years ago, Morax defeated the sea serpent and brought peace back to Liyue. After Chi died, its body turned to stone, its blood became water, and its scales are now the terraced fields. The monster's nest became what we now call Mt. Qingce."
               }
-            ]
+            ],
+            "id": "p-39a614901c48ebe7"
           },
           {
             "type": "paragraph",
@@ -172,7 +190,8 @@
                 "type": "text",
                 "text": "But after a quick look, I believe the mountains consist of mostly rocks shattered by impacts from the outside. No traces of a monster can be found in the rocks. Perhaps the corpse of Chi is long gone and this monster-turning-into-a-mountain thing is nothing but an ancient tale?"
               }
-            ]
+            ],
+            "id": "p-a52140c99a9cb158"
           },
           {
             "type": "paragraph",
@@ -181,20 +200,23 @@
                 "type": "text",
                 "text": "My next destination is the lake located amongst the stone peaks of Jueyun Karst. It is said that there is a labyrinth where the Adepti live. Let's see if I can find them."
               }
-            ]
+            ],
+            "id": "p-ca566a3a34a8c90e"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "vol-3",
       "label": "Vol. 3",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -213,7 +235,8 @@
                 "type": "text",
                 "text": "I seem to have lost yet another diary... I don't understand, I even made sure to say to myself three times: \"Whatever you do, don't lose your diary.\" But then I got caught up in my adventure, and it went straight out of my head. I waste so much paper every year... I do hope the Dendro Archon won't mind."
               }
-            ]
+            ],
+            "id": "p-04d26af575fa3f0e"
           },
           {
             "type": "paragraph",
@@ -222,7 +245,8 @@
                 "type": "text",
                 "text": "I have arrived at a mountain lake located high on Mt. Aocang. To get here, I had to hike up a winding dirt trail, make my way across perilous wooden walkways built by herb gatherers in ancient times, and then scale a steep, wet cliff. I was told by some fishermen that the lake is a thousand furlongs deep, but after taking a dip in the water I can safely say that their statements were pure hyperbole."
               }
-            ]
+            ],
+            "id": "p-338a0554d56d14d5"
           },
           {
             "type": "paragraph",
@@ -231,7 +255,8 @@
                 "type": "text",
                 "text": "The Qingce Village elders were right after all: the mountain lake's water is sweet and warm. This place certainly lives up to its reputation as a celestial paradise! Back when I had just arrived in Jueyun Karst, an old farmer told me that the adepti possess a mysterious magical ability that lets them turn into mist and roam in the sea of clouds. I dismissed it as an old wives' tale at the time, but seeing the way the mist over the lake rises up to the summit and merges with the sea of clouds, it does make me wonder... The adeptus I've been searching for could be roaming the clouds at the summit right now, for all I know, and I would be completely oblivious to it."
               }
-            ]
+            ],
+            "id": "p-6bc74138f83aef54"
           },
           {
             "type": "paragraph",
@@ -240,7 +265,8 @@
                 "type": "text",
                 "text": "I headed east down Mt. Aocang and ended up thoroughly lost in a thick forest. Finally, I came to a clearing and discovered I was back at the banks of the Bishui River. I have an excellent view of the surrounding area here, so I think this is where I'll camp for the night."
               }
-            ]
+            ],
+            "id": "p-550b811166f6419d"
           },
           {
             "type": "paragraph",
@@ -249,7 +275,8 @@
                 "type": "text",
                 "text": "While I was sorting through my things at the camp, I met a young lady who looked like she was out on a treasure hunt. She was called Eduardo, and she explained that she was heading west to look for a \"Miraculous Lake\" at the foot of Mt. Aocang:"
               }
-            ]
+            ],
+            "id": "p-e3ae0482edab935a"
           },
           {
             "type": "paragraph",
@@ -258,7 +285,8 @@
                 "type": "text",
                 "text": "\"Legends tell of an adeptus who lives beside a lake at the foot of Mt. Aocang on the northern side. If that's true, then that's sure to be where the adeptus keeps their secret treasure, too... Mwuhahaha, I know exactly what I'll do when I get my hands on that treasure!\""
               }
-            ]
+            ],
+            "id": "p-999f786af4dc5b35"
           },
           {
             "type": "paragraph",
@@ -267,7 +295,8 @@
                 "type": "text",
                 "text": "Then she quickly changed her tune, as if suddenly realizing how she sounded: \"I... I'd contact the Guild, and report to them if I found it! I am a proud member of the Adventurers' Guild, and I have absolutely no connection to the Treasure Hoarders!\""
               }
-            ]
+            ],
+            "id": "p-146f903278838c2c"
           },
           {
             "type": "paragraph",
@@ -276,7 +305,8 @@
                 "type": "text",
                 "text": "Indeed, some adventurers are in the business for material wealth alone. I'm reminded of that classic Liyue saying, \"To each their unfathomable own\"... But whatever her motivations, she is a fellow adventurer nonetheless, and a genuine one at that."
               }
-            ]
+            ],
+            "id": "p-464990f4355f2c75"
           },
           {
             "type": "paragraph",
@@ -285,20 +315,23 @@
                 "type": "text",
                 "text": "I must say, I was tempted to head west in search of this fabled \"Miraculous Lake\" myself after hearing Eduardo talk about it. But in the end I decided to stick with my existing plan. Barring any unforeseen circumstances, I will proceed to the Guili Plains to see what sights and treasures are waiting to be discovered there. And hopefully I won't lose my diary again this time — again, barring any unforeseen circumstances. I can't lose another one... May any unforeseen circumstances be well and truly barred."
               }
-            ]
+            ],
+            "id": "p-c65d8613476e475f"
           }
         ]
       }
     },
     {
       "id": "4",
+      "volumeKey": "vol-4",
       "label": "Vol. 4",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -317,7 +350,8 @@
                 "type": "text",
                 "text": "Traveling southeast along the Bishui River, I came across a pond at the foot of Mt. Tianheng on the north side. The water is clearer than the sky and the water temperature is similar to a human's body temperature. The water has a sweet aftertaste."
               }
-            ]
+            ],
+            "id": "p-a1044751bb4191c5"
           },
           {
             "type": "paragraph",
@@ -326,7 +360,8 @@
                 "type": "text",
                 "text": "A local herb gatherer told me that thousands of years ago, this pond was once a garden. It is said that during the era of the Archon War, two lovers, whose families disapproved of their relationship, made this place their rendezvous. However, the times were merciless, and the man left his lover to follow the Geo Archon. He plunged himself bravely into the conflict as a mortal among gods... and like so many mortals in those dark days, none heard from him again for centuries."
               }
-            ]
+            ],
+            "id": "p-c6c24ea34dd4c84d"
           },
           {
             "type": "paragraph",
@@ -345,7 +380,8 @@
                 "type": "text",
                 "text": "I spent an afternoon here and nodded off while taking a bath in the pond. When I woke up, the stars were already glittering in the night sky."
               }
-            ]
+            ],
+            "id": "p-a97e0144a4b5f625"
           },
           {
             "type": "paragraph",
@@ -354,7 +390,8 @@
                 "type": "text",
                 "text": "I noticed a baby fox slinking around me, but it got scared and ran away when I looked up."
               }
-            ]
+            ],
+            "id": "p-72652db3f6c60593"
           },
           {
             "type": "paragraph",
@@ -363,7 +400,8 @@
                 "type": "text",
                 "text": "Not until later did I realize that one of my shoes was missing and my bag of provisions had been ransacked."
               }
-            ]
+            ],
+            "id": "p-17094878e4beba35"
           },
           {
             "type": "paragraph",
@@ -372,20 +410,23 @@
                 "type": "text",
                 "text": "It took longer than I expected to pack my luggage. My next destination is the delta of the Bishui River in the northeast — Yaoguang Shoal."
               }
-            ]
+            ],
+            "id": "p-9dbadb087e2f8a11"
           }
         ]
       }
     },
     {
       "id": "5",
+      "volumeKey": "vol-5",
       "label": "Vol. 5",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -444,7 +485,8 @@
                 "type": "text",
                 "text": "I once ventured into the fog to visit the Seashell Sanctuary, but didn't see the owner."
               }
-            ]
+            ],
+            "id": "p-4c6f222768c22098"
           },
           {
             "type": "paragraph",
@@ -453,7 +495,8 @@
                 "type": "text",
                 "text": "A legend among fishermen has it that the Greenconch Lodge was the home of an adeptus — the green conch itself, in fact, constituting part of her very being. She provided shelter for travelers who were lost in the fog, took care of the shipwrecked survivors, and bid godspeed to other adepti on crusades against sea monsters."
               }
-            ]
+            ],
+            "id": "p-6111904e83ea84ea"
           },
           {
             "type": "paragraph",
@@ -462,7 +505,8 @@
                 "type": "text",
                 "text": "But older fishermen interpret the legend differently. They say that the Seashell Sanctuary was not the abode of an adeptus, but of a family that had lived in the giant seashell for generations. They devoted themselves to helping the lost and saved many fishermen's lives."
               }
-            ]
+            ],
+            "id": "p-3d4f5f294fe1b1d2"
           },
           {
             "type": "paragraph",
@@ -491,20 +535,23 @@
                 "type": "text",
                 "text": "I should arrive in no time at all if the weather is good."
               }
-            ]
+            ],
+            "id": "p-9a3df6c393113df0"
           }
         ]
       }
     },
     {
       "id": "6",
+      "volumeKey": "vol-6",
       "label": "Vol. 6",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -523,7 +570,8 @@
                 "type": "text",
                 "text": "We skirted past a few small islands occupied by Hilichurls, managing to steer clear of their line of sight, and made it to Guyun Stone Forest successfully. Six giant Stone Pillars kept the sun out of my eyes as I went ashore, and it was remarkably cool in their shade. The crabs on the beach were big and meaty. Maybe it's because the area has been nourished by the remains of a magical beast for millennia? Anyway, they taste great roasted."
               }
-            ]
+            ],
+            "id": "p-a3d42ca4502c4b91"
           },
           {
             "type": "paragraph",
@@ -532,7 +580,8 @@
                 "type": "text",
                 "text": "The sheer beauty of this place makes it hard to imagine that it was once the site of a bloody battle between the Geo Archon and the sea monster. Suffice to say the blood once shed here has long since vanished into the sea without a trace. I suppose that everything pales into insignificance when faced with the scale of the sea. Whether it's a single drop of an ordinary person's blood or rivers of blood shed collectively by the heroes of the past, the relentless flowing of the winds and waves are destined to wash every last trace of it away. In the end, everything will be just as it has always been, since time immemorial."
               }
-            ]
+            ],
+            "id": "p-effffe26276d86db"
           },
           {
             "type": "paragraph",
@@ -541,7 +590,8 @@
                 "type": "text",
                 "text": "Legend has it that the Geo Archon once carved a giant polearm out of the rocky land. He plunged it deep into the ocean, riding it straight through the body of the demon that wrought chaos upon his domain. Over the years, the wind gradually eroded the stone polearm into the form we see today."
               }
-            ]
+            ],
+            "id": "p-6351f13e6502c0d3"
           },
           {
             "type": "paragraph",
@@ -550,7 +600,8 @@
                 "type": "text",
                 "text": "Later, I'll return to the mainland to camp out for the night. From where I am, I can see the ships leaving the harbor in the distance. As I write, the Crux is setting sail once more, embarking on its next grand voyage. I wonder what mission the Qixing Commerce Guild has entrusted to the legendary Captain Beidou this time?"
               }
-            ]
+            ],
+            "id": "p-84870de51e375893"
           },
           {
             "type": "paragraph",
@@ -559,7 +610,8 @@
                 "type": "text",
                 "text": "I had the most awful night's sleep last night. I dreamt I was somewhere pitch-black and damp. Suddenly, I was a sea monster, and my impaled body was being driven into the ocean floor by the Geo Archon's polearm. I writhed around and clutched at the giant polearm made of rock, trying desperately to free myself, but it was wedged firmly in place. Each movement I made filled me with agony, and with rage..."
               }
-            ]
+            ],
+            "id": "p-f436cb4f7af76cea"
           },
           {
             "type": "paragraph",
@@ -568,7 +620,8 @@
                 "type": "text",
                 "text": "Note to self: Guyun Stone Forest is not a good place to spend the night! I woke early, so I lit the campfire and I'll move out once the sky's bright. My next stop is Liyue Harbor: I just need to be somewhere that I can get my clothes washed, beard trimmed, that sort of thing. Once I've sorted myself out, I'm making another trip to Jueyun Karst. I didn't make any progress on finding the adepti last time. This time, I think I'll try my luck at Qingyun Peak."
               }
-            ]
+            ],
+            "id": "p-3ffc14b41d143fe2"
           },
           {
             "type": "paragraph",
@@ -577,20 +630,23 @@
                 "type": "text",
                 "text": "Another note to self: Do not lose my diary again!"
               }
-            ]
+            ],
+            "id": "p-cab02a1df7fff348"
           }
         ]
       }
     },
     {
       "id": "7",
+      "volumeKey": "vol-7",
       "label": "Vol. 7",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -609,7 +665,8 @@
                 "type": "text",
                 "text": "I shall preface my adventurer's diary with a stern reminder to myself. Recently, I keep discovering that I've misplaced my diary every time I feel like I want to write in it. Oh, Roald, you must learn to be more careful in future!"
               }
-            ]
+            ],
+            "id": "p-cc9dc1c92e70c651"
           },
           {
             "type": "paragraph",
@@ -618,7 +675,8 @@
                 "type": "text",
                 "text": "After climbing for what feels like an eternity, I have finally reached the top of the precipice. I'm surrounded by a sea of clouds. It's impossible to know where in the midst of that sea of clouds I once stood looking up at this celestial place where the adepti dwell."
               }
-            ]
+            ],
+            "id": "p-e60e745235191735"
           },
           {
             "type": "paragraph",
@@ -627,7 +685,8 @@
                 "type": "text",
                 "text": "Apart from the few oddly-shaped trees, there are barely any signs of life here at the top of the precipice. Occasionally, a Lapis Glede will let out a high-pitched cry before diving down into the clouds and disappearing from view. Up the hill from here is the adeptus's dwelling, but there's a few things I need to sort out before I head up. The most pressing issue is repairing my climbing gear, I'll also tend to a few cuts and grazes while I'm at it. A kind farmer gave me some ointment when I first arrived in Jueyun Karst — it stings, but it really does work."
               }
-            ]
+            ],
+            "id": "p-f4e93156f60c8648"
           },
           {
             "type": "paragraph",
@@ -636,7 +695,8 @@
                 "type": "text",
                 "text": "Nights atop the precipice offer little in the way of comfort. The relentless wind above the clouds pierces to the bone. It's difficult to shelter oneself from it, because it finds its way to you through all the tiny gaps in the tent, and there's no way you could keep a campfire alight in this wind. A good night's sleep is therefore out of the question. I wonder if the adeptus who dwells at the summit ever gets lonely and dispirited being surrounded by nothing but the cold, heartless wind?"
               }
-            ]
+            ],
+            "id": "p-413a856a91cbfbd1"
           },
           {
             "type": "paragraph",
@@ -645,20 +705,23 @@
                 "type": "text",
                 "text": "At the end of a long and sleepless night, I finally watched the moon set into the sea of clouds. I'll make sure my pack is securely fastened, then at daybreak I'll begin my journey to the summit where the adeptus dwells. Hopefully, the altitude is high enough that it won't rain."
               }
-            ]
+            ],
+            "id": "p-21571ab8360eb6a8"
           }
         ]
       }
     },
     {
       "id": "8",
+      "volumeKey": "vol-8",
       "label": "Vol. 8",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -677,7 +740,8 @@
                 "type": "text",
                 "text": "To stop me from losing my diary yet again, this time I've put a marker made of moss on the leather case. Now it really stands out in my backpack. It's perfect! Tonight, I'll put it beside my pillow before I go to sleep — there's no way I can lose it then. Honestly, I don't think I can keep calling myself an adventurer if I lose my diary one more time... a misadventurer, perhaps."
               }
-            ]
+            ],
+            "id": "p-7ce4dec1f4c507db"
           },
           {
             "type": "paragraph",
@@ -686,7 +750,8 @@
                 "type": "text",
                 "text": "I headed westward from the mountain pass at Mt. Tianheng and came to a ruin, known locally as Qingxu Pool. The entrance to the ruin is located right in the center of a giant rocky outcrop rising up from the center of a shallow pool. It is surrounded on all sides by steep cliff faces. There are several stone towers which blend in seamlessly with the natural scenery put here by the Geo Archon. The morning mist is beginning to clear and the first rays of sunlight are starting to illuminate the mountains and ruins. It looks like it'll be good weather today."
               }
-            ]
+            ],
+            "id": "p-667e6747fad59202"
           },
           {
             "type": "paragraph",
@@ -695,7 +760,8 @@
                 "type": "text",
                 "text": "Legends say that these ruins predate the Geo Archon's rule over Liyue. The whole of Lisha was covered by water at the time of the Archon War, and back then this rocky outcrop was nothing more than a little islet that rose above the water's surface. After peace was restored, the region of Lisha unfurled once more as the tides withdrew, revealing the ancient buildings erected by the early peoples."
               }
-            ]
+            ],
+            "id": "p-ff562ef8623f837d"
           },
           {
             "type": "paragraph",
@@ -704,7 +770,8 @@
                 "type": "text",
                 "text": "Back when I was at the Wangshu Inn I met a scholar from Sumeru called Soraya. She had done a fair bit of research on the ruins in Lisha. Once she got talking about it she could talk all day. What she told me was that these ruins were left behind by an evil god, whose name has been wiped from the record, and its people. But in the end, the sea gave way to forests and fields, the self-serving god was defeated, and the strongholds and temples of the ancient city the god's people once built were left to crumble. That is how Qingxu Pool came to be. The ruins were submerged until the long Archon War finally came to an end, emerging on the landscape as the tide subsided."
               }
-            ]
+            ],
+            "id": "p-9bef561d0c54f119"
           },
           {
             "type": "paragraph",
@@ -713,7 +780,8 @@
                 "type": "text",
                 "text": "Maybe these crumbling remains have been left as a nostalgic reminder of a bygone era for the adepti and the other deities. In any case, this is a calm and tranquil place that has, for whatever reason, remained entirely unperturbed by the relentless development of Liyue Harbor and untouched by the mining operation based at the Chasm. It has just been left, as-is, right to this day. Perversely, the only disturbances have come since the mining at the Chasm has been halted, as monsters have now occupied the ruins here. Let's just hope they don't destroy anything."
               }
-            ]
+            ],
+            "id": "p-e31b4e957fc5d1c4"
           },
           {
             "type": "paragraph",
@@ -722,7 +790,8 @@
                 "type": "text",
                 "text": "It is a simple theory, but I need to gather more evidence. I should keep heading north and visit the ruins at Lingju Pass and Dunyu."
               }
-            ]
+            ],
+            "id": "p-d2cac6d3fa4998db"
           },
           {
             "type": "paragraph",
@@ -731,20 +800,23 @@
                 "type": "text",
                 "text": "I ran into Eduardo again just before I set off. She seemed to be traveling with a partner this time. She must have a busy adventurer's schedule — it seemed like I blinked and then she'd disappeared off into the ruins."
               }
-            ]
+            ],
+            "id": "p-f383804c627c5cab"
           }
         ]
       }
     },
     {
       "id": "9",
+      "volumeKey": "vol-9",
       "label": "Vol. 9",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -763,7 +835,8 @@
                 "type": "text",
                 "text": "I began my ascent of Dragonspine from its southern side, where the mountain meets the riverbanks and plains of Liyue. The mountain slopes gently here, the wind is soft, and the snow is light. Added to the unfrozen water sources, it makes this place a good choice for setting up a base camp. Once I have prepared my supplies, I will make a camp here before continuing my climb to the summit."
               }
-            ]
+            ],
+            "id": "p-61f16a53043683d5"
           },
           {
             "type": "paragraph",
@@ -782,7 +855,8 @@
                 "type": "text",
                 "text": "Unfortunately, I did not find any well-preserved inscriptions within the ruins, so there was no hard proof of the ancient civilization's historicity. Perhaps, I will find more information is preserved further up the mountain, buried deep within the bitingly cold blizzards."
               }
-            ]
+            ],
+            "id": "p-2c74d4f2d9a934a8"
           },
           {
             "type": "paragraph",
@@ -791,7 +865,8 @@
                 "type": "text",
                 "text": "Spending the night here is an unpleasant experience. The cold, damp wind chills to the bone, and the way it shakes the tent sounds like the roar of a rushing river. Guaranteed nightmare material for once you do manage to fall asleep. There's a cave by the water, and it must be spacious in there because I can hear the ghostly groaning of the wind echoing inside. Unfortunately, the entrance is tightly fenced off and there is simply no way to get through from the outside."
               }
-            ]
+            ],
+            "id": "p-7505ef08bf8f312c"
           },
           {
             "type": "paragraph",
@@ -810,7 +885,8 @@
                 "type": "text",
                 "text": "The way that the items are distributed leads me to believe that a chase once took place here on this mountain path — or possibly even a murder."
               }
-            ]
+            ],
+            "id": "p-6b8ce0c4d32c8cab"
           },
           {
             "type": "paragraph",
@@ -819,7 +895,8 @@
                 "type": "text",
                 "text": "It seems that even fierce blizzards and sinister mutations pose no obstacle to humans intent on following through on their dark ambitions, In the end, this archon-forsaken snowscape has become stained by mortal transgression."
               }
-            ]
+            ],
+            "id": "p-94f0e91d48a7780a"
           },
           {
             "type": "paragraph",
@@ -858,7 +935,8 @@
                 "type": "text",
                 "text": "Such a cruel and drawn out punishment... And in the sheer cold of this climate, it is all the more impossible to imagine that any managed to survive it."
               }
-            ]
+            ],
+            "id": "p-8f372787744ffcc5"
           },
           {
             "type": "paragraph",
@@ -887,7 +965,8 @@
                 "type": "text",
                 "text": "I made it back to camp, finally, on the verge of freezing to death. As I warmed my feet by the bonfire, I removed my socks to find that three of my toes had turned purple from the cold... But no matter, right now I'm still enjoying the feeling of coming back to life after such a close brush with death."
               }
-            ]
+            ],
+            "id": "p-07c6c3b82342dd78"
           },
           {
             "type": "paragraph",
@@ -916,7 +995,8 @@
                 "type": "text",
                 "text": "Yet something still stirs here, at the peak of the mountain. I heard its call in my dream. It was a gentle song, pleasing to the ear, but somehow disturbing to the mind."
               }
-            ]
+            ],
+            "id": "p-55db85057c69de1f"
           },
           {
             "type": "paragraph",
@@ -935,20 +1015,23 @@
                 "type": "text",
                 "text": "I think I will explore Liyue next. But first things first, my top priority is replenishing my lost supplies. Oh, and while I'm at it, I think I'll swap this soggy old diary for a nice new one."
               }
-            ]
+            ],
+            "id": "p-79c0bb7521d187c0"
           }
         ]
       }
     },
     {
       "id": "10",
+      "volumeKey": "vol-10",
       "label": "Vol. 10",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -967,7 +1050,8 @@
                 "type": "text",
                 "text": "It's already been a few days since I've arrived in Ritou, and yet the Kanjou Commission still shows no sign of letting me pass. I don't know how long I'll have to stay... I hope Mr. Kurisu will find a way to get me out of here."
               }
-            ]
+            ],
+            "id": "p-edff5a448dc7cbe4"
           },
           {
             "type": "paragraph",
@@ -976,7 +1060,8 @@
                 "type": "text",
                 "text": "Mr. Kurisu is the local commerce chairman. Originally from Fontaine, he is a reserved and friendly gentleman, possessing a certain charm that makes other outlanders feel at home."
               }
-            ]
+            ],
+            "id": "p-e35ee921ba342504"
           },
           {
             "type": "paragraph",
@@ -1025,7 +1110,8 @@
                 "type": "text",
                 "text": "It's enough to leave anyone feeling rather resentful."
               }
-            ]
+            ],
+            "id": "p-daac1b06379ef158"
           },
           {
             "type": "paragraph",
@@ -1054,7 +1140,8 @@
                 "type": "text",
                 "text": "I don't know if Mr. Kurisu's information is reliable, but it's always a good idea to be prepared. First, I must think of a way to get my camp-making and fire-starting tools back from Miss Yurika. I will beg if necessary..."
               }
-            ]
+            ],
+            "id": "p-cbce7efde993d41a"
           },
           {
             "type": "paragraph",
@@ -1073,7 +1160,8 @@
                 "type": "text",
                 "text": "It is unclear what has happened, but still more merchants have packed up and gone home. Many military ships have come and gone at the harbor, probably carrying emergency military provisions..."
               }
-            ]
+            ],
+            "id": "p-108ac623e6456dbb"
           },
           {
             "type": "paragraph",
@@ -1082,7 +1170,8 @@
                 "type": "text",
                 "text": "Perhaps I can take advantage of the chaos and confusion to retrieve my stuff from the warehouse."
               }
-            ]
+            ],
+            "id": "p-d119771f6f3786cf"
           },
           {
             "type": "paragraph",
@@ -1101,20 +1190,23 @@
                 "type": "text",
                 "text": "There are diaries with covers that are more beautiful and elegant, of course... but that's no excuse for replacing the old with something new!"
               }
-            ]
+            ],
+            "id": "p-19f70d1b657aaf04"
           }
         ]
       }
     },
     {
       "id": "11",
+      "volumeKey": "vol-11",
       "label": "Vol. 11",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -1123,7 +1215,8 @@
                 "type": "text",
                 "text": "My exploration of Tsurumi Island has not gone smoothly."
               }
-            ]
+            ],
+            "id": "p-6d332e8280318f8c"
           },
           {
             "type": "paragraph",
@@ -1142,7 +1235,8 @@
                 "type": "text",
                 "text": "But I can still clearly remember meeting a small child on this supposedly long-dead island."
               }
-            ]
+            ],
+            "id": "p-60f059f4eac79250"
           },
           {
             "type": "paragraph",
@@ -1151,7 +1245,8 @@
                 "type": "text",
                 "text": "Perhaps he was nothing but a hallucination I saw under the influence of Elemental Particles floating through the fog, or perhaps the mushrooms on the island were to blame... That child may have just been an illusion or a false memory, and this would certainly follow common logic, of course. But the second time I came, I brought a little more food with me, in hopes that the child would accept them. It must be hard living on a dead island like this one, I thought."
               }
-            ]
+            ],
+            "id": "p-a0f37c7fa5900194"
           },
           {
             "type": "paragraph",
@@ -1167,7 +1262,8 @@
                 "type": "text",
                 "text": "If it were not for the blonde-haired traveler and the little fairy named \"Paimon,\" I would probably have had to return empty-handed. But they helped me to pick some local Fluorescent Fungus, which is rumored among Inazumans to have coalesced from the memories of the ancient dead of Tsurumi Island, which give them their phosphorescent, ghostly glow. They possess the ability to strengthen the eyes and mind and improve one's memory."
               }
-            ]
+            ],
+            "id": "p-f0fe8e4051b4ed77"
           },
           {
             "type": "paragraph",
@@ -1176,7 +1272,8 @@
                 "type": "text",
                 "text": "I tried some over the last few days, and these fungi do indeed have the ability to calm the heart and cheer the spirit. It appears to be good for digestion as well... That said, I haven't seen any marked improvement in my memory yet. I must remember to leave a few for my friend in Sumeru to conduct research on."
               }
-            ]
+            ],
+            "id": "p-77b4e1002dab5bc6"
           },
           {
             "type": "paragraph",
@@ -1185,7 +1282,8 @@
                 "type": "text",
                 "text": "Additionally, I found the pictures of the ancient murals that the blonde traveler and Paimon brought to be most fascinating — they are certainly worth further research. That we were able to discover such valuable historical ruins at all is owed to the passion, wisdom, and determination of these two exceptional adventurers."
               }
-            ]
+            ],
+            "id": "p-12f3929ef77b7610"
           }
         ]
       }

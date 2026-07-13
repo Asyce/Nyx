@@ -4,10 +4,11 @@
   "id": "greasy-food-magazine",
   "name": "Greasy Food Magazine",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Greasy_Food_Magazine",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-5b5c8b1244b00308"
           },
           {
             "type": "paragraph",
@@ -40,7 +42,8 @@
                 "type": "text",
                 "text": "— Gertie"
               }
-            ]
+            ],
+            "id": "p-9fc4bea17fef0610"
           },
           {
             "type": "paragraph",
@@ -113,7 +116,8 @@
                 "type": "text",
                 "text": "Understood. I'm okay as long as its taste is good. I'll think of a new name, but because the moss supply is not stable, I'm not even sure I want to put it on the menu."
               }
-            ]
+            ],
+            "id": "p-2ebd2a00bf9cdb17"
           },
           {
             "type": "paragraph",
@@ -186,7 +190,8 @@
                 "type": "text",
                 "text": "I apologize. I recently read in an old cookbook that \"iron pots are perfect for simmered soups and stewed dishes because they can maximize the deliciousness of the food itself.\" Let me think on how to improve on it, I'm so sorry that it burned you."
               }
-            ]
+            ],
+            "id": "p-877157d0372926fa"
           },
           {
             "type": "paragraph",
@@ -212,7 +217,8 @@
                 "type": "text",
                 "text": "1. The addition of crust is interesting, makes the tin can look much classier. Gertie, will you decorate the crust?"
               }
-            ]
+            ],
+            "id": "p-b06b72949041ea20"
           },
           {
             "type": "paragraph",
@@ -231,7 +237,8 @@
                 "type": "text",
                 "text": "2. Is that crust added on top of the iron pot? The only weak spot of the dish has now become its feature! The crust is warmed by the residual heat until it is crispy, coupled with the tender Olm meat, dipped into the gravy in the pot. I daresay this can be the restaurant's just from this little tweak!"
               }
-            ]
+            ],
+            "id": "p-4238e86e3c96684d"
           },
           {
             "type": "paragraph",
@@ -264,7 +271,8 @@
                 "type": "text",
                 "text": "Saunders, thank you for your constructive criticism. If it wasn't for you, I might not have realized the overheating issue with the pot. This dish will start being on the menu tomorrow onward. If you're coming over to eat, it's on the house, no worries!"
               }
-            ]
+            ],
+            "id": "p-04b82e1fd9054ad1"
           },
           {
             "type": "paragraph",
@@ -357,7 +365,8 @@
                 "type": "text",
                 "text": "A non-spicy version? I have yet to find a replacement for hammer peppers, so I'm sorry but I probably won't be able to make it on short notice. Only the spicy version will be on the menu two days from now. As for Don, if your tooth gap is so wide, I advise you to have your teeth looked at."
               }
-            ]
+            ],
+            "id": "p-602b882f95491454"
           },
           {
             "type": "paragraph",
@@ -450,7 +459,8 @@
                 "type": "text",
                 "text": "I'll change the name to Flavorful Jelly then. Putting on the menu next week onward."
               }
-            ]
+            ],
+            "id": "p-cb06788b04c29c7c"
           },
           {
             "type": "paragraph",
@@ -543,7 +553,8 @@
                 "type": "text",
                 "text": "Really? I apologize, I hope everyone's doing okay..."
               }
-            ]
+            ],
+            "id": "p-b86d7ccfd52eb175"
           },
           {
             "type": "paragraph",
@@ -616,7 +627,8 @@
                 "type": "text",
                 "text": "The seller told me not to wash it too well, or some of the freshness would be lost when cooking it. I have yet to master the balance of this, so I do give my apologies, however late it may be."
               }
-            ]
+            ],
+            "id": "p-489bc2f53c624537"
           }
         ]
       }

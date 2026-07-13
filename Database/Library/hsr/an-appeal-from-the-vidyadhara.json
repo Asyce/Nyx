@@ -4,17 +4,19 @@
   "id": "an-appeal-from-the-vidyadhara",
   "name": "An Appeal from the Vidyadhara",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/An_Appeal_from_the_Vidyadhara",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "i",
       "label": "(I)",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -23,7 +25,8 @@
                 "type": "text",
                 "text": "With the great calamity quelled, the voracious enemy subdued, and the treacherous rebels expelled, the Luofu has once again returned to peace. What a joyous day this is."
               }
-            ]
+            ],
+            "id": "p-5706be2199b6d125"
           },
           {
             "type": "paragraph",
@@ -32,7 +35,8 @@
                 "type": "text",
                 "text": "My people have suffered much in this crisis. The wounded include 12 Preceptors, 253 Pearlkeepers, and 116 alchemists and healers. There are 1285 who have completely perished in this disaster, and over 3000 are still missing."
               }
-            ]
+            ],
+            "id": "p-8e506639548459c5"
           },
           {
             "type": "paragraph",
@@ -41,11 +45,13 @@
                 "type": "text",
                 "text": "While we lament these losses, we dared not forget our duty. Since the time of the High Elder Yubie, the Vidyadhara of the Luofu have shouldered the duty of keeping watch over the Ambrosial Arbor. However, when the disaster struck and the seals were loosened, all the elites of my people could not return it to its previous form. Therefore, we beseech the Six Charioteers to ask the Ten-Lords Commission to return the sinner Dan Feng to us, let him restore the seals, and mete out his punishment at a later time."
               }
-            ]
+            ],
+            "id": "p-7a623d4bdbc1153a"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a-2"
           },
           {
             "type": "paragraph",
@@ -61,7 +67,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-d27c39343d0fd5a7"
           },
           {
             "type": "paragraph",
@@ -90,20 +97,23 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-03ca49326e0b3652"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "ii",
       "label": "(II)",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -112,7 +122,8 @@
                 "type": "text",
                 "text": "I was alarmed to learn that you had signed an exile order to permanently cast out the sinner Dan Feng from the Luofu. Wherefore do you place the reputation of the Luofu's Vidyadhara with this order, general?"
               }
-            ]
+            ],
+            "id": "p-fab0c4ed924a7da4"
           },
           {
             "type": "paragraph",
@@ -121,7 +132,8 @@
                 "type": "text",
                 "text": "According to the deal between the Alliance and Caelorum Venti of the Yaoqing, the sinner Dan Feng was to be spared from death and instead suffer the punishment of molting rebirth. After that, according to Vidyadhara customs, Dan Feng should have been regarded as a new being and his sins forgiven. However, the Ten-Lords Commission detained him under the guise of educating the young man, while keeping him prisoner in truth. We have endured this for so long due to the truly astounding nature of his sin. Were he not to suffer for some days within the Shackling Prison, the multitudes of Luofu residents would not be appeased in their anger."
               }
-            ]
+            ],
+            "id": "p-67d6f8a0fb813a2c"
           },
           {
             "type": "paragraph",
@@ -130,11 +142,13 @@
                 "type": "text",
                 "text": "However, general, you have arbitrarily terminated his sentence and decided to exile Dan Feng. Was this a consensus reached after a discussion with the Six Charioteers? And was this sent to the marshal to be confirmed? If your action stemmed from your past friendship with Dan Feng, then we regret to inform you that we cannot accept such a sentimental gesture. Us Preceptors will appeal to the Alliance and inform the other four High Elders, and we will seek to have you retract this order."
               }
-            ]
+            ],
+            "id": "p-382fe7b2c5b14599"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a-2"
           },
           {
             "type": "paragraph",
@@ -150,7 +164,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-d27c39343d0fd5a7"
           },
           {
             "type": "paragraph",
@@ -179,7 +194,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-771524409076ef4d"
           }
         ]
       }

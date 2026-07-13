@@ -4,10 +4,11 @@
   "id": "flyer-with-a-smiley-face",
   "name": "Flyer with a Smiley Face",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Flyer_with_a_Smiley_Face",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -39,7 +40,8 @@
                 "type": "text",
                 "text": "Maybe you're just weary of a life that never changes, or perhaps you're barely hanging on through a rough patch?"
               }
-            ]
+            ],
+            "id": "p-85d93e26aa4b0ce9"
           },
           {
             "type": "paragraph",
@@ -48,7 +50,8 @@
                 "type": "text",
                 "text": "We've got the answer."
               }
-            ]
+            ],
+            "id": "p-220329494a5b163e"
           },
           {
             "type": "paragraph",
@@ -67,7 +70,8 @@
                 "type": "text",
                 "text": "The \"answer\" we're talking about is the most natural thing in the universe, something every living being understands by instinct...."
               }
-            ]
+            ],
+            "id": "p-9da57ede2b90526b"
           },
           {
             "type": "paragraph",
@@ -89,7 +93,8 @@
                 "type": "text",
                 "text": "."
               }
-            ]
+            ],
+            "id": "p-135d2b09c70f6932"
           },
           {
             "type": "paragraph",
@@ -98,7 +103,8 @@
                 "type": "text",
                 "text": "You might argue, \"How can I smile when I'm not even happy?\""
               }
-            ]
+            ],
+            "id": "p-e66eb34dc9107569"
           },
           {
             "type": "paragraph",
@@ -117,7 +123,8 @@
                 "type": "text",
                 "text": "Keep a smile on your face, and happiness will come knocking at your door."
               }
-            ]
+            ],
+            "id": "p-ee5a3ce72b4c96c2"
           },
           {
             "type": "paragraph",
@@ -156,7 +163,8 @@
                 "type": "text",
                 "text": "Then he found our flyer (the previous version — we're always updating our stories!)."
               }
-            ]
+            ],
+            "id": "p-855003f507a6de5d"
           },
           {
             "type": "paragraph",
@@ -195,7 +203,8 @@
                 "type": "text",
                 "text": "When we heard about his struggle, we rushed over to give him as much help as possible."
               }
-            ]
+            ],
+            "id": "p-f66e91198c9c52c2"
           },
           {
             "type": "paragraph",
@@ -214,7 +223,8 @@
                 "type": "text",
                 "text": "To this day, he's still smiling from the bottom of his heart. What a result!"
               }
-            ]
+            ],
+            "id": "p-3c98bfea78df4325"
           },
           {
             "type": "paragraph",
@@ -233,7 +243,8 @@
                 "type": "text",
                 "text": "If you want to know the secret to keeping a smile on your face at all times, just ask..."
               }
-            ]
+            ],
+            "id": "p-e84e37d8c2a53652"
           },
           {
             "type": "paragraph",
@@ -242,7 +253,8 @@
                 "type": "text",
                 "text": "(The following pages are torn off.)"
               }
-            ]
+            ],
+            "id": "p-a14640f8c505d2db"
           },
           {
             "type": "paragraph",
@@ -251,7 +263,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

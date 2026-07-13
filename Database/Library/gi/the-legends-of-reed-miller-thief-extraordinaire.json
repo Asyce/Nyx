@@ -4,17 +4,19 @@
   "id": "the-legends-of-reed-miller-thief-extraordinaire",
   "name": "The Legends of Reed Miller, Thief Extraordinaire",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/The_Legends_of_Reed_Miller,_Thief_Extraordinaire",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -23,7 +25,8 @@
                 "type": "text",
                 "text": "Your Dime Eerie Mystery! The Master Thief Reed Miller and the Sampo Mill (Deluxe Quarterly Edition)"
               }
-            ]
+            ],
+            "id": "p-57e4c140ad8abc44"
           },
           {
             "type": "paragraph",
@@ -32,7 +35,8 @@
                 "type": "text",
                 "text": "(This inexpensive and entertaining story series, popular in Nasha Town, costs only 10 Mora per issue. Presumably, it's about the master thief Reed Miller's attempt to steal the Frostmoon relic, the Sampo Mill, from the governor's palace. However, in a seeming attempt to boost readership, the narrative is focusing on the many young women vying for Miller's affections instead.)"
               }
-            ]
+            ],
+            "id": "p-175ba1bcc5d3d180"
           },
           {
             "type": "paragraph",
@@ -41,7 +45,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -60,7 +65,8 @@
                 "type": "text",
                 "text": "Wagtail, a beauty as dangerous as a hunting falcon, has appeared! She approaches master thief Reed Miller under the moonlight... but to what end?"
               }
-            ]
+            ],
+            "id": "p-4a864d7c94355e35"
           },
           {
             "type": "paragraph",
@@ -69,7 +75,8 @@
                 "type": "text",
                 "text": "\"Leaving your lovely female companions behind to come enjoy the night view here? What a cad you are, my dear.\""
               }
-            ]
+            ],
+            "id": "p-bd4da6cd9ec3d2cc"
           },
           {
             "type": "paragraph",
@@ -78,7 +85,8 @@
                 "type": "text",
                 "text": "That soft voice is as smooth as the finest silk from Liyue, and yet beneath its surface lurks a subtle cruelty, sharp as the thorns of a Sumeru Rose. Reed Miller does not turn around, for he knows that voice all too well."
               }
-            ]
+            ],
+            "id": "p-c9f63c7126294675"
           },
           {
             "type": "paragraph",
@@ -87,7 +95,8 @@
                 "type": "text",
                 "text": "A graceful figure lands beside him with the poise of a cat. A young woman in her twenties, with long lavender hair cascading over her pale, bare shoulders and neck. She wears an elegant silver evening gown that clings to her curves like liquid moonlight. Still, it cannot conceal the mockery in her brownish-red eyes."
               }
-            ]
+            ],
+            "id": "p-9315c23fe916da61"
           },
           {
             "type": "paragraph",
@@ -96,7 +105,8 @@
                 "type": "text",
                 "text": "Meet Wagtail — or \"A,\" as she is known to a privileged few like Miller. She is the only femme fatale in Nod-Krai whose skill and infamy rival those of the most legendary thieves. Any treasure she sets her sights on is already hers; once the thrill is gone, she'll just as soon toss it to the poor in the streets as she might cast it into the sea. Countless men have vied for her affection, but she takes pleasure only in toying with their earnest feelings and has never returned the love of a suitor..."
               }
-            ]
+            ],
+            "id": "p-caf93ac95f3433de"
           },
           {
             "type": "paragraph",
@@ -105,7 +115,8 @@
                 "type": "text",
                 "text": "The only treasure Wagtail has been unable to steal is the heart of master thief Reed Miller. This one impossible feat drives her obsession with the handsome, enigmatic man, and she's tried every trick and gambit imaginable to make his heart hers and hers alone."
               }
-            ]
+            ],
+            "id": "p-d5d0b19797c63d8d"
           },
           {
             "type": "paragraph",
@@ -114,7 +125,8 @@
                 "type": "text",
                 "text": "\"I smell expensive perfume and cheap ambition, Wagtail.\""
               }
-            ]
+            ],
+            "id": "p-ceb5789affc47924"
           },
           {
             "type": "paragraph",
@@ -123,7 +135,8 @@
                 "type": "text",
                 "text": "With a smile on her lips, she smoothly settles down beside the thief, then almost imperceptibly sidles closer to him."
               }
-            ]
+            ],
+            "id": "p-52ec8fecd4f4b4b9"
           },
           {
             "type": "paragraph",
@@ -132,7 +145,8 @@
                 "type": "text",
                 "text": "\"It was a gift from another man. Jealous?\" She lets a silk-gloved hand trail down his arm. \"As for me, I smell overconfidence, Reed. You've got your eye on the Sampo Mill, I'm sure. But isn't that a little... obvious of you?\""
               }
-            ]
+            ],
+            "id": "p-309c32ec5386c7cd"
           },
           {
             "type": "paragraph",
@@ -141,7 +155,8 @@
                 "type": "text",
                 "text": "\"You're right. I do want the Mill, which was stolen from the Frostmoon Scions, along with all the governor's other ill-gotten treasures.\" Miller finally meets Wagtail's gaze, sending an involuntary shiver running through her and a blush rising to her cheeks, which she forces down with a glib smile. \"This is my stage tonight. You'd better find your own.\""
               }
-            ]
+            ],
+            "id": "p-6bda0365c276ed60"
           },
           {
             "type": "paragraph",
@@ -150,7 +165,8 @@
                 "type": "text",
                 "text": "\"Nonsense.\" She leans in, her lips a mere breath from his. \"This stage is big enough for two. The spotlight, however... That only shines on one. I'll have my hands on the Mill before you do, darling. And if you please me... I might even let you see it from afar.\""
               }
-            ]
+            ],
+            "id": "p-e585773f703928aa"
           },
           {
             "type": "paragraph",
@@ -159,7 +175,8 @@
                 "type": "text",
                 "text": "Ding!"
               }
-            ]
+            ],
+            "id": "p-b79c939f64d9c6dc"
           },
           {
             "type": "paragraph",
@@ -168,7 +185,8 @@
                 "type": "text",
                 "text": "The words are barely out of Wagtail's mouth before she whips out a slender, sinister-looking dagger with lightning speed. She delights in the pointless and seemingly dangerous attack, knowing full well Miller will block it, and indeed he does, by simply raising his arm and deflecting her blade with his gauntlet. The clash of metal on metal lasts but a brief moment."
               }
-            ]
+            ],
+            "id": "p-cd6a871b213c267b"
           },
           {
             "type": "paragraph",
@@ -177,7 +195,8 @@
                 "type": "text",
                 "text": "\"Reckless as always, Wagtail. It'll cost you one of these days.\""
               }
-            ]
+            ],
+            "id": "p-eaaa3f47cd245203"
           },
           {
             "type": "paragraph",
@@ -186,7 +205,8 @@
                 "type": "text",
                 "text": "\"Hah. Recklessness is a privilege afforded to beautiful women, don't you know? If it's not to your liking, darling, come teach me a lesson.\""
               }
-            ]
+            ],
+            "id": "p-e061af4dbe86b23a"
           },
           {
             "type": "paragraph",
@@ -195,7 +215,8 @@
                 "type": "text",
                 "text": "Like a moonlit breeze, she takes two steps back and blows him a playful kiss. Then, she leaps into the darkness beneath the tower, leaving naught behind but the ghost of her expensive perfume in the cold night air."
               }
-            ]
+            ],
+            "id": "p-318e71fbc05e4fd1"
           },
           {
             "type": "paragraph",
@@ -204,7 +225,8 @@
                 "type": "text",
                 "text": "(The middle section of the volume has been ripped out, perhaps for a purpose other than reading...)"
               }
-            ]
+            ],
+            "id": "p-a1053b001532a073"
           },
           {
             "type": "paragraph",
@@ -223,7 +245,8 @@
                 "type": "text",
                 "text": "Just as the governor is fuming over the theft of the Sampo Mill, a group of detectives from Snezhnaya suddenly swarm in and clap him in irons! Just what is...?"
               }
-            ]
+            ],
+            "id": "p-ab89999611ca967a"
           },
           {
             "type": "paragraph",
@@ -232,7 +255,8 @@
                 "type": "text",
                 "text": "\"Ha! Your Excellency, your fury must have overtaken you, such that you've forgotten who Reed Miller is. He is a despicable thief, yes, but is he not also a master of disguise, able to become any man, woman, or child with uncanny skill?\""
               }
-            ]
+            ],
+            "id": "p-0c344b47a2be01eb"
           },
           {
             "type": "paragraph",
@@ -241,7 +265,8 @@
                 "type": "text",
                 "text": "\"Y—You... That's impossible! This is absurd... If you were pretending to be Leonov, the Oprichniki would surely have—\""
               }
-            ]
+            ],
+            "id": "p-28dbc8a7f83856b6"
           },
           {
             "type": "paragraph",
@@ -250,7 +275,8 @@
                 "type": "text",
                 "text": "The man posing as Detective Leonov laughs, slowly circling the bound governor twice in a clear mockery of his pompous \"deductions.\""
               }
-            ]
+            ],
+            "id": "p-f6b0d1aa2b91ccb7"
           },
           {
             "type": "paragraph",
@@ -259,7 +285,8 @@
                 "type": "text",
                 "text": "\"The Oprichniki? You mean the men who tied you up and sealed off this palace? Those are my people. I had them pose as Oprichniki, and your men believed it without question. Surprised, Governor? Have you forgotten how blindly Snezhnayan soldiers follow orders, whether from real superiors or clever impostors? As we speak, the Frostmoon Scions' treasure has been safely returned to their holy lady. Unless you plan to defy the Tsar's will and risk open war with the Frostmoon Scions, recovering the Sampo Mill is no longer an option for you.\""
               }
-            ]
+            ],
+            "id": "p-dedb9d6e82cc7f8d"
           },
           {
             "type": "paragraph",
@@ -268,7 +295,8 @@
                 "type": "text",
                 "text": "\"You... You blasted crook! You accursed thief! I could have tolerated you stealing the Mill, but must you plunder my personal collection too!?\""
               }
-            ]
+            ],
+            "id": "p-9a5e396bb255b289"
           },
           {
             "type": "paragraph",
@@ -277,7 +305,8 @@
                 "type": "text",
                 "text": "\"Does it matter? Those treasures you claim as yours, those lands you call your own, weren't they stolen from the destitute who live here?\" The man's demeanor remains perfectly composed, a stark contrast to the agitation written all over the governor's crimson face. \"I see no difference between a bandit who robs the people and a governor who oppresses them. We defend our freedom in the only way we can, because no one else will fight for it. But rest assured, I'm not keeping any of this. Every treasure will be returned to its rightful owner. I shall not keep even a single piece.\""
               }
-            ]
+            ],
+            "id": "p-91252dac21d6d738"
           },
           {
             "type": "paragraph",
@@ -286,7 +315,8 @@
                 "type": "text",
                 "text": "Across the room, Wagtail, posing as a detective, lets out a soft sigh inaudible to the governor."
               }
-            ]
+            ],
+            "id": "p-60b8e65068b684bc"
           },
           {
             "type": "paragraph",
@@ -295,7 +325,8 @@
                 "type": "text",
                 "text": "\"Oh dear, this man truly is beyond help. He speaks of laying no claim to treasure, when he holds the Frost Moon's most prized gem in his hand...\""
               }
-            ]
+            ],
+            "id": "p-61ef3611f617f507"
           },
           {
             "type": "paragraph",
@@ -304,7 +335,8 @@
                 "type": "text",
                 "text": "Wagtail's words stun Shadow Weasel, momentarily pulling her attention away from her adoptive father, who is bound up in the center of the room."
               }
-            ]
+            ],
+            "id": "p-34460b3a24610db1"
           },
           {
             "type": "paragraph",
@@ -313,7 +345,8 @@
                 "type": "text",
                 "text": "\"Wh—When? Mr. Reed Miller should've given the Sampo Mill to that holy woman. Wait. He didn't secretly swap it for a fake while we weren't looking, did he...?\""
               }
-            ]
+            ],
+            "id": "p-bb781ac6db06ec99"
           },
           {
             "type": "paragraph",
@@ -322,20 +355,23 @@
                 "type": "text",
                 "text": "\"Ah, you don't get it, do you? That's exactly how he deceived you young ladies.\" The woman sighs dramatically. \"What he has stolen for himself is the heart of the Frost Moon's daughter.\""
               }
-            ]
+            ],
+            "id": "p-4da80473a5e7ed7b"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -344,7 +380,8 @@
                 "type": "text",
                 "text": "Just who is this person who so swiftly captured the heart of a young lady who didn't believe in love?"
               }
-            ]
+            ],
+            "id": "p-ff0c7d7f9bcd060f"
           },
           {
             "type": "paragraph",
@@ -353,7 +390,8 @@
                 "type": "text",
                 "text": "(This is a popular piece of fiction in Nod-Krai that chronicles the romance between the master thief Reed Miller and the governor's daughter, Leonita Prokhorovna Trubetskaya, from their first encounter on. Disclaimer: This story is a work of fiction. Any resemblance to real persons, places, or events is purely coincidental.)"
               }
-            ]
+            ],
+            "id": "p-e7e6bfc1c81e4314"
           },
           {
             "type": "paragraph",
@@ -362,7 +400,8 @@
                 "type": "text",
                 "text": "The young lady Leonita Prokhorovna Trubetskaya, the apple of the governor's eye, makes her way to the dining room with her maid in tow. Though there's a current of anxiety running beneath her calm facade, her steps are poised and graceful. After all, a lady must always appear as such, no matter what."
               }
-            ]
+            ],
+            "id": "p-f95f8be9aeca6f4c"
           },
           {
             "type": "paragraph",
@@ -371,7 +410,8 @@
                 "type": "text",
                 "text": "Her eyes are fixed on the morning papers, for she's almost certain today is the day the master thief Reed Miller shall publish his notice. She might be beginning to understand the mind of this elusive raven, she thinks, and the fact that her father's men haven't even caught a glimpse of him yet has sparked a flash of anger in her. \"Hmph, I'll catch you for sure!\""
               }
-            ]
+            ],
+            "id": "p-1d4c46eecc965ee0"
           },
           {
             "type": "paragraph",
@@ -400,7 +440,8 @@
                 "type": "text",
                 "text": "\"Mmm, nothing that my dear little Leonita needs to worry her pretty little head about.\" Lord Trubetskoy puts down the newspaper, smiles at his daughter, and says, \"Send the jeweler in.\""
               }
-            ]
+            ],
+            "id": "p-4b562c432062329a"
           },
           {
             "type": "paragraph",
@@ -409,7 +450,8 @@
                 "type": "text",
                 "text": "A red-haired footman standing next to the governor immediately leads someone in. The latter bows deeply, a jewelry box in hand. The governor takes but a glance at it, then gestures for the box to be presented to his daughter. As a look of surprise flickers across Leonita's face, he says, \"Come now, don't tell me you thought I forgot your birthday. At the ball three days from now, my dear little Nita will be the belle of Snezhnaya — no, of the whole of Teyvat. Now, put it on so I can take a look!\""
               }
-            ]
+            ],
+            "id": "p-aed601824b56835c"
           },
           {
             "type": "paragraph",
@@ -418,7 +460,8 @@
                 "type": "text",
                 "text": "Leonita obediently takes the necklace from the box and clasps it around her neck. Her father's choice is, as always, impeccable: the design and cut are unmistakably from Fontaine, and the central gemstone is so brilliant as to outshine the finest stones from Natlan. \"I know it's a bit early,\" he says, \"but as your father, I should be the first to wish you a happy birthday, my dear!\" He casts a glance at the necklace and adds,"
               }
-            ]
+            ],
+            "id": "p-1a606d3d9c7dbef1"
           },
           {
             "type": "paragraph",
@@ -427,7 +470,8 @@
                 "type": "text",
                 "text": "\"Make sure you wear it to the ball. A very important guest will be there, and I want you to meet him.\""
               }
-            ]
+            ],
+            "id": "p-e2ee59a8f10312b1"
           },
           {
             "type": "paragraph",
@@ -436,7 +480,8 @@
                 "type": "text",
                 "text": "Her father is speaking in a serious tone, one that makes Leonita grasp the gift's true import immediately. She will be of age to be betrothed after this birthday. As the governor's daughter, she has always been expected to be married off to the son of some powerful Snezhnayan noble. This is why she has never believed in love. It was, after all, completely meaningless. Her father has special affection for her intelligence and beauty, of course. But more importantly, her obedience and maturity are everything he expects from an adopted daughter."
               }
-            ]
+            ],
+            "id": "p-677f7c810efb0724"
           },
           {
             "type": "paragraph",
@@ -445,7 +490,8 @@
                 "type": "text",
                 "text": "Of course, that's just one of the reasons."
               }
-            ]
+            ],
+            "id": "p-200976fb9464282e"
           },
           {
             "type": "paragraph",
@@ -454,7 +500,8 @@
                 "type": "text",
                 "text": "\"I understand, dear Father.\" He ruffles her hair with a final, affectionate gesture. The fatherly smile vanishes from his face as he returns to his formidable role as governor, his full attention now back on his duties."
               }
-            ]
+            ],
+            "id": "p-7ec02c72f2731a99"
           },
           {
             "type": "paragraph",
@@ -463,7 +510,8 @@
                 "type": "text",
                 "text": "Leonita watches her father leave with a gentle pang in her heart. She composes herself after a soft exhale, for it's time to focus. She picks up the morning paper, and there on the front page, just as she expected, is a letter adorned with black feathers. It reads:"
               }
-            ]
+            ],
+            "id": "p-aae6764b6d0d5bcb"
           },
           {
             "type": "paragraph",
@@ -482,7 +530,8 @@
                 "type": "text",
                 "text": "Three nights from now, on the dark night of the new moon, your treasure will be mine."
               }
-            ]
+            ],
+            "id": "p-20a8884cc615c1f5"
           },
           {
             "type": "paragraph",
@@ -501,7 +550,8 @@
                 "type": "text",
                 "text": "Reed Miller."
               }
-            ]
+            ],
+            "id": "p-8b5c0fb67610fcf6"
           },
           {
             "type": "paragraph",
@@ -650,7 +700,8 @@
                 "type": "text",
                 "text": "The footman and the jeweler exchange a glance. Then, they swear solemnly to Reed Miller: \"We promise to steal all the misery from this world!\""
               }
-            ]
+            ],
+            "id": "p-00551cb265b031a8"
           },
           {
             "type": "paragraph",
@@ -659,7 +710,8 @@
                 "type": "text",
                 "text": "Miller watches the two leave, then turns toward the governor's palace, bathed in the setting sun. Trubetskoy had been successful against the Treasure Hoarders for one simple reason: his immense wealth. Even the world's greatest thieves have been powerless before his near-limitless resources. With enough treasure, one could hire the finest warriors, acquire the best weapons, and surround oneself with the shrewdest advisors. Wealth could even silence the law and bury all resistance beneath a grave of golden sand."
               }
-            ]
+            ],
+            "id": "p-be0322c733e3973d"
           },
           {
             "type": "paragraph",
@@ -668,7 +720,8 @@
                 "type": "text",
                 "text": "The true extent of Trubetskoy's wealth has been a mystery to the world. More oddly, no one has ever seriously questioned its source either. A chuckle escapes Miller's lips at the thought. But now, he holds the answer: the legendary Sampo Mill, a magical relic said to generate endless riches, is hidden within the governor's palace itself. For this discovery, he has the red-haired footman's investigation, the jeweler's keen eye, and the governor's daughter (whose birthday was fast approaching) to thank..."
               }
-            ]
+            ],
+            "id": "p-667a7b97cb1cd989"
           },
           {
             "type": "paragraph",
@@ -687,7 +740,8 @@
                 "type": "text",
                 "text": "The newspaper with Miller's letter sells out almost instantly. In the days that follow, all of Nod-Krai is abuzz with anticipation for Leonita's birthday ball... albeit not for the governor's daughter herself, but for the inevitable clash between the master thief and the governor."
               }
-            ]
+            ],
+            "id": "p-d2f4891f4b5015b0"
           },
           {
             "type": "paragraph",
@@ -696,7 +750,8 @@
                 "type": "text",
                 "text": "The governor's palace has been put on high alert, with every arriving guest subjected to intense scrutiny. This is a necessary precaution given the master thief's known skill for disguise. As Leonita scans the long list of names and titles — barons, sons of earls, rising stars in the royal court, clans favored by the Tsar, and so on — the necklace around her neck begins to feel heavy, less like a gift and more like a set of shackles."
               }
-            ]
+            ],
+            "id": "p-96346a4a6d0faa1b"
           },
           {
             "type": "paragraph",
@@ -705,7 +760,8 @@
                 "type": "text",
                 "text": "Some fresh air out in the courtyard would be good right now, she thinks."
               }
-            ]
+            ],
+            "id": "p-401c50883d0acabf"
           },
           {
             "type": "paragraph",
@@ -754,7 +810,8 @@
                 "type": "text",
                 "text": "\"How utterly strange. Why would the noble Lord Trubetskoy adopt a human...?\""
               }
-            ]
+            ],
+            "id": "p-b53fd9dcbbc5b490"
           },
           {
             "type": "paragraph",
@@ -763,7 +820,8 @@
                 "type": "text",
                 "text": "A poised and elegant lady, whom Leonita has never seen before, is whispering to her child in a nearby hallway. When she notices Leonita looking, she turns away and leaves without a word."
               }
-            ]
+            ],
+            "id": "p-67494307648c1c35"
           },
           {
             "type": "paragraph",
@@ -782,7 +840,8 @@
                 "type": "text",
                 "text": "\"That's true! Why in the world would the noble Lord Trubetskoy adopt a human being?\""
               }
-            ]
+            ],
+            "id": "p-3a36822f94d60ad2"
           },
           {
             "type": "paragraph",
@@ -791,7 +850,8 @@
                 "type": "text",
                 "text": "A whisper, speaking of the unhappiness creeping into her heart, startles Leonita. She looks around the courtyard, but she is alone. Is her imagination playing tricks on her? She sighs and turns toward the palace's innermost chambers for another round of treatment. These sessions leave her utterly drained, yet she endures them without a word of complaint, so determined is she never to be a source of shame for her father."
               }
-            ]
+            ],
+            "id": "p-6f7c53fead9b5a82"
           },
           {
             "type": "paragraph",
@@ -800,7 +860,8 @@
                 "type": "text",
                 "text": "For some reason, she recalls the voice she had just heard in the courtyard."
               }
-            ]
+            ],
+            "id": "p-89c19449aced8824"
           },
           {
             "type": "paragraph",
@@ -809,7 +870,8 @@
                 "type": "text",
                 "text": "It was a voice that, like a bonfire in winter, radiated heat that could melt the snow."
               }
-            ]
+            ],
+            "id": "p-efb6fa924c0407a8"
           },
           {
             "type": "paragraph",
@@ -828,7 +890,8 @@
                 "type": "text",
                 "text": "As night falls, guests begin to arrive one after another. Leonita feels her nervousness grow. All evening, she is approached by a stream of potential partners, each asking for a dance. But as they come and go, not a single name registers in her mind."
               }
-            ]
+            ],
+            "id": "p-686e79867c836464"
           },
           {
             "type": "paragraph",
@@ -837,7 +900,8 @@
                 "type": "text",
                 "text": "\"Ten, nine, eight...\" The countdown to midnight begins, and every eye in the room turns eagerly to her. Beside her father, the ambitious upstart from the royal court stands, his gaze fixed on her — or perhaps on the massive gem gleaming at her neck. \"Six, five, four...\" She can't tell what everyone is anticipating: is it her birthday, or is it something else entirely...?"
               }
-            ]
+            ],
+            "id": "p-eba500ae38593f97"
           },
           {
             "type": "paragraph",
@@ -846,7 +910,8 @@
                 "type": "text",
                 "text": "\"...Three, two—\""
               }
-            ]
+            ],
+            "id": "p-f454f69ba1f13bb6"
           },
           {
             "type": "paragraph",
@@ -855,7 +920,8 @@
                 "type": "text",
                 "text": "Huh...? Since moments ago, Leonita has noticed that everyone around her seems enveloped in a silvery-white glow, and this light has only grown brighter since. From time to time, her own body would emit the same silvery-white light. Her father calls it a disease that requires constant treatment — a flaw in her very being."
               }
-            ]
+            ],
+            "id": "p-f9ced6a7de371783"
           },
           {
             "type": "paragraph",
@@ -864,7 +930,8 @@
                 "type": "text",
                 "text": "\"...ONE!\" The jewel on her neck suddenly drops with a whoosh."
               }
-            ]
+            ],
+            "id": "p-74cc1a249466b532"
           },
           {
             "type": "paragraph",
@@ -873,7 +940,8 @@
                 "type": "text",
                 "text": "The world is engulfed in a silvery-white light. Around Leonita, a silence as deep as a snowy night falls. She stands frozen, her pulse beating in rhythm with the light and her heart pulled by an invisible thread. There's a part of her that is screaming to run, but a gentle restraint holds her feet. What is this? Magic? Fate? Or is it the feeling she's never believed in, flaring to life the moment it comes near? The crowd around her melts away as time seems to stop, and from the stillness, a flash of warm red bolts toward her."
               }
-            ]
+            ],
+            "id": "p-a34f454f51de157f"
           },
           {
             "type": "paragraph",
@@ -1012,7 +1080,8 @@
                 "type": "text",
                 "text": "\"...\""
               }
-            ]
+            ],
+            "id": "p-bdd9d3813622520a"
           },
           {
             "type": "paragraph",
@@ -1021,7 +1090,8 @@
                 "type": "text",
                 "text": "The silvery-white power, the treatments, the Sampo Mill, her father's endless wealth, and the word \"adopted\"... It all comes together for Leonita in an instant. She is the true source of her father's fortune. The \"treatments\" were not for healing. They were rituals, the key to making the Mill produce an endless stream of diamonds. Though a part of her has always known, she has never allowed herself to face the truth until now."
               }
-            ]
+            ],
+            "id": "p-a72238c6ae1b7138"
           },
           {
             "type": "paragraph",
@@ -1040,7 +1110,8 @@
                 "type": "text",
                 "text": "\"Happy birthday!\""
               }
-            ]
+            ],
+            "id": "p-3e6a68c4d26424b0"
           },
           {
             "type": "paragraph",
@@ -1049,20 +1120,23 @@
                 "type": "text",
                 "text": "And the rest is history, yes? Reed Miller makes off with every treasure in the governor's palace, and Leonita, having fallen in love with him the moment she saw his true face, forsakes her gilded cage to wander the world with the master thief. The legend of Reed Miller is often called fiction. But like a person who has never loved and thus insists love isn't real, those who find this story implausible only do so because they have never experienced such a moment themselves."
               }
-            ]
+            ],
+            "id": "p-8aa0a5fe52bf342d"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "vol-3",
       "label": "Vol. 3",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -1071,7 +1145,8 @@
                 "type": "text",
                 "text": "Little is known about Zima, who hailed from Snezhnaya, a land of perpetual winter. His name is found in no logbook, no epic, no heroic tale. Like a single snowflake, he briefly brushed against the surface of legend before disappearing without a trace."
               }
-            ]
+            ],
+            "id": "p-7c4a4e6c06637031"
           },
           {
             "type": "paragraph",
@@ -1080,7 +1155,8 @@
                 "type": "text",
                 "text": "Zima came from a small town southeast of Snezhnograd, where villagers harvested ice beneath the snow-capped mountain peaks. On snowy nights, they called forth tales and skeins, like primeval airs sealed beneath the ice — of the mischievous Jack Frost who stole travelers' boots and pale, melancholy Snegurochka who, when betrayed, froze the lovers they had once sought into lifelike statues by ripping the very warmth from them. Zima had seen a strange, deranged smile on a companion who fell for a Snegurochka before, and he found it a monotonous way to die. He abhorred following a pattern, even the pattern of an unusual death. Instead, he longed for a unique fate and a life of adventure, and so he left the land of eternal white for the blue seas of the archipelago to the south. It was there that he first heard of the legendary master thief."
               }
-            ]
+            ],
+            "id": "p-aeaaf62ac85ece5d"
           },
           {
             "type": "paragraph",
@@ -1089,7 +1165,8 @@
                 "type": "text",
                 "text": "The name Reed Miller was already well-known across Nod-Krai. Stories claimed he had been captured by the governor and taken to Snezhnograd for a hanging on the public square. But just as everyone believed his story would end with a swaying corpse, the governor's vault was found emptied with a taunting message etched in gold dust on the wall. No one knew how he had escaped the noose, but his miraculous return turned him into a tavern legend and an idol to the youth. So when the master thief reappears, buys a three-masted ship, and starts recruiting sailors seeking adventure and fortune at the harbor, Zima offers his name without a second thought."
               }
-            ]
+            ],
+            "id": "p-6efc688d58c2e175"
           },
           {
             "type": "paragraph",
@@ -1098,7 +1175,8 @@
                 "type": "text",
                 "text": "Life aboard the ship, however, turns out to be far less heroic than the legends promised. Though famed for robbing the rich, Miller runs his operation with the meticulous care of a spice merchant — his nautical charts are cluttered not only with markings for reefs and currents but also red-circled warnings for waters said to harbor sea monsters. He spends days skirting around those regions, avoiding the dark abysses where dangerous creatures lurk as well as the serpent-infested Sea of Mist. Day-to-day life has been a grind of scrubbing decks, patching sails, and scurvy gums. For Zima, it all feels too familiar, too safe, too dull. At night, he prays to the inky sea for a real storm, or for some monstrous kraken to rise from the depths. He longs to see the master thief drive a harpoon into a creature's eye, just like the heroes of old. More than anything, he craves an adventure that would truly stir his soul."
               }
-            ]
+            ],
+            "id": "p-419a471d752931e5"
           },
           {
             "type": "paragraph",
@@ -1107,7 +1185,8 @@
                 "type": "text",
                 "text": "His prayers are answered, albeit in a cruel and twisted way. Drifting into a calm, azure sea, the ship is met with a strange, inhuman song. Though it has no melody, its power ensnares even the most drunken sailors. The sails drop, and the ship stalls. From the water, a pale, hauntingly beautiful face emerges. It is a siren, and she demands a sacrifice in exchange for safe passage. The ship is given a choice: make a sacrifice, or be dragged to the depths."
               }
-            ]
+            ],
+            "id": "p-f285adc007d01bd1"
           },
           {
             "type": "paragraph",
@@ -1116,7 +1195,8 @@
                 "type": "text",
                 "text": "Reed Miller flatly refuses to make the sacrifice. Instead, he orders everyone aboard to plug their ears with beeswax to block out the siren's haunting song. But it is futile. Even reason and willpower bend beneath the weight of legend. Seized by panic and the deadly song, the sailors hurl the crates of Mora looted from the governor's palace overboard, thinking the gold might serve as payment. But the siren pays the shimmering discs that have scattered and sank into the azure deep no heed, for human wealth means nothing to her. Her covetous gaze remains only on the sailors themselves."
               }
-            ]
+            ],
+            "id": "p-6b0429d4e05de895"
           },
           {
             "type": "paragraph",
@@ -1125,7 +1205,8 @@
                 "type": "text",
                 "text": "The master thief, whose neck not even the hangman's noose could restrain, now has no choice but to acquiesce. Miller places his scimitar coldly at Zima's throat, but Zima does not resist. This is the moment he has traveled so far for. As the icy waters rise above his head, the face of his long-lost friend appears before him, frozen in sculpture, still wearing that faint, familiar, ecstatic smile sealed by the Snegurochka's kiss. All his life, Zima has abhorred following a pattern, running from every known ending, only to realize in this final moment that every escape has been a flight into another mirror. His adventures did not pen a new story... They were merely unnoticed footnotes to an existing one."
               }
-            ]
+            ],
+            "id": "p-da45987bcc04f8cc"
           }
         ]
       }

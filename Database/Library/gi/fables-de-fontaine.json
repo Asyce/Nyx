@@ -4,10 +4,11 @@
   "id": "fables-de-fontaine",
   "name": "Fables de Fontaine",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Fables_de_Fontaine",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "The Maiden and the Sun"
               }
-            ]
+            ],
+            "id": "p-979ee3f5ded30c5a"
           },
           {
             "type": "paragraph",
@@ -65,7 +67,8 @@
                 "type": "text",
                 "text": "\"Please, choose a husband for yourself. All would be honored to be the one.\""
               }
-            ]
+            ],
+            "id": "p-aa2aa5855f347ea3"
           },
           {
             "type": "paragraph",
@@ -84,7 +87,8 @@
                 "type": "text",
                 "text": "\"If it shall be so, Mother, please have me wed to the most powerful being in this world.\""
               }
-            ]
+            ],
+            "id": "p-61155ad89b8dfb2a"
           },
           {
             "type": "paragraph",
@@ -123,7 +127,8 @@
                 "type": "text",
                 "text": "\"Oh, that won't do! The wind blows me away so easily. You're better off entrusting her to the wind!\""
               }
-            ]
+            ],
+            "id": "p-562e894385118f96"
           },
           {
             "type": "paragraph",
@@ -192,7 +197,8 @@
                 "type": "text",
                 "text": "As thus did the young beauty marry the sun."
               }
-            ]
+            ],
+            "id": "p-3e36a60a2a72ba48"
           },
           {
             "type": "paragraph",
@@ -211,13 +217,15 @@
                 "type": "text",
                 "text": "No matter how honest, or how cunning, one can never escape the duty one ought to shoulder."
               }
-            ]
+            ],
+            "id": "p-a8ef7bc51b8f3762"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
@@ -229,7 +237,8 @@
                 "type": "text",
                 "text": "The Crow and the Fox"
               }
-            ]
+            ],
+            "id": "p-e236b861c4320730"
           },
           {
             "type": "paragraph",
@@ -318,7 +327,8 @@
                 "type": "text",
                 "text": "\"Because they know this — or do you think they've handed it to you for safe-keeping?\""
               }
-            ]
+            ],
+            "id": "p-9d6e00ecc36fd250"
           },
           {
             "type": "paragraph",
@@ -407,7 +417,8 @@
                 "type": "text",
                 "text": "\"Better that than to let it become a shackle that binds you.\""
               }
-            ]
+            ],
+            "id": "p-06751782e9b6d5ea"
           },
           {
             "type": "paragraph",
@@ -496,7 +507,8 @@
                 "type": "text",
                 "text": "\"Alas, and such a waste it would be, too, of all the recipes I have spent time gleaning from the lands around the world!\""
               }
-            ]
+            ],
+            "id": "p-de378b5b7c749f55"
           },
           {
             "type": "paragraph",
@@ -535,7 +547,8 @@
                 "type": "text",
                 "text": "And the fox snatched it up, before turning tail and burrowing into its nest."
               }
-            ]
+            ],
+            "id": "p-12ea3f451389bd18"
           },
           {
             "type": "paragraph",
@@ -554,13 +567,15 @@
                 "type": "text",
                 "text": "Shall lose all, even that which they already had."
               }
-            ]
+            ],
+            "id": "p-09d9232bf809aee9"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "vol-3",
       "label": "Vol. 3",
       "document": {
         "version": 1,
@@ -572,7 +587,8 @@
                 "type": "text",
                 "text": "The Tale of the Donkey"
               }
-            ]
+            ],
+            "id": "p-5dfd645009125c00"
           },
           {
             "type": "paragraph",
@@ -611,7 +627,8 @@
                 "type": "text",
                 "text": "Don't be like the donkey of this tale, and make an ass of oneself."
               }
-            ]
+            ],
+            "id": "p-ef8a06c7acb38ca2"
           },
           {
             "type": "paragraph",
@@ -670,7 +687,8 @@
                 "type": "text",
                 "text": "\"Her little tricks, surely, shall be mine in no time.\""
               }
-            ]
+            ],
+            "id": "p-eb311cd70218fb8d"
           },
           {
             "type": "paragraph",
@@ -719,7 +737,8 @@
                 "type": "text",
                 "text": "\"Just throw all your cheese away. Shall your cart not arrive sooner that way?\""
               }
-            ]
+            ],
+            "id": "p-e662b6d9d15feacf"
           },
           {
             "type": "paragraph",
@@ -758,7 +777,8 @@
                 "type": "text",
                 "text": "Seeing the stick being waved at it, the donkey ceased speaking at once."
               }
-            ]
+            ],
+            "id": "p-da5a00de7fc67586"
           },
           {
             "type": "paragraph",
@@ -777,7 +797,8 @@
                 "type": "text",
                 "text": "Is by no means beneficial. Indeed, it only leads to more suffering."
               }
-            ]
+            ],
+            "id": "p-76db1f98afe83382"
           }
         ]
       }

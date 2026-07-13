@@ -4,10 +4,11 @@
   "id": "maker-s-diary-about-mecha-town",
   "name": "Maker's Diary about Mecha Town",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Maker%27s_Diary_about_Mecha_Town",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -91,7 +92,8 @@
                 "type": "text",
                 "text": "With all the horrors scheduled in our future shifts, I can't help but run my hand through my still-luxurious hair, lamenting the many clumps that are fated to fall in the future."
               }
-            ]
+            ],
+            "id": "p-e9c1260acdfde3d3"
           },
           {
             "type": "paragraph",
@@ -133,7 +135,8 @@
                 "type": "text",
                 "text": "Knowing that... could the Watchmaker have played Clockie before? Shame that this documentary still didn't reveal what he truly looks like."
               }
-            ]
+            ],
+            "id": "p-83ef65fb610e56eb"
           },
           {
             "type": "paragraph",
@@ -161,7 +164,8 @@
                 "type": "text",
                 "text": "I really have nothing to say. He should find a mirror and see if he's the one that's actually stiff. He even started talking back, saying something about how: \"My manufacturer is not something that can be compared to those cheaply made Intellitrons.\" If it weren't for the fact that the Watchmaker is still watching us, I really might've thrown a punch at that very-much oxidized, alloyed skull of his."
               }
-            ]
+            ],
+            "id": "p-bef02cc2ab353344"
           },
           {
             "type": "paragraph",
@@ -189,7 +193,8 @@
                 "type": "text",
                 "text": "Must be nice to be a Nameless... Once I make enough money, I should go out and take in the world too."
               }
-            ]
+            ],
+            "id": "p-b73996d03ab84127"
           },
           {
             "type": "paragraph",
@@ -231,7 +236,8 @@
                 "type": "text",
                 "text": "However, the Watchmaker is quite severe and strict when it comes to animation production — a far cry from the usual whimsy humor he exhibits on a day-to-day basis. I cannot help but admit he has tremendous capability when it comes to writing scripts. At the same time, ignoring any notions of idolization, his demands for the animation's preciseness are approaching absurd — Collin nearly shorted his motherboard trying to imagine the scenes described in the script."
               }
-            ]
+            ],
+            "id": "p-50e6ff7a6140f675"
           },
           {
             "type": "paragraph",
@@ -273,7 +279,8 @@
                 "type": "text",
                 "text": "I've requested two days of sick leave from the producers. I'm going to see a Motivator."
               }
-            ]
+            ],
+            "id": "p-e5314faba1de00e6"
           },
           {
             "type": "paragraph",
@@ -356,7 +363,8 @@
                 "type": "text",
                 "text": "Not because the boss talked me down, but more that I want to speak with him more in the future."
               }
-            ]
+            ],
+            "id": "p-558c7475ecd2b666"
           },
           {
             "type": "paragraph",
@@ -398,7 +406,8 @@
                 "type": "text",
                 "text": "But I believe that the Watchmaker will definitely appear when Clock Studios needs him. Just like Clockie always comes running when Dreamville calls."
               }
-            ]
+            ],
+            "id": "p-ece04fe9931da51a"
           }
         ]
       }

@@ -4,17 +4,19 @@
   "id": "the-boar-princess",
   "name": "The Boar Princess",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/The_Boar_Princess",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -103,7 +105,8 @@
                 "type": "text",
                 "text": "\"Oink, oink, Bless the gentle Anemo Archon for giving our King such a kind and polite Princess!\""
               }
-            ]
+            ],
+            "id": "p-dc453883d04fd706"
           },
           {
             "type": "paragraph",
@@ -112,20 +115,23 @@
                 "type": "text",
                 "text": "(There are some words in the margin written in tiny handwriting: \"dada, if I dont eat candy efery night, and i pray eferyday, will i turn into a wild piggy? i want to be a wild piggy because they are so tasty\")"
               }
-            ]
+            ],
+            "id": "p-f4ada973c6d5814a"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -194,7 +200,8 @@
                 "type": "text",
                 "text": "There lived but a single lone wolf pup in that place."
               }
-            ]
+            ],
+            "id": "p-ec51645814b9a07e"
           },
           {
             "type": "paragraph",
@@ -203,20 +210,23 @@
                 "type": "text",
                 "text": "(The childish handwriting at the bottom of the page reads: \"dada, why does the little doggy have paws that don't freeze off in the cold?\")"
               }
-            ]
+            ],
+            "id": "p-2cd14be845140754"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "vol-3",
       "label": "Vol. 3",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -325,7 +335,8 @@
                 "type": "text",
                 "text": "The pup wished to apologize to the squirrel, but he felt his throat tighten and then loosen. The squirrel slid down to his stomach with a gulp."
               }
-            ]
+            ],
+            "id": "p-784e992637b1cfb9"
           },
           {
             "type": "paragraph",
@@ -334,20 +345,23 @@
                 "type": "text",
                 "text": "(A sheet of paper bearing fine handwriting is taped to this page: \"Lily, this is why you should eat cautiously when you're outside.\")"
               }
-            ]
+            ],
+            "id": "p-98590675e4c89862"
           }
         ]
       }
     },
     {
       "id": "4",
+      "volumeKey": "vol-4",
       "label": "Vol. 4",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -426,7 +440,8 @@
                 "type": "text",
                 "text": "He decided to settle down there, and became the lone wolf that roamed the tundra."
               }
-            ]
+            ],
+            "id": "p-9d2a69094f134f90"
           },
           {
             "type": "paragraph",
@@ -435,20 +450,23 @@
                 "type": "text",
                 "text": "(A young girl has written in the corner of the page: \"Dada, but where did Woobakwa go?\")"
               }
-            ]
+            ],
+            "id": "p-030b9e7530ef6724"
           }
         ]
       }
     },
     {
       "id": "5",
+      "volumeKey": "vol-5",
       "label": "Vol. 5",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -527,7 +545,8 @@
                 "type": "text",
                 "text": "When the fox and the turtle heard the Boar Princess was willing to invite them on a royal trip, their hearts were full of joy. They set out with the Princess and headed north."
               }
-            ]
+            ],
+            "id": "p-4cde47cd83064c44"
           },
           {
             "type": "paragraph",
@@ -536,20 +555,23 @@
                 "type": "text",
                 "text": "(A handwritten note, seemingly from the young girl's father, is taped to the page: \"Turtles can't make noises, no matter how hard they try. The reason Grandpa Turtle apologizes for this is just because he is very polite.\")"
               }
-            ]
+            ],
+            "id": "p-af91521ea7254205"
           }
         ]
       }
     },
     {
       "id": "6",
+      "volumeKey": "vol-6",
       "label": "Vol. 6",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -558,7 +580,8 @@
                 "type": "text",
                 "text": "And so, the Princess and her two wise companions arrived in the snowswept hinterland of the far north. Ice and snow covered the land as far as the eye could see. Neither the biggest, bravest animals nor even the weasel, who is the most skilled digger of them all, could find so much as a single blade of soft grass or a single piece of juicy fruit."
               }
-            ]
+            ],
+            "id": "p-f6fd9bcd9a835262"
           },
           {
             "type": "paragraph",
@@ -567,7 +590,8 @@
                 "type": "text",
                 "text": "The Princess was shivering from head to tail in the freezing cold, yet she was undaunted. Without even looking back, she pressed on deeper into the frozen wasteland. The wise fox and the trustworthy turtle could not bear the piercing wind and the freezing snow. They begged of the Princess:"
               }
-            ]
+            ],
+            "id": "p-04ff0f4c0d2d9139"
           },
           {
             "type": "paragraph",
@@ -576,7 +600,8 @@
                 "type": "text",
                 "text": "\"Ack-ack-ack! If His Majesty the King knew that you were adventuring to such a cold and dangerous place as this, he would be very worried! Let's head back home... Ack-ack-ack,\" exclaimed the fox. \"Yes, I agree! I fear the snowstorm will get stronger and colder with each passing second... Let us at least rest a while, and continue our journey once the wind has stopped and the sun is out? Once again, I apologize for not knowing how to make funny sounds,\" reasoned the turtle."
               }
-            ]
+            ],
+            "id": "p-6d2c00631dcc9642"
           },
           {
             "type": "paragraph",
@@ -585,7 +610,8 @@
                 "type": "text",
                 "text": "It was to no avail. The persevering Princess did not heed the advice of her wise companions, but insisted that they continue to press on into the bitter cold of the far north. For what nobler cause could one pursue in this world than rescuing lost kin and rekindling lost friendships?"
               }
-            ]
+            ],
+            "id": "p-4363f8d8c2d4c985"
           },
           {
             "type": "paragraph",
@@ -594,7 +620,8 @@
                 "type": "text",
                 "text": "Onwards they continued through the ice and snow, until their paws and hooves were purple from the cold, until each breath they exhaled turned into ice which became one with the swirling blizzard around them. Then, at the icy peak of a tall mountain, next to a frozen river which, in spite of everything, still flowed — albeit with icicles rather than water — the Princess met a spirit, swaying to and fro in the freezing wind."
               }
-            ]
+            ],
+            "id": "p-d63bd1cdb07158c4"
           },
           {
             "type": "paragraph",
@@ -603,7 +630,8 @@
                 "type": "text",
                 "text": "An ancient race of wise spirits lived atop that ice-capped mountain. They had no physical form, but possessed great magical power. \"Oink oink! Are you the master of this place? Please, O Spirit, could you guide us through this snowstorm?\" The Princess politely posed her question as her hooves, now numb from the cold, trembled in the snow. The wise fox and the trustworthy Grandpa Turtle also looked expectantly at the spirit of the snowstorm. As they gazed, their paws and flippers, respectively, numb from the cold, trembled in the snow."
               }
-            ]
+            ],
+            "id": "p-71ea72c079dbb3f5"
           },
           {
             "type": "paragraph",
@@ -612,7 +640,8 @@
                 "type": "text",
                 "text": "\"Whoosh, whoosh...\" The spirit of the snowstorm spoke softly. \"Of course, but... whoosh, whoosh...\" \"In return, I will sap your energy. The further forward you go in the storm, the more tired and hungry you will become — though I assure you, it will not be life threatening... I hope... Whoosh, whoosh...\""
               }
-            ]
+            ],
+            "id": "p-b719beaf521cd7c3"
           },
           {
             "type": "paragraph",
@@ -621,7 +650,8 @@
                 "type": "text",
                 "text": "\"Oink oink! This is, after all, the spirit of the snowstorm,\" pondered the Princess. \"And I am also in the company of the two wisest, most caring members of my family. Whatever may happen, they will always be able to find a way!\" Without a moment's hesitation, the Princess granted the spirit of the snowstorm her request. The wise fox and the trustworthy Grandpa Turtle had no time at all to formulate, let alone articulate, any remonstration."
               }
-            ]
+            ],
+            "id": "p-f417474d82a224a4"
           },
           {
             "type": "paragraph",
@@ -630,20 +660,23 @@
                 "type": "text",
                 "text": "\"Oink oink, I do declare this deal a fair one! Now, lead us to the wolf pup!\" And so, the spirit turned into an ice stream, and carried the persevering Princess over the tall mountain..."
               }
-            ]
+            ],
+            "id": "p-76d133daffd2ff33"
           }
         ]
       }
     },
     {
       "id": "7",
+      "volumeKey": "vol-7",
       "label": "Vol. 7",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -809,7 +842,8 @@
                 "type": "text",
                 "text": "The Princess took the pup by his paw, and the two merrily returned to their home."
               }
-            ]
+            ],
+            "id": "p-0c8f10a04dca018c"
           },
           {
             "type": "paragraph",
@@ -818,7 +852,8 @@
                 "type": "text",
                 "text": "(Wedged between the last two pages is a card bearing elegant handwriting: \"Honey, I think it would be best if we donated this one to the library...\")"
               }
-            ]
+            ],
+            "id": "p-9e904802c5551a34"
           }
         ]
       }

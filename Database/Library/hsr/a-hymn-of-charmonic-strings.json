@@ -4,10 +4,11 @@
   "id": "a-hymn-of-charmonic-strings",
   "name": "A Hymn of Charmonic Strings",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/A_Hymn_of_Charmonic_Strings",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -68,7 +69,8 @@
                 "type": "text",
                 "text": "Sweet dreams nowadays have manifested, and the gazillions of old laws have all faded away."
               }
-            ]
+            ],
+            "id": "p-f6193d16f336ec8e"
           },
           {
             "type": "paragraph",
@@ -126,7 +128,8 @@
                 "type": "text",
                 "text": "The Thousand Faces' plays shall never cease, and the eternal theaters forever linked."
               }
-            ]
+            ],
+            "id": "p-74401d85d2094491"
           },
           {
             "type": "paragraph",
@@ -184,7 +187,8 @@
                 "type": "text",
                 "text": "Thought they be the invincible steeds and death, they too long for their home deep in their soul."
               }
-            ]
+            ],
+            "id": "p-91dece0021e6f5f8"
           },
           {
             "type": "paragraph",
@@ -242,7 +246,8 @@
                 "type": "text",
                 "text": "Even babes show a smiling face. Dance! Dance! Towards that honey-sweet paradise."
               }
-            ]
+            ],
+            "id": "p-7c803e51ead36a76"
           },
           {
             "type": "paragraph",
@@ -251,7 +256,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           }
         ]
       }

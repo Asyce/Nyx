@@ -4,10 +4,11 @@
   "id": "weathering-curse-record",
   "name": "Weathering Curse Record",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Weathering_Curse_Record",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "To save the living from the clutches of the demons from beyond, our ancestor Graphia harnessed the power of the Phantasmoon Games, using the sea as her canvas to hide the planet within the \"World in Canvas.\" But all things come with a cost. This act of salvation also bound an eternal curse to the bloodline of the Graphia family."
               }
-            ]
+            ],
+            "id": "p-73d87118878c598a"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-392f9f92e438ceeb"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "The \"Weathering Curse\" first manifested in Graphia's body, then passed to our ancestors, Huear and Lumirae, becoming known to the world. As the years go by, the female descendants' bodies suffer corrosion: limbs wither, skin cracks and splits, like a decaying painting, peeling away layer by layer, turning to dust. The male descendants' minds are tortured, trapped in a daze, unable to recognize themselves, ultimately lost to madness. However, our family bears the responsibility of protecting this planet. We cannot bring ourselves to sever our bloodline and abandon this land and its people. Therefore, generations of descendants have searched far and wide for every possible cure, compiling them in this book, hoping that one day we can break the family curse and spare future generations from this suffering."
               }
-            ]
+            ],
+            "id": "p-60fda2b33deb4c76"
           },
           {
             "type": "paragraph",
@@ -63,7 +67,8 @@
                 "type": "text",
                 "text": "There are three hypotheses about the causes of the curse, but none of them have been proven."
               }
-            ]
+            ],
+            "id": "p-6354584204098c38"
           },
           {
             "type": "paragraph",
@@ -72,7 +77,8 @@
                 "type": "text",
                 "text": "(I) The Sacrifice Theory. To save the world, the ancestor Graphia had no choice but to trade her own life and the lives of her descendants through the Phantasmoon Games in exchange for the power to duomensionalize a planet in an instant."
               }
-            ]
+            ],
+            "id": "p-7b50f9df504adc2d"
           },
           {
             "type": "paragraph",
@@ -81,7 +87,8 @@
                 "type": "text",
                 "text": "(II) The Corrosion Theory: During Graphia's battles against the Antimatter Legion, she was struck by enemy forces. The corrosion of Destruction took root deep within her bloodline, cursing the Graphia clan to eternal unrest."
               }
-            ]
+            ],
+            "id": "p-15b0697251cd1f60"
           },
           {
             "type": "paragraph",
@@ -90,7 +97,8 @@
                 "type": "text",
                 "text": "(III) The Genetic Theory. The genes of the Graphia ancestors may contain certain hereditary material that causes descendants to have an increasingly higher probability of developing the condition after reaching a certain age phase, ultimately leading to death from the \"Weathering Curse.\""
               }
-            ]
+            ],
+            "id": "p-f67468e862a0c3b2"
           },
           {
             "type": "paragraph",
@@ -104,7 +112,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-4e16d8927a9c11fc"
           },
           {
             "type": "paragraph",
@@ -113,7 +122,8 @@
                 "type": "text",
                 "text": "To this day, the people of our family have tried many ways, but none of them succeeded. We can only record our failures, to guide future generations in the right direction."
               }
-            ]
+            ],
+            "id": "p-c1214c43978ba1c1"
           },
           {
             "type": "paragraph",
@@ -292,7 +302,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-230522511a786eae"
           }
         ]
       }

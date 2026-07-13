@@ -4,10 +4,11 @@
   "id": "dreamscape-nursery-rhyme-the-family-of-seven",
   "name": "Dreamscape Nursery Rhyme: The Family of Seven",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Dreamscape_Nursery_Rhyme:_The_Family_of_Seven",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -47,7 +48,8 @@
                 "type": "text",
                 "text": "Inside a nest they built their own heaven, banded together a family of seven."
               }
-            ]
+            ],
+            "id": "p-fd2f83423c70d5b9"
           },
           {
             "type": "paragraph",
@@ -84,7 +86,8 @@
                 "type": "text",
                 "text": "The family ate one of their own, now there's six inside the home."
               }
-            ]
+            ],
+            "id": "p-a3f4931ab4836f3d"
           },
           {
             "type": "paragraph",
@@ -121,7 +124,8 @@
                 "type": "text",
                 "text": "The big bug scoffed the little bug down. Now there are five left inside the home."
               }
-            ]
+            ],
+            "id": "p-506422e92cb9e256"
           },
           {
             "type": "paragraph",
@@ -158,7 +162,8 @@
                 "type": "text",
                 "text": "Whatever you do, do not awaken — forget those days of past mistaken."
               }
-            ]
+            ],
+            "id": "p-4727a9bd69884be8"
           }
         ]
       }

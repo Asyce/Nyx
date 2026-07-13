@@ -4,10 +4,11 @@
   "id": "the-angler-mystery-anniversary-special-edition-review",
   "name": "The Angler Mystery Anniversary Special Edition Review",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/The_Angler_Mystery_Anniversary_Special_Edition_Review",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "As a die-hard fan of the Angler Mystery, I have to say, the latest anniversary special left me feeling pretty disappointed."
               }
-            ]
+            ],
+            "id": "p-e7cacd44f11e38c5"
           },
           {
             "type": "paragraph",
@@ -63,7 +65,8 @@
                 "type": "text",
                 "text": "I get that they want to maximize the commercial value of this series, but they can't just throw in elements that don't fit! Guess what? Every villain in the Angler Mystery is all about destroying the whole Xianzhou or blowing up planets."
               }
-            ]
+            ],
+            "id": "p-2620836dc0e6c545"
           },
           {
             "type": "paragraph",
@@ -72,7 +75,8 @@
                 "type": "text",
                 "text": "It always goes like this: a deus-ex-machina device saves the day, or a super powerful football comes from hundreds of miles away and breaks through the villain's starskiff, or some super-duper guy shows up and tears apart an aurumaton with their bare hands. It feels like I'm watching an exaggerated superhero extravaganza! You know what? I think the Angler should just quit being a detective and join the laser-ball tournament in Taikiyan! Not even the brutal Chainsaw Overlord Zakk would stand a chance against him!"
               }
-            ]
+            ],
+            "id": "p-59ad6919d2fa464f"
           },
           {
             "type": "paragraph",
@@ -81,7 +85,8 @@
                 "type": "text",
                 "text": "And let's not forget how repetitive the recent stories have become. It's like they were written by an AI following a pattern:"
               }
-            ]
+            ],
+            "id": "p-945c1f75972a3aff"
           },
           {
             "type": "paragraph",
@@ -174,7 +179,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-28ab132fc739ecc9"
           },
           {
             "type": "paragraph",
@@ -183,7 +189,8 @@
                 "type": "text",
                 "text": "Yeah, the Tea Society is just a joke now. At the beginning of the story, they seemed like the most badass gang ever, and look at them now? EVERY SINGLE MEMBER is a covert agent from the Realm-Keeping Commission, Ten-Lords Commission, Seat of Divine Foresight, or some other organization. So, in reality, there are only two people who actually work for the Tea Society, Pu'er and Longjing, right?"
               }
-            ]
+            ],
+            "id": "p-744352c681e5893c"
           },
           {
             "type": "paragraph",
@@ -192,7 +199,8 @@
                 "type": "text",
                 "text": "And to those die-hard fans who accused me in my previous comments, I have something to say. I used to be a huge fan of this series, just like you. Every time a new novel or immersia was released, I'd be the first to buy it, and I never missed paying for any of the end-of-year or limited or special series."
               }
-            ]
+            ],
+            "id": "p-be01d994864c214e"
           },
           {
             "type": "paragraph",
@@ -201,7 +209,8 @@
                 "type": "text",
                 "text": "But you know what? I just can't keep up anymore! Come on, Master Su Fang, use your brain! Can't you write at least one decent detective story like you used to? Do you really think you can write nonsense like this and still rip our hard-earned money?"
               }
-            ]
+            ],
+            "id": "p-c247f694f12f57be"
           }
         ]
       }

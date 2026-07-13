@@ -4,17 +4,19 @@
   "id": "heart-s-desire",
   "name": "Heart's Desire",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Heart%27s_Desire",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -43,7 +45,8 @@
                 "type": "text",
                 "text": "To reach that place one must stand before the fountain and close their eyes, then wait for thirty-five heartbeats, then walk seven circles clockwise around the fountain followed by seven further circles anticlockwise. Upon opening one's eyes, one will find they have arrived at a little shop..."
               }
-            ]
+            ],
+            "id": "p-e46b17c4893b2710"
           },
           {
             "type": "paragraph",
@@ -52,7 +55,8 @@
                 "type": "text",
                 "text": "————"
               }
-            ]
+            ],
+            "id": "p-6f73884dcf3c11e9"
           },
           {
             "type": "paragraph",
@@ -151,7 +155,8 @@
                 "type": "text",
                 "text": "\"Welcome to the store. Do you see anything that takes your fancy?\""
               }
-            ]
+            ],
+            "id": "p-0b71b9325afa74a6"
           },
           {
             "type": "paragraph",
@@ -280,7 +285,8 @@
                 "type": "text",
                 "text": "The goblet must have once been adorned with a precious gemstone. But it had since been removed, and now the only clue to its existence was the empty, lonely indentation it had left behind..."
               }
-            ]
+            ],
+            "id": "p-adcc802b535df75c"
           },
           {
             "type": "paragraph",
@@ -309,7 +315,8 @@
                 "type": "text",
                 "text": "She had forgotten all about the strange store, from the route that had taken her there to everything that had happened inside."
               }
-            ]
+            ],
+            "id": "p-b2a3b0d342e9fc6b"
           },
           {
             "type": "paragraph",
@@ -318,7 +325,8 @@
                 "type": "text",
                 "text": "————"
               }
-            ]
+            ],
+            "id": "p-6f73884dcf3c11e9-2"
           },
           {
             "type": "paragraph",
@@ -427,7 +435,8 @@
                 "type": "text",
                 "text": "She smiled slightly as she watched the young man. After a long silence, he let out a sigh."
               }
-            ]
+            ],
+            "id": "p-61310714ded1089a"
           },
           {
             "type": "paragraph",
@@ -556,20 +565,23 @@
                 "type": "text",
                 "text": "\"What a heartless man you are.\""
               }
-            ]
+            ],
+            "id": "p-95bd22da108deff7"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -598,7 +610,8 @@
                 "type": "text",
                 "text": "To reach that place one must stand in the sea breeze and close their eyes, walk forty-nine steps away from the clamor of the crowds, then wait till the sound of one's own heartbeat drowns out the voices in the background. Upon opening one's eyes, one will find they have arrived at a little shop..."
               }
-            ]
+            ],
+            "id": "p-36ecf764f8ef5deb"
           },
           {
             "type": "paragraph",
@@ -607,7 +620,8 @@
                 "type": "text",
                 "text": "————"
               }
-            ]
+            ],
+            "id": "p-6f73884dcf3c11e9"
           },
           {
             "type": "paragraph",
@@ -686,7 +700,8 @@
                 "type": "text",
                 "text": "But the sound of smashing glass his ears were anticipating never came. The shopkeeper, who had fox-like eyes with slender lines for pupils, had somehow caught the bottle and returned it to its place on the shelf."
               }
-            ]
+            ],
+            "id": "p-84562c6d19067d16"
           },
           {
             "type": "paragraph",
@@ -755,7 +770,8 @@
                 "type": "text",
                 "text": "They looked at each other for a long time in silence. Finally, she spoke: \"Very well.\""
               }
-            ]
+            ],
+            "id": "p-e41907ea2a706c36"
           },
           {
             "type": "paragraph",
@@ -824,7 +840,8 @@
                 "type": "text",
                 "text": "Tens of thousands of years flashed by before his eyes. Like the continuous shifting of the clouds, stars turned to water and water turned to land. Snow melted and gave way to green pastures. Rivers cut their way through the open country. He watched cities rise like ants' nests and kingdoms topple like toy building blocks..."
               }
-            ]
+            ],
+            "id": "p-591865fe46a74e1a"
           },
           {
             "type": "paragraph",
@@ -853,7 +870,8 @@
                 "type": "text",
                 "text": "\"This is a wondrous crystal heart indeed,\" he thought to himself, increasing his pace as he walked on under the moonlight. \"All I need to do is give this to her... Once that's done, then I can... I must...\""
               }
-            ]
+            ],
+            "id": "p-a31c1451b52bf1d1"
           },
           {
             "type": "paragraph",
@@ -862,7 +880,8 @@
                 "type": "text",
                 "text": "————"
               }
-            ]
+            ],
+            "id": "p-6f73884dcf3c11e9-2"
           },
           {
             "type": "paragraph",
@@ -881,7 +900,8 @@
                 "type": "text",
                 "text": "\"Welcome to the store. Do you see anything that takes your fancy?\""
               }
-            ]
+            ],
+            "id": "p-8b329ff14202011e"
           },
           {
             "type": "paragraph",
@@ -940,7 +960,8 @@
                 "type": "text",
                 "text": "\"Actually, I do not want for money. But let me see... what's this — it looks like salt? It's about time I went to Sal Terrae to pay my respects again. If it's okay with you, this is all I need in return for the gem.\""
               }
-            ]
+            ],
+            "id": "p-05a3a9df120e727d"
           },
           {
             "type": "paragraph",
@@ -949,7 +970,8 @@
                 "type": "text",
                 "text": "————"
               }
-            ]
+            ],
+            "id": "p-6f73884dcf3c11e9-3"
           },
           {
             "type": "paragraph",
@@ -1008,7 +1030,8 @@
                 "type": "text",
                 "text": "\"On the other hand, it is delightfully straightforward opening up to a complete stranger. I know that once he sets foot outside that door, we never have to meet one another again - so what does it matter if I reveal a little truth to him? Perversely, the closer two people become, the more one seeks to gain, and so you must be on your guard. But how could he have known...\""
               }
-            ]
+            ],
+            "id": "p-972f250ae6eb55e2"
           },
           {
             "type": "paragraph",
@@ -1017,20 +1040,23 @@
                 "type": "text",
                 "text": "\"I'm sorry, this has all been quite the imposition on you. But it is truly wonderful to have this back.\" She lowered her gaze and continued, \"This is, after all, your heart that you have left behind. I will be sure to treasure it... But don't you think it's fun? Taking a trip down into the world once in a while, seeing what people are like nowadays?\""
               }
-            ]
+            ],
+            "id": "p-744a17eea99e0251"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "vol-3",
       "label": "Vol. 3",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -1059,7 +1085,8 @@
                 "type": "text",
                 "text": "To reach that place one must stand in the center of the plaza and close their eyes, walk seven circles clockwise around the plaza followed by seven anticlockwise circles, take forty paces forward and then wait till the cries of the birds can no longer be heards in the wind. Upon opening one's eyes, one will find they have arrived at a little shop..."
               }
-            ]
+            ],
+            "id": "p-115aa13a88682b71"
           },
           {
             "type": "paragraph",
@@ -1068,7 +1095,8 @@
                 "type": "text",
                 "text": "————"
               }
-            ]
+            ],
+            "id": "p-6f73884dcf3c11e9"
           },
           {
             "type": "paragraph",
@@ -1087,7 +1115,8 @@
                 "type": "text",
                 "text": "Everything, from the ostentatious flowers, the dust-covered harpastum, and the old books rendered illegible by years of erosion, to the now-stringless old longbow, appeared as the opulent halls of the ruling aristocrats might have done in times of old — covered in a shiny silver coating, though this was a silver that came from the cold light of the night sky."
               }
-            ]
+            ],
+            "id": "p-4881588ca7ee6c34"
           },
           {
             "type": "paragraph",
@@ -1116,7 +1145,8 @@
                 "type": "text",
                 "text": "The shopkeeper turned around. A familiar customer was sat nonchalantly on her armchair in the part of the shop that the moonlight did not reach."
               }
-            ]
+            ],
+            "id": "p-f96f49d82c995db7"
           },
           {
             "type": "paragraph",
@@ -1155,7 +1185,8 @@
                 "type": "text",
                 "text": "The customer let out a sigh, \"There's nothing in your shop that's worth me spending money on anyway. I mean, if I really had to pick something...\""
               }
-            ]
+            ],
+            "id": "p-508df72193215c46"
           },
           {
             "type": "paragraph",
@@ -1204,7 +1235,8 @@
                 "type": "text",
                 "text": "\"On the contrary... all the \"exchanged goods,\" \"free gifts,\" \"philanthropic donations,\" \"bestowals\" and so on that you have so generously given over the years... why, they must make you the most charitably inclined burglar to roam the streets, no?\""
               }
-            ]
+            ],
+            "id": "p-6d60c270ac14eeca"
           },
           {
             "type": "paragraph",
@@ -1223,7 +1255,8 @@
                 "type": "text",
                 "text": "Though a burglar by trade, this customer was nevertheless valiant at heart. His words lacked courtesy, but the smile on his face was entirely earnest."
               }
-            ]
+            ],
+            "id": "p-175075d25090e92e"
           },
           {
             "type": "paragraph",
@@ -1292,7 +1325,8 @@
                 "type": "text",
                 "text": "\"...I wonder if the girl with the sapphire-blue eyes feels the same weight that I feel?\""
               }
-            ]
+            ],
+            "id": "p-560f6f7f143219d7"
           },
           {
             "type": "paragraph",
@@ -1301,7 +1335,8 @@
                 "type": "text",
                 "text": "————"
               }
-            ]
+            ],
+            "id": "p-6f73884dcf3c11e9-2"
           },
           {
             "type": "paragraph",
@@ -1330,7 +1365,8 @@
                 "type": "text",
                 "text": "Ignoring the piles of random objects strewn around the store, she marched straight to the counter like a sword lunging toward its opponent's heart."
               }
-            ]
+            ],
+            "id": "p-77c592c8f15cb6f8"
           },
           {
             "type": "paragraph",
@@ -1379,7 +1415,8 @@
                 "type": "text",
                 "text": "\"But that was many years ago. I had thought that with the passage of time my anger would be quenched and my desire to see him again would fade away...\""
               }
-            ]
+            ],
+            "id": "p-757c4c002a25338c"
           },
           {
             "type": "paragraph",
@@ -1418,7 +1455,8 @@
                 "type": "text",
                 "text": "\"I see. Well, provided that this is what you really want...\""
               }
-            ]
+            ],
+            "id": "p-d63004dea857c516"
           },
           {
             "type": "paragraph",
@@ -1447,7 +1485,8 @@
                 "type": "text",
                 "text": "For many, it is only in the moment that death is upon them that it dawns on them that their weakness has now been targets with fatal consequences — and that at some point, therefore, that weakness must have been exposed."
               }
-            ]
+            ],
+            "id": "p-0edecd10225b8003"
           },
           {
             "type": "paragraph",
@@ -1476,20 +1515,23 @@
                 "type": "text",
                 "text": "One thing she knew for certain was that even if she were to abandon these objects, the legends attached to them would not disappear, and the way the stories ended could not be undone. In which case, it seemed to make sense to collect all the legends and stories she could in her shop."
               }
-            ]
+            ],
+            "id": "p-aa1db3fcc88566fc"
           }
         ]
       }
     },
     {
       "id": "4",
+      "volumeKey": "vol-4",
       "label": "Vol. 4",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -1518,7 +1560,8 @@
                 "type": "text",
                 "text": "To reach that place one must stand in the sea breeze and close their eyes, walk forty-nine steps away from the clamor of the city streets, then wait until complete silence replaces the sounds of the voices in the background, the only remaining sound being that of one's own heartbeat. Upon opening one's eyes, one will find they arrived at a little shop..."
               }
-            ]
+            ],
+            "id": "p-4cae957981e21d5c"
           },
           {
             "type": "paragraph",
@@ -1527,7 +1570,8 @@
                 "type": "text",
                 "text": "————"
               }
-            ]
+            ],
+            "id": "p-6f73884dcf3c11e9"
           },
           {
             "type": "paragraph",
@@ -1576,7 +1620,8 @@
                 "type": "text",
                 "text": "\"Welcome to the store. Do you see anything that takes your fancy?\""
               }
-            ]
+            ],
+            "id": "p-8cbe31ba41b47524"
           },
           {
             "type": "paragraph",
@@ -1635,7 +1680,8 @@
                 "type": "text",
                 "text": "She leaned down to search in the bottom of the cabinet. When she stood up a moment later, she was holding a large and beautiful piece of Cor Lapis."
               }
-            ]
+            ],
+            "id": "p-c2582f4a2d8582b5"
           },
           {
             "type": "paragraph",
@@ -1664,7 +1710,8 @@
                 "type": "text",
                 "text": "His hands were still trembling."
               }
-            ]
+            ],
+            "id": "p-1aece5795de06eb9"
           },
           {
             "type": "paragraph",
@@ -1713,7 +1760,8 @@
                 "type": "text",
                 "text": "The man solemnly responded, and placed a heavy sack of Mora upon the counter. Then, he left the store and ventured off into the midnight rain."
               }
-            ]
+            ],
+            "id": "p-5dfe744156372cfc"
           },
           {
             "type": "paragraph",
@@ -1722,7 +1770,8 @@
                 "type": "text",
                 "text": "————"
               }
-            ]
+            ],
+            "id": "p-6f73884dcf3c11e9-2"
           },
           {
             "type": "paragraph",
@@ -1781,7 +1830,8 @@
                 "type": "text",
                 "text": "Like a pool of water, the shopkeeper's voice was calm and still, but also icy cold."
               }
-            ]
+            ],
+            "id": "p-53baab8b42a1122e"
           },
           {
             "type": "paragraph",
@@ -1870,7 +1920,8 @@
                 "type": "text",
                 "text": "\"So... Fear won me over. I could bring myself to accept that the whole sum could be mine if I was willing to get blood on my hands, but I couldn't bring myself to accept the risk of traveling with a stranger...\""
               }
-            ]
+            ],
+            "id": "p-e717d5a90a3f7366"
           },
           {
             "type": "paragraph",
@@ -1909,7 +1960,8 @@
                 "type": "text",
                 "text": "\"Only a hunting knife could have made a clean cut like that. I am sure of it.\""
               }
-            ]
+            ],
+            "id": "p-9837be0367b1408e"
           },
           {
             "type": "paragraph",
@@ -1948,7 +2000,8 @@
                 "type": "text",
                 "text": "The young man did not say much in reply."
               }
-            ]
+            ],
+            "id": "p-c8cc5756efccfdaa"
           },
           {
             "type": "paragraph",
@@ -1957,7 +2010,8 @@
                 "type": "text",
                 "text": "————"
               }
-            ]
+            ],
+            "id": "p-6f73884dcf3c11e9-3"
           },
           {
             "type": "paragraph",
@@ -2016,7 +2070,8 @@
                 "type": "text",
                 "text": "She spoke as if posing her question to the curtain of rain, but knowing that the answer would never come."
               }
-            ]
+            ],
+            "id": "p-68d2b8076e56d78b"
           }
         ]
       }

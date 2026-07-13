@@ -4,10 +4,11 @@
   "id": "research-on-capsule-machine-no",
   "name": "Research On Capsule Machine No. ■",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Research_On_Capsule_Machine_No._%E2%96%A0",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -31,7 +32,8 @@
                 "type": "text",
                 "text": "As we all know, the Golden Hour is notorious for its many appalling entertainment facilities, with the Golden Capsule Machine being one of the worst. My companions and I will start a challenge of inserting 50 consecutively into the machine and record the outcome of each game to reveal The Family's conspiracy regarding the odds of winning the prize."
               }
-            ]
+            ],
+            "id": "p-c1e57793418c9aca"
           },
           {
             "type": "paragraph",
@@ -66,7 +68,8 @@
                 "type": "text",
                 "text": "Comment: I suspect they have lowered the odds of winning the prize again."
               }
-            ]
+            ],
+            "id": "p-66e70f8919aa4e2a"
           },
           {
             "type": "paragraph",
@@ -101,7 +104,8 @@
                 "type": "text",
                 "text": "Comment: I wouldn't eat it even if it came free."
               }
-            ]
+            ],
+            "id": "p-0793d56974fcb142"
           },
           {
             "type": "paragraph",
@@ -136,7 +140,8 @@
                 "type": "text",
                 "text": "Comment: See? No one would want to spend on this crap!"
               }
-            ]
+            ],
+            "id": "p-452aaadb7600f03e"
           },
           {
             "type": "paragraph",
@@ -145,7 +150,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -180,7 +186,8 @@
                 "type": "text",
                 "text": "Comment: That's not bad. A decent, conscientious effort from them."
               }
-            ]
+            ],
+            "id": "p-26646d895b6b083b"
           },
           {
             "type": "paragraph",
@@ -189,7 +196,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -224,7 +232,8 @@
                 "type": "text",
                 "text": "Comment: Fishsticks!"
               }
-            ]
+            ],
+            "id": "p-60019a7370c0a428"
           },
           {
             "type": "paragraph",
@@ -233,7 +242,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-3"
           },
           {
             "type": "paragraph",
@@ -268,7 +278,8 @@
                 "type": "text",
                 "text": "Comment: Is this actually included in the prize list? No, something isn't right... Stop the trials!"
               }
-            ]
+            ],
+            "id": "p-f9d8d07021f30c08"
           }
         ]
       }

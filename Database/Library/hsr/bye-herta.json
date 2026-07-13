@@ -4,10 +4,11 @@
   "id": "bye-herta",
   "name": "Bye, Herta",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Bye,_Herta",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Darkness is gathering in the distance, using cruel methods..."
               }
-            ]
+            ],
+            "id": "p-44d91c7fd1505e4a"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "To dissect time. Petals inquiring for love bend their lips,"
               }
-            ]
+            ],
+            "id": "p-69f125d649f0b0e8"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "Like the ticking chimes in an infinite time and space. We have no choice,"
               }
-            ]
+            ],
+            "id": "p-a6156acecbbcb909"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "But to slide into the shivering calamities of the universe as if sliding down a slope into dusk."
               }
-            ]
+            ],
+            "id": "p-4052c711b8cfd821"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "And with that, the stars continue their enjoyment above as their elegant smiles fill the way forward."
               }
-            ]
+            ],
+            "id": "p-37720d807fc6d692"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "Rocky Martinez"
               }
-            ]
+            ],
+            "id": "p-a74dd401cb35b818"
           }
         ]
       }

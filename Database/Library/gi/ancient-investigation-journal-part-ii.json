@@ -4,10 +4,11 @@
   "id": "ancient-investigation-journal-part-ii",
   "name": "Ancient Investigation Journal: Part II",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Ancient_Investigation_Journal:_Part_II",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Due to the tragedy that befell us previously, I fear that my prior journal entries are now all but lost. It is most unfortunate that the investigation notes were lost, but the conditions here are truly dangerous."
               }
-            ]
+            ],
+            "id": "p-5d9444304fd93f75"
           },
           {
             "type": "paragraph",
@@ -78,7 +80,8 @@
                 "type": "text",
                 "text": "I had said that it is imperative we first check the structural integrity of these ruins... I clearly remember telling him that."
               }
-            ]
+            ],
+            "id": "p-662c5f319119520b"
           },
           {
             "type": "paragraph",
@@ -97,7 +100,8 @@
                 "type": "text",
                 "text": "Or perhaps this is simply the natural toll such desperate conditions take on people."
               }
-            ]
+            ],
+            "id": "p-ae9299239d2f1e57"
           },
           {
             "type": "paragraph",
@@ -126,7 +130,8 @@
                 "type": "text",
                 "text": "Even as an illegitimate child, he is quite capable of living up to the role of an aristocrat, more so than most other aristocrats, in fact."
               }
-            ]
+            ],
+            "id": "p-eea7b6d18ca0bbc0"
           },
           {
             "type": "paragraph",
@@ -155,7 +160,8 @@
                 "type": "text",
                 "text": "The sheer cold of this place has the peculiar and incomprehensible effect of preserving things the way they are."
               }
-            ]
+            ],
+            "id": "p-e12b60a827b577b0"
           },
           {
             "type": "paragraph",
@@ -184,7 +190,8 @@
                 "type": "text",
                 "text": "Even if I beat the monsters, I would probably share the fate of Eberhart's slave, and meet my demise at the sword of the red-haired reaper of the Lawrence Clan..."
               }
-            ]
+            ],
+            "id": "p-5359f8150513984e"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "business-wisdom-of-viotis-the-wealthy",
   "name": "Business Wisdom of Viotis the Wealthy",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Business_Wisdom_of_Viotis_the_Wealthy",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -39,7 +40,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-3b832959571ee7d2"
           },
           {
             "type": "paragraph",
@@ -48,7 +50,8 @@
                 "type": "text",
                 "text": "The immensely wealthy Viotis left behind only a few words after his death, which were revered as business wisdom and eagerly passed around by merchants and commoners alike for a millennium. People have always been curious, how did this foreign-born youth who grew up impoverished manage to build an empire from scratch and carve out his legacy in Okhema? And whenever asked this question, Viotis would always mention that fateful disaster."
               }
-            ]
+            ],
+            "id": "p-6c7d9bb8d2004931"
           },
           {
             "type": "paragraph",
@@ -77,7 +80,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-d7dc5645ad6e26b2"
           },
           {
             "type": "paragraph",
@@ -86,7 +90,8 @@
                 "type": "text",
                 "text": "When Viotis was still a young boy, his homeland was consumed by the black tide, forcing him to flee alone to seek refuge with his compatriot brother, Atticus, in Okhema. However, Zagreus always took delight in tormenting the unfortunate. Along the way, Viotis was ambushed by bandits, with one blade piercing his chest and another slashing his arm. Fortunately, a passing hunter saved his life. Though he survived, the trauma left him with an ailment that troubled him for many years."
               }
-            ]
+            ],
+            "id": "p-b4d852f9071b438c"
           },
           {
             "type": "paragraph",
@@ -115,7 +120,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-39ca878657c6e6e2"
           },
           {
             "type": "paragraph",
@@ -134,7 +140,8 @@
                 "type": "text",
                 "text": "Even after that, Viotis continued to suffer from amnesia. Perhaps because all his memories came from his brother's retelling, during episodes of his condition, he could no longer distinguish whether he was Atticus or Viotis."
               }
-            ]
+            ],
+            "id": "p-396dc6da29cae807"
           },
           {
             "type": "paragraph",
@@ -163,7 +170,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-9c8d23006de44146"
           },
           {
             "type": "paragraph",
@@ -182,7 +190,8 @@
                 "type": "text",
                 "text": "He rented a shop in the Marmoreal Market, working tirelessly for three years to save up ten thousand Balance Coins. With the addition of three hundred thousand Balance Coins from his brother Atticus's support, he was finally able to open his first pawnshop."
               }
-            ]
+            ],
+            "id": "p-e53bc6cb333ac7ff"
           },
           {
             "type": "paragraph",
@@ -211,7 +220,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-c703279243565149"
           },
           {
             "type": "paragraph",
@@ -230,7 +240,8 @@
                 "type": "text",
                 "text": "This strange phenomenon led him to become a devout believer in the Titans. Every year, he set aside one-sixtieth of his profits as tribute to Kephale, a practice he upheld until his death."
               }
-            ]
+            ],
+            "id": "p-5acb622c60f784a9"
           },
           {
             "type": "paragraph",
@@ -239,7 +250,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

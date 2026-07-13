@@ -4,10 +4,11 @@
   "id": "observational-monument-on-the-roots-of-the-arbor",
   "name": "Observational Monument on the Roots of the Arbor",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Observational_Monument_on_the_Roots_of_the_Arbor",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "This monument is erected in 8000 S.C. at the bottom of the Lunarescent Depths for the Pearlkeepers to record the changes in the Ambrosial Arbor roots. Unauthorized contact is strictly forbidden."
               }
-            ]
+            ],
+            "id": "p-b662e531c7067a7a"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Recorded by Hanxin, Ocean Moon Team 1 member: Branch grows by 0.5 inches on the 12th, 18th, and 24th."
               }
-            ]
+            ],
+            "id": "p-97f7ff55a7aa6b81"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "Recorded by Jun, Ocean Moon Team 2 member: Branch grows by 1 inch on the 17th and by 0.5 inches on the 22nd."
               }
-            ]
+            ],
+            "id": "p-393cf85f781987d3"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "Recorded by Shuyi, Ocean Moon Team 1 member: Branch grows by 1 inch on the 1st, 9th, 13th, 21st, and 35th, and by 7 inches on the 4th, 8th, and 17th. The abnormal condition of the Ambrosial Arbor roots has been reported."
               }
-            ]
+            ],
+            "id": "p-b7d1e0eda20ccf1c"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "Recorded by Hetian, Ocean Moon Team 1 Leader: The garrison work has been suspended for one cycle as instructed by the Preceptor Shaoying to collect samples of the Ambrosial Arbor for the examination of its status."
               }
-            ]
+            ],
+            "id": "p-e476469586cae7de"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "Recorded by Hetian, Ocean Moon Team 1 Leader: The abnormal condition of the Ambrosial Arbor reported earlier has been checked. It should be normal growth fluctuation, which is not a serious issue."
               }
-            ]
+            ],
+            "id": "p-0d7032aa8e34e48a"
           }
         ]
       }

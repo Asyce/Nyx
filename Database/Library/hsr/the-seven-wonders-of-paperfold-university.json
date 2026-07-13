@@ -4,10 +4,11 @@
   "id": "the-seven-wonders-of-paperfold-university",
   "name": "The Seven Wonders of Paperfold University",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/The_Seven_Wonders_of_Paperfold_University",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "strong",
                 "children": []
               }
-            ]
+            ],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-6e6a35bc94c61ddf"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "My roommate heard this from a senior who graduated years ago: Rumor has it that the library has a huge abandoned underground warehouse. This warehouse is absolutely enormous, and they use it to store discarded textbooks, outdated bestsellers, and old magazines."
               }
-            ]
+            ],
+            "id": "p-32f9f7a2a5f4bfa7"
           },
           {
             "type": "paragraph",
@@ -51,7 +55,8 @@
                 "type": "text",
                 "text": "Just like how books in the real world can become worm-eaten if stored improperly in the real world, some \"things\" also started growing in these books. The senior wasn't sure what they were, but she guessed it was probably monsters like Memory Zone Memes... Either way, the entire library area was blocked off for a while and Bloodhounds constantly went in and out of the building. Moreover... some of those people who went in never came out..."
               }
-            ]
+            ],
+            "id": "p-8f83044aeaf2c0f2"
           },
           {
             "type": "paragraph",
@@ -60,7 +65,8 @@
                 "type": "text",
                 "text": "There was one brave student who tried to sneak in but didn't manage to. When he talked to other students about it afterward, he said he heard an extremely terrifying roar coming from under the ground before the Bloodhounds found him."
               }
-            ]
+            ],
+            "id": "p-bf69f3c2e1da8f6e"
           },
           {
             "type": "paragraph",
@@ -69,7 +75,8 @@
                 "type": "text",
                 "text": "The library re-opened not long after, and it all seemed the same as before, except that the door that led to the warehouse was nowhere to be seen."
               }
-            ]
+            ],
+            "id": "p-2086f3f8fe8f7b60"
           },
           {
             "type": "paragraph",
@@ -83,7 +90,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-4efc74d178a4458d"
           },
           {
             "type": "paragraph",
@@ -92,7 +100,8 @@
                 "type": "text",
                 "text": "Some people claim that there is a Crisis Era Memory Zone Meme hidden below the library. This version is from the thread on supernatural phenomena on the student forums. The original content is as follows:"
               }
-            ]
+            ],
+            "id": "p-289523ee355b8534"
           },
           {
             "type": "paragraph",
@@ -101,7 +110,8 @@
                 "type": "text",
                 "text": "\"Unlike ordinary memes, this meme had developed a human-like appearance and intellect after prolonged exposure to humanity and had become extremely difficult to deal with. It was only suppressed and sealed underneath the library after a united effort from the Bloodhound Family, the Garden of Recollection, and the IPC.\""
               }
-            ]
+            ],
+            "id": "p-57efbf4e08a92a4b"
           },
           {
             "type": "paragraph",
@@ -115,7 +125,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-51c9d5bd5beb11f6"
           },
           {
             "type": "paragraph",
@@ -124,7 +135,8 @@
                 "type": "text",
                 "text": "The author attempted to find further information regarding the variant version but was unsuccessful. However, the mention of \"Paperfold University was founded to use the massive number of students' subconscious to suppress this meme\" could link the two stories and allow for further discoveries."
               }
-            ]
+            ],
+            "id": "p-6d524de051fef378"
           },
           {
             "type": "paragraph",
@@ -133,7 +145,8 @@
                 "type": "strong",
                 "children": []
               }
-            ]
+            ],
+            "id": "p-882a20e6379eb83a-2"
           },
           {
             "type": "paragraph",
@@ -147,7 +160,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-6e6a35bc94c61ddf-2"
           },
           {
             "type": "paragraph",
@@ -156,7 +170,8 @@
                 "type": "text",
                 "text": "Oh, that? I know that story. It happened around that fountain southwest of the Charmony Academy... Rumor has it that loads of people experienced this, and it was nearly always the same thing. They were all walking on their own when a dense fog suddenly came out of nowhere. They couldn't see anything, and they couldn't get out of it no matter which direction they walked in. The only way out was to follow the bird calls in the mist, and you could only return to reality when you reached the fountain."
               }
-            ]
+            ],
+            "id": "p-15a96fc1101a46ba"
           },
           {
             "type": "paragraph",
@@ -165,7 +180,8 @@
                 "type": "text",
                 "text": "Although... I heard that someone from Fortune Academy saw this whole thing unfold. He said the unfortunate fool who got \"lost\" just mindlessly walked around the fountain the whole time."
               }
-            ]
+            ],
+            "id": "p-fa1a99362e290d58"
           },
           {
             "type": "paragraph",
@@ -179,7 +195,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-4efc74d178a4458d-2"
           },
           {
             "type": "paragraph",
@@ -188,7 +205,8 @@
                 "type": "text",
                 "text": "As for the bird calls in the mist, the most popular opinion right now is that those are actually the calls of a Dreamweaver who lost their life in an accident during the academy's construction, and whose soul was transformed into an Origami Bird."
               }
-            ]
+            ],
+            "id": "p-416afa5a36b7e347"
           },
           {
             "type": "paragraph",
@@ -197,7 +215,8 @@
                 "type": "text",
                 "text": "Why are they guiding the way for people? Some say that they are protecting the students. Some say they've been alone for so long and just want to play hide-and-seek with people."
               }
-            ]
+            ],
+            "id": "p-1921e62d433aef5f"
           },
           {
             "type": "paragraph",
@@ -211,7 +230,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-51c9d5bd5beb11f6-2"
           },
           {
             "type": "paragraph",
@@ -220,7 +240,8 @@
                 "type": "text",
                 "text": "The cartoon avatars from the \"Clockie\" series have always had important roles in the spread and evolution of Penaconian local ghost stories."
               }
-            ]
+            ],
+            "id": "p-ba6eed4c3788acfc"
           },
           {
             "type": "paragraph",
@@ -229,7 +250,8 @@
                 "type": "text",
                 "text": "Different Moments have different versions regarding the legend of the \"Origami Bird.\" The details of these stories are influenced by their local cultures' features (for example, in Golden Hour, the spirit's identity is often described as a Dreamchaser). However, the narrative structure (such as the change of POV) and main elements (the mist, getting lost, and the bird calls) remain largely the same."
               }
-            ]
+            ],
+            "id": "p-006c489faa153fec"
           },
           {
             "type": "paragraph",
@@ -238,7 +260,8 @@
                 "type": "strong",
                 "children": []
               }
-            ]
+            ],
+            "id": "p-882a20e6379eb83a-3"
           },
           {
             "type": "paragraph",
@@ -252,7 +275,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-6e6a35bc94c61ddf-3"
           },
           {
             "type": "paragraph",
@@ -261,7 +285,8 @@
                 "type": "text",
                 "text": "I never witnessed this for myself, but this is what they all say... Also, if you ask me, it's really not that strange even if it is true! You know that Fortune Academy professor that everyone hates? The one that takes the register for every elective class and has a super-high fail rate?"
               }
-            ]
+            ],
+            "id": "p-16daf3d4d91ac87c"
           },
           {
             "type": "paragraph",
@@ -270,7 +295,8 @@
                 "type": "text",
                 "text": "Rumor has it that he transformed into a balloon a few days ago... Apparently, he announced during a lecture that there was going to be an on-the-spot in-class test, and anyone who failed would have their grades deducted at the end of the semester. A student argued with him and the professor said, \"You want me to cancel the test? Only if I turn into a balloon right now!\""
               }
-            ]
+            ],
+            "id": "p-2130ecb279d93610"
           },
           {
             "type": "paragraph",
@@ -279,7 +305,8 @@
                 "type": "text",
                 "text": "Also... I heard that this balloon is bright red with a wonky laughing clown face crudely drawn on it."
               }
-            ]
+            ],
+            "id": "p-708b772c6bdaf6ed"
           },
           {
             "type": "paragraph",
@@ -293,7 +320,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-4efc74d178a4458d-3"
           },
           {
             "type": "paragraph",
@@ -302,7 +330,8 @@
                 "type": "text",
                 "text": "In other known versions, the reasons for the clash between the student and the professor include: Creating difficulties for struggling students, abusing students who are dating each other (believing that they were disrupting the order of the class), and serious professional mistakes during class (that they refuse to admit to save their reputation)."
               }
-            ]
+            ],
+            "id": "p-16bafef2a4579fe9"
           },
           {
             "type": "paragraph",
@@ -316,7 +345,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-51c9d5bd5beb11f6-3"
           },
           {
             "type": "paragraph",
@@ -325,7 +355,8 @@
                 "type": "text",
                 "text": "During the course of my research, the author noticed an intriguing phenomenon: In contrast to other ghost stories, the storytellers in this one tended to lean in more of a \"proactive\" attitude."
               }
-            ]
+            ],
+            "id": "p-b6d1d27bf2ca99d1"
           },
           {
             "type": "paragraph",
@@ -334,7 +365,8 @@
                 "type": "text",
                 "text": "In the narrative process, the majority seem to express a certain amount of gratification and satisfaction (to the point of even reveling in this person's misfortune). What's more, they often use subtle looks and hand movements or use \"humor\" to cover up their aggression (toward certain unpopular professors)."
               }
-            ]
+            ],
+            "id": "p-cc759a9bb724f0bb"
           },
           {
             "type": "paragraph",
@@ -343,7 +375,8 @@
                 "type": "strong",
                 "children": []
               }
-            ]
+            ],
+            "id": "p-882a20e6379eb83a-4"
           },
           {
             "type": "paragraph",
@@ -357,7 +390,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-6e6a35bc94c61ddf-4"
           },
           {
             "type": "paragraph",
@@ -366,7 +400,8 @@
                 "type": "text",
                 "text": "This makes me so ■■■■ing mad! I don't believe it for one bit, but this is just bad vibes! What kind of bored, lazy ■■■■■■ sits around sending these evil spam messages all day!? Look, look! Is this what anyone sane would do?"
               }
-            ]
+            ],
+            "id": "p-0c7be9a59845731d"
           },
           {
             "type": "paragraph",
@@ -375,7 +410,8 @@
                 "type": "text",
                 "text": "\"Make sure you send this message to 20 people within 3 days, or you'll fail every compulsory course this semester! Don't believe me? Wait and see~\""
               }
-            ]
+            ],
+            "id": "p-41df767c2af60185"
           },
           {
             "type": "paragraph",
@@ -384,7 +420,8 @@
                 "type": "text",
                 "text": "I hear that everyone who got this message and didn't send it on actually did fail... You don't think this is some cruel trick by one of the professors, do you? ■■■■, this little ■■■■■■■ better hope I don't get my hands on them, or I'll knock the living ■■■■ out of them!"
               }
-            ]
+            ],
+            "id": "p-d0a15874f232eec8"
           },
           {
             "type": "paragraph",
@@ -398,7 +435,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-4efc74d178a4458d-4"
           },
           {
             "type": "paragraph",
@@ -407,7 +445,8 @@
                 "type": "text",
                 "text": "Regarding the origin of the message, there are a number of popular opinions currently: The suspects are students who have been held back for many years due to poor grades, top students who lost their scholarships due to shady scandals, and scheming old professors who hate young people."
               }
-            ]
+            ],
+            "id": "p-3312cfc0d24cd9f4"
           },
           {
             "type": "paragraph",
@@ -421,7 +460,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-51c9d5bd5beb11f6-4"
           },
           {
             "type": "paragraph",
@@ -430,7 +470,8 @@
                 "type": "text",
                 "text": "Whoever it was, they'd have to be a real twisted sicko to come up with something like this."
               }
-            ]
+            ],
+            "id": "p-a52bd92fb7f03333"
           },
           {
             "type": "paragraph",
@@ -439,7 +480,8 @@
                 "type": "strong",
                 "children": []
               }
-            ]
+            ],
+            "id": "p-882a20e6379eb83a-5"
           },
           {
             "type": "paragraph",
@@ -453,7 +495,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-6e6a35bc94c61ddf-5"
           },
           {
             "type": "paragraph",
@@ -462,7 +505,8 @@
                 "type": "text",
                 "text": "You know, actually... I feel like... It's just my personal feeling! But, I think this sounds quite romantic. Ahem... you get it, right? It's that feeling of \"traversing time and space only so they can be together!\""
               }
-            ]
+            ],
+            "id": "p-8abbc34e1671351a"
           },
           {
             "type": "paragraph",
@@ -471,7 +515,8 @@
                 "type": "text",
                 "text": "Uhh... Alright, I'll be serious. You know where that desk is, right? That one. The one in the last row of the self-study room in the very end of the third floor, next to the window. My friend's friend once tried leaving a message on it, and she got a reply from a ghost that was apparently one of Dean Glaux's former students..."
               }
-            ]
+            ],
+            "id": "p-9a1fddce62c744d5"
           },
           {
             "type": "paragraph",
@@ -480,7 +525,8 @@
                 "type": "text",
                 "text": "Huh? No, of course she didn't go missing. It wasn't some strange curse or something like that. Their conversation was brief but very delightful. Other than the inability to prove whether this was true or not, the whole thing was amazing. That's why I said it's just like the plot of a movie or something. Don't you think?"
               }
-            ]
+            ],
+            "id": "p-e56ebbd338f3c7d3"
           },
           {
             "type": "paragraph",
@@ -494,7 +540,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-4efc74d178a4458d-5"
           },
           {
             "type": "paragraph",
@@ -503,7 +550,8 @@
                 "type": "text",
                 "text": "The main difference between the various versions of this ghost story is the \"extent of danger.\" In the original telling, the ghost was completely harmless. However, as it spread, versions with various horror elements such as \"a curse,\" \"a price to pay,\" and \"gone missing\" began to spread."
               }
-            ]
+            ],
+            "id": "p-457247dfef7c7b4c"
           },
           {
             "type": "paragraph",
@@ -517,7 +565,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-51c9d5bd5beb11f6-5"
           },
           {
             "type": "paragraph",
@@ -526,7 +575,8 @@
                 "type": "text",
                 "text": "As ghost stories are passed down, the storytellers often add extra \"details\" to keep the story alive. With this particular example, the popularity and extent of the spread varied significantly between the original version and the later variations."
               }
-            ]
+            ],
+            "id": "p-b2d195b9615dceb1"
           },
           {
             "type": "paragraph",
@@ -535,7 +585,8 @@
                 "type": "text",
                 "text": "Other commonly seen techniques include giving the ghost story a more complete narrative structure (such as foreshadowing and callbacks), more detailed imagery (such as giving more detailed descriptions of the victims and rescuers), forming a closer association with local folklore or personal experience (allowing certain targets to empathize with the situation more), etc."
               }
-            ]
+            ],
+            "id": "p-efefcfcb3f6160fa"
           },
           {
             "type": "paragraph",
@@ -544,7 +595,8 @@
                 "type": "strong",
                 "children": []
               }
-            ]
+            ],
+            "id": "p-882a20e6379eb83a-6"
           },
           {
             "type": "paragraph",
@@ -558,7 +610,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-6e6a35bc94c61ddf-6"
           },
           {
             "type": "paragraph",
@@ -567,7 +620,8 @@
                 "type": "text",
                 "text": "This is another incident that I have only heard about... But I never went back to that garden in our academy after I heard it."
               }
-            ]
+            ],
+            "id": "p-6169914530a97a30"
           },
           {
             "type": "paragraph",
@@ -576,7 +630,8 @@
                 "type": "text",
                 "text": "In the northeast corner of the garden, there's a giant banyan tree. You know it, right? Rumor has it that a couple was secretly meeting under that tree. At first, everything was great, but then the leaves above their head started to rustle wildly, and they could hear a faint panting sound like cats or small animals fighting among the leaves."
               }
-            ]
+            ],
+            "id": "p-af142764bda1ba7f"
           },
           {
             "type": "paragraph",
@@ -585,7 +640,8 @@
                 "type": "text",
                 "text": "The noise completely ruined the mood, so the couple went away. It wasn't until the next day that they heard that someone had hanged themselves on that very tree. It's said that the poor guy wasn't able to wake up on time for some reason, and had a complete mental breakdown after suffering a long and drawn-out \"death.\""
               }
-            ]
+            ],
+            "id": "p-35ced14c23d59196"
           },
           {
             "type": "paragraph",
@@ -599,7 +655,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-4efc74d178a4458d-6"
           },
           {
             "type": "paragraph",
@@ -608,7 +665,8 @@
                 "type": "text",
                 "text": "Most of the original features of this story remained as it spread, and only varying amounts of detail were added. For example, some versions added details about an argument the couple had after they were disturbed, and one version gave a detailed description of the couple's reactions after they learned the truth."
               }
-            ]
+            ],
+            "id": "p-650635b435a9a7bb"
           },
           {
             "type": "paragraph",
@@ -622,7 +680,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-51c9d5bd5beb11f6-6"
           },
           {
             "type": "paragraph",
@@ -631,7 +690,8 @@
                 "type": "text",
                 "text": "Compared with \"The Time-Space Intersection,\" this ghost story already has a relatively complete narrative structure and titillating clickbait elements from its conception. Therefore, people leaned more towards \"enriching\" the story than \"altering\" it as it spread."
               }
-            ]
+            ],
+            "id": "p-51c80d92dbd8c12f"
           },
           {
             "type": "paragraph",
@@ -640,7 +700,8 @@
                 "type": "text",
                 "text": "Regarding the enduring issue of \"How could someone experiencing extreme stimulation in the dream not wake up immediately,\" which involves the fundamental safety measures of the Dreamscape system — I can only say that people will often ignore logic to a certain extent when they are seeking to satisfy their desire and intense curiosity for a good scare."
               }
-            ]
+            ],
+            "id": "p-3e8e81300552334d"
           },
           {
             "type": "paragraph",
@@ -649,7 +710,8 @@
                 "type": "strong",
                 "children": []
               }
-            ]
+            ],
+            "id": "p-882a20e6379eb83a-7"
           },
           {
             "type": "paragraph",
@@ -663,7 +725,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-6e6a35bc94c61ddf-7"
           },
           {
             "type": "paragraph",
@@ -672,7 +735,8 @@
                 "type": "text",
                 "text": "If you ask me, I'd say that learning too much about finance would mess up your head! This guy was two years above me, never really said a word, and didn't have any friends, so no one paid him much attention."
               }
-            ]
+            ],
+            "id": "p-206c7e212776574f"
           },
           {
             "type": "paragraph",
@@ -681,7 +745,8 @@
                 "type": "text",
                 "text": "Then... I heard that his graduation was pushed back because of poor grades and the pressure drove him crazy. Now and then he'd get up to fancy ways to kill himself. I'm dead serious. Jumping off of school buildings, drowning himself in the swimming pool, hanging himself in the giant banyan tree... Although people almost always managed to stop him in time, he was a real shock to see around the school at the time."
               }
-            ]
+            ],
+            "id": "p-6a0fe53dd62155ad"
           },
           {
             "type": "paragraph",
@@ -690,7 +755,8 @@
                 "type": "text",
                 "text": "What happened after? I don't know what happened to him after that. Some say that he got so used to danger in the dream world that he couldn't differentiate when he went back to reality and actually got himself killed."
               }
-            ]
+            ],
+            "id": "p-ce956e06de6910f4"
           },
           {
             "type": "paragraph",
@@ -699,7 +765,8 @@
                 "type": "text",
                 "text": "Either way, I haven't seen him this semester."
               }
-            ]
+            ],
+            "id": "p-54b481edc271fa50"
           },
           {
             "type": "paragraph",
@@ -713,7 +780,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-4efc74d178a4458d-7"
           },
           {
             "type": "paragraph",
@@ -722,7 +790,8 @@
                 "type": "text",
                 "text": "According to my research statistics, similar ghost stories exist in every Paperfold University academy. The reasons for the protagonist's trauma include failed romances, family problems, school bullying, exclusion by teachers, or other personal factors. Most of the stories end in the protagonist's actual death (because they could not differentiate between dreams and reality)."
               }
-            ]
+            ],
+            "id": "p-65026d7c254e1969"
           },
           {
             "type": "paragraph",
@@ -736,7 +805,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-51c9d5bd5beb11f6-7"
           },
           {
             "type": "paragraph",
@@ -745,7 +815,8 @@
                 "type": "text",
                 "text": "This particular ghost story serves as a stern warning: The reason behind the student's trauma reflects the pressure and anxiety that are commonly present within students, and the story's ending shows people's latent concern regarding the safety of entering the dream."
               }
-            ]
+            ],
+            "id": "p-a89a734ac63f0b90"
           },
           {
             "type": "paragraph",
@@ -754,7 +825,8 @@
                 "type": "strong",
                 "children": []
               }
-            ]
+            ],
+            "id": "p-882a20e6379eb83a-8"
           },
           {
             "type": "paragraph",
@@ -768,7 +840,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-6e6a35bc94c61ddf-8"
           },
           {
             "type": "paragraph",
@@ -777,7 +850,8 @@
                 "type": "text",
                 "text": "Investigation ongoing"
               }
-            ]
+            ],
+            "id": "p-2920159b9e033b31"
           },
           {
             "type": "paragraph",
@@ -791,7 +865,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-4efc74d178a4458d-8"
           },
           {
             "type": "paragraph",
@@ -800,7 +875,8 @@
                 "type": "text",
                 "text": "Investigation ongoing"
               }
-            ]
+            ],
+            "id": "p-2920159b9e033b31-2"
           },
           {
             "type": "paragraph",
@@ -814,7 +890,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-51c9d5bd5beb11f6-8"
           },
           {
             "type": "list",
@@ -826,7 +903,8 @@
                     "type": "text",
                     "text": "\"Slumbernana Monkey,\" which recently shot into popularity, has suddenly disappeared. Everyone's reactions are exceedingly \"normal\" regarding this disappearance, which is extremely suspicious."
                   }
-                ]
+                ],
+                "id": "li-e2aa2e8155be2ed0"
               }
             ]
           },
@@ -837,7 +915,8 @@
                 "type": "strong",
                 "children": []
               }
-            ]
+            ],
+            "id": "p-882a20e6379eb83a-9"
           },
           {
             "type": "paragraph",
@@ -851,7 +930,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-6e6a35bc94c61ddf-9"
           },
           {
             "type": "paragraph",
@@ -860,7 +940,8 @@
                 "type": "text",
                 "text": "Investigation ongoing"
               }
-            ]
+            ],
+            "id": "p-2920159b9e033b31-3"
           },
           {
             "type": "paragraph",
@@ -874,7 +955,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-4efc74d178a4458d-9"
           },
           {
             "type": "paragraph",
@@ -883,7 +965,8 @@
                 "type": "text",
                 "text": "Investigation ongoing"
               }
-            ]
+            ],
+            "id": "p-2920159b9e033b31-4"
           },
           {
             "type": "paragraph",
@@ -897,7 +980,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-51c9d5bd5beb11f6-9"
           },
           {
             "type": "list",
@@ -909,7 +993,8 @@
                     "type": "text",
                     "text": "There is definitely something fishy about that radio station! I don't care if no one believes me. I will get to the bottom of this!"
                   }
-                ]
+                ],
+                "id": "li-e1b7b0f1723da11a"
               }
             ]
           }

@@ -4,10 +4,11 @@
   "id": "oratorio-supreme-guardian-premiere-spectacular",
   "name": "Oratorio \"Supreme Guardian\" Premiere Spectacular",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Oratorio_%22Supreme_Guardian%22_Premiere_Spectacular",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -32,7 +33,8 @@
                 "type": "text",
                 "text": "Premiere Spectacle and Behind-the-Scenes"
               }
-            ]
+            ],
+            "id": "p-ffce6464b8487bb1"
           },
           {
             "type": "paragraph",
@@ -41,7 +43,8 @@
                 "type": "text",
                 "text": "Writer: Anna"
               }
-            ]
+            ],
+            "id": "p-5bb03c32e33fe2d4"
           },
           {
             "type": "paragraph",
@@ -76,7 +79,8 @@
                 "type": "text",
                 "text": ", he said, \"All proceeds from the show will go to charity. It will be split equally between the Criminal Welfare Society and Charice Hospital.\""
               }
-            ]
+            ],
+            "id": "p-d0874d6c34056c8f"
           },
           {
             "type": "paragraph",
@@ -98,7 +102,8 @@
                 "type": "text",
                 "text": ". The performance was a sensation, and famous music critic Borovsky praised, \"Words cannot express the shock and joy that this amazing performance brought to the full house.\""
               }
-            ]
+            ],
+            "id": "p-ade992bda876d29c"
           },
           {
             "type": "paragraph",
@@ -133,7 +138,8 @@
                 "type": "text",
                 "text": "and its performance. The article stated: \"Exquisite, grand, and gentle — We had to search through the dictionary for the most elegant, majestic, and vivid words to describe the baptism of joys experienced by our ears and souls.\" As promised, after deducting the expenses for the orchestra and the concert hall, George donated all the remaining proceeds to the Criminal Welfare Society and Charice Hospital."
               }
-            ]
+            ],
+            "id": "p-261fee3008f50f47"
           },
           {
             "type": "paragraph",
@@ -142,7 +148,8 @@
                 "type": "text",
                 "text": "By January 19, the Belobog residents' demand for a second show had grown more intense. At the request of Qlipoth Fort, an encore of \"Supreme Guardian\" was quickly arranged and performed at the Golden Theater (the new concert hall had other shows arranged). The tickets were available on January 18 and sold out in half a day. At that time, many conservatives thought an oratorio was inappropriate for the theater. Supreme Guardian Cocolia silenced the outmoded by attending the show in person."
               }
-            ]
+            ],
+            "id": "p-cb7907110ee0685b"
           },
           {
             "type": "paragraph",
@@ -164,7 +171,8 @@
                 "type": "text",
                 "text": ", the Supreme Guardian couldn't contain her excitement and stood up to pay her tribute. When she did so, the whole audience followed suit. Some critics think this will become an unspoken rule that the audience should stand for this part of the show in the future."
               }
-            ]
+            ],
+            "id": "p-ae291e56bb50360e"
           },
           {
             "type": "paragraph",
@@ -186,7 +194,8 @@
                 "type": "text",
                 "text": ", Mr. George imparts a truly sublime and pure meaning to the work he conducts."
               }
-            ]
+            ],
+            "id": "p-b538c5617c4191cc"
           }
         ]
       }

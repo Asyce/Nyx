@@ -4,10 +4,11 @@
   "id": "fragmented-record-of-the-dream-of-earth",
   "name": "Fragmented Record of the Dream of \"Earth\"",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Fragmented_Record_of_the_Dream_of_%22Earth%22",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "After receiving the Coreflame of Earth, I sometimes fell into long, wandering dreams."
               }
-            ]
+            ],
+            "id": "p-5107c6d371efa8d6"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "I believed that this might have been the result of the Coreflame of Earth resonating with me. Those dreamscapes were often composed of fragmented, irrational sensations that could not be stored as long-term memories. I could only record the glimpses I had seen, illogical and imprecise."
               }
-            ]
+            ],
+            "id": "p-0cc46848b6c727fb"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "A giant tree filled my entire vision, its canopy blotting out the sky. Every falling leaf turned into life. Countless creatures ran toward me, surrounding me layer by layer. Birds came to rest on my shoulders. Chimeras played at my feet, pressing close to me. I felt like a slow-moving dromas, watching over the Great Tree. Then, the tree spoke to me: \"I am dying.\" I felt it too. The Great Tree truly was about to die."
               }
-            ]
+            ],
+            "id": "p-309cd99a2201b88d"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "\"When I die, please bury me. But how does one bury a tree? Give me to the carpenters in that village nearby. Let them use my body to build a great ship. Then take these little ones, ride upon me, and leave this land behind.\""
               }
-            ]
+            ],
+            "id": "p-cd582396aac65004"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "I nodded in silence. The Great Tree raised its voice again and said:"
               }
-            ]
+            ],
+            "id": "p-bd47e4d20485785d"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "\"The sun will rise and fall, won't it... Stay with me like this, and protect me for one hundred years.\""
               }
-            ]
+            ],
+            "id": "p-c4f111295b88a667"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "\"For a hundred years, please keep sailing on this wooden ship, waiting for me. I promise I'll come back to see you.\""
               }
-            ]
+            ],
+            "id": "p-65bc7db2c187485d"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "The Great Tree never shed another leaf, nor did it fall. Yet something inside it seemed to collapse all at once. The giant tree was dead. I went to the village. After hearing my explanation, the workers began shaping the Great Tree into a great ship. With the passing of time, the wood soon began to rot, but new planks were fitted to replace the old... In the end, the ship was ready to set sail."
               }
-            ]
+            ],
+            "id": "p-1499fde935901d93"
           },
           {
             "type": "paragraph",
@@ -91,7 +100,8 @@
                 "type": "text",
                 "text": "I invited all living beings aboard, and we drifted slowly on the water. I told myself that from this moment on, I would wait one hundred years. Just as the Great Tree had said, the sun rises in the east and sets in the west, sinking in silence and flame. That was the first sun. Soon, the sun rose and set again. I counted it in my heart. That was the second... And then, I lost track of how many I had seen."
               }
-            ]
+            ],
+            "id": "p-f091bd1f9ab6d7ed"
           },
           {
             "type": "paragraph",
@@ -100,7 +110,8 @@
                 "type": "text",
                 "text": "When I came to my senses, the wooden ship was already sailing beneath the stars. In the far reaches of the cosmos, I caught sight of a single star at dawn, twinkling in silence."
               }
-            ]
+            ],
+            "id": "p-fa5076136b181a19"
           },
           {
             "type": "paragraph",
@@ -109,7 +120,8 @@
                 "type": "text",
                 "text": "Only then did I realize: \"A hundred years had already passed.\""
               }
-            ]
+            ],
+            "id": "p-f9cb4c60bdc7ecb6"
           },
           {
             "type": "paragraph",
@@ -118,7 +130,8 @@
                 "type": "text",
                 "text": "It was just one night's dream. I once heard someone say that myths are dreamscapes shared by many, and dreamscapes are myths for one alone. What this dream was meant to reveal, I do not know. Perhaps it was merely the projection of a wish."
               }
-            ]
+            ],
+            "id": "p-ad07bfe5dc6d46b8"
           }
         ]
       }

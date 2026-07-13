@@ -4,10 +4,11 @@
   "id": "daybreak-little-gray-post-excerpts",
   "name": "\"Daybreak Little Gray\" Post Excerpts",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/%22Daybreak_Little_Gray%22_Post_Excerpts",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -26,7 +27,8 @@
                 "type": "text",
                 "text": "/*Sure, our station doesn't restrict employees' public image, but it's still important to check in on their mental well-being.*/"
               }
-            ]
+            ],
+            "id": "p-0408ad05f13500e7"
           },
           {
             "type": "paragraph",
@@ -42,7 +44,8 @@
                 "type": "text",
                 "text": "Working at the TV station is awesome, being a hero is awesome. It feels like I'm part of the Astral Express crew, fighting for justice and all that. Pretty inspiring, right?"
               }
-            ]
+            ],
+            "id": "p-8a4cac363b128812"
           },
           {
             "type": "paragraph",
@@ -65,7 +68,8 @@
                 "type": "text",
                 "text": "So cool. Now I'm even more confident!"
               }
-            ]
+            ],
+            "id": "p-351ae657967c7360"
           },
           {
             "type": "paragraph",
@@ -74,7 +78,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -90,7 +95,8 @@
                 "type": "text",
                 "text": "Huh, so I'm getting interviewed by the IPC? That came out of nowhere."
               }
-            ]
+            ],
+            "id": "p-01ac746614f44f9f"
           },
           {
             "type": "paragraph",
@@ -120,7 +126,8 @@
                 "type": "text",
                 "text": "We caught the troublemaker red-handed using nothing but our filming mechatron!"
               }
-            ]
+            ],
+            "id": "p-551635d7785254b2"
           },
           {
             "type": "paragraph",
@@ -143,7 +150,8 @@
                 "type": "text",
                 "text": "Cleaving through despair! A blade as sharp as steel!"
               }
-            ]
+            ],
+            "id": "p-094509740f64e6d0"
           },
           {
             "type": "paragraph",
@@ -180,7 +188,8 @@
                 "type": "text",
                 "text": "It also reminded me of Himekat Impression Coffee, so I got roasted for being an Express stan."
               }
-            ]
+            ],
+            "id": "p-e227f5472dcb2148"
           },
           {
             "type": "paragraph",
@@ -196,7 +205,8 @@
                 "type": "text",
                 "text": "The incident last time was on the news. \"Hero Actor Becomes Real-Life Hero, Saves Citizens,\" once again, the Squadron series hit a new popularity peak."
               }
-            ]
+            ],
+            "id": "p-6ab26ce5b3633f91"
           },
           {
             "type": "paragraph",
@@ -226,7 +236,8 @@
                 "type": "text",
                 "text": "The Squadron leader told me it's probably some obsessed fan who managed to break into the TV station."
               }
-            ]
+            ],
+            "id": "p-b0a434cc16dd1ba7"
           },
           {
             "type": "paragraph",
@@ -249,7 +260,8 @@
                 "type": "text",
                 "text": "Hope everything goes well for him."
               }
-            ]
+            ],
+            "id": "p-178608f9e60d0f99"
           },
           {
             "type": "paragraph",
@@ -258,7 +270,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -295,7 +308,8 @@
                 "type": "text",
                 "text": "The audience applauded, the kid looked pensive, but honestly, I wasn't really satisfied with that answer."
               }
-            ]
+            ],
+            "id": "p-36a878bc19bc14f2"
           },
           {
             "type": "paragraph",
@@ -311,7 +325,8 @@
                 "type": "text",
                 "text": "Because the bad guys are still out there."
               }
-            ]
+            ],
+            "id": "p-e3c97f1b9be8675c"
           },
           {
             "type": "paragraph",
@@ -320,7 +335,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-3"
           },
           {
             "type": "paragraph",
@@ -343,7 +359,8 @@
                 "type": "text",
                 "text": "My personal suggestion is to try dealing with it yourself first. If you really can't hold on any longer, it's not too late to reach out to the Smiles Society for help, right? After all, everyone at the Society is pretty busy every day."
               }
-            ]
+            ],
+            "id": "p-090aee41e05f3579"
           },
           {
             "type": "paragraph",
@@ -366,7 +383,8 @@
                 "type": "text",
                 "text": "I'm gonna delete it. Also, I really don't need help, so please stop commenting."
               }
-            ]
+            ],
+            "id": "p-ca61fc21aa92b7de"
           },
           {
             "type": "paragraph",
@@ -382,7 +400,8 @@
                 "type": "text",
                 "text": "I saw that person again today, and they've totally changed. Word is they've turned over a new leaf."
               }
-            ]
+            ],
+            "id": "p-fc5e03256ffbae8b"
           },
           {
             "type": "paragraph",
@@ -405,7 +424,8 @@
                 "type": "text",
                 "text": "That person works at the station now, all thanks to Director Fulwish."
               }
-            ]
+            ],
+            "id": "p-64f16bacfeab1e1e"
           },
           {
             "type": "paragraph",
@@ -414,7 +434,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-4"
           },
           {
             "type": "paragraph",
@@ -444,7 +465,8 @@
                 "type": "text",
                 "text": "Hmm, fair point. Maybe I'm overthinking this?"
               }
-            ]
+            ],
+            "id": "p-1a8d6eba8c856df4"
           },
           {
             "type": "paragraph",
@@ -460,7 +482,8 @@
                 "type": "text",
                 "text": "I really wanna be a hero."
               }
-            ]
+            ],
+            "id": "p-01a990d470a42c7b"
           },
           {
             "type": "paragraph",
@@ -476,7 +499,8 @@
                 "type": "text",
                 "text": "I heard the Astral Express is really coming! I need to beg my agent to set up a collab project with them, no matter what."
               }
-            ]
+            ],
+            "id": "p-ce56b93be7a3f8a2"
           }
         ]
       }

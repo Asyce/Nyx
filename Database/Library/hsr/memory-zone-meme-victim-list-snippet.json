@@ -4,17 +4,19 @@
   "id": "memory-zone-meme-victim-list-snippet",
   "name": "Memory Zone Meme Victim List Snippet",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Memory_Zone_Meme_Victim_List_Snippet",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -23,7 +25,8 @@
                 "type": "text",
                 "text": "Bernis, male human. He sustained a head injury when swimming in the Moment of Dusk and was abducted by an unknown meme while being given medical assistance. The paramedics have undergone the memory erasure procedure."
               }
-            ]
+            ],
+            "id": "p-c5c79119e6a2a5e6"
           },
           {
             "type": "paragraph",
@@ -32,7 +35,8 @@
                 "type": "text",
                 "text": "Mia, female Pepeshi. She was abducted by an unknown meme when playing hide-and-seek with her friends in the Moment of Sol. Her friends have undergone the memory erasure procedure."
               }
-            ]
+            ],
+            "id": "p-97a4bd2a4aeb4fdc"
           },
           {
             "type": "paragraph",
@@ -54,7 +58,8 @@
                 "type": "text",
                 "text": "by the celebrated Intellitron musician, Beeshoven."
               }
-            ]
+            ],
+            "id": "p-82d9e656bd94cadf"
           },
           {
             "type": "paragraph",
@@ -63,7 +68,8 @@
                 "type": "text",
                 "text": "Velum, male Intellitron. He was abducted by an unknown meme after kissing his girlfriend in the Blue Hour. His girlfriend has undergone the memory erasure procedure."
               }
-            ]
+            ],
+            "id": "p-a7f8ff6f5a5fabd1"
           },
           {
             "type": "paragraph",
@@ -77,7 +83,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-e5acce89a2b1f4b9"
           }
         ]
       }

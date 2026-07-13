@@ -4,10 +4,11 @@
   "id": "excerpt-from-penaconian-art-history",
   "name": "Excerpt from Penaconian Art History",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Excerpt_from_Penaconian_Art_History",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -35,7 +37,8 @@
                 "type": "text",
                 "text": "Admittedly, during war, \"arts\" is not a word people would ever get to use. However, it is no exaggeration to say that everyone can be called an artist during times such as those."
               }
-            ]
+            ],
+            "id": "p-ea1e38c0b47948bd"
           },
           {
             "type": "paragraph",
@@ -44,7 +47,8 @@
                 "type": "text",
                 "text": "Think about it..."
               }
-            ]
+            ],
+            "id": "p-e452c1120d1dfcdc"
           },
           {
             "type": "paragraph",
@@ -81,7 +85,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-3defb95388491374"
           },
           {
             "type": "paragraph",
@@ -97,7 +102,8 @@
                 "type": "text",
                 "text": "On certain smooth and expansive \"canvases\" of high quality, dozens of overlapping designs from different hands can be found, creating a strange, yet captivating mosaic of memes."
               }
-            ]
+            ],
+            "id": "p-e6d3f709cb58244f"
           },
           {
             "type": "paragraph",
@@ -106,7 +112,8 @@
                 "type": "text",
                 "text": "Later, during the early days of Penacony's birth, when the act of \"art\" had just begun to take root in the dreamscape, the images that surfaced in people's minds were still those ubiquitous patterns — Graffiti prototypes that are now called Primordial Dreamscape art."
               }
-            ]
+            ],
+            "id": "p-518358c77fe43005"
           },
           {
             "type": "paragraph",
@@ -115,7 +122,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -157,7 +165,8 @@
                 "type": "text",
                 "text": "Thus, the movement of Hallucisomnism was born. It emerged from Dreamweavers' experiments and, over the span of an Amber Era, permeated various fields of art."
               }
-            ]
+            ],
+            "id": "p-63b76d3f6df57dce"
           },
           {
             "type": "paragraph",
@@ -192,7 +201,8 @@
                 "type": "text",
                 "text": "Even so, a loyal group of enthusiasts regularly visits the Dream's Edge, just to witness these wonders."
               }
-            ]
+            ],
+            "id": "p-4718b5f4526d8f0b"
           },
           {
             "type": "paragraph",
@@ -248,7 +258,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-1c3833f1dde58449"
           },
           {
             "type": "paragraph",
@@ -257,7 +268,8 @@
                 "type": "text",
                 "text": "Creations similar to this are restricted by The Family due to their high memoria usage and have gradually faded out of the creators' radar."
               }
-            ]
+            ],
+            "id": "p-deaaf514dec91a3c"
           },
           {
             "type": "paragraph",
@@ -331,7 +343,8 @@
                 "type": "text",
                 "text": "Since the Fourth Charmony Festival, similar creations have been restricted due to their tendency to trigger memetic incidents."
               }
-            ]
+            ],
+            "id": "p-444520210cfaa4a0"
           },
           {
             "type": "paragraph",
@@ -347,7 +360,8 @@
                 "type": "text",
                 "text": "As the sole technology currently unanimously recognized as excellent, the art of dream bubble films has been preserved to this day. Its craftsmanship meant its progress has been permanently stalled in Penacony, but it is because of this echo that countless memories are attracted and eventually come streaming, Penacony-bound."
               }
-            ]
+            ],
+            "id": "p-f35a9aab12857cc0"
           },
           {
             "type": "paragraph",
@@ -356,7 +370,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-3"
           },
           {
             "type": "paragraph",
@@ -365,7 +380,8 @@
                 "type": "text",
                 "text": "Pulling the perspective back by an Era to the time when Penacony's sounds of Harmony gradually became clearer, the dissonant sounds in contrast began to fade away."
               }
-            ]
+            ],
+            "id": "p-5c3604d4623f4e83"
           },
           {
             "type": "paragraph",
@@ -374,7 +390,8 @@
                 "type": "text",
                 "text": "The founder of the well-known Paperfold University and head of the Nightingale Family at the time, Glaux, ultimately chose a more gentle approach to express his concerns regarding The Family's future and the Path of Harmony they followed."
               }
-            ]
+            ],
+            "id": "p-84549bb98dbf6546"
           },
           {
             "type": "paragraph",
@@ -404,7 +421,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-4d59364dd9444deb"
           },
           {
             "type": "paragraph",
@@ -420,7 +438,8 @@
                 "type": "text",
                 "text": "The Family placed significant importance on this work, and the one who responded was none other than Glaux's disciple, the future Dreamweaver Master, Fischer."
               }
-            ]
+            ],
+            "id": "p-4bdd6178d47b8b58"
           },
           {
             "type": "paragraph",
@@ -475,7 +494,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-606942474dc2e5a1"
           },
           {
             "type": "paragraph",
@@ -484,7 +504,8 @@
                 "type": "text",
                 "text": "These two works are regarded as the most succinct explorations of the relationship between \"the Path of Harmony\" and \"creative freedom.\" Shortly after, with the establishment of Paperfold University, Glaux appointed Fischer as the next head of the family, reigniting discussions around the artworks once again."
               }
-            ]
+            ],
+            "id": "p-0c8d344f34dc1168"
           },
           {
             "type": "paragraph",
@@ -493,7 +514,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-4"
           },
           {
             "type": "paragraph",
@@ -502,7 +524,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

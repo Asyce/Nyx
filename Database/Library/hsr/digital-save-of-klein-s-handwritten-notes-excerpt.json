@@ -4,10 +4,11 @@
   "id": "digital-save-of-klein-s-handwritten-notes-excerpt",
   "name": "Digital Save of Klein's Handwritten Notes (Excerpt)",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Digital_Save_of_Klein%27s_Handwritten_Notes_(Excerpt)",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -63,7 +64,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-f32472067204412e"
           },
           {
             "type": "paragraph",
@@ -84,7 +86,8 @@
                 "type": "text",
                 "text": "Today marks our reunion. The Phlogiston recycling theory, the w-wave prospecting method, and the synthesis technology for Grayseal Gold... These academic achievements seem unrelated, but they have brought Bohdan, Lambda, and me together in the Energy Research Lab. After so many years, we are now doing research under the same roof once again, and Lambda seems very happy."
               }
-            ]
+            ],
+            "id": "p-05db98b49ccfcb33"
           },
           {
             "type": "paragraph",
@@ -106,7 +109,8 @@
                 "type": "text",
                 "text": "are beyond my wildest dreams. However, they can never replicate what I have done, either."
               }
-            ]
+            ],
+            "id": "p-7be9f89c925d3876"
           },
           {
             "type": "paragraph",
@@ -115,7 +119,8 @@
                 "type": "text",
                 "text": "However, I can't care less about the other members of the Genius Society, as they are too far away from us. The dynamics among us three classmates concern me more at present."
               }
-            ]
+            ],
+            "id": "p-b78c7141d76dfae7"
           },
           {
             "type": "paragraph",
@@ -149,7 +154,8 @@
                 "type": "text",
                 "text": "while crafting the exoskeleton."
               }
-            ]
+            ],
+            "id": "p-40a1ec5a692b85b6"
           },
           {
             "type": "paragraph",
@@ -183,7 +189,8 @@
                 "type": "text",
                 "text": ", a butterfly fluttered in the wilderness, lingering before my eyes for quite a while. I don't know why, but that butterfly resembles me in some inexplicable manner. It was the first time I realized such creatures existed in the polar regions of planet Ohioti."
               }
-            ]
+            ],
+            "id": "p-2099b783393c608f"
           },
           {
             "type": "paragraph",
@@ -217,7 +224,8 @@
                 "type": "text",
                 "text": "? Or perhaps...?"
               }
-            ]
+            ],
+            "id": "p-07614126af76f81b"
           },
           {
             "type": "paragraph",
@@ -251,7 +259,8 @@
                 "type": "text",
                 "text": ". Someone else has been moving my plan forward."
               }
-            ]
+            ],
+            "id": "p-2f008407662dbb7c"
           },
           {
             "type": "paragraph",
@@ -285,7 +294,8 @@
                 "type": "text",
                 "text": "."
               }
-            ]
+            ],
+            "id": "p-20a7d39cce6e7a3f"
           },
           {
             "type": "paragraph",
@@ -294,7 +304,8 @@
                 "type": "text",
                 "text": "Who gave Lambda that special hammer? And why would she smash the exoskeleton at that precise moment? It simply doesn't make sense."
               }
-            ]
+            ],
+            "id": "p-20086f476ad8c8b5"
           },
           {
             "type": "paragraph",
@@ -324,7 +335,8 @@
                 "type": "text",
                 "text": "is still alive? I thought that Genius had passed away... This discovery has given me some insights."
               }
-            ]
+            ],
+            "id": "p-d61466cc8d180785"
           },
           {
             "type": "paragraph",
@@ -333,7 +345,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

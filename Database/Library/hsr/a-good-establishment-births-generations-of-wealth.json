@@ -4,10 +4,11 @@
   "id": "a-good-establishment-births-generations-of-wealth",
   "name": "A Good Establishment Births Generations of Wealth",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/A_Good_Establishment_Births_Generations_of_Wealth",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "As they say, \"There is no better inheritance than a gainful enterprise.\" In recent years, commercial property in Belobog have become increasingly popular. Borte Real Estate presents — the all-new Leisure Plaza in the Backwater Pass area will soon be under construction. Enjoy the cross-district convenience and pre-purchase the hot-on-demand properties now!"
               }
-            ]
+            ],
+            "id": "p-f482a93ec796667b"
           },
           {
             "type": "paragraph",
@@ -42,7 +44,8 @@
                 "type": "text",
                 "text": "Be it leisure, entertainment, or commercial ventures, Borte Real Estate provides entrusted management services, on-property and indoor facilities, as well as daily patrol and security services to all investors for the sake of protecting your investment at all times."
               }
-            ]
+            ],
+            "id": "p-18169c972305cef8"
           },
           {
             "type": "paragraph",
@@ -72,7 +75,8 @@
                 "type": "text",
                 "text": "Adjacent to the historic financial street, the need for stores and shops in the central zone will allow you to enjoy the fruits without having to labor."
               }
-            ]
+            ],
+            "id": "p-564a9887b2785331"
           },
           {
             "type": "paragraph",
@@ -88,7 +92,8 @@
                 "type": "text",
                 "text": "With minimal investment, maximal returns, complete facilities, sufficient parking spaces, convenient transportation, and favorable investment conditions, the majority of investors' concerns have been addressed. This is Belobog's most innovative investment plan, and most promising financial product, so even the most discerning of investors should jump in!"
               }
-            ]
+            ],
+            "id": "p-889a431704771468"
           },
           {
             "type": "paragraph",
@@ -104,7 +109,8 @@
                 "type": "text",
                 "text": "With hundreds of storefronts to choose from, pre-purchasing is now open!"
               }
-            ]
+            ],
+            "id": "p-f4deb4a1c85227a6"
           },
           {
             "type": "paragraph",
@@ -120,7 +126,8 @@
                 "type": "text",
                 "text": "For more information, please consult the staff at the Borte Real Estate Plaza Management Office."
               }
-            ]
+            ],
+            "id": "p-764117a0578f0702"
           }
         ]
       }

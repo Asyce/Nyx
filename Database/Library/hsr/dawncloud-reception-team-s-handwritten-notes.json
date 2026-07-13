@@ -4,10 +4,11 @@
   "id": "dawncloud-reception-team-s-handwritten-notes",
   "name": "Dawncloud Reception Team's Handwritten Notes",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Dawncloud_Reception_Team%27s_Handwritten_Notes",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -62,7 +63,8 @@
                 "type": "text",
                 "text": "5. Commoners are strictly prohibited from entering Dawncloud without reason."
               }
-            ]
+            ],
+            "id": "p-6d1f1e06e72c98ad"
           },
           {
             "type": "paragraph",
@@ -83,7 +85,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-99ddd2c5cdea4fe8"
           },
           {
             "type": "paragraph",
@@ -113,7 +116,8 @@
                 "type": "text",
                 "text": "Nympha, the niece of an aristocrat priest of Dawncloud, arrived accompanied by a maid. At the request of her relative, she will temporarily reside at Dawncloud."
               }
-            ]
+            ],
+            "id": "p-296eee2c996f7e92"
           },
           {
             "type": "paragraph",
@@ -122,7 +126,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -169,7 +174,8 @@
                 "type": "text",
                 "text": "Ulysse, an outlander noble, was invited to visit. Having provided substantial amounts of wealth and goods to the Council of Elders, his talisman has been permanently consecrated, and all future visits will no longer require registration."
               }
-            ]
+            ],
+            "id": "p-7106e79964465f92"
           },
           {
             "type": "paragraph",
@@ -178,7 +184,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -192,7 +199,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-cdfa36d51c06a4c2"
           },
           {
             "type": "paragraph",
@@ -201,7 +209,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-3"
           },
           {
             "type": "paragraph",
@@ -217,7 +226,8 @@
                 "type": "text",
                 "text": "A special guest, who refused to give their name, was received by a designated Council representative. A Kephale acolyte was also employed to request the Titan's divine form to lower their wrist, allowing the guest to ascend in their palm for the visit. Such a spectacle is rare, seen only once every few years."
               }
-            ]
+            ],
+            "id": "p-ffedcb3785d40c6b"
           },
           {
             "type": "paragraph",
@@ -226,7 +236,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

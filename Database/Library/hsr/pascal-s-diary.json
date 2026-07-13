@@ -4,10 +4,11 @@
   "id": "pascal-s-diary",
   "name": "Pascal's Diary",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Pascal%27s_Diary",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "part-i",
       "label": "Part I",
       "document": {
         "version": 1,
@@ -28,7 +29,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-7836dc8a86c34743"
           },
           {
             "type": "paragraph",
@@ -86,7 +88,8 @@
                 "type": "text",
                 "text": "Determined As Current Unit"
               }
-            ]
+            ],
+            "id": "p-5e6829d55be64863"
           },
           {
             "type": "paragraph",
@@ -130,7 +133,8 @@
                 "type": "text",
                 "text": "Determined As Current Unit"
               }
-            ]
+            ],
+            "id": "p-abafad640744a473"
           },
           {
             "type": "paragraph",
@@ -195,7 +199,8 @@
                 "type": "text",
                 "text": "Anticipate Return of Residents"
               }
-            ]
+            ],
+            "id": "p-d80087113df6dcef"
           }
         ]
       }

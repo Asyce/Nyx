@@ -4,17 +4,19 @@
   "id": "heart-of-clear-springs",
   "name": "Heart of Clear Springs",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Heart_of_Clear_Springs",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "A fairy from afar, who had taken up residence in the unoccupied spring, listened in silence to his wordless wish."
               }
-            ]
+            ],
+            "id": "p-511a43f7f21f097e"
           },
           {
             "type": "paragraph",
@@ -52,7 +55,8 @@
                 "type": "text",
                 "text": "Thus, when the curious fairy emerged from the water and heard the cry of that boy's heart, she became interested in this life, younger and more fragile than her own. The silent fairy reached out her formless fingers, cold as the midnight dew and soft as fortune forgone and gently caressed the boy's forehead and cheeks."
               }
-            ]
+            ],
+            "id": "p-c708b6b300a2008e"
           },
           {
             "type": "paragraph",
@@ -81,7 +85,8 @@
                 "type": "text",
                 "text": "Satisfied, the boy left."
               }
-            ]
+            ],
+            "id": "p-e951d3629f5434ed"
           },
           {
             "type": "paragraph",
@@ -110,7 +115,8 @@
                 "type": "text",
                 "text": "Like a curious child, the fairy observed the world around her in innocence, wonder, and love. She rejoiced with the fox and squirrel who stole berries, and grieved at the dark clouds that covered the horizon."
               }
-            ]
+            ],
+            "id": "p-3f79b3eb11dad26a"
           },
           {
             "type": "paragraph",
@@ -139,20 +145,23 @@
                 "type": "text",
                 "text": "But she could share it, and she drew life from sharing his burdens."
               }
-            ]
+            ],
+            "id": "p-c6374744bb5cfa69"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -181,7 +190,8 @@
                 "type": "text",
                 "text": "And from her silence, he strengthened his belief in himself."
               }
-            ]
+            ],
+            "id": "p-9f3a1c5c101c0248"
           },
           {
             "type": "paragraph",
@@ -210,7 +220,8 @@
                 "type": "text",
                 "text": "As she listened to him, she became enamored of this imperfect world into which she had been born."
               }
-            ]
+            ],
+            "id": "p-ec0ba74eb5db9833"
           },
           {
             "type": "paragraph",
@@ -229,7 +240,8 @@
                 "type": "text",
                 "text": "Those tears flowed into the water, and the fairy purified them, turning them into a sweet nectar that brought him sweet dreams. The boy forgot the pain of his waking hours, and met the silent fairy by her spring in his sleep."
               }
-            ]
+            ],
+            "id": "p-2d45d70e06112a9c"
           },
           {
             "type": "paragraph",
@@ -258,7 +270,8 @@
                 "type": "text",
                 "text": "In those dreams, the spring fairy told the boy tales of the faraway realm of Hydro. She spoke of her sapphire-blue homeland, she sang of the homesickness of exile, and she sighed for separation and belonging. In these dreams, the boy became the one who silently listened, who wept for her troubles, and who rejoiced in her happiness."
               }
-            ]
+            ],
+            "id": "p-34d234c83bf3343d"
           },
           {
             "type": "paragraph",
@@ -277,20 +290,23 @@
                 "type": "text",
                 "text": "Over time, they became friends who shared all."
               }
-            ]
+            ],
+            "id": "p-9cdf0fe4da47921f"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "vol-3",
       "label": "Vol. 3",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -309,7 +325,8 @@
                 "type": "text",
                 "text": "Fairies are tender, sensitive beings beyond the ken of humans, and the boy was deeply taken by her gentle, elegiac voice."
               }
-            ]
+            ],
+            "id": "p-c30ed0381354e422"
           },
           {
             "type": "paragraph",
@@ -318,7 +335,8 @@
                 "type": "text",
                 "text": "But fairies being tender and sensitive beyond human ken, through his eyes she saw his naked yearning, and the promise that was about to leave his lips."
               }
-            ]
+            ],
+            "id": "p-da105bec73c5b638"
           },
           {
             "type": "paragraph",
@@ -327,7 +345,8 @@
                 "type": "text",
                 "text": "And suddenly, the fairy was afraid."
               }
-            ]
+            ],
+            "id": "p-be625c83526bcd9f"
           },
           {
             "type": "paragraph",
@@ -336,7 +355,8 @@
                 "type": "text",
                 "text": "Mortal lives are strong but fleeting, and the boy must grow, and grow old. Once youth and innocence had faded, how would he treat his elemental descendants? In the twilight of his life, would he blame himself for throwing his life away for a childish promise?"
               }
-            ]
+            ],
+            "id": "p-329a9ce3446e3438"
           },
           {
             "type": "paragraph",
@@ -345,7 +365,8 @@
                 "type": "text",
                 "text": "The spring fairy was pure and kind but she did not understand human love. She had never seen the miracle of humanity, and had merely sat idle through millennia of change. And so, she greatly feared parting."
               }
-            ]
+            ],
+            "id": "p-ed58712a436d2295"
           },
           {
             "type": "paragraph",
@@ -364,7 +385,8 @@
                 "type": "text",
                 "text": "And even the power of fairies cannot reverse the aging of a loved one."
               }
-            ]
+            ],
+            "id": "p-f0a2b3c8872dfdc4"
           },
           {
             "type": "paragraph",
@@ -383,7 +405,8 @@
                 "type": "text",
                 "text": "But the boy, in his innocence, mistook her rejection as her approval of his promise."
               }
-            ]
+            ],
+            "id": "p-1423cc5d6b7d018b"
           },
           {
             "type": "paragraph",
@@ -402,20 +425,23 @@
                 "type": "text",
                 "text": "And the boy vowed that he would remain by her spring forever."
               }
-            ]
+            ],
+            "id": "p-97c6b8eda04c3d7c"
           }
         ]
       }
     },
     {
       "id": "4",
+      "volumeKey": "vol-4",
       "label": "Vol. 4",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -434,7 +460,8 @@
                 "type": "text",
                 "text": "And the spring fairy, as she had in his youth, sang him her quiet elegies each one."
               }
-            ]
+            ],
+            "id": "p-eaae135d5de953e3"
           },
           {
             "type": "paragraph",
@@ -463,7 +490,8 @@
                 "type": "text",
                 "text": "The spring fairy suddenly realized that though she had found a place to belong, and though she had experienced fleeting happiness, she was still alone."
               }
-            ]
+            ],
+            "id": "p-569ac23f645574cf"
           },
           {
             "type": "paragraph",
@@ -492,7 +520,8 @@
                 "type": "text",
                 "text": "He would think this to himself as he listened to the gurgling of the spring."
               }
-            ]
+            ],
+            "id": "p-42a701ed747f12df"
           },
           {
             "type": "paragraph",
@@ -511,7 +540,8 @@
                 "type": "text",
                 "text": "Suddenly, he realized that though he had met and parted with countless new friends, and though he had adventured and returned more times than he could remember, he was still alone in the end."
               }
-            ]
+            ],
+            "id": "p-bad0a30127bcb19a"
           },
           {
             "type": "paragraph",
@@ -530,7 +560,8 @@
                 "type": "text",
                 "text": "But this time, the spring fairy did not come as promised. Stubbornly she turned her back, willing to be the object of an innocent childhood dream, to be a fleeting guest wandering from a foreign land, but unwilling to allow her near-eternal life to break her lover's promise."
               }
-            ]
+            ],
+            "id": "p-888b986311483e79"
           },
           {
             "type": "paragraph",
@@ -559,7 +590,8 @@
                 "type": "text",
                 "text": "But sadly, the spring fairy who fled from her true feelings could never believe it herself."
               }
-            ]
+            ],
+            "id": "p-6b512cae63bf3c96"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "mine-poison-antidote-inhalant-manual",
   "name": "Mine Poison Antidote Inhalant Manual",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Mine_Poison_Antidote_Inhalant_Manual",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Please read the instructions carefully and use according to the instructions or under the guidance of your physician."
               }
-            ]
+            ],
+            "id": "p-8e7c39a9a9e60fef"
           },
           {
             "type": "paragraph",
@@ -35,7 +37,8 @@
                 "type": "text",
                 "text": "Mine Poison Antidote Inhalant Manual"
               }
-            ]
+            ],
+            "id": "p-913b949dfac8cf0f"
           },
           {
             "type": "paragraph",
@@ -51,7 +54,8 @@
                 "type": "text",
                 "text": "This product is a compound. Every gram contains 400 mg of Crystalline Lizard extract and 110 mg of Blue Lamp Umbrella extract. Other ingredients include the animal fat of various underground organisms, which is not fixed."
               }
-            ]
+            ],
+            "id": "p-8551472daf9a1ce2"
           },
           {
             "type": "paragraph",
@@ -67,7 +71,8 @@
                 "type": "text",
                 "text": "This product is a fiber tubing, which is to be inserted in the wooden sleeve for nasal inhalation. It has a pungent yet stimulating scent."
               }
-            ]
+            ],
+            "id": "p-7d4699e3bcaad54f"
           },
           {
             "type": "paragraph",
@@ -83,7 +88,8 @@
                 "type": "text",
                 "text": "This product is an over-the-counter medicine in otorhinolaryngology."
               }
-            ]
+            ],
+            "id": "p-977dbbc441ce7907"
           },
           {
             "type": "paragraph",
@@ -99,7 +105,8 @@
                 "type": "text",
                 "text": "Used for mild dyspnea caused by the inhalation of Geomarrow dust."
               }
-            ]
+            ],
+            "id": "p-534598e96c91b3eb"
           },
           {
             "type": "paragraph",
@@ -115,7 +122,8 @@
                 "type": "text",
                 "text": "Each tube weighs 0.675 grams, containing 0.27 grams of Crystalline Lizard extract and 0.075 grams of Blue Lamp Umbrella extract."
               }
-            ]
+            ],
+            "id": "p-820ffa83ff8aca60"
           },
           {
             "type": "paragraph",
@@ -131,7 +139,8 @@
                 "type": "text",
                 "text": "This product is a blood vessel irritant composed of crystalline lizard extract, Blue Lamp Umbrella extract, and animal fats. It enters through the nasal blood vessels and decomposes Geomarrow dust, easing the effects of vascular fibrosis."
               }
-            ]
+            ],
+            "id": "p-6da05deda7792d48"
           },
           {
             "type": "paragraph",
@@ -154,7 +163,8 @@
                 "type": "text",
                 "text": "When using, unfasten the covering and place the wooden sleeve to one side of the nostril. Press the other side with your other finger and take two or three deep breaths."
               }
-            ]
+            ],
+            "id": "p-02d52054b8250b3e"
           },
           {
             "type": "paragraph",
@@ -177,7 +187,8 @@
                 "type": "text",
                 "text": "No other side effects being reported."
               }
-            ]
+            ],
+            "id": "p-e36afcec4d6407b6"
           },
           {
             "type": "paragraph",
@@ -193,7 +204,8 @@
                 "type": "text",
                 "text": "Not known. Please follow the usage instructions and dosages. Do not overdose."
               }
-            ]
+            ],
+            "id": "p-195a184f2d695aa4"
           }
         ]
       }

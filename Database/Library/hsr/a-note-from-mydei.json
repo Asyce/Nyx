@@ -4,10 +4,11 @@
   "id": "a-note-from-mydei",
   "name": "A Note from Mydei",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/A_Note_from_Mydei",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "To (Trailblazer):"
               }
-            ]
+            ],
+            "id": "p-dfbb379e0fa5c1c3"
           },
           {
             "type": "paragraph",
@@ -41,7 +43,8 @@
                 "type": "text",
                 "text": "for even when the flames of war subside, someone must lead the way to peace."
               }
-            ]
+            ],
+            "id": "p-6c5a38aff7617bc7"
           },
           {
             "type": "paragraph",
@@ -76,7 +79,8 @@
                 "type": "text",
                 "text": "to toast to our victory in this life, and our journey through the stars."
               }
-            ]
+            ],
+            "id": "p-88b8bb4c7a750ae9"
           },
           {
             "type": "paragraph",
@@ -111,7 +115,8 @@
                 "type": "text",
                 "text": "They'll accompany your conquest and aid in your endless victories."
               }
-            ]
+            ],
+            "id": "p-e18d8baa705a3bab"
           },
           {
             "type": "paragraph",
@@ -133,7 +138,8 @@
                 "type": "text",
                 "text": "Mydeimos"
               }
-            ]
+            ],
+            "id": "p-8d321e8b7af8d8c4"
           }
         ]
       }

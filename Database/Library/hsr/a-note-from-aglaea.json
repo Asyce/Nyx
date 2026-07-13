@@ -4,10 +4,11 @@
   "id": "a-note-from-aglaea",
   "name": "A Note from Aglaea",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/A_Note_from_Aglaea",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Dear they (Trailblazer),"
               }
-            ]
+            ],
+            "id": "p-ca7abc3aafeea8af"
           },
           {
             "type": "paragraph",
@@ -41,7 +43,8 @@
                 "type": "text",
                 "text": "We chased the flames in solitude, until the ashen light descended from beyond the sky."
               }
-            ]
+            ],
+            "id": "p-7fc5778908a958ee"
           },
           {
             "type": "paragraph",
@@ -63,7 +66,8 @@
                 "type": "text",
                 "text": "yet you are about to depart, your fading traces beyond even the reach of silk threads."
               }
-            ]
+            ],
+            "id": "p-1ae76985e5266ff9"
           },
           {
             "type": "paragraph",
@@ -98,7 +102,8 @@
                 "type": "text",
                 "text": "adorning your form, illuminating your soul."
               }
-            ]
+            ],
+            "id": "p-dd249d7e739c2256"
           },
           {
             "type": "paragraph",
@@ -133,7 +138,8 @@
                 "type": "text",
                 "text": "May those silver strings guide your way and resonate for you."
               }
-            ]
+            ],
+            "id": "p-195a339ba280644f"
           },
           {
             "type": "paragraph",
@@ -142,7 +148,8 @@
                 "type": "text",
                 "text": "Aglaea"
               }
-            ]
+            ],
+            "id": "p-942947db12ac5675"
           }
         ]
       }

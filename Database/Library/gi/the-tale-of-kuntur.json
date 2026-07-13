@@ -4,10 +4,11 @@
   "id": "the-tale-of-kuntur",
   "name": "The Tale of Kuntur",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/The_Tale_of_Kuntur",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
@@ -521,7 +522,8 @@
                 "type": "text",
                 "text": "Thus did Kuntur prove himself to his tribe and win glory. But more importantly to him, he finally had an Iktomisaurus companion of his own!"
               }
-            ]
+            ],
+            "id": "p-e38e26aeb715c704"
           }
         ]
       }

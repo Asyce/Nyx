@@ -4,10 +4,11 @@
   "id": "pre-op-psychological-assessment-record",
   "name": "Pre-Op Psychological Assessment Record",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Pre-Op_Psychological_Assessment_Record",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -36,7 +37,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-8b7af50bf9a56c3f"
           },
           {
             "type": "paragraph",
@@ -70,7 +72,8 @@
                 "type": "text",
                 "text": "day today?"
               }
-            ]
+            ],
+            "id": "p-b0210ca75695998e"
           },
           {
             "type": "paragraph",
@@ -91,7 +94,8 @@
                 "type": "text",
                 "text": "I... I'm so happy. (uneasy, restless)"
               }
-            ]
+            ],
+            "id": "p-0ff7afc97b7aec76"
           },
           {
             "type": "paragraph",
@@ -125,7 +129,8 @@
                 "type": "text",
                 "text": ". If you were, you wouldn't be here right now. Today I'm not speaking as the president of the Smiles Society. Think of me as just a normal friend, someone you can open up to about what's troubling you."
               }
-            ]
+            ],
+            "id": "p-12e6a21fb44848ae"
           },
           {
             "type": "paragraph",
@@ -146,7 +151,8 @@
                 "type": "text",
                 "text": "Lady... Fulwish... I'll admit, if it weren't for everyone at the Smiles Society, on the day I got laid off, I probably would've... But with your encouragement, I found a new job and even gained a new family. I think I should give it one more shot and try to find happiness through my own strength, instead of jumping straight into the surgery."
               }
-            ]
+            ],
+            "id": "p-56c02dcfb8b3b423"
           },
           {
             "type": "paragraph",
@@ -167,7 +173,8 @@
                 "type": "text",
                 "text": "You're absolutely right. The Society isn't the IPC. We'd never force our members to do anything. Today's just a friendly chat between friends, so relax. Let's just talk about life, shall we?"
               }
-            ]
+            ],
+            "id": "p-41cde94c4a4db148"
           },
           {
             "type": "paragraph",
@@ -189,7 +196,8 @@
                 "type": "text",
                 "text": "?"
               }
-            ]
+            ],
+            "id": "p-57474ca2f9be5893"
           },
           {
             "type": "paragraph",
@@ -210,7 +218,8 @@
                 "type": "text",
                 "text": "...Yeah, everyone's so happy, bursting with energy every single day, and it's all thanks to your help. But sometimes, I feel like we're from two different worlds. Whenever I'm exhausted and just want to sigh, I take one look at them and... it's like I'm doing something I'm not allowed to do."
               }
-            ]
+            ],
+            "id": "p-a65c316a06ae60be"
           },
           {
             "type": "paragraph",
@@ -231,7 +240,8 @@
                 "type": "text",
                 "text": "I went through the same thing in the days right after the Bloodstained Games ended. Everyone was so kind, but the more help I accepted, the guiltier I felt. I was scared that if they saw even a hint of unease on my face, it would hurt them too. I was scared that if I cried, it would make them sad."
               }
-            ]
+            ],
+            "id": "p-32a822fa94e520ba"
           },
           {
             "type": "paragraph",
@@ -253,7 +263,8 @@
                 "type": "text",
                 "text": "."
               }
-            ]
+            ],
+            "id": "p-3f001cc15755f85d"
           },
           {
             "type": "paragraph",
@@ -274,7 +285,8 @@
                 "type": "text",
                 "text": "Yeah, I totally get that! It's like this vibe hanging over all of Planarcadia. Whether it's at the company, out on the streets, or online... seeing everyone laughing and having a blast always makes me feel like I should join in, but..."
               }
-            ]
+            ],
+            "id": "p-a5850ad3edd0385c"
           },
           {
             "type": "paragraph",
@@ -321,7 +333,8 @@
                 "type": "text",
                 "text": ", and you've mistaken that yearning for alienation."
               }
-            ]
+            ],
+            "id": "p-b56b711fa47f8162"
           },
           {
             "type": "paragraph",
@@ -343,7 +356,8 @@
                 "type": "text",
                 "text": ", stand by their side, and share a laugh?"
               }
-            ]
+            ],
+            "id": "p-706c7eaf50588cf9"
           },
           {
             "type": "paragraph",
@@ -365,7 +379,8 @@
                 "type": "text",
                 "text": "? You simply haven't recognized your true self yet. Tell me, what is it you really want?"
               }
-            ]
+            ],
+            "id": "p-d88f06fdbd2f5c27"
           },
           {
             "type": "paragraph",
@@ -386,7 +401,8 @@
                 "type": "text",
                 "text": "I want to... join them. I want to be happy."
               }
-            ]
+            ],
+            "id": "p-5b080a2cb497b422"
           }
         ]
       }

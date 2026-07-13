@@ -4,10 +4,11 @@
   "id": "dreamflux-reef-travel-guide-19-0",
   "name": "Dreamflux Reef Travel Guide 19.0",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Dreamflux_Reef_Travel_Guide_19.0",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "As you all know, this place is unlike the fake and capitalistic territory of The Family, In this city crafted from the Primordial Dreamscape, there are no restraints from strict laws and no pursuit from the Bloodhounds. It welcomes all visitors, offering boundless freedom. However, with the vast breadth of the Dreamscape, what other recommended attractions are there beyond major landmarks? Our editorial team has curated this guide exclusively for you, and we hope you thoroughly enjoy your time here."
               }
-            ]
+            ],
+            "id": "p-6c19f6a035085ac0"
           },
           {
             "type": "paragraph",
@@ -63,7 +65,8 @@
                 "type": "text",
                 "text": "Note 4: Due to a significant decrease in residents at Dreamflux Reef and the departure of the Watchmaker, the hotel has now closed after facing severe challenges in sustaining its operations. We sincerely appreciate your support throughout the years."
               }
-            ]
+            ],
+            "id": "p-d0d6985d7607eee6"
           },
           {
             "type": "paragraph",
@@ -100,7 +103,8 @@
                 "type": "text",
                 "text": "Note 3: The bakery is currently semi-permanently closed."
               }
-            ]
+            ],
+            "id": "p-eeaf3c30d0f485b0"
           },
           {
             "type": "paragraph",
@@ -137,7 +141,8 @@
                 "type": "text",
                 "text": "Note 3: You will find a restaurant near the Singularity. Please kindly note its opening hours."
               }
-            ]
+            ],
+            "id": "p-5e68e8ede2f28f04"
           },
           {
             "type": "paragraph",
@@ -187,7 +192,8 @@
                 "type": "text",
                 "text": "Note 3: Due to certain reasons, the mall is now facing significant challenges in sustaining its operations and has decided to close down at the end of this month. All toys in the mall will be donated to neighboring communities. Please visit the distribution points to acquire the toys."
               }
-            ]
+            ],
+            "id": "p-81cbcaf1c398c30a"
           },
           {
             "type": "paragraph",
@@ -196,7 +202,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -205,7 +212,8 @@
                 "type": "text",
                 "text": "We regret to inform you that this will be the final revision of this guide from our team due to financial pressure, declining subscription numbers, and various other challenges. However, we firmly believe that Dreamflux Reef will one day flourish even more than it ever did, and when that time comes, let us meet again through words."
               }
-            ]
+            ],
+            "id": "p-988606f89ed07326"
           }
         ]
       }

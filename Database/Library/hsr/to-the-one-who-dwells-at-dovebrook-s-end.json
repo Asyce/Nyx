@@ -4,10 +4,11 @@
   "id": "to-the-one-who-dwells-at-dovebrook-s-end",
   "name": "To the One Who Dwells at Dovebrook's End",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/To_the_One_Who_Dwells_at_Dovebrook%27s_End",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "If you find this paper boat, please help me deliver it to ████ Street, 46-██, Dovebrook District."
               }
-            ]
+            ],
+            "id": "p-e1f22f0df6152b4a"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "My dear child,"
               }
-            ]
+            ],
+            "id": "p-87fcad21302bd957"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "How have you been? I'm sure you're more than capable of taking care of yourself. But even so, you've gotta let me worry about you a little."
               }
-            ]
+            ],
+            "id": "p-746e2cfb133b11e2"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "This hotel, Inkford Hermitage, turned out to be an even better place than I imagined. From the lobby manager to the other guests, most people here are pretty friendly. No one's gonna come banging down my door with a weapon in hand, and for the first time in ages, I'm sleeping in an actual soft bed. But here's the thing, I just can't fall asleep."
               }
-            ]
+            ],
+            "id": "p-d52f4cf94a6bfd60"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "It's not that I'm terrified of my Wishpower running out... It's those scenes from the past that keep playing on loop in my head."
               }
-            ]
+            ],
+            "id": "p-e863d17862f19095"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "Back then, you yelled at me, \"You're old and useless,\" \"Staying here will only ruin my plans,\" insisting on sending me to this hotel. I cried looking at your face feigning heartlessness, because I was worried that you hadn't slept in ages just to afford my stay at the hotel. And for you to pull off that act so convincingly, you must've secretly practiced it countless times."
               }
-            ]
+            ],
+            "id": "p-edcbb6184e71b4df"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "Bet you didn't see that coming. I actually knew it all along."
               }
-            ]
+            ],
+            "id": "p-3773f5ca978aab87"
           },
           {
             "type": "paragraph",
@@ -89,7 +97,8 @@
                 "type": "text",
                 "text": "Even though I'd hate to see you hurt others, I won't stand in your way if it really comes down to that..."
               }
-            ]
+            ],
+            "id": "p-46b728c6893568c6"
           },
           {
             "type": "paragraph",
@@ -98,7 +107,8 @@
                 "type": "text",
                 "text": "Y'know what? They say Inkford Hermitage and Dovebrook District are on opposite ends of Planarcadia, but here's the kicker: The water here is actually the mainstem of Dovebrook."
               }
-            ]
+            ],
+            "id": "p-bcb0405f2033261d"
           },
           {
             "type": "paragraph",
@@ -114,7 +124,8 @@
                 "type": "text",
                 "text": "Or maybe the Security Bureau will find it and pass it along to you. Either works."
               }
-            ]
+            ],
+            "id": "p-ae42df9d0e282df2"
           },
           {
             "type": "paragraph",
@@ -123,7 +134,8 @@
                 "type": "text",
                 "text": "Farewell, child. May the God of Elation above bring you good fortune."
               }
-            ]
+            ],
+            "id": "p-6eabc60b2ffc73cc"
           },
           {
             "type": "paragraph",
@@ -160,7 +172,8 @@
                 "type": "text",
                 "text": "(The postmark on this letter is now several decades old.)"
               }
-            ]
+            ],
+            "id": "p-a1b0dc7b7a0cbc8b"
           }
         ]
       }

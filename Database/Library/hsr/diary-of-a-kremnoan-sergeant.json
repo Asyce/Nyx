@@ -4,10 +4,11 @@
   "id": "diary-of-a-kremnoan-sergeant",
   "name": "Diary of a Kremnoan Sergeant",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Diary_of_a_Kremnoan_Sergeant",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -34,7 +35,8 @@
                 "type": "text",
                 "text": "Leonidas, 5th Squad, 3rd Battalion"
               }
-            ]
+            ],
+            "id": "p-858c620ecf97b286"
           },
           {
             "type": "paragraph",
@@ -53,7 +55,8 @@
                 "type": "text",
                 "text": "Today, I took command of a squad of 26 recruits, most of them still green. But one stood out: Clitun. This kid lost his parents when he was young and was raised by the kindness of the villagers. It's no wonder his eyes burn with fierce determination. In my experience, kids who endure hardship from a young age often grow into something extraordinary, if they can just make it through."
               }
-            ]
+            ],
+            "id": "p-b858038080a9ebd1"
           },
           {
             "type": "paragraph",
@@ -62,7 +65,8 @@
                 "type": "text",
                 "text": "During the routine pep talk, I made a point of saying, \"From the moment you set foot in this military camp, you all become one thing: The swords of Nikador. Swords don't ponder; they just need to stay sharp and be ready.\""
               }
-            ]
+            ],
+            "id": "p-e83a7025587907d0"
           },
           {
             "type": "paragraph",
@@ -71,7 +75,8 @@
                 "type": "text",
                 "text": "I hope Clitun gets the message."
               }
-            ]
+            ],
+            "id": "p-e5e1fc8f5fdc107f"
           },
           {
             "type": "paragraph",
@@ -104,7 +109,8 @@
                 "type": "text",
                 "text": "Clitun truly shone today. He volunteered to carry twice the usual weight during training. I let him, knowing that a soldier who seeks out challenges will undoubtedly go far."
               }
-            ]
+            ],
+            "id": "p-a98e197b2a8c3ac6"
           },
           {
             "type": "paragraph",
@@ -134,7 +140,8 @@
                 "type": "text",
                 "text": "3. Weapon maintenance before bed."
               }
-            ]
+            ],
+            "id": "p-2adf85655121a828"
           },
           {
             "type": "paragraph",
@@ -153,7 +160,8 @@
                 "type": "text",
                 "text": "Ran into a bit of a scuffle today. Two recruits got into a fight over a practice shield. It's a good thing for Kremnoan soldiers to compete for honor, but these two picked the wrong moment and place for it."
               }
-            ]
+            ],
+            "id": "p-d5db9eb7d84c009f"
           },
           {
             "type": "paragraph",
@@ -162,7 +170,8 @@
                 "type": "text",
                 "text": "Punishment: Each will carry triple the weight of rock plates and march around the camp until dawn. And I've ordered the shield to be placed in front of them. If you crave it so much, let it serve as a constant reminder throughout your march."
               }
-            ]
+            ],
+            "id": "p-5d3259a68452b3b8"
           },
           {
             "type": "paragraph",
@@ -188,7 +197,8 @@
                 "type": "text",
                 "text": "Follow-up Action: Inscribed his name on the stone monument at the training ground, as per tradition."
               }
-            ]
+            ],
+            "id": "p-b78d4a5dacbe2547"
           },
           {
             "type": "paragraph",
@@ -197,7 +207,8 @@
                 "type": "text",
                 "text": "This is the second fatal accident this month. The recruits' spirits were lowered, but I reassured them, \"To sacrifice during training is a great honor, far better than dying in your bed.\""
               }
-            ]
+            ],
+            "id": "p-4b40fcccd150eff4"
           },
           {
             "type": "paragraph",
@@ -216,7 +227,8 @@
                 "type": "text",
                 "text": "I've received an inquiry from the Inspector: The accident rate is too high. My response: Since the establishment of Castrum Kremnos, our mission has been to forge weapons, not train soldiers. Weapons undergo quenching, honing, and even breaking, all to emerge stronger through recasting."
               }
-            ]
+            ],
+            "id": "p-9dfd9b531344a238"
           },
           {
             "type": "paragraph",
@@ -225,7 +237,8 @@
                 "type": "text",
                 "text": "Seeing Clitun's performance today, I know I was on the right track. He broke three iron swords in combat training yet remained unyielding. This truly embodies the spirit of a Kremnos warrior."
               }
-            ]
+            ],
+            "id": "p-dea9bf756670e374"
           },
           {
             "type": "paragraph",
@@ -272,7 +285,8 @@
                 "type": "text",
                 "text": "Today, I presented the squad with a shield that embodies the true spirit of Castrum Kremnos. This shield, forged in the fires of countless battles, still holds its blade-like sharpness. I emphasized, \"One day, you'll wield a shield like this. But only if you survive the trials ahead.\""
               }
-            ]
+            ],
+            "id": "p-3f64a7d5d1eab58a"
           },
           {
             "type": "paragraph",
@@ -291,7 +305,8 @@
                 "type": "text",
                 "text": "Clitun defeated a veteran in the martial competition. The veterans were outraged, seeing it as a display of disrespect from a mere recruit. Yet, I support this act. Castrum Kremnos doesn't seek humble warriors; we crave those who hunger for victory, warriors whose hearts burn with the desire to win."
               }
-            ]
+            ],
+            "id": "p-7db4123cb7477ac2"
           },
           {
             "type": "paragraph",
@@ -300,7 +315,8 @@
                 "type": "text",
                 "text": "I've recommended Clitun to the examiners of the Godshield Brigade. His outstanding performance earns him this opportunity."
               }
-            ]
+            ],
+            "id": "p-e24d07e760eb7130"
           },
           {
             "type": "paragraph",
@@ -361,7 +377,8 @@
                 "type": "text",
                 "text": "In war, perfection isn't sought; only those who dare to face death will be accepted. And behold, my recruits are such men — they stand ready."
               }
-            ]
+            ],
+            "id": "p-944035e3ea1c6fbf"
           },
           {
             "type": "paragraph",
@@ -387,7 +404,8 @@
                 "type": "text",
                 "text": "I kept quiet about the fact that three teams had already bitten the dust on this very route in the past month. They don't need the extra baggage. Kremnos warriors live by one code: Fight till the end."
               }
-            ]
+            ],
+            "id": "p-ef9189356bae741f"
           },
           {
             "type": "paragraph",
@@ -424,7 +442,8 @@
                 "type": "text",
                 "text": "4. Update training program (focus on nighttime combat)."
               }
-            ]
+            ],
+            "id": "p-97368f4c1e4be5eb"
           }
         ]
       }

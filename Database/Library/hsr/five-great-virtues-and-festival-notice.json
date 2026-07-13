@@ -4,10 +4,11 @@
   "id": "five-great-virtues-and-festival-notice",
   "name": "Five Great Virtues and Festival Notice",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Five_Great_Virtues_and_Festival_Notice",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "strong",
                 "children": []
               }
-            ]
+            ],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "At the Action Hour in the Month of ███████, Day █, Kremnos Arena will hold a grand ceremony in commemoration of Nikador, and pray for Castrum Kremnos' prosperity, honing the battle souls of our folk, so that all may bask in the radiant glory of the Strife Titan's Five Great Virtues:"
               }
-            ]
+            ],
+            "id": "p-c1de73df88aff267"
           },
           {
             "type": "paragraph",
@@ -90,7 +93,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-1b36702618a93b1e"
           },
           {
             "type": "paragraph",
@@ -99,7 +103,8 @@
                 "type": "text",
                 "text": "In the spirit of this gladiatorial festival, its warriors are all beacons of valor from all corners of Castrum Kremnos. The arena is in a wide open space — warriors can don sturdy armor and wield sharp lances, marching on a path of onslaught to finally face King Eurypon. Victors will seize fame, their names etched in glory, and the defeated will become fallen souls of heroes, unshaken in their pursuit of courage."
               }
-            ]
+            ],
+            "id": "p-c70217b0e568ee8b"
           },
           {
             "type": "paragraph",
@@ -108,7 +113,8 @@
                 "type": "text",
                 "text": "The festival is a raucous affair, eagerly awaiting a surge of warriors who jostle to pledge themselves to call forth the divinity of the Titans. May Nikador defend Kremnos for eternity!"
               }
-            ]
+            ],
+            "id": "p-8d557c269638585f"
           }
         ]
       }

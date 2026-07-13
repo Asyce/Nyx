@@ -4,10 +4,11 @@
   "id": "yaoqing-recruit-handbook-borisin-pack-overview",
   "name": "Yaoqing Recruit Handbook: Borisin Pack Overview",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Yaoqing_Recruit_Handbook:_Borisin_Pack_Overview",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -26,7 +27,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-d27c39343d0fd5a7"
           },
           {
             "type": "paragraph",
@@ -35,7 +37,8 @@
                 "type": "text",
                 "text": "After the Third Denizens of Abundance war, the borisin's political landscape was plunged into a state of extreme instability. There are still many existing splinter factions and new powers that are being consolidated that we have not identified. This is what the scouts of the Verdantia Fleet have gathered thus far about borisin, for the perusal of the Cloud Knights."
               }
-            ]
+            ],
+            "id": "p-410afa782b3cd1f9"
           },
           {
             "type": "paragraph",
@@ -44,7 +47,8 @@
                 "type": "text",
                 "text": "Currently, the borisin world is governed by six major packs: Eclipse, Chiseltooth, Sableclaw, Bloodwind, Rhinohound, and Whitewolf."
               }
-            ]
+            ],
+            "id": "p-3283aac2c81bf508"
           },
           {
             "type": "paragraph",
@@ -53,7 +57,8 @@
                 "type": "text",
                 "text": "Eclipse Pack"
               }
-            ]
+            ],
+            "id": "p-ace9bf08e9a725ad"
           },
           {
             "type": "paragraph",
@@ -62,7 +67,8 @@
                 "type": "text",
                 "text": "The Eclipse Pack is most adept at marauding. Its founder proclaimed to have devoured the flesh of gods, and was thus crowned the God-Devouring Hunter. This pack's borisin have reaped the greatest boons from the Moon Rage, able to enter a berserk state during the phenomenon — they call it the Crimson Moon's Ire."
               }
-            ]
+            ],
+            "id": "p-2c5a964edf3912cf"
           },
           {
             "type": "paragraph",
@@ -71,7 +77,8 @@
                 "type": "text",
                 "text": "The Eclipse Pack's tradition allows them to feast on the flesh of other races, resulting in them possessing astounding rates of mutation. Their own body is a genetic machine that is constantly self-evolving, enhancing itself through the replenishment of the genetic information of other species genetic information. When combating the Eclipse, post-battle cleanup must be performed meticulously — don't leave any of your peers' corpses on the field. This isn't a question of glory or sentimentality, but a principle that must be adhered to."
               }
-            ]
+            ],
+            "id": "p-d13c0e971aa4ef1f"
           },
           {
             "type": "paragraph",
@@ -80,7 +87,8 @@
                 "type": "text",
                 "text": "Chiseltooth Pack"
               }
-            ]
+            ],
+            "id": "p-9a622c4734ba8867"
           },
           {
             "type": "paragraph",
@@ -89,7 +97,8 @@
                 "type": "text",
                 "text": "Rather than combat, the Chiseltooth Pack is more proficient at genetic witchcraft. Borisin typically use mechabeasts and weapons, and these technological rudiments are mainly assembled by the Chiseltooth Pack's genetic warlocks."
               }
-            ]
+            ],
+            "id": "p-78cd632b50feb11c"
           },
           {
             "type": "paragraph",
@@ -98,7 +107,8 @@
                 "type": "text",
                 "text": "Even in the most brutal age of civil strife, no pack has ever dared attack the Chiseltooth Pack. Attacking their genetic warlocks would incur the borisin culture's collective wrath — an act that would earn the entire race's retaliation. The Xianzhou Yaoqing have successfully framed attacks against the Chiseltooth on other borisin tribes — a tactic that has paid dividends in scale."
               }
-            ]
+            ],
+            "id": "p-b967fd5442875441"
           },
           {
             "type": "paragraph",
@@ -107,7 +117,8 @@
                 "type": "text",
                 "text": "Based on the Chiseltooth Pack's complex biotechnology, during their temporary cooperation, the Verdantia Fleet and the Intelligentsia Guild produced a medicinal pellet effective in resisting most of the microbe weaponry that they spray. Please confirm that your loadout consists of this medicine or a similar agent before deploying for combat."
               }
-            ]
+            ],
+            "id": "p-171954487dba635b"
           },
           {
             "type": "paragraph",
@@ -116,7 +127,8 @@
                 "type": "text",
                 "text": "Sableclaw Pack"
               }
-            ]
+            ],
+            "id": "p-fe74ac58fafb3ed7"
           },
           {
             "type": "paragraph",
@@ -125,7 +137,8 @@
                 "type": "text",
                 "text": "The Sableclaw Pack serves as borisin mercenaries. You may run into them on any battlefield. They are both hardy and excellent at concealment, adept at hunting, assassination, and terrorist tactics."
               }
-            ]
+            ],
+            "id": "p-786d421ecd27fac5"
           },
           {
             "type": "paragraph",
@@ -134,7 +147,8 @@
                 "type": "text",
                 "text": "Their olfactory senses far surpass other borisin, to the point where they've developed a highly effective olfactory language used for pack hunting. This is why, when encountering Sableclaw Pack enemies, it is a good idea to sever their links to one another through their sense of smell. The current counter-tactic of the Verdantia Fleet is to release smell disruptors and counter pheromones. Before deploying, every soldier should be equipped with at least two units of counter-entrapment inhibitors (codenamed \"Perfume\")."
               }
-            ]
+            ],
+            "id": "p-8b82e0cf52c44181"
           },
           {
             "type": "paragraph",
@@ -143,7 +157,8 @@
                 "type": "text",
                 "text": "Bloodwind Pack"
               }
-            ]
+            ],
+            "id": "p-aa10c645db4c256f"
           },
           {
             "type": "paragraph",
@@ -152,7 +167,8 @@
                 "type": "text",
                 "text": "The Bloodwind Pack is the most prolific in beast-riding and divination among borisin. They have the largest beast ship fleet and is capable of rallying swift transport for the entire tribe. Also, their superb mobility prevents us from accurately pinpointing their main base, but they can intermittently disrupt and raid our key installations."
               }
-            ]
+            ],
+            "id": "p-f19d496192cd4785"
           },
           {
             "type": "paragraph",
@@ -161,7 +177,8 @@
                 "type": "text",
                 "text": "In this era of Borisin Empire's absolute decline, the Bloodwind Pack may, possibly, be the faction that would pose the most danger to the Alliance in the future."
               }
-            ]
+            ],
+            "id": "p-a67733c5e2549311"
           },
           {
             "type": "paragraph",
@@ -175,7 +192,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-016c56fd2b6b8c64"
           },
           {
             "type": "paragraph",
@@ -184,7 +202,8 @@
                 "type": "text",
                 "text": "Rhinohound Pack"
               }
-            ]
+            ],
+            "id": "p-ed907117ed2974ba"
           },
           {
             "type": "paragraph",
@@ -193,7 +212,8 @@
                 "type": "text",
                 "text": "The Rhinohound Pack is currently the youngest among all packs. It is an anomaly among borisin, a race that pursues hunting as a way of life. They revel in intensive agriculture among their settled planets and are highly adept at defensive strategies."
               }
-            ]
+            ],
+            "id": "p-24418580ec59194d"
           },
           {
             "type": "paragraph",
@@ -202,7 +222,8 @@
                 "type": "text",
                 "text": "It is this cultural trait that makes the Rhinohound Pack highly skilled in business, as well as their strict behavioral adherence to keeping relative peace. Such a style of conduct has allowed them to establish relations with some factions (such as the IPC) for mutual trade."
               }
-            ]
+            ],
+            "id": "p-d00841ab3bf1f6ae"
           },
           {
             "type": "paragraph",
@@ -211,7 +232,8 @@
                 "type": "text",
                 "text": "Different from most borisin who pursue the advancement in biological tech, the Rhinohound Pack is far more interested in studying industrial methods that enhance flesh and bone. After their coming-of-age rite, Rhinohound Pack younglings will receive their first powered exoskeleton armor. This is also the origin of their \"Rhinohound\" namesake — the name of an indomitable divine beast in borisin lore."
               }
-            ]
+            ],
+            "id": "p-126dbb7a29626b2e"
           },
           {
             "type": "paragraph",
@@ -220,7 +242,8 @@
                 "type": "text",
                 "text": "Many borisin believe that the Rhinohound Pack has betrayed the sacred way of life that the Father Wolf Duran founded, while some young borisin believe that the Rhinohounds are the future moving forward."
               }
-            ]
+            ],
+            "id": "p-5dc37e55a7d81b2d"
           },
           {
             "type": "paragraph",
@@ -229,7 +252,8 @@
                 "type": "text",
                 "text": "Rhinohound Pack members are occasionally or frequently capable of negotiation discourse, but don't hold out too much hope. Borisin will always be borisin — when you show fear or bleed, they will reveal their true nature, and speak with their armaments instead."
               }
-            ]
+            ],
+            "id": "p-4359f6088939f4bc"
           },
           {
             "type": "paragraph",
@@ -238,7 +262,8 @@
                 "type": "text",
                 "text": "Whitewolf Pack"
               }
-            ]
+            ],
+            "id": "p-5d6c20911f13733e"
           },
           {
             "type": "paragraph",
@@ -247,7 +272,8 @@
                 "type": "text",
                 "text": "Among the six major packs, the Whitewolf Pack may be the most special, and the most wicked of the lot. It is the only borisin pack not led by borisin, but foxians, who call themselves \"Whitewolves\" within the pack."
               }
-            ]
+            ],
+            "id": "p-df354d3d995e6437"
           },
           {
             "type": "paragraph",
@@ -256,7 +282,8 @@
                 "type": "text",
                 "text": "Over seven centuries ago, after Hoolay's capture by the Alliance, intense civil strife exploded among borisin. Capitalizing on this chaos, a group of foxian slaves chose to rise in revolt. In this earth-shattering slave rebellion, the leader who called themself the Whitewolf Khan slew their own master and led their forces in the occupation of the pack's planet. Borisin were unable to quash this rebellion, and the Whitewolf Khan's kingdom has remained to this day."
               }
-            ]
+            ],
+            "id": "p-20ebba5bd0c80357"
           },
           {
             "type": "paragraph",
@@ -265,7 +292,8 @@
                 "type": "text",
                 "text": "Presently, led by foxians, the brutal Whitewolf Pack commits the most atrocities among all borisin packs. They rely on such performative zealotry to show themselves as more borisin than the true borisin, to ensure that they never go back to their enslaved fates again."
               }
-            ]
+            ],
+            "id": "p-e13c0ee519d0753f"
           },
           {
             "type": "paragraph",
@@ -274,7 +302,8 @@
                 "type": "text",
                 "text": "The Whitewolf Pack's most common combat tactic is to herd their foxian brethren at close quarters to function as both vanguard and fodder, primarily to rile up the emotions of the enemy frontline (this tactic is also used by other packs, but most frequently by the Whitewolves). Apart from this, they also usually disguise themselves as Xianzhou foxians in battle, yelling out \"Don't attack, I'm one of you\" in the Verdantia tongue, misleading the Cloud Knights into hesitation and confusion, before taking this opportunity to slit their throats."
               }
-            ]
+            ],
+            "id": "p-251f1816aa3b4617"
           },
           {
             "type": "paragraph",
@@ -283,7 +312,8 @@
                 "type": "text",
                 "text": "Seeing as the Whitewolf Pack is prolific in disguise, infiltration, and assassination from the rear, the Yaoqing Cloud Knights will regularly conduct psychological screen tests on foxian soldiers. If you are a foxian, please update your psychological screen tests regularly, so that the Military Affairs Office has a timely grasp on your status."
               }
-            ]
+            ],
+            "id": "p-b90632e6edd70407"
           },
           {
             "type": "paragraph",
@@ -292,7 +322,8 @@
                 "type": "text",
                 "text": "Also, please remember that when crossing blades with the Whitewolf Pack, reject any act of temporary surrender and do not take prisoners of war. Additionally, never allow yourself or your comrades to end up alive in the hands of the Whitewolves. When fighting against them, you must set aside an arrow or bullet for yourself... or any weapon that will let you successfully take your own life."
               }
-            ]
+            ],
+            "id": "p-fcb35acc8706eba1"
           },
           {
             "type": "paragraph",
@@ -301,7 +332,8 @@
                 "type": "text",
                 "text": "Claretwheel Temple"
               }
-            ]
+            ],
+            "id": "p-255c6b2562c952af"
           },
           {
             "type": "paragraph",
@@ -310,7 +342,8 @@
                 "type": "text",
                 "text": "After the collapse of Borisin Empire, a new faction called the Claretwheel Temple surfaced on our radar."
               }
-            ]
+            ],
+            "id": "p-772d343f589dd19f"
           },
           {
             "type": "paragraph",
@@ -319,7 +352,8 @@
                 "type": "text",
                 "text": "The Claretwheel Temple's devotees reject harm on any living thing, instead turning their beliefs to some religious concept as the path of salvation. These borisin oppose the endless Denizens of Abundance Wars — the infighting of their own brethren has caused them to waver. They have resurrected the traditional Verdantia fable of \"Wolf God and Deer God\" and believe that the heart of the present chaos lies in the power imbalance between Abundance and The Hunt."
               }
-            ]
+            ],
+            "id": "p-9b706fd0228a5a2c"
           },
           {
             "type": "paragraph",
@@ -328,7 +362,8 @@
                 "type": "text",
                 "text": "The Claretwheel Temple currently has close to ten thousand disciples, most of which are borisin, with a minority of them from the other Denizens of Abundance species. These war-weary denizens have found their safe haven under the protective wing of the monastic Claretwheel Temple masses."
               }
-            ]
+            ],
+            "id": "p-fc2868f99e1b5213"
           },
           {
             "type": "paragraph",
@@ -337,7 +372,8 @@
                 "type": "text",
                 "text": "The Claretwheel Temple's monks can be identified from a distinct characteristic: They all wear some sort of forged metallic bands, usually around a certain part of their body (such as their head or neck). It is a symbol of their advocacy for the precept of never taking lives."
               }
-            ]
+            ],
+            "id": "p-d04c5e5fc71d9d14"
           },
           {
             "type": "paragraph",
@@ -346,7 +382,8 @@
                 "type": "text",
                 "text": "As unbelievable as the concept of a \"non-killing borisin\" is, from current records, this faction has been confirmed to adhere to the contents of their proclaimed mantra. The Military Affairs Office strictly forbids the deliberate harm of Claretwheel Temple monks — violators of this regulation will be charged with intentional harm to civilians."
               }
-            ]
+            ],
+            "id": "p-b03cf901528b6e6f"
           },
           {
             "type": "paragraph",
@@ -362,7 +399,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-d27c39343d0fd5a7-2"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "treasure-clues-provided-by-someone-mysterious",
   "name": "Treasure Clues Provided by Someone Mysterious",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Treasure_Clues_Provided_by_Someone_Mysterious",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "the-unchosen-path-part-1",
       "label": "The Unchosen Path (Part 1)",
       "document": {
         "version": 1,
@@ -19,13 +20,15 @@
                 "type": "text",
                 "text": "Go to the Audition Shuttle in the Audition Plaza. Make a third choice. Reunite with your people at the end of the road."
               }
-            ]
+            ],
+            "id": "p-34ad26623deca231"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "the-unchosen-path-part-2",
       "label": "The Unchosen Path (Part 2)",
       "document": {
         "version": 1,
@@ -37,13 +40,15 @@
                 "type": "text",
                 "text": "Go to the Audition Shuttle in the Audition Plaza. Make a third choice. Head to the end of the road and confront your nemesis."
               }
-            ]
+            ],
+            "id": "p-ee615ba5bd0a977b"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "the-unchosen-path-part-3",
       "label": "The Unchosen Path (Part 3)",
       "document": {
         "version": 1,
@@ -55,13 +60,15 @@
                 "type": "text",
                 "text": "The Audition Shuttle heading to the Dreamplay Fantasia. Make a third choice. Hanunue's spirit will be summoned once more, still engaged in an eternal battle with his enemies."
               }
-            ]
+            ],
+            "id": "p-d4cff80eb6a8f78b"
           }
         ]
       }
     },
     {
       "id": "4",
+      "volumeKey": "the-unchosen-path-part-4",
       "label": "The Unchosen Path (Part 4)",
       "document": {
         "version": 1,
@@ -73,13 +80,15 @@
                 "type": "text",
                 "text": "The Audition Shuttle heading to the Dreamplay Fantasia. Make a third choice. While the spirit of the clock has long departed, its golden heart still resides in the realm of dreams and can be repaired."
               }
-            ]
+            ],
+            "id": "p-8c01d8fa23b75bad"
           }
         ]
       }
     },
     {
       "id": "5",
+      "volumeKey": "the-unchosen-path-part-5",
       "label": "The Unchosen Path (Part 5)",
       "document": {
         "version": 1,
@@ -91,13 +100,15 @@
                 "type": "text",
                 "text": "The Audition Shuttle heading to the Gunfire Time. Make a third choice. The era is overwhelmingly flustered and vain. If only there were a gale to sweep away all the billboards."
               }
-            ]
+            ],
+            "id": "p-7fc902270afbf9c4"
           }
         ]
       }
     },
     {
       "id": "6",
+      "volumeKey": "the-unchosen-path-part-6",
       "label": "The Unchosen Path (Part 6)",
       "document": {
         "version": 1,
@@ -109,7 +120,8 @@
                 "type": "text",
                 "text": "The Audition Shuttle heading to the Gunfire Time. Make a third choice. Head to the end of the road and restore peace to Dreamville once more."
               }
-            ]
+            ],
+            "id": "p-eb57b99e6a09b206"
           }
         ]
       }

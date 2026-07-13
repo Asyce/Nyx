@@ -4,10 +4,11 @@
   "id": "cosmic-star-s-story",
   "name": "Cosmic Star's Story",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Cosmic_Star%27s_Story",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "clippings-from-fans",
       "label": "Clippings From Fans",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Devastating News: Cosmic Superstar Lesley Dean Passes Away"
               }
-            ]
+            ],
+            "id": "p-32c9bc6a132c6ea8"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Breaking News from Epsilon E-News: According to reliable sources, the galaxy-class cruiser known as the Nebula's End exploded seven system hours after departing from the Epsilon-X United Skyport. The cause of the incident is still unclear."
               }
-            ]
+            ],
+            "id": "p-f574e46870d5a29b"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "The Epsilon Merchant Guild promptly dispatched a fleet for the rescue operation, but no survivors have been found so far. Lesley Dean, a rising star in the entertainment industry and hailed as the Cosmic Star, is reported to be one of the passengers on the Nebula's End."
               }
-            ]
+            ],
+            "id": "p-c709adf6071b5767"
           },
           {
             "type": "paragraph",
@@ -46,13 +50,15 @@
                 "type": "text",
                 "text": "All of us from Epsilon E-News express our deepest condolences to the families of the passengers and crew members who lost their lives in the explosion."
               }
-            ]
+            ],
+            "id": "p-1dd1a6e2fdda714a"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "lesley-dean-s-rebirth-project",
       "label": "Lesley Dean's Rebirth Project",
       "document": {
         "version": 1,
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "To the loyal fans of Lesley Dean,"
               }
-            ]
+            ],
+            "id": "p-ab004e9799c61176"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "Thank you for accepting our invitation. Now, I'll explain all the details and steps that the \"Lesley Dean's Rebirth Project\" entails."
               }
-            ]
+            ],
+            "id": "p-81215c56c8180eb1"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "Step 1: We'll raise money through crowdfunding to purchase Lesley Dean's memory storage from the Epsilon Merchant Guild."
               }
-            ]
+            ],
+            "id": "p-96ccb85e851970d1"
           },
           {
             "type": "paragraph",
@@ -91,7 +100,8 @@
                 "type": "text",
                 "text": "Step 2: We'll conduct a thorough study of Lesley Dean's memory storage to ensure every participant has an in-depth understanding of Lesley Dean's personality, character, and life."
               }
-            ]
+            ],
+            "id": "p-43492466aa7b5aa6"
           },
           {
             "type": "paragraph",
@@ -100,7 +110,8 @@
                 "type": "text",
                 "text": "Step 3: We will visit Penacony and create a Synesthesia Dreamscape with the dream technology there. By drawing from Lesley Dean's memory storage and our impression of him, we will reconstruct the body, mind, and spirit of the Cosmic Star in the Dreamscape."
               }
-            ]
+            ],
+            "id": "p-63a10833306ff45c"
           },
           {
             "type": "paragraph",
@@ -109,7 +120,8 @@
                 "type": "text",
                 "text": "Ladies and gentlemen, we all are the witness to Lesley Dean's short-lived yet scintillating career. His sudden demise has left us all devastated. If you feel indignant about his fate, join the Lesley Dean's Rebirth Project! We will have the opportunity to make up for the regrets and bring Lesley Dean back to his brilliant life."
               }
-            ]
+            ],
+            "id": "p-c1c7c3a6ede1171f"
           }
         ]
       }

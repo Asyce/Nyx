@@ -4,10 +4,11 @@
   "id": "ode-of-trickery",
   "name": "Ode of Trickery",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Ode_of_Trickery",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-0f379fe3a49630bb"
           },
           {
             "type": "paragraph",
@@ -96,7 +98,8 @@
                 "type": "text",
                 "text": "If you linger till the all-knowing father thwarts your schemes, the Scale of Justice will flog you in its judgment."
               }
-            ]
+            ],
+            "id": "p-d0078fdacd4542b3"
           },
           {
             "type": "paragraph",
@@ -175,7 +178,8 @@
                 "type": "text",
                 "text": "Are you waiting for the inebriated Phagousa to strap you to a rock, till the bone-flaying storm hammers you to dust?"
               }
-            ]
+            ],
+            "id": "p-060387f9faf5bde6"
           },
           {
             "type": "paragraph",
@@ -254,7 +258,8 @@
                 "type": "text",
                 "text": "Are you waiting for the lost Titans to find their way, and shackle you to a corner in the sky?"
               }
-            ]
+            ],
+            "id": "p-41c588a348a46f06"
           },
           {
             "type": "paragraph",
@@ -298,7 +303,8 @@
                 "type": "text",
                 "text": "Are you waiting for me to expose you, my foot on your shadow, mocking your pathetic and laughable farce?"
               }
-            ]
+            ],
+            "id": "p-f86717b52b369048"
           }
         ]
       }

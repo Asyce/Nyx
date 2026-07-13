@@ -4,10 +4,11 @@
   "id": "tidal-ronde-water-lyre-musical-notation",
   "name": "Tidal Ronde Water Lyre Musical Notation",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Tidal_Ronde_Water_Lyre_Musical_Notation",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "— A Hymn for the Chalice of Plenty"
               }
-            ]
+            ],
+            "id": "p-441d8f7c2f95cfe0"
           },
           {
             "type": "paragraph",
@@ -119,7 +121,8 @@
                 "type": "text",
                 "text": "12 Shadow - C' (String of Thanatos)"
               }
-            ]
+            ],
+            "id": "p-185537c4545f2d27"
           },
           {
             "type": "paragraph",
@@ -145,7 +148,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-3496a2ef5b308a47"
           },
           {
             "type": "paragraph",
@@ -168,7 +172,8 @@
                 "type": "text",
                 "text": "Cadence: ♩=72 Gentle as a morning tide"
               }
-            ]
+            ],
+            "id": "p-421b1e152bd72a98"
           },
           {
             "type": "paragraph",
@@ -254,7 +259,8 @@
                 "type": "text",
                 "text": "C' |---------|------C-|"
               }
-            ]
+            ],
+            "id": "p-d7ee7a28df5a3053"
           },
           {
             "type": "paragraph",
@@ -277,7 +283,8 @@
                 "type": "text",
                 "text": "Cadence: ♩=108 Like a surging tide"
               }
-            ]
+            ],
+            "id": "p-f167a2819065d6ca"
           },
           {
             "type": "paragraph",
@@ -363,7 +370,8 @@
                 "type": "text",
                 "text": "C' |-C-E-G-|-E-G-C-|"
               }
-            ]
+            ],
+            "id": "p-258eb49ab5340b78"
           },
           {
             "type": "paragraph",
@@ -386,7 +394,8 @@
                 "type": "text",
                 "text": "Cadence: ♩=144 Like a descending storm"
               }
-            ]
+            ],
+            "id": "p-c3e27eb975a7ea5a"
           },
           {
             "type": "paragraph",
@@ -472,7 +481,8 @@
                 "type": "text",
                 "text": "C' |-C-E-G-C-|-E-G-C-E-|"
               }
-            ]
+            ],
+            "id": "p-ef015aa3e0fa43a9"
           },
           {
             "type": "paragraph",
@@ -502,7 +512,8 @@
                 "type": "text",
                 "text": "3. The score corresponds with the twelve strings' positions from top to bottom"
               }
-            ]
+            ],
+            "id": "p-0966201185b965cf"
           },
           {
             "type": "paragraph",
@@ -546,7 +557,8 @@
                 "type": "text",
                 "text": "4. When a performance takes place along a coast, resonance is amplified"
               }
-            ]
+            ],
+            "id": "p-bf14e20c157d718b"
           },
           {
             "type": "paragraph",
@@ -583,7 +595,8 @@
                 "type": "text",
                 "text": "～ Afterecho: Persists as flow changes"
               }
-            ]
+            ],
+            "id": "p-6c8a7deb4a96d04a"
           },
           {
             "type": "paragraph",
@@ -620,7 +633,8 @@
                 "type": "text",
                 "text": "4. Beware of Zagreus' disciples who may secretly replace the lyre's strings"
               }
-            ]
+            ],
+            "id": "p-3e825ca023c56714"
           }
         ]
       }

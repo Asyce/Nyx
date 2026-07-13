@@ -4,10 +4,11 @@
   "id": "aberration-threat-levels-in-planarcadia",
   "name": "Aberration Threat Levels in Planarcadia",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Aberration_Threat_Levels_in_Planarcadia",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Planarcadia has a five-tier rating system for uncontrollable Aberrations and the scale of damage they cause."
               }
-            ]
+            ],
+            "id": "p-d956249f4c21d4de"
           },
           {
             "type": "paragraph",
@@ -49,7 +51,8 @@
                 "type": "text",
                 "text": "Can be subdued by civilian ghost-busting squads. Even if left alone, they won't escalate into complex mass disasters."
               }
-            ]
+            ],
+            "id": "p-07b59532a64a0905"
           },
           {
             "type": "paragraph",
@@ -72,7 +75,8 @@
                 "type": "text",
                 "text": "Typically powerful imagenae that have accumulated massive Wishpower and spiraled out of control, such as unspeakable entities lurking in urban legends for ages, or vengeful manifestations born from collective trauma (say, mass casualties caused by the Herald of Death)."
               }
-            ]
+            ],
+            "id": "p-7e0db6e1728213f7"
           },
           {
             "type": "paragraph",
@@ -88,7 +92,8 @@
                 "type": "text",
                 "text": "A severe threat capable of causing casualties in the hundreds or more. If left unchecked, they could lead to the destruction of major cities in arcadia's core regions. The Herald of Death falls into this category. In the Phantasmoon Games, the upper limit of destruction caused by a Supplicant going out of control also falls roughly within this range."
               }
-            ]
+            ],
+            "id": "p-c0e5af9af433c50d"
           },
           {
             "type": "paragraph",
@@ -104,7 +109,8 @@
                 "type": "text",
                 "text": "Catastrophic threat capable of crippling an entire continent, causing mass casualties and environmental upheaval. Reality-warping abilities manifest."
               }
-            ]
+            ],
+            "id": "p-667bf88d05843288"
           },
           {
             "type": "paragraph",
@@ -120,7 +126,8 @@
                 "type": "text",
                 "text": "A level of threat capable of causing civilizational collapse or even the extinction of humanity on Planarcadia's surface. Their very existence is a great catastrophe."
               }
-            ]
+            ],
+            "id": "p-5e81888af8b9a8d1"
           }
         ]
       }

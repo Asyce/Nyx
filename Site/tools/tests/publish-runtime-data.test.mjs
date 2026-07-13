@@ -14,8 +14,9 @@ async function fixture() {
     const bytes = Buffer.concat([Buffer.from('RIFF'), Buffer.alloc(4), Buffer.from('WEBP'), Buffer.alloc(32, game)]);
     const hash = crypto.createHash('sha256').update(bytes).digest('hex');
     await fs.writeFile(path.join(dir, 'icons', `${hash}.webp`), bytes);
-    await fs.writeFile(path.join(dir, 'book.json'), JSON.stringify({ schemaVersion:1, game, id:'book', name:'Book', generatedAt:'2026-07-11T00:00:00Z', volumes:[{ id:'1', label:'Text', document:{ version:1, blocks:[] } }] }));
-    await fs.writeFile(path.join(dir, 'index.json'), JSON.stringify({ schemaVersion:1, game, generatedAt:'2026-07-11T00:00:00Z', count:1, entries:[{ id:'book', name:'Book', file:'book.json', icon:`icons/${hash}.webp`, volumeCount:1, volumeLabels:['Text'] }] }));
+    await fs.writeFile(path.join(dir, 'book.json'), JSON.stringify({ schemaVersion:1, game, id:'book', name:'Book', generatedAt:'2026-07-11T00:00:00Z', volumes:[{ id:'1', volumeKey:'text', label:'Text', document:{ version:1, blocks:[{ id:'p-0123456789abcdef', type:'paragraph', children:[{ type:'text', text:'Tanuki tale' }] }] } }] }));
+    await fs.writeFile(path.join(dir, 'index.json'), JSON.stringify({ schemaVersion:1, game, generatedAt:'2026-07-11T00:00:00Z', count:1, entries:[{ id:'book', name:'Book', file:'book.json', icon:`icons/${hash}.webp`, volumeCount:1, volumeLabels:['Text'], volumeKeys:['text'] }] }));
+    await fs.writeFile(path.join(dir, 'search-index.json'), JSON.stringify({ schemaVersion:1, game, generatedAt:'2026-07-11T00:00:00Z', bookCount:1, books:['book'], wordCount:2, minWordLength:2, words:{ tale:[0], tanuki:[0] } }));
   }
   const historyDir = path.join(root, 'Database', 'BannerHistory');
   const activityDir = path.join(root, 'Database', 'Activities');
@@ -29,7 +30,7 @@ async function fixture() {
 test('publisher allowlists library data and writes verified manifest metadata', async () => {
   const rootDir = await fixture();
   const manifest = await publishRuntimeData({ rootDir, maxBytes:4096 });
-  assert.equal(manifest.files.length, 16);
+  assert.equal(manifest.files.length, 18);
   for (const entry of manifest.files) {
     assert.match(entry.url, /^\/data\/(?:library\/(?:gi|hsr)\/|banner-history\/|activities\/)/);
     assert.match(entry.sha256, /^[a-f0-9]{64}$/);
@@ -89,6 +90,21 @@ test('publisher rejects inconsistent book schemas and icon content hashes', asyn
   await assert.rejects(publishRuntimeData({ rootDir, maxBytes:4096 }), /hash\/magic mismatch/);
 });
 
+test('publisher rejects unstable leaf ids and invalid search postings', async () => {
+  let rootDir = await fixture();
+  const bookFile = path.join(rootDir, 'Database', 'Library', 'gi', 'book.json');
+  const book = JSON.parse(await fs.readFile(bookFile));
+  book.volumes[0].document.blocks[0].id = 'paragraph-1';
+  await fs.writeFile(bookFile, JSON.stringify(book));
+  await assert.rejects(publishRuntimeData({ rootDir, maxBytes:4096 }), /stable leaf id/);
+  rootDir = await fixture();
+  const searchFile = path.join(rootDir, 'Database', 'Library', 'gi', 'search-index.json');
+  const search = JSON.parse(await fs.readFile(searchFile));
+  search.words.tanuki = [1];
+  await fs.writeFile(searchFile, JSON.stringify(search));
+  await assert.rejects(publishRuntimeData({ rootDir, maxBytes:4096 }), /invalid postings/);
+});
+
 test('publisher requires all five histories and supported activity files', async () => {
   let rootDir = await fixture();
   await fs.rm(path.join(rootDir, 'Database', 'BannerHistory', 'ae.json'));
@@ -114,7 +130,7 @@ async function withEvents(rootDir, gameToPayload) {
 test('publisher is unaffected when Events is absent (still-optional family)', async () => {
   const rootDir = await fixture();
   const manifest = await publishRuntimeData({ rootDir, maxBytes:4096 });
-  assert.equal(manifest.files.length, 16);
+  assert.equal(manifest.files.length, 18);
   assert.ok(!manifest.files.some((f) => f.url.startsWith('/data/events/')));
 });
 
@@ -128,7 +144,7 @@ test('publisher includes and validates Events when present, keyed by the backend
     endfield: { schemaVersion:1, game:'endfield', generatedAt:'2026-07-12T00:00:00Z', events:[] },
   });
   const manifest = await publishRuntimeData({ rootDir, maxBytes:4096 });
-  assert.equal(manifest.files.length, 21);
+  assert.equal(manifest.files.length, 23);
   const eventUrls = manifest.files.filter((f) => f.url.startsWith('/data/events/')).map((f) => f.url).sort();
   assert.deepEqual(eventUrls, ['/data/events/endfield.json', '/data/events/gi.json', '/data/events/hsr.json', '/data/events/wuwa.json', '/data/events/zzz.json']);
 });

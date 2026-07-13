@@ -4,10 +4,11 @@
   "id": "piso-s-diary",
   "name": "Piso's Diary",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Piso%27s_Diary",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "(...)"
               }
-            ]
+            ],
+            "id": "p-6e6ea7e1675130fe"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-dfec4b7921f6b847"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "Today's mole-catching contest? First place again! But honestly, for someone like Lord Piso these days, that's barely worth bragging about!"
               }
-            ]
+            ],
+            "id": "p-fa04c883f9fb8a9e"
           },
           {
             "type": "paragraph",
@@ -51,7 +55,8 @@
                 "type": "text",
                 "text": "After all, I'm already the undefeated hide-and-seek king, kite-flying champ, fishing expert, and hunting master of Aedes Elysiae. And now, I've got a brand-new goal in life: to leave the village and explore the world, just like Phainon!"
               }
-            ]
+            ],
+            "id": "p-cd9c6e2f3424409c"
           },
           {
             "type": "paragraph",
@@ -60,7 +65,8 @@
                 "type": "text",
                 "text": "But before that happens, I've got a smaller mission first — prepare an ultra-cool farewell gift for Phainon!"
               }
-            ]
+            ],
+            "id": "p-e7d5239bfddbc4e5"
           },
           {
             "type": "paragraph",
@@ -69,7 +75,8 @@
                 "type": "text",
                 "text": "I've got it all figured out: a handmade slingshot — elm wood handle, buffalo-hide bands. Okay, sure, it's not as good as daddy's bow, but come on, my craftsmanship's top-tier! Plus, I've invented some custom ammo: glow-in-the-dark shots, ultra-spicy stingers, even sleep-darts... All battle-tested. All awesome!"
               }
-            ]
+            ],
+            "id": "p-ad6c9830503fa6ce"
           },
           {
             "type": "paragraph",
@@ -78,7 +85,8 @@
                 "type": "text",
                 "text": "(A number of pages are skipped.)"
               }
-            ]
+            ],
+            "id": "p-21dc0750bf71f3b6"
           },
           {
             "type": "paragraph",
@@ -92,7 +100,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-d2233a0cd82c62bc"
           },
           {
             "type": "paragraph",
@@ -101,7 +110,8 @@
                 "type": "text",
                 "text": "Gah! Daddy pulled my ear again! How does he always know I've hidden my unfinished homework in the haystack!?"
               }
-            ]
+            ],
+            "id": "p-44970938280aade0"
           },
           {
             "type": "paragraph",
@@ -123,7 +133,8 @@
                 "type": "text",
                 "text": "three times! How am I supposed to finish that!"
               }
-            ]
+            ],
+            "id": "p-252e1b706dde8d61"
           },
           {
             "type": "paragraph",
@@ -132,7 +143,8 @@
                 "type": "text",
                 "text": "And the way she smiled while saying, \"If your brain can't remember it, let your muscles do the remembering,\" was downright terrifying. Worse than when daddy chases me around the village swinging a cane!"
               }
-            ]
+            ],
+            "id": "p-dd11ba3156aceb8e"
           },
           {
             "type": "paragraph",
@@ -141,7 +153,8 @@
                 "type": "text",
                 "text": "Oh! And don't let me find out the snitch who tattled on me. If I catch them, they're getting a special strawberry pie loaded with super chili sauce."
               }
-            ]
+            ],
+            "id": "p-9aad5549ba6ea193"
           },
           {
             "type": "paragraph",
@@ -150,7 +163,8 @@
                 "type": "text",
                 "text": "(A number of pages are skipped.)"
               }
-            ]
+            ],
+            "id": "p-21dc0750bf71f3b6-2"
           },
           {
             "type": "paragraph",
@@ -164,7 +178,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-bd6fb0cb826ae2c7"
           },
           {
             "type": "paragraph",
@@ -173,7 +188,8 @@
                 "type": "text",
                 "text": "Last night I had a dream. Phainon was waving to me from the dock, with a brown bear strapped to his back like a backpack. Then I crafted a small boat from the windmill, soared through the moonlight, skimmed over treetops, and even scooped up Livia from a golden wheat field on the way."
               }
-            ]
+            ],
+            "id": "p-13795c6a698240c4"
           },
           {
             "type": "paragraph",
@@ -182,7 +198,8 @@
                 "type": "text",
                 "text": "But then daddy appeared, rattan stick in hand, yelling: \"You little brat! Get down here! You haven't finished your homework!\" I got so scared I fell out of the boat. Thank goodness, Miss Pythias caught me in a net woven from textbooks..."
               }
-            ]
+            ],
+            "id": "p-a38d31964656b533"
           },
           {
             "type": "paragraph",
@@ -191,7 +208,8 @@
                 "type": "text",
                 "text": "During lunch break, I snuck off and asked Livia about my dream. She said it's a sign: \"If you work hard and overcome a few little hurdles, you'll definitely become a great traveler who roams all across Amphoreus!\" Hehe, I totally think so too!"
               }
-            ]
+            ],
+            "id": "p-03e34d55e1ff27fc"
           },
           {
             "type": "paragraph",
@@ -200,7 +218,8 @@
                 "type": "text",
                 "text": "To make that dream real, I'm starting today! First mission: prep some energy supply jars for my travels! Inside I'll pack: daddy's secret stash of smoked venison, Mom's sun-dried raspberries, and my very own invention — Super Jumping Candy! (One piece, and you'll bounce three feet into the air!)"
               }
-            ]
+            ],
+            "id": "p-9e9958f69d269a35"
           },
           {
             "type": "paragraph",
@@ -216,7 +235,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-ca7e84bfac83c4f2"
           }
         ]
       }

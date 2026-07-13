@@ -4,10 +4,11 @@
   "id": "dreamscape-tourist-compendium-transport",
   "name": "Dreamscape Tourist Compendium — Transport",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Dreamscape_Tourist_Compendium_%E2%80%94_Transport",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -58,7 +59,8 @@
                 "type": "text",
                 "text": "We hope you can leave all your worries behind and live in the present!"
               }
-            ]
+            ],
+            "id": "p-911048fdacbf75f9"
           },
           {
             "type": "paragraph",
@@ -98,7 +100,8 @@
                 "type": "text",
                 "text": "Spheroids for different routes are differentiated by the numbers marked on their cabin exterior. When multiple Spheroids depart at the same time, they will look like billiard balls being launched into deep space one after another, forming an amusing scene."
               }
-            ]
+            ],
+            "id": "p-235b4da7f410e184"
           },
           {
             "type": "paragraph",
@@ -114,7 +117,8 @@
                 "type": "text",
                 "text": "\"It's one of the top 10 must-try experiences in Penacony!\""
               }
-            ]
+            ],
+            "id": "p-061e49a4722140f4"
           },
           {
             "type": "paragraph",
@@ -161,7 +165,8 @@
                 "type": "text",
                 "text": "The car-sharing service of Utopon is now available. You are free to use any Utopons parked along the streets at any time."
               }
-            ]
+            ],
+            "id": "p-05bdb93fea257ab0"
           },
           {
             "type": "paragraph",
@@ -177,7 +182,8 @@
                 "type": "text",
                 "text": "\"It's an automated vehicle! Anyone can try it even without a driver's license!\""
               }
-            ]
+            ],
+            "id": "p-6025cf5c11c9fd74"
           },
           {
             "type": "paragraph",
@@ -224,7 +230,8 @@
                 "type": "text",
                 "text": "If you are interested, you can also purchase a vehicle at Penacony Car Dealer, where you can find brands known across the universe such as Pershing, Patton, and Steinway Falcon... There's nothing you can't buy here."
               }
-            ]
+            ],
+            "id": "p-2e811ec5ff0fdc5b"
           },
           {
             "type": "paragraph",
@@ -240,7 +247,8 @@
                 "type": "text",
                 "text": "\"A four-wheeled vehicle surely beats a vehicle with only one.\""
               }
-            ]
+            ],
+            "id": "p-4b86a72180504203"
           },
           {
             "type": "paragraph",
@@ -280,7 +288,8 @@
                 "type": "text",
                 "text": "There are special ATMs that spew out banknotes, mysterious and elusive underground bars, and tiny creatures lurking everywhere... Why not strike up a conversation with concerned pedestrians? There are secrets everywhere in Penacony waiting to be discovered."
               }
-            ]
+            ],
+            "id": "p-5bd48bca06e27978"
           },
           {
             "type": "paragraph",
@@ -296,7 +305,8 @@
                 "type": "text",
                 "text": "\"Be careful when you are walking along the alleys in Penacony... Some thrill-seeking Dreamchasers like to play at being gangsters there. Don't get caught by them!\""
               }
-            ]
+            ],
+            "id": "p-9235541641ccc08d"
           },
           {
             "type": "paragraph",
@@ -310,7 +320,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-108174a08d5a1889"
           }
         ]
       }

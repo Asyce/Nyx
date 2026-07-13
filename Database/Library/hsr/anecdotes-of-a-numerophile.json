@@ -4,10 +4,11 @@
   "id": "anecdotes-of-a-numerophile",
   "name": "Anecdotes of a Numerophile",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Anecdotes_of_a_Numerophile",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-4a726b5c8121107d"
           },
           {
             "type": "paragraph",
@@ -54,7 +56,8 @@
                 "type": "text",
                 "text": "Generally, while Order Numerophiles' faith is questionable, they are excellent law-abiding citizens by Okhema standards. Should the readers encounter outlanders with such predilections, do not fret, as life in the holy city will guide them to eventually abandon their narrow views of the Titans, an unfortunate result of assessing the Titans with only one academic subject, and return to the right path."
               }
-            ]
+            ],
+            "id": "p-c5b94ef0d934ca32"
           },
           {
             "type": "paragraph",
@@ -84,7 +87,8 @@
                 "type": "text",
                 "text": "Please be reminded: As proven by what happened to other city-states, the Chaotic Numerophiles are often instigators of worsening black tide. They do not revere any of the Titans that actually exist in the world, but absurdly believe in a non-existent so-called \"Thirteenth Titan.\" This arrogance and distortion that diverges from reality is precisely one of the major reasons for the constant strife in the real world. To all the good people of Okhema, let this serve as a solemn warning: Do not stray from the teachings of Kephale, and under no circumstances should you dare to defy the power of the Titans."
               }
-            ]
+            ],
+            "id": "p-cdb33b863b96f386"
           }
         ]
       }

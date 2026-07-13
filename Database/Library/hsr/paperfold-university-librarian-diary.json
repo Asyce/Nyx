@@ -4,10 +4,11 @@
   "id": "paperfold-university-librarian-diary",
   "name": "Paperfold University Librarian Diary",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Paperfold_University_Librarian_Diary",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -60,7 +61,8 @@
                 "type": "text",
                 "text": "Dust the art student pretending to be a plaster statue — √"
               }
-            ]
+            ],
+            "id": "p-8d2b7c3d76103c14"
           },
           {
             "type": "paragraph",
@@ -119,7 +121,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-7e2f81b5ecc50d49"
           },
           {
             "type": "paragraph",
@@ -147,7 +150,8 @@
                 "type": "text",
                 "text": "\"Boiled millet with berries\" — a staple dish for the Zatzka"
               }
-            ]
+            ],
+            "id": "p-cfd9eb7589d61bd7"
           },
           {
             "type": "paragraph",
@@ -189,7 +193,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-65250d530d4b0e6b"
           },
           {
             "type": "paragraph",
@@ -227,7 +232,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-73442f02e064eb26"
           },
           {
             "type": "paragraph",
@@ -253,7 +259,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-3c6337601b3e857e"
           },
           {
             "type": "paragraph",
@@ -279,7 +286,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-67c591c176223fdf"
           },
           {
             "type": "paragraph",
@@ -317,7 +325,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-d0fd4fda073149bc"
           },
           {
             "type": "paragraph",
@@ -331,7 +340,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ec4d6da09a969733"
           },
           {
             "type": "paragraph",
@@ -357,7 +367,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-747d60fd9ddb80c3"
           },
           {
             "type": "paragraph",
@@ -383,7 +394,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-3a730ec3ee0ffeda"
           },
           {
             "type": "paragraph",
@@ -416,7 +428,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-f2eac7432288c4a7"
           },
           {
             "type": "paragraph",
@@ -425,7 +438,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -475,7 +489,8 @@
                 "type": "text",
                 "text": "Finish Dreamweaver class homework — &times; (I'm exhausted. That can be tomorrow's problem)"
               }
-            ]
+            ],
+            "id": "p-5f8ca41c02467dc1"
           },
           {
             "type": "paragraph",
@@ -527,7 +542,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-1412cd659d6f7b8f"
           },
           {
             "type": "paragraph",
@@ -567,7 +583,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-b78b646d413b74c7"
           },
           {
             "type": "paragraph",
@@ -606,7 +623,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-627704c8e628d086"
           },
           {
             "type": "paragraph",
@@ -620,7 +638,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-2c1a1774365b06a2"
           },
           {
             "type": "paragraph",
@@ -646,7 +665,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-2101cda11a759dbf"
           },
           {
             "type": "paragraph",
@@ -660,7 +680,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-1109d457caf61e5c"
           },
           {
             "type": "paragraph",
@@ -698,7 +719,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-989139cd68fd0811"
           },
           {
             "type": "paragraph",
@@ -731,7 +753,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-8a2c7a4875ecd162"
           },
           {
             "type": "paragraph",
@@ -740,7 +763,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

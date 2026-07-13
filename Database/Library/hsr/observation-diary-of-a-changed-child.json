@@ -4,10 +4,11 @@
   "id": "observation-diary-of-a-changed-child",
   "name": "Observation Diary of a \"Changed\" Child",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Observation_Diary_of_a_%22Changed%22_Child",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-3c58faa7fcc9a535"
           },
           {
             "type": "paragraph",
@@ -47,7 +49,8 @@
                 "type": "text",
                 "text": "Today, Daddy asked me to prepare dinner for Sevy, so I brought it to the energy conversion station to feed it."
               }
-            ]
+            ],
+            "id": "p-9b96e762efb1e5a2"
           },
           {
             "type": "paragraph",
@@ -63,7 +66,8 @@
                 "type": "text",
                 "text": "Mommy brought me to Boulder Town to play, no observation diary."
               }
-            ]
+            ],
+            "id": "p-61695dff373af2d4"
           },
           {
             "type": "paragraph",
@@ -79,7 +83,8 @@
                 "type": "text",
                 "text": "Daddy took Sevy out, unable to do observation for diary."
               }
-            ]
+            ],
+            "id": "p-c13dd952861f0c42"
           },
           {
             "type": "paragraph",
@@ -116,7 +121,8 @@
                 "type": "text",
                 "text": "So yeah! Sevy is very smart!"
               }
-            ]
+            ],
+            "id": "p-5f22df593ea9103b"
           },
           {
             "type": "paragraph",
@@ -130,7 +136,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-b09061cf341566a7"
           },
           {
             "type": "paragraph",
@@ -167,7 +174,8 @@
                 "type": "text",
                 "text": "Jimmy and I decided to play together, and both of us forgot about our . When we found them, they were hugging. I think they must have fallen in love, because Tommy and Mary are like that in class."
               }
-            ]
+            ],
+            "id": "p-46aa8318baf2f913"
           },
           {
             "type": "paragraph",
@@ -181,7 +189,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-cf5fcc219102cb3a"
           },
           {
             "type": "paragraph",
@@ -197,7 +206,8 @@
                 "type": "text",
                 "text": "I got sick and slept all day, so I didn't do any observation."
               }
-            ]
+            ],
+            "id": "p-84110fe34be0c066"
           },
           {
             "type": "paragraph",
@@ -213,7 +223,8 @@
                 "type": "text",
                 "text": "I got sick and slept all day again, so I didn't do any observation."
               }
-            ]
+            ],
+            "id": "p-91a61ec396aa63aa"
           },
           {
             "type": "paragraph",
@@ -227,7 +238,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-c5ba551526aba35a"
           },
           {
             "type": "paragraph",
@@ -257,7 +269,8 @@
                 "type": "text",
                 "text": "Heh, I am darkness incarnate, and I will bury this foul observation diary, bury my past... Heheh..."
               }
-            ]
+            ],
+            "id": "p-1342a0fb1025f613"
           },
           {
             "type": "paragraph",
@@ -271,7 +284,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-47600f962ab5ed2a"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "fashion-brand-suburbia",
   "name": "Fashion Brand \"Suburbia\"",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Fashion_Brand_%22Suburbia%22",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Magnify Your Uniqueness: Suburbia"
               }
-            ]
+            ],
+            "id": "p-9c89dfcb7f98c374"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Richard and Dyanna, formerly the lead designers of fashion houses \"In the Stars\" and \"Industrial Threadwork,\" founded the brand \"Suburbia\" in Fortification Year 694."
               }
-            ]
+            ],
+            "id": "p-ca5c78c780daaa23"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "\"Suburbia\" embodies the meaning of being outside the system. This poetic name represents the two designers' understanding of Belobog's life and working style. \"Belobog is a place overloaded with orders. In this city, no matter who you are, if you express your thoughts, dress the way you like, or lead a life with individuality, you will be deemed a 'dissenter' by everyone. We sensed this conflict and wanted to use our design to fix it.\""
               }
-            ]
+            ],
+            "id": "p-7a4f5004ab25af0c"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "Suburbia has been focused on creating unique outfits that also suit the taste of the young people: Whether it be an eye-catching leather jacket, colorful synthetic leather, phenomenal vest sets, goth long coat, or the famous Belobog-wide modified military uniform... Though all these styles incorporate the current mainstream street fashion, it still has a lot of original Suburbian elements in it."
               }
-            ]
+            ],
+            "id": "p-e32242cb3f33dc89"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "Though it's a very young brand, Suburbia confidently uses the core element of traditional culture. Other than that. we've also seen the two designers' greater ambitions:"
               }
-            ]
+            ],
+            "id": "p-866f154cf1427a5f"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "\"We're trying to create a space-time relationship with this world. Not only should we have Belobog's present, we must also contain everything in Belobog's past. To be honest. we prefer the period in history when the Eternal Freeze has not yet occurred. The world was separated into different regions, each with its own style. \"Suburbia\" doesn't exist just for Belobog, but also for the areas buried in wind and snow,\" explained Richard and Dyanna."
               }
-            ]
+            ],
+            "id": "p-3ba9b912fd1a2f28"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "Recently, this young brand cooperated with the Edelweiss Workshop for the first time, and began a collab fashion line including leather boots, outfits, and accessories. The two brands used the blue color of Belobog as the design base, together with retro patterns found in Belobog's picture books and in combination with fashionable styles preferred by the modern youth, such street punk and industrial."
               }
-            ]
+            ],
+            "id": "p-7c8f6bb609d826e1"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "Edelweiss Workshop has also brought back both classical and new-age fashion concepts to young people."
               }
-            ]
+            ],
+            "id": "p-c4a33d6233037cfe"
           }
         ]
       }

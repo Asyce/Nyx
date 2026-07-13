@@ -4,10 +4,11 @@
   "id": "nickodeum-cinemas-special-feature-night-of-fright",
   "name": "Nickodeum Cinemas Special Feature: Night of Fright",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Nickodeum_Cinemas_Special_Feature:_Night_of_Fright",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -26,7 +27,8 @@
                 "type": "text",
                 "text": "A special Penacony \"Night of Fright\"-themed cinema extravaganza"
               }
-            ]
+            ],
+            "id": "p-ee0d14fbae2c6435"
           },
           {
             "type": "paragraph",
@@ -78,7 +80,8 @@
                 "type": "text",
                 "text": "* Please enjoy your viewing experience."
               }
-            ]
+            ],
+            "id": "p-2217ac4ddc417488"
           },
           {
             "type": "paragraph",
@@ -92,7 +95,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-3c732ffc7169b011"
           },
           {
             "type": "paragraph",
@@ -136,7 +140,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-d5355743e9ac19be"
           },
           {
             "type": "paragraph",
@@ -180,7 +185,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-5617f738fbb471df"
           },
           {
             "type": "paragraph",
@@ -224,7 +230,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-267b8e459f150839"
           },
           {
             "type": "paragraph",
@@ -268,7 +275,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-caba0b4fd0289b9a"
           },
           {
             "type": "paragraph",
@@ -312,7 +320,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-9376f265c5fdd0c8"
           },
           {
             "type": "paragraph",
@@ -356,7 +365,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-873fb9f26058bde3"
           },
           {
             "type": "paragraph",
@@ -377,7 +387,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-062d96f72a1f0fe8"
           }
         ]
       }

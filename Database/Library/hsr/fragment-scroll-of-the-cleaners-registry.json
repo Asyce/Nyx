@@ -4,10 +4,11 @@
   "id": "fragment-scroll-of-the-cleaners-registry",
   "name": "Fragment Scroll of the Cleaners' Registry",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Fragment_Scroll_of_the_Cleaners%27_Registry",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ed1c7f8c7f854cb1"
           },
           {
             "type": "paragraph",
@@ -68,7 +70,8 @@
                 "type": "text",
                 "text": "Essence has been extracted, awaiting a suitable successor."
               }
-            ]
+            ],
+            "id": "p-60839331d4a7c4f7"
           },
           {
             "type": "paragraph",
@@ -102,7 +105,8 @@
                 "type": "text",
                 "text": "When receiving the ambrosia, tapping the cup wall three times signals for intelligence to be discreetly attached to the bottom of the plate with the next serving."
               }
-            ]
+            ],
+            "id": "p-b140695248aa08cd"
           },
           {
             "type": "paragraph",
@@ -111,7 +115,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -125,7 +130,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-6fcb58bf452c9eeb"
           },
           {
             "type": "paragraph",
@@ -169,7 +175,8 @@
                 "type": "text",
                 "text": "Essence has been extracted, awaiting a suitable successor."
               }
-            ]
+            ],
+            "id": "p-34aee9636e4be81d"
           },
           {
             "type": "paragraph",
@@ -228,7 +235,8 @@
                 "type": "text",
                 "text": "Essence has been extracted, but is temporarily sealed. Successor selection is postponed."
               }
-            ]
+            ],
+            "id": "p-ee566c1d24037815"
           },
           {
             "type": "paragraph",
@@ -237,7 +245,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

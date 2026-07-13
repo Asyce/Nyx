@@ -4,17 +4,19 @@
   "id": "request-for-provisions",
   "name": "Request for Provisions",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Request_for_Provisions",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -23,7 +25,8 @@
                 "type": "text",
                 "text": "This week's collection of supplies requests has begun. Please fill out the application form on a separate sheet of paper for workers in need, stating the required supplies, and put them in the request collection box. Please follow the following format while filling out the form:"
               }
-            ]
+            ],
+            "id": "p-7e0aae8615b533d5"
           },
           {
             "type": "paragraph",
@@ -53,7 +56,8 @@
                 "type": "text",
                 "text": "Application Comment: (for mining administration team use only)"
               }
-            ]
+            ],
+            "id": "p-3cfc7dff53c01bf6"
           },
           {
             "type": "paragraph",
@@ -62,7 +66,8 @@
                 "type": "text",
                 "text": "The mining administration team will collect and review the application forms from all workers on the upcoming Friday, review the applications, and then repost them here. Please check this notice on the following Monday to see if your application has been approved. If the application is approved, the relevant provisions will be delivered to the mining administrative office within five working days. You will be required to present your work ID card to collect the provisions."
               }
-            ]
+            ],
+            "id": "p-b5957b96192ea56c"
           },
           {
             "type": "paragraph",
@@ -76,7 +81,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-29490a012bc72e7d"
           },
           {
             "type": "paragraph",
@@ -113,7 +119,8 @@
                 "type": "text",
                 "text": "Application Comment: Approved"
               }
-            ]
+            ],
+            "id": "p-42809071862aa255"
           },
           {
             "type": "paragraph",
@@ -150,7 +157,8 @@
                 "type": "text",
                 "text": "Application Comment: Approved. Dude looks like a bruiser, but he's pretty conscious about his looks."
               }
-            ]
+            ],
+            "id": "p-5941688446f69e76"
           },
           {
             "type": "paragraph",
@@ -187,7 +195,8 @@
                 "type": "text",
                 "text": "Application Comment: Rejected. Supplies from the top this month don't even have any milk, where would we even find some for you? And you're specifying the brand? Should we get you a cow instead?"
               }
-            ]
+            ],
+            "id": "p-0fa70e95163c28ff"
           },
           {
             "type": "paragraph",
@@ -224,7 +233,8 @@
                 "type": "text",
                 "text": "Application Comment: Rejected. Is rock salt and water hard enough for you?"
               }
-            ]
+            ],
+            "id": "p-a8596a83b20d795c"
           },
           {
             "type": "paragraph",
@@ -261,7 +271,8 @@
                 "type": "text",
                 "text": "Application Comment: Approved."
               }
-            ]
+            ],
+            "id": "p-f0b038caf5cca1b0"
           },
           {
             "type": "paragraph",
@@ -298,7 +309,8 @@
                 "type": "text",
                 "text": "Application Comment: Approved. Maybe try something else for a change, I haven't seen you eating anything else other than those sausages."
               }
-            ]
+            ],
+            "id": "p-255a8342fd31e540"
           },
           {
             "type": "paragraph",
@@ -335,7 +347,8 @@
                 "type": "text",
                 "text": "Application Comment: Rejected. We have some for the team, just claim it from your supervisor."
               }
-            ]
+            ],
+            "id": "p-00ba72e941b73711"
           },
           {
             "type": "paragraph",
@@ -372,7 +385,8 @@
                 "type": "text",
                 "text": "Application Comment: Rejected. Read your Code of Conduct again, it says these kinds of stuff is prohibited in the mining area. Do you think our blasting operations are insufficient?"
               }
-            ]
+            ],
+            "id": "p-0cd8a1538604c1e2"
           }
         ]
       }

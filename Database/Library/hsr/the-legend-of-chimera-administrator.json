@@ -4,10 +4,11 @@
   "id": "the-legend-of-chimera-administrator",
   "name": "The Legend of Chimera Administrator",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/The_Legend_of_Chimera_Administrator",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -26,7 +27,8 @@
                 "type": "text",
                 "text": "As everyone knows, the post of chimera administrator is held by the most talented and intelligent people that Okhema has to offer. Their true identities are always a point of interest for the citizens of Okhema. Hehe, I happened upon a few big scoops lately. I will share them here for your consideration."
               }
-            ]
+            ],
+            "id": "p-1770c6889d569625"
           },
           {
             "type": "paragraph",
@@ -55,7 +57,8 @@
                 "type": "text",
                 "text": "Unfortunately, their administrator is an extremely mysterious and secretive person. Even those in the know like me struggle to get their hands on that information!"
               }
-            ]
+            ],
+            "id": "p-cebdbd999c947baf"
           },
           {
             "type": "paragraph",
@@ -64,7 +67,8 @@
                 "type": "text",
                 "text": "Ahem. That being said, my intel on the other administrators is one hundred per cent legit, and I'm going to spill the tea for you all right here —"
               }
-            ]
+            ],
+            "id": "p-5f704389e9440a35"
           },
           {
             "type": "paragraph",
@@ -96,7 +100,8 @@
                 "type": "text",
                 "text": "Protecting the city and being a chimera administrator, these two roles seem completely unrelated — and they are. Can a Mountain Dweller guard who is renowned for being short of words take on the crucial role of commanding chimeras? We'll be watching eagerly!"
               }
-            ]
+            ],
+            "id": "p-90850fae3866abd5"
           },
           {
             "type": "paragraph",
@@ -121,7 +126,8 @@
                 "type": "text",
                 "text": "The merchants of Marmoreal Market also aspire to become chimera administrators! I wonder if these stall salesmen who excel in attracting customers and making small talk have what it takes to coexist with the chimeras and handle the role of administrator? Hmm."
               }
-            ]
+            ],
+            "id": "p-138444f2f6f2edbe"
           },
           {
             "type": "paragraph",
@@ -153,7 +159,8 @@
                 "type": "text",
                 "text": "If you ask me... It's the stern parents of such children who stand as the greatest obstacle to them becoming legendary administrators."
               }
-            ]
+            ],
+            "id": "p-86fd22dfce9642d9"
           },
           {
             "type": "paragraph",
@@ -178,7 +185,8 @@
                 "type": "text",
                 "text": "There's not much to say about this one. The Garden of Life has always had close relations with the Grove, which worships Cerces. It just makes sense that priests would get involved."
               }
-            ]
+            ],
+            "id": "p-71013b884da2701a"
           },
           {
             "type": "paragraph",
@@ -203,7 +211,8 @@
                 "type": "text",
                 "text": "I'll leave you on a little cliffhanger here... There's no way you'd ever guess who this mysterious big shot is! Or, perhaps I should say... \"little shot\"?"
               }
-            ]
+            ],
+            "id": "p-596ea53b204e8e1e"
           },
           {
             "type": "paragraph",
@@ -235,7 +244,8 @@
                 "type": "text",
                 "text": "My only hope is that they will not train the chimeras to become warriors like them..."
               }
-            ]
+            ],
+            "id": "p-cee1744d4f711863"
           },
           {
             "type": "paragraph",
@@ -260,7 +270,8 @@
                 "type": "text",
                 "text": "If you can raise dromases, naturally you will excel at chimera administration! The only question is: Isn't there a considerable difference in intelligence between dromases and chimeras?"
               }
-            ]
+            ],
+            "id": "p-471acf423cea6d1c"
           },
           {
             "type": "paragraph",
@@ -285,7 +296,8 @@
                 "type": "text",
                 "text": "... Another strange squad name. From the information I have received, this is a male administrator who spends their time at Marmoreal Palace year-round. His appearance is unremarkable to the point of being almost lazy and sloppy. However, heroes never look as you expect them to, do they? Who knows, maybe his unassuming frame conceals the strength required to shake the entire industry!? I've got my eyes on him."
               }
-            ]
+            ],
+            "id": "p-ea0d6c7418c34c0c"
           }
         ]
       }

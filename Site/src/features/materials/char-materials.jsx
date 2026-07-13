@@ -487,7 +487,7 @@ function cmFrameQuantitySize(text){
   return Math.min(35, Math.floor(194 / (0.64 * digits + 0.30 * dots))) + 'px';
 }
 
-function CMItemFrame({ icon, sprite, glyph, rarity, quantity, className }){
+function CMItemFrame({ icon, sprite, glyph, rarity, quantity, className, bandless }){
   const r = cmItemFrameRarity(rarity, 4);
   const qty = cmFrameQuantityText(quantity);
   const style = {
@@ -497,7 +497,7 @@ function CMItemFrame({ icon, sprite, glyph, rarity, quantity, className }){
   /* DOM order mirrors the design template exactly — art, plate, seam glows,
      band (z2), rim strokes, eye emblem — so the paint order matches 1:1. */
   return (
-    <span className={'cm-item-frame' + (qty ? ' has-qty' : '') + (className ? ' ' + className : '')} style={style} aria-hidden={!icon && !glyph}>
+    <span className={'cm-item-frame' + (qty ? ' has-qty' : '') + (bandless ? ' bandless' : '') + (className ? ' ' + className : '')} style={style} aria-hidden={!icon && !glyph}>
       <span className="cm-item-frame-canvas">
         <span className="cm-item-frame-art">
           <span className="cm-item-frame-fill">
@@ -508,20 +508,24 @@ function CMItemFrame({ icon, sprite, glyph, rarity, quantity, className }){
             {sprite ? <ZzzSpriteIcon icon={icon} sprite={sprite} alt="" /> : icon ? <img src={icon} alt="" draggable="false" /> : <span className="glyph cm-missing" title="Missing item">?</span>}
           </span>
         </span>
-        <span className="cm-item-frame-plate" aria-hidden="true"></span>
-        <span className="cm-item-frame-seam" aria-hidden="true">
-          <span></span><i></i>
-        </span>
-        <span className="cm-item-frame-band">{qty && <b>{qty}</b>}</span>
-        <svg className="cm-item-frame-rim" viewBox="0 0 208 260" aria-hidden="true">
-          <path d="M14,1 L194,1 A13,13 0 0 1 207,14 L207,259 L1,259 L1,14 A13,13 0 0 1 14,1 Z" fill="none" stroke="var(--cmf-line)" strokeWidth="2"></path>
-          <path d="M14,4 L194,4 A10,10 0 0 1 204,14 L204,208 M4,208 L4,14 A10,10 0 0 1 14,4" fill="none" stroke="var(--cmf-line)" strokeWidth="0.75" strokeOpacity="0.55"></path>
-          <path d="M1,208 L207,208" fill="none" stroke="var(--cmf-line)" strokeWidth="1.5"></path>
-        </svg>
-        <span className="cm-item-frame-emblem" aria-hidden="true">
-          <span className="fill"></span>
-          <span className="line"></span>
-        </span>
+        {bandless ? (
+          <svg className="cm-item-frame-rim" viewBox="0 0 208 208" aria-hidden="true">
+            <rect x="1" y="1" width="206" height="206" rx="13" fill="none" stroke="var(--cmf-line)" strokeWidth="2"></rect>
+            <rect x="4" y="4" width="200" height="200" rx="10" fill="none" stroke="var(--cmf-line)" strokeWidth="0.75" strokeOpacity="0.55"></rect>
+          </svg>
+        ) : (
+          <React.Fragment>
+            <span className="cm-item-frame-plate" aria-hidden="true"></span>
+            <span className="cm-item-frame-seam" aria-hidden="true"><span></span><i></i></span>
+            <span className="cm-item-frame-band">{qty && <b>{qty}</b>}</span>
+            <svg className="cm-item-frame-rim" viewBox="0 0 208 260" aria-hidden="true">
+              <path d="M14,1 L194,1 A13,13 0 0 1 207,14 L207,259 L1,259 L1,14 A13,13 0 0 1 14,1 Z" fill="none" stroke="var(--cmf-line)" strokeWidth="2"></path>
+              <path d="M14,4 L194,4 A10,10 0 0 1 204,14 L204,208 M4,208 L4,14 A10,10 0 0 1 14,4" fill="none" stroke="var(--cmf-line)" strokeWidth="0.75" strokeOpacity="0.55"></path>
+              <path d="M1,208 L207,208" fill="none" stroke="var(--cmf-line)" strokeWidth="1.5"></path>
+            </svg>
+            <span className="cm-item-frame-emblem" aria-hidden="true"><span className="fill"></span><span className="line"></span></span>
+          </React.Fragment>
+        )}
       </span>
     </span>
   );
@@ -953,11 +957,11 @@ function CMNumberInput({ value, min = 1, max = 99, onCommit, ariaLabel, title, c
   );
 }
 
-function CMToken({ name, glyph, icon, sprite, rarity, meta }){
+function CMToken({ name, glyph, icon, sprite, rarity, meta, bandless }){
   const quantity = /^\s*\d[\d.,]*\s*$/.test(String(meta || '')) ? meta : null;
   return (
     <div className="cm-mtoken">
-      <CMItemFrame icon={icon} sprite={sprite} glyph={glyph} rarity={rarity} quantity={quantity} />
+      <CMItemFrame icon={icon} sprite={sprite} glyph={glyph} rarity={rarity} quantity={quantity} bandless={bandless} />
       <span className="lbl">{name}</span>
       {meta && !quantity && <span className="mt">{meta}</span>}
     </div>
@@ -1058,21 +1062,21 @@ function cmSaveHiddenPrefs(next){
 
 function cmFilterGlyph(gameKey, filterKey, label, value){
   const text = String(label || value || '').trim();
-  const elem = CM_ELEM[text] || CM_ELEM[value] || null;
-  if (filterKey === 'el') {
-    return <span className="cm-fi elem" style={{ '--fi':elem || '#b7aaff' }}>{text.slice(0, 1)}</span>;
-  }
   if (filterKey === 'r') {
     return <span className="cm-fi rare">{/^(s|6|5)/i.test(text) ? '\u2726' : '\u2727'}</span>;
   }
-  const short = {
-    Sword:'Sw', Claymore:'Cl', Polearm:'Po', Bow:'Bw', Catalyst:'Ca',
-    Broadblade:'Bb', Pistols:'Pi', Gauntlets:'Ga', Rectifier:'Re',
-    Attack:'At', Stun:'St', Anomaly:'An', Support:'Su', Defense:'De', Defence:'De', Rupture:'Ru',
-    Destruction:'De', Hunt:'Hu', Erudition:'Er', Preservation:'Pr', Nihility:'Ni', Harmony:'Ha', Abundance:'Ab', Remembrance:'Re', Elation:'El',
-    Striker:'St', Guard:'Gu', Defender:'De', Caster:'Ca', Vanguard:'Va', Specialist:'Sp',
-  }[text] || text.slice(0, 2);
-  return <span className="cm-fi sym">{short}</span>;
+  const src = cmMetaIconSrc(gameKey, filterKey, value || text);
+  const fallback = cmSvgIcon(cmMetaIconType(filterKey, value || text));
+  if (!src) return <span className="cm-fi sym fallback" title="Official icon unavailable">{fallback}</span>;
+  return (
+    <span className="cm-fi real">
+      <img src={src} alt="" draggable="false" onError={(event) => {
+        event.currentTarget.hidden = true;
+        if (event.currentTarget.nextElementSibling) event.currentTarget.nextElementSibling.hidden = false;
+      }} />
+      <span hidden>{fallback}</span>
+    </span>
+  );
 }
 
 function cmMetaKey(value){
@@ -2288,7 +2292,7 @@ function cmMergeBetaCfg(liveCfg, betaPack){
   return { ...liveCfg, roster, weapons, __betaActive:true };
 }
 
-function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom, modalOnly, pageTab, onPageTab, sections, customizeOnly, onCustomizeCharacter, onBackCustomize, onSelectedClose, onSelectCharacter }){
+function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom, modalOnly, pageTab, onPageTab, sections, pinnedFavourites, customizeOnly, onCustomizeCharacter, onBackCustomize, onSelectedClose, onSelectCharacter }){
   const [gk, setGk] = React.useState(game || 'gi');
   const [channel, setChannel] = React.useState(() => cmLoadChannel(game || 'gi'));
   const [dataTick, setDataTick] = React.useState(0);
@@ -2907,13 +2911,16 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
         <div className="cm-controls">
           <div className="cm-tabs">
             {tabs.map(t => (
-              <button type="button" key={t.k} className={curTab === t.k ? 'on' : ''} onClick={() => { setTab(t.k); setSel(null); if (onSelectedClose) onSelectedClose(); }}>{t.label}</button>
+              <button type="button" key={t.k} className={curTab === t.k ? 'on' : ''} onClick={() => { setTab(t.k); setSel(null); if (onSelectedClose) onSelectedClose(); }}>
+                <span className="cm-tab-orbit" aria-hidden="true"><i></i></span>
+                <span>{t.label}</span>
+              </button>
             ))}
           </div>
           <div className="cm-tools">
             <div className="cm-search">
               <span className="ic"></span>
-              <input ref={searchInputRef} value={q} placeholder="Search Characters" spellCheck="false" onChange={(e) => setQ(e.target.value)} />
+              <input ref={searchInputRef} value={q} placeholder="Search" aria-label="Search characters" spellCheck="false" onChange={(e) => setQ(e.target.value)} />
               {q !== '' && <button type="button" className="x" onClick={() => setQ('')}>{'\u2715'}</button>}
             </div>
             <div className="cm-tbtns">
@@ -2976,6 +2983,8 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
           </div>
         </div>
 
+        {pinnedFavourites && <div className="cm-pinned-slot">{pinnedFavourites}</div>}
+
         {/* day selector (Genshin Talents only) */}
         {curTab === 'mid' && cfg.midMode === 'days' && (
           <div className="cm-days">
@@ -3031,6 +3040,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                               glyph={'\u25A4'}
                               icon={row.trio.material?.icon}
                               rarity={row.trio.material?.rar}
+                              bandless
                             />
                           </div>
                           <div className="cm-grid">{row.chars.map((c, i) => renderCell('talent-' + row.key, c, i))}</div>
@@ -3048,7 +3058,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                     <div className="cm-mgroup" key={gi}>
                       <div className="cm-mgroup-hd"><span className="t">{g.region}</span></div>
                       <div className={'cm-mrow' + (cmBlockArtStyle(chars) ? ' has-bg' : '')} style={cmBlockArtStyle(chars)}>
-                        <CMToken name={g.region} color="#e3b269" glyph={'\u25A4'} />
+                        <CMToken name={g.region} color="#e3b269" glyph={'\u25A4'} bandless />
                         <div className="cm-grid">{chars.map((c, i) => renderCell('day-' + gi, c, i))}</div>
                       </div>
                     </div>
@@ -3066,7 +3076,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                     <div className={'cm-mrow' + (cmBlockArtStyle(chars) ? ' has-bg' : '')} style={cmBlockArtStyle(chars)}>
                       <div className="cm-mtokens">
                         {mats.map((m, mi) => (
-                          <CMToken key={mi} name={m.n} color={tokenColor(g.region)} glyph={CM_GLYPHS[(gi + mi) % CM_GLYPHS.length]} icon={m.icon} sprite={m.sprite} rarity={m.rar} />
+                          <CMToken key={mi} name={m.n} color={tokenColor(g.region)} glyph={CM_GLYPHS[(gi + mi) % CM_GLYPHS.length]} icon={m.icon} sprite={m.sprite} rarity={m.rar} bandless />
                         ))}
                       </div>
                       <div className="cm-grid">{chars.map((c, i) => renderCell('mid-' + gi, c, i))}</div>
@@ -3090,7 +3100,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                       {block.drops.map((row) => (
                         <div className="cm-brow cm-weekly-row" key={row.key}>
                           <div className="cm-bmats">
-                            <CMToken name={row.drop.name} color="#e3b269" glyph={'\u2726'} icon={row.drop.icon} sprite={row.drop.sprite} rarity={row.drop.rar} />
+                            <CMToken name={row.drop.name} color="#e3b269" glyph={'\u2726'} icon={row.drop.icon} sprite={row.drop.sprite} rarity={row.drop.rar} bandless />
                           </div>
                           <div className="cm-grid">{row.chars.map((c, i) => renderCell('weekly-' + row.key, c, i))}</div>
                         </div>
@@ -3111,7 +3121,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                     <div className="cm-bgroup-hd">{title}</div>
                     <div className="cm-brow">
                       <div className="cm-bmats">
-                        {mats.map((m, mi) => <CMToken key={mi} name={m.n} color="#e3b269" glyph={CM_GLYPHS[(gi + mi) % CM_GLYPHS.length]} icon={m.icon} sprite={m.sprite} rarity={m.rar} />)}
+                        {mats.map((m, mi) => <CMToken key={mi} name={m.n} color="#e3b269" glyph={CM_GLYPHS[(gi + mi) % CM_GLYPHS.length]} icon={m.icon} sprite={m.sprite} rarity={m.rar} bandless />)}
                       </div>
                       <div className="cm-grid">{chars.map((c, i) => renderCell('boss-' + gi, c, i))}</div>
                     </div>
@@ -3140,7 +3150,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
               {inline && (
                 <div className="cm-detail-nav">
                   <button type="button" className="cm-detail-back" onClick={closePop}>
-                    <span>{'\u2039'}</span><b>Back to Characters</b>
+                    <span>{'\u2039'}</span><b>{selectedFrom === 'calendar' ? 'Back to Calendar' : 'Back to Characters'}</b>
                   </button>
                 </div>
               )}

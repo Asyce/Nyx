@@ -4,10 +4,11 @@
   "id": "letter-from-mifamem",
   "name": "Letter from Mifamem",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Letter_from_Mifamem",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "about-repairing",
       "label": "About Repairing",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "To my dear friend Snowy:"
               }
-            ]
+            ],
+            "id": "p-c3ec245c5dbb22ab"
           },
           {
             "type": "paragraph",
@@ -48,7 +50,8 @@
                 "type": "text",
                 "text": "I never believed him. It was really you, wasn't it?"
               }
-            ]
+            ],
+            "id": "p-ca53212dc8f91d94"
           },
           {
             "type": "paragraph",
@@ -97,7 +100,8 @@
                 "type": "text",
                 "text": "The berries are long gone, but it still carries that sweet, tangy scent.)"
               }
-            ]
+            ],
+            "id": "p-99d443c5ef74cd94"
           },
           {
             "type": "paragraph",
@@ -126,7 +130,8 @@
                 "type": "text",
                 "text": "How exactly did you do it? I'd like to fix it myself, but I simply can't remember how."
               }
-            ]
+            ],
+            "id": "p-5234697bc9f8d0aa"
           },
           {
             "type": "paragraph",
@@ -145,13 +150,15 @@
                 "type": "text",
                 "text": "Mifamem"
               }
-            ]
+            ],
+            "id": "p-11aa866e7e5f0b7f"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "about-cleaning",
       "label": "About Cleaning",
       "document": {
         "version": 1,
@@ -163,7 +170,8 @@
                 "type": "text",
                 "text": "To my dear friend :"
               }
-            ]
+            ],
+            "id": "p-3e0595378d5d621a"
           },
           {
             "type": "paragraph",
@@ -192,7 +200,8 @@
                 "type": "text",
                 "text": "Do you still remember our promise to explore the outside world together?"
               }
-            ]
+            ],
+            "id": "p-c363e61d72cae513"
           },
           {
             "type": "paragraph",
@@ -211,7 +220,8 @@
                 "type": "text",
                 "text": "You're so terribly late that I'm really starting to get upset, mem!"
               }
-            ]
+            ],
+            "id": "p-040104ed38591bce"
           },
           {
             "type": "paragraph",
@@ -230,7 +240,8 @@
                 "type": "text",
                 "text": "I'll read them as bedtime stories and fall asleep with your letters beneath my pillow."
               }
-            ]
+            ],
+            "id": "p-f72aeac9b451f183"
           },
           {
             "type": "paragraph",
@@ -249,7 +260,8 @@
                 "type": "text",
                 "text": "Mifamem"
               }
-            ]
+            ],
+            "id": "p-11aa866e7e5f0b7f"
           },
           {
             "type": "paragraph",
@@ -258,13 +270,15 @@
                 "type": "text",
                 "text": "P.S. Snowy, the Chief borrowed your \"Wondrous Cleaning Gadget\" and completely wore it out. I've tried everything to fix it, but nothing works. Now the dust on my cabinet is thick as a snowdrift and flies everywhere at the slightest touch. What should I do, my dear friend?"
               }
-            ]
+            ],
+            "id": "p-113d449d0f7ad3d5"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "about-cooking",
       "label": "About Cooking",
       "document": {
         "version": 1,
@@ -276,7 +290,8 @@
                 "type": "text",
                 "text": "To my dear friend Snowy:"
               }
-            ]
+            ],
+            "id": "p-c3ec245c5dbb22ab"
           },
           {
             "type": "paragraph",
@@ -355,7 +370,8 @@
                 "type": "text",
                 "text": "So strange, mem.)"
               }
-            ]
+            ],
+            "id": "p-b26a3d8f5ea4f580"
           },
           {
             "type": "paragraph",
@@ -384,7 +400,8 @@
                 "type": "text",
                 "text": "Would you mind sharing that little secret with me?"
               }
-            ]
+            ],
+            "id": "p-b4299765e4af4ef1"
           },
           {
             "type": "paragraph",
@@ -413,7 +430,8 @@
                 "type": "text",
                 "text": "If you wouldn't mind, could you teach me your recipe?"
               }
-            ]
+            ],
+            "id": "p-d7419aa08bd027c8"
           },
           {
             "type": "paragraph",
@@ -432,13 +450,15 @@
                 "type": "text",
                 "text": "Mifamem"
               }
-            ]
+            ],
+            "id": "p-11aa866e7e5f0b7f"
           }
         ]
       }
     },
     {
       "id": "4",
+      "volumeKey": "about-adventure",
       "label": "About Adventure",
       "document": {
         "version": 1,
@@ -450,7 +470,8 @@
                 "type": "text",
                 "text": "To my dear friend Snowy:"
               }
-            ]
+            ],
+            "id": "p-c3ec245c5dbb22ab"
           },
           {
             "type": "paragraph",
@@ -479,7 +500,8 @@
                 "type": "text",
                 "text": "And guess what? I've finally embarked on an adventure, just like you did!"
               }
-            ]
+            ],
+            "id": "p-404ab3d247d4a1e9"
           },
           {
             "type": "paragraph",
@@ -518,7 +540,8 @@
                 "type": "text",
                 "text": "During downpours, I found shelter within cozy tree hollows."
               }
-            ]
+            ],
+            "id": "p-3a34a0742b0c2e05"
           },
           {
             "type": "paragraph",
@@ -537,7 +560,8 @@
                 "type": "text",
                 "text": "I brandished my branch and claimed victory, winning some delicious nuts as my reward!"
               }
-            ]
+            ],
+            "id": "p-f7bd27087ae00817"
           },
           {
             "type": "paragraph",
@@ -566,7 +590,8 @@
                 "type": "text",
                 "text": "I've grown quite weary of crunchy biscuits and desperately crave something warm and cozy!"
               }
-            ]
+            ],
+            "id": "p-d6d2bce8e80cf8ef"
           },
           {
             "type": "paragraph",
@@ -585,7 +610,8 @@
                 "type": "text",
                 "text": "Mifamem"
               }
-            ]
+            ],
+            "id": "p-11aa866e7e5f0b7f"
           }
         ]
       }

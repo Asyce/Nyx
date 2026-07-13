@@ -4,10 +4,11 @@
   "id": "marmoreal-palace-bath-ambrosia-imbibement-liability-waiver",
   "name": "Marmoreal Palace — Bath Ambrosia Imbibement Liability Waiver",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Marmoreal_Palace_%E2%80%94_Bath_Ambrosia_Imbibement_Liability_Waiver",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-413f425aa6643497"
           },
           {
             "type": "paragraph",
@@ -46,7 +48,8 @@
                 "type": "text",
                 "text": "in continuance of Phagousa's banquet tradition."
               }
-            ]
+            ],
+            "id": "p-4dbd112ea3abd216"
           },
           {
             "type": "paragraph",
@@ -68,7 +71,8 @@
                 "type": "text",
                 "text": "that will result in certain actions or hallucinations. We advise our guests to drink responsibly. If your intoxicated actions disrupt order in the Marmoreal Palace, you will be ejected from the bath."
               }
-            ]
+            ],
+            "id": "p-65736e5368b7c094"
           },
           {
             "type": "paragraph",
@@ -96,7 +100,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-92f3e95934b8a72a"
           }
         ]
       }

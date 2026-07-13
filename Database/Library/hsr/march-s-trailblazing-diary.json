@@ -4,10 +4,11 @@
   "id": "march-s-trailblazing-diary",
   "name": "March's Trailblazing Diary",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/March%27s_Trailblazing_Diary",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -91,7 +92,8 @@
                 "type": "text",
                 "text": "...Hang on, who am I even being polite to?"
               }
-            ]
+            ],
+            "id": "p-3ce8438602676498"
           },
           {
             "type": "paragraph",
@@ -114,7 +116,8 @@
                 "type": "text",
                 "text": "Dan Heng told me that the entire planet belongs to the Corporation now? Seriously, what won't the IPC buy?"
               }
-            ]
+            ],
+            "id": "p-dca7c22ed1757527"
           },
           {
             "type": "paragraph",
@@ -151,7 +154,8 @@
                 "type": "text",
                 "text": "And accusing us of \"smuggling\" is too much! This is obviously the magnates trying to keep the virus for themselves."
               }
-            ]
+            ],
+            "id": "p-d37d18b95dc3ee1a"
           },
           {
             "type": "paragraph",
@@ -188,7 +192,8 @@
                 "type": "text",
                 "text": "Except in this dystopia, any unauthorized \"pigeon\" gets blasted out of the sky by Enforcer auto-turrets."
               }
-            ]
+            ],
+            "id": "p-33d00be4fe8f5155"
           },
           {
             "type": "paragraph",
@@ -225,7 +230,8 @@
                 "type": "text",
                 "text": "But the important part is that we stopped a disaster, the show continued as planned, and everything worked out perfectly in the end."
               }
-            ]
+            ],
+            "id": "p-d64c8de7d82a5b98"
           },
           {
             "type": "paragraph",
@@ -234,7 +240,8 @@
                 "type": "text",
                 "text": "Well, we the Nameless saved the universe one more time."
               }
-            ]
+            ],
+            "id": "p-1bf8db9aa8604f45"
           },
           {
             "type": "paragraph",
@@ -278,7 +285,8 @@
                 "type": "text",
                 "text": "Interestingly, rain is considered a natural disaster there. The peace-loving Kalsasians pray for drought while other planets beg for rain."
               }
-            ]
+            ],
+            "id": "p-474876a9674ad058"
           },
           {
             "type": "paragraph",
@@ -315,7 +323,8 @@
                 "type": "text",
                 "text": "Those two sighs? Learned them online not long ago. Felt oddly fitting."
               }
-            ]
+            ],
+            "id": "p-b6057d8c64eb7272"
           },
           {
             "type": "paragraph",
@@ -352,7 +361,8 @@
                 "type": "text",
                 "text": "...Feels like the clay people aren't really clay people anymore."
               }
-            ]
+            ],
+            "id": "p-777ad838f673b408"
           },
           {
             "type": "paragraph",
@@ -368,7 +378,8 @@
                 "type": "text",
                 "text": "If I get the chance, I want to take (Trailblazer) to the place where we once went bungee jumping!"
               }
-            ]
+            ],
+            "id": "p-09d57dfca7eaba50"
           },
           {
             "type": "paragraph",
@@ -405,7 +416,8 @@
                 "type": "text",
                 "text": "There's really no point clinging to something like that!"
               }
-            ]
+            ],
+            "id": "p-18a7281c568818fb"
           },
           {
             "type": "paragraph",
@@ -442,7 +454,8 @@
                 "type": "text",
                 "text": "\"Isn't that where March and Dan Heng wrecked the Taikiyan Stadium?\""
               }
-            ]
+            ],
+            "id": "p-86d326471b372577"
           },
           {
             "type": "paragraph",
@@ -479,7 +492,8 @@
                 "type": "text",
                 "text": "And with that, we broke the mysterious curse!"
               }
-            ]
+            ],
+            "id": "p-acac37452bdf8793"
           },
           {
             "type": "paragraph",
@@ -509,7 +523,8 @@
                 "type": "text",
                 "text": "It's like I'm actually playing in the match myself, just as excited, just as worn out!"
               }
-            ]
+            ],
+            "id": "p-ca54400e52fcd839"
           },
           {
             "type": "paragraph",
@@ -525,7 +540,8 @@
                 "type": "text",
                 "text": "Before I take (Trailblazer) to Taikiyan next time, I've gotta become a real fan first!"
               }
-            ]
+            ],
+            "id": "p-75c5e5403b862fc3"
           },
           {
             "type": "paragraph",
@@ -539,7 +555,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-14d8f3f66230e4bb"
           }
         ]
       }

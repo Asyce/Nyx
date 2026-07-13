@@ -4,10 +4,11 @@
   "id": "the-search-for-calypso",
   "name": "The Search For Calypso",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/The_Search_For_Calypso",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -36,7 +37,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-255cda2662c14866"
           },
           {
             "type": "paragraph",
@@ -95,7 +97,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-86cec5bdc845a38e"
           },
           {
             "type": "paragraph",
@@ -142,7 +145,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-de4787a3166e01ec"
           },
           {
             "type": "paragraph",
@@ -194,7 +198,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-78f9a2ef291cf3e3"
           },
           {
             "type": "paragraph",
@@ -222,7 +227,8 @@
                 "type": "text",
                 "text": "I wish to eat some sugary shaved ice... Hmm, perhaps I could leave my \"desire\" here?"
               }
-            ]
+            ],
+            "id": "p-31b65357a5cb7d46"
           },
           {
             "type": "paragraph",
@@ -264,7 +270,8 @@
                 "type": "text",
                 "text": "\"Memory,\" you shall stay here. All of you, apart from..."
               }
-            ]
+            ],
+            "id": "p-ef34b818b41e3b3f"
           },
           {
             "type": "paragraph",
@@ -313,7 +320,8 @@
                 "type": "text",
                 "text": "When will I leave?"
               }
-            ]
+            ],
+            "id": "p-a8af54c037f23563"
           },
           {
             "type": "paragraph",
@@ -355,7 +363,8 @@
                 "type": "text",
                 "text": "...Huh?"
               }
-            ]
+            ],
+            "id": "p-0f2b3f0ee6600f43"
           },
           {
             "type": "paragraph",
@@ -397,7 +406,8 @@
                 "type": "text",
                 "text": "But... why..."
               }
-            ]
+            ],
+            "id": "p-638452fba7b94122"
           },
           {
             "type": "paragraph",
@@ -432,7 +442,8 @@
                 "type": "text",
                 "text": "I no longer wish for them to exist till the end of time. Instead, I want to remember them myself, until I have truly died."
               }
-            ]
+            ],
+            "id": "p-da975891671ecc39"
           }
         ]
       }

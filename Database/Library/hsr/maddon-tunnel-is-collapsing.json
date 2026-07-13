@@ -4,10 +4,11 @@
   "id": "maddon-tunnel-is-collapsing",
   "name": "Maddon Tunnel Is Collapsing",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Maddon_Tunnel_Is_Collapsing",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Lyrics:"
               }
-            ]
+            ],
+            "id": "p-cff4b3f042db0fac"
           },
           {
             "type": "paragraph",
@@ -49,7 +51,8 @@
                 "type": "text",
                 "text": "crystalline buddy."
               }
-            ]
+            ],
+            "id": "p-ae1b5987f8d2ac49"
           },
           {
             "type": "paragraph",
@@ -79,7 +82,8 @@
                 "type": "text",
                 "text": "crystalline buddy."
               }
-            ]
+            ],
+            "id": "p-5089b2f67e853649"
           },
           {
             "type": "paragraph",
@@ -109,7 +113,8 @@
                 "type": "text",
                 "text": "crystalline buddy."
               }
-            ]
+            ],
+            "id": "p-fc6c639d3acd3ed7"
           },
           {
             "type": "paragraph",
@@ -139,7 +144,8 @@
                 "type": "text",
                 "text": "crystalline buddy."
               }
-            ]
+            ],
+            "id": "p-5928b9c6a0c1ffc7"
           },
           {
             "type": "paragraph",
@@ -169,7 +175,8 @@
                 "type": "text",
                 "text": "crystalline buddy."
               }
-            ]
+            ],
+            "id": "p-9a893f5d202bb251"
           },
           {
             "type": "paragraph",
@@ -178,7 +185,8 @@
                 "type": "text",
                 "text": "Meaning:"
               }
-            ]
+            ],
+            "id": "p-166512dc1cef1632"
           },
           {
             "type": "paragraph",
@@ -187,7 +195,8 @@
                 "type": "text",
                 "text": "The meaning of the song may simply be related to the difficulties in the construction of the Maddon Tunnel. However, its exact location is unknown. Only the song survives. There also exist other theories of its origin."
               }
-            ]
+            ],
+            "id": "p-1293c00a296e04ea"
           },
           {
             "type": "paragraph",
@@ -196,7 +205,8 @@
                 "type": "text",
                 "text": "A result of resistance to Fragmentum corrosion:"
               }
-            ]
+            ],
+            "id": "p-5271e794797662c8"
           },
           {
             "type": "paragraph",
@@ -205,7 +215,8 @@
                 "type": "text",
                 "text": "There's another theory: Fragmentum monsters appeared suddenly in many of the mines as Fragmentum activity increased. It was too dangerous to examine the deep, underground mines one by one, so the Silvermane Guards stopped the Fragmentum monsters' invasion by continuously bombarding the Maddon Tunnel. Crystalline Buddy was believed to be a playful banter of the Fragmentum monsters. But because the existence of the Maddon Tunnel couldn't be verified, many people don't believe it actually happened."
               }
-            ]
+            ],
+            "id": "p-73ea6e432b92ccaf"
           },
           {
             "type": "paragraph",
@@ -214,7 +225,8 @@
                 "type": "text",
                 "text": "The Old World's primitive idea of sacrifice:"
               }
-            ]
+            ],
+            "id": "p-2ba8d5037b9532e5"
           },
           {
             "type": "paragraph",
@@ -223,7 +235,8 @@
                 "type": "text",
                 "text": "Other theories relate to primitive cultures from the Old World that \"sacrifice\" can protect tunnels from collapsing. However, that theory doesn't work in the Underground because mine tunnels will collapse, no matter how many people's are sacrificed."
               }
-            ]
+            ],
+            "id": "p-59428a5d3b37d644"
           }
         ]
       }

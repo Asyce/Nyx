@@ -4,10 +4,11 @@
   "id": "back-to-the-future-readable",
   "name": "Back to the Future",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Back_to_the_Future_(Readable)",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Mountain Kite, An Unbound Traveler From the Past"
               }
-            ]
+            ],
+            "id": "p-38a0012d04d9dc7c"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-02330f8ee0b3578c"
           },
           {
             "type": "paragraph",
@@ -47,7 +50,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-5f7b0c91f1349040"
           },
           {
             "type": "paragraph",
@@ -71,7 +75,8 @@
                 "type": "text",
                 "text": "— Chief Designer of the Mountain Kite"
               }
-            ]
+            ],
+            "id": "p-7b177717b8a103ad"
           },
           {
             "type": "paragraph",
@@ -95,7 +100,8 @@
                 "type": "text",
                 "text": "— Chief Editor of Lifitide"
               }
-            ]
+            ],
+            "id": "p-aeaa6b318743db39"
           },
           {
             "type": "paragraph",
@@ -104,7 +110,8 @@
                 "type": "text",
                 "text": "Mountain Kite continues the lightweight design of the Kite series and uses the latest mortise and tenon technology, which endows the vehicle with the most elegant contours and the most powerful heart. Simply sitting in the driver's seat will allow you to feel the deep and magnetic growl of the Sunhunt engine, the same model as the ones in the Cloud Knight's fighter jets. This is a bird of prey with endless possibilities."
               }
-            ]
+            ],
+            "id": "p-56dee3d5e6f48126"
           },
           {
             "type": "paragraph",
@@ -113,7 +120,8 @@
                 "type": "text",
                 "text": "The completely enclosed driver's seat and inner cockpit intensely recreates the driving experience of competition vessels, allowing you to always feel you are in the arena with thousands cheering for you. For those pilots with peculiar tastes, the Mountain Kite allows you to pre-order starskiff engine sets with different power settings, materializing the beast within you to its fullest extent."
               }
-            ]
+            ],
+            "id": "p-022206741aa3e876"
           },
           {
             "type": "paragraph",
@@ -122,7 +130,8 @@
                 "type": "text",
                 "text": "The Mountain Kite undoubtedly have an almost perfect driving experience. We designed a customizable control panel that allows every pilot to adjust the starskiff's functions according to their habits. Compared to the expansive control panels of the starskiffs of the previous generation, the clean and intelligent panels of the Mountain Kite will be more suitable for new pilots."
               }
-            ]
+            ],
+            "id": "p-b3c9c0184a8f15b5"
           },
           {
             "type": "paragraph",
@@ -131,7 +140,8 @@
                 "type": "text",
                 "text": "Although it can bring you a driving experience beyond that of the ordinary, these exceptional changes did not escape the concerns of the safety designer. The latest stall control system designed by the Artisanship Commission is used for the first time in this product, and the drift correction device has also been completely upgraded. This latest patented equipment can use intelligent braking to control the yaw angle of the starskiff, and ensures the safety of the vessel even when performing aerobatic flights."
               }
-            ]
+            ],
+            "id": "p-5b236d758081db1d"
           },
           {
             "type": "paragraph",
@@ -140,7 +150,8 @@
                 "type": "text",
                 "text": "The starskiff for the next era, crafted with the uttermost dedication by Blitz Corp — The Mountain Kite looks forward to having you for a test ride"
               }
-            ]
+            ],
+            "id": "p-fcb401b272b4544e"
           }
         ]
       }

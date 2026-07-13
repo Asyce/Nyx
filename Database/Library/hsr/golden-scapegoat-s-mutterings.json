@@ -4,10 +4,11 @@
   "id": "golden-scapegoat-s-mutterings",
   "name": "Golden Scapegoat's Mutterings",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Golden_Scapegoat%27s_Mutterings",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "part-one",
       "label": "Part One",
       "document": {
         "version": 1,
@@ -54,7 +55,8 @@
                 "type": "text",
                 "text": "Fire and light are the embodiment of that sin."
               }
-            ]
+            ],
+            "id": "p-68596c76efb2fa95"
           },
           {
             "type": "paragraph",
@@ -98,7 +100,8 @@
                 "type": "text",
                 "text": "\"I know nothing of the butcher's knife, after all.\""
               }
-            ]
+            ],
+            "id": "p-c6eab1adb6265a63"
           },
           {
             "type": "paragraph",
@@ -135,7 +138,8 @@
                 "type": "text",
                 "text": "and also even closer to voiceless eternity."
               }
-            ]
+            ],
+            "id": "p-75ac8ab0009f0fa8"
           },
           {
             "type": "paragraph",
@@ -172,13 +176,15 @@
                 "type": "text",
                 "text": "Gods wish to see the world: Thus came ."
               }
-            ]
+            ],
+            "id": "p-ab6c87a48945d58d"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "part-two",
       "label": "Part Two",
       "document": {
         "version": 1,
@@ -225,7 +231,8 @@
                 "type": "text",
                 "text": "The must die, even if the sin was ."
               }
-            ]
+            ],
+            "id": "p-90436185a0bfee6d"
           },
           {
             "type": "paragraph",
@@ -262,7 +269,8 @@
                 "type": "text",
                 "text": "."
               }
-            ]
+            ],
+            "id": "p-c2679f8ff3f55412"
           },
           {
             "type": "paragraph",
@@ -299,13 +307,15 @@
                 "type": "text",
                 "text": "That face says, humans will re-discover their ."
               }
-            ]
+            ],
+            "id": "p-a35791df0d7e4465"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "part-three",
       "label": "Part Three",
       "document": {
         "version": 1,
@@ -352,7 +362,8 @@
                 "type": "text",
                 "text": "In this silent world of creation, all life is revived."
               }
-            ]
+            ],
+            "id": "p-a6b349cc62416853"
           },
           {
             "type": "paragraph",
@@ -389,7 +400,8 @@
                 "type": "text",
                 "text": "The scar was its shadow cast upon time. From then on, the lamb could no longer commune with the dead."
               }
-            ]
+            ],
+            "id": "p-2c4d5fd6fb47dfdf"
           },
           {
             "type": "paragraph",
@@ -426,13 +438,15 @@
                 "type": "text",
                 "text": "The sky is a slab of lapis lazuli — before it was solidified, the lands once hurled it high into the air."
               }
-            ]
+            ],
+            "id": "p-f7446391d20989c9"
           }
         ]
       }
     },
     {
       "id": "4",
+      "volumeKey": "part-four",
       "label": "Part Four",
       "document": {
         "version": 1,
@@ -479,7 +493,8 @@
                 "type": "text",
                 "text": "Words became flesh."
               }
-            ]
+            ],
+            "id": "p-f08317346b6ecd45"
           },
           {
             "type": "paragraph",
@@ -523,7 +538,8 @@
                 "type": "text",
                 "text": "\"You and I are nothing more than slaves to a distant dream.\""
               }
-            ]
+            ],
+            "id": "p-d06a690f2292f752"
           },
           {
             "type": "paragraph",
@@ -567,7 +583,8 @@
                 "type": "text",
                 "text": "People are shadows of people's words."
               }
-            ]
+            ],
+            "id": "p-d59b417b32d5a789"
           },
           {
             "type": "paragraph",
@@ -611,13 +628,15 @@
                 "type": "text",
                 "text": "They all no longer have names."
               }
-            ]
+            ],
+            "id": "p-f0c2346c457e3462"
           }
         ]
       }
     },
     {
       "id": "5",
+      "volumeKey": "part-five",
       "label": "Part Five",
       "document": {
         "version": 1,
@@ -664,7 +683,8 @@
                 "type": "text",
                 "text": "The dead have not passed, just as the living are yet to be born."
               }
-            ]
+            ],
+            "id": "p-9b4226c5a0675f57"
           },
           {
             "type": "paragraph",
@@ -722,7 +742,8 @@
                 "type": "text",
                 "text": "The sky the shadow after the land's death."
               }
-            ]
+            ],
+            "id": "p-6be4c42be477dde4"
           },
           {
             "type": "paragraph",
@@ -766,7 +787,8 @@
                 "type": "text",
                 "text": "\" .\""
               }
-            ]
+            ],
+            "id": "p-8868db1e13aab93c"
           },
           {
             "type": "paragraph",
@@ -810,13 +832,15 @@
                 "type": "text",
                 "text": "\"To think, that can still think.\""
               }
-            ]
+            ],
+            "id": "p-91996a78eab45b58"
           }
         ]
       }
     },
     {
       "id": "6",
+      "volumeKey": "part-six",
       "label": "Part Six",
       "document": {
         "version": 1,
@@ -863,7 +887,8 @@
                 "type": "text",
                 "text": "The golden fleece in the dream slumbers in the sanguine seabed."
               }
-            ]
+            ],
+            "id": "p-cfa1b01fa4ca470b"
           },
           {
             "type": "paragraph",
@@ -921,7 +946,8 @@
                 "type": "text",
                 "text": "To deliver the , killed ourselves every time."
               }
-            ]
+            ],
+            "id": "p-92b481277a631f63"
           }
         ]
       }

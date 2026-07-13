@@ -4,10 +4,11 @@
   "id": "to-know-something-through-sweets-a-study-of-honey-brew-and-personality",
   "name": "To Know Something Through Sweets: A Study of Honey Brew and Personality",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/To_Know_Something_Through_Sweets:_A_Study_of_Honey_Brew_and_Personality",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -33,7 +34,8 @@
                 "type": "text",
                 "text": "But good people come in many varieties, so let's see just how good they really are."
               }
-            ]
+            ],
+            "id": "p-d8800b7c3dde3b58"
           },
           {
             "type": "paragraph",
@@ -56,7 +58,8 @@
                 "type": "text",
                 "text": "And no, I'm not drunk. Not at all."
               }
-            ]
+            ],
+            "id": "p-4601cda7ebe717f1"
           },
           {
             "type": "paragraph",
@@ -86,7 +89,8 @@
                 "type": "text",
                 "text": "After asking around, it turns out plenty of folks are still loyal to the original taste. There sure are a lot of old-schoolers."
               }
-            ]
+            ],
+            "id": "p-006cd35bb9c8706e"
           },
           {
             "type": "paragraph",
@@ -109,7 +113,8 @@
                 "type": "text",
                 "text": "Another fact everyone knows: If someone claims to prefer pomegranate honey brew, especially those who use the word \"nostalgia,\" don't mess with them. You probably don't stand a chance fighting against them."
               }
-            ]
+            ],
+            "id": "p-258a7483fbfcc57d"
           },
           {
             "type": "paragraph",
@@ -139,7 +144,8 @@
                 "type": "text",
                 "text": "Ahahaha. The above is total advertising nonsense. But I actually like this flavor too."
               }
-            ]
+            ],
+            "id": "p-151e795f50b33991"
           },
           {
             "type": "paragraph",
@@ -148,7 +154,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -178,7 +185,8 @@
                 "type": "text",
                 "text": "Shame that hardly anyone orders this anymore since that sharp-tongued professor chose to become stone."
               }
-            ]
+            ],
+            "id": "p-191975f01c039854"
           },
           {
             "type": "paragraph",
@@ -194,7 +202,8 @@
                 "type": "text",
                 "text": "These people came to talk. They don't like honey brew at all. Feel free to kick them out. The great Phagousa would shower you with praise."
               }
-            ]
+            ],
+            "id": "p-b185211aa4cf14f2"
           },
           {
             "type": "paragraph",
@@ -217,7 +226,8 @@
                 "type": "text",
                 "text": "The randomness means I never judge someone based on which strength they prefer."
               }
-            ]
+            ],
+            "id": "p-0fdb23510c269328"
           },
           {
             "type": "paragraph",
@@ -240,7 +250,8 @@
                 "type": "text",
                 "text": "Those who stand by this concentration are typically welcoming, like total pushovers like those outworlders newly enlisted soldiers. Though ironically, they're all over a thousand years old now."
               }
-            ]
+            ],
+            "id": "p-bc6ce3c7eac22cb9"
           },
           {
             "type": "paragraph",
@@ -263,7 +274,8 @@
                 "type": "text",
                 "text": "I especially recommend it with cotton flavor."
               }
-            ]
+            ],
+            "id": "p-eb69015b9c75df20"
           },
           {
             "type": "paragraph",
@@ -293,7 +305,8 @@
                 "type": "text",
                 "text": "Thinking about it, those two inseparable dukes also prefer this strength. I can never get those Dux titles right."
               }
-            ]
+            ],
+            "id": "p-af418ba954ea60ea"
           },
           {
             "type": "paragraph",
@@ -309,7 +322,8 @@
                 "type": "text",
                 "text": "I don't get it, and I don't want to."
               }
-            ]
+            ],
+            "id": "p-366d484b04a04884"
           },
           {
             "type": "paragraph",
@@ -339,7 +353,8 @@
                 "type": "text",
                 "text": "Or perhaps they were simply born with exceptional resilience. I recommend making friends with these folks. The stories they tell could drown me."
               }
-            ]
+            ],
+            "id": "p-6e5c4286802be14d"
           },
           {
             "type": "paragraph",
@@ -383,7 +398,8 @@
                 "type": "text",
                 "text": "I really wish I could have tried it."
               }
-            ]
+            ],
+            "id": "p-0fd4a6fa987a7342"
           },
           {
             "type": "paragraph",
@@ -420,7 +436,8 @@
                 "type": "text",
                 "text": "Oh Hysilens above, what utter gibberish have I recorded? I need another bottle immediately. I'm done here."
               }
-            ]
+            ],
+            "id": "p-272b06a2a9935c38"
           }
         ]
       }

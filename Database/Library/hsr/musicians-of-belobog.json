@@ -4,10 +4,11 @@
   "id": "musicians-of-belobog",
   "name": "Musicians of Belobog",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Musicians_of_Belobog",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "volume-one",
       "label": "Volume One",
       "document": {
         "version": 1,
@@ -134,13 +135,15 @@
                 "type": "text",
                 "text": "So the donkey packed up supplies and belongings and ran into the dark snowy night..."
               }
-            ]
+            ],
+            "id": "p-b51e3939f4ff83d1"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "volume-two",
       "label": "Volume Two",
       "document": {
         "version": 1,
@@ -246,13 +249,15 @@
                 "type": "text",
                 "text": "\"Woof woof woof, then I'll come with you!\""
               }
-            ]
+            ],
+            "id": "p-ba4c43c8f292f8bb"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "volume-three",
       "label": "Volume Three",
       "document": {
         "version": 1,
@@ -344,13 +349,15 @@
                 "type": "text",
                 "text": "The old black cat thought for a while, and decided this was not a bad idea. So, the old cat flicked its ears, and joined the old donkey and hound's journey."
               }
-            ]
+            ],
+            "id": "p-7283b42b6792b27d"
           }
         ]
       }
     },
     {
       "id": "4",
+      "volumeKey": "volume-four",
       "label": "Volume Four",
       "document": {
         "version": 1,
@@ -470,13 +477,15 @@
                 "type": "text",
                 "text": "The other three friends fell silent, with not even a whisper for a long while."
               }
-            ]
+            ],
+            "id": "p-43f5aba1ea20e3c0"
           }
         ]
       }
     },
     {
       "id": "5",
+      "volumeKey": "volume-five",
       "label": "Volume Five",
       "document": {
         "version": 1,
@@ -631,13 +640,15 @@
                 "type": "text",
                 "text": "The four friends stared at each other."
               }
-            ]
+            ],
+            "id": "p-fc4eb8c21d92165a"
           }
         ]
       }
     },
     {
       "id": "6",
+      "volumeKey": "volume-six",
       "label": "Volume Six",
       "document": {
         "version": 1,
@@ -654,7 +665,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-869bc22c37fbaae7"
           },
           {
             "type": "paragraph",
@@ -778,13 +790,15 @@
                 "type": "text",
                 "text": "Then, the four musicians finally achieved their dream at Belobog and lived happily ever after. This art form called \"rap\" continued till today, becoming popular amongst the families living in the Underworld."
               }
-            ]
+            ],
+            "id": "p-e9da9b5d908f169b"
           }
         ]
       }
     },
     {
       "id": "7",
+      "volumeKey": "true-ending",
       "label": "True Ending",
       "document": {
         "version": 1,
@@ -801,7 +815,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-3f6a0c711a1dae39"
           },
           {
             "type": "paragraph",
@@ -946,7 +961,8 @@
                 "type": "text",
                 "text": "And that was how the story of the four musicians in Belobog ended."
               }
-            ]
+            ],
+            "id": "p-8022465f28073088"
           },
           {
             "type": "paragraph",
@@ -960,7 +976,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ba5352b77b708c1b"
           }
         ]
       }

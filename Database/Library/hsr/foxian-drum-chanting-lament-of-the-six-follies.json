@@ -4,10 +4,11 @@
   "id": "foxian-drum-chanting-lament-of-the-six-follies",
   "name": "Foxian Drum Chanting Lament of the Six Follies",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Foxian_Drum_Chanting_Lament_of_the_Six_Follies",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -61,7 +62,8 @@
                 "type": "text",
                 "text": "Suppressing their sighs they mourned for this change, beseeching the gods to stop the borisin's rampage."
               }
-            ]
+            ],
+            "id": "p-7b6a560347b1fcc5"
           },
           {
             "type": "paragraph",
@@ -84,7 +86,8 @@
                 "type": "text",
                 "text": "O'ercome by anguish they fell to their knees, wailing out lamentations that shook the mountains and sea."
               }
-            ]
+            ],
+            "id": "p-161de347401f243a"
           },
           {
             "type": "paragraph",
@@ -107,7 +110,8 @@
                 "type": "text",
                 "text": "The Master of Immortality am I, and asked: Why, oh six, do you whimper and cry?"
               }
-            ]
+            ],
+            "id": "p-053d747933263aad"
           },
           {
             "type": "paragraph",
@@ -151,7 +155,8 @@
                 "type": "text",
                 "text": "Sixth brother longed for peace to descend, that the war might conclude, and all hatreds be spent."
               }
-            ]
+            ],
+            "id": "p-1b2bb4c9733c5451"
           },
           {
             "type": "paragraph",
@@ -181,7 +186,8 @@
                 "type": "text",
                 "text": "To pass vales and crags as if t'were flat plains. To finally know peace, bereft of anxiety or pain."
               }
-            ]
+            ],
+            "id": "p-4cd1cae584c1473d"
           },
           {
             "type": "paragraph",
@@ -260,7 +266,8 @@
                 "type": "text",
                 "text": "Using miraculous powers they drove back the foe, the great martial heroes bringing the borisin great woe."
               }
-            ]
+            ],
+            "id": "p-fd71cf5f662d3dc0"
           },
           {
             "type": "paragraph",
@@ -269,7 +276,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -285,7 +293,8 @@
                 "type": "text",
                 "text": "But one day fate turned, with no forewarning given. In the blink of an eye, was hope killed, a plague risen."
               }
-            ]
+            ],
+            "id": "p-187ad18cb81792bc"
           },
           {
             "type": "paragraph",
@@ -322,7 +331,8 @@
                 "type": "text",
                 "text": "With no hope of salvation and no gift of grace, the powerless brother only sought death's embrace."
               }
-            ]
+            ],
+            "id": "p-404201f4122acffb"
           },
           {
             "type": "paragraph",
@@ -359,7 +369,8 @@
                 "type": "text",
                 "text": "Shocked to his core in the words' revelation, he looked to the glass with much hesitation. The face that looked back was by cruelty twisted, blessed with canine ears and a snout that the Master had gifted."
               }
-            ]
+            ],
+            "id": "p-40692e35eb1ceead"
           },
           {
             "type": "paragraph",
@@ -368,7 +379,8 @@
                 "type": "text",
                 "text": "Lamentable. O how lamentable. For this is how..."
               }
-            ]
+            ],
+            "id": "p-68a37e7a90ed97b1"
           },
           {
             "type": "paragraph",
@@ -384,7 +396,8 @@
                 "type": "text",
                 "text": "Obtaining the Merciful One's immortality by a chance meeting, only to be possessed by the Plague and losing much worse than a life."
               }
-            ]
+            ],
+            "id": "p-e448eab633100bb9"
           },
           {
             "type": "paragraph",
@@ -400,7 +413,8 @@
                 "type": "text",
                 "text": "Only when the Skybow has eliminated all demons and monsters, shall we ever see the arrival of eternal peace."
               }
-            ]
+            ],
+            "id": "p-7f31ec18486e00df"
           }
         ]
       }

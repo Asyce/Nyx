@@ -4,10 +4,11 @@
   "id": "beneath-the-white-cloak-program",
   "name": "Beneath the White Cloak Program",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Beneath_the_White_Cloak_Program",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "page-one",
       "label": "Page One",
       "document": {
         "version": 1,
@@ -50,7 +51,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-f489d47cb14805db"
           },
           {
             "type": "paragraph",
@@ -72,7 +74,8 @@
                 "type": "text",
                 "text": "Beneath the White Cloak"
               }
-            ]
+            ],
+            "id": "p-8067ebba8e17add1"
           },
           {
             "type": "paragraph",
@@ -109,7 +112,8 @@
                 "type": "text",
                 "text": "A guest in white appears in box number five without an invitation, and the century-old tale re-surfaces in this grand gala...''"
               }
-            ]
+            ],
+            "id": "p-15fe1f2a4ae62714"
           },
           {
             "type": "paragraph",
@@ -125,7 +129,8 @@
                 "type": "text",
                 "text": "A special thirty-year commemorative performance, with a brilliant never-before-seen cast."
               }
-            ]
+            ],
+            "id": "p-e71fa19be847a8d7"
           },
           {
             "type": "paragraph",
@@ -194,7 +199,8 @@
                 "type": "text",
                 "text": "Presented by the Golden Theater Musical Department!"
               }
-            ]
+            ],
+            "id": "p-9689d5c701405eb9"
           },
           {
             "type": "paragraph",
@@ -223,7 +229,8 @@
                 "type": "text",
                 "text": "Stage Manager: Bonnie. Set Designer: Taylor. Lighting: Jenny. Media Liaison: George"
               }
-            ]
+            ],
+            "id": "p-7c54ad7d4f29b797"
           },
           {
             "type": "paragraph",
@@ -342,7 +349,8 @@
                 "type": "text",
                 "text": "Prince Frank — Peter"
               }
-            ]
+            ],
+            "id": "p-9c9b787118132db0"
           },
           {
             "type": "paragraph",
@@ -511,13 +519,15 @@
                 "type": "text",
                 "text": "\"Sleepless Night\" — Entire Cast"
               }
-            ]
+            ],
+            "id": "p-2a6d78ccb922fda3"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "page-two",
       "label": "Page Two",
       "document": {
         "version": 1,
@@ -558,7 +568,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-0d65923ca890d0ea"
           },
           {
             "type": "paragraph",
@@ -580,7 +591,8 @@
                 "type": "text",
                 "text": "! Apparently, the number of citizens queuing up for tickets had repeatedly blocked key roads in the Administrative District, ultimately getting the Silvermane Guards to come out to maintain order."
               }
-            ]
+            ],
+            "id": "p-e537a478d458cee6"
           },
           {
             "type": "paragraph",
@@ -602,7 +614,8 @@
                 "type": "text",
                 "text": ", famous throughout Belobog, is the longest running show in the history of the Golden Theater. As we anticipate the thirty-year commemorative performance, we review the three unmissable famous scenes in the history of this show."
               }
-            ]
+            ],
+            "id": "p-4a8eddff3bd1af0d"
           },
           {
             "type": "paragraph",
@@ -634,7 +647,8 @@
                 "type": "text",
                 "text": ", the crystal petals are the most popular — The cast also do not prohibit the audience from taking the petals with them. For over thirty years, this had been the unspoken agreement between the audience and the production cast. In fact, the thirty-year commemorative production had declared they had more than six thousand crystal petals prepared for every performance."
               }
-            ]
+            ],
+            "id": "p-943385bcbca6cdfd"
           },
           {
             "type": "paragraph",
@@ -653,7 +667,8 @@
                 "type": "text",
                 "text": "When Count David publicly proposes to Lareina, the most fascinating part is not the seemingly romantic love story between the lead characters, but the unpredictable re-appearance of the Lady in White. In the initial version of the performance, the Lady in White suddenly appeared in the audience. As the Golden Theater became more technically advanced, the Lady in White's re-appearance became more mysterious and epic. She could walk out from the reflections of countless mirrors on the stage, and could also rise slowly from beneath the floor boards under the candelabra in the middle of the audience after a loud bang and copious amounts of fog. The technical department of the Theater designed a set that can only be moved with twenty people in order to create the mystery of the Lady in White. This had satisfied the audience for the past decade, and also gave rise to a minigame popular amongst theater-goers — can YOU guess where the Lady in White is going to appear during a particular performance?"
               }
-            ]
+            ],
+            "id": "p-e5a1e42d92c75795"
           },
           {
             "type": "paragraph",
@@ -698,13 +713,15 @@
                 "type": "text",
                 "text": ". Various famous actors in the musical scene would also make sudden appearances in this ending show. For the audience, this is an absolutely must-see moment, a sparkling scene that will get you your money's worth — who can say no to the joy of trying to count how many famous actors are on the stage at the end?"
               }
-            ]
+            ],
+            "id": "p-9c7263e8f50b6e08"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "page-three",
       "label": "Page Three",
       "document": {
         "version": 1,
@@ -755,7 +772,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-7749fd44f26218f9"
           },
           {
             "type": "paragraph",
@@ -822,7 +840,8 @@
                 "type": "text",
                 "text": "List price: 1500 shield"
               }
-            ]
+            ],
+            "id": "p-fc2df256f685244f"
           },
           {
             "type": "paragraph",
@@ -906,7 +925,8 @@
                 "type": "text",
                 "text": "List price: 6000 shield"
               }
-            ]
+            ],
+            "id": "p-d13f60089dff9197"
           },
           {
             "type": "paragraph",
@@ -954,7 +974,8 @@
                 "type": "text",
                 "text": "List price: 2000 shield"
               }
-            ]
+            ],
+            "id": "p-6afabb7722e18e5c"
           },
           {
             "type": "paragraph",
@@ -1012,7 +1033,8 @@
                 "type": "text",
                 "text": "List price: 20,000 shield"
               }
-            ]
+            ],
+            "id": "p-4edaedde7125925e"
           },
           {
             "type": "paragraph",
@@ -1067,7 +1089,8 @@
                 "type": "text",
                 "text": "List price: 30,000 shield"
               }
-            ]
+            ],
+            "id": "p-cd486bee0c415157"
           },
           {
             "type": "paragraph",
@@ -1125,7 +1148,8 @@
                 "type": "text",
                 "text": "List price: 10,000 shield"
               }
-            ]
+            ],
+            "id": "p-fb2660c7b097f4bb"
           }
         ]
       }

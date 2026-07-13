@@ -4,10 +4,11 @@
   "id": "cloud-knights-against-the-borisin",
   "name": "Cloud Knights Against the borisin",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Cloud_Knights_Against_the_borisin",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -33,7 +34,8 @@
                 "type": "text",
                 "text": "The general saw a poor, helpless orphan. Outside the city, the borisin forces laid siege to the city. The general stopped and asked the boy a question."
               }
-            ]
+            ],
+            "id": "p-4e3fd0ee878a9423"
           },
           {
             "type": "paragraph",
@@ -47,7 +49,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-7f61d6be9702d7fe"
           },
           {
             "type": "paragraph",
@@ -56,7 +59,8 @@
                 "type": "text",
                 "text": "The orphan did not grow timid in the presence of the general, but as soon as he opened his mouth, tears were running down his face."
               }
-            ]
+            ],
+            "id": "p-c17460369944f2d8"
           },
           {
             "type": "paragraph",
@@ -116,7 +120,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-a765aed3906749e7"
           },
           {
             "type": "paragraph",
@@ -176,7 +181,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-1b2c3662c0ef4dd7"
           },
           {
             "type": "paragraph",
@@ -199,7 +205,8 @@
                 "type": "text",
                 "text": "The general charged onto the borisin ship. Thousands of monsters appeared along the bridge. The general looked at his foes and grinned. He thought to himself:"
               }
-            ]
+            ],
+            "id": "p-4cad3c603c8f0585"
           },
           {
             "type": "paragraph",
@@ -235,7 +242,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-d9880c7967eb2c96"
           },
           {
             "type": "paragraph",
@@ -251,7 +259,8 @@
                 "type": "text",
                 "text": "I saw him shout as the qi moved from his Well. There is a saying that goes —"
               }
-            ]
+            ],
+            "id": "p-af773294c38338e6"
           },
           {
             "type": "paragraph",
@@ -345,7 +354,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-ee83a508d1a3c52e"
           }
         ]
       }

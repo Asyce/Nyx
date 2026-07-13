@@ -4,10 +4,11 @@
   "id": "back-to-era-chrysea-handbook",
   "name": "\"Back to Era Chrysea\" Handbook",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/%22Back_to_Era_Chrysea%22_Handbook",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -54,7 +55,8 @@
                 "type": "text",
                 "text": "Is barred from the world by the Titans of Calamity."
               }
-            ]
+            ],
+            "id": "p-cb2e9b70a3971259"
           },
           {
             "type": "paragraph",
@@ -105,7 +107,8 @@
                 "type": "text",
                 "text": "And cleanse the cold bones of death, and from therein lift a past reborn —"
               }
-            ]
+            ],
+            "id": "p-e677c9f0d5cc463d"
           },
           {
             "type": "paragraph",
@@ -156,7 +159,8 @@
                 "type": "text",
                 "text": "Under your witness, the all-knowing father blessed all with jovial fate."
               }
-            ]
+            ],
+            "id": "p-0de3f44dd3e17903"
           },
           {
             "type": "paragraph",
@@ -179,7 +183,8 @@
                 "type": "text",
                 "text": "For it is our homeland to which we must return."
               }
-            ]
+            ],
+            "id": "p-faec8d1d7dc980a2"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "new-londinium-freight-check-report",
   "name": "New Londinium Freight Check Report",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/New_Londinium_Freight_Check_Report",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Inspection Date: August 7, Year 8100 Star Calendar"
               }
-            ]
+            ],
+            "id": "p-7f34b18ca5568eb7"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Craftsman in charge: Artisan — Geng"
               }
-            ]
+            ],
+            "id": "p-0e72f3b695b033c1"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "Assigned Department: Sky-Faring Commission Nautical Division"
               }
-            ]
+            ],
+            "id": "p-55b9c234d80ed04d"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "Inspection Target: New Londinium Transport Ship Cargo"
               }
-            ]
+            ],
+            "id": "p-b4a8f41730f692b6"
           },
           {
             "type": "paragraph",
@@ -69,7 +74,8 @@
                 "type": "text",
                 "text": "2. The cargo carried by the starskiff is suspected to be dangerous and was not reported."
               }
-            ]
+            ],
+            "id": "p-a439a8ca343891cf"
           },
           {
             "type": "paragraph",
@@ -78,7 +84,8 @@
                 "type": "text",
                 "text": "Inspection Level: Scanning Inspection"
               }
-            ]
+            ],
+            "id": "p-4561dc3c4f7aeb1f"
           },
           {
             "type": "paragraph",
@@ -115,7 +122,8 @@
                 "type": "text",
                 "text": "4. Signal and biochemical inspection"
               }
-            ]
+            ],
+            "id": "p-8560a09f3bad1072"
           },
           {
             "type": "paragraph",
@@ -194,7 +202,8 @@
                 "type": "text",
                 "text": "10. Trace amounts of bodily fluids were extracted from the joints, with positive protein tests indicating some characteristics of carbon-based life forms."
               }
-            ]
+            ],
+            "id": "p-585c22ed187c4356"
           },
           {
             "type": "paragraph",
@@ -203,7 +212,8 @@
                 "type": "text",
                 "text": "Handling Recommendation"
               }
-            ]
+            ],
+            "id": "p-41745b5699d99d36"
           },
           {
             "type": "paragraph",
@@ -212,7 +222,8 @@
                 "type": "text",
                 "text": "Based on its design, materials, and craftsmanship, there's no doubt that it is a type of weapon. My guess is that it's one of those weapons you control with \"wetware.\" Now, what did the rules of your Sky-Faring Commission say again? The penalties vary from complete forfeiture to expulsion from the port, depending on how risky it is."
               }
-            ]
+            ],
+            "id": "p-ebbc307aa9b99047"
           },
           {
             "type": "paragraph",
@@ -221,7 +232,8 @@
                 "type": "text",
                 "text": "By the way, this thing has faint nerve signals and protein tissues. Frankly, I find this very unsettling. Just after the incident with the Disciples of Sanctus Medicus, there's been a directive to thoroughly inspect all incoming biological products. You know, who's to say this isn't the Disciples of Sanctus Medicus trying to stir up trouble once more?"
               }
-            ]
+            ],
+            "id": "p-6a913b2e1fb513bf"
           },
           {
             "type": "paragraph",
@@ -230,7 +242,8 @@
                 "type": "text",
                 "text": "I suggest we stash this stuff away for now. Don't ask me where. It's best to get a judge to figure that out."
               }
-            ]
+            ],
+            "id": "p-1a514559d113f119"
           },
           {
             "type": "paragraph",
@@ -239,7 +252,8 @@
                 "type": "text",
                 "text": "The technical principles behind this thing are beyond my expertise. I suggest you find a professional healer to examine it carefully as well."
               }
-            ]
+            ],
+            "id": "p-a537965a574cfaa6"
           },
           {
             "type": "paragraph",
@@ -248,7 +262,8 @@
                 "type": "text",
                 "text": "In conclusion, this report only provides a basis for judgment. Let the Sky-Faring Commission decide what to do with this thing."
               }
-            ]
+            ],
+            "id": "p-805f95c988fe277a"
           }
         ]
       }

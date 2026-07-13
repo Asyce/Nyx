@@ -4,10 +4,11 @@
   "id": "compendium-of-dreamway-road-accidents",
   "name": "Compendium of Dreamway Road Accidents",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Compendium_of_Dreamway_Road_Accidents",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-a6a4c1647e50ab69"
           },
           {
             "type": "paragraph",
@@ -45,7 +47,8 @@
                 "type": "text",
                 "text": "When visiting Golden Hour, an Intellitron tourist collided with a high-speed Utopon outside of an appearance alteration studio. The accident caused one party (the driver) to be shocked awake and damage to their vehicle, but the Intellitron tourist was not visibly damaged aside from damage to their clothing. Fragments of the vehicle became fused to the Intellitron tourists' memoria-simulated magnetic mechanical body, which led to a persistent phantom feeling after leaving the dream. In the end, they were successfully separated by a \"cognitive surgery\" in the Dreamscape."
               }
-            ]
+            ],
+            "id": "p-6b1c9e38e3794342"
           },
           {
             "type": "paragraph",
@@ -66,7 +69,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-48b2cbdec8e5448d"
           },
           {
             "type": "paragraph",
@@ -75,7 +79,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -96,7 +101,8 @@
                 "type": "text",
                 "text": "When using a Bubble Pinball to move between areas, a Dreamchaser was prematurely launched before the fender reached the set position due to a technical malfunction, causing the projectile vehicle to rebound twice and crash into a crowd of people. Five people were immediately shocked awake and fourteen people from the surrounding areas suffered varying degrees of shock. The Dreamchaser involved was confirmed to be in a state of shock, but was later discovered multiple times attempting to use the Bubble Pinball machine to recreate the above situation."
               }
-            ]
+            ],
+            "id": "p-653341bd81ecad44"
           },
           {
             "type": "paragraph",
@@ -117,7 +123,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-d3a884755d8f23a0"
           },
           {
             "type": "paragraph",
@@ -126,7 +133,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -161,7 +169,8 @@
                 "type": "text",
                 "text": "A number of years after the incident, this tourist was discovered in ███, and they were also ████████████████████."
               }
-            ]
+            ],
+            "id": "p-db54e44be247403c"
           },
           {
             "type": "paragraph",
@@ -182,7 +191,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-272249749b177114"
           },
           {
             "type": "paragraph",
@@ -191,7 +201,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-3"
           },
           {
             "type": "paragraph",
@@ -212,7 +223,8 @@
                 "type": "text",
                 "text": "A series of vehicles were thrown into a pile-up when a customized \"Beyond Overcooked\" suddenly charged into the center of the ring road surrounding Paperfold University. One person was shocked awake and many vehicles were damaged. The total direct property damage exceeded one billion Alfalfa credits. Investigation showed that this accident was deliberately created. The \"Beyond Overcooked\" that caused the accident was owned by an individual. It is suspected that this was caused by a dispute between students. The fallout of this incident was enormous."
               }
-            ]
+            ],
+            "id": "p-d35b4f632f94e868"
           },
           {
             "type": "paragraph",
@@ -233,7 +245,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-c3d223826188b91b"
           },
           {
             "type": "paragraph",
@@ -242,7 +255,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

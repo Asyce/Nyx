@@ -4,10 +4,11 @@
   "id": "the-immortal-king-mikas",
   "name": "The Immortal King Mikas",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/The_Immortal_King_Mikas",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-a5708105f632b781"
           },
           {
             "type": "paragraph",
@@ -52,7 +54,8 @@
                 "type": "text",
                 "text": "The absurd King Mikas! He dares to cheat death, but in Thanatos' eternal wisdom, no creature has ever escaped preordained death. You hide in the lightless palace, allowing blind fanatics to walk beside you, but in Thanatos' eternal wisdom, the nightingale will use its beak to tap upon your spirit window."
               }
-            ]
+            ],
+            "id": "p-76846c2939c9e2f2"
           },
           {
             "type": "paragraph",
@@ -61,7 +64,8 @@
                 "type": "text",
                 "text": "(Enter attendant and guard actors)"
               }
-            ]
+            ],
+            "id": "p-f01bd4d5cc8a1c1a"
           },
           {
             "type": "paragraph",
@@ -82,7 +86,8 @@
                 "type": "text",
                 "text": "Hey friend, surely you know of King Mikas? It is said that, before my grandfather's grandfather was even born, he already closed the doors and windows to this palace. Listen, the murmurings of madmen drift behind the stones, and the ladies of the city's mill all say that King Mikas must also be a king among madmen."
               }
-            ]
+            ],
+            "id": "p-2fb34a2e2a06d126"
           },
           {
             "type": "paragraph",
@@ -103,7 +108,8 @@
                 "type": "text",
                 "text": "I have no need of your slander. Do you think a mere servant's tongue like yours is capable of wounding the king's wisdom? Those madmen are Thanatos' Titankin, half of their soul already taken away by the River of Souls. It is because they dwell here that the Hand of Shadow cannot see them. Among countless broken souls, there is yet a King Mikas who retains his whole sanity."
               }
-            ]
+            ],
+            "id": "p-6e53cb1f34613b40"
           },
           {
             "type": "paragraph",
@@ -112,7 +118,8 @@
                 "type": "text",
                 "text": "Do not ignore those madmen, for their deaths will take away the other half of their souls. If they are not welcomed heartily, then do not blame them for complaining to Thanatos."
               }
-            ]
+            ],
+            "id": "p-1566df5d77c9cbc0"
           },
           {
             "type": "paragraph",
@@ -133,7 +140,8 @@
                 "type": "text",
                 "text": "No wonder I saw that they were all blindfolded — turns out our king is too shy, afraid they might see his face. No matter. I am but a mere attendant who delivers food to those madmen and their King Mikas, so I need not worry who will lay eyes upon my detestable visage."
               }
-            ]
+            ],
+            "id": "p-270cdde26ee2904a"
           },
           {
             "type": "paragraph",
@@ -161,7 +169,8 @@
                 "type": "text",
                 "text": "The ignorant King Mikas! You thought that insanity is the Titan's apostle and the insane their kin. You think nothing will be revealed if you say nothing to no one, that Thanatos will not see your hubris if you do not cross this stone wall. May you sleep peacefully in this final night, till you can no longer enter your dreams."
               }
-            ]
+            ],
+            "id": "p-6537a75e692c1920"
           },
           {
             "type": "paragraph",
@@ -170,7 +179,8 @@
                 "type": "text",
                 "text": "(Enter Mikas' actor)"
               }
-            ]
+            ],
+            "id": "p-ac88318a2fb3671a"
           },
           {
             "type": "paragraph",
@@ -191,7 +201,8 @@
                 "type": "text",
                 "text": "It has been centuries since I beguiled that foolish Hand of Shadow and hid here. The Titan of Death? But an idiotic simpleton, toyed within the palm of my hand."
               }
-            ]
+            ],
+            "id": "p-92100c429ce7220d"
           },
           {
             "type": "paragraph",
@@ -200,7 +211,8 @@
                 "type": "text",
                 "text": "Witness the magnificent city-state beyond the window. Zagreus' thieves stealing away in the alleys, Mnestia's scale powder invoking the ramblings of sweet nothings among the youth, Oronyx's starlight shining upon the plaza where the sages debate. This is surely Thanatos' plot of temptation to me, to have me leave this safe harbor, to lure me towards their laughable death."
               }
-            ]
+            ],
+            "id": "p-d46486360f031ceb"
           },
           {
             "type": "paragraph",
@@ -209,7 +221,8 @@
                 "type": "text",
                 "text": "But how I long to see the blooms of the meadows one more time. Ask yourself, Mikas — how many years has it been since you smelled the wheat's fragrance in the Month of Cultivation? How many years have you covered your ears, refusing to listen to Phagousa's songs of mirth at their feasts? But I am afraid whenever I hear sounds, afraid that they will see me, then regale Thanatos' ears with my stories."
               }
-            ]
+            ],
+            "id": "p-b1aa08b6e3ec3fc9"
           },
           {
             "type": "paragraph",
@@ -218,7 +231,8 @@
                 "type": "text",
                 "text": "(The youth playing the nightingale is wrapped in a black robe, rapping on the stone slab rhythmically)"
               }
-            ]
+            ],
+            "id": "p-c7bef3f5541a28cf"
           },
           {
             "type": "paragraph",
@@ -227,7 +241,8 @@
                 "type": "text",
                 "text": "And what sound is this?! Who dares tease? Mayhaps one who exposed my scheme to the Hand of Shadows, asking for my death in this very spot? I humbly beseech, please frighten this pathetic king no longer."
               }
-            ]
+            ],
+            "id": "p-ddb649430d2e0fa1"
           },
           {
             "type": "paragraph",
@@ -236,7 +251,8 @@
                 "type": "text",
                 "text": "Oh, no! No! Do not knock on that window anymore!"
               }
-            ]
+            ],
+            "id": "p-f690eaa0f909a573"
           },
           {
             "type": "paragraph",
@@ -264,7 +280,8 @@
                 "type": "text",
                 "text": "Mad King Mikas! You leave the looming stone walls, bringing with you your hoarded madness. If foolishness could be brewed into fine wine, then even the Chalice of Plenty would applaud your folly. Alas, you are now foolhardy as a child, uncomprehending the people's mockery, incapable of avoiding the poets' clamor."
               }
-            ]
+            ],
+            "id": "p-0e60bc9b09113932"
           },
           {
             "type": "paragraph",
@@ -273,7 +290,8 @@
                 "type": "text",
                 "text": "(A silent Mikas walks out of the palace, ten actors pretending to be madmen following behind him)"
               }
-            ]
+            ],
+            "id": "p-d8559d58d8ea647d"
           },
           {
             "type": "paragraph",
@@ -294,7 +312,8 @@
                 "type": "text",
                 "text": "Brother, could that be our ludicrous king? Why has he blindfolded madmen in tow, as if they are his kin, wordlessly departing his own bastion?"
               }
-            ]
+            ],
+            "id": "p-452d988b4b82fbd8"
           },
           {
             "type": "paragraph",
@@ -315,7 +334,8 @@
                 "type": "text",
                 "text": "Your questions will only be met with my puzzlement. If one could answer, only Thanatos' nightingale knows the truth. If I had to guess, our king could never deceive Thanatos from the start. They only took away half of the king's soul, causing madness, yet never granting true death unto him."
               }
-            ]
+            ],
+            "id": "p-6829d25fadbf98c0"
           },
           {
             "type": "paragraph",
@@ -336,7 +356,8 @@
                 "type": "text",
                 "text": "The Immortal King Mikas! You will enter the withered meadows, lost among the gazes of the masses. May you delight in the treasure the Titan bequeathed you, reveling in the prize of immortality among your madness!"
               }
-            ]
+            ],
+            "id": "p-ec5fbeb31f3e58b0"
           }
         ]
       }

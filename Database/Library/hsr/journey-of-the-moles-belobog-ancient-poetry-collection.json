@@ -4,10 +4,11 @@
   "id": "journey-of-the-moles-belobog-ancient-poetry-collection",
   "name": "Journey of the Moles — Belobog Ancient Poetry Collection",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Journey_of_the_Moles_%E2%80%94_Belobog_Ancient_Poetry_Collection",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "pilgrimage-north-of-snowfield",
       "label": "Pilgrimage North of Snowfield",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "I had once gazed toward the snowcapped peak"
               }
-            ]
+            ],
+            "id": "p-ceb398de129afb61"
           },
           {
             "type": "paragraph",
@@ -49,7 +51,8 @@
                 "type": "text",
                 "text": "And travelers peer into the Amber's past"
               }
-            ]
+            ],
+            "id": "p-77c568a26df57cc5"
           },
           {
             "type": "paragraph",
@@ -65,7 +68,8 @@
                 "type": "text",
                 "text": "Is the pilgrimage of my soul"
               }
-            ]
+            ],
+            "id": "p-deb4e0692460cb91"
           },
           {
             "type": "paragraph",
@@ -74,7 +78,8 @@
                 "type": "text",
                 "text": "I had once gazed toward the snowcapped peak"
               }
-            ]
+            ],
+            "id": "p-ceb398de129afb61-2"
           },
           {
             "type": "paragraph",
@@ -118,7 +123,8 @@
                 "type": "text",
                 "text": "Given meaning by the supreme fire"
               }
-            ]
+            ],
+            "id": "p-a370919f61d5a64c"
           },
           {
             "type": "paragraph",
@@ -176,13 +182,15 @@
                 "type": "text",
                 "text": "Or the flowers fall"
               }
-            ]
+            ],
+            "id": "p-c57d2fca17c83a82"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "dusk-in-rivet-town",
       "label": "Dusk in Rivet Town",
       "document": {
         "version": 1,
@@ -222,7 +230,8 @@
                 "type": "text",
                 "text": "Just enough for one mouthful in a meal"
               }
-            ]
+            ],
+            "id": "p-d7d72591bf96b85a"
           },
           {
             "type": "paragraph",
@@ -259,7 +268,8 @@
                 "type": "text",
                 "text": "And takes away the stone pier with nowhere to go in Rivet Town"
               }
-            ]
+            ],
+            "id": "p-20901beb772e49f5"
           },
           {
             "type": "paragraph",
@@ -303,13 +313,15 @@
                 "type": "text",
                 "text": "It's so foolish"
               }
-            ]
+            ],
+            "id": "p-fb05b3e1501854f6"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "chubby-larry",
       "label": "Chubby Larry",
       "document": {
         "version": 1,
@@ -356,7 +368,8 @@
                 "type": "text",
                 "text": "Festival that lasts from winter to summer"
               }
-            ]
+            ],
+            "id": "p-09f1b739396df7e7"
           },
           {
             "type": "paragraph",
@@ -379,7 +392,8 @@
                 "type": "text",
                 "text": "But humans only ever offered rocks and words"
               }
-            ]
+            ],
+            "id": "p-c6789b3375f7d1f4"
           },
           {
             "type": "paragraph",
@@ -437,7 +451,8 @@
                 "type": "text",
                 "text": "Sealed away his arms like a mine collapse"
               }
-            ]
+            ],
+            "id": "p-cadfb6b00235aa1a"
           },
           {
             "type": "paragraph",
@@ -474,7 +489,8 @@
                 "type": "text",
                 "text": "With a ring of glory! With the clouds!"
               }
-            ]
+            ],
+            "id": "p-4adf01c011d244ec"
           },
           {
             "type": "paragraph",
@@ -518,7 +534,8 @@
                 "type": "text",
                 "text": "Using the wanted poster of poverty as silver threads, they sewed his mouth shut"
               }
-            ]
+            ],
+            "id": "p-9198c7d51760e72d"
           },
           {
             "type": "paragraph",
@@ -569,7 +586,8 @@
                 "type": "text",
                 "text": "And flipped backward twice in overcritical degrees"
               }
-            ]
+            ],
+            "id": "p-0f50ce194346723f"
           },
           {
             "type": "paragraph",
@@ -606,7 +624,8 @@
                 "type": "text",
                 "text": "And seventeen poets slapped his face"
               }
-            ]
+            ],
+            "id": "p-e11c95041bd02756"
           },
           {
             "type": "paragraph",
@@ -629,7 +648,8 @@
                 "type": "text",
                 "text": "Like an iron pickaxe, he was buried in the earth"
               }
-            ]
+            ],
+            "id": "p-22df87b97c81d79d"
           },
           {
             "type": "paragraph",
@@ -652,7 +672,8 @@
                 "type": "text",
                 "text": "A chubby man fell asleep"
               }
-            ]
+            ],
+            "id": "p-96971e7e5328c3e0"
           }
         ]
       }

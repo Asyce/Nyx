@@ -4,10 +4,11 @@
   "id": "cyrille-readable",
   "name": "Cyrille",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Cyrille_(Readable)",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "an-old-diary",
       "label": "An Old Diary",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Mr. Stefan came to chat once again today, and I'm happy."
               }
-            ]
+            ],
+            "id": "p-1b9b69e50476c762"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Mr. Stefan first came to our home about six months ago. I thought he was just like those adults who call themselves Architects, and was here to see my sister. But he was different, and didn't ignore me. He always smiles, and gives me lots and lots of candy. He also asked me some questions and I got nervous because I didn't know how to answer, but he didn't get angry. He said I was a quiet and good kid."
               }
-            ]
+            ],
+            "id": "p-1f0d34e6e6e245cd"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "I started keeping a diary because of Mr. Stefan. He said that keeping a diary is a good habit for a lady to keep. He also said that keeping a diary is a very lonely affair, and that if I'm scared of being alone, I can just read aloud the diary to him."
               }
-            ]
+            ],
+            "id": "p-2208dfb8c7f08418"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "To be honest, it's really hard to keep a diary because nothing interesting happens to me — I won't read this part to Mr. Stefan as he'll get sad, and I don't want him to be sad. I wish I were my sister, because she knows everything. She always tells me fun stories and is always telling me about the interesting people she meets."
               }
-            ]
+            ],
+            "id": "p-0fe238cf2ea1ec55"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "It was only later that I realized most of my diary was about Mr. Stefan. Sometimes it's recounting our conversations, sometimes it's recording what I've learned from him, sometimes it's simply recording my mood while I wait for him to visit again."
               }
-            ]
+            ],
+            "id": "p-85afb571f5cd9317"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "Today, Mr. Stefan and I talked a lot, mostly trying to comfort me as I'd heard some bad news from another kid. I heard that the adults want to take my sister to some place far away, and that I might never be able to see her again. I'm scared because my sister always looks after me and protects me. If she goes, I might get hurt — and I might get even more lonely than I already am now."
               }
-            ]
+            ],
+            "id": "p-b28adf757587dcca"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "Mr. Stefan told me that he wouldn't let that happen. He said, \"Cyrille is no less than her sister,\" and \"Cyrille deserves her own wonderful life.\" I know he's just saying that to comfort me, but it still feels nice to hear that from him."
               }
-            ]
+            ],
+            "id": "p-0062767e1ffb8aee"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "Before he left, Mr. Stefan gave me a blue stone which, despite its small size, is shiny and smooth. It's the most beautiful thing I've ever seen. Mr. Stefan said this present represents our agreement — that he will take me out of here to a more spacious and comfortable place. A place without prison, a place with freedom."
               }
-            ]
+            ],
+            "id": "p-e04eda9528171b2f"
           },
           {
             "type": "paragraph",
@@ -91,13 +100,15 @@
                 "type": "text",
                 "text": "I trust Mr. Stefan. He's a man of his word, unlike all the others. Today's entry is very long — longer than the whole of the previous week combined — and I'm a little tired. It's late, and I should go to bed. My sister didn't come home today, and it's just me home tonight. I'm going to sleep with the gift that Mr. Stefan gave me, so that I won't be afraid of the dark."
               }
-            ]
+            ],
+            "id": "p-de1b6ee926bf4095"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "an-old-letter",
       "label": "An Old Letter",
       "document": {
         "version": 1,
@@ -109,7 +120,8 @@
                 "type": "text",
                 "text": "Cyrille:"
               }
-            ]
+            ],
+            "id": "p-ce66e9460d32224a"
           },
           {
             "type": "paragraph",
@@ -118,7 +130,8 @@
                 "type": "text",
                 "text": "I've been caught up in some complications, and I can't be there with you. I beg your forgiveness, and hope that you always remember that the distance between us in space will not shake my loyalty one bit. No matter what difficulties you face, you can always turn to me for help."
               }
-            ]
+            ],
+            "id": "p-63ed1c59d69e899d"
           },
           {
             "type": "paragraph",
@@ -127,7 +140,8 @@
                 "type": "text",
                 "text": "I know you must be nervous right now, Cyrille, but I hope you can remember what I warned you before: Don't be intimidated by loud and empty threats. As long as you stand firm and follow my advice at all times, any pushback or complaint is just temporary white noise — something that will fade away as we draw closer to the end of the plan and ultimately become a picture painted together by us."
               }
-            ]
+            ],
+            "id": "p-4b8d18e0292e3ba4"
           },
           {
             "type": "paragraph",
@@ -136,7 +150,8 @@
                 "type": "text",
                 "text": "I sometimes still think of when I met you, more than ten years ago. You were a timid little girl back then, too shy to talk and lacking confidence in yourself. But I found something special in you — a one-of-a-kind temperament that even a genius like Cyrilla doesn't have. And it's precisely because of this unique talent of yours that I decided to stay with you, and help you build up the beautiful future that you deserve."
               }
-            ]
+            ],
+            "id": "p-382de60158919678"
           },
           {
             "type": "paragraph",
@@ -145,7 +160,8 @@
                 "type": "text",
                 "text": "As for your sister, Cyrilla — unfortunately, I haven't been able to find any clues about her whereabouts. I understand how important she is to you, so I'll keep sparing no effort in my search operation. Even without the slightest progress over more than ten years, I still don't want to give up hope — and I hope you don't give up, either."
               }
-            ]
+            ],
+            "id": "p-ceab3321ce84347b"
           },
           {
             "type": "paragraph",
@@ -154,7 +170,8 @@
                 "type": "text",
                 "text": "Finally, I'd like to offer my most sincere advice once more: Don't trust those opportunists in your ear telling you black is white and vice versa. They'll definitely use my absence to try and get close to you and control your mind. You have to build a solid barrier and resist their scheming noises. Remember, Cyrille — you just have to trust me. I would never lie to you."
               }
-            ]
+            ],
+            "id": "p-eea35e5818f6aaa2"
           },
           {
             "type": "paragraph",
@@ -170,13 +187,15 @@
                 "type": "text",
                 "text": "Stefan"
               }
-            ]
+            ],
+            "id": "p-a6ea4dd9d8333fe1"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "cyrille-the-fool",
       "label": "Cyrille \"The Fool\"",
       "document": {
         "version": 1,
@@ -188,7 +207,8 @@
                 "type": "text",
                 "text": "Cyrille — often called Cyrille the Fool by later generations — is the eighth Supreme Guardian of Belobog."
               }
-            ]
+            ],
+            "id": "p-de94ac906a0a32f8"
           },
           {
             "type": "paragraph",
@@ -197,7 +217,8 @@
                 "type": "text",
                 "text": "Cyrille was born in a remote suburb of the Belobog Overworld. Orphaned as a young girl, she lived with her sister Cyrilla who's one year older than her. Cyrille's childhood was rather uneventful; however, her sister Cyrilla was a child prodigy, displaying amazing proficiency at an early age for language, math, and logic."
               }
-            ]
+            ],
+            "id": "p-73d27a742fa09b6f"
           },
           {
             "type": "paragraph",
@@ -206,7 +227,8 @@
                 "type": "text",
                 "text": "Cyrilla passed the public service test when she was eleven, and was officially selected as an heir to the Supreme Guardian. However, just on the eve as the Architects were about to relocate her residence to Qlipoth Fort, she mysteriously disappeared. After days of searching without luck, most Architects wanted to give up the search and start the heir selection process anew. But the Minister of Internal Affairs, Stefan Marquez was firmly opposed, and strongly pushed for Cyrilla's sister Cyrille to take over as heir to the Supreme Guardian."
               }
-            ]
+            ],
+            "id": "p-01183b816854784b"
           },
           {
             "type": "paragraph",
@@ -215,7 +237,8 @@
                 "type": "text",
                 "text": "Stefan Marquez claimed that during his long-term contact with the two sisters, he'd discovered that Cyrille was as talented as her sister. Moreover, delaying the heir selection process any longer would impact Belobog's political stability due to the recency of the Supreme Guardian's untimely death. After heated internal debate, the Architects finally approved Stefan's proposal allowing Cyrille to become the new heir."
               }
-            ]
+            ],
+            "id": "p-1c11bb08da7b39cd"
           },
           {
             "type": "paragraph",
@@ -224,7 +247,8 @@
                 "type": "text",
                 "text": "History has shown us that Cyrille's appointment was a carefully-planned hoax by the Minister of Internal Affairs, Stefan Marquez. The Architects quickly realized that Cyrille was extremely mediocre compared to her sister Cyrilla, and was clumsy in social situations. Minister Marquez's power grew stronger by the day during Cyrille's tenure, and his thugs soon retained absolute discretion throughout the Qlipoth Fort as they issued their draconian decrees. The nickname Cyrille the Fool spread throughout the people, and they grew more and more dissatisfied with this puppet Supreme Guardian and her ministerial allies."
               }
-            ]
+            ],
+            "id": "p-c1bcbae5c613be3c"
           },
           {
             "type": "paragraph",
@@ -233,7 +257,8 @@
                 "type": "text",
                 "text": "In the 14th year of her tenure, rebels among the Architects hatched a secret plot to overthrow Stefan and his cronies. The rebels won over the Silvermane Guards' Captain and planned on luring Cyrille and Stefan to the Silvermane Guard Restricted Zone where they could launch a coup."
               }
-            ]
+            ],
+            "id": "p-4f61b7c712066bbd"
           },
           {
             "type": "paragraph",
@@ -242,7 +267,8 @@
                 "type": "text",
                 "text": "That day, the Supreme Guardian Cyrille attended the military exercise as expected, but the rebels never found any trace of Stefan Marquez. The captain played them at their own game, dispatching a fake patrol of Silvermane Guards into the restricted zone with Cyrille, and pushing her into an arsenal chest. The guards then rushed to the far north of Belobog and, under cover of darkness, shoved the unconscious Supreme Guardian in the arsenal chest over the edge of the cliff."
               }
-            ]
+            ],
+            "id": "p-e5aeb0d521f94da4"
           },
           {
             "type": "paragraph",
@@ -251,7 +277,8 @@
                 "type": "text",
                 "text": "The rebels carried out a search operation for three days and three nights in Belobog, but never found any trace of Minister Stefan Marquez. To this day, people still attribute the death of the seventh Supreme Guardian and the disappearance of Cyrilla to Marquez's political conspiracy — a claim that, according to Belobog historians, to this day remains inconclusive and unproven."
               }
-            ]
+            ],
+            "id": "p-722c3eebf20a300f"
           }
         ]
       }

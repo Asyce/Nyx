@@ -4,10 +4,11 @@
   "id": "a-letter-to-dreamscape-motivators",
   "name": "A Letter to Dreamscape Motivators",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/A_Letter_to_Dreamscape_Motivators",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Dear Reader,"
               }
-            ]
+            ],
+            "id": "p-7f832355519d3e0e"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Welcome to the staff of The Reverie Hotel."
               }
-            ]
+            ],
+            "id": "p-2c950d7ebbe2f2f5"
           },
           {
             "type": "paragraph",
@@ -50,7 +53,8 @@
                 "type": "text",
                 "text": ", you will become an anchor of stability, a vessel of harmony, and a steadfast guardian in these sweet dreams everlasting. Your presence will guide the lost, and your words will provide solace to the disillusioned. You will become an important and respected talent in Penacony."
               }
-            ]
+            ],
+            "id": "p-a2638068778847df"
           },
           {
             "type": "paragraph",
@@ -59,7 +63,8 @@
                 "type": "text",
                 "text": "We are already fully aware of your exceptional professionalism and high ethical standards. Now, please allow us to briefly acquaint you with some regulations to keep in mind as you live in the Dreamscape, allowing you to become an integral and harmonious part of the Penacony family as soon as possible."
               }
-            ]
+            ],
+            "id": "p-9d557b130972eff6"
           },
           {
             "type": "paragraph",
@@ -68,7 +73,8 @@
                 "type": "text",
                 "text": "1. Maintain Emotional Stability As Much As Possible"
               }
-            ]
+            ],
+            "id": "p-b34174474dd8b4bb"
           },
           {
             "type": "paragraph",
@@ -77,7 +83,8 @@
                 "type": "text",
                 "text": "Emotions in the Dreamscape tend to fluctuate more intensely than in reality. Please exercise caution when employing your empathic abilities to avoid becoming overly affected and causing negative consequences for yourself."
               }
-            ]
+            ],
+            "id": "p-7a38250240ad2691"
           },
           {
             "type": "paragraph",
@@ -86,7 +93,8 @@
                 "type": "text",
                 "text": "2. Respond Calmly to Unexpected Situations"
               }
-            ]
+            ],
+            "id": "p-44ae34a765741d5c"
           },
           {
             "type": "paragraph",
@@ -95,7 +103,8 @@
                 "type": "text",
                 "text": "Within the Dreamscape, intense mood fluctuations may have a certain impact on your surroundings. If you encounter any unusual phenomena during your work, please remain composed."
               }
-            ]
+            ],
+            "id": "p-8928f3dd920bca51"
           },
           {
             "type": "paragraph",
@@ -104,7 +113,8 @@
                 "type": "text",
                 "text": "a. Your client may suddenly vanish or transform into another creature or even an inanimate object. Such occurrences are typically a result of their emotional outbursts and are considered normal."
               }
-            ]
+            ],
+            "id": "p-40cc3f3b028e010d"
           },
           {
             "type": "paragraph",
@@ -113,7 +123,8 @@
                 "type": "text",
                 "text": "b. Excessive negative emotions may attract dream entities known as Memory Zone Memes. Generally, they do not appear in urban areas and do not pose any physical harm to you. If you encounter one, remain calm, maintain a safe distance, and promptly report it to any nearby patrolling Bloodhound."
               }
-            ]
+            ],
+            "id": "p-edaabd040a1e7da7"
           },
           {
             "type": "paragraph",
@@ -122,7 +133,8 @@
                 "type": "text",
                 "text": "c. Some individuals seeking healing may develop an emotional dependency on their Motivator. To ensure your personal safety and protect your rights and interests, please seek assistance from us before the situation becomes uncontrollable."
               }
-            ]
+            ],
+            "id": "p-8616833eccc0eeb3"
           },
           {
             "type": "paragraph",
@@ -131,7 +143,8 @@
                 "type": "text",
                 "text": "3. Regard Confidentiality Agreements Rationally"
               }
-            ]
+            ],
+            "id": "p-c49385b89a974073"
           },
           {
             "type": "paragraph",
@@ -140,7 +153,8 @@
                 "type": "text",
                 "text": "As a Motivator, it is part of your professional responsibility to safeguard the secrets shared by guests seeking help. However, if an individual reveals intentions of self-harm or harm to others, please promptly report this situation, and we will immediately dispatch professional personnel to address the situation."
               }
-            ]
+            ],
+            "id": "p-f42e11f2bd9a23fd"
           },
           {
             "type": "paragraph",
@@ -149,7 +163,8 @@
                 "type": "text",
                 "text": "4. Regularly Access Counseling Services"
               }
-            ]
+            ],
+            "id": "p-dc3d56fd164ffdb5"
           },
           {
             "type": "paragraph",
@@ -158,7 +173,8 @@
                 "type": "text",
                 "text": "Engaging in prolonged listening and motivational speech can place significant pressure on yourself. To ensure your well-being, The Family offers high-quality counseling services for free. Please ensure you attend these sessions regularly, as your physical and mental health are of utmost importance to us."
               }
-            ]
+            ],
+            "id": "p-d5b22a7480ef1c72"
           },
           {
             "type": "paragraph",
@@ -167,7 +183,8 @@
                 "type": "text",
                 "text": "Dreamscape Motivators are precious assets in Penacony. The Family is committed to providing you with an excellent working environment and ensuring your security. Please remember:"
               }
-            ]
+            ],
+            "id": "p-268fe73202f2e3fc"
           },
           {
             "type": "paragraph",
@@ -183,7 +200,8 @@
                 "type": "text",
                 "text": "Whatever the case, we will support you with the best possible resources at all times."
               }
-            ]
+            ],
+            "id": "p-95d0b7d8f31eb393"
           },
           {
             "type": "paragraph",
@@ -197,7 +215,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-7edeb5497995dd47"
           }
         ]
       }

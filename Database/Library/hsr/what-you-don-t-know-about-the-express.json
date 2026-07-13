@@ -4,10 +4,11 @@
   "id": "what-you-don-t-know-about-the-express",
   "name": "What You Don't Know About The Express",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/What_You_Don%27t_Know_About_The_Express",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -34,7 +35,8 @@
                 "type": "text",
                 "text": "Special Contributor: Sir Kashen Silver"
               }
-            ]
+            ],
+            "id": "p-995633943f17001b"
           },
           {
             "type": "paragraph",
@@ -56,7 +58,8 @@
                 "type": "text",
                 "text": ", have you ever wondered about the deep connections between that star-traversing train in the comic and Planarcadia in real life? And did you know that behind the names Astral Express and Planarcadia lies an intricate tale of cause and effect spanning dozens of Amber Eras?"
               }
-            ]
+            ],
+            "id": "p-cce2d97830151df5"
           },
           {
             "type": "paragraph",
@@ -65,7 +68,8 @@
                 "type": "text",
                 "text": "Through bold hypotheses and careful verification, this episode uncovers an earth-shattering secret that has remained hidden from the world."
               }
-            ]
+            ],
+            "id": "p-f73a46fb08214c94"
           },
           {
             "type": "paragraph",
@@ -86,7 +90,8 @@
                 "type": "text",
                 "text": "According to Mr. Andre, a keeper of Planarcadia's ancient language, the glyph rendered as \"Planar\" refers to a flat surface meant for vehicular passage, which possibly suggests the silver rails of the Express. Combined with ancient legends that Planarcadia was founded by visitors from beyond the sky, I boldly theorize that Planarcadia was originally a station of the Trailblaze!"
               }
-            ]
+            ],
+            "id": "p-0a684ba29a21a50c"
           },
           {
             "type": "paragraph",
@@ -107,7 +112,8 @@
                 "type": "text",
                 "text": "According to the Bullet Wyrm Fan Association's research, Bullet Wyrm actually shares the same lineage as the Astral Express. The striking resemblance between the Astral Express and the Bullet Wyrm Express is no coincidence... Legend has it that the original Bullet Wyrm was traced from the Astral Express, but due to Planarcadia's strict copyright enforcement. The artist added many original elements, and through an unexpected turn of events, the Bullet Wyrm we know today came to be."
               }
-            ]
+            ],
+            "id": "p-49158e1d8e5537ae"
           },
           {
             "type": "paragraph",
@@ -128,7 +134,8 @@
                 "type": "text",
                 "text": "Ten Amber Eras ago, there was a viral sighting proclamation of the Astral Express in historical records."
               }
-            ]
+            ],
+            "id": "p-625467d000bdff24"
           },
           {
             "type": "paragraph",
@@ -137,7 +144,8 @@
                 "type": "text",
                 "text": "In 2148 of the Amber Era, during the \"Demonic Apocalypse,\" many civilians witnessed \"a giant dragon falling from beyond the sky,\" which triggered a massive earthquake. Due to the chaos of war and disasters, no one was able to observe this so-called \"giant dragon\" up close... According to art historians, many artworks depicting the Cindearth Age feature a long line stretching across them, which was said to be evidence of the sightings. While theories about the Express's visits vary widely, this nonetheless proves that the connection between Planarcadia and the Astral Express has never been severed."
               }
-            ]
+            ],
+            "id": "p-d897068ea4f84c26"
           },
           {
             "type": "paragraph",
@@ -171,7 +179,8 @@
                 "type": "text",
                 "text": "."
               }
-            ]
+            ],
+            "id": "p-6209d160829891f6"
           },
           {
             "type": "paragraph",
@@ -180,7 +189,8 @@
                 "type": "text",
                 "text": "Is there a shady power deal behind the Graphia family's descendants serving as Navigators of the Express? Could there be hidden conspiracies that the public doesn't know about? With these questions in mind, our publication will continue to track and report on the latest developments of the Astral Express in Planarcadia, bringing you first-hand information."
               }
-            ]
+            ],
+            "id": "p-2469ed2f6b17afcf"
           },
           {
             "type": "paragraph",
@@ -189,7 +199,8 @@
                 "type": "text",
                 "text": "IMPORTANT NOTICE: The above content consists of public speculations. This publication only serves to compile and document these theories. Readers are advised to exercise their own judgment regarding authenticity. This publication assumes no responsibility for any risks arising from improper dissemination."
               }
-            ]
+            ],
+            "id": "p-945d0f8657652074"
           }
         ]
       }

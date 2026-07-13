@@ -4,10 +4,11 @@
   "id": "sky-reconnaissance-logs-of-the-divine-foal",
   "name": "Sky Reconnaissance Logs of the Divine Foal",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Sky_Reconnaissance_Logs_of_the_Divine_Foal",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -49,7 +50,8 @@
                 "type": "text",
                 "text": "The bad news is that we can't go back, haha."
               }
-            ]
+            ],
+            "id": "p-0e227b20954ad051"
           },
           {
             "type": "paragraph",
@@ -78,7 +80,8 @@
                 "type": "text",
                 "text": "To think those barbaric Ladonians share the same noble lineage as the esteemed healers of the Twilight Courtyard? I still find this hard to believe."
               }
-            ]
+            ],
+            "id": "p-fc998df1c09a62fd"
           },
           {
             "type": "paragraph",
@@ -107,7 +110,8 @@
                 "type": "text",
                 "text": "Thinking back to folk tales about food rain from the sky and weapons falling from above, one must consider their connection to these sky rituals."
               }
-            ]
+            ],
+            "id": "p-eb100ae08f0695c7"
           },
           {
             "type": "paragraph",
@@ -136,7 +140,8 @@
                 "type": "text",
                 "text": "Also, the divine foal is made of wood, not a real horse — so please stop staring at me like that, it's creepy!"
               }
-            ]
+            ],
+            "id": "p-288ca4163c28419a"
           },
           {
             "type": "paragraph",
@@ -165,7 +170,8 @@
                 "type": "text",
                 "text": "Our provisions are nearly depleted, yet this iron-stone fortress shows not a single sign of life. What will we do when hunger truly strikes?"
               }
-            ]
+            ],
+            "id": "p-75e73b39feac95c9"
           },
           {
             "type": "paragraph",
@@ -184,7 +190,8 @@
                 "type": "text",
                 "text": "Found a solution."
               }
-            ]
+            ],
+            "id": "p-830e7a33aa5d0bce"
           },
           {
             "type": "paragraph",
@@ -213,7 +220,8 @@
                 "type": "text",
                 "text": "This was his choice. I was powerless to intervene."
               }
-            ]
+            ],
+            "id": "p-79e662d0c7d1d3ef"
           },
           {
             "type": "paragraph",
@@ -249,7 +257,8 @@
                 "type": "text",
                 "text": "— Surely this isn't merely some ancient comic book, right?"
               }
-            ]
+            ],
+            "id": "p-cae209620168ff1a"
           },
           {
             "type": "paragraph",
@@ -258,7 +267,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -297,7 +307,8 @@
                 "type": "text",
                 "text": "I've had a revelation — could this be the true origin of treasure chests in mazes?"
               }
-            ]
+            ],
+            "id": "p-36e8c423a105fc86"
           },
           {
             "type": "paragraph",
@@ -306,7 +317,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -345,7 +357,8 @@
                 "type": "text",
                 "text": "I record here the most important discovery of this journey as a conclusion, hoping to offer some small assistance to future generations."
               }
-            ]
+            ],
+            "id": "p-6e90f5c6123010cc"
           },
           {
             "type": "paragraph",
@@ -354,7 +367,8 @@
                 "type": "text",
                 "text": "—The wooden planks of the divine foal can satisfy hunger, and their taste is quite acceptable."
               }
-            ]
+            ],
+            "id": "p-5691e5fb280a541f"
           },
           {
             "type": "paragraph",
@@ -363,7 +377,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

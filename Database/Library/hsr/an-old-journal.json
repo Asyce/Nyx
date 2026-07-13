@@ -4,10 +4,11 @@
   "id": "an-old-journal",
   "name": "An Old Journal",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/An_Old_Journal",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-31c58171f26b8890"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "I am Lipos, from the city of Jericha. Our city-state was surrounded by the black tide last night."
               }
-            ]
+            ],
+            "id": "p-37c48b60ee7af42e"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "It was swamped by darkness and terrifying monsters... fire and screams everywhere. I have never seen so much blood in my life... So many people are dead..."
               }
-            ]
+            ],
+            "id": "p-cdffe90b8b8bbea3"
           },
           {
             "type": "paragraph",
@@ -51,7 +55,8 @@
                 "type": "text",
                 "text": "Paris brought me out of the city, but father, mother, and my elder sister... No, Lipos, you must be strong. You can't keep crying..."
               }
-            ]
+            ],
+            "id": "p-46c9db07076d09b3"
           },
           {
             "type": "paragraph",
@@ -60,7 +65,8 @@
                 "type": "text",
                 "text": "We're so far away from the city now. I'm so tired... I miss hot meals and my soft bed... But it's okay. I can handle it. I will be fine."
               }
-            ]
+            ],
+            "id": "p-f98e0ae38e5e016e"
           },
           {
             "type": "paragraph",
@@ -69,7 +75,8 @@
                 "type": "text",
                 "text": "Because I promised my sister — she wanted me to live, and record everything I see outside Jericha for her."
               }
-            ]
+            ],
+            "id": "p-af42ac7daa3780a4"
           },
           {
             "type": "paragraph",
@@ -78,7 +85,8 @@
                 "type": "text",
                 "text": "Even though she'll never be able to read this journal... But I'm a big boy! I won't break my promise!"
               }
-            ]
+            ],
+            "id": "p-627816cada5799ee"
           },
           {
             "type": "paragraph",
@@ -87,7 +95,8 @@
                 "type": "text",
                 "text": "(A number of pages are skipped.)"
               }
-            ]
+            ],
+            "id": "p-21dc0750bf71f3b6"
           },
           {
             "type": "paragraph",
@@ -101,7 +110,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-d0f1dae912f6b339"
           },
           {
             "type": "paragraph",
@@ -110,7 +120,8 @@
                 "type": "text",
                 "text": "As expected, Paris abandoned me."
               }
-            ]
+            ],
+            "id": "p-b58e3e2e2e3a6c17"
           },
           {
             "type": "paragraph",
@@ -119,7 +130,8 @@
                 "type": "text",
                 "text": "I know I've been nothing but a burden this entire journey... Since I was born, Paris has always looked after me, but it's different now... He must be tired too. And the black tide is so scary. Paris must be afraid too... so I won't blame him!"
               }
-            ]
+            ],
+            "id": "p-3440ed9cbd50afc3"
           },
           {
             "type": "paragraph",
@@ -128,7 +140,8 @@
                 "type": "text",
                 "text": "I'm... I'm just a little sad, that's all. Really, just a tiny bit!"
               }
-            ]
+            ],
+            "id": "p-494f4a9b42edb358"
           },
           {
             "type": "paragraph",
@@ -137,7 +150,8 @@
                 "type": "text",
                 "text": "But I'm really fortunate! Mr. Hesiod is a really, really, really nice person — he didn't just save me, he also provided me with food and lodging!"
               }
-            ]
+            ],
+            "id": "p-54f99b1b79be6696"
           },
           {
             "type": "paragraph",
@@ -146,7 +160,8 @@
                 "type": "text",
                 "text": "And he's an amazing poet too. His songs sound wonderful, and his stories are delightful. I know it's a little different, but when he sings, I'm reminded of when mother used to sing lullabies to me and my sis..."
               }
-            ]
+            ],
+            "id": "p-1137d69b7a3cb9b3"
           },
           {
             "type": "paragraph",
@@ -155,7 +170,8 @@
                 "type": "text",
                 "text": "(A number of pages are skipped.)"
               }
-            ]
+            ],
+            "id": "p-21dc0750bf71f3b6-2"
           },
           {
             "type": "paragraph",
@@ -169,7 +185,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-b054139e173e675c"
           },
           {
             "type": "paragraph",
@@ -178,7 +195,8 @@
                 "type": "text",
                 "text": "Mr. Hesiod sure is popular, everyone loves him."
               }
-            ]
+            ],
+            "id": "p-e6190eec2cbb87e3"
           },
           {
             "type": "paragraph",
@@ -187,7 +205,8 @@
                 "type": "text",
                 "text": "It's like there is magic hidden in his voice. No matter how tired or hungry everyone is, their faces brighten right up after listening to Mr. Hesiod's songs."
               }
-            ]
+            ],
+            "id": "p-b3f4e5c560562da5"
           },
           {
             "type": "paragraph",
@@ -196,7 +215,8 @@
                 "type": "text",
                 "text": "But Mr. Hesiod must like me the most! He said so, over yesterday's dinner, that as long as I learned more poems and songs, he would take me in as a student!"
               }
-            ]
+            ],
+            "id": "p-85c60538f262fd16"
           },
           {
             "type": "paragraph",
@@ -205,7 +225,8 @@
                 "type": "text",
                 "text": "But... What he doesn't know is that I've not only memorized his melodies, I'm also writing my own poems!"
               }
-            ]
+            ],
+            "id": "p-100629ced7c9a1a7"
           },
           {
             "type": "paragraph",
@@ -227,7 +248,8 @@
                 "type": "text",
                 "text": ". It's a story about how everyone comes together to overcome hardships and eventually reach Okhema! It's not very good, but I wrote it specially for Mr. Hesiod."
               }
-            ]
+            ],
+            "id": "p-460a3867af62c2a8"
           },
           {
             "type": "paragraph",
@@ -236,7 +258,8 @@
                 "type": "text",
                 "text": "When I arrive in Okhema, I won't have to worry about the black tide or those monsters. Lipos will give this poem to Mr. Hesiod then — no, it's Master Hesiod!"
               }
-            ]
+            ],
+            "id": "p-ac0102be0015ebd9"
           },
           {
             "type": "paragraph",
@@ -245,7 +268,8 @@
                 "type": "text",
                 "text": "(A number of pages are skipped.)"
               }
-            ]
+            ],
+            "id": "p-21dc0750bf71f3b6-3"
           },
           {
             "type": "paragraph",
@@ -259,7 +283,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-4f42beaaefd95386"
           },
           {
             "type": "paragraph",
@@ -268,7 +293,8 @@
                 "type": "text",
                 "text": "...Everyone... Everyone is... just like Jericha back then..."
               }
-            ]
+            ],
+            "id": "p-5a40f219636ab099"
           },
           {
             "type": "paragraph",
@@ -277,7 +303,8 @@
                 "type": "text",
                 "text": "Why... Why did you save me... Why didn't you run away like Paris..."
               }
-            ]
+            ],
+            "id": "p-c5750881dbc470a1"
           },
           {
             "type": "paragraph",
@@ -286,7 +313,8 @@
                 "type": "text",
                 "text": "I'm sorry, this is all my fault. I'm sorry, Mr. Hesiod..."
               }
-            ]
+            ],
+            "id": "p-3545a6e87b2a1d3b"
           },
           {
             "type": "paragraph",
@@ -295,7 +323,8 @@
                 "type": "text",
                 "text": "(A number of pages are skipped.)"
               }
-            ]
+            ],
+            "id": "p-21dc0750bf71f3b6-4"
           },
           {
             "type": "paragraph",
@@ -309,7 +338,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-0ab683ee957c6961"
           },
           {
             "type": "paragraph",
@@ -318,7 +348,8 @@
                 "type": "text",
                 "text": "This is[Okhema...? No wonder they call it \"Amphoreus' Final Haven.\""
               }
-            ]
+            ],
+            "id": "p-0eb75d0594cedac4"
           },
           {
             "type": "paragraph",
@@ -327,7 +358,8 @@
                 "type": "text",
                 "text": "Don't worry, master. I will use your lyre and sing your poems for everyone here..."
               }
-            ]
+            ],
+            "id": "p-a09a56fc0ee74bff"
           },
           {
             "type": "paragraph",
@@ -336,7 +368,8 @@
                 "type": "text",
                 "text": "(...)"
               }
-            ]
+            ],
+            "id": "p-6e6ea7e1675130fe"
           }
         ]
       }

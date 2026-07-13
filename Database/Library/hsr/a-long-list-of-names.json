@@ -4,10 +4,11 @@
   "id": "a-long-list-of-names",
   "name": "A Long List of Names",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/A_Long_List_of_Names",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -236,7 +237,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-611191a903f7a489"
           }
         ]
       }

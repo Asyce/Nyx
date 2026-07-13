@@ -4,17 +4,19 @@
   "id": "underground-encyclopedia-plants-and-fungi",
   "name": "Underground Encyclopedia: Plants and Fungi",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Underground_Encyclopedia:_Plants_and_Fungi",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "part-i",
       "label": "Part I",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-eb2466f1a9a2ffc2"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "Blue Lamp Umbrella is a type of fungus that is commonly found growing near geomarrow. Small-sized fruiting body, flat cap with a dimple and gills, 0.5–2 cm in diameter, smooth, dry, with its color fading from cyan to light-blue, becoming lighter towards the center. The stipe is 3–5 cm, 1 mm or thicker, smooth, curved, and hollow. The cap is covered in shining dust, making the mushroom give off a blue glow in the dark."
               }
-            ]
+            ],
+            "id": "p-5832508db076fe4c"
           },
           {
             "type": "paragraph",
@@ -46,11 +50,13 @@
                 "type": "text",
                 "text": "This Blue Lamp Umbrella is edible, but this is not recommended because its flesh is hard to chew. It's used primarily by some clinics for pharmaceutical purposes. Fungi of the Blue Lamp family have analgesic effects, which have proven effective for trigeminal neuralgia, migraines, fracture pains, and rheumatoid arthritis. The discovery of this fungi has done wonders for miners who commonly suffer from these problems. Its name \"umbrella\" was borrowed from a common object to describe its shape, but over time, underground people forgot what an umbrella was."
               }
-            ]
+            ],
+            "id": "p-ebe209c619e95d25"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a-2"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ca0815dc4c11c045"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "Corrosive ore moss is a small plant with subspherical reflex cells on top, usually found in cave entrances or abandoned geomarrow mines. The plant absorbs the moisture and organic matter in the air through its compact structure, secreting acidic substances constantly during the growth process. In geomarrow mines, the acidic substances dissolve geomarrow powder, creating a chemical reaction that will release weak light and energy."
               }
-            ]
+            ],
+            "id": "p-3775744768c5e4b7"
           },
           {
             "type": "paragraph",
@@ -82,11 +90,13 @@
                 "type": "text",
                 "text": "Its strong protonema is usually round and can reflect or refract light into a greenish glow. In the depths of a cave where there is almost no light, this moss is still capable of using photosynthesis to survive. There is an ecological phenomenon, known as the \"Moss Corridor\" where the mossy overgrowth expands to unimaginable proportions inside a Geomarrow mine."
               }
-            ]
+            ],
+            "id": "p-39dfb44169ef8c17"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a-3"
           },
           {
             "type": "paragraph",
@@ -100,7 +110,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-f2b66c2f552142ed"
           },
           {
             "type": "paragraph",
@@ -109,7 +120,8 @@
                 "type": "text",
                 "text": "The zombie general is not an actual zombie, nor is it a real general, it's just the name of a dead giant banyan tree. The giant banyan tree existed long before the Eternal Freeze. This single tree extended to form an entire forest and a famous eco-attraction. To extend their respect, the people at the time named this tree \"General Sherba.\" When the Eternal Freeze came about, the exposed parts of General Sherba died in the frost and snow. However, in its slow process of agony and death, the roots of General Sherba kept growing and took over underground water sources to absorb even more energy. The expansion of its underground root system continued even after the main tree had died."
               }
-            ]
+            ],
+            "id": "p-004f389f64688ab9"
           },
           {
             "type": "paragraph",
@@ -118,20 +130,23 @@
                 "type": "text",
                 "text": "The elder members of the Geomarrow Development Group were shocked the first time they ran into the roots because Belobog was more than a hundred kilometers away from the general. From this point on, the ever-growing roots were referred to by the people as the \"zombie general.\" Even to this day, the zombie general still acts as a very important source of materials for the Underworld and its people. As for the overall cultivation of the roots, it would be safe to say that less than 1% of it has been tapped into."
               }
-            ]
+            ],
+            "id": "p-c55411de71b91b3d"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "part-ii",
       "label": "Part II",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -145,7 +160,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ad23653aa0915744"
           },
           {
             "type": "paragraph",
@@ -154,7 +170,8 @@
                 "type": "text",
                 "text": "Azure Ghost Umbrella, also known as Deadly Blue Umbrella, is a blue fungus that is oval-shaped as a juvenile, with its cap expanding to an umbrella shape later in life. Azure Ghost Umbrella is very similar to the Blue Lamp Umbrella in terms of shape, sharing a belly-button shape in the middle and has grooves. The color is pure indigo with no gradient. The key difference between it and Blue Lamp Umbrellas is the presence of subtle white spots, which is harder to detect in darker environments."
               }
-            ]
+            ],
+            "id": "p-216aa12ccb28f371"
           },
           {
             "type": "paragraph",
@@ -163,7 +180,8 @@
                 "type": "text",
                 "text": "50 grams of this highly-toxic poison is enough to kill an adult weighing 50 kilograms. Its toxins are mainly amatoxins and toxic peptides, both of which are extremely high in fresh Azure Ghost Umbrella. When ingested, these toxins can cause serious damage to the liver, kidney, blood vessel linings, and the central nervous system, resulting in organ failure and eventually death."
               }
-            ]
+            ],
+            "id": "p-a18f65c902d3b422"
           },
           {
             "type": "paragraph",
@@ -172,11 +190,13 @@
                 "type": "text",
                 "text": "Its resemblance to the Blue Lamp Umbrella had resulted in several accidental poisoning incidents within the Geomarrow Development Group at its early stage. Their response was the massive search and destruction of these fungi. It would be hard to find them now. In addition, Underworlders began to cultivate Blue Lamp Umbrella in farms and no longer needed to search for them in the wild. This also significantly reduced the number of poisoning incidents."
               }
-            ]
+            ],
+            "id": "p-fa5381dc8ae05267"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a-2"
           },
           {
             "type": "paragraph",
@@ -190,7 +210,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-703c6f2eb8b41d5b"
           },
           {
             "type": "paragraph",
@@ -199,7 +220,8 @@
                 "type": "text",
                 "text": "Aroma Ether Grass is commonly found in caves with high levels of radiation. Its thick short stems store rich aroma volatiles. At low temperatures, the plant leaves quickly produce a scent that attracts many underground creatures. The scent also has a hypnotic effect and creatures eventually huddle around the plant to sleep."
               }
-            ]
+            ],
+            "id": "p-0311c6e55cf44234"
           },
           {
             "type": "paragraph",
@@ -208,11 +230,13 @@
                 "type": "text",
                 "text": "The creatures gathered around look like a group of children listening to a story quietly, which is why this plant has been nicknamed \"Fairy Tale King.\" However, sleeping in a cave with high radiation levels isn't as sweet as a fairy tale. The volatile chemicals are also effective on humans, but usually do not manage to sedate healthy adults. The Underground markets have made use of the extracted chemicals by diluting it to create aromatherapy products that help with sleep."
               }
-            ]
+            ],
+            "id": "p-6f45d0bfb838668a"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a-3"
           },
           {
             "type": "paragraph",
@@ -226,7 +250,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-370de0f3669ba9cb"
           },
           {
             "type": "paragraph",
@@ -235,7 +260,8 @@
                 "type": "text",
                 "text": "Soothing Mushroom, medium-sized soft body, thick cap, 4-8cm wide, convex cap, black and green with scales and inwardly curled edges. Soothing Mushroom contains a special chemical named psilocybin, which is a serotonin-receptor blocker. It can block neuronal connections when serotonin becomes lacking, resulting in a partial loss of sensation for the person."
               }
-            ]
+            ],
+            "id": "p-4b995678816ddf33"
           },
           {
             "type": "paragraph",
@@ -244,7 +270,8 @@
                 "type": "text",
                 "text": "It was once used as an analgesic due to its special neuron blocking characteristics. However, psilocybin doesn't just block pain. During the test phase, ingesting the Soothing Mushroom blocker also resulted in negative effects on the function of various bodily organs. It wasn't until an outside medical expert modified the formula by lowering the dosage and using regional injections that the analgesic ability was realized."
               }
-            ]
+            ],
+            "id": "p-977df744480752ef"
           }
         ]
       }

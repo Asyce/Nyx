@@ -4,10 +4,11 @@
   "id": "phainon-s-message",
   "name": "Phainon's Message",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Phainon%27s_Message",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "\"If it was Mydeimos standing here... He would be wiser and more capable than me, right?\""
               }
-            ]
+            ],
+            "id": "p-0839a6b303404786"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "— After Aglaea departed, these words wouldn't stop echoing in my head. It was something I couldn't escape from, and also something I absolutely refused to utter."
               }
-            ]
+            ],
+            "id": "p-985483647fdd5f34"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "How could I be worthy of my comrades and allies' trust? What right have I to stand upon her shoulders and guide others? These questions remain unanswered. But there is no time for doubt. The first enemy the \"Dawnmaker\" must vanquish is the hesitation and sorrow that have shadowed me this far."
               }
-            ]
+            ],
+            "id": "p-97a1d0635f2ca41b"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "That's why I resolved to aid you during your return. Even if it's incomprehensible, even if this means I must impose my will on you, I have to see it done. Because the promise of the Era Nova is unclear, to you, who came from beyond Amphoreus, its influence cannot be predicted... After I cleansed my doubt, I find that this is the right decision, born from the depths of my heart."
               }
-            ]
+            ],
+            "id": "p-1a0ad409405726eb"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "The prophecy claimed that only one person can reach the final end of the Era Nova. Please forgive me for stealing your chance to witness the miracle. My friend, it's because of the prophecies made by Lady Tribbie that the Chrysos Heirs made it to today... And so, even if we must face the scenes from the promised age, I cannot risk bringing you with me."
               }
-            ]
+            ],
+            "id": "p-ff62158ca99a58ae"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "Thinking back, maybe the only thing I did right in this life is choosing to trust you, and becoming friends with you all. I faintly feel that, perhaps, the greatest miracle of Amphoreus isn't so much the secrets hidden within the Vortex of Genesis... but rather the instant you and Dan Heng descended from the sky."
               }
-            ]
+            ],
+            "id": "p-502ef902bb0924a3"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "You are the hero of my heart, (Trailblazer). If the next life comes to pass, no matter what I become... I will make sure the world remembers the miracle of the Trailblaze."
               }
-            ]
+            ],
+            "id": "p-6cb6773d6391ba8e"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "But... I mean... If you don't approve of my solitary decision and plans to create a new path with myself, toward a future that no one could imagine..."
               }
-            ]
+            ],
+            "id": "p-5e1e97ef1b5d3e15"
           },
           {
             "type": "paragraph",
@@ -91,7 +100,8 @@
                 "type": "text",
                 "text": "— You'll always find a way to break the rules, right?"
               }
-            ]
+            ],
+            "id": "p-7fd200993f59434c"
           },
           {
             "type": "paragraph",
@@ -100,7 +110,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "glimpses-of-mysterious-inazuma",
   "name": "Glimpses of Mysterious Inazuma",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Glimpses_of_Mysterious_Inazuma",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
@@ -197,13 +198,15 @@
                 "type": "text",
                 "text": "\"If your first instinct after being turned into an Abyssal monster was to come find me for storytime, that'd mean you were completely fine. After all, you're much more of a handful than Sayohime was in the story. Anyway, Miss Usa... I just so happen to have finished this cup of tea. Would you mind getting me a refill?\""
               }
-            ]
+            ],
+            "id": "p-9d34dc43f4cc9257"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
@@ -485,7 +488,8 @@
                 "type": "text",
                 "text": "And just like that, the young baku stayed by the elderly couple's side. With their daughter's delicious pastries to sell, the old man and woman spent their twilight years in comfort and prosperity. And they all lived happily ever after."
               }
-            ]
+            ],
+            "id": "p-38382fe304a81f40"
           }
         ]
       }

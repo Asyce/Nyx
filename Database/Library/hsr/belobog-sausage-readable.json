@@ -4,10 +4,11 @@
   "id": "belobog-sausage-readable",
   "name": "Belobog Sausage",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Belobog_Sausage_(Readable)",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "For Foodies! Belobog Sausages: Which Type is Your Favorite?"
               }
-            ]
+            ],
+            "id": "p-d0610089799e5b8a"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "A century has passed since the Belobog Meat Factory first introduced sausages. Since then, it has become a familiar taste in every Belobog household. When it comes to eating the Belobog sausages, everyone has their own opinion. Here, we've compiled a list of your favorite ways to eat it. Which type is your favorite?"
               }
-            ]
+            ],
+            "id": "p-9ca6ab467c0e509e"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "The first way is to eat it as is. The sausage itself is already cooked and has been processed in many ways. It can be eaten as a snack or as a side dish. Its original taste alone is already delicious!"
               }
-            ]
+            ],
+            "id": "p-554c9fc708de04ac"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "The second way is to cook it with hammer peppers. The sausage can be stir-fried with many vegetables, but hammer peppers are undoubtedly the best choice. Stir-frying causes the aroma of the sausage to complement the strong fragrance of the peppers, allowing for a more unique flavor."
               }
-            ]
+            ],
+            "id": "p-f82299abc653531b"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "The third way is to grill it. Cut across the sausage before putting it on the grill. Served with spices, it's great as street snack."
               }
-            ]
+            ],
+            "id": "p-40cfaabe45316373"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "The fourth way is to wrap it in suncakes. Make a suncake wrap by adding thin slices of the sausage. This method not only enriches the taste of the suncake, but also balances out the sausage's flavor. Well worth a taste!"
               }
-            ]
+            ],
+            "id": "p-49cb8005c8e144f3"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "Over the years, upgrades to the process and machinery have greatly improved production capacity. The fat but not greasy characteristic is unique to this sausage. Its original delicious taste has been retained, and various flavors are now available for consumers to choose from."
               }
-            ]
+            ],
+            "id": "p-d11bbfaf585598c4"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "To celebrate Belobog's centenary, the Belobog Meat Factory is offering discounts on all products to all customers. Welcome to the store and try the products!"
               }
-            ]
+            ],
+            "id": "p-05b04ed56797a637"
           }
         ]
       }

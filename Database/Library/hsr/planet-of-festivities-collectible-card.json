@@ -4,10 +4,11 @@
   "id": "planet-of-festivities-collectible-card",
   "name": "Planet of Festivities Collectible Card",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Planet_of_Festivities_Collectible_Card",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "planet-of-festivities-robin",
       "label": "Planet of Festivities: Robin",
       "document": {
         "version": 1,
@@ -40,13 +41,15 @@
                 "type": "text",
                 "text": "Surrounded by vibrant lights, the audience was moved to tears by her voice. All the flaws, ugliness, deception, and loneliness in life were forgotten."
               }
-            ]
+            ],
+            "id": "p-9459adc18aacb944"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "planet-of-festivities-oti-alfalfa",
       "label": "Planet of Festivities: Oti Alfalfa",
       "document": {
         "version": 1,
@@ -79,13 +82,15 @@
                 "type": "text",
                 "text": "In the center of wealth's sea of flowers, the first gardener still keeps busy, if only to keep this bustling scenery ever-alive in the dream."
               }
-            ]
+            ],
+            "id": "p-dc93b3e19928447e"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "planet-of-festivities-mr-aideen",
       "label": "Planet of Festivities: Mr. Aideen",
       "document": {
         "version": 1,
@@ -111,13 +116,15 @@
                 "type": "text",
                 "text": "Slumbering guest, imbibe the dream in this bottle with relish — that is the elixir of happiness, and the recipe to forget your troubles. Its master is more than happy to share it with you!"
               }
-            ]
+            ],
+            "id": "p-8929add4f72af377"
           }
         ]
       }
     },
     {
       "id": "4",
+      "volumeKey": "planet-of-festivities-lesley-dean",
       "label": "Planet of Festivities: Lesley Dean",
       "document": {
         "version": 1,
@@ -150,13 +157,15 @@
                 "type": "text",
                 "text": "An infinitesimal, yet grand victory."
               }
-            ]
+            ],
+            "id": "p-01a65d6adfeee6d6"
           }
         ]
       }
     },
     {
       "id": "5",
+      "volumeKey": "planet-of-festivities-hamz",
       "label": "Planet of Festivities: Hamz",
       "document": {
         "version": 1,
@@ -182,13 +191,15 @@
                 "type": "text",
                 "text": "As the match point looms near, a torrent of cheers descends like a tempest. The rider, defying this very era, rides his steel hamster ball and once again rolls towards the future."
               }
-            ]
+            ],
+            "id": "p-ded09350acad49ad"
           }
         ]
       }
     },
     {
       "id": "6",
+      "volumeKey": "planet-of-festivities-maeven-ellis",
       "label": "Planet of Festivities: Maeven Ellis",
       "document": {
         "version": 1,
@@ -221,13 +232,15 @@
                 "type": "text",
                 "text": "She only smiled and gracefully tilted her form. Dewdrops fell and soil was moistened, then iris flowers bloomed across the vast wilderness, and the sweet dream burst with vibrant colors."
               }
-            ]
+            ],
+            "id": "p-91f6a3883bd2cb18"
           }
         ]
       }
     },
     {
       "id": "7",
+      "volumeKey": "planet-of-festivities-gopher-wood",
       "label": "Planet of Festivities: Gopher Wood",
       "document": {
         "version": 1,
@@ -253,13 +266,15 @@
                 "type": "text",
                 "text": "Fresh buds arise from the mud and soil, and the saint of the mortal realm still cares for the poor children. Then, they agree to the expectations, and allow a sweet reverie."
               }
-            ]
+            ],
+            "id": "p-e74e74061783c2ec"
           }
         ]
       }
     },
     {
       "id": "8",
+      "volumeKey": "planet-of-festivities-hanunue",
       "label": "Planet of Festivities: Hanunue",
       "document": {
         "version": 1,
@@ -292,13 +307,15 @@
                 "type": "text",
                 "text": "Oppressive reins seek to strangle him in the boundless desert where his bones will lie exposed to the elements, yet he sacrifices his life to break the millennium-old shackles, establishing an unrestricted nation upon the barren land."
               }
-            ]
+            ],
+            "id": "p-7a0f3a62f66f6337"
           }
         ]
       }
     },
     {
       "id": "9",
+      "volumeKey": "planet-of-festivities-glaux",
       "label": "Planet of Festivities: Glaux",
       "document": {
         "version": 1,
@@ -324,13 +341,15 @@
                 "type": "text",
                 "text": "As the sun reemerged, he had already vanished from the heavens. Twelve cities stood on this earth, for those were the dreams he left behind for the fledglings birds."
               }
-            ]
+            ],
+            "id": "p-8041ec6ff58bb831"
           }
         ]
       }
     },
     {
       "id": "10",
+      "volumeKey": "planet-of-festivities-nameless-hero",
       "label": "Planet of Festivities: Nameless Hero",
       "document": {
         "version": 1,
@@ -363,13 +382,15 @@
                 "type": "text",
                 "text": "Countless anonymous names are lost in the fleeting river of time, yet some voices are destined to echo through the desert of time and never fade away."
               }
-            ]
+            ],
+            "id": "p-726f581e50a3b1f0"
           }
         ]
       }
     },
     {
       "id": "11",
+      "volumeKey": "planet-of-festivities-origami-dreamweaver",
       "label": "Planet of Festivities: Origami Dreamweaver",
       "document": {
         "version": 1,
@@ -395,7 +416,8 @@
                 "type": "text",
                 "text": "Now, lift your gaze and bear witness to this final magic, then let the stars illuminate your eyes."
               }
-            ]
+            ],
+            "id": "p-d03cf0904dece075"
           }
         ]
       }

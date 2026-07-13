@@ -4,10 +4,11 @@
   "id": "observation-report-on-little-ica",
   "name": "Observation Report on Little Ica",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Observation_Report_on_Little_Ica",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -44,7 +45,8 @@
                 "type": "text",
                 "text": "Supervisor: ███ ██"
               }
-            ]
+            ],
+            "id": "p-2b6bba0b75316f90"
           },
           {
             "type": "paragraph",
@@ -68,7 +70,8 @@
                 "type": "text",
                 "text": "Through long-term observation of the winged beast's diet, fur, and behavior, this study aims to delve into the unique physiology and habits of its kind. By doing so, we seek to refine fundamental methodologies in cryptozoological research and lay a practical and theoretical foundation for further studies on Aquila's creations."
               }
-            ]
+            ],
+            "id": "p-7830e25dae3c8610"
           },
           {
             "type": "paragraph",
@@ -102,7 +105,8 @@
                 "type": "text",
                 "text": "Possibly due to its highly domesticated nature, the winged beast's eating habits closely resemble those of humans — three meals a day."
               }
-            ]
+            ],
+            "id": "p-8a3348fc4cfdbcfa"
           },
           {
             "type": "paragraph",
@@ -111,7 +115,8 @@
                 "type": "text",
                 "text": "During a single midday feeding session, Little Ica consumed ten wild apples. An additional ten were offered — immediately consumed. Another twenty — also consumed without hesitation. A single burp was observed. Five more apples were given — once again, immediately consumed. Observation suspended due to budget constraints."
               }
-            ]
+            ],
+            "id": "p-1eb247b4efb3e4b8"
           },
           {
             "type": "paragraph",
@@ -145,7 +150,8 @@
                 "type": "text",
                 "text": "Collected sample fur: translucent, fire-resistant, naturally disintegrates after 15 minutes. When exposed to moonlight, it lifts slightly. For tactile assessment, recorded as follows:"
               }
-            ]
+            ],
+            "id": "p-bf0d51f09afa2482"
           },
           {
             "type": "paragraph",
@@ -169,7 +175,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-b17cb7c1009f9bca"
           },
           {
             "type": "paragraph",
@@ -203,7 +210,8 @@
                 "type": "text",
                 "text": "Cross-referencing ancient tablets and texts reveals striking similarities between Ica and the winged beast Lunabis, once companion to the Daythunder Knight. This suggests they belong to the same lineage — perhaps even share a deeper connection."
               }
-            ]
+            ],
+            "id": "p-1ad9c6740dedcbeb"
           },
           {
             "type": "paragraph",
@@ -222,7 +230,8 @@
                 "type": "text",
                 "text": "Perhaps due to being one of Aquila's creations, it appears responsive to other Titan Miracles. Occasionally, it even engages in conversations with the White Dryad."
               }
-            ]
+            ],
+            "id": "p-4705191412ec9657"
           },
           {
             "type": "paragraph",
@@ -256,7 +265,8 @@
                 "type": "text",
                 "text": "Its divine blessing seems unstable and is gradually fading. Could it be that Aquila no longer watches over the Skyfolk?"
               }
-            ]
+            ],
+            "id": "p-92a17aea31be1975"
           },
           {
             "type": "paragraph",
@@ -290,7 +300,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-9ece0c9e434419d9"
           },
           {
             "type": "paragraph",
@@ -299,7 +310,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "evening-tavern-stories-soulglad-special-issue",
   "name": "Evening Tavern Stories: SoulGlad Special Issue",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Evening_Tavern_Stories:_SoulGlad_Special_Issue",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Hey there, my dear readers! It's been a while, and I miss you all! In our last edition, we talked about... Well, honestly, I can't remember what nonsense I made up last time. So let's just forget about it. Anyways, are you sick and tired of boring news and lame entertainment? Do you find yourself unsatisfied even in your wildest dreams? Are you craving something more exciting and fun? Well, guess what? Today, the one and only Miles, the ultimate Tavern reporter, is here to lead you to the truth behind the golden bubbles!"
               }
-            ]
+            ],
+            "id": "p-a941426d974b6427"
           },
           {
             "type": "paragraph",
@@ -49,7 +51,8 @@
                 "type": "text",
                 "text": "Don't be fooled by these slick ads, my dear readers!"
               }
-            ]
+            ],
+            "id": "p-72e115bcd64b9e52"
           },
           {
             "type": "paragraph",
@@ -93,7 +96,8 @@
                 "type": "text",
                 "text": "Praise all the fancy wordplay! It's the only way how those sneaky capitalists and History Fictionologists trick us into blindly believing their nonsense!"
               }
-            ]
+            ],
+            "id": "p-7483a00c0a488b55"
           },
           {
             "type": "paragraph",
@@ -144,7 +148,8 @@
                 "type": "text",
                 "text": "And a not-so-friendly Bloodhound Family member warned, \"Keep spreading this nonsense and asking unwanted questions, and I'll feed you to those Memory Zone Memes.\""
               }
-            ]
+            ],
+            "id": "p-3b60326296ed68cc"
           },
           {
             "type": "paragraph",
@@ -153,7 +158,8 @@
                 "type": "text",
                 "text": "And that's a wrap, dear readers! Stay tuned for more mind-blowing news coming your way!"
               }
-            ]
+            ],
+            "id": "p-9871cb5b06ab2d17"
           }
         ]
       }

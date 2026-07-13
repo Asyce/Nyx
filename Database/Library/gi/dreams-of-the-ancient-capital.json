@@ -4,10 +4,11 @@
   "id": "dreams-of-the-ancient-capital",
   "name": "Dreams of the Ancient Capital",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Dreams_of_the_Ancient_Capital",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -232,7 +233,8 @@
                 "type": "text",
                 "text": "You really like writing stories about dragons, don't you?"
               }
-            ]
+            ],
+            "id": "p-1c32414fa56a1128"
           }
         ]
       }

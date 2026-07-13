@@ -4,10 +4,11 @@
   "id": "dreamscape-tourist-compendium-shopping",
   "name": "Dreamscape Tourist Compendium — Shopping",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Dreamscape_Tourist_Compendium_%E2%80%94_Shopping",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -57,7 +58,8 @@
                 "type": "text",
                 "text": "We hope you can leave all your worries behind and live in the present!"
               }
-            ]
+            ],
+            "id": "p-98b3a6508d413b57"
           },
           {
             "type": "paragraph",
@@ -104,7 +106,8 @@
                 "type": "text",
                 "text": "There are a variety of complementary services you can enjoy besides shopping. All stores offer free shipping, which means the physical goods you purchase will be delivered to your room in the real world. You can even courier the goods to anywhere in the universe via the Cosmic Express network!"
               }
-            ]
+            ],
+            "id": "p-9bf69983bb81024f"
           },
           {
             "type": "paragraph",
@@ -151,7 +154,8 @@
                 "type": "text",
                 "text": "Rumor has it that the galactic superstar Lesley Dean once dined here."
               }
-            ]
+            ],
+            "id": "p-6056c7e710733f97"
           },
           {
             "type": "paragraph",
@@ -198,7 +202,8 @@
                 "type": "text",
                 "text": "Interestingly, with the changing tastes and aesthetic preferences of audiences in recent years, the popularity of the villainous character, Boss Stone, has soared and is poised to become the new best-selling item."
               }
-            ]
+            ],
+            "id": "p-4ddde0b8257aff97"
           },
           {
             "type": "paragraph",
@@ -245,7 +250,8 @@
                 "type": "text",
                 "text": "Of course, you can order the Classic SoulGlad here, but it won't taste as good as those pre-made ones you can get outside."
               }
-            ]
+            ],
+            "id": "p-3f3b25f63ca9c087"
           }
         ]
       }

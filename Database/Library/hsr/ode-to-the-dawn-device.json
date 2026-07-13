@@ -4,10 +4,11 @@
   "id": "ode-to-the-dawn-device",
   "name": "Ode to the Dawn Device",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Ode_to_the_Dawn_Device",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -29,7 +30,8 @@
                 "type": "text",
                 "text": "In one eternal moment, boundless sorrow welled up in the heart of the Sky Titan."
               }
-            ]
+            ],
+            "id": "p-7c05296e23bb2277"
           },
           {
             "type": "paragraph",
@@ -48,7 +50,8 @@
                 "type": "text",
                 "text": "Now this Worldbearing Titan could no longer gaze directly at the splendor of the skies."
               }
-            ]
+            ],
+            "id": "p-20d457e59a86a4d7"
           },
           {
             "type": "paragraph",
@@ -67,7 +70,8 @@
                 "type": "text",
                 "text": "There, the Titan's divine blood merged with lightning, forging an eternally undying radiance."
               }
-            ]
+            ],
+            "id": "p-11e3863144c74eae"
           },
           {
             "type": "paragraph",
@@ -86,7 +90,8 @@
                 "type": "text",
                 "text": "The Sky Titan sacrificed their own eternity to forge this unprecedented creation."
               }
-            ]
+            ],
+            "id": "p-4d3ec2e83559f484"
           },
           {
             "type": "paragraph",
@@ -115,7 +120,8 @@
                 "type": "text",
                 "text": "This is the sacred vessel capable of illuminating for eternity."
               }
-            ]
+            ],
+            "id": "p-314624cc24fecb86"
           },
           {
             "type": "paragraph",
@@ -144,7 +150,8 @@
                 "type": "text",
                 "text": "This is the Sky Titan's most sacred creation."
               }
-            ]
+            ],
+            "id": "p-853c25c42eb0d2a8"
           },
           {
             "type": "paragraph",
@@ -183,7 +190,8 @@
                 "type": "text",
                 "text": "\"Even if all my hundred eyes should close, it will forever illuminate your realm.\""
               }
-            ]
+            ],
+            "id": "p-dfb844fd7575121a"
           },
           {
             "type": "paragraph",
@@ -222,7 +230,8 @@
                 "type": "text",
                 "text": "\"Henceforth, we are brothers bound by fate.\""
               }
-            ]
+            ],
+            "id": "p-f744041eb49733ac"
           },
           {
             "type": "paragraph",
@@ -261,7 +270,8 @@
                 "type": "text",
                 "text": "This was not merely a gift, but an eternal covenant."
               }
-            ]
+            ],
+            "id": "p-06b05b79624dd15c"
           },
           {
             "type": "paragraph",
@@ -310,7 +320,8 @@
                 "type": "text",
                 "text": "this is a promise forged in eternity."
               }
-            ]
+            ],
+            "id": "p-d1c895f8f072b53b"
           },
           {
             "type": "paragraph",
@@ -319,7 +330,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

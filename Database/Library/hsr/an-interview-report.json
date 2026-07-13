@@ -4,17 +4,19 @@
   "id": "an-interview-report",
   "name": "An Interview Report",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/An_Interview_Report",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -32,7 +34,8 @@
                 "type": "text",
                 "text": "Fulwish TV, Backstage Studio"
               }
-            ]
+            ],
+            "id": "p-111702c35b51db50"
           },
           {
             "type": "paragraph",
@@ -50,7 +53,8 @@
                 "type": "text",
                 "text": "Dovebrook Kid (Comedy Star) & Seafeld Kid (Tragedy Star)"
               }
-            ]
+            ],
+            "id": "p-dac0b4b77a50df12"
           },
           {
             "type": "paragraph",
@@ -68,7 +72,8 @@
                 "type": "text",
                 "text": "Joolyon"
               }
-            ]
+            ],
+            "id": "p-1ac83519954dd5c8"
           },
           {
             "type": "paragraph",
@@ -77,7 +82,8 @@
                 "type": "text",
                 "text": "(When I arrived, actor Seafeld Kid had just finished his performance. Actor Dovebrook Kid was still getting his makeup done, with half an hour until his stage time.)"
               }
-            ]
+            ],
+            "id": "p-3595571f1fb9dede"
           },
           {
             "type": "paragraph",
@@ -95,7 +101,8 @@
                 "type": "text",
                 "text": "Gentlemen, thank you for taking time out of your busy schedules for this interview..."
               }
-            ]
+            ],
+            "id": "p-9b7c5ad8c7f6b575"
           },
           {
             "type": "paragraph",
@@ -113,7 +120,8 @@
                 "type": "text",
                 "text": "No need to thank me, it's all arranged by the TV station... Another day of not having control over my life. Not only do I have to be the butt of everyone's jokes on stage, but my personal time gets forcefully taken away too. How pathetic. Boo-hoo boo-hoo..."
               }
-            ]
+            ],
+            "id": "p-31f1e5908567da43"
           },
           {
             "type": "paragraph",
@@ -131,7 +139,8 @@
                 "type": "text",
                 "text": "Look on the bright side, we're becoming a public laughingstock in a whole new way now. By The Laughter above, this is just too ridiculous, Hahaha!"
               }
-            ]
+            ],
+            "id": "p-3b2785ab5ada2252"
           },
           {
             "type": "paragraph",
@@ -175,7 +184,8 @@
                 "type": "text",
                 "text": "have both broken the station's decade-long ratings records. How do you feel about this?"
               }
-            ]
+            ],
+            "id": "p-172e09474f0cbe30"
           },
           {
             "type": "paragraph",
@@ -193,7 +203,8 @@
                 "type": "text",
                 "text": "I'd rather not think about it."
               }
-            ]
+            ],
+            "id": "p-39563580028a7d9d"
           },
           {
             "type": "paragraph",
@@ -211,7 +222,8 @@
                 "type": "text",
                 "text": "Oh, that? I heard the higher-ups made quite a profit. They even toyed with the idea of giving each of us our own solo show. But hey, we've been partners for fifteen years. Split us up, and you'd be cutting the fun in half!"
               }
-            ]
+            ],
+            "id": "p-a901a4776447c690"
           },
           {
             "type": "paragraph",
@@ -229,7 +241,8 @@
                 "type": "text",
                 "text": "Oh... So the rumors are true? You two draw inspiration from each other?"
               }
-            ]
+            ],
+            "id": "p-6542b6503eab4063"
           },
           {
             "type": "paragraph",
@@ -247,7 +260,8 @@
                 "type": "text",
                 "text": "Do you need to know where air comes from when you breathe?"
               }
-            ]
+            ],
+            "id": "p-901eaf990b1ad682"
           },
           {
             "type": "paragraph",
@@ -265,7 +279,8 @@
                 "type": "text",
                 "text": "We don't seek inspiration. Fun just leaks out of us whenever we move! Besides, the world is so absurd that just retelling it makes people burst out laughing... Oh, of course, there's an art to the retelling."
               }
-            ]
+            ],
+            "id": "p-c96411c8cb46d187"
           },
           {
             "type": "paragraph",
@@ -283,7 +298,8 @@
                 "type": "text",
                 "text": "Alright... ahem, many viewers are hoping you two could collaborate on a new show. Is that something you'd consider...?"
               }
-            ]
+            ],
+            "id": "p-fc2a30d4593f3037"
           },
           {
             "type": "paragraph",
@@ -301,7 +317,8 @@
                 "type": "text",
                 "text": "That's for the TV station to worry about. What's the point in asking us? Do you ask your pet fish which tank they'd prefer to live in tomorrow?"
               }
-            ]
+            ],
+            "id": "p-1da9f36e506ff815"
           },
           {
             "type": "paragraph",
@@ -319,7 +336,8 @@
                 "type": "text",
                 "text": "Hahaha! Alright little furbo, I've got a show to get to. I'm sure you have more questions, but hey, the essence of serialized comics is the cliffhanger. We'll chat again when fate allows!"
               }
-            ]
+            ],
+            "id": "p-fa1fb53b009a652c"
           },
           {
             "type": "paragraph",
@@ -328,7 +346,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

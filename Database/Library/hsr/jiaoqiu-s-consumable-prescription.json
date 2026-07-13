@@ -4,10 +4,11 @@
   "id": "jiaoqiu-s-consumable-prescription",
   "name": "Jiaoqiu's Consumable Prescription",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Jiaoqiu%27s_Consumable_Prescription",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "There are a few recipes that Jiaoqiu had left for the Yaoqing General's servant"
               }
-            ]
+            ],
+            "id": "p-ac887ae562cdddfd"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "...This prescription is warming, helps replenish nutrients, and regulates qi. It will be great for helping the general recover after battle."
               }
-            ]
+            ],
+            "id": "p-386969ffebe8b2a6"
           },
           {
             "type": "paragraph",
@@ -172,7 +175,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-3eba263b96c34a31"
           },
           {
             "type": "paragraph",
@@ -181,7 +185,8 @@
                 "type": "text",
                 "text": "\"The general has been ill for a long time — her qi and blood circulation is irregular, and she is prone to irritation. She also suffers exhaustion from years of battle, internal bleeding and vascular and qi obstructions. She requires long-term care and must take this decoction every ten days. Avoid spicy food during this time and make sure to eat dinner.\""
               }
-            ]
+            ],
+            "id": "p-1ae31419e04d8ed4"
           },
           {
             "type": "paragraph",
@@ -190,7 +195,8 @@
                 "type": "text",
                 "text": "...This prescription is for soothing the nerves, cooling the body, detoxifying, and improving eyesight. To be served as a dessert, it will assist the General in regaining sensory perception and coordination."
               }
-            ]
+            ],
+            "id": "p-b55b1fecc5a7cef9"
           },
           {
             "type": "paragraph",
@@ -346,7 +352,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-a1bf59595daf0b48"
           },
           {
             "type": "paragraph",
@@ -355,7 +362,8 @@
                 "type": "text",
                 "text": "\"The general's extreme speed can easily disturb her mental state. Therefore, as well as treating her eyes, there should be supplementary drugs provided to calm her mind and soothe her will. Use 5 mace of jujube seeds, 3 mace of polygala, and 1 mace of licorice root to brew a cold complementary medicinal tea.\""
               }
-            ]
+            ],
+            "id": "p-91f146a88afec9c5"
           },
           {
             "type": "paragraph",
@@ -364,7 +372,8 @@
                 "type": "text",
                 "text": "...This prescription's main functions are to regulate body functions, dispel heat and wind from the body, and slow down and muscular calcification."
               }
-            ]
+            ],
+            "id": "p-9511deefd07d2691"
           },
           {
             "type": "paragraph",
@@ -496,7 +505,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-675f06d3773e75ef"
           },
           {
             "type": "paragraph",
@@ -505,7 +515,8 @@
                 "type": "text",
                 "text": "\"The root of the general's condition is an extended overdraft of her own vitality. Toxins within her muscles have not been dispersed, leading to muscular damage and breakdown. We must rely on food supplements to cleanse the toxins in her blood and repair her muscles and bones.\""
               }
-            ]
+            ],
+            "id": "p-cf810fe810ce6d1f"
           }
         ]
       }

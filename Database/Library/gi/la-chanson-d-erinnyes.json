@@ -4,10 +4,11 @@
   "id": "la-chanson-d-erinnyes",
   "name": "La Chanson d'Erinnyes",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/La_Chanson_d%27Erinnyes",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
@@ -43,7 +44,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-3ba5e5485ee70c6b"
           },
           {
             "type": "paragraph",
@@ -69,7 +71,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-e8bbcf7dbd544777"
           },
           {
             "type": "paragraph",
@@ -102,7 +105,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-88a0b6c25b1a8c8e"
           },
           {
             "type": "paragraph",
@@ -142,7 +146,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-bc82a3539cd7aedb"
           },
           {
             "type": "paragraph",
@@ -182,7 +187,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-b732f7eee6e9523c"
           },
           {
             "type": "paragraph",
@@ -222,7 +228,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-14ddf33cf740e2e5"
           },
           {
             "type": "paragraph",
@@ -262,7 +269,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-3082349f1e3db774"
           },
           {
             "type": "paragraph",
@@ -306,13 +314,15 @@
                 "type": "text",
                 "text": "\"King Remus's orders are well-meant and born of pity. He does not wish to see a single person fall into the waters. He would see all saved.\""
               }
-            ]
+            ],
+            "id": "p-65c870af4f31a2a0"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
@@ -348,7 +358,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-bad489663e781cd2"
           },
           {
             "type": "paragraph",
@@ -388,7 +399,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-0724a4b29a3a092e"
           },
           {
             "type": "paragraph",
@@ -442,7 +454,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-dfa0469365ab93c2"
           },
           {
             "type": "paragraph",
@@ -496,7 +509,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-d4074438ed27115c"
           },
           {
             "type": "paragraph",
@@ -512,13 +526,15 @@
                 "type": "text",
                 "text": "She also ordered the emissary to be escorted back to Carubdis Castle so he could report to King Remus. Of that, we shall write later."
               }
-            ]
+            ],
+            "id": "p-8a75b0384931f73f"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "vol-3",
       "label": "Vol. 3",
       "document": {
         "version": 1,
@@ -554,7 +570,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-58f55ff9f0414919"
           },
           {
             "type": "paragraph",
@@ -601,7 +618,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-d3d3567ebf52bfd9"
           },
           {
             "type": "paragraph",
@@ -655,7 +673,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-bb8372d96249396d"
           },
           {
             "type": "paragraph",
@@ -702,7 +721,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-6dae3b5026e7528f"
           },
           {
             "type": "paragraph",
@@ -749,7 +769,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-3d0070f6fce7944f"
           },
           {
             "type": "paragraph",
@@ -796,7 +817,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-74069bb11869c2d1"
           },
           {
             "type": "paragraph",
@@ -812,7 +834,8 @@
                 "type": "text",
                 "text": "And then she left with the spirit who had been by her side from the start, never again to be seen by any in this world."
               }
-            ]
+            ],
+            "id": "p-85f5cd4c57c72d8e"
           }
         ]
       }

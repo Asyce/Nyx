@@ -4,10 +4,11 @@
   "id": "a-note-from-cipher",
   "name": "A Note from Cipher",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/A_Note_from_Cipher",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "To Gray Mystery:"
               }
-            ]
+            ],
+            "id": "p-54b9bfe17f8bd9c2"
           },
           {
             "type": "paragraph",
@@ -54,7 +56,8 @@
                 "type": "text",
                 "text": "You're ready for that, aren't you?"
               }
-            ]
+            ],
+            "id": "p-62744f6f4a167e8d"
           },
           {
             "type": "paragraph",
@@ -89,7 +92,8 @@
                 "type": "text",
                 "text": "I'm here for our final \"split of the spoils.\""
               }
-            ]
+            ],
+            "id": "p-4bcd8b80ecef6870"
           },
           {
             "type": "paragraph",
@@ -124,7 +128,8 @@
                 "type": "text",
                 "text": "Regardless of what weighs on my mind, tossing it up and catching it makes my steps mysteriously lighter."
               }
-            ]
+            ],
+            "id": "p-f3da7c9cef6dc1a2"
           },
           {
             "type": "paragraph",
@@ -172,7 +177,8 @@
                 "type": "text",
                 "text": "May it help you dodge every misfortune and obtain everything you desire."
               }
-            ]
+            ],
+            "id": "p-24b7e4df8ee78453"
           },
           {
             "type": "paragraph",
@@ -181,7 +187,8 @@
                 "type": "text",
                 "text": "Sincerely, Kitty Phantom Thief"
               }
-            ]
+            ],
+            "id": "p-a36f32ba37ff7732"
           }
         ]
       }

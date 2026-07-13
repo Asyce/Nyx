@@ -4,10 +4,11 @@
   "id": "an-overview-of-the-faith-crises-in-the-xianzhou-alliance",
   "name": "An Overview of the Faith Crises in the Xianzhou Alliance",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/An_Overview_of_the_Faith_Crises_in_the_Xianzhou_Alliance",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "part-i",
       "label": "Part I",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "According to the Xianzhou legend, a hero and the Flint Emperor joined forces to fire a Lux Arrow to destroy the Muldrasil of wingweavers. Afterward, the hero vanished into the unknown until they ascended to become the Reignbow Arbiter. They then returned and took to protecting Xianzhou till the present."
               }
-            ]
+            ],
+            "id": "p-ddf1cb83bd3189c0"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "This incident is quite peculiar if we look at it now. For Xianzhou citizens who have an average lifespan of 800 years, the war took place only four generations ago, and it can even be considered modern history. Still, the myth of fire deification, which was never proven, is a historical event known by most Xianzhou citizens."
               }
-            ]
+            ],
+            "id": "p-28f8846f1a767247"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "For a more thorough discussion about this matter, we must talk about the Crisis of Belief that spanned from Year 3400 to 4000 Star Calendar."
               }
-            ]
+            ],
+            "id": "p-47bc41e25a9e9b05"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "First and foremost, one thing is certain: The title of \"Reignbow Arbiter\" came about earlier than the official appearance of The Hunt as an Aeon. After the hero destroyed the Muldrasil with the Flint Emperor, \"Reignbow Arbiter\" became their title. Their original name thus was tabooed and never mentioned in any writings."
               }
-            ]
+            ],
+            "id": "p-a579f3591958c1cd"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "Not long after the hero's \"sacrifice,\" pandemonium broke out because of the Null. The little remaining faith the Xianzhou people had in Yaoshi wavered because of the mara-struck. They had to decide whose Path to follow after giving up on the Aeon they once believed in."
               }
-            ]
+            ],
+            "id": "p-98510a2f32c5f0da"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "The IPC contacted the Alliance in the first millennium of the Alliance's voyage. Their Preservation beliefs gradually influenced the Xianzhou people. From the way they named the Aeon, we can see that the Reignbow Arbiter is the only Arbiter besides the Firmamend Arbiter. After Merciful Medicus turned into the Plagues Author, many of Xianzhou's peoples decided to follow the Path of Qlipoth, the god of the skywall. They became known as the Firmamend Sect."
               }
-            ]
+            ],
+            "id": "p-7c2ca405e7b28ff1"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "During the 600 years of the Crisis of Belief, the Firmamend Arbiter was once the pillar of the Xianzhou Alliance's beliefs. Although Xianzhou people's faiths have changed drastically by the present, traces of the Firmamend Arbiter can still be seen in the many names of places and buildings leftover from that bygone era, such as the Yaoqing's Amber Avenue, the Luofu's Skywall Delve, and the Zhuming's Firmamend Temple."
               }
-            ]
+            ],
+            "id": "p-143204eaf7255881"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "Among the structures, the two most magnificent ones are the Firmamend Temple built by the IPC in the Zhuming and the Amber Palace in Cangcheng. The former is now an affiliated academy of the Zhuming Artisanship Commission, whereas the latter has faded away over time along with Cangcheng, leaving only some videos and a poem by an untraceable author:"
               }
-            ]
+            ],
+            "id": "p-d2e191f2fb755179"
           },
           {
             "type": "paragraph",
@@ -91,13 +100,15 @@
                 "type": "text",
                 "text": "\"From the rails do I perceive the Celestial Hall, and upon clouds can I stride above the leagues of all. In the distance rises the apex of Firmamend high, and the skywall is parted from the peaks mountains though their nearness is nigh.\""
               }
-            ]
+            ],
+            "id": "p-aed2055ae19ab259"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "part-ii",
       "label": "Part II",
       "document": {
         "version": 1,
@@ -109,7 +120,8 @@
                 "type": "text",
                 "text": "Although the Firmamend Arbiter was once the centerpiece of faith among the intellectuals and merchants, the Aeon was one typically indifferent to the lives of mortals. Compared to that Arbiter's worldview, the people of Xianzhou leaned more toward pragmatism when it comes to their preferred spirituality. Therefore, diverse choices of new beliefs bloomed among them."
               }
-            ]
+            ],
+            "id": "p-c6b2bdc023cff938"
           },
           {
             "type": "paragraph",
@@ -118,7 +130,8 @@
                 "type": "text",
                 "text": "Quite a number of people went against the trend and became faithfuls of the Yaoshi. They firmly believed that the behavior of the Denizens of Abundance deviated from Yaoshi's will, and the mara-struck only existed because Yaoshi's will was improperly executed. These people called themselves Disciples of Sanctus Medicus (hereafter referred to as the \"Old Disciples of Sanctus Medicus\" to differentiate them from modern terrorists)."
               }
-            ]
+            ],
+            "id": "p-aa0ca8a4f134f686"
           },
           {
             "type": "paragraph",
@@ -127,7 +140,8 @@
                 "type": "text",
                 "text": "For a long time in history, the Old Disciples of Sanctus Medicus were not a notorious group. They accepted skepticism with an open mind and built apothecaries to help the poor and needy. For those who had long abandoned Yaoshi beliefs, the behavior of the group was pathetic and laughable, though not particularly detestable."
               }
-            ]
+            ],
+            "id": "p-30be7e189cd1cb5c"
           },
           {
             "type": "paragraph",
@@ -136,7 +150,8 @@
                 "type": "text",
                 "text": "Here is something worth mentioning, thought the Xianzhou people spared no efforts to diminish it: The predecessor of the Cold Springs Sect, which overhauled the entire Xianzhou healthcare system and stepped onto the historical stage several millennia after the Crisis of Belief, was the Old Disciples of Sanctus Medicus that existed in secret for thousands of years. In recent years, a group of sorcerers wreaked havoc by impersonating the Disciples of Sanctus Medicus. Only then did the Cold Springs Sect publish a statement to clarify that they had abandoned the erroneous belief in the Plagues Author."
               }
-            ]
+            ],
+            "id": "p-08adf64ceebd130f"
           },
           {
             "type": "paragraph",
@@ -145,7 +160,8 @@
                 "type": "text",
                 "text": "Many intellectuals abandoned their old paths for good and chose to follow the Wisdomwalker on the Path of Erudition. They were called the Wisdom Sect. Back then, most Wisdom Sect members preferred to focus on academic research in their ivory towers than spending time on secular matters. Hence, their presence was not felt much during the Crisis of Belief era when the people were spoiled with a plethora of selectable beliefs. (They continued to use the term, \"the Sacrosancts,\" mostly because they attached little importance to the title of Aeons.)"
               }
-            ]
+            ],
+            "id": "p-7c0cc207fdfec2c2"
           },
           {
             "type": "paragraph",
@@ -154,7 +170,8 @@
                 "type": "text",
                 "text": "The Wisdom Sect still exists, although it is hardly know and only has a small group of followers left. The Wisdom Sapientia Academe in the Yuque, which dates back to 5,000 years ago, has provided a constant supply of talented technicians who believe in the Wisdomwalker to various Xianzhou commissions. Not a single Xianzhou person who believes in the Reignbow Arbiter has any issues with the arrangement."
               }
-            ]
+            ],
+            "id": "p-7f5f5b53f5632a1c"
           },
           {
             "type": "paragraph",
@@ -163,13 +180,15 @@
                 "type": "text",
                 "text": "After all, to most Xianzhou people of sane and pragmatic mind, The Hunt is a righteous path to follow, not a shackle that controls people. As long as you walk the right path, the Aeon you believe in is just something that helps you achieve your goals."
               }
-            ]
+            ],
+            "id": "p-799a9ab888f3143d"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "part-iii",
       "label": "Part III",
       "document": {
         "version": 1,
@@ -181,7 +200,8 @@
                 "type": "text",
                 "text": "Besides those who believed in Aeons, some also believed in non-Aeon beings, such as the Homeward Sect that believed in the Primeval Imperium Emperor, the Flint Emperor Sect that believed in the Flint Emperor, and the Reignbow Sect that believed in Reignbow (the version of Reignbow who had not become on Aeon at that time)."
               }
-            ]
+            ],
+            "id": "p-1c69361224175d18"
           },
           {
             "type": "paragraph",
@@ -190,7 +210,8 @@
                 "type": "text",
                 "text": "This sounds bizarre too. It's hard to believe there were people who believed in non-Aeon beings in an advanced civilization with a clear understanding of Aeons."
               }
-            ]
+            ],
+            "id": "p-1c7eb7836a82d371"
           },
           {
             "type": "paragraph",
@@ -199,7 +220,8 @@
                 "type": "text",
                 "text": "The historical documents about the followers of these two factions have now become important resources in the field of religious psychology. Many monographs study the psychological mechanisms behind these beliefs, but it is not possible to include their content within the confines of this small document. Here, we will only discuss the most apparent motivation of these believers."
               }
-            ]
+            ],
+            "id": "p-424dfa9b28795817"
           },
           {
             "type": "paragraph",
@@ -208,7 +230,8 @@
                 "type": "text",
                 "text": "For those of the Homeward Sect, their faith and loyalty to the Primeval Imperium Emperor was largely just a facade. Their choice of belief was not a philosophical one, but a political one. This is actually quite understandable. Although the Xianzhou people at that time had never been home, their longing to be back never waned."
               }
-            ]
+            ],
+            "id": "p-f7c9778394d9c2a8"
           },
           {
             "type": "paragraph",
@@ -217,7 +240,8 @@
                 "type": "text",
                 "text": "So, these homesick people declared, \"We should not continue our voyage alone. Instead, we should answer the call of our emperor and find our way back to our homeland.\""
               }
-            ]
+            ],
+            "id": "p-51cd36bd264bd2bc"
           },
           {
             "type": "paragraph",
@@ -226,7 +250,8 @@
                 "type": "text",
                 "text": "After Foxians joined the Xianzhou Alliance, many of them who wished to rebuild their homeland (the Verdant Sect) merged with the Homeward Sect. Till this day, they remain a political force to be reckoned with. From this incongruous merging, we can see that this style of faith stands as something akin to a slogan for the Homeward Sect (as well as the Verdant Sect). All they want is to be back in their homeland."
               }
-            ]
+            ],
+            "id": "p-bd65e743c85e3cc8"
           },
           {
             "type": "paragraph",
@@ -235,7 +260,8 @@
                 "type": "text",
                 "text": "On the other hand, those of the Flint Emperor Sect looked like they were betting their future on their beliefs. They were convinced that the Flint Emperor would one day become an Aeon, and the only thing that stood in the way of the Flint Emperor's ascendancy was the captivity of the Xianzhou people. If they followed the Flint Emperor firmly, liberated the heliobi, and helped the Flint Emperor become an Aeon, then when the Flint Emperor became the ruler of a Path, they would become the closest mortals to the Aeon and benefit from the power of the Path."
               }
-            ]
+            ],
+            "id": "p-c1449e990269c465"
           },
           {
             "type": "paragraph",
@@ -244,7 +270,8 @@
                 "type": "text",
                 "text": "To no one's surprise, this belief soon led to criminal activity, and those involved were arrested by the relevant authorities. These extremists who supported the Flint Emperor wholeheartedly eventually receded into oblivion."
               }
-            ]
+            ],
+            "id": "p-129376cb34bc193c"
           },
           {
             "type": "paragraph",
@@ -253,13 +280,15 @@
                 "type": "text",
                 "text": "The only notable thing about this farce is that the Flint Emperor Sect remained undecided on the Path that the Flint Emperor would rule even until its demise. Some suggested \"Intelligence,\" some proposed \"Flame,\" and even some mentioned \"Grilling,\" which sounded like they would have control over all the grilled meat skewers in the Cosmos."
               }
-            ]
+            ],
+            "id": "p-e888b01d8c3d18e0"
           }
         ]
       }
     },
     {
       "id": "4",
+      "volumeKey": "part-iv",
       "label": "Part IV",
       "document": {
         "version": 1,
@@ -271,7 +300,8 @@
                 "type": "text",
                 "text": "In the above paragraph, we barely touched on the Reignbow Sect's actions during the Crisis of Belief. The reason is surprisingly simple — the sect was hardly active at that time, and the people did not even regard it as a proper belief."
               }
-            ]
+            ],
+            "id": "p-868616e5ebb6a585"
           },
           {
             "type": "paragraph",
@@ -280,7 +310,8 @@
                 "type": "text",
                 "text": "That does not mean that the Xianzhou people had no reverence for the Reignbow. In fact, almost everyone of the Xianzhou would commemorate the Reignbow's sacrifice in appreciation of what they had done for the survival of Xianzhou. But when it came to matters of faith, few of them truly believed that a martyred hero would ascend to become an Aeon and protect the Xianzhou."
               }
-            ]
+            ],
+            "id": "p-a5fca736089b3fa0"
           },
           {
             "type": "paragraph",
@@ -289,7 +320,8 @@
                 "type": "text",
                 "text": "Please allow me to digress and discuss something unrelated to the topic here. Nowadays, many accounts focusing on the discipline history are spreading anxiety on social media about the existence of History Fictionologists, which is highly detrimental to the education of historical knowledge. Among all rumors, the most widely circulated and devastating one is the claim that the Xianzhou Alliance Declaration has been tampered with by History Fictionologists."
               }
-            ]
+            ],
+            "id": "p-1113ccbbe9cf7ace"
           },
           {
             "type": "paragraph",
@@ -298,7 +330,8 @@
                 "type": "text",
                 "text": "Most of the time, those rumor-mongers will emphasize how the Reignbow Arbiter had yet to become an Aeon when the declaration mentioned: \"From Reignbow to the Ten Lords.\" Now that you have learned about the history behind the \"Reignbow Arbiter\" title, I believe the rumor can be easily debunked."
               }
-            ]
+            ],
+            "id": "p-d14d27806e3a47e1"
           },
           {
             "type": "paragraph",
@@ -307,7 +340,8 @@
                 "type": "text",
                 "text": "Now, back to the topic of the Reignbow Sect. During the Crisis of Belief era, a sect that sincerely believed in the Reignbow Arbiter was not of the public's favor. People preferred to ask for protection from already existing Aeons instead of a non-existing one that could only provide emotional support. Despite being marginalized, the sect did not struggle. They kept praying, anticipating the return of the hero."
               }
-            ]
+            ],
+            "id": "p-212e06df8119874e"
           },
           {
             "type": "paragraph",
@@ -316,7 +350,8 @@
                 "type": "text",
                 "text": "Following the destruction of the Denizens of Abundance's territory by the divine arrow, the people of Xianzhou came to realize that the Reignbow Arbiter truly existed. The Divination Commission, followed by the IPC, the guild, and the other sects, acknowledged the birth of a new Aeon: The Hunt."
               }
-            ]
+            ],
+            "id": "p-5faff61d3320173f"
           },
           {
             "type": "paragraph",
@@ -325,7 +360,8 @@
                 "type": "text",
                 "text": "From a fringe group, the Reignbow Sect transformed into a popular sect that could compete with the Firmamend Sect almost overnight."
               }
-            ]
+            ],
+            "id": "p-6cf42b5c99c89f2e"
           },
           {
             "type": "paragraph",
@@ -334,7 +370,8 @@
                 "type": "text",
                 "text": "The subsequent conflict that transpired was not a religious one, but one to determine the future path of Xianzhou."
               }
-            ]
+            ],
+            "id": "p-88b42c5f45f82704"
           },
           {
             "type": "paragraph",
@@ -343,7 +380,8 @@
                 "type": "text",
                 "text": "The Firmamend Sect insisted on abiding by the Firmamend Arbiter's will and was strongly against Xianzhou's involvement in the war with the Denizens of Abundance. The Reignbow Sect opined that hiding and defending is not enough to fend off the Denizens of Abundance. For the survival of the Alliance, only by following the path of The Hunt and cleansing the enemy could the future be secured."
               }
-            ]
+            ],
+            "id": "p-9d4be1f883177aea"
           },
           {
             "type": "paragraph",
@@ -352,7 +390,8 @@
                 "type": "text",
                 "text": "Following consecutive victorious expeditions, the numerous appearances of the Reignbow, and the joining of the Foxian and Vidyadhara, the Reignbow Sect slowly gained traction among the people. In Year 4100, the Reignbow Arbiter became the undisputed main Aeon of the Xianzhou Alliance."
               }
-            ]
+            ],
+            "id": "p-ede39eff9fd21e5c"
           },
           {
             "type": "paragraph",
@@ -361,7 +400,8 @@
                 "type": "text",
                 "text": "Just like that, the Crisis of Belief came to an end, and the era of the Reignbow Arbiter began."
               }
-            ]
+            ],
+            "id": "p-c59b3294abfa28c4"
           }
         ]
       }

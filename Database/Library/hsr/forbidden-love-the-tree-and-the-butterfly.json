@@ -4,10 +4,11 @@
   "id": "forbidden-love-the-tree-and-the-butterfly",
   "name": "Forbidden Love: The Tree and the Butterfly",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Forbidden_Love:_The_Tree_and_the_Butterfly",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "She wandered through the flower sea, searching for a glimpse of those fluttering butterfly wings, but without success."
               }
-            ]
+            ],
+            "id": "p-7f6e9956747f5732"
           },
           {
             "type": "paragraph",
@@ -38,7 +40,8 @@
                 "type": "text",
                 "text": "\"Generally speaking, that perception is correct.\""
               }
-            ]
+            ],
+            "id": "p-6c0e68f7ac7b6fc2"
           },
           {
             "type": "paragraph",
@@ -47,7 +50,8 @@
                 "type": "text",
                 "text": "She heard the voice but couldn't see the speaker, yet Cerces paid it no mind. She calmly responded to her most special student while scanning her surroundings."
               }
-            ]
+            ],
+            "id": "p-95d7db20b803f2f8"
           },
           {
             "type": "paragraph",
@@ -76,7 +80,8 @@
                 "type": "text",
                 "text": "\"Hmm...\""
               }
-            ]
+            ],
+            "id": "p-3e2248b620398548"
           },
           {
             "type": "paragraph",
@@ -85,7 +90,8 @@
                 "type": "text",
                 "text": "Evidently, this answer failed to satisfy the other party. A sound mingled with dissatisfaction and disappointment reached her ears, prompting her to add another remark."
               }
-            ]
+            ],
+            "id": "p-9b50307727693761"
           },
           {
             "type": "paragraph",
@@ -94,7 +100,8 @@
                 "type": "text",
                 "text": "\"Well, if we're just speaking metaphorically... I suppose it would be 'Intelligence.'\""
               }
-            ]
+            ],
+            "id": "p-96326e00ae39d2c5"
           },
           {
             "type": "paragraph",
@@ -103,7 +110,8 @@
                 "type": "text",
                 "text": "However, her objective was nearly accomplished. It should be around here somewhere. Now, she just needed to find some bait to draw her out."
               }
-            ]
+            ],
+            "id": "p-e4d1a9e19c2c601d"
           },
           {
             "type": "paragraph",
@@ -132,7 +140,8 @@
                 "type": "text",
                 "text": "\"...Really?\""
               }
-            ]
+            ],
+            "id": "p-7ac10b80d7926b4e"
           },
           {
             "type": "paragraph",
@@ -161,7 +170,8 @@
                 "type": "text",
                 "text": "Of course, her composure wavered for only a moment. Then, Cerces wrapped her arms around the girl's waist and, as if pulling up a radish from the ground, gently lifted her from the flower thicket."
               }
-            ]
+            ],
+            "id": "p-04b6ad4a443a82ae"
           },
           {
             "type": "paragraph",
@@ -170,7 +180,8 @@
                 "type": "text",
                 "text": "\"Of course not. Caught you now.\""
               }
-            ]
+            ],
+            "id": "p-9e8a200eb086d5b0"
           },
           {
             "type": "paragraph",
@@ -199,7 +210,8 @@
                 "type": "text",
                 "text": "\"...\""
               }
-            ]
+            ],
+            "id": "p-79bcf0547fcdc18b"
           },
           {
             "type": "paragraph",
@@ -218,7 +230,8 @@
                 "type": "text",
                 "text": "A cold voice unseasonably interrupted their thoughts. Indeed, for the garden's master, the incarnation of death, such lively atmosphere was truly something akin to a natural enemy."
               }
-            ]
+            ],
+            "id": "p-bbdf7be03a3af0b7"
           },
           {
             "type": "paragraph",
@@ -267,7 +280,8 @@
                 "type": "text",
                 "text": "\"...You must be aware by now, right?\""
               }
-            ]
+            ],
+            "id": "p-ec0bccd3fb4bcfcf"
           },
           {
             "type": "paragraph",
@@ -276,7 +290,8 @@
                 "type": "text",
                 "text": "A bitter sensation spread in her mouth once more. Cerces remained silent, merely nodding as she bid farewell to her old friend."
               }
-            ]
+            ],
+            "id": "p-1e6bfc24d2a075e1"
           },
           {
             "type": "paragraph",
@@ -285,7 +300,8 @@
                 "type": "text",
                 "text": "On the way back to the Grove, Mnestia remained completely silent. After one unsuccessful attempt to question her, Cerces struggled to find another opportunity to speak and simply focused on the path ahead."
               }
-            ]
+            ],
+            "id": "p-7334aa33c9b30c8d"
           },
           {
             "type": "paragraph",
@@ -294,7 +310,8 @@
                 "type": "text",
                 "text": "—Voices of gossip reached them, causing irritation."
               }
-            ]
+            ],
+            "id": "p-9b4a253d38b546ea"
           },
           {
             "type": "paragraph",
@@ -313,7 +330,8 @@
                 "type": "text",
                 "text": "\"So terrifying...\""
               }
-            ]
+            ],
+            "id": "p-691b33f6f5adbb0c"
           },
           {
             "type": "paragraph",
@@ -332,7 +350,8 @@
                 "type": "text",
                 "text": "Mnestia offered Cerces a smile, then turned and walked away."
               }
-            ]
+            ],
+            "id": "p-bff585f074d0b1f9"
           },
           {
             "type": "paragraph",
@@ -341,7 +360,8 @@
                 "type": "text",
                 "text": "█████ cast a sharp glance in the direction of the butterfly-winged girl's departure, then shifted his gaze back to Cerces."
               }
-            ]
+            ],
+            "id": "p-0d6f456ab63fbb36"
           },
           {
             "type": "paragraph",
@@ -350,7 +370,8 @@
                 "type": "text",
                 "text": "First came perfunctory reports and spiritless small talk, then escalation to arguments that resembled personal attacks—"
               }
-            ]
+            ],
+            "id": "p-3f6fdb83ec39c656"
           },
           {
             "type": "paragraph",
@@ -399,7 +420,8 @@
                 "type": "text",
                 "text": "This was the first time the embodiment of reason allowed emotions to govern her mind. The sensation left on her palm felt as if it would scorch through to the heart of the tree."
               }
-            ]
+            ],
+            "id": "p-77fa224852423b06"
           },
           {
             "type": "paragraph",
@@ -418,7 +440,8 @@
                 "type": "text",
                 "text": "She was indeed somewhat distracted, allowing the girl's image to surface and fade in her mind repeatedly."
               }
-            ]
+            ],
+            "id": "p-940b2d4ae81fa324"
           },
           {
             "type": "paragraph",
@@ -437,7 +460,8 @@
                 "type": "text",
                 "text": "The personification of the giant tree approached the gilded chrysalis, cried her beloved's name, then stilled, as if she had frozen."
               }
-            ]
+            ],
+            "id": "p-7cd7b47acc3b0fec"
           },
           {
             "type": "paragraph",
@@ -456,7 +480,8 @@
                 "type": "text",
                 "text": "Upon the foliate desk lay words: a maiden's first and final love letter."
               }
-            ]
+            ],
+            "id": "p-3905b792cb31da0c"
           },
           {
             "type": "paragraph",
@@ -465,7 +490,8 @@
                 "type": "text",
                 "text": "\"I love you, Cerces. I've already received the graduation gift after all. So, forget me.\""
               }
-            ]
+            ],
+            "id": "p-e7bf75d20f6b7eff"
           },
           {
             "type": "paragraph",
@@ -474,7 +500,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

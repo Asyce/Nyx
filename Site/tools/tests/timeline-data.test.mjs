@@ -28,6 +28,7 @@ test('buildBlocks uses the selected region and merges paired weapons without a w
   assert.equal(blocks.length, 1);
   assert.equal(blocks[0].primaryFive, 'Aster');
   assert.deepEqual(Array.from(blocks[0].weaponNames), ['Starblade']);
+  assert.deepEqual(Array.from(blocks[0].signatureWeaponNames), ['Starblade']);
   assert.equal(iso(blocks[0].startMs), '2026-01-01T05:00:00.000Z');
   assert.equal(api.searchMatch(blocks[0], 'starblade').match, true);
 });
@@ -224,6 +225,23 @@ test('event blocks preserve the official post link but never carry a source-site
   assert.equal(challenge.image, 'https://example.test/img.jpg');
   assert.equal(challenge.description, 'Official challenge details.');
   assert.ok(!('sourceName' in challenge) && !('source' in challenge), 'no source-site name field is carried into the display block');
+});
+
+test('Genshin Lightrace selection pools never masquerade as character rate-ups', () => {
+  const records = [
+    {
+      id:'pool', game:'gi', bannerType:'mixed', category:'Lightrace', name:'Selection Pool', version:'Luna VIII',
+      windowsByRegion:{ asia:{ start:'2026-07-01T03:00:00.000Z', end:'2026-07-21T09:59:59.000Z' } }, permanent:false,
+      featured:[{ entityType:'character', name:'Every Selectable Character', rarity:5, primary:true }], pairedBannerIds:[],
+    },
+    {
+      id:'rate-up', game:'gi', bannerType:'character', category:'Character Event', name:'Real Rate-Up', version:'Luna VIII',
+      windowsByRegion:{ asia:{ start:'2026-07-01T03:00:00.000Z', end:'2026-07-21T09:59:59.000Z' } }, permanent:false,
+      featured:[{ entityType:'character', name:'Citlali', rarity:5, primary:true }], pairedBannerIds:[],
+    },
+  ];
+  const built = api.buildBlocks(records, 'asia');
+  assert.deepEqual(Array.from(built, (row) => row.primaryFive), ['Citlali']);
 });
 
 test('per-game and cross-game event detail cards render the plain description field as React text', () => {

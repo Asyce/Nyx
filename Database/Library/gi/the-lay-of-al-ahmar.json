@@ -4,10 +4,11 @@
   "id": "the-lay-of-al-ahmar",
   "name": "The Lay of Al-Ahmar",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/The_Lay_of_Al-Ahmar",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "According to the desert dwellers, the world was once ruled by a king named Al-Ahmar, a king of warriors, horticulturists, and sages. He controlled the winds whistling through the desert, the dunes turned bright silver by moonlight, and the one thousand and one Jinn who hid within the night and the calls of owls."
               }
-            ]
+            ],
+            "id": "p-f73cc9f27f3cf7d4"
           },
           {
             "type": "paragraph",
@@ -38,7 +40,8 @@
                 "type": "text",
                 "text": "In such moments, even the songs of the nightingale and the aroma of roses could not pull him from his sorrow."
               }
-            ]
+            ],
+            "id": "p-40be6f24f4a9aa6d"
           },
           {
             "type": "paragraph",
@@ -67,7 +70,8 @@
                 "type": "text",
                 "text": "It is as the sages say: a mere thought can yet often bring forth calamity, if it is from the undisguised melancholy and madness of a king."
               }
-            ]
+            ],
+            "id": "p-dc30516549c8c237"
           },
           {
             "type": "paragraph",
@@ -76,7 +80,8 @@
                 "type": "text",
                 "text": "Thus did the three retainers of Al-Ahmar (may seven times seven curses fall upon them!) present their strategy to the king:"
               }
-            ]
+            ],
+            "id": "p-de14cf55e527e499"
           },
           {
             "type": "paragraph",
@@ -105,7 +110,8 @@
                 "type": "text",
                 "text": "\"I humbly beg your pardon if I overstep, but Your Majesty, I'm certain you are aware that indulging in dreams of old and sorrows of the past is no way to be for long. The endless power and wisdom of this land can build you a palace that surpasses the heavens, Your Majesty, and it shall bring your people a prosperous future.\""
               }
-            ]
+            ],
+            "id": "p-10d06da1fb58f133"
           },
           {
             "type": "paragraph",
@@ -114,7 +120,8 @@
                 "type": "text",
                 "text": "\"No,\" Al-Ahmar said with a frown, and the Goat King fell silent."
               }
-            ]
+            ],
+            "id": "p-061486578f6df873"
           },
           {
             "type": "paragraph",
@@ -143,7 +150,8 @@
                 "type": "text",
                 "text": "\"The divine punishment of a thousand years past brought the downfall of wisdom and history. For a better future, Your Majesty, you should take control of the past. The present oases hold the wisdom of the 'present', but if we are to seize the 'past', we must act swiftly.\""
               }
-            ]
+            ],
+            "id": "p-16cd1ca54d37cdf6"
           },
           {
             "type": "paragraph",
@@ -152,7 +160,8 @@
                 "type": "text",
                 "text": "\"No.\" Al-Ahmar struck the ground with his staff, and the Ibis King fell silent."
               }
-            ]
+            ],
+            "id": "p-7342351373dee75a"
           },
           {
             "type": "paragraph",
@@ -181,7 +190,8 @@
                 "type": "text",
                 "text": "\"If we are to recall the lost lives and welcome lost opportunities and dreams back into the fold, then this is our final chance. The greater the authority, the greater the emptiness. The greater the wisdom, the greater the sorrow. Forget the delusions of the Void. Only resurrection and life eternal can fill the endless pit of regret.\""
               }
-            ]
+            ],
+            "id": "p-13b1ce7b27c47e83"
           },
           {
             "type": "paragraph",
@@ -190,7 +200,8 @@
                 "type": "text",
                 "text": "Al-Ahmar fell silent."
               }
-            ]
+            ],
+            "id": "p-24b920903ee4c32f"
           },
           {
             "type": "paragraph",
@@ -199,7 +210,8 @@
                 "type": "text",
                 "text": "\"Fine.\""
               }
-            ]
+            ],
+            "id": "p-95e918ace6ff94d2"
           },
           {
             "type": "paragraph",
@@ -208,7 +220,8 @@
                 "type": "text",
                 "text": "The arbitrary king heeded his retainers' lies. Thus did Al-Ahmar use a hundred years and a hundred years further to build a huge maze for his kingdom, before trapping himself deep within it in search of forbidden knowledge and an elixir with which he might abandon his mortal form."
               }
-            ]
+            ],
+            "id": "p-54bbf875e9f86b19"
           },
           {
             "type": "paragraph",
@@ -217,7 +230,8 @@
                 "type": "text",
                 "text": "The subsequent events are knowledge that should not be revisited. They should be eternally forgotten by any rational history."
               }
-            ]
+            ],
+            "id": "p-325e80b415c90555"
           },
           {
             "type": "paragraph",
@@ -246,7 +260,8 @@
                 "type": "text",
                 "text": "It is said that Al-Ahmar's body gradually decayed on his throne while worms feasted on it, and that his soul merged into one with the wailing souls of the millions in his kingdom, doomed to wander, lost amidst the howling end, traveling along the dark and winding corridors, growing ever closer to the bottomless abyss..."
               }
-            ]
+            ],
+            "id": "p-0d4ff783fa7d468c"
           },
           {
             "type": "paragraph",
@@ -265,7 +280,8 @@
                 "type": "text",
                 "text": "And so, Al-Ahmar's kingdom was built and destroyed by his own hand."
               }
-            ]
+            ],
+            "id": "p-81d9a4cc1af1c662"
           },
           {
             "type": "paragraph",
@@ -291,7 +307,8 @@
                 "type": "text",
                 "text": "The sages say that trying to keep knowledge for yourself is ignorance, and that the punishment for ignorance is ignorance itself."
               }
-            ]
+            ],
+            "id": "p-1810d3c532ebc75c"
           },
           {
             "type": "paragraph",
@@ -300,7 +317,8 @@
                 "type": "text",
                 "text": "As for the descendants of the ignorant who have lost their history, the Eremites say:"
               }
-            ]
+            ],
+            "id": "p-fb8eedfc15a6c359"
           },
           {
             "type": "paragraph",
@@ -359,7 +377,8 @@
                 "type": "text",
                 "text": "To its end we shall sail."
               }
-            ]
+            ],
+            "id": "p-f177bdfb09f2feb6"
           }
         ]
       }

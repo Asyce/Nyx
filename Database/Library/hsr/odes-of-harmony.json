@@ -4,10 +4,11 @@
   "id": "odes-of-harmony",
   "name": "Odes of Harmony",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Odes_of_Harmony",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -26,7 +27,8 @@
                 "type": "text",
                 "text": "Praise the Lord! All are connected and the winds of blessing breathe across the lands!"
               }
-            ]
+            ],
+            "id": "p-ec05fa6dc3fc1fb3"
           },
           {
             "type": "paragraph",
@@ -49,7 +51,8 @@
                 "type": "text",
                 "text": "Into your realm, the virtuous find solace, peace bestowed, sorrows and strife released."
               }
-            ]
+            ],
+            "id": "p-4e808b60f976d292"
           },
           {
             "type": "paragraph",
@@ -72,7 +75,8 @@
                 "type": "text",
                 "text": "Your myriad forms grant salvation, grace descending with each dawn!"
               }
-            ]
+            ],
+            "id": "p-a856d70ea005db32"
           },
           {
             "type": "paragraph",
@@ -88,7 +92,8 @@
                 "type": "text",
                 "text": "All beings entwined in blissful Harmony, sharing that happiness and joy, basked in the sweet rain of your divine love!"
               }
-            ]
+            ],
+            "id": "p-d22a16e556fca0af"
           },
           {
             "type": "paragraph",
@@ -104,7 +109,8 @@
                 "type": "text",
                 "text": "Barren lands transformed into boundless havens, the houses swell in wealthy, an endless expanse of your grace."
               }
-            ]
+            ],
+            "id": "p-653c9287c2cf3ef4"
           },
           {
             "type": "paragraph",
@@ -130,7 +136,8 @@
                 "type": "text",
                 "text": "Amidst endless darkness you radiate. outshines all the stars in the heavens!"
               }
-            ]
+            ],
+            "id": "p-14726f3da57f9ccd"
           }
         ]
       }

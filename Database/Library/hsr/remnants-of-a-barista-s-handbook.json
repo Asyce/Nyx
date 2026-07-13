@@ -4,10 +4,11 @@
   "id": "remnants-of-a-barista-s-handbook",
   "name": "Remnants of a Barista's Handbook",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Remnants_of_a_Barista%27s_Handbook",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -29,7 +30,8 @@
                 "type": "text",
                 "text": "Objectively speaking, people like me are novelists in the purest sense. I don't write for money. I write whatever comes to mind. Everything I've seen and all my experiences from traveling are reflected in my novels. If it wasn't for family, I really wouldn't be helping out at the cafe."
               }
-            ]
+            ],
+            "id": "p-30939d2ac64440ed"
           },
           {
             "type": "paragraph",
@@ -48,7 +50,8 @@
                 "type": "text",
                 "text": "The customers today were basically all young couples. There was one curious pair. The man was yakking on to the woman about his history of \"starting a business from scratch.\" It was so awkward, but the lady seemed to enjoy it. I stood in front of the counter and listened in for a long time until my back hurt. I was trying to look for some inspiration, but there was laughably none to be found."
               }
-            ]
+            ],
+            "id": "p-9c2b1632077b49e0"
           },
           {
             "type": "paragraph",
@@ -67,7 +70,8 @@
                 "type": "text",
                 "text": "Two times in a row, it was the lady who paid the bill. And judging from their clothes, she was rich, and he wasn't. While the nature of love does not discriminate based on wealth, the \"rich girl, poor guy\" trope is excellent writing material. A rich but innocent girl meets a poor loaf with an ulterior motive. Love takes root from the seed of lies."
               }
-            ]
+            ],
+            "id": "p-5d52bcc0b731ba48"
           },
           {
             "type": "paragraph",
@@ -81,7 +85,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-da0be35f7ec8a3f6"
           },
           {
             "type": "paragraph",
@@ -100,7 +105,8 @@
                 "type": "text",
                 "text": "The couple came to the cafe for the third time, and the man named \"Bill\" brought the girl some papers — documents to invest her family's wealth in. The poor girl, who has never seen the dark side of the human heart, does not know how to refuse, and is played like a fiddle by the cunning loaf."
               }
-            ]
+            ],
+            "id": "p-e47659dcb9bcd8ec"
           },
           {
             "type": "paragraph",
@@ -114,7 +120,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-1328ffed499b4c15"
           },
           {
             "type": "paragraph",
@@ -123,7 +130,8 @@
                 "type": "text",
                 "text": "The novel's outline is complete and I estimate that I should be able to finish it in a month or two."
               }
-            ]
+            ],
+            "id": "p-8002a2f2eba7820a"
           },
           {
             "type": "paragraph",
@@ -142,7 +150,8 @@
                 "type": "text",
                 "text": "Some Silvermane Guards came and said that the Fragmentum's corrosion will soon spread to Backwater Pass, and that I should tell the cafe owner to prepare to move. It's a pity that I've only recently started to like the life at the cafe. I love the feeling of carefully grinding coffee beans and meticulously brewing, only to come up with a bitter lump of paste. Ironic and helpless, just like most people's lives."
               }
-            ]
+            ],
+            "id": "p-a57167195523ed27"
           },
           {
             "type": "paragraph",
@@ -161,7 +170,8 @@
                 "type": "text",
                 "text": "The couple hasn't been here for almost a week. Maybe it's because the transport hub has been closed to traffic. That \"Love is tragedy\" is something everyone knows. So, let's end the new book with a tragedy."
               }
-            ]
+            ],
+            "id": "p-52128d9bec1f50b9"
           },
           {
             "type": "paragraph",
@@ -180,7 +190,8 @@
                 "type": "text",
                 "text": "The couple actually came today. They didn't order coffee, just a cup of hot water. The woman cried a lot. It seemed that her father had cut her off after knowing about them, and now she can't even afford to eat. Bill gave her some money to stay at a hotel for a few days before going back to make amends with her father. This Bill is no novice. He's playing the long game."
               }
-            ]
+            ],
+            "id": "p-76bf9640fc4e31bd"
           },
           {
             "type": "paragraph",
@@ -199,7 +210,8 @@
                 "type": "text",
                 "text": "The surrounding shops are almost all done moving. After cleaning up, I had to go to the Plaza's Management Office to go through the procedures of ending the rent. I didn't expect to see Bill there. The guy was crying to the people at the Management Office about how he was cheated by the young lady of the developer's house. But the people at the Management Office said that the girl named \"Lavonne\" was just a real estate agent. She wasn't the boss's daughter. Ha? Wouldn't you know? Truth really is stranger than fiction."
               }
-            ]
+            ],
+            "id": "p-082b34da28443bef"
           },
           {
             "type": "paragraph",
@@ -218,7 +230,8 @@
                 "type": "text",
                 "text": "There is still a box of candy, and four boxes of outdoor furniture that have not been removed. Despite all his tiredness, my uncle can still be so stingy. Why didn't he ask for help? He just had to come by himself. Oops, I realized I haven't bound my manuscripts yet. Hopefully nothing gets left behind."
               }
-            ]
+            ],
+            "id": "p-84241ed18b04c2ed"
           }
         ]
       }

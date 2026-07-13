@@ -4,10 +4,11 @@
   "id": "clockie-and-captain-revolver",
   "name": "Clockie and Captain Revolver",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Clockie_and_Captain_Revolver",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "part-1",
       "label": "Part 1",
       "document": {
         "version": 1,
@@ -29,7 +30,8 @@
                 "type": "text",
                 "text": "As the first light of dawn breaks through, Clockie is awakened by the sound of clanging metal. Groggily, he opens his eyes and draws the curtains, his mind still heavy with sleep. Outside, a flurry of origami birds scrambles in the air as a shower of stones cascades down from the sky like rain."
               }
-            ]
+            ],
+            "id": "p-3e04b4064681ded9"
           },
           {
             "type": "paragraph",
@@ -52,7 +54,8 @@
                 "type": "text",
                 "text": "\" Nope, you silly! Those stones are us repairing the houses. You're my dear friend, Clockie, and my stones will only smash Boss Stone's head.\""
               }
-            ]
+            ],
+            "id": "p-07c791426dafe249"
           },
           {
             "type": "paragraph",
@@ -68,7 +71,8 @@
                 "type": "text",
                 "text": "The stones used to construct Dreamville are actually the most precious gems in the world. Origami birds carefully collected them from the desert and forest to construct the town, the home of their friends, piece by piece. That's why Boss Stone constantly brings lots of baddies here to rob the birds of their precious gems and wreak havoc in the town."
               }
-            ]
+            ],
+            "id": "p-2f76c7503b690a21"
           },
           {
             "type": "paragraph",
@@ -77,7 +81,8 @@
                 "type": "text",
                 "text": "Clockie steps out of the door cautiously. Just as the origami bird said, all the stones fall around the house, avoiding his dial."
               }
-            ]
+            ],
+            "id": "p-b249e81990e2a413"
           },
           {
             "type": "paragraph",
@@ -100,7 +105,8 @@
                 "type": "text",
                 "text": "\"And if we don't find more stones soon, we'll have to live in dilapidated houses.\""
               }
-            ]
+            ],
+            "id": "p-ccd3966df967fed4"
           },
           {
             "type": "paragraph",
@@ -109,7 +115,8 @@
                 "type": "text",
                 "text": "Clockie realizes the gravity of the situation. Living in crumbling dwellings would mean rain can soak into his dial, and he would definitely rust! But the birds are struggling to find more stones when they are flying so high already. How is Clockie supposed to find these stones?"
               }
-            ]
+            ],
+            "id": "p-eea251d4af160dab"
           },
           {
             "type": "paragraph",
@@ -118,7 +125,8 @@
                 "type": "text",
                 "text": "\"I know of a place, Clockie.\""
               }
-            ]
+            ],
+            "id": "p-5300f688799dd3cf"
           },
           {
             "type": "paragraph",
@@ -127,7 +135,8 @@
                 "type": "text",
                 "text": "The one who speaks is Captain Revolver, Clockie's dear friend and an old crew member of The Compass. This courageous and formidable hero has helped Clockie out of trouble countless times. With a head shaped like a giant revolver with an old cowboy hat sitting on it, he always instilled fear into the hearts of baddies."
               }
-            ]
+            ],
+            "id": "p-47602711c347ad0d"
           },
           {
             "type": "paragraph",
@@ -143,7 +152,8 @@
                 "type": "text",
                 "text": "\"Tick-tock. I get you, Captain.\""
               }
-            ]
+            ],
+            "id": "p-eae6ea82114c07da"
           },
           {
             "type": "paragraph",
@@ -152,7 +162,8 @@
                 "type": "text",
                 "text": "The caves hold countless treasures and innumerable dangers, but with Captain Revolver leading the way, Clockie feels no fear. The Captain's aim is always true, and with a single shot, he can vanquish any foe. Together, they will find a new forest, bring back stones, and Dreamville will become even more beautiful."
               }
-            ]
+            ],
+            "id": "p-c4585f6d54758755"
           },
           {
             "type": "paragraph",
@@ -161,7 +172,8 @@
                 "type": "text",
                 "text": "However, a new challenge soon emerges, causing Clockie's hour hand to twitch in frustration."
               }
-            ]
+            ],
+            "id": "p-57e7672406012226"
           },
           {
             "type": "paragraph",
@@ -184,7 +196,8 @@
                 "type": "text",
                 "text": "\"Yeah, let's go!\""
               }
-            ]
+            ],
+            "id": "p-84b3ae465d7bd365"
           },
           {
             "type": "paragraph",
@@ -193,7 +206,8 @@
                 "type": "text",
                 "text": "Captain Revolver, known for his fiery temperament, leads the way with brisk strides. That's why he's always leading the group, with a few origami birds trailing behind him. These clever helpers know exactly which stones will be suitable for the town. The still-drowsy Clockie walks at a leisurely pace, bringing up the rear of the group."
               }
-            ]
+            ],
+            "id": "p-3e47c1121c8a2e40"
           },
           {
             "type": "paragraph",
@@ -202,13 +216,15 @@
                 "type": "text",
                 "text": "This is how our intrepid band of adventurers embark on their journey."
               }
-            ]
+            ],
+            "id": "p-c0d07644f729df8f"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "part-2",
       "label": "Part 2",
       "document": {
         "version": 1,
@@ -244,7 +260,8 @@
                 "type": "text",
                 "text": "\"Origami birds! I heard you've eaten up all the fruits belonging to Missy Fruit Tree. You won't eat us, right?\""
               }
-            ]
+            ],
+            "id": "p-521100377e1c42bc"
           },
           {
             "type": "paragraph",
@@ -253,7 +270,8 @@
                 "type": "text",
                 "text": "Just as they step into the tunnel, the butterflies start to chat incessantly. Their delicate wings flutter and flap, illuminating the path ahead in blinking lights. Clockie cannot help but marvel at how lovely these new friends are."
               }
-            ]
+            ],
+            "id": "p-4e44692d91ca628f"
           },
           {
             "type": "paragraph",
@@ -262,7 +280,8 @@
                 "type": "text",
                 "text": "The complicated tunnels resemble a giant labyrinth. Even the butterflies only dare to live near the entrance. But, with Captain Revolver taking the lead, they have found the courage to venture deeper."
               }
-            ]
+            ],
+            "id": "p-e11bac4898b5b69f"
           },
           {
             "type": "paragraph",
@@ -278,7 +297,8 @@
                 "type": "text",
                 "text": "\"Once we discover a new forest, not even a hundred tunnels like this can compare to our town.\""
               }
-            ]
+            ],
+            "id": "p-4c54f4048baddf4f"
           },
           {
             "type": "paragraph",
@@ -287,7 +307,8 @@
                 "type": "text",
                 "text": "\"A town as large as a hundred tunnels like this? That would be massive.\" Clockie cannot even imagine what it would look like."
               }
-            ]
+            ],
+            "id": "p-fe4e99cffc83404b"
           },
           {
             "type": "paragraph",
@@ -310,7 +331,8 @@
                 "type": "text",
                 "text": "\"Tick-tock. Piano Spider is a true gentleman. I still remember the cake he gave us before we left.\""
               }
-            ]
+            ],
+            "id": "p-83ff404cb8c0d93f"
           },
           {
             "type": "paragraph",
@@ -319,7 +341,8 @@
                 "type": "text",
                 "text": "The mention of a new story from Clockie piques the origami birds' curiosity, and they clamor for Clockie to tell them more stories. Clockie promises to share his stories one by one once they return to Dreamville, as he has too many to recount at the moment."
               }
-            ]
+            ],
+            "id": "p-599c47a31dcf7669"
           },
           {
             "type": "paragraph",
@@ -328,7 +351,8 @@
                 "type": "text",
                 "text": "Even with the assistance of their butterfly friends, traversing such treacherous tunnels required immense bravery. However, as everyone witnesses Captain Revolver and Clockie's banters, their fears subside."
               }
-            ]
+            ],
+            "id": "p-c29404879e5c6b85"
           },
           {
             "type": "paragraph",
@@ -337,7 +361,8 @@
                 "type": "text",
                 "text": "That is precisely what Captain Revolver intended. He is more than just a hot-tempered pistol: His mind is sharp and resourceful. Whenever his companions feel uneasy or encounter difficulties, he will somehow find a way to cheer them up."
               }
-            ]
+            ],
+            "id": "p-dd62e77659e125f1"
           },
           {
             "type": "paragraph",
@@ -346,7 +371,8 @@
                 "type": "text",
                 "text": "Under his leadership, the silent tunnel has turned into a place filled with laughter and joy, going from a place of terror to a locale full of fun. However, the perils within the tunnels remain, undeterred by their bravery. Soon, a sense of unease begins to creep up on the butterflies."
               }
-            ]
+            ],
+            "id": "p-b7ed390f36b8460c"
           },
           {
             "type": "paragraph",
@@ -355,7 +381,8 @@
                 "type": "text",
                 "text": "\"Captain, we just heard a buzzing sound. It wasn't like the fluttering of butterflies or the chirping of birds.\""
               }
-            ]
+            ],
+            "id": "p-8f5a14e0a5a6da5f"
           },
           {
             "type": "paragraph",
@@ -364,7 +391,8 @@
                 "type": "text",
                 "text": "The tunnels are home to a myriad of creatures, some friendly, but most are not. Since their friends often make sounds like \"whoa,\" \"chirp,\" or \"tick-tock\", Captain Revolver realizes that the creatures lurking in the darkness are definitively fearsome villains."
               }
-            ]
+            ],
+            "id": "p-c4dd0a6b625c30de"
           },
           {
             "type": "paragraph",
@@ -373,7 +401,8 @@
                 "type": "text",
                 "text": "\"Keep it down, everyone. We need to make haste.\""
               }
-            ]
+            ],
+            "id": "p-70b1c0b50db71ffb"
           },
           {
             "type": "paragraph",
@@ -382,7 +411,8 @@
                 "type": "text",
                 "text": "Captain Revolver's words carry authority, and even the mischievous Clockie covers his clock hands on his nose to minimize the noise."
               }
-            ]
+            ],
+            "id": "p-cf393a6f8d2c6595"
           },
           {
             "type": "paragraph",
@@ -391,7 +421,8 @@
                 "type": "text",
                 "text": "As the team advances deeper and deeper, the tunnels grow quieter. Everyone tries to be as silent as possible and focus on the road ahead, their ears hearing only the faint sound of butterfly wings fluttering. Captain Revolver, shielding his friends, leads the way with extreme caution. However, in the lightless dark, the horrors eventually quietly close in."
               }
-            ]
+            ],
+            "id": "p-5846ecdabc41e02d"
           },
           {
             "type": "paragraph",
@@ -400,13 +431,15 @@
                 "type": "text",
                 "text": "Silently, greedily, swiftly."
               }
-            ]
+            ],
+            "id": "p-c3cbf0a2cd3cec74"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "part-3",
       "label": "Part 3",
       "document": {
         "version": 1,
@@ -428,7 +461,8 @@
                 "type": "text",
                 "text": "Just as the group advances with caution, a pitch-dark figure is already hiding deep in the channel. It hid in the soil, preparing to ambush and devour Clockie as he passed by."
               }
-            ]
+            ],
+            "id": "p-b008f56999007ff1"
           },
           {
             "type": "paragraph",
@@ -437,7 +471,8 @@
                 "type": "text",
                 "text": "However, the ever-vigilant Captain Revolver is one step ahead. Before the creature can even strike, one of his bullets already pierces through its nose."
               }
-            ]
+            ],
+            "id": "p-e6b668cb52cc7bac"
           },
           {
             "type": "paragraph",
@@ -446,7 +481,8 @@
                 "type": "text",
                 "text": "\"It's an Old Buzzfly! Watch out!\""
               }
-            ]
+            ],
+            "id": "p-e8012fc4872a4e30"
           },
           {
             "type": "paragraph",
@@ -455,7 +491,8 @@
                 "type": "text",
                 "text": "Without giving the Old Buzzfly a chance to react, another fiery blast erupts from Captain Revolver's head. A mournful cry follows from ahead. Soon, a deathly silence falls over the entire tunnel once more."
               }
-            ]
+            ],
+            "id": "p-7ab4e549e46111e1"
           },
           {
             "type": "paragraph",
@@ -471,7 +508,8 @@
                 "type": "text",
                 "text": "\"Don't get relaxed yet. Old Buzzflies never hunt alone. There must be more of its companions lurking inside the tunnels.\""
               }
-            ]
+            ],
+            "id": "p-8600bcfb3b53c65c"
           },
           {
             "type": "paragraph",
@@ -480,7 +518,8 @@
                 "type": "text",
                 "text": "As if on cue, soon, the tunnel is filled with a cacophony of buzzing sounds."
               }
-            ]
+            ],
+            "id": "p-213c63030b1c51ad"
           },
           {
             "type": "paragraph",
@@ -489,7 +528,8 @@
                 "type": "text",
                 "text": "Old Buzzflies are a bunch of non-vocal monsters, but far more terrifying than any ordinary foes. They will devour everything in their path. Soon, everyone realizes the terrifying truth — these Old Buzzflies have already devoured the forest on the other side of the tunnel, and are now headed towards Dreamville itself!"
               }
-            ]
+            ],
+            "id": "p-9d7a92f3cd38ab51"
           },
           {
             "type": "paragraph",
@@ -498,7 +538,8 @@
                 "type": "text",
                 "text": "\"We've got to stop them passing through here!\""
               }
-            ]
+            ],
+            "id": "p-445d4d1f1a7c622e"
           },
           {
             "type": "paragraph",
@@ -507,7 +548,8 @@
                 "type": "text",
                 "text": "However, the tunnel is so dark that not even a glimpse of the Old Buzzflies can be seen. How are they supposed to defeat those monsters? Just as Clockie's gears are about to get stuck in exasperation, brilliance suddenly illuminates the tunnel."
               }
-            ]
+            ],
+            "id": "p-46329cabcf52c513"
           },
           {
             "type": "paragraph",
@@ -516,7 +558,8 @@
                 "type": "text",
                 "text": "\"We've come to help you, Captain.\""
               }
-            ]
+            ],
+            "id": "p-9181482b1ed94537"
           },
           {
             "type": "paragraph",
@@ -525,7 +568,8 @@
                 "type": "text",
                 "text": "The butterflies flutter their wings vigorously, the shining dust of the scales shimmering like stars as they fall into the tunnel, exposing the repulsive Old Buzzflies and giving them no shade to hide. Captain Revolver expertly pulls the trigger with this light, the muzzle on his head almost spitting flame. One after another, butterflies who have exhausted their phosphoric dust fall to the ground, only to be replaced by fresh reinforcements."
               }
-            ]
+            ],
+            "id": "p-3e1a0c30cd1a9dcf"
           },
           {
             "type": "paragraph",
@@ -548,7 +592,8 @@
                 "type": "text",
                 "text": "\"No 'but.' I'm Captain Revolver. I won't lose to the likes of them.\""
               }
-            ]
+            ],
+            "id": "p-7110449cff1315b6"
           },
           {
             "type": "paragraph",
@@ -557,7 +602,8 @@
                 "type": "text",
                 "text": "Seizing an opportunity while Captain Revolver is momentarily distracted, an Old Buzzfly lunges toward him, aiming to vanquish the most valiant opponent present. However, the butterflies form a delicate barrier, their wings breaking in the clash as the phosphorus powder blinds the Old Buzzflies."
               }
-            ]
+            ],
+            "id": "p-333361edc16f4c38"
           },
           {
             "type": "paragraph",
@@ -566,7 +612,8 @@
                 "type": "text",
                 "text": "Amidst the unceasing sound of gunfire, Clockie and the origami birds flee desperately until exhaustion overtakes them. They could not take one more step or make one more wing flip. Finally, the familiar sight of the forest and Dreamville re-emerges before them."
               }
-            ]
+            ],
+            "id": "p-c3b6332502e13dbd"
           },
           {
             "type": "paragraph",
@@ -575,7 +622,8 @@
                 "type": "text",
                 "text": "When Clockie leads his companions back to the tunnel, the battle has long concluded. Scattered phosphoric scales adorn every corner, illuminating the tunnel even brighter than daylight. The radiant glow guides them forward through the corpses of one Old Buzzfly after another and out of the cave. The Old Buzzflies have devoured everything — except the stones here."
               }
-            ]
+            ],
+            "id": "p-c1a20dda1ac414a0"
           },
           {
             "type": "paragraph",
@@ -584,7 +632,8 @@
                 "type": "text",
                 "text": "\"Tick-tock. Captain? Butterflies? Are you there?\""
               }
-            ]
+            ],
+            "id": "p-571a471d01e708bd"
           },
           {
             "type": "paragraph",
@@ -593,7 +642,8 @@
                 "type": "text",
                 "text": "There is no reply."
               }
-            ]
+            ],
+            "id": "p-884c0716188fb0b5"
           },
           {
             "type": "paragraph",
@@ -602,7 +652,8 @@
                 "type": "text",
                 "text": "With the stones, the shattered town is repaired. However, Captain Revolver and the butterflies never return. Sometimes, sunlight filters through the cracks in the tunnel, illuminating the fading phosphorus powders. Those sparkling colors always make Clockie feel as though someone is trying to talk to him."
               }
-            ]
+            ],
+            "id": "p-d6064dcdf91e05ad"
           },
           {
             "type": "paragraph",
@@ -611,7 +662,8 @@
                 "type": "text",
                 "text": "\"Hey, Clockie! Let's go on another adventure!\""
               }
-            ]
+            ],
+            "id": "p-7c78d224e3ee6d39"
           }
         ]
       }

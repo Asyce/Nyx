@@ -4,10 +4,11 @@
   "id": "perinheri",
   "name": "Perinheri",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Perinheri",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
@@ -69,7 +70,8 @@
                 "type": "text",
                 "text": "In anticipation of the arrival at their Kingdom of gods from beyond the so-called ocean — or rather, the arrival of beings who could transcend the gods — they founded an organization, an orphanage to take care of such children. In latter days, the orphans of the Kingdom and those who wandered in from outside were accepted as well."
               }
-            ]
+            ],
+            "id": "p-f363efe6e0ac94e3"
           },
           {
             "type": "paragraph",
@@ -128,7 +130,8 @@
                 "type": "text",
                 "text": "The adults opened the door and embraced the soot-covered Perinheri: \"You have traversed the fire of two worlds within the hearth, and here you are reborn.\""
               }
-            ]
+            ],
+            "id": "p-a07d267e5c92dcc6"
           },
           {
             "type": "paragraph",
@@ -147,13 +150,15 @@
                 "type": "text",
                 "text": "They should have competed for glory, and decided who was superior through the amount of honors they crowned themselves in — and in the number of goblets of fine wine downed during the festivities afterward. But for some reason, their rivalry would take a mortal turn."
               }
-            ]
+            ],
+            "id": "p-db70d97a97bf3b9d"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
@@ -175,7 +180,8 @@
                 "type": "text",
                 "text": "Fair Angelica declared that she would only marry the mightiest knight in all the Kingdom. Perinheri cared not a whit, but Hleobrant was smitten with her. Angelica would often take walks near the Sea of Wells, and there she spoke much of the outside world to Hleobrant. Perinheri would come along out of concern for his friend, and because suspicion was born in him sooner than curiosity, he would doubt her every word, yet wished that he might see these things one day."
               }
-            ]
+            ],
+            "id": "p-c89db0d1e99098b7"
           },
           {
             "type": "paragraph",
@@ -214,7 +220,8 @@
                 "type": "text",
                 "text": "As for Perinheri, he believed that his best friend's madness would be cured, if only he could kill Angelica."
               }
-            ]
+            ],
+            "id": "p-5d260e2e04f38533"
           },
           {
             "type": "paragraph",
@@ -283,7 +290,8 @@
                 "type": "text",
                 "text": "There was nothing before Perinheri, only vast, empty land."
               }
-            ]
+            ],
+            "id": "p-880a82c78b9b2305"
           },
           {
             "type": "paragraph",
@@ -302,7 +310,8 @@
                 "type": "text",
                 "text": "Note 2: The black wolves of the first edition. Archaeological work on Khaenri'ah indicates that this must have been a type of warbeast created using alchemy. Alchemy and the Beastmaster Knights were a mainstay during the Crimson Moon Dynasty, but interest in mechanical engineering during the Eclipse Dynasty would cause it to fall behind."
               }
-            ]
+            ],
+            "id": "p-a22b5b85569d7240"
           },
           {
             "type": "paragraph",
@@ -381,7 +390,8 @@
                 "type": "text",
                 "text": "Mr. Yun's notes on Liyue Culture (15th edition)"
               }
-            ]
+            ],
+            "id": "p-6a9c2a4c37ab3b47"
           }
         ]
       }

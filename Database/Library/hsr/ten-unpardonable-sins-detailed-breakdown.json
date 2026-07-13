@@ -4,10 +4,11 @@
   "id": "ten-unpardonable-sins-detailed-breakdown",
   "name": "Ten Unpardonable Sins Detailed Breakdown",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Ten_Unpardonable_Sins_Detailed_Breakdown",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "* This brochure on Xianzhou laws continuously re-instates the legal interpretation of the Ten Unpardonable Sins. Perpetrators who commit these sins will face the most severe penalties.*"
               }
-            ]
+            ],
+            "id": "p-cab666b9dc4251c6"
           },
           {
             "type": "paragraph",
@@ -35,7 +37,8 @@
                 "type": "text",
                 "text": "It refers to the crime of contaminating the genetic makeup of short-life species, resulting in their transformation into long-life species, then eventually degenerate into abominations."
               }
-            ]
+            ],
+            "id": "p-353c502ed0935fde"
           },
           {
             "type": "paragraph",
@@ -51,7 +54,8 @@
                 "type": "text",
                 "text": "It refers to the crime committed by travelers who infiltrate the Xianzhou with the intent to steal the secret of immortality."
               }
-            ]
+            ],
+            "id": "p-7fdda104e024a784"
           },
           {
             "type": "paragraph",
@@ -67,7 +71,8 @@
                 "type": "text",
                 "text": "It refers to the crime of foreign races with abilities to manipulate minds, who use this to deprive individuals of their free will and control them."
               }
-            ]
+            ],
+            "id": "p-6e32c6606fe596b0"
           },
           {
             "type": "paragraph",
@@ -83,7 +88,8 @@
                 "type": "text",
                 "text": "It refers to the crime of inducing mara-struck through specific means."
               }
-            ]
+            ],
+            "id": "p-33f287b1636e9afc"
           },
           {
             "type": "paragraph",
@@ -99,7 +105,8 @@
                 "type": "text",
                 "text": "It refers to the crime of violently taking the lives of fellow Xianzhou peoples."
               }
-            ]
+            ],
+            "id": "p-e240bbc89e99bdd9"
           },
           {
             "type": "paragraph",
@@ -115,7 +122,8 @@
                 "type": "text",
                 "text": "It refers to the crime of the theft of confidential information from the governmental organizations of the Xianzhou."
               }
-            ]
+            ],
+            "id": "p-af70d52565bba413"
           },
           {
             "type": "paragraph",
@@ -131,7 +139,8 @@
                 "type": "text",
                 "text": "It refers to the crime of attempting to breach the confinement of the Ten-Lords Division, and attempting to enter The Shackling Prison to release prisoners held within."
               }
-            ]
+            ],
+            "id": "p-5820677e1b127f4b"
           },
           {
             "type": "paragraph",
@@ -147,7 +156,8 @@
                 "type": "text",
                 "text": "It refers to the crime of inciting, dividing, or undermining unity among the various races on the Xianzhou."
               }
-            ]
+            ],
+            "id": "p-7f3f9559342291b4"
           },
           {
             "type": "paragraph",
@@ -163,7 +173,8 @@
                 "type": "text",
                 "text": "It refers to the crime of mobilizing military forces to launch an attack on the Xianzhou, inciting war or rebellion."
               }
-            ]
+            ],
+            "id": "p-a8baed08bd034011"
           },
           {
             "type": "paragraph",
@@ -179,7 +190,8 @@
                 "type": "text",
                 "text": "It refers to the crime of attempting to disintegrate the physical structure of the Xianzhou ships with the aim of it sinking."
               }
-            ]
+            ],
+            "id": "p-868f383f54ff4297"
           }
         ]
       }

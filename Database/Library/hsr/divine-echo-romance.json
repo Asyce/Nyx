@@ -4,10 +4,11 @@
   "id": "divine-echo-romance",
   "name": "Divine Echo: Romance",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Divine_Echo:_Romance",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -40,7 +41,8 @@
                 "type": "text",
                 "text": "Deepest passion in your heat"
               }
-            ]
+            ],
+            "id": "p-84f11367d9822f85"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "lost-adventure-notebook",
   "name": "Lost Adventure Notebook",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Lost_Adventure_Notebook",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "\"Eric can't hold on any longer... We had no choice but to give up. I'll leave this notebook here. Maybe this treasure is destined for someone else."
               }
-            ]
+            ],
+            "id": "p-6e9622512e377fb3"
           },
           {
             "type": "paragraph",
@@ -58,7 +60,8 @@
                 "type": "text",
                 "text": "If the other mechanisms are operated in the wrong sequence, that person will face..."
               }
-            ]
+            ],
+            "id": "p-0757dfa575a9a05d"
           },
           {
             "type": "paragraph",
@@ -87,7 +90,8 @@
                 "type": "text",
                 "text": "Perhaps... ?"
               }
-            ]
+            ],
+            "id": "p-e88daf47ae14b80b"
           },
           {
             "type": "paragraph",
@@ -116,7 +120,8 @@
                 "type": "text",
                 "text": "But Eric physically can't take any more...\""
               }
-            ]
+            ],
+            "id": "p-506aae7ddf5c6eea"
           }
         ]
       }

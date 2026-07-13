@@ -4,10 +4,11 @@
   "id": "ryusuke-s-work-appreciation-part-1",
   "name": "Ryusuke's Work Appreciation (Part 1)",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Ryusuke%27s_Work_Appreciation_(Part_1)",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -32,7 +33,8 @@
                 "type": "text",
                 "text": ", Issue 1728, cover feature. Editor: Sturgeon A. Raines)"
               }
-            ]
+            ],
+            "id": "p-eb74d1188927e6b5"
           },
           {
             "type": "paragraph",
@@ -119,7 +121,8 @@
                 "type": "text",
                 "text": "."
               }
-            ]
+            ],
+            "id": "p-ebd516340bd0d445"
           },
           {
             "type": "paragraph",
@@ -128,7 +131,8 @@
                 "type": "text",
                 "text": "His artistic journey can be divided into the following four stages:"
               }
-            ]
+            ],
+            "id": "p-1fa2579dab3a986a"
           },
           {
             "type": "paragraph",
@@ -142,7 +146,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-bcb7d3dccf40baf0"
           },
           {
             "type": "paragraph",
@@ -151,7 +156,8 @@
                 "type": "text",
                 "text": "Ryusuke comes from Bathia, a star system renowned for its classical pastoral aesthetics. He graduated with honors from the Classical Fine Arts Department of the Bragi Royal Academy of Arts and spent three years teaching there. During this time, he received numerous accolades, including the \"Arita Classical Art Foundation\" award, establishing himself as a premier rising star in the interastral art world. Critics noted that his artistic foundation was already evident. Ryusuke excels at situating himself within the breadth of the Amber Era to observe the world objectively, striving for a near-utopian purity."
               }
-            ]
+            ],
+            "id": "p-4bb59f1f671a28ca"
           },
           {
             "type": "paragraph",
@@ -199,7 +205,8 @@
                 "type": "text",
                 "text": "are hailed as the zeniths of Bathia's realism works."
               }
-            ]
+            ],
+            "id": "p-d1bf5ba56f8097b0"
           },
           {
             "type": "paragraph",
@@ -213,7 +220,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-06f4a042efe78bd2"
           },
           {
             "type": "paragraph",
@@ -222,7 +230,8 @@
                 "type": "text",
                 "text": "Following his arrival in Planarcadia as a visiting scholar, Ryusuke's fascination with Graphia techniques led him to join the Graphia Academy. He mastered the fundamentals of imagenae creation in under a year. Upon completing his visit, the academy invited him to remain as a faculty member to further his studies. During this period, as a creator from a different world, Ryusuke held a unique perspective on imagenae compared to the local populace. His work focused on expressing the mental state of modern individuals under the management of the IPC, using Planarcadia as a focal point, and positing that imagenae are direct reflections of that state."
               }
-            ]
+            ],
+            "id": "p-00d47d8a97e36875"
           },
           {
             "type": "paragraph",
@@ -244,7 +253,8 @@
                 "type": "text",
                 "text": ", featured a collection of non-sentient, jellyfish-like imagenae drifting through the vacuum. It conveyed the message that This piece earned significant acclaim from the Knights of Beauty."
               }
-            ]
+            ],
+            "id": "p-c68ea5978259c634"
           },
           {
             "type": "paragraph",
@@ -279,7 +289,8 @@
                 "type": "text",
                 "text": ", sparking intense debate across society and the art world."
               }
-            ]
+            ],
+            "id": "p-e6df61ee0218cc67"
           }
         ]
       }

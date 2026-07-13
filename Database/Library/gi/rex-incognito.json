@@ -4,17 +4,19 @@
   "id": "rex-incognito",
   "name": "Rex Incognito",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Rex_Incognito",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -23,7 +25,8 @@
                 "type": "text",
                 "text": "Liyue is a land where all kinds of rare and exotic treasures congregate, and where there are precious treasures, one is sure to also find those with discerning eye."
               }
-            ]
+            ],
+            "id": "p-92b49323bc5a5a59"
           },
           {
             "type": "paragraph",
@@ -32,7 +35,8 @@
                 "type": "text",
                 "text": "The very first owner of Xigu Antiques — the unconventional collector, Min'gui — was just such an individual."
               }
-            ]
+            ],
+            "id": "p-90647fec605e1d29"
           },
           {
             "type": "paragraph",
@@ -41,7 +45,8 @@
                 "type": "text",
                 "text": "Xigu Antiques of Feiyun Slope was frequented by well-to-do customers. Closed during daylight hours, it only opened to customers once the moon began to rise in the night sky. The shop's customers were anything but ordinary: they were the wealthy and leisurely, people with outstanding taste."
               }
-            ]
+            ],
+            "id": "p-75dd263da9f967d1"
           },
           {
             "type": "paragraph",
@@ -50,7 +55,8 @@
                 "type": "text",
                 "text": "A meticulously crafted timepiece from Fontaine, incense from Sumeru, a wine goblet once owned by an aristocrat of old Mondstadt, a wooden stool whose surface was once graced by the buttocks of an adeptus for all of one hour, a delicate jade teacup from which the Lord of Geo once supped a sip of tea, a priceless celadon vase that Liyue's neighbor deity, the Anemo Archon, once accidentally knocked the to the ground, shattering it to pieces... All these and more were laid out for the customers to peruse at their leisure, each item just waiting for that one person with whom it shared a certain affinity."
               }
-            ]
+            ],
+            "id": "p-fb8209b89d352c5d"
           },
           {
             "type": "paragraph",
@@ -59,7 +65,8 @@
                 "type": "text",
                 "text": "One night, a wealthy young man who was walking by happened to pause in front of the shop, and began carefully examining the items on the shelves."
               }
-            ]
+            ],
+            "id": "p-ca3a39662cb20c9d"
           },
           {
             "type": "paragraph",
@@ -68,7 +75,8 @@
                 "type": "text",
                 "text": "The owner was struck by his long, black robes, dark and solemn as the looming mountain peaks, and by his eyes, which were the color of amber."
               }
-            ]
+            ],
+            "id": "p-e2b54de3c8e96294"
           },
           {
             "type": "paragraph",
@@ -77,7 +85,8 @@
                 "type": "text",
                 "text": "This was no ordinary young man. This Min'gui could tell with one look."
               }
-            ]
+            ],
+            "id": "p-9f12cb8878ce235a"
           },
           {
             "type": "paragraph",
@@ -116,7 +125,8 @@
                 "type": "text",
                 "text": "The young man smirked, and spoke in a subtly coy manner."
               }
-            ]
+            ],
+            "id": "p-88e134fbe44a85bf"
           },
           {
             "type": "paragraph",
@@ -125,7 +135,8 @@
                 "type": "text",
                 "text": "\"I'm just rather taken with this exquisite counterfeit.\""
               }
-            ]
+            ],
+            "id": "p-ff0dcb0c9e822b29"
           },
           {
             "type": "paragraph",
@@ -134,7 +145,8 @@
                 "type": "text",
                 "text": "The item that had caught his eye was a damaged jade plaque."
               }
-            ]
+            ],
+            "id": "p-612d15b00ba1f97e"
           },
           {
             "type": "paragraph",
@@ -143,7 +155,8 @@
                 "type": "text",
                 "text": "The face exposed to the night sky was the one on which the pattern was slightly more intact, and as the moonlight shone down, it seeped into the intricate blemishes in the jade, exposing them, and cascaded down the ravines produced by the crisscrossing texture on the plaque's surface. The severe wear and tear on the front and the disintegration around the perimeter made it impossible to discern the words and images that had once been written on it. By all accounts, it seemed to have lived a turbulent life."
               }
-            ]
+            ],
+            "id": "p-59ff5981481925c0"
           },
           {
             "type": "paragraph",
@@ -162,7 +175,8 @@
                 "type": "text",
                 "text": "Min'gui was quite used to customers making such provocative claims. But this young man spoke so bluntly and bitingly that she could not help but feel aggravated by his accusation."
               }
-            ]
+            ],
+            "id": "p-b1cf8c813ec9645a"
           },
           {
             "type": "paragraph",
@@ -171,7 +185,8 @@
                 "type": "text",
                 "text": "Added to this was the fact that this particular item had been snagged by an adventurer from an abandoned palace deep in the heart of the abyss, who had then barely made it back out of that place alive, She recalled how she had haggled relentlessly with the adventurer to acquire the piece, and how in the end it had still cost her the better part of her fortune. If this truly was nothing more than a counterfeit, not only would it imply that she had lost an immense portion of her wealth, but it would also mean irrevocable damage to the reputation of Xigu Antiques as connoisseurs of quality."
               }
-            ]
+            ],
+            "id": "p-cfdcdf7373f5f7bb"
           },
           {
             "type": "paragraph",
@@ -180,7 +195,8 @@
                 "type": "text",
                 "text": "Min'gui knew what she had to do: Not only must she somehow get rid of this calamitous customer who threatened to ruin her entire business, but she must also find a way to sell this jade plaque to him in the process."
               }
-            ]
+            ],
+            "id": "p-4655b1634eb415a0"
           },
           {
             "type": "paragraph",
@@ -189,7 +205,8 @@
                 "type": "text",
                 "text": "\"Please, continue,\" she said. \"I would hope that you can give a detailed appraisal.\""
               }
-            ]
+            ],
+            "id": "p-a45e00fd7ded6737"
           },
           {
             "type": "paragraph",
@@ -198,7 +215,8 @@
                 "type": "text",
                 "text": "————————"
               }
-            ]
+            ],
+            "id": "p-d4a1b5c5d4d40efa"
           },
           {
             "type": "paragraph",
@@ -247,7 +265,8 @@
                 "type": "text",
                 "text": "\"As you can see... Mortal wisdom is quite a fascinating thing. They were making their own way in the world even before Rex Lapis had made provisions for them to do so.\""
               }
-            ]
+            ],
+            "id": "p-77c3c98e51957202"
           },
           {
             "type": "paragraph",
@@ -266,7 +285,8 @@
                 "type": "text",
                 "text": "He stood there, cloaked in a veil of silver moonlight, which somehow served to make him every so slightly more diminutive in stature."
               }
-            ]
+            ],
+            "id": "p-700992faf4c2a9b3"
           },
           {
             "type": "paragraph",
@@ -305,7 +325,8 @@
                 "type": "text",
                 "text": "\"As a side point, I would also add that the image carved onto this jade is that of a woman. This is a highly unusual thing to see among similar relics from the era in question.\""
               }
-            ]
+            ],
+            "id": "p-497819e1fbda96b0"
           },
           {
             "type": "paragraph",
@@ -324,7 +345,8 @@
                 "type": "text",
                 "text": "\"Although there are plenty of rumors to this effect, the claim that Rex Lapis once took the form of a woman is not attested to by any of the historical records, and there is no physical evidence of it ever occurring...\""
               }
-            ]
+            ],
+            "id": "p-33ee7bdf5b7d5e3c"
           },
           {
             "type": "paragraph",
@@ -333,7 +355,8 @@
                 "type": "text",
                 "text": "Though young, the man had the air of an old and infuriating pedant about him."
               }
-            ]
+            ],
+            "id": "p-a538afb4aab0eade"
           },
           {
             "type": "paragraph",
@@ -362,7 +385,8 @@
                 "type": "text",
                 "text": "\"Perhaps you'd be willing to listen to my story before making your final verdict?\""
               }
-            ]
+            ],
+            "id": "p-bec3fda2f02c61f3"
           },
           {
             "type": "paragraph",
@@ -371,20 +395,23 @@
                 "type": "text",
                 "text": "The shop owner narrowed her eyes and began the process of reeling out her story..."
               }
-            ]
+            ],
+            "id": "p-71aab76e41559afa"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -413,7 +440,8 @@
                 "type": "text",
                 "text": "Despite this, people revered and placed their faith in him all the same. This was because his laws served to guarantee that trade was fair and that life was safe and orderly. The Geo Archon grew in strength and stature because of the people's belief in him."
               }
-            ]
+            ],
+            "id": "p-a54bf95ff537738f"
           },
           {
             "type": "paragraph",
@@ -422,7 +450,8 @@
                 "type": "text",
                 "text": "But even gods are powerless to control the beliefs and doubts of their mortal followers. And even a god who is the guardian of justice has no means of instilling the words of his rules and regulations into the heart of every individual."
               }
-            ]
+            ],
+            "id": "p-64f1b041553ccfa9"
           },
           {
             "type": "paragraph",
@@ -431,7 +460,8 @@
                 "type": "text",
                 "text": "In Mingyun Village there was an incorrigibly irreverent jade craftsman who loved to jest. Whatever job he took on, he would complete it in the most unorthodox means imaginable, and would always finish the job on the very last day before it was due."
               }
-            ]
+            ],
+            "id": "p-526f31b0db18a7e0"
           },
           {
             "type": "paragraph",
@@ -460,7 +490,8 @@
                 "type": "text",
                 "text": "\"When a formidable hunter closes in on a fierce beast, he may not show his face, but his imposing presence is enough to frighten the beast to its core.\""
               }
-            ]
+            ],
+            "id": "p-120e43061d9b02df"
           },
           {
             "type": "paragraph",
@@ -489,7 +520,8 @@
                 "type": "text",
                 "text": "\"No ruler takes the throne for more than one hundred years. The throne has more longevity than he.\""
               }
-            ]
+            ],
+            "id": "p-7983530ca1e21574"
           },
           {
             "type": "paragraph",
@@ -498,7 +530,8 @@
                 "type": "text",
                 "text": "The craftsman quickly developed a reputation as an eccentric in Mingyun Village. But the wealthy merchants in the prosperous commercial port of Liyue Harbor were most amused and were only too willing to place orders with him ー if only to experience for themselves what it was like to be on the receiving end of this mischievous man's antics."
               }
-            ]
+            ],
+            "id": "p-f8dade9ec9ddd6cc"
           },
           {
             "type": "paragraph",
@@ -507,7 +540,8 @@
                 "type": "text",
                 "text": "——————"
               }
-            ]
+            ],
+            "id": "p-bc15a949093ef0ae"
           },
           {
             "type": "paragraph",
@@ -566,7 +600,8 @@
                 "type": "text",
                 "text": "At least, the craftsman thought so."
               }
-            ]
+            ],
+            "id": "p-abf06cffc2eb048c"
           },
           {
             "type": "paragraph",
@@ -605,7 +640,8 @@
                 "type": "text",
                 "text": "\"Otherwise,\" she said, \"I'm not paying a single Mora.\""
               }
-            ]
+            ],
+            "id": "p-0d92dd36d3c90a5f"
           },
           {
             "type": "paragraph",
@@ -614,7 +650,8 @@
                 "type": "text",
                 "text": "And so a deal was struck between the two, with an agreed turnaround of three days."
               }
-            ]
+            ],
+            "id": "p-bef32d2dd64e7a55"
           },
           {
             "type": "paragraph",
@@ -623,7 +660,8 @@
                 "type": "text",
                 "text": "On the first day, the craftsman dined and drank with his good friends. He did not take a single new job on that day."
               }
-            ]
+            ],
+            "id": "p-c9a757bc8738804a"
           },
           {
             "type": "paragraph",
@@ -632,7 +670,8 @@
                 "type": "text",
                 "text": "On the second day, the craftsman climbed a mountain to view the jade there, not seeing a single customer or acquaintance for the entire day."
               }
-            ]
+            ],
+            "id": "p-5119e21c326899e6"
           },
           {
             "type": "paragraph",
@@ -641,7 +680,8 @@
                 "type": "text",
                 "text": "Only on the third day did the craftsman close the doors of his workshop and begin carving away at the uncut jade, working from dawn to dusk, until finally it was complete."
               }
-            ]
+            ],
+            "id": "p-4d33a74396a4d661"
           },
           {
             "type": "paragraph",
@@ -670,7 +710,8 @@
                 "type": "text",
                 "text": "A jade plaque bearing the likeness of their god, in female form."
               }
-            ]
+            ],
+            "id": "p-8767d81385bb09d3"
           },
           {
             "type": "paragraph",
@@ -719,7 +760,8 @@
                 "type": "text",
                 "text": "\"On the third day, I covered both my eyes and began to carve from the heart, starting when it felt like the time to start, stopping when it felt like the time to stop. At last, this was the spirit.\""
               }
-            ]
+            ],
+            "id": "p-141a5c6289e3ea93"
           },
           {
             "type": "paragraph",
@@ -738,7 +780,8 @@
                 "type": "text",
                 "text": "\"But even I'm not sure why it came out like this.\""
               }
-            ]
+            ],
+            "id": "p-a5be8f7d703871a2"
           },
           {
             "type": "paragraph",
@@ -757,7 +800,8 @@
                 "type": "text",
                 "text": "\"Interesting,\" she finally responded. \"Incidentally, this reminds me of another story...\""
               }
-            ]
+            ],
+            "id": "p-89ff9f6c7e3c8c9d"
           },
           {
             "type": "paragraph",
@@ -766,20 +810,23 @@
                 "type": "text",
                 "text": "She looked up at him with her amber-colored eyes and began the process of reeling out her story..."
               }
-            ]
+            ],
+            "id": "p-f7cf6deae7e248e8"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "vol-3",
       "label": "Vol. 3",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -798,7 +845,8 @@
                 "type": "text",
                 "text": "That age belonged, as does the current one, to the wealthy merchants and ship owners. It was an age in which the ones who reigned supreme were those who dared wrestle with the tumultuous tides of the market and the wrathful beasts of the ocean."
               }
-            ]
+            ],
+            "id": "p-555fda04672d4fca"
           },
           {
             "type": "paragraph",
@@ -817,7 +865,8 @@
                 "type": "text",
                 "text": "Legend has it that Rex Lapis, when appearing in mortal form, does not always take the form of a distinguished gentleman fraternizing with the well-to-do of Yujing Terrace. Sometimes, it is said, he takes the form of a commoner and mingles with the miners, the fishermen, the sailors, and the peddlers."
               }
-            ]
+            ],
+            "id": "p-9f853cb3e874d556"
           },
           {
             "type": "paragraph",
@@ -826,7 +875,8 @@
                 "type": "text",
                 "text": "Back in that day, there was a certain fishing vessel owner who was notoriously harsh and critical in his temperament. He was always rude towards those who worked for him, and whenever something wasn't to his satisfaction, he would jump to conclusions and start scolding them, even docking their wages, without giving them the opportunity to explain their side of the story."
               }
-            ]
+            ],
+            "id": "p-5d745c379fe6f801"
           },
           {
             "type": "paragraph",
@@ -845,7 +895,8 @@
                 "type": "text",
                 "text": "He had just been hired by the fishing vessel owner, and his attire was indistinguishable from that of any other seafarer of the day: a loose-fitting brown shirt and trousers, and a bandana around his forehead. But from his tanned skin and the rugged, karst-like contours of his facial features, it was clear that he was a commoner from Qingce Village who had come down from the mountains into the city in an attempt to reverse his fortunes."
               }
-            ]
+            ],
+            "id": "p-182c6f657a2d9e0c"
           },
           {
             "type": "paragraph",
@@ -854,7 +905,8 @@
                 "type": "text",
                 "text": "Like most mountain-dwellers of his day, he was a simple-minded and unsophisticated fellow. But what dismayed his new boss more than this was his reluctance to go anywhere near the catches of the slimy and tentacled variety."
               }
-            ]
+            ],
+            "id": "p-45265632179e03be"
           },
           {
             "type": "paragraph",
@@ -873,7 +925,8 @@
                 "type": "text",
                 "text": "This was the only justification the ship owner gave for docking the newly hired mountain's man pay."
               }
-            ]
+            ],
+            "id": "p-cd4eaf8dbf1df78f"
           },
           {
             "type": "paragraph",
@@ -902,7 +955,8 @@
                 "type": "text",
                 "text": "\"Everyone has likes and dislikes, so why should we do the things we hate the most?\""
               }
-            ]
+            ],
+            "id": "p-42847ffff2cb0bcc"
           },
           {
             "type": "paragraph",
@@ -921,7 +975,8 @@
                 "type": "text",
                 "text": "\"Them's the rules of the world, you moron! Listen good: You'll get yourself nowhere in this world if you won't do a job you don't like!\""
               }
-            ]
+            ],
+            "id": "p-311a147888a10fb6"
           },
           {
             "type": "paragraph",
@@ -930,7 +985,8 @@
                 "type": "text",
                 "text": "\"But maybe that wasn't what Rex Lapis meant when he made the rules...\""
               }
-            ]
+            ],
+            "id": "p-8e6f95f7c0a878a8"
           },
           {
             "type": "paragraph",
@@ -939,7 +995,8 @@
                 "type": "text",
                 "text": "\"Shut up, you idiot!\""
               }
-            ]
+            ],
+            "id": "p-c6f07aa935f2165f"
           },
           {
             "type": "paragraph",
@@ -958,7 +1015,8 @@
                 "type": "text",
                 "text": "The young man's eyes shone like amber from the mountain mines in the light of the setting sun."
               }
-            ]
+            ],
+            "id": "p-cbfe4e8a6c26306c"
           },
           {
             "type": "paragraph",
@@ -987,7 +1045,8 @@
                 "type": "text",
                 "text": "\"Go on then... But I expect you to work and talk at the same time!\""
               }
-            ]
+            ],
+            "id": "p-f8010cdc04ba38a7"
           },
           {
             "type": "paragraph",
@@ -1006,7 +1065,8 @@
                 "type": "text",
                 "text": "\"Well then, let me tell you a story about a certain jade plaque...\""
               }
-            ]
+            ],
+            "id": "p-2399bfebfb813bab"
           },
           {
             "type": "paragraph",
@@ -1015,20 +1075,23 @@
                 "type": "text",
                 "text": "And so, the young man proceeded to tell his tale. His boss listened so intently that he never noticed the anonymous pair of hands that were sneaking into his pocket — hands which subsequently pilfered the money he had made from all the wages he had docked before distributing it back out to the laborers."
               }
-            ]
+            ],
+            "id": "p-829a202fb3c807ef"
           }
         ]
       }
     },
     {
       "id": "4",
+      "volumeKey": "vol-4",
       "label": "Vol. 4",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -1057,7 +1120,8 @@
                 "type": "text",
                 "text": "The focal point of their debate was a jade plaque."
               }
-            ]
+            ],
+            "id": "p-5716c2ac19640fcf"
           },
           {
             "type": "paragraph",
@@ -1076,7 +1140,8 @@
                 "type": "text",
                 "text": "The real trick lay in weaving an intricate but spurious tale."
               }
-            ]
+            ],
+            "id": "p-4f25b36c595da940"
           },
           {
             "type": "paragraph",
@@ -1095,7 +1160,8 @@
                 "type": "text",
                 "text": "Rex Lapis laid down rules and contracts, but never forced the ordinary folk by his authority to live by them as a perfect template, for he knew that laws and stipulations were a means, not the end. The timeless balance lay, in truth, in a person's awareness and their ability to make choices for themselves."
               }
-            ]
+            ],
+            "id": "p-9a6c82e029dd729d"
           },
           {
             "type": "paragraph",
@@ -1104,7 +1170,8 @@
                 "type": "text",
                 "text": "The harsh boss of the fishing vessel did not understand this principle, and so earned the fear and mockery of his hired help."
               }
-            ]
+            ],
+            "id": "p-98a2259b281be8bf"
           },
           {
             "type": "paragraph",
@@ -1113,7 +1180,8 @@
                 "type": "text",
                 "text": "As humans are, so too are antiques. Artistry, quality, quality and perfection are limiting factors, yes, but the worth of a relic lies in its backstory."
               }
-            ]
+            ],
+            "id": "p-44076cd25ac3f976"
           },
           {
             "type": "paragraph",
@@ -1122,7 +1190,8 @@
                 "type": "text",
                 "text": "The picky young noble seemed not to wholly perceive this idea, and so had no qualms about calling the jade plaque a fake, denigrating its value."
               }
-            ]
+            ],
+            "id": "p-387a0490a100775f"
           },
           {
             "type": "paragraph",
@@ -1131,7 +1200,8 @@
                 "type": "text",
                 "text": "But if all of Xigu Antiques' treasures were to be scrutinized with such a piercing and empirical eye, their worth would have been ground into dust."
               }
-            ]
+            ],
+            "id": "p-7ed60f3e11096408"
           },
           {
             "type": "paragraph",
@@ -1140,7 +1210,8 @@
                 "type": "text",
                 "text": "Like the tears of a maiden for her captain, which became eternal pearls, or a mortal king who himself carved a portrait of his deceased queen, before sealing his own soul into it..."
               }
-            ]
+            ],
+            "id": "p-5bf989dc9a2de76c"
           },
           {
             "type": "paragraph",
@@ -1149,7 +1220,8 @@
                 "type": "text",
                 "text": "These stories, these legends that should have faded with time were preserved, and thus teemed with life under the outer husk of those relics."
               }
-            ]
+            ],
+            "id": "p-bf0d794ea8a06f11"
           },
           {
             "type": "paragraph",
@@ -1168,7 +1240,8 @@
                 "type": "text",
                 "text": "The noble son nodded, his golden eyes smiling."
               }
-            ]
+            ],
+            "id": "p-a92118332a434028"
           },
           {
             "type": "paragraph",
@@ -1187,7 +1260,8 @@
                 "type": "text",
                 "text": "Min'gui sighed lightly."
               }
-            ]
+            ],
+            "id": "p-a96975ca798eb70e"
           },
           {
             "type": "paragraph",
@@ -1206,7 +1280,8 @@
                 "type": "text",
                 "text": "The young noble could not help but smile, and indeed had never seemed happier since entering her shop."
               }
-            ]
+            ],
+            "id": "p-60b3080300f3f772"
           },
           {
             "type": "paragraph",
@@ -1215,7 +1290,8 @@
                 "type": "text",
                 "text": "\"After all, the story you told about jade plaques being ancient currency — it's nonsense. Nonsense that I made up.\""
               }
-            ]
+            ],
+            "id": "p-66979c8e9e632477"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "imperator-s-order-the-cleaning-list",
   "name": "Imperator's Order: The \"Cleaning\" List",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Imperator%27s_Order:_The_%22Cleaning%22_List",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -48,7 +49,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-e6d314991be2cadf"
           },
           {
             "type": "paragraph",
@@ -57,7 +59,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -85,7 +88,8 @@
                 "type": "text",
                 "text": "Sentence: Execution. Regicide deserves dismemberment into thirty million pieces and turned into animal feed, transforming body and soul into fetid fertilizer. However, as the prophesied one approaches, her life shall be offered as tribute, and mercy shall be shown by preserving her body intact."
               }
-            ]
+            ],
+            "id": "p-414ccb78e84e8f6a"
           },
           {
             "type": "paragraph",
@@ -111,7 +115,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-bcbc13ce8f006da6"
           },
           {
             "type": "paragraph",
@@ -137,7 +142,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-dca446fbb8b515ad"
           },
           {
             "type": "paragraph",
@@ -146,7 +152,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -174,7 +181,8 @@
                 "type": "text",
                 "text": "Sentence: Execution. All property to be confiscated by Okhema, family reduced to slaves. By alliance law, the city of Ladon is to be fined thirty million Balance Coins. Should they refuse, Ladon elders would share his crime and join the cleaning list."
               }
-            ]
+            ],
+            "id": "p-4597218757de3934"
           },
           {
             "type": "paragraph",
@@ -200,7 +208,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-468b171dcd3cf34e"
           },
           {
             "type": "paragraph",
@@ -226,7 +235,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-aa2fcf7dbcc9e138"
           },
           {
             "type": "paragraph",
@@ -235,7 +245,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-3"
           },
           {
             "type": "paragraph",
@@ -263,7 +274,8 @@
                 "type": "text",
                 "text": "Sentence: Execution. Ensure a gruesome death by your daggers, to demonstrate the Imperator's determination to all other states."
               }
-            ]
+            ],
+            "id": "p-f9e00d16db73eacb"
           },
           {
             "type": "paragraph",
@@ -301,7 +313,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-b4a9f983d5e991dd"
           },
           {
             "type": "paragraph",
@@ -339,7 +352,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ab747345f9ff8392"
           },
           {
             "type": "paragraph",
@@ -348,7 +362,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-4"
           },
           {
             "type": "paragraph",
@@ -376,7 +391,8 @@
                 "type": "text",
                 "text": "Sentence: Execute the High Priest during a ritual ceremony, destroying their credibility and influence. Other priests may avoid the cleaning if they cut out their own tongues in repentance."
               }
-            ]
+            ],
+            "id": "p-c46e3e82cd58ae5c"
           },
           {
             "type": "paragraph",
@@ -402,7 +418,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-261a9acfdc5c3b58"
           },
           {
             "type": "paragraph",
@@ -428,7 +445,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-c659dfaeff1b635e"
           },
           {
             "type": "paragraph",
@@ -437,7 +455,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-5"
           },
           {
             "type": "paragraph",
@@ -465,7 +484,8 @@
                 "type": "text",
                 "text": "Sentence: In recognition of previous battle accomplishments, the death penalty was waived. However, all golden-blooded individuals must submit to the Imperator to prevent another Chrysos War catastrophe. According to military law, sever his tendons to neutralize his divine power, strip his armor, and flog him repeatedly until a personal confession of guilt."
               }
-            ]
+            ],
+            "id": "p-ae7065b5d02e3b7d"
           },
           {
             "type": "paragraph",
@@ -491,7 +511,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-01c2051c38373637"
           },
           {
             "type": "paragraph",
@@ -529,7 +550,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-4be23db8b3114a81"
           },
           {
             "type": "paragraph",
@@ -538,7 +560,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-6"
           }
         ]
       }

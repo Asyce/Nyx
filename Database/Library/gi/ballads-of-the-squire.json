@@ -4,17 +4,19 @@
   "id": "ballads-of-the-squire",
   "name": "Ballads of the Squire",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Ballads_of_the_Squire",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -73,7 +75,8 @@
                 "type": "text",
                 "text": "I hear a jangling in the night, and know it is the chains that fetter the souls of the oppressed."
               }
-            ]
+            ],
+            "id": "p-3bd6c9ec8cbb58e0"
           },
           {
             "type": "paragraph",
@@ -132,7 +135,8 @@
                 "type": "text",
                 "text": "For I cannot shift my focus from the filthy street corners."
               }
-            ]
+            ],
+            "id": "p-0cad881131a74a14"
           },
           {
             "type": "paragraph",
@@ -191,7 +195,8 @@
                 "type": "text",
                 "text": "Carrying within them the grief of the oppressed, they assault splendid palatial walls."
               }
-            ]
+            ],
+            "id": "p-cd7327412f1016ed"
           },
           {
             "type": "paragraph",
@@ -230,7 +235,8 @@
                 "type": "text",
                 "text": "Enough to shatter the sharpest of swords."
               }
-            ]
+            ],
+            "id": "p-2a2bb2df2c6b87e3"
           },
           {
             "type": "paragraph",
@@ -269,20 +275,23 @@
                 "type": "text",
                 "text": "They are but the sighs of ants to the ears of men."
               }
-            ]
+            ],
+            "id": "p-7989bbc11df06f76"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -341,7 +350,8 @@
                 "type": "text",
                 "text": "A joyous ballad sung without reservation by a people unrestrained."
               }
-            ]
+            ],
+            "id": "p-f6142551d8a6567c"
           },
           {
             "type": "paragraph",
@@ -380,7 +390,8 @@
                 "type": "text",
                 "text": "\"Do you not know that they are the first among us?\""
               }
-            ]
+            ],
+            "id": "p-136ab7af6f98e3f7"
           },
           {
             "type": "paragraph",
@@ -419,7 +430,8 @@
                 "type": "text",
                 "text": "\"Then did you not once know freedom, too?\""
               }
-            ]
+            ],
+            "id": "p-fe50736fd64c0b44"
           },
           {
             "type": "paragraph",
@@ -478,7 +490,8 @@
                 "type": "text",
                 "text": "And the wind carried the song to all corners of the land."
               }
-            ]
+            ],
+            "id": "p-42f5d807ccee58b0"
           },
           {
             "type": "paragraph",
@@ -517,7 +530,8 @@
                 "type": "text",
                 "text": "And buried it where the gentle winds meet in communion."
               }
-            ]
+            ],
+            "id": "p-e08b026899a8ad66"
           }
         ]
       }

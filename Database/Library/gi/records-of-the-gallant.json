@@ -4,17 +4,19 @@
   "id": "records-of-the-gallant",
   "name": "Records of the Gallant",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Records_of_the_Gallant",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "The stone forest of Jueyun Karst is a mysterious place engulfed in mist all year around. Myths and legends abound among the herb gatherers, telling of adepti and evil spirits."
               }
-            ]
+            ],
+            "id": "p-707d8bf02f0f1d1d"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "Once, there was a herb seller named Qiangu who went to Jueyun Karst to investigate the distribution of medical herbs there. Unbeknownst to him, a group of brigands had followed him into the mountains. They waited for cover of night, and when he let his guard down they struck. He was knocked unconscious. The brigands grabbed his possessions, bound him from head to foot, and left him alone in the valley."
               }
-            ]
+            ],
+            "id": "p-dd448c0070191ac5"
           },
           {
             "type": "paragraph",
@@ -51,7 +55,8 @@
                 "type": "text",
                 "text": "Deep in the night, the herb seller finally awoke. He struggled against the ropes that bound him, and cried out for help. But the vast mountains did not respond. The only sounds to be heard in the thick mountain forest, save for the echoes of his own pitiful wails, were the faint cries of the birds disturbed by them."
               }
-            ]
+            ],
+            "id": "p-17620aa8093808ee"
           },
           {
             "type": "paragraph",
@@ -60,7 +65,8 @@
                 "type": "text",
                 "text": "Qiangu sank into despair and sighed with sorrow. Just when he thought all hope was lost, a deep voice came rumbling through the mountains, cutting through the cries of nocturnal birds and the whistling of the wind."
               }
-            ]
+            ],
+            "id": "p-28c9f9ff903cf24f"
           },
           {
             "type": "paragraph",
@@ -69,7 +75,8 @@
                 "type": "text",
                 "text": "\"Arise!\""
               }
-            ]
+            ],
+            "id": "p-9845eced131a5f8c"
           },
           {
             "type": "paragraph",
@@ -78,7 +85,8 @@
                 "type": "text",
                 "text": "\"I am unable to!\" The herb seller protested amidst floods of tears. His cry frightened off a fox that was prowling in the night. But as he tensed his body once more against the ropes that bound him, he discovered they had completely loosened."
               }
-            ]
+            ],
+            "id": "p-986199f751f11e5d"
           },
           {
             "type": "paragraph",
@@ -87,7 +95,8 @@
                 "type": "text",
                 "text": "The herb seller stood up. No sooner had he arisen that the disembodied voice, without pausing to hear the expression of gratitude that would be customary in such situations, spoke to him once more:"
               }
-            ]
+            ],
+            "id": "p-e2e22895bacb0f61"
           },
           {
             "type": "paragraph",
@@ -96,7 +105,8 @@
                 "type": "text",
                 "text": "\"Ascend!\""
               }
-            ]
+            ],
+            "id": "p-dcac104da8c9f2b8"
           },
           {
             "type": "paragraph",
@@ -105,7 +115,8 @@
                 "type": "text",
                 "text": "As instructed, Qiangu ascended the mountain, following the winding dirt track to the summit as the horizon began to glow in the east. From the summit he saw a twisted and withered pine growing on a cliff, its branches sprawling outwards as if trying to escape into the air. The gentle creaking of the branches drew his attention to the ropes that hung from them — at the other end of which hung the brigands from the night before, bound in like fashion from head to foot."
               }
-            ]
+            ],
+            "id": "p-100f59c1048b42bb"
           },
           {
             "type": "paragraph",
@@ -114,7 +125,8 @@
                 "type": "text",
                 "text": "Then he saw the old man whose voice he had heard, his hair and beard as white as snow sat atop a curiously shaped rock as if it were his throne. The old man took one look at Qiangu's disheveled appearance and grinned mischievously before returning his possessions to him intact."
               }
-            ]
+            ],
+            "id": "p-75b365bf2418ec87"
           },
           {
             "type": "paragraph",
@@ -123,7 +135,8 @@
                 "type": "text",
                 "text": "Qiangu inquired as to the old man's origins, but he replied that he belonged to the mountains, his home being wherever he roamed and his bed being wherever he laid his head. Qiangu sought to thank the old man with all manner of courtesies and compensations, but he dismissed them all. After much deliberation, he took just a single Mora to one day give as a wedding gift to Qiangu's beloved daughter, in order that he might attend the wedding feast."
               }
-            ]
+            ],
+            "id": "p-c78229c36010cac4"
           },
           {
             "type": "paragraph",
@@ -132,7 +145,8 @@
                 "type": "text",
                 "text": "Out of disaster seemed to spring forth good fortune, for following this incident Qiangu's store grew ever more popular while word of the wealthy herb seller himself spread far and wide. Some say that after making his fortune, he returned to Jueyun Karst in search of the old man, but found nothing save for a few abandoned tents and empty wine bottles. Some claim to have spotted the old man at Yaoguang Shoal, disguised as a miner and darting around like the wind between the precipices. Others insist he is a fisherman who spends his time saving those who become stranded at sea. The stories are too many to count, and yet no one knows the old man's name."
               }
-            ]
+            ],
+            "id": "p-7a2f9dfc5afd8005"
           },
           {
             "type": "paragraph",
@@ -141,20 +155,23 @@
                 "type": "text",
                 "text": "Lamentably, age and ill health have now ushered in the twilight years of Qiangu's life while his beloved daughter remains unmarried. Perhaps the day will come that the old man from the mountain attends the wedding feast, but that day seems impossibly far in the future for Qiangu."
               }
-            ]
+            ],
+            "id": "p-5a4266d17f11d38f"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -173,7 +190,8 @@
                 "type": "text",
                 "text": "The area known as the Guili Plains was once an area lush with Glaze Lilies. But it was beset by troubles on every side, forcing its residents of old to flee, while the prosperity of Liyue Harbor would attract many of those who took their place. But even so, many tales of gallantry continue to circulate in these wilds."
               }
-            ]
+            ],
+            "id": "p-6e6b1a7efe5fe7b0"
           },
           {
             "type": "paragraph",
@@ -182,7 +200,8 @@
                 "type": "text",
                 "text": "In the tales of traveling merchants and porters, there was once a mysterious figure that would surface in the dead of night upon the plains: it was a maiden in a long indigo robe, striding along the shallows of the Bishui River, the moon wrapping her face with silver light as the night wind carried her words up to the shimmering, sleepless stars."
               }
-            ]
+            ],
+            "id": "p-361e695078972b19"
           },
           {
             "type": "paragraph",
@@ -191,7 +210,8 @@
                 "type": "text",
                 "text": "According to guests at Wangshu Inn, only those who get lost amid the firefly-lights on summer nights might see her, and only those who can discern the scent of Glaze Lilies amid the dancing lights and Seelie floating in the dark could find her tracks. Some guessed that she might be a lost illuminated beast, or a sole servant of some long-dead god, gently mourning her master only at night. And some also believed her to simply be a gallant hero, like those who spurn civilization, hiding their real names."
               }
-            ]
+            ],
+            "id": "p-bd815cd278479f64"
           },
           {
             "type": "paragraph",
@@ -214,7 +234,8 @@
                 "type": "text",
                 "text": "After this, no matter how many search parties the Ministry of Civil Affairs would send, no one saw that riverside maiden ever again."
               }
-            ]
+            ],
+            "id": "p-96c9dfb65f04c9ff"
           },
           {
             "type": "paragraph",
@@ -223,7 +244,8 @@
                 "type": "text",
                 "text": "Perhaps that deadly dance was the fruit of some vendetta, or perhaps that woman had herself been some great brigand. Or perhaps that matter does not require any rhyme or reason at all. Heroes are heroes, after all, drawing their blades for reasons beyond common comprehension."
               }
-            ]
+            ],
+            "id": "p-792beac4a3bbaeb1"
           },
           {
             "type": "paragraph",
@@ -239,7 +261,8 @@
                 "type": "text",
                 "text": "Still, the legends hold that the riverbank that maiden had used to roam remains filled with blooming Glaze Lilies to this day."
               }
-            ]
+            ],
+            "id": "p-faa421ded5bd13f8"
           }
         ]
       }

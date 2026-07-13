@@ -4,10 +4,11 @@
   "id": "divine-echo-passage",
   "name": "Divine Echo: Passage",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Divine_Echo:_Passage",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -40,7 +41,8 @@
                 "type": "text",
                 "text": "All roads lead to your threshold pale"
               }
-            ]
+            ],
+            "id": "p-02390f0ceb628635"
           }
         ]
       }

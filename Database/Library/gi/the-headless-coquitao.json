@@ -4,10 +4,11 @@
   "id": "the-headless-coquitao",
   "name": "The Headless Coquitao",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/The_Headless_Coquitao",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
@@ -79,13 +80,15 @@
                 "type": "text",
                 "text": "And so, headless Coquitao failed to complete his covenant with the deity of the dog days, and could only blindly follow the Tzitzimimeh in their wandering."
               }
-            ]
+            ],
+            "id": "p-d65f00e3751d90ff"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
@@ -137,7 +140,8 @@
                 "type": "text",
                 "text": "Long, long after, even after the deity who reigned over the dog days, the cunning twins, and the master with the jade skirt had all passed away, after the starlight-born Tzitzimimeh had begun to flicker, their light decaying, Coquitao's wrathful flame, the weavers claim, has not yet gone out. His headless figure still wanders the silvered plains at night, prowling the deep forests choked in shadow. And they say many heroes have inherited Makana in times of tumult and trouble, the legendary tyrant Och-Kan being one of them — he, too, ultimately met his end in raging fire... but that is another story."
               }
-            ]
+            ],
+            "id": "p-79ae82dacec09c60"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "ancient-investigation-journal-part-i",
   "name": "Ancient Investigation Journal: Part I",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Ancient_Investigation_Journal:_Part_I",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -39,7 +40,8 @@
                 "type": "text",
                 "text": "Such conditions bring to mind an ancient verse, where wind and snow are likened by the poet to the lashes of a pale iron sword."
               }
-            ]
+            ],
+            "id": "p-ebb55c23a61481a4"
           },
           {
             "type": "paragraph",
@@ -68,7 +70,8 @@
                 "type": "text",
                 "text": "Only then will I live up to Master Landrich's expectations and bring honor to my family's name. And only then will the arrogance of those who conspire to rebel be put to rest once and for all."
               }
-            ]
+            ],
+            "id": "p-f7db287fff21b04f"
           },
           {
             "type": "paragraph",
@@ -97,7 +100,8 @@
                 "type": "text",
                 "text": "If that's the case, this could easily be the most significant archaeological discovery in decades."
               }
-            ]
+            ],
+            "id": "p-f8b5e82c7f418e32"
           },
           {
             "type": "paragraph",
@@ -116,7 +120,8 @@
                 "type": "text",
                 "text": "I sincerely hope that Master Eberhart was right when he said that they were aristocratic children rigorously trained from childhood, and perfectly capable of making their way back to camp on their own."
               }
-            ]
+            ],
+            "id": "p-163599ad2a9fdd41"
           },
           {
             "type": "paragraph",
@@ -135,7 +140,8 @@
                 "type": "text",
                 "text": "This time, it is imperative that we closely examine the stability of the ruins before we enter."
               }
-            ]
+            ],
+            "id": "p-290bfd854cd6381b"
           }
         ]
       }

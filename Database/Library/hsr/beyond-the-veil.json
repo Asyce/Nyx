@@ -4,10 +4,11 @@
   "id": "beyond-the-veil",
   "name": "Beyond the Veil",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Beyond_the_Veil",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-d3b5ce4bd85bc2dc"
           },
           {
             "type": "paragraph",
@@ -43,7 +45,8 @@
                 "type": "text",
                 "text": "I must make sure I record all of this. My thoughts are beginning to grow blurred and blanks are appearing in my memory. However, these discoveries are far too important. They may have revealed the truth of what lies beyond the veil of Oronyx. I will attempt to use the last of my sanity to organize these notes."
               }
-            ]
+            ],
+            "id": "p-626412ef20fdfaa3"
           },
           {
             "type": "paragraph",
@@ -62,7 +65,8 @@
                 "type": "text",
                 "text": "As a Venerationist scholar, we are always studying various ceremonies that involve communication with the Titans. But, I wish to go one step further — I do not want to simply communicate with them. I want to observe them directly. Just how big is the Evernight Veil of Oronyx? What lies beyond it? Could that be the divine kingdom of the Titans? With the correct approach, I may be able to catch a glimpse of these secrets."
               }
-            ]
+            ],
+            "id": "p-0f4a75997d2f8c95"
           },
           {
             "type": "paragraph",
@@ -92,7 +96,8 @@
                 "type": "text",
                 "text": "3. An ancient incantation that must be chanted in the correct tone"
               }
-            ]
+            ],
+            "id": "p-1d2c5d0d867bd72d"
           },
           {
             "type": "paragraph",
@@ -130,7 +135,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-b846f1094833249c"
           },
           {
             "type": "paragraph",
@@ -139,7 +145,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -179,7 +186,8 @@
                 "type": "text",
                 "text": "Warning: Do not try to record these scenes in words. Every time I try, the text simply —"
               }
-            ]
+            ],
+            "id": "p-726afda19bbe5161"
           },
           {
             "type": "paragraph",
@@ -188,7 +196,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -207,7 +216,8 @@
                 "type": "text",
                 "text": "Something unexpected happened during today's experiment. When I activated three orbs at the same time, they broke and a huge explosion completely wiped out my laboratory. What does this mean? Is this a divine punishment of Oronyx? Did this happen because Oronyx is watching me and feels that my experiment has surpassed the rules laid upon mortals? Or could it be that the design of my ceremony was flawed and that caused the explosion?"
               }
-            ]
+            ],
+            "id": "p-f4198e81d01c01e9"
           },
           {
             "type": "paragraph",
@@ -216,7 +226,8 @@
                 "type": "text",
                 "text": "My head is starting to hurt. My memory is becoming fragmented. I want to reorganize my manuscript. I remember I wrote down some numbers before... They were to do with the movement of the stars and other things... But there are only strange symbols on the manuscript now? They look like something I drew in my sleep. Just what on earth are they?"
               }
-            ]
+            ],
+            "id": "p-637c6f02b544ad39"
           },
           {
             "type": "paragraph",
@@ -235,7 +246,8 @@
                 "type": "text",
                 "text": "I have made a mistake. The veil is the divine realm of Oronyx. Mortals must not enter the divine realms of the Titans... What else was there? I don't remember. My head hurts."
               }
-            ]
+            ],
+            "id": "p-8a49ed3144118d8e"
           },
           {
             "type": "paragraph",
@@ -261,7 +273,8 @@
                 "type": "text",
                 "text": "Do not repeat my mistakes. There are some boundaries that must not be overstepped. I now understand why Oronyx created the Evernight Veil. It is the boundary that divides the sanity of mortals and the divine power of the Titans."
               }
-            ]
+            ],
+            "id": "p-7d2662c6ce711c92"
           },
           {
             "type": "paragraph",
@@ -270,7 +283,8 @@
                 "type": "text",
                 "text": "I have begun to doubt my existence. As I write these words, who is it that is moving my hand? When I reflect on such questions, who is it that is moving my thoughts? We believe that we are observing destiny, but perhaps we are the ones being observed... It is Oronyx that is observing us ridiculous mortals!"
               }
-            ]
+            ],
+            "id": "p-84bd51bc80bd6978"
           },
           {
             "type": "paragraph",
@@ -319,7 +333,8 @@
                 "type": "text",
                 "text": "I am not real who am I what am I am —"
               }
-            ]
+            ],
+            "id": "p-06920c58da164a91"
           },
           {
             "type": "paragraph",
@@ -340,7 +355,8 @@
                 "type": "text",
                 "text": "Forgive my transgressions, O Veil of Evernight..."
               }
-            ]
+            ],
+            "id": "p-197a6e22cce90238"
           },
           {
             "type": "paragraph",
@@ -354,7 +370,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-db641764f598c9ae"
           }
         ]
       }

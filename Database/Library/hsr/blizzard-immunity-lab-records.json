@@ -4,10 +4,11 @@
   "id": "blizzard-immunity-lab-records",
   "name": "Blizzard Immunity Lab Records",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Blizzard_Immunity_Lab_Records",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "part-i",
       "label": "Part I",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Animal Experiment #02"
               }
-            ]
+            ],
+            "id": "p-bec6344d4dda78bf"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "I carried out a broad-spectrum animal injection experiment. The animals all appeared to grow more active, but the dose needs to be adjusted because the two snow finches have been screeching nonstop for three days. I couldn't sleep at all."
               }
-            ]
+            ],
+            "id": "p-f6159d56bfde5a6a"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "It is absolutely the right decision for me to come to the Snow Plains to conduct the experiment. I do not have to deal with those cretins on the ethics committee, nor do I have to produce those so-called daily reports. Why would I waste time writing so many words when two phrases can adequately explain the experiment?"
               }
-            ]
+            ],
+            "id": "p-6eb38d1dbfcad33b"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "Animal Experiment #14"
               }
-            ]
+            ],
+            "id": "p-b30d1c2442ac108c"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "Several controlled experiments with mice have been conducted, and it appears that the route of administration impacts the rate of medicine absorption, with preliminary findings indicating that intraperitoneal injection is more effective than subcutaneous injection and oral gavage. Shock symptoms were observed in the intraperitoneal injection group, indicating that the injection dose should be further reduced. Human testing should also be expedited."
               }
-            ]
+            ],
+            "id": "p-7b4a99d097061748"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "I was hesitant to experiment with these mice because they reminded me of the ones Natasha had as a child. Despite the fact that I've been much more productive here, the limited supply and test subjects remain a major issue. There's a guard outpost to the south. Perhaps I can trade with them. I'm running low on firewood and oil."
               }
-            ]
+            ],
+            "id": "p-1e24ae548cc4e76c"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "Subcutaneous Injection Experiment #01"
               }
-            ]
+            ],
+            "id": "p-854790570bae64e6"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "A subcutaneous injection was given into a vein on my own right arm, and I had a severe allergic response that included vomiting and dizziness within 12 hours, but the medication's effectiveness on the human body was confirmed. For the following 50 hours, I didn't feel cold."
               }
-            ]
+            ],
+            "id": "p-69000f0093db2a11"
           },
           {
             "type": "paragraph",
@@ -91,13 +100,15 @@
                 "type": "text",
                 "text": "I've made little progress on the report since I've been experiencing numbness in my fingers for the past several days, and I'm wondering if it is a side effect of the subcutaneous injection. The swelling and rashes on my back and arms have subsided significantly. Next time, I'll try a more stable formula."
               }
-            ]
+            ],
+            "id": "p-2b0367f6f6c28b29"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "part-ii",
       "label": "Part II",
       "document": {
         "version": 1,
@@ -109,7 +120,8 @@
                 "type": "text",
                 "text": "Injection Experiment #12"
               }
-            ]
+            ],
+            "id": "p-275abea2a88f867b"
           },
           {
             "type": "paragraph",
@@ -118,7 +130,8 @@
                 "type": "text",
                 "text": "After the final injection experiment, I had a significant rejection response in my stomach as well as an intermittent, sudden dip in body temperature after a slow climb. I need to improve the experiment's stability and possibly try a safer route of administration, such as oral administration."
               }
-            ]
+            ],
+            "id": "p-4596986a43ac1dff"
           },
           {
             "type": "paragraph",
@@ -127,7 +140,8 @@
                 "type": "text",
                 "text": "Lately, I've been practicing writing with my left hand because it appears that I can no longer control the muscles in my right hand. I shouldn't have been so impatient. Coughing and dizziness continue to bother me occasionally. It's been 17 days since the last time I suffered shock symptoms, and the medicine should be much more stable now. I haven't eaten rabbit stew in a long time and have been craving it, so I'm going to ask the Guard Captain how to make traps the day after tomorrow."
               }
-            ]
+            ],
+            "id": "p-98077d6f8d30f68a"
           },
           {
             "type": "paragraph",
@@ -136,7 +150,8 @@
                 "type": "text",
                 "text": "Oral Administration Experiment #03"
               }
-            ]
+            ],
+            "id": "p-ee2c589d151e6856"
           },
           {
             "type": "paragraph",
@@ -145,7 +160,8 @@
                 "type": "text",
                 "text": "My body temperature stayed consistent during the 30-hour observation period, with intermittent symptoms of coughing up blood and asthma. The specific cause is still unknown, but it is likely related to drug residues and a high concentration of non-metabolizable substances. Maybe I should try a different targeting agent?"
               }
-            ]
+            ],
+            "id": "p-edabfd5ce59c4cea"
           },
           {
             "type": "paragraph",
@@ -154,7 +170,8 @@
                 "type": "text",
                 "text": "I'm not sure if I put the dates correctly because I've been waking up in the middle of the night for days. I just noticed a lack of control in my shoulders and neck, requiring me to sleep with a high pillow, but will it eventually spread to my brain?"
               }
-            ]
+            ],
+            "id": "p-721d0cb79127523b"
           },
           {
             "type": "paragraph",
@@ -163,7 +180,8 @@
                 "type": "text",
                 "text": "Oral Administration Experiment #07"
               }
-            ]
+            ],
+            "id": "p-6e9fe28c3bba417f"
           },
           {
             "type": "paragraph",
@@ -172,7 +190,8 @@
                 "type": "text",
                 "text": "Several guards have provided competent feedback, and the medication's effect can now last for nearly five days."
               }
-            ]
+            ],
+            "id": "p-7892dcf45b91a25b"
           },
           {
             "type": "paragraph",
@@ -181,7 +200,8 @@
                 "type": "text",
                 "text": "My vocal cords appear to have suffered irreversible damage. Therefore, I've been unable to talk recently. Next week, I'll be sending the most secure batch of reagents to the guard outpost. I really appreciate their assistance. If my legs feel better tomorrow, I'll go trim the grass at the back of the house. I shouldn't bother the guards anymore."
               }
-            ]
+            ],
+            "id": "p-bdc8d90782d61daa"
           }
         ]
       }

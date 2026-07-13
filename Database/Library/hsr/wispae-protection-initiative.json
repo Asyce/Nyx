@@ -4,10 +4,11 @@
   "id": "wispae-protection-initiative",
   "name": "Wispae Protection Initiative",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Wispae_Protection_Initiative",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "They are tiny lives born from condensed Wishpower. They are another form of continuation for the fallen imagenae in this world."
               }
-            ]
+            ],
+            "id": "p-00be6f014896cb2a"
           },
           {
             "type": "paragraph",
@@ -41,7 +43,8 @@
                 "type": "text",
                 "text": "?"
               }
-            ]
+            ],
+            "id": "p-6f39aae5c7a04307"
           },
           {
             "type": "paragraph",
@@ -63,7 +66,8 @@
                 "type": "text",
                 "text": "."
               }
-            ]
+            ],
+            "id": "p-10d71168e7351ee6"
           },
           {
             "type": "paragraph",
@@ -72,7 +76,8 @@
                 "type": "text",
                 "text": "It is these seemingly insignificant \"wishes\" coming together that have forged the prosperous cityscape of Planarcadia."
               }
-            ]
+            ],
+            "id": "p-7309e48af81839f2"
           },
           {
             "type": "paragraph",
@@ -81,7 +86,8 @@
                 "type": "text",
                 "text": "Can you imagine what a city without wispae would look like?"
               }
-            ]
+            ],
+            "id": "p-b8f938474410443f"
           },
           {
             "type": "paragraph",
@@ -90,7 +96,8 @@
                 "type": "text",
                 "text": "Without the wispae, how can artists rebuild and repair the city, or breathe new life into the imagenae?"
               }
-            ]
+            ],
+            "id": "p-08979c7f588b1b7a"
           },
           {
             "type": "paragraph",
@@ -99,7 +106,8 @@
                 "type": "text",
                 "text": "Without the wispae, how would the bank manage currency and turn Wishpower into circulating assets?"
               }
-            ]
+            ],
+            "id": "p-a350b609ef696f94"
           },
           {
             "type": "paragraph",
@@ -108,7 +116,8 @@
                 "type": "text",
                 "text": "The wispae is not just a cultural icon unique to Planarcadia, but also indispensable partners in our daily life and work."
               }
-            ]
+            ],
+            "id": "p-0de238e823ac6122"
           },
           {
             "type": "paragraph",
@@ -122,7 +131,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-07d426d3d82a4df9"
           },
           {
             "type": "paragraph",
@@ -131,7 +141,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

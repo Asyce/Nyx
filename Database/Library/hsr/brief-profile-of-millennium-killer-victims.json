@@ -4,10 +4,11 @@
   "id": "brief-profile-of-millennium-killer-victims",
   "name": "Brief Profile of Millennium Killer Victims",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Brief_Profile_of_Millennium_Killer_Victims",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -100,7 +101,8 @@
                 "type": "text",
                 "text": "Found dead in a streaming studio, lips missing, no signs of forced entry at the scene."
               }
-            ]
+            ],
+            "id": "p-0bfb22bdf92c46b0"
           },
           {
             "type": "paragraph",
@@ -190,7 +192,8 @@
                 "type": "text",
                 "text": "Found dead in a recording studio, specialized vocal organ missing, no signs of forced entry at the scene."
               }
-            ]
+            ],
+            "id": "p-1212c1a7e1b497af"
           },
           {
             "type": "paragraph",
@@ -280,7 +283,8 @@
                 "type": "text",
                 "text": "Found dead in a dressing room, fingernails missing, no signs of forced entry at the scene."
               }
-            ]
+            ],
+            "id": "p-a84b8544d46dfe44"
           },
           {
             "type": "paragraph",
@@ -370,7 +374,8 @@
                 "type": "text",
                 "text": "Found dead in a dance practice room, lower body missing, no signs of forced entry at the scene."
               }
-            ]
+            ],
+            "id": "p-35d233bdff682f1f"
           },
           {
             "type": "paragraph",
@@ -460,7 +465,8 @@
                 "type": "text",
                 "text": "Found dead in an artiste's resting room, ocular structures missing, no signs of forced entry at the scene."
               }
-            ]
+            ],
+            "id": "p-a6e26b9eaefc1d9d"
           },
           {
             "type": "paragraph",
@@ -550,7 +556,8 @@
                 "type": "text",
                 "text": "Found dead in a film studio, horn-like structure missing, no signs of forced entry at the scene."
               }
-            ]
+            ],
+            "id": "p-0624baa923fb95e6"
           },
           {
             "type": "paragraph",
@@ -640,7 +647,8 @@
                 "type": "text",
                 "text": "Found dead in the living room of their home, luminescent markings on the body missing, no signs of forced entry at the scene."
               }
-            ]
+            ],
+            "id": "p-2595a530ebd4276f"
           },
           {
             "type": "paragraph",
@@ -730,7 +738,8 @@
                 "type": "text",
                 "text": "Found dead in an office, teeth missing, no signs of forced entry at the scene."
               }
-            ]
+            ],
+            "id": "p-76fb6266e5cfaa0e"
           },
           {
             "type": "paragraph",
@@ -820,7 +829,8 @@
                 "type": "text",
                 "text": "Found dead in a break room, parts of discolored skin missing, no signs of forced entry at the scene."
               }
-            ]
+            ],
+            "id": "p-c79a9e3e35990a8d"
           },
           {
             "type": "paragraph",
@@ -910,7 +920,8 @@
                 "type": "text",
                 "text": "Found dead in a studio, tail missing, no signs of forced entry at the scene."
               }
-            ]
+            ],
+            "id": "p-72cd4353e87e5a19"
           },
           {
             "type": "paragraph",
@@ -1000,7 +1011,8 @@
                 "type": "text",
                 "text": "Found dead in a training room, both ears missing, no signs of forced entry at the scene."
               }
-            ]
+            ],
+            "id": "p-404b78877b9c3319"
           },
           {
             "type": "paragraph",
@@ -1090,7 +1102,8 @@
                 "type": "text",
                 "text": "Found dead in the living room of their home, distinctive arm markings missing, no signs of forced entry at the scene."
               }
-            ]
+            ],
+            "id": "p-545dad35eb82cb6c"
           },
           {
             "type": "paragraph",
@@ -1180,7 +1193,8 @@
                 "type": "text",
                 "text": "Found dead in a lounge, expression module enhancement components missing, no signs of forced entry at the scene."
               }
-            ]
+            ],
+            "id": "p-46a5e32da6d2039a"
           },
           {
             "type": "paragraph",
@@ -1270,7 +1284,8 @@
                 "type": "text",
                 "text": "Found dead in a gym, torso muscles missing, no signs of forced entry at the scene."
               }
-            ]
+            ],
+            "id": "p-c4985c1d185b328f"
           },
           {
             "type": "paragraph",
@@ -1360,7 +1375,8 @@
                 "type": "text",
                 "text": "Found dead on the balcony of their residence, tactile extensions missing, no signs of forced entry at the scene."
               }
-            ]
+            ],
+            "id": "p-01a48b12e97a631f"
           },
           {
             "type": "paragraph",
@@ -1450,7 +1466,8 @@
                 "type": "text",
                 "text": "Found dead in a music production studio, resonator core missing, no signs of forced entry at the scene."
               }
-            ]
+            ],
+            "id": "p-51f0bcf634dce2df"
           },
           {
             "type": "paragraph",
@@ -1540,7 +1557,8 @@
                 "type": "text",
                 "text": "Found dead in a lounge, decorative components missing, no signs of forced entry at the scene."
               }
-            ]
+            ],
+            "id": "p-ec749aeca758f4d7"
           }
         ]
       }

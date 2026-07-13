@@ -4,10 +4,11 @@
   "id": "the-nameless-aha-s-debt-statement",
   "name": "The Nameless Aha's Debt Statement",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/The_Nameless_Aha%27s_Debt_Statement",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Solely for the sake of fun, I have, on numerous occasions during my voyage aboard the Astral Express, misappropriated and vandalized public property of the Express, thereby incurring financial losses to the Express and liability for third-party damages. Having received the Conductor's earnest instruction, I have come to a profound realization of my transgressions. I hereby itemize all outstanding reparations below, to be settled at a future date."
               }
-            ]
+            ],
+            "id": "p-39acbdc2e843b9f7"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-e6f6f666ad6bdbd7"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "Tele-Microwave Oven (Qty: 1 unit)"
               }
-            ]
+            ],
+            "id": "p-36e3aac5c73e4511"
           },
           {
             "type": "paragraph",
@@ -51,7 +55,8 @@
                 "type": "text",
                 "text": "Supersonic Slippers (Qty: 2 pairs)"
               }
-            ]
+            ],
+            "id": "p-0ebc20e39a976463"
           },
           {
             "type": "paragraph",
@@ -60,7 +65,8 @@
                 "type": "text",
                 "text": "Optical Camouflage Cloak (Qty: 1)"
               }
-            ]
+            ],
+            "id": "p-58e4f0305aa6b82a"
           },
           {
             "type": "paragraph",
@@ -69,7 +75,8 @@
                 "type": "text",
                 "text": "Anti-Gravity Levitation Carpet (Qty: 1)"
               }
-            ]
+            ],
+            "id": "p-573084c7b874e059"
           },
           {
             "type": "paragraph",
@@ -78,7 +85,8 @@
                 "type": "text",
                 "text": "Haider Brooms bearing a striking resemblance to swords (Qty: 2). Note: Liability for this entry is jointly assumed with Akivili"
               }
-            ]
+            ],
+            "id": "p-d9b6bacca2f356a7"
           },
           {
             "type": "paragraph",
@@ -87,7 +95,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -96,7 +105,8 @@
                 "type": "text",
                 "text": "Leviathan Tooth (Qty: 2)"
               }
-            ]
+            ],
+            "id": "p-95772e3de374ab1c"
           },
           {
             "type": "paragraph",
@@ -105,7 +115,8 @@
                 "type": "text",
                 "text": "Trimmed Conductor's Outfit (Qty: 1)"
               }
-            ]
+            ],
+            "id": "p-c50e215b10513ec9"
           },
           {
             "type": "paragraph",
@@ -114,7 +125,8 @@
                 "type": "text",
                 "text": "Organ Dragonflies deposited by the Mourning Actors (Qty: 2)"
               }
-            ]
+            ],
+            "id": "p-085287612907e05c"
           },
           {
             "type": "paragraph",
@@ -123,7 +135,8 @@
                 "type": "text",
                 "text": "Medical expenses incurred due to allergic reactions from the introduction of electronic mustard into the rice cooker"
               }
-            ]
+            ],
+            "id": "p-216f8a9f7c17e9e0"
           },
           {
             "type": "paragraph",
@@ -132,7 +145,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -141,7 +155,8 @@
                 "type": "text",
                 "text": "Graffiti removal fees for the statue complex of White Rolling Stone Planet"
               }
-            ]
+            ],
+            "id": "p-0a7ee8eff4d59ad4"
           },
           {
             "type": "paragraph",
@@ -150,7 +165,8 @@
                 "type": "text",
                 "text": "Repair costs for walls in the Museum of Animated Arts, and recovery expenses for escaped collection items (3 portraits and 7 specimens remain unaccounted for to date)"
               }
-            ]
+            ],
+            "id": "p-398c52e82acd93b8"
           },
           {
             "type": "paragraph",
@@ -159,7 +175,8 @@
                 "type": "text",
                 "text": "Incident during extravehicular angling: An erratic Comet Fish caused a collision resulting in damages to 3.1415926 solar sails on Planet Goldberg (Note: Liability for this entry is jointly assumed with Akivili)"
               }
-            ]
+            ],
+            "id": "p-b37a3c8840a2f9ad"
           },
           {
             "type": "paragraph",
@@ -168,7 +185,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-3"
           },
           {
             "type": "paragraph",
@@ -177,7 +195,8 @@
                 "type": "text",
                 "text": "Satellite Unit from the Centurial Stellar Ring (Qty: 0.5)"
               }
-            ]
+            ],
+            "id": "p-22ab8a125c7267db"
           },
           {
             "type": "paragraph",
@@ -186,7 +205,8 @@
                 "type": "text",
                 "text": "Six-Eyed Yaks of the Duchy of Huronte (Qty: 9)"
               }
-            ]
+            ],
+            "id": "p-4627570b25a8aa5b"
           },
           {
             "type": "paragraph",
@@ -195,7 +215,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-4"
           },
           {
             "type": "paragraph",
@@ -204,7 +225,8 @@
                 "type": "text",
                 "text": "1 Anti-Beast-Horde Naval Cannon sourced from the Old Luntinium Exhibition Hall and 1 artificial satellite (neutralized via accidental discharge)"
               }
-            ]
+            ],
+            "id": "p-f560774c2db233ba"
           },
           {
             "type": "paragraph",
@@ -213,7 +235,8 @@
                 "type": "text",
                 "text": "Several pillows lost to the atmosphere of Planet Slyee during a pillow fight, inclusive of Conductor Pom-Pom's favorite bolster."
               }
-            ]
+            ],
+            "id": "p-11872ee15c113bb2"
           },
           {
             "type": "paragraph",
@@ -222,7 +245,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-5"
           },
           {
             "type": "paragraph",
@@ -231,7 +255,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-6"
           },
           {
             "type": "paragraph",
@@ -240,7 +265,8 @@
                 "type": "text",
                 "text": "Fines levied by the Cosmic Paleontological Conservation Association regarding gastric ulcers in a void song whale, induced by an unauthorized expedition within the creature's stomach"
               }
-            ]
+            ],
+            "id": "p-4cc5172348057c89"
           },
           {
             "type": "paragraph",
@@ -249,7 +275,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-7"
           },
           {
             "type": "paragraph",
@@ -258,7 +285,8 @@
                 "type": "text",
                 "text": "Xenohydros released from the custody of the Architects (Qty: 3)"
               }
-            ]
+            ],
+            "id": "p-8c653dce8675140d"
           },
           {
             "type": "paragraph",
@@ -267,7 +295,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-8"
           },
           {
             "type": "paragraph",
@@ -276,7 +305,8 @@
                 "type": "text",
                 "text": "Roaring Golden Pothos (Qty: 1)"
               }
-            ]
+            ],
+            "id": "p-823bc6aee2466260"
           },
           {
             "type": "paragraph",
@@ -285,7 +315,8 @@
                 "type": "text",
                 "text": "Accrued multiple outstanding tabs at \"World's End\" in the capacity of a Nameless"
               }
-            ]
+            ],
+            "id": "p-5f8310fe76c6b096"
           },
           {
             "type": "paragraph",
@@ -294,7 +325,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-9"
           },
           {
             "type": "paragraph",
@@ -308,7 +340,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-10a950ae89f154c0"
           },
           {
             "type": "paragraph",
@@ -317,7 +350,8 @@
                 "type": "text",
                 "text": "Crispy Crumbly Pom-Pom Pie ×22 (of which, 3 were utilized as fishing bait, 9 dispensed as yak fodder, 10 deployed as projectiles against space pirates during a skirmish. Please accept my sincere apologies for the misappropriation of the conductor's labor-intensive provisions)"
               }
-            ]
+            ],
+            "id": "p-ef021f61eac5ad68"
           },
           {
             "type": "paragraph",
@@ -326,7 +360,8 @@
                 "type": "text",
                 "text": "Half an Astral Express"
               }
-            ]
+            ],
+            "id": "p-0ce86123c596c509"
           },
           {
             "type": "paragraph",
@@ -362,7 +397,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-86716b5ac532bc86"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "clockie-and-mirror-princess",
   "name": "Clockie and Mirror Princess",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Clockie_and_Mirror_Princess",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "part-1",
       "label": "Part 1",
       "document": {
         "version": 1,
@@ -29,7 +30,8 @@
                 "type": "text",
                 "text": "A sharp knock resounded outside Clockie's abode. He dressed himself as usual and bounced in his steps as he went to open the door. Five Origami Birds chirped and flapped their wings outside, piquing Clockie's curiosity."
               }
-            ]
+            ],
+            "id": "p-ab9ef6c68d86d662"
           },
           {
             "type": "paragraph",
@@ -45,7 +47,8 @@
                 "type": "text",
                 "text": "\"Chirp, Clockie, Clockie, the mist from the desert has swallowed our home.\""
               }
-            ]
+            ],
+            "id": "p-bff80a7af54f2f4e"
           },
           {
             "type": "paragraph",
@@ -54,7 +57,8 @@
                 "type": "text",
                 "text": "That was terrible! It was the dreaded mist from the Nightmare Desert, concealing an invisible monster that has devoured many unfortunate souls, although whether the monster eats clocks remains unknown."
               }
-            ]
+            ],
+            "id": "p-f91cac424d0cdbaf"
           },
           {
             "type": "paragraph",
@@ -63,7 +67,8 @@
                 "type": "text",
                 "text": "The birds bravely ventured into the Nightmare Desert to get stones to construct Dreamville. The most remarkable stones lay deep within the desert's heart, yet no bird dared to venture there. Clockie's hands anxiously spinned in a circular motion. Tick-tock, he heard the monster's mocking laughter."
               }
-            ]
+            ],
+            "id": "p-f53375083aac7e1c"
           },
           {
             "type": "paragraph",
@@ -79,7 +84,8 @@
                 "type": "text",
                 "text": "\"Haha, Clockie, my name is 'Unknown.' With my two pairs of eyes and two mouths, I shall swallow all of Dreamville, and none shall escape my clutches.\""
               }
-            ]
+            ],
+            "id": "p-217bce4132b83c33"
           },
           {
             "type": "paragraph",
@@ -88,7 +94,8 @@
                 "type": "text",
                 "text": "The monster soared through the mists happily, toppling roofs one moment and causing sandstorms the next. Nobody could stand against it. Indeed, this monster was so fearsome that even a cactus would shed its needles in horror at the mere mention of its name. Once again, Dreamville was in the throes of a dire crisis."
               }
-            ]
+            ],
+            "id": "p-0996fa806851f90b"
           },
           {
             "type": "paragraph",
@@ -111,7 +118,8 @@
                 "type": "text",
                 "text": "\"But how, Clockie? That Unknown is so powerful that it fears neither my bullets nor your clockwork!\""
               }
-            ]
+            ],
+            "id": "p-500618673c63b4ce"
           },
           {
             "type": "paragraph",
@@ -134,7 +142,8 @@
                 "type": "text",
                 "text": "She was Miss Mirror, Clockie's good friend once upon a time — She was once the princess of the Mirror Kingdom, and everyone called her the Mirror Princess."
               }
-            ]
+            ],
+            "id": "p-cb82305623296b9c"
           },
           {
             "type": "paragraph",
@@ -150,7 +159,8 @@
                 "type": "text",
                 "text": "\"Of course not, my friend. That monster is called 'Unknown,' and its greatest fear lies in being known. Once my mirror reflects its hideous visage, it will no longer remain 'Unknown.'\""
               }
-            ]
+            ],
+            "id": "p-a1666392e69ab53d"
           },
           {
             "type": "paragraph",
@@ -159,7 +169,8 @@
                 "type": "text",
                 "text": "With those words, Mirror Princess confidently approached the laughing mist. Her mirror emitted a faint light akin to a sword piercing the monster's eyes. Gradually, the mist dissipated, and the arrogant monster let out a wail."
               }
-            ]
+            ],
+            "id": "p-867f88321944f6c7"
           },
           {
             "type": "paragraph",
@@ -168,7 +179,8 @@
                 "type": "text",
                 "text": "\"No, no, no! Don't let me see that! Mark my words, you nuisances! I shall return again and devour you all!\""
               }
-            ]
+            ],
+            "id": "p-54b4779619fe56c1"
           },
           {
             "type": "paragraph",
@@ -177,7 +189,8 @@
                 "type": "text",
                 "text": "The monster let out a shriek and fled, and the town was restored. Clockie and Captain Revolver threw a grand celebration in honor of Mirror Princess. The townspeople danced with joy, singing songs and praising her courage, and baking the most tasty cakes for her."
               }
-            ]
+            ],
+            "id": "p-aa4d1ee057357b31"
           },
           {
             "type": "paragraph",
@@ -186,7 +199,8 @@
                 "type": "text",
                 "text": "\"Even if that monster will return, don't worry, Clockie! Let's keep the momentum and get rid of that villain once and for all!\""
               }
-            ]
+            ],
+            "id": "p-239021b7a329aacd"
           },
           {
             "type": "paragraph",
@@ -195,7 +209,8 @@
                 "type": "text",
                 "text": "A wonderful idea! Once they defeat the villain, the birds will be able to find stones and branches from the heart of the desert, making Dreamville even more splendid!"
               }
-            ]
+            ],
+            "id": "p-b631a4a1bd7d7790"
           },
           {
             "type": "paragraph",
@@ -211,13 +226,15 @@
                 "type": "text",
                 "text": "...Since Unknown was a nefarious villain, it soon came up with an idea, and it was the most malicious plan imaginable."
               }
-            ]
+            ],
+            "id": "p-65d258a4fe83aa78"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "part-2",
       "label": "Part 2",
       "document": {
         "version": 1,
@@ -239,7 +256,8 @@
                 "type": "text",
                 "text": "Clockie and his party followed closely behind Mirror Princess. Wherever the mirror shone, the dreadful mist would dissipate."
               }
-            ]
+            ],
+            "id": "p-f9c839fa577d2495"
           },
           {
             "type": "paragraph",
@@ -262,7 +280,8 @@
                 "type": "text",
                 "text": "\"Yeah, mirrors of all shapes — round, square, star-shaped, and others. And I happen to be the most esteemed kind, the round-shaped mirror. That's why when you arrived there, I mistook you for the 'Mirror Prince'!\""
               }
-            ]
+            ],
+            "id": "p-c9bc7be4fd0d52a3"
           },
           {
             "type": "paragraph",
@@ -271,7 +290,8 @@
                 "type": "text",
                 "text": "Amidst laughter, Clockie thought back to the beauty of the Mirror Kingdom, and the days he spent traveling alongside Mirror Princess and Captain Revolver. They had explored countless enchanting places, but none could compare to Dreamville as it is now."
               }
-            ]
+            ],
+            "id": "p-88066d9db148eb49"
           },
           {
             "type": "paragraph",
@@ -280,7 +300,8 @@
                 "type": "text",
                 "text": "Clockie believed that with the aid of his friends, together they could turn Dreamville into the best place in the world."
               }
-            ]
+            ],
+            "id": "p-954b0420700a63f5"
           },
           {
             "type": "paragraph",
@@ -289,7 +310,8 @@
                 "type": "text",
                 "text": "...Suddenly, sinister laughter pierced through the silence of the desert."
               }
-            ]
+            ],
+            "id": "p-6cb3cf67a3325ea2"
           },
           {
             "type": "paragraph",
@@ -298,7 +320,8 @@
                 "type": "text",
                 "text": "\"Hahaha! This isn't Dreamville, but the Nightmare Desert! And I'm the king of all nightmares!\""
               }
-            ]
+            ],
+            "id": "p-3c272dbb5647ff60"
           },
           {
             "type": "paragraph",
@@ -307,7 +330,8 @@
                 "type": "text",
                 "text": "Clockie was certain that he had never heard a voice so malevolent before. Even a notorious arch-villain like Boss Stone paled in comparison to such vileness. The voice seemed to be both distant and near, but whenever Mirror Princess's radiance illuminated their surroundings, the voice would shriek and retreat in haste."
               }
-            ]
+            ],
+            "id": "p-8ebceb1389cd5f5a"
           },
           {
             "type": "paragraph",
@@ -316,7 +340,8 @@
                 "type": "text",
                 "text": "They continued moving forward, their steps echoing endlessly, until it seemed as if the desert-enveloping mists had dissipated. A whole new world was revealed to them. However, Clockie soon realized that the vast expanse of the desert managed to deceive his senses. It was not until dusk that they finally arrived at a place engulfed by dense fog."
               }
-            ]
+            ],
+            "id": "p-62892b7bc2a830b3"
           },
           {
             "type": "paragraph",
@@ -325,7 +350,8 @@
                 "type": "text",
                 "text": "\"This must be that monster's lair.\""
               }
-            ]
+            ],
+            "id": "p-805cf0e70fced9a2"
           },
           {
             "type": "paragraph",
@@ -334,7 +360,8 @@
                 "type": "text",
                 "text": "Mirror Princess stepped forward bravely, and with each stride, the mist receded in reluctance. But then a sudden alarm echoed in Clockie's mind."
               }
-            ]
+            ],
+            "id": "p-83ca7cf1ae0b7da8"
           },
           {
             "type": "paragraph",
@@ -343,7 +370,8 @@
                 "type": "text",
                 "text": "\"Tick-tock! Stop there, Mirror Princess! It's a trap!\""
               }
-            ]
+            ],
+            "id": "p-bd3d271cba718989"
           },
           {
             "type": "paragraph",
@@ -352,7 +380,8 @@
                 "type": "text",
                 "text": "Too late! His warning was in vain. Beneath the mist, the Unknown laid a long rope on the ground concealed by the mist and tripped Mirror Princess's foot. With a resounding crash, she tumbled to the ground, shattering into countless shards. At that moment, the mist resurged, and the malevolent and satisfied laughter from the Unknown once again swallowed the entire desert."
               }
-            ]
+            ],
+            "id": "p-3a1700475b5cd6c4"
           },
           {
             "type": "paragraph",
@@ -368,7 +397,8 @@
                 "type": "text",
                 "text": "\"Chirp, what should we do, Clockie? The monster will devour us all!\""
               }
-            ]
+            ],
+            "id": "p-e51c3afd137a6cfe"
           },
           {
             "type": "paragraph",
@@ -377,7 +407,8 @@
                 "type": "text",
                 "text": "\"Fear not, my friends. It's not the time to cry. Please gather my shattered pieces.\""
               }
-            ]
+            ],
+            "id": "p-641e5c053f0ecd72"
           },
           {
             "type": "paragraph",
@@ -386,7 +417,8 @@
                 "type": "text",
                 "text": "The desert resonated with a gentle, familiar voice. As everyone collected the scattered shards of the princess, they cascaded vibrant auroras amidst the golden sands. The shattered mirror pieces were everywhere, and each reflected the visage of the monster — a short, clownish, and craven ghost. The \"Unknown\" was deprived of its power and vanished forever, its final curtain accompanied by a wail of anguish."
               }
-            ]
+            ],
+            "id": "p-cd9ace0645881549"
           },
           {
             "type": "paragraph",
@@ -395,7 +427,8 @@
                 "type": "text",
                 "text": "However, having fulfilled her purpose, Mirror Princess could not even utter her final words. The Origami Birds discarded all their stones and Captain Revolver spat out all his bullets. Together with Clockie, they meticulously gathered the shards of the princess — the sole remaining treasure she left behind."
               }
-            ]
+            ],
+            "id": "p-5f1782351c85c3fb"
           },
           {
             "type": "paragraph",
@@ -404,7 +437,8 @@
                 "type": "text",
                 "text": "Despite her shattered form, Mirror Princess continued to guard Dreamville with her radiant glow. Whenever the mist returned bringing new monsters with it, the mirror would show their forms, continuing on to this day."
               }
-            ]
+            ],
+            "id": "p-d4e8f3a70feec6b3"
           },
           {
             "type": "paragraph",
@@ -413,7 +447,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -422,7 +457,8 @@
                 "type": "text",
                 "text": "With the arrival of a new day, Clockie swung open the door to his house, revealing the mirror they had meticulously reconstructed, peacefully resting in the garden of Dreamville."
               }
-            ]
+            ],
+            "id": "p-5396717f5bef29fc"
           },
           {
             "type": "paragraph",
@@ -431,7 +467,8 @@
                 "type": "text",
                 "text": "\"Tick-tock. Good morning, Mirror Princess. Today's another beautiful day.\""
               }
-            ]
+            ],
+            "id": "p-842d007c84479913"
           }
         ]
       }

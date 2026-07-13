@@ -4,10 +4,11 @@
   "id": "foundations-of-erythrokeramism-s-theory-of-consciousness",
   "name": "Foundations of Erythrokeramism's Theory of Consciousness",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Foundations_of_Erythrokeramism%27s_Theory_of_Consciousness",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-dcfd862661a900ba"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "The School of Erythrokeramism has never published any monographs. This fact inevitably attracts criticism and means that the debate of \"whether Erythrokeramism should even exist\" has persisted since its conception. In light of this, I am writing this short article to analyze the rationality of the existence of the School of Erythrokeramism from the point of view of Nodism. This article will not contain any complex mathematical knowledge, so please read ahead without concern."
               }
-            ]
+            ],
+            "id": "p-33bf6d75f748ebf4"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "Let us first recall the original purpose of Erythrokeramism's founding. It is said that the sage who founded Erythrokeramism summarized this as being: \"The information that we receive directly through our senses is the most pure. It is these materials that have not undergone excessive processing that form the most peaceful world we see.\" In other words, Erythrokeramism is in direct disagreement with Nodism and refuses understanding based on reason and the analysis of relationships between all things. They only examine the portion of the \"world\" that they can witness with their senses."
               }
-            ]
+            ],
+            "id": "p-e69ee2ea6647fffb"
           },
           {
             "type": "paragraph",
@@ -51,7 +55,8 @@
                 "type": "text",
                 "text": "It is for this reason that critics often believe that Erythrokeramism must have the least value and validity in the eyes of us Nodists. It is also for this reason that people encourage us to \"make a proposal to revoke the rights of this school which wastes the Grove's resources.\""
               }
-            ]
+            ],
+            "id": "p-657e0c832e8d8974"
           },
           {
             "type": "paragraph",
@@ -60,7 +65,8 @@
                 "type": "text",
                 "text": "Unfortunately for these people, if we are talking solely in terms of academic value, the Nodist School does not agree with this perspective. To us, the Erythrokeramists happen to be an outstanding example: They strive to preserve human subconscious reactions to all things and use this to obtain a clearer recognition of the exact nature of our minds."
               }
-            ]
+            ],
+            "id": "p-dc34650b2e04bae7"
           },
           {
             "type": "paragraph",
@@ -69,7 +75,8 @@
                 "type": "text",
                 "text": "It is hard to expand on this without becoming overly abstract, so allow me to raise an example (or perhaps I should say tell a story). I once toured Okhema alongside Madam Socrippe of the Erythrokeramist School, and we had the following discussion:"
               }
-            ]
+            ],
+            "id": "p-af77e15709fa624b"
           },
           {
             "type": "paragraph",
@@ -78,7 +85,8 @@
                 "type": "text",
                 "text": "Apuleius (Hereon shortened to \"A\"): Logical deduction is to all things, as the Worldbearing Titan raising the heavens is to humanity."
               }
-            ]
+            ],
+            "id": "p-917f00631bdb5809"
           },
           {
             "type": "paragraph",
@@ -87,7 +95,8 @@
                 "type": "text",
                 "text": "Socrippe (Hereon shortened to \"S\"): I agree, as they are no more than castles in the sky."
               }
-            ]
+            ],
+            "id": "p-90d1d572cdd12f21"
           },
           {
             "type": "paragraph",
@@ -96,7 +105,8 @@
                 "type": "text",
                 "text": "A: What do you mean by this?"
               }
-            ]
+            ],
+            "id": "p-11992423b2d68741"
           },
           {
             "type": "paragraph",
@@ -105,7 +115,8 @@
                 "type": "text",
                 "text": "S: Though the Worldbearing Titan has lifted the clouds, the black tide still rages beneath them. The method they used to rescue us was to raise us into the sky for our protection. A castle can be built in the sky — they just require a ladder to be of any use."
               }
-            ]
+            ],
+            "id": "p-6d9d4f22451c27b8"
           },
           {
             "type": "paragraph",
@@ -114,7 +125,8 @@
                 "type": "text",
                 "text": "S: The same can be said for the views of you Nodists — you were fortunate enough to discover a number of eternal truths, so you cling to them. You believe that these truths will grant you spiritual safety in a world of constant change."
               }
-            ]
+            ],
+            "id": "p-e730086ff51b5147"
           },
           {
             "type": "paragraph",
@@ -123,7 +135,8 @@
                 "type": "text",
                 "text": "A: Truth is truth, whether people cling to it or not."
               }
-            ]
+            ],
+            "id": "p-8a6e40738241d855"
           },
           {
             "type": "paragraph",
@@ -132,7 +145,8 @@
                 "type": "text",
                 "text": "S: So truth to you is natural beauty."
               }
-            ]
+            ],
+            "id": "p-d7162f0c18898489"
           },
           {
             "type": "paragraph",
@@ -141,7 +155,8 @@
                 "type": "text",
                 "text": "A: I would not deny that claim."
               }
-            ]
+            ],
+            "id": "p-f0ee3a2553c7df6d"
           },
           {
             "type": "paragraph",
@@ -150,7 +165,8 @@
                 "type": "text",
                 "text": "S: Then, in my eyes, the Nodist School has done no more than imagine a new set of senses for themselves: Senses that see in greater detail than the eyes and hear more clearly than the ears."
               }
-            ]
+            ],
+            "id": "p-0b41da573e4a211e"
           },
           {
             "type": "paragraph",
@@ -159,7 +175,8 @@
                 "type": "text",
                 "text": "S: ...But frankly, I still believe this to be no more than a castle in the sky built to protect yourselves."
               }
-            ]
+            ],
+            "id": "p-dad494c260421a9d"
           },
           {
             "type": "paragraph",
@@ -168,7 +185,8 @@
                 "type": "text",
                 "text": "A: What is it that we are protecting?"
               }
-            ]
+            ],
+            "id": "p-ca3d553af6c1ccf5"
           },
           {
             "type": "paragraph",
@@ -177,7 +195,8 @@
                 "type": "text",
                 "text": "S: You are protecting your minds by abandoning the sensory functions that the Titans gifted you. Your aesthetics are realized through fantasy — there is no such thing as a perfectly straight line or round circle in this world, just as infinity or negative values do not truly exist."
               }
-            ]
+            ],
+            "id": "p-4d12fec68ad7c684"
           },
           {
             "type": "paragraph",
@@ -186,7 +205,8 @@
                 "type": "text",
                 "text": "A: It is precisely because these things do not exist in reality that we require them to comprehend reality."
               }
-            ]
+            ],
+            "id": "p-82431466d7c4b5e7"
           },
           {
             "type": "paragraph",
@@ -195,7 +215,8 @@
                 "type": "text",
                 "text": "S: Then you are doing nothing more than walking backwards on a sphere. You took the longest possible route to arrive at a destination that would have been right behind you if you'd looked."
               }
-            ]
+            ],
+            "id": "p-ecea7bfad1752557"
           },
           {
             "type": "paragraph",
@@ -204,7 +225,8 @@
                 "type": "text",
                 "text": "A: You say that, but I do not believe that abandoning all thought will bring me peace."
               }
-            ]
+            ],
+            "id": "p-c833e819e64a7605"
           },
           {
             "type": "paragraph",
@@ -213,7 +235,8 @@
                 "type": "text",
                 "text": "S: I am not asking you to give up on all thoughts. I am just suggesting that you listen to what it is that your senses are telling you. You must first be able to accept the existence of contradictions. That is the prerequisite for being able to appreciate them."
               }
-            ]
+            ],
+            "id": "p-b8d216696b35df01"
           },
           {
             "type": "paragraph",
@@ -222,7 +245,8 @@
                 "type": "text",
                 "text": "S: ...Ah. Speaking in the manner of your school, just so you can understand me, is so exhausting."
               }
-            ]
+            ],
+            "id": "p-7d1bb7a6d88ef979"
           },
           {
             "type": "paragraph",
@@ -231,7 +255,8 @@
                 "type": "text",
                 "text": "A: Oh? Then how would you express the perspective you were proposing in your school's words?"
               }
-            ]
+            ],
+            "id": "p-8f599e54dc05b29f"
           },
           {
             "type": "paragraph",
@@ -240,7 +265,8 @@
                 "type": "text",
                 "text": "S: If you were my student, I would have you sit here completely without thinking. You would use your eyes to listen to the sound of the wind and use your ears to savor the fragrance of incense."
               }
-            ]
+            ],
+            "id": "p-cb708c3e14a30619"
           },
           {
             "type": "paragraph",
@@ -249,7 +275,8 @@
                 "type": "text",
                 "text": "A: I don't understand."
               }
-            ]
+            ],
+            "id": "p-5c26fe893d424698"
           },
           {
             "type": "paragraph",
@@ -258,7 +285,8 @@
                 "type": "text",
                 "text": "S: The world has never asked us to understand it. Your senses are capable of providing you with information that is far purer than any that your mind can distil. It's just that you have used thought to actively deny it."
               }
-            ]
+            ],
+            "id": "p-bff02656096dba14"
           },
           {
             "type": "paragraph",
@@ -267,7 +295,8 @@
                 "type": "text",
                 "text": "A: I do not think that these things that you are referring to can be subject to intellectual analysis."
               }
-            ]
+            ],
+            "id": "p-41d97689041802f8"
           },
           {
             "type": "paragraph",
@@ -276,7 +305,8 @@
                 "type": "text",
                 "text": "S: Oh, then congratulations! You have finally taken your first step towards understanding Erythrokeramism."
               }
-            ]
+            ],
+            "id": "p-3608793885e30c28"
           },
           {
             "type": "paragraph",
@@ -285,7 +315,8 @@
                 "type": "text",
                 "text": "S: That's right. It is precisely because \"intellect\" is not all-powerful that we need to remain wary and not allow it to believe itself omnipotent."
               }
-            ]
+            ],
+            "id": "p-da402c0dae5f4457"
           },
           {
             "type": "paragraph",
@@ -294,7 +325,8 @@
                 "type": "text",
                 "text": "S: People often say that intelligence makes one humble. However, I believe that this humble attitude is no more than another form of arrogance: It is precisely through this sort of illusion that we mistakenly believe that we can stand on the same platform as all supreme beings."
               }
-            ]
+            ],
+            "id": "p-6e41c9df6945c5c7"
           },
           {
             "type": "paragraph",
@@ -303,7 +335,8 @@
                 "type": "text",
                 "text": "S: To explain in the words of my school, your obsession with the concept of \"self\" is too strong. You consider the Titan raising the heavens extremely beautiful, so you imagine a cloud and place yourself shoulder-to-shoulder with them upon it."
               }
-            ]
+            ],
+            "id": "p-5c1829524082ebff"
           },
           {
             "type": "paragraph",
@@ -312,7 +345,8 @@
                 "type": "text",
                 "text": "A: You cannot deny the beauty of the Worldbearing Titan. It is right there before your eyes. As for the clouds that we create, that is not imagination either. It is another form of reality."
               }
-            ]
+            ],
+            "id": "p-19ef76e83e8f7434"
           },
           {
             "type": "paragraph",
@@ -321,7 +355,8 @@
                 "type": "text",
                 "text": "S: You are quite right. But you can still obtain inner peace without these creations. That is the essential difference between our two schools."
               }
-            ]
+            ],
+            "id": "p-b63f454dfd1f16c5"
           },
           {
             "type": "paragraph",
@@ -330,7 +365,8 @@
                 "type": "text",
                 "text": "Considering that there may be some of you that were not able to fully understand this dialogue and what Madam Socrippe and I were discussing, allow me to provide a simple (yet not entirely accurate) translation: The reason the Erythrokeramists reject analytical thought is that taking a practical approach to life shows us that analytical thought is not omnipotent. There are too many kinds of knowledge in this world (in the eyes of the Erythrokeramists, art, emotions, and desires are all alternative forms of knowledge) that cannot be summarized through analytical thought. It is not that the Erythrokeramists cannot carry out intellectual analysis (as you can see in this recorded conversation, Madam Socrippe's analytical skills are on par with my own), but they refuse to use intellectual analysis to measure the world around us. Or, perhaps I should say, they refuse to reduce thoughts down to basic original knowledge (which is the core concept behind the Nodist School)."
               }
-            ]
+            ],
+            "id": "p-26267cc47dc61ea9"
           },
           {
             "type": "paragraph",
@@ -352,7 +388,8 @@
                 "type": "text",
                 "text": ". To express this in the Nodists' phraseology: In order to expose the existence of the subconscious, the Erythrokeramists must confront the conscious mind head-on."
               }
-            ]
+            ],
+            "id": "p-b742e02bd51b2710"
           },
           {
             "type": "paragraph",
@@ -361,7 +398,8 @@
                 "type": "text",
                 "text": "If the Erythrokeramists were to exist no more, no one in the Grove would ever follow this practice again."
               }
-            ]
+            ],
+            "id": "p-9b8274f6bd3c61cb"
           },
           {
             "type": "paragraph",
@@ -370,7 +408,8 @@
                 "type": "text",
                 "text": "I hope that this view of mine has helped you all to understand the value of the existence of the Erythrokeramists (that is, if you truly cannot appreciate their works of art)."
               }
-            ]
+            ],
+            "id": "p-1871a2c788bdc7e6"
           }
         ]
       }

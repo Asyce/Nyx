@@ -4,10 +4,11 @@
   "id": "roadside-picnic-program",
   "name": "Roadside Picnic Program",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Roadside_Picnic_Program",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "page-one",
       "label": "Page One",
       "document": {
         "version": 1,
@@ -29,7 +30,8 @@
                 "type": "em",
                 "children": []
               }
-            ]
+            ],
+            "id": "p-13faeac91bca6311"
           },
           {
             "type": "paragraph",
@@ -89,11 +91,13 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-9f634bff4f64db34"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -123,7 +127,8 @@
                 "type": "text",
                 "text": "Goliards Award for Best Upcoming Actor in a Play:"
               }
-            ]
+            ],
+            "id": "p-dc197047d6e09864"
           },
           {
             "type": "paragraph",
@@ -146,7 +151,8 @@
                 "type": "text",
                 "text": "Sound Design: Bernice. Set Designer: Anya. Lighting: Carole. Theater Manager: Gary"
               }
-            ]
+            ],
+            "id": "p-f76c7a993f714bb2"
           },
           {
             "type": "paragraph",
@@ -225,13 +231,15 @@
                 "type": "text",
                 "text": "Rusha, Anton's Wife — Marta"
               }
-            ]
+            ],
+            "id": "p-1d58dd7f8d1e963b"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "page-two",
       "label": "Page Two",
       "document": {
         "version": 1,
@@ -278,7 +286,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-e1c8d07415d8c012"
           },
           {
             "type": "paragraph",
@@ -326,7 +335,8 @@
                 "type": "text",
                 "text": ". As a five-times winner of the Goliards Award for Best Direction in a Play, he chose a brand-new genre to direct this time — the fantasy genre."
               }
-            ]
+            ],
+            "id": "p-df59b2b217342a62"
           },
           {
             "type": "paragraph",
@@ -361,7 +371,8 @@
                 "type": "text",
                 "text": ", is twice as long as his prior works, giving him more than enough space to showcase his skills."
               }
-            ]
+            ],
+            "id": "p-2acf14b694d85b6d"
           },
           {
             "type": "paragraph",
@@ -396,7 +407,8 @@
                 "type": "text",
                 "text": "is a \"newcomer\" who is writing for the stage for the first time — Marjorie, the literary master famous throughout Belobog."
               }
-            ]
+            ],
+            "id": "p-d47038349675b2d5"
           },
           {
             "type": "paragraph",
@@ -405,7 +417,8 @@
                 "type": "text",
                 "text": "It is no coincidence that this literary master wrote the play — Marjorie is known for authoring sharp and bizarre stories, and Martin had always thought her stories are well-suited for the stage. However, Marjorie was initially busy finding materials for her new book and had refused Martin's first few invitations. With the help of Louise, the show's producer, director Martin finally moved Marjorie with his well-prepared concept design documents. Marjorie voluntarily delayed plans for her new book and left some free time specifically for this theater project."
               }
-            ]
+            ],
+            "id": "p-0b4840d7bc776353"
           },
           {
             "type": "paragraph",
@@ -414,7 +427,8 @@
                 "type": "text",
                 "text": "Although the show seems like a fantasy story fit for the whole family, the amount of twists it contains far exceed the audience's expectations due to the cross-disciplinary collaboration between two masters. On the surface, this is a story between the mole kingdoms and a human family. However, the show is very fast-paced and a large amount of detail is hidden on the stage. If the audience loses track of the pacing for even a moment, it becomes hard to grasp the mysteries and answers hidden in the stage backdrop, the spoken lines, and even in the lighting design."
               }
-            ]
+            ],
+            "id": "p-192910ff080d7b10"
           },
           {
             "type": "paragraph",
@@ -436,7 +450,8 @@
                 "type": "text",
                 "text": "brings endless thinking for adults and acts as a brain-twister for children. The Belobog citizens hail this play as a \"Brain-Twister Masterpiece.\" The wise could extrapolate from the details and absorb the implications behind every little reference, while the innocent delight in the endless creativity behind the story. \"This story offers a brand-new view for us to examine our own lives.\" That was how Martin, the show's director and five-time winner of the Goliards Awards for Best Direction in a Play, replied to these praises and comments."
               }
-            ]
+            ],
+            "id": "p-5eedb7a2dceb5757"
           },
           {
             "type": "paragraph",
@@ -458,13 +473,15 @@
                 "type": "text",
                 "text": "in its entirety. All this is one big surprise that Martin and Marjorie had prepared for us this year."
               }
-            ]
+            ],
+            "id": "p-5d34abc1a0af9255"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "page-three",
       "label": "Page Three",
       "document": {
         "version": 1,
@@ -530,7 +547,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-d1f1b08cc3817bfb"
           },
           {
             "type": "paragraph",
@@ -585,7 +603,8 @@
                 "type": "text",
                 "text": "List price: 1500 shield"
               }
-            ]
+            ],
+            "id": "p-1b60e685a8c27b20"
           },
           {
             "type": "paragraph",
@@ -644,7 +663,8 @@
                 "type": "text",
                 "text": "List price: 3,000 shield"
               }
-            ]
+            ],
+            "id": "p-547aea0f2a7ba1eb"
           },
           {
             "type": "paragraph",
@@ -703,7 +723,8 @@
                 "type": "text",
                 "text": "List price: 5000 shield"
               }
-            ]
+            ],
+            "id": "p-629f1f76479a8cc5"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "atticus-s-kephale-oracles",
   "name": "Atticus's Kephale Oracles",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Atticus%27s_Kephale_Oracles",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-d1ed442a9f8b6f45"
           },
           {
             "type": "paragraph",
@@ -45,7 +47,8 @@
                 "type": "text",
                 "text": "In the Era Chrysea, the sky father's glory illuminated the world, and prophecies resounded across the land."
               }
-            ]
+            ],
+            "id": "p-4168c31bd4f100ef"
           },
           {
             "type": "paragraph",
@@ -54,7 +57,8 @@
                 "type": "text",
                 "text": "35:3"
               }
-            ]
+            ],
+            "id": "p-497e44ac7f34ac2b"
           },
           {
             "type": "paragraph",
@@ -77,7 +81,8 @@
                 "type": "text",
                 "text": "Thus, singers have new verses to spread — And with them, your name resounds."
               }
-            ]
+            ],
+            "id": "p-9ec67383ecc46ae4"
           },
           {
             "type": "paragraph",
@@ -98,7 +103,8 @@
                 "type": "text",
                 "text": "In the Era Bellica, prophecies are as light as whispers, until they fall into complete silence."
               }
-            ]
+            ],
+            "id": "p-63061e8cde09ef79"
           },
           {
             "type": "paragraph",
@@ -107,7 +113,8 @@
                 "type": "text",
                 "text": "2:12"
               }
-            ]
+            ],
+            "id": "p-a21e8251ae7532ca"
           },
           {
             "type": "paragraph",
@@ -130,7 +137,8 @@
                 "type": "text",
                 "text": "And you will bear witness — As the black tide devours the earth, the holy city shall pulse with life."
               }
-            ]
+            ],
+            "id": "p-d0ba5e508deb09a9"
           },
           {
             "type": "paragraph",
@@ -139,7 +147,8 @@
                 "type": "text",
                 "text": "7:21"
               }
-            ]
+            ],
+            "id": "p-7a8a278f973e5f61"
           },
           {
             "type": "paragraph",
@@ -169,7 +178,8 @@
                 "type": "text",
                 "text": "As you imagine, as you will, as you do."
               }
-            ]
+            ],
+            "id": "p-4696b1ecbeb47f61"
           },
           {
             "type": "paragraph",
@@ -190,7 +200,8 @@
                 "type": "text",
                 "text": "Even in the era when gods are silent, there is a fragment of information that needs deciphering."
               }
-            ]
+            ],
+            "id": "p-0b8ae93dd350db64"
           },
           {
             "type": "paragraph",
@@ -234,7 +245,8 @@
                 "type": "text",
                 "text": "To gather the lives of the created, and lead us to arm ourselves against the foe."
               }
-            ]
+            ],
+            "id": "p-72f549ddcf979d82"
           },
           {
             "type": "paragraph",
@@ -271,7 +283,8 @@
                 "type": "text",
                 "text": "It is feared that a calamity is near."
               }
-            ]
+            ],
+            "id": "p-1755cb16e8827580"
           },
           {
             "type": "paragraph",
@@ -315,7 +328,8 @@
                 "type": "text",
                 "text": "The omniscient sky father guides the lost toward goodness and enlightens the ignorant with truth."
               }
-            ]
+            ],
+            "id": "p-982c5dc8e7ba9d73"
           },
           {
             "type": "paragraph",
@@ -357,7 +371,8 @@
                 "type": "text",
                 "text": "Keep our feet from being washed by the black tide, and let us remain on this side of the world."
               }
-            ]
+            ],
+            "id": "p-32c571946b2f6486"
           },
           {
             "type": "paragraph",
@@ -366,7 +381,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

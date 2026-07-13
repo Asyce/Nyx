@@ -4,10 +4,11 @@
   "id": "pet-diary-sesame",
   "name": "Pet Diary: Sesame",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Pet_Diary:_Sesame",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "(I)"
               }
-            ]
+            ],
+            "id": "p-a9aeb48d4f2752e7"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "I heard you can make more money finding ancient relics than mining, so I asked some of my dad's acquaintances for help."
               }
-            ]
+            ],
+            "id": "p-7de7a48524077972"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "A fortnight later, the only relic I found was something similar to a rand counter — it just looked a bit smaller. I don't know anything about relics, so I had to spare a little cash to hire Balaway from Miner's Lamp for an appraisal."
               }
-            ]
+            ],
+            "id": "p-159ff147e68859c2"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "Mr. Balaway said the relic is called a virtual pet. People from the Old World would feed images of their pets into it. Through the device, the pet could live on forever with its owner."
               }
-            ]
+            ],
+            "id": "p-f58ec78bd22c33a2"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "I didn't know what a pet was, so I asked him. According to the Miner's Lamp, a pet is something of a luxury, something you have to feed and take care of. I had no interest in it whatsoever."
               }
-            ]
+            ],
+            "id": "p-a5fc8f29e8f7748d"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "Balaway mentioned that the parts inside could be exchanged for some money, but told me not to get my hopes up as Boss Svarog was unlikely to be interested."
               }
-            ]
+            ],
+            "id": "p-a4f83c8cac032683"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "What the heck. I thought this was supposed to make more money than mining."
               }
-            ]
+            ],
+            "id": "p-94c7359782092b3b"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "(II)"
               }
-            ]
+            ],
+            "id": "p-68b2ec6906e06b8d"
           },
           {
             "type": "paragraph",
@@ -91,7 +100,8 @@
                 "type": "text",
                 "text": "Thankfully, everything is virtual. I fed it a ton of food and drink."
               }
-            ]
+            ],
+            "id": "p-97e2dc53792e51dc"
           },
           {
             "type": "paragraph",
@@ -100,7 +110,8 @@
                 "type": "text",
                 "text": "I can barely keep myself alive. It would be impossible for me to have a real pet. Thanks to this \"virtual pet\" thing, I can be a real pet owner."
               }
-            ]
+            ],
+            "id": "p-5078fa2f1e4c35a8"
           },
           {
             "type": "paragraph",
@@ -109,7 +120,8 @@
                 "type": "text",
                 "text": "Dad's friend says that he's looking for a buyer for me. For some reason, I kinda feel like keeping it now. Oh well, I guess I'll just help the next owner take care of it until then... I think today is Sesame's bath day."
               }
-            ]
+            ],
+            "id": "p-274c07c3afb9b2d6"
           },
           {
             "type": "paragraph",
@@ -118,7 +130,8 @@
                 "type": "text",
                 "text": "By the way, I named it Sesame. Cute, right?"
               }
-            ]
+            ],
+            "id": "p-3ec9adb8e3e1cc10"
           },
           {
             "type": "paragraph",
@@ -127,7 +140,8 @@
                 "type": "text",
                 "text": "(III)"
               }
-            ]
+            ],
+            "id": "p-75032c94b5a8dd19"
           },
           {
             "type": "paragraph",
@@ -136,7 +150,8 @@
                 "type": "text",
                 "text": "Never thought virtual pets would get sick too."
               }
-            ]
+            ],
+            "id": "p-e167bad2d39333e0"
           },
           {
             "type": "paragraph",
@@ -145,7 +160,8 @@
                 "type": "text",
                 "text": "I went and found Natasha to have her look at Sesame. She said that there was nothing she could do and sent me off to look for the Miner's Lamp. I heard that she was a great doctor, how come she couldn't help Sesame?"
               }
-            ]
+            ],
+            "id": "p-1c903d938d3d007f"
           },
           {
             "type": "paragraph",
@@ -154,7 +170,8 @@
                 "type": "text",
                 "text": "Don't be scared Sesame, daddy's right here, hang in there."
               }
-            ]
+            ],
+            "id": "p-1746ef39da982a46"
           },
           {
             "type": "paragraph",
@@ -163,7 +180,8 @@
                 "type": "text",
                 "text": "(IV)"
               }
-            ]
+            ],
+            "id": "p-a0c469d21d4b5036"
           },
           {
             "type": "paragraph",
@@ -172,7 +190,8 @@
                 "type": "text",
                 "text": "Sesame has recovered!"
               }
-            ]
+            ],
+            "id": "p-8abe3f100dc6cb80"
           },
           {
             "type": "paragraph",
@@ -181,7 +200,8 @@
                 "type": "text",
                 "text": "Oh man, I was so worried these last two days that I couldn't even eat! I feel so relieved right now! I have to tell everyone, they need to know that Sesame has recovered!"
               }
-            ]
+            ],
+            "id": "p-94f4b5224b54060f"
           },
           {
             "type": "paragraph",
@@ -190,7 +210,8 @@
                 "type": "text",
                 "text": "It's almost Sesame's birthday, so I'm gonna go get some rock crabs for the celebration! ...Even if it can't really eat anything..."
               }
-            ]
+            ],
+            "id": "p-69d00c5d03da98b2"
           },
           {
             "type": "paragraph",
@@ -199,7 +220,8 @@
                 "type": "text",
                 "text": "(V)"
               }
-            ]
+            ],
+            "id": "p-ef8b0e2ea8789564"
           },
           {
             "type": "paragraph",
@@ -208,7 +230,8 @@
                 "type": "text",
                 "text": "Oh no! Sesame's been stolen by a bunch of bandits! Those thieves! Those scavengers! Trash!"
               }
-            ]
+            ],
+            "id": "p-fbfd54d2c2dad444"
           },
           {
             "type": "paragraph",
@@ -217,7 +240,8 @@
                 "type": "text",
                 "text": "I recognize their faces, they're thugs from the vagrant camp — they're good at selling relics. They were at the doctor's last time and heard about Sesame."
               }
-            ]
+            ],
+            "id": "p-fb26611ae85ec056"
           },
           {
             "type": "paragraph",
@@ -226,7 +250,8 @@
                 "type": "text",
                 "text": "Darn! I'm gonna get Sesame back even if it costs me my life!"
               }
-            ]
+            ],
+            "id": "p-43b70471aedf8d21"
           },
           {
             "type": "paragraph",
@@ -235,7 +260,8 @@
                 "type": "text",
                 "text": "(VI)"
               }
-            ]
+            ],
+            "id": "p-2602f2dd69c36bab"
           },
           {
             "type": "paragraph",
@@ -244,7 +270,8 @@
                 "type": "text",
                 "text": "Sesame! Oh, my sweet Sesame! How could you be sold for scrap..."
               }
-            ]
+            ],
+            "id": "p-1d05f0a9170b3d3c"
           },
           {
             "type": "paragraph",
@@ -253,7 +280,8 @@
                 "type": "text",
                 "text": "When I found them, they said they'd already sold Sesame to Svarogs' vagrants and that it had probably already been salvaged by now."
               }
-            ]
+            ],
+            "id": "p-c20a660715903471"
           },
           {
             "type": "paragraph",
@@ -262,7 +290,8 @@
                 "type": "text",
                 "text": "Oh, Sesame! It'd be pointless for me to fight them now that you're gone... How could this be... I'd be better off dead..."
               }
-            ]
+            ],
+            "id": "p-73331d77354243af"
           },
           {
             "type": "paragraph",
@@ -271,7 +300,8 @@
                 "type": "text",
                 "text": "After making a grave for Sesame, maybe... I'm just saying... maybe I should get a Crystal Lizard."
               }
-            ]
+            ],
+            "id": "p-13a27e4a279c3ab7"
           },
           {
             "type": "paragraph",
@@ -280,7 +310,8 @@
                 "type": "text",
                 "text": "(VII)"
               }
-            ]
+            ],
+            "id": "p-34bcf4b246edaa6c"
           },
           {
             "type": "paragraph",
@@ -289,7 +320,8 @@
                 "type": "text",
                 "text": "This lizard's a pain, I'm done with it."
               }
-            ]
+            ],
+            "id": "p-902e082a5c831e98"
           }
         ]
       }

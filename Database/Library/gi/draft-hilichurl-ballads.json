@@ -4,10 +4,11 @@
   "id": "draft-hilichurl-ballads",
   "name": "Draft Hilichurl Ballads",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Draft_Hilichurl_Ballads",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
@@ -69,13 +70,15 @@
                 "type": "text",
                 "text": "Yeye kucha kucha!"
               }
-            ]
+            ],
+            "id": "p-e2f1df0ffd530ccc"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
@@ -92,13 +95,15 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ff90ddf5ec6b92f4"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "vol-3",
       "label": "Vol. 3",
       "document": {
         "version": 1,
@@ -115,7 +120,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ff90ddf5ec6b92f4"
           }
         ]
       }

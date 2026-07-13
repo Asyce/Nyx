@@ -4,10 +4,11 @@
   "id": "space-station-love-poems",
   "name": "Space Station Love Poems",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Space_Station_Love_Poems",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "space-station-love-poems-i",
       "label": "Space Station Love Poems (I)",
       "document": {
         "version": 1,
@@ -47,7 +48,8 @@
                 "type": "text",
                 "text": "tugging at my heart unknowingly."
               }
-            ]
+            ],
+            "id": "p-a022caca0591758b"
           },
           {
             "type": "paragraph",
@@ -56,13 +58,15 @@
                 "type": "text",
                 "text": "Rocky Martinez"
               }
-            ]
+            ],
+            "id": "p-a74dd401cb35b818"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "space-station-love-poems-ii",
       "label": "Space Station Love Poems (II)",
       "document": {
         "version": 1,
@@ -95,7 +99,8 @@
                 "type": "text",
                 "text": "And made the Stellaron obstruct the Star Rail one chunk at a time."
               }
-            ]
+            ],
+            "id": "p-9bbeaeaf629c5f7e"
           },
           {
             "type": "paragraph",
@@ -104,13 +109,15 @@
                 "type": "text",
                 "text": "Rocky Martinez"
               }
-            ]
+            ],
+            "id": "p-a74dd401cb35b818"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "space-station-love-poems-iii",
       "label": "Space Station Love Poems (III)",
       "document": {
         "version": 1,
@@ -150,7 +157,8 @@
                 "type": "text",
                 "text": "Loneliness has turned blue into my name."
               }
-            ]
+            ],
+            "id": "p-74a11e57f3e74cc0"
           },
           {
             "type": "paragraph",
@@ -159,7 +167,8 @@
                 "type": "text",
                 "text": "Rocky Martinez"
               }
-            ]
+            ],
+            "id": "p-a74dd401cb35b818"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "research-report-tottonid-crystals",
   "name": "Research Report: Tottonid Crystals",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Research_Report:_Tottonid_Crystals",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -40,7 +41,8 @@
                 "type": "text",
                 "text": "Report Text:"
               }
-            ]
+            ],
+            "id": "p-22fdc9fa0a0b9fd4"
           },
           {
             "type": "paragraph",
@@ -49,7 +51,8 @@
                 "type": "text",
                 "text": "Lifeforms on the silicon-based world unveiled new ways of information transmission to us, and the waves in the interior of a Tottonid Crystal is the best evidence of that claim. This study will attempt to explore that with reconstructed Tottonid Crystal samples."
               }
-            ]
+            ],
+            "id": "p-d21cff76c5b81b3c"
           },
           {
             "type": "paragraph",
@@ -58,7 +61,8 @@
                 "type": "text",
                 "text": "The researcher placed three individual crystals into three vacuum containers to ensure the crystals will not be able to receive transmissions from each other through physical contact. Then Subject #1 was connected to an electronic transducer before a preset message was input. The message includes five information points, of which four are genuine imperial history of the Tottonids, and one is a rumor regarding the empire."
               }
-            ]
+            ],
+            "id": "p-06b4a80263e9b043"
           },
           {
             "type": "paragraph",
@@ -67,7 +71,8 @@
                 "type": "text",
                 "text": "After the transmission process is over, the researcher placed the three crystals in identical environments and observed the electrical signals of the crystals in real time for 24 hours. Data shows that Subject #1 first shared a piece of genuine history of the Tottonid monarchs, to which Subjects #2 and #3 responded positively. Then, Subject #1 shared the piece of rumor about the Tottonid Empire, and autonomously added details that the researchers did not input, causing the internal electrical signals in Subjects #2 and #3 to fluctuate extremely. However, the three crystals quickly synchronized, exhibiting a high degree of resonance. The following are some examples of the messages between the crystals during the observation:"
               }
-            ]
+            ],
+            "id": "p-d79fc272943461df"
           },
           {
             "type": "paragraph",
@@ -100,7 +105,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ad055f7899a598ad"
           },
           {
             "type": "paragraph",
@@ -109,7 +115,8 @@
                 "type": "text",
                 "text": "To summarize, the researchers believe that the Tottonid crystals also experience differences between subjective perception and objective awareness during communication between individuals, and that the difference is most likely similar to that of carbon-based organisms. Further in-depth studies are requested to be approved."
               }
-            ]
+            ],
+            "id": "p-756b281d14fb5588"
           },
           {
             "type": "paragraph",
@@ -123,7 +130,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-4105c1e915d0e361"
           }
         ]
       }

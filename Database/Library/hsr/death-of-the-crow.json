@@ -4,10 +4,11 @@
   "id": "death-of-the-crow",
   "name": "Death of the Crow",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Death_of_the_Crow",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -54,7 +55,8 @@
                 "type": "text",
                 "text": "Only this and nothing more.\""
               }
-            ]
+            ],
+            "id": "p-724230560357585f"
           },
           {
             "type": "paragraph",
@@ -98,7 +100,8 @@
                 "type": "text",
                 "text": "While others found only demise, in dust they lie."
               }
-            ]
+            ],
+            "id": "p-7975a4ba7997f851"
           },
           {
             "type": "paragraph",
@@ -142,7 +145,8 @@
                 "type": "text",
                 "text": "Darkness there and nothing more."
               }
-            ]
+            ],
+            "id": "p-84a8bb03a2bdf97e"
           },
           {
             "type": "paragraph",
@@ -186,7 +190,8 @@
                 "type": "text",
                 "text": "Quoth the Raven \"Nevermore.\""
               }
-            ]
+            ],
+            "id": "p-62ce68d445e22633"
           },
           {
             "type": "paragraph",
@@ -230,7 +235,8 @@
                 "type": "text",
                 "text": "Merely this and nothing more."
               }
-            ]
+            ],
+            "id": "p-b1c6dcc3f6ef2f3f"
           },
           {
             "type": "paragraph",
@@ -274,7 +280,8 @@
                 "type": "text",
                 "text": "Yet the dream shattered, \"Nevermore.\""
               }
-            ]
+            ],
+            "id": "p-b7fb24a890e391b9"
           },
           {
             "type": "paragraph",
@@ -318,7 +325,8 @@
                 "type": "text",
                 "text": "Merely this and nothing more."
               }
-            ]
+            ],
+            "id": "p-bc8c31740a563aed"
           },
           {
             "type": "paragraph",
@@ -362,7 +370,8 @@
                 "type": "text",
                 "text": "The past forever transformed, and nevermore"
               }
-            ]
+            ],
+            "id": "p-e9052860bbd6a1aa"
           },
           {
             "type": "paragraph",
@@ -384,7 +393,8 @@
                 "type": "text",
                 "text": "''"
               }
-            ]
+            ],
+            "id": "p-33e6cd037646c944"
           },
           {
             "type": "paragraph",
@@ -393,7 +403,8 @@
                 "type": "text",
                 "text": "Cecil Simmes"
               }
-            ]
+            ],
+            "id": "p-b2f0f78ca0f8ca60"
           }
         ]
       }

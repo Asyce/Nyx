@@ -4,10 +4,11 @@
   "id": "the-pearlkeeper-s-communication-stele",
   "name": "The Pearlkeeper's Communication Stele",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/The_Pearlkeeper%27s_Communication_Stele",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "This monument was erected at the bottom of the Lunarescent Depths for the Pearlkeepers to leave messages during underwater investigations. Unauthorized contact is strictly forbidden."
               }
-            ]
+            ],
+            "id": "p-655d0f128ceb5fee"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Bozhi from Serpent Team 7 has left a message: Why do we have to engrave messages on a stone tablet? Don't you all have a jade abacus?"
               }
-            ]
+            ],
+            "id": "p-7f5432d325f84080"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "Agu, captain of Serpent Team 7, has left a message: Because this isn't used for instant messaging, but for the long-term and consistent retention of important information. Remember, long-term retention. So refrain from engraving idiotic nonsense here."
               }
-            ]
+            ],
+            "id": "p-5277f57a20e5bf8e"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "Xiaoqian, deputy of Serpent Team 7, has left a message: We may have seen centuries of peace over here, but the Fanghu has been sending over inspectors recently. Make sure you've made all necessary preparations on the surface."
               }
-            ]
+            ],
+            "id": "p-9e3c2e64f5e3700b"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "Linxi, head of the Fanghu's inspection team: Are you sure these are the messages you want to leave on the stele?"
               }
-            ]
+            ],
+            "id": "p-85b8a98693108895"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "Lishu from Serpent Team 7: I apprehended a few of the Unshackled recently who confessed to releasing hundreds of Sweetsand Startoads. They're not dangerous, but are still an invasive species. We've been through several times with the Realm-Keeping Commission to clean things up, but we must have missed some. Please pay extra attention during patrols."
               }
-            ]
+            ],
+            "id": "p-5bbad52c285aa79e"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "Agu, captain of Serpent Team 7: A certain Bernini from the Intelligentsia Guild and a Vidyadhara archaeologist wanted to explore these depths of Scalegorge Waterscape. The Preceptors afreed and I could scarcely refuse, so I had to escort him on a tour of the seabed. I really can't trust these nosey outworlders, so please pay extra special attention during patrols right now. I'm worried that he's up to something when we're not focused on him."
               }
-            ]
+            ],
+            "id": "p-1e05673e0760a1d6"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "Xiaoqian, deputy of Serpent Team 7: I found a metal receptacle, a foreign object on the seabed. Maybe it's a kind of detector left behind by Bernini? I've reported it to the Realm-Keeping Commission and let's all keep an eye out for things."
               }
-            ]
+            ],
+            "id": "p-34b27c80d870242f"
           },
           {
             "type": "paragraph",
@@ -91,7 +100,8 @@
                 "type": "text",
                 "text": "Agu, captain of Serpent Team 7: Whosoever dares bring a lunchbox underwater will get booted out of the squad! Eating lunch underwater is crazy!"
               }
-            ]
+            ],
+            "id": "p-741b1fc6e5403665"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "the-genealogy-of-dawn-and-dusk",
   "name": "The Genealogy of Dawn and Dusk",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/The_Genealogy_of_Dawn_and_Dusk",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-d08d3b8c046f8b3d"
           },
           {
             "type": "paragraph",
@@ -88,7 +90,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-32eec6277832db33"
           },
           {
             "type": "paragraph",
@@ -152,7 +155,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-e4eb755476297e78"
           },
           {
             "type": "paragraph",
@@ -279,7 +283,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-af6c20ace1397864"
           },
           {
             "type": "paragraph",
@@ -293,7 +298,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-af5fb22eabb071f8"
           },
           {
             "type": "paragraph",
@@ -357,7 +363,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-8dbdde6eeaf8b29c"
           },
           {
             "type": "paragraph",
@@ -421,7 +428,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-a17cf3cf9f41b40b"
           },
           {
             "type": "paragraph",
@@ -430,7 +438,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

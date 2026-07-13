@@ -4,10 +4,11 @@
   "id": "notification-for-physical-examinations",
   "name": "Notification for Physical Examinations",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Notification_for_Physical_Examinations",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Dear colleagues,"
               }
-            ]
+            ],
+            "id": "p-caa3eea5b2c12038"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Thank you for all of your contributions toward the development of the space station. To ensure your health and wellbeing, the annual health check in the space station has begun."
               }
-            ]
+            ],
+            "id": "p-d83c234c54ebab17"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "The negative effects from the invasion of the Antimatter Legion are slowly dissipating. In order to better serve our colleagues on the space station at any given time, as well as to maintain everyone's mental health after the incident, the Medical Department has now launched a new health examination service. Aside from the regular physical examination, we have also upgraded the facilities to provide better counseling and mental health care services."
               }
-            ]
+            ],
+            "id": "p-e6e18b6fd630c781"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "Due to the partial restoration of the space station facilities and the limited capacity of the medical cabin, please make an appointment before coming for a medical checkup so that we can allocate a reasonable time slot and provide a good medical environment for you and your colleagues."
               }
-            ]
+            ],
+            "id": "p-459f5ecdbb563f22"
           },
           {
             "type": "paragraph",
@@ -75,7 +80,8 @@
                 "type": "text",
                 "text": "in-person: Available at all times. Please register for an appointment with the help of medical cabin staff members on duty at the desk."
               }
-            ]
+            ],
+            "id": "p-1b15638230a887b7"
           },
           {
             "type": "paragraph",
@@ -114,7 +120,8 @@
                 "type": "text",
                 "text": "After canceling the appointment, the next appointment can be made at any time."
               }
-            ]
+            ],
+            "id": "p-448f9df2f02832cc"
           },
           {
             "type": "paragraph",
@@ -143,7 +150,8 @@
                 "type": "text",
                 "text": "2. If you have any questions regarding your examination results or require a medical consultation, please bring your staff identification card for confirmation purposes when you come in for the consultation."
               }
-            ]
+            ],
+            "id": "p-3cb1ef0e6d3d4b6a"
           },
           {
             "type": "paragraph",
@@ -152,7 +160,8 @@
                 "type": "text",
                 "text": "If you are unsure or have questions about the physical examination, feel free to contact the medical staff member on duty on the Herta Space Station Staff System."
               }
-            ]
+            ],
+            "id": "p-9eb756e6aa3afbb8"
           }
         ]
       }

@@ -55,7 +55,7 @@ const config = {
       key: 'monsters',
       listKey: 'monsters',
       outputFile: 'monsters.json',
-      normalize: normalizeMonster
+      normalize: normalizeHsrMonster
     }
   ]
 };
@@ -173,16 +173,22 @@ function normalizeItem({ id, summary, channel, assetBag }) {
   });
 }
 
-function normalizeMonster({ id, summary, channel }) {
+export function normalizeHsrMonster({ id, summary, channel, assetBag }) {
   const monster = summary || {};
+  const iconStem = iconStemFromRef(monster?.icon);
 
   return removeEmpty({
     id: String(id),
     contentStatus: channel === 'live' ? 'live' : 'beta',
     name: text(monster?.en) || monster?.name || String(id),
-    rarity: monster?.rarity || null,
+    rank: monster?.rank || null,
+    camp: monster?.camp ?? null,
+    weaknesses: Array.isArray(monster?.weak) ? monster.weak : [],
     type: monster?.type || monster?.monster_type || null,
     description: monster?.desc || null,
+    assets: iconStem ? {
+      icon: assetBag.register(`${ASSET_ROOT}/monsters/${iconStem}.webp`, `monsterfigure/${iconStem}.webp`)
+    } : null,
     sourceSnapshot: removeRemoteLinks(monster)
   });
 }

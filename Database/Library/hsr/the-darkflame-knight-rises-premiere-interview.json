@@ -4,10 +4,11 @@
   "id": "the-darkflame-knight-rises-premiere-interview",
   "name": "The Darkflame Knight Rises Premiere Interview",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/The_Darkflame_Knight_Rises_Premiere_Interview",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -39,7 +40,8 @@
                 "type": "text",
                 "text": "Uma: I'm now standing at the entrance of Clock Studios Theme Park. As you can see, viewers are trickling out in groups. Let's hear what they have to say about the movie!"
               }
-            ]
+            ],
+            "id": "p-28b738015e3eeaf4"
           },
           {
             "type": "paragraph",
@@ -72,7 +74,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-490ccd0c32faaa36"
           },
           {
             "type": "paragraph",
@@ -105,7 +108,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-639b6e24b6133a16"
           },
           {
             "type": "paragraph",
@@ -138,7 +142,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-7b45ad0fcb1f8b0f"
           },
           {
             "type": "paragraph",
@@ -159,7 +164,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-d22a351aa8351812"
           },
           {
             "type": "paragraph",
@@ -192,7 +198,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-552b91e26b853fec"
           },
           {
             "type": "paragraph",
@@ -221,7 +228,8 @@
                 "type": "text",
                 "text": ", Mr. Reca also invited the \"assistant director\" to attend the premiere ceremony. So, were you surprised when Miss Robin first proposed a collaboration on behalf of the Oak Family? What are your thoughts on her insistence on choosing the Glamoth's Iron Cavalry as the subject? And were there any unforgettable moments you could share with us during filming?"
               }
-            ]
+            ],
+            "id": "p-c6a845127fc594e1"
           },
           {
             "type": "paragraph",
@@ -242,7 +250,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-cb09a04595d4a4c4"
           },
           {
             "type": "paragraph",
@@ -251,7 +260,8 @@
                 "type": "text",
                 "text": "Uma: What a moving speech from our \"Assistant Director\"! Thank you!"
               }
-            ]
+            ],
+            "id": "p-f3b92b1282eca4b7"
           }
         ]
       }

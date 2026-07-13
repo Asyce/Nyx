@@ -4,10 +4,11 @@
   "id": "unfulfilled-wish-list",
   "name": "Unfulfilled Wish List",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Unfulfilled_Wish_List",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-00096591e0275415"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "For my last livestream, I really wanted to turn off the beauty filter and let you see what I really look like. Would you still love me then? Or was it always only that perfect \"her\" on the screen that you cared about?"
               }
-            ]
+            ],
+            "id": "p-e04ca084a41f1737"
           },
           {
             "type": "paragraph",
@@ -51,7 +55,8 @@
                 "type": "text",
                 "text": "But in the end, I couldn't bring myself to break that pretty illusion. I couldn't free myself from the person withering away behind that digital mask."
               }
-            ]
+            ],
+            "id": "p-ffd9b971537b53ae"
           },
           {
             "type": "paragraph",
@@ -60,7 +65,8 @@
                 "type": "text",
                 "text": "But \"she\" will never be me. Not now, not ever."
               }
-            ]
+            ],
+            "id": "p-db913bb2d36e1a61"
           },
           {
             "type": "paragraph",
@@ -79,7 +85,8 @@
                 "type": "text",
                 "text": "— Kirilo, lightpaw"
               }
-            ]
+            ],
+            "id": "p-47c5b85fc3a8397c"
           },
           {
             "type": "paragraph",
@@ -88,7 +95,8 @@
                 "type": "text",
                 "text": "Eluric is a young ploo scholar of tremendous potential, a genius, even. They took just one night to completely dismantle the \"Wishpower Resonance Theory\" I'd spent my entire life painstakingly building. And the proof? Elegant and devastatingly simple."
               }
-            ]
+            ],
+            "id": "p-005d7bbe8cd0d4ff"
           },
           {
             "type": "paragraph",
@@ -97,7 +105,8 @@
                 "type": "text",
                 "text": "It's a good thing when old dogma becomes obsolete, but my brain's already crammed with too much faulty knowledge to start my research from scratch."
               }
-            ]
+            ],
+            "id": "p-e3ad536e2c82daf9"
           },
           {
             "type": "paragraph",
@@ -116,7 +125,8 @@
                 "type": "text",
                 "text": "— Eiso, ploo"
               }
-            ]
+            ],
+            "id": "p-29d303633ec387c4"
           },
           {
             "type": "paragraph",
@@ -125,7 +135,8 @@
                 "type": "text",
                 "text": "Why can mechatrons swap out bodies of any size so easily, while no matter how hard I train, I can never bulk up? If everything about us imagenae is predetermined from birth, do I really have the freedom to choose how I live?"
               }
-            ]
+            ],
+            "id": "p-6280c81ea939d228"
           },
           {
             "type": "paragraph",
@@ -144,7 +155,8 @@
                 "type": "text",
                 "text": "— Fenrir, orch"
               }
-            ]
+            ],
+            "id": "p-3ca63f055d9bfab7"
           },
           {
             "type": "paragraph",
@@ -153,7 +165,8 @@
                 "type": "text",
                 "text": "The birthplace of emotis, the rooftop of Pearluxe Tower, the far side of the Phantasmoon, and the boundless sea of stars... There are just way too many places I want to visit. I can't even list them all! The universe is so vast, maybe the only way to make that dream of roaming the cosmos come true is to board the legendary Astral Express, huh?"
               }
-            ]
+            ],
+            "id": "p-7ad0781155140720"
           },
           {
             "type": "paragraph",
@@ -172,7 +185,8 @@
                 "type": "text",
                 "text": "— Naia, moonlull"
               }
-            ]
+            ],
+            "id": "p-0abbea12940096b2"
           },
           {
             "type": "paragraph",
@@ -191,7 +205,8 @@
                 "type": "text",
                 "text": "— Orlando, ghost"
               }
-            ]
+            ],
+            "id": "p-31c0aff06af2c9f8"
           }
         ]
       }

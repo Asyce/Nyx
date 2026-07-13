@@ -4,10 +4,11 @@
   "id": "planarcadia-superhero-index-excerpt",
   "name": "Planarcadia Superhero Index (Excerpt)",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Planarcadia_Superhero_Index_(Excerpt)",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -35,7 +37,8 @@
                 "type": "text",
                 "text": "Sponsor: Ploo Industries"
               }
-            ]
+            ],
+            "id": "p-c5969a6e0fe1c98d"
           },
           {
             "type": "paragraph",
@@ -44,7 +47,8 @@
                 "type": "text",
                 "text": "Lightning Gaga! The ploo of all ploos! The hero of all heroes! The living embodiment of \"Lightning\"!"
               }
-            ]
+            ],
+            "id": "p-2673e820be6d04cc"
           },
           {
             "type": "paragraph",
@@ -53,7 +57,8 @@
                 "type": "text",
                 "text": "On the darkest, scariest, most helpless nights, Lightning Gaga strikes like lightning to bring you thunderous comfort!"
               }
-            ]
+            ],
+            "id": "p-de37edc0847e6efd"
           },
           {
             "type": "paragraph",
@@ -62,7 +67,8 @@
                 "type": "text",
                 "text": "What baddies fear most about Lightning Gaga is her nearly indestructible physical toughness. Born from old rubber hose animation, she can take just about any physical hit and turn it into an adorable comedic spectacle."
               }
-            ]
+            ],
+            "id": "p-c4d5c7de7cf91f96"
           },
           {
             "type": "paragraph",
@@ -71,7 +77,8 @@
                 "type": "text",
                 "text": "Crushed by heavy machinery? Hit by explosive weapons? Falling from great heights? My friend, have you seen that video? Lightning Gaga swallowed a time bomb whole, then let out an earth-shattering burp."
               }
-            ]
+            ],
+            "id": "p-e62014d4192b7972"
           },
           {
             "type": "paragraph",
@@ -80,7 +87,8 @@
                 "type": "text",
                 "text": "That video's got over 3 billion views. You're gonna be totally out of the loop if you don't watch it!"
               }
-            ]
+            ],
+            "id": "p-d0b5fa81b8f08d10"
           },
           {
             "type": "paragraph",
@@ -89,7 +97,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -105,7 +114,8 @@
                 "type": "text",
                 "text": "Sponsor: Security Bureau"
               }
-            ]
+            ],
+            "id": "p-a7cd34c3fc719ebc"
           },
           {
             "type": "paragraph",
@@ -127,7 +137,8 @@
                 "type": "text",
                 "text": "."
               }
-            ]
+            ],
+            "id": "p-ed317f8902560105"
           },
           {
             "type": "paragraph",
@@ -136,7 +147,8 @@
                 "type": "text",
                 "text": "To make sure the woofae's image doesn't get tarnished over time, the Security Bureau creates a new generation of Wonder Dog Lassio every so often to serve as a role model for all woofae and keep the city safe."
               }
-            ]
+            ],
+            "id": "p-ec18716df064cd02"
           },
           {
             "type": "paragraph",
@@ -145,7 +157,8 @@
                 "type": "text",
                 "text": "This generation's Lassio XV, is hailed by fans as \"the most Lassio-y Lassio.\" They don't really have any hobbies. They are just 100% focused on cracking cases and catching criminals."
               }
-            ]
+            ],
+            "id": "p-3851a1a9d31b32db"
           },
           {
             "type": "paragraph",
@@ -154,7 +167,8 @@
                 "type": "text",
                 "text": "Some analysts think the personality of each \"Lassio\" represents exactly what the current administration wants Planarcadia to look like. Maybe things have gotten so crazy lately that the Security Bureau felt we needed a \"Lassio\" this serious."
               }
-            ]
+            ],
+            "id": "p-fc413f839392c99a"
           },
           {
             "type": "paragraph",
@@ -163,7 +177,8 @@
                 "type": "text",
                 "text": "But hey, if you give Lassio XV a really tough puzzle to crack, even he'll end up scratching his head in confusion until he loses it. Haha, looks like our favorite big doggo can't help but show his adorable side sometimes~"
               }
-            ]
+            ],
+            "id": "p-0e4642983e986225"
           },
           {
             "type": "paragraph",
@@ -172,7 +187,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-3"
           },
           {
             "type": "paragraph",
@@ -188,7 +204,8 @@
                 "type": "text",
                 "text": "Sponsor: Fulwish TV"
               }
-            ]
+            ],
+            "id": "p-8b36a7b63543a2fb"
           },
           {
             "type": "paragraph",
@@ -197,7 +214,8 @@
                 "type": "text",
                 "text": "The Daybreak Squadron is a superhero team made up of four members: Blazeweaver, Azurewing, Dawnlance, and Cinderborne."
               }
-            ]
+            ],
+            "id": "p-a86cc83361e73fde"
           },
           {
             "type": "paragraph",
@@ -206,7 +224,8 @@
                 "type": "text",
                 "text": "They're not like those high-and-mighty types in spandex or fancy tech armor who only care about world-ending crises, but instead, these are real grassroots heroes who actually stick around to solve problems for everyday folks."
               }
-            ]
+            ],
+            "id": "p-1fb690f9701e8ecc"
           },
           {
             "type": "paragraph",
@@ -241,7 +260,8 @@
                 "type": "text",
                 "text": "."
               }
-            ]
+            ],
+            "id": "p-96757a937369e8f1"
           },
           {
             "type": "paragraph",
@@ -250,7 +270,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-4"
           },
           {
             "type": "paragraph",
@@ -266,7 +287,8 @@
                 "type": "text",
                 "text": "Sponsor: Duomension City Bar Association"
               }
-            ]
+            ],
+            "id": "p-4a7c80d29ea5ed87"
           },
           {
             "type": "paragraph",
@@ -288,7 +310,8 @@
                 "type": "text",
                 "text": ", the underground magazine of Planarcadia, please turn yourself in to the nearest Security Bureau immediately... Wait, I mean, check out their \"Most Dangerous Superheroes\" column!"
               }
-            ]
+            ],
+            "id": "p-d6a2c7fa8ef990d5"
           },
           {
             "type": "paragraph",
@@ -297,7 +320,8 @@
                 "type": "text",
                 "text": "A regular on the \"Top 5 Most Dangerous Superheroes\" list for three years running, this ruthless character is none other than \"Lawyer-Man\" Umbralle who's neither a soldier nor a schemer."
               }
-            ]
+            ],
+            "id": "p-0ca00dbd7c36d3a3"
           },
           {
             "type": "paragraph",
@@ -306,7 +330,8 @@
                 "type": "text",
                 "text": "As the saying goes, \"When the Umbrella Man takes a case, the death penalty's the starting bid.\" This justice-driven lawyer has an exceptionally rich track record in criminal defense. In his eyes, the courtroom is both playground and hunting ground."
               }
-            ]
+            ],
+            "id": "p-82f334c5fd474852"
           },
           {
             "type": "paragraph",
@@ -315,7 +340,8 @@
                 "type": "text",
                 "text": "If the perpetrator was a pitiful soul with understandable circumstances, he could get them released right there in court despite their crime. But if they were a villain despised by both mortals and Gods alike, he'd dig up ironclad evidence from between the lines—even when none seemed to exist—and escort them straight to the gallows."
               }
-            ]
+            ],
+            "id": "p-c0b3f5050dc5cc2f"
           },
           {
             "type": "paragraph",
@@ -324,7 +350,8 @@
                 "type": "text",
                 "text": "If you're a good person who's been wronged, contact Umbralle immediately for legal assistance. But if you're one of the bad guys... oh, trust me, running won't help! He'll show up at your doorstep with a court summons in hand."
               }
-            ]
+            ],
+            "id": "p-472dfd2b5657a77f"
           },
           {
             "type": "paragraph",
@@ -333,7 +360,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-5"
           },
           {
             "type": "paragraph",
@@ -349,7 +377,8 @@
                 "type": "text",
                 "text": "Sponsor: Orch Republic"
               }
-            ]
+            ],
+            "id": "p-37c12d2317d6b33c"
           },
           {
             "type": "paragraph",
@@ -358,7 +387,8 @@
                 "type": "text",
                 "text": "Delicate and handsome — not exactly what most orchs would call \"ideal,\" but Rosemare's sheer power and charisma won over the leaders of the Orch Republic, making him the Superhero representing the entire orch species."
               }
-            ]
+            ],
+            "id": "p-1a9b39da595dea82"
           },
           {
             "type": "paragraph",
@@ -367,7 +397,8 @@
                 "type": "text",
                 "text": "Rosemare was born weaker than other orchs. To toughen up, he searched high and low for a way to strengthen his body. Eventually, his perseverance paid off. Under the guidance of a Yuque Merchant, he learned a set of Yuque aerobics."
               }
-            ]
+            ],
+            "id": "p-ffa94d39742dad0d"
           },
           {
             "type": "paragraph",
@@ -376,7 +407,8 @@
                 "type": "text",
                 "text": "In reality, Yuque aerobics is nothing more than a simple workout routine for staying in shape. But Rosemare has an exceptional talent for martial arts, and in his hands, this humble aerobics routine has evolved into a unique combat style that's equal parts graceful and deadly."
               }
-            ]
+            ],
+            "id": "p-24498375438c208c"
           },
           {
             "type": "paragraph",
@@ -385,7 +417,8 @@
                 "type": "text",
                 "text": "Sure, some netizens grumble about Rosemare's \"boyfriend material\" shtick, but memes aside, who wouldn't want to catch a full combo of \"Lethal Leg Kicks,\" \"Crossover Chokehold,\" \"Deathly Crunches,\" and \"Quad Lacerator Deluxe\" when they're being naughty?"
               }
-            ]
+            ],
+            "id": "p-f7fdf4c9bca73d34"
           },
           {
             "type": "paragraph",
@@ -394,7 +427,8 @@
                 "type": "text",
                 "text": "Well, I'm not interested anyway..."
               }
-            ]
+            ],
+            "id": "p-8bf04c943243d4c0"
           },
           {
             "type": "paragraph",
@@ -403,7 +437,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-6"
           },
           {
             "type": "paragraph",
@@ -419,7 +454,8 @@
                 "type": "text",
                 "text": "Sponsor: Magical Girl Troupe"
               }
-            ]
+            ],
+            "id": "p-2a3dbe19b0fb677f"
           },
           {
             "type": "paragraph",
@@ -428,7 +464,8 @@
                 "type": "text",
                 "text": "The Magical Girl Troupe has a long-standing policy: they don't sponsor superheroes. After all, they're the ones keeping order in the city themselves."
               }
-            ]
+            ],
+            "id": "p-be35648e149ad0da"
           },
           {
             "type": "paragraph",
@@ -437,7 +474,8 @@
                 "type": "text",
                 "text": "However, in recent years, the Troupe's higher-ups determined that \"legal education for minors\" has a remarkably positive impact on public safety. And thus, the magical girl Montfield was born to deliver legal awareness lectures to the masses."
               }
-            ]
+            ],
+            "id": "p-b7551c1b9d70b444"
           },
           {
             "type": "paragraph",
@@ -446,7 +484,8 @@
                 "type": "text",
                 "text": "Montfield is a kind yet resilient magical girl with over a decade of frontline combat experience and an equally long track record in education. Though she's long past the typical service limit for a magical girl, she continues to fight tirelessly to protect the next generation of Planarcadia."
               }
-            ]
+            ],
+            "id": "p-8dcedcd91651ce49"
           },
           {
             "type": "paragraph",
@@ -468,7 +507,8 @@
                 "type": "text",
                 "text": ". The tune became a hit among elementary and middle schoolers across the arcadia, bringing every kid the strength of happiness."
               }
-            ]
+            ],
+            "id": "p-e05647a1b65867b2"
           },
           {
             "type": "paragraph",
@@ -477,7 +517,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-7"
           },
           {
             "type": "paragraph",
@@ -493,7 +534,8 @@
                 "type": "text",
                 "text": "Sponsor: Furbobo Weekly"
               }
-            ]
+            ],
+            "id": "p-070b27e465988d27"
           },
           {
             "type": "paragraph",
@@ -515,7 +557,8 @@
                 "type": "text",
                 "text": "'s rising hero: Furli!"
               }
-            ]
+            ],
+            "id": "p-f890585d6a7bc091"
           },
           {
             "type": "paragraph",
@@ -524,7 +567,8 @@
                 "type": "text",
                 "text": "Only weeks after its debut, it has become famous throughout the Planarcadia for its listless attitude and formidable combat power. While many wish to bestow a fitting hero name upon it, such as \"Reporter Ranger,\" Furli remains indifferent to fame, stating, \"Naming is too much trouble. Best to forget it.\""
               }
-            ]
+            ],
+            "id": "p-c323a0e61da0d356"
           },
           {
             "type": "paragraph",
@@ -533,7 +577,8 @@
                 "type": "text",
                 "text": "Recently, a child presented Furli with a special gift: a cloak illustrated with all the enemies it has defeated. Now, whenever Furli goes on duty as a hero, it dons this cloak covered in kill records, striking fear into the hearts of Planarcadia's villains."
               }
-            ]
+            ],
+            "id": "p-f8b433dab6d25da0"
           },
           {
             "type": "paragraph",
@@ -542,7 +587,8 @@
                 "type": "text",
                 "text": "Yet, despite all this, its ultimate dream remains the same: retirement."
               }
-            ]
+            ],
+            "id": "p-c9ddc02ce37f7831"
           },
           {
             "type": "paragraph",
@@ -551,7 +597,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-8"
           }
         ]
       }

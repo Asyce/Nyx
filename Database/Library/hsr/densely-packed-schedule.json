@@ -4,10 +4,11 @@
   "id": "densely-packed-schedule",
   "name": "Densely Packed Schedule",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Densely_Packed_Schedule",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "To my dear butler Sebas:"
               }
-            ]
+            ],
+            "id": "p-062076fedc92d87b"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "I have already settled all of Lady Bronya's work schedule for this week and will send you the itinerary for the next day every night. Please follow the time arrangements and remind Lady Bronya to complete the tasks."
               }
-            ]
+            ],
+            "id": "p-5fc4a7a2734630f5"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "I understand that Lady Bronya is still angry with me and probably does not wish to see me, but I'm sure she will come around soon enough. The time for her to inherit the Supreme Guardian's position is near. She must get used to a life of discipline and planning soon. That is the only way she'll be able to become a successful ruler like Madam Cocolia. As her teacher and assistant, it is necessary for me to be strict with her sometimes. This is the only way to rein in her temper and to make her understand the seriousness of things."
               }
-            ]
+            ],
+            "id": "p-c42ad77eabb6f0e1"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "There's no need to worry about me. I can take care of most of my work even from home. Besides, it's a good thing to be able to rest for a few days. Please see to it that you take good care of Lady Bronya. She's a stubborn young lady, but she's kind and gifted. You should know that better than anyone. One day, she will be grateful for what we've done for her, which I can assure you."
               }
-            ]
+            ],
+            "id": "p-984599fb0a8ddbf9"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "Also, please pay close attention to Lady Bronya's social circles, especially when she is in the company of Intelligence Officer Pela. I heard that Miss Pela has some unsavory hobbies in private. Therefore, please try your best to avoid unnecessary contact between them, least Lady Bronya becomes stained with any blasphemous knowledge."
               }
-            ]
+            ],
+            "id": "p-fa0cb0c0ee7ea630"
           },
           {
             "type": "paragraph",
@@ -74,7 +80,8 @@
                 "type": "text",
                 "text": "Sonya"
               }
-            ]
+            ],
+            "id": "p-f927e878620c5519"
           },
           {
             "type": "paragraph",
@@ -83,7 +90,8 @@
                 "type": "text",
                 "text": "Attachment: Lady Bronya's itinerary"
               }
-            ]
+            ],
+            "id": "p-91879e432fa75935"
           },
           {
             "type": "paragraph",
@@ -352,7 +360,8 @@
                 "type": "text",
                 "text": "23:30 Bedtime (Please check on her at 24:00 to ensure she is asleep by that time and prevent her from doing anything while in bed)"
               }
-            ]
+            ],
+            "id": "p-c9b6645b7e0ac7dc"
           }
         ]
       }

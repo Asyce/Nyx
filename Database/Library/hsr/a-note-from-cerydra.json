@@ -4,10 +4,11 @@
   "id": "a-note-from-cerydra",
   "name": "A Note from Cerydra",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/A_Note_from_Cerydra",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -146,7 +147,8 @@
                 "type": "text",
                 "text": "Now, like a weight I cast upon the scales, it shall compel victory to bow to you."
               }
-            ]
+            ],
+            "id": "p-a1ebb60ad5804ca6"
           },
           {
             "type": "paragraph",
@@ -181,7 +183,8 @@
                 "type": "text",
                 "text": "Or defy it, and challenge me to a game."
               }
-            ]
+            ],
+            "id": "p-a979e262d61a9e2b"
           },
           {
             "type": "paragraph",
@@ -190,7 +193,8 @@
                 "type": "text",
                 "text": "The Imperator of Amphoreus"
               }
-            ]
+            ],
+            "id": "p-6a7e96d9e01d1717"
           }
         ]
       }

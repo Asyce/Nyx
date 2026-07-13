@@ -63,12 +63,109 @@ function nyxTlViewMarkerInstances(rows, start, end){
 // 'ae' everywhere else (banner history, activities, page routes). Map here
 // rather than touching the backend schema or filenames.
 function nyxTlEventsFile(game){ return game === 'ae' ? 'endfield' : game; }
-function nyxTlViewIcon(game, name){
+function nyxTlRosterRow(game, name){
   try {
     var roster = typeof getCmRoster === 'function' ? getCmRoster(game) : [];
-    var row = roster.find(function(item){ return String(item.n || item.name || '').toLowerCase() === String(name || '').toLowerCase(); });
-    return row && (row.icon || row.circle || row.card) || null;
+    return roster.find(function(item){ return String(item.n || item.name || '').toLowerCase() === String(name || '').toLowerCase(); }) || null;
   } catch (e) { return null; }
+}
+function nyxTlViewIcon(game, name){
+  var row = nyxTlRosterRow(game, name);
+  return row && (row.icon || row.circle || row.card) || null;
+}
+// Wide splash/card art for the featured unit, used as a faint card
+// backdrop so a banner reads as "that character" at a glance. Degrades to
+// null (flat tinted fill) when no art is published for the unit.
+function nyxTlViewArt(game, name){
+  var row = nyxTlRosterRow(game, name);
+  return row && (row.card || row.art || row.overviewArt) || null;
+}
+// Rarity accent colour for a banner block, game-aware via the shared rarity
+// rank (numeric 5/6 or ZZZ letter S). Gold for the headline tier, a warmer
+// amber for Endfield 6★, violet as the neutral fallback.
+function nyxTlRarityColor(block){
+  var five = block && block.fives && block.fives[0];
+  var rank = five ? nyxTlRarityRank(five.rarity) : NaN;
+  if (Number.isFinite(rank) && rank >= 6) return '#ff9d6e';
+  if (Number.isFinite(rank) && rank >= 5) return '#e6c46a';
+  return '#c8bcff';
+}
+
+// Shared date ruler + full-height gridlines for every timeline canvas. One
+// place so the per-game and both cross-game views never fork the axis. Month
+// starts are labelled majors; mid-months are hairline minors. Pure-positioned
+// from the same ms<->x maths as the cards, so lines and cards stay aligned.
+function NyxTimeRuler({ view, msPerPx, width }){
+  var ticks = nyxTlAxisTicks(view.centerMs, msPerPx, width);
+  return <div className="ntl-axis" aria-hidden="true">
+    <div className="ntl-ruler">{ticks.map(function(t){
+      return <span key={t.ms} className={'ntl-tick' + (t.major ? ' major' : '')} style={{ left:nyxTlMsToX(t.ms, view.centerMs, msPerPx, width) }}>{t.major && <b>{t.label}<i>{t.year}</i></b>}</span>;
+    })}</div>
+    <div className="ntl-grid">{ticks.filter(function(t){ return t.major; }).map(function(t){
+      return <i key={t.ms} style={{ left:nyxTlMsToX(t.ms, view.centerMs, msPerPx, width) }} />;
+    })}</div>
+  </div>;
+}
+
+// The Genshin redesign is calendar-led: each cell is a real Monday-Sunday
+// week, with month labels kept as broader landmarks.
+function NyxGenshinTimeRuler({ view, msPerPx, width, now }){
+  var monthTicks = nyxTlAxisTicks(view.centerMs, msPerPx, width).filter(function(t){ return t.major; });
+  var minMs = nyxTlXToMs(-7 * NYX_TL_DAY_MS / msPerPx, view.centerMs, msPerPx, width);
+  var maxMs = nyxTlXToMs(width + 7 * NYX_TL_DAY_MS / msPerPx, view.centerMs, msPerPx, width);
+  var d = new Date(minMs), day = (d.getUTCDay() + 6) % 7;
+  var monday = Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate() - day);
+  var weeks = [];
+  for (var guard = 0; guard < 80 && monday <= maxMs; guard++, monday += 7 * NYX_TL_DAY_MS) {
+    var sunday = monday + 6 * NYX_TL_DAY_MS;
+    var a = new Date(monday), z = new Date(sunday);
+    weeks.push({
+      start:monday,
+      end:monday + 7 * NYX_TL_DAY_MS,
+      label:a.getUTCDate() + '–' + z.getUTCDate(),
+      title:'Monday ' + nyxTlViewDate(monday, true) + ' – Sunday ' + nyxTlViewDate(sunday, true),
+      odd:weeks.length % 2 === 1,
+    });
+  }
+  return <div className="ntl-gi-axis" aria-hidden="true">
+    <div className="ntl-gi-ruler">
+      {monthTicks.map(function(t){ return <span className="ntl-gi-month" key={t.ms} style={{ left:nyxTlMsToX(t.ms, view.centerMs, msPerPx, width) }}><b>{t.label}</b><i>{t.year}</i></span>; })}
+      {weeks.map(function(w){ return <span className={'ntl-gi-week' + (w.odd ? ' odd' : '')} key={w.start} title={w.title} style={{ left:nyxTlMsToX(w.start, view.centerMs, msPerPx, width), width:(w.end - w.start) / msPerPx }}><b>{w.label}</b><i>Mon–Sun</i></span>; })}
+      <span className="ntl-gi-orbit" style={{ left:nyxTlMsToX(now, view.centerMs, msPerPx, width) }}><b>Today · {nyxTlViewDate(now, true)}</b></span>
+    </div>
+    <div className="ntl-gi-week-grid">{weeks.map(function(w){ return <i className={w.odd ? 'odd' : ''} key={w.start} style={{ left:nyxTlMsToX(w.start, view.centerMs, msPerPx, width), width:(w.end - w.start) / msPerPx }} />; })}</div>
+  </div>;
+}
+
+function nyxTlPhaseRows(blocks, now){
+  var seen = {}, rows = [];
+  (blocks || []).forEach(function(block){
+    var key = block.startMs + ':' + block.endMs;
+    if (!seen[key]) { seen[key] = true; rows.push({ startMs:block.startMs, endMs:block.endMs, version:block.version || 'Banner phase' }); }
+  });
+  var perVersion = {};
+  rows.forEach(function(row){ (perVersion[row.version] || (perVersion[row.version] = [])).push(row); });
+  Object.keys(perVersion).forEach(function(key){ perVersion[key].sort(function(a,b){ return a.startMs - b.startMs; }); });
+  rows.forEach(function(row){
+    var siblings = perVersion[row.version], index = siblings.indexOf(row);
+    row.label = siblings.length > 1 ? 'Phase ' + (index + 1) : 'Phase';
+    row.state = row.startMs <= now && row.endMs >= now ? ' live' : (row.startMs > now ? ' upcoming' : '');
+  });
+  return rows;
+}
+
+function nyxTlDetailExcerpt(value){
+  var text = String(value || '').replace(/={2,}[^=]+={2,}|〓[^〓]+〓/g, ' ').replace(/\s+/g, ' ').trim();
+  return text.length > 240 ? text.slice(0, 237).trimEnd() + '…' : text;
+}
+function nyxTlIsGenshinFeaturedActivity(block){
+  return !!(block && /stygian onslaught/i.test(block.title || ''));
+}
+function nyxTlGenshinEntryTitle(block){
+  var title = String(block && block.title || 'Event');
+  if (/stygian onslaught/i.test(title)) return 'Stygian Onslaught';
+  var quoted = title.match(/^["“](.+?)["”]/);
+  return quoted ? quoted[1] : title;
 }
 
 // Renders one game's character-banner lane onto a shared canvas. Block
@@ -78,16 +175,29 @@ function nyxTlViewIcon(game, name){
 // icon shown beside the lane label; the per-game timeline passes none,
 // which keeps its existing "Character banners" header byte-for-byte
 // unchanged.
-function NyxBannerLane({ game, label, icon, blocks, laneCount, view, msPerPx, width, now, selected, onSelect }){
-  return <div className="ntl-lane banners" style={{ minHeight:Math.max(112, laneCount * 104) }}>
-    <b>{icon && <img src={icon} alt="" className="ntl-lane-icon" />}{label}</b>
+function NyxBannerLane({ game, label, icon, blocks, laneCount, view, msPerPx, width, now, selected, onSelect, genshin, query }){
+  var laneHeight = genshin ? Math.max(116, 38 + laneCount * 78) : Math.max(112, laneCount * 100);
+  return <div className={'ntl-lane banners' + (genshin ? ' ntl-gi-banner-lane' : '')} style={{ minHeight:laneHeight }}>
+    {!genshin && <b>{icon && <img src={icon} alt="" className="ntl-lane-icon" />}{label}</b>}
     {(blocks || []).map(function(block){
-      var x = nyxTlMsToX(block.startMs, view.centerMs, msPerPx, width), w = Math.max(78, (block.endMs - block.startMs) / msPerPx),
+      var rawX = nyxTlMsToX(block.startMs, view.centerMs, msPerPx, width), rawW = (block.endMs - block.startMs) / msPerPx,
+          x = genshin ? rawX + 4 : rawX, w = genshin ? Math.max(112, rawW - 8) : Math.max(96, rawW),
           state = block.startMs <= now && block.endMs >= now ? ' live' : (block.endMs < now ? ' past' : ''),
           charIcon = nyxTlViewIcon(game, block.primaryFive),
-          tag = block.expected ? 'Expected' : (state === ' live' ? 'LIVE · ' + nyxTlCountdownLabel(block.endMs - now) : block.version || 'Banner');
-      return <button type="button" key={block.id} className={'ntl-block' + state + (block.expected ? ' expected' : '') + (selected === block.id ? ' selected' : '')} title={block.expected ? 'Educated guess — dates not officially confirmed yet' : block.name} style={{ left:x, top:32 + block.lane * 100, width:w }} onClick={function(e){ e.stopPropagation(); onSelect(block); }}>
-        <span>{tag}</span><strong>{charIcon && <img src={charIcon} alt="" loading="lazy" />}{block.primaryFive || block.name}</strong>{block.weaponPrimary && <small>Weapon: {block.weaponPrimary}</small>}
+          art = nyxTlViewArt(game, block.primaryFive),
+          tag = block.expected ? 'Expected' : (state === ' live' ? 'LIVE · ' + nyxTlCountdownLabel(block.endMs - now) : (block.version || 'Banner')),
+          dim = !!(genshin && query && !nyxTlSearchMatch(block, query).match);
+      if (genshin) return <button type="button" key={block.id} className={'ntl-block ntl-gi-banner' + state + (block.expected ? ' expected' : '') + (selected === block.id ? ' selected' : '') + (dim ? ' dim' : '')} title={block.expected ? 'Dates are not officially confirmed yet' : block.name} style={{ left:x, top:26 + block.lane * 78, width:w, height:64, '--rar':nyxTlRarityColor(block) }} onClick={function(e){ e.stopPropagation(); onSelect(block); }}>
+        {charIcon && <img className="ntl-gi-banner-icon" src={charIcon} alt="" loading="lazy" />}
+        <span className="ntl-gi-banner-name"><b>{block.primaryFive || 'Next 5★'}</b></span>
+      </button>;
+      return <button type="button" key={block.id} className={'ntl-block' + state + (block.expected ? ' expected' : '') + (selected === block.id ? ' selected' : '')} title={block.expected ? 'Educated guess — dates not officially confirmed yet' : block.name} style={{ left:x, top:32 + block.lane * 92, width:w, '--rar':nyxTlRarityColor(block) }} onClick={function(e){ e.stopPropagation(); onSelect(block); }}>
+        {art && <span className="ntl-block-art" style={{ backgroundImage:'url("' + art + '")' }} />}
+        <span className="ntl-block-body">
+          <span className="ntl-block-tag">{tag}</span>
+          <strong>{charIcon && <img className="ntl-block-portrait" src={charIcon} alt="" loading="lazy" />}<span className="ntl-block-title">{block.primaryFive || block.name}</span></strong>
+          {block.weaponPrimary && <small>{block.weaponPrimary}</small>}
+        </span>
       </button>;
     })}
   </div>;
@@ -106,14 +216,18 @@ function NyxEventLane({ label, icon, blocks, laneCount, view, msPerPx, width, no
 
 function BannerTimeline({ game, gameName }){
   var rootRef = React.useRef(null);
+  var canvasRef = React.useRef(null);
+  var isGenshin = game === 'gi';
   var [payload, setPayload] = React.useState({ loading:true, records:[], activities:[], events:[], updated:null, error:null });
   var [region, setRegion] = React.useState(function(){ return (typeof loadResetRegion === 'function' ? loadResetRegion(game) : 'na'); });
   var [now, setNow] = React.useState(Date.now());
   var [view, setView] = React.useState(function(){ var saved = nyxTlDecodeHash(location.hash); return saved || { centerMs:Date.now(), zoom:NYX_TL_DEFAULT_ZOOM }; });
   var [width, setWidth] = React.useState(1000);
   var [search, setSearch] = React.useState('');
+  var [expandedSearchName, setExpandedSearchName] = React.useState(null);
   var [selected, setSelected] = React.useState(null);
   var [selectedEventId, setSelectedEventId] = React.useState(null);
+  var [detailOpen, setDetailOpen] = React.useState(false);
   var [layersOpen, setLayersOpen] = React.useState(false);
   var [layers, setLayers] = React.useState({ banners:true, events:true, activities:true, custom:true, hidePast:false });
   var [timers, setTimers] = React.useState(function(){ return nyxLoadCustomTimersV2(game); });
@@ -148,18 +262,18 @@ function BannerTimeline({ game, gameName }){
   React.useEffect(function(){ return (typeof subscribeResetRegion === 'function') ? subscribeResetRegion(game, setRegion) : undefined; }, [game]);
   React.useEffect(function(){ var id = setInterval(function(){ setNow(Date.now()); }, 1000); return function(){ clearInterval(id); }; }, []);
   React.useEffect(function(){
-    var el = rootRef.current; if (!el || !window.ResizeObserver) return undefined;
+    var el = canvasRef.current || rootRef.current; if (!el || !window.ResizeObserver) return undefined;
     var observer = new ResizeObserver(function(){ setWidth(Math.max(320, el.clientWidth || 320)); }); observer.observe(el); setWidth(Math.max(320, el.clientWidth || 320));
     return function(){ observer.disconnect(); };
-  }, []);
+  }, [isGenshin]);
 
   var regionKey = nyxTlRegionKey(region);
-  var msPerPx = NYX_TL_ZOOM_LEVELS[view.zoom];
+  var msPerPx = NYX_TL_MS_PER_PX;
   var builtBlocks = React.useMemo(function(){ return nyxTlBuildBlocks(payload.records, regionKey); }, [payload.records, regionKey]);
   // Assign sub-lanes from the ACTUAL rendered card extent (min-width
   // inflated to NYX_TL_BLOCK_MIN_PX * msPerPx), so min-width cards never
   // overlap at coarse zoom levels (Sol finding #5). Re-runs on zoom change.
-  var blocks = React.useMemo(function(){ return nyxTlAssignSubLanes(builtBlocks, NYX_TL_BLOCK_MIN_PX * msPerPx); }, [builtBlocks, msPerPx]);
+  var blocks = React.useMemo(function(){ return nyxTlAssignSubLanes(builtBlocks, (isGenshin ? 120 : NYX_TL_BLOCK_MIN_PX) * msPerPx); }, [builtBlocks, msPerPx, isGenshin]);
   var rangeStart = nyxTlXToMs(-600, view.centerMs, msPerPx, width);
   var rangeEnd = nyxTlXToMs(width + 600, view.centerMs, msPerPx, width);
   var visible = nyxTlVisibleBlocks(blocks.blocks, view.centerMs, msPerPx, width, 600).filter(function(block){ return !layers.hidePast || block.endMs >= now; });
@@ -168,21 +282,34 @@ function BannerTimeline({ game, gameName }){
   var markers = layers.custom ? nyxTlViewMarkerInstances(timers, rangeStart, rangeEnd) : [];
   var markerLayout = nyxTlAssignSubLanes(markers, NYX_TL_MARKER_MIN_PX * msPerPx);
   var eventBlocksAll = React.useMemo(function(){ return nyxTlBuildEventBlocks(payload.events, now); }, [payload.events, now]);
+  var featuredActivityBlocks = isGenshin ? eventBlocksAll.filter(nyxTlIsGenshinFeaturedActivity) : [];
   var eventSplit = React.useMemo(function(){ return nyxTlSplitEventBlocks(eventBlocksAll); }, [eventBlocksAll]);
-  var eventAxisLayout = React.useMemo(function(){ return nyxTlAssignSubLanes(eventSplit.axis, NYX_TL_BLOCK_MIN_PX * msPerPx); }, [eventSplit.axis, msPerPx]);
+  var eventAxisBlocks = isGenshin ? eventSplit.axis.filter(function(block){ return !nyxTlIsGenshinFeaturedActivity(block); }) : eventSplit.axis;
+  var eventAxisLayout = React.useMemo(function(){ return nyxTlAssignSubLanes(eventAxisBlocks, (isGenshin ? 120 : NYX_TL_BLOCK_MIN_PX) * msPerPx); }, [eventAxisBlocks, msPerPx, isGenshin]);
   var visibleEvents = layers.events ? nyxTlVisibleBlocks(eventAxisLayout.blocks, view.centerMs, msPerPx, width, 600) : [];
   var ribbons = nyxTlVersionRibbons(visible);
+  var phaseRows = isGenshin ? nyxTlPhaseRows(visible, now) : [];
   var searchGroups = nyxTlSearchGroups(blocks.blocks, search);
   var visibleMatches = search ? visible.filter(function(block){ return nyxTlSearchMatch(block, search).match; }) : visible;
   var selectedBlock = !selectedEventId && selected && blocks.blocks.find(function(block){ return block.id === selected; });
   var selectedEventBlock = selectedEventId && eventBlocksAll.find(function(block){ return block.id === selectedEventId; });
-  function selectEvent(id){ setSelectedEventId(id); setSelected(null); }
+  var selectedIsActivity = isGenshin && nyxTlIsGenshinFeaturedActivity(selectedEventBlock);
+  function selectEvent(id){ setSelectedEventId(id); setSelected(null); setDetailOpen(true); }
   function recenter(centerMs){ setView(function(old){ return { centerMs:centerMs, zoom:old.zoom }; }); }
-  function panBy(px){ setView(function(old){ return { centerMs:old.centerMs - px * NYX_TL_ZOOM_LEVELS[old.zoom], zoom:old.zoom }; }); }
-  function zoomBy(delta){ setView(function(old){ return { centerMs:old.centerMs, zoom:Math.max(0, Math.min(NYX_TL_ZOOM_LEVELS.length - 1, old.zoom + delta)) }; }); }
+  function jumpToBlock(block, openDetails){
+    if (!block) return;
+    recenter(block.startMs + Math.max(0, block.endMs - block.startMs) / 2);
+    setSelected(block.id); setSelectedEventId(null); setDetailOpen(!!openDetails);
+  }
+  function submitSearch(event){
+    event.preventDefault();
+    var latest = blocks.blocks.filter(function(block){ return nyxTlSearchMatch(block, search).match; }).sort(function(a,b){ return b.startMs - a.startMs; })[0];
+    if (latest) jumpToBlock(latest, false);
+  }
+  function panBy(px){ setView(function(old){ return { centerMs:old.centerMs - px * NYX_TL_MS_PER_PX, zoom:old.zoom }; }); }
   function pointerDown(event){
     var startX = event.clientX, startCenter = view.centerMs;
-    function move(e){ setView(function(old){ return { centerMs:startCenter - (e.clientX - startX) * NYX_TL_ZOOM_LEVELS[old.zoom], zoom:old.zoom }; }); }
+    function move(e){ setView(function(old){ return { centerMs:startCenter - (e.clientX - startX) * NYX_TL_MS_PER_PX, zoom:old.zoom }; }); }
     function up(){ window.removeEventListener('pointermove', move); window.removeEventListener('pointerup', up); }
     window.addEventListener('pointermove', move); window.addEventListener('pointerup', up);
   }
@@ -201,11 +328,11 @@ function BannerTimeline({ game, gameName }){
         document.body.appendChild(ta); ta.select();
         var ok = document.execCommand && document.execCommand('copy');
         document.body.removeChild(ta);
-        flash(ok ? 'Link copied' : 'Copy failed — copy the URL');
+        flash(ok ? 'View link copied' : 'Copy failed — copy the URL');
       } catch (e) { flash('Copy failed — copy the URL'); }
     };
     if (navigator.clipboard && navigator.clipboard.writeText) {
-      navigator.clipboard.writeText(url).then(function(){ flash('Link copied'); }, function(){ fallback(); });
+      navigator.clipboard.writeText(url).then(function(){ flash('View link copied'); }, function(){ fallback(); });
     } else { fallback(); }
   }
   // Optional server-reset alignment uses the selected game server, not the
@@ -247,20 +374,98 @@ function BannerTimeline({ game, gameName }){
     });
     setShowMarker(true);
   }
+
+  function closeDetails(){ setDetailOpen(false); setSelected(null); setSelectedEventId(null); }
+  React.useEffect(function(){
+    if (!isGenshin || !detailOpen || (!selected && !selectedEventId)) return undefined;
+    function onKeyDown(event){ if (event.key === 'Escape') closeDetails(); }
+    window.addEventListener('keydown', onKeyDown);
+    return function(){ window.removeEventListener('keydown', onKeyDown); };
+  }, [isGenshin, detailOpen, selected, selectedEventId]);
+
+  if (isGenshin) {
+    var giBannerHeight = Math.max(116, 38 + blocks.laneCount * 78);
+    var giEventHeight = Math.max(74, 36 + eventAxisLayout.laneCount * 42);
+    var visibleFeaturedActivities = featuredActivityBlocks.filter(function(block){ return block.startMs != null && block.endMs != null && block.endMs >= rangeStart && block.startMs <= rangeEnd; });
+    var giActivityHeight = Math.max(74, 34 + activityLayout.laneCount * 26 + (visibleFeaturedActivities.length ? 58 : 0));
+    var giPlanningHeight = Math.max(58, 30 + markerLayout.laneCount * 31);
+    var expectedStart = visible.filter(function(block){ return block.expected; }).reduce(function(min, block){ return Math.min(min, block.startMs); }, Infinity);
+    var detailArt = selectedEventBlock ? selectedEventBlock.image : (selectedBlock ? nyxTlViewArt(game, selectedBlock.primaryFive) : null);
+    var detailStatus = selectedEventBlock ? nyxTlEventStatus(selectedEventBlock, now) : null;
+    var detailLabel = selectedIsActivity ? 'Activity details' : (selectedEventBlock ? 'Event details' : 'Banner details');
+    var miniStart = now - 120 * NYX_TL_DAY_MS, miniEnd = now + 120 * NYX_TL_DAY_MS, miniSpan = miniEnd - miniStart;
+    var viewStart = nyxTlXToMs(0, view.centerMs, msPerPx, width), viewEnd = nyxTlXToMs(width, view.centerMs, msPerPx, width);
+    var miniLeft = Math.max(0, Math.min(100, (viewStart - miniStart) / miniSpan * 100));
+    var miniWidth = Math.max(5, Math.min(100 - miniLeft, (viewEnd - viewStart) / miniSpan * 100));
+    function scrubTo(event){
+      var rect = event.currentTarget.getBoundingClientRect();
+      var at = miniStart + Math.max(0, Math.min(1, (event.clientX - rect.left) / rect.width)) * miniSpan;
+      recenter(at);
+    }
+    function scrubDown(event){
+      scrubTo(event);
+      var target = event.currentTarget;
+      function move(e){ var rect = target.getBoundingClientRect(); recenter(miniStart + Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width)) * miniSpan); }
+      function up(){ window.removeEventListener('pointermove', move); window.removeEventListener('pointerup', up); }
+      window.addEventListener('pointermove', move); window.addEventListener('pointerup', up);
+    }
+    return <section className="ntl ntl-genshin" ref={rootRef} aria-label={gameName + ' banner timeline'}>
+      <header className="ntl-head"><div><span className="eyebrow">Banner history</span><h1>{gameName} Timeline</h1></div>{payload.updated && <span className="ntl-updated">Updated {nyxTlViewDate(Date.parse(payload.updated))}</span>}</header>
+      <div className="ntl-tools ntl-gi-tools">
+        <form className="ntl-search" onSubmit={submitSearch}><label htmlFor="ntl-gi-search">Search banners</label><input id="ntl-gi-search" type="search" value={search} onChange={function(e){ setSearch(e.target.value); setExpandedSearchName(null); }} placeholder="Character/Weapon" /></form>
+        <button type="button" className="ntl-gi-today" onClick={function(){ recenter(Date.now()); }}>Today</button>
+        <label className="ntl-jump ntl-gi-jump" title="Choose a date"><span>Jump to date</span><i className="ntl-gi-calendar-icon" aria-hidden="true" /><input type="date" aria-label="Jump to date" value={jumpDate} onChange={function(e){ setJumpDate(e.target.value); var at = Date.parse(e.target.value + 'T12:00:00'); if (Number.isFinite(at)) recenter(at); }} /></label>
+        <div className="ntl-regions" aria-label="Banner server region">{['na','eu','asia'].map(function(key){ return <button type="button" key={key} className={region === key ? 'on' : ''} aria-pressed={region === key} onClick={function(){ setRegion(key); if (typeof saveResetRegion === 'function') saveResetRegion(game, key); else try { localStorage.setItem(resetRegionStorageKey(game), key); } catch (e) {} }}>{RESET_REGIONS[key].short}</button>; })}</div>
+        <button type="button" onClick={function(){ if (showMarker) { setShowMarker(false); setEditingId(null); } else { setEditingId(null); setForm({ label:'', color:'#8b9cff', type:'point', when:'', end:'', recur:'interval', every:'7', until:'', align:false }); setShowMarker(true); } }}>Add marker</button>
+        <button type="button" title="Copy a link to this exact timeline position" onClick={copyView}>Copy view</button>{copied && <span className="ntl-copied" role="status" aria-live="polite">{copied}</span>}
+        <div className="ntl-gi-layer-buttons"><b>Layers</b>{[['events','Events'],['activities','Activities'],['custom','My planning']].map(function(item){ return <button type="button" key={item[0]} className={layers[item[0]] ? 'on' : 'off'} aria-pressed={layers[item[0]]} onClick={function(){ var next = Object.assign({}, layers); next[item[0]] = !next[item[0]]; setLayers(next); }}>{item[1]}</button>; })}</div>
+      </div>
+      {showMarker && <form className="ntl-marker-form" onSubmit={saveMarker}><input required maxLength="42" value={form.label} placeholder="Marker label" onChange={function(e){ setForm(Object.assign({}, form, { label:e.target.value })); }} /><input type="color" aria-label="Marker color" value={form.color} onChange={function(e){ setForm(Object.assign({}, form, { color:e.target.value })); }} /><select aria-label="Marker type" value={form.type} onChange={function(e){ setForm(Object.assign({}, form, { type:e.target.value })); }}><option value="point">Exact moment</option><option value="range">Range</option><option value="recurring">Recurring</option></select><input required type="datetime-local" aria-label={form.type === 'range' ? 'Start' : 'When'} value={form.when} onChange={function(e){ setForm(Object.assign({}, form, { when:e.target.value })); }} />{form.type === 'range' && <input required type="datetime-local" aria-label="End" value={form.end} onChange={function(e){ setForm(Object.assign({}, form, { end:e.target.value })); }} />}{form.type === 'recurring' && <><select aria-label="Recurrence" value={form.recur} onChange={function(e){ setForm(Object.assign({}, form, { recur:e.target.value })); }}><option value="interval">Every N days</option><option value="semimonthly">1st + 16th</option><option value="monthly">Monthly</option></select>{form.recur === 'interval' && <input type="number" min="1" aria-label="Interval days" value={form.every} onChange={function(e){ setForm(Object.assign({}, form, { every:e.target.value })); }} />}<label className="ntl-until"><span>Until</span><input type="datetime-local" aria-label="Repeat until" value={form.until} onChange={function(e){ setForm(Object.assign({}, form, { until:e.target.value })); }} /></label></>}{form.type !== 'range' && <label className="ntl-align"><input type="checkbox" checked={form.align} onChange={function(e){ setForm(Object.assign({}, form, { align:e.target.checked })); }} />Align to reset (04:00)</label>}<button type="submit">{editingId ? 'Update' : 'Save'}</button>{editingId && <button type="button" onClick={function(){ setShowMarker(false); setEditingId(null); }}>Cancel</button>}</form>}
+      {payload.loading && <div className="ntl-status" role="status">Loading complete banner history…</div>}{payload.error && <div className="ntl-status error" role="alert">{payload.error}</div>}
+      {!payload.loading && !payload.error && <>
+        {search && <div className="ntl-results ntl-gi-search-results" aria-live="polite">{searchGroups.slice(0, 8).map(function(group){ var runs = group.blockIds.map(function(id){ return blocks.blocks.find(function(block){ return block.id === id; }); }).filter(Boolean).sort(function(a,b){ return b.startMs - a.startMs; }); var open = expandedSearchName === group.name; return <section key={group.name}><button type="button" className="ntl-gi-search-summary" aria-expanded={open} onClick={function(){ setExpandedSearchName(open ? null : group.name); }}><b>{group.name}</b><span>{group.count} {group.count === 1 ? 'run' : 'runs'}</span><i>{open ? '−' : '+'}</i></button>{open && <div className="ntl-gi-search-runs">{runs.map(function(block){ return <button type="button" key={block.id} onClick={function(){ jumpToBlock(block, false); }}><span><b>{nyxTlViewDate(block.startMs, block.dateOnly)} – {nyxTlViewDate(block.endMs, block.dateOnly)}</b><small>{nyxTlViewDuration(block.startMs, block.endMs)} · {block.name}</small></span><em>Jump</em></button>; })}</div>}</section>; })}{!searchGroups.length && <span>No banner runs found.</span>}</div>}
+        <div className="ntl-gi-workspace">
+          <div className="ntl-gi-stage">
+            <div className="ntl-gi-frame">
+              <div className="ntl-gi-track-rail" aria-hidden="true"><div className="ntl-gi-rail-head"><span>Time →</span><b>Tracks ↓</b></div><div className="ntl-gi-rail-row" style={{ height:giBannerHeight }}><span><i />Character<br />banners</span></div>{layers.events && <div className="ntl-gi-rail-row event" style={{ height:giEventHeight }}><span><i />Events</span></div>}{layers.activities && <div className="ntl-gi-rail-row activity" style={{ height:giActivityHeight }}><span><i />Activities</span></div>}{layers.custom && <div className="ntl-gi-rail-row planning" style={{ height:giPlanningHeight }}><span><i />My planning</span></div>}</div>
+              <div className="ntl-canvas ntl-gi-canvas" ref={canvasRef} onPointerDown={pointerDown} onWheel={function(e){ var horizontal = Math.abs(e.deltaX) > Math.abs(e.deltaY) ? e.deltaX : (e.shiftKey ? e.deltaY : 0); if (Math.abs(horizontal) > 1) { e.preventDefault(); panBy(-horizontal); } }}>
+                <NyxGenshinTimeRuler view={view} msPerPx={msPerPx} width={width} now={now} />
+                <div className="ntl-gi-ribbons">{ribbons.map(function(ribbon){ return <span className="version" key={ribbon.version} style={{ left:nyxTlMsToX(ribbon.startMs, view.centerMs, msPerPx, width), width:Math.max(28, (ribbon.endMs - ribbon.startMs) / msPerPx) }}><i>{ribbon.version}</i></span>; })}{phaseRows.map(function(phase){ return <span className={'phase' + phase.state} key={phase.startMs + ':' + phase.endMs} style={{ left:nyxTlMsToX(phase.startMs, view.centerMs, msPerPx, width), width:Math.max(28, (phase.endMs - phase.startMs) / msPerPx) }}><b>{phase.label}</b><i>{nyxTlViewDate(phase.startMs, true)} – {nyxTlViewDate(phase.endMs, true)}</i>{phase.state === ' live' && <em>Live</em>}</span>; })}</div>
+                {Number.isFinite(expectedStart) && <div className="ntl-gi-forecast" style={{ left:nyxTlMsToX(expectedStart, view.centerMs, msPerPx, width) }}><span>Forecast horizon</span></div>}
+                <div className="ntl-gi-now-band" style={{ left:nyxTlMsToX(now, view.centerMs, msPerPx, width) }} /><div className="ntl-now" style={{ left:nyxTlMsToX(now, view.centerMs, msPerPx, width) }}><span>Now</span></div>
+                <NyxBannerLane game={game} label="Character banners" blocks={visible} laneCount={blocks.laneCount} view={view} msPerPx={msPerPx} width={width} now={now} selected={selected} query={search} genshin onSelect={function(block){ setSelected(block.id); setSelectedEventId(null); setDetailOpen(true); }} />
+                {layers.events && <div className="ntl-lane events ntl-gi-event-lane" style={{ minHeight:giEventHeight }}>{visibleEvents.map(function(block){ var x = nyxTlMsToX(block.startMs, view.centerMs, msPerPx, width), w = Math.max(120, (block.endMs - block.startMs) / msPerPx), status = nyxTlEventStatus(block, now), tag = status === 'live' || status === 'ongoing' ? 'Ongoing' : status === 'upcoming' ? 'Upcoming' : 'Ended'; return <button type="button" key={block.id} className={'ntl-gi-event ' + status + (selectedEventId === block.id ? ' selected' : '')} title={block.title} style={{ left:x, top:26 + block.lane * 42, width:w, height:38 }} onClick={function(e){ e.stopPropagation(); selectEvent(block.id); }}><b>{nyxTlGenshinEntryTitle(block)}</b><i>{nyxTlViewDate(block.startMs, true)} – {nyxTlViewDate(block.endMs, true)}</i>{status !== 'past' && <span>{tag}</span>}</button>; })}</div>}
+                {layers.activities && <div className="ntl-lane activities ntl-gi-activity-lane" style={{ minHeight:giActivityHeight }}>{activityLayout.blocks.map(function(activity){ return <span key={activity.id} className="ntl-activity" title={activity.label} style={{ left:nyxTlMsToX(activity.start, view.centerMs, msPerPx, width), top:26 + activity.lane * 26, width:Math.max(12, (activity.end - activity.start) / msPerPx), height:22 }}>{activity.label}</span>; })}{visibleFeaturedActivities.map(function(block, index){ var status = nyxTlEventStatus(block, now), statusLabel = status === 'upcoming' ? 'Upcoming' : status === 'past' ? 'Ended' : 'Ongoing'; return <button type="button" key={block.id} className={'ntl-gi-featured-activity ' + status + (selectedEventId === block.id ? ' selected' : '')} style={{ left:nyxTlMsToX(block.startMs, view.centerMs, msPerPx, width), top:34 + activityLayout.laneCount * 26 + index * 52, width:Math.max(120, (block.endMs - block.startMs) / msPerPx), height:48 }} onClick={function(e){ e.stopPropagation(); selectEvent(block.id); }}><b>{nyxTlGenshinEntryTitle(block)}</b><i>{nyxTlViewDate(block.startMs, true)} – {nyxTlViewDate(block.endMs, true)}</i><span>{statusLabel}</span></button>; })}</div>}
+                {layers.custom && <div className="ntl-lane custom ntl-gi-planning-lane" style={{ minHeight:giPlanningHeight }}>{markerLayout.blocks.map(function(marker){ var w = Math.max(NYX_TL_MARKER_MIN_PX, (marker.end - marker.start) / msPerPx); return <span key={marker.id} className={'ntl-marker' + (marker.timer.enabled === false ? ' off' : '')} title={marker.label} style={{ left:nyxTlMsToX(marker.start, view.centerMs, msPerPx, width), top:23 + marker.lane * 31, width:w, borderColor:marker.color, color:marker.color }}><button type="button" className="ntl-marker-label" title="Edit marker" onClick={function(){ editTimer(marker.timer); }}>{marker.label}</button><button type="button" className="ntl-marker-toggle" aria-pressed={marker.timer.enabled !== false} title={marker.timer.enabled === false ? 'Enable marker' : 'Disable marker'} onClick={function(){ toggleTimer(marker.timer.id); }}>{marker.timer.enabled === false ? '○' : '●'}</button><button type="button" className="ntl-marker-del" aria-label={'Remove ' + marker.label} title="Remove marker" onClick={function(){ deleteTimer(marker.timer.id); }}>×</button></span>; })}</div>}
+              </div>
+            </div>
+            <div className="ntl-gi-mini" role="scrollbar" aria-label="Timeline overview — drag to navigate" tabIndex="0" onPointerDown={scrubDown}><span className="ntl-gi-mini-now" style={{ left:(now - miniStart) / miniSpan * 100 + '%' }}><b>Today</b></span><span className="ntl-gi-mini-window" style={{ left:miniLeft + '%', width:miniWidth + '%' }} /></div>
+          </div>
+        </div>
+        {detailOpen && (selectedEventBlock || selectedBlock) && <div className="ntl-gi-modal-backdrop" onMouseDown={function(event){ if (event.target === event.currentTarget) closeDetails(); }}>
+          <aside className={'ntl-gi-detail ntl-gi-modal' + (detailArt ? '' : ' noart')} role="dialog" aria-modal="true" aria-label={detailLabel}>
+            <div className="ntl-gi-ledger-head"><span>{detailLabel}</span><i /></div>
+            <button type="button" className="ntl-gi-modal-close" aria-label="Close details" onClick={closeDetails}>×</button>
+            {detailArt && <div className="ntl-gi-detail-art" style={{ backgroundImage:'url("' + detailArt + '")' }} />}
+            <div className="ntl-gi-detail-copy">{selectedEventBlock ? <><span className="k">{selectedIsActivity ? 'Featured activity' : 'Official event'} · {{ review:'Needs review', ongoing:'Ongoing', live:'Live now', upcoming:'Upcoming', past:'Ended' }[detailStatus]}</span><h2>{nyxTlGenshinEntryTitle(selectedEventBlock)}</h2><p className="when">{selectedEventBlock.needsReview ? 'Dates are not officially confirmed yet' : nyxTlViewDate(selectedEventBlock.startMs) + ' – ' + (selectedEventBlock.openEnd ? 'Ongoing' : nyxTlViewDate(selectedEventBlock.endMs))}</p>{selectedEventBlock.description && <p>{nyxTlDetailExcerpt(selectedEventBlock.description)}</p>}{(detailStatus === 'live' || detailStatus === 'ongoing') && <p className="countdown">Ends in <b>{nyxTlCountdownLabel(selectedEventBlock.endMs - now)}</b></p>}{selectedEventBlock.sourceUrl && <p><a href={selectedEventBlock.sourceUrl} target="_blank" rel="noreferrer">View official source ↗</a></p>}</> : <><span className="k">{selectedBlock.version || 'Banner'} · {selectedBlock.region ? selectedBlock.region.toUpperCase() + ' schedule' : 'Published schedule'}</span><h2>{selectedBlock.primaryFive || selectedBlock.name}</h2><p>{selectedBlock.name}</p><p className="when">{nyxTlViewDate(selectedBlock.startMs, selectedBlock.dateOnly)} – {nyxTlViewDate(selectedBlock.endMs, selectedBlock.dateOnly)} · {nyxTlViewDuration(selectedBlock.startMs, selectedBlock.endMs)}</p>{selectedBlock.fours.length > 0 && <p><b>Featured 4★:</b> {selectedBlock.fours.map(function(row){ return row.name; }).join(', ')}</p>}{selectedBlock.signatureWeaponNames && selectedBlock.signatureWeaponNames.length > 0 && <p><b>Featured 5★ weapons:</b> {selectedBlock.signatureWeaponNames.join(', ')}</p>}{selectedBlock.startMs <= now && selectedBlock.endMs >= now && <p className="countdown">Ends in <b>{nyxTlCountdownLabel(selectedBlock.endMs - now)}</b></p>}{selectedBlock.sourceUrl && <p><a href={selectedBlock.sourceUrl} target="_blank" rel="noreferrer">View source ↗</a></p>}</>}</div>
+          </aside>
+        </div>}
+      </>}
+    </section>;
+  }
   return <section className="ntl" ref={rootRef} aria-label={gameName + ' banner timeline'}>
     <header className="ntl-head"><div><span className="eyebrow">Banner history</span><h1>{gameName} Timeline</h1></div>{payload.updated && <span className="ntl-updated">Updated {nyxTlViewDate(Date.parse(payload.updated))}</span>}</header>
     <div className="ntl-tools">
       <label className="ntl-search"><span>Search all banners</span><input type="search" value={search} onChange={function(e){ setSearch(e.target.value); }} placeholder="Character or weapon" /></label>
       <div className="ntl-regions" aria-label="Banner server region">{['na','eu','asia'].map(function(key){ return <button type="button" key={key} className={region === key ? 'on' : ''} aria-pressed={region === key} onClick={function(){ setRegion(key); if (typeof saveResetRegion === 'function') saveResetRegion(game, key); else try { localStorage.setItem(resetRegionStorageKey(game), key); } catch (e) {} }}>{RESET_REGIONS[key].short}</button>; })}</div>
-      <button type="button" onClick={function(){ recenter(Date.now()); }}>Today</button><label className="ntl-jump"><span>Jump to date</span><input type="date" value={jumpDate} onChange={function(e){ setJumpDate(e.target.value); var at = Date.parse(e.target.value + 'T12:00:00'); if (Number.isFinite(at)) recenter(at); }} /></label><button type="button" aria-label="Zoom out" onClick={function(){ zoomBy(-1); }}>−</button><button type="button" aria-label="Zoom in" onClick={function(){ zoomBy(1); }}>+</button>
-      <button type="button" onClick={function(){ if (showMarker) { setShowMarker(false); setEditingId(null); } else { setEditingId(null); setForm({ label:'', color:'#8b9cff', type:'point', when:'', end:'', recur:'interval', every:'7', until:'', align:false }); setShowMarker(true); } }}>Add marker</button><button type="button" onClick={copyView}>Copy link</button>{copied && <span className="ntl-copied" role="status" aria-live="polite">{copied}</span>}
+      <button type="button" onClick={function(){ recenter(Date.now()); }}>Today</button><label className="ntl-jump"><span>Jump to date</span><input type="date" value={jumpDate} onChange={function(e){ setJumpDate(e.target.value); var at = Date.parse(e.target.value + 'T12:00:00'); if (Number.isFinite(at)) recenter(at); }} /></label>      <button type="button" onClick={function(){ if (showMarker) { setShowMarker(false); setEditingId(null); } else { setEditingId(null); setForm({ label:'', color:'#8b9cff', type:'point', when:'', end:'', recur:'interval', every:'7', until:'', align:false }); setShowMarker(true); } }}>Add marker</button><button type="button" onClick={copyView}>Copy link</button>{copied && <span className="ntl-copied" role="status" aria-live="polite">{copied}</span>}
       <div className="ntl-layers"><button type="button" aria-expanded={layersOpen} onClick={function(){ setLayersOpen(!layersOpen); }}>Layers</button>{layersOpen && <div className="ntl-popover">{[['banners','Character banners'],['events','Events'],['activities','Activities'],['custom','Custom planning'],['hidePast','Hide past banners']].map(function(item){ return <label key={item[0]}><input type="checkbox" checked={layers[item[0]]} onChange={function(e){ var next = Object.assign({}, layers); next[item[0]] = e.target.checked; setLayers(next); }} />{item[1]}</label>; })}</div>}</div>
     </div>
     {showMarker && <form className="ntl-marker-form" onSubmit={saveMarker}><input required maxLength="42" value={form.label} placeholder="Marker label" onChange={function(e){ setForm(Object.assign({}, form, { label:e.target.value })); }} /><input type="color" aria-label="Marker color" value={form.color} onChange={function(e){ setForm(Object.assign({}, form, { color:e.target.value })); }} /><select aria-label="Marker type" value={form.type} onChange={function(e){ setForm(Object.assign({}, form, { type:e.target.value })); }}><option value="point">Exact moment</option><option value="range">Range</option><option value="recurring">Recurring</option></select><input required type="datetime-local" aria-label={form.type === 'range' ? 'Start' : 'When'} value={form.when} onChange={function(e){ setForm(Object.assign({}, form, { when:e.target.value })); }} />{form.type === 'range' && <input required type="datetime-local" aria-label="End" value={form.end} onChange={function(e){ setForm(Object.assign({}, form, { end:e.target.value })); }} />}{form.type === 'recurring' && <><select aria-label="Recurrence" value={form.recur} onChange={function(e){ setForm(Object.assign({}, form, { recur:e.target.value })); }}><option value="interval">Every N days</option><option value="semimonthly">1st + 16th</option><option value="monthly">Monthly</option></select>{form.recur === 'interval' && <input type="number" min="1" aria-label="Interval days" value={form.every} onChange={function(e){ setForm(Object.assign({}, form, { every:e.target.value })); }} />}<label className="ntl-until"><span>Until</span><input type="datetime-local" aria-label="Repeat until" value={form.until} onChange={function(e){ setForm(Object.assign({}, form, { until:e.target.value })); }} /></label></>}{form.type !== 'range' && <label className="ntl-align"><input type="checkbox" checked={form.align} onChange={function(e){ setForm(Object.assign({}, form, { align:e.target.checked })); }} />Align to reset (04:00)</label>}<button type="submit">{editingId ? 'Update' : 'Save'}</button>{editingId && <button type="button" onClick={function(){ setShowMarker(false); setEditingId(null); setForm({ label:'', color:'#8b9cff', type:'point', when:'', end:'', recur:'interval', every:'7', until:'', align:false }); }}>Cancel</button>}</form>}
     {payload.loading && <div className="ntl-status" role="status">Loading complete banner history…</div>}{payload.error && <div className="ntl-status error" role="alert">{payload.error}</div>}
     {!payload.loading && !payload.error && <>
       {search && <div className="ntl-results" aria-live="polite">{searchGroups.slice(0, 8).map(function(group){ return <button type="button" key={group.name} onClick={function(){ var hit = blocks.blocks.find(function(block){ return block.id === group.blockIds[0]; }); if (hit) { recenter(hit.startMs); setSelected(hit.id); setSelectedEventId(null); } }}>{group.name} — {group.count} {group.count === 1 ? 'run' : 'runs'}</button>; })}</div>}
-      <div className="ntl-canvas" onPointerDown={pointerDown} onWheel={function(e){ if (e.ctrlKey) { e.preventDefault(); zoomBy(e.deltaY > 0 ? -1 : 1); } else { panBy(-e.deltaX || -e.deltaY); } }}>
+      <div className="ntl-canvas" onPointerDown={pointerDown} onWheel={function(e){ panBy(-e.deltaX || -e.deltaY); }}><NyxTimeRuler view={view} msPerPx={msPerPx} width={width} />
         <div className="ntl-ribbons">{ribbons.map(function(ribbon){ return <span key={ribbon.version} style={{ left:nyxTlMsToX(ribbon.startMs, view.centerMs, msPerPx, width), width:Math.max(28, (ribbon.endMs - ribbon.startMs) / msPerPx) }}>{ribbon.version}</span>; })}</div><div className="ntl-now" style={{ left:nyxTlMsToX(now, view.centerMs, msPerPx, width) }}><i>◆</i><span>Now</span></div>
         {layers.banners && <NyxBannerLane game={game} label="Character banners" blocks={visibleMatches} laneCount={blocks.laneCount} view={view} msPerPx={msPerPx} width={width} now={now} selected={selected} onSelect={function(block){ setSelected(block.id); setSelectedEventId(null); }} />}
         {layers.events && <div className="ntl-lane events" style={{ minHeight:Math.max(112, eventAxisLayout.laneCount * 104) }}><b>Events</b>{visibleEvents.map(function(block){ var x = nyxTlMsToX(block.startMs, view.centerMs, msPerPx, width), w = Math.max(78, (block.endMs - block.startMs) / msPerPx), status = nyxTlEventStatus(block, now), remaining = block.endMs - now, tag = status === 'live' ? (remaining > 60 * NYX_TL_DAY_MS ? 'LIVE' : 'LIVE · ' + nyxTlCountdownLabel(remaining)) : status === 'ongoing' ? 'Ongoing' : status === 'upcoming' ? 'Upcoming' : 'Ended'; return <button type="button" key={block.id} className={'ntl-block event ' + status + (selectedEventId === block.id ? ' selected' : '')} title={block.title} style={{ left:x, top:32 + block.lane * 100, width:w }} onClick={function(e){ e.stopPropagation(); selectEvent(block.id); }}><span>{tag}</span><strong>{block.image && <img src={block.image} alt="" loading="lazy" />}{block.title}</strong></button>; })}</div>}
@@ -294,19 +499,19 @@ function CrossGameEventsTimeline({ games }){
   },[listKey]);
   React.useEffect(function(){ var id=setInterval(function(){setNow(Date.now());},1000); return function(){clearInterval(id);}; },[]);
   React.useEffect(function(){ var el=rootRef.current;if(!el||!window.ResizeObserver)return undefined;var observer=new ResizeObserver(function(){setWidth(Math.max(320,el.clientWidth||320));});observer.observe(el);setWidth(Math.max(320,el.clientWidth||320));return function(){observer.disconnect();};},[]);
-  var msPerPx=NYX_TL_ZOOM_LEVELS[view.zoom], feeds={}; list.forEach(function(g){feeds[g.key]=(perGame[g.key]&&perGame[g.key].events)||[];});
+  var msPerPx=NYX_TL_MS_PER_PX, feeds={}; list.forEach(function(g){feeds[g.key]=(perGame[g.key]&&perGame[g.key].events)||[];});
   var grouped=nyxTlGroupEventsByGame(feeds,list,now).map(function(group){var state=perGame[group.gameKey]||{loading:true,events:[],error:null},game=list.find(function(g){return g.key===group.gameKey;})||{key:group.gameKey,name:group.gameName};var layout=nyxTlAssignSubLanes(group.axis,NYX_TL_BLOCK_MIN_PX*msPerPx),visible=nyxTlVisibleBlocks(layout.blocks,view.centerMs,msPerPx,width,600);if(search)visible=visible.filter(function(b){return String(b.title||'').toLowerCase().includes(search.trim().toLowerCase());});return {game:game,state:state,allBlocks:group.allBlocks,review:group.review,blocks:visible,laneCount:layout.laneCount};});
   var matches=[], review=[]; grouped.forEach(function(group){group.review.forEach(function(block){review.push({game:group.game,block:block});});if(search.trim())group.allBlocks.forEach(function(block){if(String(block.title||'').toLowerCase().includes(search.trim().toLowerCase()))matches.push({game:group.game,block:block});});});
   var anyLoading=grouped.some(function(group){return group.state.loading;});
   var selectedBlock=null,selectedGame=null;if(selected){var lane=grouped.find(function(g){return g.game.key===selected.gameKey;});if(lane){selectedBlock=lane.allBlocks.find(function(b){return b.id===selected.blockId;})||null;selectedGame=lane.game;}}
-  function recenter(ms){setView(function(old){return {centerMs:ms,zoom:old.zoom};});} function panBy(px){setView(function(old){return {centerMs:old.centerMs-px*NYX_TL_ZOOM_LEVELS[old.zoom],zoom:old.zoom};});} function zoomBy(d){setView(function(old){return {centerMs:old.centerMs,zoom:Math.max(0,Math.min(NYX_TL_ZOOM_LEVELS.length-1,old.zoom+d))};});}
-  function pointerDown(event){var x=event.clientX,center=view.centerMs;function move(e){setView(function(old){return {centerMs:center-(e.clientX-x)*NYX_TL_ZOOM_LEVELS[old.zoom],zoom:old.zoom};});}function up(){window.removeEventListener('pointermove',move);window.removeEventListener('pointerup',up);}window.addEventListener('pointermove',move);window.addEventListener('pointerup',up);}
+  function recenter(ms){setView(function(old){return {centerMs:ms,zoom:old.zoom};});} function panBy(px){setView(function(old){return {centerMs:old.centerMs-px*NYX_TL_MS_PER_PX,zoom:old.zoom};});}
+  function pointerDown(event){var x=event.clientX,center=view.centerMs;function move(e){setView(function(old){return {centerMs:center-(e.clientX-x)*NYX_TL_MS_PER_PX,zoom:old.zoom};});}function up(){window.removeEventListener('pointermove',move);window.removeEventListener('pointerup',up);}window.addEventListener('pointermove',move);window.addEventListener('pointerup',up);}
   return <section className="ntl ntl-xgame" ref={rootRef} aria-label="Cross-game events timeline">
     <header className="ntl-head"><div><span className="eyebrow">Official event history</span><h1>All Games Events</h1></div></header>
-    <div className="ntl-tools"><label className="ntl-search"><span>Search all events</span><input type="search" value={search} onChange={function(e){setSearch(e.target.value);}} placeholder="Event name" /></label><button type="button" onClick={function(){recenter(Date.now());}}>Today</button><label className="ntl-jump"><span>Jump to date</span><input type="date" value={jumpDate} onChange={function(e){setJumpDate(e.target.value);var at=Date.parse(e.target.value+'T12:00:00');if(Number.isFinite(at))recenter(at);}} /></label><button type="button" aria-label="Zoom out" onClick={function(){zoomBy(-1);}}>−</button><button type="button" aria-label="Zoom in" onClick={function(){zoomBy(1);}}>+</button></div>
+    <div className="ntl-tools"><label className="ntl-search"><span>Search all events</span><input type="search" value={search} onChange={function(e){setSearch(e.target.value);}} placeholder="Event name" /></label><button type="button" onClick={function(){recenter(Date.now());}}>Today</button><label className="ntl-jump"><span>Jump to date</span><input type="date" value={jumpDate} onChange={function(e){setJumpDate(e.target.value);var at=Date.parse(e.target.value+'T12:00:00');if(Number.isFinite(at))recenter(at);}} /></label></div>
     {anyLoading&&<div className="ntl-status" role="status">Loading event history…</div>}
     {search&&<div className="ntl-results" aria-live="polite">{matches.slice(0,12).map(function(row){return <button type="button" key={row.game.key+':'+row.block.id} onClick={function(){if(row.block.startMs!==null)recenter(row.block.startMs);setSelected({gameKey:row.game.key,blockId:row.block.id});}}>{row.block.title} - {row.game.name}</button>;})}{!matches.length&&<span>No events found.</span>}</div>}
-    <div className="ntl-canvas" onPointerDown={pointerDown} onWheel={function(e){if(e.ctrlKey){e.preventDefault();zoomBy(e.deltaY>0?-1:1);}else panBy(-e.deltaX||-e.deltaY);}}><div className="ntl-now" style={{left:nyxTlMsToX(now,view.centerMs,msPerPx,width)}}><i>◆</i><span>Now</span></div>{grouped.map(function(group){return group.state.error?<div className="ntl-lane events" key={group.game.key} style={{minHeight:112}}><b>{group.game.icon&&<img src={group.game.icon} alt="" className="ntl-lane-icon"/>}{group.game.name}</b><div className="ntl-xgame-error">{group.game.name}: {group.state.error}</div></div>:<NyxEventLane key={group.game.key} label={group.game.name} icon={group.game.icon} blocks={group.blocks} laneCount={group.laneCount} view={view} msPerPx={msPerPx} width={width} now={now} selected={selected&&selected.gameKey===group.game.key?selected.blockId:null} onSelect={function(block){setSelected({gameKey:group.game.key,blockId:block.id});}}/>;})}</div>
+    <div className="ntl-canvas" onPointerDown={pointerDown} onWheel={function(e){panBy(-e.deltaX||-e.deltaY);}}><NyxTimeRuler view={view} msPerPx={msPerPx} width={width} /><div className="ntl-now" style={{left:nyxTlMsToX(now,view.centerMs,msPerPx,width)}}><i>◆</i><span>Now</span></div>{grouped.map(function(group){return group.state.error?<div className="ntl-lane events" key={group.game.key} style={{minHeight:112}}><b>{group.game.icon&&<img src={group.game.icon} alt="" className="ntl-lane-icon"/>}{group.game.name}</b><div className="ntl-xgame-error">{group.game.name}: {group.state.error}</div></div>:<NyxEventLane key={group.game.key} label={group.game.name} icon={group.game.icon} blocks={group.blocks} laneCount={group.laneCount} view={view} msPerPx={msPerPx} width={width} now={now} selected={selected&&selected.gameKey===group.game.key?selected.blockId:null} onSelect={function(block){setSelected({gameKey:group.game.key,blockId:block.id});}}/>;})}</div>
     {review.length>0&&<div className="ntl-events-review"><b>Needs review - dates not yet confirmed ({review.length})</b><div className="ntl-events-review-list">{review.map(function(row){return <button type="button" key={row.game.key+':'+row.block.id} className={'ntl-block event expected'+(selected&&selected.gameKey===row.game.key&&selected.blockId===row.block.id?' selected':'')} onClick={function(){setSelected({gameKey:row.game.key,blockId:row.block.id});}}><span>{row.game.name}</span><strong>{row.block.image&&<img src={row.block.image} alt="" loading="lazy"/>}{row.block.title}</strong></button>;})}</div></div>}
     <div className="ntl-detail">{selectedBlock?<><div><span>{selectedGame.name} - {selectedBlock.type||'event'}</span><h2>{selectedBlock.title}</h2><p>{selectedBlock.needsReview?'Dates are not officially confirmed yet':nyxTlViewDate(selectedBlock.startMs)+' - '+(selectedBlock.openEnd?'ongoing (until the next update)':nyxTlViewDate(selectedBlock.endMs))}</p>{selectedBlock.description&&<p>{selectedBlock.description}</p>}</div><div><b>Status</b><p>{{review:'Needs review',ongoing:'Ongoing',live:'Live now',upcoming:'Upcoming',past:'Ended'}[nyxTlEventStatus(selectedBlock,now)]}</p>{selectedBlock.sourceUrl&&<a href={selectedBlock.sourceUrl} target="_blank" rel="noreferrer">Source</a>}</div></>:<p>Select an event for its dates and official source link.</p>}</div>
   </section>;
@@ -376,7 +581,7 @@ function CrossGameBannerTimeline({ games }){
   }, []);
 
   var regionKey = nyxTlRegionKey(region);
-  var msPerPx = NYX_TL_ZOOM_LEVELS[view.zoom];
+  var msPerPx = NYX_TL_MS_PER_PX;
 
   var gameLanes = list.map(function(g){
     var state = perGame[g.key] || { loading:true, records:[], updated:null, error:null };
@@ -400,11 +605,10 @@ function CrossGameBannerTimeline({ games }){
   }
 
   function recenter(centerMs){ setView(function(old){ return { centerMs:centerMs, zoom:old.zoom }; }); }
-  function panBy(px){ setView(function(old){ return { centerMs:old.centerMs - px * NYX_TL_ZOOM_LEVELS[old.zoom], zoom:old.zoom }; }); }
-  function zoomBy(delta){ setView(function(old){ return { centerMs:old.centerMs, zoom:Math.max(0, Math.min(NYX_TL_ZOOM_LEVELS.length - 1, old.zoom + delta)) }; }); }
+  function panBy(px){ setView(function(old){ return { centerMs:old.centerMs - px * NYX_TL_MS_PER_PX, zoom:old.zoom }; }); }
   function pointerDown(event){
     var startX = event.clientX, startCenter = view.centerMs;
-    function move(e){ setView(function(old){ return { centerMs:startCenter - (e.clientX - startX) * NYX_TL_ZOOM_LEVELS[old.zoom], zoom:old.zoom }; }); }
+    function move(e){ setView(function(old){ return { centerMs:startCenter - (e.clientX - startX) * NYX_TL_MS_PER_PX, zoom:old.zoom }; }); }
     function up(){ window.removeEventListener('pointermove', move); window.removeEventListener('pointerup', up); }
     window.addEventListener('pointermove', move); window.addEventListener('pointerup', up);
   }
@@ -414,11 +618,10 @@ function CrossGameBannerTimeline({ games }){
     <div className="ntl-tools">
       <label className="ntl-search"><span>Search all banners</span><input type="search" value={search} onChange={function(e){ setSearch(e.target.value); }} placeholder="Character or weapon" /></label>
       <div className="ntl-regions" aria-label="Banner server region">{['na','eu','asia'].map(function(key){ return <button type="button" key={key} className={region === key ? 'on' : ''} aria-pressed={region === key} onClick={function(){ setRegion(key); if (typeof saveResetRegion === 'function') saveResetRegion('nyx', key); }}>{RESET_REGIONS[key].short}</button>; })}</div>
-      <button type="button" onClick={function(){ recenter(Date.now()); }}>Today</button><label className="ntl-jump"><span>Jump to date</span><input type="date" value={jumpDate} onChange={function(e){ setJumpDate(e.target.value); var at = Date.parse(e.target.value + 'T12:00:00'); if (Number.isFinite(at)) recenter(at); }} /></label><button type="button" aria-label="Zoom out" onClick={function(){ zoomBy(-1); }}>−</button><button type="button" aria-label="Zoom in" onClick={function(){ zoomBy(1); }}>+</button>
-    </div>
+      <button type="button" onClick={function(){ recenter(Date.now()); }}>Today</button><label className="ntl-jump"><span>Jump to date</span><input type="date" value={jumpDate} onChange={function(e){ setJumpDate(e.target.value); var at = Date.parse(e.target.value + 'T12:00:00'); if (Number.isFinite(at)) recenter(at); }} /></label>    </div>
     {anyLoading && <div className="ntl-status" role="status">Loading complete banner history…</div>}
     {search && <div className="ntl-results" aria-live="polite">{searchResults.slice(0, 12).map(function(result){ return <button type="button" key={result.gameKey + ':' + result.blockId} onClick={function(){ recenter(result.startMs); setSelected({ gameKey:result.gameKey, blockId:result.blockId }); }}>{result.name} · {result.gameName} · {nyxTlViewDate(result.startMs)}</button>; })}{!searchResults.length && <span>No banner runs found.</span>}</div>}
-    <div className="ntl-canvas" onPointerDown={pointerDown} onWheel={function(e){ if (e.ctrlKey) { e.preventDefault(); zoomBy(e.deltaY > 0 ? -1 : 1); } else { panBy(-e.deltaX || -e.deltaY); } }}>
+    <div className="ntl-canvas" onPointerDown={pointerDown} onWheel={function(e){ panBy(-e.deltaX || -e.deltaY); }}><NyxTimeRuler view={view} msPerPx={msPerPx} width={width} />
       <div className="ntl-now" style={{ left:nyxTlMsToX(now, view.centerMs, msPerPx, width) }}><i>◆</i><span>Now</span></div>
       {gameLanes.map(function(gl){
         return gl.state.error

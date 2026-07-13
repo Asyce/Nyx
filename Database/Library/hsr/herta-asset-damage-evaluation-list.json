@@ -4,10 +4,11 @@
   "id": "herta-asset-damage-evaluation-list",
   "name": "Herta Asset Damage Evaluation List",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Herta_Asset_Damage_Evaluation_List",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -63,7 +65,8 @@
                 "type": "text",
                 "text": "Estimated IPC Settlement: 118,000 credits"
               }
-            ]
+            ],
+            "id": "p-bddf7de6aed98b08"
           },
           {
             "type": "paragraph",
@@ -107,7 +110,8 @@
                 "type": "text",
                 "text": "Estimated IPC Settlement: 32,000 credits"
               }
-            ]
+            ],
+            "id": "p-78fce376582c4988"
           },
           {
             "type": "paragraph",
@@ -151,7 +155,8 @@
                 "type": "text",
                 "text": "Estimated IPC Settlement: 97,000 credits"
               }
-            ]
+            ],
+            "id": "p-a6c3c3ccb78e4b88"
           },
           {
             "type": "paragraph",
@@ -195,7 +200,8 @@
                 "type": "text",
                 "text": "Estimated IPC Settlement: 5,777,000 credits"
               }
-            ]
+            ],
+            "id": "p-226e565bbd6090d3"
           },
           {
             "type": "paragraph",
@@ -239,7 +245,8 @@
                 "type": "text",
                 "text": "Estimated IPC Settlement: 990,000 credits"
               }
-            ]
+            ],
+            "id": "p-7e681ac91a40df33"
           },
           {
             "type": "paragraph",
@@ -283,7 +290,8 @@
                 "type": "text",
                 "text": "Estimated IPC Settlement: 48,000 credits"
               }
-            ]
+            ],
+            "id": "p-4c947571acc90889"
           },
           {
             "type": "paragraph",
@@ -292,7 +300,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           }
         ]
       }

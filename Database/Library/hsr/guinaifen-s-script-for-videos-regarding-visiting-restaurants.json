@@ -4,10 +4,11 @@
   "id": "guinaifen-s-script-for-videos-regarding-visiting-restaurants",
   "name": "Guinaifen's script for videos regarding visiting restaurants",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Guinaifen%27s_script_for_videos_regarding_visiting_restaurants",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -79,7 +80,8 @@
                 "type": "text",
                 "text": "[Music/SFX] Light music"
               }
-            ]
+            ],
+            "id": "p-bab7345e8d60d5c7"
           },
           {
             "type": "paragraph",
@@ -148,7 +150,8 @@
                 "type": "text",
                 "text": "[Music/SFX] Light music"
               }
-            ]
+            ],
+            "id": "p-478374e66abde111"
           },
           {
             "type": "paragraph",
@@ -237,7 +240,8 @@
                 "type": "text",
                 "text": "[Music/SFX] Boom mic, SFX sounds for opening titles"
               }
-            ]
+            ],
+            "id": "p-4a897e8b9d59bacf"
           },
           {
             "type": "paragraph",
@@ -326,7 +330,8 @@
                 "type": "text",
                 "text": "[Music/SFX] Boom mic, SFX sounds for flexible display touchscreen"
               }
-            ]
+            ],
+            "id": "p-aeddd16308774c6f"
           },
           {
             "type": "paragraph",
@@ -395,7 +400,8 @@
                 "type": "text",
                 "text": "[Music/SFX] Light music, fast-forward SFX"
               }
-            ]
+            ],
+            "id": "p-97273dd432ca74e9"
           },
           {
             "type": "paragraph",
@@ -464,7 +470,8 @@
                 "type": "text",
                 "text": "[Music/SFX] Boom mic, remember to switch to headset mic!!!"
               }
-            ]
+            ],
+            "id": "p-874180db2ad4913f"
           },
           {
             "type": "paragraph",
@@ -487,7 +494,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-92e985a40caffdc7"
           },
           {
             "type": "paragraph",
@@ -546,7 +554,8 @@
                 "type": "text",
                 "text": "5. Lose yourself in 5 minutes flat in the mouth-watering paradise of Aurum Alley..."
               }
-            ]
+            ],
+            "id": "p-94f02e451f314f1e"
           },
           {
             "type": "paragraph",
@@ -562,7 +571,8 @@
                 "type": "text",
                 "text": "Arghhhh it's too delicious my mouth yum oh this vid is totally overtime and so much content wow but it's so I can't stick to the script at all anymore"
               }
-            ]
+            ],
+            "id": "p-c5b1096e1d931f4f"
           }
         ]
       }

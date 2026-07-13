@@ -4,10 +4,11 @@
   "id": "management-strategy-for-reporting-starskiff-traffic",
   "name": "Management Strategy for Reporting Starskiff Traffic",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Management_Strategy_for_Reporting_Starskiff_Traffic",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Public Document of the Sky-Faring Commission"
               }
-            ]
+            ],
+            "id": "p-278662b9dc8ad57e"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-f3c0f6437a8bfafd"
           },
           {
             "type": "paragraph",
@@ -78,7 +81,8 @@
                 "type": "text",
                 "text": "to regulate how reporting is conducted for incoming and outgoing starskiffs, and to ensure traffic safety within the Xianzhou."
               }
-            ]
+            ],
+            "id": "p-3053ac1649182815"
           },
           {
             "type": "paragraph",
@@ -117,7 +121,8 @@
                 "type": "text",
                 "text": "\"Reporting starskiff traffic\" in this method refers to all activities that involve the starskiff owner reporting information such as docking, take off, and using offshore loading stations to the Sky-Faring Commission via the internet, mail, or other means of communication."
               }
-            ]
+            ],
+            "id": "p-1327e10b3bc53101"
           },
           {
             "type": "paragraph",
@@ -146,7 +151,8 @@
                 "type": "text",
                 "text": "The Department of Aviation in the Sky-Faring Commission is specifically responsible for relevant aviation tasks such as receiving, verifying and managing the reports of vessels entering and exiting its jurisdiction, the registration of new starskiffs, and the dynamic monitor system."
               }
-            ]
+            ],
+            "id": "p-524624152197fa37"
           },
           {
             "type": "paragraph",
@@ -165,7 +171,8 @@
                 "type": "text",
                 "text": "Starskiff traffic reports should be managed according to the principles of legality, fairness, and being beneficial to the people."
               }
-            ]
+            ],
+            "id": "p-74922093334da3b2"
           },
           {
             "type": "paragraph",
@@ -179,7 +186,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-5f2ce23f6c131923"
           },
           {
             "type": "paragraph",
@@ -218,7 +226,8 @@
                 "type": "text",
                 "text": "2. Departure reports should be recorded for starskiffs leaving any dock, berth, anchorage grounds, or loading stations after loading or offloading goods, having personnel embark or disembark, re-stocking supplies, or receiving contaminants."
               }
-            ]
+            ],
+            "id": "p-4a65bb6fc1acbeaf"
           },
           {
             "type": "paragraph",
@@ -267,7 +276,8 @@
                 "type": "text",
                 "text": "3. The starskiff is a Sky-Faring Commission vessel currently on official duty or patrolling."
               }
-            ]
+            ],
+            "id": "p-2d133ae2488ee3b7"
           },
           {
             "type": "paragraph",
@@ -306,7 +316,8 @@
                 "type": "text",
                 "text": "2. A vessel sailing or operating in the space operation platform area"
               }
-            ]
+            ],
+            "id": "p-c478584643a71603"
           },
           {
             "type": "paragraph",
@@ -339,7 +350,8 @@
                 "type": "text",
                 "text": "Where arrival or departure information cannot be reported according to the regulations due to emergencies such as search and rescue operations, the traffic reports should be filed as soon as possible after the operation has concluded."
               }
-            ]
+            ],
+            "id": "p-c45a0f958943bbea"
           },
           {
             "type": "paragraph",
@@ -348,7 +360,8 @@
                 "type": "text",
                 "text": "(et cetera.)"
               }
-            ]
+            ],
+            "id": "p-aae4b5f19efeee15"
           }
         ]
       }

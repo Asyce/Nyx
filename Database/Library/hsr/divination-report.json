@@ -4,10 +4,11 @@
   "id": "divination-report",
   "name": "Divination Report",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Divination_Report",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-c8d4e5c27283ac88"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "Routine predictions are made ten days out for Luofu's flight path. Yet disruptions were recorded in the base terminal and talisman of the Matrix of Prescience, it is difficult to reach a conclusion. This has not been seen in 30 years."
               }
-            ]
+            ],
+            "id": "p-5f7f18536a9948f2"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "In the end, the divination vacillated between the Mountain and Water trigrams, showing a sign of Great Woe. Please check the appendix for other related predictions."
               }
-            ]
+            ],
+            "id": "p-0d629192bac48e99"
           },
           {
             "type": "paragraph",
@@ -51,7 +55,8 @@
                 "type": "text",
                 "text": "[Matrix of Prescience Predictions]"
               }
-            ]
+            ],
+            "id": "p-d4218c65081b655a"
           },
           {
             "type": "paragraph",
@@ -60,7 +65,8 @@
                 "type": "text",
                 "text": "Based on previous predictions, we recommend the following countermeasures:"
               }
-            ]
+            ],
+            "id": "p-2bde5924e88589a7"
           },
           {
             "type": "paragraph",
@@ -69,7 +75,8 @@
                 "type": "text",
                 "text": "1. Write to the Seat of Divine Foresight and report in to General Jing Yuan. Increase Cloud Knights fleet patrols, and deny the enemy's attack before it happens."
               }
-            ]
+            ],
+            "id": "p-8691f13bb090671b"
           },
           {
             "type": "paragraph",
@@ -78,7 +85,8 @@
                 "type": "text",
                 "text": "2. Write to the Sky-Faring Commission, requesting strict investigations into security measures and material supplies. Filter out the cause of the disaster."
               }
-            ]
+            ],
+            "id": "p-0de42cac3fbe4cef"
           },
           {
             "type": "paragraph",
@@ -87,7 +95,8 @@
                 "type": "text",
                 "text": "3. Write to the Artisanship Commission, requesting an inspection of core components such as the Meridian Pin and engines to avoid any accidental occurrences."
               }
-            ]
+            ],
+            "id": "p-a5de7b49b78f2208"
           },
           {
             "type": "paragraph",
@@ -96,7 +105,8 @@
                 "type": "text",
                 "text": "4. Scan the visible starzone again using the Cloudpeer Telescope, to ensure there are no black holes or other dangerous objects obstructing the ship's trajectory."
               }
-            ]
+            ],
+            "id": "p-f86bdf6a38667cba"
           },
           {
             "type": "paragraph",
@@ -110,7 +120,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-62efad58ffe86647"
           },
           {
             "type": "paragraph",
@@ -124,7 +135,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-f8a159a61b19c10d"
           },
           {
             "type": "paragraph",
@@ -138,7 +150,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-9a31e5fa722c0ef4"
           },
           {
             "type": "paragraph",
@@ -152,7 +165,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-95d442252211dec9"
           },
           {
             "type": "paragraph",
@@ -166,7 +180,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ece9fedd1a820261"
           },
           {
             "type": "paragraph",
@@ -180,7 +195,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-c0cef8f9c3c4fe90"
           },
           {
             "type": "paragraph",
@@ -194,7 +210,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-7b4bcc68105a0895"
           }
         ]
       }

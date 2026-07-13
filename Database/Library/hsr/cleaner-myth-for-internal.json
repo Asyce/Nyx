@@ -4,10 +4,11 @@
   "id": "cleaner-myth-for-internal",
   "name": "Cleaner Myth (For Internal)",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Cleaner_Myth_(For_Internal)",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-9fc372ecde3b486b"
           },
           {
             "type": "paragraph",
@@ -38,7 +40,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-27d882d3436c86a4"
           },
           {
             "type": "paragraph",
@@ -47,7 +50,8 @@
                 "type": "text",
                 "text": "Dear curious readers, have you come across this rumor on the teleslate recently?"
               }
-            ]
+            ],
+            "id": "p-054a4b8de5ef9c58"
           },
           {
             "type": "paragraph",
@@ -56,7 +60,8 @@
                 "type": "text",
                 "text": "\"The members of the Cleaner Order are highly skilled assassins. The way they pass on their techniques is by murdering their predecessors, extracting their spines made of mysterious metals, and using alchemy to transplant them into their own bodies. This allows them to inherit all of their predecessor's skills and memories. Sometimes, even their personalities are overwritten by those of their predecessors.\""
               }
-            ]
+            ],
+            "id": "p-1d9949b20381ad2a"
           },
           {
             "type": "paragraph",
@@ -65,7 +70,8 @@
                 "type": "text",
                 "text": "To investigate further, I interviewed an alchemy expert from Okhema. To my surprise, I received a shocking response! With her permission (name omitted as per her request), I will skip the pleasantries and share with you the most important part of our conversation!"
               }
-            ]
+            ],
+            "id": "p-461e4cab1787d68a"
           },
           {
             "type": "paragraph",
@@ -151,7 +157,8 @@
                 "type": "text",
                 "text": "Interviewer: I see, thank you for the fascinating explanation!"
               }
-            ]
+            ],
+            "id": "p-a761f89940b65105"
           },
           {
             "type": "paragraph",
@@ -160,7 +167,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

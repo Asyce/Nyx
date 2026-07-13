@@ -4,10 +4,11 @@
   "id": "old-sampo-s-quick-guide-to-the-cosmicon-collective",
   "name": "Old Sampo's Quick Guide to the Cosmicon Collective",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Old_Sampo%27s_Quick_Guide_to_the_Cosmicon_Collective",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "This story isn't about Stephen Lloyd of Genius Society #84, who casually invented the \"Cosmic Combat Ability Calculation System,\" nor is it about Mr. Giovanni the Fool, who successfully simplified and turned the system into a game... The story I'm about to tell is about the Cosmicon Collective itself."
               }
-            ]
+            ],
+            "id": "p-831291ed7acb8189"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "I believe that after surviving several cosmic crises, people who made it through can't help but ponder this lingering question: What exactly happened to our galaxy? Nobody's clear, and nobody knows."
               }
-            ]
+            ],
+            "id": "p-3aa343d42a224362"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "But people can only find a sense of security in certainty."
               }
-            ]
+            ],
+            "id": "p-99355424d35c82f2"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "So what is certain? What is certain is that they turned their gaze to the cosmos, the Overlords of Destruction, world-shattering beings that I surely can't defeat. What is certain is the geniuses of the Genius Society, whose minds hold so much that I'm nowhere near as bright as they are. What is certain is the Interastral Peace Corporation, which is so rich it could crush me under a pile of money. It is in these countless powerful entities that people find their certainty and sense of security."
               }
-            ]
+            ],
+            "id": "p-b00900a08e846b5e"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "But when comparing distant beings to yourself, you know perfectly well that Nanook could smack me dead with one hit. But what if I were Qlipoth? Could Nanook still kill me with one smack, then? What if I were Akivili?"
               }
-            ]
+            ],
+            "id": "p-f6dfc7cd67ee7313"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "The certainty that people worked so hard to find and relied on for survival is once again on the verge of collapse!"
               }
-            ]
+            ],
+            "id": "p-cd1fa25c05ac47ad"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "We must eliminate these ambiguities and embrace certainty and security once again. And thus, the original \"Cosmicon Collective\" forum was born, where different anonymous users provided in-depth research on the combat power, strength rankings, and ability systems of the cosmos' big shots..."
               }
-            ]
+            ],
+            "id": "p-13a45f30e795634f"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "Every time a certainty is established, it's instantly debunked. As more and more figures rise to fame across the cosmos, accompanied by factional divisions and heated debates, certainty becomes increasingly rare. Later on, unpredictable factors like \"power fluctuation constant\" and \"right-hand dueling principle\" become impossible to resolve... And the power level extrapolation gradually shifts from realistic to abstract territory."
               }
-            ]
+            ],
+            "id": "p-a7e786912173d0f1"
           },
           {
             "type": "paragraph",
@@ -91,7 +100,8 @@
                 "type": "text",
                 "text": "In a mouth that's never had anything good to say, even a proud pressure cooker can solo kill Nanook the Destruction."
               }
-            ]
+            ],
+            "id": "p-3729343088f1d9f6"
           },
           {
             "type": "paragraph",
@@ -100,7 +110,8 @@
                 "type": "text",
                 "text": "All systems of comparison became meaningless, and humanity once again fell into the abyss of uncertainty."
               }
-            ]
+            ],
+            "id": "p-9c02ea0ca6be5171"
           },
           {
             "type": "paragraph",
@@ -109,7 +120,8 @@
                 "type": "text",
                 "text": "...And just when the cosmos fell into darkness once again, I, your dear old Sampo, discovered the core of the problem: What we've been seeking all along was merely certainty. We don't need proof of process. What we need is conflict resolution."
               }
-            ]
+            ],
+            "id": "p-d56a55b533c4e3d9"
           },
           {
             "type": "paragraph",
@@ -118,7 +130,8 @@
                 "type": "text",
                 "text": "Back in the day, rock-paper-scissors did the trick. Today, the Cosmicon Collective gets it done."
               }
-            ]
+            ],
+            "id": "p-a3e142af80f84378"
           },
           {
             "type": "paragraph",
@@ -127,7 +140,8 @@
                 "type": "text",
                 "text": "Do you understand now? Every single conflict can find its resolution within the Cosmicon Collective."
               }
-            ]
+            ],
+            "id": "p-2999eadb22e51a0c"
           },
           {
             "type": "paragraph",
@@ -136,7 +150,8 @@
                 "type": "text",
                 "text": "You say Nanook is stronger, and I say the pressure cooker is mightier. We've been going back and forth online for hundreds of posts with no real conclusion. However, with the Cosmicon Collective, you and I can settle this with one match. If I win, you'll have to admit to everyone on the forum that the pressure cooker can solo-kill Nanook, and that'll be the end of this debate!"
               }
-            ]
+            ],
+            "id": "p-17567e4cee32ddd2"
           },
           {
             "type": "paragraph",
@@ -145,7 +160,8 @@
                 "type": "text",
                 "text": "And so, certainty finally returned to its loyal people."
               }
-            ]
+            ],
+            "id": "p-68fb29c7b97608a7"
           },
           {
             "type": "paragraph",
@@ -154,7 +170,8 @@
                 "type": "text",
                 "text": "This is the Cosmicon Collective. With it, all conflicts, from academic warfare to culinary preferences, from political ideologies to every single problem humanity has faced since its inception... Every single dispute will find certainty and be resolved."
               }
-            ]
+            ],
+            "id": "p-6a14c84f675aeadb"
           },
           {
             "type": "paragraph",
@@ -163,7 +180,8 @@
                 "type": "text",
                 "text": "That's the Cosmicon Collective."
               }
-            ]
+            ],
+            "id": "p-b5a40a6855f1ab99"
           }
         ]
       }

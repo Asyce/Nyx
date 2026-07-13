@@ -4,10 +4,11 @@
   "id": "asat-pramad-s-proverb",
   "name": "Asat Pramad's Proverb",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Asat_Pramad%27s_Proverb",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -149,7 +150,8 @@
                 "type": "text",
                 "text": "only I can't laugh."
               }
-            ]
+            ],
+            "id": "p-bead2de13a99558f"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "death-is-a-sleep-without-sorrow",
   "name": "Death Is A Sleep Without Sorrow",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Death_Is_A_Sleep_Without_Sorrow",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Greetings, colleague."
               }
-            ]
+            ],
+            "id": "p-7fc92e9ec87b066f"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Welcome to the \"Inkford Hermitage\" Hot Springs Hotel. This special orientation letter will guide you through our end-of-life care service for imagenae, helping you quickly acclimate to our hotel's service philosophy."
               }
-            ]
+            ],
+            "id": "p-94a7c5261a47a8e7"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "(1) As imagenae are lifeforms different from humans, their deaths are also different. The most urgent concern of dying imagenae is not death itself, but rather the loss of the meaning of life. Please do your best to respect and understand the imagenae's unique personalities and living needs during service, and avoid patronizing them by using overly standardized hospitality methods."
               }
-            ]
+            ],
+            "id": "p-95a0d7aeeee6bf10"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "(2) Although it may appear contradictory to (1), we should also be careful to avoid \"over-elating\" our imagenae guests. Imagenae nearing end-of-life should avoid intense emotional fluctuations, which may trigger their collapse into wispae. I am sure we would all like to avoid the headache of dealing with guests suddenly expiring on the premises."
               }
-            ]
+            ],
+            "id": "p-413ee34ecd1347a5"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "(3) Avoid alluding to the Fording during service. Despite the premise's namesake and its association with the process of \"Fording,\" the Fording is a spiritual calling that imagenae will inevitably sense as they approach the end. Interfering with it would be highly immoral. If guests voluntarily bring up the topic, try to respond from a neutral standpoint and avoid inserting personal biases or preferences."
               }
-            ]
+            ],
+            "id": "p-cd934bd11637d792"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "(4) Don't make promises to guests you can't keep. Every imagenae is different, and the length of their final moments varies among each individual. Never attempt to appease them with well-intentioned \"empty promises,\" as failure to deliver may leave your guests bitterly disappointed or even mentally distraught."
               }
-            ]
+            ],
+            "id": "p-b87838540476d233"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "(5) The Myriad Wish Grove near the hotel is an arcadian natural heritage site. Both imagenae and humans must adhere to all applicable laws and regulations when conducting activities in the area."
               }
-            ]
+            ],
+            "id": "p-c23a868e8941cbdb"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "(6) If you encounter a tricky situation that is beyond your judgment capacity, do NOT make unauthorized decisions on behalf of the hotel or guests. Follow the standardized protocol: \"This matter requires me to refer to the IPC for approval,\" and report the situation to senior hotel staff for them to address."
               }
-            ]
+            ],
+            "id": "p-e2bcc6669cc11fbd"
           },
           {
             "type": "paragraph",
@@ -91,7 +100,8 @@
                 "type": "text",
                 "text": "(7) Death may be like falling into an easy sleep, but the time before it is a painful process of baring your life open for judgment. Both aspects exist simultaneously in our work, and both sides should be equally acknowledged by us. Ultimately, our service is a job like any other."
               }
-            ]
+            ],
+            "id": "p-fadc1cece46f3ce8"
           },
           {
             "type": "paragraph",
@@ -100,7 +110,8 @@
                 "type": "text",
                 "text": "Inkford Hermitage Hot Springs Hotel"
               }
-            ]
+            ],
+            "id": "p-27b068456533ada0"
           }
         ]
       }

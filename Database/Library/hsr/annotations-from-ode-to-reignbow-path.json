@@ -4,10 +4,11 @@
   "id": "annotations-from-ode-to-reignbow-path",
   "name": "Annotations from \"Ode to Reignbow Path\"",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Annotations_from_%22Ode_to_Reignbow_Path%22",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "part-i",
       "label": "Part I",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "[Source Text]"
               }
-            ]
+            ],
+            "id": "p-40d93613e9e36ce6"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Ode to Reignbow Path [†1]"
               }
-            ]
+            ],
+            "id": "p-4a0fcd099882e437"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "Anonymous"
               }
-            ]
+            ],
+            "id": "p-b717acaa447f67e6"
           },
           {
             "type": "paragraph",
@@ -151,7 +155,8 @@
                 "type": "text",
                 "text": "Remember how sovereign ruled the ancient lands, yet the mighty Reignbow none may contend."
               }
-            ]
+            ],
+            "id": "p-3394c9f7c17efd9c"
           },
           {
             "type": "paragraph",
@@ -160,7 +165,8 @@
                 "type": "text",
                 "text": "[Editor's Notes]"
               }
-            ]
+            ],
+            "id": "p-6274bfe471ec9aa3"
           },
           {
             "type": "paragraph",
@@ -169,7 +175,8 @@
                 "type": "text",
                 "text": "[†1] This poem is in the ode form, a genre which uses free verse rhyme and meter, flexible structure, and often uses words like \"Ode\" in their title. For ease of reading and due to the length of the poem, the editors had split this work into sections based on progression of the narrative."
               }
-            ]
+            ],
+            "id": "p-0115aef6ede6086b"
           },
           {
             "type": "paragraph",
@@ -178,7 +185,8 @@
                 "type": "text",
                 "text": "[†2] Langgan, Bigui, and Shatang are all mystic trees found in primeval imperium legends, with trunks made of jade and bearing fruits that grant immortality. The Daiyu, the Yuanqiao, and the Cangcheng are all Xianzhou ships that have been destroyed. The Daiyu exploded in 1200 Star Calendar during the campaign against the viscorpi, a Denizen of Abundance race. The Yuanqiao lost control during the Civil War in 3200 Star Calendar, plunging into a red giant and disappearing completely. The Cangcheng was devoured by the activated planet Rahu, Devourer of Worlds, in 6300 Star Calendar. This suggests that the ode was composed after 6300 Star Calendar, but it's also possible that later authors have amended the original."
               }
-            ]
+            ],
+            "id": "p-4409a93a167cb30c"
           },
           {
             "type": "paragraph",
@@ -187,7 +195,8 @@
                 "type": "text",
                 "text": "[†3] This section describes the glorious days when the unnamed sovereign united the entire planet during the Primeval Imperium Age of the Xianzhou Alliance. \"Replacement by Aurumaton\" refers to the story of the sovereign's ban on all forms of weaponry and replacing security institutions with Aurumatons and Ingenia to maintain public order."
               }
-            ]
+            ],
+            "id": "p-ea4a6549e9c0335b"
           },
           {
             "type": "paragraph",
@@ -196,7 +205,8 @@
                 "type": "text",
                 "text": "[†4] \"The divine race\" means the Wingweavers, one of the Denizens of Abundance races. Muldrasil is this race's home world, a planet-sized giant tree that draws energy from the stars. Here, we can see that the Denizens of Abundance had made contact with various Xianzhou clans as early as the Primeval Imperium Age."
               }
-            ]
+            ],
+            "id": "p-d9cd4f07102f980f"
           },
           {
             "type": "paragraph",
@@ -205,7 +215,8 @@
                 "type": "text",
                 "text": "[†5] \"Sanctus Medicus\" is the Plagues Author, one who presides over the Path of Abundance. Today, this title is mainly reserved for the henchmen of the Disciples of Sanctus Medicus."
               }
-            ]
+            ],
+            "id": "p-eeab61f5c6c7515f"
           },
           {
             "type": "paragraph",
@@ -214,7 +225,8 @@
                 "type": "text",
                 "text": "[†6] \"From the budding shores where ambers are plucked\" refers to when Xianzhou observed the Celestial Comet Wall being built by the Aeon Qlipoth. \"Where void whales fend\" refers to the Xianzhou Alliance coming into contact with the void song whales around 500 Star Calendar. This event should have happened before \"ambers are plucked,\" but the poet inverted their order for linguistic flow. Also, based on historical records, the Reignbow Arbiter was born in approximately 1700 Star Calendar, and could not possibly have participated in the aforementioned events. This is evidently a misappropriation. This occurs repeatedly in the text from here on, and individual instances will not be noted further."
               }
-            ]
+            ],
+            "id": "p-bed7bfacc91e2c70"
           },
           {
             "type": "paragraph",
@@ -223,7 +235,8 @@
                 "type": "text",
                 "text": "[†7] \"Puppets disempowered by iron mallets\" refers to the Xianzhou people wresting control of the ships from the Aurumatons, starting around 1400 Star Calendar and finishing with the Heliobi Wars. \"Slaying Viscorpi\" recounts the Xianzhou's battle against the viscorpi around 1200 Star Calendar."
               }
-            ]
+            ],
+            "id": "p-e7fd48eb3f444ff1"
           },
           {
             "type": "paragraph",
@@ -232,13 +245,15 @@
                 "type": "text",
                 "text": "[†8] The \"five Navium Astriger\" and the \"eight Xianzhou ships\" are figurative, used to represent the entire flotilla of the Xianzhou Alliance. This is not an actual count."
               }
-            ]
+            ],
+            "id": "p-85587b311dd3a728"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "part-ii",
       "label": "Part II",
       "document": {
         "version": 1,
@@ -250,7 +265,8 @@
                 "type": "text",
                 "text": "[Source Text]"
               }
-            ]
+            ],
+            "id": "p-40d93613e9e36ce6"
           },
           {
             "type": "paragraph",
@@ -329,7 +345,8 @@
                 "type": "text",
                 "text": "Pushing forward to capture the fire, we the demon sealed. Forced to nurture the Xianzhou, onward it rowed. [†7]"
               }
-            ]
+            ],
+            "id": "p-2be3dd0e42fd3729"
           },
           {
             "type": "paragraph",
@@ -338,7 +355,8 @@
                 "type": "text",
                 "text": "[Editor's Notes]"
               }
-            ]
+            ],
+            "id": "p-6274bfe471ec9aa3"
           },
           {
             "type": "paragraph",
@@ -347,7 +365,8 @@
                 "type": "text",
                 "text": "[†1] In the legends of the Primeval Imperium, the moon was a \"Gloomy Hare,\" while the sun was a \"Golden Crow.\" This refers to the Reignbow (the Xianzhou fleet) sailing across the cosmos."
               }
-            ]
+            ],
+            "id": "p-956c30d42e973c8f"
           },
           {
             "type": "paragraph",
@@ -356,7 +375,8 @@
                 "type": "text",
                 "text": "[†2] Historical records describe heliobi as a species of formless energy creatures that can absorb human emotion and influence behaviors."
               }
-            ]
+            ],
+            "id": "p-1eba705ca911432c"
           },
           {
             "type": "paragraph",
@@ -365,7 +385,8 @@
                 "type": "text",
                 "text": "[†3] \"Red star\" here refers to the red micro-star formed by the heliobi to capture the Xianzhou fleet."
               }
-            ]
+            ],
+            "id": "p-f3fb8f2d372f11ae"
           },
           {
             "type": "paragraph",
@@ -374,7 +395,8 @@
                 "type": "text",
                 "text": "[†4] The Primeval Imperium's literature had stated, \"the frontline is called the vanguard, and behind them stands the centerguard.\" \"Centerguard\" refers to the auxiliary engines of the Xianzhou Yaoqing. This line refers to how the suicide squad, led by the Reignbow, disassembled and weaponized the ship's auxiliary engines to fight the heliobi."
               }
-            ]
+            ],
+            "id": "p-262af6ed09721d40"
           },
           {
             "type": "paragraph",
@@ -383,7 +405,8 @@
                 "type": "text",
                 "text": "[†5] \"Heavenly pavilions\" refers to the \"Skyward Pavilions neighborhood\" residential area aboard the Xianzhou Luofu. Another possible interpretation is the Divination Commission's \"Cloud Pavilion.\" It indicates how widespread the shockwave was felt."
               }
-            ]
+            ],
+            "id": "p-2d7e38b452d6d172"
           },
           {
             "type": "paragraph",
@@ -392,7 +415,8 @@
                 "type": "text",
                 "text": "[†6] Historical records show that the Xianzhou's suicide squad sent the weaponized auxiliary engine straight into the red star formed by the heliobi, causing it to undergo early decay and implode into a black hole. This line is the first in the history of Xianzhou literature to describe this process."
               }
-            ]
+            ],
+            "id": "p-4555eb6936d1f5ad"
           },
           {
             "type": "paragraph",
@@ -401,13 +425,15 @@
                 "type": "text",
                 "text": "[†7] Based on records, the Xianzhou residents locked up the defeated heliobi leader, the Flint Emperor, sentencing them to serve as the power source for the Xianzhou Zhuming for the rest of their eternal life."
               }
-            ]
+            ],
+            "id": "p-36ff2aefce076e61"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "part-iii",
       "label": "Part III",
       "document": {
         "version": 1,
@@ -419,7 +445,8 @@
                 "type": "text",
                 "text": "[Source Text]"
               }
-            ]
+            ],
+            "id": "p-40d93613e9e36ce6"
           },
           {
             "type": "paragraph",
@@ -519,7 +546,8 @@
                 "type": "text",
                 "text": "Yet exiled to cold coffins for long watchful sleep, this warrior of yesteryear all forgotten.[†8]"
               }
-            ]
+            ],
+            "id": "p-50740cb33004e79e"
           },
           {
             "type": "paragraph",
@@ -528,7 +556,8 @@
                 "type": "text",
                 "text": "[Editor's Notes]"
               }
-            ]
+            ],
+            "id": "p-6274bfe471ec9aa3"
           },
           {
             "type": "paragraph",
@@ -537,7 +566,8 @@
                 "type": "text",
                 "text": "[†1] The people of the Primeval Imperium once believed that the Moon was an \"ice toad,\" while the Sun was \"six dragons.\" This refers to Reignbow (and the Xianzhou) sailing across the cosmos."
               }
-            ]
+            ],
+            "id": "p-1d19a2c22a56059c"
           },
           {
             "type": "paragraph",
@@ -546,7 +576,8 @@
                 "type": "text",
                 "text": "[†2] \"A ship\" refers to the Xianzhou Luofu, indicating that it was the highest-ranked ship in the Alliance. \"Heaven's Mast\" refers to the Ambrosial Arbor. This is describing how the seeds of the Ambrosial Arbor took root aboard the Xianzhou Luofu. However, the Xianzhou Luofu only became the flagship of the Alliance after receiving the Ambrosial Arbor. Here the sequence is reverted, probably out of artistic license."
               }
-            ]
+            ],
+            "id": "p-59fe6e8114424ba9"
           },
           {
             "type": "paragraph",
@@ -555,7 +586,8 @@
                 "type": "text",
                 "text": "[†3] The people of the Primeval Imperium used \"wild horses,\" \"fog,\" and \"clouds\" to refer generally to clouds, air, and dust. The structure of this sentence is inverted, with the gist being \"even clouds and dust grew eloquent through the Ambrosial Arbor's Elevation.\" According to historical records, the Xianzhou experimented with the Arbor's fruit, \"Elevating\" animals to the point of mimicking human sentience and speech. The line is probably referring to this event."
               }
-            ]
+            ],
+            "id": "p-5391274e4c49d397"
           },
           {
             "type": "paragraph",
@@ -564,7 +596,8 @@
                 "type": "text",
                 "text": "[†4] The motif of \"merged with the jade\" originated when the sage Xuan Yao embedding the jade abacus directly into the human skull to peer into the future. This is evidently a misappropriation. The \"Wisdomwalker\" is the one who presides over the Path of Erudition."
               }
-            ]
+            ],
+            "id": "p-a4994b5d5753f56b"
           },
           {
             "type": "paragraph",
@@ -573,7 +606,8 @@
                 "type": "text",
                 "text": "[†5] \"Crippled,\" \"defiled,\" \"maddened,\" \"mutated,\" and \"forgetfulness\" are the five symptoms of being mara-struck. \"Crippled\" means that, after suffering grave injuries from external violence, the body must utilize its self-healing capacities to undergo long and painful periods of repair. \"Defiled\" means that, due to the immortality of the flesh for the Xianzhou people, the body may be forced to eternally co-exist with incurable alien viruses or bacteria. \"Maddened\" means the person starts to feel anger and violent desires, and starts to have extreme mood swings. \"Mutated\" means the flesh is starting to produce mutated organs and can no longer maintain a stable humanoid form. \"Forgetfulness\" means the person's mind is taken over by a sense of emptiness, and spends their days in an oblivious daze. This section describes how, after the Reignbow became one with the jade, they saw the tragic future of the Xianzhou residents, where the people became mara-struck due to their immortality."
               }
-            ]
+            ],
+            "id": "p-60b3311ae18d483a"
           },
           {
             "type": "paragraph",
@@ -582,7 +616,8 @@
                 "type": "text",
                 "text": "[†6] \"Mad against Diviners\" originates from a Xianzhou folk legend about a person who believed the Ambrosial Arbor to be an alien monstrosity. Opposed to longevity, they feigned madness to publicly express their ardent opinion. Here, \"Diviners\" generally refers to the Xianzhou aristocrats, and can be extended to include the Arbor's fruit, as the aristocrats were the first Xianzhou residents to receive the sacred fruit."
               }
-            ]
+            ],
+            "id": "p-8ca299509f2369ea"
           },
           {
             "type": "paragraph",
@@ -591,7 +626,8 @@
                 "type": "text",
                 "text": "[†7] \"Ancient sovereign's obsession\" refers to the nameless sovereign who united the Primeval Imperium. The Reignbow believed that the Xianzhou residents were blinded by the seduction of an endless lifespan and were no different from the nameless sovereign's rapacious fear of death. This drove Reignbow furious."
               }
-            ]
+            ],
+            "id": "p-b58283b1877a8a08"
           },
           {
             "type": "paragraph",
@@ -600,13 +636,15 @@
                 "type": "text",
                 "text": "[†8] This section describes the Reignbow's opposition to immortality, and how they shot an arrow into the Ambrosial Arbor to show their resolve. The Xianzhou aristocrats who had eaten the fruit of immortality grew enraged and convicted them. However, awed by the Reignbow's heroic exploits and prestige, they could only sentence the hero to continual hibernation. \"Watchful sleep\" refers to the rotating cryo-sleep system used when the Xianzhou Alliance first left its home world. \"Cold coffins\" are the cryo-sleep pods."
               }
-            ]
+            ],
+            "id": "p-51ddf82da427fd4e"
           }
         ]
       }
     },
     {
       "id": "4",
+      "volumeKey": "part-iv",
       "label": "Part IV",
       "document": {
         "version": 1,
@@ -618,7 +656,8 @@
                 "type": "text",
                 "text": "[Source Text]"
               }
-            ]
+            ],
+            "id": "p-40d93613e9e36ce6"
           },
           {
             "type": "paragraph",
@@ -690,7 +729,8 @@
                 "type": "text",
                 "text": "All the people rose to follow the Reignbow's example, daring to guard the sky and protect home and company.[†4]"
               }
-            ]
+            ],
+            "id": "p-1c972d383d8782d3"
           },
           {
             "type": "paragraph",
@@ -699,7 +739,8 @@
                 "type": "text",
                 "text": "[Editor's Notes]"
               }
-            ]
+            ],
+            "id": "p-6274bfe471ec9aa3"
           },
           {
             "type": "paragraph",
@@ -708,7 +749,8 @@
                 "type": "text",
                 "text": "[†1] \"Thick as fog\" and \"clouds aplenty\" describe the vast size of the Denizens of Abundance's armed forces."
               }
-            ]
+            ],
+            "id": "p-2ca428b475284756"
           },
           {
             "type": "paragraph",
@@ -717,7 +759,8 @@
                 "type": "text",
                 "text": "[†2] To repulse the invasion, the Xianzhou people decided to raise Reignbow from their slumber. Once awakened, the Reignbow analyzed the situation and concocted a strategy to break the deadlock."
               }
-            ]
+            ],
+            "id": "p-b5a5d3550fc83f04"
           },
           {
             "type": "paragraph",
@@ -726,7 +769,8 @@
                 "type": "text",
                 "text": "[†3] Reignbow ignored common advice, heading into the prison deep within the Xianzhou Zhuming and persuaded the imprisoned heliobi leader, the Flint Emperor, to help the Xianzhou fight off the Denizens of Abundance. They made a deal and the Reignbow allowed the Flint Emperor to possess their physical body, in exchange for the power of the heliobi."
               }
-            ]
+            ],
+            "id": "p-7e67397f9a681d6e"
           },
           {
             "type": "paragraph",
@@ -735,7 +779,8 @@
                 "type": "text",
                 "text": "[†4] Inspired by the hero's sacrifice, many Xianzhou residents made the same heroic deal. They formed suicide squads and marched alongside the heliobi. As clouds that cover the heavens, will the warriors protect the Xianzhou and soar eternal. This is the origin story of the name \"Cloud Knights.\""
               }
-            ]
+            ],
+            "id": "p-fe95258b7b85960d"
           },
           {
             "type": "paragraph",
@@ -765,13 +810,15 @@
                 "type": "text",
                 "text": "Fatigued from the Civil War (the \"Living Catastrophe\" of the Three Sufferings), the aurumaton rebellion, and their emigration plan, the Xianzhou residents were powerless to counter such a crisis. They released all the prisoners in cryo-hibernation — including the hero of this epic ode, the Reignbow."
               }
-            ]
+            ],
+            "id": "p-f28ed5c156a07cc8"
           }
         ]
       }
     },
     {
       "id": "5",
+      "volumeKey": "part-v",
       "label": "Part V",
       "document": {
         "version": 1,
@@ -783,7 +830,8 @@
                 "type": "text",
                 "text": "[Source Text]"
               }
-            ]
+            ],
+            "id": "p-40d93613e9e36ce6"
           },
           {
             "type": "paragraph",
@@ -876,7 +924,8 @@
                 "type": "text",
                 "text": "Woe is the hero and all their shed tears. They no longer chase the Luofu, but other stars that roam."
               }
-            ]
+            ],
+            "id": "p-d0d543544e087e2e"
           },
           {
             "type": "paragraph",
@@ -885,7 +934,8 @@
                 "type": "text",
                 "text": "[Editor's Notes]"
               }
-            ]
+            ],
+            "id": "p-6274bfe471ec9aa3"
           },
           {
             "type": "paragraph",
@@ -894,7 +944,8 @@
                 "type": "text",
                 "text": "[†1] \"Xuanyuan\" is a famed bow of legend from the Primeval Imperium. Here, it refers to the Reignbow's weapon."
               }
-            ]
+            ],
+            "id": "p-20fdbbaa90545f46"
           },
           {
             "type": "paragraph",
@@ -903,7 +954,8 @@
                 "type": "text",
                 "text": "[†2] This line transitions rather bluntly. Together with the next line, it is possibly a speech by the Reignbow to boost morale before the battle. Another interpretation is that the Reignbow knew their death was near, and deliberately left their final words."
               }
-            ]
+            ],
+            "id": "p-9a7afe5a04d4bc2a"
           },
           {
             "type": "paragraph",
@@ -912,7 +964,8 @@
                 "type": "text",
                 "text": "[†3] This may be the origin behind the common battle cries of the Cloud Knights — \"Xianzhou soars, roars!\" and \"In valor and vigor, cleanse all ills!\" but it's also possible that later generations amended this. Academics hold different theories, and the order of the lines is still up for debate."
               }
-            ]
+            ],
+            "id": "p-053316ecdeedf3a8"
           },
           {
             "type": "paragraph",
@@ -921,7 +974,8 @@
                 "type": "text",
                 "text": "[†4] The historical record shows the battle formation during this war was in this order, from the nearest to Muldrasil to the furthest: The Yaoqing, the Luofu, the Yuque, the Zhuming, the Fanghu, the Cangcheng, and the Xuling. The Xuling and Fanghu were far from the frontlines. Other records point to the Reignbow firing their arrow from the bow of the Yaoqing. This line describes the size of the impact from the Reignbow's star-shattering shot, and how every ship in the Xianzhou Alliance was affected."
               }
-            ]
+            ],
+            "id": "p-2e404b13115f4d05"
           },
           {
             "type": "paragraph",
@@ -930,7 +984,8 @@
                 "type": "text",
                 "text": "[†5] Based on historical records, the Reignbow's arrow smashed into the Ambrosial Arbor, penetrated the almighty beast, and severed the connection between the Luofu and Muldrasil. This ripped open a fissure into the void, and a monstrous wave of imaginary force spewed forth from it. This line describes that event."
               }
-            ]
+            ],
+            "id": "p-a29c2da43e43cf29"
           },
           {
             "type": "paragraph",
@@ -939,7 +994,8 @@
                 "type": "text",
                 "text": "[†6] Based on historical records, the Reignbow disappeared after shooting the arrow that turned the tide of battle, but the Flint Emperor had left behind part of their body. This line claims that the Xianzhou people could find neither of them. Perhaps this poem records mere rumor."
               }
-            ]
+            ],
+            "id": "p-28293b784b03a010"
           },
           {
             "type": "paragraph",
@@ -948,7 +1004,8 @@
                 "type": "text",
                 "text": "[†7] \"Ingot,\" \"Jiyuan,\" \"electromagnetic cloud,\" and \"circle\" in these two lines describe how the people of Xianzhou, in commemorating the Reignbow's sacrifice, embedded their relics into a Jiyuan ingot and launched it into Muldrasil's orbit, so it can shine as long as the star exists. There is no mention of such in existing records, and the incident may be poetic license from the author. Moreover, this is the first ever mention of the Jiyuan Ingot launch ceremony in the history of Xianzhou literature, but neither the time that this custom started nor the date of this ode's composition can be verified."
               }
-            ]
+            ],
+            "id": "p-1c7a8c39262e02f8"
           }
         ]
       }

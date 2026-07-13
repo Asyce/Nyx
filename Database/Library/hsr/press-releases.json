@@ -4,10 +4,11 @@
   "id": "press-releases",
   "name": "Press Releases",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Press_Releases",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-4b41fe88807fea8e"
           },
           {
             "type": "paragraph",
@@ -47,7 +49,8 @@
                 "type": "text",
                 "text": "This prosperous scene is largely attributed to the wise leadership of The Family and the joint efforts of each major lineage. Undoubtedly, the Charmony Festival around the corner is bound to be a lively event."
               }
-            ]
+            ],
+            "id": "p-7d6865c03c69ece7"
           },
           {
             "type": "paragraph",
@@ -61,7 +64,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-777bcd5dd4c83f92"
           },
           {
             "type": "paragraph",
@@ -84,7 +88,8 @@
                 "type": "text",
                 "text": "This accomplishment illustrates the fact that unity is the most powerful force in universe. Mr. Sunday is confident that Penacony's tourism industry will continue to reach greater heights in the near future, allowing more people to experience the harmony and beauty of the place. He also hopes every guest will enjoy their time in the Dreamscape, and that The Family is committed to ensuring their safety and enjoyment."
               }
-            ]
+            ],
+            "id": "p-2233ef5f97590a37"
           },
           {
             "type": "paragraph",
@@ -98,7 +103,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-900d73a47d85ac84"
           },
           {
             "type": "paragraph",
@@ -121,7 +127,8 @@
                 "type": "text",
                 "text": "In the new Amber Era, SoulGlad will continue to invest and innovate, striving to provide a more diverse range of healthier and tastier products that will form part of the future beautiful Dreamscape."
               }
-            ]
+            ],
+            "id": "p-937bfa4e9bb5de85"
           },
           {
             "type": "paragraph",
@@ -135,7 +142,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-26c16f0382a66404"
           },
           {
             "type": "paragraph",
@@ -158,7 +166,8 @@
                 "type": "text",
                 "text": "As of now, all of the illicit gains of the suspect have been returned to the Alfalfa Bank. We would like to remind everyone to be more vigilant when it comes to financial issues. Please acquire wealth ethically and refrain from taking shortcuts."
               }
-            ]
+            ],
+            "id": "p-0889d3bdb7339084"
           },
           {
             "type": "paragraph",
@@ -172,7 +181,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-9e4936fb0ae14a0a"
           },
           {
             "type": "paragraph",
@@ -195,7 +205,8 @@
                 "type": "text",
                 "text": "We believe it will not be long before the new area opens its door to all guests. Let us all look forward to even grander Dreamscape experiences offered by the new expansion."
               }
-            ]
+            ],
+            "id": "p-f76a68a5e1129503"
           }
         ]
       }

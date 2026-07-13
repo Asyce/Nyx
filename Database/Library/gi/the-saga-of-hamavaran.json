@@ -4,10 +4,11 @@
   "id": "the-saga-of-hamavaran",
   "name": "The Saga of Hamavaran",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/The_Saga_of_Hamavaran",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Foreword"
               }
-            ]
+            ],
+            "id": "p-329d97572b67c7b6"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Thanks to a fruitful new writer recruitment drive and the phenomenal success of the contest \"This Novel is Amazing!\" we have received many highly original works from up-and-coming writers all over the world. We would like to take this opportunity to thank our international writers for supporting Inazuma's light novel industry, and we'd also like to thank Kanjou Commissioner Hiiragi Shinsuke for his grace and generosity. It is thanks to all of you that we are able to bring so many outstanding works to the readers of Inazuma here today."
               }
-            ]
+            ],
+            "id": "p-574b48b948551ce8"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "As you all know, prior to the promulgation of the Sakoku Decree, a number of accomplished samurai from various lands were active in Inazuma. One of them, whose name is Hamavaran, hails from the distant rainforest nation of Sumeru, but came all the way to the land of the lightning's glow to be an agent of chivalry. Though tales of Hamavaran's deeds were once buried during the peak of unchanging eternity under Her Excellency the Shogun, they have now been given life anew thanks to the narrative prowess of a good friend of mine, the budding author, Pursina."
               }
-            ]
+            ],
+            "id": "p-c28ed546a7e4a81a"
           },
           {
             "type": "paragraph",
@@ -46,13 +50,15 @@
                 "type": "text",
                 "text": "Now, without further ado, please enjoy \"The Saga of Hamavaran\" at your leisure."
               }
-            ]
+            ],
+            "id": "p-363099d297245939"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
@@ -74,7 +80,8 @@
                 "type": "text",
                 "text": "This was the thought occupying Hamavaran's mind on his long voyage to Inazuma..."
               }
-            ]
+            ],
+            "id": "p-6f55cb39075b25df"
           },
           {
             "type": "paragraph",
@@ -93,7 +100,8 @@
                 "type": "text",
                 "text": "The familiar-sounding voice came from outside the cabin."
               }
-            ]
+            ],
+            "id": "p-6c81e785c8e84ef5"
           },
           {
             "type": "paragraph",
@@ -112,7 +120,8 @@
                 "type": "text",
                 "text": "\"Who, me? Is that important?\""
               }
-            ]
+            ],
+            "id": "p-250131015e75a0e5"
           },
           {
             "type": "paragraph",
@@ -131,7 +140,8 @@
                 "type": "text",
                 "text": "\"Hey...\""
               }
-            ]
+            ],
+            "id": "p-c83bc06fd0637b3d"
           },
           {
             "type": "paragraph",
@@ -140,7 +150,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -149,7 +160,8 @@
                 "type": "text",
                 "text": "And so, as the great thunderstorm raged, shaking the seas and heavens alike, Hamavaran began arguing with the quiet voice from outside the window, while all worries about the storm and fears about not completing the thesis on time paled into insignificance."
               }
-            ]
+            ],
+            "id": "p-96739484bbe6302a"
           },
           {
             "type": "paragraph",
@@ -158,7 +170,8 @@
                 "type": "text",
                 "text": "But strangely, when Hamavaran arrived on shore, the owner of the voice that had been arguing back from outside the window was nowhere to be seen."
               }
-            ]
+            ],
+            "id": "p-b3ca42e3edb7160c"
           },
           {
             "type": "paragraph",
@@ -177,7 +190,8 @@
                 "type": "text",
                 "text": "Hamavaran considered this possibility."
               }
-            ]
+            ],
+            "id": "p-02b530f46425e1f2"
           },
           {
             "type": "paragraph",
@@ -186,7 +200,8 @@
                 "type": "text",
                 "text": "Ghosts are just the Ley Lines' memories of the deceased, Hamavaran reasoned. It's a completely natural phenomenon that occurs due to resonance between past and present. To be sure, it's highly unusual for this to happen in the middle of the ocean, but it's by no means impossible."
               }
-            ]
+            ],
+            "id": "p-fc901dc209649cf4"
           },
           {
             "type": "paragraph",
@@ -205,13 +220,15 @@
                 "type": "text",
                 "text": "Hamavaran had finally produced a satisfactory hypothesis to explain away the symptoms of delirium and had moved onto luggage-collection when the familiar voice piped up once more."
               }
-            ]
+            ],
+            "id": "p-b324240bd95a1397"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "vol-3",
       "label": "Vol. 3",
       "document": {
         "version": 1,
@@ -273,7 +290,8 @@
                 "type": "text",
                 "text": "The talkative young girl, who claimed to be a shikigami, gulped down glutinous-rice dango with such speed and intensity that Hamavaran began to worry she might choke."
               }
-            ]
+            ],
+            "id": "p-31d851ce544246d5"
           },
           {
             "type": "paragraph",
@@ -322,7 +340,8 @@
                 "type": "text",
                 "text": "Both involve signing a pact using one's real name. The notion that you can command someone when you know their real name is common to many of the world's mystic traditions, and it highlights a core fear held by humans: the fear of being under someone else's control."
               }
-            ]
+            ],
+            "id": "p-4e097d837865e9c4"
           },
           {
             "type": "paragraph",
@@ -351,7 +370,8 @@
                 "type": "text",
                 "text": "But maybe running into this noisy little thing is a stroke of good luck for me..."
               }
-            ]
+            ],
+            "id": "p-ed1fbbdd2c1df676"
           }
         ]
       }

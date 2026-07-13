@@ -4,10 +4,11 @@
   "id": "a-letter-of-diffidation",
   "name": "A Letter of Diffidation",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/A_Letter_of_Diffidation",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-a4192fc4e3e1c22e"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "Firstly, allow me to start this letter by admitting how ashamed I am of my inability to see through people."
               }
-            ]
+            ],
+            "id": "p-9a678df9b883907d"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "Once, I regarded you as a close companion and even treated you like my own child. I entrusted you with my authority within the academic community, because I genuinely cared for you and believed in your potential and our shared future."
               }
-            ]
+            ],
+            "id": "p-1703b87fa42c0829"
           },
           {
             "type": "paragraph",
@@ -51,7 +55,8 @@
                 "type": "text",
                 "text": "However, it is disheartening to see how you have chosen to repay my kindness —"
               }
-            ]
+            ],
+            "id": "p-9d1b8a5fbaaa0434"
           },
           {
             "type": "paragraph",
@@ -60,7 +65,8 @@
                 "type": "text",
                 "text": "Without shame, you have stabbed me in the back! Spread malicious rumors! And incited discord!"
               }
-            ]
+            ],
+            "id": "p-a2a1b8bf9374d99e"
           },
           {
             "type": "paragraph",
@@ -69,7 +75,8 @@
                 "type": "text",
                 "text": "I have heard that you accuse me of fostering a culture of childlike dependence among my students and claim that my paternal authority has hindered your academic growth. As you have come to this conclusion, I will refrain from offering any further defense or judgment."
               }
-            ]
+            ],
+            "id": "p-274055f37eab1ec4"
           },
           {
             "type": "paragraph",
@@ -78,7 +85,8 @@
                 "type": "text",
                 "text": "Over the years, I have become accustomed to facing accusations and interrogations from my critics. Yet, when confronted with your misguided statement, I find solace in the fact that our futile relationship has finally come to an end, that we have finally gone our separate ways, and that the deceitful, hypocritical, and ungrateful insect, along with his followers, has departed from my realm of knowledge!"
               }
-            ]
+            ],
+            "id": "p-6298612c1cff62ba"
           },
           {
             "type": "paragraph",
@@ -87,7 +95,8 @@
                 "type": "text",
                 "text": "The greatest regret of my life is having considered you a friend. This is closely followed by compromising and contorting myself in an attempt to salvage our superficial friendship."
               }
-            ]
+            ],
+            "id": "p-2e73ed08ee7fd936"
           },
           {
             "type": "paragraph",
@@ -96,7 +105,8 @@
                 "type": "text",
                 "text": "In the end, I offer you the following advice —"
               }
-            ]
+            ],
+            "id": "p-d00c448107772ff4"
           },
           {
             "type": "paragraph",
@@ -110,7 +120,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-d19999e08efc479c"
           },
           {
             "type": "paragraph",
@@ -124,7 +135,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ab9261f807744995"
           }
         ]
       }

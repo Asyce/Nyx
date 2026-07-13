@@ -4,10 +4,11 @@
   "id": "magical-girl-cocolia",
   "name": "Magical Girl Cocolia",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Magical_Girl_Cocolia",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-e5511129ae961028"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "A tiny crack appears, followed by a sharp snap. Fractures race across the Guardian Wand. Cocolia reaches out to stop the wand from its disintegration, but her hands find only gravel."
               }
-            ]
+            ],
+            "id": "p-19d2ba0f266dad74"
           },
           {
             "type": "paragraph",
@@ -51,7 +55,8 @@
                 "type": "text",
                 "text": "\"Without that wand, you're nothing! Hahahaha!\""
               }
-            ]
+            ],
+            "id": "p-1a1fd18bcf869c6c"
           },
           {
             "type": "paragraph",
@@ -60,7 +65,8 @@
                 "type": "text",
                 "text": "The Light-Eater, a Calamity-level aberration, laughs in triumph. Its full-power strike wasn't meant for Cocolia. It was aimed at the device that held the power of the Preservation."
               }
-            ]
+            ],
+            "id": "p-c5497abc466e653d"
           },
           {
             "type": "paragraph",
@@ -69,7 +75,8 @@
                 "type": "text",
                 "text": "Fragments of the Guardian Wand slip through Cocolia's fingers, turning into dull, ordinary stone. A bone-chilling despair takes hold of her heart, colder and more deadly than the aberration's frost. She can't stop shaking."
               }
-            ]
+            ],
+            "id": "p-2454b6b641fa2415"
           },
           {
             "type": "paragraph",
@@ -78,7 +85,8 @@
                 "type": "text",
                 "text": "\"Look at you! How pathetic!\" The aberration's body quivers with laughter as shadows swirl around it. \"Without that toy, you're just another ant waiting to be crushed. Your 'Preservation' is nothing but borrowed light!\""
               }
-            ]
+            ],
+            "id": "p-e4880d52c4193295"
           },
           {
             "type": "paragraph",
@@ -87,7 +95,8 @@
                 "type": "text",
                 "text": "Cocolia clenches her fists, her nails digging into her skin. The Guardian Wand was her faith made manifest and her only way to become a Frost Giant. Without it, she's only human. How can she fight a monstrous aberration? The beast is right. She's relied on that wand for so long she almost forgot..."
               }
-            ]
+            ],
+            "id": "p-e9590948437d7000"
           },
           {
             "type": "paragraph",
@@ -96,7 +105,8 @@
                 "type": "text",
                 "text": "Forgot what?"
               }
-            ]
+            ],
+            "id": "p-48c0b83ef03b731e"
           },
           {
             "type": "paragraph",
@@ -105,7 +115,8 @@
                 "type": "text",
                 "text": "When she first touched the wand, her palm didn't feel power... but the weight of responsibility."
               }
-            ]
+            ],
+            "id": "p-ac9558fd70e4daf4"
           },
           {
             "type": "paragraph",
@@ -114,7 +125,8 @@
                 "type": "text",
                 "text": "Every time she transformed, it wasn't some outside force. It was the will to protect something, awakened from deep inside her."
               }
-            ]
+            ],
+            "id": "p-3b54b427493b4e5a"
           },
           {
             "type": "paragraph",
@@ -123,7 +135,8 @@
                 "type": "text",
                 "text": "The aberration's shadow whips lash out like giant snakes. Cocolia leaps back with her movements messy and desperate, nothing like her usual grace. Sharp stones cut her cheek. The beast attacks without restraint, savoring its victory."
               }
-            ]
+            ],
+            "id": "p-55f34effccfc8fff"
           },
           {
             "type": "paragraph",
@@ -132,7 +145,8 @@
                 "type": "text",
                 "text": "\"Borrowed... light?\" Cocolia pants, whispering the words. She looks at the broken city and the terrified people running through the rubble. Those lights, those lives... that's what she swore to protect when she arrived in Planarcadia."
               }
-            ]
+            ],
+            "id": "p-45c0f4406274f052"
           },
           {
             "type": "paragraph",
@@ -141,7 +155,8 @@
                 "type": "text",
                 "text": "The wand is gone, but she's still here."
               }
-            ]
+            ],
+            "id": "p-64fe46705eda33c4"
           },
           {
             "type": "paragraph",
@@ -150,7 +165,8 @@
                 "type": "text",
                 "text": "Her will to protect didn't break with the wand."
               }
-            ]
+            ],
+            "id": "p-cf046b114416aadc"
           },
           {
             "type": "paragraph",
@@ -159,7 +175,8 @@
                 "type": "text",
                 "text": "\"You're right! The wand was only a vessel. Now, I will be the LIGHT!\" Cocolia looks up, her eyes burning with resolve. \"People of Duomension City! I am your Supreme Guardian, Cocolia! Lend me your Wishpower!\""
               }
-            ]
+            ],
+            "id": "p-e1b7b5c65dae93b3"
           },
           {
             "type": "paragraph",
@@ -168,7 +185,8 @@
                 "type": "text",
                 "text": "Thousands of tiny lights rise from the ruins, cutting through the shadows and flooding the battlefield. Icy blue light erupts from Cocolia. It's not just armor anymore. It's... a part of her."
               }
-            ]
+            ],
+            "id": "p-c8bad367d3747769"
           },
           {
             "type": "paragraph",
@@ -177,7 +195,8 @@
                 "type": "text",
                 "text": "And amidst the biting wind, Frost Giant stood towering over the earth."
               }
-            ]
+            ],
+            "id": "p-3136c10e94ad3d5e"
           },
           {
             "type": "paragraph",
@@ -186,7 +205,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           }
         ]
       }

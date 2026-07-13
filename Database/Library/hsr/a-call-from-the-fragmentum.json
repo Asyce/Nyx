@@ -4,10 +4,11 @@
   "id": "a-call-from-the-fragmentum",
   "name": "A Call From The Fragmentum",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/A_Call_From_The_Fragmentum",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "clues-from-the-conversation",
       "label": "Clues From the Conversation",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "This note was used to record a bizarre phone call that took place inside the Fragmentum."
               }
-            ]
+            ],
+            "id": "p-47a78e6461f4dccc"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "The caller's name is unknown. Female, estimated to be 40 years old by her voice. Her voice jumps around and sounds tired."
               }
-            ]
+            ],
+            "id": "p-a6463b78fd88bd47"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "The caller seems to be arguing with someone whose name begins with \"Sco—\". Initially, it is inferred that these two are in a marital relationship, and the work situation of this \"Sco—\" is causing disharmony in the marriage."
               }
-            ]
+            ],
+            "id": "p-390bb9911fec7cdf"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "The caller has a daughter named Beatrice whose birthday is on February 13 (0213)."
               }
-            ]
+            ],
+            "id": "p-e3a31ca8dcea891c"
           },
           {
             "type": "paragraph",
@@ -55,13 +60,15 @@
                 "type": "text",
                 "text": "These are all the clues from the phone call, recorded onto this note as a memo."
               }
-            ]
+            ],
+            "id": "p-e4d4472659b090e3"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "incident-report-compiled-by-the-guards",
       "label": "Incident Report Compiled by the Guards",
       "document": {
         "version": 1,
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "[Time]"
               }
-            ]
+            ],
+            "id": "p-4293653891128ebb"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "February 15, 685 AF"
               }
-            ]
+            ],
+            "id": "p-4ddfa2c04021ad07"
           },
           {
             "type": "paragraph",
@@ -91,7 +100,8 @@
                 "type": "text",
                 "text": "[Type]"
               }
-            ]
+            ],
+            "id": "p-e1aade8b236f1e11"
           },
           {
             "type": "paragraph",
@@ -100,7 +110,8 @@
                 "type": "text",
                 "text": "Traffic Incident Casualties Report"
               }
-            ]
+            ],
+            "id": "p-24db0849a00c8059"
           },
           {
             "type": "paragraph",
@@ -109,7 +120,8 @@
                 "type": "text",
                 "text": "[Department]"
               }
-            ]
+            ],
+            "id": "p-a39417f3184d8b52"
           },
           {
             "type": "paragraph",
@@ -118,7 +130,8 @@
                 "type": "text",
                 "text": "Belobog Traffic Department"
               }
-            ]
+            ],
+            "id": "p-717e885de5f31efa"
           },
           {
             "type": "paragraph",
@@ -127,7 +140,8 @@
                 "type": "text",
                 "text": "[Follow-up Coordinator]"
               }
-            ]
+            ],
+            "id": "p-fc04c7cd57a67be0"
           },
           {
             "type": "paragraph",
@@ -143,7 +157,8 @@
                 "type": "text",
                 "text": "Belobog Traffic Department Officer Mary Bradley"
               }
-            ]
+            ],
+            "id": "p-5e6159875b466f97"
           },
           {
             "type": "paragraph",
@@ -152,7 +167,8 @@
                 "type": "text",
                 "text": "[Incident Description]"
               }
-            ]
+            ],
+            "id": "p-fe94c6a8fd24c901"
           },
           {
             "type": "paragraph",
@@ -161,7 +177,8 @@
                 "type": "text",
                 "text": "At 19:33 on the evening of February 14, 685 AF, a car accident occurred in a business street of the Belobog Administrative District. A 675 Bronze Wall sedan collided with a mother and her daughter as they crossed the street."
               }
-            ]
+            ],
+            "id": "p-4d692a65844b7cf8"
           },
           {
             "type": "paragraph",
@@ -170,7 +187,8 @@
                 "type": "text",
                 "text": "The driver contacted the Silvermane Guards after, and the two victims were checked for vital signs once the guards arrived. The older woman was found to have died instantly, while the young girl suffered serious head trauma and was immediately sent to the hospital where she remained in a coma as of the date of the report. The driver and his vehicle had both been detained by the Silvermane Guards, pending further investigation."
               }
-            ]
+            ],
+            "id": "p-49f9e48107b9f96d"
           },
           {
             "type": "paragraph",
@@ -179,7 +197,8 @@
                 "type": "text",
                 "text": "The victims' identities have been confirmed. The deceased is Alyssia Prince (38) and the seriously injured is Beatrice Prince (5). As of 22:15 on February 15, the Silvermane Guards have contacted the surviving spouse, Scott Prince (40). Mr. Prince works in the Underworld, and expressed extreme distress upon learning of the situation. The Traffic Department will arrange for psychiatric support."
               }
-            ]
+            ],
+            "id": "p-591422615493f52a"
           },
           {
             "type": "paragraph",
@@ -188,7 +207,8 @@
                 "type": "text",
                 "text": "For any follow-up questions about this incident, please contact Mary Bradley at the Belobog Traffic Department."
               }
-            ]
+            ],
+            "id": "p-1971e6f7cb506133"
           }
         ]
       }

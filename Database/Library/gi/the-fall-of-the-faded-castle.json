@@ -4,10 +4,11 @@
   "id": "the-fall-of-the-faded-castle",
   "name": "The Fall of the Faded Castle",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/The_Fall_of_the_Faded_Castle",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
@@ -131,13 +132,15 @@
                 "type": "text",
                 "text": "Or perhaps the nightmare itself?"
               }
-            ]
+            ],
+            "id": "p-c5026297523a5764"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
@@ -317,13 +320,15 @@
                 "type": "text",
                 "text": "As tribute to that dark, ancient world."
               }
-            ]
+            ],
+            "id": "p-1d52bc900038da7b"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "vol-3",
       "label": "Vol. 3",
       "document": {
         "version": 1,
@@ -517,7 +522,8 @@
                 "type": "text",
                 "text": "There is nothing there now, bar darkness, death, and loss."
               }
-            ]
+            ],
+            "id": "p-77a8011047a6632c"
           }
         ]
       }

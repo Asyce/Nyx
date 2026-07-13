@@ -4,10 +4,11 @@
   "id": "of-mountains-and-seas",
   "name": "\"Of Mountains and Seas\"",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/%22Of_Mountains_and_Seas%22",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Thanks I"
               }
-            ]
+            ],
+            "id": "p-d5742a07e3b2455a"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "tallest dangerous. Forgive my appearance climb , wind and then"
               }
-            ]
+            ],
+            "id": "p-6d62c8508c4c475f"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "young folks this mountain. Some were they body and mind perfectly the next mountain challenges"
               }
-            ]
+            ],
+            "id": "p-0150da311f7b1cc8"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-3"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "Good news! Alrik climb the mountain kindred spirit"
               }
-            ]
+            ],
+            "id": "p-17f9b8339e7f6f2b"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-4"
           },
           {
             "type": "paragraph",
@@ -91,7 +100,8 @@
                 "type": "text",
                 "text": "I Not until climb it really gemstone, carved towering food supplies the tribe sufficient"
               }
-            ]
+            ],
+            "id": "p-117b6d88c7e7d62d"
           },
           {
             "type": "paragraph",
@@ -100,7 +110,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-5"
           },
           {
             "type": "paragraph",
@@ -109,7 +120,8 @@
                 "type": "text",
                 "text": "Another leg bad shape, two fingers right hand recover but now give up."
               }
-            ]
+            ],
+            "id": "p-0b86f74d42128c6a"
           },
           {
             "type": "paragraph",
@@ -118,7 +130,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-6"
           },
           {
             "type": "paragraph",
@@ -127,7 +140,8 @@
                 "type": "text",
                 "text": "Alrik limit. too old bitterly cold funeral for him, wine Just me blizzard no sign of stopping, freeze over"
               }
-            ]
+            ],
+            "id": "p-899f48cb63232ded"
           },
           {
             "type": "paragraph",
@@ -136,7 +150,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-7"
           },
           {
             "type": "paragraph",
@@ -155,7 +170,8 @@
                 "type": "text",
                 "text": "wall of ice crevice, luck run out a year"
               }
-            ]
+            ],
+            "id": "p-9825738d4aa5b9ff"
           },
           {
             "type": "paragraph",
@@ -164,7 +180,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-8"
           },
           {
             "type": "paragraph",
@@ -173,7 +190,8 @@
                 "type": "text",
                 "text": "sky so blue snowstorm a few days. I saw very close peak cannot reach"
               }
-            ]
+            ],
+            "id": "p-b4a326e5312b0887"
           },
           {
             "type": "paragraph",
@@ -182,7 +200,8 @@
                 "type": "text",
                 "text": "sky falcon"
               }
-            ]
+            ],
+            "id": "p-50a6387a625a7466"
           },
           {
             "type": "paragraph",
@@ -191,7 +210,8 @@
                 "type": "text",
                 "text": "Just summit mountain"
               }
-            ]
+            ],
+            "id": "p-dfed708117e04f62"
           },
           {
             "type": "paragraph",
@@ -200,7 +220,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-9"
           }
         ]
       }

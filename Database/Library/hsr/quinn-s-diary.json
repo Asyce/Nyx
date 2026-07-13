@@ -4,10 +4,11 @@
   "id": "quinn-s-diary",
   "name": "Quinn's Diary",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Quinn%27s_Diary",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-db1f200190b86a22"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "I have an amazing sister, seriously! She's super smart and hardworking, and everybody loves her."
               }
-            ]
+            ],
+            "id": "p-248df90e5f94b08e"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "But she never seems to be happy..."
               }
-            ]
+            ],
+            "id": "p-edc084cfb915fc3d"
           },
           {
             "type": "paragraph",
@@ -51,7 +55,8 @@
                 "type": "text",
                 "text": "I want her to be happy, but why didn't she like playing with me?"
               }
-            ]
+            ],
+            "id": "p-64f64b1380d76635"
           },
           {
             "type": "paragraph",
@@ -60,7 +65,8 @@
                 "type": "text",
                 "text": "(A number of pages are skipped.)"
               }
-            ]
+            ],
+            "id": "p-21dc0750bf71f3b6"
           },
           {
             "type": "paragraph",
@@ -74,7 +80,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-db1f200190b86a22-2"
           },
           {
             "type": "paragraph",
@@ -83,7 +90,8 @@
                 "type": "text",
                 "text": "Today is our birthday, but I'm totally not feeling it."
               }
-            ]
+            ],
+            "id": "p-8d8d42890fca54e9"
           },
           {
             "type": "paragraph",
@@ -92,7 +100,8 @@
                 "type": "text",
                 "text": "Everyone prepared presents for us. I even got a huge doll for my sister! It cost me half a month's pocket money!"
               }
-            ]
+            ],
+            "id": "p-34287e158ba56a37"
           },
           {
             "type": "paragraph",
@@ -101,7 +110,8 @@
                 "type": "text",
                 "text": "But she straight up forgot about my gift... Is she not fond of me or something?"
               }
-            ]
+            ],
+            "id": "p-2eaed3248fb702f4"
           },
           {
             "type": "paragraph",
@@ -110,7 +120,8 @@
                 "type": "text",
                 "text": "(A number of pages are skipped.)"
               }
-            ]
+            ],
+            "id": "p-21dc0750bf71f3b6-2"
           },
           {
             "type": "paragraph",
@@ -124,7 +135,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-db1f200190b86a22-3"
           },
           {
             "type": "paragraph",
@@ -133,7 +145,8 @@
                 "type": "text",
                 "text": "Ugh, she's so annoying! She's always giving me lectures, but she was born just half a minute before me. Why always that attitude?"
               }
-            ]
+            ],
+            "id": "p-91a77597e1f74f83"
           },
           {
             "type": "paragraph",
@@ -142,7 +155,8 @@
                 "type": "text",
                 "text": "She's always telling me what I can and can't do, and she acts like it's for my own good. But deep down, she's just jealous that I don't have to bust my butt to get everyone's love!"
               }
-            ]
+            ],
+            "id": "p-a051abb8fe3b8d0c"
           },
           {
             "type": "paragraph",
@@ -151,7 +165,8 @@
                 "type": "text",
                 "text": "She's always putting up a front, ugh! It's just so gross!"
               }
-            ]
+            ],
+            "id": "p-3a098db55ea0ed5b"
           },
           {
             "type": "paragraph",
@@ -160,7 +175,8 @@
                 "type": "text",
                 "text": "But whatever. I'm gonna do all the things she doesn't allow, and I'll make that witch super mad!"
               }
-            ]
+            ],
+            "id": "p-85ef383de1ff29c3"
           },
           {
             "type": "paragraph",
@@ -169,7 +185,8 @@
                 "type": "text",
                 "text": "(A number of pages are skipped.)"
               }
-            ]
+            ],
+            "id": "p-21dc0750bf71f3b6-3"
           },
           {
             "type": "paragraph",
@@ -183,7 +200,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-db1f200190b86a22-4"
           },
           {
             "type": "paragraph",
@@ -192,7 +210,8 @@
                 "type": "text",
                 "text": "Oh no, a disaster! I accidentally broke that witch's violin..."
               }
-            ]
+            ],
+            "id": "p-5522635b0d4ce5a9"
           },
           {
             "type": "paragraph",
@@ -201,7 +220,8 @@
                 "type": "text",
                 "text": "And now she's gonna be all up in my ear. I already know what she's gonna say..."
               }
-            ]
+            ],
+            "id": "p-e617070a2047a495"
           },
           {
             "type": "paragraph",
@@ -210,7 +230,8 @@
                 "type": "text",
                 "text": "\"You should know better at your age!\", \"Having a sister like you is such a shame!\", \"I don't wanna see your face ever again!\" ... I've heard it all a million times over the years."
               }
-            ]
+            ],
+            "id": "p-46349069b36a93c8"
           },
           {
             "type": "paragraph",
@@ -219,7 +240,8 @@
                 "type": "text",
                 "text": "I'm so done with it. It's just a stupid violin anyway. I'll get her a new one or something."
               }
-            ]
+            ],
+            "id": "p-103c809f7e76ca7b"
           },
           {
             "type": "paragraph",
@@ -228,7 +250,8 @@
                 "type": "text",
                 "text": "Ahhh, my poor little piggy bank, back to being empty again..."
               }
-            ]
+            ],
+            "id": "p-ac11fff40c7fbeab"
           },
           {
             "type": "paragraph",
@@ -237,7 +260,8 @@
                 "type": "text",
                 "text": "(A number of pages are skipped.)"
               }
-            ]
+            ],
+            "id": "p-21dc0750bf71f3b6-4"
           },
           {
             "type": "paragraph",
@@ -251,19 +275,23 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-db1f200190b86a22-5"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a-2"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a-3"
           },
           {
             "type": "paragraph",
@@ -272,7 +300,8 @@
                 "type": "text",
                 "text": "(A number of pages are skipped.)"
               }
-            ]
+            ],
+            "id": "p-21dc0750bf71f3b6-5"
           },
           {
             "type": "paragraph",
@@ -286,19 +315,23 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-db1f200190b86a22-6"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a-4"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a-5"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a-6"
           },
           {
             "type": "paragraph",
@@ -307,7 +340,8 @@
                 "type": "text",
                 "text": "(A number of pages are skipped.)"
               }
-            ]
+            ],
+            "id": "p-21dc0750bf71f3b6-6"
           },
           {
             "type": "paragraph",
@@ -321,11 +355,13 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-db1f200190b86a22-7"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a-7"
           }
         ]
       }

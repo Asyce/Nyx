@@ -4,10 +4,11 @@
   "id": "high-cloud-squadron-power-rankings",
   "name": "High-Cloud Squadron Power Rankings",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/High-Cloud_Squadron_Power_Rankings",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -37,7 +38,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-1999cc05cc28dcbd"
           },
           {
             "type": "paragraph",
@@ -67,7 +69,8 @@
                 "type": "text",
                 "text": "Combat Summary: The tactical anchor and combat powerhouse of the High-Cloud Squadron. With extraordinary wisdom, he sets the board to ensure victory before the battle even begins. Once an opponent reveals a critical opening, the Lightning-Lord descends upon the field, delivering the decisive blow with overwhelming force."
               }
-            ]
+            ],
+            "id": "p-6d2801a501be19f3"
           },
           {
             "type": "paragraph",
@@ -97,7 +100,8 @@
                 "type": "text",
                 "text": "Combat Summary: The weaponsmith of the High-Cloud Squadron. Not a warrior in the traditional sense, but rather the cornerstone supporting the team's combat strength; capable of perceiving the structural weaknesses of all things and excels at breaking down opponents' defenses."
               }
-            ]
+            ],
+            "id": "p-8103e42782d7e738"
           },
           {
             "type": "paragraph",
@@ -127,7 +131,8 @@
                 "type": "text",
                 "text": "Combat Summary: The strategic barrier of the High-Cloud Squadron. Constructs vast aquatic battlefields through cloudhymn arts, creating advantageous terrain for allies, allowing for seamless transitions between offense and defense, sweeping away all hostile entities within the crashing tides."
               }
-            ]
+            ],
+            "id": "p-c4584ae51cfb5418"
           },
           {
             "type": "paragraph",
@@ -157,7 +162,8 @@
                 "type": "text",
                 "text": "Combat Summary: Vanguard of the High-Cloud Squadron that shatters the enemy formation. Her swordplay has reached the realm of nonchalance, stripping away all excess. Where her blade descends like cascading moonlight, there is no escape."
               }
-            ]
+            ],
+            "id": "p-a923848afd2d565a"
           },
           {
             "type": "paragraph",
@@ -187,7 +193,8 @@
                 "type": "text",
                 "text": "Combat Summary: Tactical linchpin of the High-Cloud Squadron. Dominates the battlefield through blistering speed and mobility, pulling enemy formations apart; launches devastating surprise strikes, turning the tide of battle in the blink of an eye."
               }
-            ]
+            ],
+            "id": "p-6b9dda7268e6498b"
           },
           {
             "type": "paragraph",
@@ -201,7 +208,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ba328f88ebaf0ab3"
           }
         ]
       }

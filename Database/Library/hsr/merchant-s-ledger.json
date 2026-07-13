@@ -4,10 +4,11 @@
   "id": "merchant-s-ledger",
   "name": "Merchant's Ledger",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Merchant%27s_Ledger",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -52,7 +53,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ad0ff391c6722577"
           },
           {
             "type": "paragraph",
@@ -94,7 +96,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-119c0e5001a49f76"
           },
           {
             "type": "paragraph",
@@ -136,7 +139,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-e5ba413050a90f2d"
           },
           {
             "type": "paragraph",
@@ -178,7 +182,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-a4d8470d551aa35c"
           },
           {
             "type": "paragraph",
@@ -220,7 +225,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-e30074180b96702a"
           },
           {
             "type": "paragraph",
@@ -271,7 +277,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-108450d8546820e0"
           },
           {
             "type": "paragraph",
@@ -313,7 +320,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-89c1517bb8e0af54"
           },
           {
             "type": "paragraph",
@@ -355,7 +363,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-51c1947db19b819a"
           },
           {
             "type": "paragraph",
@@ -397,7 +406,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-0e8233814da61a23"
           },
           {
             "type": "paragraph",
@@ -439,7 +449,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-85826e844f52dad6"
           },
           {
             "type": "paragraph",
@@ -481,7 +492,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-8714918eba85f2a9"
           },
           {
             "type": "paragraph",
@@ -523,7 +535,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-12509d02e2a77b2b"
           },
           {
             "type": "paragraph",
@@ -565,7 +578,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-22fa04f53c42b04f"
           },
           {
             "type": "paragraph",
@@ -607,7 +621,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-9522bc18077ed78f"
           },
           {
             "type": "paragraph",
@@ -649,7 +664,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-b25caaaece723e73"
           },
           {
             "type": "paragraph",
@@ -691,7 +707,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-8b2f1bab59fa9100"
           },
           {
             "type": "paragraph",
@@ -733,7 +750,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ee79402081064212"
           },
           {
             "type": "paragraph",
@@ -775,7 +793,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-b4cffa9454dbe21d"
           },
           {
             "type": "paragraph",
@@ -817,7 +836,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-6983a41ed2e06781"
           },
           {
             "type": "paragraph",
@@ -859,7 +879,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-f1547c205e68f8bb"
           },
           {
             "type": "paragraph",
@@ -901,7 +922,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-c261545a95c94dfa"
           },
           {
             "type": "paragraph",
@@ -943,7 +965,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ae01559861816e8d"
           },
           {
             "type": "paragraph",
@@ -985,7 +1008,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-5ae088d009dd5f58"
           },
           {
             "type": "paragraph",
@@ -994,7 +1018,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           }
         ]
       }

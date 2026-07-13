@@ -4,10 +4,11 @@
   "id": "happiness-surgery-notice",
   "name": "Happiness Surgery Notice",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Happiness_Surgery_Notice",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "To Research Society of Happy Smiles Reserve Members:"
               }
-            ]
+            ],
+            "id": "p-3ec0dcdddc6ed56e"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Seekers of happiness, congratulations on your imminent arrival at the gates of happiness! No matter what sorrows and despair you've endured, you now stand but one final step away from true happiness."
               }
-            ]
+            ],
+            "id": "p-6baea4f9f8395160"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "Yes, all it takes is one tiny little surgery, and you can officially join the Research Society of Happy Smiles and become one of the happy ones."
               }
-            ]
+            ],
+            "id": "p-8ade3f57388957ce"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "You might be feeling excited about this surgery, or maybe anxious. Some of you might even be scared after hearing certain rumors floating around out there. Trust us, it is just trouble for the mediocre. As folks who've already taken that leap to embrace happiness, we're here to share our firsthand experience, answer your questions, and help you get through the surgery smoothly."
               }
-            ]
+            ],
+            "id": "p-96793643f82be961"
           },
           {
             "type": "paragraph",
@@ -72,7 +77,8 @@
                 "type": "text",
                 "text": "A: Technically speaking, no special preparation is required. However, we do recommend temporarily severing all contact with the outside world, including your family. Several patients have gotten cold feet at the last minute, missing out on happiness as a result, and their so-called \"concerned\" family members were undoubtedly the cause of this regrettable outcome."
               }
-            ]
+            ],
+            "id": "p-4eb8fba955f4c3fd"
           },
           {
             "type": "paragraph",
@@ -114,7 +120,8 @@
                 "type": "text",
                 "text": ". These books will help you find inner peace."
               }
-            ]
+            ],
+            "id": "p-f9844aeb51b8d5e7"
           },
           {
             "type": "paragraph",
@@ -140,7 +147,8 @@
                 "type": "text",
                 "text": "A: The procedure is completely painless and sensation-free. The Research Society of Happy Smiles will provide the most professional team and cutting-edge equipment to ensure your transformation is completed in the most comfortable state possible."
               }
-            ]
+            ],
+            "id": "p-55f591078bc585d7"
           },
           {
             "type": "paragraph",
@@ -156,7 +164,8 @@
                 "type": "text",
                 "text": "A: When it comes to the surgical experience, patients report vastly different sensations. These range from a cascade of warmth flowing from head to toe, to perceiving tens of thousands of unique floral scents, or even a sensation of drifting beyond the cosmos among countless receding stars. Whatever you experience, it will absolutely be a once-in-a-lifetime treasure. Consider it not a procedure, but your mind's getaway, a delightful expedition we invite you to fully embrace."
               }
-            ]
+            ],
+            "id": "p-e701ee75134f8b85"
           },
           {
             "type": "paragraph",
@@ -182,7 +191,8 @@
                 "type": "text",
                 "text": "A: During the first week following your operation, you may experience mild drowsiness and fatigue, or a slight decrease in appetite. Rest assured, these are all perfectly normal post-operative reactions, simply your body adjusting to its new state of happiness."
               }
-            ]
+            ],
+            "id": "p-b7e25a425d0b30b9"
           },
           {
             "type": "paragraph",
@@ -198,7 +208,8 @@
                 "type": "text",
                 "text": "A: The vast majority of our members complete their transformation within one week to one month. One morning, when you wake from a dreamless sleep and see yourself in the mirror blooming with a smile from the heart, congratulations, you've become one of the joyful!"
               }
-            ]
+            ],
+            "id": "p-677f66db933fe9e5"
           },
           {
             "type": "paragraph",
@@ -207,7 +218,8 @@
                 "type": "text",
                 "text": "A Final Word:"
               }
-            ]
+            ],
+            "id": "p-f65ccea1d0582557"
           },
           {
             "type": "paragraph",
@@ -216,7 +228,8 @@
                 "type": "text",
                 "text": "Dear future member, happiness is within your grasp. Do not hesitate. Do not let anything keep you from claiming the happiness you deserve. Remember: the pursuit of happiness is your innate right and duty, and Happiness Surgery is the sole path to its fulfillment!"
               }
-            ]
+            ],
+            "id": "p-4049aef91c8f5594"
           },
           {
             "type": "paragraph",
@@ -225,7 +238,8 @@
                 "type": "text",
                 "text": "Happiness Volunteer"
               }
-            ]
+            ],
+            "id": "p-80c2c28cf634e67b"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "mechatron-imagenesis-guide",
   "name": "Mechatron Imagenesis Guide",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Mechatron_Imagenesis_Guide",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "This manual serves as the operating guide for the \"Professional Mechatron Auto Customization Device,\" compiled with the assistance of imagenesis technology specialists."
               }
-            ]
+            ],
+            "id": "p-f104f096a3380b8a"
           },
           {
             "type": "paragraph",
@@ -49,7 +51,8 @@
                 "type": "text",
                 "text": "Ensure all device indicator lights are in a normal state."
               }
-            ]
+            ],
+            "id": "p-6f1bf950b7fc334b"
           },
           {
             "type": "paragraph",
@@ -65,7 +68,8 @@
                 "type": "text",
                 "text": "Press the most prominent red button and wait for the assembly blueprints to be finalized."
               }
-            ]
+            ],
+            "id": "p-068765889ade6539"
           },
           {
             "type": "paragraph",
@@ -88,7 +92,8 @@
                 "type": "text",
                 "text": "※ Due to considerations regarding the center of gravity, mobility, and assembly difficulty, general staff and visitors are currently restricted from manually drawing frame designs. Please utilize the 2D indicator to adjust the general silhouette based on provided presets."
               }
-            ]
+            ],
+            "id": "p-eae2bbb1ff0fe806"
           },
           {
             "type": "paragraph",
@@ -104,7 +109,8 @@
                 "type": "text",
                 "text": "The vertical axis represents scale: any size exceeding the horizontal threshold will result in a display-only mechatron, which will lack intelligence."
               }
-            ]
+            ],
+            "id": "p-8508b8e0bfd54ee0"
           },
           {
             "type": "paragraph",
@@ -148,7 +154,8 @@
                 "type": "text",
                 "text": "And so on."
               }
-            ]
+            ],
+            "id": "p-85051eff255d8cfe"
           },
           {
             "type": "paragraph",
@@ -178,7 +185,8 @@
                 "type": "text",
                 "text": "Additionally, if you wish for the unit to reflect only non-visible light (standard optical camouflage), please set the color code to \"257, 257, 257\"."
               }
-            ]
+            ],
+            "id": "p-07afa52300cdaf4e"
           },
           {
             "type": "paragraph",
@@ -208,7 +216,8 @@
                 "type": "text",
                 "text": "And the like."
               }
-            ]
+            ],
+            "id": "p-68189badaa733dd4"
           },
           {
             "type": "paragraph",
@@ -238,7 +247,8 @@
                 "type": "text",
                 "text": "Moving the slider to the left will uncontrollably diminish biological recognizability. Sliding it to the far left will result in only a single eye indicator."
               }
-            ]
+            ],
+            "id": "p-e8efe086f8e1b50c"
           },
           {
             "type": "paragraph",
@@ -261,7 +271,8 @@
                 "type": "text",
                 "text": "Available options include: Jump, Accelerated Movement, Hover/Flight, Color Shifting, Optical Camouflage, Taste, Smell, Organic Matter Decomposition, Bionic Skin (not applicable to industrial models), Hand Blade, Drill Bit, Thermometer, Thermal Imager, Built-in Multi-tool, and more."
               }
-            ]
+            ],
+            "id": "p-d0952fd89396ff64"
           },
           {
             "type": "paragraph",
@@ -270,7 +281,8 @@
                 "type": "text",
                 "text": "Should an emergency occur, please refer to Section XIII of this manual..."
               }
-            ]
+            ],
+            "id": "p-4e1611e9a2a69818"
           }
         ]
       }

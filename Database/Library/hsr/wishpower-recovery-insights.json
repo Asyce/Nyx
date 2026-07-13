@@ -4,10 +4,11 @@
   "id": "wishpower-recovery-insights",
   "name": "Wishpower Recovery Insights",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Wishpower_Recovery_Insights",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -31,7 +32,8 @@
                 "type": "text",
                 "text": "There may be other imagenae like me who find the comfort of Inkford Hermitage far beyond expectation, who wish to make the most of its services while settling into their final days. Or perhaps they fear a different kind of ending: Wishpower running dry, while their credits remain unspent, leaving behind a regret that lasts forever. Either way, learning a few tricks to slow the drain of Wishpower is both necessary and worthwhile."
               }
-            ]
+            ],
+            "id": "p-cc619a4e61f0634a"
           },
           {
             "type": "paragraph",
@@ -40,7 +42,8 @@
                 "type": "text",
                 "text": "This article is for informational purposes only and does not constitute medical advice."
               }
-            ]
+            ],
+            "id": "p-e62c2b5c9654ef29"
           },
           {
             "type": "paragraph",
@@ -64,7 +67,8 @@
                 "type": "text",
                 "text": "Establish and strictly follow your own daily rituals. Anchor your existence through repeated, predictable actions."
               }
-            ]
+            ],
+            "id": "p-9157aaa9a2bffa1a"
           },
           {
             "type": "paragraph",
@@ -73,7 +77,8 @@
                 "type": "text",
                 "text": "Treasure your ability to choose. Keep the number of decisions you have to make each day to an absolute minimum. Should you get up early today? What to eat for lunch? What to eat for dinner? Every moment of hesitation, every trade-off, burns through the precious Wishpower and free will of an imagenae."
               }
-            ]
+            ],
+            "id": "p-8670aabcdca85626"
           },
           {
             "type": "paragraph",
@@ -82,7 +87,8 @@
                 "type": "text",
                 "text": "One simple answer can settle most of life's troubles: same as yesterday."
               }
-            ]
+            ],
+            "id": "p-292d983bbcd6691a"
           },
           {
             "type": "paragraph",
@@ -106,7 +112,8 @@
                 "type": "text",
                 "text": "Consume information in a measured, selective way. Avoid letting fragmented, meaningless noise dilute your Wishpower."
               }
-            ]
+            ],
+            "id": "p-8b77cb151ae0493b"
           },
           {
             "type": "paragraph",
@@ -115,7 +122,8 @@
                 "type": "text",
                 "text": "Obsessing over things beyond your control only weighs down your cognition. Best solution? Cut the network connection and forget there's a world outside Inkford Hermitage. Plenty of bliss here. Who needs Planarcadia anyway?"
               }
-            ]
+            ],
+            "id": "p-ff03bc3874569801"
           },
           {
             "type": "paragraph",
@@ -124,7 +132,8 @@
                 "type": "text",
                 "text": "As an alternative, spend time in the hotel library. Read myths, legends, poetry, works rich with the concentrated imagination of humankind."
               }
-            ]
+            ],
+            "id": "p-29149960f149e973"
           },
           {
             "type": "paragraph",
@@ -148,7 +157,8 @@
                 "type": "text",
                 "text": "Cultivate cordial but lasting friendships with the hotel staff and other long-term guests."
               }
-            ]
+            ],
+            "id": "p-8304bc05d732fa79"
           },
           {
             "type": "paragraph",
@@ -157,7 +167,8 @@
                 "type": "text",
                 "text": "The human employees stationed at Inkford Hermitage are among the few sources of Wishpower here. If they remember you and regard you as a special guest, you'll gain more Wishpower as a result."
               }
-            ]
+            ],
+            "id": "p-10451d4f0211ffb7"
           },
           {
             "type": "paragraph",
@@ -166,7 +177,8 @@
                 "type": "text",
                 "text": "To achieve this, you can try creating small, manageable troubles from time to time, things that need to be resolved, but with predictable outcomes. When necessary, you can even team up with other long-term guests."
               }
-            ]
+            ],
+            "id": "p-57939582e6925e9a"
           },
           {
             "type": "paragraph",
@@ -190,7 +202,8 @@
                 "type": "text",
                 "text": "The warm waters wash away stray thoughts, reducing the internal turbulence that drains Wishpower."
               }
-            ]
+            ],
+            "id": "p-79d7d10d9c21e5ef"
           },
           {
             "type": "paragraph",
@@ -199,7 +212,8 @@
                 "type": "text",
                 "text": "Whether you were a \"former nobody\" or a \"former superstar,\" here at Inkford Hermitage, we all share the same identity: \"guest.\" If the sharp edges of past memories keep flashing before your eyes, soak in the springs. Let the flowing warmth soothe your mind, slowly letting go of what came before."
               }
-            ]
+            ],
+            "id": "p-ef770873ba49e66a"
           },
           {
             "type": "paragraph",
@@ -208,7 +222,8 @@
                 "type": "text",
                 "text": "For those who still receive Wishpower from the outside world, meditating in the hot spring helps organize the influx of recent Wishpower, allowing distant echoes of the past to settle and become part of who you are."
               }
-            ]
+            ],
+            "id": "p-89d57b0c4cf8a92e"
           }
         ]
       }

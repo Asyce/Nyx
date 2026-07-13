@@ -4,10 +4,11 @@
   "id": "herta-collection-room-code-of-conduct",
   "name": "Herta Collection Room Code of Conduct",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Herta_Collection_Room_Code_of_Conduct",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-05ee83ff6651a488"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "1. The Collection Room is an important space in which Curios are kept. Without permission, persons unrelated to this Collection Room are not allowed to enter or use any items in the room. Of course, even with permission, Madam Herta also has the power to revoke the permission at any time."
               }
-            ]
+            ],
+            "id": "p-230bd732bf79f651"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "2. Items in the Collection Room must be managed by special personnel. Items that can be loaned out for exhibition or research must be used under the supervision and guidance of the core staff at all times and strictly abide by the operating rules."
               }
-            ]
+            ],
+            "id": "p-c36879d0a06d928f"
           },
           {
             "type": "paragraph",
@@ -51,7 +55,8 @@
                 "type": "text",
                 "text": "3. The permit to exhibit any of the collection items will be evaluated by Madam Herta alone, and Madam Herta has the power to adjust the evaluation result at any time."
               }
-            ]
+            ],
+            "id": "p-68430967fadd9d37"
           },
           {
             "type": "paragraph",
@@ -60,7 +65,8 @@
                 "type": "text",
                 "text": "4. If the item in collection can bring about negative effects, its containment procedure must be strengthened. In the event it is without a safety procedure, the experiment may be terminated depending on severity. If the item in collection can bring about positive effects, its containment procedure must be strengthened even more to avoid the positive effects being leaked, benefiting those who do not deserve it."
               }
-            ]
+            ],
+            "id": "p-7e0f45ef1e3b2750"
           },
           {
             "type": "paragraph",
@@ -69,7 +75,8 @@
                 "type": "text",
                 "text": "5. When exiting the Collection Room, Madam Herta and other related Security Department personnel must be informed, and no hardware or software capable of monitoring or recording may be left in the room."
               }
-            ]
+            ],
+            "id": "p-baddbe33d8860685"
           },
           {
             "type": "paragraph",
@@ -78,7 +85,8 @@
                 "type": "text",
                 "text": "6. Madam Herta has the right to final interpretation of the aforementioned rules."
               }
-            ]
+            ],
+            "id": "p-86d5283f7f020385"
           }
         ]
       }

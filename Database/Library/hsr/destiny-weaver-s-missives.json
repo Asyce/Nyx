@@ -4,10 +4,11 @@
   "id": "destiny-weaver-s-missives",
   "name": "Destiny Weaver's Missives",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Destiny_Weaver%27s_Missives",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -26,7 +27,8 @@
                 "type": "text",
                 "text": "Lately, the skies have borne witness to unusual celestial events. The veil of Oronyx has been rent asunder, revealing rifts akin to glowing embers flickering amidst the eternal night. As I engaged in astrological observations, an unprecedented chill ran down my spine — the paths of stars had been thrown into disarray, wandering across the sky no longer bound by the principles of Talanton."
               }
-            ]
+            ],
+            "id": "p-e13d2c8c20342f6d"
           },
           {
             "type": "paragraph",
@@ -52,7 +54,8 @@
                 "type": "text",
                 "text": "— Dekeleia"
               }
-            ]
+            ],
+            "id": "p-8575ac4f24c7aa5a"
           },
           {
             "type": "paragraph",
@@ -68,7 +71,8 @@
                 "type": "text",
                 "text": "Your concerns are not unfounded. The Okhema Fate Compass has, too, gone haywire, its pointers spinning wildly as though manipulated by an unseen hand."
               }
-            ]
+            ],
+            "id": "p-60530dff23f9fc6f"
           },
           {
             "type": "paragraph",
@@ -77,7 +81,8 @@
                 "type": "text",
                 "text": "Even worse, thief stars are appearing with increasing frequency. According to ancient prophecies, this signals that Zagreus's schemes are unfolding. But I have a feeling that there's more to it than meets the eye. The paths of thief stars hide a chaotic pattern we've never seen before."
               }
-            ]
+            ],
+            "id": "p-c758a0b4581d231e"
           },
           {
             "type": "paragraph",
@@ -93,7 +98,8 @@
                 "type": "text",
                 "text": "May the tripartite prophecy bless us."
               }
-            ]
+            ],
+            "id": "p-cfcd0b378f20f4e0"
           },
           {
             "type": "paragraph",
@@ -109,7 +115,8 @@
                 "type": "text",
                 "text": "I know that you have been delving into the prophecies left by the former Holy Maiden. Please forgive my abruptness, but the circumstances demand our immediate attention. Recent signs have all pointed to a chilling conclusion: The threads of destiny are being corroded by an unseen force."
               }
-            ]
+            ],
+            "id": "p-2a05eb88078cd944"
           },
           {
             "type": "paragraph",
@@ -131,7 +138,8 @@
                 "type": "text",
                 "text": ". Are those warnings, once dismissed as mere allegories, now unfolding into reality?"
               }
-            ]
+            ],
+            "id": "p-16210846baef5e4e"
           },
           {
             "type": "paragraph",
@@ -150,7 +158,8 @@
                 "type": "text",
                 "text": "— Dekeleia"
               }
-            ]
+            ],
+            "id": "p-ed956560e36c5a0e"
           },
           {
             "type": "paragraph",
@@ -166,7 +175,8 @@
                 "type": "text",
                 "text": "Your findings have solidified my deepest fears. Let's cut to the chase: the ███████ era suggested in the prophecies of █████████ could be a world apart from what we envisioned. While poring over the ancient prophecy texts, I stumbled upon a startling discovery — certain phrases had been deliberately altered. For example, the original text \"Re█████ to the Era Chrysea\" has been changed to \"Returning to the Era Chrysea.\" This minute difference disquiets me, but what truly chills me to the bone is the question — who, or what group, is secretly meddling with these texts?"
               }
-            ]
+            ],
+            "id": "p-f56548f249b8e031"
           },
           {
             "type": "paragraph",
@@ -192,7 +202,8 @@
                 "type": "text",
                 "text": "— Helena"
               }
-            ]
+            ],
+            "id": "p-ab6dd774992ec883"
           },
           {
             "type": "paragraph",
@@ -208,7 +219,8 @@
                 "type": "text",
                 "text": "The gravity of our circumstances now demands decisive action. In my meditation, I had a chilling vision — the world being engulfed by a dark tide. It's not the Thanatos' River of Souls we're dealing with, but something far older and more wicked."
               }
-            ]
+            ],
+            "id": "p-a25bafc9274b755c"
           },
           {
             "type": "paragraph",
@@ -245,7 +257,8 @@
                 "type": "text",
                 "text": "4. Brace ourselves for the worst-case scenario."
               }
-            ]
+            ],
+            "id": "p-cae8410ebdea79a0"
           },
           {
             "type": "paragraph",
@@ -254,7 +267,8 @@
                 "type": "text",
                 "text": "Remember: If the world is indeed marching towards its doom, our mission is to safeguard the Coreflame of hope. Even if the threads of destiny have been corrupted, we must do our utmost to protect the last untainted golden thread."
               }
-            ]
+            ],
+            "id": "p-49619247dc4cbc06"
           },
           {
             "type": "paragraph",
@@ -273,7 +287,8 @@
                 "type": "text",
                 "text": "— Dekeleia"
               }
-            ]
+            ],
+            "id": "p-66a93db90cacaccc"
           },
           {
             "type": "paragraph",
@@ -315,7 +330,8 @@
                 "type": "text",
                 "text": "███ ██████ █████ shall make their appearance in the world..."
               }
-            ]
+            ],
+            "id": "p-ee91aa74002e3809"
           },
           {
             "type": "paragraph",
@@ -357,7 +373,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-4b88d71f748c2f3d"
           },
           {
             "type": "paragraph",
@@ -399,7 +416,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-e43116079cf1066c"
           }
         ]
       }

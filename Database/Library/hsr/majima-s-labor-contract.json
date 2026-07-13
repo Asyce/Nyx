@@ -4,10 +4,11 @@
   "id": "majima-s-labor-contract",
   "name": "Majima's Labor Contract",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Majima%27s_Labor_Contract",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "*Labor Contract"
               }
-            ]
+            ],
+            "id": "p-323aff8c9f12c2ac"
           },
           {
             "type": "paragraph",
@@ -38,7 +40,8 @@
                 "type": "text",
                 "text": "Party B: Shihong"
               }
-            ]
+            ],
+            "id": "p-715c37de31f47024"
           },
           {
             "type": "paragraph",
@@ -57,7 +60,8 @@
                 "type": "text",
                 "text": "The purpose of this contract is to clarify the rights, obligations, and responsibilities between Parties A & B regarding security works, and to ensure the legal rights of both Parties."
               }
-            ]
+            ],
+            "id": "p-f048a651d5aaad39"
           },
           {
             "type": "paragraph",
@@ -96,7 +100,8 @@
                 "type": "text",
                 "text": "3. Party B must be physically strong and be able to handle fighting and carrying tasks to ensure an appropriate response to sudden and emergency situations at work."
               }
-            ]
+            ],
+            "id": "p-b295173e6f43bfa5"
           },
           {
             "type": "paragraph",
@@ -115,7 +120,8 @@
                 "type": "text",
                 "text": "1. Shifts are set based on Party A's location and must not be called into question."
               }
-            ]
+            ],
+            "id": "p-eb8f6aa37eca378f"
           },
           {
             "type": "paragraph",
@@ -134,7 +140,8 @@
                 "type": "text",
                 "text": "Party B's salary will be paid according to remuneration standards set by Party A."
               }
-            ]
+            ],
+            "id": "p-2b86e6743370235f"
           },
           {
             "type": "paragraph",
@@ -173,7 +180,8 @@
                 "type": "text",
                 "text": "3. Party B will not read the terms and conditions of this contract carefully, and won't even notice this condition."
               }
-            ]
+            ],
+            "id": "p-80afe086de0c7f9f"
           },
           {
             "type": "paragraph",
@@ -202,7 +210,8 @@
                 "type": "text",
                 "text": "2. Party A shall bear no legal ramifications should Party B be arrested for illegal activities."
               }
-            ]
+            ],
+            "id": "p-7a5b1e956e545764"
           },
           {
             "type": "paragraph",
@@ -221,7 +230,8 @@
                 "type": "text",
                 "text": "1. The contract period is three (3) days only. Party B shall not terminate the contract without authorization."
               }
-            ]
+            ],
+            "id": "p-e0ffae8057afc6b1"
           },
           {
             "type": "paragraph",
@@ -240,7 +250,8 @@
                 "type": "text",
                 "text": "1. This contract is in duplicate, with Parties A & B each retaining one (1) copy both of equal effect."
               }
-            ]
+            ],
+            "id": "p-ae2a640050fdd529"
           },
           {
             "type": "paragraph",
@@ -249,7 +260,8 @@
                 "type": "text",
                 "text": "Decisions should be made in accordance with relevant legislation from the Interastral Peace Corporation®."
               }
-            ]
+            ],
+            "id": "p-da2a5e073eca061d"
           },
           {
             "type": "paragraph",
@@ -265,7 +277,8 @@
                 "type": "text",
                 "text": "*Party B: Shihong"
               }
-            ]
+            ],
+            "id": "p-bbe922d17ae760a0"
           }
         ]
       }

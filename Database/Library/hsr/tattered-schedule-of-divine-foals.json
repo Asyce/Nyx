@@ -4,10 +4,11 @@
   "id": "tattered-schedule-of-divine-foals",
   "name": "Tattered Schedule of Divine Foals",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Tattered_Schedule_of_Divine_Foals",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -32,7 +33,8 @@
                 "type": "text",
                 "text": "— Oath of the divine foals"
               }
-            ]
+            ],
+            "id": "p-0a246e8703a89a54"
           },
           {
             "type": "paragraph",
@@ -63,7 +65,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-33cbf6dfd7377506"
           },
           {
             "type": "paragraph",
@@ -111,7 +114,8 @@
                 "type": "text",
                 "text": "With resources stretched thin, we call upon operators to endure with noble sacrifice."
               }
-            ]
+            ],
+            "id": "p-6da2bbf925356c56"
           },
           {
             "type": "paragraph",
@@ -167,7 +171,8 @@
                 "type": "text",
                 "text": "Addendum: Due to alliance value, a second divine foal will cross to Okhema."
               }
-            ]
+            ],
+            "id": "p-481c613b149c3a28"
           },
           {
             "type": "paragraph",
@@ -201,7 +206,8 @@
                 "type": "text",
                 "text": "The route has been converted to regular status and will be maintained until the disaster ends or connection is lost due to force majeure."
               }
-            ]
+            ],
+            "id": "p-bf9f0822730ef619"
           },
           {
             "type": "paragraph",
@@ -225,7 +231,8 @@
                 "type": "text",
                 "text": "The divine foal's mission is also \"alliance,\" seeking to secure the location of the Strife and its authority as an ally against the black tide. The Temple of Fates has sent five operators in succession to locate the city-state, but due to Kremnos's mobile nature, the passage's connection remains unclear. Two operators have since gone missing."
               }
-            ]
+            ],
+            "id": "p-4661524c18958ec6"
           },
           {
             "type": "paragraph",
@@ -249,7 +256,8 @@
                 "type": "text",
                 "text": "Situated centrally, far from the black tide's threat, the divine foal completed its mission to establish trade relations with this agricultural city-state. The route was made permanent to maintain friendly ties."
               }
-            ]
+            ],
+            "id": "p-dfa1ee6c2b348f13"
           },
           {
             "type": "paragraph",
@@ -283,7 +291,8 @@
                 "type": "text",
                 "text": "Addendum: The route's operator shows remarkable persuasion skills but concerning autonomy. Close supervision is advised."
               }
-            ]
+            ],
+            "id": "p-b82e46090465a868"
           },
           {
             "type": "paragraph",
@@ -292,7 +301,8 @@
                 "type": "strong",
                 "children": []
               }
-            ]
+            ],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -301,7 +311,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -325,7 +336,8 @@
                 "type": "text",
                 "text": "A risky attempt. The remote city-state of Epos reportedly had minimal prior connection to Titan worship. Thus, one of the twelve scholars from the Temple of the Three Fates was chosen as the operator, hoping they could spread the Fate Titans' grace to that savage land."
               }
-            ]
+            ],
+            "id": "p-aff2d0a6e68fab40"
           },
           {
             "type": "paragraph",
@@ -349,7 +361,8 @@
                 "type": "text",
                 "text": "The prophecy was unclear. Only upon arrival did the operator realize this was the rumored city-state devoted to Mnestia. Due to physical distance, only teachings were exchanged, along with local specialties (golden apples)."
               }
-            ]
+            ],
+            "id": "p-7e457a1cdcbe0534"
           },
           {
             "type": "paragraph",
@@ -392,7 +405,8 @@
                 "type": "text",
                 "text": "Addendum: Evidence suggests the operator expressed a desire to pursue truth and become a scholar, suggesting their \"disappearance\" was likely voluntary defection."
               }
-            ]
+            ],
+            "id": "p-91ada537428654d6"
           },
           {
             "type": "paragraph",
@@ -416,7 +430,8 @@
                 "type": "text",
                 "text": "The divine foal's mission wasn't alliance-seeking but rather to investigate how this Zagreus-worshiping city-state planned to face the black tide calamity. Results unclear. According to the operator's account, local residents spontaneously modified the divine foal's shell to resemble a dromas. Its divinity gradually dispersed as a result."
               }
-            ]
+            ],
+            "id": "p-8e6dbf01738f460e"
           },
           {
             "type": "paragraph",
@@ -440,7 +455,8 @@
                 "type": "text",
                 "text": "Divine foal failed to connect."
               }
-            ]
+            ],
+            "id": "p-f087cb6a72f22a2e"
           },
           {
             "type": "paragraph",
@@ -484,7 +500,8 @@
                 "type": "text",
                 "text": "Addendum: This city-state became embroiled in conflict with Castrum Kremnos. The King of Bulsa traveled far to seek aid from Janusopolis, but Time's prophecy revealed the city-state's destruction. This route will be abandoned, pending notification to the returning operator."
               }
-            ]
+            ],
+            "id": "p-f3f0ea8566ead8dd"
           },
           {
             "type": "paragraph",
@@ -493,7 +510,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -527,7 +545,8 @@
                 "type": "text",
                 "text": "███████Drago███████████truth."
               }
-            ]
+            ],
+            "id": "p-69d8c50016998925"
           },
           {
             "type": "paragraph",
@@ -546,7 +565,8 @@
                 "type": "text",
                 "text": "██████████████████"
               }
-            ]
+            ],
+            "id": "p-2066d4b120079d61"
           }
         ]
       }

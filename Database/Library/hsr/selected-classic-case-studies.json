@@ -4,10 +4,11 @@
   "id": "selected-classic-case-studies",
   "name": "Selected Classic Case Studies",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Selected_Classic_Case_Studies",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Case Study 1"
               }
-            ]
+            ],
+            "id": "p-f3a2af734c4540f7"
           },
           {
             "type": "paragraph",
@@ -42,7 +44,8 @@
                 "type": "text",
                 "text": "Outworlder, human (capillus subspecies) of the genus Homo, 23-year-old female."
               }
-            ]
+            ],
+            "id": "p-4dde8cd4414deccb"
           },
           {
             "type": "paragraph",
@@ -58,7 +61,8 @@
                 "type": "text",
                 "text": "Two patients complained of using neural implants to connect their senses to each other for a long time since birth. Severe identity confusion has now developed, resulting in the patients' inability to correctly identify themselves."
               }
-            ]
+            ],
+            "id": "p-537eb14f945edc81"
           },
           {
             "type": "paragraph",
@@ -83,7 +87,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-f903edc73e4fe2cd"
           },
           {
             "type": "paragraph",
@@ -99,7 +104,8 @@
                 "type": "text",
                 "text": "The treatment's effect is good. Both patients have returned to normal conditions."
               }
-            ]
+            ],
+            "id": "p-6a77d831b8476b48"
           },
           {
             "type": "paragraph",
@@ -108,7 +114,8 @@
                 "type": "text",
                 "text": "Case Study 2"
               }
-            ]
+            ],
+            "id": "p-01fa10f20e5ca82a"
           },
           {
             "type": "paragraph",
@@ -124,7 +131,8 @@
                 "type": "text",
                 "text": "Outworlder, Homo sapiens (Σ subspecies) of the genus Homo, 47-year-old male."
               }
-            ]
+            ],
+            "id": "p-5a4123778014c885"
           },
           {
             "type": "paragraph",
@@ -140,7 +148,8 @@
                 "type": "text",
                 "text": "Spacecraft accident resulted in irreversible damage to 80% of the patient's brain tissue."
               }
-            ]
+            ],
+            "id": "p-d139fe9db7996120"
           },
           {
             "type": "paragraph",
@@ -156,7 +165,8 @@
                 "type": "text",
                 "text": "Injection of neural stem cells and electrical stimulation therapy to activate the compensatory mechanisms of the remaining brain tissue. Use autologous tissue culture to reconstruct the missing cranial bone. Postoperative intravenous injection of Dragon King Nirvana Broth to prevent infection and promote recovery."
               }
-            ]
+            ],
+            "id": "p-6b46cf29c15937ad"
           },
           {
             "type": "paragraph",
@@ -172,7 +182,8 @@
                 "type": "text",
                 "text": "Treatment is working well. The patient is now able to continue completing his literary work."
               }
-            ]
+            ],
+            "id": "p-71e018bd71aaa18b"
           },
           {
             "type": "paragraph",
@@ -181,7 +192,8 @@
                 "type": "text",
                 "text": "Case Study 3"
               }
-            ]
+            ],
+            "id": "p-86787c1608794af7"
           },
           {
             "type": "paragraph",
@@ -197,7 +209,8 @@
                 "type": "text",
                 "text": "Vidyadhara, 307-year-old female."
               }
-            ]
+            ],
+            "id": "p-115f58c327d2cd61"
           },
           {
             "type": "paragraph",
@@ -213,7 +226,8 @@
                 "type": "text",
                 "text": "Patient entered a comatose state for 100 to 150 years after hatching rebirth. The diagnosis is Everdream Syndrome, which is caused by inefficient energy conversion during the hatching rebirth period."
               }
-            ]
+            ],
+            "id": "p-00c754e65d51d72e"
           },
           {
             "type": "paragraph",
@@ -229,7 +243,8 @@
                 "type": "text",
                 "text": "Patient requires lifelong intake of qi-supplementing medication."
               }
-            ]
+            ],
+            "id": "p-de21dd05b09bcd12"
           },
           {
             "type": "paragraph",
@@ -245,7 +260,8 @@
                 "type": "text",
                 "text": "Unavailable. Need to wait until the next hatching rebirth of the patient to confirm."
               }
-            ]
+            ],
+            "id": "p-7aedabeaf4fa19d2"
           },
           {
             "type": "paragraph",
@@ -254,7 +270,8 @@
                 "type": "text",
                 "text": "Case Study 4"
               }
-            ]
+            ],
+            "id": "p-28c53bdc3705f79b"
           },
           {
             "type": "paragraph",
@@ -270,7 +287,8 @@
                 "type": "text",
                 "text": "Outworlder, Homo sapiens (sapiens subspecies) of the genus Homo, 21-year-old male."
               }
-            ]
+            ],
+            "id": "p-8fc5deb55867c40f"
           },
           {
             "type": "paragraph",
@@ -286,7 +304,8 @@
                 "type": "text",
                 "text": "Patient complained of \"Cyber-Obscenity Syndrome,\" which was diagnosed outside Xianzhou but could not be treated locally. The patient does not like to engage in conflict with people in daily life, but cannot suppress his strong impulse to verbally abuse and provoke others, and to stir the pot in cyberspace."
               }
-            ]
+            ],
+            "id": "p-48924d5a25f93c5f"
           },
           {
             "type": "paragraph",
@@ -302,7 +321,8 @@
                 "type": "text",
                 "text": "Undergo psychological intervention, with the main goal of guiding the patient to find a job."
               }
-            ]
+            ],
+            "id": "p-43dcc0effcc03e0c"
           },
           {
             "type": "paragraph",
@@ -318,7 +338,8 @@
                 "type": "text",
                 "text": "Treatment has been effective. The patient is now self-reliant."
               }
-            ]
+            ],
+            "id": "p-93cee905436556e2"
           }
         ]
       }

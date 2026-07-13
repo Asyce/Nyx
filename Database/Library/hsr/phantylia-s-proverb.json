@@ -4,10 +4,11 @@
   "id": "phantylia-s-proverb",
   "name": "Phantylia's Proverb",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Phantylia%27s_Proverb",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -138,7 +139,8 @@
                 "type": "text",
                 "text": "The universe, in all its forms, is just a play. And a play needs its twists and turns to have any real flavor, don't you think?"
               }
-            ]
+            ],
+            "id": "p-a027b50e0af3b54f"
           }
         ]
       }

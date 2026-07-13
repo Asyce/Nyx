@@ -4,10 +4,11 @@
   "id": "extracts-of-comprehensive-snack-recipe",
   "name": "Extracts of Comprehensive Snack Recipe",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Extracts_of_Comprehensive_Snack_Recipe",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Preamble"
               }
-            ]
+            ],
+            "id": "p-9bb706360dcaa7fe"
           },
           {
             "type": "paragraph",
@@ -40,7 +42,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-81c6a2bef12c7b09"
           },
           {
             "type": "paragraph",
@@ -49,7 +52,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -115,7 +119,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-97ff0431924a2dce"
           },
           {
             "type": "paragraph",
@@ -167,7 +172,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-358d31c6d19e7335"
           },
           {
             "type": "paragraph",
@@ -219,7 +225,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-28006d3213b7a17b"
           },
           {
             "type": "paragraph",
@@ -228,7 +235,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -299,7 +307,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-9531702c44d4655a"
           },
           {
             "type": "paragraph",
@@ -365,7 +374,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-30cefdaac3c3f159"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "ancestral-diary-fragments",
   "name": "Ancestral Diary Fragments",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Ancestral_Diary_Fragments",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-5ad0150f191bb81d"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "I've decided to document these extraordinary occurrences. Perhaps someday, someone will need to understand how we lost the light. Though, reflecting on it now, that once-ordinary brilliance already seems like a distant dream..."
               }
-            ]
+            ],
+            "id": "p-f12b56ef54276882"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "When did the first strange sign appear? I can't quite remember now, but I recall that roughly three months ago, while organizing materials in my study, I suddenly heard a commotion outside my window. People were running into the streets, pointing skyward and talking urgently. When I looked up, I noticed Aquila's radiance trembling — alternating between brightness and dimness, flickering several times before returning to its normal glow. It did appear slightly dimmer than before, though one would hardly notice without careful attention."
               }
-            ]
+            ],
+            "id": "p-b59a75f52e1db024"
           },
           {
             "type": "paragraph",
@@ -51,7 +55,8 @@
                 "type": "text",
                 "text": "Later... messages arrived from distant places. My students reported that their world had been plunged into darkness. Soon after, the darkness spread like ink expelled from an octopus. While at the baths, I overheard a grain vendor explaining that his crops had begun withering due to insufficient light."
               }
-            ]
+            ],
+            "id": "p-d7b5ec30a9886fce"
           },
           {
             "type": "paragraph",
@@ -60,7 +65,8 @@
                 "type": "text",
                 "text": "Most unsettling of all... is the silence from priests who serve ██████. In the past, faithful worshipers would frequently receive responses after praying to it. But this time, no matter how fervently the priests prayed, there was no answer — had I not been acquainted with ██████, I would never have learned of this classified information."
               }
-            ]
+            ],
+            "id": "p-f57f4feca3069118"
           },
           {
             "type": "paragraph",
@@ -69,7 +75,8 @@
                 "type": "text",
                 "text": "Until yesterday, when the catastrophe finally descended, and Okhema's doom became inevitable..."
               }
-            ]
+            ],
+            "id": "p-3e27549ce98c240c"
           },
           {
             "type": "paragraph",
@@ -78,7 +85,8 @@
                 "type": "text",
                 "text": "I awakened at Entry Hour with my heart pounding unexpectedly. The market outside was unusually crowded, with everyone staring skyward — above Okhema, Aquila's light quivered like my restless eyelids. I struggled desperately to keep my eyes open, yet found myself helplessly closing them. The atmosphere in the streets grew intensely somber. Some began weeping, while others prayed frantically to Aquila. I saw a child tugging at their mother's clothing, asking what was happening, but the mother remained speechless — only holding her child closely."
               }
-            ]
+            ],
+            "id": "p-cc7f85b0cb89ade1"
           },
           {
             "type": "paragraph",
@@ -87,7 +95,8 @@
                 "type": "text",
                 "text": "Shortly thereafter, the final light vanished — Aquila had closed its eyes completely. A chorus of lamentations echoed through the streets. Just as everyone believed Evernight had descended upon us, a golden light suddenly illuminated the sky above the holy city. It was the Dawn Device. The Chaplain of Dawncloud proclaimed to everyone that this was Kephale's blessing, which would shine upon Okhema forever, never ceasing."
               }
-            ]
+            ],
+            "id": "p-b3fbf49f57f135bb"
           },
           {
             "type": "paragraph",
@@ -96,7 +105,8 @@
                 "type": "text",
                 "text": "Though its brilliance cannot match Aquila's radiance, it at least provides us with a ray of hope. While everyone firmly believes what ███████ proclaimed, I harbor doubts — how could we possibly expect a machine to rival the divine power of a Titan?"
               }
-            ]
+            ],
+            "id": "p-a770f4865827a1fd"
           },
           {
             "type": "paragraph",
@@ -105,7 +115,8 @@
                 "type": "text",
                 "text": "Of course, I wouldn't dare voice such thoughts publicly..."
               }
-            ]
+            ],
+            "id": "p-c27c9218fc5585b0"
           },
           {
             "type": "paragraph",
@@ -114,7 +125,8 @@
                 "type": "text",
                 "text": "At Parting Hour, I noticed numerous lights throughout the city for the first time as neighbors lit their candles and torches. Everyone fears the approaching darkness, yet those flames are so small — a gentle breeze could extinguish them, as fragile as our hearts. I don't know how long we must endure these conditions. My friend, Astrologist ██████, reports observing unusual celestial phenomena, as if something terrible approaches Aquila. Yet none of us dare speak openly. The priests claim to have received a \"prophecy,\" and if we were caught privately concerning ourselves with ████████, we would surely face..."
               }
-            ]
+            ],
+            "id": "p-1d6bc8190f61978b"
           },
           {
             "type": "paragraph",
@@ -123,7 +135,8 @@
                 "type": "text",
                 "text": "Having written this much, I find myself at a loss for words. I've secured this diary with three separate locks, hoping it remains undiscovered. I pray that when my child reads these words after growing up, the world will have reclaimed its eternal light. I hear commotion outside — with today's tremendous upheaval, many parts of the city have suffered. I still don't know how my youngest sister, who lives farthest away, is faring... May the Titans protect us all."
               }
-            ]
+            ],
+            "id": "p-2bbbd0f03b585e4a"
           },
           {
             "type": "paragraph",
@@ -132,7 +145,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

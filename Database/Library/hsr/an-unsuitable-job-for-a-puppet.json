@@ -4,10 +4,11 @@
   "id": "an-unsuitable-job-for-a-puppet",
   "name": "An Unsuitable Job for A Puppet",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/An_Unsuitable_Job_for_A_Puppet",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "part-1",
       "label": "Part 1",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Not everything that happens here deserves believing — Urban Legend"
               }
-            ]
+            ],
+            "id": "p-6982d1d7075c37bb"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "[Supernova Serial] An Unsuitable Job for A Puppet"
               }
-            ]
+            ],
+            "id": "p-b1670e2284886103"
           },
           {
             "type": "paragraph",
@@ -52,7 +55,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-34daf2d38450c3ec"
           },
           {
             "type": "paragraph",
@@ -61,7 +65,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -70,7 +75,8 @@
                 "type": "text",
                 "text": "Elixir Research Terrace is where elixirs are researched under the auspices of the Alchemy Commission. A man storms wildly across the pointed rooftop rafters."
               }
-            ]
+            ],
+            "id": "p-818258df1568aade"
           },
           {
             "type": "paragraph",
@@ -79,7 +85,8 @@
                 "type": "text",
                 "text": "Within but a moment, the man is at the edge of the eaves with nothing but air beneath his steps. Suddenly, the man leaps off the roof, catching onto a Heron Express cycrane. The birdlike ingenuity mutters out a few prerecorded warnings before trying to shake him off. Finally, it stabilizes, and carries him off safely to a starskiff parked in the distance."
               }
-            ]
+            ],
+            "id": "p-049a141ce672601b"
           },
           {
             "type": "paragraph",
@@ -88,7 +95,8 @@
                 "type": "text",
                 "text": "When the Alchemy Commission guards finally reached the rooftop, the man had disappeared — leaving behind only a cricket-like shadow figure."
               }
-            ]
+            ],
+            "id": "p-e8c73baf9e48de1a"
           },
           {
             "type": "paragraph",
@@ -97,7 +105,8 @@
                 "type": "text",
                 "text": "A guard eyed the diminishing figure, before falling to the ground with tears in his eyes, trembling as he muttered: \"It's over, everything's over.\""
               }
-            ]
+            ],
+            "id": "p-f315460a2c4a8916"
           },
           {
             "type": "paragraph",
@@ -106,7 +115,8 @@
                 "type": "text",
                 "text": "\"Ninsa, it's not our fault.\" The officer beside him sighed aloud and then spoke self-deprecatingly, \"Notify the Ten-Lords Commission. They can fix this.\""
               }
-            ]
+            ],
+            "id": "p-bd1c6b461b23e211"
           },
           {
             "type": "paragraph",
@@ -115,7 +125,8 @@
                 "type": "text",
                 "text": "\"Fix?\" Shouted the guard called Ninsa. \"Tell me how to fix this, Hede. He fled with a jade abacus that holds the prescriptions from the Theophany Era! Xianzhou has been hiding those secrets for centuries. Once revealed, the consequences will be unimaginable...\""
               }
-            ]
+            ],
+            "id": "p-a80c4bdeceab9cb7"
           },
           {
             "type": "paragraph",
@@ -124,7 +135,8 @@
                 "type": "text",
                 "text": "Ninsa paused and, seeing his partner lost for words and his own troops even more petrified, he stood up to continue shouting: \"We didn't even get a clear view of his face! Even the Ten-Lords Commission can't help us.\""
               }
-            ]
+            ],
+            "id": "p-5d9917299b9c4607"
           },
           {
             "type": "paragraph",
@@ -133,7 +145,8 @@
                 "type": "text",
                 "text": "Before he could finish, a cold female voice rang out behind everyone: \"I've already memorized his face. Rest assured.\""
               }
-            ]
+            ],
+            "id": "p-f18b9bac825371dd"
           },
           {
             "type": "paragraph",
@@ -142,7 +155,8 @@
                 "type": "text",
                 "text": "Everyone automatically fanned out, and the woman revealed her face — a young girl with short black hair holding a chain and scepter in her hands. There was no emotion on her delicate and lovely face, and it sent chills down the spines of the troops."
               }
-            ]
+            ],
+            "id": "p-7adf2f9fcf190df1"
           },
           {
             "type": "paragraph",
@@ -151,7 +165,8 @@
                 "type": "text",
                 "text": "\"All ingenium creations are prohibited around the Elixir Research Terrace. Of course, not including me.\""
               }
-            ]
+            ],
+            "id": "p-83ac1353e64e81c8"
           },
           {
             "type": "paragraph",
@@ -160,7 +175,8 @@
                 "type": "text",
                 "text": "The young lady said as she walked to the edge of the roof, her voice chilling to the bones. \"All cycranes responsible for deliveries are registered with the Realm-Keeping Commission. If they were modded, they can be detected very soon.\""
               }
-            ]
+            ],
+            "id": "p-d775e0e0182ee05b"
           },
           {
             "type": "paragraph",
@@ -169,7 +185,8 @@
                 "type": "text",
                 "text": "\"How do you explain that particular one? You've seen it, right?\" Asked Ninsa."
               }
-            ]
+            ],
+            "id": "p-f8fc6b5678c739d0"
           },
           {
             "type": "paragraph",
@@ -178,7 +195,8 @@
                 "type": "text",
                 "text": "\"It may have been hijacked by some kind of bioelectric signal. That Outworlder's abilities are pretty unique, are you concerned?\""
               }
-            ]
+            ],
+            "id": "p-47e714a71d897c65"
           },
           {
             "type": "paragraph",
@@ -187,7 +205,8 @@
                 "type": "text",
                 "text": "Ninsa seems to be stunned into silence by this visitor, and almost dropped to the ground once more. Like an animal with his instincts, Hede asked cautiously, \"May I ask who your Excellency is...\""
               }
-            ]
+            ],
+            "id": "p-b2fd7b8416d6d057"
           },
           {
             "type": "paragraph",
@@ -196,7 +215,8 @@
                 "type": "text",
                 "text": "\"Judge of the Ten-Lords Commission.\""
               }
-            ]
+            ],
+            "id": "p-c235341d4873843a"
           },
           {
             "type": "paragraph",
@@ -205,7 +225,8 @@
                 "type": "text",
                 "text": "And with that, the girl flipped down off the top of the roof, and instantly disappeared out of sight."
               }
-            ]
+            ],
+            "id": "p-89cf94e2dd75e3f3"
           },
           {
             "type": "paragraph",
@@ -229,7 +250,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-9d2cdaf2f2918f89"
           },
           {
             "type": "paragraph",
@@ -238,7 +260,8 @@
                 "type": "text",
                 "text": "Sir! I've been waiting for your work for a long time. I'll read every single one. Thank you!"
               }
-            ]
+            ],
+            "id": "p-7d67a138138981ee"
           },
           {
             "type": "paragraph",
@@ -262,7 +285,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-bb124759b7ea3594"
           },
           {
             "type": "paragraph",
@@ -271,7 +295,8 @@
                 "type": "text",
                 "text": "The Ten-Lords Commission? It's good subject matter, but it's far from the Ten Lords of my imagination. This just looks like some rough repackaging of spy novels set outside Xianzhou. I suggest the author check out Social Principles of Love and Restraint. It's far better than this opener here."
               }
-            ]
+            ],
+            "id": "p-f6ad90295535c279"
           },
           {
             "type": "paragraph",
@@ -295,7 +320,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ee41c8e66e414325"
           },
           {
             "type": "paragraph",
@@ -304,7 +330,8 @@
                 "type": "text",
                 "text": "The writer's description of technical details is fantastic! Such veracity, and so shocking. Did the writer really work in the Ten-Lords Commission?"
               }
-            ]
+            ],
+            "id": "p-9356c45f566cc0a4"
           },
           {
             "type": "paragraph",
@@ -328,7 +355,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-f97d33bc5a458190"
           },
           {
             "type": "paragraph",
@@ -337,7 +365,8 @@
                 "type": "text",
                 "text": "You overstate things. I'm just diligent in examining evidence."
               }
-            ]
+            ],
+            "id": "p-a6ada0e345d00ab5"
           },
           {
             "type": "paragraph",
@@ -361,7 +390,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-3c039e954bc2b775"
           },
           {
             "type": "paragraph",
@@ -370,7 +400,8 @@
                 "type": "text",
                 "text": "Interesting."
               }
-            ]
+            ],
+            "id": "p-f861118e3f042c71"
           },
           {
             "type": "paragraph",
@@ -394,7 +425,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-142f9cd05f338460"
           },
           {
             "type": "paragraph",
@@ -403,7 +435,8 @@
                 "type": "text",
                 "text": "Holy cow, it's Fay's new work! #confetti#applause#hugs~ I've been waiting for this for 827 years! #confetti#applause#hugs~ I hope you read this post. I've liked, commented, and shared every post you've ever done."
               }
-            ]
+            ],
+            "id": "p-1874226eb97a930c"
           },
           {
             "type": "paragraph",
@@ -427,7 +460,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-e2bcaf461820ede9"
           },
           {
             "type": "paragraph",
@@ -436,7 +470,8 @@
                 "type": "text",
                 "text": "\"Grade A top product.\" Master Fay's deductive skills are absolutely the best aboard Xianzhou. From the migration of viewpoints to the reshaping of characters, all of the dramatic tension is built up before being released at the end."
               }
-            ]
+            ],
+            "id": "p-55ef7e831623a13c"
           },
           {
             "type": "paragraph",
@@ -445,7 +480,8 @@
                 "type": "text",
                 "text": "Master Fay runs over the central themes with picturesque words. The penetrating descriptions are shocking, as though they've sprouted their own hands, feet, and senses. Characters are guided under the supervision and observation of the reader."
               }
-            ]
+            ],
+            "id": "p-0af7fe7635128ea8"
           },
           {
             "type": "paragraph",
@@ -469,7 +505,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-67b30a21a23cb110"
           },
           {
             "type": "paragraph",
@@ -478,7 +515,8 @@
                 "type": "text",
                 "text": "I wanna be the judge's dog. I wanna be whipped with the judge's chain!!! O judge, I am your dog! How can I live without you!? My judge!!!"
               }
-            ]
+            ],
+            "id": "p-c30cee18867d30b5"
           },
           {
             "type": "paragraph",
@@ -502,7 +540,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-f9a69efbe3b1f136"
           },
           {
             "type": "paragraph",
@@ -511,13 +550,15 @@
                 "type": "text",
                 "text": "That's kinda gross."
               }
-            ]
+            ],
+            "id": "p-a4393d04e29791b1"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "part-2",
       "label": "Part 2",
       "document": {
         "version": 1,
@@ -529,7 +570,8 @@
                 "type": "text",
                 "text": "Not everything that happens here deserves believing — Urban Legend"
               }
-            ]
+            ],
+            "id": "p-6982d1d7075c37bb"
           },
           {
             "type": "paragraph",
@@ -538,7 +580,8 @@
                 "type": "text",
                 "text": "[Supernova Serial] An Unsuitable Job for A Puppet"
               }
-            ]
+            ],
+            "id": "p-b1670e2284886103"
           },
           {
             "type": "paragraph",
@@ -562,7 +605,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-95e9101940dd8582"
           },
           {
             "type": "paragraph",
@@ -576,7 +620,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-8dcd09aa412c4824"
           },
           {
             "type": "paragraph",
@@ -585,7 +630,8 @@
                 "type": "text",
                 "text": "\"Madam,\" a short foxian female judge calls out cautiously. \"Not even the Ten-Lords Commission could identify bioelectric signals without any evidence. This judgment seems a little arbitrary...\""
               }
-            ]
+            ],
+            "id": "p-636e15d44bbf62b5"
           },
           {
             "type": "paragraph",
@@ -594,7 +640,8 @@
                 "type": "text",
                 "text": "\"The point is not the signal itself,\" the girl being called Madam interrupts. \"A secret prescription from the Theophany Era is hidden in the Elixir Research Terrace, and was stolen by an Outworld thief...\""
               }
-            ]
+            ],
+            "id": "p-84e9b3c332e45e07"
           },
           {
             "type": "paragraph",
@@ -603,7 +650,8 @@
                 "type": "text",
                 "text": "\"You mean...?\" asks the foxian tentatively, afraid of being remonstrated by her leader for not knowing."
               }
-            ]
+            ],
+            "id": "p-d2e3c5ee6ad43166"
           },
           {
             "type": "paragraph",
@@ -612,7 +660,8 @@
                 "type": "text",
                 "text": "\" all items stored in the Elixir Research Terrace been advertised so widely that even Outworlders know about it? Has it become common knowledge?\" Says the girl, pausing to add: \"Go and look into things there, including any previous doctors who've been fired or quit.\""
               }
-            ]
+            ],
+            "id": "p-50b9cc1c809e0df8"
           },
           {
             "type": "paragraph",
@@ -621,7 +670,8 @@
                 "type": "text",
                 "text": "\"Miss, please stop. This is the men's restroom...\""
               }
-            ]
+            ],
+            "id": "p-a7f7fb63647456ec"
           },
           {
             "type": "paragraph",
@@ -630,7 +680,8 @@
                 "type": "text",
                 "text": "Before he can finish, the Vidyadhara man guarding the door of the men's room feels a cold object on his neck. Looking down, he sees a scepter in the shape of a spear-tip."
               }
-            ]
+            ],
+            "id": "p-9061a02fcd14fdb2"
           },
           {
             "type": "paragraph",
@@ -639,7 +690,8 @@
                 "type": "text",
                 "text": "According to his own words, he has been able to safely survive his first 300 years by relying on three words alone: \"understand the situation.\" So he immediately smiles and says: \"It's urgent, right? Then I won't stop you, haha.\""
               }
-            ]
+            ],
+            "id": "p-ccb0399cd1ec111c"
           },
           {
             "type": "paragraph",
@@ -648,7 +700,8 @@
                 "type": "text",
                 "text": "Then, he escapes in a strange pose, turning his head with an apologetic smile as he flees down the dark alleyway."
               }
-            ]
+            ],
+            "id": "p-97cf03e6e83dc306"
           },
           {
             "type": "paragraph",
@@ -657,7 +710,8 @@
                 "type": "text",
                 "text": "The dark-haired girl uses her scepter to lift up the filthy curtain over the restroom's doorway and walks inside."
               }
-            ]
+            ],
+            "id": "p-69f118c649bff7fb"
           },
           {
             "type": "paragraph",
@@ -666,7 +720,8 @@
                 "type": "text",
                 "text": "Behind the curtain, a strong stench stimulates her olfactory center. A quick analysis is completed within a nanosecond: It isn't the smell of ammonia, but a pungent odor of sodium hypochlorite. Perhaps the vast majority of law-abiding citizens of Xianzhou would never imagine an apothecary hiding out in an abandoned public restroom like this."
               }
-            ]
+            ],
+            "id": "p-6417fc6477abcaac"
           },
           {
             "type": "paragraph",
@@ -675,7 +730,8 @@
                 "type": "text",
                 "text": "In the darkest depths of the apothecary, a man who appears to be a physician is lost in thought. Before he can react, a young girl approaches him like a ghost. A chain, as if it had a life of its own, coils around him, binding him tightly, while the sharp tip of a staff presses against his throat."
               }
-            ]
+            ],
+            "id": "p-22ae6c72eedfc8bf"
           },
           {
             "type": "paragraph",
@@ -684,7 +740,8 @@
                 "type": "text",
                 "text": "\"Who did you tell about the secret prescriptions kept in the Elixir Research Terrace?\" The girl asks, then slightly releases the pressure so that he can speak."
               }
-            ]
+            ],
+            "id": "p-10c12faa9cbee106"
           },
           {
             "type": "paragraph",
@@ -693,7 +750,8 @@
                 "type": "text",
                 "text": "\"Prescription... I don't know about any prescription... Ugh...\""
               }
-            ]
+            ],
+            "id": "p-859e0bfc099f62b1"
           },
           {
             "type": "paragraph",
@@ -702,7 +760,8 @@
                 "type": "text",
                 "text": "He only manages to say a few words before the girl tightens her grip, blocking up the words in his throat."
               }
-            ]
+            ],
+            "id": "p-f6cd91625ab71b2d"
           },
           {
             "type": "paragraph",
@@ -711,7 +770,8 @@
                 "type": "text",
                 "text": "\"Who is he?\" She demands, again relaxing her right hand slightly."
               }
-            ]
+            ],
+            "id": "p-0375d73d2c39d6d2"
           },
           {
             "type": "paragraph",
@@ -720,7 +780,8 @@
                 "type": "text",
                 "text": "\"Ahem... I don't know... Ugh...\""
               }
-            ]
+            ],
+            "id": "p-a8606227d592e9c4"
           },
           {
             "type": "paragraph",
@@ -729,7 +790,8 @@
                 "type": "text",
                 "text": "\"How many of the Ten Lords' interrogation methods have you heard of? I'll ask you one last time: Who is he?\" She retracts the spear-like scepter and, in a display of strength disproportionate to her size, easily lifts him up off the ground."
               }
-            ]
+            ],
+            "id": "p-53a07fda9582ebef"
           },
           {
             "type": "paragraph",
@@ -738,7 +800,8 @@
                 "type": "text",
                 "text": "\"Ahem... Coventry! Ahem... Albert Coventry! There, I said it! I told you. Please spare me!\""
               }
-            ]
+            ],
+            "id": "p-b3490a3a2790bc0d"
           },
           {
             "type": "paragraph",
@@ -747,7 +810,8 @@
                 "type": "text",
                 "text": "The man suddenly feels all his strength has left his body. Both his legs give way as he collapses to the ground. When he comes back around and tries to see the girl's face, he realizes that the entire nightmarish interrogation process is as though it never existed — only the rustling sound from the alleyway remains."
               }
-            ]
+            ],
+            "id": "p-2a5db8183be444e0"
           },
           {
             "type": "paragraph",
@@ -771,7 +835,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-eb68541b1bd0d261"
           },
           {
             "type": "paragraph",
@@ -780,7 +845,8 @@
                 "type": "text",
                 "text": "Master! I've been waiting for your work for a long time. I'll read every single one. Thank you!"
               }
-            ]
+            ],
+            "id": "p-16b0b5f396069bc4"
           },
           {
             "type": "paragraph",
@@ -804,7 +870,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-933b965e55b686d4"
           },
           {
             "type": "paragraph",
@@ -813,7 +880,8 @@
                 "type": "text",
                 "text": "This chapter is good."
               }
-            ]
+            ],
+            "id": "p-d1c664f59da6c244"
           },
           {
             "type": "paragraph",
@@ -847,7 +915,8 @@
                 "type": "text",
                 "text": "Fay really is the Xianzhou King of Hardboiled Fiction. Every chapter weaves back and forth, revealing shocking surprises! It's unbeatable!"
               }
-            ]
+            ],
+            "id": "p-d478107ffcac99a3"
           },
           {
             "type": "paragraph",
@@ -881,7 +950,8 @@
                 "type": "text",
                 "text": "You overstate things. I don't deserve such praise. In my opinion, there are many hard-boiled novelists who are better than me."
               }
-            ]
+            ],
+            "id": "p-c4a51621c3b7f51a"
           },
           {
             "type": "paragraph",
@@ -915,7 +985,8 @@
                 "type": "text",
                 "text": "No way! You're so humble — you definitely deserve the title of the Xianzhou King of Hardboiled Fiction. There's none better than you out there!"
               }
-            ]
+            ],
+            "id": "p-d9d02d5a8f0c4ccc"
           },
           {
             "type": "paragraph",
@@ -939,7 +1010,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-41906da0710ec65a"
           },
           {
             "type": "paragraph",
@@ -948,7 +1020,8 @@
                 "type": "text",
                 "text": "From a psychoanalytic perspective, the author comes off as a big Other, and must learn to restrain the sliding of the signifier with the awakening of the ego."
               }
-            ]
+            ],
+            "id": "p-b98b7ee60678efdd"
           },
           {
             "type": "paragraph",
@@ -972,7 +1045,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-c49e694efd7dc890"
           },
           {
             "type": "paragraph",
@@ -981,7 +1055,8 @@
                 "type": "text",
                 "text": "What is all this you're talking about?"
               }
-            ]
+            ],
+            "id": "p-c5da0e3a1c214b11"
           },
           {
             "type": "paragraph",
@@ -1005,7 +1080,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-e9c16e8fd6a24f71"
           },
           {
             "type": "paragraph",
@@ -1014,7 +1090,8 @@
                 "type": "text",
                 "text": "Judge, ahhh! Why are you rewarding him, arghhh!!! Don't hit him, hit me instead!!! Hit me! Let me be your dog, ahhhh!"
               }
-            ]
+            ],
+            "id": "p-ff581215930de879"
           },
           {
             "type": "paragraph",
@@ -1038,7 +1115,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-8b54889cc183ebf6"
           },
           {
             "type": "paragraph",
@@ -1047,7 +1125,8 @@
                 "type": "text",
                 "text": "Where do you live? Let's talk offline."
               }
-            ]
+            ],
+            "id": "p-10df4dc5858a29b5"
           },
           {
             "type": "paragraph",
@@ -1071,7 +1150,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-2c2228cabca5b554"
           },
           {
             "type": "paragraph",
@@ -1080,13 +1160,15 @@
                 "type": "text",
                 "text": "I deeply understand and reflect upon my inappropriate words. I will be cautious in word and deed, and be an upstanding pillar of the Xianzhou community. Please stay safe in online book review sites: the long arm of the law can still reach you there."
               }
-            ]
+            ],
+            "id": "p-34901eab52360572"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "part-3",
       "label": "Part 3",
       "document": {
         "version": 1,
@@ -1098,7 +1180,8 @@
                 "type": "text",
                 "text": "Not everything that happens here deserves believing — Urban Legend"
               }
-            ]
+            ],
+            "id": "p-6982d1d7075c37bb"
           },
           {
             "type": "paragraph",
@@ -1107,7 +1190,8 @@
                 "type": "text",
                 "text": "[Supernova Serial] An Unsuitable Job for A Puppet"
               }
-            ]
+            ],
+            "id": "p-b1670e2284886103"
           },
           {
             "type": "paragraph",
@@ -1131,7 +1215,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-1f6c1d30e92f0cbd"
           },
           {
             "type": "paragraph",
@@ -1145,7 +1230,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-8ba894559822f453"
           },
           {
             "type": "paragraph",
@@ -1154,7 +1240,8 @@
                 "type": "text",
                 "text": "The girl opened the scroll she was carrying and looked thoughtfully at the real-time data refreshing on the map."
               }
-            ]
+            ],
+            "id": "p-07202a209095725c"
           },
           {
             "type": "paragraph",
@@ -1163,7 +1250,8 @@
                 "type": "text",
                 "text": "\"The intel Coventry obtained is not the prescription. Is that what you mean?\" asked the foxian judge meekly."
               }
-            ]
+            ],
+            "id": "p-e932ecb844d01b1f"
           },
           {
             "type": "paragraph",
@@ -1172,7 +1260,8 @@
                 "type": "text",
                 "text": "\"The prescription is just a front.\" said the girl, without looking up."
               }
-            ]
+            ],
+            "id": "p-6582cd313573dc88"
           },
           {
             "type": "paragraph",
@@ -1181,7 +1270,8 @@
                 "type": "text",
                 "text": "\"So... as far as I am concerned, Coventry is just being used. Some people in the Elixir Research Terrace wanted to stir up chaos to muddle the news of their research. The news of theft is just a ploy for redirection.\" the foxian said, sending across several notes to the scroll in the girl's hand. \"I've already got the diviner who is able to recover the data presumed lost.\""
               }
-            ]
+            ],
+            "id": "p-f6505269c65dd204"
           },
           {
             "type": "paragraph",
@@ -1190,7 +1280,8 @@
                 "type": "text",
                 "text": "\"Well done.\" The girl nodded, her tone still ice-cold."
               }
-            ]
+            ],
+            "id": "p-fbc75eac4608ec43"
           },
           {
             "type": "paragraph",
@@ -1199,7 +1290,8 @@
                 "type": "text",
                 "text": "When the foxian judge heard this cold praise, she tried her best to maintain a serious expression but her ears couldn't help wiggling."
               }
-            ]
+            ],
+            "id": "p-b10eb746bcb41741"
           },
           {
             "type": "paragraph",
@@ -1208,7 +1300,8 @@
                 "type": "text",
                 "text": "About three hours later after confirming nobody was following him, Coventry opened the door and called out: \"I'm back.\""
               }
-            ]
+            ],
+            "id": "p-c4ee28179f011380"
           },
           {
             "type": "paragraph",
@@ -1217,7 +1310,8 @@
                 "type": "text",
                 "text": "As soon as he opened the door, he felt something was off. The room was completely dark. That crazed Xianzhou hacker Mishang used to welcome him back by singing a strange ditty, but this time the room was dead silent."
               }
-            ]
+            ],
+            "id": "p-1963bf31da153a17"
           },
           {
             "type": "paragraph",
@@ -1226,7 +1320,8 @@
                 "type": "text",
                 "text": "\"Something is wrong,\" he quietly said to himself as he pulled out his weapon. He pushed on into the darkness."
               }
-            ]
+            ],
+            "id": "p-b74ca7d5d6a0126a"
           },
           {
             "type": "paragraph",
@@ -1235,7 +1330,8 @@
                 "type": "text",
                 "text": "Behind the screen that sectioned the room, a white figure emerged slowly. Coventry almost reflexively pulled the trigger of his hand crossbow."
               }
-            ]
+            ],
+            "id": "p-fe95b4bf2173dbaf"
           },
           {
             "type": "paragraph",
@@ -1244,7 +1340,8 @@
                 "type": "text",
                 "text": "A two-inch-long, thin, cyan-colored bolt thrummed, hovering about a foot in front of the delicate face of the young girl. The bolthead crackled with sparks as if trying to break through the invisible barrier."
               }
-            ]
+            ],
+            "id": "p-1035e2ca717886bd"
           },
           {
             "type": "paragraph",
@@ -1253,7 +1350,8 @@
                 "type": "text",
                 "text": "\"H—How did you find me?\""
               }
-            ]
+            ],
+            "id": "p-6da79a2b8641c987"
           },
           {
             "type": "paragraph",
@@ -1262,7 +1360,8 @@
                 "type": "text",
                 "text": "\"Cycrane.\" The response was a cold and emotionless female voice."
               }
-            ]
+            ],
+            "id": "p-6e158fe013b75efb"
           },
           {
             "type": "paragraph",
@@ -1271,7 +1370,8 @@
                 "type": "text",
                 "text": "\"That drone? I released it as soon as I landed!\" cried the man nonchalantly."
               }
-            ]
+            ],
+            "id": "p-7daed4fea36d4d8c"
           },
           {
             "type": "paragraph",
@@ -1280,7 +1380,8 @@
                 "type": "text",
                 "text": "\"The influenced cycrane has been retrieved by the Realm-Keeping Commission. Its flight path was enough for the Divination Commission to triangulate your whereabouts.\" The girl half-curiously touched the quivering bolthead in the air like teasing a butterfly."
               }
-            ]
+            ],
+            "id": "p-75d31edfa38d5368"
           },
           {
             "type": "paragraph",
@@ -1289,7 +1390,8 @@
                 "type": "text",
                 "text": "This was the moment Coventry was waiting for, the split-second window of opportunity for his escape."
               }
-            ]
+            ],
+            "id": "p-3b0f7cd2b87e93a5"
           },
           {
             "type": "paragraph",
@@ -1298,7 +1400,8 @@
                 "type": "text",
                 "text": "He bent his knees and pushed off with the soles of his feet. A purple electrical arc could be seen in the center of his palms. Coventry roamed many worlds and had always fluttered outside the grasp of the Interastral Peace Corporation. He was perpetually on the wanted list, not just because of his well-planned schemes, but also because he knew what to do when he was caught."
               }
-            ]
+            ],
+            "id": "p-f4664d7015d3c06e"
           },
           {
             "type": "paragraph",
@@ -1307,7 +1410,8 @@
                 "type": "text",
                 "text": "Under his artificial skin, a network of electrical pulses was implanted, Coventry rarely showed this trick up his sleeves to anyone. Whether it be the long-life species of Xianzhou or the Artisanship Commission's Ingenium creations... With a fully powered strike, they would likely all turn to ashes."
               }
-            ]
+            ],
+            "id": "p-09a27b74bf1bdf6f"
           },
           {
             "type": "paragraph",
@@ -1316,7 +1420,8 @@
                 "type": "text",
                 "text": "\"Electromagnetic field activate!\""
               }
-            ]
+            ],
+            "id": "p-373c400b40cb1cd8"
           },
           {
             "type": "paragraph",
@@ -1325,7 +1430,8 @@
                 "type": "text",
                 "text": "\"Gotcha!\" The man felt his enemy in his palm. If it wasn't for the need to concentrate all his attention on maintaining the electrical output, he would have laughed out loud."
               }
-            ]
+            ],
+            "id": "p-55017a9120e4233b"
           },
           {
             "type": "paragraph",
@@ -1334,7 +1440,8 @@
                 "type": "text",
                 "text": "Smoke rose and sparks flew as the unpleasant smell of burning filled the area."
               }
-            ]
+            ],
+            "id": "p-de143b72e1080536"
           },
           {
             "type": "paragraph",
@@ -1343,7 +1450,8 @@
                 "type": "text",
                 "text": "Coventry trembled as if having an epileptic seizure as he struggled to control himself. Upon impact, the pitch-black room spun into a blob of shadow in his unimaginable defeat."
               }
-            ]
+            ],
+            "id": "p-fe952607d3f6e69e"
           },
           {
             "type": "paragraph",
@@ -1352,7 +1460,8 @@
                 "type": "text",
                 "text": "\"Your movement is too slow.\" The young girl materialized from within the shadow."
               }
-            ]
+            ],
+            "id": "p-a1bd88d61376a86a"
           },
           {
             "type": "paragraph",
@@ -1361,7 +1470,8 @@
                 "type": "text",
                 "text": "M—Movement? Coventry stared at his wrist, bent at an unnatural angle. At some point in time unbeknownst to him, that hand was forcibly pressed against his lower jaw."
               }
-            ]
+            ],
+            "id": "p-894809090c88141e"
           },
           {
             "type": "paragraph",
@@ -1370,7 +1480,8 @@
                 "type": "text",
                 "text": "\"Using electricity without being insulated. What a useless maneuver.\""
               }
-            ]
+            ],
+            "id": "p-ccc6f97c341c3580"
           },
           {
             "type": "paragraph",
@@ -1379,7 +1490,8 @@
                 "type": "text",
                 "text": "The judge in white showed no emotions on her face."
               }
-            ]
+            ],
+            "id": "p-45e68ce3b706357e"
           },
           {
             "type": "paragraph",
@@ -1388,7 +1500,8 @@
                 "type": "text",
                 "text": "\"Involuntary Immortalization and Immortality Theft. These two are the gravest of the Ten Unpardonable Sins. Do you admit your guilt?\""
               }
-            ]
+            ],
+            "id": "p-11ae0fa98483e726"
           },
           {
             "type": "paragraph",
@@ -1397,7 +1510,8 @@
                 "type": "text",
                 "text": "The man could not control his shaking, partially because of the electric shock, but more because of the fear."
               }
-            ]
+            ],
+            "id": "p-5ecf96ad878fd2e8"
           },
           {
             "type": "paragraph",
@@ -1406,7 +1520,8 @@
                 "type": "text",
                 "text": "With the remaining sanity he could muster, he begged with his coarse voice, \"Please... Please forgive me. I haven't even peeked at the prescription. I will leave it behind and get my butt off of the Luofu. Please... You will never see me again!\""
               }
-            ]
+            ],
+            "id": "p-df24729a7012bde8"
           },
           {
             "type": "paragraph",
@@ -1415,7 +1530,8 @@
                 "type": "text",
                 "text": "Coventry steeled his nerves, awaiting the verdict from the judge — but there was only silence in the darkness. After a long while, he seemed to hear an impossible sneering from out of the darkness."
               }
-            ]
+            ],
+            "id": "p-9a9143a59456d085"
           },
           {
             "type": "paragraph",
@@ -1424,7 +1540,8 @@
                 "type": "text",
                 "text": "Immediately after, that same cold voice rang out again and in a sacred, firm, and undeniable tone said word-by-word:"
               }
-            ]
+            ],
+            "id": "p-e4f5548e00f6a707"
           },
           {
             "type": "paragraph",
@@ -1433,7 +1550,8 @@
                 "type": "text",
                 "text": "\"Ten Lords' Verdict.\""
               }
-            ]
+            ],
+            "id": "p-54fbf0a0193bc028"
           },
           {
             "type": "paragraph",
@@ -1457,7 +1575,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-222ee84ce5612c1e"
           },
           {
             "type": "paragraph",
@@ -1466,7 +1585,8 @@
                 "type": "text",
                 "text": "Sir! I've been waiting for your work for a long time. I'll read every single one. Thank you!"
               }
-            ]
+            ],
+            "id": "p-7d67a138138981ee"
           },
           {
             "type": "paragraph",
@@ -1490,7 +1610,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-91fc671467ecb7de"
           },
           {
             "type": "paragraph",
@@ -1499,7 +1620,8 @@
                 "type": "text",
                 "text": "Are we sure this Big Smartie isn't a bot account?"
               }
-            ]
+            ],
+            "id": "p-8cf56441bdb714df"
           },
           {
             "type": "paragraph",
@@ -1523,7 +1645,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-9a962871fac3dd43"
           },
           {
             "type": "paragraph",
@@ -1532,7 +1655,8 @@
                 "type": "text",
                 "text": "It's a little bit exaggerated, but I love it."
               }
-            ]
+            ],
+            "id": "p-4cd74e0da92ffdf3"
           },
           {
             "type": "paragraph",
@@ -1556,7 +1680,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-22e2040854460fe2"
           },
           {
             "type": "paragraph",
@@ -1565,7 +1690,8 @@
                 "type": "text",
                 "text": "The Xianzhou King of Hardboiled Fiction has a new book out! Let's go give it our support now! Those so-called \"masterpieces of fiction\" have got nothing on this, so don't waste your money and time reading those! Master Fay is a boon for all of us lucky readers on Xianzhou!"
               }
-            ]
+            ],
+            "id": "p-506638bc7b8b1a3c"
           },
           {
             "type": "paragraph",
@@ -1589,7 +1715,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-80072ad2cb00b5a9"
           },
           {
             "type": "paragraph",
@@ -1598,7 +1725,8 @@
                 "type": "text",
                 "text": "You're really too kind! The lucky one is me — to have such discerning readers as you all!"
               }
-            ]
+            ],
+            "id": "p-de6327a67579a8f5"
           },
           {
             "type": "paragraph",
@@ -1622,7 +1750,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-b3bb23a0f9d37f98"
           },
           {
             "type": "paragraph",
@@ -1631,7 +1760,8 @@
                 "type": "text",
                 "text": "Is Six-Eyed Flying Fish a sock puppet account of Chess Master Fay's!?"
               }
-            ]
+            ],
+            "id": "p-9475b7a754eeeeef"
           },
           {
             "type": "paragraph",
@@ -1655,7 +1785,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-bce757513389861a"
           },
           {
             "type": "paragraph",
@@ -1664,7 +1795,8 @@
                 "type": "text",
                 "text": "Venomous slander. How could I be the Chess Master Fay? There's no way I could imitate the magnificence of his written word."
               }
-            ]
+            ],
+            "id": "p-361714917c47bab1"
           },
           {
             "type": "paragraph",
@@ -1688,7 +1820,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-061143494989976d"
           },
           {
             "type": "paragraph",
@@ -1697,7 +1830,8 @@
                 "type": "text",
                 "text": "You forgot to switch accounts."
               }
-            ]
+            ],
+            "id": "p-9f6ff02fe30eb089"
           },
           {
             "type": "paragraph",
@@ -1721,7 +1855,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-6b643b99a25f5347"
           },
           {
             "type": "paragraph",
@@ -1730,7 +1865,8 @@
                 "type": "text",
                 "text": "Judge, please arrest me!!! I surrender. I have sinned!!! The sin of infatuation — with you!!! O Judge, I wanna be your dog!!!"
               }
-            ]
+            ],
+            "id": "p-fa8cc05f3485a276"
           },
           {
             "type": "paragraph",
@@ -1754,7 +1890,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-663548217f2456cf"
           },
           {
             "type": "paragraph",
@@ -1763,7 +1900,8 @@
                 "type": "text",
                 "text": "That's about enough."
               }
-            ]
+            ],
+            "id": "p-d40860590c1ddccb"
           }
         ]
       }

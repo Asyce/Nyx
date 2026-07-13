@@ -1314,7 +1314,7 @@
             "rarity": "2 \u2605",
             "element": "Fusion"
           },
-          "text": "Large amphibian-like creatures mostly found in forests. Their hard skins are found to emit searing heat. Research has found that the tenacity of Viridblaze Saurian's skin has a positive correlation to"
+          "text": "Large amphibian-like creatures mostly found in forests. Their hard skins are found to emit searing heat.\nResearch has found that the tenacity of Viridblaze Saurian's skin has a positive correlation to the beast's body temperature."
         },
         {
           "id": "ww-mon-320000090",
@@ -1544,7 +1544,7 @@
             "rarity": "2 \u2605",
             "element": "Fusion"
           },
-          "text": "A Tacet Discord often seen hovering atop large structures, feigning an imposing posture as if the buildings are extensions of its body. Its silhouette blends with the architecture, towering like a men"
+          "text": "A Tacet Discord often seen hovering atop large structures, feigning an imposing posture as if the buildings are extensions of its body. Its silhouette blends with the architecture, towering like a menacing giant."
         },
         {
           "id": "ww-mon-320000290",
@@ -2268,7 +2268,7 @@
             "rarity": "4 \u2605",
             "element": "Havoc"
           },
-          "text": "A Whisperin TD discovered in the Norfall Barrens, exhibiting more prominent characteristics of the human female form. There is a suspected link to Threnodian, surrounded by other TD sub-class aggregat"
+          "text": "A Whisperin TD discovered in the Norfall Barrens, exhibiting more prominent characteristics of the human female form. There is a suspected link to Threnodian, surrounded by other TD sub-class aggregates. Due to its hazardous environment, there remains insufficient information and records, it has been classified as a Calamity Class."
         },
         {
           "id": "ww-mon-340000080",
@@ -2510,7 +2510,7 @@
             "rarity": "4 \u2605",
             "element": "Aero"
           },
-          "text": "The multitudes chant Its name as one; countless voices hail the gospel of the end. It and Its kingdom are fated to descend."
+          "text": "The multitudes chant Its name as one; countless voices hail the gospel of the end.\nIt and Its kingdom are fated to descend."
         },
         {
           "id": "ww-mon-340000201",
@@ -2521,7 +2521,7 @@
             "rarity": "4 \u2605",
             "element": "Aero"
           },
-          "text": "The multitudes chant Its name as one; countless voices hail the gospel of the end. It and Its kingdom are fated to descend."
+          "text": "The multitudes chant Its name as one; countless voices hail the gospel of the end.\nIt and Its kingdom are fated to descend."
         },
         {
           "id": "ww-mon-340000210",
@@ -2576,7 +2576,7 @@
             "rarity": "4 \u2605",
             "element": "Havoc"
           },
-          "text": "A shadow looming in the sand and storm. An abomination woven from tens of thousands of Exoswarm. Listen\u2014the void-star hums, and it is near."
+          "text": "A shadow looming in the sand and storm.\nAn abomination woven from tens of thousands of Exoswarm.\nListen\u2014the void-star hums, and it is near."
         },
         {
           "id": "ww-mon-340000250",
@@ -2794,7 +2794,7 @@
             "rarity": "4 \u2605",
             "element": "Havoc"
           },
-          "text": "A Whisperin TD discovered in the Norfall Barrens, exhibiting more prominent characteristics of the human female form. There is a suspected link to Threnodian, surrounded by other TD sub-class aggregat"
+          "text": "A Whisperin TD discovered in the Norfall Barrens, exhibiting more prominent characteristics of the human female form. There is a suspected link to Threnodian, surrounded by other TD sub-class aggregates. Due to its hazardous environment, there remains insufficient information and records, it has been classified as a Calamity Class."
         },
         {
           "id": "ww-mon-350000100",
@@ -3023,7 +3023,7 @@
             "rarity": "2 \u2605",
             "element": "Fusion"
           },
-          "text": "A Tacet Discord often seen hovering atop large structures, feigning an imposing posture as if the buildings are extensions of its body. Its silhouette blends with the architecture, towering like a men"
+          "text": "A Tacet Discord often seen hovering atop large structures, feigning an imposing posture as if the buildings are extensions of its body. Its silhouette blends with the architecture, towering like a menacing giant."
         },
         {
           "id": "ww-mon-350000310",
@@ -3152,7 +3152,7 @@
       "key": "items",
       "title": "Items",
       "source": "GameData",
-      "count": 2303,
+      "count": 2297,
       "items": [
         {
           "id": "ww-item-1",
@@ -3207,7 +3207,7 @@
             "rarity": "4 \u2605",
             "type": "Consumable"
           },
-          "text": "Waveplates gradually restores over time and there is a storage limit. Astrites can be consumed to exchange for Waveplates."
+          "text": "Waveplates gradually restores over time and there is a storage limit.\nAstrites can be consumed to exchange for Waveplates."
         },
         {
           "id": "ww-item-6",
@@ -3218,7 +3218,7 @@
             "rarity": "4 \u2605",
             "type": "Consumable"
           },
-          "text": "Refined Waveplate with a higher purity. Waveplate Crystals start to regenerate once Waveplates are full, at the rate of 1 per 12 minutes. Consume to replenish a"
+          "text": "Refined Waveplate with a higher purity.\nWaveplate Crystals start to regenerate once Waveplates are full, at the rate of 1 per 12 minutes. Consume to replenish an equal amount of Waveplates."
         },
         {
           "id": "ww-item-8",
@@ -3361,7 +3361,7 @@
             "rarity": "5 \u2605",
             "type": "Activity Points"
           },
-          "text": "A note containing music scores of Solaris's unique music. Collect a certain number of these notes to claim rewards on the event page."
+          "text": "A note containing music scores of Solaris's unique music.\nCollect a certain number of these notes to claim rewards on the event page."
         },
         {
           "id": "ww-item-21",
@@ -3515,7 +3515,7 @@
             "rarity": "5 \u2605",
             "type": "Special Token"
           },
-          "text": "A special coin forged by the Fisalia family, obtained by completing Tactical Hologram: Phantom Pain. Can be exchanged for a variety of supplies prepared by the "
+          "text": "A special coin forged by the Fisalia family, obtained by completing Tactical Hologram: Phantom Pain. Can be exchanged for a variety of supplies prepared by the Fisalias."
         },
         {
           "id": "ww-item-35",
@@ -3834,7 +3834,7 @@
             "rarity": "5 \u2605",
             "type": "Special Token"
           },
-          "text": "A special token issued by the Synchrolink System based on the trainee's performance in general simulation training. Each hard-earned coin stands as proof of a S"
+          "text": "A special token issued by the Synchrolink System based on the trainee's performance in general simulation training.\nEach hard-earned coin stands as proof of a Synchronist's progress and breakthroughs. Can be exchanged for a variety of supplies that the Academy prepared for Synchronists."
         },
         {
           "id": "ww-item-64",
@@ -4043,7 +4043,7 @@
             "rarity": "5 \u2605",
             "type": "Special Token"
           },
-          "text": "A special token forged by the Skyworks, which can be exchanged for an assortment of supplies prepared for the participants. Every fierce battle the Xuanfang Hol"
+          "text": "A special token forged by the Skyworks, which can be exchanged for an assortment of supplies prepared for the participants.\nEvery fierce battle the Xuanfang Hold has endured will become the experience that strengthens its foundation."
         },
         {
           "id": "ww-item-83",
@@ -4054,7 +4054,7 @@
             "rarity": "3 \u2605",
             "type": "Special Token"
           },
-          "text": "Upload data to the Bioprinter to print Resonator Ascension Collectibles native to the following regions: Huanglong - Jinzhou, Black Shores, Rinascita, Honami Ci"
+          "text": "Upload data to the Bioprinter to print Resonator Ascension Collectibles native to the following regions:\nHuanglong - Jinzhou, Black Shores, Rinascita, Honami City"
         },
         {
           "id": "ww-item-84",
@@ -4263,7 +4263,7 @@
             "rarity": "4 \u2605",
             "type": "Event Item"
           },
-          "text": "A mysterious floating bubble where fish might be hiding. Upon purchase, a Wonder Bubble will be generated near the current dock to help Rover catch crabs and ur"
+          "text": "A mysterious floating bubble where fish might be hiding. Upon purchase, a Wonder Bubble will be generated near the current dock to help Rover catch crabs and urchins."
         },
         {
           "id": "ww-item-10812",
@@ -4274,7 +4274,7 @@
             "rarity": "4 \u2605",
             "type": "Event Item"
           },
-          "text": "A mysterious floating bubble where fish might be hiding. Upon purchase, a Wonder Bubble will be generated near the current dock to help Rover catch crabs and ur"
+          "text": "A mysterious floating bubble where fish might be hiding. Upon purchase, a Wonder Bubble will be generated near the current dock to help Rover catch crabs and urchins."
         },
         {
           "id": "ww-item-10813",
@@ -4285,7 +4285,7 @@
             "rarity": "4 \u2605",
             "type": "Event Item"
           },
-          "text": "A mysterious floating bubble where fish might be hiding. Upon purchase, a Wonder Bubble will be generated near the current dock to help Rover catch crabs and ur"
+          "text": "A mysterious floating bubble where fish might be hiding. Upon purchase, a Wonder Bubble will be generated near the current dock to help Rover catch crabs and urchins."
         },
         {
           "id": "ww-item-10814",
@@ -4296,7 +4296,7 @@
             "rarity": "4 \u2605",
             "type": "Event Item"
           },
-          "text": "A mysterious floating bubble where fish might be hiding. Upon purchase, a Wonder Bubble will be generated near the current dock to help Rover catch crabs and ur"
+          "text": "A mysterious floating bubble where fish might be hiding. Upon purchase, a Wonder Bubble will be generated near the current dock to help Rover catch crabs and urchins."
         },
         {
           "id": "ww-item-10815",
@@ -4461,7 +4461,7 @@
             "rarity": "5 \u2605",
             "type": "Convene Token"
           },
-          "text": "Used to Convene once in the following Collab Resonator Convenes: \"Dreaming Upon the Moon\" & \"Rekindled Embers of Rage.\""
+          "text": "Used to Convene once in the following Collab Resonator Convenes:\n\"Dreaming Upon the Moon\" & \"Rekindled Embers of Rage.\""
         },
         {
           "id": "ww-item-50008",
@@ -4472,7 +4472,7 @@
             "rarity": "5 \u2605",
             "type": "Convene Token"
           },
-          "text": "Used to Convene once in the following Collab Weapon Convenes: \"Spectral Trigger\" & \"Skull Thrasher.\""
+          "text": "Used to Convene once in the following Collab Weapon Convenes:\n\"Spectral Trigger\" & \"Skull Thrasher.\""
         },
         {
           "id": "ww-item-50009",
@@ -4516,7 +4516,7 @@
             "rarity": "5 \u2605",
             "type": "Pioneer Podcast"
           },
-          "text": "Unlocks the Insider Channel of the Pioneer Podcast. Complete the Podcast Tasks for various rewards."
+          "text": "Unlocks the Insider Channel of the Pioneer Podcast.\n\nComplete the Podcast Tasks for various rewards."
         },
         {
           "id": "ww-item-50014",
@@ -4527,7 +4527,7 @@
             "rarity": "5 \u2605",
             "type": "Pioneer Podcast"
           },
-          "text": "Unlocks the Insider Channel of the Pioneer Podcast and get additional privilege rewards. Complete the Podcast Tasks for various rewards."
+          "text": "Unlocks the Insider Channel of the Pioneer Podcast and get additional privilege rewards.\n\nComplete the Podcast Tasks for various rewards."
         },
         {
           "id": "ww-item-50015",
@@ -4538,7 +4538,7 @@
             "rarity": "5 \u2605",
             "type": "Pioneer Podcast"
           },
-          "text": "Unlocks the Insider Channel of the Pioneer Podcast. Complete the Podcast Tasks for various rewards."
+          "text": "Unlocks the Insider Channel of the Pioneer Podcast.\n\nComplete the Podcast Tasks for various rewards."
         },
         {
           "id": "ww-item-50016",
@@ -4549,7 +4549,7 @@
             "rarity": "5 \u2605",
             "type": "Pioneer Podcast"
           },
-          "text": "Unlocks the Insider Channel of the Pioneer Podcast. Complete the Podcast Tasks for various rewards."
+          "text": "Unlocks the Insider Channel of the Pioneer Podcast.\n\nComplete the Podcast Tasks for various rewards."
         },
         {
           "id": "ww-item-50017",
@@ -4560,7 +4560,7 @@
             "rarity": "5 \u2605",
             "type": "Pioneer Podcast"
           },
-          "text": "Unlocks the Insider Channel of the Pioneer Podcast and get additional privilege rewards. Complete the Podcast Tasks for various rewards."
+          "text": "Unlocks the Insider Channel of the Pioneer Podcast and get additional privilege rewards.\n\nComplete the Podcast Tasks for various rewards."
         },
         {
           "id": "ww-item-50018",
@@ -6334,17 +6334,6 @@
           "text": "Sundial"
         },
         {
-          "id": "ww-item-31000014",
-          "name": "test/Leaf",
-          "kind": "item",
-          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconTask/T_IconTask_Task_010_1_UI.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Quest Item"
-          },
-          "text": "test/A Leaf"
-        },
-        {
           "id": "ww-item-31000015",
           "name": "scavenger hunt note",
           "kind": "item",
@@ -6551,7 +6540,7 @@
             "rarity": "5 \u2605",
             "type": "Material"
           },
-          "text": "Sonance Caskets in Ragunna are often found in precarious locations. Use Grapple for easier access. Deliver them to the Plushies in the Garden of the Lost in exc"
+          "text": "Sonance Caskets in Ragunna are often found in precarious locations. Use Grapple for easier access. Deliver them to the Plushies in the Garden of the Lost in exchange for resources."
         },
         {
           "id": "ww-item-40040005",
@@ -6562,7 +6551,7 @@
             "rarity": "5 \u2605",
             "type": "Material"
           },
-          "text": "Sonance Caskets in Septimont are often found in precarious locations. Use Grapple for easier access. Deliver them to the Plushies in the Border Mountains in exc"
+          "text": "Sonance Caskets in Septimont are often found in precarious locations. Use Grapple for easier access. Deliver them to the Plushies in the Border Mountains in exchange for resources."
         },
         {
           "id": "ww-item-40040006",
@@ -7552,7 +7541,7 @@
             "rarity": "2 \u2605",
             "type": "Potion"
           },
-          "text": "Used to immediately revive and heal a selected downed Resonator for 100 HP. This item can only be used once every 60s. Only effective on your own Resonators in "
+          "text": "Used to immediately revive and heal a selected downed Resonator for 100 HP. This item can only be used once every 60s. Only effective on your own Resonators in Co-op Mode."
         },
         {
           "id": "ww-item-42100014",
@@ -7563,7 +7552,7 @@
             "rarity": "3 \u2605",
             "type": "Potion"
           },
-          "text": "Used to immediately revive and heal 10% of a selected downed Resonator's Max HP. This item can only be used once every 60s. Only effective on your own Resonator"
+          "text": "Used to immediately revive and heal 10% of a selected downed Resonator's Max HP. This item can only be used once every 60s. Only effective on your own Resonators in Co-op Mode."
         },
         {
           "id": "ww-item-42100015",
@@ -7574,7 +7563,7 @@
             "rarity": "4 \u2605",
             "type": "Potion"
           },
-          "text": "Used to immediately revive and heal 25% of a selected downed Resonator's Max HP. This item can only be used once every 60s. Only effective on your own Resonator"
+          "text": "Used to immediately revive and heal 25% of a selected downed Resonator's Max HP. This item can only be used once every 60s. Only effective on your own Resonators in Co-op Mode."
         },
         {
           "id": "ww-item-42100016",
@@ -7585,7 +7574,7 @@
             "rarity": "5 \u2605",
             "type": "Potion"
           },
-          "text": "Used to immediately revive and heal 100% of a selected downed Resonator's Max HP. This item can only be used once every 60s. Only effective on your own Resonato"
+          "text": "Used to immediately revive and heal 100% of a selected downed Resonator's Max HP. This item can only be used once every 60s. Only effective on your own Resonators in Co-op Mode."
         },
         {
           "id": "ww-item-42100017",
@@ -7761,7 +7750,7 @@
             "rarity": "5 \u2605",
             "type": "Potion"
           },
-          "text": "Allows a selected Resonator in the team to additionally reduce the Vibration Strength of the targets by a certain percentage when they trigger Counterattack wit"
+          "text": "Allows a selected Resonator in the team to additionally reduce the Vibration Strength of the targets by a certain percentage when they trigger Counterattack within 60s. Only effective on your own Resonators in Co-op Mode."
         },
         {
           "id": "ww-item-42100033",
@@ -7783,7 +7772,7 @@
             "rarity": "5 \u2605",
             "type": "Potion"
           },
-          "text": "Allows a selected Resonator in the team to regain 5 Resonance Energy when they successfully Dodge an attack within 60s. Only effective on your own Resonators in"
+          "text": "Allows a selected Resonator in the team to regain 5 Resonance Energy when they successfully Dodge an attack within 60s. Only effective on your own Resonators in Co-op Mode."
         },
         {
           "id": "ww-item-42100035",
@@ -7794,7 +7783,7 @@
             "rarity": "5 \u2605",
             "type": "Potion"
           },
-          "text": "Grants a selected Resonator in the team immunity to the next fatal damage and heals 25% of the Resonator's Max HP, lasting for 60s. Only effective on your own R"
+          "text": "Grants a selected Resonator in the team immunity to the next fatal damage and heals 25% of the Resonator's Max HP, lasting for 60s. Only effective on your own Resonators in Co-op Mode."
         },
         {
           "id": "ww-item-42100036",
@@ -7805,7 +7794,7 @@
             "rarity": "4 \u2605",
             "type": "Potion"
           },
-          "text": "Within 180s, deal DMG to enemies with Negative Statuses to increase Fusion DMG RES of all Resonators in the team by 30% for 10s. Only effective on your own Reso"
+          "text": "Within 180s, deal DMG to enemies with Negative Statuses to increase Fusion DMG RES of all Resonators in the team by 30% for 10s. Only effective on your own Resonators in Co-op Mode."
         },
         {
           "id": "ww-item-42100037",
@@ -7816,7 +7805,7 @@
             "rarity": "4 \u2605",
             "type": "Potion"
           },
-          "text": "Within 180s, deal DMG to enemies with Negative Statuses to increase Aero DMG RES of all Resonators in the team by 30% for 10s. Only effective on your own Resona"
+          "text": "Within 180s, deal DMG to enemies with Negative Statuses to increase Aero DMG RES of all Resonators in the team by 30% for 10s. Only effective on your own Resonators in Co-op Mode."
         },
         {
           "id": "ww-item-42100038",
@@ -7827,7 +7816,7 @@
             "rarity": "4 \u2605",
             "type": "Potion"
           },
-          "text": "Within 180s, deal DMG to enemies with Negative Statuses to increase Electro DMG RES of all Resonators in the team by 30% for 10s. Only effective on your own Res"
+          "text": "Within 180s, deal DMG to enemies with Negative Statuses to increase Electro DMG RES of all Resonators in the team by 30% for 10s. Only effective on your own Resonators in Co-op Mode."
         },
         {
           "id": "ww-item-42100039",
@@ -7838,7 +7827,7 @@
             "rarity": "4 \u2605",
             "type": "Potion"
           },
-          "text": "Within 180s, deal DMG to enemies with Negative Statuses to increase Glacio DMG RES of all Resonators in the team by 30% for 10s. Only effective on your own Reso"
+          "text": "Within 180s, deal DMG to enemies with Negative Statuses to increase Glacio DMG RES of all Resonators in the team by 30% for 10s. Only effective on your own Resonators in Co-op Mode."
         },
         {
           "id": "ww-item-42100040",
@@ -7849,7 +7838,7 @@
             "rarity": "4 \u2605",
             "type": "Potion"
           },
-          "text": "Within 180s, deal DMG to enemies with Negative Statuses to increase Spectro RES of all Resonators in the team by 30% for 10s. Only effective on your own Resonat"
+          "text": "Within 180s, deal DMG to enemies with Negative Statuses to increase Spectro RES of all Resonators in the team by 30% for 10s. Only effective on your own Resonators in Co-op Mode."
         },
         {
           "id": "ww-item-42100041",
@@ -7860,7 +7849,7 @@
             "rarity": "4 \u2605",
             "type": "Potion"
           },
-          "text": "Within 180s, deal DMG to enemies with Negative Statuses to increase Havoc DMG RES of all Resonators in the team by 30% for 10s. Only effective on your own Reson"
+          "text": "Within 180s, deal DMG to enemies with Negative Statuses to increase Havoc DMG RES of all Resonators in the team by 30% for 10s. Only effective on your own Resonators in Co-op Mode."
         },
         {
           "id": "ww-item-42100042",
@@ -7882,7 +7871,7 @@
             "rarity": "4 \u2605",
             "type": "Potion"
           },
-          "text": "Within 180s, all Resonators in the team deal 40% more Fusion DMG for 10s after dealing damage to enemies under Tune Rupture - Interfered or Tune Strain - Interf"
+          "text": "Within 180s, all Resonators in the team deal 40% more Fusion DMG for 10s after dealing damage to enemies under Tune Rupture - Interfered or Tune Strain - Interfered. Only effective on your own Resonators in Co-op Mode."
         },
         {
           "id": "ww-item-42100044",
@@ -7893,7 +7882,7 @@
             "rarity": "4 \u2605",
             "type": "Potion"
           },
-          "text": "Within 180s, all Resonators in the team deal 40% more Aero DMG for 10s after dealing damage to enemies under Tune Rupture - Interfered or Tune Strain- Interfere"
+          "text": "Within 180s, all Resonators in the team deal 40% more Aero DMG for 10s after dealing damage to enemies under Tune Rupture - Interfered or Tune Strain- Interfered. Only effective on your own Resonators in Co-op Mode."
         },
         {
           "id": "ww-item-42100045",
@@ -7904,7 +7893,7 @@
             "rarity": "4 \u2605",
             "type": "Potion"
           },
-          "text": "Within 180s, all Resonators in the team deal 40% more Electro DMG for 10s after dealing damage to enemies under Tune Rupture - Interfered or Tune Strain - Inter"
+          "text": "Within 180s, all Resonators in the team deal 40% more Electro DMG for 10s after dealing damage to enemies under Tune Rupture - Interfered or Tune Strain - Interfered. Only effective on your own Resonators in Co-op Mode."
         },
         {
           "id": "ww-item-42100046",
@@ -7915,7 +7904,7 @@
             "rarity": "4 \u2605",
             "type": "Potion"
           },
-          "text": "Within 180s, all Resonators in the team deal 40% more Glacio DMG for 10s after dealing damage to enemies under Tune Rupture - Interfered or Tune Strain - Interf"
+          "text": "Within 180s, all Resonators in the team deal 40% more Glacio DMG for 10s after dealing damage to enemies under Tune Rupture - Interfered or Tune Strain - Interfered. Only effective on your own Resonators in Co-op Mode."
         },
         {
           "id": "ww-item-42100047",
@@ -7926,7 +7915,7 @@
             "rarity": "4 \u2605",
             "type": "Potion"
           },
-          "text": "Within 180s, all Resonators in the team deal 40% more Spectro DMG for 10s after dealing damage to enemies under Tune Rupture - Interfered or Tune Strain - Inter"
+          "text": "Within 180s, all Resonators in the team deal 40% more Spectro DMG for 10s after dealing damage to enemies under Tune Rupture - Interfered or Tune Strain - Interfered. Only effective on your own Resonators in Co-op Mode."
         },
         {
           "id": "ww-item-42100048",
@@ -7937,7 +7926,7 @@
             "rarity": "4 \u2605",
             "type": "Potion"
           },
-          "text": "Within 180s, all Resonators in the team deal 40% more Havoc DMG for 10s after dealing damage to enemies under Tune Rupture - Interfered or Tune Strain - Interfe"
+          "text": "Within 180s, all Resonators in the team deal 40% more Havoc DMG for 10s after dealing damage to enemies under Tune Rupture - Interfered or Tune Strain - Interfered. Only effective on your own Resonators in Co-op Mode."
         },
         {
           "id": "ww-item-42200001",
@@ -8080,7 +8069,7 @@
             "rarity": "2 \u2605",
             "type": "Synthesis Recipe: Potion Making"
           },
-          "text": "Used to immediately revive and heal a selected downed Resonator for 100 HP. This item can only be used once every 60s. Only effective on your own Resonators in "
+          "text": "Used to immediately revive and heal a selected downed Resonator for 100 HP. This item can only be used once every 60s. Only effective on your own Resonators in Co-op Mode."
         },
         {
           "id": "ww-item-42200014",
@@ -8091,7 +8080,7 @@
             "rarity": "3 \u2605",
             "type": "Synthesis Recipe: Potion Making"
           },
-          "text": "Used to immediately revive and heal 10% of a selected downed Resonator's Max HP. This item can only be used once every 60s. Only effective on your own Resonator"
+          "text": "Used to immediately revive and heal 10% of a selected downed Resonator's Max HP. This item can only be used once every 60s. Only effective on your own Resonators in Co-op Mode."
         },
         {
           "id": "ww-item-42200015",
@@ -8102,7 +8091,7 @@
             "rarity": "4 \u2605",
             "type": "Synthesis Recipe: Potion Making"
           },
-          "text": "Used to immediately revive and heal 25% of a selected downed Resonator's Max HP. This item can only be used once every 60s. Only effective on your own Resonator"
+          "text": "Used to immediately revive and heal 25% of a selected downed Resonator's Max HP. This item can only be used once every 60s. Only effective on your own Resonators in Co-op Mode."
         },
         {
           "id": "ww-item-42200016",
@@ -8113,7 +8102,7 @@
             "rarity": "5 \u2605",
             "type": "Synthesis Recipe: Potion Making"
           },
-          "text": "Used to immediately revive and heal 100% of a selected downed Resonator's Max HP. This item can only be used once every 60s. Only effective on your own Resonato"
+          "text": "Used to immediately revive and heal 100% of a selected downed Resonator's Max HP. This item can only be used once every 60s. Only effective on your own Resonators in Co-op Mode."
         },
         {
           "id": "ww-item-42200017",
@@ -8267,7 +8256,7 @@
             "rarity": "5 \u2605",
             "type": "Synthesis Recipe: Potion Making"
           },
-          "text": "Allows a selected Resonator in the team to additionally reduce the Vibration Strength of the targets by a certain percentage when they trigger Counterattack wit"
+          "text": "Allows a selected Resonator in the team to additionally reduce the Vibration Strength of the targets by a certain percentage when they trigger Counterattack within 60s. Only effective on your own Resonators in Co-op Mode."
         },
         {
           "id": "ww-item-42200033",
@@ -8289,7 +8278,7 @@
             "rarity": "5 \u2605",
             "type": "Synthesis Recipe: Potion Making"
           },
-          "text": "Allows a selected Resonator in the team to regain 5 Resonance Energy when they successfully Dodge an attack within 60s. Only effective on your own Resonators in"
+          "text": "Allows a selected Resonator in the team to regain 5 Resonance Energy when they successfully Dodge an attack within 60s. Only effective on your own Resonators in Co-op Mode."
         },
         {
           "id": "ww-item-42200035",
@@ -8300,7 +8289,7 @@
             "rarity": "5 \u2605",
             "type": "Synthesis Recipe: Potion Making"
           },
-          "text": "Grants a selected Resonator in the team immunity to the next fatal damage and heals 25% of the Resonator's Max HP, lasting for 60s. Only effective on your own R"
+          "text": "Grants a selected Resonator in the team immunity to the next fatal damage and heals 25% of the Resonator's Max HP, lasting for 60s. Only effective on your own Resonators in Co-op Mode."
         },
         {
           "id": "ww-item-42200042",
@@ -10283,28 +10272,6 @@
           "text": "An error happened. Please contact Customer Service"
         },
         {
-          "id": "ww-item-44010027",
-          "name": "test/Universal Echo",
-          "kind": "item",
-          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_currency_6_UI.webp",
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Echo Development Material"
-          },
-          "text": "test/Universal Echoes can substitute any Echo consumed during Tuning."
-        },
-        {
-          "id": "ww-item-44010028",
-          "name": "test/Golden Universal Echo",
-          "kind": "item",
-          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_currency_6_UI.webp",
-          "fields": {
-            "rarity": "5 \u2605",
-            "type": "Echo Development Material"
-          },
-          "text": "test/Golden Universal Echoes can substitute any Echo consumed during Tuning."
-        },
-        {
           "id": "ww-item-44010029",
           "name": "Phantom: Impermanence Heron",
           "kind": "item",
@@ -10973,7 +10940,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Can be used to obtain a random collected Echo. Upgrade the Data Bank to increase your chance of getting Echoes of higher Rarity."
+          "text": "Can be used to obtain a random collected Echo.\nUpgrade the Data Bank to increase your chance of getting Echoes of higher Rarity."
         },
         {
           "id": "ww-item-50000064",
@@ -10984,7 +10951,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Freezing Frost. 2pcs Set: Glacio DMG + 10%. 5pcs Set: Glacio DMG + 10% after releasing Basic Attack"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Freezing Frost.\n2pcs Set: Glacio DMG + 10%.\n5pcs Set: Glacio DMG + 10% after releasing Basic Attack or Heavy Attack. This effect stacks up to 3 times, each stack lasts 15s."
         },
         {
           "id": "ww-item-50000065",
@@ -10995,7 +10962,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Molten Rift. 2pcs Set: Fusion DMG + 10%. 5pcs Set: Fusion DMG + 30% for 15s after releasing Resonan"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Molten Rift.\n2pcs Set: Fusion DMG + 10%.\n5pcs Set: Fusion DMG + 30% for 15s after releasing Resonance Skill."
         },
         {
           "id": "ww-item-50000066",
@@ -11006,7 +10973,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Void Thunder. 2pcs Set: Electro DMG + 10%. 5pcs Set: Electro DMG + 15% after releasing Heavy Attack"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Void Thunder.\n2pcs Set: Electro DMG + 10%.\n5pcs Set: Electro DMG + 15% after releasing Heavy Attack or Resonance Skill. This effect stacks up to 2 times, each stack lasts 15s."
         },
         {
           "id": "ww-item-50000067",
@@ -11017,7 +10984,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Sierra Gale. 2pcs Set: Aero DMG + 10%. 5pcs Set: Aero DMG + 30% for 15s after releasing Intro Skill"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Sierra Gale.\n2pcs Set: Aero DMG + 10%.\n5pcs Set: Aero DMG + 30% for 15s after releasing Intro Skill."
         },
         {
           "id": "ww-item-50000068",
@@ -11028,7 +10995,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Celestial Light. 2pcs Set: Spectro DMG + 10%. 5pcs Set: Spectro DMG + 30% for 15s after releasing I"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Celestial Light.\n2pcs Set: Spectro DMG + 10%.\n5pcs Set: Spectro DMG + 30% for 15s after releasing Intro Skill."
         },
         {
           "id": "ww-item-50000069",
@@ -11039,7 +11006,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Havoc Eclipse. 2pcs Set: Havoc DMG + 10%. 5pcs Set: Havoc DMG + 7.5% after releasing Basic Attack o"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Havoc Eclipse.\n2pcs Set: Havoc DMG + 10%.\n5pcs Set: Havoc DMG + 7.5% after releasing Basic Attack or Heavy Attack. This effect stacks up to 4 times, each stack lasts 15s."
         },
         {
           "id": "ww-item-50000070",
@@ -11050,7 +11017,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Rejuvenating Glow. 2pcs Set: Healing Bonus + 10%. 5pcs Set: Increases the ATK of all Resonators in "
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Rejuvenating Glow.\n\n2pcs Set: Healing Bonus + 10%.\n\n5pcs Set: Increases the ATK of all Resonators in the team by 15% for 30s upon healing allies."
         },
         {
           "id": "ww-item-50000071",
@@ -11061,7 +11028,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Moonlit Clouds. 2pcs Set: Energy Regen + 10%. 5pcs Set: After using Outro Skill, increases the ATK "
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Moonlit Clouds.\n2pcs Set: Energy Regen + 10%.\n5pcs Set: After using Outro Skill, increases the ATK of the next Resonator by 22.5% for 15s."
         },
         {
           "id": "ww-item-50000072",
@@ -11072,7 +11039,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Lingering Tunes. 2pcs Set: ATK + 10%. 5pcs Set: While on the field, ATK increases by 5% every 1.5s."
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Lingering Tunes.\n\n2pcs Set: ATK + 10%.\n\n5pcs Set: While on the field, ATK increases by 5% every 1.5s. This effect stacks up to 4 times. Outro Skill DMG + 60%."
         },
         {
           "id": "ww-item-50000073",
@@ -11083,7 +11050,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Freezing Frost. 2pcs Set: Glacio DMG + 10%. 5pcs Set: Glacio DMG + 10% after releasing Basic Attack"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Freezing Frost.\n2pcs Set: Glacio DMG + 10%.\n5pcs Set: Glacio DMG + 10% after releasing Basic Attack or Heavy Attack. This effect stacks up to 3 times, each stack lasts 15s."
         },
         {
           "id": "ww-item-50000074",
@@ -11094,7 +11061,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Molten Rift. 2pcs Set: Fusion DMG + 10%. 5pcs Set: Fusion DMG + 30% for 15s after releasing Resonan"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Molten Rift.\n2pcs Set: Fusion DMG + 10%.\n5pcs Set: Fusion DMG + 30% for 15s after releasing Resonance Skill."
         },
         {
           "id": "ww-item-50000075",
@@ -11105,7 +11072,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Void Thunder. 2pcs Set: Electro DMG + 10%. 5pcs Set: Electro DMG + 15% after releasing Heavy Attack"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Void Thunder.\n2pcs Set: Electro DMG + 10%.\n5pcs Set: Electro DMG + 15% after releasing Heavy Attack or Resonance Skill. This effect stacks up to 2 times, each stack lasts 15s."
         },
         {
           "id": "ww-item-50000076",
@@ -11116,7 +11083,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Sierra Gale. 2pcs Set: Aero DMG + 10%. 5pcs Set: Aero DMG + 30% for 15s after releasing Intro Skill"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Sierra Gale.\n2pcs Set: Aero DMG + 10%.\n5pcs Set: Aero DMG + 30% for 15s after releasing Intro Skill."
         },
         {
           "id": "ww-item-50000077",
@@ -11127,7 +11094,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Celestial Light. 2pcs Set: Spectro DMG + 10%. 5pcs Set: Spectro DMG + 30% for 15s after releasing I"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Celestial Light.\n2pcs Set: Spectro DMG + 10%.\n5pcs Set: Spectro DMG + 30% for 15s after releasing Intro Skill."
         },
         {
           "id": "ww-item-50000078",
@@ -11138,7 +11105,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Havoc Eclipse. 2pcs Set: Havoc DMG + 10%. 5pcs Set: Havoc DMG + 7.5% after releasing Basic Attack o"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Havoc Eclipse.\n2pcs Set: Havoc DMG + 10%.\n5pcs Set: Havoc DMG + 7.5% after releasing Basic Attack or Heavy Attack. This effect stacks up to 4 times, each stack lasts 15s."
         },
         {
           "id": "ww-item-50000079",
@@ -11149,7 +11116,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Rejuvenating Glow. 2pcs Set: Healing Bonus + 10%. 5pcs Set: Increases the ATK of all Resonators in "
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Rejuvenating Glow.\n\n2pcs Set: Healing Bonus + 10%.\n\n5pcs Set: Increases the ATK of all Resonators in the team by 15% for 30s upon healing allies."
         },
         {
           "id": "ww-item-50000080",
@@ -11160,7 +11127,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Moonlit Clouds. 2pcs Set: Energy Regen + 10%. 5pcs Set: After using Outro Skill, increases the ATK "
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Moonlit Clouds.\n2pcs Set: Energy Regen + 10%.\n5pcs Set: After using Outro Skill, increases the ATK of the next Resonator by 22.5% for 15s."
         },
         {
           "id": "ww-item-50000081",
@@ -11171,7 +11138,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Lingering Tunes. 2pcs Set: ATK + 10%. 5pcs Set: While on the field, ATK increases by 5% every 1.5s."
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Lingering Tunes.\n\n2pcs Set: ATK + 10%.\n\n5pcs Set: While on the field, ATK increases by 5% every 1.5s. This effect stacks up to 4 times. Outro Skill DMG + 60%."
         },
         {
           "id": "ww-item-50000082",
@@ -11182,7 +11149,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to claim one 5-Star Elite Class Echo of your choice. List of Echoes: Freezing Frost Set - Autopuppet Scout - Glacio DMG Bonus Molten Rift Set - Viridblaze "
+          "text": "Open to claim one 5-Star Elite Class Echo of your choice.\n\nList of Echoes:\nFreezing Frost Set - Autopuppet Scout - Glacio DMG Bonus\nMolten Rift Set - Viridblaze Saurian - Fusion DMG Bonus\nVoid Thunder Set - Violet-Feathered Heron - Electro DMG Bonus\nSierra Gale Set - Hoochief - Aero DMG Bonus\nCelestial Light Set - Rocksteady Guardian - Spectro DMG Bonus\nHavoc Eclipse Set - Havoc Dreadmane - Havoc DMG Bonus"
         },
         {
           "id": "ww-item-50000083",
@@ -11193,7 +11160,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to claim one 5-Star Elite Class Echo of your choice. List of Echoes: Freezing Frost Set - Roseshroom - Glacio DMG Bonus Molten Rift Set - Havoc Dreadmane -"
+          "text": "Open to claim one 5-Star Elite Class Echo of your choice.\n\nList of Echoes:\nFreezing Frost Set - Roseshroom - Glacio DMG Bonus\nMolten Rift Set - Havoc Dreadmane - Fusion DMG Bonus\nVoid Thunder Set - Flautist - Electro DMG Bonus\nSierra Gale Set - Carapace - Aero DMG Bonus\nCelestial Light Set - Cyan-Feathered Heron - Spectro DMG Bonus\nHavoc Eclipse Set - Tambourinist - Havoc DMG Bonus"
         },
         {
           "id": "ww-item-50000084",
@@ -11237,7 +11204,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Can be used to obtain a random collected Echo. Upgrade the Data Bank to increase your chance of getting Echoes of higher Rarity."
+          "text": "Can be used to obtain a random collected Echo.\nUpgrade the Data Bank to increase your chance of getting Echoes of higher Rarity."
         },
         {
           "id": "ww-item-50000088",
@@ -11248,7 +11215,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to claim one 5-Star Elite Class Echo of your choice. List of Echoes: Freezing Frost Set: Lumiscale Construct (Glacio DMG Bonus) Molten Rift Set: Viridblaze"
+          "text": "Open to claim one 5-Star Elite Class Echo of your choice.\n\nList of Echoes:\nFreezing Frost Set: Lumiscale Construct (Glacio DMG Bonus)\nMolten Rift Set: Viridblaze Saurian (Fusion DMG Bonus)\nVoid Thunder Set: Violet-Feathered Heron (Electro DMG Bonus)\nSierra Gale Set: Hoochief (Aero DMG Bonus)\nCelestial Light Set: Lightcrusher (Spectro DMG Bonus)\nHavoc Eclipse Set: Havoc Dreadmane (Havoc DMG Bonus)"
         },
         {
           "id": "ww-item-50000089",
@@ -11259,7 +11226,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to claim one 5-Star Elite Class Echo of your choice. List of Echoes: Freezing Frost Set: Glacio Dreadmane (Glacio DMG Bonus) Molten Rift Set: Havoc Dreadma"
+          "text": "Open to claim one 5-Star Elite Class Echo of your choice.\n\nList of Echoes:\nFreezing Frost Set: Glacio Dreadmane (Glacio DMG Bonus)\nMolten Rift Set: Havoc Dreadmane (Fusion DMG Bonus)\nVoid Thunder Set: Lumiscale Construct (Electro DMG Bonus)\nSierra Gale Set: Carapace (Aero DMG Bonus)\nCelestial Light Set: Cyan-Feathered Heron (Spectro DMG Bonus)\nHavoc Eclipse Set: Tambourinist (Havoc DMG Bonus)"
         },
         {
           "id": "ww-item-50000090",
@@ -11270,7 +11237,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to claim one 5-Star Elite Class Echo of your choice. List of Echoes: Rejuvenating Glow Set: Rocksteady Guardian (Energy Regen) Moonlit Clouds Set: Stonewal"
+          "text": "Open to claim one 5-Star Elite Class Echo of your choice.\n\nList of Echoes:\nRejuvenating Glow Set: Rocksteady Guardian (Energy Regen)\nMoonlit Clouds Set: Stonewall Bracer (Energy Regen)\nLingering Tunes Set: Spearback (Energy Regen)\nFreezing Frost Set: Lumiscale Construct (Energy Regen)\nMolten Rift Set: Viridblaze Saurian (Energy Regen)\nVoid Thunder Set: Violet-Feathered Heron (Energy Regen)\nSierra Gale Set: Hoochief (Energy Regen)\nCelestial Light Set: Lightcrusher (Energy Regen)\nHavoc Eclipse Set: Havoc Dreadmane (Energy Regen)"
         },
         {
           "id": "ww-item-50000091",
@@ -11281,7 +11248,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to claim one 5-Star Elite Class Echo of your choice. List of Echoes: Rejuvenating Glow Set: Chasm Guardian (Energy Regen) Moonlit Clouds Set: Spearback (En"
+          "text": "Open to claim one 5-Star Elite Class Echo of your choice.\n\nList of Echoes:\nRejuvenating Glow Set: Chasm Guardian (Energy Regen)\nMoonlit Clouds Set: Spearback (Energy Regen)\nLingering Tunes Set: Flautist (Energy Regen)\nFreezing Frost Set: Glacio Dreadmane (Energy Regen)\nMolten Rift Set: Havoc Dreadmane (Energy Regen)\nVoid Thunder Set: Lumiscale Construct (Energy Regen)\nSierra Gale Set: Carapace (Energy Regen)\nCelestial Light Set: Cyan-Feathered Heron (Energy Regen)\nHavoc Eclipse Set: Tambourinist (Energy Regen)"
         },
         {
           "id": "ww-item-50000101",
@@ -11292,7 +11259,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one Originite series weapon of your choice: Broadblade#41 *1 Sword#18 *1 Pistols#26 *1 Gauntlets#21D *1 Rectifier#25 *1"
+          "text": "Open to claim one Originite series weapon of your choice:\nBroadblade#41 *1\nSword#18 *1\nPistols#26 *1\nGauntlets#21D *1\nRectifier#25 *1"
         },
         {
           "id": "ww-item-50000102",
@@ -11303,7 +11270,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one Originite series weapon of your choice: Broadblade#41 *1 Sword#18 *1 Pistols#26 *1 Gauntlets#21D *1 Rectifier#25 *1"
+          "text": "Open to claim one Originite series weapon of your choice:\nBroadblade#41 *1\nSword#18 *1\nPistols#26 *1\nGauntlets#21D *1\nRectifier#25 *1"
         },
         {
           "id": "ww-item-50000103",
@@ -11314,7 +11281,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one Originite series weapon of your choice: Broadblade#41 *1 Sword#18 *1 Pistols#26 *1 Gauntlets#21D *1 Rectifier#25 *1"
+          "text": "Open to claim one Originite series weapon of your choice:\nBroadblade#41 *1\nSword#18 *1\nPistols#26 *1\nGauntlets#21D *1\nRectifier#25 *1"
         },
         {
           "id": "ww-item-50000104",
@@ -11325,7 +11292,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one Originite series weapon of your choice: Broadblade#41 *1 Sword#18 *1 Pistols#26 *1 Gauntlets#21D *1 Rectifier#25 *1"
+          "text": "Open to claim one Originite series weapon of your choice:\nBroadblade#41 *1\nSword#18 *1\nPistols#26 *1\nGauntlets#21D *1\nRectifier#25 *1"
         },
         {
           "id": "ww-item-50000105",
@@ -11336,7 +11303,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one Originite series weapon of your choice: Broadblade#41 *1 Sword#18 *1 Pistols#26 *1 Gauntlets#21D *1 Rectifier#25 *1"
+          "text": "Open to claim one Originite series weapon of your choice:\nBroadblade#41 *1\nSword#18 *1\nPistols#26 *1\nGauntlets#21D *1\nRectifier#25 *1"
         },
         {
           "id": "ww-item-50000106",
@@ -11347,7 +11314,7 @@
             "rarity": "2 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim a type of basic resource of your choice: Basic Resonance Potion x10 Basic Energy Core x10 Basic Sealed Tube x4 Shell Credit x10000"
+          "text": "Open to claim a type of basic resource of your choice:\nBasic Resonance Potion x10\nBasic Energy Core x10\nBasic Sealed Tube x4\nShell Credit x10000"
         },
         {
           "id": "ww-item-50000107",
@@ -11358,7 +11325,7 @@
             "rarity": "3 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim a type of medium resource of your choice: Medium Resonance Potion x5 Medium Energy Core x5 Medium Sealed Tube x3 Shell Credit x15000"
+          "text": "Open to claim a type of medium resource of your choice:\nMedium Resonance Potion x5\nMedium Energy Core x5\nMedium Sealed Tube x3\nShell Credit x15000"
         },
         {
           "id": "ww-item-50000108",
@@ -11369,7 +11336,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim a type of advanced resource of your choice: Advanced Resonance Potion x5 Advanced Energy Core x5 Advanced Sealed Tube x4 Shell Credit x40000"
+          "text": "Open to claim a type of advanced resource of your choice:\nAdvanced Resonance Potion x5\nAdvanced Energy Core x5\nAdvanced Sealed Tube x4\nShell Credit x40000"
         },
         {
           "id": "ww-item-50000109",
@@ -11380,7 +11347,7 @@
             "rarity": "5 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim a type of premium resource of your choice: Premium Resonance Potion x5 Premium Energy Core x5 Premium Sealed Tube x4 Shell Credit x100000"
+          "text": "Open to claim a type of premium resource of your choice:\nPremium Resonance Potion x5\nPremium Energy Core x5\nPremium Sealed Tube x4\nShell Credit x100000"
         },
         {
           "id": "ww-item-50000110",
@@ -11391,7 +11358,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim a type of advanced skill material of your choice: Monument Bell x1 Unending Destruction x1 Dreamless Feather x1 Sentinel's Dagger x1 The Netherwor"
+          "text": "Open to claim a type of advanced skill material of your choice:\nMonument Bell x1\nUnending Destruction x1\nDreamless Feather x1\nSentinel's Dagger x1\nThe Netherworld's Stare x1\nWhen Irises Bloom x1"
         },
         {
           "id": "ww-item-50000111",
@@ -11402,7 +11369,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one Originite series weapon of your choice: Broadblade#41 *1 Sword#18 *1 Pistols#26 *1 Gauntlets#21D *1 Rectifier#25 *1"
+          "text": "Open to claim one Originite series weapon of your choice:\nBroadblade#41 *1\nSword#18 *1\nPistols#26 *1\nGauntlets#21D *1\nRectifier#25 *1"
         },
         {
           "id": "ww-item-50000112",
@@ -11413,7 +11380,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one Originite series weapon of your choice: Broadblade#41 *1 Sword#18 *1 Pistols#26 *1 Gauntlets#21D *1 Rectifier#25 *1"
+          "text": "Open to claim one Originite series weapon of your choice:\nBroadblade#41 *1\nSword#18 *1\nPistols#26 *1\nGauntlets#21D *1\nRectifier#25 *1"
         },
         {
           "id": "ww-item-50000113",
@@ -11424,7 +11391,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one Originite series weapon of your choice: Broadblade#41 *1 Sword#18 *1 Pistols#26 *1 Gauntlets#21D *1 Rectifier#25 *1"
+          "text": "Open to claim one Originite series weapon of your choice:\nBroadblade#41 *1\nSword#18 *1\nPistols#26 *1\nGauntlets#21D *1\nRectifier#25 *1"
         },
         {
           "id": "ww-item-50000114",
@@ -11435,7 +11402,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one Originite series weapon of your choice: Broadblade#41 *1 Sword#18 *1 Pistols#26 *1 Gauntlets#21D *1 Rectifier#25 *1"
+          "text": "Open to claim one Originite series weapon of your choice:\nBroadblade#41 *1\nSword#18 *1\nPistols#26 *1\nGauntlets#21D *1\nRectifier#25 *1"
         },
         {
           "id": "ww-item-50000115",
@@ -11446,7 +11413,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim a type of advanced skill material of your choice: Monument Bell x1 Unending Destruction x1 Dreamless Feather x1 Sentinel's Dagger x1 The Netherwor"
+          "text": "Open to claim a type of advanced skill material of your choice:\nMonument Bell x1\nUnending Destruction x1\nDreamless Feather x1\nSentinel's Dagger x1\nThe Netherworld's Stare x1\nWhen Irises Bloom x1\nCurse of the Abyss x1"
         },
         {
           "id": "ww-item-50000116",
@@ -11457,7 +11424,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim a type of advanced skill material of your choice: Monument Bell x1 Unending Destruction x1 Dreamless Feather x1 Sentinel's Dagger x1 The Netherwor"
+          "text": "Open to claim a type of advanced skill material of your choice:\nMonument Bell x1\nUnending Destruction x1\nDreamless Feather x1\nSentinel's Dagger x1\nThe Netherworld's Stare x1\nWhen Irises Bloom x1\nCurse of the Abyss x1\nGold in Memory x1"
         },
         {
           "id": "ww-item-50000117",
@@ -11468,7 +11435,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim a type of advanced skill material of your choice: We Who Question x1 Gold in Memory x1 Curse of the Abyss x1 When Irises Bloom x1 The Netherworld'"
+          "text": "Open to claim a type of advanced skill material of your choice:\nWe Who Question x1\nGold in Memory x1\nCurse of the Abyss x1\nWhen Irises Bloom x1\nThe Netherworld's Stare x1\n..."
         },
         {
           "id": "ww-item-50000118",
@@ -11479,7 +11446,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim a type of advanced skill material of your choice: Skyward Glazed Heart x1 We Who Question x1 Curse of the Abyss x1 When Irises Bloom x1 ..."
+          "text": "Open to claim a type of advanced skill material of your choice:\nSkyward Glazed Heart x1\nWe Who Question x1\nCurse of the Abyss x1\nWhen Irises Bloom x1\n..."
         },
         {
           "id": "ww-item-50000119",
@@ -11490,7 +11457,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim a type of advanced skill material of your choice: Skyward Glazed Heart x1 We Who Question x1 Curse of the Abyss x1 When Irises Bloom x1 ..."
+          "text": "Open to claim a type of advanced skill material of your choice:\nSkyward Glazed Heart x1\nWe Who Question x1\nCurse of the Abyss x1\nWhen Irises Bloom x1\n..."
         },
         {
           "id": "ww-item-50000121",
@@ -11501,7 +11468,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one Originite series weapon of your choice: Broadblade#41 *1 Sword#18 *1 Pistols#26 *1 Gauntlets#21D *1 Rectifier#25 *1"
+          "text": "Open to claim one Originite series weapon of your choice:\nBroadblade#41 *1\nSword#18 *1\nPistols#26 *1\nGauntlets#21D *1\nRectifier#25 *1"
         },
         {
           "id": "ww-item-50000122",
@@ -11512,7 +11479,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one Originite series weapon of your choice: Broadblade#41 *1 Sword#18 *1 Pistols#26 *1 Gauntlets#21D *1 Rectifier#25 *1"
+          "text": "Open to claim one Originite series weapon of your choice:\nBroadblade#41 *1\nSword#18 *1\nPistols#26 *1\nGauntlets#21D *1\nRectifier#25 *1"
         },
         {
           "id": "ww-item-50000131",
@@ -11523,7 +11490,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one Originite series weapon of your choice: Broadblade#41 *1 Sword#18 *1 Pistols#26 *1 Gauntlets#21D *1 Rectifier#25 *1"
+          "text": "Open to claim one Originite series weapon of your choice:\nBroadblade#41 *1\nSword#18 *1\nPistols#26 *1\nGauntlets#21D *1\nRectifier#25 *1"
         },
         {
           "id": "ww-item-50000132",
@@ -11534,7 +11501,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one Originite series weapon of your choice: Broadblade#41 *1 Sword#18 *1 Pistols#26 *1 Gauntlets#21D *1 Rectifier#25 *1"
+          "text": "Open to claim one Originite series weapon of your choice:\nBroadblade#41 *1\nSword#18 *1\nPistols#26 *1\nGauntlets#21D *1\nRectifier#25 *1"
         },
         {
           "id": "ww-item-50000133",
@@ -11545,7 +11512,7 @@
             "rarity": "5 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim a type of premium resource of your choice: Premium Resonance Potion x5 Premium Energy Core x5 Premium Sealed Tube x4 Shell Credit x100000"
+          "text": "Open to claim a type of premium resource of your choice:\nPremium Resonance Potion x5\nPremium Energy Core x5\nPremium Sealed Tube x4\nShell Credit x100000"
         },
         {
           "id": "ww-item-50000164",
@@ -11567,7 +11534,7 @@
             "rarity": "3 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one basic material for Weapon Ascension or Skill Upgrade of your choice: Inert Metallic Drip *1 Impure Phlogiston *1 Lento Helix *1 Waveworn Resid"
+          "text": "Open to claim one basic material for Weapon Ascension or Skill Upgrade of your choice:\nInert Metallic Drip *1\nImpure Phlogiston *1\nLento Helix *1\nWaveworn Residue 210 *1\nCadence Seed *1"
         },
         {
           "id": "ww-item-50000166",
@@ -11578,7 +11545,7 @@
             "rarity": "3 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice: Reactive Metallic Drip *1 Extracted Phlogiston *1 Adagio Helix *1 Wavewo"
+          "text": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice:\nReactive Metallic Drip *1\nExtracted Phlogiston *1\nAdagio Helix *1\nWaveworn Residue 226 *1\nCadence Bud *1"
         },
         {
           "id": "ww-item-50000167",
@@ -11589,7 +11556,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice: Polarized Metallic Drip *1 Refined Phlogiston *1 Andante Helix *1 Wave"
+          "text": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice:\nPolarized Metallic Drip *1\nRefined Phlogiston *1\nAndante Helix *1\nWaveworn Residue 235 *1\nCadence Leaf *1"
         },
         {
           "id": "ww-item-50000168",
@@ -11600,7 +11567,7 @@
             "rarity": "5 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice: Heterized Metallic Drip *1 Flawless Phlogiston *1 Presto Helix *1 Wavew"
+          "text": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice:\nHeterized Metallic Drip *1\nFlawless Phlogiston *1\nPresto Helix *1\nWaveworn Residue 239 *1\nCadence Blossom*1"
         },
         {
           "id": "ww-item-50000169",
@@ -11633,7 +11600,7 @@
             "rarity": "5 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one 5-star Winter Brume series weapon of your choice: Lustrous Razor *1 Emerald of Genesis *1 Static Mist *1 Abyss Surges *1 Cosmic Ripples *1"
+          "text": "Open to claim one 5-star Winter Brume series weapon of your choice:\nLustrous Razor *1\nEmerald of Genesis *1\nStatic Mist *1\nAbyss Surges *1\nCosmic Ripples *1"
         },
         {
           "id": "ww-item-50000172",
@@ -11644,7 +11611,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one Rangers' Series Weapon of your choice: Dauntless Evernight*1 Commando of Conviction*1 Undying Flame*1 Amity Accord*1 Jinzhou Keeper*1"
+          "text": "Open to claim one Rangers' Series Weapon of your choice:\nDauntless Evernight*1\nCommando of Conviction*1\nUndying Flame*1\nAmity Accord*1\nJinzhou Keeper*1"
         },
         {
           "id": "ww-item-50000173",
@@ -11655,7 +11622,7 @@
             "rarity": "2 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one basic material for Weapon Ascension or Skill Upgrade of your choice: Inert Metallic Drip *1 Impure Phlogiston *1 Lento Helix *1 Waveworn Resid"
+          "text": "Open to claim one basic material for Weapon Ascension or Skill Upgrade of your choice:\nInert Metallic Drip *1\nImpure Phlogiston *1\nLento Helix *1\nWaveworn Residue 210 *1\nCadence Seed *1"
         },
         {
           "id": "ww-item-50000174",
@@ -11666,7 +11633,7 @@
             "rarity": "3 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice: Reactive Metallic Drip *1 Extracted Phlogiston *1 Adagio Helix *1 Wavewo"
+          "text": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice:\nReactive Metallic Drip *1\nExtracted Phlogiston *1\nAdagio Helix *1\nWaveworn Residue 226 *1\nCadence Bud *1"
         },
         {
           "id": "ww-item-50000175",
@@ -11677,7 +11644,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice: Polarized Metallic Drip *1 Refined Phlogiston *1 Andante Helix *1 Wave"
+          "text": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice:\nPolarized Metallic Drip *1\nRefined Phlogiston *1\nAndante Helix *1\nWaveworn Residue 235 *1\nCadence Leaf *1"
         },
         {
           "id": "ww-item-50000176",
@@ -11688,7 +11655,7 @@
             "rarity": "5 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice: Heterized Metallic Drip *1 Flawless Phlogiston *1 Presto Helix *1 Wavew"
+          "text": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice:\nHeterized Metallic Drip *1\nFlawless Phlogiston *1\nPresto Helix *1\nWaveworn Residue 239 *1\nCadence Blossom*1"
         },
         {
           "id": "ww-item-50000177",
@@ -11699,7 +11666,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one Deep Sky Blazar series weapon of your choice: Waning Redshift *1 Endless Collapse *1 Relativistic Jet *1 Celestial Spiral *1 Fusion Accretion "
+          "text": "Open to claim one Deep Sky Blazar series weapon of your choice:\nWaning Redshift *1\nEndless Collapse *1\nRelativistic Jet *1\nCelestial Spiral *1\nFusion Accretion *1"
         },
         {
           "id": "ww-item-50000178",
@@ -11710,7 +11677,7 @@
             "rarity": "2 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one basic material for Weapon Ascension or Skill Upgrade of your choice: Crude Ring*1 LF Whisperin Core*1 LF Howler Core*1"
+          "text": "Open to claim one basic material for Weapon Ascension or Skill Upgrade of your choice:\nCrude Ring*1\nLF Whisperin Core*1\nLF Howler Core*1"
         },
         {
           "id": "ww-item-50000179",
@@ -11721,7 +11688,7 @@
             "rarity": "3 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice: Basic Ring*1 MF Whisperin Core*1 MF Howler Core*1"
+          "text": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice:\nBasic Ring*1\nMF Whisperin Core*1\nMF Howler Core*1"
         },
         {
           "id": "ww-item-50000180",
@@ -11732,7 +11699,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice: Improved Ring*1 HF Whisperin Core*1 HF Howler Core*1"
+          "text": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice:\nImproved Ring*1\nHF Whisperin Core*1\nHF Howler Core*1"
         },
         {
           "id": "ww-item-50000181",
@@ -11743,7 +11710,7 @@
             "rarity": "5 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice: Tailored Ring*1 FF Whisperin Core*1 FF Howler Core*1"
+          "text": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice:\nTailored Ring*1\nFF Whisperin Core*1\nFF Howler Core*1"
         },
         {
           "id": "ww-item-50000182",
@@ -11765,7 +11732,7 @@
             "rarity": "5 \u2605",
             "type": "Consumable"
           },
-          "text": "Open in Backpack and choose to obtain either: Lucy's Waveband or Rebecca's Waveband. You may choose to obtain up to 2 Wavebands for each of these Resonators. If"
+          "text": "Open in Backpack and choose to obtain either: Lucy's Waveband or Rebecca's Waveband. You may choose to obtain up to 2 Wavebands for each of these Resonators.\nIf the selected Resonator's Waveband has already reached its limit, the newly obtained Waveband will be converted into Illusive Corals instead."
         },
         {
           "id": "ww-item-50000184",
@@ -11787,7 +11754,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one Originite series weapon of your choice: Broadblade#41 *1 Sword#18 *1 Pistols#26 *1 Gauntlets#21D *1 Rectifier#25 *1"
+          "text": "Open to claim one Originite series weapon of your choice:\nBroadblade#41 *1\nSword#18 *1\nPistols#26 *1\nGauntlets#21D *1\nRectifier#25 *1"
         },
         {
           "id": "ww-item-50000202",
@@ -11798,7 +11765,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one Poetry and Paean series weapon of your choice: Meditations on Mercy *1 Fables of Wisdom *1 Romance in Farewell *1 Legend of Drunken Hero *1 Wa"
+          "text": "Open to claim one Poetry and Paean series weapon of your choice:\nMeditations on Mercy *1\nFables of Wisdom *1\nRomance in Farewell *1\nLegend of Drunken Hero *1\nWaltz in Masquerade *1"
         },
         {
           "id": "ww-item-50000203",
@@ -11831,7 +11798,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to obtain one exclusive Syntonization material of your choice, from either the Hunter's Growl series or the previous Pioneer Podcast Weapon: Gilded Ginkgo "
+          "text": "Open to obtain one exclusive Syntonization material of your choice, from either the Hunter's Growl series or the previous Pioneer Podcast Weapon:\nGilded Ginkgo x1\nSkyhunter's Feather x1"
         },
         {
           "id": "ww-item-50000210",
@@ -11842,7 +11809,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one material for Resonator Ascension of your choice: Rimewisp *1 Gemini Spore *1 Arithmetic Shell *1 Summer Flower *1 Stone Rose *1 \u2026"
+          "text": "Open to claim one material for Resonator Ascension of your choice:\nRimewisp *1\nGemini Spore *1\nArithmetic Shell *1\nSummer Flower *1\nStone Rose *1\n\u2026"
         },
         {
           "id": "ww-item-50000211",
@@ -11853,7 +11820,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one material for Resonator Ascension of your choice: Cloudperch Seed x1 Flowborne Dream x1 Blade Blossom x1 Redbell x1 Forget-Me-Not x1 ..."
+          "text": "Open to claim one material for Resonator Ascension of your choice:\nCloudperch Seed x1\nFlowborne Dream x1\nBlade Blossom x1\nRedbell x1\nForget-Me-Not x1\n..."
         },
         {
           "id": "ww-item-50000212",
@@ -11864,7 +11831,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one material for Resonator Ascension of your choice: Cloudperch Seed x1 Flowborne Dream x1 Blade Blossom x1 Redbell x1 Forget-Me-Not x1 ..."
+          "text": "Open to claim one material for Resonator Ascension of your choice:\nCloudperch Seed x1\nFlowborne Dream x1\nBlade Blossom x1\nRedbell x1\nForget-Me-Not x1\n..."
         },
         {
           "id": "ww-item-50000213",
@@ -11875,7 +11842,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one material for Resonator Ascension of your choice: Moss Amber x1 Edelschnee x1 Arithmetic Shell x1 Rimewisp x1 Gemini Spore x1 \u2026"
+          "text": "Open to claim one material for Resonator Ascension of your choice:\nMoss Amber x1\nEdelschnee x1\nArithmetic Shell x1\nRimewisp x1\nGemini Spore x1\n\u2026"
         },
         {
           "id": "ww-item-50000214",
@@ -11886,7 +11853,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one material for Resonator Ascension of your choice: Dream of Stars x1 Redbell x1 Forget-Me-Not x1 Moss Amber x1 Edelschnee x1 ..."
+          "text": "Open to claim one material for Resonator Ascension of your choice:\nDream of Stars x1\nRedbell x1\nForget-Me-Not x1\nMoss Amber x1\nEdelschnee x1\n..."
         },
         {
           "id": "ww-item-50000215",
@@ -11897,7 +11864,7 @@
             "rarity": "5 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one of the following weapons: Lustrous Razor, Emerald of Genesis, Static Mist, Abyss Surges, Cosmic Ripples, Laser Shearer, Radiance Cleaver, Phas"
+          "text": "Open to claim one of the following weapons: Lustrous Razor, Emerald of Genesis, Static Mist, Abyss Surges, Cosmic Ripples, Laser Shearer, Radiance Cleaver, Phasic Homogenizer, Pulsation Bracer, Boson Astrolabe."
         },
         {
           "id": "ww-item-50000216",
@@ -11908,7 +11875,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one material for Resonator Ascension of your choice: Cloudperch Seed x1 Flowborne Dream x1 Blade Blossom x1 Redbell x1 Forget-Me-Not x1 ..."
+          "text": "Open to claim one material for Resonator Ascension of your choice:\nCloudperch Seed x1\nFlowborne Dream x1\nBlade Blossom x1\nRedbell x1\nForget-Me-Not x1\n..."
         },
         {
           "id": "ww-item-50000301",
@@ -11919,7 +11886,7 @@
             "rarity": "2 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one basic material for Weapon Ascension or Skill Upgrade of your choice: Inert Metallic Drip *1 Impure Phlogiston *1 Lento Helix *1 Waveworn Resid"
+          "text": "Open to claim one basic material for Weapon Ascension or Skill Upgrade of your choice:\nInert Metallic Drip *1\nImpure Phlogiston *1\nLento Helix *1\nWaveworn Residue 210 *1\nCadence Seed *1"
         },
         {
           "id": "ww-item-50000302",
@@ -11930,7 +11897,7 @@
             "rarity": "3 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice: Reactive Metallic Drip *1 Extracted Phlogiston *1 Adagio Helix *1 Wavewo"
+          "text": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice:\nReactive Metallic Drip *1\nExtracted Phlogiston *1\nAdagio Helix *1\nWaveworn Residue 226 *1\nCadence Bud *1"
         },
         {
           "id": "ww-item-50000303",
@@ -11941,7 +11908,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice: Polarized Metallic Drip *1 Refined Phlogiston *1 Andante Helix *1 Wave"
+          "text": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice:\nPolarized Metallic Drip *1\nRefined Phlogiston *1\nAndante Helix *1\nWaveworn Residue 235 *1\nCadence Leaf *1"
         },
         {
           "id": "ww-item-50000304",
@@ -11952,7 +11919,7 @@
             "rarity": "5 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice: Heterized Metallic Drip *1 Flawless Phlogiston *1 Presto Helix *1 Wavew"
+          "text": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice:\nHeterized Metallic Drip *1\nFlawless Phlogiston *1\nPresto Helix *1\nWaveworn Residue 239 *1\nCadence Blossom*1"
         },
         {
           "id": "ww-item-50000305",
@@ -11963,7 +11930,7 @@
             "rarity": "2 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one basic material for Weapon Ascension or Skill Upgrade of your choice: Crude Ring *1 LF Whisperin Core *1 LF Howler Core *1 LF Polygon Core *1 L"
+          "text": "Open to claim one basic material for Weapon Ascension or Skill Upgrade of your choice:\nCrude Ring *1\nLF Whisperin Core *1\nLF Howler Core *1\nLF Polygon Core *1\nLF Tidal Residuum *1"
         },
         {
           "id": "ww-item-50000306",
@@ -11974,7 +11941,7 @@
             "rarity": "3 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice: Basic Ring *1 MF Whisperin Core *1 MF Howler Core *1 MF Polygon Core *1 "
+          "text": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice:\nBasic Ring *1\nMF Whisperin Core *1\nMF Howler Core *1\nMF Polygon Core *1\nMF Tidal Residuum *1"
         },
         {
           "id": "ww-item-50000307",
@@ -11985,7 +11952,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice: Improved Ring *1 HF Whisperin Core *1 HF Howler Core *1 HF Polygon Cor"
+          "text": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice:\nImproved Ring *1\nHF Whisperin Core *1\nHF Howler Core *1\nHF Polygon Core *1\nHF Tidal Residuum *1"
         },
         {
           "id": "ww-item-50000308",
@@ -11996,7 +11963,7 @@
             "rarity": "5 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice: Tailored Ring *1 FF Whisperin Core *1 FF Howler Core *1 FF Polygon Core"
+          "text": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice:\nTailored Ring *1\nFF Whisperin Core *1\nFF Howler Core *1\nFF Polygon Core *1\nFF Tidal Residuum *1"
         },
         {
           "id": "ww-item-50000401",
@@ -12007,7 +11974,7 @@
             "rarity": "2 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one basic material for Weapon Ascension or Skill Upgrade of your choice: Broken Wing Polarizer *1 LF Carved Crystal *1 Incomplete Combustor *1 LF "
+          "text": "Open to claim one basic material for Weapon Ascension or Skill Upgrade of your choice:\nBroken Wing Polarizer *1\nLF Carved Crystal *1\nIncomplete Combustor *1\nLF Waveworn Shard *1\nSpliced String *1\nInert Metallic Drip *1\nImpure Phlogiston *1\nLento Helix *1\nWaveworn Residue 210 *1\nCadence Seed *1"
         },
         {
           "id": "ww-item-50000402",
@@ -12018,7 +11985,7 @@
             "rarity": "3 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice: Monowing Polarizer *1 MF Carved Crystal *1 Aftertune Combustor *1 MF Wav"
+          "text": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice:\nMonowing Polarizer *1\nMF Carved Crystal *1\nAftertune Combustor *1\nMF Waveworn Shard *1\nBroken String *1\nReactive Metallic Drip *1\nExtracted Phlogiston *1\nAdagio Helix *1\nWaveworn Residue 226 *1\nCadence Bud *1"
         },
         {
           "id": "ww-item-50000403",
@@ -12029,7 +11996,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice: Polywing Polarizer *1 HF Carved Crystal *1 Remnant Combustor *1 HF Wav"
+          "text": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice:\nPolywing Polarizer *1\nHF Carved Crystal *1\nRemnant Combustor *1\nHF Waveworn Shard *1\nSolidified String *1\nPolarized Metallic Drip *1\nRefined Phlogiston *1\nAndante Helix *1\nWaveworn Residue 235 *1\nCadence Leaf *1"
         },
         {
           "id": "ww-item-50000404",
@@ -12040,7 +12007,7 @@
             "rarity": "5 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice: Layered Wing Polarizer *1 FF Carved Crystal *1 Reverb Combustor *1 FF W"
+          "text": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice:\nLayered Wing Polarizer *1\nFF Carved Crystal *1\nReverb Combustor *1\nFF Waveworn Shard *1\nMelodic String *1\nHeterized Metallic Drip *1\nFlawless Phlogiston *1\nPresto Helix *1\nWaveworn Residue 239 *1\nCadence Blossom*1"
         },
         {
           "id": "ww-item-50000405",
@@ -12051,7 +12018,7 @@
             "rarity": "3 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice: Monowing Polarizer *1 MF Carved Crystal *1 Aftertune Combustor *1 MF Wav"
+          "text": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice:\nMonowing Polarizer *1\nMF Carved Crystal *1\nAftertune Combustor *1\nMF Waveworn Shard *1\nBroken String *1\nReactive Metallic Drip *1\nExtracted Phlogiston *1\nAdagio Helix *1\nWaveworn Residue 226 *1\nCadence Bud *1"
         },
         {
           "id": "ww-item-50000406",
@@ -12062,7 +12029,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice: Polywing Polarizer *1 HF Carved Crystal *1 Remnant Combustor *1 HF Wav"
+          "text": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice:\nPolywing Polarizer *1\nHF Carved Crystal *1\nRemnant Combustor *1\nHF Waveworn Shard *1\nSolidified String *1\nPolarized Metallic Drip *1\nRefined Phlogiston *1\nAndante Helix *1\nWaveworn Residue 235 *1\nCadence Leaf *1"
         },
         {
           "id": "ww-item-50000407",
@@ -12073,7 +12040,7 @@
             "rarity": "5 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice: Layered Wing Polarizer *1 FF Carved Crystal *1 Reverb Combustor *1 FF W"
+          "text": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice:\nLayered Wing Polarizer *1\nFF Carved Crystal *1\nReverb Combustor *1\nFF Waveworn Shard *1\nMelodic String *1\nHeterized Metallic Drip *1\nFlawless Phlogiston *1\nPresto Helix *1\nWaveworn Residue 239 *1\nCadence Blossom*1"
         },
         {
           "id": "ww-item-50000408",
@@ -12084,7 +12051,7 @@
             "rarity": "2 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one basic material for Weapon Ascension or Skill Upgrade of your choice: LF Exoswarm Core *1 LF Mech Core *1 Fractured Exoswarm Pendant *1 Crude R"
+          "text": "Open to claim one basic material for Weapon Ascension or Skill Upgrade of your choice:\nLF Exoswarm Core *1\nLF Mech Core *1\nFractured Exoswarm Pendant *1\nCrude Ring *1\nLF Whisperin Core *1\nLF Howler Core *1\nLF Polygon Core *1\nLF Tidal Residuum *1"
         },
         {
           "id": "ww-item-50000409",
@@ -12095,7 +12062,7 @@
             "rarity": "3 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice: MF Exoswarm Core *1 MF Mech Core *1 Worn Exoswarm Pendant *1 Basic Ring "
+          "text": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice:\nMF Exoswarm Core *1\nMF Mech Core *1\nWorn Exoswarm Pendant *1\nBasic Ring *1\nMF Whisperin Core *1\nMF Howler Core *1\nMF Polygon Core *1\nMF Tidal Residuum *1"
         },
         {
           "id": "ww-item-50000410",
@@ -12106,7 +12073,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice: HF Exoswarm Core *1 HF Mech Core *1 Chipped Exoswarm Pendant *1 Improv"
+          "text": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice:\nHF Exoswarm Core *1\nHF Mech Core *1\nChipped Exoswarm Pendant *1\nImproved Ring *1\nHF Whisperin Core *1\nHF Howler Core *1\nHF Polygon Core *1\nHF Tidal Residuum *1"
         },
         {
           "id": "ww-item-50000411",
@@ -12117,7 +12084,7 @@
             "rarity": "5 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice: FF Exoswarm Core *1 FF Mech Core *1 Intact Exoswarm Pendant *1 Tailored"
+          "text": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice:\nFF Exoswarm Core *1\nFF Mech Core *1\nIntact Exoswarm Pendant *1\nTailored Ring *1\nFF Whisperin Core *1\nFF Howler Core *1\nFF Polygon Core *1\nFF Tidal Residuum *1"
         },
         {
           "id": "ww-item-50000412",
@@ -12128,7 +12095,7 @@
             "rarity": "2 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one basic material for Weapon Ascension or Skill Upgrade of your choice: Broken Wing Polarizer *1 LF Carved Crystal *1 Incomplete Combustor *1 LF "
+          "text": "Open to claim one basic material for Weapon Ascension or Skill Upgrade of your choice:\nBroken Wing Polarizer *1\nLF Carved Crystal *1\nIncomplete Combustor *1\nLF Waveworn Shard *1\nSpliced String *1"
         },
         {
           "id": "ww-item-50000413",
@@ -12139,7 +12106,7 @@
             "rarity": "3 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice: Monowing Polarizer *1 MF Carved Crystal *1 Aftertune Combustor *1 MF Wav"
+          "text": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice:\nMonowing Polarizer *1\nMF Carved Crystal *1\nAftertune Combustor *1\nMF Waveworn Shard *1\nBroken String *1"
         },
         {
           "id": "ww-item-50000414",
@@ -12150,7 +12117,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice: Polywing Polarizer *1 HF Carved Crystal *1 Remnant Combustor *1 HF Wav"
+          "text": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice:\nPolywing Polarizer *1\nHF Carved Crystal *1\nRemnant Combustor *1\nHF Waveworn Shard *1\nSolidified String *1"
         },
         {
           "id": "ww-item-50000415",
@@ -12161,7 +12128,7 @@
             "rarity": "5 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice: Layered Wing Polarizer *1 FF Carved Crystal *1 Reverb Combustor *1 FF W"
+          "text": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice:\nLayered Wing Polarizer *1\nFF Carved Crystal *1\nReverb Combustor *1\nFF Waveworn Shard *1\nMelodic String *1"
         },
         {
           "id": "ww-item-50000416",
@@ -12172,7 +12139,7 @@
             "rarity": "2 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one basic material for Weapon Ascension or Skill Upgrade of your choice: LF Exoswarm Core *1 LF Mech Core *1 Fractured Exoswarm Pendant *1"
+          "text": "Open to claim one basic material for Weapon Ascension or Skill Upgrade of your choice:\nLF Exoswarm Core *1\nLF Mech Core *1\nFractured Exoswarm Pendant *1"
         },
         {
           "id": "ww-item-50000417",
@@ -12183,7 +12150,7 @@
             "rarity": "3 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice: MF Exoswarm Core *1 MF Mech Core *1 Worn Exoswarm Pendant *1"
+          "text": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice:\nMF Exoswarm Core *1\nMF Mech Core *1\nWorn Exoswarm Pendant *1"
         },
         {
           "id": "ww-item-50000418",
@@ -12194,7 +12161,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice: HF Exoswarm Core *1 HF Mech Core *1 Chipped Exoswarm Pendant *1"
+          "text": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice:\nHF Exoswarm Core *1\nHF Mech Core *1\nChipped Exoswarm Pendant *1"
         },
         {
           "id": "ww-item-50000419",
@@ -12205,7 +12172,7 @@
             "rarity": "5 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice: FF Exoswarm Core *1 FF Mech Core *1 Intact Exoswarm Pendant *1"
+          "text": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice:\nFF Exoswarm Core *1\nFF Mech Core *1\nIntact Exoswarm Pendant *1"
         },
         {
           "id": "ww-item-50000420",
@@ -12216,7 +12183,7 @@
             "rarity": "2 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one basic material for Weapon Ascension or Skill Upgrade of your choice: LF Autopuppet Kernel *1 Crude Ring *1 LF Whisperin Core *1 LF Howler Core"
+          "text": "Open to claim one basic material for Weapon Ascension or Skill Upgrade of your choice:\nLF Autopuppet Kernel *1\nCrude Ring *1\nLF Whisperin Core *1\nLF Howler Core *1\nLF Polygon Core *1\nLF Tidal Residuum *1"
         },
         {
           "id": "ww-item-50000421",
@@ -12227,7 +12194,7 @@
             "rarity": "3 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice: MF Autopuppet Kernel *1 Basic Ring *1 MF Whisperin Core *1 MF Howler Cor"
+          "text": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice:\nMF Autopuppet Kernel *1\nBasic Ring *1\nMF Whisperin Core *1\nMF Howler Core *1\nMF Polygon Core *1\nMF Tidal Residuum *1"
         },
         {
           "id": "ww-item-50000422",
@@ -12238,7 +12205,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice: HF Autopuppet Kernel *1 Improved Ring *1 HF Whisperin Core *1 HF Howle"
+          "text": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice:\nHF Autopuppet Kernel *1\nImproved Ring *1\nHF Whisperin Core *1\nHF Howler Core *1\nHF Polygon Core *1\nHF Tidal Residuum *1"
         },
         {
           "id": "ww-item-50000423",
@@ -12249,7 +12216,7 @@
             "rarity": "5 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice: FF Autopuppet Kernel *1 Tailored Ring *1 FF Whisperin Core *1 FF Howler"
+          "text": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice:\nFF Autopuppet Kernel *1\nTailored Ring *1\nFF Whisperin Core *1\nFF Howler Core *1\nFF Polygon Core *1\nFF Tidal Residuum *1"
         },
         {
           "id": "ww-item-50000430",
@@ -12260,7 +12227,7 @@
             "rarity": "2 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one basic material for Weapon Ascension or Skill Upgrade of your choice: LF Autopuppet Kernel *1 LF Exoswarm Core *1 LF Mech Core *1 Fractured Exo"
+          "text": "Open to claim one basic material for Weapon Ascension or Skill Upgrade of your choice:\nLF Autopuppet Kernel *1\nLF Exoswarm Core *1\nLF Mech Core *1\nFractured Exoswarm Pendant *1\nCrude Ring *1\nLF Whisperin Core *1\nLF Howler Core *1\nLF Polygon Core *1\nLF Tidal Residuum *1"
         },
         {
           "id": "ww-item-50000431",
@@ -12271,7 +12238,7 @@
             "rarity": "3 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice: MF Autopuppet Kernel *1 MF Exoswarm Core *1 MF Mech Core *1 Worn Exoswar"
+          "text": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice:\nMF Autopuppet Kernel *1\nMF Exoswarm Core *1\nMF Mech Core *1\nWorn Exoswarm Pendant *1\nBasic Ring *1\nMF Whisperin Core *1\nMF Howler Core *1\nMF Polygon Core *1\nMF Tidal Residuum *1"
         },
         {
           "id": "ww-item-50000432",
@@ -12282,7 +12249,7 @@
             "rarity": "4 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice: HF Autopuppet Kernel *1 HF Exoswarm Core *1 HF Mech Core *1 Chipped Ex"
+          "text": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice:\nHF Autopuppet Kernel *1\nHF Exoswarm Core *1\nHF Mech Core *1\nChipped Exoswarm Pendant *1\nImproved Ring *1\nHF Whisperin Core *1\nHF Howler Core *1\nHF Polygon Core *1\nHF Tidal Residuum *1"
         },
         {
           "id": "ww-item-50000433",
@@ -12293,7 +12260,7 @@
             "rarity": "5 \u2605",
             "type": "Supply Chest"
           },
-          "text": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice: FF Autopuppet Kernel *1 FF Exoswarm Core *1 FF Mech Core *1 Intact Exos"
+          "text": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice:\nFF Autopuppet Kernel *1\nFF Exoswarm Core *1\nFF Mech Core *1\nIntact Exoswarm Pendant *1\nTailored Ring *1\nFF Whisperin Core *1\nFF Howler Core *1\nFF Polygon Core *1\nFF Tidal Residuum *1"
         },
         {
           "id": "ww-item-50001092",
@@ -12304,7 +12271,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Frosty Resolve. 2pcs Set: Resonance Skill DMG +12%. 5pcs Set: Casting Resonance Liberation grants 3"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Frosty Resolve.\n\n2pcs Set: Resonance Skill DMG +12%.\n\n5pcs Set: Casting Resonance Liberation grants 30% Glacio DMG Bonus and 30% Resonance Skill DMG Bonus for 6s."
         },
         {
           "id": "ww-item-50001093",
@@ -12315,7 +12282,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Eternal Radiance. 2pcs Set: Spectro DMG +10%. 5pcs Set: Inflicting Spectro Frazzle on enemies incre"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Eternal Radiance.\n\n2pcs Set: Spectro DMG +10%.\n\n5pcs Set: Inflicting Spectro Frazzle on enemies increases Crit. Rate by 20% for 15s. Attacking enemies inflicted with 10 stacks of Spectro Frazzle grants 15% Spectro DMG Bonus for 15s."
         },
         {
           "id": "ww-item-50001094",
@@ -12326,7 +12293,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Midnight Veil. 2pcs Set: Havoc DMG +10%. 5pcs Set: Triggering Outro Skill deals additional 480% Hav"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Midnight Veil.\n\n2pcs Set: Havoc DMG +10%.\n\n5pcs Set: Triggering Outro Skill deals additional 480% Havoc DMG to surrounding enemies, and grants the incoming Resonator 15% Havoc DMG Bonus for 15s."
         },
         {
           "id": "ww-item-50001095",
@@ -12337,7 +12304,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Empyrean Anthem. 2pcs Set: Energy Regen +10%. 5pcs Set: Increase the Resonator's Coordinated Attack"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Empyrean Anthem.\n\n2pcs Set: Energy Regen +10%.\n\n5pcs Set: Increase the Resonator's Coordinated Attack DMG by 80%. Upon a critical hit of Coordinated Attack, increase the active Resonator's ATK by 20% for 4s."
         },
         {
           "id": "ww-item-50001096",
@@ -12348,7 +12315,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Tidebreaking Courage. 2pcs Set: Energy Regen +10%. 5pcs Set: The Resonator's ATK is increased by 15"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Tidebreaking Courage.\n\n2pcs Set: Energy Regen +10%.\n\n5pcs Set: The Resonator's ATK is increased by 15%. When reaching 250% Energy Regen, the Resonator gains 30% all Attribute DMG increase."
         },
         {
           "id": "ww-item-50001097",
@@ -12359,7 +12326,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Frosty Resolve. 2pcs Set: Resonance Skill DMG +12%. 5pcs Set: Casting Resonance Liberation grants 3"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Frosty Resolve.\n\n2pcs Set: Resonance Skill DMG +12%.\n\n5pcs Set: Casting Resonance Liberation grants 30% Glacio DMG Bonus and 30% Resonance Skill DMG Bonus for 6s."
         },
         {
           "id": "ww-item-50001098",
@@ -12370,7 +12337,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Eternal Radiance. 2pcs Set: Spectro DMG +10%. 5pcs Set: Inflicting Spectro Frazzle on enemies incre"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Eternal Radiance.\n\n2pcs Set: Spectro DMG +10%.\n\n5pcs Set: Inflicting Spectro Frazzle on enemies increases Crit. Rate by 20% for 15s. Attacking enemies inflicted with 10 stacks of Spectro Frazzle grants 15% Spectro DMG Bonus for 15s."
         },
         {
           "id": "ww-item-50001099",
@@ -12381,7 +12348,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Midnight Veil. 2pcs Set: Havoc DMG +10%. 5pcs Set: Triggering Outro Skill deals additional 480% Hav"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Midnight Veil.\n\n2pcs Set: Havoc DMG +10%.\n\n5pcs Set: Triggering Outro Skill deals additional 480% Havoc DMG to surrounding enemies, and grants the incoming Resonator 15% Havoc DMG Bonus for 15s."
         },
         {
           "id": "ww-item-50001100",
@@ -12392,7 +12359,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Empyrean Anthem. 2pcs Set: Energy Regen +10%. 5pcs Set: Increase the Resonator's Coordinated Attack"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Empyrean Anthem.\n\n2pcs Set: Energy Regen +10%.\n\n5pcs Set: Increase the Resonator's Coordinated Attack DMG by 80%. Upon a critical hit of Coordinated Attack, increase the active Resonator's ATK by 20% for 4s."
         },
         {
           "id": "ww-item-50001101",
@@ -12403,7 +12370,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Tidebreaking Courage. 2pcs Set: Energy Regen +10%. 5pcs Set: Resonators' ATK is increased by 15%. W"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Tidebreaking Courage.\n\n2pcs Set: Energy Regen +10%.\n\n5pcs Set: Resonators' ATK is increased by 15%. When Energy Regen reaches 250%, the Resonator gains 30% all Attribute DMG increase."
         },
         {
           "id": "ww-item-50001102",
@@ -12414,7 +12381,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to claim one 5-Star Elite Class Echo of your choice. List of Echoes: Frosty Resolve: Abyssal Patricius (Glacio DMG Bonus) Eternal Radiance: Diurnus Knight "
+          "text": "Open to claim one 5-Star Elite Class Echo of your choice.\n\nList of Echoes:\nFrosty Resolve: Abyssal Patricius (Glacio DMG Bonus)\nEternal Radiance: Diurnus Knight (Spectro DMG Bonus)\nMidnight Veil: Questless Knight (Havoc DMG Bonus)\nEmpyrean Anthem: Chop Chop (Energy Regen)\nTidebreaking Courage: Abyssal Gladius (Energy Regen)"
         },
         {
           "id": "ww-item-50001103",
@@ -12425,7 +12392,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to claim one 5-Star Elite Class Echo of your choice. List of Echoes: Frosty Resolve: Cuddle Wuddle (Glacio DMG Bonus) Eternal Radiance: Abyssal Mercator (S"
+          "text": "Open to claim one 5-Star Elite Class Echo of your choice.\n\nList of Echoes:\nFrosty Resolve: Cuddle Wuddle (Glacio DMG Bonus)\nEternal Radiance: Abyssal Mercator (Spectro DMG Bonus)\nMidnight Veil: Nocturnus Knight (Havoc DMG Bonus)\nEmpyrean Anthem: Vitreum Dancer (Energy Regen)\nTidebreaking Courage: Chop Chop (Energy Regen)"
         },
         {
           "id": "ww-item-50001104",
@@ -12436,7 +12403,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to claim one 5-Star Elite Class Echo of your choice. List of Echoes: Frosty Resolve: Abyssal Patricius (Glacio DMG Bonus) Tidebreaking Courage: Abyssal Gla"
+          "text": "Open to claim one 5-Star Elite Class Echo of your choice.\n\nList of Echoes:\nFrosty Resolve: Abyssal Patricius (Glacio DMG Bonus)\nTidebreaking Courage: Abyssal Gladius (Energy Regen)\nEternal Radiance: Abyssal Mercator (Spectro DMG Bonus)\nMidnight Veil: Questless Knight (Havoc DMG Bonus)\nEternal Radiance: Diurnus Knight (Spectro DMG Bonus)\nMidnight Veil: Nocturnus Knight (Havoc DMG Bonus)\nEmpyrean Anthem: Chop Chop (Energy Regen)\nFrosty Resolve: Cuddle Wuddle (Glacio DMG Bonus)\nEmpyrean Anthem: Vitreum Dancer (Energy Regen)"
         },
         {
           "id": "ww-item-50001105",
@@ -12447,7 +12414,7 @@
             "rarity": "4 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to claim one 4-Star Calamity Class Echo of your choice. List of Echoes: Freezing Frost: Hecate (Crit. Rate) Molten Rift: Hecate (Crit. Rate) Void Thunder: "
+          "text": "Open to claim one 4-Star Calamity Class Echo of your choice.\n\nList of Echoes:\nFreezing Frost: Hecate (Crit. Rate)\nMolten Rift: Hecate (Crit. Rate)\nVoid Thunder: Hecate (Crit. Rate)\nSierra Gale: Hecate (Crit. Rate)\nCelestial Light: Hecate (Crit. Rate)\nHavoc Eclipse: Hecate (Crit. Rate)"
         },
         {
           "id": "ww-item-50001106",
@@ -12458,7 +12425,7 @@
             "rarity": "4 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to claim one 4-Star Calamity Class Echo of your choice. List of Echoes: Freezing Frost: Hecate (Crit. DMG) Molten Rift: Hecate (Crit. DMG) Void Thunder: He"
+          "text": "Open to claim one 4-Star Calamity Class Echo of your choice.\n\nList of Echoes:\nFreezing Frost: Hecate (Crit. DMG)\nMolten Rift: Hecate (Crit. DMG)\nVoid Thunder: Hecate (Crit. DMG)\nSierra Gale: Hecate (Crit. DMG)\nCelestial Light: Hecate (Crit. DMG)\nHavoc Eclipse: Hecate (Crit. DMG)"
         },
         {
           "id": "ww-item-50001107",
@@ -12469,7 +12436,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to claim one 5-Star Calamity Class Echo of your choice. List of Echoes: Freezing Frost: Hecate (Crit. Rate) Molten Rift: Hecate (Crit. Rate) Void Thunder: "
+          "text": "Open to claim one 5-Star Calamity Class Echo of your choice.\n\nList of Echoes:\nFreezing Frost: Hecate (Crit. Rate)\nMolten Rift: Hecate (Crit. Rate)\nVoid Thunder: Hecate (Crit. Rate)\nSierra Gale: Hecate (Crit. Rate)\nCelestial Light: Hecate (Crit. Rate)\nHavoc Eclipse: Hecate (Crit. Rate)"
         },
         {
           "id": "ww-item-50001108",
@@ -12480,7 +12447,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to claim one 5-Star Calamity Class Echo of your choice. List of Echoes: Freezing Frost: Hecate (Crit. DMG) Molten Rift: Hecate (Crit. DMG) Void Thunder: He"
+          "text": "Open to claim one 5-Star Calamity Class Echo of your choice.\n\nList of Echoes:\nFreezing Frost: Hecate (Crit. DMG)\nMolten Rift: Hecate (Crit. DMG)\nVoid Thunder: Hecate (Crit. DMG)\nSierra Gale: Hecate (Crit. DMG)\nCelestial Light: Hecate (Crit. DMG)\nHavoc Eclipse: Hecate (Crit. DMG)"
         },
         {
           "id": "ww-item-50001109",
@@ -12491,7 +12458,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo from the Tacet Field of your choice in Jinzhou, Huanglong, or Rinascita. List of Tacet Fields: Central Plains: Lingering Tunes & Re"
+          "text": "Open to obtain a random Echo from the Tacet Field of your choice in Jinzhou, Huanglong, or Rinascita.\n\nList of Tacet Fields:\nCentral Plains: Lingering Tunes & Rejuvenating Glow\nDesorock Highland I: Sierra Gale & Freezing Frost\nDesorock Highland II: Void Thunder & Molten Rift\nPort City of Guixu: Molten Rift & Rejuvenating Glow\nTiger's Maw: Freezing Frost & Void Thunder\nDim Forest: Havoc Eclipse & Moonlit Clouds\nWhining Aix's Mire: Celestial Light & Lingering Tunes\nPenitent's End: Empyrean Anthem & Midnight Veil\nFagaceae Peninsula: Frosty Resolve & Eternal Radiance\nRiccioli Islands: Tidebreaking Courage & Eternal Radiance\nBeohr Waters: Midnight Veil & Gusts of Welkin\nMournfell Canyon: Windward Pilgrimage & Flaming Clawprint"
         },
         {
           "id": "ww-item-50001201",
@@ -12502,7 +12469,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to claim one 5-Star Elite Class Echo of your choice. List of Echoes: Frosty Resolve: Abyssal Patricius (Glacio DMG Bonus) Eternal Radiance: Diurnus Knight "
+          "text": "Open to claim one 5-Star Elite Class Echo of your choice.\n\nList of Echoes:\nFrosty Resolve: Abyssal Patricius (Glacio DMG Bonus)\nEternal Radiance: Diurnus Knight (Spectro DMG Bonus)\nMidnight Veil: Questless Knight (Havoc DMG Bonus)\nEmpyrean Anthem: Chop Chop (Energy Regen)\nTidebreaking Courage: Abyssal Gladius (Energy Regen)\nGusts of Welkin: Hurriclaw (Aero DMG Bonus)"
         },
         {
           "id": "ww-item-50001202",
@@ -12513,7 +12480,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to claim one 5-Star Elite Class Echo of your choice. List of Echoes: Frosty Resolve: Cuddle Wuddle (Glacio DMG Bonus) Eternal Radiance: Abyssal Mercator (S"
+          "text": "Open to claim one 5-Star Elite Class Echo of your choice.\n\nList of Echoes:\nFrosty Resolve: Cuddle Wuddle (Glacio DMG Bonus)\nEternal Radiance: Abyssal Mercator (Spectro DMG Bonus)\nMidnight Veil: Nocturnus Knight (Havoc DMG Bonus)\nEmpyrean Anthem: Vitreum Dancer (Energy Regen)\nTidebreaking Courage: Chop Chop (Energy Regen)\nGusts of Welkin: Capitaneus (Aero DMG Bonus)"
         },
         {
           "id": "ww-item-50001301",
@@ -12590,7 +12557,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain the following 5 Echoes: Lingering Tunes Set: Mech Abomination (Crit. Rate) Lingering Tunes Set: Flautist (ATK) Lingering Tunes Set: Chasm Guardia"
+          "text": "Open to obtain the following 5 Echoes:\nLingering Tunes Set: Mech Abomination (Crit. Rate)\nLingering Tunes Set: Flautist (ATK)\nLingering Tunes Set: Chasm Guardian (ATK)\nLingering Tunes Set: Vanguard Junrock (ATK)\nLingering Tunes Set: Snip Snap (ATK)"
         },
         {
           "id": "ww-item-50001402",
@@ -12601,7 +12568,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain the following 5 Echoes: Rejuvenating Glow Set: Bell-Borne Geochelone (Healing Bonus) Rejuvenating Glow Set: Stonewall Bracer (Energy Regen) Rejuv"
+          "text": "Open to obtain the following 5 Echoes:\nRejuvenating Glow Set: Bell-Borne Geochelone (Healing Bonus)\nRejuvenating Glow Set: Stonewall Bracer (Energy Regen)\nRejuvenating Glow Set: Chasm Guardian (Energy Regen)\nRejuvenating Glow Set: Vanguard Junrock (ATK)\nRejuvenating Glow Set: Fission Junrock (ATK)"
         },
         {
           "id": "ww-item-50001403",
@@ -12612,7 +12579,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain the following 5 Echoes: Moonlit Clouds Set: Impermanence Heron (Crit. Rate) Moonlit Clouds Set: Stonewall Bracer (Energy Regen) Moonlit Clouds Se"
+          "text": "Open to obtain the following 5 Echoes:\nMoonlit Clouds Set: Impermanence Heron (Crit. Rate)\nMoonlit Clouds Set: Stonewall Bracer (Energy Regen)\nMoonlit Clouds Set: Viridblaze Saurian (Energy Regen)\nMoonlit Clouds Set: Fission Junrock (ATK)\nMoonlit Clouds Set: Zig Zag (ATK)"
         },
         {
           "id": "ww-item-50001501",
@@ -12623,7 +12590,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Freezing Frost. 2pcs Set: Glacio DMG + 10%. 5pcs Set: Glacio DMG + 10% after releasing Basic Attack"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Freezing Frost.\n2pcs Set: Glacio DMG + 10%.\n5pcs Set: Glacio DMG + 10% after releasing Basic Attack or Heavy Attack. This effect stacks up to 3 times, each stack lasts 15s."
         },
         {
           "id": "ww-item-50001502",
@@ -12634,7 +12601,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Molten Rift. 2pcs Set: Fusion DMG + 10%. 5pcs Set: Fusion DMG + 30% for 15s after releasing Resonan"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Molten Rift.\n2pcs Set: Fusion DMG + 10%.\n5pcs Set: Fusion DMG + 30% for 15s after releasing Resonance Skill."
         },
         {
           "id": "ww-item-50001503",
@@ -12645,7 +12612,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Void Thunder. 2pcs Set: Electro DMG + 10%. 5pcs Set: Electro DMG + 15% after releasing Heavy Attack"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Void Thunder.\n2pcs Set: Electro DMG + 10%.\n5pcs Set: Electro DMG + 15% after releasing Heavy Attack or Resonance Skill. This effect stacks up to 2 times, each stack lasts 15s."
         },
         {
           "id": "ww-item-50001504",
@@ -12656,7 +12623,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Sierra Gale. 2pcs Set: Aero DMG + 10%. 5pcs Set: Aero DMG + 30% for 15s after releasing Intro Skill"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Sierra Gale.\n2pcs Set: Aero DMG + 10%.\n5pcs Set: Aero DMG + 30% for 15s after releasing Intro Skill."
         },
         {
           "id": "ww-item-50001505",
@@ -12667,7 +12634,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Celestial Light. 2pcs Set: Spectro DMG + 10%. 5pcs Set: Spectro DMG + 30% for 15s after releasing I"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Celestial Light.\n2pcs Set: Spectro DMG + 10%.\n5pcs Set: Spectro DMG + 30% for 15s after releasing Intro Skill."
         },
         {
           "id": "ww-item-50001506",
@@ -12678,7 +12645,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Havoc Eclipse. 2pcs Set: Havoc DMG + 10%. 5pcs Set: Havoc DMG + 7.5% after releasing Basic Attack o"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Havoc Eclipse.\n2pcs Set: Havoc DMG + 10%.\n5pcs Set: Havoc DMG + 7.5% after releasing Basic Attack or Heavy Attack. This effect stacks up to 4 times, each stack lasts 15s."
         },
         {
           "id": "ww-item-50001507",
@@ -12689,7 +12656,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Rejuvenating Glow. 2pcs Set: Healing Bonus + 10%. 5pcs Set: Increases the ATK of all Resonators in "
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Rejuvenating Glow.\n\n2pcs Set: Healing Bonus + 10%.\n\n5pcs Set: Increases the ATK of all Resonators in the team by 15% for 30s upon healing allies."
         },
         {
           "id": "ww-item-50001508",
@@ -12700,7 +12667,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Moonlit Clouds. 2pcs Set: Energy Regen + 10%. 5pcs Set: After using Outro Skill, increases the ATK "
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Moonlit Clouds.\n2pcs Set: Energy Regen + 10%.\n5pcs Set: After using Outro Skill, increases the ATK of the next Resonator by 22.5% for 15s."
         },
         {
           "id": "ww-item-50001509",
@@ -12711,7 +12678,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Lingering Tunes. 2pcs Set: ATK + 10%. 5pcs Set: While on the field, ATK increases by 5% every 1.5s."
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Lingering Tunes.\n\n2pcs Set: ATK + 10%.\n\n5pcs Set: While on the field, ATK increases by 5% every 1.5s. This effect stacks up to 4 times. Outro Skill DMG + 60%."
         },
         {
           "id": "ww-item-50001510",
@@ -12722,7 +12689,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice: Layered Wing Polarizer *1 FF Carved Crystal *1 Reverb Combustor *1 FF W"
+          "text": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice:\nLayered Wing Polarizer *1\nFF Carved Crystal *1\nReverb Combustor *1\nFF Waveworn Shard *1\nMelodic String *1\nHeterized Metallic Drip *1\nFlawless Phlogiston *1\nPresto Helix *1\nWaveworn Residue 239 *1\nCadence Blossom*1"
         },
         {
           "id": "ww-item-50001511",
@@ -12733,7 +12700,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Eternal Radiance. 2pcs Set: Spectro DMG +10%. 5pcs Set: Inflicting Spectro Frazzle on enemies incre"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Eternal Radiance.\n\n2pcs Set: Spectro DMG +10%.\n\n5pcs Set: Inflicting Spectro Frazzle on enemies increases Crit. Rate by 20% for 15s. Attacking enemies inflicted with 10 stacks of Spectro Frazzle grants 15% Spectro DMG Bonus for 15s."
         },
         {
           "id": "ww-item-50001512",
@@ -12744,7 +12711,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Midnight Veil. 2pcs Set: Havoc DMG +10%. 5pcs Set: Triggering Outro Skill deals additional 480% Hav"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Midnight Veil.\n\n2pcs Set: Havoc DMG +10%.\n\n5pcs Set: Triggering Outro Skill deals additional 480% Havoc DMG to surrounding enemies, and grants the incoming Resonator 15% Havoc DMG Bonus for 15s."
         },
         {
           "id": "ww-item-50001513",
@@ -12755,7 +12722,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Empyrean Anthem. 2pcs Set: Energy Regen +10%. 5pcs Set: Increase the Resonator's Coordinated Attack"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Empyrean Anthem.\n\n2pcs Set: Energy Regen +10%.\n\n5pcs Set: Increase the Resonator's Coordinated Attack DMG by 80%. Upon a critical hit of Coordinated Attack, increase the active Resonator's ATK by 20% for 4s."
         },
         {
           "id": "ww-item-50001514",
@@ -12766,7 +12733,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Tidebreaking Courage. 2pcs Set: Energy Regen +10%. 5pcs Set: The Resonator's ATK is increased by 15"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Tidebreaking Courage.\n\n2pcs Set: Energy Regen +10%.\n\n5pcs Set: The Resonator's ATK is increased by 15%. When reaching 250% Energy Regen, the Resonator gains 30% all Attribute DMG increase."
         },
         {
           "id": "ww-item-50001515",
@@ -12777,7 +12744,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain an Echo from one of the following Sonata Effects: Lingering Tunes Rejuvenating Glow"
+          "text": "Open to obtain an Echo from one of the following Sonata Effects:\n\nLingering Tunes\nRejuvenating Glow"
         },
         {
           "id": "ww-item-50001516",
@@ -12788,7 +12755,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain an Echo from one of the following Sonata Effects: Sierra Gale Freezing Frost"
+          "text": "Open to obtain an Echo from one of the following Sonata Effects:\n\nSierra Gale\nFreezing Frost"
         },
         {
           "id": "ww-item-50001517",
@@ -12799,7 +12766,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain an Echo from one of the following Sonata Effects: Void Thunder Molten Rift"
+          "text": "Open to obtain an Echo from one of the following Sonata Effects:\n\nVoid Thunder\nMolten Rift"
         },
         {
           "id": "ww-item-50001518",
@@ -12810,7 +12777,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain an Echo from one of the following Sonata Effects: Molten Rift Rejuvenating Glow"
+          "text": "Open to obtain an Echo from one of the following Sonata Effects:\n\nMolten Rift\nRejuvenating Glow"
         },
         {
           "id": "ww-item-50001519",
@@ -12821,7 +12788,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain an Echo from one of the following Sonata Effects: Freezing Frost Void Thunder"
+          "text": "Open to obtain an Echo from one of the following Sonata Effects:\n\nFreezing Frost\nVoid Thunder"
         },
         {
           "id": "ww-item-50001520",
@@ -12832,7 +12799,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain an Echo from one of the following Sonata Effects: Havoc Eclipse Moonlit Clouds"
+          "text": "Open to obtain an Echo from one of the following Sonata Effects:\n\nHavoc Eclipse\nMoonlit Clouds"
         },
         {
           "id": "ww-item-50001521",
@@ -12843,7 +12810,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain an Echo from one of the following Sonata Effects: Celestial Light Lingering Tunes"
+          "text": "Open to obtain an Echo from one of the following Sonata Effects:\n\nCelestial Light\nLingering Tunes"
         },
         {
           "id": "ww-item-50001522",
@@ -12854,7 +12821,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain an Echo from one of the following Sonata Effects: Empyrean Anthem Midnight Veil"
+          "text": "Open to obtain an Echo from one of the following Sonata Effects:\n\nEmpyrean Anthem\nMidnight Veil"
         },
         {
           "id": "ww-item-50001523",
@@ -12865,7 +12832,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain an Echo from one of the following Sonata Effects: Frosty Resolve Eternal Radiance"
+          "text": "Open to obtain an Echo from one of the following Sonata Effects:\n\nFrosty Resolve\nEternal Radiance"
         },
         {
           "id": "ww-item-50001524",
@@ -12876,7 +12843,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain an Echo from one of the following Sonata Effects: Tidebreaking Courage Eternal Radiance"
+          "text": "Open to obtain an Echo from one of the following Sonata Effects:\n\nTidebreaking Courage\nEternal Radiance"
         },
         {
           "id": "ww-item-50001525",
@@ -12887,7 +12854,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain an Echo from one of the following Sonata Effects: Midnight Veil Gusts of Welkin"
+          "text": "Open to obtain an Echo from one of the following Sonata Effects:\n\nMidnight Veil\nGusts of Welkin"
         },
         {
           "id": "ww-item-50001526",
@@ -12898,7 +12865,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain an Echo from one of the following Sonata Effects: Windward Pilgrimage Flaming Clawprint"
+          "text": "Open to obtain an Echo from one of the following Sonata Effects:\n\nWindward Pilgrimage\nFlaming Clawprint"
         },
         {
           "id": "ww-item-50010001",
@@ -12909,7 +12876,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Gusts of Welkin. 2pcs Set: Aero DMG +10%. 5pcs Set: Inflicting Aero Erosion on enemies increases Ae"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Gusts of Welkin.\n\n2pcs Set: Aero DMG +10%.\n\n5pcs Set: Inflicting Aero Erosion on enemies increases Aero DMG for all Resonators in the team by 15%, and for the Resonator triggering this effect by an additional 15%, lasting for 20s."
         },
         {
           "id": "ww-item-50010002",
@@ -12920,7 +12887,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Windward Pilgrimage. 2pcs Set: Aero DMG +10%. 5pcs Set: Hitting a target with Aero Erosion increase"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Windward Pilgrimage.\n\n2pcs Set: Aero DMG +10%.\n\n5pcs Set: Hitting a target with Aero Erosion increases Crit. Rate by 10% and grants 30% Aero DMG Bonus, lasting for 10s."
         },
         {
           "id": "ww-item-50010003",
@@ -12931,7 +12898,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint. 2pcs Set: Fusion DMG +10%. 5pcs Set: Casting Resonance Liberation increases Fusi"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint.\n\n2pcs Set: Fusion DMG +10%.\n\n5pcs Set: Casting Resonance Liberation increases Fusion DMG of Resonators in the team by 15% and the caster's Resonance Liberation DMG by 20%, lasting for 35s."
         },
         {
           "id": "ww-item-50010004",
@@ -12942,7 +12909,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Rite of Gilded Revelation 2pcs Set: Spectro DMG +10%. 5pcs Set: Dealing Basic Attack DMG increases "
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Rite of Gilded Revelation\n\n2pcs Set: Spectro DMG +10%.\n\n5pcs Set: Dealing Basic Attack DMG increases Spectro DMG by 10% for 5s, stacking up to 3 times. With 3 stacks, casting Resonance Liberation grants 40% Basic Attack DMG Bonus."
         },
         {
           "id": "ww-item-50010005",
@@ -12953,7 +12920,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Halo of Starry Radiance. 2pcs Set: Healing Bonus+10%. 5pcs Set: When healing a Resonator in the tea"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Halo of Starry Radiance.\n\n2pcs Set: Healing Bonus+10%.\n\n5pcs Set: When healing a Resonator in the team, every 1% of Off-Tune Buildup Rate grants a 0.2% ATK increase to all Resonators in the team for 4s, up to 25%. Effects of the same name cannot be stacked."
         },
         {
           "id": "ww-item-50010006",
@@ -12964,7 +12931,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Pact of Neonlight Leap. 2pcs Set: Spectro DMG +10%. 5pcs Set: Casting Outro Skill increases the ATK"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Pact of Neonlight Leap.\n\n2pcs Set: Spectro DMG +10%.\n\n5pcs Set: Casting Outro Skill increases the ATK of the incoming Resonator who casts Intro Skill by 15%. Each point of Tune Break Boost the incoming Resonator has additionally increases their ATK by 0.3%, up to 15%. This effect lasts for 15s, or until the Resonator is switched out."
         },
         {
           "id": "ww-item-50010007",
@@ -12975,7 +12942,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Dream of the Lost. 3pcs Set: Holding 0 Resonance Energy increases Crit. Rate by 20% and Echo Skill "
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Dream of the Lost.\n\n3pcs Set: Holding 0 Resonance Energy increases Crit. Rate by 20% and Echo Skill DMG Bonus by 35%."
         },
         {
           "id": "ww-item-50010008",
@@ -12986,7 +12953,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Crown of Valor. 3pcs Set: Obtaining a Shield increases the shielded Resonator's ATK and Crit. DMG b"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Crown of Valor.\n\n3pcs Set: Obtaining a Shield increases the shielded Resonator's ATK and Crit. DMG by 6% and 4% respectively for 4s, stacking up to 5 times. This effect can be triggered once every 0.5s."
         },
         {
           "id": "ww-item-50010009",
@@ -12997,7 +12964,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Law of Harmony 3pcs Set: Casting Echo Skill grants 30% Heavy Attack DMG Bonus to the caster for 4s."
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Law of Harmony\n\n3pcs Set: Casting Echo Skill grants 30% Heavy Attack DMG Bonus to the caster for 4s. Additionally, all Resonators in the team gain 4% Echo Skill DMG Bonus for 30s, stacking up to 4 times. Echoes of the same name can only trigger this effect once. The record of Echo triggering this effect is cleared along with this effect. At 4 stacks, casting Echo Skill again resets the duration of this effect."
         },
         {
           "id": "ww-item-50010010",
@@ -13008,7 +12975,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Flamewing's Shadow. 3pcs Set: Dealing Echo Skill DMG increases Heavy Attack Crit. Rate by 20% for 6"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Flamewing's Shadow.\n\n3pcs Set: Dealing Echo Skill DMG increases Heavy Attack Crit. Rate by 20% for 6s. Dealing Heavy Attack DMG increases Echo Skill Crit. Rate by 20% for 6s. While both effects are active, gain 16% Fusion DMG Bonus."
         },
         {
           "id": "ww-item-50010011",
@@ -13019,7 +12986,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Thread of Severed Fate. 3pcs Set: Inflicting Havoc Bane increases the Resonator's ATK by 20% and gr"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Thread of Severed Fate.\n\n3pcs Set: Inflicting Havoc Bane increases the Resonator's ATK by 20% and grants 30% Resonance Liberation DMG Bonus for 5s."
         },
         {
           "id": "ww-item-50010012",
@@ -13030,7 +12997,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Trailblazing Star. 2pcs Set: Fusion DMG +10%. 5pcs Set: Inflicting Fusion Burst or Tune Rupture - S"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Trailblazing Star.\n\n2pcs Set: Fusion DMG +10%.\n\n5pcs Set: Inflicting Fusion Burst or Tune Rupture - Shifting increases the Resonator's Crit. Rate by 20% and grants 20% Fusion DMG Bonus for 8s."
         },
         {
           "id": "ww-item-50010013",
@@ -13041,7 +13008,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Chromatic Foam. 2pcs Set: Fusion DMG +10%. 5pcs Set: When the Resonator inflicts Fusion Burst on th"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Chromatic Foam.\n\n2pcs Set: Fusion DMG +10%.\n\n5pcs Set: When the Resonator inflicts Fusion Burst on the enemies, they gain the following effects: Gain 10 Fusion DMG Bonus for 15s. While this effect is active, casting an Outro Skill grants the incoming Resonator 25% Fusion DMG Bonus for 15s or until they are switched out."
         },
         {
           "id": "ww-item-50010014",
@@ -13052,7 +13019,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Sound of True Name. 2pcs Set: Aero DMG +10%. 5pcs Set: Dealing Echo Skill DMG to enemies increases "
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Sound of True Name.\n\n2pcs Set: Aero DMG +10%.\n\n5pcs Set: Dealing Echo Skill DMG to enemies increases the Resonator's Echo Skill Crit. Rate by 20%, and grants 15% Aero DMG Bonus for 5s."
         },
         {
           "id": "ww-item-50010015",
@@ -13063,7 +13030,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Wishes of Quiet Snowfall. 2pcs Set: Glacio +10%. 5pcs Set: Inflicting Glacio Chafe on enemies incre"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Wishes of Quiet Snowfall.\n2pcs Set: Glacio +10%.\n5pcs Set: Inflicting Glacio Chafe on enemies increases Glacio DMG dealt by 10% for 15s. The Resonator gains the Snowfall effect, which can be triggered once every 25s.\nWhile Snowfall is active:\n- Dealing Resonance Liberation DMG removes Snowfall and increases the Resonator's Crit. Rate by 25% for 6s. Dealing Resonance Liberation DMG again during the effect prolongs its duration by 4s, triggered once every 0.5s, up to 6 times each time Snowfall is removed.\n- Casting Outro Skill removes Snowfall and grants 25% Glacio DMG Bonus to the incoming Resonator for 15s.\nOnly one of the two effects can be triggered each time Snowfall is removed."
         },
         {
           "id": "ww-item-50010016",
@@ -13074,7 +13041,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Reel of Spliced Memories. 2pcs Set: ATK +10%. 5pcs Set: Inflicting Tune Rupture - Shifting or Tune "
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Reel of Spliced Memories.\n2pcs Set: ATK +10%.\n5pcs Set: Inflicting Tune Rupture - Shifting or Tune Strain - Shifting on enemies increases the Tune Break Boost of Resonators in the team by 20 for 30s. Effects of the same name do not stack."
         },
         {
           "id": "ww-item-50020001",
@@ -13085,7 +13052,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Gusts of Welkin. 2pcs Set: Aero DMG +10%. 5pcs Set: Inflicting Aero Erosion on enemies increases Ae"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Gusts of Welkin.\n\n2pcs Set: Aero DMG +10%.\n\n5pcs Set: Inflicting Aero Erosion on enemies increases Aero DMG for all Resonators in the team by 15%, and for the Resonator triggering this effect by an additional 15%, lasting for 20s."
         },
         {
           "id": "ww-item-50020002",
@@ -13096,7 +13063,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Windward Pilgrimage. 2pcs Set: Aero DMG +10%. 5pcs Set: Hitting a target with Aero Erosion increase"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Windward Pilgrimage.\n\n2pcs Set: Aero DMG +10%.\n\n5pcs Set: Hitting a target with Aero Erosion increases Crit. Rate by 10% and grants 30% Aero DMG Bonus, lasting for 10s."
         },
         {
           "id": "ww-item-50020003",
@@ -13107,7 +13074,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint. 2pcs Set: Fusion DMG +10%. 5pcs Set: Casting Resonance Liberation increases Fusi"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint.\n\n2pcs Set: Fusion DMG +10%.\n\n5pcs Set: Casting Resonance Liberation increases Fusion DMG of Resonators in the team by 15% and the caster's Resonance Liberation DMG by 20%, lasting for 35s."
         },
         {
           "id": "ww-item-50020004",
@@ -13118,7 +13085,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Rite of Gilded Revelation 2pcs Set: Spectro DMG +10%. 5pcs Set: Dealing Basic Attack DMG increases "
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Rite of Gilded Revelation\n\n2pcs Set: Spectro DMG +10%.\n\n5pcs Set: Dealing Basic Attack DMG increases Spectro DMG by 10% for 5s, stacking up to 3 times. With 3 stacks, casting Resonance Liberation grants 40% Basic Attack DMG Bonus."
         },
         {
           "id": "ww-item-50020005",
@@ -13129,7 +13096,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Halo of Starry Radiance. 2pcs Set: Healing Bonus+10%. 5pcs Set: When healing a Resonator in the tea"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Halo of Starry Radiance.\n\n2pcs Set: Healing Bonus+10%.\n\n5pcs Set: When healing a Resonator in the team, every 1% of Off-Tune Buildup Rate grants a 0.2% ATK increase to all Resonators in the team for 4s, up to 25%. Effects of the same name cannot be stacked."
         },
         {
           "id": "ww-item-50020006",
@@ -13140,7 +13107,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Pact of Neonlight Leap. 2pcs Set: Spectro DMG +10%. 5pcs Set: Casting Outro Skill increases the ATK"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Pact of Neonlight Leap.\n\n2pcs Set: Spectro DMG +10%.\n\n5pcs Set: Casting Outro Skill increases the ATK of the incoming Resonator who casts Intro Skill by 15%. Each point of Tune Break Boost the incoming Resonator has additionally increases their ATK by 0.3%, up to 15%. This effect lasts for 15s, or until the Resonator is switched out."
         },
         {
           "id": "ww-item-50020007",
@@ -13151,7 +13118,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Dream of the Lost. 3pcs Set: Holding 0 Resonance Energy increases Crit. Rate by 20% and Echo Skill "
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Dream of the Lost.\n\n3pcs Set: Holding 0 Resonance Energy increases Crit. Rate by 20% and Echo Skill DMG Bonus by 35%."
         },
         {
           "id": "ww-item-50020008",
@@ -13162,7 +13129,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Crown of Valor. 3pcs Set: Obtaining a Shield increases the shielded Resonator's ATK and Crit. DMG b"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Crown of Valor.\n\n3pcs Set: Obtaining a Shield increases the shielded Resonator's ATK and Crit. DMG by 6% and 4% respectively for 4s, stacking up to 5 times. This effect can be triggered once every 0.5s."
         },
         {
           "id": "ww-item-50020009",
@@ -13173,7 +13140,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Law of Harmony 3pcs Set: Casting Echo Skill grants 30% Heavy Attack DMG Bonus to the caster for 4s."
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Law of Harmony\n\n3pcs Set: Casting Echo Skill grants 30% Heavy Attack DMG Bonus to the caster for 4s. Additionally, all Resonators in the team gain 4% Echo Skill DMG Bonus for 30s, stacking up to 4 times. Echoes of the same name can only trigger this effect once. The record of Echo triggering this effect is cleared along with this effect. At 4 stacks, casting Echo Skill again resets the duration of this effect."
         },
         {
           "id": "ww-item-50020010",
@@ -13184,7 +13151,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Flamewing's Shadow. 3pcs Set: Dealing Echo Skill DMG increases Heavy Attack Crit. Rate by 20% for 6"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Flamewing's Shadow.\n\n3pcs Set: Dealing Echo Skill DMG increases Heavy Attack Crit. Rate by 20% for 6s. Dealing Heavy Attack DMG increases Echo Skill Crit. Rate by 20% for 6s. While both effects are active, gain 16% Fusion DMG Bonus."
         },
         {
           "id": "ww-item-50020011",
@@ -13195,7 +13162,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Thread of Severed Fate. 3pcs Set: Inflicting Havoc Bane increases the Resonator's ATK by 20% and gr"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Thread of Severed Fate.\n\n3pcs Set: Inflicting Havoc Bane increases the Resonator's ATK by 20% and grants 30% Resonance Liberation DMG Bonus for 5s."
         },
         {
           "id": "ww-item-50020012",
@@ -13206,7 +13173,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Trailblazing Star. 2pcs Set: Fusion DMG +10%. 5pcs Set: Inflicting Fusion Burst or Tune Rupture - S"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Trailblazing Star.\n\n2pcs Set: Fusion DMG +10%.\n\n5pcs Set: Inflicting Fusion Burst or Tune Rupture - Shifting increases the Resonator's Crit. Rate by 20% and grants 20% Fusion DMG Bonus for 8s."
         },
         {
           "id": "ww-item-50020013",
@@ -13217,7 +13184,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Chromatic Foam. 2pcs Set: Fusion DMG +10%. 5pcs Set: When the Resonator inflicts Fusion Burst on th"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Chromatic Foam.\n\n2pcs Set: Fusion DMG +10%.\n\n5pcs Set: When the Resonator inflicts Fusion Burst on the enemies, they gain the following effects: Gain 10 Fusion DMG Bonus for 15s. While this effect is active, casting an Outro Skill grants the incoming Resonator 25% Fusion DMG Bonus for 15s or until they are switched out."
         },
         {
           "id": "ww-item-50020014",
@@ -13228,7 +13195,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Sound of True Name. 2pcs Set: Aero DMG +10%. 5pcs Set: Dealing Echo Skill DMG to enemies increases "
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Sound of True Name.\n\n2pcs Set: Aero DMG +10%.\n\n5pcs Set: Dealing Echo Skill DMG to enemies increases the Resonator's Echo Skill Crit. Rate by 20%, and grants 15% Aero DMG Bonus for 5s."
         },
         {
           "id": "ww-item-50020015",
@@ -13239,7 +13206,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Wishes of Quiet Snowfall. 2pcs Set: Glacio +10%. 5pcs Set: Inflicting Glacio Chafe on enemies incre"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Wishes of Quiet Snowfall.\n2pcs Set: Glacio +10%.\n5pcs Set: Inflicting Glacio Chafe on enemies increases Glacio DMG dealt by 10% for 15s. The Resonator gains the Snowfall effect, which can be triggered once every 25s.\nWhile Snowfall is active:\n- Dealing Resonance Liberation DMG removes Snowfall and increases the Resonator's Crit. Rate by 25% for 6s. Dealing Resonance Liberation DMG again during the effect prolongs its duration by 4s, triggered once every 0.5s, up to 6 times each time Snowfall is removed.\n- Casting Outro Skill removes Snowfall and grants 25% Glacio DMG Bonus to the incoming Resonator for 15s.\nOnly one of the two effects can be triggered each time Snowfall is removed."
         },
         {
           "id": "ww-item-50020016",
@@ -13250,7 +13217,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Reel of Spliced Memories. 2pcs Set: ATK +10%. 5pcs Set: Inflicting Tune Rupture - Shifting or Tune "
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Reel of Spliced Memories.\n2pcs Set: ATK +10%.\n5pcs Set: Inflicting Tune Rupture - Shifting or Tune Strain - Shifting on enemies increases the Tune Break Boost of Resonators in the team by 20 for 30s. Effects of the same name do not stack."
         },
         {
           "id": "ww-item-50030001",
@@ -13261,7 +13228,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint. 2pcs Set: Fusion DMG +10%. 5pcs Set: Casting Resonance Liberation increases Fusi"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint.\n\n2pcs Set: Fusion DMG +10%.\n\n5pcs Set: Casting Resonance Liberation increases Fusion DMG of Resonators in the team by 15% and the caster's Resonance Liberation DMG by 20%, lasting for 35s."
         },
         {
           "id": "ww-item-50030002",
@@ -13272,7 +13239,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint. 2pcs Set: Fusion DMG +10%. 5pcs Set: Casting Resonance Liberation increases Fusi"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint.\n\n2pcs Set: Fusion DMG +10%.\n\n5pcs Set: Casting Resonance Liberation increases Fusion DMG of Resonators in the team by 15% and the caster's Resonance Liberation DMG by 20%, lasting for 35s."
         },
         {
           "id": "ww-item-50030003",
@@ -13283,7 +13250,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint. 2pcs Set: Fusion DMG +10%. 5pcs Set: Casting Resonance Liberation increases Fusi"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint.\n\n2pcs Set: Fusion DMG +10%.\n\n5pcs Set: Casting Resonance Liberation increases Fusion DMG of Resonators in the team by 15% and the caster's Resonance Liberation DMG by 20%, lasting for 35s."
         },
         {
           "id": "ww-item-50030004",
@@ -13294,7 +13261,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint. 2pcs Set: Fusion DMG +10%. 5pcs Set: Casting Resonance Liberation increases Fusi"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint.\n\n2pcs Set: Fusion DMG +10%.\n\n5pcs Set: Casting Resonance Liberation increases Fusion DMG of Resonators in the team by 15% and the caster's Resonance Liberation DMG by 20%, lasting for 35s."
         },
         {
           "id": "ww-item-50030005",
@@ -13305,7 +13272,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint. 2pcs Set: Fusion DMG +10%. 5pcs Set: Casting Resonance Liberation increases Fusi"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint.\n\n2pcs Set: Fusion DMG +10%.\n\n5pcs Set: Casting Resonance Liberation increases Fusion DMG of Resonators in the team by 15% and the caster's Resonance Liberation DMG by 20%, lasting for 35s."
         },
         {
           "id": "ww-item-50030006",
@@ -13316,7 +13283,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint. 2pcs Set: Fusion DMG +10%. 5pcs Set: Casting Resonance Liberation increases Fusi"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint.\n\n2pcs Set: Fusion DMG +10%.\n\n5pcs Set: Casting Resonance Liberation increases Fusion DMG of Resonators in the team by 15% and the caster's Resonance Liberation DMG by 20%, lasting for 35s."
         },
         {
           "id": "ww-item-50030007",
@@ -13327,7 +13294,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint. 2pcs Set: Fusion DMG +10%. 5pcs Set: Casting Resonance Liberation increases Fusi"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint.\n\n2pcs Set: Fusion DMG +10%.\n\n5pcs Set: Casting Resonance Liberation increases Fusion DMG of Resonators in the team by 15% and the caster's Resonance Liberation DMG by 20%, lasting for 35s."
         },
         {
           "id": "ww-item-50030008",
@@ -13338,7 +13305,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint. 2pcs Set: Fusion DMG +10%. 5pcs Set: Casting Resonance Liberation increases Fusi"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint.\n\n2pcs Set: Fusion DMG +10%.\n\n5pcs Set: Casting Resonance Liberation increases Fusion DMG of Resonators in the team by 15% and the caster's Resonance Liberation DMG by 20%, lasting for 35s."
         },
         {
           "id": "ww-item-50030009",
@@ -13349,7 +13316,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint. 2pcs Set: Fusion DMG +10%. 5pcs Set: Casting Resonance Liberation increases Fusi"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint.\n\n2pcs Set: Fusion DMG +10%.\n\n5pcs Set: Casting Resonance Liberation increases Fusion DMG of Resonators in the team by 15% and the caster's Resonance Liberation DMG by 20%, lasting for 35s."
         },
         {
           "id": "ww-item-50030010",
@@ -13360,7 +13327,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint. 2pcs Set: Fusion DMG +10%. 5pcs Set: Casting Resonance Liberation increases Fusi"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint.\n\n2pcs Set: Fusion DMG +10%.\n\n5pcs Set: Casting Resonance Liberation increases Fusion DMG of Resonators in the team by 15% and the caster's Resonance Liberation DMG by 20%, lasting for 35s."
         },
         {
           "id": "ww-item-50030011",
@@ -13371,7 +13338,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint. 2pcs Set: Fusion DMG +10%. 5pcs Set: Casting Resonance Liberation increases Fusi"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint.\n\n2pcs Set: Fusion DMG +10%.\n\n5pcs Set: Casting Resonance Liberation increases Fusion DMG of Resonators in the team by 15% and the caster's Resonance Liberation DMG by 20%, lasting for 35s."
         },
         {
           "id": "ww-item-50030012",
@@ -13382,7 +13349,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint. 2pcs Set: Fusion DMG +10%. 5pcs Set: Casting Resonance Liberation increases Fusi"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint.\n\n2pcs Set: Fusion DMG +10%.\n\n5pcs Set: Casting Resonance Liberation increases Fusion DMG of Resonators in the team by 15% and the caster's Resonance Liberation DMG by 20%, lasting for 35s."
         },
         {
           "id": "ww-item-50030013",
@@ -13393,7 +13360,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint. 2pcs Set: Fusion DMG +10%. 5pcs Set: Casting Resonance Liberation increases Fusi"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint.\n\n2pcs Set: Fusion DMG +10%.\n\n5pcs Set: Casting Resonance Liberation increases Fusion DMG of Resonators in the team by 15% and the caster's Resonance Liberation DMG by 20%, lasting for 35s."
         },
         {
           "id": "ww-item-50030014",
@@ -13404,7 +13371,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint. 2pcs Set: Fusion DMG +10%. 5pcs Set: Casting Resonance Liberation increases Fusi"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint.\n\n2pcs Set: Fusion DMG +10%.\n\n5pcs Set: Casting Resonance Liberation increases Fusion DMG of Resonators in the team by 15% and the caster's Resonance Liberation DMG by 20%, lasting for 35s."
         },
         {
           "id": "ww-item-50030015",
@@ -13415,7 +13382,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint. 2pcs Set: Fusion DMG +10%. 5pcs Set: Casting Resonance Liberation increases Fusi"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint.\n\n2pcs Set: Fusion DMG +10%.\n\n5pcs Set: Casting Resonance Liberation increases Fusion DMG of Resonators in the team by 15% and the caster's Resonance Liberation DMG by 20%, lasting for 35s."
         },
         {
           "id": "ww-item-50030016",
@@ -13426,7 +13393,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint. 2pcs Set: Fusion DMG +10%. 5pcs Set: Casting Resonance Liberation increases Fusi"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint.\n\n2pcs Set: Fusion DMG +10%.\n\n5pcs Set: Casting Resonance Liberation increases Fusion DMG of Resonators in the team by 15% and the caster's Resonance Liberation DMG by 20%, lasting for 35s."
         },
         {
           "id": "ww-item-50030017",
@@ -13437,7 +13404,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint. 2pcs Set: Fusion DMG +10%. 5pcs Set: Casting Resonance Liberation increases Fusi"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint.\n\n2pcs Set: Fusion DMG +10%.\n\n5pcs Set: Casting Resonance Liberation increases Fusion DMG of Resonators in the team by 15% and the caster's Resonance Liberation DMG by 20%, lasting for 35s."
         },
         {
           "id": "ww-item-50030018",
@@ -13448,7 +13415,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint. 2pcs Set: Fusion DMG +10%. 5pcs Set: Casting Resonance Liberation increases Fusi"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint.\n\n2pcs Set: Fusion DMG +10%.\n\n5pcs Set: Casting Resonance Liberation increases Fusion DMG of Resonators in the team by 15% and the caster's Resonance Liberation DMG by 20%, lasting for 35s."
         },
         {
           "id": "ww-item-50030019",
@@ -13459,7 +13426,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint. 2pcs Set: Fusion DMG +10%. 5pcs Set: Casting Resonance Liberation increases Fusi"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint.\n\n2pcs Set: Fusion DMG +10%.\n\n5pcs Set: Casting Resonance Liberation increases Fusion DMG of Resonators in the team by 15% and the caster's Resonance Liberation DMG by 20%, lasting for 35s."
         },
         {
           "id": "ww-item-50030020",
@@ -13470,7 +13437,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint. 2pcs Set: Fusion DMG +10%. 5pcs Set: Casting Resonance Liberation increases Fusi"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint.\n\n2pcs Set: Fusion DMG +10%.\n\n5pcs Set: Casting Resonance Liberation increases Fusion DMG of Resonators in the team by 15% and the caster's Resonance Liberation DMG by 20%, lasting for 35s."
         },
         {
           "id": "ww-item-50030021",
@@ -13481,7 +13448,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint. 2pcs Set: Fusion DMG +10%. 5pcs Set: Casting Resonance Liberation increases Fusi"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint.\n\n2pcs Set: Fusion DMG +10%.\n\n5pcs Set: Casting Resonance Liberation increases Fusion DMG of Resonators in the team by 15% and the caster's Resonance Liberation DMG by 20%, lasting for 35s."
         },
         {
           "id": "ww-item-50030022",
@@ -13492,7 +13459,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint. 2pcs Set: Fusion DMG +10%. 5pcs Set: Casting Resonance Liberation increases Fusi"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint.\n\n2pcs Set: Fusion DMG +10%.\n\n5pcs Set: Casting Resonance Liberation increases Fusion DMG of Resonators in the team by 15% and the caster's Resonance Liberation DMG by 20%, lasting for 35s."
         },
         {
           "id": "ww-item-50030023",
@@ -13503,7 +13470,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint. 2pcs Set: Fusion DMG +10%. 5pcs Set: Casting Resonance Liberation increases Fusi"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint.\n\n2pcs Set: Fusion DMG +10%.\n\n5pcs Set: Casting Resonance Liberation increases Fusion DMG of Resonators in the team by 15% and the caster's Resonance Liberation DMG by 20%, lasting for 35s."
         },
         {
           "id": "ww-item-50030024",
@@ -13514,7 +13481,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint. 2pcs Set: Fusion DMG +10%. 5pcs Set: Casting Resonance Liberation increases Fusi"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Flaming Clawprint.\n\n2pcs Set: Fusion DMG +10%.\n\n5pcs Set: Casting Resonance Liberation increases Fusion DMG of Resonators in the team by 15% and the caster's Resonance Liberation DMG by 20%, lasting for 35s."
         },
         {
           "id": "ww-item-50030101",
@@ -13789,7 +13756,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Tidebreaking Courage. 2pcs Set: Energy Regen +10%. 5pcs Set: The Resonator's ATK is increased by 15"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Tidebreaking Courage.\n\n2pcs Set: Energy Regen +10%.\n\n5pcs Set: The Resonator's ATK is increased by 15%. When reaching 250% Energy Regen, the Resonator gains 30% all Attribute DMG increase."
         },
         {
           "id": "ww-item-50031516",
@@ -13800,7 +13767,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Tidebreaking Courage. 2pcs Set: Energy Regen +10%. 5pcs Set: The Resonator's ATK is increased by 15"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Tidebreaking Courage.\n\n2pcs Set: Energy Regen +10%.\n\n5pcs Set: The Resonator's ATK is increased by 15%. When reaching 250% Energy Regen, the Resonator gains 30% all Attribute DMG increase."
         },
         {
           "id": "ww-item-50031517",
@@ -13811,7 +13778,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Tidebreaking Courage. 2pcs Set: Energy Regen +10%. 5pcs Set: The Resonator's ATK is increased by 15"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Tidebreaking Courage.\n\n2pcs Set: Energy Regen +10%.\n\n5pcs Set: The Resonator's ATK is increased by 15%. When reaching 250% Energy Regen, the Resonator gains 30% all Attribute DMG increase."
         },
         {
           "id": "ww-item-50031518",
@@ -13888,7 +13855,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Song of Feathered Trace. 2pcs Set: Energy Regen +10%. 5pcs Set: Upon inflicting Havoc Bane, gain Xu"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Song of Feathered Trace.\n\n2pcs Set: Energy Regen +10%.\n\n5pcs Set: Upon inflicting Havoc Bane, gain Xuanling's Feather, which grants a 20% increase in Crit. Rate and 35% increase in Heavy Attack DMG Bonus to the Resonator, lasting 15s.\nUpon inflicting Glacio Chafe, gain Chongming's Feather, which grants a 0.1% increase in ATK to Resonators in the team for every 1% of the Resonator's Energy Regen, up to 25%, lasting 10s."
         },
         {
           "id": "ww-item-50032002",
@@ -13899,7 +13866,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Heart of Evil's Purge 2pcs Set: Aero DMG +10%. 5pcs Set: Inflicting Tune Strain - Shifting inreases"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Heart of Evil's Purge\n\n2pcs Set: Aero DMG +10%.\n\n5pcs Set: Inflicting Tune Strain - Shifting inreases Crit. DMG by 20% and Aero DMG Bonus by 30% for 15s."
         },
         {
           "id": "ww-item-50032003",
@@ -13910,7 +13877,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Lamp of Nether Road 2pcs Set: HP+10%. 5pcs Set: Upon gaining a Shield, gain 5% increase in Crit. Ra"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Lamp of Nether Road\n\n2pcs Set: HP+10%.\n\n5pcs Set: Upon gaining a Shield, gain 5% increase in Crit. Rate for 5s, max 4 stacks. This effect can be triggered every 0.5s. At max stacks, gain 15% Fusion DMG Bonus."
         },
         {
           "id": "ww-item-50033001",
@@ -13921,7 +13888,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Song of Feathered Trace. 2pcs Set: Energy Regen +10%. 5pcs Set: Upon inflicting Havoc Bane, gain Xu"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Song of Feathered Trace.\n\n2pcs Set: Energy Regen +10%.\n\n5pcs Set: Upon inflicting Havoc Bane, gain Xuanling's Feather, which grants a 20% increase in Crit. Rate and 35% increase in Heavy Attack DMG Bonus to the Resonator, lasting 15s.\nUpon inflicting Glacio Chafe, gain Chongming's Feather, which grants a 0.1% increase in ATK to Resonators in the team for every 1% of the Resonator's Energy Regen, up to 25%, lasting 10s."
         },
         {
           "id": "ww-item-50033002",
@@ -13932,7 +13899,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Heart of Evil's Purge 2pcs Set: Aero DMG +10%. 5pcs Set: Inflicting Tune Strain - Shifting inreases"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Heart of Evil's Purge\n\n2pcs Set: Aero DMG +10%.\n\n5pcs Set: Inflicting Tune Strain - Shifting inreases Crit. DMG by 20% and Aero DMG Bonus by 30% for 15s."
         },
         {
           "id": "ww-item-50033003",
@@ -13943,7 +13910,7 @@
             "rarity": "5 \u2605",
             "type": "Random Echo Item"
           },
-          "text": "Open to obtain a random Echo of the following Sonata Effect: Lamp of Nether Road 2pcs Set: HP+10%. 5pcs Set: Upon gaining a Shield, gain 5% increase in Crit. Ra"
+          "text": "Open to obtain a random Echo of the following Sonata Effect: Lamp of Nether Road\n\n2pcs Set: HP+10%.\n\n5pcs Set: Upon gaining a Shield, gain 5% increase in Crit. Rate for 5s, max 4 stacks. This effect can be triggered every 0.5s. At max stacks, gain 15% Fusion DMG Bonus."
         },
         {
           "id": "ww-item-70000002",
@@ -13954,7 +13921,7 @@
             "rarity": "5 \u2605",
             "type": "Consumable"
           },
-          "text": "Increases Max STA by 10 points. Can be obtained from upgrading the Data Bank."
+          "text": "Increases Max STA by 10 points.\nCan be obtained from upgrading the Data Bank."
         },
         {
           "id": "ww-item-70000003",
@@ -14914,39 +14881,6 @@
           "text": ""
         },
         {
-          "id": "ww-item-70050011",
-          "name": "Level Delivery Test Item - Spear Tip",
-          "kind": "item",
-          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconTask/T_IconTask_Level_005_1_UI.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Quest Item"
-          },
-          "text": "Level Delivery Test Item - Spear Tip Function Description"
-        },
-        {
-          "id": "ww-item-70050012",
-          "name": "Level Delivery Test Item - Spear Breech",
-          "kind": "item",
-          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconTask/T_IconTask_Level_005_2_UI.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Quest Item"
-          },
-          "text": "Level Delivery Test Item - Spear Breech Function Description"
-        },
-        {
-          "id": "ww-item-70050013",
-          "name": "Level Delivery Test Item - Gun Body",
-          "kind": "item",
-          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconTask/T_IconTask_Level_005_3_UI.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Quest Item"
-          },
-          "text": "Level Delivery Test Item - Gun Body Function Description"
-        },
-        {
           "id": "ww-item-70050014",
           "name": "Robot Spare Parts",
           "kind": "item",
@@ -15175,7 +15109,7 @@
             "rarity": "2 \u2605",
             "type": "Dish"
           },
-          "text": "Increases Echo drop rate by 50% for 30m. A gift from Painter: Thank you, my best audience."
+          "text": "Increases Echo drop rate by 50% for 30m.\nA gift from Painter: Thank you, my best audience."
         },
         {
           "id": "ww-item-70050046",
@@ -15340,7 +15274,7 @@
             "rarity": "5 \u2605",
             "type": "Quest Item"
           },
-          "text": "A seemingly ordinary feather, soft and warm to the touch. A token of your successful completion of all the challenges in \"If You Gaze Into the Abyss of Dreams.\""
+          "text": "A seemingly ordinary feather, soft and warm to the touch.\n\nA token of your successful completion of all the challenges in \"If You Gaze Into the Abyss of Dreams.\""
         },
         {
           "id": "ww-item-70050061",
@@ -16638,7 +16572,7 @@
             "rarity": "3 \u2605",
             "type": "Quest Item"
           },
-          "text": "A special firecracker sold at the Fireworks Shop. After equipping this to Utility, you can throw firecrackers to damage enemies. (Only available during the \"By "
+          "text": "A special firecracker sold at the Fireworks Shop. After equipping this to Utility, you can throw firecrackers to damage enemies. (Only available during the \"By Moon's Grace\" Event and will be removed from Backpack after the Event ends.)"
         },
         {
           "id": "ww-item-70140022",
@@ -16660,7 +16594,7 @@
             "rarity": "3 \u2605",
             "type": "Quest Item"
           },
-          "text": "A special firecracker sold at the Fireworks Shop. After equipping this to Utility, you can throw firecrackers to damage enemies. (Only available during the \"By "
+          "text": "A special firecracker sold at the Fireworks Shop. After equipping this to Utility, you can throw firecrackers to damage enemies. (Only available during the \"By Moon's Grace\" Event and will be removed from Backpack after the Event ends.)"
         },
         {
           "id": "ww-item-70140026",
@@ -16671,7 +16605,7 @@
             "rarity": "5 \u2605",
             "type": "Quest Item"
           },
-          "text": "A scroll painting that Zhezhi gave you. This is the first scroll painting she has painted with her Forte in many years. The beautiful scenery depicted in the pa"
+          "text": "A scroll painting that Zhezhi gave you. This is the first scroll painting she has painted with her Forte in many years. The beautiful scenery depicted in the painting seems to give off a different feeling than before."
         },
         {
           "id": "ww-item-70140027",
@@ -16682,7 +16616,7 @@
             "rarity": "4 \u2605",
             "type": "Quest Item"
           },
-          "text": "Before the battle begins, Carlotta places a handful of crystals in your hands. These are crafted from her Forte, akin to the texture of the bullets she uses in "
+          "text": "Before the battle begins, Carlotta places a handful of crystals in your hands. These are crafted from her Forte, akin to the texture of the bullets she uses in combat. Could there be a hidden message within this gesture?"
         },
         {
           "id": "ww-item-70140028",
@@ -16759,7 +16693,7 @@
             "rarity": "3 \u2605",
             "type": "Quest Item"
           },
-          "text": "A gift from Phoebe. This book introduces the Codex of the Order and explains the basic doctrines and philosophies regarding the Divinites, written in simple ter"
+          "text": "A gift from Phoebe. This book introduces the Codex of the Order and explains the basic doctrines and philosophies regarding the Divinites, written in simple terms."
         },
         {
           "id": "ww-item-70140035",
@@ -17628,7 +17562,7 @@
             "rarity": "5 \u2605",
             "type": "Quest Item"
           },
-          "text": "An Origami Construct prepared by Hiyuki. It carries a trace of her frequency and can produce a freezing effect to aid Spacetrek operations in the Dimmr Plains. "
+          "text": "An Origami Construct prepared by Hiyuki. It carries a trace of her frequency and can produce a freezing effect to aid Spacetrek operations in the Dimmr Plains.\n\nDespite its hastily made, somewhat unrefined appearance, it is absolutely reliable."
         },
         {
           "id": "ww-item-71220001",
@@ -17760,7 +17694,7 @@
             "rarity": "5 \u2605",
             "type": "Quest Item"
           },
-          "text": "Phrolova composed this melody upon the founding of the Fabricatorium. She blended the music of her past into it, wishing that those dear and near to her might o"
+          "text": "Phrolova composed this melody upon the founding of the Fabricatorium. She blended the music of her past into it, wishing that those dear and near to her might one day play it in the real world."
         },
         {
           "id": "ww-item-71260002",
@@ -17771,7 +17705,7 @@
             "rarity": "5 \u2605",
             "type": "Quest Item"
           },
-          "text": "Phrolova composed this melody upon the founding of the Fabricatorium. She blended the music of her past into it, wishing that those dear and near to her might o"
+          "text": "Phrolova composed this melody upon the founding of the Fabricatorium. She blended the music of her past into it, wishing that those dear and near to her might one day play it in the real world."
         },
         {
           "id": "ww-item-71260003",
@@ -17782,7 +17716,7 @@
             "rarity": "5 \u2605",
             "type": "Quest Item"
           },
-          "text": "Phrolova composed this melody upon the founding of the Fabricatorium. She blended the music of her past into it, wishing that those dear and near to her might o"
+          "text": "Phrolova composed this melody upon the founding of the Fabricatorium. She blended the music of her past into it, wishing that those dear and near to her might one day play it in the real world."
         },
         {
           "id": "ww-item-71260004",
@@ -18178,7 +18112,7 @@
             "rarity": "4 \u2605",
             "type": "Quest Item"
           },
-          "text": "The photo that Duzhou always carries. In it are three people in Xuanfang Warden garb, laughing and embracing each other. At the bottom are written their names: "
+          "text": "The photo that Duzhou always carries. In it are three people in Xuanfang Warden garb, laughing and embracing each other. At the bottom are written their names: Duzhou, Yanlang, and Mingyu."
         },
         {
           "id": "ww-item-71300509",
@@ -18255,7 +18189,7 @@
             "rarity": "2 \u2605",
             "type": "Token"
           },
-          "text": "Increases Glacio DMG by 20%. This Token has unlimited uses in Whimpering Wastes."
+          "text": "Increases Glacio DMG by 20%.\n\nThis Token has unlimited uses in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500002",
@@ -18266,7 +18200,7 @@
             "rarity": "2 \u2605",
             "type": "Token"
           },
-          "text": "Increases Fusion DMG by 20%. This Token has unlimited uses in Whimpering Wastes."
+          "text": "Increases Fusion DMG by 20%.\n\nThis Token has unlimited uses in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500003",
@@ -18277,7 +18211,7 @@
             "rarity": "2 \u2605",
             "type": "Token"
           },
-          "text": "Increases Electro DMG by 20%. This Token has unlimited uses in Whimpering Wastes."
+          "text": "Increases Electro DMG by 20%.\n\nThis Token has unlimited uses in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500004",
@@ -18288,7 +18222,7 @@
             "rarity": "2 \u2605",
             "type": "Token"
           },
-          "text": "Increases Aero DMG by 20%. This Token has unlimited uses in Whimpering Wastes."
+          "text": "Increases Aero DMG by 20%.\n\nThis Token has unlimited uses in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500005",
@@ -18299,7 +18233,7 @@
             "rarity": "2 \u2605",
             "type": "Token"
           },
-          "text": "Increases Spectro DMG by 20%. This Token has unlimited uses in Whimpering Wastes."
+          "text": "Increases Spectro DMG by 20%.\n\nThis Token has unlimited uses in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500006",
@@ -18310,7 +18244,7 @@
             "rarity": "2 \u2605",
             "type": "Token"
           },
-          "text": "Increases Havoc DMG by 20%. This Token has unlimited uses in Whimpering Wastes."
+          "text": "Increases Havoc DMG by 20%.\n\nThis Token has unlimited uses in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500007",
@@ -18321,7 +18255,7 @@
             "rarity": "3 \u2605",
             "type": "Token"
           },
-          "text": "After casting Intro Skill, increases Crit. DMG of all Resonators in the team by 40% for 15s. This Token has unlimited uses in Whimpering Wastes."
+          "text": "After casting Intro Skill, increases Crit. DMG of all Resonators in the team by 40% for 15s.\n\nThis Token has unlimited uses in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500008",
@@ -18332,7 +18266,7 @@
             "rarity": "3 \u2605",
             "type": "Token"
           },
-          "text": "Every time a Resonator deals Basic Attack DMG, their next Basic Attack DMG is Amplified by 4% for 15s, stacking up to 5 times. This Token has unlimited uses in "
+          "text": "Every time a Resonator deals Basic Attack DMG, their next Basic Attack DMG is Amplified by 4% for 15s, stacking up to 5 times.\n\nThis Token has unlimited uses in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500009",
@@ -18354,7 +18288,7 @@
             "rarity": "3 \u2605",
             "type": "Token"
           },
-          "text": "Every time a Resonator deals damage, their next Heavy Attack DMG is Amplified by 4% for 15s, stacking up to 5 times. This Token has unlimited uses in Whimpering"
+          "text": "Every time a Resonator deals damage, their next Heavy Attack DMG is Amplified by 4% for 15s, stacking up to 5 times.\n\nThis Token has unlimited uses in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500011",
@@ -18365,7 +18299,7 @@
             "rarity": "4 \u2605",
             "type": "Token"
           },
-          "text": "Summons an Echo to support you in combat. It does not take damage from the Resonators. This Token has unlimited uses in Whimpering Wastes."
+          "text": "Summons an Echo to support you in combat. It does not take damage from the Resonators.\n\nThis Token has unlimited uses in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500012",
@@ -18398,7 +18332,7 @@
             "rarity": "4 \u2605",
             "type": "Token"
           },
-          "text": "Recovers 3% of the Resonator's HP per second and deals 600% Electro DMG to nearby targets upon the sixth HP recovery. This Token can be used up to 2 times in Wh"
+          "text": "Recovers 3% of the Resonator's HP per second and deals 600% Electro DMG to nearby targets upon the sixth HP recovery.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500015",
@@ -18420,7 +18354,7 @@
             "rarity": "4 \u2605",
             "type": "Token"
           },
-          "text": "After casting Resonance Liberation, increases Basic Attack Crit. DMG of all Resonators in the team by 40% for 15s and reduces their Resonance Skill cooldown by "
+          "text": "After casting Resonance Liberation, increases Basic Attack Crit. DMG of all Resonators in the team by 40% for 15s and reduces their Resonance Skill cooldown by 10s.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500017",
@@ -18431,7 +18365,7 @@
             "rarity": "4 \u2605",
             "type": "Token"
           },
-          "text": "Each time casting Resonance Skill reduces Resonance Liberation cooldown by 20% and recovers Resonance Energy by 20%. This effect has a cooldown of 3s. This Toke"
+          "text": "Each time casting Resonance Skill reduces Resonance Liberation cooldown by 20% and recovers Resonance Energy by 20%. This effect has a cooldown of 3s.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500018",
@@ -18442,7 +18376,7 @@
             "rarity": "4 \u2605",
             "type": "Token"
           },
-          "text": "Amplifies all Attribute DMG by 25%. This Token can be used up to 2 times in Whimpering Wastes."
+          "text": "Amplifies all Attribute DMG by 25%.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500019",
@@ -18453,7 +18387,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "After casting Intro Skill, increases Crit. Rate of all Resonators in the team by 40% and Crit. DMG by 80% for 15s. This Token can be used up to 2 times in Whimp"
+          "text": "After casting Intro Skill, increases Crit. Rate of all Resonators in the team by 40% and Crit. DMG by 80% for 15s.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500020",
@@ -18464,7 +18398,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Casting Resonance Liberation Amplifies Resonance Skill DMG of the active Resonator by 90% for 15s. This Token can be used up to 2 times in Whimpering Wastes."
+          "text": "Casting Resonance Liberation Amplifies Resonance Skill DMG of the active Resonator by 90% for 15s.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500021",
@@ -18475,7 +18409,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Increases Spectro DMG by 12.5% for each stack of Spectro Frazzle inflicted on targets, stacking up to 10 times. This effect lasts for 15s. This Token can be use"
+          "text": "Increases Spectro DMG by 12.5% for each stack of Spectro Frazzle inflicted on targets, stacking up to 10 times. This effect lasts for 15s.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500022",
@@ -18486,7 +18420,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Increases the Resonance Liberation DMG dealt by the active Resonator by 120% for 20s after every 10 instances of damage dealt by Resonators in the team. This To"
+          "text": "Increases the Resonance Liberation DMG dealt by the active Resonator by 120% for 20s after every 10 instances of damage dealt by Resonators in the team.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500023",
@@ -18497,7 +18431,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "While Resonators are in mid-air, their DMG dealt is Amplified by 55% for 15s when Resonators are in mid-air. This Token can be used up to 2 times in Whimpering "
+          "text": "While Resonators are in mid-air, their DMG dealt is Amplified by 55% for 15s when Resonators are in mid-air.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500024",
@@ -18508,7 +18442,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Increases Spectro DMG by 12.5% for each stack of Spectro Frazzle inflicted on targets, stacking up to 10 times. This effect lasts for 15s. This Token can be use"
+          "text": "Increases Spectro DMG by 12.5% for each stack of Spectro Frazzle inflicted on targets, stacking up to 10 times. This effect lasts for 15s.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500025",
@@ -18519,7 +18453,7 @@
             "rarity": "4 \u2605",
             "type": "Token"
           },
-          "text": "Amplifies all Attribute DMG by 25%. This Token can be used up to 2 times in Whimpering Wastes."
+          "text": "Amplifies all Attribute DMG by 25%.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500026",
@@ -18530,7 +18464,7 @@
             "rarity": "4 \u2605",
             "type": "Token"
           },
-          "text": "Amplifies all Attribute DMG by 25%. This Token can be used up to 2 times in Whimpering Wastes."
+          "text": "Amplifies all Attribute DMG by 25%.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500027",
@@ -18541,7 +18475,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "After casting Intro Skill, increases Crit. Rate of all Resonators in the team by 40% and Crit. DMG by 80% for 15s. This Token can be used up to 2 times in Whimp"
+          "text": "After casting Intro Skill, increases Crit. Rate of all Resonators in the team by 40% and Crit. DMG by 80% for 15s.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500028",
@@ -18552,7 +18486,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Each time dealing Coordinated Attack DMG increases Basic Attack DMG of all Resonators in the team by 12%, stacking up to 10 times for 30s. This Token can be use"
+          "text": "Each time dealing Coordinated Attack DMG increases Basic Attack DMG of all Resonators in the team by 12%, stacking up to 10 times for 30s.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500029",
@@ -18563,7 +18497,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Each time the Resonators in the team cast Resonance Liberation, Resonance Skill DMG of all Resonators in the team is increased by 62.5%, stacking up to 2 times "
+          "text": "Each time the Resonators in the team cast Resonance Liberation, Resonance Skill DMG of all Resonators in the team is increased by 62.5%, stacking up to 2 times for 30s.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500030",
@@ -18574,7 +18508,7 @@
             "rarity": "4 \u2605",
             "type": "Token"
           },
-          "text": "Amplifies all Attribute DMG by 25%. This Token can be used up to 2 times in Whimpering Wastes."
+          "text": "Amplifies all Attribute DMG by 25%.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500031",
@@ -18585,7 +18519,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Casting Resonance Liberation grants 36% Spectro DMG Bonus per second for 15s to the active Resonator, stacking up to 4 times. This Token can be used up to 2 tim"
+          "text": "Casting Resonance Liberation grants 36% Spectro DMG Bonus per second for 15s to the active Resonator, stacking up to 4 times.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500032",
@@ -18596,7 +18530,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Each time defeating a target increases ATK of all Resonators in the team by 9%, stacking up to 10 times. This Token can be used up to 2 times in Whimpering Wast"
+          "text": "Each time defeating a target increases ATK of all Resonators in the team by 9%, stacking up to 10 times.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500033",
@@ -18607,7 +18541,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Casting Intro Skill gives all Resonators in the team 150% Resonance Liberation DMG Bonus for 15s. This Token can be used up to 2 times in Whimpering Wastes."
+          "text": "Casting Intro Skill gives all Resonators in the team 150% Resonance Liberation DMG Bonus for 15s.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500034",
@@ -18618,7 +18552,7 @@
             "rarity": "4 \u2605",
             "type": "Token"
           },
-          "text": "Amplifies all Attribute DMG by 25%. This Token can be used up to 2 times in Whimpering Wastes."
+          "text": "Amplifies all Attribute DMG by 25%.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500035",
@@ -18629,7 +18563,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Casting Resonance Liberation Amplifies Resonance Skill DMG of the active Resonator by 90% for 15s. This Token can be used up to 2 times in Whimpering Wastes."
+          "text": "Casting Resonance Liberation Amplifies Resonance Skill DMG of the active Resonator by 90% for 15s.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500036",
@@ -18640,7 +18574,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "When Resonators are in mid-air, their DMG dealt is Amplified by 80%. This Token can be used up to 2 times in Whimpering Wastes."
+          "text": "When Resonators are in mid-air, their DMG dealt is Amplified by 80%.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500037",
@@ -18651,7 +18585,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "When a Resonator inflicts Aero Erosion upon enemies, the active Resonator in the team gains 40% Aero DMG Bonus for 15s, stacking up to 3 times. This Token can b"
+          "text": "When a Resonator inflicts Aero Erosion upon enemies, the active Resonator in the team gains 40% Aero DMG Bonus for 15s, stacking up to 3 times.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500038",
@@ -18662,7 +18596,7 @@
             "rarity": "4 \u2605",
             "type": "Token"
           },
-          "text": "Amplifies all Attribute DMG by 25%. This Token can be used up to 2 times in Whimpering Wastes."
+          "text": "Amplifies all Attribute DMG by 25%.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500039",
@@ -18673,7 +18607,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Grants 25% Fusion DMG Bonus. Casting Resonance Liberation recovers 2 points of Energy. Resonators can hold up to 2 points of Energy. When Resonators deal Resona"
+          "text": "Grants 25% Fusion DMG Bonus. Casting Resonance Liberation recovers 2 points of Energy. Resonators can hold up to 2 points of Energy.\nWhen Resonators deal Resonance Liberation DMG, 1 point of Energy is consumed to cast AoE attack, dealing 1500% Fusion DMG to nearby targets in total. This effect can be triggered up to once every 2s.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500040",
@@ -18684,7 +18618,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "When a Resonator inflicts Aero Erosion upon enemies, the active Resonator in the team gains 40% Aero DMG Bonus for 15s, stacking up to 3 times. This Token can b"
+          "text": "When a Resonator inflicts Aero Erosion upon enemies, the active Resonator in the team gains 40% Aero DMG Bonus for 15s, stacking up to 3 times.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500041",
@@ -18695,7 +18629,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Each time dealing Coordinated Attack DMG increases Basic Attack DMG of all Resonators in the team by 12%, stacking up to 10 times for 30s. This Token can be use"
+          "text": "Each time dealing Coordinated Attack DMG increases Basic Attack DMG of all Resonators in the team by 12%, stacking up to 10 times for 30s.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500042",
@@ -18706,7 +18640,7 @@
             "rarity": "4 \u2605",
             "type": "Token"
           },
-          "text": "Amplifies all Attribute DMG by 25%. This Token can be used up to 2 times in Whimpering Wastes."
+          "text": "Amplifies all Attribute DMG by 25%.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500043",
@@ -18717,7 +18651,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Grants 25% Fusion DMG Bonus. Casting Resonance Liberation recovers 2 points of Energy. Resonators can hold up to 2 points of Energy. When Resonators deal Resona"
+          "text": "Grants 25% Fusion DMG Bonus. Casting Resonance Liberation recovers 2 points of Energy. Resonators can hold up to 2 points of Energy.\nWhen Resonators deal Resonance Liberation DMG, 1 point of Energy is consumed to cast AoE attack, dealing 1500% Fusion DMG to nearby targets in total. This effect can be triggered up to once every 2s.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500044",
@@ -18728,7 +18662,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Amplifies Heavy Attack DMG and Electro DMG by 50%. This Token can be used up to 2 times in Whimpering Wastes."
+          "text": "Amplifies Heavy Attack DMG and Electro DMG by 50%.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500045",
@@ -18739,7 +18673,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Casting Echo Skill increases Havoc DMG by 20%, stacking up to 2 times. The same Resonator cannot trigger this effect again with the same Echo Skill. At 2 stacks"
+          "text": "Casting Echo Skill increases Havoc DMG by 20%, stacking up to 2 times. The same Resonator cannot trigger this effect again with the same Echo Skill. At 2 stacks, the Resonator's next instance of damage dealt triggers an AoE attack, dealing 800% Havoc DMG to nearby targets. This effect can be triggered once every 5s.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500046",
@@ -18750,7 +18684,7 @@
             "rarity": "4 \u2605",
             "type": "Token"
           },
-          "text": "Amplifies all Attribute DMG by 25%. This Token can be used up to 2 times in Whimpering Wastes."
+          "text": "Amplifies all Attribute DMG by 25%.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500047",
@@ -18761,7 +18695,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Casting Echo Skill increases Havoc DMG by 20%, stacking up to 2 times. The same Resonator cannot trigger this effect again with the same Echo Skill. At 2 stacks"
+          "text": "Casting Echo Skill increases Havoc DMG by 20%, stacking up to 2 times. The same Resonator cannot trigger this effect again with the same Echo Skill. At 2 stacks, the Resonator's next instance of damage dealt triggers an AoE attack, dealing 800% Havoc DMG to nearby targets. This effect can be triggered once every 5s.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500048",
@@ -18772,7 +18706,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Grants 20% Electro DMG Bonus and 20% Aero DMG Bonus. When the active Resonator gains a Shield, they additionally recover Ember, triggered up to 1 time per secon"
+          "text": "Grants 20% Electro DMG Bonus and 20% Aero DMG Bonus.\nWhen the active Resonator gains a Shield, they additionally recover Ember, triggered up to 1 time per second.\nWhen the active Resonator deals damage while in the Burning Waves state, they unleash an AoE attack, dealing Electro DMG equal to 2400% of their ATK in total, triggered once every 6 seconds.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500049",
@@ -18783,7 +18717,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "The Burning Waves state becomes permanent. While in Burning Waves, Resonators deal 50% more DMG. This Token can be used up to 2 times in Whimpering Wastes."
+          "text": "The Burning Waves state becomes permanent. While in Burning Waves, Resonators deal 50% more DMG.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500050",
@@ -18794,7 +18728,7 @@
             "rarity": "4 \u2605",
             "type": "Token"
           },
-          "text": "Amplifies all Attribute DMG by 25%. This Token can be used up to 2 times in Whimpering Wastes."
+          "text": "Amplifies all Attribute DMG by 25%.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500051",
@@ -18805,7 +18739,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Grants 30% Fusion DMG Bonus. When the active Resonator casts Echo Skill or deals Echo Skill DMG, they additionally recover Ember, triggered up to 1 time per sec"
+          "text": "Grants 30% Fusion DMG Bonus.\nWhen the active Resonator casts Echo Skill or deals Echo Skill DMG, they additionally recover Ember, triggered up to 1 time per second.\nWhen the active Resonator deals damage while in the Burning Waves state, they unleash an AoE attack, dealing Fusion DMG equal to 1600% of their ATK in total (considered Echo Skill DMG), triggered up to 1 time every 6s.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500052",
@@ -18816,7 +18750,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Grants 20% Electro DMG Bonus and 20% Aero DMG Bonus. When the active Resonator gains a Shield, they additionally recover Ember, triggered up to 1 time per secon"
+          "text": "Grants 20% Electro DMG Bonus and 20% Aero DMG Bonus.\nWhen the active Resonator gains a Shield, they additionally recover Ember, triggered up to 1 time per second.\nWhen the active Resonator deals damage while in the Burning Waves state, they unleash an AoE attack, dealing Electro DMG equal to 2400% of their ATK in total, triggered once every 6 seconds.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500053",
@@ -18827,7 +18761,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "When a Resonator inflicts Aero Erosion upon enemies, the active Resonator in the team gains 40% Aero DMG Bonus for 15s, stacking up to 3 times. This Token can b"
+          "text": "When a Resonator inflicts Aero Erosion upon enemies, the active Resonator in the team gains 40% Aero DMG Bonus for 15s, stacking up to 3 times.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500054",
@@ -18838,7 +18772,7 @@
             "rarity": "4 \u2605",
             "type": "Token"
           },
-          "text": "Amplifies all Attribute DMG by 25%. This Token can be used up to 2 times in Whimpering Wastes."
+          "text": "Amplifies all Attribute DMG by 25%.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500055",
@@ -18849,7 +18783,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Grants 30% Fusion DMG Bonus. When the active Resonator casts Echo Skill or deals Echo Skill DMG, they additionally recover Ember, triggered up to 1 time per sec"
+          "text": "Grants 30% Fusion DMG Bonus.\nWhen the active Resonator casts Echo Skill or deals Echo Skill DMG, they additionally recover Ember, triggered up to 1 time per second.\nWhen the active Resonator deals damage while in the Burning Waves state, they unleash an AoE attack, dealing Fusion DMG equal to 1600% of their ATK in total (considered Echo Skill DMG), triggered up to 1 time every 6s.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500056",
@@ -18860,7 +18794,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "The Burning Waves state becomes permanent. While in Burning Waves, Resonators deal 50% more DMG. This Token can be used up to 2 times in Whimpering Wastes."
+          "text": "The Burning Waves state becomes permanent. While in Burning Waves, Resonators deal 50% more DMG.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500057",
@@ -18871,7 +18805,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Ignore 20% of the target's DEF when dealing DMG to enemies inflicted with Negative Statuses. Resonators who inflict Negative Statuses on enemies recover additio"
+          "text": "Ignore 20% of the target's DEF when dealing DMG to enemies inflicted with Negative Statuses.\nResonators who inflict Negative Statuses on enemies recover additional Ember, triggered once every second.\nWhile in the Burning Waves state, Resonators deal 50% more DMG, and the Negative Status on the target is raised to max stacks upon hit.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500058",
@@ -18882,7 +18816,7 @@
             "rarity": "4 \u2605",
             "type": "Token"
           },
-          "text": "Amplifies all Attribute DMG by 25%. This Token can be used up to 2 times in Whimpering Wastes."
+          "text": "Amplifies all Attribute DMG by 25%.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500059",
@@ -18893,7 +18827,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "When Resonators are in mid-air, their DMG dealt is Amplified by 80%. This Token can be used up to 2 times in Whimpering Wastes."
+          "text": "When Resonators are in mid-air, their DMG dealt is Amplified by 80%.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500060",
@@ -18904,7 +18838,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "The Burning Waves state becomes permanent. While in Burning Waves, Resonators deal 50% more DMG. This Token can be used up to 2 times in Whimpering Wastes."
+          "text": "The Burning Waves state becomes permanent. While in Burning Waves, Resonators deal 50% more DMG.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500061",
@@ -18915,7 +18849,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Ignore 20% of the target's DEF when dealing DMG to enemies inflicted with Negative Statuses. Resonators who inflict Negative Statuses on enemies recover additio"
+          "text": "Ignore 20% of the target's DEF when dealing DMG to enemies inflicted with Negative Statuses.\nResonators who inflict Negative Statuses on enemies recover additional Ember, triggered once every second.\nWhile in the Burning Waves state, Resonators deal 50% more DMG, and the Negative Status on the target is raised to max stacks upon hit.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500062",
@@ -18926,7 +18860,7 @@
             "rarity": "4 \u2605",
             "type": "Token"
           },
-          "text": "Amplifies all Attribute DMG by 25%. This Token can be used up to 2 times in Whimpering Wastes."
+          "text": "Amplifies all Attribute DMG by 25%.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500063",
@@ -18937,7 +18871,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Grants 30% Fusion DMG Bonus. When the active Resonator casts Echo Skill or deals Echo Skill DMG, they additionally recover Ember, triggered up to 1 time per sec"
+          "text": "Grants 30% Fusion DMG Bonus.\nWhen the active Resonator casts Echo Skill or deals Echo Skill DMG, they additionally recover Ember, triggered up to 1 time per second.\nWhen the active Resonator deals damage while in the Burning Waves state, they unleash an AoE attack, dealing Fusion DMG equal to 1600% of their ATK in total (considered Echo Skill DMG), triggered up to 1 time every 6s.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500064",
@@ -18948,7 +18882,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Ignore 20% of the target's DEF when dealing DMG to enemies inflicted with Negative Statuses. Resonators who inflict Negative Statuses on enemies recover additio"
+          "text": "Ignore 20% of the target's DEF when dealing DMG to enemies inflicted with Negative Statuses.\nResonators who inflict Negative Statuses on enemies recover additional Ember, triggered once every second.\nWhile in the Burning Waves state, Resonators deal 50% more DMG, and the Negative Status on the target is raised to max stacks upon hit.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500065",
@@ -18959,7 +18893,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Grants 20% Electro DMG Bonus and 20% Aero DMG Bonus. When the active Resonator gains a Shield, they additionally recover Ember, triggered up to 1 time per secon"
+          "text": "Grants 20% Electro DMG Bonus and 20% Aero DMG Bonus.\nWhen the active Resonator gains a Shield, they additionally recover Ember, triggered up to 1 time per second.\nWhen the active Resonator deals damage while in the Burning Waves state, they unleash an AoE attack, dealing Electro DMG equal to 2400% of their ATK in total, triggered once every 6 seconds.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500066",
@@ -18970,7 +18904,7 @@
             "rarity": "4 \u2605",
             "type": "Token"
           },
-          "text": "Amplifies all Attribute DMG by 25%. This Token can be used up to 2 times in Whimpering Wastes."
+          "text": "Amplifies all Attribute DMG by 25%.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500067",
@@ -18981,7 +18915,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "The Burning Waves state becomes permanent. While in Burning Waves, Resonators deal 50% more DMG. This Token can be used up to 2 times in Whimpering Wastes."
+          "text": "The Burning Waves state becomes permanent. While in Burning Waves, Resonators deal 50% more DMG.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500068",
@@ -18992,7 +18926,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Dealing Tune Rupture DMG to the target increases the ATK and Crit. DMG of all Resonators in the team by 30% for 15s. All Resonators in the team have their Off-T"
+          "text": "Dealing Tune Rupture DMG to the target increases the ATK and Crit. DMG of all Resonators in the team by 30% for 15s.\nAll Resonators in the team have their Off-Tune Buildup Rate increased by 100%. Enemies are spawned with Tune Rupture - Shifting for 25s.\nDealing Tune Break DMG increases All-Attribute DMG of all Resonators in the team by 50% for 30s.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500069",
@@ -19003,7 +18937,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Grants 20% Electro DMG Bonus and 20% Aero DMG Bonus. When the active Resonator gains a Shield, they additionally recover Ember, triggered up to 1 time per secon"
+          "text": "Grants 20% Electro DMG Bonus and 20% Aero DMG Bonus.\nWhen the active Resonator gains a Shield, they additionally recover Ember, triggered up to 1 time per second.\nWhen the active Resonator deals damage while in the Burning Waves state, they unleash an AoE attack, dealing Electro DMG equal to 2400% of their ATK in total, triggered once every 6 seconds.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500070",
@@ -19014,7 +18948,7 @@
             "rarity": "4 \u2605",
             "type": "Token"
           },
-          "text": "Amplifies all Attribute DMG by 25%. This Token can be used up to 2 times in Whimpering Wastes."
+          "text": "Amplifies all Attribute DMG by 25%.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500071",
@@ -19025,7 +18959,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Grants 40% Fusion DMG Bonus. Enemies takes 100% more total DMG from Fusion Burst. Inflicting Fusion Burst on enemies triggers the following effects: - Additiona"
+          "text": "Grants 40% Fusion DMG Bonus. Enemies takes 100% more total DMG from Fusion Burst.\nInflicting Fusion Burst on enemies triggers the following effects:\n- Additionally restores Ember, triggered up to once per second.\n- Additionally inflicts two stacks of Fusion Burst on the target, triggered up to once per 0.5s on each target.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500072",
@@ -19036,7 +18970,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Resonators deal 30% more total DMG to enemies in Tunability - Shifting, Tune Rupture - Interfered, or Tune Strain - Interfered. Resonators have their Off-Tune B"
+          "text": "Resonators deal 30% more total DMG to enemies in Tunability - Shifting, Tune Rupture - Interfered, or Tune Strain - Interfered.\nResonators have their Off-Tune Buildup Rate increased by 100%, and Tune Break Boost increased by 50.\nDealing Tune Break DMG grants 30% All-Attribute DMG Bonus to all Resonators in the team, plus an additional 40% Spectro DMG Bonus and 40% Fusion DMG Bonus. This effect lasts for 30s.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500073",
@@ -19047,7 +18981,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "The Burning Waves state becomes permanent. While in Burning Waves, Resonators deal 50% more DMG. This Token can be used up to 2 times in Whimpering Wastes."
+          "text": "The Burning Waves state becomes permanent. While in Burning Waves, Resonators deal 50% more DMG.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500074",
@@ -19058,7 +18992,7 @@
             "rarity": "4 \u2605",
             "type": "Token"
           },
-          "text": "Amplifies all Attribute DMG by 25%. This Token can be used up to 2 times in Whimpering Wastes."
+          "text": "Amplifies all Attribute DMG by 25%.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500075",
@@ -19069,7 +19003,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Total Aero DMG is increased by 35%. Enemies take 30% more total Echo Skill DMG. This Token can be used up to 2 times in Whimpering Wastes."
+          "text": "Total Aero DMG is increased by 35%. Enemies take 30% more total Echo Skill DMG.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500076",
@@ -19080,7 +19014,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Resonators deal 30% more total DMG to enemies in Tunability - Shifting, Tune Rupture - Interfered, or Tune Strain - Interfered. Resonators have their Off-Tune B"
+          "text": "Resonators deal 30% more total DMG to enemies in Tunability - Shifting, Tune Rupture - Interfered, or Tune Strain - Interfered.\nResonators have their Off-Tune Buildup Rate increased by 100%, and Tune Break Boost increased by 50.\nDealing Tune Break DMG grants 30% All-Attribute DMG Bonus to all Resonators in the team, plus an additional 40% Spectro DMG Bonus and 40% Fusion DMG Bonus. This effect lasts for 30s.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500077",
@@ -19091,7 +19025,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Grants 40% Fusion DMG Bonus. Enemies takes 100% more total DMG from Fusion Burst. Inflicting Fusion Burst on enemies triggers the following effects: - Additiona"
+          "text": "Grants 40% Fusion DMG Bonus. Enemies takes 100% more total DMG from Fusion Burst.\nInflicting Fusion Burst on enemies triggers the following effects:\n- Additionally restores Ember, triggered up to once per second.\n- Additionally inflicts two stacks of Fusion Burst on the target, triggered up to once per 0.5s on each target.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500078",
@@ -19102,7 +19036,7 @@
             "rarity": "4 \u2605",
             "type": "Token"
           },
-          "text": "Amplifies all Attribute DMG by 25%. This Token can be used up to 2 times in Whimpering Wastes."
+          "text": "Amplifies all Attribute DMG by 25%.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500079",
@@ -19113,7 +19047,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Total Aero DMG is increased by 35%. Enemies take 30% more total Echo Skill DMG. This Token can be used up to 2 times in Whimpering Wastes."
+          "text": "Total Aero DMG is increased by 35%. Enemies take 30% more total Echo Skill DMG.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500080",
@@ -19124,7 +19058,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Resonators deal 30% more total DMG to enemies in Tunability - Shifting, Tune Rupture - Interfered, or Tune Strain - Interfered. Resonators have their Off-Tune B"
+          "text": "Resonators deal 30% more total DMG to enemies in Tunability - Shifting, Tune Rupture - Interfered, or Tune Strain - Interfered.\nResonators have their Off-Tune Buildup Rate increased by 100%, and Tune Break Boost increased by 50.\nDealing Tune Break DMG grants 30% All-Attribute DMG Bonus to all Resonators in the team, plus an additional 40% Spectro DMG Bonus and 40% Fusion DMG Bonus. This effect lasts for 30s.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500081",
@@ -19135,7 +19069,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Resonators recover additional Ember when they inflict Negative Statuses on enemies, triggered up to once per second. Resonators in the team gain 50% Glacio DMG "
+          "text": "Resonators recover additional Ember when they inflict Negative Statuses on enemies, triggered up to once per second.\nResonators in the team gain 50% Glacio DMG Bonus and Spectro DMG Bonus. Enemies take 200% more total Glacio Chafe DMG.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500082",
@@ -19146,7 +19080,7 @@
             "rarity": "4 \u2605",
             "type": "Token"
           },
-          "text": "Amplifies all Attribute DMG by 25%. This Token can be used up to 2 times in Whimpering Wastes."
+          "text": "Amplifies all Attribute DMG by 25%.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500083",
@@ -19157,7 +19091,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Enemies take 30% more total Fusion DMG and 100% more total Fusion Burst DMG. Inflicting Negative Status on the enemies increases ATK by 20% for 5s. This Token c"
+          "text": "Enemies take 30% more total Fusion DMG and 100% more total Fusion Burst DMG.\nInflicting Negative Status on the enemies increases ATK by 20% for 5s.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500084",
@@ -19168,7 +19102,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Resonators deal 30% more total DMG to enemies in Tunability - Shifting, Tune Rupture - Interfered, or Tune Strain - Interfered. Resonators have their Off-Tune B"
+          "text": "Resonators deal 30% more total DMG to enemies in Tunability - Shifting, Tune Rupture - Interfered, or Tune Strain - Interfered.\nResonators have their Off-Tune Buildup Rate increased by 100%, and Tune Break Boost increased by 50.\nDealing Tune Break DMG grants 30% All-Attribute DMG Bonus to all Resonators in the team, plus an additional 40% Spectro DMG Bonus and 40% Fusion DMG Bonus. This effect lasts for 30s.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500085",
@@ -19179,7 +19113,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Enemies take 50% more total Glacio Chafe DMG. Inflicting Glacio Chafe on the enemies increases total Glacio DMG by 50% for 5s. This Token can be used up to 2 ti"
+          "text": "Enemies take 50% more total Glacio Chafe DMG.\nInflicting Glacio Chafe on the enemies increases total Glacio DMG by 50% for 5s.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500086",
@@ -19190,7 +19124,7 @@
             "rarity": "4 \u2605",
             "type": "Token"
           },
-          "text": "Amplifies all Attribute DMG by 25%. This Token can be used up to 2 times in Whimpering Wastes."
+          "text": "Amplifies all Attribute DMG by 25%.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500087",
@@ -19201,7 +19135,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Enemies take 30% more total Fusion DMG and 100% more total Fusion Burst DMG. Inflicting Negative Status on the enemies increases ATK by 20% for 5s. This Token c"
+          "text": "Enemies take 30% more total Fusion DMG and 100% more total Fusion Burst DMG.\nInflicting Negative Status on the enemies increases ATK by 20% for 5s.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500088",
@@ -19212,7 +19146,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Enemies take 50% more total Glacio Chafe DMG. Inflicting Glacio Chafe on the enemies increases total Glacio DMG by 50% for 5s. This Token can be used up to 2 ti"
+          "text": "Enemies take 50% more total Glacio Chafe DMG.\nInflicting Glacio Chafe on the enemies increases total Glacio DMG by 50% for 5s.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500089",
@@ -19223,7 +19157,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Total Spectro DMG is increased by 20%. Total Heavy Attack DMG is increased by 40%. Total Basic Attack DMG is increased by 40%. This Token can be used up to 2 ti"
+          "text": "Total Spectro DMG is increased by 20%. Total Heavy Attack DMG is increased by 40%. Total Basic Attack DMG is increased by 40%.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500090",
@@ -19234,7 +19168,7 @@
             "rarity": "4 \u2605",
             "type": "Token"
           },
-          "text": "Amplifies all Attribute DMG by 25%. This Token can be used up to 2 times in Whimpering Wastes."
+          "text": "Amplifies all Attribute DMG by 25%.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500091",
@@ -19245,7 +19179,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Resonators deal 60% more total DMG for 15s after they inflict Havoc Bane. This Token can be used up to 2 times in Whimpering Wastes."
+          "text": "Resonators deal 60% more total DMG for 15s after they inflict Havoc Bane.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500092",
@@ -19256,7 +19190,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Enemies take 50% more total Glacio Chafe DMG. Inflicting Glacio Chafe on the enemies increases total Glacio DMG by 50% for 5s. This Token can be used up to 2 ti"
+          "text": "Enemies take 50% more total Glacio Chafe DMG.\nInflicting Glacio Chafe on the enemies increases total Glacio DMG by 50% for 5s.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500093",
@@ -19267,7 +19201,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Total Spectro DMG is increased by 20%. Total Heavy Attack DMG is increased by 40%. Total Basic Attack DMG is increased by 40%. This Token can be used up to 2 ti"
+          "text": "Total Spectro DMG is increased by 20%. Total Heavy Attack DMG is increased by 40%. Total Basic Attack DMG is increased by 40%.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500094",
@@ -19278,7 +19212,7 @@
             "rarity": "4 \u2605",
             "type": "Token"
           },
-          "text": "Amplifies all Attribute DMG by 25%. This Token can be used up to 2 times in Whimpering Wastes."
+          "text": "Amplifies all Attribute DMG by 25%.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500095",
@@ -19289,7 +19223,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Resonators deal 60% more total DMG for 15s after they inflict Havoc Bane. This Token can be used up to 2 times in Whimpering Wastes."
+          "text": "Resonators deal 60% more total DMG for 15s after they inflict Havoc Bane.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500096",
@@ -19300,7 +19234,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Enemies take 30% more total Fusion DMG and 100% more total Fusion Burst DMG. Inflicting Negative Status on the enemies increases ATK by 20% for 5s. This Token c"
+          "text": "Enemies take 30% more total Fusion DMG and 100% more total Fusion Burst DMG.\nInflicting Negative Status on the enemies increases ATK by 20% for 5s.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71500097",
@@ -19311,7 +19245,7 @@
             "rarity": "5 \u2605",
             "type": "Token"
           },
-          "text": "Inflicting Tune Strain - Shifting increases the Resonator's total DMG dealt by 40% for 30s. Dealing Tune Break DMG grants 30% All-Attribute DMG Bonus plus an ad"
+          "text": "Inflicting Tune Strain - Shifting increases the Resonator's total DMG dealt by 40% for 30s.\nDealing Tune Break DMG grants 30% All-Attribute DMG Bonus plus an additional 30% Aero DMG Bonus to all Resonators in the team for 30s.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71501001",
@@ -19322,7 +19256,7 @@
             "rarity": "4 \u2605",
             "type": "Token"
           },
-          "text": "Enemies take 15% more total DMG and 50% more Tune Rupture DMG. This Token can be used up to 2 times in Whimpering Wastes."
+          "text": "Enemies take 15% more total DMG and 50% more Tune Rupture DMG.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71501002",
@@ -19333,7 +19267,7 @@
             "rarity": "4 \u2605",
             "type": "Token"
           },
-          "text": "Enemies take 15% more total DMG. Resonators deal 15% more total DMG to enemies in Tune Strain - Interfered or Tune Strain - Shifting. This Token can be used up "
+          "text": "Enemies take 15% more total DMG. Resonators deal 15% more total DMG to enemies in Tune Strain - Interfered or Tune Strain - Shifting.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71501003",
@@ -19344,7 +19278,7 @@
             "rarity": "4 \u2605",
             "type": "Token"
           },
-          "text": "Enemies take 15% more total DMG. Echo Skill deals 25% more total DMG. This Token can be used up to 2 times in Whimpering Wastes."
+          "text": "Enemies take 15% more total DMG. Echo Skill deals 25% more total DMG.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71501004",
@@ -19355,7 +19289,7 @@
             "rarity": "4 \u2605",
             "type": "Token"
           },
-          "text": "Enemies take 15% more total DMG. Inflicting Negative Status on the enemies increases total DMG by 15% for 30s. This Token can be used up to 2 times in Whimperin"
+          "text": "Enemies take 15% more total DMG. Inflicting Negative Status on the enemies increases total DMG by 15% for 30s.\n\nThis Token can be used up to 2 times in Whimpering Wastes."
         },
         {
           "id": "ww-item-71510101",
@@ -19498,7 +19432,7 @@
             "rarity": "5 \u2605",
             "type": "Quest Item"
           },
-          "text": "A potion vial that Cantarella carries with her all the time. Its body is adorned with a sapphire that represents the family head's authority. To a Fisalia like "
+          "text": "A potion vial that Cantarella carries with her all the time. Its body is adorned with a sapphire that represents the family head's authority.\n\nTo a Fisalia like her, what's stored inside is more than just potion but her very essence: her trust, her emotions, and her soul..."
         },
         {
           "id": "ww-item-71550010",
@@ -19542,7 +19476,7 @@
             "rarity": "3 \u2605",
             "type": "Quest Item"
           },
-          "text": "A pendant once worn close to Cartethyia's heart. It seems she left a message within. Since her frequency still lingers within you, resonating with the pendant m"
+          "text": "A pendant once worn close to Cartethyia's heart. It seems she left a message within. Since her frequency still lingers within you, resonating with the pendant may reveal her message."
         },
         {
           "id": "ww-item-71600001",
@@ -21918,7 +21852,7 @@
             "rarity": "5 \u2605",
             "type": "Quest Item"
           },
-          "text": "A customized 2026 birthday accessory for Rover. This circlet braided from starlight and Resonance Cord now rests in your Backpack, as if it had always been ther"
+          "text": "A customized 2026 birthday accessory for Rover. This circlet braided from starlight and Resonance Cord now rests in your Backpack, as if it had always been there."
         },
         {
           "id": "ww-item-80004006",
@@ -25592,7 +25526,7 @@
             "rarity": "5 \u2605",
             "type": "Title"
           },
-          "text": "As the sounds in your memory fall into place, their magnificent echo crosses eons to reach your ears. Throughout your journey, your identity and purposes slowly"
+          "text": "As the sounds in your memory fall into place, their magnificent echo crosses eons to reach your ears. Throughout your journey, your identity and purposes slowly piece themselves back together, and once again, you, the Astral Modulator, return to the center stage."
         },
         {
           "id": "ww-item-80130008",
@@ -25603,7 +25537,7 @@
             "rarity": "5 \u2605",
             "type": "Title"
           },
-          "text": "Wind, though invisible in form, can be seen through the flowers it blows, the flames it caresses, and the larks it makes soar. Wind carries the birdsong high, e"
+          "text": "Wind, though invisible in form, can be seen through the flowers it blows, the flames it caresses, and the larks it makes soar. Wind carries the birdsong high, echoing, echoing... until it is heard once more."
         },
         {
           "id": "ww-item-80130009",
@@ -25614,7 +25548,7 @@
             "rarity": "5 \u2605",
             "type": "Title"
           },
-          "text": "\"The Flame Ranger still chooses to challenge an opponent who is simply unbeatable...\" The girl behind the curtain waves a hero figurine in her hand. Whether it "
+          "text": "\"The Flame Ranger still chooses to challenge an opponent who is simply unbeatable...\"\nThe girl behind the curtain waves a hero figurine in her hand. Whether it was the light or something else, the figurine shone brightly in her grasp."
         },
         {
           "id": "ww-item-80130010",
@@ -25636,7 +25570,7 @@
             "rarity": "5 \u2605",
             "type": "Title"
           },
-          "text": "A girl who walks among the righteous and the wicked must constantly refine her sense of justice and morality. It is precisely because of this, that the jade pen"
+          "text": "A girl who walks among the righteous and the wicked must constantly refine her sense of justice and morality. It is precisely because of this, that the jade pendant hanging from her chest remains so clear and pure."
         },
         {
           "id": "ww-item-80130012",
@@ -25647,7 +25581,7 @@
             "rarity": "5 \u2605",
             "type": "Title"
           },
-          "text": "\"Sit, breathe, and find inner peace.\" She opens her eyes to perceive the gradual stabilization of frequencies, using pupils corroded by Tacet Discords. She had "
+          "text": "\"Sit, breathe, and find inner peace.\" She opens her eyes to perceive the gradual stabilization of frequencies, using pupils corroded by Tacet Discords. She had walked away, free from the blizzard."
         },
         {
           "id": "ww-item-80130013",
@@ -25658,7 +25592,7 @@
             "rarity": "5 \u2605",
             "type": "Title"
           },
-          "text": "Being half a step slower also meant that Taoqi had more time to observe the world. She gradually began to notice subtle changes in the marketplace. A brick was "
+          "text": "Being half a step slower also meant that Taoqi had more time to observe the world. She gradually began to notice subtle changes in the marketplace. A brick was missing here. A flower had wilted there. The next season would arrive when she was aware."
         },
         {
           "id": "ww-item-80130014",
@@ -25669,7 +25603,7 @@
             "rarity": "5 \u2605",
             "type": "Title"
           },
-          "text": "Many people light fires they cannot hope to contain. But he is the creator of fire, the master of fire, and the smotherer of fire."
+          "text": "Many people light fires they cannot hope to contain.\nBut he is the creator of fire, the master of fire, and the smotherer of fire."
         },
         {
           "id": "ww-item-80130015",
@@ -25680,7 +25614,7 @@
             "rarity": "5 \u2605",
             "type": "Title"
           },
-          "text": "They say Yuanwu can best any challenger in three minutes. It takes him one minute to step into the ring, then another minute to perform a ceremonial bow, and on"
+          "text": "They say Yuanwu can best any challenger in three minutes. It takes him one minute to step into the ring, then another minute to perform a ceremonial bow, and one final minute before the kettle comes to a boil.\n\"Come now, all martial artists are friends. Do stay for a cup of tea.\""
         },
         {
           "id": "ww-item-80130016",
@@ -25691,7 +25625,7 @@
             "rarity": "5 \u2605",
             "type": "Title"
           },
-          "text": "In the market, Aalto floats on the boundary between buying and selling, playing different roles: investor, opportunist, and market mover. He lays chips in every"
+          "text": "In the market, Aalto floats on the boundary between buying and selling, playing different roles: investor, opportunist, and market mover. He lays chips in every corner.\nEvery investment made is an avenue of future wealth."
         },
         {
           "id": "ww-item-80130017",
@@ -25724,7 +25658,7 @@
             "rarity": "5 \u2605",
             "type": "Title"
           },
-          "text": "The \"hound\" in the shadow stalks his prey. First, he is calm, waiting for his target to move through the crowd. Then, unease sets in as the surroundings grow ee"
+          "text": "The \"hound\" in the shadow stalks his prey. First, he is calm, waiting for his target to move through the crowd. Then, unease sets in as the surroundings grow eerily quiet. Finally, the fangs are bared, and the target can no longer see its own shadow."
         },
         {
           "id": "ww-item-80130020",
@@ -25746,7 +25680,7 @@
             "rarity": "5 \u2605",
             "type": "Title"
           },
-          "text": "With a limpid mind and sustained inner peace, she, who has undergone the trials of the world, completes the final piece of the mirror. The heart is a mirror. Th"
+          "text": "With a limpid mind and sustained inner peace, she, who has undergone the trials of the world, completes the final piece of the mirror. The heart is a mirror. The mirror reflects her heart."
         },
         {
           "id": "ww-item-80130022",
@@ -25757,7 +25691,7 @@
             "rarity": "5 \u2605",
             "type": "Title"
           },
-          "text": "\"The enemies surging in were suddenly met by a streak of blue light. Qingloong swept in with the wind, and after the storm subsided, the Midnight Rangers' flag "
+          "text": "\"The enemies surging in were suddenly met by a streak of blue light. Qingloong swept in with the wind, and after the storm subsided, the Midnight Rangers' flag stood tall on the high ground\u2026\""
         },
         {
           "id": "ww-item-80130023",
@@ -25779,7 +25713,7 @@
             "rarity": "5 \u2605",
             "type": "Title"
           },
-          "text": "It was an age when the flow of time was chaotic, with dawn blurring into dusk and the cold proving relentless. Doubt, weariness, and the weight of duty... such "
+          "text": "It was an age when the flow of time was chaotic, with dawn blurring into dusk and the cold proving relentless.\nDoubt, weariness, and the weight of duty... such was the life of a Magistrate. Though quite young, she shouldered it all as she ascended the mountain, striving to illuminate the sky with a sliver of candlelight. It was the moment when winter relented. The thaw came, and the slopes awoke, bathed in the first tender hues of spring..."
         },
         {
           "id": "ww-item-80130025",
@@ -25790,7 +25724,7 @@
             "rarity": "5 \u2605",
             "type": "Title"
           },
-          "text": "Changli wishes for an era of peace and prosperity. This is the longest game of Weiqi she's ever played, and with each move, she becomes a part of the game, an e"
+          "text": "Changli wishes for an era of peace and prosperity.\nThis is the longest game of Weiqi she's ever played, and with each move, she becomes a part of the game, an eternal fire that lights the way."
         },
         {
           "id": "ww-item-80130026",
@@ -25801,7 +25735,7 @@
             "rarity": "5 \u2605",
             "type": "Title"
           },
-          "text": "Xiangli Yao often describes himself as a greedy person, who is hungry for truth, yet equally starves for the warmth of human bonds. Though he often gazes at the"
+          "text": "Xiangli Yao often describes himself as a greedy person, who is hungry for truth, yet equally starves for the warmth of human bonds.\nThough he often gazes at the stars, he occasionally casts glances at the distant mountains and the vast land they anchor. And with each step forward, he measures the distance he has traveled, the life he has lived."
         },
         {
           "id": "ww-item-80130027",
@@ -25812,7 +25746,7 @@
             "rarity": "5 \u2605",
             "type": "Title"
           },
-          "text": "She prefers colors on ink and wash, which, while not the most dazzling, still depict a stunning array of hues. This is Zhezhi's true colors, that which she hope"
+          "text": "She prefers colors on ink and wash, which, while not the most dazzling, still depict a stunning array of hues.\nThis is Zhezhi's true colors, that which she hopes will one day burst forth with the power to leave others in awe.\nOr at least, during self-introductions..."
         },
         {
           "id": "ww-item-80130028",
@@ -25823,7 +25757,7 @@
             "rarity": "5 \u2605",
             "type": "Title"
           },
-          "text": "Starlight falls into the deep sea, filling all of her longing and emptiness. In vastness and loneliness, she stood watch over the shores that exist only because"
+          "text": "Starlight falls into the deep sea, filling all of her longing and emptiness. In vastness and loneliness, she stood watch over the shores that exist only because of {Male=him;Female=her}... This is her innate duty, both past and future."
         },
         {
           "id": "ww-item-80130029",
@@ -25834,7 +25768,7 @@
             "rarity": "5 \u2605",
             "type": "Title"
           },
-          "text": "Though young, Youhu can already distinguish real antiques from fakes. Valuables weighed down by time can only be cherished and cared for when entrusted to those"
+          "text": "Though young, Youhu can already distinguish real antiques from fakes. Valuables weighed down by time can only be cherished and cared for when entrusted to those who understand their value."
         },
         {
           "id": "ww-item-80130030",
@@ -25856,7 +25790,7 @@
             "rarity": "5 \u2605",
             "type": "Title"
           },
-          "text": "We Promise, We Deliver! Bright and cheerful Lumi travels across the vast land of Solaris, delivering messages from distant places to those on her route."
+          "text": "We Promise, We Deliver!\nBright and cheerful Lumi travels across the vast land of Solaris, delivering messages from distant places to those on her route."
         },
         {
           "id": "ww-item-80130032",
@@ -25867,7 +25801,7 @@
             "rarity": "5 \u2605",
             "type": "Title"
           },
-          "text": "Before this radiant moment arrived, the \"gem\" had endured endless nights of rain. Once, she loathed the downpower, but now she embraces the rhythm... With patie"
+          "text": "Before this radiant moment arrived, the \"gem\" had endured endless nights of rain.\nOnce, she loathed the downpower, but now she embraces the rhythm... With patient hands, she polished the rough stone that was \"herself\" until it shimmered with a thousand captured hues, in the name of Montelli, and more so in the name of Carlotta."
         },
         {
           "id": "ww-item-80130033",
@@ -25878,7 +25812,7 @@
             "rarity": "5 \u2605",
             "type": "Title"
           },
-          "text": "How should the stage be set for a drama? Spotlights check, curtains check, magnificent costumes? Check. \"Pero Pero!\" A strange box jumps up and hands her a conf"
+          "text": "How should the stage be set for a drama? Spotlights check, curtains check, magnificent costumes? Check. \"Pero Pero!\" A strange box jumps up and hands her a confetti gun. \"Ta-da!\" \u2014It's showtime!"
         },
         {
           "id": "ww-item-80130034",
@@ -25889,7 +25823,7 @@
             "rarity": "5 \u2605",
             "type": "Title"
           },
-          "text": "Set sail! The curtain rises! This maritime stage belongs to Brant. From the bow comes the scent of \"Troupe Strength\" and wild laughter mocking the outdated doct"
+          "text": "Set sail! The curtain rises! This maritime stage belongs to Brant. From the bow comes the scent of \"Troupe Strength\" and wild laughter mocking the outdated doctrines of The Order. On deck, they're rehearsing plays banned by The Order. From the stern, the sea chases after them in pursuit."
         },
         {
           "id": "ww-item-80130035",
@@ -25900,7 +25834,7 @@
             "rarity": "5 \u2605",
             "type": "Title"
           },
-          "text": "\"As the sand of time flickers through your finger, please remember: in the gentle starlight, among beautiful waves, beneath the lantern... and where the kindnes"
+          "text": "\"As the sand of time flickers through your finger, please remember: in the gentle starlight, among beautiful waves, beneath the lantern... and where the kindness of your heart shines, my unspoken words are waiting for you... Listen! The door is open. It's time to move on.\""
         },
         {
           "id": "ww-item-80130036",
@@ -25911,7 +25845,7 @@
             "rarity": "5 \u2605",
             "type": "Title"
           },
-          "text": "Where does the dream end and reality begin? The moment your fingers meet the jellyfish, you're falling into a deep sea, descending ever deeper... Only to surfac"
+          "text": "Where does the dream end and reality begin? The moment your fingers meet the jellyfish, you're falling into a deep sea, descending ever deeper... Only to surface at last into the calm harbor of her gaze."
         },
         {
           "id": "ww-item-80130037",
@@ -25922,7 +25856,7 @@
             "rarity": "5 \u2605",
             "type": "Title"
           },
-          "text": "Listen! The chimes of a starry, starry night, a prelude to the young maid's song. Bright as midsummer sun even in the depth of the night, yet gentle as the bree"
+          "text": "Listen! The chimes of a starry, starry night, a prelude to the young maid's song. Bright as midsummer sun even in the depth of the night, yet gentle as the breeze on a summer's day. The wind carries her music across the dark, a melodic story that greets the dawn."
         },
         {
           "id": "ww-item-80130038",
@@ -25933,7 +25867,7 @@
             "rarity": "5 \u2605",
             "type": "Title"
           },
-          "text": "A fixed routine isn't that bad. Stability has got to count for something. These are words Zani lives by. Her routine consists of work, meals, sleep, and the occ"
+          "text": "A fixed routine isn't that bad. Stability has got to count for something. These are words Zani lives by.\nHer routine consists of work, meals, sleep, and the occasional bouts of saving the world. Life, after all, is simply a matter of style."
         },
         {
           "id": "ww-item-80130039",
@@ -25955,7 +25889,7 @@
             "rarity": "5 \u2605",
             "type": "Title"
           },
-          "text": "The wind that sweeps across mountains and seas knows no hesitation, no retreat. As steadfast as an ancient oath and as faithful as a time-forged pact, I am the "
+          "text": "The wind that sweeps across mountains and seas knows no hesitation, no retreat. As steadfast as an ancient oath and as faithful as a time-forged pact, I am the blade of justice. I am the vanguard that never falters."
         },
         {
           "id": "ww-item-80130041",
@@ -25966,7 +25900,7 @@
             "rarity": "5 \u2605",
             "type": "Title"
           },
-          "text": "The Divinity spoke whispers in her ears, she swung her sword in reply. Fate has written her a script, she tore the pages to shreds. She has chosen her own path "
+          "text": "The Divinity spoke whispers in her ears, she swung her sword in reply. Fate has written her a script, she tore the pages to shreds.\nShe has chosen her own path through gale and tide."
         },
         {
           "id": "ww-item-80130042",
@@ -26010,7 +25944,7 @@
             "rarity": "5 \u2605",
             "type": "Title"
           },
-          "text": "What is the Sun? She is the one who offers warmth and radiance without end. To this ancient land, she devotes her blood, her glory, and her life. And thus, she "
+          "text": "What is the Sun? She is the one who offers warmth and radiance without end. To this ancient land, she devotes her blood, her glory, and her life. And thus, she becomes the Sun, the eternal blaze for all to look upon."
         },
         {
           "id": "ww-item-80130048",
@@ -26021,7 +25955,7 @@
             "rarity": "5 \u2605",
             "type": "Title"
           },
-          "text": "The Moon has always been herself, long before she knew she was the Moon. She no longer peers into the future through the scattered light of fate, for she unders"
+          "text": "The Moon has always been herself, long before she knew she was the Moon.\nShe no longer peers into the future through the scattered light of fate, for she understands that wherever she sets her gaze, the future she seeks awaits. Amid the countless paths of destiny, she chooses to become the one true Anchor for herself."
         },
         {
           "id": "ww-item-80130049",
@@ -26032,7 +25966,7 @@
             "rarity": "5 \u2605",
             "type": "Title"
           },
-          "text": "I am ash, I am flame; I am darkness, yet I am salvation. Though light falters and torments sear my flesh, still I remain true to my oath. My undying flame shall"
+          "text": "I am ash, I am flame; I am darkness, yet I am salvation.\nThough light falters and torments sear my flesh, still I remain true to my oath. My undying flame shall scour all evil."
         },
         {
           "id": "ww-item-80130050",
@@ -26054,7 +25988,7 @@
             "rarity": "5 \u2605",
             "type": "Title"
           },
-          "text": "Through rain and night, tracing the threads that run through all things, she severs the endless loop, spreads her arms wide, and embraces a summer no longer tra"
+          "text": "Through rain and night, tracing the threads that run through all things, she severs the endless loop, spreads her arms wide, and embraces a summer no longer trapped in stillness."
         },
         {
           "id": "ww-item-80130052",
@@ -26098,7 +26032,7 @@
             "rarity": "5 \u2605",
             "type": "Title"
           },
-          "text": "It began as a dream that took root in a child's heart, then was folded into paper wings and cast upon the spring breeze, flying to the end of the stars. Now, I "
+          "text": "It began as a dream that took root in a child's heart, then was folded into paper wings and cast upon the spring breeze, flying to the end of the stars.\nNow, I can finally walk beside you."
         },
         {
           "id": "ww-item-80130056",
@@ -26120,7 +26054,7 @@
             "rarity": "5 \u2605",
             "type": "Title"
           },
-          "text": "Pour some yogurt into the answer, draw some oranges in the runes, spread some frosting over the future. There is no right or wrong\u2014a perfect balance of sweet an"
+          "text": "Pour some yogurt into the answer, draw some oranges in the runes, spread some frosting over the future.\nThere is no right or wrong\u2014a perfect balance of sweet and sour."
         },
         {
           "id": "ww-item-80130058",
@@ -26131,7 +26065,7 @@
             "rarity": "5 \u2605",
             "type": "Title"
           },
-          "text": "All desires are bound by one blade. Every road leads to the same end. The future that belongs to her alone shall answer her wish."
+          "text": "All desires are bound by one blade. Every road leads to the same end.\nThe future that belongs to her alone shall answer her wish."
         },
         {
           "id": "ww-item-80130059",
@@ -26142,7 +26076,7 @@
             "rarity": "5 \u2605",
             "type": "Title"
           },
-          "text": "At the edge of night, someone once lit a firework. Since then, all that is bright has soared to the heavens, while all that is dim has sunk forever into the dep"
+          "text": "At the edge of night, someone once lit a firework. Since then, all that is bright has soared to the heavens, while all that is dim has sunk forever into the depths of dreams."
         },
         {
           "id": "ww-item-80130060",
@@ -26186,7 +26120,7 @@
             "rarity": "5 \u2605",
             "type": "Title"
           },
-          "text": "Each time calamity falls like a pebble into the sea, the girl races to where the ripples spread. The wind's voice tethers her journey but keeps its ending secre"
+          "text": "Each time calamity falls like a pebble into the sea, the girl races to where the ripples spread. The wind's voice tethers her journey but keeps its ending secret. Born to listen, born to protect\u2014is this the path that will, at last, carry her toward her own ruin?"
         },
         {
           "id": "ww-item-80130064",
@@ -26197,7 +26131,7 @@
             "rarity": "5 \u2605",
             "type": "Title"
           },
-          "text": "Ten thousand miles she has traveled, and she saw, wherever cooking smoke curls, there is the mortal world; wherever lanternlight glows, there is a flourishing a"
+          "text": "Ten thousand miles she has traveled, and she saw, wherever cooking smoke curls, there is the mortal world; wherever lanternlight glows, there is a flourishing age. Splendid rivers and mountains before her eyes, warm spring breeze within her heart, such is the scene she would give a lifetime to paint and to protect."
         },
         {
           "id": "ww-item-80130065",
@@ -26208,7 +26142,7 @@
             "rarity": "5 \u2605",
             "type": "Title"
           },
-          "text": "This is the shape held in the prism, the heart sunk to the abyss, and now, along with hope and tomorrow, it is entrusted to you. The riddle that was never yours"
+          "text": "This is the shape held in the prism, the heart sunk to the abyss, and now, along with hope and tomorrow, it is entrusted to you. The riddle that was never yours to solve now awaits an answer none could have foretold."
         },
         {
           "id": "ww-item-80131001",
@@ -27121,7 +27055,7 @@
             "rarity": "4 \u2605",
             "type": "Special Token"
           },
-          "text": "This collection contains Ragunna Screen, Paradox Orrery, Tentacle Floor Lamp, Tales of the Isles: Latest Collection, Table & Chairs Set - Blazing Sun, and Mixed"
+          "text": "This collection contains Ragunna Screen, Paradox Orrery, Tentacle Floor Lamp, Tales of the Isles: Latest Collection, Table & Chairs Set - Blazing Sun, and Mixed Fruit Platter."
         },
         {
           "id": "ww-item-80900005",

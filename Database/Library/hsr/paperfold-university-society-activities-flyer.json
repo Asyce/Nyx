@@ -4,10 +4,11 @@
   "id": "paperfold-university-society-activities-flyer",
   "name": "Paperfold University Society Activities Flyer",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Paperfold_University_Society_Activities_Flyer",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -649,7 +650,8 @@
                 "type": "text",
                 "text": "Ticket: 15 Alfalfa credits (10% off with a student ID card)"
               }
-            ]
+            ],
+            "id": "p-3627c22b64c419cd"
           },
           {
             "type": "paragraph",
@@ -658,7 +660,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -684,7 +687,8 @@
                 "type": "text",
                 "text": "Last week, the Comedy Club reopened the Joy Theater and hosted a special improvised comedy show. This marked their first public performance following a series of changes. Unlike their previous shows filled with numerous advertisements, they opted for a more genuine and direct approach this time and won the audience's applause. As one audience member said, \"The charm of comedy isn't about all that fancy wrapping. It's about reaching out and touching the audience's soul.\""
               }
-            ]
+            ],
+            "id": "p-bac75908d7a7a2d2"
           },
           {
             "type": "paragraph",
@@ -700,7 +704,8 @@
                 "type": "text",
                 "text": "The recent simulated trading competition organized by the Investment Club attracted a large number of student participants. All participants formed teams and traded on the simulated trading platform established by the Fortune Academy. The team that achieved the highest profit/loss ratio garnered significant recognition from both the academy and external judges, securing the championship with a substantial rate of return. Sources indicate that all five team members are from the Fortune Academy and will evenly split the cash prize of 300,000 Alfalfa credits."
               }
-            ]
+            ],
+            "id": "p-75478058bfb9b58b"
           },
           {
             "type": "paragraph",
@@ -709,7 +714,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -718,7 +724,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

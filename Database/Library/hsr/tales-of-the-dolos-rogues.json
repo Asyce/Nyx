@@ -4,10 +4,11 @@
   "id": "tales-of-the-dolos-rogues",
   "name": "Tales of the Dolos Rogues",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Tales_of_the_Dolos_Rogues",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "part-i",
       "label": "Part I",
       "document": {
         "version": 1,
@@ -32,7 +33,8 @@
                 "type": "text",
                 "text": "''"
               }
-            ]
+            ],
+            "id": "p-fce4f0e64a23da82"
           },
           {
             "type": "paragraph",
@@ -41,7 +43,8 @@
                 "type": "text",
                 "text": "Since historians began their chronicles, apart from the Chrysos Heirs, from city lords and kingdom rulers down to famous warriors and scholarly academics, their achievements have been documented for future generations. Even among common trades, remarkable individuals have had their deeds recorded by historians. Priests named by , blacksmiths blessed by , and even ascetics permitted by have all had their lives chronicled. Only those who serve , who corrupt law with lies and violate rules through deception, yet still dare to boast of their abilities and virtues, are universally condemned. For all their deviations from the path of honor, they are particularly despised by the people of Kremnos."
               }
-            ]
+            ],
+            "id": "p-3911784003bb5473"
           },
           {
             "type": "paragraph",
@@ -50,7 +53,8 @@
                 "type": "text",
                 "text": "I, Ptolemy, having consumed every word and symbol in the archives of Castrum Kremnos, have never encountered any written chronicle of the kin of the god of thieves. Yet while traveling through various states with the king of the Kremnoan detachment, I kept hearing tales of the three hundred rogues of Dolos."
               }
-            ]
+            ],
+            "id": "p-158fe379b32b84b2"
           },
           {
             "type": "paragraph",
@@ -59,7 +63,8 @@
                 "type": "text",
                 "text": "Dolos, the city of thieves, situated south of Janusopolis and north of the Grove of Epiphany, operates under different laws than elsewhere, making it fertile ground for trickery and deception. Legend says that a thousand years ago, the first Chrysos War concluded with the total defeat of the Chrysos Heir forces. Later, when the Chrysos War reignited, various states again plunged into desperate poverty. The Dolos nobility seized this opportunity to accumulate wealth, then issued anti-fraud decrees to monopolize the city's financial channels, creating dire circumstances for ordinary citizens. To survive, many common thieves departed for other lands, using their talents to deceive people and steal goods. In total, men and women, young and old, approximately three hundred gained renown, becoming known as the \"Three Hundred Rogues of Dolos.\""
               }
-            ]
+            ],
+            "id": "p-7140ba3ac16f088b"
           },
           {
             "type": "paragraph",
@@ -68,7 +73,8 @@
                 "type": "text",
                 "text": "I believe these three hundred are called \"rogues\" (rather than thieves or criminals) because, though their actions constitute theft, they possess a heroic spirit. Though they lack honor, they demonstrate either the resilience of self-sacrifice or the appearance of courage. Therefore, I dedicate some portion of my writings to compiling their exploits into this collection."
               }
-            ]
+            ],
+            "id": "p-78363ef845609bd5"
           },
           {
             "type": "paragraph",
@@ -77,7 +83,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -109,7 +116,8 @@
                 "type": "text",
                 "text": "The true appearance and identity of Hirendou cannot be determined with certainty. Some rumors describe a delicate woman skilled in disguise, others suggest a thin man with a versatile voice, and some even claim this person was a Chrysos Heir. However, most oral histories agree that this individual was the first rogue to leave Dolos for other states. Tales of their exploits circulated throughout Aenionus, the Grove of Epiphany, and Odressian. Hirendou excelled at creating false identities to deceive others, and particularly enjoyed repeatedly tricking the same person with different disguises — typically targeting wealthy nobles of questionable character."
               }
-            ]
+            ],
+            "id": "p-76140300af973ae8"
           },
           {
             "type": "paragraph",
@@ -118,7 +126,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -127,7 +136,8 @@
                 "type": "text",
                 "text": "In the \"Divine Deception of Dolos,\" Hirendou journeyed alone to the northern city-state of Loukas where, using one hundred different identities, they engineered the release of a thousand innocent prisoners from the cruel Usurper's dungeon. Eventually captured, Hirendou was sentenced to beheading. However, on the execution day, after the executioner's blade fell, spectators were astonished to discover that the severed head belonged to the Usurper himself. Hirendou, who had been disguised as the ruler on the viewing platform, removed their mask and calmly departed amid the spontaneous protection provided by the crowd. To escape imprisonment through one's own ingenuity was rare even among the Three Hundred Rogues."
               }
-            ]
+            ],
+            "id": "p-16489885b1929206"
           },
           {
             "type": "paragraph",
@@ -136,7 +146,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-3"
           },
           {
             "type": "paragraph",
@@ -168,7 +179,8 @@
                 "type": "text",
                 "text": "Bladed Black Velvet, also known as the Steelclaw Beast, resembles a large mole. Skilled at tunneling, its claws possess unmatched hardness, capable of severing finely crafted weapons with a single swipe. It often creates massive, irreparable thief tunnels at the base of city walls. Hunting the Steelclaw Beast alone has been a coming-of-age ritual preserved for centuries by certain Kremnoan families."
               }
-            ]
+            ],
+            "id": "p-d1d5f01285ba4689"
           },
           {
             "type": "paragraph",
@@ -177,7 +189,8 @@
                 "type": "text",
                 "text": "Ferrum, known for their appearance and methods, earned this infamous nickname. Their portrait survives through the ages, showing a dark face, rough beard, and powerful arms, with hands twice the size of an average man's. Ferrum is skilled in wielding two folding spades and is often seen wearing arm guards. Though not one for words, Ferrum's ancestors were the Georios priests of Hattusili, with an exceptional understanding of soil and geology. Legend has it that Ferrum could dig a tunnel several thousand steps long within two days, bypassing stubborn rocks and reaching the treasure vault of the aristocrats with precision."
               }
-            ]
+            ],
+            "id": "p-c55cd31fef1712a2"
           },
           {
             "type": "paragraph",
@@ -186,7 +199,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-4"
           },
           {
             "type": "paragraph",
@@ -195,7 +209,8 @@
                 "type": "text",
                 "text": "In the \"Divine Deception of Dolos,\" Ferrum ventured to Mythemis, spending ten days digging a tunnel connecting the homes of eight aristocrats in the city, ending at the king's treasury. By the time the king noticed, Ferrum had already made off with more than half the treasure. Though Ferrum was captured and imprisoned, the treasure mysteriously vanished. The king and aristocrats confiscated Ferrum's spades and locked him away in a cube-shaped steel prison underground. About half a month later, the treasure from Mythemis appeared in the hands of the common folk across various city-states."
               }
-            ]
+            ],
+            "id": "p-2e2fc264d2183155"
           },
           {
             "type": "paragraph",
@@ -204,7 +219,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-5"
           },
           {
             "type": "paragraph",
@@ -226,7 +242,8 @@
                 "type": "text",
                 "text": "''"
               }
-            ]
+            ],
+            "id": "p-4de39a7f90500ab6"
           },
           {
             "type": "paragraph",
@@ -235,7 +252,8 @@
                 "type": "text",
                 "text": "The Fearfool Birds, also known as Dulu birds, were once a species of social birds living on the outskirts of Oleinus. They usually moved in groups of four, unable to fly but skilled at gliding, and would feign death when attacked, waiting for the chance to escape in different directions. During the famine of the Chrysos War, this species became extinct due to being easy to capture."
               }
-            ]
+            ],
+            "id": "p-6ed25f2701791ebb"
           },
           {
             "type": "paragraph",
@@ -244,7 +262,8 @@
                 "type": "text",
                 "text": "The Four Perla Sisters were naturally clever, and it's said that even when fully grown, they remained the size of fledglings. They often appeared together on trade routes, tricking travelers into showing them sympathy. However, those who showed kindness to the four sisters often found treasure in their bags upon parting, while those who rudely drove them away faced repeated harassment along the way and eventually lost a great deal of wealth."
               }
-            ]
+            ],
+            "id": "p-82fcd0d4a7ad7ad1"
           },
           {
             "type": "paragraph",
@@ -253,7 +272,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-6"
           },
           {
             "type": "paragraph",
@@ -262,7 +282,8 @@
                 "type": "text",
                 "text": "In the Divine Deception of Dolos, the Four Perla Sisters first split up, each taking a separate route along the four main trade paths to deceive independently. They planned to meet again in a few days, but they failed to do so. One is said to have died, another was imprisoned, the third became disabled, and the fourth disappeared without a trace."
               }
-            ]
+            ],
+            "id": "p-8dce08043f63605b"
           },
           {
             "type": "paragraph",
@@ -271,13 +292,15 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-7"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "part-ii",
       "label": "Part II",
       "document": {
         "version": 1,
@@ -302,7 +325,8 @@
                 "type": "text",
                 "text": "''"
               }
-            ]
+            ],
+            "id": "p-bcaa18500e1e98e1"
           },
           {
             "type": "paragraph",
@@ -311,7 +335,8 @@
                 "type": "text",
                 "text": "Cifera, also known as Cipher, was famous for her swift feet and sharp tongue. She often wore a hooded cloak and was commonly referred to as the \"Lying Cat Cipher\" or \"Swift-Footed Cipher.\" Later generations often don't count her among the 300 Rogues because by the time she gained prominence, the 300 had already become legends, and her career as a swindler and thief only spanned around twenty years by the time the Divine Deception was accomplished."
               }
-            ]
+            ],
+            "id": "p-012ff0e54e183d9a"
           },
           {
             "type": "paragraph",
@@ -320,7 +345,8 @@
                 "type": "text",
                 "text": "Cipher's story, as this author recounts it, is simply astounding: A young woman, practically unknown compared to the other rogues, managed to unite the 300 and pull off the Divine Deception, even earning the divine authority of \"Trickery.\" Was this all truly fate as foretold in prophecy?"
               }
-            ]
+            ],
+            "id": "p-05790759889a01b1"
           },
           {
             "type": "paragraph",
@@ -329,7 +355,8 @@
                 "type": "text",
                 "text": "Since Cipher claimed the divine authority of Zagreus, nearly 900 years have passed. The records of the \"Divine Deception of Dolos\" are unclear, largely because the Chrysos War was raging at the time and every state was preoccupied with its survival, leaving little time to track a Coreflame of the Calamity Titans, and making everyone focus on the Flame-Chase Journey. However, some bards who were there witnessed the entire \"Spirit Day\" deception feast and later recorded it in poetry, passing it down through the generations."
               }
-            ]
+            ],
+            "id": "p-1f607ce4196a3ed9"
           },
           {
             "type": "paragraph",
@@ -338,7 +365,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -347,7 +375,8 @@
                 "type": "text",
                 "text": "After deciding to seize the Coreflame of Zagreus, Cipher set off with her legendary steps that could cover a thousand miles a day, searching for the scattered 300 Rogues across Amphoreus. Among them, 103 rogues volunteered when they heard of the upcoming Divine Deception; 87 were in Dolos, and Cipher spent a month visiting each, persuading them; 65 had returned to their ancestral homes, and Cipher spent five months visiting and convincing them; 19 were imprisoned, two faced execution, and Cipher, with the help of the \"Goldweaver,\" used diplomatic means to rescue them; finally, 26 were missing, and it took Cipher two years and five months to find them all."
               }
-            ]
+            ],
+            "id": "p-4db4f3cf6bdd69ee"
           },
           {
             "type": "paragraph",
@@ -356,7 +385,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -365,7 +395,8 @@
                 "type": "text",
                 "text": "In the end, it took four years and seven months for all 301 rogues to gather in Dolos on the eve of Spirit Day. After a brief mobilization and discussion, the next day, with the help of the \"gatekeeper,\" the rogues scattered across various city-states, each executing the trick they had most longed to try but never dared. What each of them accomplished is recorded in their individual biographies."
               }
-            ]
+            ],
+            "id": "p-5da1f4cd6ab4abc4"
           },
           {
             "type": "paragraph",
@@ -374,7 +405,8 @@
                 "type": "text",
                 "text": "Zagreus, in their true form, only appears on Spirit Day, drawn to masterful deceptions. The events of Spirit Day led to the near-imprisonment of all 300 rogues, but also brought forth the infamous God of Thieves. This Trickery Titan was delighted by the feast of lies, taking the opportunity to mock every rogue caught in the snares of the law. When Cipher, the 301st rogue, was finally captured, Zagreus revealed themself to her in the final moments before Curtain-Fall Hour at the Spirit Day. Zagreus knew she had gone to great lengths to orchestrate this Spirit Day feast, all to summon them into the open. Now, Zagreus had come as promised, but how could a mere mortal like Cipher ever hope to defeat a god of trickery?"
               }
-            ]
+            ],
+            "id": "p-26afb7587bc98e6d"
           },
           {
             "type": "paragraph",
@@ -383,7 +415,8 @@
                 "type": "text",
                 "text": "Yet, the instant the god of thieves appeared, Aglaea the Goldweaver, who had long been waiting in ambush, swiftly ensnared Zagreus with a golden thread of truth. Zagreus, attempting to use the divine power of lies to vanish, soon found that its fabrications had no place to hide before the unyielding golden thread. It turned out that Cipher and Aglaea had devised the entire scheme, using the prophecy of the demigod, Tribios, to predict the god of thieves' appearance. Aglaea executed the capture, and in the end, Cipher seized the opportunity to kill Zagreus and claim the Coreflame."
               }
-            ]
+            ],
+            "id": "p-bb1be813f31204d0"
           },
           {
             "type": "paragraph",
@@ -392,7 +425,8 @@
                 "type": "text",
                 "text": "Thus, the Divine Deception of Dolos was completed. Following the Spirit Day feast, Cipher used cunning to lift Dolos's ban on deception. Historical records state that she returned to Okhema with Aglaea the Goldweaver, and through the Coreflame trial, became a demigod of \"Trickery,\" with occasional sightings of her even to this day."
               }
-            ]
+            ],
+            "id": "p-909d89dae31489ab"
           },
           {
             "type": "paragraph",
@@ -401,7 +435,8 @@
                 "type": "text",
                 "text": "As for the 300 Rogues of Dolos, some say they perished in prison, while others claim they were rescued by Cipher through the divine power of \"Trickery,\" with most living out peaceful lives. Regardless, after the Deception of the Gods, the 300 Rogues disappeared, their tales fading into obscurity. Just as the end of a Kremnos hero's journey is crowned with ascension to the throne, for a mere thief, ending a life of trickery with a Divine Deception is no ignoble fate."
               }
-            ]
+            ],
+            "id": "p-005d463310ff8e8f"
           },
           {
             "type": "paragraph",
@@ -410,7 +445,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-3"
           },
           {
             "type": "paragraph",
@@ -419,7 +455,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

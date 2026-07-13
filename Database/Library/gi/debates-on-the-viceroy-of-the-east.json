@@ -4,10 +4,11 @@
   "id": "debates-on-the-viceroy-of-the-east",
   "name": "Debates on the \"Viceroy of the East\"",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Debates_on_the_%22Viceroy_of_the_East%22",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Touzannou's name is not known, but it is known that he was of low birth, such that some island folk-tunes name him \"the legacy of moonlight and tide,\" or \"the forgotten child of the moonlight.\" Perhaps he was an orphan, or perhaps he was the child of people who had been washed ashore by the sea."
               }
-            ]
+            ],
+            "id": "p-321215c975bec0eb"
           },
           {
             "type": "paragraph",
@@ -38,7 +40,8 @@
                 "type": "text",
                 "text": "This boy later apprenticed himself to Mouun and her sister, learning from them the whalesongs and rites of Watatsumi. His memories were colored by the palace of coral and clam, the shining schools of fish and the rainbow-hued mackerel, and his body was tempered by the rugged reefs and endless waves, becoming strong and swift."
               }
-            ]
+            ],
+            "id": "p-1fc39191f580ab03"
           },
           {
             "type": "paragraph",
@@ -47,7 +50,8 @@
                 "type": "text",
                 "text": "The songs of the Yuna Clan say that when the boy had grown into a young man, he was invited by Mouun the shrine maiden to swim together amidst tides lit by moon and stars alike. In the ebb and flow of the entwined lights, the young man sensed the words and emotions of the sea creatures, and hearing the shrine maiden's gentle, mournful whispers, he decided his future course."
               }
-            ]
+            ],
+            "id": "p-266ca619990170a9"
           },
           {
             "type": "paragraph",
@@ -56,7 +60,8 @@
                 "type": "text",
                 "text": "It is said that after this night-time excursion, the young man comprehended the sword styles known as \"Getsumouun\" and \"Yuushio.\" Though he would not have any descendants, these sword techniques would be taught amongst the warriors of Watatsumi and passed down from generation to generation, thus never becoming extinct. In Watatsumi Island, which lacks traditions of swordsmanship, these two styles remain effective and practical techniques that can prove perilous to any foe."
               }
-            ]
+            ],
+            "id": "p-7ced6a6e56a99b55"
           },
           {
             "type": "paragraph",
@@ -65,7 +70,8 @@
                 "type": "text",
                 "text": "When Watatsumi Omikami set off on the eastern expedition from which there would be no return, the young man headed up the vanguard and took a place known then to the Watatsumi people as Touzan. Thus was he given the honorific of Touzannou by Watatsumi Omikami himself. However, this valiant \"king of the eastern mountain\" would become known as a brutal, savage \"wicked king,\" or Akuou, to the people of Yashiori Island."
               }
-            ]
+            ],
+            "id": "p-249997c94f3f4ad0"
           },
           {
             "type": "paragraph",
@@ -84,7 +90,8 @@
                 "type": "text",
                 "text": "And when the dust settled, things had not turned out as they might have hoped."
               }
-            ]
+            ],
+            "id": "p-02318f9c1bc559d2"
           },
           {
             "type": "paragraph",
@@ -93,7 +100,8 @@
                 "type": "text",
                 "text": "Notably, people still call outstanding warriors \"the scions of Touzannou,\" although the young and presumptuous Touzannou himself never had the opportunity to join himself to the one he loved, nor would they ever enjoy a peaceful future together."
               }
-            ]
+            ],
+            "id": "p-0e05c267c7bc078e"
           }
         ]
       }

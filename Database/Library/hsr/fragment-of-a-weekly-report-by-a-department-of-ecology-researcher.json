@@ -4,10 +4,11 @@
   "id": "fragment-of-a-weekly-report-by-a-department-of-ecology-researcher",
   "name": "Fragment of a Weekly Report by a Department of Ecology Researcher",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Fragment_of_a_Weekly_Report_by_a_Department_of_Ecology_Researcher",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-98fbb61811b513dd"
           },
           {
             "type": "paragraph",
@@ -63,7 +65,8 @@
                 "type": "text",
                 "text": "Weekly Conclusion: No worries, it can be done next time!"
               }
-            ]
+            ],
+            "id": "p-344b9fa478a2ad30"
           },
           {
             "type": "paragraph",
@@ -102,7 +105,8 @@
                 "type": "text",
                 "text": "Weekly Conclusion: I didn't think Joanne would be able to do things strictly by the books and be so efficient! I made at least 5 operation mistakes this week, I need to learn from Joanne! Next time!"
               }
-            ]
+            ],
+            "id": "p-c2f40f66ca83e2ca"
           },
           {
             "type": "paragraph",
@@ -141,7 +145,8 @@
                 "type": "text",
                 "text": "Weekly Conclusion: I heard Joanne was down with some kind of virus, hope she's fine. Study temporarily suspended."
               }
-            ]
+            ],
+            "id": "p-62173f86d30cc9e3"
           },
           {
             "type": "paragraph",
@@ -177,7 +182,8 @@
                 "type": "text",
                 "text": "Weekly Conclusion: This Joanne! Excuses galore! Just doesn't want to work! Haha, what thesis? Procrastinating again? Hahaha! MY study MY report MY output... Why does the medical department continue to employ someone like this!? Shameful! I WILL NEVER WORK WITH HER AGAIN!"
               }
-            ]
+            ],
+            "id": "p-af2ce6ce36ab272a"
           },
           {
             "type": "paragraph",
@@ -216,7 +222,8 @@
                 "type": "text",
                 "text": "Weekly Conclusion: This time is essentially my own effort, hmph. But... I didn't think Joanne has this kind of connection to acquire alien usher cells. She only has a little bit of wrapping up to do, so I'll help her out this time. Joanne is not too bad... maybe her procrastination is a little serious, but she's still a kind person."
               }
-            ]
+            ],
+            "id": "p-02ea17d681d6b48e"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "treasured-tales-of-the-chouken-shinkageuchi",
   "name": "Treasured Tales of the Chouken Shinkageuchi",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Treasured_Tales_of_the_Chouken_Shinkageuchi",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "It is often said that the \"drawn bow is like the quartered moon, and studying the blade is like a circle of transparent jade.\""
               }
-            ]
+            ],
+            "id": "p-b664d86cfa5f8f32"
           },
           {
             "type": "paragraph",
@@ -38,7 +40,8 @@
                 "type": "text",
                 "text": "No famous craftsman merely forges one blade in one sitting. The greatest of their works are known as \"Shinuchi,\" and are given a lovely name before being offered to the craftsman's lord or deity. These are not built for taking lives and are to remain pure. The others are known as \"Kageuchi\" and will be given to retainers for them use as weapons. These will often be used to shed blood and will thus be stained with impurity and filth."
               }
-            ]
+            ],
+            "id": "p-f2462e6fd9498818"
           },
           {
             "type": "paragraph",
@@ -57,7 +60,8 @@
                 "type": "text",
                 "text": "As most know, only The Seven emerged from the wrack and ruin of the war that rolled across the mortal world like a crimson storm. Though the Shadow Shogun was divinely skilled in martial arts and unsurpassed with the blade, she believed herself little more than a warrior with little understanding of mortal hearts. Thus, she chose to give up her bodily form, helping her sister to ascend to the \"heavenly citadel\" and obtain dominion over Inazuma. Shortly after, the True Shogun, \"Makoto,\" set up her Shogunate and began to rule over the land. Remembering their bond, she recalled \"Ei\"'s divine will and reforged her body, thus returning her sister to her side once more as her kagemusha."
               }
-            ]
+            ],
+            "id": "p-844a86d56612468a"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "floating-grease-chronicles-chapter-of-the-fox",
   "name": "Floating Grease Chronicles: Chapter of the Fox",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Floating_Grease_Chronicles:_Chapter_of_the_Fox",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "i",
       "label": "I",
       "document": {
         "version": 1,
@@ -209,13 +210,15 @@
                 "type": "text",
                 "text": "the starry sky only reflects the foxes' cunning smiles."
               }
-            ]
+            ],
+            "id": "p-befbda9451123dfb"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vii",
       "label": "VII",
       "document": {
         "version": 1,
@@ -394,7 +397,8 @@
                 "type": "text",
                 "text": "Wisdom yearns for arcadia"
               }
-            ]
+            ],
+            "id": "p-0759faccf174e3e1"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "divine-echo-law",
   "name": "Divine Echo: Law",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Divine_Echo:_Law",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -40,7 +41,8 @@
                 "type": "text",
                 "text": "Do not realize the scales measure all transgressions."
               }
-            ]
+            ],
+            "id": "p-c5b623bd1c51ee88"
           },
           {
             "type": "paragraph",
@@ -49,7 +51,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

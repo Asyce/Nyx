@@ -4,10 +4,11 @@
   "id": "robben-versus-chesterton-iridescent-brooch",
   "name": "Robben versus Chesterton: Iridescent Brooch",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Robben_versus_Chesterton:_Iridescent_Brooch",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol 1",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Call me Poiret. Some years ago — never mind how long precisely — having little or no Mora in my purse, and nothing particular to interest me outside of the city, I traveled to the Court of Fontaine and entered the care of my uncle Chesterton, the famous private detective. To my surprise, he immediately tasked me with assisting him in tracing Robben, the mysterious Phantom Thief..."
               }
-            ]
+            ],
+            "id": "p-6582d60b60aa9267"
           },
           {
             "type": "paragraph",
@@ -178,13 +180,15 @@
                 "type": "text",
                 "text": "\"Ah! The legendary Phantom Thief Robben makes yet another extravagant exit! A wonderful performance indeed!\""
               }
-            ]
+            ],
+            "id": "p-85ddf2a50ba22f9f"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol 2",
       "document": {
         "version": 1,
@@ -286,13 +290,15 @@
                 "type": "text",
                 "text": "\"After that, all he needs to do is to fabricate some identity that will grant him access to the mansion — in which case, he can swipe the brooch without raising any alarms.\""
               }
-            ]
+            ],
+            "id": "p-420b91cc5cb78867"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "vol-3",
       "label": "Vol 3",
       "document": {
         "version": 1,
@@ -424,7 +430,8 @@
                 "type": "text",
                 "text": "\"You — the gentleman who came to see the uncle he has never met, claiming to be Poiret — were in the crowd back then, too. Am I not right, Mr. Robben?\""
               }
-            ]
+            ],
+            "id": "p-26117ea091678a28"
           }
         ]
       }

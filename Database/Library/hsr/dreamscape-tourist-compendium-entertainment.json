@@ -4,10 +4,11 @@
   "id": "dreamscape-tourist-compendium-entertainment",
   "name": "Dreamscape Tourist Compendium — Entertainment",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Dreamscape_Tourist_Compendium_%E2%80%94_Entertainment",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -63,7 +64,8 @@
                 "type": "text",
                 "text": "We hope you can leave all your worries behind and live in the present!"
               }
-            ]
+            ],
+            "id": "p-91d86b67b65c05d0"
           },
           {
             "type": "paragraph",
@@ -129,7 +131,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-f484d37863222fbe"
           },
           {
             "type": "paragraph",
@@ -195,7 +198,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-1ca2b467ec98f486"
           },
           {
             "type": "paragraph",
@@ -267,7 +271,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-cee813a9ea599e92"
           },
           {
             "type": "paragraph",
@@ -326,7 +331,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-4d0d095257851d3e"
           }
         ]
       }

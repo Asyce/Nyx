@@ -4,10 +4,11 @@
   "id": "memory-zone-fairy-tales-the-ghost-ship",
   "name": "Memory Zone Fairy Tales: The Ghost Ship",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Memory_Zone_Fairy_Tales:_The_Ghost_Ship",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Fragments of lost souls come together from all reaches of the expansive Memory Zone, gathering on the immortal ghost ship."
               }
-            ]
+            ],
+            "id": "p-f7e89b05f88bbae3"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "A fisherman puppet sits atop the mast of the ghost ship, holding onto a lantern that glows a faint blue. Attracted to light in the same way organisms orient themselves to the sun, the soul fragments move up onto the deck."
               }
-            ]
+            ],
+            "id": "p-d43d6412de6b3473"
           },
           {
             "type": "paragraph",
@@ -65,7 +68,8 @@
                 "type": "text",
                 "text": "30 Amber Eras ago."
               }
-            ]
+            ],
+            "id": "p-d94a7781aa75a3a2"
           },
           {
             "type": "paragraph",
@@ -137,7 +141,8 @@
                 "type": "text",
                 "text": "12 system hours later, the fisherman reels in a young female scientist who is diving in the waters of the Memory Zone, but that is exactly what she wants. She has been planning to sneak onto the ghost ship all along."
               }
-            ]
+            ],
+            "id": "p-e8d78fbd128503df"
           }
         ]
       }

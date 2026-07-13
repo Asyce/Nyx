@@ -4,17 +4,19 @@
   "id": "conch-echoes",
   "name": "Conch Echoes",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Conch_Echoes",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -96,7 +98,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-90ae954697430f1c"
           },
           {
             "type": "paragraph",
@@ -164,7 +167,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-e75d2e4c7fe31fbb"
           },
           {
             "type": "paragraph",
@@ -236,20 +240,23 @@
                 "type": "text",
                 "text": "After that night, the boy who once held the conch seemed to have vanished into thin air."
               }
-            ]
+            ],
+            "id": "p-2535c2975ba8335f"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -338,7 +345,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-caddf3f57621570e"
           },
           {
             "type": "paragraph",
@@ -378,7 +386,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-df27a7747740216c"
           },
           {
             "type": "paragraph",
@@ -457,7 +466,8 @@
                 "type": "text",
                 "text": "And placed the conch amidst the children."
               }
-            ]
+            ],
+            "id": "p-7d2f8406b96a946d"
           }
         ]
       }

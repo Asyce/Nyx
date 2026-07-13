@@ -4,17 +4,19 @@
   "id": "springs-of-hidden-jade",
   "name": "Springs of Hidden Jade",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Springs_of_Hidden_Jade",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -193,13 +195,15 @@
                 "type": "text",
                 "text": "\"But since you'd like to know, I'll tell you.\""
               }
-            ]
+            ],
+            "id": "p-e8c22f2f56573d25"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
@@ -318,7 +322,8 @@
                 "type": "text",
                 "text": "As for her, she had no choice but to be trapped within the shell of the starry sky, forced to tarry within this stagnant, foreign land, awaiting her mother's thousand threads, awaiting the erosion of hardy stone, awaiting the next encounter from beyond..."
               }
-            ]
+            ],
+            "id": "p-ad4b8403966fcd0d"
           },
           {
             "type": "paragraph",
@@ -377,7 +382,8 @@
                 "type": "text",
                 "text": "Many years later, the young man, now old and grey, recalled this moment by chance. By then, he had honed his swordplay to flow like water, founded his own sect, and became a teacher — and still, he never could comprehend the final story she told him. And as for her, she sprints still along the threads of fate, concealing her trail beneath the forests and springs, far from the gaze of the gods, guarding the ancient stories that slip away from even her."
               }
-            ]
+            ],
+            "id": "p-61565a3bd90e69bc"
           }
         ]
       }

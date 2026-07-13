@@ -4,10 +4,11 @@
   "id": "undelivered-grove-report",
   "name": "Undelivered Grove Report",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Undelivered_Grove_Report",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -54,7 +55,8 @@
                 "type": "text",
                 "text": "• Miscellaneous"
               }
-            ]
+            ],
+            "id": "p-683052a2974e5b29"
           },
           {
             "type": "paragraph",
@@ -77,7 +79,8 @@
                 "type": "text",
                 "text": "New improved grain variety yields increased 800%."
               }
-            ]
+            ],
+            "id": "p-1b5dd3b2f37dbe7a"
           },
           {
             "type": "paragraph",
@@ -100,7 +103,8 @@
                 "type": "text",
                 "text": "Long-term report: \"Changes three years after leaving World Wound Web\""
               }
-            ]
+            ],
+            "id": "p-a32b1f95a706e2e6"
           },
           {
             "type": "paragraph",
@@ -123,7 +127,8 @@
                 "type": "text",
                 "text": "Research Report: Minimal units of art"
               }
-            ]
+            ],
+            "id": "p-6ba643a952fa928e"
           },
           {
             "type": "paragraph",
@@ -146,7 +151,8 @@
                 "type": "text",
                 "text": "Research Report: Thoughts on fractal structures — can we predict everything?"
               }
-            ]
+            ],
+            "id": "p-7b266193bc56e5a7"
           },
           {
             "type": "paragraph",
@@ -162,7 +168,8 @@
                 "type": "text",
                 "text": "Multi-faith ceremonial implements still in development, Calamity Titan content postponed."
               }
-            ]
+            ],
+            "id": "p-0e9cadbc3d7a735c"
           },
           {
             "type": "paragraph",
@@ -178,7 +185,8 @@
                 "type": "text",
                 "text": "Our achievement will be this messenger, who shall run from the Grove to Okhema within two days. Bear witness!"
               }
-            ]
+            ],
+            "id": "p-886efee4824d9879"
           },
           {
             "type": "paragraph",
@@ -194,7 +202,8 @@
                 "type": "text",
                 "text": "No reports submitted."
               }
-            ]
+            ],
+            "id": "p-9793c489f279df82"
           },
           {
             "type": "paragraph",
@@ -245,7 +254,8 @@
                 "type": "text",
                 "text": "Due to calculation issues, \".1\" may be omitted."
               }
-            ]
+            ],
+            "id": "p-66c1949c71a8a085"
           },
           {
             "type": "paragraph",
@@ -268,7 +278,8 @@
                 "type": "text",
                 "text": "Latest copy of Gene Bank records"
               }
-            ]
+            ],
+            "id": "p-48bea8ff32af9d1b"
           },
           {
             "type": "paragraph",
@@ -277,7 +288,8 @@
                 "type": "text",
                 "text": "The Grove wishes to employ several Mountain Dwellers for basic security duties, providing food and lodging."
               }
-            ]
+            ],
+            "id": "p-2cd551bf32e76aae"
           },
           {
             "type": "paragraph",
@@ -296,7 +308,8 @@
                 "type": "text",
                 "text": "— Scholars of the Grove of Epiphany"
               }
-            ]
+            ],
+            "id": "p-da9e9ba61fab17dd"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "dreamweaver-academy-syllabus",
   "name": "Dreamweaver Academy Syllabus",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Dreamweaver_Academy_Syllabus",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -33,7 +34,8 @@
                 "type": "text",
                 "text": "This syllabus aims to provide students with a systematic and comprehensive dreamweaving education to help them grasp the necessary theoretical knowledge and practical skills required to become an outstanding Dreamweaver."
               }
-            ]
+            ],
+            "id": "p-f10c75f76dfab246"
           },
           {
             "type": "paragraph",
@@ -63,7 +65,8 @@
                 "type": "text",
                 "text": "3. Professional objectives: Possessing the expected ethics and professionalism of Dreamweavers, and being able to fully understand and exercise the social responsibility of Dreamweaving."
               }
-            ]
+            ],
+            "id": "p-a24b2995cde8904c"
           },
           {
             "type": "paragraph",
@@ -121,7 +124,8 @@
                 "type": "text",
                 "text": "5. Graduation design: 10 credits"
               }
-            ]
+            ],
+            "id": "p-6809e9cc3abbd075"
           },
           {
             "type": "paragraph",
@@ -172,7 +176,8 @@
                 "type": "text",
                 "text": "5. Public courses (5 credits): Penacony general education, learning the history, culture, and values of Penacony."
               }
-            ]
+            ],
+            "id": "p-7a27a65491af01dc"
           },
           {
             "type": "paragraph",
@@ -216,7 +221,8 @@
                 "type": "text",
                 "text": "5. Public courses (9 credits): Introduction to interastral culture. Understand communication and clashes between different cultures."
               }
-            ]
+            ],
+            "id": "p-8281535a7f25d41f"
           },
           {
             "type": "paragraph",
@@ -260,7 +266,8 @@
                 "type": "text",
                 "text": "5. Public courses (2 credits): Understand issues surrounding ethics, social responsibility, and professionalism that arise in Dreamweaving."
               }
-            ]
+            ],
+            "id": "p-27731ce8ba79c28b"
           },
           {
             "type": "paragraph",
@@ -304,7 +311,8 @@
                 "type": "text",
                 "text": "5. Public courses (4 credits): Understand the values of \"The Family\" and cultivate communication and cooperation skills under different cultural backgrounds."
               }
-            ]
+            ],
+            "id": "p-4dff71f24d8cc76e"
           },
           {
             "type": "paragraph",
@@ -348,7 +356,8 @@
                 "type": "text",
                 "text": "5. Placing importance on the teaching of dreamweaving ethics and cultivating students' societal responsibility."
               }
-            ]
+            ],
+            "id": "p-177d28b5bf4d9fc8"
           },
           {
             "type": "paragraph",
@@ -378,7 +387,8 @@
                 "type": "text",
                 "text": "3. Hold periodic teaching quality evaluations to create a positive cycle of constant improvement."
               }
-            ]
+            ],
+            "id": "p-fca53e1629ae4d8e"
           },
           {
             "type": "paragraph",
@@ -387,7 +397,8 @@
                 "type": "text",
                 "text": "Dreamweaver Academy adheres to the principle that \"imagination shapes the future\" and is committed to cultivating high-quality Dreamweavers with sound theoretical foundational knowledge, outstanding practical skills, and innovative thinking. In the future, we hope that our graduates will become cornerstones of Penacony, working tirelessly to create an even more wonderful Dreamscape."
               }
-            ]
+            ],
+            "id": "p-eb73d3dbbf838d62"
           },
           {
             "type": "paragraph",
@@ -396,7 +407,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

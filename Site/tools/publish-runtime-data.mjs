@@ -62,21 +62,41 @@ function validateInline(nodes, label) {
   }
 }
 
+function validateLeafId(value, prefix, label) {
+  if (!new RegExp(`^${prefix}-[a-f0-9]{16}(?:-(?:[2-9]|[1-9][0-9]+))?$`).test(value || '')) throw new Error(`${label} has an invalid stable leaf id`);
+}
+
 function validateDocument(document, label) {
   if (document?.version !== 1 || !Array.isArray(document.blocks)) throw new Error(`${label} has an invalid structured document`);
   for (const block of document.blocks) {
     if (!block || !['heading','paragraph','list','table','image'].includes(block.type)) throw new Error(`${label} has a disallowed block`);
-    if (block.type === 'heading' && (typeof block.text !== 'string' || ![2,3,4].includes(block.level))) throw new Error(`${label} has an invalid heading`);
-    if (block.type === 'paragraph') validateInline(block.children, label);
+    if (block.type === 'heading') {
+      if (typeof block.text !== 'string' || ![2,3,4].includes(block.level)) throw new Error(`${label} has an invalid heading`);
+      validateLeafId(block.id, 'h', label);
+      if (Object.keys(block).sort().join(',') !== 'id,level,text,type') throw new Error(`${label} heading has unexpected attributes`);
+    }
+    if (block.type === 'paragraph') {
+      validateLeafId(block.id, 'p', label);
+      if (Object.keys(block).sort().join(',') !== 'children,id,type') throw new Error(`${label} paragraph has unexpected attributes`);
+      validateInline(block.children, label);
+    }
     if (block.type === 'list') {
       if (typeof block.ordered !== 'boolean' || !Array.isArray(block.items)) throw new Error(`${label} has an invalid list`);
-      for (const item of block.items) validateInline(item.children, label);
+      for (const item of block.items) {
+        validateLeafId(item.id, 'li', label);
+        if (Object.keys(item).sort().join(',') !== 'children,id') throw new Error(`${label} list item has unexpected attributes`);
+        validateInline(item.children, label);
+      }
     }
     if (block.type === 'table') {
       if (!Array.isArray(block.rows)) throw new Error(`${label} has an invalid table`);
       for (const row of block.rows) {
         if (!Array.isArray(row.cells)) throw new Error(`${label} has an invalid table row`);
-        for (const cell of row.cells) validateInline(cell.children, label);
+        for (const cell of row.cells) {
+          validateLeafId(cell.id, 'td', label);
+          if (Object.keys(cell).sort().join(',') !== 'children,id') throw new Error(`${label} table cell has unexpected attributes`);
+          validateInline(cell.children, label);
+        }
       }
     }
     if (block.type === 'image' && (!/^icons\/[a-f0-9]{64}\.(?:png|webp)$/.test(block.src || '') || typeof block.alt !== 'string')) throw new Error(`${label} has an unsafe image`);
@@ -86,11 +106,23 @@ function validateDocument(document, label) {
 function validateBook(book, row, game, label) {
   if (book?.schemaVersion !== 1 || book.game !== game || book.id !== row.id || typeof book.name !== 'string' || !book.name.trim() || book.name !== row.name) throw new Error(`${label} has invalid book identity`);
   if (!Array.isArray(book.volumes) || !book.volumes.length || book.volumes.length !== row.volumeCount) throw new Error(`${label} volume count does not match its index`);
-  if (!Array.isArray(row.volumeLabels) || row.volumeLabels.length !== book.volumes.length) throw new Error(`${label} volume labels do not match its index`);
+  if (!Array.isArray(row.volumeLabels) || row.volumeLabels.length !== book.volumes.length || !Array.isArray(row.volumeKeys) || row.volumeKeys.length !== book.volumes.length) throw new Error(`${label} volume metadata does not match its index`);
   book.volumes.forEach((volume, index) => {
-    if (String(volume?.id || '') !== String(index + 1) || typeof volume.label !== 'string' || volume.label !== row.volumeLabels[index]) throw new Error(`${label} has invalid volume metadata`);
+    if (String(volume?.id || '') !== String(index + 1) || typeof volume.label !== 'string' || volume.label !== row.volumeLabels[index] || !/^[a-z0-9][a-z0-9-]*$/.test(volume.volumeKey || '') || volume.volumeKey !== row.volumeKeys[index]) throw new Error(`${label} has invalid volume metadata`);
     validateDocument(volume.document, `${label} volume ${index + 1}`);
   });
+}
+
+function validateSearchIndex(search, game, ids, label) {
+  if (search?.schemaVersion !== 1 || search.game !== game || search.bookCount !== ids.size || search.minWordLength !== 2 || !Array.isArray(search.books) || !search.words || typeof search.words !== 'object' || Array.isArray(search.words)) throw new Error(`${label} is invalid`);
+  if (search.books.length !== ids.size || search.books.some((id) => !ids.has(id)) || new Set(search.books).size !== search.books.length || search.books.join('\0') !== [...search.books].sort().join('\0')) throw new Error(`${label} has an invalid book dictionary`);
+  const words = Object.keys(search.words);
+  if (search.wordCount !== words.length) throw new Error(`${label} word metadata is invalid`);
+  for (const word of words) {
+    if (!/^[\p{L}\p{N}]{2,80}$/u.test(word)) throw new Error(`${label} has an invalid word`);
+    const posting = search.words[word];
+    if (!Array.isArray(posting) || !posting.length || posting.some((bookNumber) => !Number.isInteger(bookNumber) || bookNumber < 0 || bookNumber >= search.books.length) || new Set(posting).size !== posting.length || posting.some((bookNumber, index) => index && bookNumber <= posting[index - 1])) throw new Error(`${label} has invalid postings for ${word}`);
+  }
 }
 
 async function validateIcon(file, relative) {
@@ -123,7 +155,9 @@ async function publishLibrary({ databaseDir, dataDir, maxBytes }) {
   const entries = [];
   for (const game of ['gi', 'hsr']) {
     const indexRel = `${game}/index.json`;
+    const searchRel = `${game}/search-index.json`;
     if (!sourceByRel.has(indexRel)) throw new Error(`Runtime Library is missing ${indexRel}`);
+    if (!sourceByRel.has(searchRel)) throw new Error(`Runtime Library is missing ${searchRel}`);
     const { parsed:index } = await validatedJson(sourceByRel.get(indexRel), maxBytes);
     if (index?.game !== game || !Array.isArray(index.entries) || index.count !== index.entries.length) throw new Error(`Runtime Library has an invalid ${indexRel}`);
     const ids = new Set();
@@ -135,9 +169,11 @@ async function publishLibrary({ databaseDir, dataDir, maxBytes }) {
       const { parsed:book } = await validatedJson(sourceByRel.get(`${game}/${row.file}`), maxBytes);
       validateBook(book, row, game, `${game}/${row.file}`);
     }
+    const { parsed:search } = await validatedJson(sourceByRel.get(searchRel), maxBytes);
+    validateSearchIndex(search, game, ids, searchRel);
   }
   for (const [relative, source] of sourceByRel) {
-    if (!/^(?:gi|hsr)\/(?:index|[a-z0-9][a-z0-9-]*)\.json$/.test(relative) && !/^(?:gi|hsr)\/icons\/[a-f0-9]{64}\.(?:png|webp)$/.test(relative)) {
+    if (!/^(?:gi|hsr)\/(?:index|search-index|[a-z0-9][a-z0-9-]*)\.json$/.test(relative) && !/^(?:gi|hsr)\/icons\/[a-f0-9]{64}\.(?:png|webp)$/.test(relative)) {
       throw new Error(`Runtime Library contains a non-allowlisted file: ${relative}`);
     }
     const url = `/data/library/${relative}`;

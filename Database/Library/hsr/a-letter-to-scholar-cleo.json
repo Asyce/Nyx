@@ -4,10 +4,11 @@
   "id": "a-letter-to-scholar-cleo",
   "name": "A Letter to Scholar Cleo",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/A_Letter_to_Scholar_Cleo",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Cleo,"
               }
-            ]
+            ],
+            "id": "p-7abcc714974022b6"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "I hope this letter finds you well."
               }
-            ]
+            ],
+            "id": "p-4299e9a3423f6383"
           },
           {
             "type": "paragraph",
@@ -46,7 +49,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-79f648a4603c628e"
           },
           {
             "type": "paragraph",
@@ -55,7 +59,8 @@
                 "type": "text",
                 "text": "Please go through the necessary formalities, apply for the allowance, and come to the Xianzhou Luofu immediately."
               }
-            ]
+            ],
+            "id": "p-7dc4fa02c28456ea"
           },
           {
             "type": "paragraph",
@@ -64,7 +69,8 @@
                 "type": "text",
                 "text": "As mentioned in my previous letters, I have tried my best to study the Xianzhou natives and foxians, but I can't seem to find a suitable long-life individual. So, I have turned my attention to the Vidyadhara."
               }
-            ]
+            ],
+            "id": "p-d3033085aba04411"
           },
           {
             "type": "paragraph",
@@ -73,7 +79,8 @@
                 "type": "text",
                 "text": "As you know, the Vidyadhara has a unique bodily structure. Their life cycle will keep going, thus they are free of the problems of aging, death, and being mara-stricken. Some researchers point out that the immortality of the Vidyadhara is not due to Abundance, with which I agree. I have probably put too much focus on the Power of Abundance that I miss out on the clue that can lead to a breakthrough in my study."
               }
-            ]
+            ],
+            "id": "p-6d2cde666b091193"
           },
           {
             "type": "paragraph",
@@ -82,7 +89,8 @@
                 "type": "text",
                 "text": "There's no point in dwelling on this, actually. Even if we could have gotten things right sooner, we would have had little chance to collect samples. After all, the Vidyadhara rarely leaves their Xianzhou ship. Based on their physical needs and traditional customs, they need to return to a special region, called the ancient sea, for their hatching rebirth."
               }
-            ]
+            ],
+            "id": "p-b5346a4169bae03d"
           },
           {
             "type": "paragraph",
@@ -91,7 +99,8 @@
                 "type": "text",
                 "text": "Having overcome a series of obstacles, I finally found a biological sample of the Vidyadhara in the Scalegorge Waterscape. The value of this sample was beyond my expectation. To put it simply, it showed me a clear direction toward immortality."
               }
-            ]
+            ],
+            "id": "p-c17cab482605fcb1"
           },
           {
             "type": "paragraph",
@@ -100,7 +109,8 @@
                 "type": "text",
                 "text": "I reckon that my teacher, Bernini, went into seclusion because he wanted to keep the secret to himself. I don't blame him, seeing how tempting immortality is."
               }
-            ]
+            ],
+            "id": "p-baf0ed3d2cb93153"
           },
           {
             "type": "paragraph",
@@ -109,7 +119,8 @@
                 "type": "text",
                 "text": "I won't include too many technical details here, as too much is at stake. I'll explain it to you face-to-face when you reach the Luofu."
               }
-            ]
+            ],
+            "id": "p-7fe21060382bad9e"
           },
           {
             "type": "paragraph",
@@ -118,7 +129,8 @@
                 "type": "text",
                 "text": "The time we have spent on the Path of Erudition has been nearly a century, and my age is starting to catch up on me. As I start to think slower, I become less efficient in my research... Yet, the cosmos is still vast, and there is a lot more for us to explore and create. Yet, we're running out of time."
               }
-            ]
+            ],
+            "id": "p-16fbdc8d5b7505ca"
           },
           {
             "type": "paragraph",
@@ -127,7 +139,8 @@
                 "type": "text",
                 "text": "But now, everything is different."
               }
-            ]
+            ],
+            "id": "p-0549d9d6beeb82b5"
           },
           {
             "type": "paragraph",
@@ -136,7 +149,8 @@
                 "type": "text",
                 "text": "If my research is heading in the right direction (which I am 80% sure), we will not only be entitled to wealth and fame, but also an unlimited supply of time to explore the boundless space in which countless intellectual treasures are hidden."
               }
-            ]
+            ],
+            "id": "p-78bbc36d0fde3d52"
           },
           {
             "type": "paragraph",
@@ -145,7 +159,8 @@
                 "type": "text",
                 "text": "P.s.: I'm thinking of recruiting a smart and reliable they, named (Trailblazer), for you. Please work with they when you arrive the Luofu."
               }
-            ]
+            ],
+            "id": "p-44b12741dad0cabc"
           },
           {
             "type": "paragraph",
@@ -154,7 +169,8 @@
                 "type": "text",
                 "text": "Your dearest teacher, Todd Riordan"
               }
-            ]
+            ],
+            "id": "p-9079dfe15dea1644"
           }
         ]
       }

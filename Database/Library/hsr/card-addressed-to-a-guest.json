@@ -4,10 +4,11 @@
   "id": "card-addressed-to-a-guest",
   "name": "Card Addressed to a Guest",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Card_Addressed_to_a_Guest",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Dear Madam Lilia:"
               }
-            ]
+            ],
+            "id": "p-6ab292192b3bb9c6"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Welcome to the Radiant Feldspar's restaurant. Today, a very special person wishes for us to express his most heartfelt blessings to you on his behalf:"
               }
-            ]
+            ],
+            "id": "p-46d26828c26f1869"
           },
           {
             "type": "paragraph",
@@ -54,7 +57,8 @@
                 "type": "text",
                 "text": "Mike\""
               }
-            ]
+            ],
+            "id": "p-14d2a57a4bf1de16"
           },
           {
             "type": "paragraph",
@@ -63,7 +67,8 @@
                 "type": "text",
                 "text": "On behalf of all the staff in our department, I offer our best wishes to you. Happy birthday! May you enjoy a magical night full of joy and merriment."
               }
-            ]
+            ],
+            "id": "p-cc225e936e8e5720"
           },
           {
             "type": "paragraph",
@@ -72,7 +77,8 @@
                 "type": "text",
                 "text": "Radiant Feldspar Food & Beverage Department"
               }
-            ]
+            ],
+            "id": "p-24d7ce6bfae02ffc"
           }
         ]
       }

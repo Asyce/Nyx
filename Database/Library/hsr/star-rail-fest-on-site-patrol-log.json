@@ -4,17 +4,19 @@
   "id": "star-rail-fest-on-site-patrol-log",
   "name": "Star Rail FEST On-Site Patrol Log",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Star_Rail_FEST_On-Site_Patrol_Log",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -32,7 +34,8 @@
                 "type": "text",
                 "text": "G079-IRION"
               }
-            ]
+            ],
+            "id": "p-bbdcd5e2023c875c"
           },
           {
             "type": "paragraph",
@@ -50,7 +53,8 @@
                 "type": "text",
                 "text": "Star Rail FEST: Penacony Exhibition Area"
               }
-            ]
+            ],
+            "id": "p-1a876f40c1f79298"
           },
           {
             "type": "paragraph",
@@ -68,7 +72,8 @@
                 "type": "text",
                 "text": "Standard Mode/High Alert Mode"
               }
-            ]
+            ],
+            "id": "p-6407b9e70fef92a3"
           },
           {
             "type": "paragraph",
@@ -86,7 +91,8 @@
                 "type": "text",
                 "text": "G-079 (Self-Recording)"
               }
-            ]
+            ],
+            "id": "p-f9c7cb2a4491db19"
           },
           {
             "type": "paragraph",
@@ -100,7 +106,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-6b46411afe0a7274"
           },
           {
             "type": "paragraph",
@@ -116,7 +123,8 @@
                 "type": "text",
                 "text": "Commencing patrol on designated route. Foot traffic steady, all clear."
               }
-            ]
+            ],
+            "id": "p-4412b760ec033677"
           },
           {
             "type": "paragraph",
@@ -125,7 +133,8 @@
                 "type": "text",
                 "text": "==============================================="
               }
-            ]
+            ],
+            "id": "p-1548725cd2ccab4f"
           },
           {
             "type": "paragraph",
@@ -171,7 +180,8 @@
                 "type": "text",
                 "text": ": Relevant warnings have been issued, and large set props such as stands have been added to the priority patrol list."
               }
-            ]
+            ],
+            "id": "p-4b67c4ad4b858146"
           },
           {
             "type": "paragraph",
@@ -217,7 +227,8 @@
                 "type": "text",
                 "text": ": Crowds promptly dispersed and visitors organized into orderly queues."
               }
-            ]
+            ],
+            "id": "p-d90bd4d41c7b53a8"
           },
           {
             "type": "paragraph",
@@ -226,7 +237,8 @@
                 "type": "text",
                 "text": "(...)"
               }
-            ]
+            ],
+            "id": "p-6e6ea7e1675130fe"
           },
           {
             "type": "paragraph",
@@ -272,7 +284,8 @@
                 "type": "text",
                 "text": ": Temporarily detained the individuals involved for conduct and safety education, and finalized a compensation plan."
               }
-            ]
+            ],
+            "id": "p-76602128d93aed93"
           },
           {
             "type": "paragraph",
@@ -318,7 +331,8 @@
                 "type": "text",
                 "text": ": Relevant education on proper conduct has been administered, and the perpetrators have been supervised in cleaning up their graffiti from the floor."
               }
-            ]
+            ],
+            "id": "p-1c9b01ae778e1da6"
           },
           {
             "type": "paragraph",
@@ -327,7 +341,8 @@
                 "type": "text",
                 "text": "(...)"
               }
-            ]
+            ],
+            "id": "p-6e6ea7e1675130fe-2"
           },
           {
             "type": "paragraph",
@@ -373,7 +388,8 @@
                 "type": "text",
                 "text": ": Crowd was promptly dispersed and the area cleared. No stampede incidents occurred."
               }
-            ]
+            ],
+            "id": "p-6e8a618d9157b2d1"
           },
           {
             "type": "paragraph",
@@ -382,7 +398,8 @@
                 "type": "text",
                 "text": "==============================================="
               }
-            ]
+            ],
+            "id": "p-1548725cd2ccab4f-2"
           },
           {
             "type": "paragraph",
@@ -417,7 +434,8 @@
                 "type": "text",
                 "text": "Venue cleared. System enters standby maintenance state."
               }
-            ]
+            ],
+            "id": "p-d88d40c848a0d540"
           },
           {
             "type": "paragraph",
@@ -440,7 +458,8 @@
                 "type": "text",
                 "text": "Power remaining at 15%, consumption 250% higher than expected."
               }
-            ]
+            ],
+            "id": "p-13c3c5de0669ab92"
           },
           {
             "type": "paragraph",
@@ -449,7 +468,8 @@
                 "type": "text",
                 "text": "---End of Log Record---"
               }
-            ]
+            ],
+            "id": "p-73a5aa546be135f9"
           }
         ]
       }

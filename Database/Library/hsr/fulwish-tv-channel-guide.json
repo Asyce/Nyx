@@ -4,10 +4,11 @@
   "id": "fulwish-tv-channel-guide",
   "name": "Fulwish TV Channel Guide",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Fulwish_TV_Channel_Guide",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-e85e5ed36b3a39bc"
           },
           {
             "type": "paragraph",
@@ -42,7 +44,8 @@
                 "type": "text",
                 "text": ": All the latest news and happenings in arcadia! Get the scoop before anyone else!"
               }
-            ]
+            ],
+            "id": "p-a933e7e6de381d13"
           },
           {
             "type": "paragraph",
@@ -60,7 +63,8 @@
                 "type": "text",
                 "text": ": Happiness is everywhere! Our reporters roam the streets of arcadia to capture the most genuine smiles for you!"
               }
-            ]
+            ],
+            "id": "p-a7405da2ec735a8a"
           },
           {
             "type": "paragraph",
@@ -69,7 +73,8 @@
                 "type": "text",
                 "text": "(...)"
               }
-            ]
+            ],
+            "id": "p-6e6ea7e1675130fe"
           },
           {
             "type": "paragraph",
@@ -83,7 +88,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-7a5b2db62445c617"
           },
           {
             "type": "paragraph",
@@ -101,7 +107,8 @@
                 "type": "text",
                 "text": ": The most popular elation show in arcadia, now in its sensational seventh season!"
               }
-            ]
+            ],
+            "id": "p-e9e3ca812cf92e42"
           },
           {
             "type": "paragraph",
@@ -119,7 +126,8 @@
                 "type": "text",
                 "text": ": Through the bizarre and peculiar masks of the Supplicants, popular comedy star Dovebrook Kid will regale you with fascinating tales and anecdotes from past Phantasmoon Games."
               }
-            ]
+            ],
+            "id": "p-bd1bad872e0d3541"
           },
           {
             "type": "paragraph",
@@ -137,7 +145,8 @@
                 "type": "text",
                 "text": ": Do those of us born in arcadia truly understand the Phantasmoon? Popular tragedy star Seafeld Kid brings you a series of sorrowful, eerie, yet heartwarming tales."
               }
-            ]
+            ],
+            "id": "p-9dba09b041e0de79"
           },
           {
             "type": "paragraph",
@@ -155,7 +164,8 @@
                 "type": "text",
                 "text": ": The masters are among the common folk, so let's uncover the daily lives of these low-key card sharks!"
               }
-            ]
+            ],
+            "id": "p-21ac46c1629fb369"
           },
           {
             "type": "paragraph",
@@ -164,7 +174,8 @@
                 "type": "text",
                 "text": "(...)"
               }
-            ]
+            ],
+            "id": "p-6e6ea7e1675130fe-2"
           },
           {
             "type": "paragraph",
@@ -178,7 +189,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-6ca85b6ddf2d45c2"
           },
           {
             "type": "paragraph",
@@ -196,7 +208,8 @@
                 "type": "text",
                 "text": ": Planarcadia's hottest special effect, airing every Sunday at 8 PM!"
               }
-            ]
+            ],
+            "id": "p-79cb6a521ecbdf4f"
           },
           {
             "type": "paragraph",
@@ -214,7 +227,8 @@
                 "type": "text",
                 "text": ": Save the world? Nah, our goal is to purify everyone's souls! The year's best feel-good animation, don't miss it every Friday at 9 PM!"
               }
-            ]
+            ],
+            "id": "p-1717f036e7e449c7"
           },
           {
             "type": "paragraph",
@@ -223,7 +237,8 @@
                 "type": "text",
                 "text": "(...)"
               }
-            ]
+            ],
+            "id": "p-6e6ea7e1675130fe-3"
           },
           {
             "type": "paragraph",
@@ -237,7 +252,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-4da774af8edceb50"
           },
           {
             "type": "paragraph",
@@ -255,7 +271,8 @@
                 "type": "text",
                 "text": ": The longest and most entertaining safety education documentary in history. Season 43 is now streaming!"
               }
-            ]
+            ],
+            "id": "p-85a998caaf6242ae"
           },
           {
             "type": "paragraph",
@@ -273,7 +290,8 @@
                 "type": "text",
                 "text": ": A show tailor-made for the imagenae, bringing you the culinary habits and signature dishes of different species across the cosmos."
               }
-            ]
+            ],
+            "id": "p-6798afbc47bd70a6"
           },
           {
             "type": "paragraph",
@@ -282,7 +300,8 @@
                 "type": "text",
                 "text": "(...)"
               }
-            ]
+            ],
+            "id": "p-6e6ea7e1675130fe-4"
           }
         ]
       }

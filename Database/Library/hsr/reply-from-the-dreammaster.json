@@ -4,10 +4,11 @@
   "id": "reply-from-the-dreammaster",
   "name": "Reply from the Dreammaster",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Reply_from_the_Dreammaster",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-5fe6385cce1760b2"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -70,7 +73,8 @@
                 "type": "text",
                 "text": "I hear your next destination is Kasbelina-VIII. I know I shouldn't interfere with your path of spreading harmonious music, and I understand why you refuse the Family's support. However, this time is different. The conflicting parties harbor deep-seated grudges, and surrounding powers are eager to see them fight to the death. If anything unexpected happens, please don't hesitate to seek help from the local Family followers."
               }
-            ]
+            ],
+            "id": "p-f035dabedc69ea3c"
           },
           {
             "type": "paragraph",
@@ -79,7 +83,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -116,7 +121,8 @@
                 "type": "text",
                 "text": "Therefore, there's no need to seek my opinion on everything. This applies not just to this matter, but to all matters."
               }
-            ]
+            ],
+            "id": "p-f144abd55efd18b5"
           },
           {
             "type": "paragraph",
@@ -125,7 +131,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-3"
           },
           {
             "type": "paragraph",
@@ -162,7 +169,8 @@
                 "type": "text",
                 "text": "Child, all I can tell you is this: When all paths on the ground have been exhausted, birds must leave their footprints in the sky."
               }
-            ]
+            ],
+            "id": "p-158a1e3ac77f724e"
           }
         ]
       }

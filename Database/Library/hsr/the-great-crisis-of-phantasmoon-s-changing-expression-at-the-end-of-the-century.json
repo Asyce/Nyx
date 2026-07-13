@@ -4,10 +4,11 @@
   "id": "the-great-crisis-of-phantasmoon-s-changing-expression-at-the-end-of-the-century",
   "name": "The Great Crisis of Phantasmoon's Changing Expression at the End of the Century",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/The_Great_Crisis_of_Phantasmoon%27s_Changing_Expression_at_the_End_of_the_Century",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-1c4e4c9387184392"
           },
           {
             "type": "paragraph",
@@ -38,7 +40,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-3419127384fab69e"
           },
           {
             "type": "paragraph",
@@ -54,7 +57,8 @@
                 "type": "text",
                 "text": "Day and night, all of Planarcadia bathes in the Radiance of this lunar phase."
               }
-            ]
+            ],
+            "id": "p-474b66efa46b8a9f"
           },
           {
             "type": "paragraph",
@@ -77,7 +81,8 @@
                 "type": "text",
                 "text": "Indeed, despite the crowds of people walking under the moon and its apparent waxing and waning phases, from a visitor's point of view, I don't believe this is a real moon at all."
               }
-            ]
+            ],
+            "id": "p-3876bf7b1531a68d"
           },
           {
             "type": "paragraph",
@@ -91,7 +96,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-e65dd924ff2a0bb5"
           },
           {
             "type": "paragraph",
@@ -114,7 +120,8 @@
                 "type": "text",
                 "text": "Whenever the expression of Phantasmoon changed, it signaled that a major event with significant social impact would occur in Planarcadia. However, throughout my dozens of days investigating here, no anomalies have been observed."
               }
-            ]
+            ],
+            "id": "p-313e8e62f81c3de1"
           },
           {
             "type": "paragraph",
@@ -123,7 +130,8 @@
                 "type": "text",
                 "text": "— Note: While the collective unconscious theory might explain Phantasmoon's expressions as a manifestation of group consciousness, the people of Planarcadia have a different take: they're the multiple phases of Aha, the Aeon of Elation."
               }
-            ]
+            ],
+            "id": "p-05603f91f8a93a32"
           },
           {
             "type": "paragraph",
@@ -132,7 +140,8 @@
                 "type": "text",
                 "text": "...The imagenae of the arcadia survive on Wishpower. While the strength of Wishpower is related to the waxing and waning of the \"Phantasmoon,\" it can't be simplified to popular notions like \"full moons cause werewolves to transform.\" I am contemplating a more appropriate and well-researched way to describe this phenomenon..."
               }
-            ]
+            ],
+            "id": "p-a217cacb494c7a2b"
           },
           {
             "type": "paragraph",
@@ -146,7 +155,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-27cc330da2edf010"
           },
           {
             "type": "paragraph",
@@ -155,7 +165,8 @@
                 "type": "text",
                 "text": "...Since I came here by spaceship, why not try approaching and landing on \"Phantasmoon\" by it?"
               }
-            ]
+            ],
+            "id": "p-f2d29a0f4f18ae46"
           },
           {
             "type": "paragraph",
@@ -185,7 +196,8 @@
                 "type": "text",
                 "text": "Wrong, wrong, it's all wrong. How could this be?"
               }
-            ]
+            ],
+            "id": "p-6e79b83363310d4b"
           },
           {
             "type": "paragraph",
@@ -201,7 +213,8 @@
                 "type": "text",
                 "text": "My spaceship still isn't fixed."
               }
-            ]
+            ],
+            "id": "p-73eb392a86f2dea4"
           },
           {
             "type": "paragraph",
@@ -210,7 +223,8 @@
                 "type": "text",
                 "text": "With a bitter smile, I pondered in my disappointment: People must be prevented from ascending to the Phantasmoon for some reason, right? Otherwise, wouldn't the people of Planarcadia have done it already? Why did it have to fall to me to investigate?"
               }
-            ]
+            ],
+            "id": "p-118aabd04f2256e1"
           },
           {
             "type": "paragraph",
@@ -224,7 +238,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-31d9c946b14d59fc"
           },
           {
             "type": "paragraph",
@@ -247,7 +262,8 @@
                 "type": "text",
                 "text": "Or could it be that the deeper I investigate and the more information I uncover, the more subconscious anxiety is being implanted in my mind?"
               }
-            ]
+            ],
+            "id": "p-39d074fb6fba288e"
           },
           {
             "type": "paragraph",
@@ -270,7 +286,8 @@
                 "type": "text",
                 "text": "As I started up the ship, I thought I saw a look of compassion in the nearly-full moon's face. But in the blink of an eye, Phantasmoon returned to its usual smile, just as it always does."
               }
-            ]
+            ],
+            "id": "p-0b47e43155a8e1c3"
           },
           {
             "type": "paragraph",
@@ -286,7 +303,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-6d6c684b401ed514"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "tottonids-are-rocks",
   "name": "Tottonids Are Rocks",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Tottonids_Are_Rocks",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "To the researcher of the \"Unbearable Weight\" Curio,"
               }
-            ]
+            ],
+            "id": "p-c91feb698cafd41e"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "I heard you are the expert on galactic biodiversity, so I would like to present to you a few questions I have been asking myself, I hope your answers will bring some enlightenment to my path."
               }
-            ]
+            ],
+            "id": "p-3971639eba4a053f"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "Before this, I have — through various formal and informal meetings, spiritually infused and regular fiber paper letters — participated in passionate debates on whether Tottonid are silicon-based lifeforms or just rocks. However, there are still questions that beg to be answered."
               }
-            ]
+            ],
+            "id": "p-ab55f2e586276095"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "As we know, the discipline in which you operate has defined Tottonids as \"silicon-based lifeforms that communicate with internal electrical signals.\" However, they have already become extinct through the long Amber Eras, leaving behind only a crown encrusted with a thought monotectic of past monarchs — the Curio \"Unbearable Weight.\""
               }
-            ]
+            ],
+            "id": "p-d12333876040893c"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "Excuse my ignorance, but I have a few questions:"
               }
-            ]
+            ],
+            "id": "p-0d3ee37f491c30c9"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "1. Since Tottonids allegedly communicate with electrical signals, no one in this galaxy would be able to decipher their thoughts, language, or history. So then, you can claim that said electrical signal exists, but I can also claim that said signal does not exist. How can we determine its falsifiability?"
               }
-            ]
+            ],
+            "id": "p-7082084b43e6acf2"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "2. Since it is not falsifiable, maybe the racial history of the Tottonids was just a fabrication of the History Fictionologists since the beginning."
               }
-            ]
+            ],
+            "id": "p-dda401730fea82c7"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "3. In this space station, aside from specific individuals, most researchers don't usually step out of the comfort of their labs, and therefore there had been no one who traveled to Planet Totton to verify and study this claim. Simply obtaining a crystal crown and a grand history that is, again, unverifiable had determined that the Tottonids are lifeforms with a long cultural history. Isn't this going against the criteria of research?"
               }
-            ]
+            ],
+            "id": "p-73c7a5b394219bcd"
           },
           {
             "type": "paragraph",
@@ -91,7 +100,8 @@
                 "type": "text",
                 "text": "4. In the interdisciplinary summit in the space station, the Department of Galactic Geography listed the mineral composition of the Unbearable Weight in a detailed report and defined it as a rare mineral cluster. However, the Department of Ecology named it a thought monotectic construct of an extinct race and claimed the Curio as their own. This, in my humble opinion, is no different than that of a pirate."
               }
-            ]
+            ],
+            "id": "p-a5e52b2077cb88f7"
           },
           {
             "type": "paragraph",
@@ -100,7 +110,8 @@
                 "type": "text",
                 "text": "After much thought and many restless nights, I have decided that I could not bear the thought of your good name being sullied due to misguided Curio categorization. I also could not bear the thought of my discipline, the Department of Ecology, being stampeded under the strong-arming ways of a certain department."
               }
-            ]
+            ],
+            "id": "p-1c417cb919f9bf5f"
           },
           {
             "type": "paragraph",
@@ -109,7 +120,8 @@
                 "type": "text",
                 "text": "The reason for my composing of this letter and my blathering is merely so that I can convey three sentences, which are:"
               }
-            ]
+            ],
+            "id": "p-757815b99cde07d0"
           },
           {
             "type": "paragraph",
@@ -132,7 +144,8 @@
                 "type": "text",
                 "text": "Tottonids are f****** rocks!"
               }
-            ]
+            ],
+            "id": "p-fac3cca373f2eeac"
           },
           {
             "type": "paragraph",
@@ -141,7 +154,8 @@
                 "type": "text",
                 "text": "A straightforward Department of Galactic Geography Researcher"
               }
-            ]
+            ],
+            "id": "p-b41959a018982cda"
           }
         ]
       }

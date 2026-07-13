@@ -4,10 +4,11 @@
   "id": "jiaoqiu-s-follow-up-medical-report",
   "name": "Jiaoqiu's Follow-Up Medical Report",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Jiaoqiu%27s_Follow-Up_Medical_Report",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -40,7 +41,8 @@
                 "type": "text",
                 "text": "Race: Foxian"
               }
-            ]
+            ],
+            "id": "p-ad735e4e26d99265"
           },
           {
             "type": "paragraph",
@@ -89,7 +91,8 @@
                 "type": "text",
                 "text": "5. Patient had dilated pupils and an abnormally low body temperature when first discovered."
               }
-            ]
+            ],
+            "id": "p-e4a203868dac4d70"
           },
           {
             "type": "paragraph",
@@ -131,7 +134,8 @@
                 "type": "text",
                 "text": "4. The patient can also ingest tonics that promote tissue regeneration and have blood nourishment effects. This will help the patient regain his strength. Herbal baths are also recommended to help flush toxins from the body. When taking an herbal bath, the patient should take care to protect the wounds from direct contact with the bathwater while immersing his entire body."
               }
-            ]
+            ],
+            "id": "p-51ef8f69f5c29264"
           },
           {
             "type": "paragraph",
@@ -180,7 +184,8 @@
                 "type": "text",
                 "text": "5. As the patient's condition meets the basic requirements for discharge and he has requested to be discharged, he is now declared medically fit for discharge."
               }
-            ]
+            ],
+            "id": "p-cdbb2ce113f393f2"
           },
           {
             "type": "paragraph",
@@ -215,7 +220,8 @@
                 "type": "text",
                 "text": "3. Patient is to regularly report on how his wounds are healing. In view of the patient's plans to return to his homeland, assistance from the Yaoqing's Alchemy Commission in further diagnoses would be highly appreciated."
               }
-            ]
+            ],
+            "id": "p-e35736b82897a914"
           },
           {
             "type": "paragraph",
@@ -224,7 +230,8 @@
                 "type": "text",
                 "text": "Lingsha, Alchemy Commission"
               }
-            ]
+            ],
+            "id": "p-02eb4008ee360691"
           },
           {
             "type": "paragraph",
@@ -233,7 +240,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

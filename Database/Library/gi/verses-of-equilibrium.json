@@ -4,10 +4,11 @@
   "id": "verses-of-equilibrium",
   "name": "Verses of Equilibrium",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Verses_of_Equilibrium",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -59,7 +60,8 @@
                 "type": "text",
                 "text": "Slayer of foul demons, no evil would He leave unquenched."
               }
-            ]
+            ],
+            "id": "p-6666a339bc4cbb10"
           },
           {
             "type": "paragraph",
@@ -108,7 +110,8 @@
                 "type": "text",
                 "text": "The sea monster subdued, peace returned at last!"
               }
-            ]
+            ],
+            "id": "p-fe9bef60a2af55d0"
           },
           {
             "type": "paragraph",
@@ -157,7 +160,8 @@
                 "type": "text",
                 "text": "A demonic infestation thus engendered by the fallen souls."
               }
-            ]
+            ],
+            "id": "p-ce22348da0e3b635"
           },
           {
             "type": "paragraph",
@@ -206,7 +210,8 @@
                 "type": "text",
                 "text": "Alatus, by whose talons foes were quashed and peace procured."
               }
-            ]
+            ],
+            "id": "p-873ea8fbf85d8441"
           },
           {
             "type": "paragraph",
@@ -255,7 +260,8 @@
                 "type": "text",
                 "text": "And may these words by fire's light His Majesty's heart please."
               }
-            ]
+            ],
+            "id": "p-dd79c827b24a6f1b"
           }
         ]
       }

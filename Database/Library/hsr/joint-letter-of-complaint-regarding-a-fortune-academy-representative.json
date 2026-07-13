@@ -4,10 +4,11 @@
   "id": "joint-letter-of-complaint-regarding-a-fortune-academy-representative",
   "name": "Joint Letter of Complaint Regarding a Fortune Academy Representative",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Joint_Letter_of_Complaint_Regarding_a_Fortune_Academy_Representative",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -26,7 +27,8 @@
                 "type": "text",
                 "text": "...We really cannot stand this any longer. Fortune Academy should not have to deal with such irresponsible teachers, and Paperfold University should not allow these people to be employed within the school! Therefore, we have listed many examples of professional misconduct with this academy representative and hope they are judged fairly by the school."
               }
-            ]
+            ],
+            "id": "p-bc03c41559d27392"
           },
           {
             "type": "paragraph",
@@ -61,7 +63,8 @@
                 "type": "text",
                 "text": "Having gained control of the academy, this representative still is not satisfied and continuously uses countless underhanded methods to try and bring the student council under his control, too. These methods include, but are not limited, to: Threatening student council members with bad grades, making unauthorized modifications to election processes, and vetoing student proposals without evidence of proper reason... Because of this, many student leaders have already resigned due to his brutal and unscrupulous methods."
               }
-            ]
+            ],
+            "id": "p-b1ba68e70430f5ab"
           },
           {
             "type": "paragraph",
@@ -110,7 +113,8 @@
                 "type": "text",
                 "text": "(The following section has been torn off)"
               }
-            ]
+            ],
+            "id": "p-469a671269023a5a"
           }
         ]
       }

@@ -4,17 +4,19 @@
   "id": "tempering-workshop-a-fresh-start",
   "name": "Tempering Workshop: A Fresh Start!",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Tempering_Workshop:_A_Fresh_Start!",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -71,11 +73,13 @@
                 "type": "text",
                 "text": "And many more new services!"
               }
-            ]
+            ],
+            "id": "p-100e2ac8a1441301"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a-2"
           }
         ]
       }

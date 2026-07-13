@@ -4,10 +4,11 @@
   "id": "select-your-faction",
   "name": "Select Your Faction",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Select_Your_Faction",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Welcome, all you new brothers and sisters! Congratulations, you little sillies, on finally making it through a ridiculously absurd world to this tavern!"
               }
-            ]
+            ],
+            "id": "p-d646b33639ff25c6"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "But don't start laughing just yet. Surely you don't think you've escaped the grasp of absurdity? No, no, my lovely little sillies, the end of the world is hardly the end of absurdity! This tavern may not be the IPC, but wherever there are people, there are \"sides.\" So before you can actually sit at the table, you must first master the ultimate mystery of the cosmos, the lifelong lesson of every social being: \"picking a side\"!"
               }
-            ]
+            ],
+            "id": "p-97a5689859d38e17"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "The internal factional struggles among the Masked Fools are ruthless. Now, with the Phantasmoon at its fullest, the Fools have each laid out their own guides. Hippy Falstaff has compiled a list of the most popular factions currently in the tavern to help you navigate the Phantasmoon Games."
               }
-            ]
+            ],
+            "id": "p-ba0b84bfa0b747b3"
           },
           {
             "type": "paragraph",
@@ -58,7 +62,8 @@
                 "type": "text",
                 "text": "Recruitment Slogan: \"Aha is actually... an animation character!\""
               }
-            ]
+            ],
+            "id": "p-51f462f36cd67d6b"
           },
           {
             "type": "paragraph",
@@ -80,7 +85,8 @@
                 "type": "text",
                 "text": "when he saw the Games's old name, \"Mandala of the Imagenatic Womb World.\" He had a realization and boldly claimed, \"The true stars of the Phantasmoon Games are actually the imagenae.\" And that, my friends, is the Purist doctrine of the Elation."
               }
-            ]
+            ],
+            "id": "p-4cf5c7fd6972f31a"
           },
           {
             "type": "paragraph",
@@ -89,7 +95,8 @@
                 "type": "text",
                 "text": "This was like catnip for Masked Fools who were already obsessed with the imagenae. Their life's goal is to get a \"best girl\" from the imagenae to the pinnacle to win the whole Phantasmoon Games, hoping to \"break into the animation dimension.\" But they failed, terribly... Their biggest \"win\" was when a ploo Supplicant showed up. The Purists wept, waved their glowsticks, and got it to seventh place... out of eight."
               }
-            ]
+            ],
+            "id": "p-485f832e955365b0"
           },
           {
             "type": "paragraph",
@@ -98,7 +105,8 @@
                 "type": "text",
                 "text": "And this year, Miss Sparxie successfully participated in the Game, and they've leveled up their ambition: \"This year, let's just wish to turn Aha into our best girl!\""
               }
-            ]
+            ],
+            "id": "p-fec7d067281434d6"
           },
           {
             "type": "paragraph",
@@ -119,7 +127,8 @@
                 "type": "text",
                 "text": "Recruitment Slogan: \"Who cares where Aha is?\""
               }
-            ]
+            ],
+            "id": "p-34ba34f2e6dcf691"
           },
           {
             "type": "paragraph",
@@ -128,7 +137,8 @@
                 "type": "text",
                 "text": "Ah, the up-and-coming Reformists! A hot new stock that I, Hippy Falstaff, am quite bullish on. After years of fighting, they're finally strong enough to rival the Purists."
               }
-            ]
+            ],
+            "id": "p-2658ef578c93409b"
           },
           {
             "type": "paragraph",
@@ -137,7 +147,8 @@
                 "type": "text",
                 "text": "These Masked Fools live by the motto: \"Please yourself before you please the gods.\" They play by the Phantasmoon Games' rules, but only if it's fun for them, demanding that outdated jokes get a fresh coat of paint. And Aha? Pfft, anyone who laughs is Aha!"
               }
-            ]
+            ],
+            "id": "p-41c4894993855e14"
           },
           {
             "type": "paragraph",
@@ -146,7 +157,8 @@
                 "type": "text",
                 "text": "Also, Reformists are doers, not talkers. Words alone won't cut it. Their latest scheme, I hear, is to team up with some of the less devout Purists to forge a ninth mask, one that can even fool The Laughter."
               }
-            ]
+            ],
+            "id": "p-e01903570baa170f"
           },
           {
             "type": "paragraph",
@@ -167,7 +179,8 @@
                 "type": "text",
                 "text": "Recruitment Slogan: \"To hell with Aha!\""
               }
-            ]
+            ],
+            "id": "p-0c2d0cd2f18a7350"
           },
           {
             "type": "paragraph",
@@ -176,7 +189,8 @@
                 "type": "text",
                 "text": "Now, for these guys... Even I, Hippy Falstaff, who never stops laughing, have to wipe the grin off my face and get serious for a moment."
               }
-            ]
+            ],
+            "id": "p-6130cb8e13e26256"
           },
           {
             "type": "paragraph",
@@ -185,7 +199,8 @@
                 "type": "text",
                 "text": "They shot up out of nowhere a few years back, absorbing the once-proud \"Dad Jokers.\" They are, by far, the most hated group of Fools. They preach that comedy has lost its edge, that the art of the truly offensive has been abandoned by the Elation. Here's their brilliant idea: \"Mock death itself, and Aha shall reign in hell.\" Too bad they're all talk. The group is full of edgelords who don't know when to quit, and they made everyone hate them when some radicals joked about the Herald of Death incident during the Phantasmoon Games... Yeah, they played with fire and, predictably, got burned."
               }
-            ]
+            ],
+            "id": "p-692f554be2ebf37c"
           },
           {
             "type": "paragraph",
@@ -194,7 +209,8 @@
                 "type": "text",
                 "text": "Ironically, most of these degenerates are model citizens outside the tavern, often seen doing charity work near the @ Gate... but let's not get sidetracked."
               }
-            ]
+            ],
+            "id": "p-6c168dd7837c3a6c"
           },
           {
             "type": "paragraph",
@@ -215,7 +231,8 @@
                 "type": "text",
                 "text": "Recruitment Slogan: \"*hold back laughter*\""
               }
-            ]
+            ],
+            "id": "p-48448e460d381ac2"
           },
           {
             "type": "paragraph",
@@ -224,7 +241,8 @@
                 "type": "text",
                 "text": "Hey, don't let the name turn you off. We're not killjoys. The real art of holding it in is: \"If you're not sure if a joke is funny, just wait. The second you hear someone else laugh, you start roaring!\" And who's the leader of this brilliant movement? Moi! Hippy Falstaff! (Why else would I be your humble narrator?)"
               }
-            ]
+            ],
+            "id": "p-8b1870ceff586d15"
           },
           {
             "type": "paragraph",
@@ -233,7 +251,8 @@
                 "type": "text",
                 "text": "Never heard of me? That's the idea! I'm part of the invisible majority. I'm silent in the real world. But in the tavern, I save my laughter for every punchline. I'm a nobody, and that's the secret to survival."
               }
-            ]
+            ],
+            "id": "p-82c838f562113295"
           },
           {
             "type": "paragraph",
@@ -242,7 +261,8 @@
                 "type": "text",
                 "text": "Here's a fun fact: jokes come with a price (just ask the Roasters and their medical bills). And jokes have a purpose (just ask the animation worshipers). Here's a better fact: if you laugh when everyone else laughs, you'll never get in trouble. So for the Phantasmoon Games, we don't need opinions. We don't need a perspective. We're just the innocent audience, here to enjoy a good joke."
               }
-            ]
+            ],
+            "id": "p-045edbc071b3ec0c"
           },
           {
             "type": "paragraph",
@@ -251,7 +271,8 @@
                 "type": "text",
                 "text": "We offer no performance, and we follow no rules. We are simply free to be entertained."
               }
-            ]
+            ],
+            "id": "p-cf168289010eaad4"
           },
           {
             "type": "paragraph",
@@ -260,7 +281,8 @@
                 "type": "text",
                 "text": "We offer no comment, and we remain forever neutral. We simply enjoy the experience of Elation."
               }
-            ]
+            ],
+            "id": "p-5707c8ccba6de067"
           },
           {
             "type": "paragraph",
@@ -269,7 +291,8 @@
                 "type": "text",
                 "text": "Look at that! No responsibility, no attachments. We're the freest Fools around! Old jokes, new pranks, dark humor, dad jokes... we just follow the lead and laugh our heads off! That's the power of the nobodies, the cheer of the majority!"
               }
-            ]
+            ],
+            "id": "p-a31fc932f8bc6e03"
           },
           {
             "type": "paragraph",
@@ -278,7 +301,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -287,7 +311,8 @@
                 "type": "text",
                 "text": "So come on, choose your faction!"
               }
-            ]
+            ],
+            "id": "p-64ecfb5c17fd329e"
           }
         ]
       }

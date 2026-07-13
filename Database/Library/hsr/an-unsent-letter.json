@@ -4,10 +4,11 @@
   "id": "an-unsent-letter",
   "name": "An Unsent Letter",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/An_Unsent_Letter",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "My once-dear friend,"
               }
-            ]
+            ],
+            "id": "p-898139b69c334c62"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Upon receiving your letter, I started a profound reflection on our seven-year-long \"friendship.\""
               }
-            ]
+            ],
+            "id": "p-6b8b3c8d2aba9aad"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "It has been quite some time since our last argument, and I believe that both you and I have regained our composure and can engage in a reasonable conversation. Now, please allow me to be sincere and straightforward in my words."
               }
-            ]
+            ],
+            "id": "p-a85198fbfc94f7c0"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "The differences between us have existed since the beginning of our relationship. At first, I was blinded by my intense admiration and affection for you, and I willingly regarded you as an authority figure and my spiritual mentor. However, this does not justify treating your followers as mere experimental subjects."
               }
-            ]
+            ],
+            "id": "p-aed24ff366eb7c56"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "You often exert pressure on everyone around you, whether intentionally or unintentionally, causing people to subconsciously perceive themselves as inferior to you. You sit in the \"Father's\" chair, accepting unconditional admiration, flattery, and praise, as a guarantee of your unassailable authority."
               }
-            ]
+            ],
+            "id": "p-a375373aa7045693"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "However, when faced with criticisms or challenges, your amiable demeanor and generosity vanish, replaced by cruelty, denunciation, and dictatorship. In your eyes, any dissent is nothing more than rebellion against one's father. Even though my intention is to further refine the valuable insights you have discovered, you accuse me of harboring \"patricidal motives\" and claim that my efforts to expand upon your doctrine are an attempt to \"undermine your unshakable fortress.\""
               }
-            ]
+            ],
+            "id": "p-cf54046aacb91cac"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "However, isn't your obsession with authority an outward display of your pathological dependency? With all due respect, you simply derive your sense of security from the love and approval of others, and you rely on it for your emotional stability."
               }
-            ]
+            ],
+            "id": "p-4281d0e343c19dba"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "Obviously, I am not the only \"friend\" who has distanced themselves from you due to differences in ideals. Admit it — you don't seek friends, but rather compliant children who lack independent opinions."
               }
-            ]
+            ],
+            "id": "p-0f6c2f2436333c1d"
           },
           {
             "type": "paragraph",
@@ -91,7 +100,8 @@
                 "type": "text",
                 "text": "Frankly, your \"authority\" and obstinacy now appear rather absurd in my eyes."
               }
-            ]
+            ],
+            "id": "p-df1e215d0709d160"
           },
           {
             "type": "paragraph",
@@ -100,7 +110,8 @@
                 "type": "text",
                 "text": "Yours, Frank and Outspoken Carl"
               }
-            ]
+            ],
+            "id": "p-09a95b77a23d84e1"
           }
         ]
       }

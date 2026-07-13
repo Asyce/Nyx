@@ -4,10 +4,11 @@
   "id": "vidyadhara-elegy-insight-on-six-charioteers-adjudicating-the-imbibitor-lunae",
   "name": "Vidyadhara Elegy: Insight on \"Six Charioteers Adjudicating the Imbibitor Lunae\"",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Vidyadhara_Elegy:_Insight_on_%22Six_Charioteers_Adjudicating_the_Imbibitor_Lunae%22",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "(Editor: After the Sedition of Imbibitor Lunae was quelled, some Vidyadhara individuals still worshiped Dan Feng in secrecy, creating various literary works and dramas remixing the whole narrative of the sedition from the perspective of supporters."
               }
-            ]
+            ],
+            "id": "p-9691d0bd45c031ce"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "The Luofu's Six Charioteers let most of these plays go, but \"Six Charioteers Adjudicating the Imbibitor Lunae\" was very influential at the time, even prompting some Vidyadhara individuals to form groups against the Alliance. The Seat of Divine Foresight was forced to ban performances of this play and strictly prohibited publication of its libretto."
               }
-            ]
+            ],
+            "id": "p-313519ed541db936"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "But nowadays, the Sedition of Imbibitor Lunae and its aftershocks have long subsided. This editor believes that \"Six Charioteers Adjudicating the Imbibitor Lunae\" is worthy of reexamination and reinterpretation as an artifact of its time, and so I've compiled the only fragments remaining of this libretto for the benefit of the dear reader.)"
               }
-            ]
+            ],
+            "id": "p-e0ddb80676b6f0e2"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -195,7 +200,8 @@
                 "type": "text",
                 "text": "\"Forcing the people into tranquility; this is how peace is kept in perpetuity!\""
               }
-            ]
+            ],
+            "id": "p-f6678f9b22c0fe23"
           },
           {
             "type": "paragraph",
@@ -204,7 +210,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           }
         ]
       }

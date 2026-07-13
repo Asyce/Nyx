@@ -4,10 +4,11 @@
   "id": "crumpled-paper",
   "name": "Crumpled Paper",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Crumpled_Paper",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -26,7 +27,8 @@
                 "type": "text",
                 "text": "Slumbernana Monkey ██████ Slumbernana Monkey Slumbernana ██████ Monkey Slumbernana Monkey ██████"
               }
-            ]
+            ],
+            "id": "p-435ad00d3e9e7830"
           },
           {
             "type": "paragraph",
@@ -35,7 +37,8 @@
                 "type": "text",
                 "text": "My love for Slumbernana Monkey knows no limits! Its soft fur and wise gaze just speak to my soul. I've splurged so much on Slumbernana Monkey merchandise, and everyone thinks I'm nuts. Maybe they're right, but who needs food when you can bask in the pure joy of Slumbernana Monkey...?"
               }
-            ]
+            ],
+            "id": "p-460fe115cc1bc443"
           },
           {
             "type": "paragraph",
@@ -44,7 +47,8 @@
                 "type": "text",
                 "text": "Slumbernana Monkey has become a vital part of my life now. It feels like something's missing without it. I just wish I'd discovered this ██████ earlier. If our meeting was meant to be, then I'm all in, because otherwise, I'd be chasing random stuff, like that time I was snoozing when Slumbernana Monkey came down from ██████."
               }
-            ]
+            ],
+            "id": "p-5cc4a05f9bab5a89"
           },
           {
             "type": "paragraph",
@@ -53,7 +57,8 @@
                 "type": "text",
                 "text": "No. Slumbernana Monkey is my life essence. Once I caught a cold, and I asked my Slumbernana Monkey why. Even though it said nothing, I guess it knew I was completely under its charming spell. I don't want to ██████ Monkey anymore. I'm already ████. If I could just ██████."
               }
-            ]
+            ],
+            "id": "p-25cb524fffd9d689"
           },
           {
             "type": "paragraph",
@@ -62,7 +67,8 @@
                 "type": "text",
                 "text": "No! My life is entwined with Slumbernana Monkey! If only I could transform into ██████ Monkey! Slumbernana Monkey is gazing at me! It's speaking to me! Am I the ██████ Monkey?! Yes! I AM a Slumber██████ Monkey!!! I am ████████."
               }
-            ]
+            ],
+            "id": "p-36c406d3b664b869"
           },
           {
             "type": "paragraph",
@@ -71,7 +77,8 @@
                 "type": "text",
                 "text": "I want █████... I want to █████ Monkey... I ██████nana."
               }
-            ]
+            ],
+            "id": "p-1ac944cdc10558d6"
           },
           {
             "type": "paragraph",
@@ -80,7 +87,8 @@
                 "type": "text",
                 "text": "(The following content has been smudged with a black pen and is no longer legible.)"
               }
-            ]
+            ],
+            "id": "p-68bded943c4f9de5"
           },
           {
             "type": "paragraph",
@@ -89,7 +97,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -111,7 +120,8 @@
                 "type": "text",
                 "text": "suits me more."
               }
-            ]
+            ],
+            "id": "p-49d9d592b18ba875"
           },
           {
             "type": "paragraph",
@@ -120,7 +130,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "how-to-poke-an-aeon-and-get-away",
   "name": "How to Poke an Aeon and Get Away",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/How_to_Poke_an_Aeon_and_Get_Away",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-fac48c0b5ec52fbb"
           },
           {
             "type": "paragraph",
@@ -59,7 +61,8 @@
                 "type": "text",
                 "text": "Who would notice a single speck of dust in the vast expanse of space? The Fool carved \"Shapeshifter was here\" into the barrier, then took his leave without a second glance."
               }
-            ]
+            ],
+            "id": "p-7b9ff8480d215375"
           },
           {
             "type": "paragraph",
@@ -108,7 +111,8 @@
                 "type": "text",
                 "text": "After that, countless Fools sought the treasures within the Voracity's belly, but none ever caught so much as a glimpse of the Voracity again."
               }
-            ]
+            ],
+            "id": "p-742c270deeb69971"
           },
           {
             "type": "paragraph",
@@ -143,7 +147,8 @@
                 "type": "text",
                 "text": "However, after seven days and seven nights of deliberation, the hastily convened roundtable of Knights of Beauty ultimately decided to release the Fools, since to punish them, they would have to acknowledge that these depictions actually resembled Idrila."
               }
-            ]
+            ],
+            "id": "p-c5924b26219ef188"
           },
           {
             "type": "paragraph",
@@ -192,7 +197,8 @@
                 "type": "text",
                 "text": "THEY downed the last drop of the bomb in one gulp, then left the tavern. THEIR retreating figure looked utterly forlorn."
               }
-            ]
+            ],
+            "id": "p-e5fd97dcd5a2a9b5"
           }
         ]
       }

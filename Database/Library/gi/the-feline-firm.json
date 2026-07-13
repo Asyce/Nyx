@@ -4,10 +4,11 @@
   "id": "the-feline-firm",
   "name": "The Feline Firm",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/The_Feline_Firm",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
@@ -176,13 +177,15 @@
                 "type": "text",
                 "text": "\"When it's time to change shifts, better hurry! Me, I've got an appointment to keep with the cats.\""
               }
-            ]
+            ],
+            "id": "p-46594b42bdab97d9"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
@@ -372,13 +375,15 @@
                 "type": "text",
                 "text": "\"But yous see, that hotel didn't have any rats in the first place, yeah? It was all me, catchin' 'em at night and bringing 'em back, then catchin' 'em again, you follow?\""
               }
-            ]
+            ],
+            "id": "p-8a72eefca5c8043f"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "vol-3",
       "label": "Vol. 3",
       "document": {
         "version": 1,
@@ -512,13 +517,15 @@
                 "type": "text",
                 "text": "\"We have invited you here because we've encountered an unsolvable problem, and would like to request your help, Monsieur Perroux!\""
               }
-            ]
+            ],
+            "id": "p-a58fc701b349b4de"
           }
         ]
       }
     },
     {
       "id": "4",
+      "volumeKey": "vol-4",
       "label": "Vol. 4",
       "document": {
         "version": 1,
@@ -746,13 +753,15 @@
                 "type": "text",
                 "text": "\"You mustn't forget!\""
               }
-            ]
+            ],
+            "id": "p-3959aa1641cdde8f"
           }
         ]
       }
     },
     {
       "id": "5",
+      "volumeKey": "vol-5",
       "label": "Vol. 5",
       "document": {
         "version": 1,
@@ -931,13 +940,15 @@
                 "type": "text",
                 "text": "The Master was in a great mood, and tipsy enough that he forgot to ask himself \"Can cats even speak?\""
               }
-            ]
+            ],
+            "id": "p-7477cce2aaccd2bc"
           }
         ]
       }
     },
     {
       "id": "6",
+      "volumeKey": "vol-6",
       "label": "Vol. 6",
       "document": {
         "version": 1,
@@ -1155,13 +1166,15 @@
                 "type": "text",
                 "text": "Just before he would have been caught by the Master, he agilely fled under the table."
               }
-            ]
+            ],
+            "id": "p-0820cb8ff8477e9f"
           }
         ]
       }
     },
     {
       "id": "7",
+      "volumeKey": "vol-7",
       "label": "Vol. 7",
       "document": {
         "version": 1,
@@ -1351,13 +1364,15 @@
                 "type": "text",
                 "text": "Though he still didn't know just how he was going to live as a cat."
               }
-            ]
+            ],
+            "id": "p-270fecbcc23bce32"
           }
         ]
       }
     },
     {
       "id": "8",
+      "volumeKey": "vol-8",
       "label": "Vol. 8",
       "document": {
         "version": 1,
@@ -1578,7 +1593,8 @@
                 "type": "text",
                 "text": "Also, the Lady von Frigga who proposed is a real person, and she has feelings for you, Daddy. You should find someone too.\""
               }
-            ]
+            ],
+            "id": "p-0c87e822895e5b45"
           }
         ]
       }

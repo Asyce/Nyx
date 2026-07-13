@@ -4,10 +4,11 @@
   "id": "miners-ultimatum",
   "name": "Miners' Ultimatum",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Miners%27_Ultimatum",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Notice, dear Vagrants,"
               }
-            ]
+            ],
+            "id": "p-4c0e9be60ea809dd"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "The mining team fully understands the fact that you have become homeless because of the corrosion of the Fragmentum. Thus, we now offer you to stay at the abandoned mine chamber. The mining team also welcome those who are willing to join the workforce and come and mine for a living as a new team member. Even if you insist on scavenging, the mining team still hope to live in harmony with you."
               }
-            ]
+            ],
+            "id": "p-b67410db0e730629"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "The mining team has made great concessions. However, we have noticed that there are some idle trouble-seekers among you, who interfere with the routine work and daily life of miners. Some even tried to drive the miners away and intended to take control of the mine. This is totally intolerable for all the miners in our mining team."
               }
-            ]
+            ],
+            "id": "p-c882f7e9cb33ef7c"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "Although the Silvermane Guards have long left the underground, our Underworld is never a lawless place. Wildfire and undergrounders work together to support each other and try to maintain the precious order in the Underworld. Therefore, the mining team hope that all the Vagrants stop destroying orders or seeking control of the mines. We hope that you can devote yourselves to maintain orders in the mine."
               }
-            ]
+            ],
+            "id": "p-aad96c69d6fb1298"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "We understand clearly that the majority of the Vagrants are underground residents who love peace. Thus, we hope that everyone can take the initiative to report any unlawful behavior to our team or Wildfire. Therefore, we can keep the order in the Great Mine. Otherwise, if there is any further disruption to the normal life of the community, the mining team may consider taking back the shelter we gave you and may ask all the Vagrants to leave the Great Mine. This is something we do not want to see, so we hope you will behave yourselves."
               }
-            ]
+            ],
+            "id": "p-26d7b6f2a80a11bf"
           },
           {
             "type": "paragraph",
@@ -71,7 +77,8 @@
                 "type": "text",
                 "text": "November"
               }
-            ]
+            ],
+            "id": "p-4242156e23675810"
           },
           {
             "type": "paragraph",
@@ -85,7 +92,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-9474a0f3ecb4740f"
           },
           {
             "type": "paragraph",
@@ -108,7 +116,8 @@
                 "type": "text",
                 "text": "This mine belongs to us, leave!"
               }
-            ]
+            ],
+            "id": "p-e92ac71e4e9588b7"
           },
           {
             "type": "paragraph",
@@ -131,7 +140,8 @@
                 "type": "text",
                 "text": "You are doomed when Wildfire arrive"
               }
-            ]
+            ],
+            "id": "p-8ed2116be2c6f171"
           }
         ]
       }

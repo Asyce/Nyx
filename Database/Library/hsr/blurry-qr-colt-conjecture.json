@@ -4,10 +4,11 @@
   "id": "blurry-qr-colt-conjecture",
   "name": "*Blurry QR Colt* Conjecture",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/*Blurry_QR_Colt*_Conjecture",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -32,7 +33,8 @@
                 "type": "text",
                 "text": ", the true identity of its author \"Blurry_QR_Colt,\" has become the public's hottest debate. While this column doesn't chase trends, I can't ignore the flood of reader DMs. So, by popular demand, here's a compilation of the prevailing conjectures for your reading pleasure."
               }
-            ]
+            ],
+            "id": "p-d64e17a90c04e4ce"
           },
           {
             "type": "paragraph",
@@ -74,7 +76,8 @@
                 "type": "text",
                 "text": "is more a baseball comic than a space comic... No wonder the conjecture that \"Blurry_QR_Colt is a baseball insider\" holds serious water."
               }
-            ]
+            ],
+            "id": "p-490f028cb9f40edb"
           },
           {
             "type": "paragraph",
@@ -99,7 +102,8 @@
                 "type": "text",
                 "text": "is a comic starring various animals, but shift your perspective: what if it's really about the imagenae? Its explosive success could be the imagenae's first step out of arcadia and into the wider cosmos! Worth noting: this conjecture is mostly championed by imagenae and imagenists themselves."
               }
-            ]
+            ],
+            "id": "p-948afc326b61bbc6"
           },
           {
             "type": "paragraph",
@@ -154,7 +158,8 @@
                 "type": "text",
                 "text": "is an allegorical presentation of fierce internal strife within the IPC."
               }
-            ]
+            ],
+            "id": "p-628a5a3179b08e79"
           },
           {
             "type": "paragraph",
@@ -179,7 +184,8 @@
                 "type": "text",
                 "text": "is rich with details praising the lost civilization of Adlivun, and the author also seems to possess an extraordinary understanding of Adlivun. From landscapes and natural scenery to the legends of Nanook, the narrative speaks with authority and clarity that has led some to wonder if \"Blurry_QR_Colt\" might be an Adlivun native... (Author's note: Adlivun was destroyed long ago, so this seems a rather remote possibility, doesn't it?)"
               }
-            ]
+            ],
+            "id": "p-947dc11991c7d735"
           },
           {
             "type": "paragraph",
@@ -208,7 +214,8 @@
                 "type": "text",
                 "text": "seems to constantly hint at the existence of a world without Aeons, silver rails, and Imaginary energy, and even suggest our own world was created by that one. Some researchers have even pointed out that many physical details in the work don't match up with reality, which would normally be perfectly fine for a work of fiction. Yet what unsettles them is how this invented physics forms a flawlessly self-consistent system, leaving those who trace its logic with a lingering chill. (Author's note: This kind of wild conjecture can neither be proven nor disproven, so at best it's just fun speculation...)"
               }
-            ]
+            ],
+            "id": "p-592853051500129f"
           }
         ]
       }

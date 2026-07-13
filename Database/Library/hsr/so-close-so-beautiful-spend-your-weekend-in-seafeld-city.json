@@ -4,17 +4,19 @@
   "id": "so-close-so-beautiful-spend-your-weekend-in-seafeld-city",
   "name": "So close, so beautiful. Spend your weekend in Seafeld City.",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/So_close,_so_beautiful._Spend_your_weekend_in_Seafeld_City.",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-be694d6675321808"
           },
           {
             "type": "paragraph",
@@ -51,7 +54,8 @@
                 "type": "text",
                 "text": "Enjoy the caress of the sea breeze and the whisper of the waves while you shop."
               }
-            ]
+            ],
+            "id": "p-3a1a2e9e5df69654"
           },
           {
             "type": "paragraph",
@@ -67,7 +71,8 @@
                 "type": "text",
                 "text": "Here, you can learn about local history and culture, in addition to visiting various specimens of local fish, shellfish, seaweed, and coral."
               }
-            ]
+            ],
+            "id": "p-a03c061facb2c4ea"
           },
           {
             "type": "paragraph",
@@ -83,7 +88,8 @@
                 "type": "text",
                 "text": "Climb the winding mountain paths and stroll amidst the lush greenery. Here, you can view the coastline from high above, while the sunlight, flora, and ocean wash away your worries."
               }
-            ]
+            ],
+            "id": "p-c2be5e6c374d42bc"
           },
           {
             "type": "paragraph",
@@ -99,7 +105,8 @@
                 "type": "text",
                 "text": "Take the town's tour bus to Sunset Cape. Not only does it boast magnificent cliffs and vast seas, but it also features the most beautiful sunrise in all of Planarcadia."
               }
-            ]
+            ],
+            "id": "p-ae70df80c08ebf07"
           },
           {
             "type": "paragraph",
@@ -113,7 +120,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-5aea67e39c2ea622"
           },
           {
             "type": "paragraph",
@@ -143,7 +151,8 @@
                 "type": "text",
                 "text": "Additionally, the park features a company-operated store where visitors can purchase their favorite goods at factory prices."
               }
-            ]
+            ],
+            "id": "p-ae93382d5604fd20"
           },
           {
             "type": "paragraph",
@@ -173,7 +182,8 @@
                 "type": "text",
                 "text": "During this period, the Smiles Society will also be hosting promotional events. Interested tourists are welcome to join in."
               }
-            ]
+            ],
+            "id": "p-9d0c564b7053f4e3"
           },
           {
             "type": "paragraph",
@@ -187,7 +197,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-71a7416c23e57a46"
           },
           {
             "type": "paragraph",
@@ -203,7 +214,8 @@
                 "type": "text",
                 "text": "Includes famous products such as: \"Seafeld Duck Head,\" \"Ploo Chips,\" \"Ploo Specials,\" etc."
               }
-            ]
+            ],
+            "id": "p-6531077cf2bc81b5"
           },
           {
             "type": "paragraph",
@@ -219,7 +231,8 @@
                 "type": "text",
                 "text": "A local specialty feast featuring fish prepared in every way imaginable! Experience grilled, fried, pan-seared, cold-tossed, and boiled fish all in one go!"
               }
-            ]
+            ],
+            "id": "p-9538a9d15735bcff"
           },
           {
             "type": "paragraph",
@@ -235,7 +248,8 @@
                 "type": "text",
                 "text": "A traditional soup dumpling from the ploos, filled with a special seaweed stuffing. The skin is smooth and tender, while the filling is savory and juicy."
               }
-            ]
+            ],
+            "id": "p-d1fb9eba4918dd93"
           },
           {
             "type": "paragraph",
@@ -249,7 +263,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-3f29d6db1f06ef73"
           },
           {
             "type": "paragraph",
@@ -279,7 +294,8 @@
                 "type": "text",
                 "text": "Recommended for: Travelers seeking a unique ambiance and those who appreciate traditional culture."
               }
-            ]
+            ],
+            "id": "p-0b712c12943bf73b"
           },
           {
             "type": "paragraph",
@@ -309,7 +325,8 @@
                 "type": "text",
                 "text": "Recommended for: Customers who prioritize quality accommodation and service."
               }
-            ]
+            ],
+            "id": "p-5d01fefcce256bd5"
           },
           {
             "type": "paragraph",
@@ -339,7 +356,8 @@
                 "type": "text",
                 "text": "Recommended for: Solo travelers and visitors looking to make new friends."
               }
-            ]
+            ],
+            "id": "p-0d5cf21c971bddf4"
           },
           {
             "type": "paragraph",
@@ -353,7 +371,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-efac1b238f6cd83b"
           },
           {
             "type": "paragraph",
@@ -367,7 +386,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-71aa7fc070e28148"
           }
         ]
       }

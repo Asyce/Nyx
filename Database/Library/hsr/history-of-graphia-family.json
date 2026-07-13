@@ -4,10 +4,11 @@
   "id": "history-of-graphia-family",
   "name": "History of Graphia Family",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/History_of_Graphia_Family",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Legend has it that the ancestor \"Graphia\" once ascended a tower at the end of the world, a tower that encompassed all things. There, she witnessed the suffering of mortals and descended to the world below to deliver them from hardship. Thus, she took \"Murata\" as her surname, as a reminder of her original purpose."
               }
-            ]
+            ],
+            "id": "p-e15c46c79f1fe91e"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Many imagenesis apprentices of her family all call themselves inheritors of the art of \"Graphia.\" Thus, whether they share blood ties or hail from distant lands to study under the \"Graphia\" lineage, the World in Canvas collectively refers to these Imagenists as \"the Graphia family.\""
               }
-            ]
+            ],
+            "id": "p-e869f33e0a355893"
           },
           {
             "type": "paragraph",
@@ -49,7 +52,8 @@
                 "type": "text",
                 "text": "She appeared in ancient Benzaitengoku during the Cindearth Age, joined the coalition forces against the Antimatter Legion, and created a systematic imagenesis technology. The birth of the imagenae provided the coalition with a massive influx of manpower, giving them a fighting chance to hold their ground against the Legion. It also brought a new race to what would later become Planarcadia. Near the end of the war, she sealed the world within paintings through the Phantasmoon Games, and has been silent ever since."
               }
-            ]
+            ],
+            "id": "p-321e222af4778dc5"
           },
           {
             "type": "paragraph",
@@ -83,7 +87,8 @@
                 "type": "text",
                 "text": ", which was passed down to later generations. Drawing from her observations during the Cindearth Age, Huear created numerous imagenae, bringing joy and delight to the World in Canvas."
               }
-            ]
+            ],
+            "id": "p-e0e055e3df387058"
           },
           {
             "type": "paragraph",
@@ -92,7 +97,8 @@
                 "type": "text",
                 "text": "Died at the age of thirty-one from \"Weathering.\""
               }
-            ]
+            ],
+            "id": "p-feae9677da96cf1b"
           },
           {
             "type": "paragraph",
@@ -113,7 +119,8 @@
                 "type": "text",
                 "text": "Second son of Graphia, founder of Aberrant Defense techniques. When his ancestor Graphia sealed the world within paintings, massive numbers of monsters from the Cindearth Age entered alongside it, and the fear and unease left behind by war nurtured vicious beasts there. Lumirae intoxicated a giant serpent with paint and severed its head. He conjured forests with oils to confound sprites and spirits. He left behind many fantastical tales for future generations to laugh and talk about."
               }
-            ]
+            ],
+            "id": "p-b521202db9917d65"
           },
           {
             "type": "paragraph",
@@ -122,7 +129,8 @@
                 "type": "text",
                 "text": "Disappeared after succumbing to madness at age sixty-six."
               }
-            ]
+            ],
+            "id": "p-454ea9e5ae6f739b"
           },
           {
             "type": "paragraph",
@@ -131,7 +139,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           },
           {
             "type": "paragraph",
@@ -152,7 +161,8 @@
                 "type": "text",
                 "text": "The first of her kind to attempt breaking the Weathering Curse through imagenesis. She exhausted every brush and drop of paint to patch her own fading form, gradually transforming into something between human and imagenae, a tapestry of clashing styles, eerie and unsettling. Her techniques opened revolutionary new pathways for imagenae metamorphosis and medicine, earning her the title Mother of Imagenae Medicine."
               }
-            ]
+            ],
+            "id": "p-faa6d5d8381b6a05"
           },
           {
             "type": "paragraph",
@@ -161,7 +171,8 @@
                 "type": "text",
                 "text": "Died at the age of thirty-three from \"Weathering.\" All color drained from her body, leaving only black and white."
               }
-            ]
+            ],
+            "id": "p-6b6a0dad47ba3140"
           },
           {
             "type": "paragraph",
@@ -170,7 +181,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-2"
           },
           {
             "type": "paragraph",
@@ -191,7 +203,8 @@
                 "type": "text",
                 "text": "Legend has it that Nephea made friends easily and treated people with kindness. When she fell gravely ill, those who had benefited from her generosity came rushing to repay her kindness. But none could break the Weathering Curse afflicting the Graphias, until a devil clad in black brought her a way to survive: offer up the lives of others, and her illness would be cured. Seeing her own wretched reflection in the mirror, Nephea was tempted by the devil. She painted forth monsters of the Cindearth Age, leaving corpses strewn wherever she went."
               }
-            ]
+            ],
+            "id": "p-42d90f8291525e82"
           },
           {
             "type": "paragraph",
@@ -200,7 +213,8 @@
                 "type": "text",
                 "text": "Beneath the night sky illuminated by flames, Nephea sat poised upon the back of an unspeakable monstrosity, her features serene and beautiful, showing no signs of the curse that threatened to fracture her. Her father rallied numerous artists and imagenae to strike her down, ultimately meeting his end along with her."
               }
-            ]
+            ],
+            "id": "p-bc0bbe0b11038dd4"
           },
           {
             "type": "paragraph",
@@ -214,7 +228,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-bfdc6b90ad90a8b9"
           },
           {
             "type": "paragraph",
@@ -223,7 +238,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-3"
           },
           {
             "type": "paragraph",
@@ -244,7 +260,8 @@
                 "type": "text",
                 "text": "Graphia Family's second victor of the Phantasmoon Games, following in the footsteps of his Graphia ancestor. His whereabouts became unknown after he met Aha."
               }
-            ]
+            ],
+            "id": "p-51876dc4d8f0c186"
           },
           {
             "type": "paragraph",
@@ -253,7 +270,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6-4"
           },
           {
             "type": "paragraph",
@@ -274,7 +292,8 @@
                 "type": "text",
                 "text": "A once-in-a-century genius artist who died of \"Weathering\" at the age of twenty-nine."
               }
-            ]
+            ],
+            "id": "p-4847828ce2ffa05b"
           },
           {
             "type": "paragraph",
@@ -295,7 +314,8 @@
                 "type": "text",
                 "text": "Husband of Roan, Formerly known as Ryusuke Pissarro, this man from Bathia has now taken on the role of dean at Graphia Academy."
               }
-            ]
+            ],
+            "id": "p-b6a6d4197041360c"
           },
           {
             "type": "paragraph",
@@ -316,7 +336,8 @@
                 "type": "text",
                 "text": "Daughter of Roan, perished in the Bloodstained Games. With her death, the Graphia line came to an end."
               }
-            ]
+            ],
+            "id": "p-45e7f47de9909b58"
           }
         ]
       }

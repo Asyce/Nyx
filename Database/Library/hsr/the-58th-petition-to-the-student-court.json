@@ -4,10 +4,11 @@
   "id": "the-58th-petition-to-the-student-court",
   "name": "The 58th Petition to the Student Court",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/The_58th_Petition_to_the_Student_Court",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -31,7 +32,8 @@
                 "type": "text",
                 "text": "1000HEZ058"
               }
-            ]
+            ],
+            "id": "p-16ad360b97df125a"
           },
           {
             "type": "paragraph",
@@ -52,7 +54,8 @@
                 "type": "text",
                 "text": "Hertz, a freshman of Charmony Academy"
               }
-            ]
+            ],
+            "id": "p-e281f2d11c1af9a2"
           },
           {
             "type": "paragraph",
@@ -73,7 +76,8 @@
                 "type": "text",
                 "text": "Evil has shrouded Paperfold University. Please thoroughly investigate Prema and the enigmatic force of Pepeshi known as Innasemboat behind her."
               }
-            ]
+            ],
+            "id": "p-a0bf99de8ad5f033"
           },
           {
             "type": "paragraph",
@@ -87,7 +91,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-a8fb2daaba261dfb"
           },
           {
             "type": "paragraph",
@@ -96,7 +101,8 @@
                 "type": "text",
                 "text": "Dear Paperfold University Student Court,"
               }
-            ]
+            ],
+            "id": "p-ec9f76e0974ec0b8"
           },
           {
             "type": "paragraph",
@@ -105,7 +111,8 @@
                 "type": "text",
                 "text": "Paperfold University is facing an unprecedented crisis!!! I've alerted the Student Court about this severity of this issue 57 times, but I haven't received any replies so far. Still, I won't give up! Today, I'm resubmitting my petition to fully disclose all the details, even though this may place me at great risk..."
               }
-            ]
+            ],
+            "id": "p-bcb3af979972ddcb"
           },
           {
             "type": "paragraph",
@@ -121,7 +128,8 @@
                 "type": "text",
                 "text": "a secretive group composed of Pepeshi."
               }
-            ]
+            ],
+            "id": "p-d5f238632b3be56b"
           },
           {
             "type": "paragraph",
@@ -130,7 +138,8 @@
                 "type": "text",
                 "text": "Yes, you heard me right. The seemingly unassuming Pepeshi have banded together through Innasemboat, exerting covert influence over various aspects of Penacony's society, including the economy, politics, healthcare, education, and beyond. Allow me to briefly introduce Innasemboat. It is an ancient elite society of Pepeshi, with origins dating back to before the establishment of Paperfold University. This organization operates with a strict hierarchical structure where seniority equates to rank, where seats are passed down in families to ensure the preservation of wealth and power via blood. The organization continuously enlists top elites from Penacony's political and commercial circles as executors of the leader's will, which explains why Pepeshi seldom hold prominent positions openly in society."
               }
-            ]
+            ],
+            "id": "p-3a9c617d2ed82095"
           },
           {
             "type": "paragraph",
@@ -139,7 +148,8 @@
                 "type": "text",
                 "text": "The Prema Incident exposes their next move: Innasemboat aims to infiltrate the sports and entertainment sectors of Penacony to enhance their reputation, gain public favor, and lay the groundwork for their control of darkness. I'm hereby presenting substantial evidence that the Prema Incident is part of their elaborate scheme:"
               }
-            ]
+            ],
+            "id": "p-3f23971ab72e6196"
           },
           {
             "type": "paragraph",
@@ -175,7 +185,8 @@
                 "type": "text",
                 "text": ". Why would a Spheroid be named after a ship? Think about the name \"Innasemboat\" and you'll figure out why!"
               }
-            ]
+            ],
+            "id": "p-99afef87eb6e565b"
           },
           {
             "type": "paragraph",
@@ -184,7 +195,8 @@
                 "type": "text",
                 "text": "The average students lack insight. They have never connected these three elements and thus fail to grasp the bigger picture. However, as I add in the missing link named Innasemboat, everything should become crystal clear to all. Lastly, I will present this astonishing fact: Why has the Innasemboat's conspiracy never been exposed through the years? Because the Pepeshi have controlled the entire Penaconian media industry. The fact that the news host Uma is a Pepeshi serves as the most direct evidence."
               }
-            ]
+            ],
+            "id": "p-74803781bc8512a7"
           },
           {
             "type": "paragraph",
@@ -193,7 +205,8 @@
                 "type": "text",
                 "text": "Given its implications for fair competition and potential security risks for the campus, I, on behalf of all students, hereby present the following demands to the Paperfold University Council and the Student Court:"
               }
-            ]
+            ],
+            "id": "p-8bb14711f73ac34f"
           },
           {
             "type": "paragraph",
@@ -216,7 +229,8 @@
                 "type": "text",
                 "text": "3. Disclose the investigation results to all students and announce a personal apology to me."
               }
-            ]
+            ],
+            "id": "p-fe5599b9baa31330"
           },
           {
             "type": "paragraph",
@@ -225,7 +239,8 @@
                 "type": "text",
                 "text": "Should the Student Court once again reject my petition, it would be reasonable for me to suspect that Innasemboat has infiltrated the Student Court. In such a scenario, I will escalate this matter beyond the Student Court and report directly to the University Council."
               }
-            ]
+            ],
+            "id": "p-2ab231da319e0bc6"
           },
           {
             "type": "paragraph",
@@ -260,7 +275,8 @@
                 "type": "text",
                 "text": "Hertz"
               }
-            ]
+            ],
+            "id": "p-66256c449762ce30"
           }
         ]
       }

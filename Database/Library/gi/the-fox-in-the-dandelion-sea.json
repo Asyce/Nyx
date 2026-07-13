@@ -4,17 +4,19 @@
   "id": "the-fox-in-the-dandelion-sea",
   "name": "The Fox in the Dandelion Sea",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/The_Fox_in_the_Dandelion_Sea",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -73,7 +75,8 @@
                 "type": "text",
                 "text": "Did they fly to a better place, carrying my hopes and dreams there with them?"
               }
-            ]
+            ],
+            "id": "p-c2b435f1a7d75796"
           },
           {
             "type": "paragraph",
@@ -242,20 +245,23 @@
                 "type": "text",
                 "text": "\"Be good and stay put.\""
               }
-            ]
+            ],
+            "id": "p-25998ba17d039112"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -504,20 +510,23 @@
                 "type": "text",
                 "text": "I awoke in the middle of the night to something stirring outside my door."
               }
-            ]
+            ],
+            "id": "p-2a351f4199a99980"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "vol-3",
       "label": "Vol. 3",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -736,20 +745,23 @@
                 "type": "text",
                 "text": "She bowed to me, her long silky black hair flowing down her shoulders like streams."
               }
-            ]
+            ],
+            "id": "p-8e42d555049eab57"
           }
         ]
       }
     },
     {
       "id": "4",
+      "volumeKey": "vol-4",
       "label": "Vol. 4",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -1098,20 +1110,23 @@
                 "type": "text",
                 "text": "In those fields of velvet white, she showed me how foxes play gently together in their own fashion, until the moon rose high into the starry sky."
               }
-            ]
+            ],
+            "id": "p-3f9db7410c22ce77"
           }
         ]
       }
     },
     {
       "id": "5",
+      "volumeKey": "vol-5",
       "label": "Vol. 5",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -1320,20 +1335,23 @@
                 "type": "text",
                 "text": "He dropped his gaze."
               }
-            ]
+            ],
+            "id": "p-3909ea806e1c4d0e"
           }
         ]
       }
     },
     {
       "id": "6",
+      "volumeKey": "vol-6",
       "label": "Vol. 6",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -1592,20 +1610,23 @@
                 "type": "text",
                 "text": "\"Teacher, please allow me to teach you some magic that only I know.\""
               }
-            ]
+            ],
+            "id": "p-021bdfe973a9e26d"
           }
         ]
       }
     },
     {
       "id": "7",
+      "volumeKey": "vol-7",
       "label": "Vol. 7",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -1794,20 +1815,23 @@
                 "type": "text",
                 "text": "She said softly."
               }
-            ]
+            ],
+            "id": "p-7238d82afed73445"
           }
         ]
       }
     },
     {
       "id": "8",
+      "volumeKey": "vol-8",
       "label": "Vol. 8",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -2056,20 +2080,23 @@
                 "type": "text",
                 "text": "For some reason I could not clearly name, I quietly heaved a sight of relief."
               }
-            ]
+            ],
+            "id": "p-b8b1248a3c80618a"
           }
         ]
       }
     },
     {
       "id": "9",
+      "volumeKey": "vol-9",
       "label": "Vol. 9",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -2298,20 +2325,23 @@
                 "type": "text",
                 "text": "Seeing this, the little fox swished its tail from side to side, and burrowed into the dandelion fields."
               }
-            ]
+            ],
+            "id": "p-e59a062bcf99c7e0"
           }
         ]
       }
     },
     {
       "id": "10",
+      "volumeKey": "vol-10",
       "label": "Vol. 10",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -2500,20 +2530,23 @@
                 "type": "text",
                 "text": "It was only when I started to feel strange that I realized that the fox had become a giant."
               }
-            ]
+            ],
+            "id": "p-0273e5427e4f5338"
           }
         ]
       }
     },
     {
       "id": "11",
+      "volumeKey": "vol-11",
       "label": "Vol. 11",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -2662,7 +2695,8 @@
                 "type": "text",
                 "text": "Hmm. I must have lost myself in thought that day, drifting off into sleep as I watched the sparkling lake."
               }
-            ]
+            ],
+            "id": "p-abe52a99ca6a24d9"
           }
         ]
       }

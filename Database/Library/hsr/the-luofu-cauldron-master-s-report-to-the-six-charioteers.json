@@ -4,10 +4,11 @@
   "id": "the-luofu-cauldron-master-s-report-to-the-six-charioteers",
   "name": "The Luofu Cauldron Master's Report to the Six Charioteers",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/The_Luofu_Cauldron_Master%27s_Report_to_the_Six_Charioteers",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "I am writing this letter to report on the recent changes and upcoming plans of the Alchemy Commission:"
               }
-            ]
+            ],
+            "id": "p-0fd1c217779f6d13"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Since Dan Shu's rebellion, the reputation of the Luofu Alchemy Commission has taken a major hit and we have lost the trust that people had in us. There are many voices of criticism toward the Alchemy Commission. As the Cauldron Master of the Alchemy Commission, I will implement three measures that aim to lead the Alchemy Commission out of this troubled state."
               }
-            ]
+            ],
+            "id": "p-a8f804591158caaa"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "Firstly, considering the previous isolation and corruption of the Luofu Alchemy Commission, I propose that we break down this wall and invite renowned healers from both within and outside the Alliance to visit and share ideas. At the same time, we will increase the quota of people we dispatch in exchange, encouraging healers and alchemists from the Commission to learn from the outside and enrich their treatment methods."
               }
-            ]
+            ],
+            "id": "p-f9b08547c428e36a"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "Secondly, I will introduce and impart the incense walker technique of the Xianzhou Zhuming as a form of treatment in the Luofu Alchemy Commission. For frontline soldiers who are constantly battling against the Abominations of Abundance, it is common for them to suffer trauma, and the chances of them becoming mara-struck during and after battle are far greater than the commonfolk. This is a reason why they have frequently been targeted by the Disciples of Sanctus Medicus' temptations. The treatment of the Zhuming focuses on using volatile medication to calm the patient's emotions and temper their physical condition. This has shown great efficacy in slowing down and suppressing the process of becoming mara-struck."
               }
-            ]
+            ],
+            "id": "p-fbdb7fb15fa144be"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "To do so, I will establish a dedicated team within the Alchemy Commission. They will conduct an in-depth analysis of the mechanism for incense treatment and aim to combine it with existing treatment methods employed in the Luofu. They will also optimize the preparation and application processes to ensure the treatment is safe and effective. In the future, alchemists will also be sent to the frontline to treat wounded Cloud Knights and provide them with medicines and medical training. We hope that this can reduce the prejudice that people have toward the Alchemy Commission."
               }
-            ]
+            ],
+            "id": "p-7e8b5a62af090595"
           },
           {
             "type": "paragraph",
@@ -78,7 +84,8 @@
                 "type": "text",
                 "text": "We can assist the Realm-Keeping Commission in setting up offline treatment clinics for the residents of the various delves to alleviate the stress on the medical system."
               }
-            ]
+            ],
+            "id": "p-5f0b984c3610f906"
           },
           {
             "type": "paragraph",
@@ -87,7 +94,8 @@
                 "type": "text",
                 "text": "I hope that the abovementioned measures will lead to closer cooperation between the Alchemy Commission and the other commissions and for us to regain the trust of all throughout the Luofu."
               }
-            ]
+            ],
+            "id": "p-0a2a4d2aed6b4899"
           },
           {
             "type": "paragraph",
@@ -96,7 +104,8 @@
                 "type": "text",
                 "text": "Yours Respectfully,"
               }
-            ]
+            ],
+            "id": "p-6aabe01115ffee4a"
           },
           {
             "type": "paragraph",
@@ -105,7 +114,8 @@
                 "type": "text",
                 "text": "Lingsha, Cauldron Master of the Alchemy Commission"
               }
-            ]
+            ],
+            "id": "p-ad2b24533a8b341d"
           }
         ]
       }

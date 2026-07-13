@@ -4,10 +4,11 @@
   "id": "akmonides-note",
   "name": "Akmonides' Note",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Akmonides%27_Note",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "part-i",
       "label": "Part I",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "The poor boy from the blacksmith shop has gotten above their station~"
               }
-            ]
+            ],
+            "id": "p-5651564a6b30fda9"
           },
           {
             "type": "paragraph",
@@ -28,13 +30,15 @@
                 "type": "text",
                 "text": "That love-blinded young fool... Does he really believe that he can escape the quagmire of power with his loved one and find this so-called happiness ever after?"
               }
-            ]
+            ],
+            "id": "p-6639e380c2746a4f"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "part-ii",
       "label": "Part II",
       "document": {
         "version": 1,
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "How could a Gardener in the Garden of Life be a bad person?"
               }
-            ]
+            ],
+            "id": "p-6e6bbbdaaa28993b"
           },
           {
             "type": "paragraph",
@@ -55,13 +60,15 @@
                 "type": "text",
                 "text": "They are all pure and noble scholars that cannot be blinded by wealth or tempted into breaking the law... They must be, right?"
               }
-            ]
+            ],
+            "id": "p-c493c3436842879d"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "part-iii",
       "label": "Part III",
       "document": {
         "version": 1,
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "What should I do when I grow weary of daily life in the baths?"
               }
-            ]
+            ],
+            "id": "p-701e67650831008d"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "Go and talk to the staff~ The architects, the mathematicians, the \"cleaners\"... If you can get them to open up to you, you're bound to be entertained."
               }
-            ]
+            ],
+            "id": "p-9639b72586533f39"
           }
         ]
       }

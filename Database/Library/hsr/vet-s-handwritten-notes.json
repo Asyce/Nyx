@@ -4,10 +4,11 @@
   "id": "vet-s-handwritten-notes",
   "name": "Vet's Handwritten Notes",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Vet%27s_Handwritten_Notes",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Light Calendar Year 4███, Month of Gate"
               }
-            ]
+            ],
+            "id": "p-ac31299716d3ccd8"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-2ebe551c65e0a643"
           },
           {
             "type": "paragraph",
@@ -80,7 +83,8 @@
                 "type": "text",
                 "text": "-During their wails, their eyes will instinctively gaze in the direction of the horizon"
               }
-            ]
+            ],
+            "id": "p-e298885fafb725eb"
           },
           {
             "type": "paragraph",
@@ -122,7 +126,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-4a7ec19aa0c9b5aa"
           },
           {
             "type": "paragraph",
@@ -162,7 +167,8 @@
                 "type": "text",
                 "text": "-Appetite is normal, but with changed preferences to certain ores, exhibiting an unusually high desire for ores deep in the earth"
               }
-            ]
+            ],
+            "id": "p-e37ac8627e62e97c"
           },
           {
             "type": "paragraph",
@@ -223,7 +229,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-b3a76568253f214a"
           },
           {
             "type": "paragraph",
@@ -270,7 +277,8 @@
                 "type": "text",
                 "text": "-Especially during the Hour of Curtain Fall, they will gather in the vicinity of their caretakers"
               }
-            ]
+            ],
+            "id": "p-74297cfd1f1eea0a"
           },
           {
             "type": "paragraph",
@@ -319,7 +327,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-025eacb76e7eaa5c"
           },
           {
             "type": "paragraph",
@@ -345,7 +354,8 @@
                 "type": "text",
                 "text": "A few days ago, I perused some ancient texts pertaining to the origin of dromases. According to these records, they were spawned from Georios' spine. If this is true, then their perception of this great land could far surpass our imagination."
               }
-            ]
+            ],
+            "id": "p-b12eed161429bcec"
           },
           {
             "type": "paragraph",
@@ -385,7 +395,8 @@
                 "type": "text",
                 "text": "-Collect related reports from more caravans"
               }
-            ]
+            ],
+            "id": "p-b463383a0053c706"
           },
           {
             "type": "paragraph",
@@ -399,7 +410,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-5cbee19bdf3b4064"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "maawe-and-monetoo",
   "name": "Maawe and Monetoo",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Maawe_and_Monetoo",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
@@ -123,13 +124,15 @@
                 "type": "text",
                 "text": "To harden its heart, to become as tenaciously proud as obsidian, and to be guided alone by cruel, lofty ambition..."
               }
-            ]
+            ],
+            "id": "p-ab6c0da2ded82fd1"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "vol-2",
       "label": "Vol. 2",
       "document": {
         "version": 1,
@@ -502,13 +505,15 @@
                 "type": "text",
                 "text": "Closing its obsidian gate, the wise dragon answered Maawe no more."
               }
-            ]
+            ],
+            "id": "p-a1111f6edb536a82"
           }
         ]
       }
     },
     {
       "id": "3",
+      "volumeKey": "vol-3",
       "label": "Vol. 3",
       "document": {
         "version": 1,
@@ -597,7 +602,8 @@
                 "type": "text",
                 "text": "Maawe passed on all of the songs it had heard and learned to the humans born from the springs. That's right — to our ancestors. And to this day, the songs that we Meztli continue to pass down are echoes from that ancient era."
               }
-            ]
+            ],
+            "id": "p-6a45a0919e091057"
           }
         ]
       }

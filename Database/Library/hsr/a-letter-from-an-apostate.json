@@ -4,10 +4,11 @@
   "id": "a-letter-from-an-apostate",
   "name": "A Letter from an Apostate",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/A_Letter_from_an_Apostate",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "To Mr. Gopher Wood,"
               }
-            ]
+            ],
+            "id": "p-349c717253a1e64a"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "I am writing to you about a single, silent beat in the endless aria of Constantina, the singer of the Panacoustic Theater."
               }
-            ]
+            ],
+            "id": "p-8fb333ecfbbed122"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "A long time ago, you offered your cool shade to shelter wayward pathstriders. Yet, they sought to replace the hymns of Harmony with their own discordant anthems, going so far as to incite a rebellion against their savior. We endured great hardship to purge their dissonance at long last, but the victory was costly. You were stripped of your physical form and condemned as a sinner by the main Family, while I, too, lost much in that great fire. I left you then to embark upon a pilgrimage to the Great One's sacred sites, never imagining that I would bear witness to the ultimate fate of those apostates."
               }
-            ]
+            ],
+            "id": "p-472e55fb9f71b2d0"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "As with all convicts, the main Family's tuning stripped them of their flesh, reducing them to longing without desire, substance without will, and faith without conviction. Their purest thoughts were partitioned and dismembered, becoming verses of song, passages of scripture, and lines of law. Then, they are all to be absorbed into the Great One's magnificent \"Primordial Divine Law,\" woven into its chanted verse and embraced by infinite overtones."
               }
-            ]
+            ],
+            "id": "p-8db351564011f7eb"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "During my pilgrimage, I witnessed a visitation from the Panacoustic Theater. The stars shifted, a thousand sounds rang out as one, and a million thoughts danced in ecstasy to the aria of Constantina the singer. Yet, even as puppets, those convicts refused to spend their lives heralding the consonant chord. With their last vestiges of will, they staged a final riot. The \"Edicts\" named \"Freedom\" all shifted forward by a single beat. It was merely a single beat, but the combined will of millions of convicts, held captive and catechized by the hymn for years beyond count, introduced a fleeting, discordant note into the symphony. And I must admit... that transient dissonance moved me more profoundly than the chorus of the stars ever has."
               }
-            ]
+            ],
+            "id": "p-9684d2bd7fad1f0b"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "But it was only for a moment. The strings swelled to conceal the discordant note, and in a flash, the edicts, along with the final remnants of their masters' wills, were annihilated. They had found the liberation they yearned for, and the hymn was thenceforth marked by a permanent, silent beat."
               }
-            ]
+            ],
+            "id": "p-5b2850234c7dde2f"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "And that, perhaps, is the inherent flaw in the Path we walk."
               }
-            ]
+            ],
+            "id": "p-a340e395162cc29e"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "The Family remains blissfully submerged in its paradise of cosmic harmony. Even when the thorns covering the ground pierce into their feet, they can only be moved to tears by their own boundless love in that shiver of pain. If all beliefs are truly to be accepted into the \"Primordial Divine Law,\" then these dissonant voices, now sanctioned as true notes, may have consequences far more profound than they could ever anticipate."
               }
-            ]
+            ],
+            "id": "p-38e1404edacb87c4"
           },
           {
             "type": "paragraph",
@@ -91,7 +100,8 @@
                 "type": "text",
                 "text": "I'm writing to offer you a true farewell. Though we said our goodbyes upon my departure from Penacony, we both still held to the belief that we would meet again along the Path of Harmony."
               }
-            ]
+            ],
+            "id": "p-9e6f601c689a5eef"
           },
           {
             "type": "paragraph",
@@ -100,7 +110,8 @@
                 "type": "text",
                 "text": "I am still deeply grateful for your guidance, but I can no longer believe we will meet again."
               }
-            ]
+            ],
+            "id": "p-e63ae3073eb1053c"
           }
         ]
       }

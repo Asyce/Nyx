@@ -4,10 +4,11 @@
   "id": "king-of-invokations-book",
   "name": "King of Invokations",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/King_of_Invokations_(Book)",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -29,7 +30,8 @@
                 "type": "text",
                 "text": "Upon the domes of many a sky, this supreme rite unfolded in the most unexpected way:"
               }
-            ]
+            ],
+            "id": "p-08f5e3bd44837603"
           },
           {
             "type": "paragraph",
@@ -88,7 +90,8 @@
                 "type": "text",
                 "text": "\"If all finales shall end thusly, I'll gladly have this, for I've always wanted to duel with you.\""
               }
-            ]
+            ],
+            "id": "p-dc3ff127ed24af8e"
           },
           {
             "type": "paragraph",
@@ -117,7 +120,8 @@
                 "type": "text",
                 "text": "\"Should he lose, I will twist off his head as promised. But it's a pity that the wine from such a new vessel definitely won't taste as good...\""
               }
-            ]
+            ],
+            "id": "p-3dbe198c8358ceed"
           },
           {
             "type": "paragraph",
@@ -146,7 +150,8 @@
                 "type": "text",
                 "text": "\"Fine, got it,\" replied the young girl as she rose from the table, but her eyes were still focused on the figures cast in the sky."
               }
-            ]
+            ],
+            "id": "p-727c7863a77555b8"
           },
           {
             "type": "paragraph",
@@ -175,7 +180,8 @@
                 "type": "text",
                 "text": "\"...But how can I not feel a bit jealous, Abu, when your rival is the Crocodile King?\""
               }
-            ]
+            ],
+            "id": "p-64ae88303ed9d0ea"
           },
           {
             "type": "paragraph",
@@ -204,7 +210,8 @@
                 "type": "text",
                 "text": "As in all other underdog stories, the young man, Abu, claimed victory."
               }
-            ]
+            ],
+            "id": "p-ef2a882e37688058"
           },
           {
             "type": "paragraph",
@@ -223,7 +230,8 @@
                 "type": "text",
                 "text": "Said the Crocodile King, trying to hide the fact that his body was beyond repair and on the verge of death."
               }
-            ]
+            ],
+            "id": "p-6eaaa914575ae601"
           },
           {
             "type": "paragraph",
@@ -272,7 +280,8 @@
                 "type": "text",
                 "text": "You won't understand. Oh, by the way, it just occurred to me that I don't know your name yet."
               }
-            ]
+            ],
+            "id": "p-0523b9da1631ac49"
           },
           {
             "type": "paragraph",
@@ -291,7 +300,8 @@
                 "type": "text",
                 "text": "That day, various worlds bore witness to the young man's wish:"
               }
-            ]
+            ],
+            "id": "p-4530ca1c8d9316dd"
           },
           {
             "type": "paragraph",
@@ -310,7 +320,8 @@
                 "type": "text",
                 "text": "\"Thus shall the lord of duels endure!\""
               }
-            ]
+            ],
+            "id": "p-cc08bc6471ce07a9"
           },
           {
             "type": "paragraph",
@@ -319,7 +330,8 @@
                 "type": "text",
                 "text": "— King of Invokations #1, Grand Ending! —"
               }
-            ]
+            ],
+            "id": "p-e6e4106b1e47217b"
           }
         ]
       }

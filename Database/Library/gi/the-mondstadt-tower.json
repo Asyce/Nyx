@@ -4,17 +4,19 @@
   "id": "the-mondstadt-tower",
   "name": "The Mondstadt Tower",
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/The_Mondstadt_Tower",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "vol-1",
       "label": "Vol. 1",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "During one Ludi Harpastum, a wandering singer from a distant land arrived in the city. The name of the lass was Inès, and everyone at the festival was enchanted by her stunning beauty. People of all ages and all walks of life vied to catch a glimpse of her throwing the Harpastum and to hear her sing foreign ballads."
               }
-            ]
+            ],
+            "id": "p-d72aca6e3571d406"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "\"The blessings of Barbatos are for everyone! You are only sinful if you are bitter at such a joyous occasion!\""
               }
-            ]
+            ],
+            "id": "p-4ed5a4b7684712d8"
           },
           {
             "type": "paragraph",
@@ -71,7 +75,8 @@
                 "type": "text",
                 "text": "As is known to all, the beliefs of contemporary Mondstadters hold that the Anemo Archon Barbatos encourages people to seek love and pursue freedom, but in the the Anemo Archon slept, and the city of tormented by the tyranny of the nobles, the poverty of the commoners, and the ravage of the dragon; meanwhile, the self-proclaimed \"orthodox\" church — a mere figurehead, controlled by the ruling class — advocated abstinence from earthly pleasure to avert divine punishment. Under such circumstances, even the harp which symbolized the wind had been restricted to playing only those songs deemed \"holy.\" However, the notion of \"divine punishment\" was little more than an excuse fabricated by the nobles to conceal their avarice and restrict the commoners."
               }
-            ]
+            ],
+            "id": "p-701d5c7e05ddd975"
           },
           {
             "type": "paragraph",
@@ -80,7 +85,8 @@
                 "type": "text",
                 "text": "\"To let her stay in the city is to bewitch all its inhabitants. What wickedness will this witch bring?\" The Seneschal pondered."
               }
-            ]
+            ],
+            "id": "p-fa5f36d80d2aa3df"
           },
           {
             "type": "paragraph",
@@ -99,7 +105,8 @@
                 "type": "text",
                 "text": "Octave was an unwelcome child, abandoned by his superstitious parents at birth and later raised by the Seneschal. As a child, he was persecuted and abused by the citizens, seen as a bad omen of draconic disasters. The only person who protected Octave was the Seneschal, who treated him like his own son and thus won his utmost trust."
               }
-            ]
+            ],
+            "id": "p-eb61bb06fb5c1368"
           },
           {
             "type": "paragraph",
@@ -108,7 +115,8 @@
                 "type": "text",
                 "text": "\"Bring the maiden who threw the Harpastum yesterday to me! Disturb no one and do not mention my name.\""
               }
-            ]
+            ],
+            "id": "p-a8eda4a47987e9a5"
           },
           {
             "type": "paragraph",
@@ -127,7 +135,8 @@
                 "type": "text",
                 "text": "But the silence of the tranquil moment shared by Octave and the girl was interrupted by the servants..."
               }
-            ]
+            ],
+            "id": "p-3a5e16e27f265ddd"
           }
         ]
       }

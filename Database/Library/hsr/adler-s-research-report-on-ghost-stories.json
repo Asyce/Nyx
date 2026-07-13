@@ -4,10 +4,11 @@
   "id": "adler-s-research-report-on-ghost-stories",
   "name": "Adler's Research Report on Ghost Stories",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Adler%27s_Research_Report_on_Ghost_Stories",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Rowdy Security Door"
               }
-            ]
+            ],
+            "id": "p-912e638901bd8a45"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "During one Amber Era, Herta Space Station welcomed a fateful researcher. He quietly made a vow to devote the rest of his life's effort on the space station to the pursuit of unique scientific research results. Unfortunately, the \"rest of his life\" turned out to be longer than expected, perhaps even amounting to eternity."
               }
-            ]
+            ],
+            "id": "p-f32862546543b132"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "We know not what sort of experimental accident he faced at the time, but we can confirm that this \"accident\" was a necessary prerequisite for the story that follows. To deduce past events, you might need to use a little imagination — Perhaps it was a Curio capable of \"mental projection,\" or perhaps the project he was working on was itself related to the topic of \"mental projection.\" He pushed the button with anticipation, thinking that the data he had dreamed of would appear on the screen, but what he did not expect was the beginning of a tragedy."
               }
-            ]
+            ],
+            "id": "p-6e2376cfaee2588f"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "The Security Department records show that among the accidents that have occurred in the space station, there have many deaths of researchers, but not once has there been a clear record of a researcher \"disappearing into thin air.\" But his body did, in fact, disappear, and no one knows where he went. Moreover, no one had any records of his experience. Perhaps to this day, a shadow of it still remains in the dust of the space station. What a cruel twist of fate. He completed the final step of the experiment by himself — his mind was completely projected into an object."
               }
-            ]
+            ],
+            "id": "p-f5b58da6ad48c28c"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "Just imagine, what kind of experience would it be if you could only \"observe\" what's happening in front of you, but couldn't interact with it or act in line with your own thoughts? The answer: It's torture! The mind is trapped in a \"prison,\" but what do the thoughts represent? What kind of receptacle can carry formless thoughts? Nobody knows the answer."
               }
-            ]
+            ],
+            "id": "p-501b176999385436"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "However, this casts a shadow over the space station. Who would like to have a cup filled with a human's negative thoughts instead of piping hot coffee?"
               }
-            ]
+            ],
+            "id": "p-1135c378d5423b9f"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "A researcher responded that he had heard strange noises near the security door of the department. He described the sound as a \"shrill incessant wailing,\" like the cries of some strange creature. My assistant and I quickly completed the interview and investigation, and visited the mysterious and rowdy security door again. However, the situation was regrettable for everyone there. We did not find any suspicious phenomenon, nor any evidence that could support the theory of \"mental projection.\" Under the relentless in-depth investigation of my assistant and I, we finally found a lone Wubbaboo near the security door, who kept making \"woo woo\" sounds. However, one of the researchers, in their exhaustion, mistook this for crying, which eventually led to this wild goose chase."
               }
-            ]
+            ],
+            "id": "p-4aee50c08e174272"
           },
           {
             "type": "paragraph",
@@ -87,7 +95,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-237a246c6139b4eb"
           }
         ]
       }

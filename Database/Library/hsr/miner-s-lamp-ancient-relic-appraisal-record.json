@@ -4,10 +4,11 @@
   "id": "miner-s-lamp-ancient-relic-appraisal-record",
   "name": "Miner's Lamp Ancient Relic Appraisal Record",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Miner%27s_Lamp_Ancient_Relic_Appraisal_Record",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "semicircular-electrode-collar",
       "label": "Semicircular Electrode Collar",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Semicircular Electrode Collar"
               }
-            ]
+            ],
+            "id": "p-5abbf46f3199de1c"
           },
           {
             "type": "paragraph",
@@ -48,7 +50,8 @@
                 "type": "text",
                 "text": "Trading Value: 40-60 shield"
               }
-            ]
+            ],
+            "id": "p-7fbf82c160a37f24"
           },
           {
             "type": "paragraph",
@@ -57,7 +60,8 @@
                 "type": "text",
                 "text": "[Appearance]"
               }
-            ]
+            ],
+            "id": "p-9810b31425dc31a3"
           },
           {
             "type": "paragraph",
@@ -66,7 +70,8 @@
                 "type": "text",
                 "text": "It is an irregular semi-circle, with two metal synapses on the inner side of the apex of the curve. There are also several buttons along the curve, but some buttons do not respond to input. Their functions are unknown."
               }
-            ]
+            ],
+            "id": "p-c8d5380f9413d60e"
           },
           {
             "type": "paragraph",
@@ -75,7 +80,8 @@
                 "type": "text",
                 "text": "[Description]"
               }
-            ]
+            ],
+            "id": "p-dd29d9246fcf16d5"
           },
           {
             "type": "paragraph",
@@ -84,7 +90,8 @@
                 "type": "text",
                 "text": "This object was discovered by our regular customer, Conrad. It was found in a place with some other small ancient relics, which I presume were mostly Old World households or personal objects. In terms of value, they won't make you rich overnight, but they're quite valuable."
               }
-            ]
+            ],
+            "id": "p-5540f35c687e0cba"
           },
           {
             "type": "paragraph",
@@ -93,7 +100,8 @@
                 "type": "text",
                 "text": "Conrad pointed out that its shape was strange, even the great Miner's Lamp had trouble identifying it. The Old World is full of strange objects, but this object doesn't even come close to being the strangest. With a little thought, I can try analyzing it."
               }
-            ]
+            ],
+            "id": "p-7c98a608360a246e"
           },
           {
             "type": "paragraph",
@@ -102,7 +110,8 @@
                 "type": "text",
                 "text": "As usual, we'll start by analyzing its structure."
               }
-            ]
+            ],
+            "id": "p-3957c29aa27b546a"
           },
           {
             "type": "paragraph",
@@ -111,7 +120,8 @@
                 "type": "text",
                 "text": "With how neat the arc is, I'm inclined to believe that it was designed that way, rather than being forced into this shape by \"an external force.\" The bulk of the weight is concentrated at the center, so the sides appear to supportive. The arc interior is a concave surface..."
               }
-            ]
+            ],
+            "id": "p-a7f9cb2495ef88a4"
           },
           {
             "type": "paragraph",
@@ -120,7 +130,8 @@
                 "type": "text",
                 "text": "Don't think my words are too profound. When I appraise ancient relics, I must use professional and precise words. If it was like your intra-family chit-chat, then I might as well take down the \"Miner's Lamp\" sign, close my business, and make you pay for my storytelling."
               }
-            ]
+            ],
+            "id": "p-b7255c74739a1867"
           },
           {
             "type": "paragraph",
@@ -129,7 +140,8 @@
                 "type": "text",
                 "text": "I'm only kidding. Let's continue the appraisal."
               }
-            ]
+            ],
+            "id": "p-80d513bcbf13e148"
           },
           {
             "type": "paragraph",
@@ -138,7 +150,8 @@
                 "type": "text",
                 "text": "The most striking thing about the exterior is the two curved pieces of metal. I've seen this before."
               }
-            ]
+            ],
+            "id": "p-3abc9e28b0afa738"
           },
           {
             "type": "paragraph",
@@ -147,7 +160,8 @@
                 "type": "text",
                 "text": "This is similar to something that I had appraised before. When the switch was flipped, two metal pieces made a crackling sound. I quickly shut it down for fear of what would happen. It smelled like something was burning, You wonder what it was? The man who brought the object to me put his hands directly on it. I'll just say, bless Ol' Man Copper that my hands aren't fast. You see, the key to identifying ancient relics is better safe than sorry. This philosophy has gotten me out of trouble many times."
               }
-            ]
+            ],
+            "id": "p-18a713002d8a4f0e"
           },
           {
             "type": "paragraph",
@@ -156,7 +170,8 @@
                 "type": "text",
                 "text": "So, I assume the metal parts are an electrode, which is the same as that thing. Wasn't it easy to deduce the function of this strangely shaped object?"
               }
-            ]
+            ],
+            "id": "p-1def2a4bf821e4dd"
           },
           {
             "type": "paragraph",
@@ -165,7 +180,8 @@
                 "type": "text",
                 "text": "The key to identifying ancient relics is knowledge. That will come naturally with experience."
               }
-            ]
+            ],
+            "id": "p-d721d86bfc390a84"
           },
           {
             "type": "paragraph",
@@ -174,7 +190,8 @@
                 "type": "text",
                 "text": "Didn't you mention the key is supposed to be \"better safe than sorry\"? There are so many crucial factors to consider that it is hard to know them all. Why else would I be doing this line of business, and not you?"
               }
-            ]
+            ],
+            "id": "p-63e9c41c9c75fe8b"
           },
           {
             "type": "paragraph",
@@ -183,7 +200,8 @@
                 "type": "text",
                 "text": "I went through manuscripts and magazines from the Old World. I found some similarly shaped handicrafts made from cloth. The magazines say that They were worn from the back of the neck. No wonder it was shaped like an arc! However, I was afraid of what would happen, so I called over Conrad and put the thing around his neck. And what do you know? It was a perfect fit. If someone from the Old World saw it, he would have said it's worn around the neck as well."
               }
-            ]
+            ],
+            "id": "p-08ce29e37a50bb1e"
           },
           {
             "type": "paragraph",
@@ -192,7 +210,8 @@
                 "type": "text",
                 "text": "Conrad was overjoyed at how well it fit. He said the two pieces of metal fit comfortably on the nape of his neck and wondered what they were for. When I told him it was a torture device, he was so frightened that he took it off immediately. He lifted my chair and beat me hard. I was wronged! First of all, it wasn't powered. Secondly, I didn't even press the switch. Honestly!"
               }
-            ]
+            ],
+            "id": "p-1ada69a2dbea34e7"
           },
           {
             "type": "paragraph",
@@ -201,7 +220,8 @@
                 "type": "text",
                 "text": "Since I have not seen another ancient relic like it so far, its rarity is temporarily set at four stars. Although it is a torture device, its effect is mild compared to the relics that can heat up and explode. Therefore, its danger level has been temporarily set at two stars."
               }
-            ]
+            ],
+            "id": "p-5b54478de3b53941"
           },
           {
             "type": "paragraph",
@@ -220,13 +240,15 @@
                 "type": "text",
                 "text": "----"
               }
-            ]
+            ],
+            "id": "p-a48127f288fc529a"
           }
         ]
       }
     },
     {
       "id": "2",
+      "volumeKey": "old-world-building-blocks",
       "label": "Old World Building Blocks",
       "document": {
         "version": 1,
@@ -238,7 +260,8 @@
                 "type": "text",
                 "text": "Old World Building Blocks"
               }
-            ]
+            ],
+            "id": "p-8c59398a29bfe006"
           },
           {
             "type": "paragraph",
@@ -267,7 +290,8 @@
                 "type": "text",
                 "text": "Trading Value: 2g"
               }
-            ]
+            ],
+            "id": "p-5e5dd6038493e4e7"
           },
           {
             "type": "paragraph",
@@ -276,7 +300,8 @@
                 "type": "text",
                 "text": "[Appearance]"
               }
-            ]
+            ],
+            "id": "p-9810b31425dc31a3"
           },
           {
             "type": "paragraph",
@@ -285,7 +310,8 @@
                 "type": "text",
                 "text": "Several metal blocks of varying shapes with tongue and groove joints, which can be used to connect the blocks. These appear to be ancient relics, even by Old World standards."
               }
-            ]
+            ],
+            "id": "p-b5350b97ad662336"
           },
           {
             "type": "paragraph",
@@ -294,7 +320,8 @@
                 "type": "text",
                 "text": "[Description]"
               }
-            ]
+            ],
+            "id": "p-dd29d9246fcf16d5"
           },
           {
             "type": "paragraph",
@@ -303,7 +330,8 @@
                 "type": "text",
                 "text": "This object is really worthless, based solely on the price."
               }
-            ]
+            ],
+            "id": "p-47961f2f0c387291"
           },
           {
             "type": "paragraph",
@@ -312,7 +340,8 @@
                 "type": "text",
                 "text": "Those who use the manual for the Miner's Lamp to identify ancient relics are looking to make a quick buck. But again, this isn't worth much."
               }
-            ]
+            ],
+            "id": "p-7ef15e394bc198a7"
           },
           {
             "type": "paragraph",
@@ -321,7 +350,8 @@
                 "type": "text",
                 "text": "Some ancient relics are indeed extremely valuable: some because of extraordinary technology, while others because they are composed of rare materials. Although these metal building blocks could be considered ancient relics in the Old World, they are useless junk with an interesting shape in this day and age."
               }
-            ]
+            ],
+            "id": "p-6e5239daaaaa7dd2"
           },
           {
             "type": "paragraph",
@@ -330,7 +360,8 @@
                 "type": "text",
                 "text": "Mr. Gaim brought the metal blocks to me. I told him at that time it wouldn't sell for anything. It didn't glow or heat up, had no buttons or wires, nor did he have enough of it. It was worthless junk metal with strange patterns. He didn't believe me, so he took it to someone else. And what happened? They laughed at him for wasting their time."
               }
-            ]
+            ],
+            "id": "p-f0372ac6b0338285"
           },
           {
             "type": "paragraph",
@@ -339,7 +370,8 @@
                 "type": "text",
                 "text": "Do you get it now? If you do want to sell, don't sell it as an ancient relic."
               }
-            ]
+            ],
+            "id": "p-a11583953054975f"
           },
           {
             "type": "paragraph",
@@ -348,7 +380,8 @@
                 "type": "text",
                 "text": "Later on, he sold it to me at a very cheap price and I inquired about where he found them. It took me half a month to dig out the rest of the metal blocks. What a pain..."
               }
-            ]
+            ],
+            "id": "p-305a37114e33b886"
           },
           {
             "type": "paragraph",
@@ -357,7 +390,8 @@
                 "type": "text",
                 "text": "At this point, probably someone will say I was tricking them. Why would I go through the trouble of digging it up if it's worthless?"
               }
-            ]
+            ],
+            "id": "p-c3158140f746dd14"
           },
           {
             "type": "paragraph",
@@ -366,7 +400,8 @@
                 "type": "text",
                 "text": "\"None of your darn business!\" That's what I was going to say. But just to explain, you can't survive in my line of business without a little OCD. You tell me, \"here are some blocks, but there's a few missing.\" Could you bear it? Absolutely not! I had to dig it out."
               }
-            ]
+            ],
+            "id": "p-3b0e3acd68ba31a0"
           },
           {
             "type": "paragraph",
@@ -375,7 +410,8 @@
                 "type": "text",
                 "text": "Since then, I would find the time to piece together a few pieces in between appraisals. These strange metals block had to be one of a kind! I had never seen anything quite like it, at least in my line of work."
               }
-            ]
+            ],
+            "id": "p-ea06c452c9c3db93"
           },
           {
             "type": "paragraph",
@@ -384,7 +420,8 @@
                 "type": "text",
                 "text": "In the beginning, I had no clue how to piece them together. Gradually, a shape began to take form, but it was taking up too much of my time. You can call me stupid, but it felt like some mysterious force was holding me back. Eight years had passed and I still hadn't completed it. But that mysterious voodoo-like quality made it all the more interesting."
               }
-            ]
+            ],
+            "id": "p-15e7b93a7897f156"
           },
           {
             "type": "paragraph",
@@ -393,7 +430,8 @@
                 "type": "text",
                 "text": "I read many more manuscripts from the Old World in those eight years."
               }
-            ]
+            ],
+            "id": "p-621d67b2cabacee4"
           },
           {
             "type": "paragraph",
@@ -402,7 +440,8 @@
                 "type": "text",
                 "text": "There was an article about \"cursed blocks.\" According to legends, there was a king in the Old World who suffered a coup. The king's most loyal wizard sealed the king's soul into blocks and split them to protect the king from being killed. However, the vengeful king will possess the person who pieced the blocks back together in attempt to reclaim his throne."
               }
-            ]
+            ],
+            "id": "p-1fb3656113314d5b"
           },
           {
             "type": "paragraph",
@@ -411,7 +450,8 @@
                 "type": "text",
                 "text": "Based on the description, I think it should be the same thing."
               }
-            ]
+            ],
+            "id": "p-209d0de215b68cf8"
           },
           {
             "type": "paragraph",
@@ -420,7 +460,8 @@
                 "type": "text",
                 "text": "Why are the people from the Old World so unreasonable? Don't invent these magic objects in the first place. Just invent powerful weapons so the king can suppress the coup. Then, I'd be able to make some money by selling those weapons, right?"
               }
-            ]
+            ],
+            "id": "p-a00e4d70316d9acd"
           },
           {
             "type": "paragraph",
@@ -429,7 +470,8 @@
                 "type": "text",
                 "text": "For safety concerns, I stopped trying to piece the metal blocks back together. It's not that I can't, but I don't like the thought of being possessed by an evil spirit from the Old World. Why would I want to? There's nothing left to reclaim. It's all just useless junk. Restoring the country? There's just no point. I might as well just give up."
               }
-            ]
+            ],
+            "id": "p-5eafe4638198cbe9"
           },
           {
             "type": "paragraph",
@@ -438,7 +480,8 @@
                 "type": "text",
                 "text": "But here's the twist."
               }
-            ]
+            ],
+            "id": "p-6e982b9a16d027bb"
           },
           {
             "type": "paragraph",
@@ -447,7 +490,8 @@
                 "type": "text",
                 "text": "— Someone finished the puzzle when I wasn't looking!"
               }
-            ]
+            ],
+            "id": "p-a5c3afea848afcf0"
           },
           {
             "type": "paragraph",
@@ -456,7 +500,8 @@
                 "type": "text",
                 "text": "He didn't even say anything. I don't even know if he was possessed by an evil spirit! And worst of all, he just left the metal blocks there after completing it. I respect him for not stealing, but why would you just leave it there? What if a ghost pops out afterwards?"
               }
-            ]
+            ],
+            "id": "p-43296254b3e49ee7"
           },
           {
             "type": "paragraph",
@@ -465,7 +510,8 @@
                 "type": "text",
                 "text": "So, I sold it immediately."
               }
-            ]
+            ],
+            "id": "p-f9ee19cd6533883b"
           },
           {
             "type": "paragraph",
@@ -474,7 +520,8 @@
                 "type": "text",
                 "text": "Last I heard, that neat little pyramid was being used to press the lid of a kimchi jar. The marked price is still the same as when I sold it to the old lady."
               }
-            ]
+            ],
+            "id": "p-63a33b922c60def9"
           },
           {
             "type": "paragraph",
@@ -483,7 +530,8 @@
                 "type": "text",
                 "text": "Appraiser: Balaway the Miner's Lamp"
               }
-            ]
+            ],
+            "id": "p-60c711ac55663194"
           }
         ]
       }

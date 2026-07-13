@@ -4,17 +4,19 @@
   "id": "port-bulletin-board",
   "name": "Port Bulletin Board",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Port_Bulletin_Board",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
         "blocks": [
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",
@@ -51,11 +53,13 @@
                 "type": "text",
                 "text": "Contact: Add my social media account \"@SunsetRetiree\" to get in touch. Looking for a good match."
               }
-            ]
+            ],
+            "id": "p-4d4ec54d0e3cf89f"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a-2"
           },
           {
             "type": "paragraph",
@@ -85,7 +89,8 @@
                 "type": "text",
                 "text": "Contact: The third boat to dock at the pier every evening. The secret passphrase is: \"I can't swim. How about you?\""
               }
-            ]
+            ],
+            "id": "p-69b64846d06cf820"
           },
           {
             "type": "paragraph",
@@ -115,11 +120,13 @@
                 "type": "text",
                 "text": "Contact: With social anxiety, so don't contact me. Just wire the credits to my account and move yourself in."
               }
-            ]
+            ],
+            "id": "p-b318c164cdb53bc8"
           },
           {
             "type": "paragraph",
-            "children": []
+            "children": [],
+            "id": "p-882a20e6379eb83a-3"
           },
           {
             "type": "paragraph",
@@ -149,7 +156,8 @@
                 "type": "text",
                 "text": "Contact: No phones, no social media. If you need anything, just give a holler at the village entrance."
               }
-            ]
+            ],
+            "id": "p-eb2bf127f323d3ee"
           },
           {
             "type": "paragraph",
@@ -163,7 +171,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-860a88353bba9aa3"
           }
         ]
       }

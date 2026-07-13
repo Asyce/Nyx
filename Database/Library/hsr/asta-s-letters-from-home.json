@@ -4,10 +4,11 @@
   "id": "asta-s-letters-from-home",
   "name": "Asta's Letters From Home",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Asta%27s_Letters_From_Home",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-b4fe08ceef0a07fc"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "The First Letter"
               }
-            ]
+            ],
+            "id": "p-bdc45f1e72d60217"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "Asta:"
               }
-            ]
+            ],
+            "id": "p-b0ba983c32191016"
           },
           {
             "type": "paragraph",
@@ -51,7 +55,8 @@
                 "type": "text",
                 "text": "The health of your great-grandmother has deteriorated. Please come home as soon as possible!"
               }
-            ]
+            ],
+            "id": "p-ac01a5d4b208ffeb"
           },
           {
             "type": "paragraph",
@@ -60,7 +65,8 @@
                 "type": "text",
                 "text": "Uncle Balint"
               }
-            ]
+            ],
+            "id": "p-5c89dde955e2bb29"
           },
           {
             "type": "paragraph",
@@ -69,7 +75,8 @@
                 "type": "text",
                 "text": "The Second Letter"
               }
-            ]
+            ],
+            "id": "p-a9666cb5b889e2ce"
           },
           {
             "type": "paragraph",
@@ -78,7 +85,8 @@
                 "type": "text",
                 "text": "Dear Asta:"
               }
-            ]
+            ],
+            "id": "p-9acc29028798e982"
           },
           {
             "type": "paragraph",
@@ -87,7 +95,8 @@
                 "type": "text",
                 "text": "Balint assigned his men to guard the ward, and your cousins and I have tried for a few times, but his men still won't allow us to come close. I clashed with him during a video call a few days ago, and he insisted on not allowing us to video talk with the hospital, so I'm not sure what the situation is with great-grandma. Your father is still on Planet Larchmont and hasn't returned, and he hasn't responded to any of the messages I've sent him, so I'm not sure what's going on."
               }
-            ]
+            ],
+            "id": "p-c2ec3bb0184b88de"
           },
           {
             "type": "paragraph",
@@ -106,7 +115,8 @@
                 "type": "text",
                 "text": "However, I am concerned about you, a girl out wandering to study the star rail. Balint appears to have become desperate recently, and I'm concerned that he'll do something horrible to you. You should hire some reliable security staff... but it's okay, I looked at your route, and the closest planet to you is ████████, the coordinates are ████████, and there is an IPC subsidiary there under my name. You can go right over there. I've got a squad of very competent security staff waiting for you."
               }
-            ]
+            ],
+            "id": "p-9482806d3b81f37f"
           },
           {
             "type": "paragraph",
@@ -115,7 +125,8 @@
                 "type": "text",
                 "text": "Remember: don't believe anything Balint says!"
               }
-            ]
+            ],
+            "id": "p-0000162c6c3089b1"
           },
           {
             "type": "paragraph",
@@ -124,7 +135,8 @@
                 "type": "text",
                 "text": "Love, Aunt Taylor"
               }
-            ]
+            ],
+            "id": "p-a04dcde43eb00117"
           },
           {
             "type": "paragraph",
@@ -133,7 +145,8 @@
                 "type": "text",
                 "text": "The Third Letter"
               }
-            ]
+            ],
+            "id": "p-2d157f00baf5d4a5"
           },
           {
             "type": "paragraph",
@@ -142,7 +155,8 @@
                 "type": "text",
                 "text": "Asta:"
               }
-            ]
+            ],
+            "id": "p-b0ba983c32191016-2"
           },
           {
             "type": "paragraph",
@@ -151,7 +165,8 @@
                 "type": "text",
                 "text": "You've been toying with telescopes and stars for so long that you've forgotten who you are. Great-grandma has mentioned you countless times. Please return home quickly!"
               }
-            ]
+            ],
+            "id": "p-84ffdab6067a87e8"
           },
           {
             "type": "paragraph",
@@ -160,7 +175,8 @@
                 "type": "text",
                 "text": "Uncle Balint"
               }
-            ]
+            ],
+            "id": "p-5c89dde955e2bb29-2"
           },
           {
             "type": "paragraph",
@@ -169,7 +185,8 @@
                 "type": "text",
                 "text": "The Fourth Letter"
               }
-            ]
+            ],
+            "id": "p-f8ebe68efcd21cec"
           },
           {
             "type": "paragraph",
@@ -178,7 +195,8 @@
                 "type": "text",
                 "text": "Miss Asta:"
               }
-            ]
+            ],
+            "id": "p-8f2a5bd287bc2e9c"
           },
           {
             "type": "paragraph",
@@ -197,7 +215,8 @@
                 "type": "text",
                 "text": "May I inquire if you have recently visited the ████████ Group in Planet ██████, in which IPC has an investment, and if you have signed an agreement to transfer the family shares at 5:31 p.m. local time?"
               }
-            ]
+            ],
+            "id": "p-8aad3bbd9c95602e"
           },
           {
             "type": "paragraph",
@@ -206,7 +225,8 @@
                 "type": "text",
                 "text": "The Foundation received this document yesterday morning, but after discovering that the digital origin of the agreement does not correspond to your usual location for the past three months, the process has been temporarily halted."
               }
-            ]
+            ],
+            "id": "p-4d4fca003609cbf1"
           },
           {
             "type": "paragraph",
@@ -215,7 +235,8 @@
                 "type": "text",
                 "text": "Please keep an eye on your security device today and tomorrow for communication from the Group's legal counsel."
               }
-            ]
+            ],
+            "id": "p-8e7472635a17b275"
           },
           {
             "type": "paragraph",
@@ -224,7 +245,8 @@
                 "type": "text",
                 "text": "Gilson, Chairman of the Family Trust Fund Committee"
               }
-            ]
+            ],
+            "id": "p-f220892fbde70a00"
           },
           {
             "type": "paragraph",
@@ -233,7 +255,8 @@
                 "type": "text",
                 "text": "Fifth Letter"
               }
-            ]
+            ],
+            "id": "p-479848d7b17c845c"
           },
           {
             "type": "paragraph",
@@ -242,7 +265,8 @@
                 "type": "text",
                 "text": "Dear Asta:"
               }
-            ]
+            ],
+            "id": "p-9acc29028798e982-2"
           },
           {
             "type": "paragraph",
@@ -251,7 +275,8 @@
                 "type": "text",
                 "text": "I was able to reach Dad. He had been hit by an electromagnetic storm, which rendered all communication devices unusable. Are you still looking for the elusive comet rail? If you aren't too busy, you should come back. There's been a lot going on lately at home. You should be wary of Aunt Taylor. The trust fund alerted me the other day that she forged an agreement to transfer your shares, but thankfully you did not cooperate... Anyway, I'll tell you all about it when you get home."
               }
-            ]
+            ],
+            "id": "p-1b8b2a5d41ed3ff3"
           },
           {
             "type": "paragraph",
@@ -260,7 +285,8 @@
                 "type": "text",
                 "text": "By the way, do you have enough money? I looked over last month's bill. How did you manage to spend such little money if you hired a scientific research fleet to accompany you on an expedition? Have you run out of pocket money yet? My baby daughter, don't skimp on food or lodging to save money. Please let me know if you don't have enough money."
               }
-            ]
+            ],
+            "id": "p-e87594e8e5209f2e"
           },
           {
             "type": "paragraph",
@@ -269,7 +295,8 @@
                 "type": "text",
                 "text": "Love, Mom"
               }
-            ]
+            ],
+            "id": "p-3154709d9159e4c9"
           }
         ]
       }

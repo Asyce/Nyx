@@ -4,10 +4,11 @@
   "id": "a-letter-pieced-together",
   "name": "A Letter Pieced Together",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/A_Letter_Pieced_Together",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-efde80d5060d0236"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "Miss Lila,"
               }
-            ]
+            ],
+            "id": "p-82207fc9bc4a90e4"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "I hope you will keep this letter safe. Maybe it will lift the curtains of a nice story on everybody's lips."
               }
-            ]
+            ],
+            "id": "p-2a2d06959db9f9f3"
           },
           {
             "type": "paragraph",
@@ -51,7 +55,8 @@
                 "type": "text",
                 "text": "The month that we've been working together was far too short. The first thing that I noticed about you was your beauty. You are more beautiful than most other women, but not quite as beautiful as my first love."
               }
-            ]
+            ],
+            "id": "p-8840475296edec08"
           },
           {
             "type": "paragraph",
@@ -60,7 +65,8 @@
                 "type": "text",
                 "text": "But that's not important. Your real charm is your down-to-earth work attitude, which is the quality a woman in Belobog should have in this new era. The earnest way in which you prepared for interview articles is charming. I was captivated by your clear organization and thoughtful questions. If I were conducting the interview, I would have been more thorough, especially with the improvisation and humor. In the future, feel free to communicate with me and I'd be more than happy to give you constructive feedback, making your work easier."
               }
-            ]
+            ],
+            "id": "p-74cbeb77bda43ba5"
           },
           {
             "type": "paragraph",
@@ -95,7 +101,8 @@
                 "type": "text",
                 "text": ". Many colleagues call me \"the one who is most daring to speak out.\" Of course, in our line of work, that is a good quality to have. In my spare time, I participate in various sports. I'm exceptionally good at long-distance running and have won many rewards for the suburban snow cross-country. I think you'll find that there aren't many men like me."
               }
-            ]
+            ],
+            "id": "p-5c52fdc76b54a849"
           },
           {
             "type": "paragraph",
@@ -104,7 +111,8 @@
                 "type": "text",
                 "text": "However, if you do like me, please don't become too attached. Fate guides our love, and we must do our utmost for Belobog. What kind of love would require us to sacrifice our job? What kind of love would have us be filled with guilt and shame?"
               }
-            ]
+            ],
+            "id": "p-1b366571f30c2f4a"
           },
           {
             "type": "paragraph",
@@ -122,7 +130,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-3cc74fc019862e8e"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "bloodstained-games-archives",
   "name": "\"Bloodstained Games\" Archives",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/%22Bloodstained_Games%22_Archives",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-a0e301c90c6f97e0"
           },
           {
             "type": "paragraph",
@@ -62,7 +64,8 @@
                 "type": "text",
                 "text": "Poor thundercoil, if it cracks up on the job, its career as a signal tower will be all over!"
               }
-            ]
+            ],
+            "id": "p-e8805af613bc65a2"
           },
           {
             "type": "paragraph",
@@ -100,7 +103,8 @@
                 "type": "text",
                 "text": "With no school or work to attend, Gardener's approval rating and popularity skyrocketed. Countless netizens invited Gardener to come perform in their own cities."
               }
-            ]
+            ],
+            "id": "p-c90e046e46d4a62c"
           },
           {
             "type": "paragraph",
@@ -131,7 +135,8 @@
                 "type": "text",
                 "text": "Carter Pissarro secretly conspired with fellow Supplicant, the nomadic miner Physical Magical Girl, in a failed sneak attack on Black Birch, fleeing the scene in disgrace amidst the audience's jeers."
               }
-            ]
+            ],
+            "id": "p-62e0d74cf93dd789"
           },
           {
             "type": "paragraph",
@@ -162,7 +167,8 @@
                 "type": "text",
                 "text": "According to analysts from Phantasmoon Games, this Supplicant likely employed some form of special artistry, using a canvas to veil the sky and create this fleeting marvel."
               }
-            ]
+            ],
+            "id": "p-9041afbdb639d59a"
           },
           {
             "type": "paragraph",
@@ -176,7 +182,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-d0b3e3d186b22416"
           },
           {
             "type": "paragraph",
@@ -221,7 +228,8 @@
                 "type": "text",
                 "text": "Residents in the surrounding area are advised to stay alert to evacuation information from the Department of Aberration Defense, follow security officers in an orderly evacuation, and our reporters will continue to follow this incident."
               }
-            ]
+            ],
+            "id": "p-b59ceaf7379b1f10"
           },
           {
             "type": "paragraph",
@@ -252,7 +260,8 @@
                 "type": "text",
                 "text": "According to reports, technical and personnel support from the Interastral Peace Corporation proved critical to the success of this operation. Let us express our gratitude to the Preservation for its contributions to the safety of Ahatopia. All glory to the Amber Lord!"
               }
-            ]
+            ],
+            "id": "p-6f826fc0f755e2d0"
           },
           {
             "type": "paragraph",
@@ -261,7 +270,8 @@
                 "type": "text",
                 "text": "Note: Heh, arcadia gets all the pain and suffering, while the IPC takes all the credit."
               }
-            ]
+            ],
+            "id": "p-c28dbc39dcf5d8b1"
           },
           {
             "type": "paragraph",
@@ -292,7 +302,8 @@
                 "type": "text",
                 "text": "Without a doubt, that was a subspace giant warrior from the K87 Nebula! Hero of Light, take me with you!"
               }
-            ]
+            ],
+            "id": "p-b860d713f79aadb6"
           },
           {
             "type": "paragraph",
@@ -315,7 +326,8 @@
                 "type": "text",
                 "text": "Note 3: It's theorized that this urban legend may be one of the origins of mechatrons."
               }
-            ]
+            ],
+            "id": "p-74d6c9f32870e871"
           },
           {
             "type": "paragraph",
@@ -346,7 +358,8 @@
                 "type": "text",
                 "text": "No, I don't remember how long after that Herald of Death thing this was."
               }
-            ]
+            ],
+            "id": "p-e46dbac3637e723a"
           },
           {
             "type": "paragraph",
@@ -362,7 +375,8 @@
                 "type": "text",
                 "text": "Note 2: Wait, this many people were hallucinating!?"
               }
-            ]
+            ],
+            "id": "p-1d8900388a8039c6"
           }
         ]
       }

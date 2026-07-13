@@ -4,10 +4,11 @@
   "id": "anti-fraud-guide-edited-version",
   "name": "Anti-Fraud Guide, Edited Version",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Anti-Fraud_Guide,_Edited_Version",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "More and more residents have suffered financial and emotional damage from the Dark-Blue Scam, and the Silvermane Guards alone cannot capture the mastermind behind the scam. That is why the various victims of the Dark-Blue Scam have come together to form the Dark-Blue Scam Victim Association. We have produced this guide and collected the usual lies and classic cases of such scams. All citizens, please read this carefully and remember it well to protect our sacred private properties from being ravaged!"
               }
-            ]
+            ],
+            "id": "p-e7a4f5f592e4b4ce"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "Parallel Universe"
               }
-            ]
+            ],
+            "id": "p-d1f227ede44f7df4"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "The most common concept that the scammers try to sell. There are already 73 types of sub-scams reported to the city, including, but not limited to, Parallel Universe Printers, Parallel Universe Containers, Parallel Universe Ingredient Bags, Parallel Universe Remote Controls, and many other items used in daily life. The scammers often customize the pitch and are very hard to detect!"
               }
-            ]
+            ],
+            "id": "p-bd3e3e905a0ba3ec"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "Please also be careful when purchasing items related to parallel universes in second-hand shops. It is best if you immediately report the incident to the Silvermane Guards and record any monetary losses. Please avoid going alone to confront the scammers. Stop your investment on time and prevent chain scamming. The guide warns all Belobog citizens that no shield grows out of the snow. Wealth must be gained with your own industrial two hands!"
               }
-            ]
+            ],
+            "id": "p-070e463d1353b64b"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "Perpetual Machine"
               }
-            ]
+            ],
+            "id": "p-f34f249b1c64d105"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "A scamming case study provided by a victim, Molly. The scammer used a pre-set mechanism to construct a seemingly never-stopping gear wheel, but the victim realized once she was home that it needed to be manually winded up. According to more recent victim reports, there are now sub-scams such as the Water Spinning Wheel, Four Pendulum Clock, and Circling Wheel. The guide warns all engineers and technical staff to firmly remember the basic laws of the objective world and not to superstitiously believe in fantasies. Do not go after big personal achievements and fall into the trap of the scammer."
               }
-            ]
+            ],
+            "id": "p-8dfd0d4b692ec724"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "The Omnipotent Key"
               }
-            ]
+            ],
+            "id": "p-5888856a1dce50ef"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "A scam case study provided by a victim, Nick. The scammer used modeling clay and precision key mold to demonstrate to the victim how to replicate the key for various mechanical cogwheel locks, and encouraged the victim to conduct activities that would hurt Belobog's financial security. Nick was caught in the act by the Silvermane Guards when he was replicating keys outside of the south gate of the Belobog Chamber of Commerce, and is now jailed in the Third Belobog Prison. The guide would like to warn all citizens not to lose your future due to a moment of greed."
               }
-            ]
+            ],
+            "id": "p-e01d82a9b70bf9bd"
           },
           {
             "type": "paragraph",
@@ -91,7 +100,8 @@
                 "type": "text",
                 "text": "Android Puppets"
               }
-            ]
+            ],
+            "id": "p-ae25bc4b7f624161"
           },
           {
             "type": "paragraph",
@@ -100,7 +110,8 @@
                 "type": "text",
                 "text": "A scam case study provided by a victim, Manya. The scammer used a wooden puppet and \"android face mask\" to make a substitute puppet according to the victim's specification. However, the drive installed had too much energy reserve and the puppet did many things that did not fit with the victim's normal behavior, such as working overtime at the Town Hall till dawn. The victim indicated that she suffered great humiliation and her intrinsic motivation toward life was shattered. The guide would like to remind all citizens to achieve a good work-life balance, and not to go down a path where you can be manipulated by scammers."
               }
-            ]
+            ],
+            "id": "p-361aebad84601c2a"
           },
           {
             "type": "paragraph",
@@ -109,7 +120,8 @@
                 "type": "text",
                 "text": "Intracranial Theater"
               }
-            ]
+            ],
+            "id": "p-cb7b7e81631c9159"
           },
           {
             "type": "paragraph",
@@ -131,7 +143,8 @@
                 "type": "text",
                 "text": "as the victim had requested. However, according to the victim, the latter half of the recording was edited and recited by the scammer, with the entire cast dying and dealing indelible emotional damage to the victim. The guide would like to remind all citizens to embrace reality and do not lose yourself in dreams of virtual worlds, and definitely do not imagine yourself living in such stories."
               }
-            ]
+            ],
+            "id": "p-3808cb716c301e81"
           },
           {
             "type": "paragraph",
@@ -166,7 +179,8 @@
                 "type": "text",
                 "text": ", Edited Version at 30% off, edited for a collector's edition by the Dark-Blue Scam Victim Association. The anti-scam effort needs your support!"
               }
-            ]
+            ],
+            "id": "p-f3b9ced829e858ae"
           }
         ]
       }

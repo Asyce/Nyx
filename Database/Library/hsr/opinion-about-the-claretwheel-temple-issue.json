@@ -4,10 +4,11 @@
   "id": "opinion-about-the-claretwheel-temple-issue",
   "name": "Opinion About the Claretwheel Temple Issue",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Opinion_About_the_Claretwheel_Temple_Issue",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Ever since the Xianzhou Luofu established official diplomatic relations with Claretwheel Temple, the question of how to deal with the Claretwheel Temple issue has always been a constant matter of contention between the various commissions."
               }
-            ]
+            ],
+            "id": "p-71c9fe6e638cc484"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "As the representative of the Realm-Keeping Commission, I would like to reiterate our stance to the other Commissions and the Ten-Lords Commission: We should avoid any further cooperation with Claretwheel Temple and abandon any naive notion of allying with them."
               }
-            ]
+            ],
+            "id": "p-193d7c46f174e789"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "Over the course of the meetings in the past couple of days, I have noticed that many colleagues are unhappy with the Realm-Keeping Commission's decision. There are even people who think that I'm a heartless monster. Therefore, I feel the need to elaborate further on my reasoning to avoid creating any further misunderstandings."
               }
-            ]
+            ],
+            "id": "p-cceb772643538a76"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "Firstly, at present, the only Xianzhou ship that has established diplomatic relations with Claretwheel Temple is the Luofu. Even if we disregard our compatriots who are physically too far away and those who have gone into recluse, at the very least, we should avoid deepening our relationship with Claretwheel Temple before the Yaoqing and the Zhuming have passed their judgment."
               }
-            ]
+            ],
+            "id": "p-b5d6bc4843aa4084"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "Secondly, it has only been thirty years since the Third Denizens of Abundance War. The term \"Denizens of Abundance\" is still one that reminds many Xianzhou residents of hatred and bloodshed. This is even before we talk about the thousand-year blood debt between the foxian and borisin. Such hatred is not something that a few thousand monks can overcome in such a short time (even if they are truly all extremely kind and pure of heart)."
               }
-            ]
+            ],
+            "id": "p-7d154f4452f065ad"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "Thirdly, after we form an alliance with Claretwheel Temple, would they still be willing to live by themselves in that dilapidated temple? Even if they were willing, they would undoubtedly become the focus of the Denizens of Abundance's hatred after allying with us. Could we really allow ourselves to let them stay there? That's not how the Xianzhou treats its guests."
               }
-            ]
+            ],
+            "id": "p-0cf0efc09b1de8ba"
           },
           {
             "type": "paragraph",
@@ -73,7 +80,8 @@
                 "type": "text",
                 "text": "If we allow them to stay on the Luofu instead, what would be our attitude towards their customs and faith? Shall we forbid them from practicing such rituals? That's also not how the Xianzhou treats its guests."
               }
-            ]
+            ],
+            "id": "p-216ae2892c74da04"
           },
           {
             "type": "paragraph",
@@ -82,7 +90,8 @@
                 "type": "text",
                 "text": "However, if we allow them to do as they please, they would naturally adhere to their beliefs, which involve capturing baby abominations from various battlefields and putting these creatures in the temple in an attempt to reform them. While the temple still wanders the universe, this behavior is naturally none of our concern. However, once the temple is situated on the Luofu, can you be certain that these mini abominations will not escape the temple and slaughter the innocent on our streets? Should that happen, which one of you would be willing to take responsibility?"
               }
-            ]
+            ],
+            "id": "p-d337b030e77259c8"
           },
           {
             "type": "paragraph",
@@ -91,7 +100,8 @@
                 "type": "text",
                 "text": "If none of you have any confidence in coming up with a concrete and appropriate plan for their living arrangement, then I suggest that we give up on this idea right now."
               }
-            ]
+            ],
+            "id": "p-744607faf775279a"
           },
           {
             "type": "paragraph",
@@ -100,7 +110,8 @@
                 "type": "text",
                 "text": "Fourth, perhaps you are not aware of this fact, but investigations from the Intelligentsia Guild show that the 13,000 \"golden bodhisattvas\" enshrined in the Nirvana Hall of Claretwheel Temple are still technically \"alive\" from a biological point of view."
               }
-            ]
+            ],
+            "id": "p-9578d03e4ea13bf0"
           },
           {
             "type": "paragraph",
@@ -109,7 +120,8 @@
                 "type": "text",
                 "text": "We do not know whether these \"golden bodhisattvas\" will awaken when certain conditions are met, nor do we know whether they will be \"esteemed high monks\" or \"Abominations of Abundance\" when they awaken."
               }
-            ]
+            ],
+            "id": "p-18df0e67aca32a6f"
           },
           {
             "type": "paragraph",
@@ -118,7 +130,8 @@
                 "type": "text",
                 "text": "In conclusion, on behalf of the Realm-Keeping Commission, I would like to re-emphasize our stance: We should avoid any further cooperation with Claretwheel Temple and abandon any naive notion of allying with them."
               }
-            ]
+            ],
+            "id": "p-4059a32c775e7bb4"
           },
           {
             "type": "paragraph",
@@ -127,7 +140,8 @@
                 "type": "text",
                 "text": "Huifu, Realm-Keeping Commissioner"
               }
-            ]
+            ],
+            "id": "p-6f0ce083aecb0d21"
           },
           {
             "type": "paragraph",
@@ -136,7 +150,8 @@
                 "type": "text",
                 "text": "<!--"
               }
-            ]
+            ],
+            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

@@ -4,10 +4,11 @@
   "id": "janusopolis-journeyman-astrology",
   "name": "Janusopolis Journeyman Astrology",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Janusopolis_Journeyman_Astrology",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -24,7 +25,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-ad100eaacf9f768c"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                 "type": "text",
                 "text": "Dear disciple. When you open this book, you will have embarked on the first steps to understanding the mysteries of destiny. In this world shrouded by eternal night, though we may no longer lay eyes on the starry sky, Janusopolis' astrology arts passed down to us remains the bridge that connects us to the Titans' will."
               }
-            ]
+            ],
+            "id": "p-90121620a0da35f8"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "Remember, true astrology is not mere inference of the celestial bodies, but insight into the laws of how the world works, and perceiving the signs that the Titans left behind."
               }
-            ]
+            ],
+            "id": "p-16c2e89778dec139"
           },
           {
             "type": "paragraph",
@@ -68,7 +72,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-bb0b0e801f1e472b"
           },
           {
             "type": "paragraph",
@@ -168,7 +173,8 @@
                 "type": "text",
                 "text": "Each Palace represents a specific Titan's authority, influencing different facets of the world. When we divine, we must calculate the positions and strengths of each Palace in the sky to forecast how the Titan's will manifests."
               }
-            ]
+            ],
+            "id": "p-6fa8281b24b52ffa"
           },
           {
             "type": "paragraph",
@@ -177,7 +183,8 @@
                 "type": "text",
                 "text": "I know that most of our readers would hail from the Eternal City of Okhema — it is currently enveloped in the radiance of the Dawn Device and unable to directly observe the starry skies. Nonetheless, this does not mean that the art of astrology has lost its meaning. On the contrary, the Dawn Device's operational principles have provided us with a new foundation of calculation."
               }
-            ]
+            ],
+            "id": "p-420801240f144209"
           },
           {
             "type": "paragraph",
@@ -186,7 +193,8 @@
                 "type": "text",
                 "text": "To perform astrology forecasts, we must first observe the Dawn Device's changes in light. Note down the brightest and dimmest moments within a day, for these two times indicate the changes in Aquila's authority. With these as fundamental references, we can forecast the positions of the other Palaces."
               }
-            ]
+            ],
+            "id": "p-0d179ce089aa45fc"
           },
           {
             "type": "paragraph",
@@ -202,7 +210,8 @@
                 "type": "text",
                 "text": "At that moment, the Earth Palace would be positioned east, Tide Palace would be west, Evernight Palace would be directly below, and the other Palaces would be positioned in clockwise order."
               }
-            ]
+            ],
+            "id": "p-a9893ab58f3fe45f"
           },
           {
             "type": "paragraph",
@@ -240,7 +249,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-0946651d9b647964"
           },
           {
             "type": "paragraph",
@@ -249,7 +259,8 @@
                 "type": "text",
                 "text": "After ascertaining the heavenly Palaces' positions, the next step is to draw the chart. The chart is a circular diagram divided into twelve equal sections, each section representing a Palace."
               }
-            ]
+            ],
+            "id": "p-2bcc5511b73595a3"
           },
           {
             "type": "paragraph",
@@ -293,7 +304,8 @@
                 "type": "text",
                 "text": "5. Draw a smaller circle at the center of the big circle, representing the divined individual."
               }
-            ]
+            ],
+            "id": "p-36902014ff77e05e"
           },
           {
             "type": "paragraph",
@@ -302,7 +314,8 @@
                 "type": "text",
                 "text": "Remember, the chart is not fixed, nor unchanging. With the passage of time, the positions of each Palace will also change. This is why the precise recording of time is essential."
               }
-            ]
+            ],
+            "id": "p-2b24403cc0833660"
           },
           {
             "type": "paragraph",
@@ -311,7 +324,8 @@
                 "type": "text",
                 "text": "Once the mapping of the chart is complete, you can start to interpret the Titans' influence on us. Influence is largely dependent on two factors: The Palaces' positions and the aspect relations between Palaces."
               }
-            ]
+            ],
+            "id": "p-136f0b0cb2ff8d97"
           },
           {
             "type": "paragraph",
@@ -348,7 +362,8 @@
                 "type": "text",
                 "text": "The influence of the Palace directly below is weakest, yet also hints at the possibility of concealment and rebirth."
               }
-            ]
+            ],
+            "id": "p-ad6c3043efd79f97"
           },
           {
             "type": "paragraph",
@@ -385,7 +400,8 @@
                 "type": "text",
                 "text": "Sextile: 60 degrees apart, representing opportunity and potential."
               }
-            ]
+            ],
+            "id": "p-d1cfa80e47273552"
           },
           {
             "type": "paragraph",
@@ -394,7 +410,8 @@
                 "type": "text",
                 "text": "For example, if the Erudite Palace and War Palace form an opposition, it can be construed as a clash between reason and violence. And if the Erudite Palace and Omniscience Palace form a trine, it may mean that the powers of knowledge and omniscience are harmonized — a grand opportunity to perform study and discovery."
               }
-            ]
+            ],
+            "id": "p-a1c9456df9d17dd1"
           },
           {
             "type": "paragraph",
@@ -403,7 +420,8 @@
                 "type": "text",
                 "text": "As a beginner, you can start with simple everyday divinations. For example, performing a reading at the Entry Hour every day to forecast the general flow of the day. Then, during the Curtain-Fall Hour, review your astrological notes for the day to see if your results match the readings of the day's Entry Hour. As you garner more experience, you can try to decipher more complicated aspects."
               }
-            ]
+            ],
+            "id": "p-52564720f9ed74b4"
           },
           {
             "type": "paragraph",
@@ -412,7 +430,8 @@
                 "type": "text",
                 "text": "However, keep in mind that while astrology is powerful, it is not omnipotent. The will of the Titans is unfathomable, and our readings will forever be mere conjecture and observations. Pray be always humble, and never seek to challenge the Titans' authority."
               }
-            ]
+            ],
+            "id": "p-735b7c813058ea14"
           },
           {
             "type": "paragraph",
@@ -421,7 +440,8 @@
                 "type": "text",
                 "text": "Additionally, be on guard against charlatans who proclaim themselves total masters of destiny. True astrologers know that our duty is to interpret destiny, not to manipulate it."
               }
-            ]
+            ],
+            "id": "p-2474261ea0a9f742"
           },
           {
             "type": "paragraph",
@@ -430,7 +450,8 @@
                 "type": "text",
                 "text": "Last but not least, may Oronyx's wisdom guide you."
               }
-            ]
+            ],
+            "id": "p-b93a5918bd0ef64e"
           },
           {
             "type": "paragraph",
@@ -439,7 +460,8 @@
                 "type": "text",
                 "text": "..."
               }
-            ]
+            ],
+            "id": "p-dfc3ab3590c469d6"
           }
         ]
       }

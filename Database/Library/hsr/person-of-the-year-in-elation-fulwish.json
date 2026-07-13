@@ -4,10 +4,11 @@
   "id": "person-of-the-year-in-elation-fulwish",
   "name": "Person of the Year in Elation: Fulwish",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Person_of_the_Year_in_Elation:_Fulwish",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "She is the uncrowned media queen of Planarcadia, a philanthropic tycoon spreading the teachings of Aha, and most notably, an orphan of the Bloodstained Games. She is the flower of Elation that bloomed on this land, leading countless people towards happiness. Today, let us delve into the elated life of Ms. Fulwish, the director of Fulwish TV and president of Research Society of Happy Smiles."
               }
-            ]
+            ],
+            "id": "p-531d5ba2c7ba8a1a"
           },
           {
             "type": "paragraph",
@@ -33,7 +35,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-1c14a17c4408bed7"
           },
           {
             "type": "paragraph",
@@ -42,7 +45,8 @@
                 "type": "text",
                 "text": "Like most children on this planet blessed by The Laughter, Fulwish had a happy and fulfilling childhood until fifteen years ago, when the Herald of Death brutally murdered twenty-two students at Graphia Academy. While Fulwish survived by sheer luck, what awaited her was the news of her parents' tragic ends."
               }
-            ]
+            ],
+            "id": "p-e8a8b8c7dd49aca6"
           },
           {
             "type": "paragraph",
@@ -64,7 +68,8 @@
                 "type": "text",
                 "text": "."
               }
-            ]
+            ],
+            "id": "p-df10fbe0161b624a"
           },
           {
             "type": "paragraph",
@@ -73,7 +78,8 @@
                 "type": "text",
                 "text": "The variety show planned by Seafeld TV Station was on the verge of cancellation due to a fabrication scandal, but Fulwish's upsurge changed everything. In front of the camera, she was spirited and confident, having overcome the shadows of her past and striding towards a happy life. Countless people still immersed in the terror and grief of Bloodstained Games were inspired by her presence, and the Interastral Peace Corporation also rode the wave, promoting her as a role model for the orphans of Bloodstained Games."
               }
-            ]
+            ],
+            "id": "p-a40a68d330d8a023"
           },
           {
             "type": "paragraph",
@@ -82,7 +88,8 @@
                 "type": "text",
                 "text": "And that's how the superstar Fulwish came to be."
               }
-            ]
+            ],
+            "id": "p-e8c9114ba99efbfa"
           },
           {
             "type": "paragraph",
@@ -96,7 +103,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-1af776b65d1c2844"
           },
           {
             "type": "paragraph",
@@ -105,7 +113,8 @@
                 "type": "text",
                 "text": "Despite her fame and success, Fulwish wasn't lost in her own glory. Beyond the victims of the Herald of Death incident, countless others still lived in unhappiness. While the Interastral Peace Corporation brought new joy to Planarcadia, it also brought new suffering. The fast-paced modern life allows people to obtain happiness more quickly, yet it gradually drains our mind and soul."
               }
-            ]
+            ],
+            "id": "p-6120604d73a8cd4e"
           },
           {
             "type": "paragraph",
@@ -166,7 +175,8 @@
                 "type": "text",
                 "text": "has once again sparked a superhero craze among teenagers. Starting as someone who found happiness, she has now become someone who brings happiness to others."
               }
-            ]
+            ],
+            "id": "p-c8737bbb23f56904"
           },
           {
             "type": "paragraph",
@@ -175,7 +185,8 @@
                 "type": "text",
                 "text": "Fulwish's wish to create an arcadia where all worries vanish and everyone will only need to laugh seems like an impossible pipedream. But if the God of Elation were to descend upon the mortal realm, THEY too would probably entertain such an absurd notion."
               }
-            ]
+            ],
+            "id": "p-9da82f02c96b0804"
           },
           {
             "type": "paragraph",
@@ -199,7 +210,8 @@
                 "type": "text",
                 "text": "— Fulwish"
               }
-            ]
+            ],
+            "id": "p-6f21d10c201c169a"
           }
         ]
       }

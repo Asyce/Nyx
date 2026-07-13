@@ -4,10 +4,11 @@
   "id": "a-note-from-hysilens",
   "name": "A Note from Hysilens",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/A_Note_from_Hysilens",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "To my dear Little Gray Fry,"
               }
-            ]
+            ],
+            "id": "p-68a435eb8b18bb72"
           },
           {
             "type": "paragraph",
@@ -41,7 +43,8 @@
                 "type": "text",
                 "text": "I can see the roiling tides within your eyes, the gaze of a fish that longs for nothing but freedom."
               }
-            ]
+            ],
+            "id": "p-897f58ae034c6c0a"
           },
           {
             "type": "paragraph",
@@ -76,7 +79,8 @@
                 "type": "text",
                 "text": "Besides, here in this little pool, I have a sun to call my own."
               }
-            ]
+            ],
+            "id": "p-64376610158eb63f"
           },
           {
             "type": "paragraph",
@@ -124,7 +128,8 @@
                 "type": "text",
                 "text": "I would occasionally press it to my cheek, listening for the sound of home."
               }
-            ]
+            ],
+            "id": "p-0164474c21affb46"
           },
           {
             "type": "paragraph",
@@ -159,7 +164,8 @@
                 "type": "text",
                 "text": "That would be the best one could hope for, wouldn't it?"
               }
-            ]
+            ],
+            "id": "p-93864be662ad776f"
           },
           {
             "type": "paragraph",
@@ -191,7 +197,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "p-81101a02518f24d1"
           },
           {
             "type": "paragraph",
@@ -200,7 +207,8 @@
                 "type": "text",
                 "text": "Helektra"
               }
-            ]
+            ],
+            "id": "p-b2adf0d648e788af"
           }
         ]
       }

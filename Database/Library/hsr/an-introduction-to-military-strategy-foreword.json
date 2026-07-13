@@ -4,10 +4,11 @@
   "id": "an-introduction-to-military-strategy-foreword",
   "name": "An Introduction to Military Strategy (Foreword)",
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/An_Introduction_to_Military_Strategy_(Foreword)",
-  "scrapedAt": "2026-07-12T09:01:05.289Z",
+  "scrapedAt": "2026-07-13T17:28:59.069Z",
   "volumes": [
     {
       "id": "1",
+      "volumeKey": "text",
       "label": "Text",
       "document": {
         "version": 1,
@@ -19,7 +20,8 @@
                 "type": "text",
                 "text": "Editor's Note:"
               }
-            ]
+            ],
+            "id": "p-df6faccc0456ef88"
           },
           {
             "type": "paragraph",
@@ -28,7 +30,8 @@
                 "type": "text",
                 "text": "War is an extension of the Titans' will, and the very existence of Titans is the root cause of all fights — this is the teaching of Nikador and the foundational reason why strategic advisory is so critical."
               }
-            ]
+            ],
+            "id": "p-d385c909d70b942a"
           },
           {
             "type": "paragraph",
@@ -37,7 +40,8 @@
                 "type": "text",
                 "text": "The ability of an individual is limited. Therefore, relying on the charisma of a single leader is far from enough to accurately extend the Titan's will to everyone in an army, let alone a city. A king cannot possibly monitor every development on every front at all times. Yet coordination — or, more specifically, the ability to launch attacks at the right time and in the right place — is the single most crucial factor in securing battlefield advantages for any army. This is where the importance of strategic advisory becomes evident: Advisors are the commanding officer's most indispensable aides. Through close collaboration, they provide intelligence, craft plans, organize units to implement battle arrangements, and offer valuable counsel to the commanding officer. They must ensure that the commanding officer maintains a focus on strategic and operational levels, rather than on specific tactics, such as redeploying a squadron fifty paces east, thereby enabling wise decision-making."
               }
-            ]
+            ],
+            "id": "p-18ca226126da2147"
           },
           {
             "type": "paragraph",
@@ -46,7 +50,8 @@
                 "type": "text",
                 "text": "War is a systemic endeavor, one that maximizes the use of violence against each other. Some foolish cities dream of finding an ingenious method to achieve decisive victories and win the enemy's heartfelt submission without significant casualties. Such fantasies not only disgrace the Titan they revere but often result in even greater losses for their compatriots at the hands of the enemy. In my opinion, the root of this folly lies in these city leaders' disregard for advisory work, along with their irreverence toward Nikador. Anyone with practical knowledge of strategic advisory and the complexity of military conflict understands that there is no path to success without the application of force. Even diplomatic activities — often mild and friendly as they may seem — involve military calculations beyond the comprehension of the ignorant."
               }
-            ]
+            ],
+            "id": "p-73b7e9f54eeff65c"
           },
           {
             "type": "paragraph",
@@ -55,7 +60,8 @@
                 "type": "text",
                 "text": "In recent years, Castrum Kremnos has witnessed the rise of a dangerous misconception: that war is a divine authority of Nikador and that it will help us obtain whatever we desire as long as we, the ordinary people, demonstrate sufficient — though often self-destructive — devotion to it. This is not what Nikador wants. On the contrary, Nikador desires that we actively engage in all the struggles of survival, using our own wits to secure our place in the world rather than having them do it for us. \"Valorous death before glorious return\" — this motto does not call for us to die senseless deaths on the battlefield. What it truly indicates is that one should only fall while striving for a cause the person deems worthy, specifically in the pursuit of glory for Castrum Kremnos. It signifies giving one's all and fighting for the \"meaning of one's existence in the world.\" In light of this, I believe the greatest value of this course lies in learning to face future conflicts with composure, understanding the principles of solidarity through the study of strategic advisory, and securing the highest chances of defeating your enemies."
               }
-            ]
+            ],
+            "id": "p-a226c6b15a429b73"
           },
           {
             "type": "paragraph",
@@ -64,7 +70,8 @@
                 "type": "text",
                 "text": "In this course, we will explore the roles and responsibilities of advisors, the necessary qualities and capabilities they must possess, the procedures and methods of strategic advisory, the relationship between advisors and commanding officers, and the various roles of advisors during peacetime training and wartime engagement. This is the eighth edition of this course's textbook since its establishment. It now includes substantial updates on practical guidance for combating the black tide. Special thanks go to Royal Wing Elite Krateros, who generously provided numerous valuable materials and insights for this revision, including this very foreword."
               }
-            ]
+            ],
+            "id": "p-90dbace357a50545"
           }
         ]
       }

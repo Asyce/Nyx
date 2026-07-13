@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "game": "gi",
-  "generatedAt": "2026-07-12T02:23:17.297Z",
+  "generatedAt": "2026-07-13T19:47:37.778Z",
   "source": {
     "name": "Genshin Impact Official",
     "endpoint": "sg-hk4e-api.hoyoverse.com getAnnList+getAnnContent"
@@ -22,41 +22,43 @@
   "events": [
     {
       "game": "gi",
-      "id": "gi-hoyolab-official-45197150",
-      "title": "Stygian Onslaught",
+      "id": "gi-hoyo-ann-5e481c62dc26",
+      "title": "Stygian Onslaught Event: Disturbance-affected Ley Line challenges",
       "type": "challenge",
-      "start": "2026-05-27T09:00:00.000Z",
-      "end": "2026-06-30T02:59:00.000Z",
+      "start": "2026-07-08T09:00:00.000Z",
+      "end": "2026-08-11T02:59:00.000Z",
       "server": "europe",
       "timezone": "UTC+01:00",
       "source": {
         "name": "Genshin Impact Official",
-        "url": "https://www.hoyolab.com/article/45197150",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21168",
         "priority": 1
       },
       "confidence": "high",
       "permanence": "timed",
       "needs_review": false,
-      "description": "A three-phase combat challenge with six difficulty levels and performance rewards."
+      "image": "https://sdk.hoyoverse.com/upload/ann/2025/10/23/40da7ab1ce17afd008e7a10c6ee6e67b_3372052251159312794_transformed.jpg",
+      "description": "〓Event Rewards〓 〓Event Duration〓 Event Duration: 2026/07/08 10:00 - 2026/08/11 03:59 Disturbance Outbreak: 2026/07/08 10:00 - 2026/07/18 03:59 〓Eligibility〓 Adventure Rank 20 or above And complete Archon Quest Prologue: Act III \"Song of…"
     },
     {
       "game": "gi",
-      "id": "gi-hoyolab-official-45349300",
-      "title": "Trials of the Brave Warrior",
+      "id": "gi-hoyo-ann-82ebf8a67d40",
+      "title": "\"Sunny Summer Fontinalia\" Event: Participate to Obtain Charlotte's Outfit and Invite \"Lens of Verity\" Charlotte (Cryo)",
       "type": "event",
-      "start": "2026-06-08T09:00:00.000Z",
-      "end": "2026-06-18T02:59:00.000Z",
+      "start": "2026-07-01T03:00:00.000Z",
+      "end": "2026-08-11T02:59:00.000Z",
       "server": "europe",
       "timezone": "UTC+01:00",
       "source": {
         "name": "Genshin Impact Official",
-        "url": "https://www.hoyolab.com/article/45349300",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21749",
         "priority": 1
       },
       "confidence": "high",
       "permanence": "timed",
       "needs_review": false,
-      "description": "A swordsmanship challenge built around parries and Honed Techniques."
+      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/4c699b74ef0c77158a7f28e62ba2d7ec_6267956826869874359_transformed.jpg",
+      "description": "〓Event Rewards〓 〓Event Duration〓 After the Version \"Luna VIII\" update – 2026/08/11 03:59 〓Eligibility〓 Adventure Rank 20 or above Complete Archon Quest Prologue: Act III \"Song of the Dragon and Freedom\" Unlock any Statue of The Seven in…"
     },
     {
       "game": "gi",
@@ -79,23 +81,41 @@
     },
     {
       "game": "gi",
-      "id": "gi-hoyo-ann-5e481c62dc26",
-      "title": "Stygian Onslaught Event: Disturbance-affected Ley Line challenges",
-      "type": "challenge",
-      "start": "2026-07-08T09:00:00.000Z",
-      "end": "2026-08-11T02:59:00.000Z",
+      "id": "gi-hoyolab-official-45349300",
+      "title": "Trials of the Brave Warrior",
+      "type": "event",
+      "start": "2026-06-08T09:00:00.000Z",
+      "end": "2026-06-18T02:59:00.000Z",
       "server": "europe",
       "timezone": "UTC+01:00",
       "source": {
         "name": "Genshin Impact Official",
-        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21168",
+        "url": "https://www.hoyolab.com/article/45349300",
         "priority": 1
       },
       "confidence": "high",
       "permanence": "timed",
       "needs_review": false,
-      "image": "https://sdk.hoyoverse.com/upload/ann/2025/10/23/40da7ab1ce17afd008e7a10c6ee6e67b_3372052251159312794_transformed.jpg",
-      "description": "〓Event Rewards〓 〓Event Duration〓 Event Duration: 2026/07/08 10:00 - 2026/08/11 03:59 Disturbance Outbreak: 2026/07/08 10:00 - 2026/07/18 03:59 〓Eligibility〓 Adventure Rank 20 or above And complete Archon Quest Prologue: Act III \"Song of…"
+      "description": "A swordsmanship challenge built around parries and Honed Techniques."
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyolab-official-45197150",
+      "title": "Stygian Onslaught",
+      "type": "challenge",
+      "start": "2026-05-27T09:00:00.000Z",
+      "end": "2026-06-30T02:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://www.hoyolab.com/article/45197150",
+        "priority": 1
+      },
+      "confidence": "high",
+      "permanence": "timed",
+      "needs_review": false,
+      "description": "A three-phase combat challenge with six difficulty levels and performance rewards."
     },
     {
       "game": "gi",
@@ -176,26 +196,6 @@
       "needs_review": true,
       "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/9051504c6cc2742ff981816ef64341b0_2963061423775561785_transformed.jpg",
       "description": "Travelers, stock up on weapons and characters in the event wish to make your party stronger in combat! 〓Event Wish Details〓 Event Wish Duration Promotional Character (5-Star) Featured Characters (4-Star) After the Version \"Luna VIII\"…"
-    },
-    {
-      "game": "gi",
-      "id": "gi-hoyo-ann-82ebf8a67d40",
-      "title": "\"Sunny Summer Fontinalia\" Event: Participate to Obtain Charlotte's Outfit and Invite \"Lens of Verity\" Charlotte (Cryo)",
-      "type": "event",
-      "start": "2026-07-01T03:00:00.000Z",
-      "end": "2026-08-11T02:59:00.000Z",
-      "server": "europe",
-      "timezone": "UTC+01:00",
-      "source": {
-        "name": "Genshin Impact Official",
-        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21749",
-        "priority": 1
-      },
-      "confidence": "high",
-      "permanence": "timed",
-      "needs_review": false,
-      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/4c699b74ef0c77158a7f28e62ba2d7ec_6267956826869874359_transformed.jpg",
-      "description": "〓Event Rewards〓 〓Event Duration〓 After the Version \"Luna VIII\" update – 2026/08/11 03:59 〓Eligibility〓 Adventure Rank 20 or above Complete Archon Quest Prologue: Act III \"Song of the Dragon and Freedom\" Unlock any Statue of The Seven in…"
     },
     {
       "game": "gi",

@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-07-13T18:53:43.224Z",
+  "generatedAt": "2026-07-13T19:28:17.695Z",
   "codes": {
-    "updated": "2026-07-13T03:40:57.795Z",
+    "updated": "2026-07-13T17:34:52.613Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -240,7 +240,7 @@ var NYX_DB = {
             "icon": null
           },
           "added": "2026-07-13",
-          "firstSeen": "2026-07-12T22:50:11.818Z",
+          "firstSeen": "2026-07-13T17:34:52.613Z",
           "sourceUrl": "https://game8.co/games/Arknights-Endfield/archives/571509",
           "redeemUrl": null
         },
@@ -300,13 +300,13 @@ var NYX_DB = {
   },
   "banners": {
     "updated": "2026-07-12T08:31:12.834Z",
-    "checkedAt": "2026-07-12T19:30:06.341Z",
+    "checkedAt": "2026-07-13T15:10:59.408Z",
     "games": {
       "hsr": {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-12T19:30:06.341Z",
+          "checkedAt": "2026-07-13T15:10:59.408Z",
           "lastSuccessfulFetch": "2026-07-12T08:31:12.834Z",
           "lastValidUpdate": "2026-07-12T08:31:12.834Z",
           "source": "game8",
@@ -370,7 +370,7 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-12T19:30:06.341Z",
+          "checkedAt": "2026-07-13T15:10:59.408Z",
           "lastSuccessfulFetch": "2026-07-12T08:31:12.834Z",
           "lastValidUpdate": "2026-07-12T08:31:12.834Z",
           "source": "game8",
@@ -425,7 +425,7 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-12T19:30:06.341Z",
+          "checkedAt": "2026-07-13T15:10:59.408Z",
           "lastSuccessfulFetch": "2026-07-12T08:31:12.834Z",
           "lastValidUpdate": "2026-07-12T08:31:12.834Z",
           "source": "game8",
@@ -507,7 +507,7 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-12T19:30:06.341Z",
+          "checkedAt": "2026-07-13T15:10:59.408Z",
           "lastSuccessfulFetch": "2026-07-12T08:31:12.834Z",
           "lastValidUpdate": "2026-07-12T08:31:12.834Z",
           "source": "game8",
@@ -546,7 +546,7 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-12T19:30:06.341Z",
+          "checkedAt": "2026-07-13T15:10:59.408Z",
           "lastSuccessfulFetch": "2026-07-12T08:31:12.834Z",
           "lastValidUpdate": "2026-07-12T08:31:12.834Z",
           "source": "game8",
@@ -4305,7 +4305,7 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-12T19:30:06.341Z",
+          "checkedAt": "2026-07-13T15:10:59.408Z",
           "lastSuccessfulFetch": "2026-07-12T08:31:12.834Z",
           "lastValidUpdate": "2026-07-12T08:31:12.834Z",
           "source": "game8",
@@ -150301,7 +150301,7 @@ var NYX_DB = {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-12T19:30:06.341Z",
+          "checkedAt": "2026-07-13T15:10:59.408Z",
           "lastSuccessfulFetch": "2026-07-12T08:31:12.834Z",
           "lastValidUpdate": "2026-07-12T08:31:12.834Z",
           "source": "game8",
@@ -155642,7 +155642,7 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-12T19:30:06.341Z",
+          "checkedAt": "2026-07-13T15:10:59.408Z",
           "lastSuccessfulFetch": "2026-07-12T08:31:12.834Z",
           "lastValidUpdate": "2026-07-12T08:31:12.834Z",
           "source": "game8",
@@ -160393,7 +160393,7 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-12T19:30:06.341Z",
+          "checkedAt": "2026-07-13T15:10:59.408Z",
           "lastSuccessfulFetch": "2026-07-12T08:31:12.834Z",
           "lastValidUpdate": "2026-07-12T08:31:12.834Z",
           "source": "game8",
@@ -164923,7 +164923,7 @@ var NYX_DB = {
             "icon": null
           },
           "added": "2026-07-13",
-          "firstSeen": "2026-07-12T22:50:11.818Z",
+          "firstSeen": "2026-07-13T17:34:52.613Z",
           "sourceUrl": "https://game8.co/games/Arknights-Endfield/archives/571509",
           "redeemUrl": null
         },
@@ -164983,7 +164983,7 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-12T19:30:06.341Z",
+          "checkedAt": "2026-07-13T15:10:59.408Z",
           "lastSuccessfulFetch": "2026-07-12T08:31:12.834Z",
           "lastValidUpdate": "2026-07-12T08:31:12.834Z",
           "source": "game8",

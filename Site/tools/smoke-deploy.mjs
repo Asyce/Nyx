@@ -307,7 +307,7 @@ async function main() {
   if (!hsrAchievementScriptText.includes('Pengo HSR achievement export')) throw new Error('pengo-hsr-hoyolab-achievements.js is missing Pengo branding');
   if (!hsrAchievementScriptText.includes('https://sg-public-api.hoyolab.com/common/badge/v1/login/info') || !hsrAchievementScriptText.includes('https://sg-public-api.hoyolab.com/event/rpgcultivate/achievement/list')) throw new Error('pengo-hsr-hoyolab-achievements.js is missing the reviewed HoYoLAB endpoints');
   if (!/^[a-f0-9]{64}$/.test(hsrAchievementScriptHash)) throw new Error('pengo-hsr-hoyolab-achievements.js SHA-256 could not be calculated');
-  if (!bundle.includes('Achievement Ledger') || !bundle.includes('NyxAchievementImport')) throw new Error('bundle is missing the achievement tracker');
+  if (!bundle.includes('achievement-page-head') || !bundle.includes('NyxAchievementImport')) throw new Error('bundle is missing the achievement tracker');
   if (!bundle.includes('Quick PowerShell command')) throw new Error('bundle missing quick import method copy');
   if (!bundle.includes('Manual CSV backfill')) throw new Error('bundle missing manual CSV import copy');
   if (!bundle.includes('Pengo encrypted sync')) throw new Error('bundle missing encrypted sync UI copy');

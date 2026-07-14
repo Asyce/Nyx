@@ -5512,7 +5512,8 @@
     "localizedNames": {
       "en": "Durin",
       "zh": "杜林",
-      "ja": "ドゥリン"
+      "ja": "ドゥリン",
+      "ko": "두린"
     },
     "type": "Character",
     "cost": 2,
@@ -5580,7 +5581,7 @@
         },
         "13175": {
           "name": "Light Manifest of the Divine Calculus",
-          "desc": "(Passive) <color=#FFFFFFFF>After this character uses a Normal Attack:</color> Switches their Elemental Burst to <color=#FFFFFFFF>$[S13174]</color>.\\n<color=#FFFFFFFF>After this character uses an Elemental Skill:</color> Switches their Elemental Burst to<color=#FFFFFFFF>$[S13173]</color>.",
+          "desc": "(Passive) <color=#FFFFFFFF>After this character uses a Normal Attack:</color> Switch their Elemental Burst to <color=#FFFFFFFF>$[S13174]</color>.\\n<color=#FFFFFFFF>After this character uses an Elemental Skill:</color> Switch their Elemental Burst to <color=#FFFFFFFF>$[S13173]</color>.",
           "child": {
             "s13174": "S13174",
             "s13173": "S13173"
@@ -9247,7 +9248,7 @@
           },
           "tag": "GCG_SKILL_TAG_E",
           "cost": {
-            "gcg_cost_dice_anemo": 2
+            "gcg_cost_dice_anemo": 3
           }
         },
         "15153": {
@@ -9287,7 +9288,8 @@
     "localizedNames": {
       "en": "Jahoda",
       "zh": "雅珂达",
-      "ja": "ヤフォダ"
+      "ja": "ヤフォダ",
+      "ko": "야호다"
     },
     "type": "Character",
     "cost": 2,
@@ -9336,7 +9338,7 @@
             },
             "c115161": {
               "name": "Purr-loined Treasure Flask",
-              "desc": "<color=#FFFFFFFF>When $[A1516] switches to become the active character:</color> If the opponent active character is affected by Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element.\\n$[K1]: Deal 2 <color=#FFFFFFFF>$[K105]</color> to the opponent's active character. Repeat once.",
+              "desc": "<color=#FFFFFFFF>When $[A1516] switches to become the active character:</color> If the opponent active character is affected by Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element.\\n$[K1]: Deal 1 <color=#FFFFFFFF>$[K105]</color> to the opponent's active character. Repeat once.",
               "child": {
                 "a1516": "Jahoda",
                 "k1": {
@@ -9361,7 +9363,7 @@
         },
         "15163": {
           "name": "Hidden Aces: Seven Tools of the Hunter",
-          "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT] and create <color=#FFFFFFFF>$[C115166]</color>.",
+          "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT] and creates <color=#FFFFFFFF>$[C115166]</color>.",
           "child": {
             "d_key_damage": 3,
             "d_key_element": "GCG_ELEMENT_ANEMO",
@@ -9388,7 +9390,7 @@
           "child": {
             "c115161": {
               "name": "Purr-loined Treasure Flask",
-              "desc": "<color=#FFFFFFFF>When $[A1516] switches to become the active character:</color> If the opponent active character is affected by Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element.\\n$[K1]: Deal 2 <color=#FFFFFFFF>$[K105]</color> to the opponent's active character. Repeat once.",
+              "desc": "<color=#FFFFFFFF>When $[A1516] switches to become the active character:</color> If the opponent active character is affected by Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element.\\n$[K1]: Deal 1 <color=#FFFFFFFF>$[K105]</color> to the opponent's active character. Repeat once.",
               "child": {
                 "a1516": "Jahoda",
                 "k1": {
@@ -9415,7 +9417,7 @@
           "child": {
             "c115161": {
               "name": "Purr-loined Treasure Flask",
-              "desc": "<color=#FFFFFFFF>When $[A1516] switches to become the active character:</color> If the opponent active character is affected by Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element.\\n$[K1]: Deal 2 <color=#FFFFFFFF>$[K105]</color> to the opponent's active character. Repeat once.",
+              "desc": "<color=#FFFFFFFF>When $[A1516] switches to become the active character:</color> If the opponent active character is affected by Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element.\\n$[K1]: Deal 1 <color=#FFFFFFFF>$[K105]</color> to the opponent's active character. Repeat once.",
               "child": {
                 "a1516": "Jahoda",
                 "k1": {

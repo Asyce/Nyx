@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T19:42:19.906Z",
+  "generatedAt": "2026-07-14T21:07:15.031Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-07-14T19:42:19.906Z",
+      "lastSuccessfulFetch": "2026-07-14T21:07:15.031Z",
       "codes": [
         {
           "code": "PFY1S40I88T9",
@@ -51,7 +51,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-07-14T19:42:11.923Z",
+      "lastSuccessfulFetch": "2026-07-14T21:07:14.996Z",
       "codes": [
         {
           "code": "4TKSX77Y58QK",
@@ -63,6 +63,17 @@
           "premium100": false,
           "cwSeen": false,
           "firstSeen": "2026-07-05T17:19:05.883Z"
+        },
+        {
+          "code": "5S6ZHRWTDNJB",
+          "rewards": "60 stellar jade",
+          "added": "2026-07-14",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
+          "hoyoVerified": true,
+          "premium": true,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-07-14T21:07:14.996Z"
         },
         {
           "code": "CREATIONNYMPH",
@@ -139,7 +150,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-07-14T19:42:13.515Z",
+      "lastSuccessfulFetch": "2026-07-14T21:07:14.633Z",
       "codes": [
         {
           "code": "ROSCAELIFER0617",
@@ -205,7 +216,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-07-14T19:42:14.349Z",
+      "lastSuccessfulFetch": "2026-07-14T21:07:14.581Z",
       "codes": []
     },
     {
@@ -215,7 +226,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-07-14T19:42:15.908Z",
+      "lastSuccessfulFetch": "2026-07-14T21:07:14.547Z",
       "codes": [
         {
           "code": "ENDFIELDRENEW",
@@ -226,6 +237,26 @@
           "premium100": false,
           "cwSeen": false,
           "firstSeen": "2026-07-14T15:28:37.206Z"
+        },
+        {
+          "code": "ALLFIELD",
+          "rewards": "",
+          "added": "2026-06-28",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=ALLFIELD",
+          "premium": false,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-07-14T21:07:14.547Z"
+        },
+        {
+          "code": "RETURNOFALL",
+          "rewards": "",
+          "added": "2026-06-28",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=RETURNOFALL",
+          "premium": false,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-07-14T21:07:14.547Z"
         },
         {
           "code": "ZAU2SYXHWX5L4ZH",

@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-14T01:10:53.278Z",
+  "games": [
+    {
+      "game": "gi",
+      "source": {
+        "name": "Genshin Impact Official",
+        "endpoint": "sg-hk4e-api.hoyoverse.com getAnnList+getAnnContent"
+      },
+      "fetchedAt": "2026-07-14T01:10:53.278Z",
+      "status": "complete-for-source",
+      "exhausted": true,
+      "pagesFetched": 3,
+      "pageLimit": 3,
+      "fetchedRecords": 84,
+      "storedRecords": 15,
+      "retainedPrevious": 3,
+      "previousRecords": 15,
+      "earliest": "2026-05-18T03:00:00.000Z",
+      "latest": "2026-08-11T02:59:00.000Z",
+      "resumeCursor": null,
+      "gaps": [
+        "The official HoYo announcement API is a rolling feed and does not expose a launch-to-present pagination cursor."
+      ],
+      "anomaly": null
+    },
+    {
+      "game": "hsr",
+      "source": {
+        "name": "Honkai: Star Rail Official",
+        "endpoint": "sg-hkrpg-api.hoyoverse.com getAnnList+getAnnContent"
+      },
+      "fetchedAt": "2026-07-14T01:10:53.278Z",
+      "status": "complete-for-source",
+      "exhausted": true,
+      "pagesFetched": 3,
+      "pageLimit": 3,
+      "fetchedRecords": 36,
+      "storedRecords": 1,
+      "retainedPrevious": 1,
+      "previousRecords": 1,
+      "earliest": "2026-07-03T03:00:00.000Z",
+      "latest": "2026-07-13T02:59:00.000Z",
+      "resumeCursor": null,
+      "gaps": [
+        "The official HoYo announcement API is a rolling feed and does not expose a launch-to-present pagination cursor."
+      ],
+      "anomaly": null
+    },
+    {
+      "game": "zzz",
+      "source": {
+        "name": "Zenless Zone Zero Official",
+        "endpoint": "sg-announcement-api.hoyoverse.com getAnnList+getAnnContent"
+      },
+      "fetchedAt": "2026-07-14T01:10:53.278Z",
+      "status": "complete-for-source",
+      "exhausted": true,
+      "pagesFetched": 3,
+      "pageLimit": 3,
+      "fetchedRecords": 42,
+      "storedRecords": 7,
+      "retainedPrevious": 1,
+      "previousRecords": 7,
+      "earliest": "2026-06-06T19:30:00.000Z",
+      "latest": "2026-07-28T02:59:00.000Z",
+      "resumeCursor": null,
+      "gaps": [
+        "The official HoYo announcement API is a rolling feed and does not expose a launch-to-present pagination cursor."
+      ],
+      "anomaly": null
+    },
+    {
+      "game": "wuwa",
+      "source": {
+        "name": "Wuthering Waves Official",
+        "endpoint": "hw-media-cdn-mingchao.kurogame.com ArticleMenu.json + article/*.json"
+      },
+      "fetchedAt": "2026-07-14T01:10:53.278Z",
+      "status": "complete-for-source",
+      "exhausted": true,
+      "pagesFetched": 1,
+      "pageLimit": 1,
+      "fetchedRecords": 235,
+      "storedRecords": 253,
+      "retainedPrevious": 18,
+      "previousRecords": 94,
+      "earliest": "2024-05-29T20:00:00.000Z",
+      "latest": "2026-08-19T15:59:00.000Z",
+      "resumeCursor": null,
+      "gaps": [],
+      "anomaly": null
+    },
+    {
+      "game": "endfield",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "endpoint": "web-news.gryphline.com /api/bulletin"
+      },
+      "fetchedAt": "2026-07-14T01:10:53.278Z",
+      "status": "complete-for-source",
+      "exhausted": true,
+      "pagesFetched": 4,
+      "pageLimit": 50,
+      "fetchedRecords": 26,
+      "storedRecords": 26,
+      "retainedPrevious": 0,
+      "previousRecords": 26,
+      "earliest": "2026-05-14T04:00:00.000Z",
+      "latest": "2026-06-26T04:00:00.000Z",
+      "resumeCursor": null,
+      "gaps": [],
+      "anomaly": null
+    }
+  ]
+}

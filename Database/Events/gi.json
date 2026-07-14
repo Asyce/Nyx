@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "game": "gi",
-  "generatedAt": "2026-07-12T02:23:17.297Z",
+  "generatedAt": "2026-07-14T01:10:53.278Z",
   "source": {
     "name": "Genshin Impact Official",
     "endpoint": "sg-hk4e-api.hoyoverse.com getAnnList+getAnnContent"
@@ -22,63 +22,6 @@
   "events": [
     {
       "game": "gi",
-      "id": "gi-hoyolab-official-45197150",
-      "title": "Stygian Onslaught",
-      "type": "challenge",
-      "start": "2026-05-27T09:00:00.000Z",
-      "end": "2026-06-30T02:59:00.000Z",
-      "server": "europe",
-      "timezone": "UTC+01:00",
-      "source": {
-        "name": "Genshin Impact Official",
-        "url": "https://www.hoyolab.com/article/45197150",
-        "priority": 1
-      },
-      "confidence": "high",
-      "permanence": "timed",
-      "needs_review": false,
-      "description": "A three-phase combat challenge with six difficulty levels and performance rewards."
-    },
-    {
-      "game": "gi",
-      "id": "gi-hoyolab-official-45349300",
-      "title": "Trials of the Brave Warrior",
-      "type": "event",
-      "start": "2026-06-08T09:00:00.000Z",
-      "end": "2026-06-18T02:59:00.000Z",
-      "server": "europe",
-      "timezone": "UTC+01:00",
-      "source": {
-        "name": "Genshin Impact Official",
-        "url": "https://www.hoyolab.com/article/45349300",
-        "priority": 1
-      },
-      "confidence": "high",
-      "permanence": "timed",
-      "needs_review": false,
-      "description": "A swordsmanship challenge built around parries and Honed Techniques."
-    },
-    {
-      "game": "gi",
-      "id": "gi-hoyolab-official-45478500",
-      "title": "Kaleidoscopic Color Chase",
-      "type": "event",
-      "start": "2026-06-18T09:00:00.000Z",
-      "end": "2026-06-29T02:59:00.000Z",
-      "server": "europe",
-      "timezone": "UTC+01:00",
-      "source": {
-        "name": "Genshin Impact Official",
-        "url": "https://www.hoyolab.com/article/45478500",
-        "priority": 1
-      },
-      "confidence": "high",
-      "permanence": "timed",
-      "needs_review": false,
-      "description": "A co-op paint collection challenge with five progressively unlocked stages."
-    },
-    {
-      "game": "gi",
       "id": "gi-hoyo-ann-5e481c62dc26",
       "title": "Stygian Onslaught Event: Disturbance-affected Ley Line challenges",
       "type": "challenge",
@@ -89,93 +32,37 @@
       "source": {
         "name": "Genshin Impact Official",
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21168",
+        "kind": "official-announcement-api",
+        "recordId": "21168",
+        "fetchedAt": "2026-07-14T01:10:53.280Z",
         "priority": 1
       },
       "confidence": "high",
+      "scheduleStatus": "exact",
       "permanence": "timed",
       "needs_review": false,
-      "image": "https://sdk.hoyoverse.com/upload/ann/2025/10/23/40da7ab1ce17afd008e7a10c6ee6e67b_3372052251159312794_transformed.jpg",
-      "description": "〓Event Rewards〓 〓Event Duration〓 Event Duration: 2026/07/08 10:00 - 2026/08/11 03:59 Disturbance Outbreak: 2026/07/08 10:00 - 2026/07/18 03:59 〓Eligibility〓 Adventure Rank 20 or above And complete Archon Quest Prologue: Act III \"Song of…"
-    },
-    {
-      "game": "gi",
-      "id": "gi-hoyo-ann-a32a219bfe08",
-      "title": "\"To Temper Thyself and Journey Far\": Rewards of Dedication",
-      "type": "event",
-      "start": "2026-05-18T03:00:00.000Z",
-      "end": "2026-08-10T02:59:00.000Z",
-      "server": "europe",
-      "timezone": "UTC+01:00",
-      "source": {
-        "name": "Genshin Impact Official",
-        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21646",
-        "priority": 1
-      },
-      "confidence": "high",
-      "permanence": "timed",
-      "needs_review": false,
-      "image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/f77abe8a6f4104f1229db987e2c4280a_2209363618000115098_transformed.png",
-      "description": "〓Event Rewards〓 〓Event Duration〓 2026/05/18 04:00 - 2026/08/10 03:59 〓Eligibility〓 Adventure Rank 14 or above Complete \"Knights of Favonius\" in Archon Quest Prologue: Act I to unlock the Wish system Complete the World Quest \"Welcome to…"
-    },
-    {
-      "game": "gi",
-      "id": "gi-hoyo-ann-31eafabc7d8c",
-      "title": "Official Top-Up Center Now Online",
-      "type": "shop",
-      "start": null,
-      "end": null,
-      "server": "europe",
-      "timezone": "UTC+01:00",
-      "source": {
-        "name": "Genshin Impact Official",
-        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=1249",
-        "priority": 1
-      },
-      "confidence": "low",
-      "permanence": "unknown",
-      "needs_review": true,
-      "image": "https://sdk.hoyoverse.com/upload/ann/2022/12/06/a3f64d19df0a6a8ed5a3b0a1fccba620_3384464103647206496.jpg",
-      "description": "Dear Travelers, the official Top-Up Center is now available on the Genshin Impact website. Interested Travelers can check it out by following the link below to the website. Go to Website From the homepage, simply select the \"Top Up\"…"
-    },
-    {
-      "game": "gi",
-      "id": "gi-hoyo-ann-35dfee6c8841",
-      "title": "Event Wish \"Starry Night's Whispers\" - Boosted Drop Rate for \"Obsidian Opalstar\" Citlali (Cryo)!",
-      "type": "banner",
-      "start": null,
-      "end": null,
-      "server": "europe",
-      "timezone": "UTC+01:00",
-      "source": {
-        "name": "Genshin Impact Official",
-        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21744",
-        "priority": 1
-      },
-      "confidence": "low",
-      "permanence": "unknown",
-      "needs_review": true,
-      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/6688ebcd1be4d6fb447367af5166d302_8781030942944991750_transformed.jpg",
-      "description": "Travelers, stock up on weapons and characters in the event wish to make your party stronger in combat! 〓Event Wish Details〓 Event Wish Duration Promotional Character (5-Star) Featured Characters (4-Star) After the Version \"Luna VIII\"…"
-    },
-    {
-      "game": "gi",
-      "id": "gi-hoyo-ann-4e84ec1b62a5",
-      "title": "Event Wish \"To the Looking-Glass the Mademoiselle Said\" - Boosted Drop Rate for \"Mirrored Analysis\" Sandrone (Cryo)!",
-      "type": "banner",
-      "start": null,
-      "end": null,
-      "server": "europe",
-      "timezone": "UTC+01:00",
-      "source": {
-        "name": "Genshin Impact Official",
-        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21743",
-        "priority": 1
-      },
-      "confidence": "low",
-      "permanence": "unknown",
-      "needs_review": true,
-      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/9051504c6cc2742ff981816ef64341b0_2963061423775561785_transformed.jpg",
-      "description": "Travelers, stock up on weapons and characters in the event wish to make your party stronger in combat! 〓Event Wish Details〓 Event Wish Duration Promotional Character (5-Star) Featured Characters (4-Star) After the Version \"Luna VIII\"…"
+      "image": null,
+      "description": "〓Event Rewards〓 〓Event Duration〓 Event Duration: 2026/07/08 10:00 - 2026/08/11 03:59 Disturbance Outbreak: 2026/07/08 10:00 - 2026/07/18 03:59 〓Eligibility〓 Adventure Rank 20 or above And complete Archon Quest Prologue: Act III \"Song of…",
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-07-08T09:00:00.000Z",
+          "end": "2026-08-11T02:59:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21168"
+        },
+        "asia": {
+          "start": "2026-07-08T02:00:00.000Z",
+          "end": "2026-08-10T19:59:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21168"
+        },
+        "america": {
+          "start": "2026-07-08T15:00:00.000Z",
+          "end": "2026-08-11T08:59:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21168"
+        }
+      }
     },
     {
       "game": "gi",
@@ -189,13 +76,212 @@
       "source": {
         "name": "Genshin Impact Official",
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21749",
+        "kind": "official-announcement-api",
+        "recordId": "21749",
+        "fetchedAt": "2026-07-14T01:10:53.280Z",
         "priority": 1
+      },
+      "confidence": "high",
+      "scheduleStatus": "expected",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null,
+      "description": "〓Event Rewards〓 〓Event Duration〓 After the Version \"Luna VIII\" update – 2026/08/11 03:59 〓Eligibility〓 Adventure Rank 20 or above Complete Archon Quest Prologue: Act III \"Song of the Dragon and Freedom\" Unlock any Statue of The Seven in…",
+      "windowsByRegion": {}
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyolab-official-45478500",
+      "title": "Kaleidoscopic Color Chase",
+      "type": "event",
+      "start": "2026-06-18T09:00:00.000Z",
+      "end": "2026-06-29T02:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://www.hoyolab.com/article/45478500",
+        "priority": 1,
+        "kind": "legacy-official-snapshot",
+        "recordId": "45478500",
+        "fetchedAt": "2026-07-13T22:40:55.330Z",
+        "fetchedAtMeaning": "nyx-snapshot-observed-at"
       },
       "confidence": "high",
       "permanence": "timed",
       "needs_review": false,
-      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/4c699b74ef0c77158a7f28e62ba2d7ec_6267956826869874359_transformed.jpg",
-      "description": "〓Event Rewards〓 〓Event Duration〓 After the Version \"Luna VIII\" update – 2026/08/11 03:59 〓Eligibility〓 Adventure Rank 20 or above Complete Archon Quest Prologue: Act III \"Song of the Dragon and Freedom\" Unlock any Statue of The Seven in…"
+      "description": "A co-op paint collection challenge with five progressively unlocked stages.",
+      "scheduleStatus": "exact",
+      "image": null
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyolab-official-45349300",
+      "title": "Trials of the Brave Warrior",
+      "type": "event",
+      "start": "2026-06-08T09:00:00.000Z",
+      "end": "2026-06-18T02:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://www.hoyolab.com/article/45349300",
+        "priority": 1,
+        "kind": "legacy-official-snapshot",
+        "recordId": "45349300",
+        "fetchedAt": "2026-07-13T22:40:55.330Z",
+        "fetchedAtMeaning": "nyx-snapshot-observed-at"
+      },
+      "confidence": "high",
+      "permanence": "timed",
+      "needs_review": false,
+      "description": "A swordsmanship challenge built around parries and Honed Techniques.",
+      "scheduleStatus": "exact",
+      "image": null
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyolab-official-45197150",
+      "title": "Stygian Onslaught",
+      "type": "challenge",
+      "start": "2026-05-27T09:00:00.000Z",
+      "end": "2026-06-30T02:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://www.hoyolab.com/article/45197150",
+        "priority": 1,
+        "kind": "legacy-official-snapshot",
+        "recordId": "45197150",
+        "fetchedAt": "2026-07-13T22:40:55.330Z",
+        "fetchedAtMeaning": "nyx-snapshot-observed-at"
+      },
+      "confidence": "high",
+      "permanence": "timed",
+      "needs_review": false,
+      "description": "A three-phase combat challenge with six difficulty levels and performance rewards.",
+      "scheduleStatus": "exact",
+      "image": null
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-a32a219bfe08",
+      "title": "\"To Temper Thyself and Journey Far\": Rewards of Dedication",
+      "type": "event",
+      "start": "2026-05-18T03:00:00.000Z",
+      "end": "2026-08-10T02:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21646",
+        "kind": "official-announcement-api",
+        "recordId": "21646",
+        "fetchedAt": "2026-07-14T01:10:53.280Z",
+        "priority": 1
+      },
+      "confidence": "high",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": null,
+      "description": "〓Event Rewards〓 〓Event Duration〓 2026/05/18 04:00 - 2026/08/10 03:59 〓Eligibility〓 Adventure Rank 14 or above Complete \"Knights of Favonius\" in Archon Quest Prologue: Act I to unlock the Wish system Complete the World Quest \"Welcome to…",
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-05-18T03:00:00.000Z",
+          "end": "2026-08-10T02:59:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21646"
+        },
+        "asia": {
+          "start": "2026-05-17T20:00:00.000Z",
+          "end": "2026-08-09T19:59:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21646"
+        },
+        "america": {
+          "start": "2026-05-18T09:00:00.000Z",
+          "end": "2026-08-10T08:59:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21646"
+        }
+      }
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-31eafabc7d8c",
+      "title": "Official Top-Up Center Now Online",
+      "type": "shop",
+      "start": null,
+      "end": null,
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=1249",
+        "kind": "official-announcement-api",
+        "recordId": "1249",
+        "fetchedAt": "2026-07-14T01:10:53.280Z",
+        "priority": 1
+      },
+      "confidence": "low",
+      "scheduleStatus": "expected",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": null,
+      "description": "Dear Travelers, the official Top-Up Center is now available on the Genshin Impact website. Interested Travelers can check it out by following the link below to the website. Go to Website From the homepage, simply select the \"Top Up\"…",
+      "windowsByRegion": {}
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-35dfee6c8841",
+      "title": "Event Wish \"Starry Night's Whispers\" - Boosted Drop Rate for \"Obsidian Opalstar\" Citlali (Cryo)!",
+      "type": "banner",
+      "start": null,
+      "end": null,
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21744",
+        "kind": "official-announcement-api",
+        "recordId": "21744",
+        "fetchedAt": "2026-07-14T01:10:53.280Z",
+        "priority": 1
+      },
+      "confidence": "low",
+      "scheduleStatus": "expected",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": null,
+      "description": "Travelers, stock up on weapons and characters in the event wish to make your party stronger in combat! 〓Event Wish Details〓 Event Wish Duration Promotional Character (5-Star) Featured Characters (4-Star) After the Version \"Luna VIII\"…",
+      "windowsByRegion": {}
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-4e84ec1b62a5",
+      "title": "Event Wish \"To the Looking-Glass the Mademoiselle Said\" - Boosted Drop Rate for \"Mirrored Analysis\" Sandrone (Cryo)!",
+      "type": "banner",
+      "start": null,
+      "end": null,
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21743",
+        "kind": "official-announcement-api",
+        "recordId": "21743",
+        "fetchedAt": "2026-07-14T01:10:53.280Z",
+        "priority": 1
+      },
+      "confidence": "low",
+      "scheduleStatus": "expected",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": null,
+      "description": "Travelers, stock up on weapons and characters in the event wish to make your party stronger in combat! 〓Event Wish Details〓 Event Wish Duration Promotional Character (5-Star) Featured Characters (4-Star) After the Version \"Luna VIII\"…",
+      "windowsByRegion": {}
     },
     {
       "game": "gi",
@@ -209,13 +295,18 @@
       "source": {
         "name": "Genshin Impact Official",
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21282",
+        "kind": "official-announcement-api",
+        "recordId": "21282",
+        "fetchedAt": "2026-07-14T01:10:53.280Z",
         "priority": 1
       },
       "confidence": "high",
+      "scheduleStatus": "exact",
       "permanence": "permanent",
       "needs_review": false,
-      "image": "https://sdk.hoyoverse.com/upload/ann/2025/08/28/8dbda65d63a584a0eaedee3fed63c0c4_4369780166988778346_transformed.png",
-      "description": "〓Event Duration〓 Permanently available after the Version \"Luna I\" update 〓Event Rewards〓 〓Eligibility〓 Complete the Archon Quest \"The Journey Home\" ※ After completing the Archon Quest \"A New Star Approaches,\" you can use the \"Quick Start\"…"
+      "image": null,
+      "description": "〓Event Duration〓 Permanently available after the Version \"Luna I\" update 〓Event Rewards〓 〓Eligibility〓 Complete the Archon Quest \"The Journey Home\" ※ After completing the Archon Quest \"A New Star Approaches,\" you can use the \"Quick Start\"…",
+      "windowsByRegion": {}
     },
     {
       "game": "gi",
@@ -229,13 +320,18 @@
       "source": {
         "name": "Genshin Impact Official",
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21784",
+        "kind": "official-announcement-api",
+        "recordId": "21784",
+        "fetchedAt": "2026-07-14T01:10:53.280Z",
         "priority": 1
       },
       "confidence": "high",
+      "scheduleStatus": "exact",
       "permanence": "permanent",
       "needs_review": false,
-      "image": "https://sdk.hoyoverse.com/upload/ann/2022/12/06/d15f6c61e1d3d62d5e269360aaef7285_3515093605882829658.png",
-      "description": "Dear Travelers, The HoYoLAB Community \"Daily Check-In\" feature is now available! Go to HoYoLAB Tools Genshin Impact Check-in, and check in daily to obtain Primogems, Mora, Hero's Wit, and other in-game rewards. You will receive 100…"
+      "image": null,
+      "description": "Dear Travelers, The HoYoLAB Community \"Daily Check-In\" feature is now available! Go to HoYoLAB Tools Genshin Impact Check-in, and check in daily to obtain Primogems, Mora, Hero's Wit, and other in-game rewards. You will receive 100…",
+      "windowsByRegion": {}
     },
     {
       "game": "gi",
@@ -249,13 +345,18 @@
       "source": {
         "name": "Genshin Impact Official",
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21748",
+        "kind": "official-announcement-api",
+        "recordId": "21748",
+        "fetchedAt": "2026-07-14T01:10:53.280Z",
         "priority": 1
       },
       "confidence": "low",
+      "scheduleStatus": "expected",
       "permanence": "unknown",
       "needs_review": true,
-      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/1ddd62a7912ad368ebb4c6e086eea9f7_7383403002050886108_transformed.jpg",
-      "description": "Travelers, stock up on weapons and characters in the Lightrace Wish to make your party stronger in combat! 〓Event Wish Details〓 Event Wish Duration Designatable 5-Star Characters Designatable 5-Star Weapons After the Version \"Luna VIII\"…"
+      "image": null,
+      "description": "Travelers, stock up on weapons and characters in the Lightrace Wish to make your party stronger in combat! 〓Event Wish Details〓 Event Wish Duration Designatable 5-Star Characters Designatable 5-Star Weapons After the Version \"Luna VIII\"…",
+      "windowsByRegion": {}
     },
     {
       "game": "gi",
@@ -269,13 +370,18 @@
       "source": {
         "name": "Genshin Impact Official",
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21755",
+        "kind": "official-announcement-api",
+        "recordId": "21755",
+        "fetchedAt": "2026-07-14T01:10:53.280Z",
         "priority": 1
       },
       "confidence": "low",
+      "scheduleStatus": "expected",
       "permanence": "unknown",
       "needs_review": true,
-      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/18/73a73ee95d6dbf89aebb42b87f2d40bc_7019522087543287260_transformed.jpg",
-      "description": "Travelers can earn rich rewards in \"Sunny Summer\" during the event duration. Unlock Gnostic Hymn or Gnostic Chorus to further earn Intertwined Fate and a designated 4-star weapon! Purchase Gnostic Chorus directly to get the exclusive BP…"
+      "image": null,
+      "description": "Travelers can earn rich rewards in \"Sunny Summer\" during the event duration. Unlock Gnostic Hymn or Gnostic Chorus to further earn Intertwined Fate and a designated 4-star weapon! Purchase Gnostic Chorus directly to get the exclusive BP…",
+      "windowsByRegion": {}
     },
     {
       "game": "gi",
@@ -289,13 +395,18 @@
       "source": {
         "name": "Genshin Impact Official",
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21707",
+        "kind": "official-announcement-api",
+        "recordId": "21707",
+        "fetchedAt": "2026-07-14T01:10:53.280Z",
         "priority": 1
       },
       "confidence": "low",
+      "scheduleStatus": "expected",
       "permanence": "unknown",
       "needs_review": true,
-      "image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/d123dfbb81d6f730a5eeba577d493dad_3408949110643189124_transformed.jpg",
-      "description": "〓Event Duration〓 After the Version \"Luna II\" update – 2026/09/23 05:59 〓Eligibility〓 Travelers who have completed registration and unlocked the Wish feature after the Version Luna II update 〓Event Details〓 ● New Travelers who register…"
+      "image": null,
+      "description": "〓Event Duration〓 After the Version \"Luna II\" update – 2026/09/23 05:59 〓Eligibility〓 Travelers who have completed registration and unlocked the Wish feature after the Version Luna II update 〓Event Details〓 ● New Travelers who register…",
+      "windowsByRegion": {}
     },
     {
       "game": "gi",
@@ -309,13 +420,18 @@
       "source": {
         "name": "Genshin Impact Official",
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21745",
+        "kind": "official-announcement-api",
+        "recordId": "21745",
+        "fetchedAt": "2026-07-14T01:10:53.280Z",
         "priority": 1
       },
       "confidence": "low",
+      "scheduleStatus": "expected",
       "permanence": "unknown",
       "needs_review": true,
-      "image": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/72f9f68c96f10bad8f09b6e4e2779a04_5696032299474729046_transformed.jpg",
-      "description": "Travelers, stock up on weapons and characters in \"Epitome Invocation\" to make your party stronger in combat! 〓Event Wish Details〓 Event Wish Duration Promotional Weapons (5-Star) Featured Weapons (4-Star) After the Version \"Luna VIII\"…"
+      "image": null,
+      "description": "Travelers, stock up on weapons and characters in \"Epitome Invocation\" to make your party stronger in combat! 〓Event Wish Details〓 Event Wish Duration Promotional Weapons (5-Star) Featured Weapons (4-Star) After the Version \"Luna VIII\"…",
+      "windowsByRegion": {}
     }
   ]
 }

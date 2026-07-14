@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T19:28:17.056Z",
+  "generatedAt": "2026-07-14T14:23:57.789Z",
   "note": "Generic shops, crafting, exchanges, and event rewards are intentionally filtered. Rows here need scraper/wiki-specific source data.",
   "count": 207,
   "missing": [
@@ -439,10 +439,10 @@
     },
     {
       "game": "gi",
-      "context": "Traveler talent stage",
+      "context": "Traveler talents",
       "id": "113063",
       "name": "The Cornerstone of Stars and Flames",
-      "kind": "weekly"
+      "kind": "specialty"
     },
     {
       "game": "gi",

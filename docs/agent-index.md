@@ -12,7 +12,21 @@ Use this as the first reference when Codex, Claude, or another coding agent work
 
 Read these before implementing review-driven work:
 
-000. `docs/characters-calendar-database-library-plan-2026-07-13.md` — **CURRENT ACTIVE PLAN (APPROVED FOR IMPLEMENTATION).**
+0000. `docs/feedback-characters-database-library-endfield-plan-2026-07-14.md` — **COMPLETED FEEDBACK PLAN.**
+    Five dependency-ordered batches covering Characters scrolling and Trounce
+    data/layout, Database rarity frames, Library phrase navigation, Endfield
+    material categories, and the independent final gate on the existing
+    `codex/genshin-timeline-redesign` worktree.
+
+0000. `docs/timeline-characters-database-library-plan-2026-07-14.md` — **COMPLETED TIMELINE PLAN.**
+    Seven dependency-ordered batches (`nyx-0039`…`nyx-0045`) covering the shared
+    time preference, sourced event/activity data, one all-game timeline layout,
+    Characters/Nyx corrections, Database filters/data, Library annotation UX,
+    and the independent integration gate. Work is isolated in the existing
+    `codex/genshin-timeline-redesign` branch/worktree; do not disturb the active
+    achievements worktree or deploy without an explicit ask.
+
+000. `docs/characters-calendar-database-library-plan-2026-07-13.md` — **COMPLETED FOLLOW-UP PLAN.**
     Six corrective batches (`nyx-0032`…`nyx-0037`) in two safe lanes followed by a serial join, covering Characters/favourites,
     custom Calendar birthdays and return routing, Database data correctness and UI,
     and Library full-text search/selection/annotations. The user approved work in

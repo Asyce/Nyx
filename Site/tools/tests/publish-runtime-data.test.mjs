@@ -16,7 +16,7 @@ async function fixture() {
     await fs.writeFile(path.join(dir, 'icons', `${hash}.webp`), bytes);
     await fs.writeFile(path.join(dir, 'book.json'), JSON.stringify({ schemaVersion:1, game, id:'book', name:'Book', generatedAt:'2026-07-11T00:00:00Z', volumes:[{ id:'1', volumeKey:'text', label:'Text', document:{ version:1, blocks:[{ id:'p-0123456789abcdef', type:'paragraph', children:[{ type:'text', text:'Tanuki tale' }] }] } }] }));
     await fs.writeFile(path.join(dir, 'index.json'), JSON.stringify({ schemaVersion:1, game, generatedAt:'2026-07-11T00:00:00Z', count:1, entries:[{ id:'book', name:'Book', file:'book.json', icon:`icons/${hash}.webp`, volumeCount:1, volumeLabels:['Text'], volumeKeys:['text'] }] }));
-    await fs.writeFile(path.join(dir, 'search-index.json'), JSON.stringify({ schemaVersion:1, game, generatedAt:'2026-07-11T00:00:00Z', bookCount:1, books:['book'], wordCount:2, minWordLength:2, words:{ tale:[0], tanuki:[0] } }));
+    await fs.writeFile(path.join(dir, 'search-index.json'), JSON.stringify({ schemaVersion:2, game, generatedAt:'2026-07-11T00:00:00Z', bookCount:1, volumeCount:1, books:['book'], volumes:[{ book:0, volumeKey:'text', leaves:['tanuki tale'] }] }));
   }
   const historyDir = path.join(root, 'Database', 'BannerHistory');
   const activityDir = path.join(root, 'Database', 'Activities');
@@ -90,7 +90,7 @@ test('publisher rejects inconsistent book schemas and icon content hashes', asyn
   await assert.rejects(publishRuntimeData({ rootDir, maxBytes:4096 }), /hash\/magic mismatch/);
 });
 
-test('publisher rejects unstable leaf ids and invalid search postings', async () => {
+test('publisher rejects unstable leaf ids and invalid search volumes', async () => {
   let rootDir = await fixture();
   const bookFile = path.join(rootDir, 'Database', 'Library', 'gi', 'book.json');
   const book = JSON.parse(await fs.readFile(bookFile));
@@ -100,9 +100,15 @@ test('publisher rejects unstable leaf ids and invalid search postings', async ()
   rootDir = await fixture();
   const searchFile = path.join(rootDir, 'Database', 'Library', 'gi', 'search-index.json');
   const search = JSON.parse(await fs.readFile(searchFile));
-  search.words.tanuki = [1];
+  search.volumes[0].book = 1;
   await fs.writeFile(searchFile, JSON.stringify(search));
-  await assert.rejects(publishRuntimeData({ rootDir, maxBytes:4096 }), /invalid postings/);
+  await assert.rejects(publishRuntimeData({ rootDir, maxBytes:4096 }), /invalid volume row/);
+  rootDir = await fixture();
+  const normalizedFile = path.join(rootDir, 'Database', 'Library', 'gi', 'search-index.json');
+  const normalized = JSON.parse(await fs.readFile(normalizedFile));
+  normalized.volumes[0].leaves[0] = 'Tanuki  tale';
+  await fs.writeFile(normalizedFile, JSON.stringify(normalized));
+  await assert.rejects(publishRuntimeData({ rootDir, maxBytes:4096 }), /invalid normalized leaf text/);
 });
 
 test('publisher requires all five histories and supported activity files', async () => {
@@ -125,6 +131,16 @@ async function withEvents(rootDir, gameToPayload) {
   for (const [game, payload] of Object.entries(gameToPayload)) {
     await fs.writeFile(path.join(eventsDir, `${game}.json`), JSON.stringify(payload));
   }
+  const games = ['gi','hsr','zzz','wuwa','endfield'];
+  await fs.writeFile(path.join(eventsDir, 'manifest.json'), JSON.stringify({
+    schemaVersion:1,
+    generatedAt:'2026-07-12T00:00:00Z',
+    games:games.map((game) => ({ game, status:'complete-for-source', exhausted:true, source:{ name:'Official', endpoint:'official.example' } })),
+  }));
+  await fs.writeFile(path.join(eventsDir, 'history-state.json'), JSON.stringify({
+    schemaVersion:1,
+    games:Object.fromEntries(games.map((game) => [game, { completedIds:[], resumeCursor:null, exhausted:true, updatedAt:'2026-07-12T00:00:00Z' }])),
+  }));
 }
 
 test('publisher is unaffected when Events is absent (still-optional family)', async () => {
@@ -144,9 +160,21 @@ test('publisher includes and validates Events when present, keyed by the backend
     endfield: { schemaVersion:1, game:'endfield', generatedAt:'2026-07-12T00:00:00Z', events:[] },
   });
   const manifest = await publishRuntimeData({ rootDir, maxBytes:4096 });
-  assert.equal(manifest.files.length, 23);
+  assert.equal(manifest.files.length, 25);
   const eventUrls = manifest.files.filter((f) => f.url.startsWith('/data/events/')).map((f) => f.url).sort();
-  assert.deepEqual(eventUrls, ['/data/events/endfield.json', '/data/events/gi.json', '/data/events/hsr.json', '/data/events/wuwa.json', '/data/events/zzz.json']);
+  assert.deepEqual(eventUrls, ['/data/events/endfield.json', '/data/events/gi.json', '/data/events/history-state.json', '/data/events/hsr.json', '/data/events/manifest.json', '/data/events/wuwa.json', '/data/events/zzz.json']);
+});
+
+test('publisher accepts the validated resumable event history state and rejects malformed checkpoints', async () => {
+  const rootDir = await fixture();
+  await withEvents(rootDir, Object.fromEntries(['gi','hsr','zzz','wuwa','endfield'].map((game) => [game, { schemaVersion:1, game, events:[] }])));
+  const manifest = await publishRuntimeData({ rootDir, maxBytes:4096 });
+  assert.ok(manifest.files.some((entry) => entry.url === '/data/events/history-state.json'));
+  const stateFile = path.join(rootDir, 'Database', 'Events', 'history-state.json');
+  const state = JSON.parse(await fs.readFile(stateFile));
+  state.games.wuwa.resumeCursor = 42;
+  await fs.writeFile(stateFile, JSON.stringify(state));
+  await assert.rejects(publishRuntimeData({ rootDir, maxBytes:4096 }), /invalid history-state\.json/);
 });
 
 test('publisher rejects Events whose game field does not match its filename', async () => {

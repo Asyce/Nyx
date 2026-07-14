@@ -137,7 +137,10 @@ async function verifyRuntimeData(base) {
     const index = JSON.parse(await readDeployText(indexUrl.slice(1)));
     const search = JSON.parse(await readDeployText(searchUrl.slice(1)));
     if (!Array.isArray(index.entries) || index.entries.length !== index.count || !index.entries.length) throw new Error(`${indexUrl} is empty or invalid`);
-    if (search?.schemaVersion !== 1 || search.game !== game || search.bookCount !== index.count || !Array.isArray(search.books) || search.books.length !== index.count || search.wordCount !== Object.keys(search.words || {}).length) throw new Error(`${searchUrl} is invalid`);
+    const expectedVolumeCount = index.entries.reduce((sum, row) => sum + Number(row.volumeCount || 0), 0);
+    if (search?.schemaVersion !== 2 || search.game !== game || search.bookCount !== index.count || !Array.isArray(search.books)
+      || search.books.length !== index.count || !Array.isArray(search.volumes) || search.volumeCount !== expectedVolumeCount
+      || search.volumes.length !== expectedVolumeCount) throw new Error(`${searchUrl} is invalid`);
     for (const row of index.entries) {
       if (!urls.has(`/data/library/${game}/${row.file}`)) throw new Error(`${indexUrl} book is absent from manifest: ${row.file}`);
       if (row.icon && !urls.has(`/data/library/${game}/${row.icon}`)) throw new Error(`${indexUrl} icon is absent from manifest: ${row.icon}`);
@@ -157,7 +160,10 @@ async function verifyRuntimeData(base) {
       }
     }
     await checkFetch(base, indexUrl, '"entries"', 100);
-    await checkFetch(base, searchUrl, '"words"', 100);
+    const fetchedSearch = JSON.parse(await fetchCheckedText(base, searchUrl, null, 100));
+    if (fetchedSearch?.schemaVersion !== 2 || !Array.isArray(fetchedSearch.volumes)) {
+      throw new Error(`${searchUrl} did not serve the volume-aware schema`);
+    }
     await checkFetch(base, `/data/library/${game}/${index.entries[0].file}`, '"volumes"', 100);
   }
   for (const game of ['gi','hsr','zzz','wuwa','ae']) {
@@ -188,13 +194,17 @@ async function verifyRuntimeData(base) {
   return manifest.files.length;
 }
 
-async function checkFetch(base, route, contains, minBytes = 500) {
+async function fetchCheckedText(base, route, contains, minBytes = 500) {
   const res = await fetch(base + route);
   const text = await res.text();
   if (res.status !== 200) throw new Error(`${route} returned ${res.status}`);
   if (text.length < minBytes) throw new Error(`${route} returned suspiciously small body (${text.length} bytes)`);
   if (contains && !text.includes(contains)) throw new Error(`${route} is missing expected text: ${contains}`);
-  return text.length;
+  return text;
+}
+
+async function checkFetch(base, route, contains, minBytes = 500) {
+  return (await fetchCheckedText(base, route, contains, minBytes)).length;
 }
 
 async function main() {

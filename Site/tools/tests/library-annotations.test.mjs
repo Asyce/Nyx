@@ -10,8 +10,9 @@ const source = await fs.readFile(path.join(root, 'src/features/library/library-a
 const names = [
   'nyxLibraryVolumeFingerprint','nyxLibraryAnchorFromRange','nyxMakeLibraryAnnotation','nyxNormalizeLibraryAnnotation',
   'nyxResolveLibraryAnnotation','nyxResolveLibraryAnnotations','nyxLibraryAnnotationSegments','nyxLibraryAnnotationPresentation',
-  'nyxLibrarySubtractFormatting','nyxListLibraryAnnotations','nyxSaveLibraryAnnotation','nyxReplaceLibraryAnnotations',
-  'nyxDeleteLibraryAnnotation','nyxLibraryAnnotationIsQuotaError','NYX_LIBRARY_ANNOTATION_CONTEXT',
+  'nyxLibrarySelectionFormatState','nyxLibrarySubtractFormatting','nyxMakeLibraryAnnotationUndo',
+  'nyxListLibraryAnnotations','nyxSaveLibraryAnnotation','nyxReplaceLibraryAnnotations','nyxCommitLibraryAnnotationMutation',
+  'nyxUndoLibraryAnnotations','nyxDeleteLibraryAnnotation','nyxLibraryAnnotationIsQuotaError','NYX_LIBRARY_ANNOTATION_CONTEXT',
 ];
 const context = { Date, Math, Map, Set, Promise, console, setTimeout, clearTimeout, queueMicrotask };
 vm.runInNewContext(`${core.replace(/^export /gm, '')}\n${source}\n;globalThis.__api={${names.join(',')}};`, context);
@@ -155,6 +156,39 @@ test('partial remove splits formatting but preserves a note-only anchor', () => 
   assert.deepEqual(plain(result.put.filter((row) => row.style).map((row) => [row.anchor.start, row.anchor.end])), [[1,4],[6,9]]);
 });
 
+test('pressed-state coverage and style removal preserve other styles and notes', () => {
+  const text = '0123456789';
+  const leaf = paragraph('p-aaaaaaaaaaaaaaaa', text); const document = documentWith(leaf);
+  const highlight = makeMark(document, leaf, 1, 9, { color:'violet', note:'Keep this note' });
+  const bold = makeMark(document, leaf, 1, 9, { style:'bold' });
+  const selection = { anchorable:true, blockId:leaf.id, start:3, end:7 };
+  const resolved = [highlight, bold].map((annotation) => ({ status:'resolved', blockId:leaf.id, start:1, end:9, annotation }));
+  assert.deepEqual(plain(api.nyxLibrarySelectionFormatState(resolved, selection)), {
+    highlight:true, underline:false, bold:true, highlightColor:'violet', any:true,
+  });
+  const removed = api.nyxLibrarySubtractFormatting(highlight, 3, 7, text, api.nyxLibraryVolumeFingerprint(document), { now:200 });
+  assert.equal(removed.put.some((row) => row.style === null && row.note === 'Keep this note'), true);
+  assert.deepEqual(plain(removed.put.filter((row) => row.style === 'highlight').map((row) => [row.anchor.start, row.anchor.end, row.color])), [
+    [1,3,'violet'], [7,9,'violet'],
+  ]);
+  assert.equal(bold.style, 'bold', 'removing Highlight never changes Bold');
+});
+
+test('changing a highlight color replaces the selected range and keeps notes plus outside color', async () => {
+  const indexedDB = fakeIndexedDB();
+  const text = '0123456789';
+  const leaf = paragraph('p-eeeeeeeeeeeeeeee', text); const document = documentWith(leaf);
+  const violet = makeMark(document, leaf, 1, 9, { id:'violet-mark', color:'violet', note:'Keep me' });
+  await api.nyxCommitLibraryAnnotationMutation([], [violet], { indexedDB });
+  const split = api.nyxLibrarySubtractFormatting(violet, 3, 7, text, api.nyxLibraryVolumeFingerprint(document), { now:200 });
+  const rose = makeMark(document, leaf, 3, 7, { id:'rose-mark', color:'rose' });
+  await api.nyxCommitLibraryAnnotationMutation(split.deleteIds, [...split.put, rose], { indexedDB });
+  const rows = await api.nyxListLibraryAnnotations(scope, { indexedDB });
+  assert.equal(rows.some((row) => row.note === 'Keep me'), true);
+  assert.deepEqual(plain(rows.filter((row) => row.style === 'highlight').map((row) => [row.anchor.start, row.anchor.end, row.color])
+    .sort((left, right) => left[0] - right[0])), [[1,3,'violet'], [3,7,'rose'], [7,9,'violet']]);
+});
+
 test('IndexedDB add, reload, edit, atomic remove, delete, and scope isolation work', async () => {
   const indexedDB = fakeIndexedDB();
   const leaf = paragraph('p-7777777777777777', 'Tanuki tales'); const document = documentWith(leaf);
@@ -174,6 +208,48 @@ test('IndexedDB add, reload, edit, atomic remove, delete, and scope isolation wo
   assert.equal(rows.length, 1); assert.equal(rows[0].style, 'underline');
   await api.nyxDeleteLibraryAnnotation(rows[0].id, { indexedDB });
   assert.deepEqual(await api.nyxListLibraryAnnotations(scope, { indexedDB }), []);
+});
+
+test('one-step Undo reverses create, update, and delete without touching an unrelated cross-tab row', async () => {
+  const indexedDB = fakeIndexedDB();
+  const leaf = paragraph('p-cccccccccccccccc', 'Tanuki tales'); const document = documentWith(leaf);
+  const created = makeMark(document, leaf, 0, 6, { id:'undo-create', note:'original' });
+  const createMutation = await api.nyxCommitLibraryAnnotationMutation([], [created], { indexedDB, incrementRevision:true, now:10 });
+  const unrelated = makeMark(document, leaf, 7, 12, { id:'other-tab', style:'bold' });
+  indexedDB.stores.get('annotations').set(unrelated.id, structuredClone(unrelated));
+  assert.deepEqual(plain((await api.nyxUndoLibraryAnnotations(createMutation.undo, { indexedDB })).appliedIds), [created.id]);
+  assert.equal(indexedDB.stores.get('annotations').has(created.id), false);
+  assert.equal(indexedDB.stores.get('annotations').get(unrelated.id).style, 'bold');
+
+  const base = (await api.nyxCommitLibraryAnnotationMutation([], [created], { indexedDB, incrementRevision:true, now:20 })).rows[0];
+  const updateMutation = await api.nyxCommitLibraryAnnotationMutation([], [{ ...base, note:'updated' }], { indexedDB, incrementRevision:true, now:30 });
+  await api.nyxUndoLibraryAnnotations(updateMutation.undo, { indexedDB });
+  let restored = indexedDB.stores.get('annotations').get(created.id);
+  assert.equal(restored.note, 'original');
+  assert.equal(restored.schemaVersion, 1, 'existing v1 rows reload unchanged after Undo');
+
+  const deleteMutation = await api.nyxCommitLibraryAnnotationMutation([created.id], [], { indexedDB });
+  assert.equal(indexedDB.stores.get('annotations').has(created.id), false);
+  await api.nyxUndoLibraryAnnotations(deleteMutation.undo, { indexedDB });
+  restored = indexedDB.stores.get('annotations').get(created.id);
+  assert.equal(restored.note, 'original');
+  assert.equal(indexedDB.stores.get('annotations').get(unrelated.id).style, 'bold');
+});
+
+test('Undo is all-or-none when another tab changes one affected annotation ID', async () => {
+  const indexedDB = fakeIndexedDB();
+  const leaf = paragraph('p-dddddddddddddddd', 'Tanuki tales'); const document = documentWith(leaf);
+  const first = makeMark(document, leaf, 0, 6, { id:'first-mark' });
+  const second = makeMark(document, leaf, 7, 12, { id:'second-mark', style:'underline' });
+  await api.nyxCommitLibraryAnnotationMutation([], [first, second], { indexedDB });
+  const deletion = await api.nyxCommitLibraryAnnotationMutation([first.id, second.id], [], { indexedDB });
+  const external = { ...structuredClone(first), note:'Changed elsewhere', updatedAt:999, revision:9 };
+  indexedDB.stores.get('annotations').set(first.id, external);
+  const result = await api.nyxUndoLibraryAnnotations(deletion.undo, { indexedDB });
+  assert.deepEqual(plain(result.appliedIds), []);
+  assert.deepEqual(plain(result.skippedIds), [first.id]);
+  assert.equal(indexedDB.stores.get('annotations').get(first.id).note, 'Changed elsewhere');
+  assert.equal(indexedDB.stores.get('annotations').has(second.id), false, 'the other half is not partially restored');
 });
 
 test('stored rows require the current schema and corrupt or unknown rows are skipped on read', async () => {

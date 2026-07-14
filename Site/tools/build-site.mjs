@@ -93,6 +93,7 @@ await compileJsxBundle(
     'features/gacha/pulls-sync.js',
     'features/gacha/gacha-tracker.jsx',
     'features/gacha/pulls-overview.jsx',
+    'features/timeline/time-preferences.js',
     'features/timeline/custom-timer-storage.js',
     'features/timeline/timeline-data.js',
     'features/timeline/timeline-view.jsx',

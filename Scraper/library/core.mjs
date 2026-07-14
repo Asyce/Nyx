@@ -2,7 +2,7 @@ import crypto from 'node:crypto';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { nyxLibraryDocumentText, nyxLibraryLeafText, nyxLibraryWords } from '../../Site/src/features/library/library-core.js';
+import { nyxLibraryDocumentLeaves, nyxLibraryLeafText, nyxLibraryNormalizeText } from '../../Site/src/features/library/library-core.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DEFAULT_ROOT = path.resolve(__dirname, '..', '..');
@@ -200,19 +200,21 @@ export function sanitizeDocument(input) {
 export function buildLibrarySearchIndex(books, game, generatedAt) {
   const bookIds = [...new Set(books.map((book) => book.id))].sort((a, b) => a.localeCompare(b));
   const bookNumber = new Map(bookIds.map((id, index) => [id, index]));
-  const postings = new Map();
-  for (const book of books) {
-    const words = new Set();
-    for (const volume of (book.volumes || [])) for (const word of nyxLibraryWords(nyxLibraryDocumentText(volume.document))) words.add(word);
-    for (const word of words) {
-      if (!postings.has(word)) postings.set(word, []);
-      postings.get(word).push(bookNumber.get(book.id));
+  const byId = new Map(books.map((book) => [book.id, book]));
+  const volumes = [];
+  for (const bookId of bookIds) {
+    const book = byId.get(bookId);
+    for (const volume of (book?.volumes || [])) {
+      volumes.push({
+        book:bookNumber.get(bookId),
+        volumeKey:String(volume.volumeKey || volume.id || ''),
+        leaves:nyxLibraryDocumentLeaves(volume.document)
+          .map((leaf) => nyxLibraryNormalizeText(nyxLibraryLeafText(leaf)))
+          .filter(Boolean),
+      });
     }
   }
-  const sortedWords = [...postings.keys()].sort((a, b) => a.localeCompare(b));
-  const words = {};
-  for (const word of sortedWords) words[word] = [...new Set(postings.get(word))].sort((a, b) => a - b);
-  return { schemaVersion:1, game, generatedAt, bookCount:bookIds.length, books:bookIds, wordCount:sortedWords.length, minWordLength:2, words };
+  return { schemaVersion:2, game, generatedAt, bookCount:bookIds.length, volumeCount:volumes.length, books:bookIds, volumes };
 }
 
 export function enforceShrinkGuard(nextCounts, previousCounts = {}) {
@@ -422,7 +424,7 @@ export async function runLibrarySync({ rootDir = DEFAULT_ROOT, fetchImpl = fetch
       const searchJson = JSON.stringify(searchIndex) + '\n';
       await fs.writeFile(path.join(gameDir, 'search-index.json'), searchJson);
       counts[game] = deduped.length;
-      report.games[game] = { count:deduped.length, volumes:deduped.reduce((sum, book) => sum + book.volumes.length, 0), icons:iconCount, searchWords:searchIndex.wordCount, searchBytes:Buffer.byteLength(searchJson) };
+      report.games[game] = { count:deduped.length, volumes:searchIndex.volumeCount, icons:iconCount, searchLeaves:searchIndex.volumes.reduce((sum, volume) => sum + volume.leaves.length, 0), searchBytes:Buffer.byteLength(searchJson) };
       report.files += deduped.length + 2;
       report.icons += iconCount;
     }

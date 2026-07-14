@@ -24,6 +24,7 @@ export function validateActivity(activity) {
       const regional = Object.values(window.windowsByRegion || {});
       const dateOnly = /^\d{4}-\d{2}-\d{2}$/.test(window.dateStart || '') && /^\d{4}-\d{2}-\d{2}$/.test(window.dateEnd || '') && window.dateEnd > window.dateStart && window.source?.url;
       if (!dateOnly && (!regional.length || regional.some((row) => !row.start || !row.end || row.end <= row.start || !row.sourceUrl))) throw new Error(`Dated activity ${activity.id} has an invalid window`);
+      if (window.status && !['exact','expected'].includes(window.status)) throw new Error(`Dated activity ${activity.id} has an invalid status`);
     }
   }
 }
@@ -36,7 +37,7 @@ export function expandActivity(activity, rangeStart, rangeEnd, region='asia') {
     const window = row.windowsByRegion?.[region];
     if (window) return window.end > from.toISOString() && window.start < to.toISOString();
     return row.dateEnd > from.toISOString().slice(0,10) && row.dateStart < to.toISOString().slice(0,10);
-  });
+  }).map((row) => ({ status:'exact', ...row }));
   const offset = SERVER_OFFSETS[region];
   if (!offset) return [];
   const exceptions = new Map((activity.exceptions || []).filter((x) => x.region === region).map((x) => [x.start, x]));
@@ -57,11 +58,35 @@ export function expandActivity(activity, rangeStart, rangeEnd, region='asia') {
     const exception = exceptions.get(start);
     const next = activity.calendarMonths ? addMonths(cursor, activity.calendarMonths, activity.calendarDay, activity.resetHour, offset) : new Date(cursor.getTime() + activity.intervalDays * 86_400_000);
     const end = activity.durationToNext ? new Date(next.getTime() - 1000) : new Date(cursor.getTime() + activity.durationDays * 86_400_000 - 1000);
-    if (!exception?.skip && end > from) rows.push(exception?.window || { start, end:end.toISOString(), timezone:`UTC${offset}`, sourceUrl:activity.sourceUrl });
+    if (!exception?.skip && end > from) rows.push(exception?.window ? { status:'exact', ...exception.window } : { start, end:end.toISOString(), timezone:`UTC${offset}`, sourceUrl:activity.sourceUrl, status:'expected' });
     cursor = next;
   }
   if (guard >= 2000) throw new Error(`Activity expansion overflow ${activity.id}`);
   return rows;
+}
+
+function windowsOverlap(left, right) {
+  for (const region of new Set([...Object.keys(left?.windowsByRegion || {}), ...Object.keys(right?.windowsByRegion || {})])) {
+    const a = left?.windowsByRegion?.[region]; const b = right?.windowsByRegion?.[region];
+    if (!a?.start || !b?.start) continue;
+    const ae = Date.parse(a.end || a.start); const be = Date.parse(b.end || b.start);
+    if (Date.parse(a.start) <= be && Date.parse(b.start) <= ae) return true;
+  }
+  return false;
+}
+
+export function reconcileActivityWindows(existing = [], exact = []) {
+  const exactRows = exact.map((row) => ({ ...row, status:'exact' }));
+  const kept = existing.filter((row) => row?.status !== 'expected' || !exactRows.some((candidate) => windowsOverlap(row, candidate)));
+  const byKey = new Map();
+  for (const row of [...kept, ...exactRows]) {
+    const key = row.id || JSON.stringify(row.windowsByRegion || row.dateStart || row);
+    byKey.set(key, row);
+  }
+  return [...byKey.values()].sort((a, b) => {
+    const first = (row) => Object.values(row.windowsByRegion || {}).map((window) => window.start).filter(Boolean).sort()[0] || row.dateStart || '';
+    return first(a).localeCompare(first(b));
+  });
 }
 
 export function validateActivityFile(file) {

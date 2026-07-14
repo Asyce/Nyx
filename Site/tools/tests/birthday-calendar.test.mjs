@@ -135,11 +135,13 @@ test('image intake rejects bad/oversized files and bounds large decoded art', as
   await assert.rejects(api.nyxPrepareBirthdayIcon(new Blob(['broken'], { type:'image/jpeg' }), { decode:async () => { throw new Error('decode failed'); } }), /readable image/);
 });
 
-test('Calendar history origin is carried only by the matching character entry', () => {
+test('Calendar and Nyx history origins are carried only by the matching character entry', () => {
   assert.equal(api.nyxCalendarHistoryOrigin({ nyxFrom:'calendar', nyxCharacter:'Mavuika' }, 'mavuika'), 'calendar');
+  assert.equal(api.nyxCalendarHistoryOrigin({ nyxFrom:'nyx', nyxCharacter:'Mavuika' }, 'mavuika'), 'nyx');
   assert.equal(api.nyxCalendarHistoryOrigin({ nyxFrom:'calendar', nyxCharacter:'Mavuika' }, 'furina'), undefined);
   assert.equal(api.nyxCalendarHistoryOrigin({}, 'mavuika'), undefined, 'direct links stay direct');
   assert.equal(api.nyxShouldReturnToCalendar({ from:'calendar' }), true);
+  assert.equal(api.nyxShouldReturnToCalendar({ from:'nyx' }), true);
   assert.equal(api.nyxShouldReturnToCalendar({ from:'characters' }), false);
 });
 
@@ -156,7 +158,7 @@ test('birthday dialog focus returns to its live trigger or the Calendar action f
   const fallback = { isConnected:true, focus(){} };
   assert.equal(api.nyxCalendarFocusTarget(trigger, fallback), trigger, 'edit/cancel/save returns to the birthday that opened the dialog');
   assert.equal(api.nyxCalendarFocusTarget(removedTrigger, fallback), fallback, 'delete falls back when its birthday control is gone');
-  assert.equal(api.nyxCalendarFocusTarget(null, fallback), fallback, 'Add flow returns to Add birthday');
+  assert.equal(api.nyxCalendarFocusTarget(null, fallback), fallback, 'Add flow returns to Add date');
   assert.equal(api.nyxCalendarFocusTarget(null, null), null);
 });
 
@@ -174,4 +176,6 @@ test('Calendar UI wiring keeps the 1px purple ring and history-backed return', a
   assert.match(app, /target\?\.focus\(\{ preventScroll:true \}\)/);
   assert.match(app, /event\.stopImmediatePropagation\(\)/, 'Escape is handled only by the open birthday dialog');
   assert.match(app, /deleteCustom[^\n]+closeEditor\(false\)/, 'delete deliberately restores the Calendar fallback');
+  assert.match(app, />Add date<|Add date'/);
+  assert.doesNotMatch(app, />Add birthday</);
 });

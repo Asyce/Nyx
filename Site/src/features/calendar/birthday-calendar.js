@@ -248,11 +248,12 @@ function nyxCalendarRouteToken(value){
 }
 
 function nyxCalendarHistoryOrigin(state, routeCharacter){
-  return state && state.nyxFrom === 'calendar' && nyxCalendarRouteToken(state.nyxCharacter) === nyxCalendarRouteToken(routeCharacter)
-    ? 'calendar' : undefined;
+  const origin = state && (state.nyxFrom === 'calendar' || state.nyxFrom === 'nyx') ? state.nyxFrom : undefined;
+  return origin && nyxCalendarRouteToken(state.nyxCharacter) === nyxCalendarRouteToken(routeCharacter)
+    ? origin : undefined;
 }
 
-function nyxShouldReturnToCalendar(selection){ return !!selection && selection.from === 'calendar'; }
+function nyxShouldReturnToCalendar(selection){ return !!selection && (selection.from === 'calendar' || selection.from === 'nyx'); }
 
 function nyxCalendarFocusTarget(trigger, fallback){
   if (trigger && trigger.isConnected !== false && typeof trigger.focus === 'function') return trigger;

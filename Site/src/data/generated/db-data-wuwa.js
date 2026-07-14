@@ -12,7 +12,7 @@
       "key": "monsters",
       "title": "Monsters",
       "source": "GameData",
-      "count": 288,
+      "count": 287,
       "items": [
         {
           "id": "ww-mon-310000010",
@@ -2326,17 +2326,6 @@
           "text": "A special Tacet Discord that lurks in the intricate network of the Dreamscape Nodes."
         },
         {
-          "id": "ww-mon-340000111",
-          "name": "340000111",
-          "kind": "monster",
-          "art": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33021_UI.webp",
-          "fields": {
-            "rarity": "2 \u2605",
-            "element": "Glacio"
-          },
-          "text": "A special Tacet Discord that lurks in the intricate network of the Dreamscape Nodes."
-        },
-        {
           "id": "ww-mon-340000112",
           "name": "Kelpie",
           "kind": "monster",
@@ -3152,7 +3141,7 @@
       "key": "items",
       "title": "Items",
       "source": "GameData",
-      "count": 2297,
+      "count": 2285,
       "items": [
         {
           "id": "ww-item-1",
@@ -3991,17 +3980,6 @@
           "text": "Large quantities of data gathered during the testing of the hologram."
         },
         {
-          "id": "ww-item-78",
-          "name": "78",
-          "kind": "item",
-          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_currency_01_UI.webp",
-          "fields": {
-            "rarity": "5 \u2605",
-            "type": "Activity Points"
-          },
-          "text": "Item obtained from dailies, can be collected to receive daily rewards."
-        },
-        {
           "id": "ww-item-79",
           "name": "CredChip",
           "kind": "item",
@@ -4110,28 +4088,6 @@
             "type": "Influence"
           },
           "text": ""
-        },
-        {
-          "id": "ww-item-203",
-          "name": "203",
-          "kind": "item",
-          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_Act_Theme31_01_UI.webp",
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Event Item"
-          },
-          "text": "Data chips scattered beneath the frostlands, presumed to have been left behind by expedition members. Used as a token for Tracing Progress."
-        },
-        {
-          "id": "ww-item-204",
-          "name": "204",
-          "kind": "item",
-          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_Act_Theme31_01_UI.webp",
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Event Item"
-          },
-          "text": "Data chips scattered beneath the frostlands, presumed to have been left behind by expedition members. Used as a token for Tracing Progress."
         },
         {
           "id": "ww-item-10800",
@@ -14562,28 +14518,6 @@
           "text": "A picture book made by Lingyang based on her own experiences."
         },
         {
-          "id": "ww-item-70010066",
-          "name": "70010066",
-          "kind": "item",
-          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconTask/T_IconTask_Task_025_UI.webp",
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
-          "id": "ww-item-70010067",
-          "name": "70010067",
-          "kind": "item",
-          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconTask/T_IconTask_Task_025_UI.webp",
-          "fields": {
-            "rarity": "1 \u2605",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "ww-item-70010068",
           "name": "Bell Spiriton",
           "kind": "item",
@@ -14870,17 +14804,6 @@
           "text": "A precise experimental device"
         },
         {
-          "id": "ww-item-70050009",
-          "name": "70050009",
-          "kind": "item",
-          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconTask/T_IconTask_Task_043_UI.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "ww-item-70050014",
           "name": "Robot Spare Parts",
           "kind": "item",
@@ -15011,17 +14934,6 @@
             "type": "Quest Item"
           },
           "text": "A broken old sheet music, it is unclear what specific use it has"
-        },
-        {
-          "id": "ww-item-70050026",
-          "name": "70050026",
-          "kind": "item",
-          "art": null,
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "ww-item-70050027",
@@ -15431,17 +15343,6 @@
           "text": "A keepsake photo from the fan meeting, capturing a moment of music and joy."
         },
         {
-          "id": "ww-item-70050078",
-          "name": "70050078",
-          "kind": "item",
-          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconTask/T_IconTask_Task_70050077_UI.webp",
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Quest Item"
-          },
-          "text": ""
-        },
-        {
           "id": "ww-item-70050079",
           "name": "Safety Charm",
           "kind": "item",
@@ -15737,17 +15638,6 @@
             "type": "Quest Item"
           },
           "text": "One of the three components required to reassemble the Teamaster Automaton. Deliver all three pieces to King Auto to claim rewards."
-        },
-        {
-          "id": "ww-item-70051234",
-          "name": "70051234",
-          "kind": "item",
-          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconTask160/T_IconTask160_Task_002_1_UI.webp",
-          "fields": {
-            "rarity": "3 \u2605",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "ww-item-70060001",
@@ -20016,17 +19906,6 @@
             "type": "Special Token"
           },
           "text": "Points earned from defeating opponents in the Peaks of Prestige Lahai-Roi Ranked Tornament. Used to increase your rank in Lahai-Roi."
-        },
-        {
-          "id": "ww-item-72010043",
-          "name": "72010043",
-          "kind": "item",
-          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_72010042_UI.webp",
-          "fields": {
-            "rarity": "5 \u2605",
-            "type": "Special Token"
-          },
-          "text": ""
         },
         {
           "id": "ww-item-72010100",
@@ -24319,17 +24198,6 @@
           "text": "A crafted collection of recorded music, which, when given to the Aria Mummer, adds the tracks to their collection list."
         },
         {
-          "id": "ww-item-80110417",
-          "name": "80110417",
-          "kind": "item",
-          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMst/T_IconMst_009_UI.webp",
-          "fields": {
-            "rarity": "4 \u2605",
-            "type": "Melody Box"
-          },
-          "text": "A crafted collection of recorded music, which, when given to the Aria Mummer, adds the tracks to their collection list."
-        },
-        {
           "id": "ww-item-80110418",
           "name": "With Glory I Shall Fall",
           "kind": "item",
@@ -26440,17 +26308,6 @@
             "type": "Consumable"
           },
           "text": "Simulated Shell Credits composed of Remnant data, used to craft Combat Machines in \"Tidal Defense Simulator\" or purchase materials from KU-Money's Store."
-        },
-        {
-          "id": "ww-item-80300010",
-          "name": "80300010",
-          "kind": "item",
-          "art": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconTask/T_IconTask_Task_029_UI.webp",
-          "fields": {
-            "rarity": "5 \u2605",
-            "type": "Quest Item"
-          },
-          "text": ""
         },
         {
           "id": "ww-item-80400001",

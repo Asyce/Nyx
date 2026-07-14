@@ -9,7 +9,7 @@
   window.CM_CFG_BETA["gi"] = {
   "version": "6.7.52",
   "liveVersion": "6.7",
-  "newCount": 4,
+  "newCount": 2,
   "changedCount": 12,
   "roster": [
     {
@@ -31918,92 +31918,6 @@
         "ascCost": 420000,
         "talentCost": 4957500,
         "currency": 5377500
-      },
-      "betaStatus": "new"
-    },
-    {
-      "id": "gi-10000134",
-      "n": "TPS Traveler",
-      "localizedNames": {
-        "en": "TPS Traveler"
-      },
-      "r": 5,
-      "el": "None",
-      "w": "WEAPON_CROSSBOW",
-      "release": -3600000,
-      "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
-      "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
-      "baseStats": {
-        "level1": {
-          "hp": 1167.77,
-          "atk": 389.26,
-          "def": 233.55,
-          "critRate": 0,
-          "critDmg": 0.5,
-          "elementalMastery": 0
-        },
-        "max": {
-          "level": 90,
-          "hp": 9749.71,
-          "atk": 3249.9,
-          "def": 1949.94,
-          "critRate": 0,
-          "critDmg": 0.5,
-          "elementalMastery": 0
-        }
-      },
-      "facts": {},
-      "book": null,
-      "req": {
-        "ascension": [],
-        "talents": [],
-        "talentStages": [],
-        "ascCost": 420000,
-        "talentCost": 0,
-        "currency": 420000
-      },
-      "betaStatus": "new"
-    },
-    {
-      "id": "gi-10000135",
-      "n": "TPS Traveler",
-      "localizedNames": {
-        "en": "TPS Traveler"
-      },
-      "r": 5,
-      "el": "None",
-      "w": "WEAPON_CROSSBOW",
-      "release": -3600000,
-      "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
-      "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
-      "baseStats": {
-        "level1": {
-          "hp": 1167.77,
-          "atk": 389.26,
-          "def": 233.55,
-          "critRate": 0,
-          "critDmg": 0.5,
-          "elementalMastery": 0
-        },
-        "max": {
-          "level": 90,
-          "hp": 9749.71,
-          "atk": 3249.9,
-          "def": 1949.94,
-          "critRate": 0,
-          "critDmg": 0.5,
-          "elementalMastery": 0
-        }
-      },
-      "facts": {},
-      "book": null,
-      "req": {
-        "ascension": [],
-        "talents": [],
-        "talentStages": [],
-        "ascCost": 420000,
-        "talentCost": 0,
-        "currency": 420000
       },
       "betaStatus": "new"
     },

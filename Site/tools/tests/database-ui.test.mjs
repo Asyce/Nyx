@@ -10,25 +10,37 @@ const root = path.resolve(here, '../..');
 const helperSource = await fs.readFile(path.join(root, 'src/features/database/database-ui.js'), 'utf8');
 const appSource = await fs.readFile(path.join(root, 'src/app/nyx-app.jsx'), 'utf8');
 const context = { console };
-vm.runInNewContext(`${helperSource}\n;globalThis.__api={NYX_DATABASE_PAGE_SIZE,nyxDatabaseFacetValue,nyxDatabaseSortFacetValues,nyxDatabaseNextLimit,nyxDatabaseEscapeAction};`, context);
+vm.runInNewContext(`${helperSource}\n;globalThis.__api={NYX_DATABASE_PAGE_SIZE,nyxDatabaseFacetValue,nyxDatabaseRarityTier,nyxDatabaseActiveFilterCount,nyxDatabaseHasFacets,nyxDatabaseFacetLabel,nyxDatabaseSortFacetValues,nyxDatabaseNextLimit,nyxDatabaseEscapeAction};`, context);
 const api = context.__api;
 const plain = (value) => JSON.parse(JSON.stringify(value));
 
-test('rarity facets normalize to supported 1★ through 5★ then Unknown', () => {
-  const raw = ['5 ★', 'Unknown', '2 stars', '4★', '1', '3 star', '6★', 'broken'];
+test('rarity facets normalize source tiers through Endfield 6★ then Unknown', () => {
+  const raw = ['5 ★', 'Unknown', '2 stars', '4★', '1', '3 star', '6★', 'B-Rank', 'A', 'S', 'broken'];
   const counts = new Map();
   raw.forEach((value) => {
     const label = api.nyxDatabaseFacetValue('rarity', value);
     counts.set(label, (counts.get(label) || 0) + 1);
   });
   const sorted = plain(api.nyxDatabaseSortFacetValues('rarity', counts.entries())).map(([label]) => label);
-  assert.deepEqual(sorted, ['1★', '2★', '3★', '4★', '5★', 'Unknown']);
-  assert.equal(counts.get('Unknown'), 3, 'invalid ranks stay reachable under Unknown');
+  assert.deepEqual(sorted, ['1★', '2★', '3★', '4★', '5★', '6★', 'Unknown']);
+  assert.equal(counts.get('Unknown'), 2, 'invalid ranks stay reachable under Unknown');
+  assert.equal(api.nyxDatabaseRarityTier('S-Rank'), 5);
+  assert.equal(api.nyxDatabaseActiveFilterCount({ kind:'all', tag:'Food', rarity:undefined }), 1);
 });
 
 test('rarity order never follows result counts', () => {
   const entries = [['5★', 900], ['2★', 1], ['Unknown', 9999], ['1★', 2], ['4★', 70], ['3★', 8]];
   assert.deepEqual(plain(api.nyxDatabaseSortFacetValues('rarity', entries)).map(([label]) => label), ['1★', '2★', '3★', '4★', '5★', 'Unknown']);
+});
+
+test('generic collection Filter is available only when it has usable choices', () => {
+  assert.equal(api.nyxDatabaseHasFacets([]), false);
+  assert.equal(api.nyxDatabaseHasFacets([{ key:'rarity', values:[] }]), false);
+  assert.equal(api.nyxDatabaseHasFacets([{ key:'rarity', values:['4\u2605', '5\u2605'] }]), true);
+  assert.match(appSource, /nyxDatabaseHasFacets\(facets\) && <DatabaseFilterPopover id="database-collection-filter-popout"/);
+  assert.equal(api.nyxDatabaseFacetLabel('rank'), 'Rank');
+  assert.equal(api.nyxDatabaseFacetLabel('twoPieceStat'), '2-Piece Stat');
+  assert.match(appSource, /DB_FACET_KEYS = \[[^\]]*'rank'[^\]]*'twoPieceStat'/);
 });
 
 test('progressive reveal reaches every result, including records after 400', () => {
@@ -52,9 +64,13 @@ test('Escape closes a popout first, a detail second, and leaves an ordinary list
   assert.equal(api.nyxDatabaseEscapeAction({}), 'stay');
 });
 
-test('Database surfaces use progressive reveal, focus snapshots, and the TCG filter popout', () => {
+test('Database surfaces share accessible Filter popouts and preserve list focus', () => {
   assert.doesNotMatch(appSource, /DB_GRID_CAP|Showing \{DB_GRID_CAP\}/);
-  assert.match(appSource, /className="tcg-filter-popout"/);
+  assert.equal((appSource.match(/<DatabaseFilterPopover/g) || []).length, 4);
+  for (const id of ['database-collection-filter-popout', 'wonderland-filter-popout', 'tcg-filter-popout', 'pot-filter-popout']) {
+    assert.match(appSource, new RegExp(`id="${id}"`));
+  }
+  assert.match(appSource, /className="db-filter-popout"/);
   assert.match(appSource, /document\.addEventListener\('pointerdown', onPointerDown\)/);
   assert.match(appSource, /document\.addEventListener\('keydown', onKeyDown, true\)/);
   assert.match(appSource, /data-db-focus-key=\{dbListFocusKey\('tcg'/);
@@ -86,4 +102,16 @@ test('collection, Wonderland, TCG, and Pot tab buttons do not render count badge
   assert.doesNotMatch(wonderTabs, /<b>\{row\.items\.length\}<\/b>/);
   assert.doesNotMatch(appSource, /<span>\{label\}<\/span><b>\{count\}<\/b>/);
   assert.doesNotMatch(appSource, /<span>All<\/span><b>\{(?:tagTotal|subTotal)\}<\/b>/);
+});
+
+test('every Database list and detail surface uses the filled rarity frame', () => {
+  assert.match(appSource, /function DatabaseItemFrame[\s\S]*<CMItemFrame[\s\S]*dataRarityTier=\{tier\}/);
+  for (const className of ['db-art', 'db-modal-media', 'wonder-detail-art', 'wonder-art', 'tcg-detail-image', 'tcg-art', 'pot-detail-art', 'pot-art']) {
+    assert.match(appSource, new RegExp(`<DatabaseItemFrame className="${className}"`));
+  }
+  assert.match(appSource, /rarity=\{activeCard\.rarity \?\? 0\} portrait/);
+  assert.match(appSource, /rarity=\{card\.rarity \?\? 0\} portrait/);
+  assert.doesNotMatch(appSource, /db-rarity-frame/);
+  assert.equal(api.nyxDatabaseRarityTier(undefined), 0, 'missing source rarity is explicit Unknown');
+  assert.equal(api.nyxDatabaseRarityTier(1), 1, 'known 1-star stays distinct from Unknown');
 });

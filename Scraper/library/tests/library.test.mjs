@@ -4,7 +4,7 @@ import os from 'node:os';
 import path from 'node:path';
 import test from 'node:test';
 import { buildLibrarySearchIndex, cleanLabel, enforceShrinkGuard, enumerateCategory, parseReadableWikitext, runLibrarySync, sanitizeDocument, slugify } from '../core.mjs';
-import { nyxLibraryDocumentText, nyxLibrarySearchIds } from '../../../Site/src/features/library/library-core.js';
+import { nyxLibraryDocumentText, nyxLibrarySearchMatches } from '../../../Site/src/features/library/library-core.js';
 
 test('structured sanitizer keeps only the explicit block and inline allowlist', () => {
   const document = sanitizeDocument({ version:1, blocks:[
@@ -35,15 +35,21 @@ test('canonical leaf text and stable IDs survive harmless block movement', () =>
   assert.equal(nyxLibraryDocumentText(first), 'First\nline\nSecond');
 });
 
-test('compact body index intersects words without storing full prose', () => {
+test('volume-aware body index preserves leaf boundaries and is deterministic', () => {
   const books = [
-    { id:'toki-alley-tales', volumes:[{ document:sanitizeDocument({ version:1, blocks:[{ type:'paragraph', children:[{ type:'text', text:'A tanuki history of Inazuma.' }] }] }) }] },
-    { id:'other-book', volumes:[{ document:sanitizeDocument({ version:1, blocks:[{ type:'paragraph', children:[{ type:'text', text:'A kitsune story.' }] }] }) }] },
+    { id:'toki-alley-tales', volumes:[{ volumeKey:'vol-3', document:sanitizeDocument({ version:1, blocks:[{ type:'paragraph', children:[{ type:'text', text:'A tanuki history of Inazuma under the moon.' }] }] }) }] },
+    { id:'other-book', volumes:[{ volumeKey:'text', document:sanitizeDocument({ version:1, blocks:[
+      { type:'paragraph', children:[{ type:'text', text:'And a kitsune story.' }] },
+      { type:'paragraph', children:[{ type:'text', text:'The moon is elsewhere.' }] },
+    ] }) }] },
   ];
   const index = buildLibrarySearchIndex(books, 'gi', '2026-07-13T00:00:00Z');
-  assert.deepEqual([...nyxLibrarySearchIds(index, 'TANUKI')], ['toki-alley-tales']);
-  assert.deepEqual([...nyxLibrarySearchIds(index, 'tanuki Inazuma')], ['toki-alley-tales']);
-  assert.equal(JSON.stringify(index).includes('A tanuki history'), false);
+  assert.equal(index.schemaVersion, 2);
+  assert.deepEqual([...nyxLibrarySearchMatches(index, 'TANU').values()], [{ bookId:'toki-alley-tales', volumeKey:'vol-3' }]);
+  assert.deepEqual([...nyxLibrarySearchMatches(index, 'and the moon')], [], 'phrases never cross leaves');
+  assert.deepEqual(buildLibrarySearchIndex([...books].reverse(), 'gi', '2026-07-13T00:00:00Z'), index);
+  assert.deepEqual(index.books, ['other-book', 'toki-alley-tales']);
+  assert.equal(index.volumeCount, 2);
 });
 
 test('hostile wiki markup cannot survive as executable or remote content', () => {
@@ -122,9 +128,9 @@ test('full sync dedupes category rows and shared icons while preserving multi-vo
   assert.equal(hsrIndex.entries.some((row) => /^\||'{2}/.test(row.name)), false);
   const giSearch = JSON.parse(fs.readFileSync(path.join(rootDir, 'Database', 'Library', 'gi', 'search-index.json')));
   const hsrSearch = JSON.parse(fs.readFileSync(path.join(rootDir, 'Database', 'Library', 'hsr', 'search-index.json')));
-  assert.ok(giSearch.words.tanuki.includes(giSearch.books.indexOf('gi-book-0')));
-  assert.equal(Object.hasOwn(hsrSearch.words, 'tanuki'), false, 'search words never cross games');
-  assert.ok(report.games.gi.searchWords > 0 && report.games.gi.searchBytes > 0);
+  assert.equal(nyxLibrarySearchMatches(giSearch, 'tanu').get('gi-book-0')?.volumeKey, 'vol-1');
+  assert.equal(nyxLibrarySearchMatches(hsrSearch, 'tanuki').size, 0, 'search text never crosses games');
+  assert.ok(report.games.gi.searchLeaves > 0 && report.games.gi.searchBytes > 0);
 });
 
 test('fetch failure leaves the complete last-known-good Library untouched', async () => {

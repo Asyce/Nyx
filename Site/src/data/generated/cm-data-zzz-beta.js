@@ -5555,6 +5555,10 @@
       "updated": 1783461600000,
       "sourceOrder": 0,
       "icon": "../../Database/GameData/zzz/assets/agents/icons/IconRole63.webp",
+      "portraitProvenance": {
+        "status": "released",
+        "sourceUrl": "https://www.hoyolab.com/article/45488578"
+      },
       "art": "../../Database/GameData/zzz/assets/agents/icons/IconRole63.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/pyrois-4b8909998042.webp",
       "signatureWeapon": {
@@ -13573,7 +13577,11 @@
         "english": "Dani Chambers",
         "japanese": "Kaida Yuhko"
       },
-      "icon": "../../Database/GameData/zzz/assets/items/CardDailyUse1591.webp",
+      "icon": "../../Database/Prydwen/zzz/assets/characters/sigrid-30ecebbe136b.webp",
+      "portraitProvenance": {
+        "status": "announced",
+        "sourceUrl": "https://www.hoyolab.com/article_pre/18014398241023132"
+      },
       "art": "../../Database/Prydwen/zzz/assets/characters/sigrid-30ecebbe136b.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/sigrid-30ecebbe136b.webp",
       "status": "beta",

@@ -5644,6 +5644,10 @@
       "updated": 1783461600000,
       "sourceOrder": 0,
       "icon": "../../Database/GameData/zzz/assets/agents/icons/IconRole63.webp",
+      "portraitProvenance": {
+        "status": "released",
+        "sourceUrl": "https://www.hoyolab.com/article/45488578"
+      },
       "art": "../../Database/GameData/zzz/assets/agents/icons/IconRole63.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/pyrois-4b8909998042.webp",
       "signatureWeapon": {
@@ -146668,34 +146672,6 @@
       "region": "Burn Chips",
       "mats": [
         {
-          "id": "100111",
-          "name": "Basic Burn Chip",
-          "qty": 25,
-          "rar": 1,
-          "kind": "book",
-          "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire01.webp",
-          "source": "Combat Simulation - Agent Skills",
-          "sourceDetails": [
-            {
-              "name": "Combat Simulation - Agent Skills"
-            }
-          ]
-        },
-        {
-          "id": "100121",
-          "name": "Advanced Burn Chip",
-          "qty": 75,
-          "rar": 3,
-          "kind": "book",
-          "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
-          "source": "Combat Simulation - Agent Skills",
-          "sourceDetails": [
-            {
-              "name": "Combat Simulation - Agent Skills"
-            }
-          ]
-        },
-        {
           "id": "100131",
           "name": "Specialized Burn Chip",
           "qty": 250,
@@ -146729,34 +146705,6 @@
       "region": "Ether Chips",
       "mats": [
         {
-          "id": "100115",
-          "name": "Basic Ether Chip",
-          "qty": 25,
-          "rar": 1,
-          "kind": "book",
-          "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillEther01.webp",
-          "source": "Combat Simulation - Agent Skills",
-          "sourceDetails": [
-            {
-              "name": "Combat Simulation - Agent Skills"
-            }
-          ]
-        },
-        {
-          "id": "100125",
-          "name": "Advanced Ether Chip",
-          "qty": 75,
-          "rar": 3,
-          "kind": "book",
-          "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillEther02.webp",
-          "source": "Combat Simulation - Agent Skills",
-          "sourceDetails": [
-            {
-              "name": "Combat Simulation - Agent Skills"
-            }
-          ]
-        },
-        {
           "id": "100135",
           "name": "Specialized Ether Chip",
           "qty": 250,
@@ -146787,34 +146735,6 @@
       "region": "Freeze Chips",
       "mats": [
         {
-          "id": "100112",
-          "name": "Basic Freeze Chip",
-          "qty": 25,
-          "rar": 1,
-          "kind": "book",
-          "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
-          "source": "Combat Simulation - Agent Skills",
-          "sourceDetails": [
-            {
-              "name": "Combat Simulation - Agent Skills"
-            }
-          ]
-        },
-        {
-          "id": "100122",
-          "name": "Advanced Freeze Chip",
-          "qty": 75,
-          "rar": 3,
-          "kind": "book",
-          "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
-          "source": "Combat Simulation - Agent Skills",
-          "sourceDetails": [
-            {
-              "name": "Combat Simulation - Agent Skills"
-            }
-          ]
-        },
-        {
           "id": "100132",
           "name": "Specialized Freeze Chip",
           "qty": 250,
@@ -146844,34 +146764,6 @@
       "region": "Lumiflux Chips",
       "mats": [
         {
-          "id": "100117",
-          "name": "Basic Lumiflux Chip",
-          "qty": 25,
-          "rar": 1,
-          "kind": "book",
-          "icon": null,
-          "source": "Combat Simulation - Agent Skills",
-          "sourceDetails": [
-            {
-              "name": "Combat Simulation - Agent Skills"
-            }
-          ]
-        },
-        {
-          "id": "100127",
-          "name": "Advanced Lumiflux Chip",
-          "qty": 75,
-          "rar": 3,
-          "kind": "book",
-          "icon": null,
-          "source": "Combat Simulation - Agent Skills",
-          "sourceDetails": [
-            {
-              "name": "Combat Simulation - Agent Skills"
-            }
-          ]
-        },
-        {
           "id": "100137",
           "name": "Specialized Lumiflux Chip",
           "qty": 250,
@@ -146893,34 +146785,6 @@
     {
       "region": "Physical Chips",
       "mats": [
-        {
-          "id": "100110",
-          "name": "Basic Physical Chip",
-          "qty": 25,
-          "rar": 1,
-          "kind": "book",
-          "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys01.webp",
-          "source": "Combat Simulation - Agent Skills",
-          "sourceDetails": [
-            {
-              "name": "Combat Simulation - Agent Skills"
-            }
-          ]
-        },
-        {
-          "id": "100120",
-          "name": "Advanced Physical Chip",
-          "qty": 75,
-          "rar": 3,
-          "kind": "book",
-          "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
-          "source": "Combat Simulation - Agent Skills",
-          "sourceDetails": [
-            {
-              "name": "Combat Simulation - Agent Skills"
-            }
-          ]
-        },
         {
           "id": "100130",
           "name": "Specialized Physical Chip",
@@ -146955,34 +146819,6 @@
       "region": "Shock Chips",
       "mats": [
         {
-          "id": "100113",
-          "name": "Basic Shock Chip",
-          "qty": 25,
-          "rar": 1,
-          "kind": "book",
-          "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillThunder01.webp",
-          "source": "Combat Simulation - Agent Skills",
-          "sourceDetails": [
-            {
-              "name": "Combat Simulation - Agent Skills"
-            }
-          ]
-        },
-        {
-          "id": "100123",
-          "name": "Advanced Shock Chip",
-          "qty": 75,
-          "rar": 3,
-          "kind": "book",
-          "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillThunder02.webp",
-          "source": "Combat Simulation - Agent Skills",
-          "sourceDetails": [
-            {
-              "name": "Combat Simulation - Agent Skills"
-            }
-          ]
-        },
-        {
           "id": "100133",
           "name": "Specialized Shock Chip",
           "qty": 250,
@@ -147014,34 +146850,6 @@
     {
       "region": "Windbite Chips",
       "mats": [
-        {
-          "id": "100116",
-          "name": "Basic Windbite Chip",
-          "qty": 25,
-          "rar": 1,
-          "kind": "book",
-          "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillWind01.webp",
-          "source": "Combat Simulation - Agent Skills",
-          "sourceDetails": [
-            {
-              "name": "Combat Simulation - Agent Skills"
-            }
-          ]
-        },
-        {
-          "id": "100126",
-          "name": "Advanced Windbite Chip",
-          "qty": 75,
-          "rar": 3,
-          "kind": "book",
-          "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillWind02.webp",
-          "source": "Combat Simulation - Agent Skills",
-          "sourceDetails": [
-            {
-              "name": "Combat Simulation - Agent Skills"
-            }
-          ]
-        },
         {
           "id": "100136",
           "name": "Specialized Windbite Chip",

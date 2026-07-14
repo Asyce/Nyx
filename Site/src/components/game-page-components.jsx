@@ -267,6 +267,19 @@ function GPFnRows(){
   );
 }
 
+function GPSectionNavButton({ active, label, onActivate, diamond = true, arrow = true, className = '' }){
+  return (
+    <button type="button"
+            className={'gp-fn-row click gp-section-nav-button' + (active ? ' on' : '') + (className ? ' ' + className : '')}
+            aria-current={active ? 'page' : undefined}
+            onClick={onActivate}>
+      {diamond && <span className="dia" aria-hidden="true"></span>}
+      <span>{label}</span>
+      {arrow && <span className="go" aria-hidden="true">{'›'}</span>}
+    </button>
+  );
+}
+
 function GPFnTabs({ small }){
   return (
     <div style={{ display:'flex', alignItems:'center', gap:'16px' }}>

@@ -256147,7 +256147,7 @@
             "name": "Dragon Lord's Crown",
             "qty": 18,
             "rar": 5,
-            "kind": "crown",
+            "kind": "weekly",
             "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
             "source": "Azhdaha",
             "sourceDetails": [
@@ -256488,7 +256488,7 @@
                   "name": "Dragon Lord's Crown",
                   "qty": 1,
                   "rar": 5,
-                  "kind": "crown",
+                  "kind": "weekly",
                   "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                   "source": "Azhdaha",
                   "sourceDetails": [
@@ -256556,7 +256556,7 @@
                   "name": "Dragon Lord's Crown",
                   "qty": 1,
                   "rar": 5,
-                  "kind": "crown",
+                  "kind": "weekly",
                   "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                   "source": "Azhdaha",
                   "sourceDetails": [
@@ -256624,7 +256624,7 @@
                   "name": "Dragon Lord's Crown",
                   "qty": 2,
                   "rar": 5,
-                  "kind": "crown",
+                  "kind": "weekly",
                   "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                   "source": "Azhdaha",
                   "sourceDetails": [
@@ -256692,7 +256692,7 @@
                   "name": "Dragon Lord's Crown",
                   "qty": 2,
                   "rar": 5,
-                  "kind": "crown",
+                  "kind": "weekly",
                   "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                   "source": "Azhdaha",
                   "sourceDetails": [
@@ -257035,7 +257035,7 @@
                   "name": "Dragon Lord's Crown",
                   "qty": 1,
                   "rar": 5,
-                  "kind": "crown",
+                  "kind": "weekly",
                   "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                   "source": "Azhdaha",
                   "sourceDetails": [
@@ -257103,7 +257103,7 @@
                   "name": "Dragon Lord's Crown",
                   "qty": 1,
                   "rar": 5,
-                  "kind": "crown",
+                  "kind": "weekly",
                   "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                   "source": "Azhdaha",
                   "sourceDetails": [
@@ -257171,7 +257171,7 @@
                   "name": "Dragon Lord's Crown",
                   "qty": 2,
                   "rar": 5,
-                  "kind": "crown",
+                  "kind": "weekly",
                   "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                   "source": "Azhdaha",
                   "sourceDetails": [
@@ -257239,7 +257239,7 @@
                   "name": "Dragon Lord's Crown",
                   "qty": 2,
                   "rar": 5,
-                  "kind": "crown",
+                  "kind": "weekly",
                   "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                   "source": "Azhdaha",
                   "sourceDetails": [
@@ -257582,7 +257582,7 @@
                   "name": "Dragon Lord's Crown",
                   "qty": 1,
                   "rar": 5,
-                  "kind": "crown",
+                  "kind": "weekly",
                   "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                   "source": "Azhdaha",
                   "sourceDetails": [
@@ -257650,7 +257650,7 @@
                   "name": "Dragon Lord's Crown",
                   "qty": 1,
                   "rar": 5,
-                  "kind": "crown",
+                  "kind": "weekly",
                   "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                   "source": "Azhdaha",
                   "sourceDetails": [
@@ -257718,7 +257718,7 @@
                   "name": "Dragon Lord's Crown",
                   "qty": 2,
                   "rar": 5,
-                  "kind": "crown",
+                  "kind": "weekly",
                   "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                   "source": "Azhdaha",
                   "sourceDetails": [
@@ -257786,7 +257786,7 @@
                   "name": "Dragon Lord's Crown",
                   "qty": 2,
                   "rar": 5,
-                  "kind": "crown",
+                  "kind": "weekly",
                   "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                   "source": "Azhdaha",
                   "sourceDetails": [
@@ -266631,7 +266631,7 @@
             "name": "Dragon Lord's Crown",
             "qty": 18,
             "rar": 5,
-            "kind": "crown",
+            "kind": "weekly",
             "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
             "source": "Azhdaha",
             "sourceDetails": [
@@ -266972,7 +266972,7 @@
                   "name": "Dragon Lord's Crown",
                   "qty": 1,
                   "rar": 5,
-                  "kind": "crown",
+                  "kind": "weekly",
                   "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                   "source": "Azhdaha",
                   "sourceDetails": [
@@ -267040,7 +267040,7 @@
                   "name": "Dragon Lord's Crown",
                   "qty": 1,
                   "rar": 5,
-                  "kind": "crown",
+                  "kind": "weekly",
                   "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                   "source": "Azhdaha",
                   "sourceDetails": [
@@ -267108,7 +267108,7 @@
                   "name": "Dragon Lord's Crown",
                   "qty": 2,
                   "rar": 5,
-                  "kind": "crown",
+                  "kind": "weekly",
                   "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                   "source": "Azhdaha",
                   "sourceDetails": [
@@ -267176,7 +267176,7 @@
                   "name": "Dragon Lord's Crown",
                   "qty": 2,
                   "rar": 5,
-                  "kind": "crown",
+                  "kind": "weekly",
                   "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                   "source": "Azhdaha",
                   "sourceDetails": [
@@ -267519,7 +267519,7 @@
                   "name": "Dragon Lord's Crown",
                   "qty": 1,
                   "rar": 5,
-                  "kind": "crown",
+                  "kind": "weekly",
                   "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                   "source": "Azhdaha",
                   "sourceDetails": [
@@ -267587,7 +267587,7 @@
                   "name": "Dragon Lord's Crown",
                   "qty": 1,
                   "rar": 5,
-                  "kind": "crown",
+                  "kind": "weekly",
                   "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                   "source": "Azhdaha",
                   "sourceDetails": [
@@ -267655,7 +267655,7 @@
                   "name": "Dragon Lord's Crown",
                   "qty": 2,
                   "rar": 5,
-                  "kind": "crown",
+                  "kind": "weekly",
                   "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                   "source": "Azhdaha",
                   "sourceDetails": [
@@ -267723,7 +267723,7 @@
                   "name": "Dragon Lord's Crown",
                   "qty": 2,
                   "rar": 5,
-                  "kind": "crown",
+                  "kind": "weekly",
                   "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                   "source": "Azhdaha",
                   "sourceDetails": [
@@ -268066,7 +268066,7 @@
                   "name": "Dragon Lord's Crown",
                   "qty": 1,
                   "rar": 5,
-                  "kind": "crown",
+                  "kind": "weekly",
                   "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                   "source": "Azhdaha",
                   "sourceDetails": [
@@ -268134,7 +268134,7 @@
                   "name": "Dragon Lord's Crown",
                   "qty": 1,
                   "rar": 5,
-                  "kind": "crown",
+                  "kind": "weekly",
                   "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                   "source": "Azhdaha",
                   "sourceDetails": [
@@ -268202,7 +268202,7 @@
                   "name": "Dragon Lord's Crown",
                   "qty": 2,
                   "rar": 5,
-                  "kind": "crown",
+                  "kind": "weekly",
                   "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                   "source": "Azhdaha",
                   "sourceDetails": [
@@ -268270,7 +268270,7 @@
                   "name": "Dragon Lord's Crown",
                   "qty": 2,
                   "rar": 5,
-                  "kind": "crown",
+                  "kind": "weekly",
                   "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                   "source": "Azhdaha",
                   "sourceDetails": [
@@ -362789,7 +362789,7 @@
                       "name": "Dragon Lord's Crown",
                       "qty": 1,
                       "rar": 5,
-                      "kind": "crown",
+                      "kind": "weekly",
                       "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                       "source": "Azhdaha",
                       "sourceDetails": [
@@ -362853,7 +362853,7 @@
                       "name": "Dragon Lord's Crown",
                       "qty": 1,
                       "rar": 5,
-                      "kind": "crown",
+                      "kind": "weekly",
                       "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                       "source": "Azhdaha",
                       "sourceDetails": [
@@ -362917,7 +362917,7 @@
                       "name": "Dragon Lord's Crown",
                       "qty": 2,
                       "rar": 5,
-                      "kind": "crown",
+                      "kind": "weekly",
                       "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                       "source": "Azhdaha",
                       "sourceDetails": [
@@ -362981,7 +362981,7 @@
                       "name": "Dragon Lord's Crown",
                       "qty": 2,
                       "rar": 5,
-                      "kind": "crown",
+                      "kind": "weekly",
                       "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                       "source": "Azhdaha",
                       "sourceDetails": [
@@ -363300,7 +363300,7 @@
                       "name": "Dragon Lord's Crown",
                       "qty": 1,
                       "rar": 5,
-                      "kind": "crown",
+                      "kind": "weekly",
                       "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                       "source": "Azhdaha",
                       "sourceDetails": [
@@ -363364,7 +363364,7 @@
                       "name": "Dragon Lord's Crown",
                       "qty": 1,
                       "rar": 5,
-                      "kind": "crown",
+                      "kind": "weekly",
                       "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                       "source": "Azhdaha",
                       "sourceDetails": [
@@ -363428,7 +363428,7 @@
                       "name": "Dragon Lord's Crown",
                       "qty": 2,
                       "rar": 5,
-                      "kind": "crown",
+                      "kind": "weekly",
                       "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                       "source": "Azhdaha",
                       "sourceDetails": [
@@ -363492,7 +363492,7 @@
                       "name": "Dragon Lord's Crown",
                       "qty": 2,
                       "rar": 5,
-                      "kind": "crown",
+                      "kind": "weekly",
                       "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                       "source": "Azhdaha",
                       "sourceDetails": [
@@ -363811,7 +363811,7 @@
                       "name": "Dragon Lord's Crown",
                       "qty": 1,
                       "rar": 5,
-                      "kind": "crown",
+                      "kind": "weekly",
                       "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                       "source": "Azhdaha",
                       "sourceDetails": [
@@ -363875,7 +363875,7 @@
                       "name": "Dragon Lord's Crown",
                       "qty": 1,
                       "rar": 5,
-                      "kind": "crown",
+                      "kind": "weekly",
                       "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                       "source": "Azhdaha",
                       "sourceDetails": [
@@ -363939,7 +363939,7 @@
                       "name": "Dragon Lord's Crown",
                       "qty": 2,
                       "rar": 5,
-                      "kind": "crown",
+                      "kind": "weekly",
                       "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                       "source": "Azhdaha",
                       "sourceDetails": [
@@ -364003,7 +364003,7 @@
                       "name": "Dragon Lord's Crown",
                       "qty": 2,
                       "rar": 5,
-                      "kind": "crown",
+                      "kind": "weekly",
                       "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                       "source": "Azhdaha",
                       "sourceDetails": [
@@ -365279,7 +365279,7 @@
                       "name": "Dragon Lord's Crown",
                       "qty": 1,
                       "rar": 5,
-                      "kind": "crown",
+                      "kind": "weekly",
                       "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                       "source": "Azhdaha",
                       "sourceDetails": [
@@ -365343,7 +365343,7 @@
                       "name": "Dragon Lord's Crown",
                       "qty": 1,
                       "rar": 5,
-                      "kind": "crown",
+                      "kind": "weekly",
                       "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                       "source": "Azhdaha",
                       "sourceDetails": [
@@ -365407,7 +365407,7 @@
                       "name": "Dragon Lord's Crown",
                       "qty": 2,
                       "rar": 5,
-                      "kind": "crown",
+                      "kind": "weekly",
                       "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                       "source": "Azhdaha",
                       "sourceDetails": [
@@ -365471,7 +365471,7 @@
                       "name": "Dragon Lord's Crown",
                       "qty": 2,
                       "rar": 5,
-                      "kind": "crown",
+                      "kind": "weekly",
                       "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                       "source": "Azhdaha",
                       "sourceDetails": [
@@ -365790,7 +365790,7 @@
                       "name": "Dragon Lord's Crown",
                       "qty": 1,
                       "rar": 5,
-                      "kind": "crown",
+                      "kind": "weekly",
                       "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                       "source": "Azhdaha",
                       "sourceDetails": [
@@ -365854,7 +365854,7 @@
                       "name": "Dragon Lord's Crown",
                       "qty": 1,
                       "rar": 5,
-                      "kind": "crown",
+                      "kind": "weekly",
                       "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                       "source": "Azhdaha",
                       "sourceDetails": [
@@ -365918,7 +365918,7 @@
                       "name": "Dragon Lord's Crown",
                       "qty": 2,
                       "rar": 5,
-                      "kind": "crown",
+                      "kind": "weekly",
                       "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                       "source": "Azhdaha",
                       "sourceDetails": [
@@ -365982,7 +365982,7 @@
                       "name": "Dragon Lord's Crown",
                       "qty": 2,
                       "rar": 5,
-                      "kind": "crown",
+                      "kind": "weekly",
                       "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                       "source": "Azhdaha",
                       "sourceDetails": [
@@ -366301,7 +366301,7 @@
                       "name": "Dragon Lord's Crown",
                       "qty": 1,
                       "rar": 5,
-                      "kind": "crown",
+                      "kind": "weekly",
                       "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                       "source": "Azhdaha",
                       "sourceDetails": [
@@ -366365,7 +366365,7 @@
                       "name": "Dragon Lord's Crown",
                       "qty": 1,
                       "rar": 5,
-                      "kind": "crown",
+                      "kind": "weekly",
                       "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                       "source": "Azhdaha",
                       "sourceDetails": [
@@ -366429,7 +366429,7 @@
                       "name": "Dragon Lord's Crown",
                       "qty": 2,
                       "rar": 5,
-                      "kind": "crown",
+                      "kind": "weekly",
                       "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                       "source": "Azhdaha",
                       "sourceDetails": [
@@ -366493,7 +366493,7 @@
                       "name": "Dragon Lord's Crown",
                       "qty": 2,
                       "rar": 5,
-                      "kind": "crown",
+                      "kind": "weekly",
                       "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
                       "source": "Azhdaha",
                       "sourceDetails": [
@@ -377457,6 +377457,14 @@
             ],
             "talents": [
               {
+                "id": "113063",
+                "name": "The Cornerstone of Stars and Flames",
+                "qty": 12,
+                "rar": 5,
+                "kind": "specialty",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
+              },
+              {
                 "id": "112104",
                 "name": "Sentry's Wooden Whistle",
                 "qty": 18,
@@ -377625,20 +377633,6 @@
                 "sourceDetails": [
                   {
                     "name": "Conflict - Natlan - Blazing Ruins"
-                  }
-                ]
-              },
-              {
-                "id": "104349",
-                "name": "Philosophies of Contention",
-                "qty": 18,
-                "rar": 4,
-                "kind": "book",
-                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104349.webp",
-                "source": "Contention - Natlan - Blazing Ruins",
-                "sourceDetails": [
-                  {
-                    "name": "Contention - Natlan - Blazing Ruins"
                   }
                 ]
               }
@@ -377913,6 +377907,14 @@
                 {
                   "items": [
                     {
+                      "id": "113063",
+                      "name": "The Cornerstone of Stars and Flames",
+                      "qty": 1,
+                      "rar": 5,
+                      "kind": "specialty",
+                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
+                    },
+                    {
                       "id": "112106",
                       "name": "Saurian-Crowned Warrior's Golden Whistle",
                       "qty": 4,
@@ -377959,20 +377961,20 @@
                           "name": "Conflict - Natlan - Blazing Ruins"
                         }
                       ]
-                    },
-                    {
-                      "id": "113063",
-                      "name": "The Cornerstone of Stars and Flames",
-                      "qty": 1,
-                      "rar": 5,
-                      "kind": "weekly",
-                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
                     }
                   ],
                   "cost": 120000
                 },
                 {
                   "items": [
+                    {
+                      "id": "113063",
+                      "name": "The Cornerstone of Stars and Flames",
+                      "qty": 1,
+                      "rar": 5,
+                      "kind": "specialty",
+                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
+                    },
                     {
                       "id": "112106",
                       "name": "Saurian-Crowned Warrior's Golden Whistle",
@@ -378020,20 +378022,20 @@
                           "name": "Contention - Natlan - Blazing Ruins"
                         }
                       ]
-                    },
-                    {
-                      "id": "113063",
-                      "name": "The Cornerstone of Stars and Flames",
-                      "qty": 1,
-                      "rar": 5,
-                      "kind": "weekly",
-                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
                     }
                   ],
                   "cost": 260000
                 },
                 {
                   "items": [
+                    {
+                      "id": "113063",
+                      "name": "The Cornerstone of Stars and Flames",
+                      "qty": 1,
+                      "rar": 5,
+                      "kind": "specialty",
+                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
+                    },
                     {
                       "id": "112106",
                       "name": "Saurian-Crowned Warrior's Golden Whistle",
@@ -378081,20 +378083,20 @@
                           "name": "Kindling - Natlan - Blazing Ruins"
                         }
                       ]
-                    },
-                    {
-                      "id": "113063",
-                      "name": "The Cornerstone of Stars and Flames",
-                      "qty": 1,
-                      "rar": 5,
-                      "kind": "weekly",
-                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
                     }
                   ],
                   "cost": 450000
                 },
                 {
                   "items": [
+                    {
+                      "id": "113063",
+                      "name": "The Cornerstone of Stars and Flames",
+                      "qty": 1,
+                      "rar": 5,
+                      "kind": "specialty",
+                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
+                    },
                     {
                       "id": "112106",
                       "name": "Saurian-Crowned Warrior's Golden Whistle",
@@ -378142,14 +378144,6 @@
                           "name": "Conflict - Natlan - Blazing Ruins"
                         }
                       ]
-                    },
-                    {
-                      "id": "113063",
-                      "name": "The Cornerstone of Stars and Flames",
-                      "qty": 1,
-                      "rar": 5,
-                      "kind": "weekly",
-                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
                     },
                     {
                       "id": "104319",
@@ -378432,6 +378426,14 @@
                 {
                   "items": [
                     {
+                      "id": "113063",
+                      "name": "The Cornerstone of Stars and Flames",
+                      "qty": 1,
+                      "rar": 5,
+                      "kind": "specialty",
+                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
+                    },
+                    {
                       "id": "112106",
                       "name": "Saurian-Crowned Warrior's Golden Whistle",
                       "qty": 4,
@@ -378478,20 +378480,20 @@
                           "name": "Conflict - Natlan - Blazing Ruins"
                         }
                       ]
-                    },
-                    {
-                      "id": "113063",
-                      "name": "The Cornerstone of Stars and Flames",
-                      "qty": 1,
-                      "rar": 5,
-                      "kind": "weekly",
-                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
                     }
                   ],
                   "cost": 120000
                 },
                 {
                   "items": [
+                    {
+                      "id": "113063",
+                      "name": "The Cornerstone of Stars and Flames",
+                      "qty": 1,
+                      "rar": 5,
+                      "kind": "specialty",
+                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
+                    },
                     {
                       "id": "112106",
                       "name": "Saurian-Crowned Warrior's Golden Whistle",
@@ -378539,20 +378541,20 @@
                           "name": "Contention - Natlan - Blazing Ruins"
                         }
                       ]
-                    },
-                    {
-                      "id": "113063",
-                      "name": "The Cornerstone of Stars and Flames",
-                      "qty": 1,
-                      "rar": 5,
-                      "kind": "weekly",
-                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
                     }
                   ],
                   "cost": 260000
                 },
                 {
                   "items": [
+                    {
+                      "id": "113063",
+                      "name": "The Cornerstone of Stars and Flames",
+                      "qty": 1,
+                      "rar": 5,
+                      "kind": "specialty",
+                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
+                    },
                     {
                       "id": "112106",
                       "name": "Saurian-Crowned Warrior's Golden Whistle",
@@ -378600,20 +378602,20 @@
                           "name": "Kindling - Natlan - Blazing Ruins"
                         }
                       ]
-                    },
-                    {
-                      "id": "113063",
-                      "name": "The Cornerstone of Stars and Flames",
-                      "qty": 1,
-                      "rar": 5,
-                      "kind": "weekly",
-                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
                     }
                   ],
                   "cost": 450000
                 },
                 {
                   "items": [
+                    {
+                      "id": "113063",
+                      "name": "The Cornerstone of Stars and Flames",
+                      "qty": 1,
+                      "rar": 5,
+                      "kind": "specialty",
+                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
+                    },
                     {
                       "id": "112106",
                       "name": "Saurian-Crowned Warrior's Golden Whistle",
@@ -378661,14 +378663,6 @@
                           "name": "Conflict - Natlan - Blazing Ruins"
                         }
                       ]
-                    },
-                    {
-                      "id": "113063",
-                      "name": "The Cornerstone of Stars and Flames",
-                      "qty": 1,
-                      "rar": 5,
-                      "kind": "weekly",
-                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
                     },
                     {
                       "id": "104319",
@@ -378951,6 +378945,14 @@
                 {
                   "items": [
                     {
+                      "id": "113063",
+                      "name": "The Cornerstone of Stars and Flames",
+                      "qty": 1,
+                      "rar": 5,
+                      "kind": "specialty",
+                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
+                    },
+                    {
                       "id": "112106",
                       "name": "Saurian-Crowned Warrior's Golden Whistle",
                       "qty": 4,
@@ -378997,20 +378999,20 @@
                           "name": "Conflict - Natlan - Blazing Ruins"
                         }
                       ]
-                    },
-                    {
-                      "id": "113063",
-                      "name": "The Cornerstone of Stars and Flames",
-                      "qty": 1,
-                      "rar": 5,
-                      "kind": "weekly",
-                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
                     }
                   ],
                   "cost": 120000
                 },
                 {
                   "items": [
+                    {
+                      "id": "113063",
+                      "name": "The Cornerstone of Stars and Flames",
+                      "qty": 1,
+                      "rar": 5,
+                      "kind": "specialty",
+                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
+                    },
                     {
                       "id": "112106",
                       "name": "Saurian-Crowned Warrior's Golden Whistle",
@@ -379058,20 +379060,20 @@
                           "name": "Contention - Natlan - Blazing Ruins"
                         }
                       ]
-                    },
-                    {
-                      "id": "113063",
-                      "name": "The Cornerstone of Stars and Flames",
-                      "qty": 1,
-                      "rar": 5,
-                      "kind": "weekly",
-                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
                     }
                   ],
                   "cost": 260000
                 },
                 {
                   "items": [
+                    {
+                      "id": "113063",
+                      "name": "The Cornerstone of Stars and Flames",
+                      "qty": 1,
+                      "rar": 5,
+                      "kind": "specialty",
+                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
+                    },
                     {
                       "id": "112106",
                       "name": "Saurian-Crowned Warrior's Golden Whistle",
@@ -379119,20 +379121,20 @@
                           "name": "Kindling - Natlan - Blazing Ruins"
                         }
                       ]
-                    },
-                    {
-                      "id": "113063",
-                      "name": "The Cornerstone of Stars and Flames",
-                      "qty": 1,
-                      "rar": 5,
-                      "kind": "weekly",
-                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
                     }
                   ],
                   "cost": 450000
                 },
                 {
                   "items": [
+                    {
+                      "id": "113063",
+                      "name": "The Cornerstone of Stars and Flames",
+                      "qty": 1,
+                      "rar": 5,
+                      "kind": "specialty",
+                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
+                    },
                     {
                       "id": "112106",
                       "name": "Saurian-Crowned Warrior's Golden Whistle",
@@ -379180,14 +379182,6 @@
                           "name": "Conflict - Natlan - Blazing Ruins"
                         }
                       ]
-                    },
-                    {
-                      "id": "113063",
-                      "name": "The Cornerstone of Stars and Flames",
-                      "qty": 1,
-                      "rar": 5,
-                      "kind": "weekly",
-                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
                     },
                     {
                       "id": "104319",
@@ -379903,6 +379897,14 @@
             ],
             "talents": [
               {
+                "id": "113063",
+                "name": "The Cornerstone of Stars and Flames",
+                "qty": 12,
+                "rar": 5,
+                "kind": "specialty",
+                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
+              },
+              {
                 "id": "112104",
                 "name": "Sentry's Wooden Whistle",
                 "qty": 18,
@@ -380071,20 +380073,6 @@
                 "sourceDetails": [
                   {
                     "name": "Conflict - Natlan - Blazing Ruins"
-                  }
-                ]
-              },
-              {
-                "id": "104349",
-                "name": "Philosophies of Contention",
-                "qty": 18,
-                "rar": 4,
-                "kind": "book",
-                "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104349.webp",
-                "source": "Contention - Natlan - Blazing Ruins",
-                "sourceDetails": [
-                  {
-                    "name": "Contention - Natlan - Blazing Ruins"
                   }
                 ]
               }
@@ -380359,6 +380347,14 @@
                 {
                   "items": [
                     {
+                      "id": "113063",
+                      "name": "The Cornerstone of Stars and Flames",
+                      "qty": 1,
+                      "rar": 5,
+                      "kind": "specialty",
+                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
+                    },
+                    {
                       "id": "112106",
                       "name": "Saurian-Crowned Warrior's Golden Whistle",
                       "qty": 4,
@@ -380405,20 +380401,20 @@
                           "name": "Conflict - Natlan - Blazing Ruins"
                         }
                       ]
-                    },
-                    {
-                      "id": "113063",
-                      "name": "The Cornerstone of Stars and Flames",
-                      "qty": 1,
-                      "rar": 5,
-                      "kind": "weekly",
-                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
                     }
                   ],
                   "cost": 120000
                 },
                 {
                   "items": [
+                    {
+                      "id": "113063",
+                      "name": "The Cornerstone of Stars and Flames",
+                      "qty": 1,
+                      "rar": 5,
+                      "kind": "specialty",
+                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
+                    },
                     {
                       "id": "112106",
                       "name": "Saurian-Crowned Warrior's Golden Whistle",
@@ -380466,20 +380462,20 @@
                           "name": "Contention - Natlan - Blazing Ruins"
                         }
                       ]
-                    },
-                    {
-                      "id": "113063",
-                      "name": "The Cornerstone of Stars and Flames",
-                      "qty": 1,
-                      "rar": 5,
-                      "kind": "weekly",
-                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
                     }
                   ],
                   "cost": 260000
                 },
                 {
                   "items": [
+                    {
+                      "id": "113063",
+                      "name": "The Cornerstone of Stars and Flames",
+                      "qty": 1,
+                      "rar": 5,
+                      "kind": "specialty",
+                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
+                    },
                     {
                       "id": "112106",
                       "name": "Saurian-Crowned Warrior's Golden Whistle",
@@ -380527,20 +380523,20 @@
                           "name": "Kindling - Natlan - Blazing Ruins"
                         }
                       ]
-                    },
-                    {
-                      "id": "113063",
-                      "name": "The Cornerstone of Stars and Flames",
-                      "qty": 1,
-                      "rar": 5,
-                      "kind": "weekly",
-                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
                     }
                   ],
                   "cost": 450000
                 },
                 {
                   "items": [
+                    {
+                      "id": "113063",
+                      "name": "The Cornerstone of Stars and Flames",
+                      "qty": 1,
+                      "rar": 5,
+                      "kind": "specialty",
+                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
+                    },
                     {
                       "id": "112106",
                       "name": "Saurian-Crowned Warrior's Golden Whistle",
@@ -380588,14 +380584,6 @@
                           "name": "Conflict - Natlan - Blazing Ruins"
                         }
                       ]
-                    },
-                    {
-                      "id": "113063",
-                      "name": "The Cornerstone of Stars and Flames",
-                      "qty": 1,
-                      "rar": 5,
-                      "kind": "weekly",
-                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
                     },
                     {
                       "id": "104319",
@@ -380878,6 +380866,14 @@
                 {
                   "items": [
                     {
+                      "id": "113063",
+                      "name": "The Cornerstone of Stars and Flames",
+                      "qty": 1,
+                      "rar": 5,
+                      "kind": "specialty",
+                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
+                    },
+                    {
                       "id": "112106",
                       "name": "Saurian-Crowned Warrior's Golden Whistle",
                       "qty": 4,
@@ -380924,20 +380920,20 @@
                           "name": "Conflict - Natlan - Blazing Ruins"
                         }
                       ]
-                    },
-                    {
-                      "id": "113063",
-                      "name": "The Cornerstone of Stars and Flames",
-                      "qty": 1,
-                      "rar": 5,
-                      "kind": "weekly",
-                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
                     }
                   ],
                   "cost": 120000
                 },
                 {
                   "items": [
+                    {
+                      "id": "113063",
+                      "name": "The Cornerstone of Stars and Flames",
+                      "qty": 1,
+                      "rar": 5,
+                      "kind": "specialty",
+                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
+                    },
                     {
                       "id": "112106",
                       "name": "Saurian-Crowned Warrior's Golden Whistle",
@@ -380985,20 +380981,20 @@
                           "name": "Contention - Natlan - Blazing Ruins"
                         }
                       ]
-                    },
-                    {
-                      "id": "113063",
-                      "name": "The Cornerstone of Stars and Flames",
-                      "qty": 1,
-                      "rar": 5,
-                      "kind": "weekly",
-                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
                     }
                   ],
                   "cost": 260000
                 },
                 {
                   "items": [
+                    {
+                      "id": "113063",
+                      "name": "The Cornerstone of Stars and Flames",
+                      "qty": 1,
+                      "rar": 5,
+                      "kind": "specialty",
+                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
+                    },
                     {
                       "id": "112106",
                       "name": "Saurian-Crowned Warrior's Golden Whistle",
@@ -381046,20 +381042,20 @@
                           "name": "Kindling - Natlan - Blazing Ruins"
                         }
                       ]
-                    },
-                    {
-                      "id": "113063",
-                      "name": "The Cornerstone of Stars and Flames",
-                      "qty": 1,
-                      "rar": 5,
-                      "kind": "weekly",
-                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
                     }
                   ],
                   "cost": 450000
                 },
                 {
                   "items": [
+                    {
+                      "id": "113063",
+                      "name": "The Cornerstone of Stars and Flames",
+                      "qty": 1,
+                      "rar": 5,
+                      "kind": "specialty",
+                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
+                    },
                     {
                       "id": "112106",
                       "name": "Saurian-Crowned Warrior's Golden Whistle",
@@ -381107,14 +381103,6 @@
                           "name": "Conflict - Natlan - Blazing Ruins"
                         }
                       ]
-                    },
-                    {
-                      "id": "113063",
-                      "name": "The Cornerstone of Stars and Flames",
-                      "qty": 1,
-                      "rar": 5,
-                      "kind": "weekly",
-                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
                     },
                     {
                       "id": "104319",
@@ -381397,6 +381385,14 @@
                 {
                   "items": [
                     {
+                      "id": "113063",
+                      "name": "The Cornerstone of Stars and Flames",
+                      "qty": 1,
+                      "rar": 5,
+                      "kind": "specialty",
+                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
+                    },
+                    {
                       "id": "112106",
                       "name": "Saurian-Crowned Warrior's Golden Whistle",
                       "qty": 4,
@@ -381443,20 +381439,20 @@
                           "name": "Conflict - Natlan - Blazing Ruins"
                         }
                       ]
-                    },
-                    {
-                      "id": "113063",
-                      "name": "The Cornerstone of Stars and Flames",
-                      "qty": 1,
-                      "rar": 5,
-                      "kind": "weekly",
-                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
                     }
                   ],
                   "cost": 120000
                 },
                 {
                   "items": [
+                    {
+                      "id": "113063",
+                      "name": "The Cornerstone of Stars and Flames",
+                      "qty": 1,
+                      "rar": 5,
+                      "kind": "specialty",
+                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
+                    },
                     {
                       "id": "112106",
                       "name": "Saurian-Crowned Warrior's Golden Whistle",
@@ -381504,20 +381500,20 @@
                           "name": "Contention - Natlan - Blazing Ruins"
                         }
                       ]
-                    },
-                    {
-                      "id": "113063",
-                      "name": "The Cornerstone of Stars and Flames",
-                      "qty": 1,
-                      "rar": 5,
-                      "kind": "weekly",
-                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
                     }
                   ],
                   "cost": 260000
                 },
                 {
                   "items": [
+                    {
+                      "id": "113063",
+                      "name": "The Cornerstone of Stars and Flames",
+                      "qty": 1,
+                      "rar": 5,
+                      "kind": "specialty",
+                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
+                    },
                     {
                       "id": "112106",
                       "name": "Saurian-Crowned Warrior's Golden Whistle",
@@ -381565,20 +381561,20 @@
                           "name": "Kindling - Natlan - Blazing Ruins"
                         }
                       ]
-                    },
-                    {
-                      "id": "113063",
-                      "name": "The Cornerstone of Stars and Flames",
-                      "qty": 1,
-                      "rar": 5,
-                      "kind": "weekly",
-                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
                     }
                   ],
                   "cost": 450000
                 },
                 {
                   "items": [
+                    {
+                      "id": "113063",
+                      "name": "The Cornerstone of Stars and Flames",
+                      "qty": 1,
+                      "rar": 5,
+                      "kind": "specialty",
+                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
+                    },
                     {
                       "id": "112106",
                       "name": "Saurian-Crowned Warrior's Golden Whistle",
@@ -381626,14 +381622,6 @@
                           "name": "Conflict - Natlan - Blazing Ruins"
                         }
                       ]
-                    },
-                    {
-                      "id": "113063",
-                      "name": "The Cornerstone of Stars and Flames",
-                      "qty": 1,
-                      "rar": 5,
-                      "kind": "weekly",
-                      "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113063.webp"
                     },
                     {
                       "id": "104319",
@@ -383127,6 +383115,8 @@
   "weeklyBosses": [
     {
       "bossName": "Exalted Master of the Heretical Path",
+      "releaseOrder": 14,
+      "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_DrData.webp",
       "drops": [
         {
           "id": "113087",
@@ -383179,6 +383169,8 @@
     },
     {
       "bossName": "The Doctor",
+      "releaseOrder": 13,
+      "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Dotorre_Moon.webp",
       "drops": [
         {
           "id": "113081",
@@ -383239,6 +383231,8 @@
     },
     {
       "bossName": "The Game Before the Gate",
+      "releaseOrder": 12,
+      "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_GiantChess.webp",
       "drops": [
         {
           "id": "113073",
@@ -383303,6 +383297,8 @@
     },
     {
       "bossName": "Lord of Eroded Primal Fire",
+      "releaseOrder": 11,
+      "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_TheAbyssXiuhcoatl.webp",
       "drops": [
         {
           "id": "113068",
@@ -383368,6 +383364,8 @@
     },
     {
       "bossName": "The Knave",
+      "releaseOrder": 10,
+      "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Nihil.webp",
       "drops": [
         {
           "id": "113060",
@@ -383433,6 +383431,8 @@
     },
     {
       "bossName": "All-Devouring Narwhal",
+      "releaseOrder": 9,
+      "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Ptahur_Devourer.webp",
       "drops": [
         {
           "id": "113054",
@@ -383499,6 +383499,8 @@
     },
     {
       "bossName": "Guardian of Apep's Oasis",
+      "releaseOrder": 8,
+      "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Apep.webp",
       "drops": [
         {
           "id": "113046",
@@ -383516,7 +383518,8 @@
           ],
           "chars": [
             "Baizhu",
-            "Freminet"
+            "Freminet",
+            "Traveler"
           ]
         },
         {
@@ -383564,6 +383567,8 @@
     },
     {
       "bossName": "Everlasting Lord of Arcane Wisdom",
+      "releaseOrder": 7,
+      "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Nada.webp",
       "drops": [
         {
           "id": "113041",
@@ -383627,6 +383632,8 @@
     },
     {
       "bossName": "Magatsu Mitake Narukami no Mikoto",
+      "releaseOrder": 6,
+      "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Shougun_Mitakenarukami.webp",
       "drops": [
         {
           "id": "113032",
@@ -383644,7 +383651,8 @@
           ],
           "chars": [
             "Cyno",
-            "Kamisato Ayato"
+            "Kamisato Ayato",
+            "Traveler"
           ]
         },
         {
@@ -383692,6 +383700,8 @@
     },
     {
       "bossName": "La Signora",
+      "releaseOrder": 5,
+      "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_LaSignora.webp",
       "drops": [
         {
           "id": "113025",
@@ -383756,6 +383766,8 @@
     },
     {
       "bossName": "Azhdaha",
+      "releaseOrder": 4,
+      "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Dahaka.webp",
       "drops": [
         {
           "id": "113017",
@@ -383771,7 +383783,11 @@
               "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Dahaka.webp"
             }
           ],
-          "chars": []
+          "chars": [
+            "Eula",
+            "Traveler",
+            "Yoimiya"
+          ]
         },
         {
           "id": "113018",
@@ -383817,6 +383833,8 @@
     },
     {
       "bossName": "Childe",
+      "releaseOrder": 3,
+      "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Tartaglia.webp",
       "drops": [
         {
           "id": "113013",
@@ -383882,6 +383900,8 @@
     },
     {
       "bossName": "Andrius",
+      "releaseOrder": 2,
+      "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_LupiBoreas.webp",
       "drops": [
         {
           "id": "113006",
@@ -383898,6 +383918,7 @@
           ],
           "chars": [
             "Qiqi",
+            "Traveler",
             "Venti",
             "Xingqiu"
           ]
@@ -383946,6 +383967,8 @@
     },
     {
       "bossName": "Stormterror Dvalin",
+      "releaseOrder": 1,
+      "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Dvalin.webp",
       "drops": [
         {
           "id": "113003",
@@ -384005,7 +384028,8 @@
           "chars": [
             "Amber",
             "Beidou",
-            "Chongyun"
+            "Chongyun",
+            "Traveler"
           ]
         }
       ]

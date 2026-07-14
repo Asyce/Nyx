@@ -15,6 +15,16 @@
 import crypto from 'node:crypto';
 
 export const GAMES = ['gi', 'hsr', 'zzz', 'wuwa', 'endfield'];
+export function normalizeEventImage(value) {
+  const image = String(value || '').trim();
+  if (!image) return null;
+  // Runtime event data may reference an already-shipped site asset, but it must
+  // never hotlink announcement/CDN art. Event art is optional and is not
+  // downloaded by this pipeline.
+  return /^\/assets\/[a-z0-9][a-z0-9._/-]*\.(?:avif|jpe?g|png|webp)$/i.test(image) && !image.includes('..')
+    ? image
+    : null;
+}
 export const EVENT_TYPES = new Set(['event', 'banner', 'web_event', 'login', 'challenge', 'shop', 'permanent']);
 export const CONFIDENCE = new Set(['high', 'medium', 'low']);
 export const PERMANENCE = new Set(['permanent', 'timed', 'unknown']);
@@ -138,7 +148,11 @@ export function parseEndfieldAvailability(html, offset = '+08:00') {
 export function parseDateRange(text, offset = '+00:00') {
   const clean = stripTags(text);
   const dates = [...clean.matchAll(/(\d{4}[-/]\d{1,2}[-/]\d{1,2}\s+\d{1,2}:\d{2}(?::\d{2})?)/g)].map((m) => toIso(m[1], offset)).filter(Boolean);
-  return { start: dates[0] || null, end: dates[1] || null };
+  if (dates.length === 1) return { start: dates[0], end: null };
+  for (let index = 0; index + 1 < dates.length; index += 1) {
+    if (Date.parse(dates[index + 1]) > Date.parse(dates[index])) return { start: dates[index], end: dates[index + 1] };
+  }
+  return { start: null, end: null };
 }
 
 // Parse a date pair only from a named duration/availability section. The scope
@@ -181,7 +195,7 @@ export function stableEventId(game, sourceKey, nativeId) {
 }
 
 // Build one normalized event from the pieces a parser has extracted.
-export function makeEvent({ game, sourceKey, nativeId, title, typeLabel, start, end, permanent = false, server, timezone, sourceName, sourceUrl, priority = 1, image = null, description = null, dateSource = 'content' }) {
+export function makeEvent({ game, sourceKey, nativeId, title, typeLabel, start, end, permanent = false, server, timezone, sourceName, sourceUrl, sourceKind = 'official-feed', fetchedAt = null, priority = 1, image = null, description = null, dateSource = 'content', scheduleStatus = null, windowsByRegion = null }) {
   const cleanedTitle = cleanTitle(title);
   const type = classifyType(cleanedTitle, { permanent, typeLabel });
   // Defense-in-depth: a reversed/degenerate range is a bad parse — drop the end so the
@@ -209,13 +223,86 @@ export function makeEvent({ game, sourceKey, nativeId, title, typeLabel, start, 
     end: hasEnd ? end : null,
     server: server || 'global',
     timezone: timezone || 'UTC+00:00',
-    source: { name: sourceName, url: sourceUrl, priority },
+    source: { name: sourceName, url: sourceUrl, kind:sourceKind, recordId:String(nativeId), fetchedAt:fetchedAt || new Date().toISOString(), priority },
     confidence,
+    scheduleStatus:scheduleStatus || (permanent || hasStart ? 'exact' : 'expected'),
     permanence,
     needs_review,
-    image: image || null,
+    ...(windowsByRegion && Object.keys(windowsByRegion).length ? { windowsByRegion } : {}),
+    image: normalizeEventImage(image),
     description: descriptionSnippet(description),
   };
+}
+
+// Recover only source IDs that are explicitly present in known official URLs.
+// There is deliberately no hash/title fallback: an untraceable legacy row must
+// fail validation instead of receiving invented provenance.
+export function sourceRecordIdFromUrl(value) {
+  try {
+    const url = new URL(String(value || ''));
+    const queryId = url.searchParams.get('ann_id');
+    if (queryId) return queryId;
+    const pathId = url.pathname.match(/\/(?:article|detail|news)\/(\d+)\/?$/i)?.[1];
+    return pathId || null;
+  } catch {
+    return null;
+  }
+}
+
+export function normalizeRetainedEvent(event, observedAt) {
+  if (!event || typeof event !== 'object') return event;
+  const recordId = event.source?.recordId || sourceRecordIdFromUrl(event.source?.url);
+  const validObservedAt = Number.isFinite(Date.parse(observedAt)) ? observedAt : null;
+  const isTraceableLegacy = Boolean(recordId && validObservedAt && event.source?.url);
+  const source = {
+    ...event.source,
+    ...(event.source?.kind ? {} : isTraceableLegacy ? { kind:'legacy-official-snapshot' } : {}),
+    ...(event.source?.recordId ? {} : recordId ? { recordId:String(recordId) } : {}),
+    ...(event.source?.fetchedAt ? {} : validObservedAt ? {
+      fetchedAt:validObservedAt,
+      fetchedAtMeaning:'nyx-snapshot-observed-at',
+    } : {}),
+  };
+  const scheduleStatus = event.scheduleStatus
+    ? (event.scheduleStatus === 'exact' && event.permanence !== 'permanent' && !event.start ? 'expected' : event.scheduleStatus)
+    : source.kind === 'legacy-official-snapshot' ? (event.permanence === 'permanent' || event.start ? 'exact' : 'expected') : null;
+  return {
+    ...event,
+    source,
+    image:normalizeEventImage(event.image),
+    ...(scheduleStatus ? { scheduleStatus } : {}),
+  };
+}
+
+export function mergeRegionalEvents(events, preferredRegion = 'europe') {
+  const merged = new Map();
+  for (const event of events || []) {
+    if (!event?.id) continue;
+    const region = event.server || 'global';
+    const existing = merged.get(event.id);
+    const window = event.start ? {
+      start:event.start,
+      ...(event.end ? { end:event.end } : {}),
+      timezone:event.timezone,
+      sourceUrl:event.source?.url,
+    } : null;
+    if (!existing) {
+      merged.set(event.id, {
+        ...event,
+        ...(window ? { windowsByRegion:{ [region]:window } } : {}),
+      });
+      continue;
+    }
+    const windowsByRegion = { ...(existing.windowsByRegion || {}) };
+    if (window) windowsByRegion[region] = window;
+    const preferred = region === preferredRegion || (!existing.start && event.start);
+    merged.set(event.id, {
+      ...(preferred ? { ...existing, ...event } : existing),
+      windowsByRegion,
+      source:{ ...existing.source, fetchedAt:[existing.source?.fetchedAt, event.source?.fetchedAt].filter(Boolean).sort().at(-1) || existing.source?.fetchedAt },
+    });
+  }
+  return [...merged.values()];
 }
 
 // ---- dedupe: game + normalized title + overlapping range; official priority wins ----
@@ -261,6 +348,15 @@ export function mergeById(previousEvents = [], freshEvents = []) {
   return [...byId.values()].sort((a, b) => (b.start || '').localeCompare(a.start || '') || a.id.localeCompare(b.id));
 }
 
+export function replaceExpectedWithExact(events = []) {
+  const exact = events.filter((row) => row?.scheduleStatus === 'exact');
+  return events.filter((row) => {
+    if (row?.scheduleStatus !== 'expected') return true;
+    const key = normalizeTitle(row.title);
+    return !exact.some((candidate) => candidate.game === row.game && normalizeTitle(candidate.title) === key && overlaps(candidate, row));
+  });
+}
+
 
 // Reconcile a complete successful source snapshot. Fresh rows win. An absent
 // previous row is retained only when it has a verified end in the past, which
@@ -286,7 +382,7 @@ export function reconcileById(previousEvents = [], freshEvents = [], now = Date.
     const end = ev?.end ? Date.parse(ev.end) : NaN;
     return Number.isFinite(end) && end < now && retainPrevious(ev);
   });
-  return mergeById(history, stableFresh);
+  return replaceExpectedWithExact(mergeById(history, stableFresh));
 }
 
 // ---- validation (mirrors validate-data.cjs style) ----
@@ -299,11 +395,19 @@ export function validateEvent(ev) {
   if (!PERMANENCE.has(ev?.permanence)) errs.push(`bad permanence ${ev?.permanence} (${ev?.id})`);
   if (typeof ev?.needs_review !== 'boolean') errs.push(`needs_review not bool (${ev?.id})`);
   if (ev?.description !== null && ev?.description !== undefined && (typeof ev.description !== 'string' || ev.description.length > 240 || /[<>]/.test(ev.description))) errs.push(`bad description (${ev?.id})`);
+  if (ev?.image !== null && ev?.image !== undefined && normalizeEventImage(ev.image) !== ev.image) errs.push(`bad event image (${ev?.id})`);
   if (!ev?.source?.name || !ev?.source?.url || typeof ev?.source?.priority !== 'number') errs.push(`bad source (${ev?.id})`);
+  if (!ev?.source?.kind || !ev?.source?.recordId) errs.push(`missing source provenance (${ev?.id})`);
+  if (!ev?.source?.fetchedAt || !Number.isFinite(Date.parse(ev.source.fetchedAt))) errs.push(`bad source fetchedAt (${ev?.id})`);
+  if (!['exact','expected'].includes(ev?.scheduleStatus)) errs.push(`bad schedule status (${ev?.id})`);
+  if (ev?.scheduleStatus === 'exact' && ev?.permanence !== 'permanent' && !ev?.start) errs.push(`exact schedule missing start (${ev?.id})`);
   for (const bound of ['start', 'end']) {
     if (ev?.[bound] !== null && !Number.isFinite(Date.parse(ev?.[bound]))) errs.push(`bad ${bound} ${ev?.[bound]} (${ev?.id})`);
   }
   if (ev?.start && ev?.end && Date.parse(ev.end) <= Date.parse(ev.start)) errs.push(`end<=start (${ev?.id})`);
+  for (const [region, window] of Object.entries(ev?.windowsByRegion || {})) {
+    if (!['global','asia','europe','america'].includes(region) || !window?.start || !Number.isFinite(Date.parse(window.start)) || (window?.end && Date.parse(window.end) <= Date.parse(window.start)) || !window?.sourceUrl) errs.push(`bad ${region} window (${ev?.id})`);
+  }
   // A timed, non-permanent, non-needs_review event must carry a real start.
   if (!ev?.needs_review && ev?.permanence !== 'permanent' && !ev?.start) errs.push(`dated event missing start (${ev?.id})`);
   return errs;

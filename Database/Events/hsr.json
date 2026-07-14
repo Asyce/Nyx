@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "game": "hsr",
-  "generatedAt": "2026-07-12T02:23:17.297Z",
+  "generatedAt": "2026-07-14T00:43:54.081Z",
   "source": {
     "name": "Honkai: Star Rail Official",
     "endpoint": "sg-hkrpg-api.hoyoverse.com getAnnList+getAnnContent"
@@ -27,13 +27,18 @@
       "source": {
         "name": "Honkai: Star Rail Official",
         "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1301",
-        "priority": 1
+        "priority": 1,
+        "kind": "legacy-official-snapshot",
+        "recordId": "1301",
+        "fetchedAt": "2026-07-13T22:40:55.330Z",
+        "fetchedAtMeaning": "nyx-snapshot-observed-at"
       },
       "confidence": "high",
       "permanence": "timed",
       "needs_review": false,
-      "image": "https://sdk.hoyoverse.com/upload/ann/2026/05/09/aa1f4ee17c0746bd46a8693d44d95188_5705131435332765014_transformed.png",
-      "description": "Event Period 2026/07/03 04:00:00 - 2026/07/13 03:59:00 Participation Requirements Unlock Cavern of Corrosion: Path of Drifting Event Details During the Realm of the Strange event, get double rewards when you challenge and beat Cavern of…"
+      "image": null,
+      "description": "Event Period 2026/07/03 04:00:00 - 2026/07/13 03:59:00 Participation Requirements Unlock Cavern of Corrosion: Path of Drifting Event Details During the Realm of the Strange event, get double rewards when you challenge and beat Cavern of…",
+      "scheduleStatus": "exact"
     }
   ]
 }

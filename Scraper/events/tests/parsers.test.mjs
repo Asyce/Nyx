@@ -1,10 +1,59 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import {
-  classifyType, dedupe, descriptionSnippet, makeEvent, mergeById, normalizeTitle,
-  parseDateRange, parseEndfieldAvailability, parseHoyoDuration, parseScopedDateRange, reconcileById, toIso, validateDataset, validateEvent,
+  classifyType, dedupe, descriptionSnippet, makeEvent, mergeById, mergeRegionalEvents, normalizeEventImage, normalizeRetainedEvent, normalizeTitle,
+  parseDateRange, parseEndfieldAvailability, parseHoyoDuration, parseScopedDateRange, reconcileById, replaceExpectedWithExact, toIso, validateDataset, validateEvent,
 } from '../core.mjs';
-import { isEndfieldEventCandidate, isHoyoEventCandidate, isSourceEventRecord, isWuwaEventCandidate, parseEndfieldDetail, parseHoyo, parseWuwaArticle } from '../sources.mjs';
+import { isEndfieldEventCandidate, isHoyoEventCandidate, isSourceEventRecord, isWuwaEventCandidate, parseEndfieldDetail, parseHoyo, parseWuwaArticle, planWuwaHistory } from '../sources.mjs';
+
+test('retained official rows receive traceable legacy provenance without invented IDs', () => {
+  const base = makeEvent({ game:'gi', sourceKey:'legacy', nativeId:'45478500', title:'Legacy Event', start:'2026-01-01T00:00:00.000Z', end:'2026-01-02T00:00:00.000Z', sourceName:'Official', sourceUrl:'https://www.hoyolab.com/article/45478500' });
+  delete base.source.kind;
+  delete base.source.recordId;
+  delete base.source.fetchedAt;
+  delete base.scheduleStatus;
+  const normalized = normalizeRetainedEvent(base, '2026-07-14T00:00:00.000Z');
+  assert.equal(normalized.source.kind, 'legacy-official-snapshot');
+  assert.equal(normalized.source.recordId, '45478500');
+  assert.equal(normalized.source.fetchedAtMeaning, 'nyx-snapshot-observed-at');
+  assert.equal(normalized.scheduleStatus, 'exact');
+  assert.deepEqual(validateEvent(normalized), []);
+
+  const untraceable = normalizeRetainedEvent({ ...base, source:{ name:'Official', url:'https://official.example/no-id', priority:1 } }, '2026-07-14T00:00:00.000Z');
+  assert.ok(validateEvent(untraceable).some((error) => /missing source provenance/.test(error)));
+});
+
+test('event images are local-or-null and official CDN art is never hotlinked', () => {
+  assert.equal(normalizeEventImage('/assets/events/example.webp'), '/assets/events/example.webp');
+  for (const unsafe of ['https://sdk.hoyoverse.com/event.jpg','https://web-static.hg-cdn.com/event.png','//cdn.example/event.webp','data:image/png;base64,abc','/assets/../secret.png']) assert.equal(normalizeEventImage(unsafe), null);
+  const event = makeEvent({ game:'gi', sourceKey:'hoyo-ann', nativeId:99, title:'Event', start:'2026-07-01T00:00:00Z', end:'2026-07-02T00:00:00Z', sourceName:'Official', sourceUrl:'https://official.example', image:'https://sdk.hoyoverse.com/event.jpg' });
+  assert.equal(event.image, null);
+  assert.deepEqual(validateEvent({ ...event, image:'https://sdk.hoyoverse.com/event.jpg' }), ['bad event image (' + event.id + ')']);
+});
+
+test('WuWa history planning consumes the saved cursor while reserving a refresh slot', () => {
+  const candidates = [6,5,4,3,2,1].map((articleId) => ({ articleId }));
+  const first = planWuwaHistory(candidates, { limit:3, recentLimit:2, completedIds:['6','5'], resumeCursor:'3' });
+  assert.equal(first.cursorFound, true);
+  assert.deepEqual(first.batch.map((row) => row.articleId), [6,5,3]);
+  assert.deepEqual(first.historyPool.map((row) => row.articleId), [3,2,1]);
+  const next = planWuwaHistory(candidates, { limit:3, recentLimit:2, completedIds:['6','5','3'], resumeCursor:'2' });
+  assert.deepEqual(next.batch.map((row) => row.articleId), [6,5,2]);
+  const oneAtATime = planWuwaHistory(candidates, { limit:1, completedIds:['6','5'], resumeCursor:'4' });
+  assert.deepEqual(oneAtATime.batch.map((row) => row.articleId), [4]);
+  const resumed = planWuwaHistory(candidates, { limit:1, completedIds:['6','5','4'], resumeCursor:'3' });
+  assert.deepEqual(resumed.batch.map((row) => row.articleId), [3]);
+});
+
+test('WuWa duration parsing skips a leading standalone deadline before an ordered range', () => {
+  const event = parseWuwaArticle(
+    { articleId:2513, articleTitle:'Cubie Derby', suggestCover:null },
+    { articleContent:'<p>✦Duration✦ Warmup: Version update - 2025-06-11 11:59 (server time) Cubie Derby: 2025-05-14 08:00 - 2025-05-26 03:59 (server time) ✦Rewards✦ Astrite</p>' },
+  );
+  assert.equal(event.start, '2025-05-14T00:00:00.000Z');
+  assert.equal(event.end, '2025-05-25T19:59:00.000Z');
+  assert.deepEqual(validateEvent(event), []);
+});
 
 test('toIso applies offsets and rejects garbage', () => {
   assert.equal(toIso('2026/07/08 10:00', '+01:00'), '2026-07-08T09:00:00.000Z');
@@ -225,4 +274,22 @@ test('validateDataset accepts a well-formed envelope and rejects a broken one', 
   const good = { schemaVersion: 1, game: 'gi', events: [makeEvent({ game: 'gi', sourceKey: 'hoyo-ann', nativeId: 1, title: 'E', start: '2026-07-01T00:00:00.000Z', end: '2026-07-10T00:00:00.000Z', sourceName: 'X', sourceUrl: 'https://x' })] };
   assert.deepEqual(validateDataset(good), []);
   assert.ok(validateDataset({ schemaVersion: 2, game: 'gi', events: [] }).length > 0);
+});
+
+test('regional official rows merge without changing their stable identity', () => {
+  const common = { game:'gi', sourceKey:'hoyo-ann', nativeId:77, title:'Regional Event', end:'2026-07-10T00:00:00.000Z', sourceName:'Official', sourceUrl:'https://official.example/77' };
+  const europe = makeEvent({ ...common, start:'2026-07-01T03:00:00.000Z', server:'europe', timezone:'UTC+01:00' });
+  const asia = makeEvent({ ...common, start:'2026-06-30T20:00:00.000Z', server:'asia', timezone:'UTC+08:00' });
+  const [merged] = mergeRegionalEvents([asia, europe]);
+  assert.equal(merged.server, 'europe');
+  assert.deepEqual(Object.keys(merged.windowsByRegion).sort(), ['asia','europe']);
+  assert.deepEqual(validateEvent(merged), []);
+});
+
+test('an exact official row removes only its overlapping Expected forecast', () => {
+  const row = (id, status, start, end) => makeEvent({ game:'gi', sourceKey:status, nativeId:id, title:'Stygian Onslaught', start, end, scheduleStatus:status, sourceName:'Official', sourceUrl:'https://official.example' });
+  const oldExpected = row(1, 'expected', '2026-07-01T00:00:00Z', '2026-08-01T00:00:00Z');
+  const laterExpected = row(2, 'expected', '2026-09-01T00:00:00Z', '2026-10-01T00:00:00Z');
+  const exact = row(3, 'exact', '2026-07-02T00:00:00Z', '2026-07-31T00:00:00Z');
+  assert.deepEqual(replaceExpectedWithExact([oldExpected, laterExpected, exact]).map((event) => event.id).sort(), [laterExpected.id, exact.id].sort());
 });

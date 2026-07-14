@@ -7,16 +7,20 @@ import {
   databaseRarityLabel,
   databaseRecordClassification,
   databaseSourceIconPolicy,
+  databaseZzzDriveDiscTwoPieceStat,
 } from './lib/database-data-helpers.mjs';
+import { parseCatalogFieldLine } from '../../Scraper/prydwen/catalog-fields.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..', '..');
 const databaseOnly = process.argv.includes('--database-only');
+const charactersOnly = process.argv.includes('--characters-only');
+if (databaseOnly && charactersOnly) throw new Error('Choose only one generation scope: --database-only or --characters-only');
+const realWriteFileSync = fs.writeFileSync.bind(fs);
 if (databaseOnly) {
-  const writeFileSync = fs.writeFileSync.bind(fs);
   const databaseOutputs = /^(?:database-missing-art\.json|db-data-(?:gi|hsr|zzz|wuwa)\.js)$/;
   fs.writeFileSync = (target, ...args) => databaseOutputs.test(path.basename(String(target)))
-    ? writeFileSync(target, ...args)
+    ? realWriteFileSync(target, ...args)
     : undefined;
 }
 
@@ -52,6 +56,19 @@ function dbAsset(p) {
   const found = candidates.find((rel) => fs.existsSync(path.resolve(dbDir, rel)));
   return found ? '../../Database/' + found : null;
 }
+
+const ZZZ_OFFICIAL_CHARACTER_PORTRAITS = new Map([
+  ['pyrois', {
+    status:'released',
+    icon:dbAsset('GameData/zzz/assets/agents/icons/IconRole63.webp'),
+    sourceUrl:'https://www.hoyolab.com/article/45488578',
+  }],
+  ['sigrid', {
+    status:'announced',
+    icon:dbAsset('Prydwen/zzz/assets/characters/sigrid-30ecebbe136b.webp'),
+    sourceUrl:'https://www.hoyolab.com/article_pre/18014398241023132',
+  }],
+]);
 
 const preferred = {
   giElements: ['Pyro', 'Hydro', 'Electro', 'Cryo', 'Anemo', 'Geo', 'Dendro'],
@@ -1877,7 +1894,13 @@ function sumMaterials(rows, lookup = null, game = 'gi') {
         name,
         qty: 0,
         rar: rarity,
-        kind: inferMatKind(name, mat.rank, item),
+        // GI weekly-drop identity is the exact sourced ID set. Name matching
+        // would incorrectly classify Dragon Lord's Crown as Crown of Insight.
+        kind: game === 'gi' && GI_WEEKLY_DROP_IDS.has(String(id))
+          ? 'weekly'
+          : (game === 'gi' && GI_NON_WEEKLY_113_IDS.has(String(id))
+            ? 'specialty'
+            : inferMatKind(name, mat.rank, item)),
         icon,
         ...materialSourceFields(game, item, id),
       };
@@ -2033,21 +2056,39 @@ GI_WEAPON_DOMAIN_SPECS.forEach((domain, di) => {
 });
 
 const GI_WEEKLY_BOSS_SPECS = [
-  { bossName: 'Stormterror Dvalin', matIds: ['113003', '113004', '113005'] },
-  { bossName: 'Andrius', matIds: ['113006', '113007', '113008'] },
-  { bossName: 'Childe', matIds: ['113013', '113014', '113015'] },
-  { bossName: 'Azhdaha', matIds: ['113017', '113018', '113019'] },
-  { bossName: 'La Signora', matIds: ['113025', '113026', '113027'] },
-  { bossName: 'Magatsu Mitake Narukami no Mikoto', matIds: ['113032', '113033', '113034'] },
-  { bossName: 'Everlasting Lord of Arcane Wisdom', matIds: ['113041', '113042', '113043'] },
-  { bossName: "Guardian of Apep's Oasis", matIds: ['113046', '113047', '113048'] },
-  { bossName: 'All-Devouring Narwhal', matIds: ['113054', '113055', '113056'] },
-  { bossName: 'The Knave', matIds: ['113060', '113061', '113062'] },
-  { bossName: 'Lord of Eroded Primal Fire', matIds: ['113068', '113069', '113070'] },
-  { bossName: 'The Game Before the Gate', matIds: ['113073', '113074', '113075'] },
-  { bossName: 'The Doctor', matIds: ['113081', '113082', '113083'] },
-  { bossName: 'Exalted Master of the Heretical Path', matIds: ['113087', '113088', '113089'] },
+  { bossName: 'Stormterror Dvalin', releaseOrder:1, artAliases:['Stormterror'], matIds: ['113003', '113004', '113005'] },
+  { bossName: 'Andrius', releaseOrder:2, artAliases:['Lupus Boreas, Dominator of Wolves'], matIds: ['113006', '113007', '113008'] },
+  { bossName: 'Childe', releaseOrder:3, artAliases:['Tartaglia'], matIds: ['113013', '113014', '113015'] },
+  { bossName: 'Azhdaha', releaseOrder:4, matIds: ['113017', '113018', '113019'] },
+  { bossName: 'La Signora', releaseOrder:5, matIds: ['113025', '113026', '113027'] },
+  { bossName: 'Magatsu Mitake Narukami no Mikoto', releaseOrder:6, matIds: ['113032', '113033', '113034'] },
+  { bossName: 'Everlasting Lord of Arcane Wisdom', releaseOrder:7, artAliases:['Shouki no Kami, the Prodigal'], matIds: ['113041', '113042', '113043'] },
+  { bossName: "Guardian of Apep's Oasis", releaseOrder:8, matIds: ['113046', '113047', '113048'] },
+  { bossName: 'All-Devouring Narwhal', releaseOrder:9, matIds: ['113054', '113055', '113056'] },
+  { bossName: 'The Knave', releaseOrder:10, matIds: ['113060', '113061', '113062'] },
+  { bossName: 'Lord of Eroded Primal Fire', releaseOrder:11, matIds: ['113068', '113069', '113070'] },
+  { bossName: 'The Game Before the Gate', releaseOrder:12, matIds: ['113073', '113074', '113075'] },
+  { bossName: 'The Doctor', releaseOrder:13, matIds: ['113081', '113082', '113083'] },
+  { bossName: 'Exalted Master of the Heretical Path', releaseOrder:14, artAliases:['Il Dottore'], matIds: ['113087', '113088', '113089'] },
 ];
+
+const GI_WEEKLY_DROP_IDS = new Set(GI_WEEKLY_BOSS_SPECS.flatMap((boss) => boss.matIds));
+// The Pyro Traveler's Cornerstone is a story reward, not a Trounce Domain drop.
+const GI_NON_WEEKLY_113_IDS = new Set(['113063']);
+
+function giWeeklyBossArt(spec) {
+  const wanted = new Set([spec.bossName, ...(spec.artAliases || [])].map(normKey));
+  const monsters = readJson('GameData/gi/live/monsters.json');
+  const monster = monsters.find((row) => wanted.has(normKey(row?.name)) || wanted.has(normKey(row?.title)));
+  const rel = monster?.assets?.icon;
+  if (!rel || !exists(rel)) {
+    throw new Error(`Missing local weekly boss art: ${spec.bossName} (aliases: ${(spec.artAliases || []).join(', ') || 'none'})`);
+  }
+  if (!/GameData\/gi\/assets\/monsters\//.test(rel)) {
+    throw new Error(`Weekly boss art must be a local monster asset: ${spec.bossName} -> ${rel}`);
+  }
+  return dbAsset(rel);
+}
 
 const GI_BOSS_MAT_NAME_FALLBACKS = {
   113081: 'Mask of the Virtuous Doctor',
@@ -2222,7 +2263,10 @@ function buildGiRoster() {
   const signatures = loadGiSignatureMap();
   const fandom = fandomCharacterMetadata('gi');
   const chars = readJson(`GameData/gi/${nch()}/characters.json`)
-    .filter((ch) => ch.name && (ch.rarity === 4 || ch.rarity === 5))
+    // Beta exports currently contain two internal tower-test avatars named
+    // "TPS Traveler". They are not playable roster entries and have no real
+    // weekly material, so keep them out of both the beta UI and its audits.
+    .filter((ch) => ch.name && !/^TPS Traveler$/i.test(ch.name) && (ch.rarity === 4 || ch.rarity === 5))
     .map((ch) => {
       const rawRel = `GameData/gi/${nch()}/raw/characters/${ch.id}.json`;
       const raw = exists(rawRel) ? readJson(rawRel) : null;
@@ -3005,6 +3049,8 @@ function wuwaRequirements(raw) {
 
   const asc = sumGameDataMaterialPairs('ww', ascPairs, wuwaMaterialKind, '2');
   const talents = sumGameDataMaterialPairs('ww', skillPairs, wuwaMaterialKind, '2');
+  const chosenWeekly = weekly && talents.items.find((item) => String(item.id) === String(weekly));
+  if (chosenWeekly) chosenWeekly.kind = 'weekly';
   return {
     ascension: asc.items,
     talents: talents.items,
@@ -3142,7 +3188,10 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
   const hsrLightConeReqMap = game === 'hsr' ? buildHsrLightConeReqMap() : null;
   // ZZZ: only surface agents GameData actually has — drop Prydwen-only placeholders
   // (which arrive without icons/data). Other games keep the full Prydwen roster.
-  const chars = (game === 'zzz' ? rawChars.filter((ch) => overlay.has(normKey(ch.name))) : rawChars).map((ch) => {
+  const chars = (game === 'zzz' ? rawChars.filter((ch) => {
+    const official = ZZZ_OFFICIAL_CHARACTER_PORTRAITS.get(normKey(ch.name));
+    return overlay.has(normKey(ch.name)) || official?.status === 'released' || (GAMEDATA_CHANNEL === 'beta' && official?.status === 'announced');
+  }) : rawChars).map((ch) => {
     const mapped = mapFacts(ch.facts || {});
     const primaryLocal = overlay.get(normKey(ch.name));
     const betaLocal = ch.contentStatus && ch.contentStatus !== 'live'
@@ -3159,7 +3208,8 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
       if (local.rarity && (!mapped.r || mapped.r === 'Unknown')) mapped.r = Number(local.rarity) >= 5 ? 'S' : 'A';
     }
     const meta = fandom.get(normKey(ch.name));
-    const isBetaChar = Boolean(ch.contentStatus && ch.contentStatus !== 'live');
+    const officialPortrait = game === 'zzz' ? ZZZ_OFFICIAL_CHARACTER_PORTRAITS.get(normKey(ch.name)) : null;
+    const isBetaChar = Boolean(ch.contentStatus && ch.contentStatus !== 'live' && officialPortrait?.status !== 'released');
     const lookupByName = (map) => map?.get(String(ch.name || '').toLowerCase()) || map?.get(normKey(ch.name)) || null;
     const req = (isBetaChar && lookupByName(betaReqByName)) || lookupByName(reqByName);
     const skillIcons = lookupByName(skillIconsByName) || (game === 'zzz' ? ZZZ_SKILL_ICONS : null);
@@ -3170,7 +3220,7 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
     const signatureDisplay = signatureLightCone || signatureEquipment;
     const signatureReq = signatureLightCone ? (signatureLightCone.items ? signatureLightCone : hsrLightConeReqMap?.get(normKey(signatureLightCone.name))) : signatureEquipment;
     const holidayArtPool = game === 'hsr' ? (HSR_HOLIDAY_ART.get(normKey(ch.name)) || []) : [];
-    const icon = local?.icon || trustedPrydwenIcon(game, ch);
+    const icon = officialPortrait?.icon || local?.icon || trustedPrydwenIcon(game, ch);
     const iconZoom = MANUAL_ICON_ZOOM[overlayGame]?.[normKey(ch.name)] || (!local?.icon && icon ? 1.18 : undefined);
     // D1: the game's own splash art wins; scraped overlay art is the fallback
     const art = local?.splash || dbAsset(ch.art?.full || ch.art?.card || (!local?.fallbackArt ? ch.art?.icon : null)) || local?.fallbackArt;
@@ -3204,6 +3254,7 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
       sourceOrder: local?.releaseOrder || 0,
       voiceActors: mergeVoiceActors(local?.voiceActors || prydwenVoiceActors(game, ch.slug), meta?.voiceActors),
       icon,
+      portraitProvenance: officialPortrait ? { status:officialPortrait.status, sourceUrl:officialPortrait.sourceUrl } : undefined,
       iconZoom,
       art,
       card,
@@ -3497,40 +3548,126 @@ function buildEndfieldKit(ch) {
   } : null;
 }
 
-function endfieldMaterialGroupLabel(mat, fallbackTitle) {
-  if (mat?.kind === 'currency') return 'Currency';
-  if (mat?.kind === 'gem') return 'Promotion Materials';
-  if (mat?.kind === 'specialty') return 'Field Materials';
-  if (mat?.kind === 'book') return 'Skill Materials';
-  if (mat?.kind === 'weapon') return 'Weapon Tuning';
-  return fallbackTitle;
-}
+const ENDFIELD_MATERIAL_CLASSIFICATION = Object.freeze({
+  sourceCheckedAt:'2026-07-14',
+  sources:{
+    growth:{
+      url:'https://endfield.wiki.gg/wiki/Item/Rare_Materials',
+      revisionId:50579,
+      lastEditedAt:'2026-05-31T06:44:00Z',
+    },
+    progression:{
+      url:'https://endfield.wiki.gg/wiki/Item/Progression_Materials',
+      revisionId:38938,
+      lastEditedAt:'2026-03-05T17:09:57Z',
+    },
+  },
+  growthNames:['Kalkodendra', 'Chrysodendra', 'Vitrodendra', 'Blighted Jadeleaf', 'False Aggela'],
+  progressionNames:['D96 Steel Sample 4', 'Metadiastima Photoemission Tube', 'Quadrant Fitting Fluid', 'Tachyon Screening Lattice', 'Triphasic Nanoflake'],
+});
 
-function buildEndfieldRequirementGroups(roster, reqField, fallbackTitle) {
-  const source = cmRosterSource(roster);
-  const groups = new Map();
-  for (const ch of source) {
-    for (const mat of ch.req?.[reqField] || []) {
-      if (!mat?.icon || mat.kind === 'currency') continue;
-      const key = mat.id || mat.name || mat.n;
-      if (!key) continue;
-      if (!groups.has(key)) {
-        groups.set(key, {
-          region: endfieldMaterialGroupLabel(mat, fallbackTitle),
-          title: mat.name || mat.n,
-          mats: [{ ...mat }],
-          chars: [],
-        });
+function endfieldExplicitMaterialView(roster, { label, names, reqFields, source }) {
+  const wanted = new Map(names.map((name, index) => [normKey(name), { name, index }]));
+  const groups = names.map((name) => {
+    const item = lookupEndfieldItem(name);
+    const local = String(item?.icon || '');
+    const rel = local.startsWith('../../Database/') ? local.slice('../../Database/'.length) : '';
+    if (!item || !rel || !exists(rel)) throw new Error(`${label} source item is missing its local icon: ${name}`);
+    if (![4, 5].includes(Number(item.rar))) throw new Error(`${label} source item has unsupported rarity: ${name} -> ${item.rar}`);
+    return {
+      region:label,
+      title:name,
+      mats:[{ ...item, n:item.name }],
+      chars:[],
+      classificationSource:{ ...source },
+    };
+  });
+  const sourceCharacters = new Set();
+  for (const ch of cmRosterSource(roster)) {
+    for (const reqField of reqFields) {
+      for (const mat of ch.req?.[reqField] || []) {
+        const spec = wanted.get(normKey(mat?.name || mat?.n));
+        if (!spec) continue;
+        pushUnique(groups[spec.index].chars, ch.n);
+        sourceCharacters.add(ch.n);
       }
-      pushUnique(groups.get(key).chars, ch.n);
     }
   }
-  return [...groups.values()]
-    .map((group) => ({
-      ...group,
-      chars: group.chars.sort((a, b) => a.localeCompare(b)),
-    }))
-    .sort((a, b) => String(a.region || '').localeCompare(String(b.region || '')) || String(a.title || '').localeCompare(String(b.title || '')));
+  groups.forEach((group) => group.chars.sort((a, b) => a.localeCompare(b)));
+
+  const generatedCharacters = new Set(groups.flatMap((group) => group.chars));
+  const rosterCharacters = new Set((roster || []).map((ch) => ch.n));
+  const missing = [...sourceCharacters].filter((name) => !generatedCharacters.has(name)).sort();
+  const extra = [...generatedCharacters].filter((name) => !sourceCharacters.has(name)).sort();
+  const withoutSourceRequirement = [...rosterCharacters].filter((name) => !sourceCharacters.has(name)).sort();
+  if (missing.length || extra.length || withoutSourceRequirement.length) {
+    throw new Error(
+      `${label} character-set mismatch: missing=[${missing.join(', ')}]; extra=[${extra.join(', ')}]; `
+      + `no sourced requirement=[${withoutSourceRequirement.join(', ')}]`,
+    );
+  }
+  return {
+    groups,
+    audit:{
+      label,
+      materialNames:names.slice(),
+      requirementFields:reqFields.slice(),
+      sourceCharacters:[...sourceCharacters].sort(),
+      generatedCharacters:[...generatedCharacters].sort(),
+      missing,
+      extra,
+      source:{ ...source },
+    },
+  };
+}
+
+function buildEndfieldMaterialViews(roster) {
+  const growth = endfieldExplicitMaterialView(roster, {
+    label:'Growth Materials',
+    names:ENDFIELD_MATERIAL_CLASSIFICATION.growthNames,
+    reqFields:['talents'],
+    source:ENDFIELD_MATERIAL_CLASSIFICATION.sources.growth,
+  });
+  const progression = endfieldExplicitMaterialView(roster, {
+    label:'Progression Materials',
+    names:ENDFIELD_MATERIAL_CLASSIFICATION.progressionNames,
+    reqFields:['ascension', 'talents'],
+    source:ENDFIELD_MATERIAL_CLASSIFICATION.sources.progression,
+  });
+  const classified = new Set([
+    ...ENDFIELD_MATERIAL_CLASSIFICATION.growthNames,
+    ...ENDFIELD_MATERIAL_CLASSIFICATION.progressionNames,
+  ].map(normKey));
+  const unclassified = new Map();
+  for (const ch of cmRosterSource(roster)) {
+    for (const reqField of ['ascension', 'talents']) {
+      for (const mat of ch.req?.[reqField] || []) {
+        const name = cleanText(mat?.name || mat?.n, 90);
+        if (!name || mat?.kind === 'currency' || classified.has(normKey(name))) continue;
+        if (!unclassified.has(name)) unclassified.set(name, { name, requirementFields:new Set(), characters:new Set() });
+        unclassified.get(name).requirementFields.add(reqField);
+        unclassified.get(name).characters.add(ch.n);
+      }
+    }
+  }
+  return {
+    growthGroups:growth.groups,
+    progressionGroups:progression.groups,
+    audit:{
+      classification:'explicit-source-name-lists',
+      sourceCheckedAt:ENDFIELD_MATERIAL_CLASSIFICATION.sourceCheckedAt,
+      rosterCount:(roster || []).length,
+      growth:growth.audit,
+      progression:progression.audit,
+      unclassifiedRequirements:[...unclassified.values()]
+        .map((row) => ({
+          name:row.name,
+          requirementFields:[...row.requirementFields].sort(),
+          characters:[...row.characters].sort(),
+        }))
+        .sort((a, b) => a.name.localeCompare(b.name)),
+    },
+  };
 }
 
 function buildEndfieldWeaponRoster() {
@@ -3837,6 +3974,8 @@ function buildGiWeeklyBosses(roster) {
   const lookup = giItemLookup();
   const bosses = GI_WEEKLY_BOSS_SPECS.map((spec) => ({
     bossName: spec.bossName,
+    releaseOrder: spec.releaseOrder,
+    art: giWeeklyBossArt(spec),
     drops: spec.matIds.map((id) => ({
       ...materialPayloadById(id, lookup, GI_BOSS_MAT_NAME_FALLBACKS[id], 'weekly'),
       chars: [],
@@ -3844,25 +3983,35 @@ function buildGiWeeklyBosses(roster) {
   }));
   const byId = new Map();
   bosses.forEach((boss) => boss.drops.forEach((drop) => byId.set(String(drop.id), drop)));
-  const extras = new Map();
+  const sourcedCharacters = new Set();
+  const unknownWeeklyIds = new Map();
 
   for (const ch of cmRosterSource(roster)) {
-    for (const mat of ch.req?.talents || []) {
+    const requirements = [
+      ...(ch.req?.talents || []),
+      ...(ch.req?.talentStages || []).flatMap((group) => (group || []).flatMap((stage) => stage?.items || [])),
+    ];
+    const seenIds = new Set();
+    for (const mat of requirements) {
       const id = String(mat.id || '');
-      if (!/^113\d{3}$/.test(id) || /crown/i.test(mat.name || '')) continue;
+      if (!/^113\d{3}$/.test(id) || seenIds.has(id)) continue;
+      seenIds.add(id);
       const row = byId.get(id);
-      if (row) pushUnique(row.chars, ch.n);
-      else {
-        if (!extras.has(id)) {
-          extras.set(id, {
-            ...materialPayloadById(id, lookup, mat.name || id, 'weekly'),
-            chars: [],
-          });
-        }
-        pushUnique(extras.get(id).chars, ch.n);
+      if (row) {
+        pushUnique(row.chars, ch.n);
+        sourcedCharacters.add(ch.n);
+      } else if (!GI_NON_WEEKLY_113_IDS.has(id)) {
+        if (!unknownWeeklyIds.has(id)) unknownWeeklyIds.set(id, new Set());
+        unknownWeeklyIds.get(id).add(ch.n);
       }
-      break;
     }
+  }
+
+  if (unknownWeeklyIds.size) {
+    const named = [...unknownWeeklyIds.entries()]
+      .map(([id, names]) => `${id} (${[...names].sort().join(', ')})`)
+      .join('; ');
+    throw new Error(`GI weekly requirements are missing from GI_WEEKLY_BOSS_SPECS: ${named}`);
   }
 
   const known = bosses
@@ -3873,14 +4022,18 @@ function buildGiWeeklyBosses(roster) {
         chars: drop.chars.sort((a, b) => a.localeCompare(b)),
       })),
     }))
-    .filter((boss) => boss.drops.some((drop) => drop.chars.length > 0))
-    .reverse();
+    .sort((a, b) => b.releaseOrder - a.releaseOrder);
 
-  if (extras.size) {
-    known.unshift({
-      bossName: 'Unmapped Weekly Materials',
-      drops: [...extras.values()].sort((a, b) => Number(b.id) - Number(a.id)),
-    });
+  const rosterNames = new Set((roster || []).map((ch) => ch.n));
+  const generatedCharacters = new Set(known.flatMap((boss) => boss.drops.flatMap((drop) => drop.chars)));
+  const missingSource = [...rosterNames].filter((name) => !sourcedCharacters.has(name)).sort();
+  const missingGenerated = [...sourcedCharacters].filter((name) => !generatedCharacters.has(name)).sort();
+  const extraGenerated = [...generatedCharacters].filter((name) => !sourcedCharacters.has(name)).sort();
+  if (missingSource.length || missingGenerated.length || extraGenerated.length) {
+    throw new Error(
+      `GI weekly character-set mismatch: no sourced boss requirement=[${missingSource.join(', ')}]; `
+      + `missing generated=[${missingGenerated.join(', ')}]; extra generated=[${extraGenerated.join(', ')}]`,
+    );
   }
 
   return known;
@@ -3945,6 +4098,13 @@ function zzzChipFamilyName(name) {
     .trim();
 }
 
+function highestGradeMaterial(mats, game) {
+  return [...(mats || [])].sort((a, b) => (
+    materialDisplayRarity(game, b?.rar, 0) - materialDisplayRarity(game, a?.rar, 0)
+    || materialIdSort(b, a)
+  ))[0] || null;
+}
+
 function buildZzzSkillGroups(roster) {
   const groups = new Map();
   for (const ch of cmRosterSource(roster)) {
@@ -3962,7 +4122,7 @@ function buildZzzSkillGroups(roster) {
   return [...groups.values()]
     .map((row) => ({
       ...row,
-      mats: row.mats.sort(materialIdSort),
+      mats: [highestGradeMaterial(row.mats, 'zzz')].filter(Boolean),
       chars: row.chars.sort((a, b) => a.localeCompare(b)),
     }))
     .sort((a, b) => a.region.localeCompare(b.region));
@@ -4032,7 +4192,7 @@ function buildWuwaSkillGroups(roster) {
   return [...groups.values()]
     .map((row) => ({
       ...row,
-      mats: row.mats.sort(materialIdSort),
+      mats: [highestGradeMaterial(row.mats, 'wuwa')].filter(Boolean),
       chars: row.chars.sort((a, b) => a.localeCompare(b)),
     }))
     .sort((a, b) => a.region.localeCompare(b.region));
@@ -4061,6 +4221,7 @@ function buildWuwaWeeklyBosses(roster) {
 }
 
 function buildCmCfg(rosters) {
+  const endfieldViews = buildEndfieldMaterialViews(rosters.ae);
   return {
     gi: {
       name: 'Genshin Impact',
@@ -4160,7 +4321,7 @@ function buildCmCfg(rosters) {
       name: 'Arknights: Endfield',
       icon: '../assets/icon/aeicon.png',
       cur: 'Currency',
-      tabs: { mid: 'Skills', boss: 'Field Operations' },
+      tabs: { mid: 'Growth Materials', boss: 'Progression Materials' },
       rarities: [6, 5, 4],
       rarityLabel: { 6: '6\u2605', 5: '5\u2605', 4: '4\u2605' },
       midMode: 'group',
@@ -4172,9 +4333,10 @@ function buildCmCfg(rosters) {
       ],
       weapons: buildEndfieldWeaponRoster(),
       roster: rosters.ae,
-      midGroups: buildEndfieldRequirementGroups(rosters.ae, 'talents', 'Skill Materials'),
-      boss: { title: 'Field Operations', count: rosters.ae.length },
-      bossGroups: buildEndfieldRequirementGroups(rosters.ae, 'ascension', 'Promotion Materials'),
+      midGroups: endfieldViews.growthGroups,
+      boss: { title: 'Progression Materials', count: rosters.ae.length },
+      bossGroups: endfieldViews.progressionGroups,
+      materialClassificationAudit:endfieldViews.audit,
     },
   };
 }
@@ -4194,7 +4356,24 @@ function giWeeklyGroups(roster) {
   }));
 }
 
-function normalizePrydwenCollection(rel, title, limit = Infinity, mapEntry = (entry) => entry) {
+function normalizePrydwenFields(rawFields, rarityContext) {
+  const fields = {};
+  for (const [sourceKey, sourceValue] of Object.entries(rawFields || {})) {
+    if (/^\d+(?:when|if|after|while)/i.test(sourceKey)) continue;
+    const parsed = typeof sourceValue === 'string'
+      ? parseCatalogFieldLine(`${sourceKey}: ${sourceValue}`)
+      : [];
+    if (parsed.length > 1) {
+      parsed.forEach((field) => { fields[field.key] = field.value; });
+    } else {
+      fields[sourceKey] = sourceValue;
+    }
+  }
+  if (fields.rarity !== undefined) fields.rarity = databaseRarityLabel(fields.rarity, rarityContext);
+  return fields;
+}
+
+function normalizePrydwenCollection(rel, title, limit = Infinity, mapEntry = (entry) => entry, rarityContext = {}) {
   const page = readJson(rel);
   const entries = (page.entries || [])
     .slice(0, limit)
@@ -4205,8 +4384,8 @@ function normalizePrydwenCollection(rel, title, limit = Infinity, mapEntry = (en
       name: entry.name,
       kind: entry.kind,
       art: dbAsset(entry.art),
-      fields: entry.fields || {},
-      text: cleanText(entry.text, 260),
+      fields:normalizePrydwenFields(entry.fields, rarityContext),
+      text: cleanDatabaseText(entry.text),
       status: entry.contentStatus,
       labels: entry.statusLabels || [],
     }));
@@ -4275,16 +4454,18 @@ function buildCollections() {
         name: it.name,
         kind: 'artifact',
         art: dbAsset(it.assets?.icon),
-        fields: { rarity: Array.isArray(it.rarity) ? it.rarity.join('-') + ' \u2605' : it.rarity, type: it.type },
-        text: cleanText((it.setEffects || []).map((e) => `(${e.pieces}) ${e.description}`).join(' '), 260),
+        // An artifact-set card represents every piece in the set. Use the
+        // highest tier the set can actually drop at as its single card rarity.
+        fields: { rarity: databaseRarityLabel(Array.isArray(it.rarity) && it.rarity.length ? Math.max(...it.rarity) : it.rarity), type: it.type },
+        text: cleanDatabaseText((it.setEffects || []).map((e) => `(${e.pieces}) ${e.description}`).join('\n\n')),
       })),
       normalizeGameDataItems('GameData/gi/live/weapons.json', 'Weapons', 'GameData', (it) => ({
         id: 'gi-wpn-' + it.id,
         name: it.name,
         kind: 'weapon',
         art: dbAsset(it.assets?.icon || it.assets?.gacha),
-        fields: { rarity: it.rarity ? `${it.rarity} \u2605` : undefined, type: weaponMap[it.type] || it.type, atk: it.attack },
-        text: cleanText(it.description, 260),
+        fields: { rarity: databaseRarityLabel(it.rarity), type: weaponMap[it.type] || it.type, atk: it.attack },
+        text: cleanDatabaseText(it.description),
       })),
     ],
     hsr: [
@@ -4293,14 +4474,20 @@ function buildCollections() {
     ],
     zzz: [
       normalizePrydwenCollection('Prydwen/zzz/collections/w-engines.json', 'W-Engines'),
-      normalizePrydwenCollection('Prydwen/zzz/collections/disk-drives.json', 'Drive Discs'),
+      normalizePrydwenCollection('Prydwen/zzz/collections/disk-drives.json', 'Drive Discs', Infinity, (entry) => ({
+        ...entry,
+        fields: {
+          ...entry.fields,
+          twoPieceStat: databaseZzzDriveDiscTwoPieceStat(entry.fields),
+        },
+      })),
       normalizeGameDataItems('GameData/zzz/live/bangboos.json', 'Bangboo', 'GameData', (it) => ({
         id: 'zzz-bb-' + it.id,
         name: it.name,
         kind: 'bangboo',
         art: dbAsset(it.assets?.icon),
-        fields: { rarity: it.rarity, codeName: it.codeName },
-        text: cleanText(it.description || Object.values(it.skills || {}).map((skill) => Object.values(skill?.level || {})[0]?.desc).filter(Boolean).join(' '), 260),
+        fields: { rarity: databaseRarityLabel(it.rarity), codeName: it.codeName },
+        text: cleanDatabaseText(it.description || Object.values(it.skills || {}).map((skill) => Object.values(skill?.level || {})[0]?.desc).filter(Boolean).join('\n\n')),
         skills: normalizeBangbooSkills(it.skills),
       })),
     ],
@@ -4311,13 +4498,13 @@ function buildCollections() {
         name: it.name,
         kind: 'echo',
         art: dbAsset(it.assets?.icon),
-        fields: { rarity: Array.isArray(it.rarity) ? it.rarity.join('-') : it.rarity, type: it.type, cost: it.intensity },
-        text: cleanText(it.skill?.description || it.monsterInfo || it.description, 260),
+        fields: { rarity: databaseRarityLabel(Array.isArray(it.rarity) && it.rarity.length === 1 ? it.rarity[0] : it.rarity), type: it.type, cost: it.intensity },
+        text: cleanDatabaseText(it.skill?.description || it.monsterInfo || it.description),
       })),
     ],
     ae: [
-      normalizePrydwenCollection('Prydwen/endfield/collections/weapons.json', 'Weapons'),
-      normalizePrydwenCollection('Prydwen/endfield/collections/gear.json', 'Gear'),
+      normalizePrydwenCollection('Prydwen/endfield/collections/weapons.json', 'Weapons', Infinity, (entry) => entry, { game:'ae' }),
+      normalizePrydwenCollection('Prydwen/endfield/collections/gear.json', 'Gear', Infinity, (entry) => entry, { game:'ae' }),
     ],
   };
 }
@@ -4502,10 +4689,14 @@ function auditAssetProvenance(game, collection, iconField, normalizedDestination
   };
 }
 
-function buildDatabaseArtAudit(lazyCollections) {
+function buildDatabaseArtAudit(lazyCollections, inlineCollections, specials) {
   const summaries = [];
   const records = [];
   const quarantinedRecords = [];
+  const previousAudit = (() => {
+    try { return readJson('Audits/database-missing-art.json'); }
+    catch { return null; }
+  })();
 
   for (const [siteGame, config] of Object.entries(DATABASE_AUDIT_CONFIG)) {
     const generatedByCollection = new Map((lazyCollections[siteGame] || []).map((collection) => [collection.key, collection]));
@@ -4542,12 +4733,14 @@ function buildDatabaseArtAudit(lazyCollections) {
             collection,
             recordId: String(row.id),
             name: row.name,
-            releaseStatus: 'internal/test',
+            releaseStatus: classification,
             sourceIconField: iconField,
             sourceUrl: null,
             localDestination: null,
             result: 'quarantined',
-            reason: 'The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance.',
+            reason: classification === 'no-localized-display-name'
+              ? 'The source row has no usable localized display name. It is quarantined without guessing or substituting a name.'
+              : 'The record name or source icon is explicitly marked test/internal and is excluded from generated released data and approved asset provenance.',
           });
           return;
         }
@@ -4612,6 +4805,55 @@ function buildDatabaseArtAudit(lazyCollections) {
     }
   }
 
+  const auditGeneratedCollection = (scope, game, collection, rows) => {
+    const list = Array.isArray(rows) ? rows : [];
+    let localArtCount = 0;
+    list.forEach((row, index) => {
+      if (row?.art) {
+        if (/^https?:\/\//i.test(row.art)) throw new Error(`Remote Database art is forbidden: ${row.art}`);
+        localArtCount += 1;
+        return;
+      }
+      records.push({
+        scope,
+        game,
+        collection,
+        recordId:String(row?.id ?? `${collection}-${index + 1}`),
+        name:String(row?.name || 'Unnamed released record'),
+        releaseStatus:row?.status || 'live',
+        sourceIconField:null,
+        sourceUrl:null,
+        localDestination:null,
+        result:'no-local-art-reference',
+        reason:'The released generated record has no usable local art reference and no approved source URL or filename was available; the record remains visible with a neutral fallback.',
+      });
+    });
+    summaries.push({
+      scope,
+      game,
+      collection,
+      sourceCount:list.length,
+      normalizedCount:list.length,
+      quarantinedCount:0,
+      approvedSourceCount:list.length,
+      generatedCount:list.length,
+      localArtCount,
+      missingArtCount:list.length - localArtCount,
+    });
+  };
+
+  for (const [game, gameCollections] of Object.entries(inlineCollections || {})) {
+    for (const collection of gameCollections || []) {
+      auditGeneratedCollection('inline', game, collection.key, collection.items);
+    }
+  }
+  auditGeneratedCollection('special', 'gi', 'tcg-character-cards', specials?.tcg?.characterCards);
+  auditGeneratedCollection('special', 'gi', 'tcg-action-cards', specials?.tcg?.otherCards);
+  auditGeneratedCollection('special', 'gi', 'furniture', specials?.furniture?.items);
+  auditGeneratedCollection('special', 'gi', 'wonderland-costumes', specials?.wonderland?.costumes);
+  auditGeneratedCollection('special', 'gi', 'wonderland-suits', specials?.wonderland?.suits);
+  auditGeneratedCollection('special', 'gi', 'wonderland-items', specials?.wonderland?.items);
+
   records.sort((a, b) => a.game.localeCompare(b.game)
     || a.collection.localeCompare(b.collection)
     || a.recordId.localeCompare(b.recordId, undefined, { numeric: true }));
@@ -4620,7 +4862,21 @@ function buildDatabaseArtAudit(lazyCollections) {
     || a.recordId.localeCompare(b.recordId, undefined, { numeric: true }));
   return {
     generatedAt: new Date().toISOString(),
-    policy: 'Released/live records only. Exact source icon fields only; no guessed filenames, beta data, hotlinks, raw dumps, or asset packs.',
+    policy: 'Every generated Database row is counted. Released rows remain visible when art or description is missing; only rows with no usable localized display name or proven internal/test provenance are quarantined.',
+    coverage: {
+      before: {
+        scopes:previousAudit?.coverage?.after?.scopes || ['lazy'],
+        summaryCount:Number(previousAudit?.summary?.length) || 0,
+        missingArtCount:Number(previousAudit?.missingArtCount) || 0,
+        quarantinedCount:Number(previousAudit?.quarantinedCount) || 0,
+      },
+      after: {
+        scopes:['inline', 'lazy', 'special'],
+        summaryCount:summaries.length,
+        missingArtCount:records.length,
+        quarantinedCount:quarantinedRecords.length,
+      },
+    },
     summary: summaries,
     missingArtCount: records.length,
     records,
@@ -4854,6 +5110,24 @@ function collectEndfieldIconGaps(roster) {
   };
 }
 
+function auditCharacterPortraitAssets(cmCfg, betaDeltas) {
+  const rows = [];
+  const inspect = (game, channel, character) => {
+    for (const field of ['icon', 'circle', 'card', 'art']) {
+      const value = character?.[field];
+      if (!value) continue;
+      if (/^https?:\/\//i.test(value)) throw new Error(`Remote character portrait is not allowed: ${game}/${channel}/${character.n}/${field}`);
+      if (!String(value).startsWith('../../Database/')) continue;
+      const rel = String(value).slice('../../Database/'.length);
+      if (!exists(rel)) throw new Error(`Missing character portrait: ${game}/${channel}/${character.n}/${field} -> ${rel}`);
+      rows.push(`${game}/${channel}/${character.n}/${field}`);
+    }
+  };
+  for (const [game, cfg] of Object.entries(cmCfg || {})) for (const character of cmRosterSource(cfg.roster || [])) inspect(game, 'live', character);
+  for (const [game, pack] of Object.entries(betaDeltas || {})) for (const character of pack.roster || []) inspect(game, 'beta', character);
+  return rows.length;
+}
+
 // Build the full roster set for a given GameData channel ('live' or 'beta'). The req-map
 // builders and GameData item/avatar/light-cone reads honour GAMEDATA_CHANNEL, so flipping
 // it here yields the channel-specific character materials and weapon options.
@@ -4881,30 +5155,51 @@ const rosters = buildRostersForChannel('live');
 const genshinTcgOverviewArt = applyGenshinTcgOverviewArt(rosters.gi);
 
 const reportsDir = path.resolve(dbDir, 'reports');
-fs.mkdirSync(reportsDir, { recursive: true });
-
-const missingCharacterTitles = {
-  generatedAt: new Date().toISOString(),
-  note: 'Genshin titles come from GameData profile.title with wiki cache fallback. HSR subtitles use wiki How to Obtain with light-cone fallback, ZZZ subtitles use wiki Namecard names, and Wuthering Waves subtitles use wiki title. Endfield displays class. Missing entries need wiki data, class data, or a manual override.',
-  missing: Object.fromEntries(Object.entries(rosters).map(([key, roster]) => [
-    key,
-    [...new Set(roster.filter((ch) => !ch.title).map((ch) => ch.n))]
-      .sort((a, b) => a.localeCompare(b)),
-  ])),
-};
-missingCharacterTitles.counts = Object.fromEntries(Object.entries(missingCharacterTitles.missing).map(([key, list]) => [key, list.length]));
-fs.writeFileSync(
-  path.resolve(reportsDir, 'missing-character-titles.json'),
-  JSON.stringify(missingCharacterTitles, null, 2),
-  'utf8',
-);
-fs.writeFileSync(
-  path.resolve(reportsDir, 'genshin-overview-tcg-art.json'),
-  JSON.stringify(genshinTcgOverviewArt, null, 2),
-  'utf8',
-);
+if (!charactersOnly) {
+  fs.mkdirSync(reportsDir, { recursive: true });
+  const missingCharacterTitles = {
+    generatedAt: new Date().toISOString(),
+    note: 'Genshin titles come from GameData profile.title with wiki cache fallback. HSR subtitles use wiki How to Obtain with light-cone fallback, ZZZ subtitles use wiki Namecard names, and Wuthering Waves subtitles use wiki title. Endfield displays class. Missing entries need wiki data, class data, or a manual override.',
+    missing: Object.fromEntries(Object.entries(rosters).map(([key, roster]) => [
+      key,
+      [...new Set(roster.filter((ch) => !ch.title).map((ch) => ch.n))]
+        .sort((a, b) => a.localeCompare(b)),
+    ])),
+  };
+  missingCharacterTitles.counts = Object.fromEntries(Object.entries(missingCharacterTitles.missing).map(([key, list]) => [key, list.length]));
+  fs.writeFileSync(
+    path.resolve(reportsDir, 'missing-character-titles.json'),
+    JSON.stringify(missingCharacterTitles, null, 2),
+    'utf8',
+  );
+  fs.writeFileSync(
+    path.resolve(reportsDir, 'genshin-overview-tcg-art.json'),
+    JSON.stringify(genshinTcgOverviewArt, null, 2),
+    'utf8',
+  );
+}
 
 const cmCfg = buildCmCfg(rosters);
+
+if (charactersOnly) {
+  const header = `// ============================================================\n// Nyx - generated Character Materials data\n// Source: Database/Prydwen, Database/GameData, Database/EndfieldWiki\n// Generated by Site/tools/generate-site-data.mjs\n// ============================================================\n\n`;
+  for (const key of ['gi', 'ae']) {
+    fs.writeFileSync(
+      path.resolve(generatedDataDir, `cm-data-${key}.js`),
+      header
+        + `(function(){\n`
+        + `  window.CM_CFG = window.CM_CFG || {};\n`
+        + `  window.CM_CFG[${JSON.stringify(key)}] = ${normalizeForJs(cmCfg[key])};\n`
+        + `  window.dispatchEvent(new CustomEvent('nyx:cm-game-loaded', { detail:{ key:${JSON.stringify(key)} } }));\n`
+        + `})();\n`,
+      'utf8',
+    );
+  }
+  const portraitCount = auditCharacterPortraitAssets({ gi:cmCfg.gi, ae:cmCfg.ae }, {});
+  console.log('Generated character-only data: cm-data-gi.js, cm-data-ae.js');
+  console.log(`Character portrait audit: ${portraitCount} local references checked`);
+  process.exit(0);
+}
 
 // ----- Beta channel delta (user-approved opt-in toggle, defaults to Live) -----
 // Build a second roster set off the GameData beta channel and ship only the per-character
@@ -4963,6 +5258,7 @@ const cmBetaDeltas = (() => {
   return out;
 })();
 console.log(`Beta deltas: ${Object.entries(cmBetaDeltas).map(([k, v]) => `${k}=${v.roster.length}(+${v.newCount}/~${v.changedCount})`).join(', ') || 'none'}`);
+console.log(`Character portrait audit: ${auditCharacterPortraitAssets(cmCfg, cmBetaDeltas)} local references checked`);
 
 fs.writeFileSync(
   path.resolve(reportsDir, 'material-source-gaps.json'),
@@ -5021,7 +5317,11 @@ for (const [key, pack] of Object.entries(cmBetaDeltas)) {
 }
 
 const lazyCollections = buildLazyCollections();
-const databaseArtAudit = buildDatabaseArtAudit(lazyCollections);
+const databaseArtAudit = buildDatabaseArtAudit(lazyCollections, collections, {
+  tcg:genshinTcgCards,
+  furniture:genshinFurniture,
+  wonderland:genshinWonderland,
+});
 const databaseAuditsDir = path.resolve(dbDir, 'Audits');
 fs.mkdirSync(databaseAuditsDir, { recursive: true });
 fs.writeFileSync(
@@ -5090,11 +5390,26 @@ const nyxData = {
   ])),
 };
 
-fs.writeFileSync(
-  path.resolve(generatedDataDir, 'nyx-data.js'),
-  `// ============================================================\n// Nyx - generated site-wide database payload\n// Generated by Site/tools/generate-site-data.mjs\n// ============================================================\n\nvar NYX_DB = ${normalizeForJs(nyxData)};\nObject.assign(window, { NYX_DB });\n`,
-  'utf8',
-);
+const nyxDataFile = path.resolve(generatedDataDir, 'nyx-data.js');
+let nyxDataOutput = nyxData;
+if (databaseOnly && fs.existsSync(nyxDataFile)) {
+  const currentText = fs.readFileSync(nyxDataFile, 'utf8');
+  const currentMatch = currentText.match(/var NYX_DB = ([\s\S]*);\s*Object\.assign\(window, \{ NYX_DB \}\);/);
+  if (!currentMatch) throw new Error('Could not parse the existing generated Nyx Database payload');
+  const current = JSON.parse(currentMatch[1]);
+  for (const [game, next] of Object.entries(nyxData.games || {})) {
+    current.games ||= {};
+    current.games[game] ||= {};
+    for (const field of ['collections', 'tcg', 'furniture', 'wonderland']) {
+      if (Object.prototype.hasOwnProperty.call(next, field)) current.games[game][field] = next[field];
+      else delete current.games[game][field];
+    }
+  }
+  nyxDataOutput = current;
+}
+const nyxDataText = `// ============================================================\n// Nyx - generated site-wide database payload\n// Generated by Site/tools/generate-site-data.mjs\n// ============================================================\n\nvar NYX_DB = ${normalizeForJs(nyxDataOutput)};\nObject.assign(window, { NYX_DB });\n`;
+if (databaseOnly) realWriteFileSync(nyxDataFile, nyxDataText, 'utf8');
+else fs.writeFileSync(nyxDataFile, nyxDataText, 'utf8');
 
 console.log(`Generated ${path.relative(root, path.resolve(generatedDataDir, 'cm-data.js'))}`);
 for (const key of Object.keys(cmCfg)) {

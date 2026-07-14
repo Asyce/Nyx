@@ -16,5 +16,6 @@ test('GI pull compatibility exactly derives canonical character count and date r
   const canonicalEnds = expected.flatMap((row) => Object.values(row.windowsByRegion).map((window) => Date.parse(window.end || window.start)));
   assert.equal(rows[0].start, Math.min(...canonicalStarts));
   assert.equal(rows.at(-1).end, Math.max(...canonicalEnds));
-  assert.equal(fs.readFileSync(path.join(root, 'Site/src/features/gacha/pulls-banners-gi.js'), 'utf8'), generated);
+  const normalizeEol = (value) => value.replace(/\r\n/g, '\n');
+  assert.equal(normalizeEol(fs.readFileSync(path.join(root, 'Site/src/features/gacha/pulls-banners-gi.js'), 'utf8')), normalizeEol(generated));
 });

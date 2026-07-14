@@ -252516,10 +252516,11 @@
         "../../Database/GenshinWiki/birthday-art/kujousara/02-Kujou Sara Birthday 2023.png",
         "../../Database/GenshinWiki/birthday-art/kujousara/03-Kujou Sara Birthday 2024.png",
         "../../Database/GenshinWiki/birthday-art/kujousara/04-Kujou Sara Birthday 2025.png",
-        "../../Database/GenshinWiki/birthday-art/kujousara/05-Kujou Sara TPRGT 2022 - Aether.png",
-        "../../Database/GenshinWiki/birthday-art/kujousara/06-Kujou Sara TPRGT 2022 - Lumine.png",
-        "../../Database/GenshinWiki/birthday-art/kujousara/07-Kujou Sara TPRGT 2023 - Aether.png",
-        "../../Database/GenshinWiki/birthday-art/kujousara/08-Kujou Sara TPRGT 2023 - Lumine.png"
+        "../../Database/GenshinWiki/birthday-art/kujousara/05-Kujou Sara Birthday 2026.jpg",
+        "../../Database/GenshinWiki/birthday-art/kujousara/06-Kujou Sara TPRGT 2022 - Aether.png",
+        "../../Database/GenshinWiki/birthday-art/kujousara/07-Kujou Sara TPRGT 2022 - Lumine.png",
+        "../../Database/GenshinWiki/birthday-art/kujousara/08-Kujou Sara TPRGT 2023 - Aether.png",
+        "../../Database/GenshinWiki/birthday-art/kujousara/09-Kujou Sara TPRGT 2023 - Lumine.png"
       ],
       "namecard": "../../Database/GenshinWiki/namecards/Sara.png",
       "skillIcons": [

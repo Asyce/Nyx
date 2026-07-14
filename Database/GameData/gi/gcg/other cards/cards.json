@@ -1505,7 +1505,8 @@
     "localizedNames": {
       "en": "Hydro Hypostasis",
       "zh": "无相之水",
-      "ja": "無相の水"
+      "ja": "無相の水",
+      "ko": "무상의 물"
     },
     "type": "Character",
     "cost": 2,
@@ -6071,7 +6072,7 @@
       },
       {
         "cost_type": "GCG_COST_DICE_VOID",
-        "count": 2
+        "count": 1
       }
     ],
     "hp": null,
@@ -7233,7 +7234,8 @@
     "type": "Action",
     "cost": [
       {
-        "cost_type": "GCG_COST_INVALID"
+        "cost_type": "GCG_COST_DICE_PYRO",
+        "count": 1
       },
       {
         "cost_type": "GCG_COST_INVALID"
@@ -7869,7 +7871,7 @@
     "details": {
       "talent": {
         "name": "Adamah's Redemption",
-        "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1317]</color>, equip this card.\\nAfter $[A1317] equips this card, immediately use <color=#FFD780FF>$[S13173]</color> or <color=#FFD780FF>$[S13174]</color>once based on the character's current Elemental Burst.\\n<color=#FFFFFFFF>When the character to which this is attached uses $[S13173]:</color> Your next 3 instances of DMG gain +1.\\n<color=#FFFFFFFF>When the character to which this is attached uses $[S13174]:</color> This character and your <color=#FFFFFFFF>$[C113172]</color> deal +1 DMG.\\n(You must have $[A1317] in your deck to add this card to your deck.)",
+        "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1317]</color>, equip this card.\\nAfter $[A1317] equips this card, immediately use <color=#FFD780FF>$[S13173]</color> or <color=#FFD780FF>$[S13174]</color> once based on the character's current Elemental Burst.\\n<color=#FFFFFFFF>When the character to which this is attached uses $[S13173]:</color> Your next 3 instances of DMG gain +1.\\n<color=#FFFFFFFF>When the character to which this is attached uses $[S13174]:</color> Your <color=#FFFFFFFF>$[A1317]</color> and <color=#FFFFFFFF>$[C113172]</color> deal +1 DMG.\\n(You must have $[A1317] in your deck to add this card to your deck.)",
         "child": {
           "k1": {
             "name": "<color=#FFFFFFFF>Combat Action</color>",
@@ -8002,7 +8004,7 @@
     "details": {
       "talent": {
         "name": "Phantasmal Nocturne",
-        "desc": "$[K2]: Equip this to your <color=#FFFFFFFF>$[A1401]</color>.\\nSummon <color=#FFFFFFFF>$[C114011]</color>.\\nWhile the <color=#FFFFFFFF>$[C114011]</color> is on the field, your $[K214] deals +1 DMG.\\n(You must have $[A1401] in your deck to add this card to your deck.)",
+        "desc": "$[K2]: Equip this to your <color=#FFFFFFFF>$[A1401]</color>.\\nSummon <color=#FFFFFFFF>$[C114011]</color>.\\nWhile <color=#FFFFFFFF>$[C114011]</color> is on the field, your $[K214] deals +1 DMG.\\n(You must have $[A1401] in your deck to add this card to your deck.)",
         "child": {
           "k2": {
             "name": "<color=#FFFFFFFF>Fast Action</color>",
@@ -9215,7 +9217,7 @@
     "details": {
       "talent": {
         "name": "Temporal Wind's Eulogy",
-        "desc": "$[K2]: When equip this to your <color=#FFFFFFFF>$[A1503]</color>, equip this card.\\nSummon <color=#FFFFFFFF>$[C115034]</color>.\\nAfter you summon <color=#FFFFFFFF>$[C115034]</color>, the attached character's $[K100] is converted to $[K105] for their next two <color=#FFFFFFFF>Normal Attacks</color> during this Round, and these attacks cost 2 fewer <color=#FFFFFFFF>{SPRITE_PRESET#1109}Unaligned Element</color>.\\n(You must have $[A1503] in your deck to add this card to your deck.)",
+        "desc": "$[K2]: Equip this to your <color=#FFFFFFFF>$[A1503]</color>.\\nSummon <color=#FFFFFFFF>$[C115034]</color>.\\nAfter you summon <color=#FFFFFFFF>$[C115034]</color>, the attached character's $[K100] is converted to $[K105] for their next two <color=#FFFFFFFF>Normal Attacks</color> during this Round, and these attacks cost 2 fewer <color=#FFFFFFFF>{SPRITE_PRESET#1109}Unaligned Element</color>.\\n(You must have $[A1503] in your deck to add this card to your deck.)",
         "child": {
           "k2": {
             "name": "<color=#FFFFFFFF>Fast Action</color>",
@@ -9975,7 +9977,7 @@
     "details": {
       "talent": {
         "name": "Backstreet Guile",
-        "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1516]</color>, equip this card.\\nAfter $[A1516] equips this card, immediately use <color=#FFD780FF>$[S15162]</color> once.\\nWhen <color=#FFFFFFFF>$[A1516]</color> switches to the active character, if the number of cards in your opponent's Hand is greater than or equal to yours, randomly copy 2 cards from their Hand.\\n(You must have $[A1516] in your deck to add this card to your deck.)",
+        "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1516]</color>, equip this card.\\nAfter $[A1516] equips this card, immediately use <color=#FFD780FF>$[S15162]</color> once.\\nWhen <color=#FFFFFFFF>$[A1516]</color> switches to the active character, if the number of cards in your opponent's Hand is greater than or equal to yours, randomly copy 2 cards from their Hand. (Once per Round)\\n(You must have $[A1516] in your deck to add this card to your deck.)",
         "child": {
           "k1": {
             "name": "<color=#FFFFFFFF>Combat Action</color>",

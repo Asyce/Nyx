@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-07-14T14:23:58.270Z",
+  "generatedAt": "2026-07-14T14:36:38.589Z",
   "codes": {
-    "updated": "2026-07-13T17:34:52.613Z",
+    "updated": "2026-07-14T14:11:40.948Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -19,7 +19,7 @@ var NYX_DB = {
             "needle": "primogem",
             "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
           },
-          "added": "2026-07-13",
+          "added": "2026-07-14",
           "firstSeen": "2026-07-05T17:19:20.440Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9"
@@ -63,7 +63,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-13",
+          "added": "2026-07-14",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK"
@@ -77,8 +77,8 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-13",
-          "firstSeen": "2026-07-12T09:08:48.747Z",
+          "added": "2026-07-14",
+          "firstSeen": "2026-07-14T06:19:26.408Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB"
         },
@@ -91,7 +91,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-13",
+          "added": "2026-07-14",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH"
@@ -105,7 +105,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-13",
+          "added": "2026-07-14",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL"
@@ -119,7 +119,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-13",
+          "added": "2026-07-14",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS"
@@ -133,7 +133,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-13",
+          "added": "2026-07-14",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA"
@@ -147,7 +147,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-13",
+          "added": "2026-07-14",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT"
@@ -163,7 +163,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-13",
+          "added": "2026-07-14",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617"
@@ -177,7 +177,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-13",
+          "added": "2026-07-14",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT"
@@ -191,7 +191,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-13",
+          "added": "2026-07-14",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO"
@@ -205,7 +205,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-13",
+          "added": "2026-07-14",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3"
@@ -219,7 +219,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-13",
+          "added": "2026-07-14",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM"
@@ -227,23 +227,6 @@ var NYX_DB = {
       ],
       "wuwa": [],
       "ae": [
-        {
-          "code": "ENDFIELDRENEW",
-          "reward": "Sticker: Safety Helmet x1 T-Creds x71600",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Oroberyl",
-            "needle": "oroberyl",
-            "aliases": [
-              "originium"
-            ],
-            "icon": null
-          },
-          "added": "2026-07-13",
-          "firstSeen": "2026-07-13T17:34:52.613Z",
-          "sourceUrl": "https://game8.co/games/Arknights-Endfield/archives/571509",
-          "redeemUrl": null
-        },
         {
           "code": "ZAU2SYXHWX5L4ZH",
           "reward": "5k T Creds and Ten Arms Insp Kits",
@@ -299,16 +282,16 @@ var NYX_DB = {
     }
   },
   "banners": {
-    "updated": "2026-07-14T00:43:43.672Z",
-    "checkedAt": "2026-07-14T00:43:43.672Z",
+    "updated": "2026-07-14T14:34:54.602Z",
+    "checkedAt": "2026-07-14T14:34:54.602Z",
     "games": {
       "hsr": {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-14T00:43:43.672Z",
-          "lastSuccessfulFetch": "2026-07-14T00:43:43.672Z",
-          "lastValidUpdate": "2026-07-14T00:43:43.672Z",
+          "checkedAt": "2026-07-14T14:34:54.602Z",
+          "lastSuccessfulFetch": "2026-07-14T14:34:54.602Z",
+          "lastValidUpdate": "2026-07-14T14:34:54.602Z",
           "source": "game8"
         },
         "current": {
@@ -369,9 +352,9 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-14T00:43:43.672Z",
-          "lastSuccessfulFetch": "2026-07-14T00:43:43.672Z",
-          "lastValidUpdate": "2026-07-14T00:43:43.672Z",
+          "checkedAt": "2026-07-14T14:34:54.602Z",
+          "lastSuccessfulFetch": "2026-07-14T14:34:54.602Z",
+          "lastValidUpdate": "2026-07-14T14:34:54.602Z",
           "source": "game8"
         },
         "current": {
@@ -423,9 +406,9 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-14T00:43:43.672Z",
-          "lastSuccessfulFetch": "2026-07-14T00:43:43.672Z",
-          "lastValidUpdate": "2026-07-14T00:43:43.672Z",
+          "checkedAt": "2026-07-14T14:34:54.602Z",
+          "lastSuccessfulFetch": "2026-07-14T14:34:54.602Z",
+          "lastValidUpdate": "2026-07-14T14:34:54.602Z",
           "source": "game8"
         },
         "current": {
@@ -504,9 +487,9 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-14T00:43:43.672Z",
-          "lastSuccessfulFetch": "2026-07-14T00:43:43.672Z",
-          "lastValidUpdate": "2026-07-14T00:43:43.672Z",
+          "checkedAt": "2026-07-14T14:34:54.602Z",
+          "lastSuccessfulFetch": "2026-07-14T14:34:54.602Z",
+          "lastValidUpdate": "2026-07-14T14:34:54.602Z",
           "source": "game8"
         },
         "current": {
@@ -542,9 +525,9 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-14T00:43:43.672Z",
-          "lastSuccessfulFetch": "2026-07-14T00:43:43.672Z",
-          "lastValidUpdate": "2026-07-14T00:43:43.672Z",
+          "checkedAt": "2026-07-14T14:34:54.602Z",
+          "lastSuccessfulFetch": "2026-07-14T14:34:54.602Z",
+          "lastValidUpdate": "2026-07-14T14:34:54.602Z",
           "source": "game8"
         },
         "current": {
@@ -4262,7 +4245,7 @@ var NYX_DB = {
             "needle": "primogem",
             "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
           },
-          "added": "2026-07-13",
+          "added": "2026-07-14",
           "firstSeen": "2026-07-05T17:19:20.440Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9"
@@ -4300,9 +4283,9 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-14T00:43:43.672Z",
-          "lastSuccessfulFetch": "2026-07-14T00:43:43.672Z",
-          "lastValidUpdate": "2026-07-14T00:43:43.672Z",
+          "checkedAt": "2026-07-14T14:34:54.602Z",
+          "lastSuccessfulFetch": "2026-07-14T14:34:54.602Z",
+          "lastValidUpdate": "2026-07-14T14:34:54.602Z",
           "source": "game8"
         },
         "current": {
@@ -4351,7 +4334,7 @@ var NYX_DB = {
         "upcoming": []
       },
       "tcg": {
-        "updated": "2026-07-11T08:32:27.988Z",
+        "updated": "2026-07-14T09:01:12.190Z",
         "counts": {
           "characterCards": 106,
           "otherCards": 513
@@ -9629,7 +9612,8 @@ var NYX_DB = {
             "localizedNames": {
               "en": "Durin",
               "zh": "\u675c\u6797",
-              "ja": "\u30c9\u30a5\u30ea\u30f3"
+              "ja": "\u30c9\u30a5\u30ea\u30f3",
+              "ko": "\ub450\ub9b0"
             },
             "type": "Character",
             "cost": 2,
@@ -9695,7 +9679,7 @@ var NYX_DB = {
               },
               "13175": {
                 "name": "Light Manifest of the Divine Calculus",
-                "desc": "(Passive) <color=#FFFFFFFF>After this character uses a Normal Attack:</color> Switches their Elemental Burst to <color=#FFFFFFFF>$[S13174]</color>.\\n<color=#FFFFFFFF>After this character uses an Elemental Skill:</color> Switches their Elemental Burst to<color=#FFFFFFFF>$[S13173]</color>.",
+                "desc": "(Passive) <color=#FFFFFFFF>After this character uses a Normal Attack:</color> Switch their Elemental Burst to <color=#FFFFFFFF>$[S13174]</color>.\\n<color=#FFFFFFFF>After this character uses an Elemental Skill:</color> Switch their Elemental Burst to <color=#FFFFFFFF>$[S13173]</color>.",
                 "child": {
                   "s13174": "S13174",
                   "s13173": "S13173"
@@ -13197,7 +13181,7 @@ var NYX_DB = {
                 },
                 "tag": "GCG_SKILL_TAG_E",
                 "cost": {
-                  "gcg_cost_dice_anemo": 2
+                  "gcg_cost_dice_anemo": 3
                 }
               },
               "15153": {
@@ -13234,7 +13218,8 @@ var NYX_DB = {
             "localizedNames": {
               "en": "Jahoda",
               "zh": "\u96c5\u73c2\u8fbe",
-              "ja": "\u30e4\u30d5\u30a9\u30c0"
+              "ja": "\u30e4\u30d5\u30a9\u30c0",
+              "ko": "\uc57c\ud638\ub2e4"
             },
             "type": "Character",
             "cost": 2,
@@ -13281,7 +13266,7 @@ var NYX_DB = {
                   },
                   "c115161": {
                     "name": "Purr-loined Treasure Flask",
-                    "desc": "<color=#FFFFFFFF>When $[A1516] switches to become the active character:</color> If the opponent active character is affected by Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element.\\n$[K1]: Deal 2 <color=#FFFFFFFF>$[K105]</color> to the opponent's active character. Repeat once.",
+                    "desc": "<color=#FFFFFFFF>When $[A1516] switches to become the active character:</color> If the opponent active character is affected by Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element.\\n$[K1]: Deal 1 <color=#FFFFFFFF>$[K105]</color> to the opponent's active character. Repeat once.",
                     "child": {
                       "a1516": "Jahoda",
                       "k1": {
@@ -13306,7 +13291,7 @@ var NYX_DB = {
               },
               "15163": {
                 "name": "Hidden Aces: Seven Tools of the Hunter",
-                "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT] and create <color=#FFFFFFFF>$[C115166]</color>.",
+                "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT] and creates <color=#FFFFFFFF>$[C115166]</color>.",
                 "child": {
                   "d_key_damage": 3,
                   "d_key_element": "GCG_ELEMENT_ANEMO",
@@ -13333,7 +13318,7 @@ var NYX_DB = {
                 "child": {
                   "c115161": {
                     "name": "Purr-loined Treasure Flask",
-                    "desc": "<color=#FFFFFFFF>When $[A1516] switches to become the active character:</color> If the opponent active character is affected by Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element.\\n$[K1]: Deal 2 <color=#FFFFFFFF>$[K105]</color> to the opponent's active character. Repeat once.",
+                    "desc": "<color=#FFFFFFFF>When $[A1516] switches to become the active character:</color> If the opponent active character is affected by Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element.\\n$[K1]: Deal 1 <color=#FFFFFFFF>$[K105]</color> to the opponent's active character. Repeat once.",
                     "child": {
                       "a1516": "Jahoda",
                       "k1": {
@@ -13360,7 +13345,7 @@ var NYX_DB = {
                 "child": {
                   "c115161": {
                     "name": "Purr-loined Treasure Flask",
-                    "desc": "<color=#FFFFFFFF>When $[A1516] switches to become the active character:</color> If the opponent active character is affected by Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element.\\n$[K1]: Deal 2 <color=#FFFFFFFF>$[K105]</color> to the opponent's active character. Repeat once.",
+                    "desc": "<color=#FFFFFFFF>When $[A1516] switches to become the active character:</color> If the opponent active character is affected by Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element.\\n$[K1]: Deal 1 <color=#FFFFFFFF>$[K105]</color> to the opponent's active character. Repeat once.",
                     "child": {
                       "a1516": "Jahoda",
                       "k1": {
@@ -17563,7 +17548,7 @@ var NYX_DB = {
             ],
             "talent": {
               "name": "Adamah's Redemption",
-              "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1317]</color>, equip this card.\\nAfter $[A1317] equips this card, immediately use <color=#FFD780FF>$[S13173]</color> or <color=#FFD780FF>$[S13174]</color>once based on the character's current Elemental Burst.\\n<color=#FFFFFFFF>When the character to which this is attached uses $[S13173]:</color> Your next 3 instances of DMG gain +1.\\n<color=#FFFFFFFF>When the character to which this is attached uses $[S13174]:</color> This character and your <color=#FFFFFFFF>$[C113172]</color> deal +1 DMG.\\n(You must have $[A1317] in your deck to add this card to your deck.)",
+              "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1317]</color>, equip this card.\\nAfter $[A1317] equips this card, immediately use <color=#FFD780FF>$[S13173]</color> or <color=#FFD780FF>$[S13174]</color> once based on the character's current Elemental Burst.\\n<color=#FFFFFFFF>When the character to which this is attached uses $[S13173]:</color> Your next 3 instances of DMG gain +1.\\n<color=#FFFFFFFF>When the character to which this is attached uses $[S13174]:</color> Your <color=#FFFFFFFF>$[A1317]</color> and <color=#FFFFFFFF>$[C113172]</color> deal +1 DMG.\\n(You must have $[A1317] in your deck to add this card to your deck.)",
               "child": {
                 "k1": {
                   "name": "<color=#FFFFFFFF>Combat Action</color>",
@@ -18539,7 +18524,7 @@ var NYX_DB = {
             ],
             "talent": {
               "name": "Backstreet Guile",
-              "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1516]</color>, equip this card.\\nAfter $[A1516] equips this card, immediately use <color=#FFD780FF>$[S15162]</color> once.\\nWhen <color=#FFFFFFFF>$[A1516]</color> switches to the active character, if the number of cards in your opponent's Hand is greater than or equal to yours, randomly copy 2 cards from their Hand.\\n(You must have $[A1516] in your deck to add this card to your deck.)",
+              "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1516]</color>, equip this card.\\nAfter $[A1516] equips this card, immediately use <color=#FFD780FF>$[S15162]</color> once.\\nWhen <color=#FFFFFFFF>$[A1516]</color> switches to the active character, if the number of cards in your opponent's Hand is greater than or equal to yours, randomly copy 2 cards from their Hand. (Once per Round)\\n(You must have $[A1516] in your deck to add this card to your deck.)",
               "child": {
                 "k1": {
                   "name": "<color=#FFFFFFFF>Combat Action</color>",
@@ -26672,7 +26657,7 @@ var NYX_DB = {
               },
               {
                 "cost_type": "GCG_COST_DICE_VOID",
-                "count": 2
+                "count": 1
               }
             ],
             "hp": 0,
@@ -28277,7 +28262,8 @@ var NYX_DB = {
             "localizedNames": {
               "en": "Hydro Hypostasis",
               "zh": "\u65e0\u76f8\u4e4b\u6c34",
-              "ja": "\u7121\u76f8\u306e\u6c34"
+              "ja": "\u7121\u76f8\u306e\u6c34",
+              "ko": "\ubb34\uc0c1\uc758 \ubb3c"
             },
             "type": "Character",
             "cost": 2,
@@ -33083,7 +33069,7 @@ var NYX_DB = {
             ],
             "talent": {
               "name": "Phantasmal Nocturne",
-              "desc": "$[K2]: Equip this to your <color=#FFFFFFFF>$[A1401]</color>.\\nSummon <color=#FFFFFFFF>$[C114011]</color>.\\nWhile the <color=#FFFFFFFF>$[C114011]</color> is on the field, your $[K214] deals +1 DMG.\\n(You must have $[A1401] in your deck to add this card to your deck.)",
+              "desc": "$[K2]: Equip this to your <color=#FFFFFFFF>$[A1401]</color>.\\nSummon <color=#FFFFFFFF>$[C114011]</color>.\\nWhile <color=#FFFFFFFF>$[C114011]</color> is on the field, your $[K214] deals +1 DMG.\\n(You must have $[A1401] in your deck to add this card to your deck.)",
               "child": {
                 "k2": {
                   "name": "<color=#FFFFFFFF>Fast Action</color>",
@@ -35962,7 +35948,8 @@ var NYX_DB = {
             "type": "Action",
             "cost": [
               {
-                "cost_type": "GCG_COST_INVALID"
+                "cost_type": "GCG_COST_DICE_PYRO",
+                "count": 1
               },
               {
                 "cost_type": "GCG_COST_INVALID"
@@ -37503,7 +37490,7 @@ var NYX_DB = {
             ],
             "talent": {
               "name": "Temporal Wind's Eulogy",
-              "desc": "$[K2]: When equip this to your <color=#FFFFFFFF>$[A1503]</color>, equip this card.\\nSummon <color=#FFFFFFFF>$[C115034]</color>.\\nAfter you summon <color=#FFFFFFFF>$[C115034]</color>, the attached character's $[K100] is converted to $[K105] for their next two <color=#FFFFFFFF>Normal Attacks</color> during this Round, and these attacks cost 2 fewer <color=#FFFFFFFF>{SPRITE_PRESET#1109}Unaligned Element</color>.\\n(You must have $[A1503] in your deck to add this card to your deck.)",
+              "desc": "$[K2]: Equip this to your <color=#FFFFFFFF>$[A1503]</color>.\\nSummon <color=#FFFFFFFF>$[C115034]</color>.\\nAfter you summon <color=#FFFFFFFF>$[C115034]</color>, the attached character's $[K100] is converted to $[K105] for their next two <color=#FFFFFFFF>Normal Attacks</color> during this Round, and these attacks cost 2 fewer <color=#FFFFFFFF>{SPRITE_PRESET#1109}Unaligned Element</color>.\\n(You must have $[A1503] in your deck to add this card to your deck.)",
               "child": {
                 "k2": {
                   "name": "<color=#FFFFFFFF>Fast Action</color>",
@@ -110816,8 +110803,8 @@ var NYX_DB = {
         ]
       },
       "wonderland": {
-        "updated": "2026-07-12T09:01:05.217Z",
-        "version": "6.7.51",
+        "updated": "2026-07-14T09:01:15.547Z",
+        "version": "6.7.52",
         "langMap": {
           "slot": {
             "none": "Voice-Overs",
@@ -150201,7 +150188,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-13",
+          "added": "2026-07-14",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK"
@@ -150215,8 +150202,8 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-13",
-          "firstSeen": "2026-07-12T09:08:48.747Z",
+          "added": "2026-07-14",
+          "firstSeen": "2026-07-14T06:19:26.408Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB"
         },
@@ -150229,7 +150216,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-13",
+          "added": "2026-07-14",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH"
@@ -150243,7 +150230,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-13",
+          "added": "2026-07-14",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL"
@@ -150257,7 +150244,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-13",
+          "added": "2026-07-14",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS"
@@ -150271,7 +150258,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-13",
+          "added": "2026-07-14",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA"
@@ -150285,7 +150272,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
           },
-          "added": "2026-07-13",
+          "added": "2026-07-14",
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT"
@@ -150295,9 +150282,9 @@ var NYX_DB = {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-14T00:43:43.672Z",
-          "lastSuccessfulFetch": "2026-07-14T00:43:43.672Z",
-          "lastValidUpdate": "2026-07-14T00:43:43.672Z",
+          "checkedAt": "2026-07-14T14:34:54.602Z",
+          "lastSuccessfulFetch": "2026-07-14T14:34:54.602Z",
+          "lastValidUpdate": "2026-07-14T14:34:54.602Z",
           "source": "game8"
         },
         "current": {
@@ -155689,7 +155676,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-13",
+          "added": "2026-07-14",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617"
@@ -155703,7 +155690,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-13",
+          "added": "2026-07-14",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT"
@@ -155717,7 +155704,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-13",
+          "added": "2026-07-14",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO"
@@ -155731,7 +155718,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-13",
+          "added": "2026-07-14",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3"
@@ -155745,7 +155732,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-07-13",
+          "added": "2026-07-14",
           "firstSeen": "2026-07-05T17:19:07.479Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM"
@@ -155755,9 +155742,9 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-14T00:43:43.672Z",
-          "lastSuccessfulFetch": "2026-07-14T00:43:43.672Z",
-          "lastValidUpdate": "2026-07-14T00:43:43.672Z",
+          "checkedAt": "2026-07-14T14:34:54.602Z",
+          "lastSuccessfulFetch": "2026-07-14T14:34:54.602Z",
+          "lastValidUpdate": "2026-07-14T14:34:54.602Z",
           "source": "game8"
         },
         "current": {
@@ -160505,9 +160492,9 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-14T00:43:43.672Z",
-          "lastSuccessfulFetch": "2026-07-14T00:43:43.672Z",
-          "lastValidUpdate": "2026-07-14T00:43:43.672Z",
+          "checkedAt": "2026-07-14T14:34:54.602Z",
+          "lastSuccessfulFetch": "2026-07-14T14:34:54.602Z",
+          "lastValidUpdate": "2026-07-14T14:34:54.602Z",
           "source": "game8"
         },
         "current": {
@@ -165022,23 +165009,6 @@ var NYX_DB = {
       ],
       "codes": [
         {
-          "code": "ENDFIELDRENEW",
-          "reward": "Sticker: Safety Helmet x1 T-Creds x71600",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Oroberyl",
-            "needle": "oroberyl",
-            "aliases": [
-              "originium"
-            ],
-            "icon": null
-          },
-          "added": "2026-07-13",
-          "firstSeen": "2026-07-13T17:34:52.613Z",
-          "sourceUrl": "https://game8.co/games/Arknights-Endfield/archives/571509",
-          "redeemUrl": null
-        },
-        {
           "code": "ZAU2SYXHWX5L4ZH",
           "reward": "5k T Creds and Ten Arms Insp Kits",
           "premium": false,
@@ -165094,9 +165064,9 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-07-14T00:43:43.672Z",
-          "lastSuccessfulFetch": "2026-07-14T00:43:43.672Z",
-          "lastValidUpdate": "2026-07-14T00:43:43.672Z",
+          "checkedAt": "2026-07-14T14:34:54.602Z",
+          "lastSuccessfulFetch": "2026-07-14T14:34:54.602Z",
+          "lastValidUpdate": "2026-07-14T14:34:54.602Z",
           "source": "game8"
         },
         "current": {

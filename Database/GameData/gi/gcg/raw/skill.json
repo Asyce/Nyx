@@ -1485,11 +1485,11 @@
   },
   "13174": {
     "name": "Principle of Darkness: As the Stars Smolder",
-    "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT] and create <color=#FFFFFFFF>$[C113172]</color>."
+    "desc": "$[D__KEY__DAMAGE]"
   },
   "13175": {
     "name": "Light Manifest of the Divine Calculus",
-    "desc": "(Passive) <color=#FFFFFFFF>After this character uses a Normal Attack:</color> Switches their Elemental Burst to <color=#FFFFFFFF>$[S13174]</color>.\\n<color=#FFFFFFFF>After this character uses an Elemental Skill:</color> Switches their Elemental Burst to<color=#FFFFFFFF>$[S13173]</color>."
+    "desc": "(Passive) <color=#FFFFFFFF>After this character uses a Normal Attack:</color> Switch their Elemental Burst to <color=#FFFFFFFF>$[S13174]</color>.\\n<color=#FFFFFFFF>After this character uses an Elemental Skill:</color> Switch their Elemental Burst to <color=#FFFFFFFF>$[S13173]</color>."
   },
   "14011": {
     "name": "Bolts of Downfall",
@@ -1989,7 +1989,7 @@
   },
   "15163": {
     "name": "Hidden Aces: Seven Tools of the Hunter",
-    "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT] and create <color=#FFFFFFFF>$[C115166]</color>."
+    "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT] and creates <color=#FFFFFFFF>$[C115166]</color>."
   },
   "15164": {
     "name": "Moonsign Benediction: Rooftop Dash",
@@ -6192,6 +6192,14 @@
     "desc": ""
   },
   "1131741": {
+    "name": "",
+    "desc": ""
+  },
+  "1131751": {
+    "name": "",
+    "desc": ""
+  },
+  "1131752": {
     "name": "",
     "desc": ""
   },

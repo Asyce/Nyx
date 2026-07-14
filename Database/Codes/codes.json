@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T14:11:40.948Z",
+  "generatedAt": "2026-07-14T15:28:37.409Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-07-14T14:11:40.948Z",
+      "lastSuccessfulFetch": "2026-07-14T15:28:37.023Z",
       "codes": [
         {
           "code": "PFY1S40I88T9",
@@ -51,7 +51,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-07-14T14:11:32.980Z",
+      "lastSuccessfulFetch": "2026-07-14T15:28:37.040Z",
       "codes": [
         {
           "code": "4TKSX77Y58QK",
@@ -161,7 +161,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-07-14T14:11:34.573Z",
+      "lastSuccessfulFetch": "2026-07-14T15:28:37.035Z",
       "codes": [
         {
           "code": "ROSCAELIFER0617",
@@ -227,7 +227,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-07-14T14:11:35.370Z",
+      "lastSuccessfulFetch": "2026-07-14T15:28:37.409Z",
       "codes": []
     },
     {
@@ -237,8 +237,18 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-07-14T14:11:36.970Z",
+      "lastSuccessfulFetch": "2026-07-14T15:28:37.206Z",
       "codes": [
+        {
+          "code": "ENDFIELDRENEW",
+          "rewards": "Sticker: Safety Helmet x1 T-Creds x71600",
+          "added": "2026-07-14",
+          "sourceUrl": "https://game8.co/games/Arknights-Endfield/archives/571509",
+          "premium": false,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-07-14T15:28:37.206Z"
+        },
         {
           "code": "ALLFIELD",
           "rewards": "",

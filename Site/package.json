@@ -29,6 +29,9 @@
     "test:database-ui": "node --test ./tools/tests/database-ui.test.mjs",
     "test:library": "node --test ./tools/tests/library-ui.test.mjs",
     "test:library-annotations": "node --test ./tools/tests/library-annotations.test.mjs",
+    "test:achievements": "node --test ./tools/tests/achievement-import-storage.test.mjs ./tools/tests/achievement-view-model.test.mjs",
+    "test:achievement-extractor": "node --test ./tools/tests/achievement-extractor-script.test.mjs",
+    "test:achievement-hoyolab": "node --test ./tools/tests/achievement-hoyolab-exporter.test.mjs",
     "serve": "python -m http.server 5173 --bind 127.0.0.1 --directory .."
   },
   "dependencies": {

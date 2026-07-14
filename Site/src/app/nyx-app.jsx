@@ -3028,6 +3028,7 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
   }, [cfg.key]);
   const hasTcg = cfg.key === 'gi';
   const hasLibrary = cfg.key === 'gi' || cfg.key === 'hsr';
+  const hasAchievements = cfg.key === 'gi' || cfg.key === 'hsr';
   const betaActive = cfg.key !== 'ae' && typeof cmHasBeta === 'function' && cmHasBeta(cfg.key) && (cmChannel === 'beta' || window.NYX_ALWAYS_BETA === true);
   React.useEffect(() => {
     if (tab === 'beta' && !betaActive) setTab('mats');
@@ -3055,7 +3056,7 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
   };
   // G13: the section list the Characters header icon-dropdown switches between.
   const sectionKey = (f) => /tracker$/i.test(f) ? 'tracker' : /^(characters|character materials)$/i.test(f) ? 'mats' : 'database';
-  const sections = [{ key:'overview', label:'Overview' }, ...visibleFns.map((f) => ({ key:sectionKey(f), label:f })), ...(hasLibrary ? [{ key:'books', label:'The Library' }] : []), ...(betaActive ? [{ key:'beta', label:'Beta' }] : []), { key:'settings', label:'Settings' }];
+  const sections = [{ key:'overview', label:'Overview' }, ...visibleFns.map((f) => ({ key:sectionKey(f), label:f })), ...(hasAchievements ? [{ key:'achievements', label:'Achievements' }] : []), ...(hasLibrary ? [{ key:'books', label:'The Library' }] : []), ...(betaActive ? [{ key:'beta', label:'Beta' }] : []), { key:'settings', label:'Settings' }];
   return (
     <div className={'gp-layout' + (tab === 'overview' ? ' has-aside' : '')}>
       <nav className="gp-side-nav" aria-label="Tools">
@@ -3071,6 +3072,13 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
             <GPSectionNavButton key={f} active={isOn} label={f} onActivate={() => setTab(key)} />
           );
         })}
+        {hasAchievements && (
+          <div className={'gp-fn-row click' + (tab === 'achievements' ? ' on' : '')}
+               role="button" tabIndex={0} aria-current={tab === 'achievements' ? 'page' : undefined}
+               onClick={() => setTab('achievements')} onKeyDown={navKeyDown(() => setTab('achievements'))}>
+            <span className="dia" aria-hidden="true"></span><span>Achievements</span><span className="go">{'›'}</span>
+          </div>
+        )}
         {hasLibrary && (
           <GPSectionNavButton active={tab === 'books'} label="The Library" onActivate={() => setTab('books')} />
         )}
@@ -3128,6 +3136,7 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
             onViewChange={(next) => setTab(next)} />
         </main>
       )}
+      {tab === 'achievements' && hasAchievements && <AchievementPage key={cfg.key} game={cfg.key} />}
       {tab === 'books' && hasLibrary && <LibraryPage game={cfg.key} />}
       {tab === 'beta' && betaActive && <BetaDataPanel gameKey={cfg.key} onOpenCharacter={openBetaCharacter} />}
       {tab === 'settings' && <SettingsPane settings={settings} setSettings={setSettings} />}
@@ -3495,6 +3504,7 @@ const GAME_TAB_TO_ROUTE = {
   tcg:'database/tcg',
   pot:'database/serenitea-pot',
   wonderland:'database/wonderland',
+  achievements:'achievements',
   books:'books',
   beta:'beta',
   settings:'settings',
@@ -3516,6 +3526,7 @@ const ROUTE_TO_GAME_TAB = {
   character:'mats',
   database:'database',
   library:'database', // old bookmarks land on the renamed Database tab
+  achievements:'achievements',
   books:'books',
   tracker:'tracker',
   tcg:'tcg',
@@ -3610,13 +3621,13 @@ function routeTitleFor(key, tab, selection){
   const selectedName = selection && selection.game === key ? routeDisplayName(selection.name) : '';
   if (selectedName) return 'Nyx \u2014 ' + selectedName + ' \u2014 ' + name;
   if (key === 'nyx') return tab && tab !== 'overview' ? 'Nyx \u2014 ' + tab.replace(/\b\w/g, (c) => c.toUpperCase()) : 'Nyx';
-  const label = { mats:'Characters', database:'Database', tracker:'Tracker', tcg:'TCG', pot:'Serenitea Pot', wonderland:'Miliastra Wonderland', books:'The Library', beta:'Beta', settings:'Settings' }[tab] || '';
+  const label = { mats:'Characters', database:'Database', tracker:'Tracker', tcg:'TCG', pot:'Serenitea Pot', wonderland:'Miliastra Wonderland', achievements:'Achievements', books:'The Library', beta:'Beta', settings:'Settings' }[tab] || '';
   return label ? 'Nyx \u2014 ' + label + ' \u2014 ' + name : 'Nyx \u2014 ' + name;
 }
 
 function validTabsForKey(key){
-  if (key === 'gi') return ['overview','mats','char-customize','database','tracker','tcg','pot','wonderland','books','beta','settings'];
-  if (key === 'hsr') return ['overview','mats','char-customize','database','tracker','books','beta','settings'];
+  if (key === 'gi') return ['overview','mats','char-customize','database','tracker','tcg','pot','wonderland','achievements','books','beta','settings'];
+  if (key === 'hsr') return ['overview','mats','char-customize','database','tracker','achievements','books','beta','settings'];
   return key === 'nyx' ? ['overview','characters','calendar','pulls','codes','banners','events','settings'] : ['overview','mats','char-customize','database','tracker','beta','settings'];
 }
 

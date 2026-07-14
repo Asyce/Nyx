@@ -2,6 +2,7 @@ import crypto from 'node:crypto';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { ACHIEVEMENT_ICON_MAX_BYTES, achievementIconFilename, inspectAchievementIconBytes, validateCatalog as validateAchievementCatalog } from '../../Scraper/achievements/core.mjs';
 import { nyxLibraryNormalizeText } from '../src/features/library/library-core.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -201,6 +202,61 @@ async function publishLibrary({ databaseDir, dataDir, maxBytes }) {
   return entries;
 }
 
+async function validateAchievementAsset(file, filename, maxBytes) {
+  const bytes = await fs.readFile(file);
+  const inspected = inspectAchievementIconBytes(bytes, { maxBytes:Math.min(maxBytes, ACHIEVEMENT_ICON_MAX_BYTES) });
+  const hash = crypto.createHash('sha256').update(bytes).digest('hex');
+  const extension = inspected.mediaType === 'image/png' ? 'png' : 'webp';
+  if (filename !== `${hash}.${extension}`) throw new Error(`Runtime Achievement icon hash/magic mismatch: ${filename}`);
+}
+
+async function publishAchievements({ databaseDir, dataDir, deployDir, maxBytes }) {
+  const sourceRoot = path.resolve(databaseDir, 'Achievements');
+  if (!(await exists(sourceRoot))) throw new Error('Runtime Achievement source is missing');
+  const entries = [];
+  for (const game of ['gi', 'hsr']) {
+    const source = path.resolve(sourceRoot, game, 'catalog.json');
+    if (!(await exists(source))) throw new Error(`Runtime Achievements is missing ${game}/catalog.json`);
+    const { stat, parsed } = await validatedJson(source, maxBytes);
+    try {
+      if (parsed?.game !== game) throw new Error(`catalog game ${parsed?.game} does not match ${game}`);
+      validateAchievementCatalog(parsed);
+    } catch (error) {
+      throw new Error(`Runtime Achievements has an invalid ${game} catalog: ${error.message}`);
+    }
+    entries.push(await copyEntry({ source, dest:path.resolve(dataDir, 'achievements', game, 'catalog.json'), url:`/data/achievements/${game}/catalog.json`, maxBytes, parsed, timestamp:dataTimestamp(parsed, stat) }));
+
+    const references = parsed.categories.flatMap((category) => category.icon ? [{ icon:category.icon, kind:'categories' }] : []);
+    if (parsed.rewardCurrency?.icon) references.push({ icon:parsed.rewardCurrency.icon, kind:'rewards' });
+    const expected = new Map();
+    for (const { icon, kind } of references) {
+      const filename = achievementIconFilename(game, icon.path, kind);
+      const relative = `${kind}/${filename}`;
+      if (expected.has(relative)) throw new Error(`Runtime Achievements has duplicate ${game} asset ${relative}`);
+      expected.set(relative, { filename, url:icon.path });
+    }
+    const assetRoot = path.resolve(sourceRoot, game, 'assets');
+    const actual = await exists(assetRoot) ? await filesBelow(assetRoot) : [];
+    const actualByRelative = new Map(actual.map((file) => [relativeInside(assetRoot, file), file]));
+    for (const relative of actualByRelative.keys()) {
+      if (!/^(?:categories|rewards)\/[a-f0-9]{64}\.(?:png|webp)$/.test(relative) || !expected.has(relative)) throw new Error(`Runtime Achievements contains an unreferenced or unsafe ${game} asset: ${relative}`);
+    }
+    if (actualByRelative.size !== expected.size) throw new Error(`Runtime Achievements is missing a referenced ${game} asset`);
+    for (const [relative, { filename, url }] of expected) {
+      const assetSource = actualByRelative.get(relative);
+      if (!assetSource) throw new Error(`Runtime Achievements is missing ${game}/${relative}`);
+      await validateAchievementAsset(assetSource, filename, maxBytes);
+      entries.push(await copyEntry({
+        source: assetSource,
+        dest: path.resolve(deployDir, 'assets', 'achievements', game, ...relative.split('/')),
+        url,
+        maxBytes: Math.min(maxBytes, ACHIEVEMENT_ICON_MAX_BYTES),
+      }));
+    }
+  }
+  return entries;
+}
+
 async function publishFamily({ databaseDir, dataDir, source, target, optional, maxBytes }) {
   const sourceRoot = path.resolve(databaseDir, source);
   if (!(await exists(sourceRoot))) {
@@ -250,11 +306,14 @@ async function publishFamily({ databaseDir, dataDir, source, target, optional, m
 export async function publishRuntimeData({ rootDir = DEFAULT_ROOT, deployDir = path.resolve(rootDir, '.deploy', 'pengo'), maxBytes = DEFAULT_MAX_BYTES } = {}) {
   const databaseDir = path.resolve(rootDir, 'Database');
   const dataDir = path.resolve(deployDir, 'data');
+  const achievementAssetsDir = path.resolve(deployDir, 'assets', 'achievements');
   if (!Number.isSafeInteger(maxBytes) || maxBytes < 1024) throw new Error('Invalid runtime publisher size ceiling');
   await fs.rm(dataDir, { recursive:true, force:true });
+  await fs.rm(achievementAssetsDir, { recursive:true, force:true });
   await fs.mkdir(dataDir, { recursive:true });
   try {
     const files = await publishLibrary({ databaseDir, dataDir, maxBytes });
+    files.push(...await publishAchievements({ databaseDir, dataDir, deployDir, maxBytes }));
     for (const family of FAMILY_CONFIG) files.push(...await publishFamily({ databaseDir, dataDir, maxBytes, ...family }));
     files.sort((a, b) => a.url.localeCompare(b.url));
     const manifest = { schemaVersion:1, generatedAt:new Date().toISOString(), files };
@@ -262,6 +321,7 @@ export async function publishRuntimeData({ rootDir = DEFAULT_ROOT, deployDir = p
     return manifest;
   } catch (error) {
     await fs.rm(dataDir, { recursive:true, force:true });
+    await fs.rm(achievementAssetsDir, { recursive:true, force:true });
     throw error;
   }
 }

@@ -1,0 +1,32 @@
+{
+  "4010101": {
+    "Id": "4010101",
+    "Name": "Ever-Burning Amber",
+    "SortOrder": 1000,
+    "Rarity": "High",
+    "SeriesId": 1,
+    "SeriesText": "I, Trailblazer",
+    "Description": "Tread on the Path of Preservation",
+    "VersionAdded": "1.0"
+  },
+  "4030101": {
+    "Id": "4030101",
+    "Name": "My Heart Lies With the Stars",
+    "SortOrder": 900,
+    "Rarity": "Mid",
+    "SeriesId": 3,
+    "SeriesText": "The Rail Unto the Stars",
+    "Description": "Launch a journey\n<color=#8790abff>Board the Astral Express.</color>",
+    "VersionAdded": "4.3"
+  },
+  "4030102": {
+    "Id": "4030102",
+    "Name": "A Later Journey",
+    "SortOrder": 899,
+    "Rarity": "Low",
+    "SeriesId": 3,
+    "SeriesText": "The Rail Unto the Stars",
+    "Description": "Future content.",
+    "VersionAdded": "4.4"
+  }
+}

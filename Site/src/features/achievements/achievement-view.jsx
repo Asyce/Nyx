@@ -1,4 +1,4 @@
-/* ---------------- Achievement Celestial Archive ---------------- */
+/* ---------------- Achievement tracker ---------------- */
 const NYX_ACHIEVEMENT_GAMES = {
   gi:{ name:'Genshin Impact', short:'Genshin', defaultProfile:'My Traveler', currency:'Primogems' },
   hsr:{ name:'Honkai: Star Rail', short:'Star Rail', defaultProfile:'My Trailblazer', currency:'Stellar Jade' },
@@ -72,6 +72,7 @@ function AchievementPage({ game }){
   const [categoryQuery, setCategoryQuery] = React.useState('');
   const [hideCompletedCategories, setHideCompletedCategories] = React.useState(false);
   const [atlasOpen, setAtlasOpen] = React.useState(false);
+  const [categoryGridOpen, setCategoryGridOpen] = React.useState(false);
   const [manageOpen, setManageOpen] = React.useState(false);
   const [manageTab, setManageTab] = React.useState('import');
   const [profileDraft, setProfileDraft] = React.useState({ label:'', uid:'' });
@@ -216,7 +217,6 @@ function AchievementPage({ game }){
   const percent = rows.length ? Math.round((doneCount / rows.length) * 100) : 0;
   const selectedCategory = categoryId === 'all' ? null : categoryById.get(categoryId) || null;
   const selectedProgress = selectedCategory ? categoryProgress.get(selectedCategory.id) : { total:rows.length, done:doneCount, reward:totalReward, earned:earnedReward, versions:rows.map((row) => row.version).filter(Boolean) };
-  const selectedPercent = selectedProgress?.total ? Math.round((selectedProgress.done / selectedProgress.total) * 100) : 0;
   const currencyName = catalogState.data?.rewardCurrency?.name || config.currency;
   const rewardIcon = nyxAchievementIconPath(catalogState.data?.rewardCurrency?.icon?.path, game);
 
@@ -240,6 +240,7 @@ function AchievementPage({ game }){
   const selectCategory = (id) => {
     setCategoryId(id);
     setAtlasOpen(false);
+    setCategoryGridOpen(false);
     setBulkConfirm('');
     if (atlasOpen) requestAnimationFrame(() => atlasToggle.current?.focus());
   };
@@ -362,43 +363,55 @@ function AchievementPage({ game }){
     : [];
 
   return <main className={`gp-main-pane fill achievement-page achievement-${game}`}>
-    <header className="achievement-observatory">
-      <div className="achievement-astral-seal" style={{ '--ach-pct':`${selectedPercent * 3.6}deg` }} role="progressbar" aria-label={`${selectedCategory?.name || 'All achievements'} progress`} aria-valuemin="0" aria-valuemax="100" aria-valuenow={selectedPercent}>
-        <span className="achievement-astral-ring" />
-        <AchievementCategoryIcon category={selectedCategory} game={game} all={!selectedCategory} className="achievement-astral-art" />
-        <span className="achievement-astral-value"><b>{selectedPercent}%</b><small>{selectedProgress?.done || 0} / {selectedProgress?.total || 0}</small></span>
+    <header className="achievement-page-head">
+      <div className="achievement-page-title">
+        <AchievementCategoryIcon game={game} all className="achievement-title-icon" />
+        <div><span>{config.name}</span><h1>Achievements</h1></div>
       </div>
-      <div className="achievement-observatory-copy">
-        <span>{config.name} · Achievement Ledger</span>
-        <h1>Celestial Archive</h1>
-        <p>Find what is missing, check it by hand, or bring in your account export. Your progress stays in this browser.</p>
-        <div className="achievement-observatory-facts" aria-label="Archive summary">
-          <span><b>{earnedReward.toLocaleString()}</b> / {totalReward.toLocaleString()} {currencyName}</span>
-          <span><b>{completeCategories}</b> / {categories.length} categories complete</span>
-          <span><b>{Math.max(0, rows.length - doneCount)}</b> achievements remaining</span>
-        </div>
+      <div className="achievement-overall" role="progressbar" aria-label="Overall achievement progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow={percent}>
+        <span>Completed</span><strong>{doneCount.toLocaleString()} / {rows.length.toLocaleString()}</strong>
+        <i><b style={{ width:`${percent}%` }} /></i>
+        <small>{earnedReward.toLocaleString()} / {totalReward.toLocaleString()} {currencyName} · {completeCategories} / {categories.length} categories</small>
       </div>
       <div className="achievement-profile-tools">
         <label><span>Profile</span><select value={storedProfile?.id || ''} onChange={(event) => setProfileId(event.target.value)} disabled={!canSave || !profiles.length}>{profiles.length ? profiles.map((row) => <option value={row.id} key={row.id}>{row.label || 'Unnamed profile'}</option>) : <option>Read-only catalog</option>}</select></label>
-        <button ref={manageButton} type="button" className="achievement-manage-button" onClick={() => setManageOpen(true)} disabled={!profile}>Manage</button>
+        <button ref={manageButton} type="button" className="achievement-manage-button" onClick={() => setManageOpen(true)} disabled={!profile}>Manage progress</button>
       </div>
     </header>
 
     {storeError && <div className="achievement-notice error" role="alert"><strong>Checkmarks are unavailable.</strong><span>{storeError} You can still browse the catalog.</span></div>}
-    {catalogState.loading && <div className="achievement-loading" role="status" aria-live="polite"><span /><span /><span /><p>Opening the celestial archive…</p></div>}
+    {catalogState.loading && <div className="achievement-loading" role="status" aria-live="polite"><span /><span /><span /><p>Loading achievements…</p></div>}
     {catalogState.error && <div className="achievement-notice error" role="alert"><p>{catalogState.error}</p><button type="button" onClick={() => setCatalogState((state) => ({ ...state, attempt:state.attempt + 1 }))}>Try again</button></div>}
 
     {catalogState.data && profile && <>
       {profile.unknownIds.length > 0 && <div className="achievement-notice achievement-unknown-note"><strong>{profile.unknownIds.length} future match{profile.unknownIds.length === 1 ? '' : 'es'} saved</strong><span>These imported IDs are not in this catalog yet. They will become checkmarks automatically if a future catalog includes them.</span></div>}
 
+      <div className="achievement-toolbar">
+        <label className="achievement-search"><span>Search achievements</span><input type="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search achievements" /></label>
+        <div className="achievement-status-filter" role="group" aria-label="Completion filter">{[['all','All'],['missing','Missing'],['done','Completed']].map(([value, label]) => <button type="button" key={value} className={status === value ? 'on' : ''} aria-pressed={status === value} onClick={() => setStatus(value)}>{label}</button>)}</div>
+        <button type="button" className="achievement-gallery-toggle" aria-pressed={categoryGridOpen} onClick={() => setCategoryGridOpen((value) => !value)}>{categoryGridOpen ? 'Back to list' : 'View categories'}</button>
+        <label className="achievement-sort"><span>Sort</span><select value={sort} onChange={(event) => setSort(event.target.value)}><option value="source">Game order</option><option value="incomplete">Incomplete first</option><option value="newest">Newest version</option><option value="reward">Highest reward</option><option value="name">Name A–Z</option></select></label>
+      </div>
+
       <button ref={atlasToggle} type="button" className="achievement-atlas-toggle" aria-expanded={atlasOpen} aria-controls="achievement-category-atlas" onClick={() => setAtlasOpen((value) => !value)}>
         <AchievementCategoryIcon category={selectedCategory} game={game} all={!selectedCategory} className="achievement-atlas-toggle-art" />
-        <span><small>Viewing category</small><b>{selectedCategory?.name || 'All achievements'}</b></span><i aria-hidden="true">{atlasOpen ? 'Close' : 'Change'}</i>
+        <span><small>Category</small><b>{selectedCategory?.name || 'All achievements'}</b></span><i aria-hidden="true">{atlasOpen ? 'Close' : 'Change'}</i>
       </button>
 
-      <div className="achievement-archive">
-        <aside id="achievement-category-atlas" className={`achievement-atlas${atlasOpen ? ' open' : ''}`} aria-label="Achievement category atlas">
-          <header><span>Category atlas</span><b>{categories.length} constellations</b></header>
+      {categoryGridOpen ? <section className="achievement-category-gallery" aria-label="Achievement categories">
+        {categories.map((category) => {
+          const progress = categoryProgress.get(category.id) || { done:0, total:0 };
+          const categoryPercent = progress.total ? Math.round((progress.done / progress.total) * 100) : 0;
+          return <button type="button" className="achievement-category-card" key={category.id} onClick={() => selectCategory(category.id)}>
+            <AchievementCategoryIcon category={category} game={game} className="achievement-category-card-icon" />
+            <strong>{category.name}</strong>
+            <span><small>{progress.done} / {progress.total}</small><b>{categoryPercent}%</b></span>
+            <i style={{ '--category-progress':`${categoryPercent}%` }} />
+          </button>;
+        })}
+      </section> : <div className="achievement-archive">
+        <aside id="achievement-category-atlas" className={`achievement-atlas${atlasOpen ? ' open' : ''}`} aria-label="Achievement categories">
+          <header><span>Categories</span><b>{categories.length} total</b></header>
           <label className="achievement-atlas-search"><span>Find a category</span><input type="search" value={categoryQuery} onChange={(event) => setCategoryQuery(event.target.value)} placeholder="Category name" /></label>
           <label className="achievement-atlas-check"><input type="checkbox" checked={hideCompletedCategories} onChange={(event) => setHideCompletedCategories(event.target.checked)} /><span>Hide completed categories</span></label>
           <nav>
@@ -421,20 +434,17 @@ function AchievementPage({ game }){
         <section className="achievement-ledger" aria-label="Achievement ledger">
           <header className="achievement-ledger-heading">
             <AchievementCategoryIcon category={selectedCategory} game={game} all={!selectedCategory} className="achievement-ledger-icon" />
-            <div><span>{selectedCategory ? 'Selected constellation' : 'Complete catalog'}</span><h2>{selectedCategory?.name || 'All achievements'}</h2><p>{selectedProgress.done} of {selectedProgress.total} complete · {selectedProgress.earned.toLocaleString()} of {selectedProgress.reward.toLocaleString()} {currencyName}{versionRange.length ? ` · v${versionRange[0]}–${versionRange[versionRange.length - 1]}` : ''}</p></div>
+            <div><span>{selectedCategory ? 'Category' : 'Complete catalog'}</span><h2>{selectedCategory?.name || 'All achievements'}</h2><p>{selectedProgress.done} of {selectedProgress.total} complete · {selectedProgress.earned.toLocaleString()} of {selectedProgress.reward.toLocaleString()} {currencyName}{versionRange.length ? ` · v${versionRange[0]}–${versionRange[versionRange.length - 1]}` : ''}</p></div>
             <div className="achievement-category-actions">
               {!bulkConfirm && <><button type="button" onClick={() => setBulkConfirm('complete')} disabled={!canSave || selectedProgress.done === selectedProgress.total}>Mark all complete</button><button type="button" className="achievement-quiet-button" onClick={() => setBulkConfirm('clear')} disabled={!canSave || !selectedProgress.done}>Clear checks</button></>}
               {bulkConfirm && <div className="achievement-inline-confirm" role="alert"><span>{bulkConfirm === 'complete' ? `Check all ${selectedProgress.total}?` : `Remove ${selectedProgress.done} checks?`}</span><button autoFocus type="button" onClick={() => applyBulk(bulkConfirm === 'complete')}>Confirm</button><button type="button" className="achievement-quiet-button" onClick={() => setBulkConfirm('')}>Cancel</button></div>}
             </div>
           </header>
 
-          <div className="achievement-filter-bar">
-            <label className="achievement-search"><span>Search achievements</span><input type="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Name, requirement, version, or ID" /></label>
-            <div className="achievement-status-filter" role="group" aria-label="Completion filter">{[['all','All'],['missing','Missing'],['done','Completed']].map(([value, label]) => <button type="button" key={value} className={status === value ? 'on' : ''} aria-pressed={status === value} onClick={() => setStatus(value)}>{label}</button>)}</div>
+          <div className="achievement-filter-bar" aria-label="More achievement filters">
             <label><span>Version</span><select value={version} onChange={(event) => setVersion(event.target.value)}><option value="all">Every version</option>{availableVersions.map((value) => <option value={value} key={value}>v{value}</option>)}</select></label>
             <label><span>Reward</span><select value={reward} onChange={(event) => setReward(event.target.value)}><option value="all">Any reward</option>{availableRewards.map((value) => <option value={value} key={value}>{value} {currencyName}</option>)}</select></label>
             {game === 'hsr' && <label><span>Rarity</span><select value={rarity} onChange={(event) => setRarity(event.target.value)}><option value="all">Every rarity</option>{availableRarities.map((value) => <option value={value} key={value}>{value}</option>)}</select></label>}
-            <label><span>Sort</span><select value={sort} onChange={(event) => setSort(event.target.value)}><option value="source">Game order</option><option value="incomplete">Incomplete first</option><option value="newest">Newest version</option><option value="reward">Highest reward</option><option value="name">Name A–Z</option></select></label>
           </div>
           <div className="achievement-result-strip" aria-live="polite"><span>{filteredRows.length} achievement{filteredRows.length === 1 ? '' : 's'} found</span>{hasFilters && <button type="button" onClick={clearFilters}>Clear filters</button>}</div>
 
@@ -457,12 +467,12 @@ function AchievementPage({ game }){
                 </div>}
               </article>;
             })}
-            {!filteredRows.length && <div className="achievement-empty"><AchievementCategoryIcon game={game} all className="achievement-empty-seal" /><strong>No stars in this view</strong><span>Those filters do not match an achievement.</span><button type="button" onClick={clearFilters}>Clear filters</button></div>}
+            {!filteredRows.length && <div className="achievement-empty"><AchievementCategoryIcon game={game} all className="achievement-empty-seal" /><strong>No achievements match</strong><span>Change the search or filters.</span><button type="button" onClick={clearFilters}>Clear filters</button></div>}
             {visibleRows.length < filteredRows.length && <button type="button" className="achievement-load-more" onClick={() => setVisibleLimit((value) => value + NYX_ACHIEVEMENT_BATCH)}>Show {Math.min(NYX_ACHIEVEMENT_BATCH, filteredRows.length - visibleRows.length)} more <span>{visibleRows.length} of {filteredRows.length} loaded</span></button>}
-            {!doneCount && !hasFilters && categoryId === 'all' && <div className="achievement-zero-guide"><strong>Your archive is ready.</strong><span>Use Manage to import progress, or check achievements one by one.</span><button type="button" onClick={() => setManageOpen(true)}>Open Manage</button></div>}
+            {!doneCount && !hasFilters && categoryId === 'all' && <div className="achievement-zero-guide"><strong>No progress yet</strong><span>Import progress or mark achievements one by one.</span><button type="button" onClick={() => setManageOpen(true)}>Manage progress</button></div>}
           </div>
         </section>
-      </div>
+      </div>}
 
       <footer className="achievement-disclaimer">PENGO • Nyx is an unofficial fan-made tool and is not affiliated with HoYoverse.<br />Game content and assets are owned by HoYoverse / COGNOSPHERE / miHoYo.<br />Other properties belong to their respective owners.</footer>
     </>}
@@ -470,11 +480,11 @@ function AchievementPage({ game }){
     {manageOpen && <div className="achievement-manage-layer">
       <button type="button" className="achievement-manage-scrim" aria-label="Close achievement management" onClick={() => setManageOpen(false)} />
       <aside ref={managePanel} className="achievement-manage" role="dialog" aria-modal="true" aria-labelledby="achievement-manage-title">
-        <header><div><span>Local archive controls</span><h2 id="achievement-manage-title">Manage achievements</h2></div><button type="button" className="achievement-manage-close" aria-label="Close" onClick={() => setManageOpen(false)}>×</button></header>
+        <header><div><span>Achievement controls</span><h2 id="achievement-manage-title">Manage progress</h2></div><button type="button" className="achievement-manage-close" aria-label="Close" onClick={() => setManageOpen(false)}>×</button></header>
         <nav aria-label="Management sections">{[['import','Import progress'],['profile','Profile'],['backup','Backup']].map(([value, label]) => <button type="button" key={value} className={manageTab === value ? 'on' : ''} aria-current={manageTab === value ? 'page' : undefined} onClick={() => { setManageTab(value); setConfirmAction(''); }}>{label}</button>)}</nav>
 
         {manageTab === 'import' && <section className="achievement-manage-section">
-          <div className="achievement-manage-intro"><span>Import progress</span><h3>Bring your checkmarks home</h3><p>Choose a Pengo/Stardb-compatible JSON file. Nothing changes until you approve the preview.</p></div>
+          <div className="achievement-manage-intro"><span>Import progress</span><h3>Import achievement progress</h3><p>Choose a Pengo/Stardb-compatible JSON file. Nothing changes until you approve the preview.</p></div>
           <label className="achievement-file-button" aria-disabled={!canSave}>Choose achievement JSON<input ref={importInput} type="file" accept=".json,application/json" onChange={(event) => previewImport(event.target.files?.[0])} disabled={!canSave} /></label>
           <fieldset className="achievement-import-mode"><legend>How should this import behave?</legend><label><input type="radio" name="achievement-import-mode" value="merge" checked={importMode === 'merge'} onChange={() => { setImportMode('merge'); setReplaceConfirmed(false); }} /><span><b>Merge</b><small>Safe default. Add checks and keep everything already marked.</small></span></label><label><input type="radio" name="achievement-import-mode" value="replace" checked={importMode === 'replace'} onChange={() => { setImportMode('replace'); setReplaceConfirmed(false); }} /><span><b>Replace</b><small>Make this profile match the file, including removing checks.</small></span></label></fieldset>
           {importPreview && <div className="achievement-import-preview" role="status"><div><b>{importPreview.newCompletedCount}</b><span>new checks</span></div><div><b>{importPreview.alreadyCompletedCount}</b><span>already checked</span></div><div className={importPreview.unknownCount ? 'warn' : ''}><b>{importPreview.unknownCount}</b><span>unknown IDs</span></div><div className={importPreview.invalidCount ? 'warn' : ''}><b>{importPreview.invalidCount}</b><span>invalid rows</span></div><div className={importPreview.duplicateCount ? 'warn' : ''}><b>{importPreview.duplicateCount}</b><span>duplicates skipped</span></div>{importMode === 'replace' && <><div className={importPreview.replaceCompletedRemovedCount ? 'danger' : ''}><b>{importPreview.replaceCompletedRemovedCount}</b><span>checks removed</span></div><div className={importPreview.replaceUnknownRemovedCount ? 'danger' : ''}><b>{importPreview.replaceUnknownRemovedCount}</b><span>unmatched IDs removed</span></div></>}<p><strong>Detected game:</strong> {importPreview.game === 'gi' ? 'Genshin Impact' : 'Honkai: Star Rail'}{sampleImportNames.length > 0 && <> · <strong>New matches:</strong> {sampleImportNames.join(' · ')}</>}{!importPreview.uniqueCount && <> · No usable achievement IDs were found.</>}</p>{importMode === 'replace' && <label className="achievement-replace-confirm"><input type="checkbox" checked={replaceConfirmed} onChange={(event) => setReplaceConfirmed(event.target.checked)} /><span>I understand this removes saved checkmarks and unmatched IDs missing from the file.</span></label>}<div className="achievement-import-actions"><button type="button" onClick={applyImport} disabled={!importPreview.uniqueCount || (importMode === 'replace' && !replaceConfirmed)}>{importMode === 'replace' ? 'Replace this profile' : 'Merge this progress'}</button><button type="button" className="achievement-quiet-button" onClick={() => setImportPreview(null)}>Cancel</button></div></div>}

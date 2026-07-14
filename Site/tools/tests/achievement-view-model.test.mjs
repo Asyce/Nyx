@@ -7,6 +7,7 @@ import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const source = await fs.readFile(path.join(root, 'src/features/achievements/achievement-view-model.js'), 'utf8');
+const viewSource = await fs.readFile(path.join(root, 'src/features/achievements/achievement-view.jsx'), 'utf8');
 const context = { window:{} };
 vm.createContext(context);
 vm.runInContext(source, context, { filename:'achievement-view-model.js' });
@@ -62,4 +63,11 @@ test('progressive rendering returns exact stable batches without losing the rema
   assert.equal(second.rows[239].id, '239');
   assert.equal(second.hasMore, true);
   assert.equal(View.progressiveRows(values, 241).hasMore, false);
+});
+
+test('achievement page uses the Nyx tracker shell without placeholder lore copy', () => {
+  assert.match(viewSource, /achievement-page-head/);
+  assert.match(viewSource, /achievement-toolbar/);
+  assert.match(viewSource, /achievement-category-gallery/);
+  assert.doesNotMatch(viewSource, /Celestial Archive|Find what is missing|constellations|Category atlas|Selected constellation|Your archive/i);
 });

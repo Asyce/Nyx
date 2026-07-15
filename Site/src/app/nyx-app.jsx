@@ -3071,7 +3071,7 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
   };
   // G13: the section list the Characters header icon-dropdown switches between.
   const sectionKey = (f) => /tracker$/i.test(f) ? 'tracker' : /^(characters|character materials)$/i.test(f) ? 'mats' : 'database';
-  const sections = [{ key:'overview', label:'Overview' }, ...visibleFns.map((f) => ({ key:sectionKey(f), label:f })), ...(hasAchievements ? [{ key:'achievements', label:'Achievements' }] : []), ...(hasLibrary ? [{ key:'books', label:'The Library' }] : []), ...(betaActive ? [{ key:'beta', label:'Beta' }] : []), { key:'settings', label:'Settings' }];
+  const sections = [{ key:'overview', label:'Overview' }, ...visibleFns.map((f) => ({ key:sectionKey(f), label:f })), ...(hasAchievements ? [{ key:'achievements', label:'Achievements' }] : []), ...(hasLibrary ? [{ key:'books', label:'Library' }] : []), ...(betaActive ? [{ key:'beta', label:'Beta' }] : []), { key:'settings', label:'Settings' }];
   return (
     <div className={'gp-layout' + (tab === 'overview' ? ' has-aside' : '')}>
       <nav ref={sideNavRef} className="gp-side-nav" aria-label="Tools">
@@ -3095,7 +3095,7 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
           </div>
         )}
         {hasLibrary && (
-          <GPSectionNavButton active={tab === 'books'} label="The Library" onActivate={() => setTab('books')} />
+          <GPSectionNavButton active={tab === 'books'} label="Library" onActivate={() => setTab('books')} />
         )}
         {betaActive && (
           <GPSectionNavButton active={tab === 'beta'} label="Beta" onActivate={() => setTab('beta')} />
@@ -3641,7 +3641,7 @@ function routeTitleFor(key, tab, selection){
   const selectedName = selection && selection.game === key ? routeDisplayName(selection.name) : '';
   if (selectedName) return 'Nyx \u2014 ' + selectedName + ' \u2014 ' + name;
   if (key === 'nyx') return tab && tab !== 'overview' ? 'Nyx \u2014 ' + tab.replace(/\b\w/g, (c) => c.toUpperCase()) : 'Nyx';
-  const label = { mats:'Characters', database:'Database', tracker:'Tracker', tcg:'TCG', pot:'Serenitea Pot', wonderland:'Miliastra Wonderland', achievements:'Achievements', books:'The Library', beta:'Beta', settings:'Settings' }[tab] || '';
+  const label = { mats:'Characters', database:'Database', tracker:'Tracker', tcg:'TCG', pot:'Serenitea Pot', wonderland:'Miliastra Wonderland', achievements:'Achievements', books:'Library', beta:'Beta', settings:'Settings' }[tab] || '';
   return label ? 'Nyx \u2014 ' + label + ' \u2014 ' + name : 'Nyx \u2014 ' + name;
 }
 
